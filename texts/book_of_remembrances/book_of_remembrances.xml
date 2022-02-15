@@ -172,15 +172,17 @@
      <!-- 
       NOTES: 
       
-      TBD add year divs or not? inserted markers in comments
+      TBD 
+        add year divs or not? inserted markers in comments
+        make your mind up about ?divs
       
-      dates tagging: some years may still need checking for OS/NS; not yet added @when attributes to bare years in format yyyy, but done for full dates, uncertain, adjusted, yy, etc    
+      TODO dates tagging: some still need checking for OS/NS; not yet added @when attributes to bare years in format yyyy, but done for full dates, uncertain, adjusted, yy, etc    
       
       TODO following team discussion 15/12/21 about simplification of semidip
         year/page numbers to be consistently at top of page, even numbers=top left, odd=top right, ignoring any actual variations in text. [not moved them yet. some flagged with page number comments]
         NB: reminder to self: already checked numbering in this book is consistent even=left, odd=right.
         
-      simplify tagging of ms description features 
+      TBD tagging of ms description features 
           started to remove footnotes (or put in comments for reference/to come back to)
           in teiHeader added examples/comments for tags we might want in msDesc
       
@@ -237,7 +239,7 @@
          </fw>
      
      <div rend="post-diagonal-short">
-         <milestone unit="event" spanTo="#e1626-birth-awt"/><p><persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the<lb/>
+         <milestone unit="event" spanTo="#e-1"/><p><persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the<lb/>
           fifth childe of <persName ref="ppl:cw1" n="per3">Christopher<lb/>
           Wandesforde Esq.</persName><hi rend="superscript">r</hi> &amp; late<lb/>
           Lord Deputy of <placeName n="place1">Ireland</placeName>.<lb/>
@@ -246,7 +248,7 @@
           beeing munday, a bout two of<lb/>
           the clock in the after noone, in<lb/>
           the yeare. 1625: Baptised<lb/>
-          the next day.</p><anchor xml:id="e1626-birth-awt" corresp="event:1626-birth-awt"/>
+          the next day.</p><anchor xml:id="e-1" corresp="event:1626-birth-awt"/>
          <p>Wittnesses, <persName ref="ppl:rl1" n="per4">Mr Lassells</persName> minister<lb/>
           of <placeName n="place3">Kirklington</placeName>. <persName ref="ppl:awn1" n="per5">Mrs Anne <lb/>
             Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.</p>
@@ -277,7 +279,7 @@
          <l>Curbe my Stoute affections:</l>
          <l>Nip thou the bud,</l>
          <l>Before the bloome beginnes</l>
-         <l>Lord <add place="above" cert="low">the one</add> [uer]
+         <l>Lord <add place="above" cert="low">the one</add> [ver]
             <!-- CHECK ? [NOTE] Even in the original this is very difficult to read.-->
             
             keepe me, from
@@ -457,7 +459,7 @@
                <date>1631</date>:
             </fw>
          </fw>
-         <milestone unit="event" spanTo="#ev2"/><p>
+         <milestone unit="event" spanTo="#e-2"/><p>
             When I was left at <placeName n="place4">Richmond</placeName> 
             <subst>
               <del rend="strikethrough">in</del>
@@ -490,7 +492,7 @@
           requests of my deare Aunt. that<lb/>
           I was spaired &amp; upon the use of good<lb/>
           meanes by his blessing there on I<lb/>
-          recovered my health perfectly again<anchor xml:id="ev2"/><lb/>
+          recovered my health perfectly again<anchor xml:id="e-2"/><lb/>
           Oh that I may have my life<lb/>
           given me for a blessing &amp; that I may<lb/>
           live to the Praise of his holy name<lb/>
@@ -515,7 +517,7 @@
             <fw type="pageNum">12</fw>
             <fw type="header">163i.</fw>
          </fw>
-         <milestone unit="event" spanTo="#ev3"/>
+         <milestone unit="event" spanTo="#e-3"/>
         <p>Beeing removed from <placeName n="place5">Richmond</placeName><lb/>
           to <placeName n="place6">London</placeName> by <rs ref="ppl:cw1" n="per13" type="person">my Father</rs>s &amp; <rs ref="ppl:aow1" n="per14" type="person">mother</rs>s<lb/>
           order to be with them. I fell into the<lb/>
@@ -526,7 +528,7 @@
           much beloved &amp; taken caire for by them<lb/>
           And by the blessing of God I recovered<lb/>
           very soone, nor was I very ill at<lb/>
-          that time in thim.<anchor xml:id="ev3"/> I will praise the<lb/>
+          that time in thim.<anchor xml:id="e-3"/> I will praise the<lb/>
           Lord our God for my Preservation &amp;<lb/>
           deliverance that did not suffer that disseas<lb/>
            to rage &amp; indanger my life. <del rend="strikethrough"><unclear unit="char" quantity="2" reason="illegible"/></del> but<lb/>
@@ -545,7 +547,7 @@
             </fw>
             <fw type="pageNum">13.</fw>
          </fw>
-        <milestone unit="event" spanTo="#ev4"/>
+        <milestone unit="event" spanTo="#e-4"/>
          <p>After this it pleased the Lord to<lb/>
           begin to come into my soule by some<lb/>
           beames of his mercy in puting good <lb/>
@@ -595,7 +597,8 @@
           &amp; reason to know there is a God that<lb/>
           Ruleth in heaven &amp; Earth, &amp; to reward<lb/>
           them that serves him truly. with Joy in Heaven<lb/>
-          that should never have end.</p><anchor xml:id="ev4"/>
+          that should never have end.</p>
+        <anchor xml:id="e-4"/>
          </div>
             <pb n="15"/>
 
@@ -609,7 +612,7 @@
             </fw>
             <fw type="pageNum">15</fw>
          </fw>
-      <milestone unit="event" spanTo="#ev5"/>
+      <milestone unit="event" spanTo="#e-5"/>
          <p>There was a great fire in the next<lb/>
           House to <rs ref="ppl:cw1" n="per19" type="person">my father</rs>s in <placeName n="place8">St martins<lb/>
           Lane in London</placeName>, which burnd a part <lb/>
@@ -625,7 +628,7 @@
           come &amp; caused great feare &amp; tremblig<lb/>
           but we weare all delivered from<lb/>
           Ruine by that fire all though my Father<lb/>
-          had great losse.<anchor xml:id="ev5"/> but blessed be the Lord<lb/>
+          had great losse.<anchor xml:id="e-5"/> but blessed be the Lord<lb/>
           my God who gave us not over to this<lb/>
            cruell Elament of fire but <w norm="preserved">preserd</w>
             <lb/>
@@ -642,12 +645,12 @@
                <date>1632.</date>
             </fw>
          </fw>
-         <p><milestone unit="event" spanTo="#ev6"/>It pleased God to give me a<lb/>
+         <p><milestone unit="event" spanTo="#e-6"/>It pleased God to give me a<lb/>
           safe passage with <rs ref="ppl:aow1" n="per24" type="person">my mother</rs> &amp; her<lb/>
           familie into <placeName n="place9">Ireland</placeName> a bout the yeir<lb/>
           <date precision="medium">1632</date>: <rs ref="ppl:cw1" n="per25" type="person">my Father</rs> beeing there before<lb/>
-          and sent for us over.<anchor xml:id="ev6"/> 
-          <milestone unit="event" spanTo="#ev7"/>where I injoyed<lb/>
+          and sent for us over.<anchor xml:id="e-6"/> 
+          <milestone unit="event" spanTo="#e-7"/>where I injoyed<lb/>
           great happinesse &amp; comfort during<lb/>
           my fathers life and had the opportuni<lb/>
           ty of the best education that Kingdom<lb/>
@@ -676,7 +679,7 @@
           sweetemeats &amp; by <rs ref="ppl:aow1" n="per30" type="person">my deare mother</rs>s<lb/>
           vertuous provision. &amp; caire she brought<lb/>
           me up in all those sutable to that <lb/>
-          quality <add place="above">as</add> <rs ref="ppl:cw1" n="per31" type="person">my Father</rs>s child.<anchor xml:id="ev7"/> But above<lb/>
+          quality <add place="above">as</add> <rs ref="ppl:cw1" n="per31" type="person">my Father</rs>s child. But above<lb/>
           all these things. I accounted it my <lb/>
           cheife happinesse in those Pieous. holy<lb/>
           &amp; religeous, instructions, Examples,<lb/>
@@ -686,7 +689,7 @@
           which I Receavid from. both my Hon.<hi rend="superscript">rd</hi><lb/>
           <rs ref="ppl:cw1" n="per32" type="person">father</rs> &amp; <rs ref="ppl:aow1" n="per33" type="person">mother</rs>. with theire Chaste &amp;<lb/>
           sober Conversation in all things of<lb/>
-          this world. For all which things. &amp; infinitly<lb/>
+          this world.<anchor xml:id="e-7"/> For all which things. &amp; infinitly<lb/>
           more opportunitys of Good to my wellbeing<lb/>
           then I can expresse. I most humbly &amp;<lb/>
           heartily acknowledge my boundent<lb/>
@@ -715,7 +718,7 @@
           of theire part towards me. desiring<lb/>
           of God to give me grace to live in<lb/>
           holy obedience to all there goodness<lb/>
-           of God &amp; the<add place="superimposed">i</add>rs, &amp; that I m<add place="superimposed">a</add>y perform<lb/>
+           of God &amp; the<add place="superimposed">i</add>rs, &amp; that I may perform<lb/>
           my cordiall duty to them; in all<lb/>
           godly honesty &amp; righteous, in obeing<lb/>
           <rs ref="ppl:multi" n="per35" type="person">my parents</rs> in the Lord, to the end. of<lb/>
@@ -803,17 +806,17 @@
           fathomlesse gulfe of waters. praise<lb/>
           his holy name for ever &amp; for ever Amen</p>
         
-         <p>---------
-           <!-- TODO tagging but what kind of marker - new div or milestone? -->
+       <milestone unit="undetermined" rend="rule-short-left-margin"/>
            <!-- msDescription [NOTE] At a slight angle from margin over the top of ‘I’. -->
-         </p>
+         
          <p>I had a second preservation from drown<add place="above">ing</add><lb/>
           out of the ship at that time when a<lb/>
           cable had like to have puld me into<lb/>
           the sea but for a ship man that saved<lb/>
           me as I was halfe over. blesse the Lord<lb/>
           o my soule &amp; forget not the deliveranc<lb/>
-            Amen. </p><anchor/>
+            Amen. </p>
+        <anchor/>
         </div> 
     
        <!-- year 1640 -->
@@ -886,15 +889,14 @@
           of mercys who spaired my life at that<lb/>
           time allso. <add place="inline">with <persName ref="ppl:jw1" n="per40">my bro: John</persName> who had them<anchor/><lb/>
           <milestone unit="event"/>but a poore boy <persName ref="ppl:fk1" n="per41">F. Kelly</persName> died of them. then.<anchor/></add>
-          <!-- Q tagging ? text in <add> was transcribed after the section line, but seems to me it belongs in this section -->
            <!-- msDescription [NOTE] Words in angle brackets look to be later additions in a slightly different ink and size of writing. The underlining looks like it was done at the time the entry was originally written, as does the shorter line below.-->
             
          </p>
       </div>
     
-       <!-- year 1642 
+       <!-- year 1642 ... or not
        hmm. apparently 1642 is misdating by Alice and this was actually 1644. 
-       so would you add the extra year div...? -->
+        -->
 
        <div rend="pre-rule-part-width">
          <milestone unit="event"/>
@@ -918,17 +920,16 @@
           have proved my last. beeing brought <lb/>
           exceading weak through vomiting<lb/>
  
-         <fw place="left margin" rend="underline"><date>1643</date>.
-                <!-- CHECK ? [NOTE] 3 looks like it is written over something but might be just because added in and goes over the &amp;; this is part a marginal heading and part above this section.-->
-          </fw>
-                &amp; purging. but by the blessing of God</p>
-                <p>upon <persName ref="ppl:xm1" n="per43">Mr mahum</persName>s advices &amp; <rs ref="ppl:aow1" n="per44" type="person">my mother</rs><lb/>
-                And good <persName ref="ppl:awn1" n="per45">Aunt Norton</persName>s caire I escaped<lb/>
-                &amp; yet lives to render him the glory &amp;<lb/>
-                praise of all his wonderfull deliverences<lb/>
-                &amp; mercys.<anchor/> Blesse the Lord o my Soule<lb/>
-                and all that is within thee praise<lb/>
-                his holy name for ever. Amen.</p>
+         <fw place="left margin" rend="underline"><date>1643</date>.</fw>
+           
+          &amp; purging. but by the blessing of God</p>
+         <p>upon <persName ref="ppl:xm1" n="per43">Mr mahum</persName>s advices &amp; <rs ref="ppl:aow1" n="per44" type="person">my mother</rs><lb/>
+          And good <persName ref="ppl:awn1" n="per45">Aunt Norton</persName>s caire I escaped<lb/>
+          &amp; yet lives to render him the glory &amp;<lb/>
+          praise of all his wonderfull deliverences<lb/>
+          &amp; mercys.<anchor/> Blesse the Lord o my Soule<lb/>
+          and all that is within thee praise<lb/>
+          his holy name for ever. Amen.</p>
          </div>
      
        <!-- year 1645 -->
@@ -1302,12 +1303,12 @@
            by the fall I had in Sept: <hi rend="darkerInk" cert="low">before</hi>
          </p>
         <anchor/>
-         </div>
+
             <pb n="30"/>
 
 <!-- Page 30 -->
        <!-- year 1658 -->
-      <div>
+
          <fw>
             <fw type="pageNum" rend="underline">30.</fw>
             <fw type="header"><date>1658</date></fw>
@@ -1892,9 +1893,6 @@
             </note>
             <lb/>
           unworthinesse.</p>
-
-      <!-- Q tagging new div? there's an index entry, break *maybe* here -->
-  
          <p>In this most sad &amp; heavy condition I<lb/>
           was, haveing noe soule living that I could<lb/>
           open my thoughts to nor receave any<lb/>
@@ -2374,7 +2372,6 @@
 
 <!-- Page 60 -->
 
-  <!-- Q tagging new div?  -->
          <fw>
            <fw type="pageNum"><seg rend="darkerInk">60.</seg></fw>
             <fw type="header" rend="underline darkerInk"><date>1662</date>.</fw>
@@ -2619,9 +2616,7 @@
           in the whole course of my life, &amp;<lb/>
           of thankfullnesse to God for the daly<lb/>
           renuall of the same.</p>
-</div>
-      <div>   
-       <!-- Q tagging should this be new div?   -->
+   
          <p>I found by sad experiencs that the ma’y<lb/>
           troubles had fallen upon me of this<lb/>
           world had diverted my stricter cours<lb/>
@@ -3028,9 +3023,7 @@
            lasted till Candlemas affter by<lb/>
           fitts upon me.</p>  
         <anchor/>
-</div> 
-       <div>
-         <!-- Q tagging should this be new div? -->
+      
          <p>But oh o Lord wherefore are thy<lb/>
            miraculous mercys thus contined<note place="end" type="word">
                <p rend="Endnote Text">
@@ -3401,8 +3394,6 @@
           yet hath he not given me over to death<lb/>
           or despaire.</p>
  
-
-       <!-- Q tagging new div? -->
          <p>Looke when we were the nearest death behold<lb/>
           the goodnesse of God was intreated for us to<lb/>
           restore both our lives and let me ever return<lb/>
@@ -3475,7 +3466,9 @@
             <pb n="96"/>
 
 <!-- Page 96 -->
-<div>
+       
+    <!-- year 1666 -->
+    <div>
          <fw type="pageNum">96.</fw>
          <p>
           While I am in this bodie of death<lb/>
@@ -3587,9 +3580,8 @@
           that thou hast a love for my soule &amp; desirit<lb/>
           not the death of a sinner, but rather that we<lb/>
           should be converted &amp; live.</p>
-</div>
-       <!-- year 1666 -->
-       <div>  
+
+ 
          <milestone unit="event"/>
          <p><persName ref="ppl:jt1" n="per224">my deare Child Joyce</persName> fell very sick upon<lb/>
           Sunday <date when="1666-01-20">20<hi rend="superscript">th</hi> of Jan. 1665</date>: as we thought of a<lb/>
@@ -5100,12 +5092,11 @@
           delight in this world next under my good<lb/>
            God.</p>
          
-   </div>
+
             <pb n="138"/>
 
 <!-- Page 138 -->
-       <div>      
-<!-- Q tagging should this be new div? -->
+      
         <fw>
             <fw type="pageNum">138.</fw>
             <fw type="header">
@@ -5499,9 +5490,7 @@
             <pb n="149"/>
 
 <!-- Page 149 -->
-<div>
-     <!-- Q tagging new div? i think so -->
-  
+<div> 
   <fw>
     <fw type="header">
                <seg rend="underline"><date>1668</date>.</seg>
@@ -5607,7 +5596,7 @@
           loving couple in holy marriage together<lb/>
           almost 17 yeares.</p>
         <anchor/>
-</div>
+     </div>
      <div>
         <milestone unit="event"/>
          <p>He was brought home to <placeName n="place100">Newton</placeName> on<lb/>
