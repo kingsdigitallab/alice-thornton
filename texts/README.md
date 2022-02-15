@@ -1,1 +1,1 @@
-Once folder per text (MS/Book).
+One folder per text (MS/Book).
