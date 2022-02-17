@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>People in Alice Thornton's Books</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>ATB</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <p>Exported from Excel spreadsheet.</p>
+     </encodingDesc>
+     <revisionDesc>
+        <listChange>
+           <change>
+              <date>2022-02-17</date>
+              <name>Sharon Howard</name>
+              <desc>Initial version of Personography for AT Books based on name tagging Book of Remembrances with standardised names and some key relationships.</desc>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <!-- NOTES: 
+         ID construction based on name initials:
+            use full [std] initials where known
+            for married women include maiden surname initial if known
+            if firstname [or surname for that matter] unavailable use x
+            add number to ensure uniqueness
+            [might be expanded to use std names later if greater transparency is preferred]
+         
+         tbd IDs may be dedupable but need to be verified
+         
+         persName = std form, not unique, some provisional
+         
+         role "cousin" is AWT usage (included to help matching), not necessarily technically precise statement of relationship
+         -->
+<listPerson>
+  <person xml:id = "awt1" >
+    <persName>Alice Wandesford Thornton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "cw1" role = "father">
+    <persName>Christopher Wandesford</persName>
+    <note></note>
+  </person>
+  <person xml:id = "rl1" >
+    <persName>Roger Lasselles</persName>
+    <note></note>
+  </person>
+  <person xml:id = "awn1" role = "aunt">
+    <persName>Anne Wandesford Norton</persName>
+    <note>CB: aunt norton = anne wandesford norton</note>
+  </person>
+  <person xml:id = "xb1" >
+    <persName>Mrs Best</persName>
+    <note>"may be" Olive Mallory Best w of Thomas Best. x for now</note>
+  </person>
+  <person xml:id = "st1" role = "servant">
+    <persName>Sarah Tomlinson</persName>
+    <note></note>
+  </person>
+  <person xml:id = "cw2" role = "brother">
+    <persName>Christopher Wandesford</persName>
+    <note></note>
+  </person>
+  <person xml:id = "xb2" >
+    <persName>Mr Baxter</persName>
+    <note>of Kent, 1 brief mention, unlikely to be identifiable</note>
+  </person>
+  <person xml:id = "xl1" >
+    <persName>Lady Levestone</persName>
+    <note>Levestone in Bk1. no ident by anselment</note>
+  </person>
+  <person xml:id = "tw1" >
+    <persName>Thomas Wentworth, earl of Strafford</persName>
+    <note></note>
+  </person>
+  <person xml:id = "aw1" >
+    <persName>Lady Anne Wentworth</persName>
+    <note></note>
+  </person>
+  <person xml:id = "aw2" >
+    <persName>Lady Arbella Wentworth</persName>
+    <note></note>
+  </person>
+  <person xml:id = "jw1" role = "brother">
+    <persName>John Wandesford</persName>
+    <note></note>
+  </person>
+  <person xml:id = "fk1" >
+    <persName>Frank Kelly</persName>
+    <note></note>
+  </person>
+  <person xml:id = "td1" >
+    <persName>Thomas Danby</persName>
+    <note>CB: Bk 1 says 'danby of cave' here so Thomas Danby - 2nd son of Thomas Danby of Braworth, d.1645</note>
+  </person>
+  <person xml:id = "xm1" >
+    <persName>Mr Mahum</persName>
+    <note>"my old doctor" anselment suggests might be Richard. x for now</note>
+  </person>
+  <person xml:id = "kwd1" role = "sister">
+    <persName>Katherine Wandesford Danby</persName>
+    <note></note>
+  </person>
+  <person xml:id = "fd1" role = "nephew">
+    <persName>Francis Danby</persName>
+    <note></note>
+  </person>
+  <person xml:id = "en1" role = "cousin">
+    <persName>Edmund Norton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "td2" >
+    <persName>Toby Dudley</persName>
+    <note></note>
+  </person>
+  <person xml:id = "jdn1" >
+    <persName>Jane Dudley Norton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "cs1" >
+    <persName>Charles I</persName>
+    <note></note>
+  </person>
+  <person xml:id = "jn1" role = "cousin">
+    <persName>Julian Norton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "jn2" role = "cousin">
+    <persName>John Norton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "eo1" role = "uncle">
+    <persName>Sir Edward Osborne</persName>
+    <note></note>
+  </person>
+  <person xml:id = "gw1" role = "brother">
+    <persName>George Wandesford</persName>
+    <note></note>
+  </person>
+  <person xml:id = "ww1" role = "uncle">
+    <persName>William Wandesford</persName>
+    <note></note>
+  </person>
+  <person xml:id = "mny1" role = "cousin">
+    <persName>Mary Norton Yorke</persName>
+    <note></note>
+  </person>
+  <person xml:id = "jy1" role = "cousin">
+    <persName>John Yorke</persName>
+    <note>BR "Vorke" sic Yorke. [CB: JY marries MN]</note>
+  </person>
+  <person xml:id = "jl1" >
+    <persName>Sir John Lowther</persName>
+    <note></note>
+  </person>
+  <person xml:id = "elw1" >
+    <persName>Eleanor Lowther Wandesford</persName>
+    <note></note>
+  </person>
+  <person xml:id = "wt1" role = "husband">
+    <persName>William Thornton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "ms1" >
+    <persName>Michael Syddall</persName>
+    <note>syddall in anselment</note>
+  </person>
+  <person xml:id = "xt1" role = "child">
+    <persName>Unnamed Thornton daughter ?</persName>
+    <note>decide std description for the two unchristened babies?</note>
+  </person>
+  <person xml:id = "atc1" role = "daughter">
+    <persName>Alice Thornton Comber</persName>
+    <note>(naly)</note>
+  </person>
+  <person xml:id = "mn1" role = "uncle">
+    <persName>Maulger Norton</persName>
+    <note>ohhhh Major is Alice's spelling of his name not a title</note>
+  </person>
+  <person xml:id = "et1" role = "daughter">
+    <persName>Elizabeth Thornton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "ca1" >
+    <persName>Charles Anthony</persName>
+    <note></note>
+  </person>
+  <person xml:id = "kb1" >
+    <persName>Katherine Blackburne</persName>
+    <note></note>
+  </person>
+  <person xml:id = "edg1" >
+    <persName>Elizabeth Darley Thornton Gates</persName>
+    <note></note>
+  </person>
+  <person xml:id = "gg1" >
+    <persName>Gefferey Gates</persName>
+    <note>std to Jeffrey/Geoffrey?</note>
+  </person>
+  <person xml:id = "rt1" role = "brother in law">
+    <persName>Richard Thornton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "ktp1" role = "daughter">
+    <persName>Katherine Thornton Purchase Danby</persName>
+    <note></note>
+  </person>
+  <person xml:id = "kdb1" role = "niece">
+    <persName>Katherine Danby Best</persName>
+    <note>kitt. CB: Katherine Danby Best</note>
+  </person>
+  <person xml:id = "xt2" role = "son">
+    <persName>Unnamed Thornton son ?</persName>
+    <note></note>
+  </person>
+  <person xml:id = "rw1" >
+    <persName>Dr Robert Wittie</persName>
+    <note></note>
+  </person>
+  <person xml:id = "aow1" role = "mother">
+    <persName>Alice Osborne Wandesford</persName>
+    <note></note>
+  </person>
+  <person xml:id = "ps1" >
+    <persName>Dr Peter Samways</persName>
+    <note>Samways, samwaies and other variants</note>
+  </person>
+  <person xml:id = "jk1" >
+    <persName>John Kearton</persName>
+    <note>anselment sp both Kearton and Kirton, rector of richmond. (Kearton in Clergy db)</note>
+  </person>
+  <person xml:id = "dcl1" role = "servant">
+    <persName>Daphne Cassell Lightfoot</persName>
+    <note>Alice sp Dafeny [debate on teams about whether to standardise]</note>
+  </person>
+  <person xml:id = "tbd-per101" >
+    <persName>Dr Smith ??</persName>
+    <note>don't dedup per101 and per114 yet. this one seems to be a ref to a book author - Anselment says unidentified. so might not be same as Mr Smith below. Smiths, ugh.</note>
+  </person>
+  <person xml:id = "cd2" >
+    <persName>Conyers Darcy, Lord Darcy and Conyers</persName>
+    <note>conyers darcy, lord darcy and conyers. 1599-1689.</note>
+  </person>
+  <person xml:id = "cd3" >
+    <persName>Conyers Darcy ?</persName>
+    <note>son of Lord Darcy. colonel d'arcy in book1, so this is the eldest son, also called conyers??</note>
+  </person>
+  <person xml:id = "cw3" >
+    <persName>Sir Christopher Wyvill</persName>
+    <note></note>
+  </person>
+  <person xml:id = "xe1" >
+    <persName>Mr Edrington</persName>
+    <note>anselment very speculative idents</note>
+  </person>
+  <person xml:id = "xb3" >
+    <persName>Mr Binlows</persName>
+    <note>jackson possible thomas bendlowes seems very speculative</note>
+  </person>
+  <person xml:id = "mr1" >
+    <persName>Matthew Robinson</persName>
+    <note>anselment matthew robinson</note>
+  </person>
+  <person xml:id = "tbd-per114" >
+    <persName>Mr Smith ?</persName>
+    <note>don't dedup per114/per101 yet... anselment ident as george smith seems pretty uncertain as well. CB: I think this is the DR Smith above.  Anselment thinks George Smith, vicar p257 n487</note>
+  </person>
+  <person xml:id = "gf1" >
+    <persName>George Ferraro</persName>
+    <note>anselment george ferraro/farrer.</note>
+  </person>
+  <person xml:id = "tb1" >
+    <persName>Thomas Brockill</persName>
+    <note>anselment thomas brockill/brockhall</note>
+  </person>
+  <person xml:id = "cp1" >
+    <persName>Christopher Parkes</persName>
+    <note>anselment christopher parkes</note>
+  </person>
+  <person xml:id = "xa1" >
+    <persName>Dr Atie</persName>
+    <note>not mentioned in book 1 or anywhere else?</note>
+  </person>
+  <person xml:id = "xs1" >
+    <persName>Dr Smith</persName>
+    <note>also not mentioned in book 1? very brief mention. but this one=medical and does seem diff from previous two Smiths.</note>
+  </person>
+  <person xml:id = "wt2" role = "son">
+    <persName>William Thornton</persName>
+    <note>(baby william)</note>
+  </person>
+  <person xml:id = "wn1" role = "cousin">
+    <persName>William Norton</persName>
+    <note>(the one murdered in 1666)</note>
+  </person>
+  <person xml:id = "jd1" role = "cousin">
+    <persName>James Darcy</persName>
+    <note>anselment - james darcy of sedbury park nr richmond, 6th son of conyers, lord darcy &amp; conyers</note>
+  </person>
+  <person xml:id = "jd2" role = "brother in law">
+    <persName>John Denton</persName>
+    <note>*john senior* [CB – b-in-law of Mr T]</note>
+  </person>
+  <person xml:id = "rt2" role = "son">
+    <persName>Robert Thornton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "rn1" >
+    <persName>Robert Nettleton</persName>
+    <note>first name from anselment</note>
+  </person>
+  <person xml:id = "cd1" role = "niece">
+    <persName>Celia Danby</persName>
+    <note></note>
+  </person>
+  <person xml:id = "rc2" role = "cousin">
+    <persName>Roger Covell</persName>
+    <note></note>
+  </person>
+  <person xml:id = "bb1" role = "cousin">
+    <persName>Benjamin Browne</persName>
+    <note></note>
+  </person>
+  <person xml:id = "acd1" role = "niece">
+    <persName>Anne Culpepper Danby</persName>
+    <note>(chk there is only one Anne Danby? I can't see another in bios but there are so many Danbys...)</note>
+  </person>
+  <person xml:id = "wl1" >
+    <persName>William Lowcock</persName>
+    <note></note>
+  </person>
+  <person xml:id = "kc1" >
+    <persName>Katherine Cholmley</persName>
+    <note>CB Katherine Cholmley d.1672</note>
+  </person>
+  <person xml:id = "hb1" role = "nephew">
+    <persName>Henry Best</persName>
+    <note>anselment - husb of niece katherine danby</note>
+  </person>
+  <person xml:id = "jt1" role = "daughter">
+    <persName>Joyce Thornton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "jf1" >
+    <persName>John Frescheville</persName>
+    <note>seems to me mid 60s this must be John Frescheville, 1st baron (from 1664/5)? anselment same ident. [CB sp=Frescheville. on AT's mothers side but is more than 1 so will need to chk dates]</note>
+  </person>
+  <person xml:id = "tc1" role = "son in law">
+    <persName>Thomas Comber</persName>
+    <note></note>
+  </person>
+  <person xml:id = "rl2" >
+    <persName>Richard Legard</persName>
+    <note>legard</note>
+  </person>
+  <person xml:id = "sg1" >
+    <persName>Susanna Graham</persName>
+    <note>anselment - susanna graham w of ranald</note>
+  </person>
+  <person xml:id = "tbd-per212" >
+    <persName>Mrs Cholmely ??</persName>
+    <note>likely uc1 (not kc1) but don't dedup until checked. anselment "presumably". [CB In Bk 1 this is 'cousin Cholmley' and Anselment thinks prob sister C below; will chk what bk 2 says]</note>
+  </person>
+  <person xml:id = "uc1" role = "sister in law">
+    <persName>Ursula Cholmley</persName>
+    <note>Ursula Cholmley, half-sister of WT</note>
+  </person>
+  <person xml:id = "tp1" role = "brother in law">
+    <persName>Timothy Portington</persName>
+    <note>timothy. CB: WT's b-in-law</note>
+  </person>
+  <person xml:id = "ha1" >
+    <persName>Hannah Ableson</persName>
+    <note></note>
+  </person>
+  <person xml:id = "mc1" >
+    <persName>Mary Cotes</persName>
+    <note></note>
+  </person>
+  <person xml:id = "jd3" role = "son of brother-in-law">
+    <persName>John Denton</persName>
+    <note>*john junior*. [CB: John Denton b.1655]</note>
+  </person>
+  <person xml:id = "td3" role = "brother in law">
+    <persName>Sir Thomas Danby</persName>
+    <note>presuming Sir Thomas, husband of AT's sister Katherine</note>
+  </person>
+  <person xml:id = "td4" role = "nephew">
+    <persName>Thomas Danby</persName>
+    <note>sister's eldest son, murdered.</note>
+  </person>
+  <person xml:id = "xb4" >
+    <persName>Mr Burrage</persName>
+    <note>anselment - mr berridge or burrage. no further ident at present.</note>
+  </person>
+  <person xml:id = "jo1" >
+    <persName>John Ogle</persName>
+    <note>"his attackers, John Ogle and Thomas Jenney, were convicted at the Old Bailey of manslaughter" (Kirby, Thoresby Soc). (So what was the involvement of Berridge…?)</note>
+  </person>
+  <person xml:id = "tj1" >
+    <persName>Thomas Jenney</persName>
+    <note></note>
+  </person>
+  <person xml:id = "ct1" role = "son">
+    <persName>Christopher Thornton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "bt1" >
+    <persName>Barbara Todd</persName>
+    <note></note>
+  </person>
+  <person xml:id = "mb1" >
+    <persName>Mary Breakes</persName>
+    <note>is this sp Brakes elsewhere? may need to decide on std.</note>
+  </person>
+  <person xml:id = "tbd-per299" >
+    <persName>my neeces Danby ??</persName>
+    <note>text is "my neeces Danbys charity" - not clear to me if = my niece's or my nieces'. CB: tbd; nieces Katherine and Alice Danby; but Anne Danby also decsribed as niece elsewhere</note>
+  </person>
+  <person xml:id = "wd1" role = "cousin">
+    <persName>William Denton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "cn1" role = "cousin">
+    <persName>Christopher Norton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "ftp1" role = "sister in law">
+    <persName>Frances Thornton Portington</persName>
+    <note>CB: WT's sister Frances</note>
+  </person>
+  <person xml:id = "xs2" >
+    <persName>Mr Sinkler</persName>
+    <note>anselment ident seems very uncertain. x for now</note>
+  </person>
+  <person xml:id = "tt1" >
+    <persName>Thomas Thornton</persName>
+    <note></note>
+  </person>
+  <person xml:id = "wa1" >
+    <persName>William Ascough</persName>
+    <note></note>
+  </person>
+  <person xml:id = "rc1" >
+    <persName>Ralph Crathorne</persName>
+    <note></note>
+  </person>
+  <person xml:id = "jc1" >
+    <persName>John Crathorne</persName>
+    <note></note>
+  </person>
+  <person xml:id = "xb5" role = "cousin">
+    <persName>Cousin Bullock</persName>
+    <note>"a descendant of launcelot and margaret bullocke"</note>
+  </person>
+  <person xml:id = "el1" role = "cousin">
+    <persName>Edward? Lassells</persName>
+    <note>"My cozen". ed: short for edward or edmund?!</note>
+  </person>
+  <person xml:id = "wl2" >
+    <persName>William Laud</persName>
+    <note>in her mother's dream as "Bishop of Canterbury". seems most likely it's meant to be William Laud</note>
+  </person>
+  <person xml:id = "cs2" >
+    <persName>Charles II</persName>
+    <note></note>
+  </person>
+  <person xml:id = "hd1" >
+    <persName>Henry Darcy</persName>
+    <note>anselment 3rd son of lord darcy</note>
+  </person>
+  <person xml:id = "dbd1" >
+    <persName>Dorothy Bellasis Darcy</persName>
+    <note>mother of Henry. anselment - dorothy bellasis</note>
+  </person>
+  <person xml:id = "rd1" >
+    <persName>Richard Darley</persName>
+    <note>uncle of Mr T</note>
+  </person>
+  <person xml:id = "tbd-per392" >
+    <persName>Mr Norton ??</persName>
+    <note>which Norton is this?</note>
+  </person>
+  <person xml:id = "tbd-per402" >
+    <persName>my Lord Danby ??</persName>
+    <note>who is this?</note>
+  </person>
+  <person xml:id = "jf2" >
+    <persName>Jane Flouer</persName>
+    <note>to decide on std for surname?</note>
+  </person>
+  <person xml:id = "xi1" >
+    <persName>Captain Innes</persName>
+    <note>is first name known?</note>
+  </person>
+  <person xml:id = "js1" >
+    <persName>Jerome Smithson</persName>
+    <note></note>
+  </person>
+  <person xml:id = "tb2" >
+    <persName>Thomas Binks</persName>
+    <note></note>
+  </person>
+</listPerson>
+      </body>
+  </text>
+</TEI>
