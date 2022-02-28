@@ -177,17 +177,14 @@
      <!-- 
       NOTES: 
       
-      TBD 
-        add year divs or not? inserted markers in comments
-      
       TODO dates tagging: some still need checking for OS/NS; not yet added @when attributes to bare years in format yyyy, but done for full dates, uncertain, adjusted, yy, etc    
       
-      TODO following team discussion 15/12/21 about simplification of semidip
-        year/page numbers to be consistently at top of page, even numbers=top left, odd=top right, ignoring any actual variations in text. [not moved them yet. some flagged with page number comments]
-        NB: reminder to self: already checked numbering in this book is consistent even=left, odd=right.
+      TBD add year divs or not? inserted markers in comments, but doubtful about value of doing this.
+      
+      reminder to self: already checked numbering in this book is consistent even=left, odd=right.
         
-      TBD tagging of ms description features 
-          started to remove footnotes (or put in comments for reference/to come back to)
+      TBD tagging of ms description features - a lot of this to be dropped or only described in msDescription, but will review properly after I see final Book 1 transcription.
+          footnotes > comments for reference/to come back to
           in teiHeader added examples/comments for tags we might want in msDesc
       
       to review comments, remaining footnotes
@@ -215,7 +212,7 @@
          </docTitle>
          <docAuthor>  
          <persName ref="ppl:awt1" n="per1">
-           [ATW] <!-- TODO? tagging ATW = monogram. apparently no specific tag in tei. use seg type=monogram or something similar? -->
+           [ATW] <!-- TODO tagging ATW = monogram. apparently no specific tag in tei. use seg type=monogram or something similar? -->
          </persName>
          </docAuthor>
            <note place="end" type="context">
@@ -228,7 +225,8 @@
             <pb n="2"/>
 
 <!-- Page 2 -->
-     <!-- CHECK page blank apart from number: should page number be transcribed? see also page 4 (and possibly page 3v?).
+     <!-- Q page number: should it be transcribed? 
+       see also page 4 (and possibly page 3v?).
        [NOTE] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
          
          
@@ -243,7 +241,8 @@
          </fw>
      
      <div rend="post-diagonal-short">
-         <milestone n="ev1" unit="event"/><p><persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the<lb/>
+         <milestone n="ev1" unit="event"/>
+       <p><persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the<lb/>
           fifth childe of <persName ref="ppl:cw1" n="per3">Christopher<lb/>
           Wandesforde Esq.</persName><hi rend="superscript">r</hi> &amp; late<lb/>
           Lord Deputy of <placeName n="place1">Ireland</placeName>.<lb/>
@@ -256,7 +255,7 @@
          <p>Wittnesses, <persName ref="ppl:rl1" n="per4">Mr Lassells</persName> minister<lb/>
           of <placeName n="place3">Kirklington</placeName>. <persName ref="ppl:awn1" n="per5">Mrs Anne <lb/>
             Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.</p>
-         <p><!-- / [NOTE] A slightly angled slash under Best and beyond full stop.-->
+         <p><!-- / div rend [NOTE] A slightly angled slash under Best and beyond full stop.-->
          </p>
          </div>
      
@@ -284,7 +283,7 @@
          <l>Nip thou the bud,</l>
          <l>Before the bloome beginnes</l>
          <l>Lord <add place="above" cert="low">the one</add> [ver]
-            <!-- CHECK ? [NOTE] Even in the original this is very difficult to read.-->
+            <!-- CHECK MS? [NOTE] Even in the original this is very difficult to read.-->
             
             keepe me, from
          </l>
@@ -297,8 +296,9 @@
             <pb n="4"/>
 
 <!-- Page 4 -->
-<!-- CHECK "blank – but it is numbered in the top left-hand corner". 
-       page number wasn't transcribed; should it be? [no image] -->
+<!-- Q page number apparently present but not transcribed; should it be? [no image] 
+       [NOTE] blank – but it is numbered in the top left-hand corner. 
+       -->
          
          
             <pb n="5"/>
@@ -460,7 +460,7 @@
          <fw>
            <fw place="left margin">⁜</fw> <!-- [unicode dotted cross symbol] errm why is xslt changing unicodes? -->
             <fw type="header" rend="underline">
-               <date>1631</date>:
+               <date>1631</date>:<!-- TODO remove colons like this -->
             </fw>
          </fw>
          <milestone n="ev2" unit="event"/><p>
@@ -519,7 +519,7 @@
       <div>
          <fw>
             <fw type="pageNum">12</fw>
-            <fw type="header">163i.</fw>
+            <fw type="header">163i.</fw><!-- TODO conventions change i>arabic numerals here and elsewhere; check if there are any v. -->
          </fw>
          <milestone n="ev3" unit="event"/>
         <p>Beeing removed from <placeName n="place5">Richmond</placeName><lb/>
@@ -974,7 +974,7 @@
          <p><persName ref="ppl:en1" n="per48">My Cozen Edmund Norton</persName> maried<lb/>
         <persName ref="ppl:td2" n="per49">Mr Dudly</persName>s Daughter &amp; heire of.<lb/>
         Chopwell. <persName ref="ppl:jdn1" n="per50">Jane Dudly</persName>. the <date when="1647-02-10">10<hi rend="superscript">th</hi> of<lb/>
-           February. 1647<!-- CHECK date NS/OS --></date>. at <placeName n="place26">Chopwell</placeName>.<!-- / -->
+           February. 1647<!-- CHECK date NS/OS --></date>. at <placeName n="place26">Chopwell</placeName>.<!-- / div rend -->
          </p><anchor n="ev19"/>
        </div>
        <div rend="pre-rule-part-width post-diagonal-short">
@@ -982,7 +982,7 @@
          <milestone n="ev20" unit="event"/>
          <p> <persName ref="ppl:en1" n="per51">My Cosen Edmund Norton</persName> died at<lb/>
            <placeName n="place27">Yorke</placeName> of a pluresy, or stick in his<lb/>
-        side, the <date when="1648-11-30">30<hi rend="superscript">th</hi> of November: 1648</date>.<!-- /-->
+        side, the <date when="1648-11-30">30<hi rend="superscript">th</hi> of November: 1648</date>.<!-- / div rend -->
          </p>
          <anchor n="ev20"/>
        </div>
@@ -992,14 +992,14 @@
         <milestone n="ev21" unit="event"/>
          <p><persName ref="ppl:cs1" n="per52">King Charles the first</persName> beheaded at<lb/>
         <placeName n="place28">White hall, London</placeName> the <date when="1649-01-30">30<hi rend="superscript">th</hi> of Janeuary,<lb/>
-        1648</date>.<!-- date this one is definitely OS!--></p>
+        1648</date>.<!-- date - this one is definitely OS!--></p>
          <anchor n="ev21"/>
        </div>
        <div rend="pre-rule-part-width post-diagonal-short">
          <milestone n="ev22" unit="event"/>
          <p> <persName ref="ppl:jn1" n="per53">My Cozen Julian Norton</persName> died at<lb/>
         <placeName n="place29">Richmond Greene</placeName> at her fathers the<lb/>
-           <date when="1649-04-09">9<hi rend="superscript">th</hi> of Aprill. 1649</date>.<!-- /-->
+           <date when="1649-04-09">9<hi rend="superscript">th</hi> of Aprill. 1649</date>.<!-- / div rend -->
          </p>
          <anchor n="ev22"/>
        </div>
@@ -1035,7 +1035,7 @@
               When margins checked, read as 21?</p>
             </note>
             <lb/>
-           of March 1651<!-- CHECK date --></date>.<!-- / [NOTE] Faint diagonal line to mark end of section.-->
+           of March 1651<!-- CHECK date --></date>.<!-- / div rend [NOTE] Faint diagonal line to mark end of section.-->
          </p>
          <anchor n="ev24"/>
 </div>
@@ -1044,7 +1044,7 @@
          <p> <persName ref="ppl:mny1" n="per58">My Cozen mary Norton</persName> was Married<lb/>
            to <persName ref="ppl:jy1" n="per59">Mr John Vorke</persName> at <rs ref="ppl:mn1" n="per60" type="person">her father</rs>s<lb/>
            house on <placeName n="place34">the Greene in Richmond</placeName>, the<lb/>
-           <date when="1651-04-12">12<hi rend="superscript">th</hi> of August, 1651</date>.<!-- /--> 
+           <date when="1651-04-12">12<hi rend="superscript">th</hi> of August, 1651</date>.<!-- / div rend --> 
          </p>
          <anchor n="ev25"/>
        </div>
@@ -1063,8 +1063,8 @@
          <p> My Selfe <persName ref="ppl:awt1" n="per64">Alice Wandesforde</persName> was<lb/>
            married to <persName ref="ppl:wt1" n="per65">William Thornton Esquire</persName><lb/>
            At <rs ref="ppl:aow1" n="per66" type="person">my mother</rs>s howse in <placeName n="place36">hipswell</placeName> the<lb/>
-        <date when="1651-12-15">15<hi rend="superscript">th</hi> of December. 1651</date>. Maried by<milestone unit="undetermined" rend="diagonal"/><!-- /--><lb/>
-           <persName ref="ppl:xs2" n="per67">Mr Siddall</persName>.<!-- /-->
+        <date when="1651-12-15">15<hi rend="superscript">th</hi> of December. 1651</date>. Maried by<milestone unit="undetermined" rend="diagonal"/><!-- / milestone --><lb/>
+           <persName ref="ppl:xs2" n="per67">Mr Siddall</persName>.<!-- / div rend -->
            <!-- msDescription [NOTE] The bottom of ‘Mr Siddall’ and following punctuation and slash is missing suggesting the page has been trimmed.-->
             
          </p>
@@ -1107,7 +1107,7 @@
          </p>
 
          <p>wittneses <rs ref="ppl:aow1" n="per70" type="person">my Mother</rs>, <persName ref="ppl:mn1" n="per71">my Uncle Major<lb/>
-          norton</persName> and <rs ref="ppl:tbd" n="per72" type="person"><persName ref="ppl:jy1" n="per73">Cozen Yorke</persName> his Daug<hi rend="superscript">^hter^</hi><!-- AHEM when are you going to sort out these ^..^ --></rs>
+          norton</persName> and <rs ref="ppl:tbd" n="per72" type="person"><persName ref="ppl:jy1" n="per73">Cozen Yorke</persName> his Daug<hi rend="superscript">^hter^</hi><!-- TODO when are you going to sort out these ^..^ --></rs>
            <lb/>
          ; she was borne on a Tuesday betwen the<lb/>
           houers of 5 and 6 a clocke in the affter<lb/>
@@ -1140,12 +1140,12 @@
             
 </fw>
            <lb/>
-          was Baptized the <date when="1655-02-16">16<hi rend="superscript">th</hi> of February<!-- TODO CHECK date --></date> by<lb/>
+          was Baptized the <date when="1655-02-16">16<hi rend="superscript">th</hi> of February<!-- CHECK date --></date> by<lb/>
           <persName ref="ppl:ca1" n="per76">Mr Antony</persName>. wittneses, <rs ref="ppl:aow1" n="per77" type="person">my Mother</rs><lb/>
           my <persName ref="ppl:awn1" n="per78">Aunt Norton</persName> and my brother<lb/>
           <persName ref="ppl:cw2" n="per79">Christopher wandesforde</persName>, <persName ref="ppl:kb1" n="per80">Mrs Blacke<lb break="no"/>
           burne</persName> stood for my Mother being sicke<lb/>
-          then.<!-- /--></p>
+           then.<!-- / div rend --></p>
          <anchor n="ev30"/>
        </div>
        
@@ -1166,14 +1166,15 @@
             <lb/>
          the <date when="1655-05-11">1<mod><del rend="overwritten">0</del><add place="superimposed">1</add></mod><hi rend="superscript">th</hi> of may 1655</date>.
       <anchor n="ev31"/>
-          <!-- / TODO tagging marker --></p>
+          / <!-- TODO tagging marker --></p>
        </div>
        <div>
          <milestone n="ev32" unit="event"/>
          <p><persName ref="ppl:gg1" n="per82">my father Gates</persName> died at <placeName n="place44">Hull</placeName><lb/>
           the <date><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may 1655</date>. and was<lb/>
           buried at hull the <date><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may<lb/>
-          1655</date><!-- / TODO tagging marker [NOTE] Diagonal line below second 5 and punctuation. -->
+          1655</date>/ <!-- TODO tagging marker 
+            [NOTE] Diagonal line below second 5 and punctuation. -->
          </p>
          <anchor n="ev32"/>
          </div>
@@ -1201,7 +1202,7 @@
 </div>
        <div rend="pre-diagonal-short post-diagonal-short">
          <milestone n="ev34" unit="event"/>
-         <p><!-- /--><persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
+         <p><!-- / div rend --><persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
           Childe was borne at <placeName n="place48">Hipswell</placeName> the<lb/>
           <date when="1656-06-12">12<hi rend="superscript">th</hi> of June, 1656</date>. being thursday<lb/>
           about halfe an houer affter 4 --<note place="end" type="marker-review">
@@ -1212,16 +1213,15 @@
           a clocke in the affter noone, and was<lb/>
           babtized the <date when="1656-06">1<hi rend="superscript">th</hi> of June<!-- CHECK date day seems wrong --></date>. by <persName ref="ppl:ms1" n="per85">Mr<lb/>
           Siddall</persName>. wittnesses, <rs ref="ppl:aow1" n="per86" type="person">my mother</rs>,<lb/>
-          <persName ref="ppl:kdb1" n="per87">my Neece <add place="above">K</add> Danby</persName>, &amp; <persName ref="ppl:wt1" n="per88">Mr Thornton</persName><!-- /-->
-
-              <!-- [NOTE] Diagonal line below Thornton, although not as dark as the ones above Elizabeth.-->
+           <persName ref="ppl:kdb1" n="per87">my Neece <add place="above">K</add> Danby</persName>, &amp; <persName ref="ppl:wt1" n="per88">Mr Thornton</persName><!-- / div rend 
+          [NOTE] Diagonal line below Thornton, although not as dark as the ones above Elizabeth.-->
             
          </p>
          <anchor n="ev34"/>
        </div>
        <div rend="pre-diagonal-short">
          <milestone n="ev35" unit="event"/>
-         <p><!-- /-->
+         <p><!-- / div rend -->
            <persName ref="ppl:et1" n="per89">Elizabeth Thornton</persName> my 3<hi rend="superscript">d</hi> child<lb/>
           died the: <date when="1656-09-05">5<hi rend="superscript">th</hi> of September 1656</date>. <lb/>
           betwixt the hours of 5 and 6 in the<lb/>
@@ -1582,7 +1582,7 @@
           heaven 3 times. &amp; closeing her Eyes<lb/>
           her self. that sweet Saint fell asleep<lb/>
           in the Lord. betweene the houers of <mod><del rend="overwritten" cert="medium">6</del><add place="superimposed" cert="medium">7</add></mod>
-           <!-- CHECK ? [NOTE] It looks like ‘7’ has been written over ‘6’. I think 9 is written over a 7 so maybe 7 is over the 6? Bk 1 says 8 &amp; 9.-->
+           <!-- CHECK IMAGE? [NOTE] It looks like ‘7’ has been written over ‘6’. I think 9 is written over a 7 so maybe 7 is over the 6? Bk 1 says 8 &amp; 9.-->
            &amp; <mod><del rend="overwritten" cert="medium">7</del><add place="superimposed" cert="medium">9</add></mod><lb/> 
             aClock at night vpon satterday the<lb/>
           <date when="1659-12-10">10:<hi rend="superscript">th</hi> of Decemb: 
@@ -1645,12 +1645,14 @@
             <fw type="header" rend="darkerInk"><date>1660</date>
               <!-- [NOTE] Squeezed in later – in darker ink?-->
             </fw>
-         </fw><lb/>
-      <milestone n="ev40" unit="event"/>
-         <p>It was the good pleasure of God<lb/>
          <fw type="pageNum">
                <seg rend="underline">39.</seg>
             </fw>
+         </fw>
+        <lb/>
+      <milestone n="ev40" unit="event"/>
+         <p>It was the good pleasure of God<lb/>
+           <!-- moved fw=pageNum -->
             <lb/>
           to contineue me in the Land of the <lb/>
             liveing, And to bring forth <rs ref="ppl:wt2" n="per121" type="person">my 6<hi rend="superscript">th</hi><lb/> 
@@ -1720,19 +1722,20 @@
 
 <!-- Page 41 -->
 
-         <!-- msDescription [NOTE] Writes to very top pf the page unless the top of the page has been trimmed.-->
-          Laid hevy upon me for these<lb/>
+         <!-- msDescription? [NOTE] Writes to very top pf the page unless the top of the page has been trimmed.-->
          <fw>
          <fw type="header" place="left margin" rend="underline">
               <date>1660</date>.
-              <!-- page number [NOTE] ‘1660’ is in the margin between the first two lines of text.-->
+              <!-- msDescription? [NOTE] ‘1660’ is in the margin between the first two lines of text.-->
             </fw>
             <fw type="pageNum" place="right margin">
                41.
-              <!-- page number [NOTE] In a box, written in later so bit below l.1.-->
+              <!-- msDescription? [NOTE] In a box, written in later so bit below l.1.-->
             </fw>
          </fw>
          <lb/>
+          Laid hevy upon me for these<lb/>
+           <!-- moved fw -->
           many yeares where in the Lord hath <lb/>
           chastened &amp; corected me but not<lb/>
           given me over to destruction. his<lb/>
@@ -1870,16 +1873,17 @@
 
 <!-- Page 45 -->
 
-          by his spirit &amp; that now it was <lb/>
           <fw> 
            <fw type="header" rend="underline">
                <date>1661</date>.
             </fw>
-            <!-- [NOTE] Date is inserted between the first two lines above ‘hope’ and the underlining crosses through ‘hope’. -->
+            <!-- msDescription? [NOTE] Date is inserted between the first two lines above ‘hope’ and the underlining crosses through ‘hope’. -->
         <fw type="pageNum">45</fw>
-            <!-- page number [NOTE] Page number inserted between the forst two lines. above ‘it’.-->
+            <!-- msDescription? [NOTE] Page number inserted between the forst two lines. above ‘it’.-->
            </fw>
            <lb/>
+          by his spirit &amp; that now it was <lb/>
+            <!-- moved fw -->
           too late to hope because I had driven it<lb/>
           so long that my life was at an end<lb/>
           for ought I knew this was my last<lb/>
@@ -1947,11 +1951,12 @@
 
 <!-- Page 47 -->
 
-      <fw type="header" rend="underline"><date>1661.</date></fw>
-         <p>I laboured under &amp; was heavy 
-            <fw type="pageNum" place="margin right">4.7.</fw>
+      <fw>
+        <fw type="header" rend="underline"><date>1661.</date></fw>
+        <fw type="pageNum" place="margin right">4.7.</fw>
             <!-- [NOTE] Date squeesed line over text, looks like a darker ink, and some suggestion of tirmming. Page number added in at the end of the first line.-->
-            <lb/>
+         </fw>
+         <p>I laboured under &amp; was heavy <!-- moved fw=pageNum --><lb/>
            Laden <subst>
              <del rend="strikethrough">under</del><add place="above">with</add>
            </subst>
@@ -2014,14 +2019,15 @@
 
 <!-- Page 49 -->
 
-          seeking to devour &amp; make a prey <lb/>
         <fw>  
         <fw type="header" rend="underline">
                <date>1661.</date>
            </fw>
-           <fw type="pageNum">49</fw><!-- page number squeezed in between the first two lines -->
+           <fw type="pageNum">49</fw><!-- [NOTE] page number squeezed in between the first two lines -->
            </fw>
            <lb/>
+          seeking to devour &amp; make a prey <lb/>
+          <!-- moved fw -->
           of my soule, &amp; as thy holy wisdome<lb/>
           O blesed Trinity did set thy selfe on<lb/>
           worke by &amp; through mercy, &amp;<lb/>
@@ -2083,16 +2089,16 @@
 
 <!-- Page 51 -->
 
-          soule. O let me find rest from<lb/>
          <fw>
           <fw type="header" rend="underline">
                <date>1661.</date>
             </fw>
-           
             <fw type="pageNum">51.</fw>
            <!-- [NOTE] Date squeesed on over ‘me’ and underline strikes through that word. The page number is squeesed in above the ‘m’ of ‘from’. -->
           </fw>
            <lb/>
+          soule. O let me find rest from<lb/>
+           <!-- moved fw -->
           sinneing, from offending thee.<lb/>
           any more. It is too much that I<lb/>
           have spent so many of my years<lb/>
@@ -2115,9 +2121,9 @@
          </p>
  </div>        
             <pb n="52"/>
+<!-- Page 52 -->
 
       <div>
-<!-- Page 52 -->
        <fw>
          <fw type="pageNum">52.</fw>
          <fw type="header"><date>1662</date></fw>
@@ -2349,9 +2355,8 @@
             <pb n="59"/>
 
 <!-- Page 59 -->
-
-         Marke just upon his heart, of <fw type="pageNum" place="right margin">59.</fw><!-- page number to move -->
-            <lb/>
+        <fw type="pageNum" place="right margin">59.</fw> <lb/>
+         Marke just upon his heart, of <!-- moved fw --> <lb/>
           sprinkles of blood, pure &amp; perfectly<lb/>
           distinct round spots like as if it had<lb/>
           beine sprinkled upon his skin, &amp; the =<lb/>
@@ -2404,9 +2409,10 @@
 
 <!-- Page 61 -->
 
-          unworthy walking before him all<lb/>
           <fw type="pageNum" rend="darkerInk">61.</fw>
            <lb/>
+          unworthy walking before him all<lb/>
+           <!-- moved fw -->
            the daies of thy life but set this <lb/>
            up as a Piller of praise to his <lb/>
            majestie for ever. Praise the Lord<lb/>
@@ -2464,11 +2470,12 @@
 
 <!-- Page 63 -->
 
+            <fw type="pageNum">63.</fw>
+           <!-- msDescription? [NOTE] Squeezed in just below top line.-->
+            <lb/>
            <!-- msDescription [NOTE] Top of e [the] missing, suggesting page trimming. -->
          in Possession for the payment of the<lb/>
-            <fw type="pageNum">63.</fw>
-              <!-- page number [NOTE] Squeezed in just below top line.-->
-            <lb/>
+           <!-- moved fw -->
           English Portion <add place="above">of 1500</add>,
             &amp; the will impouring<lb/>
           <rs ref="ppl:wt1" n="per161" type="person">my husband</rs> for 1000<hi rend="superscript">l</hi> to be pd out<lb/>
@@ -2526,13 +2533,13 @@
 
 <!-- Page 65 -->
 
-           <!-- msDescription [NOTE] Top of page trimmed.-->
-         Taken away my bed frm under mee<lb/>
-          &amp; those quick goods my dear mo:<lb/>
-          gave for my releife &amp; childrens <fw type="pageNum" rend="darkerInk">65.
-           <!-- page number to move -->
+         <!-- msDescription [NOTE] Top of page trimmed.-->
+          <fw type="pageNum" rend="darkerInk">65.
              <!-- msDescription [NOTE] Almost circular mark around page number which looks to be in a darker ink that that on the page.-->
           </fw>
+         Taken away my bed frm under mee<lb/>
+          &amp; those quick goods my dear mo:<lb/>
+          gave for my releife &amp; childrens <!-- moved fw -->
             <lb/>
           these men were very boysterous, &amp;<lb/>
            rude threatning to <add place="superimposed">ta</add>ke my Person<lb/>
@@ -2587,15 +2594,12 @@
 
 <!-- Page 67 -->
 <div>
+     <fw type="pageNum" rend="darkerInk">67.</fw><lb/>
     <milestone n="ev48" unit="event"/>
          <p>After this, drawing neare a month<lb/>
-          
-           <fw type="pageNum" rend="darkerInk">67.</fw><!-- page number --><lb/>
-           of my delivery. it<note place="end" type="text-appearance">
-               <p rend="Endnote Text">
-              T is smudged.</p>
-            </note>
-            behoved me to<lb/>
+           <!-- moved fw -->
+           of my delivery. it behoved me to<lb/>
+           <!-- [NOTE] T is smudged. -->
           looke with a more narrow search into<lb/>
           my soule &amp; examine how things went<lb/>
           with me theire. whoes time of life migh<lb/>
@@ -2643,10 +2647,11 @@
 
 <!-- Page 69 -->
 
+           <fw type="pageNum" rend="darkerInk">69.<!-- [NOTE] line from 9 loops round --></fw>
+            <lb/>
            <!-- msDescription [NOTE] Page trimmed as top pf the ch cut off here.-->
           &amp; confirming, holy Sacrament, which<lb/>
-          my blessed Saviour lefft us as his <fw type="pageNum" rend="darkerInk">69.<!-- [NOTE] line from 9 loops round --><!-- page number to move --></fw>
-            <lb/>
+           my blessed Saviour lefft us as his <!-- moved fw -->
           dearest pledge of his love. who laid<lb/>
           downe his Life for siners, that sined<lb/>
           not that became poore that We might<lb/>
@@ -2672,9 +2677,10 @@
 
 <!-- Page 70 -->
 
-         &amp; divers others did receave the pledg<lb/>
           <fw type="pageNum" rend="darkerInk">70.</fw>
            <lb/>
+         &amp; divers others did receave the pledg<lb/>
+          <!-- moved fw -->
           I hope of our Salvation from his hand<lb/>
           by which I was much comforted, &amp;<lb/>
           helped, inlivened, &amp; quickned from<lb/>
@@ -2699,9 +2705,10 @@
 
 <!-- Page 71 -->
 
-         <p>And that my soule might forever.<lb/>
-          <fw type="pageNum" rend="darkerInk">7i.</fw>
+           <fw type="pageNum" rend="darkerInk">7i.</fw>
            <lb/>
+         <p>And that my soule might forever.<lb/>
+           <!-- moved fw -->
           sing unto him Aleluiahs of praise <lb/>
           in heaven, with Angells &amp; Arch<lb/>
           Angels .&amp; all the Host of Heaven<lb/>
@@ -2766,8 +2773,9 @@
 
 <!-- Page 73 -->
 
-         of his Estate with <rs ref="ppl:aow1" n="per180" type="person">my mother</rs> in <fw type="pageNum" rend="darkerInk">73</fw>
+           <fw type="pageNum" rend="darkerInk">73</fw>
          <lb/>
+         of his Estate with <rs ref="ppl:aow1" n="per180" type="person">my mother</rs> in <!-- moved fw --><lb/>
          and by the Articles drawne betwixt <add place="above">them</add><lb/>
          before my Marriage. which till then<lb/>
           was not perfectly don, but that in<lb/>
@@ -2775,7 +2783,7 @@
           breed scruples, but as it might<lb/>
           happen, might be altogether dispo=<lb break="no"/>
           -sed from my owne poore Children<lb/>
-          to the Children of any other wife.<milestone unit="undetermined" rend="diagonal"/><!-- /--><lb/>
+          to the Children of any other wife.<milestone unit="undetermined" rend="diagonal"/><!-- / milestone --><lb/>
           the sence where of did somewhat<lb/>
           trouble me. how I should find out<lb/>
           one that would deale impartially as<lb/>
@@ -2882,8 +2890,9 @@
 
 <!-- Page 77 -->
 
+          <fw type="pageNum" rend="darkerInk">77</fw><lb/>
           thoughts <persName ref="ppl:rc2" n="per185">my Co: Colvill</persName> whom was<lb/>
-           <fw type="pageNum" rend="darkerInk"><!-- page number needs moving (-->77</fw><lb/>
+           <!-- moved fw (-->
           a very able Person. &amp; a faithfull frind <lb/> 
           to us. he I sent for, &amp; by the blessing<lb/>
           of God was suffred to make such a<lb/>
@@ -2894,7 +2903,7 @@
           Person in justice &amp; equity making<lb/>
           provission for the younger Children<lb/>
           of so well as the sonne &amp; heire (if God<lb/>
-          did please to give me one).<milestone unit="undetermined" rend="diagonal"/><!-- /--></p>
+          did please to give me one).<milestone unit="undetermined" rend="diagonal"/><!-- / milestone --></p>
          <p>which was don to my great content<lb/>
           &amp; sattisfaction that I might more Joy-<lb break="no"/>
           =fully leave this world, then to have<lb/>
@@ -2909,7 +2918,7 @@
 
 <!-- Page 78 -->
 
-           <fw type="pageNum">78.</fw> <!-- page number needs lb -->
+           <fw type="pageNum">78.</fw><lb/>
           given it to <rs ref="ppl:wt1" n="per187" type="person">my husband</rs> &amp; for his<lb/>
           debts &amp; use. so that had I not inde<lb break="no"/>
           -vered some part of satisfaction<lb/>
@@ -2928,19 +2937,23 @@
           &amp; what I could for the satisfaction<lb/>
           of my owne Consience.<anchor n="ev49"/> And blesed<lb/>
           be God who gave me space, and<lb/>
-          oportunity for the same.<!-- /--></p>
+           oportunity for the same.<!-- / div rend --></p>
      </div>    
             <pb n="79"/>
 
 <!-- Page 79 -->
 <div>
-         <fw type="header" rend="underline">
+         <fw>
+           <fw type="header" rend="underline">
                <date>1662</date>
-         </fw><!-- page number overlap first line -->
+         </fw>
+          <fw type="pageNum">79.</fw>
+         </fw>
+      <lb/>
       <milestone n="ev50" unit="event"/>
         <p>
           Almighty God the wise disposer<lb/>
-          <fw type="pageNum">79.</fw><!-- page number --><lb/>
+          <!-- moved fw=pageNum -->
           of all good things both of heaven<lb/>
           &amp; earth. who sees what &amp; how much<lb/>
           of the comforts of this mortall life is<lb/>
@@ -2997,7 +3010,7 @@
             <pb n="81"/>
 
 <!-- Page 81 -->
-          <fw type="pageNum">81.</fw><!-- page number overlap -->
+          <fw type="pageNum">81.</fw>
            <lb/>
           houers together. not beeing able to<lb/>
           utter one word. all the meanes they<lb/>
@@ -3084,10 +3097,10 @@
 <!-- Page 84 -->
 
         <fw>
-          <fw type="header">62.</fw><!-- page number overlap? -->
-         <lb/>
-         <fw type="pageNum">84</fw>
+          <fw type="header">62.</fw>
+          <fw type="pageNum">84</fw>
         </fw>
+          <lb/><!-- moved fw -->
          <milestone n="ev52" unit="event"/>
           <!-- Q not too sure why I made this a separate event... -->
          <p>
@@ -3119,7 +3132,7 @@
           <fw>
               <fw type="header" rend="underline">
                <date>1662</date>
-            </fw>            <!-- page number overlap -->
+            </fw> 
            <fw type="pageNum">
                85.
             </fw>
@@ -3188,10 +3201,14 @@
 
 <!-- Page 87 -->
        <!-- year 1664 -->
-<div>
-      <fw type="header" rend="underline"><date>1664</date></fw>
+  <div>
+      <fw>
+        <fw type="header" rend="underline"><date>1664</date></fw>
+         <fw type="pageNum">87.</fw>
+      </fw>
+         <lb/>
        <p>After that <persName ref="ppl:rt2" n="per202">Robin</persName> was 2 years old<lb/> 
-            <fw type="pageNum">87.</fw><!-- page number needs moving --><lb/>
+         <!-- moved fw=pageNum -->
          <milestone n="ev54" unit="event"/>
           <persName ref="ppl:wt1" n="per203">Mr Thornton</persName> went to <placeName n="place73">London</placeName>. where<lb/>
           he had a great deliverance from<lb/>
@@ -3218,13 +3235,14 @@
 
 <!-- Page 88 -->
        <!-- year 1665 -->
-<div>
-  <fw type="header">
-     <seg rend="underline"><date>1665</date></seg>
-            </fw>
+    <div>
+      <fw>
+      <fw type="header" rend="underline"><date>1665</date>  </fw>
+      <fw type="pageNum">88.</fw> 
+      </fw>
         <milestone n="ev55" unit="event"/>
          <p>
-          <fw type="pageNum">88.</fw> <!-- page number -->
+           <!-- moved fw -->
            It pleased my gracious God. to<lb/>
           give me a new hopes of a com<lb break="no"/>
           =fort (although these mercys are<lb/>
@@ -3249,7 +3267,6 @@
 
 <!-- Page 89 -->
 
-           &amp; so prevented. by <del rend="doublestrikethrough">Gods</del> blessing <lb/>
            <fw>
              <fw type="header">
                <seg rend="underline"><date>1665</date></seg>
@@ -3257,6 +3274,8 @@
            <fw type="pageNum">89.</fw>
            </fw>
           <lb/>
+           &amp; so prevented. by <del rend="doublestrikethrough">Gods</del> blessing <lb/>
+             <!-- moved fw -->
           the extreamity from falling on me <lb/>
           And I had a better recovery of this<lb/>
           Child then ever of any. for ever<lb/>
@@ -3280,10 +3299,14 @@
             <pb n="90"/>
 
 <!-- Page 90 -->
-      <fw type="header"><date when="1665">65</date>.</fw><!-- page number overlap -->
+      <fw>
+      <fw type="header"><date when="1665">65</date>.</fw>
+           <fw type="pageNum">90.</fw>
+      </fw>
+      <lb/>
         <milestone n="ev56" unit="event"/>
          <p><persName ref="ppl:jt1" n="per207">My Sweet Childe Joyce</persName> which was<lb/>
-         <fw type="pageNum">90.</fw><lb/>
+           <!-- moved fw -->
          my <del rend="strikethrough">Eith</del> Eight childe was borne on<lb/>
           Satterday a bout 4 a clocke in the<lb/>
           after noone. on <date when="1665-09-23">September the 23<hi rend="superscript">th</hi><lb/> 
@@ -3354,13 +3377,16 @@
             <pb n="92"/>
 
 <!-- Page 92 -->
-<div>
+    <div>
+      <fw>
         <fw type="header">
                <seg rend="underline">- <date>1665</date>.</seg>
-            </fw>        <!-- page number overlap -->
+            </fw>      
+        <fw type="pageNum">92.</fw>  
+      </fw>
       <milestone n="ev58" unit="event"/>
        <p>
-          <fw type="pageNum">92.</fw> 
+          <!-- moved fw pageNum -->
           The sudaine newes of his condition<lb/>
           beeing made knowne to me when I expec<lb break="no"/>
           =ted to have receavd him home in health<lb/>
@@ -3386,11 +3412,11 @@
             <pb n="93"/>
 
 <!-- Page 93 -->
-
+        <fw type="pageNum">93: </fw>
+            <lb/>
           Assistance, advice, &amp; councell of <persName ref="ppl:tc1" n="per217">Mr Comber</persName><lb/>
           whom my gracious God had givn me at<lb/>
-          that time to be a meanes to suport my <fw type="pageNum"><!-- page number needs moving ( -->93: </fw>
-            <lb/>
+         that time to be a meanes to suport my <!-- moved fw ( --><lb/>
           fainting spiritts under this most sad afflicti<lb break="no"/>
           =on. when <rs ref="ppl:cw1" n="per218" type="person">my father</rs> &amp; <rs ref="ppl:aow1" n="per219" type="person">mother</rs> forsooke<lb/>
           me (by death) the Lord taketh me up. &amp;<lb/>
@@ -3417,8 +3443,9 @@
 
 <!-- Page 94 -->
 
+           <fw type="pageNum">94.</fw><lb/>
          <p>who still in the midest of Judgment<lb/>
-            <fw type="pageNum">94.</fw><lb/>
+           <!-- moved fw -->
           remembers mercys. &amp; shewes his compassion<lb/>
           upon his poore Creatures.<lb/>
           O Lord God, thou King of Glory &amp; Power<lb/>
@@ -3444,9 +3471,10 @@
 
 <!-- Page 95 -->
 
+           <fw type="pageNum">95.</fw><lb/>
           to adore, &amp; praise, &amp; magnifie thy great<lb/>
-            <fw type="pageNum"><!-- page number needs moving ( -->95.</fw><lb/>
-          &amp; glorious name. thou o Lord art holy<lb/>
+          <!-- moved fw ( -->
+           &amp; glorious name. thou o Lord art holy<lb/>
           thou art just, wise, Omnipotent, Almighty<lb/>
           and infinitly full of compassions towards<lb/>
           thy fraile creature. we sin &amp; thou chasti-<lb break="no"/>
@@ -3503,8 +3531,9 @@
 
 <!-- Page 97 -->
 
+           <fw type="pageNum">93.</fw> <lb/>
           or sure for some other punishment of<lb/>  
-          <fw type="pageNum">93.</fw> <lb/>
+           <!-- moved fw -->
            my negligent soule is the Lords hand stretchd<lb/>
           out still, and which by a late crosse he hath<lb/>
           shewed his anger against me. shall I recieve<lb/>
@@ -3564,11 +3593,13 @@
             <pb n="99"/>
 
 <!-- Page 99 -->
-         
+         <fw>
          <fw type="header">65 </fw><lb/>
-            
+           <fw type="pageNum">99.</fw>  
+          </fw>  
+           <lb/>
          of giving Redemtion to the world by thy <lb/>
-         <fw type="pageNum">99.</fw> <lb/> <!-- page number to move. btwn -->
+           <!-- moved fw pageNum -->
           blessed Son. my saviour. &amp; thou o holy spirit<lb/>
           the god of all consolations &amp; comforts.<lb/>
           Holy, be the Lord most high, &amp; glory to<lb/>
@@ -3640,9 +3671,8 @@
 
 <!-- Page 101 -->
 
-         sined not. the holy one of God. <lb/>
          <fw>
-           <fw type="pageNum"><!-- page number -->
+           <fw type="pageNum">
             <seg rend="underline">101.</seg>
             </fw>
            <fw type="header">
@@ -3650,6 +3680,8 @@
            </fw>
          </fw>
             <lb/>
+         sined not. the holy one of God. <lb/>
+             <!-- moved fw -->
           O let me not in the <w norm="interim">intrime</w> be unmindfull of<lb/>
           his hand by these corrections. but may be<lb/>
           delivred from the Iawes of Eternall death<lb/>
@@ -3727,7 +3759,8 @@
 
 <!-- Page 103 -->
 
-         <fw type="pageNum" place="right"> 103:</fw><!-- page number -->
+    <fw type="pageNum" place="right"> 103:</fw><lb/>
+    <!-- moved fw -->
           of recovery but tould us til a bout<lb/>
           a quarter I might not expect a full recovry<lb/>
           when it was likly the fruit should have<lb/>
@@ -3808,7 +3841,7 @@
             </fw>
             
             <fw type="pageNum">105.
-            </fw> <!-- page number overlap -->
+            </fw> 
             </fw>
          <p>
           but blessed be our gracious God through <lb/>
@@ -3933,7 +3966,7 @@
            come off at all haveing but few in<lb/>
            his head. but the most was in his face<lb/>
            he wanted 9 Months, of beeing <w norm="five">fvie</w> <lb/>
-           yeares old as some odde daies.<!-- /--></p>
+           yeares old as some odde daies.<!-- / div rend --></p>
          <anchor n="ev66"/>
        </div>  
             <pb n="108"/>
@@ -3982,7 +4015,7 @@
 <!-- Page 109 -->
 <fw>
           <fw type="header" rend="underline"><date>1667</date></fw>
-          <fw type="pageNum">109.</fw> <!-- page number overlap -->
+          <fw type="pageNum">109.</fw> 
 </fw>
            <lb/>
           but on <date when="1667-01-26">the 26<hi rend="superscript">th</hi><!-- CHECK date ? --></date> it pleased the most good<lb/>
@@ -4001,13 +4034,13 @@
           her eyes began to unclose. <date>the 5<hi rend="superscript">th</hi></date> she<lb/>
           did see perfectly &amp; they began to blacken<lb/>
           &amp; <del rend="strikethrough">die</del> ripe. &amp; her throat was pretty well<lb/>
-          her feaver did abate 8<!-- CHECK text --> she began to be<lb/>
+          her feaver did abate <date when="1667-02-08">8</date> she began to be<lb/>
           pretty well &amp; strong. the <date when="1667-02-18">18<hi rend="superscript">th</hi></date> <persName ref="ppl:atc1" n="per247">Naly</persName> rose out<lb/>
           of her bed and recover very fast grow-<hi rend="superscript">^ing^</hi><lb/>
           strong by degrees. she had very many<lb/>
           &amp; was full over her face &amp; the haire came<lb/>
           all off.<anchor n="ev68"/> Oh that our soules, my mind &amp; 
-          ♥ <!-- Q hearts unicode? -->
+          ♥ <!-- Q hearts. use unicode? -->
           <lb/>
           may for <add place="above">ever</add> give glory to the great God of Heaven<lb/>
           &amp; Earth. o sing praisis to the Eternall King<lb/>
@@ -4133,12 +4166,12 @@
 
 <!-- Page 113 -->
 
-         <p>This was don upon him in <placeName n="place85">London</placeName> neare<lb/>
-          the Grays Inne, about the August. <fw type="pageNum">113.
-            <!-- page number to move. |__ -->
-            </fw>
-            <lb/>
-           in yeare <date>1667</date>.</p>
+           <fw type="pageNum">113.</fw>   
+         <p>
+           This was don upon him in <placeName n="place85">London</placeName> neare<lb/>
+          the Grays Inne, about the August.   <lb/>
+            <!-- moved fw |__ -->
+         in yeare <date>1667</date>.</p>
          <anchor n="ev73"/>
        </div>
        <div rend="pre-rule-full-width post-diagonal-short">
@@ -4183,7 +4216,7 @@
           through meanes by Gods blessing he was<lb/>
           restored to me againe blessed be our mer-<lb break="no"/>
           cefull God of our salvation. for ever more<lb/>
-          Amen. &amp; Amen. <!-- / --></p>
+           Amen. &amp; Amen. <!-- / div rend --></p>
          <anchor n="ev74"/>
        </div>
        <div rend="pre-rule-full-width">
@@ -4210,11 +4243,11 @@
 
 <!-- Page 115 -->
 
-         <p>
-            but for ever magnified &amp; praised 
             <fw type="pageNum"><add place="superimposed" cert="medium">115</add>.
             </fw>
-            <lb/>
+         <p>
+            but for ever magnified &amp; praised  <lb/>
+           <!-- moved fw --> 
           the great. &amp; Glorious Lord God Almighty<lb/>
           who did not give me over to this death<lb/>
           but has miraculously. &amp; wonderfully<lb/>
@@ -4391,7 +4424,7 @@
           all the many remidies was perpetually<lb/>
           used by <persName ref="ppl:rw1" n="per277">Dr wittie</persName>s order, &amp; with good<lb/>
            successe. so that from <mod><del rend="overwritten">ye</del><add place="superimposed" cert="medium">9</add></mod>
-           <!-- CHECK ? [NOTE] Looks to be overwritten, over y<hi rend="superscript">e</hi>-->
+           <!-- CHECK IMAGE? [NOTE] Looks to be overwritten, over y<hi rend="superscript">e</hi>-->
            November 67: till<lb/>
           August 68: he had not missed one fort-<lb break="no"/>
           =night from a relapse or the degrees of<lb/>
@@ -4533,15 +4566,17 @@
             <pb n="123"/>
 
 <!-- Page 123 -->
-  
-            <fw type="header">
+        <fw>
+          <fw type="header">
                <seg rend="underline"><date>1668</date>.</seg>
             </fw>
-        <milestone n="ev82" unit="event"/>
-         <p>And loe when I was yet scarsly recovrd<lb/>
           <fw type="pageNum">123
             <!-- [NOTE] Number here is written over ‘had’. in |__ -->
-            </fw><lb/>
+            </fw>
+        </fw>
+        <milestone n="ev82" unit="event"/>
+         <p>And loe when I was yet scarsly recovrd<lb/>
+           <!-- moved fw pageNum -->
           of my weaknesse from this greife &amp; had <lb/>
           kept my bed 14 daies. it pleased God<lb/>
           in his infinit and aboundant mercy &amp;<lb/>
@@ -4907,7 +4942,7 @@
           Cordiall, loyall &amp; conJugall love &amp;<lb/>
           amity all our daies since we were knit in the<lb/>
           band of holy wedlocke. together.</p>
-         <anchor n="ev84"/><!-- TODO not sure about loc of this anchor either -->
+         <anchor n="ev84"/><!-- TODO tbd position of this anchor -->
             <pb n="133"/>
 
 <!-- Page 133 -->
@@ -5148,7 +5183,7 @@
        <fw type="pageNum">
                <seg rend="underline">139.</seg>
             </fw>
-      </fw><!-- page number overlap -->
+      </fw>
          <lb/>
           can meete with all. the Lord has <lb/>
           broken in upon me like a mighty water<lb/>
@@ -5290,7 +5325,7 @@
             </fw>
          <fw type="pageNum">
                <seg rend="underline">143.</seg>
-         </fw><!-- page number overlap -->
+         </fw>
          </fw>
          <lb/>
            of the Righteous yet he will delivr<lb/>
@@ -5435,11 +5470,14 @@
             <pb n="147"/>
 
 <!-- Page 147 -->
-
+        <fw>
          <fw type="header">
                <seg rend="underline"><date>1668</date>.</seg>
-         </fw><lb/><!-- page number overlap -->
-          <p>Although my Afflictions be great &amp; <fw type="pageNum"> 147.<!-- page number to move. preceded by | --></fw>
+         </fw>
+         <fw type="pageNum"> 147.</fw>
+         </fw>
+         <lb/>
+         <p>Although my Afflictions be great &amp; <!-- moved fw pageNum | -->
             <lb/>
           heavy. sad &amp; burthensome to this weake<lb/>
           bodie yet in thee is my strength. &amp; my hope<lb/>
@@ -5541,7 +5579,7 @@
             <fw type="header">
                <seg rend="underline"><date>1668</date></seg>
             </fw>
-          <lb/> <!-- page number overlap -->
+          <lb/> 
          <fw type="pageNum">
                <seg rend="underline">150.</seg>
             </fw> 
@@ -5578,14 +5616,15 @@
             <pb n="151"/>
 
 <!-- Page 151 -->
+          
+          <fw>
             <fw type="header">
                <seg rend="underline"><date>1668</date>.</seg>
-            </fw><!-- page number overlap --> 
-          <lb/>
-            
-         of much paines. laing as if he <fw type="pageNum">151:
-            </fw><!-- page number to move.  |__ -->
-            <lb/>
+            </fw>
+          <fw type="pageNum">151:</fw>
+          </fw>
+          <lb/>   
+         of much paines. laing as if he  <!-- moved fw  |__ --> <lb/>
           were in a sweete sleepe which by degrees<lb/>
           growing colder at his feete &amp; so dieng<lb/>
           upwards drawing his breath shorter<lb/>
@@ -5662,7 +5701,7 @@
             .</fw>
         <fw type="pageNum">
                <seg rend="underline">153.</seg>
-        </fw> <!-- page number overlap -->
+        </fw> 
        </fw>
           <p>My dearest heart was Interrd<lb/>
           in the Alley of his owne at his owne<lb/>
@@ -5792,7 +5831,7 @@
             </fw>
      <lb/>
          <l>
-           Farewell the gilded follies, pleasing trou<add place="above">bles</add><!-- Q "bles" in |__ -->
+           Farewell the gilded follies, pleasing trou<add place="above">bles</add><!-- msDescription? "bles" in |__ -->
          </l>
          <l>Farewell, the honoured ragges. the Cristall bubbles</l>
          <l>Fame’s but a hollow Eccho, Gold poore clay,</l>
@@ -5825,7 +5864,7 @@
          <fw type="pageNum">158.</fw> 
          <lb/>
          <l>Rich hated; wise suspected; scornd. if <add place="above">poore.</add> </l>
-         <l>Great feared; faire tempted; high still envied <add place="below">more</add><!-- Q "more" in |__ --></l>
+         <l>Great feared; faire tempted; high still envied <add place="below">more</add><!-- msDescription? "more" in |__ --></l>
          <l>would the world then adopt me for her heire. </l>
          <l>Would beauties queene intitle me the faire.</l>
          <l>Fames speake me honors minnion &amp; could I</l>
@@ -5970,7 +6009,7 @@
          <l> His Glory this to comfort me:</l>
          <l> And as ti’s writt Such honour shall.</l>
          <l> Even unto all his Saints befall.</l>
-         <l> ------------------<!-- TODO tagging this line ? --></l>
+         <l> ------------------<!-- TODO tagging this line  --></l>
          <l> Judge not that feild, because it’s stuble</l>
          <l> Nor her that’s poore &amp; full of trouble.</l>
          <l> Though t’one looke baire, t’other thin,</l>
@@ -6098,7 +6137,7 @@
             <pb n="167"/>
 
 <!-- Page 167 -->
-           <fw type="pageNum"><seg rend="underline">167:</seg></fw><!-- page number overlap -->
+           <fw type="pageNum"><seg rend="underline">167:</seg></fw>
            <lb/>
           Glory of all, &amp; I to reape benifittof<lb/>
           thy Rod; to be amended there by &amp; to<lb/>
@@ -6642,7 +6681,7 @@
           fall on the Church &amp; Kingdoms &amp; praid<lb/>
           heartily for our good King; said that Pride &amp;<lb/>
           fullness of Bread would be the fall of the<lb/>
-          Church &amp; state if God prevented not.<milestone unit="undetermined" rend="diagonal"/><!-- / Q is this a marker or just filler? --><lb/>
+          Church &amp; state if God prevented not.<milestone unit="undetermined" rend="diagonal"/><!-- Q but is this / really a marker or just filler? --><lb/>
           with mainy other like Prophiticall saings<lb/>
           sevrall times with much trouble &amp; somme<lb/>
           still begging to God to <w cert="low" norm="divert">Divit</w> his Judgment<lb/>
@@ -6654,7 +6693,7 @@
           did nevr goe out of my ♥. But the effects I<lb/>
           have found of his forsseeing Predictions on<lb/>
           both Church. State. famlys &amp; Persons most<lb/>
-          deare to this holy: wise. &amp; good Christian.<!-- /--></p>
+           deare to this holy: wise. &amp; good Christian.<!-- / div rend --></p>
          <anchor n="ev90"/><!-- CHECK event -->
       </div>
       <div rend="pre-rule-full-width">
@@ -6762,7 +6801,7 @@
           for I did at that tme And they were in perfect Charity<lb/>
           each to othrs &amp; did both receave very Reverently<lb/>
           on Easter day in <placeName n="place105">Hipswell Chapell</placeName> with <rs ref="ppl:aow1" n="per381" type="person">my D. mothr</rs><lb/>
-           &amp; my selfe.<milestone unit="undetermined" rend="diagonal"/><!-- /--> But in the Affter noone my brothr<lb/>
+           &amp; my selfe.<milestone unit="undetermined" rend="diagonal"/><!-- / milestone --> But in the Affter noone my brothr<lb/>
           <persName ref="ppl:gw1" n="per382">G: W:</persName> did goe to see <persName ref="ppl:hd1" n="per383">Mr Henry Darcy</persName>. and find<supplied reason="damage">ing</supplied>
             <lb/>
             him not at home, entertand him selfe with <persName ref="ppl:dbd1" n="per384">old mot<hi rend="superscript">–<!-- CHECK image. what is this? is it just filler or an abbrev marker ?? --></hi><lb/> 
@@ -6795,7 +6834,7 @@
           &amp; was a great Joy to her to heare them but the Lord<lb/>
           was not pleased to grant him a long life but to tak<lb/>
           him away in these good designes. &amp; what he wanted<lb/>
-          in Power God acepted in the will in him.<milestone unit="undetermined" rend="diagonal"/><!-- / Q is this a marker? could be just filler --><lb/>
+          in Power God acepted in the will in him.<milestone unit="undetermined" rend="diagonal"/><!-- Q is this / a marker or just filler? --><lb/>
           He Laid that night there. And the next mor=<hi rend="superscript">^ning^</hi> <lb/>
           came to <placeName n="place106">Hipswell</placeName> about 9 a clocke. And at that tme<lb/>
           found me in a most sad sircumstance. I had bin<lb/>
@@ -6830,7 +6869,7 @@
           he said that he could not have to much of her pras<lb/>
           for him &amp; soe Reverently bid her good morrow<lb/>
           &amp; me fairewell. And tooke horrse to goe to <placeName n="place107">Rich<lb break="no"/>
-          mond</placeName>.<!-- / --></p>
+            mond</placeName>.<!-- / div rend --></p>
         <anchor n="ev92"/>
  </div>
             <pb n="191"/>
