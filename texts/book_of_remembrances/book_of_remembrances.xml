@@ -225,9 +225,8 @@
             <pb n="2"/>
 
 <!-- Page 2 -->
-     <!-- Q page number: should it be transcribed? 
-       see also page 4 (and possibly page 3v?).
-       [NOTE] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
+     <!-- teamsQ page number: should it be transcribed? -->
+      <!-- [NOTE] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
          
          
          <pb n="3"/>
@@ -254,15 +253,16 @@
          <p>Wittnesses, <persName ref="ppl:rl1" n="per4">Mr Lassells</persName> minister<lb/>
           of <placeName n="place3">Kirklington</placeName>. <persName ref="ppl:awn1" n="per5">Mrs Anne <lb/>
             Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.</p>
-         <p><!-- / div rend [NOTE] A slightly angled slash under Best and beyond full stop.-->
+         <p><!-- / div rend -->
+           <!-- [NOTE] A slightly angled slash under Best and beyond full stop.-->
          </p>
          </div>
      
             <pb n="3v"/>
 
 <!-- Page 3v -->
-       <!-- [NOTE] blank page. Q is this page *definitely* not numbered? [no image to check]  
-       -->
+       <!-- [NOTE] blank page. -->
+       <!-- teamsQ is this page *definitely* not numbered? [no image to check]  -->
 
             <pb n="3a"/>
          
@@ -282,8 +282,8 @@
          <l>Nip thou the bud,</l>
          <l>Before the bloome beginnes</l>
          <l>Lord <add place="above" cert="low">the one</add> [ver]
-            <!-- TODO tagging supplied? 
-              [NOTE] Even in the original this is very difficult to read.-->
+            <!-- TODO tagging supplied? hmm. not sure about that one. -->
+             <!-- [NOTE] Even in the original this is very difficult to read.-->
             
             keepe me, from
          </l>
@@ -296,8 +296,8 @@
             <pb n="4"/>
 
 <!-- Page 4 -->
-<!-- Q page number apparently present but not transcribed; should it be? [no image] 
-       [NOTE] blank – but it is numbered in the top left-hand corner. 
+<!-- teamsQ page number apparently present but not transcribed; should it be? [no image] -->
+      <!-- [NOTE] blank – but it is numbered in the top left-hand corner. 
        -->
          
          
@@ -459,7 +459,7 @@
          <fw>
            <fw place="left margin">⁜</fw> <!-- [unicode dotted cross symbol] errm why is xslt changing unicodes? -->
             <fw type="header" rend="underline">
-               <date>1631</date>:<!-- TODO remove colons like this -->
+               <date>1631</date>:<!-- TODO conventions change - remove colons like this -->
             </fw>
          </fw>
          <milestone n="ev2" unit="event"/><p>
@@ -508,17 +508,17 @@
           Glory &amp; praise even to my lives end<lb/>
           Amen. &amp; that for my Saviours Sake<lb/>
           alone. the Alpha &amp; Omega. Am<hi rend="underline">en .</hi>
-           <!-- Q underline looks more like a short line end marker to me -->
+           <!-- teamsQ marks - underline looks more like a short line end marker to me -->
          </p>
          </div>
             <pb n="12"/>
 
 <!-- Page 12 -->
-       <!-- TODO check tagging consistency/policy <fw> inside/outside <div> if div starts on a new page -->
+       <!-- TODO check consistency/policy <fw> inside/outside <div> if div starts on a new page -->
       <div>
          <fw>
             <fw type="pageNum">12</fw>
-            <fw type="header">163i.</fw><!-- TODO conventions change i>arabic numerals here and elsewhere; check if there are any v. -->
+            <fw type="header">163i.</fw><!-- TODO conventions change - i>arabic numerals here and elsewhere; check if there are any v. -->
          </fw>
          <milestone n="ev3" unit="event"/>
         <p>Beeing removed from <placeName n="place5">Richmond</placeName><lb/>
@@ -1146,12 +1146,10 @@
        </div>
        
        <!-- year 1655 -->
-     <div>
-    <p>
+     <div rend="pre-diagonal-short">
     <fw place="left margin"><date>1655</date>.</fw><lb/>
-      <!-- TODO tagging short diagonal line section marker. 
-        + placing of 1655 margin text. ?
-        [NOTE] A diagonal line between the sections which goes through the date which was prob added later as it is in a darker ink, like the page number.-->
+    <p>
+      <!-- [NOTE] A diagonal line between the sections which goes through the date which was prob added later as it is in a darker ink, like the page number.-->
        <milestone n="ev31" unit="event"/>
                   
         <persName ref="ppl:edg1" n="per81">my Mother Gates</persName> died at <lb/>
@@ -1159,18 +1157,19 @@
         blood the <date when="1655-05-10"><seg rend="darkerInk">10<hi rend="superscript">th</hi></seg> day of may. 1655</date>.<lb/>
         &amp; was buried at Stanegr<damage>av</damage>e
         <!-- msDescription [NOTE] Here there is a hole from the correction on p.25.-->
-            <lb/>
+         <lb/>
          the <date when="1655-05-11">1<mod><del rend="overwritten">0</del><add place="superimposed">1</add></mod><hi rend="superscript">th</hi> of may 1655</date>.
       <anchor n="ev31"/>
-          / <!-- TODO tagging marker --></p>
+          </p>
        </div>
-       <div>
+       <div rend="pre-diagonal-short post-diagonal-short">
+         <!-- / div rend -->
          <milestone n="ev32" unit="event"/>
          <p><persName ref="ppl:gg1" n="per82">my father Gates</persName> died at <placeName n="place44">Hull</placeName><lb/>
           the <date><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may 1655</date>. and was<lb/>
           buried at hull the <date><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may<lb/>
-          1655</date>/ <!-- TODO tagging marker 
-            [NOTE] Diagonal line below second 5 and punctuation. -->
+          1655</date><!-- / div rend -->
+           <!-- [NOTE] Diagonal line below second 5 and punctuation. -->
          </p>
          <anchor n="ev32"/>
          </div>
@@ -1582,7 +1581,7 @@
            &amp; <mod><del rend="overwritten" cert="medium">7</del><add place="superimposed" cert="medium">9</add></mod><lb/> 
             aClock at night vpon satterday the<lb/>
           <date when="1659-12-10">10:<hi rend="superscript">th</hi> of Decemb: 
-            <hi rend="underline">1659:</hi></date><!-- TODO tagging this looks like another end of section line rather than underlined text; check underline elsewhere? -->
+            <hi rend="underline">1659:</hi></date><!-- teamsQ tagging this looks like another end of section line rather than underlined text; and check underline elsewhere? -->
          </p>
          
             <pb n="38"/>
@@ -1757,8 +1756,9 @@
           by <persName ref="ppl:jk1" n="per130">Mr<del><unclear reason="illegible" quantity="1" unit="char"/></del> <!-- [NOTE] Superscript letter blotted out after the r?--> 
           Kirton</persName> who preached of<lb/>
           Sunday:
-           <!-- TODO space tag ? [NOTE] Unusually there is some space at the foot of this page – room for approximately 2-3 lines if follows spacing on the rest of that page.
-            - "indicates an area where one might expect text that, in the judgment of the modern reader/editor was deliberately left blank in the original"
+          <space unit="lines" quantity="3"/>
+           <!-- [NOTE] Unusually there is some space at the foot of this page – room for approximately 2-3 lines if follows spacing on the rest of that page.
+            space - "indicates an area where one might expect text that, in the judgment of the modern reader/editor was deliberately left blank in the original"
             <space quantity="1" unit="chars"/>
            -->
          </p>
@@ -2688,7 +2688,7 @@
          <p>This most excelent &amp; spiritull<lb/>
           mercy was not the least. but greatet<lb/>
           I aphrended to receave from God, fare<lb/>
-           surpassing all temporalls <!-- Q [caret was here, no insertion] keep or treat like filler? --> inasmuch<lb/>
+           surpassing all temporalls <!-- Q marks ^ was here without any insertion - keep or treat like filler? --> inasmuch<lb/>
           as Eternity does this finite beeings<lb/>
           O that my heart would breake in<lb/>
           peices at the joyfull remembrance of this<lb/>
@@ -2844,10 +2844,10 @@
           power it was alone to give us helpe<lb/>
           &amp; assistance, both as to the inabling us to<lb/>
           pay off his Just debts as allso to give me<lb/>
-           a sattisfaction in the settlemēt<!-- Q abbrev - contraction within word. isn't there another note about a contraction, that didn't use special character? --> of <persName ref="ppl:wt1" n="per184">Mr Th</persName>: E<supplied reason="unclear" cert="low">ik</supplied>d
+           a sattisfaction in the settlemēt<!-- TODO tagging abbrev - contraction within word. isn't there another note about a contraction, that didn't use special character? --> of <persName ref="ppl:wt1" n="per184">Mr Th</persName>: E<supplied reason="unclear" cert="low">ik</supplied>d
             <lb/>
           upon my Ch: 
-             <!-- Q abbrev? [NOTE] Line through top of Ch.-->
+             <!-- TODO tagging abbrev? [NOTE] Line through top of Ch.-->
              for provission &amp; therefore to him<lb/>
           for releife a lone I on my bended knees<lb/>
          
@@ -3098,7 +3098,7 @@
         </fw>
           <lb/><!-- moved fw -->
          <milestone n="ev52" unit="event"/>
-          <!-- Q not too sure why I made this a separate event... -->
+          <!-- Q event not too sure why I made this a separate event... -->
          <p>
           Yea the Lord god had pittie upon<lb/>
           my distresse &amp; gave me after this<lb/>
@@ -3726,7 +3726,7 @@
           <persName ref="ppl:rw1" n="per229">Dr wittie</persName> did apprehend; &amp; it, toget<hi rend="superscript">^her^</hi><lb/> 
             with a greeife that befell me upon my 
             <del rend="strikethrough">ret</del><lb/> 
-            returne home by: W: [I/T]<!-- Q reading of text. I think T. but what is it? a name? ?? -->: 
+            returne home by: W: [I/T]<!-- teamsQ reading of text. I think T. but what is it? a name? ?? -->: 
             <subst>
               <add place="above">about</add>
               <del rend="strikethrough">by</del>
@@ -4036,7 +4036,7 @@
           strong by degrees. she had very many<lb/>
           &amp; was full over her face &amp; the haire came<lb/>
           all off.<anchor n="ev68"/> Oh that our soules, my mind &amp; 
-          ♥ <!-- Q unicode? hearts -->
+          ♥ <!-- Q unicode? hearts. and/or should this be tagged in some way? -->
           <lb/>
           may for <add place="above">ever</add> give glory to the great God of Heaven<lb/>
           &amp; Earth. o sing praisis to the Eternall King<lb/>
@@ -5038,7 +5038,7 @@
           =pose &amp; intermixe X<hi rend="superscript">s</hi>
            <note place="end">
                <p rend="Endnote Text">
-              Xs – here = crosses.<!-- Q unicode? check image --></p>
+              Xs – here = crosses.<!-- Q unicode? and/or tagging? --></p>
             </note> with comforts.<lb/>
           Smiles with frownes to his servants heere<lb/>
           as shall <add place="above">be</add> the best for them. not as they shall<lb/>
@@ -5407,7 +5407,7 @@
           happinesse. those Joyes. which I doe hope<lb/>
           <note place="end" type="marker-review">
                <p rend="Endnote Text">
-              Short line in left-hand margin. <!-- Q reading of text: isn't this a cross rather than a line? --></p>
+              Short line in left-hand margin. <!-- teamsQ reading of text: isn't this a cross rather than a line? --></p>
             </note><rs ref="ppl:wt1" n="per328" type="person">my deare husband</rs> now inheritts. And<lb/>
            now O Lord I thine poore, weake hand<lb break="no"/>
            =maide &amp; servant doth from my very<lb/>
@@ -5801,9 +5801,9 @@
          breath.</l>
          <l>Then faire well world thy uttermost I see</l>
          <l>Eternall love maintaine thy life in me:</l>
-      <!-- Q tagging space -->
+      <!-- Q tagging space here? space of about 1 line. [the space below Amen is bigger, more obviously "space".] -->
               <p> Amen.</p>
-         <!-- Q tagging space -->
+         <space unit="line" quantity="16"/>
       
             <pb n="157"/>
 
@@ -5863,7 +5863,7 @@
                <p rend="Endnote Text">
               Contraction mark over ‘m’.</p>
             </note> bare heads; bow’d knees strike Just<supplied>is</supplied></l>
-         <l>As well as blind &amp; lame, &amp; give a Tongue <add place="above" rend="underline">dumb</add><!-- Q reading of text: is tongue crossed out or dumb underlined? -->
+         <l>As well as blind &amp; lame, &amp; give a Tongue <add place="above" rend="underline">dumb</add><!-- teamsQ reading of text: is tongue crossed out or dumb underlined? -->
          </l>
          <l>To stones by Epitaphs; be calld great master</l>
          <l>In the last lines of every Poetaster:</l>
@@ -5890,10 +5890,10 @@
          <l>Heare dwells noe heartlesse loves noe pale face</l>
          <l>Noe short Joyes purchast with Eternall <subst>
            <del rend="strikethrough">tears</del><add place="above">feares</add>
-         </subst>.<!-- Q reading of text: these two lines looks to me like  "... noe pale fact feares / ... with Eternall tears [not a deletion] -->
+         </subst>.<!-- teamsQ reading of text: these two lines looks to me like  "... noe pale fact feares / ... with Eternall tears [not a deletion] -->
          </l>
-         <l>Heere will I sit &amp; sigh my weakes youth folly<!-- Q reading of text: "folly" inserted at end below line in |__. encoding if anything? -->.</l>
-         <l>And learne to affect an holy mallancholly. <!-- Q reading of text: mallancholy similarly below line --></l>
+         <l>Heere will I sit &amp; sigh my weakes youth folly<!-- teamsQ reading of text: "folly" inserted at end below line in |__. encoding if anything? -->.</l>
+         <l>And learne to affect an holy mallancholly. <!-- teamsQ reading of text: mallancholy similarly below line --></l>
          <l>And if contentment be a stranger, then</l>
          <l>He neare looke for it but in Heaven agaen.</l>
        </div>
@@ -5978,7 +5978,7 @@
          <l>If Sad, he were my Soules delight;</l>
          <l>In summe, and all, All-onely hee,</l>
          <l>Should be all, a bove All to mee.</l>
-           <!-- Q tagging space tag? 
+         <!-- Q tagging space here? only 1-2 lines.
             [NOTE] Some space left a the bottom of this page, possibly room for about one or two more lines.
            -->
          
@@ -5999,13 +5999,14 @@
          <l> His Glory this to comfort me:</l>
          <l> And as ti’s writt Such honour shall.</l>
          <l> Even unto all his Saints befall.</l>
-         <l> ------------------<!-- TODO tagging this line  --></l>
+         <milestone unit="rule" rend="horiz-short-right"/>
+         <!-- horizontal line about 1/4 width of page and right-aligned -->
          <l> Judge not that feild, because it’s stuble</l>
          <l> Nor her that’s poore &amp; full of trouble.</l>
          <l> Though t’one looke baire, t’other thin,</l>
          <l> Judge not theire treasure lies within.</l>
-         <!-- TODO tagging space tag? 
-              [NOTE] Rest of page is blank. -->
+         <space unit="line" quantity="7"/>
+         <!-- [NOTE] Rest of page is blank. -->
  </div>        
             <pb n="163"/>
 
@@ -6183,8 +6184,8 @@
                 </note>
                   
          </p>
-  <!-- Q tagging space ? 
- [NOTE] Rest of page is blank, check original.-->
+        <space quantity="7" unit="line"/>
+  <!-- [NOTE] Rest of page is blank, check original.-->
 </div>         
             <pb n="169"/>
          
@@ -6203,8 +6204,8 @@
                   
      <div type="index">
            
-       <!-- Q tagging of tag names, places, events in index? -->
-       <!-- TODO? tag index as table? (ugh)  -->
+       <!-- TODO? tagging of tag names, places, events in index? -->
+       <!-- TODO? tag index as table? (ugh though)  -->
        <!-- msDescription [NOTE] Ruling on page.-->
             
          <head>
@@ -6671,7 +6672,7 @@
           fall on the Church &amp; Kingdoms &amp; praid<lb/>
           heartily for our good King; said that Pride &amp;<lb/>
           fullness of Bread would be the fall of the<lb/>
-          Church &amp; state if God prevented not.<milestone unit="undetermined" rend="diagonal"/><!-- Q is this / really a marker or just filler? --><lb/>
+          Church &amp; state if God prevented not.<milestone unit="undetermined" rend="diagonal"/><!-- Q marks is this / a marker or just filler? --><lb/>
           with mainy other like Prophiticall saings<lb/>
           sevrall times with much trouble &amp; somme<lb/>
           still begging to God to <w cert="low" norm="divert">Divit</w> his Judgment<lb/>
@@ -6719,7 +6720,7 @@
            tould my Aunt I have had the strangest drea<hi rend="superscript">^m^</hi> <lb/>
           that evr I had. I dreamd that A man came in<lb/>
           to the Roome. with all Things for mournings<lb/>
-          &amp; laid them on the ground. <supplied cert="low">Sir<!-- Q tagging not really a supplied, letters are there, just hard to decipher. do i need to check supplied elsewhere? :-/ --></supplied> B [M/W?]<!-- Q reading of text. is this is a name?? --> habitts<lb/>
+          &amp; laid them on the ground. <supplied cert="low">Sir<!-- TODO tagging not really a supplied, letters are there, just hard to decipher. do i need to check supplied elsewhere? :-/ --></supplied> B [M/W?]<!-- teamsQ reading of text. is this is a name?? --> habitts<lb/>
           as sleeces &amp;. I said she asked what that meant<lb/>
           The man that brought the mournings. said That<lb/>
           when such things apeard in a Child wifs<lb/>
@@ -6824,7 +6825,7 @@
           &amp; was a great Joy to her to heare them but the Lord<lb/>
           was not pleased to grant him a long life but to tak<lb/>
           him away in these good designes. &amp; what he wanted<lb/>
-          in Power God acepted in the will in him.<milestone unit="undetermined" rend="diagonal"/><!-- Q is this / a marker or just filler? --><lb/>
+          in Power God acepted in the will in him.<milestone unit="undetermined" rend="diagonal"/><!-- Q marks is this / a marker or just filler? --><lb/>
           He Laid that night there. And the next mor=<hi rend="superscript">^ning^</hi> <lb/>
           came to <placeName n="place106">Hipswell</placeName> about 9 a clocke. And at that tme<lb/>
           found me in a most sad sircumstance. I had bin<lb/>
