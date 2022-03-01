@@ -177,20 +177,40 @@
      <!-- 
       NOTES: 
       
-      TODO dates tagging: some still need checking for OS/NS; not yet added @when attributes to bare years in format yyyy, but done for full dates, uncertain, adjusted, yy, etc    
+      to finish: 
+        dates tagging: 
+          some jan-march still need checking for OS/NS; 
+          not yet added @when attributes to bare years in format yyyy, but done for full dates, uncertain, adjusted, yy, etc  
+          (and look for less easy to find dates!)
       
-      TBD add year divs or not? inserted markers in comments, but doubtful about value of doing this.
+      to update:
+        conventions change: 
+          i>arabic numerals ; check if there are any v for 5 as well
+          remove : from numbers
+        check if there are other conventions changes i've forgotten about...
       
-      reminder to self: already checked numbering in this book is consistent even=left, odd=right.
+      to review: 
+        - use of <supplied> tag and text in square brackets. not too sure about what I've done here.
+        - need to look at tagging of abbreviations/contractions and markers. some <hi superscript should be tagged as abbreviations? still reading up on this one! 
+          this might also affect the ^...^ you haven't finished yet. are some of those actually abbreviations?
+        - check consistency/policy <fw> inside/outside <div> when div starts on a new page?
+      
+      Qs 
+        where you've put some anchor tags to end events, but you need to come back to that more generally anyway.
+        sic tagging of repetition. is there something specific I should add there?
+      
+      TBD add year divs or not? inserted markers in comments, but doubtful about value of doing this. (the book is not simply chronological)
         
       TBD tagging of ms description features - a lot of this to be dropped or only described in msDescription, but will review properly after I see final Book 1 transcription.
           footnotes > comments for reference/to come back to
           in teiHeader added examples/comments for tags we might want in msDesc
       
-      to review comments, remaining footnotes
-        type=word mostly spelling suggestions - where interpretation is straightforward, starting to put these in <w norm=""> tags and deleting notes. but keep queries for now.
+      to review: remaining footnotes
+        type=word mostly spelling suggestions - where interpretation is straightforward, starting to put these in <w norm=""> (or <sic>) tags and deleting notes. but keep queries for now.
         type=context leave these for later
         
+      [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
+      
      -->
          
    <front>     
@@ -269,10 +289,7 @@
 <!-- Page 3a-->
       
          <fw type="pageNum" place="right">3
-            <note place="end">
-               <p rend="Endnote Text">
-              Repeated page number, verso of leaf is blank.</p>
-            </note>
+             <!-- [NOTE] Repeated page number, verso of leaf is blank.-->  
          </fw>
          <div type="poetry">
          <l>Lord guide my heart,</l>
@@ -282,7 +299,7 @@
          <l>Nip thou the bud,</l>
          <l>Before the bloome beginnes</l>
          <l>Lord <add place="above" cert="low">the one</add> [ver]
-            <!-- TODO tagging supplied? hmm. not sure about that one. -->
+            <!-- Q tagging supplied? hold for now until you've reviewed. -->
              <!-- [NOTE] Even in the original this is very difficult to read.-->
             
             keepe me, from
@@ -399,7 +416,7 @@
          
          <div>
 <!-- Body -->
-        <!-- Q Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
+        <!-- Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
          <fw>
             <fw type="header" rend="underline">
                <date>1631</date>
@@ -807,7 +824,7 @@
           fathomlesse gulfe of waters. praise<lb/>
           his holy name for ever &amp; for ever Amen</p>
         
-       <milestone unit="undetermined" rend="rule-short-left-margin"/>
+       <milestone unit="undetermined" rend="diagonal-left-margin"/>
            <!-- msDescription [NOTE] At a slight angle from margin over the top of ‘I’. -->
          
          <p>I had a second preservation from drown<add place="above">ing</add><lb/>
@@ -1200,10 +1217,9 @@
          <p><!-- / div rend --><persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
           Childe was borne at <placeName n="place48">Hipswell</placeName> the<lb/>
           <date when="1656-06-12">12<hi rend="superscript">th</hi> of June, 1656</date>. being thursday<lb/>
-          about halfe an houer affter 4 --<note place="end" type="marker-review">
-               <p rend="Endnote Text">
-              There’s a line after 4. Looks similar to divisions but clearly isn’t, but definitely not a squiggle.</p>
-            </note>
+          about halfe an houer affter 4 <milestone unit="undetermined" rend="diagonal"/>
+             <!-- [NOTE] There’s a line after 4. Looks similar to divisions but clearly isn’t, but definitely not a squiggle.-->
+            
             <lb/>
           a clocke in the affter noone, and was<lb/>
           babtized the <date when="1656-06">1<hi rend="superscript">th</hi> of June<!-- date - day seems wrong --></date>. by <persName ref="ppl:ms1" n="per85">Mr<lb/>
@@ -1236,10 +1252,9 @@
            <lb/>
           6 months &amp;. 21 days. was<lb/>
           buried the same day at <placeName n="place49">Catericke<lb/>
-           Church</placeName><note place="end" type="marker-review">
-               <p rend="Endnote Text">
-              There is a horizontal line / here from margin alongside Church up through buried.</p>
-            </note>
+           Church</placeName>
+           <!-- [NOTE] There is a horizontal line / here from margin alongside Church up through buried -->.
+            
             by <persName ref="ppl:ms1" n="per90">Mr Siddall</persName>.
          </p>
          <anchor n="ev35"/>
@@ -1589,7 +1604,7 @@
 <!-- Page 38 -->
 
          <fw>
-            <fw type="pageNum">38./</fw>
+            <fw type="pageNum">38./</fw><!-- Q how to handle diagonal line here -->
             <fw type="header">.<date>1659</date>.</fw>
          </fw>
          <p>She was interred upon Tuesday<lb/>
@@ -1624,11 +1639,10 @@
             of her sicknesse. but liked him not:</p>
          <p>
            <anchor n="ev39"/>
-            <add place="inline">Enter her Praiers my mo: made on Severall occa<hi rend="superscript">ns:</hi></add>
-           <note place="end">
-               <p rend="Endnote Text">
-              Information in angle brackets, later addition. Diagonal line here goes through last couple of words; last line prob added later. These prayers follow here in book 1.</p>
-            </note>/
+            <add place="inline">Enter her Praiers my mo: made on Severall occa<hi rend="superscript">ns:</hi></add><!-- TODO tagging abbrev? -->
+           <!-- / milestone -->
+             <!-- [NOTE] Information in angle brackets, later addition. Diagonal line here goes through last couple of words; last line prob added later. These prayers follow here in book 1.-->
+           <milestone unit="undetermined" rend="diagonal"/>
          </p>
   </div>       
             <pb n="39"/>
@@ -2688,7 +2702,7 @@
          <p>This most excelent &amp; spiritull<lb/>
           mercy was not the least. but greatet<lb/>
           I aphrended to receave from God, fare<lb/>
-           surpassing all temporalls <!-- Q marks ^ was here without any insertion - keep or treat like filler? --> inasmuch<lb/>
+           surpassing all temporalls ^ <!-- Q marks ^ here without any insertion - keep or treat like filler? --> inasmuch<lb/>
           as Eternity does this finite beeings<lb/>
           O that my heart would breake in<lb/>
           peices at the joyfull remembrance of this<lb/>
@@ -4347,7 +4361,7 @@
           Decemb. 1667:</date> beeing 3 weeks old upon the<lb/>
          <date when="1667-12-02"> 2<hi rend="superscript">d</hi> of december</date>. he was Buried at <placeName n="place90">Stongrav<hi rend="superscript">e</hi></placeName><lb/> 
           on the <date when="1667-12-02">2<hi rend="superscript">d</hi> decemb.</date> by <persName ref="ppl:tc1" n="per273">Mr Comber</persName>. who did<lb/>
-           preach his funerall Sermon.<milestone unit="undetermined" rend="diagonal"/>/ Decmb. 2<hi rend="superscript">d</hi><lb/> 
+           preach his funerall Sermon.<milestone unit="undetermined" rend="diagonal"/><!-- / milestone--> Decmb. 2<hi rend="superscript">d</hi><lb/> 
             
             <hi rend="underline"><date>1667</date> .</hi>
          </p>
@@ -5036,10 +5050,8 @@
           Lord of Heaven &amp; Earths most infinitly<lb/>
           wise disposition, for he knows how to pro-<lb break="no"/>
           =pose &amp; intermixe X<hi rend="superscript">s</hi>
-           <note place="end">
-               <p rend="Endnote Text">
-              Xs – here = crosses.<!-- Q unicode? and/or tagging? --></p>
-            </note> with comforts.<lb/>
+            <!-- Q unicode? and/or tagging? [NOTE] Xs – here = crosses. -->
+             with comforts.<lb/>
           Smiles with frownes to his servants heere<lb/>
           as shall <add place="above">be</add> the best for them. not as they shall<lb/>
           thinke fitt, which are but of yesterday. but<lb/>
@@ -5405,10 +5417,8 @@
           builder is God. how should I groane after<lb/>
           &amp; long to be clothed upon &amp; injoy that<lb/>
           happinesse. those Joyes. which I doe hope<lb/>
-          <note place="end" type="marker-review">
-               <p rend="Endnote Text">
-              Short line in left-hand margin. <!-- teamsQ reading of text: isn't this a cross rather than a line? --></p>
-            </note><rs ref="ppl:wt1" n="per328" type="person">my deare husband</rs> now inheritts. And<lb/>
+          <!-- teamsQ reading of text: isn't this a cross rather than a line? [NOTE] Short line in left-hand margin. -->
+            <rs ref="ppl:wt1" n="per328" type="person">my deare husband</rs> now inheritts. And<lb/>
            now O Lord I thine poore, weake hand<lb break="no"/>
            =maide &amp; servant doth from my very<lb/>
            soule &amp; ♥ begge of thy Glorious Majesty<lb/>
@@ -5714,10 +5724,8 @@
          <p>Lord hee loves thee the lesse, that<lb/>
           loves any thing with thee, which hee<lb/>
           loves not for thee.</p>
-         <p> (St Austin.)<note place="end" type="text-appearance">
-               <p rend="Endnote Text">
-              Citation and attribution in larger writing and italic hand.</p>
-            </note>
+         <p> (St Austin.)
+             <!-- msDescription [NOTE] Citation and attribution in larger writing and italic hand.-->   
          </p>
        </epigraph>
        </div>
@@ -5902,10 +5910,8 @@
          
          <l>The Just shall live by faith.</l>
          <l>Nisi Christus Nemo.</l>
-         <l>Tout pour le’ Eg’lize.<note place="end" type="layout">
-               <p rend="Endnote Text">
-              Bracket – connecting the two foreign phrases.</p>
-            </note>
+         <l>Tout pour le’ Eg’lize.
+             <!--TODO tagging not at all sure about this one! [NOTE] Bracket – connecting the two foreign phrases.-->
          </l>
          <l>Christ and the Church, in love so well ag’reed</l>
          <l>That hee for her, &amp; she for him has Blee’d.</l>
@@ -6178,12 +6184,9 @@
           by all things in Heaven, &amp; Earth.<lb/>
           of men &amp; Angells, both now &amp; to<lb/>
           all etternity for evermore.</p>
-                <p> Amen.<note place="end" type="text-appearance">
-               <p rend="Endnote Text">
-                 Final ‘Amen’ in larger script than the main text. </p>
-                </note>
-                  
-         </p>
+                <p> Amen.
+                <!-- msDescription? [NOTE] Final ‘Amen’ in larger script than the main text. -->
+                </p>
         <space quantity="7" unit="line"/>
   <!-- [NOTE] Rest of page is blank, check original.-->
 </div>         
@@ -6720,7 +6723,7 @@
            tould my Aunt I have had the strangest drea<hi rend="superscript">^m^</hi> <lb/>
           that evr I had. I dreamd that A man came in<lb/>
           to the Roome. with all Things for mournings<lb/>
-          &amp; laid them on the ground. <supplied cert="low">Sir<!-- TODO tagging not really a supplied, letters are there, just hard to decipher. do i need to check supplied elsewhere? :-/ --></supplied> B [M/W?]<!-- teamsQ reading of text. is this is a name?? --> habitts<lb/>
+          &amp; laid them on the ground. <supplied cert="low">Sir<!-- TODO tagging not really a supplied, letters are there, just hard to decipher. --></supplied> B [M/W?]<!-- teamsQ reading of text. is this is a name?? --> habitts<lb/>
           as sleeces &amp;. I said she asked what that meant<lb/>
           The man that brought the mournings. said That<lb/>
           when such things apeard in a Child wifs<lb/>
@@ -6856,7 +6859,7 @@
           write. she said that I was soe grevely ill she could<lb/>
           not leave me but doe it affterwards. Soe he did<lb/>
           Againe kneele down and aske blessng. she said<lb/>
-          son you asked blesing but a <supplied>Nothre<!-- TODO check tagging supplied  --></supplied> you came in<lb/>
+          son you asked blesing but a <supplied>Nothre</supplied> you came in<lb/>
           he said that he could not have to much of her pras<lb/>
           for him &amp; soe Reverently bid her good morrow<lb/>
           &amp; me fairewell. And tooke horrse to goe to <placeName n="place107">Rich<lb break="no"/>
