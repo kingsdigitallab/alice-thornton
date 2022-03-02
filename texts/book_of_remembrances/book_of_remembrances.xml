@@ -178,35 +178,38 @@
       NOTES: 
       
       to finish: 
-        dates tagging: 
+        dates: 
           some jan-march still need checking for OS/NS; 
           not yet added @when attributes to bare years in format yyyy, but done for full dates, uncertain, adjusted, yy, etc  
-          (and look for less easy to find dates!)
+          and look for less easy to find dates!
+        events:
+          plenty still to do here...
+          need to review location of some anchor tags
       
       to update:
-        conventions change: 
+        conventions changes: 
           i>arabic numerals ; check if there are any v for 5 as well
           remove : from numbers
         check if there are other conventions changes i've forgotten about...
       
       to review: 
-        - use of <supplied> tag and text in square brackets. not too sure about what I've done here.
-        - need to look at tagging of abbreviations/contractions and markers. some <hi superscript should be tagged as abbreviations? still reading up on this one! 
-          this might also affect the ^...^ you haven't finished yet. are some of those actually abbreviations?
-        - check consistency/policy <fw> inside/outside <div> when div starts on a new page?
+        - use of <supplied> tag for [text in square brackets]. i think this is wrong unless words are completely illegible, maybe <unclear> ?
+        - tagging of abbreviations/contractions and markers. pretty sure some <hi superscript should be tagged as abbreviations? still reading up on this one! 
+        - possibly related to the ^...^ you haven't finished yet. are some of those actually abbreviations?
+        - check consistency <fw> inside/outside <div> when div starts on a new page?
+        - check use of <space>, <damage> etc ?
+        - possibly check / markers etc. 
       
       Qs 
-        where you've put some anchor tags to end events, but you need to come back to that more generally anyway.
-        sic tagging of repetition. is there something specific I should add there?
-      
-      TBD add year divs or not? inserted markers in comments, but doubtful about value of doing this. (the book is not simply chronological)
+        sic tagging repetition. is there something specific I should add there?
+        add year divs or not? inserted markers in comments, but doubtful about value of doing this. (the book is not simply chronological)
         
       TBD tagging of ms description features - a lot of this to be dropped or only described in msDescription, but will review properly after I see final Book 1 transcription.
           footnotes > comments for reference/to come back to
-          in teiHeader added examples/comments for tags we might want in msDesc
+          in teiHeader added examples for tags we might find useful
       
       to review: remaining footnotes
-        type=word mostly spelling suggestions - where interpretation is straightforward, starting to put these in <w norm=""> (or <sic>) tags and deleting notes. but keep queries for now.
+        type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep queries for now.
         type=context leave these for later
         
       [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
@@ -476,7 +479,7 @@
          <fw>
            <fw place="left margin">⁜</fw> <!-- [unicode dotted cross symbol] errm why is xslt changing unicodes? -->
             <fw type="header" rend="underline">
-               <date>1631</date>:<!-- TODO conventions change - remove colons like this -->
+               <date>1631</date>:<!-- TODO conventions change : -->
             </fw>
          </fw>
          <milestone n="ev2" unit="event"/><p>
@@ -531,11 +534,11 @@
             <pb n="12"/>
 
 <!-- Page 12 -->
-       <!-- TODO check consistency/policy <fw> inside/outside <div> if div starts on a new page -->
+
       <div>
          <fw>
             <fw type="pageNum">12</fw>
-            <fw type="header">163i.</fw><!-- TODO conventions change - i>arabic numerals here and elsewhere; check if there are any v. -->
+            <fw type="header">163i.</fw><!-- TODO conventions change - i>arabic numerals -->
          </fw>
          <milestone n="ev3" unit="event"/>
         <p>Beeing removed from <placeName n="place5">Richmond</placeName><lb/>
@@ -1662,7 +1665,6 @@
       <milestone n="ev40" unit="event"/>
          <p>It was the good pleasure of God<lb/>
            <!-- moved fw=pageNum -->
-            <lb/>
           to contineue me in the Land of the <lb/>
             liveing, And to bring forth <rs ref="ppl:wt2" n="per121" type="person">my 6<hi rend="superscript">th</hi><lb/> 
            Child</rs> at <placeName n="place55">St Nickolas</placeName> upon the <seg rend="darkerInk">12<hi rend="superscript">th</hi></seg>.
@@ -1784,7 +1786,6 @@
 
  <div type="poetry">        
          <fw type="header" style="text-align: center;"> <date>1660</date>.</fw>
-        <lb/>
          <fw place="left margin">42.</fw>
    
          <l>Tax not thy God thy owne defalts</l>
@@ -2547,10 +2548,10 @@
           <fw type="pageNum" rend="darkerInk">65.
              <!-- msDescription [NOTE] Almost circular mark around page number which looks to be in a darker ink that that on the page.-->
           </fw>
+           <lb/>
          Taken away my bed frm under mee<lb/>
           &amp; those quick goods my dear mo:<lb/>
-          gave for my releife &amp; childrens <!-- moved fw -->
-            <lb/>
+          gave for my releife &amp; childrens <!-- moved fw --> <lb/>
           these men were very boysterous, &amp;<lb/>
            rude threatning to <add place="superimposed">ta</add>ke my Person<lb/>
           if not sattisfied. Loe in what a<lb/>
@@ -2661,7 +2662,7 @@
             <lb/>
            <!-- msDescription [NOTE] Page trimmed as top pf the ch cut off here.-->
           &amp; confirming, holy Sacrament, which<lb/>
-           my blessed Saviour lefft us as his <!-- moved fw -->
+           my blessed Saviour lefft us as his <!-- moved fw --><lb/>
           dearest pledge of his love. who laid<lb/>
           downe his Life for siners, that sined<lb/>
           not that became poore that We might<lb/>
@@ -2872,9 +2873,9 @@
            <fw type="header" rend="underline">
                <date>1662</date>
             </fw>
-          <lb/>
          <fw type="pageNum">76.</fw> 
            </fw>
+          <lb/>
           I humbly cast my self at the<lb/>
           Throne of Grace, who had ever bin<lb/>
           my guide &amp; director in all my waies<lb/>
@@ -3049,6 +3050,7 @@
 <!-- Page 82 -->
 
          <fw type="pageNum">82.</fw> 
+           <lb/>
            lasted till Candlemas affter by<lb/>
           fitts upon me.</p>  
         <anchor n="ev51"/>
@@ -3604,7 +3606,7 @@
 
 <!-- Page 99 -->
          <fw>
-         <fw type="header">65 </fw><lb/>
+         <fw type="header">65 </fw>
            <fw type="pageNum">99.</fw>  
           </fw>  
            <lb/>
@@ -5585,11 +5587,10 @@
             <fw type="header">
                <seg rend="underline"><date>1668</date></seg>
             </fw>
-          <lb/> 
          <fw type="pageNum">
                <seg rend="underline">150.</seg>
             </fw> 
-          
+          <lb/> 
           who staied with him a good while<lb/>
           Then towards night <rs ref="ppl:wt1" n="per334" type="person">my dearest</rs> fell<lb/>
           to be worse &amp; more heavy &amp; drousie<lb/>
