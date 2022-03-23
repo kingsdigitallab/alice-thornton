@@ -649,7 +649,7 @@
                      at the last, about 8 a clocke at night, we got Safe<lb/>
                     <hi rend="superscript background(magenta)">^To harbour^</hi>
                     <note place="end">
-                        <p rend="Endnote Text"> [insertion] This insertion is partially placed in the left-hand margin.</p>
+                        <p rend="Endnote Text"> [insertion][margin] This insertion is partially placed in the left-hand margin.</p>
                     </note> through the infinitt mercys of our great, &amp; Powerfull<lb/>
                      Lord God, we landed safely at the shore of the Skirries.<lb/>
                      where the same Hubert with all his familie, &amp; freinds<lb/>
@@ -794,13 +794,14 @@
                      for ever more. Amen. &amp; Amen.</p>
              </div>
             <div>
-                <!-- CHECK complicated bit here! 
-                    (Q should the marginal note be inside or outside head? probably outside?)
-                [endnote] [margin] Left-hand marginal insertion. Written vertically ro this point to bottom of page over two lines -->
-                <fw place="margin">
+               <!-- NOTE [margin] tagged note -->
+               <!-- CHECK vertical text 
+                    should the marginal note be inside or outside head?
+                [endnote][margin] Left-hand marginal insertion. Written vertically ro this point to bottom of page over two lines -->
+                <note place="margin">
                     My L. <hi rend="superscript">d</hi> Straford tooke Ship for England w:<hi rend="superscript">th</hi> my Lord Raby his son<lb/>
                     on good friday y <hi rend="superscript">e</hi> yeare. 1640. gaue my father the Sword then.
-                </fw>
+                </note>
                 <head>
                 ------------------------------------------------------------------ <lb/>
                      Observations uppon severall accidents <lb/>
@@ -1145,14 +1146,14 @@
                      the same uppon those Excelent foundations on<lb/>
                      which it was built. //</p>
                 <p>
-                    <!-- NOTE [margin] treated as header (different ink/writter in later? looks blotchy) -->
-                    <!-- [decoration] double horizontal lines above the header - I think *not* appropriate to treat this as text underline 
-                         [text size] smaller than main text. -->
-                   
-                    <fw type="header" place="left margin">Acc<hi rend="superscript">.t</hi> of<lb/>
-                             the Lord<lb/>
-                             Deputy<lb/>
-                             Death</fw> 
+                    <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
+                    <!-- NOTE (Q?) [decoration] double horizontal lines above the header - I think *not* appropriate to treat this as text underline  -->
+                   <!-- Q [text size] smaller than main text. -->
+                    <note resp="#awt1" place="left margin" rend="rule-horiz-pre-post">
+                        Acc<hi rend="superscript">.t</hi> of<lb/>
+                         the Lord<lb/>
+                         Deputy<lb/>
+                         Death</note> 
                     It pleased <hi rend="superscript">^God^</hi> to vissite my deare father, with a<lb/>
                              feaver, at the latter end of November. which kept him<lb/>
                              about a weeke or 10, daies in the house. but finding<lb/>
@@ -1423,7 +1424,7 @@
                     </note>
                 </p>
                 <p>
-                    <!-- NOTE [margin] biblical reference 
+                    <!-- NOTE [margin] tagged fw - biblical reference 
                          NB *not* attempting to associate the reference with the quotation as we'll tag that using <quote> @source   -->
                     <!-- [decoration] thick line under the reference. - *not* text underline  -->
                     <!-- Q curly brace pointing at the text. represent this at all? -->
@@ -1434,7 +1435,7 @@
                         v. 1<hi rend="superscript">st</hi> 2,
                         <!-- CORRECTION "2d" in image -->
                   <note place="end">
-                  <p rend="Endnote Text">[bib][margin] <hi rend="background(magenta)">Note because a different kind of biblical citation. NB. Issue of standardisation of biblical citations, and editorial practice/annotation.</hi></p>
+                  <p rend="Endnote Text">[bib] <hi rend="background(magenta)">Note because a different kind of biblical citation. NB. Issue of standardisation of biblical citations, and editorial practice/annotation.</hi></p>
                    </note>
                     </fw>
                         The righteous perisheth &amp; no man laieth it to<lb/>
@@ -2149,10 +2150,10 @@
                     <!-- NOTE [margin] tagged fw. 
                         again check what is "Com"...? -->
                     
-                        <fw place="left margin">
-                            Com.<lb/>
-                             3 
-                        </fw> 
+                    <fw place="left margin">
+                        Com.<lb/>
+                         3 
+                    </fw> 
                 But soe guilty have wee bin O Lord of takeing thy holie<lb/>
                 Name in our mouths in vaine. That wee have not onlie <lb/>
                 neglected that Duty of Honouring<note place="end">
@@ -2248,7 +2249,7 @@
                             "Com"? -->
                         <fw place="left margin">Com.<lb/>
                              7<hi rend="superscript">th</hi>
-                        </fw>
+                        </fw> 
                      Wee cannot but likewise acknowledge our lustfull con<lb/>
                      cupiscence, in heart, word &amp; deed, in repeating love<lb/>
                      -songs, filthy talking, all manner of uncleanness, as<lb/>
@@ -2265,35 +2266,34 @@
                 
                     <fw type="pageNum">59.</fw>
                 
-                Sleepe, &amp; all such like necessaries. And thou hast<lb/>
-                </p><!-- /p to be dropped -->
-                <table rend="rules">
-                    <row>
-                        <cell>Com. <lb/>
-                             8.</cell>
-                        <cell>forbidden us all inward grudgings &amp; longing affter<lb/>
-                             Wealth by avarice, or coveting other mens riches: all<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>fraud, deceipt, tricks. in bargaining &amp; selling: All<lb/>
+                  Sleepe, &amp; all such like necessaries. And thou hast<lb/>
+                
+                  <!-- NOTE [margin] tagged fw
+                        "Com"? -->
+                  <fw place="left margin">
+                      Com. <lb/>
+                       8.</fw>
+                    forbidden us all inward grudgings &amp; longing affter<lb/>
+                    Wealth by avarice, or coveting other mens riches: all<lb/>
+                        
+                  fraud, deceipt, tricks. in bargaining &amp; selling: All<lb/>
                      usurie, idleness, niggardise &amp; Profusion of thy good Creat<hi rend="superscript">^urs^</hi><lb/>
                      , yet have we incurred the breach of all theise thy Heavenly<lb/>
                      directions, by not dealing uprightly with our neighbour in<lb/>
                      buieing &amp; selling, by not caring to save him from damage<lb/>
                      by not doing the workes of our calling, by not useing liberality<lb/>
                      of frugalitie in all our actions.</p>
-                <table rend="rules">
-                    <row>
-                        <cell>Com. <lb/>
+                <p>
+                    <!-- NOTE [margin] tagged fw -->
+                    <!-- Q text underline -->
+                        <fw place="left margin">
+                            Com. <lb/>
                             <hi rend="underline">9, 10</hi>
-                        </cell>
-                        <cell>And wee must Lastly confesse O Lord against our Selves<lb/>
-                             that thou haste enjoyned us all plaine meaning and<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>speaking, all taciturnitie, grave speech, a moderate use<lb/>
+                        </fw>
+                    And wee must Lastly confesse O Lord against our Selves<lb/>
+                    that thou haste enjoyned us all plaine meaning and<lb/>
+                    
+                speaking, all taciturnitie, grave speech, a moderate use<lb/>
                      of the tongue, the bearing of a good oppinnion of our Neigh-<lb break="no"/>
                      -bours, &amp; judging, all things done by him to the best:</p>
                 <p>But contrarilie wee have delighted our selves to much<lb/>
@@ -2725,21 +2725,19 @@
                      My Lord Cholmely &amp; his Lady, with many other Persons<lb/>
                      of qualitie. severall of which would have furnished<lb/>
                      her with monnyes. but she wass unwilling to trouble<lb/>
-                     any. still expecting returnes out of yorkeshire.</p>
-                <table rend="rules">
-                    <row>
-                        <cell>July<lb/>
-                            <hi rend="underline">17.</hi>
+                     any. still expecting returnes out of yorkeshire.
+                <!-- NOTE [margin] tagged <note> -->
+                <!-- Q text underline again. makes some sense for 17th, but lines above and below have been -> @rend  -->
+                <note place="left margin" resp="#awt1" rend="rule-horiz-pre-post">July<lb/>
+                     <hi rend="underline">17.</hi><!-- CORRECTION 17th in image -->
                             <lb/>
-                            <hi rend="underline">1643</hi>
-                        </cell>
-                        <cell>But the warres falling out hott att that time, beeing wee<lb/>
-                             were beleagured in Chester by Sir Will. <hi rend="superscript">m</hi> Brewertons<lb/>
-                             forces for the Parliament <hi rend="superscript">^&amp;^</hi> there happened a strainge<lb/>
-                             accident which raised that Seige July. 19<hi rend="superscript">th</hi> 1643.</cell>
-                    </row>
-                </table>
-                <p>As I was informed; there was 3 granadoes shott in<lb/>
+                         1643
+                        </note>
+                     But the warres falling out hott att that time, beeing wee<lb/>
+                     were beleagured in Chester by Sir Will.<hi rend="superscript">m</hi> Brewertons<lb/>
+                     forces for the Parliament <hi rend="superscript">^&amp;^</hi> there happened a strainge<lb/>
+                     accident which raised that Seige July. 19<hi rend="superscript">th</hi> 1643.<lb/> 
+                    As I was informed; there was 3 granadoes shott in<lb/>
                      to the towne but through providence hurt noe bodie.<lb/>
                      The first, beeing shott into the Sconce of our Souldiers.<lb/>
                      with in 2 men of the Captaine Manw<hi rend="superscript">^a^</hi>ring. but haveing<lb/>
@@ -3044,19 +3042,19 @@
                     </note>
                 </head>
                 <p>----------------------------------------------------------------------------------------</p>
-                <table rend="rules">
-                    <row>
-                        <cell>Aug.<lb/>
-                             28<lb/>
-                            <hi rend="underline">1643.</hi>
-                        </cell>
-                        <cell>From Weschester my deare mother removed with her 3 yonger<lb/>
-                             Children. Alice. Christofer. &amp; John Wandesforde. (She having<lb/>
-                             sent her 2 grand sonns home from Chester before the seige)<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>with these, &amp; severall servants &amp; tennants, <hi rend="superscript">^though^</hi> with much difficulty<lb/>
+                <!-- NOTE [margin] tagged <note> -->
+                <!-- NOTE text underline (1643) again -> @rend  -->
+                <p>
+                   <note place="left margin" resp="#awt1" rend="rule-horiz-pre-post">
+                       Aug.<lb/>
+                         28<lb/>
+                         1643.
+                        </note>
+                    From Weschester my deare mother removed with her 3 yonger<lb/>
+                    Children. Alice. Christofer. &amp; John Wandesforde. (She having<lb/>
+                    sent her 2 grand sonns home from Chester before the seige)<lb/>
+                        
+                with these, &amp; severall servants &amp; tennants, <hi rend="superscript">^though^</hi> with much difficulty<lb/>
                      by reason of the interchange of the Kings Armies, &amp; the Parliament<lb/>
                      she was brought into the Towne of Warrington, towards coming<lb/>
                      in to Yorkeshire, she finding more favour by reason of the Captains<lb/>
@@ -3147,94 +3145,84 @@
                 <p>
                     O that we might live to his praise &amp; glory, of his name
                 </p>
-                <table rend="rules">
-                    <row>
-                        <cell>Sept.<hi rend="superscript">ber</hi>
-                            <lb/>
-                             2<hi rend="superscript">d</hi>
-                            <lb/>
-                             1643</cell>
-                        <cell>My mother was minded to goe to Snape, where my <lb/>
-                             Sister Danly<note place="end">
+                <p rend="rules">
+                  <!-- NOTE [margin] tagged note -->
+                  <note place="left margin" resp="#awt1" rend="rule-horiz-pre-post">
+                      Sept.<hi rend="superscript">ber</hi> <lb/>
+                       2<hi rend="superscript">d</hi> <lb/>
+                       1643
+                  </note>
+                    
+                    My mother was minded to goe to Snape, where my <lb/>
+                    Sister Danly<note place="end">
                                 <p rend="Endnote Text"> [word] SiC – presumably should be Danby.</p>
                             </note> was. &amp; beeing invited by her she went <lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>
-                    <note place="end">
-                        <p> [margin] ‘Sirfett Lobster/at Richmond ----’ In left hand-margin, written at right angle to main text.</p>
-                    </note>
-                </p>
-                <p>thither to live, till she could better dispose of her selfe,<lb/>
+
+                    <!-- NOTE [margin] tagged note -->
+                    <!-- CHECK vertical text. and what about the line after Richmond? milestone? -->
+               <note place="left margin" resp="#awt1">
+                   Sirfett Lobster/at Richmond ----
+                </note>
+                     thither to live, till she could better dispose of her selfe,<lb/>
                      &amp; us in those troublesome times. For it beeing in the <lb/>
                      heate of the warres she could not live at Hipswell her<lb/>
                      Joynture, which was molested, some times with the Parliamen<hi rend="superscript">^ts^</hi><lb/>
-                </p><!-- /p to be dropped -->
-                <table rend="rules">
-                    <row>
-                        <cell>Sept.<lb/>
-                            <hi rend="underline">15</hi>
-                            <hi rend="superscript underline">th</hi>
-                            <lb/>
-                            <hi rend="underline">1643.</hi>
-                        </cell>
-                        <cell>&amp; then the Kings forces amongst them. (to uncle Nortons)<lb/>
-                             Soe that for a whole yeare we lived, with great comfort and<lb/>
-                             safety with my sweete Sister Danby att Snape. where she<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p> [[]]</p>
-                <table rend="rules">
-                    <row>
-                        <cell>to snape<lb/>
-                             from <lb/>
-                             Rich.<lb/>
-                             Octb.<lb/>
-                             11. 43.</cell>
-                        <cell>was delivered of a galant Son even in the midest of troub<lb break="no"/>
-                             -les. God gave her comfort. &amp; my brother would have<lb/>
-                             him called Charles. because of his ingagement for the<lb/>
-                             Kings service. Now while we lived at Snape my brot<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>[[]]</p>
-                <table rend="rules">
-                    <row>
-                        <cell>Bro. Jack to<lb/>
+
+                    <!-- NOTE [margin] tagged <note> -->
+                    <!-- Q text underline -->
+                <note place="left margin" resp="awt1">
+                        Sept.<lb/>
+                        <hi rend="underline">15</hi>
+                        <hi rend="superscript underline">th</hi>
+                        <lb/>
+                        <hi rend="underline">1643.</hi>
+                 </note>
+                   &amp; then the Kings forces amongst them. (to uncle Nortons)<lb/>
+                         Soe that for a whole yeare we lived, with great comfort and<lb/>
+                         safety with my sweete Sister Danby att Snape. where she<lb/>
+              <!-- NOTE [margin] tagged <note> -->
+              <!-- Q line under text 11.43 -->
+                <note place="left margin" resp="awt1">
+                    to snape<lb/>
+                         from <lb/>
+                         Rich.<lb/>
+                         Octb.<lb/>
+                         11. 43.</note>
+                  was delivered of a galant Son even in the midest of troub<lb break="no"/>
+                         -les. God gave her comfort. &amp; my brother would have<lb/>
+                         him called Charles. because of his ingagement for the<lb/>
+                         Kings service. Now while we lived at Snape my brot<lb/>
+                    
+                    <!-- NOTE [margin] tagged <note> -->
+                    <!-- Q text underline -->
+                    <note place="left margin" resp="awt1">
+                        Bro. Jack to<lb/>
                              B. Sco<lb/>
                              No. 16.<lb/>
                             <hi rend="underline">43.</hi>
-                        </cell>
-                        <cell>-her Christopher W. was exceedingly tormented with the<lb/>
+                        </note>
+                        -her Christopher W. was exceedingly tormented with the<lb/>
                              fitts of the spleene. haveing taken them uppon the death of<lb/>
                              my Father, with greife in the Church at his funerall.<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>seiseing them upon him they contineued sore, notwith <lb/>
+                        
+                seiseing them upon him they contineued sore, notwith <lb/>
                      standing all good meanes used, laboured &amp; endevours of<lb/>
                      my mother. &amp; us all, with all meanes, meadicens &amp; ad-<lb break="no"/>
                      -vices of Phisicians for him. I am wittnesse &amp; many more<lb/>
                      that not any thing was wanting. which might conduce to his<lb/>
-                </p><!-- /p to be dropped -->
-                <table rend="rules">
-                    <row>
-                        <cell>Nov.<lb/>
+                <!-- NOTE [margin] tagged <note> -->
+                    <note place="left margin" resp="awt1">
+                        Nov.<lb/>
                              22<lb/>
                              to Scoo<hi rend="superscript">^le^</hi>
                             <lb/>
-                             23 43.</cell>
-                        <cell>recovery. At the last she sending him to Dr Batthurst<lb/>
+                             23 43.</note>
+                  recovery. At the last she sending him to Dr Batthurst<lb/>
                              at Yorke. where by Gods blessing he was perfectly cured<lb/>
                              of this distempers. This was indeed a great deliverance of<lb/>
                              him from this distemper wherein many that has seene him has<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>begged of the Lord to take him out of those torment. And at<lb/>
+
+                begged of the Lord to take him out of those torment. And at<lb/>
                      length through great mercy he was delivered.</p>
 
                 <pb n="81"/>
@@ -3348,18 +3336,18 @@
                      this account compelld to live obscured, from all People, in-<lb break="no"/>
                      regard that he would not be compelld to this treason, nor was<lb/>
                      willing to be imprisoned, by them.</p>
-                <!-- CHECK (but i don't remember why...) SH check tab[le immediately after this line ?? -->
-                <table rend="rules">
-                    <row>
-                        <cell>Sept.<lb/>
+                
+                <p>
+                <!-- NOTE [margin] tagged <note> -->
+                <!-- Q text underline. here there is only one line underneath but again, what's its function? -->
+                        <note place="left margin" resp="#awt1">
+                            Sept.<lb/>
                             <hi rend="underline">15.</hi>
-                        </cell>
-                        <cell>About the yeare 1643. We went to see my Aunt Norton<lb/>
+                        </note>
+                        About the yeare 1643. We went to see my Aunt Norton<lb/>
                              at Richmond, &amp; to live a while with her till Hipswell was<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>fitted, &amp; there itt Pleased God to preserve me from death<lb/>
+                    
+                    fitted, &amp; there itt Pleased God to preserve me from death<lb/>
                      which I was nigh, <hi rend="superscript">^unto^</hi> by Eating a little peice of Lobster that day<lb/>
                      I had taken Phisick, for it turned on my first sleepe<lb/>
                      when I wakned, into an exceeding terrible vomitting <lb/>
@@ -4644,27 +4632,25 @@
                 <l>Through the long Current of a Thousand Years.</l>
                 <l>A Sacred-Reputation; there, Whole-Bands</l>
                 <l>Of forward-Converts, by the Reverend-hands</l>
-                <!--CHECK (but why?) SH check table immediately after this -->
-                <table rend="rules">
-                    <row>
-                        <cell>Anno<lb/>
-                            <hi rend="underline">627.</hi>
-                            <lb/>
-                             Edwino<lb/>
-                            <hi rend="underline background(green)">Rege</hi>
-                            <hi rend="underline">.</hi>
-                        </cell>
-                        <cell rend="tei:l">
-                            <l>Of Old-Paulinnus did at once Begin</l>
-                            <l>To shake-hands with there God, &amp; of theire Sin:</l>
-                            <l>Those Waves did, then, a font, t <hi rend="superscript">^he^</hi> Banks afford.</l>
-                            <l>An acceptable-Temple to the Lord: </l>
-                        </cell>
-                    </row>
-                </table>
-                <l>Oh<note place="end">
-                        <p rend="Endnote Text"> [margin] SH: "Oh" goes slightly into the margin but I don't think it's an addition. </p>
-                    </note> What meant the: Rash flood by one act, to Throw</l>
+
+                <!-- NOTE [margin] tagged <note> -->
+                <!-- Q text underline again -->
+                <!-- Q "Rege" highlighted green; idk why - no endnote to go with it. -->
+                <note>
+                    Anno<lb/>
+                    <hi rend="underline">627.</hi> <lb/>
+                     Edwino<lb/>
+                     <hi rend="underline background(green)">Rege</hi>
+                     <hi rend="underline">.</hi>
+                        </note>
+                     
+                <l>Of Old-Paulinnus did at once Begin</l>
+                <l>To shake-hands with there God, &amp; of theire Sin:</l>
+                <l>Those Waves did, then, a font, t<hi rend="superscript">^he^</hi> Banks afford.</l>
+                <l>An acceptable-Temple to the Lord: </l>
+                        
+                <l>Oh What meant the: Rash flood by one act, to Throw</l>
+                <!-- NOTE [margin] "Oh" goes slightly into the margin but I don't think it's an addition. -->
                 <l>A Ruine on its owne fame, and us too,</l>
                 <l>Soe brave a vessell, &amp; soe Richly fraught.</l>
                 <l>That guilltty Channell has to Ship wrack Brought</l>
@@ -6975,17 +6961,21 @@
                   by will as allso; her losse of her Annuity of 300 <hi rend="superscript">l</hi> per An{num}<lb/>
                   out of Ireland to the valew due unto her at her death<lb/>
                 </p><!-- /p to be dropped -->
-                <table rend="rules">
-                    <row>
-                        <cell>19 <lb/>
-                             yers A <lb/>
-                            <hi rend="underline">widd</hi>ow </cell>
-                        <cell>the summe of 300 p{er} An{num}-which never receaved any part<lb/>
+                <p rend="rules">
+                <!-- NOTE [margin] actual marginal note -->
+                <!-- NOTE [decoration] removed text underline and replaced with @rend - in fact there are lines above *and* below the marginal text -->
+                 <!-- NOTE last two letters of "widdow" overlap main text -->
+                    <note place="left margin" resp="#awt1" rend="rule-horiz-pre-post">
+                        19 <lb/>
+                        yers A <lb/>
+                        widdow 
+                    </note>
+                    the summe of 300 p{er} An{num}-which never receaved any part<lb/>
                              thereof. yett notwithstanding all the aforesaid goodnes<lb/>
                              of hers to that Estate; there wanted not some whoe putt<lb/>
-                        </cell>
-                    </row>
-                </table>
+                        
+                    
+                </p>
                 <p> hard thoughts into the Heires Minde, that she dealt hard<lb/>
                      by because she did not give all her widdowes Patrimony<lb/>
                      to him, when as all her former helpes did redound <lb/>
@@ -11020,9 +11010,9 @@
                      O wicked imagination, whence camest thou in to cover the<lb/>
                      Earth with deceipt:</p>
                 <p>
-                    <fw>4<note place="end">
-                        <p rend="Endnote Text"> [margin] SH: in margin</p>
-                    </note></fw> 
+                    <!-- NOTE [margin] tagged fw.
+                        position not indicated in transcription -->
+                   <fw place="left margin">4</fw> 
                     There is a companion; which rejoyceth in the prosperity of a<lb/>
                      freind: but in the time of trouble will be against him.<lb/>
                      Beware of a counseller, &amp; know before what he needeth.<lb/>
@@ -11616,7 +11606,7 @@
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 
-             <fw rend="underline" place="margin">P </fw>
+             <fw rend="underline" place="left margin">P </fw>
                     <note place="end">
                         <p rend="Endnote Text"> [margin] Reason for this marginal annotation?</p>
                     </note> Uppon my lamentable abuses of fallse slanders raised<lb/>
@@ -14040,9 +14030,13 @@
                      on Easter Eve — before my bro. G was lost</head>
                 <p>-------------------------------1651----------------------------------------------</p>
                 <p>
-                    <note place="end">
-                        <p> [margin] Text written vertically in the left-hand margin: ‘Uppon Easter day &amp; had a full sattisfaction of there true love &amp; affection to each/other &amp; ever Affter to his death <hi rend="superscript">^for^ </hi>which I doe bless &amp; praise the God of Heaven for ever’. </p>
-                    </note> It was no smale greife &amp; trouble to me that<lb/>
+              <note place="left margin">
+                  <!-- NOTE [margin] tagged note -->
+                  <!-- CHECK vertical text . written top to bottom -->
+                  Uppon Easter day &amp; had a full sattisfaction of there true love &amp; affection to each<lb/>
+                  other &amp; ever Affter to his death <hi rend="superscript">^for^</hi> which I doe bless &amp; praise the God of Heaven for ever
+               </note> 
+                    It was no smale greife &amp; trouble to me that<lb/>
                      the wickedness of my Eldest brothers servant <lb/>
                      by idle stories to my deare Brother George<lb/>
                      against my poore brother Christ. had soe<lb/>
