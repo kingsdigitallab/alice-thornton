@@ -61,15 +61,26 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <!--          
-         <p>Items <hi rend="background(magenta)">marked</hi> – are for discussion with Sharon</p>
-         <p>Items <hi rend="background(green)">marked</hi> – may need reconsideration for consistency</p>
-         <p>Items <hi rend="background(cyan)">marked</hi> – double-check original</p>
+        <!-- NOTES
+         
+         Transcriber notes:
+         - Items <hi rend="background(magenta)">marked</hi> – are for discussion with Sharon
+         - Items <hi rend="background(green)">marked</hi> – may need reconsideration for consistency
+         - Items <hi rend="background(cyan)">marked</hi> – double-check original
+         
+         NOTE: just a comment on something, shouldn't need any further action
+         CHECK: sort this out asap!
+         TODO: needs sorting out but can probably wait
+         Q: not sure what to do with it
+         CORRECTION: problem with transcription to be raised with team
+         
+         [endnote] moved from Word doc endnotes
+         
           -->
         <front>
 
             <div>
-                <!-- TODO this needs some work... -->
+                <!-- TODO decide how to handle this... -->
                 <p>
                     <hi rend="bold">[[Page i] [First leaf] Inscription: see Dip.]</hi>
                 </p>
@@ -291,8 +302,9 @@
 
                 <fw type="pageNum">8.</fw>
                 <fw type="header">A preservation in the Meassells.</fw>
-                <!-- NOTE encoded as fw rather than head because it's not at the beginning of the section and therefore wouldn't be valid tei. But it is rightly the title for the section...:
-                [endnote] NB. Despite the title at the top of the page, the details of the ‘preservation’ only begins part way down the page, which is where the ‘main body’ of the text proper begins.
+                    <!-- NOTE [tag choice] fw rather than head because it's not at the beginning of the section and therefore wouldn't be valid tei. 
+                        BUT it is the title for the section...
+                        [endnote] NB. Despite the title at the top of the page, the details of the ‘preservation’ only begins part way down the page, which is where the ‘main body’ of the text proper begins.
                 -->
                 ------------------------------------------------------------------------------------------<lb/>
 
@@ -310,7 +322,7 @@
 
         <body>
             <div>
-                <!-- TODO this section is ugh. -->
+                <!-- TODO ugh -->
                 <p>
                     <hi rend="superscript background(magenta)">^Remember to putt the Relation of my delivrance from Death</hi>
                 </p>
@@ -321,7 +333,7 @@
                 </p>
                 <p style="text-align: center;">
                     <hi rend="underline">1629</hi>
-                    <!-- Q is 1629 intended to be the heading/title of this first div or is it related to the preceding text? seems to me probably the latter since she dates this first deliverance 1630 not 1629.   -->
+                    <!-- Q is the year 1629 intended to be the heading/title of this first div or is it related to the preceding text? seems to me probably the latter since she dates this first deliverance 1630 not 1629.   -->
                 </p>
          </div>
          <div>
@@ -354,7 +366,7 @@
                 
                     <fw type="pageNum">9. </fw>
                     <fw type="header">From the Smale Pox.</fw>
-                    <!-- NOTE again the heading is tagged as fw because it's not a section title. -->
+                    <!-- NOTE [tag choice] header is not a section title therefore tagged fw -->
                 ------------------------------------------------------------------------------------------<lb/>
                 
                 That I was spaired from death at that time, and<lb/>
@@ -515,7 +527,7 @@
 
                 <fw type="pageNum">13.</fw>
                 <fw type="header"> 33. 34. 35.</fw>
-                <!-- NOTE again, header is not a section title -->
+                    <!-- NOTE [tag choice] header is not a section title -->
                 ------------------------------------------------------------------------------------------------<lb/>
                 Teachings. Reproofes, &amp; Godly Education, tending to <lb/>
                      the wellfaire, &amp; Etternall happinesse, &amp; salvation<lb/>
@@ -551,7 +563,7 @@
 
                 <fw type="pageNum"> 14. </fw>
                 <fw type="header"> 36. 37. 38.</fw>
-                <!-- NOTE another header which is not a section title -->
+            <!-- NOTE [tag choice] header is not a section title -->
             
             <div>
                 <head> A deliverance from a fire &amp; other remarkables.</head>
@@ -673,7 +685,7 @@
                      was forced to flie into England, uppon the Rebellion<lb/>
                      which brake out in Ireland.</p>
                 
-                <!-- NOTE there is a new event here but I think not new div: check what was the decision in BoR? -->
+                <!-- NOTE [div] there is a new event here but I think not new div: check what was the decision in BoR? -->
                 <p>But I must not forgett a second preservation of<lb/>
                      my owne selfe from drowneing. out of that ship, at<lb/>
                      that time, when a cable from the bote that came to <lb/>
@@ -782,7 +794,7 @@
                      for ever more. Amen. &amp; Amen.</p>
              </div>
             <div>
-                <!-- TODO complicated bit here! 
+                <!-- CHECK complicated bit here! 
                     (Q should the marginal note be inside or outside head? probably outside?)
                 [endnote] [margin] Left-hand marginal insertion. Written vertically ro this point to bottom of page over two lines -->
                 <fw place="margin">
@@ -1132,26 +1144,28 @@
                      he praied God to divert the same. and Establish<lb/>
                      the same uppon those Excelent foundations on<lb/>
                      which it was built. //</p>
-                <table rend="rules">
-                    <row>
-                        <cell>Acc<hi rend="superscript">.t</hi> of<lb/>
+                <p>
+                    <!-- NOTE [margin] treated as header (different ink/writter in later? looks blotchy) -->
+                    <!-- [decoration] double horizontal lines above the header - I think *not* appropriate to treat this as text underline 
+                         [text size] smaller than main text. -->
+                   
+                    <fw type="header" place="left margin">Acc<hi rend="superscript">.t</hi> of<lb/>
                              the Lord<lb/>
                              Deputy<lb/>
-                             Death</cell>
-                        <cell>It pleased <hi rend="superscript">^God^</hi> to vissite my deare father, with a<lb/>
+                             Death</fw> 
+                    It pleased <hi rend="superscript">^God^</hi> to vissite my deare father, with a<lb/>
                              feaver, at the latter end of November. which kept him<lb/>
                              about a weeke or 10, daies in the house. but finding<lb/>
                              him selfe some what better. went to Church, beeing<lb/>
-                        </cell>
-                    </row>
-                </table>
+                
 
                 <pb n="31"/>
 
 <!-- Page 31 -->
 
                 <fw type="pageNum">31.</fw>
-                <p>Attended home by the Earle of Ormond the Lord<lb/>
+                    
+                Attended home by the Earle of Ormond the Lord<lb/>
                      Dillon. Sir George Ratclife &amp; many other persons<lb/>
                      of quality. as the usuall custome was to waite on<lb/>
                      the Deputy to dinner.</p>
@@ -1408,26 +1422,31 @@
                         <p rend="Endnote Text"> [decoration] This is a thick line.</p>
                     </note>
                 </p>
-                <table rend="rules">
-                    <row>
-                        <cell>Isaiah<note place="end">
-                                <p rend="Endnote Text">[bib][margin] <hi rend="background(magenta)">To my knowledge, this is the first time I’ve seen Thornton supply a biblical reference in the left-hand margin, with the full text cited in the main body of the text. Note because a different kind of biblical citation. NB. Issue of standardisation of biblical citations, and editorial practice/annotation.</hi> Also, the feint line below marks the end of the biblical citation </p>
-                            </note>
-                            <lb/>
-                             57<lb/>
-                            <hi rend="underline">v. 1</hi>
-                            <hi rend="superscript underline">st</hi>
-                            <hi rend="underline">2</hi>, </cell>
-                        <cell>The righteous perisheth &amp; no man laieth it to<lb/>
-                             heart; &amp; the mercifull men are taken away, none<lb/>
-                             considering that the righteous is taken away from the<lb/>
-                             evill to come.</cell>
-                    </row>
-                </table>
+                <p>
+                    <!-- NOTE [margin] biblical reference 
+                         NB *not* attempting to associate the reference with the quotation as we'll tag that using <quote> @source   -->
+                    <!-- [decoration] thick line under the reference. - *not* text underline  -->
+                    <!-- Q curly brace pointing at the text. represent this at all? -->
+                    
+                    <fw type="reference" place="left margin">
+                        Isaiah<lb/>
+                        57<lb/>
+                        v. 1<hi rend="superscript">st</hi> 2,
+                        <!-- CORRECTION "2d" in image -->
+                  <note place="end">
+                  <p rend="Endnote Text">[bib][margin] <hi rend="background(magenta)">Note because a different kind of biblical citation. NB. Issue of standardisation of biblical citations, and editorial practice/annotation.</hi></p>
+                   </note>
+                    </fw>
+                        The righteous perisheth &amp; no man laieth it to<lb/>
+                        heart; &amp; the mercifull men are taken away, none<lb/>
+                        considering that the righteous is taken away from the<lb/>
+                             evill to come.
+                    
+                </p>
                 <p> He shall enter into peace: they shall rest in theire <lb/>
                      beds, each one walk<hi rend="superscript">^e^</hi>ing in his uprightnesse.</p>
                 <p>----------------------------------------------------------------------------------------------<note place="end">
-                        <p rend="Endnote Text"> [decoration] This is only a faint line.</p>
+                        <p rend="Endnote Text"> [decoration] This is only a faint line. marks the end of the biblical citation</p>
                     </note>
                 </p>
                 <p>Death is the common lott of all mankinde, since that<lb/>
@@ -2064,9 +2083,11 @@
                      desire to participate of the the Bodie &amp; blood of our most<lb/>
                      deare &amp; Mercifull Saviour, because other wise wee -<lb/>
                      shall be guiltie of our owne damnation.</p>
-                <table rend="rules">
-                    <row>
-                        <cell>
+                <p>
+                    <!-- NOTE [margin] tagged fw -->
+                    <!-- Q text underline - in this case may be appropriate but horizontal marker line might be better? what is its function? is it for emphasis? or decoration/marking distinct?  -->
+                    <!-- Q needs @type but errmm what is "Com" actually short for? Idk what it means! -->
+                    <fw place="left margin">
                             Com.
                             <note place="end">
                                 <p rend="Endnote Text"> [contraction] Line over m indicates a contraction: while most of these are silently expanded, might this be an exception – won’t fit in margin?</p>
@@ -2074,15 +2095,12 @@
                             <lb/>
                             <hi rend="underline">1</hi>
                             <hi rend="superscript underline">st</hi>
-                        </cell>
-                        <cell>
+                        </fw>
+                        
                             Wee doe therefore O Lord: confesse, the wee have
                             <lb/>
                             con-<lb break="no"/>
-                        </cell>
-                    </row>
-                </table>
-                <p>
+                
                     -verted that acknowledging thee for our true &amp; onlie<lb/>
                          God (as thou commandest by fearing thy Name, lov-
                     <hi rend="superscript">^ing^</hi><lb/>
@@ -2097,19 +2115,20 @@
                      &amp; murmuring against thee, lastly into a finall<lb/>
                      desperation or presumption.
                 </p>
-                <table rend="rules">
-                    <row>
-                        <cell>Com. <lb/>
+                <p>
+                    <!-- NOTE [margin] tagged fw. 
+                         again "Com"... -->
+                    <!-- Q text underline/horizontal marker line -->
+                    
+                        <fw place="left margin">Com. <lb/>
                             <hi rend="underline">2</hi>
                             <hi rend="superscript underline">d</hi>
-                        </cell>
-                        <cell>Neither O Lord have wee Attributed that hon{our} and<lb/>
+                        </fw>
+                        Neither O Lord have wee Attributed that hon{our} and<lb/>
                              Glory to thy devine Majestie which became us, but in-<lb break="no"/>
-                        </cell>
-                    </row>
-                </table>
-                <p>stead of Images &amp; Idolls which thou hast forbidden<lb/>
-                     wee have given that honor<note place="end">
+
+                    stead of Images &amp; Idolls which thou hast forbidden<lb/>
+                    wee have given that honor<note place="end">
                         <p rend="Endnote Text"> [word] SiC – no abbreviation.</p>
                     </note> &amp; Preheheminency to our<lb/>
                      Wills, lust, our owne desires, our owne imaginations, <lb/>
@@ -2126,16 +2145,17 @@
                     <fw type="pageNum">57.</fw>
                 
                  Against us and our generations affter us for ever.</p>
-                <table rend="rules">
-                    <row>
-                        <cell>Com.<lb/>
-                             3 </cell>
-                        <cell>But soe guilty have wee bin O Lord of takeing thy holie<lb/>
-                             Name in our mouths in vaine. That wee have not onlie <lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p> neglected that Duty of Honouring<note place="end">
+               <p>
+                    <!-- NOTE [margin] tagged fw. 
+                        again check what is "Com"...? -->
+                    
+                        <fw place="left margin">
+                            Com.<lb/>
+                             3 
+                        </fw> 
+                But soe guilty have wee bin O Lord of takeing thy holie<lb/>
+                Name in our mouths in vaine. That wee have not onlie <lb/>
+                neglected that Duty of Honouring<note place="end">
                         <p rend="Endnote Text"> [word] SiC – no abbreviation.</p>
                     </note> &amp; reverenceing thy Glorious<lb/>
                      Name, by invocation, praier &amp; thanksgiveing, the acknow<lb break="no"/>
@@ -2147,16 +2167,16 @@
                      foolish calling thee to wittnesse, rash vowes, wiles, deceipt<lb/>
                      , lies, &amp; such like untruths, vainely dishonoured thy<lb/>
                      great &amp; glorious Name:</p>
-                <table rend="rules">
-                    <row>
-                        <cell>Com. <lb/>
-                             4 </cell>
-                        <cell>And whereas like a mercifull father, thou hast provided<lb/>
-                             six daies for our necessaries &amp; reserved but one for thy<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p> Sabboth, wherein thou hast injoyned us a frequent use<lb/>
+                <p>
+                    <!-- NOTE [margin] tagged fw. 
+                            "Com"? -->
+                    <fw place="left margin">
+                        Com. <lb/>
+                          4 </fw>
+                     And whereas like a mercifull father, thou hast provided<lb/>
+                     six daies for our necessaries &amp; reserved but one for thy<lb/>
+                    
+                    Sabboth, wherein thou hast injoyned us a frequent use<lb/>
                      of thy worship. as well in publicke congregations, as by<lb/>
                      our selves, an attentive hearing thy worde, &amp; workes, &amp;<lb/>
                      meditating upon both, a frequent use of thy Saraments<note place="end">
@@ -2171,16 +2191,14 @@
                      &amp; reading of thy Scriptures &amp; instead of praiers. deeds of<lb/>
                      Pietie, mercy, &amp; Charitie, wee have intermedled with prophan<lb/>
                      &amp; ordenary affaires of those daies.</p>
-                <table rend="rules">
-                    <row>
-                        <cell>Com. <lb/>
-                             5 </cell>
-                        <cell>But allas deare father of Mercies, wee are not onlie guilty<lb/>
-                             of offending thee our Heavenly father, but have broken<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>those bonds &amp; obligations which common civilitie and<lb/>
+                <p>
+                    <!-- NOTE [margin] tagged fw. 
+                            "Com"? -->
+                        <fw place="left margin">Com. <lb/>
+                             5 </fw>
+                    But allas deare father of Mercies, wee are not onlie guilty<lb/>
+                    of offending thee our Heavenly father, but have broken<lb/>
+                    those bonds &amp; obligations which common civilitie and<lb/>
                      humanitie hath appointed betwixt us &amp; our.<lb/>
                 
 
@@ -2208,34 +2226,32 @@
                      our duties by contempt our scorne, to much indulgence<lb/>
                      and rigour, by lightnesse &amp; immodestie, &amp; too much<lb/>
                      boasting. Neither can wee excuse our selves. O Lord<lb/>
-                </p><!-- /p here to be dropped when you do table -->
-                <table rend="rules">
-                    <row>
-                        <cell>Com. <lb/>
+                
+                    <!-- NOTE [margin] tagged fw. 
+                            "Com"? -->
+                    <!-- Q text underline -->
+                    <fw place="left margin">
+                        Com. <lb/>
                             <hi rend="underline">6</hi>
                             <hi rend="superscript underline">th</hi>
-                        </cell>
-                        <cell>from hatred, anger, evill will, desire of revenge, wai-<lb break="no"/>
-                             wardness, peevishnesse, inhumanity, wrathfull looks<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>and such like misbehaviours against our neighbours,<lb/>
+                        </fw>
+                    from hatred, anger, evill will, desire of revenge, wai-<lb break="no"/>
+                     wardness, peevishnesse, inhumanity, wrathfull looks<lb/>
+                     and such like misbehaviours against our neighbours,<lb/>
                      Whereas thou hast commanded us unfeined love,<lb/>
                      one towards annother, benevolence, compassion,<lb/>
                      meekenesse, long suffering, affibilitie, &amp; all kinde of<lb/>
                      courteous behauiour.</p>
-                <table rend="rules">
-                    <row>
-                        <cell>Com.<lb/>
+                
+                <p rend="rules">
+                    <!-- NOTE [margin] tagged fw. 
+                            "Com"? -->
+                        <fw place="left margin">Com.<lb/>
                              7<hi rend="superscript">th</hi>
-                        </cell>
-                        <cell>Wee cannot but likewise acknowledge our lustfull con<lb/>
-                             cupiscence, in heart, word &amp; deed, in repeating love<lb/>
-                        </cell>
-                    </row>
-                </table>
-                <p>-songs, filthy talking, all manner of uncleanness, as<lb/>
+                        </fw>
+                     Wee cannot but likewise acknowledge our lustfull con<lb/>
+                     cupiscence, in heart, word &amp; deed, in repeating love<lb/>
+                     -songs, filthy talking, all manner of uncleanness, as<lb/>
                      well with our selves as others: Whereas on the other side<lb/>
                      thou hast enjoy<hi rend="superscript">^n^</hi>ed us all chastiety, modestie in our <lb/>
                      actions, wordes, gesture attyre. behaviour, and conver-<lb break="no"/>
@@ -2790,7 +2806,7 @@
 
                 
                     <fw type="pageNum">72.</fw>
-        <!-- Q new div here? there is an index entry ("upon my having the smallpox the second time...", ref 72) but no title/separation -->  
+        <!-- Q [div] new div here? there is an index entry ("upon my having the smallpox the second time...", ref 72) but no title/separation -->  
                 
                 <p>Till I grew so dangerously ill, &amp; inwardly sicke;<lb/>
                      that I was in mu<hi rend="superscript">^c^</hi>h perill of my life, by theire not comeing<lb/>
@@ -3332,7 +3348,7 @@
                      this account compelld to live obscured, from all People, in-<lb break="no"/>
                      regard that he would not be compelld to this treason, nor was<lb/>
                      willing to be imprisoned, by them.</p>
-                <!--TO DO IMPORTANT SH check tab[le immediately after this line ?? -->
+                <!-- CHECK (but i don't remember why...) SH check tab[le immediately after this line ?? -->
                 <table rend="rules">
                     <row>
                         <cell>Sept.<lb/>
@@ -3387,7 +3403,7 @@
                      for my Lord Jesus Christ. Amen. / In the yeare 1644. No. <hi rend="superscript">^ber^</hi> 29.</p>
                 </div>
             <div>
-            <!-- NOTE new div: no title or index entry, but there is a divider line and it does mark a change in narrative -->    <p>--------------------------------------------------------------------------------</p>
+            <!-- NOTE [div] new div: no title or index entry, but there is a divider line and it does mark a change in narrative -->    <p>--------------------------------------------------------------------------------</p>
                 <p>After I was recruted in strength my mother went to</p>
                 <p>
                     <hi rend="superscript">^with my B. George my selfe &amp; George Lightfoot &amp; Dafeny Cassell. &amp; My D. G. W. his man.^</hi>
@@ -4628,7 +4644,7 @@
                 <l>Through the long Current of a Thousand Years.</l>
                 <l>A Sacred-Reputation; there, Whole-Bands</l>
                 <l>Of forward-Converts, by the Reverend-hands</l>
-                <!--TODO IMPORTANT SH check table immediately after this -->
+                <!--CHECK (but why?) SH check table immediately after this -->
                 <table rend="rules">
                     <row>
                         <cell>Anno<lb/>
@@ -6549,7 +6565,7 @@
                      security through Jesus Christ our Lord. Amen.</p>
              </div>
             <div>
-                <head> 1659.</head><!-- Q? tagging this as head, but usually have tagged year headings as fw. no other title text. hmmm. -->
+                <head> 1659.</head><!-- Q [tag choice] tagging this as head, but usually have tagged year headings as fw. no other title text. hmmm. -->
                 <p>-------------------------------------------------------------------------------</p>
                 <p>About this time wee weare all in a great confussion in<lb/>
                      this Kingdome, none knowing how the Government of this<lb/>
@@ -7509,7 +7525,7 @@
             </div>
             <div>
                 <head>
-               <!-- TODO Q how to handle the three prayers. split into subsections? --> ----------------------------------------------------------------------------------------
+               <!-- TODO decide how to handle the three prayers. split into subsections? --> ----------------------------------------------------------------------------------------
                     Severall Prayers made by my Mother proper for the<lb/>
                      time of the holy sacrament. as Ejaculations.</head>
                 <p>----------------------------------------------------------------------------------------</p>
@@ -8229,7 +8245,7 @@
                 </p>
                </div>
             <div>
-              <!-- NOTE tagged new div: no section title but has index entry and there is a divider line  -->  <p>------------------------------------------------------------------------------------------------</p>
+              <!-- NOTE [div] new div: no section title but has index entry and there is a divider line  -->  <p>------------------------------------------------------------------------------------------------</p>
                 <p>Affter this inestimable &amp; wonderfull mercy, in my grac--<lb break="no"/>
                      --ious Gods giveing me sattisfaction in my doubts &amp; in putt<lb/>
                      ing to flight that old serpent the Devill, from doeing more har<lb break="no"/>
@@ -8537,7 +8553,7 @@
 
 <!-- Page 197 -->
 
-                <!-- NOTE index has an entry "A returne of thankes for yt inestimable Spirituall Mercy" ref p 199 but I can't see a break around here...  -->  
+                <!-- NOTE [div] index has an entry "A returne of thankes for yt inestimable Spirituall Mercy" ref p 199 but I can't see a break for a new div around here...  -->  
                 
                     <fw type="pageNum">199.</fw>
                 
@@ -8940,7 +8956,7 @@
                      &amp; Earth for ever: Amen. //.</p>
                 </div>
             <div>
-                <!-- NOTE new div: no section title or index entry, but there is a divider line and possible? narrative change  -->
+                <!-- NOTE [div] new div: no section title or index entry, but there is a divider line and possible? narrative change  -->
                 <p>------------------------------------------------------------------------------------------------</p>
                 <p>My Son Robert was baptized on Satterday the 20 <hi rend="superscript">th</hi> of<lb/>
                      September 1662 by Mr Luckock att our House in Easte<lb/>
@@ -9436,7 +9452,7 @@
                      &amp; languishing condition all that winter. //.</p>
           </div>
           <div>
-              <!-- NOTE new div: no section title, only division marker is //, but there is an index entry (ref is 218 instead of 217) -->
+              <!-- NOTE [div] new div: no section title, only division marker is //, but there is an index entry (ref is 218 instead of 217) -->
                 <p>I humblie Acknowledge my boundant duty &amp; gratitude<lb/>
                      for deliverance, &amp; preservation from this death allso; to<lb/>
                      the Almighty Power &amp; infinitt mercy of the Lord my God<lb/>
@@ -9990,7 +10006,7 @@
                 
             <div>
                 <head style="text-align: center;" rend="underline">
-                    <!-- Q again should this 67 be tagged as head or fw? -->
+                    <!-- Q [tag choice] again should the year 67 be tagged as head or fw? -->
                    67.
                 </head>
                 <p>My brother Dentons Son John fell into great extream<hi rend="superscript">^ity^</hi><lb/>
@@ -11552,7 +11568,7 @@
                 <p>I was exceding weake in bed when she went. nor did I hope to<lb/>
                      recover either health or strength againe had it not bin out of the<lb/>
                      infinitt Riches &amp; goodnesse of my gracious God; which wrought<lb/>
-                     miraI<!-- CHECK wtf happened here? should be "miracles in" --> me his faithfull innocent handmaide.<lb/>
+                     miraI<!-- CORRECTION "miraI" should be "miracles in" (error is in downloaded file) --> me his faithfull innocent handmaide.<lb/>
                 
 
                 <pb n="258"/>
@@ -12373,7 +12389,7 @@
                      seaventeene yeares.</p>
             </div>
             <div>
-                <!-- Q exact position of this new div. 
+                <!-- Q [div] exact position of this new div. 
                     index entry refers to burial, so this is most likely, but no visual separation. -->
                 <p>My deare husbands bodie was brought home to Easte<lb/>
                      Newton on friday the 18 <hi rend="superscript">th</hi> of Sept. in company of many of<lb/>
@@ -12730,7 +12746,7 @@
                 
                     <fw type="pageNum">282.</fw>
             <div>
-                <!-- TODO don't know if each of the untitle sections on this page should be treated as a div or just lg. div for now. -->
+                <!-- TODO [div] decide whether each of the untitle sections on this page should be treated as a div or just lg. div for now. -->
                 <head style="text-align: center;">An inducement to Love Heaven // .</head>
                 <p>-----------------------------------------------------------------------------</p>
                 <l>Leave me o love, which Reachest but to dust.</l>
@@ -12933,7 +12949,7 @@
                 
                     A Recollection of Memmorable accidents, &amp;<lb/>
                      Passages. forgotten to <hi rend="superscript">^be^</hi> Entred into my Booke.</head>
-                <!-- ugh -->
+                <!-- TODO ugh -->
                 <p>
                     <hi rend="background(magenta)">this must be placed ^</hi>
                     <hi rend="bold background(magenta)">At</hi>
@@ -14176,7 +14192,7 @@
             <pb n="310"/>
 
             <div>
-                <!-- Final two leaves blank. -->
+                <!-- [ms] Final two leaves blank. -->
                 <p>
                     <note place="end">
                         <p rend="Endnote Text"> [ms] Second of blank leaves is the reverse of the lining paper.</p>
