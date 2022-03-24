@@ -69,23 +69,34 @@
          - Items <hi rend="background(cyan)">marked</hi> – double-check original
          
          NOTE: just a comment on something, shouldn't need any further action
-         CHECK: sort this out asap!
-         TODO: needs sorting out but can probably wait
+         TODO: needs work, probably know what's needed but haven't got round to it yet...
          Q: not sure what to do with it
-         CORRECTION: problem with transcription to be raised with team
+         CORRECTION: problem with transcription, to be raised with team
          
-         [endnote] moved from Word doc endnotes
+         [endnote] moved from Word endnotes into comment
          
+         @rend markers:
+         <div> or <head>  ??
+         BoR format (based on wwp?): position-marker type-width-weight eg
+            pre-rule-full-width-light  
+            post-diagonal-short
+         but this book is going to need more info about fancy decorations. double lines can be added to this format, but decorations? (which are recorded in the outline spreadsheet) for the moment maybe just as notes/comments 
+         <milestone> (unit=rule?) i thikn these might need some more work...
+         diagonal
+         diagonal-left-margin
+         horiz-short-right
+         
+         check out <decoNote> for teiHeader
           -->
         <front>
 
             <div>
-                <!-- TODO decide how to handle this... -->
+                <!-- Q how to handle this sort of material, blank pages (also in BoR) -->
                 <p>
-                    <hi rend="bold">[[Page i] [First leaf] Inscription: see Dip.]</hi>
+                    [[Page i] [First leaf] Inscription: see Dip.]
                 </p>
                 <p>
-                    <hi rend="bold">[Pageiv-iiv] Blank [i.e., three leaves]</hi>
+                    [Pageiv-iiv] Blank [i.e., three leaves]
                 </p>
             </div>
             <pb n="1"/>
@@ -222,7 +233,7 @@
                         <p rend="Endnote Text"> [ms]? The rest of this page is blank.</p>
                     </note>
                 </p>
-                <p>---------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
             </div>
 
             <pb n="6"/>
@@ -233,7 +244,7 @@
             
             <div>
                 <head style="text-align: center;">Proverbes. </head>
-                <p> -------------------------------------------------------------------------------------</p>
+                <p> -----------------------------------------------------</p>
 
                 <p>The feare of the Lord is the beginning of Wisdome<lb/>
                      and to depart from evill is understanding.<lb/>
@@ -269,7 +280,7 @@
             
             <div>
                 <head> A Preface to the booke.</head>
-                <p>---------------------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>For as much as it is the dutie of every true Christian<lb/>
                      to remember, &amp; take notice of Allmighty God our,<lb/>
                      Heavenly Fathers, gracious Acts, of Providence<hi rend="doublestrikethrough">s</hi>,<lb/>
@@ -302,11 +313,10 @@
 
                 <fw type="pageNum">8.</fw>
                 <fw type="header">A preservation in the Meassells.</fw>
-                    <!-- NOTE [tag choice] fw rather than head because it's not at the beginning of the section and therefore wouldn't be valid tei. 
-                        BUT it is the title for the section...
+                    <!-- Q [tag choice] fw rather than head because it's not at the beginning of the section and so wouldn't be valid tei. BUT it is really the title for the section...
                         [endnote] NB. Despite the title at the top of the page, the details of the ‘preservation’ only begins part way down the page, which is where the ‘main body’ of the text proper begins.
                 -->
-                ------------------------------------------------------------------------------------------<lb/>
+                -----------------------------------------------------<lb/>
 
                 Of grace, &amp; Religion instill’d into me with my milke.<lb/>
                      Therefore. shall I begin with the first mention of my <lb/>
@@ -322,7 +332,7 @@
 
         <body>
             <div>
-                <!-- TODO ugh -->
+                <!-- TODO [layout] -->
                 <p>
                     <hi rend="superscript background(magenta)">^Remember to putt the Relation of my delivrance from Death</hi>
                 </p>
@@ -339,7 +349,7 @@
          <div>
                 <p>
           <fw place="margin">      
-              [+] <!-- TODO decide how to encode symbol - a decorative sort of cross, not quite the same as the one in BoR
+              [+] <!-- Q how to encode symbol - a decorative sort of cross, not quite the same as the one in BoR. **also need to decide on encoding for hearts and other crosses and in other books, but also need to stop xslt changing them!**
                        [endnote] [decoration] A Cross in the left hand margin – looks like AT’s.
               -->
           </fw>
@@ -366,8 +376,8 @@
                 
                     <fw type="pageNum">9. </fw>
                     <fw type="header">From the Smale Pox.</fw>
-                    <!-- NOTE [tag choice] header is not a section title therefore tagged fw -->
-                ------------------------------------------------------------------------------------------<lb/>
+                    <!-- NOTE header is not a section title -->
+                -----------------------------------------------------<lb/>
                 
                 That I was spaired from death at that time, and<lb/>
                      by his blessing, uppon the use of good meanes was <lb/>
@@ -386,7 +396,7 @@
              </div>
             <div>
              <head>
-                ----------------------------------------------------------------------------------<lb/>
+                -----------------------------------------------------<lb/>
                 A preservation in the Smale Pox, 1631.
              </head>
                 <p>Beeing removed to London by my Fathers order with <lb/>
@@ -410,12 +420,12 @@
                 
             <div>
                 <head>
-                    <!-- TODO this header is also ugh. -->
+                    <!-- TODO [layout] complex header -->
                     <hi rend="underline">London</hi>
                     <hi rend="underline">1631.</hi><lb/>
                  The first dawning of Gods Spirit in my heart.
                 </head>
-                <p>-----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After this, it pleased God to come into my Soule<lb/>
                      by some beames of his mercy in putting good thoug-<lb break="no"/>
                      -hts into my mind, to consider, his Great &amp; miraculus<lb/>
@@ -466,7 +476,7 @@
             <div>
                 
                 <head> 
-                    -----------------------------------------------------------------<lb/>
+                    -----------------------------------------------------<lb/>
                     A deliverance from a fire in London. 1631.
                 </head>
                 <p>There was a great fire in the next House to ours in St<lb/>
@@ -494,7 +504,7 @@
             <div>
                 
                 <head>My Mothers goeing into Ireland. 1632.</head>
-                <p>----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>It pleased God to give my deare Mother, my two<lb/>
                      younger brothers &amp; my selfe a safe passage into<lb/>
                      Ireland, about the yeare. 1632. My Father beeing<lb/>
@@ -527,8 +537,8 @@
 
                 <fw type="pageNum">13.</fw>
                 <fw type="header"> 33. 34. 35.</fw>
-                    <!-- NOTE [tag choice] header is not a section title -->
-                ------------------------------------------------------------------------------------------------<lb/>
+                    <!-- NOTE header is not a section title -->
+                -----------------------------------------------------<lb/>
                 Teachings. Reproofes, &amp; Godly Education, tending to <lb/>
                      the wellfaire, &amp; Etternall happinesse, &amp; salvation<lb/>
                      of my poore Soule. Which I receaved from both my Hon{oured}<lb/>
@@ -563,16 +573,16 @@
 
                 <fw type="pageNum"> 14. </fw>
                 <fw type="header"> 36. 37. 38.</fw>
-            <!-- NOTE [tag choice] header is not a section title -->
+            <!-- NOTE header is not a section title -->
             
             <div>
                 <head> A deliverance from a fire &amp; other remarkables.</head>
-                <p>-----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>While we were in Dublin there was a fire in<lb/>
                      our House. but by the providence of God it was<lb/>
                      soone discovered. &amp; soe quenched with out much<lb/>
                      harme don. Blessed be the name of our good God;</p>
-                <p>-----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>About the time I was 12 yeares old in the <hi rend="superscript">^yeare^</hi> 1638.<lb/>
                      I was readeing of the great wisdome of our Saviour.<lb/>
                      in the Gospell of St Luke 2<hi rend="superscript">d</hi> chapt. 49 v. where he was<lb/>
@@ -603,15 +613,15 @@
                 
             <div>
                 <head>
-                    <!-- Q should the year be part of head or separate in fw? -->
-                    <hi rend="underline">1639.</hi><lb/>
+                    <!-- Q should the year be part of head or separate fw? or fw inside head? -->
+                    <fw rend="underline">1639.</fw><lb/>
                     
                 A deliverance from Ship-Rack in A Passage into
-                     ------------------------------------------------------------------------------<lb/>
+                     -----------------------------------------------------<lb/>
                      Ireland with my Mother, brother, &amp; 2 Nephewes.<lb/>
                      Thomas &amp; Christopher Danby. In the yeare: 1639.
                 </head>
-                <p>------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>having<!-- CORRECTION "Having" in image --> come over into England, when my Mother<lb/>
                      came for her cure of the dissease of the Stone to the Bat-<hi rend="superscript">^hes^</hi><lb/>
                      &amp; Bristoll water, St Vincents well; (uppon which Rose<lb/>
@@ -703,7 +713,7 @@
             
             <div>
                 <head> A thankesgiveing for our deliverances.
-                     ----------------------------------------------------------------------<lb/>
+                     -----------------------------------------------------<lb/>
                      affter our dangerous passage by Sea:<lb/>
                      August the 23<hi rend="superscript">d</hi> 1639. into Ireland.<lb/>
                      Psallme 107. 1<hi rend="superscript">st</hi> 5.
@@ -794,22 +804,22 @@
                      for ever more. Amen. &amp; Amen.</p>
              </div>
             <div>
-               <!-- NOTE [margin] tagged note -->
-               <!-- CHECK vertical text 
-                    should the marginal note be inside or outside head?
-                [endnote][margin] Left-hand marginal insertion. Written vertically ro this point to bottom of page over two lines -->
-                <note place="margin">
-                    My L. <hi rend="superscript">d</hi> Straford tooke Ship for England w:<hi rend="superscript">th</hi> my Lord Raby his son<lb/>
-                    on good friday y <hi rend="superscript">e</hi> yeare. 1640. gaue my father the Sword then.
+               <!-- NOTE [margin] tagged note  -->
+               <!-- NOTE vertical text writing direction top to bottom - I think @style is correct --> 
+                
+               <!-- Q should the marginal note be inside or outside head. I think outside but hmm. -->
+                <note place="margin" style="writing-mode: vertical-rl; text-orientation: sideways-right">
+                  <p>My L. <hi rend="superscript">d</hi> Straford tooke Ship for England w:<hi rend="superscript">th</hi> my Lord Raby his son<lb/>
+                    on good friday y <hi rend="superscript">e</hi> yeare. 1640. gaue my father the Sword then.</p>
                 </note>
                 <head>
-                ------------------------------------------------------------------ <lb/>
+                ----------------------------------------------------- <lb/>
                      Observations uppon severall accidents <lb/>
                      happening in Ireland uppon the Earle of<lb/>
                      Strafford, &amp;c. in the yeares. 1640. 41. And <lb/>
                      on his fatall murder: may: 12 1641.
                 </head>
-                <p>-------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After my mothers returne from the Bathes, &amp;,<lb/>
                      Bristoll, where she found much good as to the<lb/>
                      cure of the stone.</p>
@@ -1037,12 +1047,12 @@
           <div>
             
                 <head style="text-align: center;">
-                -------------------------------------------------------------------------------- <lb/>   
+                ----------------------------------------------------- <lb/>   
                     A Relation conserning my Hon{oured} father. the <lb/>
                      Lord Deputy Wandesforde, &amp; of his<lb/>
                      Death. Decem. 3 <hi rend="superscript">d</hi> 1640.</head>
-                <p>----------------------------------------------------------------------------------</p>
-                <p>----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Uppon my Lord Lieutennants of Irlands goeing<lb/>
                      for England. the King was graciously pleased to<lb/>
                      send his Commission under the great Seale of England<lb/>
@@ -1149,7 +1159,7 @@
                     <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
                     <!-- NOTE (Q?) [decoration] double horizontal lines above the header - I think *not* appropriate to treat this as text underline  -->
                    <!-- Q [text size] smaller than main text. -->
-                    <note resp="#awt1" place="left margin" rend="rule-horiz-pre-post">
+                    <note resp="#awt1" place="left margin" rend="pre-post-rule-full-width">
                         Acc<hi rend="superscript">.t</hi> of<lb/>
                          the Lord<lb/>
                          Deputy<lb/>
@@ -1414,22 +1424,22 @@
             <div>
 
                 <head style="text-align: right;"> 
-         -----------------------------------------------------------------------------------<note place="end">
+         -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] This is a thick line.</p>
                     </note>      <lb/>     
                     Meditations &amp; Praier uppon the Death of my<lb/>
                      Hon{oured} Father the Lord Deputie Wandesforde.</head>
-                <p>-----------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] This is a thick line.</p>
                     </note>
                 </p>
                 <p>
                     <!-- NOTE [margin] tagged fw - biblical reference 
                          NB *not* attempting to associate the reference with the quotation as we'll tag that using <quote> @source   -->
-                    <!-- [decoration] thick line under the reference. - *not* text underline  -->
-                    <!-- Q curly brace pointing at the text. represent this at all? -->
+                    <!-- Q [decoration] thick line under the reference. - *not* text underline  -->
+                    <!-- Q there is a curly brace pointing at the text. represent this at all? -->
                     
-                    <fw type="reference" place="left margin">
+                    <fw type="reference" place="left margin" rend="post-rule-full-width-heavy">
                         Isaiah<lb/>
                         57<lb/>
                         v. 1<hi rend="superscript">st</hi> 2,
@@ -1446,7 +1456,7 @@
                 </p>
                 <p> He shall enter into peace: they shall rest in theire <lb/>
                      beds, each one walk<hi rend="superscript">^e^</hi>ing in his uprightnesse.</p>
-                <p>----------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] This is only a faint line. marks the end of the biblical citation</p>
                     </note>
                 </p>
@@ -1799,9 +1809,9 @@
             <div>
 
                 <head>
-                 ------------------------------------------------------------------------------------<lb/>   
+                 -----------------------------------------------------<lb/>   
                     A Praier uppon my fathers Death.</head>
-                <p>------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Oh thou most great &amp; Dreadfull Lord God. mighty<lb/>
                      in Power, &amp; wisdome. which seest &amp; knowest all things<lb/>
                      in Heaven &amp; Earth &amp; canst looke us into distruction<lb/>
@@ -1991,12 +2001,12 @@
                 
             <div>
                 <head>A Prayer to be said before wee Receive. 
-                ----------------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Thick line here.</p>
                     </note><lb/>
                     Made by my father. before he went into.<lb/>
                      Ireland. 1628.</head>
-                <p>----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O Eternall. Omnipotent, &amp; most Mercifull Father<lb/>
                      thou that openest, &amp; no man shutteth, &amp; shuttest<lb/>
                      and no man openeth, lett the Wordes of our mouthes<lb/>
@@ -2118,7 +2128,7 @@
                 </p>
                 <p>
                     <!-- NOTE [margin] tagged fw. 
-                         again "Com"... -->
+                         Q "Com"... -->
                     <!-- Q text underline/horizontal marker line -->
                     
                         <fw place="left margin">Com. <lb/>
@@ -2148,7 +2158,7 @@
                  Against us and our generations affter us for ever.</p>
                <p>
                     <!-- NOTE [margin] tagged fw. 
-                        again check what is "Com"...? -->
+                        Q "Com"? -->
                     
                     <fw place="left margin">
                         Com.<lb/>
@@ -2170,7 +2180,7 @@
                      great &amp; glorious Name:</p>
                 <p>
                     <!-- NOTE [margin] tagged fw. 
-                            "Com"? -->
+                           Q "Com"? -->
                     <fw place="left margin">
                         Com. <lb/>
                           4 </fw>
@@ -2194,7 +2204,7 @@
                      &amp; ordenary affaires of those daies.</p>
                 <p>
                     <!-- NOTE [margin] tagged fw. 
-                            "Com"? -->
+                           Q "Com"? -->
                         <fw place="left margin">Com. <lb/>
                              5 </fw>
                     But allas deare father of Mercies, wee are not onlie guilty<lb/>
@@ -2229,7 +2239,7 @@
                      boasting. Neither can wee excuse our selves. O Lord<lb/>
                 
                     <!-- NOTE [margin] tagged fw. 
-                            "Com"? -->
+                           Q "Com"? -->
                     <!-- Q text underline -->
                     <fw place="left margin">
                         Com. <lb/>
@@ -2244,9 +2254,9 @@
                      meekenesse, long suffering, affibilitie, &amp; all kinde of<lb/>
                      courteous behauiour.</p>
                 
-                <p rend="rules">
+                <p>
                     <!-- NOTE [margin] tagged fw. 
-                            "Com"? -->
+                           Q "Com"? -->
                         <fw place="left margin">Com.<lb/>
                              7<hi rend="superscript">th</hi>
                         </fw> 
@@ -2269,7 +2279,7 @@
                   Sleepe, &amp; all such like necessaries. And thou hast<lb/>
                 
                   <!-- NOTE [margin] tagged fw
-                        "Com"? -->
+                       Q "Com"? -->
                   <fw place="left margin">
                       Com. <lb/>
                        8.</fw>
@@ -2407,11 +2417,11 @@
                 </div>
             <div>
                 <head style="text-align: center;">
-                ----------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     My Mothers Preservation from the Irish Rebellion<lb/>
                      Octb. 23 1641. A Thankesgiveing for<lb/>
                      our great deliveration:</head>
-                <p>-----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Many, &amp; great was the sorrowes &amp; sufferings of my<lb/>
                      deare &amp; hon{oured} Mother, with her whole Familie uppon<lb/>
                      the sad change, by the death of my Hon{oured} Father-<lb break="no"/>
@@ -2421,7 +2431,7 @@
                      her owne disadvantage many waies.</p>
                 <p>for she by that meanes tarried in Ireland, dischar<lb break="no"/>
                      -ging those Servants &amp; paieng many debts, which<lb/>
-                     should have bin don by the <hi rend="Default_Paragraph_Font">Exec{utor}</hi> longer then she<lb/>
+                     should have bin don by the Exec{utor} longer then she<lb/>
                      could well doe; in regard that her Joynture beeing in<lb/>
                      England she wanted suplies. Thus she contineued<lb/>
                      till about the october affter, when on the 23<hi rend="superscript">d</hi> day in the<lb/>
@@ -2611,10 +2621,10 @@
                 </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A thankesgiveing for preservation<lb/>
                      from the Rebellion in Ireland Octb 23 1641.</head>
-                <p>--------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O Lord, great wonderfull &amp; holie. Which sitteth in the<lb/>
                      heave<hi rend="superscript">^n^</hi>s, in the glory of thy majestie farre above all things<lb/>
                      in heaven &amp; Earth; And that beholdest us the poore sonns<lb/>
@@ -2700,10 +2710,10 @@
                 </div>
             <div>
                 <head>
-                -------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Uppon my Mothers comming to Weschester from Ireland<lb/>
                      &amp; of my haveing the Smale Pox. in Feb. 20 <hi rend="superscript">th</hi> 1642.</head>
-                <p>------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After our comming to Weschester from the Beerehouse neare<lb/>
                      Neston, when wee fled out of the Irish Rebellion. It pleased<lb/>
                      God to move the gentry of the Cittie to be exceeding courteous<lb/>
@@ -2728,7 +2738,7 @@
                      any. still expecting returnes out of yorkeshire.
                 <!-- NOTE [margin] tagged <note> -->
                 <!-- Q text underline again. makes some sense for 17th, but lines above and below have been -> @rend  -->
-                <note place="left margin" resp="#awt1" rend="rule-horiz-pre-post">July<lb/>
+                    <note place="left margin" resp="#awt1" rend="pre-post-rule-full-width">July<lb/>
                      <hi rend="underline">17.</hi><!-- CORRECTION 17th in image -->
                             <lb/>
                          1643
@@ -2938,13 +2948,13 @@
                 </div>
             <div>
                 <head>
-                 ------------------------------------------------------------------------------------------
+                 -----------------------------------------------------
                     Receaving the | A Thankesgiveing affter my recovery<lb/>
                      1 sacrament |<note place="end">
                         <p rend="Endnote Text"> [insertion] Inserted into blank space left</p>
                     </note> from the smale Pox in Weschester: 1642.
                 </head>
-                <p> ------------------------------------------------------------------------------------------</p>
+                <p> -----------------------------------------------------</p>
                 <p>Blessed be the great &amp; gracious God, &amp; father of mercys<lb/>
                      the Lord most high, which had compassion uppon me a poore<lb/>
                      fraile wretch, &amp; spaired my life, from this distruction<lb/>
@@ -3031,7 +3041,7 @@
             
             <div>
                 <head>
-                ----------------------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Very thick line.</p>
                     </note>
                 
@@ -3041,11 +3051,11 @@
                         <p rend="Endnote Text"> [insertion] Date overwritten here.</p>
                     </note>
                 </head>
-                <p>----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <!-- NOTE [margin] tagged <note> -->
-                <!-- NOTE text underline (1643) again -> @rend  -->
+                <!-- Q text underline (1643) again -> @rend  -->
                 <p>
-                   <note place="left margin" resp="#awt1" rend="rule-horiz-pre-post">
+                    <note place="left margin" resp="#awt1" rend="pre-post-rule-full-width">
                        Aug.<lb/>
                          28<lb/>
                          1643.
@@ -3145,9 +3155,9 @@
                 <p>
                     O that we might live to his praise &amp; glory, of his name
                 </p>
-                <p rend="rules">
+                <p>
                   <!-- NOTE [margin] tagged note -->
-                  <note place="left margin" resp="#awt1" rend="rule-horiz-pre-post">
+                    <note place="left margin" resp="#awt1" rend="pre-post-rule-full-width">
                       Sept.<hi rend="superscript">ber</hi> <lb/>
                        2<hi rend="superscript">d</hi> <lb/>
                        1643
@@ -3159,9 +3169,12 @@
                             </note> was. &amp; beeing invited by her she went <lb/>
 
                     <!-- NOTE [margin] tagged note -->
-                    <!-- CHECK vertical text. and what about the line after Richmond? milestone? -->
-               <note place="left margin" resp="#awt1">
-                   Sirfett Lobster/at Richmond ----
+                    <!--NOTE vertical text writing direction top to bottom-->
+                   
+                    <note place="left margin" resp="#awt1" style="writing-mode: vertical-rl; text-orientation: sideways-right">
+                   <p>Sirfett Lobster <lb/>
+                   at Richmond <milestone unit="rule" rend="fourchars" />
+                       <!-- TODO [decision needed] short (about 4 chars) horizontal line here, purpose unclear. similar things in BoR. best way to do these? an interesting use of <space> in tei list --></p>
                 </note>
                      thither to live, till she could better dispose of her selfe,<lb/>
                      &amp; us in those troublesome times. For it beeing in the <lb/>
@@ -3170,7 +3183,7 @@
 
                     <!-- NOTE [margin] tagged <note> -->
                     <!-- Q text underline -->
-                <note place="left margin" resp="awt1">
+                <note place="left margin" resp="#awt1">
                         Sept.<lb/>
                         <hi rend="underline">15</hi>
                         <hi rend="superscript underline">th</hi>
@@ -3317,10 +3330,10 @@
                 </div>
             <div>
                 <head>
-                ---------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A deliverance from a Surfett of Lobster.<lb/>
                      att Richmond 1643.</head>
-                <p>--------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Affer this when the scotts had helped to overthrow the Kings<lb/>
                      Army at Yorke, for which designe they were called in to England<lb/>
                      &amp;, to destroy the Regall Power, of his Majestie. waiting upon<lb/>
@@ -3391,7 +3404,8 @@
                      for my Lord Jesus Christ. Amen. / In the yeare 1644. No. <hi rend="superscript">^ber^</hi> 29.</p>
                 </div>
             <div>
-            <!-- NOTE [div] new div: no title or index entry, but there is a divider line and it does mark a change in narrative -->    <p>--------------------------------------------------------------------------------</p>
+            <!-- NOTE [div] new div: no title or index entry, but there is a divider line and it does mark a change in narrative --> 
+                <p>-----------------------------------------------------</p>
                 <p>After I was recruted in strength my mother went to</p>
                 <p>
                     <hi rend="superscript">^with my B. George my selfe &amp; George Lightfoot &amp; Dafeny Cassell. &amp; My D. G. W. his man.^</hi>
@@ -3433,10 +3447,10 @@
                 </div>
             <div>
                 <head>
-                -----------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     The death of my Sister Danby: Sept. 30 <hi rend="superscript">th</hi> 1645<lb/>
                      att her house at Thorpe.</head>
-                <p>-----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>About this yeare my deare, &amp; only Sister the Lady <lb/>
                      Danby drew neare her time for delivery of her 16 <hi rend="superscript">th</hi> Child<lb/>
                      Ten whereof had bin baptised. the other 6. were still<lb/>
@@ -3655,16 +3669,16 @@
             <div>
                 
                 <head>The death of my Cosen John Norton. 1646.</head>
-                <p>----------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>My Cozen John Norton died of a consumption, long in<lb/>
                      A languishing condittion, but at length it pleased God<lb/>
                      to take him to himselfe in the yeare 1646.</p>
                 <p>He was a sweete good natured youth, he died at St. Nicolas</p>
-                <p>---------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
             </div>
             <div>
                 <head>The Death of Sir Edward Osborne. 1646.</head>
-                <p>----------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>My uncle. Sir Edward Osborne who was my mothers<lb/>
                     <hi rend="strikethrough">owne</hi>
                     <hi rend="superscript">^half^</hi> brother; was a very good, wise &amp; prudent, man<lb/>
@@ -3714,13 +3728,16 @@
                      He died about the month of July: in the yeare 1646.<lb/>
                      att Keeveton in the farthest part of Yorkeshire. // .</p>
                </div>
-            <div> <p>--------------------------------------------------------------------------------</p>
+            <div>
+                <p>-----------------------------------------------------</p>
                 <p>My Cozen Edmund Norton, Eldest son to my Uncle Norto̅<lb/>
                      was married to Mr Dudlys Daughter &amp; heire of Chopwell<lb/>
                      in <hi rend="superscript">^the^</hi> Bishoprick of <hi rend="superscript">^Durham^</hi> Mrs Jane Dudly an excelent fine<lb/>
                      &amp; good gentlewoman. Feb. 10 <hi rend="superscript">th</hi> 1647. att Chopwell.//</p>
             </div>
-            <div>    <p>---------------------------------------------------------------------------------</p>
+            
+            <div>   
+                <p>-----------------------------------------------------</p>
                 <p>My Cosen Edmund Norton died of a Plurisie att Yorke<lb/>
                      the 30 <hi rend="superscript">th</hi> of November: 1648. A gentleman of a sweete good<lb/>
                      disposittion to all, obedient &amp; dutifull to his parents &amp; true<lb/>
@@ -3730,7 +3747,7 @@
                      to all, died Religiously, &amp; is I hope now very happie in<lb/>
                      peace &amp; rest, loving a peaceable temper. &amp; was beloved of<lb/>
                      all that knew him <hi rend="superscript">^&amp;^</hi> An unmeasurable losse to his Parents.//</p>
-                <p>-----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
         </div>
                 <pb n="93"/>
 
@@ -3748,7 +3765,7 @@
                         <p rend="Endnote Text"> [word] SiC – i.e., Charles.</p>
                     </note> the Martyr Jan 30<hi rend="superscript">th</hi>
                 </head>
-                <p> --------------------------------------------------------------------------------------------</p>
+                <p> -----------------------------------------------------</p>
                 <p>Our blessed King Charles the first. whoes memmory shall<lb/>
                      live to Etternity was cruelly Murthered, by the hands of<lb/>
                      Blasphemous Rebells, his owne subjects, att White hall.<lb/>
@@ -3876,17 +3893,17 @@
                      Ever &amp; ever. Amen. Amen.</p>
              </div>
             <div>
-                <p>-------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>My Cosen Julian Horton died at Richmond greene<lb/>
                      at her fathers the 9 of Aprill. 1649. ://:</p>
              </div>
             <div>
                 <head>
-                -------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Uppon the Death of my brother George Wandesforde.<lb/>
                      March 31 1651 &amp; of his Sequestration. &amp;<lb/>
                      other troubles, affter his returne into England.</head>
-                <p>-------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>The fatall blow given to my Fathers Familie, by the<lb/>
                      death of our excelent brother, was very great, but the <lb/>
                      effects thereof fell out most heavy upon my selfe, in<lb/>
@@ -4367,11 +4384,11 @@
                 </div>
             <div>
                 <head>
-                ---------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A Lamentation, &amp; Prayer, uppon the death of<lb/>
                      my hon{oured} brother George Wandesf. Esquire.
                 </head>
-                <p>---------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Alas O Lord, most great, &amp; mighty, wonderfull in<lb/>
                      thy Powerfull Attributes, &amp; Judgements. what shall<lb/>
                      I say or, doe unto thy glorious majestie. who hast <lb/>
@@ -4616,14 +4633,15 @@
                 </div>
             <div>
                 <head>
-                ---------------------------------------------------------------------------------
+                -----------------------------------------------------
                     An Eligie upon George Wandesford Esq{uire}<lb/>
                      on his unfortunate Death. by the Hon{ourable}<lb/>
                      Sir Christopher Wyvill Barronett.
-                --------------------------------------------------------------------------------<lb/>
+                -----------------------------------------------------<lb/>
                 On the deplorable loss of our hon{oured} freind &amp;<lb/>
                      Neighbour George Wandesford Esq{uire} March 31 51.
-               </head> <p>--------------------------------------------------------------------------------</p>
+               </head> 
+                <p>-----------------------------------------------------</p>
                 <l>Ere-since the Bishops, Parliament, and King,</l>
                 <l> (A blest Conspiracie) agreed to bring.</l>
                 <l>The faith of Christians, &amp; Baptismall Seal.</l>
@@ -4635,7 +4653,7 @@
 
                 <!-- NOTE [margin] tagged <note> -->
                 <!-- Q text underline again -->
-                <!-- Q "Rege" highlighted green; idk why - no endnote to go with it. -->
+                <!-- Q check with transcriber - "Rege" highlighted green; idk why - no endnote to go with it. -->
                 <note>
                     Anno<lb/>
                     <hi rend="underline">627.</hi> <lb/>
@@ -4678,7 +4696,7 @@
                 <l>To open a neare-way to Paradise. / Cwyvill.</l>
            </div>
             <div>
-                <p>----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>When the determinate will of our God is shewed towards<lb/>
                      us, it is then, our duties, quietly, to sitt downe &amp; patien<lb/>
                      tly to Acquiesse our desires to his devine pleasure.<lb/>
@@ -4738,17 +4756,21 @@
                      his Family. The Lord our God make us ever gratfull<lb/>
                      and thankfull to his gracious, Majestie for Ever. Amen.</p>
                </div>
-            <div> <p>---------------------------------------------------------------------------</p>
+            
+            <div> 
+                <p>-----------------------------------------------------</p>
                 <p>My Cosen mary Yorke, was married to Mr John York<lb/>
                      at her fathers house, my uncle nortons on the Greene<lb/>
                      in Richmond Aprill the 12 <hi rend="superscript">th</hi> 1651.</p>
               </div>
-            <div>  <p>---------------------------------------------------------------------------</p>
+            
+            <div>  
+                <p>-----------------------------------------------------</p>
                 <p>My brother Christopher Wandesforde, married<lb/>
                      Sir John Lowthers Daughter Mrs Eleanor the Eldest<lb/>
                      Daughter, at Sir Johns House (Lowther in Westmo-<lb break="no"/>
                      oreland) the 30 <hi rend="superscript">th</hi> of September 1651.</p>
-                <p>----------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 </div>
 
                 <pb n="117"/>
@@ -4760,7 +4782,7 @@
                 
             <div>
                 <head>The Mariage of Alice Wandesforde Decm. 15. 1651.</head>
-                <p>--------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After many troubles &amp; afflictions, under which it <lb/>
                      pleased God <hi rend="superscript">^to^</hi> Exercise my mother, &amp; selfe in, since the deat<hi rend="superscript">^h^</hi><lb/>
                      of my father, she was desirous to see me comfortably <lb/>
@@ -5070,14 +5092,14 @@
             
             <div>
                 <head>
-                -----------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Elaborate border</p>
                     </note>
                 
                     A Relation of the Remarkable passages of my Life<lb/>
                      since my Marriage begining from the 15 <hi rend="superscript">th</hi> of Decem. 1651.<lb/>
                      1651.</head>
-                <p>-----------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After my Marriage it was my duty to humble my<lb/>
                      soule in praier &amp; suplication to the God of all the Earth<lb/>
                      who had guided me in all my youth &amp; Virgin Estate<lb/>
@@ -5120,10 +5142,10 @@
                 </div>
             <div>
                 <head style="text-align: center;">
-                 ---------------------------------------------------------------------------------------
+                 -----------------------------------------------------
                     A deliverance from death that day on which I was <lb/>
                      married. Dec. 15<hi rend="superscript">th</hi> 1651.</head>
-                <p> -----------------------------------------------------------------------------------------</p>
+                <p> -----------------------------------------------------</p>
                 <p>That very day on which I was married; haveing <hi rend="superscript">^bin^</hi> in healh<note place="end">
                         <p rend="Endnote Text"> [word] SiC – i.e., health.</p>
                     </note>
@@ -5167,11 +5189,11 @@
                 </div>
             <div>
                 <head>
-                -----------------------------------------------------------------------------
+                -----------------------------------------------------
                     Meditations upon my deliverance of my first<lb/>
                      Childe &amp; of the great sickness foll{owe}d for 3 q{uarte}rs of a yeare<lb/>
                      August 6 <hi rend="superscript">th</hi> 1652 lasted till May: 12. 53.</head>
-                <p>------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>About seaven weekes affter I married. itt pleased<lb/>
                      God to give me the blessing of conseption. the first<lb/>
                      quarter I was exceeding sickly in breeding, till I<lb/>
@@ -5315,10 +5337,10 @@
                 </div>
             <div>
                 <head>
-                ------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A praier &amp; thankesgiveing for my deliverance of my<lb/>
                      first Childe August 6 <hi rend="superscript">th</hi> 1652; cast in this sickns. 17 ooers.</head>
-                <p>------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O Lord most Great, &amp; yet our Gracious, &amp; loving father<lb/>
                      in our Saviour Jesus Christ thy deare son. Tender &amp; <lb/>
                 
@@ -5450,7 +5472,7 @@
                 </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Uppon the Birth of my Second childe, &amp; Daughter<lb/>
                      Alice Thornton, borne att Hipswell on the <hi rend="strikethrough">Third</hi>
                     <hi rend="subscript">^3d^</hi><lb/>
@@ -5533,10 +5555,10 @@
             </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------
+                -----------------------------------------------------
                     A praier &amp; thanksgiveing for my deliverance<lb/>
                      of my Second daughter Jan. 3<hi rend="superscript">d</hi> 1654.</head>
-                <p>---------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O: Most great &amp; dreadfull Lord God. And yet a <lb/>
                      Tender &amp; loving Father of Mercys in Christ Jesus<lb/>
                      thy sonne. how hast thou appeared glorious in<lb/>
@@ -5628,10 +5650,10 @@
            </div>
            <div>
                 <head>
-              ---------------------------------------------------------------
+              -----------------------------------------------------
                     Meditations uppon the birth of my 3 <hi rend="superscript">d</hi> Childe Eliz.<lb/>
                      Thornton borne the 14 <hi rend="superscript">th</hi> of February. 1654.</head>
-                <p>------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>I recovered not very well, of the extreame weakenesse<lb/>
                      that followed for a q{uarte}r of a yeare affter my childe, in soe<lb/>
                      much that my milke was taken from me &amp; soe I was hin-<lb break="no"/>
@@ -5742,9 +5764,9 @@
             </div>
             <div>
                 <head>
-                ----------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A thanksgiveing affter the birth of my 3 <hi rend="superscript">d</hi> childe Betty</head>
-                <p>----------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Oh, what shall I render unto the Lord most high for his <lb/>
                      goodnesse, &amp; loveing, kindnesse, &amp; beniffits, shewed unto me<lb/>
                      or how shall I sett forth all his praise, which am not able to<lb/>
@@ -5854,7 +5876,9 @@
                 <p> Amen .<hi rend="italic">#.</hi>
                 </p>
                </div>
-            <div> <p>---------------------------------------------------------------------------------------------</p>
+            
+            <div>
+                <p>-----------------------------------------------------</p>
                 <p>My mother Gates, who was my husbands mother; died<lb/>
                      att Oswoldkirke of a flux of blood by seige. as it was<lb/>
                      suposed to have a veine broaken inwardly which by fitts<lb/>
@@ -5866,12 +5890,14 @@
                      &amp; was buried on the 11 <hi rend="superscript">th</hi> of May. 1655. <hi rend="italic">#:</hi>
                 </p>
            </div>
-            <div>     <p>-------------------------------------------------------------------------------------------</p>
+            
+            <div> 
+                <p>-----------------------------------------------------</p>
                 <p>My Husbands Father in Law Mr Geffery Gates died.<lb/>
                      att Hull the 18 <hi rend="superscript">th</hi> of May. 1655. &amp;, was buried at Hull the<lb/>
                     <hi rend="doublestrikethrough">same</hi>
                     <hi rend="superscript"> ^next^</hi> day: May: 19 <hi rend="superscript">th</hi> 1655. <hi rend="italic">#</hi>.</p>
-                <p>-------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
            </div>
             <div>
                 <p>My brother Richeard Thornton died in Dublin. in Ireland<lb/>
@@ -5897,10 +5923,10 @@
                 </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------
+                -----------------------------------------------------
                     Meditation uppon the birth of my 4 <hi rend="superscript">th</hi> childe Katherin<lb/>
                      Thornton June 12 <hi rend="superscript">th</hi> 1656. borne att hipswell.</head>
-                <p>-----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After I was with quicke childe of <hi rend="superscript">^my^</hi> fourth childe I<lb/>
                      had pretty good health, considering my condition, till<lb/>
                      I was with in a month of my time. &amp; then I grew very<lb/>
@@ -5918,14 +5944,14 @@
                 </div>
             <div>
                 <head>
-                -----------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A prayer before the delivery of my daughter<lb/>
                      Alice Thornton June the 12<hi rend="superscript">th</hi>
                     <note place="end">
                         <p rend="Endnote Text"> [insertion] Date heavily overwritten: could be 11 or 12.</p>
                     </note> 1656. by Alice Wandes<hi rend="superscript">^ford^</hi>
                 </head>
-                <p>-----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O Lord most high, the holy one whoe inhabitest<lb/>
                      Etternity, &amp; yet in mercy art pleased to looke downe<lb/>
                      uppon the Children of men, ordering &amp; disposing all things<lb/>
@@ -6058,7 +6084,7 @@
              
              </div>
             <div>
-                <p>--------------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After which humble pettitions it Pleased our gracious Father<lb/>
                      to grant our requests in a great measure for my paines of<lb/>
                      travill increased, and although I endured hard Labour<lb/>
@@ -6072,7 +6098,7 @@
                 </div>
             <div>
                 <head>
-                ------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A Thankesgiveing affter the delivery of my, <lb/>
                      Daughter Alice Thornton <hi rend="doublestrikethrough">of her</hi>
                     <hi rend="superscript doublestrikethrough">^</hi>
@@ -6082,7 +6108,7 @@
                     </note> fourth child.<lb/>
                      June 12<hi rend="superscript">th</hi> 1656. Baptized the 14<hi rend="superscript">th</hi>
                 </head>
-                <p>---------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O most holy, Just and Mercifull Lord God, who hast<lb/>
                      Created all things in Heaven and earth for thy Glory,<lb/>
                      Preserved them by thy Power, and hast appoynted man<lb/>
@@ -6176,9 +6202,9 @@
                 </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Elizabeth Thorntons death; the 5 <hi rend="superscript">th</hi> of September 1656.</head>
-                <p>------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>It pleased God to take from me, my deare childe betty<lb/>
                      which had bin long in the riketts &amp; consumption gotten at<lb/>
                      first by an Ague &amp; much gone in the Ricketts which I <hi rend="background(cyan)">concsed</hi>
@@ -6206,7 +6232,7 @@
             <div>
                 <head>
                     A Praier After the death of my 3 <hi rend="superscript">d</hi> childe Betty. Thor</head>
-                <p>-----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O Lord most high, whoes is the right of Creation &amp;<lb/>
                      Governour of all the Earth. I beseech thy gracious Maj<lb/>
                      estie to pardon our great &amp; crieing sinns, who hath<lb/>
@@ -6258,10 +6284,10 @@
            </div>
            <div>
                 <head>
-                ---------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Uppon my great fall I had, beeing with childe of my 5<hi rend="superscript">th</hi><lb/>
                      Sept. 14 <hi rend="superscript">th</hi> 1657. at Hipswell.</head>
-                <p>---------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>I fell with childe affter my deare bettys death, haveinge<lb/>
                      my health very well, affter quicke childe &amp; soe continued<lb/>
                      till I gott a great fall over the threshold in the hall, att Hips-<lb break="no"/>
@@ -6297,8 +6323,8 @@
                     Meditations on the deliverance, of my first Sonne<lb/>
                      and fifth Childe. At Hipswell the 10 <hi rend="superscript">th</hi> of Decemb{er}<lb/>
                      1657.</head>
-                <p>-----------------------------------------------------------------------------</p>
-                <p>-----------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------</p>
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Ornate Border.</p>
                     </note>
                 </p>
@@ -6372,7 +6398,7 @@
              </div>
             <div>
                 <head>
-                ------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A praier upon my preservation affter the birth<lb/>
                      of my first sonn. &amp; his death.</head>
                 <p>O Eternall God, who endurest for ever, and thy remem-<lb break="no"/>
@@ -6445,7 +6471,7 @@
                 
             <div>
                 <head>My Cure of Bleeding at Scarbrough August. 1659. // .</head>
-                <p>--------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>It was the good pleasure of God to contineue me most<lb/>
                      wonderfully, though in much weakenesse, affter that excessive<lb/>
                      losse of Blood &amp; spiritts, in Childe bed, with the contineuance<lb/>
@@ -6505,11 +6531,11 @@
                 </div>
             <div>
                 <head>
-                ---------------------------------------------------------------------------
+                -----------------------------------------------------
                     A thanksgiveing affter affter<note place="end">
                         <p rend="Endnote Text"> [word] SH sic (repetition)</p>
                     </note> my recovery. // </head>
-                <p>---------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>My song shall be alwaies of the loveing kindnesse of<lb/>
                      the Lord: with my mouth will I ever be shewing thy<lb/>
                      truth from one generation to another, O Lord, the very<lb/>
@@ -6552,7 +6578,7 @@
              </div>
             <div>
                 <head> 1659.</head><!-- Q [tag choice] tagging this as head, but usually have tagged year headings as fw. no other title text. hmmm. -->
-                <p>-------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>About this time wee weare all in a great confussion in<lb/>
                      this Kingdome, none knowing how the Government of this<lb/>
                      Land would fall, Some desireing the contineuance of Oliver<lb/>
@@ -6632,10 +6658,10 @@
                </div>
             <div>
                 <head>
-                ------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A Praier to God for the Church. &amp; restoration of the King.<lb/>
                      nov{ember} 1659.</head>
-                <p>------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O Lord our God, the great &amp; mighty Jehova, which hath<lb/>
                      thy eyes open, to see the oppression &amp; heare the cries of all thy<lb/>
                      servants in all the ends of the Earth. Lett not I humblie be-<lb break="no"/>
@@ -6705,11 +6731,11 @@
             
             <div>
                 <head>
-                --------------------------------------------------------------------------
+                -----------------------------------------------------
                     A Relation conserning my deare &amp; hon{oured}<lb/>
                      Mother the Lady Wandesforde &amp; of her<lb/>
                      Death Decem{ber} 10 <hi rend="superscript">th</hi> 1659. //.</head>
-                <p>---------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>My deare mother, was Sole daughter to Sir Hewet<lb/>
                      Osborne, &amp; Lady Joyce his wife, which Lady Joyce <lb/>
                      was Eldest Daughter to Sir Miles Fleetewood of <lb/>
@@ -6960,23 +6986,20 @@
                   and the losse of all my fathers Personall Estate given her<lb/>
                   by will as allso; her losse of her Annuity of 300 <hi rend="superscript">l</hi> per An{num}<lb/>
                   out of Ireland to the valew due unto her at her death<lb/>
-                </p><!-- /p to be dropped -->
-                <p rend="rules">
-                <!-- NOTE [margin] actual marginal note -->
-                <!-- NOTE [decoration] removed text underline and replaced with @rend - in fact there are lines above *and* below the marginal text -->
+                
+                <!-- NOTE [margin] tagged note -->
+                <!-- Q [decoration] removed text underline and replaced with @rend - there are lines above *and* below the marginal text -->
                  <!-- NOTE last two letters of "widdow" overlap main text -->
-                    <note place="left margin" resp="#awt1" rend="rule-horiz-pre-post">
+                    <note place="left margin" resp="#awt1" rend="pre-post-rule-full-width">
                         19 <lb/>
                         yers A <lb/>
                         widdow 
                     </note>
-                    the summe of 300 p{er} An{num}-which never receaved any part<lb/>
+                 the summe of 300 p{er} An{num}-which never receaved any part<lb/>
                              thereof. yett notwithstanding all the aforesaid goodnes<lb/>
                              of hers to that Estate; there wanted not some whoe putt<lb/>
-                        
-                    
-                </p>
-                <p> hard thoughts into the Heires Minde, that she dealt hard<lb/>
+                     
+                     hard thoughts into the Heires Minde, that she dealt hard<lb/>
                      by because she did not give all her widdowes Patrimony<lb/>
                      to him, when as all her former helpes did redound <lb/>
                      to his benifitt, &amp; with all they knew our Estate was more<lb/>
@@ -7040,7 +7063,8 @@
                  <p>The relattion of her sicknesse heere followes. //.</p>
                 
                </div>
-            <div> <p>--------------------------------------------------------------------------------------------<note place="end">
+            <div>
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 </p>
@@ -7515,12 +7539,13 @@
             </div>
             <div>
                 <head>
-               <!-- TODO decide how to handle the three prayers. split into subsections? --> ----------------------------------------------------------------------------------------
+               <!-- Q how to handle the three prayers. split into subsections? -->
+                    -----------------------------------------------------
                     Severall Prayers made by my Mother proper for the<lb/>
                      time of the holy sacrament. as Ejaculations.</head>
-                <p>----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Before receaving of the bread.</p>
-                <p>----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O most gracious God. which hath Sacrificed thine<lb/>
                      only begotten sonne to appease thy just wrath for<lb/>
                      my sinnes, &amp; to ransome my Soule from hell; Sealle<lb/>
@@ -7531,7 +7556,7 @@
                      Deare Saviour; my Sinnes past, &amp; present, may<lb/>
                      be remitted &amp; forgiven, as verily, as I shall now be<lb/>
                      pertaker of this blessed Sacrament. Amen.</p>
-                <p>--------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Before Receaving of the wine. affter consecration</p>
 
                 <pb n="177"/>
@@ -7553,9 +7578,9 @@
                         <p rend="Endnote Text"> [decoration] Flourish after ‘Amen’.</p>
                     </note>
                 </p>
-                <p>------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After both bread &amp; wine.</p>
-                <p>-----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Grant O, Mercyfull Redeemer as thou hast vouch-<lb break="no"/>
                      -safed me to sitt att thy Table, and be partaker of thy<lb/>
                      Pretious Bodie &amp; Blood, soe my sinfull soule may be<lb/>
@@ -7577,13 +7602,13 @@
           </div>
           <div>
                 <head>
-                ------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     My delivery of my Son William, my 6 <hi rend="superscript">th</hi> childe; &amp; of his<lb/>
                      death. Aprill the 17 <hi rend="superscript">th</hi> 1660 att St Nickolas my Aunt<lb/>
                      Nortons house. affter deare mothers death. He died<lb/>
                      Aprill 28. burid 1659 at Easby 29. neare my Lady<lb/>
                     
-                     -------------------------------------------------------------------------------------------<lb/>
+                     -----------------------------------------------------<lb/>
                      Whartons grave at Easby.<note place="end">
                         <p rend="Endnote Text"> [insertion] SH is this last line an insertion?</p>
                     </note>
@@ -7710,13 +7735,13 @@
             
             <div>
                 <head>
-                ----------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A thanksgiveing for the restoration of King Charles<lb/>
                      the second. of his Coronation May. 29 <hi rend="superscript">th</hi> 1660.<note place="end">
                         <p rend="Endnote Text"> [decoration] Bottom line is patterned, and obscures some of the lower parts of the title.</p>
                     </note>
                 </head>
-                <p>----------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Affter the Lord had taken my Childe from me. I had<lb/>
                      some weaknesse upon my bodie by reason of the returne<lb/>
                      of my Milke, but in much mercy I was restored to <lb/>
@@ -7774,10 +7799,10 @@
                </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A Praier. &amp; Thanksgiveing for deliverance<lb/>
                      from destruction of the Kingdom: 1660.</head>
-                <p>-------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O Eternall God; King of Kings, and Lord of Lords. thou<lb/>
                      that hast bin pleased in the fathomlesse, depth &amp; boundless<lb/>
                      goodnesse of thy mercy to restore our gracious King &amp; <lb/>
@@ -7916,13 +7941,13 @@
         
                 
                     <hi style="font-family:Segoe UI Symbol">♡ ♡ ♡ ♡ ♡ ♡ ♡</hi>
-                    --------------------------------------------------------------------
+                    -----------------------------------------------------
                     Uppon my Husband, &amp; Families Removall from St<lb/>
                      Nickolas, to OswoldChurch. neare Newton. June 11<note place="end">
                         <p rend="Endnote Text"> [word] Looks more like a zero in MS</p>
                     </note> 1660.
                 </head>
-                <p>-----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After my strength was againe Recruted through Gods<lb/>
                      mercy for travill; We removed: with my Husband &amp; those<lb/>
                      Children, the Lord had blessed me with Alice, my Second, &amp;<lb/>
@@ -8006,7 +8031,7 @@
                     My greatt Sicknesse att Oswoldkirke feb. 13 <hi rend="superscript">th</hi> 1661<note place="end">
                         <p rend="Endnote Text"> [word] Probably 1662. Shrove Tuesday was 11 Feb. in 1662 but not 1661. Also, she goes on to say she was pregnant but she had no child/miscarriage in 1661; Robert was born Sept. 1662.</p>
                     </note> //</head>
-                <p>--------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>I began a dangerous Sicknesse, which brought me very nigh<lb/>
                      to Death; att Oswoldkirke affter my deare mothers death.<lb/>
                      which was caused by that Cold I gott. &amp; Aguish Temper on the<lb/>
@@ -8087,8 +8112,8 @@
                      feete, of mercy; yea before the Throne of the most gracious God<lb/>
                      in whome I live &amp; move, &amp; have my beeing, saieing with <hi rend="strikethrough">Eat</hi><lb/>
                      Easter<note place="end">
-                        <p rend="Endnote Text"> [word][bib] Means ESTHER – see Esther 4:16: “<hi rend="color(333333)"> I also and my maidens will fast likewise; and so will I go in unto the king, which </hi>
-                            <hi rend="color(333333)">is not according to the law: and if I perish, I perish.”</hi>
+                        <p rend="Endnote Text"> [word][bib] Means ESTHER – see Esther 4:16: 
+                            “I also and my maidens will fast likewise; and so will I go in unto the king, which is not according to the law: and if I perish, I perish.”
                         </p>
                     </note> if I perish, I perish. heere I am, Lord though thou <lb/>
                      shouldest kill me, yet will I trust in thee, for healing, <lb/>
@@ -8235,7 +8260,8 @@
                 </p>
                </div>
             <div>
-              <!-- NOTE [div] new div: no section title but has index entry and there is a divider line  -->  <p>------------------------------------------------------------------------------------------------</p>
+              <!-- NOTE [div] new div: no section title but has index entry and there is a divider line  --> 
+                <p>-----------------------------------------------------</p>
                 <p>Affter this inestimable &amp; wonderfull mercy, in my grac--<lb break="no"/>
                      --ious Gods giveing me sattisfaction in my doubts &amp; in putt<lb/>
                      ing to flight that old serpent the Devill, from doeing more har<lb break="no"/>
@@ -8289,14 +8315,14 @@
                 </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] This border is patterned – with flowers.</p>
                     </note>
                 
                     Uppon our comeing to live att newton affter the house was<lb/>
                      built in the yeare 1662. June the 10 <hi rend="superscript">th</hi>
                 </head>
-                <p>--------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>At the last, affter 6 yeares worke at the dwelling house of<lb/>
                      Mr Thornton Easte newton. haveing builded it from the<lb/>
                 
@@ -8437,10 +8463,10 @@
             </div>
             <div>
                 <head>
-                ---------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Of the grand mercy I had in the first Sacrament at Easte<lb/>
                      Newton affter we built the house August 1662.</head>
-                <p>---------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Since the sad &amp; dismall times of distraction, in Church <lb/>
                      &amp; State. the People in most of the northerne Countys was <lb/>
                      much deprived of the benifitt of those holy ordinances of the<lb/>
@@ -8597,7 +8623,7 @@
                 <head>
                     Mr Colvills Settlement of Mr Thorntons Estate: <hi rend="doublestrikethrough">166X</hi><lb/>
                      1662.</head>
-                <p>-----------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Affter I had received this great mercy from God; &amp;<lb/>
                      sattisfaction to my poore droopeing soule in the Perticipati-<hi rend="superscript">^on^</hi><lb/>
                      of the Lords Supper, as I mentioned; haveing endevourd<lb/>
@@ -8776,11 +8802,11 @@
           </div>
             <div>
                 <head>
-                ----------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Upon my deliverance, of my sonne Robert Thornton<lb/>
                      my 7 <hi rend="superscript">th</hi> Childe: borne at Easte Newton: the first childe<lb/>
                      that was borne in the new house: Sept. 19 <hi rend="superscript">th</hi> 1662 //.</head>
-                <p>----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
 
                 <pb n="202"/>
 
@@ -8865,9 +8891,9 @@
                 </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A Thanksgiveing affter my deliverance of my son Robert</head>
-                <p>--------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Oh Just, great &amp; Almighty Lord God. I humbly prostrat<lb/>
                      my Soule &amp; bodie. lie trembling at the remembrance of my sins <lb/>
                      &amp; unworthynesse, which hath caused thee to afflict me soe<lb/>
@@ -8947,7 +8973,7 @@
                 </div>
             <div>
                 <!-- NOTE [div] new div: no section title or index entry, but there is a divider line and possible? narrative change  -->
-                <p>------------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>My Son Robert was baptized on Satterday the 20 <hi rend="superscript">th</hi> of<lb/>
                      September 1662 by Mr Luckock att our House in Easte<lb/>
                      Newton <hi rend="superscript">^in^</hi> my owne Chamber, where the Lord gave me opportunity<lb/>
@@ -8996,7 +9022,7 @@
             <div>
                 <head>
                     Mr Thorntons Preservation from drowning: Oct. 1664</head>
-                <p>-----------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After Robin was 2 yeares old. Mr Thornton went to<lb/>
                      London about wittness for Sir Christopher wandesfords<lb/>
                      suite with Mr Robinson conserning the bounders. in this<lb/>
@@ -9014,10 +9040,10 @@
                 </div>
             <div>
                 <head>
-                ----------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Upon the birth of my 8 <hi rend="superscript">th</hi> Childe Joyce Thornton Sept.<lb/>
                      23 <hi rend="superscript">rd</hi> 1665 att Newton:</head>
-                <p>---------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>It pleased God to give me a new hopes of Comfort.<lb/>
                      of beareing Mr Thornton annother childe. Although<lb/>
                      these are accompanied with thorny Caires &amp; troubles: &amp;<lb/>
@@ -9161,10 +9187,10 @@
             </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A Relation of Mr Thorntons dangerous fitt of the Palsie<lb/>
                      at Steersby no. 16 <hi rend="superscript">th</hi> 1665. // .</head>
-                <p>---------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>But peradventure I might be too much lifted up by this <lb/>
                      mercy. &amp; therefore it seemed good to the devine providence to lay<lb/>
                      a very sad affliction uppon Mr Thornton &amp; my selfe. in a most<lb/>
@@ -9240,7 +9266,7 @@
                 
                 <head>
                     A Prayer after Mr Thorntons Recovery: No. 28 <hi rend="superscript">th</hi> 1665.</head>
-                <p>------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>O what shall I say, or doe to sett forth the infinitt mercys<lb/>
                      &amp; transcendant loveing kindnesse of the Lord our God, who<lb/>
                      still in the midest of Judgement remembers mercys, &amp; shew<hi rend="superscript">^es^</hi><lb/>
@@ -9289,14 +9315,13 @@
                 
                 <head>
                     Uppon my deare Joyce her death Jan. 27 1665.</head>
-                <p>------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>It was the pleasure of our God to vissitt my deare Childe<lb/>
                      Joyce Thornton with a great sickenesse falling exceding ill on<lb/>
                      sunday the 20 <hi rend="superscript">th</hi> of Jan. 1665 begining as we thought with a<lb/>
                      Cold which strucke in many Red spotts all over her bodie &amp; face<lb/>
                      affter which she mourned<note place="end">
-                        <p rend="Endnote Text"> [word] OED. V1, 5c. “<hi rend="color(333333)">To make a low inarticulate sound indicative of grief, pain, hunger, etc.; to moan.”</hi>
-                        </p>
+                        <p rend="Endnote Text"> [word] OED. V1, 5c. “To make a low inarticulate sound indicative of grief, pain, hunger, etc.; to moan.”</p>
                     </note> &amp; cried exceedingly beeing tormented<lb/>
                      with her sickenesse, we used all meanes that could be don to soe<lb/>
                      young a childe by the advice of Dr wittie. yett noe thing did<lb/>
@@ -9360,9 +9385,9 @@
                 </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Uppon my Daughter Alice preservation in a sirfitt June 13 1665.</head>
-                <p>--------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>It pleased God to deliver my Daughter Alice from a sirfitt<lb/>
                      which brought her into a violent &amp; dangerous illnesse, which came<lb/>
                      upon her in her sleepe as she laid in bed with me, when I wakend<lb/>
@@ -9389,7 +9414,7 @@
             <div>
                 <head>
                     Of my dangerous sickenesse: August 8 <hi rend="superscript">^16th^</hi> 1666.</head>
-                <p>----------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 </p>
@@ -9507,7 +9532,8 @@
                      upon those words in St Matt. 9<hi rend="background(green)">:</hi> v. 21, 22. Luke. the 17<hi rend="background(green)">:</hi> v. 15. 16.</p>
               </div>
             
-            <div>                <p>---------------------------------------------------------------------------------------------------</p>
+            <div>           
+                <p>-----------------------------------------------------</p>
                 <p>After these weaknesses seized soe extreamly upon my Person<lb/>
                      with such violency &amp; danger to my life, I could not be insensable<lb/>
                      of my daily decay &amp; dieing condittion: which these frequent<lb/>
@@ -9612,7 +9638,7 @@
                      and forgett not all his benifitts. Amen.</p>
                 </div>
             <div>
-                <p>----------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>About the 2 <hi rend="superscript">d</hi> of September: <hi rend="underline">1666</hi> began the great fire<lb/>
                      in London, which in 4 daies time consumed 13200 houses<lb/>
                      89 Churches. &amp;: with out the miraculous Providence<lb/>
@@ -9621,10 +9647,10 @@
             
             <div>
                 <head>
-                -----------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     My daughter Katherine Thorntons preservation in<lb/>
                      the smale Pox. the 29 <hi rend="superscript">th</hi> of Sept. 1666.</head>
-                <p>-----------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Uppon the 29 <hi rend="superscript">th</hi> of Sept. when I was yett very weake: be-<lb break="no"/>
                      -gan my daughter Katte, with a violent &amp; extreame pain<lb/>
                      in the backe &amp; head; with such scrikes &amp; torments that shee<lb/>
@@ -9665,9 +9691,9 @@
                 </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     The death of my Brother John Wandesford: De. 2 <hi rend="superscript">d</hi> 1666.</head>
-                <p>--------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Double lines both above and below here.</p>
                     </note>
                 </p>
@@ -9890,13 +9916,13 @@
             
             <div>
                 <head>
-                  ------------------------------------------------------------------------------------------<note place="end">
+                  -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] This is a double line.</p>
                     </note>
                 
                     My son Roberts haveing the smale Pox. Jan. 5 1667.<lb/>
                      and of his recovery perfectly againe.</head>
-                <p>------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>The 5 <hi rend="superscript">th</hi> of Jan. my deare Robin Thorntons began his sicknes<lb/>
                      of the smale Pox beeing very ill &amp; weake for 2 daies. the<lb/>
                      7, 8, 9 <hi rend="superscript">th</hi> he was in great danger of death. they not come<lb break="no"/>
@@ -9921,7 +9947,7 @@
                 </div>
             
             <div>
-                <p>-----------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Double line here.</p>
                     </note>
                 </p>
@@ -9948,7 +9974,7 @@
                 <head>
                     My daughter Alice Thornton her Smale Pox Jan.<hi rend="underline">2, 67.</hi>
                 </head>
-                <p>--------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Double line here.</p>
                     </note>
                 </p>
@@ -9985,7 +10011,7 @@
                      accept I beseech my gratefull &amp; humble <hi style="font-family:Segoe UI Symbol">♡</hi> which had com-<lb break="no"/>
                      passion upon thy Servants &amp; our Child. Lett us all live to<lb/>
                      be instruments to thy Glory &amp; hon{our} heere &amp; heere affter: Amen.</p>
-               <p>-------------------------------------------------------------------------------------------</p>
+               <p>-----------------------------------------------------</p>
                </div>
      
                 <pb n="226"/>
@@ -10010,7 +10036,7 @@
                      fast haveing but a few. blessed be God for his deliverance.</p>
             </div>
             <div>
-                <p>-----------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Double line here.</p>
                     </note>
                 </p>
@@ -10024,7 +10050,7 @@
                      praises for ever more Amen. //</p>
              </div>
             <div>
-                <p>-----------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Double line here.</p>
                     </note>
                 </p>
@@ -10039,7 +10065,7 @@
                 </p>
             </div>
             <div>
-                <p>-----------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Double line here.</p>
                     </note>
                 </p>
@@ -10074,7 +10100,7 @@
                      gett these wonderfull mercys to our soules &amp; bodies. Amen: //</p>
            </div>
            <div>
-                <p>------------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border </p>
                     </note>
                 </p>
@@ -10108,7 +10134,7 @@
                      &amp; was convicted in Consience never apeared affter. but died<lb/>
                      very penitent. he died in London neare Grayse Inne August<lb/>
                      the first; in the yeare 1667.</p>
-                <p>------------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 </p>
@@ -10125,7 +10151,7 @@
                 <head>
                     The birth of my Sonne Christopher, my 9 <hi rend="superscript">th</hi> Childe<lb/>
                      no. 11 1667 &amp; of his Death. Dec. 1 <hi rend="superscript">st</hi> 1667. //.</head>
-                <p>-----------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 </p>
@@ -10229,7 +10255,7 @@
                      my brother Portington. &amp; Mrs Anne Danby. // .</p>
             </div>
             <div>
-                <p>---------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Affter this comfort of my Childe I recovered something<lb/>
                      of my weakeness, better: recovering my breasts &amp;<lb/>
                      milke. &amp; giveing sucke, when he thrived very well<lb/>
@@ -10344,7 +10370,7 @@
                 <p>Amen. Amen.</p>
           </div>
           <div>
-                <p>-----------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>After the recovery of my health &amp; strength againe<lb/>
                      I had returned another affliction; which was not at that<lb/>
                      time soe heavy when I was sicke my selfe, I blesse God<lb/>
@@ -10492,7 +10518,7 @@
                         <p rend="Endnote Text"> [decoration][insertion] NB. This ‘title’is in a box – maybe a later addition? Cirss-cross usually indicates the end of a section and any space on the rest of the line is left blank.</p>
                     </note>
                 </head>
-                <p>----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Uppon the complaint of Mrs Danby to Mrs Batte, (then a<lb/>
                      servant to the young Countesse of Sussex; and accounts<lb/>
                      by her to be the dearest freind she had in the world) of her<lb/>
@@ -10905,13 +10931,13 @@
             </div>
             <div>
                 <head> 
-                --------------------------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Double line here.</p>
                     </note>
                 
                     Uppon my Sad condittion, &amp; Sickenesse that beffell me by<lb/>
                      the Slanders Raised against me: July 20 <hi rend="superscript">th</hi> 1668.</head>
-                <p>--------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border here.</p>
                     </note>
                 </p>
@@ -11010,8 +11036,8 @@
                      O wicked imagination, whence camest thou in to cover the<lb/>
                      Earth with deceipt:</p>
                 <p>
-                    <!-- NOTE [margin] tagged fw.
-                        position not indicated in transcription -->
+                    <!-- NOTE [margin] tagged fw
+                        check with transcriber? location wasn't indicated in transcription -->
                    <fw place="left margin">4</fw> 
                     There is a companion; which rejoyceth in the prosperity of a<lb/>
                      freind: but in the time of trouble will be against him.<lb/>
@@ -11602,16 +11628,17 @@
             </div>
             <div>
                 <head>
-                --------------------------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 
              <fw rend="underline" place="left margin">P </fw>
                     <note place="end">
                         <p rend="Endnote Text"> [margin] Reason for this marginal annotation?</p>
-                    </note> Uppon my lamentable abuses of fallse slanders raised<lb/>
+                    </note> 
+                    Uppon my lamentable abuses of fallse slanders raised<lb/>
                      against me. July 20 <hi rend="superscript">th</hi> 1668.</head>
-                <p>--------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 </p>
@@ -11771,7 +11798,7 @@
             <div>
                 <head>
                     My son Robert Thornton preserved July. 25. 1668.</head>
-                <p>----------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 </p>
@@ -11842,14 +11869,14 @@
              </div>
             <div>
                 <head>
-               --------------------------------------------------------------------------------------------<note place="end">
+               -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 
                     A relation of the Last sicknesse, and Death of my<lb/>
                      deare &amp; hon{oured} husband Will. <hi rend="superscript">m</hi> Thornton Esq{uire} whoe<lb/>
                      departed this life at Malton Sept. 17 <hi rend="superscript">th</hi> 1668.</head>
-                <p>--------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Double lined border but no pattern.</p>
                     </note>
                 </p>
@@ -12181,13 +12208,13 @@
             
             <div>
                 <head>
-                ---------------------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Double lines.</p>
                     </note>
                 
                     Prayers; &amp; Pettions upon this Sad Dispensation<lb/>
                      of the death of my deare &amp; hon{oured} husband.</head>
-                <p>--------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Double lines.</p>
                     </note>
                 </p>
@@ -12310,7 +12337,7 @@
                      &amp; for Ever more. Amen. &amp; Amen.</p>
             </div>
             <div>
-                <p>----------------------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 </p>
@@ -12413,7 +12440,8 @@
                      Funerall Sermon. The Text was in Ecclesiast{es} 12 <hi rend="superscript">th</hi> v. 1<hi rend="superscript">st</hi><lb/>
                      Remember now thy Creator in the daies of thy youth: &amp;c.<lb/>
                      applieing it fittly to that: Occasion. //.</p>
-               <epigraph> <p>------------------------------------------------------------------------------------------</p>
+               <epigraph> 
+                   <p>-----------------------------------------------------</p>
                 <p>Lord hee loves thee the lesse. that loves any thing with<lb/>
                      thee, which he loves not for thee. (St Austin). // .</p>
                 </epigraph>
@@ -12428,12 +12456,12 @@
                 
             <div>
                 <head>
-                ----------------------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Thick line.</p>
                     </note>
                 
                     The Widdowes Praieer. for her selfe &amp; Childeren.</head>
-                <p>----------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Two thick lines.</p>
                     </note>
                 </p>
@@ -12641,7 +12669,7 @@
            </div>
            <div>
                 <head>
-                ------------------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 
@@ -12652,7 +12680,7 @@
                      for where your Treasure is there will your heart be allso.</p>
                </div>
             <div>
-                   <p>-----------------------------------------------------------------------------------</p>
+                   <p>-----------------------------------------------------</p>
                 <p> The Just shall live by faith. //</p>
                 <p>Mr Thorntons motto &amp; my owne.</p>
                 <p>Nisi Christus Nemo:]<note place="end">
@@ -12664,7 +12692,7 @@
                 <p>Annagrame.</p>
                </div>
             <div>
-                   <p>------------------------------------------------------------------------------------</p>
+                   <p>-----------------------------------------------------</p>
                 <l>Christ and his Church, in love soe well agr’eed.</l>
                 <l>That hee for her, and She for him, has bl’eed.</l>
                 <l>Thus imitate thy Saviour, in his fervent love,</l>
@@ -12708,7 +12736,7 @@
             
             <div>
                 <head style="text-align: center;">
-                --------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Against the feares of Death.</head>
                 <l>Since natures workes be good and Death doth serve</l>
                 <l>As natures worke. why should we feare to die.</l>
@@ -12724,7 +12752,7 @@
                 <l>Since this wee feele. greatt losse we cannot finde.</l>
             </div>
             <div>
-                <p>----------------------------------------- </p>
+                <p>----------------------------------------------------- </p>
                 <l>O Death I will be thy Death. O Grave I will be thy</l>
                 <l>Victory. thanks be to God: through our Lord Jesus Christ.</l>
             </div>
@@ -12736,23 +12764,23 @@
                 
                     <fw type="pageNum">282.</fw>
             <div>
-                <!-- TODO [div] decide whether each of the untitle sections on this page should be treated as a div or just lg. div for now. -->
+                <!-- Q [tag choice] whether these untitled sections should be div or lg. div for now. -->
                 <head style="text-align: center;">An inducement to Love Heaven // .</head>
-                <p>-----------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <l>Leave me o love, which Reachest but to dust.</l>
                 <l>And thou my minde aspire to higher things</l>
                 <l>Grow rich in grace, which never taketh Rust:</l>
                 <l>What ever fades, but faiding pleasure brings.</l>
             </div>
             <div>
-                <p>--------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <l>Draw in thy beames, and humble all thy might.</l>
                 <l>To that sweete yoake, where lasting freedomes be.</l>
                 <l>Which breakes the Clouds, and opens forth the light</l>
                 <l>That doth both shine, and gives us sight to see.</l>
             </div>
             <div>
-                <p>-------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <l>O take fast hold, lett that light by thy guide</l>
                 <l>In this smale course, which birth drawes out to death</l>
                 <l>And thinke how Evill become’th him to slide,</l>
@@ -12763,9 +12791,9 @@
             
             <div>
                 <head>
-                -------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A faire-well to the World.</head>
-                <p>-------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <l>Fairewell the<note place="end">
                         <p rend="Endnote Text"> [word] NB. In original reads ‘yea’.</p>
                     </note> gilded follies, pleasing troubles.</l>
@@ -12843,12 +12871,12 @@
             <div>
                 
                 <head>
-                -------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 
                     My faithfull Soules wish.</head>
-                <p>-------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <l>Oh; had I of his love but Part,</l>
                 <l>That chosen was, by Gods owne heart.</l>
                 <l>That Princely Prophett David hee,</l>
@@ -12892,7 +12920,7 @@
                 
                     <fw type="pageNum">285.</fw>
                 
-                <p>---------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <l>If wronged, he only is my Right.</l>
                 <l>If sad, he, is my Joy, &amp; Soules delight;</l>
                 <l>In Summe and all, All only hee;</l>
@@ -12911,12 +12939,12 @@
           </div>
            <div>
                 <head>
-                --------------------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 
                     Uppon Rash Censorers</head>
-                <p>--------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <l>Judge not thatt feild; because ti’s Stubble,</l>
                 <l>Nor her that's poore, and full of trouble</l>
                 <l>Though t’one looke baire the other thin.</l>
@@ -12933,13 +12961,13 @@
                 
             <div>
                 <head>
-                ----------------------------------------------------------------------------------------------<note place="end">
+                -----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
                 
                     A Recollection of Memmorable accidents, &amp;<lb/>
                      Passages. forgotten to <hi rend="superscript">^be^</hi> Entred into my Booke.</head>
-                <!-- TODO ugh -->
+                <!-- TODO [layout] -->
                 <p>
                     <hi rend="background(magenta)">this must be placed ^</hi>
                     <hi rend="bold background(magenta)">At</hi>
@@ -12958,8 +12986,7 @@
           </div>
           <div>
                 <head>
-                  
-                    <hi rend="background(magenta)">-----------------------------------------------------------------------------------------------</hi>
+                   -----------------------------------------------------
                 
               
                     <hi rend="background(magenta)">Uppon my deliverance from death by a fall.<lb/>
@@ -12971,7 +12998,7 @@
                 
              </head>
                 <p>
-                    <hi rend="background(magenta)">-----------------------------------------------------------------------------------------------</hi>
+                    -----------------------------------------------------
                 </p>
                 <p>
                     <hi rend="background(magenta)">when I cutt a great wound in my forehead of above an Inch long</hi>
@@ -12979,7 +13006,7 @@
                         <p rend="Endnote Text"> [insertion] This insertion looks to be added after the main body of the text.</p>
                     </note>
                 </p>
-                <p>------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>My Father, &amp; mother, liveing at Kirklington;<lb/>
                      where I was borne; &amp; my brother Christopher allso<lb/>
                      The same maide servant attended uppon him, and was<lb/>
@@ -13103,7 +13130,7 @@
             </div>
             <div>
                 <head>
-                ---------------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A great deliverance from drowning in Ireland<lb/>
                      by a fall out of the coach as my mother &amp; us Ch.<lb/>
                      was goeing to Killdare.<lb/>
@@ -13111,7 +13138,7 @@
                         <p rend="Endnote Text"> [decoration] This phrase is boxed around.</p>
                     </note>
                 </head>
-                <p>----------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>As my deare mother <hi rend="doublestrikethrough">xx</hi> (my hon{oured} Father) <hi rend="doublestrikethrough">x</hi> my selfe &amp;<lb/>
                      brrothers, George, Christopher, &amp; John. was goeing in the<lb/>
                      Coach to see Kildare after my father bought it there<lb/>
@@ -13172,11 +13199,11 @@
                 
             <div>
                 <head>
-                ------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     A great deliverance from a 2 <hi rend="superscript">d</hi> fall<lb/>
                      att Sr Robert Merideths in Dublin<lb/>
                      in Ireland 1637.</head>
-                <p>--------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Two lines here.</p>
                     </note>
                 </p>
@@ -13271,7 +13298,7 @@
                 <head>
                     A dreadfull fire in the Castle of Dublin.<lb/>
                      1638.</head>
-                <p>----------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Uneven underlining here: date is incorporated into the line.</p>
                     </note>
                 </p>
@@ -13339,7 +13366,7 @@
                 </div>
             <div>
                 <head>
-                -------------------------------------------------------------------------------------
+                -----------------------------------------------------
                     Of the makeing; &amp; Preservation of my dear<lb/>
                      &amp; hon{oured} Fathers Last will &amp; Testament in<lb/>
                      Ireland in the Rebellion. &amp; by what Providenc<lb/>
@@ -13355,7 +13382,7 @@
                         <p rend="Endnote Text"> Not included in Anselment?</p>
                     </note>
                 </head>
-                <p>------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>This my deare fathers will was dated octber 2<hi rend="superscript">d</hi> 1640</p>
                 <p>Proved, &amp; left on the file by Coz. william wandesford</p>
                 <p>an Executor. remaned on the file for severall years</p>
@@ -13395,7 +13422,7 @@
                      over the Poore Country in there madnes against<lb/>
                      us when I was att Hipswell with my deare mothr<lb/>
                      in 1643. 1644 &amp;</head>
-                <p>------------------------------------------------------------------------------------<note place="end">
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Line not straight.</p>
                     </note>
                 </p>
@@ -13601,7 +13628,7 @@
                         <p rend="Endnote Text"> [word] Second 4 is written over a 3 in a darker ink.</p>
                     </note>
                 </head>
-                <p>---------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>At that time Sir Thomas Danby was forced with my Sister<lb/>
                      &amp; Children to be in safty from the Parliament forces<lb/>
                      he beeing for King Charles the first. to midlam Castle<lb/>
@@ -13662,7 +13689,8 @@
                      God of heavn by all the Power of men &amp; Angells for evr.<lb/>
                      o lett me live to thy glory &amp; serve thy majety for Eer Amn.</p>
             </div>
-            <div> <p>--------------------------------------------------------------------------------------<note place="end">
+            <div> 
+                <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> Summaries of previous entries – a form of ‘index’, i.e., addition to list of contents?</p>
                     </note>
                 </p>
@@ -13673,14 +13701,14 @@
                      in the yeere. 1646.</p>
              </div>
             <div>
-                 <p>-------------------------------------------------------------------------------------</p>
+                 <p>-----------------------------------------------------</p>
                 <p>A very great deliverance of me as I was goeing over<lb/>
                      the River att midlam when my Sistr Danby laid in of<lb/>
                      one of her Sons calld francis &amp; was att midlam Castle<lb/>
                      in the yeare 1644</p>
              </div>
             <div>
-                <p>----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>A great deliverance of me from beeing destroyd<lb/>
                      with a cannon Bullett att weschester beeing besseged<lb/>
                      by Sir will. <hi rend="superscript">m</hi> Brewertons Army they shift into the Town<lb/>
@@ -13698,7 +13726,7 @@
                      shere.</p>
              </div>
             <div>
-                <p>------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>A great delivrance from the violence of a<lb/>
                      Rape from Jerimy Smithson. Sir <hi rend="strikethrough">Ierimys</hi>
                     <hi rend="superscript"> ^Heughs^</hi><lb/>
@@ -13724,7 +13752,7 @@
                 </p>
                 <fw type="header">The Index of this booke. <hi rend="underline">Page.</hi>
                 </fw>
-                <p>-----------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Bishopp Halls observations <ref>1</ref>
                 </p>
                 <p>A Prayer, the Dedication <ref>3</ref>
@@ -13801,7 +13829,7 @@
                 <fw type="header">The Index of this booke. Pag<note place="end">
                         <p rend="Endnote Text"> [layout] NB. Check images for use of curly brackets.</p>
                     </note>e</fw>
-                <p>-------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>An Ellagie upon his Death by S Ch. Wivell <ref>115</ref>
                 </p>
                 <p>Observation of Gods goodnesse in my deare</p>
@@ -13850,7 +13878,7 @@
 <!-- Page 301 -->
 
                 <fw type="header"> The Index of this booke. Page.</fw>
-                <p>------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>The death of my 3 <hi rend="superscript">d</hi> Childe Eliz. Thornton <ref>149</ref>
                 </p>
                 <p>A Praier upon her death <ref>150</ref>
@@ -13898,7 +13926,7 @@
 <!-- Page 302 -->
 
                 <fw type="header"> The Index of this booke. Page.</fw>
-                <p>------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Uppon our removall to Newton. June 10<hi rend="superscript">th</hi>
                 </p>
                 <p>in the yeare 1662. 193</p>
@@ -13930,7 +13958,7 @@
 <!-- Page 303 -->
 
                 <fw type="header"> The Index of this booke. Page.</fw>
-                <p>-------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Of my dangerous Sicknesse: Aug{ust} 16 1666. 216</p>
                 <p>Meditations &amp; praiers there upon 218</p>
                 <p>Considerations uppon the disposall of my</p>
@@ -13962,7 +13990,7 @@
 <!-- Page 304 -->
 
                 <fw type="header"> The Index of this booke. Page.</fw>
-                <p>-------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Upon Mr Thorntons goeing to Spaw 235</p>
                 <p>A relation of Mrs Anne Danbys goeing</p>
                 <p>to Hooley &amp; several other Passages 237</p>
@@ -13992,7 +14020,7 @@
 <!-- Page 305 -->
 
                 <fw type="header"> The Index of this booke. Pages</fw>
-                <p>------------------------------------------------------------------------------------------</p>
+                <p>-----------------------------------------------------</p>
                 <p>Our Saviours Command 280</p>
                 <p>Anagrame uppon Mr Thorntons</p>
                 <p>Motto, and my owne 280</p>
@@ -14028,13 +14056,13 @@
                      George &amp; Christopher Wandesford. March <hi rend="strikethrough">2</hi>
                     <hi rend="superscript">^1^</hi>9<lb/>
                      on Easter Eve — before my bro. G was lost</head>
-                <p>-------------------------------1651----------------------------------------------</p>
+                <p>-------------------1651------------------------------------</p>
                 <p>
-              <note place="left margin">
+                    <note place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right">
                   <!-- NOTE [margin] tagged note -->
-                  <!-- CHECK vertical text . written top to bottom -->
-                  Uppon Easter day &amp; had a full sattisfaction of there true love &amp; affection to each<lb/>
-                  other &amp; ever Affter to his death <hi rend="superscript">^for^</hi> which I doe bless &amp; praise the God of Heaven for ever
+                  <!-- NOTE vertical text, writing direction top to bottom -->
+                  <p>Uppon Easter day &amp; had a full sattisfaction of there true love &amp; affection to each<lb/>
+                  other &amp; ever Affter to his death <hi rend="superscript">^for^</hi> which I doe bless &amp; praise the God of Heaven for ever</p>
                </note> 
                     It was no smale greife &amp; trouble to me that<lb/>
                      the wickedness of my Eldest brothers servant <lb/>
@@ -14078,12 +14106,12 @@
                 </p>
                 
                     <fw type="pageNum">301</fw>
-                
+                <!-- TODO [layout] -->
                 <p> George Wandesford.</p>
-                <p> ---------------------Anagram. --------------------------------</p>
-                <p> ---------------Feareing Gods Word------------------------</p>
+                <p> ---------------Anagram. -------------------------------</p>
+                <p> -------------Feareing Gods Word------------------------</p>
                 <p> Coelistiall feare, thy sacred genious, brings</p>
-                <p> ----------unto the Pallace of the king of Kings-----------</p>
+                <p>--------unto the Pallace of the king of Kings-----------</p>
                 <p> . Acrosticke.</p>
                 <p> -----------------------------</p>
                 <l>G race seamed to waite on nature setting forth</l>
@@ -14186,7 +14214,8 @@
             <pb n="310"/>
 
             <div>
-                <!-- [ms] Final two leaves blank. -->
+                <!-- Q handling blank pages etc 
+                    [ms] Final two leaves blank. -->
                 <p>
                     <note place="end">
                         <p rend="Endnote Text"> [ms] Second of blank leaves is the reverse of the lining paper.</p>
