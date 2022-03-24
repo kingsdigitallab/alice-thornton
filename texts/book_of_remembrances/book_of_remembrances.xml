@@ -193,11 +193,25 @@
         check if there are other conventions changes i've forgotten about...
       
       to review: 
-        - use of <supplied> tag for [text in square brackets]. i think this is wrong unless words are completely illegible, maybe <unclear> ?
-        - tagging of abbreviations/contractions and markers. pretty sure some <hi superscript should be tagged as abbreviations? still reading up on this one! 
-        - possibly related to the ^...^ you haven't finished yet. are some of those actually abbreviations?
-        - check consistency <fw> inside/outside <div> when div starts on a new page?
-        - check use of <space>, <damage> etc ?
+        - clearly got issues with how I've tagged unclear/illegible/deleted stuff. some is probably fine, but all needs checking.
+        - use of <supplied> tag for [text in square brackets]. i think this is wrong unless words are completely illegible, s/b <unclear> ?
+        - similarly use of <del> v <gap> ?
+        - also check use of <space>, <damage> etc ?
+        
+JC:
+<add> (addition) contains letters, words, or phrases inserted in the text by an author, scribe, annotator, or corrector. 
+<del> (deletion) contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as superfluous or spurious in the copy text by an author, scribe, annotator, or corrector. 
+Where the addition and deletion are regarded as a single substitution, they can be grouped together using the <subst> (substitution) element . 
+
+Where a word has been supplied by the editor, <supplied> can be used. 
+When missing text cannot be confidently reconstructed, the <gap> element should be used. Its @reason attribute explains the reason for the omission and its @extent and @unit attributes indicate its presumed size. 
+
+Use <unclear> if the text has been rendered partly illegible by deletion or damage so that the text can be read but without perfect confidence. 
+The <damage> element should be used to indicate areas of damage affecting the text, but normally where at least some of the text can be read with confidence. 
+
+        - tagging of abbreviations/contractions and markers. some <hi superscript> should be tagged as abbreviations? still reading up on this one! 
+        - possibly related to the ^...^ you haven't finished yet. are some of those actually contractions?
+        - check consistency <fw> inside/outside <div> when div starts on a new page? I think should probably be outside in that context.
         - possibly check / markers etc. 
       
       Qs 
@@ -1769,7 +1783,7 @@
                <p rend="annotation text">
               Superscript letters indistinct.</p>
             </note> <rs ref="ppl:xt1" n="per129" type="person">his Eldest sister</rs><lb/>
-          by <persName ref="ppl:jk1" n="per130">Mr<del><unclear reason="illegible" quantity="1" unit="char"/></del> <!-- [NOTE] Superscript letter blotted out after the r?--> 
+          by <persName ref="ppl:jk1" n="per130">Mr<del><unclear reason="illegible" quantity="1" unit="char"/></del> <!-- REVIEW whatever you've done here. del/gap? [NOTE] Superscript letter blotted out after the r?--> 
           Kirton</persName> who preached of<lb/>
           Sunday:
           <space unit="lines" quantity="3"/>
@@ -3134,7 +3148,7 @@
           gratitude which I errect for all the deli<lb break="no"/>
           -verances I have had &amp; my Children<lb/>
           both in soule &amp; body. the living the liveng<lb/>
-          <del rend="strikethrough"><unclear unit="char" quantity="2" reason="illegible"/></del> shall praise thee in heaven &amp; Earth.</p>
+          <del rend="strikethrough"><unclear unit="char" quantity="2" reason="illegible"/></del><!-- REVIEW del/gap? --> shall praise thee in heaven &amp; Earth.</p>
        </div>  
        
             <pb n="85"/>
@@ -3185,7 +3199,7 @@
          </fw>
            <lb/>
           beeing receaved by <subst>
-              <del rend="strikethrough"><unclear unit="char" quantity="2" reason="illegible"/></del><add place="above">&amp;</add>
+              <del rend="strikethrough"><unclear unit="char" quantity="2" reason="illegible"/></del><!-- REVIEW del/gap? --><add place="above">&amp;</add>
             </subst> from the mercy<lb/>
           of a gracious father who hath<lb/>
           at length bestowed on me his<lb/>
@@ -3407,7 +3421,7 @@
           <supplied>&amp;</supplied> into greater weakenesse of body. then<lb/>
           I had ever knowne in all my former weake<lb break="no"/>
           =nesses and troubles .in so short a space.<lb/>
-         so that I did simpathize very deeply <del rend="strikethrough"><unclear unit="char" quantity="4" reason="illegible"/></del><lb/>
+         so that I did simpathize very deeply <del rend="strikethrough"><unclear unit="char" quantity="4" reason="illegible"/></del><!-- REVIEW del/gap? --><lb/>
           in his sufferings . beeing deprived of doing<lb/>
           my Duty in his extremity. or be helpful<lb/>
           to my selfe. nor had I any hopes of the <lb/>
