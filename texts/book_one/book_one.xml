@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Book of Remembrances</title>
+                <title>First Book of My Life</title>
                 <author>Alice Wandesford Thornton</author>
                 <respStmt>
                     <resp>editing in progress... </resp>
@@ -57,6 +57,11 @@
                     <name>Sharon Howard</name>
                     <desc>move to github repo</desc>
                 </change>
+                <change>
+                    <date>2022-03-28</date>
+                    <name>Sharon Howard</name>
+                    <desc>much of structure/layout/textual tagging in place</desc>
+                </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -71,8 +76,8 @@
          Page \d+ Transcriber page numbers
          CORRECTION: issue with transcription, to be raised with team
          NOTE: just a comment on something, shouldn't need any further action
-         TODO: needs work, probably know what's needed but haven't got round to it yet...
-         Q: not sure what to do with something
+         TODO: needs work, probably know what's needed
+         Q: uncertain about how to proceed
          
          [endnote] moved from Word endnotes into comment
          
@@ -81,7 +86,7 @@
          BoR format (based on wwp?): position-marker type-width-weight eg
             pre-rule-full-width-light  
             post-diagonal-short
-         but this book is going to need more info about fancy decorations. double lines can be added to this format, but decorations? (which are recorded in the outline spreadsheet) for the moment maybe just as notes/comments 
+         but this book likely to need more info about fancy decorations. double lines can be added to this format, but decorations? (which are recorded in the outline spreadsheet) for the moment maybe just as notes/comments 
          <milestone> (unit=rule?) i thikn these might need some more work...
          diagonal
          diagonal-left-margin
@@ -125,7 +130,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
             <div>
 
-                <head place="centre"> Bishop Halls Observations in his<lb/>
+                <head place="centre">
+                    <persName>Bishop Hall</persName>s Observations in his<lb/>
                      booke of Meditations<lb/>
                      And vowes.</head>
                 <p>These things be comelie &amp; pleasant to see<lb/>
@@ -238,16 +244,17 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <fw type="pageNum">5.</fw>
             
             <div>
-                <p>Alice Wandesforde the fifth childe of<lb/>
-                     Christopher Wandesforde Esq{uire} late <lb/>
+                <p>
+                    <persName>Alice Wandesforde</persName> the fifth childe of<lb/>
+                     <persName>Christopher Wandesforde Esq{uire}</persName> late <lb/>
                      Lord Deputy of Ireland. Was borne at <lb/>
                      Kirklington in the County of Yorke<lb/>
                      the thirteenth day of Feb. beeing on a <lb/>
                      munday, a bout two of the clock in the<lb/>
                      afternoone in the yeare. 1626. Baptized the<lb/>
-                     next day. The wittnesses were Mr<lb/>
-                     Lassells Minister of Kirklington.<lb/>
-                     Mrs Anne Norton. &amp; Mrs Best.
+                     next day. The wittnesses were <persName>Mr<lb/>
+                     Lassells</persName> Minister of Kirklington.<lb/>
+                     <persName>Mrs Anne Norton</persName>. &amp; <persName>Mrs Best</persName>.
                     <!-- Q tag space? -->
                     <note place="end">
                         <p rend="Endnote Text"> [ms]? The rest of this page is blank.</p>
@@ -376,7 +383,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           </fw>
                     The first deliverance of that kinde was in the yeare <lb/>
                      1630. When I was left at Richmond under the<lb/>
-                     caire, &amp; deare, love of my beloved, Aunt Norton.<lb/>
+                     caire, &amp; deare, love of my beloved, <persName>Aunt Norton</persName>.<lb/>
                      uppon my father &amp; mothers goeing to London.<lb/>
                      It pleased God to bring me into a very dangerous<lb/>
                      weaknesse, &amp; sicknesse, uppon an accident of a <lb/>
@@ -384,7 +391,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           <add place="left margin">,</add> this causeing an extreame vomitting, whoes vi-<lb break="no"/>
                      -olence drove me into great feaver, &amp; that into the <lb/>
                      meassells, &amp; both, brought me so low &amp; weake that <lb/>
-                     my Aunt. &amp; Sarah Tomlinson (our maide) allmost<lb/>
+                     my Aunt. &amp; <persName>Sarah Tomlinson</persName> (our maide) allmost<lb/>
                      dispaired of my Life.</p>
                 <p>But it pleased the Lord my God in great mercy, to<lb/>
                      heare the hearty praiers &amp; requests, of my Aunt for me.<lb/>
@@ -420,9 +427,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 A preservation in the Smale Pox, 1631.
              </head>
                 <p>Beeing removed to London by my Fathers order with <lb/>
-                     my brother Christopher. I fell into the smale-pox have-<lb break="no"/>
+                     <persName>my brother Christopher</persName>. I fell into the smale-pox have-<lb break="no"/>
                      -ing taken them of him. both of us was sent into Kent<lb/>
-                     where we lodged at one Mr Baxters. beeing kindly usd<lb/>
+                     where we lodged at one <persName>Mr Baxter</persName>s. beeing kindly usd<lb/>
                      with much caire in that house. &amp; by the blessing of God I<lb/>
                      recovered very soone, nor was I very ill at that time.</p>
                 <p>I therefore will praise the Lord our God, for my preservation<lb/>
@@ -506,8 +513,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      beeing neare to have burnt it downe, but through<lb/>
                      the caire of our Servants it was prevented. this was don <lb/>
                      at night when my father &amp; mother was att Court.<lb/>
-                     but wee were preserved that time of fright at my Lady<lb/>
-                     Levestones house beeing caried by Sara our maide.<lb/>
+                     but wee were preserved that time of fright at <persName>my Lady<lb/>
+                     Levestone</persName>s house beeing caried by <persName>Sara our maide</persName>.<lb/>
                      This fire seemed to me as if the day of judgement was<lb/>
                      come causeing much feare &amp; trembling. yet we were<lb/>
                      all delivered from perishing though my father had<lb/>
@@ -530,15 +537,15 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <p>It pleased God to give my deare Mother, my two<lb/>
                      younger brothers &amp; my selfe a safe passage into<lb/>
                      Ireland, about the yeare. 1632. My Father beeing<lb/>
-                     there a yeare before, &amp; my Eldest brother George<lb/>
+                     there a yeare before, &amp; <persName>my Eldest brother George</persName><lb/>
                      In which place I injoyed great happienesse and<lb/>
                      Comfort dureing my hon{oured} fathers life haveing the <lb/>
                      fortunate opportunity in that time, &amp; affter, when<lb/>
                      I staied there, of the best education that Kingdome<lb/>
                      could afford. have<add place="above">ing</add> the advantage of Societie in the<lb/>
-                     sweete &amp; <add place="above">chaste</add> company of the Earle of Straffords Daugh<add place="above">ters</add><lb/>
-                     The most virtuous Lady Anne. &amp; The Lady Arbella<lb/>
-                     Wentworth. Learning those qualities with them which<lb/>
+                     sweete &amp; <add place="above">chaste</add> company of <persName>the Earle of Strafford</persName>s Daugh<add place="above">ters</add><lb/>
+                     The most virtuous <persName>Lady Anne</persName>. &amp; The <persName>Lady Arbella<lb/>
+                     Wentworth</persName>. Learning those qualities with them which<lb/>
                      my father ordered. Namlie,</p>
                 <p>The french Language. to write, &amp; speake the same;<lb/>
                      Singing. Dancing. Plaieng on the Lute, &amp; Th<add place="above">e</add>orboe.<lb/>
@@ -605,6 +612,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      soone discovered. &amp; soe quenched with out much<lb/>
                      harme don. Blessed be the name of our good God;</p>
                 <p>-----------------------------------------------------</p>
+                
                 <p>About the time I was 12 yeares old in the <add place="above">yeare</add> 1638.<lb/>
                      I was readeing of the great wisdome of our Saviour.<lb/>
                      in the Gospell of St Luke 2<hi rend="superscript">d</hi> chapt. 49 v. where he was<lb/>
@@ -638,18 +646,18 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     <!-- Q should the year be part of head or separate fw? or fw inside head? -->
                     <fw rend="underline">1639.</fw><lb/>
                     
-                A deliverance from Ship-Rack in A Passage into
+                A deliverance from Ship-Rack in A Passage into<lb/>
                      -----------------------------------------------------<lb/>
                      Ireland with my Mother, brother, &amp; 2 Nephewes.<lb/>
-                     Thomas &amp; Christopher Danby. In the yeare: 1639.
+                     <persName>Thomas</persName> &amp; <persName>Christopher Danby</persName>. In the yeare: 1639.
                 </head>
                 <p>-----------------------------------------------------</p>
                 <p>having<!-- CORRECTION "Having" in image --> come over into England, when my Mother<lb/>
                      came for her cure of the dissease of the Stone to the Bat-<add place="above">hes</add><lb/>
                      &amp; Bristoll water, St Vincents well; (uppon which Rose<lb/>
                      hanging over it, is got your Bristow Diamonds.) in<lb/>
-                     her returne backe into Ireland, she carried my<lb/>
-                     Sister Danbies 2 Elldest sons. for theire better<lb/>
+                     her returne backe into Ireland, she carried <persName>my<lb/>
+                     Sister Danbie</persName>s 2 Elldest sons. for theire better<lb/>
                      Education, When we came to Nesston. at the Sea<lb/>
                      side we staied for a winde a weeke; And in that time<lb/>
                      there was a great Storme on the Sea in soe much as<lb/>
@@ -664,7 +672,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      we were drove on lee all night &amp; with in lesse then 10<lb/>
                      houers we were 12 miles beyond Dublin. lieing at<lb/>
                      Hull, and Anchor all day. And but for a fisher botte<lb/>
-                     sent from Mr Hubert to assist the Kings Ship in distresse<lb/>
+                     sent from <persName>Mr Hubert</persName> to assist the Kings Ship in distresse<lb/>
                 
 
                 <pb n="16"/>
@@ -685,7 +693,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                         <p rend="Endnote Text"> [insertion][margin] This insertion is partially placed in the left-hand margin.</p>
                     </note> through the infinitt mercys of our great, &amp; Powerfull<lb/>
                      Lord God, we landed safely at the shore of the Skirries.<lb/>
-                     where the same Hubert with all his familie, &amp; freinds<lb/>
+                     where <persName>the same Hubert</persName> with all his familie, &amp; freinds<lb/>
                      mett us with great Joy, entertaining my mother &amp;<lb/>
                      All hers, with abundante affection, &amp; kindenesse.<lb/>
                      Which he did uppon the account of obligation, to shew<lb/>
@@ -735,7 +743,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </div>
             
             <div>
-                <head place="centre"> A thankesgiveing for our deliverances.
+                <head place="centre">
+                    A thankesgiveing for our deliverances.<lb/>
                      -----------------------------------------------------<lb/>
                      affter our dangerous passage by Sea:<lb/>
                      August the 23<hi rend="superscript">d</hi> 1639. into Ireland.<lb/>
@@ -832,21 +841,21 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                <!-- Q should the marginal note be inside or outside head. I think outside but hmm. -->
                 <note place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right">
-                  <p>My L. <hi rend="superscript">d</hi> Straford tooke Ship for England w:<hi rend="superscript">th</hi> my Lord Raby his son<lb/>
+                  <p><persName>My L. <hi rend="superscript">d</hi> Straford</persName> tooke Ship for England w:<hi rend="superscript">th</hi> <persName>my Lord Raby</persName> his son<lb/>
                     on good friday y <hi rend="superscript">e</hi> yeare. 1640. gaue my father the Sword then.</p>
                 </note>
                 <head>
                 ----------------------------------------------------- <lb/>
                      Observations uppon severall accidents <lb/>
-                     happening in Ireland uppon the Earle of<lb/>
-                     Strafford, &amp;c. in the yeares. 1640. 41. And <lb/>
+                     happening in Ireland uppon <persName>the Earle of<lb/>
+                     Strafford</persName>, &amp;c. in the yeares. 1640. 41. And <lb/>
                      on his fatall murder: may: 12 1641.
                 </head>
                 <p>-----------------------------------------------------</p>
                 <p>After my mothers returne from the Bathes, &amp;,<lb/>
                      Bristoll, where she found much good as to the<lb/>
                      cure of the stone.</p>
-                <p>The Earle of Strafford was sent for by the King in<lb/>
+                <p><persName>The Earle of Strafford</persName> was sent for by <rs type="person">the King</rs> in<lb/>
                      to England. uppon the complaints of some factious<lb/>
                      Spirritts, weary of a lawfull, &amp; Peaceable govern-<add place="above">-ment</add><lb/>
                      both in England, Scotland &amp; Ireland, whoes<lb/>
@@ -1073,8 +1082,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <head place="centre">
                 ----------------------------------------------------- <lb/>   
-                    A Relation conserning my Hon{oured} father. the <lb/>
-                     Lord Deputy Wandesforde, &amp; of his<lb/>
+                    A Relation conserning my Hon{oured} father. <persName>the <lb/>
+                     Lord Deputy Wandesforde</persName>, &amp; of his<lb/>
                      Death. Decem. 3<hi rend="superscript">d</hi> 1640.</head>
                 <p>-----------------------------------------------------</p>
                 <p>-----------------------------------------------------</p>
@@ -1202,8 +1211,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
                 <fw type="pageNum">31.</fw> <lb/>
                     
-                Attended home by the Earle of Ormond the Lord<lb/>
-                     Dillon. Sir George Ratclife &amp; many other persons<lb/>
+                Attended home by <persName>the Earle of Ormond</persName> the <persName>Lord<lb/>
+                     Dillon</persName>. <persName>Sir George Ratclife</persName> &amp; many other persons<lb/>
                      of quality. as the usuall custome was to waite on<lb/>
                      the Deputy to dinner.</p>
                 <p>When he came into the dining roome, &amp; perceived<lb/>
@@ -1226,7 +1235,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      was prepared for the Lords dealing with him in his<lb/>
                      Providence, either for life, or Death.</p>
                 <p>About tuesday the 29<hi rend="superscript">th</hi> of No. 1640. he called for his<lb/>
-                     Will; commanding my Co. wandesforde one of his<lb/>
+                     Will; commanding <persName>my Co. wandesforde</persName> one of his<lb/>
                      Executors to the said will. <add place="above">to read it</add> it being Signed, Sealed<lb/>
                 
 
@@ -1239,8 +1248,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                 And finished a good while before. he had it <add place="above">then</add><lb/>
                      all read over to him in the presence of divers Per<add place="above">sons</add><lb/>
-                     of qualitie. as my Lord Bishop of Derrey an Exec̅<lb/>
-                     the Earle of Ormond; the Lord Dillon, &amp; severall others<lb/>
+                     of qualitie. as <persName>my Lord Bishop of Derrey</persName> an Exec̅<lb/>
+                     <persName>the Earle of Ormond</persName>; the <persName>Lord Dillon</persName>, &amp; severall others<lb/>
                      Before, whome he Ratified &amp; confirmed the same<lb/>
                      declairing it publickly to be his last Will &amp;<lb/>
                      Testament.</p>
@@ -1316,7 +1325,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                         <p rend="Endnote Text"> [word] I.e., experienced.</p>
                     </note> those<lb/>
                      miseries which he prophetically foresaw.</p>
-                <p>The Bishop of Derrey being called on thursday at<lb/>
+                <p><persName>The Bishop of Derrey</persName> being called on thursday at<lb/>
                      night, who tould hi<add place="above">m</add> <add place="above">he</add> perceaved he grew weaker<lb/>
                      in bodie, that he would doe well, to declaire in<lb/>
                      publicke his faith, &amp; hope in God. not that he qu-<lb break="no"/>
@@ -1395,8 +1404,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      clemency. He was allso the Last Deputy for<lb/>
                      many yeares, beeing the last in King Charles the <lb/>
                      firsts time, the warres following affter his death<lb/>
-                     The next Lawfull governer theire was the Earle<lb/>
-                     of Ormond in King Charles the 2<hi rend="superscript">ds </hi> time of Restora<lb break="no"/>
+                     The next Lawfull governer theire was <persName>the Earle<lb/>
+                     of Ormond</persName> in <persName>King Charles the 2<hi rend="superscript">ds</hi></persName> time of Restora<lb break="no"/>
                      -tion. into England.</p>
 
                 <pb n="37"/>
@@ -1410,7 +1419,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      cheife Church. Christs Church under a faire<lb/>
                      Marble. before the Deputies Seate of Estate<lb/>
                      on the 10<hi rend="superscript">th</hi> day of Decemb{er} 1640.</p>
-                <p>The Bishop of Derrey Preach’t his funerall Sermon.<lb/>
+                <p><persName>The Bishop of Derrey</persName> Preach’t his funerall Sermon.<lb/>
                     <add place="above">Text Matt. xx. 8.</add>
                     <note place="end">
                         <p rend="Endnote Text"> [insertion] Insertion is a different ink and a different hand – NOT Thornton’s.</p>
@@ -1425,7 +1434,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      -creased the Debts upon his Estate. as proved very<lb/>
                      heavy. in the times of trouble succeeding: the King<lb/>
                      did give order that this should have bin dischargd<lb/>
-                     out of his Treasury. As allso that my brother Georges<lb/>
+                     out of his Treasury. As allso that <persName>my brother George</persName>s<lb/>
                      wardship was given him by his gracious Majestie<lb/>
                      both in regard of my fathers faithfull service in that <lb/>
                      place &amp; his dieing Deputie. But the Parliament<lb/>
@@ -1473,10 +1482,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
                         57<lb/>
                         v. 1<hi rend="superscript">st</hi> 2,
                         <!-- CORRECTION "2d" in image -->
+                    </fw>
                   <note place="end">
                   <p rend="Endnote Text">[bib] <seg rend="background(magenta)">Note because a different kind of biblical citation. NB. Issue of standardisation of biblical citations, and editorial practice/annotation.</seg></p>
                    </note>
-                    </fw>
                         The righteous perisheth &amp; no man laieth it to<lb/>
                         heart; &amp; the mercifull men are taken away, none<lb/>
                         considering that the righteous is taken away from the<lb/>
@@ -2030,7 +2039,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     <fw type="pageNum">54.</fw>
                 
             <div>
-                <head place="centre">A Prayer to be said before wee Receive. 
+                <head place="centre">A Prayer to be said before wee Receive. <lb/>
                 -----------------------------------------------------
                     <note place="end">
                         <p rend="Endnote Text"> [decoration] Thick line here.</p>
@@ -2066,7 +2075,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      -surection, which thou (that wishest the Perfection &amp; continu<lb/>
                      ance of what thou hast made). hast prepared for us befor<add place="above">e</add><lb/>
                      the begi{nni}ng<note place="end">
-                        <p rend="Endnote Text"> [contraction][check]SH contraction marker is over gi. was typed with symbol - should it be indicated?</p>
+                        <p rend="Endnote Text"> [contraction][check] SH: contraction marker is over gi. was typed rather than {}</p>
                     </note> of the world, If wee feare thee &amp; keepe.<lb/>
                 
 
@@ -2132,13 +2141,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     <!-- Q needs @type but errmm what is "Com" actually short for? Idk what it means! -->
                     <fw place="left margin">
                             Com.
+                            <lb/>
+                            <hi rend="underline">1<hi rend="superscript">st</hi></hi>  
+                     </fw>
                             <note place="end">
                                 <p rend="Endnote Text"> [contraction] Line over m indicates a contraction: while most of these are silently expanded, might this be an exception – won’t fit in margin?</p>
                             </note>
-                            <lb/>
-                            <hi rend="underline">1<hi rend="superscript">st</hi></hi>
-                            
-                     </fw>
                         Wee doe therefore O Lord: confesse, the wee have
                             con-<lb break="no"/>
                 
@@ -2478,7 +2486,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 In the vacancy of a wise &amp; prudent Governour. af <lb/>
                      ter my Fathers death &amp; my Lord of Straffords imprison<add place="above">mt</add><lb/>
                      by the Parliament in England. That nation was under<lb/>
-                     the authority of Justices. the Lord Parsons. &amp; Lord Burlacey<lb/>
+                     the authority of Justices. the <persName>Lord Parsons</persName>. &amp; <persName>Lord Burlacey</persName><lb/>
                      These 2 Old gentlemen havein lived in Ireland many<lb/>
                      Peaceable yeares could not be made sencable that the Irish<lb/>
                      had an ill designe against the English &amp; therefore did<lb/>
@@ -2494,16 +2502,16 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      made in Dublin, by which as the meanes our gracious God<lb/>
                      appointed we weare delivered from Perishing in those<lb/>
                      flames intended for us.</p>
-                <p>The Lord Mackmaughhan &amp; Mackguire, two of the Ring<lb/>
+                <p>The <persName>Lord Mackmaughhan</persName> &amp; <persName>Mackguire</persName>, two of the Ring<lb/>
                      Leaders of this wickedness. was desined to Sease upon<lb/>
                      the Castle of Dublin, which at that time was Richly stored with<lb/>
                      All Amunition, Armes, Ordenances. &amp; other Artillery<lb/>
-                     for the defence of the Castle &amp; Kingdomes. by the Lord Lieueten<lb/>
-                     Strafford, well knowing that the Irish must be ride with a curb<lb/>
+                     for the defence of the Castle &amp; Kingdomes. by the <persName>Lord Lieueten<lb/>
+                     Strafford</persName>, well knowing that the Irish must be ride with a curb<lb/>
                      But this place of the English strength; was then cairlessly<lb/>
                      at that time deserted; none being sett to gaurd the bridge &amp;<lb/>
                      &amp; gates. but 4 weake old men that could make noe resistan<add place="above">ce</add><lb/>
-                     That night beeing (satterday), before Mackguire should<lb/>
+                     That night beeing (satterday), before <persName>Mackguire</persName> should<lb/>
                      have taken possession of the Castle. he beeing desined the gover<add place="above">nor</add><lb/>
                      thereof, by the Rebbells. &amp; should have seised on it on the <lb/>
                 
@@ -2515,14 +2523,14 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                     <fw type="pageNum">64.</fw> <lb/>
                 
-                Sunday morning. Mackmaughan willing to save<lb/>
+                Sunday morning. <persName>Mackmaughan</persName> willing to save<lb/>
                      a kinsman of his owne name that lived then as a serva<add place="above">nt</add><lb/>
-                     with Sir John Clottworthy an English man, writt his<lb/>
+                     with <persName>Sir John Clottworthy</persName> an English man, writt his<lb/>
                      cosen a letter to Dublin to meete him in great haste<lb/>
                      about a bussinese of great consernment.</p>
                 <p>his cosen imeadiately tooke horrse &amp; ride into the Coun<add place="above">try</add><lb/>
                      but finding him gone to Dublin followed, &amp; discovrd<lb/>
-                     where he and Magguire was sett drinking in a blind<lb/>
+                     where he and <persName>Magguire</persName> was sett drinking in a blind<lb/>
                      Alehouse, at which dore they had sett men to guard it<lb/>
                      Now this had bin converted a Protestant about a <lb/>
                      yeare before &amp; married to an English woman. but they<lb/>
@@ -2534,11 +2542,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <p>When they were mett they fell to drinke much, they<lb/>
                      causing him take more that he might be drunke. but<lb/>
                      he desired them to tell him what they sent to him<lb/>
-                     for. Mackmaughan clapt him on the backe &amp; tould<lb/>
+                     for. <persName>Mackmaughan</persName> clapt him on the backe &amp; tould<lb/>
                      him that there was the galantest designe which was Ploted<lb/>
                      &amp;, to take effect shortly, against the English Doggs,<lb/>
                      that could be to cut there throats, &amp; to morrow by 6<lb/>
-                     a clocke in the morning said he my Lord Mackguire<lb/>
+                     a clocke in the morning said he <persName>my Lord Mackguire</persName><lb/>
                      will be master of Dublin Castle. &amp; they would<lb/>
                      Batter downe the Towne over the Heriticke Dogs<lb/>
                      eares &amp; not spaire one of them.</p>
@@ -2567,7 +2575,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      wall before he could make an Escape to acquaint the<lb/>
                      Lord Justices. But this man had allso the River to Swim <lb/>
                      att that time of night which was 12 a clocke before he came<lb/>
-                     to the first Justice which was Sir Will.<hi rend="superscript">m</hi> Persons.</p>
+                     to the first Justice which was <persName>Sir Will.<hi rend="superscript">m</hi> Persons</persName>.</p>
                 <p>Rising come to the Gate he was forced to threaten hard<lb/>
                      before he was admitted. &amp; then he tould him. My Lord<lb/>
                      I am sent to you by the Providence of God. to save your<lb/>
@@ -2614,11 +2622,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      beeing nigh unto death, while I staied in Dublin, as <lb/>
                      allso in the ship comeing for England.</p>
                 <p>But my deare mothers caire was exceeding great<lb/>
-                     for my 2 brothers Christopher &amp; John. with Tom Danby<lb/>
-                     &amp; kitt my sisters two elldest sons. &amp; my selfe.<lb/>
+                     for my 2 brothers <persName>Christopher</persName> &amp; <persName>John</persName>. with <persName>Tom Danby</persName><lb/>
+                     &amp; <persName>kitt</persName> my sisters two elldest sons. &amp; my selfe.<lb/>
                      In providing a Ship to transport us all together<lb/>
                      with her good Plate, &amp; houshold stuffe in Dublin. which<lb/>
-                     she affterwards delivered to my uncle Will.<hi rend="superscript">m</hi> Wandes{forde}<lb/>
+                     she affterwards delivered to <persName>my uncle Will.<hi rend="superscript">m</hi> Wandes{forde}</persName><lb/>
                      affter she came to weschester. But it pleased God to<lb/>
                      give us all a safe &amp; quiett passage out of Ireland<lb/>
                 
@@ -2770,6 +2778,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                             <lb/>
                          1643
                         </note>
+                    <lb/>
                      But the warres falling out hott att that time, beeing wee<lb/>
                      were beleagured in Chester by Sir Will.<hi rend="superscript">m</hi> Brewertons<lb/>
                      forces for the Parliament <add place="above">&amp;</add> there happened a strainge<lb/>
@@ -2937,9 +2946,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      with many hopefull &amp; religious expressions, more then<lb/>
                      could <add place="above">be</add> expected from such a Childe. he freely &amp; will-<lb break="no"/>
                      -ingly gave up his soule into the hands of his Redeemer<lb/>
-                     with come Lord Jesus &amp; receave my soule, &amp; so did<note place="end">
-                        <p rend="Endnote Text"> [word][check] SH "died" surely rather than "did"...</p>
-                    </note>.</p>
+                     with come Lord Jesus &amp; receave my soule, &amp; so did.</p>
+                    <!-- CORRECTION "died" rather than "did" -->
                 <p>I had great reason to take especiall notice of the great<lb/>
                      goodnesse of God to us, in giveing us opportunity to<lb/>
                      bring this poore soule out of the darknesse &amp; ignorance<lb/>
@@ -2979,10 +2987,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  -----------------------------------------------------<lb/>
                  <note place="left">Receaving the<lb/>
                     <fw place="left margin">1</fw> sacrament
+                  </note>
                         <note place="end">
                         <p rend="Endnote Text"> [insertion] Inserted into blank space left</p>
                     </note>
-                  </note>
                     A Thankesgiveing affter my recovery<!-- right --><lb/>
                        from the smale Pox in Weschester: 1642.<!-- left... -->
                 </head>
@@ -3008,9 +3016,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                     <fw type="pageNum">77.</fw>
                     <note place="end">
-                        <p rend="Endnote Text"> [page numbering] SH: left-aligned odd page numbers start here] Original checked – and this is a misfoliation on Thornton’s part; i.e., there is NO page 76 here.</p>
+                        <p rend="Endnote Text">Original checked – and this is a misfoliation on Thornton’s part; i.e., there is NO page 76 here.</p>
                     </note>
-                
+                <!-- [page numbering] left-aligned odd page numbers start here  -->
                 <p>And spaired me as a man spaired his only sonne.<lb/>
                      O Lord lett it be in mercy that thou hast preserved me in<lb/>
                      these wonderfull manners of all thy late &amp; former de<lb break="no"/>
@@ -3595,7 +3603,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      &amp; Glory, in Anthems, &amp; Psallmes proper for her condi-<lb break="no"/>
                      -tion, with many sweete verces praising him for all things<lb/>
           <add place="left margin">,</add> Nor was she in the least conserned to part with her husb<note place="end">
-                        <p rend="Endnote Text"> [contraction][check] SH is there a contraction line through the b?</p>
+                        <p rend="Endnote Text">[contraction][check] SH: is there a contraction line through the b?</p>
                     </note>
                     <lb/>
                      or Children, nor any thing in this world, haveing her hope<lb/>
@@ -3785,9 +3793,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <div>
                 
                     <fw type="pageNum">94.</fw>
-                    <note place="end">
-                        <p rend="Endnote Text">[page numbering] SH page number: left-aligned</p>
-                    </note>
+                    <!-- NOTE [page numbering] left-aligned even number-->
+                    
                 
                 <head> 1648</head>
                 <head> Uppon the beheading of King Charels<note place="end">
@@ -4655,12 +4662,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 Our wants &amp; infirmities therefore in his name &amp; word<lb/>
                      I humbly conclude these prayers as he has taught me<lb/>
                      in his holy Gospell to call upon thee Saing:</p>
-                <p style="text-align: center;">Our father which art in Heaven.<note place="end">
-                        <p rend="Endnote Text"> [text size] SH slightly larger text again on this line?</p>
-                    </note>
+                <p style="text-align: center;">Our father which art in Heaven.
                     <lb/>
                      Amen. Soe be it:<note place="end">
-                        <p rend="Endnote Text"> [text size] ‘Our father …’in larger script.</p>
+                        <p rend="Endnote Text"> [text size] ‘Our father ...’in larger script.</p>
                     </note>
                 </p>
                 </div>
@@ -4669,7 +4674,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 -----------------------------------------------------<lb/>
                     An Eligie upon George Wandesford Esq{uire}<lb/>
                      on his unfortunate Death. by the Hon{ourable}<lb/>
-                     Sir Christopher Wyvill Barronett.
+                     Sir Christopher Wyvill Barronett.<lb/>
                 -----------------------------------------------------<lb/>
                 On the deplorable loss of our hon{oured} freind &amp;<lb/>
                      Neighbour George Wandesford Esq{uire} March 31 51.
@@ -5092,7 +5097,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      promise to my Mother, &amp; <add place="above">his</add> infinitt expressions to my selfe I <lb/>
                      rest <add place="above">ed</add> upon Providence in the fullfilling of his desire. in <lb/>
                      soe much that about the December following proceeded our marri{age}<note place="end">
-                        <p rend="Endnote Text"> [contraction][check] SH contraction line over marrig (actually over letters 'arrig') was typed not {} should be indicated or silent? (problem characters?)</p>
+                        <p rend="Endnote Text"> [contraction][check] SH: contraction line over marrig  was typed not {} ? <!-- Q (problem characters?) --></p>
                     </note>
                     <lb/>
                      this is the true relation of this grand conserne of my life, which<lb/>
@@ -5838,9 +5843,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
                 
                     <fw type="pageNum">141.</fw>
-                    <note place="end">
-                        <p rend="Endnote Text"> [page numbering] SH last left aligned odd number in sequence that started at 77(?)</p>
-                    </note>
+                    <!-- [page numbering] last left aligned odd number in sequence that started at 77(?) -->
+                    
                 
                 of Spiritt Adding a new blessing to thy servant causi-<lb break="no"/>
                      -ng me to bring forth my 3<hi rend="superscript">d</hi> childe. of a comlie bodie<lb/>
@@ -6008,9 +6012,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
                 
                     <fw type="pageNum">145.</fw>
-                    <note place="end">
-                        <p rend="Endnote Text"> [page numbering] SH odd numbers back to right align.</p>
-                    </note>
+                    <!-- NOTE [page numbering] odd numbers back to right align.-->
+                    
                 
                  Orriginall Sinne wherein we were conceived &amp; borne,<lb/>
                      we have committed many Actuall Transgressions against<lb/>
@@ -6099,9 +6102,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
                 
                     <fw type="pageNum">147.</fw>
-                    <note place="end">
-                        <p rend="Endnote Text"> [page numbering] SH left aligned odd number</p>
-                    </note>
+                    <!-- NOTE [page numbering] left aligned odd number-->
                 
                  Bodie; humblie beggeing. &amp; beseech thy majestie that<lb/>
                      if my desolution be att hand; thou wouldest be fully<lb/>
@@ -6235,11 +6236,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      Christ Jesus the Sonne of thy love, concluding these our<lb/>
                      imperfect praiers in that most sacred praier which Christ<lb/>
                      hath taught us to present unto thee to thy Glory, &amp;<lb/>
-                     for our comfort. Saying. <hi style="font-size:16pt">Our: Father</hi>
+                     for our comfort. Saying. <hi style="font-size:16pt">Our: Father &amp;</hi>
                     <note place="end">
-                        <p rend="Endnote Text"> [text size] SH large text again.</p>
+                        <p rend="Endnote Text"> [text size] SH: larger text again.</p>
                     </note>
-                    <hi style="font-size:16pt"> &amp;</hi>
                 </p>
                 </div>
             <div>
@@ -6578,9 +6578,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <div>
                 <head>
                     -----------------------------------------------------<lb/>
-                    A thanksgiveing affter affter<note place="end">
-                        <p rend="Endnote Text"> [word] SH sic (repetition)</p>
-                    </note> my recovery. // </head>
+                    A thanksgiveing affter affter
+                        <!-- TODO sic (repetition)-->
+                     my recovery. // </head>
                 <p>-----------------------------------------------------</p>
                 <p>My song shall be alwaies of the loveing kindnesse of<lb/>
                      the Lord: with my mouth will I ever be shewing thy<lb/>
@@ -7656,7 +7656,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     
                      -----------------------------------------------------<lb/>
                      Whartons grave at Easby.<note place="end">
-                        <p rend="Endnote Text"> [insertion] SH is this last line an insertion?</p>
+                        <p rend="Endnote Text"> [insertion][check] SH: is this last line an insertion?</p>
                     </note>
                 </head>
 
@@ -7984,7 +7984,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     </note>
         
                 
-                    <hi style="font-family:Segoe UI Symbol">♡ ♡ ♡ ♡ ♡ ♡ ♡</hi>
+                    <hi style="font-family:Segoe UI Symbol">♡ ♡ ♡ ♡ ♡ ♡ ♡</hi> <lb/>
                     -----------------------------------------------------<lb/>
                     Uppon my Husband, &amp; Families Removall from St<lb/>
                      Nickolas, to OswoldChurch. neare Newton. June 11<note place="end">
@@ -10561,9 +10561,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      much dreggs of his distemper. yett had I great cause<lb/>
                      of thankefullnesse to the Lord which gave me hopes of him.<lb/>
                      &amp; that if he could have bin prevented of Cold he would remaine<lb/>
-                     well. // <note place="end">
-                        <p rend="Endnote Text"> [layout][check] SH no line break here in the MS, but i need to insert one for structure. Will need to think about this...</p>
-                    </note>
+                     well. // 
+                        <!-- Q [layout] there is no paragraph/line break here in the MS, but i need to insert one for head structure. Will need to think about this...-->
+                    
                 </p>
                 </div>
             <div>
@@ -13436,12 +13436,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     <seg rend="background(magenta)">
                     Date Octo 2<lb/>
                     1640   
+                    </seg>
+                    </note> 
                 <note place="end">
                         <p> [insertion] This insertion is in a darker ink than the rest of the text and is boxed in. NB. Entry NOT included in Anselment??</p>
                     </note>
-                    </seg>
-                    </note> it was found out &amp; our destruction<lb/>
-                    
+                    it was found out &amp; our destruction<lb/>
                     thereby Prevented:<note place="end">
                         <p rend="Endnote Text"> Not included in Anselment?</p>
                     </note>
@@ -13901,9 +13901,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 300 -->
 
-                <fw type="header">The Index of this booke. Pag<note place="end">
+                <fw type="header">The Index of this booke. Page</fw>
+                <note place="end">
                         <p rend="Endnote Text"> [layout] NB. Check images for use of curly brackets.</p>
-                    </note>e</fw>
+                    </note>
                 <p>-----------------------------------------------------</p>
                 <p>An Ellagie upon his Death by S Ch. Wivell <ref>115</ref>
                 </p>
