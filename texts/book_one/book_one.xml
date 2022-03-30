@@ -243,7 +243,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
             <fw type="pageNum">5.</fw>
             
-            <div>
+            <div rend="post(rule)">
+                <!-- NOTE [rendition keywords] 
+                    - "rule" assumed default that ruled line is full width of text. not sure if there are any shorter ones in this book (there are a few in BoR). 
+                    - use "width" as keyword if needed? 
+                    not writing &rule; as WWP does, can't quite see the point, but can always adjust it later if persuaded otherwise. -->
+                <!-- TODO [rendition keywords] review and revise BoR -->
                 <p>
                     <persName>Alice Wandesforde</persName> the fifth childe of<lb/>
                      <persName>Christopher Wandesforde Esq{uire}</persName> late <lb/>
@@ -260,7 +265,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                         <p rend="Endnote Text"> [ms]? The rest of this page is blank.</p>
                     </note>
                 </p>
-                <p>-----------------------------------------------------</p>
+                
             </div>
 
             <pb n="6"/>
@@ -377,7 +382,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <div>
                 <p>
           <fw place="margin">      
-              [+] <!-- Q how to encode symbol - a decorative sort of cross, not quite the same as the one in BoR. **also need to decide on encoding for hearts and other crosses and in other books, but also need to stop xslt changing them!**
+              [+] <!-- Q symbol - how to encode? a decorative sort of cross, not quite the same as the one in BoR. **also need to decide on encoding for hearts and other crosses and in other books, but also need to stop xslt changing them!**
                        [endnote] [decoration] A Cross in the left hand margin – looks like AT’s.
               -->
           </fw>
@@ -1194,7 +1199,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
                     <!-- Q [decoration] double horizontal lines above the header - I think *not* appropriate to treat this as text underline  -->
                    <!-- Q [text size] smaller than main text. need to discuss representation of this - how much detail? a few places in BoR too. -->
-                    <note resp="#awt1" place="left margin" rend="pre-post-rule-full-width">
+                    <note resp="#awt1" place="left margin" rend="pre-rule-full-width post-rule-full-width">
                         Acc<hi rend="superscript">.t</hi> of<lb/>
                          the Lord<lb/>
                          Deputy<lb/>
@@ -1248,7 +1253,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                 And finished a good while before. he had it <add place="above">then</add><lb/>
                      all read over to him in the presence of divers Per<add place="above">sons</add><lb/>
-                     of qualitie. as <persName>my Lord Bishop of Derrey</persName> an Exec̅<lb/>
+                     of qualitie. as <persName>my Lord Bishop of Derrey</persName> an Exec̅<!-- Q contraction? --><lb/>
                      <persName>the Earle of Ormond</persName>; the <persName>Lord Dillon</persName>, &amp; severall others<lb/>
                      Before, whome he Ratified &amp; confirmed the same<lb/>
                      declairing it publickly to be his last Will &amp;<lb/>
@@ -2773,7 +2778,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      any. still expecting returnes out of yorkeshire.
                 <!-- NOTE [margin] tagged note -->
                 <!-- Q text underline again. makes some sense for 17th, but lines above and below have been -> @rend  -->
-                    <note place="left margin" resp="#awt1" rend="pre-post-rule-full-width">July<lb/>
+                    <note place="left margin" resp="#awt1" rend="pre-rule-full-width post-rule-full-width">July<lb/>
                      <hi rend="underline">17.</hi><!-- CORRECTION 17th in image -->
                             <lb/>
                          1643
@@ -3096,7 +3101,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <!-- NOTE [margin] tagged note -->
                 <!-- Q text underline (1643) again -> @rend  -->
                 <p>
-                    <note place="left margin" resp="#awt1" rend="pre-post-rule-full-width">
+                    <note place="left margin" resp="#awt1" rend="pre-rule-full-width post-rule-full-width">
                        Aug.<lb/>
                          28<lb/>
                          1643.
@@ -3198,7 +3203,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </p>
                 <p>
                   <!-- NOTE [margin] tagged note -->
-                    <note place="left margin" resp="#awt1" rend="pre-post-rule-full-width">
+                    <note place="left margin" resp="#awt1" rend="pre-rule-full-width post-rule-full-width">
                       Sept.<hi rend="superscript">ber</hi> <lb/>
                        2<hi rend="superscript">d</hi> <lb/>
                        1643
@@ -3214,8 +3219,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                    
                     <note place="left margin" resp="#awt1" style="writing-mode: vertical-rl; text-orientation: sideways-right">
                    <p>Sirfett Lobster <lb/>
-                   at Richmond <milestone unit="rule" rend="fourchars" />
-                       <!-- Q short (about 4 chars) horizontal line here, purpose unclear. similar things in BoR. best way to do these? an interesting use of <space> in tei list --></p>
+                   at Richmond <milestone unit="rule" />
+                       <!-- Q short (about 4 chars) horizontal line here, purpose unclear. similar things in BoR? best way to do these? alt: use of <space> in tei list --></p>
                 </note>
                      thither to live, till she could better dispose of her selfe,<lb/>
                      &amp; us in those troublesome times. For it beeing in the <lb/>
@@ -3235,7 +3240,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                          Soe that for a whole yeare we lived, with great comfort and<lb/>
                          safety with <persName>my sweete Sister Danby</persName> att Snape. where she<lb/>
               <!-- NOTE [margin] tagged note -->
-              <!-- Q CORRECTION? should be a line under text 11.43 -->
+              <!-- CORRECTION? should be a line under text 11.43 -->
                 <note place="left margin" resp="awt1">
                     to snape<lb/>
                          from <lb/>
@@ -3444,12 +3449,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      to thy Majestie in faith, &amp; godlinesse, all my daies<lb/>
                      for my Lord Jesus Christ. Amen. / In the yeare 1644. No.<hi rend="superscript">ber</hi> 29.</p>
                 </div>
-            <div>
+            <div rend="pre(rule)">
             <!-- NOTE [div] new div: no title or index entry, but there is a divider line and it does mark a change in narrative --> 
-                <p>-----------------------------------------------------</p>
+
                 <p>
                  After I was recruted in strength my mother went to<lb/>
-                  Live at Hipswell her Joyntyre <add place="above">with <persName>my B. George</persName> my selfe &amp; <persName>George Lightfoot</persName> &amp; <persName>Dafeny Cassell</persName>. &amp; My D. G. W. his man.</add>  
+                  Live at Hipswell her Joyntyre <add place="above">with <persName>my B. George</persName> my selfe<!-- Q tagging awt self-refs? --> &amp; <persName>George Lightfoot</persName> &amp; <persName>Dafeny Cassell</persName>. &amp; My D. G. W. his man.</add>  
                   And there she was troubled<lb/>
                 with the Scotts one while &amp; the Parliament forces annother while<lb/>
                 
@@ -3765,16 +3770,16 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      He died about the month of July: in the yeare 1646.<lb/>
                      att Keeveton in the farthest part of Yorkeshire. // .</p>
                </div>
-            <div>
-                <p>-----------------------------------------------------</p>
-                <p><persName>My Cozen Edmund Norton</persName>, Eldest son to my <persName>Uncle Norto̅</persName><!-- Q CHECK contraction --><lb/>
+            <div rend="pre(rule)">
+                
+                <p><persName>My Cozen Edmund Norton</persName>, Eldest son to my <persName>Uncle Norto̅</persName><!-- Q contraction --><lb/>
                      was married to <persName>Mr Dudly</persName>s Daughter &amp; heire of Chopwell<lb/>
                      in <add place="above">the</add> Bishoprick of <add place="above">Durham</add> <persName>Mrs Jane Dudly</persName> an excelent fine<lb/>
                      &amp; good gentlewoman. Feb. 10<hi rend="superscript">th</hi> 1647. att Chopwell.//</p>
             </div>
             
-            <div>   
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule) post(rule)">   
+                
                 <p><persName>My Cosen Edmund Norton</persName> died of a Plurisie att Yorke<lb/>
                      the 30<hi rend="superscript">th</hi> of November: 1648. A gentleman of a sweete good<lb/>
                      disposittion to all, obedient &amp; dutifull to his parents &amp; true<lb/>
@@ -3784,7 +3789,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      to all, died Religiously, &amp; is I hope now very happie in<lb/>
                      peace &amp; rest, loving a peaceable temper. &amp; was beloved of<lb/>
                      all that knew him <add place="above">&amp;</add> An unmeasurable losse to his Parents.//</p>
-                <p>-----------------------------------------------------</p>
+                
         </div>
                 <pb n="93"/>
 
@@ -3928,9 +3933,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      whome be all thankes, Praise hon{our} and dominion for<lb/>
                      Ever &amp; ever. Amen. Amen.</p>
              </div>
-            <div>
-                <p>-----------------------------------------------------</p>
-                <p><persName>My Cosen Julian Horton</persName> died at Richmond greene<lb/>
+            <div rend="pre(rule)">
+                
+                <p>
+                    <persName>My Cosen Julian Horton</persName> died at Richmond greene<lb/>
                      at her fathers the 9 of Aprill. 1649. ://:</p>
              </div>
             <div>
@@ -4732,8 +4738,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <l>Did, by devine-Power, on the third day Rise.</l>
                 <l>To open a neare-way to Paradise. / Cwyvill.</l>
            </div>
-            <div>
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                
                 <p>When the determinate will of our God is shewed towards<lb/>
                      us, it is then, our duties, quietly, to sitt downe &amp; patien<lb/>
                      tly to Acquiesse our desires to his devine pleasure.<lb/>
@@ -4794,20 +4800,20 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      and thankfull to his gracious, Majestie for Ever. Amen.</p>
                </div>
             
-            <div> 
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)"> 
+                
                 <p><persName>My Cosen mary Yorke</persName>, was married to <persName>Mr John York</persName><lb/>
                      at her fathers house, my <persName>uncle norton</persName>s on the Greene<lb/>
                      in Richmond Aprill the 12<hi rend="superscript">th</hi> 1651.</p>
               </div>
             
-            <div>  
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule) post(rule)">  
+                
                 <p><persName>My brother Christopher Wandesforde</persName>, married<lb/>
                      <persName>Sir John Lowther</persName>s Daughter <persName>Mrs Eleanor</persName> the Eldest<lb/>
                      Daughter, at Sir Johns House (Lowther in Westmo-<lb break="no"/>
                      oreland) the 30<hi rend="superscript">th</hi> of September 1651.</p>
-                <p>-----------------------------------------------------</p>
+                
                 </div>
 
                 <pb n="117"/>
@@ -5097,7 +5103,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      promise to my Mother, &amp; <add place="above">his</add> infinitt expressions to my selfe I <lb/>
                      rest <add place="above">ed</add> upon Providence in the fullfilling of his desire. in <lb/>
                      soe much that about the December following proceeded our marri{age}<note place="end">
-                        <p rend="Endnote Text"> [contraction][check] SH: contraction line over marrig  was typed not {} ? <!-- Q (problem characters?) --></p>
+                        <p rend="Endnote Text"> [contraction][check] SH: contraction line over marrig  was typed not {} ? <!-- Q contraction (problem characters?) --></p>
                     </note>
                     <lb/>
                      this is the true relation of this grand conserne of my life, which<lb/>
@@ -5917,8 +5923,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </p>
                </div>
             
-            <div>
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                
                 <p><persName>My mother Gates</persName>, who was my husbands mother; died<lb/>
                      att Oswoldkirke of a flux of blood by seige. as it was<lb/>
                      suposed to have a veine broaken inwardly which by fitts<lb/>
@@ -5931,8 +5937,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </p>
            </div>
             
-            <div> 
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)"> 
+                
                 <p>My Husbands Father in Law <persName>Mr Geffery Gates</persName> died.<lb/>
                      att Hull the 18<hi rend="superscript">th</hi> of May. 1655. &amp;, was buried at Hull the<lb/>
                    <subst> 
@@ -5940,9 +5946,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     <add place="above">next</add>
                    </subst> 
                     day: May: 19<hi rend="superscript">th</hi> 1655. <hi rend="italic">#</hi><!-- Q italic -->.</p>
-                <p>-----------------------------------------------------</p>
+                
            </div>
-            <div>
+            <div rend="pre(rule)">
                 <p><persName>My brother Richeard Thornton</persName> died in Dublin. in Ireland<lb/>
                      of the Flux the 3<hi rend="superscript">d</hi> of July 1656. &amp; was buried in St Patricks<lb/>
                      Church the 4<hi rend="superscript">th</hi> July. 1656. This gentleman beeing twin with<lb/>
@@ -6123,8 +6129,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <p> Amen.</p>
              
              </div>
-            <div>
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                
                 <p>After which humble pettitions it Pleased our gracious Father<lb/>
                      to grant our requests in a great measure for my paines of<lb/>
                      travill increased, and although I endured hard Labour<lb/>
@@ -7037,7 +7043,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <!-- NOTE [margin] tagged note -->
                 <!-- Q [decoration] removed text underline and replaced with @rend - there are lines above *and* below the marginal text -->
                  <!-- NOTE last two letters of "widdow" overlap main text -->
-                    <note place="left margin" resp="#awt1" rend="pre-post-rule-full-width">
+                    <note place="left margin" resp="#awt1" rend="pre-rule-full-width post-rule-full-width">
                         19<lb/>
                         yers A<lb/>
                         widdow 
@@ -7110,11 +7116,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  <p>The relattion of her sicknesse heere followes. //.</p>
                 
                </div>
-            <div>
-                <p>-----------------------------------------------------<note place="end">
+            <div rend="pre(rule)">
+                <note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
-                </p>
+                
                 <p>It pleased God to vissitt my Deare &amp; hon{oured} mother<lb/>
                      The <persName>Lady Wandesford</persName>, with her last sickenesse. uppon<lb/>
                      friday the 17<hi rend="superscript">th</hi> of november 1659 beginning then with an<lb/>
@@ -7585,7 +7591,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             </div>
             <div>
                 <head place="centre">
-               <!-- Q how to handle the three prayers. split into subsections? different layout -->
+               <!-- Q [div] how to handle the three prayers. split into subsections? different layout -->
                     -----------------------------------------------------<lb/>
                     Severall Prayers made by my Mother proper for the<lb/>
                      time of the holy sacrament. as Ejaculations.</head>
@@ -8303,9 +8309,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     </note>
                 </p>
                </div>
-            <div>
+            <div rend="pre(rule)">
               <!-- NOTE [div] new div: no section title but has index entry and there is a divider line  --> 
-                <p>-----------------------------------------------------</p>
+                
                 <p>Affter this inestimable &amp; wonderfull mercy, in my grac--<lb break="no"/>
                      --ious Gods giveing me sattisfaction in my doubts &amp; in putt<lb/>
                      ing to flight that old serpent the Devill, from doeing more har<lb break="no"/>
@@ -9024,9 +9030,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      both in soule &amp; bodie. The Liveing shall praise thee in Heaven<lb/>
                      &amp; Earth for ever: Amen. //.</p>
                 </div>
-            <div>
+            <div rend="pre(rule)">
                 <!-- NOTE [div] new div: no section title or index entry, but there is a divider line and possible? narrative change  -->
-                <p>-----------------------------------------------------</p>
+                
                 <p><persName>My Son Robert</persName> was baptized on Satterday the 20<hi rend="superscript">th</hi> of<lb/>
                      September 1662 by <persName>Mr Luckock</persName> att our House in Easte<lb/>
                      Newton <add place="above">in</add> my owne Chamber, where the Lord gave me opportunity<lb/>
@@ -9468,7 +9474,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
             <div>
                 <head>
-                    Of my dangerous sickenesse: August 8 <add place="above">16th</add><!-- Q CORRECTION? check with transcriber I think 8 should be deletion? --> 1666.</head>
+                    Of my dangerous sickenesse: August 8 <add place="above">16th</add><!-- CORRECTION? check with transcriber I think 8 should be deletion? --> 1666.</head>
                 <p>-----------------------------------------------------<note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
@@ -9587,8 +9593,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      upon those words in St Matt. 9<seg rend="background(green)">:</seg> v. 21, 22. Luke. the 17<seg rend="background(green)">:</seg> v. 15. 16.</p>
               </div>
             
-            <div>           
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">           
+                
                 <p>After these weaknesses seized soe extreamly upon my Person<lb/>
                      with such violency &amp; danger to my life, I could not be insensable<lb/>
                      of my daily decay &amp; dieing condittion: which these frequent<lb/>
@@ -9692,8 +9698,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      -dences many fold to me &amp; mine. Praise the Lord o my Soule<lb/>
                      and forgett not all his benifitts. Amen.</p>
                 </div>
-            <div>
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                
                 <p>About the 2<hi rend="superscript">d</hi> of September: <hi rend="underline">1666</hi> began the great fire<lb/>
                      in London, which in 4 daies time consumed 13200 houses<lb/>
                      89 Churches. &amp;: with out the miraculous Providence<lb/>
@@ -10002,11 +10008,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      Sicknesse.</p>
                 </div>
             
-            <div>
-                <p>-----------------------------------------------------<note place="end">
+            <div rend="pre(rule)">
+                <note place="end">
                         <p rend="Endnote Text"> [decoration] Double line here.</p>
                     </note>
-                </p>
+                
                 <p>It Pleased God, affter <persName>my sonne Robert</persName> was well. to<lb/>
                      vissitt my daughter <persName>Alice Thornton</persName>. which began <del rend="doublestrikethrough">in her<lb/>
                          sleepe</del> with annother dangerous fitt in her sleepe. which much<lb/>
@@ -10026,7 +10032,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                     <fw type="pageNum">227</fw>
                 
-            <div>
+            <div rend="post(rule)">
                 <head>
                     My daughter <persName>Alice Thornton</persName> her Smale Pox Jan.<hi rend="underline">2, 67.</hi>
                 </head>
@@ -10067,7 +10073,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      accept I beseech my gratefull &amp; humble <hi style="font-family:Segoe UI Symbol">♡</hi> which had com-<lb break="no"/>
                      passion upon thy Servants &amp; our Child. Lett us all live to<lb/>
                      be instruments to thy Glory &amp; hon{our} heere &amp; heere affter: Amen.</p>
-               <p>-----------------------------------------------------</p>
+               
                </div>
      
                 <pb n="226"/>
@@ -10091,11 +10097,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      the Pox apeared the feaver abated &amp; he recovered very<lb/>
                      fast haveing but a few. blessed be God for his deliverance.</p>
             </div>
-            <div>
-                <p>-----------------------------------------------------<note place="end">
+            <div rend="pre(rule)">
+                <note place="end">
                         <p rend="Endnote Text"> [decoration] Double line here.</p>
                     </note>
-                </p>
+                
                 <p>The 8<hi rend="superscript">th</hi> of Aprill: <hi rend="underline">1667</hi> <persName>Nally</persName> had a Pearle on her Eye<lb/>
                      affter the smale Pox. which indangered the losse of her sight<lb/>
                      But by waters. &amp; a meadicien to the wrests of her Arms<lb/>
@@ -10105,11 +10111,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      favours to me &amp; mine. O that these might sett forth his<lb/>
                      praises for ever more Amen. //</p>
              </div>
-            <div>
-                <p>-----------------------------------------------------<note place="end">
+            <div rend="pre(rule)">
+                <note place="end">
                         <p rend="Endnote Text"> [decoration] Double line here.</p>
                     </note>
-                </p>
+                
                 <p>In the yeare <hi rend="underline">1659</hi> when I was att St Nickolas. affter the<lb/>
                      death of my deare mot{her} <persName>Kate Thornton</persName> was preserved<lb/>
                      from choakeing with a pin which gott crosse her throat. which by<lb/>
@@ -10120,11 +10126,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      breath was stopt. &amp; almost dead. att Oswoldkirke. <hi rend="underline">1661.</hi>
                 </p>
             </div>
-            <div>
-                <p>-----------------------------------------------------<note place="end">
+            <div rend="pre(rule)">
+                
+                    <note place="end">
                         <p rend="Endnote Text"> [decoration] Double line here.</p>
                     </note>
-                </p>
+
                 <p>About the yeare when <persName>Kate</persName> was 10 yeares old plaing with<lb/>
                      her cosens in Newton Barne &amp; swing crosse by a Rope she<lb/>
                      gott soe high a fall by his swinging her from him. (J. D) that<lb/>
@@ -10155,11 +10162,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      &amp; understanding. give her &amp; us all grace never to for <lb/>
                      gett these wonderfull mercys to our soules &amp; bodies. Amen: //</p>
            </div>
-           <div>
-                <p>-----------------------------------------------------<note place="end">
+            <div rend="pre(rule) post(rule)">
+                <note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border </p>
+                    <!-- TODO patterned border pre *and* post -->
                     </note>
-                </p>
+
                 <p>It was the permition of God, for the affliction of us all, in<lb/>
                      the losse of soe brave a Gentleman. to lett a dismall stroake<lb/>
                      fall heavy upon the Person of <persName>my Nephew Thomas Danby</persName>.<lb/>
@@ -10190,10 +10198,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      &amp; was convicted in Consience never apeared affter. but died<lb/>
                      very penitent. he died in London neare Grayse Inne August<lb/>
                      the first; in the yeare 1667.</p>
-                <p>-----------------------------------------------------<note place="end">
+                
+                    <note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
-                </p>
+                
                 </div>
 
                 <pb n="228"/>
@@ -10310,8 +10319,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 His God fathers &amp; God mother were <persName>my Bro Dento</persName>n<lb/>
                      <persName>my brother Portington</persName>. &amp; <persName>Mrs Anne Danby</persName>. // .</p>
             </div>
-            <div>
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                
                 <p>Affter this comfort of my Childe I recovered something<lb/>
                      of my weakeness, better: recovering my breasts &amp;<lb/>
                      milke. &amp; giveing sucke, when he thrived very well<lb/>
@@ -10425,8 +10434,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      I will magnifie thee o blessed Trinity fore ever.</p>
                 <p>Amen. Amen.</p>
           </div>
-          <div>
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                
                 <p>After the recovery of my health &amp; strength againe<lb/>
                      I had returned another affliction; which was not at that<lb/>
                      time soe heavy when I was sicke my selfe, I blesse God<lb/>
@@ -12393,11 +12402,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      addoration, &amp; thanksgiving of men &amp; Angells. hence forth<lb/>
                      &amp; for Ever more. Amen. &amp; Amen.</p>
             </div>
-            <div>
-                <p>-----------------------------------------------------<note place="end">
+            <div rend="pre(rule)">
+                
+                    <note place="end">
                         <p rend="Endnote Text"> [decoration] Patterned border.</p>
                     </note>
-                </p>
+          
                 <p>My dear Husband, went to Malton to <persName>my Sister <lb/>
                      Portington</persName>s on friday the 11<hi rend="superscript">th</hi> of September 1668 being<lb/>
                      in health much as of late pretty well of his infirmity.<lb/>
@@ -12497,8 +12507,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      Funerall Sermon. The Text was in Ecclesiast{es} 12<hi rend="superscript">th</hi> v. 1<hi rend="superscript">st</hi><lb/>
                      Remember now thy Creator in the daies of thy youth: &amp;c.<lb/>
                      applieing it fittly to that: Occasion. //.</p>
-               <epigraph> 
-                   <p>-----------------------------------------------------</p>
+                <epigraph rend="pre(rule)"> 
+                   
                 <p>Lord hee loves thee the lesse. that loves any thing with<lb/>
                      thee, which he loves not for thee. (St Austin). // .</p>
                 </epigraph>
@@ -12738,8 +12748,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      Sett your affections on heaven above, &amp; not on Earth.<lb/>
                      for where your Treasure is there will your heart be allso.</p>
                </div>
-            <div>
-                   <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                   
                 <p> The Just shall live by faith. //</p>
                 <p>Mr Thorntons motto &amp; my owne.</p>
                 <p>Nisi Christus Nemo:]<note place="end">
@@ -12750,8 +12760,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <p>Tour pour le' Eglize:] All for the Church}</p>
                 <p>Annagrame.</p>
                </div>
-            <div>
-                   <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                   
                 <l>Christ and his Church, in love soe well agr’eed.</l>
                 <l>That hee for her, and She for him, has bl’eed.</l>
                 <l>Thus imitate thy Saviour, in his fervent love,</l>
@@ -12810,8 +12820,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <l>Then lett us hold, the blisse of gracious minde.</l>
                 <l>Since this wee feele. greatt losse we cannot finde.</l>
             </div>
-            <div>
-                <p>----------------------------------------------------- </p>
+            <div rend="pre(rule)">
+                
                 <l>O Death I will be thy Death. O Grave I will be thy</l>
                 <l>Victory. thanks be to God: through our Lord Jesus Christ.</l>
             </div>
@@ -12831,15 +12841,15 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <l>Grow rich in grace, which never taketh Rust:</l>
                 <l>What ever fades, but faiding pleasure brings.</l>
             </div>
-            <div>
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                
                 <l>Draw in thy beames, and humble all thy might.</l>
                 <l>To that sweete yoake, where lasting freedomes be.</l>
                 <l>Which breakes the Clouds, and opens forth the light</l>
                 <l>That doth both shine, and gives us sight to see.</l>
             </div>
-            <div>
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                
                 <l>O take fast hold, lett that light by thy guide</l>
                 <l>In this smale course, which birth drawes out to death</l>
                 <l>And thinke how Evill become’th him to slide,</l>
@@ -12980,7 +12990,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                     <fw type="pageNum">285.</fw>
                 
-                <p>-----------------------------------------------------</p>
+                <p>-----------------------------------------------------<!-- Q handling this ruled line. milestone? --></p>
                 <l>If wronged, he only is my Right.</l>
                 <l>If sad, he, is my Joy, &amp; Soules delight;</l>
                 <l>In Summe and all, All only hee;</l>
@@ -13759,26 +13769,26 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      God of heavn by all the Power of men &amp; Angells for evr.<lb/>
                      o lett me live to thy glory &amp; serve thy majety for Eer Amn.</p>
             </div>
-            <div> 
-                <p>-----------------------------------------------------<note place="end">
+            <div rend="pre(rule)"> 
+                <note place="end">
                         <p rend="Endnote Text"> Summaries of previous entries – a form of ‘index’, i.e., addition to list of contents?</p>
                     </note>
-                </p>
+                
                 <p>A remembrance of a great deliverance I had<lb/>
                      from drowning as I was goeing over the River<lb/>
                      Swale to St nickolas to my <persName>Aunt Norton</persName>s. when<lb/>
                      A flood came downe on me, &amp; <persName>Ralph J.anson</persName>.<lb/>
                      in the yeere. 1646.</p>
              </div>
-            <div>
-                 <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                 
                 <p>A very great deliverance of me as I was goeing over<lb/>
                      the River att midlam when <persName>my Sistr Danby</persName> laid in of<lb/>
                      one of her Sons calld <persName>francis</persName> &amp; was att midlam Castle<lb/>
                      in the yeare 1644</p>
              </div>
-            <div>
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                
                 <p>A great deliverance of me from beeing destroyd<lb/>
                      with a cannon Bullett att weschester beeing besseged<lb/>
                      by <persName>Sir will.<hi rend="superscript">m</hi> Brewerton</persName>s Army they shift into the Town<lb/>
@@ -13795,8 +13805,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      of mercy &amp; brought us safe into our owne Country York<lb/>
                      shere.</p>
              </div>
-            <div>
-                <p>-----------------------------------------------------</p>
+            <div rend="pre(rule)">
+                
                 <p>A great delivrance from the violence of a<lb/>
                      Rape from <persName>Jerimy Smithson</persName>. <persName>Sir 
                   <subst>   
@@ -14132,11 +14142,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                 <head>Uppon the reconsiling of my two Brothers<lb/>
                      <persName>George</persName> &amp; <persName>Christopher Wandesford</persName>. March 
-                <w><!-- Q is there a separate tag for "a number"; want to ensure these digits are kept together as one number. can't put the unchanged 9 inside subst. -->
+                <num>
                   <subst>
                     <del rend="strikethrough">2</del><add place="above">1</add>
                   </subst>9
-                </w>     
+                    <!-- NOTE tagged <num> to keep these digits together as a number. (can't put the unchanged 9 inside subst.) -->
+                </num>     
                     <lb/>
                      on Easter Eve — before <persName>my bro. G</persName> was lost</head>
                 <p>-------------------1651------------------------------------</p>
