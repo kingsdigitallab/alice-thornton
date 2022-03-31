@@ -344,11 +344,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <!-- Page 8 -->
 
                 <fw type="pageNum">8.</fw> <lb/>
-                <fw type="header">A preservation in the Meassells.</fw><lb/>
+                    <fw type="header" rend="post(rule)">A preservation in the Meassells.</fw><lb/>
                     <!-- Q [tag choice] fw rather than head because it's not at the beginning of the section and so wouldn't be valid tei. BUT it is really the title for the section...
                         [endnote] NB. Despite the title at the top of the page, the details of the ‘preservation’ only begins part way down the page, which is where the ‘main body’ of the text proper begins.
                 -->
-                -----------------------------------------------------<lb/>
+                
 
                 Of grace, &amp; Religion instill’d into me with my milke.<lb/>
                      Therefore. shall I begin with the first mention of my <lb/>
@@ -407,9 +407,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
                 
                     <fw type="pageNum">9. </fw>
-                    <fw type="header">From the Smale Pox.</fw><lb/>
+                    <fw type="header" rend="post(rule)">From the Smale Pox.</fw><lb/>
                     <!-- NOTE header is not a section title -->
-                -----------------------------------------------------<lb/>
                 
                 That I was spaired from death at that time, and<lb/>
                      by his blessing, uppon the use of good meanes was <lb/>
@@ -570,9 +569,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <!-- Page 13 -->
 
                 <fw type="pageNum">13.</fw> <lb/>
-                <fw type="header" place="centre"> 33. 34. 35.</fw><lb/>
+                    <fw type="header" place="centre" rend="post(rule)"> 33. 34. 35.</fw><lb/>
                     <!-- NOTE header is not a section title -->
-                -----------------------------------------------------<lb/>
+                
                 Teachings. Reproofes, &amp; Godly Education, tending to <lb/>
                      the wellfaire, &amp; Etternall happinesse, &amp; salvation<lb/>
                      of my poore Soule. Which I receaved from both <rs>my Hon{oured}<lb/>
@@ -647,17 +646,17 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     <fw type="pageNum">15.</fw>
                 
             <div>
-                <head>
+                <head rend="post(rule)">
                     <!-- Q should the year be part of head or separate fw? or fw inside head? -->
                     <fw rend="underline">1639.</fw><lb/>
                     
                 A deliverance from Ship-Rack in A Passage into<lb/>
                      -----------------------------------------------------<lb/>
-                    <!-- TODO unusual title (rule) -->
+                    <!-- Q unusual (rule) needs discussion -->
                      Ireland with <rs>my Mother</rs>, <rs>brother</rs>, &amp; 2 Nephewes.<lb/>
                      <persName>Thomas</persName> &amp; <persName>Christopher Danby</persName>. In the yeare: 1639.
                 </head>
-                <p>-----------------------------------------------------</p>
+                
                 <p>having<!-- CORRECTION "Having" in image --> come over into England, when my Mother<lb/>
                      came for her cure of the dissease of the Stone to the Bat-<add place="above">hes</add><lb/>
                      &amp; Bristoll water, St Vincents well; (uppon which Rose<lb/>
@@ -752,7 +751,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <head place="centre">
                     A thankesgiveing for our deliverances.<lb/>
                      -----------------------------------------------------<lb/>
-                    <!-- TODO another unusual title (rule) -->
+                    <!-- Q another unusual title (rule) -->
                      affter our dangerous passage by Sea:<lb/>
                      August the 23<hi rend="superscript">d</hi> 1639. into Ireland.<lb/>
                      Psallme 107. 1<hi rend="superscript">st</hi> 5.
@@ -7600,14 +7599,17 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <p>Amen.</p>
             </div>
             <div>
-                <head place="centre">
-               <!-- Q [div] how to handle the three prayers. split into subsections? different layout -->
-                    -----------------------------------------------------<lb/>
+               <!-- Q [div] how to handle the three prayers. split into subsections. -->
+                <head place="centre" rend="pre(rule) post(rule)">
+                    
                     Severall Prayers made by my Mother proper for the<lb/>
-                     time of the holy sacrament. as Ejaculations.</head>
-                <p>-----------------------------------------------------</p>
-                <p>Before receaving of the bread.</p>
-                <p>-----------------------------------------------------</p>
+                     time of the holy sacrament. as Ejaculations.
+                </head>
+                
+                
+                <div>
+                    <head place="centre" rend="post(rule)">Before receaving of the bread.</head>
+                
                 <p>O most gracious God. which hath Sacrificed thine<lb/>
                      only begotten sonne to appease thy just wrath for<lb/>
                      my sinnes, &amp; to ransome my Soule from hell; Sealle<lb/>
@@ -7618,8 +7620,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      Deare Saviour; my Sinnes past, &amp; present, may<lb/>
                      be remitted &amp; forgiven, as verily, as I shall now be<lb/>
                      pertaker of this blessed Sacrament. Amen.</p>
-                <p>-----------------------------------------------------</p>
-                <p>Before Receaving of the wine. affter consecration</p>
+               </div>
+               <div>     
+                <!-- TODO [decoration] pre rule is thicker line -->
+                    <head rend="pre(rule) post(rule)">Before Receaving of the wine. affter consecration</head>
 
                 <pb n="177"/>
 
@@ -7640,9 +7644,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
                         <p rend="Endnote Text"> [decoration] Flourish after ‘Amen’.</p>
                     </note>
                 </p>
-                <p>-----------------------------------------------------</p>
-                <p>After both bread &amp; wine.</p>
-                <p>-----------------------------------------------------</p>
+              </div>
+              <div>     
+                
+                  <head place="centre" rend="pre(rule) post(rule)">After both bread &amp; wine.</head>
+                
                 <p>Grant O, Mercyfull Redeemer as thou hast vouch-<lb break="no"/>
                      -safed me to sitt att thy Table, and be partaker of thy<lb/>
                      Pretious Bodie &amp; Blood, soe my sinfull soule may be<lb/>
@@ -7661,6 +7667,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      by a holy, Pious, &amp; charitable conversation before<lb/>
                      thee all the daies of my Life.</p>
                 <p>Amen. &amp;. Amen.</p>
+              </div>
           </div>
           <div>
               <head rend="pre(rule) post(rule)">
@@ -13002,7 +13009,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                     <fw type="pageNum">285.</fw>
                 
-                <p>-----------------------------------------------------<!-- Q handling this ruled line. milestone? --></p>
+                <p>-----------------------------------------------------
+                    <!-- Q handling this ruled line. lg? div? milestone? --></p>
                 <l>If wronged, he only is my Right.</l>
                 <l>If sad, he, is my Joy, &amp; Soules delight;</l>
                 <l>In Summe and all, All only hee;</l>
@@ -13846,9 +13854,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                         <p rend="Endnote Text"> [page numbering] At does not provide page numbers for her ‘Index’, but does so for the entries she has added in. </p>
                     </note>
                 </p>
-                <fw type="header">The Index of this booke. <hi rend="underline">Page.</hi>
+                <fw type="header" rend="post(rule)">The Index of this booke. <hi rend="underline">Page.</hi>
                 </fw>
-                <p>-----------------------------------------------------</p>
+                
                 <p>Bishopp Halls observations <ref>1</ref>
                 </p>
                 <p>A Prayer, the Dedication <ref>3</ref>
@@ -13925,11 +13933,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 300 -->
 
-                <fw type="header">The Index of this booke. Page</fw>
+                <fw type="header" rend="post(rule)">The Index of this booke. Page</fw>
                 <note place="end">
                         <p rend="Endnote Text"> [layout] NB. Check images for use of curly brackets.</p>
                     </note>
-                <p>-----------------------------------------------------</p>
+               
                 <p>An Ellagie upon his Death by S Ch. Wivell <ref>115</ref>
                 </p>
                 <p>Observation of Gods goodnesse in my deare</p>
@@ -13977,8 +13985,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 301 -->
 
-                <fw type="header"> The Index of this booke. Page.</fw>
-                <p>-----------------------------------------------------</p>
+                <fw type="header" rend="post(rule)"> The Index of this booke. Page.</fw>
+                
                 <p>The death of my 3<hi rend="superscript">d</hi> Childe Eliz. Thornton <ref>149</ref>
                 </p>
                 <p>A Praier upon her death <ref>150</ref>
@@ -14025,8 +14033,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 302 -->
 
-                <fw type="header"> The Index of this booke. Page.</fw>
-                <p>-----------------------------------------------------</p>
+                <fw type="header" rend="post(rule)"> The Index of this booke. Page.</fw>
+                
                 <p>Uppon our removall to Newton. June 10<hi rend="superscript">th</hi>
                 </p>
                 <p>in the yeare 1662. 193</p>
@@ -14057,8 +14065,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 303 -->
 
-                <fw type="header"> The Index of this booke. Page.</fw>
-                <p>-----------------------------------------------------</p>
+                <fw type="header" rend="post(rule)"> The Index of this booke. Page.</fw>
+                
                 <p>Of my dangerous Sicknesse: Aug{ust} 16 1666. 216</p>
                 <p>Meditations &amp; praiers there upon 218</p>
                 <p>Considerations uppon the disposall of my</p>
@@ -14089,8 +14097,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 304 -->
 
-                <fw type="header"> The Index of this booke. Page.</fw>
-                <p>-----------------------------------------------------</p>
+                <fw type="header" rend="post(rule)"> The Index of this booke. Page.</fw>
+                
                 <p>Upon Mr Thorntons goeing to Spaw 235</p>
                 <p>A relation of Mrs Anne Danbys goeing</p>
                 <p>to Hooley &amp; several other Passages 237</p>
@@ -14119,8 +14127,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 305 -->
 
-                <fw type="header"> The Index of this booke. Pages</fw>
-                <p>-----------------------------------------------------</p>
+                <fw type="header" rend="post(rule)"> The Index of this booke. Pages</fw>
+                
                 <p>Our Saviours Command 280</p>
                 <p>Anagrame uppon Mr Thorntons</p>
                 <p>Motto, and my owne 280</p>
@@ -14163,6 +14171,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                     <lb/>
                      on Easter Eve — before <persName>my bro. G</persName> was lost</head>
                 <p>-------------------1651------------------------------------</p>
+                <!-- Q year set in ruled line (there is at least one more of these?) -->
                 <p>
                     <note place="left margin" resp="#awt1" style="writing-mode: vertical-rl; text-orientation: sideways-right">
                   <!-- NOTE [margin] tagged note -->
