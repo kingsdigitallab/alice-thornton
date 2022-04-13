@@ -1,0 +1,58 @@
+
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+local_backend: true
+
+media_folder: "11ty/assets/img"
+
+collections:
+  - name: "people"
+    label: "People"
+    folder: "11ty/people/"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{fields.firstName}} {{fields.lastName}}"
+    identifier_field: "id"
+    sortable_fields: ["firstName", "lastName"]
+    fields:
+      - { label: "ID", name: "id", widget: "string"}
+      - { label: "First Name", name: "firstName", widget: "string"}
+      - { label: "Last Name", name: "lastName", widget: "string"}
+      - { label: "Bio", name: "body", widget: "markdown"}
+  - name: "blogs"
+    label: "Blog Entries"
+    folder: "11ty/posts/blog/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Published date", name: "date", widget: "datetime"}
+      - { label: "Author", name: "author", widget: "relation", collection: "people", search_fields: ["firstname", "lastName", "id"], value_field: "id", display_fields: ["firstName", "lastName"], multiple: true}
+      - { label: "Tags", name: "tags", widget: "list"}
+      - { label: "Body", name: "body", widget: "markdown"}
+  - name: "news"
+    label: "News Items"
+    folder: "11ty/posts/news/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Published date", name: "date", widget: "datetime"}
+      - { label: "Tags", name: "tags", widget: "list"}
+      - { label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    folder: "11ty/about/"
+    create: true
+    nested:
+      depth: 100
+      summary: "{{title}}"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Published date", name: "date", widget: "datetime"}
+      - { label: "Tags", name: "tags", widget: "list"}
+      - { label: "Body", name: "body", widget: "markdown"}
+
