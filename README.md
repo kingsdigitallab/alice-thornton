@@ -14,7 +14,7 @@ To install 11ty, run the following command from within alice-thornton folder.
 
 To generate the whole static site into the _site folder.
 
-`npm run build`
+`npm run rebuild`
 
 To run it as a development server:
 
