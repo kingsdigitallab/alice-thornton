@@ -1,0 +1,90 @@
+// Palette
+$bg_page: #fbfbfb;
+$fg_nav: #ccc5c7;
+$bg_3: #d24448;
+$bg_4: #860001;
+$bg_nav: #540000;
+$bg_6: #0a0a0a;
+
+// Shared layout
+
+body {
+  background-color: $bg_page;
+}
+
+.footer {
+  background-color: $fg_nav;
+}
+
+.navbar {
+  background-color: $bg_nav;
+  color: $fg_nav;
+
+  .navbar-burger {
+    color: $fg_nav;
+    &:hover {
+      background-color: $fg_nav;
+      color: $bg_nav;
+    }
+  }
+
+  a.navbar-item {
+    color: $fg_nav;
+    
+    &.is-active {
+      border-bottom: 4px solid $bg_page;
+      color: $bg_page;
+    }
+
+    &:hover {
+      color: $bg_nav;
+      background-color: $fg_nav;
+    }
+  }
+}
+
+// /posts
+
+.post-meta {
+  font-style: italic;
+}
+
+// 
+div.content {
+  img {
+    margin: 0.5em;
+  }
+}
+
+img[src*='#right'] {
+  float: right;
+  width: 10vw;
+}
+img[src*='#left'] {
+  float: left;
+  width: 10vw;
+}
+.person {
+  display: inline-block;
+  vertical-align: top;
+  width: 10vw;
+  padding: 1em;
+}
+
+.post-summary {
+  margin-bottom: 2em;
+
+
+  .post-excerpt {
+    img {
+      float: left;
+      width: 10vw;
+    }
+  }
+
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}

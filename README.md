@@ -21,4 +21,3 @@ To run it as a development server:
 `npm run serve`
 
 Then go to [localhost:8000](localhost:8000). Each time you modify a source file, 11ty will automatically rebuild the site and refresh it in your browser.
-
