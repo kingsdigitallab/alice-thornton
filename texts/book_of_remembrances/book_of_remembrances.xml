@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="atb-book-of-remembrances">
    <teiHeader>
       <fileDesc>
          <titleStmt> 
@@ -507,7 +508,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            <lb/>
             the care &amp; deare love of my beloved &amp;<lb/>
           gracious <persName ref="ppl:awn1" n="per8">Aunt Norton</persName> upon <rs ref="ppl:cw1" n="per9" type="person">my father</rs>s<lb/>
-          going to London. It pleased God to<lb/>
+          going to <placeName n="place117">London</placeName>. It pleased God to<lb/>
           bring me into a very great weaknesse<lb/>
           &amp; sickenesse upon the accident of a surfit<lb/>
           on some ill dejested meate, causing an<lb/>
@@ -1005,7 +1006,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <milestone n="ev19" unit="event"/>
          <p><persName ref="ppl:en1" n="per48">My Cozen Edmund Norton</persName> maried<lb/>
         <persName ref="ppl:td2" n="per49">Mr Dudly</persName>s Daughter &amp; heire of.<lb/>
-        Chopwell. <persName ref="ppl:jdn1" n="per50">Jane Dudly</persName>. the <date when="1647-02-10">10<hi rend="superscript">th</hi> of<lb/>
+           <placeName n="place118">Chopwell</placeName>. <persName ref="ppl:jdn1" n="per50">Jane Dudly</persName>. the <date when="1647-02-10">10<hi rend="superscript">th</hi> of<lb/>
            February. 1647<!-- date [NS/OS] --></date>. at <placeName n="place26">Chopwell</placeName>.<!-- / div rend -->
          </p><anchor n="ev19"/>
        </div>
@@ -1191,7 +1192,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <persName ref="ppl:edg1" n="per81">my Mother Gates</persName> died at <lb/>
         <placeName n="place43">Oswoldekirke</placeName> of the voydance of<lb/>
         blood the <date when="1655-05-10"><seg rend="darkerInk">10<hi rend="superscript">th</hi></seg> day of may. 1655</date>.<lb/>
-        &amp; was buried at Stanegr<damage>av</damage>e
+      &amp; was buried at <placeName n="place119">Stanegr<damage>av</damage>e</placeName>
         <!-- msDescription [NOTE] Here there is a hole from the correction on p.25.-->
          <lb/>
          the <date when="1655-05-11">1<mod><del rend="overwritten">0</del><add place="superimposed">1</add></mod><hi rend="superscript">th</hi> of may 1655</date>.
@@ -1203,7 +1204,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <milestone n="ev32" unit="event"/>
          <p><persName ref="ppl:gg1" n="per82">my father Gates</persName> died at <placeName n="place44">Hull</placeName><lb/>
           the <date><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may 1655</date>. and was<lb/>
-          buried at hull the <date><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may<lb/>
+           buried at <placeName n="place120">hull</placeName> the <date><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may<lb/>
           1655</date><!-- / div rend -->
            <!-- [NOTE] Diagonal line below second 5 and punctuation. -->
          </p>
@@ -3388,7 +3389,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           when he could not come home because<lb/>
           of the violency of cold, &amp; the prevaling<lb/>
           distemper growing more upon him in his<lb/>
-          Jorney. so that he was forced to be at Stersby<lb/>
+             Jorney. so that he was forced to be at <placeName n="place121">Stersby</placeName><lb/>
           <persName ref="ppl:uc1" n="per215">my sister Cholmley</persName>s house.</p>
          <p>For three daies that greevious distemper<lb/>
           of the Palsey. convolsions. and feavour<lb/>
@@ -3889,7 +3890,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           <persName ref="ppl:jw1" n="per236">John Wandesford</persName> at <placeName n="place80">London</placeName> 10<hi rend="superscript">th</hi> his last <lb/>
           sicknesse beeing an Ague. a joyned with fitts<lb/>
           of the stone. &amp; some extreamitys of sickness<lb/>
-          which about the 2<hi rend="superscript">d</hi> day of December deprived<lb/>
+          which about the <date>2<hi rend="superscript">d</hi> day of December</date> deprived<lb/>
           him of his life, for severall yeares before<lb/>
           he had laid under the most sad &amp; afflicting<lb/>
           hand of God by reason of the want of the <lb/>
@@ -4196,7 +4197,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            <fw type="pageNum">113.</fw>   
          <p>
            This was don upon him in <placeName n="place85">London</placeName> neare<lb/>
-          the Grays Inne, about the August.   <lb/>
+           the <placeName n="place122">Grays Inne</placeName>, about the August.   <lb/>
             <!-- moved fw |__ -->
          in yeare <date>1667</date>.</p>
          <anchor n="ev73"/>
@@ -5570,7 +5571,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            Esq.<hi rend="superscript">r</hi> went to <placeName n="place98">Malton</placeName> to <persName ref="ppl:ftp1" n="per330">sister Portington</persName><lb/>
           on fridy the <date when="1668-09-11">11<hi rend="superscript">th</hi> of september 1668</date>. &amp;<lb/>
           was much as he used to be of late pritty<lb/>
-          well of his infirmity. went to malton Hill<lb/>
+          well of his infirmity. went to <placeName n="place123">malton Hill</placeName><lb/>
           on the next day. &amp; to church on Sunday<lb/>
           upon mundy he was not well &amp; had Pills<lb/>
           given him by <persName ref="ppl:tp1" n="per331">bro.<hi rend="superscript">r</hi> Portington</persName>. sent for <persName ref="ppl:xs2" n="per332">Mr<lb/>
