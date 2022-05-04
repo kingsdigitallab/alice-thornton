@@ -1,44 +1,76 @@
 // Palette
-$bg_page: #fbfbfb;
-$fg_nav: #ccc5c7;
-$bg_3: #d24448;
-$bg_4: #860001;
-$bg_nav: #540000;
-$bg_6: #0a0a0a;
+// See Bulma variables:
+// https: //bulma.io/documentation/customize/variables/
+
+/* 
+  GF 04/05/2022: Convention to define colour variable names.
+  We use names that are not tied to neither the specific colour
+  nor to the object they are initially tied to.
+  Initial colour palette derived from flat designs:
+  https: //www.figma.com/file/8mGkpFZTQpL7kpGCOYRgC8/Alice-Thornton?node-id=164%3A1480
+*/
+
+@import "utilities/_all.sass";
+
+$white: #fbfbfb;
+$primary: #462200;
+$secondary: #c45300;
+$accent: #df8833;
+$light: #cdcac7;
+$dark: #0a0a0a;
 
 // Shared layout
 
 body {
-  background-color: $bg_page;
+  background-color: $white;
 }
 
 .footer {
-  background-color: $fg_nav;
+  background-color: $light;
 }
 
 .navbar {
-  background-color: $bg_nav;
-  color: $fg_nav;
+  background-color: $primary;
+  color: $light;
 
   .navbar-burger {
-    color: $fg_nav;
+    color: $light;
     &:hover {
-      background-color: $fg_nav;
-      color: $bg_nav;
+      background-color: $light;
+      color: $primary;
     }
   }
 
   a.navbar-item {
-    color: $fg_nav;
+    @include touch {
+      background-color: $primary;
+    }
+
+    color: $light;
     
     &.is-active {
-      border-bottom: 4px solid $bg_page;
-      color: $bg_page;
+      border-bottom: 4px solid $white;
+      color: $white;
+    }
+
+    @include touch {
+      &.is-active {
+        background-color: $secondary;
+        border-bottom: none;
+      }
     }
 
     &:hover {
-      color: $bg_nav;
-      background-color: $fg_nav;
+      background-color: $light;
+      color: $primary;
+    }
+  }
+
+  .navbar-menu {
+    background-color: $primary;
+
+    .is-active {
+      color: $primary;
     }
   }
 }
@@ -52,18 +84,40 @@ body {
 // 
 div.content {
   img {
-    margin: 0.5em;
+    background: $light;
+    min-width: 250px;
+    padding: 5px;
   }
 }
 
 img[src*='#right'] {
   float: right;
-  width: 10vw;
+  margin-left: .5em;
 }
+
 img[src*='#left'] {
   float: left;
-  width: 10vw;
+  margin-right: .5em;
 }
+
+img[src*='#center'] {
+  display: block;
+  margin: .5em auto;
+}
+
+img[src*='#left'],
+img[src*='#right'],
+img[src*='#center'] {
+  width: 20vw;
+
+  @include mobile {
+    display: block;
+    float: none;
+    margin: .5em 0;
+    width: 100%;
+  }
+}
+
 .person {
   display: inline-block;
   vertical-align: top;

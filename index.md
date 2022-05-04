@@ -32,7 +32,7 @@ After her father's death, she married a member of the lesser gentry in North
 Yorkshire, William Thornton. They had nine children, but only three were still 
 alive when William himself died in 1668. 
 
-![Alt text]({{ "/assets/img/placeholder.jpg#left" | url }} "image of East Newton")
+![Alt text]({{ "/assets/img/placeholder.jpg#center" | url }} "image of East Newton")
 Alice continued to live at East Newton until her own death in 1707. 
 In her will she left her daughter Nally 'three Books of... my life', 
 together with all other books written in her own hand. 
