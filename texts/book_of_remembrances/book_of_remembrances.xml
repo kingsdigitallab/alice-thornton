@@ -173,6 +173,11 @@
              <name>Sharon Howard</name>
              <desc>place tagging/xslt added place IDs with @ref</desc>
            </change>
+           <change>
+             <date>2022-05-03</date>
+             <name>Sharon Howard</name>
+             <desc>date tagging mostly completed; changed date attributes in B1 and BoR to use -iso versions for more options and better match with EDTF date formats</desc>
+           </change>
          </listChange>
             
       </revisionDesc> 
@@ -2616,7 +2621,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           against my selfe &amp; poore children<lb/>
           whose Portion &amp; inheritance I trust<lb/>
           the Lord will be forever. 
-          <seg rend="italic darkerInk">Remem<hi rend="superscript">br</hi><!-- Q italic? --><lb/>
+          <seg type="insertion" rend="italic darkerInk">Remem<hi rend="superscript">br</hi><!-- Q italic? --><lb/>
           my Dreame of <persName ref="ppl:rn1" n="per170">Nettleten</persName>s Baylie this morning before<lb/>
           they came. &amp; my fall downe the staires when <persName ref="ppl:cd1" n="per171">Celia<lb/>
           Danby</persName> fell &amp; I helped hir when <persName ref="ppl:rc2" n="per172">Co. Covill</persName> was heere.</seg>
@@ -5186,7 +5191,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
            <add place="above">exceeding</add>
           </subst>
            <rs ref="ppl:wt1" n="per326" type="person">deare Husbad</rs><lb/>
-          that any creature could have. Such was<lb/>
+          that any creature could have. 
+           <!-- NOTE Book 1 new div at this point, but no visual marker/break here. hmm. -->Such was<lb/>
           my extreamity of Passion &amp; trouble<lb/>
           upon this change that I was allmost <lb/>
           changed into nothing &amp; was ready<lb/>
