@@ -422,7 +422,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 8 -->
      
-      <div>
+      <div type="prayer">
          <head>
             <fw type="pageNum">8.</fw>
             <fw type="header">Prayer.</fw>
@@ -830,10 +830,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date when-iso="1639">1639.</date>
             </fw>
          </fw>
-        <milestone n="ev10" unit="event"/>
-         <p>Having come over into <placeName ref="place:Engl_094" n="place12">England</placeName><lb/>
-          with <rs ref="ppl:aow1" n="per36" type="person">my d: mother</rs> to the bath for the stone<lb/>
-          in our returne back to <placeName ref="place:Irel_096" n="place13">Ireland</placeName> <date when-iso="1639-08-22">August<lb/>
+        
+         <p><milestone unit="event"/>Having come over into <placeName ref="place:Engl_094" n="place12">England</placeName><lb/>
+          with <rs ref="ppl:aow1" n="per36" type="person">my d: mother</rs> to the bath for the stone<anchor/><lb/>
+          <milestone n="ev10" unit="event"/>in our returne back to <placeName ref="place:Irel_096" n="place13">Ireland</placeName> <date when-iso="1639-08-22">August<lb/>
           22<hi rend="superscript">th</hi> 39</date>. I with the rest of the Ship &amp;<lb/>
           the passengers was delivired from that<lb/>
            great &amp; terable Sorme<note place="end" type="word">
@@ -857,15 +857,15 @@ The <damage> element should be used to indicate areas of damage affecting the te
         
         <milestone unit="undetermined" rend="diagonal-left-margin"/><!-- Q [rendition keywords] changed div but not milestone -->
            <!-- msDescription [NOTE] At a slight angle from margin over the top of ‘I’. -->
-         
-         <p>I had a second preservation from drown<add place="above">ing</add><lb/>
+         <anchor n="ev10"/>
+         <p><milestone unit="event"/>I had a second preservation from drown<add place="above">ing</add><lb/>
           out of the ship at that time when a<lb/>
           cable had like to have puld me into<lb/>
           the sea but for a ship man that saved<lb/>
-          me as I was halfe over. blesse the Lord<lb/>
+          me as I was halfe over.<anchor/> blesse the Lord<lb/>
           o my soule &amp; forget not the deliveranc<lb/>
             Amen. </p>
-        <anchor n="ev10"/>
+        
         </div> 
     
        <!-- year 1640 -->
@@ -912,7 +912,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <p rend="Endnote Text">
               Second ‘s’ could be an e.</p>
             </note>d with frights &amp; Alarms<lb/>
-          for 14 daies after till <rs ref="ppl:aow1" n="per38" type="person">my mother</rs> did<lb/>
+          for 14 daies after<anchor n="ev13"/> till <rs ref="ppl:aow1" n="per38" type="person">my mother</rs> did<lb/>
            get over with all her family to <placeName ref="place:Ches_012" n="place19">Weschest<add place="above">er</add></placeName>
             <lb/>
           which blessed be God in great &amp; wonderfull<lb/>
@@ -920,7 +920,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            <placeName ref="place:Beer_003" n="place20">Neston Beere</placeName>
              <!-- [NOTE] Not sure this is an ‘s’ MS looks more like an ‘i’. [looks like s to me!] -->
              house. from thence to the<lb/>
-          <placeName ref="place:Ches_012" n="place21">City of Chester</placeName></p><anchor n="ev13"/>
+          <placeName ref="place:Ches_012" n="place21">City of Chester</placeName></p>
       </div>   
             <pb n="22"/>
 
@@ -1130,11 +1130,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
           about the <date when-iso="1652-08-06">6<hi rend="superscript">th</hi> of August 1652</date> &amp; miscar=<lb break="no"/>
           =ried of <rs ref="ppl:xt1" n="per68" type="person">my first Childe</rs> beeing a<lb/>
           daughter the <date when-iso="1652-08-27">27<hi rend="superscript">th</hi> of the same August 1652</date><lb/>
-          being friday. &amp; she was buried at<lb/>
-          <placeName ref="place:Easb_018" n="place38">Easby Church</placeName> neare <placeName ref="place:Rich_043" n="place39">Rich:</placeName> the next morn<lb break="no"/>
-          ing: <seg rend="differentInk">the efects of which sicknesse lasted by<lb/>
+          being friday. &amp; <milestone unit="event"/>she was buried at<lb/>
+          <placeName ref="place:Easb_018" n="place38">Easby Church</placeName> neare <placeName ref="place:Rich_043" n="place39">Rich:</placeName> <date>the next morn<lb break="no"/>
+          ing:</date><anchor/> <milestone unit="event"/><seg rend="differentInk">the efects of which sicknesse lasted by<lb/>
           an Ague. feaver, &amp; Jaundies 3 q<hi rend="superscript">rters</hi> of a <lb/>
-           yeare: at <placeName ref="place:Hips_022" n="place40">hipswell</placeName>.</seg></p>
+           yeare:<anchor/> at <placeName ref="place:Hips_022" n="place40">hipswell</placeName>.</seg></p>
         <anchor n="ev28"/>
        </div>
       <!-- year 1654 -->   
@@ -6045,7 +6045,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="163"/>
 
 <!-- Page 163 -->
-<div>
+<div type="prayer">
          <head>
            <fw type="pageNum" rend="underline">
                163.
@@ -6912,7 +6912,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <p>
           It was my dear <del rend="strikethrough">Husban</del><lb/> 
           <rs ref="ppl:wt1" n="per391" type="person">Husbands</rs> misfortune to enter<lb/>
-          uppon the Assignment of <persName ref="ppl:tbd-norton" n="per392">Mr Norton</persName><lb/>
+          uppon the Assignment of <persName ref="ppl:mn1" n="per392">Mr Norton</persName><lb/>
           of the Irish Estate of <rs ref="ppl:cw1" n="per393" type="person">my d. fathr</rs> by<lb/>
           the advce of his <persName ref="ppl:rd1" n="per394">uncle Darley</persName> as that<lb/>
           he might have had more power to<lb/>
