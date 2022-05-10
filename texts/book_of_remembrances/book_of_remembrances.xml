@@ -178,6 +178,11 @@
              <name>Sharon Howard</name>
              <desc>date tagging mostly completed; changed date attributes in B1 and BoR to use -iso versions for more options and better match with EDTF date formats</desc>
            </change>
+           <change>
+             <date>2022-05-10</date>
+             <name>Sharon Howard</name>
+             <desc>events tagging. added @n to div tags</desc>
+           </change>
          </listChange>
             
       </revisionDesc> 
@@ -291,7 +296,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           <!-- [NOTE] Looks overwritten, possible meant to be 2 given that next number is 3, also for a recto leaf (looks like a 2 underneath).-->
          </fw>
      
-     <div rend="post(diagonal)">
+     <div n="div1" rend="post(diagonal)">
        <p>
          <milestone n="ev1" unit="event"/>
          <persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the<lb/>
@@ -326,7 +331,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <fw type="pageNum" place="right">3
              <!-- [NOTE] Repeated page number, verso of leaf is blank.-->  
          </fw>
-         <div type="poetry">
+         <div n="div2" type="poetry">
          <l>Lord guide my heart,</l>
          <l>and give my Soule directions:</l>
          <l>Subdue my passions</l>
@@ -348,7 +353,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="4"/>
 
 <!-- Page 4 -->
-     <div>
+     <div n="div3">
        <fw>[4]</fw>
 <!-- Q page number apparently present but not transcribed [no image to check] -->
       <!-- [NOTE] blank – but it is numbered in the top left-hand corner. 
@@ -359,7 +364,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 5 -->
 <!-- [NOTE] From here pagination is continuous.-->   
-    <div type="poetry">
+    <div n="div4" type="poetry">
          <head>
             <fw type="header" rend="underline">Dedication</fw>
             <fw type="pageNum">5</fw>
@@ -390,7 +395,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="6"/>
 
 <!-- Page 6 -->
-      <div type="poetry">
+      <div n="div5" type="poetry">
          <head>
             <fw type="pageNum">6.</fw>
             <fw type="header">Prayer.</fw>
@@ -407,7 +412,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="7"/>
 
 <!-- Page 7 -->
-     <div>
+     <div n="div6">
          <head>
            <fw type="header">observations.</fw>
          <fw type="pageNum" place="right"> 7</fw>
@@ -430,7 +435,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 8 -->
      
-      <div type="prayer">
+      <div n="div7" type="prayer">
          <head>
             <fw type="pageNum">8.</fw>
             <fw type="header">Prayer.</fw>
@@ -451,7 +456,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 9 -->
          
-         <div>
+         <div n="div8">
 <!-- Body -->
         <!-- Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
            <!-- Q [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure if it adds anything useful to do it every time.  -->
@@ -510,7 +515,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
      <body>
       <!-- year 1631 -->
-       <div>
+       <div n="div9">
          <fw>
            <fw place="left margin">⁜</fw> <!-- [unicode dotted cross symbol] errm why is xslt changing unicodes? -->
             <fw type="header" rend="underline">
@@ -571,7 +576,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 12 -->
 
-      <div>
+      <div n="div10">
          <fw>
             <fw type="pageNum">12</fw>
             <fw type="header">163i.</fw><!-- TODO conventions change - i>arabic numerals -->
@@ -600,7 +605,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="13"/>
 
 <!-- Page 13 -->
-      <div>
+      <div n="div11">
          <fw>
             <fw type="header" rend="underline">
                163i.
@@ -663,7 +668,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <!-- Page 15 -->
 
     <!-- year 1632 -->
-    <div>
+    <div n="div12">
          <fw>
             <fw type="header" rend="underline">
                <date when-iso="1632">1632</date>
@@ -697,7 +702,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="16"/>
 
 <!-- Page 16 -->
-      <div>
+      <div n="div13">
          <fw>
             <fw type="pageNum">16.</fw>
             <fw type="header" rend="underline">
@@ -791,7 +796,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="19"/>
 
 <!-- Page 19 -->
-        <div>
+        <div n="div14">
          <fw>
             <fw type="header" rend="underline">
                <date when-iso="1637/1638">37. 38:</date>
@@ -807,7 +812,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
      
        <!-- year 1638 -->
 
-        <div>       
+        <div n="div15">       
          <p>
            <milestone n="ev9" unit="event"/>
             <fw type="header" place="margin left"><date when-iso="1638">38</date>:</fw>. 
@@ -835,7 +840,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="20"/>
 
 <!-- Page 20 -->
-      <div>
+      <div n="div16">
          <fw>
             <fw type="pageNum">20</fw>
             <fw type="header" rend="underline">
@@ -885,7 +890,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="21"/>
 
 <!-- Page 21 -->
-<div>
+<div n="div17">
          <fw>
             <fw type="header">
                <date when-iso="1640/1641"><hi rend="underline">1640:</hi>  <hi rend="underline">1641.</hi></date>
@@ -904,7 +909,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
   
        <!-- year 1641 -->
 
-   <div rend="pre(rule)">   
+   <div n="div18" rend="pre(rule)">   
      <milestone n="ev12" unit="event"/>
          <p>Twas amongst the many 1000 of others<lb/>
           Protestants in <placeName ref="place:Irel_096" n="place16">Ireland</placeName> miraculously pre=<lb break="no"/>
@@ -937,7 +942,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="22"/>
 
 <!-- Page 22 -->
-      <div>
+      <div n="div19">
          <fw>
             <fw type="pageNum">22.</fw>
             <fw type="header">
@@ -959,7 +964,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
        apparently 1642 is misdating by Alice and this was actually 1644. 
         -->
 
-       <div rend="pre(rule_short)">
+       <div n="div20" rend="pre(rule_short)">
          <p>
          <milestone n="ev16" unit="event"/>
           we were prevented from the siege at<lb/>
@@ -971,7 +976,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
    
        <!-- year 1643 -->
 
-       <div rend="pre(rule_short)">
+       <div n="div21" rend="pre(rule_short)">
          <milestone n="ev17" unit="event"/>
          <!-- [NOTE] Short horizontal line above here too as a section break. -->
          <p>
@@ -995,7 +1000,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
      
        <!-- year 1645 -->
      
-       <div rend="pre(rule_short)">
+       <div n="div22" rend="pre(rule_short)">
          <milestone n="ev18" unit="event"/>
          <p>
             <persName ref="ppl:kwd1" n="per46">my Sister Danby</persName> died at <placeName ref="place:Thor_056" n="place25">Thorpe</placeName> 
@@ -1020,7 +1025,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="23"/>
 
 <!-- Page 23 -->
-       <div rend="post(diagonal)">
+       <div n="div23" rend="post(diagonal)">
          <fw>
            <fw type="header" rend="darkerInk"><date when-iso="1647/1649">1647. 48: 49.</date> </fw>
            <fw type="pageNum" rend="darkerInk">23.</fw>
@@ -1036,7 +1041,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev19"/>
          </p>
        </div>
-       <div rend="pre(rule_short) post(diagonal)">
+       <div n="div24" rend="pre(rule_short) post(diagonal)">
            <!-- [NOTE] Divider lines on this page and next, solid line, of approximately [4 chars] length.-->
          <p> 
          <milestone n="ev20" unit="event"/>
@@ -1048,7 +1053,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
        </div>
        
      <!-- year 1649 -->
-       <div rend="pre(rule_short) post(diagonal)">  
+       <div n="div25" rend="pre(rule_short) post(diagonal)">  
          <p>
         <milestone n="ev21" unit="event"/>
            <persName ref="ppl:cs1" n="per52">King Charles the first</persName> beheaded at<lb/>
@@ -1057,7 +1062,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev21"/>
          </p>
        </div>
-       <div rend="pre(rule_short) post(diagonal)">
+       <div n="div26" rend="pre(rule_short) post(diagonal)">
          <p> 
          <milestone n="ev22" unit="event"/>
            <persName ref="ppl:jn1" n="per53">My Cozen Julian Norton</persName> died at<lb/>
@@ -1066,7 +1071,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev22"/>
          </p>
        </div>
-       <div rend="pre(rule_short)">
+       <div n="div27" rend="pre(rule_short)">
          <p> 
          <milestone n="ev23" unit="event"/>
            <persName ref="ppl:jn2" n="per54">my Cozen John Norton</persName> died at <placeName ref="place:StNi_050" n="place30">S<hi rend="superscript">t</hi>:<lb/>
@@ -1074,7 +1079,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev23"/>
          </p>
        </div>
-       <div>
+       <div n="div28">
          <p> 
          <milestone unit="event" n="ev23a"/><!-- oops missed one... -->
            <persName ref="ppl:eo1" n="per55">my Uncle Sir Ed: Osborne</persName> died at <placeName ref="place:Kive_029" n="place31">Keevet<add place="above">n</add></placeName>
@@ -1088,7 +1093,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 24 -->
        <!-- year 1651 -->
-       <div rend="post(diagonal)">
+       <div n="div29" rend="post(diagonal)">
          <fw>
             <fw type="pageNum">24.</fw>
             <fw type="header"><date when-iso="1651">1651</date>.</fw>
@@ -1106,7 +1111,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </p>
          <anchor n="ev24"/>
 </div>
-       <div rend="pre(rule_short) post(diagonal)">
+       <div n="div30" rend="pre(rule_short) post(diagonal)">
          <p> 
          <milestone n="ev25" unit="event"/>
            <persName ref="ppl:mny1" n="per58">My Cozen mary Norton</persName> was Married<lb/>
@@ -1116,7 +1121,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev25"/>
          </p>
        </div>
-       <div rend="pre(rule_short)">
+       <div n="div31" rend="pre(rule_short)">
          <p> 
          <milestone n="ev26" unit="event"/>
            <persName ref="ppl:cw2" n="per61">My Brother Christopher Wandesford</persName><lb/>
@@ -1126,7 +1131,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev26"/>
          </p>
        </div>
-       <div rend="pre(rule_short) post(diagonal)">
+       <div n="div32" rend="pre(rule_short) post(diagonal)">
          <!-- [NOTE] This [pre-rule] line is more diagonal. -->
          <p> 
          <milestone n="ev27" unit="event"/>
@@ -1143,7 +1148,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 25 -->
        <!-- year 1652 -->
-<div>
+<div n="div33">
          <fw>
             <fw type="header"><date when-iso="1652">1652</date>.</fw>
             <fw type="pageNum">25.</fw>
@@ -1164,7 +1169,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </p>
        </div>
       <!-- year 1654 -->   
-       <div rend="pre(rule)">
+       <div n="div34" rend="pre(rule)">
          <!-- [NOTE] This is a solid line and added later as it crosses through some of the next line. Not ruled. -->
         <milestone n="ev29" unit="event"/>
          <p>
@@ -1187,7 +1192,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </p>
          <anchor n="ev29"/>
       </div>
-       <div rend="pre(rule) post(diagonal)">
+       <div n="div35" rend="pre(rule) post(diagonal)">
          <!-- [NOTE] Line; not quite straight. -->
          <p>
          <milestone n="ev30" unit="event"/>
@@ -1224,7 +1229,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
        </div>
        
        <!-- year 1655 -->
-     <div rend="pre(diagonal)">
+     <div n="div36" rend="pre(diagonal)">
     <fw place="left margin"><date when-iso="1655">1655</date>.</fw><lb/>
     <p>
       <!-- [NOTE] A diagonal line between the sections which goes through the date which was prob added later as it is in a darker ink, like the page number.-->
@@ -1240,7 +1245,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
       <anchor n="ev31"/>
           </p>
        </div>
-       <div rend="pre(diagonal) post(diagonal)">
+       <div n="div37" rend="pre(diagonal) post(diagonal)">
          <!-- / div rend -->
          <p>
          <milestone n="ev32" unit="event"/>
@@ -1256,7 +1261,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 27 -->
        <!-- year 1656 -->
-      <div>
+      <div n="div38">
          <fw>
             <fw type="header" rend="darkerInk"><date when-iso="1656">1656</date></fw>
             <fw type="pageNum" rend="darkerInk">27.</fw>
@@ -1276,7 +1281,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <anchor n="ev33"/>
          </p>
 </div>
-       <div rend="pre(diagonal) post(diagonal)">
+       <div n="div39" rend="pre(diagonal) post(diagonal)">
          <p><!-- / div rend -->
          <milestone n="ev34" unit="event"/>
            <persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
@@ -1295,7 +1300,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </p>
        </div>
             
-       <div rend="pre(diagonal)">
+       <div n="div40" rend="pre(diagonal)">
          <p><!-- / div rend -->
          <milestone n="ev35" unit="event"/>
            <persName ref="ppl:et1" n="per89">Elizabeth Thornton</persName> my 3<hi rend="superscript">d</hi> child<lb/>
@@ -1325,7 +1330,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </p>
        </div>
      <!-- year 1657 -->
-       <div rend="pre(rule)">
+       <div n="div41" rend="pre(rule)">
          <!-- msDescription? divider line was a thicker line than usual. -->
          <p>
            <milestone n="ev36" unit="event"/>
@@ -1354,7 +1359,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="29"/>
 
 <!-- Page 29 -->
-<div>
+<div n="div42">
          <fw>
            <fw type="pageNum" rend="underline">
                29.
@@ -1439,7 +1444,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 31 -->
        <!-- year 1659 -->
-<div>
+<div n="div43">
          <fw>
             <fw type="header"><date when-iso="1659">1659</date>.</fw>
             <fw type="pageNum">31.</fw>
@@ -1717,7 +1722,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 39 -->
       <!-- year 1660 -->
-      <div>
+      <div n="div44">
          <fw>
            <fw type="pageNum" rend="underline">
                39.
@@ -1752,7 +1757,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           Will. Norton</persName>. &amp; <persName ref="ppl:jd1" n="per126">Co: Darcy of <placeName ref="place:Rich_043" n="place57">Rich</placeName></persName>.</p>
         <anchor n="ev40"/>
      </div>  
-     <div>
+     <div n="div45">
        <p>
        <milestone n="ev41" unit="event"/>
          <rs ref="ppl:wt2" n="per127" type="person">My pretty babe</rs> was in good hea<lb break="no"/>
@@ -1854,7 +1859,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 42 -->
 
- <div type="poetry">        
+ <div n="div46" type="poetry">        
          <fw type="header" style="text-align: center;"><date>1660</date>.</fw>
          <fw place="left margin">42.</fw>
    
@@ -1883,7 +1888,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 43 -->
        <!-- year 1662 -->
-      <div>
+      <div n="div47">
          <fw>
             <fw type="header"><date when-iso="1662">1661</date>.<!-- Q [dates] calendar again. NB that *all* the "1661" headings are 1661/2 using slash dating, or 1662 by modern calendar. --></fw>
            <!-- msDescription [NOTE] Date only just above the first line.-->
@@ -2204,7 +2209,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="52"/>
 <!-- Page 52 -->
 
-      <div>
+      <div n="div48">
        <fw>
          <fw type="pageNum">52.</fw>
          <fw type="header"><date>1662</date></fw>
@@ -2254,7 +2259,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           for a perfect recovery.</p>
         <anchor n="ev44"/>
 </div>
-       <div>
+       <div n="div49">
         <milestone n="ev45" unit="event"/>
          <p>After I had recaid<note place="end" type="word">
                <p rend="Endnote Text">
@@ -2502,7 +2507,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            way his face from thy praier, butt<lb/>
            granter thy Pettitions.</p>
 </div>
-      <div> 
+      <div n="div50"> 
          <p> 
         <milestone n="ev46" unit="event"/>
            After this sad accident befell me<lb/>
@@ -2674,7 +2679,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="67"/>
 
 <!-- Page 67 -->
-<div>
+<div n="div51">
      <fw type="pageNum" rend="darkerInk">67.</fw><lb/>
     <milestone n="ev48" unit="event"/>
          <p>After this, drawing neare a month<lb/>
@@ -2821,7 +2826,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="72"/>
 
 <!-- Page 72 -->
-       <div rend="post(diagonal)">
+       <div n="div52" rend="post(diagonal)">
          <p>
            <fw>
             <fw type="pageNum" rend="darkerInk">72.</fw>
@@ -3023,7 +3028,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="79"/>
 
 <!-- Page 79 -->
-<div>
+<div n="div53">
          <fw>
            <fw type="header" rend="underline">
                <date>1662</date>
@@ -3062,7 +3067,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="80"/>
 
 <!-- Page 80 -->
-<div>
+<div n="div54">
          <fw type="pageNum">80.</fw> 
         <milestone n="ev51" unit="event"/>
          <p>
@@ -3210,7 +3215,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="85"/>
 
 <!-- Page 85 -->
-<div>
+<div n="div55">
           <fw>
               <fw type="header" rend="underline">
                <date>1662</date>
@@ -3284,7 +3289,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 87 -->
        <!-- year 1664 -->
-  <div>
+  <div n="div56">
       <fw>
         <fw type="header" rend="underline"><date when-iso="1664">1664</date></fw>
          <fw type="pageNum">87.</fw>
@@ -3319,7 +3324,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 88 -->
        <!-- year 1665 -->
-    <div>
+    <div n="div57">
       <fw>
       <fw type="header" rend="underline"><date when-iso="1665">1665</date>  </fw>
       <fw type="pageNum">88.</fw> 
@@ -3421,7 +3426,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
       </div>
             <pb n="91"/>
 
-      <div> 
+      <div n="div58"> 
 <!-- Page 91 -->
 
          <fw>
@@ -3461,7 +3466,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="92"/>
 
 <!-- Page 92 -->
-    <div>
+    <div n="div59">
       <fw>
         <fw type="header" rend="underline">
            <date>1665</date>.<!-- deleted - at the beginning of the line -->
@@ -3586,7 +3591,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <!-- Page 96 -->
        
     <!-- year 1666 -->
-    <div>
+    <div n="div60">
          <fw type="pageNum">96.</fw>
          <p>
           While I am in this bodie of death<lb/>
@@ -3771,7 +3776,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           delivred from the Iawes of Eternall death<lb/>
           Amen.</p>
        </div>
-       <div rend="pre(rule_light)">
+       <div n="div61" rend="pre(rule_light)">
 
         <fw type="header" rend="underline"><date>1666</date>.</fw> <lb/>
          <p>
@@ -3800,7 +3805,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="102"/>
 
 <!-- Page 102 -->
-<div>
+<div n="div62">
          <fw>
             <fw type="pageNum">102.</fw>
             <fw type="header" rend="underline">
@@ -3879,7 +3884,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="104"/>
 
 <!-- Page 104 -->
-<div>
+<div n="div63">
          <fw>
             <fw type="pageNum">104.</fw>
            <fw type="header" rend="underline">
@@ -3894,7 +3899,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <anchor n="ev62"/>
          </p>
 </div>
-       <div rend="pre(rule_short)">
+       <div n="div64" rend="pre(rule_short)">
          <milestone n="ev63" unit="event"/>
          <p>Vpon the <date when-iso="1666-09-29">29<hi rend="superscript">th</hi> day of Sept:<add place="above">ber</add></date> began<lb/>
            my Daughter <persName ref="ppl:ktp1" n="per232">Kate Thornton</persName> with<lb/>
@@ -3943,7 +3948,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           to his Glory for Christs sake &amp; give me a<lb/>
           thankefull heart to comemorat his mercys Amen.</p>
        </div>
-       <div rend="pre(rule)">
+       <div n="div65" rend="pre(rule)">
          <milestone n="ev64" unit="event"/>
          <p>It pleased God to vissit my deare Brother<lb/>
           <persName ref="ppl:jw1" n="per236">John Wandesford</persName> at <placeName ref="place:Lond_080" n="place80">London</placeName> 10<hi rend="superscript">th</hi> his last <lb/>
@@ -3994,7 +3999,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </p>
          <anchor n="ev64"/>
        </div>
-       <div rend="pre(rule)">
+       <div n="div66" rend="pre(rule)">
          <p>
          <milestone n="ev65" unit="event"/>
            About this <date when-iso="1666-12">christmas 1666</date>: <persName ref="ppl:wn1" n="per239">my Cosen<lb/>
@@ -4004,7 +4009,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </p>
        </div>
        <!-- year 1667 -->
-       <div rend="pre(rule) post(diagonal)">
+       <div n="div67" rend="pre(rule) post(diagonal)">
          <milestone n="ev66" unit="event"/>
          <p>The <date when-iso="1667-01-05">5<hi rend="superscript">th</hi> of Janeuary 1667</date>: my deare<lb/>
           <persName ref="ppl:rt2" n="per240">Robin Thornton</persName> began his sicknesse of the<lb/>
@@ -4061,7 +4066,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="108"/>
 
 <!-- Page 108 -->
-<div>
+<div n="div68">
          <fw>
             <fw type="pageNum">108.</fw>
            <fw type="header" rend="underline">
@@ -4085,7 +4090,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
       <anchor n="ev67"/>
       </p>
 </div>
-       <div rend="pre(rule)">
+       <div n="div69" rend="pre(rule)">
          <p>
          <milestone n="ev68" unit="event"/>
          About the <date when-iso="1667-01-25">25<hi rend="superscript">th</hi> of Jan: 1667</date>: <persName ref="ppl:atc1" n="per245">Naly</persName> took<lb/>
@@ -4145,7 +4150,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="110"/>
 
 <!-- Page 110 -->
-<div>
+<div n="div70">
          <fw>
             <fw type="pageNum">110.</fw>
             <fw type="header" rend="underline">
@@ -4170,7 +4175,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <anchor n="ev69"/>
          </p>
 </div>
-       <div rend="pre(rule)">
+       <div n="div71" rend="pre(rule)">
          <p>
         <milestone n="ev70" unit="event"/>
            The <date when-iso="1667-04-08">8<hi rend="superscript">th</hi> of Aprill</date> <persName ref="ppl:atc1" n="per250">naly</persName> had a Pearle<lb/>
@@ -4188,7 +4193,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
        <pb n="111"/>
 
 <!-- Page 111 -->
-<div>
+<div n="div72">
   <fw type="pageNum" rend="underline">iii.</fw> <!-- TODO conventions change -->
          <p>
         <milestone n="ev71" unit="event"/>
@@ -4205,7 +4210,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
       <anchor n="ev71"/>
       </p>
 </div>
-       <div rend="pre(rule)">
+       <div n="div73" rend="pre(rule)">
          <p>
          <milestone n="ev72" unit="event"/>
            <date when-iso="1666" precision="medium">About the yeare</date> that <persName ref="ppl:ktp1" n="per252">Kate Thornton</persName><lb/>
@@ -4243,7 +4248,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           ever <add place="above">for</add> all manner of his deliverances<lb/>
           to me &amp; mine Amen.</p>
        </div>
-       <div rend="pre(rule)">
+       <div n="div74" rend="pre(rule)">
          <milestone n="ev73" unit="event"/>
          <p>It was the permition of God to let a sad<lb/>
           &amp; dismall stroake fall heavy upon my<lb/>
@@ -4270,7 +4275,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          in yeare 1667</date>.</p>
          <anchor n="ev73"/>
        </div>
-       <div rend="pre(rule) post(diagonal)">
+       <div n="div75" rend="pre(rule) post(diagonal)">
          <p>
          <milestone n="ev74" unit="event"/>
           It pleased the goodnesse of my gracious<lb/>
@@ -4317,7 +4322,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev74"/>
          </p>
        </div>
-       <div rend="pre(rule)">
+       <div n="div76" rend="pre(rule)">
          <milestone n="ev75" unit="event"/>
          <p>I fell into panges of Labour about the<lb/>
           <date when-iso="1667-11-04">4<hi rend="superscript">th</hi> of november</date> beeing very ill. &amp; so con-<lb break="no"/>
@@ -4365,7 +4370,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           of the wombe, o praise the Lord for Ever.</p>
          <anchor n="ev75"/>
        </div>
-       <div rend="pre(rule)">
+       <div n="div77" rend="pre(rule)">
          <p>
          <milestone n="ev76" unit="event"/>
            my daughter <persName ref="ppl:atc1" n="per266">naly</persName> was on this night <date when-iso="1667-11-11">the<lb/>
@@ -4379,7 +4384,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="116"/>
 
 <!-- Page 116 -->
-<div>
+<div n="div78">
   <fw>
     <fw type="pageNum">116.</fw> 
     <fw type="header" rend="underline">
@@ -4399,7 +4404,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <anchor n="ev77"/>
          </p>
 </div>
-       <div rend="pre(rule)">
+       <div n="div79" rend="pre(rule)">
          <p>
          <milestone n="ev78" unit="event"/>
          After this comfort of <rs ref="ppl:ct1" n="per271" type="person">my Childe</rs> I<lb/>
@@ -4463,7 +4468,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 118 -->
        <!-- year 1668? -->
-<div>
+<div n="div80">
            <fw> 
              <fw type="pageNum">118.</fw>
              <fw type="header" rend="underline"><date>1667</date>.</fw>
@@ -4517,7 +4522,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           please to bring me to. for my saviour<lb/>
           Jesus Christs his sake Amen.</p>
 </div>
-       <div rend="pre(rule)">
+       <div n="div81" rend="pre(rule)">
          <p>
          <milestone n="ev80" unit="event"/>
          After which recovery of my health<lb/>
@@ -4548,7 +4553,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="120"/>
 
 <!-- Page 120 -->
-<div>
+<div n="div82">
   
          <fw>
            <fw type="pageNum">120.</fw> 
@@ -4874,7 +4879,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="128"/>
 
 <!-- Page 128 -->
-<div>
+<div n="div83">
          <fw>
             <fw type="pageNum">128.</fw>
            <fw type="header" rend="underline">
@@ -4980,7 +4985,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="131"/>
 
 <!-- Page 131 -->
-<div>
+<div n="div84">
          <fw>
            <fw type="pageNum" rend="underline">131.</fw>
            <fw type="header" rend="underline">
@@ -5129,7 +5134,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="135"/>
 
 <!-- Page 135 -->
-       <div>
+       <div n="div85">
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -5363,7 +5368,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date>1668</date>.
             </fw>
          </fw>
-       <div>  
+       <div n="div86">  
          <p>I now doe want those good &amp; Pieous<lb/>
           prayers of him for me &amp; mine which I have<lb/>
           injoyed for many yeares, what can I <lb/>
@@ -5641,7 +5646,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="149"/>
 
 <!-- Page 149 -->
-<div> 
+<div n="div87"> 
   <fw>
     <fw type="pageNum" rend="underline">
                149.
@@ -5751,7 +5756,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           almost 17 yeares.</p>
      <anchor/>   
      </div>
-     <div>
+     <div n="div88">
         <milestone n="ev87" unit="event"/>
          <p>He was brought home to <placeName ref="place:East_019" n="place100">Newton</placeName> on<lb/>
           <date when-iso="1668-09-18">friday the 18<hi rend="superscript">th</hi> of September</date> &amp;. had the company<lb/>
@@ -5837,7 +5842,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 154 -->
        
-       <div type="poetry">  
+       <div n="div89" type="poetry">  
 
    <!-- msDescription [NOTE] From here to p. 168, hand generally in larger letters, with more spacing and a more studied italic hand. More’ presentation’ like that much that has gone before it (except the opening pages) and much neater than that which follows the index.-->
 
@@ -5883,7 +5888,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <l>Since this we feele. great losse we<lb/>
          cannot find.</l>
    </div>
-       <div type="poetry" rend="pre(rule)">
+       <div n="div90" type="poetry" rend="pre(rule)">
          
          <l>Leave me O Love, which reachest but to dust</l>
          <l>And thou my minde aspire to higher things</l>
@@ -5923,7 +5928,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          
          <fw type="pageNum" rend="underline">157</fw>
        
-       <div type="poetry">      
+       <div n="div91" type="poetry">      
             <note place="end" type="context">
                <p rend="Endnote Text">
               42 records in Folger first line, and copied out until the last line. Sir Kenelm Digby or Sir Henry Wotton, various copies and contexts.</p>
@@ -6007,7 +6012,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <l>He neare looke for it but in Heaven agaen.</l>
        </div>
        
-       <div type="poetry" rend="pre(rule_short)">
+       <div n="div92" type="poetry" rend="pre(rule_short)">
          
          <l>The Just shall live by faith.</l>
          <l>Nisi Christus Nemo.</l>
@@ -6031,7 +6036,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           <!-- [NOTE] NB TWO UNNUMBERED BLANK PAGES, 159v, 160r -->
          
          
-       <div type="poetry">  
+       <div n="div93" type="poetry">  
          
          <head>
            <fw type="pageNum" rend="underline">160.</fw>
@@ -6118,7 +6123,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="163"/>
 
 <!-- Page 163 -->
-<div type="prayer">
+<div n="div94" type="prayer">
          <head>
            <fw type="pageNum" rend="underline">
                163.
@@ -6307,7 +6312,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <!-- [NOTE] NB. No page numbers provided for index by Thornton-->
           
                   
-     <div type="index">
+     <div n="div95" type="index">
            
        <!-- TODO? tagging of tag names, places, events in index? -->
        <!-- TODO? tag index as table? (ugh though)  -->
@@ -6642,7 +6647,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <!-- Page 182 -->
 
     
-    <div type="supplementary" rend="darkerInk">
+    <div n="div96" type="supplementary" rend="darkerInk">
          
       <!-- msDescription [NOTE] pages not numbered by AWT -->
       <!-- msDescription [NOTE] Looks like a darker ink than that used previously and the handwriting is far less neat. Consistent enough still to be AT-->
@@ -6654,7 +6659,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
          </fw>
         </head>
-       <div rend="pre(rule)">
+       <div n="div97" rend="pre(rule)">
          <p>
         <milestone n="ev88" unit="event"/>  
            vidz The great fall I had at <placeName ref="place:Kirk_030" n="place102">Kirklington</placeName><lb/>
@@ -6678,7 +6683,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           praise the Lord most high &amp; profitable to my <lb/>
           owne soule Amen.</p>
        </div>
-       <div rend="pre(rule)">
+       <div n="div98" rend="pre(rule)">
          <p>
         <milestone n="ev89" unit="event"/>    
           The Lord gave me a dreame before the dea<lb/>
@@ -6689,7 +6694,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev89"/>
          </p>
        </div>
-       <div rend="pre(rule_short) post(diagonal)">
+       <div n="div99" rend="pre(rule_short) post(diagonal)">
         <milestone n="ev90" unit="event"/>   
          <p>
             <rs ref="ppl:aow1" n="per356" type="person">My Deare mothr</rs> had a Terrible dream<lb/>
@@ -6795,7 +6800,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            deare to this holy: wise. &amp; good Christian.<!-- / div rend --></p>
          <anchor n="ev90"/><!-- Q event where anchor should go -->
       </div>
-      <div rend="pre(rule)">
+      <div n="div100" rend="pre(rule)">
          <p>
         <milestone n="ev91" unit="event"/>   
           I had a very significant dreame in <date when-iso="1645">45</date>:<lb/>
@@ -6851,7 +6856,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <anchor n="ev91"/>
          </p>
       </div>
-      <div rend="pre(rule) post(diagonal)">
+      <div n="div101" rend="pre(rule) post(diagonal)">
         <milestone n="ev92" unit="event"/>   
          <p>I had a sad dreame halfe a yeare before my<lb/>
           Brothr <persName ref="ppl:gw1" n="per374">George Wandesford</persName> was lost. That he was<lb/>
@@ -6976,7 +6981,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="191"/>
 
 <!-- Page 191 -->
-     <div>        
+     <div n="div102">        
         <milestone n="ev93" unit="event"/>
          <p>A gratefull Remembrance of<lb/>
           what God ded for me in delivrance fr<supplied>om</supplied><lb/>
@@ -6987,7 +6992,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            <anchor n="ev93"/>
          </p>
        </div>
-         <div rend="pre(rule)">
+         <div n="div103" rend="pre(rule)">
            
          <milestone unit="event"/>
          <p>
@@ -7123,7 +7128,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           that Ruine. And I will praise the Lord<lb/>
            for Ever more. Amen</p>
       </div>
-      <div rend="pre(rule)">
+      <div n="div104" rend="pre(rule)">
          <p>
         <milestone n="ev94" unit="event"/>
           The great Deliverance I had from<lb/>
@@ -7140,7 +7145,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="196"/>
 
 <!-- Page 196 -->
-      <div>
+      <div n="div105">
          <p>
         <milestone n="ev95" unit="event"/>
           my great delivrance from<lb/>

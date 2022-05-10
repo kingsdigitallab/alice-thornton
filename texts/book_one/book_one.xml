@@ -99,6 +99,11 @@
                     <name>Sharon Howard</name>
                     <desc>date tagging mostly completed; changed date attributes in B1 and BoR to use -iso versions for more options and better match with EDTF date formats</desc>
                 </change>
+                <change>
+                    <date>2022-05-10</date>
+                    <name>Sharon Howard</name>
+                    <desc>events tagging. added @n to div tags</desc>
+                </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -152,7 +157,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           -->
     <front>
 
-        <div>
+        <div n="div1">
             <!-- Q how to handle this sort of material, blank pages (also in BoR) -->
             <p>
                 [[Page i] [First leaf] Inscription: see Dip.]
@@ -167,7 +172,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
         <fw type="pageNum"> 1. </fw>
 
-    <div>
+    <div n="div2">
 
         <head place="centre">
             <persName ref="ppl:jh1" n="per1">Bishop Hall</persName>s Observations in his<lb/>
@@ -196,7 +201,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <!-- Q [decoration] unusual: page has ruled border top/bottom/left -->
         <fw type="pageNum"> 2. </fw>
 
-    <div type="prayer">
+    <div n="div3" type="prayer">
 
         <head place="centre">A Praier.</head>
 
@@ -222,7 +227,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
         <fw type="pageNum"> 3. </fw>
 
-    <div type="poetry">
+    <div n="div4" type="poetry">
 
         <head>The dedication.</head>
 
@@ -282,7 +287,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
         <fw type="pageNum">5.</fw>
         
-    <div rend="post(rule)">
+    <div n="div5" rend="post(rule)">
         <!-- NOTE [rendition keywords] 
             - pre/post "rule" assumed default = ruled line is full width of text (or of margin text). not sure if there are any shorter ones in this book (there are a few in BoR). 
             - how to add extra detail to rule though? maybe style would be better for this after all?  
@@ -314,7 +319,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
         <fw type="pageNum">6.</fw>
         
-    <div>
+    <div n="div6">
         <head rend="post(rule)">Proverbes. </head>
         
     
@@ -350,7 +355,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
     
     <fw type="pageNum">7.</fw>
     
-    <div type="preface">
+    <div n="div7" type="preface">
         <head place="centre" rend="post(rule)">A Preface to the booke.</head>
          
         <p>For as much as it is the dutie of every true Christian<lb/>
@@ -403,7 +408,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
     </front>
     
     <body>
-        <div type="insertion">
+        <div n="div8" type="insertion">
             <!-- TODO [insertion][layout] ugh -->
                 <milestone unit="event"/>
             <p>
@@ -421,7 +426,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             </p>
             <anchor/>
      </div>
-     <div>
+     <div n="div9">
          <milestone unit="event"/>
             <p>
       <fw place="margin">      
@@ -472,7 +477,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  Omega. Amen. I was about 5 yeares old. then:</p>
             
          </div>
-        <div>
+        <div n="div10">
          <head place="right" rend="pre(rule)">
              A preservation in the Smale Pox, <date when-iso="1631" type="illness">1631</date>.
          </head>
@@ -497,7 +502,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            
                 <fw type="pageNum"> 10. </fw>
             
-        <div>
+        <div n="div11">
             <head rend="post(rule)">
                 <!-- Q [layout] header -->
                 <!-- Q is London 1631 part of the title? -->
@@ -555,7 +560,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <anchor/>
        </div>
         
-        <div>
+        <div n="div12">
             
             <head place="right" rend="pre(rule)"> 
                 
@@ -585,7 +590,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         
             <fw type="pageNum">12.</fw>
 
-        <div>
+        <div n="div13">
             
             <head rend="post(rule)"><rs ref="ppl:aow1" n="per24" type="person">My Mother</rs>s goeing into <placeName ref="place:Irel_096" n="place10">Ireland</placeName>. <date when-iso="1632">1632</date>.
             </head>
@@ -661,7 +666,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <fw type="header"> <date when-iso="1636/1638">36. 37. 38.</date></fw><lb/>
         <!-- NOTE header is not a section title -->
         
-        <div>
+        <div n="div14">
             <head rend="post(rule)"> A deliverance from a fire &amp; other remarkables.</head>
             
             <p>
@@ -672,7 +677,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  harme don.<anchor/> Blessed be the name of our good God;</p>
             
           </div>
-        <div rend="pre(rule)"> 
+        <div n="div15" rend="pre(rule)"> 
             <milestone unit="event"/>
             <p>About the time I was 12 yeares old in the <add place="above">yeare</add> <date when-iso="1638" type="religion">1638</date>.<lb/>
                  I was readeing of the great wisdome of our Saviour.<lb/>
@@ -702,7 +707,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
                 <fw type="pageNum">15.</fw>
             
-        <div>
+        <div n="div16">
             <head rend="post(rule)">
                 <!-- Q should the year be part of head or separate fw? or fw inside head? -->
                 <fw rend="underline"><date when-iso="1639" type="accident">1639</date>.</fw><lb/>
@@ -809,7 +814,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  will I humblie sett forth the mercys of the Lord to me.<anchor/></p>
             </div>
         
-        <div type="prayer">
+        <div n="div17" type="prayer">
             <head place="centre">
                 A thankesgiveing for our deliverances.<lb/>
                  -----------------------------------------------------<lb/>
@@ -904,7 +909,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  for ever more. Amen. &amp; Amen.</p>
          </div>
         
-        <div>
+        <div n="div18">
            <!-- NOTE [margin] tagged note  -->
            <!-- NOTE [style] vertical text writing direction top to bottom - @style looks right in boilerplate. --> 
             
@@ -1150,7 +1155,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  the Cittye will be left in darkenesse. &amp; distruction.</p>
           
       </div>
-      <div>
+      <div n="div19">
         
           <head place="centre" rend="pre(rule) post(rule)">
                
@@ -1543,7 +1548,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  died <add place="above">in</add> <date when-iso="1641-10-23" type="political">October 23<hi rend="superscript">d</hi> 1641</date>.<!-- NOTE [dates] Alice here gives a date but she also expresses the event as happening 9 months after her father's death, which is interesting? she does that in a couple of other places too.  --></p>
           
           </div>
-        <div type="prayer">
+        <div n="div20" type="prayer">
 
             <head place="right" rend="pre(rule) post(rule)"> 
             <!-- TODO [decoration] (rule) weight pre and post -->
@@ -1932,7 +1937,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  &amp; peace, we may at Last injoy the God of Peace. Amen.</p>
             
             </div>
-        <div type="prayer">
+        <div n="div21" type="prayer">
 
             <head place="right" rend="pre(rule) post(rule)">
                
@@ -2125,7 +2130,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">54.</fw>
             
-        <div type="prayer">
+        <div n="div22" type="prayer">
             <head place="centre" rend="pre(rule) post(rule)">
                 A Prayer to be said before wee Receive. <lb/>
                 <!-- TODO [decoration] pre(rule) weight -->
@@ -2538,7 +2543,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  hath taught us. Our Father &amp;c. /</p>
             
             </div>
-        <div>
+        <div n="div23">
             <head place="centre" rend="pre(rule) post(rule)">
             
                 <rs ref="ppl:aow1" n="per146" type="person">My Mother</rs>s Preservation from the Irish Rebellion<lb/>
@@ -2747,7 +2752,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  which preserved our lives from all manner of distruction.</p>
             
             </div>
-        <div type="prayer">
+        <div n="div24" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
             
                 A thankesgiveing for preservation<lb/>
@@ -2836,7 +2841,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  I humbly crave for Jesus Christs sake our only saviour</p>
             <p>Amen. Amen.</p>
             </div>
-        <div>
+        <div n="div25">
             <head rend="pre(rule) post(rule)">
             
                 Uppon <rs ref="ppl:aow1" n="per185" type="person">my Mother</rs>s comming to <placeName ref="place:Ches_012" n="place83">Weschester</placeName> from <placeName ref="place:Irel_096" n="place84">Ireland</placeName><lb/>
@@ -2866,7 +2871,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  any. still expecting returnes out of yorkeshire.</p>
             <anchor/><!-- event /arrival chester -->
     </div>
-     <div>   
+     <div n="div26">   
          <!-- NOTE [div] added new div here because this is a significant break in the narrative. -->
       <p>
             <!-- NOTE [margin] tagged note -->
@@ -2925,7 +2930,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  this my perticuler preservation at that time.</p>
          <anchor/>
         </div>
-        <div>
+        <div n="div27">
     <!-- NOTE [div] new div added: there is an index entry ("upon my having the smallpox the second time...", ref 72) but no title/separation, but change of subject here seems to fit.
     now jump back to 1642 events.! -->  
             <milestone unit="event"/><!-- event chester, smallpox -->
@@ -3089,7 +3094,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  of such charity.</p>
             <anchor/><!-- event /frank kelly -->
             </div>
-        <div type="prayer">
+        <div n="div28" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
                 <!-- Q [layout] -->
              
@@ -3187,7 +3192,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  praise for ever more Amen.</p>
             </div>
         
-            <div>
+            <div n="div29">
                 <head rend="pre(rule) post(rule)">
                     <!-- TODO [decoration] pre(rule) weight -->
                     <note place="end">
@@ -3510,7 +3515,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                      his first salutattion &amp; wellcome into it. #.<anchor/></p>
                 
             </div>
-            <div>
+            <div n="div30">
                 <head place="centre" rend="pre(rule) post(rule)">           
                     A deliverance from a Surfett of Lobster.<lb/>
                     att <placeName ref="place:Rich_043" n="place131">Richmond</placeName> <date when-iso="1643" type="illness">1643</date>.</head>
@@ -3587,7 +3592,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  to thy Majestie in faith, &amp; godlinesse, all my daies<lb/>
                      for my Lord Jesus Christ. Amen. </p> 
             </div>
-            <div rend="pre(rule)">
+            <div n="div31" rend="pre(rule)">
             <!-- NOTE [div] new div: no title or index entry, but there is a divider line and it does mark a change in narrative -->
                 <!-- Q [layout] "In the yeare... 29" in fact starts *above* the ruled line, immediately after Amen on the same line with just a | divider. But it appears to refer to the text that follows. - she earlier said they went to hipswell a year after events of sept 1643 Alternatively could leave it in the div above and just add an empty <date> tag at the beginning of the new div? -->
            <milestone unit="event"/><!-- event to hipswell
@@ -3627,7 +3632,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  Protection. all those Evill times of feares and distract<add place="above">ions</add><lb/>
                  Blessed &amp; praised be the god of our Salvation. Amen.</p>
                 </div>
-            <div>
+            <div n="div32">
                 <head rend="pre(rule) post(rule)">
                     The death of <persName ref="ppl:kwd1" n="per289">my Sister Danby</persName>: <date when-iso="1645-09-10" type="death">Sept. <sic>30<hi rend="superscript">th</hi></sic> 1645</date> 
                     <!-- Q [dates] almost certainly mis-dated by Alice here, cf other sources - BkRem says 10 Sept and burial recorded 11 Sept. Is silent correction in @when attribute correct practice? --><lb/>
@@ -3851,7 +3856,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
             
                 <fw type="pageNum">92.</fw>
-        <div rend="post(rule)">
+        <div n="div33" rend="post(rule)">
             
             <head place="centre" rend="post(rule)">The death of <persName ref="ppl:jn2" n="per322">my Cosen John Norton</persName>. <date when-iso="1646" type="death">1646</date>.</head>
             <milestone unit="event"/>
@@ -3861,7 +3866,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <p>He was a sweete good natured youth, he died at <placeName ref="place:StNi_050" n="place147">St. Nicolas</placeName></p>
                 <anchor/>
         </div>
-        <div>
+        <div n="div34">
             <head place="centre" rend="post(rule)">The Death of <persName ref="ppl:eo1" n="per324">Sir Edward Osborne</persName>. <date when-iso="1646" type="death">1646</date>.</head>
             <milestone unit="event"/>
             <p><persName ref="ppl:eo1" n="per325">My uncle. Sir Edward Osborne</persName> who was my mothers<lb/>
@@ -3917,7 +3922,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <anchor/>
         </div>
         
-        <div rend="pre(rule)">
+        <div n="div35" rend="pre(rule)">
            <milestone unit="event"/> 
             <p><persName ref="ppl:en1" n="per335">My Cozen Edmund Norton</persName>, Eldest son to my <persName ref="ppl:mn1" n="per336">Uncle Norto̅</persName><!-- Q CHECK contraction --><lb/>
                  was married to <persName ref="ppl:td2" n="per337">Mr Dudly</persName>s Daughter &amp; heire of Chopwell<lb/>
@@ -3926,7 +3931,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <anchor/>
         </div>
         
-        <div rend="pre(rule) post(rule)">   
+        <div n="div36" rend="pre(rule) post(rule)">   
            <milestone unit="event"/> 
             <p><persName ref="ppl:en1" n="per339">My Cosen Edmund Norton</persName> died of a Plurisie att <placeName ref="place:York_060" n="place154">Yorke</placeName><lb/>
                  the <date when-iso="1648-11-30" type="death">30<hi rend="superscript">th</hi> of November: 1648</date>. A gentleman of a sweete good<lb/>
@@ -3943,7 +3948,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 93 -->
 
-     <div>
+     <div n="div37">
             
                 <fw type="pageNum">94.</fw>
                 <!-- NOTE [page numbering] left-aligned even number-->
@@ -4083,7 +4088,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  whome be all thankes, Praise hon{our} and dominion for<lb/>
                  Ever &amp; ever. Amen. Amen.</p>
          </div>
-        <div rend="pre(rule)">
+        <div n="div38" rend="pre(rule)">
            <milestone unit="event"/> 
             <p>
                 <persName ref="ppl:jn1" n="per343">My Cosen Julian Horton</persName> died at <placeName ref="place:Rich_044" n="place158">Richmond greene</placeName><lb/>
@@ -4091,7 +4096,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             </p>
             <anchor/>
          </div>
-        <div>
+        <div n="div39">
             <head place="centre" rend="pre(rule) post(rule)">
                 Uppon the Death of <persName ref="ppl:gw1" n="per345">my brother George Wandesforde</persName>.<lb/>
                 <date when-iso="1651-03-31" type="death">March 31 1651</date> &amp; of his Sequestration. &amp;<lb/>
@@ -4589,7 +4594,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  brother</rs>, made an Excelent paper of verses up<add place="above">on</add> him in<lb/>
                  bewaling his losse which I will insert heere affter.</p>
             </div>
-        <div type="prayer">
+        <div n="div40" type="prayer">
             <head place="centre" rend="pre(rule) post(rule)">
             
                 A Lamentation, &amp; Prayer, uppon the death of<lb/>
@@ -4836,7 +4841,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </note>
             </p>
             </div>
-        <div type="poetry">
+        <div n="div41" type="poetry">
             <head place="centre" rend="pre(rule) post(rule)">
             
                 An Eligie upon <persName ref="ppl:gw1" n="per423" type="person">George Wandesford Esq{uire}</persName><lb/>
@@ -4902,7 +4907,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <l>To open a neare-way to Paradise. / Cwyvill.</l>
        
         </div>
-        <div rend="pre(rule)">
+        <div n="div42" rend="pre(rule)">
             <!-- NOTE section about awt's mother -->
             <p>When the determinate will of our God is shewed towards<lb/>
                  us, it is then, our duties, quietly, to sitt downe &amp; patien<lb/>
@@ -4964,7 +4969,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  and thankfull to his gracious, Majestie for Ever. Amen.</p>
            </div>
         
-        <div rend="pre(rule)"> 
+        <div n="div43" rend="pre(rule)"> 
            <milestone unit="event"/>
             <p><persName ref="ppl:mny1" n="per434">My Cosen mary Yorke</persName>, was married to <persName ref="ppl:jy1" n="per435">Mr John York</persName><lb/>
                  at her fathers house, my <persName ref="ppl:mn1" n="per436">uncle norton</persName>s on <placeName ref="place:Rich_044" n="place197">the Greene<lb/>
@@ -4972,7 +4977,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <anchor/>
           </div>
         
-        <div rend="pre(rule) post(rule)">  
+        <div n="div44" rend="pre(rule) post(rule)">  
             <milestone unit="event"/>
             <p><persName ref="ppl:cw2" n="per437">My brother Christopher Wandesforde</persName>, married<lb/>
                  <persName ref="ppl:jl1" n="per438">Sir John Lowther</persName>s Daughter <persName ref="ppl:elw1" n="per439">Mrs Eleanor</persName> the Eldest<lb/>
@@ -4988,7 +4993,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">118.</fw>
             
-        <div>
+        <div n="div45">
             <head rend="post(rule)">The Mariage of <persName ref="ppl:awt1" n="per440">Alice Wandesforde</persName> <date when-iso="1651-12-15" type="marriage">Decm. 15. 1651</date>.</head>
             <milestone unit="event"/><!-- event awt marriage negotiations? -->
             <p>After many troubles &amp; afflictions, under which it <lb/>
@@ -5305,7 +5310,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <anchor/>
             </div>
         
-        <div>
+        <div n="div46">
             <head rend="pre(rule) post(rule)">
             
                 <note place="end">
@@ -5357,7 +5362,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  to give us for the Lord Jesus his sake. Amen</p>
             </div>
         
-        <div>
+        <div n="div47">
             <head place="right" rend="pre(rule) post(rule)">
              
                 A deliverance from death that day on which I was <lb/>
@@ -5404,7 +5409,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  whom God had given me. but sett my desires more up<lb/>
                  on the love of my Lord &amp; God. //.</p>
             </div>
-        <div>
+        <div n="div48">
             <head rend="pre(rule) post(rule)">
             
                 Meditations upon my deliverance of <rs ref="ppl:xt1" n="per512" type="person">my first<lb/>
@@ -5558,7 +5563,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  mighty Power. therefore will I praise the Lord my God. Amen.</p>
             <anchor/>
             </div>
-        <div type="prayer">
+        <div n="div49" type="prayer">
             <head rend="pre(rule) post(rule)">
             
                 A praier &amp; thankesgiveing for my deliverance of <rs ref="ppl:xt1" n="per532" type="person">my<lb/>
@@ -5694,7 +5699,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </note>
             </p>
             </div>
-        <div>
+        <div n="div50">
             <head rend="pre(rule)">
             
                 Uppon the Birth of my Second childe, &amp; Daughter<lb/>
@@ -5781,7 +5786,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </note>, &amp; <persName ref="ppl:mny1" n="per544">my cosen Yorke his daughter</persName><!-- NOTE people - "Maulger's daughter, my cousin York": Mary Norton Yorke. Not "my cousin Yorke's daughter". doh.  -->. at <placeName ref="place:Hips_022" n="place227">Hipswell</placeName><lb/>
                  by <persName ref="ppl:ms1" n="per545">Mr Michell Siddall</persName> minister then of <placeName ref="place:Catt_008" n="place228">Caterick</placeName>.<anchor/> //.</p>
         </div>
-        <div type="prayer">
+        <div n="div51" type="prayer">
             <head rend="pre(rule) post(rule)">
             
                 A praier &amp; thanksgiveing for my deliverance<lb/>
@@ -5876,7 +5881,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </note>
             </p>
        </div>
-       <div>
+       <div n="div52">
            <head rend="pre(rule) post(rule)">
           
                 Meditations uppon the birth of my 3<hi rend="superscript">d</hi> Childe <persName ref="ppl:et1" n="per548">Eliz.<lb/>
@@ -6002,7 +6007,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  <persName ref="ppl:kb1" n="per576">Mrs Blackburne</persName> stood for <rs ref="ppl:aow1" n="per577" type="person">my mother</rs> beeing sicke then.</p>
            <anchor/>
         </div>
-        <div type="prayer">
+        <div n="div53" type="prayer">
             <head rend="pre(rule) post(rule)">
             
                 A thanksgiveing affter the birth of <persName ref="ppl:et1" n="per578">my 3<hi rend="superscript">d</hi> childe Betty</persName></head>
@@ -6115,7 +6120,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             </p>
            </div>
         
-        <div rend="pre(rule)">
+        <div n="div54" rend="pre(rule)">
            <milestone unit="event"/> 
             <p><persName ref="ppl:edg1" n="per579">My mother Gates</persName>, who was <rs ref="ppl:wt1" n="per580" type="person">my husband</rs>s mother; died<lb/>
                  att <placeName ref="place:Oswa_041" n="place230">Oswoldkirke</placeName> of a flux of blood by seige. as it was<lb/>
@@ -6130,7 +6135,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <anchor/>
        </div>
         
-        <div rend="pre(rule)"> 
+        <div n="div55" rend="pre(rule)"> 
            <milestone unit="event"/> 
             <p>My Husbands Father in Law <persName ref="ppl:gg1" n="per582">Mr Geffery Gates</persName> died.<lb/>
                  att <placeName ref="place:Hull_027" n="place232">Hull</placeName> the <date when-iso="1655-05-18" type="death">18<hi rend="superscript">th</hi> of May. 1655</date>. &amp;, was buried at <placeName ref="place:Hull_027" n="place233">Hull</placeName> the<lb/>
@@ -6141,7 +6146,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 day: <date when-iso="1655-05-19">May: 19<hi rend="superscript">th</hi> 1655</date>. <hi rend="italic">#</hi><!-- Q italic -->.</p>
             <anchor/>
        </div>
-        <div rend="pre(rule)">
+        <div n="div56" rend="pre(rule)">
             <milestone unit="event"/>
             <p><persName ref="ppl:rt1" n="per583">My brother Richeard Thornton</persName> died in <placeName ref="place:Dubl_088" n="place234">Dublin</placeName>. in Ireland<lb/>
                  of the Flux the <date when-iso="1656-07-03" type="death">3<hi rend="superscript">d</hi> of July 1656</date>. &amp; was buried in <placeName ref="place:StPa_092" n="place235">St Patricks<lb/>
@@ -6164,7 +6169,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  &amp; very well disposed towards Religion. <hi rend="italic">#.</hi><!-- Q italic -->
             </p>
             </div>
-        <div>
+        <div n="div57">
             <head rend="pre(rule) post(rule)">
             
             Meditation uppon the birth of <persName ref="ppl:ktp1" n="per585">my 4<hi rend="superscript">th</hi> childe Katherin<lb/>
@@ -6186,7 +6191,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  Prayer foll{owing}:</p>
             </div>
         
-        <div type="prayer"><!-- Q prayer by awt's mother - there are more by her mother and at least one by her father, plus Wyvill poem and other material. do we want to encode different authors or just use notes? (could use @resp?) -->
+        <div n="div58" type="prayer"><!-- Q prayer by awt's mother - there are more by her mother and at least one by her father, plus Wyvill poem and other material. do we want to encode different authors or just use notes? (could use @resp?) -->
             <head rend="pre(rule) post(rule)">
             
                 A prayer before the delivery of my daughter<lb/>
@@ -6324,7 +6329,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <p> Amen.</p>
          
          </div>
-        <div rend="pre(rule)">
+        <div n="div59" rend="pre(rule)">
             <milestone unit="event"/><!-- event awt child4 birth -->
             <p>After which humble pettitions it Pleased our gracious Father<lb/>
                  to grant our requests in a great measure for my paines of<lb/>
@@ -6337,7 +6342,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  wittnesses, <rs ref="ppl:aow1" n="per595" type="person">my mother</rs>, <persName ref="ppl:kdb1" n="per596">my neece Katherine Danby</persName> &amp; <persName ref="ppl:wt1" n="per597">Mr<lb/>
                  Thornton</persName>.<anchor/></p>
             </div>
-        <div type="prayer">
+        <div n="div60" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
                 <!-- Q [layout] -->
                 <!-- NOTE written by awt's mother -->
@@ -6444,7 +6449,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </note>
             </p>
             </div>
-        <div>
+        <div n="div61">
             <head rend="pre(rule) post(rule)">
                 <persName ref="ppl:et1" n="per601">Elizabeth Thornton</persName>s death; the <date when-iso="1656-09-05" type="death">5<hi rend="superscript">th</hi> of September 1656</date>.</head>
           <milestone unit="event"/><!-- event death child -->  
@@ -6472,7 +6477,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">150.</fw>
             
-        <div type="prayer">
+        <div n="div62" type="prayer">
             <head rend="post(rule)">
                 A Praier After the death of my 3<hi rend="superscript">d</hi> childe <persName ref="ppl:et1" n="per607">Betty. Thor</persName></head>
             
@@ -6525,7 +6530,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  in holinesse; &amp; Righteousnesse all the daies of our lives, and<lb/>
                  All for Jesus Christ our Lord his sake. Amen.</p>
        </div>
-       <div>
+       <div n="div63">
            <head rend="pre(rule) post(rule)">
                 Uppon my great fall I had, beeing with childe of <rs ref="ppl:xt2" n="per612" type="person">my 5<hi rend="superscript">th</hi></rs><lb/>
                <date when-iso="1657-09-14" type="illness">Sept. 14<hi rend="superscript">th</hi> 1657</date>. at <placeName ref="place:Hips_022" n="place241">Hipswell</placeName>.</head>
@@ -6560,7 +6565,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">152.</fw>
             
-        <div>
+        <div n="div64">
             <head rend="post(rule)">
                 Meditations on the deliverance, of <rs ref="ppl:xt2" n="per615" type="person">my first Sonne<lb/>
                     and fifth Childe</rs>. At <placeName ref="place:Hips_022" n="place243">Hipswell</placeName> the <date when-iso="1657-12-10" type="birth">10<hi rend="superscript">th</hi> of Decemb{er}<lb/>
@@ -6639,7 +6644,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  the last I may praise him Etternally in the heavens. Blesse<lb/>
                  the Lord O my soule &amp; forget not all his benifitts.</p>
          </div>
-        <div type="prayer">
+        <div n="div65" type="prayer">
             <head place="centre" rend="pre(rule)">
             
                 A praier upon my preservation affter the birth<lb/>
@@ -6712,7 +6717,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">155.</fw>
             
-        <div>
+        <div n="div66">
             <head rend="post(rule)">
                 My Cure of Bleeding at <placeName ref="place:Scar_045" n="place245">Scarbrough</placeName> <date when-iso="1659-08" type="illness">August. 1659</date>. // .
             </head>
@@ -6780,7 +6785,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  me hopes to bring forth a Son to be a Comfort to <rs ref="ppl:wt1" n="per637" type="person">my<lb/>
                  deare husband</rs> &amp; us all.<anchor/> // .</p>
             </div>
-        <div type="prayer">
+        <div n="div67" type="prayer">
             <head rend="pre(rule) post(rule)">
                 
                 A thanksgiveing affter affter
@@ -6828,7 +6833,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  security through Jesus Christ our Lord. Amen.</p>
          </div>
         
-        <div>
+        <div n="div68">
             <head rend="post(rule)"> <date when-iso="1659">1659</date>.</head><!-- Q [tag choice] tagging this as head, but usually have tagged year headings as fw. no other title text. hmmm. -->
             <milestone unit="event"/><!-- event politics -->
             <p>About this time wee weare all in a great confussion in<lb/>
@@ -6910,7 +6915,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  us and the true Religion in these, once flourishing Kingdoms.</p>
             <anchor/>
            </div>
-        <div type="prayer">
+        <div n="div69" type="prayer">
             <head rend="pre(rule) post(rule)">
                 
                 A Praier to God for the Church. &amp; restoration of <rs ref="ppl:cs2" n="per642" type="person">the King</rs>.<lb/>
@@ -6984,7 +6989,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  &amp; Saviour &amp; redemer. Amen. //.</p>
            </div>
         
-        <div>
+        <div n="div70">
             <head place="centre" rend="pre(rule) post(rule)">
                 
             A Relation conserning my deare &amp; hon{oured}<lb/>
@@ -7323,7 +7328,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  her the full fruittion of her long desired happinesse.</p>
             
            </div>
-        <div>
+        <div n="div71">
             <head rend="post(rule)">
                 The relattion of her sicknesse heere followes. //.
             <note place="end">
@@ -7802,7 +7807,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  to doe him true &amp; faithfull service to our lives End.</p>
             <p>Amen.</p>
         </div>
-        <div type="prayer">
+        <div n="div72" type="prayer">
            <!-- Q [div] how to handle the three prayers. have split into subsections. -->
             <head place="centre" rend="pre(rule) post(rule)">
                 
@@ -7811,7 +7816,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             </head>
             
             
-            <div>
+            <div n="div73">
                 <head place="centre" rend="post(rule)">Before receaving of the bread.</head>
             
             <p>O most gracious God. which hath Sacrificed thine<lb/>
@@ -7825,7 +7830,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  be remitted &amp; forgiven, as verily, as I shall now be<lb/>
                  pertaker of this blessed Sacrament. Amen.</p>
            </div>
-           <div>     
+           <div n="div74">     
             <!-- TODO [decoration] pre rule is thicker line -->
                 <head rend="pre(rule) post(rule)">Before Receaving of the wine. affter consecration</head>
 
@@ -7850,7 +7855,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <!-- Q [decoration] "flourish" not likely to be easy to represent in text! -->
             </p>
           </div>
-          <div>     
+          <div n="div75">     
             
               <head place="centre" rend="pre(rule) post(rule)">After both bread &amp; wine.</head>
             
@@ -7874,7 +7879,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <p>Amen. &amp;. Amen.</p>
           </div>
       </div>
-      <div>
+      <div n="div76">
           <head rend="pre(rule) post(rule)">
                 
             My delivery of <persName ref="ppl:wt2" n="per744">my Son William</persName>, my 6<hi rend="superscript">th</hi> childe; &amp; of his<lb/>
@@ -7997,7 +8002,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <fw type="pageNum">182.</fw>
             
 
-        <div type="poetry">
+        <div n="div77" type="poetry">
 
             <l>Tax not thy God, thy owne defaults did urge.</l>
             <l>This too fould punishment, the Mille the the<note place="end">
@@ -8015,7 +8020,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <l>Where gaine's uncertaine, &amp; the paine is sure.</l>
            </div>
         
-        <div>
+        <div n="div78">
             <head rend="pre(rule) post(rule)">
                 
                 A thanksgiveing for the restoration of <persName ref="ppl:cs2" n="per760">King Charles<lb/>
@@ -8080,7 +8085,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  the Glorious name of Jehova for ever Amen.</p>
            </div>
         
-        <div type="prayer">
+        <div n="div79" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
                 
                 A Praier. &amp; Thanksgiveing for deliverance<lb/>
@@ -8215,7 +8220,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  and for Ever. Amen. Amen.         
             </p>
      </div>
-     <div>       
+     <div n="div80">       
          <head rend="pre(rule) post(rule)">
                 <hi style="font-family:Segoe UI Symbol">♡ ♡ ♡ ♡ ♡ ♡ ♡</hi> <lb/>
                 
@@ -8311,7 +8316,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
             
                 <fw type="pageNum">188.</fw>
-        <div>
+        <div n="div81">
             
             <head rend="post(rule)">
                 My greatt Sicknesse att <placeName ref="place:Oswa_041" n="place292">Oswoldkirke</placeName> <date when-iso="1662-02-11" type="illness">feb. 13<hi rend="superscript">th</hi> 1661</date><!-- Q [dates] correction in when-iso --><note place="end">
@@ -8546,7 +8551,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </note>
             </p>
            </div>
-        <div rend="pre(rule)">
+        <div n="div82" rend="pre(rule)">
           <!-- NOTE [div] new div: no section title but has index entry + divider line  --> 
             
             <p>Affter this inestimable &amp; wonderfull mercy, in my grac--<lb break="no"/><!-- Q CHECK double - ? -->
@@ -8602,7 +8607,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  before his Presence all my daies Amen.</p>
             <anchor/>
             </div>
-        <div>
+        <div n="div83">
             <head rend="pre(rule) post(rule)">
             
                 <note place="end">
@@ -8760,7 +8765,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  his pleasure not to be burdensome to others. And in the end<lb/>
                  to be our Portion &amp; our inheritance for Evers Amen.</p>
         </div>
-        <div>
+        <div n="div84">
             <head rend="pre(rule) post(rule)">
                 
                 Of the grand mercy I had in the first Sacrament at <placeName ref="place:East_019" n="place300">Easte<lb/>
@@ -8899,7 +8904,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  pledge I hope of our Salvation. in that Supper of the Lord.<anchor/>
                 </p>
         </div>
-        <div>
+        <div n="div85">
             <p>
                  Through which meanes I was much comforted; helped, inlive-<lb break="no"/>
                  -ned, &amp; quickned; from that blacke vaile of unbeleife: which cloud<lb/>
@@ -8930,7 +8935,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">200.</fw>
             
-        <div>
+        <div n="div86">
             <head rend="post(rule)">
                 <persName ref="ppl:rc2" n="per822">Mr Colvill</persName>s Settlement of <persName ref="ppl:wt1" n="per823">Mr Thornton</persName>s Estate: <del rend="doublestrikethrough">166X</del><lb/>
                 <!-- Q CORRECTION? check "166X". looks like 1661 to me? so not sure why transcribed X. meant to be illegible? typo? -->
@@ -9112,7 +9117,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  disposittion of the Great God, humbly craveing his blessing<lb/>
                  upon them all for Christs sake Amen.</p>
       </div>
-        <div>
+        <div n="div87">
             <head rend="pre(rule) post(rule)">
                 
                 Upon my deliverance, of my sonne <persName ref="ppl:rt2" n="per845">Robert Thornton</persName><lb/>
@@ -9206,7 +9211,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  to sett forth thine almighty Power, Glory. &amp; Infinitt Perfection<lb/>
                  That canst raise from death, &amp; bring to the grave in a moment.</p>
             </div>
-        <div type="prayer">
+        <div n="div88" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
                 
                 A Thanksgiveing affter my deliverance of <persName ref="ppl:rt2" n="per853">my son Robert</persName>
@@ -9290,7 +9295,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  &amp; Earth for ever: Amen. //.</p>
             </div>
         
-        <div rend="pre(rule)">
+        <div n="div89" rend="pre(rule)">
             <!-- NOTE [div] new div: no section title or index entry, but divider line and narrative change  -->
             <milestone unit="event"/><!-- event child7 baptism -->
             <p><persName ref="ppl:rt2" n="per857">My Son Robert</persName> was baptized on <date when-iso="1662-09-20">Satterday the 20<hi rend="superscript">th</hi> of<lb/>
@@ -9340,7 +9345,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">208.</fw>
             
-        <div>
+        <div n="div90">
             <head rend="post(rule)">
                 <persName ref="ppl:wt1" n="per864" type="person">Mr Thornton</persName>s Preservation from drowning: <date when-iso="1664-10" type="accident">Oct. 1664</date></head>
            <milestone unit="event"/> 
@@ -9359,7 +9364,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  hopes of Etternall mercys. through Jesus Christ our Lord</p>
             <p>Amen.</p>
             </div>
-        <div>
+        <div n="div91">
             <head rend="pre(rule) post(rule)">
                 Upon the birth of my 8<hi rend="superscript">th</hi> Childe <persName ref="ppl:jt1" n="per869">Joyce Thornton</persName> <date when-iso="1665-09-23" type="birth">Sept.<lb/>
                  23<hi rend="superscript">rd</hi> 1665</date> att <placeName ref="place:East_019" n="place318">Newton</placeName>:</head>
@@ -9516,7 +9521,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  Life. and given me this great temporall blessing. For all good<lb/>
                  comes from him alone. Lord sanctifie this mercy to us all.</p>
         </div>
-        <div>
+        <div n="div92">
             <head rend="pre(rule) post(rule)">
                 
                 A Relation of Mr Thorntons dangerous fitt of the Palsie<lb/>
@@ -9597,7 +9602,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
             
                 <fw type="pageNum">213.</fw>
-        <div type="prayer">
+        <div n="div93" type="prayer">
             
             <head rend="post(rule)">
                 A Prayer after <persName ref="ppl:wt1" n="per912">Mr Thornton</persName>s Recovery: <date when-iso="1665-11-28" type="illness">No. 28<hi rend="superscript">th</hi> 1665</date>.
@@ -9646,7 +9651,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
             
                 <fw type="pageNum">214.</fw>
-        <div>
+        <div n="div94">
             
             <head rend="post(rule)">
                 Uppon <rs ref="ppl:jt1" n="per914" type="person">my deare Joyce</rs> her death <date when-iso="1666-01-27" type="death">Jan. 27 1665</date><!-- Q [dates] OS calendar -->.</head>
@@ -9720,7 +9725,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  be unmindfull of his hand by these corrections. but we may<lb/>
                  be delivered from the Jawes of Etternall death. Amen. // .</p>
             </div>
-        <div>
+        <div n="div95">
             <head rend="pre(rule) post(rule)">
                 Uppon <persName ref="ppl:atc1" n="per921">my Daughter Alice</persName> preservation in a sirfitt <date when-iso="1665-06-13" type="illness">June 13 1665</date>.</head>
             <milestone unit="event"/>
@@ -9748,7 +9753,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">216.</fw>
             
-        <div>
+        <div n="div96">
             <head rend="post(rule)">
                 Of my dangerous sickenesse: <date when-iso="1666-08-16" type="illness">August 8 <add place="above">16th</add><!-- CORRECTION? check with transcriber I think 8 should be deletion? --> 1666</date>.</head>
             <note place="end">
@@ -9806,7 +9811,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  strength by degrees, to passe through that tirrible vissitation<lb/>
                  &amp; languishing condition all that winter.<anchor/> //.</p>
       </div>
-      <div type="prayer">
+      <div n="div97" type="prayer">
           <!-- NOTE [div] new div: no section title, only division marker is //, but there is an index entry (ref is 218 instead of 217) -->
             <p>I humblie Acknowledge my boundant duty &amp; gratitude<lb/>
                  for deliverance, &amp; preservation from this death allso; to<lb/>
@@ -9872,7 +9877,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  upon those words in St Matt. 9<seg rend="background(green)">:</seg> v. 21, 22. Luke. the 17<seg rend="background(green)">:</seg> v. 15. 16.</p>
           </div>
         
-        <div rend="pre(rule)">           
+        <div n="div98" rend="pre(rule)">           
             
             <p>After these weaknesses seized soe extreamly upon my Person<lb/>
                  with such violency &amp; danger to my life, I could not be insensable<lb/>
@@ -9979,7 +9984,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  -dences many fold to me &amp; mine. Praise the Lord o my Soule<lb/>
                  and forgett not all his benifitts. Amen.</p>
             </div>
-        <div rend="pre(rule)">
+        <div n="div99" rend="pre(rule)">
             <milestone unit="event"/>
             <p>About the <date when-iso="1666-09-02" type="accident">2<hi rend="superscript">d</hi> of September: <hi rend="underline">1666</hi></date> began the great fire<lb/>
                  in <placeName ref="place:Lond_080" n="place334">London</placeName>, which in 4 daies time consumed 13200 houses<lb/>
@@ -9988,7 +9993,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <anchor/>
             </div>
         
-        <div>
+        <div n="div100">
             <head rend="pre(rule) post(rule)">
                 
                 My daughter <persName ref="ppl:ktp1" n="per952">Katherine Thornton</persName>s preservation in<lb/>
@@ -10033,7 +10038,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  for <rs ref="ppl:ktp1" n="per957" type="person">my childe</rs>s life. The Lord give me a thankfull <hi style="font-family:Segoe UI Symbol">♡</hi> &amp;<lb/>
                  that she may live to his Glory for Christs sake, Amen.</p>
             </div>
-        <div>
+        <div n="div101">
             <head rend="pre(rule) post(rule)">
                 
                 The death of my Brother John Wandesford: <date when-iso="1666-12-02" type="death">De. 2<hi rend="superscript">d</hi> 1666</date>.</head>
@@ -10257,14 +10262,14 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
             
                 <fw type="pageNum">226.</fw>
-        <div>
+        <div n="div102">
           <milestone unit="event"/>  
             <p>About this <date when-iso="1666-12-25" type="death">Christmas 1666</date>. <persName ref="ppl:wn1" n="per979">My Cozen william Norton</persName><lb/>
                  was inhumainly murdered at <placeName ref="place:Gray_081" n="place344">London neare Grays Inn</placeName>.</p>
             <anchor/>
         </div>
         
-        <div>
+        <div n="div103">
             <head rend="pre(rule) post(rule)">
               
                 <note place="end">
@@ -10298,7 +10303,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <anchor/>
             </div>
         
-        <div rend="pre(rule_double)">
+        <div n="div104" rend="pre(rule_double)">
             <note place="end">
                     <p rend="Endnote Text"> [decoration] Double line here.</p>
                 </note>
@@ -10322,7 +10327,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">227</fw>
             
-        <div rend="post(rule)">
+        <div n="div105" rend="post(rule)">
             <head rend="post(rule)">
                 My daughter <persName ref="ppl:atc1" n="per988">Alice Thornton</persName> her Smale Pox <date when-iso="1667-01-25" type="illness">Jan.<hi rend="underline">2, 67.</hi></date><!-- CORRECTION transcription "25, 67" -->
             </head>
@@ -10373,7 +10378,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
                 <fw type="pageNum">228.</fw>
             
-        <div>
+        <div n="div106">
             <head place="centre" rend="underline">
                 <!-- Q [tag choice] again tag the year 67 as head or fw? -->
                 <date when-iso="1667" type="illness">67</date>.
@@ -10390,7 +10395,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  fast haveing but a few. blessed be God for his deliverance.</p>
             <anchor/>
         </div>
-        <div rend="pre(rule_double)">
+        <div n="div107" rend="pre(rule_double)">
             <note place="end">
                     <p rend="Endnote Text"> [decoration] Double line here.</p>
                 </note>
@@ -10404,7 +10409,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  favours to me &amp; mine. O that these might sett forth his<lb/>
                  praises for ever more Amen. //</p><!-- Q [decoration] inline // -->
          </div>
-        <div rend="pre(rule_double)">
+        <div n="div108" rend="pre(rule_double)">
             <note place="end">
                     <p rend="Endnote Text"> [decoration] Double line here.</p>
                 </note>
@@ -10421,7 +10426,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <anchor/>
             </p>
         </div>
-        <div rend="pre(rule_double)">
+        <div n="div109" rend="pre(rule_double)">
                 <note place="end">
                     <p rend="Endnote Text"> [decoration] Double line here.</p>
                 </note>
@@ -10458,7 +10463,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  &amp; understanding. give her &amp; us all grace never to for <lb/>
                  gett these wonderfull mercys to our soules &amp; bodies. Amen: //</p>
        </div>
-        <div rend="pre(rule) post(rule)">
+        <div n="div110" rend="pre(rule) post(rule)">
             <note place="end">
                     <p rend="Endnote Text"> [decoration] Patterned border </p>
                 <!-- TODO [decoration] patterned border pre *and* post -->
@@ -10509,7 +10514,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">230.</fw>
             
-        <div>
+        <div n="div111">
             <head rend="post(rule)">
                 The birth of <persName ref="ppl:ct1" n="per1015">my Sonne Christopher</persName>, my 9<hi rend="superscript">th</hi> Childe<lb/>
                 <date when-iso="1667-11-11" type="birth">no. 11 1667</date> &amp; of his Death. <date when-iso="1667-12-01" type="death">Dec. 1<hi rend="superscript">st</hi> 1667</date>. //.</head>
@@ -10618,7 +10623,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             His God fathers &amp; God mother were <persName ref="ppl:jd2" n="per1021">my Bro Denton</persName><lb/>
                  <persName ref="ppl:tp1" n="per1022">my brother Portington</persName>. &amp; <persName ref="ppl:acd1" n="per1023">Mrs Anne Danby</persName>.<anchor/> // .</p>
         </div>
-        <div rend="pre(rule)">
+        <div n="div112" rend="pre(rule)">
            <milestone unit="event"/> 
             <p>Affter this comfort of <rs ref="ppl:ct1" n="per1024" type="person">my Childe</rs> I recovered something<lb/>
                  of my weakeness, better: recovering my breasts &amp;<lb/>
@@ -10738,7 +10743,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  I will magnifie thee o blessed Trinity fore ever.</p>
             <p>Amen. Amen.</p>
       </div>
-        <div rend="pre(rule)">
+        <div n="div113" rend="pre(rule)">
            <milestone unit="event"/> 
             <p>After the recovery of my health &amp; strength againe<lb/>
                  I had returned another affliction; which was not at that<lb/>
@@ -10819,7 +10824,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">236.</fw>
             
-        <div>
+        <div n="div114">
             <!-- NOTE [div] no div marker, but indexed [one page out] and change of subject. -->
            <milestone unit="event"/><!-- event wt dream -->
             <p>A bout the <date when-iso="1668-05-20">20<hi rend="superscript">th</hi> day of may:</date> on that night, my deare hus<lb break="no"/>
@@ -10888,7 +10893,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
             </p>
             </div>
-        <div>
+        <div n="div115">
             <head place="right" rend="post(rule) border(left)">
                 <!-- Q [layout] tagging title, the | left border. border(left|right) might do it? -->
                 | On <persName ref="ppl:acd1" n="per1064">Mrs Anne Danby</persName>s goeing to Hooly. <date when-iso="1667-04-20">Ap. 20. 67</date>.<note place="end">
@@ -11317,7 +11322,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  nesse that hates me with out a cause. //.</p>
             <anchor/>
         </div>
-        <div>
+        <div n="div116">
             <head rend="pre(rule) post(rule)"> 
             
                 <note place="end">
@@ -12009,7 +12014,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  Least they perish in there iniquities. // .</p>
         </div>
         
-        <div type="prayer">
+        <div n="div117" type="prayer">
             <head rend="pre(rule) post(rule)">
             
                 <note place="end">
@@ -12177,7 +12182,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">264.</fw>
             
-        <div>
+        <div n="div118">
             <head rend="post(rule)">
                 My son <persName ref="ppl:rt2" n="per1250">Robert Thornton</persName> preserved <date when-iso="1668-07-25" type="accident">July. 25. 1668</date>.</head>
             <note place="end">
@@ -12249,7 +12254,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  heartily begge for the lone sake of our dearest Lord &amp; savio{u}r<lb/>
                  Jesus Christ his holie son. Amen &amp; Amen.</p>
          </div>
-        <div>
+        <div n="div119">
             <head rend="pre(rule) post(rule)">
            
                 <note place="end">
@@ -12387,7 +12392,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">268.</fw>
         
-       <div>     
+       <div n="div120">     
             <p>Such was the violency of prevailing passion, &amp; affliction<lb/>
                  upon this change That I was allmost changed with him<lb/>
                  &amp; ready to goe into the grave. that as we had lived in holy<lb/>
@@ -12592,7 +12597,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  made pertaker of in Heaven. // .</p>
         </div>
         
-        <div type="prayer">
+        <div n="div121" type="prayer">
             <head rend="pre(rule) post(rule)">
             
                 <note place="end">
@@ -12723,7 +12728,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  addoration, &amp; thanksgiving of men &amp; Angells. hence forth<lb/>
                  &amp; for Ever more. Amen. &amp; Amen.</p>
         </div>
-        <div rend="pre(rule)">
+        <div n="div122" rend="pre(rule)">
             
                 <note place="end">
                     <p rend="Endnote Text"> [decoration] Patterned border.</p>
@@ -12788,7 +12793,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">275.</fw>
             
-        <div>
+        <div n="div123">
             <p>
               <milestone unit="event"/>
                 He departed on <date when-iso="1668-09-17">Thursday the 17<hi rend="superscript">th</hi> of September <hi rend="underline">1668</hi></date>.<lb/>
@@ -12846,7 +12851,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">276.</fw>
             
-        <div type="prayer">
+        <div n="div124" type="prayer">
             <head rend="pre(rule) post(rule)">
             
                 <note place="end">
@@ -13060,7 +13065,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </note>
             </p>
        </div>
-       <div type="poetry">
+       <div n="div125" type="poetry">
            <head place="centre" rend="pre(rule)">
             
                 <note place="end">
@@ -13075,7 +13080,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  Sett your affections on heaven above, &amp; not on Earth.<lb/>
                  for where your Treasure is there will your heart be allso.</p>
            </div>
-        <div type="poetry" rend="pre(rule)">
+        <div n="div126" type="poetry" rend="pre(rule)">
                
             <p> The Just shall live by faith. //</p>
             <p><persName ref="ppl:wt1" n="per1299">Mr Thornton</persName>s motto &amp; my owne.</p>
@@ -13087,7 +13092,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <p>Tour pour le' Eglize:] All for the Church}</p>
             <p>Annagrame.</p>
            </div>
-        <div type="poetry" rend="pre(rule)">
+        <div n="div127" type="poetry" rend="pre(rule)">
                
             <l>Christ and his Church, in love soe well agr’eed.</l>
             <l>That hee for her, and She for him, has bl’eed.</l>
@@ -13130,7 +13135,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         
        </div>
         
-        <div type="poetry">
+        <div n="div128" type="poetry">
             <head place="centre" rend="pre(rule)">
             
                 Against the feares of Death.</head>
@@ -13147,7 +13152,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <l>Then lett us hold, the blisse of gracious minde.</l>
             <l>Since this wee feele. greatt losse we cannot finde.</l>
         </div>
-        <div type="prayer" rend="pre(rule)">
+        <div n="div129" type="prayer" rend="pre(rule)">
             
             <l>O Death I will be thy Death. O Grave I will be thy</l>
             <l>Victory. thanks be to God: through our Lord Jesus Christ.</l>
@@ -13159,7 +13164,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
             
                 <fw type="pageNum">282.</fw>
-        <div type="poetry">
+        <div n="div130" type="poetry">
             <!-- Q [tag choice] whether these untitled sections should be div or lg. div for now. -->
             <head place="centre" rend="post(rule)">An inducement to Love Heaven // .</head>
             
@@ -13168,14 +13173,14 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <l>Grow rich in grace, which never taketh Rust:</l>
             <l>What ever fades, but faiding pleasure brings.</l>
         </div>
-        <div type="poetry" rend="pre(rule)">
+        <div n="div131" type="poetry" rend="pre(rule)">
             
             <l>Draw in thy beames, and humble all thy might.</l>
             <l>To that sweete yoake, where lasting freedomes be.</l>
             <l>Which breakes the Clouds, and opens forth the light</l>
             <l>That doth both shine, and gives us sight to see.</l>
         </div>
-        <div type="poetry" rend="pre(rule)">
+        <div n="div132" type="poetry" rend="pre(rule)">
             
             <l>O take fast hold, lett that light by thy guide</l>
             <l>In this smale course, which birth drawes out to death</l>
@@ -13185,7 +13190,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <l>Eternall love maintaine thy life in mee. //.</l>
       </div>
         
-        <div type="poetry">
+        <div n="div133" type="poetry">
             <head place="centre" rend="pre(rule) post(rule)">
             
                 A faire-well to the World.</head>
@@ -13264,7 +13269,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
             
                 <fw type="pageNum">284.</fw>
-        <div type="poetry">
+        <div n="div134" type="poetry">
             
             <head place="centre" rend="pre(rule) post(rule)">
             
@@ -13335,7 +13340,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <l>Even unto all his Saints befall.</l>
             <l>finis. // .</l>
       </div>
-       <div type="poetry">
+       <div n="div135" type="poetry">
            <head place="centre" rend="pre(rule) post(rule)">
             
                 <note place="end">
@@ -13358,7 +13363,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">286.</fw>
             
-        <div type="supplementary">
+        <div n="div136" type="supplementary">
             <head>
             -----------------------------------------------------
                 <note place="end">
@@ -13387,7 +13392,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                </seg> 
             </p>
       </div>
-      <div>
+      <div n="div137">
             <head>
                 -----------------------------------------------------<lb/>
             
@@ -13529,7 +13534,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  holy glorious name &amp; holy Trinity for evr &amp; evr.</p>
             <p>Amen. &amp; Amen.</p>
         </div>
-        <div>
+        <div n="div138">
             <head place="centre" rend="pre(rule) post(rule)">
                 
                 A great deliverance from drowning in <placeName ref="place:Irel_096" n="place392">Ireland</placeName><lb/>
@@ -13599,7 +13604,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">290.</fw>
             
-        <div>
+        <div n="div139">
             <head place="centre" rend="pre(rule) post(rule)">
                 
                 A great deliverance from a 2<hi rend="superscript">d</hi> fall<lb/>
@@ -13698,7 +13703,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">292.</fw>
             
-        <div>
+        <div n="div140">
             <head place="centre">
                 A dreadfull fire in the <placeName ref="place:Dubl_089" n="place396">Castle of Dublin</placeName>.<lb/>
                  <date when-iso="1638" type="accident">1638</date>.</head>
@@ -13749,7 +13754,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">293.</fw>
             
-        <div>
+        <div n="div141">
             <milestone unit="event"/>
             <p>
                 <date when-iso="1640-12-10">Dec. 10 1640</date>. <persName ref="ppl:cw2" n="per1328">My brother Christopher Wand.</persName><lb/>
@@ -13772,7 +13777,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 </note> buried at <placeName ref="place:Kirk_030" n="place400">Kirklington</placeName> by his Antien<lb/>
                  ters<anchor/></p>
             </div>
-        <div>
+        <div n="div142">
             <head rend="pre(rule) post(rule)">
                 
                 Of the makeing; &amp; Preservation of <rs ref="ppl:cw1" n="per1332" type="person">my dear<lb/>
@@ -13827,7 +13832,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">294.</fw>
             
-        <div>
+        <div n="div143">
             <head rend="post(rule)">
                 A Grate full Remembrance of my beeing preserved<lb/>
                  from the fury of the warres in the time of the scotts being<lb/>
@@ -14036,7 +14041,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">298</fw>
             
-        <div>
+        <div n="div144">
             <head rend="post(rule)">
                 My delivrance from Drowning in the River at <placeName ref="place:Midd_038" n="place415">Midlam</placeName><lb/>
                  when I went to be a wittness to <persName ref="ppl:kwd1" n="per1372">my sister Danby</persName>s <persName ref="ppl:fd2" n="per1373">first<lb/>
@@ -14109,7 +14114,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  God of heavn by all the Power of men &amp; Angells for evr.<lb/>
                  o lett me live to thy glory &amp; serve thy majety for Eer Amn.</p>
         </div>
-        <div rend="pre(rule)"> 
+        <div n="div145" rend="pre(rule)"> 
             <note place="end">
                     <p rend="Endnote Text"> Summaries of previous entries – a form of ‘index’, i.e., addition to list of contents?</p>
                 </note>
@@ -14121,7 +14126,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  in the yeere. <date when-iso="1646">1646</date>.</p>
             <anchor/>
          </div>
-        <div rend="pre(rule)">
+        <div n="div146" rend="pre(rule)">
            <milestone unit="event"/>  
             <p>A very great deliverance of me as I was goeing over<lb/>
                  the River att midlam when <persName ref="ppl:kwd1" n="per1385">my Sistr Danby</persName> laid in of<lb/>
@@ -14129,7 +14134,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  in the yeare <date when-iso="1644">1644</date></p>
             <anchor/>
          </div>
-        <div rend="pre(rule)">
+        <div n="div147" rend="pre(rule)">
            <milestone unit="event"/>
             <p>A great deliverance of me from beeing destroyd<lb/>
                  with a cannon Bullett att weschester beeing besseged<lb/>
@@ -14148,7 +14153,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  shere.</p>
             <anchor/>
          </div>
-        <div rend="pre(rule)">
+        <div n="div148" rend="pre(rule)">
            <milestone unit="event"/> <!-- event smithson -->
             <p>A great delivrance from the violence of a<lb/>
                  Rape from <persName ref="ppl:js1" n="per1388">Jerimy Smithson</persName>. <persName ref="ppl:hs1" n="per1389">Sir 
@@ -14171,7 +14176,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <!-- Page 299 -->
 
     <back>
-        <div type="index">
+        <div n="div149" type="index">
             <p>
                 <note place="end">
                     <p rend="Endnote Text"> [page numbering] At does not provide page numbers for her ‘Index’, but does so for the entries she has added in. </p>
@@ -14479,8 +14484,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <pb n="306"/>
 
 <!-- Page 306 -->
-   <div type="supplementary">     
-       <div>
+   <div n="div150" type="supplementary">     
+       <div n="div151">
             
                 <fw type="pageNum">300</fw>
             
@@ -14542,7 +14547,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 307 -->
 
-        <div>
+        <div n="div152">
             <p>[*]<note place="end">
                     <p rend="Endnote Text"> [word] Monogram? Scribble? Slashed S – cf Wroth?</p>
                 </note>
@@ -14662,7 +14667,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
         <pb n="310"/>
 
-        <div>
+        <div n="div153">
             <!-- Q how to handle blank pages etc 
                 [ms] Final two leaves blank. -->
             <p>
