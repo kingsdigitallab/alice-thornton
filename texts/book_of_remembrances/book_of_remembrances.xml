@@ -274,11 +274,15 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="2"/>
 
 <!-- Page 2 -->
-     <!-- teamsQ page number: should it be transcribed? -->
-      <!-- [NOTE] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
          
          
          <pb n="3"/>
+     
+     
+      
+     <!-- Q page number: should be transcribed? -->
+      <!-- [NOTE] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
+     
 
 <!-- Page 3 -->
       
@@ -288,8 +292,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </fw>
      
      <div rend="post(diagonal)">
+       <p>
          <milestone n="ev1" unit="event"/>
-       <p><persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the<lb/>
+         <persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the<lb/>
           fifth childe of <persName ref="ppl:cw1" n="per3">Christopher<lb/>
           Wandesforde Esq.</persName><hi rend="superscript">r</hi> &amp; late<lb/>
           Lord Deputy of <placeName ref="place:Irel_096" n="place1">Ireland</placeName>.<lb/>
@@ -298,10 +303,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
           beeing munday, a bout two of<lb/>
           the clock in the after noone, in<lb/>
           the yeare. 1625: Baptised<lb/>
-          the next day.</p><anchor n="ev1"/>
+          the next day.</p>
          <p>Wittnesses, <persName ref="ppl:rl1" n="per4">Mr Lassells</persName> minister<lb/>
           of <placeName ref="place:Kirk_030" n="place3">Kirklington</placeName>. <persName ref="ppl:awn1" n="per5">Mrs Anne <lb/>
-            Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.</p>
+            Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.<anchor n="ev1"/></p>
          <p><!-- / div rend -->
            <!-- [NOTE] A slightly angled slash under Best and beyond full stop.-->
          </p>
@@ -310,9 +315,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="3v"/>
 
 <!-- Page 3v -->
+     
        <!-- [NOTE] blank page. -->
-       <!-- teamsQ is this page *definitely* not numbered? [no image to check]  -->
-
+       <!-- Q is this page *definitely* completely blank ie not numbered? [no image to check]  -->
+    
             <pb n="3a"/>
          
 <!-- Page 3a-->
@@ -342,10 +348,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <pb n="4"/>
 
 <!-- Page 4 -->
-<!-- teamsQ page number apparently present but not transcribed; should it be? [no image] -->
+     <div>
+       <fw>[4]</fw>
+<!-- Q page number apparently present but not transcribed [no image to check] -->
       <!-- [NOTE] blank – but it is numbered in the top left-hand corner. 
        -->
-         
+      </div>   
          
             <pb n="5"/>
 
@@ -509,7 +517,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date>1631</date>:<!-- TODO conventions change : -->
             </fw>
          </fw>
-         <milestone n="ev2" unit="event"/><p>
+         <milestone n="ev2" unit="event"/>
+         <p>
             When I was left at <placeName ref="place:Rich_043" n="place4">Richmond</placeName> 
             <subst>
               <del rend="strikethrough">in</del>
@@ -567,8 +576,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <fw type="pageNum">12</fw>
             <fw type="header">163i.</fw><!-- TODO conventions change - i>arabic numerals -->
          </fw>
+        <p>
          <milestone n="ev3" unit="event"/>
-        <p>Beeing removed from <placeName ref="place:Rich_043" n="place5">Richmond</placeName><lb/>
+          Beeing removed from <placeName ref="place:Rich_043" n="place5">Richmond</placeName><lb/>
           to <placeName ref="place:Lond_080" n="place6">London</placeName> by <rs ref="ppl:cw1" n="per13" type="person">my Father</rs>s &amp; <rs ref="ppl:aow1" n="per14" type="person">mother</rs>s<lb/>
           order to be with them. I fell into the<lb/>
           Small Pox haveing taken them of<lb/>
@@ -660,8 +670,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
             </fw>
             <fw type="pageNum">15</fw>
          </fw>
+         <p>
       <milestone n="ev5" unit="event"/>
-         <p>There was a great fire in the next<lb/>
+           There was a great fire in the next<lb/>
           House to <rs ref="ppl:cw1" n="per19" type="person">my father</rs>s in <placeName ref="place:StMa_082" n="place8">St martins<lb/>
           Lane in London</placeName>, which burnd a part <lb/>
             of our house &amp; had like to have<lb/>
@@ -693,12 +704,13 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date>1632.</date>
             </fw>
          </fw>
-         <p><milestone n="ev6" unit="event"/>It pleased God to give me a<lb/>
+         <p>
+           <milestone n="ev6" unit="event"/>It pleased God to give me a<lb/>
           safe passage with <rs ref="ppl:aow1" n="per24" type="person">my mother</rs> &amp; her<lb/>
           familie into <placeName ref="place:Irel_096" n="place9">Ireland</placeName> a bout the yeir<lb/>
           <date when-iso="1632" precision="medium">1632</date>: <rs ref="ppl:cw1" n="per25" type="person">my Father</rs> beeing there before<lb/>
           and sent for us over.<anchor n="ev6"/> 
-          <milestone n="ev7" unit="event"/>where I injoyed<lb/>
+         <milestone n="ev7" unit="event"/>where I injoyed<lb/>
           great happinesse &amp; comfort during<lb/>
           my fathers life and had the opportuni<lb/>
           ty of the best education that Kingdom<lb/>
@@ -948,13 +960,13 @@ The <damage> element should be used to indicate areas of damage affecting the te
         -->
 
        <div rend="pre(rule_short)">
-         <milestone n="ev16" unit="event"/>
          <p>
+         <milestone n="ev16" unit="event"/>
           we were prevented from the siege at<lb/>
           <placeName ref="place:York_060" n="place23">yorke</placeName> by <persName ref="ppl:td1" n="per42">Mr Danby</persName>s advice beeing<lb/>
           got halfe way thither, <date when-iso="1644">42</date>.
-         </p>
          <anchor n="ev16"/>
+         </p>
        </div>
    
        <!-- year 1643 -->
@@ -1015,52 +1027,62 @@ The <damage> element should be used to indicate areas of damage affecting the te
            
            <!-- msDescription [NOTE] Dates and page number looks to be in a darker ink than what’s written on the page. Also this particular page is far ‘neater’ than the previous – lots more space between sentences and entries.-->
          </fw>
+         <p>
          <milestone n="ev19" unit="event"/>
-         <p><persName ref="ppl:en1" n="per48">My Cozen Edmund Norton</persName> maried<lb/>
+           <persName ref="ppl:en1" n="per48">My Cozen Edmund Norton</persName> maried<lb/>
         <persName ref="ppl:td2" n="per49">Mr Dudly</persName>s Daughter &amp; heire of.<lb/>
            <placeName ref="place:Chop_013" n="place118">Chopwell</placeName>. <persName ref="ppl:jdn1" n="per50">Jane Dudly</persName>. the <date when-iso="1647-02-10">10<hi rend="superscript">th</hi> of<lb/>
            February. 1647<!-- date [NS/OS] --></date>. at <placeName ref="place:Chop_013" n="place26">Chopwell</placeName>.<!-- / div rend -->
-         </p><anchor n="ev19"/>
+         <anchor n="ev19"/>
+         </p>
        </div>
        <div rend="pre(rule_short) post(diagonal)">
            <!-- [NOTE] Divider lines on this page and next, solid line, of approximately [4 chars] length.-->
+         <p> 
          <milestone n="ev20" unit="event"/>
-         <p> <persName ref="ppl:en1" n="per51">My Cosen Edmund Norton</persName> died at<lb/>
+           <persName ref="ppl:en1" n="per51">My Cosen Edmund Norton</persName> died at<lb/>
            <placeName ref="place:York_060" n="place27">Yorke</placeName> of a pluresy, or stick in his<lb/>
         side, the <date when-iso="1648-11-30">30<hi rend="superscript">th</hi> of November: 1648</date>.<!-- / div rend -->
-         </p>
          <anchor n="ev20"/>
+         </p>
        </div>
        
      <!-- year 1649 -->
        <div rend="pre(rule_short) post(diagonal)">  
+         <p>
         <milestone n="ev21" unit="event"/>
-         <p><persName ref="ppl:cs1" n="per52">King Charles the first</persName> beheaded at<lb/>
+           <persName ref="ppl:cs1" n="per52">King Charles the first</persName> beheaded at<lb/>
         <placeName ref="place:Whit_084" n="place28">White hall, London</placeName> the <date when-iso="1649-01-30">30<hi rend="superscript">th</hi> of Janeuary,<lb/>
-        1648</date>.<!-- date - this one is definitely OS!--></p>
+        1648</date>.<!-- date - this one is definitely OS!-->
          <anchor n="ev21"/>
+         </p>
        </div>
        <div rend="pre(rule_short) post(diagonal)">
+         <p> 
          <milestone n="ev22" unit="event"/>
-         <p> <persName ref="ppl:jn1" n="per53">My Cozen Julian Norton</persName> died at<lb/>
+           <persName ref="ppl:jn1" n="per53">My Cozen Julian Norton</persName> died at<lb/>
         <placeName ref="place:Rich_044" n="place29">Richmond Greene</placeName> at <rs>her father</rs>s the<lb/>
            <date when-iso="1649-04-09">9<hi rend="superscript">th</hi> of Aprill. 1649</date>.<!-- / div rend -->
-         </p>
          <anchor n="ev22"/>
+         </p>
        </div>
        <div rend="pre(rule_short)">
+         <p> 
          <milestone n="ev23" unit="event"/>
-         <p> <persName ref="ppl:jn2" n="per54">my Cozen John Norton</persName> died at <placeName ref="place:StNi_050" n="place30">S<hi rend="superscript">t</hi>:<lb/>
-        Nickolas</placeName>.</p>
+           <persName ref="ppl:jn2" n="per54">my Cozen John Norton</persName> died at <placeName ref="place:StNi_050" n="place30">S<hi rend="superscript">t</hi>:<lb/>
+        Nickolas</placeName>.
          <anchor n="ev23"/>
+         </p>
        </div>
        <div>
+         <p> 
          <milestone unit="event" n="ev23a"/><!-- oops missed one... -->
-         <p> <persName ref="ppl:eo1" n="per55">my Uncle Sir Ed: Osborne</persName> died at <placeName ref="place:Kive_029" n="place31">Keevet<add place="above">n</add></placeName>
+           <persName ref="ppl:eo1" n="per55">my Uncle Sir Ed: Osborne</persName> died at <placeName ref="place:Kive_029" n="place31">Keevet<add place="above">n</add></placeName>
             <lb/>
           of a surfit of eating mellons. beeing to cold <lb/>
-            for him.</p>
+            for him.
          <anchor n="ev23a"/>
+         </p>
          </div>
             <pb n="24"/>
 
@@ -1085,35 +1107,37 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev24"/>
 </div>
        <div rend="pre(rule_short) post(diagonal)">
+         <p> 
          <milestone n="ev25" unit="event"/>
-         <p> <persName ref="ppl:mny1" n="per58">My Cozen mary Norton</persName> was Married<lb/>
+           <persName ref="ppl:mny1" n="per58">My Cozen mary Norton</persName> was Married<lb/>
            to <persName ref="ppl:jy1" n="per59">Mr John Vorke</persName> at <rs ref="ppl:mn1" n="per60" type="person">her father</rs>s<lb/>
            house on <placeName ref="place:Rich_044" n="place34">the Greene in Richmond</placeName>, the<lb/>
            <date when-iso="1651-04-12">12<hi rend="superscript">th</hi> of August, 1651</date>.<!-- / div rend --> 
-         </p>
          <anchor n="ev25"/>
+         </p>
        </div>
        <div rend="pre(rule_short)">
+         <p> 
          <milestone n="ev26" unit="event"/>
-         <p> <persName ref="ppl:cw2" n="per61">My Brother Christopher Wandesford</persName><lb/>
+           <persName ref="ppl:cw2" n="per61">My Brother Christopher Wandesford</persName><lb/>
            married <persName ref="ppl:jl1" n="per62">Sir John Lowther</persName>s eldest<lb/>
            Daughter <persName ref="ppl:elw1" n="per63">Mrs Elleanor Lowther</persName>, the.<lb/>
            <date when-iso="1651-09-30">30<hi rend="superscript">th</hi> of September. 1651</date>. at <placeName ref="place:Lowt_034" n="place35">Lowther</placeName>.
-         </p>
          <anchor n="ev26"/>
+         </p>
        </div>
        <div rend="pre(rule_short) post(diagonal)">
          <!-- [NOTE] This [pre-rule] line is more diagonal. -->
+         <p> 
          <milestone n="ev27" unit="event"/>
-         <p> My Selfe <persName ref="ppl:awt1" n="per64">Alice Wandesforde</persName> was<lb/>
+           My Selfe <persName ref="ppl:awt1" n="per64">Alice Wandesforde</persName> was<lb/>
            married to <persName ref="ppl:wt1" n="per65">William Thornton Esquire</persName><lb/>
            At <rs ref="ppl:aow1" n="per66" type="person">my mother</rs>s howse in <placeName ref="place:Hips_022" n="place36">hipswell</placeName> the<lb/>
         <date when-iso="1651-12-15">15<hi rend="superscript">th</hi> of December. 1651</date>. Maried by<milestone unit="undetermined" rend="diagonal"/><!-- / milestone --><lb/>
            <persName ref="ppl:ms1" n="per67">Mr Siddall</persName>.<!-- TODO had to correct ppl: ref here: make sure you do some checks when you've finished tagging --><!-- / div rend -->
            <!-- msDescription [NOTE] The bottom of ‘Mr Siddall’ and following punctuation and slash is missing suggesting the page has been trimmed.-->
-            
-         </p>
          <anchor n="ev27"/>
+         </p>
          </div>
             <pb n="25"/>
 
@@ -1124,24 +1148,27 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <fw type="header"><date when-iso="1652">1652</date>.</fw>
             <fw type="pageNum">25.</fw>
          </fw>
+         <p>
       <milestone n="ev28" unit="event"/>
-         <p>I began my greate Sickenesse affter<lb/>
+           I began my greate Sickenesse affter<lb/>
           I came from <placeName ref="place:Burn_005" n="place37">Barne Parke</placeName> the first time<lb/>
           about the <date when-iso="1652-08-06">6<hi rend="superscript">th</hi> of August 1652</date> &amp; miscar=<lb break="no"/>
           =ried of <rs ref="ppl:xt1" n="per68" type="person">my first Childe</rs> beeing a<lb/>
           daughter the <date when-iso="1652-08-27">27<hi rend="superscript">th</hi> of the same August 1652</date><lb/>
-          being friday. &amp; <milestone unit="event"/>she was buried at<lb/>
+          being friday.<anchor n="ev28"/> &amp; <milestone unit="event"/>she was buried at<lb/>
           <placeName ref="place:Easb_018" n="place38">Easby Church</placeName> neare <placeName ref="place:Rich_043" n="place39">Rich:</placeName> <date>the next morn<lb break="no"/>
           ing:</date><anchor/> <milestone unit="event"/><seg rend="differentInk">the efects of which sicknesse lasted by<lb/>
           an Ague. feaver, &amp; Jaundies 3 q<hi rend="superscript">rters</hi> of a <lb/>
-           yeare:<anchor/> at <placeName ref="place:Hips_022" n="place40">hipswell</placeName>.</seg></p>
-        <anchor n="ev28"/>
+           yeare: at <placeName ref="place:Hips_022" n="place40">hipswell</placeName>.</seg>
+        <anchor/>
+         </p>
        </div>
       <!-- year 1654 -->   
        <div rend="pre(rule)">
          <!-- [NOTE] This is a solid line and added later as it crosses through some of the next line. Not ruled. -->
         <milestone n="ev29" unit="event"/>
-         <p><persName ref="ppl:atc1" n="per69">Alice Thornton</persName> my Second Childe<lb/>
+         <p>
+           <persName ref="ppl:atc1" n="per69">Alice Thornton</persName> my Second Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place41">Hipswell</placeName> the <date when-iso="1654-01-03">3<hi rend="superscript">d</hi> of Janeuary</date><lb/>
 
          <fw place="left margin" rend="underline">1653</fw>
@@ -1162,8 +1189,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
       </div>
        <div rend="pre(rule) post(diagonal)">
          <!-- [NOTE] Line; not quite straight. -->
+         <p>
          <milestone n="ev30" unit="event"/>
-         <p><persName ref="ppl:et1" n="per75">Elizabeth Thornton</persName> my third Childe<lb/>
+           <persName ref="ppl:et1" n="per75">Elizabeth Thornton</persName> my third Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place42">Hipswell</placeName> the <date when-iso="1655-02-14">14<hi rend="superscript">th</hi> of februory</date><lb/>
         <fw place="left margin" rend="underline">1654:</fw>
          <!-- date [NOTE] More paper damage. Check original. 
@@ -1190,8 +1218,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
           my <persName ref="ppl:awn1" n="per78">Aunt Norton</persName> and my brother<lb/>
           <persName ref="ppl:cw2" n="per79">Christopher wandesforde</persName>, <persName ref="ppl:kb1" n="per80">Mrs Blacke<lb break="no"/>
           burne</persName> stood for my Mother being sicke<lb/>
-           then.<!-- / div rend --></p>
+           then.<!-- / div rend -->
          <anchor n="ev30"/>
+         </p>
        </div>
        
        <!-- year 1655 -->
@@ -1213,14 +1242,15 @@ The <damage> element should be used to indicate areas of damage affecting the te
        </div>
        <div rend="pre(diagonal) post(diagonal)">
          <!-- / div rend -->
+         <p>
          <milestone n="ev32" unit="event"/>
-         <p><persName ref="ppl:gg1" n="per82">my father Gates</persName> died at <placeName ref="place:Hull_027" n="place44">Hull</placeName><lb/>
+           <persName ref="ppl:gg1" n="per82">my father Gates</persName> died at <placeName ref="place:Hull_027" n="place44">Hull</placeName><lb/>
           the <date when-iso="1655-05-18"><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may 1655</date>. and was<lb/>
            buried at <placeName ref="place:Hull_027" n="place120">hull</placeName> the <date when-iso="1655-05-18"><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may<lb/>
           1655</date><!-- / div rend -->
            <!-- [NOTE] Diagonal line below second 5 and punctuation. -->
-         </p>
          <anchor n="ev32"/>
+         </p>
          </div>
             <pb n="27"/>
 
@@ -1231,8 +1261,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <fw type="header" rend="darkerInk"><date when-iso="1656">1656</date></fw>
             <fw type="pageNum" rend="darkerInk">27.</fw>
          </fw>
+         <p>
         <milestone n="ev33" unit="event"/>
-         <p><persName ref="ppl:rt1" n="per83">My brother. Richard Thornton</persName><lb/>
+           <persName ref="ppl:rt1" n="per83">My brother. Richard Thornton</persName><lb/>
            died in <placeName ref="place:Dubl_088" n="place45">Dublin</placeName>, in <placeName ref="place:Irel_096" n="place46">Ireland</placeName> of the <unclear reason="overwritten" rend="darkerInk" cert="high">flux</unclear>
               <!-- msDescription [NOTE] A bit unclear as in darker ink; overwritten?-->
             <lb/>
@@ -1241,12 +1272,14 @@ The <damage> element should be used to indicate areas of damage affecting the te
            <!-- date [NOTE] Looks like written over xe so June before?-->
             <lb/>
           1656</date>. &amp; buried in <placeName ref="place:StPa_092" n="place47">St Patricks <lb/>
-          Church</placeName> the next day.</p>
+          Church</placeName> the next day.
         <anchor n="ev33"/>
+         </p>
 </div>
        <div rend="pre(diagonal) post(diagonal)">
+         <p><!-- / div rend -->
          <milestone n="ev34" unit="event"/>
-         <p><!-- / div rend --><persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
+           <persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
           Childe was borne at <placeName ref="place:Hips_022" n="place48">Hipswell</placeName> the<lb/>
           <date when-iso="1656-06-12">12<hi rend="superscript">th</hi> of June, 1656</date>. being thursday<lb/>
           about halfe an houer affter 4 <milestone unit="undetermined" rend="diagonal"/>
@@ -1258,13 +1291,13 @@ The <damage> element should be used to indicate areas of damage affecting the te
           Siddall</persName>. wittnesses, <rs ref="ppl:aow1" n="per86" type="person">my mother</rs>,<lb/>
            <persName ref="ppl:kdb1" n="per87">my Neece <add place="above">K</add> Danby</persName>, &amp; <persName ref="ppl:wt1" n="per88">Mr Thornton</persName><!-- / div rend 
           [NOTE] Diagonal line below Thornton, although not as dark as the ones above Elizabeth.-->
-            
-         </p>
          <anchor n="ev34"/>
+         </p>
        </div>
+            
        <div rend="pre(diagonal)">
-         <milestone n="ev35" unit="event"/>
          <p><!-- / div rend -->
+         <milestone n="ev35" unit="event"/>
            <persName ref="ppl:et1" n="per89">Elizabeth Thornton</persName> my 3<hi rend="superscript">d</hi> child<lb/>
           died the: <date when-iso="1656-09-05">5<hi rend="superscript">th</hi> of September 1656</date>. <lb/>
           betwixt the hours of 5 and 6 in the<lb/>
@@ -1288,8 +1321,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
            <!-- [NOTE] There is a horizontal line / here from margin alongside Church up through buried -->.
             
             by <persName ref="ppl:ms1" n="per90">Mr Siddall</persName>.
-         </p>
          <anchor n="ev35"/>
+         </p>
        </div>
      <!-- year 1657 -->
        <div rend="pre(rule)">
@@ -1328,8 +1361,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
             </fw>
             <fw type="header"><date>1657</date></fw>
          </fw>
+         <p>
         <milestone n="ev37" unit="event"/>
-         <p>I was delivered of <rs ref="ppl:xt2" n="per93" type="person">my fifth<lb/>
+           I was delivered of <rs ref="ppl:xt2" n="per93" type="person">my fifth<lb/>
           Childe</rs> beeing a goodly Sonne<lb/>
            <!-- msDescription [NOTE] Page possibly trimmed as part of h of fifth not visible either-->
           uppon the <date when-iso="1657-12-10">10<hi rend="superscript">th</hi> day of Decemb<lb/>
@@ -1349,8 +1383,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
           <date when-iso="1657-12-10" type="burial">the same day</date> by <persName ref="ppl:ms1" n="per94">Mr Siddall</persName>:<lb/>
           he was Turned wrong in my wombe<lb/>
            by the fall I had in <date when-iso="1657-09" type="accident">Sept:</date> <hi rend="darkerInk" cert="low">before</hi>
-         </p>
         <anchor n="ev37"/>
+         </p>
 
             <pb n="30"/>
 
@@ -1372,7 +1406,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
               allmost into a consumtion. non expect<lb break="no"/>
               =ing for manye daies together that I<lb/>
                       
-         <fw place="left margin" rend="underline"><date>1658</date></fw>
+         <fw place="left margin" rend="underline">
+           <date>1658</date>
+         </fw>
                
               should at all recover. &amp; when it was don<lb/>
               I was lame allmost a q.<hi rend="superscript">tr</hi> of a yeare of <lb/>
@@ -1691,8 +1727,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
             </fw>
          </fw>
         <lb/>
+         <p>
       <milestone n="ev40" unit="event"/>
-         <p>It was the good pleasure of God<lb/>
+           It was the good pleasure of God<lb/>
            <!-- moved fw=pageNum -->
           to contineue me in the Land of the <lb/>
             liveing, And to bring forth <rs ref="ppl:wt2" n="per121" type="person">my 6<hi rend="superscript">th</hi><lb/> 
@@ -1704,8 +1741,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
               delivered of a strong goodly Sonn<lb/>
               about 3 or 4 a clock in the morning<lb/>
               being <date when-iso="1660-04-17">Tuesday: <sic>12</sic> April. <hi rend="underline">1660</hi></date>:<!-- Q [dates] i'm sure this should be Tues 17th - it's 17th in Book 1 (but looks like it's crossed out over 12), and 17 Apr 1660 was a Tuesday. see also comments added to semidip transcription. again, need to check how I should handle a correction in @when. -->
+           <anchor/>
          </p>
-         <p>The Childe being baptized that<lb/>
+        <milestone unit="event"/>
+         <p>
+           The Childe being baptized that<lb/>
           day by <persName ref="ppl:jk1" n="per122">Mr Kirton</persName> of <placeName ref="place:Rich_043" n="place56">Richmond</placeName><lb/>
           called <persName ref="ppl:wt2" n="per123">william</persName>.</p>
          <p>sureties <persName ref="ppl:jy1" n="per124">my Cosen Jo: Yorke</persName>: <persName ref="ppl:wn1" n="per125">Co:<lb/>
@@ -1713,8 +1753,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <anchor n="ev40"/>
      </div>  
      <div>
-       <milestone n="ev41" unit="event"/>
        <p>
+       <milestone n="ev41" unit="event"/>
          <rs ref="ppl:wt2" n="per127" type="person">My pretty babe</rs> was in good hea<lb break="no"/>
           =lth &amp; Sucked his poore mother<lb/>
           to whom my good God had given<lb/>
@@ -1790,9 +1830,11 @@ The <damage> element should be used to indicate areas of damage affecting the te
           hin selfe, that so I may be prepared for<lb/>
           his glory. both in this world &amp; the<lb/>
           next even for Christ Jesus his<lb/>
-          sonnes sake amen.</p>
+          sonnes sake amen.
+       </p>
+         <p>
        <milestone n="ev42" unit="event"/>
-         <p><rs ref="ppl:wt2" n="per128" type="person">My Childe</rs> was buried at <placeName ref="place:Easb_017" n="place58">Easby</placeName> in<lb/>
+           <rs ref="ppl:wt2" n="per128" type="person">My Childe</rs> was buried at <placeName ref="place:Easb_017" n="place58">Easby</placeName> in<lb/>
           the same grave with<note place="end" type="word">
                <p rend="Endnote Text">
               Superscript letters indistinct.</p>
@@ -1805,8 +1847,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
             space - "indicates an area where one might expect text that, in the judgment of the modern reader/editor was deliberately left blank in the original"
             <space quantity="1" unit="chars"/>
            -->
-         </p>
        <anchor n="ev42"/>
+         </p>
        </div>  
             <pb n="42"/>
 
@@ -1849,8 +1891,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <fw type="pageNum">43</fw>
            <!-- msDescription [NOTE] Page number just above ‘at’.-->
          </fw>
-        <milestone n="ev43" unit="event"/>
          <p>
+        <milestone n="ev43" unit="event"/>
           I began a dangerous sickness at<lb/>
           <placeName ref="place:Oswa_041" n="place59">oswoldkirke</placeName> affter <rs ref="ppl:aow1" n="per131" type="person">my deare mother</rs><lb/>
           death, beeing caused by a cold I<lb/>
@@ -1873,7 +1915,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           be my last in this life beeing brought<lb/>
           into exceeding great weakenesse of<lb/>
           Body. but more of spirituall deser-<lb break="no"/>
-           =tion.<anchor n="ev43"/> apprehending my state to be<lb/>
+           =tion. apprehending my state to be<lb/>
 
          
             <pb n="44"/>
@@ -1941,7 +1983,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
               possibly a &amp; blotted out at the end of the line.</p>
             </note>
             <lb/>
-          unworthinesse.</p>
+          unworthinesse.<anchor n="ev43"/></p>
          <p>In this most sad &amp; heavy condition I<lb/>
           was, haveing noe soule living that I could<lb/>
           open my thoughts to nor receave any<lb/>
@@ -2666,7 +2708,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           of thankfullnesse to God for the daly<lb/>
           renuall of the same.</p>
    
-         <p>I found by sad experiencs that the ma’y<lb/>
+         <p>I found by sad experiencs that the ma’y<!-- Q contraction? --><lb/>
           troubles had fallen upon me of this<lb/>
           world had diverted my stricter cours<lb/>
           of walking with my God as he had<lb/>
@@ -3141,9 +3183,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
           <fw type="pageNum">84</fw>
         </fw>
           <lb/><!-- moved fw -->
+         <p>
          <milestone n="ev52" unit="event"/>
           <!-- Q event not too sure why I made this a separate event... -->
-         <p>
           Yea the Lord god had pittie upon<lb/>
           my distresse &amp; gave me after this<lb/>
           a compotency of health &amp; strength<lb/>
@@ -3177,16 +3219,17 @@ The <damage> element should be used to indicate areas of damage affecting the te
                85.
             </fw>
           </fw>
-      <milestone n="ev53" unit="event"/>
          <p>
+      <milestone n="ev53" unit="event"/>
           <persName ref="ppl:rt2" n="per196">My Sonne Robert</persName> was baptized on<lb/>
           <date when-iso="1662-09-20">Satterday the 20<hi rend="superscript">th</hi>
           of September: <hi rend="underline">1662</hi></date><lb/> 
           by <persName ref="ppl:wl1" n="per197">Mr Luckock</persName> at <placeName ref="place:East_019" n="place72">Newton</placeName>.<lb/>
           his Godfather &amp; Godmother were my<lb/>
           <persName ref="ppl:kc1" n="per198">Lady Cholmely</persName>: <persName ref="ppl:rw1" n="per199">Dr wittie</persName>: &amp; <persName ref="ppl:wt1" n="per200">Mr<lb/>
-          Thornton</persName> for <persName ref="ppl:hb1" n="per201">my Nephew Best</persName>:</p>
+          Thornton</persName> for <persName ref="ppl:hb1" n="per201">my Nephew Best</persName>:
         <anchor n="ev53"/>
+         </p>
 
          <p>The God of All consolations &amp; comforts<lb/>
           preserve his life &amp; health. with the opor<lb break="no"/>
@@ -3247,9 +3290,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <fw type="pageNum">87.</fw>
       </fw>
          <lb/>
-       <p>After that <persName ref="ppl:rt2" n="per202">Robin</persName> was 2 years old<lb/> 
-         <!-- moved fw=pageNum -->
+       <p>
          <milestone n="ev54" unit="event"/>
+         After that <persName ref="ppl:rt2" n="per202">Robin</persName> was 2 years old<lb/> 
+         <!-- moved fw=pageNum -->
           <persName ref="ppl:wt1" n="per203">Mr Thornton</persName> went to <placeName ref="place:Lond_080" n="place73">London</placeName>. where<lb/>
           he had a great deliverance from<lb/>
           a flood of waters in his coming home<anchor n="ev54"/><lb/>
@@ -3280,8 +3324,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
       <fw type="header" rend="underline"><date when-iso="1665">1665</date>  </fw>
       <fw type="pageNum">88.</fw> 
       </fw>
-        <milestone n="ev55" unit="event"/>
          <p>
+        <milestone n="ev55" unit="event"/>
            <!-- moved fw -->
            It pleased my gracious God. to<lb/>
           give me a new hopes of a com<lb break="no"/>
@@ -3424,8 +3468,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
             </fw>      
         <fw type="pageNum">92.</fw>  
       </fw>
-      <milestone n="ev58" unit="event"/>
        <p>
+      <milestone n="ev58" unit="event"/>
           <!-- moved fw pageNum -->
           The sudaine newes of his condition<lb/>
           beeing made knowne to me when I expec<lb break="no"/>
@@ -3730,8 +3774,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
        <div rend="pre(rule_light)">
 
         <fw type="header" rend="underline"><date>1666</date>.</fw> <lb/>
+         <p>
          <milestone n="ev60" unit="event"/>
-         <p>It pleased God to deliver my daug<add place="above">hter</add> <lb/>
+           It pleased God to deliver my daug<add place="above">hter</add> <lb/>
           <persName ref="ppl:atc1" n="per226">Alice</persName> from a very dangerous &amp; violent<lb/>
           illnesse comeing on in her sleepe.<lb/>
           when she lay in bed with me. who was<lb/>
@@ -3748,8 +3793,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
           beeing offten in sounds upon the breeding<lb/>
           of her teeth: this fitt was <date when-iso="1665-06-13">June 13<hi rend="superscript">th</hi> 1665<!-- date ? year doesn't match headings --></date><lb/>
           at <placeName ref="place:East_019" n="place76">Newton</placeName>. when she was ill she was even<lb/>
-           Ravished with the glorious sight.</p>
+           Ravished with the glorious sight.
          <anchor n="ev60"/>
+         </p>
      </div>    
             <pb n="102"/>
 
@@ -3839,12 +3885,14 @@ The <damage> element should be used to indicate areas of damage affecting the te
            <fw type="header" rend="underline">
                <date>1666</date>:</fw>
          </fw>
+         <p>
         <milestone n="ev62" unit="event"/>
-         <p>About the <date when-iso="1666-09-02">2<hi rend="superscript">d</hi> of September :66</date>: began<lb/>
+           About the <date when-iso="1666-09-02">2<hi rend="superscript">d</hi> of September :66</date>: began<lb/>
           the great fire in <placeName ref="place:Lond_080" n="place79">London</placeName> which in 4 daies<lb/>
           time consumed 13200: houses, 89:<lb/>
-          Churches, &amp;c.</p>
+          Churches, &amp;c.
         <anchor n="ev62"/>
+         </p>
 </div>
        <div rend="pre(rule_short)">
          <milestone n="ev63" unit="event"/>
@@ -3947,11 +3995,13 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev64"/>
        </div>
        <div rend="pre(rule)">
+         <p>
          <milestone n="ev65" unit="event"/>
-         <p>About this <date when-iso="1666-12">christmas 1666</date>: <persName ref="ppl:wn1" n="per239">my Cosen<lb/>
+           About this <date when-iso="1666-12">christmas 1666</date>: <persName ref="ppl:wn1" n="per239">my Cosen<lb/>
           will.<hi rend="superscript">m</hi> Norton</persName> was murdered inhumamly<lb/>
-          at <placeName ref="place:Lond_080" n="place82">London</placeName>.</p>
+          at <placeName ref="place:Lond_080" n="place82">London</placeName>.
          <anchor n="ev65"/>
+         </p>
        </div>
        <!-- year 1667 -->
        <div rend="pre(rule) post(diagonal)">
@@ -4018,8 +4068,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date>1667</date>
             </fw>
          </fw>
+         <p>
         <milestone n="ev67" unit="event"/>
-         <p>It pleased God that as soone as my Son<lb/>
+           It pleased God that as soone as my Son<lb/>
           <persName ref="ppl:rt2" n="per243">Robin</persName> was well to vissit my poore<lb/>
           <persName ref="ppl:atc1" n="per244">naly</persName> which first began on <date when-iso="1667-01-18">January 18</date><lb/>
           in annother dangerous fitt in her sleep<lb/>
@@ -4031,12 +4082,13 @@ The <damage> element should be used to indicate areas of damage affecting the te
           two she did recover although it did<lb/>
           much weaken her. praised be the Lord of<lb/>
           of our salvation for her deliverance. Amen.
-      </p>
       <anchor n="ev67"/>
+      </p>
 </div>
        <div rend="pre(rule)">
+         <p>
          <milestone n="ev68" unit="event"/>
-         <p>About the <date when-iso="1667-01-25">25<hi rend="superscript">th</hi> of Jan: 1667</date>: <persName ref="ppl:atc1" n="per245">Naly</persName> took<lb/>
+         About the <date when-iso="1667-01-25">25<hi rend="superscript">th</hi> of Jan: 1667</date>: <persName ref="ppl:atc1" n="per245">Naly</persName> took<lb/>
           Phisick to prevant the smale Pox &amp; she<lb/>
           fell to be ill. in paine of the head &amp; back<lb/>
           <date when-iso="1667-01-26">26<hi rend="superscript">th</hi></date> she was very sick &amp; contineued the<lb/>
@@ -4100,8 +4152,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date>1667</date>.
             </fw>
          </fw>
+         <p> 
         <milestone n="ev69" unit="event"/>
-         <p> <persName ref="ppl:jd3" n="per248"><persName ref="ppl:jd2" n="per249">My brother Denton</persName>s Son John</persName> was<lb/>
+           <persName ref="ppl:jd3" n="per248"><persName ref="ppl:jd2" n="per249">My brother Denton</persName>s Son John</persName> was<lb/>
            fallen into great extreamity biginning<lb/>
            on <date when-iso="1667-01-25">Jan the 25<hi rend="superscript">th</hi></date> upon taking of Phisick<lb/>
            which did not worke kindly &amp; so contined<lb/>
@@ -4113,12 +4166,14 @@ The <damage> element should be used to indicate areas of damage affecting the te
            to be se<add place="above">n</add>cable &amp; his use of understan<lb break="no"/>
           =ing returned, when the Smale Pox did<lb/>
           apeare. but he had very few of them<lb/>
-          &amp; recovered very fast. blesed be God.</p>
+          &amp; recovered very fast. blesed be God.
         <anchor n="ev69"/>
+         </p>
 </div>
        <div rend="pre(rule)">
+         <p>
         <milestone n="ev70" unit="event"/>
-         <p>The <date when-iso="1667-04-08">8<hi rend="superscript">th</hi> of Aprill</date> <persName ref="ppl:atc1" n="per250">naly</persName> had a Pearle<lb/>
+           The <date when-iso="1667-04-08">8<hi rend="superscript">th</hi> of Aprill</date> <persName ref="ppl:atc1" n="per250">naly</persName> had a Pearle<lb/>
           on her Eye affter the Smale Pox which did<lb/>
           indanger her Lose of the Sight of that<lb/>
           Eye. but by waters, &amp; meadicenes, it<lb/>
@@ -4135,8 +4190,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <!-- Page 111 -->
 <div>
   <fw type="pageNum" rend="underline">iii.</fw> <!-- TODO conventions change -->
+         <p>
         <milestone n="ev71" unit="event"/>
-         <p><persName ref="ppl:ktp1" n="per251">Kate Thornton</persName> had a deliverance<lb/>
+           <persName ref="ppl:ktp1" n="per251">Kate Thornton</persName> had a deliverance<lb/>
           from beeing choaked with swallowing a pin<lb/>
           &amp; got crosse her throat at <placeName ref="place:StNi_050" n="place83">St nickolas</placeName><lb/>
           in the yeare <date when-iso="1659">1659</date>: when I was a meanes by<lb/>
@@ -4146,12 +4202,13 @@ The <damage> element should be used to indicate areas of damage affecting the te
           for which I humbly praise God in this her<lb/>
           preservation from beeing destroyed by her<lb/>
           owne folly.
-      </p>
       <anchor n="ev71"/>
+      </p>
 </div>
        <div rend="pre(rule)">
+         <p>
          <milestone n="ev72" unit="event"/>
-         <p><date when-iso="1666" precision="medium">About the yeare</date> that <persName ref="ppl:ktp1" n="per252">Kate Thornton</persName><lb/>
+           <date when-iso="1666" precision="medium">About the yeare</date> that <persName ref="ppl:ktp1" n="per252">Kate Thornton</persName><lb/>
           was 10 yeares old. she was plaing in the<lb/>
           Corne barne att <placeName ref="place:East_019" n="place84">Newton</placeName> &amp; swinging on<lb/>
           a Rope that hung crosse. from which she got so<lb/>
@@ -4214,8 +4271,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev73"/>
        </div>
        <div rend="pre(rule) post(diagonal)">
+         <p>
          <milestone n="ev74" unit="event"/>
-         <p>It pleased the goodnesse of my gracious<lb/>
+          It pleased the goodnesse of my gracious<lb/>
           God to give me a weake &amp; sicke time<lb/>
           of breeding <rs ref="ppl:ct1" n="per259" type="person">my 9<hi rend="superscript">th</hi> Childe</rs> affter that former<lb/>
           breake in <date when-iso="1666-09">Seper: 66:</date> &amp; till about the <date when-iso="1667-05-10">10<hi rend="superscript">th</hi>
@@ -4255,8 +4313,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
           through meanes by Gods blessing he was<lb/>
           restored to me againe blessed be our mer-<lb break="no"/>
           cefull God of our salvation. for ever more<lb/>
-           Amen. &amp; Amen. <!-- / div rend --></p>
+           Amen. &amp; Amen. <!-- / div rend -->
          <anchor n="ev74"/>
+         </p>
        </div>
        <div rend="pre(rule)">
          <milestone n="ev75" unit="event"/>
@@ -4307,14 +4366,15 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev75"/>
        </div>
        <div rend="pre(rule)">
+         <p>
          <milestone n="ev76" unit="event"/>
-         <p>my daughter <persName ref="ppl:atc1" n="per266">naly</persName> was on this night <date when-iso="1667-11-11">the<lb/>
+           my daughter <persName ref="ppl:atc1" n="per266">naly</persName> was on this night <date when-iso="1667-11-11">the<lb/>
           11<hi rend="superscript">th</hi> of no:</date> with feare &amp; greife for me so sick<lb/>
           in my Labour that she was in much danger<lb/>
           but blessed be the Lord recovered againe of<lb/>
           that illnesse the next day. <date when-iso="1667-11-12">no: 12<hi rend="superscript">th</hi> <hi rend="underline">67:</hi></date>
-         </p>
          <anchor n="ev76"/>
+         </p>
       </div>   
             <pb n="116"/>
 
@@ -4326,8 +4386,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
           <date>1667</date>
             </fw>
   </fw>
-        <milestone n="ev77" unit="event"/>
          <p>
+        <milestone n="ev77" unit="event"/>
            <persName ref="ppl:ct1" n="per267">Christofer Thornton</persName> my 9<hi rend="superscript">th</hi> Child<supplied>e</supplied> <lb/>
            was borne at <placeName ref="place:East_019" n="place88">newton</placeName>, on <date when-iso="1667-11-11">munday<lb/>
           the 11<hi rend="superscript">th</hi> of november: 1667:</date> betwixt<lb/>
@@ -4335,12 +4395,14 @@ The <damage> element should be used to indicate areas of damage affecting the te
           Baptized the <date when-iso="1667-11-12">12<hi rend="superscript">th</hi></date> at <placeName ref="place:East_019" n="place89">newton</placeName>. his<lb/>
           godfathers &amp; godmother. <persName ref="ppl:acd1" n="per268">Mrs Anne Danby</persName><lb/>
           <persName ref="ppl:jd2" n="per269">my brother John Denton</persName> &amp; <persName ref="ppl:tp1" n="per270">my brother<lb/>
-          <supplied>T</supplied>imothy Portington</persName>.</p>
+          <supplied>T</supplied>imothy Portington</persName>.
         <anchor n="ev77"/>
+         </p>
 </div>
        <div rend="pre(rule)">
+         <p>
          <milestone n="ev78" unit="event"/>
-         <p>After this comfort of <rs ref="ppl:ct1" n="per271" type="person">my Childe</rs> I<lb/>
+         After this comfort of <rs ref="ppl:ct1" n="per271" type="person">my Childe</rs> I<lb/>
           recovered something beter &amp; got my <lb/>
           milke, the childe thriveing mightily<lb/>
           well &amp; grew strong. beeing a most<lb/>
@@ -4393,8 +4455,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
            preach his funerall Sermon.<milestone unit="undetermined" rend="diagonal"/><!-- / milestone--> <date when-iso="1667-12-02">Decmb. 2<hi rend="superscript">d</hi><lb/> 
             
             <hi rend="underline">1667.</hi></date><!-- Q check underline? -->
-         </p>
          <anchor n="ev78"/>
+         </p>
        </div>
          
             <pb n="118"/>
@@ -4406,9 +4468,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
              <fw type="pageNum">118.</fw>
              <fw type="header" rend="underline"><date>1667</date>.</fw>
             </fw>
-      <milestone n="ev79" unit="event"/>
+  
   <!-- Q [dates] death above is beginning of Dec 1667. presumably this illness starts immediately after that? -->
          <p>
+      <milestone n="ev79" unit="event"/>
            After <rs ref="ppl:ct1" n="per274" type="person">my Childe</rs>s death. I fell <lb/>
           into a great &amp; long contineued<lb/>
           weaknesse, by the swelling of my milk<lb/>
@@ -4455,8 +4518,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
           Jesus Christs his sake Amen.</p>
 </div>
        <div rend="pre(rule)">
+         <p>
          <milestone n="ev80" unit="event"/>
-         <p>After which recovery of my health<lb/>
+         After which recovery of my health<lb/>
           I was very much in affliction about<lb/>
           <rs ref="ppl:wt1" n="per276" type="person">my deare husband</rs>s illnesse &amp; offten<lb/>
           relapses into his former Palaticke<lb/>
@@ -4476,8 +4540,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
            which suported him: affter every use of <w norm="Phisick">Phisip</w> <lb/>
           &amp; other things, &amp; according to the earlinesse<lb/>
           of the time in begining them the fitts was longer <lb/>
-          or shorter in contineuance.</p>
+          or shorter in contineuance.
          <anchor n="ev80"/>
+         </p>
      </div>    
        
             <pb n="120"/>
@@ -4491,8 +4556,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date>1668</date>.
             </fw>
          </fw>
-      <milestone n="ev81" unit="event"/>
        <p>
+      <milestone n="ev81" unit="event"/>
           About the <date when-iso="1668-07-20">20<hi rend="superscript">th</hi> of July 1668</date>. I had<lb/>
           a very great &amp; dangerous sickenesse<lb/>
           fell upon me in <add place="above">beeing</add>
@@ -4614,8 +4679,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <!-- msDescription [NOTE] Number here is written over ‘had’. in |__ -->
             </fw>
         </fw>
+         <p>
         <milestone n="ev82" unit="event"/>
-         <p>And loe when I was yet scarsly recovrd<lb/>
+          And loe when I was yet scarsly recovrd<lb/>
            <!-- moved fw pageNum -->
           of my weaknesse from this greife &amp; had <lb/>
           kept my bed 14 daies. it pleased God<lb/>
@@ -4802,8 +4868,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
           and sufferings that makest me way to Escape<lb/>
           now Praise the Lord o my soule, &amp; forgett not<lb/>
           all his benifitts. <hi rend="underline">Amen. Amen</hi><!-- Q line under text? -->
-         </p>
         <anchor n="ev82"/><!-- Q event where anchor should go... -->
+         </p>
     </div>     
             <pb n="128"/>
 
@@ -4815,8 +4881,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date>1668</date>.
             </fw>
          </fw>
+         <p> 
         <milestone n="ev83" unit="event"/>
-         <p> <date when-iso="1668-07-25">July 25<hi rend="superscript">th</hi>
+         <date when-iso="1668-07-25">July 25<hi rend="superscript">th</hi>
             <hi rend="underline">1668</hi></date>. It pleased God to give<lb/>
         my deare <persName ref="ppl:rt2" n="per303">Robin Thornton</persName> a great mercy<lb/>
         in his preservation &amp; delivrance upon that<lb/>
@@ -4920,8 +4987,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date>1668</date>.
            </fw>
          </fw>
+         <p>
         <milestone n="ev84" unit="event"/>
-         <p>It pleased God that I remained very ill<lb/>
+          It pleased God that I remained very ill<lb/>
           &amp; weake affter the second Alarum I had<lb/>
           given me of unnaturall, unkinde &amp;<lb/>
           injust dealing with me out of the Sarlett<lb/>
@@ -4980,8 +5048,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
           =ted our faithfull hearts to each other in<lb/>
           Cordiall, loyall &amp; conJugall love &amp;<lb/>
           amity all our daies since we were knit in the<lb/>
-          band of holy wedlocke. together.</p>
+          band of holy wedlocke. together.
          <anchor n="ev84"/><!-- Q event where anchor should go -->
+         </p>
             <pb n="133"/>
 
 <!-- Page 133 -->
@@ -5194,7 +5263,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           </subst>
            <rs ref="ppl:wt1" n="per326" type="person">deare Husbad</rs><lb/>
           that any creature could have.<anchor n="ev85"/> 
-           <!-- NOTE Book 1 new div at this point, but no visual marker/break here. hmm. -->Such was<lb/>
+           <!-- NOTE Book 1 new div at this point, but no break here at all, not even a new p. -->Such was<lb/>
           my extreamity of Passion &amp; trouble<lb/>
           upon this change that I was allmost <lb/>
           changed into nothing &amp; was ready<lb/>
@@ -5282,7 +5351,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           =bred the Lord in the daies of his youth &amp;<lb/>
           God was found of him.</p>
          
-            
+          </div>
             
             <pb n="141"/>
 
@@ -5294,6 +5363,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date>1668</date>.
             </fw>
          </fw>
+       <div>  
          <p>I now doe want those good &amp; Pieous<lb/>
           prayers of him for me &amp; mine which I have<lb/>
           injoyed for many yeares, what can I <lb/>
@@ -5580,8 +5650,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <date>1668</date>.
             </fw>
   </fw>
+        <p>
       <milestone n="ev86" unit="event"/>
-        <p>My deare Husband <persName ref="ppl:wt1" n="per329">Will.<hi rend="superscript">m</hi> Thornton</persName><lb/>
+          My deare Husband <persName ref="ppl:wt1" n="per329">Will.<hi rend="superscript">m</hi> Thornton</persName><lb/>
            Esq.<hi rend="superscript">r</hi> went to <placeName ref="place:Malt_035" n="place98">Malton</placeName> to <persName ref="ppl:ftp1" n="per330">sister Portington</persName><lb/>
           on <date when-iso="1668-09-11">fridy the 11<hi rend="superscript">th</hi> of september 1668</date>. &amp;<lb/>
           was much as he used to be of late pritty<lb/>
@@ -5951,14 +6022,15 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <l>The offended dies, to Sett the offender free.</l>
  
  
-          <!-- [NOTE] NB TWO UNNUMBERED BLANK PAGES, 159v, 160r -->
-         
-         
             <pb n="160"/>
 
 <!-- Page 160 -->
 
     </div>
+    
+          <!-- [NOTE] NB TWO UNNUMBERED BLANK PAGES, 159v, 160r -->
+         
+         
        <div type="poetry">  
          
          <head>
@@ -6583,8 +6655,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </fw>
         </head>
        <div rend="pre(rule)">
+         <p>
         <milestone n="ev88" unit="event"/>  
-         <p>vidz The great fall I had at <placeName ref="place:Kirk_030" n="place102">Kirklington</placeName><lb/>
+           vidz The great fall I had at <placeName ref="place:Kirk_030" n="place102">Kirklington</placeName><lb/>
           when I was 3 yers old in following <persName ref="ppl:st1" n="per351">Sara</persName> my<lb/>
           maide when she had <persName ref="ppl:cw2" n="per352">my brothr Christophr</persName><lb/>
           in her Armes. I fell upon the corner of the<lb/>
@@ -6606,13 +6679,15 @@ The <damage> element should be used to indicate areas of damage affecting the te
           owne soule Amen.</p>
        </div>
        <div rend="pre(rule)">
+         <p>
         <milestone n="ev89" unit="event"/>    
-         <p>The Lord gave me a dreame before the dea<lb/>
+          The Lord gave me a dreame before the dea<lb/>
           th of <rs ref="ppl:cw1" n="per354" type="person">my deare &amp; honourd father</rs> to warne me<lb/>
           of his losse: &amp; he did foretell the sorrows<lb/>
           &amp; sad times comeing on these Kingdoms to <rs ref="ppl:aow1" n="per355" type="person">my<lb/>
-          Deare mother</rs> &amp; my selfe:</p>
+          Deare mother</rs> &amp; my selfe:
          <anchor n="ev89"/>
+         </p>
        </div>
        <div rend="pre(rule_short) post(diagonal)">
         <milestone n="ev90" unit="event"/>   
@@ -6721,8 +6796,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <anchor n="ev90"/><!-- Q event where anchor should go -->
       </div>
       <div rend="pre(rule)">
+         <p>
         <milestone n="ev91" unit="event"/>   
-         <p>I had a very significant dreame in <date when-iso="1645">45</date>:<lb/>
+          I had a very significant dreame in <date when-iso="1645">45</date>:<lb/>
           imeadiatly before my d: <persName ref="ppl:kwd1" n="per367">sister Danby</persName> died<lb/>
           -I did see her laid on the child bed all in white<lb/>
           &amp; as if she weare a sleepe. comeing to her<lb/>
@@ -6771,8 +6847,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
           to die &amp; be with Christ. which was best of All: which<lb/>
           with in a months space she did. having suffred many<lb/>
           sorrows &amp; troubles through which I hope she entrd into<lb/>
-          the Kingdom of God: Amen:</p>
+          the Kingdom of God: Amen:
         <anchor n="ev91"/>
+         </p>
       </div>
       <div rend="pre(rule) post(diagonal)">
         <milestone n="ev92" unit="event"/>   
@@ -6906,10 +6983,13 @@ The <damage> element should be used to indicate areas of damage affecting the te
           a misscarriage by a fright &amp; sorow<lb/>
           for <persName ref="ppl:rn1" n="per390">Nettleton</persName>s Balys disstraing all<lb/>
           I had which was deleevred by a diebt<lb/>
-           in <date when-iso="1661-06">June 1661</date>.</p>
+           in <date when-iso="1661-06">June 1661</date>.
+           <anchor n="ev93"/>
+         </p>
        </div>
          <div rend="pre(rule)">
            
+         <milestone unit="event"/>
          <p>
           It was my dear <del rend="strikethrough">Husban</del><lb/> 
           <rs ref="ppl:wt1" n="per391" type="person">Husbands</rs> misfortune to enter<lb/>
@@ -7035,7 +7115,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           of mercys deliver me by giving me<lb/>
           warning by a dreame which did prev<add place="above">nt</add> <lb/>
           my greater distruction.</p>
-           <anchor n="ev93"/>
+           <anchor/>
          <p>
           There fore will I blese &amp; Praise the<lb/>
           Name of God forever who watched<lb/>
@@ -7044,13 +7124,13 @@ The <damage> element should be used to indicate areas of damage affecting the te
            for Ever more. Amen</p>
       </div>
       <div rend="pre(rule)">
-        <milestone n="ev94" unit="event"/>
          <p>
+        <milestone n="ev94" unit="event"/>
           The great Deliverance I had from<lb/>
           A Rape by <persName ref="ppl:xi1" n="per423">Captaine Innis</persName> a Scott<lb/>
           who did sweare to Ravish me from<lb/>
           <rs ref="ppl:aow1" n="per424" type="person">my dere mothers</rs> ground when I had<lb/>
-          gon to <placeName ref="place:notplace" n="place114">Cowes</placeName> with her maides But that<lb/>
+          gon to Cowes with her maides But that<lb/>
           <rs ref="ppl:tbd-iu" n="per425" type="person">his owne servant</rs><!-- not identifiable? --> that I cured of a<lb/>
           wound did discovr it to me &amp; I was<lb/>
           saved.<anchor n="ev94"/> blesed be my God for ever<lb/>
@@ -7061,8 +7141,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
 <!-- Page 196 -->
       <div>
+         <p>
         <milestone n="ev95" unit="event"/>
-         <p>my great delivrance from<lb/>
+          my great delivrance from<lb/>
           beeing stolen away out of <rs ref="ppl:aow1" n="per426" type="person">my<lb/>
           mothers</rs> Pasture which was laid<lb/>
           waite for me by <persName ref="ppl:js1" n="per427">Mr Jerimy<lb/>
