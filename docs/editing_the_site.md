@@ -1,4 +1,4 @@
-# Introduction to editing the web site
+# Introduction to editing the web site content
 
 ## Prerequisites
 
@@ -50,7 +50,7 @@ For instance /about/team.md is the markdown file that will generate the
 web page at the URL /about/team . /about/index.md would map to the /about
 web page. And /index.html to the site home page, i.e. / .
 
-You can find the blog posts and news articles under the /blogPostings folder. The people and teams are located under the /people folder.
+You can find the blog posts and news articles under the /blogPostings folder. The team members are located under the /people folder.
 
 ## Editorial workflow
 
@@ -65,18 +65,18 @@ Let KDL know when you want to publish your staging content to your live site (wh
 
 ## How to edit a markdown file?
 
-As an illustration, here's how you would edit the about page (/about):
+As an illustration, here's how you would edit the About page (/about):
 
 1. go to your repository on github and select the desired branch (`main` is selected by default in the dropdown just above the file list)
 2. browse down to /about 
 3. click the index.md file
 4. you can see a basic preview of the body of the about page
 5. click the pencil icon on the right side of the toolbar just above the document
-6. a text editor appears to let you modify the the front-matter or the
-body of the about page
-7. you can click the Preview tab above the text editor to check how your
-document will be rendered
-8. When you are done editing, write a short sentence summarising your
-changes in the text input just under the "Commit changes" heading underneath
-the text editor. This will also push your changes to the branch.
+6. use the simple text editor to edit the front-matter or the
+body of the About page. 
+7. before saving your changes, click the Preview tab above the text editor to verify things appear as expected (markdown notation is quite brittle)
+8. when you are done editing, summarise your
+changes in a few words in the text input just under the "Commit changes" heading underneath the text editor
+9. click the Commit Change button at the bottom. This will commit and push your changes to the branch.
 
+![Editing a file on github](images/github-edit-file.svg)
