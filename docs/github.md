@@ -12,26 +12,28 @@ First you need to [create github account](https://github.com/signup) if you have
 
 ## How can I interact with the files on github?
 
-Here are four options, from the most simple to the most advanced. If you are new to github, try option 1 first and move to option 2 it is too limiting. If you have experience with coding environments, option 4 might be preferred.
+Listed below are four options, ranging from the most straightforward to the most advanced. If you are new to github, try option 1 first and move to option 2 it is too limiting. If you have experience with coding environments, option 4 might be preferred.
 
 ### 1. Github.com website
 
 The github.com site lets you search, browse and edit html, markdown or json files and save your changes immediatelly. You don't need to download anything and the changes occur directly on the cloud. 
+
+The editorial documentation contains an [illustrative walkthrough of the editorial workflow on Github](content-editing.md#how-to-edit-a-markdown-file).
 
 ### 2. Desktop Git clients
 
 In this option and the following ones you copy the cloud repository locally (i.e. on your machine), modify the files with the editors of your choice, 
 and share the modified files back to the cloud.
 
-The editorial workflow works like this: 
-1. clone: a one-off initial download of a github repository to your machine    
-2. pull: any subsequent download (to receive changes made by others)
+The git editorial workflow works like this: 
+1. **clone**: a one-off initial download of a github repository to your machine    
+2. **pull**: any subsequent download (to receive changes made by others)
 3. edit: the files using your favourite desktop editors
-4. commit: to save change files to your local copy of the repository
-5. push: to upload your local repository back to the cloud 
+4. **commit**: to save change files to your local copy of the repository
+5. **push**: to upload your local repository back to the cloud 
 6. iterate from step 2
 
-Step 1, 2, 4 and 5 can be done with one of those free desktop Git applications:
+Steps 1, 2, 4 and 5 can be done with one of those free desktop Git applications:
 
 * https://desktop.github.com/ 
 * https://www.sourcetreeapp.com/
@@ -42,7 +44,7 @@ If you are confident with the terminal, the [git application](https://github.com
 
 ### 4. Integrated development environemnt (IDE)
 
-An IDE is a desktop application dedicated to code development. It integrates git operations and file editing under the same environment. It is very convenient but require some initial set up and is typically filled with distracting features you'll never use.
+An IDE is a desktop application dedicated to code development. It integrates git operations and file editing under the same environment. It is very convenient but require some initial set up and is typically filled with distracting features you'll rarely use.
 
 Recommended free IDEs:
 * [Visual Studio Code](https://code.visualstudio.com/)

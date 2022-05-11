@@ -79,4 +79,6 @@ body of the About page.
 changes in a few words in the text input just under the "Commit changes" heading underneath the text editor
 9. click the Commit Change button at the bottom. This will commit and push your changes to the branch.
 
+![Editing a file on github](images/github-browse-file.svg)
+
 ![Editing a file on github](images/github-edit-file.svg)
