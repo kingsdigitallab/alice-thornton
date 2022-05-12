@@ -21,7 +21,7 @@ fi
 h1=$(su $GITUSER -c 'git rev-parse HEAD')
 h2=$(su $GITUSER -c 'git rev-parse @{u}')
 
-if [[ $h1 == $h2 ]]; then
+if [[ $h1 != $h2 ]]; then
   echo "$(date --iso-8601=seconds) GH merge + TF clear"
   su $GITUSER -c 'git merge' && service trafficserver stop && traffic_server -Cclear && service trafficserver start
   # su $GITUSER -c 'git merge' && service cron stop && service cron start
