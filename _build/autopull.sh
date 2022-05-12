@@ -4,7 +4,7 @@
 # This script is supposed to be executed by a root cron job.
 
 # the user who owns the git repo
-GITUSER="jeff"
+GITUSER="gnoel"
 
 # cd where this script is
 cd $(dirname "$0")
