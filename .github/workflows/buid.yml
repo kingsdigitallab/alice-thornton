@@ -26,10 +26,17 @@ jobs:
           npm ci
           npm run rebuild          
 
-      - name: Deploy
+      - name: Deploy to github pages
         if: ${{ false }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automated 11ty build
+          
+
 
