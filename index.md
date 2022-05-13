@@ -21,8 +21,6 @@ mortality rate.
 work of Alice Thornton** and, in due course, will host a fully searchable digital 
 edition of all four of her autobiographical texts. 
 
-t2
-
 ## Who Was Alice Thornton? 
 
 ![Alt text]({{ "/assets/img/placeholder.jpg#left" | url }} "Photograph of kirklington")
