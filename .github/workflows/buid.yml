@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+      - staging
+      - develop
 
 jobs:
   build:
@@ -37,6 +39,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Automated 11ty build
-          
+
 
 
