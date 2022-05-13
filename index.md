@@ -21,7 +21,7 @@ mortality rate.
 work of Alice Thornton** and, in due course, will host a fully searchable digital 
 edition of all four of her autobiographical texts. 
 
-t1
+t2
 
 ## Who Was Alice Thornton? 
 
