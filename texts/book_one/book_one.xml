@@ -399,7 +399,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
     
         <fw type="pageNum">8.</fw> <lb/>
             <fw type="header" rend="post(rule)">A preservation in the Meassells.</fw><lb/>
-            <!-- Q [tag choice] fw rather than head because it's not at the beginning of the section and so wouldn't be valid tei. BUT it is really the title for the section...
+            <!-- Q [tagging] fw rather than head because it's not at the beginning of the section and so wouldn't be valid tei. BUT it is really the title for the section...
                 [endnote] NB. Despite the title at the top of the page, the details of the ‘preservation’ only begins part way down the page, which is where the ‘main body’ of the text proper begins.
         -->
         
@@ -1285,7 +1285,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  <!-- TODO [event] main event-CW death -->
                 <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
                 <!-- Q [decoration] double horizontal lines above the header - I think *not* appropriate to treat this as text underline  -->
-               <!-- Q [text size] smaller than main text. need to discuss representation of this - how much detail? a few places in BoR too. -->
+               <!-- Q [formatting] smaller than main text. need to discuss representation of this - how much detail? a few places in BoR too. -->
                 <note resp="#awt1" place="left margin" rend="pre(rule) post(rule)">
                     Acc<hi rend="superscript">.t</hi> of<lb/>
                      the Lord<lb/>
@@ -1575,7 +1575,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 <!-- NOTE [margin] tagged fw - biblical reference 
                      NB *not* attempting to associate the reference with the quotation as we'll tag that using <quote> @source   -->
                 <!-- Q [decoration] thick line under the reference. - *not* text underline  -->
-                <!-- Q there is a curly brace pointing at the text. represent this at all? -->
+                <!-- Q [tagging] there is a curly brace pointing at the text. represent this at all? -->
                 
                 <fw type="reference" place="left margin" rend="post(rule)"><!-- TODO [decoration] rule is a thicker line than others? -->
                     Isaiah<lb/>
@@ -2238,8 +2238,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  shall be guiltie of our owne damnation.</p>
             <p>
                 <!-- NOTE [margin] tagged fw -->
-                <!-- Q text underline - in this case may be appropriate but horizontal marker line might be better? what is its function? is it for emphasis? or decoration/marking distinct?  -->
-                <!-- Q needs @type but errmm what is "Com" actually short for? Idk what it means! -->
+                <!-- Q [formatting] text underline - in this case may be appropriate but horizontal marker line might be better? what is its function? is it for emphasis? or decoration/marking distinct?  -->
+                <!-- Q [lol] needs @type but errmm what is "Com" actually short for? Idk what it means! -->
                 <fw place="left margin">
                         Com.
                         <lb/>
@@ -2267,7 +2267,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <p>
                 <!-- NOTE [margin] tagged fw. -->
                 <!--  Q "Com"? -->
-                <!-- Q text underline/horizontal marker line -->
+                <!-- Q [formatting] text underline/horizontal marker line -->
                 
               <fw place="left margin">Com. <lb/>
                  <hi rend="underline">2<hi rend="superscript">d</hi></hi>
@@ -2376,7 +2376,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                     <!-- NOTE [margin] tagged fw. -->
                     <!--  Q "Com"? -->
-                    <!-- Q text underline -->
+                    <!-- Q [formatting] text underline -->
                 <fw place="left margin">
                     Com. <lb/>
                         <hi rend="underline">6<hi rend="superscript">th</hi></hi>
@@ -2431,7 +2431,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  of frugalitie in all our actions.</p>
             <p>
                 <!-- NOTE [margin] tagged fw -->
-                <!-- Q text underline -->
+                <!-- Q [formatting] text underline -->
                     <fw place="left margin">
                         Com. <lb/>
                         <hi rend="underline">9, 10</hi>
@@ -2883,7 +2883,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <!-- NOTE [div] added new div here because this is a significant break in the narrative. -->
       <p>
             <!-- NOTE [margin] tagged note -->
-            <!-- Q text underline again. makes some sense for 17th, but lines above and below have been -> @rend  -->
+          <!-- Q [formatting] text underline again. makes some sense for 17th, but lines above and below have been -> @rend  -->
           <milestone n="ev27" unit="event"/><!-- NOTE event siege chester, deliverance -->
                 <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)"><date when-iso="1643-07-17">July<lb/>
                  <hi rend="underline">17.</hi><!-- Q CORRECTION checked image date = 17*th* -->
@@ -3369,7 +3369,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  Joynture, which was molested, some times with the Parliamen<add place="above">ts</add><lb/>
 
          <!-- NOTE [margin] tagged note -->
-                <!-- Q text underline -->
+                <!-- Q [formatting] text underline -->
             <note place="left margin" resp="#awt1">
                 <!-- NOTE date is for the surfeit of lobster -->
                     <date when-iso="1643-09-15">
@@ -3400,7 +3400,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 Now while we lived at <placeName ref="place:Snap_047" n="place111">Snape</placeName> my brot<lb break="no"/>
                     
                     <!-- NOTE [margin] tagged note -->
-                    <!-- Q text underline -->
+                <!-- Q [formatting] text underline -->
                 <note place="left margin" resp="awt1">
                    <persName ref="ppl:jw1" n="per252">Bro. Jack</persName> to<lb/>
                    <placeName>B. Sco</placeName><lb/>
@@ -3548,7 +3548,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 
                 <p>
                     <!-- NOTE [margin] tagged note -->
-                <!-- Q text underline. here there is only one line underneath but again, what's its function? -->
+                    <!-- Q [formatting] text underline. here there is only one line underneath but again, what's its function? -->
                 <date when-iso="1643-09-15">
                     <note place="left margin" resp="#awt1">
                         Sept.<lb/>
@@ -4874,7 +4874,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <l>Of forward-Converts, by the Reverend-hands</l>
 
             <!-- NOTE [margin] tagged note -->
-            <!-- Q text underline again -->
+            <!-- Q [formatting] text underline again -->
            
             <note>
                 Anno<lb/>
@@ -6201,7 +6201,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                  Prayer foll{owing}:</p>
             </div>
         
-        <div n="div58" type="prayer"><!-- Q prayer by awt's mother - there are more by her mother and at least one by her father, plus Wyvill poem and other material. do we want to encode different authors or just use notes? (could use @resp?) -->
+        <div n="div58" type="prayer"><!-- Q [authors] prayer by awt's mother - there are more by her mother and at least one by her father, plus Wyvill poem and other material. do we want to encode different authors or just use notes? (could use @resp?) -->
             <head rend="pre(rule) post(rule)">
             
                 A prayer before the delivery of my daughter<lb/>
@@ -6799,7 +6799,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <head rend="pre(rule) post(rule)">
                 
                 A thanksgiveing affter affter
-                    <!-- Q sic (repetition)-->
+                    <!-- Q [sic] (repetition)-->
                  my recovery. // </head>
             
             <p>My song shall be alwaies of the loveing kindnesse of<lb/>
@@ -6844,7 +6844,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </div>
         
         <div n="div68">
-            <head rend="post(rule)"> <date when-iso="1659">1659</date>.</head><!-- Q [tag choice] tagging this as head, but usually have tagged year headings as fw. no other title text. hmmm. -->
+            <head rend="post(rule)"> <date when-iso="1659">1659</date>.</head><!-- Q [tagging] tagging this as head, but usually have tagged year headings as fw. no other title text. hmmm. -->
             <milestone n="ev101" unit="event"/><!-- NOTE event politics -->
             <p>About this time wee weare all in a great confussion in<lb/>
                  this Kingdome, none knowing how the Government of this<lb/>
@@ -9379,7 +9379,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 Upon the birth of my 8<hi rend="superscript">th</hi> Childe <persName ref="ppl:jt1" n="per869">Joyce Thornton</persName> <date when-iso="1665-09-23" type="birth">Sept.<lb/>
                  23<hi rend="superscript">rd</hi> 1665</date> att <placeName ref="place:East_019" n="place318">Newton</placeName>:</head>
             
-              <milestone n="ev141" unit="event"/><!-- NOTE NOTE event awt child7 pregnancy -->  
+              <milestone n="ev141" unit="event"/><!-- NOTE event awt child7 pregnancy -->  
             <p>It pleased God to give me a new hopes of Comfort.<lb/>
                  of beareing <persName ref="ppl:wt1" n="per870">Mr Thornton</persName> annother childe. Although<lb/>
                  these are accompanied with thorny Caires &amp; troubles: &amp;<lb/>
@@ -10390,7 +10390,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
         <div n="div106">
             <head place="centre" rend="underline">
-                <!-- Q [tag choice] again, tag the year 67 as head or fw? -->
+                <!-- Q [tagging] again, tag the year 67 as head or fw? -->
                 <date when-iso="1667" type="illness">67</date>.
             </head>
             <milestone n="ev173" unit="event"/>
@@ -13175,7 +13175,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
                 <fw type="pageNum">282.</fw>
         <div n="div130" type="poetry">
-            <!-- Q [tag choice] whether these untitled sections should be div or lg. div for now. -->
+            <!-- Q [tagging] whether these untitled sections should be div or lg. div for now. -->
             <head place="centre" rend="post(rule)">An inducement to Love Heaven // .</head>
             
             <l>Leave me o love, which Reachest but to dust.</l>
@@ -14618,7 +14618,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <l>Thou, changed Earth, for Heaven, foes for frends</l>
             <l>Then begin thy Joys that Never End:</l>
             <l>But who <add place="above">can</add> speake the Sorrowes thatt 
-                <!-- Q [tag choice] can't have gap inside subst, but the whole of this gap/del/add/del is a single substitution. using seg to group them together for now but maybe there's a better option. -->
+                <!-- Q [tagging] can't have gap inside subst, but the whole of this gap/del/add/del is a single substitution. using seg to group them together for now but maybe there's a better option. -->
                 <seg>
                 <gap reason="deleted" extent="3" unit="word"/>
                 <!-- NOTE gap was transcribed xxxxxx x xxx-->
