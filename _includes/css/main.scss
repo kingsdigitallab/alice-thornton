@@ -25,8 +25,19 @@ body {
   background-color: $white;
 }
 
+footer,
 .footer {
-  background-color: $light;
+  background-color: lighten($light, 30%);
+}
+
+.logo {
+  img {
+    background: $white;
+    border-radius: 50%;
+    display: block;
+    margin-right: 8px;
+    width: 50px;
+  }
 }
 
 .navbar {
@@ -42,6 +53,7 @@ body {
   }
 
   a.navbar-item {
+    padding: 1.5rem 1rem 1.25rem;
     @include touch {
       background-color: $primary;
     }
