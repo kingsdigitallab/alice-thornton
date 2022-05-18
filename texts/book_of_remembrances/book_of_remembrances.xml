@@ -527,7 +527,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </fw>
          <milestone n="ev2" unit="event"/>
          <p>
-            When I was left at <placeName ref="place:Rich_043" n="place4">Richmond</placeName> 
+            <date when-iso="1630">When</date> I was left at <placeName ref="place:Rich_043" n="place4">Richmond</placeName> 
             <subst>
               <del rend="strikethrough">in</del>
               <add place="above">under</add>
@@ -586,7 +586,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </fw>
         <p>
          <milestone n="ev3" unit="event"/>
-          Beeing removed from <placeName ref="place:Rich_043" n="place5">Richmond</placeName><lb/>
+          <date when-iso="1631">Beeing removed</date> from <placeName ref="place:Rich_043" n="place5">Richmond</placeName><lb/>
           to <placeName ref="place:Lond_080" n="place6">London</placeName> by <rs ref="ppl:cw1" n="per13" type="person">my Father</rs>s &amp; <rs ref="ppl:aow1" n="per14" type="person">mother</rs>s<lb/>
           order to be with them. I fell into the<lb/>
           Small Pox haveing taken them of<lb/>
@@ -680,7 +680,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </fw>
          <p>
       <milestone n="ev5" unit="event"/>
-           There was a great fire in the next<lb/>
+           <date when-iso="1631">There was</date> a great fire in the next<lb/>
           House to <rs ref="ppl:cw1" n="per19" type="person">my father</rs>s in <placeName ref="place:StMa_082" n="place8">St martins<lb/>
           Lane in London</placeName>, which burnd a part <lb/>
             of our house &amp; had like to have<lb/>
@@ -851,7 +851,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
             </fw>
          </fw>
         
-         <p><milestone n="ev10" unit="event"/>Having come over into <placeName ref="place:Engl_094" n="place12">England</placeName><lb/>
+         <p>
+           <milestone n="ev10" unit="event"/>
+           <!-- NOTE [dates] date added from external evidence [CB] -->
+           <date when-iso="1639-06">Having come</date> over into <placeName ref="place:Engl_094" n="place12">England</placeName><lb/>
           with <rs ref="ppl:aow1" n="per36" type="person">my d: mother</rs> to the bath for the stone<anchor n="ev10"/><lb/>
           <milestone n="ev11" unit="event"/>in our returne back to <placeName ref="place:Irel_096" n="place13">Ireland</placeName> <date when-iso="1639-08-22">August<lb/>
           22<hi rend="superscript">th</hi> 39</date>. I with the rest of the Ship &amp;<lb/>
@@ -878,7 +881,9 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <milestone unit="undetermined" rend="diagonal-left-margin"/><!-- Q [formatting] [rendition keywords] changed div but not milestone -->
            <!-- msDescription [endnote] At a slight angle from margin over the top of ‘I’. -->
          <anchor n="ev11"/>
-         <p><milestone n="ev12" unit="event"/>I had a second preservation from drown<add place="above">ing</add><lb/>
+         <p>
+           <milestone n="ev12" unit="event"/><date when-iso="1639-08"/>
+           I had a second preservation from drown<add place="above">ing</add><lb/>
           out of the ship at that time when a<lb/>
           cable had like to have puld me into<lb/>
           the sea but for a ship man that saved<lb/>
@@ -946,8 +951,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
             <fw type="header">
                <date when-iso="1641/1644"><hi rend="underline">1641</hi>: <hi rend="underline">42</hi>. <hi rend="underline">43</hi>. 44.</date></fw>
          </fw>
-        
-         <p><milestone n="ev16" unit="event"/>I got the smale Pox att <placeName ref="place:Ches_012" n="place22">weschester</placeName><lb/>
+         <p>
+           <milestone n="ev16" unit="event"/>
+        <date when-iso="1642"/><!-- Q does this get added to both evs in div and if not why not -->
+           I got the smale Pox att <placeName ref="place:Ches_012" n="place22">weschester</placeName><lb/>
           of <persName ref="ppl:jw1" n="per39">my brother John</persName>. &amp; was very nere<lb/>
           death with them. but blesed be the God<lb/>
           of mercys who spaired my life at that<lb/>
@@ -1154,7 +1161,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           =ried of <rs ref="ppl:xt1" n="per68" type="person">my first Childe</rs> beeing a<lb/>
           daughter the <date when-iso="1652-08-27">27<hi rend="superscript">th</hi> of the same August 1652</date><lb/>
           being friday.<anchor n="ev31"/> &amp; <milestone n="ev32" unit="event"/>she was buried at<lb/>
-          <placeName ref="place:Easb_018" n="place38">Easby Church</placeName> neare <placeName ref="place:Rich_043" n="place39">Rich:</placeName> <date>the next morn<lb break="no"/>
+          <placeName ref="place:Easb_018" n="place38">Easby Church</placeName> neare <placeName ref="place:Rich_043" n="place39">Rich:</placeName> <date when-iso="1652-08-28">the next morn<lb break="no"/>
           ing:</date><anchor n="ev32"/> <milestone n="ev33" unit="event"/><seg rend="differentInk">the efects of which sicknesse lasted by<lb/>
           an Ague. feaver, &amp; Jaundies 3 q<hi rend="superscript">rters</hi> of a <lb/>
            yeare: at <placeName ref="place:Hips_022" n="place40">hipswell</placeName>.</seg>
@@ -1742,8 +1749,8 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </p>
         <milestone n="ev46" unit="event"/>
          <p>
-           The Childe being baptized that<lb/>
-          day by <persName ref="ppl:jk1" n="per122">Mr Kirton</persName> of <placeName ref="place:Rich_043" n="place56">Richmond</placeName><lb/>
+           The Childe being baptized <date when-iso="1660-04-17">that<lb/>
+          day</date> by <persName ref="ppl:jk1" n="per122">Mr Kirton</persName> of <placeName ref="place:Rich_043" n="place56">Richmond</placeName><lb/>
           called <persName ref="ppl:wt2" n="per123">william</persName>.</p>
          <p>sureties <persName ref="ppl:jy1" n="per124">my Cosen Jo: Yorke</persName>: <persName ref="ppl:wn1" n="per125">Co:<lb/>
           Will. Norton</persName>. &amp; <persName ref="ppl:jd1" n="per126">Co: Darcy of <placeName ref="place:Rich_043" n="place57">Rich</placeName></persName>.</p>
@@ -2510,7 +2517,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           <date when-iso="1662-05/1662-06">a bout May or Jun</date> which was the time<lb/>
           of our first settlement into the house<anchor n="ev52"/><lb/>
            <milestone n="ev53" unit="event"/>
-          ; soone affter <persName ref="ppl:wt1" n="per152">Mr Thornton</persName>s bussinesse<lb/>
+          ; <date when-iso="1662">soone affter</date> <persName ref="ppl:wt1" n="per152">Mr Thornton</persName>s bussinesse<lb/>
           about <persName ref="ppl:rn1" n="per153">Nettleton</persName>s Suite, calld him to.<lb/>
           <placeName ref="place:Lond_080" n="place63">London</placeName>.<lb/>
          
@@ -2674,7 +2681,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <div n="div51">
      <fw type="pageNum" rend="darkerInk">67.</fw><lb/>
     <milestone n="ev54" unit="event"/>
-         <p>After this, drawing neare a month<lb/>
+         <p>After this, drawing <date when-iso="1662-08">neare a month</date><lb/>
            <!-- NOTE moved fw -->
            of my delivery. it behoved me to<lb/>
            <!-- [endnote] T is smudged. -->
@@ -2826,7 +2833,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            </fw>
            <lb/>
            <milestone n="ev55" unit="event"/>
-          After I had obtiened this<lb/>
+          <date when-iso="1662-08">After</date> I had obtiened this<lb/>
           mercy &amp; sattisfaction to my porre<lb/>
           Soule of pertaking of the Lords <lb/>
           Supper, &amp; in the best manner &amp; me <lb/>
@@ -3187,7 +3194,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           my distresse &amp; gave me after this<lb/>
           a compotency of health &amp; strength<lb/>
           to be able to give my Childe sucke.<lb/>
-          which by his blessing I did till <persName ref="ppl:rt2" n="per195">Robin</persName><lb/>
+          which by his blessing I did <date when-iso="1662/1664">till</date> <persName ref="ppl:rt2" n="per195">Robin</persName><lb/>
           was about 2 yeares old. he contineu<lb break="no"/>
           -uing very health full &amp; strong.<lb/>
           so that my sorrowes much abated.<anchor n="ev58"/><lb/>
@@ -3289,7 +3296,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <lb/>
        <p>
          <milestone n="ev60" unit="event"/>
-         After that <persName ref="ppl:rt2" n="per202">Robin</persName> was 2 years old<lb/> 
+         <date when-iso="1664-10">After</date> that <persName ref="ppl:rt2" n="per202">Robin</persName> was 2 years old<lb/> 
          <!-- NOTE moved fw=pageNum -->
           <persName ref="ppl:wt1" n="per203">Mr Thornton</persName> went to <placeName ref="place:Lond_080" n="place73">London</placeName>. where<lb/>
           he had a great deliverance from<lb/>
@@ -3330,12 +3337,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
           accompaned with thorny caires &amp; trubls<lb/>
           I was contineud in much health &amp;<lb/>
           strength all a long while I was<lb/>
-          with childe till a bout a fortnight<lb/>
-          before I was delivred. when the pangs<lb/>
+          with childe till <date when-iso="1665-09-09">a bout a fortnight<lb/>
+          before</date> I was delivred. when the pangs<lb/>
           of child bearing was oft remembring me<lb/>
           but it was the good pleasure of<lb/>
           God to give me a safe. though very<lb/>
-          sharpe delivery. after a day &amp; a<lb/>
+          sharpe delivery. <date when-iso="1665-09-23">after</date> a day &amp; a<lb/>
           nights travell. I was hapie in <rs ref="ppl:jt1" n="per204" type="person">a<lb/>
           goodly strong sweete Childe</rs>. A<lb/>
           daughter: yet after I came in<lb/>
@@ -3469,7 +3476,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
       <milestone n="ev64" unit="event"/>
           <!-- NOTE moved fw pageNum -->
           The sudaine newes of his condition<lb/>
-          beeing made knowne to me when I expec<lb break="no"/>
+          beeing made knowne to me <date when-iso="1665-11">when</date> I expec<lb break="no"/>
           =ted to have receavd him home in health<lb/>
           did so surprize my spirits, that I was broug<lb break="no"/>
           =ht into such a passion of sorrow &amp; griefe,<lb/>
@@ -4469,7 +4476,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
   <!-- Q [dates] death above is beginning of Dec 1667. presumably this illness starts immediately after that? -->
          <p>
       <milestone n="ev85" unit="event"/>
-           After <rs ref="ppl:ct1" n="per274" type="person">my Childe</rs>s death. I fell <lb/>
+           <date when-iso="1667-12/1668-02">After</date> <rs ref="ppl:ct1" n="per274" type="person">my Childe</rs>s death. I fell <lb/>
           into a great &amp; long contineued<lb/>
           weaknesse, by the swelling of my milk<lb/>
           in the left breast which <persName ref="ppl:kdb1" n="per275">kitt</persName> last suckt.<lb/>
@@ -4678,7 +4685,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         </fw>
          <p>
         <milestone n="ev88" unit="event"/>
-          And loe when I was yet scarsly recovrd<lb/>
+          And loe <date when-iso="1668-08">when</date> I was yet scarsly recovrd<lb/>
            <!-- NOTE moved fw pageNum -->
           of my weaknesse from this greife &amp; had <lb/>
           kept my bed 14 daies. it pleased God<lb/>
@@ -6658,7 +6665,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <p>
         <milestone n="ev95" unit="event"/>  
            vidz The great fall I had at <placeName ref="place:Kirk_030" n="place102">Kirklington</placeName><lb/>
-          when I was 3 yers old in following <persName ref="ppl:st1" n="per351">Sara</persName> my<lb/>
+          <date when-iso="1629">when</date> I was 3 yers old in following <persName ref="ppl:st1" n="per351">Sara</persName> my<lb/>
           maide when she had <persName ref="ppl:cw2" n="per352">my brothr Christophr</persName><lb/>
           in her Armes. I fell upon the corner of the<lb/>
           harth stone in the Passage chambr goeing into <lb/>
@@ -6681,7 +6688,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
        <div n="div98" rend="pre(rule)">
          <p>
         <milestone n="ev96" unit="event"/>    
-          The Lord gave me a dreame before the dea<lb/>
+          The Lord gave me a dreame <date notAfter-iso="1640-11">before</date> the dea<lb/>
           th of <rs ref="ppl:cw1" n="per354" type="person">my deare &amp; honourd father</rs> to warne me<lb/>
           of his losse: &amp; he did foretell the sorrows<lb/>
           &amp; sad times comeing on these Kingdoms to <rs ref="ppl:aow1" n="per355" type="person">my<lb/>
@@ -7126,6 +7133,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
       <div n="div104" rend="pre(rule)">
          <p>
         <milestone n="ev102" unit="event"/>
+           <date when-iso="1644/1651"/>
           The great Deliverance I had from<lb/>
           A Rape by <persName ref="ppl:xi1" n="per423">Captaine Innis</persName> a Scott<lb/>
           who did sweare to Ravish me from<lb/>
@@ -7143,11 +7151,12 @@ The <damage> element should be used to indicate areas of damage affecting the te
       <div n="div105">
          <p>
         <milestone n="ev103" unit="event"/>
+           
           my great delivrance from<lb/>
           beeing stolen away out of <rs ref="ppl:aow1" n="per426" type="person">my<lb/>
           mothers</rs> Pasture which was laid<lb/>
           waite for me by <persName ref="ppl:js1" n="per427">Mr Jerimy<lb/>
-          Smithson</persName> when I was at <placeName ref="place:Hips_022" n="place115">Hipsw</placeName><lb/>
+          Smithson</persName> <date when-iso="1644/1651">when</date> I was at <placeName ref="place:Hips_022" n="place115">Hipsw</placeName><lb/>
           &amp; I would not indur his suite<lb/>
           by his freinds. He had laid<lb/>
           waite to have catched me from<lb/>
