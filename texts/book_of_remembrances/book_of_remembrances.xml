@@ -90,9 +90,6 @@
         dates: 
           some jan-march still need checking for OS/NS; 
           
-        events:
-          plenty still to do here...
-          need to review location of some anchor tags
       
       to update:
         conventions changes: 
@@ -126,7 +123,6 @@ The <damage> element should be used to indicate areas of damage affecting the te
       
       Qs 
         sic tagging repetition. is there something specific I should add there?
-        add year divs or not? inserted markers in comments, but doubtful about value of doing this. (the book is not simply chronological)
         
       TBD tagging of ms description features - a lot of this to be dropped or only described in msDescription, but will review properly after I see final Book 1 transcription.
           footnotes > comments for reference/to come back to
@@ -292,7 +288,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
      
      
       
-     <!-- Q [ms] page number: should be transcribed? -->
+     <!-- Q teams [ms] page number: should be transcribed? -->
       <!-- [endnote] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
      
 
@@ -329,7 +325,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <!-- transcription: Page 3v -->
      
        <!-- [endnote] blank page. -->
-       <!-- Q [ms] blank pages - is this page *definitely* completely blank ie not numbered? [no image to check]  -->
+       <!-- Q teams [ms] blank pages - is this page *definitely* completely blank ie not numbered? [no image to check]  -->
     
             <pb n="3a"/>
          
@@ -362,7 +358,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 <!-- transcription: Page 4 -->
      
        
-<!-- Q [ms] page number apparently present but not transcribed [no image to check] -->
+<!-- Q teams [ms] page number apparently present but not transcribed [no image to check] -->
       <!-- [endnote] blank – but it is numbered in the top left-hand corner. 
        -->
          
@@ -466,7 +462,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          <div n="div8">
 <!-- transcription: Body -->
         <!-- TODO REVIEW ? Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
-           <!-- Q [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure if it adds anything useful to do it every time.  -->
+           <!-- NOTE [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure if it adds anything useful to do it every time.  -->
          <fw>
             <fw type="header" rend="underline">
                <date when-iso="1631">1631</date>
@@ -524,7 +520,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
       <!-- NOTE year 1631 -->
        <div n="div9">
          <fw>
-           <fw place="left margin">⁜</fw> <!-- Q [unicode] dotted cross symbol errm why is xslt changing unicodes? -->
+           <fw place="left margin">⁜</fw> <!-- TODO [unicode] dotted cross symbol errm why is xslt changing unicodes? -->
             <fw type="header" rend="underline">
                <date when-iso="1631">1631</date>:<!-- TODO conventions change : -->
             </fw>
@@ -576,7 +572,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           Glory &amp; praise even to my lives end<lb/>
           Amen. &amp; that for my Saviours Sake<lb/>
           alone. the Alpha &amp; Omega. Am<hi rend="underline">en .</hi>
-           <!-- Q [teamsQ] marks - underline looks more like a short line end marker to me -->
+           <!-- Q [teamsQ] [formatting] underline looks more like a short line end marker to me -->
          </p>
          </div>
             <pb n="12"/>
@@ -909,7 +905,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           6 daies contineuance after a relaps<lb/>
           by goeing to church &amp; came sick home.<lb/>
           who departed sweetly in the Lord, to the <lb/>
-          infint losse of me &amp; the rest of our fami<hi rend="superscript">ly</hi><!-- Q CHECK [transcription] consistency superscript v add>place=above (^^) at end of words at end of lines. Here "ly" written over word but not in ^..^. but looks v similar to a number that do have ^..^. --><lb/>
+          infint losse of me &amp; the rest of our fami<hi rend="superscript">ly</hi><!-- Q for team CHECK [transcription] consistency superscript v add>place=above (^^) at end of words at end of lines. Here "ly" written over word but not in ^..^. but looks v similar to a number that do have ^..^. --><lb/>
             <date when-iso="1640-12-03">Dec: 3<hi rend="superscript">d</hi> 40</date>: at his house in <placeName ref="place:Dubl_088" n="place14">dublin<lb/>
           in Ireland</placeName>.<anchor n="ev13"/></p>
    </div>
@@ -1499,7 +1495,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           deprived of the benifitt to swallow<lb/>
           all most any kind of food. Eaven<lb/>
           to a little drop of beere, which was<lb/>
-          for 4 daies of<!-- Q CHECK MS [endnote] F overwritten as ‘r’? Check MS-->.
+          for 4 daies of<!-- Q for team CHECK MS [endnote] F overwritten as ‘r’? Check MS-->.
              5. the most she <lb/>
           tooke inwardly. &amp; that but with<lb/>
           a seringe. The Toung &amp; mouth<lb/>
@@ -1674,7 +1670,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            &amp; <mod><del rend="overwritten" cert="medium">7</del><add place="superimposed" cert="medium">9</add></mod><lb/> 
             aClock at night vpon satterday the<lb/>
           <date when-iso="1659-12-10">10:<hi rend="superscript">th</hi> of Decemb: 
-            <hi rend="underline">1659:</hi></date><!-- Q [teamsQ] [tagging] this looks like another end of section line rather than underlined text; and check underline elsewhere? -->
+            <hi rend="underline">1659:</hi></date><!-- Q [teamsQ] [tagging] [formatting] this looks like another end of section line rather than underlined text; and check underline elsewhere? -->
          </p>
          
             <pb n="38"/>
@@ -1713,7 +1709,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
               I.e., diuretics?</p>
             </note>
             <lb/>
-            For her. she had allso <persName ref="ppl:xs1" n="per120">Dr Smith</persName> at the begn<hi rend="superscript">–</hi><!-- TODO [contraction] --><lb/> 
+            For her. she had allso <persName ref="ppl:xs1" n="per120">Dr Smith</persName> at the begn<hi rend="superscript">–</hi><!-- Q [contraction] --><lb/> 
             of her sicknesse. but liked him not:</p>
          <p>
            <anchor n="ev44"/>
@@ -2101,7 +2097,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           Triniity, 3 persons &amp; one God, helpe<lb/>
           thy poore destressed weake handm<lb break="no"/>
           -aid plunged in the depth of sine<lb/>
-            &amp; misery which non but thy Almig<hi rend="superscript">–</hi><!-- TODO [contraction] --><lb/> 
+            &amp; misery which non but thy Almig<hi rend="superscript">–</hi><!-- Q [contraction] --><lb/> 
             power is alble to helpe deliver &amp;<lb/>
           save from the Jawes of the Devill.<lb/>
 
@@ -2300,7 +2296,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            <lb/>
           that <rs ref="ppl:aow1" n="per135" type="person">my deare mother</rs> had given<lb/>
           me before her death which was 1<add place="superimposed">50</add><hi rend="superscript">l</hi>
-             <!-- Q CHECK MS [endnote] 50 written over – poss 05 underneath, and check gutter-->
+             <!-- Q for team CHECK MS [endnote] 50 written over – poss 05 underneath, and check gutter-->
             <lb/>
           for my owne use. which steeres I<lb/>
           intended for <persName ref="ppl:wt1" n="per136">Mr Thornton</persName>s Draught<lb/>
@@ -2323,7 +2319,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             but it so hapned that <persName ref="ppl:wt1" n="per142">Mr Th</persName>: did dra<supplied>w</supplied><lb/> 
             
             the bond for <date>mart<hi rend="superscript">h</hi></date>
-            &amp; not for <date>mick<hi rend="superscript">–</hi></date><!-- TODO [contraction] / TODO date -->
+            &amp; not for <date>mick<hi rend="superscript">–</hi></date><!-- Q [contraction] / TODO date -->
            <note place="end" type="word">
                <p rend="Endnote Text">
               I.e. ‘Micklemas’?</p>
@@ -2533,7 +2529,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
 
          <fw type="pageNum">62</fw>
            <lb/>
-          <!-- Q CHECK MS? [endnote] Poss a capital T under the 2 but would need to check the original -->
+          <!-- Q for team CHECK MS? [endnote] Poss a capital T under the 2 but would need to check the original -->
              
           to Prevent <persName ref="ppl:rn1" n="per154">Nettleton</persName> from breaking<lb/>
           up an excecution against his Estate<lb/>
@@ -2760,7 +2756,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           the sacrament to my blesed mother. &amp; <lb/>
           I desired his company to <placeName ref="place:East_019" n="place69">Newton</placeName> <lb/>
             who accordingly did come, &amp; bring<lb/> 
-          <!-- Q CHECK MS ? [endnote] Some overwriting here, especially of initial two letters, not clear in photograph.-->
+          <!-- Q for team CHECK MS ? [endnote] Some overwriting here, especially of initial two letters, not clear in photograph.-->
           <persName ref="ppl:bb1" n="per176">my Cossn Ben: Browne</persName> along. when<lb/>
           we with <persName ref="ppl:wt1" n="per177">Mr Th</persName>: <persName ref="ppl:acd1" n="per178">my neece Anne Danby</persName><lb/>
          
@@ -3751,7 +3747,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           sweetely fell assleepe.</p>
        <p>She was buried at <placeName ref="place:Ston_053" n="place75">Stonegrave</placeName> the next<lb/>
            day by <persName ref="ppl:tc1" n="per225">Mr Comber</persName>: who preached <add place="superimposed">A</add>
-                  <!-- Q CHECK MS [endnote] Overwritten? check original.-->
+                  <!-- Q for team CHECK MS [endnote] Overwritten? check original.-->
             <lb/>
           funerall sermon.</p>
          <anchor n="ev65"/>
@@ -3826,7 +3822,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           <persName ref="ppl:rw1" n="per229">Dr wittie</persName> did apprehend; &amp; it, toget<add place="above">her</add><lb/> 
             with a greeife that befell me upon my 
             <del rend="strikethrough">ret</del><lb/> 
-            returne home by: W: [I/T]<!-- Q [teamsQ] reading of text. I think T. but what is it? a name? ?? -->: 
+            returne home by: W: [I/T]<!-- Q for team reading of text. I think T. but what is it? a name? ?? -->: 
             <subst>
               <add place="above">about</add>
               <del rend="strikethrough">by</del>
@@ -4102,7 +4098,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           Phisick to prevant the smale Pox &amp; she<lb/>
           fell to be ill. in paine of the head &amp; back<lb/>
           <date when-iso="1667-01-26">26<hi rend="superscript">th</hi></date> she was very sick &amp; contineued the<lb/>
-          <date when-iso="1667-01-27/1667-01-28">27 &amp; 28</date><!-- Q [dates] treat this as a date range or tag twice? --> till the smale Poxe came out<lb/>
+          <date when-iso="1667-01-27/1667-01-28">27 &amp; 28</date> till the smale Poxe came out<lb/>
           beeing these 2 daies in a cold Sweate &amp; in<lb/>
           danger of death. <date when-iso="1667-01-29">the 29<hi rend="superscript">th</hi></date> my poore <persName ref="ppl:atc1" n="per246">Naly</persName> <lb/>
           haveing laid very patiently all the time<lb/>
@@ -4595,7 +4591,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           oath, but <rs ref="ppl:tbd-enemies" n="per283" type="person">the other woman</rs> having a <lb/>
           spleene against her. did carrie so un<lb break="no"/>
           =hansomly &amp; unchristianly towards me<lb/>
-          in her <del rend="doublestrikethrough">bit</del>ter<!-- Q CHECK "ter" not deleted but presumably was intended to be...? --> agravation &amp; in false<lb/>
+          in her <del rend="doublestrikethrough">bit</del>ter<!-- Q for team "ter" not deleted but presumably was intended to be...? --> agravation &amp; in false<lb/>
           accusing the Hon.<hi rend="superscript">or</hi> of some of the Persons<lb/>
          
             <pb n="121"/>
@@ -5528,7 +5524,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           builder is God. how should I groane after<lb/>
           &amp; long to be clothed upon &amp; injoy that<lb/>
           happinesse. those Joyes. which I doe hope<lb/>
-          <!-- Q [teamsQ] reading of text: isn't this a cross rather than a line? [endnote] Short line in left-hand margin. -->
+          <!-- TODO [teams] reading of text: a cross rather than a line [endnote] Short line in left-hand margin. -->
             <rs ref="ppl:wt1" n="per328" type="person">my deare husband</rs> now inheritts. And<lb/>
            now O Lord I thine poore, weake hand<lb break="no"/>
            =maide &amp; servant doth from my very<lb/>
@@ -5785,7 +5781,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
          </fw>
            <lb/>
          Nearest Relations vidz:</p>
-       <!-- Q [tagging] maybe tag as a list? -->
+       <!-- TODO [tagging] maybe tag as a list? -->
          <p>My Brother <persName ref="ppl:tt1" n="per338">Thomas Thornton</persName>.</p>
          <p>My <persName ref="ppl:jd2" n="per339">Brother Denton</persName>.</p>
          <p>My <persName ref="ppl:tp1" n="per340">Brother Portington</persName>.</p>
@@ -5982,7 +5978,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                <p rend="Endnote Text">
               Contraction mark over ‘m’.</p>
             </note> bare heads; bow’d knees strike Just<supplied>is</supplied></l>
-         <l>As well as blind &amp; lame, &amp; give a Tongue <add place="above" rend="underline">dumb</add><!-- Q [teamsQ] reading of text: is tongue crossed out or dumb underlined? -->
+         <l>As well as blind &amp; lame, &amp; give a Tongue <add place="above" rend="underline">dumb</add><!-- NOTE [teams] keep as it is. is tongue crossed out or dumb underlined? -->
          </l>
          <l>To stones by Epitaphs; be calld great master</l>
          <l>In the last lines of every Poetaster:</l>
@@ -6006,13 +6002,15 @@ The <damage> element should be used to indicate areas of damage affecting the te
      <lb/>
          <l>A prayer booke shall be my looking glasse</l>
          <l>Wherein I will adorne sweete vertues face</l>
+         <!-- TODO [teams] transcription/tagging of these four lines - I have text in the teams doc. will the word transcription need changing as well?  -->
          <l>Heare dwells noe heartlesse loves noe pale face</l>
          <l>Noe short Joyes purchast with Eternall <subst>
            <del rend="strikethrough">tears</del><add place="above">feares</add>
-         </subst>.<!-- Q [teamsQ] reading of text: these two lines looks to me like  "... noe pale fact feares / ... with Eternall tears [not a deletion] -->
+         </subst>.
          </l>
-         <l>Heere will I sit &amp; sigh my weakes youth folly<!-- Q [teamsQ] reading of text: "folly" inserted at end below line in |__. encoding if anything? -->.</l>
-         <l>And learne to affect an holy mallancholly. <!-- Q [teamsQ] reading of text: mallancholy similarly below line --></l>
+         <l>Heere will I sit &amp; sigh my weakes youth folly.</l>
+         
+         <l>And learne to affect an holy mallancholly. </l>
          <l>And if contentment be a stranger, then</l>
          <l>He neare looke for it but in Heaven agaen.</l>
        </div>
@@ -6790,7 +6788,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           fall on the Church &amp; Kingdoms &amp; praid<lb/>
           heartily for our good King; said that Pride &amp;<lb/>
           fullness of Bread would be the fall of the<lb/>
-          Church &amp; state if God prevented not.<milestone unit="undetermined" rend="diagonal"/><!-- Q CHECK marks is this / a marker or just filler? --><lb/>
+          Church &amp; state if God prevented not.<milestone unit="undetermined" rend="diagonal"/><!-- Q CHECK IMAGE marks is this / a marker or just filler? --><lb/>
           with mainy other like Prophiticall saings<lb/>
           sevrall times with much trouble &amp; somme<lb/>
           still begging to God to <w cert="low" norm="divert">Divit</w> his Judgment<lb/>
@@ -6839,7 +6837,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            tould my Aunt I have had the strangest drea<add place="above">m</add> <lb/>
           that evr I had. I dreamd that A man came in<lb/>
           to the Roome. with all Things for mournings<lb/>
-          &amp; laid them on the ground. <supplied cert="low">Sir<!-- TODO [tagging] not really a supplied, letters are there, just hard to decipher. --></supplied> B [M/W?]<!-- Q [teamsQ] reading of text. is this is a name?? --> habitts<lb/>
+          &amp; laid them on the ground. <supplied cert="low">Sir<!-- TODO [tagging] not really a supplied, letters are there, just hard to decipher. --></supplied> B [M/W?]<!-- Q for team reading of text. is this is a name?? --> habitts<lb/>
           as sleeces &amp;. I said she asked what that meant<lb/>
           The man that brought the mournings. said That<lb/>
           when such things apeard in a Child wifs<lb/>
@@ -6915,7 +6913,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            &amp; my selfe.<milestone unit="undetermined" rend="diagonal"/><!-- NOTE / milestone --> But in the Affter noone my brothr<lb/>
           <persName ref="ppl:gw1" n="per382">G: W:</persName> did goe to see <persName ref="ppl:hd1" n="per383">Mr Henry Darcy</persName>. and find<supplied reason="damage">ing</supplied>
             <lb/>
-            him not at home, entertand him selfe with <persName ref="ppl:dbd1" n="per384">old mot<hi rend="superscript">–<!-- TODO [contraction] --></hi><lb/> 
+            him not at home, entertand him selfe with <persName ref="ppl:dbd1" n="per384">old mot<hi rend="superscript">–<!-- Q [contraction] --></hi><lb/> 
           Darcy</persName>. &amp; he tooke a Bible and read a chapter to he<supplied>r</supplied><lb/>
           &amp; did make such an admirable exposition on it<lb/>
 
@@ -6945,7 +6943,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           &amp; was a great Joy to her to heare them but the Lord<lb/>
           was not pleased to grant him a long life but to tak<lb/>
           him away in these good designes. &amp; what he wanted<lb/>
-          in Power God acepted in the will in him.<milestone unit="undetermined" rend="diagonal"/><!-- Q CHECK marks is this / a marker or just filler? --><lb/>
+          in Power God acepted in the will in him.<milestone unit="undetermined" rend="diagonal"/><!-- Q CHECK IMAGE marks is this / a marker or just filler? --><lb/>
           He Laid that night there. And the next mor=<add place="above">ning</add> <lb/>
           came to <placeName ref="place:Hips_022" n="place106">Hipswell</placeName> about 9 a clocke. And at that tme<lb/>
           found me in a most sad sircumstance. I had bin<lb/>
