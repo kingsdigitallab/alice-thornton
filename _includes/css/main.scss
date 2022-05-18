@@ -15,7 +15,10 @@
 
 $white: #fbfbfb;
 $primary: #462200;
-$secondary: #c45300;
+// $secondary: #c45300;
+// GF 18/05/2022: changed to a slightly darker orange to meet accessiblity
+// requirements for colour contrast
+$secondary: #b34200;
 $accent: #df8833;
 $light: #cdcac7;
 $dark: #0a0a0a;
@@ -29,8 +32,21 @@ body {
   line-height: 1.75;
 }
 
+.content {
+  h1, h2, h3,
+  h4, h5, h6 {
+    color: $primary;
+    font-family: "Lora", serif;
+  }
+}
+
+.title {
+  color: $secondary;
+}
+
 h1, h2, h3,
 h4, h5, h6 {
+  color: $primary;
   font-family: "Lora", serif;
 }
 
@@ -62,10 +78,11 @@ footer,
   }
 
   a.navbar-item {
+    background-color: $primary;
     padding: 1.5rem 1rem 1.25rem;
-    @include touch {
-      background-color: $primary;
-    }
+    // @include touch {
+    //   background-color: $primary;
+    // }
 
     color: $light;
     
@@ -82,7 +99,7 @@ footer,
     }
 
     &:hover {
-      background-color: $light;
+      background-color: $white;
       color: $primary;
     }
   }
