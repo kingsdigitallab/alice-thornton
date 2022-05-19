@@ -7,10 +7,10 @@
                 <author>Alice Wandesford Thornton</author>
                 <respStmt>
                     <resp>editing in progress... </resp>
-                    <name>Suzanne Trill</name>
-                    <name>Cordelia Beattie</name>
-                    <name>Jo Edge</name>
-                    <name>Sharon Howard</name>
+                    <name xml:id="atb_ST">Suzanne Trill</name>
+                    <name xml:id="atb_CB">Cordelia Beattie</name>
+                    <name xml:id="atb_JE">Jo Edge</name>
+                    <name xml:id="atb_SH">Sharon Howard</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -25,6 +25,19 @@
                 <p>Converted from a Word document</p>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="JulianJan">
+                    <p>Year starts 1 January.</p>
+                </calendar>
+                <calendar xml:id="JulianMar">
+                    <p>Year starts 25 March.</p>
+                </calendar>
+                <calendar xml:id="JulianSic">
+                    <p>Year start date cannot be ascertained.</p>
+                </calendar>
+            </calendarDesc>
+        </profileDesc>
         <encodingDesc>
             <appInfo>
                 <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
@@ -38,14 +51,34 @@
          - Items <seg rend="background(green)">marked</seg> – may need reconsideration for consistency
          - Items <seg rend="background(cyan)">marked</seg> – double-check original
          
-         Page \d+ Transcriber page numbers 
+         Page \d+ Transcriber page numbers (fw=pageNum are Alice's written numbers)
          
          CORRECTION: issue with transcription, to be raised with team
-         NOTE: just a comment on something, may not need any further (or only very minor) action
+         NOTE: a comment on something, may not need any further (or only very minor) action
          TODO: needs work, probably know what's needed
-         Q: uncertain about how to proceed
+         Q: needs work, uncertain about how to proceed
          
+         comment tags in []
          [endnote] moved from Word endnotes into comment
+         
+         
+         **DATES** review
+         so I finally read up on TEI for non-Gregorian calendars and oof.
+         - our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS) and occasionally we can't tell which year a date between 1 Jan and 24 March is supposed to be in.
+         - the only reason we use @when etc stuff is so that we can get our dates in the right order and searchable. It doesn't matter to us (and is unlikely to matter to any reader) that they're not technically accurate.
+         
+         following MoEML, three @datingMethod/@calendar
+         #JulianJan year starts 1 January - 
+         #JulianMar date 1 Jan-24 Mar and year starts 25 March
+         #JulianSic only where date is 1 Jan-24 Mar and we don't know which year
+         
+         **JulianJan is treated as default so not explicitly encoded**
+         **similarly, only @datingMethod is explicitly encoded at this stage** (because I cannot imagine anywhere that @calendar won't be the same) (and doesn't seem to need both to validate) 
+         **BUT I should change *-iso attributes to *-custom but gah I changed this once already!!! 
+         NB year only dates assumed #JulianJan unless clear reason not to
+         added <calendar> stuff to teiHeader - will need proper description later.
+         [also will need to adjust my xquery to pick up JulianMar and +1]
+         
          
          @rend markers:
          <div> or <head>  ??
@@ -58,7 +91,6 @@
          diagonal-left-margin
          horiz-short-right
          
-         check out <decoNote> for teiHeader?
          
          events tagging
             use of milestone/anchor pairs
@@ -69,6 +101,9 @@
                 they can be "nested" for sub-events. they can overlap. etc.
          
          
+         
+         notes to self...
+         check out <decoNote> for teiHeader?
 
           -->
              
@@ -662,7 +697,7 @@
         
         <div n="div14">
             <head rend="post(rule)"> A deliverance from a fire &amp; other remarkables.</head>
-            <!-- Q [dates] this seems to be undated both here and in BoR, apart from page headings. -->
+            <!-- NOTE [dates] seems to be undated both here and in BoR, apart from page headings, so use those. -->
             <p>
                 <milestone n="ev9" unit="event"/>
                 <date when-iso="1636/1638"/>
@@ -1313,7 +1348,7 @@
                  was prepared for the Lords dealing with him in his<lb/>
                  Providence, either for life, or Death.<anchor n="ev18"/></p>
           <milestone n="ev19" unit="event"/><!-- NOTE event CW will -->
-            <p>About <date when-iso="1640-11-29">tuesday the 29<hi rend="superscript">th</hi> of No. 1640</date>.<!-- Q [dates] this is impossible. 29 nov 1640 was a Sunday. does she mean Tue 1 Dec? next date is wedneday. --> he called for his<lb/>
+            <p>About <date when-iso="1640-11-29">tuesday the 29<hi rend="superscript">th</hi> of No. 1640</date>.<!-- Q [dates] weekdays. this is impossible. 29 nov 1640 was a Sunday. does she mean Tue 1 Dec? next date is wedneday. --> he called for his<lb/>
                  Will; commanding <persName ref="ppl:ww2" n="per94">my Co. wandesforde</persName> one of his<lb/>
                  Executors to the said will. <add place="above">to read it</add> it being Signed, Sealed<lb/>
             
@@ -2597,7 +2632,7 @@
                  But this place of the English strength; was then cairlessly<lb/>
                  at that time deserted; none being sett to gaurd the bridge &amp;<lb/>
                  &amp; gates. but 4 weake old men that could make noe resistan<add place="above">ce</add><lb/>
-                 <date>That night beeing (satterday)</date>, before <persName ref="ppl:cm1" n="per156">Mackguire</persName> should<lb/>
+                 <date when-iso="1641-10-23">That night beeing (satterday)</date>, before <persName ref="ppl:cm1" n="per156">Mackguire</persName> should<lb/>
                  have taken possession of the Castle. he beeing desined the gover<add place="above">nor</add><lb/>
                  thereof, by the Rebbells. &amp; should have seised on it on the <lb/>
             
@@ -2609,7 +2644,7 @@
             
                 <fw type="pageNum">64.</fw> <lb/>
             
-            <date>Sunday morning</date>. <persName ref="ppl:hm1" n="per157">Mackmaughan</persName> willing to save<lb/>
+            <date when-iso="1641-10-24">Sunday morning</date>. <persName ref="ppl:hm1" n="per157">Mackmaughan</persName> willing to save<lb/>
                 <rs ref="ppl:tbd-macmahon" n="per159" type="person">a kinsman of his owne name</rs><!-- Q [people] identifiable? --> that lived then as a serva<add place="above">nt</add><lb/>
                  with <persName ref="ppl:jc2" n="per158">Sir John Clottworthy</persName> an English man, writt his<lb/>
                  cosen a letter to <placeName ref="place:Dubl_088" n="place64">Dublin</placeName> to meete him in great haste<lb/>
@@ -2686,7 +2721,7 @@
 
             
                 <fw type="pageNum">66.</fw>
-            <p>Whereas the Rebellion began that <date>Sunday</date> in the Coun<add place="above">try</add><lb/>
+            <p>Whereas the Rebellion began that <date when-iso="1641-10-24">Sunday</date> in the Coun<add place="above">try</add><lb/>
                  with sword, fire, &amp; murdering all before them, not<lb/>
                  spairing infant of daies nor old Age. all was made<lb/>
                  havocke of &amp; so contineued till they had notice<lb/>
@@ -3247,7 +3282,7 @@
                  noe cause; for that poore Towne had worke enough to defend<lb/>
                  it selfe from its Enimies. <anchor n="ev30"/></p>
            <milestone n="ev31" unit="event"/> <!-- NOTE event warrington to wigan, only dating "the next day". 1 day travel is plausible. so 29 Aug? -->
-            <p>From <placeName ref="place:Warr_057" n="place103">Warrington</placeName>, we went to <placeName ref="place:Wiga_059" n="place104">Wiggen</placeName> the next day,<lb/>
+            <p>From <placeName ref="place:Warr_057" n="place103">Warrington</placeName>, we went to <placeName ref="place:Wiga_059" n="place104">Wiggen</placeName> <date when-iso="1643-08-29">the next day</date>,<lb/>
                  beeing a Towne Zealous for theire King, &amp; Church. wee<lb/>
                  found it sorely demolished, &amp; all the windowes broaken<lb/>
                  many, sad complaints, of the poore inhabitants beeing<lb/>
@@ -3262,7 +3297,7 @@
                  for the true Proffession of the Prottestant religion. </p>
             <p>The memory of <persName ref="ppl:ef1" n="per236">Dr Fleetewood</persName> was so famous at that<lb/>
                  time with them, which was a most Pieous Godlie Minister<lb/>
-                 liveing <date>about 30 yeares since</date> with them &amp; by his life &amp;<lb/>
+                 liveing about 30 yeares since with them &amp; by his life &amp;<lb/>
                  doctrine had sett such good order amongst them that they<lb/>
                  still retained the true Religion he taught. They heearing<lb/>
                  that <rs ref="ppl:aow1" n="per237" type="person">my mother</rs> was his neece, flocked abundantly to see her<lb/>
@@ -3280,7 +3315,7 @@
                  were burnd. never neglected the praiers at 6 a clocke in<lb/>
                  the morning &amp; 4 in the affternoone. <anchor n="ev31"/></p>
             <milestone n="ev32" unit="event"/><!-- NOTE event wigan to downham, lancs (35ish miles). "the next day" 30 aug?  -->
-            <p>The next day, we passed from thence towards yorkeshire<lb/>
+            <p><date when-iso="1643-08-29">The next day</date>, we passed from thence towards yorkeshire<lb/>
                  with many praiers from this People. And when we came<lb/>
                  to the borders of <placeName ref="place:Lanc_078" n="place105">Lancashire</placeName>, at a place called <placeName ref="place:Down_016" n="place106">downham</placeName>,<lb/>
                  we were not permitted to passe. but with harsh language, &amp;<lb/>
@@ -3323,8 +3358,10 @@
                 (nb downham to snape = 50 miles; 2 days ish?) 
                 - but further down "richmond to snape 11 Oct"
                 so arriving at *richmond* ('to uncle nortons') on 2 sept, or some point between 2nd and 15th Sept. (then alice got ill, so they presumably had to wait until she was well enough to travel) -->
-              <!-- Q [dates] [margin] tagged note with date
-                  I think the only way to associate some of these dates in margins with the correct text is to use @ref - don't want to make a habit of that though! Or you could add empty date tag to the text itself. in fact maybe link the note to the milestone rather than the date.
+              <!-- TODO [dates] problem on these pages that several tagged dates are in marginal <note> that is some distance away from the text it actually refers to - need to associate these dates in margins with the correct text 
+                  BUT ALSO need to disassociate date in margin from the text it is next to - so they really need to be de-tagged, once you're sure all are accounted for in text
+                  - could use @ref - but ugh for such a small number of dates
+                  - i think i prefer to add dates to the text, use empty date tags or relevant words
               -->
                 <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
                   <date when-iso="1643-09-02">
@@ -3365,7 +3402,7 @@
              </note>
                &amp; then the Kings forces amongst them. (to <persName ref="ppl:mn1" n="per248">uncle Norton</persName>s)<anchor n="ev33"/><lb/>
            <milestone n="ev34" unit="event"/><!-- NOTE event to snape -->
-             Soe that <date>for a whole yeare</date> we lived, with great comfort and<lb/>
+             Soe that <date when-iso="1643-10-11/1644">for a whole yeare</date> we lived, with great comfort and<lb/>
              safety with <persName ref="ppl:kwd1" n="per249">my sweete Sister Danby</persName> att <placeName ref="place:Snap_047" n="place110">Snape</placeName><anchor n="ev34"/><!-- NOTE event /to snape -->. where <milestone n="ev35" unit="event"/>she<lb/>
               <!-- NOTE [margin] tagged note with date - but not the right date for the ev text... -->
                 <!-- Q teams CORRECTION ? should be a line under text in margin 11.43? - but [formatting] need to discuss that??? -->
@@ -3375,7 +3412,7 @@
                     <placeName>Rich</placeName>.<lb/>
                     <date when-iso="1643-10-11">Octb.<lb/>
                     11. 43</date>.</note>
-              was delivered of <rs ref="ppl:cd5" n="per250" type="person">a galant Son</rs> even in the midest of troub<lb break="no"/>
+              <date when-iso="1643-06-06">was delivered</date><!-- NOTE [dates] date of birth from biographies --> of <rs ref="ppl:cd5" n="per250" type="person">a galant Son</rs> even in the midest of troub<lb break="no"/>
               -les. God gave her comfort. &amp; <rs ref="ppl:tbd-awt-brother" n="per251" type="person">my brother</rs><!-- Q [people] but which brother? isn't george in france at this point? --> would have<lb/>
               him called Charles. because of his ingagement for the<lb/>
               Kings service.<anchor n="ev35"/><!-- NOTE event /birth -->
@@ -3400,14 +3437,14 @@
             -vices of Phisicians for him. I am wittnesse &amp; many more<lb/>
             that not any thing was wanting. which might conduce to his<lb/>
                     <!-- NOTE [margin] tagged note -->
-                    <!-- Q [dates] who or what does this date apply to? Christopher goes to the school a bit later than John? is this when Christopher goes to York? -->
+                    <!-- NOTE [dates] I think this is when Christopher goes to York? -->
                     <note place="left margin" resp="awt1">
                         <date when-iso="1643-11-22/1643-11-23">Nov.<lb/>
                         22<lb/>
                         to Scoo<add place="above">le</add><lb/>
                             23 43.</date>
                     </note>
-                recovery. At the last she sending him to <persName ref="ppl:jb1" n="per256">Dr Batthurst</persName><lb/>
+                recovery. <date when-iso="1643-11-22/1643-11-23">At the last</date> she sending him to <persName ref="ppl:jb1" n="per256">Dr Batthurst</persName><lb/>
                 at <placeName ref="place:York_060" n="place112">Yorke</placeName>. where by Gods blessing he was perfectly cured<lb/>
                 of this distempers.<anchor n="ev36"/> This was indeed a great deliverance of<lb/>
                 him from this distemper wherein many that has seene him has<lb/>
@@ -3467,7 +3504,7 @@
                  Minister, beeing most kindly entertained &amp; receaved<lb/>
                  till the hall was made fitt to dwell in. in that time<anchor n="ev38"/><lb/>
                 <milestone n="ev39" unit="event"/><!-- NOTE event gw and cw2 marston moor -->
-                 affter she came thither in the yeare <date when-iso="1643">1643</date><!-- Q [dates] def says 1643 but makes no sense? -->. was the battle<lb/>
+                 affter she came thither in the yeare <date>1643</date><!-- NOTE [dates] def says 1643 but that makes no sense? (i think i've commented on this in teams) - using <date> tag but removed @when -->. was the battle<lb/>
                  of <placeName ref="place:Mars_021" n="place122">Hessome</placeName> &amp; the takeing of <placeName ref="place:York_060" n="place123">yorke</placeName>. &amp; she was much con-<lb break="no"/>
                  -serned for <persName ref="ppl:cw2" n="per270">my brother Christofer Wandesforde</persName> being<lb/>
                  then at <placeName ref="place:York_060" n="place124">Yorke</placeName> for cure &amp; att Scoole.</p>
@@ -3627,8 +3664,11 @@
                 </div>
             <div n="div32">
                 <head rend="pre(rule) post(rule)">
-                    The death of <persName ref="ppl:kwd1" n="per289">my Sister Danby</persName>: <date when-iso="1645-09-10" type="death">Sept. <sic>30<hi rend="superscript">th</hi></sic> 1645</date> 
-                    <!-- Q [dates] almost certainly mis-dated by Alice here, cf other sources - BkRem says 10 Sept and burial recorded 11 Sept. Is silent correction in @when attribute correct practice? --><lb/>
+                    The death of <persName ref="ppl:kwd1" n="per289">my Sister Danby</persName>: <choice>
+                        <sic><date when-iso="1645-09-30" type="death">Sept. 30<hi rend="superscript">th</hi> 1645</date></sic>
+                        <corr><date when-iso="1645-09-10" type="death">Sept. 10<hi rend="superscript">th</hi> 1645</date></corr>
+                    </choice> 
+                    <!-- NOTE [dates] correction. mis-dated by Alice here, cf other sources - burial recorded 11 Sept. --><lb/>
                 att her house at <placeName ref="place:Thor_056" n="place141">Thorpe</placeName>.</head>
                 
             <milestone n="ev42" unit="event"/><!-- NOTE event delivery and illness of sister -->    
@@ -3785,8 +3825,8 @@
                  food which she could not take by reason of a sore throat)<lb/>
                  of part of the use of understanding for a little while, when<lb/>
                  its fury lasted. But <persName ref="ppl:dcl1" n="per315">Dafeny</persName> was alwaies with her. who<lb/>
-                 she had a great love for, and as she grew weaker <date when-iso="1645-10" precision="medium">affter<lb/>
-                 a months time of her delivery</date><!-- Q [dates] this doesn't make sense -->, holding her head on her<lb/>
+                 she had a great love for, and as she grew weaker <date>affter<lb/>
+                 a months time of her delivery</date><!-- Q [dates] this doesn't make sense... -->, holding her head on her<lb/>
                  breast, said to her in a faint weake voyce. I am goeing<lb/>
                  to God, my God now. Then said <persName ref="ppl:dcl1" n="per316">Dafeny</persName> nay Maddam<lb/>
                  I hope God will please to spaire your life, to live among<add place="above">gst</add><lb/>
@@ -3834,7 +3874,10 @@
                  helpeing the diseased, &amp; doeing many cures. following<lb/>
                  the Example of <rs ref="ppl:aow1" n="per319" type="person">my mother</rs> in all those things.</p>
             <p>She lived, affter the birth of <rs ref="ppl:fd1" n="per320" type="person">this Child</rs>. about a month<lb/>
-                 dieing on the <date when-iso="1645-09-30">30<hi rend="superscript">th</hi> of Sept. 1645</date>.<!-- Q [dates] elsewhere 10 Sept, but 30 Sept fits with *this* narrative... --> And was buried that <lb/>
+                 dieing on the <choice>
+                     <sic><date when-iso="1645-09-30">30<hi rend="superscript">th</hi> of Sept. 1645</date></sic>
+                     <corr><date when-iso="1645-09-10">10<hi rend="superscript">th</hi> of Sept. 1645</date></corr>
+                 </choice>.<!-- NOTE [dates] correction. though oddly 30 Sept fits better with *this* narrative... --> And was buried that <lb/>
                  night att <persName ref="ppl:td3" n="per321">Sir Thomas Danby</persName>s owne Towne in <placeName ref="place:Mash_037" n="place146">Massam<lb/>
                  Church</placeName> in the night by reason of the Parliament. Sol{diers} &amp; Scots<lb/>
                  who would not let a Sermon be Preached. Butt there was<lb/>
@@ -3947,16 +3990,16 @@
                         
             <head rend="post(rule)"> Uppon the beheading of <persName ref="ppl:cs1" n="per341">King Charels<note place="end">
                     <p rend="Endnote Text"> [word] SiC – i.e., Charles.</p>
-            </note> the Martyr</persName> <date when-iso="1649-01-30" type="death">Jan 30<hi rend="superscript">th</hi><lb/>1648</date>
+            </note> the Martyr</persName> <date when-iso="1648-01-30" datingMethod="#JulianJan" type="death">Jan 30<hi rend="superscript">th</hi><lb/>1648</date>
                 <!-- Q [tagging] [layout] 1648 is actually inserted on line above. hmm. there's the WWP method? -->
-                <!-- NOTE [dates] definitely OS calendar this time! corrected in when-iso.?? and again below. -->
+                <!-- NOTE [dates] definitely OS! -->
             </head>
         <milestone n="ev48" unit="event"/>    
             <p>
                 <persName ref="ppl:cs1" n="per342">Our blessed King Charles the first</persName>. whoes memmory shall<lb/>
                  live to Etternity was cruelly Murthered, by the hands of<lb/>
                  Blasphemous Rebells, his owne subjects, att <placeName ref="place:Whit_084" n="place155">White hall</placeName>.<lb/>
-                 <placeName ref="place:Lond_080" n="place156">London</placeName> the <date when-iso="1649-01-30">30<hi rend="superscript">th</hi> of Janueary: 1648</date>. /</p>
+                 <placeName ref="place:Lond_080" n="place156">London</placeName> the <date when-iso="1648-01-30" datingMethod="#JulianMar">30<hi rend="superscript">th</hi> of Janueary: 1648</date>. /</p>
          <anchor n="ev48"/>
             <p>Lett all true Christians mo<add place="above">u</add>rne for the fall of this Stately<lb/>
                  Ceadar, whoe, was the cheife suportt of the Church of God.<lb/>
@@ -4522,7 +4565,7 @@
             <date when-iso="1651-03-31">March <hi rend="underline">the 31, 1651</hi></date>. was his blacke munday. <!-- Q [event] ? -->the strange<lb/>
                  paine which seised on my necke portended this Sadd losse.<lb/>
                  Great, &amp; infinitt, was the search by thousands, of People<lb/>
-                 from that time till <date when-iso="1651-04-02">Wednesday foll{owing}</date><!-- Q [dates] wtf Alice -->, his bodie not beeing found<lb/>
+                 from that time till <date when-iso="1651-04-02">Wednesday foll{owing}</date><!-- Q [dates] weekday? wtf Alice -->, his bodie not beeing found<lb/>
                  till on that day, &amp; about the time when he was lost.</p>
             <p>And then one of those men which was a wittnesse against<lb/>
                  him, was the first, which discovered his bodie, it beeing fallen<lb/>
@@ -4581,7 +4624,7 @@
                  afflictions wheerein I had a deepe shaire, &amp; to leave<lb/>
                  them for the right information to <add place="above">my</add> Posterity of theire<lb/>
                  finishing this life, according to my knowledge.<lb/>
-                 he was buried upon <date when-iso="1651-04-01">the first day of Aprill 1651</date><!-- Q [dates] wtf Alice.  -->.</p>
+                 he was buried upon <date when-iso="1651-04-01">the first day of Aprill 1651</date><!-- Q [dates] does this work out?  -->.</p>
             <p><persName ref="ppl:cw3" n="per415">Sir Christofer Viwill</persName> who had a great love for <rs ref="ppl:gw1" n="per416" type="person">my Deare<lb/>
                  brother</rs>, made an Excelent paper of verses up<add place="above">on</add> him in<lb/>
                  bewaling his losse which I will insert heere affter.</p>
@@ -5408,13 +5451,13 @@
                  Childe</rs> &amp; of the great sickness foll{owe}d for 3 q{uarte}rs of a yeare<lb/>
                 <date when-iso="1652-08-06/1653-05-12" type="illness">August 6<hi rend="superscript">th</hi> 1652 lasted till May: 12. 53</date>.</head>
             <milestone n="ev65" unit="event"/><!-- NOTE event awt child1 pregnancy  -->
-            <p><date when-iso="1652-02">About seaven weekes affter I married</date>. itt pleased<lb/>
+            <p><date when-iso="1652-02">About seaven weekes affter I married</date><!-- Q [dates] is it possible to reconstruct dates in this passage by counting forward? not sure it quite works -->. itt pleased<lb/>
                  God to give me the blessing of conseption. the first<lb/>
                  quarter I was exceeding sickly in breeding, till I<lb/>
                  was with quicke childe. Affter which I was very strong<lb/>
                  &amp; healthy I blesse God. only much hotter then form{erly}<lb/>
                  as is usuall in such cases from a naturall cause.<lb/>
-                 in soe much that my nose bled much when I was about<lb/>
+                 in soe much that my nose bled much <date>when</date> I was about<lb/>
                  halfe gon by reason of the increase of heate.</p>
             <anchor n="ev65"/>
             <milestone n="ev66" unit="event"/><!-- NOTE event awt child1 pregnancy journey -->
@@ -5422,8 +5465,8 @@
                 in which I frely joyned. <rs ref="ppl:edg1" n="per514" type="person">his mother</rs> liveing about 50 miles<lb/>
                 from <placeName ref="place:Hips_022" n="place216">Hipswell</placeName>, &amp; all at <placeName ref="place:East_019" n="place217">Newton</placeName>, And <placeName ref="place:Butt_006" n="place218">Buttercrambe</placeName><lb/>
                  In my passage thither I sweat exceedingly, &amp; was<lb/>
-                 much inclining to be feavorish, wanting not 8 weeks<lb/>
-                 of my time. so that <persName ref="ppl:rw1" n="per515">Dr Wittie</persName> <add place="above">said</add> that I should goe neare to fall<lb/>
+                 much inclining to be feavorish, <date>wanting not 8 weeks<lb/>
+                 of my time</date>. so that <persName ref="ppl:rw1" n="per515">Dr Wittie</persName> <add place="above">said</add> that I should goe neare to fall<lb/>
                  into a feaver, or some desperate sicknesse, If I did not<lb/>
                  coole my blood, by takeing some away. &amp; if I had staied<lb/>
                  but 2 daies longer, I had foll{owe}d his advice.</p>
@@ -5493,14 +5536,14 @@
                  was brought indeed very weake &amp; desperately ill about, <lb/>
                  <date>11<hi rend="superscript">th</hi> day of my sicknesse</date>. I did lett him send for <persName ref="ppl:rw1" n="per525">Dr wittie</persName><lb/>
                  if it were not too late. </p>
-            <p>The Dr came Post the next day. when he found me very<lb/>
+            <p>The Dr came Post <date>the next day</date><!-- Q [dates] if this is about 7 days before she goes into labour, end of July? she says next paragraph the dr 'staied with me 7 daies' -->. when he found me very<lb/>
                  weake, &amp; durst not, lett me blood that night. but gave me<lb/>
-                 cordialls &amp; till the next day, &amp; if I gott but one houers<lb/>
+                 cordialls &amp; till <date>the next day</date>, &amp; if I gott but one houers<lb/>
                  rest that night he would doe it the morning following. that night<lb/>
                  the two Drs had a dispute about the letting me blood. <persName ref="ppl:xm1" n="per526">Mr Mahum</persName><lb/>
                  was against it &amp; <persName ref="ppl:rw1" n="per527">Dr wittie</persName> for it. but I soone desided<lb/>
                  that dispute &amp; tould them if they would save my life<lb/>
-                 I must bleed. soe the next day I had 6 or 7 o{unce}s taken which<lb/>
+                 I must bleed. soe <date>the next day</date> I had 6 or 7 o{unce}s taken which<lb/>
                  was turned very bad by my sicknesse. but I found a<lb/>
                  change immeadiatly in my sight which was exceding dime<lb/>
                  before, &amp; then I see as well as ever clearly. &amp; my strength<lb/>
@@ -5543,8 +5586,8 @@
             <p>After the Ague left me upon a medicin of London Treacle<lb/>
                  I fell into the Jandies, <note place="end">
                     <p rend="Endnote Text"> [word] I.e., jaundice.</p>
-                </note> which used me very hardly <date>one full<lb/>
-                 q.<hi rend="superscript">r</hi> &amp; a halfe more</date>. I finding <persName ref="ppl:rw1" n="per531">Dr wittie</persName>s judgment true that <lb/>
+                </note> which used me very hardly one full<lb/>
+                 q.<hi rend="superscript">r</hi> &amp; a halfe more. I finding <persName ref="ppl:rw1" n="per531">Dr wittie</persName>s judgment true that <lb/>
                  it would prove a cronicall<!-- Q teams CHECK [contraction] contraction line over n which I have deleted --> distemper. but blessed be the<lb/>
                  Lord upon great &amp; many meanes used &amp; all remidies. I<lb/>
                  was at length cured of all distempers &amp; weaknesses which<lb/>
@@ -5559,7 +5602,7 @@
             <head rend="pre(rule) post(rule)">
             
                 A praier &amp; thankesgiveing for my deliverance of <rs ref="ppl:xt1" n="per532" type="person">my<lb/>
-                 first Childe</rs> <date when-iso="1652-08-06" type="birth">August 6<hi rend="superscript">th</hi> 1652</date><!-- Q [dates] wait what -->; cast in this sickns. 17 ooers.</head>
+                 first Childe</rs> <date when-iso="1652-08-06" type="birth">August 6<hi rend="superscript">th</hi> 1652</date><!-- Q [dates] wait what how can it be 6 August? checked image def says 6th -->; cast in this sickns. 17 ooers.</head>
             
             <p>O Lord most Great, &amp; yet our Gracious, &amp; loving father<lb/>
                  in our Saviour Jesus Christ thy deare son. Tender &amp; <lb/>
@@ -5584,7 +5627,7 @@
                  -ition when all men had given over to expect my Life</p>
             <p>Then did the great Phisician of Soule &amp; bodie raise the one<lb/>
                  &amp; heale the other; raising me up againe &amp; giveing mee<lb/>
-                 strength &amp; setting <add place="above">me</add> on my feette <date>affter 6 months</date> sicknes<lb/>
+                 strength &amp; setting <add place="above">me</add> on my feette affter 6 months sicknes<lb/>
                  in my bed. / I called uppon my God, in mine anguish<lb/>
                  of spiritt, &amp; heavinesse, I did complaine, &amp; made my<lb/>
                  suplications unto my God; the Lord of my Life &amp; Joy.<lb/>
@@ -5696,7 +5739,7 @@
             
                 Uppon the Birth of my Second childe, &amp; Daughter<lb/>
                 <persName ref="ppl:atc1" n="per535">Alice Thornton</persName>, borne att <placeName ref="place:Hips_022" n="place223">Hipswell</placeName> on the 
-                <date when-iso="1654-01-03" type="birth"><!-- NOTE [dates] NS calendar -->
+                <date when-iso="1654-01-03" type="birth"><!-- NOTE [dates] here she uses NS calendar -->
                <subst>  
                 <del rend="strikethrough">Third</del>
                 <add place="below">3d</add><lb/>
@@ -5713,6 +5756,7 @@
             <milestone n="ev71" unit="event"/><!-- NOTE event awt child2 pregnancy -->
             <p>It pleased my most gratious God to have compassion<lb/>
                  on me &amp; to give me strength to conceave againe<lb/>
+                <!-- NOTE [dates] conception would be early April? which doesn't quite seem to match this? -->
                  <date>about a quarter of a yeare after my recovery</date> of that <lb/>
                  most desperate &amp; dangerous Sickenesse, wherein I was<lb/>
                  brought soe weake that my speech was taken from me, not<lb/>
@@ -5740,7 +5784,7 @@
             <p>When loe immeadiately thereupon. I found so great a <lb/>
                  refreshement &amp; cooling, that the childe sprange in my wombe<lb/>
                  and from thence forward I had much health &amp; streng<add place="above">th</add><lb/>
-                 all the time of my being with childe till <date>with in a month of my<lb/>
+                 all the time of my being with childe till <date when-iso="1653-12">with in a month of my<lb/>
                  delivery</date>. when growing bigge I was in a wearish condi<lb/>
                  ttion,<anchor n="ev71"/> till <milestone n="ev72" unit="event"/><!-- NOTE event awt child2 birth -->my travill came on me about <date when-iso="1654-01-01">the 1<hi rend="superscript">st</hi> of Janeuery</date><lb/>
             
@@ -5877,10 +5921,10 @@
            <head rend="pre(rule) post(rule)">
           
                 Meditations uppon the birth of my 3<hi rend="superscript">d</hi> Childe <persName ref="ppl:et1" n="per548">Eliz.<lb/>
-                    Thornton</persName> borne the <date when-iso="1655-02-14" type="birth">14<hi rend="superscript">th</hi> of February. 1654</date><!-- Q [dates] OS calendar again. correction to check. -->.</head>
+                    Thornton</persName> borne the <date when-iso="1654-02-14" datingMethod="#JulianMar" type="birth">14<hi rend="superscript">th</hi> of February. 1654</date><!-- NOTE [dates] OS -->.</head>
           <milestone n="ev74" unit="event"/><!-- NOTE event awt child2 post birth -->
             <p>I recovered not very well, of the extreame weakenesse<lb/>
-                 that followed for a q{uarte}r of a yeare affter<!-- Q [dates] it's not quite the same as "something happened a quarter of a year after" --> my childe, in soe<lb/>
+                 that followed for a q{uarte}r of a yeare affter<!-- Q [dates] dur? --> my childe, in soe<lb/>
                  much that my milke was taken from me &amp; soe I was hin-<lb break="no"/>
                  -dred from doeing the naturall duty incumbant upon us<lb/>
                  mothers which troubled me much;<anchor n="ev74"/> but I must be willing<lb/>
@@ -5901,13 +5945,14 @@
                  blessing to nurse it my selfe if I had strength;</p>
            <anchor n="ev75"/>
            <milestone n="ev76" unit="event"/><!-- NOTE event awt child3 birth -->
-            <p><date>About a weeke before my full time</date> I contineued in much<lb/>
+            <p>
+                <date when-iso="1655-02">About a weeke before my full time</date> I contineued in much<lb/>
                  paine through the heavinesse of <rs ref="ppl:et1" n="per550" type="person">my Childe</rs>; haveing <rs ref="ppl:tbd-iu" n="per551" type="person">the mid-<lb break="no"/>
                 -wife</rs><!-- Q [people] not identifiable? --> in constant expectation each houer. att which time<lb/>
                  <rs ref="ppl:aow1" n="per552" type="person">my deare mother</rs> laid sicke in the house of a sad cough. &amp;<lb/>
-                 yong <persName ref="ppl:xt4" n="per553">Mrs Troutbeck</persName> came to give her directions through<lb/>
+                 yong <persName ref="ppl:xt4" n="per553">Mrs Troutbeck</persName><!-- TODO transcription needs correction? or not? --> came to give her directions through<lb/>
                  some freinds advice. &amp; by the blessing of God she was recov<lb break="no"/>
-                 -ered though not to be with me in my travell. <date>all teusday</date><lb/>
+                 -ered though not to be with me in my travell. <date when-iso="1655-02-13">all teusday</date><lb/>
                  &amp; that night with the morning on wednesday I was in great ex-<lb break="no"/>
                  -treamity till I was delivered. which came to passe on wednesday<lb/>
                 <date when-iso="1655-02-14">the 14<hi rend="superscript">th</hi> of february</date>. halfe houer affter 11 a clocke in the forenoone<lb/>
@@ -5917,7 +5962,7 @@
                  God of heaven &amp; earth which had compassion on me in my extrea<lb break="no"/>
                  -mity.</p>
            <milestone n="ev77" unit="event"/><!-- NOTE event naly illness -->
-            <p>After I was delivered &amp; in bed at 9 a clocke at night.<lb/>
+            <p><date when-iso="1655-02-14">After</date> I was delivered &amp; in bed at 9 a clocke at night.<lb/>
                  it fell out that <persName ref="ppl:atc1" n="per555">my little daughter naly</persName>, then newly weaned<lb/>
                  &amp; being asleepe in the cradle fell into a desperate fitt of<lb/>
                  the convoltions, as it was suposed to be, her breath stoping<lb/>
@@ -5952,7 +5997,7 @@
                  -joyments are woven with crosses. &amp; sorrowes.</p>
            <anchor n="ev78"/>
            <milestone n="ev79" unit="event"/><!-- NOTE event naly illness -->
-            <p>For <date>at the fortnights end</date>. I was sitting in a chaire &amp; giv<add place="above">ing</add><lb/>
+            <p>For <date when-iso="1655-02-28">at the fortnights end</date>. I was sitting in a chaire &amp; giv<add place="above">ing</add><lb/>
                  <rs ref="ppl:et1" n="per563" type="person">my childe</rs> sucke, when immeadiatly one of the maides<lb/>
                  cried out of the nurrsery that <persName ref="ppl:atc1" n="per564">My childe Naly</persName> was either<lb/>
                  dead or dieing, which soe affrighted me beeing but weake<lb/>
@@ -5971,7 +6016,7 @@
             <p>But this second weaknesse of my owne did soe dis-<lb break="no"/>
                  -courage <rs ref="ppl:aow1" n="per566" type="person">my deare mother</rs>, that she would not lett me<lb/>
                  give sucke, although I extreamely desired it, &amp; <date>att<lb/>
-                 the months end</date> I was forced to drie my breasts which grew<lb/>
+                 the months end</date><!-- Q [dates] which month Alice? --> I was forced to drie my breasts which grew<lb/>
                  full &amp; had indangered to bring me ill againe.</p>
            <anchor n="ev80"/>
            <milestone n="ev81" unit="event"/><!-- NOTE event child2 wetnursing -->
@@ -6169,7 +6214,7 @@
            <milestone n="ev88" unit="event"/><!-- NOTE event awt child4 pregnancy --> 
             <p>After I was with quicke childe of <rs ref="ppl:ktp1" n="per586" type="person"><add place="above">my</add> fourth childe</rs> I<lb/>
                  had pretty good health, considering my condition, till<lb/>
-                 I was <date>with in a month of my time</date>. &amp; then I grew very<lb/>
+                 I was <date when-iso="1656-05">with in a month of my time</date>. &amp; then I grew very<lb/>
                  heavy, bigge, &amp; weary. full of paine; &amp; the labour each<lb/>
                  day was on me. I found <rs ref="ppl:ktp1" n="per587" type="person">the childe</rs> more weighty &amp; not<lb/>
                  so nimble as <persName ref="ppl:atc1" n="per588">naly</persName> &amp; <persName ref="ppl:et1" n="per589">betty</persName>. so that she caused me to indure<lb/>
@@ -6541,7 +6586,7 @@
                  continuall bending its backe &amp; bodie for it. soe that Dr. Witty<lb/>
                  was sent for, &amp; used all his skill in my preservation; and by<lb/>
                  the blesing of God upon the meanes. I was delivered from<lb/>
-                 Death, and marvelously restored to strength <date>att 6 weeks<lb/>
+                 Death, and marvelously restored to strength <date when-iso="1657-10">att 6 weeks<lb/>
                  end</date>; I was lett blood by the Dr with other remidies which made<lb/>
                  me goe to my full time.<anchor n="ev93"/> O what shall I render to the Lord<lb/>
                  most high which had compassion on his weake handmaide.<lb/>
@@ -6730,8 +6775,8 @@
                  should goe to <placeName ref="place:Scar_046" n="place246">Scarbrough spa</placeName>w<note place="end">
                     <p rend="Endnote Text"> [word] I.e., spa</p>
                 </note> for the cure of the said <lb/>
-                 distemper, &amp; accordingly, I went with <persName ref="ppl:wt1" n="per628">Mr Thornton</persName> <date>staing<lb/>
-                 about a month</date> there, in which time I did by the blessing of <lb/>
+                 distemper, &amp; accordingly, I went with <persName ref="ppl:wt1" n="per628">Mr Thornton</persName> staing<lb/>
+                 about a month there, in which time I did by the blessing of <lb/>
                  God recover my strength. affter the stay of the former<lb/>
                  infirmity, of bleeding it leaving me with in 2 daies, totally<lb/>
                  &amp; was cleared from those faintings this carried along with it<lb/>
@@ -7881,7 +7926,7 @@
                 some or all of the text from "He died..." looks like later insertion to me. Which would make the heading a more sensible length too. --> 
               
              <add place="inline">He died<lb/>
-                 <date when-iso="1660-04-28" type="death">Aprill 28</date>. burid 1659<!-- NOTE date definitely 1659 but that's just wrong here --> at <placeName ref="place:Easb_017" n="place275">Easby</placeName> <date when-iso="1660-04-29">29</date>. neare my <persName ref="ppl:pcw1" n="per747">Lady<lb/>
+                 <date when-iso="1660-04-28" type="death">Aprill 28</date>. burid <date>1659</date><!-- NOTE [dates] definitely written 1659 but that's just wrong here. tagged, but not add @when --> at <placeName ref="place:Easb_017" n="place275">Easby</placeName> <date when-iso="1660-04-29">29</date>. neare my <persName ref="ppl:pcw1" n="per747">Lady<lb/>
             
              Wharton</persName>s grave at <placeName ref="place:Easb_017" n="place276">Easby</placeName>.</add>
               
@@ -7937,7 +7982,7 @@
                 </note> at <placeName ref="place:Easb_017" n="place281">Easby</placeName>.</p>
             <p>But it soe pleased God, to shorten this Joy. least<lb/>
                  I should be too much transported, that I was vissited<lb/>
-                 with another triall; for <milestone n="ev118" unit="event"/>on <date>the friday senitt affter</date>: he<lb/>
+                 with another triall; for <milestone n="ev118" unit="event"/>on <date when-iso="1660-04-27">the friday senitt affter</date>: he<lb/>
                  began to be very Angery &amp; froward.</p>
 
             <pb n="179"/>
@@ -8247,7 +8292,7 @@
                  goodnesse of that God whome I serve, desiring to speake well of<lb/>
                  his name, whoe has pitty upon his weake servant.</p>
          <milestone n="ev124" unit="event"/><!-- Q [event] is this an event? -->
-            <p>Heere I lived <date>for 2 yeares</date> till our owne house at <placeName ref="place:East_019" n="place288">Easte-<lb/>
+            <p>Heere I lived for 2 yeares till our owne house at <placeName ref="place:East_019" n="place288">Easte-<lb/>
                  Newton</placeName> could be finished, which we had bin in building.<lb/>
             
 
@@ -8296,10 +8341,21 @@
                  in it he tooke much content in itt. when he was well. //.</p>
          <anchor n="ev125"/>
          <milestone n="ev126" unit="event"/>
-            <p>In this time while I lived there, about <date when-iso="1662-02-09">Shrove Sunday 61</date><!-- Q [dates] she means Palm Sunday here? + OS calendar --><lb/>
+         <p>In this time while I lived there, about <date when-iso="1661-02-09">Shrove Sunday 61</date><!-- Q [dates] wtffffffffff 
+             Shrove Sunday="Septuagesima Sunday" ("the ninth Sunday before Easter, the third before Ash Wednesday"). 
+             but hang on Quinquagesima, Sun before Ash Wed is "sometimes also called Shrove Sunday."
+                Ians English Calendar, ecclestiastical yr start 1 Jan 
+                1661 - Septuagesima = 10 Feb. Ash Wed 27 Feb (-> Quinq... = 24 Feb)
+                1662 - Septuagesima = 26 Jan. Ash Wed 12 Feb (-> Q 9 Feb)
+                
+                nb they were at Oswoldkirk from June 1660 to June 1662.
+                the next set of dates is the move to E.Newton June 1662.
+                so in chronology this could be 1661 or 1662
+                but nb pregnancy must be 1662?
+            --><lb/>
                  I was in the Church when it was a frost &amp; snow, sitting in the minis<lb/>
                  Pews. I fellt my selfe exceeding Cold. &amp; by fitts contineud till the<lb/>
-                 <date when-iso="1662-02-11">tusday following</date>. very ill:<anchor n="ev126"/> //</p>
+                 <date when-iso="1661-02-11">tusday following</date>. very ill:<anchor n="ev126"/> //</p>
          </div>
 
             <pb n="186"/>
@@ -8311,15 +8367,15 @@
         <div n="div81">
             
             <head rend="post(rule)">
-                My greatt Sicknesse att <placeName ref="place:Oswa_041" n="place292">Oswoldkirke</placeName> <date when-iso="1662-02-11" type="illness">feb. 13<hi rend="superscript">th</hi> 1661</date><!-- Q [dates] correction in when-iso --><note place="end">
+                My greatt Sicknesse att <placeName ref="place:Oswa_041" n="place292">Oswoldkirke</placeName> <date when-iso="1661-02-11" type="illness">feb. 13<hi rend="superscript">th</hi> 1661</date><!-- Q [dates] OS/NS ??? --><note place="end">
                     <p rend="Endnote Text"> [dates] Probably 1662. Shrove Tuesday was 11 Feb. in 1662 but not 1661. Also, she goes on to say she was pregnant but she had no child/miscarriage in 1661; Robert was born Sept. 1662.</p>
                 </note> //</head>
            <milestone n="ev127" unit="event"/> 
             <p>I began a dangerous Sicknesse, which brought me very nigh<lb/>
                  to Death; att <placeName ref="place:Oswa_041" n="place293">Oswoldkirke</placeName> affter <rs ref="ppl:aow1" n="per779" type="person">my deare mother</rs>s death.<lb/>
-                 which was caused by that Cold I gott. &amp; Aguish Temper on <date when-iso="1662-02-09">the<lb/>
-                 Sunday</date> in the Church; causing a very violent vomitting<lb/>
-                comeing greatly upon <date when-iso="1662-02-11">Shrove Tuesday. feb. 13 1661</date> being<lb/>
+                 which was caused by that Cold I gott. &amp; Aguish Temper on <date when-iso="1661-02-09">the<lb/>
+                 Sunday</date><!-- Q [dates] OS/NS??? --> in the Church; causing a very violent vomitting<lb/>
+                comeing greatly upon <date when-iso="1661-02-11">Shrove Tuesday. feb. 13 1661</date><!-- Q [dates] OS/NS?? --> being<lb/>
                  that day my birth day.</p>
             <p>And soe contineueing perpetually in paine &amp; vomitting<lb/>
                  till I was not able to receave any kinde of Sustenance.<lb/>
@@ -8329,7 +8385,7 @@
                  to strengthen the stomacke; but noething would stay with me.<lb/>
                  Till I dranke a draught of cold water, which more refreshed<lb/>
                  my Thirsty Soule; then all what Art could give.</p>
-            <p>That night beeing the <date when-iso="1662-02-17">17<hi rend="superscript">th</hi> of feb</date>. I did veriely believe, <del rend="strikethrough">sho</del><lb/>
+            <p>That night beeing the <date when-iso="1661-02-17">17<hi rend="superscript">th</hi> of feb</date><!-- Q [dates] OS/NS? -->. I did veriely believe, <del rend="strikethrough">sho</del><lb/>
                  should be my last in this Life; I beeing brought into an<lb/>
                  Exceeding weakenesse &amp; feeblenesse of Bodie &amp; spiritt.<lb/>
                  But most of all into a seeming Spirituall dessertion <lb/>
@@ -8838,7 +8894,7 @@
                  longed for: &amp; greived much for the want thereof: And with<lb/>
                  all beeing in such a languishing condittion as I formerly<lb/>
                  mentioned: with out any spirituall <add place="above">helpe</add> from men: /</p>
-            <p>Affter which draweing neare <date>with in a month of my delivery</date><lb/>
+            <p>Affter which draweing neare <date when-iso="1662-08/1662-09">with in a month of my delivery</date><lb/>
                  it behooved me to looke with a more narrow search into my<lb/>
                  Soule &amp; examine how my thoughts &amp; desires were inclined<lb/>
                  to accept of death; whose time of life heere: very probably<lb/>
@@ -9529,7 +9585,7 @@
             <p>At which time he through could &amp; the distemper of the Palsie, <del rend="strikethrough">was</del><lb/>
                  violently prevaileing more upon him in his Jorney as he rid<lb/>
                  soe that he scarse could be gott to <persName ref="ppl:uc1" n="per904">My Sister Cholmeley</persName>s house.<lb/>
-                 <date>for 3 daies</date> that greivous distemper of the Palsey. Convoltions<lb/>
+                 for 3 daies that greivous distemper of the Palsey. Convoltions<lb/>
                  &amp; feavour was soe high upon him. that not withstanding all <lb/>
                  Possibles remidies could be used by <persName>Dr wittie</persName>, he was not able <lb/>
                  to assist himselfe, nor capable to receive others helpe at some<lb/>
@@ -9646,11 +9702,11 @@
         <div n="div94">
             
             <head rend="post(rule)">
-                Uppon <rs ref="ppl:jt1" n="per914" type="person">my deare Joyce</rs> her death <date when-iso="1666-01-27" type="death">Jan. 27 1665</date><!-- Q [dates] OS. silent correction -->.</head>
+                Uppon <rs ref="ppl:jt1" n="per914" type="person">my deare Joyce</rs> her death <date when-iso="1665-01-27" datingMethod="#JulianMar" type="death">Jan. 27 1665</date><!-- NOTE [dates] OS -->.</head>
           <milestone n="ev153" unit="event"/>  
             <p>It was the pleasure of our God to vissitt my deare Childe<lb/>
                  <persName ref="ppl:jt1" n="per915">Joyce Thornton</persName> with a great sickenesse falling exceding ill on<lb/>
-                 <date when-iso="1666-01-20">sunday the 20<hi rend="superscript">th</hi> of Jan. 1665</date><!-- Q [dates] 20 Jan 1666 = Saturday. so this is OS. silent correction to check. --> begining as we thought with a<lb/>
+                 <date when-custom="1665-01-20" datingMethod="#JulianMar">sunday the 20<hi rend="superscript">th</hi> of Jan. 1665</date><!-- NOTE [dates] 20 Jan 1666 = Saturday. so this is OS --> begining as we thought with a<lb/>
                  Cold which strucke in many Red spotts all over her bodie &amp; face<lb/>
                  affter which she mourned<note place="end">
                     <p rend="Endnote Text"> [word] OED. V1, 5c. “To make a low inarticulate sound indicative of grief, pain, hunger, etc.; to moan.”</p>
@@ -9660,14 +9716,14 @@
                  prevaile it beeing the pleasure of God to take her out of this<lb/>
                  miserable world.</p>
             <p>She contineued with some intermittions of slumbers, &amp; in<lb/>
-                 much strength did resist the sicknesse. till <date>the thursday af<lb/>
+                 much strength did resist the sicknesse. till <date when-iso="1665-01-24" datingMethod="#JulianMar">the thursday af<lb/>
                  ter</date>. when it was past hopes of recovery.<anchor n="ev153"/> <milestone n="ev154" unit="event"/>and about one<lb/>
-                 &amp; 2 a clocke in the affternoone on <date when-iso="1666-01-27" type="death">Friday the 27<hi rend="superscript">th</hi> Jan. 65</date><!-- Q [dates] 27 Jan 1666=Sat. OS calendar. wtf alice Sunday 20th and Friday the 27th???! -->.<lb/>
+                 &amp; 2 a clocke in the affternoone on <date when-iso="1665-01-27" datingMethod="#JulianMar" type="death">Friday the 27<hi rend="superscript">th</hi> Jan. 65</date><!-- NOTE [dates] 27 Jan 1666=Sat. OS calendar. BUT wtf alice Sunday 20th and Friday the 27th???! also calc date for thursday after from sunday, but who knows. -->.<lb/>
                  The Lord was pleased to free her from all paines, by takeing<lb/>
                  her to his mercy. when she sweetely fell a sleepe, with out<lb/>
                  any paine or extreamity to the Appearance of all.<anchor n="ev154"/></p>
             <milestone n="ev155" unit="event"/>
-            <p>She was buried at <placeName ref="place:Ston_053" n="place326">Stonegrave</placeName> by <persName ref="ppl:tc1" n="per916">Mr Comber</persName> the next day<lb/>
+            <p>She was buried at <placeName ref="place:Ston_053" n="place326">Stonegrave</placeName> by <persName ref="ppl:tc1" n="per916">Mr Comber</persName> <date when-custom="1665-01-28" datingMethod="#JulianMar">the next day</date><lb/>
                  who preached a funerall sermon.</p>
             <anchor n="ev155"/>
             <p>I dare not, I will not repine at this chastisment of the Lord<lb/>
@@ -10095,7 +10151,7 @@
                  times he was religeously disposed. &amp; constant in duties. with<lb/>
                  a consience to spend his daies holely &amp; uprightly; &amp; in great<lb/>
                  penitance for any thing that might offend his God.</p>
-            <p><date>About halfe a yeare before his death</date> he was more strict in<lb/>
+            <p><date when-iso="1666-06">About halfe a yeare before his death</date> he was more strict in<lb/>
                  his severe dutys of Pietie, saing that he should not live long<lb/>
                  soe that he prepared for his desolation each daie.</p>
             <anchor n="ev163"/>
@@ -10273,7 +10329,7 @@
           <milestone n="ev170" unit="event"/>  
             <p>The <date when-iso="1667-01-05">5<hi rend="superscript">th</hi> of Jan.</date> <persName ref="ppl:rt2" n="per981">my deare Robin Thornton</persName>s began his sicknes<lb/>
                  of the smale Pox beeing very ill &amp; weake for 2 daies. the<lb/>
-                 <date when-iso="1667-01-05/1667-01-09">7, 8, 9<hi rend="superscript">th</hi></date><!-- Q [dates] check formatting --> he was in great danger of death. they not come<lb break="no"/>
+                 <date when-iso="1667-01-05/1667-01-09">7, 8, 9<hi rend="superscript">th</hi></date> he was in great danger of death. they not come<lb break="no"/>
                  -ing well out till <date when-iso="1667-01-10">the 10<hi rend="superscript">th</hi></date> on which day he lost his sight by<lb/>
                  them being very great ones &amp; full.</p>
             <p>About <date when-iso="1667-01-14">the 14<hi rend="superscript">th</hi></date> his feavor &amp; dissease was at hight. &amp; on <date when-iso="1667-01-15">the<lb/>
@@ -10407,7 +10463,7 @@
                 </note>
             <p>
            <milestone n="ev175" unit="event"/> 
-                <date when-iso="1659">In the yeare </date><hi rend="underline"><date notBefore-iso="1659-12-10" notAfter-iso="1659-12-31">1659</date></hi> when I was att <placeName ref="place:StNi_050" n="place346">St Nickolas</placeName>. affter the<lb/>
+                <date when-iso="1659">In the yeare</date> <hi rend="underline"><date notBefore-iso="1659-12-10" notAfter-iso="1659-12-31">1659</date></hi> when I was att <placeName ref="place:StNi_050" n="place346">St Nickolas</placeName>. affter the<lb/>
                  death of <rs ref="ppl:aow1" n="per1000" type="person">my deare mot{her}</rs> <persName ref="ppl:ktp1" n="per1001">Kate Thornton</persName> was preserved<lb/>
                  from choakeing with a pin which gott crosse her throat. which by<lb/>
                  the blessing of God I gott out by my finger; when she was<lb/>
@@ -10515,9 +10571,9 @@
                 </note>
           <milestone n="ev178" unit="event"/>  
             <p>Of <rs ref="ppl:ct1" n="per1016" type="person">my 9<hi rend="superscript">th</hi> Childe</rs>; it was the pleasure of God to give<lb/>
-                 me a weake &amp; sickely time in breeding <date>from the Feb{ruary}<lb/>
+                 me a weake &amp; sickely time in breeding <date when-iso="1667-02/1667-05-10">from the Feb{ruary}<lb/>
                  till the 10<hi rend="superscript">th</hi> of may following</date>. I not haveing fully recruted<lb/>
-                 <date>my last Sept.</date> weakenesse; &amp; if it had bin good in the Eyes<lb/>
+                 my last Sept. weakenesse; &amp; if it had bin good in the Eyes<lb/>
                  of my God. I should much rather (because of that) not to<lb/>
                  have bin in this condittion: but it is not a Christians<lb/>
                  part. to chuse any thing of this nature. but <add place="above">what</add> shall be the<lb/>
@@ -10528,7 +10584,7 @@
                  in all my extreamities. &amp; Afflictions.</p>
             <p>I had not my health, till <date when-iso="1667-05-10">about the 10<hi rend="superscript">th</hi> of May.</date> when I<lb/>
                  perceaved my selfe <add place="above">with</add>quicke Childe. affterwards during<lb/>
-            the time of beeing with Childe. till <date>within a month of my de<lb break="no"/>
+            the time of beeing with Childe. till <date when-iso="1667-10">within a month of my de<lb break="no"/>
                  -livery</date> very well as of any other. walkeing a mile<lb/>
                  to the Church each Sabath day.<anchor n="ev178"/> I humbly blesse the God<lb/>
                  of my Life &amp; strength. that restored soe much health &amp;<lb/>
@@ -10537,8 +10593,8 @@
                  summer &amp; spring was soe well &amp; strong as he never had<lb/>
                  bin since his first ill fitt at <placeName ref="place:Stea_052" n="place350">Steersby</placeName>. The Lord giveing<lb/>
                  a blessing to those meanes appointed by Dr wittie for his<lb/>
-                 preservation. which order we observed; till <date>towards Sept. <lb/>
-                 following.</date><anchor n="ev179"/> <milestone n="ev180" unit="event"/>But when I grew soe bigge &amp; ill neare my<lb/>
+                 preservation. which order we observed; till towards Sept. <lb/>
+                 following.<anchor n="ev179"/> <milestone n="ev180" unit="event"/>But when I grew soe bigge &amp; ill neare my<lb/>
                  delivery about <date when-iso="1667-09-29">Mick{lemas}</date> he intermitted those rules of di-<lb break="no"/>
                  rections wanting my assistance about his Person <del rend="strikethrough">to</del><lb/>
                  in my Illnes. he relapsed severall times. And had the Dr<lb/>
@@ -10681,7 +10737,7 @@
                  was compelld to be carried to, &amp; from my bed in a Chair</p>
             <anchor n="ev188"/>
             <milestone n="ev189" unit="event"/>
-            <p>Even <date>at that time</date> did <rs ref="ppl:tbd-enemies" n="per1030" type="person">those</rs><!-- Q [people] possible "those" is specific ref to Anne Danby - immediately switches to "she" and "her": need to tag *something* here as there's no name or other ref --> which had a secrett hatred<lb/>
+            <p>Even at that time did <rs ref="ppl:tbd-enemies" n="per1030" type="person">those</rs><!-- Q [people] possible "those" is specific ref to Anne Danby - immediately switches to "she" and "her": need to tag *something* here as there's no name or other ref --> which had a secrett hatred<lb/>
                  against me (though I neither knew it, nor its cause then<lb/>
       <add place="left margin">for</add> I never in my whole life by word or act had the least pre-<lb break="no"/>
                  -judice or don her any injury, to make it: as I must<lb/>
@@ -10830,7 +10886,7 @@
                  take notice of such things, but rather condemne me<lb/>
                  for relating severall ominus dreames that I had before<lb/>
                  the Death of <rs ref="ppl:cw1" n="per1055" type="person">my Father</rs>, <persName ref="ppl:eo1" n="per1056">my Uncle, Osborne</persName>, <persName ref="ppl:kwd1" n="per1057">my Sister<lb/>
-                 Danby</persName>, <persName ref="ppl:gw1" n="per1058">my brother George</persName>, <date>before whoes death halfe a<lb/>
+                 Danby</persName>, <persName ref="ppl:gw1" n="per1058">my brother George</persName>, <date when-iso="1650-09">before whoes death halfe a<lb/>
                  yeare I dreamt</date> soe fully conserning it, the manner &amp; all<lb/>
                  sircumstances about it. that he refrained <geogName>that River</geogName> affer <lb/>
                  I tould him my dreame. till that time which was the last <del rend="doublestrikethrough">&amp;</del><lb/>
@@ -11847,7 +11903,7 @@
             
                And now I am to take notice of the grand mercys of my<lb/>
                  God that would not lett me perish through the evill imagination<lb/>
-                 of those that rose up against me, but affter an unmeasurablIon of sorow &amp; greife haveing kept my bed <date>14 daies</date>, weak<lb/>
+                 of those that rose up against me, but affter an unmeasurablIon of sorow &amp; greife haveing kept my bed 14 daies, weak<lb/>
                  &amp; feeble through the exceeding paines of the mother &amp; spleene<lb/>
                  &amp; other sicknesses thereon: yet Ith he raised me <lb/>
                  up againe, giveing me a great Comfort in my deare <persName ref="ppl:awn1" n="per1225">Aunt<lb/>
@@ -12323,7 +12379,7 @@
                  fainted as it was my desire rather then to have lost<lb/>
                  my Joy &amp; comfort; had not the Almighty Power &amp; mer<lb/>
                  cy of God miraculously upheld my Spiritt from sinking</p>
-            <p><date>On wednesday</date> I sent <persName ref="ppl:jd2" n="per1264">my Brother Denton</persName> &amp; <persName ref="ppl:tc1" n="per1265">Mr Comber</persName><lb/>
+            <p><date when-iso="1668-09-16">On wednesday</date> I sent <persName ref="ppl:jd2" n="per1264">my Brother Denton</persName> &amp; <persName ref="ppl:tc1" n="per1265">Mr Comber</persName><lb/>
                  to <rs ref="ppl:wt1" n="per1266" type="person">my deare Joy</rs> att <placeName ref="place:Malt_035" n="place386">Malton</placeName>. longing all that day to heare<lb/>
                  from him, still earnestly desiring to have gon my selfe<lb/>
                  but my freinds would not lett me. for feare of My.<lb/>
@@ -12372,7 +12428,7 @@
                  which had for the 3 last past yeares, bin weaning him, &amp; <add place="above">my</add> selfe<lb/>
                  from this world, through great &amp; manifold tribulations.</p>
             <p>Thus betwixt hopes &amp; feares I remained till the next messen-<lb break="no"/>
-                 -ger came. at 4 a clocke <date>on Thursday</date> in the affternoone. at <add place="above">which</add><lb/>
+                 -ger came. at 4 a clocke <date when-iso="1668-09-17">on Thursday</date> in the affternoone. at <add place="above">which</add><lb/>
                  time I receaved the sad newes (for me) of my most Tirrable<lb/>
                  Losse that any poore woman could <add place="above">have</add> in being deprived of my<lb/>
                  seewet,<note place="end">
@@ -13410,7 +13466,7 @@
             <p>-----------------------------------------------------</p>
           <milestone n="ev203" unit="event"/><!-- NOTE event awt nursing care -->
             <p>
-                <date when-iso="1626"/><!-- NOTE [dates] this may need improvement? -->
+                <date when-iso="1626"/>
                 <rs ref="ppl:cw1" n="per1300" type="person">My Father</rs>, &amp; <rs ref="ppl:aow1" n="per1301" type="person">mother</rs>, liveing at <placeName ref="place:Kirk_030" n="place391">Kirklington</placeName>;<lb/>
                  where I was borne; &amp; <persName ref="ppl:cw2" n="per1302">my brother Christopher</persName> allso<lb/>
                  The same maide servant attended uppon him, and was<lb/>

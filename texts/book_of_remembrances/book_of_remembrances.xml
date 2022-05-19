@@ -7,10 +7,10 @@
            <author>Alice Wandesford Thornton</author>
            <respStmt>
              <resp>editing in progress... </resp>
-             <name>Suzanne Trill</name>
-             <name>Cordelia Beattie</name>
-             <name>Jo Edge</name>
-             <name>Sharon Howard</name>
+             <name xml:id="atb_ST">Suzanne Trill</name>
+             <name xml:id="atb_CB">Cordelia Beattie</name>
+             <name xml:id="atb_JE">Jo Edge</name>
+             <name xml:id="atb_SH">Sharon Howard</name>
            </respStmt>
          </titleStmt>
          <editionStmt>
@@ -76,6 +76,20 @@
          </sourceDesc>
       </fileDesc>
      
+     <profileDesc>
+       <calendarDesc>
+         <calendar xml:id="JulianJan">
+           <p>Year starts 1 January.</p>
+         </calendar>
+         <calendar xml:id="JulianMar">
+           <p>Year starts 25 March.</p>
+         </calendar>
+         <calendar xml:id="JulianSic">
+           <p>Year start date cannot be ascertained.</p>
+         </calendar>
+       </calendarDesc>
+     </profileDesc>
+     
       <encodingDesc>
          <p>Converted from a Word document</p>
          <appInfo>
@@ -89,15 +103,8 @@
       to finish: 
         dates: 
           some jan-march still need checking for OS/NS; 
+          the already OS need fixing!
           
-      
-      to update:
-        conventions changes: 
-          i>arabic numerals ; check if there are any v for 5 as well
-          remove : from numbers
-          need to look at contractions consistency?
-          check if there are other conventions changes i've forgotten about...
-      
       to review: 
         - issues with how I've tagged unclear/illegible/deleted stuff. some is probably fine, but all needs checking.
         - use of <supplied> tag for [text in square brackets]. i think this is wrong unless words are completely illegible, s/b <unclear> ?
@@ -105,17 +112,8 @@
         - also check use of <space>, <damage> etc ?
         - and the difference between <mod> and <subst> ???
         
-JC:
-<add> (addition) contains letters, words, or phrases inserted in the text by an author, scribe, annotator, or corrector. 
-<del> (deletion) contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as superfluous or spurious in the copy text by an author, scribe, annotator, or corrector. 
-Where the addition and deletion are regarded as a single substitution, they can be grouped together using the <subst> (substitution) element . 
-
-Where a word has been supplied by the editor, <supplied> can be used. 
-When missing text cannot be confidently reconstructed, the <gap> element should be used. Its @reason attribute explains the reason for the omission and its @extent and @unit attributes indicate its presumed size. 
-
-Use <unclear> if the text has been rendered partly illegible by deletion or damage so that the text can be read but without perfect confidence. 
-The <damage> element should be used to indicate areas of damage affecting the text, but normally where at least some of the text can be read with confidence. 
-
+ 
+        a lot of abbrev/contraction work needs to be fixed in the transcription first I think
         - tagging of abbreviations/contractions and markers. some <hi superscript> should be tagged as abbreviations? still reading up on this one! 
         - possibly related to the ^...^ you haven't finished yet. are some of those actually contractions?
         - check consistency <fw> inside/outside <div> when div starts on a new page? I think should probably be outside in that context.
@@ -123,10 +121,6 @@ The <damage> element should be used to indicate areas of damage affecting the te
       
       Qs 
         sic tagging repetition. is there something specific I should add there?
-        
-      TBD tagging of ms description features - a lot of this to be dropped or only described in msDescription, but will review properly after I see final Book 1 transcription.
-          footnotes > comments for reference/to come back to
-          in teiHeader added examples for tags we might find useful
       
       to review: remaining footnotes
         type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep queries for now.
@@ -141,6 +135,19 @@ The <damage> element should be used to indicate areas of damage affecting the te
                 milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree
                 but they *are* always in the same <div> 
                 they can be "nested" for sub-events. they can overlap. etc.
+                
+                
+      to be updated: conventions changes: 
+        (but this has to be done in transcriptions first)
+          i>arabic numerals ; check if there are any v for 5 as well
+          remove : from numbers
+          need to look at contractions consistency
+          etc...
+        
+      TBD tagging of ms description features - a lot of this to be dropped or only described in msDescription, but will review properly after I see final Book 1 transcription.
+          footnotes > comments for reference/to come back to
+          in teiHeader added examples for tags we might find useful
+      
                 
      -->      
        
@@ -264,7 +271,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           of my selfe, Husband &amp; Children<lb/>
           with theire births, &amp; other remarks<lb/>
           as conserning my selfe &amp; Family<lb/>
-          begining from the yeare. <date when-iso="1626">162<add rend="darkerInk" place="superimposed">5</add></date><!-- Q [dates] calendar - did silent correction in @when-iso to modern date, but just discovered the bit in the TEI guidelines about Julian calendar (blech). -->.
+          begining from the yeare. <date when-iso="1626">162<add rend="darkerInk" place="superimposed">5</add></date><!-- Q [dates] OS calendar - did silent correction in @when-iso to modern date, but just discovered the bit in the TEI guidelines about Julian calendar (blech). -->.
          </titlePart>
          </docTitle>
          <docAuthor>  
@@ -311,7 +318,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           beeing munday, a bout two of<lb/>
           the clock in the after noone, in<lb/>
           the yeare. 1625</date>: Baptised<lb/>
-          <date>the next day</date>.</p>
+          <date when-iso="1626-02-14">the next day</date>.</p>
          <p>Wittnesses, <persName ref="ppl:rl1" n="per4">Mr Lassells</persName> minister<lb/>
           of <placeName ref="place:Kirk_030" n="place3">Kirklington</placeName>. <persName ref="ppl:awn1" n="per5">Mrs Anne <lb/>
             Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.<anchor n="ev1"/></p>
@@ -961,7 +968,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           time allso. <add place="inline">with <persName ref="ppl:jw1" n="per40">my bro: John</persName> who had them<anchor n="ev16"/><lb/>
           <milestone n="ev17" unit="event"/>but a poore boy <persName ref="ppl:fk1" n="per41">F. Kelly</persName> died of them. then.<anchor n="ev17"/></add>
            <!-- msDescription [endnote] Words in angle brackets look to be later additions in a slightly different ink and size of writing. The underlining looks like it was done at the time the entry was originally written, as does the shorter line below.-->
-            <date when-iso="1642"/><!-- NOTE [dates] - more precise in book1 -->
+            <date when-iso="1642"/><!-- NOTE [dates] - this date is more precise in book1 -->
          </p>
       </div>
     
@@ -1058,7 +1065,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
         <milestone n="ev23" unit="event"/>
            <persName ref="ppl:cs1" n="per52">King Charles the first</persName> beheaded at<lb/>
         <placeName ref="place:Whit_084" n="place28">White hall, London</placeName> the <date when-iso="1649-01-30">30<hi rend="superscript">th</hi> of Janeuary,<lb/>
-        1648</date>.<!-- NOTE [dates] - this one is definitely OS!-->
+        1648</date>.<!-- Q [dates] - this one is definitely OS! do correction -->
          <anchor n="ev23"/>
          </p>
        </div>
@@ -1292,7 +1299,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
             
             <lb/>
           a clocke in the affter noone, and was<lb/>
-          babtized the <date when-iso="1656-06">1<hi rend="superscript">th</hi> of June<!-- Q [dates] - check day? --></date>. by <persName ref="ppl:ms1" n="per85">Mr<lb/>
+          babtized the <date when-iso="1656-06-14">1<hi rend="superscript">th</hi> of June<!-- Q teams [transcription] 1th s/b 14th --></date>. by <persName ref="ppl:ms1" n="per85">Mr<lb/>
           Siddall</persName>. wittnesses, <rs ref="ppl:aow1" n="per86" type="person">my mother</rs>,<lb/>
            <persName ref="ppl:kdb1" n="per87">my Neece <add place="above">K</add> Danby</persName>, &amp; <persName ref="ppl:wt1" n="per88">Mr Thornton</persName><!-- NOTE / div rend [endnote] Diagonal line below Thornton, although not as dark as the ones above Elizabeth.-->
          <anchor n="ev39"/>
@@ -1744,7 +1751,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
               &amp; hazardus was in his mercy <lb/>
               delivered of a strong goodly Sonn<lb/>
               about 3 or 4 a clock in the morning<lb/>
-              being <date when-iso="1660-04-17">Tuesday: <sic>12</sic> April. <hi rend="underline">1660</hi></date>:<!-- Q [dates] i'm sure this should be Tues 17th - it's 17th in Book 1 (but looks like it's crossed out over 12), and 17 Apr 1660 was a Tuesday. see also comments added to semidip transcription. again, need to check how I should handle a correction in @when. -->
+              being <choice>
+                <sic><date when-iso="1660-04-12">Tuesday: 12 April. <hi rend="underline">1660</hi></date></sic>
+                <corr><date when-iso="1660-04-17">Tuesday: 17 April. <hi rend="underline">1660</hi></date></corr>
+              </choice>:<!-- NOTE [dates] corrected date. sure this should be Tues 17th - see also comments added to semidip transcription. -->
            <anchor n="ev45"/>
          </p>
         <milestone n="ev46" unit="event"/>
@@ -2254,7 +2264,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           &amp; to strengthen the conseption. by Plait-<lb break="no"/>
           =er on my backe, &amp; belly, with the same<lb/>
           directions that <persName ref="ppl:rw1" n="per134">Dr wittie</persName> prescribed <date when-iso="1662-02-21">feb.<lb/>
-          21: 61</date>: which with Gods blessing prevall<lb/>
+          21: 61</date><!-- Q [dates] OS/NS checked here? -->: which with Gods blessing prevall<lb/>
           for a perfect recovery.</p>
         <anchor n="ev50"/>
 </div>
@@ -2305,7 +2315,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           Denton</persName> which set the price betwixt us<lb/>
           beeing 24<hi rend="superscript">l-</hi> for the 6 steeres, I allow<lb/>
           ing <persName ref="ppl:wt1" n="per140">Mr Th</persName>: 4<hi rend="superscript">l-</hi> for the wintering them<lb/>
-           <w norm="since">sine</w><!-- Q [tagging] maybe [sic]? -->
+           <w norm="since">sine</w><!-- NOTE [tagging] test w@norm, but maybe [sic] anyway? -->
             <date when-iso="1661-11-11">mart<hi rend="superscript">h</hi>.<note place="end" type="word">
                <p rend="Endnote Text">
               I.e. ‘Martinmas’?</p>
@@ -2514,7 +2524,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
            =pectation my strength &amp; health<lb/>
           perfectly restored unto me, so that<lb/>
           I was able to walke to <placeName ref="place:East_019" n="place62">Newton</placeName><lb/>
-          <date when-iso="1662-05/1662-06">a bout May or Jun</date> which was the time<lb/>
+          <date when-iso="1662-06">a bout May or Jun</date> which was the time<lb/>
           of our first settlement into the house<anchor n="ev52"/><lb/>
            <milestone n="ev53" unit="event"/>
           ; <date when-iso="1662">soone affter</date> <persName ref="ppl:wt1" n="per152">Mr Thornton</persName>s bussinesse<lb/>
@@ -3795,7 +3805,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
           Ever that hath raised this childe up from<lb/>
           death very offten even from a young Child<lb/>
           beeing offten in sounds upon the breeding<lb/>
-          of her teeth: this fitt was <date when-iso="1665-06-13">June 13<hi rend="superscript">th</hi> 1665<!-- Q [dates] ? year doesn't match headings --></date><lb/>
+          of her teeth: this fitt was <date when-iso="1665-06-13">June 13<hi rend="superscript">th</hi> 1665<!-- NOTE [dates] year in text here doesn't match headings. maybe x-ref book1 --></date><lb/>
           at <placeName ref="place:East_019" n="place76">Newton</placeName>. when she was ill she was even<lb/>
            Ravished with the glorious sight.
          <anchor n="ev66"/>
@@ -4029,7 +4039,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
                107.
             </fw>
            <fw type="header" rend="underline">
-               <date when-iso="1667">1667</date><!-- NOTE [dates] here Alice uses NS!! -->
+               <date when-iso="1667">1667</date>
             </fw>
          </fw>
          <p>About <date when-iso="1667-01-15">15<hi rend="superscript">th</hi></date> he begain to alter for<lb/>
@@ -4488,10 +4498,10 @@ The <damage> element should be used to indicate areas of damage affecting the te
           did bring me into that weakenesse that I<lb/>
           Could neither stand nor goe for<lb/>
        <fw place="left margin">
-               <date>Feb.<lb/>
-               <hi rend="underline">67:</hi></date><!-- NOTE [dates] calendar - this one is def. Feb 1668 not 67 -->
+               <date when-iso="1668-02">Feb.<lb/>
+               <hi rend="underline">67:</hi></date><!-- Q [dates] calendar - this one is def. Feb 1668 not 67 -->
        </fw> 
-          4 months.<!-- Q [dates] tag as duration here? --> but was carried to bed<lb/>
+          4 months. but was carried to bed<lb/>
           &amp; from bed in a chaire.<anchor n="ev85"/> but ever<lb/>
           blessed &amp; magnified by the great &amp;<lb/>
           Glorious name of the Lord most high<lb/>
@@ -6688,7 +6698,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
        <div n="div98" rend="pre(rule)">
          <p>
         <milestone n="ev96" unit="event"/>    
-          The Lord gave me a dreame <date notAfter-iso="1640-11">before</date> the dea<lb/>
+          The Lord gave me a dreame <date notAfter-iso="1640-11">before</date><!-- Q [dates] possible to make this more specific? these dreams are usually only a few months before the evnet. --> the dea<lb/>
           th of <rs ref="ppl:cw1" n="per354" type="person">my deare &amp; honourd father</rs> to warne me<lb/>
           of his losse: &amp; he did foretell the sorrows<lb/>
           &amp; sad times comeing on these Kingdoms to <rs ref="ppl:aow1" n="per355" type="person">my<lb/>
@@ -6860,7 +6870,7 @@ The <damage> element should be used to indicate areas of damage affecting the te
       </div>
       <div n="div101" rend="pre(rule) post(diagonal)">
         <milestone n="ev99" unit="event"/>   
-         <p>I had a sad dreame halfe a yeare before my<lb/>
+         <p>I had a sad dreame <date when-iso="1650-10">halfe a yeare before</date><!-- Q [dates] "duration before X" may need better handling, but this will do for now. --> my<lb/>
           Brothr <persName ref="ppl:gw1" n="per374">George Wandesford</persName> was lost. That he was<lb/>
           goeing over thys River and that it did Rise then<lb/>
           when he was in it. which soe over came him. That he<lb/>
