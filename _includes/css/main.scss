@@ -32,22 +32,30 @@ body {
   line-height: 1.75;
 }
 
+a {
+  text-decoration: underline;
+
+  &:hover {
+    background-color: lighten($accent, 20%);
+  }
+}
+
 .content {
   h1, h2, h3,
   h4, h5, h6 {
-    color: $primary;
+    color: $secondary;
     font-family: "Lora", serif;
   }
 }
 
-.title {
-  color: $secondary;
-}
-
 h1, h2, h3,
 h4, h5, h6 {
-  color: $primary;
+  color: $secondary;
   font-family: "Lora", serif;
+}
+
+.title {
+  color: $secondary;
 }
 
 footer,
@@ -101,6 +109,10 @@ footer,
     &:hover {
       background-color: $white;
       color: $primary;
+    }
+
+    &:focus {
+      border: 1px solid $accent;
     }
   }
 
