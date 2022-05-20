@@ -101,21 +101,23 @@
      <!-- ENCODING NOTES: 
           
       to review: 
-        - issues with how I've tagged unclear/illegible/deleted stuff. some is probably fine, but all needs checking.
-        - use of <supplied> tag for [text in square brackets]. i think this is wrong unless words are completely illegible, s/b <unclear> ?
-        - similarly use of <del> v <gap> ?
-        - also check use of <space>, <damage> etc ?
         - and the difference between <mod> and <subst> ???
-        
+        I think use of <supplied> was mostly ok but need to record @reason
+        revised unclear>gap as needed. 
+        happy with gap/space. 
+        only one use of <damage> and changed that to unclear cause=damage as it seems more consistent with the rest of the tagging.
  
-        a lot of abbrev/contraction work needs to be fixed in the transcription first I think
+        abbrev/contraction work needs to be fixed in the transcription first
         - tagging of abbreviations/contractions and markers. some <hi superscript> should be tagged as abbreviations? still reading up on this one! 
+        
         - possibly related to the ^...^ you haven't finished yet. are some of those actually contractions?
+        
         - check consistency <fw> inside/outside <div> when div starts on a new page? I think should probably be outside in that context.
-        - possibly check / markers etc. 
+        
+        for teams discussion on markers/decoration etc - possibly check / markers etc. 
       
       Qs 
-        sic tagging repetition. is there something specific I should add there?
+        sic when tagging repetition. is there something specific I should add there? have left comments
       
       to review: remaining footnotes
         type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep queries for now.
@@ -124,7 +126,7 @@
       [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
  
          
-         events tagging
+       events tagging
             milestone/anchor pairs 
                 at present milestone/anchor pairs are linked using @n, prefix "ev". (not yet implemented @spanTo or linking event mentions)
                 milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree
@@ -133,7 +135,7 @@
                 
                 
       to be updated: conventions changes: 
-        (but this has to be done in transcriptions first)
+        (but this also has to be done in transcriptions first)
           i>arabic numerals ; check if there are any v for 5 as well
           remove : from numbers
           need to look at contractions consistency
@@ -348,12 +350,8 @@
          <l>Curbe my Stoute affections:</l>
          <l>Nip thou the bud,</l>
          <l>Before the bloome beginnes</l>
-         <l>Lord <add place="above" cert="low">the one</add> [ver]
-            <!-- Q [tagging] supplied? hold for now until you've reviewed. -->
-             <!-- [endnote] Even in the original this is very difficult to read.-->
-            
-            keepe me, from
-         </l>
+         <l>Lord <add place="above" cert="low">the one</add> <unclear>ver</unclear><!-- [endnote] Even in the original this is very difficult to read.-->
+          keepe me, from</l>
          <l>Presumptuous sinnes:</l>
          <l>Lord lead me by thy hand into thy rest</l>
          <l>And make me <subst>
@@ -515,7 +513,8 @@
           of a perpetuall memmory, which I hope<lb/>
           shall 
         <subst>
-          <del rend="strikethrough"><unclear unit="char" quantity="4" reason="illegible"/></del><add place="above">not</add>
+            <del><gap unit="char" quantity="4" reason="deleted"/></del>
+            <add place="above">not</add>
         </subst>, end with this life but spring<lb/>
           up to an Eternity of Haleiuias of<lb/>
           praise to all Eternity Amen.
@@ -606,7 +605,7 @@
           that time in thim.<anchor n="ev3"/> I will praise the<lb/>
           Lord our God for my Preservation &amp;<lb/>
           deliverance that did not suffer that disseas<lb/>
-           to rage &amp; indanger my life. <del rend="strikethrough"><unclear unit="char" quantity="2" reason="illegible"/></del> but<lb/>
+           to rage &amp; indanger my life. <gap unit="char" quantity="2" reason="deleted"/> but<lb/>
           Raised me soone to my Parents again<lb/>
           O lett me speake good of the name of<lb/>
           the Lord &amp; magnifie his goodnesse for<lb/>
@@ -1021,7 +1020,7 @@
             <persName ref="ppl:kwd1" n="per46">my Sister Danby</persName> died at <placeName ref="place:Thor_056" n="place25">Thorpe</placeName> 
            <date when-custom="1645-09-10">Sept 10<hi rend="superscript">th</hi>
             <lb/>
-           164<mod><del rend="overwritten">4</del><add place="superimposed">5</add></mod><!-- TODO REVIEW is <mod> right here? or should it be <subst>? urrghhh. -->
+           164<subst><del rend="overwritten">4</del><add place="superimposed">5</add></subst>
            </date>:
             <!-- [endnote] [editorial] Bk 1 says sept 30th 1645 but Anselment found she was buried on 11th sept 1645: edn n274. -->
           <!-- [endnote] Originally 1644 but the final number has been over-written as 5. As per above, the phrase in add tags appears to be a later addition in a slightly different ink and writing of a smaller size.-->
@@ -1188,8 +1187,8 @@
            <persName ref="ppl:atc1" n="per69">Alice Thornton</persName> my Second Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place41">Hipswell</placeName> the <date datingMethod="#JulianMar" when-custom="1653-01-03">3<hi rend="superscript">d</hi> of Janeuary<lb/>
          <fw place="left margin" rend="underline">1653</fw></date>
-           <unclear reason="damage" quantity="2" unit="word"/>
-           <!-- Q [tagging] [damage] [dates] [endnote] Some crossings out her but also looks like the paper is damaged in some way. Check original. This looks like it said 1653 – or 2? - but scratched out; A born 1654 in modern dating but makes more sense that the marginal dates are the corrections. This one has made a hole in the page visible on p.26.-->
+           <gap reason="damage deleted" quantity="2" unit="word"/>
+           <!-- [endnote] Some crossings out her but also looks like the paper is damaged in some way. Check original. This looks like it said 1653 – or 2? - but scratched out; A born 1654 in modern dating but makes more sense that the marginal dates are the corrections. This one has made a hole in the page visible on p.26.-->
                   
           and Babtized the <date datingMethod="#JulianMar" when-custom="1653-01-04"><add place="superimposed">4</add><hi rend="superscript">th</hi> of the same</date>.
          </p>
@@ -1212,12 +1211,12 @@
            <persName ref="ppl:et1" n="per75">Elizabeth Thornton</persName> my third Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place42">Hipswell</placeName> the <date datingMethod="#JulianMar" when-custom="1654-02-14">14<hi rend="superscript">th</hi> of februory</date><lb/>
         <fw place="left margin" rend="underline">1654:</fw>
-           <!-- Q [damage] [endnote] More paper damage. Check original. 
+           <!-- [endnote] More paper damage. Check original. 
                        This is also a scratched out date; poss 1653-->
          <!-- NOTE [dates] OS - date of Elizabeth's birth=1655-->
                   
-           <unclear reason="damage" quantity="1" unit="word"/> being Wednesday. halfe houer<lb/>
-           affter i<mod><del cert="low">2</del><add place="superimposed">i</add></mod>
+           <gap reason="damage deleted" quantity="1" unit="word"/> being Wednesday. halfe houer<lb/>
+           affter i<subst><del cert="low">2</del><add place="superimposed">i</add></subst>
          a clock in the forenoon, and<lb/>
          
             <pb n="26"/>
@@ -1250,10 +1249,10 @@
         <persName ref="ppl:edg1" n="per81">my Mother Gates</persName> died at <lb/>
         <placeName ref="place:Oswa_041" n="place43">Oswoldekirke</placeName> of the voydance of<lb/>
         blood the <date when-custom="1655-05-10"><seg rend="darkerInk">10<hi rend="superscript">th</hi></seg> day of may. 1655</date>.<lb/>
-      &amp; was buried at <placeName ref="place:Ston_053" n="place119">Stanegr<damage>av</damage>e</placeName>
+      &amp; was buried at <placeName ref="place:Ston_053" n="place119">Stanegr<unclear reason="damage">av</unclear>e</placeName>
         <!-- msDescription? [endnote] Here there is a hole from the correction on p.25.-->
          <lb/>
-         the <date when-custom="1655-05-11">1<mod><del rend="overwritten">0</del><add place="superimposed">1</add></mod><hi rend="superscript">th</hi> of may 1655</date>.
+         the <date when-custom="1655-05-11">1<subst><del rend="overwritten">0</del><add place="superimposed">1</add></subst><hi rend="superscript">th</hi> of may 1655</date>.
       <anchor n="ev36"/>
           </p>
        </div>
@@ -1285,7 +1284,7 @@
               <!-- msDescription [endnote] A bit unclear as in darker ink; overwritten?-->
             <lb/>
           country desease the <date when-custom="1656-07-03"><seg rend="darkerInk">3<hi rend="superscript">d</hi></seg>
-            of Ju<mod><del rend="overwritten" cert="low">xe</del><add place="superimposed">ly</add></mod> 
+            of Ju<subst><del rend="overwritten" cert="low">xe</del><add place="superimposed">ly</add></subst> 
            <!-- [endnote] Looks like written over xe so June before?-->
             <lb/>
           1656</date>. &amp; buried in <placeName ref="place:StPa_092" n="place47">St Patricks <lb/>
@@ -1320,7 +1319,7 @@
           morning, of a cough gotten at first<lb/>
           by an Ague. &amp; much gone in the <lb/>
           Riketts caused by ill sucke at<lb/>
-           2 nurses. her age was <mod><del rend="overwritten">2</del><add place="superimposed">i</add></mod> yeare<lb/>
+           2 nurses. her age was <subst><del rend="overwritten">2</del><add place="superimposed">i</add></subst> yeare<lb/>
 
          
             <pb n="28"/>
@@ -1675,9 +1674,11 @@
           to<lb/>
           heaven 3 times. &amp; closeing her Eyes<lb/>
           her self. that sweet Saint fell asleep<lb/>
-          in the Lord. betweene the houers of <mod><del rend="overwritten" cert="medium">6</del><add place="superimposed" cert="medium">7</add></mod>
+          in the Lord. betweene the houers of <subst>
+            <del rend="overwritten" cert="medium">6</del>
+            <add place="superimposed" cert="medium">7</add></subst>
            <!-- [endnote] It looks like ‘7’ has been written over ‘6’. I think 9 is written over a 7 so maybe 7 is over the 6? Bk 1 says 8 &amp; 9.-->
-           &amp; <mod><del rend="overwritten" cert="medium">7</del><add place="superimposed" cert="medium">9</add></mod><lb/> 
+           &amp; <subst><del rend="overwritten" cert="medium">7</del><add place="superimposed" cert="medium">9</add></subst><lb/> 
             aClock at night vpon satterday the<lb/>
           <date when-custom="1659-12-10">10:<hi rend="superscript">th</hi> of Decemb: 
             <hi rend="underline">1659:</hi></date><!-- Q [teamsQ] [tagging] [formatting] this looks like another end of section line rather than underlined text; and check underline elsewhere? -->
@@ -1858,7 +1859,7 @@
                <p rend="Endnote Text">
               Superscript letters indistinct.</p>
             </note> <rs ref="ppl:xt1" n="per129" type="person">his Eldest sister</rs><lb/>
-          by <persName ref="ppl:jk1" n="per130">Mr<del><unclear reason="illegible" quantity="1" unit="char"/></del> <!-- TODO REVIEW whatever you've done here. del/gap? [endnote] Superscript letter blotted out after the r?--> 
+          by <persName ref="ppl:jk1" n="per130">Mr<gap reason="deleted" quantity="1" unit="char"/> <!-- [endnote] Superscript letter blotted out after the r?--> 
           Kirton</persName> who preached of<lb/>
           <date when-custom="1660-04-29">Sunday</date>:
           <space unit="lines" quantity="3"/>
@@ -2259,7 +2260,7 @@
             <fw type="header" rend="underline">
                <date>1662</date><sic>2</sic>
             </fw>
-           <fw type="pageNum">5<mod><del rend="overwritten">2</del><add place="superimposed">3</add></mod></fw>
+           <fw type="pageNum">5<subst><del rend="overwritten">2</del><add place="superimposed">3</add></subst></fw>
          </fw>
            <lb/>
           which rebuked the feaver &amp; gave <lb/>
@@ -2281,7 +2282,7 @@
             </note> my health &amp;<lb/>
           strength againe in this miraculous<lb/>
           manner beeing still at <placeName ref="place:Oswa_041" n="place60">oswoldkirk</placeName><lb/>
-           there hapned a very great an<supplied>d</supplied> Re=<lb break="no"/>
+           there hapned a very great <sic>an</sic><!-- Q [sic] had <supplied> d here but doubtful that's appropriate --> Re=<lb break="no"/>
           =markable deliverance to me of an<lb/>
           other nature, but of as grand a<lb/>
           consequence to my beeing so much<lb/>
@@ -2291,7 +2292,7 @@
               <!-- msDescription [endnote] There is a dot here – n run into g? Here, and elsewhere, Thornton seems to regularly conflate an ‘I’ with a minim stroke for another letter, most often ‘n’ or ‘m’-->
             
             <lb/>
-           the bussnesse was this. I had bough<supplied reason="missing">t</supplied>
+           the bussnesse was this. I had bough<supplied reason="missing at edge of page">t</supplied>
                
            <!-- msDescription [endnote] Part of t missing at edge of page-->
             
@@ -2329,7 +2330,7 @@
           his owne good will to <rs ref="ppl:aow1" n="per141" type="person">my Mother</rs>s<lb/>
           Excecutor<hi rend="superscript">e.s</hi> for the said money to be<lb/>
           pd: by him at the next <date when-custom="1661-09-29">micklemas. 61</date>:<lb/>
-            but it so hapned that <persName ref="ppl:wt1" n="per142">Mr Th</persName>: did dra<supplied>w</supplied><lb/> 
+            but it so hapned that <persName ref="ppl:wt1" n="per142">Mr Th</persName>: did dra[w]<!-- Q check ms - this missing letter is almost certainly visible, just a bad photo. green highlight! --><lb/> 
             
             the bond for <date>mart<hi rend="superscript">h</hi></date>
             &amp; not for <date>mick<hi rend="superscript">–</hi></date><!-- Q teams [contraction] -->
@@ -2421,7 +2422,7 @@
           for all his goodnesse declared unto me<lb/>
           weake worme unworthy to live upon<lb/>
           the earth, or have such infinit mercys<lb/>
-          poured upon me. he heard my gron<supplied>i</supplied>ngs<lb/>
+           poured upon me. he heard my gron[i]ngs<!-- [endnote] A dot over the first n – meant to be ings? --><lb/>
           at this time also &amp; delvred <rs ref="ppl:wt1" n="per145" type="person">my husband</rs><lb/>
          
             <pb n="58"/>
@@ -2433,7 +2434,7 @@
           from his Evill intentions, &amp; rash Act<lb/>
           against his weake creature his wife<lb/>
           &amp; <rs ref="ppl:rt2" n="per146" type="person">poore babe</rs> in my wombe. I confesse<lb/>
-          my folly had deserd a great <supplied reason="unclear">pumishet</supplied>
+          my folly had deserd a great [pumishet]<!-- Q check ms? -->
             <lb/>
           but what <add place="above">had</add> it don that should have suff<lb break="no"/>
           =red with me. now loe the Lord God of<lb/>
@@ -2679,7 +2680,7 @@
           of the flesh, giveing me a double<lb/>
           Portion of Grace for that I am de-<lb break="no"/>
           -prived of the Portion &amp; provission<lb/>
-          of <rs ref="ppl:cw1" n="per169" type="person">my father</rs>. by these unjust mean<supplied>s</supplied><lb/> 
+          of <rs ref="ppl:cw1" n="per169" type="person">my father</rs>. by these unjust mean[s]<!-- Q check ms - 's' is probably visible --><lb/> 
           against my selfe &amp; poore children<lb/>
           whose Portion &amp; inheritance I trust<lb/>
           the Lord will be forever. 
@@ -2948,10 +2949,10 @@
           power it was alone to give us helpe<lb/>
           &amp; assistance, both as to the inabling us to<lb/>
           pay off his Just debts as allso to give me<lb/>
-           a sattisfaction in the settlemēt<!-- TODO [tagging] abbrev - contraction within word. isn't there another note about a contraction, that didn't use special character? --> of <persName ref="ppl:wt1" n="per184">Mr Th</persName>: E<supplied reason="unclear" cert="low">ik</supplied>d
+           a sattisfaction in the settlemēt<!-- Q teams [contraction] isn't there another note about a contraction, that didn't use special character? --> of <persName ref="ppl:wt1" n="per184">Mr Th</persName>: E<unclear>ik</unclear>d<!-- Q [endnote] Still not sure after checking MS. -->
             <lb/>
           upon my Ch: 
-             <!-- TODO [tagging] abbrev? [endnote] Line through top of Ch.-->
+             <!-- Q for teams contraction? [endnote] Line through top of Ch.-->
              for provission &amp; therefore to him<lb/>
           for releife a lone I on my bended knees<lb/>
          
@@ -3223,7 +3224,7 @@
           gratitude which I errect for all the deli<lb break="no"/>
           -verances I have had &amp; my Children<lb/>
           both in soule &amp; body. the living the liveng<lb/>
-          <del rend="strikethrough"><unclear unit="char" quantity="2" reason="illegible"/></del><!-- TODO REVIEW del/gap? --> shall praise thee in heaven &amp; Earth.</p>
+          <gap unit="char" quantity="2" reason="illegible smudged"/><!-- NOTE this may need further checking - I think the word might be readable. NB that it does *not* seem to be an authorial deletion, it's just smudging. --> shall praise thee in heaven &amp; Earth.</p>
        </div>  
        
             <pb n="85"/>
@@ -3275,7 +3276,8 @@
          </fw>
            <lb/>
           beeing receaved by <subst>
-              <del rend="strikethrough"><unclear unit="char" quantity="2" reason="illegible"/></del><!-- TODO REVIEW del/gap? --><add place="above">&amp;</add>
+            <del><gap unit="char" quantity="2" reason="deleted"/></del>
+            <add place="above">&amp;</add>
             </subst> from the mercy<lb/>
           of a gracious father who hath<lb/>
           at length bestowed on me his<lb/>
@@ -3394,7 +3396,7 @@
           thou a lone o father of mercys could<lb/>
           raise me up. my sinnes had prevailed but<lb/>
           thy infint clemency &amp; mercifullnesse<lb/>
-          <supplied>w</supplied>as above thy Judgments. o Lord<lb/>
+          [was]<!-- Q check ms - another bad photo! --> above thy Judgments. o Lord<lb/>
           therefore will I magnifie thy name for<lb/>
              Ever. Amen.
          </p>
@@ -3496,10 +3498,10 @@
           =ted to have receavd him home in health<lb/>
           did so surprize my spirits, that I was broug<lb break="no"/>
           =ht into such a passion of sorrow &amp; griefe,<lb/>
-          <supplied>&amp;</supplied> into greater weakenesse of body. then<lb/>
+          [&amp;]<!-- Q for teams? I'm not convinced this is a & --> into greater weakenesse of body. then<lb/>
           I had ever knowne in all my former weake<lb break="no"/>
           =nesses and troubles .in so short a space.<lb/>
-         so that I did simpathize very deeply <del rend="strikethrough"><unclear unit="char" quantity="4" reason="illegible"/></del><!-- TODO REVIEW del/gap? --><lb/>
+         so that I did simpathize very deeply <gap unit="char" quantity="4" reason="deleted"/><!-- NOTE possibly get checked again later - i think it could be readable. --><lb/>
           in his sufferings . beeing deprived of doing<lb/>
           my Duty in his extremity. or be helpful<lb/>
           to my selfe. nor had I any hopes of the <lb/>
@@ -3560,7 +3562,7 @@
           =miss .either in negligence, or remisnesse<lb/>
           of duties or some other way or other forgett<lb break="no"/>
           =ing thy former. delivrances therefore hast<lb/>
-          thou seene fitt to correct me in this <supplied>measure</supplied><lb/>
+          thou seene fitt to correct me in this [measure]<!-- Q check ms - part of word not visible in our photo --><lb/>
           But yet give me grace to have a sanctified<lb/>
           use of this affliction upon our bodies .&amp;<lb/>
           grant that this <del rend="strikethrough">may</del> may be for the good &amp;<lb/>
@@ -3835,7 +3837,7 @@
           <persName ref="ppl:rw1" n="per229">Dr wittie</persName> did apprehend; &amp; it, toget<add place="above">her</add><lb/> 
             with a greeife that befell me upon my 
             <del rend="strikethrough">ret</del><lb/> 
-            returne home by: W: [I/T]<!-- Q teams reading of text. I think T. but what is it? a name? ?? -->: 
+            returne home by: W: [I/T]<!-- Q teams reading of text. I think T. -->: 
             <subst>
               <add place="above">about</add>
               <del rend="strikethrough">by</del>
@@ -4411,14 +4413,14 @@
   </fw>
          <p>
         <milestone n="ev83" unit="event"/>
-           <persName ref="ppl:ct1" n="per267">Christofer Thornton</persName> my 9<hi rend="superscript">th</hi> Child<supplied>e</supplied> <lb/>
+           <persName ref="ppl:ct1" n="per267">Christofer Thornton</persName> my 9<hi rend="superscript">th</hi> Child[e]<!-- Q check ms - letter is probably visible --> <lb/>
            was borne at <placeName ref="place:East_019" n="place88">newton</placeName>, on <date when-custom="1667-11-11">munday<lb/>
           the 11<hi rend="superscript">th</hi> of november: 1667:</date> betwixt<lb/>
           the houers of 10: &amp; a 11: at night<lb/>
           Baptized the <date when-custom="1667-11-12">12<hi rend="superscript">th</hi></date> at <placeName ref="place:East_019" n="place89">newton</placeName>. his<lb/>
           godfathers &amp; godmother. <persName ref="ppl:acd1" n="per268">Mrs Anne Danby</persName><lb/>
           <persName ref="ppl:jd2" n="per269">my brother John Denton</persName> &amp; <persName ref="ppl:tp1" n="per270">my brother<lb/>
-          <supplied>T</supplied>imothy Portington</persName>.
+          [T]imothy<!-- Q for team? checked img and not quite sure why T is in brackets --> Portington</persName>.
         <anchor n="ev83"/>
          </p>
 </div>
@@ -4550,7 +4552,7 @@
           fitts. which fell on him notwithstanding<lb/>
           all the many remidies was perpetually<lb/>
           used by <persName ref="ppl:rw1" n="per277">Dr wittie</persName>s order, &amp; with good<lb/>
-           successe. so that from <date when-custom="1667-11/1668-08"><mod><del rend="overwritten">ye</del><add place="superimposed" cert="medium">9</add></mod>
+           successe. so that from <date when-custom="1667-11/1668-08"><subst><del rend="overwritten">ye</del><add place="superimposed" cert="medium">9</add></subst>
            <!-- [endnote] Looks to be overwritten, over y<hi rend="superscript">e</hi>-->
            November 67: till<lb/>
           August 68:</date> he had not missed one fort-<lb break="no"/>
@@ -4592,10 +4594,12 @@
           <placeName ref="place:East_019" n="place91">Newton</placeName> when her maide <persName ref="ppl:bt1" n="per279">Barbara Tod</persName>.<lb/>
           did impudently accuse 
              <del rend="doublestrikethrough">me</del> 
-         <subst>
-             <del rend="doublestrikethrough">to</del> 
-           <add place="above">be</add><del rend="doublestrikethrough"><unclear unit="char" quantity="2" reason="illegible"/></del>
-           </subst>fore my<lb/>
+              <del rend="doublestrikethrough">to</del> 
+           <w>
+             <subst>
+             <add place="above">be</add>
+             <del><gap unit="char" quantity="2" reason="deleted"/></del>
+           </subst>fore</w> my<lb/>
           face <del rend="strikethrough">of</del> my Servant <persName ref="ppl:ha1" n="per280">Hanna<lb/>
           Ableson</persName> for telling her from one <persName ref="ppl:mb1" n="per281">Mary<lb/>
           Breakes</persName> of severall storyes (which were<lb/>
@@ -4646,7 +4650,7 @@
           knew my Innocency all my daies.<anchor n="ev87"/> but<lb/>
           why can I not with patience take the bitter<lb/>
           cupe. out of my saviours hand. &amp; for<lb/>
-         his love. lay downe my Life <mod><del rend="overwritten" cert="low">&amp;</del><add place="superimposed">that</add></mod>
+         his love. lay downe my Life <subst><del rend="overwritten" cert="low">&amp;</del><add place="superimposed">that</add></subst>
             <lb/>
   
             <pb n="122"/>
@@ -4912,7 +4916,7 @@
         in his preservation &amp; delivrance upon that<lb/>
         day. for his sister <persName ref="ppl:ktp1" n="per304">Kate</persName> &amp; <persName ref="ppl:wd1" n="per305">cosen willy<lb/>
         Denton</persName> <del rend="doublestrikethrough">was</del> and himselfe was playing<lb/>
-         in the Hay Laith at <placeName ref="place:East_019" n="place94">newton</placeName> upon the <supplied cert="low" reason="unclear">mowe</supplied> <lb/>
+           in the Hay Laith at <placeName ref="place:East_019" n="place94">newton</placeName> upon the <unclear>mowe</unclear><!-- [endnote] Found this difficult to read even in the original. --> <lb/>
           and standing in the window about 4 yerds<lb/>
           high from the Earth. he fell out if it into<lb/>
           the laine .&amp; was very neare with his head<lb/>
@@ -5254,7 +5258,7 @@
           entertaine the Lords determinate will in all<lb/>
           things with patience &amp; submittion if the worst<lb/>
           should fall on me according to my feares.<lb/>
-          but withall God <mod><del rend="overwritten" cert="medium">s</del><add place="superimposed">c</add></mod>ould raise him up againe<lb/>
+          but withall God <subst><del rend="overwritten" cert="medium">s</del><add place="superimposed">c</add></subst>ould raise him up againe<lb/>
           if he see it fitt. although my deare ♥<lb/>
           was very weake at which newes I grew<lb/>
           very ill &amp; the Lord pardon my weaknesse for<lb/>
@@ -5281,8 +5285,8 @@
           newes of the most Terrible losse that ever<lb/>
           woman losst in beeing deprived of my<lb/>
           Sweete &amp; most <subst>
-            <del rend="strikethrough"><unclear unit="char" quantity="9" reason="illegible"/></del>
-           <add place="above">exceeding</add>
+              <del><gap unit="char" quantity="9" reason="deleted"/></del>
+              <add place="above">exceeding</add>
           </subst>
            <rs ref="ppl:wt1" n="per326" type="person">deare Husbad</rs><lb/>
           that any creature could have.<anchor n="ev91"/> 
@@ -5506,10 +5510,10 @@
           the Salvation of my Soule. where there is<lb/>
           noe sighing. noe weeping. for all tears<lb/>
             shall be wiped from our Eyes. then <del rend="strikethrough">sh</del><lb/> 
-           shall be love with out hatred. Joy witho<supplied>ut</supplied><lb/>
+           shall be love with out hatred. Joy witho<!-- [endnote] Means without but incomplete – only the ‘o’. --><lb/>
           sorrow. delight. without anger. hopes that<lb/>
           is turned to injoyment with out feares.<lb/>
-           to losse or to to be lost. noe caires. nor Troub<add place="above">ble</add> <lb/>
+           to losse or to to be lost. noe caires. nor Troub<add place="above">ble</add><!-- [endnote] No intext carat. --> <lb/>
           noe hatred. nor envy shall enter there<lb/>
           for in Heaven they are as the Angells<lb/>
           nay higher. &amp; drawne nearer in beeing<lb/>
@@ -5935,7 +5939,7 @@
          breath.</l>
          <l>Then faire well world thy uttermost I see</l>
          <l>Eternall love maintaine thy life in me:</l>
-      <!-- Q [tagging] space here? space of about 1 line. [the space below Amen is bigger, more obviously "space".] -->
+      <!-- NOTE possible space here? only about 1 line. [the space below Amen is bigger, more obviously "space".] -->
               <p> Amen.</p>
    </div>
          <space unit="line" quantity="16"/>
@@ -5995,8 +5999,8 @@
          <l>Comand<note place="end" type="word">
                <p rend="Endnote Text">
               Contraction mark over ‘m’.</p>
-            </note> bare heads; bow’d knees strike Just<supplied>is</supplied></l>
-         <l>As well as blind &amp; lame, &amp; give a Tongue <add place="above" rend="underline">dumb</add><!-- NOTE [teams] keep as it is. is tongue crossed out or dumb underlined? -->
+            </note> bare heads; bow’d knees strike Just[is]<!-- Q check ms but this looks quite readable to me! --></l>
+         <l>As well as blind &amp; lame, &amp; give a Tongue <add place="above" rend="underline">dumb</add>
          </l>
          <l>To stones by Epitaphs; be calld great master</l>
          <l>In the last lines of every Poetaster:</l>
@@ -6217,7 +6221,7 @@
           Crosse dalie &amp; follow thee, being meeke<lb/>
           &amp; lowlie in Spiritt; submissive with a true<lb/>
           &amp; catholike resignation to All thy wise<lb/>
-          dispensations seeme th<mod><del rend="overwritten" cert="medium">y</del><add place="superimposed">e</add></mod>y to crosse my<lb/>
+          dispensations seeme th<subst><del rend="overwritten" cert="medium">y</del><add place="superimposed">e</add></subst>y to crosse my<lb/>
           perverse will never so much, give me<lb/>
           patience throughout, in all the course of<lb/>
           my Life, true wisdome, faith, hope. &amp;<lb/>
@@ -6382,10 +6386,15 @@
          </item>
          <item>The Lady Danby died. 1645 <ref>23.</ref>
          </item>
-         <item>Mr Edmund Norton died. 1648 </item>
-         <item>King Charles the Blessed. 1648 <ref>23.</ref>
-         </item><!-- TODO [index] [curlybraces] grouping 3 items -->
-         <item>Sr Edward Osborne died</item>
+         <item>
+           <!-- TODO [index] [curlybraces] grouping 3 items. Q positioning/tagging of the <ref>. -->
+           <list><!-- <ref> not allowed here. but allowed inside <head> -->
+             <item>Mr Edmund Norton died. 1648 </item>
+             <item>King Charles the Blessed. 1648 </item>
+             <item>Sr Edward Osborne died</item>
+           </list>
+           <ref>23.</ref>
+         </item>
          
             <pb n="174"/>
 
@@ -6397,22 +6406,30 @@
          <item>George Wandesforde Esq:<hi rend="superscript">r</hi> d. 1651.
             <ref>24.</ref>
          </item>
+        <!-- TODO [index] [curlybraces] grouping 3 items -->
          <item>Mrs Mary Norton married. 1651.</item>
-        <item>Sr. Christopher Wand: mar: 1651 <ref>24.</ref><!-- TODO [index] [curlybraces] grouping 3 items -->
+        <item>Sr. Christopher Wand: mar: 1651 
+          <ref>24.</ref>
          </item>
          <item>Alice Thornton married. 1651</item>
+        
          <item>She began her first Sickness <ref>25.</ref>
          </item>
-        <item>Alice Thornton dau: birth. 53</item><!-- TODO [index] [curlybraces] grouping 2 items -->
+        <!-- TODO [index] [curlybraces] grouping 2 items -->
+        <item>Alice Thornton dau: birth. 53</item>
          <item>Elizabeth Thorntons birth. 54 <ref>25.</ref>
          </item>
-        <item>Mrs Eliz: Gates died. 55.</item><!-- TODO [index] [curlybraces] grouping 2 items -->
+        
+        <!-- TODO [index] [curlybraces] grouping 2 items -->
+        <item>Mrs Eliz: Gates died. 55.</item>
          <item>Mr Geffery Gates died. 55. <ref>26.</ref>
          </item>
-        <item>Mr Rich. Thornton died. 56.</item><!-- TODO [index] [curlybraces] grouping 3 items -->
-         <item>Katherine Thornton birth. 56 <ref>27.</ref>
-         </item>
+        
+        <!-- TODO [index] [curlybraces] grouping 3 items -->
+        <item>Mr Rich. Thornton died. 56.</item>
+         <item>Katherine Thornton birth. 56 <ref>27.</ref> </item>
          <item>Eliz: Thornton died. 56.</item>
+        
          <item>my deliverance from a fall. 57. <ref>28.</ref>
          </item>
          <item>The birth of my first Son. 57. <ref>29</ref>
@@ -6425,10 +6442,12 @@
          </item>
          <item>meditations <ref>42.</ref>
          </item>
-        <item>my dangerous Sickeness. 1661. <ref>43.</ref><!-- TODO [index] [curlybraces] -->
-            <lb/>
+        <item>
+          my dangerous Sickeness. 1661. <lb/>
           when I was preserved from the <lb/>
-          Temptation of Satan to dispaire </item>
+          Temptation of Satan to dispaire 
+          <ref>43.</ref><!-- TODO [index] [curlybraces] -->
+        </item>
          
             <pb n="175"/>
 
@@ -6851,7 +6870,7 @@
            tould my Aunt I have had the strangest drea<add place="above">m</add> <lb/>
           that evr I had. I dreamd that A man came in<lb/>
           to the Roome. with all Things for mournings<lb/>
-          &amp; laid them on the ground. <supplied cert="low">Sir<!-- TODO [tagging] not really a supplied, letters are there, just hard to decipher. --></supplied> B [M/W?]<!-- Q teams reading of text. is this is a name?? --> habitts<lb/>
+          &amp; laid them on the ground. <unclear>[Sir?] B [M/W?]</unclear><!-- Q teams reading of text. is this is a name?? --> habitts<lb/>
           as sleeces &amp;. I said she asked what that meant<lb/>
           The man that brought the mournings. said That<lb/>
           when such things apeard in a Child wifs<lb/>
@@ -6891,7 +6910,7 @@
           me weepe soe sore. I answrd it was for him. why sad<lb/>
           he sister doest thou wepe for me. I said becaise he<lb/>
           was soe ventrous to goe ovr that dangerous Rivr<lb/>
-          <supplied>S</supplied>wale &amp; that I feard he might be lost in it. And<lb/>
+          <supplied reason="paper damaged">S</supplied>wale &amp; that I feard he might be lost in it. And<lb/>
           begged of him for Gods sake that he would <add place="above">not</add> presume to<lb/>
           goe soe when it was high for I feard him much that<lb/>
           a flood should destroy him. for I had had a dreadfull<lb/>
@@ -6925,10 +6944,10 @@
           each to othrs &amp; did both receave very Reverently<lb/>
           on <date when-custom="1651-03-30">Easter day</date> in <placeName ref="place:Hips_023" n="place105">Hipswell Chapell</placeName> with <rs ref="ppl:aow1" n="per381" type="person">my D. mothr</rs><lb/>
            &amp; my selfe.<milestone unit="undetermined" rend="diagonal"/><!-- NOTE / milestone --> But in the Affter noone my brothr<lb/>
-          <persName ref="ppl:gw1" n="per382">G: W:</persName> did goe to see <persName ref="ppl:hd1" n="per383">Mr Henry Darcy</persName>. and find<supplied reason="damage">ing</supplied>
+          <persName ref="ppl:gw1" n="per382">G: W:</persName> did goe to see <persName ref="ppl:hd1" n="per383">Mr Henry Darcy</persName>. and find<supplied reason="paper damaged">ing</supplied>
             <lb/>
             him not at home, entertand him selfe with <persName ref="ppl:dbd1" n="per384">old mot<hi rend="superscript">–<!-- Q teams [contraction] --></hi><lb/> 
-          Darcy</persName>. &amp; he tooke a Bible and read a chapter to he<supplied>r</supplied><lb/>
+          Darcy</persName>. &amp; he tooke a Bible and read a chapter to he[r]<!-- Q check ms - might be readable? --><lb/>
           &amp; did make such an admirable exposition on it<lb/>
 
          
@@ -6988,7 +7007,7 @@
           write. she said that I was soe grevely ill she could<lb/>
           not leave me but doe it affterwards. Soe he did<lb/>
           Againe kneele down and aske blessng. she said<lb/>
-          son you asked blesing but a <supplied>Nothre</supplied> you came in<lb/>
+          son you asked blesing but a <unclear>Nothre</unclear><!-- Q check ms? --> you came in<lb/>
           he said that he could not have to much of her pras<lb/>
           for him &amp; soe Reverently bid her good morrow<lb/>
           &amp; me fairewell. And tooke horrse to goe to <placeName ref="place:Rich_043" n="place107">Rich<lb break="no"/>
@@ -7001,7 +7020,7 @@
      <div n="div102">        
         <milestone n="ev100" unit="event"/>
          <p>A gratefull Remembrance of<lb/>
-          what God ded for me in delivrance fr<supplied>om</supplied><lb/>
+          what God ded for me in delivrance fr[om]<!-- Q check ms - might be visible? --><lb/>
           a misscarriage by a fright &amp; sorow<lb/>
           for <persName ref="ppl:rn1" n="per390">Nettleton</persName>s Balys disstraing all<lb/>
           I had which was deleevred by a diebt<lb/>
@@ -7076,7 +7095,7 @@
           pay it. I said I had a freind that woud<lb/>
           lend him meanig that <rs ref="ppl:aow1" n="per413" type="person">my mothr</rs> had<lb/>
           givn it me. but he would not do it<lb/>
-           <del rend="strikethrough"><unclear unit="char" quantity="3" reason="illegible"/></del> <persName ref="ppl:wt1" n="per414">Mr Th</persName>. was to goe to <placeName ref="place:Lond_080" n="place110">London</placeName> about<lb/>
+           <gap unit="char" quantity="3" reason="deleted"/> <persName ref="ppl:wt1" n="per414">Mr Th</persName>. was to goe to <placeName ref="place:Lond_080" n="place110">London</placeName> about<lb/>
           it to quit him. And when we was<lb/>
           new come to our House att <placeName ref="place:East_019" n="place111">Newton</placeName><lb/>
           to live he went to <placeName ref="place:Lond_080" n="place112">London</placeName> about it<lb/>
