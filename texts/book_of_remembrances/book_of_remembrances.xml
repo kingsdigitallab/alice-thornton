@@ -468,7 +468,7 @@
          
          <div n="div8">
 <!-- transcription: Body -->
-        <!-- TODO REVIEW ? Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
+        <!-- Q for team? Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
            <!-- NOTE [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure if it adds anything useful to do it every time.  -->
          <fw>
             <fw type="header" rend="underline">
@@ -964,7 +964,7 @@
          </fw>
          <p>
            <milestone n="ev16" unit="event"/>
-        <date when-custom="1642"/><!-- Q does this get added to both evs in div and if not why not -->
+        <date when-custom="1642"/><!-- Q [dates] does this get added to both evs in div and if not why not -->
            I got the smale Pox att <placeName ref="place:Ches_012" n="place22">weschester</placeName><lb/>
           of <persName ref="ppl:jw1" n="per39">my brother John</persName>. &amp; was very nere<lb/>
           death with them. but blesed be the God<lb/>
@@ -1151,7 +1151,7 @@
            married to <persName ref="ppl:wt1" n="per65">William Thornton Esquire</persName><lb/>
            At <rs ref="ppl:aow1" n="per66" type="person">my mother</rs>s howse in <placeName ref="place:Hips_022" n="place36">hipswell</placeName> the<lb/>
         <date when-custom="1651-12-15">15<hi rend="superscript">th</hi> of December. 1651</date>. Maried by<milestone unit="undetermined" rend="diagonal"/><!-- NOTE / milestone --><lb/>
-           <persName ref="ppl:ms1" n="per67">Mr Siddall</persName>.<!-- TODO had to correct ppl: ref here: make sure you do some checks when you've finished tagging --><!-- NOTE / div rend -->
+           <persName ref="ppl:ms1" n="per67">Mr Siddall</persName>.<!-- TODO [people] had to correct ppl: ref here: make sure you do some checks when you've finished tagging --><!-- NOTE / div rend -->
            <!-- msDescription [endnote] The bottom of ‘Mr Siddall’ and following punctuation and slash is missing suggesting the page has been trimmed.-->
          <anchor n="ev30"/>
          </p>
@@ -6335,57 +6335,57 @@
                   
      <div n="div95" type="index">
            
-       <!-- Q teams tag names, places, events in index? -->
-       <!-- Q [tagging] maybe tag index as table? (ugh though)  -->
+       <!-- TODO [index] link entries to text. was going to use page <ref> but what about entries that don't have their own <ref>? check TEI guide on this stuff. -->
+
        <!-- msDescription [endnote] Ruling on page.-->
-            
+      <list>           
          <head>
             <fw type="header">The Index of this booke.</fw>
          </head>
          <fw> page</fw>
-         <p>The Age of Alice Wandesforde <ref>3.</ref>
-         </p>
-         <p>The dedication <ref>5.</ref>
-         </p>
-         <p>Observables <ref>7.</ref>
-         </p>
-         <p>Prayer <ref>8.</ref>
-         </p>
-         <p>Preface <ref>9.</ref>
-         </p>
-         <p>her weakenes in the Meassells <ref>10.</ref>
-         </p>
-         <p>her haveing the Smale Pox in Kent 
+         <item>The Age of Alice Wandesforde <ref>3.</ref>
+         </item>
+         <item>The dedication <ref>5.</ref>
+         </item>
+         <item>Observables <ref>7.</ref>
+         </item>
+         <item>Prayer <ref>8.</ref>
+         </item>
+         <item>Preface <ref>9.</ref>
+         </item>
+         <item>her weakenes in the Meassells <ref>10.</ref>
+         </item>
+         <item>her haveing the Smale Pox in Kent 
         <ref>12.</ref>
-         </p>
-         <p>meditations on Psalme 147: 4<hi rend="superscript">th</hi>
+         </item>
+         <item>meditations on Psalme 147: 4<hi rend="superscript">th</hi>
             <ref>13.</ref>
-         </p>
-         <p>Deliverance from <add place="above">fire</add> in London. 32:	
+         </item>
+         <item>Deliverance from <add place="above">fire</add> in London. 32:	
             <ref>15.</ref>
-         </p>
-         <p>Her passage into Ireland. 1632. <ref>16.</ref>
-         </p>
-         <p>Deliverance from fire in dublin <ref>19.</ref>
-         </p>
-         <p>A second medita. about 12: y: old <ref>19.</ref>
-         </p>
-         <p>Deliverance in a Storme at Sea. 39 <ref>20.</ref>
-         </p>
-         <p>The death of the Lord Deputy W: <ref>21.</ref>
-         </p>
-         <p>The deliverance from the Irish Reb. <ref>22.</ref>
-         </p>
-         <p>Her haveing the Smale Pox at Ches <ref>23.</ref>
-         </p>
-         <p>A deliv:' from a sickenesse at Rich. <ref>23.</ref>
-         </p>
-         <p>The Lady Danby died. 1645 <ref>23.</ref>
-         </p>
-         <p>Mr Edmund Norton died. 1648 </p>
-         <p>King Charles the Blessed. 1648 <ref>23.</ref>
-         </p>
-         <p>Sr Edward Osborne died</p>
+         </item>
+         <item>Her passage into Ireland. 1632. <ref>16.</ref>
+         </item>
+         <item>Deliverance from fire in dublin <ref>19.</ref>
+         </item>
+         <item>A second medita. about 12: y: old <ref>19.</ref>
+         </item>
+         <item>Deliverance in a Storme at Sea. 39 <ref>20.</ref>
+         </item>
+         <item>The death of the Lord Deputy W: <ref>21.</ref>
+         </item>
+         <item>The deliverance from the Irish Reb. <ref>22.</ref>
+         </item>
+         <item>Her haveing the Smale Pox at Ches <ref>23.</ref>
+         </item>
+         <item>A deliv:' from a sickenesse at Rich. <ref>23.</ref>
+         </item>
+         <item>The Lady Danby died. 1645 <ref>23.</ref>
+         </item>
+         <item>Mr Edmund Norton died. 1648 </item>
+         <item>King Charles the Blessed. 1648 <ref>23.</ref>
+         </item>
+         <item>Sr Edward Osborne died</item>
          
             <pb n="174"/>
 
@@ -6394,41 +6394,41 @@
        <!-- msDescription [endnote] NB. Page/page numbers should be closer to the end of text on this page.-->
             
          <fw>page</fw>
-         <p>George Wandesforde Esq:<hi rend="superscript">r</hi> d. 1651.
+         <item>George Wandesforde Esq:<hi rend="superscript">r</hi> d. 1651.
             <ref>24.</ref>
-         </p>
-         <p>Mrs Mary Norton married. 1651.</p>
-         <p>Sr. Christopher Wand: mar: 1651 <ref>24.</ref>
-         </p>
-         <p>Alice Thornton married. 1651</p>
-         <p>She began her first Sickness <ref>25.</ref>
-         </p>
-         <p>Alice Thornton dau: birth. 53</p>
-         <p>Elizabeth Thorntons birth. 54 <ref>25.</ref>
-         </p>
-         <p>Mrs Eliz: Gates died. 55.</p>
-         <p>Mr Geffery Gates died. 55. <ref>26.</ref>
-         </p>
-         <p>Mr Rich. Thornton died. 56.</p>
-         <p>Katherine Thornton birth. 56 <ref>27.</ref>
-         </p>
-         <p>Eliz: Thornton died. 56.</p>
-         <p>my deliverance from a fall. 57. <ref>28.</ref>
-         </p>
-         <p>The birth of my first Son. 57. <ref>29</ref>
-         </p>
-         <p>The Death of the Lady Wand: 59. <ref>32</ref>
-         </p>
-         <p>William Thorntons birth. 60. <ref>39.</ref>
-         </p>
-         <p>His Death <ref>40.</ref>
-         </p>
-         <p>meditations <ref>42.</ref>
-         </p>
-         <p>my dangerous Sickeness. 1661. <ref>43.</ref>
+         </item>
+         <item>Mrs Mary Norton married. 1651.</item>
+         <item>Sr. Christopher Wand: mar: 1651 <ref>24.</ref>
+         </item>
+         <item>Alice Thornton married. 1651</item>
+         <item>She began her first Sickness <ref>25.</ref>
+         </item>
+         <item>Alice Thornton dau: birth. 53</item>
+         <item>Elizabeth Thorntons birth. 54 <ref>25.</ref>
+         </item>
+         <item>Mrs Eliz: Gates died. 55.</item>
+         <item>Mr Geffery Gates died. 55. <ref>26.</ref>
+         </item>
+         <item>Mr Rich. Thornton died. 56.</item>
+         <item>Katherine Thornton birth. 56 <ref>27.</ref>
+         </item>
+         <item>Eliz: Thornton died. 56.</item>
+         <item>my deliverance from a fall. 57. <ref>28.</ref>
+         </item>
+         <item>The birth of my first Son. 57. <ref>29</ref>
+         </item>
+         <item>The Death of the Lady Wand: 59. <ref>32</ref>
+         </item>
+         <item>William Thorntons birth. 60. <ref>39.</ref>
+         </item>
+         <item>His Death <ref>40.</ref>
+         </item>
+         <item>meditations <ref>42.</ref>
+         </item>
+         <item>my dangerous Sickeness. 1661. <ref>43.</ref>
             <lb/>
           when I was preserved from the <lb/>
-          Temptation of Satan to dispaire </p>
+          Temptation of Satan to dispaire </item>
          
             <pb n="175"/>
 
@@ -6436,232 +6436,232 @@
 
          <fw>page</fw>
        <!-- msDescription [endnote] Again, there should be less of a gap between text and page/numbers.-->
-         <p> My prayers &amp; meditations <lb/>
+         <item> My prayers &amp; meditations <lb/>
            There upon on St <add place="above">Matth.</add> 11: 27. 28: &amp; <ref>46.</ref>
-         </p>
-         <p> The recovery of my healts <ref>51.</ref>
-         </p>
-         <p>Mr Thorntons preservation</p>
-         <p>And mine. <ref>52.</ref>
-         </p>
-         <p>Considerations there upon <ref>60.</ref>
-         </p>
-         <p>A deliverance from greife <ref>62.</ref>
+         </item>
+         <item> The recovery of my healts <ref>51.</ref>
+         </item>
+         <item>Mr Thorntons preservation</item>
+         <item>And mine. <ref>52.</ref>
+         </item>
+         <item>Considerations there upon <ref>60.</ref>
+         </item>
+         <item>A deliverance from greife <ref>62.</ref>
             <lb/>
-          on Nettleton Balifes comeing </p>
-         <p>A deepe apprehension of my<lb/>
+          on Nettleton Balifes comeing </item>
+         <item>A deepe apprehension of my<lb/>
           Change being with childe of my <ref>66.</ref>
             <lb/>
-          Seaventh</p>
-         <p>The Sattisfaction of my Soule<lb/>
+          Seaventh</item>
+         <item>The Sattisfaction of my Soule<lb/>
           after the receaving the H: Sacram. <ref>70.</ref>
             <lb/>
-          first at Newton by Dr Sammw</p>
-         <p>A satisfaction by the Settlemt <ref>72.</ref>
+          first at Newton by Dr Sammw</item>
+         <item>A satisfaction by the Settlemt <ref>72.</ref>
             <lb/>
-          of Mr Covill for Laistrop</p>
-         <p>My Sonne Robert Thorntons<lb/>
+          of Mr Covill for Laistrop</item>
+         <item>My Sonne Robert Thorntons<lb/>
           Birth. Sept: 19: 1662. <ref>79.</ref>
-         </p>
-         <p>A most dangerous flux on<lb/>
+         </item>
+         <item>A most dangerous flux on<lb/>
           me after his birth <ref>80.</ref>
-         </p>
-         <p>Prayers, &amp; meditations there on <ref>82.</ref>
-         </p>
+         </item>
+         <item>Prayers, &amp; meditations there on <ref>82.</ref>
+         </item>
          
             <pb n="176"/>
 
 <!-- transcription: Page 176 -->
 
          <fw> page</fw>
-         <p>My Sonne Roberts baptisme </p>
-         <p>
+         <item>My Sonne Roberts baptisme </item>
+         <item>
         A Prayer &amp; thanksgiveing <ref>85.</ref>
             <lb/>
-          for this blessing</p>
-         <p>A thankesgiveing for Mr<lb/>
+          for this blessing</item>
+         <item>A thankesgiveing for Mr<lb/>
           Thorntons deliverance from<lb/>
           a flood of waters in his <ref>87.</ref>
             <lb/>
-          returne from London</p>
-         <p>The birth of Joyce Thornton<lb/>
+          returne from London</item>
+         <item>The birth of Joyce Thornton<lb/>
           And her Baptisme <ref>90.</ref>
-         </p>
-         <p>A prayer &amp; thanksgiveing<lb/>
+         </item>
+         <item>A prayer &amp; thanksgiveing<lb/>
           for this deliverance <ref>91</ref>
-         </p>
-         <p>Mr Thorntons dangerous<lb/>
+         </item>
+         <item>Mr Thorntons dangerous<lb/>
           Sickeness at Steersby &amp; <ref>92.</ref>
             <lb/>
           his Preservation from<lb/>
-          death</p>
-         <p>With my owne desperate weake<lb/>
+          death</item>
+         <item>With my owne desperate weake<lb/>
           condittion uppon greife for him <ref>93.</ref>
-         </p>
+         </item>
          
             <pb n="177"/>
 
 <!-- transcription: Page 177 -->
 
          <fw> page</fw>
-         <p>Praires, &amp; confessions, with<lb/>
+         <item>Praires, &amp; confessions, with<lb/>
           a returne of thanks affter <ref>94.</ref>
             <lb/>
-          our recoverys </p>
-         <p>Meditations uppon my Joyce<lb/>
+          our recoverys </item>
+         <item>Meditations uppon my Joyce<lb/>
           her sickenesse <ref>96.</ref>
-         </p>
-         <p>Joyce Thornton her death <ref>100.</ref>
-         </p>
-         <p>A deliverance of my daughter<lb/>
+         </item>
+         <item>Joyce Thornton her death <ref>100.</ref>
+         </item>
+         <item>A deliverance of my daughter<lb/>
           Alice Thornton from a Surfet <ref>101.</ref>
             <lb/>
-          of eating Turbud</p>
-         <p>A greate deliverance from a<lb/>
+          of eating Turbud</item>
+         <item>A greate deliverance from a<lb/>
           miscariadge <ref>103.</ref>
-         </p>
-         <p>The great fire in London <ref>104.</ref>
-         </p>
-         <p>Kate Thornton fell ill of<lb/>
+         </item>
+         <item>The great fire in London <ref>104.</ref>
+         </item>
+         <item>Kate Thornton fell ill of<lb/>
           The smale pox <ref>104.</ref>
-         </p>
-         <p>The death of Mr John<lb/>
+         </item>
+         <item>The death of Mr John<lb/>
           Wandesforde <ref>105.</ref>
-         </p>
-         <p>The death of Mr Will.<hi rend="superscript">m</hi> Norton	
+         </item>
+         <item>The death of Mr Will.<hi rend="superscript">m</hi> Norton	
             <ref>106.</ref>
-         </p>
-         <p>The falling ill of Robin Thornton<lb/>
+         </item>
+         <item>The falling ill of Robin Thornton<lb/>
            in to the smale Pox <ref>107.</ref>
-         </p>
-         <p>A meditation there on</p>
+         </item>
+         <item>A meditation there on</item>
          
             <pb n="178"/>
 
 <!-- transcription: Page 178 -->
 
          <fw> page</fw>
-         <p>My daughter Alice her<lb/>
+         <item>My daughter Alice her<lb/>
           falling into the smale Pox <ref>108.</ref>
-         </p>
-         <p>With a preservation from <ref>109.</ref>
+         </item>
+         <item>With a preservation from <ref>109.</ref>
             <lb/>
-          choaking in her Sleepe</p>
-         <p>John denton fell ill of <ref>110.</ref>
+          choaking in her Sleepe</item>
+         <item>John denton fell ill of <ref>110.</ref>
             <lb/>
-          The smale Pox</p>
-         <p>My daughter Kate was<lb/>
+          The smale Pox</item>
+         <item>My daughter Kate was<lb/>
           preserved from choaking <ref>111.</ref>
             <lb/>
-          with a pin</p>
-         <p>And from a desperate fall</p>
-         <p>The murder of my Nephew <ref>112.</ref>
+          with a pin</item>
+         <item>And from a desperate fall</item>
+         <item>The murder of my Nephew <ref>112.</ref>
             <lb/>
-          Mr Thomas Danby</p>
-         <p>My great deliverance of <ref>114.</ref>
+          Mr Thomas Danby</item>
+         <item>My great deliverance of <ref>114.</ref>
             <lb/>
-          my ninth childe 1668.</p>
-         <p>meditations there upon <ref>115.</ref>
-         </p>
-         <p>And nalys illnesse that night</p>
-         <p>Christopher Thornton baptized</p>
-         <p>His death <ref>117.</ref>
-         </p>
-         <p>meditations theron</p>
+          my ninth childe 1668.</item>
+         <item>meditations there upon <ref>115.</ref>
+         </item>
+         <item>And nalys illnesse that night</item>
+         <item>Christopher Thornton baptized</item>
+         <item>His death <ref>117.</ref>
+         </item>
+         <item>meditations theron</item>
          
             <pb n="179"/>
 
 <!-- transcription: Page 179 -->
 
          <fw><hi rend="underline">page</hi></fw>
-         <p>My weakeness uppon the death <lb/>
+         <item>My weakeness uppon the death <lb/>
           of my childe <ref>118</ref>
-         </p>
-         <p>Uppon Mr Thorntons illness <ref>119.</ref>
-         </p>
-         <p>My sad condition on the <ref>120.</ref>
+         </item>
+         <item>Uppon Mr Thorntons illness <ref>119.</ref>
+         </item>
+         <item>My sad condition on the <ref>120.</ref>
             <lb/>
-          occassion of a Slander</p>
-         <p>observations
+          occassion of a Slander</item>
+         <item>observations
             <!-- [endnote] Looks like a long s written over a b.-->
              theron. with praiers<lb/>
           &amp; meditations <ref>122.</ref>
-         </p>
-         <p>A deliverance of my Sonne <ref>128.</ref>
+         </item>
+         <item>A deliverance of my Sonne <ref>128.</ref>
             <lb/>
-          Robert Thornton</p>
-         <p>Prayers for him <ref>130.</ref>
-         </p>
-         <p>My second relapse by greife<lb/>
+          Robert Thornton</item>
+         <item>Prayers for him <ref>130.</ref>
+         </item>
+         <item>My second relapse by greife<lb/>
           when my Aunt Norton was at<lb/>
           Newton about the malice of <ref>131.</ref>
             <lb/>
-          my Ennimes unjustly</p>
-         <p>My prayers &amp; meditations <ref>132.</ref>
+          my Ennimes unjustly</item>
+         <item>My prayers &amp; meditations <ref>132.</ref>
             <lb/>
-          for deliverance from these</p>
-         <p>A description of Mr Thorntons<lb/>
+          for deliverance from these</item>
+         <item>A description of Mr Thorntons<lb/>
           falling ill at Malton, &amp; in <ref>135.</ref>
             <lb/>
           how weake a condition I<lb/>
-          was when he left me.</p>
+          was when he left me.</item>
          
             <pb n="180"/>
 
 <!-- transcription: Page 180 -->
 
          <fw>page</fw>
-         <p>My hopes of his recovery<lb/>
+         <item>My hopes of his recovery<lb/>
           from Dr witties incouragement <ref>138.</ref>
-         </p>
-         <p>Of the contineuance of my<lb/>
+         </item>
+         <item>Of the contineuance of my<lb/>
           deare Husbands weaknesse <ref>139</ref>
             <lb/>
-          notwithstanding all helpe</p>
-         <p>The death of my deare &amp; <ref>140.</ref>
+          notwithstanding all helpe</item>
+         <item>The death of my deare &amp; <ref>140.</ref>
             <lb/>
-          Honoured Husband</p>
-         <p>My exceeding Sorrow &amp;<lb/>
+          Honoured Husband</item>
+         <item>My exceeding Sorrow &amp;<lb/>
           weake estate of Bodie &amp; <ref>141.</ref>
             <lb/>
-          Spiritt uppon his death </p>
-         <p>My sad &amp; bitter complaints<lb/>
+          Spiritt uppon his death </item>
+         <item>My sad &amp; bitter complaints<lb/>
           meditations <ref>143.</ref>
             <lb/>
           Prayers; &amp; Pettions uppon <ref>145.</ref>
             <lb/>
-          This most sad dispensation</p>
-         <p>A discourse of Mr Thorntons<lb/>
+          This most sad dispensation</item>
+         <item>A discourse of Mr Thorntons<lb/>
           comfortable expressions to Mr <ref>149.</ref>
             <lb/>
-          Sinkler before his last Illness</p>
+          Sinkler before his last Illness</item>
          
             <pb n="181"/>
 
 <!-- transcription: Page 181 -->
 
          <fw> page</fw>
-         <p>A description of Mr Thorntons<lb/>
+         <item>A description of Mr Thorntons<lb/>
           last Sickenesse and severall <ref>150.</ref>
             <lb/>
-          passages in the same</p>
-         <p>Of his Buriall <ref>152.</ref>
-         </p>
-         <p>Uppon the feares of Death<lb/>
+          passages in the same</item>
+         <item>Of his Buriall <ref>152.</ref>
+         </item>
+         <item>Uppon the feares of Death<lb/>
           in verse. A.T. <ref>154.</ref>
-         </p>
-         <p>An Inducement to Love <ref>155.</ref>
-         </p>
-         <p>Heaven in verse. A. T.</p>
-         <p>A faire well to the Pleasures <ref>157.</ref>
+         </item>
+         <item>An Inducement to Love <ref>155.</ref>
+         </item>
+         <item>Heaven in verse. A. T.</item>
+         <item>A faire well to the Pleasures <ref>157.</ref>
             <lb/>
-          of the world in verse </p>
-         <p>My Soules wish for God <ref>160.</ref>
-         </p>
-         <p>A Widdowes Prayer and <ref>163.</ref>
+          of the world in verse </item>
+         <item>My Soules wish for God <ref>160.</ref>
+         </item>
+         <item>A Widdowes Prayer and <ref>163.</ref>
             <lb/>
-          Pettitions to God</p>
-         
+          Pettitions to God</item>
+      </list>
 </div>            
        <pb n="182"/>
 
@@ -6707,7 +6707,7 @@
        <div n="div98" rend="pre(rule)">
          <p>
         <milestone n="ev96" unit="event"/>    
-          The Lord gave me a dreame <date notAfter-custom="1640-11">before</date><!-- Q [dates] possible to make this more specific? these dreams are usually only a few months before the event. --> the dea<lb/>
+          The Lord gave me a dreame <date notAfter-custom="1640-11">before</date><!-- Q [dates] possible to make this more specific? these dreams are usually only a few months before the event. --> the dea<lb break="no"/>
           th of <rs ref="ppl:cw1" n="per354" type="person">my deare &amp; honourd father</rs> to warne me<lb/>
           of his losse: &amp; he did foretell the sorrows<lb/>
           &amp; sad times comeing on these Kingdoms to <rs ref="ppl:aow1" n="per355" type="person">my<lb/>
