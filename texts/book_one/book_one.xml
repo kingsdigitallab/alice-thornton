@@ -44,41 +44,42 @@
                     <label>DOCX to TEI</label>
                 </application>
             </appInfo>
-        <!-- ENCODING NOTES
+   <!-- ENCODING NOTES
          
-         Transcriber notes:
+     Transcriber notes:
          - Items <seg rend="background(magenta)">marked</seg> – are for discussion with Sharon
          - Items <seg rend="background(green)">marked</seg> – may need reconsideration for consistency
-         - Items <seg rend="background(cyan)">marked</seg> – double-check original
+         - Items <seg rend="background(cyan)">marked</seg> – double-check origina
          
-         Page \d+ Transcriber page numbers (fw=pageNum are Alice's written numbers)
+         Page \d+ in comments = Transcriber page numbers 
+         (fw=pageNum are Alice's written numbers)
          
-         CORRECTION: issue with transcription, to be raised with team
-         NOTE: a comment on something, may not need any further (or only very minor) action
-         TODO: needs work, probably know what's needed
+     xml comment keywords:
+         NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action
+         TODO: needs work, I probably know what's needed
          Q: needs work, uncertain about how to proceed
+         TODO [teams] mainly transcription updates - to be completed later
+         Q [teams] issue is under discussion on MS Teams
+         [] comment/note tags give some indication of what it's about
+         [endnote] has been moved from Word endnotes into comment
          
-         comment tags in []
-         [endnote] moved from Word endnotes into comment
          
+     **DATES** review
+         finally read up on TEI for non-Gregorian calendars and ugh.
          
-         **DATES** review
-         so I finally read up on TEI for non-Gregorian calendars and oof.
-         - our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS) and occasionally we can't tell which year a date between 1 Jan and 24 March is supposed to be in.
-         - the only reason we use @when etc stuff is so that we can get our dates in the right order and searchable. It doesn't matter to us (and is unlikely to matter to any reader) that they're not technically accurate.
+         our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year (of the two possible) a date between 1 Jan and 24 March is supposed to be in.
          
          following MoEML, three @datingMethod/@calendar
-         #JulianJan year starts 1 January - 
-         #JulianMar date 1 Jan-24 Mar and year starts 25 March
-         #JulianSic only where date is 1 Jan-24 Mar and we don't know which year
+         #JulianJan year starts 1 January 
+         #JulianMar date=1 Jan-24 Mar and year starts 25 March
+         #JulianSic (rare) only used where date is 1 Jan-24 Mar and we don't know which of the two possible years it is
          
-         **JulianJan is treated as default so not explicitly encoded**
-         **similarly, only @datingMethod is explicitly encoded at this stage** (because I cannot imagine anywhere that @calendar won't be the same) (and doesn't seem to need both to validate) 
-         **changed *-iso attributes to *-custom 
-         **but still using -iso style formatting
-         NB year-only dates assumed #JulianJan unless clear reason to do otherwise
-         added <calendar> stuff to teiHeader - will need proper description later.
-         [also will need to adjust my xquery to pick up JulianMar and +1 and use -custom]
+         **JulianJan is treated as default so not explicitly encoded (at the moment)**
+         **similarly, assumption that @calendar and @datingMethod are always the same so only @datingMethod is explicitly encoded** 
+         **changed *-iso attributes to *-custom ** (but still using -iso style formatting)
+         
+         NB year-only dates are assumed #JulianJan unless clear reason to do otherwise
+         added <calendar> to teiHeader - will need proper description later
          
          
          @rend markers:
@@ -93,14 +94,13 @@
          horiz-short-right
          
          
-         events tagging
-            use of milestone/anchor pairs
-                (not yet implemented @spanTo or linking event mentions) 
-                at present milestone/anchor pairs are linked using @n, prefix "ev".
-                milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree
-                but they *are* always in the same <div> 
-                they can be "nested" for sub-events. they can overlap. etc.
-         
+         events tagging - milestone/anchor pairs
+            - not yet implemented @spanTo or linking event mentions) 
+            - at present milestone/anchor pairs are linked using @n, prefix "ev".
+            
+            milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree
+            but they *are* always in the same <div> 
+            they can be "nested" for sub-events. they can potentially overlap. etc.
          
          
          notes to self...
@@ -108,8 +108,10 @@
 
           -->
              
-            <!--  LINKAGE ?
-        sample prefixDef from dbw project. idk if we'll need/use these
+        <!--  LINKAGE ?
+        sample prefixDef from dbw project. 
+        using prefixes in entity linkage.
+        
         <listPrefixDef>
           <prefixDef ident="ppl"
             matchPattern="([a-z]+)"
@@ -192,7 +194,7 @@
   <text>
       <front>
         <div n="div1">
-            <!-- Q teams [ms] how to handle blank pages (also in BoR) -->
+            <!-- Q [teams] [ms] how to handle blank pages (also in BoR) -->
             <p>
                 [[Page i] [First leaf] Inscription: see Dip.]
             </p>
@@ -232,7 +234,7 @@
         <pb n="2"/>
 
 <!-- transcription: Page 2 -->
-        <!-- Q teams [decoration] unusual: page has ruled border top/bottom/left -->
+        <!-- Q [teams] [decoration] unusual: page has ruled border top/bottom/left -->
         <fw type="pageNum"> 2. </fw>
 
     <div n="div3" type="prayer">
@@ -312,7 +314,7 @@
         <l>And make me ever chuse what <add place="above">you</add> Seest best</l>
         <l>Lord lead me by thy <add place="above">hand</add> into thy Rest.</l>
         
-        <p>Amen.</p><!-- Q teams [formatting] this Amen is centred ?and slightly larger text? -->
+        <p>Amen.</p><!-- Q [teams] [formatting] this Amen is centred ?and slightly larger text? -->
 
         </div>
 
@@ -340,7 +342,7 @@
              Lassells</persName> Minister of <placeName ref="place:Kirk_030" n="place3">Kirklington</placeName>.<lb/>
              <persName ref="ppl:awn1" n="per5">Mrs Anne Norton</persName>. &amp; <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.
             <anchor n="ev1"/>
-            <!-- Q [ms] tag space? -->
+            <space quantity="6" unit="line"/>
             <note place="end">
                 <p rend="Endnote Text"> [ms]? The rest of this page is blank.</p>
             </note>
@@ -425,7 +427,7 @@
     
         <fw type="pageNum">8.</fw> <lb/>
             <fw type="header" rend="post(rule)">A preservation in the Meassells.</fw><lb/>
-            <!-- Q [tagging] fw rather than head because it's not at the beginning of the section and so wouldn't be valid tei. BUT it is really the title for the section...
+            <!-- Q [tagging] using fw rather than head. BUT it is the title for the section div9 even though it's not inside that div - is there a way to associate it?...
                 [endnote] NB. Despite the title at the top of the page, the details of the ‘preservation’ only begins part way down the page, which is where the ‘main body’ of the text proper begins.
         -->
         
@@ -466,7 +468,7 @@
          <milestone n="ev3" unit="event"/>
             <p>
       <fw place="margin">      
-          [+] <!-- Q teams [decoration] this symbol - how to encode? a decorative sort of cross??, not the same as the one at the same point in BoR. 
+          [+] <!-- Q [teams] [decoration] this symbol - how to encode? a decorative sort of cross??, not the same as the one at the same point in BoR. 
               **also need to decide on encoding for hearts and other crosses and in other books, but also need to stop xslt changing them!**
           -->
       </fw>
@@ -750,14 +752,14 @@
                 
             A deliverance from Ship-Rack in A Passage into<lb/>
                  -----------------------------------------------------<lb/>
-                <!-- Q teams [decoration] unusual (rule) needs discussion -->
+                <!-- Q [teams] [decoration] unusual (rule) needs discussion -->
                  <placeName ref="place:Irel_096" n="place13">Ireland</placeName> with <rs ref="ppl:aow1" n="per40" type="person">my Mother</rs>, <rs ref="ppl:tbd-awt-brother" n="per41" type="person">brother</rs><!-- Q [people] possible to ident which brother? or has she forgotten an "s"? -->, &amp; 2 Nephewes.<lb/>
                  <persName ref="ppl:td4" n="per42">Thomas</persName> &amp; <persName ref="ppl:cd4" n="per43">Christopher Danby</persName>. In the yeare: <date when-custom="1639">1639</date>.
             </head>
             <milestone n="ev11" unit="event"/><!-- NOTE event from ireland to bristol -->
             <!-- NOTE [places] Bristol Diamonds https://en.wikipedia.org/wiki/Bristol_Diamonds
             so yes, St Vincent's Well is at St Vincent's Rocks -->
-            <p>having<!-- Q teams CORRECTION "having"= "Having" in image --> come over into <placeName ref="place:Engl_094" n="place14">England</placeName>, when my Mother<lb/>
+            <p>having<!-- TODO [teams] "having"= "Having" in image --> come over into <placeName ref="place:Engl_094" n="place14">England</placeName>, when my Mother<lb/>
                  came for her cure of the dissease of the Stone to the Bat-<add place="above">hes</add><lb/>
                  &amp; <placeName ref="place:Bris_004" n="place15">Bristoll</placeName> water, <placeName ref="place:StVi_051" n="place16">St Vincents well</placeName><anchor n="ev11"/>; (uppon which Rose<lb/>
                  hanging over it, is got your Bristow Diamonds.) <milestone n="ev12" unit="event"/>in<lb/><!-- NOTE event return to ireland - storm -->
@@ -854,7 +856,7 @@
             <head place="centre">
                 A thankesgiveing for our deliverances.<lb/>
                  -----------------------------------------------------<lb/>
-                <!-- Q teams [decoration] another unusual title (rule) -->
+                <!-- Q [teams] [decoration] another unusual title (rule) -->
                  affter our dangerous passage by Sea:<lb/>
                 <date when-custom="1639-08-23">August the 23<hi rend="superscript">d</hi> 1639</date>. into <placeName ref="place:Irel_096" n="place25">Ireland</placeName>.<lb/>
                  Psallme 107. 1<hi rend="superscript">st</hi> 5.
@@ -1197,7 +1199,7 @@
                  Lord Deputy Wandesforde</persName>, &amp; of his<lb/>
               Death. <date type="death" when-custom="1640-12-03">Decem. 3<hi rend="superscript">d</hi> 1640</date>.
             
-          <!-- TODO [decoration] double post(rule) -->
+          <!-- TODO [teams] [decoration] double post(rule) -->
           </head>
                 <milestone n="ev17" unit="event"/><!-- NOTE event CW as lord deputy -->
             <p>
@@ -1310,8 +1312,8 @@
             <p>
                  <!-- TODO [event] main event-CW death -->
                 <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
-                <!-- Q teams [decoration] double horizontal lines above the header - I think *not* appropriate to treat this as text underline  -->
-               <!-- Q teams [formatting] smaller than main text. need to discuss representation of this - how much detail? a few places in BoR too. -->
+                <!-- Q [teams] [decoration] double horizontal lines above the header - I think *not* appropriate to treat this as text underline  -->
+               <!-- Q [teams] [formatting] smaller than main text. need to discuss representation of this - how much detail? a few places in BoR too. -->
                 <note resp="#awt1" place="left margin" rend="pre(rule) post(rule)">
                     Acc<hi rend="superscript">.t</hi> of<lb/>
                      the Lord<lb/>
@@ -1368,7 +1370,7 @@
             
             And finished a good while before. he had it <add place="above">then</add><lb/>
                  all read over to him in the presence of divers Per<add place="above">sons</add><lb/>
-                 of qualitie. as <persName ref="ppl:jb4" n="per95">my Lord Bishop of Derrey</persName> an Exec̅<!-- Q teams CHECK contraction? --><lb/>
+                of qualitie. as <persName ref="ppl:jb4" n="per95">my Lord Bishop of Derrey</persName> an Exec̅<!-- TODO [teams] contraction --><lb/>
                  <persName ref="ppl:jb6" n="per96">the Earle of Ormond</persName>; the <persName ref="ppl:jd4" n="per97">Lord Dillon</persName>, &amp; severall others<lb/>
                  Before, whome he Ratified &amp; confirmed the same<lb/>
                  declairing it publickly to be his last Will &amp;<lb/>
@@ -1585,7 +1587,7 @@
         <div n="div20" type="prayer">
 
             <head place="right" rend="pre(rule) post(rule)"> 
-            <!-- TODO [decoration] (rule) weight pre and post -->
+                <!-- TODO [teams] [decoration] (rule) weight pre and post -->
                 <note place="end">
                     <p rend="Endnote Text"> [decoration] This is a thick line.</p>
                 </note>      
@@ -1600,14 +1602,14 @@
             <p>
                 <!-- NOTE [margin] tagged fw - biblical reference 
                      NB *not* attempting to associate the reference with the quotation as we'll tag that using <quote> @source   -->
-                <!-- Q teams [decoration] thick line under the reference. - *not* text underline  -->
-                <!-- Q [tagging] there is a curly brace pointing at the text. represent this at all? -->
+                <!-- Q [teams] [decoration] thick line under the reference. - *not* text underline  -->
+                <!-- Q [tagging] [curlybraces] there is a curly brace pointing at the text. -->
                 
-                <fw type="reference" place="left margin" rend="post(rule)"><!-- Q teams [decoration] rule is a thicker line than others? -->
+                <fw type="reference" place="left margin" rend="post(rule)"><!-- Q [teams] [decoration] rule is a thicker line than others? -->
                     Isaiah<lb/>
                     57<lb/>
                     v. 1<hi rend="superscript">st</hi> 2,
-                    <!-- Q teams CORRECTION "2d" in image -->
+                    <!-- TODO [teams] "2d" in image -->
                 </fw>
               <note place="end">
               <p rend="Endnote Text">[bib] <seg rend="background(magenta)">Note because a different kind of biblical citation. NB. Issue of standardisation of biblical citations, and editorial practice/annotation.</seg></p>
@@ -2167,7 +2169,7 @@
         <div n="div22" type="prayer">
             <head place="centre" rend="pre(rule) post(rule)">
                 A Prayer to be said before wee Receive. <lb/>
-                <!-- TODO [decoration] pre(rule) weight -->
+                <!-- TODO [teams] [decoration] pre(rule) weight -->
                 <note place="end">
                     <p rend="Endnote Text"> [decoration] Thick line here.</p>
                 </note>
@@ -2201,7 +2203,7 @@
                  , may by him be recovered unto that Everlasting Re-<lb break="no"/>
                  -surection, which thou (that wishest the Perfection &amp; continu<lb/>
                  ance of what thou hast made). hast prepared for us befor<add place="above">e</add><lb/>
-                 the begi{nni}ng<!--Q teams [contraction] contraction marker is over gi. wasn't in {} --> of the world, If wee feare thee &amp; keepe.<lb/>
+                the begi{nni}ng<!-- TODO [teams] [contraction] marker is over gi. --> of the world, If wee feare thee &amp; keepe.<lb/>
             
 
             <pb n="55"/>
@@ -2262,7 +2264,7 @@
                  shall be guiltie of our owne damnation.</p>
             <p>
                 <!-- NOTE [margin] tagged fw -->
-                <!-- Q [tagging] [formatting] text underline - in this case may be appropriate but horizontal marker line might be better? what is its function? is it for emphasis? or decoration/marking distinct?  -->
+                <!-- Q [teams] [tagging] [formatting] text underline - in this case may be appropriate but horizontal marker line might be better? what is its function? is it for emphasis? or decoration/marking distinct?  -->
                 <!-- TODO contraction "Com". a contraction line?, see endnote -->
                 <fw place="left margin">
                         Com.
@@ -2291,7 +2293,7 @@
             <p>
                 <!-- NOTE [margin] tagged fw. -->
                 <!-- TODO contraction "Com"="Commandment" -->
-                <!-- Q [tagging] [formatting] text underline/horizontal marker line -->
+                <!-- Q [teams] [tagging] [formatting] text underline/horizontal marker line -->
                 
               <fw place="left margin">Com. <lb/>
                  <hi rend="underline">2<hi rend="superscript">d</hi></hi>
@@ -2400,7 +2402,7 @@
                 
                     <!-- NOTE [margin] tagged fw. -->
                 <!-- TODO contraction "Com" -->
-                <!-- Q [tagging] [formatting] text underline -->
+                <!-- Q [teams] [tagging] [formatting] text underline -->
                 <fw place="left margin">
                     Com. <lb/>
                         <hi rend="underline">6<hi rend="superscript">th</hi></hi>
@@ -2455,7 +2457,7 @@
                  of frugalitie in all our actions.</p>
             <p>
                 <!-- NOTE [margin] tagged fw -->
-                <!-- Q [tagging] [formatting] text underline -->
+                <!-- Q [teams] [tagging] [formatting] text underline -->
                     <fw place="left margin">
                         Com. <lb/>
                         <hi rend="underline">9, 10</hi>
@@ -2907,10 +2909,10 @@
          <!-- NOTE [div] added new div here because this is a significant break in the narrative. -->
       <p>
             <!-- NOTE [margin] tagged note -->
-          <!-- Q [tagging] [formatting] text underline again. makes some sense for 17th, but lines above and below have been -> @rend  -->
+          <!-- Q [teams] [tagging] [formatting] text underline again. makes some sense for 17th, but lines above and below have been -> @rend  -->
           <milestone n="ev27" unit="event"/><!-- NOTE event siege chester, deliverance -->
                 <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)"><date when-custom="1643-07-17">July<lb/>
-                    <hi rend="underline">17.</hi><!-- Q teams CORRECTION date in margin s/b 17*th* not 17. -->
+                    <hi rend="underline">17.</hi><!-- TODO [teams] in margin s/b 17*th* not 17. -->
                         <lb/>
                      1643</date>
                     </note>
@@ -3090,7 +3092,7 @@
                  could <add place="above">be</add> expected from such a Childe. he freely &amp; will-<lb break="no"/>
                  -ingly gave up his soule into the hands of his Redeemer<lb/>
                  with come Lord Jesus &amp; receave my soule, &amp; so did.</p>
-            <!-- Q teams CORRECTION "died" rather than "did" -->
+            <!-- TODO [teams] "died" rather than "did" -->
             <p>I had great reason to take especiall notice of the great<lb/>
                  goodnesse of God to us, in giveing us opportunity to<lb/>
                  bring <rs ref="ppl:fk1" n="per217" type="person">this poore soule</rs> out of the darknesse &amp; ignorance<lb/>
@@ -3226,7 +3228,7 @@
         
             <div n="div29">
                 <head rend="pre(rule) post(rule)">
-                    <!-- TODO [decoration] pre(rule) weight -->
+                    <!-- Q [teams] [decoration] pre(rule) weight -->
                     <note place="end">
                         <p rend="Endnote Text"> [decoration] Very thick line.</p>
                     </note>
@@ -3238,9 +3240,8 @@
                         <p rend="Endnote Text"> [insertion] Date overwritten here.</p>
                     </note>
                 </head>
-                <!-- NOTE
-               From CB:
-               I have found some key dates which should help us sort out what is going on post Chester [in the original list I just said sub-events!]. 
+                <!-- NOTE From CB:
+               key dates which should help us sort out what is going on post Chester 
                 They leave Chester 28 aug 1643. 
                 it looks like they were briefly in Richmond with the Nortons [sept 15 1643; & this is where the lobster incident happens]. 
                 then in Snape, which is where A's sister lives, 11 oct 43 for 'a year'. 
@@ -3252,7 +3253,7 @@
                 -->
                
                 <!-- NOTE [margin] tagged note -->
-                <!-- Q [tagging] [decoration] text underline (1643) again -> @rend  -->
+                <!-- Q [teams] [tagging] [decoration] text underline (1643) again -> @rend  -->
             <p>
                 <milestone n="ev30" unit="event"/>
                 <!-- NOTE event chester to warrington -->
@@ -3392,7 +3393,7 @@
                 <note place="left margin" resp="#awt1" style="writing-mode: vertical-rl; text-orientation: sideways-right">
                <p>Sirfett Lobster <lb/>
                at <placeName ref="place:Rich_043" n="place108">Richmond</placeName> <milestone unit="rule"/>
-               <!-- Q [tagging] [decoration] short (about 4 chars) horizontal line here, purpose unclear. similar things in BoR? best way to do these? alt: use of <space> in tei list --></p>
+                   <!-- Q [teams] [tagging] [decoration] short (about 4 chars) horizontal line here, purpose unclear. similar things in BoR? best way to do these? alt: use of <space> in tei list --></p>
             </note>
                  thither to live, till she could better dispose of her selfe,<lb/>
                  &amp; us in those troublesome times. For it beeing in the <lb/>
@@ -3400,7 +3401,7 @@
                  Joynture, which was molested, some times with the Parliamen<add place="above">ts</add><lb/>
 
          <!-- NOTE [margin] tagged note -->
-                <!-- Q [tagging] [formatting] text underline -->
+                <!-- Q [teams] [tagging] [formatting] text underline -->
             <note place="left margin" resp="#awt1">
                 <!-- NOTE [dates] this date is for the surfeit of lobster (p.83) and not related to any of this text. de-@when -->
                     <date>
@@ -3417,7 +3418,7 @@
              Soe that <date>for a whole yeare</date> we lived, with great comfort and<lb/>
              safety with <persName ref="ppl:kwd1" n="per249">my sweete Sister Danby</persName> att <placeName ref="place:Snap_047" n="place110">Snape</placeName><anchor n="ev34"/><!-- NOTE event /to snape -->. where <milestone n="ev35" unit="event"/>she<lb/>
               <!-- NOTE [dates] margin note with date - not the right date for the text... -->
-                <!-- Q teams CORRECTION ? should be a line under text in margin 11.43? - but [formatting] need to discuss that??? -->
+                <!-- Q [teams] CORRECTION ? should be a line under text in margin 11.43? - but [formatting] need to discuss that??? -->
                 <note place="left margin" resp="awt1">
                     to <placeName>snape</placeName><lb/>
                     from <lb/>
@@ -3434,7 +3435,7 @@
                 Now while we lived at <placeName ref="place:Snap_047" n="place111">Snape</placeName> my brot<lb break="no"/>
                     
                     <!-- NOTE [margin] tagged note -->
-                <!-- Q [tagging] [formatting] text underline -->
+                <!-- Q [teams] [tagging] [formatting] text underline -->
                 <note place="left margin" resp="awt1">
                    <persName ref="ppl:jw1" n="per252">Bro. Jack</persName> to<lb/>
                    <placeName>B. Sco</placeName><lb/>
@@ -3520,7 +3521,8 @@
                  till the hall was made fitt to dwell in. in that time<anchor n="ev38"/><lb/>
                 <milestone n="ev39" unit="event"/>
                    <!-- NOTE event gw and cw2 marston moor -->
-                 affter she came thither in the yeare <date>1643</date><!-- NOTE [dates] def says 1643 but that makes no sense? perhaps "thither" means TO snape not from snape. (i think i've commented on this in teams) - using <date> tag but removed @when -->. was the battle<lb/>
+                 affter she came thither in the yeare <date>1643</date><!-- NOTE [dates] def says 1643 but that makes no sense? perhaps "thither" means TO snape not from snape. 
+                     - using <date> tag but removed @when -->. was the battle<lb/>
                  of <placeName ref="place:Mars_021" n="place122">Hessome</placeName> &amp; the takeing of <placeName ref="place:York_060" n="place123">yorke</placeName>. &amp; she was much con-<lb break="no"/>
                  -serned for <persName ref="ppl:cw2" n="per270">my brother Christofer Wandesforde</persName> being<lb/>
                  then at <placeName ref="place:York_060" n="place124">Yorke</placeName> for cure &amp; att Scoole.</p>
@@ -3585,7 +3587,7 @@
                 
                 <p>
                     <!-- NOTE [margin] tagged note -->
-                    <!-- Q [tagging] [formatting] text underline. here there is only one line underneath but again, what's it for? -->
+                    <!-- Q [teams] [tagging] [formatting] text underline. here there is only one line underneath but again, what's it for? -->
            <milestone n="ev40" unit="event"/>
                     <!-- NOTE event (jump back to) richmond 1643 lobster. also implies that they stayed at Richmond until they went to Hipswell!-->
                 
@@ -3809,7 +3811,7 @@
                  &amp; Glory, in Anthems, &amp; Psallmes proper for her condi-<lb break="no"/>
                  -tion, with many sweete verces praising him for all things<lb/>
                 <add place="left margin">,</add> Nor was she in the least conserned to part with her <rs ref="ppl:td3" n="per310" type="person">husb</rs>
-                <!-- Q teams [contraction] is there a contraction line through the b? -->
+                <!-- NOTE [teams] nope [contraction] is there a contraction line through the b? -->
                 <lb/>
                  or Children, nor any thing in this world, haveing her hope<lb/>
                  &amp; desires fixed upon God. Leaveing her Children freely<lb/>
@@ -3978,7 +3980,7 @@
         
         <div n="div35" rend="pre(rule)">
            <milestone n="ev46" unit="event"/> 
-            <p><persName ref="ppl:en1" n="per335">My Cozen Edmund Norton</persName>, Eldest son to my <persName ref="ppl:mn1" n="per336">Uncle Norto̅</persName><!-- Q teams CHECK contraction --><lb/>
+            <p><persName ref="ppl:en1" n="per335">My Cozen Edmund Norton</persName>, Eldest son to my <persName ref="ppl:mn1" n="per336">Uncle Norto̅</persName><!-- TODO [teams] contraction --><lb/>
                  was married to <persName ref="ppl:td2" n="per337">Mr Dudly</persName>s Daughter &amp; heire of Chopwell<lb/>
                  in <add place="above">the</add> Bishoprick of <add place="above">Durham</add> <persName ref="ppl:jdn1" n="per338">Mrs Jane Dudly</persName> an excelent fine<lb/>
                  &amp; good gentlewoman. <date type="marriage" when-custom="1647-02-10" datingMethod="#JulianSic">Feb. 10<hi rend="superscript">th</hi> 1647</date><!-- NOTE [dates] OS/NS unverifiable (marriage of edmund norton - Anselment couldn't find a record in registers) -->. att <placeName ref="place:Chop_013" n="place153">Chopwell</placeName>.//</p>
@@ -4919,7 +4921,7 @@
             <l>Of forward-Converts, by the Reverend-hands</l>
 
             <!-- NOTE [margin] tagged note -->
-            <!-- Q [tagging] [formatting] text underline again -->
+            <!-- Q [teams] [tagging] [formatting] text underline again -->
            
             <note>
                 Anno<lb/>
@@ -5332,7 +5334,7 @@
                  promise to <rs ref="ppl:aow1" n="per489" type="person">my Mother</rs>, &amp; <add place="above">his</add> infinitt expressions to my selfe I <lb/>
                  rest <add place="above">ed</add> upon Providence in the fullfilling of his desire. in <lb/>
                  soe much that about the <date when-custom="1651-12-15">December following</date> proceeded our marri{age}
-                 <!-- Q teams CHECK contraction (corrected, problem characters?) contraction line over marrig was typed not {} ? -->
+                <!-- TODO [teams] contraction (I've corrected this one here already, problem characters - will still need to check against transcription) contraction line over marrig -->
                 
                 <lb/>
                  this is the true relation of this grand conserne of my life, which<lb/>
@@ -5608,7 +5610,7 @@
                     <p rend="Endnote Text"> [word] I.e., jaundice.</p>
                 </note> which used me very hardly one full<lb/>
                  q.<hi rend="superscript">r</hi> &amp; a halfe more. I finding <persName ref="ppl:rw1" n="per531">Dr wittie</persName>s judgment true that <lb/>
-                 it would prove a cronicall<!-- Q teams CHECK [contraction] contraction line over n which I have deleted --> distemper. but blessed be the<lb/>
+                 it would prove a cronicall<!-- TODO [teams] [contraction] contraction line over n which I have deleted --> distemper. but blessed be the<lb/>
                  Lord upon great &amp; many meanes used &amp; all remidies. I<lb/>
                  was at length cured of all distempers &amp; weaknesses which<lb/>
                  from its begining had lasted 3 q{uarte}r of a yeare full out. </p>
@@ -5975,7 +5977,7 @@
                  paine through the heavinesse of <rs ref="ppl:et1" n="per550" type="person">my Childe</rs>; haveing <rs ref="ppl:tbd-iu" n="per551" type="person">the mid-<lb break="no"/>
                 -wife</rs><!-- Q [people] not identifiable? --> in constant expectation each houer. att which time<lb/>
                  <rs ref="ppl:aow1" n="per552" type="person">my deare mother</rs> laid sicke in the house of a sad cough. &amp;<lb/>
-                 yong <persName ref="ppl:xt4" n="per553">Mrs Troutbeck</persName><!-- TODO transcription needs correction? or not? --> came to give her directions through<lb/>
+                 yong <persName ref="ppl:xt4" n="per553">Mrs Troutbeck</persName><!-- TODO [teams] check what's happening with Mr/Mrs --> came to give her directions through<lb/>
                  some freinds advice. &amp; by the blessing of God she was recov<lb break="no"/>
                  -ered though not to be with me in my travell. <date when-custom="1655-02-13">all teusday</date><lb/>
                  &amp; that night with the morning on wednesday I was in great ex-<lb break="no"/>
@@ -6176,7 +6178,7 @@
                  has to thy <sic>thy</sic><!-- NOTE [sic] repetition of thy --> name to whome is due all hon{our} power. domi-<lb break="no"/>
                  -nion &amp; glory of men &amp; Angels. for ever Grant this for <lb/>
                  Jesus Christ his Sake our deare Lord &amp; Saviour. Amen. </p>
-            <p> Amen .<hi rend="italic">#.</hi><!-- Q teams [decoration] will need to decide what to do with these symbols. -->
+            <p> Amen .<hi rend="italic">#.</hi><!-- Q [teams] [decoration] will need to decide what to do with these symbols. -->
             </p>
            </div>
         
@@ -6190,7 +6192,7 @@
                  <date type="death" when-custom="1655-05-10">10<hi rend="superscript">th</hi> of May 1655</date>. &amp; was buried at <placeName ref="place:Ston_053" n="place231">Stongrave</placeName> in her<lb/>
                  housbands Alley, <persName ref="ppl:rt3" n="per581">my father Thornton</persName>, whom she had out<lb/>
                  lived 17 yeares, haveing all so bin married to him 17 yers<lb/>
-                 &amp; was buried on the <date when-custom="1655-05-11">11<hi rend="superscript">th</hi> of May. 1655</date>. <hi rend="italic">#:</hi><!-- Q teams [decoration] italic - ah, it's because the symbol looks sort of slanted. -->
+                 &amp; was buried on the <date when-custom="1655-05-11">11<hi rend="superscript">th</hi> of May. 1655</date>. <hi rend="italic">#:</hi><!-- Q [teams] [decoration] italic - ah, it's because the symbol looks sort of slanted. -->
             </p>
             <anchor n="ev85"/>
        </div>
@@ -6203,7 +6205,7 @@
                 <del rend="doublestrikethrough">same</del>
                 <add place="above">next</add>
                </subst> 
-                day: <date when-custom="1655-05-19">May: 19<hi rend="superscript">th</hi> 1655</date>. <hi rend="italic">#</hi><!-- Q teams [decoration] italic -->.</p>
+                day: <date when-custom="1655-05-19">May: 19<hi rend="superscript">th</hi> 1655</date>. <hi rend="italic">#</hi><!-- Q [teams] [decoration] italic -->.</p>
             <anchor n="ev86"/>
        </div>
         <div n="div56" rend="pre(rule)">
@@ -6226,7 +6228,7 @@
             <rs ref="ppl:wt1" n="per584" type="person">My deare husband</rs> was the likest to him in all respects<lb/>
                  both to Person &amp; condittions, a most sweet affable<lb/>
                  curteous nature, allwayes ready to serve his freind.<lb/>
-                 &amp; very well disposed towards Religion. <hi rend="italic">#.</hi><!-- Q teams [decoration] italic -->
+                 &amp; very well disposed towards Religion. <hi rend="italic">#.</hi><!-- Q [teams] [decoration] italic -->
             </p>
             </div>
         <div n="div57">
@@ -6251,7 +6253,7 @@
                  Prayer foll{owing}:</p>
             </div>
         
-        <div n="div58" type="prayer"><!-- Q teams [authors] prayer by awt's mother - there are more by her mother and at least one by her father, plus Wyvill poem and other material. do we want to encode different authors or just use notes? (could use @resp?) -->
+        <div n="div58" type="prayer"><!-- Q [teams] [authors] prayer by awt's mother - to investigate how to do this -->
             <head rend="pre(rule) post(rule)">
             
                 A prayer before the delivery of my daughter<lb/>
@@ -6384,7 +6386,7 @@
                     <p rend="Endnote Text"> [text size] NB. Several times in this MS, AT has cited the opening words of the Lord’s prayer in larger letters than the main text.</p>
                 </note>
             </p>
-            <!-- Q teams text size -->
+            <!-- Q [teams] text size -->
             <p> Amen.</p>
          
          </div>
@@ -6404,7 +6406,7 @@
         <div n="div60" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
                 <!-- Q [tagging] [layout] ? -->
-                <!-- Q teams [authors] text by awt's mother -->
+                <!-- Q [teams] [authors] text by awt's mother -->
                 A Thankesgiveing affter the delivery of my, <lb/>
                  Daughter <persName ref="#awt1" n="per598">Alice Thornton</persName> 
               <subst>   
@@ -6499,8 +6501,8 @@
                  Christ Jesus the Sonne of thy love, concluding these our<lb/>
                  imperfect praiers in that most sacred praier which Christ<lb/>
                  hath taught us to present unto thee to thy Glory, &amp;<lb/>
-                 for our comfort. Saying. <hi style="font-size:16pt">Our: Father &amp;</hi><!-- Q teams [decoration] what to do with this &? looks like a marker rather than the word "and". check for others - but hard to find! this might be the only one? -->
-                <!-- Q teams [formatting] text size: larger text again.</p>
+                 for our comfort. Saying. <hi style="font-size:16pt">Our: Father &amp;</hi><!-- Q [teams] [decoration] what to do with this &? looks like a marker rather than the word "and". check for others - but hard to find! this might be the only one? -->
+                <!-- Q [teams] [formatting] text size: larger text again.</p>
                     
                 </note>-->
             </p>
@@ -7312,7 +7314,7 @@
               out of <placeName ref="place:Irel_096" n="place261">Ireland</placeName> to the valew due unto her at her death<lb/>
             
             <!-- NOTE [margin] tagged note -->
-            <!-- Q teams [decoration] removed text underline and replaced with @rend - there are lines above *and* below the marginal text -->
+            <!-- Q [teams] [decoration] removed text underline and replaced with @rend - there are lines above *and* below the marginal text -->
              <!-- NOTE last two letters of "widdow" overlap main text -->
                 <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
                     19<lb/>
@@ -7888,7 +7890,7 @@
                  pertaker of this blessed Sacrament. Amen.</p>
            </div>
            <div n="div74">     
-            <!-- TODO [decoration] pre rule is thicker line -->
+               <!-- Q [teams] [decoration] pre rule is thicker line -->
                 <head rend="pre(rule) post(rule)">Before Receaving of the wine. affter consecration</head>
 
             <pb n="177"/>
@@ -7909,7 +7911,7 @@
                  sinnes. Amen. <note place="end">
                     <p rend="Endnote Text"> [decoration] Flourish after ‘Amen’.</p>
                 </note>
-                <!-- Q teams [decoration] "flourish" not likely to be easy to represent in text! -->
+                <!-- Q [teams] [decoration] "flourish" not likely to be easy to represent in text! -->
             </p>
           </div>
           <div n="div75">     
@@ -7942,7 +7944,7 @@
             My delivery of <persName ref="ppl:wt2" n="per744">my Son William</persName>, my 6<hi rend="superscript">th</hi> childe; &amp; of his<lb/>
               death. <date type="birth" when-custom="1660-04-17">Aprill the 17<hi rend="superscript">th</hi> 1660</date> att <placeName ref="place:StNi_050" n="place274">St Nickolas</placeName> my <persName ref="ppl:awn1" n="per745">Aunt<lb/>
              Norton</persName>s house. affter <rs ref="ppl:aow1" n="per746" type="person">deare mother</rs>s death. 
-            <!-- Q teams [layout] hmm. "Wharton's grave at Easby" is below the post(rule). but clearly part of the heading text - seems to have simply run out of space. 
+            <!-- Q [teams] [layout] hmm. "Wharton's grave at Easby" is below the post(rule). but clearly part of the heading text - seems to have simply run out of space. 
                 some or all of the text from "He died..." looks like later insertion to me. Which would make the heading a more sensible length too. --> 
               
              <add place="inline">He died<lb/>
@@ -8278,7 +8280,7 @@
                 Uppon <rs ref="ppl:wt1" n="per767" type="person">my Husband</rs>, &amp; Families Removall from <placeName ref="place:StNi_050" n="place285">St<lb/>
                  Nickolas</placeName>, to <placeName ref="place:Oswa_041" n="place286">Oswold Church. neare Newton</placeName>. <date when-custom="1660-06-11">June 11<note place="end">
                     <p rend="Endnote Text"> [word] Looks more like a zero in MS</p>
-                 </note> 1660</date>.<!-- Q teams CORRECTION space missing between Oswold and Church. (also the 1 looks like an 0 to me as well...) -->
+                 </note> 1660</date>.<!-- TODO [teams] space missing between Oswold and Church. (and see endnote, the 1 looks like an 0 to me as well...) -->
                 <note place="end">
                     <p rend="Endnote Text"> [decoration] Ornate borders around next title.</p>
                 </note>
@@ -8616,7 +8618,7 @@
         <div n="div82" rend="pre(rule)">
           <!-- NOTE [div] new div: no section title but has index entry + divider line  --> 
             
-            <p>Affter this inestimable &amp; wonderfull mercy, in my grac--<lb break="no"/><!-- Q teams CORRECTION "=" not "-\-" here and beginning of next line, and a few lines down -->
+            <p>Affter this inestimable &amp; wonderfull mercy, in my grac--<lb break="no"/><!-- TODO [teams] "=" not "-\-" here and beginning of next line, and a few lines down -->
                  --ious Gods giveing me sattisfaction in my doubts &amp; in putt<lb/>
                  ing to flight that old serpent the Devill, from doeing more har<lb break="no"/>
                  --me to my soule then scaireing me into the firmer &amp; deeper<lb/>
@@ -9000,7 +9002,7 @@
         <div n="div86">
             <head rend="post(rule)">
                 <persName ref="ppl:rc2" n="per822">Mr Colvill</persName>s Settlement of <persName ref="ppl:wt1" n="per823">Mr Thornton</persName>s Estate: <del rend="doublestrikethrough">166X</del><lb/>
-                <!-- Q teams CORRECTION ? "166X" in title. looks like 1661 to me? -->
+                <!-- TODO [teams] "166X" in title. looks like 1661 to me? -->
                  <date type="legal" when-custom="1662">1662</date>.</head>
             <milestone n="ev135" unit="event"/><!-- Q [event] idk what's going on here either -->
             <p>Affter I had received this great mercy from God; &amp;<lb/>
@@ -9055,7 +9057,7 @@
                  in the worst for the disadvantage of my Poore Children: have<lb/>
                 ing then but <rs ref="ppl:atc1 ppl:ktp1" n="per828" type="person">two Daughters</rs> liveing; Allso I found that the<lb/>
                  severall ingagements for Debts of others, <gap reason="obliterated" extent="1.4" unit="line"/>
-                <!-- Q [tagging] [deletion] [endnote] This is more than the usual deletion – T has really attempted to obliterate these words. Nevertheless, some letters remain legible – check MS? -->
+                <!-- [endnote] This is more than the usual deletion – T has really attempted to obliterate these words. Nevertheless, some letters remain legible – check MS? -->
                 <lb/>
                  had taken away for theire sattisfaction, with other Charges<add place="above">in building the house</add><lb/>
                  All my English Portion of 1500<hi rend="superscript">l</hi> that Estate of <placeName ref="place:Burn_005" n="place308">Burne Parke</placeName><lb/>
@@ -9813,7 +9815,7 @@
             
         <div n="div96">
             <head rend="post(rule)">
-                Of my dangerous sickenesse: <date type="illness" when-custom="1666-08-16">August 8 <add place="above">16th</add><!-- Q teams CORRECTION ? "8" in title should be marked as deleted? --> 1666</date>.</head>
+                Of my dangerous sickenesse: <date type="illness" when-custom="1666-08-16">August 8 <add place="above">16th</add><!-- TODO [teams] "8" in title should be marked as deleted? --> 1666</date>.</head>
             <note place="end">
                     <p rend="Endnote Text"> [decoration] Patterned border.</p>
                 </note>
@@ -10387,7 +10389,7 @@
             
         <div n="div105" rend="post(rule)">
             <head rend="post(rule)">
-                My daughter <persName ref="ppl:atc1" n="per988">Alice Thornton</persName> her Smale Pox <date type="illness" when-custom="1667-01-25">Jan.<hi rend="underline">2, 67.</hi></date><!-- Q teams CORRECTION "2, 67" s/b "25, 67" -->
+                My daughter <persName ref="ppl:atc1" n="per988">Alice Thornton</persName> her Smale Pox <date type="illness" when-custom="1667-01-25">Jan.<hi rend="underline">2, 67.</hi></date><!-- TODO [teams] "2, 67" s/b "25, 67" -->
             </head>
             <note place="end">
                     <p rend="Endnote Text"> [decoration] Double line here.</p>
@@ -10465,7 +10467,7 @@
                  beeing well againe about the <date when-custom="1667-04-30">30 Aprill. 1667</date>.<anchor n="ev174"/> I humbly<lb/>
                  blesse the Lord for the least, &amp; greatest testimonys of his daily<lb/>
                  favours to me &amp; mine. O that these might sett forth his<lb/>
-                 praises for ever more Amen. //</p><!-- Q teams [decoration] inline // -->
+                 praises for ever more Amen. //</p><!-- Q [teams] [decoration] inline // -->
          </div>
         <div n="div108" rend="pre(rule_double)">
             <note place="end">
@@ -10533,7 +10535,7 @@
                  beeing <add place="above">the</add> hope of his Familie. &amp; just at that time when he had<lb/>
                  ingaged to cleare of all Debts Portions &amp;c in the due performance<lb/>
                  of his Fathers will. when all things would have bin don<lb/>
-                to all Persons sattisfactions. But Allasse this poore Gent̅<!-- Q teams CHECK contraction --><lb/>
+                to all Persons sattisfactions. But Allasse this poore Gent̅<!-- TODO [teams] contraction --><lb/>
                  was sudainely surprised, &amp; murdered. with out any pro-<lb break="no"/>
                  vocation or malice begun on his side. comitted with the most<lb/>
                  Barbarous sircumstances imaginable; by one <persName ref="ppl:xb4" n="per1007">Beridge</persName> a<lb/>
@@ -10952,7 +10954,7 @@
             </div>
         <div n="div115">
             <head place="right" rend="post(rule) border(left)">
-                <!-- Q teams [layout] tagging title, the | left border. border(left|right) might do it? -->
+                <!-- Q [teams] [layout] tagging title, the | left border. border(left|right) might do it? -->
                 | On <persName ref="ppl:acd1" n="per1064">Mrs Anne Danby</persName>s goeing to Hooly. <date when-custom="1667-04-20">Ap. 20. 67</date>.<note place="end">
                     <p rend="Endnote Text"> [decoration][insertion] NB. This ‘title’is in a box – maybe a later addition? Cirss-cross usually indicates the end of a section and any space on the rest of the line is left blank.</p>
                 </note>
@@ -10961,7 +10963,7 @@
             <p>Uppon the complaint of <persName ref="ppl:acd1" n="per1065">Mrs Danby</persName> to <persName ref="ppl:mb2" n="per1066">Mrs Batte</persName>, (then a<lb/>
                  servant to the young <persName ref="ppl:aws1" n="per1067">Countesse of Sussex</persName>; and accounts<lb/>
                  by her to be the dearest freind she had in the world) of her<lb/>
-                hard usuage by <persName ref="ppl:med1" n="per1068">Mr Danby</persName><!-- Q teams CORRECTION "Md" Danby rather than "Mr" -->; &amp; severall discontents<lb/>
+                hard usuage by <persName ref="ppl:med1" n="per1068">Mr Danby</persName><!-- TODO [teams] "Md" Danby rather than "Mr" -->; &amp; severall discontents<lb/>
                  framed by <rs ref="ppl:tbd-servant" n="per1069" type="person">her servant</rs> in my house, adding to her for-<lb break="no"/>
                  -mer disgust towards me in her beeing cast out as she<lb/>
                  said for my sake. these, with other secrett unjust reasons<lb/>
@@ -11775,7 +11777,7 @@
                  they solomnly cleared us them selves never to have seene <lb/>
                  or heard any thing them selves: but laid those lies on<lb/>
                  others: It was then more sin &amp; shame for them to wrong<lb/>
-                me in that &amp; eitheIbeleive<!-- Q teams CORRECTION "eitheIbeleive" s/b "either ^to^ beleive" -->, or keepe it in theire breasts;<lb/>
+                me in that &amp; eitheIbeleive<!-- TODO [teams] "eitheIbeleive" s/b "either ^to^ beleive" -->, or keepe it in theire breasts;<lb/>
                  contrary to theire owne knowledge: &amp; now to be excecu<lb break="no"/>
                  -tioners affter 7 or 8 months consealment, of others deaths.</p>
             <p>And under (a pretence (which was hardly gained tto) instead<lb/>
@@ -11918,7 +11920,7 @@
                  seeing my intentions Cordially good: would not suffer me<lb/>
                  to fall. but gave me releife in his providence: &amp; by the satt-<lb break="no"/>
                  isfaction receaved in my good freinds had an opportunity<lb/>
-                to give a full account of my innocIich<!-- Q teams CORRECTION "innocIich" s/b "innocency" --> yet they did<lb/>
+                to give a full account of my innocIich<!-- TODO [teams] "innocIich" s/b "innocency" --> yet they did<lb/>
                  Not question. nor beleive any of those slanders. but when<lb/>
                  they perceaved how I had bin used, was very much troubled<lb/>
                  for my sufferings indevouring to comfort my spiritt soe <lb/>
@@ -12020,14 +12022,14 @@
                  a day for her goeing; &amp; there was a coach procured from <persName ref="ppl:sg1" n="per1241">Mad{am}<lb/>
                  Grahme</persName>: my noble freind; which carried her to <placeName ref="place:York_060" n="place381">Yorke</placeName> with 2<lb/>
                  servants to waite on her. beeing on <date when-custom="1668-09-11">friday the 11<hi rend="superscript">th</hi> of sept. 68</date>.</p>
-            <p>At her departure I gave her to Iher<!-- Q teams CORRECTION "Iher" s/b "supplies" I think --> necessities 3<hi rend="superscript">l</hi> more<lb/>
+            <p>At her departure I gave her to Iher<!-- TODO [teams] "Iher" s/b "supplies" I think --> necessities 3<hi rend="superscript">l</hi> more<lb/>
                  to the former 5<hi rend="superscript">l</hi> sent to her: she haveing had out of my Purse<lb/>
                  the yeare about 20<hi rend="superscript">l</hi> in all with charges about her Jorneys, &amp;<lb/>
                  all suplies of Linnin &amp; other necessarys.</p>
             <p>I was exceding weake in bed when she went. nor did I hope to<lb/>
                  recover either health or strength againe had it not bin out of the<lb/>
                  infinitt Riches &amp; goodnesse of my gracious God; which wrought<lb/>
-                miraI<!-- Q teams CORRECTION "miraI" should be "miracles in" --> me his faithfull innocent handmaide.<lb/>
+                miraI<!-- TODO [teams] "miraI" should be "miracles in" --> me his faithfull innocent handmaide.<lb/>
             
 
             <pb n="258"/>
@@ -12173,7 +12175,7 @@
                  prevaille. for though they currse yet blesse thou. &amp; behold<lb/>
                  the anguish of my soule: for out of the deepes have I called<lb/>
                  Lord save me I perish if thou hearest not.<lb/>
-                But still will IIme<!-- Q teams CORRECTION "IIme" s/b "I hold me" --> fast by God my saviour for my<lb/>
+                But still will IIme<!-- TODO [teams] "IIme" s/b "I hold me" --> fast by God my saviour for my<lb/>
                  guide &amp; direction suport &amp; deliverance. puting my trust<lb/>
                  in thee O Lord, my strength. O stablish &amp; settle my <hi style="font-family:Segoe UI Symbol">♡</hi> in<lb/>
                  thy faith, feare &amp; love, that neither life nor death may <lb/>
@@ -12558,7 +12560,7 @@
             <p>And I may say with Job. Although wormes consume this<lb/>
                  bodie: yet with my Eyes shall I see God &amp; beholding him<lb/>
                  face to face. which this clayie bodie of dust cannot injoy in<lb/>
-                this vaile of flesh. till this vilde bodie be changed &amp; mII&amp;<!-- Q teams CORRECTION "mII&amp;" s/b "made" --> this mortall put on immortallity.</p>
+                this vaile of flesh. till this vilde bodie be changed &amp; mII&amp;<!-- TODO [teams] "mII&amp;" s/b "made" --> this mortall put on immortallity.</p>
             <p>Oh that the Lord would now give me faith. &amp; shew himselfe to<lb/>
                  his weake handmaide &amp; servant makeing me to beleive<lb/>
                  what good things is laid up for them that love &amp; feare him<lb/>
@@ -12647,7 +12649,7 @@
             
                 <fw type="pageNum"> 271. </fw> <lb/>
             
-            Etternall in The Heavens, whoes Ir<!-- Q teams CORRECTION "Ir" s/b "Buillder" --> &amp; maker, is <lb/>
+            Etternall in The Heavens, whoes Ir<!-- TODO [teams] "Ir" s/b "Buillder" --> &amp; maker, is <lb/>
                  God. O then how shoulld I not groane affter, &amp; long to<lb/>
                  be cloathed upon. &amp; injoy that felicitie, &amp; happinesse<lb/>
                  those Joyes &amp; Glory. which I doe hope &amp; beleive through<lb/>
@@ -12827,7 +12829,7 @@
                  they sent to me for the Dr which came to him on <date when-custom="1668-09-16">wednesday</date> after<lb/>
                  dinner. <rs ref="ppl:wt1" n="per1282" type="person">my deare</rs> was then very weake in bodie. but I<lb/>
                  blesse God perfect in mind &amp; understanding. <persName ref="ppl:tc1" n="per1283">Mr Comber</persName> <lb/>
-                goeing to see hI<!-- Q teams CORRECTION "him" not "hI" --> tooke his leave of him and bid him to <lb/>
+                goeing to see hI<!-- TODO [teams] "him" not "hI" --> tooke his leave of him and bid him to <lb/>
                  Remember him to his deare wife. bid me be patient &amp;<lb/>
                  contented with Gods hand, &amp; to submitt to his will. which he uttrd<lb/>
                  as well as he could for his speach beeing taken. After which he<lb/>
@@ -13377,9 +13379,8 @@
 
             
                 <fw type="pageNum">285.</fw>
-            
-            <p>-----------------------------------------------------
-                <!-- Q [tagging] [decoration] handling this ruled line. lg? div? milestone? --></p>
+            <milestone unit="undetermined" rend="rule"/>
+            <!-- NOTE [tagging] this ruled line (full width) does not appear to be structural - there's no break in poem. -> milestone -->
             <l>If wronged, he only is my Right.</l>
             <l>If sad, he, is my Joy, &amp; Soules delight;</l>
             <l>In Summe and all, All only hee;</l>
@@ -13837,7 +13838,7 @@
                 Of the makeing; &amp; Preservation of <rs ref="ppl:cw1" n="per1332" type="person">my dear<lb/>
                  &amp; hon{oured} Father</rs>s Last will &amp; Testament in<lb/>
                  <placeName ref="place:Irel_096" n="place401">Ireland</placeName> in the Rebellion. &amp; by what Providenc<lb/>
-                <!-- Q teams [layout] date is set in a box lower left corner of the titles, looks like a later insertion -->
+                <!-- Q [teams] [layout] date is set in a box lower left corner of the titles, looks like a later insertion -->
                 <note place="left" resp="#awt1">
                 <seg rend="background(magenta)">
                 Date <date type="legal" when-custom="1640-10-02">Octo 2<lb/>
@@ -13859,7 +13860,7 @@
             <p>Till the yeare <date when-custom="1647">1647</date>. when <persName ref="ppl:gw1" n="per1335">my brother George wandesf</persName><lb/>
                  went into <placeName ref="place:Irel_096" n="place402">Ireland</placeName> to get a true copy of it &amp; not having<lb/>
                  mony to discharge it The sad will was laid by in a Chest<lb/>
-                 by the Clarke who had writ it out &amp; [thes]<!-- Q check ms - is [thes] for checking? --> was sececd<note place="end">
+                 by the Clarke who had writ it out &amp; [thes]<!-- TODO [teams] check ms - is [thes] for checking? --> was sececd<note place="end">
                     <p rend="Endnote Text"> [word] I.e., secured?</p>
                 </note> for severall<lb/>
                 yeare of the <seg rend="background(cyan)">s<gap reason="deleted" extent="2" unit="char"/>arre</seg> afftr <persName ref="ppl:gw1" n="per1336">my brother George</persName> died &amp; non knew<lb/>
@@ -13982,7 +13983,7 @@
             <p>We was all joyfull to escape soe. for <rs ref="ppl:aow1" n="per1355" type="person">my d. M</rs><lb/>
                  was forcd to give them the bst treat she could &amp; said.<lb/>
                  indeed she did not know where I was. &amp; sent out<lb/>
-                <seg rend="background(cyan)">[sev[e]r[a]l]</seg><!-- Q teams CHECK word reading - contraction? --> a little to seeke me but I was safe from them</p>
+                <seg rend="background(cyan)">[sev[e]r[a]l]</seg><!-- TODO [teams] word reading - contraction? --> a little to seeke me but I was safe from them</p>
             <p>Affter which time <rs ref="ppl:xi1" n="per1356" type="person">this villaine Captaine</rs> did study<lb/>
                  to be revenged of <rs ref="ppl:aow1" n="per1357" type="person">my d. M.</rs> &amp; threatnd cruelly what<lb/>
                  he would doe to her, becees<note place="end">
@@ -14014,7 +14015,7 @@
                  drive them a way &amp; he looked up &amp; thought it had bine<lb/>
                  <rs type="person">my d. m.</rs> Cursed me bitterly &amp; wished the Deale bloew<lb/>
                  me blind &amp; into the Ayre. &amp; I had bin a thorne in his<lb/>
-                heele. but he would be a Thorne my<!-- Q teams CORRECTION no "my" after Thorne --> in my side. &amp; drved the<lb/>
+                heele. but he would be a Thorne my<!-- TODO [teams] no "my" after Thorne --> in my side. &amp; drved the<lb/>
                  Cattell a way to <placeName ref="place:Rich_043" n="place409">Richmd</placeName> where <persName ref="ppl:xl2" n="per1359">Generall Lecsley</persName> was.</p>
             <p>So <rs ref="ppl:aow1" n="per1360" type="person">my deare mothr</rs> was forcd to Take the Pay he<lb/>
                  was to heve &amp; carrid it to <rs ref="ppl:xl2" n="per1361" type="person">the Generall</rs> that laid at my<lb/>
@@ -14201,7 +14202,7 @@
                     <p rend="Endnote Text"> [word] I.e., blessed.</p>
                 </note> be the Lord I<lb/>
                  was delivrd from death. at that time allso to Praise his<lb/>
-                holy name. For. Ever. <date when-custom="1643">1647</date>.<!-- Q teams CORRECTION date 1647 - should the 7 be 3? --></p>
+                holy name. For. Ever. <date when-custom="1643">1647</date>.<!-- TODO [teams] 1647 - should the 7 be 3? (have 'corrected' @when already for data purposes, transcription to do later) --></p>
             <p>And was deleerd from that seige allso by miracles<lb/>
                  of mercy &amp; brought us safe into our owne Country York<lb/>
                  shere.</p>
@@ -14490,7 +14491,7 @@
             <item>Lamentations, &amp; Praiers upon my greivous<lb/> <!-- TODO [index] [curlybraces] -->
             abuses &amp; wrongs: 1668. <ref>260</ref></item>
             <item>My Sonne Robert preserved July 25. 68. <ref>264</ref></item>
-            <item>A Relation of my deare &amp; hon{oured} Husband,<!-- Q teams [transcription] no comma --><lb/> <!-- TODO [index] [curlybraces] -->
+                <item>A Relation of my deare &amp; hon{oured} Husband,<!-- TODO [teams] no comma --><lb/> <!-- TODO [index] [curlybraces] -->
             last sicknesse at Malton Sept. 12<hi rend="superscript">th</hi> 1668 <ref>265</ref></item>
             <item>A discripsion of severall passages very<lb/> <!-- TODO [index] [curlybraces] -->
             remarkable about his comforts &amp; <ref>274</ref><lb/>
@@ -14555,7 +14556,7 @@
                 <lb/>
                  on Easter Eve</date> — before <persName ref="ppl:gw1" n="per1394">my bro. G</persName> was lost</head>
             <p>-------------------<date when-custom="1651">1651</date>------------------------------------</p>
-           <!-- Q [tagging] [decoration] year set in ruled line (there is another of these somewhere?) -->
+           <!-- Q [tagging] [decoration] year set in ruled line -->
             <p>
                 <milestone n="ev221" unit="event"/>
                 <note place="left margin" resp="#awt1" style="writing-mode: vertical-rl; text-orientation: sideways-right">
@@ -14610,9 +14611,7 @@
             
                 <fw type="pageNum" place="top right">301</fw>
             
-            <!-- Q [tagging] [decoration] anagram/acrostic -->
-            <!-- Q [formatting] this is the other place where there are words set into a horizontal ruled line -->
-            <!-- NOTE <head> for the fancy ruled lines. not sure about place for centering... <seg> for the first letters, for now. probably come back to this later. -->
+            <!-- Q [formatting] this is the other place where there are words set into a horizontal ruled line. not sure about <l> in head but will come back to this. -->
             <head place="centre">
             <l> <persName ref="ppl:gw1" n="per1399">George Wandesford</persName>.</l>
             <l> ---------------Anagram.-------------------------------</l>
@@ -14622,6 +14621,7 @@
             <l> . Acrosticke.</l>
             <l> -----------------------------</l>
            </head> 
+            <!-- NOTE can't find much about tagging these... using <seg> for the first letters, for now. but may revise later. -->
             <lg type="acrostic">
             <l><seg>G</seg> race seamed to waite on nature setting forth</l>
             <l><seg>E</seg> ven in thy native sence the hight of Worth</l>
@@ -14670,13 +14670,12 @@
             <l>Thou, changed Earth, for Heaven, foes for frends</l>
             <l>Then begin thy Joys that Never End:</l>
             <l>But who <add place="above">can</add> speake the Sorrowes thatt 
-                <!-- Q [tagging] can't have gap inside subst, but the whole of this gap/del/add/del is a single substitution. using seg to group them together for now but maybe there's a better option. -->
-                <seg>
-                <gap reason="deleted" extent="3" unit="word"/>
+                <subst>
+                <del><gap reason="deleted" extent="3" unit="word"/></del>
                 <!-- NOTE gap was transcribed xxxxxx x xxx-->
                 <del rend="doublestrikethrough"><add place="above">spread</add></del> 
                 <add place="below">oprest</add>
-                </seg>
+                </subst>
             </l>
             <l>Each Bleeding heart, &amp; Eye and Breast.</l>
             <l>at this sad object struck with horror Dumb,</l>
@@ -14730,7 +14729,7 @@
         <pb n="310"/>
 
         <div n="div153">
-            <!-- Q teams [ms] how to handle blank pages etc 
+            <!-- Q [teams] [ms] how to handle blank pages etc 
                 [ms] Final two leaves blank. -->
             <p>
                 <note place="end">

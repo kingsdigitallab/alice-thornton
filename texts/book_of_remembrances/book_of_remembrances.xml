@@ -99,47 +99,45 @@
          </appInfo>
         
      <!-- ENCODING NOTES: 
-          
-      to review: 
-        - and the difference between <mod> and <subst> ???
-        I think use of <supplied> was mostly ok but need to record @reason
-        revised unclear>gap as needed. 
-        happy with gap/space. 
-        only one use of <damage> and changed that to unclear cause=damage as it seems more consistent with the rest of the tagging.
- 
+         
+         Page \d+ in comments = Transcriber page numbers 
+         (fw=pageNum are Alice's written numbers)
+         
+     xml comment keywords:
+         NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action
+         TODO: needs work, I probably know what's needed
+         Q: needs work, uncertain about how to proceed
+         
+         TODO [teams] - transcription updates, contractions, convention changes, etc - to be completed later
+         Q [teams] - under discussion on MS Teams
+         
+         [] comment/note tags give some indication of what it's about
+         [endnote] has been moved from Word endnotes into comment
+         
+     reviewing:
+        - check consistency <fw> inside/outside <div> when div starts on a new page? I think should probably be outside in that context.
+     
+  
         abbrev/contraction work needs to be fixed in the transcription first
         - tagging of abbreviations/contractions and markers. some <hi superscript> should be tagged as abbreviations? still reading up on this one! 
-        
         - possibly related to the ^...^ you haven't finished yet. are some of those actually contractions?
         
-        - check consistency <fw> inside/outside <div> when div starts on a new page? I think should probably be outside in that context.
-        
-        for teams discussion on markers/decoration etc - possibly check / markers etc. 
+        teams discussion on markers/decoration etc - possibly check / markers etc. 
       
-      Qs 
-        sic when tagging repetition. is there something specific I should add there? have left comments
-      
-      to review: remaining footnotes
+        remaining footnotes
         type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep queries for now.
         type=context leave these for later
         
       [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
  
          
-       events tagging
-            milestone/anchor pairs 
-                at present milestone/anchor pairs are linked using @n, prefix "ev". (not yet implemented @spanTo or linking event mentions)
+       events tagging - milestone/anchor pairs 
+                at present milestone/anchor pairs are linked using @n, prefix "ev". 
+                not yet implemented @spanTo or linking event mentions
                 milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree
                 but they *are* always in the same <div> 
                 they can be "nested" for sub-events. they can overlap. etc.
                 
-                
-      to be updated: conventions changes: 
-        (but this also has to be done in transcriptions first)
-          i>arabic numerals ; check if there are any v for 5 as well
-          remove : from numbers
-          need to look at contractions consistency
-          etc...
         
       TBD tagging of ms description features - a lot of this to be dropped or only described in msDescription, but will review properly after I see final Book 1 transcription.
           footnotes > comments for reference/to come back to
@@ -149,7 +147,9 @@
      -->      
        
        <!-- Linkage?
-        sample prefixDef from dbw project. idk if we'll need/use these
+        sample prefixDef from dbw project. 
+        using prefixes
+        
         <listPrefixDef>
           <prefixDef ident="ppl"
             matchPattern="([a-z]+)"
@@ -278,7 +278,7 @@
          </docTitle>
          <docAuthor>  
          <persName ref="ppl:awt1" n="per1">
-           [ATW] <!-- TODO [tagging] ATW = monogram. apparently no specific tag in tei. use seg type=monogram or something similar? -->
+           [ATW] <!-- Q [tagging] ATW = monogram. apparently no specific tag in tei. hmm. use seg type=monogram or something similar? -->
          </persName>
          </docAuthor>
            <note place="end" type="context">
@@ -297,7 +297,7 @@
      
      
       
-     <!-- Q teams [ms] page number: should be transcribed? -->
+     <!-- Q [teams] page number: should be transcribed? -->
       <!-- [endnote] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
      
 
@@ -334,7 +334,7 @@
 <!-- transcription: Page 3v -->
      
        <!-- [endnote] blank page. -->
-       <!-- Q teams [ms] blank pages - is this page *definitely* completely blank ie not numbered? [no image to check]  -->
+       <!-- Q [teams] blank pages - is this page *definitely* completely blank ie not numbered? [no image to check]  -->
     
             <pb n="3a"/>
          
@@ -363,7 +363,7 @@
 <!-- transcription: Page 4 -->
      
        
-<!-- Q teams [ms] page number apparently present but not transcribed [no image to check] -->
+       <!-- Q [teams] page number apparently present but not transcribed [no image to check] -->
       <!-- [endnote] blank – but it is numbered in the top left-hand corner. 
        -->
          
@@ -466,8 +466,9 @@
          
          <div n="div8">
 <!-- transcription: Body -->
-        <!-- Q for team? Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
-           <!-- NOTE [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure if it adds anything useful to do it every time.  -->
+        <!-- Q double check this on teams? Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
+         
+         <!-- NOTE [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure it adds anything useful to do it every time.  -->
          <fw>
             <fw type="header" rend="underline">
                <date when-custom="1631">1631</date>
@@ -528,7 +529,7 @@
          <fw>
            <fw place="left margin">⁜</fw> <!-- TODO [unicode] dotted cross symbol errm why is xslt changing unicodes? -->
             <fw type="header" rend="underline">
-               <date when-custom="1631">1631</date>:<!-- TODO conventions change : -->
+              <date when-custom="1631">1631</date>:<!-- TODO [teams] conventions change : -->
             </fw>
          </fw>
          <milestone n="ev2" unit="event"/>
@@ -578,7 +579,7 @@
           Glory &amp; praise even to my lives end<lb/>
           Amen. &amp; that for my Saviours Sake<lb/>
           alone. the Alpha &amp; Omega. Am<hi rend="underline">en .</hi>
-           <!-- Q [teamsQ] [formatting] underline looks more like a short line end marker to me -->
+           <!-- Q [teams] [formatting] underline looks more like a short line end marker to me -->
          </p>
          </div>
             <pb n="12"/>
@@ -588,7 +589,7 @@
       <div n="div10">
          <fw>
             <fw type="pageNum">12</fw>
-            <fw type="header">163i.</fw><!-- TODO conventions change - i>arabic numerals -->
+           <fw type="header">163i.</fw><!-- TODO [teams] conventions change - i>arabic numerals -->
          </fw>
         <p>
          <milestone n="ev3" unit="event"/>
@@ -883,10 +884,10 @@
           my soule out of the deepe waters &amp;<lb/>
           fathomlesse gulfe of waters. praise<lb/>
           his holy name for ever &amp; for ever Amen</p>
-        
-        <milestone unit="undetermined" rend="diagonal-left-margin"/><!-- Q [formatting] [rendition keywords] changed div but not milestone -->
-           <!-- msDescription [endnote] At a slight angle from margin over the top of ‘I’. -->
          <anchor n="ev11"/>
+        
+        <milestone unit="undetermined" rend="short-rule-left-margin"/><!-- Q [teams] [formatting] [rendition keywords] hmm. maybe this is meant to be a structural marker? maybe should be added to <p>. nb it is at a slight angle but not enough to call diagonal? -->
+           <!-- msDescription [endnote] At a slight angle from margin over the top of ‘I’. -->
          <p>
            <milestone n="ev12" unit="event"/><date when-custom="1639-08"/>
            I had a second preservation from drown<add place="above">ing</add><lb/>
@@ -916,7 +917,7 @@
           6 daies contineuance after a relaps<lb/>
           by goeing to church &amp; came sick home.<lb/>
           who departed sweetly in the Lord, to the <lb/>
-          infint losse of me &amp; the rest of our fami<hi rend="superscript">ly</hi><!-- Q for team CHECK [transcription] consistency superscript v add>place=above (^^) at end of words at end of lines. Here "ly" written over word but not in ^..^. but looks v similar to a number that do have ^..^. --><lb/>
+          infint losse of me &amp; the rest of our fami<hi rend="superscript">ly</hi><!-- Q for team CHECK transcription consistency superscript v add>place=above (^^) at end of words at end of lines. Here "ly" written over word but not in ^..^. but looks v similar to a number that do have ^..^. --><lb/>
             <date when-custom="1640-12-03">Dec: 3<hi rend="superscript">d</hi> 40</date>: at his house in <placeName ref="place:Dubl_088" n="place14">dublin<lb/>
           in Ireland</placeName>.<anchor n="ev13"/></p>
    </div>
@@ -963,7 +964,7 @@
          </fw>
          <p>
            <milestone n="ev16" unit="event"/>
-        <date when-custom="1642"/><!-- Q [dates] does this get added to both evs in div and if not why not -->
+        <date when-custom="1642"/><!-- Q [dates] CHECK does this get added to both evs in div and if not why not -->
            I got the smale Pox att <placeName ref="place:Ches_012" n="place22">weschester</placeName><lb/>
           of <persName ref="ppl:jw1" n="per39">my brother John</persName>. &amp; was very nere<lb/>
           death with them. but blesed be the God<lb/>
@@ -1150,7 +1151,7 @@
            married to <persName ref="ppl:wt1" n="per65">William Thornton Esquire</persName><lb/>
            At <rs ref="ppl:aow1" n="per66" type="person">my mother</rs>s howse in <placeName ref="place:Hips_022" n="place36">hipswell</placeName> the<lb/>
         <date when-custom="1651-12-15">15<hi rend="superscript">th</hi> of December. 1651</date>. Maried by<milestone unit="undetermined" rend="diagonal"/><!-- NOTE / milestone --><lb/>
-           <persName ref="ppl:ms1" n="per67">Mr Siddall</persName>.<!-- TODO [people] had to correct ppl: ref here: make sure you do some checks when you've finished tagging --><!-- NOTE / div rend -->
+           <persName ref="ppl:ms1" n="per67">Mr Siddall</persName>.<!-- NOTES [people] had to correct ppl: ref here: make sure you do some integrity checks when you've finished tagging --><!-- NOTE / div rend -->
            <!-- msDescription [endnote] The bottom of ‘Mr Siddall’ and following punctuation and slash is missing suggesting the page has been trimmed.-->
          <anchor n="ev30"/>
          </p>
@@ -1303,7 +1304,7 @@
             
             <lb/>
           a clocke in the affter noone, and was<lb/>
-          babtized the <date when-custom="1656-06-14">1<hi rend="superscript">th</hi> of June<!-- Q teams [transcription] 1th s/b 14th --></date>. by <persName ref="ppl:ms1" n="per85">Mr<lb/>
+           babtized the <date when-custom="1656-06-14">1<hi rend="superscript">th</hi> of June<!-- TODO [teams] [transcription] 1th s/b 14th --></date>. by <persName ref="ppl:ms1" n="per85">Mr<lb/>
           Siddall</persName>. wittnesses, <rs ref="ppl:aow1" n="per86" type="person">my mother</rs>,<lb/>
            <persName ref="ppl:kdb1" n="per87">my Neece <add place="above">K</add> Danby</persName>, &amp; <persName ref="ppl:wt1" n="per88">Mr Thornton</persName><!-- NOTE / div rend [endnote] Diagonal line below Thornton, although not as dark as the ones above Elizabeth.-->
          <anchor n="ev39"/>
@@ -1341,7 +1342,7 @@
        </div>
      <!-- NOTE year 1657 -->
        <div n="div41" rend="pre(rule)">
-         <!-- Q teams [decoration] ? divider line was a thicker line than usual. -->
+         <!-- Q [teams] [decoration] ? divider line was a thicker line than usual. -->
          <p>
            <milestone n="ev41" unit="event"/>
           I gotte a great fall over the<lb/>
@@ -1504,7 +1505,7 @@
           deprived of the benifitt to swallow<lb/>
           all most any kind of food. Eaven<lb/>
           to a little drop of beere, which was<lb/>
-          for 4 daies of<!-- Q teams CHECK MS [endnote] F overwritten as ‘r’? Check MS-->.
+          for 4 daies of<!-- [endnote] F overwritten as ‘r’? Check MS-->.
              5. the most she <lb/>
           tooke inwardly. &amp; that but with<lb/>
           a seringe. The Toung &amp; mouth<lb/>
@@ -1681,7 +1682,7 @@
            &amp; <subst><del rend="overwritten" cert="medium">7</del><add place="superimposed" cert="medium">9</add></subst><lb/> 
             aClock at night vpon satterday the<lb/>
           <date when-custom="1659-12-10">10:<hi rend="superscript">th</hi> of Decemb: 
-            <hi rend="underline">1659:</hi></date><!-- Q [teamsQ] [tagging] [formatting] this looks like another end of section line rather than underlined text; and check underline elsewhere? -->
+            <hi rend="underline">1659:</hi></date><!-- Q [teams] [tagging] [formatting] this looks like another end of section line rather than underlined text; and check underline elsewhere? -->
          </p>
          
             <pb n="38"/>
@@ -1689,7 +1690,7 @@
 <!-- transcription: Page 38 -->
 
          <fw>
-            <fw type="pageNum">38./</fw><!-- Q [formatting] [decoration?] how to handle diagonal line here -->
+            <fw type="pageNum">38./</fw><!-- Q [teams] [formatting] [decoration?] how to handle diagonal line here -->
             <fw type="header">.<date>1659</date>.</fw>
          </fw>
          <p>She was interred upon <date when-custom="1659-12-13">Tuesday<lb/>
@@ -1720,11 +1721,12 @@
               I.e., diuretics?</p>
             </note>
             <lb/>
-            For her. she had allso <persName ref="ppl:xs1" n="per120">Dr Smith</persName> at the begn<hi rend="superscript">–</hi><!-- Q teams [contraction] --><lb/> 
+           For her. she had allso <persName ref="ppl:xs1" n="per120">Dr Smith</persName> at the begn<hi rend="superscript">–</hi><!-- TODO [teams] [contraction] --><lb/> 
             of her sicknesse. but liked him not:</p>
          <p>
            <anchor n="ev44"/>
-            <add place="inline">Enter her Praiers my mo: made on Severall occa<hi rend="superscript">ns:</hi></add><!-- TODO [tagging] abbrev? -->
+           <!-- Q [teams] authors, though only a mention here, not actual text. also books x-ref? -->
+            <add place="inline">Enter her Praiers my mo: made on Severall occa<hi rend="superscript">ns:</hi></add><!-- Q [tagging] abbrev? -->
            <!-- NOTE / milestone -->
              <!-- [endnote] Information in angle brackets, later addition. Diagonal line here goes through last couple of words; last line prob added later. These prayers follow here in book 1.-->
            <milestone unit="undetermined" rend="diagonal"/>
@@ -2103,7 +2105,8 @@
           promised to give me rest, I need it<lb/>
           I want it, I cry unto thee, out of<lb/>
           the whales belly of dispaire, O god<lb/>
-          the father of Heaven h<del rend="strikethrough">e</del>ave <!-- Q [formatting] is strikethrough what you want for this? [endnote] ’e’ here is blotted out  -->  mercy<lb/>
+          the father of Heaven h<del rend="strikethrough">e</del>ave <!-- Q [formatting] not sure about strikethrough here, but maybe that needs more general consideration? 
+            [endnote] ’e’ here is blotted out  -->  mercy<lb/>
           upon me. o Christ the Reedeemer<lb/>
           of the world have mercy upon me, &amp;<lb/>
           O Holy blesed &amp; glorious spirtt<lb/>
@@ -2111,7 +2114,7 @@
           Triniity, 3 persons &amp; one God, helpe<lb/>
           thy poore destressed weake handm<lb break="no"/>
           -aid plunged in the depth of sine<lb/>
-            &amp; misery which non but thy Almig<hi rend="superscript">–</hi><!-- Q teams [contraction] --><lb/> 
+           &amp; misery which non but thy Almig<hi rend="superscript">–</hi><!-- TODO [teams] [contraction] --><lb/> 
             power is alble to helpe deliver &amp;<lb/>
           save from the Jawes of the Devill.<lb/>
 
@@ -2282,7 +2285,7 @@
             </note> my health &amp;<lb/>
           strength againe in this miraculous<lb/>
           manner beeing still at <placeName ref="place:Oswa_041" n="place60">oswoldkirk</placeName><lb/>
-           there hapned a very great <sic>an</sic><!-- Q [sic] had <supplied> d here but doubtful that's appropriate --> Re=<lb break="no"/>
+           there hapned a very great <w>an<supplied>d</supplied></w><!-- NOTE supplied changed my mind again lol. (using w tag maybe Q) --> Re=<lb break="no"/>
           =markable deliverance to me of an<lb/>
           other nature, but of as grand a<lb/>
           consequence to my beeing so much<lb/>
@@ -2310,7 +2313,7 @@
            <lb/>
           that <rs ref="ppl:aow1" n="per135" type="person">my deare mother</rs> had given<lb/>
           me before her death which was 1<add place="superimposed">50</add><hi rend="superscript">l</hi>
-             <!-- Q teams CHECK MS [endnote] 50 written over – poss 05 underneath, and check gutter-->
+             <!-- [endnote] 50 written over – poss 05 underneath, and check gutter-->
             <lb/>
           for my owne use. which steeres I<lb/>
           intended for <persName ref="ppl:wt1" n="per136">Mr Thornton</persName>s Draught<lb/>
@@ -2330,10 +2333,10 @@
           his owne good will to <rs ref="ppl:aow1" n="per141" type="person">my Mother</rs>s<lb/>
           Excecutor<hi rend="superscript">e.s</hi> for the said money to be<lb/>
           pd: by him at the next <date when-custom="1661-09-29">micklemas. 61</date>:<lb/>
-            but it so hapned that <persName ref="ppl:wt1" n="per142">Mr Th</persName>: did dra[w]<!-- Q check ms - this missing letter is almost certainly visible, just a bad photo. green highlight! --><lb/> 
+            but it so hapned that <persName ref="ppl:wt1" n="per142">Mr Th</persName>: did dra[w]<!-- TODO [teams] check ms - this missing letter is almost certainly visible, just a bad photo. green highlight! --><lb/> 
             
             the bond for <date>mart<hi rend="superscript">h</hi></date>
-            &amp; not for <date>mick<hi rend="superscript">–</hi></date><!-- Q teams [contraction] -->
+           &amp; not for <date>mick<hi rend="superscript">–</hi></date><!-- TODO [teams] [contraction] -->
            <note place="end" type="word">
                <p rend="Endnote Text">
               I.e. ‘Micklemas’?</p>
@@ -2434,7 +2437,7 @@
           from his Evill intentions, &amp; rash Act<lb/>
           against his weake creature his wife<lb/>
           &amp; <rs ref="ppl:rt2" n="per146" type="person">poore babe</rs> in my wombe. I confesse<lb/>
-          my folly had deserd a great [pumishet]<!-- Q check ms? -->
+           my folly had deserd a great [pumishet]<!-- TODO [teams] check ms -->
             <lb/>
           but what <add place="above">had</add> it don that should have suff<lb break="no"/>
           =red with me. now loe the Lord God of<lb/>
@@ -2543,7 +2546,7 @@
 
          <fw type="pageNum">62</fw>
            <lb/>
-          <!-- Q teams CHECK MS? [endnote] Poss a capital T under the 2 but would need to check the original -->
+          <!-- [endnote] Poss a capital T under the 2 but would need to check the original -->
              
           to Prevent <persName ref="ppl:rn1" n="per154">Nettleton</persName> from breaking<lb/>
           up an excecution against his Estate<lb/>
@@ -2636,7 +2639,8 @@
 
          <!-- msDescription [endnote] Top of page trimmed.-->
           <fw type="pageNum" rend="darkerInk">65.
-             <!-- [formatting] ? [endnote] Almost circular mark around page number which looks to be in a darker ink that that on the page.-->
+             <!-- Q [teams] [formatting] ? 
+               [endnote] Almost circular mark around page number which looks to be in a darker ink that that on the page.-->
           </fw>
            <lb/>
          Taken away my bed frm under mee<lb/>
@@ -2680,11 +2684,11 @@
           of the flesh, giveing me a double<lb/>
           Portion of Grace for that I am de-<lb break="no"/>
           -prived of the Portion &amp; provission<lb/>
-          of <rs ref="ppl:cw1" n="per169" type="person">my father</rs>. by these unjust mean[s]<!-- Q check ms - 's' is probably visible --><lb/> 
+           of <rs ref="ppl:cw1" n="per169" type="person">my father</rs>. by these unjust mean[s]<!-- TODO [teams] check ms - 's' is probably visible --><lb/> 
           against my selfe &amp; poore children<lb/>
           whose Portion &amp; inheritance I trust<lb/>
           the Lord will be forever. 
-          <seg type="insertion" rend="italic darkerInk">Remem<hi rend="superscript">br</hi><!-- Q [formatting] why italic? --><lb/>
+          <seg type="insertion" rend="italic darkerInk">Remem<hi rend="superscript">br</hi><!-- Q add comment on teams [formatting] why italic? --><lb/>
           my Dreame of <persName ref="ppl:rn1" n="per170">Nettleten</persName>s Baylie this morning before<lb/>
           they came. &amp; my fall downe the staires when <persName ref="ppl:cd1" n="per171">Celia<lb/>
           Danby</persName> fell &amp; I helped hir when <persName ref="ppl:rc2" n="per172">Co. Covill</persName> was heere.</seg>
@@ -2728,7 +2732,7 @@
           of thankfullnesse to God for the daly<lb/>
           renuall of the same.</p>
    
-         <p>I found by sad experiencs that the ma’y<!-- Q teams [contraction] ? --><lb/>
+  <p>I found by sad experiencs that the ma’y<!-- TODO [teams] [contraction] ? --><lb/>
           troubles had fallen upon me of this<lb/>
           world had diverted my stricter cours<lb/>
           of walking with my God as he had<lb/>
@@ -2750,7 +2754,7 @@
 
            <fw type="pageNum" rend="darkerInk">69.<!-- msDescription [endnote] line from 9 loops round --></fw>
             <lb/>
-           <!-- [formatting] ? [endnote] Page trimmed as top pf the ch cut off here.-->
+           <!-- [endnote] Page trimmed as top pf the ch cut off here.-->
           &amp; confirming, holy Sacrament, which<lb/>
            my blessed Saviour lefft us as his <!-- NOTE moved fw --><lb/>
           dearest pledge of his love. who laid<lb/>
@@ -2770,7 +2774,7 @@
           the sacrament to my blesed mother. &amp; <lb/>
           I desired his company to <placeName ref="place:East_019" n="place69">Newton</placeName> <lb/>
             who accordingly did come, &amp; bring<lb/> 
-          <!-- Q teams CHECK MS ? [endnote] Some overwriting here, especially of initial two letters, not clear in photograph.-->
+          <!-- [endnote] Some overwriting here, especially of initial two letters, not clear in photograph.-->
           <persName ref="ppl:bb1" n="per176">my Cossn Ben: Browne</persName> along. when<lb/>
           we with <persName ref="ppl:wt1" n="per177">Mr Th</persName>: <persName ref="ppl:acd1" n="per178">my neece Anne Danby</persName><lb/>
          
@@ -2793,7 +2797,7 @@
          <p>This most excelent &amp; spiritull<lb/>
           mercy was not the least. but greatet<lb/>
           I aphrended to receave from God, fare<lb/>
-           surpassing all temporalls ^ <!-- Q marks ^ here without any insertion - how to handle? at least one in B1 as well? --> inasmuch<lb/>
+           surpassing all temporalls ^ <!-- Q add comment on teams [formatting] marks ^ here without any insertion - how to handle? (one in B1 as well but that does have associated insertion) --> inasmuch<lb/>
           as Eternity does this finite beeings<lb/>
           O that my heart would breake in<lb/>
           peices at the joyfull remembrance of this<lb/>
@@ -2949,10 +2953,10 @@
           power it was alone to give us helpe<lb/>
           &amp; assistance, both as to the inabling us to<lb/>
           pay off his Just debts as allso to give me<lb/>
-           a sattisfaction in the settlemēt<!-- Q teams [contraction] isn't there another note about a contraction, that didn't use special character? --> of <persName ref="ppl:wt1" n="per184">Mr Th</persName>: E<unclear>ik</unclear>d<!-- Q [endnote] Still not sure after checking MS. -->
+           a sattisfaction in the settlemēt<!-- TODO [teams] [contraction] --> of <persName ref="ppl:wt1" n="per184">Mr Th</persName>: E<unclear>ik</unclear>d<!-- [endnote] Still not sure after checking MS. -->
             <lb/>
           upon my Ch: 
-             <!-- Q for teams contraction? [endnote] Line through top of Ch.-->
+             <!-- [endnote] Line through top of Ch.-->
              for provission &amp; therefore to him<lb/>
           for releife a lone I on my bended knees<lb/>
          
@@ -2993,7 +2997,7 @@
 
           <fw type="pageNum" rend="darkerInk">77</fw><lb/>
           thoughts <persName ref="ppl:rc2" n="per185">my Co: Colvill</persName> whom was<lb/>
-           <!-- Q teams [formatting] moved fw (-->
+           <!-- Q [teams] [formatting] ( moved fw (-->
           a very able Person. &amp; a faithfull frind <lb/> 
           to us. he I sent for, &amp; by the blessing<lb/>
           of God was suffred to make such a<lb/>
@@ -3296,7 +3300,7 @@
           grace. that he may be established<lb/>
           before thee both heere &amp; heereafter<lb/>
           That for Jesus Christ our Ever blesed<lb/>
-          saviour :&amp; Reedemer. <hi rend="underline">Amen.</hi><!-- Q [formatting] line under text here? -->
+          saviour :&amp; Reedemer. <hi rend="underline">Amen.</hi><!-- Q [teams] [formatting] line under text here? -->
              Amen.
          </p>
      </div>    
@@ -3396,7 +3400,7 @@
           thou a lone o father of mercys could<lb/>
           raise me up. my sinnes had prevailed but<lb/>
           thy infint clemency &amp; mercifullnesse<lb/>
-          [was]<!-- Q check ms - another bad photo! --> above thy Judgments. o Lord<lb/>
+           [was]<!-- TODO [teams] check ms - another bad photo! --> above thy Judgments. o Lord<lb/>
           therefore will I magnifie thy name for<lb/>
              Ever. Amen.
          </p>
@@ -3498,7 +3502,7 @@
           =ted to have receavd him home in health<lb/>
           did so surprize my spirits, that I was broug<lb break="no"/>
           =ht into such a passion of sorrow &amp; griefe,<lb/>
-          [&amp;]<!-- Q for teams? I'm not convinced this is a & --> into greater weakenesse of body. then<lb/>
+          [&amp;]<!-- Q add comment on teams? I'm not convinced this is a & --> into greater weakenesse of body. then<lb/>
           I had ever knowne in all my former weake<lb break="no"/>
           =nesses and troubles .in so short a space.<lb/>
          so that I did simpathize very deeply <gap unit="char" quantity="4" reason="deleted"/><!-- NOTE possibly get checked again later - i think it could be readable. --><lb/>
@@ -3522,7 +3526,7 @@
             <lb/>
           Assistance, advice, &amp; councell of <persName ref="ppl:tc1" n="per217">Mr Comber</persName><lb/>
           whom my gracious God had givn me at<lb/>
-         that time to be a meanes to suport my <!-- Q teams [formatting] moved fw ( --><lb/>
+         that time to be a meanes to suport my <!-- Q [teams] [formatting] moved fw ( --><lb/>
           fainting spiritts under this most sad afflicti<lb break="no"/>
           =on. when <rs ref="ppl:cw1" n="per218" type="person">my father</rs> &amp; <rs ref="ppl:aow1" n="per219" type="person">mother</rs> forsooke<lb/>
           me (by death) the Lord taketh me up. &amp;<lb/>
@@ -3562,7 +3566,7 @@
           =miss .either in negligence, or remisnesse<lb/>
           of duties or some other way or other forgett<lb break="no"/>
           =ing thy former. delivrances therefore hast<lb/>
-          thou seene fitt to correct me in this [measure]<!-- Q check ms - part of word not visible in our photo --><lb/>
+           thou seene fitt to correct me in this [measure]<!-- TODO [teams] check ms - part of word not visible in this photo --><lb/>
           But yet give me grace to have a sanctified<lb/>
           use of this affliction upon our bodies .&amp;<lb/>
           grant that this <del rend="strikethrough">may</del> may be for the good &amp;<lb/>
@@ -3579,7 +3583,7 @@
 
            <fw type="pageNum">95.</fw><lb/>
           to adore, &amp; praise, &amp; magnifie thy great<lb/>
-           <!-- Q teams [formatting] moved fw ( -->
+           <!-- Q [teams] [formatting] moved fw ( -->
            &amp; glorious name. thou o Lord art holy<lb/>
           thou art just, wise, Omnipotent, Almighty<lb/>
           and infinitly full of compassions towards<lb/>
@@ -3762,7 +3766,7 @@
           sweetely fell assleepe.</p>
        <p>She was buried at <placeName ref="place:Ston_053" n="place75">Stonegrave</placeName> the next<lb/>
            day by <persName ref="ppl:tc1" n="per225">Mr Comber</persName>: who preached <add place="superimposed">A</add>
-                  <!-- Q teams CHECK MS [endnote] Overwritten? check original.-->
+                  <!-- [endnote] Overwritten? check original.-->
             <lb/>
           funerall sermon.</p>
          <anchor n="ev65"/>
@@ -3837,7 +3841,7 @@
           <persName ref="ppl:rw1" n="per229">Dr wittie</persName> did apprehend; &amp; it, toget<add place="above">her</add><lb/> 
             with a greeife that befell me upon my 
             <del rend="strikethrough">ret</del><lb/> 
-            returne home by: W: [I/T]<!-- Q teams reading of text. I think T. -->: 
+           returne home by: W: [I/T]<!-- TODO [teams] reading of text. T. -->: 
             <subst>
               <add place="above">about</add>
               <del rend="strikethrough">by</del>
@@ -4210,7 +4214,7 @@
 
 <!-- transcription: Page 111 -->
 <div n="div72">
-  <fw type="pageNum" rend="underline">iii.</fw> <!-- TODO conventions change -->
+  <fw type="pageNum" rend="underline">iii.</fw> <!-- TODO [teams] conventions change -->
          <p>
         <milestone n="ev77" unit="event"/>
            <persName ref="ppl:ktp1" n="per251">Kate Thornton</persName> had a deliverance<lb/>
@@ -4287,7 +4291,7 @@
          <p>
            This was don upon him in <placeName ref="place:Gray_081" n="place85">London neare<lb/>
            the Grays Inne</placeName>, about the <date when-custom="1667-08">August. <lb/>
-             <!-- Q teams [formatting] moved fw - box around |__ -->
+             <!-- Q [teams] [formatting] moved fw - box around |__ -->
          in yeare 1667</date>.</p>
          <anchor n="ev79"/>
        </div>
@@ -4413,14 +4417,14 @@
   </fw>
          <p>
         <milestone n="ev83" unit="event"/>
-           <persName ref="ppl:ct1" n="per267">Christofer Thornton</persName> my 9<hi rend="superscript">th</hi> Child[e]<!-- Q check ms - letter is probably visible --> <lb/>
+           <persName ref="ppl:ct1" n="per267">Christofer Thornton</persName> my 9<hi rend="superscript">th</hi> Child[e]<!-- TODO [teams] check ms - letter is probably visible --> <lb/>
            was borne at <placeName ref="place:East_019" n="place88">newton</placeName>, on <date when-custom="1667-11-11">munday<lb/>
           the 11<hi rend="superscript">th</hi> of november: 1667:</date> betwixt<lb/>
           the houers of 10: &amp; a 11: at night<lb/>
           Baptized the <date when-custom="1667-11-12">12<hi rend="superscript">th</hi></date> at <placeName ref="place:East_019" n="place89">newton</placeName>. his<lb/>
           godfathers &amp; godmother. <persName ref="ppl:acd1" n="per268">Mrs Anne Danby</persName><lb/>
           <persName ref="ppl:jd2" n="per269">my brother John Denton</persName> &amp; <persName ref="ppl:tp1" n="per270">my brother<lb/>
-          [T]imothy<!-- Q for team? checked img and not quite sure why T is in brackets --> Portington</persName>.
+          [T]imothy<!-- Q add comment on teams? checked img and not quite sure why T is in brackets --> Portington</persName>.
         <anchor n="ev83"/>
          </p>
 </div>
@@ -4612,7 +4616,7 @@
           oath, but <rs ref="ppl:tbd-enemies" n="per283" type="person">the other woman</rs> having a <lb/>
           spleene against her. did carrie so un<lb break="no"/>
           =hansomly &amp; unchristianly towards me<lb/>
-          in her <del rend="doublestrikethrough">bit</del>ter<!-- Q teams "ter" not deleted but presumably was intended to be...? --> agravation &amp; in false<lb/>
+         in her <del rend="doublestrikethrough">bit</del><sic>ter</sic><!-- NOTE i think <sic> is probably the best thing to do with "ter" here, but have raised for possible discussion on teams --> agravation &amp; in false<lb/>
           accusing the Hon.<hi rend="superscript">or</hi> of some of the Persons<lb/>
          
             <pb n="121"/>
@@ -4703,7 +4707,8 @@
                <date>1668</date>.
             </fw>
           <fw type="pageNum">123
-            <!-- [formatting] ? [endnote] Number here is written over ‘had’. in |__ -->
+            <!-- Q [teams] [formatting] ? 
+              [endnote] Number here is written over ‘had’. in |__ -->
             </fw>
         </fw>
          <p>
@@ -4894,7 +4899,7 @@
           &amp; glorifie thee in the midst of all my trialls<lb/>
           and sufferings that makest me way to Escape<lb/>
           now Praise the Lord o my soule, &amp; forgett not<lb/>
-          all his benifitts. <hi rend="underline">Amen. Amen</hi><!-- Q [formatting] line under text? -->
+          all his benifitts. <hi rend="underline">Amen. Amen</hi><!-- Q [teams] [formatting] line under text? -->
         <anchor n="ev88"/><!-- Q [event] where anchor should go... -->
          </p>
     </div>     
@@ -5050,7 +5055,7 @@
          <fw>
             <fw type="pageNum">132.</fw>
             <fw type="header" rend="underline">
-               <date>1668</date>: <!-- TODO conventions change -->
+              <date>1668</date>: <!-- TODO [teams] conventions change -->
             </fw>
          </fw>
            <lb/>
@@ -5175,7 +5180,8 @@
           Lord of Heaven &amp; Earths most infinitly<lb/>
           wise disposition, for he knows how to pro-<lb break="no"/>
           =pose &amp; intermixe X<hi rend="superscript">s</hi>
-            <!-- Q [unicode]? and/or tagging? [endnote] Xs – here = crosses. -->
+            <!-- Q [unicode] ? and/or tagging? 
+              [endnote] Xs – here = crosses. -->
              with comforts.<lb/>
           Smiles with frownes to his servants heere<lb/>
           as shall <add place="above">be</add> the best for them. not as they shall<lb/>
@@ -5545,7 +5551,8 @@
           builder is God. how should I groane after<lb/>
           &amp; long to be clothed upon &amp; injoy that<lb/>
           happinesse. those Joyes. which I doe hope<lb/>
-          <!-- TODO [teams] reading of text: a cross rather than a line [endnote] Short line in left-hand margin. -->
+          <!-- TODO [teams] a cross rather than a line 
+            [endnote] Short line in left-hand margin. -->
             <rs ref="ppl:wt1" n="per328" type="person">my deare husband</rs> now inheritts. And<lb/>
            now O Lord I thine poore, weake hand<lb break="no"/>
            =maide &amp; servant doth from my very<lb/>
@@ -5611,7 +5618,7 @@
          <fw type="pageNum"> 147.</fw>
          </fw>
          <lb/>
-         <p>Although my Afflictions be great &amp; <!-- Q teams [formatting] moved fw pageNum | -->
+         <p>Although my Afflictions be great &amp; <!-- Q [teams] [formatting] moved fw pageNum | -->
             <lb/>
           heavy. sad &amp; burthensome to this weake<lb/>
           bodie yet in thee is my strength. &amp; my hope<lb/>
@@ -5647,7 +5654,7 @@
          <fw>
            <fw type="pageNum">148.</fw> 
            <fw type="header" rend="underline">
-               <date>1668</date>: <!-- TODO conventions change -->
+             <date>1668</date>: <!-- TODO [teams] conventions change -->
             </fw>
          </fw>
            <lb/>
@@ -5760,7 +5767,7 @@
             </fw>
           </fw>
           <lb/>   
-          of much paines. laing as if he  <!-- Q teams [formatting] moved fw - box around   |__ --> <lb/>
+          of much paines. laing as if he  <!-- Q [teams] [formatting] moved fw - box around   |__ --> <lb/>
           were in a sweete sleepe which by degrees<lb/>
           growing colder at his feete &amp; so dieng<lb/>
           upwards drawing his breath shorter<lb/>
@@ -5798,19 +5805,21 @@
             <fw type="pageNum" rend="underline">152.</fw>
             <fw type="header" rend="underline">
                <date>1668</date>:
-            </fw> <!-- TODO conventions change -->
+            </fw> <!-- TODO [teams] conventions change -->
          </fw>
            <lb/>
          Nearest Relations vidz:</p>
-       <!-- TODO [tagging] maybe tag as a list? -->
-         <p>My Brother <persName ref="ppl:tt1" n="per338">Thomas Thornton</persName>.</p>
-         <p>My <persName ref="ppl:jd2" n="per339">Brother Denton</persName>.</p>
-         <p>My <persName ref="ppl:tp1" n="per340">Brother Portington</persName>.</p>
-         <p>My Cosen <persName ref="ppl:wa1" n="per341">Will<hi rend="superscript">m</hi>. Ascough</persName>.</p>
-         <p>My Cosen <persName ref="ppl:rc1" n="per342">Ralphe Crathorne</persName>.</p>
-         <p>My Cozen <persName ref="ppl:jc1" n="per343">John Crathorne</persName>.</p>
-         <p>My <persName ref="ppl:xb5" n="per344">Cosen Bullock</persName>.</p>
-         <p>My Cozen <persName ref="ppl:el1" n="per345">Ed: Lassells</persName>.</p>
+       <!-- NOTE [tagging] list seems appropriate here -->
+       <list>
+         <item>My Brother <persName ref="ppl:tt1" n="per338">Thomas Thornton</persName>.</item>
+         <item>My <persName ref="ppl:jd2" n="per339">Brother Denton</persName>.</item>
+         <item>My <persName ref="ppl:tp1" n="per340">Brother Portington</persName>.</item>
+         <item>My Cosen <persName ref="ppl:wa1" n="per341">Will<hi rend="superscript">m</hi>. Ascough</persName>.</item>
+         <item>My Cosen <persName ref="ppl:rc1" n="per342">Ralphe Crathorne</persName>.</item>
+         <item>My Cozen <persName ref="ppl:jc1" n="per343">John Crathorne</persName>.</item>
+         <item>My <persName ref="ppl:xb5" n="per344">Cosen Bullock</persName>.</item>
+         <item>My Cozen <persName ref="ppl:el1" n="per345">Ed: Lassells</persName>.</item>
+       </list>
        <p>
          There was a very great congregati<add place="above">on</add> <lb/>
           as could be at that time he beeing most<lb/>
@@ -5951,14 +5960,14 @@
          <fw type="pageNum" rend="underline">157</fw>
        
        <div n="div91" type="poetry"> 
-         <!-- Q teams [authors] -->
+         <!-- Q [teams] [authors] need to investigate the best way to handle this -->
             <note place="end" type="context">
                <p rend="Endnote Text">
               42 records in Folger first line, and copied out until the last line. Sir Kenelm Digby or Sir Henry Wotton, various copies and contexts.</p>
             </note>
      <lb/>
          <l>
-           Farewell the gilded follies, pleasing trou<add place="above">bles</add><!-- Q teams [formatting] ? msDescription? wwp pos? "bles" in |__ -->
+           Farewell the gilded follies, pleasing trou<add place="above">bles</add><!-- Q [teams] [formatting] ? "bles" in |__ -->
          </l>
          <l>Farewell, the honoured ragges. the Cristall bubbles</l>
          <l>Fame’s but a hollow Eccho, Gold poore clay,</l>
@@ -5991,7 +6000,7 @@
          <fw type="pageNum">158.</fw> 
          <lb/>
          <l>Rich hated; wise suspected; scornd. if <add place="above">poore.</add> </l>
-         <l>Great feared; faire tempted; high still envied <add place="below">more</add><!-- Q teams [formatting] ? ms Description? "more" in |__ --></l>
+         <l>Great feared; faire tempted; high still envied <add place="below">more</add><!-- Q [teams] [formatting] "more" in |__ --></l>
          <l>would the world then adopt me for her heire. </l>
          <l>Would beauties queene intitle me the faire.</l>
          <l>Fames speake me honors minnion &amp; could I</l>
@@ -5999,7 +6008,7 @@
          <l>Comand<note place="end" type="word">
                <p rend="Endnote Text">
               Contraction mark over ‘m’.</p>
-            </note> bare heads; bow’d knees strike Just[is]<!-- Q check ms but this looks quite readable to me! --></l>
+            </note> bare heads; bow’d knees strike Just[is]<!-- TODO [teams] check ms but this looks quite readable to me! --></l>
          <l>As well as blind &amp; lame, &amp; give a Tongue <add place="above" rend="underline">dumb</add>
          </l>
          <l>To stones by Epitaphs; be calld great master</l>
@@ -6024,7 +6033,8 @@
      <lb/>
          <l>A prayer booke shall be my looking glasse</l>
          <l>Wherein I will adorne sweete vertues face</l>
-         <!-- TODO [teams] transcription/tagging of these four lines - I have text in the teams doc. will the word transcription need changing as well?  -->
+         <!-- Q [teams] transcription/tagging of these four lines 
+           - text in the teams doc. but maybe this is still tricky - does xml and word text need to be different?  -->
          <l>Heare dwells noe heartlesse loves noe pale face</l>
          <l>Noe short Joyes purchast with Eternall <subst>
            <del rend="strikethrough">tears</del><add place="above">feares</add>
@@ -6042,7 +6052,8 @@
          <l>The Just shall live by faith.</l>
          <l>Nisi Christus Nemo.</l>
          <l>Tout pour le’ Eg’lize.
-             <!--TODO [tagging] not at all sure about this one! [endnote] Bracket – connecting the two foreign phrases.-->
+             <!--Q [tagging] [curlybraces] 
+               [endnote] Bracket – connecting the two foreign phrases.-->
          </l>
          <l>Christ and the Church, in love so well ag’reed</l>
          <l>That hee for her, &amp; she for him has Blee’d.</l>
@@ -6115,8 +6126,7 @@
          <l>If Sad, he were my Soules delight;</l>
          <l>In summe, and all, All-onely hee,</l>
          <l>Should be all, a bove All to mee.</l>
-         <!-- Q [tagging] space here? only 1-2 lines.
-            [endnote] Some space left a the bottom of this page, possibly room for about one or two more lines.
+         <!-- [endnote] Some space left a the bottom of this page, possibly room for about one or two more lines. (maybe <space>?)
            -->
          
             <pb n="162"/>
@@ -6136,7 +6146,7 @@
          <l> His Glory this to comfort me:</l>
          <l> And as ti’s writt Such honour shall.</l>
          <l> Even unto all his Saints befall.</l>
-         <milestone unit="rule" rend="horiz-short-right"/><!-- Q [formatting] [renditionkeywords] for milestone 
+         <milestone unit="rule" rend="horiz-short-right"/><!-- Q [teams] [formatting] [renditionkeywords] for milestone 
            horizontal line about 1/4 width of page and right-aligned -->
          <l> Judge not that feild, because it’s stuble</l>
          <l> Nor her that’s poore &amp; full of trouble.</l>
@@ -6317,7 +6327,8 @@
           of men &amp; Angells, both now &amp; to<lb/>
           all etternity for evermore.</p>
                 <p> Amen.
-                <!-- [formatting] [endnote] Final ‘Amen’ in larger script than the main text. -->
+                  <!-- Q [teams] [formatting] 
+                    [endnote] Final ‘Amen’ in larger script than the main text. -->
                 </p>
         <space quantity="7" unit="line"/>
   <!-- [endnote] Rest of page is blank, check original.-->
@@ -6339,7 +6350,7 @@
                   
      <div n="div95" type="index">
            
-       <!-- TODO [index] link entries to text. -->
+       <!-- TODO [index] link entries to text [later: need to settle div ids; record alice discrepancies] -->
 
        <!-- msDescription [endnote] Ruling on page.-->
       <list>           
@@ -6821,7 +6832,7 @@
           fall on the Church &amp; Kingdoms &amp; praid<lb/>
           heartily for our good King; said that Pride &amp;<lb/>
           fullness of Bread would be the fall of the<lb/>
-          Church &amp; state if God prevented not.<milestone unit="undetermined" rend="diagonal"/><!-- Q [formatting] diagonal / do have sense of a slight break in narrative flow, not just filler --><lb/>
+          Church &amp; state if God prevented not.<milestone unit="undetermined" rend="diagonal"/><!-- Q [teams] [formatting] diagonal / do have sense of a slight break in narrative flow, not just filler --><lb/>
           with mainy other like Prophiticall saings<lb/>
           sevrall times with much trouble &amp; somme<lb/>
           still begging to God to <w cert="low" norm="divert">Divit</w> his Judgment<lb/>
@@ -6870,7 +6881,7 @@
            tould my Aunt I have had the strangest drea<add place="above">m</add> <lb/>
           that evr I had. I dreamd that A man came in<lb/>
           to the Roome. with all Things for mournings<lb/>
-          &amp; laid them on the ground. <unclear>[Sir?] B [M/W?]</unclear><!-- Q teams reading of text. is this is a name?? --> habitts<lb/>
+           &amp; laid them on the ground. <unclear>[Sir?] B [M/W?]</unclear><!-- TODO [teams] reading of text. ST doesn't know either! --> habitts<lb/>
           as sleeces &amp;. I said she asked what that meant<lb/>
           The man that brought the mournings. said That<lb/>
           when such things apeard in a Child wifs<lb/>
@@ -6946,8 +6957,8 @@
            &amp; my selfe.<milestone unit="undetermined" rend="diagonal"/><!-- NOTE / milestone --> But in the Affter noone my brothr<lb/>
           <persName ref="ppl:gw1" n="per382">G: W:</persName> did goe to see <persName ref="ppl:hd1" n="per383">Mr Henry Darcy</persName>. and find<supplied reason="paper damaged">ing</supplied>
             <lb/>
-            him not at home, entertand him selfe with <persName ref="ppl:dbd1" n="per384">old mot<hi rend="superscript">–<!-- Q teams [contraction] --></hi><lb/> 
-          Darcy</persName>. &amp; he tooke a Bible and read a chapter to he[r]<!-- Q check ms - might be readable? --><lb/>
+           him not at home, entertand him selfe with <persName ref="ppl:dbd1" n="per384">old mot<hi rend="superscript">–<!-- TODO [teams] [contraction] --></hi><lb/> 
+             Darcy</persName>. &amp; he tooke a Bible and read a chapter to he[r]<!-- TODO [teams] check ms - might be readable? --><lb/>
           &amp; did make such an admirable exposition on it<lb/>
 
          
@@ -6976,7 +6987,7 @@
           &amp; was a great Joy to her to heare them but the Lord<lb/>
           was not pleased to grant him a long life but to tak<lb/>
           him away in these good designes. &amp; what he wanted<lb/>
-          in Power God acepted in the will in him.<milestone unit="undetermined" rend="diagonal"/><!-- Q [formatting] diagonal / possible slight break in flow, I think more than just filler. --><lb/>
+          in Power God acepted in the will in him.<milestone unit="undetermined" rend="diagonal"/><!-- Q [teams] [formatting] diagonal / possible slight break in flow, I think more than just filler. --><lb/>
           He Laid that night there. And the next mor=<add place="above">ning</add> <lb/>
           came to <placeName ref="place:Hips_022" n="place106">Hipswell</placeName> about 9 a clocke. And at that tme<lb/>
           found me in a most sad sircumstance. I had bin<lb/>
@@ -7007,7 +7018,7 @@
           write. she said that I was soe grevely ill she could<lb/>
           not leave me but doe it affterwards. Soe he did<lb/>
           Againe kneele down and aske blessng. she said<lb/>
-          son you asked blesing but a <unclear>Nothre</unclear><!-- Q check ms? --> you came in<lb/>
+           son you asked blesing but a <unclear>Nothre</unclear><!-- TODO [teams] check ms --> you came in<lb/>
           he said that he could not have to much of her pras<lb/>
           for him &amp; soe Reverently bid her good morrow<lb/>
           &amp; me fairewell. And tooke horrse to goe to <placeName ref="place:Rich_043" n="place107">Rich<lb break="no"/>
@@ -7020,7 +7031,7 @@
      <div n="div102">        
         <milestone n="ev100" unit="event"/>
          <p>A gratefull Remembrance of<lb/>
-          what God ded for me in delivrance fr[om]<!-- Q check ms - might be visible? --><lb/>
+           what God ded for me in delivrance fr[om]<!-- TODO [teams] check ms - might be visible --><lb/>
           a misscarriage by a fright &amp; sorow<lb/>
           for <persName ref="ppl:rn1" n="per390">Nettleton</persName>s Balys disstraing all<lb/>
           I had which was deleevred by a diebt<lb/>
