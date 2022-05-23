@@ -209,11 +209,16 @@
         <fw type="pageNum"> 1. </fw>
 
     <div n="div2">
-
         <head place="centre">
-            <persName ref="ppl:jh1" n="per1">Bishop Hall</persName>s Observations in his<lb/>
+            <persName ref="ppl:jh1" n="per1" >Bishop Hall</persName>s Observations in his<lb/>
              booke of Meditations<lb/>
-             And vowes.</head>
+             And vowes.
+            <!-- [authors] (anselment fn1) 
+                Joseph Hall, _Meditations and vowes, divine and morall_ 
+                wdQ4499080 
+                http://name.umdl.umich.edu/A02553.0001.001
+            -->
+        </head>
         <p>These things be comelie &amp; pleasant to see<lb/>
              And worthy of honnor<note place="end">
                 <p rend="Endnote Text"> [word] SiC – no abbreviation.</p>
@@ -372,7 +377,7 @@
              -ghts: if you seeke him, hee will be found of thee, but<lb/>
              if thou forsake him, hee will cast thee off for ever.<lb/>
              A wise son maketh a glad father, but a foolish son<lb/>
-             is the heavinesse of his Mother. Pro. 20<seg rend="background(green)">:</seg> 22.<lb/>
+             is the heavinesse of his Mother. Pro. 20<seg rend="background(green)">:</seg> 22.<!-- Q [teams] transcriber query (consistency?) --><lb/>
              Children obey your Parents in the Lord for this is right.<lb/>
              Favour is deceiptfull, &amp; beauty is vaine, but A<lb/>
              woman that feareth the Lord she shall be praised.</p>
@@ -442,8 +447,11 @@
              &amp; thankesgiveings to the Blessed Trinitie forever.</p>
         
         <p>Amen. Amen.</p>                
-        <!-- Q for team [tagging] [layout] [xmlconversion] will need discussion. how to handle "Amen Amen" - it clearly belongs to this section but visually is right in the middle of the insertion, which is written around it. To make things even worse, this is <front> but the insertion is <body>...
-            (Also nb it was centred.) -->
+        <!-- Q for team [tagging] [layout] [xmlconversion] will need discussion. 
+            esp. "Amen Amen" - it clearly belongs to this section but visually is right in the middle of the insertion, which is written around it. To make things even worse, this is <front> but the insertion is <body>... (Also nb it was centred.)
+            and "1629" was in the middle of the word 'deliverance' next paragraph
+            (have a suspicion I've made a few other minor adjustments that I haven't noted.)
+        -->
     </div>
     
     </front>
@@ -551,7 +559,7 @@
                  Power, in the Creation of the Heavens, the Earth, &amp; all<lb/>
                  the Hosts of them. I was moved to this meditation<lb/>
                  upon the reading of the dailie Psalmes for the months<lb/>
-                 happening that day to be Psal. 147<seg rend="background(green)">:</seg><!-- Q [team] [bib] conventions. there was a discussion about this and I can't remember what the decision was! --> v. 4<hi rend="superscript">th</hi>
+                 happening that day to be Psal. 147<seg rend="background(green)">:</seg><!-- Q [teams] transcriber query (bib conventions) --> v. 4<hi rend="superscript">th</hi>
             </p>
             <p>He counteth the starres &amp; calleth them all by theire<lb/>
                  Names. / From whence there came into my heart<lb/>
@@ -1259,7 +1267,7 @@
                  Father &amp; guide, in theire youths. his Relations<lb/>
                  freinds &amp; Tennants, were all blessed in him, doeing<lb/>
                  them what good he could. Lett his raire &amp; Excelent <lb/>
-                 Booke of advice to <persName ref="ppl:gw1" n="per86">his sonne George</persName>, Speake his great<lb/>
+                 Booke of advice to <persName ref="ppl:gw1" n="per86">his sonne George</persName><!-- [authors] awt father's advice book (mention only) -->, Speake his great<lb/>
                  Endowments. his Pietie, <add place="above">knowlidge in</add> Parts, Divinity, &amp; <lb/>
                  Religion. his Wisdome &amp; paternall caire &amp; <lb/>
                  prudence, tender &amp; deare love to his whole Family <lb/>
@@ -2159,7 +2167,9 @@
                 -->
                 <lb/>
                 Made by <rs ref="ppl:cw1" n="per145" type="person">my father</rs>. before he went into.<lb/>
-                 <placeName ref="place:Irel_096" n="place55">Ireland</placeName>. <date when-custom="1628">1628</date>.</head>
+                 <placeName ref="place:Irel_096" n="place55">Ireland</placeName>. <date when-custom="1628">1628</date>.
+                <!-- [authors] AWT father; not published(?) -->
+            </head>
             
             <p>O Eternall. Omnipotent, &amp; most Mercifull Father<lb/>
                  thou that openest, &amp; no man shutteth, &amp; shuttest<lb/>
@@ -2833,10 +2843,10 @@
 <!-- transcription: Page 69 -->
 
             
-                <fw type="pageNum">69.</fw>
-                <note place="end">
-                    <p rend="Endnote Text"> [insertion] Here, a repeated number 68 has been altered to 69.</p>
-                </note>
+                <fw type="pageNum">6<subst><del rend="overwritten">8</del><add place="superimposed">9</add></subst>.
+                    <!-- [endnote] [insertion] Here, a repeated number 68 has been altered to 69. -->
+                </fw>
+                
             
             <p>Yea the Lord hath done great things for me already<lb/>
                  whereof I do rejoyce. &amp; my soule is filled with gladnesse,<lb/>
@@ -4012,7 +4022,7 @@
                  Subject. Ruling them in peace &amp; happinesse many years.<lb/>
                  he laid doune his life. beei<ex>n</ex>g sacrificed by the iniquitties<lb/>
                  of his subjects; Their sinns pulled downe his Ruine on<lb/>
-                 him &amp; our selves. lett his admirable booke speake his<lb/>
+                 him &amp; our selves. lett his admirable booke<!-- [authors]? --> speake his<lb/>
                  Etternall Glory &amp; praise, the best of Kings (as meere man)<lb/>
                  that ever this Earth had. never defiling him selfe with sin<lb/>
                  or blood. of a tender compasionate sweete disposition.<lb/>
@@ -4103,10 +4113,9 @@
                  Lawfull King. Learning thereby more humility. &amp; to be<lb/>
                  contented in the subjection thou requirest. Sanctifie thy<lb/>
                  Dealings to me thy servant &amp; make us better for the Lord<lb/>
-                 Jesus Christs sake. <gap reason="erased" extent="4" unit="char"/><!-- Q for team? possibly this could be <supplied>Amen -->
-                <note place="end">
-                    <p rend="Endnote Text"> [deletion] Looks like something had been deleted after the full stop. Possibly an ‘Amen’.</p>
-                </note>
+                 Jesus Christs sake. <gap reason="erased" extent="4" unit="char"/><!-- Q for team? possibly this could be <supplied>Amen 
+                     [endnote] Looks like something had been deleted after the full stop. Possibly an ‘Amen’.
+                 -->
             </p>
 
             <pb n="96"/>
@@ -4823,12 +4832,12 @@
             
                 <fw type="pageNum">114.</fw>
             
-            <p>Make us <del rend="doublestrikethrough">all</del><note place="end">
-                    <p rend="Endnote Text"> [deletion] In MS it is possible to see the remains ‘all’ here, although it looks as if someone has trie to erase it.</p>
-                </note> a reformed Nation, from all theire Evill ways<lb/>
-                 putting away farre from us<note place="end">
-                    <p rend="Endnote Text"> [deletion] Similarly, there is some evidence of erasure here and the ‘us’ [SiC] is written in darker ink.</p>
-                </note> the Evill of theire doeings. that<lb/>
+            <p>Make us <del rend="doublestrikethrough">all</del>
+                  <!-- [endnote] In MS it is possible to see the remains ‘all’ here, although it looks as if someone has trie to erase it. -->
+                 a reformed Nation, from all theire Evill ways<lb/>
+                 putting away farre from <add place="inline">us</add>
+                   <!-- [endnote] Similarly, there is some evidence of erasure here and the ‘us’ [SiC] is written in darker ink. -->
+                 the Evill of theire doeings. that<lb/>
                  we might not be abhorred of thee. but to be a Righteous<lb/>
                  People, Zealous of Good workes. That thy name may be <lb/>
                  Glorified in our Conversion, the hon<ex>our</ex> of the Lord, Jesus Christ.<lb/>
@@ -4883,7 +4892,7 @@
                 An Eligie upon <persName ref="ppl:gw1" n="per423" type="person">George Wandesford Esq<ex>uire</ex></persName><lb/>
                  on his unfortunate Death. by the Hon<ex>ourable</ex><lb/>
                  <persName ref="ppl:cw3" n="per424" type="person">Sir Christopher Wyvill</persName> Barronett.<lb/>
-            
+            <!-- [authors] Wyvill -->
             </head>  
             <!-- NOTE second <head> i thought i couldn't do this... ! -->
             <head rend="post(rule)">
@@ -4982,9 +4991,7 @@
                 <placeName ref="place:Hips_022" n="place194">Hipswell</placeName> to be a Zoar, a sanctuary for us all; <add place="above">And</add> out of<lb/>
       <add place="left margin">that</add> little Estate (then, not beeing the 10<hi rend="superscript">th</hi> part of the whole).<lb/>
                  she releved <persName ref="ppl:gw1" n="per429">my brother George</persName>, which had a perticuler <del rend="strikethrough">Es</del>
-                <note place="end">
-                    <p rend="Endnote Text"> [deletion] Checked in Ms, and ‘Es’ is lightly crossed out here.</p>
-                </note>
+                <!-- [endnote] [deletion] Checked in Ms, and ‘Es’ is lightly crossed out here. -->
                 <lb/>
                  Estate of his owne, as Heire (though under sequestration)<lb/>
                  with the some of 500<hi rend="superscript">l</hi> And since <rs ref="ppl:cw1" n="per430" type="person">my father</rs>s death, she<lb/>
@@ -5730,11 +5737,9 @@
                  heartily begge in the name, &amp; for the sake of Jesus that <lb/>
                  thy Sonn, to whome with the holy Spirritt. one God in <lb/>
                  Trinity be all glory, Power, thanksgiveing and domi<lb/>
-                 nion now &amp; for ever more Amen. <add place="inline">caling uppon thee in our<lb/>
+                 nion now &amp; for ever more Amen. <!-- Q [symbol] there are 3 dots here - could be meaningful? --><add place="inline" rend="darkerInk">caling uppon thee in our<lb/>
                  Lord &amp; saviours Prayer that he taught us saing: <hi style="font-size:16pt">Our father</hi></add>
-                <note place="end">
-                    <p rend="Endnote Text"> [insertion][text size] Insertion in a darker ink to the main body of the text. Squeesed into the space between ‘Amen’ and the dividing line. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering.</p>
-                </note>
+                <!-- [endnote] [insertion][text size] Insertion in a darker ink to the main body of the text. Squeesed into the space between ‘Amen’ and the dividing line. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering.-->
             </p>
             </div>
         <div n="div50">
@@ -5914,17 +5919,16 @@
             <p>And all these things I humblie crave with whatsoever<lb/>
                  ellse thou knowest fitt for me &amp; mine I humblie crave<lb/>
                  in the name &amp; for the sake of our Lord &amp; Saviour Jesus<lb/>
-                 Christ. Amen. saing as he hath bid me. <hi style="font-size:16pt">Our Father</hi>
-                <note place="end">
-                    <p rend="Endnote Text"> [insertion][text size] Insertion (possibly) in a darker ink to the main body of the text. Squeesed into the space. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering.</p>
-                </note>
+                 Christ. Amen. <add place="inline" rend="darkerInk">saing as he hath bid me. <hi style="font-size:16pt">Our Father</hi></add>
+                    <!-- [endnote] [insertion][text size] Insertion (possibly) in a darker ink to the main body of the text. Squeesed into the space. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering. -->
+                
             </p>
        </div>
        <div n="div52">
            <head rend="pre(rule) post(rule)">
           
                 Meditations uppon the birth of my 3<hi rend="superscript">d</hi> Childe <persName ref="ppl:et1" n="per548">Eliz.<lb/>
-                    Thornton</persName> borne the <date datingMethod="#JulianMar" type="birth" when-custom="1654-02-14">14<hi rend="superscript">th</hi> of February. 1654</date><!-- NOTE [dates] OS -->.</head>
+                    Thornton</persName> borne the <date datingMethod="#JulianMar" type="birth" when-custom="1654-02-14">14<hi rend="superscript">th</hi> of February. 165<subst><del rend="overwritten">5</del><add place="superimposed">4</add></subst></date><!-- NOTE [dates] OS. looks as though she originally wrote 55 and then changed it to 54 (not footnoted) -->.</head>
           <milestone n="ev74" unit="event"/><!-- NOTE event awt child2 post birth -->
             <p>I recovered not very well, of the extreame weakenesse<lb/>
                  that followed <date>for a q<ex>uarte</ex>r of a yeare affter</date><!-- Q [dates] duration? --> my childe, in soe<lb/>
@@ -6229,14 +6233,13 @@
                  Prayer foll<ex>owing</ex>:</p>
             </div>
         
-        <div n="div58" type="prayer"><!-- Q [teams] [authors] prayer by awt's mother - to investigate how to do this -->
+        <div n="div58" type="prayer">
             <head rend="pre(rule) post(rule)">
-            
                 A prayer before the delivery of my daughter<lb/>
-                <persName ref="#awt1" n="per591">Alice Thornton</persName> <date type="birth" when-custom="1656-06-12">June the 12<hi rend="superscript">th</hi>
-                <note place="end">
-                    <p rend="Endnote Text"> [insertion] Date heavily overwritten: could be 11 or 12.</p>
-                </note> 1656</date>. by <persName ref="ppl:awt1" n="per592">Alice Wandes<add place="above">ford</add></persName>
+                <persName ref="#awt1" n="per591">Alice Thornton</persName> <date type="birth" when-custom="1656-06-12">June the 1<subst><del rend="overwritten">1</del><add place="superimposed">2</add></subst><hi rend="superscript">th</hi>
+                    <!-- [endnote] [insertion] Date heavily overwritten: could be 11 or 12.-->
+                 1656</date>. by <persName ref="ppl:awt1" n="per592">Alice Wandes<add place="above">ford</add></persName>
+            <!-- Q [teams] [authors] prayer by awt's mother - to investigate how to do this -->
             </head>
             
             <p>O Lord most high, the holy one whoe inhabitest<lb/>
@@ -6387,11 +6390,10 @@
                  Daughter <persName ref="#awt1" n="per598">Alice Thornton</persName> 
               <subst>   
                 <del rend="doublestrikethrough">of her</del>
-                <add place="above">beeing my &amp;</add>
+                <add place="above" resp="#uncertain">beeing my &amp;</add>
               </subst>  
-                <note place="end">
-                    <p rend="Endnote Text"> [insertion] Correction in a darker in – hand indistinct.</p>
-                </note> <persName>fourth child</persName>.<lb/>
+                    <!-- [endnote] [insertion] Correction in a darker in – hand indistinct.</p>-->
+                 <persName>fourth child</persName>.<lb/>
                 <date type="birth" when-custom="1656-06-12">June 12<hi rend="superscript">th</hi> 1656</date>. Baptized <date when-custom="1656-06-14">the 14<hi rend="superscript">th</hi></date>
             </head>
             
@@ -6721,11 +6723,10 @@
                  beames of thy mercy, and when thou turnest unto the<lb/>
                  praier of poore wretched destitutes, it becomes an eter<lb break="no"/>
                  -nall monument &amp; a record of thy hon<ex>our</ex>, &amp; all generations<lb/>
-                 which shall be borne shall be borne <add place="above">to</add>
-                <note place="end">
-                    <p rend="Endnote Text"> [insertion] This correction may be in another hand than Thornton’s – ink/lettering looks like other non-authorial interjections.</p>
-                </note>
-                <del rend="strikethrough">shall</del> praise thee.<lb/>
+                 which shall be borne shall be borne <subst><add place="above" resp="#uncertain">to</add>
+                <del rend="strikethrough">shall</del></subst> praise thee.<lb/>
+                    <!-- [endnote] [insertion] This correction may be in another hand than Thornton’s – ink/lettering looks like other non-authorial interjections. -->
+                
                  Looke downe O Lord; from thy Sanctuary, heare the<lb/>
                  mournings of us; send me health &amp; Life so long as it<lb/>
                  may be a blessinge, &amp; doe not shorten may<note place="end">
@@ -7039,11 +7040,10 @@
              She was borne at <persName ref="ppl:jp1" n="per649">Sir John Payton</persName>s house. <date datingMethod="#JulianMar" type="birth" when-custom="1592-01-05">Jan. 5 1592</date><!-- NOTE [dates] OS (birth of Alice's mother. Anselment baptism register fn 439) --><lb/>
              att <placeName ref="place:Isle_028" n="place252">Islellome- in Cambridgeshire</placeName>, <rs ref="ppl:ho1" n="per650" type="person">My Grandfather</rs> <lb/>
             <note place="bottom margin" resp="#unknown">* 1591 T Comber Old Miles 1592 N. S.</note>
-            <!-- NOTE [ms] different hand... separate line at bottom of page. 
-            Anselment fn 439 says the addition is "erroneous"! -->
-            <note place="end">
-                <p rend="Endnote Text"> [insertion] Later insertion, in the bottom maring in an more recent hand.</p>
-            </note>
+            <!-- NOTE [ms] different hand... on separate line at bottom of page. 
+            Anselment fn 439 says the addition is "erroneous"! 
+            [endnote] Later insertion, in the bottom maring in an more recent hand.
+            -->
         </p>
 
             <pb n="159"/>
@@ -7088,11 +7088,13 @@
                  of <rs ref="ppl:cw1" n="per662" type="person">my Father</rs>s Estate. through her wise &amp; prudentiall <lb/>
                  government of his Family, &amp; by her caire was a meanes<lb/>
                  to give opportunity of increasing his Patrimony. as<lb/>
-                 <rs ref="ppl:cw1" n="per663" type="person">my deare father</rs> is pleased to leave upon Record in his<lb/>
-                 owne booke for her Etternall hon<add place="above">our</add>
-                <!-- NOTE hmmm. maybe should just be superscript rather than add? -->
+                 <rs ref="ppl:cw1" n="per663" type="person">my deare father</rs> is pleased to leave upon Record in <ref>his<lb/>
+                 owne booke</ref><!-- [authors] --> for her Etternall hon<add place="above">our</add>
+                <!-- NOTE [insertion]? maybe should just be superscript rather than add? 
+                [endnote] In original ‘ hon:<hi rend="superscript">our</hi>’, so not actual contraction
+                -->
                 <note place="end">
-                    <p rend="Endnote Text"> [insertion]? In original ‘ hon:<hi rend="superscript">our</hi>’, so not actual contraction …</p>
+                    <p rend="Endnote Text">  …</p>
                 </note> soe that it might be<lb/>
                  said of her, many Daughters have don well, but thou<lb/>
                  exceedest them all.</p>
@@ -7512,7 +7514,7 @@
             
                 <fw type="pageNum">171.</fw> <lb/>
             
-            <persName ref="ppl:xs1" n="per708">Smith</persName> made in his Booke for a Person at the point to <add place="above">die</add><lb/>
+            <persName ref="ppl:xs1" n="per708">Smith</persName><!-- [authors] though mention only. --> made in his Booke for a Person at the point to <add place="above">die</add><lb/>
                  &amp; tooke great notice of each Pettition praing with<lb/>
                  Zeale &amp; ardency.</p>
             <p>It was very observable in all her sickenesse, as in-<lb break="no"/>
@@ -7847,6 +7849,7 @@
                 
                 Severall Prayers made by <rs ref="ppl:aow1" n="per743" type="person">my Mother</rs> proper for the<lb/>
                  time of the holy sacrament. as Ejaculations.
+             <!-- [authors] awt mother -->
             </head>
             
             
@@ -7886,7 +7889,7 @@
                  sinnes. Amen. <g/><note place="end">
                     <p rend="Endnote Text"> [decoration] Flourish after ‘Amen’.</p>
                 </note>
-                <!-- Q [teams] [glyph] not likely to be easy to represent in text! -->
+                <!-- Q [teams] [glyph] [decoration] -->
             </p>
           </div>
           <div n="div75">     
@@ -8441,7 +8444,7 @@
                  feete, of mercy; yea before the Throne of the most gracious God<lb/>
                  in whome I live &amp; move, &amp; have my beeing, saieing with <del rend="strikethrough">Eat</del><lb/>
                  Easter<note place="end">
-                    <p rend="Endnote Text"> [word][bib] Means ESTHER – see Esther 4:16: 
+                    <p rend="Endnote Text"> [word] [bib] Means ESTHER – see Esther 4:16: 
                         “I also and my maidens will fast likewise; and so will I go in unto the king, which is not according to the law: and if I perish, I perish.”
                     </p>
                 </note> if I perish, I perish. heere I am, Lord though thou <lb/>
@@ -9061,9 +9064,8 @@
                  to <rs ref="ppl:wt1" n="per833" type="person">my husband</rs> &amp; my selfe: with prudence &amp; Equity.<lb/>
                  <add place="inline">as wee both did approve of &amp; with <persName ref="ppl:wt1" n="per834">Mr Thornton</persName>s full consent &amp;<lb/>
                  desire therein.</add>
-                <note place="end">
-                    <p rend="Endnote Text"> [insertion] Added later.</p>
-                </note>
+                   <!-- [endnote] [insertion] Added later. -->
+                
             </p>
 
             <pb n="200"/>
@@ -9362,7 +9364,7 @@
                  Covenant: Amen.
                 <add place="inline">looke meditations on 1. Sam. 1 t 10. 11.
                 <del rend="strikethrough">12</del> 13.<hi rend="superscript">v</hi><lb/>
-                 in my booke on Purpose. made on that occasion.
+                 in <ref>my booke</ref> on Purpose. made on that occasion.
                 <note place="end">
                     <p rend="Endnote Text"> [insertion] Is this an insertion? It is squeesed in. Also, I’m not seeing meditations on 1 Samuel listed in BoR. Also checked BoR entry on Robert’s birth and baptiosm and there are prayers but nothing that looks like a specific meditation on 1 Samuel. Check Book 2 263-71.</p>
                 </note>
@@ -9872,9 +9874,9 @@
                  pull them out of the Jawes of Satan &amp; death: Lord thou did<lb/>
                  see me in my sorrowes, &amp; spake comfortably to my soule. v. 22<lb/>
                  Daughter be of good Cheare; thy faith hath made thee whole</p>
-            <p>And from that very day I did recover: O Lord my God<note place="end">
-                    <p rend="Endnote Text"> [insertion] Capital G written over a lower case g.</p>
-                </note>. how<lb/>
+            <p>And from that very day I did recover: O Lord my <w><subst><del rend="overwritten">g</del><add place="superimposed">G</add></subst>od</w>
+                <!-- [endnote] [insertion] Capital G written over a lower case g.-->
+                . how<lb/>
                  can I sufficiently sett forth the glory of thy name &amp; praise<lb/>
                  whoe hast compassion upon my condittion, &amp; gavest me this<lb/>
                  spirituall balsome to heale my soule &amp; bodie. besides thee<lb/>
@@ -9901,7 +9903,7 @@
                  To whom all Power might, majestie, thanksgiveing &amp;<lb/>
                  praise be offred by all creatures in Heaven &amp; Earth.</p>
             <p>Amen. Amen:</p>
-            <p>In my booke of medittations, there is a discourse upon this deliv.<lb/>
+            <p>In <ref>my booke of medittations</ref>, there is a discourse upon this deliv.<lb/>
                  upon those words in St Matt. 9<seg rend="background(green)">:</seg> v. 21, 22. Luke. the 17<seg rend="background(green)">:</seg> v. 15. 16.</p>
           </div>
         
@@ -10601,8 +10603,8 @@
                  since I was borne. and put my trust in thee alone. O<lb/>
                  Most hight. lett me still have thee for my God <add place="above">in</add>
                 <note place="end">
-                    <p rend="Endnote Text">
-                        <seg rend="background(green)">[insertion] Carat in wrong place syntactically</seg> <!-- NOTE the carat is between "the" and "sweete" -->
+                    <p rend="Endnote Text">[insertion] 
+                        <seg rend="background(green)">Carat in wrong place syntactically</seg> <!-- NOTE the carat is between "the" and "sweete" -->
                     </p>
                 </note> the sweete<lb/>
                  influences of thy Power &amp; mercy by which the sonnes of men<lb/>
@@ -11242,7 +11244,7 @@
                  but she could not be prevailed with upon noe tearmes, nor<lb/>
                  soe much as to write to her in a civill way. But said <lb/>
                  severall times she had as leve<note place="end">
-                    <p rend="Endnote Text"> [word][check] SiC – check OED.</p>
+                    <p rend="Endnote Text"> [word] SiC – check OED.</p>
                 </note> the Deivill as her.</p>
             <p>Soe that I went only with <persName ref="ppl:jd2" n="per1147">my brother Denton</persName>. thither and<lb/>
                  had amost teadious &amp; ill jorney beeing <del rend="doublestrikethrough">soe</del> sicke as well<lb/>
@@ -13053,6 +13055,8 @@
        <div n="div125" type="poetry">
            <head place="centre" rend="pre(rule)">
                <!-- [endnote] [decoration] Patterned border. -->
+               <!-- [authors] following verses? 
+                   note in BkRem:  "42 records in Folger first line, and copied out until the last line. Sir Kenelm Digby or Sir Henry Wotton, various copies and contexts." -->
                 Our Saviours command. 
            </head>
            
@@ -13787,7 +13791,7 @@
                     <p rend="Endnote Text"> [word] I.e., ‘att’ – no tht eonly time she’s forgotten to cross her t’s.</p>
                 </note> last by the Providence of the great God of heven this<lb/>
                  said will was discovd &amp; producd in the yeare <date when-custom="1653">1653</date> which did<lb/>
-                 put an end of all the Troubles: This is fully related in my 2<hi rend="superscript">d</hi> Booke <note place="end">
+                 put an end of all the Troubles: This is fully related in <ref>my 2<hi rend="superscript">d</hi> Booke</ref> <note place="end">
                     <p rend="Endnote Text"> [bib] Ref. to ‘second booke’.</p>
                 </note>
             </p>
