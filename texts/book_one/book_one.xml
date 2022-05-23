@@ -332,7 +332,7 @@
         <p>
             <milestone n="ev1" unit="event"/>
             <persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the fifth childe of<lb/>
-             <persName ref="ppl:cw1" n="per3">Christopher Wandesforde Esq{uire}</persName> late <lb/>
+             <persName ref="ppl:cw1" n="per3">Christopher Wandesforde Esq<ex>uire</ex></persName> late <lb/>
              Lord Deputy of Ireland. Was borne at <lb/>
              <placeName ref="place:Kirk_030" n="place1">Kirklington</placeName> in the <placeName ref="place:York_079" n="place2">County of Yorke</placeName><lb/>
              <date type="birth" when-custom="1626-02-13">the thirteenth day of Feb. beeing on a <lb/>
@@ -344,7 +344,7 @@
             <anchor n="ev1"/>
             <space quantity="6" unit="line"/>
             <note place="end">
-                <p rend="Endnote Text"> [ms]? The rest of this page is blank.</p>
+                <p rend="Endnote Text"> [ms] The rest of this page is blank.</p>
             </note>
         </p>
         
@@ -442,7 +442,7 @@
              &amp; thankesgiveings to the Blessed Trinitie forever.</p>
         
         <p>Amen. Amen.</p>                
-        <!-- Q for team [tagging] [layout] will need discussion. how to handle "Amen Amen" - it clearly belongs to this section but visually is right in the middle of the insertion, which is written around it. To make things even worse, this is <front> but the insertion is <body>...
+        <!-- Q for team [tagging] [layout] [xmlconversion] will need discussion. how to handle "Amen Amen" - it clearly belongs to this section but visually is right in the middle of the insertion, which is written around it. To make things even worse, this is <front> but the insertion is <body>...
             (Also nb it was centred.) -->
     </div>
     
@@ -466,12 +466,11 @@
          <milestone n="ev3" unit="event"/>
             <p>
       <fw place="margin">      
-          [+] <!-- Q [symbol] a decorative sort of cross??, not the same as the one at the same point in BoR. Possibly an annotation to mark an omission? just realised there is a matching symbol in that section of the supplementary text!
-              **also need to decide on encoding for hearts and other crosses and in other books, but also need to stop oxygen/xslt changing them!**
+          <g>+</g> <!-- Q [glyph] a sort of cross. I don't *think* there's a unicode for this. Possibly an annotation to mark an omission? just realised there is a matching symbol in that section of the supplementary text. <metamark>?
           -->
       </fw>
           <note place="end">
-              <p>[decoration] A Cross in the left hand margin – looks like AT’s.</p>
+              <p> A Cross in the left hand margin – looks like AT’s.</p>
           </note>
                 The first deliverance of that kinde was in the yeare <lb/>
                  <date type="illness" when-custom="1630">1630</date>. When I was left at <placeName ref="place:Rich_043" n="place4">Richmond</placeName> under the<lb/>
@@ -552,7 +551,7 @@
                  Power, in the Creation of the Heavens, the Earth, &amp; all<lb/>
                  the Hosts of them. I was moved to this meditation<lb/>
                  upon the reading of the dailie Psalmes for the months<lb/>
-                 happening that day to be Psal. 147<seg rend="background(green)">:</seg><!-- Q [team] [biblical] conventions. there was a discussion about this and I can't remember what the decision was! --> v. 4<hi rend="superscript">th</hi>
+                 happening that day to be Psal. 147<seg rend="background(green)">:</seg><!-- Q [team] [bib] conventions. there was a discussion about this and I can't remember what the decision was! --> v. 4<hi rend="superscript">th</hi>
             </p>
             <p>He counteth the starres &amp; calleth them all by theire<lb/>
                  Names. / From whence there came into my heart<lb/>
@@ -635,7 +634,7 @@
                  there a yeare before, &amp; <persName ref="ppl:gw1" n="per27">my Eldest brother George</persName><anchor n="ev7"/><lb/>
                 <milestone n="ev8" unit="event"/><!-- NOTE event education in ireland -->
                  In which place I injoyed great happienesse and<lb/>
-                 Comfort dureing <rs ref="ppl:cw1" n="per28" type="person">my hon{oured} father</rs>s life haveing the <lb/>
+                 Comfort dureing <rs ref="ppl:cw1" n="per28" type="person">my hon<ex>oured</ex> father</rs>s life haveing the <lb/>
                  fortunate opportunity in that time, &amp; affter, when<lb/>
                  I staied there, of the best education that Kingdome<lb/>
                  could afford. have<add place="above">ing</add> the advantage of Societie in the<lb/>
@@ -666,7 +665,7 @@
             
             Teachings. Reproofes, &amp; Godly Education, tending to <lb/>
                  the wellfaire, &amp; Etternall happinesse, &amp; salvation<lb/>
-                 of my poore Soule. Which I receaved from both <rs ref="ppl:cw1" n="per35" type="person">my Hon{oured}<lb/>
+                 of my poore Soule. Which I receaved from both <rs ref="ppl:cw1" n="per35" type="person">my Hon<ex>oured</ex><lb/>
                  Father</rs> &amp; <rs ref="ppl:aow1" n="per36" type="person">Mother</rs>. with the Examples of theire Chast<lb/>
                  and sober, wise &amp; Prudent Conversations in all <lb/>
                  things of this World. for which things, and infinit<lb break="no"/>
@@ -677,9 +676,9 @@
                  God of Heaven, &amp; Earth, from whence comes ev<add place="above">e</add>ry<lb/>
                  good &amp; perfect guift, who is the Author, &amp; finisher<lb/>
                 of our faith, that he has put such good things into <rs ref="ppl:cw1 ppl:aow1" n="per37" type="person">my<lb/>
-                 Hon{oured} Parents</rs> hearts to bring us up in the feare of<lb/>
+                 Hon<ex>oured</ex> Parents</rs> hearts to bring us up in the feare of<lb/>
                  the Lord. Next I humbly acknowledge, my faithful<lb/>
-                thankes &amp; gratitude to <rs ref="ppl:cw1 ppl:aow1" n="per38" type="person">my deare &amp; Hon{oured} Parents</rs><lb/>
+                thankes &amp; gratitude to <rs ref="ppl:cw1 ppl:aow1" n="per38" type="person">my deare &amp; Hon<ex>oured</ex> Parents</rs><lb/>
                  for theire love, caire, affection &amp; sedulity over<lb/>
                  me from my birth till this present, &amp; for theire<lb/>
                  good performances towards my education in all<lb/>
@@ -792,9 +791,8 @@
                  before that fisher man could come neare to helpe us.<lb/>
                  at the last, about 8 a clocke at night, we got Safe<lb/>
                 <add place="margin above">To harbour</add>
-                <note place="end">
-                    <p rend="Endnote Text"> [insertion][margin] This insertion is partially placed in the left-hand margin.</p>
-                </note> through the infinitt mercys of our great, &amp; Powerfull<lb/>
+                 <!-- [endnote] [insertion] This insertion is partially placed in the left-hand margin. -->
+                 through the infinitt mercys of our great, &amp; Powerfull<lb/>
                  Lord God, we landed safely at the shore of the Skirries.<lb/>
                  where <persName ref="ppl:xh1" n="per47">the same Hubert</persName> with all his familie, &amp; freinds<lb/>
                  mett us with great Joy, entertaining <rs ref="ppl:aow1" n="per48" type="person">my mother</rs> &amp;<lb/>
@@ -824,7 +822,7 @@
             
              To carrie us home to <placeName ref="place:Dubl_088" n="place22">Dublin</placeName> where <rs ref="ppl:aow1" n="per51" type="person">my deare Mother</rs><lb/>
                  was receaved with all Joy &amp; gladnesse. liveing in <lb/>
-                 much peace &amp; happinesse till the death of <rs ref="ppl:cw1" n="per52" type="person">my Hon{oured}<lb/>
+                 much peace &amp; happinesse till the death of <rs ref="ppl:cw1" n="per52" type="person">my Hon<ex>oured</ex><lb/>
                      Father</rs>.<anchor n="ev12"/> 
                 <milestone n="ev13" unit="event"/>When about <date when-custom="1641-12">a yeare affter his death</date>. she <lb/>
                  was forced to flie into <placeName ref="place:Engl_094" n="place23">England</placeName>, uppon the Rebellion<lb/>
@@ -1025,7 +1023,7 @@
                  -joyed 7 yeares of peace &amp; Plenty. All his<lb/>
                  endeavours ever tending for theire good, the<lb/>
                  True Establishment of His King, &amp; Religion<lb/>
-                 The Hon{our} peace &amp; wellfaire of the English Nation<lb/>
+                 The Hon<ex>our</ex> peace &amp; wellfaire of the English Nation<lb/>
                  And the due ordering of that Barbarous People<lb/>
                  &amp; theire Civilizeng them to our good Lawes &amp;<lb/>
                  government. but this was against all theire<lb/>
@@ -1050,7 +1048,7 @@
                  both with theire King, &amp; for him, &amp; the truth of<lb/>
                  Religion there Established. &amp; for the Lawes.</p>
             <p>But to retu<add place="above">r</add>ne to <rs ref="ppl:tw1" n="per67" type="person">my Lord Lieutenant</rs>, while the<lb/>
-                 Pretences of Religion, so filled the eares of the Parli{ament}<lb/>
+                 Pretences of Religion, so filled the eares of the Parli<ex>ament</ex><lb/>
                  of England then sitting in the yeare <date when-custom="1640">40</date>. and false<lb/>
                  suggestions of oppressions against <rs ref="ppl:tw1" n="per68" type="person">this Noble<lb/>
                  Earle</rs>. he was called before them to give an answer<lb/>
@@ -1191,7 +1189,7 @@
         
           <head place="centre" rend="pre(rule) post(rule)">
                
-                A Relation conserning my Hon{oured} father. <persName ref="ppl:cw1" n="per82">the <lb/>
+                A Relation conserning my Hon<ex>oured</ex> father. <persName ref="ppl:cw1" n="per82">the <lb/>
                  Lord Deputy Wandesforde</persName>, &amp; of his<lb/>
               Death. <date type="death" when-custom="1640-12-03">Decem. 3<hi rend="superscript">d</hi> 1640</date>.
             
@@ -1371,7 +1369,7 @@
                  Before, whome he Ratified &amp; confirmed the same<lb/>
                  declairing it publickly to be his last Will &amp;<lb/>
                  Testament.</p>
-            <p>Commanding <rs ref="ppl:ww2" n="per98" type="person">his Exec{utor}</rs> to see it fullfiled, &amp; per<lb/>
+            <p>Commanding <rs ref="ppl:ww2" n="per98" type="person">his Exec<ex>utor</ex></rs> to see it fullfiled, &amp; per<lb/>
                  formed, to <rs ref="ppl:aow1" n="per99" type="person">my mother</rs>, &amp; all his Children. &amp; that<lb/>
                  all his Just debtes, whether by bill, or bond, &amp;<lb/>
                  justly proved, should be paid; againe charged<lb/>
@@ -1412,7 +1410,7 @@
                  diligent in the service of God, obedient to his comm-<add place="above">andent</add><lb/>
                  obedeint, &amp; dutifull, to <rs ref="ppl:aow1" n="per104" type="person">his deare mother</rs>. who had<lb/>
                  bin a faithfull, tender, loving wife to him &amp; his<lb/>
-                 Children, he commanded him to love; hon{our} obey her<lb/>
+                 Children, he commanded him to love; hon<ex>our</ex> obey her<lb/>
                  in all things, all his daies, due to her for her wisdome<lb/>
                  &amp; vertue. &amp; doeing this God would blesse him the beter<lb/>
                  charged him to suffer his will to be performed, which<lb/>
@@ -1480,7 +1478,7 @@
                  Children. desireing to be accepted of the Lord in<lb/>
                  Mercy, according to the Sinscerity of his heart.<lb/>
                  Affter devout praires for him by <rs ref="ppl:jb4" n="per108" type="person">the Bishop</rs> &amp; the solomne<lb/>
-                 pronounciation of absolution, in order to the Ch{urc}<lb break="no"/>
+                 pronounciation of absolution, in order to the Ch<ex>urc</ex><lb break="no"/>
                  -his<note place="end">
                     <p rend="Endnote Text"> [word] I.e., ‘church his command’ (in modernised English ‘church’s command’ butmight there on ly be one ‘h’ in AT’s ‘original’ (i.e. ‘churchis’).</p>
                 </note> command. <rs ref="ppl:cw1" n="per109" type="person">This deare &amp; sweete Saint</rs> freely<lb/>
@@ -1535,12 +1533,12 @@
 <!-- transcription: Page 37 -->
 
             <fw type="pageNum"> 37.</fw>
-            <p>The Corpes of <rs ref="ppl:cw1" n="per113" type="person">my Hon{oured} Father</rs> was carried from<lb/>
+            <p>The Corpes of <rs ref="ppl:cw1" n="per113" type="person">my Hon<ex>oured</ex> Father</rs> was carried from<lb/>
                  the <placeName ref="place:Dubl_089" n="place46">Castle of Dublin</placeName> in a Stately manner. according<lb/>
                  to his Dignitie &amp; Place, beeing interred in the<lb/>
                  cheife Church. <placeName ref="place:Chri_086" n="place47">Christs Church</placeName> under a faire<lb/>
                  Marble. before the Deputies Seate of Estate<lb/>
-                 on the <date when-custom="1640-12-10">10<hi rend="superscript">th</hi> day of Decemb{er} 1640</date>.</p>
+                 on the <date when-custom="1640-12-10">10<hi rend="superscript">th</hi> day of Decemb<ex>er</ex> 1640</date>.</p>
             <p><persName ref="ppl:jb4" n="per114">The Bishop of Derrey</persName> Preach’t his funerall Sermon.<lb/>
                 <add place="above" resp="#unknown">Text Matt. xx. 8.</add>
                 <!-- [endnote] [insertion] Insertion is a different ink and a different hand – NOT Thornton’s. -->
@@ -1587,7 +1585,7 @@
                 -->    
                     
                 Meditations &amp; Praier uppon the Death of my<lb/>
-                 Hon{oured} Father <persName ref="ppl:cw1" n="per122">the Lord Deputie Wandesforde</persName>.</head>
+                 Hon<ex>oured</ex> Father <persName ref="ppl:cw1" n="per122">the Lord Deputie Wandesforde</persName>.</head>
             <p>
                 <!-- NOTE [margin] tagged fw - biblical reference 
                      NB *not* attempting to associate the reference with the quotation as we'll tag that using <quote> @source   -->
@@ -1887,7 +1885,7 @@
             <p>Therefore I hope in that God of peace, whoes servant<lb/>
                  he was, that he now allso rests, himselfe in his Dea<add place="above">th</add><lb/>
                  He shall enter into peace: They shall rest in theire<lb/>
-                 Beds. Theire Grave shall be a bed of hon{our}, to him<lb/>
+                 Beds. Theire Grave shall be a bed of hon<ex>our</ex>, to him<lb/>
                  it is so. blessed with a good fame, &amp; name, which is like<lb/>
                  the Savour of sweete, &amp; Precious Oyntment, as Solom<add place="above">on</add><lb/>
                  the wise saith, he serving the Lord heere a few daies is<lb/>
@@ -2189,7 +2187,7 @@
                  , may by him be recovered unto that Everlasting Re-<lb break="no"/>
                  -surection, which thou (that wishest the Perfection &amp; continu<lb/>
                  ance of what thou hast made). hast prepared for us befor<add place="above">e</add><lb/>
-                the begi{nni}ng<!-- TODO [teams] [contraction] marker is over gi. --> of the world, If wee feare thee &amp; keepe.<lb/>
+                the begi<ex>nni</ex>ng<!-- TODO [teams] [contraction] marker is over gi. I already added {} so it's conv to <ex> but check when doing other transcription updates --> of the world, If wee feare thee &amp; keepe.<lb/>
             
 
             <pb n="55"/>
@@ -2284,7 +2282,7 @@
               <fw place="left margin">Com. <lb/>
                  <hi rend="underline">2<hi rend="superscript">d</hi></hi>
               </fw>
-                  Neither O Lord have wee Attributed that hon{our} and<lb/>
+                  Neither O Lord have wee Attributed that hon<ex>our</ex> and<lb/>
                   Glory to thy devine Majestie which became us, but in-<lb break="no"/>
 
                 stead of Images &amp; Idolls which thou hast forbidden<lb/>
@@ -2375,7 +2373,7 @@
                  of thee our heavenly father, by giveing them all good<lb/>
                  examples, in our religious &amp; honnest carriage &amp;<lb/>
                  behaviour; by chastising them for theire offences<lb/>
-                 And to hon{ou}r our superiours in heart worde &amp; deed<lb/>
+                 And to hon<ex>ou</ex>r our superiours in heart worde &amp; deed<lb/>
                  &amp; gesture; to yeild all obedience unto them, to<lb/>
                  imitate theire virtues, to expresse our thankfulnes<lb/>
                  to them in word &amp; deede, &amp; to winke att theire <lb/>
@@ -2571,16 +2569,16 @@
                  our great deliveration:</head>
             
             <p>Many, &amp; great was the sorrowes &amp; sufferings of <rs ref="ppl:aow1" n="per147" type="person">my<lb/>
-                 deare &amp; hon{oured} Mother</rs>, with her whole Familie uppon<lb/>
-                 the sad change, by the death of <rs ref="ppl:cw1" n="per148" type="person">my Hon{oured} Father</rs>-<lb/>
+                 deare &amp; hon<ex>oured</ex> Mother</rs>, with her whole Familie uppon<lb/>
+                 the sad change, by the death of <rs ref="ppl:cw1" n="per148" type="person">my Hon<ex>oured</ex> Father</rs>-<lb/>
                 
                  And she contineued in her house in <placeName ref="place:Dubl_088" n="place56">Dublin</placeName>. Mainta<lb break="no"/>
                  -ining the great household in the same condittion as it<lb/>
-                 was. At her owne charges, for the hon{our} of the same, to<lb/>
+                 was. At her owne charges, for the hon<ex>our</ex> of the same, to<lb/>
                  her owne disadvantage many waies.</p>
             <p>for she by that meanes tarried in <placeName ref="place:Irel_096" n="place57">Ireland</placeName>, dischar<lb break="no"/>
                  -ging those Servants &amp; paieng many debts, which<lb/>
-                 should have bin don by the Exec{utor} longer then she<lb/>
+                 should have bin don by the Exec<ex>utor</ex> longer then she<lb/>
                  could well doe; in regard that her Joynture beeing in<lb/>
                  <placeName ref="place:Engl_094" n="place58">England</placeName> she wanted suplies. Thus she contineued<lb/>
                 <milestone n="ev24" unit="event"/><!-- Q [event] ir.reb. - start here? plot in dublin and discovery -->
@@ -2742,7 +2740,7 @@
                  &amp; <persName ref="ppl:cd4" n="per176">kitt</persName> my sisters two elldest sons. &amp; my selfe.<lb/>
                  In providing a Ship to transport us all together<lb/>
                  with her good Plate, &amp; houshold stuffe in <placeName ref="place:Dubl_088" n="place73">Dublin</placeName>. which<lb/>
-                 she affterwards delivered to <persName ref="ppl:ww1" n="per177">my uncle Will.<hi rend="superscript">m</hi> Wandes{forde}</persName><lb/>
+                 she affterwards delivered to <persName ref="ppl:ww1" n="per177">my uncle Will.<hi rend="superscript">m</hi> Wandes<ex>forde</ex></persName><lb/>
                  affter she came to weschester. But it pleased God to<lb/>
                  give us all a safe &amp; quiett passage out of <placeName ref="place:Irel_096" n="place74">Ireland</placeName><lb/>
             
@@ -2984,7 +2982,7 @@
             <p>Till I grew so dangerously ill, &amp; inwardly sicke;<lb/>
                  that I was in mu<add place="above">c</add>h perill of my life, by theire not comeing<lb/>
                  well out. but kept att my heart. not withstanding<lb/>
-                 all the meanes of Phisicians, or others, that <rs ref="ppl:aow1" n="per200" type="person">my deare Mot{her}</rs><lb/>
+                 all the meanes of Phisicians, or others, that <rs ref="ppl:aow1" n="per200" type="person">my deare Mot<ex>her</ex></rs><lb/>
                  cost &amp; caire she used for me. yet I was well nigh death.<lb/>
                  But blessed be the most gracious God, &amp; Lord of mercy<lb/>
       <add place="left margin">,</add> which pleased to heare our pettions for my life, &amp; to spair<lb/>
@@ -3070,7 +3068,7 @@
                  <rs ref="ppl:fk1" n="per215" type="person">this good childe</rs> whom he had fitted for himselfe died<lb/>
                  uttering many gracious speeches, out of the scripture,<lb/>
                  &amp; abundance of patthaticall praiers, &amp; Pettitions to<lb/>
-                 God: for himselfe, <rs ref="ppl:aow1" n="per216" type="person">my Mo{ther}</rs> &amp; us all, with hearty thanks<lb/>
+                 God: for himselfe, <rs ref="ppl:aow1" n="per216" type="person">my Mo<ex>ther</ex></rs> &amp; us all, with hearty thanks<lb/>
                  offten to God, who had taken him out of that wicked way<lb/>
                  as he calld it, wherein he undoubtedly had bin damnd<lb/>
                  bring him to beleive aright in God, for his salvation.<lb/>
@@ -3104,7 +3102,7 @@
                  he would bring him up in the true feare of God. And<lb/>
                  he would take caire of him &amp; provide for him that he<lb/>
                  should never want all his daies.</p>
-            <p>At which <rs ref="ppl:fk1" n="per221" type="person">the boy</rs> was very glad, &amp; said he thanked <rs ref="ppl:cw1" n="per222" type="person">his Lord{ship}</rs><lb/>
+            <p>At which <rs ref="ppl:fk1" n="per221" type="person">the boy</rs> was very glad, &amp; said he thanked <rs ref="ppl:cw1" n="per222" type="person">his Lord<ex>ship</ex></rs><lb/>
                  &amp; that he would be willing to learne what he should put<lb/>
                  to him. &amp; would pray for him all his daies. so from that<lb/>
                  he tooke him home, clothing &amp; n<add place="above">o</add>urishing him till hee died<lb/>
@@ -3148,7 +3146,7 @@
             
                 <fw type="pageNum">77.</fw>
                 <note place="end">
-                    <p rend="Endnote Text">Original checked – and this is a misfoliation on Thornton’s part; i.e., there is NO page 76 here.</p>
+                    <p rend="Endnote Text"> [page numbering] Original checked – and this is a misfoliation on Thornton’s part; i.e., there is NO page 76 here.</p>
                 </note>
             <!-- NOTE [page numbering] left-aligned odd page numbers start here  -->
             <p>And spaired me as a man spaired his only sonne.<lb/>
@@ -3277,7 +3275,7 @@
              found it sorely demolished, &amp; all the windowes broaken<lb/>
              many, sad complaints, of the poore inhabitants beeing<lb/>
              at our first comeing was scarred least we should have<lb/>
-             bin of the Parla{ment} party. Theire cries weare the greater in<lb/>
+             bin of the Parla<ex>ment</ex> party. Theire cries weare the greater in<lb/>
              respect they weare inforced, to see the burning of 500<hi rend="superscript">d</hi><lb/>
              of theire owne Bibles. publickly at the Crosse by the Soldiers<lb/>
              which they plundered, under pretence of beeing Popery,<lb/>
@@ -3657,7 +3655,7 @@
                 which she paid afterwards<lb/>
                 
                  Albeit we had a perticuler maintenance to have bin<lb/>
-                 p{ai}d out of <placeName ref="place:Kirk_030" n="place139">Kirklington</placeName>, &amp; for the heires part out of <placeName ref="place:Huds_026" n="place140">Hud-<lb break="no"/>
+                 p<ex>ai</ex>d out of <placeName ref="place:Kirk_030" n="place139">Kirklington</placeName>, &amp; for the heires part out of <placeName ref="place:Huds_026" n="place140">Hud-<lb break="no"/>
                  -swell</placeName>.<anchor n="ev41"/> Yett even in these times most sad and lamentabl<lb/>
                  did the Lord most high preserve us from ruine, utterly &amp;<lb/>
                  made us have a Place of safety under his wings of <lb/>
@@ -3792,7 +3790,7 @@
                  &amp; Glory, in Anthems, &amp; Psallmes proper for her condi-<lb break="no"/>
                  -tion, with many sweete verces praising him for all things<lb/>
                 <add place="left margin">,</add> Nor was she in the least conserned to part with her <rs ref="ppl:td3" n="per310" type="person">husb</rs>
-                <!-- NOTE [teams] nope [contraction] is there a contraction line through the b? -->
+                <!-- NOTE [teams] nope. is there a contraction line through the b? -->
                 <lb/>
                  or Children, nor any thing in this world, haveing her hope<lb/>
                  &amp; desires fixed upon God. Leaveing her Children freely<lb/>
@@ -3868,7 +3866,7 @@
                  them up in the severities of Christian duties yet enough<lb/>
                  indulgent over them with a Christian moderation.<lb/>
                  A wise, &amp; discreet mistresse towards her servants<lb/>
-                 whoe loved, &amp; hon{oured} her in theire obedience.</p>
+                 whoe loved, &amp; hon<ex>oured</ex> her in theire obedience.</p>
             <p>truly affectionate to all her relations in generall &amp;<lb/>
                  courteously affable to all Neighbours, &amp; freinds.<lb/>
                  And indeed a great losse to all amongst whom she-<lb break="no"/>
@@ -3881,7 +3879,7 @@
                      <corr><date when-custom="1645-09-10">10<hi rend="superscript">th</hi> of Sept. 1645</date></corr>
                  </choice>.<!-- NOTE [dates] correction. (though oddly 30 Sept fits better with *this* narrative?) --> And was buried that <lb/>
                  night att <persName ref="ppl:td3" n="per321">Sir Thomas Danby</persName>s owne Towne in <placeName ref="place:Mash_037" n="place146">Massam<lb/>
-                 Church</placeName> in the night by reason of the Parliament. Sol{diers} &amp; Scots<lb/>
+                 Church</placeName> in the night by reason of the Parliament. Sol<ex>diers</ex> &amp; Scots<lb/>
                  who would not let a Sermon be Preached. Butt there was<lb/>
                  great lamentation made for her Death. //</p>
                 <anchor n="ev43"/><!-- NOTE event /death katherine -->
@@ -3918,7 +3916,7 @@
                  him. &amp; during his life, this our Familie was kept in much<lb/>
                  peace &amp; tranquilitie, he seeing that each party had its<lb/>
                  right &amp; dues. with a caire for the due observance of my<lb/>
-                 fathers will, of which he was an Exec{utor}</p>
+                 fathers will, of which he was an Exec<ex>utor</ex></p>
             <p>Butt affter his death, we (that is to say) <rs ref="ppl:aow1" n="per329" type="person">my Mother</rs>, &amp; her<lb/>
                  Children was much opprest, &amp; injured, through the bad<lb/>
                  Managerie of all that Estate, &amp; that was all seised on by <persName ref="ppl:ww1" n="per330">my<lb/>
@@ -4009,10 +4007,10 @@
                  -gainst his Enimes. beeing a nursing father a good<lb/>
                  Josiah to his 3 Kingdomes. whoe for the defence of the true<lb/>
                  Catholique Religion. of Jesus Christ his Lord. And for<lb/>
-                 the defence of the Noble Lawes of this <add place="above">Kingd{ome}</add> of <placeName ref="place:Engl_094" n="place157">England</placeName>. the<lb/>
+                 the defence of the Noble Lawes of this <add place="above">Kingd<ex>ome</ex></add> of <placeName ref="place:Engl_094" n="place157">England</placeName>. the<lb/>
                  Protestant faith &amp; the Privileges of the Parlament &amp;<lb/>
                  Subject. Ruling them in peace &amp; happinesse many years.<lb/>
-                 he laid doune his life. beei{n}g sacrificed by the iniquitties<lb/>
+                 he laid doune his life. beei<ex>n</ex>g sacrificed by the iniquitties<lb/>
                  of his subjects; Their sinns pulled downe his Ruine on<lb/>
                  him &amp; our selves. lett his admirable booke speake his<lb/>
                  Etternall Glory &amp; praise, the best of Kings (as meere man)<lb/>
@@ -4096,7 +4094,7 @@
                  further for our impenitency, &amp; hardnesse of heart.</p>
             <p>O Lord give us truth, &amp; Peace, against that these herisies that<lb/>
                  are now Established as it were by a law, may be extirpa-<lb break="no"/>
-                 -ted, the Hon{our} of the Lord Jesus advansed, our King re-<lb break="no"/>
+                 -ted, the Hon<ex>our</ex> of the Lord Jesus advansed, our King re-<lb break="no"/>
                  stored, &amp; all thy Servants injoy there inheritances as<lb/>
                  thou hast given. And with all give us humble &amp; penitent<lb/>
                  hearts for all the abominations of this Land. &amp; for this<lb/>
@@ -4105,7 +4103,8 @@
                  Lawfull King. Learning thereby more humility. &amp; to be<lb/>
                  contented in the subjection thou requirest. Sanctifie thy<lb/>
                  Dealings to me thy servant &amp; make us better for the Lord<lb/>
-                 Jesus Christs sake.<note place="end">
+                 Jesus Christs sake. <gap reason="erased" extent="4" unit="char"/><!-- Q for team? possibly this could be <supplied>Amen -->
+                <note place="end">
                     <p rend="Endnote Text"> [deletion] Looks like something had been deleted after the full stop. Possibly an ‘Amen’.</p>
                 </note>
             </p>
@@ -4117,12 +4116,12 @@
             
                 <fw type="pageNum">97.</fw>
             
-            <p>That thou maist receave the Hon{our} &amp; Glory by our true<lb/>
+            <p>That thou maist receave the Hon<ex>our</ex> &amp; Glory by our true<lb/>
                  convertion, when we see the Evill of our doeings. may be<lb/>
                  againe Established by thy Powerfull mercys. That all<lb/>
                  the world may see the Glory of the Lord &amp; give thankes unto<lb/>
                  thy holy name. O holy blessed &amp; glorious Trinity to<lb/>
-                 whome be all thankes, Praise hon{our} and dominion for<lb/>
+                 whome be all thankes, Praise hon<ex>our</ex> and dominion for<lb/>
                  Ever &amp; ever. Amen. Amen.</p>
          </div>
         <div n="div38" rend="pre(rule)">
@@ -4185,7 +4184,7 @@
                  his hand against the Lords Annoynted, that could be freed<lb/>
                  Eitther from plundering, sequestration &amp; imprisonment<lb/>
                  Robed, or murdered, by secrett, or open hostilitie.<lb/>
-                 if any gave information agaist<note place="end">
+                 if any gave information agai<ex>n</ex>st<note place="end">
                     <p rend="Endnote Text"> [contraction] Line over ‘is’ suggests contraction.</p>
                 </note> them. As for <rs ref="ppl:gw1" n="per349" type="person">my brother</rs>s<lb/>
                  crime, it was for disposseing of the Parsonage of <placeName ref="place:Kirk_030" n="place161">Kirkling<lb/>
@@ -4372,7 +4371,7 @@
                 affter <rs ref="ppl:gw1" n="per389" type="person">my brother</rs>s death.<anchor n="ev52"/></p>
             <p>But it so pleased God, for our greater affliction, when<lb/>
                  wee hoped to have injoyed the benifitt of the clearing his<lb/>
-                 Estate from that Tiranny of Seq{uestration} that we receaved a very<lb/>
+                 Estate from that Tiranny of Seq<ex>uestration</ex> that we receaved a very<lb/>
                 grand blow, by the sad infortunate losse of <rs ref="ppl:gw1" n="per390" type="person">my dearest<lb/>
                  Brother</rs>. which was the preludium to our many afflictions<lb/>
                  &amp; troubles in that poore Family. when we lost such a head<lb/>
@@ -4402,7 +4401,7 @@
                  Uncle Will.<hi rend="superscript">m</hi></persName> where he would write to <persName ref="ppl:rd1" n="per397">Mr Darley</persName>, desiring to<lb/>
                  know what she pleased to command him further in it:</p>
             <p><rs ref="ppl:aow1" n="per398" type="person">My Mother</rs> said that her service &amp; thankes must be returned<lb/>
-                 him for all his kindnesse in that bussi{ness} which she would have<lb/>
+                 him for all his kindnesse in that bussi<ex>ness</ex> which she would have<lb/>
                  don herselfe by writting. but that she was sudainly surprised<lb/>
                  at that instant of his comeing up to the Chamber, with much<lb/>
                  feares for me, who was, soe violently tormented with a<lb/>
@@ -4420,7 +4419,7 @@
                  of his drowning.</p>
             <p>but to proceed to the circumstances of himselfe. he pittied me<lb/>
                  much &amp; would have staied with me, but that <persName ref="ppl:ww1" n="per400">his uncle will.<hi rend="superscript">m</hi></persName><lb/>
-                 staied for him at <placeName ref="place:Rich_043" n="place176">Rich{mond}</placeName> for letters that Post. And affter his<lb/>
+                 staied for him at <placeName ref="place:Rich_043" n="place176">Rich<ex>mond</ex></placeName> for letters that Post. And affter his<lb/>
                  walking, 3 or 4 turnes about the chamber in his studieng<lb/>
                  of his bussinesse, still my thoughts I saw a great deale of <lb/>
                  change, he looked so seariously &amp; soberly. as if there was<lb/>
@@ -4567,7 +4566,7 @@
             <date when-custom="1651-03-31">March <hi rend="underline">the 31, 1651</hi></date>. was his blacke munday. <!-- Q [event] ? -->the strange<lb/>
                  paine which seised on my necke portended this Sadd losse.<lb/>
                  Great, &amp; infinitt, was the search by thousands, of People<lb/>
-                 from that time till <date>Wednesday foll{owing}</date><!-- Q [dates] weekday? wtf Alice. leaving @when tagging. funeral date to be checked. weekday dates will need to be reviewed more generally later. -->, his bodie not beeing found<lb/>
+                 from that time till <date>Wednesday foll<ex>owing</ex></date><!-- Q [dates] weekday? wtf Alice. leaving @when tagging. funeral date to be checked. weekday dates will need to be reviewed more generally later. -->, his bodie not beeing found<lb/>
                  till on that day, &amp; about the time when he was lost.</p>
             <p>And then one of those men which was a wittnesse against<lb/>
                  him, was the first, which discovered his bodie, it beeing fallen<lb/>
@@ -4636,7 +4635,7 @@
             <head place="centre" rend="pre(rule) post(rule)">
             
                 A Lamentation, &amp; Prayer, uppon the death of<lb/>
-                 my hon{oured} brother <persName ref="ppl:gw1" n="per417">George Wandesf. Esquire</persName>.
+                 my hon<ex>oured</ex> brother <persName ref="ppl:gw1" n="per417">George Wandesf. Esquire</persName>.
             </head>
             
             <p>Alas O Lord, most great, &amp; mighty, wonderfull in<lb/>
@@ -4701,7 +4700,7 @@
             
             And distractions, Publicke, &amp; private. Sancitifie<lb/>
                  this heavy chastisement, in our losse. to me, which had<lb/>
-                 a great shaire, in what troubles that foll{ow} to us all; &amp;<lb/>
+                 a great shaire, in what troubles that foll<ex>ow</ex> to us all; &amp;<lb/>
                  pitty thy humble repenting, returning Servant, who<lb/>
                  is smitten, with thy Rod, &amp; desires to receave instructi<lb break="no"/>
                  -on. / Lord comfort <rs ref="ppl:aow1" n="per419" type="person">my deare mother</rs>, in these her<lb/>
@@ -4832,7 +4831,7 @@
                 </note> the Evill of theire doeings. that<lb/>
                  we might not be abhorred of thee. but to be a Righteous<lb/>
                  People, Zealous of Good workes. That thy name may be <lb/>
-                 Glorified in our Conversion, the hon{our} of the Lord, Jesus Christ.<lb/>
+                 Glorified in our Conversion, the hon<ex>our</ex> of the Lord, Jesus Christ.<lb/>
                  Advanced, &amp; we saved from destruction; &amp; many nations<lb/>
                  come in to thy faith, when they Behold, what the goodnesse of<lb/>
                  God is, to us most vilde People. and give thanks with us<lb/>
@@ -4881,15 +4880,15 @@
         <div n="div41" type="poetry">
             <head place="centre" rend="pre(rule) post(rule)">
             
-                An Eligie upon <persName ref="ppl:gw1" n="per423" type="person">George Wandesford Esq{uire}</persName><lb/>
-                 on his unfortunate Death. by the Hon{ourable}<lb/>
+                An Eligie upon <persName ref="ppl:gw1" n="per423" type="person">George Wandesford Esq<ex>uire</ex></persName><lb/>
+                 on his unfortunate Death. by the Hon<ex>ourable</ex><lb/>
                  <persName ref="ppl:cw3" n="per424" type="person">Sir Christopher Wyvill</persName> Barronett.<lb/>
             
             </head>  
             <!-- NOTE second <head> i thought i couldn't do this... ! -->
             <head rend="post(rule)">
-                On the deplorable loss of our hon{oured} freind &amp;<lb/>
-                Neighbour <persName ref="ppl:gw1" n="per425">George Wandesford Esq{uire}</persName> <date type="death" when-custom="1651-03-31">March 31 51</date>.</head>
+                On the deplorable loss of our hon<ex>oured</ex> freind &amp;<lb/>
+                Neighbour <persName ref="ppl:gw1" n="per425">George Wandesford Esq<ex>uire</ex></persName> <date type="death" when-custom="1651-03-31">March 31 51</date>.</head>
             
             <l>Ere-since the Bishops, Parliament, and King,</l>
             <l> (A blest Conspiracie) agreed to bring.</l>
@@ -4966,7 +4965,7 @@
                  <placeName ref="place:Ches_012" n="place192">Chester</placeName>, &amp; in all places; ever since <rs ref="ppl:cw1" n="per428" type="person">my Father</rs>s death; in<lb/>
                  all these sad times. in the opposition of freinds, the fall of the<lb/>
                  Church &amp; state. when her Joynture in <placeName ref="place:Engl_094" n="place193">England</placeName> beeing <add place="above">but</add> 300<hi rend="superscript">l</hi><lb/>
-                 per An{num} at best, fell <gap reason="deleted" extent="2" unit="char"/>
+                 per An<ex>num</ex> at best, fell <gap reason="deleted" extent="2" unit="char"/>
                 <add place="above">under</add> 50<hi rend="superscript">l</hi> a yeare <add place="above">&amp;</add> when the scotts devoured<lb/>
                  all her Patrimony, eating up her owne, &amp;, childrens Provissions,<lb/>
                  even then did our gracious Lord remember mercy in the midst<lb/>
@@ -5075,7 +5074,7 @@
             
             The same; by reason that both the sequestration was taken<lb/>
                 of, &amp; the wardship mony of <rs ref="ppl:tbd-awt-brother" n="per447" type="person">his brother</rs><!-- Q [people] which brother? --> <add place="above">denied</add> to be paid to <persName ref="ppl:eo1" n="per448">Sir<lb/>
-                 Edward Osborne</persName>s Excec{utor} &amp; that he was better by 200<hi rend="superscript">l</hi><lb/>
+                 Edward Osborne</persName>s Excec<ex>utor</ex> &amp; that he was better by 200<hi rend="superscript">l</hi><lb/>
                  a yeare in his Estate, with many other considerable ar<lb break="no"/>
                  -guments arriseing towards <rs ref="ppl:aow1" n="per449" type="person">my mother</rs> &amp; my selfe;<lb/>
                  for there was such <add place="above">un</add>hansome dealings to us not to<lb/>
@@ -5089,7 +5088,7 @@
             <p>And with all <persName ref="ppl:jw1" n="per451">my youngest Brother John</persName>. beeing fallen into<lb/>
                  a grievo<add place="above">u</add>s distemper, through griefe, uppon harsh Dealing<lb/>
                  affter the marriage of <persName ref="ppl:cw2" n="per452">my brother Christ.</persName> <add place="above">who</add> by ill councell<lb/>
-                 given him; detained, his right of Anuity of 100<hi rend="superscript">l</hi> per An{num}<lb/>
+                 given him; detained, his right of Anuity of 100<hi rend="superscript">l</hi> per An<ex>num</ex><lb/>
                  (to his great prejudice) &amp; <add place="above"><persName ref="ppl:jw1" n="per453">John</persName></add> was likely theire by to leave<lb/>
                  both that 100<hi rend="superscript">l</hi> in <placeName ref="place:Engl_094" n="place201">England</placeName>. with his whole fortune (then desend<lb/>
                  ed upon John, by his brother <add place="above"><persName ref="ppl:gw1" n="per454">George</persName> his</add> death) of 6000<hi rend="superscript">l</hi> out <add place="above">of</add> the<lb/>
@@ -5201,7 +5200,7 @@
                  with out much charge as was represented to her, only<lb/>
                  the want of a house which he must builde, <rs ref="ppl:tbd-brother" n="per462" type="person">his brother</rs> &amp; <rs ref="ppl:tbd-sister" n="per463" type="person">sister</rs><!-- Q [people] WT's siblings i think, but which? are they identifiable? --><lb/>
                 beeing provided for by <rs ref="ppl:edg1" n="per464" type="person">his mother</rs> that would cleare his<lb/>
-                 Estate. which was given in to be 600<hi rend="superscript">l</hi> per an{num}.</p>
+                 Estate. which was given in to be 600<hi rend="superscript">l</hi> per an<ex>num</ex>.</p>
             <p>This was very well; considering the addittion of <rs ref="ppl:cw1" n="per465" type="person">my<lb/>
                  Father</rs>s Portion given me by his will, &amp; deeds, namly<lb/>
                  1500<hi rend="superscript">l</hi> out of <placeName ref="place:Engl_094" n="place204">England</placeName>, at <placeName ref="place:Kirk_030" n="place205">Kirklington</placeName>; and 1000<hi rend="superscript">l</hi> to be<lb/>
@@ -5256,8 +5255,8 @@
                 </note>
                 <lb/>
                  Affter a longe leace made for the Provission of his<lb/>
-                 younger childrens Portions &amp; Maintenance, p{ai}d out<lb/>
-                 of it. The valew wast accounted 100<hi rend="superscript">l</hi> // <add place="above">Per An{num}.</add>
+                 younger childrens Portions &amp; Maintenance, p<ex>ai</ex>d out<lb/>
+                 of it. The valew wast accounted 100<hi rend="superscript">l</hi> // <add place="above">Per An<ex>num</ex>.</add>
             </p>
             <p>As for the security of my Portion he was to Reieave<lb/>
                  the summe of 1500<hi rend="superscript">l</hi> out of <placeName ref="place:Kirk_030" n="place210">Kirklington</placeName> which he might<lb/>
@@ -5281,7 +5280,7 @@
                 followed a pretty space, ere <rs ref="ppl:edg1" n="per480" type="person">his Mother</rs> had passed a <lb/>
                  fine with him, in regard that <rs ref="ppl:gg1" n="per481" type="person">his Father in Law</rs>, would not<lb/>
                  joyne in the fine. &amp; <rs ref="ppl:aow1" n="per482" type="person">my Mother</rs>s councell did not approve<lb/>
-                 of it to be legall for security with out it. but <persName ref="ppl:wt1" n="per483">Mr Thort{on}</persName><lb/>
+                 of it to be legall for security with out it. but <persName ref="ppl:wt1" n="per483">Mr Thort<ex>on</ex></persName><lb/>
                  did faithfully ingaged to doe the same leagally &amp;<lb/>
                  passe the fine affter his death. </p>
             <p>but in the intrime <note place="end">
@@ -5313,7 +5312,7 @@
                  And uppon his recovery, I was willing to relie upon his<lb/>
                  promise to <rs ref="ppl:aow1" n="per489" type="person">my Mother</rs>, &amp; <add place="above">his</add> infinitt expressions to my selfe I <lb/>
                  rest <add place="above">ed</add> upon Providence in the fullfilling of his desire. in <lb/>
-                 soe much that about the <date when-custom="1651-12-15">December following</date> proceeded our marri{age}
+                 soe much that about the <date when-custom="1651-12-15">December following</date> proceeded our marri<ex>age</ex>
                 <!-- TODO [teams] contraction (I've corrected this one here already, problem characters - will still need to check against transcription) contraction line over marrig -->
                 
                 <lb/>
@@ -5331,14 +5330,14 @@
                 <fw type="pageNum">125.</fw>
             <milestone n="ev63" unit="event"/><!-- NOTE event awt wedding -->
             <p><persName ref="ppl:awt1" n="per490">Alice Wandesforde</persName> the Daughter of <persName ref="ppl:cw1" n="per491">Christopher<lb/>
-                 Wandesford Esq{uire}</persName> late Lord Deputy of <placeName ref="place:Irel_096" n="place213">Ireland</placeName>, was<lb/>
+                 Wandesford Esq<ex>uire</ex></persName> late Lord Deputy of <placeName ref="place:Irel_096" n="place213">Ireland</placeName>, was<lb/>
                  married to <persName ref="ppl:wt1" n="per492">william Thornton Esquire</persName>, of <placeName ref="place:East_019" n="place214">Easte Nuton</placeName>.<lb/>
                  att <rs ref="ppl:aow1" n="per493" type="person">my Mother</rs>s house in <placeName ref="place:Hips_022" n="place215">Hipswell</placeName><!-- NOTE [place] disambiguation of hipswell: default is Hipswell Hall -->. by <persName ref="ppl:ms1" n="per494">Mr Siddall</persName><lb/>
                  <date type="marriage" when-custom="1651-12-15">December the 15<hi rend="superscript">th</hi> 1651</date>.</p>
             <p><persName ref="ppl:ms1" n="per495">Mr Siddall</persName> made a most Pieous &amp; profitable exhortati<lb break="no"/>
                  -on to us, shewing our duties, &amp; teaching us the feare of<lb/>
                  the Lord in this our new Estate of life, with many Zealous<lb/>
-                 prayers for us. <rs ref="ppl:aow1" n="per496" type="person">My deare &amp; hon{oured} Mother</rs> gave me<lb/>
+                 prayers for us. <rs ref="ppl:aow1" n="per496" type="person">My deare &amp; hon<ex>oured</ex> Mother</rs> gave me<lb/>
                  in marriage, in the Presence of <persName ref="ppl:jw1" n="per497">my owne brother John<lb/>
                  Wand.</persName> <persName ref="ppl:mn1" n="per498">my uncle Norton</persName>. <persName ref="ppl:fd3" n="per499">My uncle Darley (Frances</persName><lb/>
                 <persName ref="ppl:jd5" n="per500">my cozen Dodsworth</persName> of <placeName ref="place:Thor_058" n="place424">wattlosse</placeName>. <persName ref="ppl:gl1" n="per501">George Lightfoote</persName><lb/>
@@ -5447,14 +5446,14 @@
             <head rend="pre(rule) post(rule)">
             
                 Meditations upon my deliverance of <rs ref="ppl:xt1" n="per512" type="person">my first<lb/>
-                 Childe</rs> &amp; of the great sickness foll{owe}d for 3 q{uarte}rs of a yeare<lb/>
+                 Childe</rs> &amp; of the great sickness foll<ex>owe</ex>d for 3 q<ex>uarte</ex>rs of a yeare<lb/>
                 <date type="illness" when-custom="1652-08-06/1653-05-12">August 6<hi rend="superscript">th</hi> 1652 lasted till May: 12. 53</date>.</head>
             <milestone n="ev65" unit="event"/><!-- NOTE event awt child1 pregnancy  -->
             <p><date when-custom="1652-02">About seaven weekes affter I married</date><!-- Q [dates] relative dates... is it possible to reconstruct dates in this passage by counting forward? not sure it quite works -->. itt pleased<lb/>
                  God to give me the blessing of conseption. the first<lb/>
                  quarter I was exceeding sickly in breeding, till I<lb/>
                  was with quicke childe. Affter which I was very strong<lb/>
-                 &amp; healthy I blesse God. only much hotter then form{erly}<lb/>
+                 &amp; healthy I blesse God. only much hotter then form<ex>erly</ex><lb/>
                  as is usuall in such cases from a naturall cause.<lb/>
                  in soe much that my nose bled much <date>when</date> I was about<lb/>
                  halfe gon by reason of the increase of heate.</p>
@@ -5468,7 +5467,7 @@
                  of my time</date>. so that <persName ref="ppl:rw1" n="per515">Dr Wittie</persName> <add place="above">said</add> that I should goe neare to fall<lb/>
                  into a feaver, or some desperate sicknesse, If I did not<lb/>
                  coole my blood, by takeing some away. &amp; if I had staied<lb/>
-                 but 2 daies longer, I had foll{owe}d his advice.</p>
+                 but 2 daies longer, I had foll<ex>owe</ex>d his advice.</p>
 
             <pb n="127"/>
 
@@ -5542,7 +5541,7 @@
                  the two Drs had a dispute about the letting me blood. <persName ref="ppl:xm1" n="per526">Mr Mahum</persName><lb/>
                  was against it &amp; <persName ref="ppl:rw1" n="per527">Dr wittie</persName> for it. but I soone desided<lb/>
                  that dispute &amp; tould them if they would save my life<lb/>
-                 I must bleed. soe <date>the next day</date> I had 6 or 7 o{unce}s taken which<lb/>
+                 I must bleed. soe <date>the next day</date> I had 6 or 7 o<ex>unce</ex>s taken which<lb/>
                  was turned very bad by my sicknesse. but I found a<lb/>
                  change immeadiatly in my sight which was exceding dime<lb/>
                  before, &amp; then I see as well as ever clearly. &amp; my strength<lb/>
@@ -5579,7 +5578,7 @@
             <milestone n="ev70" unit="event"/><!-- NOTE event awt child1 post birth illness -->
             <p>The effects of this feaver remained by severall distempe<add place="above">rs</add><lb/>
                  successively. first affter the Miscarriage. I fell into a most<lb/>
-                 tirrable shakeing Ague lasting one q{uarte}r of a yeare. by fitts<lb/>
+                 tirrable shakeing Ague lasting one q<ex>uarte</ex>r of a yeare. by fitts<lb/>
                  each day twice in much violency, so that the sweats was great<lb/>
                  with faintings. beeing thereby <add place="above">weakened</add> till I could not stand or goe.</p>
             <p>After the Ague left me upon a medicin of London Treacle<lb/>
@@ -5590,7 +5589,7 @@
                  it would prove a cronicall<!-- TODO [teams] [contraction] contraction line over n which I have deleted --> distemper. but blessed be the<lb/>
                  Lord upon great &amp; many meanes used &amp; all remidies. I<lb/>
                  was at length cured of all distempers &amp; weaknesses which<lb/>
-                 from its begining had lasted 3 q{uarte}r of a yeare full out. </p>
+                 from its begining had lasted 3 q<ex>uarte</ex>r of a yeare full out. </p>
             <p>Thus I had a sad entertainment &amp; begining of my Change<lb/>
                  of life the comforts thereof beeing turned into much dis-<lb break="no"/>
                  comforts &amp; weaknesses. but still I was upheld by an All-<lb break="no"/>
@@ -5857,7 +5856,7 @@
                  ly thy servant to bring forth this sweete babe. though<lb/>
                  with much hazard to her selfe &amp; me, yet o Lord thine <lb/>
                  Almighty power did alone worke this great Miracles &amp;<lb/>
-                wonders in me &amp; <rs ref="ppl:atc1" n="per547" type="person">my Infant</rs>. O Lord to the hon{our} of thy<lb/>
+                wonders in me &amp; <rs ref="ppl:atc1" n="per547" type="person">my Infant</rs>. O Lord to the hon<ex>our</ex> of thy<lb/>
                  Name be all glory asscribed that hast vouchsafed to<lb/>
                  heare the desires of my soule, &amp; bitternesse of my dollers &amp;<lb/>
                  anguish, when I lifted up my crieings with my voice <lb/>
@@ -5928,7 +5927,7 @@
                     Thornton</persName> borne the <date datingMethod="#JulianMar" type="birth" when-custom="1654-02-14">14<hi rend="superscript">th</hi> of February. 1654</date><!-- NOTE [dates] OS -->.</head>
           <milestone n="ev74" unit="event"/><!-- NOTE event awt child2 post birth -->
             <p>I recovered not very well, of the extreame weakenesse<lb/>
-                 that followed <date>for a q{uarte}r of a yeare affter</date><!-- Q [dates] duration? --> my childe, in soe<lb/>
+                 that followed <date>for a q<ex>uarte</ex>r of a yeare affter</date><!-- Q [dates] duration? --> my childe, in soe<lb/>
                  much that my milke was taken from me &amp; soe I was hin-<lb break="no"/>
                  -dred from doeing the naturall duty incumbant upon us<lb/>
                  mothers which troubled me much;<anchor n="ev74"/> but I must be willing<lb/>
@@ -6026,7 +6025,7 @@
            <milestone n="ev81" unit="event"/><!-- NOTE event child2 wetnursing -->
             <p>And <persName ref="ppl:dcl1" n="per567">Dafeny Lightfoote</persName> gave <persName ref="ppl:et1" n="per568">my betty</persName> sucke. till she<lb/>
                  proved with childe: which afterwards was the cause I put her<lb/>
-                 to <rs ref="ppl:tbd-servant" n="per569" type="person">annother</rs> <add place="above">at</add> about 3 q{uarte}r of a yeare old; but she did <add place="above">not</add> deale<lb/>
+                 to <rs ref="ppl:tbd-servant" n="per569" type="person">annother</rs> <add place="above">at</add> about 3 q<ex>uarte</ex>r of a yeare old; but she did <add place="above">not</add> deale<lb/>
                  well with <rs ref="ppl:et1" n="per570" type="person">my childe</rs> which was a most stately lovely girle<lb/>
                  when she tooke her to nurse.<anchor n="ev81"/> <milestone n="ev82" unit="event"/><!-- NOTE event awt child4? pregnancy -->nor was I able to goe soe<lb/>
                  offten then to see her because it was a mile off <placeName>Hipswell</placeName><lb/>
@@ -6152,7 +6151,7 @@
             <p>And because I cannot praise thee according to thy excelen<add place="above">t</add><lb break="no"/>
                  -cy take my soule in thy due time into the Land of Everlasting<lb/>
                  Praises. that I may spend a whole Etternity in Singing Halelui<lb/>
-                 has to thy <sic>thy</sic><!-- NOTE [sic] repetition of thy --> name to whome is due all hon{our} power. domi-<lb break="no"/>
+                 has to thy <sic>thy</sic><!-- NOTE [sic] repetition of thy --> name to whome is due all hon<ex>our</ex> power. domi-<lb break="no"/>
                  -nion &amp; glory of men &amp; Angels. for ever Grant this for <lb/>
                  Jesus Christ his Sake our deare Lord &amp; Saviour. Amen. </p>
             <p> Amen .#.<!-- Q [teams] [decoration] will need to decide what to do with these symbols/markers. -->
@@ -6227,7 +6226,7 @@
                  -pectancy of my desolution.<anchor n="ev88"/> <rs ref="ppl:aow1" n="per590" type="person">my deare mother</rs> allsoe did<lb/>
                  feare me very much &amp; she was pleased to assist me in<lb/>
                  powring out our requests to God for which she did in this<lb/>
-                 Prayer foll{owing}:</p>
+                 Prayer foll<ex>owing</ex>:</p>
             </div>
         
         <div n="div58" type="prayer"><!-- Q [teams] [authors] prayer by awt's mother - to investigate how to do this -->
@@ -6603,7 +6602,7 @@
         <div n="div64">
             <head rend="post(rule)">
                 Meditations on the deliverance, of <rs ref="ppl:xt2" n="per615" type="person">my first Sonne<lb/>
-                    and fifth Childe</rs>. At <placeName ref="place:Hips_022" n="place243">Hipswell</placeName> the <date type="birth" when-custom="1657-12-10">10<hi rend="superscript">th</hi> of Decemb{er}<lb/>
+                    and fifth Childe</rs>. At <placeName ref="place:Hips_022" n="place243">Hipswell</placeName> the <date type="birth" when-custom="1657-12-10">10<hi rend="superscript">th</hi> of Decemb<ex>er</ex><lb/>
                  1657</date>.
             <!-- [endnote] [decoration] Ornate Border. -->
             </head>
@@ -6673,7 +6672,7 @@
                  out hand of deliverances to me his vilde creature. That I<lb/>
                  may extoll &amp; praise the Lord with all my soule, &amp; never let goe<lb/>
                  my hope from the God of my Salvation. but live the remainder<lb/>
-                 of my life he gives me to his hon{our} &amp; Glory and that at <lb/>
+                 of my life he gives me to his hon<ex>our</ex> &amp; Glory and that at <lb/>
                  the last I may praise him Etternally in the heavens. Blesse<lb/>
                  the Lord O my soule &amp; forget not all his benifitts.</p>
          </div>
@@ -6721,7 +6720,7 @@
                  thy glories now appeare, for that shines brightest in the<lb/>
                  beames of thy mercy, and when thou turnest unto the<lb/>
                  praier of poore wretched destitutes, it becomes an eter<lb break="no"/>
-                 -nall monument &amp; a record of thy hon{our}, &amp; all generations<lb/>
+                 -nall monument &amp; a record of thy hon<ex>our</ex>, &amp; all generations<lb/>
                  which shall be borne shall be borne <add place="above">to</add>
                 <note place="end">
                     <p rend="Endnote Text"> [insertion] This correction may be in another hand than Thornton’s – ink/lettering looks like other non-authorial interjections.</p>
@@ -6853,7 +6852,7 @@
                 <fw type="pageNum">157.</fw> <lb/>
             
             Affliction: yet I may now with a thankfull heart full of<lb/>
-                 ardent Zeale &amp; Gratitude give thee thy hon{our} due<lb/>
+                 ardent Zeale &amp; Gratitude give thee thy hon<ex>our</ex> due<lb/>
                  unto thy Name in these excelent mercys walkeing<lb/>
                  in thy commandments like thy redeemed ones to whom<lb/>
                  is shewed such wonders of thy power &amp; mercys.</p>
@@ -6953,7 +6952,7 @@
             <head rend="pre(rule) post(rule)">
                 
                 A Praier to God for the Church. &amp; restoration of <rs ref="ppl:cs2" n="per642" type="person">the King</rs>.<lb/>
-                 <date type="political" when-custom="1659-11">nov{ember} 1659</date>.
+                 <date type="political" when-custom="1659-11">nov<ex>ember</ex> 1659</date>.
             </head>
             
             <p>O Lord our God, the great &amp; mighty Jehova, which hath<lb/>
@@ -7026,14 +7025,14 @@
         <div n="div70">
             <head place="centre" rend="pre(rule) post(rule)">
                 
-            A Relation conserning my deare &amp; hon{oured}<lb/>
+            A Relation conserning my deare &amp; hon<ex>oured</ex><lb/>
              Mother the <persName ref="ppl:aow1" n="per643">Lady Wandesforde</persName> &amp; of her<lb/>
-             Death <date type="death" when-custom="1659-12-10">Decem{ber} 10<hi rend="superscript">th</hi> 1659</date>. //.</head>
+             Death <date type="death" when-custom="1659-12-10">Decem<ex>ber</ex> 10<hi rend="superscript">th</hi> 1659</date>. //.</head>
         <milestone n="ev102" unit="event"/><!-- NOTE event birth/background of awt's mother -->
             <p><rs ref="ppl:aow1" n="per644" type="person">My deare mother</rs>, was Sole daughter to <persName ref="ppl:ho1" n="per645">Sir Hewet<lb/>
              Osborne</persName>, &amp; <persName ref="ppl:jfo1" n="per646">Lady Joyce</persName> his wife, which Lady Joyce <lb/>
              was Eldest Daughter to <persName ref="ppl:mf1" n="per647">Sir Miles Fleetewood</persName> of <lb/>
-             <placeName ref="place:Lond_080" n="place251">London</placeName> in the Reigne of <persName ref="ppl:et2" n="per648">Queene Elizabeth</persName>. of happie Mem{orie}<note place="end">
+             <placeName ref="place:Lond_080" n="place251">London</placeName> in the Reigne of <persName ref="ppl:et2" n="per648">Queene Elizabeth</persName>. of happie Mem<ex>orie</ex><note place="end">
                 <p rend="Endnote Text"> [word] NB. Expansion here in keeping with AT’s usual spelling practice.</p>
             </note>
             <lb/>
@@ -7090,8 +7089,10 @@
                  government of his Family, &amp; by her caire was a meanes<lb/>
                  to give opportunity of increasing his Patrimony. as<lb/>
                  <rs ref="ppl:cw1" n="per663" type="person">my deare father</rs> is pleased to leave upon Record in his<lb/>
-                 owne booke for her Etternall hon{our}<note place="end">
-                    <p rend="Endnote Text"> [word] In original ‘ hon:<hi rend="superscript">our</hi>’, so not actual contraction …</p>
+                 owne booke for her Etternall hon<add place="above">our</add>
+                <!-- NOTE hmmm. maybe should just be superscript rather than add? -->
+                <note place="end">
+                    <p rend="Endnote Text"> [insertion]? In original ‘ hon:<hi rend="superscript">our</hi>’, so not actual contraction …</p>
                 </note> soe that it might be<lb/>
                  said of her, many Daughters have don well, but thou<lb/>
                  exceedest them all.</p>
@@ -7135,7 +7136,7 @@
                  much comfort &amp; hapienesse all <rs ref="ppl:cw1" n="per679" type="person">my father</rs>s life,<anchor n="ev104"/><lb/>
                  doeing much good to all People, in each spheare<lb/>
                  wherein she actted, laing out her selfe to the best<lb/>
-                 for <rs ref="ppl:cw1" n="per680" type="person">her husband</rs>, whome she highly hon{oured} her Child<lb/>
+                 for <rs ref="ppl:cw1" n="per680" type="person">her husband</rs>, whome she highly hon<ex>oured</ex> her Child<lb/>
                  freinds. &amp; servants found theire, as in <placeName ref="place:Engl_094" n="place258">England</placeName>, a<lb/>
                  perpetuall effluance of all graces &amp; vertues flowing<lb/>
                  from soe full a spring. which god had indowed her<lb/>
@@ -7169,7 +7170,7 @@
             <milestone n="ev105" unit="event"/><!-- NOTE event mother's widowhood -->
             <p>After <rs ref="ppl:cw1" n="per681" type="person">my deare father</rs>s decease she lived his Widdow<lb/>
                  till her death; which was the space of 19 yeares &amp; 7 daies;<lb/>
-                 dieing in <date when-custom="1659-12">that same month of Decem{ber}</date> &amp; in old Age.<lb/>
+                 dieing in <date when-custom="1659-12">that same month of Decem<ex>ber</ex></date> &amp; in old Age.<lb/>
                 <anchor n="ev105"/>
                  But she was not one of those that lived in pleasure, or<lb/>
                  spent her daies in vanitie ; for what time could be spair<lb/>
@@ -7193,7 +7194,7 @@
             
                 <fw type="pageNum">164.</fw> <lb/>
             
-            That he vouchsafed her the hon{our} to be instrumentall<lb/>
+            That he vouchsafed her the hon<ex>our</ex> to be instrumentall<lb/>
                  for the Releife &amp; suport of such as were Precious in <lb/>
                  his sight.</p>
             <p>I have formely made a discourse of her travills &amp;<lb/>
@@ -7246,7 +7247,7 @@
                  -tion those great mercys we receaved from her in generall<lb/>
                  And in perticuler for those exceeding goodness so favours<lb/>
                  where in she extended her bounty towards me.</p>
-            <p>Whoe was pleased to provide a{n} habitation for me affter<lb/>
+            <p>Whoe was pleased to provide a<ex>n</ex> habitation for me affter<lb/>
                  her decease, &amp; disposed me in marriage. Affter which I with<lb/>
                  <rs ref="ppl:wt1" n="per688" type="person">my husband</rs> &amp; Children, did live with her 8 yeares affter<lb/>
                  my marriage, bringing forth <rs ref="ppl:tbd-awt-children" n="per689" type="person">4 of my Children</rs> in her house<lb/>
@@ -7286,7 +7287,7 @@
             <p>The some of 2000<hi rend="superscript">l</hi> besides, above 500<hi rend="superscript">l</hi> to <persName ref="ppl:gw1" n="per692">my brother<lb/>
               George</persName> the Heire, with the payment of 300<hi rend="superscript">l</hi> Debt of that Estate<lb/>
               and the losse of all <rs ref="ppl:cw1" n="per693" type="person">my father</rs>s Personall Estate given her<lb/>
-              by will as allso; her losse of her Annuity of 300<hi rend="superscript">l</hi> per An{num}<lb/>
+              by will as allso; her losse of her Annuity of 300<hi rend="superscript">l</hi> per An<ex>num</ex><lb/>
               out of <placeName ref="place:Irel_096" n="place261">Ireland</placeName> to the valew due unto her at her death<lb/>
             
             <!-- NOTE [margin] tagged note -->
@@ -7297,7 +7298,7 @@
                     yers A<lb/>
                     widdow 
                 </note>
-                the summe of 300 p{er} An{num}-which never receaved any part<lb/>
+                the summe of 300 p<ex>er</ex> An<ex>num</ex>-which never receaved any part<lb/>
                 thereof. yett notwithstanding all the aforesaid goodnes<lb/>
                 of hers to that Estate; there wanted not some whoe putt<lb/>
                  
@@ -7316,7 +7317,7 @@
                  under the Tuittion of <persName ref="ppl:rw3" n="per695">Dr Widdrington</persName> in <placeName ref="place:Chri_014" n="place264">Christs Colledge</placeName><lb/>
                  maintaining him there all the time, which by reason of <lb/>
                  a sore feavour that seized on him there, he cost her after<lb/>
-                 the Rate of above 100<hi rend="superscript">l</hi> per An{num}.</p>
+                 the Rate of above 100<hi rend="superscript">l</hi> per An<ex>num</ex>.</p>
             <p>All which time his Anuity Lay dormant in the Estate of <rs ref="ppl:cw1" n="per696" type="person">my<lb/>
                  father</rs>, which I supose was some advantage to the Heire.<lb/>
                  In fine, great &amp; many were the good &amp; Charitable Acts<lb/>
@@ -7345,7 +7346,7 @@
                  her discreet ordering her affaires in her Estate that the<lb/>
                  Tennants grew Rich affter little time in those distracti-<add place="above">ons</add><lb/>
                  And since have infinittly bewailed her losse whose per<add place="above">son</add><lb/>
-                 Liveing they had soe great an hon{our} for.</p>
+                 Liveing they had soe great an hon<ex>our</ex> for.</p>
             <p>It was very observable, that she out lived those sad<lb/>
                  troubles upon the Kingdom in part though not till the<lb/>
                  restoration of our happie <persName ref="ppl:cs2" n="per697">King Charles the 2<hi rend="superscript">d</hi></persName> whose come<lb/>
@@ -7369,7 +7370,7 @@
             <!-- [endnote] [decoration] Patterned border -->
              </head>
           <milestone n="ev106" unit="event"/><!-- NOTE event mother's illness -->  
-            <p>It pleased God to vissitt my Deare &amp; hon{oured} mother<lb/>
+            <p>It pleased God to vissitt my Deare &amp; hon<ex>oured</ex> mother<lb/>
                  The <persName ref="ppl:aow1" n="per700">Lady Wandesford</persName>, with her last sickenesse. uppon<lb/>
                  <date when-custom="1659-11-17">friday the 17<hi rend="superscript">th</hi> of november 1659</date> beginning then with an<lb/>
                  exceeding great Cough; which tormented her Bodie with<lb/>
@@ -7685,7 +7686,7 @@
             
             Blessing to his Childeren, she begged of God Almighty<lb/>
                  for us all; Affter which I tooke the sadest last leave of <rs ref="ppl:aow1" n="per719" type="person">my<lb/>
-                 Deare &amp; hon{oured} mother</rs>, as ever childe did; to part with <lb/>
+                 Deare &amp; hon<ex>oured</ex> mother</rs>, as ever childe did; to part with <lb/>
                  so great &amp; Excelent a Parent &amp; infinit Comfort.</p>
             <p>And yet the great greife I had was increased by <lb/>
                  Reason of her exceeding Torment which she indured; which<lb/>
@@ -7732,7 +7733,7 @@
                  of him. About 4 a clocke my <persName ref="ppl:awn1" n="per721">Aunt Norton</persName> came to <lb/>
                  see her, when she saluted her gladly, biding her well<lb break="no"/>
                  -come deare Sister, what comfort is it to me to see my<lb/>
-                 deare &amp; hon{oured} husbands Sister with her at that time<lb/>
+                 deare &amp; hon<ex>oured</ex> husbands Sister with her at that time<lb/>
                  there ever haveing bin a strict league of affection &amp;<lb/>
                  freindship betwixt them, she was then come to see her mak<lb/>
                  her last end; &amp; Sceane of her life whome she had known<lb/>
@@ -7794,7 +7795,7 @@
                  hansomenesse as those times would afford &amp; considering<lb/>
                  the condittion <add place="above">wee</add> weare in the souliers haveing bin quartered<lb/>
                  amongst us. Though not according to her worth &amp; quality.</p>
-            <p>She was intterred uppon <date when-custom="1659-12-13">Tuesday the 13<hi rend="superscript">th</hi> of Decemb{er}</date> foll{owing}<lb/>
+            <p>She was intterred uppon <date when-custom="1659-12-13">Tuesday the 13<hi rend="superscript">th</hi> of Decemb<ex>er</ex></date> foll<ex>owing</ex><lb/>
                  In the Cheife Place in her owne quire att <placeName ref="place:Catt_010" n="place270">Cattericke Church</placeName><lb/>
                  She haveing Repaired the same all that sommer at her<lb/>
                  owne Charges to the valew of above twenty Pounds.</p>
@@ -7831,7 +7832,7 @@
             <p>her whole Age where in she lived, was Threescore<lb/>
                  &amp; seaven yeares, and 11 months, &amp; ode daies<lb/>
                  soe that she died in a good old Age; full of good works<lb/>
-                 &amp; vertue &amp; hon{our} to all of her Famalie &amp; Countery<lb/>
+                 &amp; vertue &amp; hon<ex>our</ex> to all of her Famalie &amp; Countery<lb/>
                  To the Lords most Infinitt Majestie be all Glory<lb/>
                  &amp; praise for his great goodnesse &amp; mercy extended<lb/>
                  to me, &amp; us all through <rs ref="ppl:aow1" n="per742" type="person">this deare Parent</rs> of ours<lb/>
@@ -7882,10 +7883,10 @@
                  Corporall foode; soe my Soule may (from the hunger<lb break="no"/>
                  -starving of sinne), bee strengthened by thy blessed<lb/>
                  bodie, &amp; washed by thy precious blood from all her<lb/>
-                 sinnes. Amen. <note place="end">
+                 sinnes. Amen. <g/><note place="end">
                     <p rend="Endnote Text"> [decoration] Flourish after ‘Amen’.</p>
                 </note>
-                <!-- Q [teams] [decoration] the "flourish" not likely to be easy to represent in text! -->
+                <!-- Q [teams] [glyph] not likely to be easy to represent in text! -->
             </p>
           </div>
           <div n="div75">     
@@ -8095,11 +8096,11 @@
                  factious Army of <persName ref="ppl:jl2" n="per764">Lambert</persName> through each County was hee<lb/>
                  Alarum'd with there cries, &amp; pettitions; hoeping there by that<lb/>
                  this might be the best way to Establish Peace in Church &amp;<lb/>
-                 State, &amp; restablish <rs ref="ppl:cs2" n="per765" type="person">the King</rs> in his Throne in hon{our} &amp; Safety.</p>
+                 State, &amp; restablish <rs ref="ppl:cs2" n="per765" type="person">the King</rs> in his Throne in hon<ex>our</ex> &amp; Safety.</p>
             <p>Thus by the infinitt goodnesse of God, this was effected acc-<lb break="no"/>
                  -ordingly, for imeadiately affter That Parliament was<lb/>
                  caled &amp; sett; They votted with great alacrity, his majesties<lb/>
-                 returne in hon{our} &amp; safety to his Kingdome, affter 12 yeares<lb/>
+                 returne in hon<ex>our</ex> &amp; safety to his Kingdome, affter 12 yeares<lb/>
                  banishment or there about;<anchor n="ev122"/> And now the <hi style="font-family:Segoe UI Symbol">♡</hi><hi rend="superscript">s</hi> &amp; tounges of<lb/>
                  all faithfull Loyall People in these Kingdomes was even full<lb/>
                  of Joy. &amp; admiration: not knowing how to shew forth there<lb/>
@@ -8192,7 +8193,7 @@
                  with justice &amp; Pietie, soe doe thou heare the requests of<lb/>
                  his lips, grant him the desire of his heart. in thy true faith<lb/>
                  &amp; prevent both his desires &amp; requests, with the blessings of thy<lb/>
-                 goodnesse: &amp; grace: give him great hon{our} &amp; reverence in<lb/>
+                 goodnesse: &amp; grace: give him great hon<ex>our</ex> &amp; reverence in<lb/>
                  the sight of his People, whom thou hast restored to each other</p>
             <p>And of all the Nations round about: lett all his Enimies feell<lb/>
                  thine hand, &amp; put them to flight that rise up against him or<lb/>
@@ -8461,7 +8462,7 @@
             
             Blessed Portion of Scripture. which our deare Saviour spake<lb/>
                 in St Matt. the 11 chap. &amp; 28. 29. 30. verces;<note place="end">
-                    <p> <!-- [bib]--> Matthew 11:28-30: ‘Come vnto me all yee that labour, and are heauy laden, and I will giue you rest. Take my yoke vpon you, and learne of me, for I am meeke and lowly in heart: and yee shall find rest vnto your soules.For my yoke is easie, and my burden is light.’</p>
+                    <p> [bib] Matthew 11:28-30: ‘Come vnto me all yee that labour, and are heauy laden, and I will giue you rest. Take my yoke vpon you, and learne of me, for I am meeke and lowly in heart: and yee shall find rest vnto your soules.For my yoke is easie, and my burden is light.’</p>
                 </note> which like the<lb/>
                  Lightning breakeing in to a darke place; thus it pearced<lb/>
                  into the secrett darkenesse of my sorrowfull heart &amp; dejected<lb/>
@@ -8627,9 +8628,9 @@
             <milestone n="ev128" unit="event"/>
             <p>For he appointing, meanes blessed the same to me. soe that by <lb/>
                  degrees I was strengthened in bodie, &amp; in a great part recov-<lb break="no"/>
-                 -ered health though not perfectly, for a q{uarte}r of a yeare beeing<lb/>
+                 -ered health though not perfectly, for a q<ex>uarte</ex>r of a yeare beeing<lb/>
                  brought so exceeding weake in my sickenesse.</p>
-            <p><date>But with in a q{uarte}r affter</date>: I found my selfe with quicke Childe<lb/>
+            <p><date>But with in a q<ex>uarte</ex>r affter</date>: I found my selfe with quicke Childe<lb/>
                  which was a miracle to know or believe. And a blessing beyond<lb/>
                  hope or expectation. affter so dangerous &amp; desperate a<lb/>
                  sickenesse. wherein the <persName ref="ppl:rw1" n="per784">Dr wittie</persName> did believe, it was impossible<lb/>
@@ -8883,7 +8884,7 @@
                  it behooved me to looke with a more narrow search into my<lb/>
                  Soule &amp; examine how my thoughts &amp; desires were inclined<lb/>
                  to accept of death; whose time of life heere: very probably<lb/>
-                 might be short. this was <rs ref="ppl:rt2" n="per816" type="person">my 7<hi rend="superscript">th</hi> childe</rs> which the Lord had give{n}<lb/>
+                 might be short. this was <rs ref="ppl:rt2" n="per816" type="person">my 7<hi rend="superscript">th</hi> childe</rs> which the Lord had give<ex>n</ex><lb/>
                  me to conseave. I had more strong apprehentions of my<lb/>
                  change, in regard it was both <rs ref="ppl:edg1" n="per817" type="person">my husbands mother</rs>s num-<lb break="no"/>
                  ber &amp; my owne; This did more lively perswade, that as de<lb break="no"/>
@@ -9003,11 +9004,11 @@
                  his Articles of Marriage drawne betwixt my mother &amp; him<lb break="no"/>
                  -selfe before marriage; which yet had not bin done soe clearely<lb/>
                  in the first Deeds, but soe in favour of <persName ref="ppl:wt1" n="per826">Mr T.</persName> that it would<lb/>
-                 not only breed scruples; but were directly contrary to the s{ai}d<lb/>
+                 not only breed scruples; but were directly contrary to the s<ex>ai</ex>d<lb/>
                  Articles leaveing Power for him to dissinherit my Child<lb/>
                  This was neither knowne <add place="above">to</add> nor mistrusted by <persName>my dere mot.</persName><lb/>
                  nor <del rend="strikethrough">to</del> my selfe; but in my late sickenesse; when <rs type="person">a freind</rs><!-- Q [people] is this friend identifiable elsewhere? --> did<lb/>
-                 looke on the s{ai}d writings found them soe: &amp; made it appeare<lb/>
+                 looke on the s<ex>ai</ex>d writings found them soe: &amp; made it appeare<lb/>
                  to <persName ref="ppl:wt1" n="per827">Mr Thornton</persName>: which indeed he was then willing to correct<lb/>
                  but it was defferred till this time.</p>
             <p>And now beeing more sencible of what Evill might succed if<lb/>
@@ -9030,7 +9031,7 @@
                 <lb/>
                  had taken away for theire sattisfaction, with other Charges<add place="above">in building the house</add><lb/>
                  All my English Portion of 1500<hi rend="superscript">l</hi> that Estate of <placeName ref="place:Burn_005" n="place308">Burne Parke</placeName><lb/>
-                 of one hundred pound; per An{num} settled before marriage on<lb/>
+                 of one hundred pound; per An<ex>num</ex> settled before marriage on<lb/>
                  my yonger Children for maintenance &amp; Portions: it was<lb/>
                  sould for this Debts; And allso with the disbursment of the<lb/>
                  somme of 300<hi rend="superscript">l</hi> I laid out for the house since my mothers death<lb/>
@@ -9049,7 +9050,7 @@
                  from <rs ref="ppl:cw1" n="per830" type="person">my father</rs>: 2500<hi rend="superscript">l</hi> from my mother; in Land;<lb/>
                  Monies; Plate: goods to the valew of one thousand Pounds<lb/>
                  besides the advantage of 8 yeares table: with our selves: Child<lb/>
-                 &amp; servants stood in 200<hi rend="superscript">l</hi> per An{num}.</p>
+                 &amp; servants stood in 200<hi rend="superscript">l</hi> per An<ex>num</ex>.</p>
             <p>upon the serious consideration of these things: I was in <lb/>
                  much deliberation whoe I should gett to doe this charita<lb break="no"/>
                  -ble office for us: And upon my Adressess to the Lord my<lb/>
@@ -9098,14 +9099,14 @@
                  was soe great that he was compelld to lessen his Estate in-<lb break="no"/>
                  part to free the rest; Nor could he leave more for his yon-<lb break="no"/>
                  ger childrens Maintenance, &amp; Education, &amp; Portions, then <lb/>
-                 <placeName ref="place:Lays_032" n="place311">Laistrop</placeName>; which was about 100<hi rend="superscript">l</hi> per. An{num} And this did <lb/>
+                 <placeName ref="place:Lays_032" n="place311">Laistrop</placeName>; which was about 100<hi rend="superscript">l</hi> per. An<ex>num</ex> And this did <lb/>
                  not sattisifie those peoples, humours, as I was tould<lb/>
                  by <rs ref="ppl:wt1" n="per838" type="person">my deare husband</rs>; because it was not Charged<lb/>
                  with debts first to precead my Childrens Provission<lb/>
                  Albeit we had by mutuall consent sett over A debt<lb/>
                  from <persName ref="ppl:cw2" n="per839">Sr Christopher wand.</persName> out of <placeName ref="place:Irel_096" n="place312">Ireland</placeName> for 7. yeares of<lb/>
-                 200<hi rend="superscript">l</hi> per An{num}: which was by agreement to sattesfie for<lb/>
-                 my 1000<hi rend="superscript">l</hi> Portion: &amp; the Debt which <rs ref="ppl:wt1" n="per840" type="person">my husband</rs> had p{ai}d<lb/>
+                 200<hi rend="superscript">l</hi> per An<ex>num</ex>: which was by agreement to sattesfie for<lb/>
+                 my 1000<hi rend="superscript">l</hi> Portion: &amp; the Debt which <rs ref="ppl:wt1" n="per840" type="person">my husband</rs> had p<ex>ai</ex>d<lb/>
                  to <persName ref="ppl:rn1" n="per841">nettelton</persName>. Also the 1000<hi rend="superscript">l</hi> which was Left of the saile of<lb/>
             
 
@@ -9117,7 +9118,7 @@
                 <fw type="pageNum">203.</fw> <lb/>
             
             <placeName ref="place:Burn_005" n="place313">Burne Parke</placeName> was laid outt in a Rent Charge out of <persName ref="ppl:ls1" n="per842">Mr<lb/>
-                 Laurance Sayers</persName> Land of 80<hi rend="superscript">l</hi> per An{nu}m. This was deput<lb/>
+                 Laurance Sayers</persName> Land of 80<hi rend="superscript">l</hi> per An<ex>nu</ex>m. This was deput<lb/>
                  ed for the Debts: All which did amount to the somme of 3000<hi rend="superscript">l</hi><lb/>
                  nor did the Debts of <persName ref="ppl:wt1" n="per843">Mr Thornton</persName> amount to that somme by<lb/>
                  600<hi rend="superscript">l</hi> Neverthelesse by the sequell of all it did appeare; that<lb/>
@@ -9139,7 +9140,7 @@
             <p>There was left only <placeName>Newton</placeName> which was my Joynture settled<lb/>
                  soe on my heire. that it could not be cut off with out my consent<lb/>
                  in passing a fine: nor was the Rents ever more cleare then<lb/>
-                 seaven score p{ai}d a yeare. of it.</p>
+                 seaven score p<ex>ai</ex>d a yeare. of it.</p>
             <anchor n="ev135"/>
             <p>And now I hartely thanke my gracious God who gave me<lb/>
                  opportunity to gett this don; for the sattisfaction of my<lb/>
@@ -9234,7 +9235,7 @@
                  came unto him. by it helped me. soe that the flux stayed by degres<lb/>
                  Till <persName ref="ppl:rw1" n="per852">Dr Wittie</persName> was come. when affter the use of other meanes I<lb/>
                  was delivered, &amp; spaired at that time. from that Death soe nigh:<lb/>
-                 but brought soe exceeding weake. that the Effects lasted till <date when-custom="1663-02-02">Cand{lemas}</date><lb/>
+                 but brought soe exceeding weake. that the Effects lasted till <date when-custom="1663-02-02">Cand<ex>lemas</ex></date><lb/>
                  upon my body by fitts; yet did I recover my milke againe</p>
             <anchor n="ev138"/>
             <p>But oh, O Lord, most high &amp; loveing father, wherefore are <lb/>
@@ -9279,7 +9280,7 @@
                  How can I suficiently sett forth thy noble Praise. which<lb/>
                  cannot expresse the mercys, nor goodnesse I have Receaved.<lb/>
                  O Lord lett thy Holy Spiritt inspire my heart, &amp; inliven<lb/>
-                 my dull Soule to utter forth thy Hon{our} holinesse, goodnes<lb/>
+                 my dull Soule to utter forth thy Hon<ex>our</ex> holinesse, goodnes<lb/>
                  loveing kindnesse of the Lord to me his poore unworthy ser<lb break="no"/>
                  -vant &amp; to the sons of men. and that forever.</p>
             <p>Doe not forgett O my Sad Soule what the Lord hath don for<lb/>
@@ -9334,7 +9335,7 @@
             <p><persName ref="ppl:rt2" n="per857">My Son Robert</persName> was baptized on <date when-custom="1662-09-20">Satterday the 20<hi rend="superscript">th</hi> of<lb/>
                  September 1662</date> by <persName ref="ppl:wl1" n="per858">Mr Luckock</persName> att our House in <placeName ref="place:East_019" n="place316">Easte<lb/>
                  Newton</placeName> <add place="above">in</add> my owne Chamber, where the Lord gave me opportunity<lb/>
-                 to see his admittance into the Church Millittan. by holy Sac{rament}<lb/>
+                 to see his admittance into the Church Millittan. by holy Sac<ex>rament</ex><lb/>
                  of Baptisme; when I hope the Lord did enter into Covenant<lb/>
                  with him to be his God: &amp; he to be his faithfull servant to his<lb/>
                  lives end: The Lord give him allso the Grace of this meanes<lb/>
@@ -9449,7 +9450,7 @@
                  my owne to desire to in trust with theire Education if he did soe<lb/>
                  For my Son: The hope of my house: I humblie committed him<lb/>
                  into the Propection of Almighty God. as allso his two sisters<lb/>
-                 And for his Education, into the caire of my deare &amp; hon{oured} Uncle<lb/>
+                 And for his Education, into the caire of my deare &amp; hon<ex>oured</ex> Uncle<lb/>
                  My <persName ref="ppl:jf1" n="per876">Lord frechvile</persName>: <persName ref="ppl:atc1" n="per877">my Daughter Alice</persName> to: my deare <persName ref="ppl:awn1" n="per878">Aunt<lb/>
                  Norton</persName>: and <persName ref="ppl:ktp1" n="per879">my Daughter Katherine</persName>: to <persName ref="ppl:kdb1" n="per880">my deare neece<lb/>
                  Best</persName>: with strict charge to bring them up in the nurture &amp; feare<lb/>
@@ -9487,7 +9488,7 @@
                  to my <persName ref="ppl:jf1" n="per886">Lord frechville</persName>.</p>
             <p>Haueing Intrusted all the Cheife Consernes &amp; Evidences <lb/>
                  for my deare Children with in a little Red Lether Truncke<lb/>
-                 Locked. I delivered the same to him according to our agrem{en}t<lb/>
+                 Locked. I delivered the same to him according to our agrem<ex>en</ex>t<lb/>
                  Laing a great charge &amp; injunction: with my earnest desire<lb/>
                  that he would keepe that Truncke safe. and if it pleased<lb/>
                  God to take me; then to deliver the same with his owne hand<lb/>
@@ -9647,7 +9648,7 @@
                  but surely we have offended &amp; don amisse; either in negli-<lb break="no"/>
                  -gence or remissenesse, or forgettfullnesse of our duties, to thee<lb/>
                  or our nighbour. forgetting our deliverances &amp; mercys bestowed<lb/>
-                 or to give thee the hon{our} of all thy workes &amp; goodnesse to us<lb/>
+                 or to give thee the hon<ex>our</ex> of all thy workes &amp; goodnesse to us<lb/>
                  ever since we have bin in the married Estate. I beseech thee<lb/>
                  heare my cries &amp; accept my groanes &amp; Teares. Pardon our<lb/>
                  sins &amp; accept us to mercy &amp; favour againe. That we may <lb/>
@@ -9669,7 +9670,7 @@
                  husband</rs> &amp; my selfe. and as thou hast given us new lives.<lb/>
                  give us allso new <hi style="font-family:Segoe UI Symbol">♡</hi><hi rend="superscript">s</hi> to serve thee. O Lord accept this sacrifice<lb/>
                  of Praise &amp; thanks even to thee o holy Trinity be all Posible<lb/>
-                 Glory. &amp; hon{our} Power &amp; might asscribed for <add place="above">our</add> preservations<lb/>
+                 Glory. &amp; hon<ex>our</ex> Power &amp; might asscribed for <add place="above">our</add> preservations<lb/>
                  for ever &amp; for ever. Amen. Amen.</p>
             
             </div>
@@ -9720,7 +9721,7 @@
                  measurs of sprittuall mercys &amp; incomes of his grace soe many<lb/>
                  that my <hi style="font-family:Segoe UI Symbol">♡</hi> &amp; tongue cannot expresse them with out that which I had<lb/>
                  bin miserable. therefore to the glory of his Name I ascribe the<lb/>
-                 hon{our} of my Creation out of nothing, makeing me Capable of<lb/>
+                 hon<ex>our</ex> of my Creation out of nothing, makeing me Capable of<lb/>
                  salvation beyond the Essence of Angells. those glorious spirits<lb/>
                  The inestimable mercy of giveing Redemption to the world.<lb/>
             
@@ -9801,7 +9802,7 @@
                  1400<hi rend="superscript">l</hi> by mortgage upon Laistrop. in soe doeing there was<lb/>
                 not one penny could be secured for <rs ref="ppl:atc1 ppl:ktp1" n="per931" type="person">my two Poore Daught<add place="above">ers</add></rs><lb/>
                  either maintenance or Portion, till after the payment of<lb/>
-                 that Debt. &amp; there was but 100<hi rend="superscript">l</hi> per an{num} for all: And also<lb/>
+                 that Debt. &amp; there was but 100<hi rend="superscript">l</hi> per an<ex>num</ex> for all: And also<lb/>
                  that <persName ref="ppl:cw2" n="per932">my brother Christ.</persName> Rent Charge out of <placeName ref="place:Irel_096" n="place330">Ireland</placeName> was secu-<lb break="no"/>
                  -red to them allso: for 7 yeares 200<hi rend="superscript">l</hi> a yeare.</p>
             <p>which condition I could not, but lament; nor had I got <add place="above">a</add> sight<lb/>
@@ -9822,7 +9823,7 @@
                  of that extreamity. Soe that my losse of Spiritts &amp; strength &amp;c<lb/>
                  was so great that it was expected I should have fallen<lb/>
                  into a deepe consumption. And I contineued exceeding<lb/>
-                 feeble &amp; weake till the <date when-custom="1667-02-02">Candlemas foll{owing}</date> The cheife remidie<lb/>
+                 feeble &amp; weake till the <date when-custom="1667-02-02">Candlemas foll<ex>owing</ex></date> The cheife remidie<lb/>
                  which I found for restoreing strength. was a meadicine made<lb/>
                  of Muskedine, which I was directed to by my noble &amp;. <lb/>
             
@@ -9967,7 +9968,7 @@
                  qualifications for the great &amp; high calling of the Ministery.</p>
             <p>Which in it selfe considered carries allong with it. the most noble<lb/>
                  Title that man is capable of in this world, &amp; wherein the highest,<lb/>
-                 Acts of Pietie &amp; Religion is vested. beeing hon{oured} by God <lb/>
+                 Acts of Pietie &amp; Religion is vested. beeing hon<ex>oured</ex> by God <lb/>
                  himselfe in the old &amp; new Testament. Above all other Dignitys<lb/>
                  &amp; haveing the greatest opportunity of drawing neare to the Thron<add place="above">e</add><lb/>
                  of Grace from whence proseeds every good &amp; perfect gift.<lb/>
@@ -10052,7 +10053,7 @@
                  humbly blesse &amp; praise his holy name she passed the dan<lb break="no"/>
                  -ger of Death begining to heale. her extreamity beeing <lb/>
                  soe great crieing night &amp; day that I was forced to be re-<lb break="no"/>
-                 -moved though very weake as before into the Scarlett Chamb{er}<lb/>
+                 -moved though very weake as before into the Scarlett Chamb<ex>er</ex><lb/>
                  for want of rest. Blessed be our gracious God through<lb/>
                  his infinitt mercy directing to good helpes &amp; prospering the<lb/>
                  meanes she was Preserved &amp; healed againe. <persName ref="ppl:ha1" n="per955">Hanna<lb/>
@@ -10106,7 +10107,7 @@
                  sad &amp; afflicting hand of God by reason of the want of the<lb/>
                  use of his understanding which came to him by a deepe<lb/>
                  Malancolie seising upon his spiritt Partly for the losse of<lb/>
-                 of my s{ai}d Brother. &amp; the greife he tooke upon ill usage<lb/>
+                 of my s<ex>ai</ex>d Brother. &amp; the greife he tooke upon ill usage<lb/>
                  in the detaining of his Annuity. he beeing of a sweete<lb/>
                  noble nature, it wrought the more to his Prejudice.</p>
             <p>But I doe believe that what things of this nature, to any<lb/>
@@ -10178,7 +10179,7 @@
                  In fine he was soe hopefully good &amp; pregnant, that <rs ref="ppl:aow1" n="per970" type="person">my mot.</rs><lb/>
                  had much comfort &amp; all his relations joy in him. beeing<lb/>
                  full of expectations that this early plant might flourish to<lb/>
-                 the hon{our} &amp; happiness of the whole family. But <add place="above">it</add> soe hapned. <lb/>
+                 the hon<ex>our</ex> &amp; happiness of the whole family. But <add place="above">it</add> soe hapned. <lb/>
                  to our great greife; that <milestone n="ev166" unit="event"/>this malancoly seising on him first at<lb/>
                  <placeName ref="place:Camb_007" n="place340">Cambrige</placeName> in a great sicknesse. then he was by an infinitt<lb/>
                  caire &amp; cost of <rs ref="ppl:aow1" n="per971" type="person">my mother</rs>, he was perfectly well againe. but<lb/>
@@ -10201,7 +10202,7 @@
                  rme all his life towards him. when he wanted nothing<lb/>
                  for his comfort &amp; helpe that either hee <del rend="strikethrough">could</del> or<rs ref="ppl:aow1" n="per974" type="person"> my mot.</rs><lb/>
                  could doe for him. She every yeare giveing that Dr a<lb/>
-                 gratituity of 10<hi rend="superscript">l</hi> for his paines &amp; caire over <rs ref="ppl:jw1" n="per975" type="person">my brot{her}</rs><lb/>
+                 gratituity of 10<hi rend="superscript">l</hi> for his paines &amp; caire over <rs ref="ppl:jw1" n="per975" type="person">my brot<ex>her</ex></rs><lb/>
                  soe long as the Dr lived. Allthough even then he wan<lb/>
                  ted to discharge the mans house where he laid. out of<lb/>
                  his owne dues &amp; Annuity.<anchor n="ev166"/> but I am sorrey there was<lb/>
@@ -10213,7 +10214,7 @@
                  as hansome a solemnity as could be in that time. <persName ref="ppl:tc1" n="per976">Mr Comber</persName><lb/>
                  preached a Funerall Sermon. Text. Eclle.<lb/>
                  there beeing abundance of People on that occassion he<lb/>
-                 was buried the <date when-custom="1666-12-03">3<hi rend="superscript">d</hi> Decemb{er}</date> <persName ref="ppl:xt5" n="per977">Mr Tirrill</persName> &amp; <rs>his wife</rs> &amp; servant<lb/>
+                 was buried the <date when-custom="1666-12-03">3<hi rend="superscript">d</hi> Decemb<ex>er</ex></date> <persName ref="ppl:xt5" n="per977">Mr Tirrill</persName> &amp; <rs>his wife</rs> &amp; servant<lb/>
                  all expressing very great sorrow &amp; lamentation for him<lb/>
                  whoe had lived soe innocently; &amp; carried him selfe<lb/>
                  soe hansomely &amp; well that had gained there affections &amp;<lb/>
@@ -10271,7 +10272,7 @@
                     <p rend="Endnote Text"> [word] For once, honour here is NOT abbreviated – also demonstrates AT would spell this with ‘u’.</p>
                 </note> even to all generations.</p>
             <p>Make me O Lord: to esteeme it thy free act of Grace to me<lb/>
-                 that I have never bin visited in the least with this kind of affli{ction}<lb/>
+                 that I have never bin visited in the least with this kind of affli<ex>ction</ex><lb/>
                  for thou alone has preserved me there from. which might have<lb/>
                  befalen me as to many of thy deare servants in this world<lb/>
                  by there other troubles of this life. O Lord except my humble<lb/>
@@ -10357,7 +10358,7 @@
             <!-- [endnote] [decoration] Double line here. -->
             </head>
           <milestone n="ev172" unit="event"/>  
-            <p>About the <date when-custom="1667-01-25">25<hi rend="superscript">th</hi> of Jan{uary}</date> <persName ref="ppl:atc1" n="per989">Naly</persName> tooke Phisicke to prevent the<lb/>
+            <p>About the <date when-custom="1667-01-25">25<hi rend="superscript">th</hi> of Jan<ex>uary</ex></date> <persName ref="ppl:atc1" n="per989">Naly</persName> tooke Phisicke to prevent the<lb/>
                  Smale Pox. when she fell to be very ill pained in her head<lb/>
                  &amp; backe on <date when-custom="1667-01-26">the 26<hi rend="superscript">th</hi></date> she beeing very ill &amp; sicke in an Aguish<lb/>
                  temper <date when-custom="1667-01-27/1667-01-28">the 27 &amp; 28<hi rend="superscript">th</hi></date> till the smale Pox appeared. beeing for<lb/>
@@ -10366,7 +10367,7 @@
                  very patiently &amp; did <add place="above">not</add> talke Idle as usuall in such dis<lb/>
                  eases. though there was little hopes of her recovery. <add place="above">They</add> beeing<lb/>
                  stroke in through her could sweats; yet was all remidies<lb/>
-                 used to her for warmth by <persName ref="ppl:ha1" n="per990">Hanna</persName>. &amp; c. &amp; Cordialls by <persName ref="ppl:tp1" n="per991">bro{ther}<lb/>
+                 used to her for warmth by <persName ref="ppl:ha1" n="per990">Hanna</persName>. &amp; c. &amp; Cordialls by <persName ref="ppl:tp1" n="per991">bro<ex>ther</ex><lb/>
                  Portington</persName>. But <date when-custom="1667-01-29">on the 29</date> it pleased the great &amp; gracious<lb/>
                  God, he did begin to give us better hopes. the smale Pox then<lb/>
                  comeing out &amp; apeare. she was in a warmer temper. not<lb/>
@@ -10375,7 +10376,7 @@
                  <date when-custom="1667-02-05">the 5<hi rend="superscript">th</hi> of feb.</date> beeing exceedingly choaked in her throat. &amp;<lb/>
                  could not swallow, allmost any thing with out a Pipe for the<lb/>
                  smale Pox &amp; streit throat. nor did she gett any sleepe<lb/>
-                 till <date when-custom="1667-02-03">the 3<hi rend="superscript">d</hi> feb{ruary}</date> After which she gott a little &amp; <date when-custom="1667-02-04">the 4<hi rend="superscript">th</hi></date> her Eyes began<lb/>
+                 till <date when-custom="1667-02-03">the 3<hi rend="superscript">d</hi> feb<ex>ruary</ex></date> After which she gott a little &amp; <date when-custom="1667-02-04">the 4<hi rend="superscript">th</hi></date> her Eyes began<lb/>
                  to unclose. <date when-custom="1667-02-05">the 5<hi rend="superscript">th</hi></date> saw perfectly. &amp; they blackned. &amp; her <lb/>
                  throat mended. &amp; the feaver abated: <date when-custom="1667-02-08">the 8<hi rend="superscript">th</hi> day of feb</date> she<lb/>
                  began to be pretty well. though extreamely full &amp; sore. About<lb/>
@@ -10390,7 +10391,7 @@
                  lives when they weare all soe night many deaths. O Lord<lb/>
                  accept I beseech my gratefull &amp; humble <hi style="font-family:Segoe UI Symbol">♡</hi> which had com-<lb break="no"/>
                  passion upon thy Servants &amp; our Child. Lett us all live to<lb/>
-                 be instruments to thy Glory &amp; hon{our} heere &amp; heere affter: Amen.</p>
+                 be instruments to thy Glory &amp; hon<ex>our</ex> heere &amp; heere affter: Amen.</p>
            
            </div>
  
@@ -10434,7 +10435,7 @@
             <p>
            <milestone n="ev175" unit="event"/> 
                 <date when-custom="1659">In the yeare</date> <hi rend="underline"><date notBefore-custom="1659-12-10" notAfter-custom="1659-12-31">1659</date></hi> when I was att <placeName ref="place:StNi_050" n="place346">St Nickolas</placeName>. affter the<lb/>
-                 death of <rs ref="ppl:aow1" n="per1000" type="person">my deare mot{her}</rs> <persName ref="ppl:ktp1" n="per1001">Kate Thornton</persName> was preserved<lb/>
+                 death of <rs ref="ppl:aow1" n="per1000" type="person">my deare mot<ex>her</ex></rs> <persName ref="ppl:ktp1" n="per1001">Kate Thornton</persName> was preserved<lb/>
                  from choakeing with a pin which gott crosse her throat. which by<lb/>
                  the blessing of God I gott out by my finger; when she was<lb/>
                  nigh death: as allso through his Providence. I preserved<lb/>
@@ -10532,7 +10533,7 @@
 
           <milestone n="ev178" unit="event"/>  
             <p>Of <rs ref="ppl:ct1" n="per1016" type="person">my 9<hi rend="superscript">th</hi> Childe</rs>; it was the pleasure of God to give<lb/>
-                 me a weake &amp; sickely time in breeding <date when-custom="1667-02/1667-05-10">from the Feb{ruary}<lb/>
+                 me a weake &amp; sickely time in breeding <date when-custom="1667-02/1667-05-10">from the Feb<ex>ruary</ex><lb/>
                  till the 10<hi rend="superscript">th</hi> of may following</date>. I not haveing fully recruted<lb/>
                  my last Sept. weakenesse; &amp; if it had bin good in the Eyes<lb/>
                  of my God. I should much rather (because of that) not to<lb/>
@@ -10556,7 +10557,7 @@
                  a blessing to those meanes appointed by Dr wittie for his<lb/>
                  preservation. which order we observed; till towards Sept. <lb/>
                  following.<anchor n="ev179"/> <milestone n="ev180" unit="event"/>But when I grew soe bigge &amp; ill neare my<lb/>
-                 delivery about <date when-custom="1667-09-29">Mick{lemas}</date> he intermitted those rules of di-<lb break="no"/>
+                 delivery about <date when-custom="1667-09-29">Mick<ex>lemas</ex></date> he intermitted those rules of di-<lb break="no"/>
                  rections wanting my assistance about his Person <del rend="strikethrough">to</del><lb/>
                  in my Illnes. he relapsed severall times. And had the Dr<lb/>
                  sent for to him very offten. by which helpes through Gods<lb/>
@@ -10574,7 +10575,7 @@
                 The birth of <rs ref="ppl:ct1" n="per1018" type="person">my 9 childe</rs> was very Perillous to me, &amp; I<lb/>
                  hardly escaped with my life. falling into pangs of Labour<lb/>
                  about <date when-custom="1667-11-04">the 4<hi rend="superscript">th</hi> of no.</date> beeing ill. contineuing that weeke. And on<lb/>
-                 <date when-custom="1667-11-11">Munday the 11 of Novemb{er} 1667</date>. I fell in travell, beeing<lb/>
+                 <date when-custom="1667-11-11">Munday the 11 of Novemb<ex>er</ex> 1667</date>. I fell in travell, beeing<lb/>
                  delivered betwixt the houers of 10 &amp; 11 a clocke at night<lb/>
                  I was to my owne apprehension &amp; others, never nearer<lb/>
                  Death. by the midwives inforcement of the Childe soe violently<lb/>
@@ -10601,7 +10602,7 @@
                  Most hight. lett me still have thee for my God <add place="above">in</add>
                 <note place="end">
                     <p rend="Endnote Text">
-                        <seg rend="background(green)">[insertion] Carat in wrong place syntactically</seg>
+                        <seg rend="background(green)">[insertion] Carat in wrong place syntactically</seg> <!-- NOTE the carat is between "the" and "sweete" -->
                     </p>
                 </note> the sweete<lb/>
                  influences of thy Power &amp; mercy by which the sonnes of men<lb/>
@@ -10665,7 +10666,7 @@
                  strugling. and at length it pleased his Saviour &amp; mine<lb/>
                  after the 5<hi rend="superscript">th</hi> sicke night &amp; day to deliver him out of<lb/>
                  this miserable world. he sweetely fell asleepe on sunday<lb/>
-                 at night. beeing then the <date when-custom="1667-12-01">1<hi rend="superscript">st</hi> of Decemb{er} 1667.</date> who was at<lb/>
+                 at night. beeing then the <date when-custom="1667-12-01">1<hi rend="superscript">st</hi> of Decemb<ex>er</ex> 1667.</date> who was at<lb/>
                  that time 3 weeks old,<anchor n="ev186"/> <milestone n="ev187" unit="event"/>on the next day <date when-custom="1667-12-02">the 2<hi rend="superscript">d</hi></date> when he was<lb/>
                  Buried at <placeName ref="place:Ston_053" n="place351">Stongrave</placeName> by <persName ref="ppl:tc1" n="per1028">Mr Comber</persName>, who preached a<lb/>
                  funerall sermon. <date when-custom="1667-12-02">Dec. 2<hi rend="superscript">d</hi> 1667</date>.<anchor n="ev187"/> // .</p>
@@ -10691,7 +10692,7 @@
                  dittion. I beeing then the lesse able to suport my Spiritts<lb/>
                  under such afflictions. Soe that such strainge uncharit<lb/>
                  able dealing kept me from gathering strength. I not<lb/>
-                 beeing able to stand nor goe. <date when-custom="1668-02">for 4 months: till feb foll{owing}</date><lb/>
+                 beeing able to stand nor goe. <date when-custom="1668-02">for 4 months: till feb foll<ex>owing</ex></date><lb/>
                  wittnessed by those servants that attended me then. &amp;<lb/>
                  was compelld to be carried to, &amp; from my bed in a Chair</p>
             <anchor n="ev188"/>
@@ -10803,7 +10804,7 @@
                  was our settlement Perfected from the time of <persName ref="ppl:rc2" n="per1045">my Co.<lb/>
                  Covill</persName>s beeing destroyed. for either Portions or mainte<lb break="no"/>
                  nance. which went most sadly with me. but now by the great<lb/>
-                 Paines &amp; industery of <persName ref="ppl:jd2" n="per1046">my Brother Denton</persName>. &amp; <persName ref="ppl:tc1" n="per1047">Mr Com{ber}</persName><lb/>
+                 Paines &amp; industery of <persName ref="ppl:jd2" n="per1046">my Brother Denton</persName>. &amp; <persName ref="ppl:tc1" n="per1047">Mr Com<ex>ber</ex></persName><lb/>
                 who we did for my Childrens good imploy <gap reason="deleted" extent="1" unit="char"/>, as a <lb/>
                  freind to them in Generall, as well <add place="above">as</add> in his Perticuler <lb/>
                  respest<note place="end">
@@ -10863,7 +10864,7 @@
                  course could be taken for his preservation. soe that upon<lb/>
                  a serious consideration of his distemper, then inclining<lb/>
                  to malancolicke, he aduised him for the Spaw, where he<lb/>
-                 had bin other yeares with good successe. Upon which <persName ref="ppl:wt1" n="per1060">Mr Th{ornton}</persName><lb/>
+                 had bin other yeares with good successe. Upon which <persName ref="ppl:wt1" n="per1060">Mr Th<ex>ornton</ex></persName><lb/>
                  was very desirous to goe, beleiveing it would helpe him<lb/>
                  And The Dr firmly ingaged to be as cairfull of him<lb/>
                  as his owne Life. Soe upon the <date when-custom="1667-06-05">5<hi rend="superscript">th</hi> of June: 1667</date> we<lb/>
@@ -10881,7 +10882,7 @@
             
                 <fw type="pageNum">237.</fw> <lb/>
             
-            And in the company of <persName ref="ppl:rw1" n="per1063">Dr wittie</persName>. <date when-custom="1667-06-08">the 8<hi rend="superscript">th</hi> of June foll{owing}</date> he went<lb/>
+            And in the company of <persName ref="ppl:rw1" n="per1063">Dr wittie</persName>. <date when-custom="1667-06-08">the 8<hi rend="superscript">th</hi> of June foll<ex>owing</ex></date> he went<lb/>
                  by a hired coach to <placeName ref="place:Scar_045" n="place357">Scarbrough</placeName>. And <date when-custom="1667-07">about a month affter</date><lb/>
                  he returned home on horrse backe. it beeing his owne desire:</p>
             <p>All which time we had a deare &amp; comfortable corrospondancy<lb/>
@@ -11015,7 +11016,7 @@
                 <add place="above">thither</add>
               </subst>  
                 <lb/>
-                 allthough he knew that place was in opposition to <persName ref="ppl:med1" n="per1099">Mad{am} Danby</persName><lb/>
+                 allthough he knew that place was in opposition to <persName ref="ppl:med1" n="per1099">Mad<ex>am</ex> Danby</persName><lb/>
                  &amp; would displease her if she staid any time. but for a while<lb/>
                  she might goe as he thought with out prejudice. this she <lb/>
                  conseavd was allowance. but he spoke very prudently <lb/>
@@ -11064,7 +11065,7 @@
 
             <p>This was only a pretence, though Pride enough: for when<lb/>
                  I sent men &amp; horrses, to bringe her home above 60 miles<lb/>
-                 hence on purpose. she was not pleased. because <persName ref="ppl:tc1" n="per1112">Mr Comb{ber}</persName><lb/>
+                 hence on purpose. she was not pleased. because <persName ref="ppl:tc1" n="per1112">Mr Comb<ex>ber</ex></persName><lb/>
                  came not. but sent them backe empty save with a Letter to<lb/>
                  <persName ref="ppl:jd2" n="per1113">my brother Denton</persName> to invite him under pretence) but rea<lb/>
                  ly the others who she then prosecuted with eager designe<lb/>
@@ -11078,7 +11079,7 @@
                  a beast in his drunkenesse at that house. soe that he would not<lb/>
                  lett me send noe more for her.</p>
             <p>In this time. I was soe farre from giveing her any abuse<lb/>
-                 or remembring these injures. that <persName ref="ppl:med1" n="per1116">Mad{am} Danby</persName> comeing to see<lb/>
+                 or remembring these injures. that <persName ref="ppl:med1" n="per1116">Mad<ex>am</ex> Danby</persName> comeing to see<lb/>
                  me on <date when-custom="1668-05-01">may: day:</date> I soe much soclicited for her that she did<lb/>
                  faithfully ingage to me that for my sake, &amp; not her owne, which<lb/>
                  had personally disobleigd her at <placeName ref="place:Beda_002" n="place367">Beedall</placeName>.<lb/>
@@ -11092,7 +11093,7 @@
                 <fw type="pageNum">241.</fw> <lb/>
             
             before she came to <placeName ref="place:East_019" n="place368">Newton</placeName>. Yet she would doe what she<lb/>
-                 could, &amp; that she would give her 60<hi rend="superscript">l</hi> p{e}r An{num}. &amp; giue her 10<hi rend="superscript">l</hi><lb/>
+                 could, &amp; that she would give her 60<hi rend="superscript">l</hi> p<ex>e</ex>r An<ex>num</ex>. &amp; giue her 10<hi rend="superscript">l</hi><lb/>
                  or 5<hi rend="superscript">l</hi> when she came to see her <add place="above">at a time</add> &amp; give her all her goods aga<add place="above">in</add><lb/>
                  &amp; if she could doe more, she would as she was able &amp;c.<lb/>
                  and did Protest &amp; vowe that she did not take it ill that<lb/>
@@ -11107,10 +11108,10 @@
                 time affter <rs ref="ppl:tbd-spouse" n="per1118" type="person">her husband</rs>s death<!-- Q [people] tom d? -->. &amp; as she found she could doe for<lb/>
                  her she would though she did it out of her owne Estate. for<lb/>
                  my cause to bring them together. although they wanted for<lb/>
-                 nothing now. Upon these tearmes passed <persName ref="ppl:med1" n="per1119">Mad{am} Danby</persName> &amp; my <lb/>
+                 nothing now. Upon these tearmes passed <persName ref="ppl:med1" n="per1119">Mad<ex>am</ex> Danby</persName> &amp; my <lb/>
                  selfe, concluding that I was to waite on her att <placeName ref="place:Malt_035" n="place369">Mallton</placeName> at her <lb/>
                  returne when she would sattisfie me better &amp; doe for her. </p>
-            <p>Haveing receaved this hansome and free account from <persName ref="ppl:med1" n="per1120">Mad{am}<lb/>
+            <p>Haveing receaved this hansome and free account from <persName ref="ppl:med1" n="per1120">Mad<ex>am</ex><lb/>
                  Danby</persName> I diffirred not to give <persName ref="ppl:acd1" n="per1121"><persName ref="ppl:cd4" n="per1122">kett</persName>s wife</persName> the relation of it<lb/>
                  by letter to <placeName ref="place:Howl_025" n="place370">Hooly</placeName> purposly sending one before our last men<lb/>
                  went for her. And her returne for this kindenesse I have <lb/>
@@ -11188,7 +11189,7 @@
                  affter her evill designes was hatched against us at <placeName ref="place:East_019" n="place374">Newton</placeName><lb/>
                  Thiese are full proofe of her great admiration of <rs ref="ppl:tc1" n="per1137" type="person">this man</rs> <lb/>
                  with 100 more triks: Telling him that she had soe great an <lb/>
-                 hon{our} for him. that he deservd a better fortune &amp; wife then<lb/>
+                 hon<ex>our</ex> for him. that he deservd a better fortune &amp; wife then<lb/>
                  she was for there was like to be nothing worthy of his<lb/>
                  Parts &amp; deservings. &amp; that he would be undon, &amp; never live<lb/>
                  comfortable life. &amp; she wished him soe well that she could<lb/>
@@ -11215,7 +11216,7 @@
                  from him for her soule. &amp; she would have don well to have<lb/>
                  shewed her dislike before. &amp; to that purpose. thanking her for<lb/>
                  propounding one of her owne relations to her. for she was <lb/>
-                 not worthy of such a person of hon{our}. And that she hoped to God<lb/>
+                 not worthy of such a person of hon<ex>our</ex>. And that she hoped to God<lb/>
             
 
             <pb n="242"/>
@@ -11235,7 +11236,7 @@
                  standing all <rs ref="ppl:atc1" n="per1143" type="person">my daughter</rs>s observance, &amp; attendance<lb/>
                  on her. Ater<note place="end">
                     <p rend="Endnote Text"> [word] I.e., after</p>
-                 </note> her returne from <placeName ref="place:Howl_025" n="place425">hoouly</placeName>; &amp; <persName ref="ppl:med1" n="per1144">Mad{am} Danby</persName>s<lb/>
+                 </note> her returne from <placeName ref="place:Howl_025" n="place425">hoouly</placeName>; &amp; <persName ref="ppl:med1" n="per1144">Mad<ex>am</ex> Danby</persName>s<lb/>
                  to <placeName ref="place:Malt_035" n="place375">Malton</placeName>. I endeavoured with <persName ref="ppl:wt1" n="per1145">Mr Th.</persName> to gett her comp-<lb break="no"/>
                  any thither. that I might have reconsiled her &amp; <rs ref="ppl:tbd-sister" n="per1146" type="person">her sister</rs>.<lb/>
                  but she could not be prevailed with upon noe tearmes, nor<lb/>
@@ -11264,7 +11265,7 @@
                 <note place="end">
                     <p rend="Endnote Text"> [word] I.e., endeavoured to</p>
                 </note> prevail<del rend="doublestrikethrough">d</del> that she would for my<lb/>
-                 sake give them a sufficient provission. &amp; settle 80<hi rend="superscript">l</hi> per An{num}<lb/>
+                 sake give them a sufficient provission. &amp; settle 80<hi rend="superscript">l</hi> per An<ex>num</ex><lb/>
                  on her &amp; her Child: she said that if she would except<lb/>
                  60<hi rend="superscript">l</hi> a yeare. which was all that she could doe. they should<lb/>
             
@@ -11281,7 +11282,7 @@
                  of all things for it. And if she see them endeavour to live<lb/>
                  she would give her 10<hi rend="superscript">l</hi> or 5<hi rend="superscript">l</hi> at a time for incouragment<lb/>
                  when she came to see her. but I haveing noe committion<lb/>
-                 to accept of 60<hi rend="superscript">l</hi> per An{num}. from <persName ref="ppl:tbd-awt-niece" n="per1152">my neece Danby</persName> but a charge<lb/>
+                 to accept of 60<hi rend="superscript">l</hi> per An<ex>num</ex>. from <persName ref="ppl:tbd-awt-niece" n="per1152">my neece Danby</persName> but a charge<lb/>
                  to the Contrary could not promise for her. only presed for<lb/>
                  80<hi rend="superscript">l</hi> leaveing her to consider of it because 60<hi rend="superscript">l</hi> would not<lb/>
                  pay theire debts. And I would acquaint <persName ref="ppl:acd1" n="per1153">Mrs Danby</persName> with<lb/>
@@ -11296,13 +11297,13 @@
                  as she had don with her Children. she could tell how to live<lb/>
                  otherwise if she might not live hansomly with them.</p>
             <p>After a daies time or two. It was thought fitt I should <lb/>
-                 write to <persName ref="ppl:med1" n="per1156">Mad{am} Danby</persName> againe to second my solicitation for<lb/>
+                 write to <persName ref="ppl:med1" n="per1156">Mad<ex>am</ex> Danby</persName> againe to second my solicitation for<lb/>
                  her: And a letter was contrived by consent. wherein I writ<lb/>
                  with as much humble submission as a Pettioner for another<lb/>
                  could dicttate; only some clauses was put in from <persName ref="ppl:acd1" n="per1157">Mrs<lb/>
                  Danby</persName>s owne mouth, wherein she said she could not subsist<lb/>
                  under 80<hi rend="superscript">l</hi> a yeare; &amp; if it weare till 7 years. &amp; there debts<lb/>
-                 paid. /. <persName ref="ppl:med1" n="per1158">Mad{am} Danby</persName> returnd me a most sharpe &amp; bitter<lb/>
+                 paid. /. <persName ref="ppl:med1" n="per1158">Mad<ex>am</ex> Danby</persName> returnd me a most sharpe &amp; bitter<lb/>
                  Answer: that since I was soe positive for <persName ref="ppl:acd1" n="per1159"><persName ref="ppl:cd4" n="per1160">kitt</persName>s wife</persName>, &amp; that she<lb/>
                  would not except of her free offers by me. which she was not<lb/>
                  obleiged to otherwise then by her good will. she would never<lb/>
@@ -11384,9 +11385,9 @@
                  don in this action. but should have waived any thing, as<lb/>
                  I did of this nature. had it rested there; &amp; not proseeded to<lb/>
                  such high indignities against my person, &amp; the Familie<lb/>
-                 from whence I desended. Persons of hon{our} vertue &amp; worth<lb/>
+                 from whence I desended. Persons of hon<ex>our</ex> vertue &amp; worth<lb/>
                  whose Ashes long since was Buried in the unspotted bed of<lb/>
-                 hon{our} And therefore could be nothing else but of the old<lb/>
+                 hon<ex>our</ex> And therefore could be nothing else but of the old<lb/>
                  Serpents production to defile the bodies when dead) of those<lb/>
                  he had noe part in, when liveing. That through the scandalls<lb/>
                  of theire sides to forge speares to pearce there liveing <lb/>
@@ -11520,7 +11521,7 @@
             <p>Nor was <persName ref="ppl:acd1" n="per1166">Mrs Danby</persName> ignorant of the causes of all my sorr-<lb break="no"/>
                  owes. I haveing imparted to her <add place="above">the</add> knowledge of our Conserns<lb/>
                  Had her Charity bin as much towards the Preservation of<lb/>
-                 my hon{our} untucht in it's Roote &amp; branches, as mine was<lb/>
+                 my hon<ex>our</ex> untucht in it's Roote &amp; branches, as mine was<lb/>
                  to Releive her selfe under my Roofe by all imaginable<lb/>
                  kindnessees &amp; respects: And to have declared what she<lb/>
                  had heard, to my selfe whose Eares may ever ready to hear<lb/>
@@ -11546,7 +11547,7 @@
                  People envied me either a beeing in this world: or the grace<lb/>
                  of God in my actions; who maliciously invented Prod-<lb break="no"/>
                  igeous lies. &amp; fomented them under the pretext of an<lb/>
-                 hon{our} for my person;
+                 hon<ex>our</ex> for my person;
             </p>
 
             <pb n="249"/>
@@ -11650,7 +11651,7 @@
                  as wrong both me &amp; her; but <persName ref="ppl:bt1" n="per1190">Barbara</persName> carried her spleene<lb/>
                  on soe unhansomly with such loud clamors against me &amp;<lb/>
                  her unc<add place="above">h</add>ristianly agravating, accusing. &amp; laughing in<lb/>
-                 scorne against my Person, &amp; the Hon{our} of my Family.</p>
+                 scorne against my Person, &amp; the Hon<ex>our</ex> of my Family.</p>
             <p>Namly in these words like the (old accuser of the breathren)<lb/>
                  that I was naught, <rs ref="ppl:aow1" n="per1191" type="person">my mother</rs>, <rs ref="ppl:kwd1" n="per1192" type="person">my sister</rs>, &amp; all I came on,<lb/>
                  &amp; this soe imprudently before <rs ref="ppl:tbd-enemies" n="per1193" type="person">her mistresse</rs>. That I busst<lb/>
@@ -11658,7 +11659,7 @@
                  such exceeding violence. not beeing able to containe, nor<lb/>
                  answer, much saveing that I could rather 1000 times have<lb/>
                  lost my life then to be robed of those inestimable Jewells<lb/>
-                as the hon{our} of <rs ref="ppl:cw1 ppl:aow1" n="per1194" type="person">my deare &amp; blesed Parents</rs>, &amp; freinds: And<lb/>
+                as the hon<ex>our</ex> of <rs ref="ppl:cw1 ppl:aow1" n="per1194" type="person">my deare &amp; blesed Parents</rs>, &amp; freinds: And<lb/>
                  that I hoped <add place="above">God</add> would judge my cause &amp; theres. Against all<lb/>
                  these slanders of the Deivills inventions. &amp; it like to have<lb/>
                  cost my Life then: had I not had <add place="above">comfort in</add> God, and the testimony<lb/>
@@ -11715,7 +11716,7 @@
                  People as well as the Mother. /</p>
             <p>And all this was don because they failed of there unju<add place="above">s</add>t<lb/>
                  designes; that nought else would sattisfie but a revenge<lb/>
-                 that might remaine to all Posteritie to blaspheame the hon{our}<lb/>
+                 that might remaine to all Posteritie to blaspheame the hon<ex>our</ex><lb/>
                  &amp; good fame of those, which they both did avouch even in <lb/>
                  theire madnesse, they could not charge us with any thing<lb/>
                  Upon my charging of <persName ref="ppl:acd1" n="per1209">Mrs Danby</persName> at that time &amp; <rs ref="ppl:tbd-servant" n="per1210" type="person">her maide</rs><lb/>
@@ -11965,7 +11966,7 @@
                  I did soe. the more unworthy wretch was she that had soe abused<lb/>
                  Me, &amp; to this purpose (the innocentest &amp; faithfull freind she had.)<lb/>
                  At length <rs ref="ppl:awn1" n="per1240" type="person">my good Aunt</rs> soe ordered the bussinesse that she named<lb/>
-                 a day for her goeing; &amp; there was a coach procured from <persName ref="ppl:sg1" n="per1241">Mad{am}<lb/>
+                 a day for her goeing; &amp; there was a coach procured from <persName ref="ppl:sg1" n="per1241">Mad<ex>am</ex><lb/>
                  Grahme</persName>: my noble freind; which carried her to <placeName ref="place:York_060" n="place381">Yorke</placeName> with 2<lb/>
                  servants to waite on her. beeing on <date when-custom="1668-09-11">friday the 11<hi rend="superscript">th</hi> of sept. 68</date>.</p>
             <p>At her departure I gave her to Iher<!-- TODO [teams] "Iher" s/b "supplies" I think --> necessities 3<hi rend="superscript">l</hi> more<lb/>
@@ -12004,7 +12005,7 @@
                  gainst both. for those wounds are incurable which she gave<lb/>
                  &amp; will not leave me to my Grave. Lett noe good Christian<lb/>
                  taxe my Charity. the Sins were of such a nature against my<lb/>
-                 hon{our} &amp; Families; that <add place="above">it</add> would confirme those lies which has bin<lb/>
+                 hon<ex>our</ex> &amp; Families; that <add place="above">it</add> would confirme those lies which has bin<lb/>
                  Against me. And a great dishonour of God &amp; christian Relig<lb break="no"/>
                  -ion: &amp; therefore not of that private conserne, with in the verge of<lb/>
                  my private Charity. as of a petty perticuler injury.</p>
@@ -12102,7 +12103,7 @@
                  trialls retaining a pure mined in an Chaste bodie that I may<lb/>
                  tread the steps of my dearest Saviour. &amp; daily take up his<lb/>
                  Crosse &amp; follow him. Thou hast never failed me O my God<lb/>
-                 even when I was in deepe distresse &amp; anguish of soule &amp; Sp{irit}</p>
+                 even when I was in deepe distresse &amp; anguish of soule &amp; Sp<ex>irit</ex></p>
             <p>All which I take as grand suports of my heart &amp; incoura-<lb break="no"/>
                  gments to serve the Lord with all my <hi style="font-family:Segoe UI Symbol">♡</hi> who hath never failed<lb/>
                  nor forsaken his weake handmaide destitute &amp; despised.<lb/>
@@ -12251,14 +12252,14 @@
                  of thee his Creator, in this Life serving thee faithfully in<lb/>
                  this generation in righteousnesse. And at the last may Joy-<lb break="no"/>
                  fully praise thee in Heaven. All which I most humblie &amp;<lb/>
-                 heartily begge for the lone sake of our dearest Lord &amp; savio{u}r<lb/>
+                 heartily begge for the lone sake of our dearest Lord &amp; savio<ex>u</ex>r<lb/>
                  Jesus Christ his holie son. Amen &amp; Amen.</p>
          </div>
         <div n="div119">
             <head rend="pre(rule) post(rule)">
                 <!-- [endnote] [decoration] Patterned border. -->
                 A relation of the Last sicknesse, and Death of my<lb/>
-                 deare &amp; hon{oured} husband <persName ref="ppl:wt1" n="per1257">Will.<hi rend="superscript">m</hi> Thornton Esq{uire}</persName> whoe<lb/>
+                 deare &amp; hon<ex>oured</ex> husband <persName ref="ppl:wt1" n="per1257">Will.<hi rend="superscript">m</hi> Thornton Esq<ex>uire</ex></persName> whoe<lb/>
                 departed this life at <placeName ref="place:Malt_035" n="place383">Malton</placeName> <date type="death" when-custom="1668-09-17">Sept. 17<hi rend="superscript">th</hi> 1668</date>.
                 <!-- [endnote] [decoration] Double lined border but no pattern. -->
             </head>
@@ -12420,7 +12421,7 @@
                  comforts as deare as my life it selfe, And now to consumate<lb/>
                  my full measure. my dearest Joy, heere is with drawne</p>
             <p>Oh that my sorrowes were weighed. &amp; that the Lord would<lb/>
-                 pittie my distresse. I am still thy creature O Lord by Creatio{n}<lb/>
+                 pittie my distresse. I am still thy creature O Lord by Creatio<ex>n</ex><lb/>
                  Redemption. preservation. sanctification &amp; suportation<lb/>
                  from the Jawes of hell &amp; the Grave.</p>
             <p>Doe not despise thy handiworke. for thou didst make me.<lb/>
@@ -12556,7 +12557,7 @@
                 </note> our com-<lb break="no"/>
                  forts,Iatitude: &amp; that which makes the happenesse compleated<lb/>
                  these injoyments are Etternall with out feares of losseing or<lb/>
-                 shadow of changing. For in heaven we must beleive our Savi{our}<lb/>
+                 shadow of changing. For in heaven we must beleive our Savi<ex>our</ex><lb/>
                  they are as the Angells: nay higher, being drawne nearer to<lb/>
                  God united to <add place="above">devine</add> nature in the Person of the word, in that Hipostati<lb/>
                  call Union of our nature in Christ, who tooke upon him:<lb/>
@@ -12599,7 +12600,7 @@
                 <!-- [endnote]ote Text"> [decoration] Double lines. -->
             
                 Prayers; &amp; Pettions upon this Sad Dispensation<lb/>
-                 of the death of my deare &amp; hon{oured} husband.
+                 of the death of my deare &amp; hon<ex>oured</ex> husband.
                 <!-- [endnote] [decoration] Double lines. -->
             </head>
            
@@ -12823,7 +12824,7 @@
                      Church</placeName> neare <rs ref="ppl:edg1" n="per1294" type="person">his mother</rs><!-- NOTE [people] WT's mother --> &amp; two sweete babes. <persName ref="ppl:ct1" n="per1295">Christofer</persName><lb/>
                  &amp; <persName ref="ppl:jt1" n="per1296">Joyce</persName>. buried on <date when-custom="1668-09-18">friday the 18<hi rend="superscript">th</hi> of September</date> betweene 4<lb/>
                  &amp; 5. a clocke. by <persName ref="ppl:tc1" n="per1297">Mr Thomas Comber</persName>. who Preached his<lb/>
-                 Funerall Sermon. The Text was in Ecclesiast{es} 12<hi rend="superscript">th</hi> v. 1<hi rend="superscript">st</hi><lb/>
+                 Funerall Sermon. The Text was in Ecclesiast<ex>es</ex> 12<hi rend="superscript">th</hi> v. 1<hi rend="superscript">st</hi><lb/>
                  Remember now thy Creator in the daies of thy youth: &amp;c.<lb/>
                  applieing it fittly to that: Occasion. //.</p>
             <anchor n="ev202"/>
@@ -12906,7 +12907,7 @@
                  Fatherlesse Children; &amp; desolate.</p>
             <p>make me thankfull for soe long injoyment, as allso<lb/>
                  for those eminent gifts &amp; Graces, which thou in mercy had<lb/>
-                 indowed him with; To thee be the Hon{our} given, due unto thy<lb/>
+                 indowed him with; To thee be the Hon<ex>our</ex> given, due unto thy<lb/>
                  Name, &amp; o Lord give me the power of thy grace, &amp; strength<lb/>
                  to immitate his virtues, which was called to thy service in<lb/>
                  our youths, &amp; from our youths by thy miraculous Provid<lb/>
@@ -13024,7 +13025,7 @@
                  Christs his sake, the Righteous. To whom with the<lb/>
                  holy Spirritt, The Etternall &amp; Glorious, And Incom-<lb break="no"/>
                  prehensable Father, and for ever Blessed Trinity<lb/>
-                 be ascribed all Hon{our} Glory Power, might. Majestie<lb/>
+                 be ascribed all Hon<ex>our</ex> Glory Power, might. Majestie<lb/>
             
 
             <pb n="279"/>
@@ -13052,7 +13053,6 @@
        <div n="div125" type="poetry">
            <head place="centre" rend="pre(rule)">
                <!-- [endnote] [decoration] Patterned border. -->
-           
                 Our Saviours command. 
            </head>
            
@@ -13065,13 +13065,18 @@
                
             <p> The Just shall live by faith. //</p>
             <p><persName ref="ppl:wt1" n="per1299">Mr Thornton</persName>s motto &amp; my owne.</p>
-            <p>Nisi Christus Nemo:]<note place="end">
-                    <p rend="Endnote Text"> [layout] NB. Brackets here, link the two phrases.</p>
-                </note> None but Christ.}<note place="end">
-                    <p rend="Endnote Text"> [layout] NB. Here, AT clearly uses curly brackets to connect the two phrases and ‘God’ is positioned midway between the two.</p>
-                </note> God</p>
+           <!-- Q [tagging] [curlybraces] [xmlconversion] ugh and i think i would group these differently from transcription... -->
+            <p>Nisi Christus Nemo:]
+                None but Christ.}
+                    <note place="end">
+                        <p rend="Endnote Text"> [layout] NB. Brackets here, link the two phrases.</p>
+                </note> 
+                God</p>
             <p>Tour pour le' Eglize:] All for the Church}</p>
-            <p>Annagrame.</p>
+                <note place="end">
+                    <p rend="Endnote Text"> [layout] NB. Here, AT clearly uses curly brackets to connect the two phrases and ‘God’ is positioned midway between the two.</p>
+                </note> 
+            <p>Annagrame.</p><!-- Q what is the anagram...? -->
            </div>
         <div n="div127" type="poetry" rend="pre(rule)">
                
@@ -13179,7 +13184,7 @@
             <l>Fairewell the<note place="end">
                     <p rend="Endnote Text"> [word] NB. In original reads ‘yea’.</p>
                 </note> gilded follies, pleasing troubles.</l>
-            <l>Fairewell the hon{oured} ragges the Cristall bubbles</l>
+            <l>Fairewell the hon<ex>oured</ex> ragges the Cristall bubbles</l>
             <l>Fame’s but a hollow Eccho, Gold poore Clay.</l>
             <l>Honnour<note place="end">
                     <p rend="Endnote Text"> [word] Spelled out in full in MS.</p>
@@ -13190,7 +13195,7 @@
             <l>And goodly Pageants, proudly Swelling veines</l>
             <l>And blood alied to Greatnesse, is but lone,</l>
             <l>Inheritted, not purchast not our Owne.</l>
-            <l>Fame, Riches, Hon{our}, Beauty, State, Traines, Birth</l>
+            <l>Fame, Riches, Hon<ex>our</ex>, Beauty, State, Traines, Birth</l>
             <l>Are but the faiding Pleasures of the Earth.</l>
             <l>I would be Rich, but see man too unkind,</l>
             <l>Diggs in the Bowels of the Richest Mine.</l>
@@ -13214,7 +13219,7 @@
             <l>Great feared; faire tempted; high still envied more.</l>
             <l>Would the world then adopt me for her Heire.</l>
             <l>Would Beauties Queene intitle me the faire.</l>
-            <l>Fame speake me hon{ours} minion, &amp; could I.</l>
+            <l>Fame speake me hon<ex>ours</ex> minion, &amp; could I.</l>
             <l>With Indian Angells, &amp; a speaking Eye.</l>
             <l>Command baire heads; bowed knees strike Justice <add place="above">Dumb</add>
             </l>
@@ -13352,28 +13357,28 @@
    <!-- Q [structure] nest the following divs? -->
        
       <div n="div137">
-     <!-- Q will need further discussion [tagging] [layout] ugh again. 
-         **My decisions = privilege meaning of words (as I interpret them...) over exact positioning on page. (Including moving a word)**
+          <!-- Q will need further discussion [tagging] [layout] [xmlconversion] ugh again. 
+         **My decisions = privilege meaning of words (as I interpret them...) over exact positioning on page. (Including moving a word :-S)**
          Although the first line is written inside the <head> above, this text is clearly referring to the next section. 
          treat it as a single <note>. and put both insertions inside the next div, not the first one.
-        EXCEPT the word "At" between "placed" and "in" should actually prefix "Kirklington 1629". -->
+        EXCEPT I think the word "At" between "placed" and "in" should actually prefix "Kirklington 1629". -->
       <note place="inline" resp="#awt">
          this must be placed In the first Place Page 8<hi rend="superscript">th</hi> before the<lb/>
          The mesels in <date when-custom="1629">1629</date>     
         </note>
-      <!-- Q [tagging] [layout] ugh. but this clearly a different insertion, much darker ink, could be intended to be added to the title ? -->  
+      <!-- Q [tagging] [layout] ugh. but this clearly a different insertion, much darker ink, could be intended to be added to the title ? if so would be <add> not <note> -->  
        <note place="inline" resp="#awt">
-          <placeName ref="place:Kirk_030" n="place390">At Kirklington</placeName> <date when-custom="1629">1629</date> /
+          At <placeName ref="place:Kirk_030" n="place390">Kirklington</placeName> <date when-custom="1629">1629</date> /
        </note>
         <head rend="pre(rule) post(rule)">
-        [+]<!-- Q [symbol] this matches the margin symbol on p.8 - looks like it is intended to link them together. so they should both be <metamark>??? look up scribal stuff! -->   
+        <g>+</g><!-- Q [glyph] this matches the margin symbol on p.8 - looks like it is intended to link them together. so they should both be <metamark>??? look up scribal stuff! -->   
         Uppon my deliverance from death by a fall.<lb/>
         <note place="end">
             <p rend="Endnote Text"> There is an unusual mark to the left of the title.</p>
         </note>
         when I was 3 years old. // 
         </head>  
-      <!-- Q [tagging] [layout] ugh. and this line is another insertion, below the title border (with a post(rule) of its own, but again *could* be intended to be added to the title. -->   
+      <!-- Q [tagging] [layout] ugh. and this line is another insertion, below the title border (with a post(rule) of its own, but again *could* be intended to be added to the title. In which case it should be <add> rather than <note>. -->   
         <note place="inline" resp="#awt" rend="post(rule)">when I cutt a great wound in my forehead of above an Inch long
         <note place="end">
             <p rend="Endnote Text"> [insertion] This insertion looks to be added after the main body of the text.</p>
@@ -13513,7 +13518,7 @@
                 
             </head>
             <milestone n="ev205" unit="event"/>
-            <p>As <rs ref="ppl:aow1" n="per1307" type="person">my deare mother</rs> <gap reason="deleted" extent="2" unit="char"/> (<rs ref="ppl:cw1" n="per1308" type="person">my hon{oured} Father</rs>) <gap reason="deleted" extent="1" unit="char"/> my selfe &amp;<lb/>
+            <p>As <rs ref="ppl:aow1" n="per1307" type="person">my deare mother</rs> <gap reason="deleted" extent="2" unit="char"/> (<rs ref="ppl:cw1" n="per1308" type="person">my hon<ex>oured</ex> Father</rs>) <gap reason="deleted" extent="1" unit="char"/> my selfe &amp;<lb/>
                  brrothers, <persName ref="ppl:gw1" n="per1309">George</persName>, <persName ref="ppl:cw2" n="per1310">Christopher</persName>, &amp; <persName ref="ppl:jw1" n="per1311">John</persName>. was goeing in the<lb/>
                  Coach to see <placeName ref="place:Kild_091" n="place394">Kildare</placeName> after my father bought it there<lb/>
                  was a narrow place we were to passe by a River Sid.<lb/>
@@ -13745,7 +13750,7 @@
             <head rend="pre(rule) post(rule)">
                 
                 Of the makeing; &amp; Preservation of <rs ref="ppl:cw1" n="per1332" type="person">my dear<lb/>
-                 &amp; hon{oured} Father</rs>s Last will &amp; Testament in<lb/>
+                 &amp; hon<ex>oured</ex> Father</rs>s Last will &amp; Testament in<lb/>
                  <placeName ref="place:Irel_096" n="place401">Ireland</placeName> in the Rebellion. &amp; by what Providenc<lb/>
                 <!-- Q [teams] [layout] date is set in a box lower left corner of the titles, looks like a later insertion -->
                 <note place="left" resp="#awt1">
@@ -13828,7 +13833,7 @@
                 <lb/>
                  by them in quarting them at her owne house. yett could not<lb/>
                  Posibly excuse her selfe Totally from their men &amp; horses.<lb/>
-                 Tho she had duble Pay &amp; was at 01-6 a p{ar}t<note place="end">
+                 Tho she had duble Pay &amp; was at 01-6 a p<ex>ar</ex>t<note place="end">
                     <p rend="Endnote Text"> [word] Cf Anselment n235 – abrreviation for a part/a piece?</p>
                 </note> where<lb/>
                 othrs at <gap reason="deleted" extent="2" unit="char"/> 09. only in a month.</p>
@@ -14055,7 +14060,7 @@
                     <p rend="Endnote Text"> [word] I.e., pleased.</p>
                 </note> with me<lb/>
                  And she did by mercy beare up her head &amp; swimd out<lb/>
-                 aboue halfe a q{uarte}r of a mile crose that dreadfull Rier &amp; by<lb/>
+                 aboue halfe a q<ex>uarte</ex>r of a mile crose that dreadfull Rier &amp; by<lb/>
                  gods great mercys brought me ovr<note place="end">
                     <p rend="Endnote Text"> [word] I.e., ‘over’, variant of o’er.</p>
                 </note> that Rier in safety.<anchor n="ev216"/> which delever<lb/>
@@ -14142,6 +14147,7 @@
     <back>
         <div n="div149" type="index">
             <!-- TODO [index] link items to text -->
+            <!-- Q for teams [transcription] [xmlconversion] probably need to move (some if not all) page refs from current position -->
             <note place="end">
                     <p rend="Endnote Text"> [page numbering] At does not provide page numbers for her ‘Index’, but does so for the entries she has added in. </p>
              </note>
@@ -14197,7 +14203,7 @@
             </item>
             <item>A thanksgiveing upon my Recovery <ref>75</ref>
             </item>
-            <item>Of my Mothers removall to Snape, &amp; Kirklingt{on}. <ref>78</ref>
+            <item>Of my Mothers removall to Snape, &amp; Kirklingt<ex>on</ex>. <ref>78</ref>
             </item>
             <item>My preservation from death in a sicknesse. <ref>84</ref>
             </item>
@@ -14236,7 +14242,7 @@
             of the Warres &amp; Distractions</item>
             <item>The Marriage of my Cosen Mary Norton <ref>117</ref>
             </item>
-            <item>The Marriage of my brother Christ{opher} Wand. <ref>117</ref>
+            <item>The Marriage of my brother Christ<ex>opher</ex> Wand. <ref>117</ref>
             </item>
             <item>The Marriage of Alice Wand. Dec. 15 1654 <ref>118</ref><!-- TODO [index] [curlybraces] this brace is used to --></item>
             <item>A Praier on that occassion<!-- Q [index] this entry is missing page ref? --> <add place="above">&amp; uppon my sickness<!-- TODO [index] [curlybraces] text in this <add> belongs to line above --></add>
@@ -14244,7 +14250,7 @@
             <item>Severall Remarkable passages Since 1651 <ref>126</ref>
             </item>
             <item>Medittations upon the Deliverance of my<lb/>
-            first Childe, &amp; that grand Sicknesse foll{owing} <ref>128</ref><!-- TODO [index] [curlybraces] -->
+            first Childe, &amp; that grand Sicknesse foll<ex>owing</ex> <ref>128</ref><!-- TODO [index] [curlybraces] -->
             </item>
             <item>A prayer &amp; thanksgiveing. <ref>130</ref></item>
             <item>On the Birth of Alice Thornton my 2<hi rend="superscript">d</hi>
@@ -14295,10 +14301,10 @@
             <item>A Praier for the Church, &amp; restoration of</item>
             <item>King Charles the Second. No. 1659. <ref>159</ref>
             </item>
-            <item>A relation conserning my deare &amp; hon{oured}<lb/>
+            <item>A relation conserning my deare &amp; hon<ex>oured</ex><lb/>
             Mother the Lady Wand. and of her death <ref>160</ref><lb/>
-            Decemb{er} 10<hi rend="superscript">th</hi> 1659<!-- TODO [index] [curlybraces] --></item>
-            <item>Three Prayers conserning the holy Commu{nion}<lb/>
+            Decemb<ex>er</ex> 10<hi rend="superscript">th</hi> 1659<!-- TODO [index] [curlybraces] --></item>
+            <item>Three Prayers conserning the holy Commu<ex>nion</ex><lb/>
                 by my deare Mother <ref>178</ref><!-- TODO [index] [curlybraces] -->
             </item>
             <item>My deliverance of my 6<hi rend="superscript">th</hi> Childe. my son<lb/>
@@ -14306,7 +14312,7 @@
             <item>verses upon the incertainty of Earthly comf. <ref>182</ref></item>
             <item>A thanksgiveing for the restoration of the King <ref>183</ref>
             </item>
-            <item>A Prayer with thanksgive{ing} for our Preservat{ion}<lb/>
+            <item>A Prayer with thanksgive<ex>ing</ex> for our Preservat<ex>ion</ex><lb/>
                 from destruction, in this Church &amp; State <ref>184</ref><!-- TODO [index] [curlybraces] -->
             </item>
             <item>A discourse upon Mr Thorntons removall<lb/>
@@ -14330,7 +14336,7 @@
             in the yeare 1662. <ref>193</ref></item>
             <item>Medittations on the Receaveing the first<lb/><!-- TODO [index] [curlybraces] -->
             Sacrament delivered in the new house at <ref>196</ref><lb/>
-            Easte Newton by Dr Samwaies. Aug{ust} 1662.</item>
+            Easte Newton by Dr Samwaies. Aug<ex>ust</ex> 1662.</item>
             <item>A returne of thankes for that inestimable<lb/><!-- TODO [index] [curlybraces] -->
             Spirittuall Mercy <ref>199</ref></item>
             <item>Mr Colvills Settlement of Mr Thorntons<lb/><!-- TODO [index] [curlybraces] -->
@@ -14357,16 +14363,16 @@
 
             <fw type="header" rend="post(rule)"> The Index of this booke. Page.</fw>
             
-            <item>Of my dangerous Sicknesse: Aug{ust} 16 1666. <ref>216</ref></item>
+            <item>Of my dangerous Sicknesse: Aug<ex>ust</ex> 16 1666. <ref>216</ref></item>
             <item>Meditations &amp; praiers there upon <ref>218</ref></item>
             <item>Considerations uppon the disposall of my<lb/><!-- TODO [index] [curlybraces] -->
             Daughter Alice Thornton in Marriage. 1666. <ref>219</ref></item>
             <item>The greatt fire in London: Sept. 2<hi rend="superscript">d</hi> 1666 <ref>220</ref></item>
-            <item>The death of my deare brother John Wandes{forde}<lb/><!-- TODO [index] [curlybraces] -->
-            Decemb{er} 2<hi rend="superscript">d</hi> 1666. Meditations thereon. <ref>221</ref></item>
+            <item>The death of my deare brother John Wandes<ex>forde</ex><lb/><!-- TODO [index] [curlybraces] -->
+            Decemb<ex>er</ex> 2<hi rend="superscript">d</hi> 1666. Meditations thereon. <ref>221</ref></item>
             <item>My Son Robert Thorntons preservation<lb/><!-- TODO [index] [curlybraces] -->
             in the smale Pox: Jan. 5<hi rend="superscript">th</hi> 1667. <ref>226</ref></item>
-            <item>My daughter Katherine Thorntons preser{vation}<lb/><!-- TODO [index] [curlybraces] -->
+            <item>My daughter Katherine Thorntons preser<ex>vation</ex><lb/><!-- TODO [index] [curlybraces] -->
             in the smale Pox. Sept. 29 1666. <ref>220</ref></item>
             <item>My daughter Alice, her deliverance in the<lb/><!-- TODO [index] [curlybraces] -->
             Smale pox Jan 25<hi rend="superscript">th</hi> 1667. <ref>227</ref></item>
@@ -14399,7 +14405,7 @@
             <item>Lamentations, &amp; Praiers upon my greivous<lb/> <!-- TODO [index] [curlybraces] -->
             abuses &amp; wrongs: 1668. <ref>260</ref></item>
             <item>My Sonne Robert preserved July 25. 68. <ref>264</ref></item>
-                <item>A Relation of my deare &amp; hon{oured} Husband,<!-- TODO [teams] no comma --><lb/> <!-- TODO [index] [curlybraces] -->
+                <item>A Relation of my deare &amp; hon<ex>oured</ex> Husband,<!-- TODO [teams] no comma --><lb/> <!-- TODO [index] [curlybraces] -->
             last sicknesse at Malton Sept. 12<hi rend="superscript">th</hi> 1668 <ref>265</ref></item>
             <item>A discripsion of severall passages very<lb/> <!-- TODO [index] [curlybraces] -->
             remarkable about his comforts &amp; <ref>274</ref><lb/>
@@ -14522,7 +14528,7 @@
             
                 <fw type="pageNum" place="top right">301</fw>
             
-            <!-- Q [formatting] this is the other place where there are words set into a horizontal ruled line. will have to come back to this, and probably to the rest of the acrostic -->
+            <!-- Q [formatting] [decoration] this is the other place where there are words set into a horizontal ruled line. will have to come back to this, and probably to the rest of the acrostic -->
             <head place="centre">
             <l> <persName ref="ppl:gw1" n="per1399">George Wandesford</persName>.</l>
             <l> ---------------Anagram.-------------------------------</l>
@@ -14610,7 +14616,7 @@
             <l>Prevaile, to Call thee backe againe; our feare</l>
             <l>-would bee that non could keepe thee heere</l>
             <l>The worst of Enimys did be-waile:</l>
-            <l>The loss of soe much hon{our} in him failed.</l>
+            <l>The loss of soe much hon<ex>our</ex> in him failed.</l>
             <l>Since hee was dead, the most of worth was gon</l>
             <l>The Country did cry out; in him, t’was, Oh, Alone:</l>
             <l>Oh what meant that Rash Hood. by one wave to Throw</l>
