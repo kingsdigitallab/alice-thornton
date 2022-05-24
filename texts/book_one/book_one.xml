@@ -7,10 +7,10 @@
                 <author>Alice Wandesford Thornton</author>
                 <respStmt>
                     <resp>editing in progress... </resp>
-                    <name xml:id="atb_ST">Suzanne Trill</name>
-                    <name xml:id="atb_CB">Cordelia Beattie</name>
-                    <name xml:id="atb_JE">Jo Edge</name>
-                    <name xml:id="atb_SH">Sharon Howard</name>
+                    <name ref="atb:ST">Suzanne Trill</name>
+                    <name ref="atb:CB">Cordelia Beattie</name>
+                    <name ref="atb:JE">Jo Edge</name>
+                    <name ref="atb:SH">Sharon Howard</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -58,14 +58,15 @@
          NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action
          TODO: needs work, I probably know what's needed
          Q: needs work, uncertain about how to proceed
-         TODO [teams] mainly transcription updates - to be completed later
-         Q [teams] issue is under discussion on MS Teams
+         
+         TODO/Q [teams] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
+         
          [] comment/note tags give some indication of what it's about
-         [endnote] has been moved from Word endnotes into comment
+         [endnote] moved from Word endnotes into comment
          
          
      **DATES** review
-         finally read up on TEI for non-Gregorian calendars and ugh.
+         finally read up on TEI for non-Gregorian calendars and urrgh.
          
          our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year (of the two possible) a date between 1 Jan and 24 March is supposed to be in.
          
@@ -98,7 +99,7 @@
             - not yet implemented @spanTo or linking event mentions) 
             - at present milestone/anchor pairs are linked using @n, prefix "ev".
             
-            milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree
+            **milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree**
             but they *are* always in the same <div> 
             they can be "nested" for sub-events. they can potentially overlap. etc.
          
@@ -111,6 +112,7 @@
         <!--  LINKAGE ?
         sample prefixDef from dbw project. 
         using prefixes in entity linkage.
+        add "atb" for project links.
         
         <listPrefixDef>
           <prefixDef ident="ppl"
@@ -211,11 +213,11 @@
     <div n="div2">
         <head place="centre">
             <persName ref="ppl:jh1" n="per1" >Bishop Hall</persName>s Observations in his<lb/>
-             booke of Meditations<lb/>
-             And vowes.
-            <!-- [authors] (anselment fn1) 
-                Joseph Hall, _Meditations and vowes, divine and morall_ 
-                wdQ4499080 
+             <ref>booke of Meditations<lb/>
+             And vowes</ref>.
+            <!-- TODO [authors] 
+                (anselment fn1) 
+                Joseph Hall (wdQ4499080), _Meditations and vowes, divine and morall_  
                 http://name.umdl.umich.edu/A02553.0001.001
             -->
         </head>
@@ -474,7 +476,7 @@
          <milestone n="ev3" unit="event"/>
             <p>
       <fw place="margin">      
-          <g>+</g> <!-- Q [glyph] a sort of cross. I don't *think* there's a unicode for this. Possibly an annotation to mark an omission? just realised there is a matching symbol in that section of the supplementary text. <metamark>?
+          <metamark><g>+</g></metamark> <!-- Q [glyph] a sort of cross. I don't *think* there's a unicode for this! I think it's 'signe de renvoi', matching symbol at the point referred to in the supplementary material, therefore <metamark>?
           -->
       </fw>
           <note place="end">
@@ -756,7 +758,7 @@
                 
             A deliverance from Ship-Rack in A Passage into<lb/>
                  -----------------------------------------------------<lb/>
-                <!-- Q [teams] [decoration] unusual (rule) needs discussion -->
+                <!-- Q [teams] [decoration] unusual (rule) for discussion -->
                  <placeName ref="place:Irel_096" n="place13">Ireland</placeName> with <rs ref="ppl:aow1" n="per40" type="person">my Mother</rs>, <rs ref="ppl:tbd-awt-brother" n="per41" type="person">brother</rs><!-- Q [people] possible to ident which brother? -->, &amp; 2 Nephewes.<lb/>
                  <persName ref="ppl:td4" n="per42">Thomas</persName> &amp; <persName ref="ppl:cd4" n="per43">Christopher Danby</persName>. In the yeare: <date when-custom="1639">1639</date>.
             </head>
@@ -1267,7 +1269,7 @@
                  Father &amp; guide, in theire youths. his Relations<lb/>
                  freinds &amp; Tennants, were all blessed in him, doeing<lb/>
                  them what good he could. Lett his raire &amp; Excelent <lb/>
-                 Booke of advice to <persName ref="ppl:gw1" n="per86">his sonne George</persName><!-- [authors] awt father's advice book (mention only) -->, Speake his great<lb/>
+                 <ref>Booke of advice</ref> to <persName ref="ppl:gw1" n="per86">his sonne George</persName><!-- Q [authors] awt father's advice book (mention only), MS but should be <ref>able -->, Speake his great<lb/>
                  Endowments. his Pietie, <add place="above">knowlidge in</add> Parts, Divinity, &amp; <lb/>
                  Religion. his Wisdome &amp; paternall caire &amp; <lb/>
                  prudence, tender &amp; deare love to his whole Family <lb/>
@@ -2168,7 +2170,7 @@
                 <lb/>
                 Made by <rs ref="ppl:cw1" n="per145" type="person">my father</rs>. before he went into.<lb/>
                  <placeName ref="place:Irel_096" n="place55">Ireland</placeName>. <date when-custom="1628">1628</date>.
-                <!-- [authors] AWT father; not published(?) -->
+                <!-- Q [authors] by AWT's father; but afaik there's no other published/ms version of this that could be pointed to with <ref> -->
             </head>
             
             <p>O Eternall. Omnipotent, &amp; most Mercifull Father<lb/>
@@ -2197,7 +2199,7 @@
                  , may by him be recovered unto that Everlasting Re-<lb break="no"/>
                  -surection, which thou (that wishest the Perfection &amp; continu<lb/>
                  ance of what thou hast made). hast prepared for us befor<add place="above">e</add><lb/>
-                the begi<ex>nni</ex>ng<!-- TODO [teams] [contraction] marker is over gi. I already added {} so it's conv to <ex> but check when doing other transcription updates --> of the world, If wee feare thee &amp; keepe.<lb/>
+                the begi<ex>nni</ex>ng<!-- TODO [teams] [contraction] marker is over gi. I already added {} (oops) - check when doing other transcription updates --> of the world, If wee feare thee &amp; keepe.<lb/>
             
 
             <pb n="55"/>
@@ -4892,7 +4894,7 @@
                 An Eligie upon <persName ref="ppl:gw1" n="per423" type="person">George Wandesford Esq<ex>uire</ex></persName><lb/>
                  on his unfortunate Death. by the Hon<ex>ourable</ex><lb/>
                  <persName ref="ppl:cw3" n="per424" type="person">Sir Christopher Wyvill</persName> Barronett.<lb/>
-            <!-- [authors] Wyvill -->
+            <!-- Q [authors] Wyvill - not published/ms anywhere else for <ref> ? -->
             </head>  
             <!-- NOTE second <head> i thought i couldn't do this... ! -->
             <head rend="post(rule)">
@@ -5737,7 +5739,7 @@
                  heartily begge in the name, &amp; for the sake of Jesus that <lb/>
                  thy Sonn, to whome with the holy Spirritt. one God in <lb/>
                  Trinity be all glory, Power, thanksgiveing and domi<lb/>
-                 nion now &amp; for ever more Amen. <!-- Q [symbol] there are 3 dots here - could be meaningful? --><add place="inline" rend="darkerInk">caling uppon thee in our<lb/>
+                 nion now &amp; for ever more Amen. <!-- Q [teams] [symbol] there are 3 dots here - could be meaningful? --><add place="inline" rend="darkerInk">caling uppon thee in our<lb/>
                  Lord &amp; saviours Prayer that he taught us saing: <hi style="font-size:16pt">Our father</hi></add>
                 <!-- [endnote] [insertion][text size] Insertion in a darker ink to the main body of the text. Squeesed into the space between ‘Amen’ and the dividing line. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering.-->
             </p>
@@ -7093,9 +7095,8 @@
                 <!-- NOTE [insertion]? maybe should just be superscript rather than add? 
                 [endnote] In original ‘ hon:<hi rend="superscript">our</hi>’, so not actual contraction
                 -->
-                <note place="end">
-                    <p rend="Endnote Text">  …</p>
-                </note> soe that it might be<lb/>
+                
+                 soe that it might be<lb/>
                  said of her, many Daughters have don well, but thou<lb/>
                  exceedest them all.</p>
 
@@ -9364,7 +9365,7 @@
                  Covenant: Amen.
                 <add place="inline">looke meditations on 1. Sam. 1 t 10. 11.
                 <del rend="strikethrough">12</del> 13.<hi rend="superscript">v</hi><lb/>
-                 in <ref>my booke</ref> on Purpose. made on that occasion.
+                 in <ref cRef="atb:rem">my booke</ref><!-- Q [bib] need to do canonical reference stuff for the 4 atb books... --> on Purpose. made on that occasion.
                 <note place="end">
                     <p rend="Endnote Text"> [insertion] Is this an insertion? It is squeesed in. Also, I’m not seeing meditations on 1 Samuel listed in BoR. Also checked BoR entry on Robert’s birth and baptiosm and there are prayers but nothing that looks like a specific meditation on 1 Samuel. Check Book 2 263-71.</p>
                 </note>
@@ -9874,9 +9875,8 @@
                  pull them out of the Jawes of Satan &amp; death: Lord thou did<lb/>
                  see me in my sorrowes, &amp; spake comfortably to my soule. v. 22<lb/>
                  Daughter be of good Cheare; thy faith hath made thee whole</p>
-            <p>And from that very day I did recover: O Lord my <w><subst><del rend="overwritten">g</del><add place="superimposed">G</add></subst>od</w>
+            <p>And from that very day I did recover: O Lord my <subst><del rend="overwritten">g</del><add place="superimposed">G</add></subst>od. how<lb/>
                 <!-- [endnote] [insertion] Capital G written over a lower case g.-->
-                . how<lb/>
                  can I sufficiently sett forth the glory of thy name &amp; praise<lb/>
                  whoe hast compassion upon my condittion, &amp; gavest me this<lb/>
                  spirituall balsome to heale my soule &amp; bodie. besides thee<lb/>
@@ -10601,12 +10601,11 @@
                  sorrowes. thou caires for me, because thy mercy is in-<lb break="no"/>
                  finitt &amp; uncearchable. &amp; I have depended on thee ever<lb/>
                  since I was borne. and put my trust in thee alone. O<lb/>
-                 Most hight. lett me still have thee for my God <add place="above">in</add>
-                <note place="end">
-                    <p rend="Endnote Text">[insertion] 
-                        <seg rend="background(green)">Carat in wrong place syntactically</seg> <!-- NOTE the carat is between "the" and "sweete" -->
-                    </p>
-                </note> the sweete<lb/>
+                 Most hight. lett me still have thee for my God <add place="above">in</add>  
+                 the <metamark>^</metamark>
+                <!-- Q [tagging] i think metamark is right here, but need to check it out
+                    [endnote] [insertion] Carat in wrong place syntactically
+                --> sweete<lb/>
                  influences of thy Power &amp; mercy by which the sonnes of men<lb/>
                  are upheld &amp; delivered. that we might magnifie thy<lb/>
                  glory &amp; praise for ever. Thou hast given me a goodly<lb/>
@@ -12342,10 +12341,11 @@
             
             Poore &amp; miserable Life which yett I despisd in comparison<lb/>
                  of him; soe with much impatience. great feares, &amp; some hope<lb/>
-                 I waited till night, when <add place="above">brought</add> word was ^<!-- Q [tagging] [symbol] how to handle this carat, see note. is this a case for metamark? -->
-                <note place="end">
-                    <p rend="Endnote Text"> [insertion] NB. There are two carats to mark the insertion of brought. The word itself is above the former, although syntactically it makes more sense for it to be placed at the latter.</p>
-                </note> me from <persName ref="ppl:rw1" n="per1267">Dr Wittie</persName><lb/>
+                 I waited till night, when <add place="above">brought</add> word was <metamark>^</metamark>
+                <!-- Q [tagging] how to handle this carat - I think a case for metamark? 
+                [endnote] [insertion] NB. There are two carats to mark the insertion of brought. The word itself is above the former, although syntactically it makes more sense for it to be placed at the latter.
+                -->
+                 me from <persName ref="ppl:rw1" n="per1267">Dr Wittie</persName><lb/>
                  That I should be of good cheare &amp; not cast away my Life<lb/>
                  for I should have <rs ref="ppl:wt1" n="per1268" type="person">my Deare husband</rs> home as well, as ever<lb/>
                  I had him in my life.</p>

@@ -7,10 +7,10 @@
            <author>Alice Wandesford Thornton</author>
            <respStmt>
              <resp>editing in progress... </resp>
-             <name xml:id="atb_ST">Suzanne Trill</name>
-             <name xml:id="atb_CB">Cordelia Beattie</name>
-             <name xml:id="atb_JE">Jo Edge</name>
-             <name xml:id="atb_SH">Sharon Howard</name>
+             <name ref="atb:ST">Suzanne Trill</name>
+             <name ref="atb:CB">Cordelia Beattie</name>
+             <name ref="atb:JE">Jo Edge</name>
+             <name ref="atb:SH">Sharon Howard</name>
            </respStmt>
          </titleStmt>
          <editionStmt>
@@ -108,29 +108,26 @@
          TODO: needs work, I probably know what's needed
          Q: needs work, uncertain about how to proceed
          
-         TODO [teams] - transcription updates, contractions, convention changes, etc - to be completed later
-         Q [teams] - under discussion on MS Teams
+         TODO/Q [teams] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
          
          [] comment/note tags give some indication of what it's about
-         [endnote] has been moved from Word endnotes into comment
+         [endnote] moved from Word endnotes into comment
          
      reviewing:
         - check consistency <fw> inside/outside <div> when div starts on a new page? I think should probably be outside in that context.
      
   
-        abbrev/contraction work needs to be fixed in the transcription first
-        - tagging of abbreviations/contractions and markers. some <hi superscript> should be tagged as abbreviations? still reading up on this one! 
-        - possibly related to the ^...^ you haven't finished yet. are some of those actually contractions?
+        abbrev/contraction work - needs to be fixed in the transcription first
+        - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as abbreviations? still reading up on this one! 
         
         teams discussion on markers/decoration etc - possibly check / markers etc. 
       
         remaining footnotes
-        type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep queries for now.
+        type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep uncertain ones for later review.
         type=context leave these for later
         
       [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
- 
-         
+   
        events tagging - milestone/anchor pairs 
                 at present milestone/anchor pairs are linked using @n, prefix "ev". 
                 not yet implemented @spanTo or linking event mentions
@@ -146,9 +143,11 @@
                 
      -->      
        
-       <!-- Linkage?
-        sample prefixDef from dbw project. 
-        using prefixes
+       <!-- 
+         Linkage
+        sample prefixDef borrowed from dbw project prefixes ppl, place, bibl
+        adding "atb:" for project refs - project people, refs to the 4 books, anything else useful.
+
         
         <listPrefixDef>
           <prefixDef ident="ppl"
@@ -171,8 +170,15 @@
             <p> In the context of this project, private URIs with the prefix "bibl" point to bibl
               elements in the project's global bibl.xml file. </p>
           </prefixDef>
+          <prefixDef ident="atb"
+            matchPattern="([a-z]+)"
+            replacementPattern="project.xml#$1">
+            <p> In the context of this project, private URIs with the prefix "atb" 
+              point to people elements in the project's global people.xml file.
+            </p>
+          </prefixDef>
         </listPrefixDef>
-         -->
+        -->
       </encodingDesc>
      
       <revisionDesc>
@@ -527,7 +533,7 @@
       <!-- NOTE year 1631 -->
        <div n="div9">
          <fw>
-           <fw place="left margin">⁜</fw> <!-- TODO [unicode] dotted cross symbol errm why is xslt changing unicodes? -->
+           <fw place="left margin">⁜</fw> <!-- Q [teams] [unicode] dotted cross symbol errm why is xslt changing unicodes? -->
             <fw type="header" rend="underline">
               <date when-custom="1631">1631</date>:<!-- TODO [teams] conventions change : -->
             </fw>
@@ -634,8 +640,8 @@
           months which hapened that day to be Psal<lb/>
           147: verce the 4<hi rend="superscript">th</hi>
          </p>
-         <p><quote type="direct" source="#Psalms147.4">He counteth the Starres &amp; caleth<lb/>
-          them all by there names.</quote> from<lb/>
+         <p><quote type="direct" subtype="biblical" source="#Psalms147.4">He counteth the Starres &amp; caleth<lb/>
+          them all by there names.</quote><!-- Q [bib] example biblical citation using @source. added subtype=biblical since we might now be tagging other types of text as well, but maybe reverse type and subtype in that case? can't see it as a biggie as long as it's consistent  --> from<lb/>
           whence there came a foresable consid<lb break="no"/>
           =eration of the Incomprehencable Powr<lb/>
           &amp; infinit maiestie of Almighty<lb/>
@@ -2784,7 +2790,7 @@
          <p>This most excelent &amp; spiritull<lb/>
           mercy was not the least. but greatet<lb/>
           I aphrended to receave from God, fare<lb/>
-           surpassing all temporalls ^ <!-- Q add comment on teams [formatting] marks ^ here without any insertion - how to handle? (one in B1 as well but that does have associated insertion) --> inasmuch<lb/>
+           surpassing all temporalls ^ <!-- Q for teams? [formatting] marks ^ here without any insertion - how to handle? if it doesn't actually point to anything metamark seems inappropriate --> inasmuch<lb/>
           as Eternity does this finite beeings<lb/>
           O that my heart would breake in<lb/>
           peices at the joyfull remembrance of this<lb/>
@@ -4243,8 +4249,9 @@
           I most humbly praise and magnifie<lb/>
           my gracious God &amp; heavenly father<lb/>
           who in Judgement remembers mercy<lb/>
-           &amp; <add place="above">not</add> cuts  
-           <!-- [endnote] Carat here but no insertion – could ‘not’ be placed in either position?-->
+           &amp; <add place="above">not</add> cuts <metamark>^</metamark> 
+           <!-- Q [tagging] metamark the right choice here? (see similar instances in book1)
+             [endnote] Carat here but no insertion – could ‘not’ be placed in either position?-->
              of the lifes of my poore Child-<lb break="no"/>
           =ren sudainly, oh praise the Lord for<lb/>
           ever <add place="above">for</add> all manner of his deliverances<lb/>
@@ -4572,7 +4579,8 @@
           About the <date when-custom="1668-07-20">20<hi rend="superscript">th</hi> of July 1668</date>. I had<lb/>
           a very great &amp; dangerous sickenesse<lb/>
           fell upon me in <add place="above">beeing</add>
-           <!-- [endnote] Two different possible points of insertion – either before or after ‘in’ (carats on both sides)?-->
+           <!-- TODO [teams] [tagging] I don't see two carats here - the first mark before in looks like a comma to me 
+             [endnote] Two different possible points of insertion – either before or after ‘in’ (carats on both sides)?-->
            my perfect health<lb/>
           &amp; strength. upon the occasion of a sudain<lb/>
           greife &amp; terror that I was seised upon<lb/>
@@ -5498,7 +5506,7 @@
            shall be love with out hatred. Joy witho<!-- [endnote] Means without but incomplete – only the ‘o’. --><lb/>
           sorrow. delight. without anger. hopes that<lb/>
           is turned to injoyment with out feares.<lb/>
-           to losse or to to be lost. noe caires. nor Troub<add place="above">ble</add><!-- [endnote] No intext carat. --> <lb/>
+           to losse or to to be lost. noe caires. nor Troub<add place="above" rend="noCaret">ble</add><!-- [endnote] No intext carat. --> <lb/>
           noe hatred. nor envy shall enter there<lb/>
           for in Heaven they are as the Angells<lb/>
           nay higher. &amp; drawne nearer in beeing<lb/>
