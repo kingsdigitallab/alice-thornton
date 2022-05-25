@@ -114,9 +114,7 @@
          [endnote] moved from Word endnotes into comment
          
      reviewing:
-        - check consistency <fw> inside/outside <div> when div starts on a new page? I think should probably be outside in that context.
      
-  
         abbrev/contraction work - needs to be fixed in the transcription first
         - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as abbreviations? still reading up on this one! 
         
@@ -308,13 +306,14 @@
      
 
 <!-- transcription: Page 3 -->
+       
+     <div n="div1" rend="post(diagonal)">
       
      <fw type="pageNum" place="right"> 
        <add place="superimposed">3</add>
           <!-- [endnote] Looks overwritten, possible meant to be 2 given that next number is 3, also for a recto leaf (looks like a 2 underneath).-->
          </fw>
      
-     <div n="div1" rend="post(diagonal)">
        <p>
          <milestone n="ev1" unit="event"/>
          <persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the<lb/>
@@ -346,10 +345,11 @@
          
 <!-- transcription: Page 3a-->
       
+         <div n="div2" type="poetry">
+           
          <fw type="pageNum" place="right">3
              <!-- [endnote] Repeated page number, verso of leaf is blank.-->  
          </fw>
-         <div n="div2" type="poetry">
          <l>Lord guide my heart,</l>
          <l>and give my Soule directions:</l>
          <l>Subdue my passions</l>
@@ -380,7 +380,7 @@
 <!-- [endnote] From here pagination is continuous.-->   
     <div n="div4" type="poetry">
          <head>
-            <fw type="header" rend="underline">Dedication</fw>
+            <seg rend="underline">Dedication</seg>
             <fw type="pageNum">5</fw>
          </head>
          <l>Ile dedicate my Soule unto my God</l>
@@ -412,7 +412,7 @@
       <div n="div5" type="poetry">
          <head>
             <fw type="pageNum">6.</fw>
-            <fw type="header">Prayer.</fw>
+            Prayer.
          </head>
          <l>Then guide my heart, Lord give my <add place="above">Soule</add> direction<supplied reason="tight binding" cert="high">s</supplied>
          </l>
@@ -428,7 +428,7 @@
 <!-- transcription: Page 7 -->
      <div n="div6">
          <head>
-           <fw type="header">observations.</fw>
+           observations.
          <fw type="pageNum" place="right"> 7</fw>
          </head>
          <p>These things be comely &amp; pleasant<lb/>
@@ -452,7 +452,7 @@
       <div n="div7" type="prayer">
          <head>
             <fw type="pageNum">8.</fw>
-            <fw type="header">Prayer.</fw>
+            Prayer.
          </head>
          <p>Lord lead me through the<lb/>
           Red Sea of this World,<lb/>
@@ -3200,7 +3200,7 @@
           <lb/><!-- NOTE moved fw -->
          <p>
          <milestone n="ev58" unit="event"/>
-          <!-- Q [event] not entirely sure why I made this a separate event... -->
+          <!-- NOTE [event] breastfeeding -->
           Yea the Lord god had pittie upon<lb/>
           my distresse &amp; gave me after this<lb/>
           a compotency of health &amp; strength<lb/>
@@ -5377,13 +5377,13 @@
 
 <!-- transcription: Page 141 -->
 
+       <div n="div86">  
          <fw>
            <fw type="pageNum">141.</fw>
            <fw type="header" rend="underline">
                <date>1668</date>.
             </fw>
          </fw>
-       <div n="div86">  
          <p>I now doe want those good &amp; Pieous<lb/>
           prayers of him for me &amp; mine which I have<lb/>
           injoyed for many yeares, what can I <lb/>
@@ -5943,10 +5943,10 @@
 
 <!-- transcription: Page 157 -->
          
+       <div n="div91" type="poetry"> 
          <fw type="pageNum" rend="underline">157</fw>
        
-       <div n="div91" type="poetry"> 
-         <!-- Q [teams] [authors] need to investigate the best way to handle this -->
+         <!-- Q [teams] [authors] investigate the best way to handle this -->
             <note place="end" type="context">
                <p rend="Endnote Text"> [context] 42 records in Folger first line, and copied out until the last line. Sir Kenelm Digby or Sir Henry Wotton, various copies and contexts.</p>
             </note>
