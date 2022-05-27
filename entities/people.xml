@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <!--  -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>ATB People (26 May 2022)</title>
+        <title>ATB People (27 May 2022)</title>
       </titleStmt>
       <publicationStmt>
-        <p>
-          <date when="2022-05-26"/>
-        </p>
+        <p/>
       </publicationStmt>
       <sourceDesc>
-        <p>Alice Thorntons Books:People.</p>
+        <p>
+           generated with xquery script: atb_listPeople_json_220526. sources: 
+           <list>
+            <item>Teams spreadsheet: Ographies/b1_bor_masterlist_220413</item>
+            <item>spreadsheet derived from encoded books xml</item>
+            <item>Teams biographies docx: BoR and Bk1 biographies</item>
+          </list>
+        </p>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <p>
-      xquery file:  atb_listPeople_json
-      
-      </p>
       <p>
       NOTES: 
          ID construction based on name initials:
@@ -33,17 +35,22 @@
          label = std form of name for display
          
          TODO various...
-           roleName, forename, both need finessing.
+           roleName, forename, need finessing.
            birth and death date formatting; baptism/burial types
            listRelation
       </p>
     </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="2022-05-27"/>
+      </creation>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
       <!-- 
         **DO NOT MANUALLY EDIT THIS FILE**  
-        it's generated from an xquery script
+        its generated from an xquery script
         -->
       <listPerson>
         <person xml:id="awt1">
