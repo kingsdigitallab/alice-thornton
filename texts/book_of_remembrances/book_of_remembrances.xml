@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="atb-book-of-remembrances">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="atb-book-of-remembrances">
    <teiHeader>
       <fileDesc>
          <titleStmt> 
@@ -144,7 +146,7 @@
        <!-- 
          Linkage
         sample prefixDef borrowed from dbw project prefixes ppl, place, bibl
-        adding "atb:" for project refs - project people, refs to the 4 books, anything else useful.
+        maybe "atb:" for project refs - project people, refs to the 4 books, anything else useful.
 
         
         <listPrefixDef>
@@ -172,7 +174,7 @@
             matchPattern="([a-z]+)"
             replacementPattern="project.xml#$1">
             <p> In the context of this project, private URIs with the prefix "atb" 
-              point to people elements in the project's global people.xml file.
+              point to people elements in the project's global project.xml file.
             </p>
           </prefixDef>
         </listPrefixDef>
@@ -1875,7 +1877,7 @@
 
  <div n="div46" type="poetry">        
          <fw type="header" style="text-align: center;"><date>1660</date>.</fw>
-         <fw place="left margin">42.</fw>
+         <fw type="pageNum" place="left margin">42.</fw>
    
          <l>Tax not thy God thy owne defalts</l>
          <l>did urge.</l>

@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="atb-book-one">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="atb-book-one">
   <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -55,28 +57,28 @@
          (fw=pageNum are Alice's written numbers)
          
      xml comment keywords:
-         NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action
-         TODO: needs work, I probably know what's needed
+         NOTE: a comment on something, but shouldn't need any further (or very minor, low-priority) action.
+         TODO: needs work; I probably know what's needed
          Q: needs work, uncertain about how to proceed
          
          TODO/Q [teams] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
          
-         [] comment/note tags give some indication of what it's about
+         [tags] for some indication of what it's about
          [endnote] moved from Word endnotes into comment
          
          
-     **DATES** review
+       DATES review
          finally read up on TEI for non-Gregorian calendars and urrgh.
          
-         our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year (of the two possible) a date between 1 Jan and 24 March is supposed to be in.
+         NB: our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year (of the two possible) a date between 1 Jan and 24 March is supposed to be in.
          
          following MoEML, three @datingMethod/@calendar
          #JulianJan year starts 1 January 
          #JulianMar date=1 Jan-24 Mar and year starts 25 March
-         #JulianSic (rare) only used where date is 1 Jan-24 Mar and we don't know which of the two possible years it is
+         #JulianSic (rare) only used where date =1 Jan-24 Mar and we don't know which of the two possible years it is
          
          **JulianJan is treated as default so not explicitly encoded (at the moment)**
-         **similarly, assumption that @calendar and @datingMethod are always the same so only @datingMethod is explicitly encoded** 
+         **similarly, assumption that @calendar and @datingMethod are always the same so only @datingMethod is explicitly encoded (atm)** 
          **changed *-iso attributes to *-custom ** (but still using -iso style formatting)
          
          NB year-only dates are assumed #JulianJan unless clear reason to do otherwise
@@ -84,24 +86,27 @@
          
          
          @rend markers:
-         <div> or <head>  ??
-         BoR format (based on wwp?): position-marker type-width-weight eg
+         (mainly?) <div> or <head>  
+         BoR original format (based on wwp?): position-marker type-width-weight eg
             pre-rule-full-width-light  
             post-diagonal-short
-         but this book likely to need more info about fancy decorations. double lines can be added to this format, but decorations? (which are recorded in the outline spreadsheet) for the moment maybe just as notes/comments 
+         but book 1 likely to need more info about fancy decorations. double lines can be added to this format, but decorations? (which are recorded in the outline spreadsheet and in endnotes [not sure how consistently]) are for team discussion 
          <milestone> (unit=rule?) i thikn these might need some more work...
          diagonal
          diagonal-left-margin
          horiz-short-right
          
          
-         events tagging - milestone/anchor pairs
-            - not yet implemented @spanTo or linking event mentions) 
+         events tagging:
+           milestone/anchor pairs
+            - not yet implemented @spanTo or linking event mentions 
+                - probably won't do that until the autumn after all 4 books are marked up 
             - at present milestone/anchor pairs are linked using @n, prefix "ev".
             
-            **milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree**
+            **milestone/anchor pairs are not always siblings, not always in the same paragraph**
             but they *are* always in the same <div> 
-            they can be "nested" for sub-events. they can potentially overlap. etc.
+            they can be "nested" for sub-events. 
+            they can potentially overlap. etc.
          
          
          notes to self...
