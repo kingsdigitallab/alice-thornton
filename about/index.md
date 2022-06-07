@@ -11,7 +11,7 @@ This AHRC-funded research project will create an online digital edition of all f
 
 Now that all the original manuscripts have been located, we are finally able to ‘unedit’ Jackson’s nineteenth-century edition. Whereas that version bowdlerised Thornton’s manuscripts to produce a single, chronological narrative, this edition will enable users to explore how she revised her story.
 
-[Something about layout and reading process: each volume can be read separately, in continuous form, or users may switch between volumes; the text is available in both semi-diplomatic and modernised form, and users can select to read one or the other or compare the different versions side-by-side.]
+
 Instead of amalgamating different versions of the same story or event, this edition will enable users to locate variants through both key-word searches and event tagging. [More on tagging.]
 
 In the light of this new material, we aim to answer three key questions:
