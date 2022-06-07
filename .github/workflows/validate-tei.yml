@@ -14,7 +14,7 @@ jobs:
     - name: Download schema
       run: wget http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
     - name: Lint book_one.xml
-      uses: ChristophWurst/xmllint-action@v1
+      uses: ChristophWurst/xmllint-action@master
       with:
         xml-file: ./texts/book_one/book_one.xml
         xml-schema-file: ./tei_all.rng
