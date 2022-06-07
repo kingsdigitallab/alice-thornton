@@ -1,3 +1,5 @@
+https://github.com/kingsdigitallab/alice-thornton/actions/workflows/validate-tei.yml/badge.svg
+
 # Alice Thornton Digital Edition
 
 This branch holds the source files of the digital edition.
