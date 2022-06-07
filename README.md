@@ -1,4 +1,4 @@
-https://github.com/kingsdigitallab/alice-thornton/actions/workflows/validate-tei.yml/badge.svg
+![TEI Validation](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/validate-tei.yml/badge.svg?branch=edition)
 
 # Alice Thornton Digital Edition
 
