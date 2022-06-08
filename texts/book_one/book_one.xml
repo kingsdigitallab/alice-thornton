@@ -13359,9 +13359,9 @@
                  Passages. forgotten to <add place="above">be</add> Entred into my Booke.
             </head>
       </div>
-        <note place="end">
+        <!--<note place="end">
             <p rend="Endnote Text"> [insertion] Here there are indications of several revisions, possibly at different times. ‘At Kirklington 1629’ is in a darker ink.</p>
-        </note>        
+        </note> -->       
    <!-- Q [structure] nest the following divs? -->
        
       <div n="div137">
@@ -13374,24 +13374,24 @@
          this must be placed In the first Place Page 8<hi rend="superscript">th</hi> before the<lb/>
          The mesels in <date when-custom="1629">1629</date>     
         </note>
-      <!-- Q [tagging] [layout] ugh. but this clearly a different insertion, much darker ink, could be intended to be added to the title ? if so would be <add> not <note> -->  
-       <note place="inline" resp="#awt">
-          At <placeName ref="place:Kirk_030" n="place390">Kirklington</placeName> <date when-custom="1629">1629</date> /
-       </note>
+      <!-- Q [tagging] [layout] ugh. but this clearly a different insertion, much darker ink, could be intended to be added to the title ? if so may be <add> not <note> -->  
         <head rend="pre(rule) post(rule)">
-        <g>+</g><!-- Q [glyph] this matches the margin symbol on p.8 - looks like it is intended to link them together. so they should both be <metamark>??? look up scribal stuff! -->   
+       <add place="inline" resp="#awt">
+          At <placeName ref="place:Kirk_030" n="place390">Kirklington</placeName> <date when-custom="1629">1629</date> /
+       </add><lb/>
+        <metamark><g>+</g></metamark><!-- Q [glyph] this matches the margin symbol on p.8 - looks like it is intended to link them together. so they should both be <metamark>??? look up scribal stuff! -->   
         Uppon my deliverance from death by a fall.<lb/>
-        <note place="end">
+        <!--<note place="end">
             <p rend="Endnote Text"> There is an unusual mark to the left of the title.</p>
-        </note>
+        </note>-->
         when I was 3 years old. // 
-        </head>  
-      <!-- Q [tagging] [layout] ugh. and this line is another insertion, below the title border (with a post(rule) of its own, but again *could* be intended to be added to the title. In which case it should be <add> rather than <note>. -->   
         <note place="inline" resp="#awt" rend="post(rule)">when I cutt a great wound in my forehead of above an Inch long
-        <note place="end">
+        <!--<note place="end">
             <p rend="Endnote Text"> [insertion] This insertion looks to be added after the main body of the text.</p>
-        </note>
+        </note>-->
        </note>
+        </head>  
+      <!-- Q [tagging] [layout] ugh. and this line is another insertion, below the title border (with a post(rule) of its own, but again *could* be intended to be added to the title. In which case should perhaps be <add> rather than <note>. -->   
           <milestone n="ev203" unit="event"/>
           <!-- NOTE event awt nursing care -->
             <p>
