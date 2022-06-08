@@ -27,7 +27,7 @@ In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula
 
 **British Library, Add. MS 88897/2**
 
-![image] (/assets/img/placeholder.jpg)
+![image](/assets/img/placeholder.jpg)
 
 In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both volumes form part of the Comber Collection at DCL.
 
