@@ -22,27 +22,27 @@ In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula
 
 **British Library, Add. MS 88897/1**
 
-[!](path/to/file.jpg)
+![imgage](/assets/img/placeholder.jpg)
 
 
 **British Library, Add. MS 88897/2**
 
-[!image](path/to/file.jpg)
+![image] (/assets/img/placeholder.jpg)
 
-In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1968 but had been misidentified in the catalogue. Today, both volumes form part of the Comber Collection at DCL.
+In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both volumes form part of the Comber Collection at DCL.
 
 **Durham Cathedral Library, GB-0033-CCOM 38**
 
-[!image](path/to/file.jpg)
+![image](/assets/img/placeholder.jpg)
 
 **Durham Cathedral Library, GB-0033-CCOM 7**
 
-[!image](path/to/file.jpg)
+![image](/assets/img/placeholder.jpg)
 
 
 These are the four books that we are in the process of preparing for our digital edition.
 
-It has become common to refer to Thornton’s volumes as ***Book 1***, ***Book 2***, ***Book 3***, and the ***Book of Remembrances***. However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential a key issue this project seeks to address is why and how these volumes are interconnected.
+It has become common to refer to Thornton’s volumes as the ***Book of Remembrances***, ***Book 1***, ***Book 2***, and ***Book 3***. However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential a key issue this project seeks to address is why and how these volumes are interconnected.
 
 Our editorial and markup practice aims to make this possible. We prefer the following fuller titles, which add descriptions derived from her writings:
 - ***Book of Remembrances***
