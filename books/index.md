@@ -22,7 +22,7 @@ In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula
 
 **British Library, Add. MS 88897/1**
 
-![imgage](/assets/img/placeholder.jpg)
+![image](/assets/img/placeholder.jpg)
 
 
 **British Library, Add. MS 88897/2**
