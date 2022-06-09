@@ -1,6 +1,6 @@
 ---
 title: Finding Two Missing Thornton Manuscripts
-feature: /assets/img/posts/credit_durham_cathedral.jpg
+feature: /assets/img/posts/book_rem_inner_cropped.jpg
 authors:
     - cbeattie
 
