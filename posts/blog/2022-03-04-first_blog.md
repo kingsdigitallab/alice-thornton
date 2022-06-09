@@ -1,5 +1,6 @@
 ---
 title: Finding Two Missing Thornton Manuscripts
+publicationDate: 2022-06-09
 feature: /assets/img/posts/credit_durham_cathedral.jpg
 authors:
     - cbeattie
