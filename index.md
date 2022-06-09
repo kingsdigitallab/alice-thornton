@@ -33,22 +33,22 @@ Born in Kirklington, Yorkshire on 13 February 1626, Alice spent her childhood ye
 
 In 1633, the family relocated to Ireland, as her father's friend and mentor, Thomas Wentworth (first Lord Strafford), had been made Lord Deputy of Ireland and there was a role for Christopher Wandesford in Dublin. Here, Alice spent time with Ladies Anne and Arabella Wentworth and learnt French, singing, dancing, silk-work and other ‘suitable’ accomplishments. Their playtime together included a swinging game that caused another near-death experience. In early 1640, her father took over as Lord Deputy of Ireland before his sudden death later that year at just 48 years of age.
 
- ![Alt text]({{ "/assets/img/lady-anne-wentworth-VandA-2006BH2700.jpg#left" | url }} "Drawing of Lady Anne Wentworth")
 
 After her father’s death, and prompted by the turmoil of the Irish Rebellion, the family move back to the north of England.  However, the following year they are caught up in the events of the civil war. Alice's family were for the king and their estates at Kirklington were confiscated and Scottish soldiers were billeted on her mother’s lands in Hipswell, Richmondshire.
 
+![Alt text]({{ "/assets/img/hipswell-hall-geograph-david-rogers-1390356.jpg#right" | url }} "Photograph of Hipswell Hall")
+
 When her oldest brother, George, drowned in the river Swale in 1651 – which Alice claims to have foretold in a dream six months earlier   – she reluctantly agreed to marry. Her family settle on William Thornton (1624-1668), a member of the lesser gentry in Ryedale, whose parliamentarian family connections could help the Wandesfords recover their lands.
 
- ![Alt text]({{ "/assets/img/hipswell-hall-geograph-david-rogers-1390356.jpg#right" | url }} "Photograph of Hipswell Hall")
 
 Alice and William were married for seventeen years and during that time she gave birth to nine children. Alice vividly describes the dangers of childbirth and poignantly records the deaths of six of her infant children. She charts the development of those who survive - Alice (Nally), Katherine and Robert - and continually thanks God for their miraculous deliverances from illnesses and accidents. Family finances were frequently precarious and William died in 1668 without a will and much in debt.
 
-![Alt text]({{ "/assets/img/william-thornton-memorial-cb.jpg#left" | url }} "Memorial for William by Alice")
 
 Alice then spent her widowed years dealing with the ramifications of this while trying to raise her three children. The oldest, Nally, was married to the local minister, Thomas Comber, not long after William’s death.  Alice herself had already been the subject of gossip about her close relationship to Thomas and this sudden marriage - when Nally was just fourteen - caused further scandal. Katherine married in 1682 and Robert was intended for a career in the church but he died in 1692.
+
+![Alt text]({{ "/assets/img/william-thornton-memorial-cb.jpg#left" | url }} "Memorial for William by Alice")
 
 Alice continued to live at East Newton Hall in Ryedale until her own death in 1707 but in the final years the property was owned by her son-in-law, Thomas Comber, who provided her with an annual pension on which to subsist.
 
 In her will, Alice made bequests to improve her local church, Stonegrave Minster, which her estate could not afford; so, perhaps her most important gift was that of her own writings, which stayed in Comber family hands for hundreds of years before their acquisition by the British Library and Durham Cathedral.
 
-![Alt text]({{ "/assets/img/stonegrave-church-cb.jpg#center" | url }} "image of Stonegrave Church")
