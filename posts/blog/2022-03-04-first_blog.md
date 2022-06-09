@@ -10,7 +10,7 @@ authors:
 
 ‘Are you interested in an Alice Thornton manuscript?’ This was the text that I got from my dad one evening in autumn 2018. I didn’t get too excited initially as I thought my dad might be referring to a copy of Jackson’s 1875 edition of Thornton’s writings, as he himself is largely interested in twentieth-century history. But he then sent me an image of the tiny book that his friend had showed him in their local pub over an early evening drink.
 
-![Photo of small book with damaged front cover](/assets/img/placeholder.jpg "Book of Remembrances: Derek Beattie")
+![Photo of small book with damaged front cover]({{ "/assets/img/placeholder.jpg#left" | url }} "Book of Remembrances: Derek Beattie")
 
 I got my partner to put the children to bed while I did a quick look up of Thornton’s manuscripts, starting with the valuable resource that is the [Catalogue of English Literary Manuscripts 1450–1700 (CELM)](https://celm-ms.org.uk/authors/thorntonalice.html) . This suggested that a few of Thornton’s manuscripts were currently untraced, with the only ones accounted for being the two acquired by the [British Library in 2009](http://searcharchives.bl.uk/IAMS_VU2:LSCOP_BL:IAMS032-000000125).
 
