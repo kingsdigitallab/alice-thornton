@@ -9,7 +9,7 @@ authors:
 
 ‘Are you interested in an Alice Thornton manuscript?’ This was the text that I got from my dad one evening in autumn 2018. I didn’t get too excited initially as I thought my dad might be referring to a copy of Jackson’s 1875 edition of Thornton’s writings, as he himself is largely interested in twentieth-century history. But he then sent me an image of the tiny book that his friend had showed him in their local pub over an early evening drink.
 
-![Photo of small book with damaged front cover]({{ "/assets/img/placeholder.jpg#left" | url }} "Book of Remembrances: Derek Beattie")
+![Photo of small book with damaged front cover]({{ "/assets/img/placeholder.jpg#left" | url }} "Book of Remembrances: Derek Beattie") 
 
 I got my partner to put the children to bed while I did a quick look up of Thornton’s manuscripts, starting with the valuable resource that is the [Catalogue of English Literary Manuscripts 1450–1700 (CELM)](https://celm-ms.org.uk/authors/thorntonalice.html) . This suggested that a few of Thornton’s manuscripts were currently untraced, with the only ones accounted for being the two acquired by the [British Library in 2009](http://searcharchives.bl.uk/IAMS_VU2:LSCOP_BL:IAMS032-000000125).
 
@@ -17,7 +17,7 @@ I asked my dad for a few more details: how many pages does the book have? What s
 
 But in the meantime, my dad told me that his friend – Patrick Comber – had a chest full of family papers, many about Dean Thomas Comber (1645-99) and Patrick would like to know more about them. I decided to research Dean Comber as a thank you to Patrick for allowing me to see Thornton’s book. And it was this that led me to the second Thornton manuscript. Durham Cathedral Library had a collection, gifted to them in 1969, catalogued as Dean Comber’s papers and - in the very general catalogue entry which noted there were ‘c.20 volumes and 1 box’  there was reference to [‘a journal of his wife Alice’](https://perma.cc/6RW3-SV3X). Knowing that there was at least one other Thornton manuscript still untraced, I wondered if this might be another of Alice’s books. If not, a book by her daughter (Alice Comber née Thornton) was nevertheless interesting. I decided a trip to Durham was also necessary.
 
-![Screenshot of Durham University library catalogue page from 2019 which references 20 volumes and a box and the journal as belonging to his wife Alice](/assets/img/placeholder.jpg "Screenshot of Durham University catalogue page as it was in 2019")
+![Screenshot of Durham University library catalogue page from 2019 which references 20 volumes and a box and the journal as belonging to his wife Alice]({{ "/assets/img/placeholder.jpg#right" }} "Screenshot of Durham University catalogue page as it was in 2019")
 
 While attending a conference in Durham, I booked into the library at 5 The College (accessed through the beautiful cloisters of Durham Cathedral), which is where Dean Comber’s papers are stored. In the morning I ordered up ‘the box’. This was both exciting and frustrating. In the box was a hand-list of what had been donated in 1969 and here the book was described as ‘Part of Mrs Alice Thornton’s memoirs 1668’. The box was full of loose papers and I searched to see if any of these was a part of one of Alice’s books but turned up nothing. At lunch I messaged my dad the good and bad news.
 
