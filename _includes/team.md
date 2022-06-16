@@ -6,7 +6,7 @@ team: the key of a team (e.g. sdt), see metadata.json
 
 <h3 class="subtitle"> {{ metadata.people_teams[team] }}</h3>
 
-<div class="team">
+<div class="gallery-by-4">
   {%- for person in team_members -%}
     <div class="person">
       <img src="{{ person.data.image | url }}" alt="A photograph of {{ person.data.firstName }} {{ person.data.lastName }}">

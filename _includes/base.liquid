@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-GB">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,22 +7,19 @@
     <title>{{ title }} | {{ metadata.title }}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     {% comment %} generated from _includes/css/main.scss {% endcomment %}
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
     <script src="{{ '/assets/js/navbar-toggle.js' | url }}"></script>
   </head>
   <body class="{{ body_class }}">
     {% include "header.html" %}
-    {% include "nav.liquid" %}
     <section class="section">
       <div class="container">
         <h1 class="title">
           {{ title }}
         </h1>
-
         <div class="content {{ tags }}">
           {{ content }}
         </div>
-
       </div>
     </section>
     {% include "footer.html" %}

@@ -11,22 +11,132 @@
 */
 
 @import "utilities/_all.sass";
+@import "fonts.scss";
+
+// Project variables
 
 $white: #fbfbfb;
 $primary: #462200;
-$secondary: #c45300;
+// $secondary: #c45300;
+// GF 18/05/2022: changed to a slightly darker orange to meet accessiblity
+// requirements for colour contrast
+$secondary: #b34200;
 $accent: #df8833;
 $light: #cdcac7;
 $dark: #0a0a0a;
 
 // Shared layout
 
+// Grid based layoout
+// .wrapper {
+//   display: grid;
+//   grid-template-columns: 100%;
+//   grid-gap: 10px;
+
+//   @include desktop {
+//     grid-template-columns: 70% 30%;
+//   }
+// }
+
 body {
   background-color: $white;
+  font-family: "Noto", sans-serif;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 1.75;
 }
 
+a {
+  text-decoration: underline;
+
+  &:hover {
+    background-color: lighten($accent, 25%);
+  }
+}
+
+.content {
+  h1, h2, h3,
+  h4, h5, h6 {
+    color: $secondary;
+    font-family: "Lora", serif;
+  }
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  color: $secondary;
+  font-family: "Lora", serif;
+}
+
+.title {
+  color: $secondary;
+}
+
+footer,
 .footer {
-  background-color: $light;
+  background-color: lighten($light, 30%);
+}
+
+// Alignment
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Images */
+
+// Gallery
+
+[class^="gallery-"] {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+  
+  img {
+    width: 100% !important;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.gallery-by-2 {
+  grid-template-columns: 50% 50%;
+}
+
+.gallery-by-3 {
+  @include tablet {
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+.gallery-by-4 {
+  @include tablet {
+    grid-template-columns: 50% 50%;
+  }
+
+  @include desktop {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
+.logo {
+  img {
+    background: $white;
+    border-radius: 50%;
+    display: block;
+    margin-right: 8px;
+    width: 50px;
+  }
 }
 
 .navbar {
@@ -42,9 +152,9 @@ body {
   }
 
   a.navbar-item {
-    @include touch {
-      background-color: $primary;
-    }
+    background-color: $primary;
+    padding: 1.5rem 1rem 1.25rem;
+    text-decoration: none;
 
     color: $light;
     
@@ -61,8 +171,12 @@ body {
     }
 
     &:hover {
-      background-color: $light;
+      background-color: $white;
       color: $primary;
+    }
+
+    &:focus {
+      border: 1px solid $accent;
     }
   }
 
@@ -119,10 +233,14 @@ img[src*='#center'] {
 }
 
 .person {
-  display: inline-block;
-  vertical-align: top;
-  width: 10vw;
-  padding: 1em;
+  // display: inline-block;
+  // vertical-align: top;
+  // width: 10vw;
+  // padding: 1em;
+
+  :not(first-child) {
+    padding: 1em;
+  }
 }
 
 .post-summary {
