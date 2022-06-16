@@ -103,6 +103,10 @@ footer,
   img {
     width: 100% !important;
   }
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .gallery-by-2 {
@@ -229,10 +233,14 @@ img[src*='#center'] {
 }
 
 .person {
-  display: inline-block;
-  vertical-align: top;
-  width: 10vw;
-  padding: 1em;
+  // display: inline-block;
+  // vertical-align: top;
+  // width: 10vw;
+  // padding: 1em;
+
+  :not(first-child) {
+    padding: 1em;
+  }
 }
 
 .post-summary {
