@@ -36,3 +36,29 @@ alive when William himself died in 1668.
 Alice continued to live at East Newton until her own death in 1707. 
 In her will she left her daughter Nally 'three Books of... my life', 
 together with all other books written in her own hand.
+
+### Gallery by 2
+<div class="gallery-by-2">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+</div>
+
+### Gallery by 3
+<div class="gallery-by-3">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+</div>
+
+### Gallery by 4
+<div class="gallery-by-4">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+  <img src="/assets/img/placeholder.jpg#center" alt="Image of East Newton">
+</div>

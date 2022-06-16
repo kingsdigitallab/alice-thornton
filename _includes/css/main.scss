@@ -13,6 +13,8 @@
 @import "utilities/_all.sass";
 @import "fonts.scss";
 
+// Project variables
+
 $white: #fbfbfb;
 $primary: #462200;
 // $secondary: #c45300;
@@ -24,6 +26,17 @@ $light: #cdcac7;
 $dark: #0a0a0a;
 
 // Shared layout
+
+// Grid based layoout
+// .wrapper {
+//   display: grid;
+//   grid-template-columns: 100%;
+//   grid-gap: 10px;
+
+//   @include desktop {
+//     grid-template-columns: 70% 30%;
+//   }
+// }
 
 body {
   background-color: $white;
@@ -64,6 +77,54 @@ footer,
   background-color: lighten($light, 30%);
 }
 
+// Alignment
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Images */
+
+// Gallery
+
+[class^="gallery-"] {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+  
+  img {
+    width: 100% !important;
+  }
+}
+
+.gallery-by-2 {
+  grid-template-columns: 50% 50%;
+}
+
+.gallery-by-3 {
+  @include tablet {
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+.gallery-by-4 {
+  @include tablet {
+    grid-template-columns: 50% 50%;
+  }
+
+  @include desktop {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
 .logo {
   img {
     background: $white;
@@ -90,9 +151,6 @@ footer,
     background-color: $primary;
     padding: 1.5rem 1rem 1.25rem;
     text-decoration: none;
-    // @include touch {
-    //   background-color: $primary;
-    // }
 
     color: $light;
     
