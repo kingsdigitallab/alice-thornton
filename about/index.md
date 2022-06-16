@@ -7,14 +7,12 @@ eleventyNavigation:
 
 ## About Our Research Project
 
-This AHRC-funded research project will create an online digital edition of all four of Alice Wandesford Thornton’s autobiographical manuscripts. For the first time, the full text of each volume will be freely available to a wide range of users.
+This AHRC-funded research project will create an online digital edition of all four of Alice Wandesford Thornton’s autobiographical manuscripts. To date our knowledge of Thornton’s life has largely been dependent on a nineteenth century edition by Charles C. Jackson that selected materials from some of those manuscripts to produce a single, chronological narrative of her life.
 
-Now that all the original manuscripts have been located, we are finally able to ‘unedit’ Jackson’s nineteenth-century edition. Whereas that version bowdlerised Thornton’s manuscripts to produce a single, chronological narrative, this edition will enable users to explore how she revised her story.
+By contrast, our edition will make the full text of all four manuscripts freely available for the first time. This will allow users to compare and contrast her versions of events and examine how she revised her story.
 
-[Something about layout and reading process: each volume can be read separately, in continuous form, or users may switch between volumes; the text is available in both semi-diplomatic and modernised form, and users can select to read one or the other or compare the different versions side-by-side.]
-Instead of amalgamating different versions of the same story or event, this edition will enable users to locate variants through both key-word searches and event tagging. [More on tagging.]
+In the process of creating this digital edition, we aim to answer three key questions:
 
-In the light of this new material, we aim to answer three key questions:
 1. How do Thornton’s texts complicate current scholarship on early modern life-writing, particularly its gendered nature?
 2. Why did Thornton write four different autobiographical texts? How do they relate to each other and what might this reveal about their timing, process of composition and audience?
 3. How does Thornton’s engagement with contemporary legal, medical, political, and religious discourses enhance understanding of early modern women in Britain and Ireland?
@@ -22,6 +20,7 @@ In the light of this new material, we aim to answer three key questions:
 ## The Project Team
 
 ‘Alice Thornton’s Books’ brings together historians, literary scholars and digital analysts from the University of Edinburgh and King’s Digital Lab.
+
 
 {% include 'team.md', team: 'research' %}
 
