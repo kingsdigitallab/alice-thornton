@@ -85,19 +85,22 @@
          added <calendar> to teiHeader - will need proper description later
          
          
-         @rend markers:
+       @rend markers:
          (mainly?) <div> or <head>  
+         ruled lines above and below titles are based on WWP rendition styles
+         pre/post
+         double
+         pattern
          BoR original format (based on wwp?): position-marker type-width-weight eg
             pre-rule-full-width-light  
             post-diagonal-short
-         but book 1 likely to need more info about fancy decorations. double lines can be added to this format, but decorations? (which are recorded in the outline spreadsheet and in endnotes [not sure how consistently]) are for team discussion 
          <milestone> (unit=rule?) i thikn these might need some more work...
          diagonal
          diagonal-left-margin
          horiz-short-right
+       ** am I going to have to check all these again? found some erroneous pre/post. :-| **
          
-         
-         events tagging:
+       events tagging:
            milestone/anchor pairs
             - not yet implemented @spanTo or linking event mentions 
                 - probably won't do that until the autumn after all 4 books are marked up 
@@ -326,7 +329,7 @@
         <l>And make me ever chuse what <add place="above">you</add> Seest best</l>
         <l>Lord lead me by thy <add place="above">hand</add> into thy Rest.</l>
         
-        <p>Amen.</p><!-- Q [teams] [formatting] this Amen is centred ?and slightly larger text? -->
+        <p><seg rend="align(centre)">Amen.</seg></p><!-- NOTE [formatting] this Amen is centred ?and possibly slightly larger text? but the whole page is large text. -->
 
         </div>
 
@@ -339,7 +342,7 @@
     <div n="div5" rend="post(rule)">
         <!-- NOTE [rendition keywords] 
             - pre/post "rule" assumed default = ruled line is full width of text (or of margin text). not sure if there are any shorter ones in this book (there are a few in BoR). 
-            - how to add extra detail to rule though? maybe style would be better for this after all?  
+            - additions: double/thick/pattern
         -->
         <p>
             <milestone n="ev1" unit="event"/>
@@ -762,8 +765,8 @@
                 <hi rend="underline"><date>1639</date>.</hi><lb/>
                 
             A deliverance from Ship-Rack in A Passage into<lb/>
-                 -----------------------------------------------------<lb/>
-                <!-- Q [teams] [decoration] unusual (rule) for discussion -->
+                 
+                <!-- NOTE [decoration] unusual full width (rule) *under* first line of heading. team decision to ignore these. deleted.  -->
                  <placeName ref="place:Irel_096" n="place13">Ireland</placeName> with <rs ref="ppl:aow1" n="per40" type="person">my Mother</rs>, <rs ref="ppl:tbd-awt-brother" n="per41" type="person">brother</rs><!-- Q [people] possible to ident which brother? -->, &amp; 2 Nephewes.<lb/>
                  <persName ref="ppl:td4" n="per42">Thomas</persName> &amp; <persName ref="ppl:cd4" n="per43">Christopher Danby</persName>. In the yeare: <date type="accident" when-custom="1639">1639</date>.
             </head>
@@ -863,8 +866,8 @@
         <div n="div17" type="prayer">
             <head place="centre">
                 A thankesgiveing for our deliverances.<lb/>
-                 -----------------------------------------------------<lb/>
-                <!-- Q [teams] [decoration] another unusual title (rule) -->
+                 
+                <!-- NOTE [decoration] another unusual title - full width rule underneath first line of title. team decision: ignore these. deleted. -->
                  affter our dangerous passage by Sea:<lb/>
                 <date when-custom="1639-08-23">August the 23<hi rend="superscript">d</hi> 1639</date>. into <placeName ref="place:Irel_096" n="place25">Ireland</placeName>.<lb/>
                  Psallme 107. 1<hi rend="superscript">st</hi> 5.
@@ -1201,13 +1204,12 @@
       </div>
       <div n="div19">
         
-          <head place="centre" rend="pre(rule) post(rule)">
+          <head place="centre" rend="pre(rule) post(rule_double)">
                
                 A Relation conserning my Hon<ex>oured</ex> father. <persName ref="ppl:cw1" n="per82">the <lb/>
                  Lord Deputy Wandesforde</persName>, &amp; of his<lb/>
               Death. <date type="death" when-custom="1640-12-03">Decem. 3<hi rend="superscript">d</hi> 1640</date>.
             
-          <!-- TODO [teams] [decoration] double post(rule) -->
           </head>
                 <milestone n="ev17" unit="event"/><!-- NOTE event CW as lord deputy -->
             <p>
@@ -1318,11 +1320,10 @@
                  the same uppon those Excelent foundations on<lb/>
                  which it was built. //</p>
             <p>
-                 <!-- TODO [event] superEvent CW death -->
-                <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
-                <!-- Q [teams] [decoration] double horizontal lines above the header - I think *not* appropriate to treat this as text underline  -->
-               <!-- Q [teams] [formatting] smaller than main text. need to discuss representation of this - how much detail? a few places in BoR too. -->
-                <note resp="#awt1" place="left margin" rend="pre(rule) post(rule)">
+               <!-- TODO [event] superEvent CW death -->
+               <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
+               <!-- NOTE [margin] [decoration] double horizontal lines above the margin header  -->
+                <note resp="#awt1" place="left margin" rend="pre(rule_double)">
                     Acc<hi rend="superscript">.t</hi> of<lb/>
                      the Lord<lb/>
                      Deputy<lb/>
@@ -1593,9 +1594,8 @@
           </div>
         <div n="div20" type="prayer">
 
-            <head place="right" rend="pre(rule) post(rule)"> 
-                <!-- TODO [teams] [decoration] (rule) weight pre and post  
-                    [endnote] This is a thick line.
+            <head place="right" rend="pre(rule_thick) post(rule_thick)"> 
+                <!-- [endnote] This is a thick line. [pre and post]
                 -->    
                     
                 Meditations &amp; Praier uppon the Death of my<lb/>
@@ -1603,10 +1603,10 @@
             <p>
                 <!-- NOTE [margin] tagged fw - biblical reference 
                      NB *not* attempting to associate the reference with the quotation as we'll tag that using <quote> @source   -->
-                <!-- Q [teams] [decoration] thick line under the reference. - *not* text underline  -->
+
                 <!-- Q [tagging] [curlybraces] there is a curly brace pointing at the text. Unclear why! Does she do this for any other marginal notes? -->
                 
-                <fw type="reference" place="left margin" rend="post(rule)"><!-- Q [teams] [decoration] rule is a thicker line than others? -->
+                <fw type="reference" place="left margin" rend="post(rule_thick)">
                     Isaiah<lb/>
                     57<lb/>
                     v. 1<hi rend="superscript">st</hi> 2,
@@ -2166,15 +2166,13 @@
                 <fw type="pageNum">54.</fw>
             
         <div n="div22" type="prayer">
-            <head place="centre" rend="pre(rule) post(rule)">
+            <head place="centre" rend="pre(rule_thick) post(rule)">
                 A Prayer to be said before wee Receive. <lb/>
-                <!-- TODO [teams] [decoration] pre(rule) weight 
-                    [endnote] Thick line here.
-                -->
+                <!-- [endnote] Thick line here. -->
                 <lb/>
                 Made by <rs ref="ppl:cw1" n="per145" type="person">my father</rs>. before he went into.<lb/>
                  <placeName ref="place:Irel_096" n="place55">Ireland</placeName>. <date when-custom="1628">1628</date>.
-                <!-- Q [authors] by AWT's father; but afaik there's no other published/ms version of this that could be pointed to with <ref> -->
+                <!-- Q [authors] by AWT's father; but idk if there's a published/ms version of this that could be pointed to with <ref> -->
             </head>
             
             <p>O Eternall. Omnipotent, &amp; most Mercifull Father<lb/>
@@ -3137,8 +3135,8 @@
              <note place="left">Receaving the<lb/>
                 <fw place="left margin">1</fw> sacrament
               </note>
-                A Thankesgiveing affter my recovery<!-- Q [teams] [layout] this line is right aligned --><lb/>
-                from the smale Pox in <placeName ref="place:Ches_012" n="place92">Weschester</placeName>: <date type="illness" when-custom="1642">1642</date>.<!-- Q [teams] [layout] but this line is left aligned -->
+                A Thankesgiveing affter my recovery<!-- NOTE [layout] this line is right aligned. team decision to ignore. --><lb/>
+                from the smale Pox in <placeName ref="place:Ches_012" n="place92">Weschester</placeName>: <date type="illness" when-custom="1642">1642</date>.<!-- NOTE [layout] but this line is left aligned -->
             </head>
             
             <p>Blessed be the great &amp; gracious God, &amp; father of mercys<lb/>
@@ -3226,10 +3224,8 @@
             </div>
         
             <div n="div29">
-                <head rend="pre(rule) post(rule)">
-                    <!-- Q [teams] [decoration] pre(rule) weight 
-                    [endnote] Very thick line.
-                    -->
+                <head rend="pre(rule_thick) post(rule)">
+                    <!-- [endnote] Very thick line. -->
                  A discourse of passages, &amp; delivernces of <rs ref="ppl:aow1" n="per228" type="person">my mother</rs> &amp;<lb/>
                     us <rs ref="ppl:cw2 ppl:jw1 ppl:awt1" n="per229" type="person">3 Children</rs><!-- NOTE [people] awt, c and j --> affter her removall from <placeName ref="place:Ches_012" n="place93">Chester</placeName>, to <placeName ref="place:Snap_047" n="place94">Snape</placeName><lb/>
                      &amp; till we came to <placeName ref="place:Kirk_030" n="place95">Kirklington</placeName>. <date when-custom="1643/1644">1643. 4<subst><del rend="overwritten">3</del><add place="superimposed">4</add></subst></date>
@@ -4028,7 +4024,7 @@
                  Subject. Ruling them in peace &amp; happinesse many years.<lb/>
                  he laid doune his life. beei<ex>n</ex>g sacrificed by the iniquitties<lb/>
                  of his subjects; Their sinns pulled downe his Ruine on<lb/>
-                 him &amp; our selves. lett <ref>his admirable booke</ref><!-- Q [authors]? what book might this be? would be rather nice if she's thinking of Eikon Basilike? --> speake his<lb/>
+                 him &amp; our selves. lett <ref>his admirable booke</ref><!-- Q [authors] sounds like Eikon Basilike --> speake his<lb/>
                  Etternall Glory &amp; praise, the best of Kings (as meere man)<lb/>
                  that ever this Earth had. never defiling him selfe with sin<lb/>
                  or blood. of a tender compasionate sweete disposition.<lb/>
@@ -5360,7 +5356,7 @@
             </div>
         
         <div n="div46">
-            <head rend="pre(rule) post(rule)">
+            <head rend="pre(rule_pattern) post(rule_pattern)">
             <!-- [endnote] [decoration] Elaborate border -->
             <lb/>
                 A Relation of the Remarkable passages of my Life<lb/>
@@ -6245,7 +6241,7 @@
                 <persName ref="#awt1" n="per591">Alice Thornton</persName> <date type="birth" when-custom="1656-06-12">June the 1<subst><del rend="overwritten">1</del><add place="superimposed">2</add></subst><hi rend="superscript">th</hi>
                     <!-- [endnote] [insertion] Date heavily overwritten: could be 11 or 12.-->
                  1656</date>. by <persName ref="ppl:awt1" n="per592">Alice Wandes<add place="above">ford</add></persName>
-            <!-- Q [teams] [authors] prayer by awt's mother -->
+            <!-- Q [authors] prayer by awt's mother -->
             </head>
             
             <p>O Lord most high, the holy one whoe inhabitest<lb/>
@@ -6391,7 +6387,7 @@
         <div n="div60" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
                 <!-- Q [tagging] [layout] ? -->
-                <!-- Q [teams] [authors] text by awt's mother -->
+                <!-- Q [authors] text by awt's mother -->
                 A Thankesgiveing affter the delivery of my, <lb/>
                  Daughter <persName ref="#awt1" n="per598">Alice Thornton</persName> 
               <subst>   
@@ -6485,10 +6481,8 @@
                  Christ Jesus the Sonne of thy love, concluding these our<lb/>
                  imperfect praiers in that most sacred praier which Christ<lb/>
                  hath taught us to present unto thee to thy Glory, &amp;<lb/>
-                 for our comfort. Saying. <hi style="font-size:16pt">Our: Father &amp;</hi><!-- Q [teams] [decoration] what to do with this &? looks like a marker rather than the word "and". check for others - but hard to find! this might be the only one? -->
-                <!-- Q [teams] [formatting] text size: larger text again.</p>
-                    
-                </note>-->
+                 for our comfort. Saying. <seg rend="size(larger)">Our: Father &amp;</seg><!-- NOTE [decoration] team decision to encode larger size/alignment of Amen/Our Father in prayers. need to check for any not noted -->
+                
             </p>
             </div>
         <div n="div61">
@@ -6608,7 +6602,7 @@
                 <fw type="pageNum">152.</fw>
             
         <div n="div64">
-            <head rend="post(rule)">
+            <head rend="post(rule_pattern)">
                 Meditations on the deliverance, of <rs ref="ppl:xt2" n="per615" type="person">my first Sonne<lb/>
                     and fifth Childe</rs>. At <placeName ref="place:Hips_022" n="place243">Hipswell</placeName> the <date type="birth" when-custom="1657-12-10">10<hi rend="superscript">th</hi> of Decemb<ex>er</ex><lb/>
                  1657</date>.
@@ -7298,7 +7292,7 @@
               out of <placeName ref="place:Irel_096" n="place261">Ireland</placeName> to the valew due unto her at her death<lb/>
             
             <!-- NOTE [margin] tagged note -->
-            <!-- Q [teams] [decoration] removed text underline and replaced with @rend - there are lines above *and* below the marginal text -->
+            <!-- NOTE [decoration] removed text underline and replaced with @rend - there are lines above *and* below the marginal text -->
              <!-- NOTE last two letters of "widdow" overlap main text -->
                 <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
                     19<lb/>
@@ -7372,7 +7366,7 @@
             
            </div>
         <div n="div71">
-            <head rend="post(rule)">
+            <head rend="post(rule_pattern)">
                 The relattion of her sicknesse heere followes. //.
             <!-- [endnote] [decoration] Patterned border -->
              </head>
@@ -7873,8 +7867,7 @@
                  pertaker of this blessed Sacrament. Amen.</p>
            </div>
            <div n="div74">     
-               <!-- Q [teams] [decoration] pre rule is thicker line -->
-                <head rend="pre(rule) post(rule)">Before Receaving of the wine. affter consecration</head>
+               <head rend="pre(rule_thick) post(rule)">Before Receaving of the wine. affter consecration</head>
 
             <pb n="177"/>
 
@@ -7927,7 +7920,7 @@
             My delivery of <persName ref="ppl:wt2" n="per744">my Son William</persName>, my 6<hi rend="superscript">th</hi> childe; &amp; of his<lb/>
               death. <date type="birth" when-custom="1660-04-17">Aprill the 17<hi rend="superscript">th</hi> 1660</date> att <placeName ref="place:StNi_050" n="place274">St Nickolas</placeName> my <persName ref="ppl:awn1" n="per745">Aunt<lb/>
              Norton</persName>s house. affter <rs ref="ppl:aow1" n="per746" type="person">deare mother</rs>s death. 
-            <!-- Q [teams] [layout] hmm. "Wharton's grave at Easby" is below the post(rule). but clearly part of the heading text - seems to have simply run out of space. 
+            <!-- Q [teams] [layout] i think this will need final review v transcription. "Wharton's grave at Easby" is below the post(rule). but clearly part of the heading text - seems to have simply run out of space. 
                 some or all of the text from "He died..." looks like later insertion to me. Which would make the heading a more sensible length too. --> 
               
              <add place="inline">He died<lb/>
@@ -8059,7 +8052,7 @@
            </div>
         
         <div n="div78">
-            <head rend="pre(rule) post(rule)">
+            <head rend="pre(rule) post(rule_pattern)">
                 
                 A thanksgiveing for the restoration of <persName ref="ppl:cs2" n="per760">King Charles<lb/>
                  the second</persName>. of his Coronation <date type="political" when-custom="1660-05-29">May. 29<hi rend="superscript">th</hi> 1660</date>.
@@ -8253,13 +8246,11 @@
                  Power &amp; Dominion, both in heaven &amp; Earth. of men, &amp;<lb/>
                  Angells, To the ever blessed Trenity. for these his infinit<lb/>
                  &amp; inexpressable mercy to me &amp; this Kingdomes for ever<lb/>
-                 and for Ever. Amen. Amen.         
+                 and for Ever. Amen. Amen. <hi style="font-family:Segoe UI Symbol">♡ ♡ ♡ ♡ ♡ ♡ ♡</hi>
             </p>
      </div>
      <div n="div80">       
-         <head rend="pre(rule) post(rule)">
-                <hi style="font-family:Segoe UI Symbol">♡ ♡ ♡ ♡ ♡ ♡ ♡</hi> <lb/>
-                
+         <head rend="pre(rule_pattern) post(rule_pattern)">
                 Uppon <rs ref="ppl:wt1" n="per767" type="person">my Husband</rs>, &amp; Families Removall from <placeName ref="place:StNi_050" n="place285">St<lb/>
                  Nickolas</placeName>, to <placeName ref="place:Oswa_041" n="place286">Oswold Church. neare Newton</placeName>. <date when-custom="1660-06-11">June 11<note place="end">
                     <p rend="Endnote Text"> [word] Looks more like a zero in MS</p>
@@ -8653,7 +8644,7 @@
             <anchor n="ev128"/>
             </div>
         <div n="div83">
-            <head rend="pre(rule) post(rule)"> 
+            <head rend="pre(rule_pattern) post(rule)"> 
                 <!-- [endnote] [decoration] This border is patterned – with flowers. -->
             
                 Uppon our comeing to live att <placeName>newton</placeName> affter the house was<lb/>
@@ -9791,7 +9782,7 @@
                 <fw type="pageNum">216.</fw>
             
         <div n="div96">
-            <head rend="post(rule)">
+            <head rend="post(rule_pattern)">
                 Of my dangerous sickenesse: <date type="illness" when-custom="1666-08-16">August 8 <add place="above">16th</add><!-- TODO [teams] "8" in title should be marked as deleted? --> 1666</date>.
                 <!-- [endnote] [decoration] Patterned border. -->
             </head>
@@ -10073,11 +10064,11 @@
                  that she may live to his Glory for Christs sake, Amen.</p>
             </div>
         <div n="div101">
-            <head rend="pre(rule) post(rule)">
+            <head rend="pre(rule_double) post(rule_double)">
                 
                 The death of my Brother John Wandesford: <date type="death" when-custom="1666-12-02">De. 2<hi rend="superscript">d</hi> 1666</date>.
             
-                <!-- [endnote] [decoration] Double lines both above and below here.</p>-->
+                <!-- [endnote] [decoration] Double lines both above and below here.-->
             </head>
                 
            <milestone n="ev163" unit="event"/>
@@ -10305,7 +10296,7 @@
         </div>
         
         <div n="div103">
-            <head rend="pre(rule) post(rule)">
+            <head rend="pre(rule_double) post(rule)">
                 <!-- [endnote] [decoration] This is a double line. -->
            
                 <persName ref="ppl:rt2" n="per980">My son Robert</persName>s haveing the smale Pox. <date type="illness" when-custom="1667-01-05">Jan. 5 1667</date><!-- NOTE [dates] NS -->.<lb/>
@@ -10359,7 +10350,7 @@
                 <fw type="pageNum">227</fw>
             
         <div n="div105" rend="post(rule)">
-            <head rend="post(rule)">
+            <head rend="post(rule_double)">
                 My daughter <persName ref="ppl:atc1" n="per988">Alice Thornton</persName> her Smale Pox <date type="illness" when-custom="1667-01-25">Jan.<hi rend="underline">2, 67.</hi></date><!-- TODO [teams] "2, 67" s/b "25, 67" -->
             <!-- [endnote] [decoration] Double line here. -->
             </head>
@@ -10486,8 +10477,8 @@
                  &amp; understanding. give her &amp; us all grace never to for <lb/>
                  gett these wonderfull mercys to our soules &amp; bodies. Amen: //</p>
        </div>
-        <div n="div110" rend="pre(rule) post(rule)">
-            <!-- Q [teams] [decoration] patterned border pre *and* post -->
+        <div n="div110" rend="pre(rule_pattern) post(rule_pattern)">
+
         <milestone n="ev177" unit="event"/>
             <p>It was the permition of God, for the affliction of us all, in<lb/>
                  the losse of soe brave a Gentleman. to lett a dismall stroake<lb/>
@@ -10531,7 +10522,7 @@
                 <fw type="pageNum">230.</fw>
             
         <div n="div111">
-            <head rend="post(rule)">
+            <head rend="post(rule_pattern)">
                 The birth of <persName ref="ppl:ct1" n="per1015">my Sonne Christopher</persName>, my 9<hi rend="superscript">th</hi> Childe<lb/>
                 <date type="birth" when-custom="1667-11-11">no. 11 1667</date> &amp; of his Death. <date type="death" when-custom="1667-12-01">Dec. 1<hi rend="superscript">st</hi> 1667</date>. //.
                 <!-- [endnote] [decoration] Patterned border.  -->
@@ -11338,7 +11329,7 @@
             <anchor n="ev195"/>
         </div>
         <div n="div116">
-            <head rend="pre(rule) post(rule)"> 
+            <head rend="pre(rule_double) post(rule_pattern)"> 
                 <!-- [endnote] [decoration] Double line here.  -->
             
                 Uppon my Sad condittion, &amp; Sickenesse that beffell me by<lb/>
@@ -12026,7 +12017,7 @@
         </div>
         
         <div n="div117" type="prayer">
-            <head rend="pre(rule) post(rule)">
+            <head rend="pre(rule_pattern) post(rule_pattern)">
                 <!-- [endnote] [decoration] Patterned border. -->
             
          <fw rend="underline" place="left margin">P </fw>
@@ -12190,7 +12181,7 @@
                 <fw type="pageNum">264.</fw>
             
         <div n="div118">
-            <head rend="post(rule)">
+            <head rend="post(rule_pattern)">
                 My son <persName ref="ppl:rt2" n="per1250">Robert Thornton</persName> preserved <date type="accident" when-custom="1668-07-25">July. 25. 1668</date>.
                 <!-- [endnote] [decoration] Patterned border. -->
             </head>
@@ -12261,7 +12252,7 @@
                  Jesus Christ his holie son. Amen &amp; Amen.</p>
          </div>
         <div n="div119">
-            <head rend="pre(rule) post(rule)">
+            <head rend="pre(rule_pattern) post(rule_double)">
                 <!-- [endnote] [decoration] Patterned border. -->
                 A relation of the Last sicknesse, and Death of my<lb/>
                  deare &amp; hon<ex>oured</ex> husband <persName ref="ppl:wt1" n="per1257">Will.<hi rend="superscript">m</hi> Thornton Esq<ex>uire</ex></persName> whoe<lb/>
@@ -12602,8 +12593,8 @@
         </div>
         
         <div n="div121" type="prayer">
-            <head rend="pre(rule) post(rule)">
-                <!-- [endnote]ote Text"> [decoration] Double lines. -->
+            <head rend="pre(rule_double) post(rule_double)">
+                <!-- [endnote] [decoration] Double lines. -->
             
                 Prayers; &amp; Pettions upon this Sad Dispensation<lb/>
                  of the death of my deare &amp; hon<ex>oured</ex> husband.
@@ -12728,7 +12719,7 @@
                  addoration, &amp; thanksgiving of men &amp; Angells. hence forth<lb/>
                  &amp; for Ever more. Amen. &amp; Amen.</p>
         </div>
-        <div n="div122" rend="pre(rule)">
+        <div n="div122" rend="pre(rule_pattern)">
             <!-- [endnote] [decoration] Patterned border. -->
             <milestone n="ev199" unit="event"/><!-- NOTE event wt illness -->
             <p><rs ref="ppl:wt1" n="per1276" type="person">My dear Husband</rs>, went to <placeName ref="place:Malt_035" n="place387">Malton</placeName> to <persName ref="ppl:ftp1" n="per1277">my Sister <lb/>
@@ -12849,7 +12840,7 @@
                 <fw type="pageNum">276.</fw>
             
         <div n="div124" type="prayer">
-            <head rend="pre(rule) post(rule)">
+            <head rend="pre(rule_thick) post(rule_double_thick)">
                 <!-- [endnote] [decoration] Thick line. -->
             
                 The Widdowes Praieer. for her selfe &amp; Childeren.
@@ -13057,7 +13048,7 @@
             </p>
        </div>
        <div n="div125" type="poetry">
-           <head place="centre" rend="pre(rule)">
+           <head place="centre" rend="pre(rule_pattern)">
                <!-- [endnote] [decoration] Patterned border. -->
                <!-- Q [authors] following verses? 
                    note in BkRem: "42 records in Folger first line, and copied out until the last line. Sir Kenelm Digby or Sir Henry Wotton, various copies and contexts." -->
@@ -13265,7 +13256,7 @@
                 <fw type="pageNum">284.</fw>
         <div n="div134" type="poetry">
             
-            <head place="centre" rend="pre(rule) post(rule)">
+            <head place="centre" rend="pre(rule_pattern) post(rule)">
                 <!-- [endnote] [decoration] Patterned border. -->
              My faithfull Soules wish.
             </head>
@@ -13313,7 +13304,7 @@
             
                 <fw type="pageNum">285.</fw>
             <milestone unit="rule" rend="rule"/>
-            <!-- NOTE [tagging] this ruled line (full width) does not appear to be structural - there's no break in poem. -> milestone -->
+            <!-- NOTE [tagging] this ruled line (full width) does not appear to be structural - there's no break in poem. => milestone -->
             <l>If wronged, he only is my Right.</l>
             <l>If sad, he, is my Joy, &amp; Soules delight;</l>
             <l>In Summe and all, All only hee;</l>
@@ -13331,7 +13322,7 @@
             <l>finis. // .</l>
       </div>
        <div n="div135" type="poetry">
-           <head place="centre" rend="pre(rule) post(rule)">
+           <head place="centre" rend="pre(rule_pattern) post(rule)">
                <!-- [endnote] [decoration] Patterned border. -->
             
                 Uppon Rash Censorers
@@ -13352,7 +13343,7 @@
                 <fw type="pageNum">286.</fw>
             
        <div n="div136" type="supplementary">
-            <head rend="pre(rule)">
+           <head rend="pre(rule_pattern)">
                 <!-- [endnote] [decoration] Patterned border. pattern above title only. -->
             <lb/>
                 A Recollection of Memmorable accidents, &amp;<lb/>
@@ -13365,7 +13356,8 @@
    <!-- Q [structure] nest the following divs? -->
        
       <div n="div137">
-          <!-- Q will need further discussion [tagging] [layout] [xmlconversion] ugh again. 
+          <!-- Q [review] [tagging] [layout] 
+             discussed with team June 2022: largely agreed but will do final review of updated transcription.
          **My decisions = privilege meaning of words (as I interpret them...) over exact positioning on page. (Including moving a word :-S)**
          Although the first line is written inside the <head> above, this text is clearly referring to the next section. 
          treat it as a single <note>. and put both insertions inside the next div, not the first one.
@@ -13373,25 +13365,20 @@
       <note place="inline" resp="#awt">
          this must be placed In the first Place Page 8<hi rend="superscript">th</hi> before the<lb/>
          The mesels in <date when-custom="1629">1629</date>     
-        </note>
-      <!-- Q [tagging] [layout] ugh. but this clearly a different insertion, much darker ink, could be intended to be added to the title ? if so may be <add> not <note> -->  
+        </note> 
         <head rend="pre(rule) post(rule)">
        <add place="inline" resp="#awt">
           At <placeName ref="place:Kirk_030" n="place390">Kirklington</placeName> <date when-custom="1629">1629</date> /
        </add><lb/>
         <metamark><g>+</g></metamark><!-- Q [glyph] this matches the margin symbol on p.8 - looks like it is intended to link them together. so they should both be <metamark>??? look up scribal stuff! -->   
         Uppon my deliverance from death by a fall.<lb/>
-        <!--<note place="end">
-            <p rend="Endnote Text"> There is an unusual mark to the left of the title.</p>
-        </note>-->
+        <!-- [endnote] There is an unusual mark to the left of the title. -->
         when I was 3 years old. // 
         <note place="inline" resp="#awt" rend="post(rule)">when I cutt a great wound in my forehead of above an Inch long
-        <!--<note place="end">
-            <p rend="Endnote Text"> [insertion] This insertion looks to be added after the main body of the text.</p>
-        </note>-->
+        <!-- Q [endnote] This insertion looks to be added after the main body of the text. -->
        </note>
         </head>  
-      <!-- Q [tagging] [layout] ugh. and this line is another insertion, below the title border (with a post(rule) of its own, but again *could* be intended to be added to the title. In which case should perhaps be <add> rather than <note>. -->   
+      <!-- Q [tagging] [layout] another insertion, below the title border (with a post(rule) of its own -->   
           <milestone n="ev203" unit="event"/>
           <!-- NOTE event awt nursing care -->
             <p>
@@ -13586,12 +13573,12 @@
                 <fw type="pageNum">290.</fw>
             
         <div n="div139">
-            <head place="centre" rend="pre(rule) post(rule)">
+            <head place="centre" rend="post(rule_double)">
                 
                 A great deliverance from a 2<hi rend="superscript">d</hi> fall<lb/>
                  att <persName ref="ppl:rm1" n="per1315">Sr Robert Merideth</persName>s in Dublin<lb/>
                  in <placeName ref="place:Irel_096" n="place395">Ireland</placeName> <date type="accident" when-custom="1637">1637</date>.
-            <!-- [endnote] [decoration] Two lines here. -->
+            <!-- NOTE [decoration] Two lines - more widely spaced than usual double lines. 1637 is partly set into the top line. -->
             </head>
            <milestone n="ev206" unit="event"/>
             <p>My <persName ref="ppl:aw1" n="per1316">Lady Anne Wentworth</persName>. &amp; <persName ref="ppl:aw2" n="per1317">Lady Arbella</persName> with<lb/>
@@ -13686,7 +13673,7 @@
             <head place="centre" rend="post(rule)">
                 A dreadfull fire in the <placeName ref="place:Dubl_089" n="place396">Castle of Dublin</placeName>.<lb/>
                  <date type="accident" when-custom="1638">1638</date>.
-                <!-- Q [decoration] again, text set into the ruled line.
+                <!-- NOTE [decoration] again, text set into the ruled line.
                 [endnote] Uneven underlining here: date is incorporated into the line. -->
             </head>
 
@@ -14020,8 +14007,8 @@
         <div n="div144">
             <head rend="post(rule)">
                 My delivrance from Drowning in the River at <placeName ref="place:Midd_038" n="place415">Midlam</placeName><lb/>
-                 when I went to be a wittness to <persName ref="ppl:kwd1" n="per1372">my sister Danby</persName>s <persName ref="ppl:fd2" n="per1373">first<lb/>
-                 Francis</persName> Borne att <placeName ref="place:Midd_039" n="place416">Midlam Castle</placeName> in the yeare <date type="accident" when-custom="1644">1644</date><note place="end">
+                 when I went to be a wittness to <persName ref="ppl:kwd1" n="per1372">my sister Danby</persName>s <persName ref="ppl:ed1" n="per1373">first<lb/>
+                     Francis</persName><!-- NOTE [people] misidentification - son born in 1644 was named Edward. ID corrected. --> Borne att <placeName ref="place:Midd_039" n="place416">Midlam Castle</placeName> in the yeare <date type="accident" when-custom="1644">1644</date><note place="end">
                     <p rend="Endnote Text"> [word] Second 4 is written over a 3 in a darker ink.</p>
                 </note>
             </head>
@@ -14030,7 +14017,7 @@
                  &amp; Children to be in safty from the Parliament forces<lb/>
                  he beeing for <persName ref="ppl:cs1" n="per1376">King Charles the first</persName>. to midlam Castle<lb/>
                  A garison under my <persName ref="ppl:el2" n="per1377">Lord Lofftus</persName>. There she was delivrd<lb/>
-                 of <persName ref="ppl:fd2" n="per1378">her first Son Francis Danby</persName>. my sister having<lb/>
+                 of <persName ref="ppl:ed1" n="per1378">her first Son Francis Danby</persName><!-- NOTE [people] misidentification - son born in 1644 was named Edward. ID corrected. -->. my sister having<lb/>
                  gott my <persName ref="ppl:el2" n="per1379">Lord Lofftus</persName>, &amp; my <del rend="strikethrough">Lady H</del> selfe with 
               <subst>  
                 <del rend="strikethrough">annother</del>
@@ -14467,7 +14454,7 @@
                 <fw type="pageNum">300</fw>
             
        <div n="div151">
-            <head rend="post(rule)">
+            <head rend="post(rule_thick)">
               Uppon the reconsiling of my two Brothers<lb/>
                  <persName ref="ppl:gw1" n="per1392">George</persName> &amp; <persName ref="ppl:cw2" n="per1393">Christopher Wandesford</persName>. <date when-custom="1651-03-29">March 
             <num>
@@ -14477,10 +14464,9 @@
             </num>     
                 <!-- NOTE tagged <num> to hold these digits together as a single number - the tagging kind of breaks them up otherwise. (can't put the unchanged 9 inside subst.). -->
            <lb/>
-             on Easter Eve</date> 
-              - before <persName ref="ppl:gw1" n="per1394">my bro. G</persName> was lost<lb/>
-           <!-- Q [tagging] [decoration] ugh. year set into ruled line and centred. -->
-            1651
+             on Easter Eve</date> - before <persName ref="ppl:gw1" n="per1394">my bro. G</persName> was lost<lb/>
+           <!-- NOTE [decoration] year inset into ruled line and centred. *just* below 'on Easter Eve...' line. -->
+            <seg rend="centre">1651</seg>
             </head>
             <p>
                 <milestone n="ev221" unit="event"/>
@@ -14536,7 +14522,7 @@
             
                 <fw type="pageNum" place="top right">301</fw>
             
-            <!-- Q [formatting] [decoration] this is the other place where there are words set into a horizontal ruled line. will have to come back to this, and probably to the rest of the acrostic -->
+            <!-- Q [layout] [review] another place where there are words set into a horizontal ruled line. review this and the rest of the acrostic -->
             <head place="centre">
             <l> <persName ref="ppl:gw1" n="per1399">George Wandesford</persName>.</l>
             <l> ---------------Anagram.-------------------------------</l>
