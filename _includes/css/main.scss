@@ -54,6 +54,8 @@ a {
   }
 }
 
+// Headings
+
 .content {
   h1, h2, h3,
   h4, h5, h6 {
@@ -66,6 +68,10 @@ h1, h2, h3,
 h4, h5, h6 {
   color: $secondary;
   font-family: "Lora", serif;
+
+  &.small-heading {
+    font-size: 1em;
+  }
 }
 
 .title {
@@ -132,10 +138,22 @@ footer,
 .logo {
   img {
     background: $white;
+    border: 1px solid $light;
     border-radius: 50%;
     display: block;
+    height: 50px;
+    max-height: 50px;
     margin-right: 8px;
     width: 50px;
+  }
+}
+
+.logos,
+.content .logos,
+[class^="gallery-"] .logos {
+  img {
+    background: transparent;
+    padding: 50px;
   }
 }
 
@@ -233,11 +251,6 @@ img[src*='#center'] {
 }
 
 .person {
-  // display: inline-block;
-  // vertical-align: top;
-  // width: 10vw;
-  // padding: 1em;
-
   :not(first-child) {
     padding: 1em;
   }
