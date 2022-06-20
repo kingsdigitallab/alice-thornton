@@ -19,7 +19,7 @@ eleventyComputed:
 
     {% include "post_meta.md", post: post.data %}
 
-    <div class="post-excerpt">
+    <div class="post-excerpt index-page-w-images">
       <a href="{{ post.url }}"><img src="{{ post.data.feature | url }}" alt="TODO"></a>
       {{ post.templateContent | excerpt }}
     </div>
