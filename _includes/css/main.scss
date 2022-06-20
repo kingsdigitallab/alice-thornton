@@ -25,6 +25,26 @@ $accent: #df8833;
 $light: #cdcac7;
 $dark: #0a0a0a;
 
+// TODO: 
+// Customise Bulma's variables rather than override them
+.is-primary {
+  background: $primary!important;
+}
+
+.is-secondary {
+  background: $secondary !important;
+}
+
+.is-accent {
+  background: $accent !important;
+  color: $black !important;
+}
+
+a.tag {
+  text-decoration: none;
+}
+// END TODO
+
 // Shared layout
 
 // Grid based layoout
@@ -76,12 +96,38 @@ h4, h5, h6 {
   font-family: "Lora", serif;
 
   &.small-heading {
-    font-size: 1em;
+    font-size: 1.5em;
+  }
+}
+
+.index-page-titles {
+  background: lighten($secondary, 55%);
+  padding: .25em;
+  a {
+    color: $black;
+    text-decoration: none;
   }
 }
 
 .title {
   color: $secondary;
+}
+
+// Index pages with images
+
+.index-page-w-images {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 15px;
+  margin-bottom: 1em;
+
+  @include mobile {
+    grid-template-columns: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
 }
 
 footer,
@@ -216,6 +262,7 @@ footer,
 // /posts
 
 .post-meta {
+  font-size: .875em;
   font-style: italic;
 }
 
@@ -223,8 +270,7 @@ footer,
 div.content {
   img {
     background: $light;
-    min-width: 250px;
-    padding: 5px;
+    padding: 3px;
   }
 }
 
@@ -259,23 +305,5 @@ img[src*='#center'] {
 .person {
   :not(first-child) {
     padding: 1em;
-  }
-}
-
-.post-summary {
-  margin-bottom: 2em;
-
-
-  .post-excerpt {
-    img {
-      float: left;
-      width: 10vw;
-    }
-  }
-
-  &:after {
-    content: "";
-    clear: both;
-    display: table;
   }
 }
