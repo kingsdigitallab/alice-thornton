@@ -11,9 +11,8 @@ team: the key of a team (e.g. sdt), see metadata.json
     <div class="person">
       <img src="{{ person.data.image | url }}" alt="A photograph of {{ person.data.firstName }} {{ person.data.lastName }}">
       <p>
-        {{ person.data.firstName }} {{ person.data.lastName }}
-        <br>
-        {{ person.data.title }}
+        <strong>{{ person.data.firstName }} {{ person.data.lastName }}</strong><br>
+        <em>{{ person.data.title }}</em>
       </p>
     </div>
   {%- endfor -%}
