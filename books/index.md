@@ -30,13 +30,12 @@ In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula
 
 In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both volumes form part of the Comber Collection at DCL.
 
-**Durham Cathedral Library, GB-0033-CCOM 38**
 
-![Alt text]({{ "/assets/img/books/BookRemembrancesFrontCover.jpg#left" | url }} "Book of Remembrances")
 
-**Durham Cathedral Library, GB-0033-CCOM 7**
+![Alt text]({{ "/assets/img/books/BookRemembrancesFrontCover.jpg#left" | url }} "**Durham Cathedral Library, GB-0033-CCOM 38**")
 
-![Alt text]({{ "/assets/img/books/Book2FrontCover.jpg#right" | url }} "The Second Book of My Widowed Condition")
+
+![Alt text]({{ "/assets/img/books/Book2FrontCover.jpg#left" | url }} "**Durham Cathedral Library, GB-0033-CCOM 7**")
 
 
 These are the four books that we are in the process of preparing for our digital edition.
