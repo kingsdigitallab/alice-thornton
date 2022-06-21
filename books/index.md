@@ -24,7 +24,6 @@ In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula
 
 ![image](/assets/img/placeholder.jpg)
 
-
 **British Library, Add. MS 88897/2**
 
 ![image](/assets/img/placeholder.jpg)
@@ -33,11 +32,11 @@ In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in
 
 **Durham Cathedral Library, GB-0033-CCOM 38**
 
-![image](/assets/img/placeholder.jpg)
+![Alt text]({{ "/assets/img/books/BookRemembrancesFrontCover.jpg#left" | url }} "Book of Remembrances")
 
 **Durham Cathedral Library, GB-0033-CCOM 7**
 
-![image](/assets/img/placeholder.jpg)
+![Alt text]({{ "/assets/img/books/Book2FrontCover.jpg#right" | url }} "The Second Book of My Widowed Condition")
 
 
 These are the four books that we are in the process of preparing for our digital edition.
