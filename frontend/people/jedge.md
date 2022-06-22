@@ -2,9 +2,10 @@
 firstName: Jo
 lastName: Edge
 image: /assets/img/people/jedge.jpg
-title: Postdoctoral Researcher
+jobTitle: Postdoctoral Researcher
 affiliation: University of Edinburgh
 department: History
+order: 3
 teams:
   - research
 ---

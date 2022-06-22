@@ -2,9 +2,10 @@
 firstName: Cordelia
 lastName: Beattie
 image: /assets/img/people/cbeattie.jpg
-title: Principal Investigator
+jobTitle: Principal Investigator
 affiliation: University of Edinburgh
 department: History
+order: 1
 teams:
   - research
 ---

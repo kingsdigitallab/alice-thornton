@@ -2,9 +2,10 @@
 firstName: Suzanne
 lastName: Trill
 image: /assets/img/people/strill.jpg
-title: Co-Investigator
+jobTitle: Co-Investigator
 affiliation: University of Edinburgh
 department: English and Scottish Literature
+order: 2
 teams:
   - research
 ---

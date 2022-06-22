@@ -6,7 +6,7 @@
   "main": "index.js",
   "author": "King's Digital Lab",
   "license": "MPL-2.0",
-  "scripts": {
+  "//scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "npx sass --style=compressed --no-source-map _includes/css/main.scss assets/css/main.css",
     "build": "npm run sass && npx @11ty/eleventy",
@@ -14,6 +14,12 @@
     "watch:sass": "npm run sass -- --watch",
     "watch:11ty": "npx @11ty/eleventy --serve",
     "serve": "npm-run-all sass --parallel watch:*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "rebuild": "rm -rf _site && npm run build",
+    "serve": "npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "devDependencies": {

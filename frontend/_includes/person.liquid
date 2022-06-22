@@ -1,9 +1,9 @@
 ---
+eleventyComputed:
+    title: "{{ firstName }} {{ lastName }}, {{ jobTitle }}"
 layout: base.liquid
 ---
-{{ firstName}} {{ lastName }}
-{% for role in roles %}
-    , {{ role.title }} ({{ role.affiliation }})
-{% endfor %}
+
+<img src="{{ image | url }}" alt="A photograph of {{ firstName }} {{ lastName }}">
 
 {{ content }}

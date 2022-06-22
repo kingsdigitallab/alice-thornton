@@ -2,9 +2,10 @@
 firstName: Sharon
 lastName: Howard
 image: /assets/img/people/showard.jpg
-title: Postdoctoral Researcher
+jobTitle: Postdoctoral Researcher
 affiliation: University of Edinburgh
 department: History
+order: 4
 teams:
   - research
 ---
