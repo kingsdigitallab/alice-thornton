@@ -11,17 +11,18 @@ eleventyComputed:
 
 {% for post in posts %}
   <div class="post-summary">
-    <h3>
+    <h2 class="index-page-titles">
       <a href="{{ post.url }}">
         {{ post.data.title }} 
       </a>
-    </h3>
+    </h2>
 
     {% include "post_meta.md", post: post.data %}
 
-    <div class="post-excerpt">
+    <div class="post-excerpt index-page-w-images">
       <a href="{{ post.url }}"><img src="{{ post.data.feature | url }}" alt="TODO"></a>
       {{ post.templateContent | excerpt }}
+      <a href="{{ post.url }}" class="button">Read more</a>
     </div>
   </div>
 

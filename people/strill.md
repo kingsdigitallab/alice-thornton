@@ -1,7 +1,7 @@
 ---
 firstName: Suzanne
 lastName: Trill
-image: /assets/img/placeholder.jpg
+image: /assets/img/people/strill.jpg
 title: Co-Investigator
 affiliation: University of Edinburgh
 department: English and Scottish Literature

@@ -8,9 +8,9 @@ eleventyNavigation:
 ## Coming soon
 
 An interactive and fully searchable digital edition
-of Alice Thornton auto-biographical works.
+of Alice Thornton autobiographical works.
 
-The edition and the online application are under development and will be released incrementally over the coming months.
+The edition and the online application are under development and will be released in due course.
 
 ## Background
 
@@ -22,33 +22,32 @@ In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula
 
 **British Library, Add. MS 88897/1**
 
-![image](/assets/img/placeholder.jpg)
-
+![image](/assets/img/books/Book1FrontCover.jpg)
 
 **British Library, Add. MS 88897/2**
 
-![image](/assets/img/placeholder.jpg)
+![image](/assets/img/books/Book3FrontCover.jpg)
 
 In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both volumes form part of the Comber Collection at DCL.
 
 **Durham Cathedral Library, GB-0033-CCOM 38**
 
-![image](/assets/img/placeholder.jpg)
+![Alt text](/assets/img/books/BookRemembrancesFrontCover.jpg)
 
 **Durham Cathedral Library, GB-0033-CCOM 7**
 
-![image](/assets/img/placeholder.jpg)
+![Alt text](/assets/img/books/Book2FrontCover.jpg)
 
 
 These are the four books that we are in the process of preparing for our digital edition.
 
-It has become common to refer to Thornton’s volumes as the ***Book of Remembrances***, ***Book 1***, ***Book 2***, and ***Book 3***. However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential a key issue this project seeks to address is why and how these volumes are interconnected.
+It has become common to refer to Thornton’s volumes as the ***Book of Remembrances***, ***Book 1***, ***Book 2***, and ***Book 3***. However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential. A key issue this project seeks to address is why and how these volumes are interconnected.
 
 Our editorial and markup practice aims to make this possible. We prefer the following fuller titles, which add descriptions derived from her writings:
 - ***Book of Remembrances***
 - ***Book 1: The First Book of My Life***
 - ***Book 2: The First Book of My Widowed Condition***
-- ***Book 3: The Second Book of my Widowed Condition***
+- ***Book 3: The Second Book of My Widowed Condition***
 
 However, for ease of reference, we will also use abbreviated titles:
 - ***Book Rem***
