@@ -1,6 +1,5 @@
 ---
 title: Finding Two Missing Thornton Manuscripts
-publicationDate: 2022-06-20
 feature: /assets/img/posts/book_rem_inner_cropped.jpg
 authors:
     - cbeattie
