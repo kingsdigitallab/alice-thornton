@@ -35,13 +35,13 @@ In 1633, the family relocated to Ireland, as her father's friend and mentor, Tho
 
  ![Alt text]({{ "/assets/img/placeholder.jpg#right" | url }} "Photograph of Anne Wentworth")
 
-After her father’s death, and prompted by the turmoil of the Irish Rebellion, the family move back to the north of England.  However, the following year they are caught up in the events of the civil war. Alice's family were for the king and their estates at Kirklington were confiscated and Scottish soldiers were billeted on her mother’s lands in Hipswell, Richmondshire.
+After her father’s death, and prompted by the turmoil of the Irish Rebellion, the family moved back to the north of England.  However, the following year they were caught up in the events of the civil war. Alice's family were for the king and their estates at Kirklington were confiscated and Scottish soldiers were billeted on her mother’s lands in Hipswell, Richmondshire.
 
-When her oldest brother, George, drowned in the river Swale in 1651 – which Alice claims to have foretold in a dream six months earlier   – she reluctantly agreed to marry. Her family settle on William Thornton (1624-1668), a member of the lesser gentry in Ryedale, whose parliamentarian family connections could help the Wandesfords recover their lands.
+When her oldest brother, George, drowned in the river Swale in 1651 – which Alice claimed to have foretold in a dream six months earlier   – she reluctantly agreed to marry. Her family settled on William Thornton (1624-1668), a member of the lesser gentry in Ryedale, whose parliamentarian family connections could potentially help the Wandesfords recover their lands.
 
  ![Alt text]({{ "/assets/img/placeholder.jpg#left" | url }} "Photograph of Hipswell Hall")
 
-Alice and William were married for seventeen years and during that time she gave birth to nine children. Alice vividly describes the dangers of childbirth and poignantly records the deaths of six of her infant children. She charts the development of those who survive - Alice (Nally), Katherine and Robert - and continually thanks God for their miraculous deliverances from illnesses and accidents. Family finances were frequently precarious and William died in 1668 without a will and much in debt.
+Alice and William were married for seventeen years and during that time she gave birth to nine children. In her manuscripts, Alice vividly described the dangers of childbirth and poignantly recorded the deaths of six of her infant children. She charted the development of those who survived - Alice (Nally), Katherine and Robert - and continually thanked God for their miraculous deliverances from illnesses and accidents. Family finances were frequently precarious and William died in 1668 without a will and much in debt.
 
 ![Alt text]({{ "/assets/img/placeholder.jpg#left" | url }} "Memorial for William by Alice")
 
