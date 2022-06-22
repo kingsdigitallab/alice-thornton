@@ -8,7 +8,7 @@ eleventyNavigation:
 ## Coming soon
 
 An interactive and fully searchable digital edition
-of Alice Thornton auto-biographical works.
+of Alice Thornton autobiographical works.
 
 The edition and the online application are under development and will be released in due course.
 
