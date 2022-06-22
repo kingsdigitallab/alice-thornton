@@ -37,7 +37,7 @@ After her father’s death, and prompted by the turmoil of the Irish Rebellion, 
 
 When her oldest brother, George, drowned in the river Swale in 1651 – which Alice claims to have foretold in a dream six months earlier   – she reluctantly agreed to marry. Her family settle on William Thornton (1624-1668), a member of the lesser gentry in Ryedale, whose parliamentarian family connections could help the Wandesfords recover their lands.
 
-![Alt text]({{ "/assets/img/home/hipswell-hall-geograph-david-rogers-1390356.jpg#left" | url }} "Photograph of Hipswell Hall")
+![Alt text]({{ "/assets/img/home/Hipswell-Hall-st.jpg#left" | url }} "Photograph of Hipswell Hall")
 
 Alice and William were married for seventeen years and during that time she gave birth to nine children. Alice vividly describes the dangers of childbirth and poignantly records the deaths of six of her infant children. She charts the development of those who survive - Alice (Nally), Katherine and Robert - and continually thanks God for their miraculous deliverances from illnesses and accidents. Family finances were frequently precarious and William died in 1668 without a will and much in debt.
 
