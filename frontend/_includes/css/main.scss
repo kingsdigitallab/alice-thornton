@@ -25,10 +25,10 @@ $accent: #df8833;
 $light: #cdcac7;
 $dark: #0a0a0a;
 
-// TODO: 
+// TODO:
 // Customise Bulma's variables rather than override them
 .is-primary {
-  background: $primary!important;
+  background: $primary !important;
 }
 
 .is-secondary {
@@ -76,22 +76,30 @@ a {
 
 p {
   &.small {
-    font-size: .875em;
+    font-size: 0.875em;
   }
 }
 
 // Headings
 
 .content {
-  h1, h2, h3,
-  h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: $secondary;
     font-family: "Lora", serif;
   }
 }
 
-h1, h2, h3,
-h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $secondary;
   font-family: "Lora", serif;
 
@@ -102,7 +110,7 @@ h4, h5, h6 {
 
 .index-page-titles {
   background: lighten($secondary, 55%);
-  padding: .25em;
+  padding: 0.25em;
   a {
     color: $black;
     text-decoration: none;
@@ -157,14 +165,14 @@ footer,
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 5px;
-  
+
   img {
     width: 100% !important;
   }
 
   p {
     margin-bottom: 0;
-    padding: .5em;
+    padding: 0.5em;
   }
 }
 
@@ -228,7 +236,7 @@ footer,
     text-decoration: none;
 
     color: $light;
-    
+
     &.is-active {
       border-bottom: 4px solid $white;
       color: $white;
@@ -263,11 +271,11 @@ footer,
 // /posts
 
 .post-meta {
-  font-size: .875em;
+  font-size: 0.875em;
   font-style: italic;
 }
 
-// 
+//
 div.content {
   img {
     background: $light;
@@ -275,30 +283,30 @@ div.content {
   }
 }
 
-img[src*='#right'] {
+img[src*="#right"] {
   float: right;
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
-img[src*='#left'] {
+img[src*="#left"] {
   float: left;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
-img[src*='#center'] {
+img[src*="#center"] {
   display: block;
-  margin: .5em auto;
+  margin: 0.5em auto;
 }
 
-img[src*='#left'],
-img[src*='#right'],
-img[src*='#center'] {
+img[src*="#left"],
+img[src*="#right"],
+img[src*="#center"] {
   width: 20vw;
 
   @include mobile {
     display: block;
     float: none;
-    margin: .5em 0;
+    margin: 0.5em 0;
     width: 100%;
   }
 }
