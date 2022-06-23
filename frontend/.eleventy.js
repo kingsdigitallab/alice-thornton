@@ -1,72 +1,78 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const utils = require("./_includes/js/utils.js");
 const inspect = require("util").inspect;
+const markdownItFootnote = require("markdown-it-footnote");
+const markdownIt = require("markdown-it");
+const path = require("node:path");
 const sass = require("sass");
+const debug = require("debug")("Eleventy:KDL");
+const eleventySass = require("eleventy-sass");
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+module.exports = function (config) {
+  let options = {
+    html: true, // Enable HTML tags in source
+    breaks: true, // Convert '\n' in paragraphs into <br>
+    linkify: true, // Autoconvert URL-like text to links
+  };
+  // configure the library with options
+  let markdownLib = markdownIt(options).use(markdownItFootnote);
+  // set the library to process markdown files
+  config.setLibrary("md", markdownLib);
 
-  eleventyConfig.addTemplateFormats("scss");
+  config.addPlugin(eleventyNavigationPlugin);
 
-  // Creates the extension for use
-  eleventyConfig.addExtension("scss", {
-    outputFileExtension: "css",
+  // config.on("eleventy.after", (dir) => {
+  //   console.log("Validate HTML", dir);
+  // });
 
-    // `compile` is called once per .scss file in the input directory
-    compile: async function (content, inputPath) {
-      let parsed = path.parse(inputPath);
-      if (parsed.name.startsWith("_")) {
-        return;
-      }
-      let res = sass.compileString(content);
+  utils.configureSass(config);
 
-      // This is the render function, `data` is the full data cascade
-      return async (data) => {
-        return res.css;
-      };
-    },
-  });
+  // Problem1: impossible to exclude .sass files, bulma assumes var
+  // declared before theyare parsed but their name doesn't start with _.
+  // Problem2: sutainable? only one maintainer.
+  // config.addPlugin(eleventySass);
 
   // just copy the assets folder as is to the static site _site
-  eleventyConfig.addPassthroughCopy("assets");
+  // config.addPassthroughCopy("assets");
+  // config.addPassthroughCopy("assets/css");
+  // config.addPassthroughCopy("assets/fonts");
+  // config.addPassthroughCopy("assets/img");
+  // config.addPassthroughCopy("assets/js");
 
   // just copy the admin folder as is to the static site _site
-  eleventyConfig.addPassthroughCopy("admin");
+  // config.addPassthroughCopy("admin");
 
   // {{ myvar | debug }} => displays full content of myvar object
-  eleventyConfig.addFilter(
-    "debug",
-    (content) => `<pre>${inspect(content)}</pre>`
-  );
+  config.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
 
   // Returns all entries from an array which have a given value for a given property
   // Note: this filter can't beused in a {% for loop, use {% assign first
   // {{ collections.posts | lookup:'.categories','news' }}
-  eleventyConfig.addFilter(
+  config.addFilter(
     "lookup",
     function (collection, property_path, accepted_values) {
       return utils.lookup(collection, property_path, accepted_values);
     }
   );
 
-  eleventyConfig.addFilter("sortby", function (collection, property_name) {
+  config.addFilter("sortby", function (collection, property_name) {
     return collection.sort(
       (a, b) => a.data[property_name] - b.data[property_name]
     );
   });
 
-  eleventyConfig.addFilter("hasContent", function (item) {
+  config.addFilter("hasContent", function (item) {
     return item.template.frontMatter.content.length > 5;
   });
 
-  eleventyConfig.addFilter("includes", function (collection, accepted_values) {
+  config.addFilter("includes", function (collection, accepted_values) {
     let ret = utils.lookup(collection, "", accepted_values);
     return ret.length > 0;
   });
 
-  eleventyConfig.addFilter("contains", (a, b) => a.includes(b));
+  config.addFilter("contains", (a, b) => a.includes(b));
 
-  eleventyConfig.addFilter(
+  config.addFilter(
     // TODO: avoid truncating an element e.g. "[...]<img "
     "excerpt",
     (s) => s.substring(0, 200) + "..."

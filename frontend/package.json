@@ -17,15 +17,22 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "npx sass --style=compressed --no-source-map _includes/css/main.scss assets/css/main.css",
     "build": "npx @11ty/eleventy",
     "rebuild": "rm -rf _site && npm run build",
-    "serve": "npx @11ty/eleventy --serve"
+    "//serve": "npx @11ty/eleventy --serve",
+    "//serve:debug": "DEBUG=Eleventy* npm run serve",
+    "//serve:debug:kdl": "DEBUG=Eleventy:KDL npm run serve",
+    "watch:sass": "npm run sass -- --watch",
+    "watch:11ty": "npx @11ty/eleventy --serve",
+    "serve": "npm-run-all sass watch:*"
   },
   "keywords": [],
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-navigation": "^0.3.2",
-    "npm-run-all": "^4.1.5",
+    "eleventy-sass": "^1.3.1",
+    "markdown-it-footnote": "^3.0.3",
     "sass": "^1.50.0"
   },
   "dependencies": {
