@@ -5,16 +5,18 @@ eleventyNavigation:
   order: 2
 ---
 
-## Coming soon
+## Digital Edition
 
-An interactive and fully searchable digital edition
-of Alice Thornton autobiographical works.
+Over the course of the next two years (July 2022-August 2024), this project will produce an interactive and fully searchable digital edition of Alice Thornton’s autobiographical ‘Books’ which will be freely accessible here.
 
-The edition and the online application are under development and will be released in due course.
+The text of all four manuscript volumes will be available to read in both fully modernised and semi-diplomatic versions, either separately or side-by-side. As we are using the widely recognised Text Encoding Initiative (TEI) markup schema, the edition will be fully searchable (for example, users will be able to trace people and events across all four volumes).
+
+Although we are not digitising the manuscripts, we will provide some sample images from each of the volumes to offer a sense of how the original materials looked
+
 
 ## Background
 
-When Alice Thornton died in 1707, she bequeathed ‘three Books of my own Meditations and Transactions of my life, and all the residue of my Papers and Books written with my own hand’ to her daughter, Alice Thornton Comber. In addition to those three Books, there exists another, smaller volume known as a Book of Remembrances.
+When Alice Thornton died in 1707, she bequeathed ‘three Books of my own Meditations and Transactions of my life, and all the residue of my Papers and Books written with my own hand’ to her daughter, Alice Thornton Comber. In addition to those three Books, there exists another, smaller volume known as a ***Book of Remembrances***.
 
 In the introduction to his nineteenth-century edition, Charles C. Jackson refers to all four volumes; after this, however, the location of the manuscripts was unclear for many years.
 
