@@ -25,6 +25,10 @@ $accent: #df8833;
 $light: #cdcac7;
 $dark: #0a0a0a;
 
+body {
+  background: linear-gradient(0.75turn, transparent 50%, lighten($primary, 75%)), url("/assets/img/alice-thornthon-bg.jpg") top left repeat-y;
+}
+
 // TODO: 
 // Customise Bulma's variables rather than override them
 .is-primary {
@@ -81,6 +85,19 @@ p {
 }
 
 // Headings
+
+h1,
+h1.title {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
 
 .content {
   h1, h2, h3,
