@@ -35,9 +35,10 @@ module.exports = function (config) {
   // just copy the assets folder as is to the static site _site
   // config.addPassthroughCopy("assets");
   // config.addPassthroughCopy("assets/css");
-  // config.addPassthroughCopy("assets/fonts");
-  // config.addPassthroughCopy("assets/img");
-  // config.addPassthroughCopy("assets/js");
+  config.addPassthroughCopy("**/*.css");
+  config.addPassthroughCopy("assets/fonts");
+  config.addPassthroughCopy("assets/img");
+  config.addPassthroughCopy("assets/js");
 
   // just copy the admin folder as is to the static site _site
   // config.addPassthroughCopy("admin");
