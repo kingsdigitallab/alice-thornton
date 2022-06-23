@@ -11,7 +11,7 @@ const eleventySass = require("eleventy-sass");
 module.exports = function (config) {
   let options = {
     html: true, // Enable HTML tags in source
-    breaks: true, // Convert '\n' in paragraphs into <br>
+    breaks: false, // Convert '\n' in paragraphs into <br>
     linkify: true, // Autoconvert URL-like text to links
   };
   // configure the library with options
@@ -35,7 +35,7 @@ module.exports = function (config) {
   // just copy the assets folder as is to the static site _site
   // config.addPassthroughCopy("assets");
   // config.addPassthroughCopy("assets/css");
-  config.addPassthroughCopy("**/*.css");
+  // config.addPassthroughCopy("**/*.css");
   config.addPassthroughCopy("assets/fonts");
   config.addPassthroughCopy("assets/img");
   config.addPassthroughCopy("assets/js");
