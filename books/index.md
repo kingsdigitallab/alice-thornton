@@ -16,7 +16,7 @@ Although we are not digitising the manuscripts, we will provide some sample imag
 
 ## Background
 
-When Alice Thornton died in 1707, she bequeathed ‘three Books of my own Meditations and Transactions of my life, and all the residue of my Papers and Books written with my own hand’ to her daughter, Alice Thornton Comber. In addition to those three Books, there exists another, smaller volume known as a ***Book of Remembrances***.
+When Alice Thornton died in 1707, she bequeathed ‘three Books of my own Meditations and Transactions of my life, and all the residue of my Papers and Books written with my own hand’ to her daughter, Alice Thornton Comber. In addition to those three Books, there exists another, smaller volume known as a *Book of Remembrances*.
 
 In the introduction to his nineteenth-century edition, Charles C. Jackson refers to all four volumes; after this, however, the location of the manuscripts was unclear for many years.
 
@@ -43,16 +43,16 @@ In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in
 
 These are the four books that we are in the process of preparing for our digital edition.
 
-It has become common to refer to Thornton’s volumes as the ***Book of Remembrances***, ***Book 1***, ***Book 2***, and ***Book 3***. However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential. A key issue this project seeks to address is why and how these volumes are interconnected.
+It has become common to refer to Thornton’s volumes as the *Book of Remembrances*, *Book 1*, *Book 2*, and *Book 3*. However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential. A key issue this project seeks to address is why and how these volumes are interconnected.
 
 Our editorial and markup practice aims to make this possible. We prefer the following fuller titles, which add descriptions derived from her writings:
-- ***Book of Remembrances***
-- ***Book 1: The First Book of My Life***
-- ***Book 2: The First Book of My Widowed Condition***
-- ***Book 3: The Second Book of My Widowed Condition***
+- *Book of Remembrances*
+- *Book 1: The First Book of My Life*
+- *Book 2: The First Book of My Widowed Condition*
+- *Book 3: The Second Book of My Widowed Condition*
 
 However, for ease of reference, we will also use abbreviated titles:
-- ***Book Rem***
-- ***Book 1***
-- ***Book 2***
-- ***Book 3***
+- *Book Rem*
+- *Book 1*
+- *Book 2*
+- *Book 3*
