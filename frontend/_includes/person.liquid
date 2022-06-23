@@ -4,6 +4,12 @@ eleventyComputed:
 layout: base.liquid
 ---
 
-<img src="{{ image | url }}" alt="A photograph of {{ firstName }} {{ lastName }}">
+<div class="person-bio block">
+    <img src="{{ image | url }}#left" alt="A photograph of {{ firstName }} {{ lastName }}">
 
-{{ content }}
+    {{ content }}
+
+    {% if mainEntityOfPage %}
+        <a class="button is-info is-light" href="{{ mainEntityOfPage }}">Academic page</a>
+    {% endif %}
+</div>

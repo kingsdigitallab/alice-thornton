@@ -5,6 +5,7 @@ image: /assets/img/people/strill.jpg
 jobTitle: Co-Investigator
 affiliation: University of Edinburgh
 department: English and Scottish Literature
+mainEntityOfPage: https://www.ed.ac.uk/profile/suzanne-trill
 order: 2
 teams:
   - research

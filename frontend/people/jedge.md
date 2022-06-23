@@ -5,6 +5,7 @@ image: /assets/img/people/jedge.jpg
 jobTitle: Postdoctoral Researcher
 affiliation: University of Edinburgh
 department: History
+mainEntityOfPage: https://www.ed.ac.uk/history-classics-archaeology/history/about/staff-profiles/jo-edge
 order: 3
 teams:
   - research
