@@ -319,3 +319,22 @@ img[src*='#center'] {
     width: 100%;
   }
 }
+
+// Social media
+
+ul.social_media_block {
+  display: grid;
+  list-style: none;
+  margin: 0;
+
+  grid-template-columns: 100%;
+  grid-gap: 1em;
+
+  @include tablet {
+    grid-template-columns: 50%;
+  }
+
+  figure {
+    margin-left: 0;
+  }
+}
