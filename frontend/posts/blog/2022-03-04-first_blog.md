@@ -1,8 +1,11 @@
 ---
 title: Finding Two Missing Thornton Manuscripts
+publicationDate: 2022-06-23
 feature: /assets/img/posts/book_rem_inner_cropped.jpg
 authors:
   - cbeattie
+categories:
+  - books
 ---
 
 ‘Are you interested in an Alice Thornton manuscript?’ This was the text that I got from my dad one evening in autumn 2018. I didn’t get too excited initially as I thought my dad might be referring to a copy of Jackson’s 1875 edition of Thornton’s writings, as he himself is largely interested in twentieth-century history. But he then sent me an image of the tiny book that his friend had showed him in their local pub over an early evening drink.

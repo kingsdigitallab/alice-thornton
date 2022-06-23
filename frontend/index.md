@@ -27,19 +27,19 @@ edition of all four of her autobiographical texts.
 
 Most of what we know about Alice Thornton (1626-1707) is drawn from the autobiographical accounts which she left to her eldest daughter in her will. She relates a veritable ‘riches to rags’ story, punctuated by many of what she presents as near-death experiences.
 
-Born in Kirklington, Yorkshire on 13 February 1626, Alice spent her childhood years in relative comfort in Yorkshire, London and Dublin. She was the fifth child and youngest daughter of Christopher Wandesford (1592-1640) and his wife Alice Osborne (1593-1659). She later writes that she had her first deliverance from death at age three at Kirklington Hall when she was following her nurse, Sara, and tripped on a hearth stone and cut her head open.
+Born in Kirklington, Yorkshire on 13 February 1626, Alice spent her childhood years in relative comfort in Yorkshire, London and Dublin. She was the fifth child and youngest daughter of Christopher Wandesford (1592-1640) and his wife Alice Osborne (1593-1659). She later wrote that she had her first deliverance from death at age three at Kirklington Hall when she was following her nurse, Sara, and tripped on a hearth stone and cut her head open.
 
 ![Alt text]({{ "/assets/img/home/Christopher-Wandesforde-npg2407-ccbync.jpg#right" | url }} "Portrait of Christopher Wandesford, NPG 2407 CC BY NC")
 
 In 1633, the family relocated to Ireland, as her father's friend and mentor, Thomas Wentworth (first Lord Strafford), had been made Lord Deputy of Ireland and there was a role for Christopher Wandesford in Dublin. Here, Alice spent time with Ladies Anne and Arabella Wentworth and learnt French, singing, dancing, silk-work and other ‘suitable’ accomplishments. Their playtime together included a swinging game that caused another near-death experience. In early 1640, her father took over as Lord Deputy of Ireland before his sudden death later that year at just 48 years of age.
 
-After her father’s death, and prompted by the turmoil of the Irish Rebellion, the family move back to the north of England. However, the following year they are caught up in the events of the civil war. Alice's family were for the king and their estates at Kirklington were confiscated and Scottish soldiers were billeted on her mother’s lands in Hipswell, Richmondshire.
+After her father’s death, and prompted by the turmoil of the Irish Rebellion, the family moved back to the north of England. However, the following year they were caught up in the events of the civil war. Alice's family were for the king and their estates at Kirklington were confiscated and Scottish soldiers were billeted on her mother’s lands in Hipswell, Richmondshire.
 
-When her oldest brother, George, drowned in the river Swale in 1651 – which Alice claims to have foretold in a dream six months earlier – she reluctantly agreed to marry. Her family settle on William Thornton (1624-1668), a member of the lesser gentry in Ryedale, whose parliamentarian family connections could help the Wandesfords recover their lands.
+When her oldest brother, George, drowned in the river Swale in 1651 – which Alice claimed to have foretold in a dream six months earlier – she reluctantly agreed to marry. Her family settled on William Thornton (1624-1668), a member of the lesser gentry in Ryedale, whose parliamentarian family connections could potentially help the Wandesfords recover their lands.
 
-![Alt text]({{ "/assets/img/home/hipswell-hall-geograph-david-rogers-1390356.jpg#left" | url }} "Photograph of Hipswell Hall")
+![Alt text]({{ "/assets/img/home/Hipswell-Hall-st.jpg#left" | url }} "Photograph of Hipswell Hall")
 
-Alice and William were married for seventeen years and during that time she gave birth to nine children. Alice vividly describes the dangers of childbirth and poignantly records the deaths of six of her infant children. She charts the development of those who survive - Alice (Nally), Katherine and Robert - and continually thanks God for their miraculous deliverances from illnesses and accidents. Family finances were frequently precarious and William died in 1668 without a will and much in debt.
+Alice and William were married for seventeen years and during that time she gave birth to nine children. In her manuscripts, Alice vividly described the dangers of childbirth and poignantly recorded the deaths of six of her infant children. She charted the development of those who survived - Alice (Nally), Katherine and Robert - and continually thanked God for their miraculous deliverances from illnesses and accidents. Family finances were frequently precarious and William died in 1668 without a will and much in debt.
 
 ![Alt text]({{ "/assets/img/home/william-thornton-memorial-cb.jpg#right" | url }} "Memorial for William by Alice")
 

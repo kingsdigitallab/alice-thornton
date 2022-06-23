@@ -10,8 +10,8 @@
   https: //www.figma.com/file/8mGkpFZTQpL7kpGCOYRgC8/Alice-Thornton?node-id=164%3A1480
 */
 
-@import "fonts.scss";
 @import "utilities/_all.sass";
+@import "fonts.scss";
 
 // Project variables
 
@@ -25,10 +25,14 @@ $accent: #df8833;
 $light: #cdcac7;
 $dark: #0a0a0a;
 
-// TODO:
+body {
+  background: linear-gradient(0.75turn, transparent 50%, lighten($primary, 75%)), url("/assets/img/alice-thornthon-bg.jpg") top left repeat-y;
+}
+
+// TODO: 
 // Customise Bulma's variables rather than override them
 .is-primary {
-  background: $primary !important;
+  background: $primary!important;
 }
 
 .is-secondary {
@@ -76,30 +80,35 @@ a {
 
 p {
   &.small {
-    font-size: 0.875em;
+    font-size: .875em;
   }
 }
 
 // Headings
 
+h1,
+h1.title {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
 .content {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3,
+  h4, h5, h6 {
     color: $secondary;
     font-family: "Lora", serif;
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3,
+h4, h5, h6 {
   color: $secondary;
   font-family: "Lora", serif;
 
@@ -110,7 +119,7 @@ h6 {
 
 .index-page-titles {
   background: lighten($secondary, 55%);
-  padding: 0.25em;
+  padding: .25em;
   a {
     color: $black;
     text-decoration: none;
@@ -165,14 +174,14 @@ footer,
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 5px;
-
+  
   img {
     width: 100% !important;
   }
 
   p {
     margin-bottom: 0;
-    padding: 0.5em;
+    padding: .5em;
   }
 }
 
@@ -236,7 +245,7 @@ footer,
     text-decoration: none;
 
     color: $light;
-
+    
     &.is-active {
       border-bottom: 4px solid $white;
       color: $white;
@@ -271,11 +280,11 @@ footer,
 // /posts
 
 .post-meta {
-  font-size: 0.875em;
+  font-size: .875em;
   font-style: italic;
 }
 
-//
+// 
 div.content {
   img {
     background: $light;
@@ -283,30 +292,30 @@ div.content {
   }
 }
 
-img[src*="#right"] {
+img[src*='#right'] {
   float: right;
-  margin-left: 0.5em;
+  margin-left: .5em;
 }
 
-img[src*="#left"] {
+img[src*='#left'] {
   float: left;
-  margin-right: 0.5em;
+  margin-right: .5em;
 }
 
-img[src*="#center"] {
+img[src*='#center'] {
   display: block;
-  margin: 0.5em auto;
+  margin: .5em auto;
 }
 
-img[src*="#left"],
-img[src*="#right"],
-img[src*="#center"] {
+img[src*='#left'],
+img[src*='#right'],
+img[src*='#center'] {
   width: 20vw;
 
   @include mobile {
     display: block;
     float: none;
-    margin: 0.5em 0;
+    margin: .5em 0;
     width: 100%;
   }
 }
