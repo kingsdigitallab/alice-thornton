@@ -1,5 +1,6 @@
 ---
 title: Alice Thornton's Books
+publicationDate: 2022-06-23
 permalink: /
 eleventyNavigation:
   key: Home
