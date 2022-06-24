@@ -10311,7 +10311,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 body {
-  background: linear-gradient(0.75turn, transparent 50%, #ffe1c6), url("/assets/img/alice-thornthon-bg.jpg") top left repeat-y;
+  background: linear-gradient(0.75turn, transparent 80%, #ffefdf), url("/assets/img/alice-thornthon-bg.jpg") top left repeat-y;
 }
 
 .is-primary {
@@ -10569,4 +10569,20 @@ img[src*="#center"] {
     margin: 0.5em 0;
     width: 100%;
   }
+}
+
+ul.social_media_block {
+  display: grid;
+  list-style: none;
+  margin: 0;
+  grid-template-columns: 100%;
+  grid-gap: 1em;
+}
+@media screen and (min-width: 769px), print {
+  ul.social_media_block {
+    grid-template-columns: 50%;
+  }
+}
+ul.social_media_block figure {
+  margin-left: 0;
 }

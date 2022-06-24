@@ -27,8 +27,7 @@ $dark: #0a0a0a;
 @import "../node_modules/bulma/bulma.sass";
 
 body {
-  background: linear-gradient(0.75turn, transparent 50%, lighten($primary, 75%)),
-    url("/assets/img/alice-thornthon-bg.jpg") top left repeat-y;
+  background: linear-gradient(0.75turn, transparent 80%, lighten($primary, 80%)), url("/assets/img/alice-thornthon-bg.jpg") top left repeat-y;
 }
 
 // TODO:
@@ -327,5 +326,24 @@ img[src*="#center"] {
     float: none;
     margin: 0.5em 0;
     width: 100%;
+  }
+}
+
+// Social media
+
+ul.social_media_block {
+  display: grid;
+  list-style: none;
+  margin: 0;
+
+  grid-template-columns: 100%;
+  grid-gap: 1em;
+
+  @include tablet {
+    grid-template-columns: 50%;
+  }
+
+  figure {
+    margin-left: 0;
   }
 }
