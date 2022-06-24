@@ -1,6 +1,8 @@
 const path = require("node:path");
 const sass = require("sass");
 const debug = require("debug")("Eleventy:KDL");
+const markdownItFootnote = require("markdown-it-footnote");
+const markdownIt = require("markdown-it");
 
 function lookup(anarray, path_to_property, accepted_values) {
   // returns array with elements of anarray st <element>.<path_to_property belongs> to <accepted_values>
@@ -39,6 +41,13 @@ function configureSass(config) {
   (alternative https://www.npmjs.com/package/eleventy-sass?activeTab=readme)
   */
 
+  // NOT using the eleventy-sass plugin.
+  // Problem1: impossible to exclude .sass files, bulma assumes var
+  // declared before theyare parsed but their name doesn't start with _.
+  // Problem2: sutainable? only one maintainer.
+  // const eleventySass = require("eleventy-sass");
+  // config.addPlugin(eleventySass);
+
   // refresh the browser when your CSS changes,
   // without triggering a rebuild of all your pages by Eleventy.
   // config.setBrowserSyncConfig({
@@ -73,4 +82,14 @@ function configureSass(config) {
   });
 }
 
-module.exports = { lookup, configureSass };
+function configureMarkdown(config) {
+  let options = {
+    html: true, // Enable HTML tags in source
+    breaks: false, // Convert '\n' in paragraphs into <br>
+    linkify: true, // Autoconvert URL-like text to links
+  };
+  let markdownLib = markdownIt(options).use(markdownItFootnote);
+  config.setLibrary("md", markdownLib);
+}
+
+module.exports = { lookup, configureSass, configureMarkdown };

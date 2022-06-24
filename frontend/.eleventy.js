@@ -1,41 +1,19 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const utils = require("./_includes/js/utils.js");
 const inspect = require("util").inspect;
-const markdownItFootnote = require("markdown-it-footnote");
-const markdownIt = require("markdown-it");
 const path = require("node:path");
-const sass = require("sass");
 const debug = require("debug")("Eleventy:KDL");
-const eleventySass = require("eleventy-sass");
 
 module.exports = function (config) {
-  let options = {
-    html: true, // Enable HTML tags in source
-    breaks: false, // Convert '\n' in paragraphs into <br>
-    linkify: true, // Autoconvert URL-like text to links
-  };
-  // configure the library with options
-  let markdownLib = markdownIt(options).use(markdownItFootnote);
-  // set the library to process markdown files
-  config.setLibrary("md", markdownLib);
+  utils.configureMarkdown(config);
 
   config.addPlugin(eleventyNavigationPlugin);
 
-  // config.on("eleventy.after", (dir) => {
-  //   console.log("Validate HTML", dir);
-  // });
-
   utils.configureSass(config);
 
-  // Problem1: impossible to exclude .sass files, bulma assumes var
-  // declared before theyare parsed but their name doesn't start with _.
-  // Problem2: sutainable? only one maintainer.
-  // config.addPlugin(eleventySass);
-
   // just copy the assets folder as is to the static site _site
-  // config.addPassthroughCopy("assets");
-  // config.addPassthroughCopy("assets/css");
   // config.addPassthroughCopy("**/*.css");
+  config.addPassthroughCopy("assets/node_modules");
   config.addPassthroughCopy("assets/fonts");
   config.addPassthroughCopy("assets/img");
   config.addPassthroughCopy("assets/js");

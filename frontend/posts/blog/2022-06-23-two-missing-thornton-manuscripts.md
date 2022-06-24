@@ -4,7 +4,7 @@ publicationDate: 2022-06-23
 feature: /assets/img/posts/book_rem_inner_cropped.jpg
 authors:
   - cbeattie
-categories:
+tags:
   - books
 ---
 

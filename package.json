@@ -23,7 +23,7 @@
   },
   "scripts": {
     "serve": "npm run serve -w frontend",
-    "rebuild": "npm run rebuild -w frontend",
+    "rebuild": "npm run rebuild:full -w frontend",
     "lint": "eslint **/_includes/",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "prettier . --check",

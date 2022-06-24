@@ -1,5 +1,7 @@
 ---
 title: First News entry
+# remove this to show this new item on the site
+override:tags: []
 feature: /assets/img/posts/credit_durham_cathedral.jpg
 authors:
   - gnoel
