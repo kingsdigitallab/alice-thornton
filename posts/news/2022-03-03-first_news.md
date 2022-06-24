@@ -1,10 +1,11 @@
 ---
-title: First News entry
+title: Project Team to speak at Loughborough conference
 feature: /assets/img/posts/credit_durham_cathedral.jpg
 authors:
-    - gnoel
+    - cbeattie
 ---
 
-Erat nam at lectus urna duis convallis convallis tellus. Magna fringilla urna porttitor rhoncus. Morbi tristique senectus et netus et malesuada fames. Eu turpis egestas pretium aenean pharetra magna ac. Nunc eget lorem dolor sed viverra ipsum. Auctor urna nunc id cursus metus aliquam eleifend mi. Quis auctor elit sed vulputate mi sit amet mauris. Convallis posuere morbi leo urna molestie at elementum eu. 
+Cordelia Beattie (PI), Suzanne Trill (Co-I) and Sharon Howard (PDRA) will be speaking at 'How to do things with early modern words' at the University of Loughborough on 15 July 2022.
 
-![alt]({{feature}}#left "title") Nunc consequat interdum varius sit. Integer feugiat scelerisque varius morbi enim nunc. Lorem ipsum dolor sit amet. Vel pharetra vel turpis nunc eget lorem. Nullam ac tortor vitae purus faucibus ornare suspendisse. Odio facilisis mauris sit amet massa. Massa tempor nec feugiat nisl pretium fusce id velit. Adipiscing diam donec adipiscing tristique risus nec. Mattis rhoncus urna neque viverra justo nec ultrices dui. Dui accumsan sit amet nulla facilisi morbi tempus iaculis.
+Registration is open until 1 July 2022: https://store.lboro.ac.uk/conferences-and-events/school-of-social-sciences-and-humanities/upcoming-events/how-to-do-things-with-early-modern-words-july-2022
+ 
