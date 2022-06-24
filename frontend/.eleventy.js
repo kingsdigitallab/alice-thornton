@@ -3,6 +3,7 @@ const utils = require("./_includes/js/utils.js");
 const inspect = require("util").inspect;
 const path = require("node:path");
 const debug = require("debug")("Eleventy:KDL");
+const stripHtml = require("string-strip-html");
 
 module.exports = function (config) {
   utils.configureMarkdown(config);
@@ -54,6 +55,6 @@ module.exports = function (config) {
   config.addFilter(
     // TODO: avoid truncating an element e.g. "[...]<img "
     "excerpt",
-    (s) => s.substring(0, 200) + "..."
+    (s) => stripHtml.stripHtml(s).result.substring(0, 200) + "..."
   );
 };
