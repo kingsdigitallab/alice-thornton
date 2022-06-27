@@ -3,6 +3,9 @@ title: Project Team to speak at Loughborough conference
 feature: /assets/img/posts/credit_durham_cathedral.jpg
 authors:
   - cbeattie
+tags:
+  - events
+  - conferences
 ---
 
 Cordelia Beattie (PI), Suzanne Trill (Co-I) and Sharon Howard (PDRA) will be speaking at 'How to do things with early modern words' at the University of Loughborough on 15 July 2022.
