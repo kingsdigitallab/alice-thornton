@@ -47,4 +47,4 @@ Alice then spent her widowed years dealing with the ramifications of this while 
 
 Alice continued to live at East Newton Hall in Ryedale until her own death in 1707 but in the final years the property was owned by her son-in-law, Thomas Comber, who provided her with an annual pension on which to subsist.
 
-In her will, Alice made bequests to improve her local church, Stonegrave Minster, which her estate could not afford; so, perhaps her most important gift was that of her own writings, which stayed in Comber family hands for hundreds of years before their acquisition by the British Library and Durham Cathedral.
+In her will, Alice made bequests to improve her local church, Stonegrave Minster, which her estate could not afford; so, perhaps her most important gift was that of her own writings, which stayed in Comber family hands for hundreds of years before their eventual acquisition by the British Library and Durham Cathedral.
