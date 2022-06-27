@@ -21,8 +21,10 @@ eleventyComputed:
 
     <div class="post-excerpt index-page-w-images">
       <a href="{{ post.url }}"><img src="{{ post.data.feature | url }}" alt="TODO"></a>
-      {{ post.templateContent | excerpt }}
-      <a href="{{ post.url }}" class="button">Read more</a>
+      <div>
+        <p>{{ post.templateContent | excerpt }}</p>
+        <a href="{{ post.url }}" class="button">Read more</a>
+      </div>
     </div>
   </div>
 
