@@ -7,7 +7,7 @@ eleventyNavigation:
 
 ## About Our Research Project
 
-This AHRC-funded research project will create an online digital edition of all four of Alice Wandesford Thornton’s autobiographical manuscripts. To date our knowledge of Thornton’s life has largely been dependent on a nineteenth century edition by Charles C. Jackson that selected materials from some of those manuscripts to produce a single, chronological narrative of her life.
+This AHRC-funded research project, in partnership with Durham Cathedral, will create an online digital edition of all four of Alice Thornton’s autobiographical manuscripts. To date our knowledge of Thornton’s life has largely been dependent on a nineteenth century edition by Charles C. Jackson that selected materials from some of those manuscripts to produce a single, chronological narrative of her life.
 
 By contrast, our edition will make the full text of all four manuscripts freely available for the first time. This will allow users to compare and contrast her versions of events and examine how she revised her story.
 
