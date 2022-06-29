@@ -23,7 +23,7 @@ edition of all four of her autobiographical texts.
 
 ## Who Was Alice Thornton?
 
-![A church and churchyard in sunshine]({{ "/assets/img/home/kirklington-church-st.jpg#left" | url }} "Kirklington Church, where Alice was baptised &copy; Suzanne Trill")
+![A church and leafy churchyard in sunshine]({{ "/assets/img/home/kirklington-church-st.jpg#left" | url }} "Kirklington Church, where Alice was baptised &copy; Suzanne Trill")
 
 Most of what we know about Alice Thornton (1626-1707) is drawn from the autobiographical accounts which she left to her eldest daughter in her will. She relates a veritable ‘riches to rags’ story, punctuated by many of what she presents as near-death experiences.
 
