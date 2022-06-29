@@ -27,7 +27,11 @@ $dark: #0a0a0a;
 @import "../node_modules/bulma/bulma.sass";
 
 body {
-  background: linear-gradient(0.75turn, transparent 60%, rgba(lighten($primary, 70%), .5)),
+  background: linear-gradient(
+      0.75turn,
+      transparent 60%,
+      rgba(lighten($primary, 70%), 0.5)
+    ),
     url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
   background-size: 100vw;
 }
@@ -299,7 +303,7 @@ footer,
   font-style: italic;
 
   .tag {
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
 }
 
