@@ -10311,7 +10311,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 body {
-  background: linear-gradient(0.75turn, transparent 80%, #ffefdf), url("/assets/img/alice-thornthon-bg.jpg") top left repeat-y;
+  background: linear-gradient(0.75turn, transparent 60%, rgba(255, 212, 172, 0.5)), url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
+  background-size: 100vw;
+}
+
+.block {
+  overflow: auto;
 }
 
 .is-primary {
