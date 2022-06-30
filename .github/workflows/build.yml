@@ -25,7 +25,6 @@ jobs:
 
       - name: Install dependencies & build
         run: |
-          npm ci
           npm run rebuild
 
       - name: Deploy to github pages
@@ -36,6 +35,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push
+        if: ${{ false }}
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Automated 11ty build
