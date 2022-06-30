@@ -20,10 +20,11 @@
     "assets:download": "cd assets && npm ci",
     "build": "npx @11ty/eleventy",
     "rebuild": "rm -rf _site && npm run build",
-    "rebuild:full": "npm run assets:download && npm run build",
+    "rebuild:full": "npm run assets:download && npm run build && npm run tweets",
     "serve": "npx @11ty/eleventy --serve",
     "serve:debug": "DEBUG=Eleventy* npm run serve",
-    "serve:debug:kdl": "DEBUG=Eleventy:KDL npm run serve"
+    "serve:debug:kdl": "DEBUG=Eleventy:KDL npm run serve",
+    "tweets": "node _includes/js/tweets.js"
   },
   "keywords": [],
   "devDependencies": {
