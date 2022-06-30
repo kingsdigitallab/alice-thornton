@@ -1,7 +1,9 @@
 const path = require("node:path");
 const sass = require("sass");
 const debug = require("debug")("Eleventy:KDL");
+const markdownItImageFigures = require("markdown-it-image-figures");
 const markdownItFootnote = require("markdown-it-footnote");
+const markdownItAttrs = require("markdown-it-attrs");
 const markdownIt = require("markdown-it");
 
 function lookup(anarray, path_to_property, accepted_values) {
@@ -88,7 +90,13 @@ function configureMarkdown(config) {
     breaks: false, // Convert '\n' in paragraphs into <br>
     linkify: true, // Autoconvert URL-like text to links
   };
-  let markdownLib = markdownIt(options).use(markdownItFootnote);
+  let markdownLib = markdownIt(options)
+    .use(markdownItAttrs)
+    .use(markdownItFootnote)
+    .use(markdownItImageFigures, {
+      figcaption: true,
+      copyAttrs: true,
+    });
   config.setLibrary("md", markdownLib);
 }
 

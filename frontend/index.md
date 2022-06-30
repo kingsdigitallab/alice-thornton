@@ -23,7 +23,7 @@ edition of all four of her autobiographical texts.
 
 ## Who Was Alice Thornton?
 
-![Alt text]({{ "/assets/img/home/kirklington-church-st.jpg#left" | url }} "Photograph of Kirklington Church")
+![Alt text]({{ "/assets/img/home/kirklington-church-st.jpg#left" | url }} "Photograph of Kirklington Church"){.media-left}
 
 Most of what we know about Alice Thornton (1626-1707) is drawn from the autobiographical accounts which she left to her eldest daughter in her will. She relates a veritable ‘riches to rags’ story, punctuated by many of what she presents as near-death experiences.
 
