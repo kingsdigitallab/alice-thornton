@@ -4,4 +4,4 @@ eleventyNavigation:
 order: 5
 ---
 
-List of credits and acknowledgements to go here.
+The logo in our header is from Durham Cathedral Library (DCL), GB-0033-CCOM 38, p. 1. The text in the background of all pages is from DCL, GB-0033-CCOM 38, p. 178. Photos by Derek Beattie. Used here with the kind permission of the Chapter of Durham Cathedral.
