@@ -8,3 +8,12 @@ department: King's Digital Lab
 teams:
   - sdt
 ---
+
+This is only used to test the display of `figure` and `figcaption` elements.
+
+<figure>
+  <img
+  src="{{ '/assets/img/placeholder.jpg' | url }}"
+  alt="Placeholder image">
+  <figcaption>This is a placeholder image caption</figcaption>
+</figure>

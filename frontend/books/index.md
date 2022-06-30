@@ -43,7 +43,7 @@ These are the four books that we are in the process of preparing for our digital
 
 It has become common to refer to Thornton’s volumes as the _Book of Remembrances_, _Book 1_, _Book 2_, and _Book 3_. However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential. A key issue this project seeks to address is why and how these volumes are interconnected.
 
-Our editorial and markup practice aims to make this possible. We prefer the following fuller titles, which add descriptions derived from her writings:
+Our editorial and markup practice aims to make this possible. We prefer the following fuller titles, which use descriptions derived from her writings:
 
 - _Book of Remembrances_
 - _Book 1: The First Book of My Life_
