@@ -23,11 +23,23 @@ h2=$(su $GITUSER -c 'git rev-parse @{u}')
 
 if [[ $h1 != $h2 ]]; then
   echo "$(date --iso-8601=seconds) GH merge + TF clear"
-  su $GITUSER -c 'git merge' && service trafficserver stop && traffic_server -Cclear && service trafficserver start
+  su $GITUSER -c 'git merge'
   # su $GITUSER -c 'git merge' && service cron stop && service cron start
-  if [[ $? -eq 0 ]]; then
-    echo "done"
-  else
-    echo "failed: git merge OR TS restart"
+  if [[ $? -ne 0 ]]; then
+    echo "failed: git merge"
+    exit 1
+  fi
+  su $GITUSER -c 'npm run rebuild'
+  if [[ $? -ne 0 ]]; then
+    echo "failed: npm run rebuild"
+    exit 2
+  fi
+  
+  service trafficserver stop && traffic_server -Cclear && service trafficserver start
+  if [[ $? -ne 0 ]]; then
+    echo "failed: trafficserver clear & restart"
+    exit 3
   fi
 fi
+
+echo "done"
