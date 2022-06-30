@@ -7,7 +7,8 @@
 GITUSER="gnoel"
 
 # cd where this script is
-cd $(dirname "$0")
+cd $(dirname "$0")/..
+PROJECT_DIR=$(pwd)
 
 echo "$(date --iso-8601=seconds) GH fetch"
 
@@ -29,7 +30,7 @@ if [[ $h1 != $h2 ]]; then
     echo "failed: git merge"
     exit 1
   fi
-  su - $GITUSER -c 'cd `pwd` && npm run rebuild'
+  su - $GITUSER -c "cd $PROJECT_DIR && npm run rebuild"
   if [[ $? -ne 0 ]]; then
     echo "failed: npm run rebuild"
     exit 2
