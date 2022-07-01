@@ -51,41 +51,43 @@
 
 <script src="https://unpkg.com/vue@3"></script>
 <script>
-  const { createApp } = Vue
+const { createApp } = Vue;
 
-  function fetchCachedTweets() {
-    const url = '/assets/js/tweets.json'
-    fetch(url)
-    .then(res => res.json())
-    .then(function(out) {
+function fetchCachedTweets() {
+  const url = "/assets/js/tweets.json";
+  fetch(url)
+    .then((res) => res.json())
+    .then(function (out) {
       createApp({
         data() {
-          return {'tweets': out}
+          return { tweets: out };
         },
         methods: {
-          is_retweet: function(tweet) {
+          is_retweet: function (tweet) {
             // TODO
-            return tweet.hasOwnProperty('retweeted_status')
+            return tweet.hasOwnProperty("retweeted_status");
           },
-          get_tweets: function(limit) {
-            let self = this
-            let ret2 = this.tweets.slice(0, limit).map(function(tweet) {
-              let ret = tweet
-              ret.retweet = null
+          get_tweets: function (limit) {
+            let self = this;
+            let ret2 = this.tweets.slice(0, limit).map(function (tweet) {
+              let ret = tweet;
+              ret.retweet = null;
               if (self.is_retweet(tweet)) {
-                ret = tweet.retweeted_status
-                ret.retweet = tweet
+                ret = tweet.retweeted_status;
+                ret.retweet = tweet;
               }
-              return ret
-            })
-            console.log(ret2)
-            return ret2
-          }
-        }
-      }).mount('#app')
+              return ret;
+            });
+            console.log(ret2);
+            return ret2;
+          },
+        },
+      }).mount("#app");
     })
-    .catch(err => {throw err});
-  }
+    .catch((err) => {
+      throw err;
+    });
+}
 
-  fetchCachedTweets()
+fetchCachedTweets();
 </script>
