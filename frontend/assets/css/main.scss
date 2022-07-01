@@ -111,23 +111,15 @@ h3 {
 }
 
 .content {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3,
+  h4, h5, h6 {
     color: $secondary;
     font-family: "Lora", serif;
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3,
+h4, h5, h6 {
   color: $secondary;
   font-family: "Lora", serif;
 
@@ -187,17 +179,44 @@ footer,
 
 /* Images */
 
-// // TO BE REMOVED
-// // Once the include for svgs is fixed
-// .content .icon img {
-//   display: none !important;
-// }
-// //
-
 .content .icon {
   img {
     background: transparent;
   }
+}
+
+// TODO: improve or delete the workaround.
+// GF: This is a workaround to overcaome the limitations
+// of the markdown image plugin.
+// The plugin duplicates the classes, they are both in the <figure>
+// and <img> elements, so I am unsetting the floating on the <img>
+// and adding it to the <figure>.
+
+figure {
+  .media-left,
+  .media-right,
+  .media-center,
+  img[src*="#left"],
+  img[src*="#right"],
+  img[src*="#center"] {
+    float: unset;
+  }
+
+  &.media-left {
+    float: left;
+  }
+
+  &.media-right {
+    float: right;
+  }
+}
+
+// END figure workaround
+
+figcaption {
+  font-size: .875em;
+  margin: 0 auto;
+  max-width: 400px;
 }
 
 // Gallery
