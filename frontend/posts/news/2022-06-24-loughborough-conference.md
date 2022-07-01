@@ -1,6 +1,6 @@
 ---
 title: Project Team to speak at Loughborough conference
-feature: /assets/img/posts/credit_durham_cathedral.jpg
+feature: /assets/img/posts/early-modern-words-conference-cropped.png
 authors:
   - cbeattie
 tags:
