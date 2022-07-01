@@ -40,6 +40,37 @@ body {
   overflow: auto;
 }
 
+.button-hp {
+  display: block;
+}
+
+.read-more-hp {
+  display: block;
+  margin-bottom: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  text-decoration: none;
+
+  &:hover {
+    background: $accent !important;
+
+    svg {
+      fill: $accent;
+    }
+  }
+
+  span {
+    display: block;
+    margin-top: 1em;
+  }
+
+  svg {
+    fill: $primary;
+    width: 20px;
+  }
+}
+
 // TODO:
 // Customise Bulma's variables rather than override them
 .is-primary {
@@ -61,17 +92,6 @@ a.tag {
 // END TODO
 
 // Shared layout
-
-// Grid based layoout
-// .wrapper {
-//   display: grid;
-//   grid-template-columns: 100%;
-//   grid-gap: 10px;
-
-//   @include desktop {
-//     grid-template-columns: 70% 30%;
-//   }
-// }
 
 body {
   background-color: $white;
@@ -204,10 +224,24 @@ figure {
 
   &.media-left {
     float: left;
+    margin: 1em 1em 1em 0 !important;
   }
 
   &.media-right {
     float: right;
+    margin: 1em 0 1em 1em !important;
+  }
+
+  &.media-center {
+    margin: 1em !important;
+  }
+
+  @include mobile {
+    &.media-left,
+    &.media-right {
+      float: none;
+      margin: 1em !important;
+    }
   }
 }
 
