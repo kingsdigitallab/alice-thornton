@@ -21,6 +21,8 @@ This website will provide resources aimed at better understanding the life and
 work of Alice Thornton and, in due course, will host a fully searchable digital
 edition of all four of her autobiographical texts.
 
+{% include "social_feed.html" %}
+
 ## Who Was Alice Thornton?
 
 ![A church and leafy churchyard in sunshine]({{ "/assets/img/home/kirklington-church-st.jpg#left" | url }} "Kirklington Church, where Alice was baptised &copy; Suzanne Trill")

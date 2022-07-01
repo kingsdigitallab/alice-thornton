@@ -27,8 +27,17 @@ $dark: #0a0a0a;
 @import "../node_modules/bulma/bulma.sass";
 
 body {
-  background: linear-gradient(0.75turn, transparent 80%, lighten($primary, 80%)),
-    url("/assets/img/alice-thornthon-bg.jpg") top left repeat-y;
+  background: linear-gradient(
+      0.75turn,
+      transparent 60%,
+      rgba(lighten($primary, 70%), 0.5)
+    ),
+    url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
+  background-size: 100vw;
+}
+
+.block {
+  overflow: auto;
 }
 
 // TODO:
@@ -178,6 +187,19 @@ footer,
 
 /* Images */
 
+// // TO BE REMOVED
+// // Once the include for svgs is fixed
+// .content .icon img {
+//   display: none !important;
+// }
+// //
+
+.content .icon {
+  img {
+    background: transparent;
+  }
+}
+
 // Gallery
 
 [class^="gallery-"] {
@@ -292,9 +314,12 @@ footer,
 .post-meta {
   font-size: 0.875em;
   font-style: italic;
+
+  .tag {
+    margin-right: 0.5em;
+  }
 }
 
-//
 div.content {
   img {
     background: $light;
@@ -341,10 +366,29 @@ ul.social_media_block {
   grid-gap: 1em;
 
   @include tablet {
-    grid-template-columns: 50%;
+    grid-template-columns: 33% 33% 33%;
   }
 
   figure {
     margin-left: 0;
+    margin-bottom: 1em !important;
   }
+}
+
+.tweet {
+  background: $white;
+  border-radius: 0.5em;
+  font-size: 0.875em;
+  padding: 1em;
+
+  .icon {
+    svg {
+      fill: $accent;
+    }
+  }
+}
+
+.twitter_user {
+  display: grid;
+  grid-template-columns: 40px auto;
 }

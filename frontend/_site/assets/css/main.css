@@ -10311,7 +10311,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 body {
-  background: linear-gradient(0.75turn, transparent 80%, #ffefdf), url("/assets/img/alice-thornthon-bg.jpg") top left repeat-y;
+  background: linear-gradient(0.75turn, transparent 60%, rgba(255, 212, 172, 0.5)), url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
+  background-size: 100vw;
+}
+
+.block {
+  overflow: auto;
 }
 
 .is-primary {
@@ -10437,6 +10442,10 @@ footer,
 }
 
 /* Images */
+.content .icon img {
+  background: transparent;
+}
+
 [class^=gallery-] {
   display: grid;
   grid-template-columns: 100%;
@@ -10534,6 +10543,9 @@ footer,
   font-size: 0.875em;
   font-style: italic;
 }
+.post-meta .tag {
+  margin-right: 0.5em;
+}
 
 div.content img {
   background: #cdcac7;
@@ -10580,9 +10592,25 @@ ul.social_media_block {
 }
 @media screen and (min-width: 769px), print {
   ul.social_media_block {
-    grid-template-columns: 50%;
+    grid-template-columns: 33% 33% 33%;
   }
 }
 ul.social_media_block figure {
   margin-left: 0;
+  margin-bottom: 1em !important;
+}
+
+.tweet {
+  background: #fbfbfb;
+  border-radius: 0.5em;
+  font-size: 0.875em;
+  padding: 1em;
+}
+.tweet .icon svg {
+  fill: #df8833;
+}
+
+.twitter_user {
+  display: grid;
+  grid-template-columns: 40px auto;
 }
