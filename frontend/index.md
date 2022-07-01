@@ -21,6 +21,10 @@ This website will provide resources aimed at better understanding the life and
 work of Alice Thornton and, in due course, will host a fully searchable digital
 edition of all four of her autobiographical texts.
 
+{% include "tweets.html" %}
+
+<hr>
+
 {% include "social_feed.html" %}
 
 ## Who Was Alice Thornton?
