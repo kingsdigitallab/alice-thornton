@@ -83,13 +83,17 @@ function fetchCachedTweets() {
             return ret;
           },
           get_html: function (tweet) {
-            let ret = tweet.full_text
+            let ret = tweet.full_text;
 
-            ret = ret.replace(/(https?:\/\/\S+)\b/g, '<a href="$1">$1</a>')
-                    .replace(/@(\w+)/g, '<a href="https://twitter.com/$1">@$1</a>')
-                    .replace(/#(\w+)/g, '<a href="https://twitter.com/hashtag/$1">#$1</a>');
+            ret = ret
+              .replace(/(https?:\/\/\S+)\b/g, '<a href="$1">$1</a>')
+              .replace(/@(\w+)/g, '<a href="https://twitter.com/$1">@$1</a>')
+              .replace(
+                /#(\w+)/g,
+                '<a href="https://twitter.com/hashtag/$1">#$1</a>'
+              );
 
-            return ret
+            return ret;
           },
           get_time_ago: function (tweet) {
             return timeago.format(tweet.created_at, "en_short");
@@ -115,16 +119,16 @@ function fetchCachedTweets() {
           get_thumb_url(tweet) {
             // returns the url of the first photo attached to this tweet.
             // null if none.
-            let ret = null
-            let medias = tweet?.entities?.media || []
+            let ret = null;
+            let medias = tweet?.entities?.media || [];
             for (media of medias) {
-              if (media.type == 'photo') {
-                ret = media.media_url_https + ':small'
-                break
+              if (media.type == "photo") {
+                ret = media.media_url_https + ":small";
+                break;
               }
             }
-            return ret
-          }
+            return ret;
+          },
         },
       }).mount("#app");
     })
