@@ -82,31 +82,32 @@ function fetchCachedTweets() {
             });
             return ret;
           },
-          get_html: function(tweet) {
+          get_html: function (tweet) {
             let ret = tweet.text;
 
             return ret;
-          
           },
-          get_time_ago: function(tweet) {
-            return timeago.format(tweet.created_at, 'en_short');
+          get_time_ago: function (tweet) {
+            return timeago.format(tweet.created_at, "en_short");
           },
-          get_url: function(tweet) {
-            let ret = `//twitter.com/${tweet.user.screen_name}/status/${tweet.id_str}`
-            return ret
+          get_url: function (tweet) {
+            let ret = `//twitter.com/${tweet.user.screen_name}/status/${tweet.id_str}`;
+            return ret;
           },
-          get_reply_url: function(tweet) {
-            return this.get_intent_url(tweet, 'tweet', 'in_reply_to')
+          get_reply_url: function (tweet) {
+            return this.get_intent_url(tweet, "tweet", "in_reply_to");
           },
-          get_retweet_url: function(tweet) {
-            return this.get_intent_url(tweet, 'retweet', 'tweet_id')
+          get_retweet_url: function (tweet) {
+            return this.get_intent_url(tweet, "retweet", "tweet_id");
           },
-          get_like_url: function(tweet) {
-            return this.get_intent_url(tweet, 'like', 'tweet_id')
+          get_like_url: function (tweet) {
+            return this.get_intent_url(tweet, "like", "tweet_id");
           },
           get_intent_url(tweet, intent, id_arg_name) {
-            return `//twitter.com/intent/${intent}?${id_arg_name}=${tweet.id_str}&related=${encodeURIComponent(tweet.user.name)}`
-          }
+            return `//twitter.com/intent/${intent}?${id_arg_name}=${
+              tweet.id_str
+            }&related=${encodeURIComponent(tweet.user.name)}`;
+          },
         },
       }).mount("#app");
     })
