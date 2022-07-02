@@ -18,38 +18,40 @@
         </figure>
         <p>
           <strong>{{ tweet.user.name }}</strong> <small>@{{ tweet.user.screen_name }}</small>
-          <small>31m</small>
+          <small><a :href="get_url(tweet)">{{ get_time_ago(tweet) }}</a></small>
         </p>
       </div>
       <p>
         {{ tweet.text }}
       </p>
       <!-- END TODO -->
-      {% endraw %}
-<nav class="level is-mobile">
-  <div class="level-left">
-    <a class="level-item">
-      <span class="icon is-small">
-        {% include "../assets/img/icons/font-awesome/reply.svg" %}
-      </span>
-    </a>
-    <a class="level-item">
-      <span class="icon is-small">
-        {% include "../assets/img/icons/font-awesome/retweet-alt.svg" %}
-      </span>
-    </a>
-    <a class="level-item">
-      <span class="icon is-small">
-        {% include "../assets/img/icons/font-awesome/heart.svg" %}
-      </span>
-    </a>
-  </div>
-</nav>
+      <nav class="level is-mobile">
+        <div class="level-left">
+          <a class="level-item" :href="get_reply_url(tweet)">
+            <span class="icon is-small">
+              {% endraw %}{% include "../assets/img/icons/font-awesome/reply.svg" %}{% raw %}
+            </span>
+          </a>
+          <a class="level-item" :href="get_retweet_url(tweet)">
+            <span class="icon is-small">
+              {% endraw %}{% include "../assets/img/icons/font-awesome/retweet-alt.svg" %}{% raw %}
+            </span>
+          </a>
+          <a class="level-item" :href="get_like_url(tweet)">
+            <span class="icon is-small">
+              {% endraw %}{% include "../assets/img/icons/font-awesome/heart.svg" %}{% raw %}
+            </span>
+          </a>
+        </div>
+      </nav>
     </article>
   </li>
+  {% endraw %}
 </ul>
 
 <script src="https://unpkg.com/vue@3"></script>
+<script src="/assets/node_modules/timeago.js/dist/timeago.min.js"></script>
+<!-- script src="/assets/node_modules/timeago.js/lib/lang/en_short.js" type="module"></!-script -->
 <script>
 const { createApp } = Vue;
 
@@ -69,7 +71,7 @@ function fetchCachedTweets() {
           },
           get_tweets: function (limit) {
             let self = this;
-            let ret2 = this.tweets.slice(0, limit).map(function (tweet) {
+            let ret = this.tweets.slice(0, limit).map(function (tweet) {
               let ret = tweet;
               ret.retweet = null;
               if (self.is_retweet(tweet)) {
@@ -78,9 +80,33 @@ function fetchCachedTweets() {
               }
               return ret;
             });
-            console.log(ret2);
-            return ret2;
+            return ret;
           },
+          get_html: function(tweet) {
+            let ret = tweet.text;
+
+            return ret;
+          
+          },
+          get_time_ago: function(tweet) {
+            return timeago.format(tweet.created_at, 'en_short');
+          },
+          get_url: function(tweet) {
+            let ret = `//twitter.com/${tweet.user.screen_name}/status/${tweet.id_str}`
+            return ret
+          },
+          get_reply_url: function(tweet) {
+            return this.get_intent_url(tweet, 'tweet', 'in_reply_to')
+          },
+          get_retweet_url: function(tweet) {
+            return this.get_intent_url(tweet, 'retweet', 'tweet_id')
+          },
+          get_like_url: function(tweet) {
+            return this.get_intent_url(tweet, 'like', 'tweet_id')
+          },
+          get_intent_url(tweet, intent, id_arg_name) {
+            return `//twitter.com/intent/${intent}?${id_arg_name}=${tweet.id_str}&related=${encodeURIComponent(tweet.user.name)}`
+          }
         },
       }).mount("#app");
     })
