@@ -29,7 +29,7 @@ To continue my run of lucky moments, I saw Dr Suzanne Trill as I was getting off
 
 Suzanne asked Professor Raymond Anselment (Connecticut) to compare some of my photos of Patrick’s manuscript with a microfilm held at the Beinecke library and he confirmed that they were the same book, which led us to conclude that this book was actually described twice (as untraced) on the CELM website (*ThA5, *ThA6). This also meant all four Thornton manuscripts that had been available to Jackson in 1875 had been located. And Thornton’s original texts are what we will share with you on this site.
 
-In memory of Patrick Comber, d.2020.
+*In memory of Patrick Comber, d.2020.*
 
 ![Photo of smiling man, taken in a sunny street]({{"/assets/img/posts/patrick-comber-medium.jpg#center"}} "Photo of Patrick Comber: Derek Beattie")
 
