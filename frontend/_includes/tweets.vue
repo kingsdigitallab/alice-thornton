@@ -1,7 +1,7 @@
 <ul class="social_media_block" id="app">
   <!-- For the last 3 tweets output this -->
   {% raw %}
-  <li v-for="tweet in get_tweets(9)" class="tweet">
+  <li v-for="tweet in get_tweets(3)" class="tweet">
     <!-- If retweet -->
     <p class="retweet" v-if="tweet.retweet">
       <a href="//twitter.com/">@{{ tweet.retweet.user.screen_name }}</a> retweeted
