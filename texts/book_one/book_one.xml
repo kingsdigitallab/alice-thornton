@@ -569,10 +569,15 @@
                  Power, in the Creation of the Heavens, the Earth, &amp; all<lb/>
                  the Hosts of them. I was moved to this meditation<lb/>
                  upon the reading of the dailie Psalmes for the months<lb/>
-                 happening that day to be Psal. 147<seg rend="background(green)">:</seg><!-- Q [teams] [review] transcriber query (bib conventions). check in autumn review --> v. 4<hi rend="superscript">th</hi>
+                 happening that day to be Psal. 147:
+                <!-- Q [teams] [review] transcriber query (bib conventions). check in autumn review --> v. 4<hi rend="superscript">th</hi>
             </p>
-            <p>He counteth the starres &amp; calleth them all by theire<lb/>
-                 Names. / From whence there came into my heart<lb/>
+                <anchor n="ev5"/>
+            <p><quote type="direct" source="Psalms_147">He counteth the starres &amp; calleth them all by theire<lb/>
+                 Names.</quote>
+                <!-- NOTE [bib] biblical example <quote> tag using @source attribute for bible citation. (because @source is used here it's not necessary to mark up "Psal. 147" in text, but if you want to do it anyway, use <ref>)
+                    @source format: Bookname_chapnum / Bookname_chapnum_versenum . 
+                    @type - I think might have started list of quote types (direct, paraphrase etc) in teams doc. --> / From whence there came into my heart<lb/>
                  a forceable consideration, of the Incomprehencable<lb/>
                  Power, &amp; infinite Majestie of Allmighty God, who<lb/>
                  by his Wisdome made all things, in Heaven &amp; Earth.<lb/>
@@ -608,7 +613,7 @@
                  A God that Ruleth in Heaven &amp; Earth &amp; doeth what<lb/>
                  ever he will, and to reward them that Serves him truly<lb/>
                  with Joy in Heaven that should never end. Amen.</p>
-            <anchor n="ev5"/>
+            
        </div>
         
         <div n="div12">
@@ -978,8 +983,8 @@
                  <placeName ref="place:Bris_004" n="place27">Bristoll</placeName>, where she found much good as to the<lb/>
                  cure of the stone.</p>
             <milestone n="ev16" unit="event"/>
-            <!-- Q [event] this may need splitting up a bit? hmm. -->
-            <p><persName ref="ppl:tw1" n="per60">The Earle of Strafford</persName> was sent for by <rs ref="ppl:cs1" n="per61" type="person">the King</rs> in<lb/>
+            <p>
+                <persName ref="ppl:tw1" n="per60">The Earle of Strafford</persName> was sent for by <rs ref="ppl:cs1" n="per61" type="person">the King</rs> in<lb/>
                  to <placeName ref="place:Engl_094" n="place28">England</placeName>. uppon the complaints of some factious<lb/>
                  Spirritts, weary of a lawfull, &amp; Peaceable govern-<add place="above">-ment</add><lb/>
                  both in <placeName ref="place:Engl_094" n="place29">England</placeName>, <placeName ref="place:Scot_095" n="place30">Scotland</placeName> &amp; <placeName ref="place:Irel_096" n="place31">Ireland</placeName>, whoes<lb/>
@@ -1320,7 +1325,7 @@
                  the same uppon those Excelent foundations on<lb/>
                  which it was built. //</p>
             <p>
-               <!-- TODO [event] superEvent CW death -->
+               <!-- Q [event] superEvent? CW death -->
                <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
                <!-- NOTE [margin] [decoration] double horizontal lines above the margin header  -->
                 <note resp="#awt1" place="left margin" rend="pre(rule_double)">
@@ -1516,7 +1521,7 @@
 <!-- transcription: Page 36 -->
 
             <fw type="pageNum">36. </fw>
-          <milestone n="ev22" unit="event"/><!-- NOTE event CW burial -->
+          <milestone n="ev22" unit="event"/>
             <p><rs ref="ppl:cw1" n="per110" type="person">His bodie</rs> beeing imbow<add place="above">e</add>lled, was afterwards<lb/>
                  Imballmed, &amp; all the noble parts was very Sound <lb/>
                  &amp; perfect saveing the heart which was decaied<lb/>
@@ -1525,6 +1530,9 @@
                  great imployments called him to.</p>
             <p>Great watchfullnesse &amp; paines in the faithfull<lb/>
                  discharge in his Offices.</p>
+          <anchor n="ev22"/>
+          <!-- TODO [event] CHANGE new event starts here -->
+          <milestone unit="event"/>
             <p>He was the Maister of the Rowles in <placeName ref="place:Irel_096" n="place43">Ireland</placeName> 7<lb/>
                  yeares. One of his Majesty privey councell. A<lb/>
                  Judge in the Kings Bench. Once Lord cheife<lb/>
@@ -1542,12 +1550,16 @@
                  The next Lawfull governer theire was <persName ref="ppl:jb6" n="per111">the Earle<lb/>
                  of Ormond</persName> in <persName ref="ppl:cs2" n="per112">King Charles the 2<hi rend="superscript">ds</hi></persName> time of Restora<lb break="no"/>
                  -tion. into <placeName ref="place:Engl_094" n="place45">England</placeName>.</p>
+          <anchor/>
+          <!-- TODO [event] CHANGE new event ends here -->
 
             <pb n="37"/>
 
 <!-- transcription: Page 37 -->
 
             <fw type="pageNum"> 37.</fw>
+          <!-- TODO [event] CHANGE event starts here (in fact restart ev22) -->
+          <milestone unit="event"/>
             <p>The Corpes of <rs ref="ppl:cw1" n="per113" type="person">my Hon<ex>oured</ex> Father</rs> was carried from<lb/>
                  the <placeName ref="place:Dubl_089" n="place46">Castle of Dublin</placeName> in a Stately manner. according<lb/>
                  to his Dignitie &amp; Place, beeing interred in the<lb/>
@@ -1563,8 +1575,9 @@
                  did sett up theire Lamentable: hone as they call<lb/>
                  it, for him in the Church. which was never knowne<lb/>
                  before for any Englishman don.</p>
-          <anchor n="ev22"/><!-- NOTE event /cw funeral -->
-          <!-- Q [event] ? -->
+          <anchor/>
+          <!-- TODO [event] CHANGE split funeral/debts -->
+          <milestone unit="event"/>
             <p>His funeralls charges, did amount to above 1300<hi rend="superscript">l</hi><lb/>
                  dieing in that capacitie of a Deputy. Which soe in-<lb break="no"/>
                  -creased the Debts upon his Estate. as proved very<lb/>
@@ -1578,7 +1591,8 @@
                  charges fell Sad uppon all <rs ref="ppl:cw1" n="per119" type="person">my Father</rs>s Estate, &amp; his<lb/>
                  Children. beeing charged for the wardship by the Parliament<lb/>
                  with the summe of 2500<hi rend="superscript">l</hi> :/: which never came to <rs ref="ppl:cs1" n="per120" type="person">the King</rs>.</p>
-
+                <!-- TODO [event] CHANGE end here -->
+          <anchor/>
             <pb n="38"/>
 
 <!-- transcription: Page 38 -->
@@ -2594,8 +2608,9 @@
                  -ging those Servants &amp; paieng many debts, which<lb/>
                  should have bin don by the Exec<ex>utor</ex> longer then she<lb/>
                  could well doe; in regard that her Joynture beeing in<lb/>
-                 <placeName ref="place:Engl_094" n="place58">England</placeName> she wanted suplies. Thus she contineued<lb/>
-                <milestone n="ev24" unit="event"/><!-- Q [event] ir.reb. - start here? plot in dublin and discovery -->
+                 <placeName ref="place:Engl_094" n="place58">England</placeName> she wanted suplies. 
+                <milestone n="ev24" unit="event"/><!-- NOTE [event] ir.reb.  plot in dublin and discovery -->
+                Thus she contineued<lb/>
                 till <date when-custom="1641-10-23">about the october affter, when on the 23<hi rend="superscript">d</hi> day in the<lb/>
                  yeare 1641</date> that horrid Rebellion &amp; massacre of the <lb/>
                  poore English Protestants began to breake out in the<lb/>
@@ -2720,21 +2735,26 @@
                  that house with in a Trap dore. soe they were taken &amp; secured<lb/>
                  &amp; we all poore sheepe destinated to destruction was thus<lb/>
                  wonderfully preserved &amp; delivered in <placeName ref="place:Dubl_088" n="place67">Dublin</placeName>.</p>
-
+            <anchor n="ev24"/>
             <pb n="66"/>
 
 <!-- transcription: Page 66 -->
 
             
                 <fw type="pageNum">66.</fw>
+            <!-- TODO [event] CHANGE new (rebellion outside Dublin) -->
+            <milestone unit="event"/>
             <p>Whereas the Rebellion began that <date when-custom="1641-10-24">Sunday</date> in the Coun<add place="above">try</add><lb/>
                  with sword, fire, &amp; murdering all before them, not<lb/>
                  spairing infant of daies nor old Age. all was made<lb/>
                  havocke of &amp; so contineued till they had notice<lb/>
                  that it was discovered in <placeName ref="place:Dubl_088" n="place68">Dublin</placeName> &amp; were prevented by<lb/>
-                 our forces which defended the Cittie.<anchor n="ev24"/></p>
+                 our forces which defended the Cittie.</p>
+            <anchor/>
+            <!-- TODO [event] CHANGE end new -->
+            
             <milestone n="ev25" unit="event"/>
-            <!-- Q [event] ? escape into castle and from ireland  -->
+            <!-- NOTE [event] escape into castle and from ireland  -->
             <p>Yett cannot it be immagined. but we had our shair<lb/>
                  in <placeName ref="place:Dubl_088" n="place69">Dublin</placeName>. when we were forced upon the Alarume to<lb/>
                  leave our house. &amp; fly into <placeName ref="place:Dubl_089" n="place70">the Castle</placeName> that night. with all<lb/>
@@ -2749,6 +2769,9 @@
                  I fell into a desperate flux. called the Irish disseas<lb/>
                  beeing nigh unto death, while I staied in <placeName ref="place:Dubl_088" n="place72">Dublin</placeName>, as <lb/>
                 allso in the ship comeing for <placeName ref="place:Engl_094" n="place423">England</placeName>.</p>
+            <anchor n="ev25"/><!-- NOTE [event] end ir.reb. here -->
+            <!-- TODO [event] CHANGE new ev starts here -->
+            <milestone unit="event"/>
             <p>But <rs ref="ppl:aow1" n="per172" type="person">my deare mother</rs>s caire was exceeding great<lb/>
                  for my 2 brothers <persName ref="ppl:cw2" n="per173">Christopher</persName> &amp; <persName ref="ppl:jw1" n="per174">John</persName>. with <persName ref="ppl:td4" n="per175">Tom Danby</persName><lb/>
                  &amp; <persName ref="ppl:cd4" n="per176">kitt</persName> my sisters two elldest sons. &amp; my selfe.<lb/>
@@ -2770,13 +2793,15 @@
                  Neston</placeName>. Where we ttarried severall weeks by reason of<lb/>
                  my distemper, brought out of <placeName ref="place:Irel_096" n="place77">Ireland</placeName>, when we fled<lb/>
                  from the Rebells.</p>
-            <!-- Q [event] sub event? alice illness -->
+            
             <p>This I say brought me exceeding weake, so that I had <rs ref="ppl:tbd-iu" n="per178" type="person">a <lb/>
                 Doctor from <placeName ref="place:Ches_012" n="place78">Chester</placeName></rs><!-- Q [people] not identifiable? --> for my cure. Affter which with the great<lb/>
                  caire &amp; love of <rs ref="ppl:aow1" n="per179" type="person">my deare Mother</rs>. God was pleased att<lb/>
                  that time to restore my life, &amp; strengthen my great<lb/>
                  weaknesse, inabling me to goe to <placeName ref="place:Ches_012" n="place79">Chester</placeName> in a Coach.</p>
-            <anchor n="ev25"/><!-- Q [event] end ir.reb. here? -->
+            <anchor/>
+            <!-- TODO [event] CHANGE new event ends here -->
+            
             <p>Thus did the great God of heaven, &amp; Earth preserve us<lb/>
                  most miraculously in all our dangers &amp; extreamities <lb/>
                  bringing us safe, all to our owne native Countrey.</p>
@@ -2933,10 +2958,12 @@
                  of them, &amp; by that meanes the Seige was Raised.<lb/>
                  thus was we freed from great evills to befall that <lb/>
                  towne, while wee staid theire. that sucseeded affter<lb/>
-                 we came into <placeName>yorkeshire</placeName>. which still the Lords hand was<lb/>
+                 we came into <placeName>yorkeshire</placeName>.<anchor n="ev27"/> which still the Lords hand was<lb/>
                  streached out for our Preservation in each place<lb/>
                  we came to it was a sanctuary to us, blessed be the Lord<lb/>
                  most hight for all his goodnesse towards us:</p>
+         <!-- TODO [event] CHANGE new starts -->
+         <milestone unit="event"/>
             <p>But I had in this time of the seige, a grand deliveran<add place="above">ce</add><lb/>
                  standing in a Tirritt in <rs ref="ppl:aow1" n="per195" type="person">my mother</rs>s house. haveing<lb/>
             
@@ -2958,12 +2985,11 @@
                     <p rend="Endnote Text"> [word] Check ‘wafte’ in OED.</p>
                 </note> tooke my breath from me for the present. &amp; <lb/>
                  caused a great feare &amp; trembling. not knowing from<lb/>
-                 whence It came. I blesse, and praise the Lord our God for<lb/>
+                 whence It came.<anchor/><!-- TODO [event] CHANGE end new event --> I blesse, and praise the Lord our God for<lb/>
                  this my perticuler preservation at that time.</p>
-         <anchor n="ev27"/>
         </div>
         <div n="div27">
-    <!-- NOTE [div] new div added: there is an index entry ("upon my having the smallpox the second time...", ref 72) but no title/separation, but change of subject here seems to fit.
+    <!-- NOTE [div] new div added: there is an index entry ("upon my having the smallpox the second time...", ref 72) no title/amrker, but change of subject here seems to fit.
     now jump back to 1642 events.! -->  
             <milestone n="ev28" unit="event"/><!-- NOTE event chester, smallpox -->
             <p>Allso <persName ref="ppl:jw1" n="per196">my Brother John Wandesforde</persName>, was preserved<lb/>
@@ -2977,6 +3003,9 @@
                  forbiden to come to him least I should gett the smale<lb/>
                  Pox &amp; indanger my owne life. &amp; so observed <rs ref="ppl:aow1" n="per199" type="person">my Mother</rs>s<lb/>
                  command in that.</p>
+            <anchor n="ev28"/>
+            <!-- TODO [event] CHANGE new starts -->
+            <milestone unit="event"/>
             <p>But my love for him could not containe it selfe, from<lb/>
                  sending in letters to him, by a way found out of my <lb/>
                  foolish invention, tieing them about a little dogs neck<lb/>
@@ -3003,8 +3032,11 @@
                  me in much mercy. &amp; caused them to come well forth<lb/>
                  &amp; so by degrees the malignity of that Dessase <add place="above">abated</add> when there<lb/>
                  was many in that place died of it.</p>
-            <anchor n="ev28"/>
-            <milestone n="ev29" unit="event"/><!-- NOTE event frank kelly illness death -->
+            <!-- TODO [event] CHANGE new end -->
+            <anchor/>
+            
+            <!-- NOTE event frank kelly illness/ death -->
+            <milestone n="ev29" unit="event"/>
             <p>There was in our house a little boy, that <rs ref="ppl:cw1" n="per201" type="person">my father</rs> had tak<add place="above">en</add><lb/>
                  for charitie. This <persName ref="ppl:fk1" n="per202">Frank Kelly</persName> falling sicke on <date when-custom="1642-04-08">good<lb/>
                  friday</date> (&amp; I on the next day) was most sadly used in great<lb/>
@@ -3043,7 +3075,12 @@
                  slumbring to theire great admiration: that the goodnesse of<lb/>
                  God should condesend, to make himselfe knowne to a poor<lb/>
                  childe, in uttering forth infinittly more then allmost any<lb/>
-                 could expresse. And was an abundant sattisfaction to <rs ref="ppl:aow1" n="per211" type="person">my<lb/>
+                 could expresse.
+                <anchor n="ev29"/>
+                
+                <!-- TODO [event] CHANGE start new --> 
+                <milestone unit="event"/>
+                And was an abundant sattisfaction to <rs ref="ppl:aow1" n="per211" type="person">my<lb/>
                  deare mother</rs>, to see an improvement of grace, &amp; religion,<lb/>
                  in his heart, since he was brought into her house; it beeing<lb/>
                  not two yeares, at which time he was a Papist affter his owne<lb/>
@@ -3053,7 +3090,12 @@
                  Read, &amp; his cattechisme &amp;c. it pleased God to open the eyes<lb/>
                  of his Soule, &amp; he became a true convert, &amp; a patterne of<lb/>
                  much goodnesse, &amp; vertue, that I never saw the like in many<lb/>
-                 yeares, above his, beeing about 9 yeares old. <rs ref="ppl:fk1" n="per214" type="person">This poore boy</rs><lb/>
+                 yeares, above his, beeing about 9 yeares old. 
+                 <!-- TODO [event] CHANGE new end -->
+                <anchor/>
+                <milestone unit="event"/>
+                <!-- TODO [event] CHANGE new start -->
+                <rs ref="ppl:fk1" n="per214" type="person">This poore boy</rs><lb/>
                  alalong his sicknesse, still praied for me when he heard<lb/>
                  I was in danger of death desired with teares that God would be<lb/>
                  pleased to spaire my life &amp; to blesse me that I might live to<lb/>
@@ -3091,13 +3133,17 @@
                  -ingly gave up his soule into the hands of his Redeemer<lb/>
                  with come Lord Jesus &amp; receave my soule, &amp; so did.</p>
             <!-- TODO [review] "died" rather than "did" -->
+            <!-- TODO [event] CHANGE end new -->
+            <anchor/>
             <p>I had great reason to take especiall notice of the great<lb/>
                  goodnesse of God to us, in giveing us opportunity to<lb/>
                  bring <rs ref="ppl:fk1" n="per217" type="person">this poore soule</rs> out of the darknesse &amp; ignorance<lb/>
                  of his sinfull education in which he was. &amp; it was the<lb/>
                  good providence of God, so to order it, thus the accident<lb/>
-                <!-- Q [event] sub event? cw frank kelly rescue -->
-                 was. As <rs ref="ppl:cw1" n="per218" type="person">my father</rs> was upon the greene, one day bowling<lb/>
+                 was. 
+                <!-- TODO [event] CHANGE start new  cw frank kelly -->
+                <milestone unit="event"/>
+                 As <rs ref="ppl:cw1" n="per218" type="person">my father</rs> was upon the greene, one day bowling<lb/>
                  seeing <rs ref="ppl:fk1" n="per219" type="person">a poore naked boy</rs> in Rags, yet pritty &amp; nimble<lb/>
                  was very officious in gathering up his bowles. He tooke<lb/>
                  notice of him with intentions of charity towards the boy.</p>
@@ -3124,7 +3170,9 @@
                  he receaved such instruction &amp; as that I hope the Lord had<lb/>
                  glory thereby, &amp; that poore soule now reapes the beneifitt of<lb/>
                  of such charity.</p>
-            <anchor n="ev29"/><!-- NOTE event /frank kelly -->
+            <!-- TODO [event] CHANGE end new /frank kelly -->
+            <anchor/>
+            
             </div>
         <div n="div28" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
@@ -3135,7 +3183,7 @@
              <note place="left">Receaving the<lb/>
                 <fw place="left margin">1</fw> sacrament
               </note>
-                A Thankesgiveing affter my recovery<!-- NOTE [layout] this line is right aligned. team decision to ignore. --><lb/>
+                A Thankesgiveing affter my recovery<!-- NOTE [layout] this line is right aligned. team decision - ignore. --><lb/>
                 from the smale Pox in <placeName ref="place:Ches_012" n="place92">Weschester</placeName>: <date type="illness" when-custom="1642">1642</date>.<!-- NOTE [layout] but this line is left aligned -->
             </head>
             
@@ -3240,7 +3288,6 @@
                 and end up at kirklington and stay with mr daggett. 
                 move to hipswell nov 29 1644 [she dates some hipswell events 43 44 but this date suggests 64+]. 
                 so when at goes to middleham to help katherine have a baby it was 43/4. 
-                katherine isn't at snape as that isn't safe. so is A coming from kirklington? That is the only way I can make sense of why she might be crossing the Swale to get to Middleham! 
                 -->
                
                 <!-- NOTE [margin] tagged note -->
@@ -3259,7 +3306,7 @@
                 sent <rs ref="ppl:td4 ppl:cd4" n="per234" type="person">her 2 grand sonns</rs> home from <placeName ref="place:Ches_012" n="place97">Chester</placeName> before the seige)<lb/>
             with these, &amp; severall servants &amp; tennants, <add place="above">though</add> with much difficulty<lb/>
                  by reason of the interchange of the Kings Armies, &amp; the Parliament<lb/>
-           <!-- Q sub event? arrived warrington, presumably evening 28 aug.  -->
+         
                  she was brought into the Towne of <placeName ref="place:Warr_057" n="place98">Warrington</placeName>, towards coming<lb/>
                  in to <placeName ref="place:York_079" n="place99">Yorkeshire</placeName>, she finding more favour by reason of the Captains<lb/>
                  Civility. &amp; by a passe from <persName ref="ppl:rs1" n="per235">Coll Shittleworth</persName> then usuall.</p>
@@ -3349,24 +3396,33 @@
 
                 
                     <fw type="pageNum">81.</fw>
+        <!-- NOTE [margin] team discussion came to the conclusion that the puzzling location of margin notes/headings+dates on this page, some distance from the relevant text in the main body of page, is meant to indicate/summarise the correct chronological order of the events on this and the next few pages, as some of them are quite muddled
+                which doesn't solve the problem of how to mark them up... but maybe need a different approach from that taken when the margin text is next to associated body text?
+        -->
+        <!-- Q [dates] how to to associate these dates in margins with the correct text AND disassociate them as much as possible from the adjacent text 
+                  - de-tag or de-@when
+                  - could use @ref - but ugh for such a small number of dates
+                  - really prefer to add dates to the text somehow, can use empty date tags if there are no relevant words
+              margin dates:
+              1. Sept 2 1643 - leaving downham?
+              surfeit lobster richmond (dated 15th on another page)
+              2. Sept 15 1643 (assuming this is the lobster, don't need date here as it's dated in the text)
+              3. Oct 11 1643 (richmond to snape) when they arrive at snape?
+              4. Nov 16 1643 (Bro Jack to school)
+              -->
                 
             <p>
                 O that we might live to his praise &amp; glory, of his name
             </p>
             <p>
             <milestone n="ev33" unit="event"/>
-           <!-- NOTE event downham? to richmond
-               (there may be a day? or a stage? missing since only got to 31 Aug above but hey this is alice)
+           <!-- NOTE event downham? to richmond/snape?
               this initially seems to suggest they went straight to snape
-                (nb downham to snape = 50 miles; seems more like 2 days travel?) 
-               but further down "richmond to snape 11 Oct"
-               so arriving at *richmond* ('to uncle nortons') on 2 sept or some point between 2nd and 15th Sept. 
-               (then alice got ill, so they presumably had to wait until she was well enough to travel) -->
-              <!-- NOTE [dates] on these pages several tagged dates in marginal <note> some distance away from the text they actually refer to - need to associate these dates in margins with the correct text AND disassociate as much as possible from the adjacent text - in those cases safest to de-tag or de-@when
-                  - could use @ref - but ugh for such a small number of dates
-                  - prefer to add dates to the text somehow, can use empty date tags if there are no relevant words
-              -->
-                <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
+                (nb downham to snape = 50 miles; 2 days travel?) 
+               but then "richmond to snape 11 Oct"
+               so did they arrive at *richmond* on 2 sept (then alice got ill, so they had to wait until she was well enough to travel)
+           at the moment leaving only 2 Sept tagged for this event but idk -->
+            <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
               <date when-custom="1643-09-02">
                   Sept.<hi rend="superscript">ber</hi> <lb/>
                2<hi rend="superscript">d</hi> <lb/>
@@ -3374,18 +3430,15 @@
               </date>
               </note>
                 <rs ref="ppl:aow1" n="per246" type="person">My mother</rs> was minded to goe to <placeName ref="place:Snap_047" n="place107">Snape</placeName>, where <persName ref="ppl:kwd1" n="per247">my <lb/>
-                Sister Danly</persName><note place="end">
-                            <p rend="Endnote Text"> [word] SiC – presumably should be Danby.</p>
-                        </note> was. &amp; beeing invited by her she went <lb/>
-
-                    <!-- NOTE [margin] tagged note -->
-                    <!-- NOTE [style] vertical text writing direction top to bottom. -->
-                   
+                Sister <sic>Danly</sic></persName> was. &amp; beeing invited by her she went <lb/>
+   
                 <note place="left margin" resp="#awt1" style="writing-mode: vertical-rl; text-orientation: sideways-right">
+                <!-- NOTE [style] vertical text writing direction top to bottom. -->
                <p>Sirfett Lobster <lb/>
                at <placeName ref="place:Rich_043" n="place108">Richmond</placeName> <milestone unit="rule"/>
                    <!-- Q [teams] [tagging] [decoration] short (about 4 chars) horizontal line here, purpose unclear. similar things in BoR? best way to do these? alt: use of <space> in tei list --></p>
             </note>
+                 
                  thither to live, till she could better dispose of her selfe,<lb/>
                  &amp; us in those troublesome times. For it beeing in the <lb/>
                 heate of the warres she could not live at <placeName ref="place:Hips_022" n="place109">Hipswell</placeName> her<lb/>
@@ -3394,35 +3447,40 @@
          <!-- NOTE [margin] tagged note -->
                 <!-- Q [teams] [tagging] [formatting] text underline -->
             <note place="left margin" resp="#awt1">
-                <!-- NOTE [dates] this date is for the surfeit of lobster (p.83) and not related to any of this text. de-@when -->
+                <!-- NOTE [dates] this date seems to relate to the lobster (p.83) and not related to the text here. de-@when at least for now. -->
                     <date>
-                        Sept.<lb/>
+                      Sept.<lb/>
                     <hi rend="underline">15<hi rend="superscript">th</hi></hi>
-                    
                     <lb/>
                     <hi rend="underline">1643.</hi>
                     </date>
              </note>
-               &amp; then the Kings forces amongst them. (to <persName ref="ppl:mn1" n="per248">uncle Norton</persName>s)<anchor n="ev33"/><lb/>
-           <milestone n="ev34" unit="event"/><!-- NOTE event to snape -->
-             <date when-custom="1643-10-11"></date><!-- NOTE [dates] date for "to snape from Rich" in margin text -->
+               &amp; then the Kings forces amongst them. (to <persName ref="ppl:mn1" n="per248">uncle Norton</persName>s)
+            <!-- Q what exactly does "(to uncle Norton)" mean? -->
+            <!-- NOTE [event] previously two separate events merged into one here. also removed <date when-custom="1643-10-11"></date> = date corresponding to margin "to snape from Rich"  --><lb/>
+           
+             <!-- NOTE -->
              Soe that <date>for a whole yeare</date> we lived, with great comfort and<lb/>
-             safety with <persName ref="ppl:kwd1" n="per249">my sweete Sister Danby</persName> att <placeName ref="place:Snap_047" n="place110">Snape</placeName><anchor n="ev34"/><!-- NOTE event /to snape -->. where <milestone n="ev35" unit="event"/>she<lb/>
-              <!-- NOTE [dates] margin note with date - not the right date for the text... -->
-                <!-- Q [teams] CORRECTION ? there's a line under text in margin 11.43? - but [formatting] need to discuss that??? -->
+             safety with <persName ref="ppl:kwd1" n="per249">my sweete Sister Danby</persName> att <placeName ref="place:Snap_047" n="place110">Snape</placeName>. <anchor n="ev33"/>
+
+                where <milestone n="ev35" unit="event"/>she<lb/>
+                <!-- Q [teams] CORRECTION ? there's a line under text in margin 11.43? - but [formatting] need to review -->
                 <note place="left margin" resp="awt1">
                     to <placeName>snape</placeName><lb/>
                     from <lb/>
                     <placeName>Rich</placeName>.<lb/>
+              <!-- NOTE [dates] margin note with date - not the date for the text so no @when for now. the birth of Charles was earlier. -->
                     <date>Octb.<lb/>
                     11. 43</date>.</note>
-              <date when-custom="1643-06-02">was delivered</date>
-              <!-- NOTE [dates] this dob from biographical material, not Alice. odd - text implies birth is after they were at Snape? but this date earlier. --> of <rs ref="ppl:cd5" n="per250" type="person">a galant Son</rs> even in the midest of troub<lb break="no"/>
-              -les. God gave her comfort. &amp; <rs ref="ppl:td3" n="per251" type="person">my brother</rs><!-- NOTE [people] realised 'my brother' here probably means Sir Thomas, not one of the Wandesfords. GW is in France and the other two too young to be in the King's service. Doh. --> would have<lb/>
+              <date when-custom="1643-06-02" type="supplied">was delivered</date>
+           <!-- NOTE [dates] this dob from biographical material, not Alice. --> of <rs ref="ppl:cd5" n="per250" type="person">a galant Son</rs> even in the midest of troub<lb break="no"/>
+              -les. God gave her comfort. &amp; <rs ref="ppl:td3" n="per251" type="person">my brother</rs> would have<lb/>
               him called Charles. because of his ingagement for the<lb/>
-              Kings service.<anchor n="ev35"/><!-- NOTE event /birth -->
+              Kings service.<anchor n="ev35"/>
+                <!-- NOTE event /birth -->
+                
              <milestone n="ev36" unit="event"/>
-                <!-- NOTE event boys sent to school/york, maybe 2 sep events? --> 
+         <!-- NOTE event boys sent to school/york, maybe 2 sep events? --> 
                 Now while we lived at <placeName ref="place:Snap_047" n="place111">Snape</placeName> my brot<lb break="no"/>
                     
                     <!-- NOTE [margin] tagged note -->
@@ -3432,7 +3490,7 @@
                    <placeName>B. Sco</placeName><lb/>
                    <date when-custom="1643-11-16">No. 16.<lb/>
                    <hi rend="underline">43.</hi></date>
-                    <!-- NOTE [dates] not de-@when this for now. JW is not mentioned in this section - it's about CW. But suggestion further on that C *is* sent to Bedale with J. -->
+         <!-- NOTE [dates] not de-@when this for now. JW is not mentioned in this section - it's about CW. But suggestion further on that C *was* sent to Bedale with J. -->
                  </note>
             -her <persName ref="ppl:cw2" n="per253">Christopher W.</persName> was exceedingly tormented with the<lb/>
             fitts of the spleene. haveing taken them uppon the death of<lb/>
@@ -3468,7 +3526,11 @@
                 <!-- NOTE event snape to york (attempt...) nb marston moor 2 July 1644... -->
                 <p>It was advised that <rs ref="ppl:aow1" n="per257" type="person">my Mother</rs> should goe <add place="above">from</add> Snape &amp; live att<lb/>
                 <placeName ref="place:York_060" n="place113">Yorke</placeName>. For the better Education of my 2 brothers, <persName ref="ppl:cw2" n="per258">Christopher</persName><lb/>
-                &amp; <persName ref="ppl:jw1" n="per259">John</persName>. As for <persName ref="ppl:gw1" n="per260">my Eldest brother George</persName> beeing then in<lb/>
+                &amp; <persName ref="ppl:jw1" n="per259">John</persName>.
+                    <anchor/>
+                 <!-- TODO [event] CHANGE split. second is about GW. -->
+                    <milestone unit="event"/>
+                    As for <persName ref="ppl:gw1" n="per260">my Eldest brother George</persName> beeing then in<lb/>
                 <placeName ref="place:Fran_097" n="place114">France</placeName>, was happie under the Tuittion of one <persName ref="ppl:ga1" n="per261">Mr George <lb/>
                  Anderson</persName>, a scotch man. But a most sober, wise discreet<lb/>
                  Person. A great scholer, &amp; excelent qualified man, and <lb/>
@@ -3480,8 +3542,11 @@
                  -dable qualities, in <placeName ref="place:Fran_097" n="place115">France</placeName>, during the heate of the warre, in part,<lb/>
                  Allthough he was compelld to returne into <placeName ref="place:Engl_094" n="place116">England</placeName> for lacke<lb/>
                  of supplies when his Rents was seised on by the Parliament<lb/>
-                 Through which he indured a great deale of hardship. But to <add place="above">return</add><lb/>
-                    <!-- NOTE event -->
+                 Through which he indured a great deale of hardship. 
+                 <anchor/>
+                 <!-- TODO [event] CHANGE split -->
+              <milestone unit="event"/>
+                 But to <add place="above">return</add><lb/>
                  to <rs ref="ppl:aow1" n="per264" type="person">my Mother</rs> whoe prepared for <placeName ref="place:York_060" n="place117">Yorke</placeName>, with her Children <lb/>
                  &amp; goods intending <add place="above">to</add> live there. But it pleased God we<lb/>
                  was prevented from goeing further, then a place in the <lb/>
@@ -3493,9 +3558,13 @@
                  this councell came seasonably, &amp; happiely, to hinder our grea<add place="above">ter</add><lb/>
                  troubles &amp; sorowes uppon that Townes surprisall. Praised be the<lb/>
                  Lord our God which did prevent those evills, &amp; preserved us in our<lb/>
-                 way. When we were nigh to danger, &amp; knew it not. For this<lb/>
+                 way. When we were nigh to danger, &amp; knew it not. 
+                 <anchor/>
+                 <!-- TODO [event] CHANGE split. mr danby at naseby -->
+               <milestone unit="event"/>
+                 For this<lb/>
                  poore Gentleman <persName ref="ppl:td1" n="per267">Mr Danby</persName> was soone affter, Killed on <placeName ref="place:Nase_055" n="place120">the<lb/>
-                 moore<date when-custom="1645-06-14" ana="#notEvent"/></placeName> for the King, when the Kings forces was allmost all de<lb break="no"/>
+                 moore<date when-custom="1645-06-14"/></placeName> for the King, when the Kings forces was allmost all de<lb break="no"/>
                  -stroyed &amp; cutt downe by the Scotts &amp; the Parliament Army.</p>
             <anchor n="ev37"/>
                 <pb n="82"/>
@@ -3512,8 +3581,7 @@
                  till the hall was made fitt to dwell in. in that time<anchor n="ev38"/><lb/>
                 <milestone n="ev39" unit="event"/>
                    <!-- NOTE event gw and cw2 marston moor -->
-                 affter she came thither in the yeare <date>1643</date><!-- NOTE [dates] def says 1643 but that makes no sense? perhaps "thither" means TO snape not from snape. 
-                     - using <date> tag but removed @when -->. was the battle<lb/>
+                 affter she came thither in the yeare <date>1643</date><!-- NOTE [dates] def says 1643 but that makes no sense? perhaps "thither" means TO snape not from snape. So have kept <date> tag but removed @when -->. was the battle<lb/>
                  of <placeName ref="place:Mars_021" n="place122">Hessome</placeName> &amp; the takeing of <placeName ref="place:York_060" n="place123">yorke</placeName>. &amp; she was much con-<lb break="no"/>
                  -serned for <persName ref="ppl:cw2" n="per270">my brother Christofer Wandesforde</persName> being<lb/>
                  then at <placeName ref="place:York_060" n="place124">Yorke</placeName> for cure &amp; att Scoole.</p>
@@ -3558,9 +3626,10 @@
                 <head place="centre" rend="pre(rule) post(rule)">           
                     A deliverance from a Surfett of Lobster.<lb/>
                     att <placeName ref="place:Rich_043" n="place131">Richmond</placeName> <date type="illness" when-custom="1643-09-15">1643</date>.</head>
-                <!-- Q [dates] chronology is mixed up again - this bit is 1644 after Marston Moor. isn't it? "after the scots had helped to overthrow the king at york" -->
-                <!-- Q [events] new event? -->
-                <p>Affer this when the scotts had helped to overthrow <rs ref="ppl:cs1" n="per276" type="person">the King</rs>s<lb/>
+                <!-- Q [dates] chronology gets mixed up again - this is 1644 after Marston Moor. isn't it? "after the scots had helped to overthrow the king at york" -->
+                <!-- TODO [event] CHANGE add new event, about GW -->
+                <milestone unit="event"/>
+                <p><date notBefore-custom="1644-07-02">Affer this</date> when the scotts had helped to overthrow <rs ref="ppl:cs1" n="per276" type="person">the King</rs>s<lb/>
                  Army at <placeName ref="place:York_060" n="place132">Yorke</placeName>, for which designe they were called in to <placeName ref="place:Engl_094" n="place133">England</placeName><lb/>
                  &amp;, to destroy the Regall Power, of his Majestie. waiting upon<lb/>
                  the Parliaments Motions, to fullfill the intent of the Scottish<lb/>
@@ -3575,12 +3644,12 @@
                  this account compelld to live obscured, from all People, in-<lb break="no"/>
                  regard that he would not be compelld to this treason, nor was<lb/>
                  willing to be imprisoned, by them.</p>
-                
+                <anchor/><!-- NOTE [event] end new GW -->
                 <p>
-                    <!-- NOTE [margin] tagged note -->
-                    <!-- Q [teams] [tagging] [formatting] text underline. here there is only one line underneath but again, what's it for? -->
+          <!-- NOTE [margin] tagged note -->
+          <!-- Q [teams] [formatting] text underline. here there is only one line underneath but again, what's it for? -->
            <milestone n="ev40" unit="event"/>
-                    <!-- NOTE event (jump back to) richmond 1643 lobster. also implies that they stayed at Richmond until they went to Hipswell!-->
+          <!-- NOTE event (jump back to) richmond 1643 lobster. -->
                 
                     <note place="left margin" resp="#awt1">
                         <date when-custom="1643-09-15">Sept.<lb/>
@@ -3662,7 +3731,6 @@
                  in monnys to the Soldiers, besides the quarting of a troope<lb/>
                  of Scotts on free quarter, which was trible the valeue of<lb/>
                  her Estate. &amp; at that time she borrowed monnyes to<lb/> 
-                <!-- Q [events] maybe separate event for J&C school? since it jumps back in chronology -->
                 maintaine all her 4 children <add place="above">my brot. <persName ref="ppl:cw2" n="per287">Christo</persName>. &amp; <persName ref="ppl:jw1" n="per288">John</persName> were at <placeName ref="place:Beda_001" n="place138">Beedale scoole</placeName> from <date when-custom="1643-11-16">nov. the 16, 1643</date>. many years</add> 
                 which she paid afterwards<lb/>
                 
@@ -3838,7 +3906,7 @@
                  of part of the use of understanding for a little while, when<lb/>
                  its fury lasted. But <persName ref="ppl:dcl1" n="per315">Dafeny</persName> was alwaies with her. who<lb/>
                  she had a great love for, and as she grew weaker <date>affter<lb/>
-                 a months time of her delivery</date><!-- NOTE [dates] this relative date doesn't make sense if she gave birth on 3rd and died on 10th -->, holding her head on her<lb/>
+                 a months time of her delivery</date><!-- NOTE [dates] this relative date doesn't make sense if she gave birth on 3rd and died on 10th... but perhaps that's not right either. -->, holding her head on her<lb/>
                  breast, said to her in a faint weake voyce. I am goeing<lb/>
                  to God, my God now. Then said <persName ref="ppl:dcl1" n="per316">Dafeny</persName> nay Maddam<lb/>
                  I hope God will please to spaire your life, to live among<add place="above">gst</add><lb/>
@@ -3889,7 +3957,7 @@
                  dieing on the <choice>
                      <sic><date when-custom="1645-09-30">30<hi rend="superscript">th</hi> of Sept. 1645</date></sic>
                      <corr><date when-custom="1645-09-10">10<hi rend="superscript">th</hi> of Sept. 1645</date></corr>
-                 </choice>.<!-- NOTE [dates] correction. (though oddly 30 Sept fits better with *this* narrative?) --> And was buried that <lb/>
+                 </choice>.<!-- Q [dates] correction. *check* the correction - isn't there an update to that? (oddly 30 Sept fits better with *this* narrative?) --> And was buried that <lb/>
                  night att <persName ref="ppl:td3" n="per321">Sir Thomas Danby</persName>s owne Towne in <placeName ref="place:Mash_037" n="place146">Massam<lb/>
                  Church</placeName> in the night by reason of the Parliament. Sol<ex>diers</ex> &amp; Scots<lb/>
                  who would not let a Sermon be Preached. Butt there was<lb/>
@@ -4416,7 +4484,7 @@
                  don herselfe by writting. but that she was sudainly surprised<lb/>
                  at that instant of his comeing up to the Chamber, with much<lb/>
                  feares for me, who was, soe violently tormented with a<lb/>
-                <!-- Q [event] sub event? alice pain in the neck -->
+                
                  paine in the right side of my necke amongst the sinneus &amp;<lb/>
                  which caused me to cry out in extreamity, nor could she<lb/>
                  imagine what was the cause, only she still anoynted it with<lb/>
@@ -4564,7 +4632,7 @@
                  -standing, &amp; Loyall to his King. soe that if it might have<lb/>
                  gained him the world he would not have taken a fallse<lb/>
                  oath, or Covenant, to wrong the Church or his soveraine.<lb/>
-                <milestone n="ev56" unit="event"/><!-- NOTE event gw death -->
+          <milestone n="ev56" unit="event"/><!-- NOTE event gw death -->
                  his death was uppon Munday morning in Easter weeke.
 
             <pb n="107"/>
@@ -4574,7 +4642,7 @@
             
                 <fw type="pageNum">108.</fw>
             
-            <date when-custom="1651-03-31">March <hi rend="underline">the 31, 1651</hi></date>. was his blacke munday. <!-- Q [event] ? -->the strange<lb/>
+            <date when-custom="1651-03-31">March <hi rend="underline">the 31, 1651</hi></date>. was his blacke munday. the strange<lb/>
                  paine which seised on my necke portended this Sadd losse.<lb/>
                  Great, &amp; infinitt, was the search by thousands, of People<lb/>
                  from that time till <date>Wednesday foll<ex>owing</ex></date><!-- Q [dates] weekday? wtf Alice. leaving @when tagging. funeral date to be checked. weekday dates will need to be reviewed more generally later. -->, his bodie not beeing found<lb/>
@@ -5040,7 +5108,7 @@
             
         <div n="div45">
             <head rend="post(rule)">The Mariage of <persName ref="ppl:awt1" n="per440">Alice Wandesforde</persName> <date type="marriage" when-custom="1651-12-15">Decm. 15. 1651</date>.</head>
-            <milestone n="ev60" unit="event"/><!-- NOTE event awt marriage negotiations? -->
+            <milestone n="ev60" unit="event"/><!-- NOTE event awt marriage negotiations -->
             <p>After many troubles &amp; afflictions, under which it <lb/>
                  pleased God <add place="above">to</add> Exercise <rs ref="ppl:aow1" n="per441" type="person">my mother</rs>, &amp; selfe in, since the deat<add place="above">h</add><lb/>
                  of <rs ref="ppl:cw1" n="per442" type="person">my father</rs>, she was desirous to see me comfortably <lb/>
@@ -7925,7 +7993,7 @@
                 some or all of the text from "He died..." looks like later insertion to me. Which would make the heading a more sensible length too. --> 
               
              <add place="inline">He died<lb/>
-                 <date type="death" when-custom="1660-04-28">Aprill 28</date>. burid <date>1659</date><!-- NOTE [dates] definitely written 1659 but that's just wrong here. tagged, but not add @when --> at <placeName ref="place:Easb_017" n="place275">Easby</placeName> <date when-custom="1660-04-29">29</date>. neare my <persName ref="ppl:pcw1" n="per747">Lady<lb/>
+                 <date type="death" when-custom="1660-04-28">Aprill 28</date>. burid <date>1659</date><!-- NOTE [dates] definitely written 1659 but that's just wrong here. kept tag, but not @when --> at <placeName ref="place:Easb_017" n="place275">Easby</placeName> <date when-custom="1660-04-29">29</date>. neare my <persName ref="ppl:pcw1" n="per747">Lady<lb/>
             
              Wharton</persName>s grave at <placeName ref="place:Easb_017" n="place276">Easby</placeName>.</add>
               
@@ -7937,6 +8005,7 @@
 
             
                 <fw type="pageNum">180.</fw>
+          
             <milestone n="ev112" unit="event"/><!-- NOTE event awt illness -->
             <p><date notBefore-custom="1659-12" notAfter-custom="1660-02">After</date> <rs ref="ppl:aow1" n="per748" type="person">my deare Mother</rs>s deceace; I remained at<lb/>
                  <placeName ref="place:Hips_022" n="place277">Hipswell</placeName>, by reason of my weaknesse. &amp; trouble<lb/>
@@ -8280,7 +8349,7 @@
                  I have daily fresh cause, &amp; occassions to admire the infinit<lb/>
                  goodnesse of that God whome I serve, desiring to speake well of<lb/>
                  his name, whoe has pitty upon his weake servant.</p>
-         <milestone n="ev124" unit="event"/><!-- Q [event] is this an event? -->
+         <milestone n="ev124" unit="event"/>
             <p>Heere I lived for 2 yeares till our owne house at <placeName ref="place:East_019" n="place288">Easte-<lb/>
                  Newton</placeName> could be finished, which we had bin in building.<lb/>
             
@@ -8296,7 +8365,7 @@
                  could have finished, before, She would gladly have lived<lb/>
                  with us heere, but it was not begun time enough for that;</p>
          <anchor n="ev124"/>
-         <milestone n="ev125" unit="event"/><!-- Q [event] is this an event? -->
+         <milestone n="ev125" unit="event"/>
             <p>In this time <date when-custom="1660-06/1662-06">while</date> we were att <placeName ref="place:Oswa_041" n="place289">Oswoldkirke</placeName>. <persName ref="ppl:jd2" n="per775">My brother<lb/>
                  Denton</persName> Preached there. &amp; did that with much gravity &amp; Piety<lb/>
                  beeing indeed a very excelent good. &amp; wise man <add place="above">from</add> whom all<lb/>
@@ -8673,14 +8742,14 @@
                  which I gott ready furnished with what <rs ref="ppl:aow1" n="per786" type="person">my deare mother</rs> gave<lb/>
                  me in 5 daies time. And all the ground stocked with her Cattell.</p>
             <anchor n="ev129"/>
-            <!-- Q [event] need to check all of this with CB! -->
+
             <milestone n="ev130" unit="event"/>
             <p>After which, with in a little of our commeing to house: <persName ref="ppl:wt1" n="per787">Mr<lb/>
                  Thornton</persName> was called to <placeName ref="place:Lond_080" n="place294">London</placeName> by <persName ref="ppl:rn1" n="per788">nettleton</persName>s bussinesse<lb/>
                  goeing purposely to prevent the breakeing up an Excecu<lb break="no"/>
-                 -tion against him from that <persName ref="ppl:rn1" n="per789">Nettleton</persName> against his Estate<lb/><anchor n="ev130"/>
-                <!-- Q [event] treat taking on the debt as an evt in its own right? -->
-                <milestone n="ev131" unit="event"/>
+                 -tion against him from that <persName ref="ppl:rn1" n="per789">Nettleton</persName> against his Estate<lb/>
+                <!-- NOTE [event] merged two into one here -->
+
                  for a debt of <rs ref="ppl:cw1" n="per790" type="person">my father</rs>s, which <persName ref="ppl:wt1" n="per791">Mr Thornton</persName> had bin ad-<lb break="no"/>
                  vised by some to secure out of his owne Estate: &amp; to in-<lb break="no"/>
                  gage for it, soe till he could receave the monnyis from<lb/>
@@ -8723,12 +8792,13 @@
                  before my marriage betwixt <persName ref="ppl:ww1" n="per798">My uncle Wand.</persName> <persName ref="ppl:cw2" n="per799">my Brother<lb/>
                  Christopher</persName> &amp; my selfe securing both the 1500<hi rend="superscript">l</hi> &amp; the 1000<hi rend="superscript">l</hi> out<lb/>
                  of <placeName ref="place:Irel_096" n="place297">Ireland</placeName> in its due order to be paid.</p>
+                <anchor n="ev130"/>
+            <!-- NOTE [event] boundary moved -->
+                <milestone n="ev132" unit="event"/>
             <p>But it soe hapned that he was advised with out our knowledge<lb/>
                  or consent as aforesaid to ingage to <persName ref="ppl:rn1" n="per800">Nettleton</persName>, (as well as<lb/>
                  to the bussinesse of the Assignement) for a Debt of 1000<hi rend="superscript">l</hi> Payable<lb/>
-                 out of his owne Estate by statute.<anchor n="ev131"/> 
-                <!-- Q [event] restarting law suit here - will need to check all of this with CB. -->
-                <milestone n="ev132" unit="event"/> because <persName ref="ppl:rn1" n="per801">nettleton</persName> would<lb/>
+                 out of his owne Estate by statute.  because <persName ref="ppl:rn1" n="per801">nettleton</persName> would<lb/>
                  not accept of security out of <placeName ref="place:Irel_096" n="place298">Ireland</placeName>: nor stay till <persName ref="ppl:wt1" n="per802">Mr Th.</persName><lb/>
                  receaved it thence; but he prosecuted <persName ref="ppl:wt1" n="per803">Mr Th.</persName> with soe much<lb/>
                  violency &amp; fearcenesse; that he compelld him to borrow monnys<lb/>
@@ -8736,7 +8806,8 @@
                  above: nor would he be sattisfied: because the bond was for a<lb/>
                  1000<hi rend="superscript">l</hi> &amp; not beeing taken in by <persName ref="ppl:wt1" n="per804">Mr Th.</persName> he sued for the whole<lb/>
                  &amp; for charges.<anchor n="ev132"/> 
-                <milestone n="ev133" unit="event"/><!-- Q [event] bailiffs at newton -->
+                <milestone n="ev133" unit="event"/>
+                <!-- NOTE [event] bailiffs at newton -->
                 And most unjustly &amp; deceiptfully, watch<lb/>
                  an oportunity when <persName ref="ppl:wt1" n="per805">Mr Thornton</persName> was at <placeName ref="place:Lond_080" n="place299">London</placeName> to have<lb/>
                  dispatched it. he gott an Execution broake up: and by his<lb/>
@@ -8766,7 +8837,8 @@
 
             
                 <fw type="pageNum">196.</fw>
-            
+            <!-- TODO [event] CHANGE new event start -->
+            <milestone unit="event"/>
             <p>I pray God forgive all those, by whoes evill councell<lb/>
                  <rs ref="ppl:wt1" n="per811" type="person">my deare husband</rs> was brought into those snaires: when<lb/>
                  he intended most good to all parties in the acceptation of<lb/>
@@ -8780,6 +8852,8 @@
                  me before he went to London; but he good man did not beleive<lb/>
                  nor could imagine that he might find such treachery in<lb/>
                  those Lawyers he imployed.</p>
+            <!-- TODO [event] CHANGE new event end -->
+            <anchor/>
             <p>Yett did my suspittion prove a meanes in part to arme <add place="above">me</add> with<lb/>
                  patience to over come that trouble when it came. Thus have<lb/>
                  I upon every occasion; &amp; act of my Life fresh cause to<lb/>
@@ -8854,7 +8928,7 @@
                 , &amp; confirmation, of all that holy martyers, &amp; <lb/>
                  Saints of God which suffered persecution for the testimony of the<lb/>
                  Gospell of Christ:</p>
-            <milestone n="ev134" unit="event"/><!-- Q [event] where to start/end [sacrament] -->
+            <milestone n="ev134" unit="event"/>
             <p>Noe wonder then if we were brought into such plagues &amp;<lb/>
                  confussion in this Land, whoes Pride was soe great; &amp; devoti<lb break="no"/>
                  -on so dead: but we, who thirsted affter these waters of life<lb/>
@@ -8974,7 +9048,7 @@
                 <persName ref="ppl:rc2" n="per822">Mr Colvill</persName>s Settlement of <persName ref="ppl:wt1" n="per823">Mr Thornton</persName>s Estate: <del rend="doublestrikethrough">166X</del><lb/>
                 <!-- TODO [review] "166X" in title. looks like 1661 to me? -->
                  <date type="legal" when-custom="1662">1662</date>.</head>
-            <milestone n="ev135" unit="event"/><!-- Q [event] idk what's going on here either -->
+            <milestone n="ev135" unit="event"/>
             <p>Affter I had received this great mercy from God; &amp;<lb/>
                  sattisfaction to my poore droopeing soule in the Perticipati-<add place="above">on</add><lb/>
                  of the Lords Supper, as I mentioned; haveing endevourd<lb/>
@@ -10907,7 +10981,6 @@
                 
             </head>
            <milestone n="ev194" unit="event"/>
-            <!-- Q [event] urrrghhh -->
             <p>Uppon the complaint of <persName ref="ppl:acd1" n="per1065">Mrs Danby</persName> to <persName ref="ppl:mb2" n="per1066">Mrs Batte</persName>, (then a<lb/>
                  servant to the young <persName ref="ppl:aws1" n="per1067">Countesse of Sussex</persName>; and accounts<lb/>
                  by her to be the dearest freind she had in the world) of her<lb/>
