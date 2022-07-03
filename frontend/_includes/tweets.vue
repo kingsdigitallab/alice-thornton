@@ -23,7 +23,7 @@
       </div>
       <p v-html="get_html(tweet)">
       </p>
-      <img v-if="get_thumb_url(tweet)" :src="get_thumb_url(tweet)">
+      <a v-if="get_thumb_url(tweet)" :href="get_url(tweet)"><img :src="get_thumb_url(tweet)"></a>
       <!-- END TODO -->
       <nav class="level is-mobile">
         <div class="level-left">
