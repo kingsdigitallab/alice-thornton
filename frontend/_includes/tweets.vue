@@ -17,8 +17,7 @@
           </p>
         </figure>
         <p>
-          <strong>{{ tweet.user.name }}</strong> <small>@{{ tweet.user.screen_name }}</small>
-          <small><a :href="get_url(tweet)">{{ get_time_ago(tweet) }}</a></small>
+          <strong>{{ tweet.user.name }}</strong> <small>@{{ tweet.user.screen_name }}</small> - <small><a :href="get_url(tweet)">{{ get_time_ago(tweet) }}</a></small>
         </p>
       </div>
       <p v-html="get_html(tweet)">
