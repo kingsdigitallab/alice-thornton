@@ -45,7 +45,7 @@ In the introduction to his nineteenth-century edition, Charles C. Jackson refers
 In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula Peyraud. These volumes were resold in 2009 and are now held at the [British Library](http://searcharchives.bl.uk/IAMS_VU2:LSCOP_BL:IAMS032-000000125) (BL).
 
 
-In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both volumes form part of the [Comber Collection](https://n2t.durham.ac.uk/ark:/32150/s2hm50tr76x.xml) at DCL.
+In 2018 and 2019, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both volumes form part of the [Comber Collection](https://n2t.durham.ac.uk/ark:/32150/s2hm50tr76x.xml) at DCL.
 
 These are the four books that we are in the process of preparing for our digital edition.
 
