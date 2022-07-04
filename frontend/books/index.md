@@ -16,22 +16,22 @@ Although we are not digitising the manuscripts, we will provide some sample imag
 <div class="gallery-by-4">
   <div class="book-image">
 
-![Alt text](/assets/img/books/BookRemembrancesFrontCover.jpg "Durham Cathedral Library, GB-0033-CCOM 38")
+![](/assets/img/books/BookRemembrancesFrontCover.jpg "Durham Cathedral Library, <br>GB-0033-CCOM 38")
 
   </div>
   <div class="book-image">
 
-![Alt text](/assets/img/books/Book1FrontCover.jpg "British Library, Add. MS 88897/1")
+![](/assets/img/books/Book1FrontCover.jpg "British Library, <br>Add. MS 88897/1")
 
   </div>
   <div class="book-image">
 
-![Alt text](/assets/img/books/Book2FrontCover.jpg "Durham Cathedral Library, GB-0033-CCOM 7")
+![](/assets/img/books/Book2FrontCover.jpg "Durham Cathedral Library, <br>GB-0033-CCOM 7")
 
   </div>
   <div class="book-image">
 
-![Alt text](/assets/img/books/Book3FrontCover.jpg "British Library, Add. MS 88897/2")
+![](/assets/img/books/Book3FrontCover.jpg "British Library, <br>Add. MS 88897/2")
 
   </div>
 </div>
