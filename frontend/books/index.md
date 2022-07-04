@@ -22,22 +22,22 @@ In the introduction to his nineteenth-century edition, Charles C. Jackson refers
 In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula Peyraud. These volumes were resold in 2009 and are now held at the British Library (BL).
 
 <div class="gallery-by-4">
-  <div class="person">
+  <div class="book-image">
 
 ![Alt text](/assets/img/books/Book1FrontCover.jpg "British Library, Add. MS 88897/1")
 
   </div>
-  <div class="person">
+  <div class="book-image">
 
 ![Alt text](/assets/img/books/Book3FrontCover.jpg "British Library, Add. MS 88897/2")
 
   </div>
-  <div class="person">
+  <div class="book-image">
 
 ![Alt text](/assets/img/books/BookRemembrancesFrontCover.jpg "Durham Cathedral Library, GB-0033-CCOM 38")
 
   </div>
-  <div class="person">
+  <div class="book-image">
 
 ![Alt text](/assets/img/books/Book2FrontCover.jpg "Durham Cathedral Library, GB-0033-CCOM 7")
 
