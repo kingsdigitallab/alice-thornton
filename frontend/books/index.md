@@ -13,23 +13,10 @@ The text of all four manuscript volumes will be available to read in both fully 
 
 Although we are not digitising the manuscripts, we will provide some sample images from each of the volumes to offer a sense of how the original materials looked
 
-## Background
-
-When Alice Thornton died in 1707, she bequeathed ‘three Books of my own Meditations and Transactions of my life, and all the residue of my Papers and Books written with my own hand’ to her daughter, Alice Thornton Comber. In addition to those three Books, there exists another, smaller volume known as a _Book of Remembrances_.
-
-In the introduction to his nineteenth-century edition, Charles C. Jackson refers to all four volumes; after this, however, the location of the manuscripts was unclear for many years.
-
-In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula Peyraud. These volumes were resold in 2009 and are now held at the British Library (BL).
-
 <div class="gallery-by-4">
   <div class="book-image">
 
 ![Alt text](/assets/img/books/Book1FrontCover.jpg "British Library, Add. MS 88897/1")
-
-  </div>
-  <div class="book-image">
-
-![Alt text](/assets/img/books/Book3FrontCover.jpg "British Library, Add. MS 88897/2")
 
   </div>
   <div class="book-image">
@@ -42,7 +29,21 @@ In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula
 ![Alt text](/assets/img/books/Book2FrontCover.jpg "Durham Cathedral Library, GB-0033-CCOM 7")
 
   </div>
+  <div class="book-image">
+
+![Alt text](/assets/img/books/Book3FrontCover.jpg "British Library, Add. MS 88897/2")
+
+  </div>
 </div>
+
+## Background
+
+When Alice Thornton died in 1707, she bequeathed ‘three Books of my own Meditations and Transactions of my life, and all the residue of my Papers and Books written with my own hand’ to her daughter, Alice Thornton Comber. In addition to those three Books, there exists another, smaller volume known as a _Book of Remembrances_.
+
+In the introduction to his nineteenth-century edition, Charles C. Jackson refers to all four volumes; after this, however, the location of the manuscripts was unclear for many years.
+
+In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula Peyraud. These volumes were resold in 2009 and are now held at the British Library (BL).
+
 
 In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both volumes form part of the Comber Collection at DCL.
 
