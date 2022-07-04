@@ -42,14 +42,14 @@ When Alice Thornton died in 1707, she bequeathed ‘three Books of my own Medita
 
 In the introduction to his nineteenth-century edition, Charles C. Jackson refers to all four volumes; after this, however, the location of the manuscripts was unclear for many years.
 
-In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula Peyraud. These volumes were resold in 2009 and are now held at the British Library (BL).
+In 1982 and 1994, two volumes re-emerged and were sold to a private buyer, Paula Peyraud. These volumes were resold in 2009 and are now held at the [British Library](http://searcharchives.bl.uk/IAMS_VU2:LSCOP_BL:IAMS032-000000125) (BL).
 
 
-In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both volumes form part of the Comber Collection at DCL.
+In 2018/19, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both volumes form part of the [Comber Collection](https://n2t.durham.ac.uk/ark:/32150/s2hm50tr76x.xml) at DCL.
 
 These are the four books that we are in the process of preparing for our digital edition.
 
-It has become common to refer to Thornton’s volumes as the _Book of Remembrances_ [(DCL, GB-0033-CCOM 38)](https://n2t.durham.ac.uk/ark:/32150/s2hm50tr76x.xml), _Book 1_ [(BL, Add. MS 88897/1)](http://searcharchives.bl.uk/IAMS_VU2:LSCOP_BL:IAMS032-000000125), _Book 2_ [(DCL, GB-0033-CCOM 7)](https://n2t.durham.ac.uk/ark:/32150/s2hm50tr76x.xml), and _Book 3_ [(BL, Add. MS 88897/2)](http://searcharchives.bl.uk/IAMS_VU2:LSCOP_BL:IAMS032-000000125). However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential. A key issue this project seeks to address is why and how these volumes are interconnected.
+It has become common to refer to Thornton’s volumes as the _Book of Remembrances_ (DCL, GB-0033-CCOM 38), _Book 1_ (BL, Add. MS 88897/1), _Book 2_ (DCL, GB-0033-CCOM 7), and _Book 3_ (BL, Add. MS 88897/2). However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential. A key issue this project seeks to address is why and how these volumes are interconnected.
 
 Our editorial and markup practice aims to make this possible. We prefer the following fuller titles, which use descriptions derived from her writings:
 
