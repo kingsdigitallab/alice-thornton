@@ -35,7 +35,7 @@ body {
     url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
   background-size: 100vw;
 
-  box-sizing:  border-box;
+  box-sizing: border-box;
 }
 
 .content {
@@ -48,36 +48,47 @@ body {
   }
 }
 
-.read-more-hp {
+a.button-hp {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 300px;
+  margin-bottom: 1em;
   text-decoration: none;
 
   &:hover {
-    background: $accent !important;
+    background-color: transparent;
+    
+    .read-more-hp {
+      background-color: $accent;
+    }
 
     svg {
       fill: $accent;
     }
   }
 
-  span {
-    display: block;
-    margin-top: 1em;
-  }
-
   svg {
+    display: block;
     fill: $primary;
-    width: 20px;
+    margin: .25em auto 0;
+    width: 12px;
+  }
+}
+
+.read-more-hp {
+  display: block;
+  margin: 0 auto 0 !important;
+  max-width: 300px;
+  padding: .75em 0 0 0;
+  text-decoration: none;
+
+  &:hover {
+    background: $accent;
   }
 }
 
 // TODO:
 // Customise Bulma's variables rather than override them
 .is-primary {
-  background: $primary !important;
+  background: $primary;
 }
 
 .is-secondary {
@@ -85,8 +96,8 @@ body {
 }
 
 .is-accent {
-  background: $accent !important;
-  color: $black !important;
+  background: $accent;
+  color: $black;
 }
 
 a.tag {
@@ -134,15 +145,23 @@ h3 {
 }
 
 .content {
-  h1, h2, h3,
-  h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: $secondary;
     font-family: "Lora", serif;
   }
 }
 
-h1, h2, h3,
-h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $secondary;
   font-family: "Lora", serif;
 
@@ -228,7 +247,7 @@ figure {
   .media-left,
   .media-right {
     max-width: 30vw;
-  
+
     @include mobile {
       display: block;
       float: none;
@@ -239,12 +258,12 @@ figure {
 
   &.media-left {
     float: left;
-    margin: .5em 1em .5em 0 !important;
+    margin: 0.5em 1em 0.5em 0 !important;
   }
 
   &.media-right {
     float: right;
-    margin: .5em 0 .5em 1em !important;
+    margin: 0.5em 0 0.5em 1em !important;
   }
 
   &.media-center {
