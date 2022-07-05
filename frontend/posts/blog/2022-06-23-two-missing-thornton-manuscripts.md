@@ -22,7 +22,7 @@ But in the meantime, my dad told me that his friend – Patrick Comber – had a
 
 While attending a conference in Durham, I booked into the library at 5 The College (accessed through the beautiful cloisters of Durham Cathedral), which is where Dean Comber’s papers are stored. In the morning I ordered up ‘the box’. This was both exciting and frustrating. In the box was a hand-list of what had been donated in 1969 and here the book was described as ‘Part of Mrs Alice Thornton’s memoirs 1668’. The box was full of loose papers and I searched to see if any of these was a part of one of Alice’s books but turned up nothing. At lunch I messaged my dad the good and bad news.
 
-![Photo of front cover of small brown leather volume]({{"/assets/img/posts/book2-durham-cover.jpg#left" | url}} "Image of Durham Cathedral Library, GB-0033-CCOM 7: Cordelia Beattie"){.media-left}
+![Photo of front cover of small brown leather volume]({{"/assets/img/posts/book2-durham-cover.jpg#left" | url}} "Durham Cathedral Library, GB-0033-CCOM 7: Cordelia Beattie"){.media-left}
 
 In the afternoon I returned and asked to see the rest of the collection, which I was told was a box of Dean Comber’s printed books. I thought I might possibly find something interesting that I could report back to Patrick. But one of the first volumes I took out of the box was one of Thornton’s books. Not only that, it wasn’t a partial survival but a full volume. The cataloguer has added the words ‘Part of’ not because some of Alice Thornton’s memoirs were missing but because part of the book has been written in by her great, great grandson. Alice’s text is numbered from page 1 to page 291 and then the great, great, grandson’s hand starts on page 292. Eureka! This was the volume she referred to in the British Library manuscripts as ‘my first book of my widowed condition’ and which Jackson had labelled book ii (CELM \*ThA 4).
 
@@ -30,11 +30,11 @@ In the afternoon I returned and asked to see the rest of the collection, which I
 To continue my run of lucky moments, I saw Dr Suzanne Trill as I was getting off the bus on my return from Durham. She immediately grasped the significance of what I had found and we arranged to meet for a coffee. It was at this next meeting that we first discussed putting in a grant application to edit the manuscripts, although submission took about another eighteen months of work, protracted a little by illness, strikes and a global pandemic.
 
 Suzanne asked Professor Raymond Anselment (Connecticut) to compare some of my photos of Patrick’s manuscript with a microfilm held at the Beinecke library and he confirmed that they were the same book, which led us to conclude that this book was actually described twice (as untraced) on the CELM website (*ThA5, *ThA6). This also meant all four Thornton manuscripts that had been available to Jackson in 1875 had been located. And Thornton’s original texts are what we will share with you on this site.
-  
+
 * * *
 
 _In memory of Patrick Comber, d.2020._
 
-![Photo of smiling man, taken in a sunny street]({{"/assets/img/posts/patrick-comber-medium.jpg#center"}} "Photo of Patrick Comber: Derek Beattie"){.media-center}
+![Photo of smiling man, taken in a sunny street]({{"/assets/img/posts/patrick-comber-medium.jpg#center"}} "Patrick Comber: Derek Beattie"){.media-center}
 
 [^1]: Charles Jackson. Ed. _The Autobiography of Mrs. Alice Thornton of East Newton, Co. York_. Durham: Surtees Society, 1875, 347.
