@@ -8,5 +8,3 @@ department: King's Digital Lab
 teams:
   - sdt
 ---
-
-
