@@ -7,9 +7,11 @@ layout: base.liquid
 <div class="person-bio block">
     <img src="{{ image | url }}#left" alt="A photograph of {{ firstName }} {{ lastName }}">
 
-    {{ content }}
+    <div>
+        {{ content }}
 
-    {% if mainEntityOfPage %}
-        <a class="button is-info is-light" href="{{ mainEntityOfPage }}">Academic page</a>
-    {% endif %}
+        {% if mainEntityOfPage %}
+            <a class="button is-info is-light" href="{{ mainEntityOfPage }}">Academic page</a>
+        {% endif %}
+    </div>
 </div>
