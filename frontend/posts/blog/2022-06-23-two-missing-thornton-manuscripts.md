@@ -15,7 +15,7 @@ I got my partner to put the children to bed while I did a quick look up of Thorn
 
 I asked my dad for a few more details: how many pages does the book have? What size is it? From the replies, I suspected that it was the book described by Jackson as ‘a small memorandum book three and a half by two and a half inches in size, and consisting of about 196 pages, which has the appearance of having been Mrs. Thornton's original “Booke of Remembrances”’.[^1] My dad’s friend said I was welcome to come and look at it, which I did as soon as there was a break in the teaching semester.
 
-![Photo of Durham Cathedral western tower and cloisters with blue sky]({{"/assets/img/posts/Cathedral_towers_geograph_JohnIllingworth_228813.jpg#right" | url}} "Durham Cathedral western tower and cloisters: John Illingworth, CC-BY-SA"){.media-right}
+![Photo of Durham Cathedral western tower and cloisters with blue sky]({{"/assets/img/posts/Cathedral_towers_geograph_JohnIllingworth_228813.jpg#right" | url}} "Durham Cathedral western tower and cloisters: <br>John Illingworth, CC-BY-SA"){.media-right}
 
 But in the meantime, my dad told me that his friend – Patrick Comber – had a chest full of family papers, many about Dean Thomas Comber (1645-99) and Patrick would like to know more about them. I decided to research Dean Comber as a thank you to Patrick for allowing me to see Thornton’s book. And it was this that led me to the second Thornton manuscript. Durham Cathedral Library had a collection, gifted to them in 1969, catalogued as Dean Comber’s papers and - in the very general catalogue entry which noted there were ‘c.20 volumes and 1 box’ there was reference to [‘a journal of his wife Alice’](https://perma.cc/6RW3-SV3X). Knowing that there was at least one other Thornton manuscript still untraced, I wondered if this might be another of Alice’s books. If not, a book by her daughter (Alice Comber née Thornton) was nevertheless interesting. I decided a trip to Durham was also necessary.
 
@@ -30,7 +30,7 @@ In the afternoon I returned and asked to see the rest of the collection, which I
 To continue my run of lucky moments, I saw Dr Suzanne Trill as I was getting off the bus on my return from Durham. She immediately grasped the significance of what I had found and we arranged to meet for a coffee. It was at this next meeting that we first discussed putting in a grant application to edit the manuscripts, although submission took about another eighteen months of work, protracted a little by illness, strikes and a global pandemic.
 
 Suzanne asked Professor Raymond Anselment (Connecticut) to compare some of my photos of Patrick’s manuscript with a microfilm held at the Beinecke library and he confirmed that they were the same book, which led us to conclude that this book was actually described twice (as untraced) on the CELM website (*ThA5, *ThA6). This also meant all four Thornton manuscripts that had been available to Jackson in 1875 had been located. And Thornton’s original texts are what we will share with you on this site.
-
+  
 * * *
 
 _In memory of Patrick Comber, d.2020._
