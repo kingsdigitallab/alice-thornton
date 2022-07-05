@@ -2,6 +2,7 @@
 <html lang="en-GB">
   <head>
     <meta charset="utf-8">
+    <!-- Built with 11ty - {{ "now" | date: "%Y-%m-%d %H:%M" }} -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="King's Digital Lab, King's College London">
     <meta name="description" content="This AHRC-funded research project will create an online digital edition of all four of Alice Wandesford Thornton's autobiographical manuscripts.">
@@ -9,15 +10,19 @@
       TODO: override the og: for individual pages (.e.g blog posts will have its own image, desc)
       TODO: Add twitter meta?
     {% endcomment %}
-    <meta property="og:image" content="{{ '/assets/img/logos/alice-thornton-logo-img.jpeg' | url }}">
+    <meta property="og:image" content="{{ live_domain }}{{ '/assets/img/logos/alice-thornton-logo-img.jpeg' | url }}">
     <meta property="og:description" content="This AHRC-funded research project will create an online digital edition of all four of Alice Wandesford Thornton's autobiographical manuscripts.">
     <meta property="og:title" content="{{ title }}">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@thornton_books" />
+
     <link rel="icon" href="{{ '/assets/img/logos/alice-thornton-logo-img.jpeg' | url }}" type="image/x-icon">
     <title>{{ title }} | {{ metadata.title }}</title>
     {% comment %} <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> {% endcomment %}
     {% comment %} generated from assets/css/main.scss {% endcomment %}
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
-    <script src="{{ '/assets/js/navbar-toggle.js' | url }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}?ts={{ "now" | date: "%s" }}">
+    <script src="{{ '/assets/js/navbar-toggle.js' | url }}?ts={{ "now" | date: "%s" }}"></script>
   </head>
   <body class="{{ body_class }}">
     {% include "header.html" %}

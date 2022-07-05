@@ -35,16 +35,16 @@ if [[ $h1 != $h2 ]]; then
     echo "failed: npm run rebuild"
     exit 2
   fi
-  
-  service trafficserver stop && traffic_server -Cclear && service trafficserver start
-  if [[ $? -ne 0 ]]; then
-    echo "failed: trafficserver clear & restart"
-    exit 3
-  fi
+
+  # Commented out as caching shouldn't be an issue with static sites (and disabled anyway)
+  # service trafficserver stop && traffic_server -Cclear && service trafficserver start
+  # if [[ $? -ne 0 ]]; then
+  #   echo "failed: trafficserver clear & restart"
+  #   exit 3
+  # fi
 fi
 
 # update tweets
 su - $GITUSER -c "cd $PROJECT_DIR && npm run tweets -w frontend"
 
 echo "done"
-
