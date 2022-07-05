@@ -34,19 +34,22 @@ body {
     ),
     url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
   background-size: 100vw;
+
+  box-sizing:  border-box;
 }
 
-.block {
-  overflow: auto;
-}
+.content {
+  box-sizing: content-box;
 
-.button-hp {
-  display: block;
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 .read-more-hp {
   display: block;
-  margin-bottom: 3em;
   margin-left: auto;
   margin-right: auto;
   max-width: 300px;
@@ -131,23 +134,15 @@ h3 {
 }
 
 .content {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3,
+  h4, h5, h6 {
     color: $secondary;
     font-family: "Lora", serif;
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3,
+h4, h5, h6 {
   color: $secondary;
   font-family: "Lora", serif;
 
@@ -171,16 +166,19 @@ h6 {
 
 // Index pages with images
 
-.index-page-w-images {
+.index-page-w-images,
+.person-bio {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-gap: 15px;
+  grid-gap: 2em;
   margin-bottom: 1em;
 
   @include mobile {
     grid-template-columns: 100%;
   }
+}
 
+.index-page-w-images {
   img {
     width: 100%;
   }
@@ -213,47 +211,56 @@ footer,
   }
 }
 
-// TODO: improve or delete the workaround.
-// GF: This is a workaround to overcaome the limitations
-// of the markdown image plugin.
-// The plugin duplicates the classes, they are both in the <figure>
-// and <img> elements, so I am unsetting the floating on the <img>
-// and adding it to the <figure>.
-
 figure {
   .media-left,
   .media-right,
   .media-center,
+  // GF 05/07/22
+  // TODO: fragments can be removed after
+  // they are removed from markdown.
+  // `float: unset` needs to remain to override Bulma's default.
   img[src*="#left"],
   img[src*="#right"],
   img[src*="#center"] {
     float: unset;
   }
 
+  .media-left,
+  .media-right {
+    max-width: 30vw;
+  
+    @include mobile {
+      display: block;
+      float: none;
+      margin: 0.5em 0;
+      max-width: 100%;
+    }
+  }
+
   &.media-left {
     float: left;
-    margin: 1em 1em 1em 0 !important;
+    margin: .5em 1em .5em 0 !important;
   }
 
   &.media-right {
     float: right;
-    margin: 1em 0 1em 1em !important;
+    margin: .5em 0 .5em 1em !important;
   }
 
   &.media-center {
-    margin: 1em !important;
+    display: block;
+    margin: 1em auto;
   }
 
   @include mobile {
     &.media-left,
     &.media-right {
+      display: block;
       float: none;
       margin: 1em !important;
     }
   }
 }
-
-// END figure workaround
 
 figcaption {
   font-size: 0.875em;
@@ -265,8 +272,8 @@ figcaption {
 
 [class^="gallery-"] {
   display: grid;
-  grid-template-columns: 100%;
-  grid-gap: 5px;
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
 
   img {
     width: 100% !important;
@@ -279,22 +286,22 @@ figcaption {
 }
 
 .gallery-by-2 {
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
 }
 
 .gallery-by-3 {
   @include tablet {
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 .gallery-by-4 {
   @include tablet {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
   }
 
   @include desktop {
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -314,9 +321,15 @@ figcaption {
 .logos,
 .content .logos,
 [class^="gallery-"] .logos {
+  padding: 50px;
+
   img {
     background: transparent;
-    padding: 50px;
+    max-width: 90%;
+  }
+
+  @include mobile {
+    padding: 10px;
   }
 }
 
@@ -393,33 +406,32 @@ div.content {
   }
 }
 
-img[src*="#right"] {
-  float: right;
-  margin-left: 0.5em;
-}
+// img[src*="#right"] {
+//   float: right;
+//   margin-left: 0.5em;
+// }
 
-img[src*="#left"] {
-  float: left;
-  margin-right: 0.5em;
-}
+// img[src*="#left"] {
+//   float: left;
+//   margin-right: 0.5em;
+// }
 
-img[src*="#center"] {
-  display: block;
-  margin: 0.5em auto;
-}
+// img[src*="#center"] {
+//   display: block;
+//   margin: 0.5em auto;
+// }
 
-img[src*="#left"],
-img[src*="#right"],
-img[src*="#center"] {
-  width: 20vw;
+// img[src*="#left"],
+// img[src*="#right"] {
+//   max-width: 30vw;
 
-  @include mobile {
-    display: block;
-    float: none;
-    margin: 0.5em 0;
-    width: 100%;
-  }
-}
+//   @include mobile {
+//     display: block;
+//     float: none;
+//     margin: 0.5em 0;
+//     width: 100%;
+//   }
+// }
 
 // Social media
 
@@ -430,10 +442,10 @@ ul.social_media_block {
   max-width: 960px;
 
   grid-template-columns: 100%;
-  grid-gap: 1em;
+  grid-gap: 15px;
 
   @include tablet {
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
 
     li {
       margin-top: 0;
