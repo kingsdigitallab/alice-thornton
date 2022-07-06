@@ -231,7 +231,7 @@ footer,
   
   &.media-left,
   &.media-right,
-  &.media-center, {
+  &.media-center {
     float: unset;
     max-width: 30vw;
   }
@@ -341,13 +341,18 @@ figcaption {
 }
 
 .logos,
-.content .logos,
+.logos,
 [class^="gallery-"] .logos {
   padding: 50px;
 
   img {
     background: transparent;
     max-width: 90%;
+
+    @include mobile {
+      margin: 1em auto;
+      max-width: 300px;
+    }
   }
 
   @include mobile {
