@@ -275,6 +275,10 @@ figcaption {
   line-height: 1.5;
   margin: 0 auto;
   max-width: 30vw;
+
+  @include mobile {
+    max-width: 100%;
+  }
 }
 
 // Gallery
