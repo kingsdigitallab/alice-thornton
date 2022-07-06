@@ -56,7 +56,6 @@ body {
     ),
     url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
   background-size: 100vw;
-  box-sizing: border-box;
   font-family: "Noto", sans-serif;
   font-size: 18px;
   font-weight: 450;
@@ -227,29 +226,24 @@ footer,
   }
 }
 
-figure {
-  .media-left,
-  .media-right,
-  .media-center {
+.content figure {
+  box-sizing: border-box;
+  
+  &.media-left,
+  &.media-right,
+  &.media-center, {
     float: unset;
     max-width: 30vw;
-
-    @include mobile {
-      display: block;
-      float: none;
-      margin: 0.5em 0;
-      max-width: 100%;
-    }
   }
 
   &.media-left {
     float: left;
-    margin: 0.5em 1em 0.5em 0 !important;
+    margin: 0.5em 1em 0.5em 0;
   }
 
   &.media-right {
     float: right;
-    margin: 0.5em 0 0.5em 1em !important;
+    margin: 0.5em 0 0.5em 1em;
   }
 
   &.media-center {
@@ -266,6 +260,20 @@ figure {
 
     img {
       width: 100%;
+    }
+  }
+
+  .media-center,
+  .media-left,
+  .media-right,
+  &.media-center,
+  &.media-left,
+  &.media-right {
+    @include mobile {
+      display: block;
+      float: none;
+      margin: 0.5em auto;
+      max-width: 100%;
     }
   }
 }
@@ -414,8 +422,7 @@ figcaption {
 
 div.content {
   img {
-    background: $light;
-    padding: 3px;
+    border: 3px solid $light;
   }
 }
 
@@ -441,6 +448,10 @@ ul.social_media_block {
   figure {
     margin-left: 0;
     margin-bottom: 1em !important;
+  }
+
+  img {
+    border: none;
   }
 }
 
