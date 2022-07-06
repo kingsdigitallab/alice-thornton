@@ -268,21 +268,13 @@ figure {
       width: 100%;
     }
   }
-
-  // @include mobile {
-  //   &.media-left,
-  //   &.media-right {
-  //     display: block;
-  //     float: none;
-  //     margin: 1em !important;
-  //   }
-  // }
 }
 
 figcaption {
   font-size: 0.875em;
+  line-height: 1.5;
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 30vw;
 }
 
 // Gallery
@@ -422,33 +414,6 @@ div.content {
     padding: 3px;
   }
 }
-
-// img[src*="#right"] {
-//   float: right;
-//   margin-left: 0.5em;
-// }
-
-// img[src*="#left"] {
-//   float: left;
-//   margin-right: 0.5em;
-// }
-
-// img[src*="#center"] {
-//   display: block;
-//   margin: 0.5em auto;
-// }
-
-// img[src*="#left"],
-// img[src*="#right"] {
-//   max-width: 30vw;
-
-//   @include mobile {
-//     display: block;
-//     float: none;
-//     margin: 0.5em 0;
-//     width: 100%;
-//   }
-// }
 
 // Social media
 
