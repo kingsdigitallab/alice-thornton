@@ -26,65 +26,6 @@ $dark: #0a0a0a;
 
 @import "../node_modules/bulma/bulma.sass";
 
-body {
-  background: linear-gradient(
-      0.75turn,
-      transparent 60%,
-      rgba(lighten($primary, 70%), 0.5)
-    ),
-    url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
-  background-size: 100vw;
-
-  box-sizing: border-box;
-}
-
-.content {
-  box-sizing: content-box;
-
-  &::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-a.button-hp {
-  display: block;
-  margin-bottom: 1em;
-  text-decoration: none;
-
-  &:hover {
-    background-color: transparent;
-
-    .read-more-hp {
-      background-color: $accent;
-    }
-
-    svg {
-      fill: $accent;
-    }
-  }
-
-  svg {
-    display: block;
-    fill: $primary;
-    margin: 0.25em auto 0;
-    width: 12px;
-  }
-}
-
-.read-more-hp {
-  display: block;
-  margin: 0 auto 0 !important;
-  max-width: 300px;
-  padding: 0.75em 0 0 0;
-  text-decoration: none;
-
-  &:hover {
-    background: $accent;
-  }
-}
-
 // TODO:
 // Customise Bulma's variables rather than override them
 .is-primary {
@@ -108,7 +49,14 @@ a.tag {
 // Shared layout
 
 body {
-  background-color: $white;
+  background: linear-gradient(
+      0.75turn,
+      transparent 60%,
+      rgba(lighten($primary, 70%), 0.5)
+    ),
+    url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
+  background-size: 100vw;
+  box-sizing: border-box;
   font-family: "Noto", sans-serif;
   font-size: 18px;
   font-weight: 450;
@@ -120,6 +68,16 @@ a {
 
   &:hover {
     background-color: lighten($accent, 25%);
+  }
+}
+
+.content {
+  box-sizing: content-box;
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 
@@ -183,6 +141,45 @@ h6 {
   color: $secondary;
 }
 
+// Homepage
+
+a.button-hp {
+  display: block;
+  margin-bottom: 1em;
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent;
+
+    .read-more-hp {
+      background-color: $accent;
+    }
+
+    svg {
+      fill: $accent;
+    }
+  }
+
+  svg {
+    display: block;
+    fill: $primary;
+    margin: 0.25em auto 0;
+    width: 12px;
+  }
+}
+
+.read-more-hp {
+  display: block;
+  margin: 0 auto 0 !important;
+  max-width: 300px;
+  padding: 0.75em 0 0 0;
+  text-decoration: none;
+
+  &:hover {
+    background: $accent;
+  }
+}
+
 // Index pages with images
 
 .index-page-w-images,
@@ -233,19 +230,8 @@ footer,
 figure {
   .media-left,
   .media-right,
-  .media-center,
-  // GF 05/07/22
-  // TODO: fragments can be removed after
-  // they are removed from markdown.
-  // `float: unset` needs to remain to override Bulma's default.
-  img[src*="#left"],
-  img[src*="#right"],
-  img[src*="#center"] {
+  .media-center {
     float: unset;
-  }
-
-  .media-left,
-  .media-right {
     max-width: 30vw;
 
     @include mobile {
@@ -271,14 +257,26 @@ figure {
     margin: 1em auto;
   }
 
-  @include mobile {
-    &.media-left,
-    &.media-right {
-      display: block;
-      float: none;
-      margin: 1em !important;
+  &.media-full {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 1em 0;
+    width: 100%;
+
+    img {
+      width: 100%;
     }
   }
+
+  // @include mobile {
+  //   &.media-left,
+  //   &.media-right {
+  //     display: block;
+  //     float: none;
+  //     margin: 1em !important;
+  //   }
+  // }
 }
 
 figcaption {
