@@ -11,6 +11,7 @@ The web site is developed using a Static Site Generator called [11ty](https://ww
 Site deployment:
 
 - [The live site](thornton.kdl.kcl.ac.uk) is generated from the `main` branch every 10 minutes. Researchers can edit the markdown content of the site directly on this branch.
-- [The staging site](thornton-stg.kdl.kcl.ac.uk) is generated from the `develop` branch every 10 minutes. This branch and site are used by the KDL
-  team to test and demonstrate new development before publishing them to the
-  live site.
+- [The staging site](thornton-stg.kdl.kcl.ac.uk) is generated from the `release` branch every 10 minutes.
+  This branch and site are used by the KDL team to test and demonstrate new features and fixes before publishing them to `main` branch.
+- [The development site](thornton-dev.kdl.kcl.ac.uk) is generated from the `develop` branch every 30 minutes.
+  This branch and site are used by the KDL team to experiment with new, unstable features.
