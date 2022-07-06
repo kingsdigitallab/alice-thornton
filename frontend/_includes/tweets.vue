@@ -4,7 +4,7 @@
   <li v-for="tweet in get_tweets(3)" class="tweet">
     <!-- If retweet -->
     <p class="retweet" v-if="tweet.retweet">
-      <a href="//twitter.com/">@{{ tweet.retweet.user.screen_name }}</a> retweeted
+      <a :href="'//twitter.com/'+tweet.retweet.user.screen_name">@{{ tweet.retweet.user.screen_name }}</a> retweeted
     </p>
     <article>
       <div class="twitter_user">
