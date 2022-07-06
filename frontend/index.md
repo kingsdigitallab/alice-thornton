@@ -46,11 +46,11 @@ After her father’s death, and prompted by the turmoil of the Irish Rebellion, 
 
 When her oldest brother, George, drowned in the river Swale in 1651 – which Alice claimed to have foretold in a dream six months earlier – she reluctantly agreed to marry. Her family settled on William Thornton (1624-1668), a member of the lesser gentry in Ryedale, whose parliamentarian family connections could potentially help the Wandesfords recover their lands.
 
-![A 15th-century stone manor house]({{ "/assets/img/home/Hipswell-Hall-st.jpg" | url }} "Hipswell Hall, where Alice lived with her mother <br> &copy; Suzanne Trill"){.media-center}
+![A 15th-century stone manor house]({{ "/assets/img/home/Hipswell-Hall-st.jpg" | url }} "Hipswell Hall, where Alice lived with her mother <br> &copy; Suzanne Trill"){.media-left}
 
 Alice and William were married for seventeen years and during that time she gave birth to nine children. In her manuscripts, Alice vividly described the dangers of childbirth and poignantly recorded the deaths of six of her infant children. She charted the development of those who survived - Alice (Nally), Katherine and Robert - and continually thanked God for their miraculous deliverances from illnesses and accidents. Family finances were frequently precarious and William died in 1668 without a will and much in debt.
 
-![Memorial plaque with coat of arms for William Thornton Esquire]({{ "/assets/img/home/william-thornton-memorial-cb.jpg#right" | url }} "Memorial for William, commissioned by Alice <br> &copy; Cordelia Beattie"){.media-right}
+![Memorial plaque with coat of arms for William Thornton Esquire]({{ "/assets/img/home/william-thornton-memorial-cb.jpg" | url }} "Memorial for William, commissioned by Alice <br> &copy; Cordelia Beattie"){.media-right}
 
 Alice then spent her widowed years dealing with the ramifications of this while trying to raise her three children. The oldest, Nally, was married to the local minister, Thomas Comber, not long after William’s death. Alice herself had already been the subject of gossip about her close relationship to Thomas and this sudden marriage - when Nally was just fourteen - caused further scandal. Katherine married in 1682 and Robert was intended for a career in the church but he died in 1692.
 
