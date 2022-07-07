@@ -4,7 +4,7 @@ eleventyNavigation:
 order: 5
 ---
 
-This statement capplies to the Alice Thornton's Books site (https://thornton.kdl.kcl.ac.uk/).
+This statement applies to the Alice Thornton's Books site (https://thornton.kdl.kcl.ac.uk/).
 
 This website is run by [King's Digital Lab, King's College London (KDL)](https://kdl.kcl.ac.uk) in collaboration with the [University of Edinburgh](https://www.ed.ac.uk/). We want as many people as possible to be able to use this website. For example, that means you should be able to:
 
