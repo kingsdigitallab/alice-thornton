@@ -8,10 +8,8 @@ This statement applies to the Alice Thornton's Books site (https://thornton.kdl.
 
 This website is run by [King's Digital Lab, King's College London (KDL)](https://kdl.kcl.ac.uk) in collaboration with the [University of Edinburgh](https://www.ed.ac.uk/). We want as many people as possible to be able to use this website. For example, that means you should be able to:
 
-- change colours, contrast levels and fonts
 - zoom in up to 300% without the text spilling off the screen
 - navigate most of the website using just a keyboard
-- navigate most of the website using speech recognition software
 - listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
 
 We’ve also made the website text as simple as possible to understand.
@@ -40,7 +38,7 @@ In particular we plan to fix the images issue by the end of October 2022.
 
 ## Preparation of this accessibility statement
 
-This statement was prepared on 7 July 2022. It was last reviewed on 7 July 2022.
+This statement was prepared on 7 July 2022. It was last reviewed on 8 July 2022.
 
 This website was last tested on 7 July 2022. The test was carried out by KDL.
 
