@@ -1,0 +1,52 @@
+<ul class="social_media_block" id="app">
+  <!-- For the last 3 tweets output this -->
+  {% raw %}
+  <li v-for="tweet in get_tweets(3)" class="tweet">
+    <!-- If retweet -->
+    <p class="retweet" v-if="tweet.retweet">
+      <a href="//twitter.com/">@{{ tweet.retweet.user.screen_name }}</a> retweeted
+    </p>
+    <article>
+      <div class="twitter_user">
+        <figure>
+          <p class="image is-32x32">
+            <img
+              :src="tweet.user.profile_image_url_https"
+              :alt="tweet.user.name"
+            />
+          </p>
+        </figure>
+        <p>
+          <strong>{{ tweet.user.name }}</strong> <small>@{{ tweet.user.screen_name }}</small> - <small><a :href="get_url(tweet)">{{ get_time_ago(tweet) }}</a></small>
+        </p>
+      </div>
+      <p v-html="get_html(tweet)">
+      </p>
+      <a v-if="get_thumb_url(tweet)" :href="get_url(tweet)"><img :src="get_thumb_url(tweet)"></a>
+      <nav class="level is-mobile">
+        <div class="level-left">
+          <a class="level-item" :href="get_reply_url(tweet)">
+            <span class="icon is-small">
+              {% endraw %}{% include "../assets/img/icons/font-awesome/reply.svg" %}{% raw %}
+            </span>
+          </a>
+          <a class="level-item" :href="get_retweet_url(tweet)">
+            <span class="icon is-small">
+              {% endraw %}{% include "../assets/img/icons/font-awesome/retweet-alt.svg" %}{% raw %}
+            </span>
+          </a>
+          <a class="level-item" :href="get_like_url(tweet)">
+            <span class="icon is-small">
+              {% endraw %}{% include "../assets/img/icons/font-awesome/heart.svg" %}{% raw %}
+            </span>
+          </a>
+        </div>
+      </nav>
+    </article>
+  </li>
+  {% endraw %}
+</ul>
+
+<script src="https://unpkg.com/vue@3"></script>
+<script src="/assets/node_modules/timeago.js/dist/timeago.min.js"></script>
+<script src="/assets/js/tweets.js"></script>
