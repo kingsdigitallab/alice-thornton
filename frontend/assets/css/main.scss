@@ -46,6 +46,10 @@ $link: #0b4d99;
 
 a {
   color: $link;
+
+  &:focus {
+    border: 1px solid $accent;
+  }
 }
 
 a.tag {
