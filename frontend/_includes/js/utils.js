@@ -95,7 +95,7 @@ function configureMarkdown(config) {
     .use(markdownItFootnote)
     .use(markdownItImageFigures, {
       figcaption: true,
-      copyAttrs: true,
+      copyAttrs: "class",
     });
   config.setLibrary("md", markdownLib);
 }
