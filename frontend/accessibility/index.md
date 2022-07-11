@@ -22,7 +22,7 @@ We know some part of this website are not fully accessible:
 
 ## Reporting accessibility problems with this website
 
-[TODO]
+Please email Jo.Edge@ed.ac.uk with details of the problems.
 
 ## Compliance status
 
@@ -30,7 +30,7 @@ This website is partially compliant with the Web Content Accessibility Guideline
 
 ## What we’re doing to improve accessibility
 
-KDL looking at fixes and alternatives to the issues listed in the "<a href="#how">How accessible this website is</a>" is section.
+KDL looking at fixes and alternatives to the issues listed in the "<a href="#how">How accessible this website is</a>" section.
 In particular we plan to fix the images issue by the end of October 2022.
 
 ## Preparation of this accessibility statement
@@ -39,7 +39,7 @@ This statement was prepared on 7 July 2022. It was **last reviewed on 11 July 20
 
 This website was last tested on 7 July 2022. The test was carried out by KDL.
 
-We used this approach to deciding on a sample of pages to test:
+We used this approach to decide on a sample of pages to test:
 
 - The <a href="/">Homepage</a>
 - The <a href="/books/">Books</a> page
