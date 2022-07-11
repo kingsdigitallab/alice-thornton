@@ -1,7 +1,5 @@
 ---
 title: Accessibility Statement for Alice Thornton's Books
-eleventyNavigation:
-order: 5
 ---
 
 This statement applies to the Alice Thornton's Books site (https://thornton.kdl.kcl.ac.uk/).
@@ -21,7 +19,6 @@ We’ve also made the website text as simple as possible to understand.
 We know some part of this website are not fully accessible:
 
 - Dynamic content is handled with [VueJS](https://vuejs.org/) and we are aware that the rendered HTML includes custom tags that don't pass the [W3 Validator](https://validator.w3.org/). This may interfere with assistive technologies. We are still in the process of assessing the site and plan to ensure all important content, if not all, is accessible.
-- Images are currently converted with a markdown plugin, [markdown-it-image-figures](https://www.npmjs.com/package/markdown-it-image-figures), which at the moment adds invalid `alt`and `src` attributes to the figure elements.
 
 ## Reporting accessibility problems with this website
 
