@@ -35,7 +35,7 @@ In particular we plan to fix the images issue by the end of October 2022.
 
 ## Preparation of this accessibility statement
 
-This statement was prepared on 7 July 2022. It was last reviewed on 8 July 2022.
+This statement was prepared on 7 July 2022. It was **last reviewed on 11 July 2022**.
 
 This website was last tested on 7 July 2022. The test was carried out by KDL.
 
@@ -46,3 +46,5 @@ We used this approach to deciding on a sample of pages to test:
 - The <a href="/about/">About</a> page
 - The <a href="/posts/">Blog &amp; News</a> page
 - The <a href="/credits/">Credits &amp; Acknowledgements</a> page
+
+This page is based on the [sample template](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website) provided by gov.uk.
