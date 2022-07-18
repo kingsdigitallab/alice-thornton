@@ -47,9 +47,9 @@
          #JulianMar date=1 Jan-24 Mar and year starts 25 March
          #JulianSic (rare) only used where date =1 Jan-24 Mar and we don't know which of the two possible years it is
          
-         **JulianJan is treated as default so not explicitly encoded (at the moment)**
-         **similarly, assumption that @calendar and @datingMethod are always the same so only @datingMethod is explicitly encoded (atm)** 
-         **will use @-custom attributes with -iso style formatting)
+         ** JulianJan is treated as default so not explicitly encoded (at the moment)**
+         ** similarly, assumption is that @calendar and @datingMethod are always the same so only @datingMethod is explicitly encoded (atm)** 
+         ** use @-custom attributes with -iso style formatting
          NB year-only dates are assumed #JulianJan unless clear reason to do otherwise
          
          <calendar> will need proper description later
@@ -78,7 +78,7 @@
          
          ENCODING NOTES
          
-         <pb> @n and Page \d+ in comments = Transcriber page numbers 
+         <pb> @n and Page \d+ in comments = Transcriber page numbers (latter may be removed once i've finished tagging, but are convenient for quick finding)
          (fw=pageNum are Alice's written numbers; not on every page in this book)
          
      xml comment keywords:
@@ -90,7 +90,7 @@
          
          [tags] for some indication of what it's about
          [endnote] moved from Word endnotes into comment
-
+         <note> @place=end are Word endnotes; some may be retained as editorial notes but many are likely to be internal comemnts for the project only, which will either be deleted or moved into xml comments
 
        -->
        <!--  LINKAGE ?
@@ -150,7 +150,7 @@
       </revisionDesc>
    </teiHeader>
    <text>
-      <body>
+     <front>
          
         <pb n="1"/>
 
@@ -161,17 +161,14 @@
                <p>
               Info. in BL catalogue says this is original pagination, although it departs from Thornton’s practice in the earlier volumes. and generally only notes odd pages. Where Thornton doesn’t include a page number the inserted number is indicated by square brackets throughout this volume.</p>
             </note>
+        
       <div>
-         <head style="text-align: right;">
+         <head place="right" rend="post(rule_double)">
            A Prayer of the, Widdow; to the God of Mercy<lb/> 
            &amp; Love. for his holy Spirritt, to support.<lb/>
            &amp;, direct her selfe, &amp; Family.
-         </head>
-         <p> --------------------------------------------------------------<note place="end">
-               <p>
-              Double lines, joined at the sides to form a thin rectangle across the writing page. NB. as in other books, T leaves a margin on the left-hand side of the page.</p>
-            </note>
-         </p>
+           <!-- NOTE [endnote] Double lines, *joined at the sides to form a thin rectangle across the writing page* [this is unusual]. NB. as in other books, T leaves a margin on the left-hand side of the page.-->
+         </head>        
          <l>
             O <hi rend="strikethrough background(lightGray)">thou, who art our</hi>
             <note place="end">
@@ -284,6 +281,7 @@
          <p>
             <hi rend="bold">[Pages 3-4 Blank]</hi>
          </p>
+         </div>
         
              <pb n="5"/>
 
@@ -291,12 +289,14 @@
 
          
             <fw type="pageNum">5</fw>
-         
-         <fw type="header">
+        
+        <div>
+         <head>
         Jeremiah Chapter 10<hi rend="superscript">th</hi>
             verces 23<hi rend="superscript">th</hi>
             24<hi rend="superscript">th</hi>
-         </fw>
+         </head>
+          
          <p>O Lord, I know that the way of man is not in himselfe:<lb/>
           @@23.@@ , it is not in man that walketh to direct his steps.</p>
          <p>@@24.@@ O Lord, correct me, but with judgement; not in thy<lb/>
@@ -375,25 +375,29 @@
          </p>
         
         </div>
-        
+     </front>
+     
          <pb n="19"/>
         
 <!-- Page 19. -->
         
         <!-- [endnote] Wide left-hand margin and visible ruling.-->
+     
+     <body>       
             
          
             <fw type="pageNum">19</fw>
         
        <div>
-         <head>
-           An account of memorable Affaires, and <lb/>
+         <head rend="post(rule_double)">
+        An account of memorable Affaires, and <lb/>
         Accidents, on my selfe, &amp; Family; &amp; Children.<lb/>
         with Deliverances, and Meditations thereon <lb/>
-        Since my Widdowed condition Since Sept. 17th 
+        Since my Widdowed condition Since Sept. 17th <lb/>
+           <hi style="text-align:center;">1668</hi>
+           <!-- Q [decoration] "1668" is set in top of the two ruled lines which is cut away. this has happened in other books and not yet decided quite how to handle it. -->
          </head>
-         <p>---------------------1668 -----------------------------</p>
-         <p>---------------------------------------------------------</p>
+
          <table rend="rules">
             <row>
                <cell>Psal.19:<lb/>
@@ -421,7 +425,7 @@
                <cell>12.</cell>
                <cell>
                   <seg xml:space="preserve">    </seg>Who can tell how oft he offendeth; O clence me from<lb/>
-              my secrett faults and keepe thy handmaide from Presu-<lb/>
+              my secrett faults and keepe thy handmaide from Presu-<lb break="no"/>
                </cell>
             </row>
          </table>
@@ -430,7 +434,7 @@
                <cell>13.</cell>
                <cell>-mptuous sins, least they get the dominion over me;<note place="end">
                      <p>
-                  NB. I checked the reference here because I wasn’t sure whether it was ye/yr – in the process I’ve realized that here, at least, Thornton is using the translation of the psalms as they appear in the Book of Common Prayer (i.e., not the KJV).</p>
+                  NB. I checked the reference here because I wasn’t sure whether it was ye or yr – in the process I’ve realized that here, at least, Thornton is using the translation of the psalms as they appear in the Book of Common Prayer (i.e., not the KJV).</p>
                   </note> so<lb/>
               shall I be kept undefiled still, &amp; innocent by thy grace<lb/>
               from all those great offences, which destroyes soe many<lb/>
@@ -490,7 +494,7 @@
           frailty I doe, or the temptation of Satan. the world or the flesh<lb/>
           Oh do thou redeeme againe, &amp; restore me to the Life of grace.</p>
          <p rend="first-line-indent">
-              suffer me not to be weary, or faint in this my weary Pilgri-<lb/>
+              suffer me not to be weary, or faint in this my weary Pilgri-<lb break="no"/>
           -mage, But Sanctifie thy word. Thy Rod, Thy holy Spiritt<lb/>
           unto me thy poore widdow &amp; servant.</p>
          <p rend="first-line-indent">
@@ -531,14 +535,13 @@
             <fw type="pageNum"> 21 </fw>
         
         <div>  
-         <head>A Relation of memorable actions, and Afflictions <lb/>
+         <head rend="post(rule_pattern)">
+           A Relation of memorable actions, and Afflictions <lb/>
         befalln to me in the first yeare of my Widdowed <lb/>
-        condittion since Sept. 17 1668.</head>
-         <p>----------------------------------------------------------------<note place="end">
-               <p>
-              Patterned division.</p>
-            </note>
-         </p>
+        condittion since Sept. 17 1668.
+              <!-- NOTE [endnote] Patterned division.-->
+         </head>
+         
          <p>I haveing now passed through the two stages of my life <lb/>
         of my virgin; estate; and that of the honrable Estate <lb/>
          of Marriage, as St. Paull tearmes it, (tho with much troubles <lb/>
@@ -579,7 +582,7 @@
          </table>
          <p>Persons; Posterity. &amp; Estate, which made injoyments bitter to us. <lb/>
          yett while we injoyed each others, love &amp; (indered candid love,) <lb/>
-        @so@ intirely to each other, with the benifitt of Christian; Pietie, &amp; Religeon. <lb/>
+        <add place="left margin">so</add> intirely to each other, with the benifitt of Christian; Pietie, &amp; Religeon. <lb/>
         It did sweeten, our temporall troubles, to us, &amp; made us valw<note place="end">
                <p>
               I.e., value.</p>
@@ -709,7 +712,7 @@
          <p> Children in thy holy faith &amp; feare. all thy stormes has gon over me &amp; I am<lb/>
         desolate &amp; forlorne with out comfort in this world. only in <hi rend="superscript">^thee^</hi> O God have I hop</p>
          <p> Grant that my soule may not faint or dispaire. for I am feeble &amp;<lb/>
-        sore smitten. O help me now O my gracious God, who has so offten de-<lb/>
+        sore smitten. O help me now O my gracious God, who has so offten de-<lb break="no"/>
         liverd me out <hi rend="superscript">^of^</hi> many deaths &amp; brought me to be a widdow, &amp; so in a<lb/>
         more peculiar property to be releived. for thou art the father of the fatherles<lb/>
         &amp; husband to the widdow. A freind to the freindless. Orphant, &amp; stranger<lb/>
@@ -741,7 +744,10 @@
           Fatherless, widdow; freindless; findeth mercys. o my God my<lb/>
           guide my staffe, my stay, &amp; my Redeemer, heare my Cry &amp; prayer<lb/>
           so will I bless. &amp; Praise &amp; glorify thy name for Ever. Amen.</p>
-         <p> -----------------------------------------------------------------------------------------</p>
+          </div>
+        
+      <div rend="pre(rule)">
+         
          <table rend="rules">
             <row>
                <cell>My Age at<lb/>
@@ -785,7 +791,7 @@
           injoyed still the comfort of my deare husbands life &amp; health<lb/>
           , but, I was not worthy of soe great a mercy; he beeing preprd <lb/>
           for a better place; to injoy his God in Glory: when he laid down his this <lb/>
-          Body: Or can I sufficiently bless my God. who gave him to me &amp; con- <lb/>
+          Body: Or can I sufficiently bless my God. who gave him to me &amp; con-<lb break="no"/>
           -tinued him; soe long in this mortall Life; to be an Example to <lb/>
           this world of his great vertues: And pray that his Posterity may <lb/>
           follow the same./
@@ -1026,7 +1032,7 @@
 
          
          <p>Besides he knew the feares I had uppon me all along since <lb/>
-          he fell downe into his fitt of Palsie. &amp; my owne great apprehensi-<lb/>
+          he fell downe into his fitt of Palsie. &amp; my owne great apprehensi-<lb break="no"/>
           -on of his death, to fall sudainly. ass allso My owne great illnes <lb/>
           and many weakness on my selfe; uppon every such fitt. did pres <lb/>
           much uppon my speritt least we both should be snatched from <lb/>
@@ -1189,7 +1195,10 @@
           me &amp; givn himselfe for me; That, I and the Children thou has<lb/>
           givn me, may be a generation saied by the Lord to Glorify thy<lb/>
           great name in this Life. &amp; in the world to Come: Amen.</p>
-         <p>-------------------------------------------------------------------------------------</p>
+        </div>
+        
+      <div rend="pre(rule)"> 
+        
          <table rend="rules">
             <row>
                <cell>An Account<lb/>
@@ -1247,7 +1256,7 @@
           of the Word of God, by Lawfull ministerey ordeined by the<lb/>
           Episcopall ordenation. of our Church: but was compelld<lb/>
           to heare non, but those of the Presbiterian; or other discenting<lb/>
-          Parties; which was noe smale greife to me, while I was att Oswold<lb/>
+          Parties; which was noe smale greife to me, while I was att Oswold<lb break="no"/>
           -kirke. Till by providence, After I came to newton. I gott the<lb/>
           happy assistance of Dr Sammoise<note place="end">
                <p>
@@ -1262,10 +1271,10 @@
                <cell>come and Consecrate (as it were) my house.</cell>
             </row>
             <row>
-               <cell>first Sacra-<lb/>
+               <cell>first Sacra-<lb break="no"/>
               -ment att<lb/>
               my house<lb/>
-              at Easte-<lb/>
+              at Easte-<lb break="no"/>
               newton.<lb/>
               August.<lb/>
                   <hi rend="underline">1662</hi>
@@ -1355,7 +1364,7 @@
          <table rend="rules">
             <row>
                <cell>The Rebellion<lb/>
-            of the Long Parla-<lb/>
+            of the Long Parla-<lb break="no"/>
             -ment, against<lb/>
               King Charles<lb/>
                   <hi rend="underline">the first 1640</hi>
@@ -1378,7 +1387,8 @@
 
          
             <fw type="pageNum">30</fw>
-         
+        <lb/>
+         <!-- TODO not a new p here, but have to fix margin stuff on preceding page first -->
          <p>Was Ruined and undon; For there Loyallty to the King<lb/>
           and, Zeale for the Church of England in which number was <lb/>
           my deare &amp; Eldest brother George Wandesford, Esquire.</p>
@@ -1497,7 +1507,7 @@
               yorke as A place called Ten miles Hill. from Kirklington.</cell>
             </row>
             <row>
-               <cell>&amp; my owne de-<lb/>
+               <cell>&amp; my owne de-<lb break="no"/>
               liverance, &amp; B.<lb/>
               John from the<lb/>
               Bataile on the moor<lb/>
@@ -1651,7 +1661,8 @@
 
          
             <fw type="pageNum">33</fw>
-         
+         <lb/>
+           
          Sperritt, with his hands, &amp; Eyes erricted, up to heaven, he was ready<lb/>
          </p>
          <table rend="rules">
@@ -1734,7 +1745,7 @@
             <row>
                <cell>
                   <hi rend="underline">-------------</hi><lb/>
-                  Kirkling-<lb/>
+                  Kirkling-<lb break="no"/>
               ton Living<lb/>
               belong to my<lb/>
               Father Family<lb/>
@@ -1813,7 +1824,7 @@
           she begged that favour of his Excelency. to grant that Request to her<lb/>
           That the minister they had chosen. might be permited to injoy<lb/>
           the same accordingly.</p>
-         <p> But instead of granting, her Pettition, gave her a flatt de-<lb/>
+         <p> But instead of granting, her Pettition, gave her a flatt de-<lb break="no"/>
           deniall,<note place="end">
                <p>
               Sic.</p>
@@ -1851,6 +1862,7 @@
 
          
             <fw type="pageNum">35</fw>
+        <lb/>
          
          <table rend="rules">
             <row>
@@ -2068,14 +2080,11 @@
             </row>
          </table>
          <p>Branch, which Profitable prospect, to injoy this poore Gentlemans Estat<lb/>
-          was an undeniable argument to prevaile for the guift of this 
-          @Living@ 
-               <!--left margin, beginning of next line--><note place="end">
-               <p>
-              NB. Although placed in the margin, this insertion should be placed between ‘this’ and ‘to’.</p>
-            </note>
-            <lb/>
-        to Nesbitt by the Parliament, who gained soe well by his in-<lb/>
+          was an undeniable argument to prevaile for the guift of this <lb/>
+               
+             <!-- NOTE "Liveing" is actually aligned about half way between the preceding line and "to Nesbitt...". maybe check? but doesn't seem significant and would be difficult to reproduce. Although it may imply the word was inserted *later than* the following marginal note ("A false sequestration...") - the ruled line above that is what forces the insertion slightly upwards.
+               [endnote] NB. Although placed in the margin, this insertion should be placed between ‘this’ and ‘to’.-->
+       <add place="left margin">Living</add> to Nesbitt by the Parliament, who gained soe well by his in-<lb break="no"/>
          </p>
          <table rend="rules">
             <row>
@@ -2212,7 +2221,7 @@
               Education.</cell>
                <cell>
                   <seg xml:space="preserve">         </seg>staied there, &amp; improved himselfe in all Learning. &amp; qualityes<lb/>
-              was sutable to his birth &amp; Family:) att Length was compelled to re-<lb/>
+              was sutable to his birth &amp; Family:) att Length was compelled to re-<lb break="no"/>
               turne into England, in the heate of the warres; &amp; could stay noe<lb/>
               longer in France, nor Mr Anderson; his Tuetor, for the want of <lb/>
               his maintenance; which could not be gott out of the Estate in Eng{land}<lb/>
@@ -2259,7 +2268,7 @@
 
          
             <fw type="pageNum">39</fw>
-         
+         <lb/>
          
         Prove, him an, Enimy; to the Parliament beeing actually in<lb/>
          </p>
@@ -2769,7 +2778,7 @@
          <table rend="rules">
             <row>
                <cell>Neare dispaire<lb/>
-            wanting A spirit-<lb/>
+            wanting A spirit-<lb break="no"/>
             uall guide or<lb/>
               Comfort-------<lb/>
                </cell>
@@ -2857,7 +2866,7 @@
           Change; in the Kingdom; from Tyrrany, oppresion, &amp; Annarchiy</p>
          <p> (my beeing with child, then, my deare Aunt norton tould<lb/>
           Mr Thornton, &amp; my selfe, That if I had a Son he would bring his<lb/>
-          name with him, into the world, &amp; should be called Charles. but my Husb<lb/>
+          name with him, into the world, &amp; should be called Charles. but my Husb<lb break="no"/>
           -band answred againe that it should not, affter which being in Privat<lb/>
           with him, I desired to know what was the reason, he would not have<lb/>
           him called Charles, if I had a Son: he presently answred if I would<lb/>
@@ -2900,7 +2909,7 @@
                   <seg xml:space="preserve">          </seg>In my distrese; therefore I made applycation to my Cozen Mr Leadgard<lb/>
               who understood the Law; to read the Deeds of Settlement, who did assure<lb/>
               me, That Mr Thornton, had that Power, left him to cutt of the Intal<lb/>
-              of the Estate, &amp; settle it uppon any woman &amp; her Children, &amp; to dis-<lb/>
+              of the Estate, &amp; settle it uppon any woman &amp; her Children, &amp; to dis-<lb break="no"/>
               inheritt mine, affter my death. uppon which I desired his favor to speak<lb/>
               to Mr Thornton: To doe some thing, to assertaine A Portion Equivolent<lb/>
                </cell>
@@ -3096,6 +3105,7 @@
 
          
             <fw type="pageNum">47</fw>
+           <lb/>
          
          Call me to. come unto, thee for Redemption. from sin &amp; missery<lb/>
           o Lett my soule, be saved, &amp; clothed with thy Righteousness, holy.<lb/>
@@ -3121,7 +3131,7 @@
             <row>
                <cell>confessions of Sin<lb/>
               &amp; faith to beleiv<lb/>
-              in him for salva-<lb/>
+              in him for salva-<lb break="no"/>
                   <hi rend="underline">tion</hi> Amen.<lb/>
               -----------------</cell>
                <cell>
@@ -3192,7 +3202,7 @@
               seekes about whom he may devour; &amp; as he tenpted<note place="end">
                      <p>
                   Sic for tempted.</p>
-                  </note> our deare Sa-<lb/>
+                  </note> our deare Sa-<lb break="no"/>
               viour in the willderness Soe had he tempted me, his poore Serva<hi rend="superscript">^nt^</hi><lb/>
                   to forsake his mercy, Till the time came for my delivrance which by<lb/>
               the mighty power, of his holy Spirit at this time, he most grati<lb/>
@@ -3247,6 +3257,7 @@
 
          
             <fw type="pageNum">49</fw>
+           <lb/>
          
          Satan rejoice; that he has over come any of thy flocke redeemed<lb/>
           with thy Precious Blood but keepe for ever &amp; lead me out of the<lb/>
@@ -3262,7 +3273,7 @@
             <row>
                <cell>A speedy cure<lb/>
               and returne to<lb/>
-              my Life &amp; stren-<lb/>
+              my Life &amp; stren-<lb break="no"/>
               gth againe of<lb/>
               Body, as well as<lb/>
               Comfort to my<lb/>
@@ -3346,7 +3357,7 @@
                   <seg xml:space="preserve">         </seg>But not according to a firme Intaile uppon them as it was<lb/>
               designed by the Articles of my marriage; but still the Power was<lb/>
               Reserved in Mr Thornton to Place Laistrop on his Heires Male by<lb/>
-              a second wife: And provide for her Children, &amp; soe thereby to disin-<lb/>
+              a second wife: And provide for her Children, &amp; soe thereby to disin-<lb break="no"/>
               -heritt my Children of theire birth right and Inheritance which<lb/>
               Almighty God had given them:<note place="end">
                      <p>
@@ -3427,6 +3438,7 @@
 
          
             <fw type="pageNum">51</fw>
+           <lb/>
          
          
         By her last Will and Testament had given to me, to dispose<lb/>
@@ -3480,7 +3492,7 @@
             <row>
                <cell>But I would<lb/>
               not signe itt, when<lb/>
-              I read the falls-<lb/>
+              I read the falls-<lb break="no"/>
               hood to my chil<lb/>
               contrary to my d.<lb/>
               mot. &amp; my owne<lb/>
@@ -3596,7 +3608,7 @@
                </cell>
                <cell>
                   <seg xml:space="preserve">         </seg>This Settlements &amp; all of these Consernes of the right fixing<lb/>
-              the Estate, uppon my poore Children has Cost me very many Sorro<lb/>
+              the Estate, uppon my poore Children has Cost me very many Sorro<lb break="no"/>
               -wes, &amp; many somes of monney for Charges, uppon this Conserne<lb/>
               to gett this poore Estate fixed, for my Issue, besides much greife that<lb/>
               befell me on such occasions, of Allterations, &amp; cutting, of Intailes</cell>
@@ -3727,7 +3739,7 @@
          <table rend="rules">
             <row>
                <cell>Mr Bests motion<lb/>
-              that I might con-<lb/>
+              that I might con-<lb break="no"/>
                </cell>
                <cell>not grant That his uncle should have one or two of the closes in Lastr<lb/>
               to be made liable to secure a little debt he owed to Sir Henry Chonly<note place="end">
@@ -3804,7 +3816,7 @@
             ------------------</cell>
                <cell>
                   <seg xml:space="preserve">           </seg>He haveing read that Deed over; pretended That his uncle<lb/>
-              had power to destroy it; on pretence of (a flaw he found) of a contin-<lb/>
+              had power to destroy it; on pretence of (a flaw he found) of a contin-<lb break="no"/>
               -gency) to fall out, in case of my decease. to provide for my 2 Daughters<lb/>
               to have a Portion. &amp; Education fixed, being the Essentiall p{ar}t of that<lb/>
               Deed. which when he had don, said his uncle had full power to de<lb/>
@@ -3820,10 +3832,10 @@
           don it to betray me &amp; my Children; he answred that he was sure<lb/>
           Mr Colvill did not know of it, for it was a new thing found out<lb/>
           in Law he had not bin acquainted with. Soe I begged him as A<lb/>
-          freind, &amp; had advised with him in my Childerens behalfe not to dis-<lb/>
+          freind, &amp; had advised with him in my Childerens behalfe not to dis-<lb break="no"/>
           cover it to Mr Thornton; for feare of the ill effect might follow</p>
          <p> And with all I had parted with all my Portion of 1000<hi rend="superscript">l</hi> from<lb/>
-          my selfe &amp; to sell the Land att Burne Parke to have this made-<lb/>
+          my selfe &amp; to sell the Land att Burne Parke to have this made-<lb break="no"/>
           sure for my 2 daughters, &amp; if this was undon; it would Ruine<lb/>
           them, &amp; me too; Uppon which he faithfully Promised me he would<lb/>
           never acquaint Mr Thornton with his Power, &amp; bid me keepe that Deed<lb/>
@@ -3874,7 +3886,7 @@
               of the L. But the main<lb/>
                </cell>
                <cell>
-                  <seg xml:space="preserve">          </seg>Thus was I poore innocent creature most bace<lb/>
+                  <seg xml:space="preserve">          </seg>Thus was I poore innocent creature most bace<lb break="no"/>
               -ly betrayed by a fallse freind, in betraing his trust to me)<lb/>
               to the utter destruction of my selfe &amp; poore Children who by<lb/>
               this had noe thing in the world left them to provide for<lb/>
@@ -3976,7 +3988,7 @@
                <cell>was much<lb/>
                consernd to<lb/>
             find soe<lb/>
-              great allte<lb/>
+              great allte<lb break="no"/>
               -erations to<lb/>
             my Chil.<hi rend="superscript">^s^</hi>
                   loss
@@ -3985,7 +3997,7 @@
                   <seg xml:space="preserve">           </seg>Affter which beeing troubled that I should put them uppon soe<lb/>
               unpleasant a bussiness, yett staied an houer &amp; till my B.D.<lb/>
               brought it to me, But uppon the Reading of that Deed, I fell<lb/>
-              very ill, uppon the Consideration of the vast difference and all-<lb/>
+              very ill, uppon the Consideration of the vast difference and all-<lb break="no"/>
               teration betwixt the two Deeds, nor could I be satisfied till I had<lb/>
                </cell>
             </row>
@@ -4364,7 +4376,7 @@
          </table>
          <p>finish that worke which thou has apoynted in my generation.</p>
          <p rend="first-line-indent">
-              Then will I sett forth the praise of the Lord for ever &amp; will mag-<lb/>
+              Then will I sett forth the praise of the Lord for ever &amp; will mag-<lb break="no"/>
           -nify thy holy name, to all generations. Come Lord Jesus and heale<lb/>
           thy weake handmaide as thou did doe to this poore woman<lb/>
           for I beleive, thou art full of compassion, to those that trust in thee<lb/>
@@ -4508,7 +4520,7 @@
               the disposall of<lb/>
                      <hi rend="underline">my Eldest.</hi>
                   </p>
-                  <p>The induc-<lb/>
+                  <p>The induc-<lb break="no"/>
                   </p>
                </cell>
                <cell>
@@ -4520,7 +4532,7 @@
               Loyall Education, &amp; Zeale for it.</cell>
             </row>
             <row>
-               <cell>-ment to dis<lb/>
+               <cell>-ment to dis<lb break="no"/>
             -pose of my<lb/>
               Daughter<lb/>
             Alice. soe <lb/>
@@ -4551,6 +4563,7 @@
 
          
             <fw type="pageNum">61</fw>
+           <lb/>
          
          (First Booke of my Life expressed, in her birth, &amp; delivrances more at<lb/>
           large) how deare she was to me:, Soe the Lord would contineue his most<lb/>
@@ -4565,7 +4578,7 @@
          <table rend="rules">
             <row>
                <cell>My humble &amp; high <lb/>
-              gratitude Thank-<lb/>
+              gratitude Thank-<lb break="no"/>
             -sgiveing, &amp; Praises
             <lb/>
             to the gracious God<lb/>
@@ -4721,7 +4734,7 @@
           any more allterations; I bless my God, during my husbands<lb/>
           life time; nor did he withhold his great mercy from me<lb/>
           by, drawing his faithfull, &amp; conjugall love, &amp; affection from me<lb/>
-          for all those bloody &amp; wicked Practices of all my secrett Enim<lb/>
+          for all those bloody &amp; wicked Practices of all my secrett Enim<lb break="no"/>
           -yes, to have made him have taken his indeered affection<lb/>
           away from me. (which would have bin worse then Death to me;)</p>
          <table rend="rules">
@@ -4833,7 +4846,7 @@
             &amp; severity against<lb/>
             Danby. &amp; those who<lb/>
             was actors, or abetors<lb/>
-            of my injust Calum-<lb/>
+            of my injust Calum-<lb break="no"/>
                </cell>
                <cell>
                   <seg xml:space="preserve">        </seg>And in perticuler, he declared his abhorency of Mrs Anne<lb/>
@@ -4844,7 +4857,7 @@
             </row>
             <row>
                <cell>nys his reproach of<lb/>
-            Mrs Danbys Treache- <lb/>
+            Mrs Danbys Treache-<lb break="no"/>
             ry against my<lb/>
               Innocency, &amp; her<lb/>
             owne knowledge</cell>
@@ -4944,7 +4957,7 @@
                   <seg xml:space="preserve">        </seg>she was the more bace woman for consealing these lyes from<lb/>
               me where by my wounds was more deepe &amp; incurable that had not<lb/>
               bin taken notice of all that time she deserved death for her great<lb/>
-              wickedness towards me. But she was confident God would re-<lb/>
+              wickedness towards me. But she was confident God would re-<lb break="no"/>
               -venge my cause uppon her, &amp; all those which had bin soe wicked</cell>
             </row>
             <row>
@@ -4986,7 +4999,7 @@
          </table>
          <p>never heard or see noe such things of me in her life, &amp; that it greved<lb/>
           her soule they should abuse me, &amp; wrong her. &amp; that she knew I did<lb/>
-          hate all evill things in every one &amp; all wayes gave them good instru<lb/>
+          hate all evill things in every one &amp; all wayes gave them good instru<lb break="no"/>
           -ctions: Now affter these sad troubles of mine which I suffered<lb/>
           I new not from whom. nor for what. but made the scorne of many<lb/>
           and yett the Lord gave me favour &amp; pitty of my deare frinds I<lb/>
@@ -4994,7 +5007,7 @@
          </p>
          <table rend="rules">
             <row>
-               <cell>my dread-<lb/>
+               <cell>my dread-<lb break="no"/>
               full sorrowes<lb/>
               &amp; greife reducd<lb/>
               me neare to<lb/>
@@ -5053,6 +5066,7 @@
 
          
             <fw type="pageNum">65</fw>
+           <lb/>
          
          Creature who suffers for thy cause and for the defence and propaga<lb/>
           tion of thy Gospell in this Place and Family where I am thus<lb/>
@@ -5179,14 +5193,16 @@
 
          
             <fw type="pageNum">67</fw>
+        <lb/>
          
-         <p>And of all the Calamities fell uppon him, we find none was</p>
-         <p>more peircing &amp; pungent then what his wife and freinds</p>
-         <p>had putt uppon him. To the first he answred she spoke like on</p>
-         <p>of the fooles. what, shall we receave good att the hand of God</p>
-         <p>and shall we not receave Evill.</p>
+         <p>And of all the Calamities fell uppon him, we find none was<lb/>
+         more peircing &amp; pungent then what his wife and freinds<lb/>
+         had putt uppon him. To the first he answred she spoke like on<lb/>
+         of the fooles. what, shall we receave good att the hand of God<lb/>
+         and shall we not receave Evill.</p>
+        
          <p rend="first-line-indent">
-              To his freinds Callumnyes they Charged him with he an-<lb/>
+              To his freinds Callumnyes they Charged him with he an-<lb break="no"/>
           swered. have Pitty uppon me oh my freinds for the hand of<lb/>
           God is uppon me. in all this Job sinned not with his mouth nor<lb/>
           charged God foolishly. Thus did the Lord indow his faithfull<lb/>
@@ -5286,7 +5302,7 @@
          <p>
             <lb/>
           they had traducd, &amp; slandred with theire Tongues &amp; had<lb/>
-          dishonoured thy name in him &amp; who had not spoken<lb/>
+          dishonoured thy name in him &amp; who had not spoken<lb break="no"/>
           -right of thee o Lord as thy servant Job had don.</p>
          <p> So o Lord most graciously hast thy goodness don to<lb/>
           me thy poore handmaide, had pitty on me, and not to suffer<lb/>
@@ -5307,6 +5323,7 @@
 
          
             <fw type="pageNum">69</fw>
+           <lb/>
          
          Unfeined repentance for them. and begging thy Pardon for them<lb/>
           And not only confessed her sinns before thy Majesty, but<lb/>
@@ -5409,7 +5426,7 @@
          </p>
          <p>
             <lb/>
-          Amen: &amp; __</p>
+          Amen: &amp;--</p>
          <p> For as much as I was by devine Providence disposed<lb/>
           in mairiage soe remote from all my owne Relations &amp; freinds<lb/>
            whereby I might be in a suffering condittion for the want of<lb/>
@@ -5439,6 +5456,7 @@
 
          
             <fw type="pageNum">71</fw>
+           <lb/>
          
          had not married againe affter theire mothers decease who<lb/>
           on her death bed gott her husband to settle such vast fortuns<lb/>
@@ -5455,7 +5473,7 @@
           of a bout 400<hi rend="superscript">l</hi>
              as I have heard if Ever was paid.
          </p>
-         <p> All these were brought up in the way of strict Pressbite-<lb/>
+         <p> All these were brought up in the way of strict Pressbite-<lb break="no"/>
           -rians. Sir Rich{ard} Darley beeing with his Family &amp; sons actually in<lb/>
           the way of the long Parliament. And I feare had too deepe a<lb/>
           hand in the Scottch faction and bringing them into England<lb/>
@@ -5546,7 +5564,7 @@
          <p>
             <lb/>
           ably as those which was much Elder.</p>
-         <p> when my deare husband had receaved this letter of Recomendati<lb/>
+         <p> when my deare husband had receaved this letter of Recomendati<lb break="no"/>
           -on it made him more acceptable from soe grave a Person as Mr Benett<lb/>
           And much more sattisfied and all the Parish with Mr Comber affter he<lb/>
           Preached his first Sermon. Text 19 Psalme v. 7<lb/>
@@ -5658,7 +5676,7 @@
           Sermons, all which things was very acceptable both to God and<lb/>
           good Christians with great Comfort to our selves &amp; Children:</p>
          <p> Mr Thomas Comber came to live at Newton with Mr<lb/>
-          Thornton about the time of march the 19<hi rend="superscript">th</hi> 1665 and soe conti-<lb/>
+          Thornton about the time of march the 19<hi rend="superscript">th</hi> 1665 and soe conti-<lb break="no"/>
           -nued, &amp; was heere, att Mr Thorntons death in a painfull<lb/>
           way of studding &amp; Reading. improving himselfe in his studdyes in<lb/>
           this retyred course of Life, And in this Place he began and finished<lb/>
@@ -5720,7 +5738,7 @@
              Communions.
          </p>
          <p rend="first-line-indent">
-              Which we never omitted since Mr Comber came, to re-<lb/>
+              Which we never omitted since Mr Comber came, to re-<lb break="no"/>
           -ceave it 4 times in the yeare. which never had bin don before but<lb/>
           only att Christmas, and Easter</p>
          <p> Butt he brought them to 4 times in the yeare. vidz. Att Easter<lb/>
@@ -5749,7 +5767,7 @@
           the Lord Jesus Christ.</p>
          <p> Giveing us with all the happy opportunity of our Childrens good<lb/>
           instruction &amp; our Familyes, by Prayers and Catechising them all<lb/>
-          before the receaving the holy Sacrament, he was allso very dili-<lb/>
+          before the receaving the holy Sacrament, he was allso very dili-<lb break="no"/>
           gent in private Prayers with us uppon any sicknesses or troubles<lb/>
           uppon Mr Thornton, my selfe and Children.</p>
          <p>So that my husband tooke great delight in his facetious<note place="end">
@@ -5772,7 +5790,7 @@
          Being a man of such Learning and Parts, would come to great<lb/>
           Preferment in the Church if not to be a Bishop</p>
          <p rend="first-line-indent">
-              A bout the yeare 1666 his time was compleated he was to Com-<lb/>
+              A bout the yeare 1666 his time was compleated he was to Com-<lb break="no"/>
           -mence Master of Art, goeing up to Cambridge to take his Degree<lb/>
           being of Sidney: Colledge, where he was much admired &amp; did<lb/>
           come of with great applause. haveing bin assisted to that worke<lb/>
@@ -5870,7 +5888,7 @@
           frequent letters, &amp; tokens, &amp; his offten treats of them as the dates<lb/>
           of All those letters may testify to each other: &amp; that by my Consent<lb/>
            (how then with what impudence &amp; Treatchery, to me &amp; my<lb/>
-          husband, &amp; these two who, she had incoraged, &amp; begun this de-<lb/>
+          husband, &amp; these two who, she had incoraged, &amp; begun this de-<lb break="no"/>
           signe of a marriage betwixt us all) could she affterwards<lb/>
           sit as a judge against us in hearing &amp; repeating such horrid<lb/>
           Lyes was forged against us. And not to vindicate our honors<lb/>
@@ -5884,15 +5902,15 @@
 
          
          <p>Since then it was our desire &amp; designe to place Mr Comber in this<lb/>
-          Liveing at Stongrave thereby to have it suplyed by a settled Prea-<lb/>
+          Liveing at Stongrave thereby to have it suplyed by a settled Prea-<lb break="no"/>
           -ching minister, &amp; one whom my husband had Pitched uppon. with a<lb/>
           further desire to dispose our daughter to in marriage if God should<lb/>
           blesse them with life</p>
-         <p> This was the true reason which induced me, &amp; my deare Hus-<lb/>
+         <p> This was the true reason which induced me, &amp; my deare Hus-<lb break="no"/>
           band to take such perticuler caire to provide for him both for<lb/>
           the comfort we had from his ministery as allso for the hopes of<lb/>
           future sattisfaction by the disposall of our deare Childe soe neare us</p>
-         <p> And I did not only dispurze this 100<hi rend="superscript">l</hi> to Mr Bennett as menti-<lb/>
+         <p> And I did not only dispurze this 100<hi rend="superscript">l</hi> to Mr Bennett as menti-<lb break="no"/>
           -oned but much more monnyes out of my owne Perticuler Estate<lb/>
           &amp; I was compelld to borow these 100<hi rend="superscript">l</hi> which was to pay Mr Bennett his<lb/>
           first rent due out of Stongrave for his Tyths then Payable att that<lb/>
@@ -5945,6 +5963,7 @@
 
          
             <fw type="pageNum">79</fw>
+           <lb/>
          
          With great trouble for this alteration, considering Since his beeing<lb/>
           so afflicted with th[e]<note place="end">
@@ -5996,7 +6015,7 @@
           did imploy him about all such Consernes; which was made a fallse use<lb/>
           of against me &amp; my innocent, &amp; great bussiness of my Family.
       </p>
-         <p> Butt my gracious God who searchest all hearts and tryest all im-<lb/>
+         <p> Butt my gracious God who searchest all hearts and tryest all im-<lb break="no"/>
           maginations saw my sorrowes &amp; sufferings, &amp; did bring me out<lb/>
           of these feares, &amp; provided a good settlement for them.</p>
          <p> And knew what immergencys I was cast into &amp; did at<lb/>
@@ -6090,6 +6109,7 @@
 
          
             <fw type="pageNum">81</fw>
+           <lb/>
          
          Cleare my Innocency, which had bin the cheifest cause of my wrong<lb/>
           And hoped in God; I and mine shall be delivered with out<lb/>
@@ -6205,7 +6225,7 @@
           which Just debts I now want to Rileve my selfe in my needs.</p>
          <p> Nor had I repeated this heere but to shew the great <lb/>
           ingratitude whereby I am requited. besides the most horrid<lb/>
-          reward I had from his mother, who under minded my happy<lb/>
+          reward I had from his mother, who under minded my happy<lb break="no"/>
           -ness &amp; envied my Comfort of that good name I had bin blessd<lb/>
           with above many 100<hi rend="superscript">ds</hi>
              beeing the great comfort of my sorrowes.
@@ -6228,6 +6248,7 @@
 
          
             <fw type="pageNum">83</fw>
+        <lb/>
          
                <!-- Q extra space at the top of this page -->
          
@@ -6252,13 +6273,13 @@
           my youth, up till now, &amp; his holy word to be a light to my paths<lb/>
           &amp; a lanthorne to my waies never suffering me to fall into such<lb/>
           wickednes, but called me to his feare &amp; service when I was<lb/>
-          but 4 yeares old, by his fear put into my Soule then, of his om-<lb/>
+          but 4 yeares old, by his fear put into my Soule then, of his om-<lb break="no"/>
           -nipresence by Psalme 147 4 v he counteth the starres &amp; calleth them<lb/>
           all by there names. how can any thing be don which shall not<lb/>
           be revealed, Psallm 139 his feare has bin ever my guide in<lb/>
           all my actions Therefore blesse his holy name that by his Power &amp;<lb/>
           grace, I was innocent of all those crymes charged on me</p>
-         <p> Which is my greatest comfort &amp; suport in all my Calam-<lb/>
+         <p> Which is my greatest comfort &amp; suport in all my Calam-<lb break="no"/>
           -itys, &amp; distresse, That had the testimony of a good consience<lb/>
           to beare me up from sinking under this dreadfull blow of<lb/>
           my great Enimy. the Devill who could not prevaile by, all his<lb/>
@@ -6492,12 +6513,13 @@
 
          
             <fw type="pageNum">87</fw>
+           <lb/>
          
          The Excelent comfort, ease, &amp; refrishment, I receavd from, and<lb/>
           by my deare Aunts Councells &amp; Praiers &amp; good advice in my troubl<lb/>
           I hae great cause to remember with hiest gratitude to my heavnly<lb/>
           Father who sent me such releife, I may say from heaven. having<lb/>
-          a freind nearer then a brother which did succor me in this deepe dis-<lb/>
+          a freind nearer then a brother which did succor me in this deepe dis-<lb break="no"/>
           stresse &amp; when she brought Dr Sammoies<note place="end">
                <p>
               Sic for ‘Samwaies’.</p>
@@ -6587,7 +6609,7 @@
          <p>
             <lb/>
           was wicked and shewed what afflictions I laid under</p>
-         <p> Blessed be the glory of his great name who gave me his perceve-<lb/>
+         <p> Blessed be the glory of his great name who gave me his perceve-<lb break="no"/>
           -ring grace to keepe &amp; preserve my soule from this subtill and<lb/>
           Powerfull &amp; malicious Enimy of God &amp; all mankind but most<lb/>
           the Enimy of those whose desire is to destroy the workes of Hell.<lb/>
@@ -6595,7 +6617,7 @@
           by thy truth magnifying the same in this great Instantce of my<lb/>
           whole life &amp; by these great Evidences of thy mercy had more<lb/>
           Perticuler caere of my Soule &amp; body. of thy Gospell &amp; truth and<lb/>
-          has delevred me out of great Timptation of the Devill seeking to de<lb/>
+          has delevred me out of great Timptation of the Devill seeking to de<lb break="no"/>
           -stroy me. but oh I will bless the Lord for Ever which hath delevrd me<lb/>
           from the mallice of my Enimyes &amp; the Devill Oh lett thy Gospell<lb/>
           florish in this my family and the true exercise thereof in dispight<lb/>
@@ -6723,7 +6745,7 @@
           I recovered as he hoped I should then he to give them to me againe</p>
          <p> But if otherwise &amp; the Lord should take me away from him<lb/>
           He did promise me faithfully That he would take caire that Mr<lb/>
-          Comber should deliver all safe into my Lord Frechevills hand as I de-<lb/>
+          Comber should deliver all safe into my Lord Frechevills hand as I de-<lb break="no"/>
           -sired which had the most right to keepe them as my mothers Excequtor.</p>
          <p> When Mr Thornton had advised me thus &amp; it was his owne mind<lb/>
           to have me, &amp; I could not prevaile for himselfe or my Brother Denton<lb/>
@@ -6851,7 +6873,7 @@
             <lb/>
           not fitt to declare it to any or made knowne but to only to Mr Th<lb/>
           himselfe, my brother Denton, &amp; Mrs Danby who was the first motion<lb/>
-          for Mr Comber made of his desire in this poynt tho for severall reas-<lb/>
+          for Mr Comber made of his desire in this poynt tho for severall reas-<lb break="no"/>
           -sons was to be kept secrett yett till an opportunity for it.</p>
          <p> Yett she knew all the consernes of the Estate &amp; could not be ignor<hi rend="superscript">^ant^</hi>
             <lb/>
@@ -6892,7 +6914,7 @@
           Christ his sake our only Lord and Saviour Amen.</p>
          <p> But alasse how great a mischeife was this unjust Calumny<lb/>
           cast uppon my wronged Soule, which greved my dere freinds to<lb/>
-          heare &amp; my Enimies to rejoyce against me &amp; how smale an occa-<lb/>
+          heare &amp; my Enimies to rejoyce against me &amp; how smale an occa-<lb break="no"/>
           tion Satan &amp; his malice can make use of to Blaspheme the livny<note place="end">
                <p>
               I.e. ‘liuing’. </p>
@@ -6909,11 +6931,11 @@
           That there was my Trunke found in Mr Combers with a great deall<lb/>
           of monney a Bagg of Canviss found in his Trunke my dearest<lb/>
           husband cryed out o my poore wife how bace a wickedness was <lb/>
-          this against her &amp; how innocent is she to be charged with wrong-<lb/>
+          this against her &amp; how innocent is she to be charged with wrong-<lb break="no"/>
           ing of him. for he knew of that Trunke &amp; monney which was her<lb/>
           mothers. And advised me to putt it into Mr Combers Custody<lb/>
-          to keepe for my selfe &amp; Children when I was goeing to be de-<lb/>
-          livered of my last Childe Christopher thus by the good Provid<lb/>
+          to keepe for my selfe &amp; Children when I was goeing to be de-<lb break="no"/>
+          livered of my last Childe Christopher thus by the good Provid<lb break="no"/>
           -ence of my gracious father the truth was made knowne to<lb/>
           my husbands &amp; freinds great sattisfaction &amp; shame to my Enimys</p>
          <p> yett itt was the great misfortune of my Life when my uns<hi rend="superscript">^o^</hi>ped<note place="end">
@@ -7003,6 +7025,7 @@
 
          
             <fw type="pageNum">95</fw>
+           <lb/>
          
          with hanna &amp; others who did repent they had heard me to be<lb/>
           wronged but beleved not any thing of evill of me having never seene<lb/>
@@ -7013,7 +7036,11 @@
           &amp; to delvr me out of all such wickedness. Glory be to God for the<lb/>
           grace thou hast givn to these Enimyes &amp; make them to repent of the<lb/>
           Evill don to me thy poore handmade. Amen./</p>
-         <p>----------------------------------------------------------------------------------------</p>
+        
+        </div>
+        
+        <div rend="pre(rule)">
+         
          <p>This beeing the Last great Triall to my faith &amp; patience <lb/>
           together with my late dreadfull sickness, &amp; flood uppon the great<lb/>
           greife uppon me following my slanders before the losse, &amp; Death<lb/>
@@ -7088,7 +7115,7 @@
           And I used with all the uttmost reason I could to prevaile with him<lb/>
           telling him, my deare heart if you should take a fitt by the way<lb/>
           &amp; fall ill it would danger his life before he gott to maulton</p>
-         <p> My owne selfe soe weake then that I could not hope to re-<lb/>
+         <p> My owne selfe soe weake then that I could not hope to re-<lb break="no"/>
           cover And I did beleive I might not live to see him againe &amp;<lb/>
           would he goe &amp; leave me in that condition. &amp; if the Lord should<lb/>
           call for us both &amp; leave our deare Children soe young what will<lb/>
@@ -7112,6 +7139,7 @@
 
          
             <fw type="pageNum">97</fw>
+           <lb/>
          
          But we must not apoynt to his majesty what to do with us.<lb/>
           but leave our times to his devine Pleasure for his glory &amp; our<lb/>
@@ -7194,7 +7222,7 @@
               Sic for ‘conserning’.</p>
             </note> this<lb/>
           Tradegy is related by me in the first Booke of my life &amp; in the<lb/>
-          begining of my widdowed booke. haveing such cause to re-<lb/>
+          begining of my widdowed booke. haveing such cause to re-<lb break="no"/>
           maine the sad remembrances which followd this change to me &amp;<lb/>
           mine it will be usefull for me to call to mind the severall<lb/>
           changes that befell me, together with many great and signall<lb/>
@@ -7216,13 +7244,15 @@
             <fw type="pageNum">103</fw>
         
         <div>
-         <head> 
-           My Widdowes Praier and Pettitions to Heaven;</head>
-         <p>------------------------------------------------------------------------</p>
+         <head rend="post(rule)"> 
+           My Widdowes Praier and Pettitions to Heaven;
+         </head>
+         
          <p>O Lord God of Hostes suffir me who am but dust and Ashes<lb/>
           to humble my selfe before thy devine Majesty to power out<lb/>
           my prayers &amp; humble Pettitions before thy dreadfull Majesty<lb/>
-          whoes <note place="end">
+          whoes 
+           <note place="end">
                <p>
               A word seems to be missing here. Or two ‘is’ – ‘whose is’?</p>
             </note>is infinitt, &amp; Incomprehensable. Thy Wisdom incrutable<note place="end">
@@ -7311,7 +7341,7 @@
           may<note place="end">
                <p>
               Sic for ‘many’?</p>
-            </note> times with a high hand &amp; full consent. woe be unto me a miss-<lb/>
+            </note> times with a high hand &amp; full consent. woe be unto me a miss-<lb break="no"/>
           erable sinner but I repent &amp; mourne. &amp; greive for all my Sinns that I<lb/>
           have don ever since I was borne Enter not in to Judgement with me O Lord<lb/>
           least I be consumed &amp; brought to nothing have mercy on me &amp; do<lb/>
@@ -7413,7 +7443,7 @@
                <p>
               Sic for ‘remaineth’.</p>
             </note> in this mortall I may<lb/>
-          become the servant of the living God in all my Life and con-<lb/>
+          become the servant of the living God in all my Life and con-<lb break="no"/>
           versation.</p>
          <p> And to that end I humbly beseech thee oh Lord make<lb/>
           word to me good as thy servant David speakes in the 3 verce of this<lb/>
@@ -7459,45 +7489,57 @@
          <p>
             <hi rend="bold">[Pages 107-108 are blank.]</hi>
          </p>
-         
+       </div>
+        
         <pb n="109"/>
 
 <!-- Page 109 -->
 
          
             <fw type="pageNum">109</fw>
+        
+      <div>  
          
-         <p>The Remarkeble Passages of my Life with my three Children<lb/>
+         <head rend="post(rule)">
+          The Remarkeble Passages of my Life with my three Children<lb/>
           And of the Afflictions: Tryalls: Providences. Mercyes and<lb/>
           Deliverances Receaved from God since the Death of my deare<lb/>
-          Husband. the first yeare of my Widdowhood Condittion</p>
-         <p rend="first-line-indent">
-              Since September: 17<hi rend="superscript">th</hi>
-             1668
-         </p>
-         <p>-----------------------------------------------------------------------------------</p>
+          Husband. the first yeare of my Widdowhood Condittion
+          <seg rend="indent">
+              Since September: 17<hi rend="superscript">th</hi> 1668
+         </seg>
+         </head>
+         
          <p>The words of our Lord and Saviour Jesus Christ.</p>
          <p>In the world you shall have Tribulation but be of good<lb/>
-          Comfort I have overcome the world.<note place="end">
+          Comfort I have overcome the world.
+           <note place="end">
                <p>
-              Joh_16:33  These thinges haue I spoken vnto you, that in me ye might haue peace: in the world ye shall haue affliction, but be of good comfort: I haue ouercome the world (Geneva)Joh 16:33  These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world (KJV).</p>
+              Joh_16:33  These thinges haue I spoken vnto you, that in me ye might haue peace: in the world ye shall haue affliction, but be of good comfort: I haue ouercome the world (Geneva)
+              Joh 16:33  These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world (KJV).</p>
             </note>
          </p>
-         <p>Blessed are they which indureth Temptations Saint Ja.<note place="end">
+         <p>Blessed are they which indureth Temptations Saint Ja.
+           <note place="end">
                <p>
-              Jas_1:12 Blessed is ye man, that endureth tentation: for when he is tried, hee shall receiue the crowne of life, which the Lorde hath promised to them that loue him (Geneva);Jas 1:12  Blessed is the man that endureth temptation: for when he is tried, he shall receive the crown of life, which the Lord hath promised to them that love him (KJV).</p>
+              Jas_1:12 Blessed is ye man, that endureth tentation: for when he is tried, hee shall receiue the crowne of life, which the Lorde hath promised to them that loue him (Geneva);
+              Jas 1:12  Blessed is the man that endureth temptation: for when he is tried, he shall receive the crown of life, which the Lord hath promised to them that love him (KJV).</p>
             </note>
          </p>
          <p> Who the Lord loveth, he chasteneth and correcteth<lb/>
-          those he receaves<note place="end">
+          those he receaves
+           <note place="end">
                <p>
-              Heb 12:6 For whom the Lord loueth, he chasteneth: and he scourgeth euery sonne that he receiueth (Geneva); Heb 12:6  For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth (KJV).</p>
+              Heb 12:6 For whom the Lord loueth, he chasteneth: and he scourgeth euery sonne that he receiueth (Geneva); 
+              Heb 12:6  For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth (KJV).</p>
             </note>
          </p>
          <p>Be faithfull unto the End and I will give thee the<lb/>
-          Crowne of Life.<note place="end">
+          Crowne of Life.
+           <note place="end">
                <p>
-              Rev 2:10  Feare none of those things, which thou shalt suffer: beholde, it shall come to passe, that the deuill shall cast some of you into prison, that ye may be tryed, and ye shall haue tribulation tenne dayes: be thou faithfull vnto the death, and I will giue thee the crowne of life (Geneva); Rev 2:10  Fear none of those things which thou shalt suffer: behold, the devil shall cast some of you into prison, that ye may be tried; and ye shall have tribulation ten days: be thou faithful unto death, and I will give thee a crown of life (KJV).</p>
+              Rev 2:10  Feare none of those things, which thou shalt suffer: beholde, it shall come to passe, that the deuill shall cast some of you into prison, that ye may be tryed, and ye shall haue tribulation tenne dayes: be thou faithfull vnto the death, and I will giue thee the crowne of life (Geneva); 
+              Rev 2:10  Fear none of those things which thou shalt suffer: behold, the devil shall cast some of you into prison, that ye may be tried; and ye shall have tribulation ten days: be thou faithful unto death, and I will give thee a crown of life (KJV).</p>
             </note>
          </p>
          <p>------------------------------------------------------------------------------------</p>
@@ -7546,7 +7588,8 @@
            The first great &amp; excelent goodnes of our gracious God to my<lb/>
         selfe, in my preservation in Life from the Death of my deare<lb/>
         husband Losse, &amp; the cursed Slanders of my Enymyes &amp; those<lb/>
-        Peiercinge greifes which followed my desolate Condittion.</head>
+        Peiercinge greifes which followed my desolate Condittion.
+         </head>
         
          <p> The sudaine surpriseing of the losse of my dearest Earthly<lb/>
           comfort beeing taken from me, when he alas would needs goe<lb/>
@@ -7618,7 +7661,7 @@
           brought to Newton on Septembr the 18<hi rend="superscript">th</hi> departing this life on Sept.<lb/>
           17 68 his comming to me home his last Journey with his Body<lb/>
           to newton in Madam Palmes her Coach.</p>
-         <p> The manner of his interment with all immaginable solem<lb/>
+         <p> The manner of his interment with all immaginable solem<lb break="no"/>
           -nity and decency as much &amp; more then my Estate would permit<lb/>
           which my tender and indeered love could shewe it selfe both for<lb/>
           the hon.<hi rend="superscript">or</hi> of the Family &amp; the worthines of his Person with all the good<lb/>
@@ -7644,6 +7687,7 @@
 
          
             <fw type="pageNum">115</fw>
+           <lb/>
          
          
             Came to the Somme of  
@@ -7742,6 +7786,7 @@
 
          
             <fw type="pageNum">117</fw>
+           <lb/>
          
          And act in that Conserne as himselfe, who was soe wise and<lb/>
           Prudent, and knowing a Person in all such affaires and the<lb/>
@@ -7866,7 +7911,7 @@
           my desire in this bussiness. I blessed &amp; praised my good God<lb/>
           for his mercy to me in granting my humble Pettitions hoping<lb/>
           this was ordered by his Providence for good to me &amp; mine.</p>
-         <p> I acquainted my Brother Denton with this opportun-<lb/>
+         <p> I acquainted my Brother Denton with this opportun-<lb break="no"/>
           -ity of my Cozen Anthony Norton beeing come, &amp; of my gaing<note place="end">
                <p>
               I.e. ‘gaining’.</p>
@@ -7896,7 +7941,7 @@
           both Father, and mother, and gaurdion to them. A duty<lb/>
           which I willingly undertooke for there owne, &amp; Fathers sake having<lb/>
           a 3 fold tye uppon me as beeing my owne dearly bought in<lb/>
-          bringing them forth by exquisett torments &amp; paines in child ‒<lb/>
+          bringing them forth by exquisett torments &amp; paines in child ‒<lb break="no"/>
           -bearing added to many caires &amp; difficultyes in there bringing<lb/>
           upp to theire severall Ages.</p>
          <p> As to my son Robert he was soley left to my Charge<lb/>
@@ -8169,7 +8214,7 @@
          <p> For to secure it to my selfe during Life and at my death to such<lb/>
           Child or Children as I should see best deserving.<lb/>
           still the Property to be kept in those Fefeos in Trust &amp; not to be mad<lb/>
-          liable to any other use As Debts &amp; other inconveniencys as con-<lb/>
+          liable to any other use As Debts &amp; other inconveniencys as con-<lb break="no"/>
           -sequence to the Assignm{ent}</p>
          <p> more over she said his taking it uppon him had lost her the<lb/>
           some of 1500<hi rend="superscript">l</hi> of her Arrears of her Annuity in Ireland that Sir<lb/>
@@ -8187,6 +8232,7 @@
 
          
             <fw type="pageNum">125</fw>
+           <lb/>
          
          Of all that great Right to her. Nor Mr Thornton neither but<lb/>
           was quite lost from us by this unfortunate Assignmt &amp; me<note place="end">
@@ -8321,7 +8367,7 @@
           Sir John died &amp; they had a bed which was not soe fine a Coler nor mad<lb/>
           so fine a shew which was Prized higher:</p>
          <p> Soe affter my Brother Denton came in to my Chamber And<lb/>
-          said he doubted they had don amiss in over valewing the Scarl<lb/>
+          said he doubted they had don amiss in over valewing the Scarl<lb break="no"/>
           -let Bed, I asked what the Raite was sett on it. he answred 40<hi rend="superscript">l</hi><lb/>
             but doubted it was too much.</p>
          <p> Uppon which I tould him. I should be glad it would give as<lb/>
@@ -8377,7 +8423,7 @@
          <p rend="first-line-indent">
                vidiz she commeing to see me one day it happned that my<lb/>
           deare husband had bin in a fitt of the Palsey and was ordred<lb/>
-          by Dr wittye to have a bath which I made according to his directi-<lb/>
+          by Dr wittye to have a bath which I made according to his directi-<lb break="no"/>
           My Lady just came when he was in it and had bin prettily<lb/>
           recruted while he was in the Bath &amp; would have had me gon<lb/>
           to my Lady while he was in it. But I durst not leave him soe<lb/>
@@ -8533,6 +8579,7 @@
           I did out of a good Consience: both towards God and man.</p>
          <p> Tho it reduced me to great straites to borow great &amp;<lb/>
           many somes of monney, to discharge all that was laid on me As</p>
+      <list>
          <p>@@1.@@ First; for the discharge of Funerall Expences, with all that<lb/>
           Belonged to that sadd occassion</p>
          <p>@@2.@@ The Renuntiation of the Addministration, to Mr Norton.</p>
@@ -8554,6 +8601,7 @@
           the Gaurdianship of my 3 Children besides the maintinance<lb/>
           and Education of my Son Robert and his 2 sisters Alice &amp;<lb/>
           Katherine</p>
+      </list>
          <p> The Charges of whoes Education beeing of many yeares<lb/>
           continuance must be Entred heere affter under Each of there<lb/>
           names in a proper Place. consisting of many &amp; severall occasions<lb/>
@@ -8699,6 +8747,8 @@
           testimonyes of my freinds letters and consolotary advices and<lb/>
           affectionate letters written to comfort me in my Sorrowes &amp; losse of<lb/>
           my deare husband as well as under that other Calamity</p>
+          
+      <list>
          <p>@@1.@@ In the first number was my husbands sister my kinde &amp;<lb/>
           good freind Tho of the Roman Religion was ever my true freind<lb/>
           her letter dated Sept. 19 1668 sent by her Son to see me.</p>
@@ -8744,6 +8794,7 @@
           home &amp; sorrw I was still soe weake and Sicke, &amp; praid me to take comfort in<lb/>
           the Lord and he would take caire of me and bring me out of all my Troubls<lb/>
           dated no. 8 1668 she would come next week to newton.</p>
+       </list>
          
         <pb n="139"/>
 
@@ -9014,6 +9065,7 @@
 
          
             <fw type="pageNum">143</fw>
+           <lb/>
          
          She would give me a fullr account of all intreagues, which was don<lb/>
           by Mrs Danbys instigation of Dr Sammwayes, and from him<lb/>
@@ -9247,7 +9299,7 @@
           acepeded of the motion of this marriage, with the full consent<lb/>
           of my deare Childe, who considering my owne sircumstances<lb/>
           and the Condition we were reduced into in the Estate by her<lb/>
-          Fathers Debts. &amp; my great &amp; exceeding weakness. I was broug<lb/>
+          Fathers Debts. &amp; my great &amp; exceeding weakness. I was broug<lb break="no"/>
           -ht into by all my greifes &amp; sorrowes by death of my deare husba<lb/>
           band &amp; the horrid slanders Raised to prevent this match<lb/>
           and that I was nearer death then to live with my Children.</p>
@@ -9281,7 +9333,7 @@
           an answer to us and soe ordered all things soe as we hoped<lb/>
           would tend to his owne Glory &amp; our Comfort which was more<lb/>
           speedily intended to be Performed by generall consent<lb/>
-          then was before resolved. for insteed of those which was our Eni-<lb/>
+          then was before resolved. for insteed of those which was our Eni-<lb break="no"/>
           myes to prevent it by private designes. of stealing my Child<lb/>
           from me. The greife of which did in force me to hasten it
       </p>
@@ -9504,6 +9556,7 @@
 
          
             <fw type="pageNum">151</fw>
+           <lb/>
          
          In marriage, or to have bin a wittness of it att least. Butt<lb/>
           I doe not know very well on what account but for reasons<lb/>
@@ -9578,7 +9631,7 @@
           fortunate creature, against 
         <hi rend="superscript">^whom^</hi> all those Arrowes was shott.</p>
          <p rend="first-line-indent">
-              Butt by the immence &amp; profound goodnes, mercy &amp; com<lb/>
+              Butt by the immence &amp; profound goodnes, mercy &amp; com<lb break="no"/>
           -Passion of our gracious Fathr to the widdow and fatherless me<lb/>
           his poore servant did Pitty my wrongs heard my greifes and<lb/>
           Teares and did bing<note place="end">
@@ -9649,7 +9702,7 @@
           1666 when the match was begun.
       </p>
          <p rend="first-line-indent">
-              Allso the occasion of that acceptance of my most Sad condit-<lb/>
+              Allso the occasion of that acceptance of my most Sad condit-<lb break="no"/>
           ttion by greife uppon the Cutting of the Intaile and forced<lb/>
           me into a miscarriage &amp; flood on greife on it, I then did<lb/>
           looke for nothing but death. &amp; Mr Th soe offten relapsed into<lb/>
@@ -9708,6 +9761,8 @@
           A young Cowe and Calfe to sustaine her house with other good<lb/>
           things which she had deserved for her faith and fidelty to me &amp;<lb/>
           my poore Children, &amp; sent her husband a Bible &amp; 1<hi rend="superscript">l</hi> of Tobaco</p>
+          
+       
          <p rend="first-line-indent">@@1@@
               <!--Q [transcription] 1 in margin not transcribed but looks to me like first list item. --> 
                 Affter her goeing home I recavd Letters from her &amp; my Aunt<lb/>
@@ -9843,8 +9898,8 @@
           was in order to have broake the match) but was prevented by a<lb/>
           great Could &amp; was very ill which Prevented her.</p>
          <p rend="first-line-indent">
-              Yett she desires now she is att yorke to have her God-<lb/>
-          Daughter to be confirmed by the Bishop it being her duty to pre<lb/>
+              Yett she desires now she is att yorke to have her God-<lb break="no"/>
+          Daughter to be confirmed by the Bishop it being her duty to pre<lb break="no"/>
           -sent her to him, &amp; she had bin confirmed her selfe.<lb/>
           And she had heard Newes of her God daughter Alice That she<lb/>
           could not beleive That she was all ready married. but she desirs<lb/>
@@ -9874,7 +9929,7 @@
          <p rend="first-line-indent">
               And therefore in the first place. I am obleiged to Ayme at his<lb/>
           Glory, and to begg his direction &amp; assistance, which I have Principaly<lb/>
-          indeavoured to do in this great Conserne, which is soe highly obleig<lb/>
+          indeavoured to do in this great Conserne, which is soe highly obleig<lb break="no"/>
           -ing my uttmost caire for our soules.</p>
          <p rend="first-line-indent">
               As for my other freinds. I love not to make Comparisons betwen<lb/>
@@ -9887,7 +9942,7 @@
 
          
             <fw type="pageNum">157</fw>
-         
+         <lb/>
 
               Or of A good oppinion of those freinds that are farre distant<lb/>
           From me and Ignorant of the sad Condittion my Estate is now in<lb/>
@@ -9896,7 +9951,7 @@
           att present my owne small Joynture.</p>
          <p rend="first-line-indent">
               If I chuse rather to consult in these Cases with Those who<lb/>
-          know how <hi rend="superscript">^all^</hi> matters stands; for tho I valew them for the nere ~<lb/>
+          know how <hi rend="superscript">^all^</hi> matters stands; for tho I valew them for the nere ~<lb break="no"/>
           -ness of Relations and beleive they sincerely wish us well. yett<lb/>
           except they could be informed how my Temporall Consernes are<lb/>
           they cannot be apt judges of my actions, which I can demonstrate<lb/>
@@ -9906,7 +9961,7 @@
           the good of my selfe and poore Family.</p>
          <p rend="first-line-indent">
               And I am confident if your Ladyship did truly understand<lb/>
-          the true State of my Condittion &amp; affaires with those sad sircum-<lb/>
+          the true State of my Condittion &amp; affaires with those sad sircum-<lb break="no"/>
           stances I am injustly &amp; malliciously fallen into, to preserve my<lb/>
           selfe &amp; poore Children from Ruine. you would be so farre from<lb/>
           sencuring my Actions. That you would both Pitty me and<lb/>
@@ -10005,7 +10060,7 @@
           husband &amp; she to requite me as she had don all her husbands freinds<lb/>
           &amp; her Tongue was noe slander.</p>
          <p rend="first-line-indent">
-              My Cozen Fairfax writt a most kinde &amp; obleiging letter condo- <lb/>
+              My Cozen Fairfax writt a most kinde &amp; obleiging letter condo-<lb break="no"/>
           ling my sad losse of her uncle and my great sickness &amp; weaknss with her<lb/>
           confidence I had chosen a very discreete &amp; Judicious Person for my<lb/>
           daughtr &amp; wished me &amp; them all happinss and Comfort<lb/>
@@ -10019,7 +10074,7 @@
 
          
             <fw type="pageNum">159</fw>
-         
+         <lb/>
          
               He can heale the broaken hearted and he alone can give me<lb/>
           meadicin to heale my sicknesses and infirmityes. he has wound<lb/>
@@ -10047,13 +10102,13 @@
           Thou wilt o Lord deliver me from all my Enimyes and will<lb/>
           Preserve me from sinking as thou didst thy servant Peter<lb/>
           when he walked on the sea. Lord save me I Perish.</p>
-         <p rend="first-line-indent">
-              -----------------------------------------------------------------------------<note place="end">
-               <p>
-              Thick line division here.</p>
-            </note>
-         </p>
-         <p>It is much to be admired thee miraculous Power and great<lb/>
+          
+        </div>
+        
+        <div rend="pre(rule_thick)">
+            <!-- NOTE [endnote] Thick line division here.-->
+          
+        <p>It is much to be admired thee miraculous Power and great<lb/>
           goodness of Almighty God towards me a poore desolate worm<lb/>
           that he was pleased to give me strength &amp; renew his mercys<lb/>
           every moment &amp; to make me subject &amp; indure thes great<lb/>
@@ -10075,7 +10130,7 @@
           afflicted Person sicke &amp; fainting every day tho I blese<lb/>
           God he gave me necessary comforts to releive my spirits<lb/>
           under these Calamitys. to make me to indure his good Pleasur<lb/>
-          which shewed his Almighty Power. Mercy and long-<lb/>
+          which shewed his Almighty Power. Mercy and long-<lb break="no"/>
           suffering to me his weake handmaide ever deliving me <lb/>
          </p>
          
@@ -10107,7 +10162,7 @@
           comfortable injoyment of his holy word Preached &amp; prayers<lb/>
           in the Family &amp; in pettitions to God for my weake condition &amp;<lb/>
           sorrowes, wanting spirituall refreshment, nor could I have<lb/>
-          any till soe happy to receave the benifitt of the holy Com-<lb/>
+          any till soe happy to receave the benifitt of the holy Com-<lb break="no"/>
           munion, which the Lord was pleased to grant to me at this<lb/>
           time for I thirsted affter the waters of life nor could I for<lb/>
           my great wounding in body &amp; soule be able to goe to Church.</p>
@@ -10428,7 +10483,7 @@
 
          
             <fw type="pageNum">165</fw>
-         
+         <lb/>
          
               Bin the way &amp; meanes to have gott the other Arrears due to<lb/>
           me &amp; the neglegt of the first was the losse of the whole Arrears<lb/>
@@ -10505,7 +10560,7 @@
           to me thy faithfull handmaide &amp; sorrowfull widdow for my<lb/>
           Lord &amp; Saviour Jesus his Sake. Amen.</p>
          <p rend="first-line-indent">
-              When my Son Comber saw me in such distresse &amp; con-<lb/>
+              When my Son Comber saw me in such distresse &amp; con-<lb break="no"/>
           -serne That I should destroy my selfe and Children of all my<lb/>
           dues from that Estate from Sir Christopher. he tould me I might<lb/>
           have somme advise what to doe in the case from some Lawyer which
@@ -10548,6 +10603,7 @@
 
          
             <fw type="pageNum">167</fw>
+           <lb/>
          
          Of all my Rights, dues. &amp; Tytles to what my hon.<hi rend="superscript">red</hi> Father and<lb/>
           Mother had given me by, and in There Last wills &amp; Testamnts<lb/>
@@ -10635,7 +10691,7 @@
           of houskeeping. diett. Apparrell or entertainments. was<lb/>
           ever designed &amp; practised to keepe with in bounds of moderation<lb/>
           decency, &amp; necessety. nor ever I affected to conforme my<lb/>
-          selfe to the modes or quirkes of new fashons &amp; affected novo<lb/>
+          selfe to the modes or quirkes of new fashons &amp; affected novo<lb break="no"/>
           -lties. either in meate, drinke Apparrell of the gaietyes of the world<lb/>
           not even in the prime of my youth. when as Job saieth the<lb/>
         candle of the Lord shined uppon me.</p>
@@ -10654,7 +10710,7 @@
           Poverty especially the 2<hi rend="superscript">d</hi> son who married against his fathers commnd<lb/>
           &amp; came to be a family missrable enough To releive him selfe &amp; family<lb/>
           I did expend out of my deare mothers Estate she gave me somme<lb/>
-          Considerable sommes to Relive that family. but not with out my hus-<lb/>
+          Considerable sommes to Relive that family. but not with out my hus-<lb break="no"/>
           bands knowledge or consent. who never was backward in those<lb/>
           Poynts of Charity.
       </p>
@@ -10780,6 +10836,7 @@
 
          
             <fw type="pageNum">171</fw>
+           <lb/>
          
          As I was siting on the long settle in my Chamber &amp; hearing read in <lb/>
           the gospell of St. matthew. my heart was full of sorrow &amp; bitter<lb/>
@@ -10801,7 +10858,7 @@
           maintaine him or my selfe &amp; greate Debts. Public Char<hi rend="superscript">^it^</hi>y<lb/>
           and inavoydable Payments out of it </p>
          <p rend="first-line-indent">
-              All which considerations came on my throughts toge<lb/>
+              All which considerations came on my throughts toge<lb break="no"/>
           -ther did over flow my weake spiritts at that time &amp; how<lb/>
           I should ever be able to subsist or ever bring him up<lb/>
           according to my Promise &amp; Vow made to my God<lb/>
@@ -10848,8 +10905,8 @@
          <p rend="first-line-indent">
               But such was my sad affliction at this time That<lb/>
           Passion &amp; a flood of Teares over came my Reason &amp; Religion<lb/>
-          and made me to leave my deare Childe when I was teach<lb/>
-          -ing him to Read &amp; could not conteine my great and in<lb/>
+          and made me to leave my deare Childe when I was teach<lb break="no"/>
+          -ing him to Read &amp; could not conteine my great and in<lb break="no"/>
           -finitt sorrowes, but scarce gott to my bed side for falling down<lb/>
           when I then cast my sellfe crosse the beds fell in bitter weeping<lb/>
           &amp; extreame Passion for offending God, or provaking his wrath<lb/>
@@ -10899,6 +10956,7 @@
 
          
             <fw type="pageNum">173</fw>
+           <lb/>
          
          Who is the Father of the Fatherless, and Husband to the<lb/>
         Widdow is not God; will not he Provide for you, oh my<lb/>
@@ -11126,6 +11184,8 @@
           all my greife and distress of Soule and body. by whom I live<lb/>
           &amp; move &amp; have my beeing o forsake me not O Lord in this for<lb/>
           lourn condittion &amp; never suffer me to forsake thy Lawes for ever.</p>
+          
+     
          <p rend="first-line-indent">
               But defend my cause Oh my God. Lord I beleive helpe my<lb/>
           unbeleife I know thou can doe all things O Create anew hart in me<lb/>
@@ -11146,11 +11206,11 @@
           Oh lett him live before thee to magnify thy glorious name Even<lb/>
           For Ever, And for ever Amen. 
       </p>
-         <p>---------------------------------------------------------------------------------------<note place="end">
-               <p>
-              Thick dividing line here.</p>
-            </note>
-         </p>
+        </div>
+        
+      <div rend="pre(rule_thick)">
+            <!-- NOTE [endnote] Thick dividing line here.-->
+        
          <p rend="first-line-indent">
               Thus was the 42<hi rend="superscript">d</hi> yeare of my misserable life finnished<lb/>
          </p>
@@ -11239,19 +11299,18 @@
           and promote our endeavours with the blessings of Joy &amp; gladness<lb/>
           of spirritt, that we may speake good of thy name &amp; to love it<lb/>
           and att last may. goe into thy Courts of thy holy temple both<lb/>
-          Me and myne with Praise and a Song in our mouths of thanks<lb/>
+          Me and myne with Praise and a Song in our mouths of thanks<lb break="no"/>
           -giveing to our great God father of the fatherless &amp; Husband to the poore<lb/>
           widdow to thy honour &amp; Etternall glory, whose mercy and truth<lb/>
           is Everlasting &amp; revealed unto the Church in our Lord and<lb/>
           Saviour Jesus Christ. Amen: /
       </p>
-         <p rend="first-line-indent">
-              -------------------------------------------------------------------------------------<note place="end">
-               <p>
-              Thick dividing line.</p>
-            </note>
-         </p>
-         <p>
+          </div>
+        
+        <div rend="pre(rule_thick)">
+              <!-- NOTE [endnote] Thick dividing line.-->
+         
+       <p>
         About March 25 1669 I was writing of my first Booke of my Life<lb/>
           to enter the sad sicknesses &amp; death of my deare husband togethr<lb/>
           with all those afflictions befell me that yeare with the remarkes of <lb/>
@@ -11348,6 +11407,7 @@
 
          
             <fw type="pageNum">179</fw>
+           <lb/>
          
          The Table besides me. it picking about the bread innocently did<lb/>
           Peepe up att my left Eye. whether it thought the white of my<lb/>
@@ -11469,6 +11529,7 @@
 
          
             <fw type="pageNum">181</fw>
+           <lb/>
          
          Doe I hope, &amp; long for to see God my, Creator, &amp; Father of Heaven<lb/>
           and Jesus Christ the Redeemer, &amp; my Saviour &amp; deliverer.<lb/>
@@ -11541,7 +11602,7 @@
          <p>And what I had from The love and affection of my deare<lb/>
           Chilldren &amp; that now the helpe of severall consernes of the<lb/>
           Estate in which Mr Comber &amp; brother Denton did act<lb/>
-          conserning the accounts, with Creaditors &amp; to Procure mon<lb/>
+          conserning the accounts, with Creaditors &amp; to Procure mon<lb break="no"/>
           -neys to pay with &amp; to gett acquittances &amp; discharges<lb/>
           which was indeed a kindness in my weake condittion
       </p>
@@ -11590,6 +11651,7 @@
 
          
             <fw type="pageNum">183</fw>
+           <lb/>
          
          Devine Providence, So Ordering such Sircumstances of<lb/>
           my freinds unknowne to me; As noe sooner my Enimyes began<lb/>
@@ -11776,17 +11838,18 @@
       </p>
          </div>
         <div>
-               <!--a bit of space here-->
-         <head> A collection of Letters, Papers and verces of his<lb/>
+               <!-- Q a bit of space here -->
+         <head rend="post(rule_thick)"> 
+           A collection of Letters, Papers and verces of his<lb/>
         Request &amp; court to my Daughter Alice before, and, at<lb/>
         yorke, &amp; since she returnd home from Learning qualitys<lb/>
-        with her Sistr Kate in the yeare 1666</head>
-         <p rend="first-line-indent">
-              -----------------------------------------------------------------------------<note place="end">
-               <p>
-              Thick dividing line.</p>
-            </note>
-         </p>
+        with her Sistr Kate in the yeare 1666
+             <!-- NOTE [endnote] Thick dividing line.-->
+        
+         </head>
+          
+       <list> 
+         
          <p>@@1.@@ Item. Mr Combers Request made to his hon.<hi rend="superscript">red</hi> Lady when<lb/>
           she went to yorke to learne Quallitys. may 1666</p>
          
@@ -11861,6 +11924,7 @@
 
          
             <fw type="pageNum">187</fw>
+           <lb/>
          
          other of my Freinds &amp; my owne indeavours. uppon which he was<lb/>
           Leagally invested into it &amp; that without any fraud or deceiptfull<lb/>
@@ -11979,7 +12043,7 @@
           cairfull to bing them up in the true faith &amp; feare of God &amp;<lb/>
           would take caire of there Temporall Estate. which he knew in<lb/>
           what a condittion it was in att Present. soe I humbly<lb/>
-          left the consideration of this weighty Affaire to his con-<lb/>
+          left the consideration of this weighty Affaire to his con-<lb break="no"/>
           sideration &amp; begged of God to direct us both to doe for the<lb/>
         best for his Glory &amp; our Comfort in our Childrens happiness.</p>
          <p>@@19.@@ uppon which letter to my dere husband. That he said to<lb/>
@@ -11994,7 +12058,7 @@
 
          
             <fw type="pageNum">189</fw>
-         
+         <lb/>
          
         In the Church. If not a Bishop. And he had rather have <lb/>
           him to have her then any other. Tho he could match her<lb/>
@@ -12012,7 +12076,7 @@
          <p>@@21.@@ Affter which answer of Mr Combers to my deare<lb/>
           husbands kindness. of his good oppinnion for him. Mr
         <lb/>
-        Thornton made answer That he would give his con-<lb/>
+        Thornton made answer That he would give his con-<lb break="no"/>
           sent if he would thinke fitt to stay Till she was at<lb/>
             <hi rend="underline">Age</hi>
              sutable to enter in to a married Estate.
@@ -12046,6 +12110,9 @@
               &amp; other graces &amp; beggs she will declaire her thoughts to him.</cell>
             </row>
          </table>
+       </list>
+          
+      
          <p rend="first-line-indent">
               Mr Combers 2<hi rend="superscript">d</hi> letter June 19 1667 To his hon.<hi rend="superscript">red</hi>
             <lb/>
@@ -12078,12 +12145,15 @@
 
          
             <fw type="pageNum">190</fw>
+         <lb/>
          
-         
-        Innocent Respects to him which made him chatch all oppor<lb/>
+        Innocent Respects to him which made him chatch all oppor<lb break="no"/>
           -tunitys to vissitt yorke, which he will not doe when she returns<lb/>
           his concluding with Zealous Regards above all others and<lb/>
           his faithfull affections never to Cease.</p>
+      
+          <!-- Q [list] although she stops numbering, seems to me this *is* a list and *possibly* also a continuation of the preceding list -->
+      
          <p rend="first-line-indent">
               A Copy of Articles of Marriage drawne by Mr<lb/>
           Comber himselfe designed to be made into forme for the<lb/>
@@ -12092,7 +12162,7 @@
           it to Passe. Dated Sept. 20 1666, which was affter don<lb/>
           in a Legall manner That day before Marriage no. 17 1668.</p>
          <p rend="first-line-indent">
-              A Letter of Mr Combers mother to me in Acquain-<lb/>
+              A Letter of Mr Combers mother to me in Acquain-<lb break="no"/>
           -ting me of her Sons affection to my Daughter Alice<lb/>
           Thornton and her desire of that marriage. August 15 68
       </p>
@@ -12104,6 +12174,8 @@
               My Lord Frechevills letter in regard of my Request<lb/>
           That he would speake to my Lord Falconbridge in Mr<lb/>
         Combers behalfe August 30<hi rend="superscript">th</hi> 1668.</p>
+      <!-- Q [list] list would end here if it is a list -->
+          
          <p rend="first-line-indent">
               The odious Lyes and abominable abuces of the servnts<lb/>
           raised uppon there evill sirinises<note place="end">
@@ -12144,6 +12216,7 @@
 
          
             <fw type="pageNum">191</fw>
+           <lb/>
          
          Bagg of money which was apoynted by Mr Thornton for him<lb/>
           to keep for my Children that was my mothers which she gave<lb/>
@@ -12213,7 +12286,7 @@
 
          
             <fw type="pageNum">192</fw>
-         
+         <lb/>
          
         Blaspheme my hon.<hi rend="superscript">or</hi> &amp; that wronged the Righteoussnes<lb/>
           of the Dead who had livd such holy Exemplary lives<lb/>
@@ -12255,7 +12328,7 @@
          <p rend="first-line-indent">
               Thus was I brought downe, at that time into my weake<lb/>
           and sorrowfull bed, by exceeding torments of Body and<lb/>
-          soule: yett I would not lett her lyes, &amp; slanders rest un-<lb/>
+          soule: yett I would not lett her lyes, &amp; slanders rest un-<lb break="no"/>
           exsamind by my brothr Denton of all the servants which they<lb/>
           had charged with there lyes, but They with all consent cryed<lb/>
           out against them, too &amp; did justify me from every one of<lb/>
@@ -12272,7 +12345,7 @@
 
          
             <fw type="pageNum">193</fw>
-         
+         <lb/>
          
         Humbly blessed the God of mercy which had judged my cause<lb/>
           and in him, I trust, will doe it to the end of my daies against<lb/>
@@ -12288,7 +12361,7 @@
             <lb/>
           soe I trust in his providene, I shall be ever kept from him for Ever</p>
          <p rend="first-line-indent">
-              Tho I was extreamly weake by this sadest. Tryall of my un-<lb/>
+              Tho I was extreamly weake by this sadest. Tryall of my un-<lb break="no"/>
           spotted hon.<hi rend="superscript">or</hi> yett still I was suported under it, That I did not<lb/>
           sinke or was murdered by it, but blesed be the great name of my<lb/>
           God, he did Raise me up very many freinds that Pittied my<lb/>
@@ -12335,6 +12408,7 @@
 
          
             <fw type="pageNum">194</fw>
+           <lb/>
          
          see him alive, There falling into The fitt of the Paulsey which<lb/>
           carried him a way, &amp; soe left me a desolate &amp; Sorrowfull widdow</p>
@@ -12350,7 +12424,7 @@
          <p rend="first-line-indent">
               By reason of my vild slanders which it pleased God<lb/>
           to permitt me to fall under, I was reduced into a dangerous<lb/>
-          sickness which followed me soe that I was advised notwithstan<lb/>
+          sickness which followed me soe that I was advised notwithstan<lb break="no"/>
           -ding all the horrid lyes, of Danby &amp; her maid, had spread<lb/>
           all over to my great &amp; exessive sorrow, &amp; had Perswaded<lb/>
           Dr Samwayes &amp; my Lady yorke against Mr Combrs match<lb/>
@@ -12380,17 +12454,18 @@
           she went away; but mary utterly denyes all &amp; that she never<lb/>
           saw or heard, or knew any Evill by me in all her life, and<lb/>
           cryes out against Mrs Danby to be soe Treatcherous. this<lb/>
-          letter dated may the 12<hi rend="superscript">th</hi> 1669 London._______________</p>
-         <p rend="first-line-indent">
+          letter dated may the 12<hi rend="superscript">th</hi> 1669 London.-----------</p>
+       </div>
+        
+        <div>
+         <head rend="post(rule_thick)" place="right">
               A collection of My freinds letters uppon the death<lb/>
           of my deare &amp; hon.<hi rend="superscript">rd</hi> husband in Comforting me for his<lb/>
-          losse and my great afflictions:</p>
-         <p rend="first-line-indent">
-              ----------------------------------------------------------------------<note place="end">
-               <p>
-              Thick dividing line.</p>
-            </note>
-         </p>
+          losse and my great afflictions:
+             <!-- NOTE [endnote] Thick dividing line.-->
+         </head>
+         
+      <list>
          <p>@@1.@@ My good Sister Craythorne writt a comfortable letter to me<lb/>
           conserning his death &amp; my other Afflictions by her son<lb/>
           Sept. 19 1668.</p>
@@ -12403,6 +12478,7 @@
 
          
             <fw type="pageNum">195</fw>
+           <lb/>
          
          Deceace, (she being newly returnd from Newton a day affter his<lb/>
           goeing to maulton), as I spoke. of. &amp; this she heard by a woole man<lb/>
@@ -12431,6 +12507,8 @@
          <p>@@7.@@ Deare Lord Frechvills, lettr to comfort me affter Mr Thorntons<lb/>
           death intends to see me when he comes to yorke octb 12 1668
       </p>
+      </list>
+          
          <p rend="first-line-indent">
               Affter the Aprisement of Mr Thorntons Parsonall Estate<lb/>
           and all those great Consernes about the Administration &amp; the
@@ -12566,6 +12644,7 @@
 
          
             <fw type="pageNum">197</fw>
+           <lb/>
          
          I began uppon your advise &amp; knowledge. I tell you I will never<lb/>
           be soe bace &amp; unworthy nor Treatcherous to her and them.<lb/>
@@ -12643,8 +12722,8 @@
           Glory and Churches good &amp; the Comfort of us all. no. 1<hi rend="superscript">t</hi> 1668</p>
          <p rend="first-line-indent">
               A good omen. That Mr Combr Takeing out A Licence to be<lb/>
-          in order to the marriage gott by him at yorke uppon a most Remar-<lb/>
-          -kable day To our Church for her deliverance from the Popish Gun-<lb/>
+          in order to the marriage gott by him at yorke uppon a most Remar-<lb break="no"/>
+          -kable day To our Church for her deliverance from the Popish Gun-<lb break="no"/>
           Pouder Treason That very day no. 5 1668 did he take out his<lb/>
           Licence for his marriage with my daughter Alice Thornton<lb/>
           The Lord have mercy on them both and blese them with all blessing.<lb/>
@@ -12693,6 +12772,7 @@
 
          
             <fw type="pageNum">199</fw>
+           <lb/>
          
          Generation in Establishing thy holy word and Gospell in this barn<note place="end">
                <p>
@@ -12739,7 +12819,7 @@
          <p rend="first-line-indent">
               When this malicious woman saw that All my freinds &amp;<lb/>
           every one that she tould her impudent lyes to did not beleive any<lb/>
-          of her storyes against me, but that I had ever walked in an un-<lb/>
+          of her storyes against me, but that I had ever walked in an un-<lb break="no"/>
           spotted Chastity all my life I blese God. Then she flew uppon this<lb/>
           poore man by storys that she had either invented or others.</p>
          <p rend="first-line-indent">
@@ -12827,6 +12907,7 @@
 
          
             <fw type="pageNum">201</fw>
+          <lb/>
          
          <p>Butt on the next opportunity I spoke to him my selfe I was soe very<lb/>
           much affected at what she had tould me. That I could not be satisfied<lb/>
@@ -12844,10 +12925,10 @@
           utter Ruine heere &amp; that if I belivd it should doe him much<lb/>
           wrong for he knew all was don to prevent it but he beeing in<lb/>
           soe great affliction uppon this with his clearing himselfe in his<lb/>
-          generall good behaviour att all times &amp; uppon Mrs Danbys in<lb/>
+          generall good behaviour att all times &amp; uppon Mrs Danbys in<lb break="no"/>
           -quiring of the said matter more fully found this was a mater<lb/>
           of private revenge in that woman, and she did deny what they<lb/>
-          said in all the sircumstances of it. And againe did fully con-<lb/>
+          said in all the sircumstances of it. And againe did fully con-<lb break="no"/>
            vince me of it. &amp; perfectly cleared &amp; pittyed him soe abused
       </p>
          <p rend="first-line-indent">
@@ -12918,21 +12999,22 @@
           mine to heaven I humbly beg in the name and for the sake of<lb/>
           Jesus Christ our Lord in that forme of Prayer which he hath taught<lb/>
           us saying Our Father wh’art in Heaven. Amen.<lb/>
-          November 17<hi rend="superscript">th</hi> 1668. --------------------------------------------------</p>
+          November 17<hi rend="superscript">th</hi> 1668.----------------------------------</p>
         </div>
         
         <div>
-         <head>
+         <head rend="post(rule)">
+           <!-- Q this title is block-right-indent. hmm. -->
            Letters Receaved from many freinds in order<lb/>
-        to comforting me in my sad Sorrowes &amp; afflictions And<lb/>
-        vindication of the marriage shewing the causes &amp; prudenc<lb/>
-        of this disposall of my daughter Alice to Mr Comber<lb/>
-         since the marriage. Together with coppies of my owne<lb/>
-        to many of my freinds To sattisfy those of them at a<lb/>
-         distance of the honnest &amp; prudent acting in this in<lb/>
-        this conserne by my freinds.</head>
-         <p rend="first-line-indent">
-              -------------------------------------------------------------------</p>
+           to comforting me in my sad Sorrowes &amp; afflictions And<lb/>
+           vindication of the marriage shewing the causes &amp; prudenc<lb/>
+           of this disposall of my daughter Alice to Mr Comber<lb/>
+           since the marriage. Together with coppies of my owne<lb/>
+           to many of my freinds To sattisfy those of them at a<lb/>
+           distance of the honnest &amp; prudent acting in this in<lb/>
+           this conserne by my freinds.
+         </head>
+         
          <p>In regard I had soe long laid under the scourge of the<lb/>
         Tongue, &amp; bin soe horridly abused by malicious slanders that<lb/>
         I was thereby Ruined allmost in my Life, health, and more<lb/>
@@ -12940,6 +13022,8 @@
           It did conserne my brother Denton, to give an account of<lb/>
           my proceedings in this affaire, and but necessary to the Just<lb/>
           vindication of my Actions.</p>
+          
+      <list>
          <p>@@1.@@ And therefore my brother Denton was Pleased to write to<lb/>
           my Aunt Norton For her information of the necessity of my<lb/>
           Acting thus from the great Debts and other Burdens on Mr<lb/>
@@ -12956,6 +13040,7 @@
 
          
             <fw type="pageNum">203</fw>
+           <lb/>
          
          He must further say in justification of my actions That I was<lb/>
           compelled out of a prudent caire, of my Children &amp; necessity; to <hi rend="superscript">203</hi><!-- ??? --><lb/>
@@ -12990,6 +13075,9 @@
           his death my owne great sickness and weakness by the heavy<lb/>
           Burdens of my Estate. beeing left in 1500<hi rend="superscript">l</hi> Debt. having nothig<lb/>
           to maintaine or Educate my only Son but 100<hi rend="superscript">l</hi> for all a yeare.</p>
+      </list>
+          
+        <!-- Q [list] again is this a continuation of preceding list items? -->
          <p rend="first-line-indent">
               And lastly my owne Sadest condittion by the viprous Tongs<lb/>
           and mallice of Danby &amp; my wicked servants upheld by her<lb/>
@@ -13086,10 +13174,11 @@
 
          
             <fw type="pageNum">205</fw>
+          <lb/>
          
          <p>Oh make them fruitfull in all good workes, but Especially make<lb/>
           him; the husband of my deare Child; A glorious Instrument of<lb/>
-          thy Gospell; a converter of Soules, to thy Kingdom &amp; a vessell pre-<lb/>
+          thy Gospell; a converter of Soules, to thy Kingdom &amp; a vessell pre-<lb break="no"/>
           -pared for thy Sanctuary to sett forth thy name in this generati<lb/>
           and a painfull laborer in thy vinnyard &amp; to bring many to<lb/>
           Righteousness, by his holy Life and godly Example that when<lb/>
@@ -13195,8 +13284,8 @@
               I blesse God, I allso receaved a most kinde and Comfortable<lb/>
           letter of my deare Aunt Norton in answer to myne by Dafeny of<lb/>
           Jan. 2 1668<hi rend="superscript">/9</hi>
-             when I acq. her with Alice marriag &amp; the Resons.
-         </p>
+             when I acq. her with Alice marriag &amp; the Resons.<lb/>
+         
          
         <pb n="207"/>
 
@@ -13204,8 +13293,9 @@
 
          
             <fw type="pageNum">207</fw>
+           <lb/>
          
-         <p>Jan. 8<hi rend="superscript">th</hi> 1668<hi rend="superscript">/9</hi> To which she returnd That she was fully con-<lb/>
+         Jan. 8<hi rend="superscript">th</hi> 1668<hi rend="superscript">/9</hi><!-- NOTE date is *not* in margin --> To which she returnd That she was fully con-<lb break="no"/>
           vinced &amp; sattisifed of the good Ends &amp; necessity of my occasion<lb/>
           and reasons which was a great greife that I should be in such<lb/>
           sircumstances. But she did write a most Pieous and Christian<lb/>
@@ -13214,7 +13304,7 @@
           Slanders which I never deserved, but had a clere Consience from<lb/>
           all the world ever since she knew me &amp; that was since I was born</p>
          <p rend="first-line-indent">
-              And that God would delivr me out of them and would re-<lb/>
+              And that God would delivr me out of them and would re-<lb break="no"/>
           ward all my Enimyes for there wickedness according to there<lb/>
           deserts. she wished me to sattisfy my heart that God would doe<lb/>
           me good for what I indred
@@ -13271,7 +13361,7 @@
 
          
             <fw type="pageNum">208</fw>
-         
+         <lb/>
          
         for her wicked malice towards me, For God will plead my<lb/>
           cause for me and will not suffer me to dy unrevenged of my<lb/>
@@ -13317,7 +13407,7 @@
          </p>
          <table rend="rules">
             <row>
-               <cell>B. Scarbro<lb/>
+               <cell>B. Scarbro<lb break="no"/>
               -ugh
                </cell>
                <cell>
@@ -13343,7 +13433,7 @@
 
          
             <fw type="pageNum">209</fw>
-         
+         <lb/>
          
         But she still hated me &amp; us for the reason aforesaid which proceded<lb/>
           soe much till she found an opportunity to be revenged of us in<lb/>
@@ -13408,6 +13498,7 @@
 
          
             <fw type="pageNum">210</fw>
+          <lb/>
          
          <p>Butt beeing with in a little of my time of my Last Childe<lb/>
           was extreamly Afflicted for it &amp; did beg I might have a Sight<lb/>
@@ -13468,6 +13559,7 @@
 
          
             <fw type="pageNum">211</fw>
+           <lb/>
          
          Sought to bring me into. But my deare husband would not <lb/>
           goe out of his house to malton before he turned her out himselfe<lb/>
@@ -13479,9 +13571,9 @@
          <p rend="first-line-indent">
               And it seemed Mr Thornton had bin tould by my Lady york<lb/>
           that he 
-        <hi rend="superscript">^@Mr Tankerd@^</hi><note place="end">
-               <p>["Mr Tankard" in left margin ]</p>
-            </note> would lay a guiney That if Mr Thornton were dead<lb/>
+        <hi>@Mr Tankerd@</hi>
+                 <!-- Q [margin] [endnote] ["Mr Tankard" is in left margin *not* above line - but caret between "that" and "he" indicates word is meant to go here - although "he" then doesn't quite make sense either!] check best approach to this. --> 
+           would lay a guiney That if Mr Thornton were dead<lb/>
           I would be married with in a month to this Mr Combr, which my deare<lb/>
           husband did take soe hainously That he tould Mrs norton he<lb/>
           would goe to malton that day beeing at the faire, on Purpose to meete<lb/>
@@ -13535,6 +13627,7 @@
 
          
             <fw type="pageNum">212</fw>
+          <lb/>
          
          <p>Lord Jesus make me truly thankefull to thy devine majesty <lb/>
           which would not lett my good name which thou in mercy had given<lb/>
@@ -13701,21 +13794,17 @@
         </div>
         
         <div>
-         <head>
-            <hi style="font-size:14pt">These following letters and account of my Actions and<lb/>
-          freinds letters uppon my Slanders &amp; sorrowes still followed<lb/>
-          against me &amp; spread lyes by Mrs Danbys Tongue &amp; contineud<lb/>
-          mallice affter the Publication of my Daughters marriage. which</hi>
-            <lb/>
-            <hi style="font-size:14pt">was don with a great solemnity &amp; Regard. may the 17</hi><hi rend="superscript" style="font-size:14pt">th</hi>
-            <hi style="font-size:14pt">1669</hi>
-            <!-- Q font-size 14pt - is this title larger than usual? -->
+         <head rend="post(rule_thick)">
+            These following letters and account of my Actions and<lb/>
+            freinds letters uppon my Slanders &amp; sorrowes still followed<lb/>
+            against me &amp; spread lyes by Mrs Danbys Tongue &amp; contineud<lb/>
+            mallice affter the Publication of my Daughters marriage. which<lb/>
+            was don with a great solemnity &amp; Regard. may the 17<hi rend="superscript">th</hi>
+            1669
+            <!-- Q [transcription] word formatting font-size 14pt - but title doesn't actually look larger than usual? -->
+             <!-- NOTE [endnote] Thick dividing line.-->
          </head>
-         <p> ---------------------------------------------------------------------------------<note place="end">
-               <p>
-              Thick dividing line.</p>
-            </note>
-         </p>
+         
          <p>May the 17 1669 Beeing a just halfe yeare affter the marriage<lb/>
           of my deare Childe &amp; Eldest Daughter Alice Thornton did I<lb/>
           invite all our nearest Relations and Mr Thorntons freinds. which
@@ -13758,6 +13847,7 @@
 
          
             <fw type="pageNum">215</fw>
+           <lb/>
          
          A Blessing to us &amp; make them heires of Etternall Life to full fill his<lb/>
           Kingdom &amp; to be a Comfort to this Poore dispesed Family &amp; me a<lb/>
@@ -13770,12 +13860,11 @@
           And will I hope confound our malicious Enimies or bring them<lb/>
           to convertion for our Lord Jesus Christ his Sake Amen. Amen. Amn.
       </p>
-         <p rend="first-line-indent">
-              -------------------------------------------------------------------------------------<note place="end">
-               <p>
-              Thick dividing line.</p>
-            </note>
-         </p>
+          </div>
+       
+       <div rend="pre(rule_thick)">
+            <!-- NOTE [endnote] Thick dividing line. -->
+         
          <p rend="first-line-indent">
               In regard I was soe odiously Blaspheamed in my hon.<hi rend="superscript">or</hi>
             <lb/>
@@ -13784,7 +13873,7 @@
           in my vindication from hell &amp; his complices. I am allso in duty<lb/>
           obleiged, both towards God, my guide, and all my owne vindication<lb/>
           to give all my absent freinds who might unhappily have herd<lb/>
-          the Clamors of my Enimies, but what was the truth of my Con-<lb/>
+          the Clamors of my Enimies, but what was the truth of my Con-<lb break="no"/>
           -dittion or what great reasons &amp; indcements
         <note place="end">
                <p>
@@ -13830,6 +13919,7 @@
 
          
             <fw type="pageNum">216</fw>
+           <lb/>
          
          who was Esteemed an understanding &amp; Ingenious Person &amp;<lb/>
           may doe very well in the marriage of my Daughter wishing all<lb/>
