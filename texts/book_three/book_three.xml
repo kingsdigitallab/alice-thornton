@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -99,6 +98,7 @@
         sample prefixDef from dbw project. 
         using prefixes in entity linkage.
         add "atb" for project links.
+        "mnote" for margin <note>
         
         <listPrefixDef>
           <prefixDef ident="ppl"
@@ -147,7 +147,11 @@
              <name>Sharon Howard</name>
              <desc>make file validate; move to github repo</desc>
            </change>
-           
+           <change>
+             <date>2022-07-19</date>
+             <name>Sharon Howard</name>
+             <desc>structural tagging including most of marginalia; added ids to margin notes in preparation for linking to text</desc>
+           </change>
          </listChange>
       </revisionDesc>
    </teiHeader>
@@ -401,7 +405,7 @@
 
          <p rend="first-line-indent">
             
-            <note place="left margin">
+            <note xml:id="mnote-0001" place="left margin">
               <ref>Psal.19:<lb/>
               9.</ref><lb/>
               <ref>10.</ref>
@@ -414,7 +418,7 @@
          </p>
 
             <p rend="first-line-indent">
-              <note place="left margin">
+              <note xml:id="mnote-0002" place="left margin">
                   <ref>11.</ref>
                </note>
                
@@ -423,12 +427,12 @@
             </p>
 
             <p rend="first-line-indent">
-               <note place="left margin"><ref>12.</ref></note>
+               <note xml:id="mnote-0003" place="left margin"><ref>12.</ref></note>
                
               Who can tell how oft he offendeth; O clence me from<lb/>
               my secrett faults and keepe thy handmaide from Presu-<lb break="no"/>
                
-               <note place="left margin"><ref>13.</ref></note>
+               <note xml:id="mnote-0004" place="left margin"><ref>13.</ref></note>
                -mptuous sins, least they get the dominion over me;
                  <note place="end">
                      <p>
@@ -437,7 +441,7 @@
               shall I be kept undefiled still, &amp; innocent by thy grace<lb/>
               from all those great offences, which destroyes soe many<lb/>
               
-               <note place="left margin"><ref>14.</ref></note>
+               <note xml:id="mnote-0005" place="left margin"><ref>14.</ref></note>
               poore Soules, which runs from thy Lawes (which is the guide of<lb/>
               there youth) oh let me not faint, or fall in this my weary<lb/>
               Pilgramage appoynted in this life.
@@ -558,7 +562,7 @@
         as I may justly avouch: who am now left the most desolate <lb/>
         &amp; forelorne Widow in the World. by this seperation of soe dear A <lb/>
         Husbd But, who may say to the Lord, what doest Thou, since <lb/>
-            <note rend="post(rule)" place="left margin">
+            <note xml:id="mnote-0006" rend="post(rule)" place="left margin">
               Uppon Mr Thorntons<lb/>
               Reflections &amp; wishes<lb/>
               for us all to dye,<lb/>
@@ -601,7 +605,7 @@
         his worke which he has appoynted us to doe, We shall injoy the same. <lb/>
         But as to the sett time of our departure we dare not appoynt it<lb/>
             
-        <note place="left margin" rend="post(rule)">
+        <note xml:id="mnote-0007" place="left margin" rend="post(rule)">
           We must<lb/>
               patiently<lb/>
               stay &amp; wait<lb/>
@@ -639,7 +643,7 @@
         be preserved and spaired for his Childrens good. &amp; that I might doe them mor <lb/>
         good then he could doe. &amp; hoped I might out live him &amp; be a comfort
         
-        <note place="left margin" rend="post(rule)">his gentle<lb/>
+        <note xml:id="mnote-0008" place="left margin" rend="post(rule)">his gentle<lb/>
               reproofe of<lb/>
               me for doting<lb/>
               too much uppon<lb/>
@@ -674,7 +678,7 @@
          <p rend="first-line-indent"> 
            That in thy <hi rend="superscript">^sight^</hi> O Lord my God, grant that I may there Take Sanctuary<lb/>
            
-         <note place="left margin" rend="post(rule)">
+         <note xml:id="mnote-0009" place="left margin" rend="post(rule)">
            A prayer<lb/>
             &amp; meditation<lb/>
               for submition <lb/>
@@ -731,7 +735,7 @@
       <div rend="pre(rule)">
          
          <p>
-         <note place="left margin" rend="post(rule)">
+         <note xml:id="mnote-0010" place="left margin" rend="post(rule)">
            My Age at<lb/>
             Mr Thorntons<lb/>
               Death Sept. 17<lb/>
@@ -753,7 +757,7 @@
           till Sept. 17 1668</p>
         
          <p>
-          <note place="left margin" rend="post(rule)">
+          <note xml:id="mnote-0011" place="left margin" rend="post(rule)">
             Living in the<lb/>
               marriage Estate <lb/>
               16 yeares &amp; 9<lb/>
@@ -778,7 +782,7 @@
       </p>
         
       <p rend="first-line-indent">
-         <note place="left margin">
+         <note xml:id="mnote-0012" place="left margin">
            <!-- NO RULE -->
            The Age of<lb/>
            my Son Robert
@@ -793,7 +797,7 @@
 <!-- Page 24. -->
 
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0013" place="left margin" rend="post(rule)">
                   <!-- NOTE [margin] RT is in top left corner leaving a space above first line of main text. possibly intended to be a continuation of note at the bottom of the preceding page. ruled line under RT as well as usual post-rule. -->
               <hi rend="underline">R.T.</hi>
                   <lb/>
@@ -814,7 +818,7 @@
          </p>
         
          <p>
-          <note place="left margin" rend="post(rule)">
+          <note xml:id="mnote-0014" place="left margin" rend="post(rule)">
             Born Sept<lb/>
               19 1662
           </note>
@@ -822,7 +826,7 @@
               his only son, whom he had begged of God to continue his family<lb/>
               (to be brought up) but left him soe young to my poore indevors 
             
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0015" place="left margin" rend="post(rule)">
               Att<lb/>
               Easte<lb/>
               Newton
@@ -838,7 +842,7 @@
          </p>
          <p rend="first-line-indent">
          
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0016" place="left margin" rend="post(rule)">
               Alice<lb/>
               Thornton<lb/>
               Eldest<lb/>
@@ -863,7 +867,7 @@
               My second Daughter Katherine Thornton: Borne June<lb/>
           the 12<hi rend="superscript">th</hi> 1656 att Hispwell. Was completed the Age. This yeare <lb/>
          
-         <note place="left margin" rend="post(rule)">
+         <note xml:id="mnote-0017" place="left margin" rend="post(rule)">
            Katherine<lb/>
               Thornton<lb/>
               2<hi rend="superscript">d</hi> Dau{ghter}<lb/>
@@ -894,7 +898,7 @@
          <p>I being at, &amp;, before the Death of my deare Husband <lb/>
           fallen into a very great &amp; dangerous Condittion of Sickness
          
-         <note place="left margin" rend="post(rule)">my faintings<lb/>
+         <note xml:id="mnote-0018" place="left margin" rend="post(rule)">my faintings<lb/>
               &amp; weakness on<lb/>
               the Slanders.
                </note>
@@ -917,7 +921,7 @@
             </note> to administer some <lb/>
           comfort in this sad condittion with perswading Arguments. 
          
-          <note place="left margin" rend="post(rule)">
+          <note xml:id="mnote-0019" place="left margin" rend="post(rule)">
             on Mr Thornt{on}<lb/>
             his death
                </note>
@@ -932,7 +936,7 @@
           I was soe clearly vindicated by my deare husbands faithfull <lb/>
           &amp; tender deare expressions &amp; constant Zealous beleife, &amp; affection <lb/>
          
-          <note place="left margin" rend="post(rule)">
+          <note xml:id="mnote-0020" place="left margin" rend="post(rule)">
             Arguments of<lb/>
               Comfort from<lb/>
               Mr Thorntons<lb/>
@@ -955,7 +959,7 @@
           my cause, and righted me against, that abominable beast Mr Tankd <lb/>
           who enved any ones Chastity: but was alwaies an Enemy to his Family <lb/>
          
-          <note place="left margin" rend="post(rule)">
+          <note xml:id="mnote-0021" place="left margin" rend="post(rule)">
             To Aunt<lb/>
             Norton. &amp; B.D
           </note>
@@ -986,7 +990,7 @@
           Parents gon, &amp; soley Left orphants. </p>
          <p rend="first-line-indent">
 
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0022" place="left margin" rend="pre(rule) post(rule)">
                           
               Mr Thorntons<lb/>
               inducement<lb/>
@@ -1009,7 +1013,7 @@
          <p rend="first-line-indent">
               These things incoraged Mr Thornton &amp; my selfe, To goe on<lb/>
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0023" place="left margin" rend="pre(rule) post(rule)">
                                    
                   Articles of <lb/>
               marriage<lb/>
@@ -1038,7 +1042,7 @@
             The consideration of these arguments used 
             <hi rend="superscript">^by^</hi> my freinds to comfot<lb/>
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0024" place="left margin" rend="pre(rule) post(rule)">
                             
               Argument<lb/>
               of comfort<lb/>
@@ -1072,7 +1076,7 @@
          
          <p>
             
-               <note place="left margin" rend="post(rule)">A Praier<lb/>
+               <note xml:id="mnote-0025" place="left margin" rend="post(rule)">A Praier<lb/>
               for my delivrie<lb/>
               from my Enimy
                </note>
@@ -1130,7 +1134,7 @@
       <div rend="pre(rule)"> 
         
          <p>
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0026" place="left margin" rend="post(rule)">
               An Account<lb/>
               of my marriag<lb/>
               ge <lb/>
@@ -1156,7 +1160,7 @@
            and Condittion. as itt then stood, And by what meanes it<lb/>
            came to passe, &amp; fell uppon me, which involved me into such<lb/>
          
-         <note place="left margin" rend="post(rule)">
+         <note xml:id="mnote-0027" place="left margin" rend="post(rule)">
               The <lb/>
               Consquence
                </note>
@@ -1185,7 +1189,7 @@
                <p>
               Sic for ‘Samwaies’; i.e. Peter Samwaies or Samwayes, D.D. (1615-1693).</p>
             </note> &amp; my Cozen Browne To<lb/>
-          <note place="left margin" rend="post(rule)">
+          <note xml:id="mnote-0028" place="left margin" rend="post(rule)">
             The<lb/>
             first Sacra-<lb break="no"/>
               -ment att<lb/>
@@ -1222,7 +1226,7 @@
           sad oppression of a dreadfull Tormenting Feaver<lb/>
           being infinitly afflicted in it with A troubled mind<lb/>
           for the depravation of Gods Spirritt &amp; his holy word &amp;<lb/>
-         <note place="left margin" rend="post(rule)">The Sad <lb/>
+         <note xml:id="mnote-0029" place="left margin" rend="post(rule)">The Sad <lb/>
               afflictions on<lb/>
               me att Oswold<lb/>
               kirke, affter my<lb/>
@@ -1259,7 +1263,7 @@
         
          <p rend="first-line-indent">
          
-          <note place="left margin" rend="post(rule)">
+          <note xml:id="mnote-0030" place="left margin" rend="post(rule)">
             St Matt. 11:<lb/>
             v. 28, 29, 30
            </note>
@@ -1280,7 +1284,7 @@
                   <!-- NOTE [margin] 'The Rebellion' starts about half a line above 'Uppon that' - not a full line difference.-->
          
          <p>
-         <note place="left margin" rend="post(rule)">
+         <note xml:id="mnote-0031" place="left margin" rend="post(rule)">
            The Rebellion<lb/>
             of the Long Parla-<lb break="no"/>
             -ment, against<lb/>
@@ -1311,7 +1315,7 @@
          </p>
          
          <p rend="first-line-indent">
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0032" place="left margin" rend="post(rule)">
              
               The fatall<lb/>
               Batall of<lb/>
@@ -1377,7 +1381,7 @@
          
          <p rend="first-line-indent">
             
-             <note place="left margin" rend="post(rule)">
+             <note xml:id="mnote-0033" place="left margin" rend="post(rule)">
                <!-- RULE "post-"rule is actually above last line of note (1643) -->
               My 2 Brothrs<lb/>
               deliverance<lb/>
@@ -1432,7 +1436,7 @@
          
           <p rend="first-line-indent">
          
-            <note place="left margin" rend="pre(rule) post(rule)">
+            <note xml:id="mnote-0034" place="left margin" rend="pre(rule) post(rule)">
               
                  My mothers<lb/>
                  &amp; my owne de-<lb break="no"/>
@@ -1473,7 +1477,7 @@
          
          <p rend="first-line-indent">
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0035" place="left margin" rend="pre(rule) post(rule)">
                                
               The godly man<lb/>
               Mr Daggett<lb/>
@@ -1499,7 +1503,7 @@
           great happiness, to live under, his Ministery, beeing of noe smale<lb/>
           conserne to our poore Soules, to have such Excelent doctrine joyned<lb/>
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0036" place="left margin" rend="pre(rule) post(rule)">
                         
               His Life<lb/>
               &amp; Doctrine
@@ -1541,7 +1545,7 @@
           Text. 1 Thessalonians: Chapt. 4 v. 13</p>
          
          <p rend="first-line-indent">
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0037" place="left margin" rend="pre(rule) post(rule)">
                             
               his last<lb/>
               Text 1 The.<lb/>
@@ -1562,7 +1566,7 @@
           calld to his house to vissitt him on his sicke bed.
          </p>
          <p rend="first-line-indent">
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0038" place="left margin" rend="post(rule)">
                 his sickness
                </note>
                
@@ -1583,7 +1587,7 @@
            
          Sperritt, with his hands, &amp; Eyes erricted, up to heaven, he was ready<lb/>
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0039" place="left margin" rend="pre(rule) post(rule)">
                              
                   his Confession<lb/>
               Prayers, &amp; Death
@@ -1603,7 +1607,7 @@
           to restore truth, &amp; Peace againe in this our Land.</p>
          <p rend="first-line-indent"> About the time of day when, the Bell was Ringing to<lb/>
          
-         <note place="left margin" rend="post(rule)">9 aclocke.</note>
+         <note xml:id="mnote-0040" place="left margin" rend="post(rule)">9 aclocke.</note>
                Church, att that time it was sent to ring this sweete Soules<lb/>
                
           Passing Peale; And thus, departed that sweete servant of God<lb/>
@@ -1622,7 +1626,7 @@
           word, there fell uppon my deare mother, &amp; her Family very<lb/>
           many troubles; &amp; afflictions; for all the caire and conserns to<lb/>
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0041" place="left margin" rend="pre(rule) post(rule)">
                          
             Mr Siddall<lb/>
             Preached his Fu.<lb/>
@@ -1654,7 +1658,7 @@
           That Liveing Ever belonged to my Forefathers of the <lb/>
           Wandesfords: soe belonging to that Family, to Present to it<lb/>
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0042" place="left margin" rend="pre(rule) post(rule)">
                             
                   Kirkling-<lb break="no"/>
               ton Living<lb/>
@@ -1678,7 +1682,7 @@
           according to Law in those cases.</p>
          
          <p rend="first-line-indent">
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0043" place="left margin" rend="post(rule)">
               <!-- RULE only a filler line after "George" -->
               Mr Syddall<lb/>
               Presented<lb/>
@@ -1702,7 +1706,7 @@
           the seate of that they Calld Parliment. with out a head; A King<lb/>
           or governour; or house of Lords but ruled, &amp; over Awed all Lawes<lb/>
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0044" place="left margin" rend="pre(rule) post(rule)">
                        
             The Par<hi rend="superscript">^met^</hi> did<lb/>
             Rob. our Fam<lb/>
@@ -1739,7 +1743,7 @@
           to send one to it himselfe; which was a most inhumaine part.</p>
          
          <p rend="rules">
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0045" place="left margin" rend="post(rule)">
                   Clarksan
                   <note place="end">
                      <p>
@@ -1763,7 +1767,7 @@
         <lb/>
          
          <p>
-          <note place="left margin" rend="post(rule)">
+          <note xml:id="mnote-0046" place="left margin" rend="post(rule)">
               he spoke<lb/>
               Blasphemy<lb/>
               against the Lords Pray<hi rend="superscript">^r^</hi>
@@ -1788,7 +1792,7 @@
                bennifitt to himselfe &amp; Mr Siddall the other halfe.<lb/>
          
             
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0047" place="left margin" rend="pre(rule) post(rule)">
                                 
                Mr Siddall<lb/>
                applied to Nesbett<lb/>
@@ -1839,7 +1843,7 @@
           any have the Power to bestow Livings which was suspected to<lb/>
          
             
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0048" place="left margin" rend="pre(rule) post(rule)">
                                
                   Mr Nesbitts<lb/>
               deniall to Mr<lb/>
@@ -1865,7 +1869,7 @@
           not to doe it, and had thoughts, to bestowe it otherwise.<lb/>
           Thus went of all the sincere freindship (of a Pretended one, but<lb/>
          
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0049" place="left margin" rend="post(rule)">
                  A scottch<lb/>
               Cheate
                </note>
@@ -1877,7 +1881,7 @@
           , and this nessbit made it fully appeare, both before God &amp; man.<lb/>
           who while he made Mr Siddall good man, beleve he was speakng<lb/>
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0050" place="left margin" rend="pre(rule) post(rule)">
                              
                   Nesbitt gott<lb/>
                   it for himself
@@ -1934,7 +1938,7 @@
          
          
             <p>
-              <note place="left margin" rend="pre(rule) post(rule)">
+              <note xml:id="mnote-0051" place="left margin" rend="pre(rule) post(rule)">
                  
                     <note place="end">
                         <p>Thick line above Alderman.</p>
@@ -1951,7 +1955,7 @@
             </p>
          
             <p rend="first-line-indent"> 
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0052" place="left margin" rend="post(rule)">
               Nesbit affter some<lb/>
                  yeares injoying the<lb/>
               Living of K.(but not<lb/>
@@ -1974,7 +1978,7 @@
              <!-- NOTE [endnote] NB. Although placed in the margin, this insertion should be placed between ‘this’ and ‘to’.-->
        <add place="left margin">Living</add> to Nesbitt by the Parliament, who gained soe well by his in-<lb break="no"/>
            
-              <note place="left margin" rend="pre(rule) post(rule)">
+              <note xml:id="mnote-0053" place="left margin" rend="pre(rule) post(rule)">
                             
             A false <lb/>
             Sequestration<lb/>
@@ -2003,7 +2007,7 @@
           in a capacity to offend them beeing but a weake widow, &amp; 3 smale<lb/>
           Children; only to make us a Prey to theire vengeance because<lb/>
           of our oppinnion, &amp; true faith, against theire Heathenisme.<lb/>
-          <note place="left margin" rend="post(rule)">our Preservati<hi rend="superscript">^on^</hi></note>
+          <note xml:id="mnote-0054" place="left margin" rend="post(rule)">our Preservati<hi rend="superscript">^on^</hi></note>
           
           But, Blessed be (to) God it was not in there power to destroy us Tho<lb/>
           they followed, us with all theire stormes, yett in God we found mercy<lb/>
@@ -2018,7 +2022,7 @@
          
          <p rend="fl-indent"> Which these poore men by a mistake; did confess They see him on<lb/>
          
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0055" place="left margin" rend="post(rule)">
                  The way of<lb/>
                  proceeding agant<note place="end">
                      <p>
@@ -2054,7 +2058,7 @@
          they would not perjure them selves, but dismissed in displeasure.</p>
          
            <p rend="first-line-indent">
-             <note place="left margin" rend="pre(rule) post(rule)">
+             <note xml:id="mnote-0056" place="left margin" rend="pre(rule) post(rule)">
                <!-- RULES COMPLICATED. post is really just a filler line after 1651, extra line above March 31. -->
                
             Plumer &amp;<lb/>
@@ -2091,7 +2095,7 @@
           affter my Fathers death.) whose name was Mr George Anderson.</p>
          
             <p rend="first-line-indent">
-              <note place="left margin" rend="pre(rule) post(rule)">
+              <note xml:id="mnote-0057" place="left margin" rend="pre(rule) post(rule)">
                                
                   my<lb/>
               B. G. W.<lb/>
@@ -2112,7 +2116,7 @@
           for releife, &amp; in his comming from thence to Kirklington to my deare<lb/>
          mother, in order to his Releife; was very infortunately in his Jorney<lb/>
            
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0058" place="left margin" rend="pre(rule) post(rule)">
                                
               Returned<lb/>
               home for<lb/>
@@ -2148,7 +2152,7 @@
          
         Prove, him an, Enimy; to the Parliament beeing actually in<lb/>
         
-               <note place="left margin" rend="post(rule)">Falsley objected</note>
+               <note xml:id="mnote-0059" place="left margin" rend="post(rule)">Falsley objected</note>
               Armes on that moore, to which they gott the testimony of the poore<lb/>
               men against him, as really as if he had taken up Armes; &amp; had<lb/>
               fought, which he did not, neither did the wittnesses accuse him<note place="end">
@@ -2165,7 +2169,7 @@
           present to the Liveing, &amp; there by it fell into my Lord Fairfax,<lb/>
           and the Parliaments hands, who immeadiatly, Presented him<lb/>
          
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0060" place="left margin" rend="post(rule)">
              Mr Sydall<lb/>
              Sequestered
            </note>
@@ -2183,7 +2187,7 @@
           what remedy he could, to remove or cleare the Sequestration &amp;<lb/>
           relieve this Family then under this oppression &amp; apparant Ruine<lb/>
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0061" place="left margin" rend="pre(rule) post(rule)">
             
             Uncle W. Wan{desford}<lb/>
               Aplication to<lb/>
@@ -2211,7 +2215,7 @@
              in a good match.
          </p>
          <p rend="first-line-indent">
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0062" place="left margin" rend="pre(rule) post(rule)">
                                 
               Mr R. D. an<lb/>
               Eye on Mr Th.<lb/>
@@ -2248,7 +2252,7 @@
          
             
          <p rend="first-line-indent">
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0063" place="left margin" rend="pre(rule) post(rule)">
                                 
             contrary to<lb/>
             my owne <lb/>
@@ -2273,7 +2277,7 @@
           with 5 younger Children, undisposed, or provided for; And A House<lb/>
           to Build from the ground.</p>
           <p rend="first-line-indent">
-            <note place="left margin" rend="pre(rule) post(rule)">
+            <note xml:id="mnote-0064" place="left margin" rend="pre(rule) post(rule)">
                              
               I denyed<lb/>
               these two<lb/>
@@ -2315,7 +2319,7 @@
             </note> oppinnion of the Prestbeterians. I could by noe means<lb/>
          have granted to dispose, soe of my selfe, to be misserable in the great conserne of<lb/>
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0065" place="left margin" rend="pre(rule) post(rule)">
                                    
                   my declaro{tion}<lb/>
               of my Relig{ion}<lb/>
@@ -2348,7 +2352,7 @@
                soe happy in my condition of a single Life; That I loved it above all,<lb/>
          
          
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0066" place="left margin" rend="pre(rule) post(rule)">
                                 
                  Mr Thornton<lb/>
                  owning himself<lb/>
@@ -2380,7 +2384,7 @@
           in God I might injoy that one thing necesary as mary did, which<lb/>
           might never be taken from me, if I chose heere.</p>
          <p rend="first-line-indent">
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0067" place="left margin" rend="pre(rule) post(rule)">
                                
                   my incoragem<hi rend="superscript">^t^</hi>
                   <lb/>
@@ -2409,7 +2413,7 @@
           Pray, to have devoured us up, Roote &amp; Branch;</p>
          <p rend="first-line-indent">
                I cannot deny, my great unwillingness (contrary to my<lb/>
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0068" place="left margin" rend="pre(rule) post(rule)">
                                
                   I had designed<lb/>
                   much of my fortun<lb/>
@@ -2429,7 +2433,7 @@
 <!-- Page 42 -->
 
             
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0069" place="left margin" rend="pre(rule) post(rule)">
                                    
                   Troubles upon<lb/>
                   my Change<lb/>
@@ -2446,7 +2450,7 @@
          </p>
          
          <p rend="first-line-indent">
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0070" place="left margin" rend="pre(rule) post(rule)">
                                    
                <!--ruled line level-ish with preceding line -->
                  8 y.<note place="end">
@@ -2466,7 +2470,7 @@
 
          
             
-           <note place="left margin" rend="pre(rule) post(rule)">
+           <note xml:id="mnote-0071" place="left margin" rend="pre(rule) post(rule)">
                                    
                   The first<lb/>
               Sacrament<lb/>
@@ -2480,7 +2484,7 @@
               Browne assisting him. at Newton. first consecrating it to God.
           </p>           
           <p rend="first-line-indent">            
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0072" place="left margin" rend="post(rule)">
                   Br. &amp; Sisters<lb/>
                 Portions.<lb/>
                 1500<hi rend="superscript">l</hi>
@@ -2506,7 +2510,7 @@
                
          
             
-                    <note place="left margin" rend="pre(rule) post(rule)">
+                    <note xml:id="mnote-0073" place="left margin" rend="pre(rule) post(rule)">
                   
                      The house<lb/>
                      att newton<lb/>
@@ -2551,7 +2555,7 @@
          
          <p>
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0074" place="left margin" rend="post(rule)">
               The comming<lb/>
               to live at<lb/>
               oswoldkirke<lb/>
@@ -2574,7 +2578,7 @@
           off my freinds, Relations, assistants, in my distress, was very great.<lb/>
          
          
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0075" place="left margin" rend="post(rule)">
               <!-- RULE actually above final line of note -->
                   I was seized<lb/>
               with A desperate<lb/>
@@ -2591,7 +2595,7 @@
          </p>
          <p>
            beeing under a spirrituall dissertion, by the instigation of<lb/>
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0076" place="left margin" rend="post(rule)">
              
              Neare dispaire<lb/>
             wanting A spirit-<lb break="no"/>
@@ -2623,7 +2627,7 @@
 
          
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0077" place="left margin" rend="post(rule)">
               my trouble to<lb/>
               Leave my 2<lb/>
               Daughters in an<lb/>
@@ -2663,7 +2667,7 @@
           my two poore Children, in case of my mortallity.</p>
          <p>
             
-         <note place="left margin" rend="post(rule)">The Return<lb/>
+         <note xml:id="mnote-0078" place="left margin" rend="post(rule)">The Return<lb/>
               of King Ch.<lb/>
               2<hi rend="superscript">d</hi> may 29<lb/>
               1660
@@ -2684,7 +2688,7 @@
          </p>
          <p>
             Which returne made to my question; was very sirprising<lb/>
-               <note place="left margin" rend="post(rule)">my Son <lb/>
+               <note xml:id="mnote-0079" place="left margin" rend="post(rule)">my Son <lb/>
               will.<hi rend="superscript">m</hi>
                    bo<hi rend="superscript">^r^</hi>ne<lb/>
               Baptized<lb/>
@@ -2706,7 +2710,7 @@
           don. but how unjust was these Lawyers, to deceave, those which depended<lb/>
           on their fidelity./ only in my God to whom I praied for direction. And help.</p>
          <p rend="first-line-indent">
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0080" place="left margin" rend="post(rule)">
               Mr Thorn.<lb/>
               had Powr<lb/>
               to destroy the<lb/>
@@ -2732,7 +2736,7 @@
             <fw type="pageNum">45</fw>
          
          <p>
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0081" place="left margin" rend="post(rule)">
               Coz. Ledgerds<lb/>
               draught of A<lb/>
               Bond for Mr Th.<lb/>
@@ -2769,7 +2773,7 @@
           owne Relations weare; And, his fathers first wives weare too;</p>
          
           <p rend="first-line-indent"> 
-               <note place="left margin" rend="post(rule)">my Cheife<lb/>
+               <note xml:id="mnote-0082" place="left margin" rend="post(rule)">my Cheife<lb/>
               Conserne for the<lb/>
               Education of my<lb/>
               Children in the true<lb/>
@@ -2803,7 +2807,7 @@
          
          Gospell, came, into my heart, by his holy Spirritt which he spok<lb/>
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0083" place="left margin" rend="post(rule)">
               
               My spiritull <lb/>
               Comfort from<lb/>
@@ -2845,7 +2849,7 @@
          &amp; would helpe me in, &amp; out, of my sad distress.
          </p>
          <p rend="first-line-indent">
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0084" place="left margin" rend="post(rule)">
              My thanks<lb/>
              giving to<lb/>
               my God for<lb/>
@@ -2906,7 +2910,7 @@
           of meekenes. humility. lowly in heart; &amp; charity.</p>
          <p rend="first-line-indent">
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0085" place="left margin" rend="post(rule)">
                  My prayer &amp;<lb/>
               humbling my<lb/>
               Soule before my<lb/>
@@ -2976,7 +2980,7 @@
          </p>
          
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0086" place="left margin" rend="post(rule)">
                  Satan put<lb/>
                  to flight by<lb/>
               power of Gods<lb/>
@@ -3018,7 +3022,7 @@
          <p>
             lett thy holy name be glorified by me for ever And make me to<lb/>
          
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0087" place="left margin" rend="post(rule)">
               All Glory <lb/>
               be to our great<lb/>
               God for Ever
@@ -3057,7 +3061,7 @@
          <!-- Q [div] new div here? -->
          
          <p rend="first-line-indent">
-            <note place="left margin" rend="post(rule)">A speedy cure<lb/>
+            <note xml:id="mnote-0088" place="left margin" rend="post(rule)">A speedy cure<lb/>
               and returne to<lb/>
               my Life &amp; stren-<lb break="no"/>
               gth againe of<lb/>
@@ -3129,7 +3133,7 @@
           Paper Bookes which was drawne att London, by my Cozen Ledgard<lb/>
           in order to an Intaile, on my Issue (generall, male or femall.)</p>
          <p rend="first-line-indent">
-               <note place="left margin" rend="post(rule)">Deeds, or<lb/>
+               <note xml:id="mnote-0089" place="left margin" rend="post(rule)">Deeds, or<lb/>
               Paper books<lb/>
               by Mr Ledg<hi rend="superscript">^d^</hi>
                   <lb/>
@@ -3156,7 +3160,7 @@
           besides non but God knew whether that Child I was then big with<lb/>
           might be a Son or a daughter. &amp; then there would be more Fea<lb break="no"/>
          
-            <note place="left margin" rend="post(rule)">To which I<lb/>
+            <note xml:id="mnote-0090" place="left margin" rend="post(rule)">To which I<lb/>
               did not<lb/>
               grant
             </note>
@@ -3167,7 +3171,7 @@
           Mr Thornton &amp; all his younger Children unprovided for.</p>
          
          <p rend="first-line-indent">
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0091" place="left margin" rend="post(rule)">
               numbers<lb/>
               27 v 1<hi rend="superscript">t</hi>
                   
@@ -3190,7 +3194,7 @@
          
          <p rend="first-line-indent">
               nor had I heere, any kinsman, Brother, or Freind of my<lb/>
-         <note place="left margin" rend="post(rule)">contrary<lb/>
+         <note xml:id="mnote-0092" place="left margin" rend="post(rule)">contrary<lb/>
               to Art. of<lb/>
               my marriag
             </note>
@@ -3221,7 +3225,7 @@
           said goods &amp; personall Estate in to Fefoees in trust for my Life<lb/>
           and to have Power to dispose of it att my death.</p>
          <p rend="first-line-indent">   
-            <note place="left margin" rend="post(rule)">Also a wrong<lb/>
+            <note xml:id="mnote-0093" place="left margin" rend="post(rule)">Also a wrong<lb/>
               don by a Deed.<lb/>
               of my mo. Person.<hi rend="superscript">ll</hi>
                   <lb/>
@@ -3258,7 +3262,7 @@
           those Deeds affter such a manner; As did flattly Ruine my<lb/>
  
          
-            <note place="left margin" rend="post(rule)">But I would<lb/>
+            <note xml:id="mnote-0094" place="left margin" rend="post(rule)">But I would<lb/>
               not signe itt, when<lb/>
               I read the falls-<lb break="no"/>
               hood to my chil<lb/>
@@ -3290,7 +3294,7 @@
  
          
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0095" place="left margin" rend="post(rule)">
               Pettitions to God<lb/>
             for assistance to<lb/>
             the right settlement<lb/>
@@ -3330,7 +3334,7 @@
          <p rend="first-line-indent">
               After, I had powred out my complaint to God, &amp; made my
          
-            <note place="left margin" rend="post(rule)">Cozen Rog<lb/>
+            <note xml:id="mnote-0096" place="left margin" rend="post(rule)">Cozen Rog<lb/>
               Colvell my<lb/>
               Counseller
             </note>
@@ -3357,7 +3361,7 @@
 
          
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0097" place="left margin" rend="post(rule)">
                The Deed<lb/>
               of Settlem<hi rend="superscript">^t^</hi> <lb/>
                 made of the<lb/>
@@ -3407,7 +3411,7 @@
           which was secured by him, by Bond, to Trustees for my use before marriage<lb/>
 
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0098" place="left margin" rend="post(rule)">
               I yelded to<lb/>
               quitt my<lb/>
               1000<hi rend="superscript">l</hi>
@@ -3446,7 +3450,7 @@
           he did make it soe in my Joynter att Easte Newton allso.</p>
          <p rend="fl-indent"> But att this time I was willing for the good of the Family<lb/>
          
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0099" place="left margin" rend="post(rule)">
               I consented to<lb/>
               quitt then allso<lb/>
             my right &amp; Power<lb/>
@@ -3498,7 +3502,7 @@
           what occasion; only I remember Harry Best asked me if I would<lb/>
  
          
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0100" place="left margin" rend="post(rule)">
                Mr Bests motion<lb/>
                that I might con-<lb break="no"/>
                sent Mr Th. should<lb/>
@@ -3552,7 +3556,7 @@
             
          <p rend="first-line-indent">   
            
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0101" place="left margin" rend="post(rule)">
                  Mr Bests<lb/>
                  betraying<lb/>
               his Trust,<lb/>
@@ -3615,7 +3619,7 @@
           with out my consent. on which Mr Thornton closed with that moti<hi rend="superscript">^on^</hi><lb/>
             
          
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0102" place="left margin" rend="post(rule)">
                  
                  Mr Thornton<lb/>
                  cutt of Colvills<lb/>
@@ -3718,7 +3722,7 @@
           Laistrop. answered he had. &amp; that I needed not make soe much<lb/>
           adoe about it for it was better don then before.</p>
          <p rend="first-line-indent">
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0103" place="left margin" rend="post(rule)">
               I desired<lb/>
               to see the new<lb/>
             Deed</note>
@@ -3736,7 +3740,7 @@
           I being in a great danger of death uppon bearing my Child{ren}<lb/>
           desired that sattisfaction of my husband to see it:</p>
          <p rend="first-line-indent">
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0104" place="left margin" rend="post(rule)">
               was much<lb/>
               consernd to<lb/>
               find soe<lb/>
@@ -3753,7 +3757,7 @@
               teration betwixt the two Deeds, nor could I be satisfied till I had<lb/>
               Applied my selfe to Mr Thornton. with humble request and bitter<lb/>
          
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0105" place="left margin" rend="post(rule)">
              my<lb/>
              humble <lb/>
               addresse <lb/>
@@ -3780,7 +3784,7 @@
           gon, or himselfe.</p>
          <p rend="first-line-indent">
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0106" place="left margin" rend="post(rule)">
               I bless the Lord<lb/>
               who granted<lb/>
               my Pettition<lb/>
@@ -3811,7 +3815,7 @@
           decease. The halfe of that Estate beeing sett over to pay his Debts</p>
          <p rend="first-line-indent">
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0107" place="left margin" rend="post(rule)">
                  The last Deed <lb/>
               for Provission for<lb/>
              my yonger Chil{dren}<lb/>
@@ -3833,7 +3837,7 @@
           the failor of Issue male. Tho att that time my husband had<lb/>
          
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0108" place="left margin" rend="post(rule)">
               secret caire was<lb/>
               taken. to secure<lb/>
               the 800<hi rend="superscript">l</hi> (or to my<lb/>
@@ -3911,7 +3915,7 @@
          
          <p rend="first-line-indent">
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0109" place="left margin" rend="post(rule)">
                  
                 The cuting<lb/>
                 of Colvills<lb/>
@@ -3937,7 +3941,7 @@
             </p>
          
          <p rend="first-line-indent">
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0110" place="left margin" rend="post(rule)">
                 haveing <lb/>
                 had soe <lb/>
                 considrbl<lb/>
@@ -3961,7 +3965,7 @@
          
          <p rend="first-line-indent">
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0111" place="left margin" rend="post(rule)">
               I beleive it<lb/>
               was imposd<lb/>
               on my dere<lb/>
@@ -4000,7 +4004,7 @@
             </p>
          
          <p rend="first-line-indent">
-            <note place="left margin" rend="pre(rule)">
+            <note xml:id="mnote-0112" place="left margin" rend="pre(rule)">
                             
                 In my booke<lb/>
                 of prayers &amp;<lb/>
@@ -4044,7 +4048,7 @@
           but touch the heme of his Garment I shall be made whole<lb/>
           and immeadiately she was made whole, and was<lb/>
          
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0113" place="left margin" rend="post(rule)">
              
           Christ cureth <lb/>
           the Bloody Issue<lb/>
@@ -4091,7 +4095,7 @@
             yett he was the same God and was pleased to shew mercy<lb/>
             in all time of my distress when I called uppon him; att this time<lb/>
               
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0114" place="left margin" rend="post(rule)">
                St Luke the 8: 43<lb/>
                 she had spent all<lb/>
                 she had on Phisic<lb/>
@@ -4130,7 +4134,7 @@
          </p>
          <p rend="first-line-indent">
             
-            <note place="left margin" rend="pre(rule)">
+            <note xml:id="mnote-0115" place="left margin" rend="pre(rule)">
                             
                St Luke 8: 43<lb/>
             Glory be to the God<lb/>
@@ -4159,7 +4163,7 @@
          <p>It was a very remarkable sircumstance that it was not above<lb/>
          
          
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0116" place="left margin" rend="post(rule)">
               Sept{ember} 9 95<note place="end">
                      <p>
                   Sic.</p>
@@ -4179,7 +4183,7 @@
          <p rend="first-line-indent">
               Having never bin clearly 2 months fre affter the Pallsey<lb/>
          
-            <note place="left margin" rend="post(rule)">The Deed <lb/>
+            <note xml:id="mnote-0117" place="left margin" rend="post(rule)">The Deed <lb/>
             for 99 yeres <lb/>
               or a morgag<lb/>
             of Laistrop<lb/>
@@ -4211,7 +4215,7 @@
          
          <p rend="first-line-indent">
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0118" place="left margin" rend="post(rule)">
              The occasion<lb/>
               of Mr Thorn.<lb/>
             sickness of the<lb/>
@@ -4248,7 +4252,7 @@
          </p>
          
           <p rend="first-line-indent">
-          <note place="left margin" rend="post(rule)">
+          <note xml:id="mnote-0119" place="left margin" rend="post(rule)">
             I made my<lb/>
             humble Petti<lb/>
               ons to God for<lb/>
@@ -4259,7 +4263,7 @@
                </note>
             
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0120" place="left margin" rend="post(rule)">
                   
                   
                </note>
@@ -4271,7 +4275,7 @@
               Loyall Education, &amp; Zeale for it.</p>
             
             <p rend="first-line-indent">
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0121" place="left margin" rend="post(rule)">
                  The induc-<lb break="no"/>
                  -ment to dis<lb break="no"/>
               -pose of my<lb/>
@@ -4314,7 +4318,7 @@
           other, in this great Change of her Life. For Jesus Christ his sake Amen</p>
          <p rend="first-line-indent">
             
-             <note place="left margin" rend="post(rule)">
+             <note xml:id="mnote-0122" place="left margin" rend="post(rule)">
               My humble &amp; high <lb/>
               gratitude Thank-<lb break="no"/>
             -sgiveing, &amp; Praises
@@ -4351,7 +4355,7 @@
           roote me, out of the Land of the Liveing; or my Posterity:</p>
          <p rend="first-line-indent">
             
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0123" place="left margin" rend="post(rule)">
             
             at Oswoldkirke<lb/>
             feb. 13 1661----<lb/>
@@ -4387,7 +4391,7 @@
               neare to have cast me into despaire. &amp; death. from which I hardly<lb/>
               Escaped. Then affter, these stormes had blowne over me. To fullfill<lb/>
               
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0124" place="left margin" rend="post(rule)">
              <!-- RULE is only a filler line after "miscriage" -->
           Aug. 22 <hi rend="underline">1666</hi>
                <lb/>
@@ -4403,7 +4407,7 @@
           by which I recavd the sweete injoyment of a good name, never yett<lb/>
           defiled with the least unchaste thought, or word, or action by gods holy<lb/>
          
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0125" place="left margin" rend="post(rule)">
              <!-- RULE is only a filler line after "name" -->
             Slanders of my<lb/>
             good name
@@ -4421,7 +4425,7 @@
          
          <p rend="first-line-indent">
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0126" place="left margin" rend="post(rule)">
               Blessed by the Just<lb/>
               Judge which delivered
             <lb/>
@@ -4452,7 +4456,7 @@
          
          <p rend="first-line-indent">
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0127" place="left margin" rend="post(rule)">
               Glory be to <lb/>
               my great<lb/>
               God of mercy<lb/>
@@ -4480,7 +4484,7 @@
          
          <p rend="first-line-indent">
             
-         <note place="left margin" rend="post(rule)">
+         <note xml:id="mnote-0128" place="left margin" rend="post(rule)">
             My dere<lb/>
             Husband<lb/>
               was more in<lb/>
@@ -4518,7 +4522,7 @@
          
          <p rend="first-line-indent">
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0129" place="left margin" rend="post(rule)">
               
               I had true<lb/>
               confort in<lb/>
@@ -4545,7 +4549,7 @@
               
               And heerein I found the Lord to be soe gracious towards me that<lb/>
               
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0130" place="left margin" rend="post(rule)">
                   God preservd<lb/>
                   my Family
                </note>
@@ -4584,7 +4588,7 @@
          </p>
          <p rend="first-line-indent">
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0131" place="left margin" rend="post(rule)">
               My deare husband<lb/>
               his great anger<lb/>
             &amp; severity against<lb/>
@@ -4626,7 +4630,7 @@
          <p rend="first-line-indent">
               As for your part said my dearest husband, you do<lb/>
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0132" place="left margin" rend="post(rule)">
             his charging her<lb/>
             with) of the great sin<lb/>
             of ingratitude &amp;<lb/>
@@ -4656,7 +4660,7 @@
          <p rend="fl-indent"> Thus when my dearest husband had taken my part a<lb/>
           gainst her, &amp; defended my cause, finding she had heard of<lb/>
  
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0133" place="left margin" rend="post(rule)">
               And would not<lb/>
               speake in my<lb/>
                   defence of the truth  
@@ -4689,7 +4693,7 @@
          
          <p rend="first-line-indent">
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0134" place="left margin" rend="post(rule)">
               my deare <lb/>
               Aunt Norton<lb/>
               her rebuke<lb/>
@@ -4719,7 +4723,7 @@
          
          <p rend="first-line-indent">
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0135" place="left margin" rend="post(rule)">
               Mr Thornton<lb/>
               turned her<lb/>
               maide Barbara<lb/>
@@ -4750,7 +4754,7 @@
          </p>
          <p rend="first-line-indent">
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0136" place="left margin" rend="post(rule)">
               my dread-<lb break="no"/>
               full sorrowes<lb/>
               &amp; greife reducd<lb/>
@@ -4770,7 +4774,7 @@
          
          <p rend="first-line-indent">
             
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0137" place="left margin" rend="post(rule)">
               my d. husband<lb/>
               &amp; freinds<lb/>
               Compassion<lb/>
@@ -6382,7 +6386,7 @@
             </note>
              9: 24. Jer. 10: 23, 24
          
-        <note place="left margin">
+        <note xml:id="mnote-0138" place="left margin">
           
           Psall.<lb/>
               107
@@ -10789,7 +10793,7 @@
               Sic for 'and' – she does substitute gs for ds sometimes.</p>
             </note> serve this good God<lb/>
          
-           <note place="left margin">
+           <note xml:id="mnote-0139" place="left margin">
                   <emph rend="underline">not</emph>
                <!-- Q [margin] what is this exactly? it appears to be some sort of clarification? of the add "not" a few words along.? 
                 so using <note> rather than <add>
@@ -10913,7 +10917,7 @@
          </p>
              
           <p rend="first-line-indent">
-            <note place="left margin" rend="post(rule)">
+            <note xml:id="mnote-0140" place="left margin" rend="post(rule)">
                  Jerimiah<lb/><!-- NOTE [margin][review] this line is actually only slightly below level of preceding line, but makes more sense to put it here. but check this is ok. -->
                  54 v. 4,<lb/><!-- NOTE [margin] this line is level with "Feare not..." -->
                  5, 6, 7, 8
@@ -10983,7 +10987,7 @@
               Thus was the 42<hi rend="superscript">d</hi> yeare of my misserable life finnished<lb/>
          
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0141" place="left margin" rend="post(rule)">
                  
                  Feb. 13<hi rend="superscript">th</hi><lb/>
                   1669<lb/>
@@ -11908,7 +11912,7 @@
           and my made hannah to waite on them.
          
         
-         <note place="left margin">
+         <note xml:id="mnote-0142" place="left margin">
           
           May<lb/>
           25 67.<lb/>
@@ -12233,7 +12237,7 @@
          see him alive, There falling into The fitt of the Paulsey which<lb/>
           carried him a way, &amp; soe left me a desolate &amp; Sorrowfull widdow<lb/>
             
-               <note place="left margin" rend="post(rule)">
+               <note xml:id="mnote-0143" place="left margin" rend="post(rule)">
                  Sept. 17<lb/>
                   1668
                </note>
@@ -13241,7 +13245,7 @@
           affter she had shewed my booke to my Lady. this letter was A<lb/>
           comfortable letter my Lady haveing sent for her by my moths<lb/>
          
-           <note place="left margin" rend="post(rule)">
+           <note xml:id="mnote-0144" place="left margin" rend="post(rule)">
              <!-- RULE is only a filler line after "-ugh" -->
                  B. Scarbro<lb break="no"/>
                  -ugh
