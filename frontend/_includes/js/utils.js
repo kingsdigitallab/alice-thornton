@@ -6,10 +6,12 @@ const markdownItFootnote = require("markdown-it-footnote");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownIt = require("markdown-it");
 
-function lookup(anarray, path_to_property, accepted_values) {
+function lookup(anarray, path_to_property, accepted_values, exclude = false) {
   // returns array with elements of anarray st <element>.<path_to_property belongs> to <accepted_values>
-  // accepted values can be an array or a literal
-  // If accepted_values is 'ALL', returns anarray
+  // accepted values can be an array or a literal.
+  // If accepted_values is 'ALL', returns anarray.
+  // If exclude is true => opposite condition, returns only elements
+  // that don't match any fo the accepted_values.
   if (accepted_values === "ALL") {
     return anarray;
   }
@@ -24,15 +26,21 @@ function lookup(anarray, path_to_property, accepted_values) {
   }
 
   return anarray.filter(function (item) {
-    //console.log(path_to_property);
+    // debug(path_to_property);
     let values = [item];
     if (path_to_property.length) {
       values = path_to_property.reduce((o, i) => o[i], item);
-      if (values.constructor !== Array) {
-        values = [values];
+      if (typeof values !== "undefined") {
+        if (values.constructor !== Array) {
+          values = [values];
+        }
+      } else {
+        values = [];
       }
     }
-    return values.filter((v) => accepted_values.includes(v)).length > 0;
+    let ret = values.filter((v) => accepted_values.includes(v)).length > 0;
+    if (exclude) ret = !ret;
+    return ret;
   });
 }
 
