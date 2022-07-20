@@ -1,6 +1,6 @@
 // Palette
 // See Bulma variables:
-// https: //bulma.io/documentation/customize/variables/
+// https://bulma.io/documentation/customize/variables/
 
 /* 
   GF 04/05/2022: Convention to define colour variable names.
@@ -29,14 +29,13 @@ $link: #0b4d99;
 
 @import "../node_modules/bulma/bulma.sass";
 
-// TODO:
-// Customise Bulma's variables rather than override them
+
 .is-primary {
   background: $primary;
 }
 
 .is-secondary {
-  background: $secondary !important;
+  background: $secondary;
 }
 
 .is-accent {
@@ -55,7 +54,6 @@ a {
 a.tag {
   text-decoration: none;
 }
-// END TODO
 
 // Shared layout
 
@@ -180,7 +178,7 @@ a.button-hp {
 
 .read-more-hp {
   display: block;
-  margin: 0 auto 0 !important;
+  margin: 0 auto 0;
   max-width: 300px;
   padding: 0.75em 0 0 0;
   text-decoration: none;
@@ -309,7 +307,7 @@ figcaption {
   grid-gap: 2em;
 
   img {
-    width: 100% !important;
+    width: 100%;
   }
 
   p {
@@ -462,10 +460,13 @@ ul.social_media_block {
     }
   }
 
-  figure {
-    margin-left: 0;
-    margin-bottom: 1em !important;
-  }
+  // Figure may not be needed in the social_media_block.
+  // It seems the img is not rendered with that as a wrapper.
+
+  // figure {
+  //   margin-left: 0;
+  //   margin-bottom: 1em !important; // Need to test before removing !important
+  // }
 
   img {
     border: none;
