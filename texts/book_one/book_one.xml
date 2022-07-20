@@ -199,6 +199,11 @@
                     <date>2022-07-03</date>
                     <desc>events update and renumbered milestone/anchor @n pairs</desc>
                 </change>
+                <change>
+                    <date>2022-07-20</date>
+                    <name>Sharon Howard</name>
+                    <desc>added xml:id to marginalia note/fw to enable linking to text</desc>
+                </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -488,7 +493,7 @@
      <div n="div9">
          <milestone n="ev3" unit="event"/>
             <p>
-      <fw place="left margin">      
+      <fw xml:id="mnote-0001" place="left margin">      
           <metamark><g>+</g></metamark> <!-- Q [tagging] [metamark]? a sort of cross/dagger symbol. I think it's a 'signe de renvoi' with matching symbol at the point referred to in the supplementary material. need to work out the tagging for this!
           -->
       </fw>
@@ -971,7 +976,7 @@
         <div n="div18">
            <!-- NOTE [margin] tagged note  -->
            <!-- NOTE [style] vertical text writing direction top to bottom - @style looks right in boilerplate. have placed marginal note outside head, though it's partly inside on page - not part of the title. -->
-            <note place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right">
+            <note xml:id="mnote-0002" place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right">
                 <milestone n="ev15" unit="event"/>
                 <p><persName ref="ppl:tw1" n="per56">My L. <hi rend="superscript">d</hi> Straford</persName> tooke Ship for <placeName ref="place:Engl_094" n="place422">England</placeName> w:<hi rend="superscript">th</hi> <persName ref="ppl:ww3" n="per57">my Lord Raby</persName> his son<lb/>
                 on <date when-custom="1640-04-03">good friday y <hi rend="superscript">e</hi> yeare. 1640</date>. gaue my father the Sword then.</p>
@@ -1333,7 +1338,7 @@
                <!-- Q [event] superEvent? CW death -->
                <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
                <!-- NOTE [margin] [decoration] double horizontal lines above the margin header  -->
-                <note resp="#awt1" place="left margin" rend="pre(rule_double)">
+                <note xml:id="mnote-0003" resp="#awt1" place="left margin" rend="pre(rule_double)">
                     Acc<hi rend="superscript">.t</hi> of<lb/>
                      the Lord<lb/>
                      Deputy<lb/>
@@ -1624,7 +1629,7 @@
 
                 <!-- Q [tagging] [curlybraces] there is a curly brace pointing at the text. Unclear why! Does she do this for any other marginal notes? -->
                 
-                <fw type="reference" place="left margin" rend="post(rule_thick)">
+                <fw xml:id="mnote-0004" type="reference" place="left margin" rend="post(rule_thick)">
                     Isaiah<lb/>
                     57<lb/>
                     v. 1<hi rend="superscript">st</hi> 2,
@@ -2282,7 +2287,7 @@
                 <!-- NOTE [margin] tagged fw -->
                 <!-- Q [teams] [tagging] [formatting] text underline - in this case may be appropriate but horizontal marker line might be better? what is its function? is it for emphasis? or decoration/marking distinct?  -->
                 <!-- TODO contraction "Com"="Commandment". contraction line but see endnote -->
-                <fw place="left margin">
+                <fw xml:id="mnote-0005" place="left margin">
                         Com.
                         <lb/>
                         <hi rend="underline">1<hi rend="superscript">st</hi></hi>  
@@ -2311,7 +2316,7 @@
                 <!-- TODO contraction "Com". contraction line. -->
                 <!-- Q [teams] [tagging] [formatting] text underline/horizontal marker line -->
                 
-              <fw place="left margin">Com. <lb/>
+              <fw xml:id="mnote-0006" place="left margin">Com. <lb/>
                  <hi rend="underline">2<hi rend="superscript">d</hi></hi>
               </fw>
                   Neither O Lord have wee Attributed that hon<ex>our</ex> and<lb/>
@@ -2338,7 +2343,7 @@
            <p>
                <!-- NOTE [margin] tagged fw. -->
                <!-- TODO contraction "Com" --> 
-                <fw place="left margin">
+                <fw xml:id="mnote-0007" place="left margin">
                     Com.<lb/>
                      3 
                 </fw> 
@@ -2359,7 +2364,7 @@
             <p>
                 <!-- NOTE [margin] tagged fw. -->
                 <!-- TODO contraction "Com" -->
-                <fw place="left margin">
+                <fw xml:id="mnote-0008" place="left margin">
                     Com. <lb/>
                       4 </fw>
                  And whereas like a mercifull father, thou hast provided<lb/>
@@ -2383,7 +2388,7 @@
             <p>
                 <!-- NOTE [margin] tagged fw. -->
                 <!-- TODO contraction "Com". contraction line -->
-                    <fw place="left margin">Com. <lb/>
+                    <fw xml:id="mnote-0009" place="left margin">Com. <lb/>
                          5 </fw>
                 But allas deare father of Mercies, wee are not onlie guilty<lb/>
                 of offending thee our Heavenly father, but have broken<lb/>
@@ -2419,7 +2424,7 @@
                     <!-- NOTE [margin] tagged fw. -->
                 <!-- TODO contraction "Com" -->
                 <!-- Q [teams] [tagging] [formatting] text underline -->
-                <fw place="left margin">
+                <fw xml:id="mnote-0010" place="left margin">
                     Com. <lb/>
                         <hi rend="underline">6<hi rend="superscript">th</hi></hi>
                         
@@ -2435,7 +2440,7 @@
             <p>
                 <!-- NOTE [margin] tagged fw. -->
                 <!-- TODO contraction "Com". -->
-                    <fw place="left margin">Com.<lb/>
+                    <fw xml:id="mnote-0011" place="left margin">Com.<lb/>
                          7<hi rend="superscript">th</hi>
                     </fw> 
                  Wee cannot but likewise acknowledge our lustfull con<lb/>
@@ -2458,7 +2463,7 @@
             
               <!-- NOTE [margin] tagged fw -->
                 <!-- TODO contraction "Com". -->
-              <fw place="left margin">
+              <fw xml:id="mnote-0012" place="left margin">
                   Com. <lb/>
                    8.</fw>
                 forbidden us all inward grudgings &amp; longing affter<lb/>
@@ -2474,7 +2479,7 @@
             <p>
                 <!-- NOTE [margin] tagged fw -->
                 <!-- Q [teams] [tagging] [formatting] text underline -->
-                    <fw place="left margin">
+                    <fw xml:id="mnote-0013" place="left margin">
                         Com. <lb/>
                         <hi rend="underline">9, 10</hi>
                     </fw>
@@ -2936,7 +2941,7 @@
             <!-- NOTE [margin] tagged note -->
           <!-- Q [teams] [tagging] [formatting] text underline again. makes some sense for 17th, but lines above and below have been -> @rend  -->
           <milestone n="ev32" unit="event"/><!-- NOTE event siege chester, deliverance -->
-                <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)"><date when-custom="1643-07-17">July<lb/>
+                <note xml:id="mnote-0014" place="left margin" resp="#awt1" rend="pre(rule) post(rule)"><date when-custom="1643-07-17">July<lb/>
                     <hi rend="underline">17.</hi><!-- TODO [review] in margin s/b 17*th* not 17. -->
                         <lb/>
                      1643</date>
@@ -3182,7 +3187,7 @@
                 -->
              
              <note place="left">Receaving the<lb/>
-                <fw place="left margin">1</fw> sacrament
+                <fw xml:id="mnote-0015" place="left margin">1</fw> sacrament
               </note>
                 A Thankesgiveing affter my recovery<!-- NOTE [layout] this line is right aligned. team decision - ignore. --><lb/>
                 from the smale Pox in <placeName ref="place:Ches_012" n="place92">Weschester</placeName>: <date type="illness" when-custom="1642">1642</date>.<!-- NOTE [layout] but this line is left aligned -->
@@ -3296,7 +3301,7 @@
             <p>
                 <milestone n="ev40" unit="event"/>
                 <!-- NOTE event chester to warrington c.20 miles. -->
-                <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
+                <note xml:id="mnote-0016" place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
                    <date when-custom="1643-08-28">Aug.<lb/>
                      28<lb/>
                      1643.</date>
@@ -3422,7 +3427,7 @@
                but then "richmond to snape 11 Oct"
                so did they arrive at *richmond* on 2 sept (then alice got ill, so they had to wait until she was well enough to travel)
            at the moment leaving only 2 Sept tagged for this event but idk -->
-            <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
+            <note xml:id="mnote-0017" place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
               <date when-custom="1643-09-02">
                   Sept.<hi rend="superscript">ber</hi> <lb/>
                2<hi rend="superscript">d</hi> <lb/>
@@ -3432,7 +3437,7 @@
                 <rs ref="ppl:aow1" n="per246" type="person">My mother</rs> was minded to goe to <placeName ref="place:Snap_047" n="place107">Snape</placeName>, where <persName ref="ppl:kwd1" n="per247">my <lb/>
                 Sister <sic>Danly</sic></persName> was. &amp; beeing invited by her she went <lb/>
    
-                <note place="left margin" resp="#awt1" style="writing-mode: vertical-rl; text-orientation: sideways-right">
+                <note xml:id="mnote-0018" place="left margin" resp="#awt1" style="writing-mode: vertical-rl; text-orientation: sideways-right">
                 <!-- NOTE [style] vertical text writing direction top to bottom. -->
                <p>Sirfett Lobster <lb/>
                at <placeName ref="place:Rich_043" n="place108">Richmond</placeName> <milestone unit="rule"/>
@@ -3446,7 +3451,7 @@
 
          <!-- NOTE [margin] tagged note -->
                 <!-- Q [teams] [tagging] [formatting] text underline -->
-            <note place="left margin" resp="#awt1">
+            <note xml:id="mnote-0019" place="left margin" resp="#awt1">
                 <!-- NOTE [dates] this date seems to relate to the lobster (p.83) and not related to the text here. de-@when at least for now. -->
                     <date>
                       Sept.<lb/>
@@ -3465,7 +3470,7 @@
 
                 where <milestone n="ev44" unit="event"/>she<lb/>
                 <!-- Q [teams] CORRECTION ? there's a line under text in margin 11.43? - but [formatting] need to review -->
-                <note place="left margin" resp="awt1">
+                <note xml:id="mnote-0020" place="left margin" resp="awt1">
                     to <placeName>snape</placeName><lb/>
                     from <lb/>
                     <placeName>Rich</placeName>.<lb/>
@@ -3485,7 +3490,7 @@
                     
                     <!-- NOTE [margin] tagged note -->
                 <!-- Q [teams] [tagging] [formatting] text underline -->
-                <note place="left margin" resp="awt1">
+                <note xml:id="mnote-0021" place="left margin" resp="awt1">
                    <persName ref="ppl:jw1" n="per252">Bro. Jack</persName> to<lb/>
                    <placeName>B. Sco</placeName><lb/>
                    <date when-custom="1643-11-16">No. 16.<lb/>
@@ -3503,7 +3508,7 @@
             that not any thing was wanting. which might conduce to his<lb/>
                     <!-- NOTE [margin] tagged note -->
                     <!-- NOTE [dates] I think *this* is when Christopher goes to York -->
-                    <note place="left margin" resp="awt1">
+                    <note xml:id="mnote-0022" place="left margin" resp="awt1">
                         <date when-custom="1643-11-22/1643-11-23">Nov.<lb/>
                         22<lb/>
                         to Scoo<add place="above">le</add><lb/>
@@ -3651,7 +3656,7 @@
            <milestone n="ev53" unit="event"/>
           <!-- NOTE event (jump back to) richmond 1643 lobster. -->
                 
-                    <note place="left margin" resp="#awt1">
+                    <note xml:id="mnote-0023" place="left margin" resp="#awt1">
                         <date when-custom="1643-09-15">Sept.<lb/>
                         <hi rend="underline">15.</hi></date>
                     </note>
@@ -7108,7 +7113,7 @@
             <lb/>
              She was borne at <persName ref="ppl:jp1" n="per649">Sir John Payton</persName>s house. <date datingMethod="#JulianMar" type="birth" when-custom="1592-01-05" ana="#notEvent">Jan. 5 1592</date><!-- NOTE [dates] OS (birth of Alice's mother. Anselment baptism register fn 439). date is not part of event, unless you mark up her birth as an event in its own right. --><lb/>
              att <placeName ref="place:Isle_028" n="place252">Islellome- in Cambridgeshire</placeName>, <rs ref="ppl:ho1" n="per650" type="person">My Grandfather</rs> <lb/>
-            <note place="bottom margin" resp="#unknown">* 1591 T Comber Old Miles 1592 N. S.</note>
+            <note xml:id="mnote-0024" place="bottom margin" resp="#unknown">* 1591 T Comber Old Miles 1592 N. S.</note>
             <!-- NOTE [ms] different hand... on separate line at bottom of page. 
             Anselment fn 439 says the addition is "erroneous"! 
             [endnote] Later insertion, in the bottom maring in an more recent hand.
@@ -7363,7 +7368,7 @@
             <!-- NOTE [margin] tagged note -->
             <!-- NOTE [decoration] removed text underline and replaced with @rend - there are lines above *and* below the marginal text -->
              <!-- NOTE last two letters of "widdow" overlap main text -->
-                <note place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
+                <note xml:id="mnote-0025" place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
                     19<lb/>
                     yers A<lb/>
                     widdow 
@@ -11505,7 +11510,7 @@
             <p>
                 <!-- NOTE [margin] tagged fw
                     (check with transcriber? marrgin wasn't indicated in transcription) -->
-               <fw place="left margin">4</fw> 
+               <fw xml:id="mnote-0026" place="left margin">4</fw> 
                 There is a companion; which rejoyceth in the prosperity of a<lb/>
                  freind: but in the time of trouble will be against him.<lb/>
                  Beware of a counseller, &amp; know before what he needeth.<lb/>
@@ -12093,7 +12098,7 @@
             <head rend="pre(rule_pattern) post(rule_pattern)">
                 <!-- [endnote] [decoration] Patterned border. -->
             
-         <fw rend="underline" place="left margin">P </fw>
+         <fw xml:id="mnote-0027" rend="underline" place="left margin">P </fw>
                 <note place="end">
                     <p rend="Endnote Text"> [margin] Reason for this marginal annotation?</p>
                 </note> 
@@ -14541,7 +14546,7 @@
             </head>
             <p>
                 <milestone n="ev233" unit="event"/>
-                <note place="left margin" resp="#awt1" style="writing-mode: vertical-rl; text-orientation: sideways-right">
+                <note xml:id="mnote-0028" place="left margin" resp="#awt1" style="writing-mode: vertical-rl; text-orientation: sideways-right">
               <!-- NOTE [margin] tagged note -->
               <!-- NOTE [style] vertical text, writing direction top to bottom. -->
               <p>Uppon <date when-custom="1651-03-30">Easter day</date> &amp; had a full sattisfaction of there true love &amp; affection to each<lb/>

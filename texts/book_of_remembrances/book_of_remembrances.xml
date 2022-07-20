@@ -144,6 +144,7 @@
          Linkage
         sample prefixDef borrowed from dbw project prefixes ppl, place, bibl
         maybe "atb:" for project refs - project people, refs to the 4 books, anything else useful.
+        "mnote" for marginalia
 
         
         <listPrefixDef>
@@ -257,7 +258,13 @@
            </change>
            <change>
              <date>2022-07-03</date>
+             <name>Sharon Howard</name>
              <desc>events update and renumbered milestone/anchor @n pairs</desc>
+           </change>
+           <change>
+             <date>2022-07-20</date>
+             <name>Sharon Howard</name>
+             <desc>added xml:id to marginalia note/fw to enable linking to text</desc>
            </change>
          </listChange>
             
@@ -536,7 +543,7 @@
       <!-- NOTE year 1631 -->
        <div n="div9">
          <fw>
-           <fw place="left margin">⁜</fw> <!-- Q [teams] [unicode] dotted cross symbol errm why is xslt changing unicodes? -->
+           <fw xml:id="mnote-0001" place="left margin">⁜</fw> <!-- Q [teams] [unicode] dotted cross symbol errm why is xslt changing unicodes? -->
             <fw type="header" rend="underline">
               <date when-custom="1631">1631</date>:<!-- TODO [review] conventions change : -->
             </fw>
@@ -834,7 +841,7 @@
         <div n="div15">       
          <p>
            <milestone n="ev9" unit="event"/>
-            <fw type="header" place="margin left"><date when-custom="1638">38</date>:</fw>. 
+            <fw xml:id="mnote-0002" type="header" place="margin left"><date when-custom="1638">38</date>:</fw>. 
            About the time I was 12 years old. I<lb/>
           was reading of the great wisdome of<lb/>
           our Saviour in the Gospell where he<lb/>
@@ -1007,7 +1014,7 @@
           have proved my last. beeing brought <lb/>
           exceading weak through vomiting<lb/>
  
-         <fw place="left margin" rend="underline"><date when-custom="1643">1643</date>.</fw>
+         <fw xml:id="mnote-0003" place="left margin" rend="underline"><date when-custom="1643">1643</date>.</fw>
            
           &amp; purging. but by the blessing of God<lb/>
           upon <persName ref="ppl:xm1" n="per43">Mr mahum</persName>s advices &amp; <rs ref="ppl:aow1" n="per44" type="person">my mother</rs><lb/>
@@ -1192,7 +1199,7 @@
          <p>
            <persName ref="ppl:atc1" n="per69">Alice Thornton</persName> my Second Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place41">Hipswell</placeName> the <date datingMethod="#JulianMar" when-custom="1653-01-03">3<hi rend="superscript">d</hi> of Janeuary<lb/>
-         <fw place="left margin" rend="underline">1653</fw></date>
+         <fw xml:id="mnote-0004" place="left margin" rend="underline">1653</fw></date>
            <gap reason="damage deleted" quantity="2" unit="word"/>
            <!-- [endnote] Some crossings out her but also looks like the paper is damaged in some way. Check original. This looks like it said 1653 – or 2? - but scratched out; A born 1654 in modern dating but makes more sense that the marginal dates are the corrections. This one has made a hole in the page visible on p.26.-->
                   
@@ -1216,7 +1223,7 @@
          <milestone n="ev35" unit="event"/>
            <persName ref="ppl:et1" n="per75">Elizabeth Thornton</persName> my third Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place42">Hipswell</placeName> the <date datingMethod="#JulianMar" when-custom="1654-02-14">14<hi rend="superscript">th</hi> of februory</date><lb/>
-        <fw place="left margin" rend="underline">1654:</fw>
+        <fw xml:id="mnote-0005" place="left margin" rend="underline">1654:</fw>
            <!-- [endnote] More paper damage. Check original. 
                        This is also a scratched out date; poss 1653-->
          <!-- NOTE [dates] OS - date of Elizabeth's birth=1655-->
@@ -1247,7 +1254,7 @@
        </div>
        
      <div n="div36" rend="pre(diagonal)">
-    <fw place="left margin"><date when-custom="1655">1655</date>.</fw><lb/>
+    <fw xml:id="mnote-0006" place="left margin"><date when-custom="1655">1655</date>.</fw><lb/>
     <p>
       <!-- [endnote] A diagonal line between the sections which goes through the date which was prob added later as it is in a darker ink, like the page number.-->
        <milestone n="ev36" unit="event"/>
@@ -1417,7 +1424,7 @@
             <fw type="header"><date when-custom="1658">1658</date></fw>
          </fw>
          <p>
-            <fw place="left margin" rend="underline">
+            <fw xml:id="mnote-0007" place="left margin" rend="underline">
                 <date>1658</date>
             </fw>
            <milestone n="ev43" unit="event"/>
@@ -1427,7 +1434,7 @@
               allmost into a consumtion. non expect<lb break="no"/>
               =ing for manye daies together that I<lb/>
                       
-         <fw place="left margin" rend="underline">
+         <fw xml:id="mnote-0008" place="left margin" rend="underline">
            <date when-custom="1658">1658</date>
          </fw>
                
@@ -1756,7 +1763,7 @@
             liveing, And to bring forth <rs ref="ppl:wt2" n="per121" type="person">my 6<hi rend="superscript">th</hi><lb/> 
            Child</rs> at <placeName ref="place:StNi_050" n="place55">St Nickolas</placeName> upon the <seg rend="darkerInk">12<hi rend="superscript">th</hi></seg>.
             <lb/>
-            <fw rend="underline" place="left margin">1660.</fw>   
+            <fw xml:id="mnote-0009" rend="underline" place="left margin">1660.</fw>   
             of Aprill &amp; affter hard Labour<lb/>
               &amp; hazardus was in his mercy <lb/>
               delivered of a strong goodly Sonn<lb/>
@@ -1803,7 +1810,7 @@
           &amp; then, whether through cold or <lb/>
           what else the Lord knows. they strooke<lb/> 
          
-         <fw place="left margin" rend="underline"><date>1660</date></fw>
+         <fw xml:id="mnote-0010" place="left margin" rend="underline"><date>1660</date></fw>
                
               in, and he waned sick all night<lb/>
               and a bout 9 a clock on <date when-custom="1660-04-28">Saterday<lb/>
@@ -1827,11 +1834,11 @@
 
          <!-- msDescription? [endnote] Writes to very top pf the page unless the top of the page has been trimmed.-->
          <fw>
-         <fw type="header" place="left margin" rend="underline">
+         <fw xml:id="mnote-0011" type="header" place="left margin" rend="underline">
               <date>1660</date>.
               <!-- msDescription? [endnote] ‘1660’ is in the margin between the first two lines of text.-->
             </fw>
-            <fw type="pageNum" place="right margin">
+            <fw xml:id="mnote-0012" type="pageNum" place="right margin">
                41.
               <!-- msDescription? [endnote] In a box, written in later so bit below l.1.-->
             </fw>
@@ -1878,7 +1885,7 @@
 
  <div n="div46" type="poetry">        
          <fw type="header" style="text-align: center;"><date>1660</date>.</fw>
-         <fw type="pageNum" place="left margin">42.</fw>
+         <fw xml:id="mnote-0013" type="pageNum" place="left margin">42.</fw>
    
          <l>Tax not thy God thy owne defalts</l>
          <l>did urge.</l>
@@ -2055,7 +2062,7 @@
 
       <fw>
         <fw type="header" rend="underline"><date>1661.</date></fw>
-        <fw type="pageNum" place="margin right">4.7.</fw>
+        <fw xml:id="mnote-0014" type="pageNum" place="margin right">4.7.</fw>
         <!-- msDescription [endnote] Date squeesed line over text, looks like a darker ink, and some suggestion of tirmming. Page number added in at the end of the first line.-->
          </fw>
          <p>I laboured under &amp; was heavy <!-- NOTE moved fw=pageNum --><lb/>
@@ -2456,7 +2463,7 @@
             <pb n="59"/>
 
 <!-- transcription: Page 59 -->
-        <fw type="pageNum" place="right margin">59.</fw> <lb/>
+        <fw xml:id="mnote-0015" type="pageNum" place="right margin">59.</fw> <lb/>
          Marke just upon his heart, of <!-- NOTE moved fw --> <lb/>
           sprinkles of blood, pure &amp; perfectly<lb/>
           distinct round spots like as if it had<lb/>
@@ -4504,7 +4511,7 @@
           extreame violent paine of the Teeth<lb/>
           did bring me into that weakenesse that I<lb/>
           Could neither stand nor goe for<lb/>
-       <fw place="left margin">
+       <fw xml:id="mnote-0016" place="left margin">
                <date datingMethod="#JulianMar" when-custom="1667-02">Feb.<lb/>
                <hi rend="underline">67:</hi></date><!-- NOTE [dates] OS - def. Feb 1668 -->
        </fw> 
