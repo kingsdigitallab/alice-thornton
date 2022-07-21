@@ -7,7 +7,7 @@ tags:
   - manuscripts
 ---
 
-‘Are you interested in an Alice Thornton manuscript?’ This was the text that I got from my dad one evening in autumn 2018. I didn’t get too excited initially as I thought my dad might be referring to a copy of Jackson’s 1875 edition of Thornton’s writings, as he himself is largely interested in twentieth-century history. But he then sent me an image of the tiny book that his friend had showed him in their local pub over an early evening drink.
+‘Are you interested in the manuscript of Alice Thornton's diary?’ This was the text that I got from my dad one evening in autumn 2018. I didn’t get too excited initially as I thought my dad might be referring to a copy of Jackson’s 1875 edition of Thornton’s writings, as he himself is largely interested in twentieth-century history. But he then sent me an image of the tiny book that his friend had showed him in their local pub over an early evening drink.
 
 ![Photo of small book with damaged front cover]({{"/assets/img/posts/book-remembrances-outside-first-sighting.jpg" | url}} "Book of Remembrances: Derek Beattie"){.media-left}
 

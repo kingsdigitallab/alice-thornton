@@ -35,6 +35,13 @@ module.exports = function (config) {
     }
   );
 
+  config.addFilter(
+    "exclude",
+    function (collection, property_path, rejected_values) {
+      return utils.lookup(collection, property_path, rejected_values, true);
+    }
+  );
+
   config.addFilter("sortby", function (collection, property_name) {
     return collection.sort(
       (a, b) => a.data[property_name] - b.data[property_name]

@@ -5,7 +5,7 @@ volumes:
 
 services:
   frontend:
-    build: 
+    build:
       context: ../frontend
       dockerfile: _build/Dockerfile
     ports:
