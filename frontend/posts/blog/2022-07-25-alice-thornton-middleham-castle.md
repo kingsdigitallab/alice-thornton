@@ -70,14 +70,14 @@ Alice doesn't get the godparents right, either – you can see in the image abov
 Alice then remembered this incident refracted through the lens of many years. She remembered the birth of a child named after another child who died but confused the name and recalled that there were godparents but got slightly muddled on the details. Given how much later she was writing, and the lack of ease in finding out these sorts of details, it is not surprising she got quite a few key details of the event wrong.
 
 
-To find out more about Alice and Middleham Castle, listen to [episode 173](https://www.english-heritage.org.uk/visit/inspire-me/podcast/) of the English Heritage podcast.
+To find out more about Alice and Middleham Castle, listen to [episode 173](https://soundcloud.com/englishheritage/episode-173-civil-war-and-childbirth-alice-thornton-and-middleham-castle/) of the English Heritage podcast.
 
 
-[^1]: Note: The text quoted above is from our work-in-progress edition of Alice Thornton's books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced in footnotes. 'My delivrance from Drowning in the River at Midlam when I went to be a wittness to my sister Danbys first Francis Borne att Midlam Castle in the yeare 1644.' Alice Thornton, *Book 1: *The First Book of my Life*), London BL MS Add 88897/1, p. 297 (hereafter *Book 1*).
+[^1]: Note: The text quoted above is from our work-in-progress edition of Alice Thornton's books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced in footnotes. 'My delivrance from Drowning in the River at Midlam when I went to be a wittness to my sister Danbys first Francis Borne att Midlam Castle in the yeare 1644.' Alice Thornton, *Book 1: *The First Book of My Life*), London BL MS Add 88897/1, p. 297 (hereafter *Book 1*).
 
 [^2]: 'But when we were gon soe farre that I could not turne backe The River provd past Riding & the bottom could not be come to by the poore maire which was an excelent maire of my poore brother G. wandesfords soe I saw my selfe in such aparnt danger And beged of God to asset me & the poore Beast I rid on & to be mercifull to me & delivr mee out of that death for J. Cht his sake.' *Book 1*, pp. 297-98.
 
-[^3]: North Yorkshire County Record Office, 'Dates of birth of the children of Sir Thos & Katherine Danby 1631-1645', Danby family letters & papers c. 1620-1687, ZS: Cunliffe-Lister Collection [MIC 2087/2087]; North Yorkshire County Record Office, 'An old memorandum book of Mr John Gale's', Danby family letters & papers c.1620-1687, ZS: Cunliffe-Lister Collection [MIC 2087/2463].
+[^3]: North Yorkshire County Record Office (NYCCRO), 'Dates of birth of the children of Sir Thos & Katherine Danby 1631-1645', Danby family letters & papers c. 1620-1687, ZS: Cunliffe-Lister Collection [MIC 2087/2087]; NYCCRO, 'An old memorandum book of Mr John Gale's', Danby family letters & papers c.1620-1687, ZS: Cunliffe-Lister Collection [MIC 2087/2463].
 
 [^4]: 'At that time Sir Thomas Danby was forced with my Sister & Children to be in safty from the Parliament forces he beeing for King Charles the first. to midlam Castle A garison under my Lord Lofftus.' *Book 1*, p. 297.
 
