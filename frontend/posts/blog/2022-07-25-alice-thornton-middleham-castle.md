@@ -12,7 +12,7 @@ tags:
 
 ![A large castle, with horses grazing in the foreground]({{"/assets/img/posts/Middleham-horses-mediawiki-CJW.jpg" | url}} "Middleham Castle, Yorkshire. <br>CJW, Attribution, via Wikimedia Commons."){.media-right}
 
-What is Alice Thornton’s connection to Middleham Castle? While Alice grew up in relative privilege, living in nice halls such as Kirklington and Hipswell with her family, she certainly didn’t live anywhere as grand as a castle. But an incident recorded at the end of her Book 1 (*The First Book of My Life*) shows how she fits into the history of [Middleham Castle](https://www.english-heritage.org.uk/visit/places/middleham-castle/), now looked after by English Heritage. This is how Alice introduces the story:
+What is Alice Thornton’s connection to Middleham Castle? While Alice grew up in relative privilege, living in nice halls such as Kirklington and Hipswell with her family, she certainly didn’t live anywhere as grand as a castle. But an incident recorded at the end of her *Book 1: The First Book of My Life* shows how she fits into the history of [Middleham Castle](https://www.english-heritage.org.uk/visit/places/middleham-castle/), now looked after by English Heritage. This is how Alice introduces the story:
 
 >My deliverance from drowning in the river at Middleham when I went to be a witness to my sister Danby’s first Francis, born at Middleham Castle in the year 1644.[^1]
 
@@ -22,7 +22,7 @@ Here is Alice's recounting of the near-drowning:
 
 >But when we were gone so far that I could not turn back, the river proved past riding and the bottom could not be come to by the poor mare, which was an excellent mare of my poor brother George Wandesford’s, so I saw myself in such apparent danger and begged of God to assist me and the poor beast I ride on and to be merciful to me and deliver me out of that death for Jesus Christ his sake.[^2]
 
-Book 1 is predominantly a record of the times in her life where Alice and her family have been 'delivered' from death and injury, and so this is why she's noting it down. Luckily, she and the horse made it over the river in one piece and continued their journey to Middleham.
+*Book 1* is predominantly a record of the times in her life where Alice and her family have been 'delivered' from death and injury, and so this is why she's noting it down. Luckily, she and the horse made it over the river in one piece and continued their journey to Middleham.
 
 This section of Alice's book was probably written later than the main body of the work (thought to be written c. 1669). It is added at the end and outside of the book's chronological sequence and so, in all likelihood, she forgot to incorporate it into the main narrative and noted it down on some blank pages at the end.
 
@@ -73,7 +73,7 @@ Alice then remembered this incident refracted through the lens of many years. Sh
 To find out more about Alice and Middleham Castle, listen to [episode 173](https://soundcloud.com/englishheritage/episode-173-civil-war-and-childbirth-alice-thornton-and-middleham-castle/) of the English Heritage podcast.
 
 
-[^1]: Note: The text quoted above is from our work-in-progress edition of Alice Thornton's books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced in footnotes. 'My delivrance from Drowning in the River at Midlam when I went to be a wittness to my sister Danbys first Francis Borne att Midlam Castle in the yeare 1644.' Alice Thornton, *Book 1: *The First Book of My Life*), London BL MS Add 88897/1, p. 297 (hereafter *Book 1*).
+[^1]: Note: The text quoted above is from our work-in-progress edition of Alice Thornton's books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced in footnotes. 'My delivrance from Drowning in the River at Midlam when I went to be a wittness to my sister Danbys first Francis Borne att Midlam Castle in the yeare 1644.' Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, p. 297 (hereafter *Book 1*).
 
 [^2]: 'But when we were gon soe farre that I could not turne backe The River provd past Riding & the bottom could not be come to by the poore maire which was an excelent maire of my poore brother G. wandesfords soe I saw my selfe in such aparnt danger And beged of God to asset me & the poore Beast I rid on & to be mercifull to me & delivr mee out of that death for J. Cht his sake.' *Book 1*, pp. 297-98.
 
