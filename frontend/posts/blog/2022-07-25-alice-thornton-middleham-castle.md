@@ -10,13 +10,13 @@ tags:
 ---
 
 
-![A large castle, with horses grazing in the foreground]({{"/assets/img/posts/Middleham-horses-mediawiki-CJW.jpg" | url}} "Middleham Castle, Yorkshire. <br>CJW, Attribution, via Wikimedia Commons."){.media-right}
-
 What is Alice Thornton’s connection to Middleham Castle? While Alice grew up in relative privilege, living in nice halls such as Kirklington and Hipswell with her family, she certainly didn’t live anywhere as grand as a castle. But an incident recorded at the end of her *Book 1: The First Book of My Life* shows how she fits into the history of [Middleham Castle](https://www.english-heritage.org.uk/visit/places/middleham-castle/), now looked after by English Heritage. This is how Alice introduces the story:
 
 >My deliverance from drowning in the river at Middleham when I went to be a witness to my sister Danby’s first Francis, born at Middleham Castle in the year 1644.[^1]
 
 'Witness' here means 'godmother' – a witness to the child's baptism.
+
+![A large castle, with horses grazing in the foreground]({{"/assets/img/posts/Middleham-horses-mediawiki-CJW.jpg" | url}} "Middleham Castle, Yorkshire. <br>CJW, Attribution, via Wikimedia Commons."){.media-right}
 
 Here is Alice's recounting of the near-drowning:
 
