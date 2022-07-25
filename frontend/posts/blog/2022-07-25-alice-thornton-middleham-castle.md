@@ -1,7 +1,7 @@
 ---
 title: Alice Thornton, Memory and Middleham Castle
-feature: /assets/img/posts/Middleham-horses-mediawiki-CJW.jpg
-status: draft
+feature: /assets/img/posts/Bk1p298closeup.jpg
+status: live
 authors:
   - jedge
 tags:
