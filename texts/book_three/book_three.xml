@@ -37,18 +37,24 @@
          <calendar xml:id="JulianSic">
            <p>Year start date cannot be ascertained.</p>
          </calendar>
+         <calendar xml:id="JulianSlash">
+           <p>Dates written with two years separated by a slash.</p>
+         </calendar>
        </calendarDesc>
-       <!-- DATE NOTES:
+       <!-- NOTES ON DATES:
          
-               NB: our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year (of the two possible) a date between 1 Jan and 24 March is supposed to be in.
+            NB: our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year (of the two possible) a date between 1 Jan and 24 March is supposed to be in.
          
          following MoEML, three @datingMethod/@calendar
          #JulianJan year starts 1 January 
          #JulianMar date=1 Jan-24 Mar and year starts 25 March
          #JulianSic (rare) only used where date =1 Jan-24 Mar and we don't know which of the two possible years it is
+         ***UPDATE: added for Book 3***
+         Book 3 contains a number of dates written in the form 1668/9 (=1669). 
+         #JulianSlash to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
          
-         ** JulianJan is treated as default so not explicitly encoded (at the moment)**
-         ** similarly, assumption is that @calendar and @datingMethod are always the same so only @datingMethod is explicitly encoded (atm)** 
+         ** JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
+         ** Julian calendar is treated as the default calendar, so not explicitly encoded (atm)** 
          ** use @-custom attributes with -iso style formatting
          NB year-only dates are assumed #JulianJan unless clear reason to do otherwise
          
@@ -756,7 +762,7 @@
        My Age at<lb/>
        Mr Thorntons<lb/>
        Death <date>Sept. 17<lb/>
-       1668</date> was 41<lb/>
+       1668</date> was 41<!-- NOTE [wtf] --><lb/>
        yeares &amp; 7 
               <hi rend="underline">month</hi>s
         <lb/>
@@ -863,16 +869,16 @@
               Thornton<lb/>
               Eldest<lb/>
               D. born<lb/>
-              <date>Jan.3 53</date>
+              <date datingMethod="#JulianMar">Jan.3 53</date>
             </note>
            
               My Eldest Daughter Alice Thornton, Borne att Hipswell<lb/>
-              att my deare mothers Joynture. in the yeare: <date>1653 And in Jan. 3<hi rend="superscript">d</hi></date> <lb/>
+              att my deare mothers Joynture. in the yeare: <date datingMethod="#JulianMar">1653 And in Jan. 3<hi rend="superscript">d</hi></date> <lb/>
               she beeing obteined (by Gods great and miraculous mercyes; &amp; goodnes <lb/>
               in her delivrances from many deaths; &amp; convoltions &amp; dangers has now<lb/>
-              bin preserved to me. to live to this time, and of the Age, of (<date>Jan. 3<hi rend="superscript">d</hi><lb/>
+              bin preserved to me. to live to this time, and of the Age, of (<date datingMethod="#JulianMar">Jan. 3<hi rend="superscript">d</hi><lb/>
                
-              1668</date>) Fifteene years, and fouer months old.</p>
+              1668</date>) Fifteene years, and fouer months old.<!-- Q [date] Nally would be 15 in Jan 1669, though Alice might intend 1668 since she fibs about this elsewhere. BUT what's the four months? does that suggest this was written around May 1669? but then... --></p>
         
          <p rend="first-line-indent">
               For which great mercy I humbly bless &amp; praise, &amp; glorify the great <lb/>
@@ -890,7 +896,7 @@
               borne <date>Jun<lb/>
               12 1656</date>
          </note>
-             
+             <!-- mnote -->
              <date>June 12 1668</date>)<note place="end">
                      <p>
                   No open bracket</p>
@@ -2607,7 +2613,7 @@
               with A desperate<lb/>
               Feaver there.<lb/>
                   
-              <date>Feb. 13<hi rend="superscript">th</hi> 1661</date>.
+              <date datingMethod="#JulianMar">Feb. 13<hi rend="superscript">th</hi> 1661</date>.
                </note>
               but much more pressures on my Spirritt (from the Comforts of my<lb/>
               Spirrituall conserne;) it Pleased God to Lay annother affliction on me<lb/>
@@ -4381,7 +4387,7 @@
            <note xml:id="mnote-0129" place="left margin" rend="post(rule)">
             
             at Oswoldkirke<lb/>
-            <date>feb. 13 1661</date>----<lb/>
+            <date datingMethod="#JulianMar">feb. 13 1661</date>----<lb/>
             A Repettion of some<lb/>
             of Gods late, &amp; signall<lb/>
             mercys to me &amp; mine<lb/>
@@ -5257,7 +5263,7 @@
           gratitude to god for that inestimable bennifitt of my Redemption</p>
          <p rend="fl-indent"> nor had I the opportunity to receave the holy Sacrament<lb/>
           affter this time till by Providence Mr Bennett came to stongrave<lb/>
-          and gave me it the first time in that Church <date>a bout Easter 1663</date></p>
+          and gave me it the first time in that Church <date>a bout Easter 1663</date><!-- Easter 1663 = 19 April --></p>
          <p rend="fl-indent"> So that I wanted the Cheife food of my Soule to comfort and<lb/>
           strength my faith &amp; nourish me up to life Everlasting</p>
          <p rend="fl-indent"> Haveing all that time bin exersized with many Croses &amp; accidentts<lb/>
@@ -5391,7 +5397,7 @@
           Sermons, all which things was very acceptable both to God and<lb/>
           good Christians with great Comfort to our selves &amp; Children:</p>
          <p rend="fl-indent"> Mr Thomas Comber came to live at Newton with Mr<lb/>
-          Thornton about the time of <date>march the 19<hi rend="superscript">th</hi> 1665</date> and soe conti-<lb break="no"/>
+          Thornton about the time of <date datingMethod="#JulianSic">march the 19<hi rend="superscript">th</hi> 1665</date><!-- Q [dates] 1665 or 66? this must be checkable... --> and soe conti-<lb break="no"/>
           -nued, &amp; was heere, att Mr Thorntons death in a painfull<lb/>
           way of studding &amp; Reading. improving himselfe in his studdyes in<lb/>
           this retyred course of Life, And in this Place he began and finished<lb/>
@@ -7657,7 +7663,7 @@
           Father was Buried <date>September 19<hi rend="superscript">th</hi> 1668</date> his first tyeing cloths<lb/>
           was mourning for his Father.</p>
          <p rend="fl-indent"> My daughter Alice her Age was. <date>Jan. 3<hi rend="superscript">d</hi></date>
-             16.
+             16.<!-- Q [dates] I don't know how to interpret this date, since Nally wasn't 16 until 1670 and Alice keeps fibbing about her age. -->
          </p>
          <p rend="first-line-indent">
               My daughter Katherine her Age was <date>June 2<hi rend="superscript">d</hi></date>
@@ -9331,11 +9337,11 @@
           Righteous and then he will according to his Promis delier me 
       </p>
          <p rend="first-line-indent">
-              My Daughters age was <date>Jan.<note place="end">
+              My Daughters age was <date datingMethod="#JulianMar">Jan.<note place="end">
                <p>
               Some overwriting here.</p>
             </note>
-             3<hi rend="superscript">d</hi> 1668</date> the compleate<lb/>
+             3<hi rend="superscript">d</hi> 1668</date><!-- Q [date] given that Nally was not 16 in either 68 or 69, not quite sure which year Alice intends here, but I think it's meant to be after the marriage, therefore 69. --> the compleate<lb/>
           Age of 16 yeares.<note place="end">
                <p>
               DoB – 3 Jan 1654! [NB. Discussed age with Ann Hughes at RSA, Dublin, who does think it would have been a big issue.]</p>
@@ -9537,7 +9543,7 @@
          <p>
        <fw xml:id="mnote-0147" place="left margin" type="list-like">3.</fw> 
            I recavd allso a most deare and Pieous letter dated<lb/>
-          <date>Jan. 8<hi rend="superscript">th</hi> 1668</date> of the date with Dafenys 2<hi rend="superscript">d</hi> letter, affter the<lb/>
+          <date datingMethod="#JulianMar">Jan. 8<hi rend="superscript">th</hi> 1668</date> of the date with Dafenys 2<hi rend="superscript">d</hi> letter, affter the<lb/>
           marriage of my daughter, when I had writt her word to<lb/>
           accquaint her with it and of my disconsolate condition<lb/>
           by my great afflictions.</p>
@@ -9574,7 +9580,7 @@
               Butt as this was kept with much Privacy and not yett com<lb/>
           to my Lady yorkes knowledge because she was good woman<lb/>
           so much imposed uppon by Danbys slanders against Mr Comb<lb/>
-          she about the <date>23<hi rend="superscript">d</hi> of Jan. 1668<hi rend="superscript">/9</hi></date>
+          she about the <date datingMethod="#JulianSlash">23<hi rend="superscript">d</hi> of Jan. 1668<hi rend="superscript">/9</hi></date>
              write a very kind &amp; comp<ex>assionate</ex>
             <note place="end">
                <p>
@@ -9596,7 +9602,7 @@
       </p>
          <p rend="first-line-indent">
               To which kind wishes for me. I returnd my Lady my Answer Jan.<lb/>
-          <date>Jan<note place="end">
+          <date datingMethod="#JulianMar">Jan<note place="end">
                <p>
               Sic – repetition of ‘Jan’.</p>
             </note> 26 1668</date> I returned her Ladyship many thankes for her kind<lb/>
@@ -9738,7 +9744,7 @@
           others to write Comfortable letters bemoning my Afflictions
       </p>
          <p rend="first-line-indent">
-              my neece Best <date>feb. 5 1668</date> writt a deare &amp; comfortable letter and<lb/>
+              my neece Best <date datingMethod="#JulianMar">feb. 5 1668</date> writt a deare &amp; comfortable letter and<lb/>
           begged of me not to be soe afflicted for her sister Ketts<note place="end">
                <p>
               who is this? Katherine Best is sister-in-law of Anne Danby so does she mean AD?</p>
@@ -10508,7 +10514,7 @@
          <p rend="first-line-indent">
               Butt one day above all the rest being as I remember<lb/>
           on my owne birthday in the affternoone haveing kept the othr<lb/>
-          Part separate in fasting &amp; Prayer. <date>feb. 13<hi rend="superscript">th</hi> 1668</date>.<lb/>
+          Part separate in fasting &amp; Prayer. <date datingMethod="#JulianSic">feb. 13<hi rend="superscript">th</hi> 1668</date><!-- Q [dates] is this after Mr T's death ie 1669? -->.<lb/>
          
          
         <pb n="171"/>
@@ -10890,8 +10896,8 @@
             
                <note xml:id="mnote-0154" place="left margin" rend="post(rule)">
                  
-                 <date>Feb. 13<hi rend="superscript">th</hi><lb/>
-                  1669</date><lb/>
+                 <date datingMethod="#JulianSic">Feb. 13<hi rend="superscript">th</hi><lb/>
+                  1669</date><!-- Q [dates] not quite sure if this is meant to be 69 or 70 --><lb/>
                  ------------<lb/>
             The 42<hi rend="superscript">d</hi> yere<lb/>
             of my Age<lb/>
@@ -10902,7 +10908,7 @@
                    ct,tericall.
                  <note place="end">
                      <p>
-                  Climateric: 2. a. Any of certain supposedly critical years of human life, when a person was considered to be paticularly liable to change in health or fortune; (sometimes) spec. - grand climacteric: a year of life, often reckoned as the 63rd, supposed to be especially critical. †great climacteric: - <ref target="HYPERLINK">grand climacteric</ref>.
+                  Climateric: 2. a. Any of certain supposedly critical years of human life, when a person was considered to be paticularly liable to change in health or fortune; (sometimes) spec. - grand climacteric: a year of life, often reckoned as the 63rd, supposed to be especially critical. †great climacteric: - grand climacteric.
                     Ancient authors gave
                     different accounts of the climacteric years: Aulus Gellius, for instance, identified every seventh year as climacteric and the 63rd as the most critical ( Noctes Atticae 3. 10. 9 and 15. 7), and Censorinus (3rd cent.: De diei natali 14) and Julius Firmicus Maternus (4th cent.: Mathesis 4. 20. 3) both reported that every seventh or ninth year might be regarded as climacteric, Censorinus identifying the 49th and 81st as particularly critical and Firmicus the 63rd.</p>
                   </note>
@@ -10931,7 +10937,7 @@
           Salvation Blessed be my strong hold to flee unto; &amp; my Refuge<lb/>
           &amp; my mercifull God which has this day fullfilled my daies to the<lb/>
         number through many &amp; great tribulations to compleat the 42<hi rend="superscript">d</hi><lb/>
-            yeare of my Life <date>feb. 13<hi rend="underline">1669</hi></date>
+            yeare of my Life <date datingMethod="#JulianSic">feb. 13<hi rend="underline">1669</hi><!-- Q [date] 1669 or 70? --></date>
              Glory be to God most high for Ever
          </p>
          
@@ -12790,7 +12796,7 @@
       <p rend="first-line-indent">
               And he beeing a man of Learning and Piety, &amp; Parts did<lb/>
           not doubt but by Gods blessing he would come to Preferment<lb/>
-          This letter dated <date>Jan. 2 1668</date> and sent to my Aunt Norton<lb/>
+          This letter dated <date datingMethod="#JulianMar">Jan. 2 1668</date> and sent to my Aunt Norton<lb/>
           by the hand of faithfull Dafeny, when she went home affter<lb/>
           the marriage of my Childe as before said;</p>
         
@@ -12839,7 +12845,7 @@
           against me for this match. which was don on such good grounds<lb/>
           These letters was sent by the hand of Dafeny Lightfoote afftr<lb/>
           the marriage of my daughter Alice to Mr Thomas Comber<lb/>
-          <date>Jan. 2<hi rend="superscript">d</hi> 1668</date> Minnister of Gods Word att Stongrave in<lb/>
+          <date datingMethod="#JulianMar">Jan. 2<hi rend="superscript">d</hi> 1668</date> Minnister of Gods Word att Stongrave in<lb/>
           the Parish of my husbands Antienters &amp; near to his Estate &amp;<lb/>
           Kindred.</p>
          <p rend="first-line-indent">
@@ -12988,7 +12994,7 @@
           her husband &amp; her selfe &amp; Children</p>
          <p rend="first-line-indent">
               I receaved a gratefull &amp; kinde letter from Dafeny dated<lb/>
-          <date>Jan 8 1668</date> of her acquainting my Aunt Norton and my<lb/>
+          <date datingMethod="#JulianMar">Jan 8 1668</date> of her acquainting my Aunt Norton and my<lb/>
           uncle major norton of the marriage of my Daughter Alice &amp;<lb/>
           of All the consernes of that Affaire Soe they were all very well<lb/>
           Pleased with it and prayed God to blesse them &amp; wished them<lb/>
@@ -13024,7 +13030,7 @@
          <p rend="first-line-indent">
               I blesse God, I allso receaved a most kinde and Comfortable<lb/>
           letter of my deare Aunt Norton in answer to myne by Dafeny of<lb/>
-          <date>Jan. 2 1668</date><hi rend="superscript">/9</hi>
+          <date datingMethod="#JulianSlash">Jan. 2 1668</date><hi rend="superscript">/9</hi>
              when I acq. her with Alice marriag &amp; the Resons.<lb/>
          
          
@@ -13036,7 +13042,7 @@
             <fw type="pageNum">207</fw>
            <lb/>
          
-         <date>Jan. 8<hi rend="superscript">th</hi> 1668<hi rend="superscript">/9</hi></date><!-- NOTE date is *not* in margin --> To which she returnd That she was fully con-<lb break="no"/>
+         <date datingMethod="#JulianSlash">Jan. 8<hi rend="superscript">th</hi> 1668<hi rend="superscript">/9</hi></date><!-- NOTE date is *not* in margin --> To which she returnd That she was fully con-<lb break="no"/>
           vinced &amp; sattisifed of the good Ends &amp; necessity of my occasion<lb/>
           and reasons which was a great greife that I should be in such<lb/>
           sircumstances. But she did write a most Pieous and Christian<lb/>
@@ -13109,7 +13115,7 @@
           horrid wrongs by those who had bin preserved by Charity<lb/>
           And that I must not be too much greived at what the Devill<lb/>
           or man can say against me for I may take Comfort in my<lb/>
-          selfe for non belives any ill of me she blesss God. <date>Jan<hi rend="underline">. 10 1668</hi><hi rend="superscript underline">/9</hi></date>
+          selfe for non belives any ill of me she blesss God. <date datingMethod="#JulianSlash">Jan<hi rend="underline">. 10 1668</hi><hi rend="superscript underline">/9</hi></date>
           .
          </p>
          <p rend="first-line-indent">
@@ -13401,7 +13407,7 @@
           would carry her to the Bishop to be confirmed. she heard newes of<lb/>
           her God Daughter, which she could not beleive, of her beeing married<lb/>
           but she desires I would be advised in a thing, of such Conseques<lb/>
-          by my best freinds. <date>Jan. 23 1668<hi rend="superscript">/9</hi></date>
+          by my best freinds. <date datingMethod="#JulianSlash">Jan. 23 1668<hi rend="superscript">/9</hi></date>
          </p>
          <p rend="first-line-indent">
               This letter &amp; the Copy of my Answer to it are in the Bundle<lb/>
@@ -13412,7 +13418,7 @@
         benifitt with me. And that I had advised with my good freinds<lb/>
           in the Poynt of her match &amp; soe gave her a full Answer to hers<lb/>
           which I have entred before marriage in this Booke. to which this<lb/>
-          referres. my Letter Dated <date>Jan the 26 1668<hi rend="superscript">/9</hi></date>.</p>
+          referres. my Letter Dated <date datingMethod="#JulianSlash">Jan the 26 1668<hi rend="superscript">/9</hi></date>.</p>
          <p rend="first-line-indent">
               A letter of my deare Neece Bests her great sorrow and<lb/>
           conserne for my Losse and for the lying slanders of her<lb/>
@@ -13420,7 +13426,7 @@
           to doe me mischeife. but begges of God to suport me &amp; helpe<lb/>
           me out of all. and that I will not soe cast my selfe downe<lb/>
           for it for her Tongue is noe slander haveing used all her<lb/>
-          husbands freinds in the like kind. <date>Feb. 5 1668<hi rend="superscript">/9</hi></date>.</p>
+          husbands freinds in the like kind. <date datingMethod="#JulianSlash">Feb. 5 1668<hi rend="superscript">/9</hi></date>.</p>
          
         <pb n="213"/>
 
@@ -13429,7 +13435,7 @@
          
             <fw type="pageNum">213</fw>
          
-         <p><date>Feberary 13<hi rend="superscript">th</hi> 1668<hi rend="superscript">/9</hi></date>
+         <p><date datingMethod="#JulianSlash">Feberary 13<hi rend="superscript">th</hi> 1668<hi rend="superscript">/9</hi></date>
          </p>
          <p rend="first-line-indent">
               This day by the infinitt &amp; eingnt Power. Mercy<lb/>
@@ -13528,7 +13534,7 @@
           up his servants to yeald me comforts &amp; vindication of his widow
       </p>
          <p rend="first-line-indent">
-              Dated <date>March 3<hi rend="superscript">d</hi> 1668<hi rend="superscript">/9</hi></date>
+              Dated <date datingMethod="#JulianSlash">March 3<hi rend="superscript">d</hi> 1668<hi rend="superscript">/9</hi></date>
          </p>
         </div>
         
@@ -13667,7 +13673,7 @@
               It Pleased God in his great mercy and goodness to my selfe<lb/>
           and my Son &amp; Daughter to be made Pertakers of that holy<lb/>
           feast of our Lord and Saviour Jesus Christ of the blessed Sacrament<lb/>
-          att <date>Easter 1669</date>. beeing the 2<hi rend="superscript">d</hi> time I receavd affter Mr Thorntons<lb/>
+          att <date>Easter 1669</date><!-- easter 1669 = 11 April -->. beeing the 2<hi rend="superscript">d</hi> time I receavd affter Mr Thorntons<lb/>
           death and affter the marriage of my daughter
       </p>
          <p rend="first-line-indent">
