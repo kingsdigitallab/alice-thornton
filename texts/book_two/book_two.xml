@@ -89,7 +89,7 @@
          [tags] for some indication of what it's about
          [endnote] moved from Word endnotes into xml comment
 
-      2022-07-20. *not* added mnote xml:ids to this book as there is no tagging that requires it.
+      2022-07-20. *not* added mnote xml:ids to this book as there is no tagging that requires it. ok, there's one!
           -->
          
          <!--  LINKAGE 
@@ -158,10 +158,10 @@
           <p>
             [Flyleaf – Inscription, see diplomatic version]
          </p>
+            
          <pb/>
-         <p>
-            [Blank Page – unnumbered]
-         </p>
+         <space unit="page" quantity="2" type="ruled"/>
+            
          </div>
     <!-- Q [structure] where to end <front> ? -->
  </front>
@@ -314,7 +314,7 @@
             <!--<note place="comment" resp="#Suzanne_Trill" n="0">
                NB. Page numbers enclosed in square brackets, here and throughout, indicate that the original MS pages do not have numbers written on them.</note>-->
          
-         <p>[Blank but ruled]</p>
+         <space quantity="1" unit="page" type="ruled"/>
            
          </div>
          
@@ -533,20 +533,21 @@
 
 <!-- Page 11 -->
          
-            <fw type="pageNum">
-               11
-            </fw>
+            <fw type="pageNum"> 11 </fw>
          
          <div type="blank">   
 
-         <p>[Blank – but ruled]</p>
+
+            <space quantity="1" unit="page" type="ruled"/>
          
       <pb n="12"/>
 
 <!-- Page 12 -->
 
          
-         <p>[Blank but ruled]</p>
+         
+            <space quantity="1" unit="page" type="ruled"/>
+            
        </div>  
          
       <pb n="13"/>
@@ -554,9 +555,7 @@
 <!-- Page 13 -->
 
          
-            <fw type="pageNum">
-               13
-            </fw>
+            <fw type="pageNum"> 13 </fw>
          
 
        <div>
@@ -801,7 +800,8 @@
 <!-- Page 20 -->
 
       <div type="blank">     
-         <p>[Blank, but ruled]</p>
+         
+         <space quantity="1" unit="page" type="ruled"/>
          
       <pb n="21"/>
 
@@ -812,14 +812,16 @@
                21
             </fw>
          
-         <p>[Blank, but ruled]</p>
+         
+         <space quantity="1" unit="page" type="ruled"/>
          
       <pb n="22"/>
 
 <!-- Page 22 -->
 
          
-         <p>[Blank, but ruled]</p>
+         
+         <space quantity="1" unit="page" type="ruled"/>
          
        </div>  
          
@@ -6466,6 +6468,11 @@
        <div rend="pre(rule_short)">
             <!-- [decoration] another short ruled line, slightly longer this time, and level with *bottom of* 'Upon my removal' which is indented. -->
          <p>    
+         <!-- Q [margin] not 100% sure of handling. 
+            first word is level with *beginning* of p
+            but the insertion is really to meant to run from the last word on the page. 
+            I *think* it works to link the note to an <anchor/> tag at that point. -->
+     <add place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right" xml:id="mnote-0001" resp="#awt">in my mind. till my Child died./</add>            
             Upon my removall to St Nickolas &amp;<lb/>
             Mr Th. was gon to London, about the suits of<lb/>
             my brothr Sir Ch. w. I beeing great with Childe<lb/>
@@ -6475,13 +6482,13 @@
             blood, as if it had bin dashed with one hand<lb/>
             which so frighted me, that I tould my Aunt of it in<lb/>
             the morning. but she putt it of as well as she could<lb/>
-            &amp; said dreams was not to be regarded. but I kept it</p>
+            &amp; said dreams was not to be regarded. but I kept it <anchor corresp="#mnote-0001"/></p>
          <p>
             <note place="end">
-               <p> [add] With no space remaining at the bottom of this page, this line has been written vertically in the left margin, beginning one third of the way down the page and ending at the bottom.</p>
+               <p> With no space remaining at the bottom of this page, this line has been written vertically in the left margin, beginning one third of the way down the page and ending at the bottom.</p>
             </note>
-            <add place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right">in my mind. till my Child died./</add>
-            <!-- Q [tagging] [margin] not quite sure of handling. first word is level with *beginning* of div and normally I'd put it at the start of the paragraph, but in the text it runs on from the end. use an <anchor/> tag? -->
+
+
          </p>
            
            </div>
@@ -6930,14 +6937,16 @@
        
        <div type="blank">  
           
-         <p>[Blank but ruled]</p>
+          
+          <space quantity="1" unit="page" type="ruled"/>
          
       <pb n="190"/>
 
 <!-- Page 190 -->
 
          <!-- unpaginated: 188 -->
-         <p>[Blank but ruled]</p>
+          
+          <space quantity="1" unit="page" type="ruled"/>
           
        </div>
          
@@ -8209,7 +8218,8 @@
 
          <!-- unpaginated: 223 -->
 
-         <p>[blank but ruled]</p>
+
+          <space quantity="1" unit="page" type="ruled"/>
          
       <pb n="226"/>
 
@@ -8217,7 +8227,8 @@
 
          <!-- unpaginated: 224 -->
 
-         <p>[blank but ruled]</p>
+
+          <space quantity="1" unit="page" type="ruled"/>
          
       <pb n="227"/>
 
@@ -8225,7 +8236,8 @@
 
          <!-- unpaginated: 225 -->
 
-         <p>[blank but ruled]</p>
+
+          <space quantity="1" unit="page" type="ruled"/>
          
       <pb n="228"/>
 
@@ -8233,7 +8245,8 @@
 
          <!-- unpaginated: 226 -->
 
-         <p>[blank but ruled]</p>
+
+          <space quantity="1" unit="page" type="ruled"/>
          
          </div>
          
@@ -9630,7 +9643,8 @@
        
          <div type="blank">
          
-         <p>[blank but ruled]</p>
+         
+            <space quantity="1" unit="page" type="ruled"/>
          
       <pb n="264"/>
 
@@ -9638,7 +9652,8 @@
 
          <!-- unpaginated: 262 -->
 
-         <p>[blank, but ruled]</p>
+
+            <space quantity="1" unit="page" type="ruled"/>
          
          </div>
          
