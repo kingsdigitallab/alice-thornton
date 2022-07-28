@@ -876,14 +876,14 @@
         <div xml:id="div-015">       
          <p>
            <milestone n="ev9" unit="event"/>
-            <fw xml:id="mnote-0002" type="header" place="margin left"><date when-custom="1638-02-13">38</date>:</fw>. 
+            <fw xml:id="mnote-0002" type="header" place="margin left"><date when-custom="1638">38</date>:</fw>. 
            About the time I was 12 years old. I<lb/>
           was reading of the great wisdome of<lb/>
           our Saviour in the Gospell where he<lb/>
           was disputing with the Doctors with so much<lb/>
           power that he put them to silence. upon<lb/>
           which place, in the reading thereof beeing<lb/>
-          that day 12 y: old. I fell into a deepe<lb/>
+          <date when-custom="1638-02-13">that day</date> 12 y: old. I fell into a deepe<lb/>
           thought of the majestie of Jesus X<lb/>
           who was able to confound the Doctors<lb/>
           at that Age. And then I considred<lb/>
@@ -1084,13 +1084,13 @@
             <pb n="23"/>
 
 <!-- transcription: Page 23 -->
-       <div xml:id="div-023" rend="post(diagonal)">
          <fw>
            <fw type="header" rend="darkerInk"><date when-custom="1647/1649">1647. 48: 49.</date> </fw>
            <fw type="pageNum" rend="darkerInk">23.</fw>
            
            <!-- msDescription [endnote] Dates and page number looks to be in a darker ink than what’s written on the page. Also this particular page is far ‘neater’ than the previous – lots more space between sentences and entries.-->
          </fw>
+       <div xml:id="div-023" rend="post(diagonal)">
          <p>
          <milestone n="ev21" unit="event"/>
            <persName ref="ppl:en1" n="per48">My Cozen Edmund Norton</persName> maried<lb/>
@@ -6384,67 +6384,83 @@
           
                   
      <div xml:id="div-095" type="index">
+       <!-- msDescription [endnote] Ruling on page.-->
            
        <!-- TODO [index] 
-         structure? I don't want to have to do this as a table!!!!
-         done <ref> for page numbers
-         link entries to text 
-            need to settle div ids first? got to have something to link to.
+           link entries to text 
             record alice discrepancies -->
 
-       <!-- msDescription [endnote] Ruling on page.-->
       <list>           
          <head>
-            <fw type="header">The Index of this booke.</fw>
+            The Index of this booke.
          </head>
-         <fw> page</fw>
-         <item>The Age of Alice Wandesforde <ref>3.</ref>
+         <fw place="right"> page</fw>
+         <item corresp="#div-002">The Age of Alice Wandesforde <ref>3.</ref>
          </item>
-         <item>The dedication <ref>5.</ref>
+         <item corresp="#div-004">The dedication <ref>5.</ref>
          </item>
-         <item>Observables <ref>7.</ref>
+         <item corresp="#div-006">Observables <ref>7.</ref>
          </item>
-         <item>Prayer <ref>8.</ref>
+         <item corresp="#div-007">Prayer <ref>8.</ref>
          </item>
-         <item>Preface <ref>9.</ref>
+         <item corresp="#div-008">Preface <ref>9.</ref>
          </item>
-         <item>her weakenes in the Meassells <ref>10.</ref>
+         <item corresp="#div-009">her weakenes in the Meassells <ref>10.</ref>
          </item>
-         <item>her haveing the Smale Pox in Kent 
+         <item corresp="#div-010">her haveing the Smale Pox in Kent 
         <ref>12.</ref>
          </item>
-         <item>meditations on Psalme 147: 4<hi rend="superscript">th</hi>
+         <item corresp="#div-011">meditations on Psalme 147: 4<hi rend="superscript">th</hi>
             <ref>13.</ref>
          </item>
-         <item>Deliverance from <add place="above">fire</add> in London. 32:	
+         <item corresp="#div-012">Deliverance from <add place="above">fire</add> in London. 32:	
             <ref>15.</ref>
          </item>
-         <item>Her passage into Ireland. 1632. <ref>16.</ref>
+         <item corresp="#div-013">Her passage into Ireland. 1632. <ref>16.</ref>
          </item>
-         <item>Deliverance from fire in dublin <ref>19.</ref>
+         <item corresp="#div-014">Deliverance from fire in dublin <ref>19.</ref>
          </item>
-         <item>A second medita. about 12: y: old <ref>19.</ref>
+         <item corresp="#div-015">A second medita. about 12: y: old <ref>19.</ref>
          </item>
-         <item>Deliverance in a Storme at Sea. 39 <ref>20.</ref>
+        <item corresp="#div-016">Deliverance in a Storme at Sea. 39 <ref>20.</ref>
          </item>
-         <item>The death of the Lord Deputy W: <ref>21.</ref>
+        <item corresp="#div-017">The death of the Lord Deputy W: <ref>21.</ref>
          </item>
-         <item>The deliverance from the Irish Reb. <ref>22.</ref>
+        <item corresp="#div-018">The deliverance from the Irish Reb. <ref>22.</ref>
          </item>
-         <item>Her haveing the Smale Pox at Ches <ref>23.</ref>
+         <item corresp="#div-019">Her haveing the Smale Pox at Ches <ref>23.</ref>
          </item>
-         <item>A deliv:' from a sickenesse at Rich. <ref>23.</ref>
+        <item corresp="#div-021">A deliv:' from a sickenesse at Rich. <ref>23.</ref>
          </item>
-         <item>The Lady Danby died. 1645 <ref>23.</ref>
+         <item corresp="#div-022">The Lady Danby died. 1645 <ref>23.</ref>
          </item>
          <item>
-           <!-- TODO [index] [curlybraces] grouping 3 items. Q positioning/tagging of the <ref>. -->
-           <list><!-- <ref> not allowed here. but allowed inside <head> -->
-             <item>Mr Edmund Norton died. 1648 </item>
-             <item>King Charles the Blessed. 1648 </item>
-             <item>Sr Edward Osborne died</item>
+           <!-- NOTE [index] [curlybraces] grouping 3 items. 
+         https://listserv.brown.edu/cgi-bin/wa?A2=ind2110&L=TEI-L&D=0&P=29205
+         https://textcreationpartnership.org/docs/oxdox/encoding/list.html#braces
+           https://wwp.northeastern.edu/research/publications/guide/html/rendition_braced.html
+           
+           this might just work... 
+           for a braced group in a list:
+           - nested list for the grouped items
+           - <label> to indicate the (page ref or item) the brace is pointing *to*
+           - and @rend for the look of the bracket itself
+           rend="braced()" 
+            }  the brace points right 
+            {  it points left
+            label also has @place attribute: 
+              right/left
+              top/centre/bottom
+           ?
+           what about contexts outside lists?
+           hmm. not so useful where it's a single item.
+           -->
+           <list rend="braced(})">
+             <item corresp="#div-024">Mr Edmund Norton died. 1648 </item>
+             <item corresp="#div-025">King Charles the Blessed. 1648 </item>
+             <item corresp="#div-028">Sr Edward Osborne died</item>
            </list>
-           <ref>23.</ref>
+           <label place="right centre"><ref>23.</ref></label>
          </item>
          
             <pb n="174"/>
@@ -6453,34 +6469,46 @@
 
        <!-- msDescription [endnote] NB. Page/page numbers should be closer to the end of text on this page.-->
             
-         <fw>page</fw>
+         <fw place="right">page</fw>
          <item>George Wandesforde Esq:<hi rend="superscript">r</hi> d. 1651.
             <ref>24.</ref>
          </item>
-        <!-- TODO [index] [curlybraces] grouping 3 items -->
-         <item>Mrs Mary Norton married. 1651.</item>
-        <item>Sr. Christopher Wand: mar: 1651 
-          <ref>24.</ref>
-         </item>
-         <item>Alice Thornton married. 1651</item>
-        
-         <item>She began her first Sickness <ref>25.</ref>
+        <!-- NOTE [index] [curlybraces] grouping 3 items -->
+        <item>
+          <list rend="braced(})">
+            <item>Mrs Mary Norton married. 1651.</item>
+            <item>Sr. Christopher Wand: mar: 1651</item>
+            <item>Alice Thornton married. 1651</item>
+          </list>
+        <label place="right centre"><ref>24.</ref></label>
+        </item>
+        <item>She began her first Sickness <ref>25.</ref>
          </item>
         <!-- TODO [index] [curlybraces] grouping 2 items -->
-        <item>Alice Thornton dau: birth. 53</item>
-         <item>Elizabeth Thorntons birth. 54 <ref>25.</ref>
-         </item>
-        
+        <item>
+        <list rend="braced(})">  
+          <item>Alice Thornton dau: birth. 53</item>
+          <item>Elizabeth Thorntons birth. 54 </item>
+        </list>
+        <label place="right centre"><ref>25.</ref></label>
+        </item> 
         <!-- TODO [index] [curlybraces] grouping 2 items -->
+        <item>
+        <list rend="braced(})">  
         <item>Mrs Eliz: Gates died. 55.</item>
-         <item>Mr Geffery Gates died. 55. <ref>26.</ref>
-         </item>
-        
+         <item>Mr Geffery Gates died. 55. </item>
+         </list> 
+         <label place="right centre"><ref>26.</ref></label>
+        </item>
         <!-- TODO [index] [curlybraces] grouping 3 items -->
-        <item>Mr Rich. Thornton died. 56.</item>
-         <item>Katherine Thornton birth. 56 <ref>27.</ref> </item>
-         <item>Eliz: Thornton died. 56.</item>
-        
+        <item>
+          <list rend="braced(})">
+            <item>Mr Rich. Thornton died. 56.</item>
+            <item>Katherine Thornton birth. 56  </item>
+            <item>Eliz: Thornton died. 56.</item>
+         </list>
+          <label place="right centre"><ref>27.</ref></label>
+        </item>
          <item>my deliverance from a fall. 57. <ref>28.</ref>
          </item>
          <item>The birth of my first Son. 57. <ref>29</ref>
@@ -6494,45 +6522,71 @@
          <item>meditations <ref>42.</ref>
          </item>
         <item>
-          my dangerous Sickeness. 1661. <lb/>
+          <!-- TODO [index] [curlybraces] but here it's a single item and the brace is really just for appearance grouping 3 lines. not sure what to do with the ref either. -->
+          
+          my dangerous Sickeness. 1661. <ref>43.</ref><lb/>
           when I was preserved from the <lb/>
           Temptation of Satan to dispaire 
-          <ref>43.</ref><!-- TODO [index] [curlybraces] -->
+          
         </item>
          
             <pb n="175"/>
 
 <!-- transcription: Page 175 -->
 
-         <fw>page</fw>
+         <fw place="right">page</fw>
        <!-- msDescription [endnote] Again, there should be less of a gap between text and page/numbers.-->
-        <item> My prayers &amp; meditations <lb/><!-- TODO [index] [curlybraces] grouping 2 lines -->
-           There upon on St <add place="above">Matth.</add> 11: 27. 28: &amp; <ref>46.</ref>
+        
+        
+        <!-- TODO [index] [curlybraces] again, single item. grouping 2 lines -->
+        <item> 
+          My prayers &amp; meditations <lb/>
+          There upon on St <add place="above">Matth.</add> 11: 27. 28: &amp; <ref>46.</ref>
          </item>
-         <item> The recovery of my healts <ref>51.</ref>
+        
+         <item> The recovery of my healts <ref>51.</ref> </item>
+        
+        <!-- TODO [index] [curlybraces] grouping 2 lines -->
+        <item>
+          Mr Thorntons preservation<lb/>
+          And mine. <ref>52.</ref>
          </item>
-        <item>Mr Thorntons preservation</item><!-- TODO [index] [curlybraces] grouping 2 lines -->
-         <item>And mine. <ref>52.</ref>
-         </item>
-         <item>Considerations there upon <ref>60.</ref>
-         </item>
-        <item>A deliverance from greife <ref>62.</ref></item><!-- TODO [index] [curlybraces] grouping 2 items (i think, but check) -->
-         <item>on Nettleton Balifes comeing </item>
-        <item>A deepe apprehension of my<lb/><!-- TODO [index] [curlybraces] grouping 3 lines -->
+        
+         <item>Considerations there upon <ref>60.</ref> </item>
+        
+        <!-- TODO [index] [curlybraces] grouping 2 lines 1 item (i think, but check?) -->        
+        <item>
+          A deliverance from greife <ref>62.</ref><lb/>
+          on Nettleton Balifes comeing </item>
+        
+        <!-- TODO [index] [curlybraces] grouping 3 lines -->
+        <item>A deepe apprehension of my<lb/>
           Change being with childe of my <ref>66.</ref> <lb/>
           Seaventh
         </item>
-        <item>The Sattisfaction of my Soule<lb/><!-- TODO [index] [curlybraces] grouping lines -->
+        
+          <!-- TODO [index] [curlybraces] grouping lines -->
+        <item>
+          The Sattisfaction of my Soule<lb/>
           after the receaving the H: Sacram. <ref>70.</ref> <lb/>
           first at Newton by Dr Sammw
         </item>
-        <item>A satisfaction by the Settlemt <ref>72.</ref><!-- TODO [index] [curlybraces] grouping lines --> <lb/>
+        
+          <!-- TODO [index] [curlybraces] grouping lines --> 
+        <item>
+          A satisfaction by the Settlemt <ref>72.</ref> <lb/>
           of Mr Covill for Laistrop
         </item>
-        <item>My Sonne Robert Thorntons<lb/><!-- TODO [index] [curlybraces] grouping lines -->
+        
+          <!-- TODO [index] [curlybraces] grouping lines -->
+        <item>
+          My Sonne Robert Thorntons<lb/>
           Birth. Sept: 19: 1662. <ref>79.</ref>
          </item>
-        <item>A most dangerous flux on<lb/><!-- TODO [index] [curlybraces] grouping lines -->
+        
+        <!-- TODO [index] [curlybraces] grouping lines -->
+        <item>
+          A most dangerous flux on<lb/>
           me after his birth <ref>80.</ref>
          </item>
          <item>Prayers, &amp; meditations there on <ref>82.</ref>
@@ -6542,12 +6596,21 @@
 
 <!-- transcription: Page 176 -->
 
-         <fw> page</fw>
-        <item>My Sonne Roberts baptisme </item><!-- TODO [index] [curlybraces] dual - grouping 2 items, 2nd has 2 lines -->
-         <item>
-        A Prayer &amp; thanksgiveing <ref>85.</ref> <lb/>
-          for this blessing</item>
-        <item>A thankesgiveing for Mr<lb/><!-- TODO [index] [curlybraces] -->
+         <fw place="right"> page</fw>
+
+        <!-- NOTE [index] [curlybraces] grouping 2 items -->
+        <item>
+          <list rend="braced(})">
+            <item>My Sonne Roberts baptisme </item>
+            <item>
+              A Prayer &amp; thanksgiveing  <lb/>
+                for this blessing</item>
+          </list>
+          <label place="right centre"><ref>85.</ref></label>
+        </item>
+        
+          <!-- TODO [index] [curlybraces] grouping lines -->
+        <item>A thankesgiveing for Mr<lb/>
           Thorntons deliverance from<lb/>
           a flood of waters in his <ref>87.</ref> <lb/>
           returne from London
