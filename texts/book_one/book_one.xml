@@ -211,12 +211,17 @@
                     <name>Sharon Howard</name>
                     <desc>added xml:id to marginalia note/fw to enable linking to text</desc>
                 </change>
+                <change>
+                    <date>2022-07-28</date>
+                    <name>Sharon Howard</name>
+                    <desc>final tweaks to div tagging and added xml:id (dropped @n)</desc>
+                </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
   <text>
       <front>
-        <div n="div1">
+        <div xml:id="div-001">
             <!-- Q [teams] [ms] how to handle blank pages (also in BoR) -->
             <p>
                 [[Page i] [First leaf] Inscription: see Dip.]
@@ -235,7 +240,7 @@
 
         <fw type="pageNum"> 1. </fw>
 
-    <div n="div2">
+    <div xml:id="div-002">
         <head place="centre">
             <persName ref="ppl:jh1" n="per1">Bishop Hall</persName>s Observations in his<lb/>
              <ref>booke of Meditations<lb/>
@@ -273,7 +278,7 @@
         <!-- Q [teams] [decoration] unusual: page has ruled border top/bottom/left -->
         <fw type="pageNum"> 2. </fw>
 
-    <div n="div3" type="prayer">
+    <div xml:id="div-003" type="prayer">
 
         <head place="centre">A Praier.</head>
 
@@ -299,7 +304,7 @@
 
         <fw type="pageNum"> 3. </fw>
 
-    <div n="div4" type="poetry">
+    <div xml:id="div-004" type="poetry">
 
         <head>The dedication.</head>
 
@@ -360,7 +365,7 @@
 
         <fw type="pageNum">5.</fw>
         
-    <div n="div5" rend="post(rule)">
+    <div xml:id="div-005" rend="post(rule)">
         <!-- NOTE [rendition keywords] 
             - pre/post "rule" assumed default = ruled line is full width of text (or of margin text). not sure if there are any shorter ones in this book (there are a few in BoR). 
             - additions: double/thick/pattern
@@ -393,7 +398,7 @@
 
         <fw type="pageNum">6.</fw>
         
-    <div n="div6">
+    <div xml:id="div-006">
         <head rend="post(rule)">Proverbes. </head>
         
     
@@ -429,7 +434,7 @@
     
     <fw type="pageNum">7.</fw>
     
-    <div n="div7" type="preface">
+    <div xml:id="div-007" type="preface">
         <head place="centre" rend="post(rule)">A Preface to the booke.</head>
          
         <p>For as much as it is the dutie of every true Christian<lb/>
@@ -491,7 +496,7 @@
     </front>
     
     <body>
-        <div n="div8" type="insertion">
+        <div xml:id="div-008" type="insertion">
            <milestone n="ev2" unit="event"/>
             <note place="inline" resp="#awt">
               <p>Remember to putt the Relation of my delivrance from Death<lb/>
@@ -502,7 +507,7 @@
             </note>
            <anchor n="ev2" type="event"/>
      </div>
-     <div n="div9">
+     <div xml:id="div-009">
          <milestone n="ev3" unit="event"/>
             <p>
       <fw xml:id="mnote-0001" place="left margin">      
@@ -552,7 +557,7 @@
                  Omega. Amen. I was about 5 yeares old. then:</p>
             
          </div>
-        <div n="div10">
+        <div xml:id="div-010">
          <head place="right" rend="pre(rule)">
              A preservation in the Smale Pox, <date type="illness" when-custom="1631">1631</date>.
          </head>
@@ -577,7 +582,7 @@
            
                 <fw type="pageNum"> 10. </fw>
             
-        <div n="div11">
+        <div xml:id="div-011">
             <head rend="post(rule)" place="right">
                 <hi rend="underline" style="text-align: left;">London</hi>
                 <hi rend="underline" style="text-align: center;"><date type="religion" when-custom="1631">1631</date>.</hi>
@@ -638,7 +643,7 @@
             
        </div>
         
-        <div n="div12">
+        <div xml:id="div-012">
             
             <head place="right" rend="pre(rule)"> 
                 
@@ -668,7 +673,7 @@
         
             <fw type="pageNum">12.</fw>
 
-        <div n="div13">
+        <div xml:id="div-013">
             
             <head rend="post(rule)"><rs ref="ppl:aow1" n="per24" type="person">My Mother</rs>s goeing into <placeName ref="place:Irel_096" n="place10">Ireland</placeName>. <date when-custom="1632">1632</date>.
             </head>
@@ -740,7 +745,7 @@
 
 <!-- transcription: Page 14 -->
 
-        <div n="div14">
+        <div xml:id="div-014">
             <fw type="pageNum"> 14. </fw><lb/>
             <fw type="header"> <date when-custom="1636/1638">36. 37. 38.</date></fw><lb/>
         <!-- NOTE header is not a section title -->
@@ -757,7 +762,7 @@
             </p>
             
           </div>
-        <div n="div15" rend="pre(rule)"> 
+        <div xml:id="div-015" rend="pre(rule)"> 
             <milestone n="ev10" unit="event"/>
             <p>About the time I was 12 yeares old in the <add place="above">yeare</add> <date type="religion" when-custom="1638">1638</date><!-- TODO [date] it's her birthday so you can fill it in. -->.<lb/>
                  I was readeing of the great wisdome of our Saviour.<lb/>
@@ -787,7 +792,7 @@
 
                 <fw type="pageNum">15.</fw>
             
-        <div n="div16">
+        <div xml:id="div-016">
             <head rend="post(rule)">
                 <hi rend="underline"><date>1639</date>.</hi><lb/>
                 
@@ -872,7 +877,7 @@
                  was forced to flie into <placeName ref="place:Engl_094" n="place23">England</placeName>, uppon the Rebellion<lb/>
                  which brake out in <placeName ref="place:Irel_096" n="place24">Ireland</placeName>.<anchor n="ev13" type="event"/></p>
             
-            <!-- NOTE [div] new event, but I think not new div -->
+            <!-- NOTE [div]? new event, but I think not new div -->
             <p>
                 <milestone n="ev14" unit="event"/>
                 But I must not forgett a second preservation of<lb/>
@@ -890,7 +895,7 @@
                  will I humblie sett forth the mercys of the Lord to me.<anchor n="ev14" type="event"/></p>
             </div>
         
-        <div n="div17" type="prayer">
+        <div xml:id="div-017" type="prayer">
             <head place="centre">
                 A thankesgiveing for our deliverances.<lb/>
                  
@@ -985,7 +990,7 @@
                  for ever more. Amen. &amp; Amen.</p>
          </div>
         
-        <div n="div18">
+        <div xml:id="div-018">
 
            <!-- NOTE [style] vertical text writing direction top to bottom - @style looks right in boilerplate. have placed marginal note outside head, though it's partly inside on page - not part of the title. -->
             <note xml:id="mnote-0002" place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right">
@@ -1229,7 +1234,7 @@
                  the Cittye will be left in darkenesse. &amp; distruction.</p>
           
       </div>
-      <div n="div19">
+      <div xml:id="div-019">
         
           <head place="centre" rend="pre(rule) post(rule_double)">
                
@@ -1627,7 +1632,7 @@
                  died <add place="above">in</add> <date type="political" when-custom="1641-10-23">October 23<hi rend="superscript">d</hi> 1641</date>.</p>
           
           </div>
-        <div n="div20" type="prayer">
+        <div xml:id="div-020" type="prayer">
 
             <head place="right" rend="pre(rule_thick) post(rule_thick)"> 
                 <!-- [endnote] This is a thick line. [pre and post]
@@ -1658,7 +1663,7 @@
             </p>
             <p> He shall enter into peace: they shall rest in theire <lb/>
                  beds, each one walk<add place="above">e</add>ing in his uprightnesse.</p>
-            <milestone unit="rule" rend="rule"/><!-- NOTE I think not a new div marker here though it is full width. 
+            <milestone unit="rule" rend="rule"/><!-- NOTE I think not a new div marker though it is full width. 
                 [endnote] This is only a faint line. marks the end of the biblical citation-->
             
             <p>Death is the common lott of all mankinde, since that<lb/>
@@ -2007,7 +2012,7 @@
                  &amp; peace, we may at Last injoy the God of Peace. Amen.</p>
             
             </div>
-        <div n="div21" type="prayer">
+        <div xml:id="div-021" type="prayer">
 
             <head place="right" rend="pre(rule) post(rule)">
                
@@ -2200,7 +2205,7 @@
             
                 <fw type="pageNum">54.</fw>
             
-        <div n="div22" type="prayer">
+        <div xml:id="div-022" type="prayer">
             <head place="centre" rend="pre(rule_thick) post(rule)">
                 A Prayer to be said before wee Receive. <lb/>
                 <!-- [endnote] Thick line here. -->
@@ -2606,7 +2611,7 @@
                  hath taught us. Our Father &amp;c. /</p>
             
             </div>
-        <div n="div23">
+        <div xml:id="div-023">
             <head place="centre" rend="pre(rule) post(rule)">
             
                 <rs ref="ppl:aow1" n="per146" type="person">My Mother</rs>s Preservation from the Irish Rebellion<lb/>
@@ -2824,7 +2829,7 @@
                  which preserved our lives from all manner of distruction.</p>
             
             </div>
-        <div n="div24" type="prayer">
+        <div xml:id="div-024" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
             
                 A thankesgiveing for preservation<lb/>
@@ -2913,7 +2918,7 @@
                  I humbly crave for Jesus Christs sake our only saviour</p>
             <p>Amen. Amen.</p>
             </div>
-        <div n="div25">
+        <div xml:id="div-025">
             <head rend="pre(rule) post(rule)">
             
                 Uppon <rs ref="ppl:aow1" n="per185" type="person">my Mother</rs>s comming to <placeName ref="place:Ches_012" n="place83">Weschester</placeName> from <placeName ref="place:Irel_096" n="place84">Ireland</placeName><lb/>
@@ -2943,7 +2948,7 @@
                  any. still expecting returnes out of yorkeshire.</p>
             <anchor n="ev31" type="event"/><!-- NOTE event /arrival chester -->
     </div>
-     <div n="div26">   
+     <div xml:id="div-026">   
          <!-- NOTE [div] added new div here because this is a significant break in the narrative. -->
       <p>
           
@@ -3006,7 +3011,7 @@
                 I blesse, and praise the Lord our God for<lb/>
                 this my perticuler preservation at that time.</p>
         </div>
-        <div n="div27">
+        <div xml:id="div-027">
     <!-- NOTE [div] new div added: there is an index entry ("upon my having the smallpox the second time...", ref 72) no title/amrker, but change of subject here seems to fit.
     now jump back to 1642 events.! -->  
             <milestone n="ev34" unit="event"/><!-- NOTE event chester, smallpox -->
@@ -3190,7 +3195,7 @@
             <anchor n="ev39" type="event"/>
             
             </div>
-        <div n="div28" type="prayer">
+        <div xml:id="div-028" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
                 <!-- Q [tagging] [layout] [curlybraces]? this is in a ?box? on the left of the title, but not in the margin, except for the "1" (is it a 1?), and that might not be intentional. There is possibly meant to be a curly brace? 
                     [endnote] Inserted into blank space left
@@ -3287,7 +3292,7 @@
                  praise for ever more Amen.</p>
             </div>
         
-            <div n="div29">
+            <div xml:id="div-029">
                 <head rend="pre(rule_thick) post(rule)">
                     <!-- [endnote] Very thick line. -->
                  A discourse of passages, &amp; delivernces of <rs ref="ppl:aow1" n="per228" type="person">my mother</rs> &amp;<lb/>
@@ -3447,7 +3452,7 @@
           <rs ref="ppl:aow1" n="per246" type="person">My mother</rs> was minded to goe to <placeName ref="place:Snap_047" n="place107">Snape</placeName>, where <persName ref="ppl:kwd1" n="per247">my <lb/>
                 Sister <sic>Danly</sic></persName> was. &amp; beeing invited by her she went <lb/>
    
-                <note xml:id="mnote-0018" place="left margin" resp="#awt1"  rend="post(rule)">
+                <note xml:id="mnote-0018" place="left margin" resp="#awt1" rend="post(rule)">
                 <!-- NOTE [style] vertical text writing direction top to bottom. -->
               <p style="writing-mode: vertical-rl; text-orientation: sideways-right">Sirfett Lobster <lb/>
                at <placeName ref="place:Rich_043" n="place108">Richmond</placeName> <milestone unit="rule"/>
@@ -3637,7 +3642,7 @@
                      his first salutattion &amp; wellcome into it. #.<anchor n="ev51" type="event"/></p>
                 
             </div>
-            <div n="div30" corresp="#mnote-0018">
+            <div xml:id="div-030" corresp="#mnote-0018">
                 <head place="centre" rend="pre(rule) post(rule)">           
                     A deliverance from a Surfett of Lobster.<lb/>
                     att <placeName ref="place:Rich_043" n="place131">Richmond</placeName> <date type="illness" when-custom="1643-09-15">1643</date>.</head>
@@ -3716,7 +3721,7 @@
                  to thy Majestie in faith, &amp; godlinesse, all my daies<lb/>
                      for my Lord Jesus Christ. Amen. </p> 
             </div>
-            <div n="div31" rend="pre(rule)">
+            <div xml:id="div-031" rend="pre(rule)">
             <!-- NOTE [div] new div: no title or index entry, but there is a divider line and it does mark a change in narrative -->
             <!-- Q [tagging] [layout] "In the yeare... 29" in fact starts *above* the ruled line, immediately after Amen on the same line with just a | divider. But it must refer/belong to the text that follows, so I've marked it up for meaning rather than appearance again. Another tricky one. -->
            <milestone n="ev54" unit="event"/>
@@ -3756,7 +3761,7 @@
                  Protection. all those Evill times of feares and distract<add place="above">ions</add><lb/>
                  Blessed &amp; praised be the god of our Salvation. Amen.</p>
                 </div>
-            <div n="div32">
+            <div xml:id="div-032">
                 <head rend="pre(rule) post(rule)">
                     The death of <persName ref="ppl:kwd1" n="per289">my Sister Danby</persName>: <choice>
                         <sic><date type="death" when-custom="1645-09-30">Sept. 30<hi rend="superscript">th</hi> 1645</date></sic>
@@ -3825,7 +3830,7 @@
                 
                 of her bodie, beeing feaverish. Affter exceeding sore <lb/>
                  Travill she was delivered of a goodly son <add place="above"><date when-custom="1645-09-03">about Sept 3d</date></add> by one <persName>dame <lb/>
-                 sworre</persName><!-- TODO [people] not in people db -->. this boy was named <persName ref="ppl:fd1" n="per298">francis</persName>. after <rs ref="ppl:fd2" n="per299" type="person">another of that name</rs><lb/>
+                 sworre</persName><!-- TODO [people] not in people db, oops -->. this boy was named <persName ref="ppl:fd1" n="per298">francis</persName>. after <rs ref="ppl:fd2" n="per299" type="person">another of that name</rs><lb/>
                  a sweete childe, that died that sommer of the smale Pox.</p>
             <p><rs ref="ppl:fd1" n="per300" type="person">This childe</rs> came double into the world, with such extreamity<lb/>
                  that she was exceedingly tormented with paines. so that she was<lb/>
@@ -3985,7 +3990,7 @@
 
             
                 <fw type="pageNum">92.</fw>
-        <div n="div33" rend="post(rule)">
+        <div xml:id="div-033" rend="post(rule)">
             
             <head place="centre" rend="post(rule)">The death of <persName ref="ppl:jn2" n="per322">my Cosen John Norton</persName>. <date type="death" when-custom="1646">1646</date>.</head>
             <milestone n="ev57" unit="event"/>
@@ -3995,7 +4000,7 @@
             <p>He was a sweete good natured youth, he died at <placeName ref="place:StNi_050" n="place147">St. Nicolas</placeName></p>
                 <anchor n="ev57" type="event"/>
         </div>
-        <div n="div34">
+        <div xml:id="div-034">
             <head place="centre" rend="post(rule)">The Death of <persName ref="ppl:eo1" n="per324">Sir Edward Osborne</persName>. <date type="death" when-custom="1646">1646</date>.</head>
             <milestone n="ev58" unit="event"/>
             <p><persName ref="ppl:eo1" n="per325">My uncle. Sir Edward Osborne</persName> who was my mothers<lb/>
@@ -4051,7 +4056,7 @@
             <anchor n="ev58" type="event"/>
         </div>
         
-        <div n="div35" rend="pre(rule)">
+        <div xml:id="div-035" rend="pre(rule)">
            <milestone n="ev59" unit="event"/> 
             <p><persName ref="ppl:en1" n="per335">My Cozen Edmund Norton</persName>, Eldest son to my <persName ref="ppl:mn1" n="per336">Uncle Norto̅</persName><!-- TODO [review] contraction --><lb/>
                  was married to <persName ref="ppl:td2" n="per337">Mr Dudly</persName>s Daughter &amp; heire of Chopwell<lb/>
@@ -4060,7 +4065,7 @@
             <anchor n="ev59" type="event"/>
         </div>
         
-        <div n="div36" rend="pre(rule) post(rule)">   
+        <div xml:id="div-036" rend="pre(rule) post(rule)">   
            <milestone n="ev60" unit="event"/> 
             <p><persName ref="ppl:en1" n="per339">My Cosen Edmund Norton</persName> died of a Plurisie att <placeName ref="place:York_060" n="place154">Yorke</placeName><lb/>
                  the <date type="death" when-custom="1648-11-30">30<hi rend="superscript">th</hi> of November: 1648</date>. A gentleman of a sweete good<lb/>
@@ -4077,7 +4082,7 @@
 
 <!-- transcription: Page 93 -->
 
-     <div n="div37">
+     <div xml:id="div-037">
             
                 <fw type="pageNum">94.</fw>
                 <!-- NOTE [page numbering] left-aligned even number-->
@@ -4217,7 +4222,7 @@
                  whome be all thankes, Praise hon<ex>our</ex> and dominion for<lb/>
                  Ever &amp; ever. Amen. Amen.</p>
          </div>
-        <div n="div38" rend="pre(rule)">
+        <div xml:id="div-038" rend="pre(rule)">
            <milestone n="ev62" unit="event"/> 
             <p>
                 <persName ref="ppl:jn1" n="per343">My Cosen Julian Horton</persName> died at <placeName ref="place:Rich_044" n="place158">Richmond greene</placeName><lb/>
@@ -4225,7 +4230,7 @@
             </p>
             <anchor n="ev62" type="event"/>
          </div>
-        <div n="div39">
+        <div xml:id="div-039">
             <head place="centre" rend="pre(rule) post(rule)">
                 Uppon the Death of <persName ref="ppl:gw1" n="per345">my brother George Wandesforde</persName>.<lb/>
                 <date type="death" when-custom="1651-03-31">March 31 1651</date> &amp; of his Sequestration. &amp;<lb/>
@@ -4724,7 +4729,7 @@
                  brother</rs>, made an Excelent paper of verses up<add place="above">on</add> him in<lb/>
                  bewaling his losse which I will insert heere affter.</p>
             </div>
-        <div n="div40" type="prayer">
+        <div xml:id="div-040" type="prayer">
             <head place="centre" rend="pre(rule) post(rule)">
             
                 A Lamentation, &amp; Prayer, uppon the death of<lb/>
@@ -4970,7 +4975,7 @@
                 </note>
             </p>
             </div>
-        <div n="div41" type="poetry">
+        <div xml:id="div-041" type="poetry">
             <head place="centre" rend="pre(rule) post(rule)">
             
                 An Eligie upon <persName ref="ppl:gw1" n="per423" type="person">George Wandesford Esq<ex>uire</ex></persName><lb/>
@@ -5034,7 +5039,7 @@
             <l>To open a neare-way to Paradise. / Cwyvill.</l>
        
         </div>
-        <div n="div42" rend="pre(rule)">
+        <div xml:id="div-042" rend="pre(rule)">
             <!-- NOTE this section about awt's mother -->
             <p>When the determinate will of our God is shewed towards<lb/>
                  us, it is then, our duties, quietly, to sitt downe &amp; patien<lb/>
@@ -5094,7 +5099,7 @@
                  and thankfull to his gracious, Majestie for Ever. Amen.</p>
            </div>
         
-        <div n="div43" rend="pre(rule)"> 
+        <div xml:id="div-043" rend="pre(rule)"> 
            <milestone n="ev71" unit="event"/>
             <p><persName ref="ppl:mny1" n="per434">My Cosen mary Yorke</persName>, was married to <persName ref="ppl:jy1" n="per435">Mr John York</persName><lb/>
                  at her fathers house, my <persName ref="ppl:mn1" n="per436">uncle norton</persName>s on <placeName ref="place:Rich_044" n="place197">the Greene<lb/>
@@ -5102,7 +5107,7 @@
             <anchor n="ev71" type="event"/>
           </div>
         
-        <div n="div44" rend="pre(rule) post(rule)">  
+        <div xml:id="div-044" rend="pre(rule) post(rule)">  
             <milestone n="ev72" unit="event"/>
             <p><persName ref="ppl:cw2" n="per437">My brother Christopher Wandesforde</persName>, married<lb/>
                  <persName ref="ppl:jl1" n="per438">Sir John Lowther</persName>s Daughter <persName ref="ppl:elw1" n="per439">Mrs Eleanor</persName> the Eldest<lb/>
@@ -5118,7 +5123,7 @@
             
                 <fw type="pageNum">118.</fw>
             
-        <div n="div45">
+        <div xml:id="div-045">
             <head rend="post(rule)">The Mariage of <persName ref="ppl:awt1" n="per440">Alice Wandesforde</persName> <date type="marriage" when-custom="1651-12-15">Decm. 15. 1651</date>.</head>
             <milestone n="ev73" unit="event"/><!-- NOTE event awt marriage negotiations -->
             <p>After many troubles &amp; afflictions, under which it <lb/>
@@ -5435,7 +5440,7 @@
             <anchor n="ev76" type="event"/>
             </div>
         
-        <div n="div46">
+        <div xml:id="div-046">
             <head rend="pre(rule_pattern) post(rule_pattern)">
             <!-- [endnote] [decoration] Elaborate border -->
                 A Relation of the Remarkable passages of my Life<lb/>
@@ -5484,7 +5489,7 @@
                  to give us for the Lord Jesus his sake. Amen</p>
             </div>
         
-        <div n="div47">
+        <div xml:id="div-047">
             <head place="right" rend="pre(rule) post(rule)">
              
                 A deliverance from death that day on which I was <lb/>
@@ -5531,7 +5536,7 @@
                  whom God had given me. but sett my desires more up<lb/>
                  on the love of my Lord &amp; God. //.</p>
             </div>
-        <div n="div48">
+        <div xml:id="div-048">
             <head rend="pre(rule) post(rule)">
             
                 Meditations upon my deliverance of <rs ref="ppl:xt1" n="per512" type="person">my first<lb/>
@@ -5685,7 +5690,7 @@
                  mighty Power. therefore will I praise the Lord my God. Amen.</p>
             <anchor n="ev83" type="event"/>
             </div>
-        <div n="div49" type="prayer">
+        <div xml:id="div-049" type="prayer">
             <head rend="pre(rule) post(rule)">
             
                 A praier &amp; thankesgiveing for my deliverance of <rs ref="ppl:xt1" n="per532" type="person">my<lb/>
@@ -5824,7 +5829,7 @@
                 <!-- [endnote] [insertion][text size] Insertion in a darker ink to the main body of the text. Squeesed into the space between ‘Amen’ and the dividing line. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering.-->
             </p>
             </div>
-        <div n="div50">
+        <div xml:id="div-050">
             <head rend="pre(rule)">
             
                 Uppon the Birth of my Second childe, &amp; Daughter<lb/>
@@ -5912,7 +5917,7 @@
                 </note>, &amp; <persName ref="ppl:mny1" n="per544">my cosen Yorke his daughter</persName><!-- NOTE people - "Maulger's daughter, my cousin York": Mary Norton Yorke. Not "my cousin Yorke's daughter". doh.  -->. at <placeName ref="place:Hips_022" n="place227">Hipswell</placeName><lb/>
                  by <persName ref="ppl:ms1" n="per545">Mr Michell Siddall</persName> minister then of <placeName ref="place:Catt_008" n="place228">Caterick</placeName>.<anchor n="ev86" type="event"/> //.</p>
         </div>
-        <div n="div51" type="prayer">
+        <div xml:id="div-051" type="prayer">
             <head rend="pre(rule) post(rule)">
             
                 A praier &amp; thanksgiveing for my deliverance<lb/>
@@ -6006,7 +6011,7 @@
                 
             </p>
        </div>
-       <div n="div52">
+       <div xml:id="div-052">
            <head rend="pre(rule) post(rule)">
           
                 Meditations uppon the birth of my 3<hi rend="superscript">d</hi> Childe <persName ref="ppl:et1" n="per548">Eliz.<lb/>
@@ -6133,7 +6138,7 @@
                  <persName ref="ppl:kb1" n="per576">Mrs Blackburne</persName> stood for <rs ref="ppl:aow1" n="per577" type="person">my mother</rs> beeing sicke then.</p>
            <anchor n="ev97" type="event"/>
         </div>
-        <div n="div53" type="prayer">
+        <div xml:id="div-053" type="prayer">
             <head rend="pre(rule) post(rule)">
             
                 A thanksgiveing affter the birth of <persName ref="ppl:et1" n="per578">my 3<hi rend="superscript">d</hi> childe Betty</persName></head>
@@ -6244,7 +6249,7 @@
             </p>
            </div>
         
-        <div n="div54" rend="pre(rule)">
+        <div xml:id="div-054" rend="pre(rule)">
            <milestone n="ev98" unit="event"/> 
             <p><persName ref="ppl:edg1" n="per579">My mother Gates</persName>, who was <rs ref="ppl:wt1" n="per580" type="person">my husband</rs>s mother; died<lb/>
                  att <placeName ref="place:Oswa_041" n="place230">Oswoldkirke</placeName> of a flux of blood by seige. as it was<lb/>
@@ -6259,7 +6264,7 @@
             <anchor n="ev98" type="event"/>
        </div>
         
-        <div n="div55" rend="pre(rule)"> 
+        <div xml:id="div-055" rend="pre(rule)"> 
            <milestone n="ev99" unit="event"/> 
             <p>My Husbands Father in Law <persName ref="ppl:gg1" n="per582">Mr Geffery Gates</persName> died.<lb/>
                  att <placeName ref="place:Hull_027" n="place232">Hull</placeName> the <date type="death" when-custom="1655-05-18">18<hi rend="superscript">th</hi> of May. 1655</date>. &amp;, was buried at <placeName ref="place:Hull_027" n="place233">Hull</placeName> the<lb/>
@@ -6270,7 +6275,7 @@
                 day: <date when-custom="1655-05-19">May: 19<hi rend="superscript">th</hi> 1655</date>. #.</p>
             <anchor n="ev99" type="event"/>
        </div>
-        <div n="div56" rend="pre(rule)">
+        <div xml:id="div-056" rend="pre(rule)">
             <milestone n="ev100" unit="event"/>
             <p><persName ref="ppl:rt1" n="per583">My brother Richeard Thornton</persName> died in <placeName ref="place:Dubl_088" n="place234">Dublin</placeName>. in Ireland<lb/>
                  of the Flux the <date type="death" when-custom="1656-07-03">3<hi rend="superscript">d</hi> of July 1656</date>. &amp; was buried in <placeName ref="place:StPa_092" n="place235">St Patricks<lb/>
@@ -6293,7 +6298,7 @@
                  &amp; very well disposed towards Religion. #.
             </p>
             </div>
-        <div n="div57">
+        <div xml:id="div-057">
             <head rend="pre(rule) post(rule)">
             
             Meditation uppon the birth of <persName ref="ppl:ktp1" n="per585">my 4<hi rend="superscript">th</hi> childe Katherin<lb/>
@@ -6315,7 +6320,7 @@
                  Prayer foll<ex>owing</ex>:</p>
             </div>
         
-        <div n="div58" type="prayer">
+        <div xml:id="div-058" type="prayer">
             <head rend="pre(rule) post(rule)">
                 A prayer before the delivery of my daughter<lb/>
                 <persName ref="ppl:awt1" n="per591">Alice Thornton</persName> <date type="birth" when-custom="1656-06-12">June the 1<subst><del rend="overwritten">1</del><add place="superimposed">2</add></subst><hi rend="superscript">th</hi>
@@ -6450,7 +6455,7 @@
             <p> Amen.</p>
          
          </div>
-        <div n="div59" rend="pre(rule)">
+        <div xml:id="div-059" rend="pre(rule)">
             <milestone n="ev102" unit="event"/><!-- NOTE event awt child4 birth -->
             <p>After which humble pettitions it Pleased our gracious Father<lb/>
                  to grant our requests in a great measure for my paines of<lb/>
@@ -6463,7 +6468,7 @@
                  wittnesses, <rs ref="ppl:aow1" n="per595" type="person">my mother</rs>, <persName ref="ppl:kdb1" n="per596">my neece Katherine Danby</persName> &amp; <persName ref="ppl:wt1" n="per597">Mr<lb/>
                  Thornton</persName>.<anchor n="ev103" type="event"/></p>
             </div>
-        <div n="div60" type="prayer">
+        <div xml:id="div-060" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
                 <!-- NOTE [layout] curious alignment of title lines. -->
                 <!-- Q [authors] text by awt's mother -->
@@ -6564,7 +6569,7 @@
                 
             </p>
             </div>
-        <div n="div61">
+        <div xml:id="div-061">
             <head rend="pre(rule) post(rule)">
                 <persName ref="ppl:et1" n="per601">Elizabeth Thornton</persName>s death; the <date type="death" when-custom="1656-09-05">5<hi rend="superscript">th</hi> of September 1656</date>.</head>
           <milestone n="ev104" unit="event"/><!-- NOTE event death child -->  
@@ -6592,7 +6597,7 @@
             
                 <fw type="pageNum">150.</fw>
             
-        <div n="div62" type="prayer">
+        <div xml:id="div-062" type="prayer">
             <head rend="post(rule)">
                 A Praier After the death of my 3<hi rend="superscript">d</hi> childe <persName ref="ppl:et1" n="per607">Betty. Thor</persName></head>
             
@@ -6645,7 +6650,7 @@
                  in holinesse; &amp; Righteousnesse all the daies of our lives, and<lb/>
                  All for Jesus Christ our Lord his sake. Amen.</p>
        </div>
-       <div n="div63">
+       <div xml:id="div-063">
            <head rend="pre(rule) post(rule)">
                 Uppon my great fall I had, beeing with childe of <rs ref="ppl:xt2" n="per612" type="person">my 5<hi rend="superscript">th</hi></rs><lb/>
                <date type="illness" when-custom="1657-09-14">Sept. 14<hi rend="superscript">th</hi> 1657</date>. at <placeName ref="place:Hips_022" n="place241">Hipswell</placeName>.</head>
@@ -6680,7 +6685,7 @@
             
                 <fw type="pageNum">152.</fw>
             
-        <div n="div64">
+        <div xml:id="div-064">
             <head rend="post(rule_pattern)">
                 Meditations on the deliverance, of <rs ref="ppl:xt2" n="per615" type="person">my first Sonne<lb/>
                     and fifth Childe</rs>. At <placeName ref="place:Hips_022" n="place243">Hipswell</placeName> the <date type="birth" when-custom="1657-12-10">10<hi rend="superscript">th</hi> of Decemb<ex>er</ex><lb/>
@@ -6757,7 +6762,7 @@
                  the last I may praise him Etternally in the heavens. Blesse<lb/>
                  the Lord O my soule &amp; forget not all his benifitts.</p>
          </div>
-        <div n="div65" type="prayer">
+        <div xml:id="div-065" type="prayer">
             <head place="centre" rend="pre(rule)">
             
                 A praier upon my preservation affter the birth<lb/>
@@ -6829,7 +6834,7 @@
             
                 <fw type="pageNum">155.</fw>
             
-        <div n="div66">
+        <div xml:id="div-066">
             <head rend="post(rule)">
                 My Cure of Bleeding at <placeName ref="place:Scar_045" n="place245">Scarbrough</placeName> <date type="illness" when-custom="1659-08">August. 1659</date>. // .
             </head>
@@ -6897,7 +6902,7 @@
                  me hopes to bring forth a Son to be a Comfort to <rs ref="ppl:wt1" n="per637" type="person">my<lb/>
                  deare husband</rs> &amp; us all.<anchor n="ev113" type="event"/> // .</p>
             </div>
-        <div n="div67" type="prayer">
+        <div xml:id="div-067" type="prayer">
             <head rend="pre(rule) post(rule)">
                 
                 A thanksgiveing affter <sic>affter</sic>
@@ -6945,7 +6950,7 @@
                  security through Jesus Christ our Lord. Amen.</p>
          </div>
         
-        <div n="div68">
+        <div xml:id="div-068">
             <head rend="post(rule)"> 
                 <date when-custom="1659">1659</date>.
             <!-- Q [tagging] tagging year as head, but usually have tagged year headings as fw. no other title text. -->
@@ -7030,7 +7035,7 @@
                  us and the true Religion in these, once flourishing Kingdoms.</p>
             <anchor n="ev114" type="event"/>
            </div>
-        <div n="div69" type="prayer">
+        <div xml:id="div-069" type="prayer">
             <head rend="pre(rule) post(rule)">
                 
                 A Praier to God for the Church. &amp; restoration of <rs ref="ppl:cs2" n="per642" type="person">the King</rs>.<lb/>
@@ -7104,7 +7109,7 @@
                  &amp; Saviour &amp; redemer. Amen. //.</p>
            </div>
         
-        <div n="div70">
+        <div xml:id="div-070">
             <head place="centre" rend="pre(rule) post(rule)">
                 
             A Relation conserning my deare &amp; hon<ex>oured</ex><lb/>
@@ -7445,7 +7450,7 @@
                  her the full fruittion of her long desired happinesse.</p>
             
            </div>
-        <div n="div71">
+        <div xml:id="div-071">
             <head rend="post(rule_pattern)">
                 The relattion of her sicknesse heere followes. //.
             <!-- [endnote] [decoration] Patterned border -->
@@ -7922,7 +7927,7 @@
                  to doe him true &amp; faithfull service to our lives End.</p>
             <p>Amen.</p>
         </div>
-        <div n="div72" type="prayer">
+        <div xml:id="div-072" type="prayer">
            <!-- NOTE [div] three prayers into sub divs. -->
             <head place="centre" rend="pre(rule) post(rule)">
                 
@@ -7932,7 +7937,7 @@
             </head>
             
             
-            <div n="div73">
+            <div xml:id="div-073">
                 <head place="centre" rend="post(rule)">Before receaving of the bread.</head>
             
             <p>O most gracious God. which hath Sacrificed thine<lb/>
@@ -7946,7 +7951,7 @@
                  be remitted &amp; forgiven, as verily, as I shall now be<lb/>
                  pertaker of this blessed Sacrament. Amen.</p>
            </div>
-           <div n="div74">     
+           <div xml:id="div-074">     
                <head rend="pre(rule_thick) post(rule)">Before Receaving of the wine. affter consecration</head>
 
             <pb n="177"/>
@@ -7970,7 +7975,7 @@
                 <!-- Q [teams] [glyph] [decoration] it looks a bit like a "fleuron"? -->
             </p>
           </div>
-          <div n="div75">     
+          <div xml:id="div-075">     
             
               <head place="centre" rend="pre(rule) post(rule)">After both bread &amp; wine.</head>
             
@@ -7994,7 +7999,7 @@
             <p>Amen. &amp;. Amen.</p>
           </div>
       </div>
-      <div n="div76">
+      <div xml:id="div-076">
           <head rend="pre(rule) post(rule)">
                 
             My delivery of <persName ref="ppl:wt2" n="per744">my Son William</persName>, my 6<hi rend="superscript">th</hi> childe; &amp; of his<lb/>
@@ -8116,7 +8121,7 @@
          <fw type="pageNum">182.</fw>
             
 
-        <div n="div77" type="poetry">
+        <div xml:id="div-077" type="poetry">
 
             <l>Tax not thy God, thy owne defaults did urge.</l>
             <l>This too fould punishment, the Mille the <sic>the</sic><!-- NOTE [sic] repetition --> Scourge</l>
@@ -8132,7 +8137,7 @@
             <l>Where gaine's uncertaine, &amp; the paine is sure.</l>
            </div>
         
-        <div n="div78">
+        <div xml:id="div-078">
             <head rend="pre(rule) post(rule_pattern)">
                 
                 A thanksgiveing for the restoration of <persName ref="ppl:cs2" n="per760">King Charles<lb/>
@@ -8197,7 +8202,7 @@
                  the Glorious name of Jehova for ever Amen.</p>
            </div>
         
-        <div n="div79" type="prayer">
+        <div xml:id="div-079" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
                 
                 A Praier. &amp; Thanksgiveing for deliverance<lb/>
@@ -8330,7 +8335,7 @@
                  and for Ever. Amen. Amen. <hi style="font-family:Segoe UI Symbol">♡ ♡ ♡ ♡ ♡ ♡ ♡</hi>
             </p>
      </div>
-     <div n="div80">       
+     <div xml:id="div-080">       
          <head rend="pre(rule_pattern) post(rule_pattern)">
                 Uppon <rs ref="ppl:wt1" n="per767" type="person">my Husband</rs>, &amp; Families Removall from <placeName ref="place:StNi_050" n="place285">St<lb/>
                  Nickolas</placeName>, to <placeName ref="place:Oswa_041" n="place286">Oswold Church. neare Newton</placeName>. <date when-custom="1660-06-11">June 11<note place="end">
@@ -8433,7 +8438,7 @@
 
             
                 <fw type="pageNum">188.</fw>
-        <div n="div81">
+        <div xml:id="div-081">
             
             <head rend="post(rule)">
                 My greatt Sicknesse att <placeName ref="place:Oswa_041" n="place292">Oswoldkirke</placeName> <date type="illness" when-custom="1661-02-11" datingMethod="#JulianMar">feb. 13<hi rend="superscript">th</hi> 1661</date><!-- NOTE [dates] OS --><note place="end">
@@ -8668,7 +8673,7 @@
                 </note>
             </p>
            </div>
-        <div n="div82" rend="pre(rule)">
+        <div xml:id="div-082" rend="pre(rule)">
           <!-- NOTE [div] new div: no section title but has index entry + divider line  --> 
             
             <p>Affter this inestimable &amp; wonderfull mercy, in my grac--<lb break="no"/><!-- TODO [review] "=" not "-\-" here and beginning of next line, and a few lines down -->
@@ -8724,7 +8729,7 @@
                  before his Presence all my daies Amen.</p>
             <anchor n="ev140" type="event"/>
             </div>
-        <div n="div83">
+        <div xml:id="div-083">
             <head rend="pre(rule_pattern) post(rule)"> 
                 <!-- [endnote] [decoration] This border is patterned – with flowers. -->
             
@@ -8883,7 +8888,7 @@
                  his pleasure not to be burdensome to others. And in the end<lb/>
                  to be our Portion &amp; our inheritance for Evers Amen.</p>
         </div>
-        <div n="div84">
+        <div xml:id="div-084">
             <head rend="pre(rule) post(rule)">
                 
                 Of the grand mercy I had in the first Sacrament at <placeName ref="place:East_019" n="place300">Easte<lb/>
@@ -9022,7 +9027,7 @@
                  pledge I hope of our Salvation. in that Supper of the Lord.<anchor n="ev146" type="event"/>
                 </p>
         </div>
-        <div n="div85">
+        <div xml:id="div-085">
             <p>
                  Through which meanes I was much comforted; helped, inlive-<lb break="no"/>
                  -ned, &amp; quickned; from that blacke vaile of unbeleife: which cloud<lb/>
@@ -9053,7 +9058,7 @@
             
                 <fw type="pageNum">200.</fw>
             
-        <div n="div86">
+        <div xml:id="div-086">
             <head rend="post(rule)">
                 <persName ref="ppl:rc2" n="per822">Mr Colvill</persName>s Settlement of <persName ref="ppl:wt1" n="per823">Mr Thornton</persName>s Estate: <del rend="doublestrikethrough">166X</del><lb/>
                 <!-- TODO [review] "166X" in title. looks like 1661 to me? -->
@@ -9234,7 +9239,7 @@
                  disposittion of the Great God, humbly craveing his blessing<lb/>
                  upon them all for Christs sake Amen.</p>
       </div>
-        <div n="div87">
+        <div xml:id="div-087">
             <head rend="pre(rule) post(rule)">
                 
                 Upon my deliverance, of my sonne <persName ref="ppl:rt2" n="per845">Robert Thornton</persName><lb/>
@@ -9328,7 +9333,7 @@
                  to sett forth thine almighty Power, Glory. &amp; Infinitt Perfection<lb/>
                  That canst raise from death, &amp; bring to the grave in a moment.</p>
             </div>
-        <div n="div88" type="prayer">
+        <div xml:id="div-088" type="prayer">
             <head place="right" rend="pre(rule) post(rule)">
                 
                 A Thanksgiveing affter my deliverance of <persName ref="ppl:rt2" n="per853">my son Robert</persName>
@@ -9412,7 +9417,7 @@
                  &amp; Earth for ever: Amen. //.</p>
             </div>
         
-        <div n="div89" rend="pre(rule)">
+        <div xml:id="div-089" rend="pre(rule)">
             <!-- NOTE [div] new div: no section title or index entry, but divider line and narrative change  -->
             <milestone n="ev151" unit="event"/><!-- NOTE event child7 baptism -->
             <p><persName ref="ppl:rt2" n="per857">My Son Robert</persName> was baptized on <date when-custom="1662-09-20">Satterday the 20<hi rend="superscript">th</hi> of<lb/>
@@ -9460,7 +9465,7 @@
             
                 <fw type="pageNum">208.</fw>
             
-        <div n="div90">
+        <div xml:id="div-090">
             <head rend="post(rule)">
                 <persName ref="ppl:wt1" n="per864" type="person">Mr Thornton</persName>s Preservation from drowning: <date type="accident" when-custom="1664-10">Oct. 1664</date></head>
            <milestone n="ev152" unit="event"/> 
@@ -9479,7 +9484,7 @@
                  hopes of Etternall mercys. through Jesus Christ our Lord</p>
             <p>Amen.</p>
             </div>
-        <div n="div91">
+        <div xml:id="div-091">
             <head rend="pre(rule) post(rule)">
                 Upon the birth of my 8<hi rend="superscript">th</hi> Childe <persName ref="ppl:jt1" n="per869">Joyce Thornton</persName> <date type="birth" when-custom="1665-09-23">Sept.<lb/>
                  23<hi rend="superscript">rd</hi> 1665</date> att <placeName ref="place:East_019" n="place318">Newton</placeName>:</head>
@@ -9634,7 +9639,7 @@
                  Life. and given me this great temporall blessing. For all good<lb/>
                  comes from him alone. Lord sanctifie this mercy to us all.</p>
         </div>
-        <div n="div92">
+        <div xml:id="div-092">
             <head rend="pre(rule) post(rule)">
                 
                 A Relation of Mr Thorntons dangerous fitt of the Palsie<lb/>
@@ -9715,7 +9720,7 @@
 
             
                 <fw type="pageNum">213.</fw>
-        <div n="div93" type="prayer">
+        <div xml:id="div-093" type="prayer">
             
             <head rend="post(rule)">
                 A Prayer after <persName ref="ppl:wt1" n="per912">Mr Thornton</persName>s Recovery: <date type="illness" when-custom="1665-11-28">No. 28<hi rend="superscript">th</hi> 1665</date>.
@@ -9764,7 +9769,7 @@
 
             
                 <fw type="pageNum">214.</fw>
-        <div n="div94">
+        <div xml:id="div-094">
             
             <head rend="post(rule)">
                 Uppon <rs ref="ppl:jt1" n="per914" type="person">my deare Joyce</rs> her death <date datingMethod="#JulianMar" type="death" when-custom="1665-01-27">Jan. 27 1665</date><!-- NOTE [dates] OS -->.</head>
@@ -9838,7 +9843,7 @@
                  be unmindfull of his hand by these corrections. but we may<lb/>
                  be delivered from the Jawes of Etternall death. Amen. // .</p>
             </div>
-        <div n="div95">
+        <div xml:id="div-095">
             <head rend="pre(rule) post(rule)">
                 Uppon <persName ref="ppl:atc1" n="per921">my Daughter Alice</persName> preservation in a sirfitt <date type="illness" when-custom="1665-06-13">June 13 1665</date>.</head>
             <milestone n="ev168" unit="event"/>
@@ -9866,7 +9871,7 @@
             
                 <fw type="pageNum">216.</fw>
             
-        <div n="div96">
+        <div xml:id="div-096">
             <head rend="post(rule_pattern)">
                 Of my dangerous sickenesse: <date type="illness" when-custom="1666-08-16">August 8 <add place="above">16th</add><!-- TODO [review] "8" in title should be marked as deleted? --> 1666</date>.
                 <!-- [endnote] [decoration] Patterned border. -->
@@ -9922,7 +9927,7 @@
                  strength by degrees, to passe through that tirrible vissitation<lb/>
                  &amp; languishing condition all that winter.<anchor n="ev171" type="event"/> //.</p>
       </div>
-      <div n="div97" type="prayer">
+      <div xml:id="div-097" type="prayer">
           <!-- NOTE [div] new div: no section title, only division marker is //, but there is an index entry (ref is 218 instead of 217) -->
             <p>I humblie Acknowledge my boundant duty &amp; gratitude<lb/>
                  for deliverance, &amp; preservation from this death allso; to<lb/>
@@ -9987,7 +9992,7 @@
                  upon those words in St Matt. 9<seg rend="background(green)">:</seg> v. 21, 22. Luke. the 17<seg rend="background(green)">:</seg> v. 15. 16.</p>
           </div>
         
-        <div n="div98" rend="pre(rule)">           
+        <div xml:id="div-098" rend="pre(rule)">           
             
             <p>After these weaknesses seized soe extreamly upon my Person<lb/>
                  with such violency &amp; danger to my life, I could not be insensable<lb/>
@@ -10094,7 +10099,7 @@
                  -dences many fold to me &amp; mine. Praise the Lord o my Soule<lb/>
                  and forgett not all his benifitts. Amen.</p>
             </div>
-        <div n="div99" rend="pre(rule)">
+        <div xml:id="div-099" rend="pre(rule)">
             <milestone n="ev173" unit="event"/>
             <p>About the <date type="accident" when-custom="1666-09-02">2<hi rend="superscript">d</hi> of September: <hi rend="underline">1666</hi></date> began the great fire<lb/>
                  in <placeName ref="place:Lond_080" n="place334">London</placeName>, which in 4 daies time consumed 13200 houses<lb/>
@@ -10103,7 +10108,7 @@
             <anchor n="ev173" type="event"/>
             </div>
         
-        <div n="div100">
+        <div xml:id="div-100">
             <head rend="pre(rule) post(rule)">
                 
                 My daughter <persName ref="ppl:ktp1" n="per952">Katherine Thornton</persName>s preservation in<lb/>
@@ -10148,7 +10153,7 @@
                  for <rs ref="ppl:ktp1" n="per957" type="person">my childe</rs>s life. The Lord give me a thankfull <hi style="font-family:Segoe UI Symbol">♡</hi> &amp;<lb/>
                  that she may live to his Glory for Christs sake, Amen.</p>
             </div>
-        <div n="div101">
+        <div xml:id="div-101">
             <head rend="pre(rule_double) post(rule_double)">
                 
                 The death of my Brother John Wandesford: <date type="death" when-custom="1666-12-02">De. 2<hi rend="superscript">d</hi> 1666</date>.
@@ -10373,14 +10378,14 @@
 
             
                 <fw type="pageNum">226.</fw>
-        <div n="div102">
+        <div xml:id="div-102">
           <milestone n="ev181" unit="event"/>  
             <p>About this <date type="death" when-custom="1666-12-25">Christmas 1666</date>. <persName ref="ppl:wn1" n="per979">My Cozen william Norton</persName><lb/>
                  was inhumainly murdered at <placeName ref="place:Gray_081" n="place344">London neare Grays Inn</placeName>.</p>
             <anchor n="ev181" type="event"/>
         </div>
         
-        <div n="div103">
+        <div xml:id="div-103">
             <head rend="pre(rule_double) post(rule)">
                 <!-- [endnote] [decoration] This is a double line. -->
            
@@ -10412,7 +10417,7 @@
             <anchor n="ev182" type="event"/>
             </div>
         
-        <div n="div104" rend="pre(rule_double)">
+        <div xml:id="div-104" rend="pre(rule_double)">
             <!-- [endnote] [decoration] Double line here. -->
             <milestone n="ev183" unit="event"/>
             <p>It Pleased God, <date when-custom="1667-02">affter</date> <persName ref="ppl:rt2" n="per986">my sonne Robert</persName> was well. to<lb/>
@@ -10434,7 +10439,7 @@
             
                 <fw type="pageNum">227</fw>
             
-        <div n="div105" rend="post(rule)">
+        <div xml:id="div-105" rend="post(rule)">
             <head rend="post(rule_double)">
                 My daughter <persName ref="ppl:atc1" n="per988">Alice Thornton</persName> her Smale Pox <date type="illness" when-custom="1667-01-25">Jan.<hi rend="underline">2, 67.</hi></date><!-- TODO [review] "2, 67" s/b "25, 67" -->
             <!-- [endnote] [decoration] Double line here. -->
@@ -10483,7 +10488,7 @@
 
                 <fw type="pageNum">228.</fw>
             
-        <div n="div106">
+        <div xml:id="div-106">
             <head place="centre" rend="underline">
                 <!-- Q [tagging] not sure whether to tag this year as head rather than fw -->
                 <date type="illness" when-custom="1667">67</date>.
@@ -10500,7 +10505,7 @@
                  fast haveing but a few. blessed be God for his deliverance.</p>
             <anchor n="ev185" type="event"/>
         </div>
-        <div n="div107" rend="pre(rule_double)">
+        <div xml:id="div-107" rend="pre(rule_double)">
             <!-- [endnote] [decoration] Double line here. -->
            <milestone n="ev186" unit="event"/> 
             <p>The <date type="illness" when-custom="1667-04-08">8<hi rend="superscript">th</hi> of Aprill: <hi rend="underline">1667</hi></date> <persName ref="ppl:atc1" n="per998">Nally</persName> had a Pearle on her Eye<lb/>
@@ -10512,7 +10517,7 @@
                  favours to me &amp; mine. O that these might sett forth his<lb/>
                  praises for ever more Amen. //</p><!-- Q [teams] [decoration] inline // -->
          </div>
-        <div n="div108" rend="pre(rule_double)">
+        <div xml:id="div-108" rend="pre(rule_double)">
             <!-- [endnote] [decoration] Double line here. -->
             <p>
            <milestone n="ev187" unit="event"/> 
@@ -10527,7 +10532,7 @@
                 <anchor n="ev187" type="event"/>
             </p>
         </div>
-        <div n="div109" rend="pre(rule_double)">
+        <div xml:id="div-109" rend="pre(rule_double)">
             <!-- [endnote] [decoration] Double line here. -->
 
             <p>
@@ -10562,7 +10567,7 @@
                  &amp; understanding. give her &amp; us all grace never to for <lb/>
                  gett these wonderfull mercys to our soules &amp; bodies. Amen: //</p>
        </div>
-        <div n="div110" rend="pre(rule_pattern) post(rule_pattern)">
+        <div xml:id="div-110" rend="pre(rule_pattern) post(rule_pattern)">
 
         <milestone n="ev189" unit="event"/>
             <p>It was the permition of God, for the affliction of us all, in<lb/>
@@ -10606,7 +10611,7 @@
             
                 <fw type="pageNum">230.</fw>
             
-        <div n="div111">
+        <div xml:id="div-111">
             <head rend="post(rule_pattern)">
                 The birth of <persName ref="ppl:ct1" n="per1015">my Sonne Christopher</persName>, my 9<hi rend="superscript">th</hi> Childe<lb/>
                 <date type="birth" when-custom="1667-11-11">no. 11 1667</date> &amp; of his Death. <date type="death" when-custom="1667-12-01">Dec. 1<hi rend="superscript">st</hi> 1667</date>. //.
@@ -10712,7 +10717,7 @@
             His God fathers &amp; God mother were <persName ref="ppl:jd2" n="per1021">my Bro Denton</persName><lb/>
                  <persName ref="ppl:tp1" n="per1022">my brother Portington</persName>. &amp; <persName ref="ppl:acd1" n="per1023">Mrs Anne Danby</persName>.<anchor n="ev196" type="event"/> // .</p>
         </div>
-        <div n="div112" rend="pre(rule)">
+        <div xml:id="div-112" rend="pre(rule)">
            <milestone n="ev197" unit="event"/> 
             <p>
             <date when-custom="1667-11"/>
@@ -10835,7 +10840,7 @@
                  I will magnifie thee o blessed Trinity fore ever.</p>
             <p>Amen. Amen.</p>
       </div>
-        <div n="div113" rend="pre(rule)">
+        <div xml:id="div-113" rend="pre(rule)">
            <milestone n="ev202" unit="event"/> 
             <p>After the recovery of my health &amp; strength againe<lb/>
                  I had returned another affliction; which was not at that<lb/>
@@ -10914,7 +10919,7 @@
             
                 <fw type="pageNum">236.</fw>
             
-        <div n="div114">
+        <div xml:id="div-114">
             <!-- NOTE [div] no div marker, but indexed [one page out] and change of subject. -->
            <milestone n="ev204" unit="event"/><!-- NOTE event wt dream -->
             <p>A bout the <date when-custom="1668-05-20">20<hi rend="superscript">th</hi> day of may:</date> on that night, my deare hus<lb break="no"/>
@@ -10983,7 +10988,7 @@
                 
             </p>
             </div>
-        <div n="div115">
+        <div xml:id="div-115">
             <head place="right" rend="post(rule) border(left)">
                 <!-- Q [teams] [layout] tagging title, the | left border. border(left|right)? -->
                 On <persName ref="ppl:acd1" n="per1064">Mrs Anne Danby</persName>s goeing to Hooly. <date when-custom="1667-04-20">Ap. 20. 67</date>.
@@ -11412,7 +11417,7 @@
                  nesse that hates me with out a cause. //.</p>
             <anchor n="ev207" type="event"/>
         </div>
-        <div n="div116">
+        <div xml:id="div-116">
             <head rend="pre(rule_double) post(rule_pattern)"> 
                 <!-- [endnote] [decoration] Double line here.  -->
             
@@ -11938,7 +11943,7 @@
             
                And now I am to take notice of the grand mercys of my<lb/>
                  God that would not lett me perish through the evill imagination<lb/>
-                 of those that rose up against me, but affter an unmeasurablIon<!-- Q --> of sorow &amp; greife haveing kept my bed 14 daies, weak<lb/>
+                 of those that rose up against me, but affter an unmeasurablIon<!-- Q [review] --> of sorow &amp; greife haveing kept my bed 14 daies, weak<lb/>
                  &amp; feeble through the exceeding paines of the mother &amp; spleene<lb/>
                  &amp; other sicknesses thereon: yet Ith he raised me <lb/>
                  up againe, giveing me a great Comfort in my deare <persName ref="ppl:awn1" n="per1225">Aunt<lb/>
@@ -12100,7 +12105,7 @@
                  Least they perish in there iniquities. // .</p>
         </div>
         
-        <div n="div117" type="prayer">
+        <div xml:id="div-117" type="prayer">
             <head rend="pre(rule_pattern) post(rule_pattern)">
                 <!-- [endnote] [decoration] Patterned border. -->
             
@@ -12243,7 +12248,7 @@
             <p>And I will give thee the Glory of thy works of mercys &amp; favo<add place="above">urs</add><lb/>
                  for ever. I most humbly begge on the account of my Christs<lb/>
                  Intercession that I may have the grace of perserverence, &amp; truly<lb/>
-                 thankfull <hi style="font-family:Segoe UI Symbol">♡</hi> to walkIy<!-- Q --> of these inestimable mercys<lb/>
+                 thankfull <hi style="font-family:Segoe UI Symbol">♡</hi> to walkIy<!-- Q [review] --> of these inestimable mercys<lb/>
                  &amp; glorifie thee in the midest of all my trialls &amp; sufferings.<lb/>
                  makeing a way for me to Escape. I will magnifie thee Lord<lb/>
                  most high &amp; Praise his holy name. besech thee that I may at<lb/>
@@ -12264,7 +12269,7 @@
             
                 <fw type="pageNum">264.</fw>
             
-        <div n="div118">
+        <div xml:id="div-118">
             <head rend="post(rule_pattern)">
                 My son <persName ref="ppl:rt2" n="per1250">Robert Thornton</persName> preserved <date type="accident" when-custom="1668-07-25">July. 25. 1668</date>.
                 <!-- [endnote] [decoration] Patterned border. -->
@@ -12335,7 +12340,7 @@
                  heartily begge for the lone sake of our dearest Lord &amp; savio<ex>u</ex>r<lb/>
                  Jesus Christ his holie son. Amen &amp; Amen.</p>
          </div>
-        <div n="div119">
+        <div xml:id="div-119">
             <head rend="pre(rule_pattern) post(rule_double)">
                 <!-- [endnote] [decoration] Patterned border. -->
                 A relation of the Last sicknesse, and Death of my<lb/>
@@ -12470,7 +12475,7 @@
             
                 <fw type="pageNum">268.</fw>
         
-       <div n="div120">     
+       <div xml:id="div-120">     
             <p>Such was the violency of prevailing passion, &amp; affliction<lb/>
                  upon this change That I was allmost changed with him<lb/>
                  &amp; ready to goe into the grave. that as we had lived in holy<lb/>
@@ -12551,7 +12556,7 @@
                  now I am comforted in the bosome of my Father &amp; thy father<lb/>
                  which I longed affter: &amp; soe shalt thou in his good time.<lb/>
                  Is there not then no meanes to aswage thy immoderate greife<lb/>
-                 for this saIation<!-- Q -->. O yes. there is hope in the Ind.<lb/>
+                 for this saIation<!-- Q [review] -->. O yes. there is hope in the Ind.<lb/>
                  what although my poore <hi style="font-family:Segoe UI Symbol">♡</hi> thou art deprived of his presence<lb/>
                  doest thou not beleive in God. that those Shall be blessed that beleive<lb/>
                  in him, &amp; by the miritts of his redeemer he now injoyes the<lb/>
@@ -12676,7 +12681,7 @@
                  made pertaker of in Heaven. // .</p>
         </div>
         
-        <div n="div121" type="prayer">
+        <div xml:id="div-121" type="prayer">
             <head rend="pre(rule_double) post(rule_double)">
                 <!-- [endnote] [decoration] Double lines. -->
             
@@ -12803,7 +12808,7 @@
                  addoration, &amp; thanksgiving of men &amp; Angells. hence forth<lb/>
                  &amp; for Ever more. Amen. &amp; Amen.</p>
         </div>
-        <div n="div122" rend="pre(rule_pattern)">
+        <div xml:id="div-122" rend="pre(rule_pattern)">
             <!-- [endnote] [decoration] Patterned border. -->
             <milestone n="ev211" unit="event"/><!-- NOTE event wt illness -->
             <p><rs ref="ppl:wt1" n="per1276" type="person">My dear Husband</rs>, went to <placeName ref="place:Malt_035" n="place387">Malton</placeName> to <persName ref="ppl:ftp1" n="per1277">my Sister <lb/>
@@ -12865,7 +12870,7 @@
             
                 <fw type="pageNum">275.</fw>
             
-        <div n="div123">
+        <div xml:id="div-123">
             <p>
               <milestone n="ev213" unit="event"/>
                 He departed on <date when-custom="1668-09-17">Thursday the 17<hi rend="superscript">th</hi> of September <hi rend="underline">1668</hi></date>.<lb/>
@@ -12923,7 +12928,7 @@
             
                 <fw type="pageNum">276.</fw>
             
-        <div n="div124" type="prayer">
+        <div xml:id="div-124" type="prayer">
             <head rend="pre(rule_thick) post(rule_double_thick)">
                 <!-- [endnote] [decoration] Thick line. -->
             
@@ -12997,7 +13002,7 @@
                  perservering grace to the end of my daies; &amp; that I may take<lb/>
                  up thy Crosse dailie &amp; follow thee, beeing meeke &amp; lowlie<lb/>
                  in Spiritt submissive with a true &amp; Catholique resignation<lb/>
-                 to all thy wise dispensations seeme theIosse<!-- Q --> my<lb/>
+                 to all thy wise dispensations seeme theIosse<!-- Q [review] --> my<lb/>
                  perverse will never soe much give me patience through<lb/>
                  out, in all the course of my Life, faith, true wisdome, hope<lb/>
                  &amp; Charitie. Lett me not lacke, any thing, which may add<lb/>
@@ -13131,7 +13136,7 @@
                 </note>
             </p>
        </div>
-       <div n="div125" type="poetry">
+       <div xml:id="div-125" type="poetry">
            <head place="centre" rend="pre(rule_pattern)">
                <!-- [endnote] [decoration] Patterned border. -->
                <!-- Q [authors] following verses? 
@@ -13144,7 +13149,7 @@
                  Sett your affections on heaven above, &amp; not on Earth.<lb/>
                  for where your Treasure is there will your heart be allso.</p>
            </div>
-        <div n="div126" type="poetry" rend="pre(rule)">
+        <div xml:id="div-126" type="poetry" rend="pre(rule)">
                
             <p> The Just shall live by faith. //</p>
             <p><persName ref="ppl:wt1" n="per1299">Mr Thornton</persName>s motto &amp; my owne.</p>
@@ -13161,7 +13166,7 @@
                 </note> 
             <p>Annagrame.</p><!-- Q what is the anagram here...? -->
            </div>
-        <div n="div127" type="poetry" rend="pre(rule)">
+        <div xml:id="div-127" type="poetry" rend="pre(rule)">
                
             <l>Christ and his Church, in love soe well agr’eed.</l>
             <l>That hee for her, and She for him, has bl’eed.</l>
@@ -13198,13 +13203,13 @@
             <l>Thou swime’st, hee’l free thee from all feares.</l>
             <l>Of Sinking, canst thou but hold him fast</l>
             <l>In Armes of faith, thou shallt come safe at last</l>
-            <l>Nay weart thou dead, yet shaThose<!-- Q --> Glories all, they doth Excell.</l>
+            <l>Nay weart thou dead, yet shaThose<!-- Q [review] --> Glories all, they doth Excell.</l>
             <l>He strive till Death; but shall my feeble strife</l>
             <l>Be Crown’d. He Crowne thee with a Crowne of Life. // .</l>
         
        </div>
         
-        <div n="div128" type="poetry">
+        <div xml:id="div-128" type="poetry">
             <head place="centre" rend="pre(rule)">
             
                 Against the feares of Death.</head>
@@ -13221,7 +13226,7 @@
             <l>Then lett us hold, the blisse of gracious minde.</l>
             <l>Since this wee feele. greatt losse we cannot finde.</l>
         </div>
-        <div n="div129" type="prayer" rend="pre(rule)">
+        <div xml:id="div-129" type="prayer" rend="pre(rule)">
             
             <l>O Death I will be thy Death. O Grave I will be thy</l>
             <l>Victory. thanks be to God: through our Lord Jesus Christ.</l>
@@ -13233,7 +13238,7 @@
 
             
                 <fw type="pageNum">282.</fw>
-        <div n="div130" type="poetry">
+        <div xml:id="div-130" type="poetry">
             <!-- Q [tagging] whether these untitled sections should be div or lg. div for now. -->
             <head place="centre" rend="post(rule)">An inducement to Love Heaven // .</head>
             
@@ -13242,14 +13247,14 @@
             <l>Grow rich in grace, which never taketh Rust:</l>
             <l>What ever fades, but faiding pleasure brings.</l>
         </div>
-        <div n="div131" type="poetry" rend="pre(rule)">
+        <div xml:id="div-131" type="poetry" rend="pre(rule)">
             
             <l>Draw in thy beames, and humble all thy might.</l>
             <l>To that sweete yoake, where lasting freedomes be.</l>
             <l>Which breakes the Clouds, and opens forth the light</l>
             <l>That doth both shine, and gives us sight to see.</l>
         </div>
-        <div n="div132" type="poetry" rend="pre(rule)">
+        <div xml:id="div-132" type="poetry" rend="pre(rule)">
             
             <l>O take fast hold, lett that light by thy guide</l>
             <l>In this smale course, which birth drawes out to death</l>
@@ -13259,7 +13264,7 @@
             <l>Eternall love maintaine thy life in mee. //.</l>
       </div>
         
-        <div n="div133" type="poetry">
+        <div xml:id="div-133" type="poetry">
             <head place="centre" rend="pre(rule) post(rule)">
             
                 A faire-well to the World.</head>
@@ -13338,7 +13343,7 @@
 
             
                 <fw type="pageNum">284.</fw>
-        <div n="div134" type="poetry">
+        <div xml:id="div-134" type="poetry">
             
             <head place="centre" rend="pre(rule_pattern) post(rule)">
                 <!-- [endnote] [decoration] Patterned border. -->
@@ -13388,7 +13393,7 @@
             
                 <fw type="pageNum">285.</fw>
             <milestone unit="rule" rend="rule"/>
-            <!-- NOTE [tagging] this ruled line (full width) does not appear to be structural - there's no break in poem. => milestone -->
+            <!-- NOTE [tagging] this ruled line (full width) does not appear to be div - there's no break in poem. => milestone -->
             <l>If wronged, he only is my Right.</l>
             <l>If sad, he, is my Joy, &amp; Soules delight;</l>
             <l>In Summe and all, All only hee;</l>
@@ -13405,7 +13410,7 @@
             <l>Even unto all his Saints befall.</l>
             <l>finis. // .</l>
       </div>
-       <div n="div135" type="poetry">
+       <div xml:id="div-135" type="poetry">
            <head place="centre" rend="pre(rule_pattern) post(rule)">
                <!-- [endnote] [decoration] Patterned border. -->
             
@@ -13426,21 +13431,21 @@
             
                 <fw type="pageNum">286.</fw>
             
-       <div n="div136" type="supplementary">
+       <div xml:id="div-136" type="supplementary">
            <head rend="pre(rule_pattern)">
                 <!-- [endnote] [decoration] Patterned border. pattern above title only. -->
             <lb/>
                 A Recollection of Memmorable accidents, &amp;<lb/>
                  Passages. forgotten to <add place="above">be</add> Entred into my Booke.
             </head>
-      </div>
+      
         <!-- [endnote] [insertion] Here there are indications of several revisions, possibly at different times. ‘At Kirklington 1629’ is in a darker ink. -->       
-   <!-- Q [structure] nest the following divs? -->
+   <!-- NOTE [structure] nesting the following divs; I think that makes most sense. -->
        
-      <div n="div137">
+      <div xml:id="div-137">
           <!-- Q [review] [tagging] [layout] 
              discussed with team June 2022: largely agreed but will need final review against updated transcription.
-         **My decisions = privilege meaning of words (as I interpret them...) over exact positioning on page. (Including moving a word :-S)**
+         **markup decisions = privilege meaning of words (as I interpret them...) over exact positioning on page. (Including moving a word :-S)**
          Although the first line is written inside the <head> above, this text is clearly referring to the next section. 
          treat it as a single <note>. and put both insertions inside the next div, not the first one.
         EXCEPT I think the word "At" between "placed" and "in" should actually prefix "Kirklington 1629". -->
@@ -13453,6 +13458,7 @@
           At <placeName ref="place:Kirk_030" n="place390">Kirklington</placeName> <date when-custom="1629">1629</date> /
        </add><lb/>
             <metamark><g>+</g></metamark><!-- Q [glyph] [metamark]? this matches the margin symbol on p.8 - looks like it is intended to link them together. so they should both be <metamark>??? look up scribal stuff! -->   
+            <!-- TODO link this to the section at the beginning. need div ids first... -->
         Uppon my deliverance from death by a fall.<lb/>
         <!-- [endnote] There is an unusual mark to the left of the title. -->
         when I was 3 years old. // 
@@ -13584,7 +13590,7 @@
                  holy glorious name &amp; holy Trinity for evr &amp; evr.</p>
             <p>Amen. &amp; Amen.</p>
         </div>
-        <div n="div138">
+        <div xml:id="div-138">
             <head place="centre" rend="pre(rule) post(rule)">
                 
                 A great deliverance from drowning in <placeName ref="place:Irel_096" n="place392">Ireland</placeName><lb/>
@@ -13654,7 +13660,7 @@
             
                 <fw type="pageNum">290.</fw>
             
-        <div n="div139">
+        <div xml:id="div-139">
             <head place="centre" rend="post(rule_double)">
                 
                 A great deliverance from a 2<hi rend="superscript">d</hi> fall<lb/>
@@ -13751,7 +13757,7 @@
             
                 <fw type="pageNum">292.</fw>
             
-        <div n="div140">
+        <div xml:id="div-140">
             <head place="centre" rend="post(rule)">
                 A dreadfull fire in the <placeName ref="place:Dubl_089" n="place396">Castle of Dublin</placeName>.<lb/>
                  <date type="accident" when-custom="1638">1638</date>.
@@ -13800,7 +13806,7 @@
             
                 <fw type="pageNum">293.</fw>
             
-        <div n="div141">
+        <div xml:id="div-141">
             <milestone n="ev220" unit="event"/>
             <p>
                 <date when-custom="1640-12-10">Dec. 10 1640</date>. <persName ref="ppl:cw2" n="per1328">My brother Christopher Wand.</persName><lb/>
@@ -13823,7 +13829,7 @@
                 </note> buried at <placeName ref="place:Kirk_030" n="place400">Kirklington</placeName> by his Antien<lb/>
                  ters<anchor n="ev221" type="event"/></p>
             </div>
-        <div n="div142">
+        <div xml:id="div-142">
             <head rend="pre(rule) post(rule)">
                 
                 Of the makeing; &amp; Preservation of <rs ref="ppl:cw1" n="per1332" type="person">my dear<lb/>
@@ -13878,7 +13884,7 @@
             
                 <fw type="pageNum">294.</fw>
             
-        <div n="div143">
+        <div xml:id="div-143">
             <head rend="post(rule)">
                 A Grate full Remembrance of my beeing preserved<lb/>
                  from the fury of the warres in the time of the scotts being<lb/>
@@ -14086,7 +14092,7 @@
             
                 <fw type="pageNum">298</fw>
             
-        <div n="div144">
+        <div xml:id="div-144">
             <head rend="post(rule)">
                 My delivrance from Drowning in the River at <placeName ref="place:Midd_038" n="place415">Midlam</placeName><lb/>
                  when I went to be a wittness to <persName ref="ppl:kwd1" n="per1372">my sister Danby</persName>s <persName ref="ppl:ed1" n="per1373">first<lb/>
@@ -14159,7 +14165,7 @@
                  God of heavn by all the Power of men &amp; Angells for evr.<lb/>
                  o lett me live to thy glory &amp; serve thy majety for Eer Amn.</p>
         </div>
-        <div n="div145" rend="pre(rule)"> 
+        <div xml:id="div-145" rend="pre(rule)"> 
             <note place="end">
                     <p rend="Endnote Text"> Summaries of previous entries – a form of ‘index’, i.e., addition to list of contents?</p>
                 </note>
@@ -14171,7 +14177,7 @@
                  in the yeere. <date when-custom="1646">1646</date>.</p>
             <anchor n="ev229" type="event"/>
          </div>
-        <div n="div146" rend="pre(rule)">
+        <div xml:id="div-146" rend="pre(rule)">
            <milestone n="ev230" unit="event"/>  
             <p>A very great deliverance of me as I was goeing over<lb/>
                  the River att midlam when <persName ref="ppl:kwd1" n="per1385">my Sistr Danby</persName> laid in of<lb/>
@@ -14179,7 +14185,7 @@
                  in the yeare <date when-custom="1644">1644</date></p>
             <anchor n="ev230" type="event"/>
          </div>
-        <div n="div147" rend="pre(rule)">
+        <div xml:id="div-147" rend="pre(rule)">
            <milestone n="ev231" unit="event"/>
             <p>A great deliverance of me from beeing destroyd<lb/>
                  with a cannon Bullett att weschester beeing besseged<lb/>
@@ -14198,7 +14204,7 @@
                  shere</placeName>.</p>
             <anchor n="ev231" type="event"/>
          </div>
-        <div n="div148" rend="pre(rule)">
+        <div xml:id="div-148" rend="pre(rule)">
            <milestone n="ev232" unit="event"/> <!-- NOTE event smithson -->
             <p><date notBefore-custom="1644" notAfter-custom="1651"/>
                 A great delivrance from the violence of a<lb/>
@@ -14216,13 +14222,14 @@
                  hired some of his owne company to have stolen me<lb/>
                  away from Cowse. but <persName ref="ppl:tb2" n="per1391">Tom Binks</persName> discovrd it I bles God</p><anchor n="ev232" type="event"/>
         </div>
+       </div>
     </body>
 
     <pb n="299"/>
 <!-- transcription: Page 299 -->
 
     <back>
-        <div n="div149" type="index">
+        <div xml:id="div-149" type="index">
             <!-- TODO [index] link items to text -->
             <!-- Q for team [transcription] [xmlconversion] probably need to move (some if not all) page refs from current position -->
             <note place="end">
@@ -14530,12 +14537,14 @@
         <pb n="306"/>
 
 <!-- transcription: Page 306 -->
-   <div n="div150" type="supplementary">  
+   
        
             
                 <fw type="pageNum">300</fw>
+        
+        <!-- NOTE [div] dropped a containing div here - don't think it's needed. -->
             
-       <div n="div151">
+       <div xml:id="div-150">
             <head rend="post(rule_thick)">
               Uppon the reconsiling of my two Brothers<lb/>
                  <persName ref="ppl:gw1" n="per1392">George</persName> &amp; <persName ref="ppl:cw2" n="per1393">Christopher Wandesford</persName>. <date when-custom="1651-03-29">March 
@@ -14596,7 +14605,7 @@
 
 <!-- transcription: Page 307 -->
 
-        <div n="div152">
+        <div xml:id="div-151">
             <fw place="top left">[*]<note place="end">
                     <p rend="Endnote Text"> [word] Monogram? Scribble? Slashed S – cf Wroth?</p>
                 </note>
@@ -14716,19 +14725,19 @@
             <l>When thou shalt call this Soule from me.</l>
             <l>With Joyfull hope. Il’e come to thee: Amen.</l>
         </div>
-      </div>
+      
 
         <pb n="310"/>
 
-        <div n="div153">
-            <!-- Q [teams] [ms] how to handle blank pages etc 
+       
+            <!-- 
                 [endnote] Final two leaves blank.  
                 [endnote] Second of blank leaves is the reverse of the lining paper.
             -->
             
             <space quantity="2" unit="page"/>
             
-        </div>
+        
 
     </back>
 

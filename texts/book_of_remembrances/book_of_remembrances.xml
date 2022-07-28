@@ -288,6 +288,11 @@
              <name>Sharon Howard</name>
              <desc>added xml:id to marginalia note/fw to enable linking to text</desc>
            </change>
+           <change>
+             <date>2022-07-28</date>
+             <name>Sharon Howard</name>
+             <desc>final tweaks to div tagging and added xml:id (dropped @n)</desc>
+           </change>
          </listChange>
             
       </revisionDesc> 
@@ -300,7 +305,7 @@
             
 <!-- transcription: Page 1 -->
 
-         <titlePage>
+         <titlePage xml:id="div-001">
          <fw type="pageNum" place="right"> i.</fw>
          <docTitle> 
          <titlePart>
@@ -327,6 +332,8 @@
             <pb n="2"/>
 
 <!-- transcription: Page 2 -->
+       
+       <space unit="page" quantity="1"/>
          
          
          <pb n="3"/>
@@ -339,7 +346,7 @@
 
 <!-- transcription: Page 3 -->
        
-     <div n="div1" rend="post(diagonal)">
+     <div xml:id="div-002" rend="post(diagonal)">
       
      <fw type="pageNum" place="right"> 
        <add place="superimposed">3</add>
@@ -376,11 +383,12 @@
        
        <space quantity="1" unit="page"/>
     
+    
             <pb n="3a"/>
          
 <!-- transcription: Page 3a-->
       
-         <div n="div2" type="poetry">
+         <div xml:id="div-003" type="poetry">
            
          <fw type="pageNum" place="right">3
              <!-- [endnote] Repeated page number, verso of leaf is blank.-->  
@@ -404,16 +412,18 @@
 <!-- transcription: Page 4 -->
      
        
-       <!-- Q [teams] page number apparently present but not transcribed [no image to check] -->
+      <!-- Q [teams] page number apparently present but not transcribed [no image to check] -->
       <!-- [endnote] blank – but it is numbered in the top left-hand corner. 
        -->
        <space quantity="1" unit="page"/>
+       
+       
          
             <pb n="5"/>
 
 <!-- transcription: Page 5 -->
 <!-- [endnote] From here pagination is continuous.-->   
-    <div n="div4" type="poetry">
+    <div xml:id="div-004" type="poetry">
          <head>
             <seg rend="underline">Dedication</seg>
             <fw type="pageNum">5</fw>
@@ -444,7 +454,7 @@
             <pb n="6"/>
 
 <!-- transcription: Page 6 -->
-      <div n="div5" type="poetry">
+      <div xml:id="div-005" type="poetry">
          <head>
             <fw type="pageNum">6.</fw>
             Prayer.
@@ -461,7 +471,7 @@
             <pb n="7"/>
 
 <!-- transcription: Page 7 -->
-     <div n="div6">
+     <div xml:id="div-006">
          <head>
            observations.
          <fw type="pageNum" place="right"> 7</fw>
@@ -484,7 +494,7 @@
 
 <!-- transcription: Page 8 -->
      
-      <div n="div7" type="prayer">
+      <div xml:id="div-007" type="prayer">
          <head>
             <fw type="pageNum">8.</fw>
             Prayer.
@@ -505,7 +515,7 @@
 
 <!-- transcription: Page 9 -->
          
-         <div n="div8">
+         <div xml:id="div-008">
 <!-- transcription: Body -->
         <!-- Q [review] double check this on teams? Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
          
@@ -566,7 +576,7 @@
 
      <body>
       <!-- NOTE year 1631 -->
-       <div n="div9">
+       <div xml:id="div-009">
          <fw>
            <fw xml:id="mnote-0001" place="left margin">⁜</fw> <!-- Q [teams] [unicode] dotted cross symbol errm why is xslt changing unicodes? -->
             <fw type="header" rend="underline">
@@ -627,7 +637,7 @@
 
 <!-- transcription: Page 12 -->
 
-      <div n="div10">
+      <div xml:id="div-010">
          <fw>
             <fw type="pageNum">12</fw>
            <fw type="header">163i.</fw><!-- TODO [review] conventions change - i>arabic numerals -->
@@ -656,7 +666,7 @@
             <pb n="13"/>
 
 <!-- transcription: Page 13 -->
-      <div n="div11">
+      <div xml:id="div-011">
          <fw>
             <fw type="header" rend="underline">
                163i.
@@ -719,7 +729,7 @@
 <!-- transcription: Page 15 -->
 
     <!-- NOTE year 1632 -->
-    <div n="div12">
+    <div xml:id="div-012">
          <fw>
             <fw type="header" rend="underline">
                <date when-custom="1632">1632</date>
@@ -753,7 +763,7 @@
             <pb n="16"/>
 
 <!-- transcription: Page 16 -->
-      <div n="div13">
+      <div xml:id="div-013">
          <fw>
             <fw type="pageNum">16.</fw>
             <fw type="header" rend="underline">
@@ -847,7 +857,7 @@
             <pb n="19"/>
 
 <!-- transcription: Page 19 -->
-        <div n="div14">
+        <div xml:id="div-014">
          <fw>
             <fw type="header" rend="underline">
                <date when-custom="1637/1638">37. 38:</date>
@@ -863,10 +873,10 @@
      
        <!-- NOTE year 1638 -->
 
-        <div n="div15">       
+        <div xml:id="div-015">       
          <p>
            <milestone n="ev9" unit="event"/>
-            <fw xml:id="mnote-0002" type="header" place="margin left"><date when-custom="1638">38</date><!-- TODO [date] actually it's her birthday, fill it in! -->:</fw>. 
+            <fw xml:id="mnote-0002" type="header" place="margin left"><date when-custom="1638-02-13">38</date>:</fw>. 
            About the time I was 12 years old. I<lb/>
           was reading of the great wisdome of<lb/>
           our Saviour in the Gospell where he<lb/>
@@ -891,7 +901,7 @@
             <pb n="20"/>
 
 <!-- transcription: Page 20 -->
-      <div n="div16">
+      <div xml:id="div-016">
          <fw>
             <fw type="pageNum">20</fw>
             <fw type="header" rend="underline">
@@ -944,7 +954,7 @@
             <pb n="21"/>
 
 <!-- transcription: Page 21 -->
-<div n="div17">
+<div xml:id="div-017">
          <fw>
             <fw type="header">
                <date when-custom="1640/1641"><hi rend="underline">1640:</hi>  <hi rend="underline">1641.</hi></date>
@@ -963,7 +973,7 @@
   
        <!-- NOTE year 1641 -->
 
-   <div n="div18" rend="pre(rule)">   
+   <div xml:id="div-018" rend="pre(rule)">   
      <milestone n="ev14" unit="event"/>
          <p>Twas amongst the many 1000 of others<lb/>
           Protestants in <placeName ref="place:Irel_096" n="place16">Ireland</placeName> miraculously pre=<lb break="no"/>
@@ -994,7 +1004,7 @@
             <pb n="22"/>
 
 <!-- transcription: Page 22 -->
-      <div n="div19">
+      <div xml:id="div-019">
          <fw>
             <fw type="pageNum">22.</fw>
             <fw type="header">
@@ -1017,7 +1027,7 @@
        <!-- NOTE year 1642 ... or maybe not! apparently 1642 is Alice misdating and this was actually 1644.
         -->
 
-       <div n="div20" rend="pre(rule_short)">
+       <div xml:id="div-020" rend="pre(rule_short)">
          <p>
          <milestone n="ev18" unit="event"/>
           we were prevented from the siege at<lb/>
@@ -1029,7 +1039,7 @@
    
        <!-- NOTE year 1643 -->
 
-       <div n="div21" rend="pre(rule_short)">
+       <div xml:id="div-021" rend="pre(rule_short)">
          <milestone n="ev19" unit="event"/>
          <!-- [endnote] Short horizontal line above here too as a section break. -->
          <p>
@@ -1053,7 +1063,7 @@
      
        <!-- NOTE year 1645 -->
      
-       <div n="div22" rend="pre(rule_short)">
+       <div xml:id="div-022" rend="pre(rule_short)">
          <milestone n="ev20" unit="event"/>
          <p>
             <persName ref="ppl:kwd1" n="per46">my Sister Danby</persName> died at <placeName ref="place:Thor_056" n="place25">Thorpe</placeName> 
@@ -1074,7 +1084,7 @@
             <pb n="23"/>
 
 <!-- transcription: Page 23 -->
-       <div n="div23" rend="post(diagonal)">
+       <div xml:id="div-023" rend="post(diagonal)">
          <fw>
            <fw type="header" rend="darkerInk"><date when-custom="1647/1649">1647. 48: 49.</date> </fw>
            <fw type="pageNum" rend="darkerInk">23.</fw>
@@ -1090,7 +1100,7 @@
          <anchor n="ev21" type="event"/>
          </p>
        </div>
-       <div n="div24" rend="pre(rule_short) post(diagonal)">
+       <div xml:id="div-024" rend="pre(rule_short) post(diagonal)">
            <!-- [endnote] Divider lines on this page and next, solid line, of approximately [4 chars] length.-->
          <p> 
          <milestone n="ev22" unit="event"/>
@@ -1102,7 +1112,7 @@
        </div>
        
      <!-- NOTE year 1649 -->
-       <div n="div25" rend="pre(rule_short) post(diagonal)">  
+       <div xml:id="div-025" rend="pre(rule_short) post(diagonal)">  
          <p>
         <milestone n="ev23" unit="event"/>
            <persName ref="ppl:cs1" n="per52">King Charles the first</persName> beheaded at<lb/>
@@ -1111,7 +1121,7 @@
          <anchor n="ev23" type="event"/>
          </p>
        </div>
-       <div n="div26" rend="pre(rule_short) post(diagonal)">
+       <div xml:id="div-026" rend="pre(rule_short) post(diagonal)">
          <p> 
          <milestone n="ev24" unit="event"/>
            <persName ref="ppl:jn1" n="per53">My Cozen Julian Norton</persName> died at<lb/>
@@ -1120,7 +1130,7 @@
          <anchor n="ev24" type="event"/>
          </p>
        </div>
-       <div n="div27" rend="pre(rule_short)">
+       <div xml:id="div-027" rend="pre(rule_short)">
          <p> 
          <milestone n="ev25" unit="event"/>
            <persName ref="ppl:jn2" n="per54">my Cozen John Norton</persName> died at <placeName ref="place:StNi_050" n="place30">S<hi rend="superscript">t</hi>:<lb/>
@@ -1128,7 +1138,7 @@
          <anchor n="ev25" type="event"/>
          </p>
        </div>
-       <div n="div28">
+       <div xml:id="div-028">
          <p> 
          <milestone n="ev26" unit="event"/>
            <persName ref="ppl:eo1" n="per55">my Uncle Sir Ed: Osborne</persName> died at <placeName ref="place:Kive_029" n="place31">Keevet<add place="above">n</add></placeName>
@@ -1142,7 +1152,7 @@
 
 <!-- transcription: Page 24 -->
        <!-- NOTE year 1651 -->
-       <div n="div29" rend="post(diagonal)">
+       <div xml:id="div-029" rend="post(diagonal)">
          <fw>
             <fw type="pageNum">24.</fw>
             <fw type="header"><date when-custom="1651">1651</date>.</fw>
@@ -1160,7 +1170,7 @@
          </p>
          <anchor n="ev27" type="event"/>
 </div>
-       <div n="div30" rend="pre(rule_short) post(diagonal)">
+       <div xml:id="div-030" rend="pre(rule_short) post(diagonal)">
          <p> 
          <milestone n="ev28" unit="event"/>
            <persName ref="ppl:mny1" n="per58">My Cozen mary Norton</persName> was Married<lb/>
@@ -1170,7 +1180,7 @@
          <anchor n="ev28" type="event"/>
          </p>
        </div>
-       <div n="div31" rend="pre(rule_short)">
+       <div xml:id="div-031" rend="pre(rule_short)">
          <p> 
          <milestone n="ev29" unit="event"/>
            <persName ref="ppl:cw2" n="per61">My Brother Christopher Wandesford</persName><lb/>
@@ -1180,7 +1190,7 @@
          <anchor n="ev29" type="event"/>
          </p>
        </div>
-       <div n="div32" rend="pre(rule_short) post(diagonal)">
+       <div xml:id="div-032" rend="pre(rule_short) post(diagonal)">
          <!-- [endnote] This [pre-rule] line is more diagonal. -->
          <p> 
          <milestone n="ev30" unit="event"/>
@@ -1197,7 +1207,7 @@
 
 <!-- transcription: Page 25 -->
        <!-- NOTE year 1652 -->
-<div n="div33">
+<div xml:id="div-033">
          <fw>
             <fw type="header"><date when-custom="1652">1652</date>.</fw>
             <fw type="pageNum">25.</fw>
@@ -1218,7 +1228,7 @@
          </p>
        </div>
       <!-- NOTE year 1654 -->   
-       <div n="div34" rend="pre(rule)">
+       <div xml:id="div-034" rend="pre(rule)">
          <!-- [endnote] This is a solid line and added later as it crosses through some of the next line. Not ruled. -->
         <milestone n="ev34" unit="event"/>
          <p>
@@ -1242,7 +1252,7 @@
       </div>
  
    <!-- NOTE year 1655 -->
-       <div n="div35" rend="pre(rule) post(diagonal)">
+       <div xml:id="div-035" rend="pre(rule) post(diagonal)">
          <!-- [endnote] Line; not quite straight. -->
          <p>
          <milestone n="ev35" unit="event"/>
@@ -1278,7 +1288,7 @@
          </p>
        </div>
        
-     <div n="div36" rend="pre(diagonal)">
+     <div xml:id="div-036" rend="pre(diagonal)">
     <fw xml:id="mnote-0006" place="left margin"><date when-custom="1655">1655</date>.</fw><lb/>
     <p>
       <!-- [endnote] A diagonal line between the sections which goes through the date which was prob added later as it is in a darker ink, like the page number.-->
@@ -1294,7 +1304,7 @@
       <anchor n="ev36" type="event"/>
           </p>
        </div>
-       <div n="div37" rend="pre(diagonal) post(diagonal)">
+       <div xml:id="div-037" rend="pre(diagonal) post(diagonal)">
          <!-- NOTE / div rend -->
          <p>
          <milestone n="ev37" unit="event"/>
@@ -1310,7 +1320,7 @@
 
 <!-- transcription: Page 27 -->
        <!-- NOTE year 1656 -->
-      <div n="div38">
+      <div xml:id="div-038">
          <fw>
             <fw type="header" rend="darkerInk"><date when-custom="1656">1656</date></fw>
             <fw type="pageNum" rend="darkerInk">27.</fw>
@@ -1330,7 +1340,7 @@
         <anchor n="ev38" type="event"/>
          </p>
 </div>
-       <div n="div39" rend="pre(diagonal) post(diagonal)">
+       <div xml:id="div-039" rend="pre(diagonal) post(diagonal)">
          <p><!-- NOTE / div rend -->
          <milestone n="ev39" unit="event"/>
            <persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
@@ -1348,7 +1358,7 @@
          </p>
        </div>
             
-       <div n="div40" rend="pre(diagonal)">
+       <div xml:id="div-040" rend="pre(diagonal)">
          <p><!-- NOTE / div rend -->
          <milestone n="ev40" unit="event"/>
            <persName ref="ppl:et1" n="per89">Elizabeth Thornton</persName> my 3<hi rend="superscript">d</hi> child<lb/>
@@ -1378,7 +1388,7 @@
          </p>
        </div>
      <!-- NOTE year 1657 -->
-       <div n="div41" rend="pre(rule)">
+       <div xml:id="div-041" rend="pre(rule)">
          <!-- Q [teams] [decoration] ? divider line was a thicker line than usual. -->
          <p>
            <milestone n="ev41" unit="event"/>
@@ -1407,7 +1417,7 @@
             <pb n="29"/>
 
 <!-- transcription: Page 29 -->
-<div n="div42">
+<div xml:id="div-042">
          <fw>
            <fw type="pageNum" rend="underline">
                29.
@@ -1492,7 +1502,7 @@
 
 <!-- transcription: Page 31 -->
        <!-- NOTE year 1659 -->
-<div n="div43">
+<div xml:id="div-043">
          <fw>
             <fw type="header"><date when-custom="1659">1659</date>.</fw>
             <fw type="pageNum">31.</fw>
@@ -1770,7 +1780,7 @@
 
 <!-- transcription: Page 39 -->
       <!-- NOTE year 1660 -->
-      <div n="div44">
+      <div xml:id="div-044">
          <fw>
            <fw type="pageNum" rend="underline">
                39.
@@ -1808,7 +1818,7 @@
           Will. Norton</persName>. &amp; <persName ref="ppl:jd1" n="per126">Co: Darcy of <placeName ref="place:Rich_043" n="place57">Rich</placeName></persName>.</p>
         <anchor n="ev46" type="event"/>
      </div>  
-     <div n="div45">
+     <div xml:id="div-045">
        <p>
        <milestone n="ev47" unit="event"/>
          <rs ref="ppl:wt2" n="per127" type="person">My pretty babe</rs> was in good hea<lb break="no"/>
@@ -1908,7 +1918,7 @@
 
 <!-- transcription: Page 42 -->
 
- <div n="div46" type="poetry">        
+ <div xml:id="div-046" type="poetry">        
          <fw type="header" style="text-align: center;"><date>1660</date>.</fw>
          <fw xml:id="mnote-0013" type="pageNum" place="left margin">42.</fw>
    
@@ -1937,7 +1947,7 @@
 
 <!-- transcription: Page 43 -->
        <!-- NOTE year 1662 -->
-      <div n="div47">
+      <div xml:id="div-047">
          <fw>
             <fw type="header"><date datingMethod="#JulianMar" when-custom="1661">1661</date>.<!-- NOTE [dates] OS. NB all the "1661" headings are actually NS 1662 --></fw>
            <!-- msDescription [endnote] Date only just above the first line.-->
@@ -2257,7 +2267,7 @@
             <pb n="52"/>
 <!-- transcription: Page 52 -->
 
-      <div n="div48">
+      <div xml:id="div-048">
        <fw>
          <fw type="pageNum">52.</fw>
          <fw type="header"><date>1662</date></fw>
@@ -2307,7 +2317,7 @@
           for a perfect recovery.</p>
         <anchor n="ev50" type="event"/>
 </div>
-       <div n="div49">
+       <div xml:id="div-049">
         <milestone n="ev51" unit="event"/>
          <p>After I had recaid<note place="end" type="word">
            <p rend="Endnote Text"> [word] I.e. ‘receaued’.</p>
@@ -2554,7 +2564,7 @@
            way his face from thy praier, butt<lb/>
            granter thy Pettitions.</p>
 </div>
-      <div n="div50"> 
+      <div xml:id="div-050"> 
          <p> 
         <milestone n="ev52" unit="event"/>
            After this sad accident befell me<lb/>
@@ -2726,7 +2736,7 @@
             <pb n="67"/>
 
 <!-- transcription: Page 67 -->
-<div n="div51">
+<div xml:id="div-051">
      <fw type="pageNum" rend="darkerInk">67.</fw><lb/>
     <milestone n="ev54" unit="event"/>
          <p>After this, drawing <date when-custom="1662-08">neare a month</date><lb/>
@@ -2872,7 +2882,7 @@
             <pb n="72"/>
 
 <!-- transcription: Page 72 -->
-       <div n="div52" rend="post(diagonal)">
+       <div xml:id="div-052" rend="post(diagonal)">
          <p>
            <fw>
             <fw type="pageNum" rend="darkerInk">72.</fw>
@@ -3074,7 +3084,7 @@
             <pb n="79"/>
 
 <!-- transcription: Page 79 -->
-<div n="div53">
+<div xml:id="div-053">
          <fw>
            <fw type="header" rend="underline">
                <date>1662</date>
@@ -3113,7 +3123,7 @@
             <pb n="80"/>
 
 <!-- transcription: Page 80 -->
-<div n="div54">
+<div xml:id="div-054">
          <fw type="pageNum">80.</fw> 
         <milestone n="ev57" unit="event"/>
          <p>
@@ -3260,7 +3270,7 @@
             <pb n="85"/>
 
 <!-- transcription: Page 85 -->
-<div n="div55">
+<div xml:id="div-055">
           <fw>
               <fw type="header" rend="underline">
                <date>1662</date>
@@ -3335,7 +3345,7 @@
 
 <!-- transcription: Page 87 -->
        <!-- NOTE year 1664 -->
-  <div n="div56">
+  <div xml:id="div-056">
       <fw>
         <fw type="header" rend="underline"><date when-custom="1664">1664</date></fw>
          <fw type="pageNum">87.</fw>
@@ -3370,7 +3380,7 @@
 
 <!-- transcription: Page 88 -->
        <!-- NOTE year 1665 -->
-    <div n="div57">
+    <div xml:id="div-057">
       <fw>
       <fw type="header" rend="underline"><date when-custom="1665">1665</date>  </fw>
       <fw type="pageNum">88.</fw> 
@@ -3472,7 +3482,7 @@
       </div>
             <pb n="91"/>
 
-      <div n="div58"> 
+      <div xml:id="div-058"> 
 <!-- transcription: Page 91 -->
 
          <fw>
@@ -3512,7 +3522,7 @@
             <pb n="92"/>
 
 <!-- transcription: Page 92 -->
-    <div n="div59">
+    <div xml:id="div-059">
       <fw>
         <fw type="header" rend="underline">
            <date>1665</date>.<!-- NOTE (conventions change) deleted - at the beginning of the line -->
@@ -3636,7 +3646,7 @@
 
 <!-- transcription: Page 96 -->
        
-    <div n="div60">
+    <div xml:id="div-060">
          <fw type="pageNum">96.</fw>
          <p>
           While I am in this bodie of death<lb/>
@@ -3820,7 +3830,7 @@
           delivred from the Iawes of Eternall death<lb/>
           Amen.</p>
        </div>
-       <div n="div61" rend="pre(rule_light)">
+       <div xml:id="div-061" rend="pre(rule_light)">
 
         <fw type="header" rend="underline"><date>1666</date>.</fw> <lb/>
          <p>
@@ -3849,7 +3859,7 @@
             <pb n="102"/>
 
 <!-- transcription: Page 102 -->
-<div n="div62">
+<div xml:id="div-062">
          <fw>
             <fw type="pageNum">102.</fw>
             <fw type="header" rend="underline">
@@ -3928,7 +3938,7 @@
             <pb n="104"/>
 
 <!-- transcription: Page 104 -->
-<div n="div63">
+<div xml:id="div-063">
          <fw>
             <fw type="pageNum">104.</fw>
            <fw type="header" rend="underline">
@@ -3943,7 +3953,7 @@
         <anchor n="ev68" type="event"/>
          </p>
 </div>
-       <div n="div64" rend="pre(rule_short)">
+       <div xml:id="div-064" rend="pre(rule_short)">
          <milestone n="ev69" unit="event"/>
          <p>Vpon the <date when-custom="1666-09-29">29<hi rend="superscript">th</hi> day of Sept:<add place="above">ber</add></date> began<lb/>
            my Daughter <persName ref="ppl:ktp1" n="per232">Kate Thornton</persName> with<lb/>
@@ -3992,7 +4002,7 @@
           to his Glory for Christs sake &amp; give me a<lb/>
           thankefull heart to comemorat his mercys Amen.</p>
        </div>
-       <div n="div65" rend="pre(rule)">
+       <div xml:id="div-065" rend="pre(rule)">
          <milestone n="ev70" unit="event"/>
          <p>It pleased God to vissit my deare Brother<lb/>
           <persName ref="ppl:jw1" n="per236">John Wandesford</persName> at <placeName ref="place:Lond_080" n="place80">London</placeName> 10<hi rend="superscript">th</hi> his last <lb/>
@@ -4042,7 +4052,7 @@
          </p>
          <anchor n="ev70" type="event"/>
        </div>
-       <div n="div66" rend="pre(rule)">
+       <div xml:id="div-066" rend="pre(rule)">
          <p>
          <milestone n="ev71" unit="event"/>
            About this <date when-custom="1666-12">christmas 1666</date>: <persName ref="ppl:wn1" n="per239">my Cosen<lb/>
@@ -4052,7 +4062,7 @@
          </p>
        </div>
        <!-- NOTE year 1667 -->
-       <div n="div67" rend="pre(rule) post(diagonal)">
+       <div xml:id="div-067" rend="pre(rule) post(diagonal)">
          <milestone n="ev72" unit="event"/>
          <p>The <date when-custom="1667-01-05">5<hi rend="superscript">th</hi> of Janeuary 1667</date><!-- NOTE [dates] NS -->: my deare<lb/>
           <persName ref="ppl:rt2" n="per240">Robin Thornton</persName> began his sicknesse of the<lb/>
@@ -4109,7 +4119,7 @@
             <pb n="108"/>
 
 <!-- transcription: Page 108 -->
-<div n="div68">
+<div xml:id="div-068">
          <fw>
             <fw type="pageNum">108.</fw>
            <fw type="header" rend="underline">
@@ -4133,7 +4143,7 @@
       <anchor n="ev73" type="event"/>
       </p>
 </div>
-       <div n="div69" rend="pre(rule)">
+       <div xml:id="div-069" rend="pre(rule)">
          <p>
          <milestone n="ev74" unit="event"/>
          About the <date when-custom="1667-01-25">25<hi rend="superscript">th</hi> of Jan: 1667</date>: <persName ref="ppl:atc1" n="per245">Naly</persName> took<lb/>
@@ -4193,7 +4203,7 @@
             <pb n="110"/>
 
 <!-- transcription: Page 110 -->
-<div n="div70">
+<div xml:id="div-070">
          <fw>
             <fw type="pageNum">110.</fw>
             <fw type="header" rend="underline">
@@ -4218,7 +4228,7 @@
         <anchor n="ev75" type="event"/>
          </p>
 </div>
-       <div n="div71" rend="pre(rule)">
+       <div xml:id="div-071" rend="pre(rule)">
          <p>
         <milestone n="ev76" unit="event"/>
            The <date when-custom="1667-04-08">8<hi rend="superscript">th</hi> of Aprill</date> <persName ref="ppl:atc1" n="per250">naly</persName> had a Pearle<lb/>
@@ -4236,7 +4246,7 @@
        <pb n="111"/>
 
 <!-- transcription: Page 111 -->
-<div n="div72">
+<div xml:id="div-072">
   <fw type="pageNum" rend="underline">iii.</fw> <!-- TODO [review] conventions change -->
          <p>
         <milestone n="ev77" unit="event"/>
@@ -4253,7 +4263,7 @@
       <anchor n="ev77" type="event"/>
       </p>
 </div>
-       <div n="div73" rend="pre(rule)">
+       <div xml:id="div-073" rend="pre(rule)">
          <p>
          <milestone n="ev78" unit="event"/>
            <date precision="medium" when-custom="1666">About the yeare</date> that <persName ref="ppl:ktp1" n="per252">Kate Thornton</persName><lb/>
@@ -4292,7 +4302,7 @@
           ever <add place="above">for</add> all manner of his deliverances<lb/>
           to me &amp; mine Amen.</p>
        </div>
-       <div n="div74" rend="pre(rule)">
+       <div xml:id="div-074" rend="pre(rule)">
          <milestone n="ev79" unit="event"/>
          <p>It was the permition of God to let a sad<lb/>
           &amp; dismall stroake fall heavy upon my<lb/>
@@ -4319,7 +4329,7 @@
          in yeare 1667</date>.</p>
          <anchor n="ev79" type="event"/>
        </div>
-       <div n="div75" rend="pre(rule) post(diagonal)">
+       <div xml:id="div-075" rend="pre(rule) post(diagonal)">
          <p>
          <milestone n="ev80" unit="event"/>
           It pleased the goodnesse of my gracious<lb/>
@@ -4366,7 +4376,7 @@
          <anchor n="ev80" type="event"/>
          </p>
        </div>
-       <div n="div76" rend="pre(rule)">
+       <div xml:id="div-076" rend="pre(rule)">
          <milestone n="ev81" unit="event"/>
          <p>I fell into panges of Labour about the<lb/>
           <date when-custom="1667-11-04">4<hi rend="superscript">th</hi> of november</date> beeing very ill. &amp; so con-<lb break="no"/>
@@ -4418,7 +4428,7 @@
           of the wombe, o praise the Lord for Ever.</p>
          <anchor n="ev81" type="event"/>
        </div>
-       <div n="div77" rend="pre(rule)">
+       <div xml:id="div-077" rend="pre(rule)">
          <p>
          <milestone n="ev82" unit="event"/>
            my daughter <persName ref="ppl:atc1" n="per266">naly</persName> was on this night <date when-custom="1667-11-11">the<lb/>
@@ -4432,7 +4442,7 @@
             <pb n="116"/>
 
 <!-- transcription: Page 116 -->
-<div n="div78">
+<div xml:id="div-078">
   <fw>
     <fw type="pageNum">116.</fw> 
     <fw type="header" rend="underline">
@@ -4452,7 +4462,7 @@
         <anchor n="ev83" type="event"/>
          </p>
 </div>
-       <div n="div79" rend="pre(rule)">
+       <div xml:id="div-079" rend="pre(rule)">
          <p>
          <milestone n="ev84" unit="event"/>
          After this comfort of <rs ref="ppl:ct1" n="per271" type="person">my Childe</rs> I<lb/>
@@ -4516,7 +4526,7 @@
 
 <!-- transcription: Page 118 -->
        <!-- NOTE year 1668? -->
-<div n="div80">
+<div xml:id="div-080">
            <fw> 
              <fw type="pageNum">118.</fw>
              <fw type="header" rend="underline"><date>1667</date>.</fw>
@@ -4570,7 +4580,7 @@
           please to bring me to. for my saviour<lb/>
           Jesus Christs his sake Amen.</p>
 </div>
-       <div n="div81" rend="pre(rule)">
+       <div xml:id="div-081" rend="pre(rule)">
          <p>
          <milestone n="ev86" unit="event"/>
          After which recovery of my health<lb/>
@@ -4601,7 +4611,7 @@
             <pb n="120"/>
 
 <!-- transcription: Page 120 -->
-<div n="div82">
+<div xml:id="div-082">
   
          <fw>
            <fw type="pageNum">120.</fw> 
@@ -4932,7 +4942,7 @@
             <pb n="128"/>
 
 <!-- transcription: Page 128 -->
-<div n="div83">
+<div xml:id="div-083">
          <fw>
             <fw type="pageNum">128.</fw>
            <fw type="header" rend="underline">
@@ -5038,7 +5048,7 @@
             <pb n="131"/>
 
 <!-- transcription: Page 131 -->
-<div n="div84">
+<div xml:id="div-084">
          <fw>
            <fw type="pageNum" rend="underline">131.</fw>
            <fw type="header" rend="underline">
@@ -5187,7 +5197,7 @@
             <pb n="135"/>
 
 <!-- transcription: Page 135 -->
-       <div n="div85">
+       <div xml:id="div-085">
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -5321,7 +5331,7 @@
           </subst>
            <rs ref="ppl:wt1" n="per326" type="person">deare Husbad</rs><lb/>
           that any creature could have.<anchor n="ev93" type="event"/> 
-           <!-- NOTE Book 1 new div at this point, but no break here at all, not even a new p. -->Such was<lb/>
+           <!-- NOTE Book 1 new div at this point, but no break here at all, not even a new line/p. Bk1 text slightly different "Such was the violency of prevailing passion" -->Such was<lb/>
           my extreamity of Passion &amp; trouble<lb/>
           upon this change that I was allmost <lb/>
           changed into nothing &amp; was ready<lb/>
@@ -5415,7 +5425,7 @@
 
 <!-- transcription: Page 141 -->
 
-       <div n="div86">  
+       <div xml:id="div-086">  
          <fw>
            <fw type="pageNum">141.</fw>
            <fw type="header" rend="underline">
@@ -5700,7 +5710,7 @@
             <pb n="149"/>
 
 <!-- transcription: Page 149 -->
-<div n="div87"> 
+<div xml:id="div-087"> 
   <fw>
     <fw type="pageNum" rend="underline">
                149.
@@ -5809,7 +5819,7 @@
           almost 17 yeares.</p>
      <anchor n="ev95" type="event"/>   
      </div>
-     <div n="div88">
+     <div xml:id="div-088">
         <milestone n="ev96" unit="event"/>
          <p>He was brought home to <placeName ref="place:East_019" n="place100">Newton</placeName> on<lb/>
           <date when-custom="1668-09-18">friday the 18<hi rend="superscript">th</hi> of September</date> &amp;. had the company<lb/>
@@ -5897,7 +5907,7 @@
 
 <!-- transcription: Page 154 -->
        
-       <div n="div89" type="poetry">  
+       <div xml:id="div-089" type="poetry">  
 
    <!-- msDescription [formatting] [endnote] From here to p. 168, hand generally in larger letters, with more spacing and a more studied italic hand. More’ presentation’ like that much that has gone before it (except the opening pages) and much neater than that which follows the index.-->
 
@@ -5943,7 +5953,7 @@
          <l>Since this we feele. great losse we<lb/>
          cannot find.</l>
    </div>
-       <div n="div90" type="poetry" rend="pre(rule)">
+       <div xml:id="div-090" type="poetry" rend="pre(rule)">
          
          <l>Leave me O Love, which reachest but to dust</l>
          <l>And thou my minde aspire to higher things</l>
@@ -5981,7 +5991,7 @@
 
 <!-- transcription: Page 157 -->
          
-       <div n="div91" type="poetry"> 
+       <div xml:id="div-091" type="poetry"> 
          <fw type="pageNum" rend="underline">157</fw>
        
          <!-- Q [teams] [authors] investigate the best way to handle this -->
@@ -6055,8 +6065,8 @@
      <lb/>
          <l>A prayer booke shall be my looking glasse</l>
          <l>Wherein I will adorne sweete vertues face</l>
-         <!-- Q [teams] [xmlconversion] transcription/tagging of these four lines 
-           - text in the teams doc. but this is still tricky - does xml and word text need to be different?  -->
+         <!-- Q [teams] transcription/tagging of these four lines 
+           - text in the teams doc. but this is still tricky  -->
          <l>Heare dwells noe heartlesse loves noe pale face</l>
          <l>Noe short Joyes purchast with Eternall <subst>
            <del rend="strikethrough">tears</del><add place="above">feares</add>
@@ -6069,7 +6079,7 @@
          <l>He neare looke for it but in Heaven agaen.</l>
        </div>
        
-       <div n="div92" type="poetry" rend="pre(rule_short)">
+       <div xml:id="div-092" type="poetry" rend="pre(rule_short)">
          
          <p>The Just shall live by faith.</p>
          
@@ -6097,7 +6107,7 @@
           <!-- [endnote] NB TWO UNNUMBERED BLANK PAGES, 159v, 160r -->
         <space quantity="2" unit="page"/> 
          
-       <div n="div93" type="poetry">  
+       <div xml:id="div-093" type="poetry">  
          
          <head>
            <fw type="pageNum" rend="underline">160.</fw>
@@ -6183,7 +6193,7 @@
             <pb n="163"/>
 
 <!-- transcription: Page 163 -->
-<div n="div94" type="prayer">
+<div xml:id="div-094" type="prayer">
          <head>
            <fw type="pageNum" rend="underline">
                163.
@@ -6373,9 +6383,14 @@
 <!-- [endnote] NB. No page numbers provided for index by Thornton-->
           
                   
-     <div n="div95" type="index">
+     <div xml:id="div-095" type="index">
            
-       <!-- TODO [index] link entries to text [later: need to settle div ids; record alice discrepancies] -->
+       <!-- TODO [index] 
+         structure? I don't want to have to do this as a table!!!!
+         done <ref> for page numbers
+         link entries to text 
+            need to settle div ids first? got to have something to link to.
+            record alice discrepancies -->
 
        <!-- msDescription [endnote] Ruling on page.-->
       <list>           
@@ -6719,7 +6734,7 @@
 <!-- transcription: Page 182 -->
 
     
-    <div n="div96" type="supplementary" rend="darkerInk">
+    <div xml:id="div-096" type="supplementary" rend="darkerInk">
          
       <!-- msDescription [endnote] pages not numbered by AWT -->
       <!-- msDescription [endnote] Looks like a darker ink than that used previously and the handwriting is far less neat. Consistent enough still to be AT-->
@@ -6731,7 +6746,7 @@
 
          </fw>
         </head>
-       <div n="div97" rend="pre(rule)">
+       <div xml:id="div-097" rend="pre(rule)">
          <p>
         <milestone n="ev97" unit="event"/>  
            vidz The great fall I had at <placeName ref="place:Kirk_030" n="place102">Kirklington</placeName><lb/>
@@ -6753,7 +6768,7 @@
           praise the Lord most high &amp; profitable to my <lb/>
           owne soule Amen.</p>
        </div>
-       <div n="div98" rend="pre(rule)">
+       <div xml:id="div-098" rend="pre(rule)">
          <p>
         <milestone n="ev98" unit="event"/>    
           The Lord gave me a dreame <date notAfter-custom="1640-11">before</date><!-- Q [dates] possible to make this more specific? these dreams are usually only a few months before the event. --> the dea<lb break="no"/>
@@ -6764,7 +6779,7 @@
          <anchor n="ev98" type="event"/>
          </p>
        </div>
-       <div n="div99" rend="pre(rule_short) post(diagonal)">
+       <div xml:id="div-099" rend="pre(rule_short) post(diagonal)">
         <milestone n="ev99" unit="event"/>   
          <p>
             <rs ref="ppl:aow1" n="per356" type="person">My Deare mothr</rs> had a Terrible dream<lb/>
@@ -6869,7 +6884,7 @@
            deare to this holy: wise. &amp; good Christian.<!-- NOTE / div rend --></p>
          <anchor n="ev99" type="event"/>
       </div>
-      <div n="div100" rend="pre(rule)">
+      <div xml:id="div-100" rend="pre(rule)">
          <p>
         <milestone n="ev100" unit="event"/>   
           I had a very significant dreame in <date when-custom="1645">45</date>:<lb/>
@@ -6925,7 +6940,7 @@
         <anchor n="ev100" type="event"/>
          </p>
       </div>
-      <div n="div101" rend="pre(rule) post(diagonal)">
+      <div xml:id="div-101" rend="pre(rule) post(diagonal)">
         <milestone n="ev101" unit="event"/>   
          <p>I had a sad dreame <date when-custom="1650-10">halfe a yeare before</date><!-- NOTE [dates] durations could be differently handled but this will do for now. --> my<lb/>
           Brothr <persName ref="ppl:gw1" n="per374">George Wandesford</persName> was lost. That he was<lb/>
@@ -7050,7 +7065,7 @@
             <pb n="191"/>
 
 <!-- transcription: Page 191 -->
-     <div n="div102">        
+     <div xml:id="div-102">        
         <milestone n="ev102" unit="event"/>
          <p>A gratefull Remembrance of<lb/>
            what God ded for me in delivrance fr[om]<!-- TODO [review] check ms - might be visible --><lb/>
@@ -7061,7 +7076,7 @@
            <anchor n="ev102" type="event"/>
          </p>
        </div>
-         <div n="div103" rend="pre(rule)">
+         <div xml:id="div-103" rend="pre(rule)">
            
          <milestone n="ev103" unit="event"/>
          <p>
@@ -7198,7 +7213,7 @@
           that Ruine. And I will praise the Lord<lb/>
            for Ever more. Amen</p>
       </div>
-      <div n="div104" rend="pre(rule)">
+      <div xml:id="div-104" rend="pre(rule)">
          <p>
         <milestone n="ev106" unit="event"/>
            <date when-custom="1644/1651"/>
@@ -7216,7 +7231,7 @@
             <pb n="196"/>
 
 <!-- transcription: Page 196 -->
-      <div n="div105">
+      <div xml:id="div-105">
          <p>
         <milestone n="ev107" unit="event"/>
            
