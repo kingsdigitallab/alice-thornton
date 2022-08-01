@@ -75,26 +75,27 @@
          - Items <seg rend="background(cyan)">marked</seg> – double-check origina
          
          Page \d+ in comments = Transcriber page numbers 
-         (fw=pageNum are Alice's written numbers)
+         <fw> type=pageNum are Alice's written numbers
          
      xml comment keywords:
          NOTE: a comment on something, but shouldn't need any further (or very minor, low-priority) action.
          TODO: needs work; I probably know what's needed
          Q: needs work, uncertain about how to proceed
          
-         TODO/Q [teams] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
+         TODO/Q [teams] or [review] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
          
          [tags] for some indication of what it's about
          [endnote] moved from Word endnotes into comment
          
+      WORK IN PROGRESS   
          
-         
-       @rend markers (WIP):
+       @rend markers
          (mainly?) <div> or <head>  
          ruled lines above and below titles are based on WWP rendition styles
          pre/post
          double
          pattern
+         thick
          BoR original format (based on wwp?): position-marker type-width-weight eg
             pre-rule-full-width-light  
             post-diagonal-short
@@ -722,7 +723,7 @@
                  -ly more opportunitys of Good to my well beeing<lb/>
                  then I can expresse.<anchor n="ev8" type="event"/> I Render my uttmost Capacity<lb/>
       <add place="left margin">&amp;</add> Therefore <add place="above">doe</add> I most humbly, &amp; heartily acknowledg<lb/>
-                my bounden <gap reason="deleted" extent="1" unit="char"/> duty of thankes &amp; praise to the great<lb/>
+                my bounden <gap reason="deleted" quantity="1" unit="char"/> duty of thankes &amp; praise to the great<lb/>
                  God of Heaven, &amp; Earth, from whence comes ev<add place="above">e</add>ry<lb/>
                  good &amp; perfect guift, who is the Author, &amp; finisher<lb/>
                 of our faith, that he has put such good things into <rs ref="ppl:cw1 ppl:aow1" n="per37" type="person">my<lb/>
@@ -969,7 +970,7 @@
                  live to thy Glory, &amp; magnifie thy name to all gene-<lb break="no"/>
                  -rations. he bringing us with Joy to <rs ref="ppl:cw1" n="per55" type="person">my deare father</rs><lb/>
                  from the bottom of the waves where millions had perished<lb/>
-                 in <gap reason="deleted" extent="4" unit="char"/> those depths. Lord I beseech thee lett me,<lb/>
+                in <gap reason="deleted" quantity="4" unit="char"/> those depths. Lord I beseech thee lett me,<lb/>
             
 
             <pb n="20"/>
@@ -3503,7 +3504,7 @@
          <!-- NOTE event boys sent to school/york, maybe 2 sep events? --> 
                 Now while we lived at <placeName ref="place:Snap_047" n="place111">Snape</placeName> my brot<lb break="no"/>
                 
-                <note xml:id="mnote-0021" place="left margin" resp="awt1" rend="post(rule)">
+                <note xml:id="mnote-0021" place="left margin" resp="#awt1" rend="post(rule)">
                    <persName ref="ppl:jw1" n="per252">Bro. Jack</persName> to<lb/>
                    <placeName>B. Sco</placeName><lb/>
                    <date when-custom="1643-11-16">
@@ -3523,7 +3524,7 @@
             that not any thing was wanting. which might conduce to his<lb/>
 
                     <!-- NOTE [dates] I think *this* is when Christopher goes to York -->
-            <note xml:id="mnote-0022" place="left margin" resp="awt1">
+            <note xml:id="mnote-0022" place="left margin" resp="#awt1">
                 <date when-custom="1643-11-22/1643-11-23">Nov.<lb/>
                 22<lb/>
                 to Scoo<add place="above">le</add><lb/>
@@ -4202,7 +4203,7 @@
                  Lawfull King. Learning thereby more humility. &amp; to be<lb/>
                  contented in the subjection thou requirest. Sanctifie thy<lb/>
                  Dealings to me thy servant &amp; make us better for the Lord<lb/>
-                 Jesus Christs sake. <gap reason="erased" extent="4" unit="char"/><!-- Q for team? possibly this could be <supplied>Amen 
+                Jesus Christs sake. <gap reason="erased" quantity="4" unit="char"/><!-- Q for team? possibly this could be <supplied>Amen 
                      [endnote] Looks like something had been deleted after the full stop. Possibly an ‘Amen’.
                  -->
             </p>
@@ -5029,7 +5030,7 @@
                 <fw type="pageNum">116.</fw>
             
             <l>Dum, in admiration, at this dreadfull Crosse.</l>
-            <l>All Joyes in him , they hopp'd to <gap reason="deleted" extent="3" unit="char"/> find</l>
+            <l>All Joyes in him , they hopp'd to <gap reason="deleted" quantity="3" unit="char"/> find</l>
             <l>Who fraughted full. with Treasurrs (&amp; vertus) of the mind</l>
             <l>What though three daies-Submersion did Entomb</l>
             <l>All that was mortall of him, in the Wombe.</l>
@@ -5061,7 +5062,7 @@
                  <placeName ref="place:Ches_012" n="place192">Chester</placeName>, &amp; in all places; ever since <rs ref="ppl:cw1" n="per428" type="person">my Father</rs>s death; in<lb/>
                  all these sad times. in the opposition of freinds, the fall of the<lb/>
                  Church &amp; state. when her Joynture in <placeName ref="place:Engl_094" n="place193">England</placeName> beeing <add place="above">but</add> 300<hi rend="superscript">l</hi><lb/>
-                 per An<ex>num</ex> at best, fell <gap reason="deleted" extent="2" unit="char"/>
+                per An<ex>num</ex> at best, fell <gap reason="deleted" quantity="2" unit="char"/>
                 <add place="above">under</add> 50<hi rend="superscript">l</hi> a yeare <add place="above">&amp;</add> when the scotts devoured<lb/>
                  all her Patrimony, eating up her owne, &amp;, childrens Provissions,<lb/>
                  even then did our gracious Lord remember mercy in the midst<lb/>
@@ -7517,7 +7518,7 @@
                  out &amp; say with the sweete Psalmist of Israell, in the mid-<lb break="no"/>
                  st of her inexpressable paines &amp; torments. Why art<lb/>
                  thou soe full of heavinesse, oh my Soule, &amp; why art<lb/>
-                 thou so disquiett<add place="above">e</add>d <gap reason="deleted" extent="2" unit="char"/> within me: I will still hope in<lb/>
+                thou so disquiett<add place="above">e</add>d <gap reason="deleted" quantity="2" unit="char"/> within me: I will still hope in<lb/>
                  my God, &amp; putt my trust in the God of my salvation<lb/>
                  who is the helpe of my countenance and my God,</p>
             <p>She frequently repeated the 71 Psalme, which she said<lb/>
@@ -9115,7 +9116,7 @@
                  my time before this was finished. &amp; then it might fall out<lb/>
                  in the worst for the disadvantage of my Poore Children: have<lb/>
                 ing then but <rs ref="ppl:atc1 ppl:ktp1" n="per828" type="person">two Daughters</rs> liveing; Allso I found that the<lb/>
-                 severall ingagements for Debts of others, <gap reason="obliterated" extent="1.4" unit="line"/>
+                severall ingagements for Debts of others, <gap reason="obliterated" quantity="1.4" unit="line"/>
                 <!-- [endnote] This is more than the usual deletion – T has really attempted to obliterate these words. Nevertheless, some letters remain legible – check MS? -->
                 <lb/>
                  had taken away for theire sattisfaction, with other Charges<add place="above">in building the house</add><lb/>
@@ -9884,7 +9885,7 @@
                 <milestone n="ev170" unit="event"/>
                  with a greife that befell me at my returne home, about a Settle<lb/>
                  ment last made by <persName ref="ppl:rc2" n="per927">Colvill</persName> for my Childrens maintenance<lb/>
-                 &amp; Portions; which had bin undon <gap reason="deleted" extent="5" unit="char"/> with out my consent<lb/>
+                &amp; Portions; which had bin undon <gap reason="deleted" quantity="5" unit="char"/> with out my consent<lb/>
                  &amp; knowledge when <persName ref="ppl:wt1" n="per928">Mr Thornton</persName> was sicke at <placeName ref="place:Stea_052" n="place329">Steersby</placeName>,<lb/>
                  for the Chargeing of <persName ref="ppl:xr1" n="per929">Mr Raines</persName> &amp; <persName ref="ppl:tp1" n="per930">Mr Portington</persName> Debt of<lb/>
                  1400<hi rend="superscript">l</hi> by mortgage upon Laistrop. in soe doeing there was<lb/>
@@ -10736,7 +10737,7 @@
                  signation to his providence I endeavoured to submit<lb/>
                  patiently &amp; willingly to part with <rs ref="ppl:ct1" n="per1025" type="person">my sweete Childe</rs> to<lb/>
                  our deare &amp; loveing Father. who ses what was better<lb/>
-                 for me then I could. begging that his will might be <gap reason="deleted" extent="5" unit="char"/><lb/>
+                for me then I could. begging that his will might be <gap reason="deleted" quantity="5" unit="char"/><lb/>
                  mine either in life or death. / <date when-custom="1667-11-25">When</date> he was about<lb/>
                  14 daies old <rs ref="ppl:ct1" n="per1026" type="person">my pretty babe</rs> broake into red spots.<lb/>
                  like the smale Pox. And through Cold gotten by thin-<lb break="no"/>
@@ -10795,7 +10796,7 @@
                  subtilty for the dishonour of my poore despised Person<lb/>
                  sufficiently afflicted with out this addittion. yet were<lb/>
                  these but the begining of sorrowes to me up<add place="above">on</add> that account; <add place="above">endeavouring</add><lb/>
-                 to <gap reason="deleted" extent="2" unit="char"/> bare <add place="above">all</add> with abundance of Patience. which my God did<lb/>
+                to <gap reason="deleted" quantity="2" unit="char"/> bare <add place="above">all</add> with abundance of Patience. which my God did<lb/>
                  please to give me: <add place="above">in part</add> hopeing with all that when I mett with<lb/>
                  <persName ref="ppl:med1" n="per1031"><persName ref="ppl:td4" n="per1032">Tom. Danby</persName>s wife</persName>. I should prevaile for her restoration<lb/>
                  to her children; which she did object daily to me that she <lb/>
@@ -10891,7 +10892,7 @@
                  Covill</persName>s beeing destroyed. for either Portions or mainte<lb break="no"/>
                  nance. which went most sadly with me. but now by the great<lb/>
                  Paines &amp; industery of <persName ref="ppl:jd2" n="per1046">my Brother Denton</persName>. &amp; <persName ref="ppl:tc1" n="per1047">Mr Com<ex>ber</ex></persName><lb/>
-                who we did for my Childrens good imploy <gap reason="deleted" extent="1" unit="char"/>, as a <lb/>
+                who we did for my Childrens good imploy <gap reason="deleted" quantity="1" unit="char"/>, as a <lb/>
                  freind to them in Generall, as well <add place="above">as</add> in his Perticuler <lb/>
                  respest<note place="end">
                     <p rend="Endnote Text"> [word] SiC – i.e., respect.</p>
@@ -11486,7 +11487,7 @@
                  Be not a wittnesse against thy neighbour with out cause:<lb/>
                  &amp; deceive not with thy lips. Too sadly have I experienced<lb/>
                  this Pro. 25<seg rend="background(green)">:</seg> 18, 19. Confidence in an unfaithfull man in<lb/>
-                 time of trouble, is like a broken tooth &amp; a <del rend="strikethrough">S<gap reason="deleted" extent="2" unit="char"/>d</del> foot out<lb/>
+                time of trouble, is like a broken tooth &amp; a <del rend="strikethrough">S<gap reason="deleted" quantity="2" unit="char"/>d</del> foot out<lb/>
                  of joynt. A man that beareth fallse wittnesse against his<lb/>
                  Neighbour, is a maule, &amp; a sword, &amp; a sharpe Arrow.</p>
             <p>Yet such has bin my hard, miserable fortune to meete with all<lb/>
@@ -11849,7 +11850,7 @@
             <p>Yet he that is the Keeper of Israell, &amp; neither slumbers, nor<lb/>
                  sleepes. which saw the inward motions &amp; thoughts of my<lb/>
                  heart knew my life free from, &amp; innocent of any such<lb/>
-                evills; but on the contrary what sorrowes of <gap reason="deleted" extent="1" unit="char"/>
+                evills; but on the contrary what sorrowes of <gap reason="deleted" quantity="1" unit="char"/>
                 <hi style="font-family:Segoe UI Symbol">♡</hi> I sustaind<lb/>
                  many wayes for the good &amp; releife of <rs ref="ppl:wt1" n="per1212" type="person">my husband</rs> &amp; Children</p>
             <p>The establishment of his word &amp; gospell; with other honnest<lb/>
@@ -11914,7 +11915,7 @@
                 </note>
                 <lb/>
                  &amp; Excellent freinds: whom she strongly wooed him for.<lb/>
-                 Which was an undeniable argument that both <gap reason="deleted" extent="2" unit="char"/> our injurys<lb/>
+                Which was an undeniable argument that both <gap reason="deleted" quantity="2" unit="char"/> our injurys<lb/>
                  &amp; wrongs weare grounded upon some other grounds then<lb/>
                  truth. And will I hope at last produce a better effect <lb/>
             
@@ -11933,7 +11934,7 @@
                 </note> &amp; good<lb/>
                  Name thus injuriously blasted by her &amp; other instruments<lb/>
                  As allso the dishonour don to God, in the abusing <del rend="strikethrough">his</del> of his minister<lb/>
-                 Whoes Person she has soe justified &amp; admired; ever <del rend="strikethrough">s<gap reason="deleted" extent="2" unit="char"/></del><lb/>
+                Whoes Person she has soe justified &amp; admired; ever <del rend="strikethrough">s<gap reason="deleted" quantity="2" unit="char"/></del><lb/>
                  since she knew him: And recomended him but lately before<lb/>
                  for <rs ref="ppl:tbd-relative" n="per1223" type="person">her Cosen</rs> as a most vertuous Person.</p>
             <p>And full well she knew my caire for the disposall of <rs ref="ppl:atc1" n="per1224" type="person">my Childe</rs><lb/>
@@ -12521,7 +12522,7 @@
             
                 <fw type="pageNum">269.</fw> <lb/>
             
-            Rod &amp; who that sent it. Lett it be thy pleasure. since thou <gap reason="deleted" extent="2" unit="char"/><lb/>
+            Rod &amp; who that sent it. Lett it be thy pleasure. since thou <gap reason="deleted" quantity="2" unit="char"/><lb/>
                  still givest me life. that it may be for a blessing. giveing me<lb/>
                  understanding to serve thee with a perfect heart &amp; willing<lb/>
                  minde. to heare the Rod &amp; who hath sent itt. is there any Evill<lb/>
@@ -13601,7 +13602,7 @@
                 
             </head>
             <milestone n="ev217" unit="event"/>
-            <p>As <rs ref="ppl:aow1" n="per1307" type="person">my deare mother</rs> <gap reason="deleted" extent="2" unit="char"/> (<rs ref="ppl:cw1" n="per1308" type="person">my hon<ex>oured</ex> Father</rs>) <gap reason="deleted" extent="1" unit="char"/> my selfe &amp;<lb/>
+            <p>As <rs ref="ppl:aow1" n="per1307" type="person">my deare mother</rs> <gap reason="deleted" quantity="2" unit="char"/> (<rs ref="ppl:cw1" n="per1308" type="person">my hon<ex>oured</ex> Father</rs>) <gap reason="deleted" quantity="1" unit="char"/> my selfe &amp;<lb/>
                  brrothers, <persName ref="ppl:gw1" n="per1309">George</persName>, <persName ref="ppl:cw2" n="per1310">Christopher</persName>, &amp; <persName ref="ppl:jw1" n="per1311">John</persName>. was goeing in the<lb/>
                  Coach to see <placeName ref="place:Kild_091" n="place394">Kildare</placeName> after my father bought it there<lb/>
                  was a narrow place we were to passe by a River Sid.<lb/>
@@ -13860,7 +13861,7 @@
                 by the Clarke who had writ it out &amp; [thes]<!-- TODO [review] check ms - is [thes] for checking? --> was sececd<note place="end">
                     <p rend="Endnote Text"> [word] I.e., secured?</p>
                 </note> for severall<lb/>
-                yeare of the <seg rend="background(cyan)">s<gap reason="deleted" extent="2" unit="char"/>arre</seg> afftr <persName ref="ppl:gw1" n="per1336">my brother George</persName> died &amp; non knew<lb/>
+                yeare of the <seg rend="background(cyan)">s<gap reason="deleted" quantity="2" unit="char"/>arre</seg> afftr <persName ref="ppl:gw1" n="per1336">my brother George</persName> died &amp; non knew<lb/>
                  what became of it.</p>
             <p>Uppon which great facte &amp; troubles arose for the want of it<lb/>
                  by <persName ref="ppl:jl1" n="per1337">Sir John Lowths</persName> bad counsell to <persName ref="ppl:cw2" n="per1338">my brothr Ch. wand.</persName> who<lb/>
@@ -13919,7 +13920,7 @@
                  Tho she had duble Pay &amp; was at 01-6 a p<ex>ar</ex>t<note place="end">
                     <p rend="Endnote Text"> [word] Cf Anselment n235 – abrreviation for a part/a piece?</p>
                 </note> where<lb/>
-                othrs at <gap reason="deleted" extent="2" unit="char"/> 09. only in a month.</p>
+                othrs at <gap reason="deleted" quantity="2" unit="char"/> 09. only in a month.</p>
             <p> She kept of <rs type="person">the quarting Captane</rs> &amp; commanders<lb/>
                  &amp; would nevr yeald to have them.<anchor n="ev225" type="event"/> 
                 <milestone n="ev226" unit="event"/><!-- NOTE event awt innes -->Att length there<lb/>
@@ -14672,7 +14673,7 @@
             <l>Then begin thy Joys that Never End:</l>
             <l>But who <add place="above">can</add> speake the Sorrowes thatt 
                 <subst>
-                <del><gap reason="deleted" extent="3" unit="word"/></del>
+                    <del><gap reason="deleted" quantity="3" unit="word"/></del>
                 <!-- NOTE gap was transcribed xxxxxx x xxx-->
                 <del rend="doublestrikethrough"><add place="above">spread</add></del> 
                 <add place="below">oprest</add>
