@@ -469,11 +469,9 @@
     <!-- transcription: Page 8 -->
     
         <fw type="pageNum">8.</fw> <lb/>
-            <fw type="header" rend="post(rule)">A preservation in the Meassells.</fw><lb/>
+            <fw type="header" rend="post(rule)" corresp="#div-009">A preservation in the Meassells.</fw><lb/>
             <!-- Q [tagging] [layout] will need discussion. 
-                This header is almost certainly the title for the section div9 even though it's not inside that div 
-                - is there a way to link them? 
-                - or we could simply physically move it...
+                This header is almost certainly the title for the section div009 even though it's not inside that div - have linked to the div with corresp.
                 [endnote] NB. Despite the title at the top of the page, the details of the ‘preservation’ only begins part way down the page, which is where the ‘main body’ of the text proper begins.
         -->
         
@@ -487,7 +485,7 @@
              up in my soule, to an Eternity of Haleluias, of praise <lb/>
              &amp; thankesgiveings to the Blessed Trinitie forever.</p>
         
-        <p rend="centre">Amen. Amen.</p>                
+        <p rend="align(centre)">Amen. Amen.</p>                
         <!-- Q [review] team discussion - my reading agreed i think, but make final checks against transcription in autumn.
             esp. "Amen Amen" - it clearly belongs to this section but visually is right in the middle of the insertion, which is written around it. To make things even worse, this is <front> but the insertion is <body>... 
             and "1629" was in the middle of the word 'deliverance' next paragraph
@@ -503,7 +501,7 @@
               <p>Remember to putt the Relation of my delivrance from Death<lb/>
                 by a fall cutting <!-- NOTE [layout] "Amen Amen" is located here on original page --> my forehead at 3 yers old
               </p>
-            <fw rend="underline centre"><date type="accident" when-custom="1629">1629</date>
+            <fw rend="underline" place="centre"><date type="accident" when-custom="1629">1629</date>
             </fw>
             </note>
            <anchor n="ev2" type="event"/>
@@ -512,7 +510,8 @@
          <milestone n="ev3" unit="event"/>
             <p>
       <fw xml:id="mnote-0001" place="left margin">      
-          <metamark><g ref="#dagger">+</g></metamark> <!-- Q [tagging] [metamark]? a sort of cross/dagger symbol. I think it's a 'signe de renvoi' with matching symbol at the point referred to in the supplementary material. need to work out the tagging for this!
+          <metamark corresp="#div-008"><g ref="#dagger">+</g></metamark> <!-- Q [tagging] [metamark]? a sort of cross/dagger symbol. I think it's a 'signe de renvoi' with matching symbol at the point referred to in the supplementary material. need to work out the tagging for this!
+              also as it's in the margin next to the *next* div, linked to div 008 with corresp.
           -->
       </fw>
           <note place="end">
@@ -585,8 +584,9 @@
             
         <div xml:id="div-011">
             <head rend="post(rule)" place="right">
-                <hi rend="underline" style="text-align: left;">London</hi>
-                <hi rend="underline" style="text-align: center;"><date type="religion" when-custom="1631">1631</date>.</hi>
+                <seg rend="underline align(left)">London</seg>
+                <seg rend="underline align(centre)"><date type="religion" when-custom="1631">1631</date>.</seg>
+                <!-- Q [decoration] bearing in mind we might not use the alignment anyway... have added it to rend because @place isn't allowed in seg. -->
                 <lb/>
                 The first dawning of Gods Spirit in my heart.<!-- NOTE [tagging] [layout] this is right aligned -->
             </head>
@@ -1356,16 +1356,17 @@
                <!-- Q [event] superEvent? CW death -->
                <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
                <!-- NOTE [margin] [decoration] double horizontal lines above the margin header  -->
-                <note xml:id="mnote-0003" resp="#awt1" place="left margin" rend="pre(rule_double)">
-                    Acc<hi rend="superscript">.t</hi> of<lb/>
-                     the Lord<lb/>
-                     Deputy<lb/>
-                     Death</note> 
-                <milestone n="ev18" unit="event" ana="#subEvent" type="illness"/><!-- NOTE event cw fell ill -->
-                It pleased <add place="above">God</add> to vissite <rs ref="ppl:cw1" n="per88" type="person">my deare father</rs>, with a<lb/>
-                         feaver, <date when-custom="1640-11">at the latter end of November</date>. which kept him<lb/>
-                         about a weeke or 10, daies in the house. but finding<lb/>
-                         him selfe some what better. went to Church, beeing<lb/>
+        <note xml:id="mnote-0003" resp="#awt1" place="left margin" rend="pre(rule_double)">
+            Acc<hi rend="superscript">.t</hi> of<lb/>
+             the Lord<lb/>
+             Deputy<lb/>
+             Death
+        </note> 
+            <milestone n="ev18" unit="event" ana="#subEvent" type="illness"/><!-- NOTE event cw fell ill -->
+             It pleased <add place="above">God</add> to vissite <rs ref="ppl:cw1" n="per88" type="person">my deare father</rs>, with a<lb/>
+             feaver, <date when-custom="1640-11">at the latter end of November</date>. which kept him<lb/>
+             about a weeke or 10, daies in the house. but finding<lb/>
+             him selfe some what better. went to Church, beeing<lb/>
             
 
             <pb n="31"/>
@@ -2196,7 +2197,7 @@
                  the Blessed &amp; glorrious Trinity with delight, &amp; joy for<lb/>
                  ever. And these most humble Pettions I crave for the<lb/>
                  Lord Jesus Christs sake my deare Saviour.</p>
-            <p style="text-align: center;">Amen. Amen.</p>
+            <p rend="align(centre)">Amen. Amen.</p>
 
 </div>
             <pb n="54"/>
@@ -4969,11 +4970,10 @@
             Our wants &amp; infirmities therefore in his name &amp; word<lb/>
                  I humbly conclude these prayers as he has taught me<lb/>
                  in his holy Gospell to call upon thee Saing:</p>
-            <p style="text-align: center;">Our father which art in Heaven.
+            <p rend="align(centre) size(larger)">Our father which art in Heaven.
                 <lb/>
-                 Amen. Soe be it:<note place="end">
-                    <p rend="Endnote Text"> [text size] ‘Our father ...’in larger script.</p>
-                </note>
+                 Amen. Soe be it:
+                    <!-- [endnote] [text size] ‘Our father ...’in larger script.--> 
             </p>
             </div>
         <div xml:id="div-041" type="poetry">
@@ -5826,7 +5826,7 @@
                  thy Sonn, to whome with the holy Spirritt. one God in <lb/>
                  Trinity be all glory, Power, thanksgiveing and domi<lb/>
                 nion now &amp; for ever more Amen. <!-- Q [teams] [symbol] there are 3 dots here - could be meaningful. similar to unicode 2056 ⁖ THREE DOT PUNCTUATION --><add place="inline" rend="darkerInk">caling uppon thee in our<lb/>
-                 Lord &amp; saviours Prayer that he taught us saing: <hi style="font-size:16pt">Our father</hi></add>
+                 Lord &amp; saviours Prayer that he taught us saing: <hi rend="size(larger)">Our father</hi></add>
                 <!-- [endnote] [insertion][text size] Insertion in a darker ink to the main body of the text. Squeesed into the space between ‘Amen’ and the dividing line. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering.-->
             </p>
             </div>
@@ -6007,7 +6007,7 @@
             <p>And all these things I humblie crave with whatsoever<lb/>
                  ellse thou knowest fitt for me &amp; mine I humblie crave<lb/>
                  in the name &amp; for the sake of our Lord &amp; Saviour Jesus<lb/>
-                 Christ. Amen. <add place="inline" rend="darkerInk">saing as he hath bid me. <hi style="font-size:16pt">Our Father</hi></add>
+                Christ. Amen. <add place="inline" rend="darkerInk">saing as he hath bid me. <hi  rend="size(larger)">Our Father</hi></add>
                     <!-- [endnote] [insertion][text size] Insertion (possibly) in a darker ink to the main body of the text. Squeesed into the space. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering. -->
                 
             </p>
@@ -14558,7 +14558,7 @@
            <lb/>
              on Easter Eve</date> - before <persName ref="ppl:gw1" n="per1394">my bro. G</persName> was lost<lb/>
            <!-- NOTE [decoration] year inset into ruled line and centred. *just* below 'on Easter Eve...' line. -->
-            <seg rend="centre">1651</seg>
+            <seg rend="align(centre)">1651</seg>
             </head>
             <p>
                 <milestone n="ev233" unit="event"/>
