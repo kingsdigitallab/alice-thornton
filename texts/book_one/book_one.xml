@@ -279,7 +279,7 @@
             <!-- TODO [authors] 
                 (anselment fn1) 
                 Joseph Hall (wdQ4499080)
-                _Holy observations..._ (but probably not the right edition - check with ST)
+                _Holy observations..._ (but probably not the right edition - ST ident the right one, check.)
                 http://name.umdl.umich.edu/A02545.0001.001
                 _Meditations and vowes, divine and morall_  
                 http://name.umdl.umich.edu/A02553.0001.001
@@ -306,7 +306,9 @@
         <pb n="2"/>
 
 <!-- transcription: Page 2 -->
+          
         <!-- Q [teams] [decoration] unusual: page has ruled border top/bottom/left -->
+          
         <fw type="pageNum"> 2. </fw>
 
     <div xml:id="div-003" type="prayer">
@@ -527,7 +529,7 @@
     <body>
         <div xml:id="div-008" type="insertion">
            <milestone n="ev2" unit="event"/>
-            <note place="inline" resp="#awt">
+            <note place="inline" resp="#awt1">
               <p>Remember to putt the Relation of my delivrance from Death<lb/>
                 by a fall cutting <!-- NOTE [layout] "Amen Amen" is located here on original page --> my forehead at 3 yers old
               </p>
@@ -540,13 +542,15 @@
          <milestone n="ev3" unit="event"/>
             <p>
       <fw xml:id="mnote-0001" place="left margin">      
-          <metamark corresp="#div-008"><g ref="#dagger">+</g></metamark> <!-- Q [tagging] [metamark]? a sort of cross/dagger symbol. I think it's a 'signe de renvoi' with matching symbol at the point referred to in the supplementary material. need to work out the tagging for this!
-              also as it's in the margin next to the *next* div, linked to div 008 with corresp.
+          <metamark xml:id="mm-002" corresp="#mm-001"><g corresp="#div-008" ref="#fancydagger">[+]</g></metamark> <!-- Q [tei] this will need checking 
+        a sort of dagger (?) symbol, but with curly extras. (haven't been able to find an exact match in unicode)
+        it appears to be a 'signe de renvoi' with matching symbol at the point referred to in the supplementary material (p.286awt).
+        also as it's in the margin next to the *next* div, <g> is linked to div 008 using @corresp. 
+        cf metamark @corresp links the two symbols. does that even make sense?
           -->
+          <!-- [endnote] A Cross in the left hand margin – looks like AT’s.-->
       </fw>
-          <note place="end">
-              <p> A Cross in the left hand margin – looks like AT’s.</p>
-          </note>
+          
                 The first deliverance of that kinde was in the yeare <lb/>
                  <date type="illness" when-custom="1630">1630</date>. When I was left at <placeName ref="place:Rich_043" n="place4">Richmond</placeName> under the<lb/>
                  caire, &amp; deare, love of my beloved, <persName ref="ppl:awn1" n="per8">Aunt Norton</persName>.<lb/>
@@ -1685,7 +1689,7 @@
                     <!-- TODO [review] "2d" in image -->
                 </fw>
               <note place="end">
-              <p rend="Endnote Text">[bib] <seg rend="background(magenta)">Note because a different kind of biblical citation. NB. Issue of standardisation of biblical citations, and editorial practice/annotation.</seg></p>
+              <p rend="Endnote Text">[bib] Note because a different kind of biblical citation. NB. Issue of standardisation of biblical citations, and editorial practice/annotation.</p>
                </note>
                     The righteous perisheth &amp; no man laieth it to<lb/>
                     heart; &amp; the mercifull men are taken away, none<lb/>
@@ -4314,9 +4318,7 @@
                  his hand against the Lords Annoynted, that could be freed<lb/>
                  Eitther from plundering, sequestration &amp; imprisonment<lb/>
                  Robed, or murdered, by secrett, or open hostilitie.<lb/>
-                 if any gave information agai<ex>n</ex>st<note place="end">
-                    <p rend="Endnote Text"> [contraction] Line over ‘is’ suggests contraction.</p>
-                </note> them. As for <rs ref="ppl:gw1" n="per349" type="person">my brother</rs>s<lb/>
+                 if any gave information agai<ex>n</ex>st them. As for <rs ref="ppl:gw1" n="per349" type="person">my brother</rs>s<lb/>
                  crime, it was for disposseing of the Parsonage of <placeName ref="place:Kirk_030" n="place161">Kirkling<lb/>
                  ton</placeName> in his owne right as heire, &amp; of <rs ref="ppl:aow1" n="per350" type="person">my Mother</rs> as a Gaurd<lb break="no"/>
                  -ian to him yet under Age beeing but 19 yeares old, unto<lb/>
@@ -5009,9 +5011,9 @@
         <div xml:id="div-041" type="poetry">
             <head place="centre" rend="pre(rule) post(rule)">
             
-                An Eligie upon <persName ref="ppl:gw1" n="per423" type="person">George Wandesford Esq<ex>uire</ex></persName><lb/>
+                An Eligie upon <persName ref="ppl:gw1" n="per423">George Wandesford Esq<ex>uire</ex></persName><lb/>
                  on his unfortunate Death. by the Hon<ex>ourable</ex><lb/>
-                 <persName ref="ppl:cw3" n="per424" type="person">Sir Christopher Wyvill</persName> Barronett.<lb/>
+                 <persName ref="ppl:cw3" n="per424">Sir Christopher Wyvill</persName> Barronett.<lb/>
             <!-- Q [authors] Wyvill - published/ms anywhere else for <ref> ? -->
             </head>  
             <!-- NOTE second <head> i thought i couldn't do this... ! -->
@@ -5855,7 +5857,7 @@
                  heartily begge in the name, &amp; for the sake of Jesus that <lb/>
                  thy Sonn, to whome with the holy Spirritt. one God in <lb/>
                  Trinity be all glory, Power, thanksgiveing and domi<lb/>
-                nion now &amp; for ever more Amen. <!-- Q [teams] [symbol] there are 3 dots here - could be meaningful. similar to unicode 2056 ⁖ THREE DOT PUNCTUATION --><add place="inline" rend="darkerInk">caling uppon thee in our<lb/>
+                nion now &amp; for ever more Amen. <!-- Q [teams] [symbol] there are 3 dots here - could be meaningful. similar to unicode 2056 ⁖ THREE DOT PUNCTUATION --><add place="inline" rend="differentInk">caling uppon thee in our<lb/>
                  Lord &amp; saviours Prayer that he taught us saing: <seg rend="size(larger)">Our father</seg></add>
                 <!-- [endnote] [insertion][text size] Insertion in a darker ink to the main body of the text. Squeesed into the space between ‘Amen’ and the dividing line. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering.-->
             </p>
@@ -6037,7 +6039,7 @@
             <p>And all these things I humblie crave with whatsoever<lb/>
                  ellse thou knowest fitt for me &amp; mine I humblie crave<lb/>
                  in the name &amp; for the sake of our Lord &amp; Saviour Jesus<lb/>
-                Christ. Amen. <add place="inline" rend="darkerInk">saing as he hath bid me. <seg  rend="size(larger)">Our Father</seg></add>
+                Christ. Amen. <add place="inline" rend="differentInk">saing as he hath bid me. <seg  rend="size(larger)">Our Father</seg></add>
                     <!-- [endnote] [insertion][text size] Insertion (possibly) in a darker ink to the main body of the text. Squeesed into the space. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering. -->
                 
             </p>
@@ -9498,7 +9500,7 @@
             
         <div xml:id="div-090">
             <head rend="post(rule)">
-                <persName ref="ppl:wt1" n="per864" type="person">Mr Thornton</persName>s Preservation from drowning: <date type="accident" when-custom="1664-10">Oct. 1664</date></head>
+                <persName ref="ppl:wt1" n="per864">Mr Thornton</persName>s Preservation from drowning: <date type="accident" when-custom="1664-10">Oct. 1664</date></head>
            <milestone n="ev152" unit="event"/> 
             <p>After <persName ref="ppl:rt2" n="per865">Robin</persName> was 2 yeares old. <persName ref="ppl:wt1" n="per866">Mr Thornton</persName> went to<lb/>
                  <placeName ref="place:Lond_080" n="place317">London</placeName> about wittness for <persName ref="ppl:cw2" n="per867">Sir Christopher wandesford</persName>s<lb/>
@@ -11038,7 +11040,7 @@
                  in there designes &amp; <persName ref="ppl:acd1" n="per1071">Mrs Danby</persName>s underming me in secrett<lb/>
                  brought <persName ref="ppl:mb2" n="per1072">Mrs Batte</persName> <date when-custom="1668-07-18">late at night</date> to my house at <placeName>newton</placeName><lb/>
                  under pretence of providing butter for<persName ref="ppl:acd1" n="per1073"> Mrs Danby</persName> at the<lb/>
-                 service att hooly to waite on <persName ref="ppl:aws1" n="per1074" type="person">that mad Countesse of Sussex</persName><lb/>
+                 service att hooly to waite on <persName ref="ppl:aws1" n="per1074">that mad Countesse of Sussex</persName><lb/>
                  <persName ref="ppl:mb2" n="per1075">Mrs Batt</persName> tould me. she came to fech <persName ref="ppl:acd1" n="per1076">her cosen danby</persName> a <lb/>
                  away. &amp; that she would have her from me. I upon this first<lb/>
                  salutation beeing surpreised with her discourse as well as her<lb/>
@@ -12580,7 +12582,7 @@
                  bed, for my selfe &amp; Children. And yet my thinke I heare<lb/>
                  him say as our Saviour to the women that wept affter him.<lb/>
                  weepe not for me me<note place="end">
-                    <p rend="Endnote Text"> [word] Reptition of me in MS.</p>
+                    <p rend="Endnote Text"> [sic] Reptition of me in MS.</p>
                 </note> (that am now in Joy &amp; blesse) but weepe for<lb/>
                  your selfe &amp; little ones. I was in the world tormented with <lb/>
                  paines. Crosses. losses sicknesse troubles on every side. But<lb/>
@@ -13160,11 +13162,11 @@
                  weake praires &amp; praises in that Perfect forme of Prair<lb/>
                  which the grand Bishop of our Soules taught us in his holy<lb/>
                  Gospell to pray unto thee in Saing</p>
-            <p>Our father which art in Heaven:<lb/>
+            <p><seg rend="size(larger)">Our father</seg> which art in Heaven:<lb/>
                  &amp;c. Amen. Haleluia.<lb/>
-                 Amen. // .<note place="end">
-                    <p rend="Endnote Text"> [text size] NB. ‘Our father …’ in larger lettering than the main body of the text again.</p>
-                </note>
+                 Amen. // .
+                    <!-- [endnote] [text size] NB. ‘Our father …’ in larger lettering than the main body of the text again.-->
+                
             </p>
        </div>
        <div xml:id="div-125" type="poetry">
@@ -13184,7 +13186,7 @@
                
             <p> The Just shall live by faith. //</p>
             <p><persName ref="ppl:wt1" n="per1299">Mr Thornton</persName>s motto &amp; my owne.</p>
-           <!-- Q [tagging] [curlybraces] [xmlconversion] ugh and i think i would group these differently from transcription... -->
+           <!-- Q [tei] [curlybraces] [xmlconversion] ugh and i think i would group these differently from transcription... -->
             <p>Nisi Christus Nemo:]
                 None but Christ.}
                     <note place="end">
@@ -13195,7 +13197,7 @@
                 <note place="end">
                     <p rend="Endnote Text"> [layout] NB. Here, AT clearly uses curly brackets to connect the two phrases and ‘God’ is positioned midway between the two.</p>
                 </note> 
-            <p>Annagrame.</p><!-- Q what is the anagram here...? -->
+            <p>Annagrame.</p><!-- Q what exactly is supposed to be the anagram here...? -->
            </div>
         <div xml:id="div-127" type="poetry" rend="pre(rule)">
                
@@ -13480,21 +13482,23 @@
          Although the first line is written inside the <head> above, this text is clearly referring to the next section. 
          treat it as a single <note>. and put both insertions inside the next div, not the first one.
         EXCEPT I think the word "At" between "placed" and "in" should actually prefix "Kirklington 1629". -->
-      <note place="inline" resp="#awt">
+      <note xml:id="inote-001" place="inline" resp="#awt1">
          this must be placed In the first Place Page 8<hi rend="superscript">th</hi> before the<lb/>
          The mesels in <date when-custom="1629">1629</date>     
         </note> 
         <head rend="pre(rule) post(rule)">
-       <add place="inline"><!-- Q why have i used <add> here? -->
+       <add place="inline">
           At <placeName ref="place:Kirk_030" n="place390">Kirklington</placeName> <date when-custom="1629">1629</date> /
        </add><lb/>
-            <metamark><g ref="#dagger">+</g></metamark><!-- Q [glyph] [metamark]? this matches the margin symbol on p.8 - looks like it is intended to link them together. so they should both be <metamark>??? look up scribal stuff! -->   
-            <!-- TODO link this to the section at the beginning. need div ids first... -->
+            <metamark xml:id="mm-001" corresp="#mm-002"><g ref="#fancydagger">[+]</g></metamark>
+      <!-- Q [tei] this will need checking
+            matches the marginal symbol on p.8 - looks like it is intended to link them together. look up scribal stuff!   
+        ... looks like i forgot to include inline notes when adding xml:id doh.-->
         Uppon my deliverance from death by a fall.<lb/>
         <!-- [endnote] There is an unusual mark to the left of the title. -->
         when I was 3 years old. // 
-        <note place="inline" resp="#awt" rend="post(rule)">when I cutt a great wound in my forehead of above an Inch long
-        <!-- [endnote] This insertion looks to be added after the main body of the text. -->
+        <note xml:id="inote-002" place="inline" resp="#awt1" rend="post(rule)">when I cutt a great wound in my forehead of above an Inch long
+        <!-- [endnote] This insertion looks to be added after the main body of the text.  -->
        </note>
         </head>  
       <!-- Q [tagging] [layout] another insertion, below the title border (with a post(rule) of its own -->   
@@ -13856,7 +13860,7 @@
                  of which he was descended<anchor n="ev220" type="event"/> &amp; was <milestone n="ev221" unit="event"/><rs ref="ppl:cw2" n="per1331" type="person">my beloved brother</rs><lb/>
                  liveing to the Age of 61 yeares &amp; died at <placeName ref="place:Lond_080" n="place399">London</placeName><lb/>
                  <date type="death" when-custom="1686-02-23" datingMethod="#JulianMar">feb. 23<hi rend="superscript">d</hi> 1686</date><!-- NOTE [dates] OS (Anselment ref parish register, fn210) -->.<note place="end">
-                    <p rend="Endnote Text"> NB. Implications for date of writing.</p>
+                    <p rend="Endnote Text"> [context] NB. Implications for date of writing.</p>
                 </note> buried at <placeName ref="place:Kirk_030" n="place400">Kirklington</placeName> by his Antien<lb/>
                  ters<anchor n="ev221" type="event"/></p>
             </div>
@@ -14305,7 +14309,7 @@
             <item>A Praier made by my father for the Communion. <ref>54</ref>
             </item>
             <item>My Mothers preserv. &amp; my owne from the ]<lb/>
-            Rebellion in Ireland: Octb. 23 1641.<!-- TODO [index] [curlybraces] grouping lines of a single item --><note place="end">
+            Rebellion in Ireland: Octb. 23 1641.<!-- Q [index] [curlybraces] grouping lines of a single item --><note place="end">
                     <p rend="Endnote Text"> [layout] NB. Two lines bracjketed together to link to the same page reference: several more like this below.</p>
                 </note>
                 <ref>62</ref>

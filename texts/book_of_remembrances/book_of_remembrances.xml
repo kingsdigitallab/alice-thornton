@@ -66,11 +66,12 @@
                  <!-- teiHeader msDesc <handDesc> (description of hands) contains a description of all the different hands used in a manuscript or other object. -->
                  <handNote xml:id="awt" scribeRef="ppl:awt1">
                    <!-- Q [tei] check this is correct use of scribeRef???
-                   not sure about this if awt is the assumed default and only #unknown (maybe #uncertain) is likely to be specified as a @hand??? -->
+                   not sure about this if awt is the assumed default and only #unknown (maybe #uncertain) is likely to be specified as a @hand??? 
+                   and (check with ST) possibly any #unknown should be omitted anyway... -->
                    Alice Thornton's hand.
                  </handNote>
                  <handNote xml:id="unknown">
-                   ...
+                   not Alice's hand.
                  </handNote>
                </handDesc>
                
@@ -331,7 +332,7 @@
           of my selfe, <rs ref="ppl:wt1" type="person">Husband</rs> &amp; Children<lb/>
           with theire births, &amp; other remarks<lb/>
           as conserning my selfe &amp; Family<lb/>
-          begining from the yeare. <date datingMethod="#JulianMar" when-custom="1625">162<add rend="darkerInk" place="superimposed">5</add></date><!-- NOTE [dates] OS -->.
+          begining from the yeare. <date datingMethod="#JulianMar" when-custom="1625">162<add rend="differentInk" place="superimposed">5</add></date><!-- NOTE [dates] OS -->.
          </titlePart>
          </docTitle>
          <docAuthor>  
@@ -1102,8 +1103,8 @@
 
 <!-- transcription: Page 23 -->
          <fw>
-           <fw type="header" rend="darkerInk"><date when-custom="1647/1649">1647. 48: 49.</date> </fw>
-           <fw type="pageNum" rend="darkerInk">23.</fw>
+           <fw type="header" rend="differentInk"><date when-custom="1647/1649">1647. 48: 49.</date> </fw>
+           <fw type="pageNum" rend="differentInk">23.</fw>
            
            <!-- msDescription [endnote] Dates and page number looks to be in a darker ink than what’s written on the page. Also this particular page is far ‘neater’ than the previous – lots more space between sentences and entries.-->
          </fw>
@@ -1313,7 +1314,7 @@
                   
         <persName ref="ppl:edg1" n="per81">my Mother Gates</persName> died at <lb/>
         <placeName ref="place:Oswa_041" n="place43">Oswoldekirke</placeName> of the voydance of<lb/>
-        blood the <date when-custom="1655-05-10"><seg rend="darkerInk">10<hi rend="superscript">th</hi></seg> day of may. 1655</date>.<lb/>
+        blood the <date when-custom="1655-05-10"><seg rend="differentInk">10<hi rend="superscript">th</hi></seg> day of may. 1655</date>.<lb/>
       &amp; was buried at <placeName ref="place:Ston_053" n="place119">Stanegr<unclear reason="damage">av</unclear>e</placeName>
         <!-- msDescription? [endnote] Here there is a hole from the correction on p.25.-->
          <lb/>
@@ -1326,8 +1327,8 @@
          <p>
          <milestone n="ev37" unit="event"/>
            <persName ref="ppl:gg1" n="per82">my father Gates</persName> died at <placeName ref="place:Hull_027" n="place44">Hull</placeName><lb/>
-          the <date when-custom="1655-05-18"><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may 1655</date>. and was<lb/>
-           buried at <placeName ref="place:Hull_027" n="place120">hull</placeName> the <date when-custom="1655-05-18"><seg rend="darkerInk">18<hi rend="superscript">th</hi></seg> of may<lb/>
+          the <date when-custom="1655-05-18"><seg rend="differentInk">18<hi rend="superscript">th</hi></seg> of may 1655</date>. and was<lb/>
+           buried at <placeName ref="place:Hull_027" n="place120">hull</placeName> the <date when-custom="1655-05-18"><seg rend="differentInk">18<hi rend="superscript">th</hi></seg> of may<lb/>
           1655</date><!-- NOTE / div rend -->
            <!-- [endnote] Diagonal line below second 5 and punctuation. -->
          <anchor n="ev37" type="event"/>
@@ -1339,16 +1340,16 @@
        <!-- NOTE year 1656 -->
       <div xml:id="div-038">
          <fw>
-            <fw type="header" rend="darkerInk"><date when-custom="1656">1656</date></fw>
-            <fw type="pageNum" rend="darkerInk">27.</fw>
+            <fw type="header" rend="differentInk"><date when-custom="1656">1656</date></fw>
+            <fw type="pageNum" rend="differentInk">27.</fw>
          </fw>
          <p>
         <milestone n="ev38" unit="event"/>
            <persName ref="ppl:rt1" n="per83">My brother. Richard Thornton</persName><lb/>
-           died in <placeName ref="place:Dubl_088" n="place45">Dublin</placeName>, in <placeName ref="place:Irel_096" n="place46">Ireland</placeName> of the <unclear reason="overwritten" rend="darkerInk" cert="high">flux</unclear>
+           died in <placeName ref="place:Dubl_088" n="place45">Dublin</placeName>, in <placeName ref="place:Irel_096" n="place46">Ireland</placeName> of the <unclear reason="overwritten" rend="differentInk" cert="high">flux</unclear>
               <!-- msDescription [endnote] A bit unclear as in darker ink; overwritten?-->
             <lb/>
-          country desease the <date when-custom="1656-07-03"><seg rend="darkerInk">3<hi rend="superscript">d</hi></seg>
+          country desease the <date when-custom="1656-07-03"><seg rend="differentInk">3<hi rend="superscript">d</hi></seg>
             of Ju<subst><del rend="overwritten" cert="low">xe</del><add place="superimposed">ly</add></subst> 
            <!-- [endnote] Looks like written over xe so June before?-->
             <lb/>
@@ -1391,8 +1392,8 @@
 
 <!-- transcription: Page 28 -->
       <fw>
-        <fw type="pageNum" rend="darkerInk">28.</fw>
-        <fw type="header" rend="darkerInk"><date when-custom="1657">1657.</date></fw>
+        <fw type="pageNum" rend="differentInk">28.</fw>
+        <fw type="header" rend="differentInk"><date when-custom="1657">1657.</date></fw>
        </fw>
            <lb/>
           6 months &amp;. 21 days. was<lb/>
@@ -1413,7 +1414,7 @@
           Threshold in the hall at <placeName ref="place:Hips_022" n="place50">Hipswell</placeName><lb/>
           beeing great with Childe of <rs ref="ppl:xt2" n="per91" type="person">my<lb/>
           fifth Childe</rs> wanting but<lb/>
-           <seg rend="darkerInk">tenn weeks</seg>. before of my time<lb/>
+           <seg rend="differentInk">tenn weeks</seg>. before of my time<lb/>
           the <date when-custom="1657-09-14">14<hi rend="superscript">th</hi> of September: 
            <seg rend="underline">1657</seg></date><lb/> 
           which cast me into an ill fitt<lb/>
@@ -1462,7 +1463,7 @@
           was buried in <placeName ref="place:Catt_010" n="place51">Cattericke Church</placeName><lb/>
           <date type="burial" when-custom="1657-12-10">the same day</date> by <persName ref="ppl:ms1" n="per94">Mr Siddall</persName>:<lb/>
           he was Turned wrong in my wombe<lb/>
-           by the fall I had in <date type="accident" when-custom="1657-09">Sept:</date> <seg rend="darkerInk" cert="low">before</seg>
+           by the fall I had in <date type="accident" when-custom="1657-09">Sept:</date> <seg rend="differentInk" cert="low">before</seg>
         <anchor n="ev42" type="event"/>
          </p>
 
@@ -1528,7 +1529,7 @@
          <p>It pleased God to vissit <persName ref="ppl:aow1" n="per95">my <lb/>
           deare &amp; hon:<hi rend="superscript">red</hi> Mother the Lady<lb/>
           Wandesford</persName> with her last sickenesse<lb/>
-          upon <date when-custom="1659-11-17"><add place="above"><seg rend="darkerInk">Friday</seg></add> the <seg rend="darkerInk">17<hi rend="superscript">th</hi></seg>
+          upon <date when-custom="1659-11-17"><add place="above"><seg rend="differentInk">Friday</seg></add> the <seg rend="differentInk">17<hi rend="superscript">th</hi></seg>
           of november <seg rend="underline">1659</seg></date> beging<lb/>
           then 18<hi rend="superscript">th</hi> an execeeding great Cough<lb/>
           tormenting her bodie by stitches in<lb/>
@@ -1802,7 +1803,7 @@
            <fw type="pageNum" rend="underline">
                39.
             </fw>
-            <fw type="header" rend="darkerInk"><date when-custom="1660">1660</date>
+            <fw type="header" rend="differentInk"><date when-custom="1660">1660</date>
               <!-- msDescription [endnote] Squeezed in later – in darker ink?-->
             </fw>
          </fw>
@@ -1813,7 +1814,7 @@
            <!-- NOTE moved fw=pageNum -->
           to contineue me in the Land of the <lb/>
             liveing, And to bring forth <rs ref="ppl:wt2" n="per121" type="person">my 6<hi rend="superscript">th</hi><lb/> 
-           Child</rs> at <placeName ref="place:StNi_050" n="place55">St Nickolas</placeName> upon the <seg rend="darkerInk">12<hi rend="superscript">th</hi></seg>.
+           Child</rs> at <placeName ref="place:StNi_050" n="place55">St Nickolas</placeName> upon the <seg rend="differentInk">12<hi rend="superscript">th</hi></seg>.
             <lb/>
             <fw xml:id="mnote-0009" rend="underline" place="left margin">1660.</fw>   
             of Aprill &amp; affter hard Labour<lb/>
@@ -1923,7 +1924,7 @@
           by <persName ref="ppl:jk1" n="per130">Mr<gap reason="deleted" quantity="1" unit="char"/> <!-- [endnote] Superscript letter blotted out after the r?--> 
           Kirton</persName> who preached of<lb/>
           <date when-custom="1660-04-29">Sunday</date>:
-          <space unit="lines" quantity="3"/>
+          <space unit="line" quantity="3"/>
            <!-- [endnote] Unusually there is some space at the foot of this page – room for approximately 2-3 lines if follows spacing on the rest of that page.
             space - "indicates an area where one might expect text that, in the judgment of the modern reader/editor was deliberately left blank in the original"
             <space quantity="1" unit="chars"/>
@@ -1942,7 +1943,7 @@
          <l>Tax not thy God thy owne defalts</l>
          <l>did urge.</l>
          <l>This two fould punishement .the</l>
-   <l>mille. the <add place="superimposed" rend="darkerInk">Scourge</add>
+   <l>mille. the <add place="superimposed" rend="differentInk">Scourge</add>
          </l>
          <l>Thy Sinnes the author of thy selfe.</l>
          <l>tormenting.</l>
@@ -2544,8 +2545,8 @@
 <!-- transcription: Page 60 -->
 
          <fw>
-           <fw type="pageNum"><seg rend="darkerInk">60.</seg></fw>
-            <fw type="header" rend="underline darkerInk"><date>1662</date>.</fw>
+           <fw type="pageNum"><seg rend="differentInk">60.</seg></fw>
+            <fw type="header" rend="underline differentInk"><date>1662</date>.</fw>
          </fw>
          <p>This allso migt be imputed to the<lb/>
           goodnesse of God. who would not<lb/>
@@ -2569,7 +2570,7 @@
 
 <!-- transcription: Page 61 -->
 
-          <fw type="pageNum" rend="darkerInk">61.</fw>
+          <fw type="pageNum" rend="differentInk">61.</fw>
            <lb/>
           unworthy walking before him all<lb/>
            <!-- NOTE moved fw -->
@@ -2693,7 +2694,7 @@
 <!-- transcription: Page 65 -->
 
          <!-- msDescription [endnote] Top of page trimmed.-->
-          <fw type="pageNum" rend="darkerInk">65.
+          <fw type="pageNum" rend="differentInk">65.
              <!-- Q [teams] [formatting] ? 
                [endnote] Almost circular mark around page number which looks to be in a darker ink that that on the page.-->
           </fw>
@@ -2723,7 +2724,7 @@
 
 <!-- transcription: Page 66 -->
 
-         <fw type="pageNum" rend="darkerInk">66.</fw>
+         <fw type="pageNum" rend="differentInk">66.</fw>
          <lb/>
           these he gives me strength, &amp; assista-<lb break="no"/>
           -nce to goe through. therefore will I<lb/>
@@ -2743,7 +2744,7 @@
           against my selfe &amp; poore children<lb/>
           whose Portion &amp; inheritance I trust<lb/>
           the Lord will be forever. 
-          <seg type="insertion" rend="italic darkerInk">Remem<hi rend="superscript">br</hi><!-- TODO books x-ref --><lb/>
+          <seg type="insertion" rend="italic differentInk">Remem<hi rend="superscript">br</hi><!-- TODO books x-ref --><lb/>
           my Dreame of <persName ref="ppl:rn1" n="per170">Nettleten</persName>s Baylie this morning before<lb/>
           they came. &amp; my fall downe the staires when <persName ref="ppl:cd1" n="per171">Celia<lb/>
           Danby</persName> fell &amp; I helped hir when <persName ref="ppl:rc2" n="per172">Co. Covill</persName> was heere.</seg>
@@ -2754,7 +2755,7 @@
 
 <!-- transcription: Page 67 -->
 <div xml:id="div-051">
-     <fw type="pageNum" rend="darkerInk">67.</fw><lb/>
+     <fw type="pageNum" rend="differentInk">67.</fw><lb/>
     <milestone n="ev54" unit="event"/>
          <p>After this, drawing <date when-custom="1662-08">neare a month</date><lb/>
            <!-- NOTE moved fw -->
@@ -2782,7 +2783,7 @@
 
 <!-- transcription: Page 68 -->
 
-         <fw type="pageNum" rend="darkerInk">68</fw><lb/>
+         <fw type="pageNum" rend="differentInk">68</fw><lb/>
           in the whole course of my life, &amp;<lb/>
           of thankfullnesse to God for the daly<lb/>
           renuall of the same.</p>
@@ -2807,7 +2808,7 @@
 
 <!-- transcription: Page 69 -->
 
-           <fw type="pageNum" rend="darkerInk">69.<!-- msDescription [endnote] line from 9 loops round --></fw>
+           <fw type="pageNum" rend="differentInk">69.<!-- msDescription [endnote] line from 9 loops round --></fw>
             <lb/>
            <!-- [endnote] Page trimmed as top pf the ch cut off here.-->
           &amp; confirming, holy Sacrament, which<lb/>
@@ -2837,7 +2838,7 @@
 
 <!-- transcription: Page 70 -->
 
-          <fw type="pageNum" rend="darkerInk">70.</fw>
+          <fw type="pageNum" rend="differentInk">70.</fw>
            <lb/>
          &amp; divers others did receave the pledg<lb/>
           <!-- NOTE moved fw -->
@@ -2865,7 +2866,7 @@
 
 <!-- transcription: Page 71 -->
 
-           <fw type="pageNum" rend="darkerInk">7i.</fw>
+           <fw type="pageNum" rend="differentInk">7i.</fw>
            <lb/>
          <p>And that my soule might forever.<lb/>
            <!-- NOTE moved fw -->
@@ -2902,8 +2903,8 @@
        <div xml:id="div-052" rend="post(diagonal)">
          <p>
            <fw>
-            <fw type="pageNum" rend="darkerInk">72.</fw>
-            <fw type="header" rend="darkerInk"><date>1662</date></fw> 
+            <fw type="pageNum" rend="differentInk">72.</fw>
+            <fw type="header" rend="differentInk"><date>1662</date></fw> 
            </fw>
            <lb/>
            <milestone n="ev55" unit="event"/>
@@ -2932,7 +2933,7 @@
 
 <!-- transcription: Page 73 -->
 
-           <fw type="pageNum" rend="darkerInk">73</fw>
+           <fw type="pageNum" rend="differentInk">73</fw>
          <lb/>
          of his Estate with <rs ref="ppl:aow1" n="per180" type="person">my mother</rs> in <!-- NOTE moved fw --><lb/>
          and by the Articles drawne betwixt <add place="above">them</add><lb/>
@@ -3049,7 +3050,7 @@
 
 <!-- transcription: Page 77 -->
 
-          <fw type="pageNum" rend="darkerInk">77</fw><lb/>
+          <fw type="pageNum" rend="differentInk">77</fw><lb/>
           thoughts <persName ref="ppl:rc2" n="per185">my Co: Colvill</persName> whom was<lb/>
            <!-- Q [teams] [formatting] ( moved fw (-->
           a very able Person. &amp; a faithfull frind <lb/> 
@@ -5427,10 +5428,10 @@
           time for man once to die. oh that I may<lb/>
           die daily &amp; be with God in soule &amp; spirt<lb/>
           loving him with all my soule &amp; a perfect<lb/>
-           <g ref="#heart">♥</g>. I must be still &amp; know that it <seg rend="darkerInk">is God</seg>
+           <g ref="#heart">♥</g>. I must be still &amp; know that it <seg rend="differentInk">is God</seg>
             <lb/>
-           that Ruleth in <seg rend="darkerInk">H</seg>. &amp; Earth. the Lord is<lb/>
-           his name. &amp; his mercy <add place="above" rend="darkerInk">is</add> unto us. for he<lb/>
+           that Ruleth in <seg rend="differentInk">H</seg>. &amp; Earth. the Lord is<lb/>
+           his name. &amp; his mercy <add place="above" rend="differentInk">is</add> unto us. for he<lb/>
           did draw my Joy to his owne selfe, &amp;<lb/>
           fitted him for this dissolution. he remem<lb break="no"/>
           =bred the Lord in the daies of his youth &amp;<lb/>
@@ -6920,7 +6921,7 @@
 <!-- transcription: Page 182 -->
 
     
-    <div xml:id="div-096" type="supplementary" rend="darkerInk">
+    <div xml:id="div-096" type="supplementary" rend="differentInk">
          
       <!-- msDescription [endnote] pages not numbered by AWT -->
       <!-- msDescription [endnote] Looks like a darker ink than that used previously and the handwriting is far less neat. Consistent enough still to be AT-->
