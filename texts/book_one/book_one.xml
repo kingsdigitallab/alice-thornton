@@ -21,7 +21,37 @@
                 <p>unknown</p>
             </publicationStmt>
             <sourceDesc>
-                <p>Converted from a Word document</p>
+               <msDesc>
+                   <msIdentifier>
+                       <repository>BL</repository>
+                       <collection>...</collection>
+                       <idno>...</idno>
+                       <altIdentifier>
+                           <idno>(CELM)</idno>
+                       </altIdentifier>
+                       <msName></msName>
+                   </msIdentifier>
+                   <physDesc>
+                       <objectDesc>
+                           <p>...</p>
+                       </objectDesc>
+                       
+                       <handDesc>
+                           <!-- teiHeader msDesc <handDesc> (description of hands) contains a description of all the different hands used in a manuscript or other object. -->
+                           <handNote xml:id="awt" scribeRef="ppl:awt1">
+                               <!-- Q [tei] check this is correct use of scribeRef??? -->
+                               Alice Thornton's hand.
+                           </handNote>
+                           <handNote xml:id="unknown">
+                               ...
+                           </handNote>
+                       </handDesc>
+                       
+                       <decoDesc>
+                           <p>...</p>
+                       </decoDesc>
+                   </physDesc>
+               </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -1595,7 +1625,7 @@
                  Marble. before the Deputies Seate of Estate<lb/>
                  on the <date when-custom="1640-12-10">10<hi rend="superscript">th</hi> day of Decemb<ex>er</ex> 1640</date>.</p>
             <p><persName ref="ppl:jb4" n="per114">The Bishop of Derrey</persName> Preach’t his funerall Sermon.<lb/>
-                <add place="above" resp="#unknown">Text Matt. xx. 8.</add>
+                <add place="above" hand="#unknown">Text Matt. xx. 8.</add>
                 <!-- [endnote] [insertion] Insertion is a different ink and a different hand – NOT Thornton’s. -->
                  And I am sure amongst the multitude of People<lb/>
                  there was not many drie Eyes: Such was the love<lb/>
@@ -6477,7 +6507,7 @@
                  Daughter <persName ref="ppl:awt1" n="per598">Alice Thornton</persName> 
               <subst>   
                 <del rend="doublestrikethrough">of her</del>
-                <add place="above" resp="#uncertain">beeing my &amp;</add>
+                <add place="above" hand="#uncertain">beeing my &amp;</add>
               </subst>  
                     <!-- [endnote] [insertion] Correction in a darker in – hand indistinct.</p>-->
                  fourth child.<lb/>
@@ -6808,7 +6838,7 @@
                  beames of thy mercy, and when thou turnest unto the<lb/>
                  praier of poore wretched destitutes, it becomes an eter<lb break="no"/>
                  -nall monument &amp; a record of thy hon<ex>our</ex>, &amp; all generations<lb/>
-                 which shall be borne shall be borne <subst><add place="above" resp="#uncertain">to</add>
+                 which shall be borne shall be borne <subst><add place="above" hand="#uncertain">to</add>
                 <del rend="strikethrough">shall</del></subst> praise thee.<lb/>
                     <!-- [endnote] [insertion] This correction may be in another hand than Thornton’s – ink/lettering looks like other non-authorial interjections. -->
                 
@@ -13445,8 +13475,8 @@
        
       <div xml:id="div-137">
           <!-- Q [review] [tagging] [layout] 
-             discussed with team June 2022: largely agreed but will need final review against updated transcription.
-         **markup decisions = privilege meaning of words (as I interpret them...) over exact positioning on page. (Including moving a word :-S)**
+             as discussed with team June 2022: will probably need final review against updated transcription.
+         **markup decisions = privilege meaning of words (as I interpret them...) over exact positioning on page. (Including moving a word)**
          Although the first line is written inside the <head> above, this text is clearly referring to the next section. 
          treat it as a single <note>. and put both insertions inside the next div, not the first one.
         EXCEPT I think the word "At" between "placed" and "in" should actually prefix "Kirklington 1629". -->
@@ -13455,7 +13485,7 @@
          The mesels in <date when-custom="1629">1629</date>     
         </note> 
         <head rend="pre(rule) post(rule)">
-       <add place="inline" resp="#awt">
+       <add place="inline"><!-- Q why have i used <add> here? -->
           At <placeName ref="place:Kirk_030" n="place390">Kirklington</placeName> <date when-custom="1629">1629</date> /
        </add><lb/>
             <metamark><g ref="#dagger">+</g></metamark><!-- Q [glyph] [metamark]? this matches the margin symbol on p.8 - looks like it is intended to link them together. so they should both be <metamark>??? look up scribal stuff! -->   

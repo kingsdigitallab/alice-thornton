@@ -62,10 +62,27 @@
                  </layoutDesc>
                </objectDesc>
                
+               <handDesc>
+                 <!-- teiHeader msDesc <handDesc> (description of hands) contains a description of all the different hands used in a manuscript or other object. -->
+                 <handNote xml:id="awt" scribeRef="ppl:awt1">
+                   <!-- Q [tei] check this is correct use of scribeRef???
+                   not sure about this if awt is the assumed default and only #unknown (maybe #uncertain) is likely to be specified as a @hand??? -->
+                   Alice Thornton's hand.
+                 </handNote>
+                 <handNote xml:id="unknown">
+                   ...
+                 </handNote>
+               </handDesc>
+               
+               <decoDesc>
+                 <!-- teiHeader msDesc <decoDesc> (decoration description) contains a description of the decoration of a manuscript or other object, either as in paragraphs, or as one or more decoNote elements. -->
+                 <decoNote> ... </decoNote>
+               </decoDesc>
                <bindingDesc>
                  <binding>
                    <p>Binding: bound in worn, oversize covers</p></binding>
                </bindingDesc>
+               
              </physDesc>
              <history>
                <origin>ca.1668</origin>  
