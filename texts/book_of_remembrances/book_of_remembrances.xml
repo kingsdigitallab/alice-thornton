@@ -140,7 +140,7 @@
      <!-- ENCODING NOTES: 
          
          Page \d+ in comments = Transcriber page numbers 
-         (fw=pageNum are Alice's written numbers)
+         <fw>type=pageNum are Alice's written numbers)
          
      xml comment keywords:
          NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action
@@ -155,7 +155,7 @@
      reviewing:
      
         abbrev/contraction work - needs to be fixed in the transcription first
-        - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as abbreviations? still reading up on this one! 
+        - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as ex? still reading up on this one! 
         
         teams discussion on markers/decoration etc - possibly check / markers etc. 
       
@@ -169,8 +169,9 @@
                 at present milestone/anchor pairs are linked using @n, prefix "ev". 
                 not yet implemented @spanTo or linking event mentions
                 milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree
-                but they *are* always in the same <div> 
-                they can be "nested" for sub-events. they can overlap. etc.
+                but they *are* always in the same <div> (if an event spans divs I split into two)
+                they can be "nested" for sub-events. (though i might not do this) 
+                they can overlap. etc.
                 
         
       TBD tagging of ms description features - a lot of this to be dropped or only described in msDescription, but will review properly after transcription updates summer 2022.
@@ -337,7 +338,7 @@
          </docTitle>
          <docAuthor>  
          <persName ref="ppl:awt1" n="per1">
-           [ATW] <!-- Q [tagging] ATW = monogram. apparently no specific tag in tei. hmm. use seg type=monogram or something similar? -->
+           [ATW] <!-- Q [tagging] ATW = monogram. apparently no specific tag in tei. hmm. use seg type=monogram or something similar? or -->
          </persName>
          </docAuthor>
            <note place="end" type="context">
@@ -358,7 +359,7 @@
      
      
       
-     <!-- Q [teams] page number: should be transcribed? -->
+     <!-- Q [teams] page number is present: should be transcribed? -->
       <!-- [endnote] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
      
 
@@ -396,7 +397,6 @@
 <!-- transcription: Page 3v -->
      
        <!-- [endnote] blank page. -->
-       <!-- Q [teams] blank pages - is this page *definitely* completely blank ie not numbered? [no image to check]  -->
        
        
        <space quantity="1" unit="page"/>
@@ -430,7 +430,7 @@
 <!-- transcription: Page 4 -->
      
        
-      <!-- Q [teams] page number apparently present but not transcribed [no image to check] -->
+      <!-- Q [teams] should page number be transcribed? [no image to check exactly what it looks like] -->
       <!-- [endnote] blank – but it is numbered in the top left-hand corner. 
        -->
        <space quantity="1" unit="page"/>
@@ -440,11 +440,13 @@
             <pb n="5"/>
 
 <!-- transcription: Page 5 -->
+       
 <!-- [endnote] From here pagination is continuous.-->   
+       
     <div xml:id="div-004" type="poetry">
+            <fw type="pageNum">5</fw>
          <head>
             <seg rend="underline">Dedication</seg>
-            <fw type="pageNum">5</fw>
          </head>
          <l>Ile dedicate my Soule unto my God</l>
          <l>My Childehood, non-Age, youth, is by his Rod.</l>
@@ -473,8 +475,8 @@
 
 <!-- transcription: Page 6 -->
       <div xml:id="div-005" type="poetry">
-         <head>
             <fw type="pageNum">6.</fw>
+         <head>
             Prayer.
          </head>
          <l>Then guide my heart, Lord give my <add place="above">Soule</add> direction<supplied reason="tight binding" cert="high">s</supplied>
@@ -490,9 +492,9 @@
 
 <!-- transcription: Page 7 -->
      <div xml:id="div-006">
+         <fw type="pageNum" place="right">7</fw>
          <head>
            observations.
-         <fw type="pageNum" place="right"> 7</fw>
          </head>
          <p>These things be comely &amp; pleasant<lb/>
           to see, &amp; worthy of honnor from the<lb/>
@@ -513,8 +515,8 @@
 <!-- transcription: Page 8 -->
      
       <div xml:id="div-007" type="prayer">
-         <head>
             <fw type="pageNum">8.</fw>
+         <head>
             Prayer.
          </head>
          <p>Lord lead me through the<lb/>
@@ -534,10 +536,13 @@
 <!-- transcription: Page 9 -->
          
          <div xml:id="div-008">
+           
 <!-- transcription: Body -->
+           
         <!-- Q [review] double check this on teams? Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
          
-         <!-- NOTE [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure it adds anything useful to do it every time.  -->
+         <!-- NOTE [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure it adds any useful info to do it every time.  -->
+           
          <fw>
             <fw type="header" rend="underline">
                <date when-custom="1631">1631</date>
@@ -596,7 +601,10 @@
       <!-- NOTE year 1631 -->
        <div xml:id="div-009">
          <fw>
-           <fw xml:id="mnote-0001" place="left margin"><g ref="#u8284">⁜</g></fw> <!-- Q [teams] [unicode] dotted cross symbol -->
+           <fw xml:id="mnote-0001" place="left margin">
+             <g ref="#u8284">⁜</g><!-- NOTE [unicode] dotted cross symbol -->
+             <!-- Q [tei] metamark? this is rather like the signe de renvoi at the same place in book 1... but it's missing the matching symbol at the end (div 097), and the added text here. link it to div 097 anyway? honestly, alice.  -->
+           </fw> 
             <fw type="header" rend="underline">
               <date when-custom="1631">1631</date>:<!-- TODO [review] conventions change : -->
             </fw>
@@ -648,7 +656,7 @@
           Glory &amp; praise even to my lives end<lb/>
           Amen. &amp; that for my Saviours Sake<lb/>
           alone. the Alpha &amp; Omega. Am<seg rend="underline">en .</seg>
-           <!-- Q [teams] [formatting] underline looks like a short line end marker to me, rather than emph -->
+           <!-- Q [teams] [formatting] underline looks like a short line end marker to me, rather than emph. still need to check through the remaining underlines to make sure none of them should be in rend(rule), and if any should be converted to emph tags, etc. if they're not emph and they're not rules, what are they though? -->
          </p>
          </div>
             <pb n="12"/>
@@ -6127,11 +6135,12 @@
          
        <div xml:id="div-093" type="poetry">  
          
-         <head>
            <fw type="pageNum" rend="underline">160.</fw>
-            <fw type="header">My Soules Wish.</fw>
+         
+         <head>
+            My Soules Wish.
          </head>
-         <lb/>
+         
          <l>Oh: Had I of his love but Part,</l>
          <l>That chosen was by Gods owne heart,</l>
          <l>That Princely Prophett David hee,</l>
@@ -6211,12 +6220,15 @@
             <pb n="163"/>
 
 <!-- transcription: Page 163 -->
+       
 <div xml:id="div-094" type="prayer">
-         <head>
+  
            <fw type="pageNum" rend="underline">
                163.
             </fw>
-            <fw type="header">A Prayer.</fw>
+  
+         <head>
+            A Prayer.
          </head>
          <p>O Lord God of our Salvation, who for<lb/>
           our Sakes were wounded &amp; didest<lb/>
@@ -6927,12 +6939,10 @@
       <!-- msDescription [endnote] Looks like a darker ink than that used previously and the handwriting is far less neat. Consistent enough still to be AT-->
          
         <head>
-          <fw type="header">
-        Remembr to incert some Remarks<lb/>
+          Remembr to incert some Remarks<lb/>
           for gotten in this first Book.
-
-         </fw>
         </head>
+      
        <div xml:id="div-097" rend="pre(rule)">
          <p>
         <milestone n="ev97" unit="event"/>  
