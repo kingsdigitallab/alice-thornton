@@ -72,6 +72,7 @@
                  </handNote>
                  <handNote xml:id="unknown">
                    not Alice's hand.
+                   <!-- NOTE will need enumeration if you do use it... -->
                  </handNote>
                </handDesc>
                
@@ -152,16 +153,25 @@
          [] comment/note tags give some indication of what it's about
          [endnote] moved from Word endnotes into comment
          
-     reviewing:
+     TO DO/REVIEW:
      
         abbrev/contraction work - needs to be fixed in the transcription first
         - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as ex? still reading up on this one! 
         
-        teams discussion on markers/decoration etc - possibly check / markers etc. 
+        markers/decoration etc - see teams review
+          / kind of stuff is still a bit hmm and I havne't done it in other books.
+        
+        seg @rend=underline
+          need to check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph tags.
+          but what should emph be used for? 
+             tei: emph = "marks words or phrases which are stressed or emphasized for linguistic or rhetorical effect." example = You took the car and did <emph>what</emph>?!! (and I think all the further examples are the same type of thing) 
+             - not sure I've seen any clear examples of Alice using underline for exactly this type of emphasis. 
+             - but she does underline things to (afaict) draw attention to them, so does that also count as emph?
+             - Cf. most underline in BkRem used on headings and seems most appropriate to treat as decoration. Queried ones are at end of sections and the Q is whether they should be treated as section markers. 
       
-        remaining footnotes
-        type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep uncertain ones for later review.
-        type=context leave these for later
+        remaining footnotes (<note> @place=end)
+          type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep uncertain ones for later review.
+          type=context may become editorial annotations - leave them for now
         
       [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
    
@@ -174,20 +184,22 @@
                 they can overlap. etc.
                 
         
-      TBD tagging of ms description features - a lot of this to be dropped or only described in msDescription, but will review properly after transcription updates summer 2022.
-          footnotes > comments for reference/to come back to
+      
+      tagging of ms description features 
+          - a lot of this to be dropped or only described in msDescription, but will review properly after transcription updates summer 2022.
+          related footnotes > comments for reference/to come back to
           in teiHeader added examples for tags we might find useful
       
                 
      -->      
        
        <!-- 
-         Linkage
-        sample prefixDef borrowed from dbw project prefixes ppl, place, bibl
-        maybe "atb:" for project refs - project people, refs to the 4 books, anything else useful.
-        "mnote" for marginalia
-
+        Linkage for standoff files
         
+        sample prefixDef (borrowed from dbw project) 
+        prefixes ppl, place, bibl
+        maybe also "atb:" for project refs - project people, anything else useful.
+
         <listPrefixDef>
           <prefixDef ident="ppl"
             matchPattern="([a-z]+)"
@@ -337,8 +349,8 @@
          </titlePart>
          </docTitle>
          <docAuthor>  
-         <persName ref="ppl:awt1" n="per1">
-           [ATW] <!-- Q [tagging] ATW = monogram. apparently no specific tag in tei. hmm. use seg type=monogram or something similar? or -->
+         <persName ref="ppl:awt1" n="per1" type="monogram">
+           [ATW] <!-- Q [symbol] ATW = decorative monogram. maybe <figure> or similar ?? -->
          </persName>
          </docAuthor>
            <note place="end" type="context">
@@ -656,7 +668,7 @@
           Glory &amp; praise even to my lives end<lb/>
           Amen. &amp; that for my Saviours Sake<lb/>
           alone. the Alpha &amp; Omega. Am<seg rend="underline">en .</seg>
-           <!-- Q [teams] [formatting] underline looks like a short line end marker to me, rather than emph. still need to check through the remaining underlines to make sure none of them should be in rend(rule), and if any should be converted to emph tags, etc. if they're not emph and they're not rules, what are they though? -->
+           <!-- Q [teams] [formatting] underline looks like a short line end marker to me, rather than for emphasis. -->
          </p>
          </div>
             <pb n="12"/>
@@ -2061,7 +2073,7 @@
           sommons, And that all though God <lb/>
           was able to have mercy upon me: yet<lb/>
           I had so offten fallen into sin &amp; forget<lb break="no"/>
-          =fullnesse of <sic>of</sic><!-- NOTE [sic] for repetition.  --> God; that he would not<lb/>
+          =fullnesse of <surplus reason="repetition">of</surplus> God; that he would not<lb/>
           have mercy upon me at that last houer<lb/>
           these with much more arguments <lb/>
           against my poore soule. did that old<lb/>
@@ -2832,7 +2844,7 @@
           mother</rs>s death although my soule had<lb/>
           much longed for it. by reason that the<lb/>
           ministers on this side had not given<lb/>
-          <sic>given</sic><!-- NOTE [sic] for repetition --> the same for many yeares during<lb/>
+          <surplus reason="repetition">given</surplus> the same for many yeares during<lb/>
           the warres. So that I caled to mind that holy<lb/>
           man <persName ref="ppl:ps1" n="per175">Dr Samwaies</persName> which did last give<lb/>
           the sacrament to my blesed mother. &amp; <lb/>
@@ -3362,7 +3374,7 @@
           grace. that he may be established<lb/>
           before thee both heere &amp; heereafter<lb/>
           That for Jesus Christ our Ever blesed<lb/>
-          saviour :&amp; Reedemer. <seg rend="underline">Amen.</seg><!-- Q [teams] [formatting] line under text here? -->
+          saviour :&amp; Reedemer. <seg rend="underline">Amen.</seg><!-- Q [teams] [tei] purpose of line under text here? -->
              Amen.
          </p>
      </div>    
@@ -4677,7 +4689,7 @@
           oath, but <rs ref="ppl:bt1" n="per283" type="person">the other woman</rs> having a <lb/>
           spleene against her. did carrie so un<lb break="no"/>
           =hansomly &amp; unchristianly towards me<lb/>
-         in her <del rend="doublestrikethrough">bit</del><sic>ter</sic><!-- NOTE i think <sic> is probably the best thing to do with "ter" here, but have raised for possible discussion on teams --> agravation &amp; in false<lb/>
+         in her <del rend="doublestrikethrough">bit</del><sic>ter</sic><!-- NOTE i think <sic> is probably the best thing to do with "ter" here, but might do final review --> agravation &amp; in false<lb/>
           accusing the Hon.<hi rend="superscript">or</hi> of some of the Persons<lb/>
          
             <pb n="121"/>
@@ -4711,7 +4723,7 @@
           gon from newton, &amp; by that meanes did<lb/>
           spread her lies a broad at <placeName ref="place:Rich_043" n="place92">Richmond</placeName>.<lb/>
           &amp; the highest agravation of injury in those<lb/>
-          persons. that was don my <sic>my<!-- NOTE [sic] for repetition --></sic> bosomes frind that<lb/>
+          persons. that was don my <surplus reason="repetition">my</surplus> bosomes frind that<lb/>
           knew my Innocency all my daies.<anchor n="ev87" type="event"/> but<lb/>
           why can I not with patience take the bitter<lb/>
           cupe. out of my saviours hand. &amp; for<lb/>
@@ -7287,7 +7299,7 @@
           for 19 yeares She livd afftr <rs ref="ppl:cw1" n="per396" type="person">my fathrs</rs><lb/>
           Death of 360 pound a yeare. but he<lb/>
           did not demand it for her. but he<lb/>
-           did ingage for <sic>for</sic><!-- Q [sic] repetition --> <rs ref="ppl:cw1" n="per397" type="person">my Fathrs</rs> Debts<lb/>
+           did ingage for <surplus reason="repetition">for</surplus> <rs ref="ppl:cw1" n="per397" type="person">my Fathrs</rs> Debts<lb/>
           by the mitigation of some who did it<lb/>
           to clere thmselves. And by that means<lb/>
           did involve his owne Estate to secure<lb/>
@@ -7372,7 +7384,7 @@
           I asked her to tell me truly wheth was<lb/>
           <persName ref="ppl:rn1" n="per420">Nettletons</persName> balys come. she being in a wondr<lb/>
           asked who had bin heer. I said non –<lb/>
-          for she looked me <sic>me</sic><!-- NOTE [sic] repetition --> in.
+          for she looked me <surplus reason="repetition">me</surplus> in.
          </p>
          <p>At last she said they was there. but prd<lb/>
           me not to be frighted for they was civill<lb/>
