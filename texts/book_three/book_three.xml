@@ -420,7 +420,7 @@
            Since my Widdowed condition Since <date when-custom="1668-09-17">Sept. 17th <lb/>
            1668</date>
            <!-- Q [decoration] "1668" is centred and set in top of the two ruled lines which is cut away. this has happened in other books and not yet decided quite how to handle it.
-           NB "double" rules in this book are (usually? always?) very wide spaced -->
+           NB "double" rules in this book are (usually? always?) very wide spaced, using the page ruling. -->
          </head>
 
          <p rend="first-line-indent">
@@ -1346,7 +1346,7 @@
                      <p>
                   Here, there’s a cross in the left-hand margin.</p>
                   </note>
-              -----------</p>
+              --------</p>
               <p>
                 <date>in the yeare<lb/>
               96 is 52<lb/>
@@ -1360,7 +1360,7 @@
               marston<lb/>
               moore by<lb/>
               the Parlamt<lb/>
-              ---------</p>
+              --------</p>
               <p>of Scotts.<lb/>
               Army in all<lb/>
               20000<hi rend="superscript">d</hi>
@@ -2103,7 +2103,7 @@
               my brother<lb/>
               was dismisd<lb/>
               in displeasure<lb/>
-              ------------<lb/>
+              --------<lb/>
               <date when-custom="1651-03-31">
                 March 31<lb/>
                1651</date>
@@ -2552,7 +2552,7 @@
            The house<lb/>
          att newton<lb/>
          Cost 1500<hi rend="superscript">l</hi><lb/>
-        ----------</p>
+        --------</p>
          <p>
             <date when-custom="1662-06-10">June 10<lb/>
           1662</date>. _ we<lb/>
@@ -2619,7 +2619,7 @@
              <p>I was seized<lb/>
               with A desperate<lb/>
               Feaver there.<lb/>
-                --------- </p>
+                --------</p>
               <p>
                 <date when-custom="1661-02-13" datingMethod="#JulianMar">Feb. 13<hi rend="superscript">th</hi> 1661</date>.</p>
                </note>
@@ -2855,7 +2855,7 @@
               verces 28, 29,<lb/>
               30 against<lb/>
               dispaire.<lb/>
-              --------------</p>
+              ----------</p>
               <p>
                 <date when-custom="1661">1661</date>
               </p>
@@ -3675,7 +3675,7 @@
               of the Land at Laist.<lb/>
               by a Deed dated<lb/>
               <date when-custom="1665-09-09">Sep. 9<hi rend="superscript">th</hi> 1665</date><lb/>
-                 --------------</p>
+                 -----------</p>
               <p>
                This Deed for 2<lb/>
               years was to give<lb/>
@@ -7196,7 +7196,9 @@
               Rev 2:10  Fear none of those things which thou shalt suffer: behold, the devil shall cast some of you into prison, that ye may be tried; and ye shall have tribulation ten days: be thou faithful unto death, and I will give thee a crown of life (KJV).</p>
             </note>
          </p>
-         <p>------------------------------------------------------------------------------------</p>
+        <milestone unit="rule"/>
+        <!-- Q [div] check? I don't think this is a new (sub?)div? so using milestone. but hmm. -->
+        
          <p>How can I begin my sorrowfull History of my Life in this<lb/>
           condittion of a Widdow, since I injoyed soe little comfort<lb/>
           in the Married Estate, (without teares;) but with the Profitt<lb/>
@@ -9451,7 +9453,7 @@
          <p rend="first-line-indent">
       <fw xml:id="mnote-0145" place="left margin" type="list-like">1</fw>
             <!-- Q [margin][review] not absolutely sure about <fw> choice for this and subsequent 2 and 3, but doesn't quite seem a list either. can come back to it anyway. -->
-              <!-- Q [teams] 1 in margin not transcribed but looks authorial, to me first of a sequence. --> 
+              <!-- Q [teams] 1 in margin not transcribed but looks authorial to me, first of a sequence - 2 and 3 have been transcribed. --> 
                 Affter her goeing home I recavd Letters from her &amp; my Aunt<lb/>
           which gave me great comfort. for Dafeny had informed my dear<lb/>
           Aunt of all Proceedings &amp; how I was compelled to have the<lb/>
@@ -10886,7 +10888,7 @@
            <date when-custom="1669-02-13" datingMethod="#JulianSic">Feb. 13<hi rend="superscript">th</hi><lb/>
             1669</date>
            <!-- Q [dates] not sure if this is intended to be 69 or 70 --><lb/>
-                 ------------<lb/>
+                 ----------<lb/>
             The 42<hi rend="superscript">d</hi> yere<lb/>
             of my Age<lb/>
             &amp; the 6<hi rend="superscript">th</hi> time<lb/>
@@ -12716,14 +12718,15 @@
           &amp; my selfe &amp; what ever thou seest necessary to bring me, and<lb/>
           mine to heaven I humbly beg in the name and for the sake of<lb/>
           Jesus Christ our Lord in that forme of Prayer which he hath taught<lb/>
-          us saying Our Father wh’art in Heaven. Amen.<lb/>
-          <date when-custom="1668-11-17">November 17<hi rend="superscript">th</hi> 1668</date>.
-           ----------------------------------<!-- Q [decoration] what to do with this line?? (not full width) --></p>
+          us saying Our Father wh’art in Heaven. Amen.
+          </p>
         </div>
         
         <div>
-         <head rend="post(rule)">
-           <!-- Q this title is block-right-indent. hmm. -->
+      <!--  Q [layout] not absolutely sure this date is meant to begin this section rather than at the end of the previous one, though it makes more sense that way. the pre(rule) begins immediately after it, not full width. 
+      also the alignment of the title is slightly block right indented? -->
+         <head rend="pre(rule) post(rule)">
+          <date when-custom="1668-11-17">November 17<hi rend="superscript">th</hi> 1668</date>.
            Letters Receaved from many freinds in order<lb/>
            to comforting me in my sad Sorrowes &amp; afflictions And<lb/>
            vindication of the marriage shewing the causes &amp; prudenc<lb/>

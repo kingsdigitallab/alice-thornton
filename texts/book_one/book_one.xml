@@ -307,7 +307,7 @@
 
 <!-- transcription: Page 2 -->
           
-        <!-- Q [teams] [decoration] unusual: page has ruled border top/bottom/left -->
+        <!-- Q [teams] [decoration] unusual: page has ruled borders top/bottom/left -->
           
         <fw type="pageNum"> 2. </fw>
 
@@ -620,7 +620,7 @@
             <head rend="post(rule)" place="right">
                 <seg rend="underline align(left)">London</seg>
                 <seg rend="underline align(centre)"><date type="religion" when-custom="1631">1631</date>.</seg>
-                <!-- Q [decoration] bearing in mind we might not use the alignment anyway... have added it to rend because @place isn't allowed in seg. -->
+                <!-- NOTE [decoration] bearing in mind we might not display the alignment anyway... have added it to rend because @place isn't allowed in seg. -->
                 <lb/>
                 The first dawning of Gods Spirit in my heart.<!-- NOTE [tagging] [layout] this is right aligned -->
             </head>
@@ -833,7 +833,7 @@
                 
             A deliverance from Ship-Rack in A Passage into<lb/>
                  
-                <!-- NOTE [decoration] unusual full width (rule) *under* first line of heading. team decision to ignore these. deleted.  -->
+                <!-- NOTE [decoration] unusual full width (rule) *under* first line of heading. team decision to ignore these, so deleted.  -->
                  <placeName ref="place:Irel_096" n="place13">Ireland</placeName> with <rs ref="ppl:aow1" n="per40" type="person">my Mother</rs>, <rs ref="ppl:tbd-awt-brother" n="per41" type="person">brother</rs><!-- Q [people] possible to ident which brother? -->, &amp; 2 Nephewes.<lb/>
                  <persName ref="ppl:td4" n="per42">Thomas</persName> &amp; <persName ref="ppl:cd4" n="per43">Christopher Danby</persName>. In the yeare: <date type="accident" when-custom="1639">1639</date>.
             </head>
@@ -1389,7 +1389,6 @@
             <p>
                <!-- Q [event] superEvent? CW death -->
                <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
-               <!-- NOTE [margin] [decoration] double horizontal lines above the margin header  -->
         <note xml:id="mnote-0003" resp="#awt1" place="left margin" rend="pre(rule_double)">
             Acc<hi rend="superscript">.t</hi> of<lb/>
              the Lord<lb/>
@@ -3491,15 +3490,15 @@
                 <note xml:id="mnote-0018" place="left margin" resp="#awt1" rend="post(rule)">
                 <!-- NOTE [style] vertical text writing direction top to bottom. -->
               <p style="writing-mode: vertical-rl; text-orientation: sideways-right">Sirfett Lobster <lb/>
-               at <placeName ref="place:Rich_043" n="place108">Richmond</placeName> <milestone unit="rule"/>
-                   <!-- Q [teams] [tagging] [decoration] short (about 4 chars) horizontal line here, purpose unclear. similar things in BoR? best way to do these? alt: use of <space> in tei list --></p>
+               at <placeName ref="place:Rich_043" n="place108">Richmond</placeName> ----
+                   <!-- Q [teams] [decoration] short (about 4 chars) horizontal line here, purpose unclear. similar lines in bk 3 marginalia; maybe just filler? --></p>
                <!-- NOTE [dates] this date seems to relate to the lobster (p.83) and not related to the text here. de-@when at least for now. -->
             <p>
               <date>
               Sept.<lb/>
-              15<hi rend="superscript">th</hi>
-              ----
-            <lb/>
+              15<hi rend="superscript">th</hi><lb/>
+              ---- <lb/>
+              <!-- Q [decoration] also plenty of these in bk 3 marginalia, but seem to be a bit more than filler in many cases. this one maybe ought to be underline.?  -->
             1643.
             </date>
             </p>     
@@ -3528,7 +3527,7 @@
                         Octb.<lb/>
                     11. 43</date>.
                 </note>
-              <date when-custom="1643-06-02" type="supplied">was delivered</date>
+              <date when-custom="1643-06-02">was delivered</date>
            <!-- NOTE [dates] this dob from biographical material, not in text. --> of <rs ref="ppl:cd5" n="per250" type="person">a galant Son</rs> even in the midest of troub<lb break="no"/>
               -les. God gave her comfort. &amp; <rs ref="ppl:td3" n="per251" type="person">my brother</rs> would have<lb/>
               him called Charles. because of his ingagement for the<lb/>
@@ -4238,7 +4237,7 @@
                  Lawfull King. Learning thereby more humility. &amp; to be<lb/>
                  contented in the subjection thou requirest. Sanctifie thy<lb/>
                  Dealings to me thy servant &amp; make us better for the Lord<lb/>
-                Jesus Christs sake. <gap reason="erased" quantity="4" unit="char"/><!-- Q for team? possibly this could be <supplied>Amen 
+                Jesus Christs sake. <gap reason="deleted" quantity="4" unit="char"/><!-- Q for team? possibly this could be <supplied>Amen 
                      [endnote] Looks like something had been deleted after the full stop. Possibly an ‘Amen’.
                  -->
             </p>
@@ -6039,7 +6038,7 @@
             <p>And all these things I humblie crave with whatsoever<lb/>
                  ellse thou knowest fitt for me &amp; mine I humblie crave<lb/>
                  in the name &amp; for the sake of our Lord &amp; Saviour Jesus<lb/>
-                Christ. Amen. <add place="inline" rend="differentInk">saing as he hath bid me. <seg  rend="size(larger)">Our Father</seg></add>
+                Christ. Amen. <add place="inline" rend="differentInk">saing as he hath bid me. <seg rend="size(larger)">Our Father</seg></add>
                     <!-- [endnote] [insertion][text size] Insertion (possibly) in a darker ink to the main body of the text. Squeesed into the space. Main sentence in smaller lettering than usual, ‘Our father’ in decidely larger lettering. -->
                 
             </p>
@@ -6598,7 +6597,7 @@
                  Christ Jesus the Sonne of thy love, concluding these our<lb/>
                  imperfect praiers in that most sacred praier which Christ<lb/>
                  hath taught us to present unto thee to thy Glory, &amp;<lb/>
-                 for our comfort. Saying. <seg rend="size(larger)">Our: Father &amp;</seg><!-- NOTE [decoration] team decision to encode larger size/alignment of Amen/Our Father in prayers. need to check for any not noted -->
+                 for our comfort. Saying. <seg rend="size(larger)">Our: Father &amp;</seg>
                 
             </p>
             </div>
@@ -7409,13 +7408,14 @@
               by will as allso; her losse of her Annuity of 300<hi rend="superscript">l</hi> per An<ex>num</ex><lb/>
               out of <placeName ref="place:Irel_096" n="place261">Ireland</placeName> to the valew due unto her at her death<lb/>
             
-            <!-- NOTE [decoration] removed text underline and replaced with @rend - there are lines above *and* below the marginal text -->
-             <!-- NOTE last two letters of "widdow" overlap main text -->
-                <note xml:id="mnote-0025" place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
-                    19<lb/>
-                    yers A<lb/>
-                    widdow 
-                </note>
+            <!-- NOTE [decoration] replaced text underline with @rend - there are lines above *and* below the marginal text -->
+                
+             <!-- NOTE last two letters of "widdow" slightly overlap main text -->
+        <note xml:id="mnote-0025" place="left margin" resp="#awt1" rend="pre(rule) post(rule)">
+            19<lb/>
+            yers A<lb/>
+            widdow 
+        </note>
                 the summe of 300 p<ex>er</ex> An<ex>num</ex>-which never receaved any part<lb/>
                 thereof. yett notwithstanding all the aforesaid goodnes<lb/>
                 of hers to that Estate; there wanted not some whoe putt<lb/>
@@ -8004,7 +8004,7 @@
                  sinnes. Amen. <g/><note place="end">
                     <p rend="Endnote Text"> [decoration] Flourish after ‘Amen’.</p>
                 </note>
-                <!-- Q [teams] [glyph] [decoration] maybe <g> tag???? it looks a bit like a "fleuron"? -->
+                <!-- Q [teams] [glyph] [decoration] maybe <g> tag???? it looks a bit like some forms of "fleuron" ('stylized flowers or leaves')? -->
             </p>
           </div>
           <div xml:id="div-075">     
@@ -10166,7 +10166,7 @@
                 <fw type="pageNum">221.</fw> <lb/>
             
             her life. affter which they appeared &amp; then we had more<lb/>
-                 hopes. but was in great danger of losseing he<supplied reason="omitted">r</supplied>] sight.</p>
+                 hopes. but was in great danger of losseing he<supplied reason="omitted">r</supplied> sight.</p>
             <p>She was all over her face in one Scurfe they running into<lb/>
                  each other. But loe by the goodnesse of God, for which I<lb/>
                  humbly blesse &amp; praise his holy name she passed the dan<lb break="no"/>
@@ -11016,7 +11016,7 @@
                  of thankefullnesse to the Lord which gave me hopes of him.<lb/>
                  &amp; that if he could have bin prevented of Cold he would remaine<lb/>
                  well.<anchor n="ev205" type="event"/> // 
-                <!-- Q [tagging] [layout] no paragraph/line break here in the MS, but i needed to insert one for structure. -->
+                <!-- Q [tagging] [layout] no paragraph/line break here in the MS, but i needed to insert one to reflect narrative break. -->
                 
             </p>
             </div>

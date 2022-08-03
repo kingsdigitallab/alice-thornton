@@ -325,7 +325,7 @@
          
        <div> 
          <head rend="pre(rule_double_thick) post(rule_double)">
-            <!-- NOTE [decoration] double lines (above and below) are widely spaced. in fact i think that's the case throughout this book where they appear - different from book 1. -->
+            <!-- NOTE [decoration] double lines widely spaced. -->
             Meditations in my Widdowed Condition 
             <!-- Q [decoration] two markers here not transcribed. a) Five dots in a square pattern - similar to Unicode 'FIVE DOT PUNCTUATION' (U+2059). b) three squiggles with dots... -->
          </head>
@@ -520,7 +520,7 @@
           
          <p rend="align(centre)">Our Father: which art in Heaven:</p>
          <p rend="align(centre)">Amen: &amp; Amen.
-            <!-- NOTE [decoration] if the text of these two lines is larger it's only very marginally so - the whole page is larger text. [endnote] Our father etc in larger letters? Cf Book 1? -->
+            <!-- NOTE [decoration] hmm. if the text of these two lines is larger it's only very marginally so - the whole page is larger text. [endnote] Our father etc in larger letters? Cf Book 1? -->
          </p>
             
 
@@ -1990,7 +1990,7 @@
          
          <p>After which he began the Copieing the will out<lb/>
             and with his owne hand writt on the out side of the<lb/>
-            Leafe in great letters: <seg rend="larger">The Will: <date when-custom="1647-04-01">Aprill 1<hi rend="superscript">st</hi><lb/>
+            Leafe in great letters: <seg rend="size(larger)">The Will: <date when-custom="1647-04-01">Aprill 1<hi rend="superscript">st</hi><lb/>
                1647</date></seg>
                <!-- [endnote] Here, and below, increase in font reflects distinctions in the original: note in metadata.-->
              and then proceeded to write the first 3<lb/>
@@ -2007,7 +2007,7 @@
             Christophers hand as may apeare by his Name at<lb/>
             it &amp; writt (Copiea Vera.) to testify the same.<lb/>
             The wittnesses to my fathers will, weare as fol.:<lb/>
-            <seg rend="larger">John Burniston. Ralph Wallis. George Stra-<lb break="no"/>
+            <seg rend="size(larger)">John Burniston. Ralph Wallis. George Stra-<lb break="no"/>
                -herne, James Foxcrafft, Ezra. Wollstone</seg>.</p>
          <p rend="first-line-indent">And this very Copie has bin ever since in my d mothrs<lb/>
             hand, &amp; my owne; beeing forced, to give our testimony<lb/>
@@ -2306,7 +2306,7 @@
             doe it.</p>
          <p rend="first-line-indent">
             And againe 
-            <add place="above">|<date when-custom="1640-12-01">Dec. 1t 1640</date>|</add><!-- Q [decoration] she has used lines that look like | on either side of the inserted date, most unusual. --> he caused it to be brought<lb/>
+            <add place="above">|<date when-custom="1640-12-01">Dec. 1t 1640</date>|</add><!-- Q [decoration] she has used lines that look like | on either side of the inserted date, most unusual. think i might have done something in rend elsewhere??? --> he caused it to be brought<lb/>
             out <date>3 dais befor</date> his death, and Ratified<lb/>
             &amp; confirmed the same before manny wit<ex>hin</ex></p>
          <p rend="first-line-indent">We allso declared my brother George W<lb/>
@@ -6447,7 +6447,7 @@
          </p>
           </div>
        <div rend="pre(rule_short)">
-         <!-- [decoration] short ruled line from left edge, above "I had" -->
+         <!-- NOTE [decoration] short ruled line from left edge, above "I had" -->
          <p>
             I had allso a great Delivrance at Hipswell <date>when</date><lb/>
             Bese Poore was makeing of Balsom. she would<lb/>
@@ -6459,12 +6459,12 @@
          </p>
         </div>
        <div rend="pre(rule_short)">
-            <!-- [decoration] another short ruled line, slightly longer this time, and level with *bottom of* 'Upon my removal' which is indented. -->
+            <!-- NOTE [decoration] another short ruled line, slightly longer this time, and level with *bottom of* 'Upon my removal' which is indented. -->
          <p>    
          <!-- Q [margin] not 100% sure of handling. 
-            first word is level with *beginning* of p
-            but the insertion is really to meant to run from the last word on the page. 
-            I *think* it works to link the note to an <anchor/> tag at that point. -->
+            visually, first word is level with *beginning* of p - that's where i've placed it in flow of text.
+            but textually, the insertion runs from the *last word on the page*. 
+            I *think* linking the note to an <anchor/> tag at that point might work? -->
      <add place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right" xml:id="mnote-0001">in my mind. till my Child died./</add>            
             Upon my removall to St Nickolas &amp;<lb/>
             Mr Th. was gon to London, about the suits of<lb/>
@@ -7902,7 +7902,7 @@
          <head>
             A Long story of my maide Jane Flouer &amp;<lb/>
             my selfe. vidz
-            <!-- NOTE [decoration] this has no decoration and doesn't really stand out from the rest of the text but does seem to me to be a title -->
+            <!-- NOTE [decoration] this has no decoration and doesn't really stand out from the rest of the text but does seem to me to be intended as a title -->
          </head>
          <p rend="first-line-indent">That one day I was att oswoldkirke &amp;<lb/>
             as she said was not well and she was comng<lb/>
@@ -8772,16 +8772,17 @@
             orriginall letter of my Cozen Covell about it</p>
           
        <!-- Q [structure] problem! I want to put the letter inside a sub div to makr it off from the rest of the text in the div. 
-          but that isn't allowed unless I also add <div> amrkup to the text before and after, which seems wrong here. 
-          https://tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSFLT
-       but I *think* <floatingText> is appropriate unless there's something else I've overlooked.
+          but that isn't allowed (unless I also add <div> amrkup to the text before and after, which seems wrong here). 
+             https://tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSFLT
+          but I *think* <floatingText> is appropriate unless there's something else I've overlooked.
+          is there anywhere else in the books that this could be useful?
        > The floatingText element is a member of the model.divPart class, and can thus appear within any division level element in the same way as a paragraph. For example, texts such as the Decameron or the Arabian Nights might be regarded as containing many floating texts embedded within another single text, the framing narrative, rather than as groups of discrete texts in which the fragments of framing narrative are regarded as front or back matter.
        <quote> is also possible? but then it seems <head> is not allowed.
        can also use <quote> inside for the text of the letter.
        --> 
        <floatingText> 
-         <body rend="post(rule)">
-            <!-- NOTE the body post 'rule' is a short line align right -->
+         <body rend="post(rule_short)">
+            <!-- Q [align] the body post 'rule' is a short line *align right* alignment not encoded atm -->
          <head rend="pre(rule) post(rule)"> 
          
             My Cosen Coulvills his letter to me uppon<lb/>
@@ -8790,7 +8791,8 @@
             Rectified those faults: <date when-custom="1662-08-22" type="letter">Aug.22 1662</date>.
          </head>
           
-         <!-- Q how many letters are there in the books and is it worth doing proper correspondence markup... and/or... -->
+         <!-- Q how many letters are there in the books and is it worth doing correspDesc markup at all...? there are quite a lot of letters mentioned/summarised in book 3, though i don't think any are transcribed in full like this one.
+            and/or... -->
          <!-- Q [authors]? it's not literary but it is written by someone else. -->
          <p>Deare Cosine./</p>
          <p>I haue seriously perused all the writings you sent me<lb/>
@@ -8844,7 +8846,7 @@
             need no feare of this. I intend God willing to sett<lb/>
             forward towards newton <date when-custom="1662-09-01">the first of Septembr</date> &amp; shall<lb/>
             Reason the case with my Cosen Thornton about the Paper Book<lb/>
-            and your doubts &amp; hope to give sattisfaction to you both.<!-- Q [decoration] "you both" was transcribed with text underline, but in fact looks like a short rule marking the end of the quoted letter. added to @rend. -->
+            and your doubts &amp; hope to give sattisfaction to you both.<!-- NOTE [decoration] "you both" was text underline, but i think is a short rule marking the end of the quoted letter. added to @rend. -->
          </p>
          </body>
        </floatingText> 
@@ -9973,7 +9975,7 @@
             Kingdom &amp; that not for my sake but for the sake of [m]y<lb/>
             Deare &amp; holy Jesus my saveur my god &amp; my salvatn<lb/>
             in whoes name I humbly conclud these imperfict Prais<lb/>
-            saing as he hath taught us. <seg rend="larger">Our father which art in</seg>
+            saing as he hath taught us. <seg rend="size(larger)">Our father which art in</seg>
                <!-- NOTE [decoration] in fact all of 'Our father which art in' looks bigger to me. [endnote] 'Our father' is in larger script.-->
            </p>
           
@@ -10382,7 +10384,7 @@
          <!-- unpaginated: 282 -->
 
          <fw>
-            <add place="centre top margin" hand="#uncertain">T.C.A.T
+            <add place="top margin centre" hand="#uncertain">T.C.A.T
             <note place="end">
                <p> [add] Inserted above the first line in a different ink.</p>
                <!-- Q does the hand look different too? -->
