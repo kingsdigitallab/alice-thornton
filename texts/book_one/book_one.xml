@@ -134,6 +134,9 @@
          diagonal-left-margin
          horiz-short-right
        ** am I going to have to check all these again? found some erroneous pre/post. :-| **
+          NOTE [rendition keywords] 
+            - pre/post "rule" assumed default = ruled line is full width of text (or of margin text). not sure if there are any shorter ones in this book (there are a few in BoR). 
+            - additions: double/pattern thick (double and pattern should be exclusive; thick follows double, not sure it's combined anywhere with pattern)
          
        events tagging:
            milestone/anchor pairs
@@ -399,10 +402,6 @@
         <fw type="pageNum">5.</fw>
         
     <div xml:id="div-005" rend="post(rule)">
-        <!-- NOTE [rendition keywords] 
-            - pre/post "rule" assumed default = ruled line is full width of text (or of margin text). not sure if there are any shorter ones in this book (there are a few in BoR). 
-            - additions: double/thick/pattern
-        -->
         <p>
             <milestone n="ev1" unit="event"/>
             <persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the fifth childe of<lb/>
@@ -502,9 +501,9 @@
     
         <fw type="pageNum">8.</fw> <lb/>
             <fw type="header" rend="post(rule)" corresp="#div-009">A preservation in the Meassells.</fw><lb/>
-            <!-- Q [tagging] [layout] will need discussion. 
-                This header is almost certainly the title for the section div009 even though it's not inside that div - have linked to the div with corresp.
-                [endnote] NB. Despite the title at the top of the page, the details of the ‘preservation’ only begins part way down the page, which is where the ‘main body’ of the text proper begins.
+            <!-- Q [tei] may need discussion? 
+                This header is almost certainly meant to be the title for the section div009 even though it's not inside that div - have linked it to the div using @corresp.
+              [endnote] NB. Despite the title at the top of the page, the details of the ‘preservation’ only begins part way down the page, which is where the ‘main body’ of the text proper begins.
         -->
         
     
@@ -573,7 +572,7 @@
             
                 <fw type="pageNum">9. </fw>
                 <fw type="header" rend="post(rule)">From the Smale Pox.</fw><lb/>
-                <!-- NOTE header is not a section title -->
+                <!-- NOTE this header is not a section title -->
             
             That I was spaired from death at that time, and<lb/>
                  by his blessing, uppon the use of good meanes was <lb/>
@@ -622,7 +621,7 @@
                 <seg rend="underline align(centre)"><date type="religion" when-custom="1631">1631</date>.</seg>
                 <!-- NOTE [decoration] bearing in mind we might not display the alignment anyway... have added it to rend because @place isn't allowed in seg. -->
                 <lb/>
-                The first dawning of Gods Spirit in my heart.<!-- NOTE [tagging] [layout] this is right aligned -->
+                The first dawning of Gods Spirit in my heart.<!-- NOTE [tagging] [layout] this is actually right aligned -->
             </head>
             <milestone n="ev5" unit="event"/>
             <p>After this, it pleased God to come into my Soule<lb/>
@@ -635,11 +634,12 @@
                 <!-- Q [teams] [review] transcriber query (bib conventions). check in autumn review --> v. 4<hi rend="superscript">th</hi>
             </p>
                 <anchor n="ev5" type="event"/>
+        <!-- NOTE [bib] biblical example <quote> tag using @source attribute for bible citation. (because @source is used here it's not necessary to mark up "Psal. 147" in text, but if you want to do it anyway, use <ref>)
+            @source format: Bookname_chapnum / Bookname_chapnum_versenum. use hyphens, commas if a list. (spaces are allowed)
+            @type - I think might have started list of quote types (direct, paraphrase etc) in teams doc. -->
             <p><quote type="direct" source="#Psalms_147">He counteth the starres &amp; calleth them all by theire<lb/>
                  Names.</quote>
-                <!-- NOTE [bib] biblical example <quote> tag using @source attribute for bible citation. (because @source is used here it's not necessary to mark up "Psal. 147" in text, but if you want to do it anyway, use <ref>)
-                    @source format: Bookname_chapnum / Bookname_chapnum_versenum . 
-                    @type - I think might have started list of quote types (direct, paraphrase etc) in teams doc. --> / From whence there came into my heart<lb/>
+                / From whence there came into my heart<lb/>
                  a forceable consideration, of the Incomprehencable<lb/>
                  Power, &amp; infinite Majestie of Allmighty God, who<lb/>
                  by his Wisdome made all things, in Heaven &amp; Earth.<lb/>
@@ -1027,7 +1027,7 @@
         
         <div xml:id="div-018">
 
-           <!-- NOTE [style] vertical text writing direction top to bottom - @style looks right in boilerplate. have placed marginal note outside head, though it's partly inside on page - not part of the title. -->
+           <!-- NOTE [style] vertical text writing direction top to bottom - @style looks right in boilerplate. have placed marginal note outside head, though it's partly inside on page - but it's not part of the title. -->
             <note xml:id="mnote-0002" place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right">
                 <milestone n="ev15" unit="event"/>
                 <p><persName ref="ppl:tw1" n="per56">My L. <hi rend="superscript">d</hi> Straford</persName> tooke Ship for <placeName ref="place:Engl_094" n="place422">England</placeName> w:<hi rend="superscript">th</hi> <persName ref="ppl:ww3" n="per57">my Lord Raby</persName> his son<lb/>
@@ -1432,7 +1432,7 @@
                  was prepared for the Lords dealing with him in his<lb/>
                  Providence, either for life, or Death.<anchor n="ev18" type="event"/></p>
           <milestone n="ev19" unit="event"/><!-- NOTE event CW will -->
-            <p>About <date when-custom="1640-11-29">tuesday the 29<hi rend="superscript">th</hi> of No. 1640</date>.<!-- NOTE [dates] weekday. this date is impossible: 29 nov 1640 was a Sunday. using 29th but maybe review weekday days more generally later, and see whether they can be verified. --> he called for his<lb/>
+            <p>About <date when-custom="1640-11-29">tuesday the 29<hi rend="superscript">th</hi> of No. 1640</date>.<!-- NOTE [dates] weekday. this date is impossible? 29 nov 1640 was a Sunday. using 29th but maybe review weekday days more generally later, and see whether they can be verified. --> he called for his<lb/>
                  Will; commanding <persName ref="ppl:ww2" n="per94">my Co. wandesforde</persName> one of his<lb/>
                  Executors to the said will. <add place="above">to read it</add> it being Signed, Sealed<lb/>
             
@@ -1698,7 +1698,7 @@
             </p>
             <p> He shall enter into peace: they shall rest in theire <lb/>
                  beds, each one walk<add place="above">e</add>ing in his uprightnesse.</p>
-            <milestone unit="rule" rend="rule"/><!-- NOTE I think not a new div marker though it is full width. 
+            <milestone unit="undetermined" rend="rule"/><!-- NOTE I think not structural though it is full width. 
                 [endnote] This is only a faint line. marks the end of the biblical citation-->
             
             <p>Death is the common lott of all mankinde, since that<lb/>
@@ -8001,7 +8001,7 @@
                  Corporall foode; soe my Soule may (from the hunger<lb break="no"/>
                  -starving of sinne), bee strengthened by thy blessed<lb/>
                  bodie, &amp; washed by thy precious blood from all her<lb/>
-                 sinnes. Amen. <g/><note place="end">
+                 sinnes. Amen. <g ref="#maybe"/><note place="end">
                     <p rend="Endnote Text"> [decoration] Flourish after ‘Amen’.</p>
                 </note>
                 <!-- Q [teams] [glyph] [decoration] maybe <g> tag???? it looks a bit like some forms of "fleuron" ('stylized flowers or leaves')? -->
@@ -13422,7 +13422,7 @@
 
             
                 <fw type="pageNum">285.</fw>
-            <milestone unit="rule" rend="rule"/>
+            <milestone unit="undetermined" rend="rule"/>
             <!-- NOTE [tagging] this ruled line (full width) does not appear to be div - there's no break in poem. => milestone -->
             <l>If wronged, he only is my Right.</l>
             <l>If sad, he, is my Joy, &amp; Soules delight;</l>

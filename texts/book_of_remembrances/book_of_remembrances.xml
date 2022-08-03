@@ -350,7 +350,7 @@
          </docTitle>
          <docAuthor>  
          <persName ref="ppl:awt1" n="per1" type="monogram">
-           [ATW] <!-- Q [symbol] ATW = decorative monogram. maybe <figure> or similar ?? -->
+           [ATW] <!-- Q [symbol] ATW = decorative monogram. maybe <figure> ?? -->
          </persName>
          </docAuthor>
            <note place="end" type="context">
@@ -371,7 +371,7 @@
      
      
       
-     <!-- Q [teams] page number is present: should be transcribed? -->
+     <!-- Q [teams] page number is present: should be transcribed? general policy on page numbers on otherwise blank pages? -->
       <!-- [endnote] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
      
 
@@ -549,9 +549,8 @@
          
          <div xml:id="div-008">
            
-<!-- transcription: Body -->
            
-        <!-- Q [review] double check this on teams? Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
+        <!-- Q [review][structure] double check this on teams? Change in appearance here does suggest that this was intended as the beginning of the body text. But in fact this section is preface; the same passage in B1 is titled Preface and more obviously part of the front matter. For now anyway, tagged in <front>. -->
          
          <!-- NOTE [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure it adds any useful info to do it every time.  -->
            
@@ -577,10 +576,10 @@
           even from the first beginng of my dais<lb/>
           &amp; with a thankfull heart doe returne<lb/>
           him the Glory <add place="superimposed">for</add>
-             <!-- [endnote] Overwritten, check MS.? still not sure about this.-->
+             <!-- Q [review]? [endnote] Overwritten, check MS.? still not sure about this.-->
              my birth, baptisme in<lb/>
           <add place="superimposed">the</add>
-           <!-- [endnote] Also overwritten: could be either ‘this’ or ‘His’-->
+           <!-- Q [review]? [endnote] Also overwritten: could be either ‘this’ or ‘His’-->
             most holy name <add place="above">of God</add> &amp; education in that<lb/>
           true faith by <rs ref="ppl:cw1 ppl:aow1" n="per7" type="person">my Pieous &amp; Religious<lb/>
           Parents</rs> who instilld the princepalls of his <lb/>
@@ -611,7 +610,7 @@
 
      <body>
       <!-- NOTE year 1631 -->
-       <div xml:id="div-009">
+       <div xml:id="div-009" rend="post(rule_short)">
          <fw>
            <fw xml:id="mnote-0001" place="left margin">
              <g ref="#u8284">⁜</g><!-- NOTE [unicode] dotted cross symbol -->
@@ -667,8 +666,8 @@
           God shall spaire me so long to his<lb/>
           Glory &amp; praise even to my lives end<lb/>
           Amen. &amp; that for my Saviours Sake<lb/>
-          alone. the Alpha &amp; Omega. Am<seg rend="underline">en .</seg>
-           <!-- Q [teams] [formatting] underline looks like a short line end marker to me, rather than for emphasis. -->
+          alone. the Alpha &amp; Omega. Amen .
+           <!-- Q removed text underline under "en ." and added to rend as post(rule_short) but need to encode alignment of these. -->
          </p>
          </div>
             <pb n="12"/>
@@ -723,8 +722,9 @@
           months which hapened that day to be Psal<lb/>
           147: verce the 4<hi rend="superscript">th</hi>
          </p>
+           <!-- Q [bib] example biblical citation using @source. added subtype=biblical since we might now be tagging other types of text as well, but maybe reverse type and subtype in that case? --> 
          <p><quote type="direct" subtype="biblical" source="#Psalms_147_4">He counteth the Starres &amp; caleth<lb/>
-          them all by there names.</quote><!-- Q [bib] example biblical citation using @source. added subtype=biblical since we might now be tagging other types of text as well, but maybe reverse type and subtype in that case? --> from<lb/>
+          them all by there names.</quote> from<lb/>
           whence there came a foresable consid<lb break="no"/>
           =eration of the Incomprehencable Powr<lb/>
           &amp; infinit maiestie of Almighty<lb/>
@@ -928,7 +928,7 @@
           my childishnesse &amp; folly that could not<lb/>
           scarse understand meane &amp; low things<lb/>
           &amp; begged of him to give me knowledge<lb/>
-          <!-- [endnote] Pen stroke down at start of this line. -->
+          <!-- Q [review]? [endnote] Pen stroke down at start of this line. -->
           wisdome, &amp; understanding to guide<lb/>
           &amp; preserve me to my lives end for <lb/>
           his mercys sake.<anchor n="ev9" type="event"/> Amen.</p>
@@ -949,7 +949,7 @@
         
          <p>
            <milestone n="ev10" unit="event"/>
-           <!-- NOTE [dates] date added from external evidence [CB] -->
+           <!-- NOTE [dates] date supplied from external evidence [CB] -->
            <date when-custom="1639-06">Having come</date> over into <placeName ref="place:Engl_094" n="place12">England</placeName><lb/>
           with <rs ref="ppl:aow1" n="per36" type="person">my d: mother</rs> to <placeName>the bath</placeName> for the stone<anchor n="ev10" type="event"/><lb/>
           <milestone n="ev11" unit="event"/>in our returne back to <placeName ref="place:Irel_096" n="place13">Ireland</placeName> <date when-custom="1639-08-22">August<lb/>
@@ -973,9 +973,10 @@
           his holy name for ever &amp; for ever Amen</p>
          <anchor n="ev11" type="event"/>
         
-        <milestone unit="rule" rend="short-rule-left-margin"/><!-- Q [teams] [formatting] [rendition keywords] hmm. maybe this is meant to be a structural marker? maybe should be added to <p>. nb it is at a slight angle but not enough to call diagonal? -->
+        
+        <!-- Q [marker] added to p rather than milestone. nb I think not angled enough to call diagonal. -->
            <!-- msDescription [endnote] At a slight angle from margin over the top of ‘I’. -->
-         <p>
+         <p rend="pre(rule_short_left)">
            <milestone n="ev12" unit="event"/><date when-custom="1639-08"/>
            I had a second preservation from drown<add place="above">ing</add><lb/>
           out of the ship at that time when a<lb/>
@@ -1004,7 +1005,8 @@
           6 daies contineuance after a relaps<lb/>
           by goeing to church &amp; came sick home.<lb/>
           who departed sweetly in the Lord, to the <lb/>
-          infint losse of me &amp; the rest of our fami<hi rend="superscript">ly</hi><!-- Q for team CHECK transcription consistency superscript v add>place=above (^^) at end of words at end of lines. Here "ly" written over word but not in ^..^. but looks v similar to a number that do have ^..^. --><lb/>
+          infint losse of me &amp; the rest of our fami<hi rend="superscript">ly</hi>
+           <!-- Q for team maybe check transcription consistency superscript v add>place=above (^^) at end of words at end of lines? Here "ly" written over word but not in ^..^. but looks v similar to a number that do have ^..^. --><lb/>
             <date when-custom="1640-12-03">Dec: 3<hi rend="superscript">d</hi> 40</date>: at his house in <placeName ref="place:Dubl_088" n="place14">dublin<lb/>
           in Ireland</placeName>.<anchor n="ev13" type="event"/></p>
    </div>
@@ -1035,7 +1037,7 @@
           which blessed be God in great &amp; wonderfull<lb/>
           mercy. we did &amp; came safe to Land at<lb/>
            <placeName ref="place:Beer_003" n="place20">Neston Beere</placeName>
-             <!-- [endnote] Not sure this is an ‘s’ MS looks more like an ‘i’. [looks like s to me!] -->
+             <!-- Q [review]? [endnote] Not sure this is an ‘s’ MS looks more like an ‘i’. [looks like s to me!] -->
              house. from thence to the<lb/>
           <placeName ref="place:Ches_012" n="place21">City of Chester</placeName></p>
       </div>   
@@ -1079,7 +1081,8 @@
 
        <div xml:id="div-021" rend="pre(rule_short)">
          <milestone n="ev19" unit="event"/>
-         <!-- [endnote] Short horizontal line above here too as a section break. -->
+         <!-- Q alignment of rule_short? 
+           [endnote] Short horizontal line above here too as a section break. -->
          <p>
           I got a surfit at <placeName ref="place:Rich_043" n="place24">Richmond</placeName>, with<lb/>
           eating a peice of Lobster. <date>that day</date><!-- TODO [date] fill this one in from book 1 etc --> I<lb/>
@@ -1126,7 +1129,7 @@
            <fw type="header" rend="differentInk"><date when-custom="1647/1649">1647. 48: 49.</date> </fw>
            <fw type="pageNum" rend="differentInk">23.</fw>
            
-           <!-- msDescription [endnote] Dates and page number looks to be in a darker ink than what’s written on the page. Also this particular page is far ‘neater’ than the previous – lots more space between sentences and entries.-->
+           <!-- Q msDescription? [endnote] Dates and page number looks to be in a darker ink than what’s written on the page. Also this particular page is far ‘neater’ than the previous – lots more space between sentences and entries.-->
          </fw>
        <div xml:id="div-023" rend="post(diagonal)">
          <p>
@@ -1134,12 +1137,13 @@
            <persName ref="ppl:en1" n="per48">My Cozen Edmund Norton</persName> maried<lb/>
         <persName ref="ppl:td2" n="per49">Mr Dudly</persName>s Daughter &amp; heire of.<lb/>
            <placeName ref="place:Chop_013" n="place118">Chopwell</placeName>. <persName ref="ppl:jdn1" n="per50">Jane Dudly</persName>. the <date when-custom="1647-02-10" datingMethod="#JulianSic">10<hi rend="superscript">th</hi> of<lb/>
-             February. 1647</date><!-- NOTE [dates] OS/NS unverifiable (marriage of edmund norton - Anselment couldn't find a record in registers) -->. at <placeName ref="place:Chop_013" n="place26">Chopwell</placeName>.<!-- NOTE / div rend -->
+             February. 1647</date><!-- NOTE [dates] OS/NS seems unverifiable (marriage of edmund norton - Anselment couldn't find a record in registers) -->. at <placeName ref="place:Chop_013" n="place26">Chopwell</placeName>.<!-- NOTE / div rend -->
          <anchor n="ev21" type="event"/>
          </p>
        </div>
        <div xml:id="div-024" rend="pre(rule_short) post(diagonal)">
-           <!-- [endnote] Divider lines on this page and next, solid line, of approximately [4 chars] length.-->
+           <!-- Q rule_short alignment? i guess implied left here as beginnign of section, but should be made explicit?
+             [endnote] Divider lines on this page and next, solid line, of approximately [4 chars] length.-->
          <p> 
          <milestone n="ev22" unit="event"/>
            <persName ref="ppl:en1" n="per51">My Cosen Edmund Norton</persName> died at<lb/>
@@ -1155,7 +1159,7 @@
         <milestone n="ev23" unit="event"/>
            <persName ref="ppl:cs1" n="per52">King Charles the first</persName> beheaded at<lb/>
         <placeName ref="place:Whit_084" n="place28">White hall, London</placeName> the <date datingMethod="#JulianMar" when-custom="1648-01-30">30<hi rend="superscript">th</hi> of Janeuary,<lb/>
-        1648</date>.<!-- NOTE [dates] this one is definitely OS -->
+        1648</date>.<!-- NOTE [dates] this one is definitely OS... -->
          <anchor n="ev23" type="event"/>
          </p>
        </div>
@@ -1201,7 +1205,7 @@
         <placeName ref="place:Hips_022" n="place32">Hipswell</placeName> wath goeing to <placeName ref="place:Rich_043" n="place33">Richmond</placeName><lb/>
            to <persName ref="ppl:ww1" n="per57">my uncle will. wandesforde</persName>, the <date when-custom="1651-03-31">31
             <lb/>
-             of March 1651</date><!-- NOTE [dates] transcriber query about date. 31 is the right date but might need extra tagging if it really does say 21. 
+             of March 1651</date><!-- NOTE [review] [dates] transcriber query about date. 31 is the right date but might need extra tagging if it really does say 21. 
              [endnote] When margins checked, read as 21?
              -->.
            <!-- NOTE / div rend [endnote] Faint diagonal line to mark end of section.-->
@@ -1946,8 +1950,6 @@
           <date when-custom="1660-04-29">Sunday</date>:
           <space unit="line" quantity="3"/>
            <!-- [endnote] Unusually there is some space at the foot of this page – room for approximately 2-3 lines if follows spacing on the rest of that page.
-            space - "indicates an area where one might expect text that, in the judgment of the modern reader/editor was deliberately left blank in the original"
-            <space quantity="1" unit="chars"/>
            -->
        <anchor n="ev48" type="event"/>
          </p>
@@ -2363,7 +2365,7 @@
             </note> my health &amp;<lb/>
           strength againe in this miraculous<lb/>
           manner beeing still at <placeName ref="place:Oswa_041" n="place60">oswoldkirk</placeName><lb/>
-           there hapned a very great <w>an<supplied>d</supplied></w><!-- NOTE supplied changed my mind again lol. (using w tag maybe Q) --> Re=<lb break="no"/>
+           there hapned a very great <w>an<supplied>d</supplied></w><!-- NOTE supplied changed my mind again lol. using w tag only so it's clear this is a single word. --> Re=<lb break="no"/>
           =markable deliverance to me of an<lb/>
           other nature, but of as grand a<lb/>
           consequence to my beeing so much<lb/>
@@ -2829,7 +2831,7 @@
 
 <!-- transcription: Page 69 -->
 
-           <fw type="pageNum" rend="differentInk">69.<!-- msDescription [endnote] line from 9 loops round --></fw>
+           <fw type="pageNum" rend="differentInk">69.<!-- Q [endnote] line from 9 loops round --></fw>
             <lb/>
            <!-- [endnote] Page trimmed as top pf the ch cut off here.-->
           &amp; confirming, holy Sacrament, which<lb/>
@@ -2839,7 +2841,7 @@
           not that became poore that We might<lb/>
           through his grace be made rich.</p>
 
-        <p>I had not the happie oportunity to reiea<!-- [endnote] [end of word] Missing to a page trim?-->
+        <p>I had not the happie oportunity to reiea<!-- Q [review]? [endnote] [end of word] Missing to a page trim?-->
             <lb/>
           this communion but once since <rs ref="ppl:aow1" n="per174" type="person">my dr<lb/>
           mother</rs>s death although my soule had<lb/>
@@ -2851,7 +2853,7 @@
           the sacrament to my blesed mother. &amp; <lb/>
           I desired his company to <placeName ref="place:East_019" n="place69">Newton</placeName> <lb/>
             who accordingly did come, &amp; bring<lb/> 
-          <!-- [endnote] Some overwriting here, especially of initial two letters, not clear in photograph.-->
+          <!-- Q [endnote] Some overwriting here, especially of initial two letters, not clear in photograph.-->
           <persName ref="ppl:bb1" n="per176">my Cossn Ben: Browne</persName> along. when<lb/>
           we with <persName ref="ppl:wt1" n="per177">Mr Th</persName>: <persName ref="ppl:acd1" n="per178">my neece Anne Danby</persName><lb/>
          
@@ -2874,7 +2876,7 @@
          <p>This most excelent &amp; spiritull<lb/>
           mercy was not the least. but greatet<lb/>
           I aphrended to receave from God, fare<lb/>
-           surpassing all temporalls ^ <!-- Q for teams? [formatting] marks ^ here without any insertion - how to handle? if it doesn't actually point to anything metamark seems inappropriate --> inasmuch<lb/>
+           surpassing all temporalls ^ <!-- Q for teams? [formatting] marks ^ here without any insertion - how to handle? ignore? --> inasmuch<lb/>
           as Eternity does this finite beeings<lb/>
           O that my heart would breake in<lb/>
           peices at the joyfull remembrance of this<lb/>
@@ -3375,8 +3377,8 @@
           grace. that he may be established<lb/>
           before thee both heere &amp; heereafter<lb/>
           That for Jesus Christ our Ever blesed<lb/>
-          saviour :&amp; Reedemer. <seg rend="underline">Amen.</seg><!-- Q [teams] [tei] purpose of line under text here? -->
-             Amen.
+          saviour :&amp; Reedemer. 
+           <seg rend="underline">Amen.</seg> Amen.
          </p>
      </div>    
        
@@ -3576,10 +3578,10 @@
           =ted to have receavd him home in health<lb/>
           did so surprize my spirits, that I was broug<lb break="no"/>
           =ht into such a passion of sorrow &amp; griefe,<lb/>
-          [&amp;]<!-- Q add comment on teams? I'm not convinced this is a & --> into greater weakenesse of body. then<lb/>
+          &amp; into greater weakenesse of body. then<lb/>
           I had ever knowne in all my former weake<lb break="no"/>
           =nesses and troubles .in so short a space.<lb/>
-         so that I did simpathize very deeply <gap unit="char" quantity="4" reason="deleted"/><!-- NOTE possibly get checked again later - i think it could be readable. --><lb/>
+         so that I did simpathize very deeply <gap unit="char" quantity="4" reason="deleted"/><!-- NOTE possibly get checked again later - i think it could possibly be readable. --><lb/>
           in his sufferings . beeing deprived of doing<lb/>
           my Duty in his extremity. or be helpful<lb/>
           to my selfe. nor had I any hopes of the <lb/>
@@ -6221,8 +6223,9 @@
          <l> His Glory this to comfort me:</l>
          <l> And as ti’s writt Such honour shall.</l>
          <l> Even unto all his Saints befall.</l>
-         <milestone unit="rule" rend="horiz-short-right"/><!-- Q [teams] [formatting] [renditionkeywords] for milestone 
-           horizontal line about 1/4 width of page and right-aligned -->
+         <l><milestone unit="undetermined" rend="rule(short_right)"/></l>
+         <!-- Q I think not structural. 
+           horizontal line about 1/4 width of page and right-aligned. *on its own line, not just filler* -->
          <l> Judge not that feild, because it’s stuble</l>
          <l> Nor her that’s poore &amp; full of trouble.</l>
          <l> Though t’one looke baire, t’other thin,</l>
