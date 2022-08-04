@@ -331,6 +331,11 @@
              <name>Sharon Howard</name>
              <desc>final tweaks to div tagging and added xml:id (dropped @n)</desc>
            </change>
+           <change>
+             <date>2022-08-04</date>
+             <name>Sharon Howard</name>
+             <desc>added xml:id to paragraphs. todo: add xml:id to pb but these need to be renumbered first.</desc>
+           </change>
          </listChange>
             
       </revisionDesc> 
@@ -362,7 +367,7 @@
          </persName>
          </docAuthor>
            <note place="end" type="context">
-               <p rend="Endnote Text">
+               <p xml:id="p-0001" rend="Endnote Text">
                  [context] The correct way for married women to monogram is 'Begin with her first name initial, followed by the married last name initial, and end with his first name initial.' 
                </p>
             </note>
@@ -390,7 +395,7 @@
           <!-- [endnote] Looks overwritten, possible meant to be 2 given that next number is 3, also for a recto leaf (looks like a 2 underneath).-->
          </fw>
      
-       <p>
+       <p xml:id="p-0002">
          <milestone n="ev1" unit="event"/>
          <persName ref="ppl:awt1" n="per2">Alice Wandesforde</persName> the<lb/>
           fifth childe of <persName ref="ppl:cw1" n="per3">Christopher<lb/>
@@ -402,10 +407,10 @@
           the clock in the after noone, in<lb/>
           the yeare. 1625</date>: Baptised<lb/>
           <date when-custom="1626-02-14">the next day</date>.</p>
-         <p>Wittnesses, <persName ref="ppl:rl1" n="per4">Mr Lassells</persName> minister<lb/>
+         <p xml:id="p-0003">Wittnesses, <persName ref="ppl:rl1" n="per4">Mr Lassells</persName> minister<lb/>
           of <placeName ref="place:Kirk_030" n="place3">Kirklington</placeName>. <persName ref="ppl:awn1" n="per5">Mrs Anne <lb/>
             Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.<anchor n="ev1" type="event"/></p>
-         <p>
+         <p xml:id="p-0004">
            <milestone unit="undetermined" rend="diagonal"/>
            <!-- [endnote] A slightly angled slash under Best and beyond full stop.-->
          </p>
@@ -505,7 +510,7 @@
          <l>Lord ever keepe me from Presumptious sins</l>
          <l>And make me Chuse what thou seest best</l>
          <l>Lord lead me by thy hand into thy Rest.</l>
-         <p> Amen.</p>
+         <p xml:id="p-0005"> Amen.</p>
          </div>
             <pb n="7"/>
 
@@ -515,7 +520,7 @@
          <head>
            observations.
          </head>
-         <p>These things be comely &amp; pleasant<lb/>
+         <p xml:id="p-0006">These things be comely &amp; pleasant<lb/>
           to see, &amp; worthy of honnor from the<lb/>
           beholders; A young Saint. An old<lb/>
           martyr; A Religious Souldier A<lb/>
@@ -538,7 +543,7 @@
          <head>
             Prayer.
          </head>
-         <p>Lord lead me through the<lb/>
+         <p xml:id="p-0007">Lord lead me through the<lb/>
           Red Sea of this World,<lb/>
           Into the Land of Promisse,<lb/>
           Forget my manie iniquities,<lb/>
@@ -547,7 +552,7 @@
           Gratious goodnesse and my.<lb/>
           most extreame misery. for<lb/>
           our Lord Jesus Christ his Sake.</p>
-         <p> Amen.</p>
+         <p xml:id="p-0008"> Amen.</p>
          </div>
       
             <pb n="9"/>
@@ -567,7 +572,7 @@
             </fw>
             <fw type="pageNum">9</fw>
          </fw>
-         <p>For as much as it is the duty.<lb/>
+         <p xml:id="p-0009">For as much as it is the duty.<lb/>
           of every true Christian to take<lb/>
           notice of Almighty God our Fathe’rs<lb/>
           gracious dealings with them from the<lb/>
@@ -628,7 +633,7 @@
             </fw>
          </fw>
          <milestone n="ev2" unit="event"/>
-         <p>
+         <p xml:id="p-0010">
             <date when-custom="1630">When</date> I was left at <placeName ref="place:Rich_043" n="place4">Richmond</placeName> 
             <subst>
               <del rend="strikethrough">in</del>
@@ -656,7 +661,7 @@
             <fw type="header"><date>1631</date></fw>
             <fw type="pageNum">11</fw>
          </fw>
-         <p>But it pleased the Lord in great<lb/>
+         <p xml:id="p-0011">But it pleased the Lord in great<lb/>
           mercy upon the hearty Prayers &amp;<lb/>
           requests of my deare Aunt. that<lb/>
           I was spaired &amp; upon the use of good<lb/>
@@ -686,7 +691,7 @@
             <fw type="pageNum">12</fw>
            <fw type="header">163i.</fw><!-- TODO [review] conventions change - i>arabic numerals -->
          </fw>
-        <p>
+        <p xml:id="p-0012">
          <milestone n="ev3" unit="event"/>
           <date when-custom="1631">Beeing removed</date> from <placeName ref="place:Rich_043" n="place5">Richmond</placeName><lb/>
           to <placeName ref="place:Lond_080" n="place6">London</placeName> by <rs ref="ppl:cw1" n="per13" type="person">my Father</rs>s &amp; <rs ref="ppl:aow1" n="per14" type="person">mother</rs>s<lb/>
@@ -718,7 +723,7 @@
             <fw type="pageNum">13.</fw>
          </fw>
         <milestone n="ev4" unit="event"/>
-         <p>After this it pleased the Lord to<lb/>
+         <p xml:id="p-0013">After this it pleased the Lord to<lb/>
           begin to come into my soule by some<lb/>
           beames of his mercy in puting good <lb/>
           Thoughts into my mind to consider<lb/>
@@ -730,7 +735,7 @@
           147: verce the 4<hi rend="superscript">th</hi>
          </p>
            <!-- Q [bib] example biblical citation using @source. added subtype=biblical since we might now be tagging other types of text as well, but maybe reverse type and subtype in that case? --> 
-         <p><quote type="direct" subtype="biblical" source="#Psalms_147_4">He counteth the Starres &amp; caleth<lb/>
+         <p xml:id="p-0014"><quote type="direct" subtype="biblical" source="#Psalms_147_4">He counteth the Starres &amp; caleth<lb/>
           them all by there names.</quote> from<lb/>
           whence there came a foresable consid<lb break="no"/>
           =eration of the Incomprehencable Powr<lb/>
@@ -781,7 +786,7 @@
             </fw>
             <fw type="pageNum">15</fw>
          </fw>
-         <p>
+         <p xml:id="p-0015">
       <milestone n="ev5" unit="event"/>
            <date when-custom="1631">There was</date> a great fire in the next<lb/>
           House to <rs ref="ppl:cw1" n="per19" type="person">my father</rs>s in <placeName ref="place:StMa_082" n="place8">St martins<lb/>
@@ -815,7 +820,7 @@
                <date>1632.</date>
             </fw>
          </fw>
-         <p>
+         <p xml:id="p-0016">
            <milestone n="ev6" unit="event"/>It pleased God to give me a<lb/>
           safe passage with <rs ref="ppl:aow1" n="per24" type="person">my mother</rs> &amp; her<lb/>
           familie into <placeName ref="place:Irel_096" n="place9">Ireland</placeName> a bout the yeir<lb/>
@@ -845,7 +850,7 @@
             </fw>
             <fw type="pageNum">17.</fw>
          </fw>
-         <p>learning also all the other accomp<lb break="no"/>
+         <p xml:id="p-0017">learning also all the other accomp<lb break="no"/>
           =lighmets of working silkes &amp; <lb/>
           sweetemeats &amp; by <rs ref="ppl:aow1" n="per30" type="person">my deare mother</rs>s<lb/>
           vertuous provision. &amp; caire she brought<lb/>
@@ -909,7 +914,7 @@
             </fw>
             <fw type="pageNum">19.</fw>
          </fw>
-         <p><milestone n="ev8" unit="event"/>While we were in <placeName ref="place:Irel_096" n="place10">Ireland</placeName> there was<lb/>
+         <p xml:id="p-0018"><milestone n="ev8" unit="event"/>While we were in <placeName ref="place:Irel_096" n="place10">Ireland</placeName> there was<lb/>
           a fire in our house in <placeName ref="place:Dubl_088" n="place11">Dublin</placeName> which by<lb/>
           a providence was quenched with out<lb/>
            much harme.<date when-custom="1637/1638"/><anchor n="ev8" type="event"/></p>
@@ -919,7 +924,7 @@
        <!-- NOTE year 1638 -->
 
         <div xml:id="div-015">       
-         <p>
+         <p xml:id="p-0019">
            <milestone n="ev9" unit="event"/>
             <fw xml:id="mnote-0002" type="header" place="left margin"><date when-custom="1638">38</date>:</fw>. 
            About the time I was 12 years old. I<lb/>
@@ -954,7 +959,7 @@
             </fw>
          </fw>
         
-         <p>
+         <p xml:id="p-0020">
            <milestone n="ev10" unit="event"/>
            <!-- NOTE [dates] date supplied from external evidence [CB] -->
            <date when-custom="1639-06">Having come</date> over into <placeName ref="place:Engl_094" n="place12">England</placeName><lb/>
@@ -963,12 +968,12 @@
           22<hi rend="superscript">th</hi> 39</date>. I with the rest of the Ship &amp;<lb/>
           the passengers was delivired from that<lb/>
            great &amp; terable Sorme<note place="end" type="word">
-               <p rend="Endnote Text"> [word] Sic for ‘Storme’.</p>
+               <p xml:id="p-0021" rend="Endnote Text"> [word] Sic for ‘Storme’.</p>
             </note> in neuton<lb/>
           water where there was 5 ships cast<lb/>
           away before we tooke ship. but the<lb/>
            same great God that maketh the stomes<note place="end" type="word">
-               <p rend="Endnote Text"> [word] stormes?</p>
+               <p xml:id="p-0022" rend="Endnote Text"> [word] stormes?</p>
             </note>
             <lb/>
           to seace brought us safly out of that<lb/>
@@ -983,7 +988,7 @@
         
         <!-- Q [marker] added to p rather than milestone. nb I think not angled enough to call diagonal. -->
            <!-- msDescription [endnote] At a slight angle from margin over the top of ‘I’. -->
-         <p rend="pre(rule_short_left)">
+         <p xml:id="p-0023" rend="pre(rule_short_left)">
            <milestone n="ev12" unit="event"/><date when-custom="1639-08"/>
            I had a second preservation from drown<add place="above">ing</add><lb/>
           out of the ship at that time when a<lb/>
@@ -1007,7 +1012,7 @@
             </fw>
             <fw type="pageNum">21.</fw>
          </fw>
-         <p><milestone n="ev13" unit="event"/>It pleased God to call for <rs ref="ppl:cw1" n="per37" type="person">my deare<lb/>
+         <p xml:id="p-0024"><milestone n="ev13" unit="event"/>It pleased God to call for <rs ref="ppl:cw1" n="per37" type="person">my deare<lb/>
           &amp; Hon:<hi rend="superscript">red</hi> Father</rs> by a feavour of<lb/>
           6 daies contineuance after a relaps<lb/>
           by goeing to church &amp; came sick home.<lb/>
@@ -1022,7 +1027,7 @@
 
    <div xml:id="div-018" rend="pre(rule)">   
      <milestone n="ev14" unit="event"/>
-         <p>Twas amongst the many 1000 of others<lb/>
+         <p xml:id="p-0025">Twas amongst the many 1000 of others<lb/>
           Protestants in <placeName ref="place:Irel_096" n="place16">Ireland</placeName> miraculously pre=<lb break="no"/>
           =served from that Horrid Rebellion in Ire<hi rend="superscript">ld</hi><lb/>
             which broke out, &amp; was discovred in <placeName ref="place:Dubl_088" n="place17">Dublin</placeName><lb/>
@@ -1036,7 +1041,7 @@
           fire &amp; sword to all in generall. till it<lb/>
           was known to be prevented in <placeName ref="place:Dubl_088" n="place18">Dublin</placeName>.<anchor n="ev14" type="event"/><lb/>
            <milestone n="ev15" unit="event"/>but we were toss<note place="end" type="word">
-               <p rend="Endnote Text"> [word] Second ‘s’ could be an e.</p>
+               <p xml:id="p-0026" rend="Endnote Text"> [word] Second ‘s’ could be an e.</p>
             </note>d with frights &amp; Alarms<lb/>
           for 14 daies after<anchor n="ev15" type="event"/> till <rs ref="ppl:aow1" n="per38" type="person">my mother</rs> did<lb/>
            get over with all her family to <placeName ref="place:Ches_012" n="place19">Weschest<add place="above">er</add></placeName>
@@ -1057,7 +1062,7 @@
             <fw type="header">
                <date when-custom="1641/1644"><seg rend="underline">1641</seg>: <seg rend="underline">42</seg>. <seg rend="underline">43</seg>. 44.</date></fw>
          </fw>
-         <p>
+         <p xml:id="p-0027">
            <milestone n="ev16" unit="event"/>
         <date when-custom="1642"/><!-- Q [dates] CHECK does this get added to both evs in div and if not why not -->
            I got the smale Pox att <placeName ref="place:Ches_012" n="place22">weschester</placeName><lb/>
@@ -1075,7 +1080,7 @@
         -->
 
        <div xml:id="div-020" rend="pre(rule_short_left)">
-         <p>
+         <p xml:id="p-0028">
          <milestone n="ev18" unit="event"/>
           we were prevented from the siege at<lb/>
           <placeName ref="place:York_060" n="place23">yorke</placeName> by <persName ref="ppl:td1" n="per42">Mr Danby</persName>s advice beeing<lb/>
@@ -1090,7 +1095,7 @@
          <milestone n="ev19" unit="event"/>
          <!-- Q alignment of rule_short? 
            [endnote] Short horizontal line above here too as a section break. -->
-         <p>
+         <p xml:id="p-0029">
           I got a surfit at <placeName ref="place:Rich_043" n="place24">Richmond</placeName>, with<lb/>
           eating a peice of Lobster. <date>that day</date><!-- TODO [date] fill this one in from book 1 etc --> I<lb/>
           had taken Phisick. which had like to<lb/>
@@ -1113,7 +1118,7 @@
      
        <div xml:id="div-022" rend="pre(rule_short_left)">
          <milestone n="ev20" unit="event"/>
-         <p>
+         <p xml:id="p-0030">
             <persName ref="ppl:kwd1" n="per46">my Sister Danby</persName> died at <placeName ref="place:Thor_056" n="place25">Thorpe</placeName> 
            <date when-custom="1645-09-10">Sept 10<hi rend="superscript">th</hi>
             <lb/>
@@ -1140,7 +1145,7 @@
            <!-- Q msDescription? [endnote] Dates and page number looks to be in a darker ink than what’s written on the page. Also this particular page is far ‘neater’ than the previous – lots more space between sentences and entries.-->
          </fw>
        <div xml:id="div-023">
-         <p>
+         <p xml:id="p-0031">
          <milestone n="ev21" unit="event"/>
            <persName ref="ppl:en1" n="per48">My Cozen Edmund Norton</persName> maried<lb/>
         <persName ref="ppl:td2" n="per49">Mr Dudly</persName>s Daughter &amp; heire of.<lb/>
@@ -1151,7 +1156,7 @@
        </div>
        <div xml:id="div-024" rend="pre(rule_short_left)">
            <!-- [endnote] Divider lines on this page and next, solid line, of approximately [4 chars] length.-->
-         <p> 
+         <p xml:id="p-0032"> 
          <milestone n="ev22" unit="event"/>
            <persName ref="ppl:en1" n="per51">My Cosen Edmund Norton</persName> died at<lb/>
            <placeName ref="place:York_060" n="place27">Yorke</placeName> of a pluresy, or stick in his<lb/>
@@ -1162,7 +1167,7 @@
        
      <!-- NOTE year 1649 -->
        <div xml:id="div-025" rend="pre(rule_short_left)">  
-         <p>
+         <p xml:id="p-0033">
         <milestone n="ev23" unit="event"/>
            <persName ref="ppl:cs1" n="per52">King Charles the first</persName> beheaded at<lb/>
         <placeName ref="place:Whit_084" n="place28">White hall, London</placeName> the <date datingMethod="#JulianMar" when-custom="1648-01-30">30<hi rend="superscript">th</hi> of Janeuary,<lb/>
@@ -1172,7 +1177,7 @@
          </p>
        </div>
        <div xml:id="div-026" rend="pre(rule_short_left)">
-         <p> 
+         <p xml:id="p-0034"> 
          <milestone n="ev24" unit="event"/>
            <persName ref="ppl:jn1" n="per53">My Cozen Julian Norton</persName> died at<lb/>
         <placeName ref="place:Rich_044" n="place29">Richmond Greene</placeName> at <rs ref="ppl:mn1" type="person">her father</rs>s the<lb/>
@@ -1181,7 +1186,7 @@
          </p>
        </div>
        <div xml:id="div-027" rend="pre(rule_short_left)">
-         <p> 
+         <p xml:id="p-0035"> 
          <milestone n="ev25" unit="event"/>
            <persName ref="ppl:jn2" n="per54">my Cozen John Norton</persName> died at <placeName ref="place:StNi_050" n="place30">S<hi rend="superscript">t</hi>:<lb/>
         Nickolas</placeName>.<date when-custom="1646"/>
@@ -1189,7 +1194,7 @@
          </p>
        </div>
        <div xml:id="div-028">
-         <p> 
+         <p xml:id="p-0036"> 
          <milestone n="ev26" unit="event"/>
            <persName ref="ppl:eo1" n="per55">my Uncle Sir Ed: Osborne</persName> died at <placeName ref="place:Kive_029" n="place31">Keevet<add place="above">n</add></placeName>
             <lb/>
@@ -1208,7 +1213,7 @@
             <fw type="header"><date when-custom="1651">1651</date>.</fw>
          </fw>
          <milestone n="ev27" unit="event"/>
-         <p> <persName ref="ppl:gw1" n="per56">my brother George Wandesforde</persName><lb/>
+         <p xml:id="p-0037"> <persName ref="ppl:gw1" n="per56">my brother George Wandesforde</persName><lb/>
            was drouned Riding over <geogName>the Swaile</geogName> at<lb/>
         <placeName ref="place:Hips_022" n="place32">Hipswell</placeName> wath goeing to <placeName ref="place:Rich_043" n="place33">Richmond</placeName><lb/>
            to <persName ref="ppl:ww1" n="per57">my uncle will. wandesforde</persName>, the <date when-custom="1651-03-31">31
@@ -1221,7 +1226,7 @@
          <anchor n="ev27" type="event"/>
 </div>
        <div xml:id="div-030" rend="pre(rule_short_left)">
-         <p> 
+         <p xml:id="p-0038"> 
          <milestone n="ev28" unit="event"/>
            <persName ref="ppl:mny1" n="per58">My Cozen mary Norton</persName> was Married<lb/>
            to <persName ref="ppl:jy1" n="per59">Mr John Vorke</persName> at <rs ref="ppl:mn1" n="per60" type="person">her father</rs>s<lb/>
@@ -1231,7 +1236,7 @@
          </p>
        </div>
        <div xml:id="div-031" rend="pre(rule_short_left)">
-         <p> 
+         <p xml:id="p-0039"> 
          <milestone n="ev29" unit="event"/>
            <persName ref="ppl:cw2" n="per61">My Brother Christopher Wandesford</persName><lb/>
            married <persName ref="ppl:jl1" n="per62">Sir John Lowther</persName>s eldest<lb/>
@@ -1242,7 +1247,7 @@
        </div>
        <div xml:id="div-032" rend="pre(rule_short_left)">
          <!-- [endnote] This [pre-rule] line is more diagonal. -->
-         <p> 
+         <p xml:id="p-0040"> 
          <milestone n="ev30" unit="event"/>
            My Selfe <persName ref="ppl:awt1" n="per64">Alice Wandesforde</persName> was<lb/>
            married to <persName ref="ppl:wt1" n="per65">William Thornton Esquire</persName><lb/>
@@ -1262,7 +1267,7 @@
             <fw type="header"><date when-custom="1652">1652</date>.</fw>
             <fw type="pageNum">25.</fw>
          </fw>
-         <p>
+         <p xml:id="p-0041">
       <milestone n="ev31" unit="event"/>
            I began my greate Sickenesse affter<lb/>
           I came from <placeName ref="place:Burn_005" n="place37">Barne Parke</placeName> the first time<lb/>
@@ -1281,7 +1286,7 @@
        <div xml:id="div-034" rend="pre(rule)">
          <!-- [endnote] This is a solid line and added later as it crosses through some of the next line. Not ruled. -->
         <milestone n="ev34" unit="event"/>
-         <p>
+         <p xml:id="p-0042">
            <persName ref="ppl:atc1" n="per69">Alice Thornton</persName> my Second Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place41">Hipswell</placeName> the <date datingMethod="#JulianMar" when-custom="1653-01-03">3<hi rend="superscript">d</hi> of Janeuary<lb/>
          <fw xml:id="mnote-0004" place="left margin" rend="underline">1653</fw></date>
@@ -1291,7 +1296,7 @@
           and Babtized the <date datingMethod="#JulianMar" when-custom="1653-01-04"><add place="superimposed">4</add><hi rend="superscript">th</hi> of the same</date>.
          </p>
 
-         <p>wittneses <rs ref="ppl:aow1" n="per70" type="person">my Mother</rs>, <persName ref="ppl:mn1" n="per71">my Uncle Major<lb/>
+         <p xml:id="p-0043">wittneses <rs ref="ppl:aow1" n="per70" type="person">my Mother</rs>, <persName ref="ppl:mn1" n="per71">my Uncle Major<lb/>
           norton</persName> and <persName ref="ppl:mny1" n="per73">Cozen Yorke his Daug<add place="above">hter</add></persName>
            <lb/>
          ; she was borne on a Tuesday betwen the<lb/>
@@ -1304,7 +1309,7 @@
    <!-- NOTE year 1655 -->
        <div xml:id="div-035" rend="pre(rule)">
          <!-- [endnote] Line; not quite straight. -->
-         <p>
+         <p xml:id="p-0044">
          <milestone n="ev35" unit="event"/>
            <persName ref="ppl:et1" n="per75">Elizabeth Thornton</persName> my third Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place42">Hipswell</placeName> the <date datingMethod="#JulianMar" when-custom="1654-02-14">14<hi rend="superscript">th</hi> of februory</date><lb/>
@@ -1341,7 +1346,7 @@
      <div xml:id="div-036" rend="pre(rule_short_left)">
       <!-- Q this rule is not horizontal, but it's not a diagonal slash either -->
     <fw xml:id="mnote-0006" place="left margin"><date when-custom="1655">1655</date>.</fw><lb/>
-    <p>
+    <p xml:id="p-0045">
       <!-- [endnote] A diagonal line between the sections which goes through the date which was prob added later as it is in a darker ink, like the page number.-->
        <milestone n="ev36" unit="event"/>
                   
@@ -1357,7 +1362,7 @@
        </div>
        <div xml:id="div-037" rend="pre(rule_short_left) post(rule_short_left)">
          <!-- Q again, these rules are at an angle but not [imo] short diagonal slashes either. -->
-         <p>
+         <p xml:id="p-0046">
          <milestone n="ev37" unit="event"/>
            <persName ref="ppl:gg1" n="per82">my father Gates</persName> died at <placeName ref="place:Hull_027" n="place44">Hull</placeName><lb/>
           the <date when-custom="1655-05-18"><seg rend="differentInk">18<hi rend="superscript">th</hi></seg> of may 1655</date>. and was<lb/>
@@ -1376,7 +1381,7 @@
             <fw type="header" rend="differentInk"><date when-custom="1656">1656</date></fw>
             <fw type="pageNum" rend="differentInk">27.</fw>
          </fw>
-         <p>
+         <p xml:id="p-0047">
         <milestone n="ev38" unit="event"/>
            <persName ref="ppl:rt1" n="per83">My brother. Richard Thornton</persName><lb/>
            died in <placeName ref="place:Dubl_088" n="place45">Dublin</placeName>, in <placeName ref="place:Irel_096" n="place46">Ireland</placeName> of the flux
@@ -1392,7 +1397,7 @@
          </p>
 </div>
        <div xml:id="div-039" rend="pre(rule_short_left) post(rule_short_right)">
-         <p><!-- NOTE again rules are not horizontal, but not diagonal slash -->
+         <p xml:id="p-0048"><!-- NOTE again rules are not horizontal, but not diagonal slash -->
          <milestone n="ev39" unit="event"/>
            <persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
           Childe was borne at <placeName ref="place:Hips_022" n="place48">Hipswell</placeName> the<lb/>
@@ -1411,7 +1416,7 @@
        </div>
             
        <div xml:id="div-040" rend="pre(rule_short_left)">
-         <p><!-- Q rule is more diagonal but still longer than slashes. -->
+         <p xml:id="p-0049"><!-- Q rule is more diagonal but still longer than slashes. -->
          <milestone n="ev40" unit="event"/>
            <persName ref="ppl:et1" n="per89">Elizabeth Thornton</persName> my 3<hi rend="superscript">d</hi> child<lb/>
           died the: <date when-custom="1656-09-05">5<hi rend="superscript">th</hi> of September 1656</date>. <lb/>
@@ -1442,7 +1447,7 @@
      <!-- NOTE year 1657 -->
        <div xml:id="div-041" rend="pre(rule)">
          <!-- Q [decoration] ? ruled line is a thicker line than usual, but not evenly so. hmm. -->
-         <p>
+         <p xml:id="p-0050">
            <milestone n="ev41" unit="event"/>
           I gotte a great fall over the<lb/>
           Threshold in the hall at <placeName ref="place:Hips_022" n="place50">Hipswell</placeName><lb/>
@@ -1476,7 +1481,7 @@
             </fw>
             <fw type="header"><date>1657</date></fw>
          </fw>
-         <p>
+         <p xml:id="p-0051">
         <milestone n="ev42" unit="event"/>
            I was delivered of <rs ref="ppl:xt2" n="per93" type="person">my fifth<lb/>
           Childe</rs> beeing a goodly Sonne<lb/>
@@ -1510,7 +1515,7 @@
             <fw type="pageNum" rend="underline">30.</fw>
             <fw type="header"><date when-custom="1658">1658</date></fw>
          </fw>
-         <p>
+         <p xml:id="p-0052">
             <fw xml:id="mnote-0007" place="left margin" rend="underline">
                 <date>1658</date>
             </fw>
@@ -1561,7 +1566,7 @@
             <fw type="pageNum">31.</fw>
          </fw>
   <milestone n="ev44" unit="event"/>
-         <p>It pleased God to vissit <persName ref="ppl:aow1" n="per95">my <lb/>
+         <p xml:id="p-0053">It pleased God to vissit <persName ref="ppl:aow1" n="per95">my <lb/>
           deare &amp; hon:<hi rend="superscript">red</hi> Mother the Lady<lb/>
           Wandesford</persName> with her last sickenesse<lb/>
           upon <date when-custom="1659-11-17"><add place="above"><seg rend="differentInk">Friday</seg></add> the <seg rend="differentInk">17<hi rend="superscript">th</hi></seg>
@@ -1597,7 +1602,7 @@
             <fw type="pageNum">32.</fw>
             <fw type="header"><date>1659</date>.</fw>
          </fw>
-         <p>Which lumpe was conseaved to<lb/>
+         <p xml:id="p-0054">Which lumpe was conseaved to<lb/>
           be contracted of Phleame &amp; wind,<lb/>
           in the Stomacke for lacke of voydance<lb/>
           : She had also an exiding sore <lb/>
@@ -1613,7 +1618,7 @@
           white, so that with the Paines <rs ref="ppl:aow1" n="per96" type="person">my deare<lb/>
           mother</rs> tooke in washing &amp; clens=<lb break="no"/>
            =ing the skinn came of like a calac<note place="end" type="word">
-               <p rend="Endnote Text"> [word] I.e., callous?</p>
+               <p xml:id="p-0055" rend="Endnote Text"> [word] I.e., callous?</p>
             </note>
             <lb/>
           Toung, &amp; was raw &amp; red till the<lb/>
@@ -1632,7 +1637,7 @@
             <fw type="header"><date>1659</date>.</fw>
             <fw type="pageNum">33.</fw>
          </fw>
-         <p>In this condition of weakinesse<lb/>
+         <p xml:id="p-0056">In this condition of weakinesse<lb/>
           was <rs ref="ppl:aow1" n="per97" type="person">my deare mother</rs>, allmost<lb/>
           quite with out food, rest, ease<lb/>
           or sleepe for a bout a weeke, in<lb/>
@@ -1669,11 +1674,11 @@
            her life, but that these should be<lb/>
           the heade on which they should pettition<lb/>
           God for her.</p>
-         <p>That the Lord would be pleased to<lb/>
+         <p xml:id="p-0057">That the Lord would be pleased to<lb/>
           grant her true, &amp; unfained repentan<add place="above">ce</add>
             <lb/>
           for her sins.</p>
-         <p>To give her remission &amp; forgvienesse<lb/>
+         <p xml:id="p-0058">To give her remission &amp; forgvienesse<lb/>
           through Jesus Christ her Saviour. <lb/>
           To grant her faith in him, with the <lb/>
           sanctification of his holy Spiritt<lb/>
@@ -1693,7 +1698,7 @@
             <fw type="header"><date>1659</date>.</fw>
             <fw type="pageNum">35</fw>
          </fw>
-         <p>She had always a great &amp; unfaind<lb/>
+         <p xml:id="p-0059">She had always a great &amp; unfaind<lb/>
           love for all Gods ministers. &amp; offten <lb/>
           desired their praiers, giveing great atten=<lb break="no"/>
           =tion to them, haveing much comfort<lb/>
@@ -1711,7 +1716,7 @@
           out of the 14<hi rend="superscript">th</hi> of Revelt: 13 verce.<lb/>
           Blessed are the Dead that die in the lord. &amp; so<lb/>
           to the end:</p>
-         <p>This blessed soule had the gift from God<lb/>
+         <p xml:id="p-0060">This blessed soule had the gift from God<lb/>
           as to contineue till the last breath her<lb/>
           perfect memmory, understanding &amp;<lb/>
           great wisedome &amp; Piety.</p>
@@ -1724,7 +1729,7 @@
             <fw type="pageNum">36.</fw>
             <fw type="header"><date>1659</date>.</fw>
          </fw>
-         <p> Ever recomending her soule with de<lb break="no"/>
+         <p xml:id="p-0061"> Ever recomending her soule with de<lb break="no"/>
           =sire to be desolved &amp; so be with Christ<lb/>
           And all the <date when-custom="1659-12-09">friday night before she died</date><lb/>
           Come Lord Jesus, come quickely.<lb/>
@@ -1735,7 +1740,7 @@
           praing the same with Zeale and Earnest<lb break="no"/>
           =nesse.
       </p>
-         <p><date when-custom="1659-12-08">About Thursday</date> at night she sent<lb/>
+         <p xml:id="p-0062"><date when-custom="1659-12-08">About Thursday</date> at night she sent<lb/>
           for her Children to take her leave<lb/>
           when <persName ref="ppl:wt1" n="per102">Mr Th</persName>: &amp; my selfe came, &amp;<lb/>
           praied with her, &amp; so tooke the sadesst<lb/>
@@ -1753,14 +1758,14 @@
             <fw type="header"><date>1659</date>.</fw>
             <fw type="pageNum">37.</fw>
          </fw>
-         <p>It pleased God she contineued <lb/>
+         <p xml:id="p-0063">It pleased God she contineued <lb/>
           <date when-custom="1659-12-10">till satterday</date> about noone when<lb/>
           she spoke to <persName ref="ppl:mn1" n="per104">my uncle norton</persName> &amp; re=<lb break="no"/>
           comended her Children to his caire<lb/>
           with much good prayers for him &amp; his<lb/>
           then tooke her leave of him.
       </p>
-         <p>Towards 6 a clocke at night her<lb/>
+         <p xml:id="p-0064">Towards 6 a clocke at night her<lb/>
           speach failed &amp; still she could lift<lb/>
           up her hands to God. And <persName ref="ppl:dcl1" n="per105">Dafeny</persName> <lb/>
           praied her that she would give them som<lb/>
@@ -1768,7 +1773,7 @@
           spirit in her soule <del rend="strikethrough">as</del> with a taste of the<lb/>
           Joyes of heaven, which she immeadiatly <lb/>
           did and lift up both hands &amp; [eies?]<note place="end" type="word">
-            <p rend="Endnote Text"> [word] This seems odd given eyes on next line. Yes. In MS ‘ueg’?</p>
+            <p xml:id="p-0065" rend="Endnote Text"> [word] This seems odd given eyes on next line. Yes. In MS ‘ueg’?</p>
             </note> 
           to<lb/>
           heaven 3 times. &amp; closeing her Eyes<lb/>
@@ -1792,7 +1797,7 @@
            <!-- Q [decoration?] how to handle diagonal line after 38. or do we treat it as filler and drop it? -->
             <fw type="header">.<date>1659</date>.</fw>
          </fw>
-         <p>She was interred upon <date when-custom="1659-12-13">Tuesday<lb/>
+         <p xml:id="p-0066">She was interred upon <date when-custom="1659-12-13">Tuesday<lb/>
           foll: the 13<hi rend="superscript">th</hi> of December</date> in the Cheifest<lb/>
           plase in her quire at <placeName ref="place:Catt_010" n="place52">Catrick Church</placeName><lb/>
           being Carried out of her house by<lb/>
@@ -1805,7 +1810,7 @@
           into the <del rend="strikethrough">grave</del> Church, &amp; so to the grave<lb/>
           affter sermon. The ministers names <lb/>
           were.</p>
-         <p><persName ref="ppl:ps1" n="per109">Mr Samois</persName>. 
+         <p xml:id="p-0067"><persName ref="ppl:ps1" n="per109">Mr Samois</persName>. 
            <persName ref="ppl:jk1" n="per110">Mr Kirton</persName>, 
            <persName ref="ppl:xe1" n="per111">Mr Edrington</persName><lb/>
            <persName ref="ppl:xb3" n="per112">Mr Binlows</persName>. 
@@ -1816,12 +1821,12 @@
            <persName ref="ppl:cp1" n="per117">Mr Parke</persName>.<lb/>
            <persName ref="ppl:rw1" n="per118">Dr Witty</persName> was her Phisician but <lb/>
            could not come only sent <persName ref="ppl:xa1" n="per119">Dr Atie</persName> with diretis<note place="end" type="word">
-               <p rend="Endnote Text"> [word] I.e., diuretics?</p>
+               <p xml:id="p-0068" rend="Endnote Text"> [word] I.e., diuretics?</p>
             </note>
             <lb/>
            For her. she had allso <persName ref="ppl:xs1" n="per120">Dr Smith</persName> at the begn<hi rend="superscript">–</hi><!-- TODO [review] [contraction] --><lb/> 
             of her sicknesse. but liked him not:</p>
-         <p>
+         <p xml:id="p-0069">
            <anchor n="ev44" type="event"/>
            <!-- Q [teams] [authors] though only a mention here, not actual text. also a books x-ref given that the prayers are in book 1. -->
             <add xml:id="ex_add-inline-03" place="inline">Enter her Praiers my mo: made on Severall occa<hi rend="superscript">ns:</hi></add><!-- Q abbrev? -->
@@ -1844,7 +1849,7 @@
             </fw>
          </fw>
         <lb/>
-         <p>
+         <p xml:id="p-0070">
       <milestone n="ev45" unit="event"/>
            It was the good pleasure of God<lb/>
            <!-- NOTE moved fw=pageNum -->
@@ -1864,16 +1869,16 @@
            <anchor n="ev45" type="event"/>
          </p>
         <milestone n="ev46" unit="event"/>
-         <p>
+         <p xml:id="p-0071">
            The Childe being baptized <date when-custom="1660-04-17">that<lb/>
           day</date> by <persName ref="ppl:jk1" n="per122">Mr Kirton</persName> of <placeName ref="place:Rich_043" n="place56">Richmond</placeName><lb/>
           called <persName ref="ppl:wt2" n="per123">william</persName>.</p>
-         <p>sureties <persName ref="ppl:jy1" n="per124">my Cosen Jo: Yorke</persName>: <persName ref="ppl:wn1" n="per125">Co:<lb/>
+         <p xml:id="p-0072">sureties <persName ref="ppl:jy1" n="per124">my Cosen Jo: Yorke</persName>: <persName ref="ppl:wn1" n="per125">Co:<lb/>
           Will. Norton</persName>. &amp; <persName ref="ppl:jd1" n="per126">Co: Darcy of <placeName ref="place:Rich_043" n="place57">Rich</placeName></persName>.</p>
         <anchor n="ev46" type="event"/>
      </div>  
      <div xml:id="div-045">
-       <p>
+       <p xml:id="p-0073">
        <milestone n="ev47" unit="event"/>
          <rs ref="ppl:wt2" n="per127" type="person">My pretty babe</rs> was in good hea<lb break="no"/>
           =lth &amp; Sucked his poore mother<lb/>
@@ -1943,7 +1948,7 @@
           these fatherly rebucks &amp; make them<lb/>
           profitable to my poore Soule to<lb/>
           bring me nearer in communion with<note place="end" type="word">
-               <p rend="Endnote Text"> [word] There is superscript writing but not clearly th</p>
+               <p xml:id="p-0074" rend="Endnote Text"> [word] There is superscript writing but not clearly th</p>
             </note>
             <lb/>
           hin selfe, that so I may be prepared for<lb/>
@@ -1951,11 +1956,11 @@
           next even for Christ Jesus his<lb/>
           sonnes sake amen.
        </p>
-         <p>
+         <p xml:id="p-0075">
        <milestone n="ev48" unit="event"/>
            <rs ref="ppl:wt2" n="per128" type="person">My Childe</rs> was buried at <placeName ref="place:Easb_017" n="place58">Easby</placeName> in<lb/>
           the same grave with<note place="end" type="word">
-            <p rend="Endnote Text"> [word] Superscript letters indistinct.</p>
+            <p xml:id="p-0076" rend="Endnote Text"> [word] Superscript letters indistinct.</p>
             </note> <rs ref="ppl:xt1" n="per129" type="person">his Eldest sister</rs><lb/>
           by <persName ref="ppl:jk1" n="per130">Mr<gap reason="deleted" quantity="1" unit="char"/> <!-- [endnote] Superscript letter blotted out after the r?--> 
           Kirton</persName> who preached of<lb/>
@@ -2008,7 +2013,7 @@
             <fw type="pageNum">43</fw>
            <!-- msDescription [endnote] Page number just above ‘at’.-->
          </fw>
-         <p>
+         <p xml:id="p-0077">
         <milestone n="ev49" unit="event"/>
           I began a dangerous sickness at<lb/>
           <placeName ref="place:Oswa_041" n="place59">oswoldkirke</placeName> affter <rs ref="ppl:aow1" n="per131" type="person">my deare mother</rs><lb/>
@@ -2096,11 +2101,11 @@
            mercy, my owne consience <w norm="forming">froming</w> <lb/>
           arguments against it selfe toying with<lb/>
            him as beeing consious of my owne<note place="end" type="word">
-             <p rend="Endnote Text"> [word] possibly a &amp; blotted out at the end of the line.</p>
+             <p xml:id="p-0078" rend="Endnote Text"> [word] possibly a &amp; blotted out at the end of the line.</p>
             </note>
             <lb/>
           unworthinesse.<anchor n="ev49" type="event"/></p>
-         <p>In this most sad &amp; heavy condition I<lb/>
+         <p xml:id="p-0079">In this most sad &amp; heavy condition I<lb/>
           was, haveing noe soule living that I could<lb/>
           open my thoughts to nor receave any<lb/>
           comfort for my heavy spirit: God seemy<lb/>
@@ -2153,7 +2158,7 @@
         <fw xml:id="mnote-0014" type="pageNum">4.7.</fw>
         <!-- msDescription [endnote] Date squeesed line over text, looks like a darker ink, and some suggestion of tirmming. Page number added in at the end of the first line.-->
          </fw>
-         <p>I laboured under &amp; was heavy <!-- NOTE moved fw=pageNum --><lb/>
+         <p xml:id="p-0080">I laboured under &amp; was heavy <!-- NOTE moved fw=pageNum --><lb/>
            Laden <subst xml:id="ex_subst-strike-above">
              <del rend="strikethrough">under</del><add place="above">with</add>
            </subst>
@@ -2189,7 +2194,7 @@
                <date>1661.</date>
             </fw>
          </fw>
-         <p>
+         <p xml:id="p-0081">
           I was faint &amp; heavy Laden.<lb/>
           he said come unto me all the that Labor<lb/>
           &amp; are heavy Laden. &amp; I will give<lb/>
@@ -2270,7 +2275,7 @@
           unto thee. Thou most swetly<lb/>
           callimg me at that present when<lb/>
           my heart was in doubt.</p>
-         <p>I come o my god, and take up thy<lb/>
+         <p xml:id="p-0082">I come o my god, and take up thy<lb/>
           sweete yoake &amp; follow thee. O<lb/>
           Learne me to be patient meeke<lb/>
           &amp; lowly in heart, for thy yoke is<lb/>
@@ -2305,7 +2310,7 @@
           &amp; feare nothing but thee spending<lb/>
           the remainder of my daies to the<lb/>
            Glory of thy name. beeng nere<note place="end" type="word">
-             <p rend="Endnote Text"> [word] Instead of ‘now’, I think this is ‘nere’ (i.e., never).</p>
+             <p xml:id="p-0083" rend="Endnote Text"> [word] Instead of ‘now’, I think this is ‘nere’ (i.e., never).</p>
             </note>
             <lb/>
           more a shame to my profession as<lb/>
@@ -2326,7 +2331,7 @@
          <fw type="header"><date>1662</date></fw>
        </fw>
         <milestone n="ev50" unit="event"/>
-         <p>After this inestimable mercy<lb/>
+         <p xml:id="p-0084">After this inestimable mercy<lb/>
           which my gracious God did give me<lb/>
           in the sattisfaction of my spirttuall<lb/>
           doubts. he was pleased to sufer<lb/>
@@ -2337,7 +2342,7 @@
           yet my strength was much imp<lb break="no"/>
           -ared &amp; for a quarter of a yeare I did<lb/>
           not fully recover.</p>
-         <p>At which time I found my selfe with<lb/>
+         <p xml:id="p-0085">At which time I found my selfe with<lb/>
           quick child, A blessing I could not<lb/>
           hope, or Expect, after so dangerous<lb/>
           &amp; desperate a condition where in the<lb/>
@@ -2372,8 +2377,8 @@
 </div>
        <div xml:id="div-049">
         <milestone n="ev51" unit="event"/>
-         <p>After I had recaid<note place="end" type="word">
-           <p rend="Endnote Text"> [word] I.e. ‘receaued’.</p>
+         <p xml:id="p-0086">After I had recaid<note place="end" type="word">
+           <p xml:id="p-0087" rend="Endnote Text"> [word] I.e. ‘receaued’.</p>
             </note> my health &amp;<lb/>
           strength againe in this miraculous<lb/>
           manner beeing still at <placeName ref="place:Oswa_041" n="place60">oswoldkirk</placeName><lb/>
@@ -2418,7 +2423,7 @@
           ing <persName ref="ppl:wt1" n="per140">Mr Th</persName>: 4<hi rend="superscript">l-</hi> for the wintering them<lb/>
            <w norm="since">sine</w><!-- NOTE [tagging] test w@norm, but maybe [sic] anyway? -->
             <date when-custom="1661-11-11">mart<hi rend="superscript">h</hi>.<note place="end" type="word">
-               <p rend="Endnote Text">
+               <p xml:id="p-0088" rend="Endnote Text">
               I.e. ‘Martinmas’?</p>
             </note> 61</date>: till <date when-custom="1661-05-01">may. day.</date> I say<lb/>
           he promised me to make a bond of<lb/>
@@ -2430,7 +2435,7 @@
             the bond for <date>mart<hi rend="superscript">h</hi></date>
            &amp; not for <date>mick<hi rend="superscript">–</hi></date><!-- TODO [review] [contraction] -->
            <note place="end" type="word">
-               <p rend="Endnote Text">
+               <p xml:id="p-0089" rend="Endnote Text">
               I.e. ‘Micklemas’?</p>
             </note>
             <lb/>
@@ -2445,7 +2450,7 @@
             
          <!-- msDescription [endnote] The top quarter of the page has been cut away, removing four complete lines and the second half of the fifth.-->
 
-         <p>
+         <p xml:id="p-0090">
           which he was pleased to <gap xml:id="ex_gap-word-02" reason="damage" agent="cut" quantity="4" unit="word"/><lb/>
           ill manner from me. &amp; fell very muche<lb/>
           offended. so that I was much troubled<lb/>
@@ -2470,7 +2475,7 @@
 
          <gap xml:id="ex_gap-line-cut-01" reason="damage" agent="cut" quantity="5" unit="line"/>
            
-         <p>
+         <p xml:id="p-0091">
           his feete beeing bigg with childe &amp; in<lb/>
           a very sad condition for this accident<lb/>
           &amp; holding him fast, Intreated him<lb/>
@@ -2583,7 +2588,7 @@
            <fw type="pageNum"><seg rend="differentInk">60.</seg></fw>
             <fw type="header" rend="underline differentInk"><date>1662</date>.</fw>
          </fw>
-         <p>This allso migt be imputed to the<lb/>
+         <p xml:id="p-0092">This allso migt be imputed to the<lb/>
           goodnesse of God. who would not<lb/>
           leave such a remarke of our offence<lb/>
           but gently to put us in mind of<lb/>
@@ -2618,7 +2623,7 @@
            granter thy Pettitions.</p>
 </div>
       <div xml:id="div-050"> 
-         <p> 
+         <p xml:id="p-0093"> 
         <milestone n="ev52" unit="event"/>
            After this sad accident befell me<lb/>
            at <placeName ref="place:Oswa_041" n="place61">Oswoldkirke</placeName>; I had beyond ex=<lb break="no"/>
@@ -2698,7 +2703,7 @@
 <!-- transcription: Page 64 -->
 
          <fw type="pageNum">64</fw>
-         <p>
+         <p xml:id="p-0094">
            at first they demanded 800<hi rend="superscript">l</hi> then<lb/>
           to be payd. but at last they fill to<lb/>
           200<hi rend="superscript">l</hi> which they would have, or Plate<lb/>
@@ -2707,7 +2712,7 @@
           =ition bigg with child, also knowing<lb/>
           <persName ref="ppl:wt1" n="per166">Mr th</persName>. went up to prevent the sam
             <note place="end" type="context">
-               <p rend="Endnote Text"> [context] There is a Chancery bill about a money dispute by Wm Thornton against Robert Nettleton from 1661: TNA, C 5/633/108. Need to read! 
+               <p xml:id="p-0095" rend="Endnote Text"> [context] There is a Chancery bill about a money dispute by Wm Thornton against Robert Nettleton from 1661: TNA, C 5/633/108. Need to read! 
                </p>
             </note>
             <lb/>
@@ -2792,7 +2797,7 @@
 <div xml:id="div-051">
      <fw type="pageNum" rend="differentInk">67.</fw><lb/>
     <milestone n="ev54" unit="event"/>
-         <p>After this, drawing <date when-custom="1662-08">neare a month</date><lb/>
+         <p xml:id="p-0096">After this, drawing <date when-custom="1662-08">neare a month</date><lb/>
            <!-- NOTE moved fw -->
            of my delivery. it behoved me to<lb/>
            <!-- [endnote] T is smudged. -->
@@ -2823,7 +2828,7 @@
           of thankfullnesse to God for the daly<lb/>
           renuall of the same.</p>
    
-  <p>I found by sad experiencs that the ma’y<!-- TODO [review] [contraction] ? --><lb/>
+  <p xml:id="p-0097">I found by sad experiencs that the ma’y<!-- TODO [review] [contraction] ? --><lb/>
           troubles had fallen upon me of this<lb/>
           world had diverted my stricter cours<lb/>
           of walking with my God as he had<lb/>
@@ -2853,7 +2858,7 @@
           not that became poore that We might<lb/>
           through his grace be made rich.</p>
 
-        <p>I had not the happie oportunity to reiea<!-- Q [review]? [endnote] [end of word] Missing to a page trim?-->
+        <p xml:id="p-0098">I had not the happie oportunity to reiea<!-- Q [review]? [endnote] [end of word] Missing to a page trim?-->
             <lb/>
           this communion but once since <rs ref="ppl:aow1" n="per174" type="person">my dr<lb/>
           mother</rs>s death although my soule had<lb/>
@@ -2885,7 +2890,7 @@
           the hope of my eternall salvation
       </p>
         <anchor n="ev54" type="event"/>
-         <p>This most excelent &amp; spiritull<lb/>
+         <p xml:id="p-0099">This most excelent &amp; spiritull<lb/>
           mercy was not the least. but greatet<lb/>
           I aphrended to receave from God, fare<lb/>
            surpassing all temporalls ^ <!-- Q for teams? [formatting] marks ^ here without any insertion - how to handle? ignore? --> inasmuch<lb/>
@@ -2903,7 +2908,7 @@
 
            <fw type="pageNum" rend="differentInk">7i.</fw>
            <lb/>
-         <p>And that my soule might forever.<lb/>
+         <p xml:id="p-0100">And that my soule might forever.<lb/>
            <!-- NOTE moved fw -->
           sing unto him Aleluiahs of praise <lb/>
           in heaven, with Angells &amp; Arch<lb/>
@@ -2921,7 +2926,7 @@
           of my many frailtys &amp; sines doe in this<lb/>
           world, but weakly &amp; imperfectly.<lb/>
           but o that I might be freed from this pour<note place="end" type="word">
-            <p rend="Endnote Text"> [word] i.e. power? Unclear, as overwritten.</p>
+            <p xml:id="p-0101" rend="Endnote Text"> [word] i.e. power? Unclear, as overwritten.</p>
             </note>
             <lb/>
            of sine that it may not get dommin oiver<lb/>
@@ -2936,7 +2941,7 @@
 
 <!-- transcription: Page 72 -->
        <div xml:id="div-052">
-         <p>
+         <p xml:id="p-0102">
            <fw>
             <fw type="pageNum" rend="differentInk">72.</fw>
             <fw type="header" rend="differentInk"><date>1662</date></fw> 
@@ -3000,7 +3005,7 @@
          <!-- msDescription [endnote] NB. Left hand margin not maintained in alignment down the whole of the page. This and next page written in much darker ink.-->
             
          
-         <p>I found that the offten experience<lb/>
+         <p xml:id="p-0103">I found that the offten experience<lb/>
           of the failing of the things of this<lb/>
           life had brought our Estate into<lb/>
           an incertaine condittion &amp; daily<lb/>
@@ -3099,7 +3104,7 @@
           provission for the younger Children<lb/>
           of so well as the sonne &amp; heire (if God<lb/>
           did please to give me one).<milestone unit="undetermined" rend="diagonal"/> </p>
-         <p>which was don to my great content<lb/>
+         <p xml:id="p-0104">which was don to my great content<lb/>
           &amp; sattisfaction that I might more Joy-<lb break="no"/>
           =fully leave this world, then to have<lb/>
           gon out unworthily to the fruit of my<lb/>
@@ -3146,7 +3151,7 @@
          </fw>
       <lb/>
       <milestone n="ev56" unit="event"/>
-        <p>
+        <p xml:id="p-0105">
           Almighty God the wise disposer<lb/>
           <!-- NOTE moved fw=pageNum -->
           of all good things both of heaven<lb/>
@@ -3160,7 +3165,7 @@
           mother of a sweete Son. borne at<lb/>
           ful time. though with hard travill<lb/>
           &amp; great perill to my life.</p>
-         <p>I Was delivered of <persName ref="ppl:rt2" n="per189">my Sonne Robert<lb/>
+         <p xml:id="p-0106">I Was delivered of <persName ref="ppl:rt2" n="per189">my Sonne Robert<lb/>
           Thornton</persName> upon <date when-custom="1662-09-19">Friday the 19<hi rend="superscript">th</hi> of Sept<lb break="no"/>
           =ember 1662</date> borne at <placeName ref="place:East_019" n="place71">Easte Newton</placeName><lb/>
           <rs ref="ppl:wt1" n="per190" type="person">my husband</rs>s Cheife house <del rend="strikethrough">wher</del> being<lb/>
@@ -3179,7 +3184,7 @@
 <div xml:id="div-054">
          <fw type="pageNum">80.</fw> 
         <milestone n="ev57" unit="event"/>
-         <p>
+         <p xml:id="p-0107">
           But as though this mercy should<lb/>
           not goe alone, without its rememb<lb break="no"/>
           =rancer or severe monitor to my<lb/>
@@ -3187,7 +3192,7 @@
           prove the more cautious to me. not to<lb/>
           set my Affection too much on things<lb/>
           below.</p>
-         <p>It pleased the great God to lay on<lb/>
+         <p xml:id="p-0108">It pleased the great God to lay on<lb/>
           me his weake handmaide an excee<lb break="no"/>
           =ding violent weakenesse. beginng<lb/>
           a little after <rs ref="ppl:rt2" n="per191" type="person">my child</rs> was borne.<lb/>
@@ -3211,7 +3216,7 @@
           utter one word. all the meanes they<lb/>
           could doe in such a fright was don<lb/>
           but did not availe.</p>
-         <p>It pleasd my gracious Lord at last<lb/>
+         <p xml:id="p-0109">It pleasd my gracious Lord at last<lb/>
           to bring into my remembrance a pouder<lb/>
           which I had formerly by his blessing don<lb/>
           good to many in the like kind. so I gott<lb/>
@@ -3239,9 +3244,9 @@
           fitts upon me.</p>  
         <anchor n="ev57" type="event"/>
       
-         <p>But oh o Lord wherefore are thy<lb/>
+         <p xml:id="p-0110">But oh o Lord wherefore are thy<lb/>
            miraculous mercys thus contined<note place="end" type="word">
-             <p rend="Endnote Text"> [word] For continued?</p>
+             <p xml:id="p-0111" rend="Endnote Text"> [word] For continued?</p>
             </note>
             <lb/>
           to so <w norm="vile">vild</w> a worme as my selfe.<lb/>
@@ -3250,7 +3255,7 @@
           Perfection. that can Raise from<lb/>
           death, &amp; bring to the Grave in a<lb/>
           =moment.</p>
-         <p>O Just and deare God I humbly<lb/>
+         <p xml:id="p-0112">O Just and deare God I humbly<lb/>
           &amp; prostrate lie at thy footstoole<lb/>
           of mercy giving thy divine maiesty<lb/>
           All possible thankes power prayse<lb/>
@@ -3280,7 +3285,7 @@
           loving kindnesse of the Lord and that<lb/>
           for ever. in this life &amp; that which is<lb/>
           to come</p>
-         <p>doe not forget o my sad soule with<lb/>
+         <p xml:id="p-0113">doe not forget o my sad soule with<lb/>
           the Lord hath done for thes times without<lb/>
           number o let me live to magnife thy<lb/>
           name day &amp; night &amp; let this be an<lb/>
@@ -3296,7 +3301,7 @@
           <fw type="pageNum">84</fw>
         </fw>
           <lb/><!-- NOTE moved fw -->
-         <p>
+         <p xml:id="p-0114">
          <milestone n="ev58" unit="event"/>
           <!-- NOTE [event] breastfeeding -->
           Yea the Lord god had pittie upon<lb/>
@@ -3332,7 +3337,7 @@
                85.
             </fw>
           </fw>
-         <p>
+         <p xml:id="p-0115">
       <milestone n="ev59" unit="event"/>
           <persName ref="ppl:rt2" n="per196">My Sonne Robert</persName> was baptized on<lb/>
           <date when-custom="1662-09-20">Satterday the 20<hi rend="superscript">th</hi>
@@ -3344,7 +3349,7 @@
         <anchor n="ev59" type="event"/>
          </p>
 
-         <p>The God of All consolations &amp; comforts<lb/>
+         <p xml:id="p-0116">The God of All consolations &amp; comforts<lb/>
           preserve his life &amp; health. with the opor<lb break="no"/>
           =tunitys of vertuous &amp; holy Education<lb/>
           that he may be the instrument of greate<lb/>
@@ -3404,7 +3409,7 @@
          <fw type="pageNum">87.</fw>
       </fw>
          <lb/>
-       <p>
+       <p xml:id="p-0117">
          <milestone n="ev60" unit="event"/>
          <date when-custom="1664-10">After</date> that <persName ref="ppl:rt2" n="per202">Robin</persName> was 2 years old<lb/> 
          <!-- NOTE moved fw=pageNum -->
@@ -3417,16 +3422,16 @@
           glorifing the Eternall Lord. &amp; therefore<lb/>
           with my Toungue will I ever be setting<lb/>
           out his praise.</p>
-         <p>who brought us safely to meete again<lb/>
+         <p xml:id="p-0118">who brought us safely to meete again<lb/>
           with Joy to injoy these temporall comf-<lb break="no"/>
           =orts of each others Love. this is the<lb/>
           goodnesse of our God.</p>
-         <p>Oh that we might make a right use<lb/>
+         <p xml:id="p-0119">Oh that we might make a right use<lb/>
           of these temporalls that we finaly lose<lb/>
           not the hopes of his eternall mercys<lb/>
           for ever in heaven .which his saints &amp;<lb/>
           Angells doe now inherit.</p>
-         <p> Amen.</p>
+         <p xml:id="p-0120"> Amen.</p>
    </div>      
    
        <pb n="88"/>
@@ -3438,7 +3443,7 @@
       <fw type="header" rend="underline"><date when-custom="1665">1665</date>  </fw>
       <fw type="pageNum">88.</fw> 
       </fw>
-         <p>
+         <p xml:id="p-0121">
         <milestone n="ev61" unit="event"/>
            <!-- NOTE moved fw -->
            It pleased my gracious God. to<lb/>
@@ -3504,7 +3509,7 @@
       </fw>
       <lb/>
         <milestone n="ev62" unit="event"/>
-         <p><persName ref="ppl:jt1" n="per207">My Sweet Childe Joyce</persName> which was<lb/>
+         <p xml:id="p-0122"><persName ref="ppl:jt1" n="per207">My Sweet Childe Joyce</persName> which was<lb/>
            <!-- NOTE moved fw -->
          my <del xml:id="ex_del-strike-02" rend="strikethrough">Eith</del> Eight childe was borne on<lb/>
           Satterday a bout 4 a clocke in the<lb/>
@@ -3513,8 +3518,8 @@
             <seg rend="underline">1665</seg></date>: and she was baptized on the<lb/>
           28<hi rend="superscript">th</hi> day:
          </p>
-         <p>Her Godfather was my <persName ref="ppl:jf1" n="per208">Lord Frechail</persName><note place="end" type="word">
-           <p rend="Endnote Text"> [word] Not entirely sure about this – binding very tight.</p>
+         <p xml:id="p-0123">Her Godfather was my <persName ref="ppl:jf1" n="per208">Lord Frechail</persName><note place="end" type="word">
+           <p xml:id="p-0124" rend="Endnote Text"> [word] Not entirely sure about this – binding very tight.</p>
             </note>
             <lb/>
           by <persName ref="ppl:tc1" n="per209">Mr Comber</persName> who stood for him.<lb/>
@@ -3522,7 +3527,7 @@
           &amp; <persName ref="ppl:tbd-cholmley" n="per212">Mrs Cholmely</persName><!-- NOTE [people] - Book 1 "cousin" Cholmly -->.</p>
         <anchor n="ev62" type="event"/>
 
-         <p>It pleased my gracious Father still<lb/>
+         <p xml:id="p-0125">It pleased my gracious Father still<lb/>
           to give me much comfort in the nursing<lb/>
           of <rs ref="ppl:jt1" n="per213" type="person">this childe</rs> having receaved more<lb/>
           strength to inable me for that service<lb/>
@@ -3546,7 +3551,7 @@
             </fw>
         </fw>
         <milestone n="ev63" unit="event"/>
-           <p>But peradventure I might be too <lb/>
+           <p xml:id="p-0126">But peradventure I might be too <lb/>
           much lifted up by this mercy. &amp; there<lb break="no"/>
           =fore it seemed good to the most wise<lb/>
           providence of our Creator. to lay a<lb/>
@@ -3560,7 +3565,7 @@
           distemper growing more upon him in his<lb/>
              Jorney. so that he was forced to be at <placeName ref="place:Stea_052" n="place121">Stersby</placeName><lb/>
           <persName ref="ppl:uc1" n="per215">my sister Cholmley</persName>s house.</p>
-         <p>For three daies that greevious distemper<lb/>
+         <p xml:id="p-0127">For three daies that greevious distemper<lb/>
           of the Palsey. convolsions. and feavour<lb/>
           was so high upon him that notwithstanding<lb/>
           all remidies that could be used by <persName ref="ppl:rw1" n="per216">Dr wittie</persName><lb/>
@@ -3582,7 +3587,7 @@
             </fw>      
         <fw type="pageNum">92.</fw>  
       </fw>
-       <p>
+       <p xml:id="p-0128">
       <milestone n="ev64" unit="event"/>
           <!-- NOTE moved fw pageNum -->
           The sudaine newes of his condition<lb/>
@@ -3624,7 +3629,7 @@
           yet hath he not given me over to death<lb/>
           or despaire.</p>
  
-         <p>Looke when we were the nearest death behold<lb/>
+         <p xml:id="p-0129">Looke when we were the nearest death behold<lb/>
           the goodnesse of God was intreated for us to<lb/>
           restore both our lives and let me ever return<lb/>
           him the glory of his power. &amp; the returne of our<lb/>
@@ -3642,7 +3647,7 @@
 <!-- transcription: Page 94 -->
 
            <fw type="pageNum">94.</fw><lb/>
-         <p>who still in the midest of Judgment<lb/>
+         <p xml:id="p-0130">who still in the midest of Judgment<lb/>
            <!-- NOTE moved fw -->
           remembers mercys. &amp; shewes his compassion<lb/>
           upon his poore Creatures.<lb/>
@@ -3701,7 +3706,7 @@
        
     <div xml:id="div-060">
          <fw type="pageNum">96.</fw>
-         <p>
+         <p xml:id="p-0131">
           While I am in this bodie of death<lb/>
           I find by sad experience. that as my daies<lb/>
           increase so will sin grow up too rife in<lb/>
@@ -3711,7 +3716,7 @@
           High. And like wise beine under manifold<lb/>
           trialls. sorowes, troubles, &amp; Aflictions<lb/>
           both as to spirit &amp; body.</p>
-         <p>But as when the hand of God is upon us we<lb/>
+         <p xml:id="p-0132">But as when the hand of God is upon us we<lb/>
            are apt to be more discomfited &amp; sad. so <w norm="should">shod</w> <lb/>
         I, and doe desire to make it my uttmost<lb/>
           endeavour to inquire what is it that God<lb/>
@@ -3739,7 +3744,7 @@
           hand. and still be insencable there of God<lb/>
           forbid. why or whereore he thus deales<lb/>
           with me.</p>
-         <p>It was his infinit goodnesse in giving me<lb/>
+         <p xml:id="p-0133">It was his infinit goodnesse in giving me<lb/>
           this sweete Infant, in giving her the <lb/>
             blessed oportunity of holy Baptisme. and<lb/>
           is the mercy the lesse in that he has pleasd<lb/>
@@ -3763,7 +3768,7 @@
                <date>1665</date>
             </fw>
           </fw>
-         <p>
+         <p xml:id="p-0134">
           I dare not. I will not repine at this<lb/> 
           most gracious chastisemet. it may seeme<lb/>
           a little troublsome to part with my sucking<lb/>
@@ -3775,15 +3780,15 @@
           =profitable worme upon earth. and given me<lb/>
           still the lives &amp; comforts of <rs ref="ppl:wt1" n="per222" type="person">my deare husbnd</rs><lb/>
            &amp; <rs ref="ppl:atc1 ppl:ktp1 ppl:rt2" n="per223" type="person">3 children</rs>.</p>
-         <p>As to Temporalls this is exceedingly much more<lb/>
+         <p xml:id="p-0135">As to Temporalls this is exceedingly much more<lb/>
           then I could have expected. &amp; therefore will<lb/>
           I praise the Lord our God: </p>
-         <p>But for spirituall mercys. such have those<lb/>
+         <p xml:id="p-0136">But for spirituall mercys. such have those<lb/>
           bin in an infinit mesure showred downe on<lb/>
           my head that I am not able to innumerate<lb/>
           nor tell them neither can my tongue or heart ex=<lb break="no"/>
           =presse them.</p>
-         <p>But to the glory of thy holy name doe I ascribe<lb/>
+         <p xml:id="p-0137">But to the glory of thy holy name doe I ascribe<lb/>
           the honour of my creation, the inestimable mercy<lb/>
 
          
@@ -3802,7 +3807,7 @@
           Holy, be the Lord most high, &amp; glory to<lb/>
           his Eternall name that hath not taken<lb/>
           the hopes of salvation from me.</p>
-         <p>And great Lord as thou hast pleased to<lb/>
+         <p xml:id="p-0138">And great Lord as thou hast pleased to<lb/>
           teach me by Alictions, oh give me the<lb/>
           sanctification thereof that I may spend noe<lb/>
           more this smale inch of time unprofitably<lb/>
@@ -3817,7 +3822,7 @@
 
  
          <milestone n="ev65" unit="event"/>
-         <p><persName ref="ppl:jt1" n="per224">my deare Child Joyce</persName> fell very sick upon<lb/>
+         <p xml:id="p-0139"><persName ref="ppl:jt1" n="per224">my deare Child Joyce</persName> fell very sick upon<lb/>
           <date datingMethod="#JulianMar" when-custom="1665-01-20">Sunday 20<hi rend="superscript">th</hi> of Jan. 1665</date>: as we thought of a<lb/>
           cold which struck in many Red spotts which was<lb/>
  
@@ -3836,14 +3841,14 @@
            <lb/>
           over her face &amp; bodie after which she <lb/>
            did much cry &amp; moune<note place="end" type="word">
-             <p rend="Endnote Text"> [word] I.e., moan?</p>
+             <p xml:id="p-0140" rend="Endnote Text"> [word] I.e., moan?</p>
             </note> with sicknesse.<lb/>
           but we used what meanes could be to so<lb/>
           young a Child. yet nothing was effectuall<lb/>
           beeing the pleasure of God to take her out of<lb/>
           this miserable world.</p>
 
-         <p>She continued with some intermitions till <date when-custom="1666-01-25">thursday</date> <lb/>
+         <p xml:id="p-0141">She continued with some intermitions till <date when-custom="1666-01-25">thursday</date> <lb/>
           after. when it was past hopes. of her recovery<lb/>
           and <del xml:id="ex_del-strike-03" rend="strikethrough">about</del> betwixt one &amp; 2 a clocke rings<lb/>
            at noone <del xml:id="ex_del-double-02" rend="doublestrikethrough">of</del> 
@@ -3851,13 +3856,13 @@
           it pleased God to free her from all paine<lb/>
           by takeing her to his. mercy. where she<lb/>
           sweetely fell assleepe.</p>
-       <p>She was buried at <placeName ref="place:Ston_053" n="place75">Stonegrave</placeName> the next<lb/>
+       <p xml:id="p-0142">She was buried at <placeName ref="place:Ston_053" n="place75">Stonegrave</placeName> the next<lb/>
            day by <persName ref="ppl:tc1" n="per225">Mr Comber</persName>: who preached <add place="superimposed">A</add>
                   <!-- [endnote] Overwritten? check original.-->
             <lb/>
           funerall sermon.</p>
          <anchor n="ev65" type="event"/>
-         <p>The Lord my life prepare me for this change<lb/>
+         <p xml:id="p-0143">The Lord my life prepare me for this change<lb/>
           &amp; desolution. that then I may see that God face to<lb/>
           face which I doe now believe, &amp; put my trust<lb/>
           &amp; confidence in. &amp; for ever peace from sin &amp;<lb/>
@@ -3886,7 +3891,7 @@
        <div xml:id="div-061" rend="pre(rule_light)">
 
         <fw type="header" rend="underline"><date>1666</date>.</fw> <lb/>
-         <p>
+         <p xml:id="p-0144">
          <milestone n="ev66" unit="event"/>
            It pleased God to deliver my daug<add place="above">hter</add> <lb/>
           <persName ref="ppl:atc1" n="per226">Alice</persName> from a very dangerous &amp; violent<lb/>
@@ -3920,7 +3925,7 @@
             </fw>
          </fw>
         <milestone n="ev67" unit="event"/>
-         <p>After the drinking of <placeName ref="place:Scar_045" n="place77">Scarbrough</placeName><lb/>
+         <p xml:id="p-0145">After the drinking of <placeName ref="place:Scar_045" n="place77">Scarbrough</placeName><lb/>
           waters <persName ref="ppl:wt1" n="per227">Mr <add place="above">Thornton</add></persName> sent for me to <placeName ref="place:York_060" n="place78">Yorke</placeName> about<lb/>
           bussiness with my <persName ref="ppl:jf1" n="per228">Lord Frechuill</persName>; in which<lb/>
           Jorney I thought <add place="above">I</add> receavd harme,<lb/>
@@ -3938,7 +3943,7 @@
           without my consent or knowledge. by <lb/>
           somes perswaion of <persName ref="ppl:wt1" n="per230">Mr Th</persName>: before:
            </p>
-  <p>
+  <p xml:id="p-0146">
           I fell into a very sad &amp; desperate<lb/>
           condittion, through the breaks, &amp; excess<lb/>
           of floods perpetualy flowing which began<lb/>
@@ -3997,7 +4002,7 @@
            <fw type="header" rend="underline">
                <date>1666</date>:</fw>
          </fw>
-         <p>
+         <p xml:id="p-0147">
         <milestone n="ev68" unit="event"/>
            About the <date when-custom="1666-09-02">2<hi rend="superscript">d</hi> of September :66</date>: began<lb/>
           the great fire in <placeName ref="place:Lond_080" n="place79">London</placeName> which in 4 daies<lb/>
@@ -4008,7 +4013,7 @@
 </div>
        <div xml:id="div-064" rend="pre(rule_short_left)">
          <milestone n="ev69" unit="event"/>
-         <p>Vpon the <date when-custom="1666-09-29">29<hi rend="superscript">th</hi> day of Sept:<add place="above">ber</add></date> began<lb/>
+         <p xml:id="p-0148">Vpon the <date when-custom="1666-09-29">29<hi rend="superscript">th</hi> day of Sept:<add place="above">ber</add></date> began<lb/>
            my Daughter <persName ref="ppl:ktp1" n="per232">Kate Thornton</persName> with<lb/>
           a violent &amp; extreame paine in the<lb/>
           back &amp; head with such scriks &amp; torment<lb/>
@@ -4042,7 +4047,7 @@
             </fw>
             
             </fw>
-         <p>
+         <p xml:id="p-0149">
           but blessed be our gracious God through <lb/>
           his infinit mercy directing to good helpe &amp;<lb/>
           meanes &amp; prospering the same she was lately<lb/>
@@ -4057,7 +4062,7 @@
        </div>
        <div xml:id="div-065" rend="pre(rule)">
          <milestone n="ev70" unit="event"/>
-         <p>It pleased God to vissit my deare Brother<lb/>
+         <p xml:id="p-0150">It pleased God to vissit my deare Brother<lb/>
           <persName ref="ppl:jw1" n="per236">John Wandesford</persName> at <placeName ref="place:Lond_080" n="place80">London</placeName> 10<hi rend="superscript">th</hi> his last <lb/>
           sicknesse beeing an Ague. a joyned with fitts<lb/>
           of the stone. &amp; some extreamitys of sickness<lb/>
@@ -4069,7 +4074,7 @@
           yet having a bundance of intervalls. in which<lb/>
           time he was very Religously desposed &amp;<lb/>
           constant in dutyes with a consiencue<note place="end" type="word">
-            <p rend="Endnote Text"> [word] Looking across the book, closest this looks to be is a variation of ‘consience’.</p>
+            <p xml:id="p-0151" rend="Endnote Text"> [word] Looking across the book, closest this looks to be is a variation of ‘consience’.</p>
             </note> to spend<lb/>
           his daies holily &amp; uprightly, and in great<lb/>
           penitency for any thing don in his weaknesse<lb/>
@@ -4088,7 +4093,7 @@
                <date>1666</date>.
             </fw>
          </fw>
-         <p>
+         <p xml:id="p-0152">
           So that he prepared for his desolution every<lb/>
           day &amp; that morning he departed kneeled in<lb/>
           bed &amp; most devoutly praied to God &amp;<lb/>
@@ -4106,7 +4111,7 @@
          <anchor n="ev70" type="event"/>
        </div>
        <div xml:id="div-066" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0153">
          <milestone n="ev71" unit="event"/>
            About this <date when-custom="1666-12">christmas 1666</date>: <persName ref="ppl:wn1" n="per239">my Cosen<lb/>
           will.<hi rend="superscript">m</hi> Norton</persName> was murdered inhumamly<lb/>
@@ -4117,7 +4122,7 @@
        <!-- NOTE year 1667 -->
        <div xml:id="div-067" rend="pre(rule)">
          <milestone n="ev72" unit="event"/>
-         <p>The <date when-custom="1667-01-05">5<hi rend="superscript">th</hi> of Janeuary 1667</date><!-- NOTE [dates] NS -->: my deare<lb/>
+         <p xml:id="p-0154">The <date when-custom="1667-01-05">5<hi rend="superscript">th</hi> of Janeuary 1667</date><!-- NOTE [dates] NS -->: my deare<lb/>
           <persName ref="ppl:rt2" n="per240">Robin Thornton</persName> began his sicknesse of the<lb/>
             Smale Pox beeing very ill &amp; weake for <del rend="strikethrough">a</del><lb/> 
             2 daies &amp; the <date when-custom="1667-01-07/1667-01-09">7: 8: 9 daies</date> he was in<lb/>
@@ -4139,7 +4144,7 @@
                <date when-custom="1667">1667</date>
             </fw>
          </fw>
-         <p>About <date when-custom="1667-01-15">15<hi rend="superscript">th</hi></date> he begain to alter for<lb/>
+         <p xml:id="p-0155">About <date when-custom="1667-01-15">15<hi rend="superscript">th</hi></date> he begain to alter for<lb/>
           the better so that a change was diserned.<lb/>
           <date when-custom="1667-01-17">17</date> he began to see againe. <date when-custom="1667-01-18">18<hi rend="superscript">th</hi></date>
             hee  perfec-<add place="above">tly</add> <lb/>
@@ -4153,7 +4158,7 @@
           =ching my cole in this Family. O praise<lb/>
           the Lord O: my soule &amp; forget not this<lb/>
           his favour to thee. for ever Amen.</p>
-         <p><date when-custom="1667-01-24">24<hi rend="superscript">th</hi></date> <persName ref="ppl:rt2" n="per242">Robin</persName> first got up &amp; on his feete<lb/>
+         <p xml:id="p-0156"><date when-custom="1667-01-24">24<hi rend="superscript">th</hi></date> <persName ref="ppl:rt2" n="per242">Robin</persName> first got up &amp; on his feete<lb/>
            &amp; was perfectly <subst>
              <add place="above">well</add>
             <del rend="strikethrough">uell</del>
@@ -4179,7 +4184,7 @@
                <date>1667</date>
             </fw>
          </fw>
-         <p>
+         <p xml:id="p-0157">
         <milestone n="ev73" unit="event"/>
            It pleased God that as soone as my Son<lb/>
           <persName ref="ppl:rt2" n="per243">Robin</persName> was well to vissit my poore<lb/>
@@ -4197,7 +4202,7 @@
       </p>
 </div>
        <div xml:id="div-069" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0158">
          <milestone n="ev74" unit="event"/>
          About the <date when-custom="1667-01-25">25<hi rend="superscript">th</hi> of Jan: 1667</date>: <persName ref="ppl:atc1" n="per245">Naly</persName> took<lb/>
           Phisick to prevant the smale Pox &amp; she<lb/>
@@ -4263,7 +4268,7 @@
                <date>1667</date>.
             </fw>
          </fw>
-         <p> 
+         <p xml:id="p-0159"> 
         <milestone n="ev75" unit="event"/>
            <persName ref="ppl:jd3" n="per248"><persName ref="ppl:jd2" n="per249">My brother Denton</persName>s Son John</persName> was<lb/>
            fallen into great extreamity biginning<lb/>
@@ -4282,7 +4287,7 @@
          </p>
 </div>
        <div xml:id="div-071" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0160">
         <milestone n="ev76" unit="event"/>
            The <date when-custom="1667-04-08">8<hi rend="superscript">th</hi> of Aprill</date> <persName ref="ppl:atc1" n="per250">naly</persName> had a Pearle<lb/>
           on her Eye affter the Smale Pox which did<lb/>
@@ -4301,7 +4306,7 @@
 <!-- transcription: Page 111 -->
 <div xml:id="div-072">
   <fw type="pageNum" rend="underline">iii.</fw> <!-- TODO [review] conventions change -->
-         <p>
+         <p xml:id="p-0161">
         <milestone n="ev77" unit="event"/>
            <persName ref="ppl:ktp1" n="per251">Kate Thornton</persName> had a deliverance<lb/>
           from beeing choaked with swallowing a pin<lb/>
@@ -4317,7 +4322,7 @@
       </p>
 </div>
        <div xml:id="div-073" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0162">
          <milestone n="ev78" unit="event"/>
            <date precision="medium" when-custom="1666">About the yeare</date> that <persName ref="ppl:ktp1" n="per252">Kate Thornton</persName><lb/>
           was 10 yeares old. she was plaing in the<lb/>
@@ -4357,7 +4362,7 @@
        </div>
        <div xml:id="div-074" rend="pre(rule)">
          <milestone n="ev79" unit="event"/>
-         <p>It was the permition of God to let a sad<lb/>
+         <p xml:id="p-0163">It was the permition of God to let a sad<lb/>
           &amp; dismall stroake fall heavy upon my<lb/>
           <persName ref="ppl:td3" n="per253">Brother Danby</persName>s family in the most horrid<lb/>
           &amp; willfull murder of <persName ref="ppl:td4" n="per254">my deare &amp; brave<lb/>
@@ -4375,7 +4380,7 @@
 <!-- transcription: Page 113 -->
 
            <fw type="pageNum">113.</fw>   
-         <p>
+         <p xml:id="p-0164">
            This was don upon him in <placeName ref="place:Gray_081" n="place85">London neare<lb/>
            the Grays Inne</placeName>, about the <date when-custom="1667-08">August. <lb/>
              <!-- Q [teams] [formatting] moved fw - box around |__ -->
@@ -4383,7 +4388,7 @@
          <anchor n="ev79" type="event"/>
        </div>
        <div xml:id="div-075" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0165">
          <milestone n="ev80" unit="event"/>
           It pleased the goodnesse of my gracious<lb/>
           God to give me a weake &amp; sicke time<lb/>
@@ -4431,7 +4436,7 @@
        </div>
        <div xml:id="div-076" rend="pre(rule)">
          <milestone n="ev81" unit="event"/>
-         <p>I fell into panges of Labour about the<lb/>
+         <p xml:id="p-0166">I fell into panges of Labour about the<lb/>
           <date when-custom="1667-11-04">4<hi rend="superscript">th</hi> of november</date> beeing very ill. &amp; so con-<lb break="no"/>
           =tineued by fitts all that weeke. then on <lb/>
            <choice>
@@ -4459,7 +4464,7 @@
 
             <fw type="pageNum"><add place="superimposed" cert="medium">115</add>.
             </fw>
-         <p>
+         <p xml:id="p-0167">
             but for ever magnified &amp; praised  <lb/>
            <!-- NOTE moved fw --> 
           the great. &amp; Glorious Lord God Almighty<lb/>
@@ -4482,7 +4487,7 @@
          <anchor n="ev81" type="event"/>
        </div>
        <div xml:id="div-077" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0168">
          <milestone n="ev82" unit="event"/>
            my daughter <persName ref="ppl:atc1" n="per266">naly</persName> was on this night <date when-custom="1667-11-11">the<lb/>
           11<hi rend="superscript">th</hi> of no:</date> with feare &amp; greife for me so sick<lb/>
@@ -4502,7 +4507,7 @@
           <date>1667</date>
             </fw>
   </fw>
-         <p>
+         <p xml:id="p-0169">
         <milestone n="ev83" unit="event"/>
            <persName ref="ppl:ct1" n="per267">Christofer Thornton</persName> my 9<hi rend="superscript">th</hi> Child[e]<!-- TODO [review] check ms - letter is probably visible --> <lb/>
            was borne at <placeName ref="place:East_019" n="place88">newton</placeName>, on <date when-custom="1667-11-11">munday<lb/>
@@ -4516,7 +4521,7 @@
          </p>
 </div>
        <div xml:id="div-079" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0170">
          <milestone n="ev84" unit="event"/>
          After this comfort of <rs ref="ppl:ct1" n="per271" type="person">my Childe</rs> I<lb/>
           recovered something beter &amp; got my <lb/>
@@ -4586,7 +4591,7 @@
             </fw>
   
   <!-- NOTE [dates] death above is beginning of Dec 1667. so assuming this illness starts immediately after that -->
-         <p>
+         <p xml:id="p-0171">
       <milestone n="ev85" unit="event"/>
            <date when-custom="1667-12/1668-02">After</date> <rs ref="ppl:ct1" n="per274" type="person">my Childe</rs>s death. I fell <lb/>
           into a great &amp; long contineued<lb/>
@@ -4634,7 +4639,7 @@
           Jesus Christs his sake Amen.</p>
 </div>
        <div xml:id="div-081" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0172">
          <milestone n="ev86" unit="event"/>
          After which recovery of my health<lb/>
           I was very much in affliction about<lb/>
@@ -4672,7 +4677,7 @@
                <date>1668</date>.
             </fw>
          </fw>
-       <p>
+       <p xml:id="p-0173">
       <milestone n="ev87" unit="event"/>
           About the <date when-custom="1668-07-20">20<hi rend="superscript">th</hi> of July 1668</date>. I had<lb/>
           a very great &amp; dangerous sickenesse<lb/>
@@ -4770,7 +4775,7 @@
           in suffrings &amp; not with the pertakers of<lb/>
           these wickednesses lett thy heart<lb/>
            rejoyce in his salvation. &amp; that thy desgie<note place="end" type="word">
-             <p rend="Endnote Text"> [word] I.e.,design?]</p>
+             <p xml:id="p-0174" rend="Endnote Text"> [word] I.e.,design?]</p>
             </note>
             <lb/>
           was very much desirous to advance<lb/>
@@ -4798,7 +4803,7 @@
               [endnote] Number here is written over ‘had’. in |__ -->
             </fw>
         </fw>
-         <p>
+         <p xml:id="p-0175">
         <milestone n="ev88" unit="event"/>
           And loe <date when-custom="1668-08">when</date> I was yet scarsly recovrd<lb/>
            <!-- NOTE moved fw pageNum -->
@@ -4807,7 +4812,7 @@
           in his infinit and aboundant mercy &amp;<lb/>
           goodnesse to begin to restore that most <lb/>
           valewed Jewell by me. (&amp; which was indeu’ed<note place="end" type="word">
-            <p rend="Endnote Text"> [word] I.e.,endured?</p>
+            <p xml:id="p-0176" rend="Endnote Text"> [word] I.e.,endured?</p>
             </note>
             <lb/>
           to be wronged, (my good name). by the <lb/>
@@ -5002,7 +5007,7 @@
                <date>1668</date>.
             </fw>
          </fw>
-         <p> 
+         <p xml:id="p-0177"> 
         <milestone n="ev91" unit="event"/>
          <date when-custom="1668-07-25">July 25<hi rend="superscript">th</hi>
             <seg rend="underline">1668</seg></date>. It pleased God to give<lb/>
@@ -5108,7 +5113,7 @@
                <date>1668</date>.
            </fw>
          </fw>
-         <p>
+         <p xml:id="p-0178">
         <milestone n="ev92" unit="event"/>
           It pleased God that I remained very ill<lb/>
           &amp; weake affter the second Alarum I had<lb/>
@@ -5184,7 +5189,7 @@
                <date>1668</date>.
             </fw>
          </fw>
-         <p>And to this maine piller of helpe &amp;<lb/>
+         <p xml:id="p-0179">And to this maine piller of helpe &amp;<lb/>
           comfort to suport my fainting weake<lb/>
           bodie. I had givn me through mercy the<lb/>
           cordiall &amp; intire affection &amp; assistance of<lb/>
@@ -5262,7 +5267,7 @@
             </fw>
          </fw>
 
-         <p>Whilest I am in this vaile of teares<lb/>
+         <p xml:id="p-0180">Whilest I am in this vaile of teares<lb/>
           &amp; shadow of death. I must not expect<lb/>
           noe more comforts then will preserve me<lb/>
           from sinking. nor will I repine at the great<lb/>
@@ -5278,7 +5283,7 @@
           all things in his omnipresente, &amp; omnipot<add place="above">ent</add> <lb/>
           power, &amp; shall Iene <add place="above">most</add> to his owne Glory.</p>
          <milestone n="ev93" unit="event"/>         
-         <p>noe sooner was my strength in part<lb/>
+         <p xml:id="p-0181">noe sooner was my strength in part<lb/>
           recruted againe affter <rs ref="ppl:awn1" n="per316" type="person">my deare Aunts</rs><lb/>
           departure home &amp; having bin so weake that<lb/>
           I kept my bed a bove a weeke. so beginig <lb/>
@@ -5372,7 +5377,7 @@
                <date>1668</date>.
             </fw>
          </fw>
-         <p> So betwixt hopes &amp; feares I rested<lb/>
+         <p xml:id="p-0182"> So betwixt hopes &amp; feares I rested<lb/>
           till the next messenger came which was<lb/>
           about 4 a clocke on <date when-custom="1668-09-17">Thursday</date> in the<lb/>
           after noone. at which time I receavd the<lb/>
@@ -5485,7 +5490,7 @@
                <date>1668</date>.
             </fw>
          </fw>
-         <p>I now doe want those good &amp; Pieous<lb/>
+         <p xml:id="p-0183">I now doe want those good &amp; Pieous<lb/>
           prayers of him for me &amp; mine which I have<lb/>
           injoyed for many yeares, what can I <lb/>
           say, or what can I doe, each remembra<add place="above">nce</add> <lb/>
@@ -5590,7 +5595,7 @@
                <date>1668</date>.
             </fw>
          </fw>
-         <p>
+         <p xml:id="p-0184">
           And daly pant &amp; long to be<lb/>
            Clothed upon that death might<lb/>
           putt on Imortality. spending a<lb/>
@@ -5706,7 +5711,7 @@
          <fw type="pageNum"> 147.</fw>
          </fw>
          <lb/>
-         <p>Although my Afflictions be great &amp; <!-- Q [teams] [formatting] moved fw pageNum | -->
+         <p xml:id="p-0185">Although my Afflictions be great &amp; <!-- Q [teams] [formatting] moved fw pageNum | -->
             <lb/>
           heavy. sad &amp; burthensome to this weake<lb/>
           bodie yet in thee is my strength. &amp; my hope<lb/>
@@ -5772,7 +5777,7 @@
                <date>1668</date>.
             </fw>
   </fw>
-        <p>
+        <p xml:id="p-0186">
       <milestone n="ev94" unit="event"/>
           My deare Husband <persName ref="ppl:wt1" n="per329">Will.<hi rend="superscript">m</hi> Thornton</persName><lb/>
            Esq.<hi rend="superscript">r</hi> went to <placeName ref="place:Malt_035" n="place98">Malton</placeName> to <persName ref="ppl:ftp1" n="per330">sister Portington</persName><lb/>
@@ -5823,7 +5828,7 @@
           was dispatch for imeadatly. &amp; came<lb/>
           to him on <date when-custom="1668-09-16">wednesday</date> after dinner from<lb/>
           <placeName ref="place:York_060" n="place99">Yorke</placeName> <persName ref="ppl:rw1" n="per336">Dr wittie</persName> [S?]<note place="end" type="word">
-               <p rend="Endnote Text">Looks like a stray long s?</p>
+               <p xml:id="p-0187" rend="Endnote Text">Looks like a stray long s?</p>
             </note> he was at that time<lb/>
           very weake in bodie but I blesse God<lb/>
           perfect in his understanding. &amp; havng<lb/>
@@ -5863,7 +5868,7 @@
           one little sigh &amp; sweetely resigned up<lb/>
           his Spiritt in to the hand of his deare<lb/>
           Redeemer Jesus Christ.</p>
-         <p>He departed this life on Thursday the<lb/>
+         <p xml:id="p-0188">He departed this life on Thursday the<lb/>
           <date when-custom="1668-09-17">17<hi rend="superscript">th</hi> of September 1668:</date> betwixt the hours<lb/>
           of 11: 12: at noone. beeing on <del rend="strikethrough">the</del> <date when-custom="1668-06-02">June<lb/>
            the 2<hi rend="superscript">d</hi> 1668:</date> Forty fouer yeares of<lb/>
@@ -5874,7 +5879,7 @@
      </div>
      <div xml:id="div-088">
         <milestone n="ev96" unit="event"/>
-         <p>He was brought home to <placeName ref="place:East_019" n="place100">Newton</placeName> on<lb/>
+         <p xml:id="p-0189">He was brought home to <placeName ref="place:East_019" n="place100">Newton</placeName> on<lb/>
           <date when-custom="1668-09-18">friday the 18<hi rend="superscript">th</hi> of September</date> &amp;. had the company<lb/>
           of all his neigbours. of Gentry &amp; freinds<lb/>
           that could be obteined considering the time of<lb/>
@@ -5907,7 +5912,7 @@
          <item>My <persName ref="ppl:xb5" n="per344">Cosen Bullock</persName>.</item>
          <item>My Cozen <persName ref="ppl:el1" n="per345">Ed: Lassells</persName>.</item>
        </list>
-       <p>
+       <p xml:id="p-0190">
          There was a very great congregati<add place="above">on</add> <lb/>
           as could be at that time he beeing most<lb/>
           generally beloved of his whole County<lb/>
@@ -5929,7 +5934,7 @@
          <fw type="header" rend="underline"><date>1668</date>.</fw>
          <fw type="pageNum" rend="underline">153.</fw> 
        </fw>
-          <p>My dearest heart was Interrd<lb/>
+          <p xml:id="p-0191">My dearest heart was Interrd<lb/>
           in the Alley of his owne at his owne<lb/>
           Parich Church in <placeName ref="place:Ston_053" n="place101">Stongrave</placeName> neare<lb/>
             <rs ref="edg1" n="per346" type="person">his owne Mother</rs> &amp; two sweete<lb/>
@@ -5947,10 +5952,10 @@
           I have no pleasure in them.</p>
        <anchor n="ev96" type="event"/>
        <epigraph rend="pre(rule)">
-         <p>Lord hee loves thee the lesse, that<lb/>
+         <p xml:id="p-0192">Lord hee loves thee the lesse, that<lb/>
           loves any thing with thee, which hee<lb/>
           loves not for thee.</p>
-         <p> (St Austin.)
+         <p xml:id="p-0193"> (St Austin.)
              <!-- msDescription? [formatting] [endnote] Citation and attribution in larger writing and italic hand.-->   
          </p>
        </epigraph>
@@ -6036,7 +6041,7 @@
          <l>Then faire well world thy uttermost I see</l>
          <l>Eternall love maintaine thy life in me:</l>
       <!-- NOTE possible space here? only about 1 line. [the space below Amen is bigger, more obviously "space".] -->
-              <p> Amen.</p>
+              <p xml:id="p-0194"> Amen.</p>
    </div>
          <space unit="line" quantity="16"/>
       
@@ -6049,7 +6054,7 @@
        
          <!-- Q [teams] [authors] investigate the best way to handle this -->
             <note place="end" type="context">
-               <p rend="Endnote Text"> [context] 42 records in Folger first line, and copied out until the last line. Sir Kenelm Digby or Sir Henry Wotton, various copies and contexts.</p>
+               <p xml:id="p-0195" rend="Endnote Text"> [context] 42 records in Folger first line, and copied out until the last line. Sir Kenelm Digby or Sir Henry Wotton, various copies and contexts.</p>
             </note>
      <lb/>
          <l>
@@ -6092,7 +6097,7 @@
          <l>Fames speake me honors minnion &amp; could I</l>
          <l>With Indian-Angells, &amp; a speaking Eye.</l>
          <l>Comand<note place="end" type="word">
-               <p rend="Endnote Text"> [contraction] Contraction mark over ‘m’.</p>
+               <p xml:id="p-0196" rend="Endnote Text"> [contraction] Contraction mark over ‘m’.</p>
          </note> bare heads; bow’d knees strike Just[is]<!-- TODO [review] check ms but this looks quite readable to me! --></l>
          <l>As well as blind &amp; lame, &amp; give a Tongue <add place="above" rend="underline">dumb</add>
          </l>
@@ -6134,7 +6139,7 @@
        
        <div xml:id="div-092" type="poetry" rend="pre(rule_short_right)">
          
-         <p>The Just shall live by faith.</p>
+         <p xml:id="p-0197">The Just shall live by faith.</p>
          
          <lg rend="braced(})">
            <l>Nisi Christus Nemo.</l>
@@ -6261,7 +6266,7 @@
          <head>
             A Prayer.
          </head>
-         <p>O Lord God of our Salvation, who for<lb/>
+         <p xml:id="p-0198">O Lord God of our Salvation, who for<lb/>
           our Sakes were wounded &amp; didest<lb/>
           die to redeeme our Soules from hell.<lb/>
           &amp; wast pleased to lie in the Grave, that<lb/>
@@ -6422,7 +6427,7 @@
           by all things in Heaven, &amp; Earth.<lb/>
           of men &amp; Angells, both now &amp; to<lb/>
           all etternity for evermore.</p>
-                <p> Amen.
+                <p xml:id="p-0199"> Amen.
                   <!-- Q [teams] [formatting] 
                     [endnote] Final ‘Amen’ in larger script than the main text. -->
                 </p>
@@ -6975,7 +6980,7 @@
         </head>
       
        <div xml:id="div-097" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0200">
         <milestone n="ev97" unit="event"/>  
            vidz The great fall I had at <placeName ref="place:Kirk_030" n="place102">Kirklington</placeName><lb/>
           <date when-custom="1629">when</date> I was 3 yers old in following <persName ref="ppl:st1" n="per351">Sara</persName> my<lb/>
@@ -6985,19 +6990,19 @@
           <rs ref="ppl:aow1" n="per353" type="person">my d. mothrs</rs> Chambr. The wound soe Deepe<lb/>
           that my mothr saw the skin of the brane when<lb/>
            the scull was broaken &amp; had gon night<note place="end" type="word">
-             <p rend="Endnote Text"> [word] I.e., nigh?</p>
+             <p xml:id="p-0201" rend="Endnote Text"> [word] I.e., nigh?</p>
             </note> to have <lb/>
           killd me.<anchor n="ev97" type="event"/> But ever blessed be the name of my<lb/>
           gracious &amp; Powerfull God whoe did not cut<lb/>
           my life short in this moment beeing but a little<lb/>
            betwixt me &amp; Death. Oh that I night<note place="end" type="word">
-             <p rend="Endnote Text"> [word] I.e., might?</p>
+             <p xml:id="p-0202" rend="Endnote Text"> [word] I.e., might?</p>
             </note> live to<lb/>
           praise the Lord most high &amp; profitable to my <lb/>
           owne soule Amen.</p>
        </div>
        <div xml:id="div-098" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0203">
         <milestone n="ev98" unit="event"/>    
           The Lord gave me a dreame <date notAfter-custom="1640-11">before</date><!-- Q [dates] possible to make this more specific? these dreams are usually only a few months before the event. --> the dea<lb break="no"/>
           th of <rs ref="ppl:cw1" n="per354" type="person">my deare &amp; honourd father</rs> to warne me<lb/>
@@ -7009,7 +7014,7 @@
        </div>
        <div xml:id="div-099" rend="pre(rule_short_left)">
         <milestone n="ev99" unit="event"/>   
-         <p>
+         <p xml:id="p-0204">
             <rs ref="ppl:aow1" n="per356" type="person">My Deare mothr</rs> had a Terrible dream<lb/>
           of the day of Judgement in <date when-custom="1639">39</date>:<lb/>
           she had one Allso not Long before <persName ref="ppl:tw1" n="per357">my Lord <lb/>
@@ -7022,12 +7027,12 @@
 
 <!-- transcription: Page 183 -->
 
-         <p>She did see in the north window in her<lb/>
+         <p xml:id="p-0205">She did see in the north window in her<lb/>
           Chambr the sky broake out &amp; opned with a<lb/>
           dreadfull noyse. &amp; like gunnes &amp; swordss to<lb/>
           warre. when followed An infinit numbr<lb/>
           of People like common People &amp; meanns<note place="end" type="word">
-            <p rend="Endnote Text"> [word] I.e., meaner?</p>
+            <p xml:id="p-0206" rend="Endnote Text"> [word] I.e., meaner?</p>
             </note> sort<lb/>
           with Raw bond faces like Scotts. &amp; Irish, &amp;<lb/>
           English all in a great confusion &amp; hurry<lb/>
@@ -7057,7 +7062,7 @@
 
 <!-- transcription: Page 184 -->
 
-         <p>Then Pursued an infinit innumerable<lb/>
+         <p xml:id="p-0207">Then Pursued an infinit innumerable<lb/>
           company &amp; Multitude of all sorts of men<lb/>
           &amp; in soe Tirrible &amp; dreadfull a mannr. that<lb/>
           it affrited <rs ref="ppl:aow1" n="per363" type="person">my D. mother</rs> very much &amp; in<lb/>
@@ -7071,7 +7076,7 @@
           at noone time a day: which lasted about<lb/>
           an houer or more. to her very great<lb/>
           feare &amp; afrightment..</p>
-         <p>within a little while. <rs ref="ppl:cw1" n="per365" type="person">my father</rs> came<lb/>
+         <p xml:id="p-0208">within a little while. <rs ref="ppl:cw1" n="per365" type="person">my father</rs> came<lb/>
           up into the Chambr to see her. when she<lb/>
           beeing extreamily troubled tould him this thing<lb/>
           he heard her with Patience &amp; when she<lb/>
@@ -7113,7 +7118,7 @@
          <anchor n="ev99" type="event"/>
       </div>
       <div xml:id="div-100" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0209">
         <milestone n="ev100" unit="event"/>   
           I had a very significant dreame in <date when-custom="1645">45</date>:<lb/>
           imeadiatly before my d: <persName ref="ppl:kwd1" n="per367">sister Danby</persName> died<lb/>
@@ -7170,7 +7175,7 @@
       </div>
       <div xml:id="div-101" rend="pre(rule)">
         <milestone n="ev101" unit="event"/>   
-         <p>I had a sad dreame <date when-custom="1650-10">halfe a yeare before</date><!-- NOTE [dates] durations could be differently handled but this will do for now. --> my<lb/>
+         <p xml:id="p-0210">I had a sad dreame <date when-custom="1650-10">halfe a yeare before</date><!-- NOTE [dates] durations could be differently handled but this will do for now. --> my<lb/>
           Brothr <persName ref="ppl:gw1" n="per374">George Wandesford</persName> was lost. That he was<lb/>
           goeing over thys River and that it did Rise then<lb/>
           when he was in it. which soe over came him. That he<lb/>
@@ -7197,7 +7202,7 @@
 
 <!-- transcription: Page 188 -->
 
-         <p>At which he gave a sight, and said for my sak<lb/>
+         <p xml:id="p-0211">At which he gave a sight, and said for my sak<lb/>
           he would not venture againe. but have a care<lb/>
           of him self &amp; gave me his hand he would not goe<lb/>
           our it a gaine when it was high. which pleased me<lb/>
@@ -7295,7 +7300,7 @@
 <!-- transcription: Page 191 -->
      <div xml:id="div-102">        
         <milestone n="ev102" unit="event"/>
-         <p>A gratefull Remembrance of<lb/>
+         <p xml:id="p-0212">A gratefull Remembrance of<lb/>
            what God ded for me in delivrance fr[om]<!-- TODO [review] check ms - might be visible --><lb/>
           a misscarriage by a fright &amp; sorow<lb/>
           for <persName ref="ppl:rn1" n="per390">Nettleton</persName>s Balys disstraing all<lb/>
@@ -7307,7 +7312,7 @@
          <div xml:id="div-103" rend="pre(rule)">
            
          <milestone n="ev103" unit="event"/>
-         <p>
+         <p xml:id="p-0213">
           It was my dear <del rend="strikethrough">Husban</del><lb/> 
           <rs ref="ppl:wt1" n="per391" type="person">Husbands</rs> misfortune to enter<lb/>
           uppon the Assignment of <persName ref="ppl:mn1" n="per392">Mr Norton</persName><lb/>
@@ -7328,7 +7333,7 @@
 
 <!-- transcription: Page 192 -->
 
-         <p>And tho <persName ref="ppl:jl1" n="per398">S<hi rend="superscript">r</hi> John Lowther</persName> did<lb/>
+         <p xml:id="p-0214">And tho <persName ref="ppl:jl1" n="per398">S<hi rend="superscript">r</hi> John Lowther</persName> did<lb/>
           offer <rs ref="ppl:aow1" n="per399" type="person">my dere mothr</rs> in my hearing to<lb/>
           give her for <persName ref="ppl:cw2" n="per400">my brothr Ch</persName>. 1500<hi rend="superscript">l-</hi><lb/> 
           for hir Intrest in <placeName ref="place:Irel_096" n="place109">Ireland</placeName>. Butt my<lb/>
@@ -7391,7 +7396,7 @@
 
 <!-- transcription: Page 194 -->
         <milestone n="ev105" unit="event"/>
-         <p>But when he was gon to <placeName ref="place:Lond_080" n="place113">London</placeName><lb/>
+         <p xml:id="p-0215">But when he was gon to <placeName ref="place:Lond_080" n="place113">London</placeName><lb/>
           one day in the morning. I fell into a drea<add place="above">m</add> <lb/>
           beeing alone in bed That <persName ref="ppl:rn1" n="per418">Mr Netleton</persName>s<lb/>
           Bayly was come to distraine all my<lb/>
@@ -7405,7 +7410,7 @@
           asked who had bin heer. I said non –<lb/>
           for she looked me <surplus reason="repetition">me</surplus> in.
          </p>
-         <p>At last she said they was there. but prd<lb/>
+         <p xml:id="p-0216">At last she said they was there. but prd<lb/>
           me not to be frighted for they was civill<lb/>
           I said <persName ref="ppl:cw2" n="per421">Sir Wand</persName> should pay it. But they<lb/>
           would not goe with out the money so itt was<lb/>
@@ -7428,13 +7433,13 @@
           which by Gods mercy did stop there mouths<lb/>
           And I was delivred from Death then<lb/>
           tho I was brought very low.<anchor n="ev105" type="event"/></p>
-         <p>
+         <p xml:id="p-0217">
           Thus did the great &amp; gracious fathr<lb/>
           of mercys deliver me by giving me<lb/>
           warning by a dreame which did prev<add place="above">nt</add> <lb/>
           my greater distruction.</p>
            
-         <p>
+         <p xml:id="p-0218">
           There fore will I blese &amp; Praise the<lb/>
           Name of God forever who watched<lb/>
           over me in my sleepe to keepe me from<lb/>
@@ -7442,7 +7447,7 @@
            for Ever more. Amen</p>
       </div>
       <div xml:id="div-104" rend="pre(rule)">
-         <p>
+         <p xml:id="p-0219">
         <milestone n="ev106" unit="event"/>
            <date when-custom="1644/1651"/>
           The great Deliverance I had from<lb/>
@@ -7460,7 +7465,7 @@
 
 <!-- transcription: Page 196 -->
       <div xml:id="div-105">
-         <p>
+         <p xml:id="p-0220">
         <milestone n="ev107" unit="event"/>
            
           my great delivrance from<lb/>
