@@ -111,22 +111,26 @@
        </calendarDesc>
        <!-- NOTES ON DATES:
          
-            NB: our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year (of the two possible) a date between 1 Jan and 24 March is supposed to be in.
+         NB: our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year a date between 1 Jan and 24 March is supposed to be in.
          
-         following MoEML, three @datingMethod/@calendar
-         #JulianJan year starts 1 January 
-         #JulianMar date=1 Jan-24 Mar and year starts 25 March
-         #JulianSic (rare) only used where date =1 Jan-24 Mar and we don't know which of the two possible years it is
+         following MoEML, three @datingMethod:
+         #JulianJan year starts 1 January
+         #JulianMar date = 1 Jan-24 Mar and year starts 25 March
+         #JulianSic (rare) only used where date = 1 Jan-24 Mar and we don't know which of the two possible years it is
          ***UPDATE: added for Book 3***
          Book 3 contains a number of dates written in the form 1668/9 (=1669). 
-         #JulianSlash to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
+         #JulianSlash is used to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
          
          ** JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
          ** Julian calendar is treated as the default calendar, so not explicitly encoded (atm)** 
-         ** use @-custom attributes with -iso style formatting
-         NB year-only dates are assumed #JulianJan unless clear reason (eg from nearby dates) to do otherwise
+         ** using @-custom attributes with -iso style formatting
+         
+         ** year-only dates are assumed #JulianJan unless clear reason (eg from nearby dates) to do otherwise
          
          <calendar> will need proper description later
+         
+         Sometimes we know from other sources that Alice has got a date wrong. These are encoded using <choice><sic><corr>
+         
         -->
      </profileDesc>
      
@@ -140,8 +144,8 @@
         
      <!-- ENCODING NOTES: 
          
-         Page \d+ in comments = Transcriber page numbers 
-         <fw>type=pageNum are Alice's written numbers)
+         Page \d+ in xml comments = Transcriber page numbers 
+         <fw>type=pageNum are Alice's written numbers
          
      xml comment keywords:
          NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action
@@ -154,12 +158,11 @@
          [endnote] moved from Word endnotes into comment
          
      TO DO/REVIEW:
+        
+        <pb> need renumbering (will probably redo them properly as xml:id)
      
         abbrev/contraction work - needs to be fixed in the transcription first
         - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as ex? still reading up on this one! 
-        
-        markers/decoration etc - see teams review
-          / kind of stuff is still a bit hmm and I havne't done it in other books.
         
         seg @rend=underline
           need to check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph tags.
@@ -188,18 +191,22 @@
       tagging of ms description features 
           - a lot of this to be dropped or only described in msDescription, but will review properly after transcription updates summer 2022.
           related footnotes > comments for reference/to come back to
-          in teiHeader added examples for tags we might find useful
-      
+          i've started teiHeader/msDesc with examples of tags that are likely to be useful, but we might not use all of them in the end.
                 
      -->      
        
        <!-- 
         Linkage for standoff files
         
-        sample prefixDef (borrowed from dbw project) 
-        prefixes ppl, place, bibl
-        maybe also "atb:" for project refs - project people, anything else useful.
-
+        sample prefixDef below (borrowed from dbw project) 
+        prefixes: 
+          ppl: (people.xml)
+          place: (places.xml) 
+          bibl: (tbd)
+          
+        considering "atb:" for project refs - project people, anything else useful (but might not be enough of this to really need separate standoff)
+        
+       
         <listPrefixDef>
           <prefixDef ident="ppl"
             matchPattern="([a-z]+)"
@@ -345,12 +352,13 @@
           of my selfe, <rs ref="ppl:wt1" type="person">Husband</rs> &amp; Children<lb/>
           with theire births, &amp; other remarks<lb/>
           as conserning my selfe &amp; Family<lb/>
-          begining from the yeare. <date datingMethod="#JulianMar" when-custom="1625">162<add rend="differentInk" place="superimposed">5</add></date><!-- NOTE [dates] OS -->.
+          begining from the yeare. <date datingMethod="#JulianMar" when-custom="1625">162<add xml:id="ex_add-super-ink-01" rend="differentInk" place="superimposed">5</add></date><!-- NOTE [dates] OS -->.
          </titlePart>
          </docTitle>
          <docAuthor>  
          <persName ref="ppl:awt1" n="per1" type="monogram">
-           [ATW] <!-- Q [symbol] ATW = decorative monogram. maybe <figure> ?? -->
+           [ATW] <!-- Q [symbol] ATW = decorative monogram. maybe <figure> ??
+                      nb there is also one in book 1 near the end. -->
          </persName>
          </docAuthor>
            <note place="end" type="context">
@@ -428,7 +436,7 @@
          <l>Curbe my Stoute affections:</l>
          <l>Nip thou the bud,</l>
          <l>Before the bloome beginnes</l>
-         <l>Lord <add place="above" cert="low">the one</add> <unclear>ver</unclear><!-- [endnote] Even in the original this is very difficult to read.-->
+         <l>Lord <add place="above" cert="low">the one</add> <unclear>ver</unclear><!-- **this has changed in the final version and not looking any easier lol** [endnote] Even in the original this is very difficult to read.-->
           keepe me, from</l>
          <l>Presumptuous sinnes:</l>
          <l>Lord lead me by thy hand into thy rest</l>
@@ -597,8 +605,8 @@
           ledge &amp; remembrance most worthy<lb/>
           of a perpetuall memmory, which I hope<lb/>
           shall 
-        <subst>
-            <del><gap unit="char" quantity="4" reason="deleted"/></del>
+        <subst xml:id="ex_double_gap-01">
+            <del rend="doublestrikethrough"><gap unit="char" quantity="4" reason="deleted"/></del>
             <add place="above">not</add>
         </subst>, end with this life but spring<lb/>
           up to an Eternity of Haleiuias of<lb/>
@@ -693,7 +701,7 @@
           that time in thim.<anchor n="ev3" type="event"/> I will praise the<lb/>
           Lord our God for my Preservation &amp;<lb/>
           deliverance that did not suffer that disseas<lb/>
-           to rage &amp; indanger my life. <gap unit="char" quantity="2" reason="deleted"/> but<lb/>
+           to rage &amp; indanger my life. <gap xml:id="ex_gap-char-01" unit="char" quantity="2" reason="deleted"/> but<lb/>
           Raised me soone to my Parents again<lb/>
           O lett me speake good of the name of<lb/>
           the Lord &amp; magnifie his goodnesse for<lb/>
@@ -877,7 +885,7 @@
            =ful thanks &amp; gratitude to <rs ref="ppl:cw1 ppl:aow1" n="per34" type="person">my<lb/>
           deare &amp; Hon.<hi rend="superscript">red</hi> Parents</rs> for their<lb/>
           exceading great love &amp; painesfull<lb/>
-           caire. <add place="above">&amp;</add> affection for the performance<lb/>
+           caire. <add xml:id="ex_add-above-01" place="above">&amp;</add> affection for the performance<lb/>
           of theire part towards me. desiring<lb/>
           of God to give me grace to live in<lb/>
           holy obedience to all there goodness<lb/>
@@ -1056,7 +1064,7 @@
           of <persName ref="ppl:jw1" n="per39">my brother John</persName>. &amp; was very nere<lb/>
           death with them. but blesed be the God<lb/>
           of mercys who spaired my life at that<lb/>
-          time allso. <add place="inline">with <persName ref="ppl:jw1" n="per40">my bro: John</persName> who had them<anchor n="ev16" type="event"/><lb/>
+          time allso. <add xml:id="ex_add-inline-01" place="inline">with <persName ref="ppl:jw1" n="per40">my bro: John</persName> who had them<anchor n="ev16" type="event"/><lb/>
           <milestone n="ev17" unit="event"/>but a poore boy <persName ref="ppl:fk1" n="per41">F. Kelly</persName> died of them. then.<anchor n="ev17" type="event"/></add>
            <!-- msDescription [endnote] Words in angle brackets look to be later additions in a slightly different ink and size of writing. The underlining looks like it was done at the time the entry was originally written, as does the shorter line below.-->
             <date when-custom="1642"/><!-- NOTE [dates] this date is more precise in book1 -->
@@ -1109,11 +1117,12 @@
             <persName ref="ppl:kwd1" n="per46">my Sister Danby</persName> died at <placeName ref="place:Thor_056" n="place25">Thorpe</placeName> 
            <date when-custom="1645-09-10">Sept 10<hi rend="superscript">th</hi>
             <lb/>
-           164<subst><del rend="overwritten">4</del><add place="superimposed">5</add></subst>
+             164<subst xml:id="ex_subst-overwritten">
+             <del rend="overwritten">4</del><add place="superimposed">5</add></subst>
            </date>:
             <!-- [endnote] [editorial] Bk 1 says sept 30th 1645 but Anselment found she was buried on 11th sept 1645: edn n274. -->
           <!-- [endnote] Originally 1644 but the final number has been over-written as 5. As per above, the phrase in add tags appears to be a later addition in a slightly different ink and writing of a smaller size.-->
-             <add place="inline" rend="size(smaller)">of her 16 childe. beeing a son named<lb/> 
+             <add xml:id="ex_add-inline-02" place="inline" rend="size(smaller)">of her 16 childe. beeing a son named<lb/> 
                 <persName ref="ppl:fd1" n="per47">Francis</persName> which I baptized</add> 
          </p>
          <anchor n="ev20" type="event"/>
@@ -1276,7 +1285,7 @@
            <persName ref="ppl:atc1" n="per69">Alice Thornton</persName> my Second Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place41">Hipswell</placeName> the <date datingMethod="#JulianMar" when-custom="1653-01-03">3<hi rend="superscript">d</hi> of Janeuary<lb/>
          <fw xml:id="mnote-0004" place="left margin" rend="underline">1653</fw></date>
-           <gap reason="damage deleted" quantity="2" unit="word"/>
+           <gap xml:id="ex_gap-word-01" reason="damage deleted" quantity="2" unit="word"/>
            <!-- [endnote] Some crossings out her but also looks like the paper is damaged in some way. Check original. This looks like it said 1653 – or 2? - but scratched out; A born 1654 in modern dating but makes more sense that the marginal dates are the corrections. This one has made a hole in the page visible on p.26.-->
                   
           and Babtized the <date datingMethod="#JulianMar" when-custom="1653-01-04"><add place="superimposed">4</add><hi rend="superscript">th</hi> of the same</date>.
@@ -1305,7 +1314,7 @@
          <!-- NOTE [dates] OS - date of Elizabeth's birth=1655-->
                   
            <gap reason="damage deleted" quantity="1" unit="word"/> being Wednesday. halfe houer<lb/>
-           affter i<subst><del cert="low">2</del><add place="superimposed">i</add></subst>
+           affter i<subst><del rend="overwritten" cert="low">2</del><add place="superimposed">i</add></subst>
          a clock in the forenoon, and<lb/>
          
             <pb n="26"/>
@@ -1330,7 +1339,7 @@
        </div>
        
      <div xml:id="div-036" rend="pre(rule_short_left)">
-       <!-- Q this rule is not horizontal, but it's not a diagonal slash either -->
+      <!-- Q this rule is not horizontal, but it's not a diagonal slash either -->
     <fw xml:id="mnote-0006" place="left margin"><date when-custom="1655">1655</date>.</fw><lb/>
     <p>
       <!-- [endnote] A diagonal line between the sections which goes through the date which was prob added later as it is in a darker ink, like the page number.-->
@@ -1339,7 +1348,7 @@
         <persName ref="ppl:edg1" n="per81">my Mother Gates</persName> died at <lb/>
         <placeName ref="place:Oswa_041" n="place43">Oswoldekirke</placeName> of the voydance of<lb/>
         blood the <date when-custom="1655-05-10"><seg rend="differentInk">10<hi rend="superscript">th</hi></seg> day of may. 1655</date>.<lb/>
-      &amp; was buried at <placeName ref="place:Ston_053" n="place119">Stanegr<unclear reason="damage">av</unclear>e</placeName>
+      &amp; was buried at <placeName ref="place:Ston_053" n="place119">Stanegrave</placeName>
         <!-- msDescription? [endnote] Here there is a hole from the correction on p.25.-->
          <lb/>
          the <date when-custom="1655-05-11">1<subst><del rend="overwritten">0</del><add place="superimposed">1</add></subst><hi rend="superscript">th</hi> of may 1655</date>.
@@ -1347,7 +1356,7 @@
           </p>
        </div>
        <div xml:id="div-037" rend="pre(rule_short_left) post(rule_short_left)">
-         <!-- Q against these rules are at an angle but are not short diagonal slashes either. -->
+         <!-- Q again, these rules are at an angle but not [imo] short diagonal slashes either. -->
          <p>
          <milestone n="ev37" unit="event"/>
            <persName ref="ppl:gg1" n="per82">my father Gates</persName> died at <placeName ref="place:Hull_027" n="place44">Hull</placeName><lb/>
@@ -1370,7 +1379,7 @@
          <p>
         <milestone n="ev38" unit="event"/>
            <persName ref="ppl:rt1" n="per83">My brother. Richard Thornton</persName><lb/>
-           died in <placeName ref="place:Dubl_088" n="place45">Dublin</placeName>, in <placeName ref="place:Irel_096" n="place46">Ireland</placeName> of the <unclear reason="overwritten" rend="differentInk" cert="high">flux</unclear>
+           died in <placeName ref="place:Dubl_088" n="place45">Dublin</placeName>, in <placeName ref="place:Irel_096" n="place46">Ireland</placeName> of the flux
               <!-- msDescription [endnote] A bit unclear as in darker ink; overwritten?-->
             <lb/>
           country desease the <date when-custom="1656-07-03"><seg rend="differentInk">3<hi rend="superscript">d</hi></seg>
@@ -1383,7 +1392,7 @@
          </p>
 </div>
        <div xml:id="div-039" rend="pre(rule_short_left) post(rule_short_right)">
-         <p><!-- Q again slanted rules, but not really a diagonal slash -->
+         <p><!-- NOTE again rules are not horizontal, but not diagonal slash -->
          <milestone n="ev39" unit="event"/>
            <persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
           Childe was borne at <placeName ref="place:Hips_022" n="place48">Hipswell</placeName> the<lb/>
@@ -1432,7 +1441,7 @@
        </div>
      <!-- NOTE year 1657 -->
        <div xml:id="div-041" rend="pre(rule)">
-         <!-- Q [decoration] ? divider line was a thicker line than usual, but not evenly so. hmm. -->
+         <!-- Q [decoration] ? ruled line is a thicker line than usual, but not evenly so. hmm. -->
          <p>
            <milestone n="ev41" unit="event"/>
           I gotte a great fall over the<lb/>
@@ -1640,7 +1649,7 @@
           rebukes for Sin, a contineuall pray<lb/>
           ing of Psalmes suitable for her<lb/>
           condition, speakeing to God in his owne<lb/>
-          p<add place="above">h</add>raise &amp; word, saing that we could<lb/>
+          p<add xml:id="ex_add-above-02" place="above">h</add>raise &amp; word, saing that we could<lb/>
           not speake to him from our selves<lb/>
          
             <pb n="34"/>
@@ -1815,7 +1824,7 @@
          <p>
            <anchor n="ev44" type="event"/>
            <!-- Q [teams] [authors] though only a mention here, not actual text. also a books x-ref given that the prayers are in book 1. -->
-            <add place="inline">Enter her Praiers my mo: made on Severall occa<hi rend="superscript">ns:</hi></add><!-- Q abbrev? -->
+            <add xml:id="ex_add-inline-03" place="inline">Enter her Praiers my mo: made on Severall occa<hi rend="superscript">ns:</hi></add><!-- Q abbrev? -->
            <!-- [endnote] Information in angle brackets, later addition. Diagonal line here goes through last couple of words; last line prob added later. These prayers follow here in book 1.-->
            
            <!-- NOTE rule/diagonal moved to div rend -->
@@ -1969,7 +1978,7 @@
          <l>Tax not thy God thy owne defalts</l>
          <l>did urge.</l>
          <l>This two fould punishement .the</l>
-   <l>mille. the <add place="superimposed" rend="differentInk">Scourge</add>
+   <l>mille. the <add xml:id="ex_add-super-01" place="superimposed" rend="differentInk">Scourge</add>
          </l>
          <l>Thy Sinnes the author of thy selfe.</l>
          <l>tormenting.</l>
@@ -2145,7 +2154,7 @@
         <!-- msDescription [endnote] Date squeesed line over text, looks like a darker ink, and some suggestion of tirmming. Page number added in at the end of the first line.-->
          </fw>
          <p>I laboured under &amp; was heavy <!-- NOTE moved fw=pageNum --><lb/>
-           Laden <subst>
+           Laden <subst xml:id="ex_subst-strike-above">
              <del rend="strikethrough">under</del><add place="above">with</add>
            </subst>
           the burden of my Sines.<lb/>
@@ -2230,7 +2239,7 @@
           the Power of thy word to me.<lb/>
           I beleive, (Lord helpe my unbeleife)<lb/>
           that thou art as mercifull to me<lb/>
-          as others who falls by sine, <subst>
+           as others who falls by sine, <subst>
            <add place="above">And</add>
            <del rend="strikethrough">yet</del></subst><lb/> 
            art <del rend="strikethrough">thou</del> pleasd to give me plenty<lb/>
@@ -2437,7 +2446,7 @@
          <!-- msDescription [endnote] The top quarter of the page has been cut away, removing four complete lines and the second half of the fifth.-->
 
          <p>
-          which he was pleased to <gap reason="damage" agent="cut" quantity="4" unit="word"/><lb/>
+          which he was pleased to <gap xml:id="ex_gap-word-02" reason="damage" agent="cut" quantity="4" unit="word"/><lb/>
           ill manner from me. &amp; fell very muche<lb/>
           offended. so that I was much troubled<lb/>
           as his displeasure in that kind &amp; could<lb/>
@@ -2459,7 +2468,7 @@
 
 <!-- transcription: Page 56 -->
 
-         <gap reason="damage" agent="cut" quantity="5" unit="line"/>
+         <gap xml:id="ex_gap-line-cut-01" reason="damage" agent="cut" quantity="5" unit="line"/>
            
          <p>
           his feete beeing bigg with childe &amp; in<lb/>
@@ -2650,7 +2659,7 @@
           my. Portion (being the pretence for it)<lb/>
           was undoubtedly safe &amp; secured by<lb/>
           <rs ref="ppl:cw1" n="per160" type="person">my father</rs>s will, he having at that<lb/>
-           time a lease of Land in <placeName ref="place:Kirk_030" n="place65">Kirkling<add place="above">tn</add></placeName>
+           time a lease of Land in <placeName xml:id="ex_entity-add-above-01" ref="place:Kirk_030" n="place65">Kirkling<add place="above">tn</add></placeName>
            <lb/>
          
             <pb n="63"/>
@@ -2729,7 +2738,7 @@
           &amp; those quick goods my dear mo:<lb/>
           gave for my releife &amp; childrens <!-- NOTE moved fw --> <lb/>
           these men were very boysterous, &amp;<lb/>
-           rude threatning to <add place="superimposed">ta</add>ke my Person<lb/>
+           rude threatning to <add xml:id="ex_add-super-02" place="superimposed">ta</add>ke my Person<lb/>
           if not sattisfied. Loe in what a<lb/>
           sad case was I then in. &amp; but that it<lb/>
           pleased God to give me Releife I<lb/>
@@ -2901,7 +2910,7 @@
           Angels .&amp; all the Host of Heaven<lb/>
           I heere prostrate my Soule before the<lb/>
           Throne of Grace. that hath shewed me his<lb/>
-          poore weake handmaid <del rend="strikethrough">shush</del> such <lb/>
+          poore weake handmaid <del xml:id="ex_del-strike-01" rend="strikethrough">shush</del> such <lb/>
           hopes, such mercys, &amp; oportunitys<lb/>
           of making my caling &amp; ellection sure<lb/>
           And he will for his grace sake full<lb break="no"/>
@@ -2944,7 +2953,7 @@
           =serable world. I thought it my<lb/>
           duty allso in the next place to<lb/>
           settle those things which 
-        <add place="above">conseild</add> my Childre<lb break="no"/>
+        <add xml:id="ex_add-above-03" place="above">conseild</add> my Childre<lb break="no"/>
           =ns Provission for the future, both<lb/>
           in respect of what was given to<lb/>
           me by goodnesse of my deare mother<lb/>
@@ -3308,7 +3317,7 @@
           gratitude which I errect for all the deli<lb break="no"/>
           -verances I have had &amp; my Children<lb/>
           both in soule &amp; body. the living the liveng<lb/>
-          <gap unit="char" quantity="2" reason="smudge"/><!-- NOTE does *not* seem to be an authorial deletion, it's just smudging. --> shall praise thee in heaven &amp; Earth.</p>
+          <gap xml:id="ex_gap-char-02" unit="char" quantity="2" reason="smudge"/><!-- NOTE does *not* seem to be an authorial deletion, it's just smudging. --> shall praise thee in heaven &amp; Earth.</p>
        </div>  
        
             <pb n="85"/>
@@ -3359,8 +3368,8 @@
             <fw type="header">63.</fw>
          </fw>
            <lb/>
-          beeing receaved by <subst>
-            <del><gap unit="char" quantity="2" reason="deleted"/></del>
+           beeing receaved by <subst xml:id="ex_double_gap-02">
+            <del rend="doublestrikethrough"><gap unit="char" quantity="2" reason="deleted"/></del>
             <add place="above">&amp;</add>
             </subst> from the mercy<lb/>
           of a gracious father who hath<lb/>
@@ -3463,7 +3472,7 @@
            <fw type="pageNum">89.</fw>
            </fw>
           <lb/>
-           &amp; so prevented. by <del rend="doublestrikethrough">Gods</del> blessing <lb/>
+           &amp; so prevented. by <del xml:id="ex_del-double-01" rend="doublestrikethrough">Gods</del> blessing <lb/>
              <!-- NOTE moved fw -->
           the extreamity from falling on me <lb/>
           And I had a better recovery of this<lb/>
@@ -3497,7 +3506,7 @@
         <milestone n="ev62" unit="event"/>
          <p><persName ref="ppl:jt1" n="per207">My Sweet Childe Joyce</persName> which was<lb/>
            <!-- NOTE moved fw -->
-         my <del rend="strikethrough">Eith</del> Eight childe was borne on<lb/>
+         my <del xml:id="ex_del-strike-02" rend="strikethrough">Eith</del> Eight childe was borne on<lb/>
           Satterday a bout 4 a clocke in the<lb/>
           after noone. on <date when-custom="1665-09-23">September the 23<hi rend="superscript">th</hi><lb/> 
             
@@ -3836,8 +3845,8 @@
 
          <p>She continued with some intermitions till <date when-custom="1666-01-25">thursday</date> <lb/>
           after. when it was past hopes. of her recovery<lb/>
-          and <del rend="strikethrough">about</del> betwixt one &amp; 2 a clocke rings<lb/>
-          at noone <del rend="doublestrikethrough">of</del> 
+          and <del xml:id="ex_del-strike-03" rend="strikethrough">about</del> betwixt one &amp; 2 a clocke rings<lb/>
+           at noone <del xml:id="ex_del-double-02" rend="doublestrikethrough">of</del> 
             on <date datingMethod="#JulianMar" when-custom="1665-01-26">friday the 26<hi rend="superscript">th</hi> of Jan: 65</date>:<lb/>
           it pleased God to free her from all paine<lb/>
           by takeing her to his. mercy. where she<lb/>
@@ -4283,7 +4292,7 @@
           about the <date when-custom="1667-04-30">30<hi rend="superscript">th</hi> of April 1667</date>.<anchor n="ev76" type="event"/><lb/>
           blessed be God for the least &amp; greatest<lb/>
           testimonyes of his goodnesse to me &amp;<lb/>
-            <del rend="doublestrikethrough">mim</del> mine. that I may set forth his praise<lb/>
+           <del xml:id="ex_del-double-03" rend="doublestrikethrough">mim</del> mine. that I may set forth his praise<lb/>
           for ever more Amen.</p>
          </div>
          
@@ -4412,7 +4421,7 @@
            <lb/>
          he intermitted in my illnesse &amp; so ret=<add place="above">urnd</add> <lb/>
          to his relapssed condittion have<add place="above">ing</add> <persName ref="ppl:rw1" n="per262">Dr wittie</persName><lb/>
-            <del rend="doublestrikethrough">wittie</del> sent for severall times for him. &amp; so<lb/>
+           <del xml:id="ex_del-double-04" rend="doublestrikethrough">wittie</del> sent for severall times for him. &amp; so<lb/>
           through meanes by Gods blessing he was<lb/>
           restored to me againe blessed be our mer-<lb break="no"/>
           cefull God of our salvation. for ever more<lb/>
@@ -4676,12 +4685,12 @@
           in <persName ref="ppl:kdb1" n="per278">my neece kitt Danby</persName>s chamber at<lb/>
           <placeName ref="place:East_019" n="place91">Newton</placeName> when her maide <persName ref="ppl:bt1" n="per279">Barbara Tod</persName>.<lb/>
           did impudently accuse 
-             <del rend="doublestrikethrough">me</del> 
-              <del rend="doublestrikethrough">to</del> 
+         <del xml:id="ex_del-double-05" rend="doublestrikethrough">me</del> 
+         <del xml:id="ex_del-double-06" rend="doublestrikethrough">to</del> 
            <w>
-             <subst>
+             <subst xml:id="ex_double_gap-03">
              <add place="above">be</add>
-             <del><gap unit="char" quantity="2" reason="deleted"/></del>
+             <del rend="doublestrikethrough"><gap unit="char" quantity="2" reason="deleted"/></del>
            </subst>fore</w> my<lb/>
           face <del rend="strikethrough">of</del> my Servant <persName ref="ppl:ha1" n="per280">Hanna<lb/>
           Ableson</persName> for telling her from one <persName ref="ppl:mb1" n="per281">Mary<lb/>
@@ -4695,7 +4704,7 @@
           oath, but <rs ref="ppl:bt1" n="per283" type="person">the other woman</rs> having a <lb/>
           spleene against her. did carrie so un<lb break="no"/>
           =hansomly &amp; unchristianly towards me<lb/>
-         in her <del rend="doublestrikethrough">bit</del><sic>ter</sic><!-- NOTE i think <sic> is probably the best thing to do with "ter" here, but might do final review --> agravation &amp; in false<lb/>
+         in her <del xml:id="ex_del-double-07" rend="doublestrikethrough">bit</del><sic>ter</sic><!-- NOTE i think <sic> is probably the best thing to do with "ter" here, but might do final review --> agravation &amp; in false<lb/>
           accusing the Hon.<hi rend="superscript">or</hi> of some of the Persons<lb/>
          
             <pb n="121"/>
@@ -4810,7 +4819,7 @@
           = who could <add place="above">not</add> prevaile with her designe up<lb break="no"/>
           =pon the Person of <persName ref="ppl:tc1" n="per289">Mr C.<hi rend="superscript">r</hi></persName> to have drawne<lb/>
           him for marriage. &amp; failing of that end<lb/>
-           <del rend="doublestrikethrough">did</del> pervanted her plaucible carriage into<lb/>
+           <del xml:id="ex_del-double-08" rend="doublestrikethrough">did</del> pervanted her plaucible carriage into<lb/>
            an inveterate malice &amp; hatred. both again<add place="above">st</add> <lb/>
           him &amp; my selfe, which haveing discovred that<lb/>
           it was <persName ref="ppl:tc1" n="per290">Mr Comber</persName>s desires to obteine my.<lb/>
@@ -5000,7 +5009,7 @@
         my deare <persName ref="ppl:rt2" n="per303">Robin Thornton</persName> a great mercy<lb/>
         in his preservation &amp; delivrance upon that<lb/>
         day. for his sister <persName ref="ppl:ktp1" n="per304">Kate</persName> &amp; <persName ref="ppl:wd1" n="per305">cosen willy<lb/>
-        Denton</persName> <del rend="doublestrikethrough">was</del> and himselfe was playing<lb/>
+          Denton</persName> <del xml:id="ex_del-double-09" rend="doublestrikethrough">was</del> and himselfe was playing<lb/>
            in the Hay Laith at <placeName ref="place:East_019" n="place94">newton</placeName> upon the <unclear>mowe</unclear><!-- [endnote] Found this difficult to read even in the original. --> <lb/>
           and standing in the window about 4 yerds<lb/>
           high from the Earth. he fell out if it into<lb/>
@@ -5369,8 +5378,8 @@
           after noone. at which time I receavd the<lb/>
           newes of the most Terrible losse that ever<lb/>
           woman losst in beeing deprived of my<lb/>
-          Sweete &amp; most <subst>
-              <del><gap unit="char" quantity="9" reason="deleted"/></del>
+           Sweete &amp; most <subst xml:id="ex_double_gap-04">
+              <del rend="doublestrikethrough"><gap unit="char" quantity="9" reason="deleted"/></del>
               <add place="above">exceeding</add>
           </subst>
            <rs ref="ppl:wt1" n="per326" type="person">deare Husbad</rs><lb/>
@@ -5457,7 +5466,7 @@
            <g ref="#heart">♥</g>. I must be still &amp; know that it <seg rend="differentInk">is God</seg>
             <lb/>
            that Ruleth in <seg rend="differentInk">H</seg>. &amp; Earth. the Lord is<lb/>
-           his name. &amp; his mercy <add place="above" rend="differentInk">is</add> unto us. for he<lb/>
+           his name. &amp; his mercy <add xml:id="ex_add-above-ink-01" place="above" rend="differentInk">is</add> unto us. for he<lb/>
           did draw my Joy to his owne selfe, &amp;<lb/>
           fitted him for this dissolution. he remem<lb break="no"/>
           =bred the Lord in the daies of his youth &amp;<lb/>
@@ -5603,7 +5612,7 @@
           for in Heaven they are as the Angells<lb/>
           nay higher. &amp; drawne nearer in beeing<lb/>
           drawen &amp; united to the nature of God<lb/>
-            in the second person of the Trinity. the Etern<add place="below">all</add><lb/> 
+            in the second person of the Trinity. the Etern<add xml:id="ex_add-below-01" place="below">all</add><lb/> 
             
 
          
@@ -6077,7 +6086,7 @@
          <fw type="pageNum">158.</fw> 
          <lb/>
          <l>Rich hated; wise suspected; scornd. if <add place="above">poore.</add> </l>
-         <l>Great feared; faire tempted; high still envied <add place="below">more</add><!-- Q [teams] [formatting] "more" in |__ --></l>
+         <l>Great feared; faire tempted; high still envied <add xml:id="ex_add-below-02" place="below">more</add><!-- Q [teams] [formatting] "more" in |__ --></l>
          <l>would the world then adopt me for her heire. </l>
          <l>Would beauties queene intitle me the faire.</l>
          <l>Fames speake me honors minnion &amp; could I</l>
@@ -6142,14 +6151,17 @@
          <l>The offended dies, to Sett the offender free.</l>
  
  
+    </div>
+       
+       
+        <!-- [endnote] NB TWO UNNUMBERED BLANK PAGES, 159v, 160r -->
+        <space quantity="2" unit="page"/> 
+       
+      <!-- renumbering from here... -->
+       
             <pb n="160"/>
 
 <!-- transcription: Page 160 -->
-
-    </div>
-    
-          <!-- [endnote] NB TWO UNNUMBERED BLANK PAGES, 159v, 160r -->
-        <space quantity="2" unit="page"/> 
          
        <div xml:id="div-093" type="poetry">  
          
@@ -6178,7 +6190,6 @@
          <l>My walke should be but in his wayse,</l>
          <l>My talke but onely in his Praise.;</l>
          
-      <!-- YUCK pb does this need renumbering from here ?? -->
             <pb n="161"/>
 
 <!-- transcription: Page 161 -->
