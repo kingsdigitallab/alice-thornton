@@ -170,7 +170,7 @@
          <space unit="page" quantity="2" type="ruled"/>
             
          </div>
-    <!-- Q [structure] where to end <front> ? -->
+    <!-- Q [structure]  where to end <front> ? will we include any of the above? -->
  </front>
          
       <pb xml:id="page-001" n="1"/>
@@ -196,6 +196,7 @@
             recover my selfe, (a little,) before I goe <lb/>
             hence and be noe more seene </p>
             </div>
+         
         <div rend="pre(rule_double)">
            <!-- NOTE [decoration] the double lines more widely spaced than in book 1 - I think consistently the case through this book? -->
 
@@ -271,6 +272,7 @@
          <fw type="pageNum">
                3
             </fw>
+         
         <div>
          <head rend="post(rule)" place="centre"> St Matt. 6: 33</head>
          
@@ -278,8 +280,8 @@
             and his Righteousnesse. and all these <lb/>
             Things shall be added unto you.<milestone unit="undetermined" rend="rule(fill_right)"/><!-- Q rend? about 1/4 width of page. fills space between text and edge of page. --></p>
         </div>
-        <div>
          
+        <div>
          <head rend="pre(rule)" place="centre"> St Augustin.</head>
          
          <p xml:id="p-0004">O Lord; who art the Light of the world, the way,<lb/>
@@ -351,7 +353,7 @@
             groaning is not hid from thee. Psalme 38: v. 9<lb/>
             For in thee O lord. have I put my trust: thou<lb/>
             shallt answer for me. O Lord my God. v. 15.<milestone unit="undetermined" rend="tbd-5dot"/> <!-- Q [decoration] another five dots marker not transcribed. --></p>
-          <milestone unit="undetermined" rend="rule"/><!-- Q don't think it's structural. full width. -->
+          <milestone unit="undetermined" rend="rule"/><!-- Q don't think it's new div. full width. -->
          <l>All you whose better thoughts are newly borne.</l>
          <l>And (rebaptiz'd with holy fire) can Scorn.</l>
          <l>
@@ -1328,7 +1330,7 @@
             att the Estate out of which the debts ought to be Payd<lb/>
             And which Mr Thornton could not, get money out<lb/>
             of, soe fast as was demanded by Creaditors<note place="end">
-               <p> Orig 'Creadit:<hi rend="superscript">ers</hi>'. </p>
+               <p> Orig 'Creadit:^ers'. </p>
             </note>
             <lb/>
             What for the charge of solicitors &amp; Journeys in<lb/>
@@ -5762,7 +5764,7 @@
          <p xml:id="p-0471" rend="first-line-indent"><date when-custom="1655-02-07">About a weeke before</date> my travell I contineud in<lb/>
             much Paines by the Childes heavines beeing in contin<lb/>
             all<note place="end">
-               <p> I.e 'contin<ex>u</ex>all' </p>
+               <p> I.e 'contin{u}all' </p>
             </note> expectancy each houer att which time my deare<lb/>
             mother laid sicke in the house of a most sad Cough<lb/>
             &amp; by advice <add place="above">&amp;</add> (Troutbecke came to give her advice<lb/>
@@ -6475,7 +6477,6 @@
             our God Jehova for ever Ament.<note place="end">
                <p> Sic.</p>
             </note> 
-            <!-- Q [div] change of subject here, but no visual break, not even new p. and just a brief cross reference to another book.  -->
             I referre to the solomn<lb/>
             Praiers &amp; thankes in my booke as allso the relations<lb/>
             of the distractions on Church &amp; state in the restoration of<lb/>        
@@ -6490,7 +6491,8 @@
             <fw rend="italic" type="pageNum">166</fw>
             <lb/>
          
-         <surplus cert="medium" reason="repetition">Of</surplus><!-- NOTE seems *possible* the "end" at the previous page is intended to be a catch word, hence cert=medium, but it's not on a separate line, and unintentional repetitions are far more common in the books! --> King Charles the Second in the yeare <date when-custom="1659">1659</date>.<lb/>
+         <surplus cert="medium" reason="repetition">Of</surplus>
+            <!-- NOTE seems *possible* the "of" at end of the previous page is intended to be a catch word, hence cert=medium, but it's not on a separate line, and unintentional repetitions are far more common in the books, so. --> King Charles the Second in the yeare <date when-custom="1659">1659</date>.<lb/>
             Together with A full relation of my deare &amp; hon<ex>oured</ex><lb/>
             mothers last Sickness and Death <date when-custom="1659-12-09">Dec. 9<hi rend="superscript">th</hi> 1659</date><lb/>
             <ref>Page 168 till Page 179 in my first Booke</ref>.</p>
@@ -6802,6 +6804,7 @@
             </note>
          </p>
           </div>
+         
        <div rend="pre(rule_short_left)">
          <!-- NOTE [decoration] short ruled line from left edge, above "I had" -->
          <p xml:id="p-0550">
@@ -6814,6 +6817,7 @@
             att this time more especially Praise his name for <add place="above">Evr</add>
          </p>
         </div>
+         
        <div rend="pre(rule_short_right)">
             <!-- Q [decoration] another short ruled line, fills space from left margin to [and level with *bottom of*] 'Upon my removal' which is indented. -->
          <p xml:id="p-0551">    
@@ -6836,8 +6840,6 @@
             <note place="end">
                <p> With no space remaining at the bottom of this page, this line has been written vertically in the left margin, beginning one third of the way down the page and ending at the bottom.</p>
             </note>
-
-
          </p>
            
            </div>
@@ -8322,9 +8324,7 @@
             who did tell him that Lye of me. where uppon he<lb/>
             examined him againe, &amp; with much a doe gott it<lb/>
             out of my brothr Thomas who did afirme That<lb/>
-            nan Robinson tould him before she went away.</p>
-          
-          </div>
+            nan Robinson tould him before she went away.<lb/>
          
       <pb xml:id="page-216" n="216"/>
 
@@ -8334,12 +8334,10 @@
 
          <!-- unpaginated: 214 -->
 
-       <div>
-         <head>
+       
             A Long story of my maide Jane Flouer &amp;<lb/>
-            my selfe. vidz
-            <!-- NOTE [decoration] this has no decoration and doesn't really stand out from the rest of the text but does seem to me to be intended as a title -->
-         </head>
+            my selfe. vidz</p>
+         
          <p xml:id="p-0670" rend="first-line-indent">That one day I was att oswoldkirke &amp;<lb/>
             as she said was not well and she was comng<lb/>
             my head that Jane should say to me. now<lb/>
@@ -8791,7 +8789,7 @@
             false dealing don to him &amp; that there was but<lb/>
             100<hi rend="superscript">d</hi> betwixt them. I did desire him to take it up, &amp;<lb/>
             pay him rather then have suits Run on, &amp; prosed<note place="end">
-               <p> Sic for prosecuted? SC? – line through d: if so 'pros<ex>ecut</ex>ed'.</p>
+               <p> Sic for prosecuted? SC? – line through d: if so 'pros{ecut}ed'.</p>
             </note>
             <lb/>
             to the farre End.</p>
@@ -9009,10 +9007,11 @@
             the worst that might befall me. blese the Lord oh my pore<lb/>
             soule, and all that is within me, for Ever more</p>
          <p xml:id="p-0732" rend="first-line-indent">Oh lett my selfe, &amp; poore Infant live to thy Glory<lb/>
-            The fuller discreptions of this is in my Booke pag 196.</p>
+            The fuller discreptions of this is in <ref>my Booke pag 196</ref>.</p>
       </div>
-      <div rend="pre(rule) post(rule)">
          
+      <div rend="pre(rule) post(rule)">
+         <!-- Q [div] is this really a new div? changed my mind at least twice already... -->
          <p xml:id="p-0733">Off the first Sacrament, Receaved at Easte<lb/>
             Newton Affter the house was Builded, &amp; of the<lb/>
             Grand Mercys I receaved at the hand of God.<lb/>
@@ -9486,7 +9485,7 @@
             Gratuity which might Cost me about 
             <subst>
             <del rend="strikethrough">Ten</del>
-            <del rend="superscript strikethrough">l-</del>
+            <del rend="strikethrough"><hi rend="superscript">l-</hi></del>
             <add place="above">20l</add>
             </subst>
             <!-- Q [team]? [add] what the bleep is going on here. not entirely sure about transcription esp the l after 20 -->
@@ -10532,6 +10531,7 @@
        </div>
           
        <div rend="pre(rule)">
+          <!-- Q [div] new div? -->
          
          <p xml:id="p-0837">This my Son was Baptized on <date when-custom="1662-09-20">Satterday the 20<hi rend="superscript">th</hi><lb/>
             of Septembr by Mr Lacocke 1662</date> att our House in<lb/>
