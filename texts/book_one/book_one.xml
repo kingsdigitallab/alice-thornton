@@ -1036,10 +1036,10 @@
         <div xml:id="div-018">
 
            <!-- NOTE [style] vertical text writing direction top to bottom - @style looks right in boilerplate. have placed marginal note outside head, though it's partly inside on page - but it's not part of the title. -->
-            <note xml:id="mnote-0002" place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right">
+            <note xml:id="mnote-0002" place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right" resp="#awt1">
                 <milestone n="ev15" unit="event"/>
-                <p xml:id="p-0041"><persName ref="ppl:tw1" n="per56">My L. <hi rend="superscript">d</hi> Straford</persName> tooke Ship for <placeName ref="place:Engl_094" n="place422">England</placeName> w:<hi rend="superscript">th</hi> <persName ref="ppl:ww3" n="per57">my Lord Raby</persName> his son<lb/>
-                on <date when-custom="1640-04-03">good friday y <hi rend="superscript">e</hi> yeare. 1640</date>. gaue my father the Sword then.</p>
+                <p xml:id="p-0041"><persName ref="ppl:tw1" n="per56">My L.<hi rend="superscript">d</hi> Straford</persName> tooke Ship for <placeName ref="place:Engl_094" n="place422">England</placeName> w:<hi rend="superscript">th</hi> <persName ref="ppl:ww3" n="per57">my Lord Raby</persName> his son<lb/>
+                on <date when-custom="1640-04-03">good friday y<hi rend="superscript">e</hi> yeare. 1640</date>. gaue my father the Sword then.</p>
                 <anchor n="ev15" type="event"/>
             </note>
             <head rend="pre(rule) post(rule)">
@@ -1403,7 +1403,7 @@
              Deputy<lb/>
              Death
         </note> 
-            <milestone n="ev18" unit="event" ana="#subEvent" type="illness"/><!-- NOTE event cw fell ill -->
+            <milestone n="ev18" unit="event" type="illness"/><!-- NOTE event cw fell ill. subEvent? -->
              It pleased <add place="above">God</add> to vissite <rs ref="ppl:cw1" n="per88" type="person">my deare father</rs>, with a<lb/>
              feaver, <date when-custom="1640-11">at the latter end of November</date>. which kept him<lb/>
              about a weeke or 10, daies in the house. but finding<lb/>
@@ -3244,10 +3244,10 @@
                     [endnote] Inserted into blank space left
                 -->
              
-             <note place="left">Receaving the<lb/>
+             <note place="left" resp="#awt1">Receaving the<lb/>
                 <fw xml:id="mnote-0015" place="left margin">1</fw> sacrament
               </note>
-                A Thankesgiveing affter my recovery<!-- NOTE [layout] this line is right aligned. team decision - ignore. --><lb/>
+                A Thankesgiveing affter my recovery<!-- NOTE [layout] this line is right aligned. team decision - ignore this kind of variation. --><lb/>
                 from the smale Pox in <placeName ref="place:Ches_012" n="place92">Weschester</placeName>: <date type="illness" when-custom="1642">1642</date>.<!-- NOTE [layout] but this line is left aligned -->
             </head>
             
@@ -3493,7 +3493,9 @@
               </date>
               </note>
           <rs ref="ppl:aow1" n="per246" type="person">My mother</rs> was minded to goe to <placeName ref="place:Snap_047" n="place107">Snape</placeName>, where <persName ref="ppl:kwd1" n="per247">my <lb/>
-                Sister <sic>Danly</sic></persName> was. &amp; beeing invited by her she went <lb/>
+                Sister 
+              <choice><sic>Danly</sic><corr>Danby</corr></choice>
+          </persName> was. &amp; beeing invited by her she went <lb/>
    
                 <note xml:id="mnote-0018" place="left margin" resp="#awt1" rend="post(rule)">
                 <!-- NOTE [style] vertical text writing direction top to bottom. -->
@@ -4302,8 +4304,8 @@
 <!-- transcription: Page 97 -->
 
             
-                <fw type="pageNum" place="inner">98.</fw>
-           <!-- TODO [page numbering] page number in inner margin (right-hand page, even number) -->
+                <fw type="pageNum" place="left inner">98.</fw>
+           <!-- TODO [page numbering] page number in inner margin (right-hand page, even number. and of course i mean *left* inner margin not right jeez.) -->
             
             <p xml:id="p-0251"> Beeing sequesterd through a false oath of his adversa<add place="above">rys</add><lb/>
                  suggestion, &amp; his Estate, with all the other apoynted <add place="above">for</add> widdow<lb/>
@@ -4966,8 +4968,8 @@
             <p xml:id="p-0288">Make us <del xml:id="ex_del-double-04" rend="doublestrikethrough">all</del>
                   <!-- [endnote] In MS it is possible to see the remains ‘all’ here, although it looks as if someone has trie to erase it. -->
                  a reformed Nation, from all theire Evill ways<lb/>
-                 putting away farre from <add place="inline">us</add>
-                   <!-- [endnote] Similarly, there is some evidence of erasure here and the ‘us’ [SiC] is written in darker ink. -->
+                 putting away farre from <add place="superimposed">us</add>
+                   <!-- Q needs subst/del/gap? [endnote] Similarly, there is some evidence of erasure here and the ‘us’ [SiC] is written in darker ink. -->
                  the Evill of theire doeings. that<lb/>
                  we might not be abhorred of thee. but to be a Righteous<lb/>
                  People, Zealous of Good workes. That thy name may be <lb/>
@@ -5038,12 +5040,12 @@
             <l>A Sacred-Reputation; there, Whole-Bands</l>
             <l>Of forward-Converts, by the Reverend-hands</l>
            
-            <note place="left margin" xml:id="mnote-0023-1" rend="post(rule)">
+            <note place="left margin" xml:id="mnote-0023-1" rend="post(rule)" resp="#awt1">
                 Anno<lb/>
                 627.<lb/>
                 ----<lb/>
                  Edwino<lb/>
-                 <hi rend="background(green)">Rege.</hi><!-- Q [review] why green highlight here? -->
+                <hi rend="background(green)">Rege.</hi><!-- Q [review] why green highlight here? -->
             </note>
                  
             <l>Of Old-Paulinnus did at once Begin</l>
@@ -7016,7 +7018,7 @@
                  uppon the other straingly, none knoweing whom to trust<lb/>
                  or how to be secured from the Raige, Rapine &amp; destruction<lb/>
                  from the Soldiery in whose sole Power was both the Civill<lb/>
-                 &amp; Ecclesiasticke sword; since the yeare <date when-custom="1648" ana="#notEvent">1648</date>. And we had<lb/>
+                 &amp; Ecclesiasticke sword; since the yeare <date when-custom="1648" type="notEvent">1648</date>. And we had<lb/>
                  all suffered soe deepely under those oppressions, that even<lb/>
                  the contrary party to the King did heartily wish an <lb/>
                  allteration, from those pressures.</p>
@@ -7165,7 +7167,7 @@
                 <p rend="Endnote Text"> [word] NB. Expansion here in keeping with AT’s usual spelling practice.</p>
             </note>
             <lb/>
-             She was borne at <persName ref="ppl:jp1" n="per649">Sir John Payton</persName>s house. <date datingMethod="#JulianMar" type="birth" when-custom="1592-01-05" ana="#notEvent">Jan. 5 1592</date><!-- NOTE [dates] OS (birth of Alice's mother. Anselment baptism register fn 439). date is not part of event, unless you mark up her birth as an event in its own right. --><lb/>
+             She was borne at <persName ref="ppl:jp1" n="per649">Sir John Payton</persName>s house. <date datingMethod="#JulianMar" type="birth" when-custom="1592-01-05">Jan. 5 1592</date><!-- NOTE [dates] OS (birth of Alice's mother. Anselment baptism register fn 439). date is not part of event, unless you mark up her birth as an event in its own right. but why not do that? --><lb/>
              att <placeName ref="place:Isle_028" n="place252">Islellome- in Cambridgeshire</placeName>, <rs ref="ppl:ho1" n="per650" type="person">My Grandfather</rs> <lb/>
             <note xml:id="mnote-0024" place="bottom margin" resp="#unknown" hand="#unknown">* 1591 T Comber Old Miles 1592 N. S.</note>
             <!-- NOTE [ms] different hand... on separate line at bottom of page. 
@@ -10974,7 +10976,7 @@
                  take notice of such things, but rather condemne me<lb/>
                  for relating severall ominus dreames that I had before<lb/>
                  the Death of <rs ref="ppl:cw1" n="per1055" type="person">my Father</rs>, <persName ref="ppl:eo1" n="per1056">my Uncle, Osborne</persName>, <persName ref="ppl:kwd1" n="per1057">my Sister<lb/>
-                 Danby</persName>, <persName ref="ppl:gw1" n="per1058">my brother George</persName>, <date when-custom="1650-09" precision="medium" ana="#notEvent">before whoes death halfe a<lb/>
+                 Danby</persName>, <persName ref="ppl:gw1" n="per1058">my brother George</persName>, <date when-custom="1650-09" precision="medium">before whoes death halfe a<lb/>
                  yeare</date> I dreamt soe fully conserning it, the manner &amp; all<lb/>
                  sircumstances about it. that he refrained <geogName>that River</geogName> affer <lb/>
                 I tould him my dreame. till that time which was the last <del xml:id="ex_del-double-12" rend="doublestrikethrough">&amp;</del><lb/>
@@ -13902,7 +13904,7 @@
                 by the Clarke who had writ it out &amp; [thes]<!-- TODO [review] check ms - is [thes] for checking? --> was sececd<note place="end">
                     <p rend="Endnote Text"> [word] I.e., secured?</p>
                 </note> for severall<lb/>
-                yeare of the <seg rend="background(cyan)">s<gap reason="deleted" quantity="2" unit="char"/>arre</seg><!-- Q [review] --> afftr <persName ref="ppl:gw1" n="per1336">my brother George</persName> died &amp; non knew<lb/>
+                yeare of the <seg rend="keeptogether background(cyan)">s<gap reason="deleted" quantity="2" unit="char"/>arre</seg><!-- Q [review] --> afftr <persName ref="ppl:gw1" n="per1336">my brother George</persName> died &amp; non knew<lb/>
                  what became of it.</p>
             <p xml:id="p-0802">Uppon which great facte &amp; troubles arose for the want of it<lb/>
                  by <persName ref="ppl:jl1" n="per1337">Sir John Lowths</persName> bad counsell to <persName ref="ppl:cw2" n="per1338">my brothr Ch. wand.</persName> who<lb/>
@@ -14592,12 +14594,12 @@
             <head rend="post(rule_thick)">
               Uppon the reconsiling of my two Brothers<lb/>
                  <persName ref="ppl:gw1" n="per1392">George</persName> &amp; <persName ref="ppl:cw2" n="per1393">Christopher Wandesford</persName>. <date when-custom="1651-03-29">March 
-            <num>
+            <seg rend="keeptogether">
               <subst>
                 <del rend="strikethrough">2</del><add place="above">1</add>
               </subst>9
-            </num>     
-                <!-- NOTE tagged <num> to hold these digits together as a single number - the tagging kind of breaks them up otherwise. (can't put the unchanged 9 inside subst.). -->
+            </seg>     
+                <!-- NOTE tagged <seg> to make it clear 19 is a single entity, as I can't put the unchanged 9 inside subst -->
            <lb/>
              on Easter Eve</date> - before <persName ref="ppl:gw1" n="per1394">my bro. G</persName> was lost<lb/>
            <!-- NOTE [decoration] year inset into ruled line and centred. *just* below 'on Easter Eve...' line. -->

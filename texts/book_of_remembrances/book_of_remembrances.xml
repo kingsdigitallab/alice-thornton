@@ -160,13 +160,16 @@
          [endnote] moved from Word endnotes into comment
          
      TO DO/REVIEW:
+     
+        (all books, but perhaps esp this one?) for some reason I haven't used the <damage> tag at all; check use of <gap>, attribute value "damage", etc to see if there's anywhere it would be more appropriate than current choices.
+        ref: https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHCOMB
         
         <pb> need renumbering (will probably redo them properly as xml:id)
      
         abbrev/contraction work - needs to be fixed in the transcription first
         - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as ex? still reading up on this one! 
         
-        seg @rend=underline
+        seg @rend=underline (all books)
           need to check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph tags.
           but what should emph be used for? 
              tei: emph = "marks words or phrases which are stressed or emphasized for linguistic or rhetorical effect." example = You took the car and did <emph>what</emph>?!! (and I think all the further examples are the same type of thing) 
@@ -503,7 +506,7 @@
          <head>
             Prayer.
          </head>
-         <l>Then guide my heart, Lord give my <add place="above">Soule</add> direction<supplied reason="tight binding" cert="high">s</supplied>
+         <l>Then guide my heart, Lord give my <add place="above">Soule</add> direction<supplied reason="binding" cert="high">s</supplied>
          </l>
          <l>Subdue my passions, Curbe my stout affections</l>
          <l>Nip thou the bud, before the bloome begins</l>
@@ -2098,7 +2101,7 @@
           these with much more arguments <lb/>
           against my poore soule. did that old<lb/>
           serpent seeke to destroy my hopes of<lb/>
-           mercy, my owne consience <w norm="forming">froming</w> <lb/>
+           mercy, my owne consience <w norm="forming">froming</w><!-- Q [word] another possible sic rather than norm --> <lb/>
           arguments against it selfe toying with<lb/>
            him as beeing consious of my owne<note place="end" type="word">
              <p rend="Endnote Text"> [word] possibly a &amp; blotted out at the end of the line.</p>
@@ -2359,7 +2362,7 @@
 <!-- transcription: Page 53 -->
          <fw>
             <fw type="header" rend="underline">
-               <date>1662</date><sic>2</sic>
+               <date>1662</date><surplus>2</surplus>
             </fw>
            <fw type="pageNum">5<subst><del rend="overwritten">2</del><add place="superimposed">3</add></subst></fw>
          </fw>
@@ -2382,7 +2385,7 @@
             </note> my health &amp;<lb/>
           strength againe in this miraculous<lb/>
           manner beeing still at <placeName ref="place:Oswa_041" n="place60">oswoldkirk</placeName><lb/>
-           there hapned a very great <w>an<supplied>d</supplied></w><!-- NOTE supplied changed my mind again lol. using w tag only so it's clear this is a single word. --> Re=<lb break="no"/>
+           there hapned a very great <seg rend="keeptogether">an<supplied reason="omitted">d</supplied></seg><!-- NOTE using seg tag for clarity that this is a single word. what about break=no? not available with seg. what is it available with then? --> Re=<lb break="no"/>
           =markable deliverance to me of an<lb/>
           other nature, but of as grand a<lb/>
           consequence to my beeing so much<lb/>
@@ -2392,7 +2395,7 @@
               <!-- msDescription [endnote] There is a dot here – n run into g? Here, and elsewhere, Thornton seems to regularly conflate an ‘I’ with a minim stroke for another letter, most often ‘n’ or ‘m’-->
             
             <lb/>
-           the bussnesse was this. I had bough<supplied reason="missing at edge of page">t</supplied>
+           the bussnesse was this. I had bough<supplied reason="missing">t</supplied>
                
            <!-- msDescription [endnote] Part of t missing at edge of page-->
             
@@ -2421,7 +2424,7 @@
           Denton</persName> which set the price betwixt us<lb/>
           beeing 24<hi rend="superscript">l-</hi> for the 6 steeres, I allow<lb/>
           ing <persName ref="ppl:wt1" n="per140">Mr Th</persName>: 4<hi rend="superscript">l-</hi> for the wintering them<lb/>
-           <w norm="since">sine</w><!-- NOTE [tagging] test w@norm, but maybe [sic] anyway? -->
+           <w norm="since">sine</w><!-- Q [word] maybe [sic] ? -->
             <date when-custom="1661-11-11">mart<hi rend="superscript">h</hi>.<note place="end" type="word">
                <p rend="Endnote Text">
               I.e. ‘Martinmas’?</p>
@@ -2565,7 +2568,7 @@
           &amp; in the midest thereof, as if it had<lb/>
           beine cut with a knife a longish cutt<lb/>
           In this forme it contineued for halfe<lb/>
-          a yeare in its <w norm="perfect">ferfect</w> couler, beeing<lb/>
+          a yeare in its <w norm="perfect">ferfect</w><!-- Q [word] possibly <sic> rather than norm? --> couler, beeing<lb/>
           seene offten times by my selfe. <persName ref="ppl:wt1" n="per148">Mr Th</persName>.<lb/>
           <persName ref="ppl:jd2" n="per149">my brother Denton</persName>. my 2 sisters, &amp; sev<lb break="no"/>
           =erall others with <rs ref="ppl:tbd-iu" n="per150" type="person">the nurse</rs><!-- Q [people] - not identifiable? --> &amp; servants.<lb/>
@@ -2784,6 +2787,7 @@
           against my selfe &amp; poore children<lb/>
           whose Portion &amp; inheritance I trust<lb/>
           the Lord will be forever. 
+          <!-- Q [add] should I be using addSpan (ugh) here? -->
           <seg type="insertion" rend="italic differentInk">Remem<hi rend="superscript">br</hi><!-- TODO books x-ref --><lb/>
           my Dreame of <persName ref="ppl:rn1" n="per170">Nettleten</persName>s Baylie this morning before<lb/>
           they came. &amp; my fall downe the staires when <persName ref="ppl:cd1" n="per171">Celia<lb/>
@@ -4170,7 +4174,7 @@
            longer then before. nor did his haire<lb/>
            come off at all haveing but few in<lb/>
            his head. but the most was in his face<lb/>
-           he wanted 9 Months, of beeing <w norm="five">fvie</w> <lb/>
+           he wanted 9 Months, of beeing <w norm="five">fvie</w><!-- Q [word] should be <sic> rather than norm I think. --> <lb/>
            yeares old as some odde daies.<milestone unit="undetermined" rend="diagonal"/></p>
          <anchor n="ev72" type="event"/>
        </div>  
@@ -4658,7 +4662,7 @@
           &amp; his sufreings &amp; least I should be de-<lb break="no"/>
           prived of my Joy &amp; delight in this life<lb/>
           though I blesse God he had intermittions<lb/>
-           which suported him: affter every use of <w norm="Phisick">Phisip</w> <lb/>
+           which suported him: affter every use of <w norm="Phisick">Phisip</w><!-- Q [word] <sic> rather than norm? --> <lb/>
           &amp; other things, &amp; according to the earlinesse<lb/>
           of the time in begining them the fitts was longer <lb/>
           or shorter in contineuance.
@@ -4692,11 +4696,12 @@
           did impudently accuse 
          <del xml:id="ex_del-double-05" rend="doublestrikethrough">me</del> 
          <del xml:id="ex_del-double-06" rend="doublestrikethrough">to</del> 
-           <w>
+           <seg rend="keeptogether">
              <subst xml:id="ex_double_gap-03">
              <add place="above">be</add>
              <del rend="doublestrikethrough"><gap unit="char" quantity="2" reason="deleted"/></del>
-           </subst>fore</w> my<lb/>
+           </subst>fore
+           </seg> my<lb/>
           face <del rend="strikethrough">of</del> my Servant <persName ref="ppl:ha1" n="per280">Hanna<lb/>
           Ableson</persName> for telling her from one <persName ref="ppl:mb1" n="per281">Mary<lb/>
           Breakes</persName> of severall storyes (which were<lb/>
@@ -4709,7 +4714,7 @@
           oath, but <rs ref="ppl:bt1" n="per283" type="person">the other woman</rs> having a <lb/>
           spleene against her. did carrie so un<lb break="no"/>
           =hansomly &amp; unchristianly towards me<lb/>
-         in her <del xml:id="ex_del-double-07" rend="doublestrikethrough">bit</del><sic>ter</sic><!-- NOTE i think <sic> is probably the best thing to do with "ter" here, but might do final review --> agravation &amp; in false<lb/>
+         in her <del xml:id="ex_del-double-07" rend="doublestrikethrough">bit</del><surplus>ter</surplus><!-- NOTE not entirely decided between <sic> and <surplus> here... --> agravation &amp; in false<lb/>
           accusing the Hon.<hi rend="superscript">or</hi> of some of the Persons<lb/>
          
             <pb n="121"/>
@@ -4993,7 +4998,7 @@
           &amp; glorifie thee in the midst of all my trialls<lb/>
           and sufferings that makest me way to Escape<lb/>
           now Praise the Lord o my soule, &amp; forgett not<lb/>
-          all his benifitts. <seg rend="underline">Amen. Amen</seg><!-- Q [teams] [formatting] line under text? -->
+          all his benifitts. <seg rend="underline">Amen. Amen</seg>
         
          </p>
     </div>     
@@ -5210,7 +5215,7 @@
           they made for my soule setting <add place="above">my</add> <g ref="#heart">♥</g> at some<lb/>
           liberty although this greife has peirced<lb/>
           me so deepe that its effects will remane all my<lb/>
-           daies. that <w norm="Satan's">Satas</w> Instruments should thus be<lb/>
+           daies. that <w norm="Satan's">Satas</w><!-- Q wonder if this should be sic rather than norm'ed --> Instruments should thus be<lb/>
 
             <pb n="134"/>
 
@@ -5243,7 +5248,7 @@
           to thy word, give me my Crosses heere, that<lb/>
           I may injoy thee, <add place="above">in</add> thy kingdome. for who<lb/>
           so doth not deny him selfe heere, &amp; take up<lb/>
-           his <w norm="cross">X</w> &amp; follow him is not worthy of him.<lb/>
+           his <w norm="cross">X</w><!-- ie, *not* abbrev for Christ --> &amp; follow him is not worthy of him.<lb/>
           &amp; what is a moment of time to an<lb/>
           Eternity, to Everlasting pleasures at the Rig<lb break="no"/>
            =ht hand of God.
@@ -6091,7 +6096,7 @@
          <fw type="pageNum">158.</fw> 
          <lb/>
          <l>Rich hated; wise suspected; scornd. if <add place="above">poore.</add> </l>
-         <l>Great feared; faire tempted; high still envied <add xml:id="ex_add-below-02" place="below">more</add><!-- Q [teams] [formatting] "more" in a sort of box |__ --></l>
+         <l>Great feared; faire tempted; high still envied <add xml:id="ex_add-below-02" place="below">more</add><!-- Q [teams] [formatting] "more" boxed |__ --></l>
          <l>would the world then adopt me for her heire. </l>
          <l>Would beauties queene intitle me the faire.</l>
          <l>Fames speake me honors minnion &amp; could I</l>
@@ -6515,7 +6520,7 @@
            - and @rend for the look of the bracket itself
            rend="braced()" 
             }  the brace points right 
-            {  it points left
+            {  it points left - though I don't think there are any!
             label also has @place attribute: 
               right/left
               top/mid/bottom [don't use centre for the valign]
@@ -7345,7 +7350,7 @@
           make a Deed of Trust to Trustees to<lb/>
           me for my sake. and gave me all of<lb/>
           it. except 130<hi rend="superscript">l-</hi> due to <persName ref="ppl:tbd-osborne" n="per402">my Lord Danby</persName><lb/>
-          for a <w norm="Debt">Deb</w> 
+          for a <w norm="debt">Deb</w> 
           of my brothr <persName ref="ppl:gw1" n="per403">G. Wand</persName>. wards<lb/>
           ship which <persName ref="ppl:eo1" n="per404">my uncle Osbern</persName> paid for him that<lb/>
           <persName ref="ppl:cw2" n="per405">Sir Ch Wand</persName> would not pay it till he was<lb/>
@@ -7403,7 +7408,7 @@
           Bayly was come to distraine all my<lb/>
           goods for that Debt. &amp; put me into a<lb/>
           great fright when I wakned &amp; that<lb/>
-           my made <persName ref="ppl:jf2" n="per419">Jane Flour</persName> came into my <w norm="Chamber">Cha</w>
+           my made <persName ref="ppl:jf2" n="per419">Jane Flour</persName> came into my <w norm="chamber">Cha</w>
             <lb/>
           &amp; to bed side asked me if I was a wake<lb/>
           I asked her to tell me truly wheth was<lb/>
@@ -7420,7 +7425,7 @@
           I blese the Lord my God for my delivry<lb/>
           from death &amp; miscariage of my dere<lb/>
           Childe. But I by Providence. had<lb/>
-           <w norm="receiued">revd</w>
+           <w norm="received">revd</w>
              100<hi rend="superscript">l</hi> of my Portion that weeke &amp; had<lb/>
 
          
