@@ -6513,24 +6513,41 @@
          </item>
          <item>
            <!-- NOTE [index] [curlybraces] grouping 3 items. 
-         https://listserv.brown.edu/cgi-bin/wa?A2=ind2110&L=TEI-L&D=0&P=29205
-         https://textcreationpartnership.org/docs/oxdox/encoding/list.html#braces
-           https://wwp.northeastern.edu/research/publications/guide/html/rendition_braced.html
+             
+         https://listserv.brown.edu/cgi-bin/wa?A2=ind2110&L=TEI-L&D=0&P=29205 
+          (PS) We never found a
+            simple encoding solution that fit every variant use, since
+            curly braces can be used in many circumstances to group many
+            sorts of things with many sorts of meanings. Most often, we
+            asked: 'what sort of thing is the brace grouping and what is the 
+            nature of the group itself?' and then attempted to capture 
+            *that* rather than the physical presence of the brace itself. 
+            If the brace grouped lines, then the resultant group was an <lg>; 
+            if it associated lines with a given speaker, then the group was
+            a distinct <sp>; if it grouped items in a list, then the group
+            was itself a nested <list>. And the text *associated* with that
+            group by means of the brace ended up tagged in such a way as
+            to associate it with the group in an appropriate way. E.g.,
+            as <speaker> or <stage> within the speech, <head> of the 
+            nested list or line group, etc.
+            summarised:
+         https://textcreationpartnership.org/docs/oxdox/encoding/list.html#braces [context = lists]
+           https://wwp.northeastern.edu/research/publications/guide/html/rendition_braced.html [context = lines of verse/list]
            
            this might just work... 
            for a braced group in a list:
            - nested list for the grouped items
            - <label> to indicate the (page ref or item) the brace is pointing *to*
-           - and @rend for the look of the bracket itself
+           - and @rend (on list) for the look of the bracket itself
            rend="braced()" 
-            }  the brace points right 
-            {  it points left - though I don't think there are any!
+           } [or "right"?]  the brace points right 
+          {  it points left - though I don't think there are any in any of the books!
             label also has @place attribute: 
               right/left
-              top/mid/bottom [don't use centre for the valign]
+              top/mid/bottom [i think don't use centre for the valign] - where top = level with the top line etc. i'll worry about things that don't fit top/mid/bot model if there are any.
            ?
-           but what about contexts outside lists?
-           not so useful where it's a single item.
+           but what about contexts outside lists or list-like things?
+           in the index braces are also used for *single* items that span more than one line. unlike a list there isn't an obvious tag to hold the lines.
            
            -->
            <list rend="braced(})">
@@ -6601,12 +6618,18 @@
          <item corresp="#div-046">meditations <ref>42.</ref>
          </item>
         
-          <!-- TODO [index] [curlybraces] but here it's a single item and the brace is really just for appearance grouping 3 lines. not sure what to do with the ref either. -->
+          <!-- NOTE [index] [curlybraces] but here it's a single item and the brace is really just for appearance grouping 3 lines, definitely don't want a nested list here. 
+            <item> holds them together as a group. 
+            <seg rend="braced(})"> for the lines ?? 
+            <label place="right ..."> for the <ref> 
+            (before or after?) 
+            ref is easy to handle if at the bottom, but needs to be moved if top/mid. 
+          -->
         <item corresp="#div-047">
-          my dangerous Sickeness. 1661. <ref>43.</ref><lb/>
+          <label place="right top"><ref>43.</ref></label>
+          <seg rend="braced(})">my dangerous Sickeness. 1661.<lb/>
           when I was preserved from the <lb/>
-          Temptation of Satan to dispaire 
-          
+          Temptation of Satan to dispaire</seg>  
         </item>
          
             <pb n="175"/>
@@ -6616,56 +6639,67 @@
          <fw place="right">page</fw>
        <!-- msDescription [endnote] Again, there should be less of a gap between text and page/numbers.-->
         
-        <!-- TODO [index] [curlybraces] again, single item. grouping 2 lines -->
+        <!-- NOTE [index] [curlybraces] again, single item. grouping 2 lines -->
         <item> 
-          My prayers &amp; meditations <lb/>
-          There upon on St <add place="above">Matth.</add> 11: 27. 28: &amp; <ref>46.</ref>
+          <seg rend="braced(})">My prayers &amp; meditations <lb/>
+          There upon on St <add place="above">Matth.</add> 11: 27. 28: &amp;
+          </seg> 
+          <label place="right bottom"><ref>46.</ref></label>
          </item>
         
          <item corresp="#div-048"> The recovery of my healts <ref>51.</ref> </item>
         
-        <!-- TODO [index] [curlybraces] grouping 2 lines -->
+        <!-- NOTE [index] [curlybraces] grouping 2 lines -->
         <item corresp="#div-049">
-          Mr Thorntons preservation<lb/>
-          And mine. <ref>52.</ref>
+          <seg rend="braced(})">Mr Thorntons preservation<lb/>
+          And mine.</seg> 
+          <label place="right bottom"><ref>52.</ref></label>
          </item>
         
          <item>Considerations there upon <ref>60.</ref> </item>
         
-        <!-- TODO [index] [curlybraces] grouping 2 lines 1 item (i think, but check?) -->        
+        <!-- NOTE [index] [curlybraces] grouping 2 lines -->        
         <item corresp="#div-050">
-          A deliverance from greife <ref>62.</ref><lb/>
-          on Nettleton Balifes comeing </item>
-        
-        <!-- TODO [index] [curlybraces] grouping 3 lines -->
-        <item corresp="#div-051">A deepe apprehension of my<lb/>
-          Change being with childe of my <ref>66.</ref> <lb/>
-          Seaventh
+          <label place="right top"><ref>62.</ref></label>
+          <seg rend="braced(})">A deliverance from greife <lb/>
+          on Nettleton Balifes comeing</seg> 
         </item>
         
-          <!-- TODO [index] [curlybraces] grouping lines -->
+        <!-- NOTE [index] [curlybraces] grouping 3 lines -->
+        <item corresp="#div-051">
+          <seg rend="braced(})">A deepe apprehension of my<lb/>
+          Change being with childe of my<lb/>
+          Seaventh</seg>
+          <label place="right mid"><ref>66.</ref></label>
+        </item>
+        
+          <!-- NOTE [index] [curlybraces] grouping lines -->
         <item>
-          The Sattisfaction of my Soule<lb/>
-          after the receaving the H: Sacram. <ref>70.</ref> <lb/>
-          first at Newton by Dr Sammw
+          <seg rend="braced(})">The Sattisfaction of my Soule<lb/>
+          after the receaving the H: Sacram.  <lb/>
+          first at Newton by Dr Sammw</seg>
+          <label place="right mid"><ref>70.</ref></label>
         </item>
         
-          <!-- TODO [index] [curlybraces] grouping lines --> 
+          <!-- NOTE [index] [curlybraces] grouping lines --> 
         <item corresp="#div-052">
-          A satisfaction by the Settlemt <ref>72.</ref> <lb/>
-          of Mr Covill for Laistrop
+          <seg rend="braced(})">A satisfaction by the Settlemt  <lb/>
+          of Mr Covill for Laistrop</seg>
+          <label place="right mid"><ref>72.</ref></label>
         </item>
         
-          <!-- TODO [index] [curlybraces] grouping lines -->
+          <!-- NOTE [index] [curlybraces] grouping lines -->
         <item corresp="#div-053">
-          My Sonne Robert Thorntons<lb/>
-          Birth. Sept: 19: 1662. <ref>79.</ref>
+          <seg rend="braced(})">My Sonne Robert Thorntons<lb/>
+          Birth. Sept: 19: 1662.</seg> 
+          <label place="right bottom"><ref>79.</ref></label>
          </item>
         
-        <!-- TODO [index] [curlybraces] grouping lines -->
+        <!-- NOTE [index] [curlybraces] grouping lines -->
         <item corresp="#div-054">
-          A most dangerous flux on<lb/>
-          me after his birth <ref>80.</ref>
+          <seg rend="braced(})">A most dangerous flux on<lb/>
+          me after his birth</seg> 
+          <label place="right bottom"><ref>80.</ref></label>
          </item>
         
          <item>Prayers, &amp; meditations there on <ref>82.</ref>
@@ -6691,32 +6725,32 @@
           <!-- TODO [index] [curlybraces] grouping lines -->
         <item corresp="#div-056">A thankesgiveing for Mr<lb/>
           Thorntons deliverance from<lb/>
-          a flood of waters in his <ref>87.</ref> <lb/>
+          a flood of waters in his <label><ref>87.</ref></label> <lb/>
           returne from London
         </item>
         
           <!-- TODO [index] [curlybraces] lines -->
         <item corresp="#div-057">The birth of Joyce Thornton<lb/> 
-          And her Baptisme <ref>90.</ref>
+          And her Baptisme <label><ref>90.</ref></label>
          </item>
         
         
           <!-- TODO [index] [curlybraces] lines -->
         <item>A prayer &amp; thanksgiveing<lb/> 
-          for this deliverance <ref>91</ref>
+          for this deliverance <label><ref>91</ref></label>
          </item>
         
         
           <!-- TODO [index] [curlybraces] lines -->
         <item corresp="#div-058">Mr Thorntons dangerous<lb/> 
-          Sickeness at Steersby &amp; <ref>92.</ref> <lb/>
+          Sickeness at Steersby &amp; <label><ref>92.</ref></label> <lb/>
           his Preservation from<lb/>
           death
         </item>
         
           <!-- TODO [index] [curlybraces] lines -->
         <item corresp="#div-059">With my owne desperate weake<lb/> 
-          condittion uppon greife for him <ref>93.</ref>
+          condittion uppon greife for him <label><ref>93.</ref></label>
          </item>
          
             <pb n="177"/>
@@ -6727,13 +6761,13 @@
         
           <!-- TODO [index] [curlybraces] -->
         <item>Praires, &amp; confessions, with<lb/> 
-          a returne of thanks affter <ref>94.</ref>
+          a returne of thanks affter <label><ref>94.</ref></label>
             <lb/>
           our recoverys </item>
         
           <!-- TODO [index] [curlybraces] -->
         <item corresp="#div-060">Meditations uppon my Joyce<lb/> 
-          her sickenesse <ref>96.</ref>
+          her sickenesse <label><ref>96.</ref></label>
          </item>
         
          <item>Joyce Thornton her death <ref>100.</ref>
@@ -6741,12 +6775,12 @@
         
           <!-- TODO [index] [curlybraces] -->
         <item corresp="#div-061">A deliverance of my daughter<lb/> 
-          Alice Thornton from a Surfet <ref>101.</ref> <lb/>
+          Alice Thornton from a Surfet <label><ref>101.</ref></label> <lb/>
           of eating Turbud</item>
         
           <!-- TODO [index] [curlybraces] -->
         <item corresp="#div-062">A greate deliverance from a<lb/> 
-          miscariadge <ref>103.</ref>
+          miscariadge <label><ref>103.</ref></label>
          </item>
         
          <item corresp="#div-063">The great fire in London <ref>104.</ref>
@@ -6754,15 +6788,16 @@
         
           <!-- TODO [index] [curlybraces] -->
         <item corresp="#div-064">Kate Thornton fell ill of<lb/> 
-          The smale pox <ref>104.</ref>
+          The smale pox <label><ref>104.</ref></label>
          </item>
         
           <!-- TODO [index] [curlybraces] -->
         <item corresp="#div-065">The death of Mr John<lb/> 
-          Wandesforde <ref>105.</ref>
+          Wandesforde <label><ref>105.</ref></label>
          </item>
         
-         <item corresp="#div-066">The death of Mr Will.<hi rend="superscript">m</hi> Norton	
+         <item corresp="#div-066">
+           The death of Mr Will.<hi rend="superscript">m</hi> Norton	
             <ref>106.</ref>
          </item>
         
@@ -6786,7 +6821,7 @@
           <!-- TODO [index] [curlybraces] -->
         <!-- NOTE these two entries are definitely the wrong way round! and pages correspondingly wrong. -->
         <item corresp="#div-069">My daughter Alice her<lb/> 
-          falling into the smale Pox <ref>108.</ref>
+          falling into the smale Pox <label><ref>108.</ref></label>
          </item>
         
           <!-- TODO [index] [curlybraces] -->  
@@ -6802,7 +6837,7 @@
         <item>
           <list rend="braced(})">
           <item>My daughter Kate was<lb/> 
-            preserved from choaking  <lb/>
+            preserved from choaking<lb/>
             with a pin
           </item>
            <item>And from a desperate fall</item>
