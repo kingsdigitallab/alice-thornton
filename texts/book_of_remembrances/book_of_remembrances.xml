@@ -164,24 +164,25 @@
         (all books, but perhaps esp this one?) for some reason I haven't used the <damage> tag at all; check use of <gap>, attribute value "damage", etc to see if there's anywhere it would be more appropriate than current choices.
         ref: https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHCOMB
         
-        <pb> need renumbering (will probably redo them properly as xml:id)
+        <pb> need renumbering (will probably redo them properly as xml:id) but waiting for ST to fix transcriptions first.
+        [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
      
         abbrev/contraction work - needs to be fixed in the transcription first
         - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as ex? still reading up on this one! 
+        - will ST want them differentiated from {contractions} ?
+        - NB diff between number<sup> (majority of hi/sup) and word<sup>...
         
         seg @rend=underline (all books)
-          need to check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph tags.
+          final check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph tags.
           but what should emph be used for? 
              tei: emph = "marks words or phrases which are stressed or emphasized for linguistic or rhetorical effect." example = You took the car and did <emph>what</emph>?!! (and I think all the further examples are the same type of thing) 
              - not sure I've seen any clear examples of Alice using underline for exactly this type of emphasis. 
              - but she does underline things to (afaict) draw attention to them, so does that also count as emph?
              - Cf. most underline in BkRem used on headings and seems most appropriate to treat as decoration. Queried ones are at end of sections and the Q is whether they should be treated as section markers. 
       
-        remaining footnotes (<note> @place=end)
+        remaining endnotes (<note> @place=end)
           type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep uncertain ones for later review.
           type=context may become editorial annotations - leave them for now
-        
-      [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
    
        events tagging - milestone/anchor pairs 
                 at present milestone/anchor pairs are linked using @n, prefix "ev". 
@@ -416,7 +417,7 @@
           of <placeName ref="place:Kirk_030" n="place3">Kirklington</placeName>. <persName ref="ppl:awn1" n="per5">Mrs Anne <lb/>
             Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.<anchor n="ev1" type="event"/></p>
          <p xml:id="p-0003">
-           <milestone unit="undetermined" rend="diagonal"/>
+           <milestone unit="marker" rend="diagonal"/>
            <!-- [endnote] A slightly angled slash under Best and beyond full stop.-->
          </p>
          </div>
@@ -1038,8 +1039,8 @@
           =served from that Horrid Rebellion in Ire<hi rend="superscript">ld</hi><lb/>
             which broke out, &amp; was discovred in <placeName ref="place:Dubl_088" n="place17">Dublin</placeName><lb/>
            <choice>
-             <sic><date when-custom="1641-10-03">Octb: 3 1641<hi rend="superscript">d</hi> </date></sic>
-             <corr><date when-custom="1641-10-23">Octb: 23 1641<hi rend="superscript">d</hi> </date></corr>
+             <sic><date when-custom="1641-10-03">Octb: 3<hi rend="superscript">d</hi> 1641</date></sic>
+             <corr><date when-custom="1641-10-23">Octb: 23<hi rend="superscript">d</hi> 1641</date></corr>
            </choice>
           <!-- [endnote] [editorial] It was actually the 23rd but she writes 3rd here -->: but it was acted with<lb/>
           bitter malice. &amp; fury against the English<lb/>
@@ -1156,7 +1157,7 @@
            <persName ref="ppl:en1" n="per48">My Cozen Edmund Norton</persName> maried<lb/>
         <persName ref="ppl:td2" n="per49">Mr Dudly</persName>s Daughter &amp; heire of.<lb/>
            <placeName ref="place:Chop_013" n="place118">Chopwell</placeName>. <persName ref="ppl:jdn1" n="per50">Jane Dudly</persName>. the <date when-custom="1647-02-10" datingMethod="#JulianSic">10<hi rend="superscript">th</hi> of<lb/>
-             February. 1647</date><!-- NOTE [dates] OS/NS seems unverifiable (marriage of edmund norton - Anselment couldn't find a record in registers) -->. at <placeName ref="place:Chop_013" n="place26">Chopwell</placeName>.<milestone unit="undetermined" rend="diagonal"/>
+             February. 1647</date><!-- NOTE [dates] OS/NS seems unverifiable (marriage of edmund norton - Anselment couldn't find a record in registers) -->. at <placeName ref="place:Chop_013" n="place26">Chopwell</placeName>.<milestone unit="marker" rend="diagonal"/>
          <anchor n="ev21" type="event"/>
          </p>
        </div>
@@ -1166,7 +1167,7 @@
          <milestone n="ev22" unit="event"/>
            <persName ref="ppl:en1" n="per51">My Cosen Edmund Norton</persName> died at<lb/>
            <placeName ref="place:York_060" n="place27">Yorke</placeName> of a pluresy, or stick in his<lb/>
-           side, the <date when-custom="1648-11-30">30<hi rend="superscript">th</hi> of November: 1648</date>.<milestone unit="undetermined" rend="diagonal"/>
+           side, the <date when-custom="1648-11-30">30<hi rend="superscript">th</hi> of November: 1648</date>.<milestone unit="marker" rend="diagonal"/>
          <anchor n="ev22" type="event"/>
          </p>
        </div>
@@ -1178,7 +1179,7 @@
            <persName ref="ppl:cs1" n="per52">King Charles the first</persName> beheaded at<lb/>
         <placeName ref="place:Whit_084" n="place28">White hall, London</placeName> the <date datingMethod="#JulianMar" when-custom="1648-01-30">30<hi rend="superscript">th</hi> of Janeuary,<lb/>
         1648</date>.<!-- NOTE [dates] this one is definitely OS... -->
-           <milestone unit="undetermined" rend="diagonal"/>
+           <milestone unit="marker" rend="diagonal"/>
          <anchor n="ev23" type="event"/>
          </p>
        </div>
@@ -1187,7 +1188,7 @@
          <milestone n="ev24" unit="event"/>
            <persName ref="ppl:jn1" n="per53">My Cozen Julian Norton</persName> died at<lb/>
         <placeName ref="place:Rich_044" n="place29">Richmond Greene</placeName> at <rs ref="ppl:mn1" type="person">her father</rs>s the<lb/>
-           <date when-custom="1649-04-09">9<hi rend="superscript">th</hi> of Aprill. 1649</date>.<milestone unit="undetermined" rend="diagonal"/>
+           <date when-custom="1649-04-09">9<hi rend="superscript">th</hi> of Aprill. 1649</date>.<milestone unit="marker" rend="diagonal"/>
          <anchor n="ev24" type="event"/>
          </p>
        </div>
@@ -1226,7 +1227,7 @@
             <lb/>
              of March 1651</date><!-- NOTE [review] [dates] transcriber query about date. 31 is the right date but might need extra tagging if it really does say 21. 
              [endnote] When margins checked, read as 21?
-             -->.<milestone unit="undetermined" rend="diagonal"/>
+             -->.<milestone unit="marker" rend="diagonal"/>
            <!-- [endnote] Faint diagonal line to mark end of section.-->
          </p>
          <anchor n="ev27" type="event"/>
@@ -1237,7 +1238,7 @@
            <persName ref="ppl:mny1" n="per58">My Cozen mary Norton</persName> was Married<lb/>
            to <persName ref="ppl:jy1" n="per59">Mr John Vorke</persName> at <rs ref="ppl:mn1" n="per60" type="person">her father</rs>s<lb/>
            house on <placeName ref="place:Rich_044" n="place34">the Greene in Richmond</placeName>, the<lb/>
-           <date when-custom="1651-08-12">12<hi rend="superscript">th</hi> of August, 1651</date>.<milestone unit="undetermined" rend="diagonal"/> 
+           <date when-custom="1651-08-12">12<hi rend="superscript">th</hi> of August, 1651</date>.<milestone unit="marker" rend="diagonal"/> 
          <anchor n="ev28" type="event"/>
          </p>
        </div>
@@ -1258,8 +1259,8 @@
            My Selfe <persName ref="ppl:awt1" n="per64">Alice Wandesforde</persName> was<lb/>
            married to <persName ref="ppl:wt1" n="per65">William Thornton Esquire</persName><lb/>
            At <rs ref="ppl:aow1" n="per66" type="person">my mother</rs>s howse in <placeName ref="place:Hips_022" n="place36">hipswell</placeName> the<lb/>
-        <date when-custom="1651-12-15">15<hi rend="superscript">th</hi> of December. 1651</date>. Maried by<milestone unit="undetermined" rend="diagonal"/><lb/>
-           <persName ref="ppl:ms1" n="per67">Mr Siddall</persName>.<!-- NOTES [people] had to correct ppl: ref here: make sure you do some integrity checks when you've finished tagging --><milestone unit="undetermined" rend="diagonal"/>
+        <date when-custom="1651-12-15">15<hi rend="superscript">th</hi> of December. 1651</date>. Maried by<milestone unit="marker" rend="diagonal"/><lb/>
+           <persName ref="ppl:ms1" n="per67">Mr Siddall</persName>.<!-- NOTES [people] had to correct ppl: ref here: make sure you do some integrity checks when you've finished tagging --><milestone unit="marker" rend="diagonal"/>
            <!-- msDescription [endnote] The bottom of ‘Mr Siddall’ and following punctuation and slash is missing suggesting the page has been trimmed.-->
          <anchor n="ev30" type="event"/>
          </p>
@@ -1345,7 +1346,7 @@
           my <persName ref="ppl:awn1" n="per78">Aunt Norton</persName> and my brother<lb/>
           <persName ref="ppl:cw2" n="per79">Christopher wandesforde</persName>, <persName ref="ppl:kb1" n="per80">Mrs Blacke<lb break="no"/>
           burne</persName> stood for my Mother being sicke<lb/>
-           then.<milestone unit="undetermined" rend="diagonal"/>
+           then.<milestone unit="marker" rend="diagonal"/>
          <anchor n="ev35" type="event"/>
          </p>
        </div>
@@ -1409,7 +1410,7 @@
            <persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
           Childe was borne at <placeName ref="place:Hips_022" n="place48">Hipswell</placeName> the<lb/>
           <date when-custom="1656-06-12">12<hi rend="superscript">th</hi> of June, 1656</date>. being thursday<lb/>
-          about halfe an houer affter 4 <milestone unit="undetermined" rend="rule(fill_right)"/>
+          about halfe an houer affter 4 <milestone unit="marker" rend="rule(fill_right)"/>
              <!-- [endnote] There’s a line after 4. Looks similar to divisions but clearly isn’t, but definitely not a squiggle.-->
             
             <lb/>
@@ -1790,9 +1791,10 @@
             <add place="superimposed" cert="medium">7</add></subst>
            <!-- [endnote] It looks like ‘7’ has been written over ‘6’. I think 9 is written over a 7 so maybe 7 is over the 6? Bk 1 says 8 &amp; 9.-->
            &amp; <subst><del rend="overwritten" cert="medium">7</del><add place="superimposed" cert="medium">9</add></subst><lb/> 
-            aClock at night vpon satterday the<lb/>
+           aClock at night vpon satterday the<lb/>
           <date when-custom="1659-12-10">10:<hi rend="superscript">th</hi> of Decemb: 
-            <seg rend="underline">1659:</seg></date><!-- Q [teams] [tagging] [formatting] again underline is more like a section marker than emph -->
+            <seg rend="underline">1659:</seg></date><!-- Q [teams] [tagging] [formatting] again underline might be more like a section marker than text emphasis? -->
+           <!-- Q [review] use of colons in dates here -->
          </p>
          
             <pb n="38"/>
@@ -1800,7 +1802,7 @@
 <!-- transcription: Page 38 -->
 
          <fw>
-            <fw type="pageNum">38.<milestone unit="undetermined" rend="diagonal"/></fw>
+            <fw type="pageNum">38.<milestone unit="marker" rend="diagonal"/></fw>
            <!-- Q [decoration?] how to handle diagonal line after 38. or do we treat it as filler and drop it? -->
             <fw type="header">.<date>1659</date>.</fw>
          </fw>
@@ -2991,7 +2993,7 @@
           breed scruples, but as it might<lb/>
           happen, might be altogether dispo=<lb break="no"/>
           -sed from my owne poore Children<lb/>
-          to the Children of any other wife.<milestone unit="undetermined" rend="diagonal"/> <lb/>
+          to the Children of any other wife.<milestone unit="marker" rend="diagonal"/> <lb/>
           the sence where of did somewhat<lb/>
           trouble me. how I should find out<lb/>
           one that would deale impartially as<lb/>
@@ -3111,7 +3113,7 @@
           Person in justice &amp; equity making<lb/>
           provission for the younger Children<lb/>
           of so well as the sonne &amp; heire (if God<lb/>
-          did please to give me one).<milestone unit="undetermined" rend="diagonal"/> </p>
+          did please to give me one).<milestone unit="marker" rend="diagonal"/> </p>
          <p xml:id="p-0088">which was don to my great content<lb/>
           &amp; sattisfaction that I might more Joy-<lb break="no"/>
           =fully leave this world, then to have<lb/>
@@ -3145,7 +3147,7 @@
           &amp; what I could for the satisfaction<lb/>
           of my owne Consience.<anchor n="ev55" type="event"/> And blesed<lb/>
           be God who gave me space, and<lb/>
-           oportunity for the same.<milestone unit="undetermined" rend="diagonal"/></p>
+           oportunity for the same.<milestone unit="marker" rend="diagonal"/></p>
      </div>    
             <pb n="79"/>
 
@@ -4179,7 +4181,7 @@
            come off at all haveing but few in<lb/>
            his head. but the most was in his face<lb/>
            he wanted 9 Months, of beeing <w norm="five">fvie</w><!-- Q [word] should be <sic> rather than norm I think. --> <lb/>
-           yeares old as some odde daies.<milestone unit="undetermined" rend="diagonal"/></p>
+           yeares old as some odde daies.<milestone unit="marker" rend="diagonal"/></p>
          <anchor n="ev72" type="event"/>
        </div>  
             <pb n="108"/>
@@ -4438,7 +4440,7 @@
           through meanes by Gods blessing he was<lb/>
           restored to me againe blessed be our mer-<lb break="no"/>
           cefull God of our salvation. for ever more<lb/>
-           Amen. &amp; Amen. <milestone unit="undetermined" rend="diagonal"/>
+           Amen. &amp; Amen. <milestone unit="marker" rend="diagonal"/>
          <anchor n="ev80" type="event"/>
          </p>
        </div>
@@ -4581,7 +4583,7 @@
           Decemb. 1667:</date> beeing 3 weeks old upon the<lb/>
          <date when-custom="1667-12-02"> 2<hi rend="superscript">d</hi> of december</date>. he was Buried at <placeName ref="place:Ston_053" n="place90">Stongrav<hi rend="superscript">e</hi></placeName><lb/> 
           on the <date when-custom="1667-12-02">2<hi rend="superscript">d</hi> decemb.</date> by <persName ref="ppl:tc1" n="per273">Mr Comber</persName>. who did<lb/>
-           preach his funerall Sermon.<milestone unit="undetermined" rend="diagonal"/><!-- NOTE / is almost a vertical stroke rather than diagonal --> <date when-custom="1667-12-02">Decmb. 2<hi rend="superscript">d</hi><lb/> 
+           preach his funerall Sermon.<milestone unit="marker" rend="diagonal"/><!-- NOTE / is almost a vertical stroke rather than diagonal --> <date when-custom="1667-12-02">Decmb. 2<hi rend="superscript">d</hi><lb/> 
             
             <seg rend="underline">1667.</seg></date><!-- Q [formatting] [decoration?] text underline seems right here. -->
          <anchor n="ev84" type="event"/>
@@ -6253,7 +6255,7 @@
          <l> His Glory this to comfort me:</l>
          <l> And as ti’s writt Such honour shall.</l>
          <l> Even unto all his Saints befall.</l>
-         <l><milestone unit="undetermined" rend="rule(short_right)"/></l>
+         <l><milestone unit="marker" rend="rule(short_right)"/></l>
          <!-- Q I think not structural. 
            horizontal line about 1/4 width of page and right-aligned. *on its own line, not just fill* -->
          <l> Judge not that feild, because it’s stuble</l>
@@ -6825,7 +6827,7 @@
          </item>
         
           <!-- TODO [index] [curlybraces] -->  
-        <item corresp="#div-068">With a preservation from <ref>109.</ref> <lb/> 
+        <item corresp="#div-068">With a preservation from <label><ref>109.</ref></label> <lb/> 
           choaking in her Sleepe
         </item>
         
@@ -7147,7 +7149,7 @@
           fall on the Church &amp; Kingdoms &amp; praid<lb/>
           heartily for our good King; said that Pride &amp;<lb/>
           fullness of Bread would be the fall of the<lb/>
-          Church &amp; state if God prevented not.<milestone unit="undetermined" rend="diagonal"/><lb/>
+          Church &amp; state if God prevented not.<milestone unit="marker" rend="diagonal"/><lb/>
           with mainy other like Prophiticall saings<lb/>
           sevrall times with much trouble &amp; somme<lb/>
           still begging to God to <w cert="low" norm="divert">Divit</w> his Judgment<lb/>
@@ -7159,7 +7161,7 @@
           did nevr goe out of my <g ref="#heart">♥</g>. But the effects I<lb/>
           have found of his forsseeing Predictions on<lb/>
           both Church. State. famlys &amp; Persons most<lb/>
-           deare to this holy: wise. &amp; good Christian.<milestone unit="undetermined" rend="diagonal"/></p>
+           deare to this holy: wise. &amp; good Christian.<milestone unit="marker" rend="diagonal"/></p>
          <anchor n="ev99" type="event"/>
       </div>
       <div xml:id="div-100" rend="pre(rule)">
@@ -7269,7 +7271,7 @@
           for I did at that tme And they were in perfect Charity<lb/>
           each to othrs &amp; did both receave very Reverently<lb/>
           on <date when-custom="1651-03-30">Easter day</date> in <placeName ref="place:Hips_023" n="place105">Hipswell Chapell</placeName> with <rs ref="ppl:aow1" n="per381" type="person">my D. mothr</rs><lb/>
-           &amp; my selfe.<milestone unit="undetermined" rend="diagonal"/> But in the Affter noone my brothr<lb/>
+           &amp; my selfe.<milestone unit="marker" rend="diagonal"/> But in the Affter noone my brothr<lb/>
           <persName ref="ppl:gw1" n="per382">G: W:</persName> did goe to see <persName ref="ppl:hd1" n="per383">Mr Henry Darcy</persName>. and find<supplied reason="damage">ing</supplied>
             <lb/>
            him not at home, entertand him selfe with <persName ref="ppl:dbd1" n="per384">old mot<hi rend="superscript">–<!-- TODO [review] [contraction] --></hi><lb/> 
@@ -7302,7 +7304,7 @@
           &amp; was a great Joy to her to heare them but the Lord<lb/>
           was not pleased to grant him a long life but to tak<lb/>
           him away in these good designes. &amp; what he wanted<lb/>
-          in Power God acepted in the will in him.<milestone unit="undetermined" rend="diagonal"/> <lb/>
+          in Power God acepted in the will in him.<milestone unit="marker" rend="diagonal"/> <lb/>
           He Laid that night there. And the next mor=<add place="above">ning</add> <lb/>
           came to <placeName ref="place:Hips_022" n="place106">Hipswell</placeName> about 9 a clocke. And at that tme<lb/>
           found me in a most sad sircumstance. I had bin<lb/>
@@ -7337,7 +7339,7 @@
           he said that he could not have to much of her pras<lb/>
           for him &amp; soe Reverently bid her good morrow<lb/>
           &amp; me fairewell. And tooke horrse to goe to <placeName ref="place:Rich_043" n="place107">Rich<lb break="no"/>
-            mond</placeName>.<milestone unit="undetermined" rend="diagonal"/></p>
+            mond</placeName>.<milestone unit="marker" rend="diagonal"/></p>
         <anchor n="ev101" type="event"/>
  </div>
             <pb n="191"/>

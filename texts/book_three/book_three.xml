@@ -84,7 +84,7 @@
          ENCODING NOTES
          
          <pb> @n and Page \d+ in comments = Transcriber page numbers (latter may be removed once i've finished tagging, but are convenient for quick finding)
-         (fw=pageNum are Alice's written numbers; not on every page in this book)
+         (fw type=pageNum are Alice's written numbers; not on every page in this book)
          
      xml comment keywords:
          NOTE: a comment on something, but shouldn't need any further (or very minor, low-priority) action.
@@ -98,7 +98,8 @@
          <note> @place=end are Word endnotes; some may be retained as editorial notes but many are likely to be internal comemnts for the project only, which will either be deleted or moved into xml comments
          
          TODO
-         marginalia - not yet added @resp, but i think all are awt anyway
+         
+         
 
        -->
        <!--  LINKAGE ?
@@ -328,10 +329,10 @@
           <!-- Q [bibl] this section will need bibl markup. 
             should Jeremiah... heading be ref or bibl? or nothing? -->
          <head>
-            <bibl>Jeremiah Chapter 10<hi rend="superscript">th</hi>
+            <ref>Jeremiah Chapter 10<hi rend="superscript">th</hi>
             verces 23<hi rend="superscript">th</hi>
             24<hi rend="superscript">th</hi>
-            </bibl>
+            </ref>
          </head>
           
          <p xml:id="p-0001">O Lord, I know that the way of man is not in himselfe:<lb/>
@@ -670,11 +671,11 @@
               service on<lb/>
               Earth &amp; to<lb/>
               be ready at<lb/>
-              his call<milestone unit="undetermined" rend="rule(fill_right)"/>
+              his call<milestone unit="marker" rend="rule(fill_right)"/>
         </note>
               to him but submissively waite his devine Pleasure, both when, &amp; the <lb/>
               <surplus reason="repetition">the</surplus> sircumstance of our abode, &amp; of our worke, &amp; allso endeavour to <add place="above">be</add> ready<lb/>
-          for him att his call.<milestone unit="undetermined" rend="diagonal"/>
+          for him att his call.<milestone unit="marker" rend="diagonal"/>
          </p>
 
          <p xml:id="p-0021" rend="first-line-indent">
@@ -830,7 +831,7 @@
           Body: Or can I sufficiently bless my God. who gave him to me &amp; con-<lb break="no"/>
           -tinued him; soe long in this mortall Life; to be an Example to <lb/>
           this world of his great vertues: And pray that his Posterity may <lb/>
-          follow the same.<milestone unit="undetermined" rend="diagonal"/>
+          follow the same.<milestone unit="marker" rend="diagonal"/>
       </p>
         
       <p xml:id="p-0033" rend="first-line-indent">
@@ -1713,7 +1714,7 @@
           he departed this life</p>
          
          <p xml:id="p-0094">Blessed are the dead that dye in the Lord; for they rest from theire<lb/>
-           Labors, &amp; there workes, follow them:<milestone unit="undetermined" rend="diagonal"/> Oh Lord let me be one of them;<lb/>
+           Labors, &amp; there workes, follow them:<milestone unit="marker" rend="diagonal"/> Oh Lord let me be one of them;<lb/>
           But now affter the death of this Pieous minister of Gods<lb/>
           word, there fell uppon my deare mother, &amp; her Family very<lb/>
           many troubles; &amp; afflictions; for all the caire and conserns to<lb/>
@@ -1765,7 +1766,7 @@
               of right Decended on my deare brother George, who was the<lb/>
               Elldest Son of my Father: but he being under Age then had<lb/>
               appointed by my hon.<hi rend="superscript">red</hi> Fathers will to be his Guardians<lb/>
-              Sir Edward Osborne; and my deare mother.<milestone unit="undetermined" rend="diagonal"/>
+              Sir Edward Osborne; and my deare mother.<milestone unit="marker" rend="diagonal"/>
             </p>
                
          <p xml:id="p-0097" rend="first-line-indent" corresp="#mnote-0050">
@@ -1782,14 +1783,14 @@
           to it by the <lb/>
           Gaurdians<lb/>
           of my brothr<lb/>
-          George<milestone unit="undetermined" rend="rule(fill_right)"/>
+          George<milestone unit="marker" rend="rule(fill_right)"/>
            </note>
               
               By vertue of which he indevord, to gett induction, &amp; institution<lb/>
               but, he was tould, that there could noe minister injoy A Living<lb/>
               without the Consent of the Parliament; who then did Assume all<lb/>
               power &amp; authority, as well in Ecliasticall as Temporall Conserns<lb/>
-              in this poore Kingdom.<milestone unit="undetermined" rend="diagonal"/>
+              in this poore Kingdom.<milestone unit="marker" rend="diagonal"/>
             
          </p>
          <p xml:id="p-0099" rend="first-line-indent">
@@ -1877,7 +1878,7 @@
           Rose of her seate in the Ally and shooke it in her hand ready<lb/>
           to throue it att him cryed out They weare noe more Damned<lb/>
           then himselfe; old Hackle Backe. &amp; made him come down with<lb/>
-           shame.<milestone unit="undetermined" rend="tbd-/."/>
+           shame.<milestone unit="marker" rend="tbd-/."/>
          </p>
          <p xml:id="p-0106" rend="first-line-indent">
               But affter this man was in a manner hissed out of<lb/>
@@ -2179,7 +2180,7 @@
               --------<lb/>
               <date when-custom="1651-03-31">
                 March 31<lb/>
-                1651</date><milestone unit="undetermined" rend="rule(fill_right)"/>
+                1651</date><milestone unit="marker" rend="rule(fill_right)"/>
             </note>
             
                   Which when John Plumer, &amp; his fellow, saw the Plott against<lb/>
@@ -2395,7 +2396,7 @@
               these two<lb/>
               Considerable<lb/>
               Persons of<lb/>
-              Quality<milestone unit="undetermined" rend="rule(fill_right)"/>
+              Quality<milestone unit="marker" rend="rule(fill_right)"/>
                </note>
               
               And uppon inquiry found not cleare 400<hi rend="superscript">l</hi> per An<ex>num</ex> she<lb/>
@@ -2720,7 +2721,7 @@
              Neare dispaire<lb/>
             wanting A spirit-<lb break="no"/>
             uall guide or<lb/>
-             Comfort<milestone unit="undetermined" rend="rule(fill_right)"/>
+             Comfort<milestone unit="marker" rend="rule(fill_right)"/>
              </note>
               
               our grand, Enimy, the Devill, which indevourd to worke uppon my<lb/>
@@ -2772,7 +2773,7 @@
               Nor had I any of my Children, Left alive; then save my<lb/>
           two young daughters Alice &amp; Katherine, Tho I had borne him 6. Ch<lb/>
           ; 4 daughters, and two Sons, haveing lost my 2 sons, &amp; 2 Daughrs<lb/>
-          att Hipswell, &amp; St nickolas, my last son william. <milestone unit="undetermined" rend="diagonal"/></p>
+          att Hipswell, &amp; St nickolas, my last son william. <milestone unit="marker" rend="diagonal"/></p>
          
         <pb xml:id="page-044" n="44"/>
 
@@ -2832,7 +2833,7 @@
           and leave my two poore innocent Daughters, with out any Settlmnt<lb/>
           or provission firme; tho all my d. mothers caire &amp;, charges to have it<lb/>
           don. but how unjust was these Lawyers, to deceave, those which depended<lb/>
-          on their fidelity.<milestone unit="undetermined" rend="diagonal"/> only in my God to whom I praied for direction. And help.</p>
+          on their fidelity.<milestone unit="marker" rend="diagonal"/> only in my God to whom I praied for direction. And help.</p>
          <p xml:id="p-0171" rend="first-line-indent">
             <note xml:id="mnote-0087" place="left margin" rend="post(rule)" resp="#awt1">
               Mr Thorn.<lb/>
@@ -2869,7 +2870,7 @@
             to secure to 2 child<lb/>
             3000<hi rend="superscript">l</hi>
                   in case of<lb/>
-                  my death<milestone unit="undetermined" rend="rule(fill_right)"/> 
+                  my death<milestone unit="marker" rend="rule(fill_right)"/> 
               
                </note>
               He did, draw up, a Bond, for Mr Th. to signe, of three Thousand<lb/>
@@ -3193,7 +3194,7 @@
           lett it grow up to Etternall Life; &amp; that I may be a vesell fitted<lb/>
           for thy salvation to worke out my Salvation with feare and<lb/>
           Trembling To watch &amp; pray that I may not enter in to temptation<lb/>
-          for the spirrit is willing, but the flesh is weake:<milestone unit="undetermined" rend="diagonal"/></p>
+          for the spirrit is willing, but the flesh is weake:<milestone unit="marker" rend="diagonal"/></p>
          
          <!-- Q [div] possibly new div here? -->
          
@@ -3717,7 +3718,7 @@
               a flaw in Colv<lb/>
               Deed. his ad<lb/>
               vice to cutt it<lb/>
-              of<milestone unit="undetermined" rend="rule(fill_right)"/>
+              of<milestone unit="marker" rend="rule(fill_right)"/>
                </note>
              
              But how this Deed of Mr Colvills was Evaded, or when, it was<lb/>
@@ -4002,13 +4003,13 @@
           out of La. if<lb/>
             Mr Th. should<lb/>
             have noe Issue<lb/>
-          male.<milestone unit="undetermined" rend="rule(fill_right)"/><lb/>
+          male.<milestone unit="marker" rend="rule(fill_right)"/><lb/>
             
             Tho I then had<lb/>
             my deare Son<lb/>
             Robert 7 yers<lb/>
             old. <date when-custom="1668-09-19">Sep. 19<lb/>
-              1668</date><milestone unit="undetermined" rend="rule(fill_right)"/>
+              1668</date><milestone unit="marker" rend="rule(fill_right)"/>
               
            </note>
               
@@ -4081,7 +4082,7 @@
                 <p xml:id="p-0256">to provid<lb/>
                 for a 2<hi rend="superscript">d</hi>
                      <lb/>
-                  wife &amp;<milestone unit="undetermined" rend="rule(fill_right)"/></p>
+                  wife &amp;<milestone unit="marker" rend="rule(fill_right)"/></p>
                </note>
                
               When as the very doeing it was to Establish that Estate to<lb/>
@@ -4520,7 +4521,7 @@
            <note xml:id="mnote-0129" place="left margin" rend="post(rule)" resp="#awt1">
             <!-- Q [margin] not entirely sure where the Oswoldkirk ref is supposed to be in the text, and whether "A Repettion of..." refers to anything specific.  -->
             at Oswoldkirke<lb/>
-             <date when-custom="1661-02-13" datingMethod="#JulianMar">feb. 13 1661</date><milestone unit="undetermined" rend="rule(fill_right)"/><lb/>
+             <date when-custom="1661-02-13" datingMethod="#JulianMar">feb. 13 1661</date><milestone unit="marker" rend="rule(fill_right)"/><lb/>
             A Repettion of some<lb/>
             of Gods late, &amp; signall<lb/>
             mercys to me &amp; mine<lb/>
@@ -4556,7 +4557,7 @@
            <note xml:id="mnote-0130" place="left margin" resp="#awt1">
           <date when-custom="1666-08-22">Aug. 22 <seg rend="underline">1666</seg></date>
                <lb/>
-             A miscriage<milestone unit="undetermined" rend="rule(fill_right)"/>
+             A miscriage<milestone unit="marker" rend="rule(fill_right)"/>
          </note>
            
               the hight of his implacable malice, would not lett me inoy<note place="end">
@@ -4570,7 +4571,7 @@
          
            <note xml:id="mnote-0131" place="left margin" resp="#awt1">
             Slanders of my<lb/>
-             good name<milestone unit="undetermined" rend="rule(fill_right)"/>
+             good name<milestone unit="marker" rend="rule(fill_right)"/>
           </note>
          
             grace givn to me (ever since I was borne) &amp; preserved me in.
@@ -4695,7 +4696,7 @@
               by my strict<lb/>
               walking with<lb/>
               God in a holy<lb/>
-              heart<milestone unit="undetermined" rend="rule(fill_right)"/>
+              heart<milestone unit="marker" rend="rule(fill_right)"/>
               
                   
                </note>
@@ -4899,7 +4900,7 @@
               Tod out of the<lb/>
               house for her<lb/>
               Abuces of<lb/>
-              myself<milestone unit="undetermined" rend="rule(fill_right)"/>
+              myself<milestone unit="marker" rend="rule(fill_right)"/>
                </note>
               
               And uppon there oath did justify my innocency from all<lb/>
@@ -4928,7 +4929,7 @@
               full sorrowes<lb/>
               &amp; greife reducd<lb/>
               me neare to<lb/>
-              death<milestone unit="undetermined" rend="rule(fill_right)"/>
+              death<milestone unit="marker" rend="rule(fill_right)"/>
             </note>
               
               Fall into great extreamity of weakness, &amp; non thought I should<lb/>
@@ -6887,7 +6888,7 @@
           Pardon of me on there knees. which I prayed God to forgive them<lb/>
           &amp; to delvr me out of all such wickedness. Glory be to God for the<lb/>
           grace thou hast givn to these Enimyes &amp; make them to repent of the<lb/>
-          Evill don to me thy poore handmade. Amen.<milestone unit="undetermined" rend="diagonal"/></p>
+          Evill don to me thy poore handmade. Amen.<milestone unit="marker" rend="diagonal"/></p>
         
         </div>
         
@@ -7411,7 +7412,7 @@
               Rev 2:10  Fear none of those things which thou shalt suffer: behold, the devil shall cast some of you into prison, that ye may be tried; and ye shall have tribulation ten days: be thou faithful unto death, and I will give thee a crown of life (KJV).</p>
             </note>
          </p>
-        <milestone unit="undetermined" rend="rule"/>
+        <milestone unit="marker" rend="rule"/>
         <!-- Q [div] check? I don't think this is a new (sub?)div? so using milestone. but hmm. full width rule. -->
         
          <p xml:id="p-0579">How can I begin my sorrowfull History of my Life in this<lb/>
@@ -10425,7 +10426,7 @@
           deare and only Son then but 6 years, old &amp; all swalowed up<lb/>
           with Debts from us. nor had I ever one penny of all my Fathers<lb/>
           Portion to doe me good, in all my Life nor my Children.<lb/>
-           these was Pinching sircumstances for me to begin my Life with <milestone unit="undetermined" rend="tbd-:/"/>
+           these was Pinching sircumstances for me to begin my Life with <milestone unit="marker" rend="tbd-:/"/>
       </p>
          <p xml:id="p-0883" rend="first-line-indent">
               Yett altho I was thus willing to Rob my selfe of my right<lb/>
@@ -10679,7 +10680,7 @@
           50<hi rend="superscript">l</hi> I borrwd of her, and the other 50<hi rend="superscript">l</hi> was Paid by me for<lb/>
           the discharge of somme Debt of my Son Thornton at Cambridg<lb/>
           Butt I humbly blesse Almighty God for this great mercy that<lb/>
-          I receaved in this 100<hi rend="superscript">l</hi> which releived myselfe and poore Son. <milestone unit="undetermined" rend="diagonal"/></p>
+          I receaved in this 100<hi rend="superscript">l</hi> which releived myselfe and poore Son. <milestone unit="marker" rend="diagonal"/></p>
          <p xml:id="p-0907" rend="first-line-indent">
               The Releace of myne to Sir Ch. Wand was dated –
               <space unit="line" quantity="2"/>
@@ -11340,7 +11341,7 @@
           -giveing to our great God father of the fatherless &amp; Husband to the poore<lb/>
           widdow to thy honour &amp; Etternall glory, whose mercy and truth<lb/>
           is Everlasting &amp; revealed unto the Church in our Lord and<lb/>
-          Saviour Jesus Christ. Amen: <milestone unit="undetermined" rend="diagonal"/>
+          Saviour Jesus Christ. Amen: <milestone unit="marker" rend="diagonal"/>
       </p>
           </div>
         
@@ -12577,7 +12578,7 @@
           she went away; but mary utterly denyes all &amp; that she never<lb/>
           saw or heard, or knew any Evill by me in all her life, and<lb/>
           cryes out against Mrs Danby to be soe Treatcherous. this<lb/>
-           letter dated <date when-custom="1669-05-12">may the 12<hi rend="superscript">th</hi> 1669</date> London.<milestone unit="undetermined" rend="rule(fill_right)"/></p>
+           letter dated <date when-custom="1669-05-12">may the 12<hi rend="superscript">th</hi> 1669</date> London.<milestone unit="marker" rend="rule(fill_right)"/></p>
        </div>
         
         <div>
@@ -13571,7 +13572,7 @@
            <note xml:id="mnote-0157" place="left margin" resp="#awt1">
              <!-- Q [margin] B. Scarbrough is "Besse"? I think the underline might be intended to point to the name -->
                  B. Scarbro<lb break="no"/>
-             -ugh<milestone unit="undetermined" rend="rule(fill_right)"/>
+             -ugh<milestone unit="marker" rend="rule(fill_right)"/>
                </note>
                
               <seg rend="underline">maide Besse</seg> who lived with my Lady vivell &amp; to tell me of my sad<lb/>
