@@ -29,7 +29,6 @@ $link: #0b4d99;
 
 @import "../node_modules/bulma/bulma.sass";
 
-
 .is-primary {
   background: $primary;
 }
@@ -50,7 +49,7 @@ a {
     border: 1px solid $accent;
   }
 
-  // GN: see AC-117, without this the border around the focused <a> (inline) 
+  // GN: see AC-117, without this the border around the focused <a> (inline)
   // would display weirdly
   // Use this on <a> that contain non-inline elements.
   // Note: don't use .block, that's bulma class.
