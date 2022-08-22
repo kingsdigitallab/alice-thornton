@@ -9,7 +9,7 @@ team: the key of a team (e.g. sdt), see metadata.json
 <div class="gallery-by-4">
   {%- for person in team_members -%}
     <div class="person">
-      {%- if person | hasContent -%}<a href="{{ person.url | url }}">{%- endif -%}
+      {%- if person | hasContent -%}<a class="a-block" href="{{ person.url | url }}">{%- endif -%}
         <img src="{{ person.data.image | url }}" alt="A photograph of {{ person.data.firstName }} {{ person.data.lastName }}">
         <p>
           <strong>{{ person.data.firstName }} {{ person.data.lastName }}</strong><br>
