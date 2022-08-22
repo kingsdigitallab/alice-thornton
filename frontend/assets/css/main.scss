@@ -49,6 +49,14 @@ a {
   &:focus {
     border: 1px solid $accent;
   }
+
+  // GN: see AC-117, without this the border around the focused <a> (inline) 
+  // would display weirdly
+  // Use this on <a> that contain non-inline elements.
+  // Note: don't use .block, that's bulma class.
+  &.a-block {
+    display: block;
+  }
 }
 
 a.tag {
