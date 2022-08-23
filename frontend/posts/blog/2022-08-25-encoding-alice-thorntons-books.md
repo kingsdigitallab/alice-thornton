@@ -74,9 +74,10 @@ reference. There are eight other people whom Alice might refer to as “my
 child”, as well as several people named Robert, including another Robert
 Thornton.
 
+### Selected mentions of Robert Thornton
 
 |     text of mention      | number |
-|:------------------------:|:------:|
+|:------------------------ |:------:|
 |          Robert          |   8    |
 |          Robin           |   8    |
 |     Robert Thornton      |   5    |
@@ -90,7 +91,6 @@ Thornton.
 | my deare & sweet Childe  |   1    |
 | my deare & sweete Childe |   1    |
 
-Selected mentions of Robert Thornton
 
 Fortunately, TEI also has methods to [link tagged
 elements](https://tei-c.org/release/doc/tei-p5-doc/en/html/SA.html) (of
@@ -125,19 +125,19 @@ people and dates.
 
 ![Side by side bar charts of the 20 most frequently
 mentioned people in two of Alice Thornton's Books. Her husband, mother
-and father are the top three in each book.]({{ "/assets/img/posts/most-mentioned-names-bar-chart-1.png" | url }} "Most frequently mentioned people in Book Rem and Book 1"){.media-right}
+and father are the top three in each book.]({{ "/assets/img/posts/most-mentioned-names-bar-chart-1.png" | url }} "Most frequently mentioned people in Book Rem and Book 1"){.media-center}
 
 
 At first sight they do look broadly similar. But on a closer look, there
 are quite a lot of variations in rankings. It's easier to compare the
-changes with a less common type of chart (called a [slopegraph](http://seeingdata.org/taketime/inside-the-chart-slope-graph/)). In
+changes with a less common type of chart (known as a [slopegraph](http://seeingdata.org/taketime/inside-the-chart-slope-graph/)). In
 addition to comparing the rankings, I've colour-coded the names
 according to their family connection, Thornton or Wandesford (Alice's
 birth family):
 
 ![A 'slopegraph' which shows the ten most frequently mentioned
 people in two of Alice's books and highlights the changes in
-their rankings.]({{ "/assets/img/posts/top-ten-names-slopegraph-1.png" | url }} "Comparison of top ten people in each book"){.media-left}
+their rankings.]({{ "/assets/img/posts/top-ten-names-slopegraph-1.png" | url }} "Comparison of top ten people in each book"){.media-center}
 
 
 Only seven people are in the top ten in *both* books. But more
@@ -152,7 +152,7 @@ December 1651). This comparison shows that the two books' coverage of
 Alice's early years and of the 1650s are quite similar; the big
 differences are for the 1640s and 1660s.
 
-![A density chart which plots the years of tagged dates in Alice's two books as percentages of the total, enabling comparison of the distribution of the dates.]({{ "/assets/img/posts/b1r-dates-density-chart-1.png" | url }} "Tagged dates in Book of Remembrances v Book 1 (1626-68)"){.media-right}
+![A density chart which plots the years of tagged dates in Alice's two books as percentages of the total, enabling comparison of the distribution of the dates.]({{ "/assets/img/posts/b1r-dates-density-chart-1.png" | url }} "Tagged dates in Book of Remembrances v Book 1 (1626-68)"){.media-center}
 
 
 It's clear, then, that *Book 1* is not simply a longer or more
@@ -160,9 +160,9 @@ polished version of *Book Rem*. In *Book 1*, as Ray Anselment has noted,
 Alice's Wandesford family fortunes are much more significant. She added
 a large amount of extra material about the series of traumatic personal and political
 events from her father's death in 1640, the Irish Rebellion, Civil Wars
-and Revolution and her brother's death in 1651. In *Book Rem* these are
+and Revolution and her brother's death in 1651.[^4] In *Book Rem* these are
 covered in brief entries that take up just 4 pages, and she focuses much
-more on her marriage, children and the death of her husband.[^4] One of
+more on her marriage, children and the death of her husband. One of
 the project's objectives is to deduce *why* Alice decided to expand her
 story of her life in the way that she did.
 
