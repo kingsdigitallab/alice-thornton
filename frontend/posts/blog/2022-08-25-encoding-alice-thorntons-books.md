@@ -152,7 +152,7 @@ December 1651). This comparison shows that the two books' coverage of
 Alice's early years and of the 1650s are quite similar; the big
 differences are for the 1640s and 1660s.
 
-![A density chart which plots the years of tagged dates in Alice's two books as percentages of the total, enabling comparison of the distribution of the dates.]({{ "/assets/img/posts/b1r-dates-density-chart-1.png" | url }} "Tagged dates in Book of Remembrances v Book 1 (1626-68)"){.media-right}
+![A density chart which plots the years of tagged dates in Alice's two books as percentages of the total, enabling comparison of the distribution of the dates.]({{ "/assets/img/posts/b1r-dates-density-chart-1.png" | url }} "Tagged dates in Book of Remembrances v Book 1 (1626-68)"){.media-center}
 
 
 It's clear, then, that *Book 1* is not simply a longer or more
