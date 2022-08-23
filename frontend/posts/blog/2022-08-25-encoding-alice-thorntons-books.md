@@ -1,6 +1,6 @@
 ---
 title: "Encoding Alice Thornton's Books"
-feature: /assets/img/posts/Bk1p298closeup.jpg
+feature: /assets/img/posts/most-mentioned-names-bar-chart-fi.png
 status: draft
 authors:
   - showard
