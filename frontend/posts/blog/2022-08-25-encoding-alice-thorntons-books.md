@@ -125,7 +125,7 @@ people and dates.
 
 ![Side by side bar charts of the 20 most frequently
 mentioned people in two of Alice Thornton's Books. Her husband, mother
-and father are the top three in each book.]({{ "/assets/img/posts/most-mentioned-names-bar-chart-1.png" | url }} "Most frequently mentioned people in Book Rem and Book 1"){.media-right}
+and father are the top three in each book.]({{ "/assets/img/posts/most-mentioned-names-bar-chart-1.png" | url }} "Most frequently mentioned people in Book Rem and Book 1"){.media-full}
 
 
 At first sight they do look broadly similar. But on a closer look, there
