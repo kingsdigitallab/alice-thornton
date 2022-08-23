@@ -6,7 +6,7 @@ authors:
   - showard
 tags:
   - TEI
-  - analysis
+  - visualisation
 ---
 
 Encoding highly complex texts like Alice Thornton's books is a process
