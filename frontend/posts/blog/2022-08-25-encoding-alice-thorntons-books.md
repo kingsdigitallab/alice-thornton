@@ -160,9 +160,9 @@ polished version of *Book Rem*. In *Book 1*, as Ray Anselment has noted,
 Alice's Wandesford family fortunes are much more significant. She added
 a large amount of extra material about the series of traumatic personal and political
 events from her father's death in 1640, the Irish Rebellion, Civil Wars
-and Revolution and her brother's death in 1651. In *Book Rem* these are
+and Revolution and her brother's death in 1651.[^4] In *Book Rem* these are
 covered in brief entries that take up just 4 pages, and she focuses much
-more on her marriage, children and the death of her husband.[^4] One of
+more on her marriage, children and the death of her husband. One of
 the project's objectives is to deduce *why* Alice decided to expand her
 story of her life in the way that she did.
 
