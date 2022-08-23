@@ -76,7 +76,7 @@ Thornton.
 
 
 |     text of mention      | number |
-|:------------------------:|:------:|
+|:------------------------ |:------:|
 |          Robert          |   8    |
 |          Robin           |   8    |
 |     Robert Thornton      |   5    |
