@@ -120,16 +120,16 @@ speculate that *Book Rem* is a kind of first draft, or a “pocket-sized”
 edition.
 
 Here I'll explore just two elements of the markup of the two books,
-people and dates.
+people and dates, beginning with a look at the 20 most frequently mentioned people in each book.
 
 
 ![Side by side bar charts of the 20 most frequently
 mentioned people in two of Alice Thornton's Books. Her husband, mother
-and father are the top three in each book.]({{ "/assets/img/posts/most-mentioned-names-bar-chart-1.png" | url }} "Most frequently mentioned people in Book Rem and Book 1"){.media-center}
+and father are the top three in each book, but after that there are several differences between books.]({{ "/assets/img/posts/most-mentioned-names-bar-chart-1.png" | url }} "Most frequently mentioned people in Book Rem and Book 1"){.media-center}
 
 
-At first sight they do look broadly similar. But on a closer look, there
-are quite a lot of variations in rankings. It's easier to compare the
+At first sight they do look broadly similar. But on a closer examination, there
+are quite a lot of variations in rankings. It's easier to compare these
 changes with a less common type of chart (known as a [slopegraph](http://seeingdata.org/taketime/inside-the-chart-slope-graph/)). In
 addition to comparing the rankings, I've colour-coded the names
 according to their family connection, Thornton or Wandesford (Alice's
@@ -146,9 +146,9 @@ mentioned more frequently in *Book Rem* than in *Book 1* and,
 conversely, five of the six Wandesfords are mentioned more in *Book 1*
 than in *Book Rem*.
 
-This is mirrored in the frequencies of mentioned dates in the two books
+This is mirrored in the comparative frequencies of mentioned dates in the two books
 (it's important to remember that Alice married William Thornton in
-December 1651). This comparison shows that the two books' coverage of
+December 1651). This chart shows that the two books' coverage of
 Alice's early years and of the 1650s are quite similar; the big
 differences are for the 1640s and 1660s.
 
