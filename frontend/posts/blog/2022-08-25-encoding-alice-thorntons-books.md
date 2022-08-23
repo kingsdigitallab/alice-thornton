@@ -130,7 +130,7 @@ and father are the top three in each book.]({{ "/assets/img/posts/most-mentioned
 
 At first sight they do look broadly similar. But on a closer look, there
 are quite a lot of variations in rankings. It's easier to compare the
-changes with a less common type of chart (called a [slopegraph](http://seeingdata.org/taketime/inside-the-chart-slope-graph/)). In
+changes with a less common type of chart (known as a [slopegraph](http://seeingdata.org/taketime/inside-the-chart-slope-graph/)). In
 addition to comparing the rankings, I've colour-coded the names
 according to their family connection, Thornton or Wandesford (Alice's
 birth family):
