@@ -74,6 +74,7 @@ reference. There are eight other people whom Alice might refer to as “my
 child”, as well as several people named Robert, including another Robert
 Thornton.
 
+### Selected mentions of Robert Thornton
 
 |     text of mention      | number |
 |:------------------------ |:------:|
@@ -90,7 +91,6 @@ Thornton.
 | my deare & sweet Childe  |   1    |
 | my deare & sweete Childe |   1    |
 
-Selected mentions of Robert Thornton
 
 Fortunately, TEI also has methods to [link tagged
 elements](https://tei-c.org/release/doc/tei-p5-doc/en/html/SA.html) (of
