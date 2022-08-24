@@ -42,7 +42,7 @@ anticipated.[^2]
 
 Alice Thornton's books have multiple potential audiences - in literature
 and history (social, political, religious, gender, of medicine) - and
-beyond academic readers. Because we can mark up several different
+beyond academic readers (e.g. those interested in the British Civil Wars, local history, family history, women's history). Because we can mark up several different
 “layers” of meaning within the texts, TEI makes it possible, in a sense,
 to have multiple versions of the books within a single edition, catering
 for varying perspectives.
