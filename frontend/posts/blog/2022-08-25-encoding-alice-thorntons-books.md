@@ -128,7 +128,8 @@ mentioned people in two of Alice Thornton's Books. Her husband, mother
 and father are the top three in each book, but after that there are several differences between books.]({{ "/assets/img/posts/most-mentioned-names-bar-chart-1.png" | url }} "Most frequently mentioned people in Book Rem and Book 1"){.media-center}
 
 
-At first sight they do look broadly similar. But on a closer examination, there
+At first sight they do look broadly similar, with the same names in the top three. 
+But on a closer examination, there
 are quite a lot of variations in rankings. It's easier to compare these
 changes with a less common type of chart (known as a [slopegraph](http://seeingdata.org/taketime/inside-the-chart-slope-graph/)). In
 addition to comparing the rankings, I've colour-coded the names
