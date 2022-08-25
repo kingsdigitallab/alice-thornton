@@ -1,7 +1,7 @@
 ---
 title: "Encoding Alice Thornton's Books"
 feature: /assets/img/posts/most-mentioned-names-bar-chart-fi.png
-status: draft
+status: live
 authors:
   - showard
 tags:
