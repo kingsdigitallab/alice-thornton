@@ -160,12 +160,12 @@
          [endnote] moved from Word endnotes into comment
          
      TO DO/REVIEW:
-     
-        (all books, but perhaps esp this one?) for some reason I haven't used the <damage> tag at all; check use of <gap>, attribute value "damage", etc to see if there's anywhere it would be more appropriate than current choices.
-        ref: https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHCOMB
         
         <pb> need renumbering (will probably redo them properly as xml:id) but waiting for ST to fix transcriptions first.
         [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
+     
+        (all books, but perhaps esp this one?) for some reason I haven't used the <damage> tag at all; check use of <gap>, attribute value "damage", etc to see if there's anywhere it would be more appropriate than current choices.
+        ref: https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHCOMB
      
         abbrev/contraction work - needs to be fixed in the transcription first
         - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as ex? still reading up on this one! 
@@ -195,7 +195,7 @@
         
       
       tagging of ms description features 
-          - a lot of this to be dropped or only described in msDescription, but will review properly after transcription updates summer 2022.
+          - a lot of this to be dropped or only described in msDescription, but will review properly after transcription updates autumn 2022.
           related footnotes > comments for reference/to come back to
           i've started teiHeader/msDesc with examples of tags that are likely to be useful, but we might not use all of them in the end.
                 
@@ -6463,9 +6463,10 @@
        <!-- msDescription [endnote] Ruling on page.-->
            
        <!-- TODO [index] 
-            curly braces 
-            link entries to text 
-              record alice discrepancies -->
+            1. curly braces 
+            2. link entries to text 
+            3. record alice discrepancies 
+       -->
 
       <list>           
          <head>
@@ -6723,14 +6724,17 @@
         </item>
         
           <!-- TODO [index] [curlybraces] grouping lines -->
-        <item corresp="#div-056">A thankesgiveing for Mr<lb/>
+        <item corresp="#div-056">
+          <seg rend="braced(})">A thankesgiveing for Mr<lb/>
           Thorntons deliverance from<lb/>
-          a flood of waters in his <label><ref>87.</ref></label> <lb/>
-          returne from London
+          a flood of waters in his<lb/>
+          returne from London</seg>
+          <label place="right mid"><ref>87.</ref></label> 
         </item>
         
           <!-- TODO [index] [curlybraces] lines -->
-        <item corresp="#div-057">The birth of Joyce Thornton<lb/> 
+        <item corresp="#div-057">
+          The birth of Joyce Thornton<lb/> 
           And her Baptisme <label><ref>90.</ref></label>
          </item>
         
