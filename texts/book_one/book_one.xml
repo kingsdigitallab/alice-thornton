@@ -14290,28 +14290,12 @@
     <back>
         <div xml:id="div-149" type="index">
             <!-- TODO [index] 
-                curlybraces
                 link page refs to text divs
                 handle alice's discrepancies
+               done curlybraces
+               what about place for label generally? is it really needed, since they're all right align?
             -->
-    <!-- NOTE [index] [curlybraces] example: grouping 3 items.
-    <item>
-        <list rend="braced(})">
-            <item corresp="#div-024">Mr Edmund Norton died. 1648 </item>
-            <item corresp="#div-025">King Charles the Blessed. 1648 </item>
-            <item corresp="#div-028">Sr Edward Osborne died</item>
-        </list>
-        <label place="right mid"><ref>23.</ref></label>
-    </item>         
-    -->
-    <!-- NOTE [index] [curlybraces] example: grouping lines, not items.   
-    <item corresp="#div-047">
-        <label place="right top"><ref>43.</ref></label>
-        <seg rend="braced(})">my dangerous Sickeness. 1661.<lb/>
-            when I was preserved from the <lb/>
-            Temptation of Satan to dispaire</seg>  
-    </item>
-     -->
+
             <!-- Q for team [xmlconversion] need to move (some) page refs -->
             <note place="end">
                     <p rend="Endnote Text"> [page numbering] At does not provide page numbers for her ‘Index’, but does so for the entries she has added in. </p>
@@ -14405,12 +14389,12 @@
             <item>An Ellagie upon his Death by S Ch. Wivell <label><ref>115</ref></label>
             </item>
                 
-       <!-- TODO [index] [curlybraces] lines -->         
+       <!-- NOTE [index] [curlybraces] lines -->         
             <item>
-              Observation of Gods goodnesse in my deare<lb/>
-            Mothers Preservation &amp; her Child. in the time <label><ref>116</ref></label>
-            <lb/>
-            of the Warres &amp; Distractions
+             <label place="right mid"><ref>116</ref></label>    
+              <seg rend="braced(})">Observation of Gods goodnesse in my deare<lb/>
+            Mothers Preservation &amp; her Child. in the time <lb/>
+            of the Warres &amp; Distractions</seg>
             </item>
                 
             <item>The Marriage of my Cosen Mary Norton <label><ref>117</ref></label>
@@ -14418,10 +14402,11 @@
             <item>The Marriage of my brother Christ<ex>opher</ex> Wand. <label><ref>117</ref></label>
             </item>
                 
-       <!-- TODO [index] [curlybraces] lines -->      
+       <!-- NOTE [index] [curlybraces] lines -->      
             <item>
-                The Marriage of Alice Wand. Dec. 15 1654 <label><ref>118</ref></label><lb/>
-                A Praier on that occassion<!-- Q what prayer? --> <add place="inline">&amp; uppon my sickness</add>
+                <label place="right top"><ref>118</ref></label>
+                <seg rend="braced(})">The Marriage of Alice Wand. Dec. 15 1654 <lb/>
+                A Praier on that occassion<!-- Q what prayer? --> <add place="inline">&amp; uppon my sickness</add></seg>
             </item>
                 
             <item>Severall Remarkable passages Since 1651 <label><ref>126</ref></label>
@@ -14460,7 +14445,7 @@
             </item>
   
         <!-- NOTE [index] [curlybraces] items
-            AWT has definitely braced these two items together, but afaict the "my deliverance" div is actually on p.146. if anything should be grouped with the next item. impossible woman. -->   
+            AWT has braced these two items together, but afaict the "my deliverance" div is actually on p.146. if anything should be grouped with the next item. impossible woman. -->   
          <item>
              <label place="right mid"><ref>144</ref></label>       
           <list rend="braced(})">      
@@ -14511,11 +14496,12 @@
                 <label place="right bottom"><ref>159</ref></label>
             </item>
                 
-       <!-- TODO [index] [curlybraces] lines -->         
+       <!-- NOTE [index] [curlybraces] lines -->         
             <item>
-                A relation conserning my deare &amp; hon<ex>oured</ex><lb/>
-            Mother the Lady Wand. and of her death <label><ref>160</ref></label><lb/>
-            Decemb<ex>er</ex> 10<hi rend="superscript">th</hi> 1659
+               <label place="right mid"><ref>160</ref></label> 
+                <seg rend="braced(})">A relation conserning my deare &amp; hon<ex>oured</ex><lb/>
+            Mother the Lady Wand. and of her death <lb/>
+            Decemb<ex>er</ex> 10<hi rend="superscript">th</hi> 1659</seg>
             </item>
                 
        <!-- NOTE [index] [curlybraces] lines -->         
@@ -14550,11 +14536,12 @@
                 <label place="right bottom"><ref>186</ref></label> 
             </item>
                 
-       <!-- TODO [index] [curlybraces]  --> 
+       <!-- NOTE [index] [curlybraces]  --> 
             <item>
-                Uppon my great sicknesse there, &amp; of my<lb/>
-                Preservation from Spirituall dissertion <label><ref>188</ref></label> <lb/>
-            With praiers &amp; medittations
+               <label place="right mid"><ref>188</ref></label>  
+                <seg rend="braced(})">Uppon my great sicknesse there, &amp; of my<lb/>
+                Preservation from Spirituall dissertion <lb/>
+            With praiers &amp; medittations</seg>
             </item>
                 
             <item>A Thankesgiveing affter my Recovery <label><ref>192</ref></label>
@@ -14574,11 +14561,12 @@
                 <label place="right bottom"><ref>193</ref></label>
             </item>
                 
-        <!-- TODO [index] [curlybraces] -->        
+        <!-- NOTE [index] [curlybraces] -->        
             <item>
-                Medittations on the Receaveing the first<lb/>
-            Sacrament delivered in the new house at <label><ref>196</ref></label><lb/>
-            Easte Newton by Dr Samwaies. Aug<ex>ust</ex> 1662.
+               <label place="right mid"><ref>196</ref></label> 
+                <seg rend="braced(})">Medittations on the Receaveing the first<lb/>
+            Sacrament delivered in the new house at <lb/>
+            Easte Newton by Dr Samwaies. Aug<ex>ust</ex> 1662.</seg>
             </item>
                 
         <!-- NOTE [index] [curlybraces] -->        
@@ -14616,12 +14604,13 @@
             -gerous fitts at Steersby, of the Pallsie <label><ref>211</ref></label><lb/>
             No. 16 1665.</item>
                 
-        <!-- TODO [index] [curlybraces] -->        
+        <!-- NOTE [index] [curlybraces] -->        
             <item>
-                A Prayer, and thankesgiveing affter<lb/>
-            his recovery: No. 28 1665. <label><ref>213</ref></label>.<lb/>
+               <label place="right top"><ref>213</ref>.</label> 
+                <seg rend="braced(})">A Prayer, and thankesgiveing affter<lb/>
+            his recovery: No. 28 1665. <lb/>
                 With my owne preservation from death by<lb/>
-                the greife on his sicknesse.
+                the greife on his sicknesse.</seg>
             </item>
                 
             <item>On my sweeete Joyce her death. Jan 26 65. <label><ref>214</ref></label></item>
@@ -14715,17 +14704,21 @@
             
             <item>Upon Mr Thorntons goeing to Spaw <label><ref>235</ref></label></item>
                 
-        <!-- TODO [index] [curlybraces] -->        
+        <!-- NOTE [index] [curlybraces] -->        
             <item>
-                A relation of Mrs Anne Danbys goeing<lb/> 
-            to Hooley &amp; several other Passages <label><ref>237</ref></label><lb/>
-            conserning her Ap. 20 1667.</item>
+              <label place="right mid"><ref>237</ref></label>  
+                <seg rend="braced(})">A relation of Mrs Anne Danbys goeing<lb/> 
+            to Hooley &amp; several other Passages <lb/>
+            conserning her Ap. 20 1667.</seg>
+            </item>
                 
-        <!-- TODO [index] [curlybraces] -->        
+        <!-- NOTE [index] [curlybraces] -->        
             <item>
-                A relation of my Sad condittion, and<lb/> 
-            the sicknesse that befell me, uppon the lieys <label><ref>246</ref></label><lb/>
-            &amp; slanders raised on me July 20<hi rend="superscript">th</hi> 1668.</item>
+               <label place="right mid"><ref>246</ref></label> 
+                <seg rend="braced(})">A relation of my Sad condittion, and<lb/> 
+            the sicknesse that befell me, uppon the lieys <lb/>
+            &amp; slanders raised on me July 20<hi rend="superscript">th</hi> 1668.</seg>
+            </item>
                 
          <!-- NOTE [index] [curlybraces] -->       
             <item>
@@ -14743,11 +14736,13 @@
                 <label place="right bottom"><ref>265</ref></label>
             </item>
                 
-         <!-- TODO [index] [curlybraces] -->       
+         <!-- NOTE [index] [curlybraces] -->       
             <item>
-                A discripsion of severall passages very<lb/> 
-            remarkable about his comforts &amp; <label><ref>274</ref></label><lb/>
-            and assurance before his decease</item>
+              <label place="right mid"><ref>274</ref></label>  
+                <seg rend="braced(})">A discripsion of severall passages very<lb/> 
+            remarkable about his comforts &amp; <lb/>
+            and assurance before his decease</seg>
+            </item>
                 
          <!-- NOTE [index] [curlybraces] -->       
             <item>
