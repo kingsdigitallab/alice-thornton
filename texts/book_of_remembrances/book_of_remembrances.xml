@@ -161,8 +161,9 @@
          
      TO DO/REVIEW:
         
-        <pb> need renumbering (will probably redo them properly as xml:id) but waiting for ST to fix transcriptions first.
+        <pb> need renumbering (will redo them properly as xml:id) but waiting for ST to fix transcriptions first.
         [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
+        once xml:id is done, I'll probably use @n to hold AWT's page numbers including putative [numbers] where she didn't number pages. 
      
         (all books, but perhaps esp this one?) for some reason I haven't used the <damage> tag at all; check use of <gap>, attribute value "damage", etc to see if there's anywhere it would be more appropriate than current choices.
         ref: https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHCOMB
@@ -436,7 +437,7 @@
          
 <!-- transcription: Page 3a-->
       
-         <div xml:id="div-003" type="poetry">
+         <div xml:id="div-003" type="poetry"><!-- NOTE not in index? -->
            
          <fw type="pageNum" place="right">3
              <!-- [endnote] Repeated page number, verso of leaf is blank.-->  
@@ -504,7 +505,7 @@
             <pb n="6"/>
 
 <!-- transcription: Page 6 -->
-      <div xml:id="div-005" type="poetry">
+      <div xml:id="div-005" type="poetry"><!-- NOTE not in index? -->
             <fw type="pageNum">6.</fw>
          <head>
             Prayer.
@@ -1086,6 +1087,7 @@
         -->
 
        <div xml:id="div-020" rend="pre(rule_short_left)">
+         <!-- NOTE not in index -->
          <p xml:id="p-0024">
          <milestone n="ev18" unit="event"/>
           we were prevented from the siege at<lb/>
@@ -1151,6 +1153,7 @@
            <!-- Q msDescription? [endnote] Dates and page number looks to be in a darker ink than what’s written on the page. Also this particular page is far ‘neater’ than the previous – lots more space between sentences and entries.-->
          </fw>
        <div xml:id="div-023">
+         <!-- NOTE not in index -->
          <p xml:id="p-0027">
          <milestone n="ev21" unit="event"/>
            <persName ref="ppl:en1" n="per48">My Cozen Edmund Norton</persName> maried<lb/>
@@ -1183,6 +1186,7 @@
          </p>
        </div>
        <div xml:id="div-026" rend="pre(rule_short_left)">
+         <!-- NOTE not in index -->
          <p xml:id="p-0030"> 
          <milestone n="ev24" unit="event"/>
            <persName ref="ppl:jn1" n="per53">My Cozen Julian Norton</persName> died at<lb/>
@@ -1192,6 +1196,7 @@
          </p>
        </div>
        <div xml:id="div-027" rend="pre(rule_short_left)">
+         <!-- NOTE not in index -->
          <p xml:id="p-0031"> 
          <milestone n="ev25" unit="event"/>
            <persName ref="ppl:jn2" n="per54">my Cozen John Norton</persName> died at <placeName ref="place:StNi_050" n="place30">S<hi rend="superscript">t</hi>:<lb/>
@@ -2013,10 +2018,11 @@
             <pb n="43"/>
 
 <!-- transcription: Page 43 -->
+       
        <!-- NOTE year 1662 -->
       <div xml:id="div-047">
          <fw>
-            <fw type="header"><date datingMethod="#JulianMar" when-custom="1661">1661</date>.<!-- NOTE [dates] OS. NB all the "1661" headings are actually NS 1662 --></fw>
+            <fw type="header"><date datingMethod="#JulianMar" when-custom="1661">1661</date>.<!-- NOTE [dates] OS. NB all the "1661" headings are actually NS 1662. so how to make that happen? --></fw>
            <!-- msDescription [endnote] Date only just above the first line.-->
 
             <fw type="pageNum">43</fw>
@@ -4296,6 +4302,7 @@
          </p>
 </div>
        <div xml:id="div-071" rend="pre(rule)">
+         <!-- NOTE not in index -->
          <p xml:id="p-0140">
         <milestone n="ev76" unit="event"/>
            The <date when-custom="1667-04-08">8<hi rend="superscript">th</hi> of Aprill</date> <persName ref="ppl:atc1" n="per250">naly</persName> had a Pearle<lb/>
@@ -4525,7 +4532,7 @@
           Baptized the <date when-custom="1667-11-12">12<hi rend="superscript">th</hi></date> at <placeName ref="place:East_019" n="place89">newton</placeName>. his<lb/>
           godfathers &amp; godmother. <persName ref="ppl:acd1" n="per268">Mrs Anne Danby</persName><lb/>
           <persName ref="ppl:jd2" n="per269">my brother John Denton</persName> &amp; <persName ref="ppl:tp1" n="per270">my brother<lb/>
-          [T]imothy<!-- Q [review] ? checked img and not quite sure why T is in brackets --> Portington</persName>.
+          [T]imothy Portington</persName>.<!-- Q [review] ? checked img and not quite sure why T is in brackets -->
         <anchor n="ev83" type="event"/>
          </p>
 </div>
@@ -6149,13 +6156,13 @@
        </div>
        
        <div xml:id="div-092" type="poetry" rend="pre(rule_short_right)">
-         
+         <!-- NOTE not in index -->
          <p xml:id="p-0172">The Just shall live by faith.</p>
          
          <lg rend="braced(})">
            <l>Nisi Christus Nemo.</l>
-            <l>Tout pour le’ Eg’lize.</l>
-             <!-- NOTE [tagging] [curlybraces] brace to the right of the lines, pointing right (at nothing)
+           <l>Tout pour le’ Eg’lize.</l>
+             <!-- NOTE [curlybraces] brace to the right of the lines, pointing right (at nothing)
                [endnote] Bracket – connecting the two foreign phrases.-->
          </lg>
          
@@ -6462,13 +6469,13 @@
      <div xml:id="div-095" type="index">
        <!-- msDescription [endnote] Ruling on page.-->
            
-       <!-- TODO [index] 
-            1. link entries to text - about half done 
-              except for what to do about entries with no div to link to...?
-            2. record alice discrepancies - this will be easiest with spreadsheet for reference
-       -->
+       <!-- NOTES [index] 
+         
+       (TODO?)  link entries to text - done where there is a div, but what about entries with no div to link to...?
+            
+       recorded alice discrepancies - for now recorded the actual (start) page number in @n in <ref>. not sure if there's a better option.
        
-       <!-- NOTE [index] [curlybraces] [phew]
+       [curlybraces] [phew]
          
          https://listserv.brown.edu/cgi-bin/wa?A2=ind2110&L=TEI-L&D=0&P=29205 
           (PS) We never found a
@@ -6511,8 +6518,9 @@
               - where top = level with the top line 
               - bottom = level with bottom line 
               - mid  = anywhere in between.
+             (labels have been moved to top or bottom of group as necessary)
            
-           but what about contexts outside lists or list-like things?
+           ** outside lists or list-like things **
            
            in the index braces are also used for *single* items that span more than one line. unlike a list there isn't an obvious tag to hold the braced lines, but I think one is needed to avoid any uncertainty about what text is braced. so i think seg will be ok here. 
  
@@ -6557,9 +6565,9 @@
          </item>
         <item corresp="#div-017">The death of the Lord Deputy W: <ref>21.</ref>
          </item>
-        <item corresp="#div-018">The deliverance from the Irish Reb. <ref>22.</ref>
+        <item corresp="#div-018">The deliverance from the Irish Reb. <ref n="21">22.</ref>
          </item>
-         <item corresp="#div-019">Her haveing the Smale Pox at Ches <ref>23.</ref>
+         <item corresp="#div-019">Her haveing the Smale Pox at Ches <ref n="22">23.</ref>
          </item>
         <item corresp="#div-021">A deliv:' from a sickenesse at Rich. <ref>23.</ref>
          </item>
@@ -6627,11 +6635,11 @@
          </item>
          <item corresp="#div-042">The birth of my first Son. 57. <ref>29</ref>
          </item>
-         <item corresp="#div-043">The Death of the Lady Wand: 59. <ref>32</ref>
+         <item corresp="#div-043">The Death of the Lady Wand: 59. <ref n="31">32</ref>
          </item>
          <item corresp="#div-044">William Thorntons birth. 60. <ref>39.</ref>
          </item>
-         <item corresp="#div-045">His Death <ref>40.</ref>
+         <item corresp="#div-045">His Death <ref n="39">40.</ref>
          </item>
          <item corresp="#div-046">meditations <ref>42.</ref>
          </item>
@@ -6657,24 +6665,24 @@
           <seg rend="braced(})">My prayers &amp; meditations <lb/>
           There upon on St <add place="above">Matth.</add> 11: 27. 28: &amp;
           </seg> 
-          <label place="right bottom"><ref>46.</ref></label>
+          <label place="right bottom"><ref n="45">46.</ref></label>
          </item>
         
-         <item corresp="#div-048"> The recovery of my healts <ref>51.</ref> </item>
+         <item corresp="#div-048"> The recovery of my healts <ref n="52">51.</ref> </item>
         
         <!-- NOTE [index] [curlybraces] grouping 2 lines -->
         <item corresp="#div-049">
           <seg rend="braced(})">Mr Thorntons preservation<lb/>
           And mine.</seg> 
-          <label place="right bottom"><ref>52.</ref></label>
+          <label place="right bottom"><ref n="53">52.</ref></label>
          </item>
         
-        <!-- Q [index] no matching div? -->
+        <!-- Q [index] no div; text begins at p.60. link to paragraph? -->
          <item>Considerations there upon <ref>60.</ref> </item>
         
         <!-- NOTE [index] [curlybraces] grouping 2 lines -->        
         <item corresp="#div-050">
-          <label place="right top"><ref>62.</ref></label>
+          <label place="right top"><ref n="61">62.</ref></label>
           <seg rend="braced(})">A deliverance from greife <lb/>
           on Nettleton Balifes comeing</seg> 
         </item>
@@ -6684,7 +6692,7 @@
           <seg rend="braced(})">A deepe apprehension of my<lb/>
           Change being with childe of my<lb/>
           Seaventh</seg>
-          <label place="right mid"><ref>66.</ref></label>
+          <label place="right mid"><ref n="67">66.</ref></label>
         </item>
         
         <!-- Q [index] no matching div? -->
@@ -6693,7 +6701,7 @@
           <seg rend="braced(})">The Sattisfaction of my Soule<lb/>
           after the receaving the H: Sacram.  <lb/>
           first at Newton by Dr Sammw</seg>
-          <label place="right mid"><ref>70.</ref></label>
+          <label place="right mid"><ref n="69">70.</ref></label>
         </item>
         
           <!-- NOTE [index] [curlybraces] grouping lines --> 
@@ -6751,15 +6759,15 @@
         <item corresp="#div-057">
           <seg rend="braced(})">The birth of Joyce Thornton<lb/> 
           And her Baptisme</seg> 
-          <label place="right bottom"><ref>90.</ref></label>
+          <label place="right bottom"><ref n="88">90.</ref></label>
          </item>
         
-        <!-- Q [index] no matching div? -->
+        <!-- Q [index] no div. text at p.90 -->
           <!-- NOTE [index] [curlybraces] lines -->
         <item>
           <seg rend="braced(})">A prayer &amp; thanksgiveing<lb/> 
           for this deliverance</seg> 
-          <label place="right bottom"><ref>91</ref></label>
+          <label place="right bottom"><ref n="90">91</ref></label>
          </item>
         
         
@@ -6769,14 +6777,14 @@
           Sickeness at Steersby &amp; <lb/>
           his Preservation from<lb/>
           death</seg>
-          <label place="right mid"><ref>92.</ref></label> 
+          <label place="right mid"><ref n="90">92.</ref></label> 
         </item>
         
           <!-- NOTE [index] [curlybraces] lines -->
         <item corresp="#div-059">
           <seg rend="braced(})">With my owne desperate weake<lb/> 
           condittion uppon greife for him</seg> 
-          <label place="right bottom"><ref>93.</ref></label>
+          <label place="right bottom"><ref n="92">93.</ref></label>
          </item>
          
             <pb n="177"/>
@@ -6785,14 +6793,14 @@
 
          <fw place="right"> page</fw>
         
-        <!-- Q [index] no matching div? -->
+        <!-- Q [index] no div. text at 93 -->
           <!-- NOTE [index] [curlybraces] -->
         <item>
           <seg rend="braced(})">
             Praires, &amp; confessions, with<lb/> 
           a returne of thanks affter   <lb/>
           our recoverys</seg> 
-        <label place="right mid"><ref>94.</ref></label>
+        <label place="right mid"><ref n="93">94.</ref></label>
         </item>
         
           <!-- NOTE [index] [curlybraces] -->
@@ -6802,8 +6810,8 @@
           <label place="right bottom"><ref>96.</ref></label>
          </item>
         
-        <!-- Q [index] no matching div? -->
-         <item>Joyce Thornton her death <ref>100.</ref>
+        <!-- Q [index] no div. text at 99. -->
+         <item>Joyce Thornton her death <ref n="99">100.</ref>
          </item>
         
           <!-- NOTE [index] [curlybraces] -->
@@ -6818,7 +6826,7 @@
         <item corresp="#div-062">
           <seg rend="braced(})">A greate deliverance from a<lb/> 
           miscariadge</seg> 
-          <label place="right bottom"><ref>103.</ref></label>
+          <label place="right bottom"><ref n="102">103.</ref></label>
          </item>
         
          <item corresp="#div-063">The great fire in London <ref>104.</ref>
@@ -6851,7 +6859,7 @@
              </item>
              <item>A meditation there on</item>
           </list>
-          <label place="right mid"><ref>107.</ref></label>
+          <label place="right mid"><ref n="106">107.</ref></label>
         </item>
          
             <pb n="178"/>
@@ -6861,7 +6869,7 @@
          <fw place="right"> page</fw>
         
         <!-- NOTE [index] [curlybraces] -->
-        <!-- NOTE these two entries are definitely the wrong way round! and pages correspondingly wrong. -->
+        <!-- NOTE these two entries are definitely the wrong way round! -->
         <item corresp="#div-069">
           <seg rend="braced(})">My daughter Alice her<lb/> 
           falling into the smale Pox</seg> 
@@ -6872,12 +6880,11 @@
         <item corresp="#div-068">
           <seg rend="braced(})">With a preservation from <lb/> 
           choaking in her Sleepe</seg>
-          <label place="right top"><ref>109.</ref></label> 
+          <label place="right top"><ref n="108">109.</ref></label> 
         </item>
         
-        <!-- TODO [index] linking text from here -->
           <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-070">
           <seg rend="braced(})">John denton fell ill of  <lb/> 
           The smale Pox</seg>
           <label place="right top"><ref>110.</ref></label>
@@ -6887,35 +6894,34 @@
           <!-- NOTE [index] [curlybraces] grouping 2 items -->
         <item>
           <list rend="braced(})">
-          <item>My daughter Kate was<lb/> 
+          <item corresp="#div-072">My daughter Kate was<lb/> 
             preserved from choaking<lb/>
             with a pin
           </item>
-           <item>And from a desperate fall</item>
+           <item corresp="#div-073">And from a desperate fall</item>
           </list>
           <label place="right mid"><ref>111.</ref></label>
         </item>
         
         <!-- NOTE [index] [curlybraces] -->
-         <item>
+         <item corresp="#div-074">
            <seg rend="braced(})">The murder of my Nephew  <lb/> 
           Mr Thomas Danby</seg>
           <label place="right top"><ref>112.</ref></label>
          </item>
         
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-075"> 
           <seg rend="braced(})">My great deliverance of  <lb/> 
           my ninth childe 1668.</seg>
-          <label place="right top"><ref>114.</ref></label>
+          <label place="right top"><ref n="113">114.</ref></label>
         </item>
         
         <!-- NOTE [index] [curlybraces] grouping 2 items -->
         <item>
           <list rend="braced(})">
-           <item>meditations there upon 
-           </item>
-           <item>And nalys illnesse that night</item>
+           <item corresp="#div-076">meditations there upon </item><!-- NOTE this is actually p.114. but page is correct for Naly item. ffs alice.  -->
+           <item corresp="#div-077">And nalys illnesse that night</item>
           </list>
           <label place="right mid"><ref>115.</ref></label>
         </item>
@@ -6923,11 +6929,11 @@
           <!-- NOTE [index] [curlybraces] grouping 3 items -->
         <item>
         <list rend="braced(})">
-          <item>Christopher Thornton baptized</item> 
-          <item>His death </item>
+          <item corresp="#div-078">Christopher Thornton baptized</item> 
+          <item corresp="#div-079">His death </item>
           <item>meditations theron</item>
          </list>
-          <label place="right mid"><ref>117.</ref></label>
+          <label place="right mid"><ref n="116">117.</ref></label>
         </item>
             <pb n="179"/>
 
@@ -6936,17 +6942,17 @@
          <fw place="right" rend="underline">page</fw>
         
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-080">
           <seg rend="braced(})">My weakeness uppon the death <lb/> 
           of my childe</seg> 
           <label place="right bottom"><ref>118</ref></label>
          </item>
         
-         <item>Uppon Mr Thorntons illness <label><ref>119.</ref></label>
+         <item corresp="#div-081">Uppon Mr Thorntons illness <label><ref>119.</ref></label>
          </item>
         
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-082">
           <seg rend="braced(})">My sad condition on the <lb/> 
           occassion of a Slander</seg>
         <label place="right top"><ref>120.</ref></label> 
@@ -6954,15 +6960,15 @@
         
         <!-- NOTE [index] [curlybraces] -->
             <!-- [endnote] Looks like a long s written over a b.-->
-         <item>
+         <item><!-- NOTE no div. text at p.123. -->
            <seg rend="braced(})">observations
            theron. with praiers<lb/> 
            &amp; meditations</seg> 
-           <label place="right bottom"><ref>122.</ref></label>
+           <label place="right bottom"><ref n="123">122.</ref></label>
          </item>
         
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-083">
           <seg rend="braced(})"> A deliverance of my Sonne  <lb/> 
           Robert Thornton</seg>
         <label place="right top"><ref>128.</ref></label>
@@ -6972,7 +6978,7 @@
          </item>
         
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-084">
           <seg rend="braced(})">My second relapse by greife<lb/> 
           when my Aunt Norton was at<lb/>
           Newton about the malice of <lb/>
@@ -6988,7 +6994,9 @@
         </item>
         
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <!-- NOTE from here detailed indexing which is only partially reflected in div on page. 
+          I'm not always perfectly sure about the page @n, except that it can't be where she says it is... -->
+        <item corresp="#div-085">
           <seg rend="braced(})">A description of Mr Thorntons<lb/> 
           falling ill at Malton, &amp; in <lb/>
           how weake a condition I<lb/>
@@ -7006,7 +7014,7 @@
         <item>
           <seg rend="braced(})">My hopes of his recovery<lb/> 
           from Dr witties incouragement </seg>
-          <label place="right bottom"><ref>138.</ref></label>
+          <label place="right bottom"><ref n="137">138.</ref></label>
          </item>
         
         <!-- NOTE [index] [curlybraces] -->
@@ -7014,40 +7022,40 @@
           <seg rend="braced(})">Of the contineuance of my<lb/> 
           deare Husbands weaknesse <lb/>
           notwithstanding all helpe</seg>
-          <label place="right mid"><ref>139</ref></label> 
+          <label place="right mid"><ref n="137">139</ref></label> 
         </item>
         
         <!-- NOTE [index] [curlybraces] -->
         <item>
           <seg rend="braced(})">The death of my deare &amp; <lb/> 
           Honoured Husband</seg>
-          <label place="right top"><ref>140.</ref></label> 
+          <label place="right top"><ref n="138">140.</ref></label> 
          </item>
         
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-086">
           <seg rend="braced(})">My exceeding Sorrow &amp;<lb/> 
           weake estate of Bodie &amp; <lb/>
           Spiritt uppon his death</seg> 
-          <label place="right mid"><ref>141.</ref></label>  
+          <label place="right mid"><ref n="138">141.</ref></label>  
         </item>
         
         <!-- NOTE [index] [curlybraces] -->
          <item>
            <seg rend="braced(})">My sad &amp; bitter complaints<lb/>
            meditations</seg> 
-           <label place="right bottom"><ref>143.</ref></label> 
+           <label place="right bottom"><ref n="141">143.</ref></label> 
          </item>
         
         <!-- NOTE [index] [curlybraces] -->
         <item>
           <seg rend="braced(})">Prayers; &amp; Pettions uppon <lb/> 
           This most sad dispensation</seg>
-          <label place="right top"><ref>145.</ref></label> 
+          <label place="right top"><ref n="143">145.</ref></label> 
          </item>
         
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-087">
           <seg rend="braced(})">A discourse of Mr Thorntons<lb/> 
           comfortable expressions to Mr <lb/>
           Sinkler before his last Illness</seg>
@@ -7068,33 +7076,33 @@
           <label place="right mid"><ref>150.</ref></label> 
         </item>
         
-         <item>Of his Buriall <label><ref>152.</ref></label> </item>
+         <item corresp="#div-088">Of his Buriall <label><ref n="151">152.</ref></label> </item>
         
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-089">
           <seg rend="braced(})">Uppon the feares of Death<lb/> 
           in verse. A.T.</seg> 
           <label place="right bottom"><ref>154.</ref></label>
          </item>
         
         <!-- NOTE [index] [curlybraces] -->
-         <item>
+         <item corresp="#div-090">
            <seg rend="braced(})">An Inducement to Love <lb/>
            Heaven in verse. A. T.</seg>
          <label place="right top"><ref>155.</ref></label>   
          </item>
         
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-091">
           <seg rend="braced(})">A faire well to the Pleasures <lb/> 
           of the world in verse</seg> 
           <label place="right top"><ref>157.</ref></label> 
          </item>
         
-         <item>My Soules wish for God <label><ref>160.</ref></label> </item>
+         <item corresp="#div-093">My Soules wish for God <label><ref>160.</ref></label> </item>
          
         <!-- NOTE [index] [curlybraces] -->
-        <item>
+        <item corresp="#div-094">
           <seg rend="braced(})">A Widdowes Prayer and <lb/> 
           Pettitions to God</seg>
           <label place="right top"><ref>163.</ref></label>
