@@ -401,7 +401,7 @@
         <l>And make me ever chuse what <add place="above">you</add> Seest best</l>
         <l>Lord lead me by thy <add place="above">hand</add> into thy Rest.</l>
         
-        <p xml:id="p-0004"><seg rend="align(centre)">Amen.</seg></p><!-- NOTE [formatting] this Amen is centred ?and possibly slightly larger text? but the whole page is large text. -->
+        <p xml:id="p-0004"><seg rend="place(centre)">Amen.</seg></p><!-- NOTE [formatting] this Amen is centred ?and possibly slightly larger text? but the whole page is large text. -->
 
         </div>
 
@@ -526,7 +526,7 @@
              up in my soule, to an Eternity of Haleluias, of praise <lb/>
              &amp; thankesgiveings to the Blessed Trinitie forever.</p>
         
-        <p xml:id="p-0015" rend="align(centre)">Amen. Amen.</p>                
+        <p xml:id="p-0015" rend="place(centre)">Amen. Amen.</p>                
         <!-- Q [review] team discussion - my reading agreed i think, but make final checks against transcription in autumn.
             esp. "Amen Amen" - it clearly belongs to this section but visually is right in the middle of the insertion, which is written around it. To make things even worse, this is <front> but the insertion is <body>... 
             and "1629" was in the middle of the word 'deliverance' next paragraph
@@ -628,7 +628,7 @@
         <div xml:id="div-011">
             <head rend="post(rule)" place="right">
                 <seg rend="underline">London</seg>
-                <seg rend="underline align(centre)"><date type="religion" when-custom="1631">1631</date>.</seg>
+                <seg rend="underline place(centre)"><date type="religion" when-custom="1631">1631</date>.</seg>
                 <!-- NOTE [decoration] bearing in mind we might not display the alignment anyway... have added it to rend because @place isn't allowed in seg. London is left-aligned. -->
                 <lb/>
                 The first dawning of Gods Spirit in my heart.<!-- NOTE [tagging] [layout] this is actually right aligned -->
@@ -2240,7 +2240,7 @@
                  the Blessed &amp; glorrious Trinity with delight, &amp; joy for<lb/>
                  ever. And these most humble Pettions I crave for the<lb/>
                  Lord Jesus Christs sake my deare Saviour.</p>
-            <p xml:id="p-0143" rend="align(centre)">Amen. Amen.</p>
+            <p xml:id="p-0143" rend="place(centre)">Amen. Amen.</p>
 
 </div>
             <pb xml:id="page-054" n="54"/>
@@ -5018,7 +5018,7 @@
             Our wants &amp; infirmities therefore in his name &amp; word<lb/>
                  I humbly conclude these prayers as he has taught me<lb/>
                  in his holy Gospell to call upon thee Saing:</p>
-            <p xml:id="p-0290" rend="align(centre) size(larger)">Our father which art in Heaven.
+            <p xml:id="p-0290" rend="place(centre) size(larger)">Our father which art in Heaven.
                 <lb/>
                  Amen. Soe be it:
                     <!-- [endnote] [text size] ‘Our father ...’in larger script.--> 
@@ -13204,19 +13204,20 @@
             <p xml:id="p-0780"> The Just shall live by faith. <milestone unit="marker" rend="tbd-//"/></p>
             <p xml:id="p-0781"><persName ref="ppl:wt1" n="per1299">Mr Thornton</persName>s motto &amp; my owne.</p>
             <p xml:id="p-0782">
-           <!-- Q [curlybraces] [review]? 
-               I've changed the order of the text as transcribed 
-           am i going to have to do a fkg table here? maybe this is workable?
+           <!-- Q [curlybraces] 
+               [review]? I've changed the order of the text as transcribed 
+           am i going to have to do a fkg table here? but maybe this is workable? 
+           could use style instead of rend and do floats. or make a float(..) keyword?
            -->
-        <!-- NOTE the three <seg>s are arranged horizontally across the page. -->
-        <seg rend="left braced(})">
+        <!-- NOTE the three <seg>s are arranged horizontally across the page.  -->
+        <seg rend="place(left) braced(})">
           Nisi Christus Nemo:<lb/>
           Tour pour le' Eglize:</seg>
-                        <seg rend="centre braced(})">
+                        <seg rend="place(centre) braced(})">
                             None but Christ.<lb/>
                             All for the Church</seg>
-                                        <seg rend="right mid">God</seg>
-                <!-- [endnote] [layout] NB. Brackets here, link the two phrases. 
+                                        <seg rend="place(right_mid)">God</seg>
+                <!-- [endnote] NB. Brackets here, link the two phrases. 
                      [layout] NB. Here, AT clearly uses curly brackets to connect the two phrases and ‘God’ is positioned midway between the two.-->
                 
                 </p>
@@ -14828,7 +14829,7 @@
            <lb/>
              on Easter Eve</date> - before <persName ref="ppl:gw1" n="per1394">my bro. G</persName> was lost<lb/>
            <!-- NOTE [decoration] year inset into ruled line and centred. *just* below 'on Easter Eve...' line. -->
-            <seg rend="align(centre)">1651</seg>
+            <seg rend="place(centre)">1651</seg>
             </head>
             <p xml:id="p-0822">
                 <milestone n="ev233" unit="event"/>
