@@ -165,12 +165,9 @@
         [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
         once xml:id is done, I'll probably use @n to hold AWT's page numbers including putative [numbers] where she didn't number pages. 
      
-        (all books, but perhaps esp this one?) for some reason I haven't used the <damage> tag at all; check use of <gap>, attribute value "damage", etc to see if there's anywhere it would be more appropriate than current choices.
-        ref: https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHCOMB
-     
-        abbrev/contraction work - needs to be fixed in the transcription first
-        - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as ex? still reading up on this one! 
-        - will ST want them differentiated from {contractions} ?
+        abbrev/contraction issues 
+        - needs to be fixed in the transcription first
+        - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as ex? hmm.
         - NB diff between number<sup> (majority of hi/sup) and word<sup>...
         
         seg @rend=underline (all books)
@@ -448,7 +445,7 @@
          <l>Curbe my Stoute affections:</l>
          <l>Nip thou the bud,</l>
          <l>Before the bloome beginnes</l>
-         <l>Lord <add place="above" cert="low">the one</add> <unclear>ver</unclear><!-- **this has changed in the final version and not looking any easier lol** [endnote] Even in the original this is very difficult to read.-->
+         <l>Lord <add place="above" cert="low">the one</add> <unclear>ver</unclear><!-- Q [review] **this has changed in the final version and not looking any easier lol** [endnote] Even in the original this is very difficult to read.-->
           keepe me, from</l>
          <l>Presumptuous sinnes:</l>
          <l>Lord lead me by thy hand into thy rest</l>
@@ -1301,8 +1298,8 @@
            <persName ref="ppl:atc1" n="per69">Alice Thornton</persName> my Second Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place41">Hipswell</placeName> the <date datingMethod="#JulianMar" when-custom="1653-01-03">3<hi rend="superscript">d</hi> of Janeuary<lb/>
          <fw xml:id="mnote-0004" place="left margin" rend="underline">1653</fw></date>
-           <gap xml:id="ex-gap-word-01" reason="damage deleted" quantity="2" unit="word"/>
-           <!-- [endnote] Some crossings out her but also looks like the paper is damaged in some way. Check original. This looks like it said 1653 – or 2? - but scratched out; A born 1654 in modern dating but makes more sense that the marginal dates are the corrections. This one has made a hole in the page visible on p.26.-->
+           <damage><gap xml:id="ex-gap-word-01" reason="damage deleted" quantity="2" unit="word"/></damage>
+           <!-- Q not sure about "agent" of damage here. (and on the next page) has the damage been *caused by* the deletion or is it independent of it? [endnote] Some crossings out her but also looks like the paper is damaged in some way. Check original. This looks like it said 1653 – or 2? - but scratched out; A born 1654 in modern dating but makes more sense that the marginal dates are the corrections. This one has made a hole in the page visible on p.26.-->
                   
           and Babtized the <date datingMethod="#JulianMar" when-custom="1653-01-04"><add place="superimposed">4</add><hi rend="superscript">th</hi> of the same</date>.
            <!-- TODO [add] needs subst/del/gap added. I think the original text is not readable - heavily written over. -->
@@ -1330,7 +1327,7 @@
                        This is also a scratched out date; poss 1653-->
          <!-- NOTE [dates] OS - date of Elizabeth's birth=1655-->
                   
-           <gap reason="damage deleted" quantity="1" unit="word"/> being Wednesday. halfe houer<lb/>
+           <damage><gap reason="damage deleted" quantity="1" unit="word"/></damage> being Wednesday. halfe houer<lb/>
            affter i<subst><del rend="overwritten" cert="low">2</del><add place="superimposed">i</add></subst>
          a clock in the forenoon, and<lb/>
          
@@ -2461,12 +2458,15 @@
 
 <!-- transcription: Page 55 -->
 
-        <gap reason="damage" agent="cut" quantity="4" unit="line" xml:id="ex-gap-lines-cut"/>
+       <p xml:id="p-0076">
+        <damage agent="cut"> 
+         <!-- [endnote] The top quarter of the page has been cut away, removing four complete lines and the second half of the fifth.-->
+          <!-- Q [review] atm this is encoded as 4 completely missing lines but in fact there are some visible letters at the beginning of each line. -->
+        <gap reason="damage" quantity="4" unit="line" xml:id="ex-gap-lines-cut"/>
             
-         <!-- msDescription [endnote] The top quarter of the page has been cut away, removing four complete lines and the second half of the fifth.-->
 
-         <p xml:id="p-0076">
-          which he was pleased to <gap reason="damage" agent="cut" quantity="4" unit="word"/><lb/>
+          which he was pleased to <gap reason="damage" quantity="4" unit="word"/><lb/>
+        </damage>
           ill manner from me. &amp; fell very muche<lb/>
           offended. so that I was much troubled<lb/>
           as his displeasure in that kind &amp; could<lb/>
@@ -2488,9 +2488,11 @@
 
 <!-- transcription: Page 56 -->
 
-         <gap xml:id="ex-gap-line-cut-01" reason="damage" agent="cut" quantity="5" unit="line"/>
-           
          <p xml:id="p-0077">
+         <damage agent="cut">  
+           <!-- Q [review] again there are actually some visible letters at the end of each line. -->
+         <gap xml:id="ex-gap-line-cut-01" reason="damage" quantity="5" unit="line"/>
+          </damage> 
           his feete beeing bigg with childe &amp; in<lb/>
           a very sad condition for this accident<lb/>
           &amp; holding him fast, Intreated him<lb/>
@@ -3064,7 +3066,7 @@
           power it was alone to give us helpe<lb/>
           &amp; assistance, both as to the inabling us to<lb/>
           pay off his Just debts as allso to give me<lb/>
-           a sattisfaction in the settlemēt<!-- Q [review] [contraction] --> of <persName ref="ppl:wt1" n="per184">Mr Th</persName>: E<unclear>ik</unclear>d<!-- [endnote] Still not sure after checking MS. -->
+           a sattisfaction in the settlemēt<!-- Q [review] [contraction] --> of <persName ref="ppl:wt1" n="per184">Mr Th</persName>: E<unclear>ik</unclear>d<!-- [review]? [endnote] Still not sure after checking MS. -->
             <lb/>
           upon my Ch: 
              <!-- [endnote] Line through top of Ch.-->
@@ -5032,7 +5034,7 @@
         in his preservation &amp; delivrance upon that<lb/>
         day. for his sister <persName ref="ppl:ktp1" n="per304">Kate</persName> &amp; <persName ref="ppl:wd1" n="per305">cosen willy<lb/>
           Denton</persName> <del xml:id="ex-del-double-09" rend="doublestrikethrough">was</del> and himselfe was playing<lb/>
-           in the Hay Laith at <placeName ref="place:East_019" n="place94">newton</placeName> upon the <unclear>mowe</unclear><!-- [endnote] Found this difficult to read even in the original. --> <lb/>
+           in the Hay Laith at <placeName ref="place:East_019" n="place94">newton</placeName> upon the <unclear>mowe</unclear><!-- [review]? [endnote] Found this difficult to read even in the original. --> <lb/>
           and standing in the window about 4 yerds<lb/>
           high from the Earth. he fell out if it into<lb/>
           the laine .&amp; was very neare with his head<lb/>
@@ -7298,7 +7300,7 @@
            tould my Aunt I have had the strangest drea<add place="above">m</add> <lb/>
           that evr I had. I dreamd that A man came in<lb/>
           to the Roome. with all Things for mournings<lb/>
-           &amp; laid them on the ground. <unclear>[Sir?] B [M/W?]</unclear><!-- Q [review] reading of text. ST doesn't know either! --> habitts<lb/>
+           &amp; laid them on the ground. <unclear>[Sir?] B [M/W?]</unclear><!-- Q [review] decision on this? (it's a hard one...) --> habitts<lb/>
           as sleeces &amp;. I said she asked what that meant<lb/>
           The man that brought the mournings. said That<lb/>
           when such things apeard in a Child wifs<lb/>
@@ -7338,7 +7340,7 @@
           me weepe soe sore. I answrd it was for him. why sad<lb/>
           he sister doest thou wepe for me. I said becaise he<lb/>
           was soe ventrous to goe ovr that dangerous Rivr<lb/>
-          <supplied reason="damage">S</supplied>wale &amp; that I feard he might be lost in it. And<lb/>
+          <damage agent="tear"><supplied reason="damage">S</supplied></damage>wale &amp; that I feard he might be lost in it. And<lb/>
           begged of him for Gods sake that he would <add place="above">not</add> presume to<lb/>
           goe soe when it was high for I feard him much that<lb/>
           a flood should destroy him. for I had had a dreadfull<lb/>
@@ -7372,7 +7374,7 @@
           each to othrs &amp; did both receave very Reverently<lb/>
           on <date when-custom="1651-03-30">Easter day</date> in <placeName ref="place:Hips_023" n="place105">Hipswell Chapell</placeName> with <rs ref="ppl:aow1" n="per381" type="person">my D. mothr</rs><lb/>
            &amp; my selfe.<milestone unit="marker" rend="diagonal"/> But in the Affter noone my brothr<lb/>
-          <persName ref="ppl:gw1" n="per382">G: W:</persName> did goe to see <persName ref="ppl:hd1" n="per383">Mr Henry Darcy</persName>. and find<supplied reason="damage">ing</supplied>
+          <persName ref="ppl:gw1" n="per382">G: W:</persName> did goe to see <persName ref="ppl:hd1" n="per383">Mr Henry Darcy</persName>. and find<damage agent="tear"><supplied reason="damage">ing</supplied></damage>
             <lb/>
            him not at home, entertand him selfe with <persName ref="ppl:dbd1" n="per384">old mot<hi rend="superscript">–<!-- Q [review] [contraction] --></hi><lb/> 
              Darcy</persName>. &amp; he tooke a Bible and read a chapter to he[r]<!-- Q [review] check ms - might be readable? --><lb/>
@@ -7435,7 +7437,7 @@
           write. she said that I was soe grevely ill she could<lb/>
           not leave me but doe it affterwards. Soe he did<lb/>
           Againe kneele down and aske blessng. she said<lb/>
-           son you asked blesing but a <unclear>Nothre</unclear><!-- Q [review] check ms --> you came in<lb/>
+           son you asked blesing but a <unclear>Nothre</unclear><!-- Q [review] check --> you came in<lb/>
           he said that he could not have to much of her pras<lb/>
           for him &amp; soe Reverently bid her good morrow<lb/>
           &amp; me fairewell. And tooke horrse to goe to <placeName ref="place:Rich_043" n="place107">Rich<lb break="no"/>
