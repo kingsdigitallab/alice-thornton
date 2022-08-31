@@ -6472,12 +6472,13 @@
        <!-- msDescription [endnote] Ruling on page.-->
            
        <!-- NOTES [index] 
-         you haven't done label for all the refs...?
-         what about place for labels?
+         Q? what about place for labels?
          
        (TODO?)  link entries to text - done where there is a div, but what about entries with no div to link to...?
             
-       recorded alice discrepancies - for now recorded the actual (start) page number in @n in <ref>. not sure if there's a better option. nb the alice number rather than the transcriber number.
+       recorded alice discrepancies 
+       - for now recorded the actual (start) page number in @n in <ref>. not sure if there's a better option. nb the alice number rather than the transcriber number.
+       - one or two braced groups where one item has correct page ref and another doesn't, ffs alice. for these, added empty <ref> and n.
        
        [curlybraces] [phew]
          
@@ -6577,7 +6578,7 @@
          </item>
          <item corresp="#div-022">The Lady Danby died. 1645 <label><ref>23.</ref></label>
          </item>
-        <!-- NOTE [index] [curlybraces] grouping 3 items. -->
+        <!-- NOTE [index] [curlybraces] grouping 3 items. all on same page. -->
          <item>
            <list rend="braced(})">
              <item corresp="#div-024">Mr Edmund Norton died. 1648 </item>
@@ -6924,7 +6925,7 @@
         <!-- NOTE [index] [curlybraces] grouping 2 items -->
         <item>
           <list rend="braced(})">
-           <item corresp="#div-076">meditations there upon </item><!-- NOTE this is actually p.114. but page is correct for Naly item. ffs alice.  -->
+           <item corresp="#div-076">meditations there upon <ref n="114"/></item><!-- NOTE this item is actually p.114. but page is correct for 2nd item. ffs alice.  -->
            <item corresp="#div-077">And nalys illnesse that night</item>
           </list>
           <label place="right mid"><ref>115.</ref></label>
@@ -6999,7 +7000,7 @@
         
         <!-- NOTE [index] [curlybraces] -->
         <!-- NOTE from here detailed indexing which is only partially reflected in div on page. 
-          I'm not always perfectly sure about the page @n, except that it can't be where she says it is... -->
+          I'm not always perfectly sure about the page @n where I've added it, except that it can't be where she says it is... -->
         <item corresp="#div-085">
           <seg rend="braced(})">A description of Mr Thorntons<lb/> 
           falling ill at Malton, &amp; in <lb/>
