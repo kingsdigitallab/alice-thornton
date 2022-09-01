@@ -644,9 +644,26 @@
                 <!-- Q [teams] [review] transcriber query (bib conventions). check in autumn review --> v. 4<hi rend="superscript">th</hi>
             </p>
                 <anchor n="ev5" type="event"/>
-        <!-- NOTE [bib] biblical example <quote> tag using @source attribute for bible citation. (because @source is used here it's not necessary to mark up "Psal. 147" in text, but if you want to do it anyway, use <ref>)
-            @source format: Bookname_chapnum / Bookname_chapnum_versenum. use hyphens, commas if a list. (spaces are allowed)
-            @type - I think might have started list of quote types (direct, paraphrase etc) in teams doc. -->
+        <!-- NOTE [bib] biblical example <quote> tag using @source attribute for bible citation. (because @source is used here it's not necessary to mark up "Psal. 147" in text, but could use <ref>)
+            @source format maybe: Bookname_chapnum / Bookname_chapnum_versenum. use hyphens, commas if a list. (spaces are allowed)
+            @type - might have started list of quote types (direct, paraphrase etc) in teams doc.
+      feels like this needs *two* types: 
+        direct = type of quote; biblical = bibliographical type. 
+        type and subtype seems wrong, because they're not hierarchical.
+        If the only thing we use <quote> for is biblical it's not a problem...
+      lol it's not just me
+      https://listserv.brown.edu/cgi-bin/wa?A2=TEI-L;3bb8e06f.2208
+      https://listserv.brown.edu/cgi-bin/wa?A2=TEI-L;243f44a4.2208
+      maybe @ana ? 
+      https://listserv.brown.edu/cgi-bin/wa?A2=TEI-L;3760dfd5.2208
+      > I would usually create private URI schemes for different 
+classes of values, so you can have any combination of classifications 
+you like and easily distinguish between them:
+ana="vf:middle vf:passive"
+using a prefixDef element to provide a method of resolving the URIs to 
+point to <category> elements or to feature structure components.
+
+        -->
             <p xml:id="p-0024"><quote type="direct" source="#Psalms_147">He counteth the starres &amp; calleth them all by theire<lb/>
                  Names.</quote>
                  <milestone unit="marker" rend="diagonal" xml:id="ex-milestone-slash-within-para"/> From whence there came into my heart<lb/>
@@ -9503,8 +9520,11 @@
                  Covenant: Amen.
                 <add place="inline">looke meditations on 1. Sam. 1<hi rend="superscript">t</hi> 10. 11.
                 <del rend="strikethrough">12</del> 13<hi rend="superscript">v</hi>.<lb/>
-                 in <ref type="atb">my booke</ref><!-- Q [bib] use canonical reference for the 4 atb books...?  cRef="atb:bookRem" except it's not at all clear taht this ref is bookRem anyway.
+                 in <ref type="atb">my booke</ref><!-- Q [bib] use canonical reference for the 4 atb books...?  
+              possible construction: atb:{book}:{locationID}
+              cRef="atb:R:??" but it's not at all clear taht this ref is bookRem, so i've taken it out for now.
                >  cRef	(canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a refsDecl element in the TEI header 
+               maybe it's too early in the morning to read this though :-S https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SACR
                  --> on Purpose. made on that occasion.
                 <note place="end">
                     <p rend="Endnote Text"> [insertion] Is this an insertion? It is squeesed in. Also, I’m not seeing meditations on 1 Samuel listed in BoR. Also checked BoR entry on Robert’s birth and baptiosm and there are prayers but nothing that looks like a specific meditation on 1 Samuel. Check Book 2 263-71.</p>
