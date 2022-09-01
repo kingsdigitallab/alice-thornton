@@ -9520,7 +9520,7 @@ point to <category> elements or to feature structure components.
                  Covenant: Amen.
                 <add place="inline">looke meditations on 1. Sam. 1<hi rend="superscript">t</hi> 10. 11.
                 <del rend="strikethrough">12</del> 13<hi rend="superscript">v</hi>.<lb/>
-                 in <ref type="atb">my booke</ref><!-- Q [bib] use canonical reference for the 4 atb books...?  
+                 in <ref type="atb" cRef="atb:tbd">my booke</ref><!-- Q [bib] use canonical reference for the 4 atb books...?  
               possible construction: atb:{book}:{locationID}
               cRef="atb:R:??" but it's not at all clear taht this ref is bookRem, so i've taken it out for now.
                >  cRef	(canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a refsDecl element in the TEI header 
@@ -10064,7 +10064,7 @@ point to <category> elements or to feature structure components.
                  To whom all Power might, majestie, thanksgiveing &amp;<lb/>
                  praise be offred by all creatures in Heaven &amp; Earth.</p>
             <p xml:id="p-0610">Amen. Amen:</p>
-            <p xml:id="p-0611">In <ref type="atb">my booke of medittations</ref>, there is a discourse upon this deliv.<lb/>
+            <p xml:id="p-0611">In <ref type="atb" cRef="atb:tbd">my booke of medittations</ref>, there is a discourse upon this deliv.<lb/>
                  upon those words in St Matt. 9<seg rend="background(green)">:</seg> v. 21, 22. Luke. the 17<seg rend="background(green)">:</seg><!-- Q [review] --> v. 15. 16.</p>
           </div>
         
@@ -11693,7 +11693,7 @@ point to <category> elements or to feature structure components.
                  out a way to have righted my selfe long before I came to<lb/>
                  the knowledge of being wronged.</p>
             <p xml:id="p-0695">But yet even this perticuler passage of revealing those<lb/>
-                lies to my Brother. wee had too much cause <add place="above">to thinke them</add> to have bin don<lb/>
+                lies to <rs type="person">my Brother</rs>. wee had too much cause <add place="above">to thinke them</add> to have bin don<lb/>
                  out of Polocie against me; &amp; insinuation to him. <add place="above">It</add> did by<lb/>
                  the mercy of God prove a greater Argument, of my wrong<lb/>
                  and abuses; to him who had bin a dailie wittnese of my<lb/>
@@ -13952,9 +13952,10 @@ point to <category> elements or to feature structure components.
                     <p rend="Endnote Text"> [word] I.e., ‘att’ – no tht eonly time she’s forgotten to cross her t’s.</p>
                 </note> last by the Providence of the great God of heven this<lb/>
                  said will was discovd &amp; producd in the yeare <date when-custom="1653">1653</date> which did<lb/>
-                 put an end of all the Troubles: This is fully related in <ref type="atb" cRef="atb:2">my 2<hi rend="superscript">d</hi> Booke</ref> <note place="end">
-                    <p rend="Endnote Text"> [bib] Ref. to ‘second booke’.</p>
-                </note>
+                 put an end of all the Troubles: This is fully related in <ref type="atb" cRef="atb:2:div-017 atb:2:div-012">my 2<hi rend="superscript">d</hi> Booke</ref> 
+       <!-- [endnote] Ref. to ‘second booke’.
+       Q yes there are two sections about her father's will in book 2: i think she might mean div-017 but not sure, so listed both. -->
+                
             </p>
             <anchor n="ev222" type="event"/>
         </div>
@@ -14922,7 +14923,8 @@ point to <category> elements or to feature structure components.
           <fw place="top left margin">
               <persName type="monogram">[ATW]</persName> [S]<lb/>
               [S] <!-- Q [S] = slashed S, similar to $, possibly unicode U+A7A8. 
-                  though closer to https://commons.wikimedia.org/wiki/File:Latin_letter_S_with_diagonal_stroke.svg -->
+                  though closer to https://commons.wikimedia.org/wiki/File:Latin_letter_S_with_diagonal_stroke.svg
+              than it is to the std unicode. -->
               <note place="end">
                     <p rend="Endnote Text"> [word] Monogram? Scribble? Slashed S – cf Wroth?</p>
                 </note>
