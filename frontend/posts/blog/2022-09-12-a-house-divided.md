@@ -19,7 +19,8 @@ The name Charles was also the source of discussion in Yorkshire, in 1660.
 ‘...should be called Charles’
 -----
 
-![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.](/assets/img/posts/st_nicholas.jpg "St. Nicholas, Richmond. c. Suzanne Trill, June 2022.")
+
+![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]( {{ "/assets/img/posts/st_nicholas.jpg" | url }} "St. Nicholas, Richmond. c. Suzanne Trill, June 2022."){.media-center}
 
 In spring 1660, a pregnant Alice Thornton and her family had a heated discussion about whether the child she was carrying, if a boy, might be called Charles. Alice was staying at her Aunt Norton’s house, St Nicholas, Richmond. At this date, Alice had only two living children, both daughters. It was Aunt Norton who suggested the name:
 
@@ -30,7 +31,7 @@ Alice relates this incident in two of her books. In *Book 2: The First Book of M
 The Restoration
 -----
 
-![Men and women line the walls of a large, lavish ballroom filled with decoration and chandeliers. A man - Charles II - stands in the middle of the room, he is dressed in black and has a tall black hat and long black hair, with pointy black shoes.](/assets/img/posts/Ball_given_to_Charles_II_at_the_Hague_on_his_departure_to_England.jpg "Hieronymos Janssens, Ball given to Charles II at the Hague on his departure to England (1660). Public domain, via Wikimedia Commons.")
+![Men and women line the walls of a large, lavish ballroom filled with decoration and chandeliers. A man - Charles II - stands in the middle of the room, he is dressed in black and has a tall black hat and long black hair, with pointy black shoes.]( {{ "/assets/img/posts/Ball_given_to_Charles_II_at_the_Hague_on_his_departure_to_England.jpg" | url}} "Hieronymos Janssens, Ball given to Charles II at the Hague on his departure to England (1660). Public domain, via Wikimedia Commons."){.media-center}
 
 In both accounts of Aunt Norton suggesting the name Charles, Alice makes the explicit connection with the Restoration of the monarchy. From reading Alice’s books, one might be forgiven for thinking that Charles II had already been proclaimed king when the conversation took place:
 
@@ -43,7 +44,7 @@ Different Allegiances
 
 Alice and Aunt Norton were from a royalist family, the Wandesfords, and their enthusiasm for the king was to be expected.[^5] When Alice’s sister, Katherine Danby, gave birth to her eighth child in June 1643, ‘in the heat of the wars … my brother[in-law] would have him called Charles, because of his engagement for the King’s service’.[^6] However, William Thornton had parliamentarian family connections. Indeed, this is one of the reasons William was suggested as a husband for Alice in 1651. The Wandesford family estates at Kirklington had been sequestered during the civil war and help was needed to get them back.
 
-![A man - Oliver Cromwell, wearing a hat with a plume and looking at the artist - sits on a large brown prancing horse and rides past a riverbank.](/assets/img/posts/BCN_CROM_L62-001.jpg "Oliver Cromwell on Horseback. British (English) School (c. 1655). Cromwell Museum, licensed under Creative Commons.")
+![A man - Oliver Cromwell, wearing a hat with a plume and looking at the artist - sits on a large brown prancing horse and rides past a riverbank.]({{ "/assets/img/posts/BCN_CROM_L62-001.jpg" | url }} "Oliver Cromwell on Horseback. British (English) School (c. 1655). Cromwell Museum, licensed under Creative Commons."){.media-left}
 
 Even after King Charles II had been proclaimed, not everyone accepted the restoration of the monarchy. Tim Harris’s book, Restoration: Charles II and his Kingdoms, 1660-1685, opens with the celebrations on 29 May 1660 when Charles II made a triumphant entry into London to reclaim the throne of the three kingdoms. However, Harris also noted that, ‘Although rejoicing at the return of the monarchy was widespread, it was not universal’.[^7] Some were prosecuted in court for seditious speech for their outbursts. For example, Margaret Dixon of Newcastle was accused of having said on 13 May 1660:
 
