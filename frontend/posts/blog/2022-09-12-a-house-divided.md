@@ -19,9 +19,9 @@ The name Charles was also the source of discussion in Yorkshire, in 1660.
 ‘...should be called Charles’
 -----
 
-![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]( {{ "/assets/img/posts/st_nicholas.jpg" | url }} "St. Nicholas, Richmond. c. Suzanne Trill, June 2022."){.media-left}
-
 In spring 1660, a pregnant Alice Thornton and her family had a heated discussion about whether the child she was carrying, if a boy, might be called Charles. Alice was staying at her Aunt Norton’s house, St Nicholas, Richmond. At this date, Alice had only two living children, both daughters. It was Aunt Norton who suggested the name:
+
+![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]( {{ "/assets/img/posts/st_nicholas.jpg" | url }} "St. Nicholas, Richmond. c. Suzanne Trill, June 2022."){.media-left}
 
 >‘my dear Aunt Norton told Mr Thornton and myself, that if I had a son, he would bring his name with him into the world and should be called Charles. But my husband answered again that it should not. After which, being in private with him, I desired to know what was the reason he would not have him called Charles if I had a son. He presently answered, if I would have him so called, he should never heir [inherit] a foot of his estate.’[^2]
 
@@ -30,7 +30,7 @@ Alice relates this incident in two of her books. In *Book 2: The First Book of M
 The Restoration
 -----
 
-![Men and women line the walls of a large, lavish ballroom filled with decoration and chandeliers. A man - Charles II - stands in the middle of the room, he is dressed in black and has a tall black hat and long black hair, with pointy black shoes.]( {{ "/assets/img/posts/Ball_given_to_Charles_II_at_the_Hague_on_his_departure_to_England.jpg" | url}} "Hieronymos Janssens, Ball given to Charles II at the Hague on his departure to England (1660). Public domain, via Wikimedia Commons."){.media-center}
+![Men and women line the walls of a large, lavish ballroom filled with decoration and chandeliers. A man - Charles II - stands in the middle of the room, he is dressed in black and has a tall black hat and long black hair, with pointy black shoes.]( {{ "/assets/img/posts/Ball_given_to_Charles_II_at_the_Hague_on_his_departure_to_England.jpg" | url}} "Hieronymos Janssens, Ball given to Charles II at the Hague on his departure to England (1660). Public domain, via Wikimedia Commons."){.media-right}
 
 In both accounts of Aunt Norton suggesting the name Charles, Alice makes the explicit connection with the Restoration of the monarchy. From reading Alice’s books, one might be forgiven for thinking that Charles II had already been proclaimed king when the conversation took place:
 
