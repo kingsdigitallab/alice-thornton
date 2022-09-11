@@ -1,7 +1,16 @@
+---
+title: A House Divided
+feature: assets\img\posts\King_Charles_II_by_John_Michael_Wright_or_studio.jpg
+status: draft
+authors:
+- cbeattie
+tags:
+- monarchy
+---
+
+
 A House Divided: how did the Thorntons feel about the Restoration of Charles II?
 ======
-Cordelia Beattie
-------
 
 ![King Charles II, seated wearing red, blue and white robes decorated with gold. He has long curly black hair and holds the orb in his right hand.](C:\Users\jedge2\Documents\Blog\Github-main\alice-thornton\frontend\assets\img\posts\King_Charles_II_by_John_Michael_Wright_or_studio.jpg "King Charles II, John Michael Wright (1660-65). Public domain, via Wikimedia Commons.")
 
