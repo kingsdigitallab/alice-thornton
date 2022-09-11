@@ -1,6 +1,6 @@
 ---
 title: "A House Divided: how did the Thorntons feel about the Restoration of Charles II?"
-feature: /assets/img/posts/King_Charles_II_by_John_Michael_Wright_or_studio.jpg
+feature: /assets/img/posts/Ball_given_to_Charles_II_at_the_Hague_on_his_departure_to_England.jpg
 status: draft
 authors:
 - cbeattie
@@ -18,7 +18,6 @@ The name Charles was also the source of discussion in Yorkshire, in 1660.
 
 ‘...should be called Charles’
 -----
-
 
 ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]( {{ "/assets/img/posts/st_nicholas.jpg" | url }} "St. Nicholas, Richmond. c. Suzanne Trill, June 2022."){.media-center}
 
@@ -63,7 +62,7 @@ While William Thornton was guarded – according to Alice - as to his reasons ab
 
 [^5]: Anne Norton was the sister of [Christopher Wandesford](https://www.historyofparliamentonline.org/volume/1604-1629/member/wandesford-christopher-1592-1640), Alice’s father, who was briefly Lord Deputy of Ireland under Charles I.
 
-[^6]:	‘in the heate of the warres … my brother would have him called Charles. because of his ingagement for the Kings service’: Alice Thornton, Book 1: The First Book of My Life, British Library MS Add 88897/1, p. 80.
+[^6]:	‘in the heate of the warres ... my brother would have him called Charles. because of his ingagement for the Kings service’: Alice Thornton, Book 1: The First Book of My Life, British Library MS Add 88897/1, p. 80.
 
 [^7]: Harris, Restoration, pp. 1, 48.
 
