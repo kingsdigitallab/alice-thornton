@@ -44,11 +44,12 @@ Different Allegiances
 
 Alice and Aunt Norton were from a royalist family, the Wandesfords, and their enthusiasm for the king was to be expected.[^5] When Alice’s sister, Katherine Danby, gave birth to her eighth child in June 1643, ‘in the heat of the wars … my brother[in-law] would have him called Charles, because of his engagement for the King’s service’.[^6] However, William Thornton had parliamentarian family connections. Indeed, this is one of the reasons William was suggested as a husband for Alice in 1651. The Wandesford family estates at Kirklington had been sequestered during the civil war and help was needed to get them back.
 
-Even after King Charles II had been proclaimed, not everyone accepted the restoration of the monarchy. Tim Harris’s book, *Restoration: Charles II and his Kingdoms, 1660-1685*, opens with the celebrations on 29 May 1660 when Charles II made a triumphant entry into London to reclaim the throne of the three kingdoms. However, Harris also noted that, ‘Although rejoicing at the return of the monarchy was widespread, it was not universal’.[^7] Some were prosecuted in court for seditious speech for their outbursts. For example, Margaret Dixon of Newcastle was accused of having said on 13 May 1660:
+Even after King Charles II had been proclaimed, not everyone accepted the restoration of the monarchy. Tim Harris’s book, *Restoration: Charles II and his Kingdoms, 1660-1685*, opens with the celebrations on 29 May 1660 when Charles II made a triumphant entry into London to reclaim the throne of the three kingdoms. However, Harris also noted that, ‘Although rejoicing at the return of the monarchy was widespread, it was not universal’.[^7] Some were prosecuted in court for seditious speech for their outbursts. Margaret Dixon of Newcastle, for example, was accused of having said on 13 May 1660:
 
 >‘Is there not some English man more fit to make a King than a Scot? There is none that loves him but drunk whores and whoremongers. I hope he will never come into England, for that he will set on fire the three kingdoms as his father before him has done. God's curse light on him. I hope to see his bones hanged at a horse tail, and the dogs run through his puddings [entrails].’[^8]
 
 While William Thornton was guarded – according to Alice - as to his reasons about why he would not brook any heir of his being named Charles, it seems likely that his stance revealed continuing antipathy towards the monarchy.
+
 
 ***
 
