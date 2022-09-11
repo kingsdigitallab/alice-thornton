@@ -21,7 +21,7 @@ The name Charles was also the source of discussion in Yorkshire, in 1660.
 ‘...should be called Charles’
 -----
 
-![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.](/assets/img/posts/st nicholas.jpg "St. Nicholas, Richmond. c. Suzanne Trill, June 2022.")
+![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.](/assets/img/posts/st_nicholas.jpg "St. Nicholas, Richmond. c. Suzanne Trill, June 2022.")
 
 In spring 1660, a pregnant Alice Thornton and her family had a heated discussion about whether the child she was carrying, if a boy, might be called Charles. Alice was staying at her Aunt Norton’s house, St Nicholas, Richmond. At this date, Alice had only two living children, both daughters. It was Aunt Norton who suggested the name:
 
