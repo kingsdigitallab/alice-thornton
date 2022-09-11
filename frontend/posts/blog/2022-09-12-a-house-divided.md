@@ -51,6 +51,8 @@ Even after King Charles II had been proclaimed, not everyone accepted the restor
 
 While William Thornton was guarded – according to Alice - as to his reasons about why he would not brook any heir of his being named Charles, it seems likely that his stance revealed continuing antipathy towards the monarchy.
 
+***
+
 
 [^1]: Parliament voted to restore the Stuart monarchy on 1 May 1660; Charles II was then proclaimed as king in London on 8 May. He then had a triumphant royal entry into the city on 29 May 1660 and his coronation was on 23 April 1661. See Tim Harris, *Restoration: Charles II and his Kingdoms, 1660-1685* (London, 2005), pp. 1, 69.
 
