@@ -30,7 +30,7 @@ Alice relates this incident in two of her books. In *Book 2: The First Book of M
 The Restoration
 -----
 
-![Men and women line the walls of a large, lavish ballroom filled with decoration and chandeliers. A man - Charles II - stands in the middle of the room, he is dressed in black and has a tall black hat and long black hair, with pointy black shoes.]( {{ "/assets/img/posts/Ball_given_to_Charles_II_at_the_Hague_on_his_departure_to_England.jpg" | url}} "Hieronymos Janssens, Ball given to Charles II at the Hague on his departure to England (1660). Public domain, via Wikimedia Commons."){.media-right}
+![Men and women line the walls of a large, lavish ballroom filled with decoration and chandeliers. A man - Charles II - stands in the middle of the room, he is dressed in black and has a tall black hat and long black hair, with pointy black shoes.]( {{ "/assets/img/posts/Ball_given_to_Charles_II_at_the_Hague_on_his_departure_to_England.jpg" | url}} "Hieronymus Janssens, Ball given to Charles II at the Hague on his departure to England (1660). Public domain, via Wikimedia Commons."){.media-right}
 
 In both accounts of Aunt Norton suggesting the name Charles, Alice makes the explicit connection with the Restoration of the monarchy. From reading Alice’s books, one might be forgiven for thinking that Charles II had already been proclaimed king when the conversation took place:
 
