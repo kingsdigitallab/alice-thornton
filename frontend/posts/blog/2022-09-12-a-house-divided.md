@@ -54,7 +54,7 @@ While William Thornton was guarded – according to Alice - as to his reasons ab
 
 [^1]: Parliament voted to restore the Stuart monarchy on 1 May 1660; Charles II was then proclaimed as king in London on 8 May. He then had a triumphant royal entry into the city on 29 May 1660 and his coronation was on 23 April 1661. See Tim Harris, *Restoration: Charles II and his Kingdoms, 1660-1685* (London, 2005), pp. 1, 69.
 
-[^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced in footnotes. ‘my deare Aunt norton tould Mr Thornton, & my selfe, That if I had a Son he would bring his name with him, into the world, & should be called Charles. but my Husb-band answred againe that it should not, affter which being in Privat with him, I desired to know what was the reason, he would not have him called Charles, if I had a Son: he presently answred if I would have him, soe called, he should never heire a foote of his Estate’: Alice Thornton, *Book 3: The Second Book of My Widowed Condition*, British Library MS Add 88897/2 (hereafter *Book 3*), p. 44.
+[^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. ‘my deare Aunt norton tould Mr Thornton, & my selfe, That if I had a Son he would bring his name with him, into the world, & should be called Charles. but my Husb-band answred againe that it should not, affter which being in Privat with him, I desired to know what was the reason, he would not have him called Charles, if I had a Son: he presently answred if I would have him, soe called, he should never heire a foote of his Estate’: Alice Thornton, *Book 3: The Second Book of My Widowed Condition*, British Library MS Add 88897/2 (hereafter *Book 3*), p. 44.
 
 [^3]: ‘Butt Mr Thornton would not consent to that. To have him Called Charles for Reasons best know^n^ to him selfe’: Alice Thornton, *Book 2: The First Book of My Widowed Condition*, Durham Cathedral Library, GB-0033-CCOM 7 (hereafter *Book 2*), pp. 207-8 in our edition but mispaginated in the manuscript as pp. 205-6.
 
@@ -66,4 +66,4 @@ While William Thornton was guarded – according to Alice - as to his reasons ab
 
 [^7]: Harris, *Restoration*, pp. 1, 48.
 
-[^8]:	Modernised from *[Depositions from the Castle of York](https://archive.org/stream/depositionsfromc00grea/depositionsfromc00grea_djvu.txt)*, ed. James Raine, Surtees Society, 40 (Durham, 1861), p. 83. Reference from Harris, Restoration, p. 49.
+[^8]:	Modernised from *[Depositions from the Castle of York](https://archive.org/stream/depositionsfromc00grea/depositionsfromc00grea_djvu.txt)*, ed. James Raine, Surtees Society, 40 (Durham, 1861), p. 83. Reference from Harris, *Restoration*, p. 49.
