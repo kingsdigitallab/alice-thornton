@@ -5,7 +5,7 @@ status: draft
 authors:
 - cbeattie
 tags:
-- monarchy
+- monarchy, yorkshire
 ---
 
 
@@ -62,7 +62,7 @@ While William Thornton was guarded – according to Alice - as to his reasons ab
 
 [^4]: ‘att that time, the happy restoration of King, Charles the 2d & of his comming into England; & Restored the Church; & State to its Rights againe. there was a great and generall, rejoycing; at that good Change; in the Kingdom; from Tyrrany, oppresion, & Annarchiy’: *Book 3*, p. 44. See also *Book 2*, p. 207 but mispaginated as 205 in the manuscript.
 
-[^5]: Anne Norton was the sister of [Christopher Wandesford](https://doi-org.ezproxy.is.ed.ac.uk/10.1093/ref:odnb/28662), Alice’s father, who was briefly Lord Deputy of Ireland under Charles I.
+[^5]: Anne Norton was the sister of [Christopher Wandesford](https://www.historyofparliamentonline.org/volume/1604-1629/member/wandesford-christopher-1592-1640), Alice’s father, who was briefly Lord Deputy of Ireland under Charles I.
 
 [^6]:	‘in the heate of the warres … my brother would have him called Charles. because of his ingagement for the Kings service’: Alice Thornton, Book 1: The First Book of My Life, British Library MS Add 88897/1, p. 80.
 
