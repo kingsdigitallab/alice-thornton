@@ -48,7 +48,7 @@ Even after King Charles II had been proclaimed, not everyone accepted the restor
 
 >‘Is there not some English man more fit to make a King than a Scot? There is none that loves him but drunk whores and whoremongers. I hope he will never come into England, for that he will set on fire the three kingdoms as his father before him has done. God's curse light on him. I hope to see his bones hanged at a horse tail, and the dogs run through his puddings [entrails].’[^8]
 
-While William Thornton was guarded – according to Alice - as to his reasons about why he would not brook any heir of his being named Charles, it seems likely that his stance revealed continuing antipathy towards the monarchy.
+While William Thornton was guarded – according to Alice - as to his reasons why he would not brook any heir of his being named Charles, it seems likely that his stance revealed continuing antipathy towards the monarchy.
 
 
 ***
