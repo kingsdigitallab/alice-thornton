@@ -1,8 +1,8 @@
 ---
 title: "A House Divided: how did the Thorntons feel about the Restoration of Charles II?"
-feature:
+feature: /assets/img/posts/King_Charles_II_by_John_Michael_Wright_or_studio.jpg
 status: live
-authors: /assets/img/posts/King_Charles_II_by_John_Michael_Wright_or_studio.jpg
+authors:
 - cbeattie
 tags:
 - monarchy
