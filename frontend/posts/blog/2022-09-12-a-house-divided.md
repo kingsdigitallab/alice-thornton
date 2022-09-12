@@ -10,9 +10,9 @@ tags:
 ---
 
 
-![King Charles II, seated wearing red, blue and white robes decorated with gold. He has long curly black hair and holds the orb in his right hand.]({{ "/assets/img/posts/King_Charles_II_by_John_Michael_Wright_or_studio.jpg" | url }} "King Charles II, John Michael Wright (1660-65). Public domain, via Wikimedia Commons."){.media-right}
-
 The last time a King Charles was proclaimed in London was in 1660.[^1] When Charles III acceded to the throne last week, there was some initial [speculation](https://inews.co.uk/news/king-charles-iii-name-why-monarchs-change-explained-1319520) about whether he might choose to [use one of his other names](https://www.hellomagazine.com/royalty/20220909150655/why-king-charles-iii-could-have-chosen-king-george-details/), given the reputations of Charles I and Charles II.
+
+![King Charles II, seated wearing red, blue and white robes decorated with gold. He has long curly black hair and holds the orb in his right hand.]({{ "/assets/img/posts/King_Charles_II_by_John_Michael_Wright_or_studio.jpg" | url }} "King Charles II, John Michael Wright (1660-65). Public domain, via Wikimedia Commons."){.media-right}
 
 The name Charles was also the source of discussion in Yorkshire, in 1660.
 
