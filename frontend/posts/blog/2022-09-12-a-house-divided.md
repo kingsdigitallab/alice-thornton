@@ -38,7 +38,7 @@ However, Alice gave birth to a son, named William after his father, on 17 April 
 
 Different Allegiances
 ---
-![A man - Oliver Cromwell, wearing a hat with a plume and looking at the artist - sits on a large brown prancing horse and rides past a riverbank.]({{ "/assets/img/posts/BCN_CROM_L62-001.jpg" | url }} "Oliver Cromwell on Horseback. British (English) School (c. 1655). Cromwell Museum, licensed under Creative Commons."){.media-left}
+![King Charles II, seated wearing red, blue and white robes decorated with gold. He has long curly black hair and holds the orb in his right hand.]({{ "/assets/img/posts/King_Charles_II_by_John_Michael_Wright_or_studio.jpg" | url }} "King Charles II, John Michael Wright (1660-65). Public domain, via Wikimedia Commons."){.media-right}
 
 Alice and Aunt Norton were from a royalist family, the Wandesfords, and their enthusiasm for the king was to be expected.[^5] When Alice’s sister, Katherine Danby, gave birth to her eighth child in June 1643, ‘in the heat of the wars … my brother[in-law] would have him called Charles, because of his engagement for the King’s service’.[^6] However, William Thornton had parliamentarian family connections. Indeed, this is one of the reasons William was suggested as a husband for Alice in 1651. The Wandesford family estates at Kirklington had been sequestered during the civil war and help was needed to get them back.
 
