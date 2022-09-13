@@ -42,6 +42,8 @@ $link: #0b4d99;
   color: $black;
 }
 
+/* Global styles */
+
 a {
   color: $link;
 
@@ -62,16 +64,40 @@ a.tag {
   text-decoration: none;
 }
 
+.content blockquote {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25rem .75rem;
+
+  &::before {
+    color: lighten($dark, 30%);
+    content: "“";
+    display: block;
+    font-family: "Lora", serif;
+    font-size: 7rem;
+    line-height: 1;
+    margin: -1rem 0 -5.5rem 0;
+  }
+
+  p {
+    color: lighten($dark, 30%);
+    font-family: "Lora", serif;
+    font-size: 1.25rem;
+    margin-left: 3.5rem;
+  }
+}
+
 // Shared layout
 
 body {
-  background: linear-gradient(
-      0.75turn,
-      transparent 60%,
-      rgba(lighten($primary, 70%), 0.5)
-    ),
-    url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
-  background-size: 100vw;
+  background: rgba(lighten($primary, 20%), 0.1);
+  // background: linear-gradient(
+  //     0.75turn,
+  //     transparent 60%,
+  //     rgba(lighten($primary, 70%), 0.5)
+  //   ),
+  //   url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
+  // background-size: 100vw;
   font-family: "Noto", sans-serif;
   font-size: 18px;
   font-weight: 450;
@@ -259,7 +285,7 @@ footer,
 
   &.media-right {
     float: right;
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.5em 1rem 0.5em 1em;
   }
 
   &.media-center {
