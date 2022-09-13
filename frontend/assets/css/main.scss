@@ -42,6 +42,8 @@ $link: #0b4d99;
   color: $black;
 }
 
+/* Global styles */
+
 a {
   color: $link;
 
@@ -60,6 +62,29 @@ a {
 
 a.tag {
   text-decoration: none;
+}
+
+.content blockquote {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25rem .75rem;
+
+  &::before {
+    color: lighten($dark, 30%);
+    content: "“";
+    display: block;
+    font-family: "Lora", serif;
+    font-size: 7rem;
+    line-height: 1;
+    margin: -1rem 0 -5.5rem 0;
+  }
+
+  p {
+    color: lighten($dark, 30%);
+    font-family: "Lora", serif;
+    font-size: 1.25rem;
+    margin-left: 3.5rem;
+  }
 }
 
 // Shared layout
