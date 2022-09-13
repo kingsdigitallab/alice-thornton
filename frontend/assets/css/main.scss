@@ -90,13 +90,14 @@ a.tag {
 // Shared layout
 
 body {
-  background: linear-gradient(
-      0.75turn,
-      transparent 60%,
-      rgba(lighten($primary, 70%), 0.5)
-    ),
-    url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
-  background-size: 100vw;
+  background: rgba(lighten($primary, 20%), 0.1);
+  // background: linear-gradient(
+  //     0.75turn,
+  //     transparent 60%,
+  //     rgba(lighten($primary, 70%), 0.5)
+  //   ),
+  //   url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
+  // background-size: 100vw;
   font-family: "Noto", sans-serif;
   font-size: 18px;
   font-weight: 450;
