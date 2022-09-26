@@ -51,10 +51,11 @@ I long to know how he might have responded to my musings on whether and how both
 
 We are honoured to have had his support and will continue our work on Thornton in his memory.
 
+<br>
+<br>
+<br>
+<br>
 
-<br>
-<br>
-<br>
 [^1]: Raymond A. Anselment, ‘The Countess of Carlisle and Caroline Praise: Convention and Reality’, *Studies in Philology* 82, no. 2 (1985): 212–33.
 
 [^2]: Dr Amy Erickson, 'Review of *The Remembrances of Elizabeth Freke, 1671–1714*, (Review No. 393)'. https://Reviews.History.ac.uk/Review/393. Access Date: 04 September, 2022.
