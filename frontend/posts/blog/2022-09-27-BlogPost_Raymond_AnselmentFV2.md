@@ -41,9 +41,9 @@ In his typically unassuming manner, when we invited Ray to be on our Project Boa
 
 On a personal note, spending time with Ray was an absolute pleasure: shy by nature, he was an incredibly kind and generous man. I will treasure the memories of our trips to the Beinecke for years to come and I owe him a debt of deep gratitude for his support of my own research on Anne, Lady Halkett (including the belated discovery that he was the external reader for my forthcoming edition of her *True Account* and *Meditations* in the Other Voice series).
 
-Editors are expected to have an eye for detail and Ray was no exception, as exhibited in an email he sent to me and Cordelia following the first board. There had been some technical difficulties that had curtailed Ray’s response to a question about Thornton’s writing and occasional meditations and he was keen to reassure us that his online response was far from flippant.
-
 ![Photo of the front cover of Mary Rich's Occasional Meditations]({{"/assets/img/posts/Rich_Resized.jpg"|url}}){.media-right}
+
+Editors are expected to have an eye for detail and Ray was no exception, as exhibited in an email he sent to me and Cordelia following the first board. There had been some technical difficulties that had curtailed Ray’s response to a question about Thornton’s writing and occasional meditations and he was keen to reassure us that his online response was far from flippant.
 
 In his email, Ray also expressed his reluctance to focus too much attention on meditation in Thornton’s writing as he saw a large disparity between Thornton’s work and that of Mary Rich, Countess of Warwick, whose *Occasional Meditations* he had also edited.
 
@@ -52,7 +52,9 @@ I long to know how he might have responded to my musings on whether and how both
 We are honoured to have had his support and will continue our work on Thornton in his memory.
 
 
-
+<br>
+<br>
+<br>
 [^1]: Raymond A. Anselment, ‘The Countess of Carlisle and Caroline Praise: Convention and Reality’, *Studies in Philology* 82, no. 2 (1985): 212–33.
 
 [^2]: Dr Amy Erickson, 'Review of *The Remembrances of Elizabeth Freke, 1671–1714*, (Review No. 393)'. https://Reviews.History.ac.uk/Review/393. Access Date: 04 September, 2022.
