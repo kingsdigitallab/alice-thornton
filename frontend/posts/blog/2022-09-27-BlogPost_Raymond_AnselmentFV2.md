@@ -26,13 +26,15 @@ Over the course of his lengthy career, Ray published prolifically on a broad ran
 
 However, while Ray’s earlier work focused on predominantly canonical male poets, his interest in seventeenth-century women’s writing was in evidence from at least the 1980s when he wrote an article about the Countess of Carlisle.[^1] By the time he wrote *The Realms of Apollo: Literature and Healing in Seventeenth-Century England* (1995), Ray was already drawing heavily on the writings of Elizabeth Freke, Mary Rich, Countess of Warwick, and Alice Thornton, whose work he would later edit for a wider audience.
 
+![Photo of front cover of edition of My First Booke]({{"/assets/img/posts/First_Booke_Cover.jpg"|url }}){.media-left}
+
 ![Photo of front cover of edition of Elizabeth Freke's Remembrances]({{"/assets/img/posts/Freke_Cover.jpg"|url}}){.media-right}
 
 Although Freke holds the “distinction … of being the memoirist I would least like to meet,” Amy Erickson admitted to being “fascinated” by the way in which Ray’s edition “unleashed” the “full bitterness” of the resentments she records in her *Remembrances*.[^2] This was made possible as Ray produced a full version of both manuscripts of Freke’s life that had previously been conflated in a nineteenth-century edition.
 
 In this, Ray’s work on Freke anticipated that which was to come on Thornton.  While in 1995 and 1996 he had, of necessity, relied on Jackson’s edition, his reservations about Jackson’s editorial process encouraged him to pursue this problem.[^3] With the permission of Paula Peyraud, the then owner of *Book 1* and *Book 3*, Ray was able to draw attention to significant differences between those manuscripts and the Beinecke microfilm.[^4]
 
-![Photo of front cover of edition of My First Booke]({{"/assets/img/posts/First_Booke_Cover.jpg"|url }}){.media-left}
+
 
 ![Photo of inscription in the copy of My First Booke sent to Suzanne]({{"/assets/img/posts/InscriptionMFB.jpg"|url }}){.media-left}
 
