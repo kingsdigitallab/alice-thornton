@@ -33,7 +33,6 @@ Although Freke holds the “distinction … of being the memoirist I would least
 
 In this, Ray’s work on Freke anticipated that which was to come on Thornton.  While in 1995 and 1996 he had, of necessity, relied on Jackson’s edition, his reservations about Jackson’s editorial process encouraged him to pursue this problem.[^3] With the permission of Paula Peyraud, the then owner of *Book 1* and *Book 3*, Ray was able to draw attention to significant differences between those manuscripts and the Beinecke microfilm.[^4]
 
-![My First Booke Cover - Resized]({{"/assets/img/posts/MFB_Cover.jpg"|url }}){.media-left}
 
 ![Photo of inscription in the copy of My First Booke sent to Suzanne]({{"/assets/img/posts/InscriptionMFB.jpg"|url }}){.media-left}
 
