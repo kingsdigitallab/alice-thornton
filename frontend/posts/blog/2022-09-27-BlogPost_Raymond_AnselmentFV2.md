@@ -9,7 +9,7 @@ tags:
 - manuscripts
 ---
 
-Before the news of Queen Elizabeth II’s death, those of us who had gathered for our 'Alice Thornton’s Books' end of project year board meeting (8 September 2022) were paying our respects to the remarkable contribution made to the study of early modern women’s writing by Professor Raymond Anselment.
+Before the news of Queen Elizabeth II’s death, those of us who had gathered for our *Alice Thornton’s Books* end of project year board meeting (8 September 2022) were paying our respects to the remarkable contribution made to the study of early modern women’s writing by Professor Raymond Anselment.
 
 ![Image of Professor Raymond Anselment]({{"/assets/img/posts/Ray_Photo.jpg"|url}} "Professor Raymond Anselment, 1939-2022"){.media-left}
 
