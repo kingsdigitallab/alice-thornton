@@ -15,7 +15,7 @@ Before the news of Queen Elizabeth II’s death, those of us who had gathered fo
 
 It was only after the announcement of his death that we discovered that Ray’s final academic activity had been to attend the first *Alice Thornton’s Books* project board in March 2022. As had been planned, he joined us via Teams from his home in Connecticut, USA while his wife, Carol, helped him to navigate the technology.
 
-Ray was one of the first people with whom we shared Cordelia's discovery of the *Book of Remembrances*, and he played a vital role in establishing its authenticity.
+Ray was one of the first people with whom we shared [Cordelia's discovery](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) of the *Book of Remembrances*, and he played a vital role in establishing its authenticity.
 
 Until then, Thornton’s *Book of Remembrances* was thought only to survive in a microfilm copy deposited at the Beinecke library, Yale.
 
