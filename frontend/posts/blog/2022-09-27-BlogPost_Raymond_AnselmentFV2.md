@@ -1,5 +1,5 @@
 ---
-title: Professor Raymond Anselment:A Commemoration.
+title: Professor Raymond Anselment:A Commemoration
 feature: /assets/img/posts/Ray_Photo.jpg
 status: draft
 author:
@@ -10,7 +10,7 @@ tags:
 
 Before the news of Queen Elizabeth II’s death, those of us who had gathered for our 'Alice Thornton’s Books' end of project year board meeting (8 September 2022) were paying our respects to the remarkable contribution made to the study of early modern women’s writing by Professor Raymond Anselment.
 
-![Image of Professor Raymond Anselment]({{"/assets/img/posts/2022SeptemberBlogRay/Ray_Photo.jpg"|url}} "Professor Raymond Anselment, 1939-2022 <br>&copy; ST"){.media-left}
+![Image of Professor Raymond Anselment]({{"/assets/img/posts/2022SeptemberBlogRay/Ray_Photo.jpg"|url}} "Professor Raymond Anselment, 1939-2022"){.media-left}
 
 It was only after the announcement of his death that we discovered that Ray’s final academic activity had been to attend the first *Alice Thornton’s Books* project board in March 2022. As had been planned, he joined us via Teams from his home in Connecticut, USA while his wife, Carol, helped him to navigate the technology.
 
@@ -18,13 +18,9 @@ Ray was one of the first people with whom we shared the discovery, and he played
 
 Until then, Thornton’s *Book of Remembrances* was thought only to survive in a microfilm copy deposited at the Beinecke library, Yale.
 
-![Image of the interior of the Beinecke library]({{"/assets/img/posts/2022SeptemberBlogRay/Beinecke_library_interior_WC.jpg"|url}} "Beinecke library interior <br>commons.wikimedia.org"){.media-right}
-
 For me, asking Ray for assistance, was the obvious choice. Not only because he was the editor of *My First Booke of My Life*, but because I knew how much he liked to work at the Beinecke as he had kindly driven me there on several occasions when I held a visiting professorship at the University of Connecticut in 2007.
 
 Characteristically not mentioning he was unwell, Ray agreed to check the images we sent him from the UK and swiftly confirmed that the microfilm was a copy of the manuscript Cordelia had located. He also helped us in our application to the AHRC for funding by sharing his notes on *Book 3* when we were unable to access the British Library manuscript due to Covid-19 restrictions.
-
-![Photo of front cover of Loyalist Resolve]({{"/assets/img/posts/Loyalist_Resolve.jpg"|url}}){.media-left}
 
 Over the course of his lengthy career, Ray published prolifically on a broad range of seventeenth-century literature, from the well-known poets such as Herbert, Marvell, Lovelace and Suckling to the less prominent George Daniel of Beswick and Alexander Brome, some of whom were discussed in one of his early monographs, *Loyalist Resolve* (1988).
 
