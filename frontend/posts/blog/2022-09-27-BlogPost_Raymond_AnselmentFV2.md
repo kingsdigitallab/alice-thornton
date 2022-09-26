@@ -34,7 +34,7 @@ In this, Ray’s work on Freke anticipated that which was to come on Thornton.  
 
 ![Photo of front cover of edition of My First Booke]({{"/assets/img/posts/First_Booke_Cover.jpg"|url }}){.media-left}
 
-![Photo of inscription in the copy of My First Booke sent to Suzanne]({{"/assets/img/posts/Inscription_MFBpath.jpg"|url }}){.media-left}
+![Photo of inscription in the copy of My First Booke sent to Suzanne]({{"/assets/img/posts/Inscription_MFB.jpg"|url }}){.media-left}
 
 After *Book 1* and *Book 3* were acquired by the British Library in 2009, Ray’s research culminated in the groundbreaking edition of *My First Booke of My Life* (2013) which was proclaimed “essential” reading for scholars in the fields of early modern history and literature.[^5] It also opened the path that this project seeks to continue.
 
