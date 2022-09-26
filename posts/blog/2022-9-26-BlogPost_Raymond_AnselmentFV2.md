@@ -25,7 +25,6 @@ For me, asking Ray for assistance, was the obvious choice. Not only because he w
 
 Characteristically not mentioning he was unwell, Ray agreed to check the images we sent him from the UK and swiftly confirmed that the microfilm was a copy of the manuscript Cordelia had located. He also helped us in our application to the AHRC for funding by sharing his notes on *Book 3* when we were unable to access the British Library manuscript due to Covid-19 restrictions.
 
-[* i'm not quite sure what happens if an image doesn't have a caption... maybe should add them? *]
 ![Photo of front cover of Loyalist Resolve]({{"/assets/img/posts/Loyalist_Resolve.jpg"|url}}){.media-left}
 
 Over the course of his lengthy career, Ray published prolifically on a broad range of seventeenth-century literature, from the well-known poets such as Herbert, Marvell, Lovelace and Suckling to the less prominent George Daniel of Beswick and Alexander Brome, some of whom were discussed in one of his early monographs, *Loyalist Resolve* (1988).
