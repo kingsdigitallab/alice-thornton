@@ -27,9 +27,7 @@ Over the course of his lengthy career, Ray published prolifically on a broad ran
 
 However, while Ray’s earlier work focused on predominantly canonical male poets, his interest in seventeenth-century women’s writing was in evidence from at least the 1980s when he wrote an article about the Countess of Carlisle.[^1] By the time he wrote *The Realms of Apollo: Literature and Healing in Seventeenth-Century England* (1995), Ray was already drawing heavily on the writings of Elizabeth Freke, Mary Rich, Countess of Warwick, and Alice Thornton, whose work he would later edit for a wider audience.
 
-![Photo of front cover of edition of My First Booke]({{"/assets/img/posts/First_Booke_Cover.jpg"|url }}){.media-left}
-
-![Photo of front cover of edition of Elizabeth Freke's Remembrances]({{"/assets/img/posts/Freke_Cover.jpg"|url}}){.media-right}
+![Photo of front cover of edition of Elizabeth Freke's Remembrances]({{"/assets/img/posts/Freke_Resized.jpg"|url}}){.media-right}
 
 Although Freke holds the “distinction … of being the memoirist I would least like to meet,” Amy Erickson admitted to being “fascinated” by the way in which Ray’s edition “unleashed” the “full bitterness” of the resentments she records in her *Remembrances*.[^2] This was made possible as Ray produced a full version of both manuscripts of Freke’s life that had previously been conflated in a nineteenth-century edition.
 
@@ -49,7 +47,7 @@ Editors are expected to have an eye for detail and Ray was no exception, as exhi
 
 In his email, Ray also expressed his reluctance to focus too much attention on meditation in Thornton’s writing as he saw a large disparity between Thornton’s work and that of Mary Rich, Countess of Warwick, whose *Occasional Meditations* he had also edited.
 
-![Photo of the front cover of Mary Rich's Occasional Meditations]({{"/assets/img/posts/Rich_Cover.jpg"|url}}){.media-left}
+![Photo of the front cover of Mary Rich's Occasional Meditations]({{"/assets/img/posts/Rich_Resized.jpg"|url}}){.media-left}
 
 I long to know how he might have responded to my musings on whether and how both Halkett and Thornton had been influenced by *Eikon Basilike* – a book to which they both refer that famously purported to be Charles I’s spiritual autobiography in meditational form. While Ray is no longer with us, it is our hope that this project will enable that kind of scholarly conversation to continue.
 
