@@ -12,8 +12,7 @@ Before the news of Queen Elizabeth II’s death, those of us who had gathered fo
 
 ![Image of Professor Raymond Anselment]({{"/assets/img/posts/2022SeptemberBlogRay/Ray_Photo.jpg"|url}} "Professor Raymond Anselment, 1939-2022 <br>&copy; ST"){.media-left}
 
-It was only after the announcement of his death that we
-discovered that Ray’s final academic activity had been to attend the first *Alice Thornton’s Books* project board in March 2022. As had been planned, he joined us via Teams from his home in Connecticut, USA while his wife, Carol, helped him to navigate the technology.
+It was only after the announcement of his death that we discovered that Ray’s final academic activity had been to attend the first *Alice Thornton’s Books* project board in March 2022. As had been planned, he joined us via Teams from his home in Connecticut, USA while his wife, Carol, helped him to navigate the technology.
 
 Ray was one of the first people with whom we shared the discovery, and he played a vital role in establishing the authenticity of Cordelia’s find.
 
