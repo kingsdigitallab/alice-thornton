@@ -25,14 +25,13 @@ Characteristically not mentioning he was unwell, Ray agreed to check the images 
 
 Over the course of his lengthy career, Ray published prolifically on a broad range of seventeenth-century literature, from the well-known poets such as Herbert, Marvell, Lovelace and Suckling to the less prominent George Daniel of Beswick and Alexander Brome, some of whom were discussed in one of his early monographs, *Loyalist Resolve* (1988).
 
-However, while Ray’s earlier work focused on predominantly canonical male poets, his interest in seventeenth-century women’s writing was in evidence from at least the 1980s when he wrote an article about the Countess of Carlisle.[^1] By the time he wrote *The Realms of Apollo: Literature and Healing in Seventeenth-Century England* (1995), Ray was already drawing heavily on the writings of Elizabeth Freke, Mary Rich, Countess of Warwick, and Alice Thornton, whose work he would later edit for a wider audience.
-
 ![Photo of front cover of edition of Elizabeth Freke's Remembrances]({{"/assets/img/posts/Freke_Resized.jpg"|url}}){.media-right}
+
+However, while Ray’s earlier work focused on predominantly canonical male poets, his interest in seventeenth-century women’s writing was in evidence from at least the 1980s when he wrote an article about the Countess of Carlisle.[^1] By the time he wrote *The Realms of Apollo: Literature and Healing in Seventeenth-Century England* (1995), Ray was already drawing heavily on the writings of Elizabeth Freke, Mary Rich, Countess of Warwick, and Alice Thornton, whose work he would later edit for a wider audience.
 
 Although Freke holds the “distinction … of being the memoirist I would least like to meet,” Amy Erickson admitted to being “fascinated” by the way in which Ray’s edition “unleashed” the “full bitterness” of the resentments she records in her *Remembrances*.[^2] This was made possible as Ray produced a full version of both manuscripts of Freke’s life that had previously been conflated in a nineteenth-century edition.
 
 In this, Ray’s work on Freke anticipated that which was to come on Thornton.  While in 1995 and 1996 he had, of necessity, relied on Jackson’s edition, his reservations about Jackson’s editorial process encouraged him to pursue this problem.[^3] With the permission of Paula Peyraud, the then owner of *Book 1* and *Book 3*, Ray was able to draw attention to significant differences between those manuscripts and the Beinecke microfilm.[^4]
-
 
 ![Photo of inscription in the copy of My First Booke sent to Suzanne]({{"/assets/img/posts/InscriptionResized.jpg"|url }}){.media-left}
 
@@ -44,9 +43,9 @@ On a personal note, spending time with Ray was an absolute pleasure: shy by natu
 
 Editors are expected to have an eye for detail and Ray was no exception, as exhibited in an email he sent to me and Cordelia following the first board. There had been some technical difficulties that had curtailed Ray’s response to a question about Thornton’s writing and occasional meditations and he was keen to reassure us that his online response was far from flippant.
 
-In his email, Ray also expressed his reluctance to focus too much attention on meditation in Thornton’s writing as he saw a large disparity between Thornton’s work and that of Mary Rich, Countess of Warwick, whose *Occasional Meditations* he had also edited.
-
 ![Photo of the front cover of Mary Rich's Occasional Meditations]({{"/assets/img/posts/Rich_Resized.jpg"|url}}){.media-left}
+
+In his email, Ray also expressed his reluctance to focus too much attention on meditation in Thornton’s writing as he saw a large disparity between Thornton’s work and that of Mary Rich, Countess of Warwick, whose *Occasional Meditations* he had also edited.
 
 I long to know how he might have responded to my musings on whether and how both Halkett and Thornton had been influenced by *Eikon Basilike* – a book to which they both refer that famously purported to be Charles I’s spiritual autobiography in meditational form. While Ray is no longer with us, it is our hope that this project will enable that kind of scholarly conversation to continue.
 
