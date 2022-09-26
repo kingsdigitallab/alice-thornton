@@ -6,6 +6,7 @@ authors:
 - strill
 tags:
 - lifewriting
+- manuscripts
 ---
 
 Before the news of Queen Elizabeth II’s death, those of us who had gathered for our 'Alice Thornton’s Books' end of project year board meeting (8 September 2022) were paying our respects to the remarkable contribution made to the study of early modern women’s writing by Professor Raymond Anselment.
@@ -35,7 +36,7 @@ Although Freke holds the “distinction … of being the memoirist I would least
 In this, Ray’s work on Freke anticipated that which was to come on Thornton.  While in 1995 and 1996 he had, of necessity, relied on Jackson’s edition, his reservations about Jackson’s editorial process encouraged him to pursue this problem.[^3] With the permission of Paula Peyraud, the then owner of *Book 1* and *Book 3*, Ray was able to draw attention to significant differences between those manuscripts and the Beinecke microfilm.[^4]
 
 ![My First Booke Cover - Resized]({{"/assets/img/posts/MFB_Cover.jpg"|url }}){.media-left}
-  
+
 ![Photo of inscription in the copy of My First Booke sent to Suzanne]({{"/assets/img/posts/InscriptionMFB.jpg"|url }}){.media-left}
 
 After *Book 1* and *Book 3* were acquired by the British Library in 2009, Ray’s research culminated in the groundbreaking edition of *My First Booke of My Life* (2013) which was proclaimed “essential” reading for scholars in the fields of early modern history and literature.[^5] It also opened the path that this project seeks to continue.
