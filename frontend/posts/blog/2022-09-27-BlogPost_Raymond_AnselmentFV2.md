@@ -18,6 +18,8 @@ Ray was one of the first people with whom we shared Cordelia's discovery of the 
 
 Until then, Thornton’s *Book of Remembrances* was thought only to survive in a microfilm copy deposited at the Beinecke library, Yale.
 
+![Photo of front cover of edition of My First Booke]({{"/assets/img/posts/First_Booke_Cover.jpg"|url}}){.media-left}
+
 For me, asking Ray for assistance, was the obvious choice. Not only because he was the editor of *My First Booke of My Life*, but because I knew how much he liked to work at the Beinecke as he had kindly driven me there on several occasions when I held a visiting professorship at the University of Connecticut in 2007.
 
 Characteristically not mentioning he was unwell, Ray agreed to check the images we sent him from the UK and swiftly confirmed that the microfilm was a copy of the manuscript Cordelia had located. He also helped us in our application to the AHRC for funding by sharing his notes on *Book 3* when we were unable to access the British Library manuscript due to Covid-19 restrictions.
@@ -32,7 +34,7 @@ Although Freke holds the “distinction … of being the memoirist I would least
 
 In this, Ray’s work on Freke anticipated that which was to come on Thornton.  While in 1995 and 1996 he had, of necessity, relied on Jackson’s edition, his reservations about Jackson’s editorial process encouraged him to pursue this problem.[^3] With the permission of Paula Peyraud, the then owner of *Book 1* and *Book 3*, Ray was able to draw attention to significant differences between those manuscripts and the Beinecke microfilm.[^4]
 
-![Photo of front cover of edition of My First Booke]({{"/assets/img/posts/First_Booke_Cover.jpg"|url}}){.media-left}
+
 ![Photo of inscription in the copy of My First Booke sent to Suzanne]({{"/assets/img/posts/Inscription_MFBpath.jpg"|url}}){.media-left}
 
 After *Book 1* and *Book 3* were acquired by the British Library in 2009, Ray’s research culminated in the groundbreaking edition of *My First Booke of My Life* (2013) which was proclaimed “essential” reading for scholars in the fields of early modern history and literature.[^5] It also opened the path that this project seeks to continue.
@@ -55,7 +57,7 @@ We are honoured to have had his support and will continue our work on Thornton i
 
 [^1]: Raymond A. Anselment, ‘The Countess of Carlisle and Caroline Praise: Convention and Reality’, *Studies in Philology* 82, no. 2 (1985): 212–33.
 
-[^2]: Dr Amy Erickson, 'Review of *The Remembrances of Elizabeth Freke, 1671–1714*, (Review No. 393)'. https://Reviews.History.ac.uk/Review/393. Date Accessed: 04 September, 2022.
+[^2]: Dr Amy Erickson, 'Review of *The Remembrances of Elizabeth Freke, 1671–1714*, (Review No. 393)'. https://Reviews.History.ac.uk/Review/393. Access Date: 04 September, 2022.
 
 [^3]: Raymond A. Anselment, *The Realms of Apollo: Literature and Healing in Seventeenth-Century England* (Newark : London ; Cranbury, NJ: University of Delaware Press ; Associated University Presses, 1995); ‘The Deliverances of Alice Thornton: The Re-Creation of a Seventeenth-Century Life’, *Prose Studies* 19, no. 1 (1996): 19–36.
 
