@@ -10,7 +10,7 @@ tags:
 
 Before the news of Queen Elizabeth II’s death, those of us who had gathered for our 'Alice Thornton’s Books' end of project year board meeting (8 September 2022) were paying our respects to the remarkable contribution made to the study of early modern women’s writing by Professor Raymond Anselment.
 
-![Image of Professor Raymond Anselment]({{"/assets/img/posts/2022SeptemberBlogRay/Ray_Photo.jpg"|url}} "Professor Raymond Anselment, 1939-2022"){.media-left}
+![Image of Professor Raymond Anselment]({{"/assets/img/posts/Ray_Photo.jpg"|url}} "Professor Raymond Anselment, 1939-2022"){.media-left}
 
 It was only after the announcement of his death that we discovered that Ray’s final academic activity had been to attend the first *Alice Thornton’s Books* project board in March 2022. As had been planned, he joined us via Teams from his home in Connecticut, USA while his wife, Carol, helped him to navigate the technology.
 
