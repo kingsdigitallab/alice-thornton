@@ -1,0 +1,10 @@
+---
+layout: base.liquid
+eleventyComputed:
+  pageImageWebPath: "{{ feature }}"
+  description: "{{ categories }} article - {{ date | date:metadata.date_format }}"
+---
+
+{% include "post_meta.md", post: context %}
+
+{{ content }}

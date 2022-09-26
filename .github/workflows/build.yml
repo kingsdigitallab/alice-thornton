@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - staging
+      - release
       - develop
 
 jobs:
@@ -25,8 +25,7 @@ jobs:
 
       - name: Install dependencies & build
         run: |
-          npm ci
-          npm run rebuild          
+          npm run rebuild
 
       - name: Deploy to github pages
         if: ${{ false }}
@@ -34,11 +33,9 @@ jobs:
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Commit and push
+        if: ${{ false }}
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Automated 11ty build
-
-
-

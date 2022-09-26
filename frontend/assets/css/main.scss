@@ -1,0 +1,501 @@
+// Palette
+// See Bulma variables:
+// https://bulma.io/documentation/customize/variables/
+
+/* 
+  GF 04/05/2022: Convention to define colour variable names.
+  We use names that are not tied to neither the specific colour
+  nor to the object they are initially tied to.
+  Initial colour palette derived from flat designs:
+  https: //www.figma.com/file/8mGkpFZTQpL7kpGCOYRgC8/Alice-Thornton?node-id=164%3A1480
+*/
+
+@import "fonts.scss";
+
+// Project variables
+
+$white: #fbfbfb;
+$primary: #462200;
+// $secondary: #c45300;
+// GF 18/05/2022: changed to a slightly darker orange to meet accessiblity
+// requirements for colour contrast
+$secondary: #b34200;
+
+$accent: #df8833;
+$dark: #0a0a0a;
+$light: #cdcac7;
+
+$link: #0b4d99;
+
+@import "../node_modules/bulma/bulma.sass";
+
+.is-primary {
+  background: $primary;
+}
+
+.is-secondary {
+  background: $secondary;
+}
+
+.is-accent {
+  background: $accent;
+  color: $black;
+}
+
+a {
+  color: $link;
+
+  &:focus {
+    border: 1px solid $accent;
+  }
+
+  // GN: see AC-117, without this the border around the focused <a> (inline)
+  // would display weirdly
+  // Use this on <a> that contain non-inline elements.
+  // Note: don't use .block, that's bulma class.
+  &.a-block {
+    display: block;
+  }
+}
+
+a.tag {
+  text-decoration: none;
+}
+
+// Shared layout
+
+body {
+  background: linear-gradient(
+      0.75turn,
+      transparent 60%,
+      rgba(lighten($primary, 70%), 0.5)
+    ),
+    url("/assets/img/alice-thornthon-bg-2.jpg") top left repeat-y;
+  background-size: 100vw;
+  font-family: "Noto", sans-serif;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 1.75;
+}
+
+a {
+  text-decoration: underline;
+
+  &:hover {
+    background-color: lighten($accent, 25%);
+  }
+}
+
+.content {
+  box-sizing: content-box;
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+p {
+  &.small {
+    font-size: 0.875em;
+  }
+}
+
+// Headings
+
+h1,
+h1.title {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+.content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $secondary;
+    font-family: "Lora", serif;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $secondary;
+  font-family: "Lora", serif;
+
+  &.small-heading {
+    font-size: 1.5em;
+  }
+}
+
+.index-page-titles {
+  background: lighten($secondary, 55%);
+  padding: 0.25em;
+  a {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+.title {
+  color: $secondary;
+}
+
+// Homepage
+
+a.button-hp {
+  display: block;
+  margin-bottom: 1em;
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent;
+
+    .read-more-hp {
+      background-color: $accent;
+    }
+
+    svg {
+      fill: $accent;
+    }
+  }
+
+  svg {
+    display: block;
+    fill: $primary;
+    margin: 0.25em auto 0;
+    width: 12px;
+  }
+}
+
+.read-more-hp {
+  display: block;
+  margin: 0 auto 0;
+  max-width: 300px;
+  padding: 0.75em 0 0 0;
+  text-decoration: none;
+
+  &:hover {
+    background: $accent;
+  }
+}
+
+// Index pages with images
+
+.index-page-w-images,
+.person-bio {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 2em;
+  margin-bottom: 1em;
+
+  @include mobile {
+    grid-template-columns: 100%;
+  }
+}
+
+.index-page-w-images {
+  img {
+    width: 100%;
+  }
+}
+
+footer,
+.footer {
+  background-color: lighten($light, 30%);
+}
+
+// Alignment
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Images */
+
+.content .icon {
+  img {
+    background: transparent;
+  }
+}
+
+.content figure {
+  box-sizing: border-box;
+
+  &.media-left,
+  &.media-right,
+  &.media-center {
+    float: unset;
+    max-width: 30vw;
+  }
+
+  &.media-left {
+    float: left;
+    margin: 0.5em 1em 0.5em 0;
+  }
+
+  &.media-right {
+    float: right;
+    margin: 0.5em 0 0.5em 1em;
+  }
+
+  &.media-center {
+    display: block;
+    margin: 1em auto;
+  }
+
+  &.media-full {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 1em 0;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .media-center,
+  .media-left,
+  .media-right,
+  &.media-center,
+  &.media-left,
+  &.media-right {
+    @include mobile {
+      display: block;
+      float: none;
+      margin: 0.5em auto;
+      max-width: 100%;
+    }
+  }
+}
+
+figcaption {
+  font-size: 0.875em;
+  line-height: 1.5;
+  margin: 0 auto 1em;
+  max-width: 30vw;
+
+  @include mobile {
+    max-width: 100%;
+  }
+}
+
+// Gallery
+
+[class^="gallery-"] {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    margin-bottom: 0;
+    padding: 0.5em;
+  }
+}
+
+.gallery-by-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.gallery-by-3 {
+  @include tablet {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.gallery-by-4 {
+  @include tablet {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include desktop {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.logo {
+  img {
+    background: $white;
+    border: 1px solid $light;
+    border-radius: 50%;
+    display: block;
+    height: 50px;
+    max-height: 50px;
+    margin-right: 8px;
+    width: 50px;
+  }
+}
+
+.logos,
+.logos,
+[class^="gallery-"] .logos {
+  padding: 50px;
+
+  img {
+    background: transparent;
+    max-width: 90%;
+
+    @include mobile {
+      margin: 1em auto;
+      max-width: 300px;
+    }
+  }
+
+  @include mobile {
+    padding: 10px;
+  }
+}
+
+.logos {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.navbar {
+  background-color: $primary;
+  color: $light;
+
+  .navbar-burger {
+    color: $light;
+    &:hover {
+      background-color: $light;
+      color: $primary;
+    }
+  }
+
+  a.navbar-item {
+    background-color: $primary;
+    padding: 1.5rem 1rem 1.25rem;
+    text-decoration: none;
+
+    color: $light;
+
+    &.is-active {
+      border-bottom: 4px solid $white;
+      color: $white;
+    }
+
+    @include touch {
+      &.is-active {
+        background-color: $secondary;
+        border-bottom: none;
+      }
+    }
+
+    &:hover {
+      background-color: $white;
+      color: $primary;
+    }
+
+    &:focus {
+      border: 1px solid $accent;
+    }
+  }
+
+  .navbar-menu {
+    background-color: $primary;
+
+    .is-active {
+      color: $primary;
+    }
+  }
+}
+
+// /posts
+
+.post-meta {
+  font-size: 0.875em;
+  font-style: italic;
+
+  .tag {
+    margin-right: 0.5em;
+  }
+}
+
+div.content {
+  img {
+    border: 3px solid $light;
+  }
+}
+
+// Social media
+
+ul.social_media_block {
+  display: grid;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 960px;
+
+  grid-template-columns: 100%;
+  grid-gap: 15px;
+
+  @include tablet {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    li {
+      margin-top: 0;
+    }
+  }
+
+  figure {
+    margin-left: 0;
+    margin-bottom: 1em !important; // Need to test before removing !important
+  }
+
+  img {
+    border: none;
+  }
+}
+
+.tweet {
+  background: $white;
+  border: 1px solid lighten($light, 10%);
+  border-radius: 0.5em;
+  font-size: 0.875em;
+  line-height: 1.5;
+  padding: 1em;
+
+  .icon {
+    svg {
+      fill: $accent;
+    }
+  }
+}
+
+.twitter_user {
+  display: grid;
+  grid-template-columns: 40px auto;
+  grid-gap: 0.5em;
+  line-height: 1.2;
+  margin-bottom: 0.75em;
+}
