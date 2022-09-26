@@ -43,7 +43,7 @@ On a personal note, spending time with Ray was an absolute pleasure: shy by natu
 
 Editors are expected to have an eye for detail and Ray was no exception, as exhibited in an email he sent to me and Cordelia following the first board. There had been some technical difficulties that had curtailed Ray’s response to a question about Thornton’s writing and occasional meditations and he was keen to reassure us that his online response was far from flippant.
 
-![Photo of the front cover of Mary Rich's Occasional Meditations]({{"/assets/img/posts/Rich_Resized.jpg"|url}}){.media-left}
+![Photo of the front cover of Mary Rich's Occasional Meditations]({{"/assets/img/posts/Rich_Resized.jpg"|url}}){.media-right}
 
 In his email, Ray also expressed his reluctance to focus too much attention on meditation in Thornton’s writing as he saw a large disparity between Thornton’s work and that of Mary Rich, Countess of Warwick, whose *Occasional Meditations* he had also edited.
 
