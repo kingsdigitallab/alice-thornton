@@ -3,7 +3,7 @@ title: Professor Raymond Anselment:A Commemoration.
 feature: /assets/img/posts/Ray_Photo.jpg
 status: draft
 authors:
-- strill66
+- strill
 tags:
 - lifewriting
 ---
