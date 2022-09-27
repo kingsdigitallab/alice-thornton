@@ -33,7 +33,9 @@ In this, Ray’s work on Freke anticipated that which was to come on Thornton.  
 
 ![Photo of Cover of My First Booke]({{"/assets/img/posts/MFB_Cover.jpg"|url }}){.media-left}
 
-After *Book 1* and *Book 3* were acquired by the British Library in 2009, Ray’s research culminated in the groundbreaking edition of *My First Booke of My Life* (2013) which was proclaimed “essential” reading for scholars in the fields of early modern history and literature.[^6] It also opened the path that this project seeks to continue.
+After *Book 1* and *Book 3* were acquired by the British Library in 2009, Ray’s research culminated in the groundbreaking edition of *My First Booke of My Life* (2013) which was proclaimed “essential” reading for scholars in the fields of early modern history and literature.[^6]
+
+It also opened the path that this project seeks to continue.
 
 In his typically unassuming manner, when we invited Ray to be on our Project Board he voiced his concern that he was  “unfamiliar with TEI” in a personal email before allowing that “if there might be some place on the Steering Group, [he] would be pleased to be part of it”.  We were, of course, delighted that he was willing to share his unparalleled expertise with us.
 
