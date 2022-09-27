@@ -11,9 +11,9 @@ tags:
 
 Before the news of Queen Elizabeth II’s death, those of us who had gathered for our *Alice Thornton’s Books* end of project year board meeting (8 September 2022) were paying our respects to the remarkable contribution made to the study of early modern women’s writing by Professor Raymond Anselment.
 
-![Image of Professor Raymond Anselment]({{"/assets/img/posts/Ray_Photo.jpg"|url}} "Professor Raymond Anselment, 1939-2022"){.media-left} [^1]
+![Image of Professor Raymond Anselment]({{"/assets/img/posts/Ray_Photo.jpg"|url}} "Professor Raymond Anselment, 1939-2022"){.media-left}
 
-It was only after the announcement of his death that we discovered that Ray’s final academic activity had been to attend the first *Alice Thornton’s Books* project board in March 2022. As had been planned, he joined us via Teams from his home in Connecticut, USA while his wife, Carol, helped him to navigate the technology.
+It was only after the announcement of his death that we discovered that Ray’s final academic activity had been to attend the first *Alice Thornton’s Books* project board in March 2022. As had been planned, he joined us via Teams from his home in Connecticut, USA while his wife, Carol, helped him to navigate the technology.[^1]
 
 Ray was one of the first people with whom we shared [Cordelia's discovery](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) of the *Book of Remembrances*, and he played a vital role in establishing its authenticity. Until then, that volume was thought only to survive in a microfilm copy deposited at the Beinecke library, Yale.
 
