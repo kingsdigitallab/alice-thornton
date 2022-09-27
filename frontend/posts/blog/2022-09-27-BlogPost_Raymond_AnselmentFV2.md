@@ -1,7 +1,7 @@
 ---
 title: Professor Raymond Anselment <br> A Commemoration
 feature: /assets/img/posts/Ray_Photo.jpg
-status: draft
+status: live
 authors:
 - strill
 tags:
