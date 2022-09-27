@@ -1,7 +1,20 @@
+# Alice Thornton Digital Edition (edition branch)
+
+![TEI Validation](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/validate-tei.yml/badge.svg?branch=edition)
+
+This branch holds the source files of the digital edition.
+
+Conventions:
+
+- please use only digits, lowercase letters and underscore for file names. No space, dash or other characters;
+- to reduce risks of conflicts (i.e. same portion of a file modified by two different editors), please pull, commit and push often;
+- please avoid pushing breaking changes;
+- when you revert changes, be mindful of not losing work done by others;
+
+# Alice Thornton project code (other branches)
+
 [![Build Site](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/build.yml/badge.svg)](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/build.yml)
 [![TEI Validation](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/validate-tei.yml/badge.svg?branch=edition)](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/validate-tei.yml)
-
-# Alice Thornton project code
 
 The web site is developed using a Static Site Generator called [11ty](https://www.11ty.dev/).
 
