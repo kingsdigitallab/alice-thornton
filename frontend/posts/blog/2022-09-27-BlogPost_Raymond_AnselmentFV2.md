@@ -11,7 +11,7 @@ tags:
 
 Before the news of Queen Elizabeth II’s death, those of us who had gathered for our *Alice Thornton’s Books* end of project year board meeting (8 September 2022) were paying our respects to the remarkable contribution made to the study of early modern women’s writing by Professor Raymond Anselment.
 
-![Image of Professor Raymond Anselment]({{"/assets/img/posts/Ray_Photo.jpg"|url}} "Professor Raymond Anselment, 1939-2022"){.media-left}
+![Image of Professor Raymond Anselment]({{"/assets/img/posts/Ray_Photo.jpg"|url}} "Professor Raymond Anselment, 1939-2022"){.media-left} [^1]
 
 It was only after the announcement of his death that we discovered that Ray’s final academic activity had been to attend the first *Alice Thornton’s Books* project board in March 2022. As had been planned, he joined us via Teams from his home in Connecticut, USA while his wife, Carol, helped him to navigate the technology.
 
@@ -25,15 +25,15 @@ Over the course of his lengthy career, Ray published prolifically on a broad ran
 
 ![Photo of front cover of edition of Elizabeth Freke's Remembrances]({{"/assets/img/posts/Freke_Resized.jpg"|url}}){.media-right}
 
-However, while Ray’s earlier work focused on predominantly canonical male poets, his interest in seventeenth-century women’s writing was in evidence from at least the 1980s when he wrote an article about the Countess of Carlisle.[^1] By the time he wrote *The Realms of Apollo: Literature and Healing in Seventeenth-Century England* (1995), Ray was already drawing heavily on the writings of Elizabeth Freke, Mary Rich, Countess of Warwick, and Alice Thornton, whose work he would later edit for a wider audience.
+However, while Ray’s earlier work focused on predominantly canonical male poets, his interest in seventeenth-century women’s writing was in evidence from at least the 1980s when he wrote an article about the Countess of Carlisle.[^2] By the time he wrote *The Realms of Apollo: Literature and Healing in Seventeenth-Century England* (1995), Ray was already drawing heavily on the writings of Elizabeth Freke, Mary Rich, Countess of Warwick, and Alice Thornton, whose work he would later edit for a wider audience.
 
-Although Freke holds the “distinction … of being the memoirist I would least like to meet,” Amy Erickson admitted to being “fascinated” by the way in which Ray’s edition “unleashed” the “full bitterness” of the resentments she records in her *Remembrances*.[^2] This was made possible as Ray produced a full version of both manuscripts of Freke’s life that had previously been conflated in a nineteenth-century edition.
+Although Freke holds the “distinction … of being the memoirist I would least like to meet,” Amy Erickson admitted to being “fascinated” by the way in which Ray’s edition “unleashed” the “full bitterness” of the resentments she records in her *Remembrances*.[^3] This was made possible as Ray produced a full version of both manuscripts of Freke’s life that had previously been conflated in a nineteenth-century edition.
 
-In this, Ray’s work on Freke anticipated that which was to come on Thornton.  While in 1995 and 1996 he had, of necessity, relied on Jackson’s edition, his reservations about Jackson’s editorial process encouraged him to pursue this problem.[^3] With the permission of Paula Peyraud, the then owner of *Book 1* and *Book 3*, Ray was able to draw attention to significant differences between those manuscripts and the Beinecke microfilm.[^4]
+In this, Ray’s work on Freke anticipated that which was to come on Thornton.  While in 1995 and 1996 he had, of necessity, relied on Jackson’s edition, his reservations about Jackson’s editorial process encouraged him to pursue this problem.[^4] With the permission of Paula Peyraud, the then owner of *Book 1* and *Book 3*, Ray was able to draw attention to significant differences between those manuscripts and the Beinecke microfilm.[^5]
 
 ![Photo of Cover of My First Booke]({{"/assets/img/posts/MFB_Cover.jpg"|url }}){.media-left}
 
-After *Book 1* and *Book 3* were acquired by the British Library in 2009, Ray’s research culminated in the groundbreaking edition of *My First Booke of My Life* (2013) which was proclaimed “essential” reading for scholars in the fields of early modern history and literature.[^5] It also opened the path that this project seeks to continue.
+After *Book 1* and *Book 3* were acquired by the British Library in 2009, Ray’s research culminated in the groundbreaking edition of *My First Booke of My Life* (2013) which was proclaimed “essential” reading for scholars in the fields of early modern history and literature.[^6] It also opened the path that this project seeks to continue.
 
 In his typically unassuming manner, when we invited Ray to be on our Project Board he voiced his concern that he was  “unfamiliar with TEI” in a personal email before allowing that “if there might be some place on the Steering Group, [he] would be pleased to be part of it”.  We were, of course, delighted that he was willing to share his unparalleled expertise with us.
 
@@ -54,12 +54,14 @@ We are honoured to have had his support and will continue our work on Thornton i
 <br>
 <br>
 
-[^1]: Raymond A. Anselment, ‘The Countess of Carlisle and Caroline Praise: Convention and Reality’, *Studies in Philology* 82, no. 2 (1985): 212–33.
+[^1]: Image from ‘Raymond Anselment, 1939-2022’, Hartford Courant, accessed 4 September 2022, https://www.legacy.com/us/obituaries/hartfordcourant/name/raymond-anselment-obituary?id=34443031. All other photographs in this blog were taken by the author, Suzanne Trill.
 
-[^2]: Dr Amy Erickson, 'Review of *The Remembrances of Elizabeth Freke, 1671–1714*, (Review No. 393)'. https://Reviews.History.ac.uk/Review/393. Access Date: 04 September, 2022.
+[^2]: Raymond A. Anselment, ‘The Countess of Carlisle and Caroline Praise: Convention and Reality’, *Studies in Philology* 82, no. 2 (1985): 212–33.
 
-[^3]: Raymond A. Anselment, *The Realms of Apollo: Literature and Healing in Seventeenth-Century England* (Newark : London ; Cranbury, NJ: University of Delaware Press ; Associated University Presses, 1995); ‘The Deliverances of Alice Thornton: The Re-Creation of a Seventeenth-Century Life’, *Prose Studies* 19, no. 1 (1996): 19–36.
+[^3]: Dr Amy Erickson, 'Review of *The Remembrances of Elizabeth Freke, 1671–1714*, (Review No. 393)'. https://Reviews.History.ac.uk/Review/393. Access Date: 04 September, 2022.
 
-[^4]: Raymond A. Anselment, ‘Seventeenth-Century Manuscript Sources of Alice Thornton’s Life’, *SEL* 45, no. 1 (2005): 135–55; ‘“My First Booke of My Life:” The Apology of a Seventeenth-Century Gentry Woman’, *Prose Studies* 24, no. 2 (2001): 1–14.
+[^4]: Raymond A. Anselment, *The Realms of Apollo: Literature and Healing in Seventeenth-Century England* (Newark : London ; Cranbury, NJ: University of Delaware Press ; Associated University Presses, 1995); ‘The Deliverances of Alice Thornton: The Re-Creation of a Seventeenth-Century Life’, *Prose Studies* 19, no. 1 (1996): 19–36.
 
-[^5]: Catherine Loomis, back cover of Raymond A. Anselment, ed., *My First Booke of My Life: Alice Thornton* (Lincoln and London: University of Nebraska Press, 2014).
+[^5]: Raymond A. Anselment, ‘Seventeenth-Century Manuscript Sources of Alice Thornton’s Life’, *SEL* 45, no. 1 (2005): 135–55; ‘“My First Booke of My Life:” The Apology of a Seventeenth-Century Gentry Woman’, *Prose Studies* 24, no. 2 (2001): 1–14.
+
+[^6]: Catherine Loomis, back cover of Raymond A. Anselment, ed., *My First Booke of My Life: Alice Thornton* (Lincoln and London: University of Nebraska Press, 2014).
