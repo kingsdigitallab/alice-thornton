@@ -1,6 +1,6 @@
 ---
 title: "Professor Raymond Anselment: A Commemoration"
-feature: /assets/img/posts/Ray_Photo_Resized.jpg
+feature: /assets/img/posts/Ray_Photo.jpg
 status: live
 authors:
 - strill
