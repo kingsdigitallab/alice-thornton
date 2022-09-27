@@ -56,7 +56,7 @@ We are honoured to have had his support and will continue our work on Thornton i
 <br>
 <br>
 
-[^1]: Image from ‘Raymond Anselment, 1939-2022’, Hartford Courant, accessed 4 September 2022, https://www.legacy.com/us/obituaries/hartfordcourant/name/raymond-anselment-obituary?id=34443031. All other photographs in this blog were taken by the author, Suzanne Trill.
+[^1]: Image from ‘Raymond Anselment, 1939-2022’, Hartford Courant, accessed 4 September 2022, https://www.legacy.com/us/obituaries/hartfordcourant/name/raymond-anselment-obituary?id=34443031. All other photographs in this blog were taken by Suzanne Trill.
 
 [^2]: Raymond A. Anselment, ‘The Countess of Carlisle and Caroline Praise: Convention and Reality’, *Studies in Philology* 82, no. 2 (1985): 212–33.
 
