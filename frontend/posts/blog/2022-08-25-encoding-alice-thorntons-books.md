@@ -1,7 +1,7 @@
 ---
 title: "Encoding Alice Thornton's Books"
 feature: /assets/img/posts/most-mentioned-names-bar-chart-fi.png
-status: draft
+status: live
 authors:
   - showard
 tags:
@@ -9,8 +9,7 @@ tags:
   - visualisation
 ---
 
-Encoding highly complex texts like Alice Thornton's books is a process
-of interpretation in order to make explicit some of the underlying
+Encoding highly complex texts like Alice Thornton's books is a process of interpretation in order to make explicit some of the underlying
 structures and patterns in a text. How does text encoding in TEI XML
 enable our project to turn Alice Thornton's books into a digital
 scholarly edition and help to answer our [key
@@ -42,7 +41,7 @@ anticipated.[^2]
 
 Alice Thornton's books have multiple potential audiences - in literature
 and history (social, political, religious, gender, of medicine) - and
-beyond academic readers. Because we can mark up several different
+beyond academic readers (e.g. those interested in the British Civil Wars, local history, family history, women's history). Because we can mark up several different
 “layers” of meaning within the texts, TEI makes it possible, in a sense,
 to have multiple versions of the books within a single edition, catering
 for varying perspectives.
@@ -128,7 +127,8 @@ mentioned people in two of Alice Thornton's Books. Her husband, mother
 and father are the top three in each book, but after that there are several differences between books.]({{ "/assets/img/posts/most-mentioned-names-bar-chart-1.png" | url }} "Most frequently mentioned people in Book Rem and Book 1"){.media-center}
 
 
-At first sight they do look broadly similar. But on a closer examination, there
+At first sight they do look broadly similar, with the same names in the top three.
+But on a closer examination, there
 are quite a lot of variations in rankings. It's easier to compare these
 changes with a less common type of chart (known as a [slopegraph](http://seeingdata.org/taketime/inside-the-chart-slope-graph/)). In
 addition to comparing the rankings, I've colour-coded the names

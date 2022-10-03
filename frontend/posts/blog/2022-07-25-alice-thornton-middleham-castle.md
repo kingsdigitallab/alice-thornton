@@ -61,7 +61,7 @@ So the child was not called Francis at all! Why then did Alice get such a key pi
 
 Alice doesn't get the godparents right, either – you can see in the image above of the page in her book that she at first didn't recall that she herself had been a godparent, and also added in Co. Branlen later. The much more reliable lists in the Northallerton archive show that the third witness was a Mr. Jackson, which the list in Gale's booklet adds was 'of Cowline' (probably Cowling, North Yorkshire).[^8] Brandling may well have been at the castle when the child was born, given his royalist allegiances, but he was not a godparent.
 
-Alice then remembered this incident refracted through the lens of many years. She remembered the birth of a child named after another child who died but confused the name and recalled that there were godparents but got slightly muddled on the details. Given how much later she was writing, and the lack of ease in finding out these sorts of details, it is not surprising she got quite a few key details of the event wrong.
+Alice, then, remembered this incident refracted through the lens of many years. She remembered the birth of a child named after another child who died but confused the name and recalled that there were godparents but got slightly muddled on the details. Given how much later she was writing, and the lack of ease in finding out these sorts of details, it is not surprising she got quite a few key details of the event wrong.
 
 To find out more about Alice and Middleham Castle, listen to [episode 173](https://soundcloud.com/englishheritage/episode-173-civil-war-and-childbirth-alice-thornton-and-middleham-castle/) of the English Heritage podcast.
 
