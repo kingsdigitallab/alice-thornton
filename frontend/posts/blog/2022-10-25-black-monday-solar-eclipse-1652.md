@@ -1,6 +1,6 @@
 ---
 title: Black Monday - The Solar Eclipse of March 1652
-feature: /assets/img/posts/catastrophe_magnum.jpg
+feature: /assets/img/posts/eclipse_diagram.jpg
 status: draft
 authors:
   - jedge
