@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="atb-book-of-remembrances">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="atb-book-of-remembrances">
    <teiHeader>
       <fileDesc>
          <titleStmt> 
@@ -985,7 +983,7 @@
           the passengers was delivired from that<lb/>
            great &amp; terable Sorme<note place="end" type="word">
                <p rend="Endnote Text"> [word] Sic for ‘Storme’.</p>
-            </note> in <geogName>nesston<lb/>
+            </note> in <geogName n="geog1">nesston<lb/>
            water</geogName><!-- [review] nesston, not neuton. I think new geogname "Neston Water" rather than placename (Neston: Nest_040) but ensure it's linked to the place. --> where there was 5 ships cast<lb/>
           away before we tooke ship. but the<lb/>
            same great God that maketh the stomes<note place="end" type="word">
@@ -1231,7 +1229,7 @@
          </fw>
          <milestone n="ev27" unit="event"/>
          <p xml:id="p-0033"> <persName ref="ppl:gw1" n="per56">my brother George Wandesforde</persName><lb/>
-           was drouned Riding over <geogName>the Swaile</geogName> at<lb/>
+           was drouned Riding over <geogName n="geog2">the Swaile</geogName> at<lb/>
         <placeName ref="place:Hips_022" n="place32">Hipswell</placeName> wath goeing to <placeName ref="place:Rich_043" n="place33">Richmond</placeName><lb/>
            to <persName ref="ppl:ww1" n="per57">my uncle will. wandesforde</persName>, the <date when-custom="1651-03-31">31
             <lb/>
@@ -7337,7 +7335,7 @@
         <milestone n="ev101" unit="event"/>   
          <p xml:id="p-0182">I had a sad dreame <date when-custom="1650-10">halfe a yeare before</date><!-- NOTE [dates] durations could be differently handled but this will do for now. --> my<lb/>
           Brothr <persName ref="ppl:gw1" n="per374">George Wandesford</persName> was lost. That he was<lb/>
-          goeing over <rs type="geog">thys River</rs> and that it did Rise then<lb/>
+          goeing over <rs n="geog3" type="geog">thys River</rs> and that it did Rise then<lb/>
           when he was in it. which soe over came him. That he<lb/>
           could make noe helpe for him selfe. And soe was<lb/>
           drowned in it. This Dreame did trouble me much<lb/>
@@ -7350,7 +7348,7 @@
           George</persName> came into the Chambr &amp; asked me what made<lb/>
           me weepe soe sore. I answrd it was for him. why sad<lb/>
           he sister doest thou wepe for me. I said becaise he<lb/>
-          was soe ventrous to goe ovr that dangerous <geogName>Rivr<lb/>
+          was soe ventrous to goe ovr that dangerous <geogName n="geog4">Rivr<lb/>
           <damage agent="tear"><supplied reason="damage">S</supplied></damage>wale</geogName> &amp; that I feard he might be lost in it. And<lb/>
           begged of him for Gods sake that he would <add place="above">not</add> presume to<lb/>
           goe soe when it was high for I feard him much that<lb/>
@@ -7387,7 +7385,7 @@
            &amp; my selfe.<milestone unit="marker" rend="delim(diagonal)"/> But in the Affter noone my brothr<lb/>
           <persName ref="ppl:gw1" n="per382">G: W:</persName> did goe to see <persName ref="ppl:hd1" n="per383">Mr Henry Darcy</persName>. and find<damage agent="tear"><supplied reason="damage">ing</supplied></damage>
             <lb/>
-           him not at home, entertand him selfe with <persName ref="ppl:dbd1" n="per384">old mot<ex>ther</ex>><lb/> 
+           him not at home, entertand him selfe with <persName ref="ppl:dbd1" n="per384">old mot<ex>ther</ex>&gt;<lb/> 
              Darcy</persName>. &amp; he tooke a Bible and read a chapter to he[r]<!-- Q [review] check ms - might be readable? --><lb/>
           &amp; did make such an admirable exposition on it<lb/>
 
