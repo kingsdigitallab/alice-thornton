@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="atb-book-one">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="atb-book-one">
   <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -269,6 +267,12 @@
                     <name>Sharon Howard</name>
                     <desc>added xml:id to paragraphs and pb.</desc>
                 </change>
+                <change>
+                    <date>2022-10-04</date>
+                    <name>Sharon Howard</name>
+                    <desc>xslt added unique n to previously overlooked place names.</desc>
+                </change>
+                
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -727,7 +731,7 @@ point to <category> elements or to feature structure components.
                  beeing neare to have burnt it downe, but through<lb/>
                  the caire of our Servants it was prevented. this was don <lb/>
                  at night when <rs ref="ppl:cw1" n="per19" type="person">my father</rs> &amp; <rs ref="ppl:aow1" n="per20" type="person">mother</rs> was att Court.<lb/>
-                 but wee were preserved that time of fright at <rs type="place"><persName ref="ppl:xl1" n="per21">my Lady<lb/>
+                 but wee were preserved that time of fright at <rs n="place-supp1" type="place"><persName ref="ppl:xl1" n="per21">my Lady<lb/>
                  Levestone</persName>s house</rs><!-- Q [place] - identifiable? - JE --> beeing caried by <persName ref="ppl:st1" n="per22">Sara our maide</persName>.<lb/>
                  This fire seemed to me as if the day of judgement was<lb/>
                  come causeing much feare &amp; trembling. yet we were<lb/>
@@ -874,9 +878,9 @@ point to <category> elements or to feature structure components.
             </head>
             <milestone n="ev11" unit="event"/><!-- NOTE event from ireland to bristol -->
             <p xml:id="p-0035">having<!-- Q [review] "having"= "Having" in image --> come over into <placeName ref="place:Engl_094" n="place14">England</placeName>, when my Mother<lb/>
-                 came for her cure of the dissease of the Stone to <placeName>the Bat-<add place="above">hes</add></placeName><lb/>
+                 came for her cure of the dissease of the Stone to <placeName n="place-supp2">the Bat-<add place="above">hes</add></placeName><lb/>
                  &amp; <placeName ref="place:Bris_004" n="place15">Bristoll</placeName> water<!-- Q [place] don't thikn I've tagged this right... -->, <placeName ref="place:StVi_051" n="place16">St Vincents well</placeName><anchor n="ev11" type="event"/>; (uppon which Rose<lb/>
-                 hanging over it, is got your <placeName>Bristow</placeName> Diamonds.) <milestone n="ev12" unit="event"/>in<lb/><!-- NOTE event return to ireland - storm -->
+                 hanging over it, is got your <placeName n="place-supp3">Bristow</placeName> Diamonds.) <milestone n="ev12" unit="event"/>in<lb/><!-- NOTE event return to ireland - storm -->
                  her returne backe into <placeName ref="place:Irel_096" n="place17">Ireland</placeName>, she carried <persName ref="ppl:kwd1" n="per44">my<lb/>
                      Sister Danbie</persName>s <rs ref="ppl:td4 ppl:cd4" n="per45" type="person">2 Elldest sons</rs><!-- NOTE people = christopher and thomas -->. for theire better<lb/>
                  Education, When we came to <placeName ref="place:Nest_040" n="place18">Nesston</placeName>. at the Sea<lb/>
@@ -911,7 +915,7 @@ point to <category> elements or to feature structure components.
                 <add xml:id="ex-add-margin-above-01" place="left margin above">To harbour</add>
                  <!-- [endnote] [insertion] This insertion is partially placed in the left-hand margin. -->
                  through the infinitt mercys of our great, &amp; Powerfull<lb/>
-                 Lord God, we landed safely at the shore of <placeName>the Skirries</placeName>.<lb/><!-- NOTE [place] This is Skerries, Dublin, not Skerries off Anglesey - JE -->
+                 Lord God, we landed safely at the shore of <placeName n="place-supp4">the Skirries</placeName>.<lb/><!-- NOTE [place] This is Skerries, Dublin, not Skerries off Anglesey - JE -->
                  where <persName ref="ppl:xh1" n="per47">the same Hubert</persName> with all his familie, &amp; freinds<lb/>
                  mett us with great Joy, entertaining <rs ref="ppl:aow1" n="per48" type="person">my mother</rs> &amp;<lb/>
                  All hers, with abundante affection, &amp; kindenesse.<lb/>
@@ -1076,7 +1080,7 @@ point to <category> elements or to feature structure components.
                  Strafford</persName>, &amp;c. in the yeares. <date type="political" when-custom="1640/1641">1640. 41</date>. And <lb/>
                  on his fatall murder: <date type="death" when-custom="1641-05-12">may: 12 1641</date>.
             </head>
-            <p xml:id="p-0042">After <rs ref="ppl:aow1" n="per59" type="person">my mother</rs>s returne from <placeName>the Bathes</placeName>, &amp;,<lb/>
+            <p xml:id="p-0042">After <rs ref="ppl:aow1" n="per59" type="person">my mother</rs>s returne from <placeName n="place-supp5">the Bathes</placeName>, &amp;,<lb/>
                  <placeName ref="place:Bris_004" n="place27">Bristoll</placeName>, where she found much good as to the<lb/>
                  cure of the stone.</p>
             <milestone n="ev16" unit="event"/>
@@ -1132,13 +1136,13 @@ point to <category> elements or to feature structure components.
             
             <p xml:id="p-0045">The Irish thirsting, affter the blood, &amp; lives of the <lb/>
                  English, pretended oppression. to be made subject<lb/>
-                 to the Lawes of <placeName>England</placeName>. &amp; the other of that nation could<lb/>
+                 to the Lawes of <placeName n="place-supp6">England</placeName>. &amp; the other of that nation could<lb/>
                  not be subject to our Church Government, &amp; orde<lb/>
                  ers, but affected a loose libertaineissme to their<lb/>
                  owne pernicious waies, joyned with the Irish in<lb/>
                  theire complaints against <rs ref="ppl:tw1" n="per66" type="person">this wise &amp; noble<lb/>
                  Person</rs>; whom indeed they were not worthy of<lb/>
-                 under whoes jurisdiction, <rs type="place">that Kingdome</rs> had in-<lb break="no"/>
+                 under whoes jurisdiction, <rs n="place-supp7" type="place">that Kingdome</rs> had in-<lb break="no"/>
                  -joyed 7 yeares of peace &amp; Plenty. All his<lb/>
                  endeavours ever tending for theire good, the<lb/>
                  True Establishment of His King, &amp; Religion<lb/>
@@ -1317,8 +1321,8 @@ point to <category> elements or to feature structure components.
                 <milestone n="ev17" unit="event"/><!-- NOTE event CW as lord deputy -->
             <p xml:id="p-0059">
                 Uppon <rs type="person">my Lord Lieutennants of Irland</rs>s goeing<lb/>
-                 for <placeName>England</placeName>. <rs type="person">the King</rs> was graciously pleased to<lb/>
-                 send his Commission under the great Seale of <placeName>England</placeName><lb/>
+                 for <placeName n="place-supp8">England</placeName>. <rs type="person">the King</rs> was graciously pleased to<lb/>
+                 send his Commission under the great Seale of <placeName n="place-supp9">England</placeName><lb/>
                  to <rs ref="ppl:cw1" n="per83" type="person">my Father</rs>. to succeed <persName ref="ppl:tw1" n="per84">my Lord of Strafford</persName>. in that<lb/>
                  weighty Place of Deputie-Ship.<lb/>
                  In which he actted with so much Pietie, Loyallty, <lb/>
@@ -1354,7 +1358,7 @@ point to <category> elements or to feature structure components.
                  <placeName ref="place:Engl_094" n="place41">England</placeName> gained soe much uppon affections of that<lb/>
                  Nation. &amp; all whome he lived amongst. </p>
           <anchor n="ev17" type="event"/>
-            <p xml:id="p-0063">His Life was given for a Publicke good, to <rs type="place">that King<add place="above">dome</add></rs><lb/>
+            <p xml:id="p-0063">His Life was given for a Publicke good, to <rs n="place-supp10" type="place">that King<add place="above">dome</add></rs><lb/>
                  as well, as to be a bllissing in his owne Familie.<lb/>
                  Who was exceeding happie in such a <rs type="person">Father</rs> &amp;<lb/>
                  Head. <rs ref="ppl:aow1" n="per85" type="person">His deare &amp; beloved wife</rs>, most blessed in<lb/>
@@ -1434,7 +1438,7 @@ point to <category> elements or to feature structure components.
             <milestone n="ev18" unit="event" type="illness"/><!-- NOTE event cw fell ill. subEvent? -->
              It pleased <add place="above">God</add> to vissite <rs ref="ppl:cw1" n="per88" type="person">my deare father</rs>, with a<lb/>
              feaver, <date when-custom="1640-11">at the latter end of November</date>. which kept him<lb/>
-             about a weeke or 10, daies in <rs type="place">the house</rs>. but finding<lb/>
+             about a weeke or 10, daies in <rs n="place-supp11" type="place">the house</rs>. but finding<lb/>
              him selfe some what better. went to Church, beeing<lb/>
             
 
@@ -1633,7 +1637,7 @@ point to <category> elements or to feature structure components.
           <milestone n="ev23" unit="event"/>
             <p xml:id="p-0087">He was the Maister of the Rowles in <placeName ref="place:Irel_096" n="place43">Ireland</placeName> 7<lb/>
                  yeares. One of his Majesty privey councell. A<lb/>
-                 Judge in the <placeName>Kings Bench</placeName>. Once Lord cheife<lb/>
+                 Judge in the <placeName n="place-supp12">Kings Bench</placeName>. Once Lord cheife<lb/>
                  Justice of that Nation. And Lastly he died the <lb/>
                  Lord Deputy of that Kingdome of <placeName ref="place:Irel_096" n="place44">Ireland</placeName>.</p>
             <p xml:id="p-0088">beeing the only Man in that place (as was observd<lb/>
@@ -1882,7 +1886,7 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0108">As it was with the stuborne Jewes. so it is our owne<lb/>
                  case, God knowes, in these Kingdomes. our sinns<lb/>
                  were ripe for to be cut downe by the sickle of Gods<lb/>
-                 Judgements <add place="above">by or Ennimies.</add> &amp; for them, to fall on <rs type="place">this Kingdome</rs><!-- Q [[place] is this Ireland? - JE -->.<lb/>
+                 Judgements <add place="above">by or Ennimies.</add> &amp; for them, to fall on <rs n="place-supp13" type="place">this Kingdome</rs><!-- Q [[place] is this Ireland? - JE -->.<lb/>
                  Whoes bloody <add place="above">desiress</add> had soe farre besotted there hearts that<lb/>
                  were uppon a speedy excution of theire designes.<lb/>
                  All whose secrett intentions God saw. (&amp; that <rs ref="ppl:cw1" n="per123" type="person">my<lb/>
@@ -1920,7 +1924,7 @@ point to <category> elements or to feature structure components.
                  to prevent the falling of them uppon us. by his frequent<lb/>
                  admonishments, &amp; reproofs for theire vanities.<lb/>
                  With his Zealous praiers &amp; deepe humiliation. of his person<lb/>
-                 And daily intercessions at the throne of Grace for <rs type="place">these<lb/>
+                 And daily intercessions at the throne of Grace for <rs n="place-supp14" type="place">these<lb/>
                  three Kingdomes</rs>.</p>
 
             <pb xml:id="page-044" n="44"/>
@@ -1942,9 +1946,9 @@ point to <category> elements or to feature structure components.
                  <rs ref="ppl:aow1" n="per125" type="person"><rs type="person">my father</rs>s wife</rs> &amp; <rs type="group">children</rs>.</p>
             <p xml:id="p-0114">Soe that not a haire of our heads perished in the<lb/>
                  generall destructions either by the Irish, or English<lb/>
-                 Rebellions. <milestone n="ev26" unit="event"/>In <placeName>Ireland</placeName> were we miraculosly<lb/>
+                 Rebellions. <milestone n="ev26" unit="event"/>In <placeName n="place-supp15">Ireland</placeName> were we miraculosly<lb/>
                  Preserved in <placeName ref="place:Dubl_088" n="place49">Dublin</placeName>, <date when-custom="1641-10/1641-11" precision="medium">for severall weeks affter</date> the<lb/>
-                 Rebellion was broken out in <rs type="place">the countrey</rs>.<lb/>
+                 Rebellion was broken out in <rs n="place-supp16" type="place">the countrey</rs>.<lb/>
                  And though in much frights by Alarums from<lb/>
                  the Enimies, yet were we delivered from those<lb/>
                  evills, till by a safe passage into <placeName ref="place:Engl_094" n="place50">England</placeName> with<lb/>
@@ -1953,7 +1957,7 @@ point to <category> elements or to feature structure components.
                  <placeName ref="place:Beer_003" n="place53">Beere house at Nestton</placeName>.<anchor n="ev26" type="event"/><!-- NOTE event /irish rebellion (deliverance) --></p>
             <p xml:id="p-0115">Thus was there a Sanctuary from those Perills<lb/>
                  for <rs ref="ppl:cw1" n="per127" type="person">this righteous man</rs>s familie when 1000 was<lb/>
-                 swallowed up in the common calamities of <rs type="place">that <lb/>
+                 swallowed up in the common calamities of <rs n="place-supp17" type="place">that <lb/>
                  Kingdome</rs>, by the Irish Papists. And soe Alsoe,<lb/>
             
 
@@ -2708,9 +2712,9 @@ point to <category> elements or to feature structure components.
                 Thus she contineued<lb/>
                 till <date when-custom="1641-10-23">about the october affter, when on the 23<hi rend="superscript">d</hi> day in the<lb/>
                  yeare 1641</date> that horrid Rebellion &amp; massacre of the <lb/>
-                 poore English Protestants began to breake out in <rs type="place">the<lb/>
+                 poore English Protestants began to breake out in <rs n="place-supp18" type="place">the<lb/>
                  countery</rs>. Which was by the all seeing Providence of God<lb/>
-                 prevented in the <placeName>Citie of Dublin</placeName> where we weare.<lb/>
+                 prevented in the <placeName n="place-supp19">Citie of Dublin</placeName> where we weare.<lb/>
             
 
             <pb xml:id="page-063" n="63"/>
@@ -2743,13 +2747,13 @@ point to <category> elements or to feature structure components.
                  Leaders of this wickedness. was desined to Sease upon<lb/>
                  <placeName ref="place:Dubl_089" n="place63">the Castle of Dublin</placeName>, which at that time was Richly stored with<lb/>
                  All Amunition, Armes, Ordenances. &amp; other Artillery<lb/>
-                 for the defence of <rs type="place">the Castle</rs> &amp; Kingdomes. by the <persName ref="ppl:tw1" n="per155">Lord Lieueten<lb/>
+                 for the defence of <rs n="place-supp20" type="place">the Castle</rs> &amp; Kingdomes. by the <persName ref="ppl:tw1" n="per155">Lord Lieueten<lb/>
                  Strafford</persName>, well knowing that the Irish must be ride with a curb<lb/>
                  But this place of the English strength; was then cairlessly<lb/>
                  at that time deserted; none being sett to gaurd the bridge &amp;<lb/>
                  <surplus>&amp;</surplus> gates. but 4 weake old men that could make noe resistan<add place="above">ce</add><lb/>
                  <date when-custom="1641-10-23">That night beeing (satterday)</date>, before <persName ref="ppl:cm1" n="per156">Mackguire</persName> should<lb/>
-                 have taken possession of <rs type="place">the Castle</rs>. he beeing desined the gover<add place="above">nor</add><lb/>
+                 have taken possession of <rs n="place-supp21" type="place">the Castle</rs>. he beeing desined the gover<add place="above">nor</add><lb/>
                  thereof, by the Rebbells. &amp; should have seised on it on the <lb/>
             
 
@@ -2785,7 +2789,7 @@ point to <category> elements or to feature structure components.
                  that could be to cut there throats, &amp; to morrow by 6<lb/>
                  a clocke in the morning said he <persName ref="ppl:cm1" n="per164">my Lord Mackguire</persName><lb/>
                  will be master of <placeName ref="place:Dubl_089" n="place66">Dublin Castle</placeName>. &amp; they would<lb/>
-                 Batter downe <rs type="place">the Towne</rs> over the Heriticke Dogs<lb/>
+                 Batter downe <rs n="place-supp22" type="place">the Towne</rs> over the Heriticke Dogs<lb/>
                  eares &amp; not spaire one of them.</p>
             <p xml:id="p-0167">After which speach <rs ref="ppl:tbd-macmahon" n="per165" type="person">his cosen the Protestant</rs> started,<lb/>
                  &amp; cried out, what shall I doe for <rs ref="ppl:tbd-macmahon" n="per166" type="person">my wife</rs>.</p>
@@ -2839,12 +2843,12 @@ point to <category> elements or to feature structure components.
                 <fw type="pageNum">66.</fw>
             <!-- NOTE [event] new (rebellion outside Dublin) -->
             <milestone n="ev28" unit="event"/>
-            <p xml:id="p-0171">Whereas the Rebellion began that <date when-custom="1641-10-24">Sunday</date> <rs type="place">in the Coun<add place="above">try</add></rs><lb/>
+            <p xml:id="p-0171">Whereas the Rebellion began that <date when-custom="1641-10-24">Sunday</date> <rs n="place-supp23" type="place">in the Coun<add place="above">try</add></rs><lb/>
                  with sword, fire, &amp; murdering all before them, not<lb/>
                  spairing infant of daies nor old Age. all was made<lb/>
                  havocke of &amp; so contineued till they had notice<lb/>
                  that it was discovered in <placeName ref="place:Dubl_088" n="place68">Dublin</placeName> &amp; were prevented by<lb/>
-                 our forces which defended <rs type="place">the Cittie</rs>.</p>
+                 our forces which defended <rs n="place-supp24" type="place">the Cittie</rs>.</p>
             <anchor n="ev28" type="event"/>
             
             <milestone n="ev29" unit="event"/>
@@ -2853,7 +2857,7 @@ point to <category> elements or to feature structure components.
                  in <placeName ref="place:Dubl_088" n="place69">Dublin</placeName>. when we were forced upon the Alarume to<lb/>
                  leave our house. &amp; fly into <placeName ref="place:Dubl_089" n="place70">the Castle</placeName> that night. with all<lb/>
                  <rs ref="ppl:aow1" n="per171" type="person">my mother</rs>s Familie &amp; what goods she could.<lb/>
-                 from thence we were forced into <rs type="place">the Citie</rs>. continueing<lb/>
+                 from thence we were forced into <rs n="place-supp25" type="place">the Citie</rs>. continueing<lb/>
                  for 14 daies &amp; nights in great feares, frights &amp; hidi<lb/>
                  ous distractions &amp; disturbances from the Alarums &amp;<lb/>
                  out cries given in <placeName ref="place:Dubl_088" n="place71">Dublin</placeName>, each night by the Rebells.<lb/>
@@ -2872,7 +2876,7 @@ point to <category> elements or to feature structure components.
                  In providing a Ship to transport us all together<lb/>
                  with her good Plate, &amp; houshold stuffe in <placeName ref="place:Dubl_088" n="place73">Dublin</placeName>. which<lb/>
                  she affterwards delivered to <persName ref="ppl:ww1" n="per177">my uncle Will.<hi rend="superscript" xml:id="ex-hi-sup-tbd-01">m</hi> Wandes<ex xml:id="ex-ex-contraction-line-above-01">forde</ex></persName><lb/>
-                 affter she came to <placeName>weschester</placeName>. But it pleased God to<lb/>
+                 affter she came to <placeName n="place-supp26">weschester</placeName>. But it pleased God to<lb/>
                  give us all a safe &amp; quiett passage out of <placeName ref="place:Irel_096" n="place74">Ireland</placeName><lb/>
             
 
@@ -2999,10 +3003,10 @@ point to <category> elements or to feature structure components.
             <milestone n="ev31" unit="event"/><!-- NOTE event chester arrival -->
             <p xml:id="p-0183">After our comming to <placeName ref="place:Ches_012" n="place85">Weschester</placeName> from <placeName ref="place:Beer_003" n="place86">the Beerehouse neare<lb/>
                  Neston</placeName>, when wee fled out of the Irish Rebellion. It pleased<lb/>
-                 God to move the gentry of <rs type="place">the Cittie</rs> to be exceeding courteous<lb/>
+                 God to move the gentry of <rs n="place-supp27" type="place">the Cittie</rs> to be exceeding courteous<lb/>
                  &amp; civill to <rs ref="ppl:aow1" n="per186" type="person">my deare Mother</rs> &amp; my selfe. assisting her with<lb/>
                  what necessaries she wanted in a strange place, &amp; such<lb/>
-                 pittie &amp; favour we found. that she wanted nothing in <rs type="place">that<lb/>
+                 pittie &amp; favour we found. that she wanted nothing in <rs n="place-supp28" type="place">that<lb/>
                  Place</rs> which our Neighbours procured not for us. In which number<lb/>
                  was <persName ref="ppl:em1" n="per187">Dr Manwaring</persName> &amp; <rs ref="ppl:xm2" n="per188" type="person">his wife</rs>. <persName ref="ppl:ts1" n="per189">Sir Thomas Smith</persName> &amp; <rs ref="ppl:mss1" n="per190" type="person">his Lady</rs><lb/>
             
@@ -3018,7 +3022,7 @@ point to <category> elements or to feature structure components.
                  <persName ref="ppl:rc4" n="per191">My Lord Cholmely</persName> &amp; <rs ref="ppl:ksc1" n="per192" type="person">his Lady</rs>, with many other Persons<lb/>
                  of qualitie. severall of which would have furnished<lb/>
                  her with monnyes. but she wass unwilling to trouble<lb/>
-                 any. still expecting returnes out of <placeName>yorkeshire</placeName>.</p>
+                 any. still expecting returnes out of <placeName n="place-supp29">yorkeshire</placeName>.</p>
             <anchor n="ev31" type="event"/><!-- NOTE event /arrival chester -->
     </div>
      <div xml:id="div-026">   
@@ -3040,20 +3044,20 @@ point to <category> elements or to feature structure components.
                  forces for the Parliament <add place="above">&amp;</add> there happened a strainge<lb/>
                  accident which raised that Seige <date when-custom="1643-07-19">July. 19<hi rend="superscript">th</hi> 1643</date>.<lb/> 
                 As I was informed; there was 3 granadoes shott in<lb/>
-                 to <rs type="place">the towne</rs> but through providence hurt noe bodie.<lb/>
+                 to <rs n="place-supp30" type="place">the towne</rs> but through providence hurt noe bodie.<lb/>
                  The first, beeing shott into the Sconce of our Souldiers.<lb/>
                  with in 2 men of the <persName ref="ppl:xm3" n="per194">Captaine Manw<add place="above">a</add>ring</persName>. but haveing<lb/>
                  an Oxes hide ready, clapt it there on. &amp; it smot-<lb break="no"/>
                  -hering away in shells did not spread. but went<lb/>
-                 out. The 2<hi rend="superscript">d</hi> light, short of <rs type="place">the Cittie</rs>, in a ditch, with in<lb/>
+                 out. The 2<hi rend="superscript">d</hi> light, short of <rs n="place-supp31" type="place">the Cittie</rs>, in a ditch, with in<lb/>
                  a Pasture amongst a company of women milking<lb/>
                  but was quenched with out doeing them harme at all.<lb/>
                  Praised be the Lord our God. The Last fell amongst<lb/>
-                 theire owne horrse, short of <rs type="place">the towne</rs>. slaing many<lb/>
+                 theire owne horrse, short of <rs n="place-supp32" type="place">the towne</rs>. slaing many<lb/>
                  of them, &amp; by that meanes the Seige was Raised.<lb/>
                  thus was we freed from great evills to befall that <lb/>
                  towne, while wee staid theire. that sucseeded affter<lb/>
-                 we came into <placeName>yorkeshire</placeName>.<anchor n="ev32" type="event"/> which still the Lords hand was<lb/>
+                 we came into <placeName n="place-supp33">yorkeshire</placeName>.<anchor n="ev32" type="event"/> which still the Lords hand was<lb/>
                  streached out for our Preservation in each place<lb/>
                  we came to it was a sanctuary to us, blessed be the Lord<lb/>
                  most hight for all his goodnesse towards us:</p>
@@ -3070,7 +3074,7 @@ point to <category> elements or to feature structure components.
             
                 <fw type="pageNum">71.</fw> <lb/>
             
-            bin at praier in the first morning we weare besett in <rs type="place">the<lb/>
+            bin at praier in the first morning we weare besett in <rs n="place-supp34" type="place">the<lb/>
                  towne</rs> &amp; not hearing of it before. As I looked out at<lb/>
                  a window towards <placeName ref="place:StMa_048" n="place88">St Maries Church</placeName>. A Cannon Bullett<lb/>
                  flew soe nigh the place where I stood that the window sudain<lb break="no"/>
@@ -3180,7 +3184,7 @@ point to <category> elements or to feature structure components.
                  deare mother</rs>, to see an improvement of grace, &amp; religion,<lb/>
                  in his heart, since he was brought into her house; it beeing<lb/>
                  not two yeares, at which time he was a Papist affter his owne<lb/>
-                 poore Parentes religieon. but affter he came into <rs type="place"><rs ref="ppl:cw1" n="per212" type="person">my father</rs><lb/>
+                 poore Parentes religieon. but affter he came into <rs n="place-supp35" type="place"><rs ref="ppl:cw1" n="per212" type="person">my father</rs><lb/>
                  house</rs> in <placeName ref="place:Irel_096" n="place90">Ireland</placeName>, &amp; brought into <placeName ref="place:Engl_094" n="place91">England</placeName>, by <rs ref="ppl:aow1" n="per213" type="person">my mother</rs>.<lb/>
                  he was through all good instructions, &amp; teatchings, as to<lb/>
                  Read, &amp; his cattechisme &amp;c. it pleased God to open the eyes<lb/>
@@ -3310,7 +3314,7 @@ point to <category> elements or to feature structure components.
                  these wonderfull manners of all thy late &amp; former de<lb break="no"/>
                  -liverances. Make me I beseech thee a vessell fitted<lb/>
                  for thy service heere, that these signall deliverances<lb/>
-                 that thou hast shewed to me in <rs type="place">this Citty</rs>, &amp; <rs type="place">Ireland</rs>,<lb/>
+                 that thou hast shewed to me in <rs n="place-supp36" type="place">this Citty</rs>, &amp; <rs n="place-supp37" type="place">Ireland</rs>,<lb/>
                  from thy Enimies, who would have devoured us up<lb/>
                  soone &amp; swallowed us quicke. from those imminent<lb/>
                  dangers in the time of the seige, makeing me Escape from<lb/>
@@ -3321,7 +3325,7 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0198">Thou O Lord hast don it, and to the glory of thy name<lb/>
                  I returne my humble thankes &amp; praise, where as I,<lb/>
                  &amp; <rs ref="ppl:jw1" n="per226" type="person">my brother</rs> Escaped, when <rs ref="ppl:fk1" n="per227" type="person">this little boy</rs> in our house<lb/>
-                 was taken, &amp; 100<hi rend="superscript">ds</hi> in <rs type="place">this towne</rs> died thereof.</p>
+                 was taken, &amp; 100<hi rend="superscript">ds</hi> in <rs n="place-supp38" type="place">this towne</rs> died thereof.</p>
             <p xml:id="p-0199">O deare God since I have daily my life given me, a<lb/>
                  new make me joyfull in thy salvation, wherein thy<lb/>
                  great mercys are made more manifest. then to many<lb/>
@@ -3343,7 +3347,7 @@ point to <category> elements or to feature structure components.
           <!-- TODO [page numbering] even numbers on *right-hand* pages start here, to 142 -->  
                 <fw type="pageNum">78.</fw> <lb/>
             
-            Is the first time I had the happinesse to doe, in <rs type="place">this Cittie</rs><lb/>
+            Is the first time I had the happinesse to doe, in <rs n="place-supp39" type="place">this Cittie</rs><lb/>
                  O Lord I beseech thee forgive my Sins &amp; unworthinesse, my<lb/>
                  Childish-nesse, &amp; ignorance, &amp; unpreparednesse. being unfitt<lb/>
                  to draw nere to so holie a great God as thou art. And with<lb/>
@@ -3416,7 +3420,7 @@ point to <category> elements or to feature structure components.
                  After a while, we were entertained, with Alarums as was<lb/>
                  pretended from <rs type="person">the King</rs>s party in <placeName ref="place:Ches_012" n="place102">Chester</placeName>. this was<lb/>
                  but to awaken theire diligency the more. but there was<lb/>
-                 noe cause; for <rs type="place">that poore Towne</rs> had worke enough to defend<lb/>
+                 noe cause; for <rs n="place-supp40" type="place">that poore Towne</rs> had worke enough to defend<lb/>
                  it selfe from its Enimies. <anchor n="ev40" type="event"/></p>
            <milestone n="ev41" unit="event"/> 
            <!-- NOTE event warrington to wigan, "the next day"= 28 + 1. -->
@@ -3430,7 +3434,7 @@ point to <category> elements or to feature structure components.
              of theire owne Bibles. publickly at the Crosse by the Soldiers<lb/>
              which they plundered, under pretence of beeing Popery,<lb/>
              in theire Service books. and reviling them with the names<lb/>
-             of Papists Dogs. But <rs type="place">this Towne</rs> had bin preserved<lb/>
+             of Papists Dogs. But <rs n="place-supp41" type="place">this Towne</rs> had bin preserved<lb/>
              from such fallse doctrine, or herisie, &amp; would have died<lb/>
              for the true Proffession of the Prottestant religion. </p>
             <p xml:id="p-0204">The memory of <persName ref="ppl:ef1" n="per236">Dr Fleetewood</persName> was so famous at that<lb/>
@@ -3454,7 +3458,7 @@ point to <category> elements or to feature structure components.
                  the morning &amp; 4 in the affternoone. <anchor n="ev41" type="event"/></p>
             <milestone n="ev42" unit="event"/>
             <!-- NOTE event wigan to downham, lancs (35ish miles). "the next day" 29 +1  -->
-            <p xml:id="p-0205"><date when-custom="1643-08-30">The next day</date>, we passed from thence towards <placeName>yorkeshire</placeName><lb/>
+            <p xml:id="p-0205"><date when-custom="1643-08-30">The next day</date>, we passed from thence towards <placeName n="place-supp42">yorkeshire</placeName><lb/>
                  with many praiers from this People. And when we came<lb/>
                  to the borders of <placeName ref="place:Lanc_078" n="place105">Lancashire</placeName>, at a place called <placeName ref="place:Down_016" n="place106">downham</placeName>,<lb/>
                  we were not permitted to passe. but with harsh language, &amp;<lb/>
@@ -3558,9 +3562,9 @@ point to <category> elements or to feature structure components.
             where <milestone n="ev44" unit="event"/>she<lb/>
             <!-- Q [review]? CORRECTION ? there's a line under text in margin 11.43? - but [formatting] need to review -->
             <note xml:id="mnote-0020" place="left margin" resp="#awt1" rend="post(rule)">
-                to <placeName>snape</placeName><lb/>
+                to <placeName n="place-supp43">snape</placeName><lb/>
                 from <lb/>
-                <placeName>Rich</placeName>.<lb/>
+                <placeName n="place-supp44">Rich</placeName>.<lb/>
           <!-- NOTE [dates] margin note with date - not the date for the text so no @when for now. the birth of Charles was earlier. -->
                 <date>
                     Octb.<lb/>
@@ -3579,7 +3583,7 @@ point to <category> elements or to feature structure components.
             
             <note xml:id="mnote-0021" place="left margin" resp="#awt1" rend="post(rule)">
                <persName ref="ppl:jw1" n="per252">Bro. Jack</persName> to<lb/>
-               <placeName>B. Sco</placeName><lb/>
+               <placeName n="place-supp45">B. Sco</placeName><lb/>
                <date when-custom="1643-11-16">
                    No. 16.<lb/>
                    43.
@@ -3648,9 +3652,9 @@ point to <category> elements or to feature structure components.
                  <placeName ref="place:Sout_011" n="place118">Cave</placeName></persName>, who gave expresse notice to <rs ref="ppl:aow1" n="per266" type="person">my mother</rs>. That as she <lb/>
                  loved her life. not to goe to <placeName ref="place:York_060" n="place119">Yorke</placeName>. For the Parliament forces<lb/>
                  had mett with <rs type="person">the King</rs>s, &amp; they were all betrayed. &amp; so was<lb/>
-                 forced to retreat, &amp; <rs type="place">that towne</rs> would be beseiged, and soe<lb/>
+                 forced to retreat, &amp; <rs n="place-supp46" type="place">that towne</rs> would be beseiged, and soe<lb/>
                  this councell came seasonably, &amp; happiely, to hinder our grea<add place="above">ter</add><lb/>
-                 troubles &amp; sorowes uppon <rs type="place">that Towne</rs>s surprisall. Praised be the<lb/>
+                 troubles &amp; sorowes uppon <rs n="place-supp47" type="place">that Towne</rs>s surprisall. Praised be the<lb/>
                  Lord our God which did prevent those evills, &amp; preserved us in our<lb/>
                  way. When we were nigh to danger, &amp; knew it not. 
                  <anchor n="ev48" type="event"/>
@@ -3672,7 +3676,7 @@ point to <category> elements or to feature structure components.
                  <date when-custom="1644-07">Affter this</date><!-- Q [dates] s/b notBefore really but script issues so it can wait --> <rs ref="ppl:aow1" n="per268" type="person">my mother</rs>, &amp; family returned, &amp; came<lb/>
                  to <placeName ref="place:Kirk_030" n="place121">Kirklington</placeName>, where she staied at <persName ref="ppl:rd2" n="per269">Mr Paggett</persName>s<!-- NOTE [people] checked image, looks like a P but must be Daggett --> the<lb/>
                  Minister, beeing most kindly entertained &amp; receaved<lb/>
-                 till <rs type="place">the hall</rs><!-- i.e. Hipswell --> was made fitt to dwell in. in that time<anchor n="ev50" type="event"/><lb/>
+                 till <rs n="place-supp48" type="place">the hall</rs><!-- i.e. Hipswell --> was made fitt to dwell in. in that time<anchor n="ev50" type="event"/><lb/>
                 <milestone n="ev51" unit="event"/>
                    <!-- NOTE event gw and cw2 marston moor -->
                  affter she came thither in the yeare <date>1643</date><!-- NOTE [dates] def says 1643 but that makes no sense? perhaps "thither" means TO snape not from snape. So have kept <date> tag but removed @when -->. was the battle<lb/>
@@ -3688,7 +3692,7 @@ point to <category> elements or to feature structure components.
                  in his passage to <placeName ref="place:York_060" n="place128">Yorke</placeName>. but when he perceaved that the<lb/>
                  day was lost from the King. he rid to fettch <persName ref="ppl:cw2" n="per273">my brother<lb/>
                  Kitt</persName> from thence. where as he happiely mett him riding<lb/>
-                 out of <rs type="place">the towne</rs> to see the fight. he tooke him up behind<lb/>
+                 out of <rs n="place-supp49" type="place">the towne</rs> to see the fight. he tooke him up behind<lb/>
                  him &amp; brought him safe to <placeName ref="place:Kirk_030" n="place129">Kirklington</placeName>, that night butt<lb/>
                  was pursued by a party of horrse, of Scotts. &amp; at a 11 or<lb/>
                 12 a clocke att night, we receaved both <rs ref="ppl:cw2 ppl:gw1" n="per274" type="person">my brothers</rs><!-- NOTE [people] g & c --> home<lb/>
@@ -3784,7 +3788,7 @@ point to <category> elements or to feature structure components.
                  deliverances &amp; new lives given to me. Blesse the Lord O<lb/>
                  my Soule. with all thy powers, of Soule &amp; bodie, all that is<lb/>
                  within thee, blesse his holy Name, &amp; magnifie him for<lb/>
-                 ever, which has delivered alsoe me, &amp; all <rs type="place"><rs type="person">my mother</rs>s <lb/>
+                 ever, which has delivered alsoe me, &amp; all <rs n="place-supp50" type="place"><rs type="person">my mother</rs>s <lb/>
                  house</rs> out of the violency of our Enimies which hates us<lb/>
                  with out a cause, Lord blesse us &amp; all thy servants that<lb/>
                  professe the truth of thy Religion, &amp; suffers for a good caus<lb/>
@@ -3871,7 +3875,7 @@ point to <category> elements or to feature structure components.
                  -esse of the soldiers, &amp; scotts, quartered then amongst<lb/>
                  them, which vexseing, &amp; troubling her much with frights,<lb/>
                  caused her to fall into Travill. sooner then she expected<lb/>
-                nor could she gett <rs ref="ppl:tbd-iu" n="per295" type="person">her old midwife</rs><!-- Q [people] not identifiable? -->. beeing then in <placeName>Rich<lb break="no"/>
+                nor could she gett <rs ref="ppl:tbd-iu" n="per295" type="person">her old midwife</rs><!-- Q [people] not identifiable? -->. beeing then in <placeName n="place-supp51">Rich<lb break="no"/>
                  -mond</placeName> which was then shutt up, for the Plague was exceed-<lb break="no"/>
                  ing great there. soe that all the inhabitants that could gett<lb/>
                  out fled saveing, those had the sicknesse in theire hou<lb break="no"/>
@@ -4133,7 +4137,7 @@ point to <category> elements or to feature structure components.
         <div xml:id="div-035" rend="pre(rule)">
            <milestone n="ev59" unit="event"/> 
             <p xml:id="p-0240"><persName ref="ppl:en1" n="per335">My Cozen Edmund Norton</persName>, Eldest son to my <persName ref="ppl:mn1" n="per336">Uncle Norto̅</persName><!-- Q [review] contraction --><lb/>
-                 was married to <persName ref="ppl:td2" n="per337">Mr Dudly</persName>s Daughter &amp; heire of <placeName>Chopwell</placeName><lb/>
+                 was married to <persName ref="ppl:td2" n="per337">Mr Dudly</persName>s Daughter &amp; heire of <placeName n="place-supp52">Chopwell</placeName><lb/>
                  in <add place="above">the</add> Bishoprick of <add place="above">Durham</add> <persName ref="ppl:jdn1" n="per338">Mrs Jane Dudly</persName> an excelent fine<lb/>
                  &amp; good gentlewoman. <date type="marriage" when-custom="1647-02-10" datingMethod="#JulianSic">Feb. 10<hi rend="superscript">th</hi> 1647</date><!-- NOTE [dates] OS/NS unverifiable (marriage of edmund norton - Anselment couldn't find a record in registers) -->. att <placeName ref="place:Chop_013" n="place153">Chopwell</placeName>.<milestone unit="marker" rend="delim(tbd-//)"/></p>
             <anchor n="ev59" type="event"/>
@@ -4429,7 +4433,7 @@ point to <category> elements or to feature structure components.
                  tions wherein they might take an advantage against him <add place="above">&amp;</add><lb/>
                  had there designes furthered uppon this accident.</p>
             <p xml:id="p-0256">I formerly shewed how <rs ref="ppl:gw1" n="per359" type="person">my brother</rs> was disposed of, for tra-<lb break="no"/>
-                 -vill in to <placeName>france</placeName>, for his improvement in Education.<lb/>
+                 -vill in to <placeName n="place-supp53">france</placeName>, for his improvement in Education.<lb/>
                 <milestone n="ev63" unit="event"/><!-- NOTE event gw sequestration -->     
                 At his returne in to <placeName ref="place:Engl_094" n="place163">England</placeName> &amp; in his passage betwixt <lb/>
                  <persName ref="ppl:eo1" n="per360">my Uncle Osborne</persName>s house <placeName ref="place:Kive_029" n="place164">Keeveton</placeName> to his owne Estate &amp;<lb/>
@@ -4717,7 +4721,7 @@ point to <category> elements or to feature structure components.
                  A loveing, Land Lord: to his very Enimies, ever courteo<add place="above">us</add><lb/>
                  &amp; affable. not disobleiging any by his morrocity or<lb/>
                  perversenesse. <milestone unit="marker" rend="delim(tbd-//)"/> his very Enimies then could not but<lb/>
-                 lament his losse said, he was the greatest <add place="above">losse</add> that <placeName>Yorkshire</placeName><lb/>
+                 lament his losse said, he was the greatest <add place="above">losse</add> that <placeName n="place-supp54">Yorkshire</placeName><lb/>
                  had for a brave gentleman. &amp; if thus much came from<lb/>
                  the mouths of adversarys, noe incomium his frinds can<lb/>
                  sett upon him can speake his worth &amp; mirritt at whoes <add place="above">hands</add><lb/>
@@ -5413,13 +5417,13 @@ point to <category> elements or to feature structure components.
                  issue successivily. for want of such heirs male to his<lb/>
                  heires females by me. &amp;c. with out impeachment of<lb/>
                  any manner of waiste. </p>
-            <p xml:id="p-0317">That <placeName>Laistrop</placeName> valewed at the yearely rent of 160<hi rend="superscript">l</hi><lb/>
+            <p xml:id="p-0317">That <placeName n="place-supp55">Laistrop</placeName> valewed at the yearely rent of 160<hi rend="superscript">l</hi><lb/>
                 affter the decease of <rs ref="ppl:edg1" n="per475" type="person">his mother</rs>, married to <persName ref="ppl:gg1" n="per476">Mr Gate</persName><lb/>
                  &amp; then her Joynture. was Settled on <persName ref="ppl:wt1" n="per477">Mr Thornton</persName> for<lb/>
                  his life, affter his decease uppon his heirs male &amp;<lb/>
                  for default of such issue, to his daughters by me. <milestone unit="marker" rend="delim(tbd-//)"/> </p>
             <p xml:id="p-0318">As for his Land at <placeName ref="place:Cott_015" n="place208">Cottingham. Richmond</placeName>, called<lb/>
-                 <placeName ref="place:Burn_005" n="place209">Burne Parke</placeName> the inheritance Estated as the other of <placeName>L.</placeName> <note place="end">
+                 <placeName ref="place:Burn_005" n="place209">Burne Parke</placeName> the inheritance Estated as the other of <placeName n="place-supp56">L.</placeName> <note place="end">
                     <p rend="Endnote Text"> [word] I.e., Laistrop.</p>
                 </note>
                 <lb/>
@@ -5646,7 +5650,7 @@ point to <category> elements or to feature structure components.
                 <fw type="pageNum">128.</fw>
             
             <p xml:id="p-0332">In his returne home from <placeName ref="place:East_019" n="place219">Newton</placeName> his owne Estate, I was<lb/>
-                 carried over <placeName ref="place:Hamb_020" n="place220">Hambleton</placeName><!-- Q [places] possibly should be geogName --> towards <rs type="place"><persName ref="ppl:wa1" n="per516">Sir Will.<hi rend="superscript">m</hi> Akough</persName>s house</rs><!-- Q [places] house should be identifiable? --><lb/>
+                 carried over <placeName ref="place:Hamb_020" n="place220">Hambleton</placeName><!-- Q [places] possibly should be geogName --> towards <rs n="place-supp57" type="place"><persName ref="ppl:wa1" n="per516">Sir Will.<hi rend="superscript">m</hi> Akough</persName>s house</rs><!-- Q [places] house should be identifiable? --><lb/>
                  where I passed downe on foote a very high hill, betwixt<lb/>
                  <geogName>hud hill</geogName> &amp; <geogName>whitsonclife</geogName><!-- Q [places] i think geogName rather than placeName -->, which is a bove a mile steepe downe<lb/>
                  &amp; indeed so bad, that I could not scarse tread the narrow steps<lb/>
@@ -6119,7 +6123,7 @@ point to <category> elements or to feature structure components.
                 <date when-custom="1655-02">About a weeke before my full time</date> I contineued in much<lb/>
                  paine through the heavinesse of <rs ref="ppl:et1" n="per550" type="person">my Childe</rs>; haveing <rs ref="ppl:tbd-iu" n="per551" type="person">the mid-<lb break="no"/>
                 -wife</rs><!-- Q [people] not identifiable? --> in constant expectation each houer. att which time<lb/>
-                 <rs ref="ppl:aow1" n="per552" type="person">my deare mother</rs> laid sicke in <rs type="place">the house</rs><!-- i.e. Hipswell --> of a sad cough. &amp;<lb/>
+                 <rs ref="ppl:aow1" n="per552" type="person">my deare mother</rs> laid sicke in <rs n="place-supp58" type="place">the house</rs><!-- i.e. Hipswell --> of a sad cough. &amp;<lb/>
                 yong <persName ref="ppl:xt4" n="per553">Mrs Troutbeck</persName><!-- Q [review] check transcription on Mr --> came to give her directions through<lb/>
                  some freinds advice. &amp; by the blessing of God she was recov<lb break="no"/>
                  -ered though not to be with me in my travell. <date when-custom="1655-02-13">all teusday</date><lb/>
@@ -6195,7 +6199,7 @@ point to <category> elements or to feature structure components.
                  to <rs ref="ppl:tbd-servant" n="per569" type="person">annother</rs> <add place="above">at</add> about 3 q<ex>uarte</ex>r of a yeare old; but she did <add place="above">not</add> deale<lb/>
                  well with <rs ref="ppl:et1" n="per570" type="person">my childe</rs> which was a most stately lovely girle<lb/>
                  when she tooke her to nurse.<anchor n="ev94" type="event"/> <milestone n="ev95" unit="event"/><!-- NOTE event awt child4? pregnancy -->nor was I able to goe soe<lb/>
-                 offten then to see her because it was a mile off <placeName>Hipswell</placeName><lb/>
+                 offten then to see her because it was a mile off <placeName n="place-supp59">Hipswell</placeName><lb/>
                  &amp; I was then with childe, so that I durst not adventure a <lb/>
                  great walke or to ride when I grew so bigg.<anchor n="ev95" type="event"/></p>
 
@@ -6379,7 +6383,7 @@ point to <category> elements or to feature structure components.
             <head rend="pre(rule) post(rule)">
             
             Meditation uppon the birth of <persName ref="ppl:ktp1" n="per585">my 4<hi rend="superscript">th</hi> childe Katherin<lb/>
-                Thornton</persName> <date type="birth" when-custom="1656-06-12">June 12<hi rend="superscript">th</hi> 1656</date>. borne att <placeName>hipswell</placeName>.</head>
+                Thornton</persName> <date type="birth" when-custom="1656-06-12">June 12<hi rend="superscript">th</hi> 1656</date>. borne att <placeName n="place-supp60">hipswell</placeName>.</head>
            <milestone n="ev101" unit="event"/><!-- NOTE event awt child4 pregnancy --> 
             <p xml:id="p-0379">After I was with quicke childe of <rs ref="ppl:ktp1" n="per586" type="person"><add place="above">my</add> fourth childe</rs> I<lb/>
                  had pretty good health, considering my condition, till<lb/>
@@ -6939,7 +6943,7 @@ point to <category> elements or to feature structure components.
                  infirmity, of bleeding it leaving me with in 2 daies, totally<lb/>
                  &amp; was cleared from those faintings this carried along with it<lb/>
                  returning to <placeName ref="place:Oswa_041" n="place247">Oswoldkirdke</placeName> by <persName ref="ppl:etd1" n="per629">my Sister Denton</persName> homewards <anchor n="ev111" type="event"/></p>
-            <p xml:id="p-0399">After this great cure which <rs type="place">the spaw</rs> wrought on me, for which<lb/>
+            <p xml:id="p-0399">After this great cure which <rs n="place-supp61" type="place">the spaw</rs> wrought on me, for which<lb/>
                  I most humbly returne my hearty &amp; faithfull acknowledg-<add place="above">ment</add><lb/>
                  of his mercy, we returned home to <placeName ref="place:Hips_022" n="place248">Hipswell</placeName>, where we found<lb/>
                <milestone n="ev112" unit="event"/><!-- NOTE event mother's illness -->
@@ -7223,7 +7227,7 @@ point to <category> elements or to feature structure components.
                  in Callis Voyage. After some yeares he returned into<lb/>
                  England, And it pleased God to give them A gallant Son<lb/>
                  &amp; heire, which affterwards proved a most Excelent, wise &amp;<lb/>
-                 Good man, <persName ref="ppl:eo1" n="per655">Sir Edward Osborne</persName> of <placeName>Keveton</placeName>, Barronett.<lb/>
+                 Good man, <persName ref="ppl:eo1" n="per655">Sir Edward Osborne</persName> of <placeName n="place-supp62">Keveton</placeName>, Barronett.<lb/>
                  A faithfull prudent man, Zealous for God, the King &amp; the<lb/>
                  Church, of great abilitties to serve his King &amp; countery<lb/>
                  Beeing advanced to be Lord President of Yorke, &amp;<lb/>
@@ -7292,7 +7296,7 @@ point to <category> elements or to feature structure components.
             <anchor n="ev116" type="event"/>
             <milestone n="ev117" unit="event"/><!-- NOTE event Ireland -->
             <p xml:id="p-0424"><rs ref="ppl:cw1" n="per674" type="person">My Father</rs> beeing called over into <placeName ref="place:Irel_096" n="place256">Ireland</placeName> to serve<lb/>
-                 <rs ref="ppl:cs1" n="per675" type="person">the King</rs> in the Roles office in <rs type="place">that Kingdom</rs>, by reason of<lb/>
+                 <rs ref="ppl:cs1" n="per675" type="person">the King</rs> in the Roles office in <rs n="place-supp63" type="place">that Kingdom</rs>, by reason of<lb/>
                  <rs ref="ppl:aow1" n="per676" type="person">my mother</rs>s late weakenesse affter her delivery of<lb/>
                  <persName ref="ppl:jw1" n="per677">my brother John</persName> went into <placeName ref="place:Irel_096" n="place257">Ireland</placeName>, one yeare before<lb/>
                  <rs ref="ppl:aow1" n="per678" type="person">my mother</rs> &amp; her Family.</p>
@@ -7475,7 +7479,7 @@ point to <category> elements or to feature structure components.
                  Ease of <placeName ref="place:Kirk_030" n="place262">Kirklington</placeName>, to receave my Portion from thence<lb/>
                  yearely &amp; not in an Intire Summe;</p>
             <p xml:id="p-0439">Besides this she fitted <persName ref="ppl:jw1" n="per694">my youngest Brother John W.</persName><lb/>
-                 with the opportunity of good Schooles, as <placeName>Beedall</placeName>. <placeName>Chester</placeName>,<lb/>
+                 with the opportunity of good Schooles, as <placeName n="place-supp64">Beedall</placeName>. <placeName n="place-supp65">Chester</placeName>,<lb/>
                  <placeName ref="place:Rich_043" n="place263">Richmond</placeName>, with all other provissions, of maintenance &amp;<lb/>
                  Bookes &amp; all necessarys; for Cambridge, leaveing him<lb/>
                  under the Tuittion of <persName ref="ppl:rw3" n="per695">Dr Widdrington</persName> in <placeName ref="place:Chri_014" n="place264">Christs Colledge</placeName><lb/>
@@ -7819,7 +7823,7 @@ point to <category> elements or to feature structure components.
                  considering my husbands Estate needed it, &amp; he was<lb/>
                  heire of a great Large Estate of <rs ref="ppl:cw1" n="per714" type="person">his Father</rs>s &amp; by her<lb/>
                  Death that Joynture came in cleare to him. All which Estate<lb/>
-                 would amount to yearely to him in <placeName ref="place:Engl_094" n="place268">England</placeName> &amp; <placeName>Ireland</placeName><lb/>
+                 would amount to yearely to him in <placeName ref="place:Engl_094" n="place268">England</placeName> &amp; <placeName n="place-supp66">Ireland</placeName><lb/>
                  three thousand Pounds. which she praied God to blesse to<lb/>
                  him &amp; his Posterity. that they might injoy it in righteousness<lb/>
                  soe long as the moone &amp; sun indureth.</p>
@@ -7963,13 +7967,13 @@ point to <category> elements or to feature structure components.
                  In the Cheife Place in her owne quire att <placeName ref="place:Catt_010" n="place270">Cattericke Church</placeName><lb/>
                  She haveing Repaired the same all that sommer at her<lb/>
                  owne Charges to the valew of above twenty Pounds.</p>
-            <p xml:id="p-0478"><rs ref="ppl:aow1" n="per727" type="person">Her Corpes</rs> was carried out of <rs type="place">her house</rs> by the <persName ref="ppl:cd2" n="per728">Lord<lb/>
+            <p xml:id="p-0478"><rs ref="ppl:aow1" n="per727" type="person">Her Corpes</rs> was carried out of <rs n="place-supp67" type="place">her house</rs> by the <persName ref="ppl:cd2" n="per728">Lord<lb/>
                  D'arcy</persName>. his son <persName ref="ppl:cd3" n="per729">Coll. D'arcy</persName>. <persName ref="ppl:cw3" n="per730">Sir Christoph. Vivill</persName> Baronet.<lb/>
                  &amp; divers other Persons. &amp; kindred of quality.</p>
             <p xml:id="p-0479">Then from <placeName ref="place:Hips_024" n="place271">Hipswell greene</placeName>. her Tennants. tooke her; &amp;<lb/>
                  soe carrieing her to the Towne of <placeName ref="place:Catt_008" n="place272">Catterick</placeName>. Where the ministers<lb/>
                  whoe was appointed by her owne nomination Carried<lb/>
-                 her into <rs type="place">the Church</rs>; &amp; affter Sermon laid her in her Gave<note place="end">
+                 her into <rs n="place-supp68" type="place">the Church</rs>; &amp; affter Sermon laid her in her Gave<note place="end">
                     <p rend="Endnote Text"> [word] I.e., grave.</p>
                 </note>
             </p>
@@ -8128,7 +8132,7 @@ point to <category> elements or to feature structure components.
                  Kirtton</persName> of <placeName ref="place:Rich_043" n="place280">Richmond</placeName> called <persName ref="ppl:wt2" n="per752">William</persName> affter his father<lb/>
                  his sureties were <persName ref="ppl:jy1" n="per753">my Cosen John Yorke</persName>: <persName ref="ppl:wn1" n="per754">my Cosen<lb/>
                  william Norton</persName>. and <persName ref="ppl:jd1" n="per755">my Cozen James Darcy Lady <lb/>
-                 of <placeName>Richmond</placeName></persName><anchor n="ev127" type="event"/> <milestone n="ev128" unit="event"/>(died <date type="death" when-custom="1660-04-28">Aprill 28<hi rend="superscript">th</hi> 1660</date>) buried <date when-custom="1660-04-29">29</date> at<anchor n="ev128" type="event"/><note place="end">
+                 of <placeName n="place-supp69">Richmond</placeName></persName><anchor n="ev127" type="event"/> <milestone n="ev128" unit="event"/>(died <date type="death" when-custom="1660-04-28">Aprill 28<hi rend="superscript">th</hi> 1660</date>) buried <date when-custom="1660-04-29">29</date> at<anchor n="ev128" type="event"/><note place="end">
                     <p rend="Endnote Text"> Anselment has ‘--esby--’ and suggests parenthesis a later insertion. Checked Ms and I can’t see any sign of name or of erasure.</p>
                 </note>
             </p>
@@ -8238,7 +8242,7 @@ point to <category> elements or to feature structure components.
                  &amp; prudently ordered through the Providence of God that<lb/>
                  notwithstanding, the opposittion of the Soldiery &amp; other<lb/>
                  great factions; yet was he brought in, to his owne<lb/>
-                 Kingdome; City of <placeName>London</placeName>, &amp; Parliament in great Peace<lb/>
+                 Kingdome; City of <placeName n="place-supp70">London</placeName>, &amp; Parliament in great Peace<lb/>
                  &amp; exceding much Joy from all parts of the Kingdome<lb/>
                  withoute the power of one dogge that durst open his mouth, or the<lb/>
                  losse of one drope of blood shed in the whole Kingdme.<note place="end">
@@ -8429,7 +8433,7 @@ point to <category> elements or to feature structure components.
                  Children, the Lord had blessed me with <persName ref="ppl:atc1" n="per769">Alice</persName>, my Second, &amp;<lb/>
                  then Eldest, &amp; <persName ref="ppl:ktp1" n="per770">Katherine</persName>, my 4<hi rend="superscript">th</hi> Childe; and came to <placeName ref="place:Oswa_041" n="place287">Osw--<lb break="no"/>
                  oldkirke</placeName> liveing a fortnight at <persName ref="ppl:etd1" n="per771">my Sister Denton</persName>s<lb/>
-                 house till our owne in <rs type="place">that Towne</rs> was ready.</p>
+                 house till our owne in <rs n="place-supp71" type="place">that Towne</rs> was ready.</p>
             <p xml:id="p-0511">Then we gott to it with all <rs ref="ppl:aow1" n="per772" type="person">my Deare Mother</rs>s household<lb/>
                  stuffe <add place="above">which</add> was brought thither, where we lived two yeares<lb/>
                  Affter I had taken leave of my owne countrey, &amp; deare<lb/>
@@ -8812,12 +8816,12 @@ point to <category> elements or to feature structure components.
             <head rend="pre(rule_pattern) post(rule)"> 
                 <!-- [endnote] [decoration] This border is patterned – with flowers. -->
             
-                Uppon our comeing to live att <placeName>newton</placeName> affter the house was<lb/>
+                Uppon our comeing to live att <placeName n="place-supp72">newton</placeName> affter the house was<lb/>
                  built in the yeare <date when-custom="1662-06-10">1662. June the 10<hi rend="superscript">th</hi></date>
             </head>
             <milestone n="ev141" unit="event"/>
             <p xml:id="p-0536">At the last, affter 6 yeares worke at the dwelling house of<lb/>
-                 <persName ref="ppl:wt1" n="per785">Mr Thornton</persName> <placeName>Easte newton</placeName>. haveing builded it from the<lb/>
+                 <persName ref="ppl:wt1" n="per785">Mr Thornton</persName> <placeName n="place-supp73">Easte newton</placeName>. haveing builded it from the<lb/>
             
 
             <pb xml:id="page-192" n="192"/>
@@ -8830,16 +8834,16 @@ point to <category> elements or to feature structure components.
             Ground: It pleased God to give us all leave, with our<lb/>
                  family &amp; two daughters to come to live at it beeing<lb/>
                  soe finished, as to dwell therein <date precision="medium" when-custom="1662-06-15">about the midest of June<lb/>
-                 1662</date>. I beeing then great with Childe walked from <placeName>oswold<lb/>
+                 1662</date>. I beeing then great with Childe walked from <placeName n="place-supp74">oswold<lb/>
                  kirke</placeName> with our company. haveing a great deale of strength<lb/>
                  &amp; health given to me from God. Blessed bee his holy name.<lb/>
-                 Also he gave us a comfortable settlement at <rs type="place">our owne house</rs><lb/>
+                 Also he gave us a comfortable settlement at <rs n="place-supp75" type="place">our owne house</rs><lb/>
                  which I gott ready furnished with what <rs ref="ppl:aow1" n="per786" type="person">my deare mother</rs> gave<lb/>
                  me in 5 daies time. And all the ground stocked with her Cattell.</p>
             <anchor n="ev141" type="event"/>
 
             <milestone n="ev142" unit="event"/>
-            <p xml:id="p-0537">After which, with in a little of our commeing to <rs type="place">house</rs>: <persName ref="ppl:wt1" n="per787">Mr<lb/>
+            <p xml:id="p-0537">After which, with in a little of our commeing to <rs n="place-supp76" type="place">house</rs>: <persName ref="ppl:wt1" n="per787">Mr<lb/>
                  Thornton</persName> was called to <placeName ref="place:Lond_080" n="place294">London</placeName> by <persName ref="ppl:rn1" n="per788">nettleton</persName>s bussinesse<lb/>
                  goeing purposely to prevent the breakeing up an Excecu<lb break="no"/>
                  -tion against him from that <persName ref="ppl:rn1" n="per789">Nettleton</persName> against his Estate<lb/>
@@ -9027,7 +9031,7 @@ point to <category> elements or to feature structure components.
                  confussion in this Land, whoes Pride was soe great; &amp; devoti<lb break="no"/>
                  -on so dead: but we, who thirsted affter these waters of life<lb/>
                  did still, all these times; affter <rs ref="ppl:aow1" n="per815" type="person">my deare mother</rs> came to <placeName ref="place:Hips_022" n="place302">Hips-<lb break="no"/>
-                 well</placeName>, &amp; well as at <placeName>weschester</placeName> injoyed this blessing; through<lb/>
+                 well</placeName>, &amp; well as at <placeName n="place-supp77">weschester</placeName> injoyed this blessing; through<lb/>
                  the mercy of God: even all the time of my mothers life to my<lb/>
                  exceding great sattisfaction &amp; comfort; but affter her death<lb/>
                  &amp; my comeing from <placeName ref="place:StNi_050" n="place303">St Nickolas</placeName>, into my owne house at<lb/>
@@ -9290,7 +9294,7 @@ point to <category> elements or to feature structure components.
                  nor did the Debts of <persName ref="ppl:wt1" n="per843">Mr Thornton</persName> amount to that somme by<lb/>
                  600<hi rend="superscript">l</hi> Neverthelesse by the sequell of all it did appeare; that<lb/>
                  This just &amp; honnest action of ours did exasperate such-<lb break="no"/>
-                 with out a cause: whoe had desires that <placeName>Laistrop</placeName> soe well as<lb/>
+                 with out a cause: whoe had desires that <placeName n="place-supp78">Laistrop</placeName> soe well as<lb/>
                  the Rest of all his Personall Estate should goe for security<lb/>
                  Colaterall to the rest: And by that meanes nothing should<lb/>
                  be left at certaine for my poore yonger Children.</p>
@@ -9304,7 +9308,7 @@ point to <category> elements or to feature structure components.
                  lieve it could not be cutt of the Intaile with out my consent<lb/>
                  but it proved affterward the contrary, to my great greife<lb/>
                  &amp; allmost my utter Ruine; &amp; my Childrens.</p>
-            <p xml:id="p-0560">There was left only <placeName>Newton</placeName> which was my Joynture settled<lb/>
+            <p xml:id="p-0560">There was left only <placeName n="place-supp79">Newton</placeName> which was my Joynture settled<lb/>
                  soe on my heire. that it could not be cut off with out my consent<lb/>
                  in passing a fine: nor was the Rents ever more cleare then<lb/>
                  seaven score p<ex>ai</ex>d a yeare. of it.</p>
@@ -9323,7 +9327,7 @@ point to <category> elements or to feature structure components.
                 
                 Upon my deliverance, of my sonne <persName ref="ppl:rt2" n="per845">Robert Thornton</persName><lb/>
                  my 7<hi rend="superscript">th</hi> Childe: borne at <placeName ref="place:East_019" n="place314">Easte Newton</placeName>: the first childe<lb/>
-                that was borne in <rs type="place">the new house</rs>: <date type="birth" when-custom="1662-09-19">Sept. 19<hi rend="superscript">th</hi> 1662</date> <milestone unit="marker" rend="delim(tbd-//.)"/>
+                that was borne in <rs n="place-supp80" type="place">the new house</rs>: <date type="birth" when-custom="1662-09-19">Sept. 19<hi rend="superscript">th</hi> 1662</date> <milestone unit="marker" rend="delim(tbd-//.)"/>
             </head>
             
 
@@ -9557,7 +9561,7 @@ point to <category> elements or to feature structure components.
                  <placeName ref="place:Lond_080" n="place317">London</placeName> about wittness for <persName ref="ppl:cw2" n="per867">Sir Christopher wandesford</persName>s<lb/>
                  suite with <persName ref="ppl:xr2" n="per868">Mr Robinson</persName> conserning the bounders. in this<lb/>
                  jorney when he was returning home he escaped drow<lb/>
-                 ning at the waters neare <placeName>newarke</placeName>. when the floods was<lb/>
+                 ning at the waters neare <placeName n="place-supp81">newarke</placeName>. when the floods was<lb/>
                  soe high that they had nigh have carried him downe with<lb/>
                  the streame. but the Lord was pleased to deliver him from<lb/>
                  that death.<anchor n="ev152" type="event"/> his holy name be glorified &amp; praised for<lb/>
@@ -9972,7 +9976,7 @@ point to <category> elements or to feature structure components.
                 &amp; Portions; which had bin undon <gap reason="deleted" quantity="5" unit="char"/> with out my consent<lb/>
                  &amp; knowledge when <persName ref="ppl:wt1" n="per928">Mr Thornton</persName> was sicke at <placeName ref="place:Stea_052" n="place329">Steersby</placeName>,<lb/>
                  for the Chargeing of <persName ref="ppl:xr1" n="per929">Mr Raines</persName> &amp; <persName ref="ppl:tp1" n="per930">Mr Portington</persName> Debt of<lb/>
-                 1400<hi rend="superscript">l</hi> by mortgage upon <placeName>Laistrop</placeName>. in soe doeing there was<lb/>
+                 1400<hi rend="superscript">l</hi> by mortgage upon <placeName n="place-supp82">Laistrop</placeName>. in soe doeing there was<lb/>
                 not one penny could be secured for <rs ref="ppl:atc1 ppl:ktp1" n="per931" type="person">my two Poore Daught<add place="above">ers</add></rs><lb/>
                  either maintenance or Portion, till after the payment of<lb/>
                  that Debt. &amp; there was but 100<hi rend="superscript">l</hi> per an<ex>num</ex> for all: And also<lb/>
@@ -10189,7 +10193,7 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0625">About the <date type="accident" when-custom="1666-09-02">2<hi rend="superscript">d</hi> of September: <seg rend="underline">1666</seg></date> began the great fire<lb/>
                  in <placeName ref="place:Lond_080" n="place334">London</placeName>, which in 4 daies time consumed 13200 houses<lb/>
                  89 Churches. &amp;: with out the miraculous Providence<lb/>
-                 of God it had devoured <rs type="place">that whole Citty</rs>.</p>
+                 of God it had devoured <rs n="place-supp83" type="place">that whole Citty</rs>.</p>
             <anchor n="ev173" type="event"/>
             </div>
         
@@ -10788,7 +10792,7 @@ point to <category> elements or to feature structure components.
                  sicke in my Labour that she was in much danger of death<lb/>
                  but blessed be the Lord which preserved her then &amp; recovered<lb/>
                  her from that illnesse.<anchor n="ev194" type="event"/> <milestone n="ev195" unit="event"/>the next day. <date when-custom="1667-11-12">no. 12, 67</date>.</p>
-            <p xml:id="p-0656"><persName ref="ppl:ct1" n="per1020">Christopher Thornton</persName> my 9<hi rend="superscript">th</hi> Childe was borne at <placeName>newton</placeName><lb/>
+            <p xml:id="p-0656"><persName ref="ppl:ct1" n="per1020">Christopher Thornton</persName> my 9<hi rend="superscript">th</hi> Childe was borne at <placeName n="place-supp84">newton</placeName><lb/>
                  on <date when-custom="1667-11-11">munday the 11 no. 67</date>.<anchor n="ev195" type="event"/> <milestone n="ev196" unit="event"/>Baptized <date when-custom="1667-11-12">the 12<hi rend="superscript">th</hi></date> at newton.<lb/>
             
 
@@ -10984,7 +10988,7 @@ point to <category> elements or to feature structure components.
                  for them <add place="above">allso</add>. It was most true that I lived remote from my<lb/>
                  owne Relations: <milestone unit="marker" rend="delim(tbd-//)"/> That day wherein <rs ref="ppl:wt1" n="per1049" type="person">my deare husband</rs><lb/>
                  signed His Deed for my Childrens Provision out of <lb/>
-                <surplus reason="repetition">of</surplus> <placeName>Laistrop</placeName> he did signe <persName ref="ppl:jd2" n="per1050">my bro. Denton</persName>s 3 Rent Charge<lb/>
+                <surplus reason="repetition">of</surplus> <placeName n="place-supp85">Laistrop</placeName> he did signe <persName ref="ppl:jd2" n="per1050">my bro. Denton</persName>s 3 Rent Charge<lb/>
                  for his part of Portion by <rs ref="ppl:tbd-awt-sister" n="per1051" type="person">my sister</rs> of 250<hi rend="superscript">l</hi> out of the<lb/>
                  other part of <placeName ref="place:Lays_032" n="place352">Laistrop</placeName>. which ought in consience to be payd.<lb/>
                  I humbly blesse our gracious Father which gave me leave<lb/>
@@ -11017,7 +11021,7 @@ point to <category> elements or to feature structure components.
                  the Death of <rs ref="ppl:cw1" n="per1055" type="person">my Father</rs>, <persName ref="ppl:eo1" n="per1056">my Uncle, Osborne</persName>, <persName ref="ppl:kwd1" n="per1057">my Sister<lb/>
                  Danby</persName>, <persName ref="ppl:gw1" n="per1058">my brother George</persName>, <date when-custom="1650-09" precision="medium">before whoes death halfe a<lb/>
                  yeare</date> I dreamt soe fully conserning it, the manner &amp; all<lb/>
-                 sircumstances about it. that he refrained <rs type="place">that River</rs> affer <lb/>
+                 sircumstances about it. that he refrained <rs n="place-supp86" type="place">that River</rs> affer <lb/>
                 I tould him my dreame. till that time which was the last <del xml:id="ex-del-double-12" rend="doublestrikethrough">&amp;</del><lb/>
                  beeing compell by his bussinesse to doe itt.</p>
             <p xml:id="p-0666">Allso before <rs ref="ppl:aow1" n="per1059" type="person">my mother</rs>s death, &amp; severall of my Ch-<lb break="no"/>
@@ -11034,7 +11038,7 @@ point to <category> elements or to feature structure components.
                  beeing willing for any others advice. to confided what<lb/>
                  course could be taken for his preservation. soe that upon<lb/>
                  a serious consideration of his distemper, then inclining<lb/>
-                 to malancolicke, he aduised him for <rs type="place">the Spaw</rs>, where he<lb/>
+                 to malancolicke, he aduised him for <rs n="place-supp87" type="place">the Spaw</rs>, where he<lb/>
                  had bin other yeares with good successe. Upon which <persName ref="ppl:wt1" n="per1060">Mr Th<ex>ornton</ex></persName><lb/>
                  was very desirous to goe, beleiveing it would helpe him<lb/>
                  And The Dr firmly ingaged to be as cairfull of him<lb/>
@@ -11086,12 +11090,12 @@ point to <category> elements or to feature structure components.
                  servant to the young <persName ref="ppl:aws1" n="per1067">Countesse of Sussex</persName>; and accounts<lb/>
                  by her to be the dearest freind she had in the world) of her<lb/>
                 hard usuage by <persName ref="ppl:med1" n="per1068">Mr Danby</persName><!-- Q [review] "Md" Danby rather than "Mr" -->; &amp; severall discontents<lb/>
-                 framed by <rs ref="ppl:tbd-servant" n="per1069" type="person">her servant</rs> in <rs type="place">my house</rs>, adding to her for-<lb break="no"/>
+                 framed by <rs ref="ppl:tbd-servant" n="per1069" type="person">her servant</rs> in <rs n="place-supp88" type="place">my house</rs>, adding to her for-<lb break="no"/>
                  -mer disgust towards me in her beeing cast out as she<lb/>
                  said for my sake. these, with other secrett unjust reasons<lb/>
                 of her owne. b<del xml:id="ex-del-double-13" rend="doublestrikethrough">e</del>y <rs ref="ppl:tbd-enemies" n="per1070" type="person">these 2 persons</rs> <add place="above">was a</add> mutuall compliance<lb/>
                  in there designes &amp; <persName ref="ppl:acd1" n="per1071">Mrs Danby</persName>s underming me in secrett<lb/>
-                 brought <persName ref="ppl:mb2" n="per1072">Mrs Batte</persName> <date when-custom="1668-07-18">late at night</date> to my house at <placeName>newton</placeName><lb/>
+                 brought <persName ref="ppl:mb2" n="per1072">Mrs Batte</persName> <date when-custom="1668-07-18">late at night</date> to my house at <placeName n="place-supp89">newton</placeName><lb/>
                  under pretence of providing butter for<persName ref="ppl:acd1" n="per1073"> Mrs Danby</persName> at the<lb/>
                  service att hooly to waite on <persName ref="ppl:aws1" n="per1074">that mad Countesse of Sussex</persName><lb/>
                  <persName ref="ppl:mb2" n="per1075">Mrs Batt</persName> tould me. she came to fech <persName ref="ppl:acd1" n="per1076">her cosen danby</persName> a <lb/>
@@ -11200,7 +11204,7 @@ point to <category> elements or to feature structure components.
                  beleive he could prevaile for 60<hi rend="superscript">l</hi> a yeare if she would except<lb/>
                  it. And with all I did not know what to advice which might<lb/>
                  sattisfie her. but left it to her how to dispose herselfe. for<lb/>
-                 I tould her that as well as I could entertaine her in <rs type="place">my house</rs><lb/>
+                 I tould her that as well as I could entertaine her in <rs n="place-supp90" type="place">my house</rs><lb/>
                  she should want for nothing. I would use only my uttmost with<lb/>
                  <rs ref="ppl:tbd-sister" n="per1103" type="person">her sister</rs> to give a sufficient Provission for her &amp; her Children<lb/>
                  But doubted that her Jorney to <placeName ref="place:Howl_025" n="place364">Houly</placeName> might doe harme.<lb/>
@@ -11221,7 +11225,7 @@ point to <category> elements or to feature structure components.
                  it was out of <persName ref="ppl:mb2" n="per1105">mattie Batt</persName>s love extoling her frindship<lb/>
                  to the skies &amp; much undervaleuing all my endevours &amp;<lb/>
                  faithfullnesse, yet did she expect this as a reserve if<lb/>
-                 she liked not <placeName>Hooly</placeName>. <date when-custom="1668-07-20">The next morning</date> prepared with great<lb/>
+                 she liked not <placeName n="place-supp91">Hooly</placeName>. <date when-custom="1668-07-20">The next morning</date> prepared with great<lb/>
                  Joy to goe. &amp; when she was at breakfast exprest much<lb/>
                  indignation, that she was turnd out as she termd it for my<lb/>
                  sake from <placeName ref="place:Beda_002" n="place365">Beedall</placeName>. I could answer noe otherwise then to<lb/>
@@ -13757,7 +13761,7 @@ point to <category> elements or to feature structure components.
             <head place="centre" rend="post(rule_double)">
                 
                 A great deliverance from a 2<hi rend="superscript">d</hi> fall<lb/>
-                 att <persName ref="ppl:rm1" n="per1315">Sr Robert Merideth</persName>s in <placeName>Dublin</placeName><lb/>
+                 att <persName ref="ppl:rm1" n="per1315">Sr Robert Merideth</persName>s in <placeName n="place-supp92">Dublin</placeName><lb/>
                  in <placeName ref="place:Irel_096" n="place395">Ireland</placeName> <date type="accident" when-custom="1637">1637</date>.
             <!-- NOTE [decoration] Two lines - more widely spaced than usual double lines. 1637 is partly set into the top line. -->
             </head>
@@ -13997,10 +14001,10 @@ point to <category> elements or to feature structure components.
                  forced to fly to hide himselfe att <placeName ref="place:Kirk_030" n="place405">Kirklington</placeName>. &amp;<lb/>
                  brought <persName ref="ppl:cw2" n="per1344">my brother Christop.</persName> behind him<anchor n="ev224" type="event"/> affter which time<lb/>
                  <milestone n="ev225" unit="event"/>
-                we gott to <placeName>hipswell</placeName> &amp; livd as quiettly as we could for<lb/>
+                we gott to <placeName n="place-supp93">hipswell</placeName> &amp; livd as quiettly as we could for<lb/>
                  the madnes of the Sotts<note place="end">
                     <p rend="Endnote Text"> [word] SiC – for Scotts.</p>
-                </note> who quartred all the <rs type="place">County</rs><lb/>
+                </note> who quartred all the <rs n="place-supp94" type="place">County</rs><lb/>
                  ouer &amp; insulted over this Poore Country, &amp; English.</p>
             <p xml:id="p-0805"> <rs ref="ppl:aow1" n="per1345" type="person">My deare mothr</rs> was much greivd to be abued<note place="end">
                     <p rend="Endnote Text"> [word] I.e., abused.</p>
@@ -14018,7 +14022,7 @@ point to <category> elements or to feature structure components.
                  came one <persName ref="ppl:xi1" n="per1346">Capt. Inness</persName>. which was ovr<note place="end">
                     <p rend="Endnote Text"> [word] I.e., over [commander]</p>
                 </note> that troope we had<lb/>
-                 <rs type="place">in Towne</rs><!-- Q [places] not sure which place this is, ditto "the Toune" place407. it's at Hipswell, but that's not a town? link to Catterick. -->. &amp; he comming on a surprise into the house<lb/>
+                 <rs n="place-supp95" type="place">in Towne</rs><!-- Q [places] not sure which place this is, ditto "the Toune" place407. it's at Hipswell, but that's not a town? link to Catterick. -->. &amp; he comming on a surprise into the house<lb/>
                  I could not hide my selfe from them as I used to doe.<lb/>
                  But comming boldly into <rs ref="ppl:aow1" n="per1347" type="person">my mothr</rs>s Chamber whre I<lb/>
                  was with her. he began to be much more ernest and<lb/>
@@ -14205,7 +14209,7 @@ point to <category> elements or to feature structure components.
               </subst>  
                 <lb/>
                  for wittnesse. I was forced to goe over <geogName>the River neare<lb/>
-                 <placeName>midlam</placeName> calld 
+                 <placeName n="place-supp96">midlam</placeName> calld 
                      <choice><sic>swaile</sic><corr>Ure</corr></choice>
                  </geogName><!-- NOTE [places] general consensus is that she's referring to the R. Ure here, not the Swale! --> which had some stoops sett up for<lb/>
                  guides &amp; if one had raised the Caucy they had bn<note place="end">
@@ -14274,15 +14278,15 @@ point to <category> elements or to feature structure components.
         <div xml:id="div-146" rend="pre(rule)">
            <milestone n="ev230" unit="event"/>  
             <p xml:id="p-0818">A very great deliverance of me as I was goeing over<lb/>
-                 the River att <placeName>midlam</placeName> when <persName ref="ppl:kwd1" n="per1385">my Sistr Danby</persName> laid in of<lb/>
-                 one of her Sons calld <persName ref="ppl:fd1" n="per1386">francis</persName> &amp; was att <placeName>midlam Castle</placeName><lb/>
+                 the River att <placeName n="place-supp97">midlam</placeName> when <persName ref="ppl:kwd1" n="per1385">my Sistr Danby</persName> laid in of<lb/>
+                 one of her Sons calld <persName ref="ppl:fd1" n="per1386">francis</persName> &amp; was att <placeName n="place-supp98">midlam Castle</placeName><lb/>
                  in the yeare <date when-custom="1644">1644</date></p>
             <anchor n="ev230" type="event"/>
          </div>
         <div xml:id="div-147" rend="pre(rule)">
            <milestone n="ev231" unit="event"/>
             <p xml:id="p-0819">A great deliverance of me from beeing destroyd<lb/>
-                 with a cannon Bullett att <placeName>weschester</placeName> beeing besseged<lb/>
+                 with a cannon Bullett att <placeName n="place-supp99">weschester</placeName> beeing besseged<lb/>
                  by <persName ref="ppl:wb1" n="per1387">Sir will.<hi rend="superscript">m</hi> Brewerton</persName>s Army they shift into the Town<lb/>
                  of <placeName ref="place:Ches_012" n="place419">weschester</placeName> and as I was at my prayers in the Tent<lb/>
                  with the window open the waft shut the casnt<note place="end">
@@ -14294,7 +14298,7 @@ point to <category> elements or to feature structure components.
                  was delivrd from death. at that time allso to Praise his<lb/>
                 holy name. For. Ever. <date when-custom="1643-07">1647</date>.<!-- Q [review] 1647 - the 7 should be 3 (have 'corrected' @when already for data purposes, transcription to do later) --></p>
             <p xml:id="p-0820">And was deleerd from that seige allso by miracles<lb/>
-                 of mercy &amp; brought us safe into our owne Country <placeName>York<lb/>
+                 of mercy &amp; brought us safe into our owne Country <placeName n="place-supp100">York<lb/>
                  shere</placeName>.</p>
             <anchor n="ev231" type="event"/>
          </div>
