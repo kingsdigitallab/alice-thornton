@@ -48,7 +48,7 @@ In 1652, Alice herself was also in a state of great change. She had married in 1
 
 
 
-====
+***
 
 [^1]: 29 March is the Julian calendar dating used by Alice; the modernised date is 8 April.
 
