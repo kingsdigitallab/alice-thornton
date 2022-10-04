@@ -27,6 +27,7 @@ pageImageWebPath: "/assets/img/logos/alice-thornton-logo-img.jpeg"
     {% comment %} generated from assets/css/main.scss {% endcomment %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}?ts={{ "now" | date: "%s" }}">
     <script src="{{ '/assets/js/navbar-toggle.js' | url }}?ts={{ "now" | date: "%s" }}"></script>
+    <script src="{{ '/assets/js/main.js' | url }}?ts={{ "now" | date: "%s" }}" defer></script>
   </head>
   <body class="{{ body_class }}">
     {% include "header.html" %}
@@ -38,6 +39,7 @@ pageImageWebPath: "/assets/img/logos/alice-thornton-logo-img.jpeg"
         <div class="content {{ tags }}">
           {{ content }}
         </div>
+        {% comment %} {% include "page_citation.html" %} {% endcomment %} 
       </div>
     </section>
     {% include "footer.html" %}

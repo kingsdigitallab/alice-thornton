@@ -19,4 +19,7 @@ module.exports = {
     ret += "slug-" + data.page.fileSlug;
     return ret;
   },
+  authors: (data) => {
+    return data.authors || data.metadata.authors;
+  },
 };
