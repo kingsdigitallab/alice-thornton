@@ -1,5 +1,5 @@
 ---
-title: Black Monday - The Solar Eclipse of March 1652
+title: Black Monday - The Solar Eclipse of 1652
 feature: /assets/img/posts/eclipse_diagram.jpg
 status: draft
 authors:
@@ -8,6 +8,7 @@ tags:
   - providence
   - astronomy
   - monarchy
+  - yorkshire
 ---
 
 
