@@ -13,7 +13,7 @@ tags:
 
 
 
-Monday 29 March 1652[^1] saw a total eclipse of the sun, which cast complete darkness over Scotland and much of northern England. It was such a memorable and terrifying event that it was known as 'Black Monday' for years to come.
+Today, October 25 2022, there is a partial eclipse of the sun. However, a much fuller solar eclipse took place on Monday 29 March 1652,[^1] which cast complete darkness over Scotland and much of northern England. It was such a memorable and terrifying event that it was known as 'Black Monday' for years to come.
 
 ![An eclipse diagram from a 17th century book. The suns have little faces]({{"/assets/img/posts/eclipse_diagram.jpg" | url}} "Donato Rossetti (c. 1633-38). 'Figure de sistemi del mondo d'Aristotile, Copernico, e Ticone'. Philadelphia, University of Pennsylvania Rare Book Library, LJS 175 f. 12r. Licensed under Creative Commons"){.media-left}
 
