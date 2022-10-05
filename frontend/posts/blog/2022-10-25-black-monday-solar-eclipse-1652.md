@@ -1,6 +1,6 @@
 ---
 title: "Black Monday: The Solar Eclipse of 1652"
-feature: /assets/img/posts/eclipse_diagram.jpg
+feature: /assets/img/posts/annus_tenebrosus_detail.jpg
 status: draft
 authors:
   - jedge
