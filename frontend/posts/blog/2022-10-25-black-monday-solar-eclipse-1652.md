@@ -29,9 +29,10 @@ On a more practical note, Alice viewed the eclipse in water - presumably because
 
 Portents, Providence and the Political Landscape
 ---
-Alice was not the only person in seventeenth-century England who believed that unexpected, bizarre and scary events were portents of things to come. Eclipses were particularly frightening omens. As Alexandra Walsham points out, 'monstrous births, blazing stars, frightening apparitions, and eclipses were widely acknowledged to be providential tokens of future misfortune, and contemplated with a mixture of anxiety, astonishment, and awe'.[^4]  
 
 ![The title page of a book, which reads 'Catastrophe Magnatum: OR, THE FALL OF MONARCHIE.A Caveat to MAGISTRATES, Deduced from the Eclipse of the SUNNE, March 29. 1652. With a Probable Conjecture of the Determination of the Effects. / By Nich: Culpeper Gent. Stud. in Astrol. and Phys: / DAN. 2. 21, 22. He changeth the times and the seasons, he removeth Kings, and setteth up Kings: he giveth wisdome to the Wise, and knowledge to them that know understanding: he revealeth the deep and secret things, he knoweth what is in the darknesse, and the light dwelleth With him. / LONDON Printed for T. Vere and Nath: Brooke, in the Old Baily, and at the Angel in Cornhil. 1652' ]({{"/assets/img/posts/catastrophe_magnum.jpg" | url}} "Nicholas Culpeper. Title page of 'Catastrophe magnatum' (1652). Henry E. Huntington Library, California, (c) ProQuest, 2019"){.media-right}
+
+Alice was not the only person in seventeenth-century England who believed that unexpected, bizarre and scary events were portents of things to come. Eclipses were particularly frightening omens. As Alexandra Walsham points out, 'monstrous births, blazing stars, frightening apparitions, and eclipses were widely acknowledged to be providential tokens of future misfortune, and contemplated with a mixture of anxiety, astonishment, and awe'.[^4]  
 
 The title of astrologer Nicholas Culpeper's (1616-54) volume on this momentous event leaves little doubt as to his thoughts on the eclipse: *Catastrophe magnatum, or, The fall of monarchie*. Culpeper made predictions from this eclipse for many nations, but this is what he said about England:
 
