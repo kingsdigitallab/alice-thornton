@@ -1,7 +1,7 @@
 <p class="post-meta">
   {%- include 'post_categories_labels.md' -%} article
   published by <strong>{% include 'people_names.md', people: post.authors %}</strong>
-  on {{ post.page.date | date:metadata.date_format }} 
+  on {{ post.page.date | date:metadata.date_format }}&nbsp;
   {%- if post.tags.1 -%}
     {%- for tag in post.tags -%}
       {% assign cats = metadata.postCategories | lookup:".tag",tag %}
