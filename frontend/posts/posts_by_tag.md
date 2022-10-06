@@ -1,0 +1,21 @@
+---
+# Creates /posts/news/, /posts/blog/, ... index pages
+layout: base.liquid
+# so it's not treated as a post
+override:tags: []
+pagination:
+  data: collections.postsTags
+  size: 1
+  alias: tag
+permalink: "posts/tags/{{ tag }}/index.html"
+eleventyComputed:
+  title: "Posts tagged with '{{tag}}'"
+---
+
+{% assign posts = collections.postsLive | lookup:".data.tags",tag %}
+
+{% for post in posts %}
+{% include "post_summary.liquid" %}
+{% endfor %}
+
+<p><a href="..">List of all tags</a></p>

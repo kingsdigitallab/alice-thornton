@@ -1,0 +1,4 @@
+{% assign selected_people = collections.people | lookup:'.data.slug',people %}
+{%- for person in selected_people -%}
+  <meta name="citation_author" content="{{ person.data.lastName }}, {{ person.data.firstName }}" />
+{%- endfor -%}

@@ -3,9 +3,6 @@
 layout: posts.liquid
 # so it's not treated as a post
 override:tags: []
-eleventyNavigation:
-  key: Blog & News
-  order: 4
-title: Blog & News
-filteringTag: posts
+title: News
+filteringTag: news
 ---

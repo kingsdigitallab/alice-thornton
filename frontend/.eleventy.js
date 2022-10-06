@@ -19,6 +19,28 @@ module.exports = function (config) {
   config.addPassthroughCopy("assets/img");
   config.addPassthroughCopy("assets/js");
 
+  // all non-draft posts, in reverse chronological order
+  config.addCollection("postsLive", function (collectionApi) {
+    return collectionApi
+      .getFilteredByTag("posts")
+      .reverse()
+      .filter((post) => {
+        return post?.data?.status != "draft";
+      });
+  });
+
+  // all tags applied to posts
+  config.addCollection("postsTags", function (collectionApi) {
+    let ret = {};
+    // TODO: exclude blog, news & posts
+    collectionApi.getFilteredByTag("posts").map((post) => {
+      for (let tag of post.data.tags) {
+        ret[tag] = 1;
+      }
+    });
+    return Object.keys(ret).sort();
+  });
+
   // just copy the admin folder as is to the static site _site
   // config.addPassthroughCopy("admin");
 
@@ -57,6 +79,7 @@ module.exports = function (config) {
     return ret.length > 0;
   });
 
+  // TODO: duplicate with liquid: a contains b ?
   config.addFilter("contains", (a, b) => a.includes(b));
 
   config.addFilter(

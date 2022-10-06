@@ -22,4 +22,7 @@ module.exports = {
   authors: (data) => {
     return data.authors || data.metadata.authors;
   },
+  pageShortTitle: (data) => {
+    return data?.eleventyNavigation?.key || data.title;
+  },
 };
