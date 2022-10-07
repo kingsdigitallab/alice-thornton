@@ -3,7 +3,7 @@
     <a href="{{ post.url | url }}">{{ post.data.title }}</a>
   </h2>
 
-  {% include "post_meta.md", post: post.data %}
+  {% include "post_meta.liquid", post: post.data %}
 
   <div class="post-excerpt index-page-w-images">
     {% comment %}TODO: need metadata field for the feature alt instead of the post title.{% endcomment %}

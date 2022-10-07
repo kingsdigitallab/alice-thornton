@@ -5,6 +5,6 @@ eleventyComputed:
   description: "{{ categories }} article - {{ date | date:metadata.date_format }}"
 ---
 
-{% include "post_meta.md", post: context %}
+{% include "post_meta.liquid", post: context %}
 
 {{ content }}

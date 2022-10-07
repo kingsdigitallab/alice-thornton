@@ -33,7 +33,7 @@ pageImageWebPath: "/assets/img/logos/alice-thornton-logo-img.jpeg"
     <script src="{{ '/assets/js/main.js' | url }}?ts={{ "now" | date: "%s" }}" defer></script>
   </head>
   <body class="{{ body_class }}">
-    {% include "header.html" %}
+    {% include "header.liquid" %}
     <section class="section">
       <div class="container">
         <h1 class="title">
@@ -42,9 +42,9 @@ pageImageWebPath: "/assets/img/logos/alice-thornton-logo-img.jpeg"
         <div class="content {{ tags }}">
           {{ content }}
         </div>
-        {% include "page_citation.html" %}
+        {% include "page_citation.liquid" %}
       </div>
     </section>
-    {% include "footer.html" %}
+    {% include "footer.liquid" %}
   </body>
 </html>

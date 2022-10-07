@@ -1,7 +1,7 @@
 <div class="box box-citation">
   <p>Citing this web page:</p>
   <cite>
-    {% include 'people_names.md', people: authors %} ({{page.date | date:"%Y"}})
+    {% include 'people_names.liquid', people: authors %} ({{page.date | date:"%Y"}})
     '{{ title }}', Alice Thornton's Books, {{ metadata.live_domain }}{{ page.url
     }}. Accessed <span id="citation-accessed">{{ today }}</span>.
   </cite>

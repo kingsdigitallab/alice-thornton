@@ -21,6 +21,6 @@ In the process of creating this digital edition, we aim to answer three key ques
 
 ‘Alice Thornton’s Books’ brings together historians, literary scholars and digital analysts from the University of Edinburgh and King’s Digital Lab.
 
-{% include 'team.md', team: 'research' %}
+{% include 'team.liquid', team: 'research' %}
 
-{% include 'team.md', team: 'sdt' %}
+{% include 'team.liquid', team: 'sdt' %}

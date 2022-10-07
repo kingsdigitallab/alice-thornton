@@ -4,7 +4,7 @@ module.exports = {
   // and from a loop (post in posts): {% include X.md, post: post.data %}
   // otherwise the front matter data is addressed differently
   // which means we have to pass the all specific data to the {% include
-  // see how it's being used on post_meta.md
+  // see how it's being used on post_meta.liquid
   context: (data) => data,
   date: (data) => data.page.date,
   slug: (data) => data.page.fileSlug,
