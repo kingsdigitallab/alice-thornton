@@ -67,11 +67,25 @@ function fetchCachedTweets() {
           get_thumb_url(tweet) {
             // returns the url of the first photo attached to this tweet.
             // null if none.
+            let thumb = this.get_thumb(tweet);
+            return thumb?.media_url_https
+              ? thumb.media_url_https + ":small"
+              : null;
+          },
+          get_thumb_alt(tweet) {
+            let thumb = this.get_thumb(tweet);
+            return (
+              thumb?.ext_alt_text || "The tweet does not describe this image"
+            );
+          },
+          get_thumb(tweet) {
+            // returns data for first photo attached to this tweet.
+            // null if none.
             let ret = null;
-            let medias = tweet?.entities?.media || [];
+            let medias = tweet?.extended_entities?.media || [];
             for (let media of medias) {
               if (media.type == "photo") {
-                ret = media.media_url_https + ":small";
+                ret = media;
                 break;
               }
             }

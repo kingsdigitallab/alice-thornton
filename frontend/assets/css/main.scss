@@ -525,3 +525,9 @@ ul.social_media_block {
   line-height: 1.2;
   margin-bottom: 0.75em;
 }
+
+// authors (GN)
+
+.person-link:not(:first-child):before {
+  content: ', ';
+}

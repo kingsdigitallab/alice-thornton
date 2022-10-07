@@ -16,6 +16,7 @@ function getTweets() {
     {
       screen_name: process.env.TWITTER_SCREEN_NAME,
       tweet_mode: "extended",
+      include_ext_alt_text: true,
     },
     function (error, tweets) {
       fs.writeFile(outputPath, JSON.stringify(tweets), function (err) {

@@ -15,7 +15,7 @@ eleventyComputed:
 {% assign posts = collections.postsLive | lookup:".data.tags",tag %}
 
 {% for post in posts %}
-{% include "post_summary.liquid" %}
+  {% include "post_summary.liquid" %}
 {% endfor %}
 
 <p><a href="..">List of all tags</a></p>
