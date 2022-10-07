@@ -19,13 +19,13 @@
         <p>
           <strong>{{ tweet.user.name }}</strong> <small>@{{ tweet.user.screen_name }}</small> 
           - 
-          <small><a :href="get_url(tweet)" :aria-label="`See tweet #${tweetIndex+1} on twitter`">{{ get_time_ago(tweet) }}</a></small>
+          <small><a :href="get_url(tweet)" :aria-label="`See tweet #${tweetIndex+1} on twitter (${get_time_ago(tweet)})`">{{ get_time_ago(tweet) }}</a></small>
         </p>
       </div>
       <p v-html="get_html(tweet)">
       </p>
-      <a v-if="get_thumb_url(tweet)" :href="get_url(tweet)" :aria-label="`See tweet #${tweetIndex+1} on twitter`">
-        <img :src="get_thumb_url(tweet)" :alt="get_thumb_alt(tweet)">
+      <a v-if="get_thumb_url(tweet)" :href="get_url(tweet)">
+        <img :src="get_thumb_url(tweet)" :alt="`See tweet #${tweetIndex+1} on twitter`">
       </a>
       <nav class="level is-mobile">
         <div class="level-left">
