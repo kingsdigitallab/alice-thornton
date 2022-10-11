@@ -144,9 +144,11 @@
         
      <!-- ENCODING NOTES: 
          
-         @xml:id in <pb> tags and Page \d+ in xml comments = Transcriber page numbers 
+         @xml:id in <pb> tags and page \d+ in xml comments = Transcriber page numbers 
          <fw>type=pageNum are Alice's written numbers
-         @n in <pb> tags should not be used. (May be removed but currently using as reference for image numbers.)
+         @n in <pb> tags are DEPRECATED and should not be used. (May be removed but currently using as reference for image numbers.)
+         
+         img in xml comments = image numbers
          
      xml comment keywords:
          NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action
@@ -160,15 +162,6 @@
          
      TO DO/REVIEW:
         
-        DONE <pb> need renumbering (will redo them properly as xml:id) but waiting for ST to fix transcriptions first.
-        [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
-        once xml:id is done, I'll probably use @n to hold AWT's page numbers including putative [numbers] where she didn't number pages. 
-     
-        abbrev/contraction issues 
-        - needs to be fixed in the transcription first
-        - tagging of abbreviations/contractions and markers. maybe some <hi superscript> should be tagged as ex? hmm.
-        - NB diff between number<sup> (majority of hi/sup) and word<sup>...
-        
         seg @rend=underline (all books)
           final check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph tags.
           but what should emph be used for? 
@@ -176,6 +169,15 @@
              - not sure I've seen any clear examples of Alice using underline for exactly this type of emphasis. 
              - but she does underline things to (afaict) draw attention to them, so does that also count as emph?
              - Cf. most underline in BkRem used on headings and seems most appropriate to treat as decoration. Queried ones are at end of sections and the Q is whether they should be treated as section markers. 
+        
+        DONE <pb> renumbering.
+        [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
+        once xml:id is done, I may use @n to hold AWT's page numbers including putative [numbers] where she didn't number pages. 
+     
+        abbrev/contraction issues 
+        - contractions should now be DONE
+        - still q about <hi superscript> ?
+        - NB diff between number<sup> (majority of hi/sup) and word<sup>...
       
         remaining endnotes (<note> @place=end)
           type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep uncertain ones for later review.
@@ -198,12 +200,12 @@
         
 
      
-      notes on names linkage (at end of Sept '22)
-      - most people names are now tagged in all four books 
+      notes on names/places linkage (at end of Sept '22)
+      - most people and place names are now tagged in all four books 
       - nearly all tagged <persName> are linked to people masterlist db 
       - (additional bk2/3 people bios in progress)
       TODO
-      - at least half of people tagged with <rs> (type=person/group) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
+      - at least half of people and a proportion of places tagged with <rs> (type=person/group/place/geog) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
       - completion of people.xml standoff to include relationships - to be done once bios have been completed
 
      -->      
@@ -391,31 +393,22 @@
            [ATW] <!-- Q [symbol] ATW = decorative monogram. maybe <figure> ??
                       nb there is also one in book 1 near the end. -->
          </persName>
+                <!-- [endnote] The correct way for married women to monogram is 'Begin with her first name initial, followed by the married last name initial, and end with his first name initial.' -->
          </docAuthor>
-           <note place="end" type="context">
-               <p rend="Endnote Text">
-                 [context] The correct way for married women to monogram is 'Begin with her first name initial, followed by the married last name initial, and end with his first name initial.' 
-               </p>
-            </note>
          </titlePage>
      
             <pb xml:id="page-002" n="2"/>
 
 <!-- transcription: page 2-->
 
-
-
-       
+       <fw type="pageNum">2</fw>
        <space unit="page" quantity="1"/>
           
-     <!-- Q [teams] page number is present: should be transcribed? general policy on page numbers on otherwise blank pages? -->
-      <!-- [endnote] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
+     <!-- Q space ? page is blank apart from page number. -->
      
          <pb xml:id="page-003" n="3"/>
 
 <!-- transcription: page 3-->
-
-
 
        
      <div xml:id="div-002">
@@ -440,21 +433,15 @@
           <date when-custom="1626-02-14">the next day</date>.</p>
          <p xml:id="p-0002">Wittnesses, <persName ref="ppl:rl1" n="per4">Mr Lassells</persName> minister<lb/>
           of <placeName ref="place:Kirk_030" n="place3">Kirklington</placeName>. <persName ref="ppl:awn1" n="per5">Mrs Anne <lb/>
-            Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.<anchor n="ev1" type="event"/></p>
-         <p xml:id="p-0003">
-           <milestone unit="marker" rend="delim(diagonal)"/>
-           <!-- [endnote] A slightly angled slash under Best and beyond full stop.-->
-         </p>
+            Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.<anchor n="ev1" type="event"/> <milestone unit="marker" rend="delim(diagonal)"/></p>
          </div>
      
             <pb xml:id="page-004" n="3v"/>
 
 <!-- transcription: page 4-->
 
-
-
      
-       <!-- [endnote] blank page. -->
+       <!-- NOTE blank, unnumbered page -->
        
        
        <space quantity="1" unit="page"/>
@@ -469,9 +456,7 @@
       
          <div xml:id="div-003" type="poetry"><!-- NOTE not in index? -->
            
-         <fw type="pageNum" place="right">3
-             <!-- [endnote] Repeated page number, verso of leaf is blank.-->  
-         </fw>
+         <fw type="pageNum" place="right">3</fw>
          <l>Lord guide my heart,</l>
          <l>and give my Soule directions:</l>
          <l>Subdue my passions</l>
@@ -486,32 +471,28 @@
            <del rend="strikethrough">ever</del><add place="above">to</add></subst> chuse what thou sest <add place="above">best</add>
          </l>
          </div>
+       
+       
             <pb xml:id="page-006" n="4"/>
 
 <!-- transcription: page 6-->
 
 
-
-     
-       
-      <!-- Q [teams] should page number be transcribed? [no image to check exactly what it looks like] -->
-      <!-- [endnote] blank – but it is numbered in the top left-hand corner. 
-       -->
+       <fw type="pageNum">4</fw>
        <space quantity="1" unit="page"/>
+       <!-- Q space ? page is blank apart from number (top left corner) -->
        
        
          
             <pb xml:id="page-007" n="5"/>
 
 <!-- transcription: page 7-->
-
-
-
-       
-<!-- [endnote] From here pagination is continuous.-->   
+  
        
     <div xml:id="div-004" type="poetry">
+      
             <fw type="pageNum">5</fw>
+      
          <head>
             <seg rend="underline">Dedication</seg>
          </head>
@@ -645,10 +626,10 @@
           even from the first beginng of my dais<lb/>
           &amp; with a thankfull heart doe returne<lb/>
           him the Glory <add place="superimposed">for</add>
-             <!-- NOTE subst? looks to me like overwritten "of", but query dropped in review -->
+             <!-- Q dropped in review looks to me like overwritten "of" -->
              my birth, baptisme in<lb/>
           <add place="superimposed">the</add>
-           <!-- NOTE Also overwritten: could be either ‘this’ or ‘His’. dropped in review. -->
+           <!-- Q dropped in review. Also overwritten: could be either ‘this’ or ‘His’.  -->
             most holy name <add place="above">of God</add> &amp; education in that<lb/>
           true faith by <rs ref="ppl:cw1 ppl:aow1" n="per7" type="person">my Pieous &amp; Religious<lb/>
           Parents</rs> who instilld the princepalls of his <lb/>
@@ -909,7 +890,7 @@
           <rs type="person">my father</rs>s life and had the opportuni<lb/>
            ty of the best education <rs ref="place:tbd-kingdom" type="place" n="place-supp2">that Kingdom</rs><lb/>
           could afford in the sweete &amp; excelent<lb/>
-          company of <persName ref="ppl:tw1" n="per26">my Lord of Sraford</persName>s<lb/>
+          company of <persName ref="ppl:tw1" n="per26">my Lord of <sic>Srafords</sic></persName><lb/>
           Daughters. the most vertuous<lb/>
           <persName ref="ppl:aw1" n="per27">Lady Anne Wentworth</persName> &amp; <persName ref="ppl:aw2" n="per28">Arbella</persName><lb/>
           learning those qualities with them<lb/>
@@ -973,7 +954,7 @@
           I humbly acknowledge, my faith-<lb break="no"/>
            -ful thanks &amp; gratitude to <rs ref="ppl:cw1 ppl:aow1" n="per34" type="person">my<lb/>
           deare &amp; Hon.<hi rend="superscript">red</hi> Parents</rs> for their<lb/>
-          exceading great love &amp; painesfull<lb/>
+          exceading great love &amp; <sic>painesfull</sic><lb/>
            caire. <add xml:id="ex-add-above-01" place="above">&amp;</add> affection for the performance<lb/>
           of theire part towards me. desiring<lb/>
           of God to give me grace to live in<lb/>
@@ -1057,9 +1038,9 @@
           <milestone n="ev11" unit="event"/>in our returne back to <placeName ref="place:Irel_096" n="place13">Ireland</placeName> <date when-custom="1639-08-22">August<lb/>
           22<hi rend="superscript">th</hi> 39</date>. I with the rest of the Ship &amp;<lb/>
           the passengers was delivired from that<lb/>
-           great &amp; terable Sorme<note place="end" type="word">
-               <p rend="Endnote Text"> [word] Sic for ‘Storme’.</p>
-            </note> in <geogName ref="place:Nest_122" n="geog1">nesston<lb/>
+           great &amp; terable <sic>Sorme</sic>
+               <!-- [endnote] Sic for ‘Storme’.-->
+             in <geogName ref="place:Nest_122" n="geog1">nesston<lb/>
            water</geogName><!-- Q [place] I think new geogname "Neston Water" rather than placename (Neston: Nest_040) but ensure it's linked to the place. --> where there was 5 ships cast<lb/>
           away before we tooke ship. but the<lb/>
            same great God that maketh the stomes<note place="end" type="word">
@@ -1075,8 +1056,7 @@
           his holy name for ever &amp; for ever Amen</p>
          <anchor n="ev11" type="event"/>
         
-        <!-- Q [marker] added to p rather than milestone. nb I think not angled enough to call diagonal. -->
-           <!-- msDescription [endnote] At a slight angle from margin over the top of ‘I’. -->
+        <!-- Q [marker] added to p rather than milestone because there is a slight break here but hmm. -->
          <p xml:id="p-0020" rend="pre(rule_short_left)">
            <milestone n="ev12" unit="event"/><date when-custom="1639-08"/>
            I had a second preservation from drown<add place="above">ing</add><lb/>
@@ -1127,7 +1107,7 @@
              <sic><date when-custom="1641-10-03">Octb. 3<hi rend="superscript">d</hi> 1641</date></sic>
              <corr><date when-custom="1641-10-23">Octb: 23<hi rend="superscript">d</hi> 1641</date></corr>
            </choice>
-          <!-- [endnote] [editorial] It was actually the 23rd but she writes 3rd here -->: but it was acted with<lb/>
+          <!-- [endnote] It was actually the 23rd but she writes 3rd here -->: but it was acted with<lb/>
           bitter malice. &amp; fury against the English<lb/>
            in <rs ref="place:tbd-country" type="place" n="place-supp5">the country</rs> for many daies together<lb/>
           fire &amp; sword to all in generall. till it<lb/>
@@ -1164,12 +1144,12 @@
           of mercys who spaired my life at that<lb/>
           time allso. <add xml:id="ex-add-inline-01" place="inline">with <persName ref="ppl:jw1" n="per40">my bro: John</persName> who had them<anchor n="ev16" type="event"/><lb/>
           <milestone n="ev17" unit="event"/>but a poore boy <persName ref="ppl:fk1" n="per41">F. Kelly</persName> died of them. then.<anchor n="ev17" type="event"/></add>
-           <!-- msDescription [endnote] Words in angle brackets look to be later additions in a slightly different ink and size of writing. The underlining looks like it was done at the time the entry was originally written, as does the shorter line below.-->
-            <date when-custom="1642"/><!-- NOTE [dates] this date is more precise in book1 -->
+
+            <date when-custom="1642"/><!-- Q [dates] why is this here? NOTE this date is more precise in book1 -->
          </p>
       </div>
     
-       <!-- NOTE year 1642 ... or maybe not! 1642 is Alice misdating and this was actually 1644.
+       <!-- NOTE year 1642 ... or not! 1642 is Alice misdating and this was actually 1644.
         -->
 
        <div xml:id="div-020" rend="pre(rule_short_left)">
@@ -1178,7 +1158,7 @@
          <milestone n="ev18" unit="event"/>
           we were prevented from the siege at<lb/>
           <placeName ref="place:York_060" n="place23">yorke</placeName> by <persName ref="ppl:td1" n="per42">Mr Danby</persName>s advice beeing<lb/>
-          got halfe way thither, <date when-custom="1644">42</date>.
+          got halfe way thither, <date when-custom="1644">42</date><!-- Q [date] why haven't you done this as sic? -->.
          <anchor n="ev18" type="event"/>
          </p>
        </div>
@@ -1219,8 +1199,8 @@
              164<subst xml:id="ex-subst-overwritten">
              <del rend="overwritten">4</del><add place="superimposed">5</add></subst>
            </date>
-            <!-- [endnote] [editorial] Bk 1 says sept 30th 1645 but Anselment found she was buried on 11th sept 1645: edn n274. -->
-          <!-- [endnote] Originally 1644 but the final number has been over-written as 5. As per above, the phrase in add tags appears to be a later addition in a slightly different ink and writing of a smaller size.-->
+            <!-- [endnote] Bk 1 says sept 30th 1645 but Anselment found she was buried on 11th sept 1645: edn n274. -->
+          <!-- [date] Originally 1644 but the final number has been over-written as 5. -->
              <add xml:id="ex-add-inline-02" place="inline" rend="size(smaller)">of her 16 childe. beeing a son named<lb/> 
                 <persName ref="ppl:fd1" n="per47">Francis</persName> which I baptized</add> 
          </p>
@@ -1238,8 +1218,6 @@
          <fw>
            <fw type="pageNum" rend="differentInk">23</fw>
            <fw type="header" rend="differentInk"><date when-custom="1647/1649">1647, 48, 49.</date> </fw>
-           
-           <!-- Q msDescription? [endnote] Dates and page number looks to be in a darker ink than what’s written on the page. Also this particular page is far ‘neater’ than the previous – lots more space between sentences and entries.-->
          </fw>
        <div xml:id="div-023">
          <!-- NOTE not in index -->
@@ -1253,7 +1231,6 @@
          </p>
        </div>
        <div xml:id="div-024" rend="pre(rule_short_left)">
-           <!-- [endnote] Divider lines on this page and next, solid line, of approximately [4 chars] length.-->
          <p xml:id="p-0028"> 
          <milestone n="ev22" unit="event"/>
            <persName ref="ppl:en1" n="per51">My Cosen Edmund Norton</persName> died at<lb/>
@@ -1322,7 +1299,7 @@
            to <persName ref="ppl:ww1" n="per57">my uncle will. wandesforde</persName>, the <date when-custom="1651-03-31">31
             <lb/>
              of March 1651</date>.<milestone unit="marker" rend="delim(diagonal)"/>
-           <!-- [endnote] Faint diagonal line to mark end of section.-->
+           
          </p>
          <anchor n="ev27" type="event"/>
 </div>
@@ -1347,7 +1324,7 @@
          </p>
        </div>
        <div xml:id="div-032" rend="pre(rule_short_left)">
-         <!-- [endnote] This [pre-rule] line is more diagonal. -->
+         
          <p xml:id="p-0036"> 
          <milestone n="ev30" unit="event"/>
          My Selfe <persName ref="ppl:awt1" n="per64">Alice Wandesforde</persName> was<lb/>
@@ -1359,7 +1336,7 @@
          <anchor n="ev30" type="event"/>
        </p>
          </div>
-           <!-- msDescription [endnote] The bottom of ‘Mr Siddall’ and following punctuation and slash is missing suggesting the page has been trimmed.-->
+         
             <pb xml:id="page-027" n="25"/>
 
 <!-- transcription: page 27-->
@@ -1390,14 +1367,15 @@
        </div>
       <!-- NOTE year 1654 -->   
        <div xml:id="div-034" rend="pre(rule)">
-         <!-- [endnote] This is a solid line and added later as it crosses through some of the next line. Not ruled. -->
+
         <milestone n="ev34" unit="event"/>
          <p xml:id="p-0038">
            <persName ref="ppl:atc1" n="per69">Alice Thornton</persName> my Second Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place41">Hipswell</placeName> the <date datingMethod="#JulianMar" when-custom="1653-01-03">3<hi rend="superscript">d</hi> of Janeuary<lb/>
          <fw xml:id="mnote-0004" place="left margin" rend="underline">1653</fw></date>
            <damage><gap xml:id="ex-gap-word-01" reason="damage deleted" quantity="2" unit="word"/></damage>
-           <!-- Q not sure about "agent" of damage here. (and on the next page) has the damage been *caused by* the deletion or is it independent of it? [endnote] Some crossings out her but also looks like the paper is damaged in some way. Check original. This looks like it said 1653 – or 2? - but scratched out; A born 1654 in modern dating but makes more sense that the marginal dates are the corrections. This one has made a hole in the page visible on p.26.-->
+           <!-- Q not sure about "agent" of damage here. (and on the next page) has the damage been *caused by* the deletion or is it independent of it? 
+             Some crossings out her but also looks like the paper is damaged in some way. a hole in the page visible on p.26.-->
                   
           and Babtized the <date datingMethod="#JulianMar" when-custom="1653-01-04"><add place="superimposed">4</add><hi rend="superscript">th</hi> of the same</date>.
            <!-- TODO [add] needs subst/del/gap added. I think the original text is not readable - heavily written over. -->
@@ -1415,14 +1393,13 @@
  
    <!-- NOTE year 1655 -->
        <div xml:id="div-035" rend="pre(rule)">
-         <!-- [endnote] Line; not quite straight. -->
+         
          <p xml:id="p-0040">
          <milestone n="ev35" unit="event"/>
            <persName ref="ppl:et1" n="per75">Elizabeth Thornton</persName> my third Childe<lb/>
           was borne at <placeName ref="place:Hips_022" n="place42">Hipswell</placeName> the <date datingMethod="#JulianMar" when-custom="1654-02-14">14<hi rend="superscript">th</hi> of februory</date><lb/>
         <fw xml:id="mnote-0005" place="left margin" rend="underline">1654</fw>
-           <!-- [endnote] More paper damage. Check original. 
-                       This is also a scratched out date; poss 1653-->
+
          <!-- NOTE [dates] OS - date of Elizabeth's birth=1655-->
                   
            <damage><gap reason="damage deleted" quantity="1" unit="word"/></damage> being Wednesday. halfe houer<lb/>
@@ -1438,10 +1415,7 @@
 <fw>
             <fw type="pageNum">26</fw>
             <fw type="header"><date datingMethod="#JulianMar" when-custom="1654">1654</date>.</fw>
-            
-  <!-- msDescription [endnote] A bit crammed in at the top.-->
-            
-</fw>
+            </fw>
            <lb/>
            was Baptized the <date when-custom="1655-02-16">16<hi rend="superscript">th</hi> of February</date> by<lb/>
           <persName ref="ppl:ca1" n="per76">Mr Antony</persName>. wittneses, <rs ref="ppl:aow1" n="per77" type="person">my Mother</rs><lb/>
@@ -1454,20 +1428,20 @@
        </div>
        
      <div xml:id="div-036" rend="pre(rule_short_left)">
-      <!-- Q this rule is not horizontal, but it's not a diagonal slash either -->
+      <!-- Q this rule is not horizontal, but it's not really a diagonal slash either. transcribed as / after 1655. do i need to check again? -->
     <fw xml:id="mnote-0006" place="left margin"><date when-custom="1655">1655</date>.</fw><lb/>
     <p xml:id="p-0041">
-      <!-- [endnote] A diagonal line between the sections which goes through the date which was prob added later as it is in a darker ink, like the page number.-->
+      
        <milestone n="ev36" unit="event"/>
                   
         <persName ref="ppl:edg1" n="per81">my Mother Gates</persName> died at <lb/>
         <placeName ref="place:Oswa_041" n="place43">Oswoldekirke</placeName> of the voydance of<lb/>
         blood the <date when-custom="1655-05-10"><seg rend="differentInk">10<hi rend="superscript">th</hi></seg> day of may. 1655</date>.<lb/>
       &amp; was buried at <placeName ref="place:Ston_053" n="place119">Stanegrave</placeName>
-        <!-- msDescription? [endnote] Here there is a hole from the correction on p.25.-->
+        <!-- Q Here there is a hole from the correction on p.25.-->
          <lb/>
          the <date when-custom="1655-05-11">1<subst><del rend="overwritten">0</del><add place="superimposed">1</add></subst><hi rend="superscript">th</hi> of may 1655</date>.
-      <anchor n="ev36" type="event"/> <!-- TODO in review, we found that it does read 11 -->
+      <anchor n="ev36" type="event"/> <!-- TODO ? in review, we found that it does read 11 -->
           </p>
        </div>
        <div xml:id="div-037" rend="pre(rule_short_left) post(rule_short_left)">
@@ -1479,6 +1453,7 @@
            buried at <placeName ref="place:Hull_027" n="place120">hull</placeName> the <date when-custom="1655-05-18"><seg rend="differentInk">18<hi rend="superscript">th</hi></seg> of may<lb/>
              1655</date>
            <!-- [endnote] Diagonal line below second 5 and punctuation. -->
+           
          <anchor n="ev37" type="event"/>
          </p>
          </div>
@@ -1498,38 +1473,32 @@
         <milestone n="ev38" unit="event"/>
            <persName ref="ppl:rt1" n="per83">My brother. Richard Thornton</persName><lb/>
            died in <placeName ref="place:Dubl_088" n="place45">Dublin</placeName>, in <placeName ref="place:Irel_096" n="place46">Ireland</placeName> of the flux
-              <!-- msDescription [endnote] A bit unclear as in darker ink; overwritten?-->
-            <lb/>
+         <lb/>
           country desease the <date when-custom="1656-07-03"><seg rend="differentInk">3<hi rend="superscript">d</hi></seg>
-            of Ju<subst><del rend="overwritten" cert="low">xe</del><add place="superimposed">ly</add></subst> 
-           <!-- [endnote] Looks like written over xe so June before?-->
-            <lb/>
+            of July <lb/>
           1656</date>. &amp; buried in <placeName ref="place:StPa_092" n="place47">St Patricks <lb/>
           Church</placeName> <date>the next day</date>.
         <anchor n="ev38" type="event"/>
          </p>
 </div>
        <div xml:id="div-039" rend="pre(rule_short_left) post(rule_short_right)">
-         <p xml:id="p-0044"><!-- NOTE again rules are not horizontal, but not diagonal slash -->
+         <p xml:id="p-0044">
          <milestone n="ev39" unit="event"/>
            <persName ref="ppl:ktp1" n="per84">Katherine Thornton</persName> my fourth<lb/>
           Childe was borne at <placeName ref="place:Hips_022" n="place48">Hipswell</placeName> the<lb/>
           <date when-custom="1656-06-12">12<hi rend="superscript">th</hi> of June, 1656</date>. being thursday<lb/>
-          about halfe an houer affter 4 <milestone unit="marker" rend="delim(rule_fill_right)"/>
-             <!-- [endnote] There’s a line after 4. Looks similar to divisions but clearly isn’t, but definitely not a squiggle.-->
-            
-            <lb/>
+          about halfe an houer affter 4 <lb/>
           a clocke in the affter noone, and was<lb/>
            babtized the <date when-custom="1656-06-14">1<hi rend="superscript">th</hi> of June<!-- Q [transcription] 1th s/b 14th --></date>. by <persName ref="ppl:ms1" n="per85">Mr<lb/>
           Siddall</persName>. wittnesses, <rs ref="ppl:aow1" n="per86" type="person">my mother</rs>,<lb/>
            <persName ref="ppl:kdb1" n="per87">my Neece <add place="above">K</add> Danby</persName>, &amp; <persName ref="ppl:wt1" n="per88">Mr Thornton</persName>
-           <!-- [endnote] Diagonal line below Thornton, although not as dark as the ones above Elizabeth.-->
+           <!-- Q / transcribed after Thornton -->
          <anchor n="ev39" type="event"/>
          </p>
        </div>
             
        <div xml:id="div-040" rend="pre(rule_short_left)">
-         <p xml:id="p-0045"><!-- Q rule is more diagonal but still longer than slashes. -->
+         <p xml:id="p-0045">
          <milestone n="ev40" unit="event"/>
            <persName ref="ppl:et1" n="per89">Elizabeth Thornton</persName> my 3<hi rend="superscript">d</hi> child<lb/>
           died the: <date when-custom="1656-09-05">5<hi rend="superscript">th</hi> of September 1656</date>. <lb/>
@@ -1553,10 +1522,8 @@
            <lb/>
           6 months &amp;. 21 days. was<lb/>
           buried the same day at <placeName ref="place:Catt_010" n="place49">Catericke<lb/>
-           Church</placeName>
-           <!-- Q [endnote] There is a horizontal line / here from margin alongside Church up through buried -->.
-            
-            by <persName ref="ppl:ms1" n="per90">Mr Siddall</persName>.
+          Church</placeName>
+          by <persName ref="ppl:ms1" n="per90">Mr Siddall</persName>.
          <anchor n="ev40" type="event"/>
          </p>
        </div>
@@ -1583,7 +1550,7 @@
           it pleased God to restore me<lb/>
           of <persName ref="ppl:rw1" n="per92">Dr witty</persName> 
            who lett me blood<lb/>
-              <!-- msDescription [endnote] Change in ink colour here?  -->
+           
            &amp; I went to my full time.<anchor n="ev41" type="event"/> Blesed be<lb/>
            the most high God Devsiser of Heavn &amp; Earth &amp;
                
@@ -1941,8 +1908,8 @@
 
 
          <fw>
-            <fw type="pageNum">38<milestone unit="marker" rend="delim(diagonal)"/></fw>
-           <!-- Q [decoration?] how to handle diagonal line after 38. or do we treat it as filler and drop it? -->
+            <fw type="pageNum">38</fw>
+           <!-- NOTE original diagonal line after 38 deleted in review. -->
             <fw type="header">.<date>1659</date>.</fw>
          </fw>
          <p xml:id="p-0060">She was interred upon <date when-custom="1659-12-13">Tuesday<lb/>
@@ -2104,10 +2071,7 @@
           Ever. And I besech him to santifie<lb/>
           these fatherly rebucks &amp; make them<lb/>
           profitable to my poore Soule to<lb/>
-          bring me nearer in communion with<note place="end" type="word">
-               <p rend="Endnote Text"> [word] There is superscript writing but not clearly th</p>
-            </note>
-            <lb/>
+          bring me nearer in communion with <lb/>
           him selfe, that so I may be prepared for<lb/>
           his glory. both in this world &amp; the<lb/>
           next even for Christ Jesus his<lb/>
@@ -2116,9 +2080,7 @@
          <p xml:id="p-0067">
        <milestone n="ev48" unit="event"/>
            <rs ref="ppl:wt2" n="per128" type="person">My Childe</rs> was buried at <placeName ref="place:Easb_017" n="place58">Easby</placeName> in<lb/>
-          the same grave with<note place="end" type="word">
-            <p rend="Endnote Text"> [word] Superscript letters indistinct.</p>
-            </note> <rs ref="ppl:xt1" n="per129" type="person">his Eldest sister</rs><lb/>
+          the same grave with <rs ref="ppl:xt1" n="per129" type="person">his Eldest sister</rs><lb/>
           by <persName ref="ppl:jk1" n="per130">Mr<gap reason="deleted" quantity="1" unit="char"/> <!-- [endnote] Superscript letter blotted out after the r?--> 
           Kirton</persName> who preached of<lb/>
           <date when-custom="1660-04-29">Sunday</date>:
@@ -2132,19 +2094,16 @@
 
 <!-- transcription: page 44-->
 
-
-
-
  <div xml:id="div-046" type="poetry">  
-   <!-- Q [check] if this has an mnote id, shouldn't it also have a place attribute?  -->
-         <fw xml:id="mnote-0013" type="pageNum">42</fw>
+
+         <fw type="pageNum">42</fw>
    
          <fw type="header" place="centre"><date>1660</date>.</fw>
    
          <l>Tax not thy God thy owne defalts</l>
          <l>did urge.</l>
          <l>This two fould punishement .the</l>
-   <l>mille. the <add xml:id="ex-add-super-01" place="superimposed" rend="differentInk">Scourge</add><!-- Q [add] needs subst/del. overwritten text is not really readable; there's a letter d? -->
+   <l>mille. the <add xml:id="ex-add-super-01" place="superimposed" rend="differentInk">Scourge</add><!-- Q [add] ?subst/del. overwritten text is not really readable; there's a letter d? -->
          </l>
          <l>Thy Sinnes the author of thy selfe.</l>
          <l>tormenting.</l>
@@ -2271,10 +2230,7 @@
           serpent seeke to destroy my hopes of<lb/>
            mercy, my owne consience framing <lb/>
           arguments against it selfe joining with<lb/>
-           him as beeing consious of my owne<note place="end" type="word">
-             <p rend="Endnote Text"> [word] possibly a &amp; blotted out at the end of the line.</p>
-            </note>
-            <lb/>
+           him as beeing consious of my owne <lb/>
           unworthinesse.<anchor n="ev49" type="event"/></p>
          <p xml:id="p-0069">In this most sad &amp; heavy condition I<lb/>
           was, haveing noe soule living that I could<lb/>
@@ -2499,7 +2455,7 @@
           &amp; feare nothing but thee spending<lb/>
           the remainder of my daies to the<lb/>
            Glory of thy name. beeng nere<note place="end" type="word">
-             <p rend="Endnote Text"> [word] Instead of ‘now’, I think this is ‘nere’ (i.e., never).</p>
+             <p rend="Endnote Text"> [word] (i.e., never).</p>
             </note>
             <lb/>
           more a shame to my profession as<lb/>
@@ -2620,10 +2576,7 @@
           beeing 24<hi rend="superscript">l</hi> for the 6 steeres, I allow<lb/>
           ing <persName ref="ppl:wt1" n="per140">Mr Th</persName>. 4<hi rend="superscript">l-</hi> for the wintering them<lb/>
            <w norm="since">sine</w><!-- Q [word] maybe sic rather than norm ? -->
-            <date when-custom="1661-11-11">mart<hi rend="superscript">s</hi>.<note place="end" type="word">
-               <p rend="Endnote Text">
-              I.e. ‘Martinmas’?</p>
-            </note> 61</date> till <date when-custom="1661-05-01">may. day.</date> I say<lb/>
+            <date when-custom="1661-11-11">mart<hi rend="superscript">s</hi>. 61</date><!-- Q [date] see transcription: I made it 11 Nov but could be 4 July? --> till <date when-custom="1661-05-01">may. day.</date> I say<lb/>
           he promised me to make a bond of<lb/>
           his owne good will to <rs ref="ppl:aow1" n="per141" type="person">my Mother</rs>s<lb/>
           Excecutor<hi rend="superscript">es</hi> for the said money to be<lb/>
@@ -2632,10 +2585,6 @@
             
             the bond for <date>mart<hi rend="superscript">s</hi></date>
            &amp; not for <date>mick<ex>lemas</ex></date><!-- NOTE contraction added in review. (no contraction added for marts). -->
-           <note place="end" type="word">
-               <p rend="Endnote Text">
-              I.e. ‘Micklemas’?</p>
-            </note>
             <lb/>
           as he first intended.
          </p>
@@ -2945,7 +2894,7 @@
           -ition bigg with child, also knowing<lb/>
           <persName ref="ppl:wt1" n="per166">Mr th</persName>. went up to prevent the sam
             <note place="end" type="context">
-               <p rend="Endnote Text"> [context] There is a Chancery bill about a money dispute by Wm Thornton against Robert Nettleton from 1661: TNA, C 5/633/108. Need to read! 
+               <p rend="Endnote Text"> [context] There is a Chancery bill about a money dispute by Wm Thornton against Robert Nettleton from 1661: TNA, C 5/633/108.
                </p>
             </note>
             <lb/>
@@ -3181,7 +3130,7 @@
           of my many frailtys &amp; sines doe in this<lb/>
           world, but weakly &amp; imperfectly.<lb/>
           but o that I might be freed from this pour<note place="end" type="word">
-            <p rend="Endnote Text"> [word] i.e. power? Unclear, as overwritten.</p>
+            <p rend="Endnote Text"> [word] i.e. power?</p>
             </note>
             <lb/>
            of sine that it may not get dommin oiver<lb/>
@@ -3830,9 +3779,7 @@
             <seg rend="underline">1665</seg></date> and she was baptized on the<lb/>
           28<hi rend="superscript">th</hi> day:
          </p>
-         <p xml:id="p-0106">Her Godfather was my <persName ref="ppl:jf1" n="per208">Lord Frechail</persName><note place="end" type="word">
-           <p rend="Endnote Text"> [word] Not entirely sure about this – binding very tight.</p>
-            </note>
+         <p xml:id="p-0106">Her Godfather was my <persName ref="ppl:jf1" n="per208">Lord Frechail</persName>
             <lb/>
           by <persName ref="ppl:tc1" n="per209">Mr Comber</persName> who stood for him.<lb/>
           <persName ref="ppl:rl2" n="per210">Mr Rich. Ledgard</persName>. <persName ref="ppl:sg1" n="per211">Mrs Graham</persName><lb/>
@@ -4431,7 +4378,7 @@
           yet having a bundance of intervalls. in which<lb/>
           time he was very Religously desposed &amp;<lb/>
           constant in dutyes with a consiencue<note place="end" type="word">
-            <p rend="Endnote Text"> [word] Looking across the book, closest this looks to be is a variation of ‘consience’.</p>
+            <p rend="Endnote Text"> [word] sic ‘consience’.</p>
             </note> to spend<lb/>
           his daies holily &amp; uprightly, and in great<lb/>
           penitency for any thing don in his weaknesse<lb/>
@@ -5222,7 +5169,7 @@
           in his infinit and aboundant mercy &amp;<lb/>
           goodnesse to begin to restore that most <lb/>
           valewed Jewell by me. (&amp; which was indeu’ud<note place="end" type="word">
-            <p rend="Endnote Text"> [word] I.e.,endured?</p>
+            <p rend="Endnote Text"> [word] I.e., endeavoured??</p>
             </note>
             <lb/>
           to be wronged, (my good name). by the <lb/>
@@ -6318,9 +6265,7 @@
           by <rs ref="ppl:tbd-servant" n="per335" type="person">my servant</rs> to me for <rs type="person">the Dr</rs> which<lb/>
           was dispatch for imeadatly. &amp; came<lb/>
           to him on <date when-custom="1668-09-16">wednesday</date> after dinner from<lb/>
-          <placeName ref="place:York_060" n="place99">Yorke</placeName> <persName ref="ppl:rw1" n="per336">Dr wittie</persName> [S?]<note place="end" type="word">
-               <p rend="Endnote Text">Looks like a stray long s?</p>
-            </note>he was at that time<lb/>
+          <placeName ref="place:York_060" n="place99">Yorke</placeName> <persName ref="ppl:rw1" n="per336">Dr wittie</persName> [?]<!-- Q this will need to be checked later. --> he was at that time<lb/>
           very weake in bodie but I blesse God<lb/>
           perfect in his understanding. &amp; havng<lb/>
           sent <persName ref="ppl:tc1" n="per337">Mr Comber</persName> to see him. he tooke<lb/>
@@ -6456,7 +6401,7 @@
           loves any thing with thee, which hee<lb/>
           loves not for thee.</p>
          <p xml:id="p-0170"> (St Austin.)
-             <!-- msDescription? [formatting] [endnote] Citation and attribution in larger writing and italic hand.-->   
+             <!-- Q [formatting] [endnote] Citation and attribution in larger writing and italic hand.-->   
          </p>
        </epigraph>
        </div>
@@ -6477,6 +6422,8 @@
             154
          </fw>
    <lb/>
+         <!-- Q [authors] see endnotes for more detailed citations! -->
+         <!-- Q ST endnote "Wondering about representation of broken lines in poetry – will we want to correct in modernised version, in which case, might we want to annotate this differently in SDT?" -->
          <l> Since natuers workes be good, and, Death<lb/>
          doth serve.</l>
          <l> As natures worke, why shold we feare<lb/>
@@ -7675,9 +7622,6 @@
        <pb xml:id="page-186" n="182"/>
 
 <!-- transcription: page 186-->
-
-
-
 
     
     <div xml:id="div-096" type="supplementary" rend="differentInk">
