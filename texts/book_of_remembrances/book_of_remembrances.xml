@@ -353,6 +353,11 @@
              <name>Sharon Howard</name>
              <desc>xslt added unique n to geog names. added n to previously overlooked place names.</desc>
            </change>
+           <change>
+             <date>2022-10-11</date>
+             <name>Sharon Howard</name>
+             <desc>xslt added place IDs to place/geog names. </desc>
+           </change>
          </listChange>
             
       </revisionDesc> 
@@ -815,7 +820,7 @@
           through the caire of our servants.<lb/>
           this was don at night when my<lb/>
           <rs ref="ppl:cw1" n="per20" type="person">father</rs> &amp; <rs ref="ppl:aow1" n="per21" type="person">mother</rs> was at Court. but<lb/>
-          we were preserved in <rs type="place" n="place-supp1">my <persName ref="ppl:xl1" n="per22">Lady<lb/>
+          we were preserved in <rs ref="place:StMa_082" type="place" n="place-supp1">my <persName ref="ppl:xl1" n="per22">Lady<lb/>
           Leverton</persName>s House</rs><!-- Q [place] Identifiable? - JE -->. beeing carried by<lb/>
           <persName ref="ppl:st1" n="per23">Sara</persName> thither. this fire did seeme to<lb/>
           me as if the day of Judgment was<lb/>
@@ -848,7 +853,7 @@
          <milestone n="ev7" unit="event"/>where I injoyed<lb/>
           great happinesse &amp; comfort during<lb/>
           <rs type="person">my father</rs>s life and had the opportuni<lb/>
-           ty of the best education <rs type="place" n="place-supp2">that Kingdom</rs><lb/>
+           ty of the best education <rs ref="place:tbd-kingdom" type="place" n="place-supp2">that Kingdom</rs><lb/>
           could afford in the sweete &amp; excelent<lb/>
           company of <persName ref="ppl:tw1" n="per26">my Lord of Sraford</persName>s<lb/>
           Daughters. the most vertuous<lb/>
@@ -982,13 +987,13 @@
            <milestone n="ev10" unit="event"/>
            <!-- NOTE [dates] date supplied from external evidence [CB] -->
            <date when-custom="1639-06">Having come</date> over into <placeName ref="place:Engl_094" n="place12">England</placeName><lb/>
-           with <rs ref="ppl:aow1" n="per36" type="person">my d. mother</rs> to <placeName n="place-supp3">the bath</placeName> for the stone<anchor n="ev10" type="event"/><lb/>
+           with <rs ref="ppl:aow1" n="per36" type="person">my d. mother</rs> to <placeName ref="place:StVi_051" n="place-supp3">the bath</placeName> for the stone<anchor n="ev10" type="event"/><lb/>
           <milestone n="ev11" unit="event"/>in our returne back to <placeName ref="place:Irel_096" n="place13">Ireland</placeName> <date when-custom="1639-08-22">August<lb/>
           22<hi rend="superscript">th</hi> 39</date>. I with the rest of the Ship &amp;<lb/>
           the passengers was delivired from that<lb/>
            great &amp; terable Sorme<note place="end" type="word">
                <p rend="Endnote Text"> [word] Sic for ‘Storme’.</p>
-            </note> in <geogName n="geog1">nesston<lb/>
+            </note> in <geogName ref="place:Nest_122" n="geog1">nesston<lb/>
            water</geogName><!-- Q [place] I think new geogname "Neston Water" rather than placename (Neston: Nest_040) but ensure it's linked to the place. --> where there was 5 ships cast<lb/>
           away before we tooke ship. but the<lb/>
            same great God that maketh the stomes<note place="end" type="word">
@@ -1047,7 +1052,7 @@
      <milestone n="ev14" unit="event"/>
          <p xml:id="p-0022">Twas amongst the many 1000 of others<lb/>
           Protestants in <placeName ref="place:Irel_096" n="place16">Ireland</placeName> miraculously pre-<lb break="no"/>
-           -served from that Horrid Rebellion in <rs type="place" n="place-supp4">Ire<hi rend="superscript">ld</hi></rs><lb/>
+           -served from that Horrid Rebellion in <rs ref="place:Irel_096" type="place" n="place-supp4">Ire<hi rend="superscript">ld</hi></rs><lb/>
             which broke out, &amp; was discovred in <placeName ref="place:Dubl_088" n="place17">Dublin</placeName><lb/>
            <choice>
              <sic><date when-custom="1641-10-03">Octb. 3<hi rend="superscript">d</hi> 1641</date></sic>
@@ -1055,7 +1060,7 @@
            </choice>
           <!-- [endnote] [editorial] It was actually the 23rd but she writes 3rd here -->: but it was acted with<lb/>
           bitter malice. &amp; fury against the English<lb/>
-           in <rs type="place" n="place-supp5">the country</rs> for many daies together<lb/>
+           in <rs ref="place:tbd-country" type="place" n="place-supp5">the country</rs> for many daies together<lb/>
           fire &amp; sword to all in generall. till it<lb/>
           was known to be prevented in <placeName ref="place:Dubl_088" n="place18">Dublin</placeName>.<anchor n="ev14" type="event"/><lb/>
            <milestone n="ev15" unit="event"/>but we were tosed with frights &amp; Alarms<lb/>
@@ -1234,7 +1239,7 @@
          </fw>
          <milestone n="ev27" unit="event"/>
          <p xml:id="p-0033"> <persName ref="ppl:gw1" n="per56">my brother George Wandesforde</persName><lb/>
-           was drouned Riding over <geogName n="geog2">the Swaile</geogName> at<lb/>
+           was drouned Riding over <geogName ref="place:Swal_123" n="geog2">the Swaile</geogName> at<lb/>
         <placeName ref="place:Hips_022" n="place32">Hipswell</placeName> wath goeing to <placeName ref="place:Rich_043" n="place33">Richmond</placeName><lb/>
            to <persName ref="ppl:ww1" n="per57">my uncle will. wandesforde</persName>, the <date when-custom="1651-03-31">31
             <lb/>
@@ -1247,7 +1252,7 @@
          <p xml:id="p-0034"> 
          <milestone n="ev28" unit="event"/>
            <persName ref="ppl:mny1" n="per58">My Cozen mary Norton</persName> was Married<lb/>
-           to <persName ref="ppl:jy1" n="per59">Mr John Vorke</persName> at <rs type="place" n="place-supp6"><rs ref="ppl:mn1" n="per60" type="person">her father</rs>s<lb/>
+           to <persName ref="ppl:jy1" n="per59">Mr John Vorke</persName> at <rs ref="place:tbd-house" type="place" n="place-supp6"><rs ref="ppl:mn1" n="per60" type="person">her father</rs>s<lb/>
            house</rs><!-- TODO [place] ie St Nicholas - JE --> on <placeName ref="place:Rich_044" n="place34">the Greene in Richmond</placeName>, the<lb/>
            <date when-custom="1651-08-12">12<hi rend="superscript">th</hi> of August 1651</date>.<milestone unit="marker" rend="delim(diagonal)"/> 
          <anchor n="ev28" type="event"/>
@@ -1823,7 +1828,7 @@
          <p xml:id="p-0060">She was interred upon <date when-custom="1659-12-13">Tuesday<lb/>
           foll<ex>owing</ex> the 13<hi rend="superscript">th</hi> of December</date> in the Cheifest<lb/>
           plase in her quire at <placeName ref="place:Catt_010" n="place52">Catrick Church</placeName><lb/>
-           being Carried out of <rs type="place" n="place-supp7">her house</rs> by<lb/>
+           being Carried out of <rs ref="place:tbd-house" type="place" n="place-supp7">her house</rs> by<lb/>
           the <persName ref="ppl:cd2" n="per106">Lord Darcy</persName>. his sonne <persName ref="ppl:cd3" n="per107">Mr Coniers</persName>.<lb/>
           <persName ref="ppl:cw3" n="per108">Sir Christ. vivill</persName> &amp; divers kindred<lb/>
           of quality. then from <placeName ref="place:Hips_024" n="place53">hipswell Green</placeName><lb/>
@@ -2043,7 +2048,7 @@
           I began a dangerous sickness at<lb/>
           <placeName ref="place:Oswa_041" n="place59">oswoldkirke</placeName> affter <rs ref="ppl:aow1" n="per131" type="person">my deare mother</rs><lb/>
           death, beeing caused by a cold I<lb/>
-           got in <rs type="place" n="place-supp8">that. church</rs>, causing a very great
+           got in <rs ref="place:tbd-church" type="place" n="place-supp8">that. church</rs>, causing a very great
             <!-- msDescription [endnote] T is right on edge of page.-->
             <lb/>
           and violent vomitting upon <date when-custom="1661-02-13" datingMethod="#JulianMar">shrove<lb/>
@@ -7337,7 +7342,7 @@
         <milestone n="ev101" unit="event"/>   
          <p xml:id="p-0182">I had a sad dreame <date when-custom="1650-10">halfe a yeare before</date><!-- NOTE [dates] durations could be differently handled but this will do for now. --> my<lb/>
           Brothr <persName ref="ppl:gw1" n="per374">George Wandesford</persName> was lost. That he was<lb/>
-          goeing over <rs n="geog3" type="geog">thys River</rs> and that it did Rise then<lb/>
+          goeing over <rs ref="place:tbd-river" n="geog3" type="geog">thys River</rs> and that it did Rise then<lb/>
           when he was in it. which soe over came him. That he<lb/>
           could make noe helpe for him selfe. And soe was<lb/>
           drowned in it. This Dreame did trouble me much<lb/>
@@ -7350,7 +7355,7 @@
           George</persName> came into the Chambr &amp; asked me what made<lb/>
           me weepe soe sore. I answrd it was for him. why sad<lb/>
           he sister doest thou wepe for me. I said becaise he<lb/>
-          was soe ventrous to goe ovr that dangerous <geogName n="geog4">Rivr<lb/>
+          was soe ventrous to goe ovr that dangerous <geogName ref="place:Swal_123" n="geog4">Rivr<lb/>
           <damage agent="tear"><supplied reason="damage">S</supplied></damage>wale</geogName> &amp; that I feard he might be lost in it. And<lb/>
           begged of him for Gods sake that he would <add place="above">not</add> presume to<lb/>
           goe soe when it was high for I feard him much that<lb/>
