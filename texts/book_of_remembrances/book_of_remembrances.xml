@@ -144,8 +144,9 @@
         
      <!-- ENCODING NOTES: 
          
-         Page \d+ in xml comments = Transcriber page numbers 
+         @xml:id in <pb> tags and Page \d+ in xml comments = Transcriber page numbers 
          <fw>type=pageNum are Alice's written numbers
+         @n in <pb> tags should not be used. (May be removed but currently using as reference for image numbers.)
          
      xml comment keywords:
          NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action
@@ -159,7 +160,7 @@
          
      TO DO/REVIEW:
         
-        <pb> need renumbering (will redo them properly as xml:id) but waiting for ST to fix transcriptions first.
+        DONE <pb> need renumbering (will redo them properly as xml:id) but waiting for ST to fix transcriptions first.
         [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
         once xml:id is done, I'll probably use @n to hold AWT's page numbers including putative [numbers] where she didn't number pages. 
      
@@ -356,7 +357,8 @@
            <change>
              <date>2022-10-11</date>
              <name>Sharon Howard</name>
-             <desc>xslt added place IDs to place/geog names. </desc>
+             <desc>xslt added place IDs to place/geog names. re-numbering of pages in pb tags (in xml:id).
+             </desc>
            </change>
          </listChange>
             
@@ -365,11 +367,12 @@
    </teiHeader> 
 
   <text>         
-    <pb n="1"/>
+    <pb xml:id="page-001" n="1"/>
+
+<!-- transcription: page 1-->
+
      <front>     
             
-<!-- transcription: Page 1 -->
-
          <titlePage xml:id="div-001">
          <fw type="pageNum" place="right"> 1</fw>
          <docTitle> 
@@ -396,18 +399,24 @@
             </note>
          </titlePage>
      
-            <pb n="2"/>
+            <pb xml:id="page-002" n="2"/>
 
-<!-- transcription: Page 2 -->
+<!-- transcription: page 2-->
+
+
+
        
        <space unit="page" quantity="1"/>
           
      <!-- Q [teams] page number is present: should be transcribed? general policy on page numbers on otherwise blank pages? -->
       <!-- [endnote] Does Thornton give this page a number? Yes, ‘2.’ appears in the top left-hand corner. -->
      
-         <pb n="3"/>
+         <pb xml:id="page-003" n="3"/>
 
-<!-- transcription: Page 3 -->
+<!-- transcription: page 3-->
+
+
+
        
      <div xml:id="div-002">
       
@@ -438,9 +447,12 @@
          </p>
          </div>
      
-            <pb n="3v"/>
+            <pb xml:id="page-004" n="3v"/>
 
-<!-- transcription: Page 3v -->
+<!-- transcription: page 4-->
+
+
+
      
        <!-- [endnote] blank page. -->
        
@@ -448,9 +460,12 @@
        <space quantity="1" unit="page"/>
     
     
-            <pb n="3a"/>
+            <pb xml:id="page-005" n="3a"/>
+
+<!-- transcription: page 5-->
+
          
-<!-- transcription: Page 3a-->
+
       
          <div xml:id="div-003" type="poetry"><!-- NOTE not in index? -->
            
@@ -471,9 +486,12 @@
            <del rend="strikethrough">ever</del><add place="above">to</add></subst> chuse what thou sest <add place="above">best</add>
          </l>
          </div>
-            <pb n="4"/>
+            <pb xml:id="page-006" n="4"/>
 
-<!-- transcription: Page 4 -->
+<!-- transcription: page 6-->
+
+
+
      
        
       <!-- Q [teams] should page number be transcribed? [no image to check exactly what it looks like] -->
@@ -483,9 +501,12 @@
        
        
          
-            <pb n="5"/>
+            <pb xml:id="page-007" n="5"/>
 
-<!-- transcription: Page 5 -->
+<!-- transcription: page 7-->
+
+
+
        
 <!-- [endnote] From here pagination is continuous.-->   
        
@@ -517,9 +538,12 @@
          <l>which are ever liveing. never ending.</l>
          <l>where are pleasures worth commending.</l>
          </div>
-            <pb n="6"/>
+            <pb xml:id="page-008" n="6"/>
 
-<!-- transcription: Page 6 -->
+<!-- transcription: page 8-->
+
+
+
       <div xml:id="div-005" type="poetry"><!-- NOTE not in index? -->
             <fw type="pageNum">6</fw>
          <head>
@@ -534,9 +558,12 @@
          <l>Lord lead me by thy hand into thy Rest.</l>
          <p xml:id="p-0004"> Amen.</p>
          </div>
-            <pb n="7"/>
+            <pb xml:id="page-009" n="7"/>
 
-<!-- transcription: Page 7 -->
+<!-- transcription: page 9-->
+
+
+
      <div xml:id="div-006" source="#tbd-external">
        <!-- Q [authors] not labelled as such here, but Joseph Hall - see beginning of book 1.
        is it a quote? -->
@@ -558,9 +585,12 @@
           Comfort and Assurance.</p>
          </div>
      
-            <pb n="8"/>
+            <pb xml:id="page-010" n="8"/>
 
-<!-- transcription: Page 8 -->
+<!-- transcription: page 10-->
+
+
+
      
       <div xml:id="div-007" type="prayer">
             <fw type="pageNum">8</fw>
@@ -579,9 +609,12 @@
          <p xml:id="p-0007"> Amen.</p>
          </div>
       
-            <pb n="9"/>
+            <pb xml:id="page-011" n="9"/>
 
-<!-- transcription: Page 9 -->
+<!-- transcription: page 11-->
+
+
+
          
          <div xml:id="div-008">
            
@@ -622,9 +655,12 @@
           Grace into<lb/>
          
          
-            <pb n="10"/>
+            <pb xml:id="page-012" n="10"/>
 
-<!-- transcription: Page 10 -->
+<!-- transcription: page 12-->
+
+
+
 
          <fw type="pageNum">10</fw>
            
@@ -677,9 +713,12 @@
           of my Life.
       </p>
          
-            <pb n="11"/>
+            <pb xml:id="page-013" n="11"/>
 
-<!-- transcription: Page 11 -->
+<!-- transcription: page 13-->
+
+
+
 
          <fw>
             <fw type="pageNum">11</fw>
@@ -706,9 +745,12 @@
            <!-- NOTE removed text underline under "en ." and added to div rend as a short ruled line.  -->
          </p>
          </div>
-            <pb n="12"/>
+            <pb xml:id="page-014" n="12"/>
 
-<!-- transcription: Page 12 -->
+<!-- transcription: page 14-->
+
+
+
 
       <div xml:id="div-010">
          <fw>
@@ -736,9 +778,12 @@
           the Lord &amp; magnifie his goodnesse for<lb/>
           my selfe &amp; <rs ref="ppl:cw2" n="per18" type="person">my Brother</rs>.</p>
          </div>
-            <pb n="13"/>
+            <pb xml:id="page-015" n="13"/>
 
-<!-- transcription: Page 13 -->
+<!-- transcription: page 15-->
+
+
+
       <div xml:id="div-011">
          <fw>
             <fw type="pageNum">13</fw>
@@ -769,9 +814,12 @@
           Creaturs in the world. &amp; knew what<lb/>
               was. <lb/>
          
-            <pb n="14"/>
+            <pb xml:id="page-016" n="14"/>
 
-<!-- transcription: Page 14 -->
+<!-- transcription: page 16-->
+
+
+
 
             <fw>
               <fw type="pageNum">14</fw>
@@ -798,9 +846,12 @@
           that should never have end.</p>
         <anchor n="ev4" type="event"/>
          </div>
-            <pb n="15"/>
+            <pb xml:id="page-017" n="15"/>
 
-<!-- transcription: Page 15 -->
+<!-- transcription: page 17-->
+
+
+
 
     <!-- NOTE year 1632 -->
     <div xml:id="div-012">
@@ -834,9 +885,12 @@
           us from all evill at that time.</p>
          </div>
        
-            <pb n="16"/>
+            <pb xml:id="page-018" n="16"/>
 
-<!-- transcription: Page 16 -->
+<!-- transcription: page 18-->
+
+
+
       <div xml:id="div-013">
          <fw>
             <fw type="pageNum">16</fw>
@@ -864,9 +918,12 @@
           speaking the same. Singing. Dancing<lb/>
           Playing on the Lute, &amp; Thearbo. </p>
          
-            <pb n="17"/>
+            <pb xml:id="page-019" n="17"/>
 
-<!-- transcription: Page 17 -->
+<!-- transcription: page 19-->
+
+
+
 
          <fw>
             <fw type="pageNum">17</fw>
@@ -895,9 +952,12 @@
           heartily acknowledge my boundent<lb/>
              duty of <lb/>
          
-            <pb n="18"/>
+            <pb xml:id="page-020" n="18"/>
 
-<!-- transcription: Page 18 -->
+<!-- transcription: page 20-->
+
+
+
        <fw>
             <fw type="pageNum">18.</fw>
          <fw type="header" rend="underline">
@@ -929,9 +989,12 @@
        
      <!-- NOTE year 1637 -->
  
-            <pb n="19"/>
+            <pb xml:id="page-021" n="19"/>
 
-<!-- transcription: Page 19 -->
+<!-- transcription: page 21-->
+
+
+
         <div xml:id="div-014">
          <fw>
             <fw type="pageNum">19</fw>
@@ -972,9 +1035,12 @@
      
      <!-- NOTE year 1639 -->
   
-            <pb n="20"/>
+            <pb xml:id="page-022" n="20"/>
 
-<!-- transcription: Page 20 -->
+<!-- transcription: page 22-->
+
+
+
       <div xml:id="div-016">
          <fw>
             <fw type="pageNum">20</fw>
@@ -1025,9 +1091,12 @@
     
        <!-- NOTE year 1640 -->
 
-            <pb n="21"/>
+            <pb xml:id="page-023" n="21"/>
 
-<!-- transcription: Page 21 -->
+<!-- transcription: page 23-->
+
+
+
 <div xml:id="div-017">
          <fw>
             <fw type="pageNum">21</fw>
@@ -1074,9 +1143,12 @@
           <placeName ref="place:Ches_012" n="place21">City of Chester</placeName>
            <anchor n="ev15" type="event"/></p>
       </div>   
-            <pb n="22"/>
+            <pb xml:id="page-024" n="22"/>
 
-<!-- transcription: Page 22 -->
+<!-- transcription: page 24-->
+
+
+
       <div xml:id="div-019">
          <fw>
             <fw type="pageNum">22</fw>
@@ -1157,9 +1229,12 @@
    
        <!-- NOTE year 1647 -->
    
-            <pb n="23"/>
+            <pb xml:id="page-025" n="23"/>
 
-<!-- transcription: Page 23 -->
+<!-- transcription: page 25-->
+
+
+
          <fw>
            <fw type="pageNum" rend="differentInk">23</fw>
            <fw type="header" rend="differentInk"><date when-custom="1647/1649">1647, 48, 49.</date> </fw>
@@ -1228,9 +1303,12 @@
          <anchor n="ev26" type="event"/>
          </p>
          </div>
-            <pb n="24"/>
+            <pb xml:id="page-026" n="24"/>
 
-<!-- transcription: Page 24 -->
+<!-- transcription: page 26-->
+
+
+
        <!-- NOTE year 1651 -->
        <div xml:id="div-029">
          <fw>
@@ -1282,10 +1360,13 @@
        </p>
          </div>
            <!-- msDescription [endnote] The bottom of ‘Mr Siddall’ and following punctuation and slash is missing suggesting the page has been trimmed.-->
-            <pb n="25"/>
+            <pb xml:id="page-027" n="25"/>
+
+<!-- transcription: page 27-->
+
 <!-- NOTE [people] had to correct ppl: ref here: make sure you do some integrity checks when you've finished tagging -->
        
-<!-- transcription: Page 25 -->
+
        <!-- NOTE year 1652 -->
 <div xml:id="div-033">
          <fw>
@@ -1348,9 +1429,12 @@
            affter 11 
          a clock in the forenoon, and<lb/>
          
-            <pb n="26"/>
+            <pb xml:id="page-028" n="26"/>
 
-<!-- transcription: Page 26 -->
+<!-- transcription: page 28-->
+
+
+
 <fw>
             <fw type="pageNum">26</fw>
             <fw type="header"><date datingMethod="#JulianMar" when-custom="1654">1654</date>.</fw>
@@ -1398,9 +1482,12 @@
          <anchor n="ev37" type="event"/>
          </p>
          </div>
-            <pb n="27"/>
+            <pb xml:id="page-029" n="27"/>
 
-<!-- transcription: Page 27 -->
+<!-- transcription: page 29-->
+
+
+
        <!-- NOTE year 1656 -->
       <div xml:id="div-038">
          <fw>
@@ -1453,9 +1540,12 @@
            2 nurses. her age was <subst><del rend="overwritten">2</del><add place="superimposed">1</add></subst> yeare<lb/>
 
          
-            <pb n="28"/>
+            <pb xml:id="page-030" n="28"/>
 
-<!-- transcription: Page 28 -->
+<!-- transcription: page 30-->
+
+
+
       <fw>
         <fw type="pageNum" rend="differentInk">28</fw>
         <fw type="header" rend="differentInk"><date when-custom="1657">1657.</date></fw>
@@ -1502,9 +1592,12 @@
             
          </p>
          </div>
-            <pb n="29"/>
+            <pb xml:id="page-031" n="29"/>
 
-<!-- transcription: Page 29 -->
+<!-- transcription: page 31-->
+
+
+
 <div xml:id="div-042">
          <fw>
            <fw type="pageNum" rend="underline">
@@ -1537,9 +1630,12 @@
         <anchor n="ev42" type="event"/>
          </p>
 
-            <pb n="30"/>
+            <pb xml:id="page-032" n="30"/>
 
-<!-- transcription: Page 30 -->
+<!-- transcription: page 32-->
+
+
+
        <!-- NOTE year 1658 -->
 
          <fw>
@@ -1586,9 +1682,12 @@
             
          
          </div>
-            <pb n="31"/>
+            <pb xml:id="page-033" n="31"/>
 
-<!-- transcription: Page 31 -->
+<!-- transcription: page 33-->
+
+
+
        <!-- NOTE year 1659 -->
     <div xml:id="div-043" rend="post(rule_short_right)">
       <!-- NOTE the post rule is not horizontal, but it's at least partly underneath the line and too long to call it a diagonal I think. -->
@@ -1623,9 +1722,12 @@
 
          </p>
          
-            <pb n="32"/>
+            <pb xml:id="page-034" n="32"/>
+
+<!-- transcription: page 34-->
+
          
-<!-- transcription: Page 32-->
+
   <!-- msDescription [endnote] Ink on this page darker than preceding pages.-->
             
   
@@ -1659,9 +1761,12 @@
            <!-- msDescription [endnote] Again page looks trimmed.-->
             
          
-            <pb n="33"/>
+            <pb xml:id="page-035" n="33"/>
 
-<!-- transcription: Page 33 -->
+<!-- transcription: page 35-->
+
+
+
 
          <fw>
             <fw type="pageNum">33</fw>
@@ -1687,9 +1792,12 @@
           p<add xml:id="ex-add-above-02" place="above">h</add>raise &amp; word, saing that we could<lb/>
           not speake to him from our selves<lb/>
          
-            <pb n="34"/>
+            <pb xml:id="page-036" n="34"/>
 
-<!-- transcription: Page 34 -->
+<!-- transcription: page 36-->
+
+
+
 
             <fw>
               <fw type="pageNum">34</fw>
@@ -1720,9 +1828,12 @@
 
          </p>
          
-            <pb n="35"/>
+            <pb xml:id="page-037" n="35"/>
 
-<!-- transcription: Page 35 -->
+<!-- transcription: page 37-->
+
+
+
 
          <fw>
             <fw type="pageNum">35</fw>
@@ -1751,9 +1862,12 @@
           perfect memmory, understanding &amp;<lb/>
           great wisedome &amp; Piety.</p>
          
-            <pb n="36"/>
+            <pb xml:id="page-038" n="36"/>
 
-<!-- transcription: Page 36 -->
+<!-- transcription: page 38-->
+
+
+
 
          <fw>
             <fw type="pageNum">36</fw>
@@ -1780,9 +1894,12 @@
           Children. &amp; all her freinds with her<lb/>
           blessings for us. both.</p>
          
-            <pb n="37"/>
+            <pb xml:id="page-039" n="37"/>
 
-<!-- transcription: Page 37 -->
+<!-- transcription: page 39-->
+
+
+
 
          <fw>
             <fw type="pageNum">37</fw>
@@ -1816,9 +1933,12 @@
            <!-- Q [teams] [tagging] [formatting] again underline might be more like a section marker than text emphasis? -->
          </p>
          
-            <pb n="38"/>
+            <pb xml:id="page-040" n="38"/>
 
-<!-- transcription: Page 38 -->
+<!-- transcription: page 40-->
+
+
+
 
          <fw>
             <fw type="pageNum">38<milestone unit="marker" rend="delim(diagonal)"/></fw>
@@ -1863,9 +1983,12 @@
            <!-- NOTE rule/diagonal moved to div rend -->
          </p>
   </div>       
-            <pb n="39"/>
+            <pb xml:id="page-041" n="39"/>
 
-<!-- transcription: Page 39 -->
+<!-- transcription: page 41-->
+
+
+
       <!-- NOTE year 1660 -->
       <div xml:id="div-044">
          <fw>
@@ -1916,9 +2039,12 @@
           <date when-custom="1660-04-27">the. friday senit</date> he began to be angr<lb break="no"/>
           -y &amp; affter taking Gascoyns pouder<lb/>
 
-            <pb n="40"/>
+            <pb xml:id="page-042" n="40"/>
 
-<!-- transcription: Page 40 -->
+<!-- transcription: page 42-->
+
+
+
 
          <fw>
          <fw type="pageNum">40</fw>
@@ -1950,9 +2076,12 @@
               by these chastisments that hath <lb/>
          
          
-            <pb n="41"/>
+            <pb xml:id="page-043" n="41"/>
 
-<!-- transcription: Page 41 -->
+<!-- transcription: page 43-->
+
+
+
 
          <!-- msDescription? [endnote] Writes to very top pf the page unless the top of the page has been trimmed.-->
          <fw>
@@ -1999,9 +2128,12 @@
        <anchor n="ev48" type="event"/>
          </p>
        </div>  
-            <pb n="42"/>
+            <pb xml:id="page-044" n="42"/>
 
-<!-- transcription: Page 42 -->
+<!-- transcription: page 44-->
+
+
+
 
  <div xml:id="div-046" type="poetry">  
    <!-- Q [check] if this has an mnote id, shouldn't it also have a place attribute?  -->
@@ -2030,9 +2162,12 @@
          <l>When gaine’s uncertaine &amp; the paine</l>
          <l>Is sure.</l>
          </div>
-            <pb n="43"/>
+            <pb xml:id="page-045" n="43"/>
 
-<!-- transcription: Page 43 -->
+<!-- transcription: page 45-->
+
+
+
        
        <!-- NOTE year 1662 -->
       <div xml:id="div-047">
@@ -2070,9 +2205,12 @@
            -tion. apprehending my state to be<lb/>
 
          
-            <pb n="44"/>
+            <pb xml:id="page-046" n="44"/>
 
-<!-- transcription: Page 44 -->
+<!-- transcription: page 46-->
+
+
+
            
     <fw>
          <fw type="pageNum">44</fw>
@@ -2102,9 +2240,12 @@
           convertion &amp; change of heart in me<lb/>
           to walke acording to his motions <lb/>
          
-            <pb n="45"/>
+            <pb xml:id="page-047" n="45"/>
 
-<!-- transcription: Page 45 -->
+<!-- transcription: page 47-->
+
+
+
 
           <fw> 
         <fw type="pageNum">45</fw>
@@ -2143,9 +2284,12 @@
            <!-- msDescription [endnote] bottom of y missing again suggesting cut pages.-->
             <lb/>
      
-            <pb n="46"/>
+            <pb xml:id="page-048" n="46"/>
 
-<!-- transcription: Page 46 -->
+<!-- transcription: page 48-->
+
+
+
 
             <fw>
                 <fw type="pageNum">46
@@ -2179,9 +2323,12 @@
           come unto me all yea that labour &amp; are<lb/>
           heavy Laden; &amp; I will give you rest</p>
          
-            <pb n="47"/>
+            <pb xml:id="page-049" n="47"/>
 
-<!-- transcription: Page 47 -->
+<!-- transcription: page 49-->
+
+
+
 
       <fw>
         <fw xml:id="mnote-0014" type="pageNum">47</fw>
@@ -2213,9 +2360,12 @@
           faint for want of spirituall food.<lb/>
           I was weary. &amp; he said come.</p>
          
-            <pb n="48"/>
+            <pb xml:id="page-050" n="48"/>
 
-<!-- transcription: Page 48 -->
+<!-- transcription: page 50-->
+
+
+
 
         <fw>  
           
@@ -2248,9 +2398,12 @@
           save from the Jawes of the Devill.<lb/>
 
          
-            <pb n="49"/>
+            <pb xml:id="page-051" n="49"/>
 
-<!-- transcription: Page 49 -->
+<!-- transcription: page 51-->
+
+
+
 
         <fw>  
           <fw type="pageNum">49</fw><!-- msDescription [endnote] page number squeezed in between the first two lines -->
@@ -2286,9 +2439,12 @@
            <!-- msDescription [endnote] bottoms of words missing on final line as page trimmed. Damp spot here.-->
 
          
-            <pb n="50"/>
+            <pb xml:id="page-052" n="50"/>
 
-<!-- transcription: Page 50 -->
+<!-- transcription: page 52-->
+
+
+
 
          <fw>
             <fw type="pageNum">50</fw>
@@ -2318,9 +2474,12 @@
           is that word to my Languishng<lb/>
 
          
-            <pb n="51"/>
+            <pb xml:id="page-053" n="51"/>
 
-<!-- transcription: Page 51 -->
+<!-- transcription: page 53-->
+
+
+
 
          <fw>
             <fw type="pageNum">51</fw>
@@ -2352,8 +2511,11 @@
           o blessed Jesus Amen.
          </p>
  </div>        
-            <pb n="52"/>
-<!-- transcription: Page 52 -->
+            <pb xml:id="page-054" n="52"/>
+
+<!-- transcription: page 54-->
+
+
 
       <div xml:id="div-048">
        <fw>
@@ -2384,9 +2546,12 @@
              God <lb/>
 
          
-            <pb n="53"/>
+            <pb xml:id="page-055" n="53"/>
 
-<!-- transcription: Page 53 -->
+<!-- transcription: page 55-->
+
+
+
          <fw>
            <fw type="pageNum">5<subst><del rend="overwritten">2</del><add place="superimposed">3</add></subst></fw>
             <fw type="header" rend="underline">
@@ -2430,9 +2595,12 @@
           6 young steers, with some of the moneys<lb/>
 
          
-            <pb n="54"/>
+            <pb xml:id="page-056" n="54"/>
 
-<!-- transcription: Page 54 -->
+<!-- transcription: page 56-->
+
+
+
       <fw>
             <fw type="pageNum">54</fw>
             <fw type="header" rend="underline"><date>1662</date>.</fw>
@@ -2472,9 +2640,12 @@
           as he first intended.
          </p>
          
-            <pb n="55"/>
+            <pb xml:id="page-057" n="55"/>
 
-<!-- transcription: Page 55 -->
+<!-- transcription: page 57-->
+
+
+
 
        <p xml:id="p-0076">
         <damage agent="cut" resp="#uncertain"> 
@@ -2502,9 +2673,12 @@
            cause. 
          </p>
          
-            <pb n="56"/>
+            <pb xml:id="page-058" n="56"/>
 
-<!-- transcription: Page 56 -->
+<!-- transcription: page 58-->
+
+
+
 
          <p xml:id="p-0077">
          <damage agent="cut" resp="#uncertain">  
@@ -2529,9 +2703,12 @@
           his death &amp; perhaps might suffer<lb/>
 
          
-            <pb n="57"/>
+            <pb xml:id="page-059" n="57"/>
 
-<!-- transcription: Page 57 -->
+<!-- transcription: page 59-->
+
+
+
 
          <fw type="pageNum" place="right">5<add place="superimposed">7</add>
            <!-- TODO [add] needs subst/del/gap probably - i think original text unreadable. 
@@ -2560,9 +2737,12 @@
            poured upon me. he heard my gronings<lb/>
           at this time also &amp; delvred <rs ref="ppl:wt1" n="per145" type="person">my husband</rs><lb/>
          
-            <pb n="58"/>
+            <pb xml:id="page-060" n="58"/>
 
-<!-- transcription: Page 58 -->
+<!-- transcription: page 60-->
+
+
+
 
           <fw type="pageNum">58</fw>
          <lb/>
@@ -2588,9 +2768,12 @@
           at that time, for when <rs type="person">the Child</rs> was<lb/>
           borne. he had a very strainge<lb/>
          
-            <pb n="59"/>
+            <pb xml:id="page-061" n="59"/>
 
-<!-- transcription: Page 59 -->
+<!-- transcription: page 61-->
+
+
+
         <fw xml:id="mnote-0015" type="pageNum">59</fw> <lb/>
          Marke just upon his heart, of <!-- NOTE moved fw --> <lb/>
           sprinkles of blood, pure &amp; perfectly<lb/>
@@ -2615,9 +2798,12 @@
           thereof left of it.</p>
          <anchor n="ev51" type="event"/>
 
-            <pb n="60"/>
+            <pb xml:id="page-062" n="60"/>
 
-<!-- transcription: Page 60 -->
+<!-- transcription: page 62-->
+
+
+
 
          <fw>
            <fw type="pageNum"><seg rend="differentInk">60</seg></fw>
@@ -2641,9 +2827,12 @@
           receaved at the hand of God; nor<lb/>
           bury them in forgettfulnesse, &amp;<lb/>
          
-            <pb n="61"/>
+            <pb xml:id="page-063" n="61"/>
 
-<!-- transcription: Page 61 -->
+<!-- transcription: page 63-->
+
+
+
 
           <fw type="pageNum" rend="differentInk">61</fw>
            <lb/>
@@ -2672,9 +2861,12 @@
           about <persName ref="ppl:rn1" n="per153">Nettleton</persName>s Suite, calld him to.<lb/>
           <placeName ref="place:Lond_080" n="place63">London</placeName>.<lb/>
          
-            <pb n="62"/>
+            <pb xml:id="page-064" n="62"/>
 
-<!-- transcription: Page 62 -->
+<!-- transcription: page 64-->
+
+
+
 
          <fw type="pageNum">62</fw>
            <lb/>
@@ -2702,9 +2894,12 @@
            time a lease of Land in <placeName xml:id="ex-entity-add-above-01" ref="place:Kirk_030" n="place65">Kirkling<add place="above">tn</add></placeName>
            <lb/>
          
-            <pb n="63"/>
+            <pb xml:id="page-065" n="63"/>
 
-<!-- transcription: Page 63 -->
+<!-- transcription: page 65-->
+
+
+
 
             <fw type="pageNum">63</fw>
            <!-- msDescription? [endnote] Squeezed in just below top line.-->
@@ -2733,9 +2928,12 @@
           4 balifs to sease upon all our goods,<lb/>
           mony, Plate &amp; till he was sattifed</p>
          
-            <pb n="64"/>
+            <pb xml:id="page-066" n="64"/>
 
-<!-- transcription: Page 64 -->
+<!-- transcription: page 66-->
+
+
+
 
          <fw type="pageNum">64</fw>
          <p xml:id="p-0080">
@@ -2764,9 +2962,12 @@
           proved farre worse with me at that<lb/>
           present. when they might have<lb/>
          
-            <pb n="65"/>
+            <pb xml:id="page-067" n="65"/>
 
-<!-- transcription: Page 65 -->
+<!-- transcription: page 67-->
+
+
+
 
          <!-- msDescription [endnote] Top of page trimmed.-->
           <fw type="pageNum" rend="differentInk">65
@@ -2795,9 +2996,12 @@
           liction he maketh a way to escape. &amp;<lb/>
           does not permit more to be laid upon me<lb/>
          
-            <pb n="66"/>
+            <pb xml:id="page-068" n="66"/>
 
-<!-- transcription: Page 66 -->
+<!-- transcription: page 68-->
+
+
+
 
          <fw type="pageNum" rend="differentInk">66.</fw>
          <lb/>
@@ -2827,9 +3031,12 @@
          </p>
          </div>
        
-            <pb n="67"/>
+            <pb xml:id="page-069" n="67"/>
 
-<!-- transcription: Page 67 -->
+<!-- transcription: page 69-->
+
+
+
 <div xml:id="div-051">
      <fw type="pageNum" rend="differentInk">67</fw><lb/>
     <milestone n="ev54" unit="event"/>
@@ -2855,9 +3062,12 @@
           to examine my oune waies. by reason<lb/>
           of my sorrowes I had came upon me<lb/>
          
-            <pb n="68"/>
+            <pb xml:id="page-070" n="68"/>
 
-<!-- transcription: Page 68 -->
+<!-- transcription: page 70-->
+
+
+
 
          <fw type="pageNum" rend="differentInk">68</fw><lb/>
           in the whole course of my life, &amp;<lb/>
@@ -2880,9 +3090,12 @@
           hope &amp; charity. to be maid a pertaker<lb/>
           of this strengthning. this comforting<lb/>
          
-            <pb n="69"/>
+            <pb xml:id="page-071" n="69"/>
 
-<!-- transcription: Page 69 -->
+<!-- transcription: page 71-->
+
+
+
 
            <fw type="pageNum" rend="differentInk">69<!-- Q [endnote] line from 9 loops round --></fw>
             <lb/>
@@ -2910,9 +3123,12 @@
           <persName ref="ppl:bb1" n="per176">my Cossn Ben. Browne</persName> along. when<lb/>
           we with <persName ref="ppl:wt1" n="per177">Mr Th</persName>. <persName ref="ppl:acd1" n="per178">my neece Anne Danby</persName><lb/>
          
-            <pb n="70"/>
+            <pb xml:id="page-072" n="70"/>
 
-<!-- transcription: Page 70 -->
+<!-- transcription: page 72-->
+
+
+
 
           <fw type="pageNum" rend="differentInk">70</fw>
            <lb/>
@@ -2938,9 +3154,12 @@
           my deare Redeemers blood shed upon<lb/>
           the Crosse.</p>
          
-            <pb n="71"/>
+            <pb xml:id="page-073" n="71"/>
 
-<!-- transcription: Page 71 -->
+<!-- transcription: page 73-->
+
+
+
 
            <fw type="pageNum" rend="differentInk">71</fw>
            <lb/>
@@ -2973,9 +3192,12 @@
          </p>
          </div>
        
-            <pb n="72"/>
+            <pb xml:id="page-074" n="72"/>
 
-<!-- transcription: Page 72 -->
+<!-- transcription: page 74-->
+
+
+
        <div xml:id="div-052">
          <p xml:id="p-0086">
            <fw>
@@ -3005,9 +3227,12 @@
           that he would make a firme settleme<lb break="no"/>
           -nt of what was agreed upon,<lb/>
          
-            <pb n="73"/>
+            <pb xml:id="page-075" n="73"/>
 
-<!-- transcription: Page 73 -->
+<!-- transcription: page 75-->
+
+
+
 
            <fw type="pageNum" rend="differentInk">73</fw>
          <lb/>
@@ -3032,9 +3257,12 @@
              made.
          </p>
          
-            <pb n="74"/>
+            <pb xml:id="page-076" n="74"/>
 
-<!-- transcription: Page 74 -->
+<!-- transcription: page 76-->
+
+
+
 
          <fw type="pageNum">74</fw>
 
@@ -3062,9 +3290,12 @@
           him into. these things did much<lb/>
 
          
-            <pb n="75"/>
+            <pb xml:id="page-077" n="75"/>
 
-<!-- transcription: Page 75 -->
+<!-- transcription: page 77-->
+
+
+
       <fw type="pageNum">75</fw><lb/>
           conserne me at this time. &amp; <add place="above">me</add> made with<lb/>
           feare looke upon the sad &amp; Ruinous conditin<lb/>
@@ -3091,9 +3322,12 @@
              for provission &amp; therefore to him<lb/>
           for releife a lone I on my bended knees<lb/>
          
-            <pb n="76"/>
+            <pb xml:id="page-078" n="76"/>
 
-<!-- transcription: Page 76 -->
+<!-- transcription: page 78-->
+
+
+
         <fw>
          <fw type="pageNum">76</fw> 
            <fw type="header" rend="underline">
@@ -3122,9 +3356,12 @@
           praier to God, there came into my<lb/>
 
          
-            <pb n="77"/>
+            <pb xml:id="page-079" n="77"/>
 
-<!-- transcription: Page 77 -->
+<!-- transcription: page 79-->
+
+
+
 
           <fw type="pageNum" rend="differentInk">77</fw><lb/>
           thoughts <persName ref="ppl:rc2" n="per185">my Co. Colvill</persName> whom was<lb/>
@@ -3150,9 +3387,12 @@
              owne Portion, having<lb/>
 
          
-            <pb n="78"/>
+            <pb xml:id="page-080" n="78"/>
 
-<!-- transcription: Page 78 -->
+<!-- transcription: page 80-->
+
+
+
 
            <fw type="pageNum">78</fw><lb/>
           given it to <rs ref="ppl:wt1" n="per187" type="person">my husband</rs> &amp; for his<lb/>
@@ -3175,9 +3415,12 @@
           be God who gave me space, and<lb/>
            oportunity for the same.<milestone unit="marker" rend="delim(diagonal)"/></p>
      </div>    
-            <pb n="79"/>
+            <pb xml:id="page-081" n="79"/>
 
-<!-- transcription: Page 79 -->
+<!-- transcription: page 81-->
+
+
+
 <div xml:id="div-053">
          <fw>
           <fw type="pageNum">79</fw>
@@ -3214,9 +3457,12 @@
         <anchor n="ev56" type="event"/>
  </div>  
        
-            <pb n="80"/>
+            <pb xml:id="page-082" n="80"/>
 
-<!-- transcription: Page 80 -->
+<!-- transcription: page 82-->
+
+
+
 <div xml:id="div-054">
          <fw type="pageNum">80</fw> 
         <milestone n="ev57" unit="event"/>
@@ -3243,9 +3489,12 @@
           theire fairewell. In this most de-<lb break="no"/>
           -plorable condition I lay severall<lb/>
          
-            <pb n="81"/>
+            <pb xml:id="page-083" n="81"/>
 
-<!-- transcription: Page 81 -->
+<!-- transcription: page 83-->
+
+
+
           <fw type="pageNum">81.</fw>
            <lb/>
           houers together. not beeing able to<lb/>
@@ -3270,9 +3519,12 @@
           but brought soe weake that the remander<lb/>
 
          
-            <pb n="82"/>
+            <pb xml:id="page-084" n="82"/>
 
-<!-- transcription: Page 82 -->
+<!-- transcription: page 84-->
+
+
+
 
          <fw type="pageNum">82</fw> 
            <lb/>
@@ -3301,9 +3553,12 @@
           King of Kings &amp; lords. the only<lb/>
           giver &amp; preserver of my soule.<lb/>
     
-            <pb n="83"/>
+            <pb xml:id="page-085" n="83"/>
 
-<!-- transcription: Page 83 -->
+<!-- transcription: page 85-->
+
+
+
 
          <fw type="pageNum" place="right"> 83</fw>
            <lb/>
@@ -3328,9 +3583,12 @@
           argument of thy favour to me. for<lb/>
           Jesus Christs sake Amen.</p>
          
-            <pb n="84"/>
+            <pb xml:id="page-086" n="84"/>
 
-<!-- transcription: Page 84 -->
+<!-- transcription: page 86-->
+
+
+
 
         <fw>
           <fw type="pageNum">84</fw>
@@ -3361,9 +3619,12 @@
           he shall praise thee in heaven &amp; Earth.</p>
        </div>  
        
-            <pb n="85"/>
+            <pb xml:id="page-087" n="85"/>
 
-<!-- transcription: Page 85 -->
+<!-- transcription: page 87-->
+
+
+
 <div xml:id="div-055">
           <fw>
            <fw type="pageNum">
@@ -3400,9 +3661,12 @@
           finding what the goodnese of God has beine to<lb/>
           me in giveing me the request of my heart &amp;<lb/>
          
-            <pb n="86"/>
+            <pb xml:id="page-088" n="86"/>
 
-<!-- transcription: Page 86 -->
+<!-- transcription: page 88-->
+
+
+
 
          <fw>
             <fw type="pageNum">86</fw>
@@ -3435,9 +3699,12 @@
          </p>
      </div>    
        
-            <pb n="87"/>
+            <pb xml:id="page-089" n="87"/>
 
-<!-- transcription: Page 87 -->
+<!-- transcription: page 89-->
+
+
+
        <!-- NOTE year 1664 -->
   <div xml:id="div-056">
       <fw>
@@ -3470,9 +3737,12 @@
          <p xml:id="p-0103"> Amen.</p>
    </div>      
    
-       <pb n="88"/>
+       <pb xml:id="page-090" n="88"/>
 
-<!-- transcription: Page 88 -->
+<!-- transcription: page 90-->
+
+
+
        <!-- NOTE year 1665 -->
     <div xml:id="div-057">
       <fw>
@@ -3502,9 +3772,12 @@
           away. but by the mercy of God<lb/>
           I had a remidy ready from <persName ref="ppl:rw1" n="per206">Dr wity</persName><lb/>
       
-            <pb n="89"/>
+            <pb xml:id="page-091" n="89"/>
 
-<!-- transcription: Page 89 -->
+<!-- transcription: page 91-->
+
+
+
 
            <fw>
            <fw type="pageNum">89</fw>
@@ -3535,9 +3808,12 @@
              Ever. Amen.
          </p>
          
-            <pb n="90"/>
+            <pb xml:id="page-092" n="90"/>
 
-<!-- transcription: Page 90 -->
+<!-- transcription: page 92-->
+
+
+
       <!-- NOTE: year 1666 -->
       <fw>
            <fw type="pageNum">90</fw>
@@ -3574,10 +3850,13 @@
           of my Life. for this temporall mercy<lb/>
           also for all good comes from him.</p>
       </div>
-            <pb n="91"/>
+            <pb xml:id="page-093" n="91"/>
+
+<!-- transcription: page 93-->
+
 
       <div xml:id="div-058"> 
-<!-- transcription: Page 91 -->
+
 
          <fw>
             <fw type="pageNum">91
@@ -3613,9 +3892,12 @@
         <anchor n="ev63" type="event"/>
       </div>  
        
-            <pb n="92"/>
+            <pb xml:id="page-094" n="92"/>
 
-<!-- transcription: Page 92 -->
+<!-- transcription: page 94-->
+
+
+
     <div xml:id="div-059">
       <fw>
         <fw type="pageNum">92</fw>  
@@ -3648,9 +3930,12 @@
           assist me in my sorowes at that time. save<lb/>
           what I had. in. &amp; receaved by the praiers and<lb/>
          
-            <pb n="93"/>
+            <pb xml:id="page-095" n="93"/>
 
-<!-- transcription: Page 93 -->
+<!-- transcription: page 95-->
+
+
+
         <fw type="pageNum">93 </fw>
             <lb/>
           Assistance, advice, &amp; councell of <persName ref="ppl:tc1" n="per217">Mr Comber</persName><lb/>
@@ -3678,9 +3963,12 @@
           to set forth the infinit mercys &amp; loving kindness<lb/>
               of the Lord our God.</p>
          
-            <pb n="94"/>
+            <pb xml:id="page-096" n="94"/>
 
-<!-- transcription: Page 94 -->
+<!-- transcription: page 96-->
+
+
+
 
            <fw type="pageNum">94</fw><lb/>
          <p xml:id="p-0112">who still in the midest of Judgment<lb/>
@@ -3706,9 +3994,12 @@
           &amp; thankfull. I heere from the botome of my<lb/>
           unfained soule &amp; heart. lift up my voyce<lb/>
          
-            <pb n="95"/>
+            <pb xml:id="page-097" n="95"/>
 
-<!-- transcription: Page 95 -->
+<!-- transcription: page 97-->
+
+
+
 
            <fw type="pageNum">95</fw><lb/>
           to adore, &amp; praise, &amp; magnifie thy great<lb/>
@@ -3736,9 +4027,12 @@
           mercy. even for ever &amp; ever. Amen.</p>
     </div> 
        
-            <pb n="96"/>
+            <pb xml:id="page-098" n="96"/>
 
-<!-- transcription: Page 96 -->
+<!-- transcription: page 98-->
+
+
+
        
     <div xml:id="div-060">
          <fw type="pageNum">96</fw>
@@ -3765,9 +4059,12 @@
           deliverances that he hath vouchsafed to me in<lb/>
              perticuler or him. <lb/>
          
-            <pb n="97"/>
+            <pb xml:id="page-099" n="97"/>
 
-<!-- transcription: Page 97 -->
+<!-- transcription: page 99-->
+
+
+
 
            <fw type="pageNum">93</fw> <lb/> <!-- NB: Thornton writers the wrong page no here. Should be 97 -->
           or sure for some other punishment of<lb/>  
@@ -3794,9 +4091,12 @@
           obedient child to so good. so great, so loving<lb/>
            a father.</p>
          
-            <pb n="98"/>
+            <pb xml:id="page-100" n="98"/>
 
-<!-- transcription: Page 98 -->
+<!-- transcription: page 100-->
+
+
+
 
           <fw>  
             <fw type="pageNum">98</fw>
@@ -3828,9 +4128,12 @@
           the honour of my creation, the inestimable mercy<lb/>
 
          
-            <pb n="99"/>
+            <pb xml:id="page-101" n="99"/>
 
-<!-- transcription: Page 99 -->
+<!-- transcription: page 101-->
+
+
+
          <fw>
            <fw type="pageNum">99</fw>  
          <fw type="header">65 </fw>
@@ -3863,9 +4166,12 @@
           cold which struck in many Red spotts which was<lb/>
  
          
-            <pb n="100"/>
+            <pb xml:id="page-102" n="100"/>
 
-<!-- transcription: Page 100 -->
+<!-- transcription: page 102-->
+
+
+
           <fw>
             <fw type="pageNum" rend="underline">
                100
@@ -3904,9 +4210,12 @@
           &amp; confidence in. &amp; for ever peace from sin &amp;<lb/>
           sorrow. &amp; this for his sake that suffred for sin &amp;<lb/>
         
-            <pb n="101"/>
+            <pb xml:id="page-103" n="101"/>
 
-<!-- transcription: Page 101 -->
+<!-- transcription: page 103-->
+
+
+
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -3950,9 +4259,12 @@
          <anchor n="ev66" type="event"/>
          </p>
      </div>    
-            <pb n="102"/>
+            <pb xml:id="page-104" n="102"/>
 
-<!-- transcription: Page 102 -->
+<!-- transcription: page 104-->
+
+
+
 <div xml:id="div-062">
          <fw>
             <fw type="pageNum">102</fw>
@@ -3994,9 +4306,12 @@
           &amp; intermited upon the severall medicins<lb/>
           he gave &amp; left me in a hopefull way.<lb/>
          
-            <pb n="103"/>
+            <pb xml:id="page-105" n="103"/>
 
-<!-- transcription: Page 103 -->
+<!-- transcription: page 105-->
+
+
+
 
     <fw type="pageNum" place="right"> 103</fw><lb/>
     <!-- NOTE moved fw -->
@@ -4029,9 +4344,12 @@
           name for Ever And for ever. Amen.</p>
   </div>    
        
-            <pb n="104"/>
+            <pb xml:id="page-106" n="104"/>
 
-<!-- transcription: Page 104 -->
+<!-- transcription: page 106-->
+
+
+
 <div xml:id="div-063">
          <fw>
             <fw type="pageNum">104</fw>
@@ -4072,9 +4390,12 @@
           to be removed though very weake as before<lb/>
           into the scarlet chamber for want of rest.</p>
          
-            <pb n="105"/>
+            <pb xml:id="page-107" n="105"/>
 
-<!-- transcription: Page 105 -->
+<!-- transcription: page 107-->
+
+
+
 
             <fw>
             <fw type="pageNum">105</fw> 
@@ -4119,9 +4440,12 @@
           more strict in his dutys. saing that he should<lb/>
            not live long</p>
          
-            <pb n="106"/>
+            <pb xml:id="page-108" n="106"/>
 
-<!-- transcription: Page 106 -->
+<!-- transcription: page 108-->
+
+
+
 
          <fw>
            <fw type="pageNum">106</fw>
@@ -4168,9 +4492,12 @@
           very much &amp; was great ones, on the 14<hi rend="superscript">th</hi> his<lb/>
           feaveor &amp; dissease was at the hight.</p>
          
-            <pb n="107"/>
+            <pb xml:id="page-109" n="107"/>
 
-<!-- transcription: Page 107 -->
+<!-- transcription: page 109-->
+
+
+
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -4210,9 +4537,12 @@
            yeares old &amp; some odde daies.<milestone unit="marker" rend="delim(diagonal)"/></p>
          <anchor n="ev72" type="event"/>
        </div>  
-            <pb n="108"/>
+            <pb xml:id="page-110" n="108"/>
 
-<!-- transcription: Page 108 -->
+<!-- transcription: page 110-->
+
+
+
 <div xml:id="div-068">
          <fw>
             <fw type="pageNum">108</fw>
@@ -4253,9 +4583,12 @@
             not come well out beeing in a Sweate all<lb/>
           that time that hindered them from apearing<lb/>
          
-            <pb n="109"/>
+            <pb xml:id="page-111" n="109"/>
 
-<!-- transcription: Page 109 -->
+<!-- transcription: page 111-->
+
+
+
 <fw>
           <fw type="pageNum">109</fw> 
           <fw type="header" rend="underline"><date>1667</date></fw>
@@ -4293,9 +4626,12 @@
          </p>
       </div>  
        
-            <pb n="110"/>
+            <pb xml:id="page-112" n="110"/>
 
-<!-- transcription: Page 110 -->
+<!-- transcription: page 112-->
+
+
+
 <div xml:id="div-070">
          <fw>
             <fw type="pageNum">110</fw>
@@ -4337,9 +4673,12 @@
           for ever more Amen.</p>
          </div>
          
-       <pb n="111"/>
+       <pb xml:id="page-113" n="111"/>
 
-<!-- transcription: Page 111 -->
+<!-- transcription: page 113-->
+
+
+
 <div xml:id="div-072">
   <fw type="pageNum" rend="underline">111</fw> 
          <p xml:id="p-0141">
@@ -4374,9 +4713,12 @@
           her life &amp; affter halfe an houer time<lb/>
 
          
-            <pb n="112"/>
+            <pb xml:id="page-114" n="112"/>
 
-<!-- transcription: Page 112 -->
+<!-- transcription: page 114-->
+
+
+
 
          <fw type="pageNum">112</fw> <lb/>
           she began to breath &amp; by degrees to<lb/>
@@ -4411,9 +4753,12 @@
           <persName>Ogle</persName>s sword. but doubtlese it was <w norm="proved">provd</w> <lb/>
           a designe against his innocent Life.</p>
          
-            <pb n="113"/>
+            <pb xml:id="page-115" n="113"/>
 
-<!-- transcription: Page 113 -->
+<!-- transcription: page 115-->
+
+
+
 
            <fw type="pageNum">113</fw>   
          <p xml:id="p-0144">
@@ -4451,9 +4796,12 @@
           grew so bigge &amp; neare my time about <date precision="medium" when-custom="1667-09-29">Mick<lb/>
            le-mas</date>.<lb/>
          
-            <pb n="114"/>
+            <pb xml:id="page-116" n="114"/>
 
-<!-- transcription: Page 114 -->
+<!-- transcription: page 116-->
+
+
+
 
          <fw>
            <fw type="pageNum">114</fw>
@@ -4494,9 +4842,12 @@
           upon me in my Childe bed.
          </p>
          
-            <pb n="115"/>
+            <pb xml:id="page-117" n="115"/>
 
-<!-- transcription: Page 115 -->
+<!-- transcription: page 117-->
+
+
+
 
             <fw type="pageNum"><add place="superimposed" cert="medium">115</add><!-- Q [add] and what is the Q? -->.
             </fw>
@@ -4533,9 +4884,12 @@
          <anchor n="ev82" type="event"/>
          </p>
       </div>   
-            <pb n="116"/>
+            <pb xml:id="page-118" n="116"/>
 
-<!-- transcription: Page 116 -->
+<!-- transcription: page 118-->
+
+
+
 <div xml:id="div-078">
   <fw>
     <fw type="pageNum">116</fw> 
@@ -4575,9 +4929,12 @@
           with <rs type="person">my sweete Childe</rs> to my.<lb/>
 
          
-            <pb n="117"/>
+            <pb xml:id="page-119" n="117"/>
 
-<!-- transcription: Page 117 -->
+<!-- transcription: page 119-->
+
+
+
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -4616,9 +4973,12 @@
          </p>
        </div>
          
-            <pb n="118"/>
+            <pb xml:id="page-120" n="118"/>
 
-<!-- transcription: Page 118 -->
+<!-- transcription: page 120-->
+
+
+
        <!-- NOTE year 1668? -->
 <div xml:id="div-080">
            <fw> 
@@ -4656,9 +5016,12 @@
           changes we are incident to, that I might<lb/>
           prepare more Earnestly &amp; long for<lb/>
          
-            <pb n="119"/>
+            <pb xml:id="page-121" n="119"/>
 
-<!-- transcription: Page 119 -->
+<!-- transcription: page 121-->
+
+
+
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -4702,9 +5065,12 @@
          </p>
      </div>    
        
-            <pb n="120"/>
+            <pb xml:id="page-122" n="120"/>
 
-<!-- transcription: Page 120 -->
+<!-- transcription: page 122-->
+
+
+
 <div xml:id="div-082">
   
          <fw>
@@ -4747,9 +5113,12 @@
          in her <del xml:id="ex-del-double-07" rend="doublestrikethrough">bit</del><surplus>ter</surplus><!-- NOTE not entirely decided between <sic> and <surplus> here... --> agravation &amp; in false<lb/>
           accusing the Hon.<hi rend="superscript">or</hi> of some of the Persons<lb/>
          
-            <pb n="121"/>
+            <pb xml:id="page-123" n="121"/>
 
-<!-- transcription: Page 121 -->
+<!-- transcription: page 123-->
+
+
+
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -4785,9 +5154,12 @@
          his love. lay downe my Life <subst><del rend="overwritten" cert="low">&amp;</del><add place="superimposed">that</add></subst>
             <lb/>
   
-            <pb n="122"/>
+            <pb xml:id="page-124" n="122"/>
 
-<!-- transcription: Page 122 -->
+<!-- transcription: page 124-->
+
+
+
          
          <fw>
            <fw type="pageNum">122</fw>
@@ -4826,9 +5198,12 @@
          </p>
    
          
-            <pb n="123"/>
+            <pb xml:id="page-125" n="123"/>
 
-<!-- transcription: Page 123 -->
+<!-- transcription: page 125-->
+
+
+
         <fw>
           <fw type="pageNum">123
             <!-- Q [teams] [formatting] ? 
@@ -4874,9 +5249,12 @@
               condition<lb/>
 
          
-            <pb n="124"/>
+            <pb xml:id="page-126" n="124"/>
 
-<!-- transcription: Page 124 -->
+<!-- transcription: page 126-->
+
+
+
 
          <fw>
             <fw type="pageNum">124</fw>
@@ -4915,9 +5293,12 @@
           Raisers owne head &amp; there mischeifes on ther<lb/>
            owne hate, before Satans<lb/>
          
-            <pb n="125"/>
+            <pb xml:id="page-127" n="125"/>
 
-<!-- transcription: Page 125 -->
+<!-- transcription: page 127-->
+
+
+
 
             <fw>
             <fw type="pageNum">125</fw>
@@ -4956,9 +5337,12 @@
           the goodnesse of the Lord which hath severall times<lb/>
           sent me Releife, in the company &amp; comfortable<lb/>
          
-            <pb n="126"/>
+            <pb xml:id="page-128" n="126"/>
 
-<!-- transcription: Page 126 -->
+<!-- transcription: page 128-->
+
+
+
 
            <fw> 
             <fw type="pageNum">126</fw>
@@ -4992,9 +5376,12 @@
           Deivell to shake or remove those faithful<lb/>
            &amp; conjugall bonds &amp; ties of Christian<lb/>
          
-            <pb n="127"/>
+            <pb xml:id="page-129" n="127"/>
 
-<!-- transcription: Page 127 -->
+<!-- transcription: page 129-->
+
+
+
 
          <fw>
             <fw type="pageNum">127</fw>
@@ -5032,9 +5419,12 @@
         
          </p>
     </div>     
-            <pb n="128"/>
+            <pb xml:id="page-130" n="128"/>
 
-<!-- transcription: Page 128 -->
+<!-- transcription: page 130-->
+
+
+
 <div xml:id="div-083">
          <fw>
             <fw type="pageNum">128</fw>
@@ -5072,9 +5462,12 @@
           gifts tending to the better accomplish<lb/>
            ment.<lb/>
          
-            <pb n="129"/>
+            <pb xml:id="page-131" n="129"/>
 
-<!-- transcription: Page 129 -->
+<!-- transcription: page 131-->
+
+
+
 
          <fw>
             <fw type="pageNum">129</fw>
@@ -5107,9 +5500,12 @@
           craving the contineuance of his favour. &amp;<lb/>
 
   
-            <pb n="130"/>
+            <pb xml:id="page-132" n="130"/>
 
-<!-- transcription: Page 130 -->
+<!-- transcription: page 132-->
+
+
+
   
          <fw>
             <fw type="pageNum">130</fw>
@@ -5138,9 +5534,12 @@
           saviour <add place="above">ye</add> Lord Jesus X<hi rend="superscript">st</hi> his holy &amp; blesed<lb/>
           son. for his Passions sake Amen. &amp; Amen.</p>
   </div>       
-            <pb n="131"/>
+            <pb xml:id="page-133" n="131"/>
 
-<!-- transcription: Page 131 -->
+<!-- transcription: page 133-->
+
+
+
 <div xml:id="div-084">
          <fw>
            <fw type="pageNum" rend="underline">131</fw>
@@ -5177,9 +5576,12 @@
           smitten by fallse tongues Joyning with my<lb/>
  
          
-            <pb n="132"/>
+            <pb xml:id="page-134" n="132"/>
 
-<!-- transcription: Page 132 -->
+<!-- transcription: page 134-->
+
+
+
 
          <fw>
             <fw type="pageNum">132</fw>
@@ -5212,9 +5614,12 @@
           band of holy wedlocke. together.
          <anchor n="ev92" type="event"/>
          </p>
-            <pb n="133"/>
+            <pb xml:id="page-135" n="133"/>
 
-<!-- transcription: Page 133 -->
+<!-- transcription: page 135-->
+
+
+
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -5247,9 +5652,12 @@
           me so deepe that its effects will remane all my<lb/>
            daies. that <w norm="Satan's">Satas</w><!-- Q sic rather than norm? --> Instruments should thus be<lb/>
 
-            <pb n="134"/>
+            <pb xml:id="page-136" n="134"/>
 
-<!-- transcription: Page 134 -->
+<!-- transcription: page 136-->
+
+
+
 
           <fw>
           <fw type="pageNum">134</fw> 
@@ -5287,9 +5695,12 @@
          </p>
 </div> 
          
-            <pb n="135"/>
+            <pb xml:id="page-137" n="135"/>
 
-<!-- transcription: Page 135 -->
+<!-- transcription: page 137-->
+
+
+
        <div xml:id="div-085">
 
          <fw>
@@ -5329,9 +5740,12 @@
           bed. I had that newes of <rs ref="ppl:wt1" n="per317" type="person">my deare<lb/>
 
          
-            <pb n="136"/>
+            <pb xml:id="page-138" n="136"/>
 
-<!-- transcription: Page 136 -->
+<!-- transcription: page 138-->
+
+
+
 
          <fw>
             <fw type="pageNum">136</fw>
@@ -5363,9 +5777,12 @@
           an adventure thereof. but I stayd till<lb/>
 
          
-            <pb n="137"/>
+            <pb xml:id="page-139" n="137"/>
 
-<!-- transcription: Page 137 -->
+<!-- transcription: page 139-->
+
+
+
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -5402,9 +5819,12 @@
            God.</p>
          
 
-            <pb n="138"/>
+            <pb xml:id="page-140" n="138"/>
 
-<!-- transcription: Page 138 -->
+<!-- transcription: page 140-->
+
+
+
       
         <fw>
             <fw type="pageNum">138</fw>
@@ -5441,9 +5861,12 @@
           the sorwes that a poore desolate widdow<lb/>
 
          
-            <pb n="139"/>
+            <pb xml:id="page-141" n="139"/>
 
-<!-- transcription: Page 139 -->
+<!-- transcription: page 141-->
+
+
+
 
       <fw>
         <fw type="pageNum" rend="underline">
@@ -5479,9 +5902,12 @@
           Sanctification. preservation. from death<lb/>
 
          
-            <pb n="140"/>
+            <pb xml:id="page-142" n="140"/>
 
-<!-- transcription: Page 140 -->
+<!-- transcription: page 142-->
+
+
+
 
          <fw>
             <fw type="pageNum">140</fw>
@@ -5514,9 +5940,12 @@
          
           </div>
             
-            <pb n="141"/>
+            <pb xml:id="page-143" n="141"/>
 
-<!-- transcription: Page 141 -->
+<!-- transcription: page 143-->
+
+
+
 
        <div xml:id="div-086">  
          <fw>
@@ -5550,9 +5979,12 @@
           all his Teares is wiped from his eyes<lb/>
 
 
-            <pb n="142"/>
+            <pb xml:id="page-144" n="142"/>
 
-<!-- transcription: Page 142 -->
+<!-- transcription: page 144-->
+
+
+
 
          <fw>
             <fw type="pageNum">142</fw>
@@ -5585,9 +6017,12 @@
            though great are the troubles<lb/>
 
          
-            <pb n="143"/>
+            <pb xml:id="page-145" n="143"/>
 
-<!-- transcription: Page 143 -->
+<!-- transcription: page 145-->
+
+
+
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -5620,9 +6055,12 @@
           we Reigne together with him who is the<lb/>
           Author &amp; finisher of our faith.</p>
          
-            <pb n="144"/>
+            <pb xml:id="page-146" n="144"/>
 
-<!-- transcription: Page 144 -->
+<!-- transcription: page 146-->
+
+
+
 
          <fw>
           <fw type="pageNum">144</fw>
@@ -5656,9 +6094,12 @@
             
 
          
-            <pb n="145"/>
+            <pb xml:id="page-147" n="145"/>
 
-<!-- transcription: Page 145 -->
+<!-- transcription: page 147-->
+
+
+
 
          <fw>
            <fw type="pageNum" rend="underline">
@@ -5700,9 +6141,12 @@
             sin be it never so s<supplied reason="smudge">mall</supplied> 
             <lb/>
          
-            <pb n="146"/>
+            <pb xml:id="page-148" n="146"/>
 
-<!-- transcription: Page 146 -->
+<!-- transcription: page 148-->
+
+
+
 
          <fw>
             <fw type="pageNum">146</fw>
@@ -5736,9 +6180,12 @@
           &amp; my selfe a Chosen vesell to set forth<lb/>
            thy Glory to this Generation.</p>
          
-            <pb n="147"/>
+            <pb xml:id="page-149" n="147"/>
 
-<!-- transcription: Page 147 -->
+<!-- transcription: page 149-->
+
+
+
         <fw>
          <fw type="pageNum"> 147</fw>
           <fw type="header" rend="underline">
@@ -5775,9 +6222,12 @@
           &amp; pardon if it be thy will for them that<lb/>
             they may be clensed by the<lb/>
          
-            <pb n="148"/>
+            <pb xml:id="page-150" n="148"/>
 
-<!-- transcription: Page 148 -->
+<!-- transcription: page 150-->
+
+
+
 
          <fw>
            <fw type="pageNum">148</fw> 
@@ -5800,9 +6250,12 @@
            Amen &amp; Amen.</p>
          
  </div>      
-            <pb n="149"/>
+            <pb xml:id="page-151" n="149"/>
 
-<!-- transcription: Page 149 -->
+<!-- transcription: page 151-->
+
+
+
 <div xml:id="div-087"> 
   <fw>
     <fw type="pageNum" rend="underline">
@@ -5842,9 +6295,12 @@
                 Sin<supplied reason="smudge">kler</supplied> </persName>
             <lb/>
 
-            <pb n="150"/>
+            <pb xml:id="page-152" n="150"/>
 
-<!-- transcription: Page 150 -->
+<!-- transcription: page 152-->
+
+
+
 
           <fw>
             <fw type="pageNum" rend="underline">
@@ -5883,9 +6339,12 @@
           &amp; temper free from torment or signes<lb/>
 
          
-            <pb n="151"/>
+            <pb xml:id="page-153" n="151"/>
 
-<!-- transcription: Page 151 -->
+<!-- transcription: page 153-->
+
+
+
           
           <fw>
           <fw type="pageNum">151</fw>
@@ -5924,9 +6383,12 @@
           Those that helped to carrie were of his<lb/>
 
          
-            <pb n="152"/>
+            <pb xml:id="page-154" n="152"/>
 
-<!-- transcription: Page 152 -->
+<!-- transcription: page 154-->
+
+
+
 
           <fw>
             <fw type="pageNum" rend="underline">152</fw>
@@ -5961,9 +6423,12 @@
           Joyfull resurection at the last day then<lb/>
           to be united in praising God for ever.</p>
          
-            <pb n="153"/>
+            <pb xml:id="page-155" n="153"/>
 
-<!-- transcription: Page 153 -->
+<!-- transcription: page 155-->
+
+
+
       
        <fw>
          <fw type="pageNum" rend="underline">153</fw> 
@@ -5996,9 +6461,12 @@
        </epigraph>
        </div>
       
-            <pb n="154"/>
+            <pb xml:id="page-156" n="154"/>
 
-<!-- transcription: Page 154 -->
+<!-- transcription: page 156-->
+
+
+
        
        <div xml:id="div-089" type="poetry">  
 
@@ -6030,9 +6498,12 @@
          <l> And scarce discerne the dawne of<lb/>
          comming day.</l>
          
-            <pb n="155"/>
+            <pb xml:id="page-157" n="155"/>
 
-<!-- transcription: Page 155 -->
+<!-- transcription: page 157-->
+
+
+
             
          
          <fw type="pageNum" rend="underline" place="right">155
@@ -6062,9 +6533,12 @@
          <l>In this smale course, which birth drawes out to<lb/>
            death.</l>
          
-            <pb n="156"/>
+            <pb xml:id="page-158" n="156"/>
 
-<!-- transcription: Page 156 -->
+<!-- transcription: page 158-->
+
+
+
 
          
          <fw type="pageNum">156</fw>
@@ -6080,9 +6554,12 @@
    </div>
          <space unit="line" quantity="16"/>
       
-            <pb n="157"/>
+            <pb xml:id="page-159" n="157"/>
 
-<!-- transcription: Page 157 -->
+<!-- transcription: page 159-->
+
+
+
          
        <div xml:id="div-091" type="poetry" source="#tbd-external"> 
          <fw type="pageNum" rend="underline">157</fw>
@@ -6118,9 +6595,12 @@
          <l>I would be poore, but see the humble grasse</l>
          <l>Trampled uppon, by each unworthy Asse.</l>
          
-            <pb n="158"/>
+            <pb xml:id="page-160" n="158"/>
 
-<!-- transcription: Page 158 -->
+<!-- transcription: page 160-->
+
+
+
 
          
          <fw type="pageNum">158</fw> 
@@ -6149,9 +6629,12 @@
          <l>The winged people of the skies, shall sing.</l>
          <l>me Anthems by my Sellers gentle spring.</l>
          
-            <pb n="159"/>
+            <pb xml:id="page-161" n="159"/>
 
-<!-- transcription: Page 159 -->
+<!-- transcription: page 161-->
+
+
+
 
          
          <fw type="pageNum" rend="underline" place="right">159</fw>
@@ -6194,14 +6677,17 @@
     </div>
        
        
-        <!-- [endnote] NB TWO UNNUMBERED BLANK PAGES, 159v, 160r -->
+        <!-- [endnote] NB TWO UNNUMBERED BLANK PAGES (originally 159v, 160r) -->
         <space quantity="2" unit="page"/> 
        
-      <pb/> <pb/> <!-- temp pb again. probably -->
+    <!--   temp pb
+    <pb xml:id="page-162"/>
+    <pb xml:id="page-163"/>
+    -->
        
-            <pb n="160"/>
+       <pb xml:id="page-164" n="160"/>
 
-<!-- transcription: Page 160 -->
+<!-- transcription: page 164-->
          
        <div xml:id="div-093" type="poetry">  
          
@@ -6230,9 +6716,12 @@
          <l>My walke should be but in his wayse,</l>
          <l>My talke but onely in his Praise.;</l>
          
-            <pb n="161"/>
+            <pb xml:id="page-165" n="161"/>
 
-<!-- transcription: Page 161 -->
+<!-- transcription: page 165-->
+
+
+
 
          
          <fw type="pageNum" rend="underline">
@@ -6261,9 +6750,12 @@
          <!-- [endnote] Some space left a the bottom of this page, possibly room for about one or two more lines. (maybe <space>?)
            -->
          
-            <pb n="162"/>
+            <pb xml:id="page-166" n="162"/>
 
-<!-- transcription: Page 162 -->
+<!-- transcription: page 166-->
+
+
+
 
          
          <fw type="pageNum">162</fw>
@@ -6287,9 +6779,12 @@
          <space unit="line" quantity="7"/>
          <!-- [endnote] Rest of page is blank. -->
  </div>        
-            <pb n="163"/>
+            <pb xml:id="page-167" n="163"/>
 
-<!-- transcription: Page 163 -->
+<!-- transcription: page 167-->
+
+
+
        
 <div xml:id="div-094" type="prayer">
   
@@ -6322,9 +6817,12 @@
           reason of my Sinnes, &amp; my life draweth<lb/>
            nigh<lb/>
          
-            <pb n="164"/>
+            <pb xml:id="page-168" n="164"/>
 
-<!-- transcription: Page 164 -->
+<!-- transcription: page 168-->
+
+
+
 
          <fw type="pageNum">164</fw>
            <lb/>
@@ -6350,9 +6848,12 @@
           thankes for so long injoyment of him<lb/>
  
          
-            <pb n="165"/>
+            <pb xml:id="page-169" n="165"/>
 
-<!-- transcription: Page 165 -->
+<!-- transcription: page 169-->
+
+
+
 
          <fw type="pageNum" place="right"> 165</fw>
            <lb/>
@@ -6379,9 +6880,12 @@
           pure minde in a pure bodie cleansed by<lb/>
 
          
-            <pb n="166"/>
+            <pb xml:id="page-170" n="166"/>
 
-<!-- transcription: Page 166 -->
+<!-- transcription: page 170-->
+
+
+
 
          <fw type="pageNum">166 </fw>
            <lb/>
@@ -6407,9 +6911,12 @@
           chastisements. that thou maist have the<lb/>
 
          
-            <pb n="167"/>
+            <pb xml:id="page-171" n="167"/>
 
-<!-- transcription: Page 167 -->
+<!-- transcription: page 171-->
+
+
+
            
            <fw type="pageNum" rend="underline">167</fw>
            <lb/>
@@ -6440,9 +6947,12 @@
            &amp;<lb/>
 
          
-            <pb n="168"/>
+            <pb xml:id="page-172" n="168"/>
 
-<!-- transcription: Page 168 -->
+<!-- transcription: page 172-->
+
+
+
 
          <fw type="pageNum" rend="underline">
             168
@@ -6468,18 +6978,27 @@
         <space quantity="7" unit="line"/>
   <!-- [endnote] Rest of page is blank, check original.-->
 </div>         
-            <pb n="169"/>
+          <pb xml:id="page-173" n="169"/>
+
+<!-- transcription: page 173-->
+
          
        <space quantity="4" unit="page"/>
-          <!-- [endnote] Pages 169-172 are blank, and unnumbered by AT -->
-         <pb/><pb/><pb/><!-- temp pb for blank pages -->
-     </body>
-     <back>         
-            <pb n="173"/>
-         
-<!-- transcription: Page 173-->
-
+          <!-- [endnote] Pages [169-172] are blank, and unnumbered by AT -->
        
+       <!--  temp pb for blank pages
+       <pb xml:id="page-174"/>
+       <pb xml:id="page-175"/>
+       <pb xml:id="page-176"/>
+-->
+
+     </body>
+    
+     <back>         
+            <pb xml:id="page-177" n="173"/>
+
+<!-- transcription: page 177-->
+
 <!-- [endnote] NB. No page numbers provided for index by Thornton-->
           
                   
@@ -6603,9 +7122,12 @@
            <label place="right mid"><ref type="page">23.</ref></label>
          </item>
          
-            <pb n="174"/>
+            <pb xml:id="page-178" n="174"/>
 
-<!-- transcription: Page 174 -->
+<!-- transcription: page 178-->
+
+
+
 
        <!-- msDescription [endnote] NB. Page/page numbers should be closer to the end of text on this page.-->
             
@@ -6672,9 +7194,12 @@
           Temptation of Satan to dispaire</seg>  
         </item>
          
-            <pb n="175"/>
+            <pb xml:id="page-179" n="175"/>
 
-<!-- transcription: Page 175 -->
+<!-- transcription: page 179-->
+
+
+
 
          <fw place="right">page</fw>
        <!-- msDescription [endnote] Again, there should be less of a gap between text and page/numbers.-->
@@ -6749,9 +7274,12 @@
          <item>Prayers, &amp; meditations there on <label><ref type="page">82.</ref></label>
          </item>
          
-            <pb n="176"/>
+            <pb xml:id="page-180" n="176"/>
 
-<!-- transcription: Page 176 -->
+<!-- transcription: page 180-->
+
+
+
 
          <fw place="right"> page</fw>
 
@@ -6807,9 +7335,12 @@
           <label place="right bottom"><ref n="92" type="page">93.</ref></label>
          </item>
          
-            <pb n="177"/>
+            <pb xml:id="page-181" n="177"/>
 
-<!-- transcription: Page 177 -->
+<!-- transcription: page 181-->
+
+
+
 
          <fw place="right"> page</fw>
         
@@ -6882,9 +7413,12 @@
           <label place="right mid"><ref n="106" type="page">107.</ref></label>
         </item>
          
-            <pb n="178"/>
+            <pb xml:id="page-182" n="178"/>
 
-<!-- transcription: Page 178 -->
+<!-- transcription: page 182-->
+
+
+
 
          <fw place="right"> page</fw>
         
@@ -6955,9 +7489,12 @@
          </list>
           <label place="right mid"><ref n="116" type="page">117.</ref></label>
         </item>
-            <pb n="179"/>
+            <pb xml:id="page-183" n="179"/>
 
-<!-- transcription: Page 179 -->
+<!-- transcription: page 183-->
+
+
+
 
          <fw place="right" rend="underline">page</fw>
         
@@ -7024,9 +7561,12 @@
         <label place="right mid"><ref type="page">135.</ref></label> 
         </item>
          
-            <pb n="180"/>
+            <pb xml:id="page-184" n="180"/>
 
-<!-- transcription: Page 180 -->
+<!-- transcription: page 184-->
+
+
+
 
          <fw place="right">page</fw>
         
@@ -7082,9 +7622,12 @@
           <label place="right mid"><ref type="page">149.</ref></label> 
         </item>
          
-            <pb n="181"/>
+            <pb xml:id="page-185" n="181"/>
 
-<!-- transcription: Page 181 -->
+<!-- transcription: page 185-->
+
+
+
 
          <fw place="right"> page</fw>
         
@@ -7129,9 +7672,12 @@
         </item>
       </list>
 </div>            
-       <pb n="182"/>
+       <pb xml:id="page-186" n="182"/>
 
-<!-- transcription: Page 182 -->
+<!-- transcription: page 186-->
+
+
+
 
     
     <div xml:id="div-096" type="supplementary" rend="differentInk">
@@ -7188,9 +7734,12 @@
           &amp; that of <placeName ref="place:Irel_096" n="place103">Ireland</placeName>. most dreadfull to her.
          </p>
          
-            <pb n="183"/>
+            <pb xml:id="page-187" n="183"/>
 
-<!-- transcription: Page 183 -->
+<!-- transcription: page 187-->
+
+
+
 
          <p xml:id="p-0178">She did see in the north window in her<lb/>
           Chambr the sky broake out &amp; opned with a<lb/>
@@ -7223,9 +7772,12 @@
           his Robes &amp; Crowne on his head.
          </p>
          
-            <pb n="184"/>
+            <pb xml:id="page-188" n="184"/>
 
-<!-- transcription: Page 184 -->
+<!-- transcription: page 188-->
+
+
+
 
          <p xml:id="p-0179">Then Pursued an infinit innumerable<lb/>
           company &amp; Multitude of all sorts of men<lb/>
@@ -7254,9 +7806,12 @@
           That there was a dreadfull cloud hang<lb/>
 
          
-            <pb n="185"/>
+            <pb xml:id="page-189" n="185"/>
 
-<!-- transcription: Page 185 -->
+<!-- transcription: page 189-->
+
+
+
 
           over these Churches &amp; Nations. which she<lb/>
           would live to see. but as for his part. he<lb/>
@@ -7293,9 +7848,12 @@
            to be dead at which I cried out<lb/>
 
          
-            <pb n="186"/>
+            <pb xml:id="page-190" n="186"/>
 
-<!-- transcription: Page 186 -->
+<!-- transcription: page 190-->
+
+
+
 
           beeing much a frrighted &amp; said she was<lb/>
           Really dead. &amp; there I a waked in greife<lb/>
@@ -7324,9 +7882,12 @@
           laid since should dye. Then <rs ref="ppl:kwd1" n="per371" type="person">my sistr</rs> said<lb/>
 
          
-            <pb n="187"/>
+            <pb xml:id="page-191" n="187"/>
 
-<!-- transcription: Page 187 -->
+<!-- transcription: page 191-->
+
+
+
 
           Is not this an odd Dreame. My <persName ref="ppl:awn1" n="per372">A. N.</persName> said<lb/>
           to her that dreams was but fables not to beleived<lb/>
@@ -7363,9 +7924,12 @@
            Dreame that night consering it And tould him all the<lb/>
               sircumstances of it</p>
          
-            <pb n="188"/>
+            <pb xml:id="page-192" n="188"/>
 
-<!-- transcription: Page 188 -->
+<!-- transcription: page 192-->
+
+
+
 
          <p xml:id="p-0183">At which he gave a sight, and said for my sak<lb/>
           he would not venture againe. but have a care<lb/>
@@ -7397,9 +7961,12 @@
           &amp; did make such an admirable exposition on it<lb/>
 
          
-            <pb n="189"/>
+            <pb xml:id="page-193" n="189"/>
 
-<!-- transcription: Page 189 -->
+<!-- transcription: page 193-->
+
+
+
 
           That she protested she did nevr heare the like<lb/>
           at which she admired &amp; said. Sir I ever tooke you<lb/>
@@ -7431,9 +7998,12 @@
           my necke which was soe intolerable. That, <lb/>
 
          
-            <pb n="190"/>
+            <pb xml:id="page-194" n="190"/>
 
-<!-- transcription: Page 190 -->
+<!-- transcription: page 194-->
+
+
+
 
           I could not hold my Tongue from Crying out<lb/>
           nor to hold my necke streight it beeing soe<lb/>
@@ -7460,9 +8030,12 @@
             mond</placeName>.<milestone unit="marker" rend="delim(diagonal)"/></p>
         <anchor n="ev101" type="event"/>
  </div>
-            <pb n="191"/>
+            <pb xml:id="page-195" n="191"/>
 
-<!-- transcription: Page 191 -->
+<!-- transcription: page 195-->
+
+
+
      <div xml:id="div-102">        
         <milestone n="ev102" unit="event"/>
          <p xml:id="p-0184">A gratefull Remembrance of<lb/>
@@ -7494,9 +8067,12 @@
           did involve his owne Estate to secure<lb/>
           them. which did prove fatall to ours.</p>
          
-            <pb n="192"/>
+            <pb xml:id="page-196" n="192"/>
 
-<!-- transcription: Page 192 -->
+<!-- transcription: page 196-->
+
+
+
 
          <p xml:id="p-0186">And tho <persName ref="ppl:jl1" n="per398">S<hi rend="superscript">r</hi> John Lowther</persName> did<lb/>
           offer <rs ref="ppl:aow1" n="per399" type="person">my dere mothr</rs> in my hearing to<lb/>
@@ -7525,9 +8101,12 @@
           pay <persName ref="ppl:rn1" n="per411">Nettlton</persName> all but 100<hi rend="superscript">l-</hi> which he<lb/>
 
          
-            <pb n="193"/>
+            <pb xml:id="page-197" n="193"/>
 
-<!-- transcription: Page 193 -->
+<!-- transcription: page 197-->
+
+
+
 
           was in dispute with him for he had<lb/>
           receavd it but would not give up<lb/>
@@ -7557,9 +8136,12 @@
           tho they did do it to me in his absence &amp;<lb/>
             was very kind to me<anchor n="ev104" type="event"/> –<!-- Q [marker] what is this dash --></p>
          
-            <pb n="194"/>
+            <pb xml:id="page-198" n="194"/>
 
-<!-- transcription: Page 194 -->
+<!-- transcription: page 198-->
+
+
+
         <milestone n="ev105" unit="event"/>
          <p xml:id="p-0187">But when he was gon to <placeName ref="place:Lond_080" n="place113">London</placeName><lb/>
           one day in the morning. I fell into a drea<add place="above">m</add> <lb/>
@@ -7588,9 +8170,12 @@
              100<hi rend="superscript">l</hi> of my Portion that weeke &amp; had<lb/>
 
          
-            <pb n="195"/>
+            <pb xml:id="page-199" n="195"/>
 
-<!-- transcription: Page 195 -->
+<!-- transcription: page 199-->
+
+
+
 
          that 58<hi rend="superscript">l</hi> was <rs ref="ppl:aow1" n="per422" type="person">my Dear Mother</rs>s that<lb/>
           I had in the house which I paid to them<lb/>
@@ -7626,9 +8211,12 @@
            more Amen</p>
       </div>
          
-            <pb n="196"/>
+            <pb xml:id="page-200" n="196"/>
 
-<!-- transcription: Page 196 -->
+<!-- transcription: page 200-->
+
+
+
       <div xml:id="div-105">
          <p xml:id="p-0192">
         <milestone n="ev107" unit="event"/>
