@@ -16,15 +16,19 @@ function setUpTextViewer() {
             selectors: {
               source: {
                 "http://localhost:3000/": "AT",
+                // format=X is ignored, will always return TEI
                 "https://dev.chartes.psl.eu/api/nautilus/dts": "PSL Chartes",
                 // no navigation API, responses not compliant (e.g. type)
                 // 'https://edh.ub.uni-heidelberg.de/api/dts/': 'EDH',
                 // Perseid: uses ref instead of dts:ref in navigation members
+                // format=X is ignored, will always return TEI
                 "https://dts.perseids.org/": "Perseids",
-                // CORS policy exclude 2rd party calls
+                // CORS policy exclude 3rd party calls
                 // 'http://texts.alpheios.net/api/dts': 'Alpheios',
                 // request to navigation times out
                 // 'https://betamasaheft.eu/api/dts': 'Beta maṣāḥǝft',
+                // CORS policy exclude 3rd party calls
+                // 'https://isicily-dts.herokuapp.com/dts/api': 'iSicily',
               },
               collection: {
                 c1: "Collection 1",
@@ -188,11 +192,12 @@ function setUpTextViewer() {
         }
       },
       async fetchDTS(panel, service, id, ref, format) {
-        let url = this.getDTSUrl(panel, service, id, ref, format);
         if (!format && service == "documents") {
           // ? or content-type?
-          format = "tei";
+          // TODO: fallback to TEI?
+          format = "html";
         }
+        let url = this.getDTSUrl(panel, service, id, ref, format);
         let ret = await this.fetch(url, format);
         return ret;
       },
