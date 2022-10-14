@@ -1,7 +1,29 @@
 const { createApp } = window.Vue;
 
 function setUpTextViewer() {
-  createApp({
+  let PanelControl = {
+    template: `
+    <span class="panel-selector" v-if="controlKey[0] != '_'">
+      <template v-if="!hideLabel">{{label}}:</template>
+      <div class="select is-normal">
+        <select @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
+          <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
+        </select>
+      </div>
+    </span>
+    `,
+    props: ["panelIdx", "controlKey", "hideLabel"],
+    computed: {
+      panel() {
+        return this.$parent.panels[this.panelIdx];
+      },
+      label() {
+        return this.$parent.controls[this.controlKey];
+      },
+    },
+  };
+
+  let app = createApp({
     data() {
       return {
         controls: {
@@ -60,6 +82,9 @@ function setUpTextViewer() {
         ],
       };
     },
+    // components: {
+    //   'panel-control': PanelControl,
+    // },
     mounted() {
       // this.clonePanel(0)
       for (let panel of this.panels) {
@@ -87,7 +112,6 @@ function setUpTextViewer() {
           let parentTitle = panel.selectors.collection[parentId];
           let prefix = "";
           if (parentTitle) {
-            console.log(parentTitle);
             prefix = parentTitle.match(/^(\s|&nbsp;)*/)[0];
             prefix += "&nbsp;&nbsp;- ";
           }
@@ -103,7 +127,6 @@ function setUpTextViewer() {
           // copy rest...
           // 1. copy existing list
           let copy = { ...panel.selectors.collection };
-          console.log(copy);
           panel.selectors.collection = {};
           let parentId = panel.responses.collection["@id"];
           for (let cid of Object.keys(copy)) {
@@ -204,7 +227,6 @@ function setUpTextViewer() {
       getDTSUrl(panel, service, id, ref, format) {
         let ret = panel.selections.source;
         if (service) {
-          // console.log((new URL(ret)))
           ret = new URL(ret).origin;
           ret = `${ret}${panel.responses.entryPoint[service]}?`;
           if (id) {
@@ -232,7 +254,10 @@ function setUpTextViewer() {
         return ret;
       },
     },
-  }).mount("#text-viewer");
+  });
+  app.component("panel-control", PanelControl);
+  // app.component('c1', c1)
+  app.mount("#text-viewer");
 }
 
 setUpTextViewer();
