@@ -3,7 +3,7 @@ const { createApp } = window.Vue;
 function setUpTextViewer() {
   let PanelControl = {
     template: `
-    <span class="panel-selector" v-if="controlKey[0] != '_'">
+    <span class="panel-selector" v-if="!isHidden">
       <template v-if="!hideLabel">{{label}}:</template>
       <div class="select is-normal">
         <select @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
@@ -20,12 +20,18 @@ function setUpTextViewer() {
       label() {
         return this.$parent.controls[this.controlKey];
       },
+      isHidden() {
+        return this.$parent.isControlHidden(this.controlKey);
+      },
     },
   };
 
   let app = createApp({
     data() {
       return {
+        settings: {
+          hiddenControls: ["source", "collection"],
+        },
         controls: {
           source: "Source",
           collection: "Collection",
@@ -100,6 +106,12 @@ function setUpTextViewer() {
       closePanel(panelIdx) {
         this.panels = this.panels.filter((p, idx) => idx != panelIdx);
         // delete this.panels[panelIdx]
+      },
+      isControlHidden(controlKey) {
+        return (
+          controlKey[0] == "_" ||
+          this.settings.hiddenControls.includes(controlKey)
+        );
       },
       onChangeSelector(panel, key) {
         if (key.startsWith("_")) return;
