@@ -532,3 +532,22 @@ ul.social_media_block {
 .person-link:not(:first-child):before {
   content: ", ";
 }
+
+// text-viewer (GN)
+.text-viewer {
+  .panel-controls {
+    border-bottom: 1px solid gray;
+    background-color: beige;
+  }
+
+  // GN TODO: ugly! we should be using Bulma's .buttons & .is-right instead.
+  // But it places the buttons on a line below the panel heading.
+  .button-bar {
+    float: right;
+    padding-bottom: 0.5em;
+    margin-top: -0.5em;
+    .button {
+      margin-left: 0.5em;
+    }
+  }
+}

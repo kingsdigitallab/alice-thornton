@@ -1,5 +1,6 @@
 ---
 pageImageWebPath: "/assets/img/logos/alice-thornton-logo-img.jpeg"
+isContentHTML: false
 ---
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -39,7 +40,7 @@ pageImageWebPath: "/assets/img/logos/alice-thornton-logo-img.jpeg"
         <h1 class="title">
           {{ title }}
         </h1>
-        <div class="content {{ tags }}">
+        <div class="{% if isContentHTML == false %}content{% endif %} {{ tags }}">
           {{ content }}
         </div>
         {% include "page_citation.liquid" %}

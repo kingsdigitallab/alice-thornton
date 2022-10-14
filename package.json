@@ -12,15 +12,6 @@
   "bugs": {
     "url": "https://github.com/kingsdigitallab/thornton/issues"
   },
-  "//scripts": {
-    "compose": "trap 'echo Stopped; exit 0' SIGINT; docker-compose",
-    "up": "npm run compose up -- --build",
-    "down": "npm run compose down",
-    "exec": "npm run compose exec ${npm_config_service}",
-    "pkg": "npm run exec npm",
-    "cms:snapshot": "npm run pkg --service=cms run snapshot:create",
-    "cms:snapshot:apply": "npm run pkg --service=cms run snapshot:apply ./snapshots/${npm_config_snapshot}.yaml"
-  },
   "scripts": {
     "serve": "npm run serve -w frontend",
     "rebuild": "npm ci && npm run rebuild:full -w frontend",
@@ -51,6 +42,8 @@
   "workspaces": [
     "frontend",
     "osnap",
-    "tests"
+    "tests",
+    "apps/dtsserver",
+    "apps/dtsviewer"
   ]
 }
