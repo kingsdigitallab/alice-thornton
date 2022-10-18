@@ -1,6 +1,6 @@
 "use strict";
 // https://github.com/kingsdigitallab/webval/blob/main/docs/utils.js
-// TODO: rewrite all the paths in the responses
+// TODO: rewrite all the paths in the responses (nav>@id, dts:passage, dts:references)
 // TODO: error management!
 // TODO: sync -> async
 
@@ -64,7 +64,7 @@ class Generator {
     }
   }
   async fetchDTS(service, id, ref, format) {
-    let res = await dtsutils.fetchDTS(
+    let ret = await dtsutils.fetchDTS(
       {
         selections: { source: this.settings.source },
         responses: this.responses,
@@ -74,26 +74,30 @@ class Generator {
       ref,
       format
     );
-    if (!res)
+    if (!ret)
       this.error(`DTS request failed. (${service}, ${id}, ${ref}, ${format})`);
 
-    let ret = JSON.parse(JSON.stringify(res));
-
-    res = this.tranformResponse(service, res);
+    let res = this.getTranformedResponse(service, ret);
 
     this.saveResponse(res, service, id, ref, format);
 
     return ret;
   }
-  tranformResponse(service, res) {
+  getTranformedResponse(service, res) {
+    if (service == "documents") return res;
+
+    let ret = JSON.parse(JSON.stringify(res));
     if (!service) {
-      // let targetRoot = new URL(this.settings.target).pathname
-      // res['@id'] = `${targetRoot}`
-      // res.collections = `collections`
-      // res.navigation = `navigation`
-      // res.documents = `documents`
+      let targetRoot = new URL(this.settings.target).pathname.replace(
+        /\.json$/,
+        ""
+      );
+      ret["@id"] = `${targetRoot}.json`;
+      ret.collections = `${targetRoot}/collections`;
+      ret.navigation = `${targetRoot}/navigation`;
+      ret.documents = `${targetRoot}/documents`;
     }
-    return res;
+    return ret;
   }
   logjson(data) {
     console.log(JSON.stringify(data, null, 2));
@@ -102,6 +106,13 @@ class Generator {
     let filePath = dtsutils.getDTSUrl(
       {
         selections: { source: this.settings.local },
+        responses: {
+          entryPoint: {
+            collections: "/collections",
+            navigation: "/navigation",
+            documents: "/documents",
+          },
+        },
       },
       service,
       id,

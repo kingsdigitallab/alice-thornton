@@ -43,8 +43,11 @@ function setUpTextViewer() {
           {
             selectors: {
               source: {
-                "http://127.0.0.1:5500/alice-thornton/dts.json": "AT SDTS",
-                "http://localhost:3000/": "AT",
+                "http://127.0.0.1:5500/alice-thornton/dts.json":
+                  "AT SDTS (localhost)",
+                "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/viewer/dts.json":
+                  "AT SDTS (github)",
+                "http://localhost:3000/": "AT DTS (local)",
                 // format=X is ignored, will always return TEI
                 "https://dev.chartes.psl.eu/api/nautilus/dts": "PSL Chartes",
                 // CORS prevents call to Endpoint

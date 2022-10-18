@@ -10,7 +10,7 @@ module.exports = {
   services: {
     root: "/",
     collections: "/collections2/",
-    navigation: "/collections3/",
+    navigation: "/navigation3/",
     documents: "/documents4/",
   },
 };

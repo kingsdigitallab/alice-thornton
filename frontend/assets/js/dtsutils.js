@@ -20,14 +20,18 @@
   }
 
   function getDTSUrl(panel, service, id, ref, format) {
+    // The absolute path (URL or filesystem) to a DTS entry point
     let ret = panel.selections.source;
     if (!service) return ret;
     let isStatic = ret.endsWith(".json");
     ret = ret.replace(".json", "");
 
+    ret = getServiceRootFromSource(ret);
+    ret = `${ret}${panel.responses.entryPoint[service]}`;
+
     if (isStatic) {
+      ret = ret.replace(/\/$/, "");
       if (service) {
-        ret += `/${service}`;
         if (id) {
           ret += `/${slugify(id)}`;
         }
@@ -38,8 +42,7 @@
 
       ret += `.${getFormatFromRequest(service, format)}`;
     } else {
-      ret = new URL(ret).origin;
-      ret = `${ret}${panel.responses.entryPoint[service]}?`;
+      ret += `?`;
       if (id) {
         ret += `&id=${id}`;
       }
@@ -53,6 +56,23 @@
     return ret;
   }
   exports.getDTSUrl = getDTSUrl;
+
+  function getServiceRootFromSource(str) {
+    // The address to which service paths are relative.
+    // returns the hostname if URL
+    // returns str otherwise
+    let ret = str;
+    let url;
+    try {
+      url = new URL(str);
+    } catch (_) {
+      //
+    }
+    if (url && (url.protocol === "http:" || url.protocol === "https:")) {
+      ret = url.origin;
+    }
+    return ret;
+  }
 
   async function _fetch(url, format) {
     let ret = null;
