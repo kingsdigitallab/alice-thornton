@@ -1,26 +1,33 @@
 "use strict";
+// TODO: add text metadata from TEI
 
+const SaxonJS = require("saxon-js");
 const fs = require("fs");
+let Dom = require("xmldom").DOMParser;
+const settings = require("../settings.js");
+const collectionRoot = settings.localPath;
 
-let idPrefix = "https://thornton.kdl.kcl.ac.uk/dts/";
+let idPrefix = settings.baseUri;
 // only one collection in our project at the moment,
 // it contains the four books/editions
-let idCollection = `${idPrefix}thornton-books/`;
+let idCollection = `${idPrefix}${settings.rootCollection.slug}/`;
 
 var controllers = {
   root: (req, res) => {
     let ret = {
       "@context": "/contexts/EntryPoint.jsonld",
-      "@id": `${idPrefix}`,
+      "@id": `${settings.services.root}`,
       "@type": "EntryPoint",
-      // TODO: what are those paths relative to?
-      collections: "/collections/",
-      documents: "/documents/",
-      navigation: "/navigation/",
     };
+    // add abs path of each DTS service (e.g. collections: '/collections/')
+    for (let key of Object.keys(settings.services)) {
+      if (key != "root") {
+        ret[key] = settings.services[key];
+      }
+    }
     res.json(ret);
   },
-  collections: (req, res) => {
+  collections: async (req, res) => {
     // id, page, nav
     // let q = req.query
     let members = [
@@ -49,6 +56,9 @@ var controllers = {
         //"dts:download": "https://raw.githubusercontent.com/lascivaroma/priapeia/master/data/phi1103/phi001/phi1103.phi001.lascivaroma-lat1.xml",
       },
     ];
+
+    members = await findTEIFiles(collectionRoot);
+
     let ret = {
       "@context": {
         "@vocab": "https://www.w3.org/ns/hydra/core#",
@@ -57,7 +67,7 @@ var controllers = {
       },
       "@id": `${idCollection}`,
       "@type": "Collection",
-      title: "Alice Thornton's Books",
+      title: settings.rootCollection.title,
       "dts:dublincore": {
         "dc:publisher": ["King's Digital Lab, King's College London"],
         // "dc:type": ["http://chs.harvard.edu/xmlns/cts#work"],
@@ -83,8 +93,8 @@ var controllers = {
         "@type": "Resource",
         "dts:totalParents": 1,
         "dts:totalChildren": 0,
-        "dts:references": `/navigation/?id=${mid}`,
-        "dts:passage": `/documents/?id=${mid}`,
+        "dts:references": `${settings.services.navigation}?id=${mid}`,
+        "dts:passage": `${settings.services.documents}?id=${mid}`,
         "dts:maxCiteDepth": 1,
         "dts:citeStructure": [
           // TODO: chapters
@@ -117,7 +127,7 @@ var controllers = {
       member: pages.map((p) => {
         return { "dts:ref": `p.${p}`, "dts:level": 1 };
       }),
-      "dts:passage": `/documents/?id=${q.id}`,
+      "dts:passage": `${settings.services.documents}?id=${q.id}`,
     };
     res.json(ret);
   },
@@ -138,10 +148,61 @@ var controllers = {
   },
 };
 
+// TODO: convert those functions into a class
+
+async function findTEIFiles(collectionPath, ret) {
+  // TODO: handle collections & sub-collections
+  if (typeof ret === "undefined") {
+    ret = [];
+  }
+
+  const directory = collectionPath;
+  const path = require("path");
+  const fs = require("fs");
+
+  for (let file of fs.readdirSync(directory)) {
+    let filePath = path.resolve(directory, file);
+    if (fs.lstatSync(filePath).isDirectory()) {
+      await findTEIFiles(filePath, ret);
+    } else {
+      if (file.endsWith(".xml")) {
+        let handle = file.replace(/\.[^.]*$/, "");
+        let documentId = `${idCollection}${handle}/`;
+        let teiMeta = await getMetadataFromTEIFile(filePath);
+        ret.push({
+          "@id": documentId,
+          test: "test",
+          title: teiMeta.title,
+        });
+      }
+    }
+  }
+
+  return ret;
+}
+
+async function getMetadataFromTEIFile(filePath) {
+  let content = readFile(filePath);
+  // optimisation: we extract the TEI header (so less xml to parse)
+  let m = content.match(/^.*<\/teiHeader>/s);
+  content = `${m[0]}</TEI>`;
+  let doc = await SaxonJS.getResource({ text: content, type: "xml" });
+
+  let ret = {
+    title: "//teiHeader/fileDesc/titleStmt/title/text()",
+  };
+
+  for (const [k, v] of Object.entries(ret)) {
+    ret[k] = SaxonJS.XPath.evaluate(v, doc, {
+      xpathDefaultNamespace: "http://www.tei-c.org/ns/1.0",
+    }).data;
+  }
+
+  return ret;
+}
+
 function getHTMLfromTEI(tei) {
   let ret = "";
-
-  let SaxonJS = require("saxon-js");
 
   // todo: regenerate sef.json file if older than xslt
   // npx xslt3 -xsl:tei-to-html.xsl -export:tei-to-html.sef.json -t -ns:##html5 -nogo
@@ -176,11 +237,19 @@ function getPagesFromDocument(documentId) {
 }
 
 function getContentFromDocument(documentId) {
+  let filePath = getTEIFilePathFromDocumentId(documentId);
+  return readFile(filePath);
+}
+
+function readFile(filePath) {
+  return fs.readFileSync(filePath).toString();
+}
+
+function getTEIFilePathFromDocumentId(documentId) {
   let parts = documentId.split("/");
   // todo: use doc index instead and check whole pid
   let fileName = parts[parts.length - 2];
-  let filePath = `../../texts/${fileName}/${fileName}.xml`;
-  return fs.readFileSync(filePath).toString();
+  return `../../texts/${fileName}/${fileName}.xml`;
 }
 
 function getXMLFromPageNumber(documentId, ref) {
@@ -201,10 +270,17 @@ function getXMLFromPageNumber(documentId, ref) {
     );
     let m = content.match(regex);
     // console.log(m)
+
+    let headerMatch = content.match(/^.*<\/teiHeader>/s);
+
     if (m) {
-      ret = `<div>${m[1]}</div>`;
-      let dom = require("xmldom").DOMParser;
-      let doc = new dom().parseFromString(ret);
+      ret = `${headerMatch[0]}
+        <dts:fragment xmlns:dts="https://w3id.org/dts/api#">
+          ${m[1]}
+        </dts:fragment>
+      </TEI>`;
+      // Why doing this?
+      let doc = new Dom().parseFromString(ret);
       ret = doc.toString();
     }
   }

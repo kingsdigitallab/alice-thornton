@@ -30,7 +30,7 @@ function setUpTextViewer() {
     data() {
       return {
         settings: {
-          hiddenControls: ["source", "collection"],
+          hiddenControls: [], //["source", "collection"],
         },
         controls: {
           source: "Source",
@@ -43,9 +43,12 @@ function setUpTextViewer() {
           {
             selectors: {
               source: {
+                "http://127.0.0.1:5500/alice-thornton/dts.json": "AT SDTS",
                 "http://localhost:3000/": "AT",
                 // format=X is ignored, will always return TEI
                 "https://dev.chartes.psl.eu/api/nautilus/dts": "PSL Chartes",
+                // CORS prevents call to Endpoint
+                // "http://tnah.chartes.psl.eu/2019/dts/": "PSL Chartes (Songs, 2019)",
                 // no navigation API, responses not compliant (e.g. type)
                 // 'https://edh.ub.uni-heidelberg.de/api/dts/': 'EDH',
                 // Perseid: uses ref instead of dts:ref in navigation members
@@ -57,6 +60,11 @@ function setUpTextViewer() {
                 // 'https://betamasaheft.eu/api/dts': 'Beta maṣāḥǝft',
                 // CORS policy exclude 3rd party calls
                 // 'https://isicily-dts.herokuapp.com/dts/api': 'iSicily',
+                // TEI Publisher: collections/member/@id=X doesn't match /documents?id=Y!
+                // Could use collections/member/dts:passage URI instead, yet non-standard
+                // Also no navigation Endpoint, not sure what the refs are...
+                // "https://teipublisher.com/exist/apps/vangogh/api/dts": "Van Gogh Letters",
+                // "https://raw.githubusercontent.com/geoffroy-noel-ddh/test-static-api/main/docs/index.html": "Test",
               },
               collection: {
                 c1: "Collection 1",
@@ -74,7 +82,8 @@ function setUpTextViewer() {
             selections: {
               source: "",
               collection: "",
-              document: "",
+              document:
+                "https://thornton.kdl.kcl.ac.uk/dts/thornton-books/book_one/",
               locus: "",
             },
             responses: {
@@ -88,15 +97,12 @@ function setUpTextViewer() {
         ],
       };
     },
-    // components: {
-    //   'panel-control': PanelControl,
-    // },
     mounted() {
-      // this.clonePanel(0)
       for (let panel of this.panels) {
         let key = "source";
         this.selectDefaultOption(panel, key);
         this.onChangeSelector(panel, key);
+        // this.onChangeSelector(panel, 'document')
       }
     },
     methods: {
@@ -104,8 +110,8 @@ function setUpTextViewer() {
         this.panels.push(JSON.parse(JSON.stringify(this.panels[panelIdx])));
       },
       closePanel(panelIdx) {
+        // Do not use delete, this will confuse Vue
         this.panels = this.panels.filter((p, idx) => idx != panelIdx);
-        // delete this.panels[panelIdx]
       },
       isControlHidden(controlKey) {
         return (
@@ -212,7 +218,8 @@ function setUpTextViewer() {
               panel,
               "documents",
               panel.selections.document,
-              value
+              value,
+              "html"
             );
           }
         }
@@ -227,44 +234,45 @@ function setUpTextViewer() {
         }
       },
       async fetchDTS(panel, service, id, ref, format) {
-        if (!format && service == "documents") {
-          // ? or content-type?
-          // TODO: fallback to TEI?
-          format = "html";
-        }
-        let url = this.getDTSUrl(panel, service, id, ref, format);
-        let ret = await this.fetch(url, format);
-        return ret;
+        return window.dtsutils.fetchDTS(panel, service, id, ref, format);
+        // if (!format && service == "documents") {
+        //   // ? or content-type?
+        //   // TODO: fallback to TEI?
+        //   format = "html";
+        // }
+        // let url = this.getDTSUrl(panel, service, id, ref, format);
+        // let ret = await this.fetch(url, format);
+        // return ret;
       },
-      getDTSUrl(panel, service, id, ref, format) {
-        let ret = panel.selections.source;
-        if (service) {
-          ret = new URL(ret).origin;
-          ret = `${ret}${panel.responses.entryPoint[service]}?`;
-          if (id) {
-            ret += `&id=${id}`;
-          }
-          if (ref) {
-            ret += `&ref=${ref}`;
-          }
-          if (format) {
-            ret += `&format=${format}`;
-          }
-        }
-        return ret;
-      },
-      async fetch(url, format) {
-        let ret = null;
-        let res = await fetch(url);
-        if (res && res.status == 200) {
-          if (!format) {
-            ret = await res.json();
-          } else {
-            ret = await res.text();
-          }
-        }
-        return ret;
-      },
+      // getDTSUrl(panel, service, id, ref, format) {
+      //   let ret = panel.selections.source;
+      //   if (service) {
+      //     ret = new URL(ret).origin;
+      //     ret = `${ret}${panel.responses.entryPoint[service]}?`;
+      //     if (id) {
+      //       ret += `&id=${id}`;
+      //     }
+      //     if (ref) {
+      //       ret += `&ref=${ref}`;
+      //     }
+      //     if (format) {
+      //       ret += `&format=${format}`;
+      //     }
+      //   }
+      //   return ret;
+      // },
+      // async fetch(url, format) {
+      //   let ret = null;
+      //   let res = await fetch(url);
+      //   if (res && res.status == 200) {
+      //     if (!format) {
+      //       ret = await res.json();
+      //     } else {
+      //       ret = await res.text();
+      //     }
+      //   }
+      //   return ret;
+      // },
     },
   });
   app.component("panel-control", PanelControl);
