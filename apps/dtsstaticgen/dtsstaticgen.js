@@ -50,7 +50,7 @@ class Generator {
               format
             );
           }
-          break;
+          // break;
         }
       }
     }

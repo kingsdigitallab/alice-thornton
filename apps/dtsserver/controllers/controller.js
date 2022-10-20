@@ -137,6 +137,10 @@ var controllers = {
     let rid = q.id;
 
     let chunk = getXMLFromPageNumber(rid, q.ref);
+    if (!chunk) {
+      chunk = `<?xml version="1.0" encoding="UTF-8"?>
+      <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="atb-book-of-remembrances"></TEI>`;
+    }
     res.set("Content-Type", "text/plain");
     // res.type('html')
 
@@ -253,7 +257,8 @@ function getTEIFilePathFromDocumentId(documentId) {
 }
 
 function getXMLFromPageNumber(documentId, ref) {
-  let ret = `Ref '${ref}' not found in doc '${documentId}'`;
+  // let ret = `Ref '${ref}' not found in doc '${documentId}'`;
+  let ret = null;
   // TODO: extract page using xpath & dom
   // method: take all add all the elements
   // situated between the pbs and their nearest common ancestor
