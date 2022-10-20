@@ -1,5 +1,6 @@
 module.exports = {
-  localPath: "../../texts",
+  // localPath: "../../texts",
+  localPath: "/home/jeff/src/prj/tst/alice-thornton/texts",
   // The stable and base of the URI for most ids (mainly collections & documents).
   // Only used for identifiction, it may not be accessible on the web.
   baseUri: "https://thornton.kdl.kcl.ac.uk/dts/ids/",
@@ -9,8 +10,8 @@ module.exports = {
   },
   services: {
     root: "/",
-    collections: "/collections2/",
-    navigation: "/navigation3/",
-    documents: "/documents4/",
+    collections: "/collections/",
+    navigation: "/navigation/",
+    documents: "/documents/",
   },
 };

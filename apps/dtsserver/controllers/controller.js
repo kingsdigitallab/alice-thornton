@@ -249,7 +249,7 @@ function getTEIFilePathFromDocumentId(documentId) {
   let parts = documentId.split("/");
   // todo: use doc index instead and check whole pid
   let fileName = parts[parts.length - 2];
-  return `../../texts/${fileName}/${fileName}.xml`;
+  return `${collectionRoot}/${fileName}/${fileName}.xml`;
 }
 
 function getXMLFromPageNumber(documentId, ref) {
