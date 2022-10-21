@@ -12,6 +12,12 @@
     <xsl:template match="tei:teiHeader">
     </xsl:template>
 
+    <xsl:template match="tei:lb">
+        <br>
+            <xsl:call-template name="lossless-attributes"/>
+        </br>
+    </xsl:template>
+
     <xsl:template match="*">
         <xsl:call-template name="lossless-span"/>
     </xsl:template>
