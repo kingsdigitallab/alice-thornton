@@ -335,7 +335,9 @@ function getXMLFromPageNumber(documentId, ref) {
         i += 1;
       }
     } else {
-      console.log(`WARNING: page not found ${pn} or ${pn + 1}`);
+      console.log(
+        `WARNING: page not found ${pn} or ${pnNext} in ${documentId}`
+      );
     }
 
     // PART 2: crop the XML with a regexp betwen the two edges
