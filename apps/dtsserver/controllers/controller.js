@@ -3,14 +3,21 @@
 
 const SaxonJS = require("saxon-js");
 const fs = require("fs");
-let Dom = require("xmldom").DOMParser;
+const DOMParser = require("@xmldom/xmldom").DOMParser;
 const settings = require("../settings.js");
+const XPath = require("xpath");
 const collectionRoot = settings.localPath;
+// teu namespace
+const TEINS = "http://www.tei-c.org/ns/1.0";
 
 let idPrefix = settings.baseUri;
 // only one collection in our project at the moment,
 // it contains the four books/editions
 let idCollection = `${idPrefix}${settings.rootCollection.slug}/`;
+
+let cache = {
+  lastRead: {},
+};
 
 var controllers = {
   root: (req, res) => {
@@ -246,7 +253,22 @@ function getContentFromDocument(documentId) {
 }
 
 function readFile(filePath) {
-  return fs.readFileSync(filePath).toString();
+  let ret = cache.lastRead.content;
+  if (!cache.lastRead.content || cache.lastRead.filePath != filePath) {
+    ret = fs.readFileSync(filePath).toString();
+    cache.lastRead = {
+      filePath: filePath,
+      content: ret,
+      dom: new DOMParser().parseFromString(ret),
+      pbs: {},
+    };
+
+    let select = XPath.useNamespaces({ tei: TEINS });
+    for (let pb of select("//tei:pb", cache.lastRead.dom)) {
+      cache.lastRead.pbs[pb.getAttribute("n")] = pb;
+    }
+  }
+  return ret;
 }
 
 function getTEIFilePathFromDocumentId(documentId) {
@@ -269,6 +291,54 @@ function getXMLFromPageNumber(documentId, ref) {
     let content = getContentFromDocument(documentId);
     let pnNext = "" + (parseInt(pn, 10) + 1);
     // console.log(pnNext)
+
+    let pb = cache.lastRead.pbs[pn];
+    // TODO: find next pb, don't assume it's n+1
+    // TODO: corner case: pb is the last in the doc
+    let pbNext = cache.lastRead.pbs[pnNext];
+
+    // PART 1: get non-common ancestors of each edge
+    let edgesAncestors = [];
+    let edgesAncestorsStr = ["", ""];
+
+    if (pb && pbNext) {
+      for (let parent of [pb, pbNext]) {
+        let ancestors = [];
+        // console.log(`PB = ${parent.getAttribute("n")}`)
+        while (parent.parentNode) {
+          parent = parent.parentNode;
+          // console.log(`  ${parent.nodeName}`)
+          ancestors.push(parent);
+        }
+        edgesAncestors.push(ancestors);
+      }
+
+      // serialise the non-common ancestors of each edge.
+      // we only serialise the ancestors tags, not their children.
+      // edgesAncestors => edgesAncestorsStr.
+      let i = 0;
+      let closing = "";
+      for (let apb of [pb, pbNext]) {
+        // console.log(`PB = ${apb.getAttribute("n")}`)
+        let ancestorsStr = "";
+        if (!i) edgesAncestors[i].reverse();
+        for (let parent of edgesAncestors[i]) {
+          if (parent == apb) continue;
+          // ignore common ancestors
+          if (edgesAncestors[1 - i].indexOf(parent) > -1) continue;
+          let parentStr = `<${closing}${parent.nodeName}>`;
+          ancestorsStr += parentStr;
+        }
+        // console.log(`  ${ancestorsStr}`)
+        edgesAncestorsStr[i] = ancestorsStr;
+        closing = "/";
+        i += 1;
+      }
+    } else {
+      console.log(`WARNING: page not found ${pn} or ${pn + 1}`);
+    }
+
+    // PART 2: crop the XML with a regexp betwen the two edges
     let regex = RegExp(
       `<pb [^>]*n="${pn}"\\s*/>(.*)<pb [^>]*n="${pnNext}"`,
       "s"
@@ -279,17 +349,59 @@ function getXMLFromPageNumber(documentId, ref) {
     let headerMatch = content.match(/^.*<\/teiHeader>/s);
 
     if (m) {
+      // surround the crop by the non-common ancestors so the XML is well-formed
       ret = `${headerMatch[0]}
         <dts:fragment xmlns:dts="https://w3id.org/dts/api#">
+          ${edgesAncestorsStr[0]}
           ${m[1]}
+          ${edgesAncestorsStr[1]}
         </dts:fragment>
       </TEI>`;
-      // Why doing this?
-      let doc = new Dom().parseFromString(ret);
+      // dirty fix of not well-formed XML/HTML
+      let doc = new DOMParser().parseFromString(ret);
       ret = doc.toString();
+      // console.log('h2')
     }
   }
   return ret;
 }
+
+// function getXMLFromPageNumberRegex(documentId, ref) {
+//   // let ret = `Ref '${ref}' not found in doc '${documentId}'`;
+//   let ret = null;
+//   // TODO: extract page using xpath & dom
+//   // method: take all add all the elements
+//   // situated between the pbs and their nearest common ancestor
+
+//   let pageNumber = ref.match(/^p\.(\d+)$/);
+//   if (pageNumber) {
+//     let pn = pageNumber[1]; //.padStart(3, '0')
+//     let content = getContentFromDocument(documentId);
+//     let pnNext = "" + (parseInt(pn, 10) + 1);
+//     // console.log(pnNext)
+//     let regex = RegExp(
+//       `<pb [^>]*n="${pn}"\\s*/>(.*)<pb [^>]*n="${pnNext}"`,
+//       "s"
+//     );
+//     let m = content.match(regex);
+//     // console.log(m)
+
+//     let headerMatch = content.match(/^.*<\/teiHeader>/s);
+
+//     if (m) {
+//       ret = `${headerMatch[0]}
+//         <dts:fragment xmlns:dts="https://w3id.org/dts/api#">
+//           ${m[1]}
+//         </dts:fragment>
+//       </TEI>`;
+//       // Why doing this?
+//       console.log('h1')
+//       // let doc = new Dom().parseFromString(ret);
+//       // ret = doc.toString();
+//       console.log('h2')
+//     }
+//   }
+//   return ret;
+// }
 
 module.exports = controllers;
