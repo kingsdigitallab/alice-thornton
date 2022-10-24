@@ -52,7 +52,7 @@ In 1652, Thornton herself was also in a state of great change. She had married i
 
 ***
 
-[^1]: 29 March is the Julian calendar dating used by Alice; the modernised date is 8 April.
+[^1]: 29 March is the Julian calendar dating used by Thornton; the modernised date is 8 April.
 
 [^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'At which time I was big with Child & the sight of it much affrighted me. it beeing soe darke in the morning at breakfast time & came soe sudainly on us that in a bright sun shine morning That he could not see to Eate his breakfast with out a Candle Butt this did amaze me much & I could not Refraine goeing out into the Garden & loole  on the Eclips in water discovring the Power of god soe great to a miracle who did with draw his Light from our Sun so totally that the sky was darke & starres appeared & a cold storme for a time did Posses the Earth. Which dreadfull Change did putt me into most serious and deep consideration of the day of Judgmt which would come as sudaine & as certainly uppon all the Earth as this Eclips fell out, which caused me to desire & beg of his majesty that he would prepare me for thes great day in Repentance faith and a holy Life for the Judgements of God was just & Certaine uppon all sinns & Sinners', Alice Thornton, *Book 2: The First Book of My Widowed Condition*, Durham Cathedral Library, GB-0033-CCOM 7, 136-137.
 
