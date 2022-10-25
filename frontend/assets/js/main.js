@@ -9,3 +9,20 @@ function setCurrentDate() {
 }
 
 setCurrentDate();
+
+// toggle aria-expanded attribute value for collapsed menu
+
+let hamburgerMenu = document.querySelector(".navbar-burger");
+
+function toggleMenuAttr() {
+  let iconState = document
+    .querySelector(".navbar-burger")
+    .getAttribute("aria-expanded");
+  if (iconState === "false") {
+    hamburgerMenu.setAttribute("aria-expanded", "true");
+  } else {
+    hamburgerMenu.setAttribute("aria-expanded", "false");
+  }
+}
+
+hamburgerMenu.addEventListener("click", toggleMenuAttr);
