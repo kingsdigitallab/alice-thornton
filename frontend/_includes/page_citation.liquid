@@ -1,8 +1,17 @@
+{% comment %}
+Chicago style
+‘Alice Thornton’s Books: Remembrances of a Woman’s Life in the Seventeenth Century.’ Alice Thornton’s Books. Accessed 13 October 2022. https://thornton.kdl.kcl.ac.uk
+({{page.date | date:"%Y"}})
+Q: no date for blog post?
+{% endcomment %}
 <div class="box box-citation">
   <p>Citing this web page:</p>
   <cite>
-    {% include 'people_names.liquid', people: authors %} ({{page.date | date:"%Y"}})
-    '{{ title }}', Alice Thornton's Books, {{ metadata.live_domain }}{{ page.url
-    }}. Accessed <span id="citation-accessed">{{ today }}</span>.
+    {% include 'people_names.liquid', people: authors %}.
+    '{{ titleCitation | default:title }}'.
+    Alice Thornton's Books. 
+    Accessed <span id="citation-accessed">{{ today }}</span>.
+    <br>
+    {{ metadata.live_domain }}{{ page.url }}
   </cite>
 </div>
