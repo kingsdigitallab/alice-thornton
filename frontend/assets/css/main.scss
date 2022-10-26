@@ -541,13 +541,6 @@ ul.social_media_block {
   margin-bottom: 0.75em;
 }
 
-// authors (GN)
-// TODO: not accessible (WCAG 1.3.1), we should insert commas in HTML instead.
-
-.person-link:not(:first-child):before {
-  content: ", ";
-}
-
 // text-viewer (GN + GF)
 .text-viewer {
   padding-bottom: 1rem;

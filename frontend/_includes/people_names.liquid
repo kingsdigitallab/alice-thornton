@@ -2,10 +2,10 @@
 Renders the given array of person ids as a comma separated list of names
 people: array of person ids e.g. ['bobama']
 {% endcomment %}
-{% assign selected_people = collections.people | lookup:'.data.slug',people | sortby:'order' %}
+{% assign selectedPeople = collections.people | lookup:'.data.slug',people | sortby:'order' %}
 
 <span class="people-links">
-  {%- for person in selected_people -%}
-    <span class="person-link">{{ person.data.firstName }} {{ person.data.lastName }}</span>
+  {%- for person in selectedPeople -%}
+    <span class="person-link">{{ person.data.firstName }} {{ person.data.lastName }}</span>{% if forloop.last == false %}, {% endif %}
   {%- endfor -%}
 </span>

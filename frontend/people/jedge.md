@@ -1,5 +1,5 @@
 ---
-firstName: Jo
+firstName: Joanne
 lastName: Edge
 image: /assets/img/people/jedge.jpg
 jobTitle: Postdoctoral Researcher
