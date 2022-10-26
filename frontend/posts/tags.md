@@ -3,10 +3,11 @@ layout: base.liquid
 # so it's not treated as a post
 override:tags: []
 title: "Tags applied to posts"
+isContentHTML: true
 ---
 
 <ul>
-  {% for tag in collections.postsTags %}
+  {%- for tag in collections.postsTags %}
     <li><a href="{{tag}}/">{{ tag }}</a></li>
-  {% endfor %}
+  {% endfor -%}
 </ul>

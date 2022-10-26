@@ -104,7 +104,11 @@ function configureMarkdown(config) {
     .use(markdownItImageFigures, {
       figcaption: true,
       copyAttrs: "class",
-    });
+    })
+    // Disabled otherwise indented html code in templates will render as code/pre
+    // TODO: may change in 11ty 2.0
+    .disable("code");
+
   config.setLibrary("md", markdownLib);
 }
 
