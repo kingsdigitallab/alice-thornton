@@ -548,7 +548,7 @@ ul.social_media_block {
   content: ", ";
 }
 
-// text-viewer (GN)
+// text-viewer (GN + GF)
 .text-viewer {
   padding-bottom: 1rem;
 
@@ -593,4 +593,22 @@ ul.social_media_block {
   .select {
     margin: 0 0.5rem;
   }
+}
+
+// Box citation
+
+.box-citation {
+  // border-left: 10px solid rgba(lighten($primary, 20%), 0.2);
+  border: 1px solid rgba(lighten($primary, 20%), 0.2);
+
+  p {
+    font-weight: 700;
+  }
+
+  // copy icon
+  // TODO: might want to move this in the HTML once there is a copy button
+  background: url(/assets/img/icons/font-awesome/copy.svg) top right no-repeat;
+  background-origin: content-box;
+  background-size: 20px;
+
 }
