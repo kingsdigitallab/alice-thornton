@@ -5,7 +5,9 @@ Chicago style
 Q: no date for blog post?
 {% endcomment %}
 <div class="box box-citation">
-  <p>Citing this web page:</p>
+  <p>Citing this web page:
+    <button>Copy</button>
+  </p>
   <cite>
     {% include 'people_names.liquid', people: authors %}.
     '{{ titleCitation | default:title }}'.

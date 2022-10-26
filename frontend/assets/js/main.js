@@ -26,3 +26,18 @@ function toggleMenuAttr() {
 }
 
 hamburgerMenu.addEventListener("click", toggleMenuAttr);
+
+// citation copy button
+function setupCitationButton() {
+  let button = document.querySelector(".box-citation button");
+  if (!button) return;
+  let citationBox = button.closest(".box-citation");
+  if (!citationBox) return;
+  let cite = citationBox.querySelector("cite");
+  if (!cite) return;
+  button.addEventListener("click", () => {
+    navigator.clipboard.writeText(cite.innerText);
+  });
+}
+
+setupCitationButton();
