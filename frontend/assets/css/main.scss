@@ -580,6 +580,7 @@ ul.social_media_block {
   }
 
   &.columns {
+    column-gap: 1em;
     margin: 0;
   }
 
@@ -588,6 +589,9 @@ ul.social_media_block {
       border: 1px solid lighten($dark, 70%);
       padding: 0;
     }
+
+    // TODO: temp fix. check behaviour on small screens
+    margin-bottom: 0 !important;
   }
 
   .select {
@@ -610,5 +614,4 @@ ul.social_media_block {
   background: url(/assets/img/icons/font-awesome/copy.svg) top right no-repeat;
   background-origin: content-box;
   background-size: 20px;
-
 }
