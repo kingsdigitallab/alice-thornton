@@ -7,7 +7,7 @@ isContentHTML: true
 ---
 
 <ul>
-  {%- for tag in collections.postsTags %}
-    <li><a href="{{tag}}/">{{ tag }}</a></li>
-  {% endfor -%}
+  {% for postsTag in collections.postsTags %}
+    <li><a href="{{ postsTag.name }}/">{{ postsTag.name }} ({{ postsTag.count }})</a></li>
+  {% endfor %}
 </ul>

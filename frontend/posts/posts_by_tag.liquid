@@ -6,13 +6,13 @@ override:tags: []
 pagination:
   data: collections.postsTags
   size: 1
-  alias: tag
-permalink: "posts/tags/{{ tag }}/index.html"
+  alias: postsTag
+permalink: "posts/tags/{{ postsTag.name }}/index.html"
 eleventyComputed:
-  title: "Posts tagged with '{{tag}}'"
+  title: "Posts tagged with '{{ postsTag.name }}'"
 ---
 
-{% assign posts = collections.postsLive | lookup:".data.tags",tag %}
+{% assign posts = collections.postsLive | lookup:".data.tags",postsTag.name %}
 
 {% for post in posts %}
   {% include "post_summary.liquid" %}

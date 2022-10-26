@@ -3,6 +3,7 @@ const utils = require("./_includes/js/utils.js");
 const inspect = require("util").inspect;
 const path = require("node:path");
 const debug = require("debug")("Eleventy:KDL");
+const metadata = require("./_data/metadata.json");
 const stripHtml = require("string-strip-html");
 
 module.exports = function (config) {
@@ -19,26 +20,39 @@ module.exports = function (config) {
   config.addPassthroughCopy("assets/img");
   config.addPassthroughCopy("assets/js");
 
-  // all non-draft posts, in reverse chronological order
-  config.addCollection("postsLive", function (collectionApi) {
+  let postCategoryNames = metadata.postCategories.map((c) => c.tag);
+  postCategoryNames.push("posts");
+
+  function getLivePosts(collectionApi) {
     return collectionApi
       .getFilteredByTag("posts")
       .reverse()
       .filter((post) => {
         return post?.data?.status != "draft";
       });
+  }
+
+  // all non-draft posts, in reverse chronological order
+  config.addCollection("postsLive", function (collectionApi) {
+    return getLivePosts(collectionApi);
   });
 
   // all tags applied to posts
   config.addCollection("postsTags", function (collectionApi) {
     let ret = {};
     // TODO: exclude blog, news & posts
-    collectionApi.getFilteredByTag("posts").map((post) => {
+    getLivePosts(collectionApi).map((post) => {
       for (let tag of post.data.tags) {
-        ret[tag] = 1;
+        if (!postCategoryNames.includes(tag)) {
+          ret[tag] = ret[tag] || { name: tag, count: 0 };
+          ret[tag].count++;
+        }
       }
     });
-    return Object.keys(ret).sort();
+    ret = Object.values(ret).sort((a, b) =>
+      a.name < b.name ? -1 : a.name == b.name ? 0 : 1
+    );
+    return ret;
   });
 
   // just copy the admin folder as is to the static site _site
