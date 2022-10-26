@@ -27,6 +27,21 @@ $light: #cdcac7;
 
 $link: #0b4d99;
 
+// Panel customisation (see Text Viewer)
+// Bulma's docs: https://bulma.io/documentation/components/panel/
+
+$panel-heading-background-color: $white;
+$panel-heading-size: 1em;
+// $panel-item-border: 1px solid $primary;
+$panel-radius: 0;
+$panel-shadow: 0;
+
+// Box customisation (see citations)
+// Bulma's docs: https://bulma.io/documentation/elements/box/
+
+$box-radius: 0;
+$box-shadow: 0;
+
 @import "../node_modules/bulma/bulma.sass";
 
 .is-primary {
@@ -535,9 +550,22 @@ ul.social_media_block {
 
 // text-viewer (GN)
 .text-viewer {
+  padding-bottom: 1rem;
+
   .panel-controls {
-    border-bottom: 1px solid gray;
-    background-color: beige;
+    border-bottom: 1px solid lighten($dark, 70%);
+    background-color: rgba(lighten($primary, 10%), 0.1);
+    line-height: 2.4;
+  }
+
+  .panel-heading {
+    .select {
+      margin-left: 0;
+    }
+  }
+
+  .panel-selector {
+    display: inline-block;
   }
 
   // GN TODO: ugly! we should be using Bulma's .buttons & .is-right instead.
@@ -545,9 +573,24 @@ ul.social_media_block {
   .button-bar {
     float: right;
     padding-bottom: 0.5em;
-    margin-top: -0.5em;
+    // margin-top: -0.5em;
     .button {
       margin-left: 0.5em;
     }
+  }
+
+  &.columns {
+    margin: 0;
+  }
+
+  .panel {
+    &.column {
+      border: 1px solid lighten($dark, 70%);
+      padding: 0;
+    }
+  }
+
+  .select {
+    margin: 0 0.5rem;
   }
 }
