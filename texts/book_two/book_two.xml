@@ -90,11 +90,20 @@
       - most people names are now tagged in all four books 
       - nearly all tagged <persName> are linked to people masterlist db 
       - (additional bk2/3 people bios in progress)
-      TODO
+      not yet done
       - at least half of people tagged with <rs> (type=person/group) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
       - completion of people.xml standoff to include relationships - to be done once bios have been completed
       
       2022-07-20. *not* added mnote xml:ids to this book as there is no tagging that requires it. ok, there's one!
+      
+      
+      TODO
+      
+      need to check tagging of blank pages for consistency
+      - here I seem to have done <space> per page and in other books pretty sure I've grouped them.
+      haven't even done them consistently within this book ffs.
+      but wait. some blank pages are numbered and some are not.
+      
           -->
          
          <!--  LINKAGE 
@@ -9099,13 +9108,14 @@
          
             <seg rend="underline place(centre)"><date when-custom="1661">1661</date></seg>
          </head>
-          
-         <p xml:id="p-0699">We had a great Preservation from the house beeing<lb/>
+         <p xml:id="p-0699">
+       <milestone unit="event"/>
+            We had a great Preservation from the house beeing<lb/>
             Burned by fire in the night time <persName ref="ppl:aw3" n="per1120">my maide Nan<lb/>
             wellburne</persName> having carlesly stucke the Candle at her<lb/>
             Bed head &amp; fell a sleepe soe it fell downe on the Pillow<lb/>
             &amp; her head, &amp; burned her cloths &amp; beeing stifled by the<lb/>
-            smoke it pleased God she awaked &amp; put it out o Praise<lb/>
+            smoke it pleased God she awaked &amp; put it out<anchor/> o Praise<lb/>
             the Lord my god for this and all his delvrncs of us Amn.</p>
           
           </div>
@@ -9118,12 +9128,14 @@
 
          <!-- unpaginated: 222 -->
 
+      <!-- Q event markup head as event as there's no subsequent text, or ignore it? not sure it appears elsewhere? -->
        <div xml:id="div-042">
          <head rend="post(rule)">Uppon a great fright I had at <placeName ref="place:Oswa_041" n="place219">oswolkirke</placeName>.<lb/>
             beeing big with Child conserning a Bond. <date when-custom="1662">1662</date>.
          </head>
          
-         <p xml:id="p-0700">[The remainder of the page is blank]</p>
+         <space quantity="22" unit="line"/>
+         <!-- [The remainder of the page is blank] (ruled) -->
          
       <pb xml:id="page-225" n="225"/>
 
@@ -9133,7 +9145,8 @@
 
          <!-- unpaginated: 223 -->
 
-
+         <!-- Q space: why are these blank pages tagged separately? -->
+          
           <space quantity="1" unit="page" />
           <!-- ruled page -->
          
