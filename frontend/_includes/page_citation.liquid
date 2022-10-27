@@ -6,7 +6,10 @@ Q: no date for blog post?
 {% endcomment %}
 <div class="box box-citation">
   <p>Citing this web page:
-    <button>Copy</button>
+    <button class="button">
+      <img src="{{ '/assets/img/icons/font-awesome/copy.svg' | url }}" alt="Copy citation to cliboard">
+      <span>Copy</span>
+    </button>
   </p>
   <cite>
     {% include 'people_names.liquid', people: authors %}.
