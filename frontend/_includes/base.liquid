@@ -18,12 +18,13 @@ isContentHTML: false
     {% endcomment %}
     <meta property="og:image" content="{{ metadata.live_domain }}{{ pageImageWebPath }}">
     {% if description %}<meta name="og:description" content="{{ description }}">{% endif %}
-    <meta property="og:title" content="{{ title }}">
+    <meta property="og:title" content="{{ title | escape_once }}">
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@thornton_books" />
 
     {% include "zotero_meta.liquid", people: authors %}
+    <meta property="og:site_name" content="{{ metadata.siteTitle | escape_once }}" />
 
     <link rel="icon" href="{{ '/assets/img/logos/alice-thornton-logo-img.jpeg' | url }}" type="image/x-icon">
     <title>{{ pageShortTitle }} | {{ metadata.siteTitle }}</title>

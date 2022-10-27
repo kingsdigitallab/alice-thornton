@@ -2,3 +2,7 @@
 {%- for person in selected_people -%}
   <meta name="citation_author" content="{{ person.data.lastName }}, {{ person.data.firstName }}" />
 {%- endfor -%}
+{% if tags contains "posts" %}
+  <meta property="og:type" content="article" />
+  <meta property="article:modified_time" content="{{ date | date:"%Y-%m-%d" }}" />
+{% endif %}

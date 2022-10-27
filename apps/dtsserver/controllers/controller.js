@@ -7,7 +7,7 @@ const DOMParser = require("@xmldom/xmldom").DOMParser;
 const settings = require("../settings.js");
 const XPath = require("xpath");
 const collectionRoot = settings.localPath;
-// teu namespace
+// tei namespace
 const TEINS = "http://www.tei-c.org/ns/1.0";
 
 let idPrefix = settings.baseUri;
