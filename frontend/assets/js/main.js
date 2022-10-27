@@ -37,7 +37,7 @@ function setupCitationButton() {
   if (!cite) return;
   button.addEventListener("click", () => {
     navigator.clipboard.writeText(cite.innerText);
-    let span = button.querySelector("span");
+    let span = button.querySelector("span.button-text");
     if (span) span.innerHTML = "Copied";
   });
 }
