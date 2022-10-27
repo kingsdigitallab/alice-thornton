@@ -2,7 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Book Two</title>
+            <title>Book 2</title>
+            <title>The First Book of My Widowed Conditio</title>
             <author>Alice Wandesford Thornton</author>
             <respStmt>
                <resp>editing in progress... </resp>
@@ -21,7 +22,76 @@
             <p>unknown</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Converted from a Word document</p>
+            <msDesc>
+               <!-- teiHeader msDesc (manuscript description) contains a description of a single identifiable manuscript or other text-bearing object such as early printed books.
+             note: info for the moment taken from DCL online catalogue. their description of the book as a "diary"!!!
+             -->
+               <msIdentifier>
+                  <repository>Durham Cathedral Library</repository>
+                  <collection>Dean Comber Collection</collection>
+                  <idno>CCOM 7</idno>
+                  
+                  <altIdentifier>
+                     <idno>(CELM)</idno>
+                  </altIdentifier>
+                  <msName>...</msName>
+               </msIdentifier>
+               
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>  
+                        <extent>one volume ...</extent>
+                     </supportDesc>
+                     <!-- teiHeader msDesc layoutDesc collects the set of layout descriptions applicable to a manuscript or other object.
+                  layout describes how text is laid out on the page or surface of the object, including information about any ruling, pricking, or other evidence of page-preparation techniques. -->
+                     <layoutDesc>
+                        <layout>
+                           <p> 
+                              <locus>...</locus>
+                              <!-- teiHeader msDesc <locus> defines a location within a manuscript, manuscript part, or other object typically as a (possibly discontinuous) sequence of folio references.
+               -->
+                              
+                           </p>
+                        </layout>
+                        <layout>
+                           <p>
+                              <locus>...</locus>
+                           </p>
+                        </layout> 
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <!-- teiHeader msDesc <handDesc> (description of hands) contains a description of all the different hands used in a manuscript or other object. -->
+                     <handNote xml:id="awt" scribeRef="ppl:awt1">
+                        <!-- Q [tei] check this is correct use of scribeRef???
+                   not sure about this if awt is the assumed default and only #unknown (maybe #uncertain) is likely to be specified as a @hand??? 
+                   and (check with ST) possibly any #unknown should be omitted anyway... -->
+                        Alice Thornton's hand.
+                     </handNote>
+                     <handNote xml:id="unknown">
+                        not Alice's hand.
+                        <!-- NOTE might need enumeration if you do use it... -->
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc>
+                     <!-- teiHeader msDesc <decoDesc> (decoration description) contains a description of the decoration of a manuscript or other object, either as in paragraphs, or as one or more decoNote elements. -->
+                     <decoNote> ... </decoNote>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>...</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>...</origin>  
+               </history>    
+               
+            </msDesc>  
          </sourceDesc>
       </fileDesc>
       
