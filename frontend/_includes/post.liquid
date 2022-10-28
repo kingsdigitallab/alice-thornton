@@ -2,7 +2,8 @@
 layout: base.liquid
 eleventyComputed:
   pageImageWebPath: "{{ feature }}"
-  description: "{{ categories }} article - {{ date | date:metadata.date_format }}"
+  buggy11ty: "{{ postCategory }}"
+  description: "{{ postCategory.label }} article - {{ date | date:metadata.date_format }}"
 ---
 
 {% include "post_meta.liquid", post: context %}

@@ -27,6 +27,6 @@ isContentHTML: true
 </div>
 {% endraw %}
 
-<script src="https://unpkg.com/vue@3"></script>
+<script src="/assets/node_modules/vue/dist/vue.global.js"></script>
 <script src="/assets/js/dtsutils.js?ts={{ "now" | date: "%s" }}"></script>
 <script src="/assets/js/text-viewer.js?ts={{ "now" | date: "%s" }}"></script>

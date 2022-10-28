@@ -15,14 +15,18 @@ module.exports = function (config) {
 
   // just copy the assets folder as is to the static site _site
   // config.addPassthroughCopy("**/*.css");
+  // TODO: check assets/css ?
   config.addPassthroughCopy("assets/node_modules");
   config.addPassthroughCopy("assets/fonts");
   config.addPassthroughCopy("assets/img");
   config.addPassthroughCopy("assets/js");
 
-  let postCategoryNames = metadata.postCategories.map((c) => c.tag);
-  postCategoryNames.push("posts");
+  let postsCategoriesTags = metadata.postsCategories.map((c) => c.tag);
+  config.addCollection("postsCategoriesTags", function (collectionApi) {
+    return postsCategoriesTags;
+  });
 
+  // all non-draft posts, in reverse chronological order
   function getLivePosts(collectionApi) {
     return collectionApi
       .getFilteredByTag("posts")
@@ -40,10 +44,9 @@ module.exports = function (config) {
   // all tags applied to posts
   config.addCollection("postsTags", function (collectionApi) {
     let ret = {};
-    // TODO: exclude blog, news & posts
     getLivePosts(collectionApi).map((post) => {
       for (let tag of post.data.tags) {
-        if (!postCategoryNames.includes(tag)) {
+        if (!postsCategoriesTags.includes(tag)) {
           ret[tag] = ret[tag] || { name: tag, count: 0 };
           ret[tag].count++;
         }
