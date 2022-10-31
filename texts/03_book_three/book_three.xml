@@ -2,7 +2,8 @@
    <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Book Three</title>
+          <title>Book 3</title>
+          <title type="subtitle">The Second Book of My Widowed Condition</title>
           <author>Alice Wandesford Thornton</author>
           <respStmt>
             <resp>editing in progress... </resp>
@@ -21,9 +22,40 @@
          <publicationStmt>
             <p>unknown</p>
          </publicationStmt>
-         <sourceDesc>
-            <p>Converted from a Word document</p>
-         </sourceDesc>
+        
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <repository>British Library</repository>
+              <collection>Additional Manuscripts</collection>
+              <idno>88897/2</idno>
+              <altIdentifier>
+                <idno>(CELM)</idno>
+              </altIdentifier>
+              <msName>...</msName>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>...</p>
+              </objectDesc>
+              
+              <handDesc>
+                <!-- teiHeader msDesc <handDesc> (description of hands) contains a description of all the different hands used in a manuscript or other object. -->
+                <handNote xml:id="awt" scribeRef="ppl:awt1">
+                  <!-- Q [tei] check this is correct use of scribeRef??? -->
+                  Alice Thornton's hand.
+                </handNote>
+                <handNote xml:id="unknown">
+                  ...
+                </handNote>
+              </handDesc>
+              
+              <decoDesc>
+                <p>...</p>
+              </decoDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
       </fileDesc>
      <profileDesc>
        <calendarDesc>

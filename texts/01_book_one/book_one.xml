@@ -2,7 +2,8 @@
   <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>First Book of My Life</title>
+                <title>Book 1</title>
+                <title type="subtitle">The First Book of My Life</title>
                 <author>Alice Wandesford Thornton</author>
                 <respStmt>
                     <resp>editing in progress... </resp>
@@ -23,9 +24,9 @@
             <sourceDesc>
                <msDesc>
                    <msIdentifier>
-                       <repository>BL</repository>
-                       <collection>...</collection>
-                       <idno>...</idno>
+                       <repository>British Library</repository>
+                       <collection>Additional Manuscripts</collection>
+                       <idno>88897/1</idno>
                        <altIdentifier>
                            <idno>(CELM)</idno>
                        </altIdentifier>
@@ -657,18 +658,25 @@
                  Power, in the Creation of the Heavens, the Earth, &amp; all<lb/>
                  the Hosts of them. I was moved to this meditation<lb/>
                  upon the reading of the dailie Psalmes for the months<lb/>
-                 happening that day to be Psal. 147:
-                <!-- Q [teams] [review] transcriber query (bib conventions). check in autumn review --> v. 4<hi rend="superscript">th</hi>
+                happening that day to be <ref source="#CHECK_Psalms_147:4">Psal. 147: v. 4<hi rend="superscript">th</hi></ref>
             </p>
                 <anchor n="ev5" type="event"/>
-        <!-- NOTE [bib] biblical example <quote> tag using @source attribute for bible citation. (because @source is used here it's not necessary to mark up "Psal. 147" in text, but could use <ref>)
-            @source format maybe: Bookname_chapnum / Bookname_chapnum_versenum. use hyphens, commas if a list. (spaces are allowed)
+        <!-- 
+            NOTE [bib] biblical example <quote>/<ref> tags using @source attribute for bible citation.
+            the example will need checking against final decision.
+            see Teams docs for details.
+            
+            @source format: Version_Bookname_chapnum:versenum. use hyphens, commas if a list. 
+            (spaces are allowed between references as long as #)
+            
             @type - might have started list of quote types (direct, paraphrase etc) in teams doc.
-      feels like this needs *two* types: 
-        direct = type of quote; biblical = bibliographical type. 
-        type and subtype seems wrong, because they're not hierarchical.
-        If the only thing we use <quote> for is biblical it's not a problem...
-      lol it's not just me
+      feels like this actually needs *two* types: 
+        direct, paraphrase etc = type of quote; 
+        biblical = bibliographical type. 
+        type and subtype seems wrong, because it's not a hierarchy.
+        **If we only use <quote> for biblical it's not a problem... and @source also = identifier so maybe not an issue.**
+        
+      lol it's not just me though
       https://listserv.brown.edu/cgi-bin/wa?A2=TEI-L;3bb8e06f.2208
       https://listserv.brown.edu/cgi-bin/wa?A2=TEI-L;243f44a4.2208
       maybe @ana ? 
@@ -681,7 +689,7 @@ using a prefixDef element to provide a method of resolving the URIs to
 point to <category> elements or to feature structure components.
 
         -->
-            <p xml:id="p-0024"><quote type="direct" source="#Psalms_147">He counteth the starres &amp; calleth them all by theire<lb/>
+            <p xml:id="p-0024"><quote type="direct" source="#CHECK_Psalms_147:4">He counteth the starres &amp; calleth them all by theire<lb/>
                  Names.</quote>
                  <milestone unit="marker" rend="delim(diagonal)" xml:id="ex-milestone-slash-within-para"/> From whence there came into my heart<lb/>
                  a forceable consideration, of the Incomprehencable<lb/>
@@ -763,7 +771,7 @@ point to <category> elements or to feature structure components.
                  there a yeare before, &amp; <persName ref="ppl:gw1" n="per27">my Eldest brother George</persName><anchor n="ev7" type="event"/><lb/>
                 <milestone n="ev8" unit="event"/><!-- NOTE event education in ireland -->
                  In which place I injoyed great happienesse and<lb/>
-                Comfort dureing <rs ref="ppl:cw1" n="per28" type="person">my hon.<hi rend="superscript">red</hi> father</rs>s life haveing the <lb/>
+                Comfort dureing <rs ref="ppl:cw1" n="per28" type="person">my hon.<am rend="superscript">red</am> father</rs>s life haveing the <lb/>
                  fortunate oppertunity in that time, &amp; affter, when<lb/>
                  I staied there, of the best education that Kingdome<lb/>
                  could afford. have<add place="above">ing</add> the advantage of Societie in the<lb/>
@@ -794,7 +802,7 @@ point to <category> elements or to feature structure components.
             
             Teachings. Reproofes, &amp; Godly Education, tending to <lb/>
                  the wellfaire, &amp; Etternall happinesse, &amp; salvation<lb/>
-                of my poore Soule. Which I receaved from both <rs ref="ppl:cw1" n="per35" type="person">my Hon.<hi rend="superscript">rd</hi><lb/>
+                of my poore Soule. Which I receaved from both <rs ref="ppl:cw1" n="per35" type="person">my Hon.<am rend="superscript">rd</am><lb/>
                  Father</rs> &amp; <rs ref="ppl:aow1" n="per36" type="person">Mother</rs>. with the Examples of theire Chast<lb/>
                  and sober, wise &amp; Prudent Conversations in all <lb/>
                  things of this World. for which things, and infinit<lb break="no"/>
@@ -805,9 +813,9 @@ point to <category> elements or to feature structure components.
                  God of Heaven, &amp; Earth, from whence comes ev<add place="above">e</add>ry<lb/>
                  good &amp; perfect guift, who is the Author, &amp; finisher<lb/>
                 of our faith, that he has put such good things into <rs ref="ppl:cw1 ppl:aow1" n="per37" type="person">my<lb/>
-                    Hon.<hi rend="superscript">red</hi> Parents</rs> hearts to bring us up in the feare of<lb/>
+                    Hon.<am rend="superscript">red</am> Parents</rs> hearts to bring us up in the feare of<lb/>
                  the Lord. Next I humbly acknowledge, my faithful<lb/>
-                thankes &amp; gratitude to <rs ref="ppl:cw1 ppl:aow1" n="per38" type="person">my deare &amp; Hon.<hi rend="superscript">red</hi> Parents</rs><lb/>
+                thankes &amp; gratitude to <rs ref="ppl:cw1 ppl:aow1" n="per38" type="person">my deare &amp; Hon.<am rend="superscript">red</am> Parents</rs><lb/>
                  for theire love, caire, affection &amp; sedulity over<lb/>
                  me from my birth till this present, &amp; for theire<lb/>
                  good performances towards my education in all<lb/>
@@ -883,8 +891,10 @@ point to <category> elements or to feature structure components.
             <milestone n="ev11" unit="event"/><!-- NOTE event from ireland to bristol -->
             <p xml:id="p-0035">Having come over into <placeName ref="place:Engl_094" n="place14">England</placeName>, when my Mother<lb/>
                  came for her cure of the dissease of the Stone to <placeName ref="place:StVi_051" n="place-supp2">the Bat-<add place="above">hes</add></placeName><lb/>
-                 &amp; <placeName ref="place:Bris_004" n="place15">Bristoll water</placeName><!-- Q [place] tagged this as Bristol instead of "Bristoll water"; check? -->, <placeName ref="place:StVi_051" n="place16">St Vincents well</placeName><anchor n="ev11" type="event"/>; (uppon which Rose<lb/>
-                 hanging over it, is got your <placeName ref="place:Bris_004" n="place-supp3">Bristow</placeName> Diamonds.) <milestone n="ev12" unit="event"/>in<lb/><!-- NOTE event return to ireland - storm -->
+                 &amp; <placeName ref="place:Bris_004" n="place15">Bristoll water</placeName><!-- Q [place] tagged this as Bristol instead of "Bristoll water"; check? -->, <placeName ref="place:StVi_051" n="place16">St Vincents well</placeName>; (uppon which Rose<lb/>
+                 hanging over it, is got your <placeName ref="place:Bris_004" n="place-supp3">Bristow</placeName> Diamonds.)<anchor n="ev11" type="event"/> 
+                <!-- NOTE event return to ireland - storm -->
+                <milestone n="ev12" unit="event"/>in<lb/>
                  her returne backe into <placeName ref="place:Irel_096" n="place17">Ireland</placeName>, she carried <persName ref="ppl:kwd1" n="per44">my<lb/>
                      Sister Danbie</persName>s <rs ref="ppl:td4 ppl:cd4" n="per45" type="person">2 Elldest sons</rs><!-- NOTE people = christopher and thomas -->. for theire better<lb/>
                  education, When we came to <placeName ref="place:Nest_040" n="place18">Nesston</placeName>. at the Sea<lb/>
@@ -948,7 +958,7 @@ point to <category> elements or to feature structure components.
             
              To carrie us home to <placeName ref="place:Dubl_088" n="place22">Dublin</placeName> where <rs ref="ppl:aow1" n="per51" type="person">my deare Mother</rs><lb/>
                  was receaved with all Joy &amp; gladnesse. liveing in <lb/>
-                much peace &amp; happinesse till the death of <rs ref="ppl:cw1" n="per52" type="person">my Hon.<hi rend="superscript">red</hi><lb/>
+                much peace &amp; happinesse till the death of <rs ref="ppl:cw1" n="per52" type="person">my Hon.<am rend="superscript">red</am><lb/>
                      Father</rs>.<anchor n="ev12" type="event"/> 
                 <milestone n="ev13" unit="event"/>When about <date when-custom="1641-12">a yeare affter his death</date>. she <lb/>
                  was forced to flie into <placeName ref="place:Engl_094" n="place23">England</placeName>, uppon the Rebellion<lb/>
@@ -979,7 +989,7 @@ point to <category> elements or to feature structure components.
                 <!-- NOTE [decoration] another unusual title - full width rule underneath first line of title. team decision: ignore these. deleted. -->
                  affter our dangerous passage by Sea:<lb/>
                 <date when-custom="1639-08-23">August the 23<hi rend="superscript">d</hi> 1639</date>. into <placeName ref="place:Irel_096" n="place25">Ireland</placeName>.<lb/>
-                 Psallme 107. 1<hi rend="superscript">st</hi> v. <!-- Her the 'v' is not a roman 5 but an abbreviation for verse -->
+                 <ref>Psallme 107. 1<hi rend="superscript">st</hi> v.</ref> <!-- NOTE Her the 'v' is not a roman 5 but an abbreviation for verse -->
             </head>
 
                 <pb xml:id="page-018" n="18"/>
@@ -1073,7 +1083,7 @@ point to <category> elements or to feature structure components.
             <note xml:id="mnote-0002" place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right" resp="#awt1">
                 <milestone n="ev15" unit="event"/>
             <!-- Q [review] unaltered abbrev forms Ld, wth, ye. -->
-                <p xml:id="p-0041"><persName ref="ppl:tw1" n="per56">My L.<hi rend="superscript">d</hi> Straford</persName> tooke Ship for <placeName ref="place:Engl_094" n="place422">England</placeName> w:<hi rend="superscript">th</hi> <persName ref="ppl:ww3" n="per57">my Lord Raby</persName> his son<lb/>
+                <p xml:id="p-0041"><persName ref="ppl:tw1" n="per56">My L.<am rend="superscript">d</am> Straford</persName> tooke Ship for <placeName ref="place:Engl_094" n="place422">England</placeName> w:<am rend="superscript">th</am> <persName ref="ppl:ww3" n="per57">my Lord Raby</persName> his son<lb/>
                 on <date when-custom="1640-04-03">good friday y<hi rend="superscript">e</hi> yeare. 1640</date>. gaue <rs type="person">my father</rs> the Sword then.</p>
                 <anchor n="ev15" type="event"/>
             </note>
@@ -1150,7 +1160,7 @@ point to <category> elements or to feature structure components.
                  -joyed 7 yeares of peace &amp; Plenty. All his<lb/>
                  endeavours ever tending for theire good, the<lb/>
                  True Establishment of His King, &amp; Religion<lb/>
-                 The Hon.<hi rend="superscript">or</hi> peace &amp; wellfaire of the English Nation<lb/>
+                 The Hon.<am rend="superscript">or</am> peace &amp; wellfaire of the English Nation<lb/>
                  And the due ordering of that Barbarous People<lb/>
                  &amp; theire Civilizeng them to our good Lawes &amp;<lb/>
                  government. but this was against all theire<lb/>
@@ -1317,7 +1327,7 @@ point to <category> elements or to feature structure components.
         
           <head place="centre" rend="pre(rule) post(rule_double)">
                
-                A Relation conserning my Hon.<hi rend="superscript">red</hi> father. <persName ref="ppl:cw1" n="per82">the <lb/>
+                A Relation conserning my Hon.<am rend="superscript">red</am> father. <persName ref="ppl:cw1" n="per82">the <lb/>
                  Lord Deputy Wandesforde</persName>, &amp; of his<lb/>
               Death. <date type="death" when-custom="1640-12-03">Decem<ex>ber</ex> 3<hi rend="superscript">d</hi> 1640</date>.<!-- Q [contraction][review] there is a contraction mark above "m" in Decem. which is not transcrbed - intentional? -->
             
@@ -1435,7 +1445,7 @@ point to <category> elements or to feature structure components.
                <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
                 <!-- Also, there's a double line above 'Acct' -->
         <note xml:id="mnote-0003" resp="#awt1" place="left margin" rend="pre(rule_double)">
-            Acc<hi rend="superscript">.t</hi> of<lb/>
+            Acc<am rend="superscript">.t</am> of<lb/>
              <rs type="person">the Lord<lb/>
              Deputy</rs><lb/>
              Death
@@ -1537,7 +1547,7 @@ point to <category> elements or to feature structure components.
                  diligent in the service of God, obedient to his comm-<add place="above">andent</add><lb/>
                  obedeint, &amp; dutifull, to <rs ref="ppl:aow1" n="per104" type="person">his deare mother</rs>. who had<lb/>
                  bin a faithfull, tender, loving wife to him &amp; <rs type="group">his<lb/>
-                 Children</rs>, he commanded him to love; Hon.<hi rend="superscript">or</hi> obey her<lb/>
+                 Children</rs>, he commanded him to love; Hon.<am rend="superscript">or</am> obey her<lb/>
                  in all things, all his daies, due to her for her wisdome<lb/>
                  &amp; vertue. &amp; doeing this God would blesse him the beter<lb/>
                  charged him to suffer his will to be performed, which<lb/>
@@ -1666,7 +1676,7 @@ point to <category> elements or to feature structure components.
             <fw type="pageNum"> 37</fw>
           <!-- NOTE [event] new (restart ev22) -->
           <milestone n="ev24" unit="event"/>
-            <p xml:id="p-0089">The Corpes of <rs ref="ppl:cw1" n="per113" type="person">my Hon.<hi rend="superscript">red</hi> Father</rs> was carried from<lb/>
+            <p xml:id="p-0089">The Corpes of <rs ref="ppl:cw1" n="per113" type="person">my Hon.<am rend="superscript">red</am> Father</rs> was carried from<lb/>
                  the <placeName ref="place:Dubl_089" n="place46">Castle of Dublin</placeName> in a Stately manner. according<lb/>
                  to his Dignitie &amp; Place, beeing interred in the<lb/>
                  cheife Church. <placeName ref="place:Chri_086" n="place47">Christs Church</placeName> under a faire<lb/>
@@ -1684,7 +1694,7 @@ point to <category> elements or to feature structure components.
           <anchor n="ev24" type="event"/>
           <!-- NOTE [event] new split funeral/debts -->
           <milestone n="ev25" unit="event"/>
-            <p xml:id="p-0091">His funeralls charges, did amount to above 1300<hi rend="superscript">l</hi><lb/>
+            <p xml:id="p-0091">His funeralls charges, did amount to above 1300<am rend="superscript">l</am><lb/>
                  dieing in that capacitie of a Deputy. which soe in-<lb break="no"/>
                  -creased the Debts upon his Estate. as proved very<lb/>
                  heavy. in the times of trouble succeeding: <rs type="person">the King</rs><lb/>
@@ -1696,7 +1706,7 @@ point to <category> elements or to feature structure components.
                  seising uppon the Kings Treasury &amp; power. these <lb/>
                  charges fell Sad uppon all <rs ref="ppl:cw1" n="per119" type="person">my Father</rs>s Estate, &amp; <rs type="group">his<lb/>
                  Children</rs>. beeing charged for the wardship by the Parliament<lb/>
-                 with the Summe of 2500<hi rend="superscript">l</hi> <milestone unit="marker" rend="delim(tbd-:/:)"/> which never came to <rs ref="ppl:cs1" n="per120" type="person">the King</rs>.</p>
+                 with the Summe of 2500<am rend="superscript">l</am> <milestone unit="marker" rend="delim(tbd-:/:)"/> which never came to <rs ref="ppl:cs1" n="per120" type="person">the King</rs>.</p>
                 
           <anchor n="ev25" type="event"/>
             <pb xml:id="page-038" n="38"/>
@@ -1719,7 +1729,7 @@ point to <category> elements or to feature structure components.
                 -->    
                     
                 Meditations &amp; Praier uppon the Death of my<lb/>
-                 Hon.<hi rend="superscript">red</hi> Father <persName ref="ppl:cw1" n="per122">the Lord Deputie Wandesforde</persName>.</head>
+                 Hon.<am rend="superscript">red</am> Father <persName ref="ppl:cw1" n="per122">the Lord Deputie Wandesforde</persName>.</head>
             <p xml:id="p-0093">
                 <!-- NOTE [margin] tagged fw - biblical reference 
                      NB *not* attempting to associate the reference with the quotation as we'll tag that using <quote> @source   -->
@@ -2019,7 +2029,7 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0121">Therefore I hope in that God of peace, whoes servant<lb/>
                  he was, that he now allso rests, himselfe in his Dea<add place="above">th</add><lb/>
                  He shall enter into peace: They shall rest in theire<lb/>
-                Beds. Theire Grave shall be a bed of hon.<hi rend="superscript">or</hi>, to him<lb/>
+                Beds. Theire Grave shall be a bed of hon.<am rend="superscript">or</am>, to him<lb/>
                  it is so. blessed with a good fame, &amp; name, which is like<lb/>
                  the Savour of sweete, &amp; Precious Oyntment, as Solom<add place="above">on</add><lb/>
                  the wise saith, he serving the Lord heere a few daies is<lb/>
@@ -2821,7 +2831,7 @@ point to <category> elements or to feature structure components.
                  wall before he could make an Escape to acquaint the<lb/>
                  Lord Justices. But <rs ref="ppl:tbd-macmahon" n="per168" type="person">this man</rs> had allso the River to Swim <lb/>
                  att that time of night which was 12 a clocke before he came<lb/>
-                 to the first Justice which was <persName ref="ppl:wp1" n="per169">Sir Will.<hi rend="superscript">m</hi> Persons</persName>.</p>
+                 to the first Justice which was <persName ref="ppl:wp1" n="per169">Sir Will.<am rend="superscript">m</am> Persons</persName>.</p>
             <p xml:id="p-0169">Rising come to the Gate he was forced to threaten hard<lb/>
                  before he was admitted. &amp; then he tould him. <rs type="person">My Lord</rs><lb/>
                  I am sent to you by the Providence of God. to save your<lb/>
@@ -2880,7 +2890,7 @@ point to <category> elements or to feature structure components.
                  &amp; <persName ref="ppl:cd4" n="per176">kitt</persName> <rs type="person">my sister</rs>s two elldest sons. &amp; my selfe.<lb/>
                  In providing a Ship to transport us all together<lb/>
                  with her good Plate, &amp; houshold stuffe in <placeName ref="place:Dubl_088" n="place73">Dublin</placeName>. which<lb/>
-                 she affterwards delivered to <persName ref="ppl:ww1" n="per177">my uncle Will.<hi rend="superscript" xml:id="ex-hi-sup-tbd-01">m</hi> Wandes<ex xml:id="ex-ex-contraction-line-above-01">forde</ex></persName><lb/>
+                 she affterwards delivered to <persName ref="ppl:ww1" n="per177">my uncle Will.<am rend="superscript" xml:id="ex-hi-sup-tbd-01">m</am> Wandes<ex xml:id="ex-ex-contraction-line-above-01">forde</ex></persName><lb/>
                  affter she came to <placeName ref="place:Ches_012" n="place-supp26">weschester</placeName>. But it pleased God to<lb/>
                  give us all a safe &amp; quiett passage out of <placeName ref="place:Irel_096" n="place74">Ireland</placeName><lb/>
             
@@ -3045,7 +3055,7 @@ point to <category> elements or to feature structure components.
                     </note>
                 <lb/>
                  But the warres falling out hott att that time, beeing wee<lb/>
-                 were beleagured in <placeName ref="place:Ches_012" n="place87">Chester</placeName> by <persName ref="ppl:wb1" n="per193">Sir Will.<hi rend="superscript">m</hi> Brewerton</persName>s<lb/>
+                 were beleagured in <placeName ref="place:Ches_012" n="place87">Chester</placeName> by <persName ref="ppl:wb1" n="per193">Sir Will.<am rend="superscript">m</am> Brewerton</persName>s<lb/>
                  forces for the Parliament <add place="above">&amp;</add> there happened a strainge<lb/>
                  accident which raised that Seige <date when-custom="1643-07-19">July. 19<hi rend="superscript">th</hi> 1643</date>.<lb/> 
                 As I was informed; there was 3 granadoes shott in<lb/>
@@ -3099,7 +3109,7 @@ point to <category> elements or to feature structure components.
             <milestone n="ev34" unit="event"/><!-- NOTE event chester, smallpox -->
             <p xml:id="p-0186">Allso <persName ref="ppl:jw1" n="per196">my Brother John Wandesforde</persName>, was preserved<lb/>
                  from death in the smale Pox. he haveing taken them of one<lb/>
-                 of <persName ref="ppl:ww2" n="per197">my cosen Waill.<hi rend="superscript">m</hi> Wandesford</persName>s sonns liveing then at <lb/>
+                 of <persName ref="ppl:ww2" n="per197">my cosen Waill.<am rend="superscript">m</am> Wandesford</persName>s sonns liveing then at <lb/>
                  <placeName ref="place:Ches_012" n="place89">Chester</placeName>. Great was <rs ref="ppl:aow1" n="per198" type="person">my Mother</rs>s feare for him, &amp; caire<lb/>
                  &amp; paines she tooke about him. and at last hee through<lb/>
                  mercy was recovered. Although he was very much dis-<lb break="no"/>
@@ -3829,7 +3839,7 @@ point to <category> elements or to feature structure components.
                 Tormented, us gitting all our provissions of meate and drink<lb/>
           <add place="left margin">,</add> lett us want all nesscessaries, yet there dominiereing &amp; in <lb/>
                  sulting voluptuousnesse must be suplied, &amp; <rs ref="ppl:aow1" n="per285" type="person">my mother</rs><lb/>
-                 was charged for 18 or 20 months together with 25<hi rend="superscript">l</hi> a mont<add place="above">h</add><lb/>
+                 was charged for 18 or 20 months together with 25<am rend="superscript">l</am> a mont<add place="above">h</add><lb/>
                  in monnys to the Soldiers, besides the quarting of a troope<lb/>
                  of Scotts on free quarter, which was trible the valeue of<lb/>
                  her Estate. &amp; at that time she borrowed monnyes to<lb/> 
@@ -4390,7 +4400,7 @@ point to <category> elements or to feature structure components.
                  Loyallty, to his God &amp; Prince; this Privilege of the dis<lb/>
                  posing of (this) with the injoyment of his owne Estate was<lb/>
                  sufficiently forfited. upon the poynt thus much was<lb/>
-                 confesst by <persName ref="ppl:pn1" n="per354">Mr Nessbitt</persName> to <persName ref="ppl:ww1" n="per355">my uncle will.<hi rend="superscript">m</hi> wandesf<lb break="no"/>
+                 confesst by <persName ref="ppl:pn1" n="per354">Mr Nessbitt</persName> to <persName ref="ppl:ww1" n="per355">my uncle will.<am rend="superscript">m</am> wandesf<lb break="no"/>
                  -ord</persName> affter <rs ref="ppl:gw1" n="per356" type="person">my brother</rs>s death, beeing the cause why<lb/>
                  he was sequestired.</p>
             <p xml:id="p-0254">In this condittion was <rs ref="ppl:gw1" n="per357" type="person">my deare brother</rs> amongst many<lb/>
@@ -4513,11 +4523,11 @@ point to <category> elements or to feature structure components.
                  was fairely desgined for Ruine, through the desperate malice<lb/>
                  of our unjust adversary, whoe did worry the Lion for his<lb/>
                  Skin. There happened a propossittion of Marriage, made<lb/>
-                 betweene <persName ref="ppl:ww1" n="per377">my uncle will.<hi rend="superscript">m</hi> wandesforde</persName>, who was then en-<lb break="no"/>
+                 betweene <persName ref="ppl:ww1" n="per377">my uncle will.<am rend="superscript">m</am> wandesforde</persName>, who was then en-<lb break="no"/>
                 -devouring to gett of <rs ref="ppl:gw1" n="per378" type="person">my brother</rs>s sequestration, with <persName ref="ppl:rd1" n="per379">my Cosen<lb/>
                  Richard Darley</persName>, for to be had betwixt <rs ref="ppl:wt1" n="per380" type="person">A nephew</rs> of my<lb/>
                  Cosens &amp; my selfe. which motion of <persName ref="ppl:rd1" n="per381">Mr Darley</persName>s was att that<lb/>
-                 time relished by <persName ref="ppl:ww1" n="per382">my Uncle Will.<hi rend="superscript">m</hi></persName> &amp; thought to be the only<lb/>
+                 time relished by <persName ref="ppl:ww1" n="per382">my Uncle Will.<am rend="superscript">m</am></persName> &amp; thought to be the only<lb/>
                  expedient to secure <rs ref="ppl:cw1" n="per383" type="person">my Father</rs>s Estate &amp; accepted by<lb/>
                  him through whoes scolicitation at first, (though he de-<lb break="no"/>
                  -serted it affterwards). that affter some time, it came to<lb/>
@@ -4580,7 +4590,7 @@ point to <category> elements or to feature structure components.
                  advice about writing to <placeName ref="place:Lond_080" n="place174">London</placeName> to <persName ref="ppl:rd1" n="per395">Mr Rich Darley</persName><lb/>
                  about that bussinesse. Affter his obeisance &amp; craving her<lb/>
                  blessing. tould her he was now goeing to <placeName ref="place:Rich_043" n="place175">Richmond</placeName>, to <persName ref="ppl:ww1" n="per396">my<lb/>
-                 Uncle Will.<hi rend="superscript">m</hi></persName> where he would write to <persName ref="ppl:rd1" n="per397">Mr Darley</persName>, desiring to<lb/>
+                 Uncle Will.<am rend="superscript">m</am></persName> where he would write to <persName ref="ppl:rd1" n="per397">Mr Darley</persName>, desiring to<lb/>
                  know what she pleased to command him further in it:</p>
             <p xml:id="p-0264"><rs ref="ppl:aow1" n="per398" type="person">My Mother</rs> said that her service &amp; thankes must be returned<lb/>
                  him for all his kindnesse in that bussi<ex>ness</ex> which she would have<lb/>
@@ -4600,7 +4610,7 @@ point to <category> elements or to feature structure components.
                  strongly till about halfe an houer. which was the very time<lb/>
                  of his drowning.</p>
             <p xml:id="p-0265">but to proceed to the circumstances of himselfe. he pittied me<lb/>
-                 much &amp; would have staied with me, but that <persName ref="ppl:ww1" n="per400">his uncle will.<hi rend="superscript">m</hi></persName><lb/>
+                 much &amp; would have staied with me, but that <persName ref="ppl:ww1" n="per400">his uncle will.<am rend="superscript">m</am></persName><lb/>
                  staied for him at <placeName ref="place:Rich_043" n="place176">Rich<ex>mond</ex></placeName> for letters that Post. And affter his<lb/>
                  walking, 3 or 4 turnes about the chamber in his studieng<lb/>
                  of his bussinesse, still my thoughts I saw a great deale of <lb/>
@@ -5086,7 +5096,8 @@ point to <category> elements or to feature structure components.
                 627.<lb/>
                 ----<lb/>
                  Edwino<lb/>
-                <hi rend="background(green)">Rege.</hi><!-- Q [review] why green highlight here? -->
+                Rege.
+                <!-- Q check image: either Rege should be underlined or a section post rule.  -->
             </note>
                  
             <l>Of Old-Paulinnus did at once Begin</l>
@@ -5144,9 +5155,9 @@ point to <category> elements or to feature structure components.
                  -ved from death &amp; Ruine. in <placeName ref="place:Irel_096" n="place190">Ireland</placeName>; at <placeName ref="place:Kirk_030" n="place191">Kirklington</placeName>; at<lb/>
                  <placeName ref="place:Ches_012" n="place192">Chester</placeName>, &amp; in all places; ever since <rs ref="ppl:cw1" n="per428" type="person">my Father</rs>s death; in<lb/>
                  all these sad times. in the opposition of freinds, the fall of the<lb/>
-                 Church &amp; state. when her Joynture in <placeName ref="place:Engl_094" n="place193">England</placeName> beeing <add place="above">but</add> 300<hi rend="superscript">l</hi><lb/>
+                 Church &amp; state. when her Joynture in <placeName ref="place:Engl_094" n="place193">England</placeName> beeing <add place="above">but</add> 300<am rend="superscript">l</am><lb/>
                 per An<ex>num</ex> at best, fell <gap reason="deleted" quantity="2" unit="char"/>
-                <add place="above">under</add> 50<hi rend="superscript">l</hi> a yeare <add place="above">&amp;</add> when the scotts devoured<lb/>
+                <add place="above">under</add> 50<am rend="superscript">l</am> a yeare <add place="above">&amp;</add> when the scotts devoured<lb/>
                  all her Patrimony, eating up her owne, &amp;, childrens Provissions,<lb/>
                  even then did our gracious Lord remember mercy in the midst<lb/>
                  of Judgement. and caused her house at.<lb/>
@@ -5165,10 +5176,10 @@ point to <category> elements or to feature structure components.
                 <!-- [endnote] [deletion] Checked in Ms, and ‘Es’ is lightly crossed out here. -->
                 <lb/>
                  Estate of his owne, as Heire (though under sequestration)<lb/>
-                 with the some of 500<hi rend="superscript">l</hi> And since <rs ref="ppl:cw1" n="per430" type="person">my father</rs>s death, she<lb/>
+                 with the some of 500<am rend="superscript">l</am> And since <rs ref="ppl:cw1" n="per430" type="person">my father</rs>s death, she<lb/>
                 hath expended uppon her <rs ref="ppl:awt1 ppl:cw2 ppl:jw1" n="per431" type="person">3 younger Children</rs>s main<lb break="no"/>
                  -tenance out of her owne at <placeName ref="place:Hips_022" n="place195">Hipswell</placeName> the some of<lb/>
-                 1500<hi rend="superscript">l</hi> in our education &amp; maintenance. as she has<lb/>
+                 1500<am rend="superscript">l</am> in our education &amp; maintenance. as she has<lb/>
                  declared by her owne relation before wittnesses.</p>
             <p xml:id="p-0292">None of us ever haveing receaved any thing out of<lb/>
                  that part of <rs ref="ppl:cw1" n="per432" type="person">my father</rs>s Estate, of <placeName ref="place:Kirk_030" n="place196">Kirklington</placeName> for<lb/>
@@ -5237,7 +5248,7 @@ point to <category> elements or to feature structure components.
                  Soe that to shew my deare affection towards <persName ref="ppl:gw1" n="per445">my brother <lb/>
                  George</persName>. in the time of his straights. for his better helpe in<lb/>
                  his Estate; beeing sore burthened with Debts Anuities &amp;c <lb/>
-                 I was willing to transferre, 500<hi rend="superscript">l</hi> of my English portion<lb/>
+                 I was willing to transferre, 500<am rend="superscript">l</am> of my English portion<lb/>
                  to be receaved out of <placeName ref="place:Irel_096" n="place199">Ireland</placeName>. which would have eased that <lb/>
                  of <placeName ref="place:Kirk_030" n="place200">Kirklington</placeName>. <milestone unit="marker" rend="delim(diagonal)"/> But since his death. when <rs ref="ppl:cw2" n="per446" type="person">my 2<hi rend="superscript">d </hi><lb/>
                  Brother</rs> came heire. there was not that cause to contineue<lb/>
@@ -5252,7 +5263,7 @@ point to <category> elements or to feature structure components.
             
             The same; by reason that both the sequestration was taken<lb/>
                 of, &amp; the wardship mony of <rs ref="ppl:tbd-awt-brother" n="per447" type="person">his brother</rs><!-- Q [people] which brother? gw? --> <add place="above">denied</add> to be paid to <persName ref="ppl:eo1" n="per448">Sir<lb/>
-                 Edward Osborne</persName>s Excec<ex>utor</ex> &amp; that he was better by 200<hi rend="superscript">l</hi><lb/>
+                 Edward Osborne</persName>s Excec<ex>utor</ex> &amp; that he was better by 200<am rend="superscript">l</am><lb/>
                  a yeare in his Estate, with many other considerable ar<lb break="no"/>
                  -guments arriseing towards <rs ref="ppl:aow1" n="per449" type="person">my mother</rs> &amp; my selfe;<lb/>
                  for there was such <add place="above">un</add>hansome dealings to us not to<lb/>
@@ -5266,17 +5277,17 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0300">And with all <persName ref="ppl:jw1" n="per451">my youngest Brother John</persName>. beeing fallen into<lb/>
                  a grievo<add place="above">u</add>s distemper, through griefe, uppon harsh Dealing<lb/>
                  affter the marriage of <persName ref="ppl:cw2" n="per452">my brother Christ.</persName> <add place="above">who</add> by ill councell<lb/>
-                 given him; detained, his right of Anuity of 100<hi rend="superscript">l</hi> per An<ex>num</ex><lb/>
+                 given him; detained, his right of Anuity of 100<am rend="superscript">l</am> per An<ex>num</ex><lb/>
                  (to his great prejudice) &amp; <add place="above"><persName ref="ppl:jw1" n="per453">John</persName></add> was likely theire by to leave<lb/>
-                 both that 100<hi rend="superscript">l</hi> in <placeName ref="place:Engl_094" n="place201">England</placeName>. with his whole fortune (then desend<lb/>
-                 ed upon John, by his brother <add place="above"><persName ref="ppl:gw1" n="per454">George</persName> his</add> death) of 6000<hi rend="superscript">l</hi> out <add place="above">of</add> the<lb/>
+                 both that 100<am rend="superscript">l</am> in <placeName ref="place:Engl_094" n="place201">England</placeName>. with his whole fortune (then desend<lb/>
+                 ed upon John, by his brother <add place="above"><persName ref="ppl:gw1" n="per454">George</persName> his</add> death) of 6000<am rend="superscript">l</am> out <add place="above">of</add> the<lb/>
                  Irish Estate. to <persName ref="ppl:cw2" n="per455">my brother Christopher</persName>.<milestone unit="marker" rend="delim(tbd-//)"/></p>
             <p xml:id="p-0301">Weighing all these reasons, together; &amp; that I had noe<lb/>
                  maintenance from <placeName ref="place:Kirk_030" n="place202">Kirklington</placeName> as I ought to have<lb/>
                  had, by <rs ref="ppl:cw1" n="per456" type="person">my father</rs>s will, but was willing to foregoe that to<lb/>
-                 <persName ref="ppl:ww1" n="per457">my uncle will.<hi rend="superscript">m</hi> wandesforde</persName> towards the payment of Debts<lb/>
+                 <persName ref="ppl:ww1" n="per457">my uncle will.<am rend="superscript">m</am> wandesforde</persName> towards the payment of Debts<lb/>
                  I had noe reason; from all these considerations to lose<lb/>
-                 the payment of the said 500<hi rend="superscript">l</hi> out of <placeName ref="place:Kirk_030" n="place203">Kirklington</placeName>.</p>
+                 the payment of the said 500<am rend="superscript">l</am> out of <placeName ref="place:Kirk_030" n="place203">Kirklington</placeName>.</p>
             <p xml:id="p-0302">Yet I doe beleive from hence proceeded much displeasure<lb/>
                  that I would <add place="above">not</add> consent to wrong my selfe of the whole.<lb/>
                  in soe much that affter the bussinesse of sequestration was<lb/>
@@ -5378,10 +5389,10 @@ point to <category> elements or to feature structure components.
                  with out much charge as was represented to her, only<lb/>
                  the want of a house which he must builde, <rs ref="ppl:tbd-brother" n="per462" type="person">his brother</rs> &amp; <rs ref="ppl:tbd-sister" n="per463" type="person">sister</rs><!-- Q [people] WT's siblings - identifiable? --><lb/>
                 beeing provided for by <rs ref="ppl:edg1" n="per464" type="person">his mother</rs> that would cleare his<lb/>
-                 Estate. which was given in to be 600<hi rend="superscript">l</hi> per an<ex>num</ex>.</p>
+                 Estate. which was given in to be 600<am rend="superscript">l</am> per an<ex>num</ex>.</p>
             <p xml:id="p-0312">This was very well; considering the addittion of <rs ref="ppl:cw1" n="per465" type="person">my<lb/>
                  Father</rs>s Portion given me by his will, &amp; deeds, namly<lb/>
-                 1500<hi rend="superscript">l</hi> out of <placeName ref="place:Engl_094" n="place204">England</placeName>, at <placeName ref="place:Kirk_030" n="place205">Kirklington</placeName>; and 1000<hi rend="superscript">l</hi> to be<lb/>
+                 1500<am rend="superscript">l</am> out of <placeName ref="place:Engl_094" n="place204">England</placeName>, at <placeName ref="place:Kirk_030" n="place205">Kirklington</placeName>; and 1000<am rend="superscript">l</am> to be<lb/>
                  paid out of his Irish Estate of <placeName ref="place:Idou_090" n="place206">Edough</placeName>. which would be<lb/>
                  an addittion to increase <persName ref="ppl:wt1" n="per466">Mr Thornton</persName>s Reveneus. </p>
             <p xml:id="p-0313">Allso <rs ref="ppl:aow1" n="per467" type="person">my deare mother</rs> was willing to give me what<lb/>
@@ -5416,13 +5427,13 @@ point to <category> elements or to feature structure components.
                  -very to inable him to intaile the same upon his Issue<lb/>
                  by me, male or femalle. </p>
             <p xml:id="p-0316">That his Lordship of <placeName ref="place:East_019" n="place207">Easte Newton</placeName> then valewed<lb/>
-                 at the yearely rent of 250<hi rend="superscript">l</hi> should be Estated on<lb/>
+                 at the yearely rent of 250<am rend="superscript">l</am> should be Estated on<lb/>
                  me for A Joynture. &amp; affter the deceace of the longer<lb/>
                  liver of us two, to decend uppon his sons &amp; theire<lb/>
                  issue successivily. for want of such heirs male to his<lb/>
                  heires females by me. &amp;c. with out impeachment of<lb/>
                  any manner of waiste. </p>
-            <p xml:id="p-0317">That <placeName ref="place:Lays_032" n="place-supp55">Laistrop</placeName> valewed at the yearely rent of 160<hi rend="superscript">l</hi><lb/>
+            <p xml:id="p-0317">That <placeName ref="place:Lays_032" n="place-supp55">Laistrop</placeName> valewed at the yearely rent of 160<am rend="superscript">l</am><lb/>
                 affter the decease of <rs ref="ppl:edg1" n="per475" type="person">his mother</rs>, married to <persName ref="ppl:gg1" n="per476">Mr Gate</persName><lb/>
                  &amp; then her Joynture. was Settled on <persName ref="ppl:wt1" n="per477">Mr Thornton</persName> for<lb/>
                  his life, affter his decease uppon his heirs male &amp;<lb/>
@@ -5434,12 +5445,12 @@ point to <category> elements or to feature structure components.
                 <lb/>
                  Affter a longe leace made for the Provission of his<lb/>
                  younger childrens Portions &amp; Maintenance, p<ex>ai</ex>d out<lb/>
-                 of it. The valew wast accounted 100<hi rend="superscript">l</hi> <milestone unit="marker" rend="delim(tbd-//)"/> <add place="above">Per An<ex>num</ex>.</add>
+                 of it. The valew wast accounted 100<am rend="superscript">l</am> <milestone unit="marker" rend="delim(tbd-//)"/> <add place="above">Per An<ex>num</ex>.</add>
             </p>
             <p xml:id="p-0319">As for the security of my Portion he was to Reieave<lb/>
-                 the summe of 1500<hi rend="superscript">l</hi> out of <placeName ref="place:Kirk_030" n="place210">Kirklington</placeName> which he might<lb/>
+                 the summe of 1500<am rend="superscript">l</am> out of <placeName ref="place:Kirk_030" n="place210">Kirklington</placeName> which he might<lb/>
                  dispose of for himselfe &amp; his owne use. Beeing secured to me<lb/>
-                 And for the 1000<hi rend="superscript">l</hi> payable out of <placeName ref="place:Irel_096" n="place211">Ireland</placeName>. he gave<lb/>
+                 And for the 1000<am rend="superscript">l</am> payable out of <placeName ref="place:Irel_096" n="place211">Ireland</placeName>. he gave<lb/>
                  bond to <rs ref="ppl:aow1" n="per478" type="person">my mother</rs> to purchase Land of inheritance<lb/>
                  for me during my Life, &amp; for my Children at my<lb/>
                  decease.</p>
@@ -5655,7 +5666,7 @@ point to <category> elements or to feature structure components.
                 <fw type="pageNum">128.</fw>
             
             <p xml:id="p-0332">In his returne home from <placeName ref="place:East_019" n="place219">Newton</placeName> his owne Estate, I was<lb/>
-                 carried over <placeName ref="place:Hamb_020" n="place220">Hambleton</placeName><!-- Q [places] possibly should be geogName --> towards <rs ref="place:Osgo_120" n="place-supp57" type="place"><persName ref="ppl:wa1" n="per516">Sir Will.<hi rend="superscript">m</hi> Akough</persName>s house</rs><lb/>
+                 carried over <placeName ref="place:Hamb_020" n="place220">Hambleton</placeName><!-- Q [places] possibly should be geogName --> towards <rs ref="place:Osgo_120" n="place-supp57" type="place"><persName ref="ppl:wa1" n="per516">Sir Will.<am rend="superscript">m</am> Akough</persName>s house</rs><lb/>
                  where I passed downe on foote a very high hill, betwixt<lb/>
                  <geogName ref="place:Hood_121" n="geog16">hud hill</geogName> &amp; <geogName ref="place:Whit_127" n="geog17">whitsonclife</geogName>, which is a bove a mile steepe downe<lb/>
                  &amp; indeed so bad, that I could not scarse tread the narrow steps<lb/>
@@ -5763,7 +5774,7 @@ point to <category> elements or to feature structure components.
                  I fell into the Jandies, <note place="end">
                     <p rend="Endnote Text"> [word] I.e., jaundice.</p>
                 </note> which used me very hardly one full<lb/>
-                 q.<hi rend="superscript">r</hi> &amp; a halfe more. I finding <persName ref="ppl:rw1" n="per531">Dr wittie</persName>s judgment true that <lb/>
+                 q.<am rend="superscript">r</am> &amp; a halfe more. I finding <persName ref="ppl:rw1" n="per531">Dr wittie</persName>s judgment true that <lb/>
                 it would prove a cronicall<!-- Q [review] [contraction] contraction line over n which I have deleted --> distemper. but blessed be the<lb/>
                  Lord upon great &amp; many meanes used &amp; all remidies. I<lb/>
                  was at length cured of all distempers &amp; weaknesses which<lb/>
@@ -7433,11 +7444,11 @@ point to <category> elements or to feature structure components.
                  us <seg rend="background(cyan)">deearley</seg><!-- Q [review] -->
                 <note place="end">
                     <p rend="Endnote Text"> [word] Jo – yearley? Anselement has ‘cleerely’. See comparator below (n107).</p>
-                </note> then 1600<hi rend="superscript">l</hi>
+                </note> then 1600<am rend="superscript">l</am>
             </p>
             <p xml:id="p-0435">And noe smale addittion of helpe to <rs ref="ppl:wt1" n="per690" type="person">my husband</rs>s Estate<lb/>
                  was her disposall of her Reall Estate in Land, which she<lb/>
-                 had Purchased for 550<hi rend="superscript">l</hi> settling <add place="above">it</add> uppon my selfe, &amp; my <lb/>
+                 had Purchased for 550<am rend="superscript">l</am> settling <add place="above">it</add> uppon my selfe, &amp; my <lb/>
                  Childeren.</p>
             <p xml:id="p-0436">Allso her exceeding affection extended it selfe in her<lb/>
                  settling all her Personall Estate by Deeds of guift, &amp; her<lb/>
@@ -7448,7 +7459,7 @@ point to <category> elements or to feature structure components.
                  beeing with her in her sorrowes &amp; solitudes.</p>
             <p xml:id="p-0437">And albeit she had in our minorrities disbursed uppon us<lb/>
                  out of her owne Joynture; which should have bin don out of<lb/>
-                 <placeName ref="place:Kirk_030" n="place260">Kirklington</placeName> the some of 2000<hi rend="superscript">l</hi>.</p>
+                 <placeName ref="place:Kirk_030" n="place260">Kirklington</placeName> the some of 2000<am rend="superscript">l</am>.</p>
 
             <pb xml:id="page-164" n="164"/>
 
@@ -7457,10 +7468,10 @@ point to <category> elements or to feature structure components.
             
                 <fw type="pageNum">166.</fw>
             
-            <p xml:id="p-0438">The some of 2000<hi rend="superscript">l</hi> besides, above 500<hi rend="superscript">l</hi> to <persName ref="ppl:gw1" n="per692">my brother<lb/>
-              George</persName> the Heire, with the payment of 300<hi rend="superscript">l</hi> Debt of that Estate<lb/>
+            <p xml:id="p-0438">The some of 2000<am rend="superscript">l</am> besides, above 500<am rend="superscript">l</am> to <persName ref="ppl:gw1" n="per692">my brother<lb/>
+              George</persName> the Heire, with the payment of 300<am rend="superscript">l</am> Debt of that Estate<lb/>
               and the losse of all <rs ref="ppl:cw1" n="per693" type="person">my father</rs>s Personall Estate given her<lb/>
-              by will as allso; her losse of her Annuity of 300<hi rend="superscript">l</hi> per An<ex>num</ex><lb/>
+              by will as allso; her losse of her Annuity of 300<am rend="superscript">l</am> per An<ex>num</ex><lb/>
               out of <placeName ref="place:Irel_096" n="place261">Ireland</placeName> to the valew due unto her at her death<lb/>
             
             <!-- NOTE [decoration] replaced text underline with @rend - there are lines above *and* below the marginal text -->
@@ -7490,7 +7501,7 @@ point to <category> elements or to feature structure components.
                  under the Tuittion of <persName ref="ppl:rw3" n="per695">Dr Widdrington</persName> in <placeName ref="place:Chri_014" n="place264">Christs Colledge</placeName><lb/>
                  maintaining him there all the time, which by reason of <lb/>
                  a sore feavour that seized on him there, he cost her after<lb/>
-                 the Rate of above 100<hi rend="superscript">l</hi> per An<ex>num</ex>.</p>
+                 the Rate of above 100<am rend="superscript">l</am> per An<ex>num</ex>.</p>
             <p xml:id="p-0440">All which time his Anuity Lay dormant in the Estate of <rs ref="ppl:cw1" n="per696" type="person">my<lb/>
                  father</rs>, which I supose was some advantage to the Heire.<lb/>
                  In fine, great &amp; many were the good &amp; Charitable Acts<lb/>
@@ -8193,7 +8204,7 @@ point to <category> elements or to feature structure components.
                  I may be better prepared for acting to his Glory heere &amp;<lb/>
                  heere after; Even for Christ Jesus his sonnes sake. Amen</p>
           <milestone n="ev132" unit="event"/>
-            <p xml:id="p-0497"><persName ref="ppl:wt2" n="per757">My Son Will.<hi rend="superscript">m</hi> Thornton</persName> <date when-custom="1660-04-29">was buried</date> at <placeName ref="place:Easb_017" n="place282">Easby</placeName> in the<lb/>
+            <p xml:id="p-0497"><persName ref="ppl:wt2" n="per757">My Son Will.<am rend="superscript">m</am> Thornton</persName> <date when-custom="1660-04-29">was buried</date> at <placeName ref="place:Easb_017" n="place282">Easby</placeName> in the<lb/>
                  same grave with his Eldest Sister which died before baptism<lb/>
                  by <persName ref="ppl:jk1" n="per758">Mr Kirton</persName>. He beeing scarce fourteen daies old.<lb/>
                  <rs ref="ppl:wt1" n="per759" type="person">His father</rs> beeing much troubled at his losse whome the Child<lb/>
@@ -8863,7 +8874,7 @@ point to <category> elements or to feature structure components.
                  formerly to take upon him the mannegment of it from <lb/>
                  <persName ref="ppl:mn1" n="per793">my Uncle Mr Norton</persName> by way of Assignment. &amp; to pay<lb/>
                  those things chargeable thereupon; but albeit there was<lb/>
-                 a good Estate, which was 1000<hi rend="superscript">l</hi> per Annum.<note place="end">
+                 a good Estate, which was 1000<am rend="superscript">l</am> per Annum.<note place="end">
                     <p rend="Endnote Text"> [word] SiC – no expansion.</p>
                 </note> there from whence<lb/>
                  these debts should arrise; yet it was altogether against<lb/>
@@ -8874,7 +8885,7 @@ point to <category> elements or to feature structure components.
                  his Person; &amp; likewise not suited in other respects to with<lb/>
                  stand the disputes, which she foresee would arrise from some<lb/>
                  that were conserned for themselves. Nor was there the least <lb/>
-                 necessity for him to ingage in it for gaining my 1000<hi rend="superscript">l</hi> there<lb/>
+                 necessity for him to ingage in it for gaining my 1000<am rend="superscript">l</am> there<lb/>
                  by reason both that &amp; all other rights &amp; dues which could be<lb/>
                  challenged by <rs ref="ppl:aow1" n="per795" type="person">my mother</rs> &amp; my selfe were sufficiently<lb/>
                  secured to us by <rs ref="ppl:cw1" n="per796" type="person">my deare father</rs>s Last Will &amp; Deeds. &amp;<lb/>
@@ -8891,24 +8902,24 @@ point to <category> elements or to feature structure components.
             
             followed: as it affter wards appeared. And besides my<lb/>
                  English Portion was suficiently &amp; undoubtedly safe &amp; se<lb/>
-                 cured to him; of 1500<hi rend="superscript">l</hi> by <add place="above">the</add> will &amp; Leace from <persName ref="ppl:ww1" n="per797">my uncle Will.<lb/>
+                 cured to him; of 1500<am rend="superscript">l</am> by <add place="above">the</add> will &amp; Leace from <persName ref="ppl:ww1" n="per797">my uncle Will.<lb/>
                  Wandesforde</persName> out of <placeName ref="place:Kirk_030" n="place296">Kirklington</placeName>. &amp; by Articles 3 partite<lb/>
                  before my marriage betwixt <persName ref="ppl:ww1" n="per798">My uncle Wand.</persName> <persName ref="ppl:cw2" n="per799">my Brother<lb/>
-                 Christopher</persName> &amp; my selfe securing both the 1500<hi rend="superscript">l</hi> &amp; the 1000<hi rend="superscript">l</hi> out<lb/>
+                 Christopher</persName> &amp; my selfe securing both the 1500<am rend="superscript">l</am> &amp; the 1000<am rend="superscript">l</am> out<lb/>
                  of <placeName ref="place:Irel_096" n="place297">Ireland</placeName> in its due order to be paid.</p>
                 <anchor n="ev142" type="event"/>
             <!-- NOTE [event] boundary moved -->
                 <milestone n="ev143" unit="event"/>
             <p xml:id="p-0538">But it soe hapned that he was advised with out our knowledge<lb/>
                  or consent as aforesaid to ingage to <persName ref="ppl:rn1" n="per800">Nettleton</persName>, (as well as<lb/>
-                 to the bussinesse of the Assignement) for a Debt of 1000<hi rend="superscript">l</hi> Payable<lb/>
+                 to the bussinesse of the Assignement) for a Debt of 1000<am rend="superscript">l</am> Payable<lb/>
                  out of his owne Estate by statute.  because <persName ref="ppl:rn1" n="per801">nettleton</persName> would<lb/>
                  not accept of security out of <placeName ref="place:Irel_096" n="place298">Ireland</placeName>: nor stay till <persName ref="ppl:wt1" n="per802">Mr Th.</persName><lb/>
                  receaved it thence; but he prosecuted <persName ref="ppl:wt1" n="per803">Mr Th.</persName> with soe much<lb/>
                  violency &amp; fearcenesse; that he compelld him to borrow monnys<lb/>
-                 to sattisfie his clamour: &amp; he had payd him 900<hi rend="superscript">l</hi> &amp;<lb/>
+                 to sattisfie his clamour: &amp; he had payd him 900<am rend="superscript">l</am> &amp;<lb/>
                  above: nor would he be sattisfied: because the bond was for a<lb/>
-                 1000<hi rend="superscript">l</hi> &amp; not beeing taken in by <persName ref="ppl:wt1" n="per804">Mr Th.</persName> he sued for the whole<lb/>
+                 1000<am rend="superscript">l</am> &amp; not beeing taken in by <persName ref="ppl:wt1" n="per804">Mr Th.</persName> he sued for the whole<lb/>
                  &amp; for charges.<anchor n="ev143" type="event"/> 
                 <milestone n="ev144" unit="event"/>
                 <!-- NOTE [event] bailiffs at newton -->
@@ -8917,9 +8928,9 @@ point to <category> elements or to feature structure components.
                  dispatched it. he gott an Execution broake up: and by his<lb/>
                  owne man, with 4 other Balifs came early in a morning; to<lb/>
                  seaze upon all our goods, monnys, Plate &amp; till he were all<lb/>
-                 Sattisfied: att first very stiffely demanded 800<hi rend="superscript">l</hi> then to<lb/>
+                 Sattisfied: att first very stiffely demanded 800<am rend="superscript">l</am> then to<lb/>
                  be payde But att last by <persName ref="ppl:jd2" n="per806">my Brother Denton</persName>s endevours<lb/>
-                 he knewing the debtt was paid prevailled to give them 200<hi rend="superscript">l</hi><lb/>
+                 he knewing the debtt was paid prevailled to give them 200<am rend="superscript">l</am><lb/>
                  which they would have, or Plate &amp; to that valewe. <milestone unit="marker" rend="delim(tbd-//.)"/></p>
             <p xml:id="p-0539">This accident, was very afflicting to me, in regard that I hoped<lb/>
                  <persName ref="ppl:wt1" n="per807">Mr Thornton</persName>s beeing there would have prevented it; &amp; being<lb/>
@@ -8927,8 +8938,8 @@ point to <category> elements or to feature structure components.
                  of those men, had nigh gon to make me misscarrie, what for<lb/>
                  the injustice &amp; unhansomenesse of <add place="above">that</add> conserne which came soe sud-<lb break="no"/>
                  -ainly on me in that bussinesse. Yet the Providence of God had soe<lb/>
-                 ordered, that there was 100<hi rend="superscript">l</hi> of <persName ref="ppl:wt1" n="per808">Mr Thornton</persName>s newly the weeke be-<lb break="no"/>
-                 fore come in: and with 57<hi rend="superscript">l</hi> of my owne, part of what <rs ref="ppl:aow1" n="per809" type="person">my Mother</rs><lb/>
+                 ordered, that there was 100<am rend="superscript">l</am> of <persName ref="ppl:wt1" n="per808">Mr Thornton</persName>s newly the weeke be-<lb break="no"/>
+                 fore come in: and with 57<am rend="superscript">l</am> of my owne, part of what <rs ref="ppl:aow1" n="per809" type="person">my Mother</rs><lb/>
                  gave me: that sattisfied them at present. or else it might<lb/>
                  haue proved fare worse with me then; in that condittion. which if<lb/>
                  I had wanted peradventure they might have taken my<lb/>
@@ -9207,14 +9218,14 @@ point to <category> elements or to feature structure components.
                 <!-- [endnote] This is more than the usual deletion – T has really attempted to obliterate these words. Nevertheless, some letters remain legible – check MS? -->
                 <lb/>
                  had taken away for theire sattisfaction, with other Charges<add place="above">in building the house</add><lb/>
-                 All my English Portion of 1500<hi rend="superscript">l</hi> that Estate of <placeName ref="place:Burn_005" n="place308">Burne Parke</placeName><lb/>
+                 All my English Portion of 1500<am rend="superscript">l</am> that Estate of <placeName ref="place:Burn_005" n="place308">Burne Parke</placeName><lb/>
                  of one hundred pound; per An<ex>num</ex> settled before marriage on<lb/>
                  my yonger Children for maintenance &amp; Portions: it was<lb/>
                  sould for this Debts; And allso with the disbursment of the<lb/>
-                 somme of 300<hi rend="superscript">l</hi> I laid out for the house since my mothers death<lb/>
+                 somme of 300<am rend="superscript">l</am> I laid out for the house since my mothers death<lb/>
                  to assist him with out of my owne mony for my Children.<lb/>
                  I had bin further instrumentall <add place="above">to</add> his assistance, in giveing<lb/>
-                 Leave that my 1000<hi rend="superscript">l</hi> to be receaved out of <placeName ref="place:Irel_096" n="place309">Ireland</placeName> which was<lb/>
+                 Leave that my 1000<am rend="superscript">l</am> to be receaved out of <placeName ref="place:Irel_096" n="place309">Ireland</placeName> which was<lb/>
                  settled on me &amp; my Children by bond before marriage: shoud<lb/>
                  goe to the sattisfaction of his brothers &amp; sisters Portions which<lb/>
                  was not yett discharged: <add place="above">&amp; Debts</add> soe that haveing thus disposed of<lb/>
@@ -9224,10 +9235,10 @@ point to <category> elements or to feature structure components.
                  settle the remainder of his Reall Estate upon his Heire: if<lb/>
                  God should give him one by me; &amp; for the subsistance of<lb/>
                  his younger Children, in leiue of my fortune: which was<lb/>
-                 from <rs ref="ppl:cw1" n="per830" type="person">my father</rs>: 2500<hi rend="superscript">l</hi> from my mother; in Land;<lb/>
+                 from <rs ref="ppl:cw1" n="per830" type="person">my father</rs>: 2500<am rend="superscript">l</am> from my mother; in Land;<lb/>
                  Monies; Plate: goods to the valew of one thousand Pounds<lb/>
                  besides the advantage of 8 yeares table: with our selves: Child<lb/>
-                 &amp; servants stood in 200<hi rend="superscript">l</hi> per An<ex>num</ex>.</p>
+                 &amp; servants stood in 200<am rend="superscript">l</am> per An<ex>num</ex>.</p>
             <p xml:id="p-0556">upon the serious consideration of these things: I was in <lb/>
                  much deliberation whoe I should gett to doe this charita<lb break="no"/>
                  -ble office for us: And upon my Adressess to the Lord my<lb/>
@@ -9275,15 +9286,15 @@ point to <category> elements or to feature structure components.
                  was soe great that he was compelld to lessen his Estate in-<lb break="no"/>
                  part to free the rest; Nor could he leave more for his yon-<lb break="no"/>
                  ger childrens Maintenance, &amp; Education, &amp; Portions, then <lb/>
-                 <placeName ref="place:Lays_032" n="place311">Laistrop</placeName>; which was about 100<hi rend="superscript">l</hi> per. An<ex>num</ex> And this did <lb/>
+                 <placeName ref="place:Lays_032" n="place311">Laistrop</placeName>; which was about 100<am rend="superscript">l</am> per. An<ex>num</ex> And this did <lb/>
                  not sattisifie those peoples, humours, as I was tould<lb/>
                  by <rs ref="ppl:wt1" n="per838" type="person">my deare husband</rs>; because it was not Charged<lb/>
                  with debts first to precead my Childrens Provission<lb/>
                  Albeit we had by mutuall consent sett over A debt<lb/>
                  from <persName ref="ppl:cw2" n="per839">Sr Christopher wand.</persName> out of <placeName ref="place:Irel_096" n="place312">Ireland</placeName> for 7. yeares of<lb/>
-                 200<hi rend="superscript">l</hi> per An<ex>num</ex>: which was by agreement to sattesfie for<lb/>
-                 my 1000<hi rend="superscript">l</hi> Portion: &amp; the Debt which <rs ref="ppl:wt1" n="per840" type="person">my husband</rs> had p<ex>ai</ex>d<lb/>
-                 to <persName ref="ppl:rn1" n="per841">nettelton</persName>. Also the 1000<hi rend="superscript">l</hi> which was Left of the saile of<lb/>
+                 200<am rend="superscript">l</am> per An<ex>num</ex>: which was by agreement to sattesfie for<lb/>
+                 my 1000<am rend="superscript">l</am> Portion: &amp; the Debt which <rs ref="ppl:wt1" n="per840" type="person">my husband</rs> had p<ex>ai</ex>d<lb/>
+                 to <persName ref="ppl:rn1" n="per841">nettelton</persName>. Also the 1000<am rend="superscript">l</am> which was Left of the saile of<lb/>
             
 
             <pb xml:id="page-201" n="201"/>
@@ -9294,10 +9305,10 @@ point to <category> elements or to feature structure components.
                 <fw type="pageNum">203.</fw> <lb/>
             
             <placeName ref="place:Burn_005" n="place313">Burne Parke</placeName> was laid outt in a Rent Charge out of <persName ref="ppl:ls1" n="per842">Mr<lb/>
-                 Laurance Sayers</persName> Land of 80<hi rend="superscript">l</hi> per An<ex>nu</ex>m. This was deput<lb/>
-                 ed for the Debts: All which did amount to the somme of 3000<hi rend="superscript">l</hi><lb/>
+                 Laurance Sayers</persName> Land of 80<am rend="superscript">l</am> per An<ex>nu</ex>m. This was deput<lb/>
+                 ed for the Debts: All which did amount to the somme of 3000<am rend="superscript">l</am><lb/>
                  nor did the Debts of <persName ref="ppl:wt1" n="per843">Mr Thornton</persName> amount to that somme by<lb/>
-                 600<hi rend="superscript">l</hi> Neverthelesse by the sequell of all it did appeare; that<lb/>
+                 600<am rend="superscript">l</am> Neverthelesse by the sequell of all it did appeare; that<lb/>
                  This just &amp; honnest action of ours did exasperate such-<lb break="no"/>
                  with out a cause: whoe had desires that <placeName ref="place:Lays_032" n="place-supp78">Laistrop</placeName> soe well as<lb/>
                  the Rest of all his Personall Estate should goe for security<lb/>
@@ -9981,12 +9992,12 @@ point to <category> elements or to feature structure components.
                 &amp; Portions; which had bin undon <gap reason="deleted" quantity="5" unit="char"/> with out my consent<lb/>
                  &amp; knowledge when <persName ref="ppl:wt1" n="per928">Mr Thornton</persName> was sicke at <placeName ref="place:Stea_052" n="place329">Steersby</placeName>,<lb/>
                  for the Chargeing of <persName ref="ppl:xr1" n="per929">Mr Raines</persName> &amp; <persName ref="ppl:tp1" n="per930">Mr Portington</persName> Debt of<lb/>
-                 1400<hi rend="superscript">l</hi> by mortgage upon <placeName ref="place:Lays_032" n="place-supp82">Laistrop</placeName>. in soe doeing there was<lb/>
+                 1400<am rend="superscript">l</am> by mortgage upon <placeName ref="place:Lays_032" n="place-supp82">Laistrop</placeName>. in soe doeing there was<lb/>
                 not one penny could be secured for <rs ref="ppl:atc1 ppl:ktp1" n="per931" type="person">my two Poore Daught<add place="above">ers</add></rs><lb/>
                  either maintenance or Portion, till after the payment of<lb/>
-                 that Debt. &amp; there was but 100<hi rend="superscript">l</hi> per an<ex>num</ex> for all: And also<lb/>
+                 that Debt. &amp; there was but 100<am rend="superscript">l</am> per an<ex>num</ex> for all: And also<lb/>
                  that <persName ref="ppl:cw2" n="per932">my brother Christ.</persName> Rent Charge out of <placeName ref="place:Irel_096" n="place330">Ireland</placeName> was secu-<lb break="no"/>
-                 -red to them allso: for 7 yeares 200<hi rend="superscript">l</hi> a yeare.</p>
+                 -red to them allso: for 7 yeares 200<am rend="superscript">l</am> a yeare.</p>
             <p xml:id="p-0605">which condition I could not, but lament; nor had I got <add place="above">a</add> sight<lb/>
                  of this new disposittion of that Estate. which I doe beleive <persName ref="ppl:wt1" n="per933">Mr<lb/>
                  Thornton</persName> was partly necessitated to doe, in regard, that they<lb/>
@@ -10182,7 +10193,7 @@ point to <category> elements or to feature structure components.
                  Persons <add place="above">by</add> Chaste &amp; religious conversations in our Family.<lb/>
                 <anchor n="ev172" type="event"/>
                  Neither was I out of hopes that <persName ref="ppl:cw2" n="per949">Sir Christopher Wandesforde</persName><lb/>
-                 might duely pay his 2000<hi rend="superscript">l</hi> out of <placeName ref="place:Irel_096" n="place333">Ireland</placeName> which was to<lb/>
+                 might duely pay his 2000<am rend="superscript">l</am> out of <placeName ref="place:Irel_096" n="place333">Ireland</placeName> which was to<lb/>
                  redeeme that Estate &amp; pay <persName ref="ppl:wt1" n="per950">Mr Thornton</persName>s Ingagments.</p>
             <p xml:id="p-0623">But in the meane time. I might more probably die in some<lb/>
                  of these sicknesses &amp; <rs ref="ppl:wt1" n="per951" type="person">my deare husband</rs>. who was often fall<lb/>
@@ -10383,7 +10394,7 @@ point to <category> elements or to feature structure components.
                  rme all his life towards him. when he wanted nothing<lb/>
                  for his comfort &amp; helpe that either hee <del rend="strikethrough">could</del> or<rs ref="ppl:aow1" n="per974" type="person"> my mot.</rs><lb/>
                  could doe for him. She every yeare giveing that Dr a<lb/>
-                 gratituity of 10<hi rend="superscript">l</hi> for his paines &amp; caire over <rs ref="ppl:jw1" n="per975" type="person">my brot<ex>her</ex></rs><lb/>
+                 gratituity of 10<am rend="superscript">l</am> for his paines &amp; caire over <rs ref="ppl:jw1" n="per975" type="person">my brot<ex>her</ex></rs><lb/>
                  soe long as the Dr lived. Allthough even then he wan<lb/>
                  ted to discharge the mans house where he laid. out of<lb/>
                  his owne dues &amp; Annuity.<anchor n="ev178" type="event"/> but I am sorrey there was<lb/>
@@ -10438,7 +10449,7 @@ point to <category> elements or to feature structure components.
                  that heard the groanes of his banished, delivering him by a<lb/>
                  quiet &amp; sweete sleepe of death from all calamitys of this<lb/>
                  wicked world &amp; presed him for him selfe, who wanted those<lb/>
-                 mercys which 1000<hi rend="superscript">l</hi> doeth injoy. And the Lords name be blessed for<lb/>
+                 mercys which 1000<am rend="superscript">l</am> doeth injoy. And the Lords name be blessed for<lb/>
                  ever that preserved his Precious Soule to his Kingdome throug<add place="above">h</add><lb/>
                  Jesus Christ. I besech him sanctifie this thy hand upon <rs ref="ppl:jw1" n="per978" type="person">my<lb/>
                  brother</rs> to me that thereby. I may be drawen nearer to thy<lb/>
@@ -10994,12 +11005,12 @@ point to <category> elements or to feature structure components.
                  owne Relations: <milestone unit="marker" rend="delim(tbd-//)"/> That day wherein <rs ref="ppl:wt1" n="per1049" type="person">my deare husband</rs><lb/>
                  signed His Deed for my Childrens Provision out of <lb/>
                 <surplus reason="repetition">of</surplus> <placeName ref="place:Lays_032" n="place-supp85">Laistrop</placeName> he did signe <persName ref="ppl:jd2" n="per1050">my bro. Denton</persName>s 3 Rent Charge<lb/>
-                 for his part of Portion by <rs ref="ppl:tbd-awt-sister" n="per1051" type="person">my sister</rs> of 250<hi rend="superscript">l</hi> out of the<lb/>
+                 for his part of Portion by <rs ref="ppl:tbd-awt-sister" n="per1051" type="person">my sister</rs> of 250<am rend="superscript">l</am> out of the<lb/>
                  other part of <placeName ref="place:Lays_032" n="place352">Laistrop</placeName>. which ought in consience to be payd.<lb/>
                  I humbly blesse our gracious Father which gave me leave<lb/>
                  to git this don for provission of my yonger Children,<lb/>
                  &amp; that the Estate was in a better frame then it had bin of<lb/>
-                 late, by the payment of 1000<hi rend="superscript">l</hi> in Debts of his Rent Charg<lb/>
+                 late, by the payment of 1000<am rend="superscript">l</am> in Debts of his Rent Charg<lb/>
                  of <persName ref="ppl:ls1" n="per1052">Mr sayer</persName>. which he had but newly sould &amp; payd of with it<lb/>
                  this yeare many great ingadgements secured out of the<lb/>
                  land at <placeName ref="place:Lays_032" n="place353">Laistrop</placeName>. by which it was made clearer.</p>
@@ -11206,7 +11217,7 @@ point to <category> elements or to feature structure components.
                  at that time <persName ref="ppl:tbd-sister" n="per1101">her sister Danby</persName> was comeing into the Country &amp;<lb/>
                  I was to use my indeavours for her having then very<lb/>
                  good hopes. as allso soe had <persName ref="ppl:gf1" n="per1102">Mr Farrer</persName> who said he did<lb/>
-                 beleive he could prevaile for 60<hi rend="superscript">l</hi> a yeare if she would except<lb/>
+                 beleive he could prevaile for 60<am rend="superscript">l</am> a yeare if she would except<lb/>
                  it. And with all I did not know what to advice which might<lb/>
                  sattisfie her. but left it to her how to dispose herselfe. for<lb/>
                  I tould her that as well as I could entertaine her in <rs ref="place:tbd-house" n="place-supp90" type="place">my house</rs><lb/>
@@ -11273,8 +11284,8 @@ point to <category> elements or to feature structure components.
                 <fw type="pageNum">241.</fw> <lb/>
             
             before she came to <placeName ref="place:East_019" n="place368">Newton</placeName>. Yet she would doe what she<lb/>
-                 could, &amp; that she would give her 60<hi rend="superscript">l</hi> p<ex>e</ex>r An<ex>num</ex>. &amp; giue her 10<hi rend="superscript">l</hi><lb/>
-                 or 5<hi rend="superscript">l</hi> when she came to see her <add place="above">at a time</add> &amp; give her all her goods aga<add place="above">in</add><lb/>
+                 could, &amp; that she would give her 60<am rend="superscript">l</am> p<ex>e</ex>r An<ex>num</ex>. &amp; giue her 10<am rend="superscript">l</am><lb/>
+                 or 5<am rend="superscript">l</am> when she came to see her <add place="above">at a time</add> &amp; give her all her goods aga<add place="above">in</add><lb/>
                  &amp; if she could doe more, she would as she was able &amp;c.<lb/>
                  and did Protest &amp; vowe that she did not take it ill that<lb/>
                  <rs ref="ppl:tbd-sister" n="per1117" type="person">her Sister</rs> came to me but wished her to come. And that it was<lb/>
@@ -11445,9 +11456,9 @@ point to <category> elements or to feature structure components.
                 <note place="end">
                     <p rend="Endnote Text"> [word] I.e., endeavoured to</p>
                 </note> prevail<del xml:id="ex-del-double-15" rend="doublestrikethrough">d</del> that she would for my<lb/>
-                 sake give them a sufficient provission. &amp; settle 80<hi rend="superscript">l</hi> per An<ex>num</ex><lb/>
+                 sake give them a sufficient provission. &amp; settle 80<am rend="superscript">l</am> per An<ex>num</ex><lb/>
                  on her &amp; her Child: she said that if she would except<lb/>
-                 60<hi rend="superscript">l</hi> a yeare. which was all that she could doe. they should<lb/>
+                 60<am rend="superscript">l</am> a yeare. which was all that she could doe. they should<lb/>
             
 
             <pb xml:id="page-243" n="243"/>
@@ -11460,11 +11471,11 @@ point to <category> elements or to feature structure components.
             have it don, &amp; that she would gett <persName ref="ppl:cd4" n="per1151">Kit</persName> a place in a troope<lb/>
                  &amp; give them theire furniture &amp; fitt him with accoutrements <lb/>
                  of all things for it. And if she see them endeavour to live<lb/>
-                 she would give her 10<hi rend="superscript">l</hi> or 5<hi rend="superscript">l</hi> at a time for incouragment<lb/>
+                 she would give her 10<am rend="superscript">l</am> or 5<am rend="superscript">l</am> at a time for incouragment<lb/>
                  when she came to see her. but I haveing noe committion<lb/>
-                 to accept of 60<hi rend="superscript">l</hi> per An<ex>num</ex>. from <persName ref="ppl:tbd-awt-niece" n="per1152">my neece Danby</persName> but a charge<lb/>
+                 to accept of 60<am rend="superscript">l</am> per An<ex>num</ex>. from <persName ref="ppl:tbd-awt-niece" n="per1152">my neece Danby</persName> but a charge<lb/>
                  to the Contrary could not promise for her. only presed for<lb/>
-                 80<hi rend="superscript">l</hi> leaveing her to consider of it because 60<hi rend="superscript">l</hi> would not<lb/>
+                 80<am rend="superscript">l</am> leaveing her to consider of it because 60<am rend="superscript">l</am> would not<lb/>
                  pay theire debts. And I would acquaint <persName ref="ppl:acd1" n="per1153">Mrs Danby</persName> with<lb/>
                  her proposalls. and would give her an account. To that end<lb/>
                  I did at my returne to <placeName ref="place:East_019" n="place376">Newton</placeName> give her as favourable an<lb/>
@@ -11472,7 +11483,7 @@ point to <category> elements or to feature structure components.
                  all speeches which should give her the least cause of trouble</p>
             <p xml:id="p-0688">But <persName ref="ppl:acd1" n="per1154">Mrs Danby</persName> was not inclinable to accept of <rs ref="ppl:tbd-sister" n="per1155" type="person">her sister</rs>s<!-- Q [people] madam d? --><lb/>
                  offers. but stood upon her high horrse. She would either<lb/>
-                 have 80<hi rend="superscript">l</hi> a yeare settled upon her and her Debts promised<lb/>
+                 have 80<am rend="superscript">l</am> a yeare settled upon her and her Debts promised<lb/>
                  to be paid, or she would never inslave her selfe againe to live <lb/>
                  as she had don with her Children. she could tell how to live<lb/>
                  otherwise if she might not live hansomly with them.</p>
@@ -11482,7 +11493,7 @@ point to <category> elements or to feature structure components.
                  with as much humble submission as a Pettioner for another<lb/>
                  could dicttate; only some clauses was put in from <persName ref="ppl:acd1" n="per1157">Mrs<lb/>
                  Danby</persName>s owne mouth, wherein she said she could not subsist<lb/>
-                 under 80<hi rend="superscript">l</hi> a yeare; &amp; if it weare till 7 years. &amp; there debts<lb/>
+                 under 80<am rend="superscript">l</am> a yeare; &amp; if it weare till 7 years. &amp; there debts<lb/>
                  paid. <milestone unit="marker" rend="delim(tbd-/.)"/> <persName ref="ppl:med1" n="per1158">Mad<ex>am</ex> Danby</persName> returnd me a most sharpe &amp; bitter<lb/>
                  Answer: that since I was soe positive for <persName ref="ppl:acd1" n="per1159"><persName ref="ppl:cd4" n="per1160">kitt</persName>s wife</persName>, &amp; that she<lb/>
                  would not except of her free offers by me. which she was not<lb/>
@@ -12149,9 +12160,9 @@ point to <category> elements or to feature structure components.
                  a day for her goeing; &amp; there was a coach procured from <persName ref="ppl:sg1" n="per1241">Mad<ex>am</ex><lb/>
                  Grahme</persName>: my noble freind; which carried her to <placeName ref="place:York_060" n="place381">Yorke</placeName> with 2<lb/>
                  servants to waite on her. beeing on <date when-custom="1668-09-11">friday the 11<hi rend="superscript">th</hi> of sept. 68</date>.</p>
-            <p xml:id="p-0715">At her departure I gave her to Iher<!-- Q [review] "Iher" s/b "supplies" I think --> necessities 3<hi rend="superscript">l</hi> more<lb/>
-                 to the former 5<hi rend="superscript">l</hi> sent to her: she haveing had out of my Purse<lb/>
-                 the yeare about 20<hi rend="superscript">l</hi> in all with charges about her Jorneys, &amp;<lb/>
+            <p xml:id="p-0715">At her departure I gave her to Iher<!-- Q [review] "Iher" s/b "supplies" I think --> necessities 3<am rend="superscript">l</am> more<lb/>
+                 to the former 5<am rend="superscript">l</am> sent to her: she haveing had out of my Purse<lb/>
+                 the yeare about 20<am rend="superscript">l</am> in all with charges about her Jorneys, &amp;<lb/>
                  all suplies of Linnin &amp; other necessarys.</p>
             <p xml:id="p-0716">I was exceding weake in bed when she went. nor did I hope to<lb/>
                  recover either health or strength againe had it not bin out of the<lb/>
@@ -12439,7 +12450,7 @@ point to <category> elements or to feature structure components.
             <head rend="pre(rule_pattern) post(rule_double)">
                 <!-- [endnote] [decoration] Patterned border. -->
                 A relation of the Last sicknesse, and Death of my<lb/>
-                 deare &amp; hon<ex>oured</ex> husband <persName ref="ppl:wt1" n="per1257">Will.<hi rend="superscript">m</hi> Thornton Esq<ex>uire</ex></persName> whoe<lb/>
+                 deare &amp; hon<ex>oured</ex> husband <persName ref="ppl:wt1" n="per1257">Will.<am rend="superscript">m</am> Thornton Esq<ex>uire</ex></persName> whoe<lb/>
                 departed this life at <placeName ref="place:Malt_035" n="place383">Malton</placeName> <date type="death" when-custom="1668-09-17">Sept. 17<hi rend="superscript">th</hi> 1668</date>.
                 <!-- [endnote] [decoration] Double lined border but no pattern. -->
             </head>
@@ -12982,7 +12993,7 @@ point to <category> elements or to feature structure components.
                  of Phisicke would hinder that. Those that were helpers to beare<lb/>
                  his Corpes Were of his kindred &amp; relations.</p>
             <p xml:id="p-0764"><persName ref="ppl:tt1" n="per1285">My Brother Thomas Thornton</persName>, <persName ref="ppl:jd2" n="per1286">my Brother Denton</persName>.<lb/>
-                 <persName ref="ppl:tp1" n="per1287">My brother Portington</persName>. <persName ref="ppl:wa1" n="per1288">my Cosen Will.<hi rend="superscript">m</hi> Ascough</persName>.<lb/>
+                 <persName ref="ppl:tp1" n="per1287">My brother Portington</persName>. <persName ref="ppl:wa1" n="per1288">my Cosen Will.<am rend="superscript">m</am> Ascough</persName>.<lb/>
                  <persName ref="ppl:rc1" n="per1289">My Cosen Ralphe Crathorne</persName>. <persName ref="ppl:jc1" n="per1290">my Cosen John Craithorne</persName>.<lb/>
                  <persName ref="ppl:xb5" n="per1291">My Cosen Bullocke</persName>. <persName ref="ppl:el1" n="per1292">My Cosen Ed. Lassells</persName>.</p>
             <p xml:id="p-0765">There was a very great Congregation at that time he beeing<lb/>
@@ -14053,7 +14064,7 @@ point to <category> elements or to feature structure components.
                 </note> for feare of him.</p>
             <p xml:id="p-0807">Affter which time <rs ref="ppl:xi1" n="per1349" type="person">this man</rs> impudantly toald my<lb/>
                  <persName ref="ppl:awn1" n="per1350">Aunt norton</persName> that he would give all he was worth if<lb/>
-                 she could procure me to be his wife &amp; offrd her 4000<hi rend="superscript">l</hi><lb/>
+                 she could procure me to be his wife &amp; offrd her 4000<am rend="superscript">l</am><lb/>
                  &amp; <persName ref="ppl:ra1" n="per1351">Lord of Adare</persName> shuld come to speake for him. She said it<lb/>
                  was all in veine He must not presume to looke that way<lb/>
                  for I was not to be obtnd.<note place="end">
@@ -14088,7 +14099,7 @@ point to <category> elements or to feature structure components.
                 </note> she hid me Tho that was not<lb/>
                  true for I hid my selfe. And about the time that the scotts<lb/>
                  was to march into <placeName ref="place:Scot_095" n="place408">Scottland</placeName> being too long here on us<lb/>
-                 whn my mothr paid offtr 25<hi rend="superscript">l</hi> &amp; 30<hi rend="superscript">l</hi> a month to them.</p>
+                 whn my mothr paid offtr 25<am rend="superscript">l</am> &amp; 30<am rend="superscript">l</am> a month to them.</p>
 
             <pb xml:id="page-295" n="295"/>
 
@@ -14292,7 +14303,7 @@ point to <category> elements or to feature structure components.
            <milestone n="ev231" unit="event"/>
             <p xml:id="p-0819">A great deliverance of me from beeing destroyd<lb/>
                  with a cannon Bullett att <placeName ref="place:Ches_012" n="place-supp99">weschester</placeName> beeing besseged<lb/>
-                 by <persName ref="ppl:wb1" n="per1387">Sir will.<hi rend="superscript">m</hi> Brewerton</persName>s Army they shift into the Town<lb/>
+                 by <persName ref="ppl:wb1" n="per1387">Sir will.<am rend="superscript">m</am> Brewerton</persName>s Army they shift into the Town<lb/>
                  of <placeName ref="place:Ches_012" n="place419">weschester</placeName> and as I was at my prayers in the Tent<lb/>
                  with the window open the waft shut the casnt<note place="end">
                     <p rend="Endnote Text"> [word] I.e., casement?</p>
@@ -14319,7 +14330,7 @@ point to <category> elements or to feature structure components.
                 <lb/>
                  Son who had sollicited me in marriage by<lb/>
                  his fathr &amp; <persName ref="ppl:xs3" n="per1390">uncle smithson</persName> who woud hav<lb/>
-                 setled on him 200<hi rend="superscript">l</hi> a yeare if I would have<lb/>
+                 setled on him 200<am rend="superscript">l</am> a yeare if I would have<lb/>
                  married him. but I would not, but avoyded<lb/>
                  his company because he was debauched. And he<lb/>
                  hired some of his owne company to have stolen me<lb/>
