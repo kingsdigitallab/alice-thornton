@@ -138,6 +138,13 @@
       - at least half of people tagged with <rs> (type=person/group) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
       - completion of people.xml standoff to include relationships - to be done once bios have been completed
          
+         
+         EVENTS
+         
+         special case:
+         letters to be treated as "events" (the event = receiving a letter; or maybe sending a letter if it's written by awt) and marked up with milestone/anchor event tagging BUT using *type=letter* rather than type=event to keep them distinct from events that may be recounted within letters. milestone is still unit=event for the moment. plus slightly different n system: lev or evl rather than ev. 
+          (not sure whether to do this with the Colvill letter in book 2?)
+         possibility of overlapping events but i don't think there are any other things like this?
         
        -->
        <!--  LINKAGE ?
@@ -9265,7 +9272,7 @@
           and that she heard <persName ref="ppl:xs7" n="per1300">Mr scott</persName> had some who would be proper as<lb/>
           she heard. which would compose the bussiness in hand.<lb/>
           Thus farre good woman she went as to the breaking of our match<lb/>
-           <anchor/><!-- /letter -->
+           <anchor type="letter"/>
            <milestone unit="event" type="letter"/>
           To which I returned answer. That if I weare any way<lb/>
          
@@ -9308,7 +9315,7 @@
           as I have very offten suplicated heaven for his direction<lb/>
           &amp; will depend uppon his Providence.
       </p>
-       <anchor/><!-- /letter -->
+       <anchor type="letter"/>
        <milestone unit="event" type="letter"/>
          <p xml:id="p-0747" rend="first-line-indent">
               Affter this letter to <rs ref="ppl:awn1" n="per1302" type="person">my Aunt</rs>. Poore honest <persName ref="ppl:dcl1" n="per1303">Dafeny</persName><lb/>
@@ -10175,7 +10182,7 @@
           should be soe. he said it was well don and very glad it was<lb/>
           Passed &amp; now People might see what caire I tooke of <rs ref="ppl:tbd-children" n="per1467" type="group">my Children</rs>
       </p>
-         <anchor/><!-- /letter ? -->
+         <anchor type="letter"/><!-- /letter ? -->
          
          <milestone unit="event" type="letter"/>
          <p xml:id="p-0824">
@@ -10186,7 +10193,7 @@
           any ill of me. or him. For which mercy &amp; goodness of God I<lb/>
           humbly returne all Possible Praise and glory to the Lord God.
       </p>
-         <anchor/><!-- /letter ? -->
+         <anchor type="letter"/><!-- /letter ? -->
         
          <milestone unit="event" type="letter"/>
          <p xml:id="p-0825">
@@ -10220,7 +10227,7 @@
           in granting me to live to see <rs ref="ppl:tbd-daughter-awt" n="per1473" type="person">my Deere Daughter</rs> soe hopfully<lb/>
           bestowed to one soe Promising and begged of God for all happy<lb/>
           Blesings to come uppon them &amp; me in this match.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          
          <p xml:id="p-0828" rend="first-line-indent">
               I bless God for moveing <rs ref="ppl:awn1" n="per1474" type="person">my deare Aunt</rs> to write soe much<lb/>
@@ -10256,7 +10263,7 @@
           by my best &amp; nearest freinds in a matter of soe great consernment<lb/>
           to do accordingly &amp; wishes I may be directed.
       </p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event" type="letter"/>
          <p xml:id="p-0831" rend="first-line-indent">
               To which kind wishes for me. I returnd <rs ref="ppl:tbd-titled" n="per1482" type="person">my Lady</rs> my Answer <surplus reason="repetition">Jan.</surplus><lb/>
@@ -10319,7 +10326,7 @@
           compassionate my sufferings, &amp; I hope this will sattisfy till we<lb/>
           have by Providence we may meete.
       </p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <!-- Q event(s) here? -->
          <p xml:id="p-0838" rend="first-line-indent">
               Affter the writing of this letter. It pleased God I heard not<lb/>
@@ -10415,14 +10422,14 @@
           for she was sorey I had the ill lucke to doe soe much good to her &amp; <rs ref="ppl:tbd-husband" n="per1494" type="person">her<lb/>
           husband</rs> &amp; she to requite me as she had don all <rs ref="ppl:tbd-husband" n="per1495" type="person">her husband</rs>s freinds<lb/>
           &amp; her Tongue was noe slander.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <p xml:id="p-0849" rend="first-line-indent">
          <milestone unit="event" type="letter"/>
               <persName ref="ppl:xf2" n="per1496">My Cozen Fairfax</persName> writt a most kinde &amp; obleiging letter condo-<lb break="no"/>
           ling my sad losse of her uncle and my great sickness &amp; weaknss with her<lb/>
           confidence I had chosen a very discreete &amp; Judicious Person for <rs ref="ppl:tbd-daughter-awt" n="per1497" type="person">my<lb/>
           daughtr</rs> &amp; wished me &amp; them all happinss and Comfort<lb/>
-           <anchor/><!-- /letter -->
+           <anchor type="letter"/>
           soe I recevd many letters from divrs parts to give me what comfort could<lb/>
           be blssed be the God of all comfort &amp; consolation who has wounded and<lb/>
          
@@ -11185,7 +11192,7 @@
           as much to testify the same which would give a great satisfac<lb/>
           tion to all strangers for those of our knowledge was well satt<lb/>
           isfied only who she had deceaved by her conning Tongue.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event" type="letter"/>
          <p xml:id="p-0921" rend="first-line-indent">
               which <persName ref="ppl:jd2" n="per1631">my brother Denton</persName> was pleased to doe and soe<lb/>
@@ -11193,7 +11200,7 @@
           as full &amp; sattisfactory manner as could be to that End &amp;<lb/>
           it did very much sattisfy all who she saw cause to declare<lb/>
           it to to my great Comfort and all conserned.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <p xml:id="p-0922" rend="first-line-indent">
               He beeing soe wise and Prudent a Person was more<lb/>
           Prevalant in this Conserne since we acted nothing with out<lb/>
@@ -12201,7 +12208,7 @@
           he pleaseth to lay on us.</p>
          </body>
          </floatingText>
-          <anchor/><!-- /letter -->
+          <anchor type="letter"/>
          <p xml:id="p-1010" rend="first-line-indent">
               Thus farre I thought good to enter heere That some<lb/>
           of my freinds &amp; Children that God had in a manner as she<lb/>
@@ -12289,7 +12296,7 @@
             <label>1.</label>
              <p>Item. <persName ref="ppl:tc1" n="per1751">Mr Comber</persName>s Request made to <rs ref="ppl:tbd-lady" n="per1752" type="person">his hon.<hi rend="superscript">red</hi> Lady</rs> when<lb/>
           she went to <placeName ref="place:York_060" n="place255">yorke</placeName> to learne Quallitys. <date when-custom="1666-05">may 1666</date></p>
-           <anchor/><!-- /letter -->
+           <anchor type="letter"/>
          </item>
          
         <pb xml:id="page-186" n="186"/>
@@ -12327,7 +12334,7 @@
           north as her owne oppinnion when he may have a better<lb/>
           opportunity of Preferment &amp; in time may obteine <persName ref="ppl:atc1" n="per1761">her Coz.<lb/>
           Alice</persName> <date when-custom="1666-06-10">June 10 1666</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
       </item>
          <item>
          <milestone unit="event" type="letter"/>
@@ -12335,7 +12342,7 @@
              <p><persName ref="ppl:tc1" n="per1762">Mr Comber</persName>s letter from <placeName ref="place:Lond_080" n="place258">London</placeName> when he went up a bout<lb/>
           the Presentation of <placeName ref="place:Ston_053" n="place259">Stongrave</placeName> Living and <persName ref="ppl:xh5" n="per1763">Mr Holland</persName><lb/>
           offred <rs ref="ppl:tbd-daughter" n="per1764" type="person">his daughter</rs>, with 100<hi rend="superscript">l</hi> a yeare Living with her. <date when-custom="1666-06-11">Jun. 11 66</date>.</p>
-           <anchor/><!-- /letter -->
+           <anchor type="letter"/>
          </item>
          <item>
            <milestone unit="event" type="letter"/> <!-- multiple letters -->
@@ -12356,7 +12363,7 @@
             <lb/>
           but he did nothing in it. but it was affter wards gotten by <persName ref="ppl:xl3" n="per1773">Mr<lb/>
           Lane</persName>s solicitation Affterwards for which I gave him 5<hi rend="superscript">l</hi></p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
          <item>
            <milestone unit="event"/>
@@ -12380,7 +12387,7 @@
              <p><persName ref="ppl:xb10" n="per1781">Mr Bennet</persName>s Letter to <persName ref="ppl:wt1" n="per1782">Mr Thornton</persName>. About the drawing up A<lb/>
            Leace to him of <placeName ref="place:Ston_053" n="place263">Stongrave</placeName> Living to be drawne by A Copy that <persName ref="ppl:wt1" n="per1783">Mr<lb/>
            Thornton</persName> was to have don <date when-custom="1666-06-26">June the 26 1666</date></p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
       </item>
          <item>
             <label>10.</label>
@@ -12442,7 +12449,7 @@
             </note>
         knew was designed<lb/>
           to marry <rs ref="ppl:tbd-daughter-awt" n="per1795" type="person">my daughter</rs>: <date when-custom="1666-06-26">June 26 1666</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
          
          <item>
@@ -12464,7 +12471,7 @@
           Living of <placeName ref="place:Ston_053" n="place266">Stongrave</placeName> and that blssing of <rs ref="ppl:tbd-lady" n="per1803" type="person">his deare Lady</rs>. &amp;<lb/>
           Expressing his infinitt affection for her and writt her a note in<lb/>
           my letter to proffese the same to her selfe <date when-custom="1666-06-22">June 22<hi rend="superscript">th</hi> 1666</date></p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
       </item>
          <item>
            <milestone unit="event" type="letter"/>
@@ -12476,7 +12483,7 @@
         Thornton</persName> had Prevailed for a Leace of <placeName ref="place:Ston_053" n="place267">Stongrave</placeName> Living<lb/>
           &amp; I am to pay <persName ref="ppl:xb10" n="per1806">Mr Bennt</persName> 100<hi rend="superscript">l</hi> present for the first Rent. <date when-custom="1666-06-28">Jun 28<lb/>
           1666</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
          
         <pb xml:id="page-188" n="188"/>
@@ -12495,14 +12502,14 @@
         ance of <persName ref="ppl:tc1" n="per1808">Mr Comber</persName> for the Presentation of <placeName ref="place:Ston_053" n="place268">Stongrave</placeName> Living for<lb/>
           him. which my said he doth willingly both for my sake and<lb/>
           his owne. lettr dated <date when-custom="1666-08-29">Aug 29 1666</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
       </item>
          <item>
          <milestone unit="event" type="letter"/>
             <label>15.</label>
              <p>A copy of my letter to <persName ref="ppl:xc4" n="per1809">Mrs Combr</persName> his mother affter<lb/>
           <rs ref="ppl:tbd-daughter-awt" n="per1810" type="person">my daughter</rs> had the small Pox. <date when-custom="1666">1666</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
         
          </item>
          <item>
@@ -12511,7 +12518,7 @@
              <p>A letter of <persName ref="ppl:tc1" n="per1811">Mr Comber</persName>s to <persName ref="ppl:atc1" n="per1812">my daughter Alice</persName> from <placeName ref="place:Lond_080" n="place269">London</placeName><lb/>
           affter <persName ref="ppl:xh5" n="per1813">Mr Holland</persName>s overtuers to him of <rs ref="ppl:tbd-daughter" n="per1814" type="person">his Daughter</rs> and a<lb/>
           Liveing of 100<hi rend="superscript">l</hi> a yeare. <date when-custom="1666-11-20">no. 20 1666</date>.</p>
-           <anchor/><!-- /letter -->
+           <anchor type="letter"/>
          </item>
          <item>
            <milestone unit="event" type="letter"/>
@@ -12519,7 +12526,7 @@
              <p>A copy of her letter in answer to his from <placeName ref="place:Lond_080" n="place270">London</placeName> affter<lb/>
           hee had writt to her of the overturs of <rs ref="ppl:xh6" n="per1815" type="person"><persName ref="ppl:xh5" n="per1816">Mr Holland</persName>s Dau.</rs><lb/>
           <date when-custom="1666-11-24">no. 24 1666</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
       </item>
          <item>
            <milestone unit="event" type="letter"/>
@@ -12557,7 +12564,7 @@
           left the consideration of this weighty Affaire to his con-<lb break="no"/>
           sideration &amp; begged of God to direct us both to doe for the<lb/>
         best for his Glory &amp; our Comfort in our Childrens happiness.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
          
          <item>
@@ -12584,7 +12591,7 @@
           to a neighbour of a great Estate. but if <persName ref="ppl:tc1" n="per1827">Mr Comber</persName> would<lb/>
           be noe Prejudice to him to stay for her she beeing too young <lb/>
           yett to marry.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
          <item>
          <milestone unit="event" type="letter"/>
@@ -12595,7 +12602,7 @@
           endeavour to deserve her. And if it Pleased him to give<lb/>
           his consent for him he would stay for her if it were.<lb/>
           seaven years soe he might obteyne thatt happiness.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
          <item>
          <milestone unit="event" type="letter"/>
@@ -12607,7 +12614,7 @@
           sent if he would thinke fitt to stay Till she was at<lb/>
             <seg rend="underline">Age</seg>
              sutable to enter in to a married Estate.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
          <item rend="first-line-indent">
          <milestone unit="event" type="letter"/>
@@ -12622,7 +12629,7 @@
                <p>SiC.</p>
             </note>
          </p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
        <item rend="first-line-indent">
          <milestone unit="event" type="letter"/>
@@ -12632,7 +12639,7 @@
               <persName ref="ppl:tc1" n="per1837">Mr Comber</persName>s first letter to <placeName ref="place:York_060" n="place272">yorke</placeName> to <persName ref="ppl:atc1" n="per1838">my daughter<lb/>
     <!-- NOTE [margin] actual position of "23" --> Alice</persName> when she went to Learne Quallityes with <persName ref="ppl:ktp1" n="per1839">Kate her sistr</persName><lb/>
           and <persName ref="ppl:ha1" n="per1840">my made hannah</persName> to waite on them.</p>
-         <anchor/><!-- /letter -->         
+         <anchor type="letter"/>         
        </item>
                  
      <item> 
@@ -12646,7 +12653,7 @@
          In which he really professeth his most indeared Affection<lb/>
             for her &amp; her vertues which obleiges his admiring her modesty<lb/>
          <!-- NOTE [margin] actual position of label --> &amp; other graces &amp; beggs she will declaire her thoughts to him.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
      </item>        
          <item rend="first-line-indent">
          <milestone unit="event" type="letter"/>
@@ -12659,7 +12666,7 @@
           hearty. hopes to waite on her shortly. his writing to <persName ref="ppl:xs11" n="per1843">Mrs
         <seg rend="underline">sherwood</seg></persName><lb/>
            of some differences towards her &amp; <persName ref="ppl:ha1" n="per1844">hanna</persName></p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
          <item rend="first-line-indent">
          <milestone unit="event" type="letter"/>
@@ -12674,7 +12681,7 @@
           have her return home to <placeName ref="place:East_019" n="place276">Newton</placeName>. his owning himselfe unworthy<lb/>
           of her Affection, tho he is unallterable, &amp;c
       </p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
          <item>
          <milestone unit="event" type="letter"/>
@@ -12697,7 +12704,7 @@
           -tunitys to vissitt <placeName ref="place:York_060" n="place278">yorke</placeName>, which he will not doe when she returns<lb/>
           his concluding with Zealous Regards above all others and<lb/>
           his faithfull affections never to Cease.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          </item>
       </list>
           
@@ -12721,7 +12728,7 @@
           -ting me of <rs ref="ppl:tbd-son" n="per1853" type="person">her Son</rs>s affection to <persName ref="ppl:atc1" n="per1854">my Daughter Alice<lb/>
           Thornton</persName> and her desire of that marriage. <date when-custom="1668-08-15">August 15 68</date>
       </p>
-        <anchor/><!-- /letter -->
+        <anchor type="letter"/>
         </item>
         <item>
         <milestone unit="event" type="letter"/>
@@ -12729,7 +12736,7 @@
               A Letter of <rs ref="ppl:tbd-new" n="per1855" type="person"><persName ref="ppl:xc4" n="per1856">Mrs Comber</persName>s mother</rs> affter <rs ref="ppl:tbd-son" n="per1857" type="person">her son</rs>s marriage<lb/>
           with <persName ref="ppl:atc1" n="per1858">my daughter Alice</persName> and had a great Sickness <date when-custom="1669-07-26">July 26 69</date>
          </p>
-        <anchor/><!-- /letter -->
+        <anchor type="letter"/>
         </item>
         <item>
         <milestone unit="event" type="letter"/>
@@ -12737,7 +12744,7 @@
               My <persName ref="ppl:jf1" n="per1859">Lord Frechevill</persName>s letter in regard of my Request<lb/>
           That he would speake to my <persName ref="ppl:xf6" n="per1860">Lord Falconbridge</persName> in <persName ref="ppl:tc1" n="per1861">Mr<lb/>
         Comber</persName>s behalfe <date when-custom="1668-08-30">August 30<hi rend="superscript">th</hi> 1668</date>.</p>
-        <anchor/><!-- /letter -->
+        <anchor type="letter"/>
         </item>
 
       </list>
@@ -12964,7 +12971,7 @@
           up the last 5<hi rend="superscript">l</hi> to be Eight Pound to provid for her selfe. I beeing<lb/>
           in soe weake a condition Expected nothig, but death, but did<lb/>
           hope that as God knew my wrongs; &amp; innocency soe he would<lb/>
-          judge me Righteously. <date when-custom="1668-08-12">Aug. 12<hi rend="superscript">th</hi> 1668</date><anchor/><!-- /letter --></p>
+          judge me Righteously. <date when-custom="1668-08-12">Aug. 12<hi rend="superscript">th</hi> 1668</date><anchor type="letter"/></p>
          <p xml:id="p-1040" rend="first-line-indent">
               <milestone unit="event"/>Affter this my <persName ref="ppl:awn1" n="per1901">Aunt Norton</persName> and <persName ref="ppl:wt1" n="per1902">Mr Thornton</persName> did<lb/>
           perswade &amp; advise her to goe out of the house &amp; she hired a Coach<lb/>
@@ -13040,7 +13047,7 @@
           saw or heard, or knew any Evill by me in all her life, and<lb/>
           cryes out against <persName ref="ppl:acd1" n="per1919">Mrs Danby</persName> to be soe Treatcherous. this<lb/>
            letter dated <date when-custom="1669-05-12">may the 12<hi rend="superscript">th</hi> 1669</date> <placeName ref="place:Lond_080" n="place285">London</placeName>.<milestone unit="marker" rend="delim(rule_fill_right)"/></p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
        </div>
         
         <div xml:id="div-024" type="correspondence">
@@ -13192,7 +13199,7 @@
                <p>
               Sic for 'delivered'.</p>
             </note> for his mercys sake<lb/>
-          and for his owne Glory &amp; my Comfort.<anchor/><!-- /letter --> Thus with many Christian<lb/>
+          and for his owne Glory &amp; my Comfort.<anchor type="letter"/> Thus with many Christian<lb/>
           Arguments did <rs ref="ppl:tbd-lady" n="per1948" type="person">this holy good Lady</rs> strive to Comfort me</p>
          <p xml:id="p-1051" rend="first-line-indent">
               And indeed I had great Cause to blese and Praise the<lb/>
@@ -13227,7 +13234,7 @@
             </note>
             <lb/>
           this matter. dated <date when-custom="1668-10-20">octb. 20 1668</date></p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event"/>
          <p xml:id="p-1055" rend="first-line-indent">
               Since <rs ref="ppl:awn1" n="per1956" type="person">my deare Aunt</rs> had bin soe much influenced by<lb/>
@@ -13312,12 +13319,12 @@
               My <persName ref="ppl:jf1" n="per1977">Lord Frechevill</persName>s kinde letter affter <persName ref="ppl:wt1" n="per1978">Mr Thornton</persName>s Death<lb/>
           he intends to see me and <rs ref="ppl:tbd-children" n="per1979" type="group">my Children</rs> when he comes to <placeName ref="place:York_060" n="place295">yorke</placeName><lb/>
           <date when-custom="1668-10-24">octb. 24 1668</date> &amp; <date when-custom="1668-11-18">no. 18 1668</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event" type="letter"/>
          <p xml:id="p-1063" rend="first-line-indent">
               <persName ref="ppl:xf3" n="per1980">My neece Fairfax</persName> her Condoling letter of my Losse of <rs ref="ppl:wt1" n="per1981" type="person">my<lb/>
           husband</rs> and my weake Condittion by Sickness <date when-custom="1668-11-20">no. 20 1668</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event" type="letter"/>
          <p xml:id="p-1064" rend="first-line-indent">
               <persName ref="ppl:dcl1" n="per1982">Dafeny</persName>s kind and faithfull letter of the Discorce with my<lb/>
@@ -13349,7 +13356,7 @@
           for her use and her Childrens. Lord assist me in this great work<lb/>
           and prosper all our Lawfull designes with thy Providene to thy<lb/>
           Glory and Churches good &amp; the Comfort of us all. <date when-custom="1668-11-01">no. 1<hi rend="superscript">t</hi> 1668</date></p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event"/>
          <p xml:id="p-1067" rend="first-line-indent">
               A good omen. That <persName ref="ppl:tc1" n="per1993">Mr Combr</persName> Takeing out A Licence to be<lb/>
@@ -13388,7 +13395,7 @@
           had bin at <placeName ref="place:York_060" n="place301">yorke</placeName> with <persName ref="ppl:acd1" n="per2003">Mrs Danby</persName>. &amp; she had incenced him against<lb/>
           <persName ref="ppl:tc1" n="per2004">Mr Comber</persName>, &amp; he had incenced my <persName ref="ppl:mny1" n="per2005">Lady yorke</persName> soe that she came<lb/>
           to take away <rs ref="ppl:tbd-child-awt" n="per2006" type="person">my deare Child</rs> from me under the pretence of having<lb/>
-          her confirmed.<anchor/><!-- /letter --> O Lord my God I humbly besech thee in much mercy<lb/>
+          her confirmed.<anchor type="letter"/> O Lord my God I humbly besech thee in much mercy<lb/>
           Pitty my condition. and take my part against all the world Judge<lb/>
           my cause &amp; this poore man soe much wronged &amp; dishonred by there<lb/>
           lyes Judge thou my cause against all my bitter Enymyes &amp; his<lb/>
@@ -13589,7 +13596,7 @@
            That she would take caire of <persName ref="ppl:atc1" n="per2031">god daughter Alice</persName> to be confirmd<lb/>
            by <rs ref="ppl:tbd-minister" n="per2032" type="person">the Bishop</rs> and to take her from me to prevent her marriage<lb/>
            with <persName ref="ppl:tc1" n="per2033">Mr Comber</persName>. <date when-custom="1668-11-10">no. 10<hi rend="superscript">th</hi> 1668</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <p xml:id="p-1086" rend="first-line-indent">
            <!-- Q event/l mention hmm. -->
               Haveing receaved <persName ref="ppl:dcl1" n="per2034">Dafeny</persName>s letters as formerly mentioned<lb/>
@@ -13705,7 +13712,7 @@
           This letter dated <date when-custom="1668-01-02" datingMethod="#JulianMar">Jan. 2 1668</date> and sent to my <persName ref="ppl:awn1" n="per2056">Aunt Norton</persName><lb/>
           by the hand of faithfull <persName ref="ppl:dcl1" n="per2057">Dafeny</persName>, when she went home affter<lb/>.
           the marriage of <rs ref="ppl:tbd-child-awt" n="per2058" type="person">my Childe</rs> as before said;</p>
-        <anchor/><!-- /letter -->
+        <anchor type="letter"/>
         <p xml:id="p-1093" rend="first-line-indent">
               Which letter did give great sattisfaction to <rs ref="ppl:tbd-uncle-awt" n="per2059" type="person">my Uncle</rs> &amp;<lb/>
           <persName ref="ppl:awn1" n="per2060">Aunt norton</persName>; beeing written by soe wise &amp; good a man as <persName ref="ppl:jd2" n="per2061">my<lb/>
@@ -13759,7 +13766,7 @@
           <date when-custom="1668-01-02" datingMethod="#JulianMar">Jan. 2<hi rend="superscript">d</hi> 1668</date> Minnister of Gods Word att <placeName ref="place:Ston_053" n="place305">Stongrave</placeName> in<lb/>
           the Parish of <rs ref="ppl:wt1" n="per2077" type="person">my husband</rs>s Antienters &amp; near to his Estate &amp;<lb/>
           Kindred.</p>
-          <anchor/><!-- /letters -->
+          <anchor type="letter"/><!-- /letters -->
       </div>
        
           <!-- NOTE [div] again new div added because end of l/change of subject -->
@@ -13937,7 +13944,7 @@
          <p xml:id="p-1108" rend="first-line-indent">
               Affter which discource both of them said it was very well<lb/>
           and prudently don and Prayed God to blesse &amp; strengthen me<lb/>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
           Thus I see the mercys and goodness of the Lord my God to me<lb/>
           who both can. &amp; hath overruled the perverce wills of men. and<lb/>
           in much Pitty had Compassion uppon my Soule. &amp; his suffering<lb/>
@@ -13976,7 +13983,7 @@
          
          <date when-custom="1669-01-08" datingMethod="#JulianSlash">Jan. 8<hi rend="superscript">th</hi> 1668<hi rend="superscript">/9</hi></date>
            <!-- NOTE date is *not* in margin -->
-           <anchor/><!-- /letter -->
+           <anchor type="letter"/>
            <milestone unit="event" type="letter"/>
            To which she returnd That she was fully con-<lb break="no"/>
           vinced &amp; sattisifed of the good Ends &amp; necessity of my occasion<lb/>
@@ -14018,7 +14025,7 @@
           more bright as he did to his servant Job: Therefore I<lb/>
           beg you will be comforted in that good God who never did<lb/>
           ner ever failed me. Thus <rs ref="ppl:tbd-aunt" n="per2101" type="person">that good deare Aunt</rs> did<lb/>
-          strive to give me Comfort.<anchor/><!-- /letter --> for which I give the Lord my God<lb/>
+          strive to give me Comfort.<anchor type="letter"/> for which I give the Lord my God<lb/>
           all humble &amp; hearty hon.<hi rend="superscript">or</hi>
              &amp; glory and Praise for ever Amn
          </p>
@@ -14056,7 +14063,7 @@
           or man can say against me for I may take Comfort in my<lb/>
           selfe for non belives any ill of me she blesss God. <date when-custom="1669-01-10" datingMethod="#JulianSlash">Jan <seg rend="underline">. 10 1668<hi rend="superscript">/9</hi></seg></date>.
          </p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <!-- prayer -->
          <p xml:id="p-1116" rend="first-line-indent">
               And for which Comfort I have, by the good hand, and graci<add place="above">ous</add><lb/>
@@ -14089,7 +14096,7 @@
           writt to me then. <date when-custom="1668-10-12">Octb. 12 1668</date> &amp; should have bin entred <lb/>
           before marriage.
       </p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event" type="letter"/>
          <p xml:id="p-1119" rend="first-line-indent">
               Allso Honnest <persName ref="ppl:dcl1" n="per2122">Dafeny</persName>s letter sent then <date when-custom="1668-10-12">Octb. 12 1668</date><lb/>
@@ -14315,7 +14322,7 @@
           did wound her. <g ref="#heart">♡</g>
         to heare such a child of God to be soe wounded<lb/>
           for gods Cause and the providing for <rs ref="ppl:tbd-children" n="per2188" type="group">the Children of my Body</rs>.</p>
-         <anchor/><!-- /letter ? -->
+         <anchor type="letter"/><!-- /letter ? -->
          
         <pb xml:id="page-212" n="212"/>
 
@@ -14364,7 +14371,7 @@
           but she desires I would be advised in a thing, of such Conseques<lb/>
           by my best freinds. <date when-custom="1669-01-23" datingMethod="#JulianSlash">Jan. 23 1668<hi rend="superscript">/9</hi></date>
          </p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event" type="letter"/>
          <p xml:id="p-1140" rend="first-line-indent">
               This letter &amp; the Copy of my Answer to it are in the Bundle<lb/>
@@ -14376,7 +14383,7 @@
           in the Poynt of her match &amp; soe gave her a full Answer to hers<lb/>
           which I have entred before marriage in this Booke. to which this<lb/>
           referres. my Letter Dated <date when-custom="1669-01-26" datingMethod="#JulianSlash">Jan the 26 1668<hi rend="superscript">/9</hi></date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event" type="letter"/>
          <p xml:id="p-1141" rend="first-line-indent">
               A letter of my deare <persName ref="ppl:kdb1" n="per2196">Neece Best</persName>s her great sorrow and<lb/>
@@ -14386,7 +14393,7 @@
           me out of all. and that I will not soe cast my selfe downe<lb/>
           for it for her Tongue is noe slander haveing used all <rs ref="ppl:tbd-husband" n="per2198" type="person">her<lb/>
           husband</rs>s freinds in the like kind. <date when-custom="1669-02-05" datingMethod="#JulianSlash">Feb. 5 1668<hi rend="superscript">/9</hi></date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          
         <pb xml:id="page-213" n="213"/>
 
@@ -14481,7 +14488,7 @@
           write to <persName ref="ppl:ww1" n="per2204">my uncle will.<hi rend="superscript">m</hi> wand.</persName> to delver up <persName ref="ppl:wt1" n="per2205">Mr Thornton</persName>s Bond<lb/>
           about the Affaires of <placeName ref="place:Irel_096" n="place314">Ireland</placeName>, which <persName ref="ppl:cw2" n="per2206">Sir Ch. wand.</persName> had gven him<lb/>
           sattisfaction <date>Jan. 25 and 26<hi rend="superscript">th</hi></date>
-           <anchor/><!-- /letter -->
+           <anchor type="letter"/>
          </p>
          <milestone unit="event" type="letter"/>
          <p xml:id="p-1150" rend="first-line-indent">
@@ -14503,7 +14510,7 @@
          <p xml:id="p-1152" rend="first-line-indent">
               Dated <date when-custom="1669-03-03" datingMethod="#JulianSlash">March 3<hi rend="superscript">d</hi> 1668<hi rend="superscript">/9</hi></date>
          </p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
         </div>
         
         <div xml:id="div-026" type="correspondence">
@@ -14613,7 +14620,7 @@
           was left in to By Debts who was truly sencable of my suffrings<lb/>
           as appeared in his letter to <persName ref="ppl:ww1" n="per2223">my uncle will.<hi rend="superscript">m</hi></persName> when he writt to him<lb/>
           to gett <rs ref="ppl:wt1" n="per2224" type="person">my husband</rs>s Bond from him my letter Dated <date when-custom="1669-06-20">June 20 69</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event" type="letter"/>
          <!-- multiple letters -->
          <p xml:id="p-1160" rend="first-line-indent">
@@ -14624,14 +14631,14 @@
           and true Information much afflicted for my wrongs and highly<lb/>
           sattisfied with all our honest Procedings.
       </p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event" type="letter"/>
          <p xml:id="p-1161" rend="first-line-indent">
               My letter allso to <persName ref="ppl:xf3" n="per2226">my good neece Faire fax</persName> found great<lb/>
           acceptance with her nor had she ever a misdeemeng thought of me<lb/>
           or any conserned but wished us all immaginable Joy &amp; comfort<lb/>
           These dated <date when-custom="1669-06-21">June 21 1669</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event" type="letter"/>
          <p xml:id="p-1162" rend="first-line-indent">
               Receaved a condoling letter from <rs ref="ppl:tbd-relative-awt" n="per2227" type="person">my nece</rs><!-- niece fairfax as above? --> of <rs ref="ppl:wt1" n="per2228" type="person">my husband</rs>s<lb/>
@@ -14651,7 +14658,7 @@
          who was Esteemed an understanding &amp; Ingenious Person &amp;<lb/>
           may doe very well in the marriage of <rs ref="ppl:tbd-daughter-awt" n="per2230" type="person">my Daughter</rs> wishing all<lb/>
           Joy and Comfort in them. <date when-custom="1669-06-23">June 23 1669</date>.</p>
-         <anchor/><!-- /letter -->
+         <anchor type="letter"/>
          <milestone unit="event"/>
          <p xml:id="p-1163" rend="first-line-indent">
               It Pleased God in his great mercy and goodness to my selfe<lb/>
