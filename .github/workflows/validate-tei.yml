@@ -28,6 +28,12 @@ jobs:
     - name: Lint book_of_remembrances.xml
       uses: ChristophWurst/xmllint-action@master
       with:
+        xml-file: ./texts/03_book_three/book_three.xml
+        xml-schema-file: ./tei_all.rng
+        xml-schema-type: relaxng
+    - name: Lint book_of_remembrances.xml
+      uses: ChristophWurst/xmllint-action@master
+      with:
         xml-file: ./texts/00_book_of_remembrances/book_of_remembrances.xml
         xml-schema-file: ./tei_all.rng
         xml-schema-type: relaxng
