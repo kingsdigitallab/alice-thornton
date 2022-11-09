@@ -25,6 +25,12 @@ jobs:
         xml-file: ./texts/02_book_two/book_two.xml
         xml-schema-file: ./tei_all.rng
         xml-schema-type: relaxng
+    - name: Lint book_three.xml
+      uses: ChristophWurst/xmllint-action@master
+      with:
+        xml-file: ./texts/03_book_three/book_three.xml
+        xml-schema-file: ./tei_all.rng
+        xml-schema-type: relaxng
     - name: Lint book_of_remembrances.xml
       uses: ChristophWurst/xmllint-action@master
       with:
