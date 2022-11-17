@@ -1,6 +1,6 @@
 ---
 title: "TEI for Events in Alice Thornton's Books"
-feature: /assets/img/posts/most-mentioned-names-bar-chart-fi.png
+feature: /assets/img/posts/Rueff-wellcome-detail.jpg
 status: draft
 authors:
   - showard
@@ -9,6 +9,7 @@ tags:
   - events
 ---
 
+In an [earlier post](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-08-25-encoding-alice-thorntons-books/), I introduced some ways in which TEI markup and linkage can help the project to analyse patterns in Alice's writing and trace differences between her books, focusing on mentions of people. The project is also using TEI to mark up her descriptions of *events* and link them across the books.
 
 > My dear husband William Thornton
 Esquire went to Malton to sister Portington
@@ -22,9 +23,7 @@ earnest business to speak with some about some money owed
 him. And I seeing a fit of his palsy drawing on was extremely
 against his going at that time.[^2]
 
-There are striking differences between these two accounts of the same event a few days before William Thornton's death in September 1668. Why? Alice Thornton wrote the first within a few months of his death and the second many years later. In the course of the later book it transpires that he had gone to Malton seeking revenge for slurs against Alice put about by a Mr Tankerd, but she didn't know of this until some time later. It seems likely that this distressing piece of new information influenced her later memory (which was [not always reliable](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/)).
-
-In an [earlier post](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-08-25-encoding-alice-thorntons-books/), I introduced some ways in which TEI markup and linkage can help the project to analyse patterns in Alice's writing and trace differences between her books, focusing on mentions of people. The project is also using TEI to mark up her descriptions of events and link them across the books, which will make it possible to search and compare her narratives. However, identifying, linking and tagging events are all considerably more challenging than the same task for entities such as names and places.
+There are striking differences between these two accounts of the same event a few days before William Thornton's death in September 1668. Why? Alice Thornton wrote the first within a few months of his death and the second many years later. In the course of the later book it transpires that he had gone to Malton seeking revenge for slurs against Alice put about by a Mr Tankerd, but she didn't know of this until some time later. It seems likely that this distressing piece of information influenced her later memory (which, as we already know, [was not always reliable](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/)).
 
 
 Identifying and linking events
@@ -68,7 +67,8 @@ There are often tensions between the complexities of these narratives of life ev
 TEI has a number of methods for handling the problem of overlapping structures[^5], but they often have downsides, particularly that they're less straightforward to work with and to process than nested tags. The project is using a [boundary marking](https://tei-c.org/release/doc/tei-p5-doc/en/html/NH.html#NHBM) technique in which the beginning and end of an event mention are marked up with "empty" tags (&lt;[milestone](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-milestone.html)/&gt; and &lt;[anchor](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-anchor.html)/&gt;). We then have various options to link together fragmented mentions, such as @next and @prev attributes or &lt;[join](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-join.html)&gt; tags.
 
 
-[to be concluded...]
+Identifying, linking and tagging events are all considerably more challenging than the same task for entities such as names and places, but will make it possible to search and compare the ways in which Alice changed her accounts of key events in her life.
+
 
 
 
