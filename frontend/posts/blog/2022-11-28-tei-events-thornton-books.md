@@ -1,5 +1,5 @@
 ---
-title: "TEI for Events in Alice Thornton's Books"
+title: "TEI and Narratives of Events in Alice Thornton's Books"
 feature: /assets/img/posts/Rueff-wellcome-detail.jpg
 status: draft
 authors:
