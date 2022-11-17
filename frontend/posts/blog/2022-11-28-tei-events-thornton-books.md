@@ -36,9 +36,9 @@ The project has been compiling a reference list of events in the books, which is
 
 Even so, locating individual mentions of events within the texts can be difficult. Descriptions of events can be highly varied, encompassing anything from one sentence to several pages. Alice's prose is complex, and one event may flow into another - and back again - in ways that defy pinpointing for markup.
 
-In most cases matching up events across books is quite straightforward, but there are exceptions. A mention of an event may be very short, so that it's difficult to be certain if it is the same as a longer version elsewhere, and Alice's dating is not always consistent. This one initially caught us out.
-
 ![title page: Scarbrough Spaw, or, A description of the nature and vertues of the spaw at Scarbrough in Yorkshire. Also a treatise of the nature and use of water in general, and the several sorts thereof, as sea, rain, snow, pond, lake, spring, and river water, with the original causes and qualities... By Robert Wittie, Dr. in Physick.]({{"/assets/img/posts/thornton_books_2022-Jun-08_scarborough-spaw.jpg" | url}} "Robert Wittie, 'Scarbrough-Spaw' (1667), frontispiece."){.media-right}
+
+In most cases matching up events across books is quite straightforward, but there are exceptions. A mention of an event may be very short, so that it's difficult to be certain if it is the same as a longer version elsewhere, and Alice's dating is not always consistent. This one initially caught us out.
 
 
 > 1658<br>
