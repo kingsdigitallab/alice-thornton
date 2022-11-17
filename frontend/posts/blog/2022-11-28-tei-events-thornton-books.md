@@ -1,5 +1,5 @@
 ---
-title: "TEI for Events in Alice Thornton's Books"
+title: "TEI and Narratives of Events in Alice Thornton's Books"
 feature: /assets/img/posts/Rueff-wellcome-detail.jpg
 status: draft
 authors:
@@ -11,6 +11,8 @@ tags:
 ---
 
 In an [earlier post](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-08-25-encoding-alice-thorntons-books/), I introduced some ways in which TEI markup and linkage can help the project to analyse patterns in Alice's writing and trace differences between her books, focusing on mentions of people. The project is also using TEI to mark up her descriptions of *events* and link them across the books.
+
+![photograph of an old church with market stalls in the foreground]({{"/assets/img/posts/malton_Church_Festival_wmc_ccbysa30.jpg" | url}} "Malton and Norton, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons"){.media-left}
 
 > My dear husband William Thornton
 Esquire went to Malton to sister Portington
@@ -36,6 +38,8 @@ Even so, locating individual mentions of events within the texts can be difficul
 
 In most cases matching up events across books is quite straightforward, but there are exceptions. A mention of an event may be very short, so that it's difficult to be certain if it is the same as a longer version elsewhere, and Alice's dating is not always consistent. This one initially caught us out.
 
+![title page: Scarbrough Spaw, or, A description of the nature and vertues of the spaw at Scarbrough in Yorkshire. Also a treatise of the nature and use of water in general, and the several sorts thereof, as sea, rain, snow, pond, lake, spring, and river water, with the original causes and qualities... By Robert Wittie, Dr. in Physick.]({{"/assets/img/posts/thornton_books_2022-Jun-08_scarborough-spaw.jpg" | url}} "Robert Wittie, 'Scarbrough-Spaw' (1667), frontispiece."){.media-right}
+
 
 > 1658<br>
 > The weakness of my body continued so great and long 
@@ -54,7 +58,7 @@ which followed every day by siege and was caused by my last travail
 and torment in childbirth. Which brought me so low and weak that I fainted 
 almost every day upon such occasions...[^4]
 
-It didn't take long to work out that she was describing the same illness after giving birth to her fifth child in December 1657, but I think our initial confusion was caused by a change in narrative focus. Firstly, the two accounts have different dates, and this is because her emphasis is on different *stages* of the same event. Not only does she emphasise different ailments, the passage in *BookRem* only describes the illness, whereas in *Book 1* it's just the first paragraph of a longer section in which she says much more about her treatment and cure. Taken together, though, the two accounts give a much fuller picture of her post-natal illness, and for how long she must have been unwell.
+It didn't take long to work out that she was describing the same illness after giving birth to her fifth child in December 1657, but I think our initial confusion was caused by a change in narrative focus. Firstly, the two accounts have different dates, and this is because her emphasis is on different *stages* of the same event. Not only does she emphasise different ailments, the passage in *BookRem* only describes the illness, whereas in *Book 1* it's just the first paragraph of a longer section in which she says much more about her treatment and cure at Scarborough Spa. Taken together, though, the two accounts give a much fuller picture of her post-natal illness, and for how long she must have been unwell.
 
 It is clear that not all events are of equal significance to Alice; her pregnancies and births of her children are among a number of major events that she describes repeatedly, including at least one long detailed narrative. It is these important and repeatedly described events that are of most interest to the project, but they're also the most complex and challenging to model as data.
 
