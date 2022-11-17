@@ -12,6 +12,8 @@ tags:
 
 In an [earlier post](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-08-25-encoding-alice-thorntons-books/), I introduced some ways in which TEI markup and linkage can help the project to analyse patterns in Alice's writing and trace differences between her books, focusing on mentions of people. The project is also using TEI to mark up her descriptions of *events* and link them across the books.
 
+![photograph of an old church with market stalls in the foreground]({{"/assets/img/posts/malton_Church_Festival_wmc_ccbysa30.jpg" | url}} "Malton and Norton, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons"){.media-left}
+
 > My dear husband William Thornton
 Esquire went to Malton to sister Portington
 on Friday the 11th of September 1668, and
