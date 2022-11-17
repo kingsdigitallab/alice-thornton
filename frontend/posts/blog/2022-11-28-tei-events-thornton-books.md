@@ -37,10 +37,15 @@ In most cases matching up events across books is quite straightforward, but ther
 
 
 > 1658<br>
-The weakness of my body continued so great and long after my hard child birth of my son that it brought me  almost into a consumption, none expecting for many days together that I  should at all recover, and when it was done I was lame almost a quarter of a year of  my left knee, that I got in my labour.[^3]
+> The weakness of my body continued so great and long 
+> after my hard child birth of my son that it brought me  
+> almost into a consumption, none expecting for many days 
+> together that I  should at all recover, and when it was 
+> done I was lame almost a quarter of a year of  my left 
+> knee, that I got in my labour.[^3]
 
 > My Cure of Bleeding at Scarborough August 1659. <br>
-It was the good pleasure of God to continue me most  wonderfully, 
+>It was the good pleasure of God to continue me most  wonderfully, 
 though in much weakness, after that excessive loss of blood & spirits 
 in childbed, with the continuance of lameness above 20 weeks after, 
 and the loss of blood and strength by the bleeding of the haemorrhoids, 
