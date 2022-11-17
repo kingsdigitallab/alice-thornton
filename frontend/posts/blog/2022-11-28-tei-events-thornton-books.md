@@ -12,7 +12,7 @@ tags:
 
 In an [earlier post](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-08-25-encoding-alice-thorntons-books/), I introduced some ways in which TEI markup and linkage can help the project to analyse patterns in Alice's writing and trace differences between her books, focusing on mentions of people. The project is also using TEI to mark up her descriptions of *events* and link them across the books.
 
-![photograph of an old church with market stalls in the foreground]({{"/assets/img/posts/malton_Church_Festival_wmc_ccbysa30.jpg" | url}} "Malton and Norton, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons"){.media-left}
+![photograph of an old church with market stalls in the foreground]({{"/assets/img/posts/malton_Church_Festival_wmc_ccbysa30.jpg" | url}} "[Malton Church and Market (2010)](https://commons.wikimedia.org/wiki/File:Church_Festival.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons"){.media-left}
 
 > My dear husband William Thornton
 Esquire went to Malton to sister Portington
@@ -98,7 +98,7 @@ Notes
 [^2]: 'But the time of that faire att maulton was come, and my
 deare heart, would needs goe thither. prettending to me some
 earnest bussiness to speake with somme, about some monney owed
-him. & I seeing a fitt of his Pallsye241 drawing on, was extreamly
+him. & I seeing a fitt of his Pallsye drawing on, was extreamly
 against his goeing att that time': *Book 3: The Second Book of My Widowed Condition*, British Library MS Add 88897/2, p. 96.
 
 [^3]: '1658	 The weakenesse of my bodie continued So great and long affter my hard Child birth of my sonne. that it brought me allmost into a consumtion. non expecting for manye daies together that I should at all recover. & when it was don I was lame allmost a qr of a yeare of my left knee, that I gott in my labour': *BookRem*, p. 32.
