@@ -1,6 +1,6 @@
 ---
 title: "TEI and Narratives of Events in Alice Thornton's Books"
-feature: /assets/img/posts/Rueff-wellcome-detail.jpg
+feature: /assets/img/posts/malton_Church_Festival_wmc_ccbysa30_detail.jpg
 status: draft
 authors:
   - showard
