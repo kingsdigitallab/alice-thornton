@@ -36,11 +36,11 @@ Even so, locating individual mentions of events within the texts can be difficul
 In most cases matching up events across books is quite straightforward, but there are exceptions. A mention of an event may be very short, so that it's difficult to be certain if it is the same as a longer version elsewhere, and Alice's dating is not always consistent. This one initially caught us out.
 
 
-> 1658  
-The weakness of my body continued  so great and long after my hard child birth of my son that it brought me  almost into a consumption, none expect ing for many days together that I  should at all recover, and when it was done  I was lame almost a quarter of a year of  my left knee, that I got in my labour.[^3]
+> 1658<br>
+The weakness of my body continued so great and long after my hard child birth of my son that it brought me  almost into a consumption, none expecting for many days together that I  should at all recover, and when it was done I was lame almost a quarter of a year of  my left knee, that I got in my labour.[^3]
 
-> My Cure of Bleeding at Scarborough August 1659.   <br>
-It was the good pleasure of God to continue me most   wonderfully, though in much weakness, after that excessive loss of blood & spirits in childbed, with the continuance of lameness above 20 weeks after, and the loss of blood and strength by the bleeding of the haemorrhoids, which followed  every day by siege and was caused by my last travail and torment in childbirth. Which brought me so low and weak that I fainted almost every day upon such occasions...[^4]
+> My Cure of Bleeding at Scarborough August 1659. <br>
+It was the good pleasure of God to continue me most  wonderfully, though in much weakness, after that excessive loss of blood & spirits in childbed, with the continuance of lameness above 20 weeks after, and the loss of blood and strength by the bleeding of the haemorrhoids, which followed  every day by siege and was caused by my last travail and torment in childbirth. Which brought me so low and weak that I fainted almost every day upon such occasions...[^4]
 
 It didn't take long to work out that she was describing the same illness after giving birth to her fifth child in December 1657, but I think the initial confusion was caused by a change in narrative focus. Not only does she emphasise different ailments, the passage in *BookRem* only describes the illness, whereas in *Book 1* it is just the first paragraph of a longer section in which the emphasis is much more on her treatment and cure. Taken together, though, the two accounts give a fuller picture of this post-natal illness and how long it lasted.
 
