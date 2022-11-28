@@ -1,7 +1,7 @@
 ---
 title: "TEI and Narratives of Events in Alice Thornton's Books"
 feature: /assets/img/posts/malton_Church_Festival_wmc_ccbysa30_detail.jpg
-status: draft
+status: live
 authors:
   - showard
 tags:
