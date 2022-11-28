@@ -83,7 +83,7 @@ There are often tensions between the complexities of these narratives of life ev
 TEI has a number of methods for handling the problem of overlapping structures[^5], but they often have downsides, particularly that they're less straightforward to work with and to process than nested tags. The project is using a [boundary marking](https://tei-c.org/release/doc/tei-p5-doc/en/html/NH.html#NHBM) technique in which the beginning and end of an event mention are marked up with "empty" tags (&lt;[milestone](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-milestone.html)/&gt; and &lt;[anchor](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-anchor.html)/&gt;), linked with a [@spanTo](https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-att.spanning.html) attribute. We then have various options to link together fragmented mentions, such as [@next and @prev](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.linking.html) attributes or &lt;[join](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-join.html)&gt; tags.
 
 
-Identifying, linking and tagging events are all considerably more challenging than the same task for entities such as names and places, but will make it possible to search and compare the ways in which Alice changed her accounts of key events in her life.
+Identifying, tagging and linking events are all considerably more challenging than the same task for entities such as names and places, but of crucial importance to the project. This work will make it possible to search and compare the ways in which Alice changed her accounts of key events in her life.
 
 
 
