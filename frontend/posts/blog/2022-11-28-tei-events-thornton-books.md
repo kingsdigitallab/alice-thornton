@@ -26,7 +26,7 @@ earnest business to speak with some about some money owed
 him. And I seeing a fit of his palsy drawing on was extremely
 against his going at that time.[^2]
 
-There are striking differences between these two accounts of the same event a few days before William Thornton's death in September 1668. Why? We think that Alice Thornton wrote the first within a few months of his death and the second many years later. In the course of the later book it transpires that he had gone to Malton seeking revenge for slurs against Alice put about by a Mr Tancred, but she didn't know of this until some time later. It seems likely that this distressing piece of information influenced her later memory (which, as we already know, [was not always reliable](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/)).
+There are striking differences between these two accounts of the same event a few days before William Thornton's death in September 1668. Why? We think that Alice Thornton wrote the first within a few months of his death and the second many years later. In the course of the later book it transpires that he had gone to Malton seeking revenge for slurs against Alice put about by one Charles Tancred, but she didn't know of this until some time later. It seems likely that this distressing piece of information influenced her later memory (which, as we already know, [was not always reliable](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/)).
 
 
 Identifying and linking events
@@ -42,20 +42,20 @@ In most cases matching up events across books is quite straightforward, but ther
 
 
 > 1658<br>
-> The weakness of my body continued so great and long 
-> after my hard childbirth of my son that it brought me 
-> almost into a consumption, none expecting for many days 
-> together that I should at all recover, and when it was 
-> done I was lame almost a quarter of a year of my left 
+> The weakness of my body continued so great and long
+> after my hard childbirth of my son that it brought me
+> almost into a consumption, none expecting for many days
+> together that I should at all recover, and when it was
+> done I was lame almost a quarter of a year of my left
 > knee, that I got in my labour.[^3]
 
 > My Cure of Bleeding at Scarborough August 1659.<br>
->It was the good pleasure of God to continue me most wonderfully, 
-though in much weakness, after that excessive loss of blood & spirits 
-in childbed, with the continuance of lameness above 20 weeks after, 
-and the loss of blood and strength by the bleeding of the haemorrhoids, 
-which followed every day by siege and was caused by my last travail 
-and torment in childbirth. Which brought me so low and weak that I fainted 
+>It was the good pleasure of God to continue me most wonderfully,
+though in much weakness, after that excessive loss of blood & spirits
+in childbed, with the continuance of lameness above 20 weeks after,
+and the loss of blood and strength by the bleeding of the haemorrhoids,
+which followed every day by siege and was caused by my last travail
+and torment in childbirth. Which brought me so low and weak that I fainted
 almost every day upon such occasions...[^4]
 
 It didn't take long to work out that she was describing the same illness after giving birth to her fifth child in December 1657, but I think our initial confusion was caused by a change in narrative focus. Firstly, the two accounts have different dates, and this is because her emphasis is on different *stages* of the same event. Not only does she emphasise different ailments, the passage in *BookRem* only describes the illness, whereas in *Book 1* it's just the first paragraph of a longer section in which she says much more about her treatment and cure at [Scarborough Spa](https://www.citizan.org.uk/blog/2017/Aug/24/scarborough-first-seaside-resort/). Taken together, though, the two accounts give a much fuller picture of her post-natal illness, and for how long she must have been unwell.
