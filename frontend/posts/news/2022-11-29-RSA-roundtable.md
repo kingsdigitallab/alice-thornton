@@ -17,6 +17,6 @@ The roundtable is organised by Naomi J. Miller (Smith College) and Sara Jayne St
 
 Cordelia will be talking about her collaboration with [Debbie Cannon](https://debbiecannon.org) for the [Being Human Festival](https://www.beinghumanfestival.org/resources/case-studies/finding-right-format-remarkable-deliverances-thornton) in 2019, which resulted in the play [‘The Remarkable Deliverances of Alice Thornton’](https://debbiecannon.org/the-remarkable-deliverances-of-alice-thornton/).
 
-Suzanne Trill will be talking about the audience feedback at this event and how the play changed her own view of Thornton.
+Suzanne will be talking about the audience feedback from this event and how the play changed her own view of Thornton.
 
 For more on the session and its participants click [here](https://rsa.confex.com/rsa/22virtual/meetingapp.cgi/Session/6131)
