@@ -164,7 +164,6 @@
       - at least half of people tagged with <rs> (type=person/group) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
       - completion of people.xml standoff to include relationships - to be done once bios have been completed
       
-      2022-07-20. *not* added mnote xml:ids to this book as there is no tagging that requires it. ok, there's one!
       
       
       TODO
@@ -9984,12 +9983,12 @@ As more att Large may apeare in <ref type="atb">my first Booke in<lb/>
             from breaking up the Excecution &amp; against him</p>
           <anchor type="event"/>
           
-          <milestone unit="event"/>
+          
          <p xml:id="p-0753" rend="first-line-indent">Therefore I judge it necessary to incert the<lb/>
             orriginall letter of <persName ref="ppl:rc2" n="per1225">my Cozen Covell</persName> about it</p>
           
        <!-- Q [structure] 
-          alternative?  as in book 3, mark up with milestone/anchor type=letter  
+          alternative?  as in book 3, could mark up with milestone/anchor type=letter
           
           problem! I want to put the letter inside a sub div; but can't use div. 
           I *think* <floatingText> is appropriate unless there's something else I've overlooked.
@@ -10012,8 +10011,6 @@ As more att Large may apeare in <ref type="atb">my first Booke in<lb/>
             Rectified those faults: <date when-custom="1662-08-22" type="letter">Aug.22 1662</date>.
          </head>
           
-         <!-- Q how many letters are there in the books and is it worth doing correspDesc markup at all...? 
-            quite a lot of letters mentioned/summarised in book 3, though i don't think any others are written out in full like this one. -->
          <!-- Q [authors]? it's not literary but it is written by someone else. -->
          <p xml:id="p-0754">Deare <rs ref="ppl:tbd-cousin" n="per1228" type="person">Cosine</rs>./</p><!-- Q [names] Does this need an <rs> tag? - JE -->
          <p xml:id="p-0755">I haue seriously perused all the writings you sent me<lb/>
@@ -10054,7 +10051,8 @@ As more att Large may apeare in <ref type="atb">my first Booke in<lb/>
             noe present provission at all uppon any of your<lb/>
             Issues. But left att liberty to <rs ref="ppl:tbd-cousin-awt" n="per1232" type="person">my Cosen</rs> to dispose<lb/>
             of as he pleaseth, as you may see fol. 12./</p>
-         <p xml:id="p-0757" rend="first-line-indent">The Seacond Proviso for makeing of a Joynture<lb/>
+         <p xml:id="p-0757" rend="first-line-indent">
+            The Seacond Proviso for makeing of a Joynture<lb/>
             to a Second wife, I like the worst of <del rend="strikethrough">all</del> any part of the<lb/>
             intended Setlement, For by the first Proviso which you<lb/>
             scruple at, a sonne by a Second venture cannot have<lb/>
@@ -10073,7 +10071,7 @@ As more att Large may apeare in <ref type="atb">my first Booke in<lb/>
          </p>
          </body>
        </floatingText> 
-          <anchor type="event"/><!-- Q /event make it type=letter? -->
+          
           
         <milestone unit="event"/>
          <p xml:id="p-0758" rend="first-line-indent">
