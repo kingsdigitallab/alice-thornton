@@ -3,7 +3,7 @@ title: Project Team to be interviewed on the radio
 feature: /assets/img/posts/JasmineWebster.jpg
 status: live
 authors:
-  - jedge
+  - cbeattie
 tags:
   - news
   - media
