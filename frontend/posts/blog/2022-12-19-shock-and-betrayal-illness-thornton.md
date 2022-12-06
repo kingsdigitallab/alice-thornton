@@ -9,7 +9,10 @@ tags:
   - passions
   - relationships
   - grief
+  childbirth
 ---
+
+Content note: miscarriage, child illness
 
 ![A 17th century painting of a male doctor dressed in black standing over a sick woman who is sitting in a chair with her head on a pillow. There is a four-poster bed in the background]({{"/assets/img/posts/Steen_Doctor_and_His_Patient.jpg" | url}} "Jan Steen, 'The Sick Woman', (1663-66). Public domain, via Wikimedia Commons")
 
@@ -61,7 +64,7 @@ The organs, such as the heart, played an important role in bodily function in th
 
 According to Galenic thought, it was the six non-naturals that caused bodily humours to go into imbalance. These were air, food and drink, rest and exercise, sleep and waking, excretions and retentions, and mental affections - the passions. It is the last of these that concerns us here. The passions - what we would today call emotions - came under increasing scrutiny after 1500, most notably with Robert Burton's *Anatomy of Melancholy*, first published in 1621. The passions were a core part of this humoural system, not somehow separate from how the body functioned.
 
-The concept of friendship, too, had undergone significant scrutiny in the century before Thornton. Francis Bacon (1561-1626) wrote that the main purpose of friendship was 'the ease and discharge of the fullness and swellings of the heart'[^8] which was the base of all passions. So the opposite of friendship - betrayal by someone to whom you had quite literally opened your heart - was considered dangerous and likely to cause a sudden and dangerous flux of humours.
+The concept of friendship, too, had undergone significant scrutiny in the century before Thornton. Francis Bacon (1561-1626) wrote that the main purpose of friendship was 'the ease and discharge of the fullness and swellings of the heart'[^8] which was the base of all passions. So the opposite of friendship - betrayal by someone to whom you had quite literally opened your heart - was considered likely to cause a sudden and dangerous flux of humours.
 
 ---
 
