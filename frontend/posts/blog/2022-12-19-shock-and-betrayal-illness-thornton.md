@@ -51,7 +51,7 @@ How can we explain these profound and perhaps rather alien experiences in Thornt
 
 ## Early modern bodies
 
-![A 17th century page from a black and white anatomical book showing a diagram of the heart with its various parts labelled.]({{"/assets/img/posts/'corporis_humani_highmore.jpg" | url}} "Nathaniel Highmore, 'Corporis Humani Disquisitio Anatomica' (1651). Public domain, via Wellcome Images"){.media-right}
+![A 17th century page from a black and white anatomical book showing a diagram of the heart with its various parts labelled.]({{"/assets/img/posts/'corporis_humani_highmore.jpg" | url}} "Nathaniel Highmore, 'Corporis Humani Disquisitio Anatomica', (1651). © Wellcome Images"){.media-right}
 
 The organs, such as the heart, played an important role in bodily function in the early modern period. But, as Ulinka Rublack points out, what was really central here was the liquids that the organs processed - the four humours: blood, yellow bile, black bile and phlegm.[^7] An excess of any one of these caused illness, so, it was understood that a flux of one of these from any orifice of the body was a way of restoring the balance. Like its medieval counterpart, early modern medicine was still very much based on the ancient medicine of Hippocrates and Galen.
 
@@ -61,9 +61,10 @@ The concept of friendship, too, had undergone significant scrutiny in the centur
 
 ---
 
-[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'I lying the next chamber to her and did hear her when she came out of them to give great skrikes & suddenly that it frightened me extremely, and all the time of this poor child's illness I myself was at death's door by the extreme excess of those, upon the fright & terror came upon me, so great floods that I was spent & my breath lost, my strength departed from me & I could not speak for fainting & dispirited so that my dear mother & Aunt & friends did not expect my life but overcome with sorrow for me. Nor durst they tell me in what a condition my dear Nally was in her fits lest grief for her added to my own extremity with loss of blood might have extinguished my miserable life'. Alice Thornton, *Book 2: The First Book of My Widowed Condition*, Durham Cathedral Library, GB-0033-CCOM 7 (hereafter *Book 2*), pp. 150-151.
+[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'I lieng the next Chambr to her and did
+heare her when she came out of them to give great Schrikes & sudainly that it frighted me extreamely, and all the time of this poore Childs illness. I my selfe. was att deaths dore by The extreame Excesse of those, uppon the fright & Terror came, uppon me, soe great floods that I was spent & my breath lost, my strength departed from me & I could not speake for faintings & dis-piritted soe that my d. mothr & Aunt & freinds did not expect my Life but over come with sorrow for me. Nor durst they tell me in what a condition my deare naly was in her fitts least greife for her added to my owe  extreamity with losse of Blood might  have have  extinguished my miserable Life'. Alice Thornton, *Book 2: The First Book of My Widowed Condition*, Durham Cathedral Library, GB-0033-CCOM 7 (hereafter *Book 2*), pp. 150-151.
 
-[^2]: 'Which did so suddenly affright me being weak as before & this flood came down upon me as before and they had much to do to get me carried safe into my bed again'. *Book 2*, p. 152.
+[^2]: 'Which did soe sudainly affright me beeing weake as before & this flood came downe uppon me as before and they had much to doe to gett me carried safe into my bed againe.' *Book 2*, p. 152.
 
 [^3]: 'And the very greife I apprehended was soe great at that time on the discovry to me that it did force me to that miscarriage which I had & long contined Sicknes by the ex-cesse of floods which lasted a long time on me and ment-tioned in my first Booke'. *Book 2*, p. 275.
 
