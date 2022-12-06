@@ -9,6 +9,8 @@ tags:
   - passions
 ---
 
+![A 17th century painting of a male doctor dressed in black standing over a sick woman who is sitting in a chair with her head on a pillow. There is a four-poster bed in the background]({{"/assets/img/posts/Steen_Doctor_and_His_Patient.jpg" | url}} "Jan Steen, 'The Sick Woman', (1663-66). Public domain, via Wikimedia Commons")
+
 In February 1655, Alice Thornton was in bed recovering from giving birth to her second daughter, Elizabeth (Betty), when her maid called out to her. Her one-year-old daughter, Alice (Nally), in her cot in the next room, was experiencing convulsive fits. Her maid Jane Flower and the midwife Jane Rimer were acting to save Nally. The fits stopped and started. The physical and mental effect that this sudden grief had on Thornton was profound:
 
 >I [was] lying the next chamber to her and did hear her when she came out of them [i.e. her fits] to give great skrikes and so suddenly that it frightened me extremely. And all the time of this poor child's illness I myself was at death's door by the extreme excess of those, upon the fright and terror came upon me, so great floods that I was spent and my breath lost, my strength departed from me and I could not speak for fainting, and dispirited so that my dear mother and aunt and friends did not expect my life, but were overcome with sorrow for me. Nor durst they tell me in what condition my dear Nally was in her fits, lest grief for her added to my own extremity with loss of blood might have extinguished my miserable life.[^1]
