@@ -49,7 +49,7 @@ In 1668 the most well-known betrayal of Thornton's life happened, when her niece
 
 Very shortly after this incident, on 17 September 1668, William Thornton died aged 44 on a trip to Malton. On top of the Danby slanders, this sudden grief made her existing condition even worse:
 
->My fainting and weaknesses were so great and returned so strongly upon me all that night and for two days after that dear friends and my children did not expect, but when I should have departed, having lost so much blood in the flood that broke upon me by excess of grief at the first knowing of my slanderous accusation by Mrs Anne Danby and her maid Barbara Todd[^6]
+>My fainting and weaknesses were so great and returned so strongly upon me all that night and for two days after that dear friends and my children did not expect, but when I should have departed, having lost so much blood in the flood that broke upon me by excess of grief at the first knowing of my slanderous accusation by Mrs Anne Danby and her maid Barbara Todd.[^6]
 
 How can we explain these extreme near-death experiences as a reaction to grief? The answer lies in early modern understandings of the inner workings of the human body.
 
