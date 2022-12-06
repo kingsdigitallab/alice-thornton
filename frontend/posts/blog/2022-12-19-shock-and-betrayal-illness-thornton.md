@@ -9,8 +9,6 @@ tags:
   - passions
 ---
 
-![A 17th century painting of an older woman in a black cap with a sick toddler on her lap in a domestic setting.](/assets/img/posts/the-sick-child.jpg "Gabriel Metsu, 'The Sick Child', c. 1660. Public domain, via Wikimedia Commons")
-
 In February 1655, Alice Thornton was in bed recovering from giving birth to her second daughter, Elizabeth (Betty), when her maid called out to her. Her one-year-old daughter, Alice (Nally), in her cot in the next room, was experiencing convulsive fits. Her maid Jane Flower and the midwife Jane Rimer were acting to save Nally. The fits stopped and started. The physical and mental effect that this sudden grief had on Thornton was profound:
 
 >I [was] lying the next chamber to her and did hear her when she came out of them [i.e. her fits] to give great skrikes and so suddenly that it frightened me extremely. And all the time of this poor child's illness I myself was at death's door by the extreme excess of those, upon the fright and terror came upon me, so great floods that I was spent and my breath lost, my strength departed from me and I could not speak for fainting, and dispirited so that my dear mother and aunt and friends did not expect my life, but were overcome with sorrow for me. Nor durst they tell me in what condition my dear Nally was in her fits, lest grief for her added to my own extremity with loss of blood might have extinguished my miserable life.[^1]
@@ -20,6 +18,8 @@ Thornton experienced a flood (uterine bleeding), and the maids then moved Nally 
 >Which did so suddenly affright me being weak as before and this flood came down upon me as before, and they had much to do to get me carried safe into my bed again.[^2]
 
 Luckily, Nally once again recovered, according to Thornton, thanks to God.
+
+![A 17th century painting of an older woman in a black cap with a sick toddler on her lap in a domestic setting.]({{"/assets/img/posts/the-sick-child.jpg" | url}} "Gabriel Metsu, 'The Sick Child', (c. 1660). Public domain, via Wikimedia Commons"){.media-left}
 
 Thornton here describes a process which might seem melodramatic to the modern reader. She experiences a sudden shock of grief, which leads to a huge flux in her humours (uterine bleeding and the drying up of her milk). She is close to death, according not only to herself but to others around her. But God steps in to 'deliver' her from this terrible fate. This is a process that Thornton describes throughout all four of her autobiographical books, always caused by a sudden shock. I want to try and place this process in the context of both Thornton's writings and late-seventeenth-century understandings of medicine and the body.
 
@@ -51,7 +51,7 @@ How can we explain these profound and perhaps rather alien experiences in Thornt
 
 ## Early modern bodies
 
-![A 17th century page from a black and white anatomical book showing a diagram of the heart with its various parts labelled.](/assets/img/posts/'corporis_humani_highmore.jpg "Nathaniel Highmore, 'Corporis Humani Disquisitio Anatomica', 1651. Public domain, via Wellcome Images")
+![A 17th century page from a black and white anatomical book showing a diagram of the heart with its various parts labelled.]({{"/assets/img/posts/'corporis_humani_highmore.jpg" | url}} "Nathaniel Highmore, 'Corporis Humani Disquisitio Anatomica' (1651). Public domain, via Wellcome Images"){.media-right}
 
 The organs, such as the heart, played an important role in bodily function in the early modern period. But, as Ulinka Rublack points out, what was really central here was the liquids that the organs processed - the four humours: blood, yellow bile, black bile and phlegm.[^7] An excess of any one of these caused illness, so, it was understood that a flux of one of these from any orifice of the body was a way of restoring the balance. Like its medieval counterpart, early modern medicine was still very much based on the ancient medicine of Hippocrates and Galen.
 
