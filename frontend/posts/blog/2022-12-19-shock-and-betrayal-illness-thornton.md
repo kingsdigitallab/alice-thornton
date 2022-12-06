@@ -7,6 +7,8 @@ authors:
 tags:
   - illness
   - passions
+  - relationships
+  - grief
 ---
 
 ![A 17th century painting of a male doctor dressed in black standing over a sick woman who is sitting in a chair with her head on a pillow. There is a four-poster bed in the background]({{"/assets/img/posts/Steen_Doctor_and_His_Patient.jpg" | url}} "Jan Steen, 'The Sick Woman', (1663-66). Public domain, via Wikimedia Commons")
@@ -49,7 +51,7 @@ Very shortly after this incident, on 17 September 1668, William Thornton died ag
 
 >My fainting and weaknesses were so great and returned so strongly upon me all that night and for two days after that dear friends and my children did not expect, but when I should have departed, having lost so much blood in the flood that broke upon me by excess of grief at the first knowing of my slanderous accusation by Mrs Anne Danby and her maid Barbara Todd[^6]
 
-How can we explain these profound and perhaps rather alien experiences in Thornton? The answer lies in early modern understandings of the inner workings of the human body.
+How can we explain these extreme near-death experiences as a reaction to grief? The answer lies in early modern understandings of the inner workings of the human body.
 
 ## Early modern bodies
 
@@ -79,4 +81,4 @@ about 8 weeks gon. the violency thereof contineued a long time affter Dr wittie 
 
 [^7]: Ulinka Rublack, 'Fluxes: the Early Modern Body and the Emotions', *History Workshop Journal*, 53:1 (Spring, 2002), p. 2.
 
-[^8]: Francis Bacon, *The Essays*, ed. Jeremy Pitcher, Harmondsworth, 1985, pp. 138-46, 139, 141. Quoted in Rublack, 'Fluxes', p. 3.
+[^8]: Francis Bacon, *The Essays*, ed. Jeremy Pitcher, Harmondsworth, 1985, p. 139. Quoted in Rublack, 'Fluxes', p. 3.
