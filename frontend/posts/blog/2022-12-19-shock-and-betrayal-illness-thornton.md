@@ -9,7 +9,7 @@ tags:
   - passions
   - relationships
   - grief
-  childbirth
+  - childbirth
 ---
 
 Content note: miscarriage, child illness
