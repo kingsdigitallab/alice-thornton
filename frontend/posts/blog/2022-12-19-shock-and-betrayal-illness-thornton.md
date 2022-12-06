@@ -51,7 +51,7 @@ How can we explain these profound and perhaps rather alien experiences in Thornt
 
 ## Early modern bodies
 
-![A 17th century page from a black and white anatomical book showing a diagram of the heart with its various parts labelled.](/assets/img/posts/'corporis_humani_highmore.jpg "Nathaniel Highmore, 'Corporis Humani Disquisitio Anatomica', 1651. Public domain, via Wellcome Images".)
+![A 17th century page from a black and white anatomical book showing a diagram of the heart with its various parts labelled.](/assets/img/posts/'corporis_humani_highmore.jpg "Nathaniel Highmore, 'Corporis Humani Disquisitio Anatomica', 1651. Public domain, via Wellcome Images")
 
 The organs, such as the heart, played an important role in bodily function in the early modern period. But, as Ulinka Rublack points out, what was really central here was the liquids that the organs processed - the four humours: blood, yellow bile, black bile and phlegm.[^7] An excess of any one of these caused illness, so, it was understood that a flux of one of these from any orifice of the body was a way of restoring the balance. Like its medieval counterpart, early modern medicine was still very much based on the ancient medicine of Hippocrates and Galen.
 
@@ -68,11 +68,11 @@ The concept of friendship, too, had undergone significant scrutiny in the centur
 [^3] 'And the very greife I apprehended was soe great at that time on the discovry to me that it did force me to that miscarriage which I had & long contined Sicknes by the ex-cesse of floods which lasted a long time on me and ment-tioned in my first Booke'. *Book 2*, p. 275.
 
 [^4] 'I fell into a very sad & desperate con-dittion upon satterday the 16th of August: 1666 beeing then
-about 8 weeks gon. the violency thereof contineued a long time affter Dr wittie was with me. And for 3 daies he did not expect my life. soe that he was compelld to use all his Art for my preservation. But it pleased God upon the use of his meadicens, that extreamity  a little abated, he leaveing me in a hopefull way of Recovery, only said I must not expect to be restored till about the latter end of octber.'
+about 8 weeks gon. the violency thereof contineued a long time affter Dr wittie was with me. And for 3 daies he did not expect my life. soe that he was compelld to use all his Art for my preservation. But it pleased God upon the use of his meadicens, that extreamity  a little abated, he leaveing me in a hopefull way of Recovery, only said I must not expect to be restored till about the latter end of octber'. Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, p. 216.
 
-[^5] 'I was cast downe into my bed ^of^ sickness, and weakness uppon my wofull slanders which did torment me, & was like to have killed me.' (Book 3)
+[^5] 'I was cast downe into my bed ^of^ sickness, and weakness uppon my wofull slanders which did torment me, & was like to have killed me'. Alice Thornton, *Book 3: The Second Book of My Widowed Condition*, British Library MS Add 88897/2, p. 193.
 
-[^6] 'My faintings and weakenesses was soe great & returned soe strongly uppon me all that night & for too daies affter That deare freinds and Children did not expect, but when I should have departed, haveing lost soe much blood in the flood; that broake uppon me, by excess of greife att the first knowing of my slanderous accusati^on^ by Mrs Anne Danby, & her maide Barbara Tod.' (Book 2)
+[^6] 'My faintings and weakenesses was soe great & returned soe strongly uppon me all that night & for too daies affter That deare freinds and Children did not expect, but when I should have departed, haveing lost soe much blood in the flood; that broake uppon me, by excess of greife att the first knowing of my slanderous accusati^on^ by Mrs Anne Danby, & her maide Barbara Tod.' *Book 2*, p. 25.
 
 [^7] Ulinka Rublack, 'Fluxes: the Early Modern Body and the Emotions', *History Workshop Journal*, 53:1 (Spring, 2002), p. 2.
 
