@@ -55,7 +55,7 @@ How can we explain these extreme near-death experiences as a reaction to grief? 
 
 ## Early modern bodies
 
-![A 17th century page from a black and white anatomical book showing a diagram of the heart with its various parts labelled.]({{"/assets/img/posts/'corporis_humani_highmore.jpg" | url}} "Nathaniel Highmore, 'Corporis Humani Disquisitio Anatomica', (1651). © Wellcome Images"){.media-right}
+![A 17th century page from a black and white anatomical book showing a diagram of the heart with its various parts labelled.]({{"/assets/img/posts/corporis_humani_highmore.jpg" | url}} "Nathaniel Highmore, 'Corporis Humani Disquisitio Anatomica', (1651). © Wellcome Images"){.media-right}
 
 The organs, such as the heart, played an important role in bodily function in the early modern period. But, as Ulinka Rublack points out, what was really central here was the liquids that the organs processed - the four humours: blood, yellow bile, black bile and phlegm.[^7] An excess of any one of these caused illness, so, it was understood that a flux of one of these from any orifice of the body was a way of restoring the balance. Like its medieval counterpart, early modern medicine was still very much based on the ancient medicine of Hippocrates and Galen.
 
