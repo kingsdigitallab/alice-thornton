@@ -9,7 +9,9 @@ isContentHTML: true
   <nav v-for="(panel, panelIdx) in panels" class="panel column">
     <p class="panel-heading">
       <panel-control :panel-idx="panelIdx" control-key="document" hide-label="1"></panel-control>
+      <button class="button" @click="incrementLocus(panel, -1)">Prev.</button>
       <panel-control :panel-idx="panelIdx" control-key="locus" hide-label="1"></panel-control>
+      <button class="button" @click="incrementLocus(panel, 1)">Next</button>
       <span class="button-bar">
         <a class="button" href="#" @click.stop.prevent="clonePanel(panelIdx)">Clone</a>
         <a v-if="panels.length > 1" class="button" href="#" @click.stop.prevent="closePanel(panelIdx)">Close</a>

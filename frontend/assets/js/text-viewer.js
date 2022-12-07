@@ -215,20 +215,24 @@ function setUpTextViewer() {
           }
         }
         if (key == "locus") {
-          panel.responses.document = "";
-          if (panel.selections.document && value) {
-            panel.responses.document = await this.fetchDTS(
-              panel,
-              "documents",
-              panel.selections.document,
-              value,
-              "html"
-            );
-          }
+          await this.setLocus(panel, value);
         }
 
         this.selectDefaultOption(panel, nextKey);
         this.onChangeSelector(panel, nextKey);
+      },
+      async setLocus(panel, locus) {
+        panel.selections.locus = locus;
+        panel.responses.document = "";
+        if (panel.selections.document && locus) {
+          panel.responses.document = await this.fetchDTS(
+            panel,
+            "documents",
+            panel.selections.document,
+            locus,
+            "html"
+          );
+        }
       },
       selectDefaultOption(panel, key) {
         if (key.startsWith("_")) return;
@@ -246,6 +250,14 @@ function setUpTextViewer() {
         // let url = this.getDTSUrl(panel, service, id, ref, format);
         // let ret = await this.fetch(url, format);
         // return ret;
+      },
+      incrementLocus(panel, steps) {
+        let locus = panel.selections.locus;
+        let lokeys = Object.keys(panel.selectors.locus);
+        locus = lokeys[lokeys.indexOf(locus) + steps];
+        if (locus) {
+          this.setLocus(panel, locus);
+        }
       },
       // getDTSUrl(panel, service, id, ref, format) {
       //   let ret = panel.selections.source;
