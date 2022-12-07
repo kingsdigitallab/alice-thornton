@@ -6,9 +6,8 @@ authors:
   - jedge
 tags:
   - illness
-  - passions
+  - emotions
   - relationships
-  - grief
   - childbirth
 ---
 
