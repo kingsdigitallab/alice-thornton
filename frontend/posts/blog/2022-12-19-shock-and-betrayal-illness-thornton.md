@@ -30,9 +30,7 @@ Luckily, Nally once again recovered, according to Thornton, thanks to God.
 
 Thornton here describes a process which might seem melodramatic to the modern reader. She experiences a sudden shock of grief, which leads to a huge flux in her humours (uterine bleeding and the drying up of her milk). She is close to death, according not only to herself but to others around her. But God steps in to 'deliver' her from this terrible fate. This is a process that Thornton describes throughout all four of her autobiographical books, always caused by a sudden shock. I want to try and place this process in the context of both Thornton's writings and late-seventeenth-century understandings of medicine and the body.
 
-
-## Alice Thornton's books
-
+## Betrayal and Grief
 
 The passion which causes the process Thornton describes is sudden grief. Thornton conceives of grief as being either caused by the endangerment or death of a loved one; or betrayal by someone close to her.
 
