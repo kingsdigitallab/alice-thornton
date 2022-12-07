@@ -54,7 +54,7 @@ According to Galenic thought, it was the six non-naturals that caused bodily hum
 
 The concept of friendship, too, had undergone significant scrutiny in the century before Thornton. Francis Bacon (1561-1626) wrote that the main purpose of friendship was 'the ease and discharge of the fullness and swellings of the heart'[^5] which was the base of all passions. So the opposite of friendship - betrayal by someone to whom you had quite literally opened your heart - was considered likely to cause a sudden and dangerous flux of humours.
 
-Thus, Alice Thornton was not being melodramatic in these portrayals of her illnesses, but was describing a process that she understood her body to have undergone as a reaction to shock, which had put her in mortal danger. It is worth ending on Rublack's question: 'may it have been the case in the early modern period not only that bodily existence was conceived of differently from today, but also that this body actually behaved differently?'.[^6] 
+Thus, Alice Thornton was not being melodramatic in these portrayals of her illnesses, but was describing a process that she understood her body to have undergone as a reaction to shock, which had put her in mortal danger. It is worth ending on Rublack's question: 'may it have been the case in the early modern period not only that bodily existence was conceived of differently from today, but also that this body actually behaved differently?'[^6]
 
 ---
 
