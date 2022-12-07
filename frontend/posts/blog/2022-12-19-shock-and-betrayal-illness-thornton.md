@@ -40,19 +40,7 @@ Thornton's husband William was not a financially prudent man, which led to some 
 
 >...the very grief I apprehended was so great at that time on the discovery to me that it did force me to that miscarriage which I had and long continued sickness by the excess of floods which lasted a long time on me and mentioned in my first book.[^3]
 
-Both Henry and William had betrayed her so profoundly that it caused her to suffer a miscarriage and months of excessive uterine bleeding. To Thornton's mind, this was caused by sudden grief provoking an excess of humours which forced her body to expel the foetus. Here's Thornton's description of the resulting illness taken from her first book:
-
->I fell into a very sad and desperate condition upon Saturday the 16th of August 1666, being then about 8 weeks gone, the violence thereof continued a long time after Dr Wittie was with me. And for 3 days he did not expect my life, so that he was compelled to use all his art for my preservation. But it pleased God upon the use of his medicines, that extremity a little abated, he leaving me in a hopeful way of recovery, only said I must not expect to be restored until about the latter end of October.[^4]
-
-Thornton remained unwell until the following February.
-
-In 1668 the most well-known betrayal of Thornton's life happened, when her niece-by-marriage Anne Danby, along with several maids in the household, was implicated in spreading rumours about the relationship between Thornton and her daughter's fiancé, Thomas Comber. As a result, the marriage was almost sabotaged by Thornton's well-meaning relations. Earlier that decade, Danby and her two children had come to live at the Thornton home in East Newton after being dispossessed. Thornton had clothed and fed her niece and her children out of the kindness of her heart, so the betrayal was even more upsetting. When Thornton found out about the rumours, her reaction was typical:
-
->I was cast down into my bed of sickness and weakness upon my woeful slanders which did torment me, and was likely to have killed me.[^5]
-
-Very shortly after this incident, on 17 September 1668, William Thornton died aged 44 on a trip to Malton. On top of the Danby slanders, this sudden grief made her existing condition even worse:
-
->My fainting and weaknesses were so great and returned so strongly upon me all that night and for two days after that dear friends and my children did not expect, but when I should have departed, having lost so much blood in the flood that broke upon me by excess of grief at the first knowing of my slanderous accusation by Mrs Anne Danby and her maid Barbara Todd.[^6]
+Both Henry and William had betrayed her so profoundly that it caused her to suffer a miscarriage and months of excessive uterine bleeding. To Thornton's mind, this was caused by sudden grief provoking an excess of humours which forced her body to expel the foetus. She remained unwell until the following February.
 
 How can we explain these extreme near-death experiences as a reaction to grief? The answer lies in early modern understandings of the inner workings of the human body.
 
@@ -60,11 +48,13 @@ How can we explain these extreme near-death experiences as a reaction to grief? 
 
 ![A 17th century page from a black and white anatomical book showing a diagram of the heart with its various parts labelled.]({{"/assets/img/posts/corporis_humani_highmore.jpg" | url}} "Nathaniel Highmore, 'Corporis Humani Disquisitio Anatomica', (1651). © Wellcome Images"){.media-right}
 
-The organs, such as the heart, played an important role in bodily function in the early modern period. But, as Ulinka Rublack points out, what was really central here was the liquids that the organs processed - the four humours: blood, yellow bile, black bile and phlegm.[^7] An excess of any one of these caused illness, so, it was understood that a flux of one of these from any orifice of the body was a way of restoring the balance. Like its medieval counterpart, early modern medicine was still very much based on the ancient medicine of Hippocrates and Galen.
+The organs, such as the heart, played an important role in bodily function in the early modern period. But, as Ulinka Rublack points out, what was really central here was the liquids that the organs processed - the four humours: blood, yellow bile, black bile and phlegm.[^4] An excess of any one of these caused illness, so, it was understood that a flux of one of these from any orifice of the body was a way of restoring the balance. Like its medieval counterpart, early modern medicine was still very much based on the ancient medicine of Hippocrates and Galen.
 
 According to Galenic thought, it was the six non-naturals that caused bodily humours to go into imbalance. These were air, food and drink, rest and exercise, sleep and waking, excretions and retentions, and mental affections - the passions. It is the last of these that concerns us here. The passions - what we would today call emotions - came under increasing scrutiny after 1500, most notably with Robert Burton's *Anatomy of Melancholy*, first published in 1621. The passions were a core part of this humoural system, not somehow separate from how the body functioned.
 
-The concept of friendship, too, had undergone significant scrutiny in the century before Thornton. Francis Bacon (1561-1626) wrote that the main purpose of friendship was 'the ease and discharge of the fullness and swellings of the heart'[^8] which was the base of all passions. So the opposite of friendship - betrayal by someone to whom you had quite literally opened your heart - was considered likely to cause a sudden and dangerous flux of humours.
+The concept of friendship, too, had undergone significant scrutiny in the century before Thornton. Francis Bacon (1561-1626) wrote that the main purpose of friendship was 'the ease and discharge of the fullness and swellings of the heart'[^5] which was the base of all passions. So the opposite of friendship - betrayal by someone to whom you had quite literally opened your heart - was considered likely to cause a sudden and dangerous flux of humours.
+
+Thus, Alice Thornton was not being melodramatic in these portrayals of her illnesses. She was describing a process that she understood her body to have undergone as a reaction to shock, which had put her in mortal danger. As Rublack asks, 'may it have been the case in the early modern period not only that bodily existence was conceived of differently from today, but also that this body actually behaved differently?'.[^6]
 
 ---
 
@@ -75,13 +65,8 @@ heare her when she came out of them to give great Schrikes & sudainly that it fr
 
 [^3]: 'And the very greife I apprehended was soe great at that time on the discovry to me that it did force me to that miscarriage which I had & long contined Sicknes by the ex-cesse of floods which lasted a long time on me and ment-tioned in my first Booke'. *Book 2*, p. 275.
 
-[^4]: 'I fell into a very sad & desperate con-dittion upon satterday the 16th of August: 1666 beeing then
-about 8 weeks gon. the violency thereof contineued a long time affter Dr wittie was with me. And for 3 daies he did not expect my life. soe that he was compelld to use all his Art for my preservation. But it pleased God upon the use of his meadicens, that extreamity  a little abated, he leaveing me in a hopefull way of Recovery, only said I must not expect to be restored till about the latter end of octber'. Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, p. 216.
+[^4]: Ulinka Rublack and Pamela Selwyn, 'Fluxes: the Early Modern Body and the Emotions', *History Workshop Journal*, 53:1 (Spring, 2002), p. 2.
 
-[^5]: 'I was cast downe into my bed ^of^ sickness, and weakness uppon my wofull slanders which did torment me, & was like to have killed me'. Alice Thornton, *Book 3: The Second Book of My Widowed Condition*, British Library MS Add 88897/2, p. 193.
+[^5]: Francis Bacon, *The Essays*, ed. Jeremy Pitcher, Harmondsworth, 1985, p. 139. Quoted in Rublack and Selwyn, 'Fluxes', p. 3.
 
-[^6]: 'My faintings and weakenesses was soe great & returned soe strongly uppon me all that night & for too daies affter That deare freinds and Children did not expect, but when I should have departed, haveing lost soe much blood in the flood; that broake uppon me, by excess of greife att the first knowing of my slanderous accusati^on^ by Mrs Anne Danby, & her maide Barbara Tod'. *Book 2*, p. 25.
-
-[^7]: Ulinka Rublack, 'Fluxes: the Early Modern Body and the Emotions', *History Workshop Journal*, 53:1 (Spring, 2002), p. 2.
-
-[^8]: Francis Bacon, *The Essays*, ed. Jeremy Pitcher, Harmondsworth, 1985, p. 139. Quoted in Rublack, 'Fluxes', p. 3.
+[^6]: Rublack and Selwyn, 'Fluxes', p. 2.
