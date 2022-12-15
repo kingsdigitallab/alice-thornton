@@ -58,12 +58,12 @@ Thus, Alice Thornton was not being melodramatic in these portrayals of her illne
 [^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'I lieng the next Chambr to her and did
 heare her when she came out of them to give great Schrikes & sudainly that it frighted me extreamely, and all the time of this poore Childs illness. I my selfe. was att deaths dore by The extreame Excesse of those, uppon the fright & Terror came, uppon me, soe great floods that I was spent & my breath lost, my strength departed from me & I could not speake for faintings & dis-piritted soe that my d. mothr & Aunt & freinds did not expect my Life but over come with sorrow for me. Nor durst they tell me in what a condition my deare naly was in her fitts least greife for her added to my owe  extreamity with losse of Blood might  have have  extinguished my miserable Life'. Alice Thornton, *Book 2: The First Book of My Widowed Condition*, Durham Cathedral Library, GB-0033-CCOM 7 (hereafter *Book 2*), 150-51.
 
-[^2]: 'Which did soe sudainly affright me beeing weake as before & this flood came downe uppon me as before and they had much to doe to gett me carried safe into my bed againe.' Thornton, *Book 2*, 152.
+[^2]: 'Which did soe sudainly affright me beeing weake as before & this flood came downe uppon me as before and they had much to doe to gett me carried safe into my bed againe'. Thornton, *Book 2*, 152.
 
 [^3]: 'And the very greife I apprehended was soe great at that time on the discovry to me that it did force me to that miscarriage which I had & long contined Sicknes by the ex-cesse of floods which lasted a long time on me and ment-tioned in my first Booke'. Thornton, *Book 2*, 275.
 
 [^4]: Ulinka Rublack and Pamela Selwyn, 'Fluxes: the Early Modern Body and the Emotions', *History Workshop Journal*, 53, no. 1 (Spring 2002), 2.
 
-[^5]: Francis Bacon, *The Essays*, ed. Jeremy Pitcher, (Harmondsworth: Penguin, 1985), 139. Quoted in Rublack and Selwyn, 'Fluxes', 3.
+[^5]: Francis Bacon, *The Essays*, ed. Jeremy Pitcher (Harmondsworth: Penguin, 1985), 139. Quoted in Rublack and Selwyn, 'Fluxes', 3.
 
 [^6]: Rublack and Selwyn, 'Fluxes', 2.
