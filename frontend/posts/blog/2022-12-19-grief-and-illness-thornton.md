@@ -1,7 +1,7 @@
 ---
 title: "Taking it to Heart: Grief and Illness in Alice Thornton's Books"
 feature: /assets/img/posts/Steen_Doctor_and_His_Patient.jpg
-status: draft
+status: live
 authors:
   - jedge
 tags:
