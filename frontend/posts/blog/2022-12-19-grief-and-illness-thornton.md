@@ -15,7 +15,7 @@ Content note: miscarriage, child illness
 
 In February 1655, Alice Thornton was in bed recovering from giving birth to her second daughter, Elizabeth (Betty), when her maid called out to her. Her one-year-old daughter, Alice (Nally), in her cot in the next room, was experiencing convulsive fits.
 
-![A 17th century painting of a male doctor dressed in black standing over a sick woman who is sitting in a chair with her head on a pillow. There is a four-poster bed in the background]({{"/assets/img/posts/Steen_Doctor_and_His_Patient.jpg" | url}} "Jan Steen, 'The Sick Woman', (1663-66). Public domain, via Wikimedia Commons"){.media-right}
+![A 17th century painting of a male doctor dressed in black standing over a sick woman who is sitting in a chair with her head on a pillow. There is a four-poster bed in the background]({{"/assets/img/posts/Steen_Doctor_and_His_Patient.jpg" | url}} "Jan Steen, 'The Sick Woman', (1663-66). Public domain, via Wikimedia Commons"){.media-right} 
 
 Her maid Jane Flower and the midwife Jane Rimer were acting to save Nally. The fits stopped and started. The physical and mental effect that this sudden grief had on Thornton was profound:
 
