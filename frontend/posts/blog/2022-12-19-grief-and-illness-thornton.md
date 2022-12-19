@@ -17,6 +17,8 @@ In February 1655, Alice Thornton was in bed recovering from giving birth to her 
 
 >I, lying the next chamber to her, … did hear her when she came out of them [i.e., her fits] to give great shrieks and suddenly that it frightened me extremely. And all the time of this poor child's illness, I, myself, was at death's door by the extreme excess of those - upon the fright and terror came upon me - so great floods that I was spent and my breath lost, my strength departed from me and I could not speak for faintings and dispirited so that my dear mother and aunt and friends did not expect my life but were overcome with sorrow for me.                            Nor durst they tell me in what condition my dear Nally was in her fits, lest grief for her, added to my own extremity with loss of blood, might have extinguished my miserable life.[^1]
 
+![A 17th century painting of a male doctor dressed in black standing over a sick woman who is sitting in a chair with her head on a pillow. There is a four-poster bed in the background]({{"/assets/img/posts/Steen_Doctor_and_His_Patient.jpg" | url}} "Jan Steen, 'The Sick Woman', (1663-66). Public domain, via Wikimedia Commons")
+
 Thornton experienced a flood (uterine bleeding), and the maids then moved Nally to a room further away, where her mother could not hear her cries and screams which were clearly putting her in mortal danger. As well as the flood, the shock of the incident had made Thornton's milk dry up and she wasn't able to breastfeed her newborn daughter for two weeks. But the story didn't end there. Just as Thornton was able to breastfeed Betty again, Nally fell into convulsions once more. A maid ran to her, saying that Nally was dead or nearly dead. Once again the physical effect on Thornton was intense:
 
 >Which did so suddenly affright me, being weak as before, and this flood came down upon me as before, and they had much to do to get me carried safe into my bed again.[^2]
@@ -27,7 +29,6 @@ Luckily, Nally once again recovered, according to Thornton, thanks to God.
 
 Thornton here describes a process which might seem melodramatic to the modern reader. She experiences a sudden shock of grief, which leads to a huge flux in her humours (uterine bleeding and the drying up of her milk). She is close to death, according not only to herself but to others around her. But God steps in to 'deliver' her from this terrible fate. This is a process that Thornton describes throughout all four of her autobiographical books, always caused by a sudden shock. I want to try and place this process in the context of both Thornton's writings and late-seventeenth-century understandings of medicine and the body.
 
-![A 17th century painting of a male doctor dressed in black standing over a sick woman who is sitting in a chair with her head on a pillow. There is a four-poster bed in the background]({{"/assets/img/posts/Steen_Doctor_and_His_Patient.jpg" | url}} "Jan Steen, 'The Sick Woman', (1663-66). Public domain, via Wikimedia Commons")
 
 ## Betrayal and grief
 
