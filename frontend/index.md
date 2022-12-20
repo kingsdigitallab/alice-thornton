@@ -14,8 +14,7 @@ which will enhance understanding of the lives and works of early modern women.
 While by no means the only seventeenth-century woman to write her own life story,
 Thornton is unusual in having written four different versions of her autobiography.
 Collectively, her books offer an extraordinarily rich insight into gentry life
-in seventeenth-century Yorkshire, at a time of civil war, plague, and a high infant
-mortality rate.
+in seventeenth-century Yorkshire, at a time of civil war and  plague.
 
 This website will provide resources aimed at better understanding the life and
 work of Alice Thornton and, in due course, will host a fully searchable digital
