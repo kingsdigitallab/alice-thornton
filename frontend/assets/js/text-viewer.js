@@ -37,6 +37,7 @@ function setUpTextViewer() {
           collection: "Collection",
           document: "Document",
           locus: "Locus",
+          view: "View",
           _chunks: "Chunks",
         },
         panels: [
@@ -77,6 +78,10 @@ function setUpTextViewer() {
                 d1: "Doc 1",
                 d2: "Doc 2",
               },
+              view: {
+                semidip: "Semi-diplomatic",
+                modern: "Modernised",
+              },
               locus: {
                 l1: "Locus 1",
                 l2: "Locus 2",
@@ -88,6 +93,7 @@ function setUpTextViewer() {
               document:
                 "https://thornton.kdl.kcl.ac.uk/dts/thornton-books/book_one/",
               locus: "",
+              view: "",
             },
             responses: {
               entryPoint: "",
@@ -101,20 +107,24 @@ function setUpTextViewer() {
       };
     },
     mounted() {
-      for (let panel of this.panels) {
-        let key = "source";
-        this.selectDefaultOption(panel, key);
-        this.onChangeSelector(panel, key);
-        // this.onChangeSelector(panel, 'document')
-      }
+      // for (let panel of this.panels) {
+      //   let key = "source";
+      //   this.selectDefaultOption(panel, key);
+      //   this.onChangeSelector(panel, key);
+      //   // this.onChangeSelector(panel, 'document')
+      // }
+      // http://localhost:8080/books/viewer/?&p0.lo=p.1&p1.do=https://thornton.kdl.kcl.ac.uk/dts/ids/thornton-books/book_one/&p1.lo=p.2&p1.vi=modern
+      this.setSelectionFromAddressBar();
     },
     methods: {
       clonePanel(panelIdx) {
         this.panels.push(JSON.parse(JSON.stringify(this.panels[panelIdx])));
+        this.setAddressBarFromSelection();
       },
       closePanel(panelIdx) {
         // Do not use delete, this will confuse Vue
         this.panels = this.panels.filter((p, idx) => idx != panelIdx);
+        this.setAddressBarFromSelection();
       },
       isControlHidden(controlKey) {
         return (
@@ -124,6 +134,7 @@ function setUpTextViewer() {
       },
       onChangeSelector(panel, key) {
         if (key.startsWith("_")) return;
+        this.setAddressBarFromSelection();
 
         let value = panel.selections[key];
         this.fetchOptions(panel, key, value);
@@ -232,13 +243,17 @@ function setUpTextViewer() {
             locus,
             "html"
           );
+          this.setAddressBarFromSelection();
         }
       },
       selectDefaultOption(panel, key) {
         if (key.startsWith("_")) return;
         if (!panel.selectors[key][panel.selections[key]]) {
-          panel.selections[key] = Object.keys(panel.selectors[key])[0];
+          panel.selections[key] = this.getDefaultOption(panel, key);
         }
+      },
+      getDefaultOption(panel, key) {
+        return Object.keys(panel.selectors[key])[0];
       },
       async fetchDTS(panel, service, id, ref, format) {
         return window.dtsutils.fetchDTS(panel, service, id, ref, format);
@@ -288,6 +303,48 @@ function setUpTextViewer() {
       //   }
       //   return ret;
       // },
+      setAddressBarFromSelection() {
+        // ?p1.so=&p1.co=&p2.so=...
+        // let searchParams = new URLSearchParams(window.location.search)
+        let searchParams = "";
+        for (let panelIdx = 0; panelIdx < this.panels.length; panelIdx++) {
+          let panel = this.panels[panelIdx];
+          for (let k of Object.keys(this.controls)) {
+            if (k.startsWith("_")) continue;
+            if (
+              k == "locus" ||
+              panel.selections[k] != this.getDefaultOption(panel, k)
+            ) {
+              searchParams += `&p${panelIdx}.${k.substring(0, 2)}=${
+                panel.selections[k]
+              }`;
+            }
+          }
+        }
+        let newRelativePathQuery =
+          window.location.pathname + "?" + searchParams;
+        history.pushState(null, "", newRelativePathQuery);
+      },
+      async setSelectionFromAddressBar() {
+        let searchParams = new URLSearchParams(window.location.search);
+
+        for (let panelIdx = 0; panelIdx < 10; panelIdx++) {
+          if (!searchParams.get(`p${panelIdx}.lo`)) break;
+          if (this.panels.length <= panelIdx) this.clonePanel(0);
+          let panel = this.panels[panelIdx];
+          for (let k of Object.keys(this.controls)) {
+            if (k.startsWith("_")) continue;
+            let v = searchParams.get(`&p${panelIdx}.${k.substring(0, 2)}`);
+            if (!v) v = this.getDefaultOption(panel, k);
+            console.log(panelIdx, k, v);
+            panel.selections[k] = v;
+          }
+          await this.onChangeSelector(panel, "source");
+        }
+      },
+      getContentClasses(panel) {
+        return `view-${panel.selections.view}`;
+      },
     },
   });
   app.component("panel-control", PanelControl);
