@@ -329,12 +329,14 @@ function setUpTextViewer() {
         let searchParams = new URLSearchParams(window.location.search);
 
         for (let panelIdx = 0; panelIdx < 10; panelIdx++) {
-          if (!searchParams.get(`p${panelIdx}.lo`)) break;
-          if (this.panels.length <= panelIdx) this.clonePanel(0);
+          if (this.panels.length <= panelIdx) {
+            if (!searchParams.get(`p${panelIdx}.lo`)) break;
+            this.clonePanel(0);
+          }
           let panel = this.panels[panelIdx];
           for (let k of Object.keys(this.controls)) {
             if (k.startsWith("_")) continue;
-            let v = searchParams.get(`&p${panelIdx}.${k.substring(0, 2)}`);
+            let v = searchParams.get(`p${panelIdx}.${k.substring(0, 2)}`);
             if (!v) v = this.getDefaultOption(panel, k);
             console.log(panelIdx, k, v);
             panel.selections[k] = v;

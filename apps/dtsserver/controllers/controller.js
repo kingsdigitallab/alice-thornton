@@ -182,7 +182,6 @@ async function findTEIFiles(collectionPath, ret) {
         let teiMeta = await getMetadataFromTEIFile(filePath);
         ret.push({
           "@id": documentId,
-          test: "test",
           title: teiMeta.title,
         });
       }
