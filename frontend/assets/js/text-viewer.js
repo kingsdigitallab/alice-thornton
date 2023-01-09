@@ -46,8 +46,8 @@ function setUpTextViewer() {
               source: {
                 "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/develop/dts.json":
                   "AT SDTS (github)",
-                "http://127.0.0.1:5500/alice-thornton/dts.json":
-                  "AT SDTS (localhost)",
+                // "http://127.0.0.1:5500/alice-thornton/dts.json":
+                //   "AT SDTS (localhost)",
                 "http://localhost:3000/": "AT DTS (local)",
                 // format=X is ignored, will always return TEI
                 "https://dev.chartes.psl.eu/api/nautilus/dts": "PSL Chartes",
