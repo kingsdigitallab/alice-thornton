@@ -335,6 +335,19 @@ footer,
   }
 }
 
+.media-left,
+.media-right {
+  + * {
+    display: inline-block;
+    margin-top: .625rem;
+    width: 55vw;
+  }
+
+  + * + * {
+    clear: both;
+  }
+}
+
 figcaption {
   font-size: 0.875em;
   line-height: 1.5;
