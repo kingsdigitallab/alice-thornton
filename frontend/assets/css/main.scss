@@ -127,6 +127,16 @@ a {
   }
 }
 
+// 16/01/2023 GF: The container max width seems to change at different
+// breakpoints.
+// Solution: Remove different sizes and work with vw and margins in section > container.
+
+.section {
+  .container {
+    max-width: 100vw;
+  }
+}
+
 .content {
   box-sizing: content-box;
 
@@ -300,7 +310,11 @@ footer,
 
   &.media-right {
     float: right;
-    margin: 0.5em 1rem 0.5em 1em;
+    margin: 0.5em 0 0.5em 1em;
+
+    figcaption {
+      margin-left: 1em;
+    }
   }
 
   &.media-center {
@@ -337,21 +351,32 @@ footer,
 
 .media-left,
 .media-right {
-  + * {
-    display: inline-block;
-    margin-top: .625rem;
-    width: 55vw;
-  }
+  @include tablet {
+    + *,
+    + * + * {
+      box-sizing: border-box;
+      display: inline-block;
+      margin-top: .625rem;
+      width: 57vw;
+    }
 
-  + * + * {
-    clear: both;
+    + blockquote,
+    + * + blockquote {
+      box-sizing: border-box;
+      max-width: 55vw;
+    }
+
+    + * + * + * {
+      clear: both;
+    }
   }
 }
 
 figcaption {
+  box-sizing: border-box;
   font-size: 0.875em;
   line-height: 1.5;
-  margin: 0 auto 1em;
+  margin: 0 0 1em;
   max-width: 30vw;
 
   @include mobile {
