@@ -6,7 +6,6 @@ authors:
   - showard
 tags:
   - TEI
-  - events
   - illness
   - childbirth
 ---
