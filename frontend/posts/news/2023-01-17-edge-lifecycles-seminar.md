@@ -12,7 +12,7 @@ tags:
 
 Project postdoctoral fellow Dr Jo Edge will give a paper at the Life-Cycles Seminar, Institute of Historical Research, London on Tuesday 24 January at 5.30pm. The paper is titled 'Taking it to Heart: Grief, Shock and Illness in Alice Thornton's *Books*'.
 
-This is a hybrid event, and anyone wishing to attend in-person or online should register [here](https://www.history.ac.uk/events/taking-it-heart-grief-shock-and-illness-alice-thorntons-books). An abstract is below. Hope you can make it!
+This is a hybrid event, and anyone wishing to attend in-person or online should register [here](https://www.history.ac.uk/events/taking-it-heart-grief-shock-and-illness-alice-thorntons-books). An abstract is below.
 
 A common theme in Thornton's books is the illnesses suffered by Thornton herself, her children, family and friends. One striking cause of illness is sudden grief or betrayal leading to near-fatal illness from a flux of humours. For example, in 1655, just after giving birth to her second daughter, Betty, Thornton became very ill when her toddler, Nally, began to suffer fits. Recounting the incident, she wrote:
 
@@ -20,4 +20,4 @@ A common theme in Thornton's books is the illnesses suffered by Thornton herself
 
 Thornton and those around her thought her death was near because a sudden shock of grief caused an immediate humoral imbalance.
 
-This paper will examine the events Thornton claims cause illness in herself and others. While Thornton's accounts may seem melodramatic, I will show that grief and betrayal as causes of near-fatal illness can be explained with recourse to the conventional Galenic medical framework of the time: the passions had a profound effect on the body's humours.
+This paper will examine the events Thornton claims cause illness in herself and others. While Thornton's accounts may seem melodramatic, the paper will show that grief and betrayal as causes of near-fatal illness can be explained with recourse to the conventional Galenic medical framework of the time: the passions had a profound effect on the body's humours.
