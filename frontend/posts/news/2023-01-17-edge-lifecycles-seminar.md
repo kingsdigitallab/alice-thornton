@@ -12,7 +12,7 @@ tags:
 
 Project postdoctoral fellow Dr Jo Edge will give a paper at the Life-Cycles Seminar, Institute of Historical Research, London on Tuesday 24 January at 5.30pm. The paper is titled 'Taking it to Heart: Grief, Shock and Illness in Alice Thornton's *Books*'.
 
-This is a hybrid event, and anyone wishing to attend in-person or online should register [here](https://www.history.ac.uk/events/taking-it-heart-grief-shock-and-illness-alice-thorntons-books). An abstract is below. Hope you can make it!
+This is a hybrid event, and anyone wishing to attend in-person or online should register [here](https://www.history.ac.uk/events/taking-it-heart-grief-shock-and-illness-alice-thorntons-books). An abstract is below.
 
 ---
 
@@ -20,6 +20,6 @@ Alice Thornton (1626-1707) wrote four autobiographies. A common theme in these b
 
 >And all the time of this poor child's illness, I, myself, was at death's door by the extreme excess of those - upon the fright and terror came upon me - so great floods that I was spent and my breath lost, my strength departed from me and I could not speak for faintings and dispirited so that my dear mother and aunt and friends did not expect my life but were overcome with sorrow for me.
 
-So, Thornton and those around her thought her death was near because a sudden shock of grief caused an immediate humoral imbalance.
+Thornton and those around her thought her death was near because a sudden shock of grief caused an immediate humoral imbalance.
 
 This paper will first give a brief autobiography of Thornton and introduce her four books. It will then give some background on early modern medical concepts. We will then examine the events Thornton claims cause illness in herself and others. While Thornton's accounts may seem melodramatic, I will show that grief and betrayal as causes of near-fatal illness can be explained with recourse to the conventional Galenic medical framework of the time: the passions had a profound effect on the body's humours.
