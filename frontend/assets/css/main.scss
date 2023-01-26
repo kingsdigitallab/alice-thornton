@@ -10,6 +10,8 @@
   https: //www.figma.com/file/8mGkpFZTQpL7kpGCOYRgC8/Alice-Thornton?node-id=164%3A1480
 */
 
+// Duotone images color: #8e7860
+
 @import "fonts.scss";
 
 // Project variables
@@ -129,6 +131,18 @@ a {
   }
 }
 
+// GF 26/01/2023: tired of fighting with Bulms's defaults
+// Going nuclear on max-width for container
+
+.container {
+  @media screen and (min-width: 1120px) {
+    max-width: 1120px !important;
+    padding: 0 6rem !important;
+  }
+}
+
+// End nuclear
+
 .content {
   box-sizing: content-box;
 
@@ -170,6 +184,19 @@ h3 {
     color: $secondary;
     font-family: "Lora", serif;
   }
+
+  h2 {
+    &::before {
+      background: url("/assets/img/symbol-1.png") left top no-repeat;
+      background-size: 1rem;
+      content: "";
+      display: inline-block;
+      margin-left: -1.5rem;
+      margin-right: .5rem;
+      height: 1rem;
+      width: 1rem;
+    }
+  }
 }
 
 h1,
@@ -195,6 +222,18 @@ h6 {
   }
 }
 
+section,
+.section {
+  @media screen and (min-width: 1140px) {
+    .container {
+      background: url("/assets/img/marginalia-1-sepia.png") 5px 130px no-repeat,
+                  url("/assets/img/marginalia-1-sepia.png") 99.5% 97.6% no-repeat,
+                  url("/assets/img/st-matt.png") 5px 500px no-repeat;
+      background-size: 80px;
+    }
+  }
+}
+
 .title {
   color: $secondary;
 }
@@ -204,8 +243,6 @@ h6 {
   background-size: 60px;
   padding-bottom: 1rem;
 }
-
-
 
 // Homepage
 
@@ -360,13 +397,13 @@ footer,
       box-sizing: border-box;
       display: inline-block;
       margin-top: .625rem;
-      width: 57%;
+      width: 65%;
     }
 
     + blockquote,
     + * + blockquote {
       box-sizing: border-box;
-      max-width: 55%;
+      max-width: 62%;
     }
 
     + * + * + * {
