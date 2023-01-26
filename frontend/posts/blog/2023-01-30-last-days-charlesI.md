@@ -8,9 +8,7 @@ tags:
   - monarchy
   - letters
 ---
-Today is the anniversary of the execution of Charles I, which took place
-on 30 January 1649. For Alice Thornton, looking back on this c.1669 when
-writing *Book 1: The First Book of My Life*, Charles I was a 'martyr'
+We are nearing the anniversary of the execution of Charles I, which took place on 30 January 1649. For Alice Thornton, looking back on this c.1669 when writing *Book 1: The First Book of My Life*, Charles I was a 'martyr'
 who was 'cruelly murdered by the hands of blasphemous rebels, his own
 subjects, at Whitehall, London, the 30th of January 1649'.[^1] 
 Alice was from a royalist family, the Wandesfords, and maintained this
