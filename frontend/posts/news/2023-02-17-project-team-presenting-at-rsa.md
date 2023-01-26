@@ -17,4 +17,4 @@ Project PI Cordelia Beattie, Co-I Suzanne Trill and Postdoctoral Fellow Jo Edge 
 
 Emotional Trauma and Illness in Alice Thornton's Books "of My Widdowed Condition": Jo Edge
 
-We look forward to seeing those who can make it!
+We look forward to seeing those who can make it.
