@@ -21,7 +21,7 @@ Charles I. She gave an account of a meeting, that took place at her
 uncle William Wandesford's house in London, between Charles I and a
 number of men who sought to persuade the king to acknowledge the justice
 of the high court's proceedings in order to avoid execution. She
-deposed that this was the day before he was sentenced to death which
+claimed that this was the day before he was sentenced to death which
 would make it 26 January 1649. Her account was seen as noteworthy by
 contemporaries but cannot be verified by other sources, with one recent
 scholar sceptical about its veracity.[^2]
@@ -69,10 +69,10 @@ King's Death?'. Rushworth denied knowledge of that meeting but did
 admit knowing that some men were discussing a trial.[^8] 
 
 Although Thornton's account refers to 'papists' in the plural, the only
-known Catholic to be named is Lord Baltimore: Cecil Calvert, second
+Catholic to be named is Lord Baltimore: Cecil Calvert, second
 Baron Baltimore, announced his family were converting to Catholicism
 c.1624. Lord Baltimore's colony in Maryland was at risk of being taken
-over by parliament and so his presence might account for the reference
+over by parliament and so his presence might help account for the reference
 to the 'strange mixture' of people in attendance.[^9] 
 
 The third named man was [William Lilly, an astrologer](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652). He had published a pamphlet, *A Prophecy of the White Kings
