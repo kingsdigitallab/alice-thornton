@@ -65,9 +65,9 @@ much amaze him.'[^6]
 John Rushworth, author of the *Historical Collections* (1659), had
 strong ties to the parliamentarian cause.[^7] After the
 Restoration, he was summoned to the House of Lords on 24 July 1660 to
-answer the question, \"What he knows of a Meeting of Twelve Persons,
+answer the question, 'What he knows of a Meeting of Twelve Persons,
 at *The Beare* of the Bridge Foot, concerning the Contrivance of the
-King's Death?". Rushworth denied knowledge of that meeting but did
+King's Death?'. Rushworth denied knowledge of that meeting but did
 admit knowing that some men were discussing a trial.[^8] 
 
 Although Thornton's account refers to 'papists' in the plural, the only
@@ -108,8 +108,8 @@ the semi-diplomatic transcription is reproduced here in the notes. *Book
 subjects, att White hall. London the 30th of Janueary: 1648'. Thornton
 uses Lady Day dating here.
 
-[^2]: Joad Raymond, \"Rushworth \[Rushforth\], John (c. 1612--1690),
-historian and politician.\" *Oxford Dictionary of National Biography*.
+[^2]: Joad Raymond, \'Rushworth \[Rushforth\], John (c. 1612--1690),
+historian and politician.\' *Oxford Dictionary of National Biography*.
 23 Sep. 2004; Accessed 16 Dec. 2022.
 
 [^3]: Charles Jackson. Ed. *The Autobiography of Mrs. Alice Thornton of
@@ -117,7 +117,7 @@ East Newton, Co. York*. Durham: Surtees Society, 1875, 347; Thomas
 Comber. Ed. *Memoirs of the life and writings of Thomas Comber* (1799).
 Eighteenth Century Collections Online (ECCO). Accessed 15 Dec. 2022.
 
-[^4]: George Paul, "Letter to Dr Macro." BL Add 32556, 69--70. The 1799
+[^4]: George Paul, 'Letter to Dr Macro.' BL Add 32556, 69--70. The 1799
 version has a few additions, the most noteworthy being that the account
 was signed by Thornton.
 
@@ -126,21 +126,21 @@ was signed by Thornton.
     reign of King James the first*. 2nd ed., vol. 2, printed for Jacob
     Tonson, 1718. ECCO. Accessed 15 Dec. 2022.
 
-[^6]: Modernised from Paul, "Letter to Dr Macro." 69.
+[^6]: Modernised from Paul, 'Letter to Dr Macro.' 69.
 
-[^7]: Raymond, \"Rushworth \[Rushforth\], John".
+[^7]: Raymond, \'Rushworth \[Rushforth\], John.'
 
-[^8]: ["House of Lords Journal Volume 11: 24 July 1660,"](http://www.british-history.ac.uk/lords-jrnl/vol11/pp104-105) in *Journal
+[^8]: ['House of Lords Journal Volume 11: 24 July 1660,'](http://www.british-history.ac.uk/lords-jrnl/vol11/pp104-105) in *Journal
     of the House of Lords: Volume 11, 1660-1666*, (London: His
     Majesty\'s Stationery Office, 1767-1830), 104-105. *British History
-    Online*, accessed December 16, 2022.
+    Online*. Accessed December 16, 2022.
 
-[^9]: Francis J. Bremer. \"Calvert, Cecil, second Baron Baltimore
-    (1605--1675), colonial promoter.\" *Oxford Dictionary of National
-    Biography*. 23 Sep. 2004; Accessed 16 Dec. 2022.
+[^9]: Francis J. Bremer. \'Calvert, Cecil, second Baron Baltimore
+    (1605--1675), colonial promoter.\' *Oxford Dictionary of National
+    Biography*. 23 Sep. 2004. Accessed 16 Dec. 2022.
 
-[^10]: Patrick Curry. \"Lilly, William (1602--1681), astrologer.\"
-    *Oxford Dictionary of National Biography*. 23 Sep. 2004; Accessed 16
+[^10]: Patrick Curry. \'Lilly, William (1602--1681), astrologer.\'
+    *Oxford Dictionary of National Biography*. 23 Sep. 2004. Accessed 16
     Dec. 2022.
 
 [^11]: Charles Burman and Thomas Davies. Eds. [*The Lives of Those
@@ -149,7 +149,7 @@ was signed by Thornton.
 
 [^12]: Echard. *The history of England*. Vol. 2. 641.
 
-[^13]: Paul, "Letter to Dr Macro." 69.
+[^13]: Paul, 'Letter to Dr Macro.' 69.
 
 
 
