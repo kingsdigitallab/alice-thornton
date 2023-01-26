@@ -5,7 +5,7 @@ authors:
   - jedge
 tags:
   - events
-  - conferences
+  - conferences 
 ---
 
 The [annual meeting of the Renaissance Society of America](https://www.rsa.org/page/RSASanJuan2023) takes place in San Juan, Puerto Rico, 9-11 March 2023. 
