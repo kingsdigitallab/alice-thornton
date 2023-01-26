@@ -5,7 +5,7 @@ status: live
 authors:
 - strill
 tags:
-- news
+- lifewriting
 ---
 
 
