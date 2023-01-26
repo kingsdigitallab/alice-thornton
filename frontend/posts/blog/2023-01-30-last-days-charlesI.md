@@ -60,7 +60,7 @@ disguised faces, particularly the Lord Baltimore and Mr William Lilly,
 and others suspected by him to be papists, which strange mixture did
 much amaze him.'[^6] 
 
-![alt text]({{"/assets/img/posts/Effigies_of_John_Rushworth_wmc_YaleCBA.jpg" | url}} "Title of image. Licensing stuff"){.media-left}
+![alt text]({{"/assets/img/posts/Effigies_of_John_Rushworth_wmc_YaleCBA.jpg" | url}} "Title of image. Licensing stuff"){.media-right}
 
 John Rushworth, author of the *Historical Collections* (1659), had
 strong ties to the parliamentarian cause.[^7] After the
@@ -87,7 +87,7 @@ but noted that he attended the trial of Charles I one day, saw Rushforth
 there, and felt the questioning by the judge was 'audacious' and that
 the king 'replied with great magnanimity and prudence'.[^11]
 
-![alt text]({{"/assets/img/posts/Laurence_Echard.jpg" | url}} "Title of image. Licensing stuff"){.media-right}
+![alt text]({{"/assets/img/posts/Laurence_Echard.jpg" | url}} "Title of image. Licensing stuff"){.media-left}
 
 Echard included Thornton's account in his history as an example of those
 who were deeply involved in the condemnation of Charles I 'but acted
