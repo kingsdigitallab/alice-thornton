@@ -53,12 +53,12 @@ be at the secret meeting with Charles I. According to Thornton's
 account, 'Mr Rushworth (author of the Collections)' had asked to use the
 room, 'some days before'. On the day:
 
+![alt text]({{"/assets/img/posts/Effigies_of_John_Rushworth_wmc_YaleCBA.jpg" | url}} "Title of image. Licensing stuff"){.media-left}
+
 'There were about 12 of them, he \[William Wandesford\] saw several
 disguised faces, particularly the Lord Baltimore and Mr William Lilly,
 and others suspected by him to be papists, which strange mixture did
 much amaze him.'[^6] 
-
-![alt text]({{"/assets/img/posts/Effigies_of_John_Rushworth_wmc_YaleCBA.jpg" | url}} "Title of image. Licensing stuff"){.media-left}
 
 John Rushworth, author of the *Historical Collections* (1659), had
 strong ties to the parliamentarian cause.[^7] After the
