@@ -1,6 +1,6 @@
 ---
 title: Thornton's Books Team to present at Renaissance Society of America, Puerto Rico, March 2023
-feature: /assets/img/posts/RSA logo.png
+feature: /assets/img/posts/RSA_logo.jpg
 authors:
   - jedge
 tags:
