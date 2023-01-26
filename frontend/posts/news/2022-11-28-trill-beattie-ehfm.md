@@ -5,7 +5,6 @@ status: live
 authors:
   - cbeattie
 tags:
-  - news
   - media
   - radio
 ---
