@@ -36,18 +36,16 @@ ps -p ${DTSPID} > /dev/null
 if [ $? -eq 0 ]; then
   echo "DTSPID=${DTSPID}" > .dts.pid
   echo "new pid=${DTSPID}"
-
   
   sleep 4
   npx kdl-dts-static settings-static.json
 
-  kill $DTSPID
+  kill -9 $DTSPID
   if [ $? -ne 0 ]; then
     echo "ERROR: could not kill DTS server"
+    exit 3
   fi
 else
    echo "ERROR: server failed to start ($DTSPID)"
    exit 2
 fi
-
-# rm .dts.pid
