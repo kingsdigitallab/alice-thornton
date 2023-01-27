@@ -51,7 +51,7 @@ be at the secret meeting with Charles I. According to Thornton's
 account, 'Mr Rushworth (author of the Collections)' had asked to use the
 room, 'some days before'. On the day:
 
-![alt text]({{"/assets/img/posts/Effigies_of_John_Rushworth_wmc_YaleCBA.jpg" | url}} "Title of image. Licensing stuff"){.media-left}
+![A black and white engraving of the bust of a white man with shoulder-length curly black hair]({{"/assets/img/posts/Effigies_of_John_Rushworth_wmc_YaleCBA.jpg" | url}} "Robert White, The Effigies of John Rushworth Esq. B1977.14.15099, Yale Center for British Art. Public domain, via Wikimedia Commons"){.media-left}
 
 >'There were about 12 of them, he \[William Wandesford\] saw several
 disguised faces, particularly the Lord Baltimore and Mr William Lilly,
@@ -83,7 +83,7 @@ but noted that he attended the trial of Charles I one day, saw Rushforth
 there, and felt the questioning by the judge was 'audacious' and that
 the king 'replied with great magnanimity and prudence'.[^11]
 
-![alt text]({{"/assets/img/posts/Laurence_Echard.jpg" | url}} "Title of image. Licensing stuff"){.media-right}
+![A portrait of a white man with a typical long grey 17th century wig, sitting at a desk with an open book]({{"/assets/img/posts/Laurence_Echard.jpg" | url}} "Godfrey Kneller, Laurence Echard (18th century). Public domain, via Wikimedia Commons"){.media-right}
 
 Echard included Thornton's account in his history as an example of those
 who were deeply involved in the condemnation of Charles I 'but acted
