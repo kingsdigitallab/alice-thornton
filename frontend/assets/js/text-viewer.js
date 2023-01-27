@@ -44,7 +44,7 @@ function setUpTextViewer() {
           {
             selectors: {
               source: {
-                "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/develop/dts.json":
+                "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts/dts.json":
                   "AT SDTS (github)",
                 // "http://127.0.0.1:5500/alice-thornton/dts.json":
                 //   "AT SDTS (localhost)",
