@@ -1,0 +1,37 @@
+name: Publish TEI
+
+on:
+  schedule:
+    - cron: '0 22 * * *'
+
+jobs:
+  publish-tei:
+    runs-on: ubuntu-20.04
+
+    strategy:
+      matrix:
+        node-version: [17.x]
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: dts
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      - name: Static DTS generation
+        run: |
+          npm run static
+
+      - name: Commit and push
+        if: ${{ false }}
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automated DTS publication
