@@ -73,7 +73,7 @@ c.1624. Lord Baltimore's colony in Maryland was at risk of being taken
 over by parliament and so his presence might help account for the reference
 to the 'strange mixture' of people in attendance.[^9]
 
-The third named man was William Lilly, [an astrologer](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652). He had published a pamphlet, *A Prophecy of the White Kings
+The third named man was William Lilly, [an astrologer](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652/). He had published a pamphlet, *A Prophecy of the White Kings
 Dreadfull Dead-Man Explaned* (1644), which predicted the end of the
 Stuart monarchy and implied the violent death of Charles I, who he
 accused of engaging in 'an uncivil and unnatural war against his own
