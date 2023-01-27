@@ -1,11 +1,12 @@
-name: Publish TEI texts into DTS files
+name: Publish TEI
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "0 13,18 * * *"
 
 jobs:
-  sdts-develop:
+  publish-tei:
     runs-on: ubuntu-20.04
 
     strategy:
@@ -13,30 +14,25 @@ jobs:
         node-version: [17.x]
 
     steps:
-      - name: Check out sdts
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
-          ref: 'sdts'
+          ref: dts
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install dependencies & build
-        if: ${{ false }}
+      - name: Install dependencies
         run: |
-          npm run 
+          npm ci
 
-      - name: Deploy to github pages
-        if: ${{ false }}
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: ./_site
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Static DTS generation
+        run: |
+          npm run static
 
       - name: Commit and push
-        if: ${{ false }}
+        if: ${{ true }}
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Automated 11ty build
+          commit_message: Automated DTS publication
