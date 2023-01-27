@@ -31,7 +31,7 @@ scholar sceptical about its veracity.[^2]
 Charles Jackson in 1875 called this 'a curious account ... now lost',
 which he accessed from a note in the 1799 edition of the _Memoirs of the
 Life and Writings of Thomas Comber, DD_, her son-in-law, by another
-descendant.[^3] The account, virtually verbatim, actually survives
+descendant.[^3] However, the account, virtually verbatim, does survive
 in a letter dated 10 May 1710, five years after Thornton's death.
 The letter is from George Paul, Vicar-General to the Archbishop of
 Canterbury to Dr Cox Macro, clergyman and antiquarian, and Paul notes
@@ -53,10 +53,10 @@ room, 'some days before'. On the day:
 
 ![alt text]({{"/assets/img/posts/Effigies_of_John_Rushworth_wmc_YaleCBA.jpg" | url}} "Title of image. Licensing stuff"){.media-left}
 
-'There were about 12 of them, he \[William Wandesford\] saw several
+>There were about 12 of them, he \[William Wandesford\] saw several
 disguised faces, particularly the Lord Baltimore and Mr William Lilly,
 and others suspected by him to be papists, which strange mixture did
-much amaze him.'[^6]
+much amaze him.[^6]
 
 John Rushworth, author of the _Historical Collections_ (1659), had
 strong ties to the parliamentarian cause.[^7] After the
