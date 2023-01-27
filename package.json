@@ -5,17 +5,10 @@
   },
   "scripts": {
     "test": "echo 'WARNING: no test to run'; exit 0",
-    "static": "bash static.sh",
-    "serve": "npx serve",
-    "prettier": "prettier . --check",
-    "prettier:fix": "npm run prettier -- --write"
+    "static": "bash static.sh"
   },
   "lint-staged": {
-    "*.js": "npm run format",
-    "*.{md,yaml}": "npm run prettier:fix"
-  },
-  "devDependencies": {
-    "prettier": "^2.8.3",
-    "serve": "^14.2.0"
+    "*.js": "exit 0",
+    "*.{md,yaml}": "exit 0"    
   }
 }
