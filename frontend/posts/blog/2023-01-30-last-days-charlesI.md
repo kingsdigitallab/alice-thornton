@@ -13,8 +13,8 @@ We are nearing the anniversary of the execution of Charles I, which took place o
 who was 'cruelly murdered by the hands of blasphemous rebels, his own
 subjects, at Whitehall, London, the 30th of January 1649'.[^1]
 Alice was from a royalist family, the Wandesfords, and maintained this
-allegiance, even though the man she married in 1651, [William Thornton,
-was more ambivalent about the monarchy](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/).
+allegiance, even though the man she married in 1651, William Thornton,
+was [more ambivalent about the monarchy](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/).
 
 But Thornton, in other writings, had more to say about the final days of
 Charles I. She gave an account of a meeting, that took place at her
