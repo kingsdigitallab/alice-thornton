@@ -1,7 +1,7 @@
 ---
 title: "'A Curious Account': Alice Thornton on the Last Days of Charles I"
 feature: /assets/img/posts/lively-representation-bm-detail-250410001.jpg
-status: draft
+status: live
 authors:
   - cbeattie
 tags:
@@ -13,8 +13,8 @@ We are nearing the anniversary of the execution of Charles I, which took place o
 who was 'cruelly murdered by the hands of blasphemous rebels, his own
 subjects, at Whitehall, London, the 30th of January 1649'.[^1]
 Alice was from a royalist family, the Wandesfords, and maintained this
-allegiance, even though the man she married in 1651, [William Thornton,
-was more ambivalent about the monarchy](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/).
+allegiance, even though the man she married in 1651, William Thornton,
+was [more ambivalent about the monarchy](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/).
 
 But Thornton, in other writings, had more to say about the final days of
 Charles I. She gave an account of a meeting, that took place at her
@@ -31,7 +31,7 @@ scholar sceptical about its veracity.[^2]
 Charles Jackson in 1875 called this 'a curious account ... now lost',
 which he accessed from a note in the 1799 edition of the _Memoirs of the
 Life and Writings of Thomas Comber, DD_, her son-in-law, by another
-descendant.[^3] The account, virtually verbatim, actually survives
+descendant.[^3] However, the account, virtually verbatim, does survive
 in a letter dated 10 May 1710, five years after Thornton's death.
 The letter is from George Paul, Vicar-General to the Archbishop of
 Canterbury to Dr Cox Macro, clergyman and antiquarian, and Paul notes
@@ -51,9 +51,9 @@ be at the secret meeting with Charles I. According to Thornton's
 account, 'Mr Rushworth (author of the Collections)' had asked to use the
 room, 'some days before'. On the day:
 
-![alt text]({{"/assets/img/posts/Effigies_of_John_Rushworth_wmc_YaleCBA.jpg" | url}} "Title of image. Licensing stuff"){.media-left}
+![A black and white engraving of the bust of a white man with shoulder-length curly black hair]({{"/assets/img/posts/Effigies_of_John_Rushworth_wmc_YaleCBA.jpg" | url}} "Robert White, The Effigies of John Rushworth Esq. B1977.14.15099, Yale Center for British Art. Public domain, via Wikimedia Commons"){.media-left}
 
-'There were about 12 of them, he \[William Wandesford\] saw several
+>'There were about 12 of them, he \[William Wandesford\] saw several
 disguised faces, particularly the Lord Baltimore and Mr William Lilly,
 and others suspected by him to be papists, which strange mixture did
 much amaze him.'[^6]
@@ -73,7 +73,7 @@ c.1624. Lord Baltimore's colony in Maryland was at risk of being taken
 over by parliament and so his presence might help account for the reference
 to the 'strange mixture' of people in attendance.[^9]
 
-The third named man was William Lilly, [an astrologer](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652). He had published a pamphlet, *A Prophecy of the White Kings
+The third named man was William Lilly, [an astrologer](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652/). He had published a pamphlet, *A Prophecy of the White Kings
 Dreadfull Dead-Man Explaned* (1644), which predicted the end of the
 Stuart monarchy and implied the violent death of Charles I, who he
 accused of engaging in 'an uncivil and unnatural war against his own
@@ -83,7 +83,7 @@ but noted that he attended the trial of Charles I one day, saw Rushforth
 there, and felt the questioning by the judge was 'audacious' and that
 the king 'replied with great magnanimity and prudence'.[^11]
 
-![alt text]({{"/assets/img/posts/Laurence_Echard.jpg" | url}} "Title of image. Licensing stuff"){.media-right}
+![A portrait of a white man with a typical long grey 17th century wig, sitting at a desk with an open book]({{"/assets/img/posts/Laurence_Echard.jpg" | url}} "Godfrey Kneller, Laurence Echard (18th century). Public domain, via Wikimedia Commons"){.media-right}
 
 Echard included Thornton's account in his history as an example of those
 who were deeply involved in the condemnation of Charles I 'but acted
