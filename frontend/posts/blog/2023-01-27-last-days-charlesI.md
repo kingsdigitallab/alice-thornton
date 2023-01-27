@@ -1,7 +1,7 @@
 ---
 title: "'A Curious Account': Alice Thornton on the Last Days of Charles I"
 feature: /assets/img/posts/lively-representation-bm-detail-250410001.jpg
-status: draft
+status: live
 authors:
   - cbeattie
 tags:
