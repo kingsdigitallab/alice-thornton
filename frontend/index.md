@@ -14,7 +14,7 @@ which will enhance understanding of the lives and works of early modern women.
 While by no means the only seventeenth-century woman to write her own life story,
 Thornton is unusual in having written four different versions of her autobiography.
 Collectively, her books offer an extraordinarily rich insight into gentry life
-in seventeenth-century Yorkshire, at a time of civil war and  plague.
+in seventeenth-century Yorkshire, at a time of civil war and plague.
 
 This website will provide resources aimed at better understanding the life and
 work of Alice Thornton and, in due course, will host a fully searchable digital
@@ -41,7 +41,7 @@ Born in Kirklington, Yorkshire on 13 February 1626, Alice spent her childhood ye
 
 In 1633, the family relocated to Ireland, as her father's friend and mentor, Thomas Wentworth (first Lord Strafford), had been made Lord Deputy of Ireland and there was a role for Christopher Wandesford in Dublin. Here, Alice spent time with Ladies Anne and Arabella Wentworth and learnt French, singing, dancing, silk-work and other ‘suitable’ accomplishments. Their playtime together included a swinging game that caused another near-death experience. In early 1640, her father took over as Lord Deputy of Ireland before his sudden death later that year at just 48 years of age.
 
-After her father’s death, and prompted by the turmoil of the Irish Rebellion, the family moved back to the north of England. However, the following year they were caught up in the events of the civil war. Alice's family were for the king and their estates at Kirklington were confiscated. Parliamentarian and Scottish soldiers were billeted on her mother’s lands in Hipswell, Richmondshire.  
+After her father’s death, and prompted by the turmoil of the Irish Rebellion, the family moved back to the north of England. However, the following year they were caught up in the events of the civil war. Alice's family were for the king and their estates at Kirklington were confiscated. Parliamentarian and Scottish soldiers were billeted on her mother’s lands in Hipswell, Richmondshire.
 
 When her oldest brother, George, drowned in the river Swale in 1651 – which Alice claimed to have foretold in a dream six months earlier – she reluctantly agreed to marry in order to help secure her own financial future. Her family had settled on William Thornton (1624-1668), a member of the lesser gentry in Ryedale, whose parliamentarian family connections had helped the Wandesfords recover their lands.
 

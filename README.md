@@ -19,7 +19,7 @@ The web site is developed using a Static Site Generator called [11ty](https://ww
 ## Edition
 
 - [The TEI editions of the books](https://github.com/kingsdigitallab/alice-thornton/tree/edition) are kept in the `edition` branch
-- [The HTML chunks](https://github.com/kingsdigitallab/alice-thornton/tree/dts) are generated from the TEI editions every day at 11pm and saved into the `dts` branch
+- [The HTML chunks](https://github.com/kingsdigitallab/alice-thornton/tree/dts) are generated from the TEI editions every day at 10pm and saved into the `dts` branch
 - The Text Viewer reads HTML chunks from the `dts` branch
 - The development site shows the latest HTML chunks
 - Snapshots of the `dts` branch will be manually tagged with incremental version numbers (e.g. e0.1.0)

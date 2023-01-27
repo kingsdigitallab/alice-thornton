@@ -8,13 +8,13 @@ tags:
   - monarchy
   - letters
 ---
-We are nearing the anniversary of the execution of Charles I, which took place on 30 January 1649. For Alice Thornton, looking back on this c.1669 when writing *Book 1: The First Book of My Life*, Charles I was a 'martyr'
+
+We are nearing the anniversary of the execution of Charles I, which took place on 30 January 1649. For Alice Thornton, looking back on this c.1669 when writing _Book 1: The First Book of My Life_, Charles I was a 'martyr'
 who was 'cruelly murdered by the hands of blasphemous rebels, his own
-subjects, at Whitehall, London, the 30th of January 1649'.[^1] 
+subjects, at Whitehall, London, the 30th of January 1649'.[^1]
 Alice was from a royalist family, the Wandesfords, and maintained this
 allegiance, even though the man she married in 1651, [William Thornton,
 was more ambivalent about the monarchy](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/).
-
 
 But Thornton, in other writings, had more to say about the final days of
 Charles I. She gave an account of a meeting, that took place at her
@@ -29,8 +29,8 @@ scholar sceptical about its veracity.[^2]
 ![photo of part of a handwritten letter which includes Thornton's testimony, labelled as such and underlined ]({{"/assets/img/posts/ATaccountCoxletterFront.jpg" | url}} "Part of letter to Dr Macro. BL Add 32556, 69. Photo by Cordelia Beattie, 2019."){.media-right}
 
 Charles Jackson in 1875 called this 'a curious account ... now lost',
-which he accessed from a note in the 1799 edition of the *Memoirs of the
-Life and Writings of Thomas Comber, DD*, her son-in-law, by another
+which he accessed from a note in the 1799 edition of the _Memoirs of the
+Life and Writings of Thomas Comber, DD_, her son-in-law, by another
 descendant.[^3] The account, virtually verbatim, actually survives
 in a letter dated 10 May 1710, five years after Thornton's death.
 The letter is from George Paul, Vicar-General to the Archbishop of
@@ -38,15 +38,13 @@ Canterbury to Dr Cox Macro, clergyman and antiquarian, and Paul notes
 that 'your fellow Collegian Laurence Eachard\' wanted it \'in order to
 be mentioned in his History'.[^4]
 
-
-Echard did indeed include it in volume 2 of his *History of England*
+Echard did indeed include it in volume 2 of his _History of England_
 (1718), noting that 'I have received from a good friend a manuscript
 testimonial of Mrs Thornton, a Yorkshire gentlewoman, daughter to Sir
 Christopher Wandesford, who had been Deputy Governor of Ireland under
 the Earl of Stafford... The person was generally esteemed for her worth
 and piety and has given this following account, worthy of the reader's
-notice'.[^5] 
-
+notice'.[^5]
 
 Part of what makes the account so 'curious' is the named people said to
 be at the secret meeting with Charles I. According to Thornton's
@@ -58,22 +56,22 @@ room, 'some days before'. On the day:
 'There were about 12 of them, he \[William Wandesford\] saw several
 disguised faces, particularly the Lord Baltimore and Mr William Lilly,
 and others suspected by him to be papists, which strange mixture did
-much amaze him.'[^6] 
+much amaze him.'[^6]
 
-John Rushworth, author of the *Historical Collections* (1659), had
+John Rushworth, author of the _Historical Collections_ (1659), had
 strong ties to the parliamentarian cause.[^7] After the
 Restoration, he was summoned to the House of Lords on 24 July 1660 to
 answer the question, 'What he knows of a Meeting of Twelve Persons,
 at *The Beare* of the Bridge Foot, concerning the Contrivance of the
 King's Death?'. Rushworth denied knowledge of that meeting but did
-admit knowing that some men were discussing a trial.[^8] 
+admit knowing that some men were discussing a trial.[^8]
 
 Although Thornton's account refers to 'papists' in the plural, the only
 Catholic to be named is Lord Baltimore: Cecil Calvert, second
 Baron Baltimore, announced his family were converting to Catholicism
 c.1624. Lord Baltimore's colony in Maryland was at risk of being taken
 over by parliament and so his presence might help account for the reference
-to the 'strange mixture' of people in attendance.[^9] 
+to the 'strange mixture' of people in attendance.[^9]
 
 The third named man was William Lilly, [an astrologer](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652). He had published a pamphlet, *A Prophecy of the White Kings
 Dreadfull Dead-Man Explaned* (1644), which predicted the end of the
@@ -97,57 +95,58 @@ meeting until after Charles I was executed: 'he understood afterwards to
 his great grief, that such an odious consult should be within his
 walls'.[^13]
 
+[^1]:
+    The text quoted above is from our work-in-progress edition of Alice
+    Thornton's Books. The text is modernised in the body of the blog and
+    the semi-diplomatic transcription is reproduced here in the notes. *Book
+    1: The First Book of My Life*, British Library (BL) MS Add 88897/1, 94:
+    'was cruelly Murthered, by the hands of Blasphemous Rebells, his owne
+    subjects, att White hall. London the 30th of Janueary: 1648'. Thornton
+    uses Lady Day dating here.
 
-[^1]: The text quoted above is from our work-in-progress edition of Alice
-Thornton's Books. The text is modernised in the body of the blog and
-the semi-diplomatic transcription is reproduced here in the notes. *Book
-1: The First Book of My Life*, British Library (BL) MS Add 88897/1, 94:
-'was cruelly Murthered, by the hands of Blasphemous Rebells, his owne
-subjects, att White hall. London the 30th of Janueary: 1648'. Thornton
-uses Lady Day dating here.
+[^2]:
+    Joad Raymond, \'Rushworth \[Rushforth\], John (c. 1612--1690),
+    historian and politician.\' _Oxford Dictionary of National Biography_.
+    23 Sep. 2004; Accessed 16 Dec. 2022.
 
-[^2]: Joad Raymond, \'Rushworth \[Rushforth\], John (c. 1612--1690),
-historian and politician.\' *Oxford Dictionary of National Biography*.
-23 Sep. 2004; Accessed 16 Dec. 2022.
+[^3]:
+    Charles Jackson. Ed. *The Autobiography of Mrs. Alice Thornton of
+    East Newton, Co. York*. Durham: Surtees Society, 1875, 347; Thomas
+    Comber. Ed. _Memoirs of the life and writings of Thomas Comber_ (1799).
+    Eighteenth Century Collections Online (ECCO). Accessed 15 Dec. 2022.
 
-[^3]: Charles Jackson. Ed. *The Autobiography of Mrs. Alice Thornton of
-East Newton, Co. York*. Durham: Surtees Society, 1875, 347; Thomas
-Comber. Ed. *Memoirs of the life and writings of Thomas Comber* (1799).
-Eighteenth Century Collections Online (ECCO). Accessed 15 Dec. 2022.
+[^4]:
+    George Paul, 'Letter to Dr Macro.' BL Add 32556, 69--70. The 1799
+    version has a few additions, the most noteworthy being that the account
+    was signed by Thornton.
 
-[^4]: George Paul, 'Letter to Dr Macro.' BL Add 32556, 69--70. The 1799
-version has a few additions, the most noteworthy being that the account
-was signed by Thornton.
-
-[^5]: Modernised from Laurence Echard. *The history of England. From the
+[^5]:
+    Modernised from Laurence Echard. _The history of England. From the
     first entrance of Julius Cæsar and the Romans, to the end of the
-    reign of King James the first*. 2nd ed., vol. 2, printed for Jacob
+    reign of King James the first_. 2nd ed., vol. 2, printed for Jacob
     Tonson, 1718. ECCO. Accessed 15 Dec. 2022.
 
 [^6]: Modernised from Paul, 'Letter to Dr Macro.' 69.
-
 [^7]: Raymond, \'Rushworth \[Rushforth\], John.'
-
-[^8]: ['House of Lords Journal Volume 11: 24 July 1660,'](http://www.british-history.ac.uk/lords-jrnl/vol11/pp104-105) in *Journal
+[^8]:
+    ['House of Lords Journal Volume 11: 24 July 1660,'](http://www.british-history.ac.uk/lords-jrnl/vol11/pp104-105) in *Journal
     of the House of Lords: Volume 11, 1660-1666*, (London: His
     Majesty\'s Stationery Office, 1767-1830), 104-105. *British History
     Online*. Accessed December 16, 2022.
 
-[^9]: Francis J. Bremer. \'Calvert, Cecil, second Baron Baltimore
-    (1605--1675), colonial promoter.\' *Oxford Dictionary of National
-    Biography*. 23 Sep. 2004. Accessed 16 Dec. 2022.
+[^9]:
+    Francis J. Bremer. \'Calvert, Cecil, second Baron Baltimore
+    (1605--1675), colonial promoter.\' _Oxford Dictionary of National
+    Biography_. 23 Sep. 2004. Accessed 16 Dec. 2022.
 
-[^10]: Patrick Curry. \'Lilly, William (1602--1681), astrologer.\'
-    *Oxford Dictionary of National Biography*. 23 Sep. 2004. Accessed 16
+[^10]:
+    Patrick Curry. \'Lilly, William (1602--1681), astrologer.\'
+    _Oxford Dictionary of National Biography_. 23 Sep. 2004. Accessed 16
     Dec. 2022.
 
-[^11]: Charles Burman and Thomas Davies. Eds. [*The Lives of Those
-    Eminent Antiquaries Elias Ashmole, Esquire, and Mr. William Lilly*](https://books.google.co.uk/books?id=DxE2AAAAMAAJ).
-    1774. 95. 
+[^11]:
+    Charles Burman and Thomas Davies. Eds. [_The Lives of Those
+    Eminent Antiquaries Elias Ashmole, Esquire, and Mr. William Lilly_](https://books.google.co.uk/books?id=DxE2AAAAMAAJ). 1774. 95.
 
-[^12]: Echard. *The history of England*. Vol. 2. 641.
-
+[^12]: Echard. _The history of England_. Vol. 2. 641.
 [^13]: Paul, 'Letter to Dr Macro.' 69.
-
-
-
