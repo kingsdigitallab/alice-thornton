@@ -192,7 +192,7 @@ h3 {
       content: "";
       display: inline-block;
       margin-left: -1.5rem;
-      margin-right: .5rem;
+      margin-right: 0.5rem;
       height: 1rem;
       width: 1rem;
     }
@@ -227,8 +227,8 @@ section,
   @media screen and (min-width: 1140px) {
     .container {
       background: url("/assets/img/marginalia-1-sepia.png") 5px 130px no-repeat,
-                  url("/assets/img/marginalia-1-sepia.png") 99.5% 97.6% no-repeat,
-                  url("/assets/img/st-matt.png") 5px 500px no-repeat;
+        url("/assets/img/marginalia-1-sepia.png") 99.5% 97.6% no-repeat,
+        url("/assets/img/st-matt.png") 5px 500px no-repeat;
       background-size: 80px;
     }
   }
@@ -239,7 +239,8 @@ section,
 }
 
 .top-nav {
-  background: url("/assets/img/at-decoration-pattern-1.jpg") bottom left repeat-x;
+  background: url("/assets/img/at-decoration-pattern-1.jpg") bottom left
+    repeat-x;
   background-size: 60px;
   padding-bottom: 1rem;
 }
@@ -396,7 +397,7 @@ footer,
     + * + * {
       box-sizing: border-box;
       display: inline-block;
-      margin-top: .625rem;
+      margin-top: 0.625rem;
       width: 65%;
     }
 
@@ -675,7 +676,6 @@ ul.social_media_block {
 // Box citation
 
 .box-citation {
-  
   border: 1px solid rgba(lighten($primary, 20%), 0.2);
 
   p {
