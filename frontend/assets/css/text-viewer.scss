@@ -1,0 +1,16 @@
+// GN: temporary stylesheet to experiment with rendering of sample
+// TEI elements the text viewer.
+// 
+// Some of this will need feedback from partners 
+// & review from designers before being added back
+// into main.scss.
+
+#text-viewer .panel .content {
+  &.view-modern {
+    // GN: dummy example of TEI customisation for modernised view
+    .tei-type-pageNum:before {
+      content: "page ";
+    }
+  }
+}
+
