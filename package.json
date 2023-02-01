@@ -21,7 +21,7 @@
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix",
     "test": "npm run test --workspaces --if-present",
-    "serve-dts": "python3 -m http.server 3000"
+    "tei2html": "gh workflow run 46601457"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.2",
