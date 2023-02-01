@@ -647,9 +647,12 @@ ul.social_media_block {
 
 // text-viewer (GN + GF)
 .text-viewer {
-  padding-bottom: 1rem;
+  padding-bottom: 6rem;
+  
 
   .panel-controls {
+    // GN: temporarily hidden
+    display: none;
     border-bottom: 1px solid lighten($dark, 70%);
     background-color: rgba(lighten($primary, 10%), 0.1);
     line-height: 2.4;
@@ -730,3 +733,4 @@ ul.social_media_block {
     }
   }
 }
+
