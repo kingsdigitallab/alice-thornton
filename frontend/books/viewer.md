@@ -1,5 +1,5 @@
 ---
-title: Text Viewer
+title: Digital Edition
 isContentHTML: true
 ---
 
