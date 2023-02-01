@@ -11,5 +11,19 @@
     .tei-type-pageNum:before {
       content: "page ";
     }
+
+    br {
+      display: none
+    }
+  }
+
+  // shoul be converted into h1
+  .tei-head {
+    font-size: 1.5em;
+  }
+
+  span[data-tei-place="centre"] {
+    text-align: center;
+    display: inline-block;
   }
 }
