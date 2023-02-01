@@ -6,15 +6,39 @@ isContentHTML: true
 {% raw %}
 
 <div id="text-viewer" class="text-viewer columns">
-  <nav v-for="(panel, panelIdx) in panels" class="panel column">
+  <nav v-for="(panel, panelIdx) in panels" class="panel column buttons">
     <p class="panel-heading">
       <panel-control :panel-idx="panelIdx" control-key="document" hide-label="1"></panel-control>
-      <button class="button" @click="incrementLocus(panel, -1)">Prev.</button>
+      <button class="button" @click="incrementLocus(panel, -1)">
+        <span class="icon is-small">
+          <!-- Font Awesome angle-left -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+        </span>
+        <span>Prev</span>
+      </button>
       <panel-control :panel-idx="panelIdx" control-key="locus" hide-label="1"></panel-control>
-      <button class="button" @click="incrementLocus(panel, 1)">Next</button>
+      <button class="button" @click="incrementLocus(panel, 1)">
+        <span>Next</span>
+        <span class="icon is-small">
+          <!-- Font Awesome angle-right -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+        </span>
+      </button>
       <span class="button-bar">
-        <a class="button" href="#" @click.stop.prevent="clonePanel(panelIdx)">Clone</a>
-        <a v-if="panels.length > 1" class="button" href="#" @click.stop.prevent="closePanel(panelIdx)">Close</a>
+        <a class="button" href="#" @click.stop.prevent="clonePanel(panelIdx)">
+          <span class="icon is-small">
+            <!-- Font Awesome clone -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H224c-53 0-96-43-96-96V160H64c-35.3 0-64 28.7-64 64V448zm224-96H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64z"/></svg>
+          </span>
+          <span>Clone</span>
+        </a>
+        <a v-if="panels.length > 1" class="button is-danger" href="#" @click.stop.prevent="closePanel(panelIdx)">
+          <span class="icon is-small">
+            <!-- Font Awesome xmark -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
+          </span>
+          <span>Close</span>
+        </a>
       </span>
       <panel-control :panel-idx="panelIdx" control-key="view" hide-label="1"></panel-control>
     </p>

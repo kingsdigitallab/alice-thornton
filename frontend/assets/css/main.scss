@@ -324,6 +324,28 @@ footer,
   text-align: right;
 }
 
+/* Icons */
+
+// within a button
+.button {
+  .icon {
+    &.is-small {
+      height: .75rem;
+      width: .75rem;
+    }
+  }
+
+  &.is-danger {
+    svg {
+      fill: $white;
+    }
+
+    &:hover {
+      background: $secondary;
+    }
+  }
+}
+
 /* Images */
 
 .content .icon {
