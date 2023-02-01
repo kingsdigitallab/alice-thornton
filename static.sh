@@ -24,7 +24,8 @@ fi
 
 # 2. Start a new DTS server
 mkdir -p .corpus
-npx kdl-dts-server settings-server.json &
+# npx kdl-dts-server settings-server.json &
+node node_modules/.bin/kdl-dts-server settings-server.json &
 DTSPID=$!
 if [ $? -ne 0 ]; then
   echo "ERROR: failed to start DTS server"
@@ -49,3 +50,4 @@ else
    echo "ERROR: server failed to start ($DTSPID)"
    exit 2
 fi
+
