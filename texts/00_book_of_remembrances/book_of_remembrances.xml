@@ -121,7 +121,7 @@
          Book 3 contains a number of dates written in the form 1668/9 (=1669). 
          #JulianSlash is used to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
          
-         ** JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
+         ** #JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
          ** Julian calendar is treated as the default calendar, so not explicitly encoded (atm)** 
          ** using @-custom attributes with -iso style formatting
          
@@ -144,14 +144,13 @@
         
      <!-- ENCODING NOTES: 
          
-         @xml:id in <pb> tags and page \d+ in xml comments = Transcriber page numbers 
+         @xml:id and @n in <pb> tags and page \d+ in xml comments = Transcriber page numbers 
          <fw>type=pageNum are Alice's written numbers
-         @n in <pb> tags are DEPRECATED and should not be used. (May be removed but currently using as reference for image numbers.)
          
-         img in xml comments = image numbers
+         img in xml comments (if present) = image numbers
          
      xml comment keywords:
-         NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action
+         NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action.
          TODO: needs work, I probably know what's needed
          Q: needs work, uncertain about how to proceed
          
@@ -160,24 +159,19 @@
          [] comment/note tags give some indication of what it's about
          [endnote] moved from Word endnotes into comment
          
+         
      TO DO/REVIEW:
         
         seg @rend=underline (all books)
-          final check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph tags.
-          but what should emph be used for? 
+          final check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph? tags.
              tei: emph = "marks words or phrases which are stressed or emphasized for linguistic or rhetorical effect." example = You took the car and did <emph>what</emph>?!! (and I think all the further examples are the same type of thing) 
              - not sure I've seen any clear examples of Alice using underline for exactly this type of emphasis. 
              - but she does underline things to (afaict) draw attention to them, so does that also count as emph?
              - Cf. most underline in BkRem used on headings and seems most appropriate to treat as decoration. Queried ones are at end of sections and the Q is whether they should be treated as section markers. 
         
-        DONE <pb> renumbering.
+
         [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
-        once xml:id is done, I may use @n to hold AWT's page numbers including putative [numbers] where she didn't number pages. 
-     
-        abbrev/contraction issues 
-        - contractions should now be DONE
-        - still q about <hi superscript> ?
-        - NB diff between number<sup> (majority of hi/sup) and word<sup>...
+
       
         remaining endnotes (<note> @place=end)
           type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep uncertain ones for later review.
@@ -198,15 +192,13 @@
           related footnotes > comments for reference/to come back to
           i've started teiHeader/msDesc with examples of tags that are likely to be useful, but we might not use all of them in the end.
         
-
      
       notes on names/places linkage (at end of Sept '22)
       - most people and place names are now tagged in all four books 
       - nearly all tagged <persName> are linked to people masterlist db 
-      - (additional bk2/3 people bios in progress)
       TODO
       - at least half of people and a proportion of places tagged with <rs> (type=person/group/place/geog) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
-      - completion of people.xml standoff to include relationships - to be done once bios have been completed
+      - completion of people.xml standoff to include relationships and sources - to be done once bios have been completed
 
      -->      
        
@@ -401,7 +393,7 @@
          <docAuthor>  
          <persName ref="ppl:awt1" n="per1" type="monogram">
            [ATW] <!-- Q [symbol] ATW = decorative monogram. maybe <figure tag ??
-                      nb there is also one in book 1 near the end. -->
+                      nb there is also one in book 1 near the end. and beginning of book ?3 -->
          </persName>
                 <!-- [endnote] The correct way for married women to monogram is 'Begin with her first name initial, followed by the married last name initial, and end with his first name initial.' -->
          </docAuthor>
@@ -619,7 +611,7 @@
          </fw>
            <p xml:id="p-0008">For as much as it is the duty<surplus reason="superfluous">.</surplus><lb/>
           of every true Christian to take<lb/>
-          notice of Almighty God our <w norm="Father's" type="tbd-sic">Fathe'rs</w><lb/>
+          notice of Almighty God our <choice><sic>Fathe'rs</sic><corr>Father's</corr></choice><lb/>
           gracious dealings with them from the<lb/>
           <w norm="womb">wombe</w>, <w norm="until">untill</w> the grave <w norm="bury">burie</w> them in<lb/>
           Silence &amp; to <w norm="keep">keepe</w> <w norm="particular">perticuler</w> remem-<lb break="no"/>
@@ -723,7 +715,7 @@
              our Lord Jesus Christ </quote> <w norm="being">beeing</w> a <w norm="comfort">comfot</w><lb/>
            to <rs ref="ppl:cw1 ppl:aow1" n="per12" type="person">my <w norm="dear">deare</w> Parents</rs> &amp; relations<lb/>
            &amp; that I may dedicate my Childhood<pc norm=",">.</pc><lb/>
-           youth<pc norm=",">.</pc> middle Age<pc norm=",">.</pc> &amp; old <w norm="age" type="tbd-sic">Adge</w><pc norm=",">.</pc> if<lb/>
+           youth<pc norm=",">.</pc> middle Age<pc norm=",">.</pc> &amp; old <w norm="age">Adge</w><pc norm=",">.</pc> if<lb/>
           God shall <w norm="spare">spaire</w> me so long to his<lb/>
           Glory &amp; praise even to my lives end<lb/>
           Amen. &amp; that for my Saviours Sake<lb/>
@@ -755,7 +747,7 @@
           much beloved &amp; taken <w norm="care">caire</w> for by them<lb/>
           And by the blessing of God I recovered<lb/>
           very <w norm="soon">soone</w>, nor was I very ill at<lb/>
-          that time in <w norm="them" type="tbd-sic">thim</w>.<anchor n="ev3" type="event"/> I will praise the<lb/>
+          that time in <choice><sic>thim</sic><corr>them</corr></choice>.<anchor n="ev3" type="event"/> I will praise the<lb/>
           Lord our God for my Preservation &amp;<lb/>
           deliverance that did not suffer that <w norm="disease">disseas</w><lb/>
           to rage &amp; <w norm="endanger">indanger</w> my life<surplus reason="superfluous">.</surplus> <gap xml:id="ex-gap-char-01" unit="char" quantity="2" reason="deleted"/> but<lb/>
@@ -919,6 +911,7 @@
                <date when-custom="1632/1634">1632, 33, 34</date>
             </fw>
          </fw>
+           <lb/>
          learning also all the other accomp<lb break="no"/>
           <w norm="-lishments" type="break">-lighmets</w> of working <w norm="silks">silkes</w> &amp; <lb/>
           <w norm="sweetmeats">sweetemeats</w> &amp; by <rs ref="ppl:aow1" n="per30" type="person">my <w norm="dear">deare</w> mothers</rs><lb/>
@@ -953,7 +946,7 @@
             </fw>
          </fw>
            <lb/>
-          of <w norm="thanks">thankes</w> &amp; Praise to the great<lb/>
+          <surplus reason="repetition">of</surplus> <w norm="thanks">thankes</w> &amp; Praise to the great<lb/>
              God of heaven &amp; Earth </quote><surplus reason="superfluous">.</surplus> in the first<lb/>
            place from whence comes <quote type="partial" source="#_James_1:17">every<lb/>
              good &amp; perfect gift,</quote> <quote type="partial" source="#_Hebrews_12:2">the Author &amp;<lb/>
@@ -1100,7 +1093,7 @@
           who departed sweetly in the Lord, to the <lb/>
           <w norm="infinite">infint</w> <w norm="loss">losse</w> of me &amp; the rest of our fami<add place="above">ly</add> 
           <lb/>
-            <date when-custom="1640-12-03"><w type="tbd-abbr">Dec.</w> 3<hi rend="superscript">d</hi> 40</date> at his house in <placeName ref="place:Dubl_088" n="place14">dublin<lb/>
+            <date when-custom="1640-12-03"><choice><abbr>Dec.</abbr><expan>December</expan></choice> 3<hi rend="superscript">d</hi> 40</date> at his house in <placeName ref="place:Dubl_088" n="place14">dublin<lb/>
           in Ireland</placeName>.<anchor n="ev13" type="event"/></p>
    </div>
   
@@ -1114,7 +1107,7 @@
             which broke out, &amp; was <w norm="discovered">discovred</w> in <placeName ref="place:Dubl_088" n="place17">Dublin</placeName><lb/>
            <choice>
              <sic><date when-custom="1641-10-03">Octb. 3<hi rend="superscript">d</hi> 1641</date></sic>
-             <corr><date when-custom="1641-10-23"><w norm="October" type="tbd-abbr">Octb</w>: 23<hi rend="superscript">d</hi> 1641</date></corr>
+             <corr><date when-custom="1641-10-23">October 23rd 1641</date></corr>
            </choice>
           <!-- [endnote] It was actually the 23rd but she writes 3rd here -->: but it was acted with<lb/>
           bitter malice. &amp; fury against the English<lb/>
@@ -1152,7 +1145,7 @@
           of <persName ref="ppl:jw1" n="per39">my brother John</persName>. &amp; was very <w norm="near">nere</w><lb/>
           death with them. but <w norm="blessed">blesed</w> be the God<lb/>
           of <w norm="mercies">mercys</w> who <w norm="spared">spaired</w> my life at that<lb/>
-          time <w norm="also">allso</w>. <add xml:id="ex-add-inline-01" place="inline">with <persName ref="ppl:jw1" n="per40">my <w norm="brother" type="tbd-abbr">bro</w>: John</persName> who had them<lb/>
+          time <w norm="also">allso</w>. <add xml:id="ex-add-inline-01" place="inline">with <persName ref="ppl:jw1" n="per40">my <choice><abbr>bro:</abbr><expan>brother</expan></choice> John</persName> who had them<lb/>
             <anchor n="ev16" type="event"/>
           <milestone n="ev17" unit="event"/>but a <w norm="poor">poore</w> boy <persName ref="ppl:fk1" n="per41">F. Kelly</persName> died of them. then.<anchor n="ev17" type="event"/></add>
 
@@ -1204,7 +1197,7 @@
          <milestone n="ev20" unit="event"/>
          <p xml:id="p-0026">
             <persName ref="ppl:kwd1" n="per46">my Sister Danby</persName> died at <placeName ref="place:Thor_056" n="place25">Thorpe</placeName> 
-           <date when-custom="1645-09-10"><w type="tbd-abbr">Sept</w> 10<hi rend="superscript">th</hi>
+           <date when-custom="1645-09-10"><choice><abbr>Sept</abbr><expan>September</expan></choice> 10<hi rend="superscript">th</hi>
             <lb/>
              1645</date>
             <!-- Q sic date [endnote] Bk 1 says sept 30th 1645 but Anselment found she was buried on 11th sept 1645: edn n274. -->
@@ -1561,7 +1554,7 @@
            who <w norm="let">lett</w> me blood<lb/>
            
            &amp; I went to my full time.<anchor n="ev41" type="event"/> <w norm="Blessed">Blesed</w> be<lb/>
-           the most high God <w norm="Deviser" type="tbd-sic">Devsiser</w> of <w norm="Heaven">Heavn</w> &amp; Earth <g>&amp;</g>
+           the most high God <choice><sic>Devsiser</sic><corr>deviser</corr></choice> of <w norm="Heaven">Heavn</w> &amp; Earth <g>&amp;</g>
          </p>
          </div>
             <pb xml:id="page-031" n="31"/>
@@ -1581,7 +1574,7 @@
         <milestone n="ev42" unit="event"/>
            I was delivered of <rs ref="ppl:xt2" n="per93" type="person">my fifth<lb/>
           <w norm="Child">Childe</w></rs> <w norm="being">beeing</w> a goodly <w norm="Son">Sonne</w><lb/>
-          <w norm="upon">uppon</w> the <date when-custom="1657-12-10">10<hi rend="superscript">th</hi> day of <w norm="December" type="tbd-abbr">Decemb</w><lb/>
+          <w norm="upon">uppon</w> the <date when-custom="1657-12-10">10<hi rend="superscript">th</hi> day of <choice><abbr>Decemb</abbr><expan>December</expan></choice><lb/>
           1657</date> <w norm="between">betweene</w> the <w norm="hours">houres</w><lb/>
           of <w norm="two">2</w> and <w norm="three">3</w> <w norm="o'clock">a clocke</w> in the <lb/>
           morning <w norm="upon">uppon</w> Thursday<lb/>
@@ -1670,7 +1663,7 @@
           <w norm="dear">deare</w> &amp; <choice><abbr>hon.<am rend="superscript">red</am></abbr><expan>honoured</expan></choice> Mother the Lady<lb/>
           Wandesford</persName> with her last <w norm="sickness">sickenesse</w><lb/>
           upon <date when-custom="1659-11-17"><add place="above"><seg rend="differentInk">Friday</seg></add> the <seg rend="differentInk">17<hi rend="superscript">th</hi></seg>
-          of november <seg rend="underline">1659</seg></date> <w norm="beginning">beging</w><lb/>
+          of november <seg rend="underline">1659</seg></date> <choice><sic>beging</sic><corr>beginning</corr></choice><lb/>
           then <date>18<hi rend="superscript">th</hi></date> an <w norm="exceeding">execeeding</w> great Cough<lb/>
           tormenting her <w norm="body">bodie</w> by stitches in<lb/>
           her breast, &amp; short breathing;<lb/>
@@ -1838,6 +1831,7 @@
             <fw type="pageNum">36</fw>
             <fw type="header"><date>1659</date>.</fw>
          </fw>
+           <lb/>
          Ever <w norm="recommending">recomending</w> her <w norm="soul">soule</w> with de<lb break="no"/>
           -sire to be <w norm="dissolved">desolved</w> &amp; so be with Christ<lb/>
           And all the <date when-custom="1659-12-09">friday night before she died</date><lb/>
@@ -1871,7 +1865,7 @@
          <p xml:id="p-0058">It pleased God she <w norm="continued">contineued</w> <lb/>
           <date when-custom="1659-12-10">till <w norm="saturday">satterday</w></date> about <w norm="noon">noone</w> when<lb/>
           she spoke to <persName ref="ppl:mn1" n="per104">my uncle norton</persName> &amp; re-<lb break="no"/>
-          comended her Children to his <w norm="care">caire</w><lb/>
+          <w type="break">comended</w> her Children to his <w norm="care">caire</w><lb/>
           with much good prayers for him &amp; his<lb/>
           then <w norm="took">tooke</w> her leave of him.
       </p>
@@ -1895,9 +1889,9 @@
            </subst><lb/> 
            <!-- Q [add] subst still recorded in semidip and highlighted though without footnoting. [endnote] '7' has been written over '6' and 9 is written over a 7 Bk 1 says 8 &amp; 9.-->
            <w norm="o'clock">aClock</w> at night <w norm="upon">vpon</w><!-- Q transcription U/V reported --> <w norm="saturday">satterday</w> the<lb/>
-          <date when-custom="1659-12-10">10<hi rend="superscript">th</hi> of <w norm="December" type="tbd-abbr">Decemb</w>. 
+          <date when-custom="1659-12-10">10<hi rend="superscript">th</hi> of <choice><abbr>Decemb</abbr><expan>December</expan></choice>. 
             <seg rend="underline">1659</seg></date>
-           <!-- TODO [formatting] change underline to section rule  -->
+           <!-- Q [formatting] change underline to section rule  -->
          </p>
          
             <pb xml:id="page-040" n="40"/>
@@ -2019,7 +2013,7 @@
          </fw>
          <lb/>
           having had <w norm="three">3</w> <w norm="hours">houers</w> <w norm="sleep">sleepe</w> his<lb/>
-          face was full of <w norm="round" type="tbd-sic">roud</w> Red spots<lb/>
+          face was full of <choice><sic>roud</sic><corr>round</corr></choice> Red spots<lb/>
           like the <w norm="smallpox">smale pox</w> with white <w norm="weals">wheales</w><lb/>
           <w norm="continuing">contineuing</w> in his face till night<lb/>
           &amp; then, whether through cold or <lb/>
@@ -3050,7 +3044,7 @@
           by which I was much comforted, &amp;<lb/>
           helped, <w norm="enlivened">inlivened</w>, &amp; <w norm="quickened">quickned</w> from<lb/>
           that black <w norm="veil">vaile</w> &amp; <w norm="cloud">cloude</w> of <w norm="sin">sine</w><lb/>
-          that did <w norm="seem">seeme</w> to quite <w norm="extinguished" type="tbd-sic">extingwist</w> <lb/>
+          that did <w norm="seem">seeme</w> to quite <w norm="extinguished">extingwist</w> <lb/>
           the hope of my <w norm="eternal">eternall</w> salvation
       </p>
         <anchor n="ev54" type="event"/>
@@ -3133,7 +3127,7 @@
           to dispose of as I should see <w norm="fit">fitt</w><lb/>
           to such children as I knew best<lb/>
           deserving at my death, or otherwise<lb/>
-          as Also to be <w norm="a means" type="tbd-sic">ameanes</w> to <persName ref="ppl:wt1" n="per179">Mr Thorn</persName><lb/>
+          as Also to be <choice><sic>ameanes</sic><corr>a means</corr></choice> to <persName ref="ppl:wt1" n="per179">Mr Thorn</persName><lb/>
           that he would make a <w norm="firm">firme</w> settleme<lb break="no"/>
           -nt of what was agreed upon,<lb/>
          
@@ -3387,7 +3381,7 @@
           me his <w norm="weak">weake</w> <w norm="handmaid">handmaide</w> an excee<lb break="no"/>
           -ding violent <w norm="weakness">weakenesse</w>. <w norm="beginning">beginng</w><lb/>
            a little after <rs ref="ppl:rt2" n="per191" type="person">my child</rs> was <w norm="born">borne</w><surplus reason="superfluous">.</surplus><lb/>
-          by <w norm="a most" type="tbd-sic">amost</w> <w norm="Terrible">Tirrible</w> flux of blood<lb/>
+          by <choice><sic>amost</sic><corr>a most</corr></choice> <w norm="Terrible">Tirrible</w> flux of blood<lb/>
            after his birth<surplus reason="superfluous">.</surplus> with such excessive<lb/>
           floods all that night that it was<lb/>
           <w norm="terrible">tirrible</w> to those about me. &amp; brought<lb/>
@@ -3446,7 +3440,7 @@
              <!-- [endnote] For continued?-->
             
             <lb/>
-          to so <w norm="vile" type="archaism">vild</w><!-- NOTE this is an archaic variant not a sic. used several times. --> a <w norm="worm">worme</w> as my <w norm="self">selfe</w>.<lb/>
+          to so <w norm="vile" type="archaism">vild</w> a <w norm="worm">worme</w> as my <w norm="self">selfe</w>.<lb/>
           <w norm="Doubtless">Doubtlese</w> to <w norm="set">sett</w> forth thine Almi<lb break="no"/>
           -ghty Power, Glory. &amp; <w norm="Infinite">Infinit</w><lb/>
            Perfection<surplus reason="superfluous">.</surplus> that can Raise from<lb/>
@@ -3566,7 +3560,7 @@
            -tions. And at the end of his life<surplus reason="superfluous">.</surplus>  he may<lb/>
           <w norm="receive">receave</w> the Comfort of a sanctified old<lb/>
            Age<surplus reason="superfluous">.</surplus>  with a <w norm="Crown">Crowne</w> of Glory to praise<lb/>
-          his <w norm="Redeemer" type="tbd-sic">Reedmer</w> &amp; mine <w norm="forever">for ever</w> &amp; ever:<lb/>
+          his <choice><sic>Reedmer</sic><corr>Redeemer</corr></choice> &amp; mine <w norm="forever">for ever</w> &amp; ever:<lb/>
           finding what the <w norm="goodness">goodnese</w> of God has <w norm="been">beine</w> to<lb/>
           me in <w norm="giving">giveing</w> me the request of my heart &amp;<lb/>
          
@@ -3605,6 +3599,7 @@
           That for Jesus Christ our Ever <w norm="blessed">blesed</w><lb/>
           saviour :&amp; <w norm="Redeemer">Reedemer</w>. 
            <seg rend="underline">Amen.</seg> Amen.
+           <!-- Q should this underline be a rule? -->
          </p>
      </div>    
        
@@ -4054,7 +4049,7 @@
           his <w norm="eternal">Eternall</w> name that hath not taken<lb/>
           the hopes of salvation from me.</p>
       <p xml:id="p-0120">And great Lord as thou <w type="archaism">hast</w> pleased to<lb/>
-          teach me by <w norm="afflictions" type="tbd-sic">Alictions</w>, oh give me the<lb/>
+          teach me by <choice><sic>Alictions</sic><corr>afflictions</corr></choice>, oh give me the<lb/>
           sanctification thereof that I may spend <w norm="no">noe</w><lb/>
           more this <w norm="small">smale</w> inch of time unprofitably<lb/>
         which thou <w type="archaism">givest</w> me in this life. but by all means<lb/>
@@ -4681,7 +4676,7 @@
           It pleased the <w norm="goodness">goodnesse</w> of my gracious<lb/>
           God to give me a <w norm="weak">weake</w> &amp; <w norm="sick">sicke</w> time<lb/>
           of breeding <rs ref="ppl:ct1" n="per259" type="person">my <w norm="ninth">9<hi rend="superscript">th</hi></w> <w norm="Child">Childe</w></rs> <w norm="after">affter</w> that former<lb/>
-          <w norm="break">breake</w> in <date when-custom="1666-09"><w norm="September" type="tbd-abbr">Seper</w>. 66</date> &amp; till about the <date when-custom="1667-05-10">10<hi rend="superscript">th</hi>
+          <w norm="break">breake</w> in <date when-custom="1666-09"><choice><abbr>Seper.</abbr><expan>September</expan></choice> 66</date> &amp; till about the <date when-custom="1667-05-10">10<hi rend="superscript">th</hi>
             <lb/>
           of may 1667</date> when I did <w norm="perceive">perceave</w> my <lb/>
           <w norm="self">selfe</w> with <w norm="quick">quicke</w> <w norm="Child">Childe</w> I had <w norm="no">noe</w> health.<lb/>
@@ -4787,6 +4782,7 @@
           in my Labour that she was in much danger<lb/>
           but blessed be the Lord recovered <w norm="again">againe</w> of<lb/>
           that <w norm="illness">illnesse</w> the next day. <date when-custom="1667-11-12">no<ex>vember</ex> 12<hi rend="superscript">th</hi> <seg rend="underline">67</seg></date>
+           <!-- Q should underline be rule? -->
          <anchor n="ev82" type="event"/>
          </p>
       </div>   
@@ -4998,19 +4994,19 @@
           did impudently accuse 
          <del xml:id="ex-del-double-05" rend="doublestrikethrough">me</del> 
          <del xml:id="ex-del-double-06" rend="doublestrikethrough">to</del> 
-           <seg rend="keeptogether">
+           <w>
              <subst xml:id="ex-double_gap-03">
              <add place="above">be</add>
              <del rend="doublestrikethrough"><gap unit="char" quantity="2" reason="deleted"/></del>
            </subst>fore
-           </seg> my<lb/>
+           </w> my<lb/>
           face <del rend="strikethrough">of</del> my Servant <persName ref="ppl:ha1" n="per280">Hanna<lb/>
           Ableson</persName> for telling her from one <persName ref="ppl:mb1" n="per281">Mary<lb/>
           Breakes</persName> of <w norm="several">severall</w> <w norm="stories">storyes</w> (which were<lb/>
           very great) lies &amp; <w norm="falsehoods">fallshoods</w> against<lb/>
           my <w norm="self">selfe</w>, of such a nature as did<lb/>
           much unbecome any to <w norm="hear">heare</w> &amp; not<lb/>
-          to have <del rend="strikethrough">ou</del><w norm="acquainted" type="tbd-sic">acquanited</w> me with at the<lb/>
+          to have <del rend="strikethrough">ou</del><choice><sic>acquanited</sic><corr>acquainted</corr></choice> me with at the<lb/>
           first. which <rs ref="ppl:ha1" n="per282" type="person">my <w norm="maid">maide</w></rs> did utterly deny<lb/>
           &amp; cleared her <w norm="self">selfe</w> &amp; me upon her<lb/>
           oath, but <rs ref="ppl:bt1" n="per283" type="person">the other woman</rs> having a <lb/>
@@ -5135,7 +5131,7 @@
           <w norm="blazed">blased</w> abroad by <persName ref="ppl:mb1" n="per287">mary Breaks</persName> &amp; lies<lb/>
           against my Innocent <w norm="Soul">Soule</w> <rs ref="ppl:acd1" n="per288" type="person"><add place="above">this</add> woman</rs><lb/>
           full of <w norm="deep">deepe</w> <w norm="dissembling">dissemblnig</w> &amp; hipocricey-<lb break="no"/>
-          - who could <add place="above">not</add> <w norm="prevail">prevaile</w> with her <w norm="design">designe</w> up<lb break="no"/>
+          <surplus reason="superfluous">- </surplus>who could <add place="above">not</add> <w norm="prevail">prevaile</w> with her <w norm="design">designe</w> up<lb break="no"/>
            <w type="break">-pon</w> the Person of <persName ref="ppl:tc1" n="per289">Mr C<ex>ombe</ex>r</persName> to have <w norm="drawn">drawne</w><lb/>
           him for marriage. &amp; failing of that end<lb/>
            <del xml:id="ex-del-double-08" rend="doublestrikethrough">did</del> <w norm="prevented">pervanted</w> her <w norm="plausible">plaucible</w> carriage into<lb/>
@@ -5234,7 +5230,7 @@
           adoration &amp; thanks to my Gracious God that<lb/>
           would not suffer me to depart this life with<lb/>
            any <w norm="blot">blott</w> upon my person<surplus reason="superfluous">.</surplus> <add place="above">but</add> to <w norm="approve">aprove</w> my<lb/>
-          <w norm="continuance">contineuance</w> in the true faith of the Lord <w norm="Jesus" type="tbd-sic">Jeus</w><lb/>
+          <w norm="continuance">contineuance</w> in the true faith of the Lord <choice><sic>Jeus</sic><corr>Jesus</corr></choice><lb/>
           <choice><abbr>X<am rend="superscript">st</am></abbr><expan>Christ</expan></choice> in which I was brought up, nor <w norm="giving">giveing</w><lb/>
           occasion of blemish to that most noble Family<lb/>
           from whence I was <w norm="descended">decended</w>. I acknowledge<lb/>
@@ -5303,7 +5299,7 @@
           chaste bond of wedlock 
         <del rend="strikethrough">this</del> above this<lb/>
           16 <w norm="years">yeares</w>. <w norm="having">haveing</w> this to comfort our<lb/>
-           <g ref="#heart">♥</g><hi rend="superscript">s</hi> that we are undefiled servants<pc norm=",">.</pc> <w norm="enduring" type="tbd-sic">indeuring</w> <lb/>
+           <g ref="#heart">♥</g><hi rend="superscript">s</hi> that we are undefiled servants<pc norm=",">.</pc> <w norm="enduring">indeuring</w> <lb/>
           to <choice><sic>fallow</sic><corr>follow</corr></choice> Christ in the Regeneration that<lb/>
           we might <w norm="Reign">Reigne</w> with him in Glory.<lb/>
           Oh that my <w norm="soul">soule</w> may forever be thankful<lb/>
@@ -5320,7 +5316,7 @@
            and sufferings that <w type="archaism">makest</w> me way to Escape<lb/>
            now <quote type="direct" source="#BCP_Psalms_103:2">Praise the Lord o my <w norm="soul">soule</w>, &amp; <w norm="forget">forgett</w> not<lb/>
              all his <w norm="benefits">benifitts</w>.</quote> <!-- ST ref supplied--> <seg rend="underline">Amen. Amen</seg>
-        
+        <!-- Q should underline be rule? -->
          </p>
     </div>     
             <pb xml:id="page-130" n="130"/>
@@ -5426,7 +5422,7 @@
           as he shall see it <w norm="fit">fitt</w> for him from all<lb/>
           <w norm="temporal">temporall</w> <w norm="Evils">Evills</w> &amp; finally from <w norm="Eternal">Eternall</w><lb/>
           sorrow &amp; misery in the world to come.<lb/>
-          <w norm="Consigning" type="tbd-sic">Consiging</w> this <rs ref="ppl:rt2" n="per309" type="person">my <w norm="dear">deare</w> <w norm="Child">Childe</w></rs> as a <lb/>
+          <choice><sic>Consiging</sic><corr>Consigning</corr></choice> this <rs ref="ppl:rt2" n="per309" type="person">my <w norm="dear">deare</w> <w norm="Child">Childe</w></rs> as a <lb/>
           blessing to his family, comfort to his<lb/>
           <w norm="weak">weake</w> mother, &amp; an instrument of the<lb/>
           Glory of his Creator, in this life to <lb/>
@@ -5620,7 +5616,7 @@
           from sinking. nor will I repine at the great<lb/>
           Lord of Heaven &amp; Earths most <w norm="infinitely">infinitly</w><lb/>
           wise disposition, for he knows how to pro-<lb break="no"/>
-          -pose &amp; <w norm="intermix">intermixe</w> X<hi rend="superscript">s</hi>
+          -pose &amp; <w norm="intermix">intermixe</w> <w norm="crosses">X<hi rend="superscript">s</hi></w>
             <!-- [endnote] Xs – here = crosses rather than Christ. -->
            with comforts<pc norm=",">.</pc><lb/>
           Smiles with <w norm="frowns">frownes</w> to his servants <w norm="here">heere</w><lb/>
@@ -5943,7 +5939,7 @@
           &amp; that it is the Lord he must <w norm="do">doe</w> as<lb/>
           he will. and <w norm="although">allthough</w> this dispensa<lb break="no"/>
           =tion is most bitter as the cutting of<lb/>
-          thy life <w norm="be sure" type="tbd-sic">besure</w> thou doest not sin<lb/>
+          thy life <choice><sic>besure</sic><corr>be sure</corr></choice> thou doest not sin<lb/>
            against him by impatience<surplus reason="superfluous">.</surplus> or resist<lb break="no"/>
           =ing his pleasure. and <w norm="although">allthough</w><lb/>
           flesh &amp; blood cannot part willingly<lb/>
@@ -5984,7 +5980,7 @@
            the Salvation of my <w norm="Soul">Soule</w>.  <quote source="#_Revelation_21:4" type="paraphrase"> where there is<lb/>
              <w norm="no">noe</w> sighing<pc norm=",">.</pc> <w norm="no">noe</w> weeping<pc norm=",">.</pc> for all tears<lb/>
              shall be wiped from our Eyes.</quote> then <del rend="strikethrough">sh</del><lb/> 
-           shall be love <w norm="without">with out</w> hatred. Joy <w norm="without" type="query">witho</w><!-- Q supplied? [endnote] Means without but incomplete – only the 'o'. --><lb/>
+           shall be love <w norm="without">with out</w> hatred. Joy <w>witho<supplied reason="omitted">ut</supplied></w><!-- NOTE I think supplied is more appropriate than norm/abbr here. w as container. [endnote] Means without but incomplete – only the 'o'. --><lb/>
            sorrow. delight<surplus reason="superfluous">.</surplus> without anger. hopes that<lb/>
            is turned to <w norm="enjoyment">injoyment</w> <w norm="without">with out</w> <w norm="fears">feares</w><surplus reason="superfluous">.</surplus><lb/>
            to <w norm="loss">losse</w>, or to to be lost. <w norm="no">noe</w> <w norm="cares">caires</w><surplus reason="superfluous">.</surplus> nor <w norm="trouble" type="add">Troub<add place="above">ble</add></w> <lb/>
@@ -6032,7 +6028,7 @@
           this thy Earth <w norm="continued">contineued</w> me thus long<lb/>
           in a multitude of <w norm="innumerable">inumerable</w> dangers<lb/>
            <w norm="Spiritual">Spirittuall</w> &amp; <w norm="temporal">temporall</w><surplus reason="superfluous">.</surplus> from my Infancy<lb/>
-           youth<surplus reason="superfluous">.</surplus> Middle <choice><sic>Ale</sic><corr>age</corr></choice><surplus reason="superfluous">.</surplus> &amp; towards old <w norm="age" type="tbd-sic">Adge</w><lb/>
+           youth<surplus reason="superfluous">.</surplus> Middle <choice><sic>Ale</sic><corr>age</corr></choice><surplus reason="superfluous">.</surplus> &amp; towards old <w norm="age">Adge</w><lb/>
           make me to understand thy word &amp; know<lb/>
            thy <w norm="majesty">majestie</w><surplus reason="superfluous">.</surplus> thy Essence<surplus reason="superfluous">.</surplus> thy Attributes<lb/>
           To <w norm="Glorify">Glorifie</w> thy name. &amp; adore thee in my<lb/>
@@ -6056,7 +6052,7 @@
          </fw>
          <lb/> 
            <quote source="#KJV_Romans_8:35,37-39" type="allusion">That may <w norm="endanger">indanger</w> a <w norm="separation">seperation</w> bet<lb break="no"/>
-           -twixt me &amp; my God.</quote> <!-- ST Ref supplied-->  O Lord take me<lb/>
+           <w>-twixt me</w> &amp; my God.</quote> <!-- ST Ref supplied-->  O Lord take me<lb/>
           to thy <w norm="own">owne</w> keeping &amp; <w norm="tuition">tuittion</w>. <w norm="bless">blesse</w><lb/>
            thou thy ><w norm="handiwork">handy worke</w> who thou <w type="archaism">hast</w><lb/>
           bestowed so much <w norm="pains">paines</w> about &amp; on<lb/>
@@ -6116,7 +6112,7 @@
           <w norm="virtues">vertues</w> <w norm="necessary">neccesseary</w> to lead &amp; conduct my<lb/>
            life<surplus reason="superfluous">.</surplus> to thy <w norm="own">owne</w> Glory. &amp; for thy name<lb/>
           Sake to give thee the honour of my Creation<lb/>
-           that <quote source="#_Matthew_6:10 #_Luke_11:2" type="paraphrase"> I may <w norm="do">doe</w> Thy will on earth as <w norm="'tis" type="query">tis</w><!-- Q [word] is 'tis part of the original, if so keep (as per for ever in bcp)? --> <w norm="done">don</w><lb/>
+           that <quote source="#_Matthew_6:10 #_Luke_11:2" type="paraphrase"> I may <w norm="do">doe</w> Thy will on earth as <w norm="'tis" type="query">tis</w><!-- Q [word] is 'tis part of the original, if so I think keep (as per for ever in bcp)? --> <w norm="done">don</w><lb/>
           in Heaven.</quote> And I humbly <w norm="beg">begge</w> o Lord<lb/>
            that <quote source="#KJV_Psalms_63:11" type="paraphrase"> the mouths of all my unjust adversaries<lb/>
           may be <w norm="stopped">stoped</w>. </quote> make them ashamed of<lb/>
@@ -6278,7 +6274,7 @@
           of all his <w norm="neighbours">neigbours</w>. of Gentry &amp; <w norm="friends">freinds</w><lb/>
           that could be <w norm="obtained">obteined</w> considering the time of<lb/>
           his <w norm="interment">interrment</w> not <w norm="being">beeing</w> to be kept<lb/>
-          by <w norm="reason">reson</w> of his much <w norm="Physic" type="tbd-sic">Biseck</w> till those<lb/>
+          by <w norm="reason">reson</w> of his much <choice><sic>Biseck</sic><corr>Physic</corr></choice> till those<lb/>
           of a further distance could be had.<lb/>
           Those that helped to <w norm="carry">carrie</w> were of his<lb/>
 
@@ -6297,7 +6293,7 @@
             </fw> 
          </fw>
            <lb/>
-         Nearest Relations <w type="tbd-abbr">vidz</w></p>
+         Nearest Relations <choice><abbr>vidz</abbr><expan>videlicet</expan></choice><!-- Q check this expansion as not an english word? --></p>
        <!-- NOTE [tagging] list seems appropriate here -->
        <list type="names">
          <item>My Brother <persName ref="ppl:tt1" n="per338">Thomas Thornton</persName>.</item>
@@ -6504,7 +6500,7 @@
          <l>would the world then adopt me for her <w norm="heir">heire</w>. </l>
          <l>Would beauties <w norm="queen">queene</w> <w norm="entitle">intitle</w> me the <w norm="fair">faire</w>.</l>
          <l><w norm="Fame">Fames</w> <w norm="speak">speake</w> me <w type="add">ho.<add place="above">nrs</add></w> <w norm="minion">minnion</w> &amp; could I</l>
-         <l>With <w norm="Indian Angels" type="query">Indian-Angells</w>, &amp; a speaking Eye<surplus reason="superfluous">.</surplus></l>
+         <l>With <w norm="Indian Angels" type="query">Indian-Angells</w><!-- Q not sure anyone knows what this means... -->, &amp; a speaking Eye<surplus reason="superfluous">.</surplus></l>
          <l>Com<ex>m</ex>and bare heads; <w norm="bowed">bow'd</w> knees strike <w norm="Justice">Justis</w> <add place="below">dumb</add></l>
          <!-- NOTE "dumb" is only just above the word "Tongue" on the next line; has a line underneath it, but I think the intention is a boxing effect (as more obviously in "more" above) rather than underlining the word dumb. 
            [review] Yes, it is an insertion to maintain end-line rhyme of 'dumb' and 'tongue'-->
@@ -6553,8 +6549,8 @@
                NB no longer noted in semidip?. -->
          </lg>
          
-         <l>Christ and the Church, in love so well <w norm="agreed" type="tbd-sic">ag'reed</w> </l>
-         <l>That <w norm="he">hee</w> for her, &amp; she for him has <w norm="Bleed" type="tbd-sic">Blee'd</w>.</l>
+         <l>Christ and the Church, in love so well <choice><sic>ag'reed</sic><corr>agreed</corr></choice> </l>
+         <l>That <w norm="he">hee</w> for her, &amp; she for him has <choice><sic>Blee'd</sic><corr>Bleed</corr></choice>.</l>
          <l>Thus imitate thy Saviour, in his fervent love</l>
          <l>And then my <w norm="Soul">Soule</w> her <w norm="Joys">Joyes</w> will lasting prove</l>
          <l>Oh <w norm="groundless">groundles</w> deeps, o love without degree</l>
@@ -6652,7 +6648,7 @@
          <l>His love my Light to Heaven should <add place="above">be</add>
          </l>
          <l> His Glory this to comfort me:</l>
-         <l> And as <w norm="'tis" type="tbd-sic">ti's</w> <w norm="writ">writt</w> Such honour shall<surplus reason="superfluous">.</surplus></l>
+         <l> And as <choice><sic>ti's</sic><corr type="query">'tis</corr></choice><!-- Q expand to "it is"? --> <w norm="writ">writt</w> Such honour shall<surplus reason="superfluous">.</surplus></l>
          <l> Even unto all his Saints befall.</l>
          <l><milestone unit="marker" rend="delim(rule_short_right)" xml:id="ex-milestone-rule-short-right"/></l>
          <!-- Q [layout] horizontal line about 1/4 width of page and right-aligned. *on its own line, not just fill* -->
@@ -7031,7 +7027,7 @@
         <!-- NOTE [index] [curlybraces] grouping 2 items -->
         <item>
         <list rend="braced(})">  
-        <item corresp="#div-036">Mrs <w norm="Elizabeth" type="tbd-abbr">Eliz.</w> Gates died. 55.</item>
+        <item corresp="#div-036">Mrs <choice><abbr>Eliz.</abbr><expan>Elizabeth</expan></choice> Gates died. 55.</item>
          <item corresp="#div-037">Mr <w type="query">Geffery</w><!-- Q check what this name is being std to. --> Gates died. 55. </item>
          </list> 
          <label place="right mid"><ref type="page">26.</ref></label>
@@ -7041,7 +7037,7 @@
           <list rend="braced(})">
             <item corresp="#div-038">Mr Rich<ex>ard</ex> Thornton died. 56.</item>
             <item corresp="#div-039">Katherine Thornton birth. 56  </item>
-            <item corresp="#div-040"><w norm="Elizabeth" type="tbd-abbr">Eliz.</w> Thornton died. 56.</item>
+            <item corresp="#div-040"><choice><abbr>Eliz.</abbr><expan>Elizabeth</expan></choice> Thornton died. 56.</item>
          </list>
           <label place="right mid"><ref type="page">27.</ref></label>
         </item>
@@ -7080,7 +7076,7 @@
         <!-- Q [index] no matching div? -->
         <item> 
           <seg rend="braced(})">My prayers &amp; meditations <lb/>
-          There upon on St <add place="above"><w norm="Matthew" type="tbd-abbr">Matth.</w></add> 11: 27, 28, &amp;
+          There upon on St <add place="above"><w norm="Matthew" type="query">Matth.</w></add> 11: 27, 28, &amp;<!-- Q bibl ref / is the &amp; an etc here? i think it must be -->
           </seg> 
           <label place="right bottom"><ref n="45" type="page">46.</ref></label>
          </item>
@@ -7559,7 +7555,7 @@
        <div xml:id="div-097" rend="pre(rule)">
          <p xml:id="p-0175">
         <milestone n="ev97" unit="event"/>  
-           <w type="tbd-abbr">vidz</w> The great fall I had at <placeName ref="place:Kirk_030" n="place102">Kirklington</placeName><lb/>
+           <choice><abbr>vidz</abbr><expan>videlicet</expan></choice> The great fall I had at <placeName ref="place:Kirk_030" n="place102">Kirklington</placeName><lb/>
           <date when-custom="1629">when</date> I was <w norm="three">3</w> <w norm="years">yers</w> old in following <persName ref="ppl:st1" n="per351">Sara</persName> my<lb/>
           <w norm="maid">maide</w> when she had <persName ref="ppl:cw2" n="per352">my <w norm="brother">brothr</w> Christophr</persName><lb/>
           in her <w norm="Arms">Armes</w>. I fell upon the corner of the<lb/>
@@ -7805,7 +7801,7 @@ over these Churches &amp; Nations<surplus reason="superfluous">.</surplus> which
           was <w norm="compelled">compelld</w> to it by Reason of shortness of time<supplied>.</supplied><lb/>
            It was on <date when-custom="1651-03-31">Easter <w norm="Monday">Munday</w></date><surplus reason="superfluous">.</surplus> when he came from <persName ref="ppl:hd1" n="per376">Mr<lb/>
           Darcys (Henry)</persName>: he having the <date when-custom="1651-03-30">Easter day</date> by Gods<lb/>
-           mercy <w norm="been">bin</w> <w norm="prepared">prepard</w> to <w norm="Receive" type="tbd-sic">Recav</w> the Holy Sacrament<lb/>
+           mercy <w norm="been">bin</w> <w norm="prepared">prepard</w> to <choice><sic>Recav</sic><corr>Receive</corr></choice> the Holy Sacrament<lb/>
           &amp; to my great Joy did take it with <rs ref="ppl:aow1" n="per377" type="person">my <w norm="dear">deare</w> <w norm="mother">mothr</w></rs><lb/>
           &amp; my <w norm="self">selfe</w> &amp; <persName ref="ppl:cw2" n="per378">my <w norm="brother">brothr</w> Christophr</persName>, one thing <lb/>
            must not be forgotten. That there had <w norm="been">bin</w> a great<lb/>
@@ -7822,7 +7818,7 @@ over these Churches &amp; Nations<surplus reason="superfluous">.</surplus> which
           <persName ref="ppl:gw1" n="per382">G: W:</persName> did <w norm="go">goe</w> to see <persName ref="ppl:hd1" n="per383">Mr Henry Darcy</persName>. and find<damage agent="tear"><supplied reason="damage">ing</supplied></damage>
             <lb/>
            him not at home, <w norm="entertained">entertand</w> him <w norm="self">selfe</w> with <persName ref="ppl:dbd1" n="per384">old mot<ex>ther</ex>&gt;<lb/> 
-             Darcy</persName>. &amp; he <w norm="took">tooke</w> a Bible and read a chapter to he<supplied reason="not visible">r</supplied><lb/>
+             Darcy</persName>. &amp; he <w norm="took">tooke</w> a Bible and read a chapter to he<supplied reason="missing">r</supplied><lb/>
           &amp; did make such an admirable exposition on it<lb/>
 
          
@@ -7997,7 +7993,7 @@ over these Churches &amp; Nations<surplus reason="superfluous">.</surplus> which
            goods to furnish the house<surplus reason="superfluous">.</surplus> before I came<lb/>
           into it. nor had the <w norm="neighbours">neigbours</w> come<lb/>
           to <w norm="welcome">wellcome</w> us into our house as is the<lb/>
-          <w norm="Custom" type="tbd-sic">Costum</w> of the Country before <persName ref="ppl:wt1" n="per417">Mr Th</persName> went<lb/>
+          <choice><sic>Costum</sic><corr>Custom</corr></choice> of the Country before <persName ref="ppl:wt1" n="per417">Mr Th</persName> went<lb/>
           <w norm="though">tho</w> they did do it to me in his absence &amp;<lb/>
             was very kind to me<supplied>.</supplied><anchor n="ev104" type="event"/> </p>
          
@@ -8005,7 +8001,7 @@ over these Churches &amp; Nations<surplus reason="superfluous">.</surplus> which
 
 <!-- transcription: page 198-->
 
-
+<!-- img p194 -->
 
         <milestone n="ev105" unit="event"/>
          <p xml:id="p-0187">But when he was <w norm="gone">gon</w> to <placeName ref="place:Lond_080" n="place113">London</placeName><lb/>
@@ -8014,7 +8010,7 @@ over these Churches &amp; Nations<surplus reason="superfluous">.</surplus> which
           <w norm="Bailiff">Bayly</w> was come to <w norm="distrain">distraene</w> all my<lb/>
           goods for that Debt. &amp; put me into a<lb/>
           great fright when I <w norm="wakened">wakned</w> &amp; that<lb/>
-           my made <persName ref="ppl:jf2" n="per419">Jane flour</persName> came into my <w norm="Chamber" type="query">Cha</w> <!-- Q [word] not sure about tagging here. could be w/norm or use supplied?? -->
+           my <w norm="maid">made</w> <persName ref="ppl:jf2" n="per419">Jane flour</persName> came into my <w type="query">Cha</w> <!-- Q [word] word = chamber. not sure about tagging here, but probably not norm. abbr or supplied?? -->
             <lb/>
           &amp; to bed side asked me if I was a wake<lb/>
           I asked her to tell me truly <w norm="whether">wheth</w> was<lb/>
@@ -8031,7 +8027,7 @@ over these Churches &amp; Nations<surplus reason="superfluous">.</surplus> which
           I <w norm="bless">blese</w> the Lord my God for my <w norm="delivery">delivry</w><lb/>
           from death &amp; <w norm="miscarriage">miscariage</w> of <rs type="person">my <w norm="dear">dere</w><lb/>
             <w norm="Child">Childe</w></rs>. But I by Providence<surplus reason="superfluous">.</surplus> had<lb/>
-           <w norm="received" type="tbd-abbr">revd</w> 
+           <choice><abbr>revd</abbr><expan>received</expan></choice> 
              <measure type="currency" unit="pounds">100<am rend="superscript">l</am></measure> of my Portion that <w norm="week">weeke</w> &amp; had<lb/>
 
          
@@ -8072,7 +8068,7 @@ over these Churches &amp; Nations<surplus reason="superfluous">.</surplus> which
           <w norm="gone">gon</w> to <w norm="Cows">Cowes</w> with her <w norm="maids">maides</w> But that<lb/>
            <rs ref="ppl:tbd-iu" n="per425" type="person">his <w norm="own">owne</w> servant</rs><!-- Q [people] - not identifiable? --> that I cured of a<lb/>
           wound did <w norm="discover">discovr</w> it to me &amp; I was<lb/>
-          saved.<anchor n="ev106" type="event"/> <w norm="blessed">blesed</w> be my God <w type="query">for ever</w><!-- Q [word] "forever more" or "for ever more" ?? --><lb/>
+          saved.<anchor n="ev106" type="event"/> <w norm="blessed">blesed</w> be my God for ever<lb/>
            more Amen</p>
       </div>
          
@@ -8105,7 +8101,7 @@ over these Churches &amp; Nations<surplus reason="superfluous">.</surplus> which
           Lord have mercy on me &amp; <w norm="delivered">delivd</w><lb/>
           me out of the <w norm="Devil's">Devills</w> Temptation<lb/>
           I will glorify the <w norm="name">nam</w> of God for<lb/>
-          <w norm="Ever">Evr</w> more Amen:</p>
+          <w norm="ever">Evr</w> more Amen:</p>
         </div>
       </div>
      </back>
