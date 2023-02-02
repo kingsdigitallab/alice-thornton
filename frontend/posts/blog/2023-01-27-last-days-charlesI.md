@@ -116,7 +116,7 @@ walls'.[^13]
     Eighteenth Century Collections Online (ECCO). Accessed 15 Dec. 2022.
 
 [^4]:
-    George Paul, 'Letter to Dr Macro.' BL Add 32556, 69--70. The 1799
+    George Paul, 'Letter to Dr Macro.' BL Add 32556, 69-70. The 1799
     version has a few additions, the most noteworthy being that the account
     was signed by Thornton.
 
