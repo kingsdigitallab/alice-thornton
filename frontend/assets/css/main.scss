@@ -222,14 +222,16 @@ h6 {
   }
 }
 
-section,
-.section {
-  @media screen and (min-width: 1140px) {
-    .container {
-      background: url("/assets/img/marginalia-1-sepia.png") 5px 130px no-repeat,
-        url("/assets/img/marginalia-1-sepia.png") 99.5% 97.6% no-repeat,
-        url("/assets/img/st-matt.png") 5px 500px no-repeat;
-      background-size: 80px;
+body:not(.slug-viewer) { // Exclude the text viewer
+  section,
+  .section {
+    @media screen and (min-width: 1140px) {
+      .container {
+        background: url("/assets/img/marginalia-1-sepia.png") 5px 130px no-repeat,
+          // url("/assets/img/marginalia-1-sepia.png") 99.5% 97.6% no-repeat,
+          url("/assets/img/st-matt.png") 5px 500px no-repeat;
+        background-size: 80px;
+      }
     }
   }
 }
