@@ -1,0 +1,68 @@
+// GN: temporary stylesheet to experiment with rendering of sample
+// TEI elements the text viewer.
+//
+// Some of this will need feedback from partners
+// & review from designers before being added back
+// into main.scss.
+
+#text-viewer .panel .content {
+  &.view-modern {
+    // GN: dummy example of TEI customisation for modernised view
+    .tei-type-pageNum:before {
+      content: "page ";
+    }
+
+    br {
+      display: none;
+    }
+  }
+
+  &.view-semidip {
+    .tei-ex {
+      // 1.5.5.February
+      display: none;
+    }
+  }
+
+  // shoul be converted into h1
+  .tei-head {
+    font-size: 1.5em;
+    color: inherit;
+  }
+
+  span[data-tei-place="centre"] {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .tei-l {
+    // so each verse is on its own line
+    display: block;
+  }
+
+  .tei-seg[data-tei-rend*="centre"] {
+    // 1.4.last
+    text-align: center;
+    display: block;
+  }
+
+  span {
+    // to allow interlinear span within it
+    position: relative;
+    line-height: 2em;
+  }
+
+  *[data-tei-place="above"] {
+    // 1.4.-1.hand
+    position: absolute;
+    top: -1em;
+  }
+
+  span[data-tei="space"][data-tei-unit="line"] {
+    // 1.5.last.horizontal-line
+    // TODO: use hr instead
+    display: block;
+    margin-top: 1em;
+    border-bottom: 1px solid black;
+  }
+}

@@ -232,7 +232,7 @@ function setUpTextViewer() {
       },
       async setLocus(panel, locus) {
         panel.selections.locus = locus;
-        panel.responses.document = "";
+        panel.responses.document = `Loading {locus}...`;
         if (panel.selections.document && locus) {
           panel.responses.document = await this.fetchDTS(
             panel,
@@ -241,8 +241,16 @@ function setUpTextViewer() {
             locus,
             "html"
           );
+          this.postProcessDocument(panel);
           this.setAddressBarFromSelection();
         }
+      },
+      postProcessDocument(panel) {
+        // convert entities to hyperlinks
+        let doc = panel.responses.document;
+        // console.log(doc)
+        doc = doc.replace(/<\/br>/g, "");
+        panel.responses.document = doc;
       },
       selectDefaultOption(panel, key) {
         if (key.startsWith("_")) return;

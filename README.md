@@ -32,20 +32,22 @@ Suggested format of the version based on the [Semantic Versioning standard](http
 `eX.Y.Z`
 
 Where:
-* "e": is just a prefix standing for "edition" (as opposed to the software)
-* X, Y & Z are numbers
-* X: incremented only for major releases or when breaking changes are introduced (e.g. radical change to the structure of the TEI documents, or ID schemes)
-* Y: incremented each time text or markup is added or improved
-* Z: for minor patches/corrections
-* Note that each time a number is incremented, the ones on its right are reset to 0
-* Also note that number can go above 9 (e.g. e1.12.2)
+
+- "e": is just a prefix standing for "edition" (as opposed to the software)
+- X, Y & Z are numbers
+- X: incremented only for major releases or when breaking changes are introduced (e.g. radical change to the structure of the TEI documents, or ID schemes)
+- Y: incremented each time text or markup is added or improved
+- Z: for minor patches/corrections
+- Note that each time a number is incremented, the ones on its right are reset to 0
+- Also note that number can go above 9 (e.g. e1.12.2)
 
 The initial version is e0.1.0. First release of the edition to the public site will be 1.0.0. The release of a new book or chapter to the public would increase the middle number. Correction of mistakes increase the last number.
 
 Analogy:
-* X is for the new edition of a book
-* Y is for adding a new chapter to a draft
-* Z is for spelling corrections
+
+- X is for the new edition of a book
+- Y is for adding a new chapter to a draft
+- Z is for spelling corrections
 
 ## Developing the DTS server
 
