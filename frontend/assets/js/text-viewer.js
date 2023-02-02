@@ -249,7 +249,7 @@ function setUpTextViewer() {
         // convert entities to hyperlinks
         let doc = panel.responses.document;
         // console.log(doc)
-        // doc = doc.replace(/<!--.*-->/g, 'VERSION')
+        doc = doc.replace(/<\/br>/g, "");
         panel.responses.document = doc;
       },
       selectDefaultOption(panel, key) {
