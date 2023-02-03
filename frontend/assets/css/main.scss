@@ -108,6 +108,11 @@ a.tag {
 
 body {
   background: rgba(lighten($primary, 20%), 0.1);
+  background: url('/assets/img/fractal-bg.svg'),
+              url("/assets/img/script-outlined.svg");
+  background-position: 100% 60px, -120px 120px;
+  background-repeat: repeat-y, no-repeat;
+  background-size: auto, 220px;
   // background: linear-gradient(
   //     0.75turn,
   //     transparent 60%,
@@ -188,13 +193,13 @@ h3 {
   h2 {
     &::before {
       background: url("/assets/img/symbol-1.png") left top no-repeat;
-      background-size: 1rem;
+      background-size: 1.5rem;
       content: "";
       display: inline-block;
-      margin-left: -1.5rem;
+      // margin-left: -1.5rem;
       margin-right: 0.5rem;
-      height: 1rem;
-      width: 1rem;
+      height: 1.5rem;
+      width: 1.5rem;
     }
   }
 }
@@ -222,17 +227,42 @@ h6 {
   }
 }
 
+.marginalia {
+  position: absolute;
+  left: -11vw;
+  // top: 350px;
+  // top: 80px;
+  width: 20vw;
+}
+
+// body:not(.slug-viewer) { // Exclude the text viewer
+//   // background: url("/assets/img/marginalia-1-sepia.png") 0 15vh no-repeat,
+//   //   // url("/assets/img/marginalia-1-sepia.png") 99.5% 97.6% no-repeat,
+//   //   url("/assets/img/st-matt.png") 5px 500px no-repeat;
+//   // background-size: 15vw;
+//   section,
+//   .section {
+//     @media screen and (min-width: 1140px) {
+//       .container {
+//         background: url("/assets/img/marginalia-1-sepia.png") 5px 130px no-repeat,
+//           // url("/assets/img/marginalia-1-sepia.png") 99.5% 97.6% no-repeat,
+//           url("/assets/img/st-matt.png") 5px 500px no-repeat;
+//         background-size: 80px;
+//       }
+//     }
+//   }
+// }
+
 body:not(.slug-viewer) { // Exclude the text viewer
-  section,
-  .section {
-    @media screen and (min-width: 1140px) {
-      .container {
-        background: url("/assets/img/marginalia-1-sepia.png") 5px 130px no-repeat,
-          // url("/assets/img/marginalia-1-sepia.png") 99.5% 97.6% no-repeat,
-          url("/assets/img/st-matt.png") 5px 500px no-repeat;
-        background-size: 80px;
-      }
-    }
+  background: url('/assets/img/fractal-bg.svg');
+  
+  @media screen and (min-width: 1140px) {
+    background: rgba(lighten($primary, 20%), 0.1);
+    background: url('/assets/img/fractal-bg.svg'),
+                url("/assets/img/script-outlined.svg");
+    background-position: 100% 60px, -120px 120px;
+    background-repeat: repeat-y, no-repeat;
+    background-size: auto, 220px;
   }
 }
 
