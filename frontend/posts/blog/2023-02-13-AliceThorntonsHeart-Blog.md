@@ -6,7 +6,7 @@ authors:
 - cbeattie
 - strill
 tags:
-- manuscripts, emotions, bodies
+- manuscripts, emotions, letters
 ---
 
 One of the benefits of working with Alice Thornton’s original manuscripts is that we got to see that where later editors had written ‘heart’, Thornton herself had sometimes used the sign (or emoji) ♡.[^1] 
