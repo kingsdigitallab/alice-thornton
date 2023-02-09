@@ -62,7 +62,7 @@ However, when he compiled his edition in 1875, Charles Jackson had access to a f
 
 [^9]: *Book 1*, 183. 
 
-[^10]: Alice Thornton, ‘Letter to her Husband, undated (c. 1668)’. DCL CCOM 58/2. For an explanation of the distinction between the use of the superscription and the internal address to the reader, see ‘The Parts of a Letter.’ *Bess of Hardwick’s Letters: The Complete Correspondence c. 1550-1608*, edited by Alison Wiggins, et al. University of Glasgow, web development by Katherine Rogers, University of Sheffield Humanities Research Institute (April 2013), 09/02/2023. https://www.bessofhardwick.org/background.jsp?id=174.
+[^10]: Alice Thornton, ‘Letter to her Husband, undated (c. 1668)’. DCL CCOM 58/2. For an explanation of the distinction between the use of the superscription and the internal address to the reader, see ‘The Parts of a Letter.’ *Bess of Hardwick’s Letters: The Complete Correspondence c. 1550-1608*, edited by Alison Wiggins, et al. University of Glasgow, web development by Katherine Rogers, University of Sheffield Humanities Research Institute (April 2013), 08/02/2023. https://www.bessofhardwick.org/background.jsp?id=174.
 
 [^11]: Jackson, 291-6.
 
