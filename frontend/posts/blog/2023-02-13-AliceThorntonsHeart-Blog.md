@@ -3,9 +3,10 @@ title: Alice Thornton’s Heart [:] An Early Modern Emoji
 feature: /assets/img/posts/2023_02_09_HeartsBlog_Main_BkRem_138.jpg
 status: draft
 authors:
-- cbeattie, strill
+- cbeattie
+- strill
 tags:
-- books, manuscripts
+- manuscripts, emotions, bodies
 ---
 
 One of the benefits of working with Alice Thornton’s original manuscripts is that we got to see that where later editors had written ‘heart’, Thornton herself had sometimes used the sign (or emoji) ♡.[^1] 
