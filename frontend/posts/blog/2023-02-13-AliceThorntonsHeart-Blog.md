@@ -1,5 +1,5 @@
 ---
-title: Alice Thornton’s Heart: An Early Modern Emoji 
+title: "Alice Thornton’s Heart: An Early Modern Emoji" 
 feature: /assets/img/posts/2023_02_09_HeartsBlog_Main_BkRem_138.jpg
 status: draft
 authors:
