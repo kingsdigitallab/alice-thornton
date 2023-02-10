@@ -26,7 +26,7 @@ would make it 26 January 1649. Her account was seen as noteworthy by
 contemporaries but cannot be verified by other sources, with one recent
 scholar sceptical about its veracity.[^2]
 
-![photo of part of a handwritten letter which includes Thornton's testimony, labelled as such and underlined ]({{"/assets/img/posts/ATaccountCoxletterFront.jpg" | url}} "Part of letter to Dr Macro. BL Add 32556, 69. Photo by Cordelia Beattie, 2019."){.media-right}
+![photo of part of a handwritten letter which includes Thornton's testimony, labelled as such and underlined ]({{"/assets/img/posts/ATaccountCoxletterFront.jpg" | url}} "Part of letter to Dr Macro. BL Add 32556, 69. &copy; Cordelia Beattie."){.media-right}
 
 Charles Jackson in 1875 called this 'a curious account ... now lost',
 which he accessed from a note in the 1799 edition of the _Memoirs of the
