@@ -107,7 +107,7 @@ walls'.[^13]
 [^2]:
     Joad Raymond, \'Rushworth \[Rushforth\], John (c. 1612--1690),
     historian and politician.\' _Oxford Dictionary of National Biography_.
-    23 Sep. 2004; Accessed 16 Dec. 2022.
+    23 Sep. 2004. Accessed 16 Dec. 2022.
 
 [^3]:
     Charles Jackson. Ed. *The Autobiography of Mrs. Alice Thornton of
@@ -132,7 +132,7 @@ walls'.[^13]
     ['House of Lords Journal Volume 11: 24 July 1660,'](http://www.british-history.ac.uk/lords-jrnl/vol11/pp104-105) in *Journal
     of the House of Lords: Volume 11, 1660-1666*, (London: His
     Majesty\'s Stationery Office, 1767-1830), 104-105. *British History
-    Online*. Accessed December 16, 2022.
+    Online*. Accessed 16 Dec. 2022.
 
 [^9]:
     Francis J. Bremer. \'Calvert, Cecil, second Baron Baltimore
