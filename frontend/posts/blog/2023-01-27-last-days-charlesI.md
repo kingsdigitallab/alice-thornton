@@ -98,7 +98,7 @@ walls'.[^13]
 [^1]:
     The text quoted above is from our work-in-progress edition of Alice
     Thornton's Books. The text is modernised in the body of the blog and
-    the semi-diplomatic transcription is reproduced here in the notes. *Book
+    the semi-diplomatic transcription is reproduced here in the notes. Alice Thornton, *Book
     1: The First Book of My Life*, British Library (BL) MS Add 88897/1, 94:
     'was cruelly Murthered, by the hands of Blasphemous Rebells, his owne
     subjects, att White hall. London the 30th of Janueary: 1648'. Thornton
