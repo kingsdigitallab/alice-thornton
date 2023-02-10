@@ -7,6 +7,8 @@ authors:
 tags:
   - childbirth
   - yorkshire
+  - wars of the three kingdoms
+  - manuscripts
 ---
 
 What is Alice Thornton’s connection to Middleham Castle? While Alice grew up in relative privilege, living in nice halls such as Kirklington and Hipswell with her family, she certainly didn’t live anywhere as grand as a castle. But an incident recorded at the end of her _Book 1: The First Book of My Life_ shows how she fits into the history of [Middleham Castle](https://www.english-heritage.org.uk/visit/places/middleham-castle/), now looked after by English Heritage. This is how Alice introduces the story:
@@ -33,7 +35,7 @@ In terms of why her sister was at Middleham Castle, Alice relates:
 
 > At that time, Sir Thomas Danby was forced with my sister and children to be in safety from the Parliament forces, he being for King Charles the first, to Middleham Castle, a garrison under my Lord Loftus.[^4]
 
-Alice's older sister, Katherine, born in 1615, had married Thomas Danby (b. c. 1610), son of Christopher Danby of Farnley, in July 1630. In 1640, Thomas was elected MP for Richmond, but in 1642 was barred from sitting in Parliament due to his support for the King. The Royalist forces of King Charles I, who had decided to abolish Parliament in the 1630s, were fighting Parliamentarians over the governance of the Three Kingdoms – England, Scotland and Ireland – and religious freedom. The Parliamentarian cause was prevailing in Yorkshire in 1644; the battle of Marston Moor, in which Royalist forces were defeated, had taken place that July, and the city of York had been under siege from April to July. Danby was a fugitive at this time. After being captured fighting for the king by Lord Fairfax in 1643, he had escaped and taken refuge with his family at Middleham Castle, some 12 miles away from the family home at Snape.
+Alice's older sister, Katherine, born in 1615, had married Thomas Danby (b. c. 1610), son of Christopher Danby of Farnley, in July 1630. In 1640, Thomas was elected MP for Richmond, but in 1642 was barred from sitting in Parliament due to his support for the king. The Royalist forces of King Charles I, who had decided to abolish Parliament in the 1630s, were fighting Parliamentarians over the governance of the Three Kingdoms – England, Scotland and Ireland – and religious freedom. The Parliamentarian cause was prevailing in Yorkshire in 1644; the battle of Marston Moor, in which Royalist forces were defeated, had taken place that July, and the city of York had been under siege from April to July. Danby was a fugitive at this time. After being captured fighting for the king by Lord Fairfax in 1643, he had escaped and taken refuge with his family at Middleham Castle, some 12 miles away from the family home at Snape.
 
 The Loftus family, who owned Middleham, and the Wandesfords had family connections: Christopher Wandesford had been a close associate in Ireland of Richard Loftus in the 1630s. The 'Lord Loftus' mentioned by Alice is Edward Loftus, Richard's brother. Edward Loftus married Jane Lindley, heir to Middleham Castle, and so inherited the property by marriage. The Danbys, Wandesfords and Loftus families were all unwavering supporters of Charles I and this is why the Danbys would have known the castle was a safe space for them.
 
