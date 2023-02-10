@@ -25,7 +25,7 @@ Nevertheless, there are several instances in which the ♡ referred to is not he
 
 Thornton’s use of the ♡ symbol is not distributed evenly over the four volumes. While not all the references to Thornton’s own heart can be found in *Book 1*, the ♡ symbol also appears there 41 times, which is by far the greatest number in any one volume.[^7]  Furthermore, *Book 1* includes the most remarkable and extensive use of the ♡ motif in a perhaps unexpected context.
 
-![Image of patterned border from original MS]({{"/assets/img/posts/2023_02_08_Bk1_186_JE_Hearts.jpeg.jpg"|url}} "Alice Thornton, _The First Book of my Life_, 
+![Image of patterned border from original MS]({{"/assets/img/posts/2023_02_08_Bk1_186_JE_Hearts.jpg"|url}} "Alice Thornton, _The First Book of my Life_, 
 British Library MS Add 88897/1, 186. &copy; Joanne Edge"){.media-centre}
 
 Here, it appears repeatedly as part of a patterned border concluding her ‘Prayer and Thanksgiving for Deliverance from Destruction of the Kingdom, 1660’ that follows her celebration of [the Restoration of the monarchy](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/).[^8] Within that ‘Prayer and Thanksgiving,’ Thornton uses the heart symbol three times, with only one reference being to her own heart. The others metaphorically refer to  ‘the ♡s and tongues of all faithful, loyal people in these kingdoms’.[^9] Unusually, then, here Thornton’s use of the plural ‘hearts’ refers not to her actual husband but instead gestures toward the metaphorical marriage between the King and his people. 
