@@ -81,15 +81,15 @@ Identifying, tagging and linking events are all considerably more challenging th
 
 ## Notes
 
-[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'My deare Husband Will.m Thornton Esq went to Malton to sister Portington on fridy the 11th of September 1668. & was much as he used to be of late pritty well of his infirmity': _Book of Remembrances_ (_BookRem_), Durham Cathedral Library, GB-0033-CCOM 38, p. 151.
+[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'My deare Husband Will.m Thornton Esq went to Malton to sister Portington on fridy the 11th of September 1668. & was much as he used to be of late pritty well of his infirmity': _Book of Remembrances_ (_BookRem_), Durham Cathedral Library, GB-0033-CCOM 38, 151.
 [^2]:
     'But the time of that faire att maulton was come, and my
     deare heart, would needs goe thither. prettending to me some
     earnest bussiness to speake with somme, about some monney owed
     him. & I seeing a fitt of his Pallsye drawing on, was extreamly
-    against his goeing att that time': _Book 3: The Second Book of My Widowed Condition_, British Library MS Add 88897/2, p. 96.
+    against his goeing att that time': _Book 3: The Second Book of My Widowed Condition_, British Library MS Add 88897/2, 96.
 
-[^3]: '1658 The weakenesse of my bodie continued So great and long affter my hard Child birth of my sonne. that it brought me allmost into a consumtion. non expecting for manye daies together that I should at all recover. & when it was don I was lame allmost a qr of a yeare of my left knee, that I gott in my labour': _BookRem_, p. 32.
+[^3]: '1658 The weakenesse of my bodie continued So great and long affter my hard Child birth of my sonne. that it brought me allmost into a consumtion. non expecting for manye daies together that I should at all recover. & when it was don I was lame allmost a qr of a yeare of my left knee, that I gott in my labour': _BookRem_, 32.
 [^4]:
     'My Cure of Bleeding at Scarbrough August. 1659. <br>
     It was the good pleasure of God to contineue me most
@@ -99,6 +99,6 @@ Identifying, tagging and linking events are all considerably more challenging th
     & strength by the bleeding of the Hemorides, which followed
     every day by seige and was caused by my last travell
     & torment in Childebirth. which brought me soe low & weake
-    that I fainted allmost every day uppon such occasions...': _Book 1: The First Book of My Life_ , BL MS Add 88897/1, p. 153.
+    that I fainted allmost every day uppon such occasions...': _Book 1: The First Book of My Life_ , BL MS Add 88897/1, 153.
 
 [^5]: TEI _Guidelines_ (version 4.5.0), ["Chapter 20: Non-hierarchical Structures"](https://tei-c.org/release/doc/tei-p5-doc/en/html/NH.html)
