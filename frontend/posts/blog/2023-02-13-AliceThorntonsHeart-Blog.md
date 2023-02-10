@@ -15,11 +15,11 @@ When Amanda Herbert came across a similar feature in Sarah Savage’s diary, wri
  
 Across the four *Books*, Thornton uses this symbol on 67 different occasions, for a variety of purposes. It appears most frequently (41 times) as a symbol for her own heart, often at points of heightened emotion. For example, when her father, Christopher Wandesford, was on his deathbed, Thornton recalls that ‘his earnest look, did never go out of my ♡’.[^4]  
 
-![An image of the quotation in original MS]({{"/assets/img/posts/2023_02_08_BkRem_189_myheart.jpg"|url}} "*Book of Remembrances*, 189, Derek Beattie"){.media-left}
+![An image of the quotation in original MS]({{"/assets/img/posts/2023_02_08_BkRem_189_myheart.jpg"|url}} "Book of Remembrances, 189, Derek Beattie"){.media-left}
 
 In later life, overwhelmed by the circulation of scandalous rumours about her that threatened to ‘be the ruin of my life,’ Thornton avers that, without the support of her beloved Aunt Norton, she ‘had undoubtedly perished with that heavy load of ♡ grief and sorrow’.[^5] 
 
-![An image of quotation in original MS]({{"/assets/img/posts/2023_02_08_BkRem_131_heartgrief.jpg"|url}} "*Book of Remembrances*, 131, Derek Beattie"){.media-right}
+![An image of quotation in original MS]({{"/assets/img/posts/2023_02_08_BkRem_131_heartgrief.jpg"|url}} "Book of Remembrances, 131, Derek Beattie"){.media-right}
 
 Nevertheless, there are several instances in which the ♡ referred to is not her own, but that of another (most frequently that of her husband). There are also three occasions on which she uses ‘our ♡s’ to refer specifically to her and her husband’s marriage: ‘Thou, O Lord, having given us thy grace, uniting our ♡ s in that holy band of marriage wherein we lived’. [^6]
 
