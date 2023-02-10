@@ -1,6 +1,6 @@
 ---
 title: "Alice Thornton’s Heart: An Early Modern Emoji" 
-feature: /assets/img/posts/2023_02_08_HeartsBlog_Main_BkRem_138.jpg
+feature: /assets/img/posts/blog/2023_02_08_HeartsBlog_Main_BkRem_138.jpg
 status: draft
 authors:
 - cbeattie
