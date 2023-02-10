@@ -15,17 +15,18 @@ When Amanda Herbert came across a similar feature in Sarah Savage’s diary, wri
  
 Across the four *Books*, Thornton uses this symbol on 67 different occasions, for a variety of purposes. It appears most frequently (41 times) as a symbol for her own heart, often at points of heightened emotion. For example, when her father, Christopher Wandesford, was on his deathbed, Thornton recalls that ‘his earnest look, did never go out of my ♡’.[^4]  
 
-![An image of the quotation in original MS]({{"/assets/img/posts/2023_02_08_BkRem_189_myheart.jpg"|url}} "Book of Remembrances, 189, Derek Beattie"){.media-left}
+![An image of the quotation in original MS]({{"/assets/img/posts/2023_02_08_BkRem_189_myheart.jpg"|url}} "Alice Thornton, _Book of Remembrances_, 189, © Derek Beattie"){.media-left}
 
 In later life, overwhelmed by the circulation of scandalous rumours about her that threatened to ‘be the ruin of my life,’ Thornton avers that, without the support of her beloved Aunt Norton, she ‘had undoubtedly perished with that heavy load of ♡ grief and sorrow’.[^5] 
 
-![An image of quotation in original MS]({{"/assets/img/posts/2023_02_08_BkRem_131_heartgrief.jpg"|url}} "Book of Remembrances, 131, Derek Beattie"){.media-right}
+![An image of quotation in original MS]({{"/assets/img/posts/2023_02_08_BkRem_131_heartgrief.jpg"|url}} "Thornton, _Book of Remembrances_, 131, © Derek Beattie"){.media-right}
 
 Nevertheless, there are several instances in which the ♡ referred to is not her own, but that of another (most frequently that of her husband). There are also three occasions on which she uses ‘our ♡s’ to refer specifically to her and her husband’s marriage: ‘Thou, O Lord, having given us thy grace, uniting our ♡ s in that holy band of marriage wherein we lived’. [^6]
 
 Thornton’s use of the ♡ symbol is not distributed evenly over the four volumes. While not all the references to Thornton’s own heart can be found in *Book 1*, the ♡ symbol also appears there 41 times, which is by far the greatest number in any one volume.[^7]  Furthermore, *Book 1* includes the most remarkable and extensive use of the ♡ motif in a perhaps unexpected context.
 
-![Image of patterned border from original MS]({{"/assets/img/posts/2023_02_08_Bk1_186_Hearts.jpg"|url}} "Book 1, 186, Suzanne Trill"){.media-centre}
+![Image of patterned border from original MS]({{"/assets/img/posts/2023_02_08_Bk1_186_Hearts.jpg"|url}} "Alice Thornton, _The First Book of my Life_, 
+British Library MS Add 88897/1, 186. © Suzanne Trill"){.media-centre}
 
 Here, it appears repeatedly as part of a patterned border concluding her ‘Prayer and Thanksgiving for Deliverance from Destruction of the Kingdom, 1660’ that follows her celebration of [the Restoration of the monarchy](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/).[^8] Within that ‘Prayer and Thanksgiving,’ Thornton uses the heart symbol three times, with only one reference being to her own heart. The others metaphorically refer to  ‘the ♡s and tongues of all faithful, loyal people in these kingdoms’.[^9] Unusually, then, here Thornton’s use of the plural ‘hearts’ refers not to her actual husband but instead gestures toward the metaphorical marriage between the King and his people. 
 
@@ -54,7 +55,7 @@ However, when he compiled his edition in 1875, Charles Jackson had access to a f
 
 [^9]: *Book 1*, 183. 
 
-[^10]: Alice Thornton, ‘Letter to her Husband, undated (c. 1668)’, DCL CCOM 58/2. For an explanation of the distinction between the use of the superscription and the internal address to the reader, see ‘The Parts of a Letter.’ *Bess of Hardwick’s Letters: The Complete Correspondence c. 1550-1608*, edited by Alison Wiggins, et al. University of Glasgow, web development by Katherine Rogers, University of Sheffield Humanities Research Institute (April 2013), 08/02/2023. https://www.bessofhardwick.org/background.jsp?id=174.
+[^10]: Alice Thornton, ‘Letter to her Husband, undated (c. 1668)’, DCL CCOM 58/2. For an explanation of the distinction between the use of the superscription and the internal address to the reader, see [‘The Parts of a Letter.’](https://www.bessofhardwick.org/background.jsp?id=174) *Bess of Hardwick’s Letters: The Complete Correspondence c. 1550-1608*, edited by Alison Wiggins, et al. University of Glasgow, web development by Katherine Rogers, University of Sheffield Humanities Research Institute (April 2013), 08/02/2023.
 
 [^11]: Jackson, *Autobiography*, 291-6.
 
