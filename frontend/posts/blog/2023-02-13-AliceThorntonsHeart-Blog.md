@@ -29,7 +29,7 @@ Thornton’s use of the ♡ symbol is not distributed evenly over the four volum
 
 ![Image from original MS]({{"/assets/img/posts/2023_02_09_Bk1_186_Hearts.jpg" | url}} "Book 1, 186 Suzanne Trill")(.media-centre)
 
-Here, it appears repeatedly as part of a patterned border concluding her ‘Prayer and Thanksgiving for Deliverance from Destruction of the Kingdom, 1660’ that follows her celebration of the Restoration of the monarchy [hyperlink].[^8] Within that ‘Prayer and Thanksgiving,’ Thornton uses the heart symbol three times, with only one reference being to her own heart. The others metaphorically refer to  ‘the ♡s and tongues of all faithful, loyal people in these kingdoms’.[^9] 
+Here, it appears repeatedly as part of a patterned border concluding her ‘Prayer and Thanksgiving for Deliverance from Destruction of the Kingdom, 1660’ that follows her celebration of [the Restoration of the monarchy](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/).[^8] Within that ‘Prayer and Thanksgiving,’ Thornton uses the heart symbol three times, with only one reference being to her own heart. The others metaphorically refer to  ‘the ♡s and tongues of all faithful, loyal people in these kingdoms’.[^9] 
 
 ![Image of quotation in original MS]({{"/assets/img/posts/2023_02_09_Bk1_183_HeartsPeople.jpg" | url}} "Book 1, 183")(.media-right)
 
