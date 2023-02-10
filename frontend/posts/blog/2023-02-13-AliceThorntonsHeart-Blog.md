@@ -39,24 +39,22 @@ It is also worth noting that although the only autograph letter we have found fr
 
 However, when he compiled his edition in 1875, Charles Jackson had access to a further six letters in which he tells us that Thornton addressed her husband as ‘My dear heart’, ‘My dearest heart’, or ‘Dearest Heart’.[^11] Given that Jackson had silently replaced the ♡ symbol with the word ‘heart’ elsewhere in the edition, we wonder if that was also the case with some or all of these letters. For now, we can only speculate.
 
-*Found a ♡ symbol in your research? Let us know!*
-
 
 --------------
 
-[^1]: For example, where Thornton writes ‘the ♡s of all’ (*Book 1*, 182), Jackson has ‘the hearts of all’ (*Autobiography*, 127) and where Thornton writes ‘a thankefull ♡’ (*Book 1*, 137), Anselment has ‘a thankefull heart’ (*My First Booke*, 89).
+[^1]: For example, where Thornton writes ‘the ♡s of all’, Jackson has ‘the hearts of all’ and where Thornton writes ‘a thankefull ♡’, Anselment has ‘a thankefull heart’: _Book 1: The First Book of My Life_, British Library MS Add 88897/1 (hereafter _Book 1_), 182, 137; Charles Jackson. Ed. _The Autobiography of Mrs. Alice Thornton of East Newton, Co. York_. Durham: Surtees Society, 1875, 127; Alice Thornton, _My First Booke of My Life_ ed. Raymond A. Anselment (Lincoln: University of Nebraska Press, 2014), 89.
 
 [^2]: Amanda E. Herbert, *Female Alliances: Gender, Identity, and Friendship in Early Modern Britain* (New Haven: Yale University Press, 2014), 173. 
 
 [^3]: National Records of Scotland (NRS), GD3/5/115-117. Suzanne Trill, ‘Scottish Women's Letters in the Early Seventeenth Century’. Paper presented at the *Cultures of Correspondence in Early Modern Britain, 1550-1640* conference (University of Plymouth, 14-16 April, 2011). NRS, GD237/21/64, fo. 12r (personal communication from Ciaran Jones, June 2019). 
 
-[^4]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘his earnest look, did neur goe out of my ♡,’ *Book Rem*, 189.
+[^4]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘his earnest look, did neur goe out of my ♡’. _Book of Remembrances_ (_Book Rem_), Durham Cathedral Library (DCL), GB-0033-CCOM 38, 189.
 
 [^5]: Original text: ‘be the Ruine of my Life;’ ‘had undoubtedly perished with that heavy load of ♡ greife & Sorrow,’ *Book Rem*, 131.
 
 [^6]: ‘Thou O Lord having given us thy grace uniting our ♡ s in that holy band of marriage wherein we lived,’ *Book 1*, 263. ‘Our ♡ s’ is used twice on this page and again in *Book Rem*, 127. There are also occasional references to the hearts of her sister, mother, daughter Kate and son Robert.
 
-[^7]: It is used 17 times in *Book Rem*, eight times in *Book 3*, and only once in *Book 2*: that occurrence is quite distinctive as it appears in part of a quotation from a poem that refers to ‘mans ♡’, 7.
+[^7]: It is used 17 times in *BookRem*, eight times in _Book 3: The Second Book of My Widowed Condition_, British Library MS Add 88897/2, and only once in _Book 2: The First Book of My Widowed Condition_, DCL, GB-0033-CCOM 7; that occurrence is quite distinctive as it appears in part of a quotation from a poem that refers to ‘mans ♡’, 7.
 
 [^8]: *Book 1*, 186.
 
@@ -64,5 +62,5 @@ However, when he compiled his edition in 1875, Charles Jackson had access to a f
 
 [^10]: Alice Thornton, ‘Letter to her Husband, undated (c. 1668)’. DCL CCOM 58/2. For an explanation of the distinction between the use of the superscription and the internal address to the reader, see ‘The Parts of a Letter.’ *Bess of Hardwick’s Letters: The Complete Correspondence c. 1550-1608*, edited by Alison Wiggins, et al. University of Glasgow, web development by Katherine Rogers, University of Sheffield Humanities Research Institute (April 2013), 08/02/2023. https://www.bessofhardwick.org/background.jsp?id=174.
 
-[^11]: Jackson, 291-6.
+[^11]: Jackson, *Autobiography*, 291-6.
 
