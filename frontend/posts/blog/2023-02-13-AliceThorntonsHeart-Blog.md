@@ -19,7 +19,7 @@ Across the four *Books*, Thornton uses this symbol on 67 different occasions, fo
 
 In later life, overwhelmed by the circulation of scandalous rumours about her that threatened to ‘be the ruin of my life,’ Thornton avers that, without the support of her beloved Aunt Norton, she ‘had undoubtedly perished with that heavy load of ♡ grief and sorrow’.[^5] 
 
-![An image of quotation in original MS]({{"/assets/img/posts/2023_02_08_BkRem_131_heartgrief.jpg"|url}} "Thornton, _Book of Remembrances_, 131. &copy; Derek Beattie"){.media-right}
+![An image of quotation in original MS]({{"/assets/img/posts/2023_02_08_BkRem_131_heartgrief.jpg"|url}} "Alice Thornton, _Book of Remembrances_, 131. &copy; Derek Beattie"){.media-right}
 
 Nevertheless, there are several instances in which the ♡ referred to is not her own, but that of another (most frequently that of her husband). There are also three occasions on which she uses ‘our ♡s’ to refer specifically to her and her husband’s marriage: ‘Thou, O Lord, having given us thy grace, uniting our ♡ s in that holy band of marriage wherein we lived’. [^6]
 
@@ -55,7 +55,7 @@ However, when he compiled his edition in 1875, Charles Jackson had access to a f
 
 [^9]: *Book 1*, 183. 
 
-[^10]: Alice Thornton, ‘Letter to her Husband, undated (c. 1668)’, DCL CCOM 58/2. For an explanation of the distinction between the use of the superscription and the internal address to the reader, see [‘The Parts of a Letter.’](https://www.bessofhardwick.org/background.jsp?id=174) *Bess of Hardwick’s Letters: The Complete Correspondence c. 1550-1608*, edited by Alison Wiggins, et al. University of Glasgow, web development by Katherine Rogers, University of Sheffield Humanities Research Institute (April 2013), 08/02/2023.
+[^10]: Alice Thornton, ‘Letter to her Husband, undated (c. 1668)’, DCL CCOM 58/2. For an explanation of the distinction between the use of the superscription and the internal address to the reader, see [‘The Parts of a Letter.’](https://www.bessofhardwick.org/background.jsp?id=174) *Bess of Hardwick’s Letters: The Complete Correspondence c. 1550-1608*, edited by Alison Wiggins, et al. University of Glasgow, web development by Katherine Rogers, University of Sheffield Humanities Research Institute (April 2013). Accessed 8 Feb. 2023.
 
 [^11]: Jackson, *Autobiography*, 291-6.
 
