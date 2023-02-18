@@ -5,7 +5,6 @@ status: draft
 authors:
   - jedge
 tags:
-  - events
   - conferences
 ---
 
