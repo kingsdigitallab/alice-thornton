@@ -4,7 +4,6 @@ feature: /assets/img/posts/early-modern-words-conference-cropped.png
 authors:
   - cbeattie
 tags:
-  - events
   - conferences
 ---
 
