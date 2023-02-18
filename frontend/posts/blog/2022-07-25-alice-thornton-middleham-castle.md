@@ -72,6 +72,6 @@ To find out more about Alice and Middleham Castle, listen to [episode 173](https
 [^3]: North Yorkshire County Record Office (NYCRO), 'Dates of birth of the children of Sir Thos & Katherine Danby 1631-1645', Danby family letters & papers c. 1620-1687, ZS: Cunliffe-Lister Collection [MIC 2087/2087]; NYCRO, 'An old memorandum book of Mr John Gale's', Danby family letters & papers c.1620-1687, ZS: Cunliffe-Lister Collection [MIC 2087/2463].
 [^4]: 'At that time Sir Thomas Danby was forced with my Sister & Children to be in safty from the Parliament forces he beeing for King Charles the first. to midlam Castle A garison under my Lord Lofftus.' _Book 1_, 297.
 [^5]: 'There she was delivrd of her first Son Francis Danby. my sister having gott my Lord Lofftus, & my ~~Lady H~~ selfe with ~~annother~~ ^Co. Branlen^ for wittnesse.' _Book 1_, 297.
-[^6]: Alice Thornton, _My First Booke of My Life_ ed. Raymond A. Anselment (Lincoln: University of Nebraska Press, 2014), p. 238n253.
+[^6]: Alice Thornton, _My First Booke of My Life_ ed. Raymond A. Anselment (Lincoln: University of Nebraska Press, 2014), 238n253.
 [^7]: NYCRO, 'Dates of birth of the children of Sir Thos & Katherine Danby 1631-1645', [MIC 2087/2087].
 [^8]: NYCRO, 'An old memorandum book of Mr John Gale's', [MIC 2087/2463].
