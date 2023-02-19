@@ -41,7 +41,7 @@ While I do sometimes think of Margery Kempe when reading Alice Thornton’s Book
 [^1]: Ralph Houlbrooke, _English Family Life, 1576-1716: An Anthology from Diaries_ (Oxford: Basil Blackwell, 1988), 119-24.
 [^2]: Houlbrooke, English Family Life, 120.
 [^3]: Margery Kempe, _The Book of Margery Kempe_, trans. B.A. Windeatt (Harmondsworth: Penguin, 1985), 41.
-[^4]: Alice Thornton, _My First Booke of My Life_ ed. Raymond A. Anselment (Lincoln: University of Nebraska Press, 2014), lii. Wallace Notestein used it for his [_English Folk: A Book of Characters_](https://archive.org/details/in.ernet.dli.2015.75784/page/n3/mode/2up) (New York: Harcourt, Brace and Company, 1938), although in his acknowledgements he thanks Helen Sale for writing the ‘first draft’ of the chapter on Thornton. #thanksfortyping
+[^4]: Alice Thornton, _My First Booke of My Life_ ed. Raymond A. Anselment (Lincoln: University of Nebraska Press, 2014), lii. Wallace Notestein used it for his [_English Folk: A Book of Characters_](https://archive.org/details/in.ernet.dli.2015.75784/page/n3/mode/2up) (New York: Harcourt, Brace and Company, 1938), although in his acknowledgements he thanks Helen Sale for writing the ‘first draft’ of the chapter on Thornton. [#thanksfortyping](https://www.buzzfeednews.com/article/ishmaeldaro/thanks-for-typing-with-your-two-aching-fingers)
 [^5]: The text here is from our work-in-progress edition of Alice Thornton's Books. It is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here: “this grand conserne of my life”; Alice Thornton, _Book 1: The First Book of My Life_, British Library MS Add 88897/1, 124.
 
 
