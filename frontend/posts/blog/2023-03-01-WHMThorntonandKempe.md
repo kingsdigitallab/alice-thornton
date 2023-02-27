@@ -21,9 +21,9 @@ For the seventeenth century, I borrowed a pile of books from one of my superviso
 
 I found that such extracts paired well with the text that I had chosen for the same topic for the medieval period, _The Book of Margery Kempe_:
 
->‘When this creature was twenty years of age, or somewhat more, she was married to a worshipful burgess and was with child within a short time, as nature would have it. And after she had conceived, she was troubled with severe attacks of sickness until the child was born. And then, what with the labour pains she had in childbirth and the sickness that had gone before, she despaired of her life, believing she might not live. Then she sent for her confessor’.[^3] 
-
 ![Cover of Penguin classics edition of Book of Margery Kempe]({{"/assets/img/posts/Book_of_Margery_Kempe.jpg" | url}} "Windeatt, _Book of Margery Kempe_"){.media-right}
+
+>‘When this creature was twenty years of age, or somewhat more, she was married to a worshipful burgess and was with child within a short time, as nature would have it. And after she had conceived, she was troubled with severe attacks of sickness until the child was born. And then, what with the labour pains she had in childbirth and the sickness that had gone before, she despaired of her life, believing she might not live. Then she sent for her confessor’.[^3] 
 
 _The Book of Margery Kempe_ is often referred to as the first autobiography written in English. It is written in the third person and purports to be dictated by Kempe (c.1373-1440). _The Book_ tells us that Kempe had fourteen children but little more about them, apart from [one son who went to live in Danzig](https://www.theguardian.com/books/2015/may/08/archive-find-shows-medieval-mystic-margery-kempes-autobiography-doesnt-lie). In this, the book is different from those by Thornton.
 
