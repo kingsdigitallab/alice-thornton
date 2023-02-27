@@ -13,7 +13,7 @@ First up is project PI, [Cordelia Beattie](https://thornton.kdl.kcl.ac.uk/people
 
 My first encounter with Alice Thornton’s writings was in 2000. I had been asked to teach a comparative history course on ‘Women and the Family’ at York St John University, focussing on the medieval period, the seventeenth century and 1890-1918. At the time I was finishing my PhD on medieval single women and so the first part was quite straightforward. The second part was a new challenge.
 
-![Photo of front cover of Houlbrooke's 1988 book]({{"/assets/img/posts/Houlbrooke_English_Family_Life.jpg" | url}} "Houlbrooke, _English Family Life_"){.media-left}
+![Photo of front cover of Houlbrooke's 1988 book]({{"/assets/img/posts/Houlbrooke_English_Family_Life.jpg" | url}} "Houlbrooke, _English Family Life_"){.media-right}
 
 For the seventeenth century, I borrowed a pile of books from one of my supervisors, Professor Felicity Riddy. For a discussion of childbirth, I recall that I used some of the passages from Alice Thornton’s books, provided in Ralph Houlbrooke’s anthology, _English Family Life_, in turn taken from Jackson’s 1875 edition. Houlbrooke included extracts relating to Thornton’s pregnancies and childbirths over the period 1654 to 1667 (from second child, Nally, to ninth child, Christopher).[^1] For example, regarding the birth of her fifth child in 1657:
 
