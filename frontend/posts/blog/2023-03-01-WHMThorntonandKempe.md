@@ -15,7 +15,7 @@ My first encounter with Alice Thornton’s writings was in 2000. I had been aske
 
 For the seventeenth century, I borrowed a pile of books from one of my supervisors, Professor Felicity Riddy. For a discussion of childbirth, I recall that I used some of the passages from Alice Thornton’s books, provided in Ralph Houlbrooke’s anthology, _English Family Life_, in turn taken from Jackson’s 1875 edition. Houlbrooke included extracts relating to Thornton’s pregnancies and childbirths over the period 1654 to 1667 (from second child, Nally, to ninth child, Christopher).[^1] For example, regarding the birth of her fifth child in 1657:
 
-![Photo of front cover of Houlbrooke's book]({{"/assets/img/posts/Houlbrooke_English_Family_Life.jpg" | url}} "Houlbrooke, _English Family Life_){.media-left}
+![Photo of front cover of Houlbrooke's 1988 book]({{"/assets/img/posts/Houlbrooke_English_Family_Life.jpg" | url}} "Houlbrooke, _English Family Life_){.media-left}
 
 >‘upon the Wednesday, the ninth of December, I fell into exceeding sharp travail in great extremity, so that the midwife did believe I should be delivered soon. But lo! It fell out contrary, for the child stayed in the birth, and came cross with his feet first, and in this condition continued till Thursday morning between two and three a clock, at which time I was upon the rack in bearing my child with such exquisite torment, as if each limb were divided from each other, for the space of two hours, when at length, being speechless and breathless, I was by the infinite providence of God in great mercy delivered’.[^2] 
 
@@ -23,9 +23,9 @@ I found that such extracts paired well with the text that I had chosen for the s
 
 >‘When this creature was twenty years of age, or somewhat more, she was married to a worshipful burgess and was with child within a short time, as nature would have it. And after she had conceived, she was troubled with severe attacks of sickness until the child was born. And then, what with the labour pains she had in childbirth and the sickness that had gone before, she despaired of her life, believing she might not live. Then she sent for her confessor’.[^3] 
 
-_The Book of Margery Kempe_ is often referred to as the first autobiography written in English. It is written in the third person and purports to be dictated by Kempe (c.1373-1440). _The Book_ tells us that Kempe had fourteen children but little more about them, apart from [one son who went to live in Danzig](https://www.theguardian.com/books/2015/may/08/archive-find-shows-medieval-mystic-margery-kempes-autobiography-doesnt-lie). In this, the book is different from those by Thornton.
+![Cover of Penguin classics edition of Book of Margery Kempe]({{"/assets/img/posts/Book_of_Margery_Kempe.jpg" | url}} "Windeatt, _Book of Margery Kempe_"){.media-right}
 
-[photo of Kempe book]
+_The Book of Margery Kempe_ is often referred to as the first autobiography written in English. It is written in the third person and purports to be dictated by Kempe (c.1373-1440). _The Book_ tells us that Kempe had fourteen children but little more about them, apart from [one son who went to live in Danzig](https://www.theguardian.com/books/2015/may/08/archive-find-shows-medieval-mystic-margery-kempes-autobiography-doesnt-lie). In this, the book is different from those by Thornton.
 
 I continued to teach such passages in a course on ‘Women in England, 1300-1700’, which I ran at the University of Edinburgh from 2002-14. [chk when next in office]
 
