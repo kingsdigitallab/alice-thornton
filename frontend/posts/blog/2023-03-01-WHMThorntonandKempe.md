@@ -15,7 +15,7 @@ My first encounter with Alice Thornton’s writings was in 2000. I had been aske
 
 For the seventeenth century, I borrowed a pile of books from one of my supervisors, Professor Felicity Riddy. For a discussion of childbirth, I recall that I used some of the passages from Alice Thornton’s books, provided in Ralph Houlbrooke’s anthology, _English Family Life_, in turn taken from Jackson’s 1875 edition. Houlbrooke included extracts relating to Thornton’s pregnancies and childbirths over the period 1654 to 1667 (from second child, Nally, to ninth child, Christopher).[^1] For example, regarding the birth of her fifth child in 1657:
 
-[photo of Houlbrooke book]
+![Photo of front cover of Houlbrooke's book]({{"/assets/img/posts/Houlbrooke_English_Family_Life.jpg" | url}} "Houlbrooke, _English Family Life_){.media-left}
 
 >‘upon the Wednesday, the ninth of December, I fell into exceeding sharp travail in great extremity, so that the midwife did believe I should be delivered soon. But lo! It fell out contrary, for the child stayed in the birth, and came cross with his feet first, and in this condition continued till Thursday morning between two and three a clock, at which time I was upon the rack in bearing my child with such exquisite torment, as if each limb were divided from each other, for the space of two hours, when at length, being speechless and breathless, I was by the infinite providence of God in great mercy delivered’.[^2] 
 
