@@ -115,7 +115,7 @@
          
          following MoEML, three @datingMethod:
          #JulianJan year starts 1 January
-         #JulianMar date = 1 Jan-24 Mar and year starts 25 March
+         #JulianMar date = 1 Jan-24 Mar and year starts 25 March ("Lady Day" dating)
          #JulianSic (rare) only used where date = 1 Jan-24 Mar and we don't know which of the two possible years it is
          ***UPDATE: added for Book 3***
          Book 3 contains a number of dates written in the form 1668/9 (=1669). 
@@ -129,7 +129,7 @@
          
          <calendar> will need proper description later
          
-         Sometimes we know from other sources that Alice has got a date wrong. These are encoded using <choice><sic><corr>
+         Sometimes we know from other sources that Alice has got a date wrong. Where identified, these are encoded using <choice><sic><corr>
          
         -->
      </profileDesc>
@@ -144,20 +144,22 @@
         
      <!-- ENCODING NOTES: 
          
-         @xml:id and @n in <pb> tags and page \d+ in xml comments = Transcriber page numbers 
+         @xml:id and @n in <pb> tags and page \d+ in xml comments = Transcriber page numbers - these should be treated as the definitive numbers for the edition. 
+         
          <fw>type=pageNum are Alice's written numbers
          
-         img in xml comments (if present) = image numbers
+         img in xml comments (if present) = image numbers for project reference only.
          
      xml comment keywords:
          NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action.
          TODO: needs work, I probably know what's needed
-         Q: needs work, uncertain about how to proceed
+         Q: needs work, some uncertainty about how to proceed
          
-         TODO/Q [teams] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
+         [teams] or [review] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
          
          [] comment/note tags give some indication of what it's about
-         [endnote] moved from Word endnotes into comment
+         
+         [endnote] moved from Word endnotes into comment for reference
          
          
      TO DO/REVIEW:
@@ -170,7 +172,7 @@
              - Cf. most underline in BkRem used on headings and seems most appropriate to treat as decoration. Queried ones are at end of sections and the Q is whether they should be treated as section markers. 
         
 
-        [reminder to self: already checked numbering in this book is consistent even=left, odd=right.]
+        [reminder to self: already checked numbering in BkRem is consistent even=left, odd=right. not always the case in the other books!]
 
       
         remaining endnotes (<note> @place=end)
@@ -178,17 +180,17 @@
           type=context may become editorial annotations - leave them for now
    
        events tagging - milestone/anchor pairs 
-                at present milestone/anchor pairs are linked using @n, prefix "ev". 
-                not yet implemented @spanTo or linking event mentions
-                milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree
-                but they *are* always in the same <div> (if an event spans divs I split into two)
+              -  at present milestone/anchor pairs are linked using @n, prefix "ev". 
+              -  not yet implemented @spanTo or linking event mentions
+              -  milestone/anchor pairs are not always siblings, not always in the same paragraph, not always at same level in tree
+              -  but they *are* always in the same <div> (if an event spans divs I split into two)
                 they can be "nested" for sub-events. (though i might not do this) 
                 they can overlap. etc.
                 
         
       
       tagging of ms description features 
-          - a lot of this to be dropped or only described in msDescription, but will review properly after transcription updates autumn 2022.
+          - a lot of this to be dropped or only described in msDescription, but will need final review
           related footnotes > comments for reference/to come back to
           i've started teiHeader/msDesc with examples of tags that are likely to be useful, but we might not use all of them in the end.
         
@@ -197,7 +199,7 @@
       - most people and place names are now tagged in all four books 
       - nearly all tagged <persName> are linked to people masterlist db 
       TODO
-      - at least half of people and a proportion of places tagged with <rs> (type=person/group/place/geog) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
+      - at least half of people and some places tagged with <rs> (type=person/group/place/geog) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
       - completion of people.xml standoff to include relationships and sources - to be done once bios have been completed
 
      -->      

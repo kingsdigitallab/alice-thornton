@@ -122,9 +122,9 @@
          
       WORK IN PROGRESS   
       
-      convert <pb> @n to Alice page numbers?
          
-       @rend markers
+       @rend markers - many of these to be ignored in the DSE...
+       
          (mainly) <div> <head> occasionally <p> <fw>
          ruled lines above and below titles are based on WWP rendition styles
          pre/post()
@@ -145,7 +145,7 @@
        events tagging:
            milestone/anchor pairs
             - not yet implemented @spanTo or linking event mentions 
-                - probably won't do that until the autumn after all 4 books are marked up 
+                - probably won't do that until after all 4 books are marked up 
             - at present milestone/anchor pairs are linked using @n, prefix "ev".
             
             **milestone/anchor pairs are not always siblings, not always in the same paragraph**
@@ -3224,9 +3224,8 @@ point to <category> elements or to feature structure components.
                 <fw type="pageNum">74</fw> <lb/>
             
             would suffer me, least his extreamity should doe<lb/>
-                 me harme, but I standing where I could heare his vioc<note place="end">
-                    <p rend="Endnote Text"> [word] I.e., voice.</p>
-                </note>
+                 me harme, but I standing where I could heare his <sic>vioc</sic> <!-- [endnote] I.e., voice.-->
+                
                 <lb/>
                  &amp; he mine. he blessed God heartily, &amp; rejoyced to hear<lb/>
                  I was delivered, &amp; hoped God had heard his Praier<lb/>
@@ -4517,7 +4516,7 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0259">Such Practices cannot subsist with Primitive Pietie, or<lb/>
                  the Purity of our true Religion. what ever pretext is<lb/>
                  with our new Reformadoes. <milestone unit="marker" rend="delim(tbd-//)"/></p>
-            <milestone n="ev65" unit="event"/><!-- NOTE event alice marriage proposal -->
+            <milestone n="ev65" unit="event"/><!-- NOTE event alice marriage proposal. but also sequestration/darley. -->
             <p xml:id="p-0260">In this confusion &amp; streights, wherein <rs ref="ppl:cw1" n="per376" type="person">my Father</rs>s Family<lb/>
                  was fairely desgined for Ruine, through the desperate malice<lb/>
                  of our unjust adversary, whoe did worry the Lion for his<lb/>
@@ -4534,6 +4533,8 @@ point to <category> elements or to feature structure components.
                  was instrumentall, in putting <persName ref="ppl:gw1" n="per385">my brother Georg<add place="above">e</add></persName> uppon the<lb/>
                  traversing his deliquency, &amp; in the End cleared his Estate<lb/>
                  from the Ruine of Sequestration.</p>
+            <anchor type="event" n="ev65"/>
+            <milestone unit="event" n="ev65a"/>
             <p xml:id="p-0261">As to my owne perticuler beeing willing to be advisable<lb/>
                  by my freinds in the choyce of a husband, deeming theire<lb/>
                  judgments above my owne. was persuaded that this proposall<lb/>
@@ -4559,7 +4560,7 @@ point to <category> elements or to feature structure components.
                  persuasion with my selfe, And presently there was<lb/>
                  a Treaty of marriage entred into by <persName ref="ppl:wt1" n="per387">Mr Thornton</persName> &amp;<lb/>
                  <rs ref="ppl:aow1" n="per388" type="person">my deare mother</rs>, which was depending till a good time<lb/>
-                affter <rs ref="ppl:gw1" n="per389" type="person">my brother</rs>s death.<anchor n="ev65" type="event"/></p>
+                affter <rs ref="ppl:gw1" n="per389" type="person">my brother</rs>s death.<anchor n="ev65a" type="event"/></p>
             <p xml:id="p-0263">But it so pleased God, for our greater affliction, when<lb/>
                  wee hoped to have injoyed the benifitt of the clearing his<lb/>
                  Estate from that Tiranny of Seq<ex>uestration</ex> that we receaved a very<lb/>
@@ -14936,9 +14937,8 @@ point to <category> elements or to feature structure components.
                 
             <item corresp="#div-137">Uppon my great delivrance at 3 yers old <label><ref type="page">286</ref></label></item>
             <item corresp="#div-138">On my delivrance from drowning in Ireland <label><ref type="page">288</ref></label></item>
-            <item corresp="#div-139">A great delivrance from death by a <add place="above">2</add> fall <sic>Ired</sic><note place="end">
-                    <p rend="Endnote Text"> [word] SiC – i.e., Ireland.</p>
-                </note> <label><ref type="page">290</ref></label></item>
+            <item corresp="#div-139">A great delivrance from death by a <add place="above">2</add> fall <sic>Ired</sic> <!-- Q more appropriate to handle this as an abbreviation? [endnote] SiC – i.e., Ireland.-->
+                 <label><ref type="page">290</ref></label></item>
             <item corresp="#div-140">A great fire in Dublin Castle before my Lord Dep <label><ref type="page">292</ref></label>.</item>
             <item corresp="#div-142">The Preservation of my D. Fathers will <label><ref type="page">293</ref></label></item>
             <item corresp="#div-143">Deliverances at Hessom bataill &amp; in the warres <label><ref type="page">294</ref></label></item>
