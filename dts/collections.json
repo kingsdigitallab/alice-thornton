@@ -4,8 +4,8 @@
  "@type": "Collection",
  "title": "ROOT Collection",
  "totalParents": 0,
- "totalItems": 5,
- "totalChildren": 5,
+ "totalItems": 6,
+ "totalChildren": 6,
  "member": [
   {
    "@id": "book_of_remembrances",
@@ -48,6 +48,22 @@
    "totalChildren": 0,
    "dts:references": "/navigation/?id=book_one_vard",
    "dts:passage": "/documents/?id=book_one_vard",
+   "dts:maxCiteDepth": 1,
+   "dts:citeStructure": [
+    {
+     "dts:citeType": "page"
+    }
+   ]
+  },
+  {
+   "@id": "book_one_vard_tei",
+   "@type": "Resource",
+   "title": "Book 1",
+   "totalParents": 1,
+   "totalItems": 0,
+   "totalChildren": 0,
+   "dts:references": "/navigation/?id=book_one_vard_tei",
+   "dts:passage": "/documents/?id=book_one_vard_tei",
    "dts:maxCiteDepth": 1,
    "dts:citeStructure": [
     {
