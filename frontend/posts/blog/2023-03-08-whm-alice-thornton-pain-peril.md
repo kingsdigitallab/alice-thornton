@@ -104,7 +104,7 @@ continue to be fascinated by Alice's words and her world.
 
 [^1]: See R. A. Anselment, "Seventeenth-Century Manuscript Sources of
     Alice Thornton's Life," *SEL Studies in English Literature
-    1500-1900* 45, no. 1 (2005): 135--55 for a comparison of the
+    1500-1900* 45, no. 1 (2005): 135-55 for a comparison of the
     manuscripts and the Jackson edition.
 
 [^2]: See, in particular, the essays in Valerie Fildes (ed.), *Women as Mothers in Pre-Industrial England: Essays in Memory of Dorothy McLaren* (London: Routledge, 1990);
@@ -118,9 +118,9 @@ continue to be fascinated by Alice's words and her world.
     http://archive.org/details/autobiographyofm00thorrich.
 
 [^4]: Sharon Howard, "Imagining the Pain and Peril of Seventeenth-Century
-    Childbirth:: Travail and Deliverance in the Making of an Early
+    Childbirth: Travail and Deliverance in the Making of an Early
     Modern World," *Social History of Medicine* 16, no. 3 (December 1,
-    2003): 367--82, https://doi.org/10.1093/shm/16.3.367. 
+    2003): 367-82, https://doi.org/10.1093/shm/16.3.367. 
 
 [^5]: The text quoted here is from our work-in-progress edition of Alice
     Thornton's Books. The text is modernised in the body of the blog
