@@ -12,6 +12,10 @@ tags:
 
 Content note: childbirth and pain
 
+For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on Twitter or on Facebook.
+
+Second in the series is project postdoctoral researcher [Sharon Howard](https://thornton.kdl.kcl.ac.uk/people/showard/):
+
 I first encountered Alice Thornton almost exactly 24 years ago, during
 the spring term of 1999 when I was studying for an MA in Women's and
 Gender History at the University of York and took an option on [the body
