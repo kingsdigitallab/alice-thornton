@@ -6,7 +6,6 @@ authors:
   - cbeattie
 tags:
   - media
-  - radio
 ---
 
 Cordelia Beattie (PI) and Suzanne Trill (Co-I) will be on [EHFM](https://www.ehfm.live/) at 5pm GMT tonight (Monday 28 November), being interviewed by a University of Edinburgh student, Jasmine Webster aka Webster's Dictionary. They will be talking all things Alice Thornton, although there may well be digressions!

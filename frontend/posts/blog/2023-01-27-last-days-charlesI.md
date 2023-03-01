@@ -26,7 +26,7 @@ would make it 26 January 1649. Her account was seen as noteworthy by
 contemporaries but cannot be verified by other sources, with one recent
 scholar sceptical about its veracity.[^2]
 
-![photo of part of a handwritten letter which includes Thornton's testimony, labelled as such and underlined ]({{"/assets/img/posts/ATaccountCoxletterFront.jpg" | url}} "Part of letter to Dr Macro. BL Add 32556, 69. Photo by Cordelia Beattie, 2019."){.media-right}
+![photo of part of a handwritten letter which includes Thornton's testimony, labelled as such and underlined ]({{"/assets/img/posts/ATaccountCoxletterFront.jpg" | url}} "Part of letter to Dr Macro. BL Add 32556, 69. &copy; Cordelia Beattie."){.media-right}
 
 Charles Jackson in 1875 called this 'a curious account ... now lost',
 which he accessed from a note in the 1799 edition of the _Memoirs of the
@@ -98,7 +98,7 @@ walls'.[^13]
 [^1]:
     The text quoted above is from our work-in-progress edition of Alice
     Thornton's Books. The text is modernised in the body of the blog and
-    the semi-diplomatic transcription is reproduced here in the notes. *Book
+    the semi-diplomatic transcription is reproduced here in the notes. Alice Thornton, *Book
     1: The First Book of My Life*, British Library (BL) MS Add 88897/1, 94:
     'was cruelly Murthered, by the hands of Blasphemous Rebells, his owne
     subjects, att White hall. London the 30th of Janueary: 1648'. Thornton
@@ -107,7 +107,7 @@ walls'.[^13]
 [^2]:
     Joad Raymond, \'Rushworth \[Rushforth\], John (c. 1612--1690),
     historian and politician.\' _Oxford Dictionary of National Biography_.
-    23 Sep. 2004; Accessed 16 Dec. 2022.
+    23 Sep. 2004. Accessed 16 Dec. 2022.
 
 [^3]:
     Charles Jackson. Ed. *The Autobiography of Mrs. Alice Thornton of
@@ -116,7 +116,7 @@ walls'.[^13]
     Eighteenth Century Collections Online (ECCO). Accessed 15 Dec. 2022.
 
 [^4]:
-    George Paul, 'Letter to Dr Macro.' BL Add 32556, 69--70. The 1799
+    George Paul, 'Letter to Dr Macro.' BL Add 32556, 69-70. The 1799
     version has a few additions, the most noteworthy being that the account
     was signed by Thornton.
 
@@ -132,7 +132,7 @@ walls'.[^13]
     ['House of Lords Journal Volume 11: 24 July 1660,'](http://www.british-history.ac.uk/lords-jrnl/vol11/pp104-105) in *Journal
     of the House of Lords: Volume 11, 1660-1666*, (London: His
     Majesty\'s Stationery Office, 1767-1830), 104-105. *British History
-    Online*. Accessed December 16, 2022.
+    Online*. Accessed 16 Dec. 2022.
 
 [^9]:
     Francis J. Bremer. \'Calvert, Cecil, second Baron Baltimore

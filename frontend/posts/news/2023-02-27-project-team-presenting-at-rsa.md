@@ -1,11 +1,10 @@
 ---
 title: Project Team to present at the RSA, Puerto Rico, March 2023
-feature: /assets/img/posts/RSA_logo.jpg
-status: draft
+feature: /assets/img/posts/san_juan.jpg
+status: live
 authors:
   - jedge
 tags:
-  - events
   - conferences
 ---
 
