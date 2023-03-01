@@ -21,7 +21,7 @@ on early modern history (and a nostalgic wander through undergraduate
 essays has reminded me that I grabbed every opportunity to write about
 women and gender that was on offer).
 
-![A woodcut scene of a birthing chamber with a recovering woman in bed being tended by a midwife in the background. In the foreground, two other women talk, another sits by the empty cradle while another bathes the newborn baby]({{"/assets/img/posts/Rueff-wellcome.jpg" | https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/}} "Jacobus Rueff, Frontispiece illustration showing birth scene from De conceptu et generatione hominis, 1554. <br>Wellcome Collection, London. CC BY."){.media-right}
+![A woodcut scene of a birthing chamber with a recovering woman in bed being tended by a midwife in the background. In the foreground, two other women talk, another sits by the empty cradle while another bathes the newborn baby]({{"/assets/img/posts/Rueff-wellcome.jpg" | "https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/"}} "Jacobus Rueff, Frontispiece illustration showing birth scene from De conceptu et generatione hominis, 1554. <br>Wellcome Collection, London. CC BY."){.media-right}
 
 I was introduced to Alice through the 1875
 *Autobiography* edited by Charles Jackson, in a seminar on pain and
