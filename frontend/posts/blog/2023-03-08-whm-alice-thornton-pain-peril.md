@@ -10,6 +10,8 @@ tags:
 - law
 ---
 
+Content note: childbirth and pain
+
 I first encountered Alice Thornton almost exactly 24 years ago, during
 the spring term of 1999 when I was studying for an MA in Women's and
 Gender History at the University of York and took an option on [the body
@@ -90,7 +92,7 @@ omitted from the Jackson edition, and his omissions also downplayed the
 importance of the attack on her reputation in motivating her to write
 the books.[^6] I knew already that her writing was an 'act of
 self-vindication'.[^7] But reading [her original manuscripts](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) has newly emphasised for me both the perils created by enemies actively plotting
-the downfall of Alice and her family *and* the importance of the friends and
+the downfall of Alice and her family *and* the importance of the [friends](https://twitter.com/search?q=(%23WomensHistoryMonth)%20(from%3Athornton_books)%20until%3A2022-03-31%20since%3A2022-03-01&src=typed_query) and
 [relatives](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/)
 who come to her aid. My focus may have shifted, but I
 continue to be fascinated by Alice's words and her world.
