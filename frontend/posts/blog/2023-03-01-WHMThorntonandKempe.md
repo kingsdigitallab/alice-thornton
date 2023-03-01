@@ -1,7 +1,7 @@
 ---
 title: "Women’s History Month, 1: Alice Thornton and Margery Kempe" 
 feature: /assets/img/posts/womens_history_month.jpg
-status: draft
+status: live
 authors:
 - cbeattie
 tags:
