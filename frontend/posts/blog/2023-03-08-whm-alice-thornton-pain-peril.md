@@ -1,5 +1,5 @@
 ---
-title: "Women’s History Month, 2: Reading Alice Thornton's pains and perils" 
+title: "Women’s History Month, 2: Re-reading Alice Thornton's pains and perils" 
 feature: /assets/img/posts/womens_history_month.jpg
 status: draft
 authors:
@@ -21,7 +21,7 @@ on early modern history (and a nostalgic wander through undergraduate
 essays has reminded me that I grabbed every opportunity to write about
 women and gender that was on offer).
 
-![A woodcut scene of a birthing chamber with a recovering woman in bed being tended by a midwife in the background. In the foreground, two other women talk, another sits by the empty cradle while another bathes the newborn baby]({{"/assets/img/posts/Rueff-wellcome.jpg" | "https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/"}} "Jacobus Rueff, Frontispiece illustration showing birth scene from De conceptu et generatione hominis, 1554. <br>Wellcome Collection, London. CC BY."){.media-right}
+![A woodcut scene of a birthing chamber with a recovering woman in bed being tended by a midwife in the background. In the foreground, two other women talk, another sits by the empty cradle while another bathes the newborn baby]({{"/assets/img/posts/Rueff-wellcome.jpg" | url}} "Jacobus Rueff, Frontispiece illustration showing birth scene from De conceptu et generatione hominis, 1554. <br>Wellcome Collection, London. CC BY."){.media-right}
 
 I was introduced to Alice through the 1875
 *Autobiography* edited by Charles Jackson, in a seminar on pain and
@@ -43,7 +43,7 @@ was bowled over by this famous passage in the *Autobiography*:
 > speechlesse and breathlesse, I was, by the infinitt providence of God,
 > in great mercy delivered.[^3]
 
-For all its limitations, reading the *Autobiography* inspired an essay,
+Reading the *Autobiography* against this background inspired an essay,
 which became an article, in which I explored the way she wrote about
 pain and peril, pregnancy and birth and the providentialism that underpins so much
 of her writing.[^4]
@@ -72,7 +72,7 @@ have caught my attention this time around.
 > again, and I expected nothing but a sudden abortion and destruction of
 > my poor infant in my womb.[^5]
 
-![A woodcut scene of a birthing chamber, with the mother and midwife in the background while her female attendants sit busily gossiping in the foreground]({{"/assets/img/posts/tittle-tattle-childbed-bm-154243001.jpg" | url }} Detail from "Tittle-Tattle; Or, the several Branches of Gossipping", late 16th-cent. <br>British Museum, London. CC BY-SA."){.media-left}
+![A woodcut print of a birthing chamber, which focuses on the row of the mother's female attendants busily gossiping in the foreground]({{"/assets/img/posts/tittle-tattle-childbed-bm-154243001.jpg" | url }} "Detail from Tittle-Tattle; Or, the several Branches of Gossipping", late 16th-cent. <br>British Museum, London. CC BY-SA."){.media-left}
 
 
 Alice might have found more in common with [the petitioners
@@ -87,9 +87,7 @@ Moreover, I now can't help but notice just how often Alice writes of
 in which this petitionary language are often found were frequently
 omitted from the Jackson edition, and his omissions also downplayed the
 importance of the attack on her reputation in motivating her to write
-the books.[^6] 
-
-I knew already that her writing was an 'act of
+the books.[^6] I knew already that her writing was an 'act of
 self-vindication'.[^7] But reading [her original manuscripts](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) has newly emphasised for me the perils created by enemies actively plotting
 the downfall of Alice and her family, but *also* the importance of the friends and
 [relatives](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/)
