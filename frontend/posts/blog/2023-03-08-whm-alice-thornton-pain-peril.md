@@ -76,11 +76,10 @@ have caught my attention this time around.
 ![A woodcut print of a birthing chamber, which focuses on the row of the mother's female attendants busily gossiping in the foreground]({{"/assets/img/posts/tittle-tattle-childbed-bm-154243001.jpg" | url}} "Detail from Anonymous, Tittle-Tattle; Or, the several Branches of Gossipping, late 16th-cent. <br>British Museum, London. CC BY SA."){.media-right}
 
 
-
 Alice might have found more in common with [the petitioners
 of my most recent research](https://petitioning.history.ac.uk/). This passage echoes many [petitioning (and other
-legal) narratives I've been
-reading](https://earlymodernnotes.wordpress.com/2020/08/13/women-gender-and-non-lethal-violence-in-quarter-sessions-petitioning-narratives/),
+legal) narratives](https://earlymodernnotes.wordpress.com/2020/08/13/women-gender-and-non-lethal-violence-in-quarter-sessions-petitioning-narratives/) I've been
+reading,
 from the deceitful, unjust malice of her enemies to the threat they
 posed to both Alice and her unborn child.
 
@@ -90,8 +89,8 @@ in which this petitionary language are often found were frequently
 omitted from the Jackson edition, and his omissions also downplayed the
 importance of the attack on her reputation in motivating her to write
 the books.[^6] I knew already that her writing was an 'act of
-self-vindication'.[^7] But reading [her original manuscripts](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) has newly emphasised for me the perils created by enemies actively plotting
-the downfall of Alice and her family, but *also* the importance of the friends and
+self-vindication'.[^7] But reading [her original manuscripts](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) has newly emphasised for me both the perils created by enemies actively plotting
+the downfall of Alice and her family *and* the importance of the friends and
 [relatives](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/)
 who come to her aid. My focus may have shifted, but I
 continue to be fascinated by Alice's words and her world.
