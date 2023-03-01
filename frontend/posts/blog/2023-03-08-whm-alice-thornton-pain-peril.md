@@ -73,7 +73,7 @@ have caught my attention this time around.
 > my poor infant in my womb.[^5]
 
 
-![A woodcut print of a birthing chamber, which focuses on the row of the mother's female attendants busily gossiping in the foreground]({{"/assets/img/posts/tittle-tattle-childbed-bm-154243001.jpg" | url}} "Detail from Anonymous, Tittle-Tattle; Or, the several Branches of Gossipping, late 16th-cent. <br>British Museum, London. CC BY SA."){.media-right}
+![A satirical woodcut scene of women at a market, who are more busy at gossiping than their buying and selling]({{"/assets/img/posts/tittle-tattle-market-bm-154243001.jpg" | url}} "Detail from Anonymous, Tittle-Tattle; Or, the several Branches of Gossipping, late 16th-cent. <br>British Museum, London. CC BY SA."){.media-right}
 
 
 Alice might have found more in common with [the petitioners
