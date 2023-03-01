@@ -10,7 +10,7 @@ tags:
 - law
 ---
 
-Content note: childbirth and pain
+CN: childbirth and pain
 
 For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on Twitter or on Facebook.
 
