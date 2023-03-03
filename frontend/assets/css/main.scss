@@ -254,15 +254,15 @@ h6 {
 // }
 
 body:not(.slug-viewer) { // Exclude the text viewer
-  background: url('/assets/img/fractal-bg.svg');
+  background: url('/assets/img/last-bg.jpg');
   
   @media screen and (min-width: 1140px) {
     background: rgba(lighten($primary, 20%), 0.1);
-    background: url('/assets/img/fractal-bg.svg'),
-                url("/assets/img/script-outlined.svg");
-    background-position: 100% 60px, -120px 120px;
-    background-repeat: repeat-y, no-repeat;
-    background-size: auto, 220px;
+    background: url("/assets/img/script-outlined.svg"),
+                url('/assets/img/last-bg.jpg');
+    background-position: -120px 120px, 0 60px;
+    background-repeat: no-repeat, repeat-y;
+    background-size: 220px, 100%;
   }
 }
 
