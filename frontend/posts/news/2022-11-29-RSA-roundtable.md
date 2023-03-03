@@ -6,7 +6,6 @@ authors:
   - cbeattie
 tags:
   - conferences
-  - events
   - deliverances
 ---
 
