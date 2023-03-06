@@ -3,6 +3,7 @@ title: Index
 ---
 
 {% raw %}
+
 <div id="search">
   <div class="columns">
     <form @submit.prevent="onSubmitInputs" class="search-inputs column is-3">
@@ -47,6 +48,7 @@ title: Index
         </li>
       </ul>
     </div>
+
   </div>
 </div>
 {% endraw %}

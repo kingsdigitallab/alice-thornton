@@ -108,8 +108,8 @@ a.tag {
 
 body {
   background: rgba(lighten($primary, 20%), 0.1);
-  background: url('/assets/img/fractal-bg.svg'),
-              url("/assets/img/script-outlined.svg");
+  background: url("/assets/img/fractal-bg.svg"),
+    url("/assets/img/script-outlined.svg");
   background-position: 100% 60px, -120px 120px;
   background-repeat: repeat-y, no-repeat;
   background-size: auto, 220px;
@@ -253,13 +253,14 @@ h6 {
 //   }
 // }
 
-body:not(.slug-viewer) { // Exclude the text viewer
-  background: url('/assets/img/fractal-bg.svg');
-  
+body:not(.slug-viewer) {
+  // Exclude the text viewer
+  background: url("/assets/img/fractal-bg.svg");
+
   @media screen and (min-width: 1140px) {
     background: rgba(lighten($primary, 20%), 0.1);
-    background: url('/assets/img/fractal-bg.svg'),
-                url("/assets/img/script-outlined.svg");
+    background: url("/assets/img/fractal-bg.svg"),
+      url("/assets/img/script-outlined.svg");
     background-position: 100% 60px, -120px 120px;
     background-repeat: repeat-y, no-repeat;
     background-size: auto, 220px;

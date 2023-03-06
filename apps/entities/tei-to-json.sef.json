@@ -1,1 +1,239 @@
-{"N":"package","version":"20","packageVersion":"1","saxonVersion":"SaxonJS 2.5","target":"JS","targetVersion":"2","name":"TOP-LEVEL","relocatable":"false","buildDateTime":"2023-03-04T00:21:22.367Z","ns":"xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#","C":[{"N":"co","id":"0","binds":"0","C":[{"N":"mode","onNo":"TC","flags":"","patternSlots":"0","prec":"","C":[{"N":"templateRule","rank":"0","prec":"0","seq":"3","ns":"xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#","minImp":"0","flags":"s","slots":"200","baseUri":"file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl","line":"22","module":"tei-to-json.xsl","expand-text":"false","match":"tei:listPerson","prio":"0","matches":"NE nQ{http://www.tei-c.org/ns/1.0}listPerson","C":[{"N":"p.nodeTest","role":"match","test":"NE nQ{http://www.tei-c.org/ns/1.0}listPerson","sType":"1NE nQ{http://www.tei-c.org/ns/1.0}listPerson","ns":"= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "},{"N":"valueOf","sType":"1NT ","role":"action","C":[{"N":"str","sType":"1AS ","val":"\n        {\n            \"id\": \"\",\n            \"title2\": \"\"\n        }\n    "}]}]},{"N":"templateRule","rank":"1","prec":"0","seq":"2","ns":"xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#","minImp":"0","flags":"s","slots":"200","baseUri":"file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl","line":"16","module":"tei-to-json.xsl","expand-text":"false","match":"tei:listPerson","prio":"0","matches":"NE nQ{http://www.tei-c.org/ns/1.0}listPerson","C":[{"N":"p.nodeTest","role":"match","test":"NE nQ{http://www.tei-c.org/ns/1.0}listPerson","sType":"1NE nQ{http://www.tei-c.org/ns/1.0}listPerson","ns":"= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "},{"N":"sequence","role":"action","sType":"* ","C":[{"N":"valueOf","sType":"1NT ","C":[{"N":"str","sType":"1AS ","val":"\n        [\n            "}]},{"N":"applyT","sType":"* ","line":"18","mode":"#unnamed","bSlot":"0","C":[{"N":"axis","name":"child","nodeTest":"*NE nQ{http://www.tei-c.org/ns/1.0}person","sType":"*NE nQ{http://www.tei-c.org/ns/1.0}person","ns":"= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ","role":"select","line":"18"}]},{"N":"valueOf","sType":"1NT ","C":[{"N":"str","sType":"1AS ","val":"\n        ]\n    "}]}]}]},{"N":"templateRule","rank":"2","prec":"0","seq":"1","ns":"xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#","minImp":"0","flags":"s","slots":"200","baseUri":"file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl","line":"12","module":"tei-to-json.xsl","expand-text":"false","match":"/","prio":"-0.5","matches":"ND","C":[{"N":"p.nodeTest","role":"match","test":"ND","sType":"1ND","ns":"= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "},{"N":"applyT","sType":"* ","line":"13","mode":"#unnamed","role":"action","bSlot":"0","C":[{"N":"docOrder","sType":"*NE nQ{http://www.tei-c.org/ns/1.0}listPerson","role":"select","line":"13","C":[{"N":"slash","op":"/","sType":"*NE nQ{http://www.tei-c.org/ns/1.0}listPerson","ns":"= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ","C":[{"N":"root"},{"N":"axis","name":"descendant","nodeTest":"*NE nQ{http://www.tei-c.org/ns/1.0}listPerson"}]}]}]}]},{"N":"templateRule","rank":"3","prec":"0","seq":"0","ns":"xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#","minImp":"0","flags":"s","slots":"200","baseUri":"file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl","line":"9","module":"tei-to-json.xsl","expand-text":"false","match":"comment()","prio":"-0.5","matches":"NC","C":[{"N":"p.nodeTest","role":"match","test":"NC","sType":"1NC","ns":"= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "},{"N":"empty","sType":"0 ","role":"action"}]}]}]},{"N":"overridden"},{"N":"output","C":[{"N":"property","name":"Q{http://saxon.sf.net/}stylesheet-version","value":"20"}]},{"N":"decimalFormat"}],"Σ":"a6f5cbff"}
+{
+  "N": "package",
+  "version": "20",
+  "packageVersion": "1",
+  "saxonVersion": "SaxonJS 2.5",
+  "target": "JS",
+  "targetVersion": "2",
+  "name": "TOP-LEVEL",
+  "relocatable": "false",
+  "buildDateTime": "2023-03-04T00:21:22.367Z",
+  "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+  "C": [
+    {
+      "N": "co",
+      "id": "0",
+      "binds": "0",
+      "C": [
+        {
+          "N": "mode",
+          "onNo": "TC",
+          "flags": "",
+          "patternSlots": "0",
+          "prec": "",
+          "C": [
+            {
+              "N": "templateRule",
+              "rank": "0",
+              "prec": "0",
+              "seq": "3",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+              "minImp": "0",
+              "flags": "s",
+              "slots": "200",
+              "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
+              "line": "22",
+              "module": "tei-to-json.xsl",
+              "expand-text": "false",
+              "match": "tei:listPerson",
+              "prio": "0",
+              "matches": "NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+              "C": [
+                {
+                  "N": "p.nodeTest",
+                  "role": "match",
+                  "test": "NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+                  "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
+                },
+                {
+                  "N": "valueOf",
+                  "sType": "1NT ",
+                  "role": "action",
+                  "C": [
+                    {
+                      "N": "str",
+                      "sType": "1AS ",
+                      "val": "\n        {\n            \"id\": \"\",\n            \"title2\": \"\"\n        }\n    "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "N": "templateRule",
+              "rank": "1",
+              "prec": "0",
+              "seq": "2",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+              "minImp": "0",
+              "flags": "s",
+              "slots": "200",
+              "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
+              "line": "16",
+              "module": "tei-to-json.xsl",
+              "expand-text": "false",
+              "match": "tei:listPerson",
+              "prio": "0",
+              "matches": "NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+              "C": [
+                {
+                  "N": "p.nodeTest",
+                  "role": "match",
+                  "test": "NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+                  "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
+                },
+                {
+                  "N": "sequence",
+                  "role": "action",
+                  "sType": "* ",
+                  "C": [
+                    {
+                      "N": "valueOf",
+                      "sType": "1NT ",
+                      "C": [
+                        {
+                          "N": "str",
+                          "sType": "1AS ",
+                          "val": "\n        [\n            "
+                        }
+                      ]
+                    },
+                    {
+                      "N": "applyT",
+                      "sType": "* ",
+                      "line": "18",
+                      "mode": "#unnamed",
+                      "bSlot": "0",
+                      "C": [
+                        {
+                          "N": "axis",
+                          "name": "child",
+                          "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}person",
+                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}person",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                          "role": "select",
+                          "line": "18"
+                        }
+                      ]
+                    },
+                    {
+                      "N": "valueOf",
+                      "sType": "1NT ",
+                      "C": [
+                        {
+                          "N": "str",
+                          "sType": "1AS ",
+                          "val": "\n        ]\n    "
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "N": "templateRule",
+              "rank": "2",
+              "prec": "0",
+              "seq": "1",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+              "minImp": "0",
+              "flags": "s",
+              "slots": "200",
+              "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
+              "line": "12",
+              "module": "tei-to-json.xsl",
+              "expand-text": "false",
+              "match": "/",
+              "prio": "-0.5",
+              "matches": "ND",
+              "C": [
+                {
+                  "N": "p.nodeTest",
+                  "role": "match",
+                  "test": "ND",
+                  "sType": "1ND",
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
+                },
+                {
+                  "N": "applyT",
+                  "sType": "* ",
+                  "line": "13",
+                  "mode": "#unnamed",
+                  "role": "action",
+                  "bSlot": "0",
+                  "C": [
+                    {
+                      "N": "docOrder",
+                      "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+                      "role": "select",
+                      "line": "13",
+                      "C": [
+                        {
+                          "N": "slash",
+                          "op": "/",
+                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                          "C": [
+                            { "N": "root" },
+                            {
+                              "N": "axis",
+                              "name": "descendant",
+                              "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}listPerson"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "N": "templateRule",
+              "rank": "3",
+              "prec": "0",
+              "seq": "0",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+              "minImp": "0",
+              "flags": "s",
+              "slots": "200",
+              "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
+              "line": "9",
+              "module": "tei-to-json.xsl",
+              "expand-text": "false",
+              "match": "comment()",
+              "prio": "-0.5",
+              "matches": "NC",
+              "C": [
+                {
+                  "N": "p.nodeTest",
+                  "role": "match",
+                  "test": "NC",
+                  "sType": "1NC",
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
+                },
+                { "N": "empty", "sType": "0 ", "role": "action" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    { "N": "overridden" },
+    {
+      "N": "output",
+      "C": [
+        {
+          "N": "property",
+          "name": "Q{http://saxon.sf.net/}stylesheet-version",
+          "value": "20"
+        }
+      ]
+    },
+    { "N": "decimalFormat" }
+  ],
+  "Σ": "a6f5cbff"
+}
