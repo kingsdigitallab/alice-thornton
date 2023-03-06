@@ -13,7 +13,6 @@ PROJECT_DIR=$(pwd)
 echo "$(date --iso-8601=seconds) GH fetch"
 
 su $GITUSER -c 'git fetch'
-echo "$?"
 if [[ $? -ne 0 ]]; then
   echo "failed: git fetch"
   exit
