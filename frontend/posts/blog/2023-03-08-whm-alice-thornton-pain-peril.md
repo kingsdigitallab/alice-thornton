@@ -9,6 +9,7 @@ tags:
 - childbirth
 - law
 ---
+
 For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on Twitter or on Facebook.
 
 Second in the series is project postdoctoral researcher [Sharon Howard](https://thornton.kdl.kcl.ac.uk/people/showard/):
@@ -18,8 +19,8 @@ CN: childbirth and pain
 I first encountered Alice Thornton almost exactly 24 years ago, during
 the spring term of 1999 when I was studying for an MA in Women's and
 Gender History at the University of York and took an option on [the body
-in early modern England with Mark
-Jenner](https://web.archive.org/web/20040529230032/http:/www.york.ac.uk/depts/hist/gsp/Options/option_428562_Jenner.htm).
+in early modern England](https://web.archive.org/web/20040529230032/http:/www.york.ac.uk/depts/hist/gsp/Options/option_428562_Jenner.htm) with Mark
+Jenner.
 My interest in women's history had begun several years before that,
 though, even before I went to university at Aberystwyth and got hooked
 on early modern history (and a nostalgic wander through undergraduate
@@ -61,7 +62,7 @@ them. Nonetheless, that intervening research has undoubtedly shaped my
 responses to her writing, and a rather different set of images and themes
 have caught my attention this time around. 
 
-> But he [Nettleton, one of Mr Thornton's creditors] prosecuted him
+> But [Robert Nettleton] prosecuted him
 > with all the rigour could be and false dealing, and treachery against
 > Mr Thornton. And most unjustly & spitefully watched an opportunity
 > when Mr Thornton was at London to have prevented... And one morning
@@ -82,7 +83,7 @@ have caught my attention this time around.
 
 
 Alice might have found more in common with [the petitioners
-of my most recent research](https://petitioning.history.ac.uk/). This passage echoes many [petitioning (and other
+of my most recent research](https://petitioning.history.ac.uk/); the passage echoes many [petitioning (and other
 legal) narratives](https://earlymodernnotes.wordpress.com/2020/08/13/women-gender-and-non-lethal-violence-in-quarter-sessions-petitioning-narratives/) I've been
 reading,
 from the deceitful, unjust malice of her enemies to the threat they
@@ -92,7 +93,7 @@ Moreover, I now can't help but notice just how often Alice writes of
 *petitioning* God (and occasionally people). The prayers and meditations
 in which this petitionary language are often found were frequently
 omitted from the Jackson edition, and his omissions also downplayed the
-importance of the attack on her reputation in motivating her to write
+importance of the slanderous attack on her reputation in motivating her to write
 the books.[^6] I knew already that her writing was an 'act of
 self-vindication'.[^7] But reading [her original manuscripts](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) has newly emphasised for me both the perils created by enemies actively plotting
 the downfall of Alice and her family *and* the importance of the [friends](https://twitter.com/search?q=(%23WomensHistoryMonth)%20(from%3Athornton_books)%20until%3A2022-03-31%20since%3A2022-03-01&src=typed_query) and
