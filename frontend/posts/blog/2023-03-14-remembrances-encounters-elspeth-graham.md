@@ -19,7 +19,12 @@ It's extraordinary how, every now and then over the space of forty
 years, Alice Thornton has cropped up in my life. Her appearances have
 always been quite unexpected -- and always serendipitous.
 
-\[image of her own life book\]
+
+![Photo of front cover of Her
+Own Life: Autobiographical Writings by Seventeenth-Century English
+Women]({{"/assets/img/posts/her_own_life_cover.jpg"|url}}){.media-right}
+
+
 
 I can't remember exactly when I first came across her, but I'd read the
 1875 Surtees edition of her *Autobiography* and used extracts of it in
