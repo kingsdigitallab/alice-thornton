@@ -1,7 +1,7 @@
 ---
 title: "Women’s History Month, 2: Re-reading Alice Thornton's pains and perils" 
 feature: /assets/img/posts/womens_history_month.jpg
-status: draft
+status: live
 authors:
 - showard
 tags:
