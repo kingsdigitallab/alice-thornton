@@ -137,6 +137,6 @@ unexpected -- and rather wonderful -- ways.
     Writings by Seventeenth-Century Englishwomen* (London: Routledge,
     1989), https://doi.org/10.4324/9780203358962.
 
-[^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. "She had also an exiding sore throat & mouth... The Toung & mouth at first was blacke. then turnd white... and in the end grew with a white skinn all over". p. 32.
+[^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. "She had also an exiding sore throat & mouth... The Toung & mouth at first was blacke. then turnd white... and in the end grew with a white skinn all over". Alice Thornton, *Book of Remembrances*, Durham Cathedral Library, GB-0033-CCOM 38, 32.
 
-[^3]: "lift up both hands & eies to heaven 3 times". p. 37
+[^3]: "lift up both hands & eies to heaven 3 times". *Book of Remembrances*, 37.
