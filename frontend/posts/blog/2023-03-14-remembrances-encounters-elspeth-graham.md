@@ -83,7 +83,9 @@ contraption on your head'; memories of her young life in India;
 ruminations about how she wouldn't mind having another baby. She
 chattered on and on.
 
-[image of 17thC woman on deathbed]
+
+
+![image of 17thC woman on deathbed]({{"/assets/img/posts/metsu_woman_in_agony_wmc.jpg" | url}} "Gabriël Metsu, Woman in Agony (the Death of Sophonisba) (1660). <br>Museum of Fine Art Boston. Public domain."){.media-right}
 
 
 Quite soon, though, she slipped into a full and silent coma. Then
