@@ -45,7 +45,7 @@ ploughing through endless hand-written catalogues of manuscripts. But
 then, in the remote hope that something remained with the descendants of
 Thornton's daughter's family who had owned the manuscripts, I wrote
 dozens of letters to all Combers listed in Yorkshire telephone
-directories. Nothing emerged. Not even a glimmer of a trail, appeared.
+directories. Nothing emerged. Not even a glimmer of a trail appeared.
 All that I discovered was that Yale University Library did have a 1930s
 microfilm of Thornton's *Book of Remembrances*.
 
