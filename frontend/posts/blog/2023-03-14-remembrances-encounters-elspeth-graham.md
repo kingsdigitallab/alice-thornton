@@ -5,7 +5,9 @@ status: draft
 authors:
 - "Elspeth Graham"
 tags:
-- guest post
+- manuscripts
+- editing
+- illness
 ---
 
 For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on [Twitter](https://twitter.com/thornton_books) or on [Facebook](https://www.facebook.com/thornton.books).
@@ -139,6 +141,6 @@ unexpected -- and rather wonderful -- ways.
     Writings by Seventeenth-Century Englishwomen* (London: Routledge,
     1989), https://doi.org/10.4324/9780203358962.
 
-[^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. "She had also an exiding sore throat & mouth... The Toung & mouth at first was blacke. then turnd white... and in the end grew with a white skinn all over". Alice Thornton, *Book of Remembrances*, Durham Cathedral Library, GB-0033-CCOM 38, 32.
+[^2]: The text quoted above is from the project's work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. "She had also an exiding sore throat & mouth... The Toung & mouth at first was blacke. then turnd white... and in the end grew with a white skinn all over". Alice Thornton, *Book of Remembrances*, Durham Cathedral Library, GB-0033-CCOM 38, 32.
 
 [^3]: "lift up both hands & eies to heaven 3 times". *Book of Remembrances*, 37.
