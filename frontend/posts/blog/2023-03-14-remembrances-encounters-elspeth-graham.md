@@ -1,7 +1,7 @@
 ---
 title: "Women’s History Month, 3: Remembrances of encounters with Alice Thornton" 
 feature: /assets/img/posts/womens_history_month.jpg
-status: draft
+status: live
 authors:
 - "Elspeth Graham"
 tags:
