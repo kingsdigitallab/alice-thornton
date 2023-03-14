@@ -366,6 +366,11 @@
              <name>Sharon Howard</name>
              <desc>VARDed file using w/norm tagging.</desc>
            </change>
+           <change>
+             <date>2023-03-14</date>
+             <name>Sharon Howard</name>
+             <desc>Added xml:id to bibl quotes; mod capitalisation for bkrem20</desc>
+           </change>
          </listChange>
             
       </revisionDesc> 
@@ -381,18 +386,18 @@
             
          <titlePage xml:id="div-001">
            <figure>
-             <graphic url="p.1.jpg"></graphic><!-- NOTE temporary image -->
+             <graphic url="p.1.jpg"/><!-- NOTE temporary image -->
              <head>Title page of Book of Remembrances showing author's monogram.</head>
              <p>Source: Durham Cathedral Library, GB-0033-CCOM 38.</p>
            </figure>
          <fw type="pageNum" place="right"> 1</fw>
          <docTitle> 
          <titlePart>
-           A <w norm="Book">booke</w> of <w type="u">remembrances</w> of<lb/>
-           all the <w type="u">remarkable</w> <w type="u">deliverances</w><lb/> <!-- Not sure whay deliverances has w with no type here - it will need to be upper case D in modernisation-->
-           of <w type="u">my</w> <w norm="Self">selfe</w>, <rs ref="ppl:wt1" type="person">Husband <!-- because in title husband should be capitalised as should Children that follows --></rs> <w norm="and">&amp;</w> Children<supplied reason="mod">,</supplied><lb/>
-           with <w norm="their">theire</w> <w type="u">births</w> <surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w type="u">other</w> <w type="u">remarks</w><lb/>
-           as <w norm="concerning">conserning</w> <w type="u">my</w> <w norm="Self">selfe</w> <w norm="and">&amp;</w> Family<!-- here too capitalisation OK because title --><supplied reason="mod">,</supplied><lb/>
+           A <w norm="Book">booke</w> of <w norm="Remembrances" type="u">remembrances</w> of<lb/>
+           all the <w norm="Remarkable" type="u">remarkable</w> <w norm="Deliverances" type="u">deliverances</w><lb/> <!-- Not sure whay deliverances has w with no type here - it will need to be upper case D in modernisation-->
+           of <w norm="My" type="u">my</w> <w norm="Self">selfe</w>, <rs ref="ppl:wt1" type="person">Husband <!-- because in title husband should be capitalised as should Children that follows --></rs> <w norm="and">&amp;</w> Children<supplied reason="mod">,</supplied><lb/>
+           with <w norm="their">theire</w> <w norm="Births" type="u">births</w> <surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="Other" type="u">other</w> <w norm="Remarks" type="u">remarks</w><lb/>
+           as <w norm="concerning">conserning</w> <w norm="My" type="u">my</w> <w norm="Self">selfe</w> <w norm="and">&amp;</w> Family<!-- here too capitalisation OK because title --><supplied reason="mod">,</supplied><lb/>
            <w norm="beginning">begining</w> from the <w norm="Year">yeare</w><surplus reason="superfluous">.</surplus> <date datingMethod="#JulianMar" when-custom="1625">1625</date>.<anchor corresp="#ednote-f20230308125935" type="context" resp="atb"/>
            <!-- NOTE [dates] definitely OS! [add] 5 was written over something, maybe 6, no longer recorded in semidip. -->
          </titlePart>
@@ -468,10 +473,10 @@
            <l>Subdue my passions<supplied reason="mod">,</supplied></l>
            <l><w norm="curb">Curbe</w> my <w norm="stout">Stoute</w> affections <pc norm=".">:</pc></l>
          <l>Nip thou the bud,</l>
-           <l><w type="l">Before</w> the <w norm="bloom">bloome</w> <w norm="begins">beginnes<supplied reason="mod">:</supplied></w></l>
+           <l><w norm="before" type="l">Before</w> the <w norm="bloom">bloome</w> <w norm="begins">beginnes<supplied reason="mod">:</supplied></w></l>
            <l>Lord<supplied reason="mod">,</supplied> <add place="above">the</add> ever <add place="above">one</add><supplied reason="mod">,</supplied> <!-- NOTE fixed in [review] -->
           <w norm="keep">keepe</w> me<surplus reason="superfluous">,</surplus> from</l>
-           <l><w type="l">Presumptuous</w> <w norm="sins">sinnes</w><pc norm=".">:</pc></l>
+           <l><w norm="presumptuous" type="l">Presumptuous</w> <w norm="sins">sinnes</w><pc norm=".">:</pc></l>
            <l>Lord<supplied reason="mod">,</supplied> lead me by thy hand into thy rest<supplied reason="mod">,</supplied></l>
          <l>And make me <subst>
            <del rend="strikethrough">ever</del><add place="above">to</add></subst> <w norm="choose">chuse</w> what thou <w norm="seest" type="archaism">sest</w> <add place="above">best</add><supplied reason="mod">.</supplied>
@@ -503,27 +508,27 @@
             <seg rend="underline">Dedication</seg>
          </head>
       <l><w norm="I'll">Ile</w> dedicate my <w norm="soul">Soule</w> unto my God<supplied reason="mod">:</supplied> </l>
-      <l>My <w norm="childhood">Childehood</w>, <w norm="nonage">non-Age</w>,<anchor corresp="#ednote-f20230308130436" type="context" resp="atb"/> youth, is by his <w type="l">Rod</w><surplus reason="superfluous">.</surplus></l>
+      <l>My <w norm="childhood">Childehood</w>, <w norm="nonage">non-Age</w>,<anchor corresp="#ednote-f20230308130436" type="context" resp="atb"/> youth, is by his <w norm="rod" type="l">Rod</w><surplus reason="superfluous">.</surplus></l>
          <l>To be directed, his <w norm="staff">Staffe</w> to uphold.</l>
-      <l>My <w type="l">Age</w>, and riper years till it has <w norm="told">tould</w><surplus reason="superfluous">.</surplus><anchor corresp="#ednote-f20230308130447" type="context" resp="atb"/></l>
+      <l>My <w norm="age" type="l">Age</w>, and riper years till it has <w norm="told">tould</w><surplus reason="superfluous">.</surplus><anchor corresp="#ednote-f20230308130447" type="context" resp="atb"/></l>
       <l>The gracious <w norm="goodness">goodnesse</w> of our blessed God<pc norm=",">.</pc></l>
       <l>What he has <w norm="done">don</w> for me <w norm="and">&amp;</w> by his word<pc norm=":">.</pc></l>
       <l>Raised my drooping <w norm="spirits">Spiritts</w> <w norm="often">offten</w> times<pc norm=";">.</pc></l>
-      <l>Pardoned my <w norm="sins">Sinns</w><supplied reason="mod">,</supplied> delivered me from <w type="l">Crimes</w><pc norm=",">.</pc></l>
-      <l>And by his bloodshed <w type="l">Purchased</w> <w type="l">Heaven</w><pc norm=",">.</pc></l>
-      <l>For humblest <w norm="souls">Soules</w> his <w type="l">Grace</w> has given.</l>
+      <l>Pardoned my <w norm="sins">Sinns</w><supplied reason="mod">,</supplied> delivered me from <w norm="crimes" type="l">Crimes</w><pc norm=",">.</pc></l>
+      <l>And by his bloodshed <w norm="purchased" type="l">Purchased</w> <w norm="heaven" type="l">Heaven</w><pc norm=",">.</pc></l>
+      <l>For humblest <w norm="souls">Soules</w> his <w norm="grace" type="l">Grace</w> has given.</l>
       <l>Then on<supplied reason="mod">,</supplied> my <w norm="soul">soule</w>, <w norm="do">doe</w> not decline,</l>
-      <l>This <w type="l">Heavenly</w> <w norm="pilgrimage">Pilgramage</w> <w norm="divine">devine</w>.</l>
-      <l>Rise up<supplied reason="mod">,</supplied> my heart <supplied reason="mod">,</supplied> to <w type="l">Heaven</w> above</l>
-      <l>And let thy Lord now <w type="l">Prove</w> thy love.</l>
+      <l>This <w norm="heavenly" type="l">Heavenly</w> <w norm="pilgrimage">Pilgramage</w> <w norm="divine">devine</w>.</l>
+      <l>Rise up<supplied reason="mod">,</supplied> my heart <supplied reason="mod">,</supplied> to <w norm="heaven" type="l">Heaven</w> above</l>
+      <l>And let thy Lord now <w norm="prove" type="l">Prove</w> thy love.</l>
       <l>Spring up <w norm="amain">amaine</w><anchor corresp="#ednote-f20230308130458" type="oed" resp="atb"/> and let his holy <w norm="spirit">Spiritt</w></l>
-      <l><w type="u">give</w> thee a <w norm="crown">Crowne</w> of <w type="l">Glory</w> to <w norm="inherit">Inheritt</w>.</l>
+      <l><w norm="Give" type="u">give</w> thee a <w norm="crown">Crowne</w> of <w norm="glory" type="l">Glory</w> to <w norm="inherit">Inheritt</w>.</l>
          <l>Then fly <w norm="apace">a pace</w>, stay not behind.</l>
          <l>For to be drove by every wind</l>
       <l>And trifling<pc norm=",">.</pc> childish, foolish<surplus reason="superfluous">.</surplus> <w norm="toys">Toyes</w><surplus reason="superfluous">.</surplus></l>
       <l>To interrupt thy lasting solid <w norm="joys">Joyes</w><pc norm=",">.</pc></l>
-      <l><w type="u">which</w> are ever <w norm="living">liveing</w><pc norm=",">.</pc> never ending<pc norm=",">.</pc></l> 
-      <l><w type="u">where</w> are pleasures worth commending.</l>
+      <l><w norm="Which" type="u">which</w> are ever <w norm="living">liveing</w><pc norm=",">.</pc> never ending<pc norm=",">.</pc></l> 
+      <l><w norm="Where" type="u">where</w> are pleasures worth commending.</l>
          </div>
             <pb xml:id="page-008" n="8"/>
 
@@ -542,7 +547,7 @@
         <l>Nip thou the bud, before the <w norm="bloom">bloome</w> begins<supplied reason="mod">,</supplied></l>
         <l>Lord<supplied reason="mod">,</supplied> ever <w norm="keep">keepe</w> me from <w norm="presumptuous">Presumptious</w> sins<supplied reason="mod">,</supplied></l>
         <l>And make me <w norm="choose">Chuse</w> what thou <w type="archaism">seest</w> best<supplied reason="mod">.</supplied></l>
-        <l>Lord<supplied reason="mod">,</supplied> lead me by thy hand into thy <w type="l">Rest</w>.</l>
+        <l>Lord<supplied reason="mod">,</supplied> lead me by thy hand into thy <w norm="rest" type="l">Rest</w>.</l>
          <p xml:id="p-0004"> Amen.</p>
          </div>
             <pb xml:id="page-009" n="9"/>
@@ -556,20 +561,20 @@
        is it a quote? -->
          <fw type="pageNum" place="right">7</fw>
          <head>
-           <w type="u">observations</w>.
+           <w norm="Observations" type="u">observations</w>.
          </head>
          <p xml:id="p-0005">These things be comely <w norm="and">&amp;</w> pleasant<lb/>
            to see <surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> worthy of <w norm="honour">honnor</w> from the<lb/>
-           beholders <pc norm=":">;</pc> <w type="l">A</w> young <w type="l">Saint</w> <pc norm=";">.</pc> <w type="l">An</w> old<lb/>
-           martyr; <w type="l">A</w> <w type="l">Religious</w> <w norm="soldier">Souldier</w><supplied reason="mod">;</supplied> <w type="l">A</w><lb/>
-           <w type="l">Conscionable</w> <w type="l">Statesman</w>; <w type="l">A</w> great man<lb/>
-           <w norm="courteous">Courtious</w>; <w type="l">A</w> learned man humble;<lb/>
-           <w type="l">A</w> silent woman; <w type="l">A</w> <w norm="child">Childe</w> <w norm="understanding" type="break">undersand<lb break="no"/>
-             -ing</w> the <w type="l">Eye</w> of his <w type="l">Parent</w>; <w type="l">A</w> <w norm="merry">merrey</w><lb/>
-           <w norm="companion">Compannion</w> without vanity; <w type="l">A</w> friend<lb/>
-           not <w type="l">Changed</w> with <w norm="honour">honnor</w>; <w type="l">A</w> <w norm="sick">Sicke</w> man<lb/>
-           <w norm="cheerful">Cheerefull</w><pc norm=";">:</pc> <w type="l">And</w> a departing <w norm="soul">Soule</w> with<lb/>
-           <w type="l">Comfort</w> and <w type="l">Assurance</w>.<anchor corresp="#ednote-f20230308130518" type="context" resp="atb"/></p>
+           beholders <pc norm=":">;</pc> <w norm="a" type="l">A</w> young <w norm="saint" type="l">Saint</w> <pc norm=";">.</pc> <w norm="an" type="l">An</w> old<lb/>
+           martyr; <w norm="a" type="l">A</w> <w norm="religious" type="l">Religious</w> <w norm="soldier">Souldier</w><supplied reason="mod">;</supplied> <w norm="a" type="l">A</w><lb/>
+           <w norm="conscionable" type="l">Conscionable</w> <w norm="statesman" type="l">Statesman</w>; <w norm="a" type="l">A</w> great man<lb/>
+           <w norm="courteous">Courtious</w>; <w norm="a" type="l">A</w> learned man humble;<lb/>
+           <w norm="a" type="l">A</w> silent woman; <w norm="a" type="l">A</w> <w norm="child">Childe</w> <w norm="understanding" type="break">undersand<lb break="no"/>
+             -ing</w> the <w norm="eye" type="l">Eye</w> of his <w norm="parent" type="l">Parent</w>; <w norm="a" type="l">A</w> <w norm="merry">merrey</w><lb/>
+           <w norm="companion">Compannion</w> without vanity; <w norm="a" type="l">A</w> friend<lb/>
+           not <w norm="changed" type="l">Changed</w> with <w norm="honour">honnor</w>; <w norm="a" type="l">A</w> <w norm="sick">Sicke</w> man<lb/>
+           <w norm="cheerful">Cheerefull</w><pc norm=";">:</pc> <w norm="and" type="l">And</w> a departing <w norm="soul">Soule</w> with<lb/>
+           <w norm="comfort" type="l">Comfort</w> and <w norm="assurance" type="l">Assurance</w>.<anchor corresp="#ednote-f20230308130518" type="context" resp="atb"/></p>
          </div>
      
             <pb xml:id="page-010" n="10"/>
@@ -585,14 +590,14 @@
             Prayer.
          </head>
         <p xml:id="p-0006">Lord<supplied reason="mod">,</supplied> lead me through the<lb/>
-          Red Sea of this <w type="l">World</w> <surplus reason="superfluous">,</surplus><lb/>
-          <w type="l">Into</w> the <quote source="#_Hebrews_11:9" type="phrase"> <w type="l">Land</w> of <w norm="promise">Promisse</w>,</quote><anchor corresp="#ednote-f20230308130525" type="context" resp="atb"/><lb/>
-          <w type="l">Forget</w> my <w norm="many">manie</w> iniquities,<lb/>
-          <w type="l">Pardon</w> my <w norm="sins">Sinnes</w> <supplied reason="mod">,</supplied> which <w norm="stands">standeth</w><lb/>
-          <w type="l">As</w> a cloud between thy most<lb/>
+          Red Sea of this <w norm="world" type="l">World</w> <surplus reason="superfluous">,</surplus><lb/>
+          <w norm="into" type="l">Into</w> the <quote xml:id="q-001" source="#_Hebrews_11:9" type="phrase"> <w norm="land" type="l">Land</w> of <w norm="promise">Promisse</w>,</quote><anchor corresp="#ednote-f20230308130525" type="context" resp="atb"/><lb/>
+          <w norm="forget" type="l">Forget</w> my <w norm="many">manie</w> iniquities,<lb/>
+          <w norm="pardon" type="l">Pardon</w> my <w norm="sins">Sinnes</w> <supplied reason="mod">,</supplied> which <w norm="stands">standeth</w><lb/>
+          <w norm="as" type="l">As</w> a cloud between thy most<lb/>
            <w norm="gracious">Gratious</w> <w norm="goodness">goodnesse</w> and my<surplus reason="superfluous">.</surplus><lb/>
-          most <w norm="extreme">extreame</w> misery. <w type="u">for</w><lb/>
-          our Lord Jesus Christ his <w type="l">Sake</w>.</p>
+          most <w norm="extreme">extreame</w> misery. <w norm="For" type="u">for</w><lb/>
+          our Lord Jesus Christ his <w norm="sake" type="l">Sake</w>.</p>
          <p xml:id="p-0007"> Amen.</p>
          </div>
       
@@ -621,23 +626,23 @@
           notice of Almighty God our <choice><sic>Fathe'rs</sic><corr>Father's</corr></choice><lb/>
           gracious dealings with them from the<lb/>
           <w norm="womb">wombe</w>, <w norm="until">untill</w> the grave <w norm="bury">burie</w> them in<lb/>
-             <w type="l">Silence</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> to <w norm="keep">keepe</w> <w norm="particular">perticuler</w> remem-<lb break="no"/>
+             <w norm="silence" type="l">Silence</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> to <w norm="keep">keepe</w> <w norm="particular">perticuler</w> remem-<lb break="no"/>
           -brances of his remarkable deliver-<lb break="no"/>
              -ances of <w norm="their">theire</w> <w norm="souls">Soules</w> <w norm="and">&amp;</w> bodies<supplied reason="mod">,</supplied> with<lb/>
           a true <w norm="and">&amp;</w> <w norm="unfeigned">unfained</w> gratitude to his<lb/>
              <w norm="majesty">majestie</w><pc norm=":">.</pc> I<supplied reason="mod">,</supplied> therefore<supplied reason="mod">,</supplied> humbly desire to<lb/>
           furnish my heart with the <w norm="deep">deepe</w> thoughts<lb/>
-             of his <w type="l">Love</w><pc norm=",">.</pc> <w norm="mercies">mercys</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> <w norm="inconceivable">inconceavable</w><lb/>
+             of his <w norm="love" type="l">Love</w><pc norm=",">.</pc> <w norm="mercies">mercys</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> <w norm="inconceivable">inconceavable</w><lb/>
              <w norm="goodness">goodnesse</w> to me<supplied reason="mod">,</supplied> his <w norm="poor">poore</w> Creature<supplied reason="mod">,</supplied><lb/>
              even from the first <w norm="beginning">beginng</w> of my <w norm="days">dais</w><supplied reason="mod">.</supplied><lb/>
              <w norm="and">&amp;</w> <supplied reason="mod">,</supplied> with a <w norm="thankful">thankfull</w> heart<supplied reason="mod">,</supplied> <w norm="do">doe</w> <w norm="return">returne</w><lb/>
-             him the <w type="l">Glory</w> for my birth, <w norm="baptism">baptisme</w> in<lb/>
+             him the <w norm="glory" type="l">Glory</w> for my birth, <w norm="baptism">baptisme</w> in<lb/>
              <!-- NOTE [add] "for" dropped in semidip review  -->
           the most holy name <add place="above">of God</add> <w norm="and">&amp;</w> education in that<lb/>
            <!-- NOTE [add] "the" dropped in review.  -->
-             true faith by <rs ref="ppl:cw1 ppl:aow1" n="per7" type="person">my <w norm="pious">Pieous</w> <w norm="and">&amp;</w> <w type="l">Religious</w><lb/>
-               <w type="l">Parents</w></rs><supplied reason="mod">,</supplied> who <w norm="instilled">instilld</w> the <w norm="principles">princepalls</w> of his <lb/>
-             <w type="l">Grace</w> into<lb/>
+             true faith by <rs ref="ppl:cw1 ppl:aow1" n="per7" type="person">my <w norm="pious">Pieous</w> <w norm="and">&amp;</w> <w norm="religious" type="l">Religious</w><lb/>
+               <w norm="parents" type="l">Parents</w></rs><supplied reason="mod">,</supplied> who <w norm="instilled">instilld</w> the <w norm="principles">princepalls</w> of his <lb/>
+             <w norm="grace" type="l">Grace</w> into<lb/>
          
          
             <pb xml:id="page-012" n="12"/>
@@ -659,8 +664,8 @@
             <del rend="doublestrikethrough"><gap unit="char" quantity="4" reason="deleted"/></del>
             <add place="above">not</add>
         </subst>, end with this life but spring<lb/>
-             up to an <w type="l">Eternity</w> of <w norm="hallelujahs">Haleiuias</w> of<lb/>
-             praise to all <w type="l">Eternity</w><supplied reason="mod">.</supplied> Amen.
+             up to an <w norm="eternity" type="l">Eternity</w> of <w norm="hallelujahs">Haleiuias</w> of<lb/>
+             praise to all <w norm="eternity" type="l">Eternity</w><supplied reason="mod">.</supplied> Amen.
          </p>
         </div>
      </front>
@@ -687,7 +692,7 @@
            <lb/>
             the care <w norm="and">&amp;</w> <w norm="dear">deare</w> love of my beloved <w norm="and">&amp;</w><lb/>
            gracious <persName ref="ppl:awn1" n="per8">Aunt Norton</persName><supplied reason="mod">,</supplied> upon <rs ref="ppl:cw1" n="per9" type="person">my fathers</rs><lb/>
-           going to <placeName ref="place:Lond_080" n="place117">London</placeName><pc norm=",">.</pc> <w type="l">It</w> pleased God to<lb/>
+           going to <placeName ref="place:Lond_080" n="place117">London</placeName><pc norm=",">.</pc> <w norm="it" type="l">It</w> pleased God to<lb/>
           bring me into a very great <w norm="weakness">weaknesse</w><lb/>
           <w norm="and">&amp;</w> <w norm="sickness">sickenesse</w> upon the accident of a <w norm="surfeit">surfit</w><lb/>
           on some ill <w norm="digested">dejested</w> <w norm="meat">meate</w>, causing an<lb/>
@@ -695,7 +700,7 @@
            me into a <w norm="fever">feavor</w> <w norm="and">&amp;</w> the <w norm="measles">measells</w><supplied reason="mod">,</supplied><anchor corresp="#ednote-f20230308130600" type="oed" resp="atb"/> which<lb/>
           brought me so low that <rs ref="ppl:awn1" n="per10" type="person">my Aunt</rs> <w norm="and">&amp;</w> <persName ref="ppl:st1" n="per11">Sara<lb/>
             Tomlinson</persName><supplied reason="mod">,</supplied>  our <w norm="maid">maide</w> <supplied reason="mod">,</supplied> <w norm="almost">allmost</w> despaired<lb/>
-           of my <w type="l">Life</w>.
+           of my <w norm="life" type="l">Life</w>.
       </p>
          
             <pb xml:id="page-013" n="13"/>
@@ -710,23 +715,23 @@
             <fw type="header"><date>1631</date></fw>
          </fw>
          <p xml:id="p-0010">But it pleased the Lord in great<lb/>
-           mercy<supplied reason="mod">,</supplied>upon the hearty <w type="l">Prayers</w> <w norm="and">&amp;</w><lb/>
-           requests of my <w norm="dear">deare</w> <w type="l">Aunt</w><pc norm=",">.</pc> that<lb/>
+           mercy<supplied reason="mod">,</supplied>upon the hearty <w norm="prayers" type="l">Prayers</w> <w norm="and">&amp;</w><lb/>
+           requests of my <w norm="dear">deare</w> <w norm="aunt" type="l">Aunt</w><pc norm=",">.</pc> that<lb/>
            I was <w norm="spared">spaired</w> <w norm="and">&amp;</w> <supplied reason="mod">,</supplied> upon the use of good<lb/>
            <w norm="means">meanes</w> by his blessing there on<pc norm=",">.</pc>  I<lb/>
            recovered my health perfectly again<supplied reason="mod">.</supplied><anchor n="ev2" type="event"/><lb/>
            Oh<supplied reason="mod">,</supplied> that I may have my life<lb/>
           given me for a blessing <w norm="and">&amp;</w> that I may<lb/>
-           live to the <w type="l">Praise</w> of his holy name<supplied reason="mod">:</supplied><lb/>
-           <quote type="paraphrase" source="#_2Peter_3:18">growing in <w type="l">Grace</w> <w norm="and">&amp;</w> the knowledge of<lb/>
+           live to the <w norm="praise" type="l">Praise</w> of his holy name<supplied reason="mod">:</supplied><lb/>
+           <quote xml:id="q-002" type="paraphrase" source="#_2Peter_3:18">growing in <w norm="grace" type="l">Grace</w> <w norm="and">&amp;</w> the knowledge of<lb/>
              our Lord Jesus Christ </quote><supplied reason="mod">,</supplied> <w norm="being">beeing</w> a <w norm="comfort">comfot</w><lb/>
-           to <rs ref="ppl:cw1 ppl:aow1" n="per12" type="person">my <w norm="dear">deare</w> <w type="l">Parents</w></rs> <w norm="and">&amp;</w> relations<supplied reason="mod">.</supplied> <lb/>
-           <w norm="and">&amp;</w> that I may dedicate my <w type="l">Childhood</w><pc norm=",">.</pc><lb/>
-           youth<pc norm=",">.</pc> middle <w type="l">Age</w><pc norm=",">.</pc> <w norm="and">&amp;</w> old <w norm="age">Adge</w><pc norm=",">.</pc><anchor corresp="#ednote-f20230308130447" type="context" resp="atb"/> if<lb/>
+           to <rs ref="ppl:cw1 ppl:aow1" n="per12" type="person">my <w norm="dear">deare</w> <w norm="parents" type="l">Parents</w></rs> <w norm="and">&amp;</w> relations<supplied reason="mod">.</supplied> <lb/>
+           <w norm="and">&amp;</w> that I may dedicate my <w norm="childhood" type="l">Childhood</w><pc norm=",">.</pc><lb/>
+           youth<pc norm=",">.</pc> middle <w norm="age" type="l">Age</w><pc norm=",">.</pc> <w norm="and">&amp;</w> old <w norm="age">Adge</w><pc norm=",">.</pc><anchor corresp="#ednote-f20230308130447" type="context" resp="atb"/> if<lb/>
            God shall <w norm="spare">spaire</w> me so long<supplied reason="mod">,</supplied> to his<lb/>
-           <w type="l">Glory</w> <w norm="and">&amp;</w> praise even to my lives end<supplied reason="mod">,</supplied> <lb/>
-           <w type="l">Amen</w>. <w norm="and">&amp;</w> that for my Saviours <w type="l">Sake</w><lb/>
-           alone<pc norm=",">.</pc> the <w type="l">Alpha</w> <w norm="and">&amp;</w> <w type="l">Omega</w>. Amen.
+           <w norm="glory" type="l">Glory</w> <w norm="and">&amp;</w> praise even to my lives end<supplied reason="mod">,</supplied> <lb/>
+           <w norm="amen" type="l">Amen</w>. <w norm="and">&amp;</w> that for my Saviours <w norm="sake" type="l">Sake</w><lb/>
+           alone<pc norm=",">.</pc> the <w norm="alpha" type="l">Alpha</w> <w norm="and">&amp;</w> <w norm="omega" type="l">Omega</w>. Amen.
            <!-- NOTE removed text underline under "en ." and added to div rend as a short ruled line.  -->
          </p>
          </div>
@@ -745,23 +750,23 @@
         <p xml:id="p-0011">
          <milestone n="ev3" unit="event"/>
           <date when-custom="1631"><w norm="Being">Beeing</w> removed</date> from <placeName ref="place:Rich_043" n="place5">Richmond</placeName><lb/>
-          to <placeName ref="place:Lond_080" n="place6">London</placeName> <supplied reason="mod">,</supplied> by <rs ref="ppl:cw1" n="per13" type="person">my <w type="l">Fathers</w></rs> <w norm="and">&amp;</w> <rs ref="ppl:aow1" n="per14" type="person">mothers</rs><lb/>
+          to <placeName ref="place:Lond_080" n="place6">London</placeName> <supplied reason="mod">,</supplied> by <rs ref="ppl:cw1" n="per13" type="person">my <w norm="fathers" type="l">Fathers</w></rs> <w norm="and">&amp;</w> <rs ref="ppl:aow1" n="per14" type="person">mothers</rs><lb/>
           order to be with them<pc norm=",">.</pc> I fell into the<lb/>
           <w norm="smallpox">Small Pox</w><supplied reason="mod">,</supplied><anchor corresp="#ednote-f20230308130623" type="oed_context"/> <w norm="having">haveing</w> taken them of<lb/>
-          <persName ref="ppl:cw2" n="per15">my brother<supplied reason="mod">,</supplied> Christopher</persName><pc norm=",">.</pc> <w type="u">we</w> were both<lb/>
+          <persName ref="ppl:cw2" n="per15">my brother<supplied reason="mod">,</supplied> Christopher</persName><pc norm=",">.</pc> <w norm="We" type="u">we</w> were both<lb/>
           sent into <placeName ref="place:Kent_077" n="place7">Kent</placeName> with <persName ref="ppl:st1" n="per16">Sarah</persName> <supplied reason="mod">,</supplied>to one<lb/>
           <persName ref="ppl:xb2" n="per17">Mr Baxters</persName> house<supplied reason="mod">,</supplied> <w norm="where">wher</w> we were being<lb/>
           much beloved <w norm="and">&amp;</w> taken <w norm="care">caire</w> for by them<supplied reason="mod">.</supplied><lb/>
           And by the blessing of God<supplied reason="mod">,</supplied> I recovered<lb/>
           very <w norm="soon">soone</w>, nor was I very ill at<lb/>
           that time in <choice><sic>thim</sic><corr>them</corr></choice>.<anchor n="ev3" type="event"/> I will praise the<lb/>
-          Lord our God<supplied reason="mod">,</supplied> for my <w type="l">Preservation</w> <w norm="and">&amp;</w><lb/>
+          Lord our God<supplied reason="mod">,</supplied> for my <w norm="preservation" type="l">Preservation</w> <w norm="and">&amp;</w><lb/>
           deliverance<supplied reason="mod">,</supplied> that did not suffer that <w norm="disease">disseas</w><lb/>
           to rage <w norm="and">&amp;</w> <w norm="endanger">indanger</w> my life<surplus reason="superfluous">.</surplus> <gap xml:id="ex-gap-char-01" unit="char" quantity="2" reason="deleted"/> but<lb/>
-          <w type="l">Raised</w> me <w norm="soon">soone</w> to <rs ref="ppl:cw1 ppl:aow1" type="group">my <w type="l">Parents</w></rs> again<supplied reason="mod">.</supplied><lb/>
-          <quote type="paraphrase" source="#BCP_Psalter_Psalm103:22 #BCP_Psalter_Psalm100:3"><!-- SH - is this correct for dual source reference? --> O <supplied reason="mod">,</supplied><w norm="let">lett</w> me <w norm="speak">speake</w> good of the name of<lb/>
-            the Lord </quote> <w norm="and">&amp;</w> <quote type="paraphrase" source="#_Psalm_34:3"><w norm="magnify">magnifie</w> his <w norm="goodness">goodnesse</w> for<lb/>
-              my <w norm="self">selfe</w> <w norm="and">&amp;</w> <rs ref="ppl:cw2" n="per18" type="person">my <w type="l">Brother</w></rs> </quote>. <!-- ST another (unusual?) form of citation, KJV slightly different from GB and BCP, but AT combines both versions?--></p>
+          <w norm="raised" type="l">Raised</w> me <w norm="soon">soone</w> to <rs ref="ppl:cw1 ppl:aow1" type="group">my <w norm="parents" type="l">Parents</w></rs> again<supplied reason="mod">.</supplied><lb/>
+          <quote xml:id="q-003" type="paraphrase" source="#BCP_Psalter_Psalm103:22 #BCP_Psalter_Psalm100:3"><!-- SH - is this correct for dual source reference? --> O <supplied reason="mod">,</supplied><w norm="let">lett</w> me <w norm="speak">speake</w> good of the name of<lb/>
+            the Lord </quote> <w norm="and">&amp;</w> <quote xml:id="q-004" type="paraphrase" source="#_Psalm_34:3"><w norm="magnify">magnifie</w> his <w norm="goodness">goodnesse</w> for<lb/>
+              my <w norm="self">selfe</w> <w norm="and">&amp;</w> <rs ref="ppl:cw2" n="per18" type="person">my <w norm="brother" type="l">Brother</w></rs> </quote>. <!-- ST another (unusual?) form of citation, KJV slightly different from GB and BCP, but AT combines both versions?--></p>
          </div>
             <pb xml:id="page-015" n="15"/>
 
@@ -780,22 +785,22 @@
         <p xml:id="p-0012">After this<supplied reason="mod">,</supplied> it pleased the Lord to<lb/>
           begin to come into my <w norm="soul">soule</w> by some<lb/>
           <w norm="beams">beames</w> of his mercy<supplied reason="mod">,</supplied> in <w norm="putting">puting</w> good <lb/>
-          <w type="l">Thoughts</w> into my mind to consider<lb/>
-          his <w type="l">Great</w> <w norm="and">&amp;</w> miraculous <w type="l">Power</w> in<lb/>
-          the <w type="l">Creation</w> of the <w type="l">Heavens</w><pc norm=",">.</pc> the <w type="l">Earth</w><lb/>
+          <w norm="thoughts" type="l">Thoughts</w> into my mind to consider<lb/>
+          his <w norm="great" type="l">Great</w> <w norm="and">&amp;</w> miraculous <w norm="power" type="l">Power</w> in<lb/>
+          the <w norm="creation" type="l">Creation</w> of the <w norm="heavens" type="l">Heavens</w><pc norm=",">.</pc> the <w norm="earth" type="l">Earth</w><lb/>
           <w norm="and">&amp;</w> all therein<surplus reason="superfluous">.</surplus> contained<supplied reason="mod">,</supplied> upon the<lb/>
-          <w type="l">Reading</w> of my daily <w norm="psalms">Psalmes</w> for the<lb/>
+          <w norm="reading" type="l">Reading</w> of my daily <w norm="psalms">Psalmes</w> for the<lb/>
           months<supplied reason="mod">,</supplied><anchor corresp="#ednote-f20230308130634" type="context" resp="atb"/> which <w norm="happened">hapened</w> that day to be <ref type="biblical" source="#GB_Psalms_147:4"> <w norm="Psalm">Psal</w><lb/>
             147 <w norm="verse">verce</w> the 4<hi rend="superscript">th</hi><supplied reason="mod">:</supplied> <!-- Q bib ref using "verse" in full. --></ref>
          </p>
         <p xml:id="p-0013">
-          <quote type="direct" source="#GB_Psalms_147:4"><supplied reason="mod">"</supplied>He <w type="archaism">counteth</w> the <w norm="stars">Starres</w> <w norm="and">&amp;</w> <w norm="calleth">caleth</w><lb/>
+          <quote xml:id="q-005" type="direct" source="#GB_Psalms_147:4"><supplied reason="mod">"</supplied>He <w type="archaism">counteth</w> the <w norm="stars">Starres</w> <w norm="and">&amp;</w> <w norm="calleth">caleth</w><lb/>
             them all by there names.<supplied reason="mod">"</supplied></quote> from<lb/>
           whence there came a <w norm="forcible">foresable</w> consid<lb break="no"/>
           -eration of the <w norm="incomprehensible">Incomprehencable</w> <w norm="power">Powr</w><lb/>
           <w norm="and">&amp;</w> <w norm="infinite">infinit</w> <w norm="majesty">majestie</w> of Almighty<lb/>
-          God<pc norm=",">.</pc> who made all things<surplus reason="superfluous">.</surplus> in the <w type="l">Hea</w><lb break="no"/>
-          -vens <w norm="and">&amp;</w> the <w type="l">Earth</w><pc norm=",">.</pc> <w norm="being">beeing</w> above all his<lb/>
+          God<pc norm=",">.</pc> who made all things<surplus reason="superfluous">.</surplus> in the <w norm="hea" type="l">Hea</w><lb break="no"/>
+          -vens <w norm="and">&amp;</w> the <w norm="earth" type="l">Earth</w><pc norm=",">.</pc> <w norm="being">beeing</w> above all his<lb/>
           <w norm="creatures">Creaturs</w> in the world. <w norm="and">&amp;</w> knew what<lb/>
            was<surplus reason="superfluous">.</surplus> <lb/>
          
@@ -811,23 +816,23 @@
               <fw type="header" rend="underline"><date when-custom="1631">1631</date>.</fw>
             </fw>
            <lb/>
-          <w type="l">In</w> my heart <w norm="and">&amp;</w> thoughts<supplied reason="mod">,</supplied> <w norm="and">&amp;</w><lb/>
-          knew I was but a <quote type="allusion" source="#_1Corinthians_13:11"><w type="l">Child</w> in <w type="l">Age</w><lb/>
-             <w norm="and">&amp;</w> understanding </quote><pc norm=",">.</pc> <quote type="allusion" source="#_Romans_7:7-25"> not able to <w norm="do">doe</w><lb/>
+          <w norm="in" type="l">In</w> my heart <w norm="and">&amp;</w> thoughts<supplied reason="mod">,</supplied> <w norm="and">&amp;</w><lb/>
+          knew I was but a <quote xml:id="q-006" type="allusion" source="#_1Corinthians_13:11"><w norm="child" type="l">Child</w> in <w norm="age" type="l">Age</w><lb/>
+             <w norm="and">&amp;</w> understanding </quote><pc norm=",">.</pc> <quote xml:id="q-007" type="allusion" source="#_Romans_7:7-25"> not able to <w norm="do">doe</w><lb/>
                any good thing<pc norm=",">.</pc></quote><anchor corresp="#ednote-f20230308130642" resp="atb" type="context"/> which caused a <w norm="deep">deepe</w><lb/>
           <w norm="and">&amp;</w> great apprehension <w norm="and">&amp;</w> <w norm="fear">feare</w>,<lb/>
-          with awe of his <w type="l">Glorious</w> <w norm="majesty">majestie</w><supplied reason="mod">,</supplied><lb/>
+          with awe of his <w norm="glorious" type="l">Glorious</w> <w norm="majesty">majestie</w><supplied reason="mod">,</supplied><lb/>
           least I should offend him at any<lb/>
            time by sin<surplus reason="superfluous">.</surplus> against him or my <lb/>
-          <w type="l">Parents</w>, <w norm="and">&amp;</w> that he would punish all<lb/>
-          <w norm="sins">sinnes</w>. <w type="u">it</w> <w norm="also">allso</w> caused in me a <lb/>
+          <w norm="parents" type="l">Parents</w>, <w norm="and">&amp;</w> that he would punish all<lb/>
+          <w norm="sins">sinnes</w>. <w norm="It" type="u">it</w> <w norm="also">allso</w> caused in me a <lb/>
           love to him<supplied reason="mod">,</supplied> my Creator<pc norm=",">.</pc> that had<lb/>
           made me to serve him, <w norm="and">&amp;</w> his <w norm="particular" type="break">per-<lb break="no"/>
             rticuler</w> love <w norm="and">&amp;</w> grace to me<supplied reason="mod">,</supplied> a little<lb/>
           <w norm="child">childe</w>, in giving me understanding<lb/>
           <w norm="and">&amp;</w> reason to know there is a God that<lb/>
-           <w type="archaism" norm="ruleth">Ruleth</w> in heaven <w norm="and">&amp;</w> Earth, <w norm="and">&amp;</w> <quote type="allusion" source="#_Isaiah_51:11">to reward<lb/>
-             them that serves him truly<surplus reason="superfluous">.</surplus> with <w type="l">Joy</w> in <w type="l">Heaven</w><lb/>
+           <w type="archaism" norm="ruleth">Ruleth</w> in heaven <w norm="and">&amp;</w> Earth, <w norm="and">&amp;</w> <quote xml:id="q-008" type="allusion" source="#_Isaiah_51:11">to reward<lb/>
+             them that serves him truly<surplus reason="superfluous">.</surplus> with <w norm="joy" type="l">Joy</w> in <w norm="heaven" type="l">Heaven</w><lb/>
           that should never have end.</quote></p>
         <anchor n="ev4" type="event"/>
          </div>
@@ -849,21 +854,21 @@
          <p xml:id="p-0014">
       <milestone n="ev5" unit="event"/>
            <date when-custom="1631">There was</date> a great fire in the next<lb/>
-           <w type="l">House</w> to <rs ref="ppl:cw1" n="per19" type="person">my fathers</rs><supplied reason="mod">,</supplied> in <placeName ref="place:StMa_082" n="place8">St <w type="u">martins</w><lb/>
+           <w norm="house" type="l">House</w> to <rs ref="ppl:cw1" n="per19" type="person">my fathers</rs><supplied reason="mod">,</supplied> in <placeName ref="place:StMa_082" n="place8">St <w norm="Martins" type="u">martins</w><lb/>
           Lane in London</placeName>, which <w norm="burned">burnd</w> a part <lb/>
             of our house <w norm="and">&amp;</w> had like to have<lb/>
           burned our house, but was <w norm="prevented">preventd</w><lb/>
           through the <w norm="care">caire</w> of our servants.<lb/>
-           <w type="u">this</w> was <w norm="done">don</w> at night when my<lb/>
-           <rs ref="ppl:cw1" n="per20" type="person">father</rs> <w norm="and">&amp;</w> <rs ref="ppl:aow1" n="per21" type="person">mother</rs> was at Court. <w type="u">but</w><lb/>
+           <w norm="This" type="u">this</w> was <w norm="done">don</w> at night when my<lb/>
+           <rs ref="ppl:cw1" n="per20" type="person">father</rs> <w norm="and">&amp;</w> <rs ref="ppl:aow1" n="per21" type="person">mother</rs> was at Court. <w norm="But" type="u">but</w><lb/>
           we were preserved in <rs ref="place:StMa_082" type="place" n="place-supp1">my <persName ref="ppl:xl1" n="per22">Lady<lb/>
-            Levertons</persName> <w type="l">House</w></rs><pc norm=",">.</pc> <w norm="being">beeing</w> carried by<lb/>
-           <persName ref="ppl:st1" n="per23">Sara</persName> thither. <w type="u">this</w> fire did <w norm="seem">seeme</w> to<lb/>
-           me as if the day of <w type="l">Judgment</w> was<lb/>
+            Levertons</persName> <w norm="house" type="l">House</w></rs><pc norm=",">.</pc> <w norm="being">beeing</w> carried by<lb/>
+           <persName ref="ppl:st1" n="per23">Sara</persName> thither. <w norm="This" type="u">this</w> fire did <w norm="seem">seeme</w> to<lb/>
+           me as if the day of <w norm="judgment" type="l">Judgment</w> was<lb/>
            come<supplied reason="mod">,</supplied> <w norm="and">&amp;</w> caused great <w norm="fear">feare</w> <w norm="and">&amp;</w> <w norm="trembling">tremblig</w><supplied reason="mod">,</supplied><lb/>
           but we <w norm="were">weare</w> all delivered from<lb/>
-           <w norm="ruin">Ruine</w> by that fire<supplied reason="mod">,</supplied> all though <rs ref="ppl:cw1" type="person">my <w type="l">Father</w></rs><lb/>
-           had great <w norm="loss">losse</w>.<anchor n="ev5" type="event"/> <w type="u">but</w><supplied reason="mod">,</supplied> blessed be the Lord<lb/>
+           <w norm="ruin">Ruine</w> by that fire<supplied reason="mod">,</supplied> all though <rs ref="ppl:cw1" type="person">my <w norm="father" type="l">Father</w></rs><lb/>
+           had great <w norm="loss">losse</w>.<anchor n="ev5" type="event"/> <w norm="But" type="u">but</w><supplied reason="mod">,</supplied> blessed be the Lord<lb/>
            my God<supplied reason="mod">,</supplied> who gave us not over to this<lb/>
            <w norm="cruel">cruell</w> <w norm="element">Elament</w> of fire but <choice><sic>preserd</sic><corr>preserved</corr></choice><!-- [endnote] sic preserved.  -->
             <lb/>
@@ -887,23 +892,23 @@
            <milestone n="ev6" unit="event"/>It pleased God to give me a<lb/>
           safe passage with <rs ref="ppl:aow1" n="per24" type="person">my mother</rs> <w norm="and">&amp;</w> her<lb/>
           <w norm="family">familie</w> into <placeName ref="place:Irel_096" n="place9">Ireland</placeName> <w norm="about">a bout</w> the <w norm="year">yeir</w><lb/>
-           <date precision="medium" when-custom="1632">1632</date><pc norm=",">:</pc> <rs ref="ppl:cw1" n="per25" type="person">my <w type="l">Father</w></rs> <w norm="being">beeing</w> there before<lb/>
+           <date precision="medium" when-custom="1632">1632</date><pc norm=",">:</pc> <rs ref="ppl:cw1" n="per25" type="person">my <w norm="father" type="l">Father</w></rs> <w norm="being">beeing</w> there before<lb/>
           and sent for us over. <anchor n="ev6" type="event"/> 
-           <milestone n="ev7" unit="event"/><w type="u">where</w> I <w norm="enjoyed">injoyed</w><lb/>
+           <milestone n="ev7" unit="event"/><w norm="Where" type="u">where</w> I <w norm="enjoyed">injoyed</w><lb/>
           great <w norm="happiness">happinesse</w> <w norm="and">&amp;</w> comfort during<lb/>
            <rs ref="ppl:cw1" type="person">my fathers</rs> life<supplied reason="mod">,</supplied> and had the opportuni<lb break="no"/>
-           ty of the best education <rs ref="place:Irel_096" type="place" n="place-supp2">that <w type="l">Kingdom</w></rs><lb/>
+           ty of the best education <rs ref="place:Irel_096" type="place" n="place-supp2">that <w norm="kingdom" type="l">Kingdom</w></rs><lb/>
           could afford in the <w norm="sweet">sweete</w> <w norm="and">&amp;</w> <w norm="excellent">excelent</w><lb/>
            company of <persName ref="ppl:tw1" n="per26">my Lord of 
              <choice><sic>Srafords</sic><corr>Strafford's</corr></choice>
            </persName><lb/>
-           <w type="l">Daughters</w><pc norm=",">.</pc> the most <w norm="virtuous">vertuous</w><lb/>
+           <w norm="daughters" type="l">Daughters</w><pc norm=",">.</pc> the most <w norm="virtuous">vertuous</w><lb/>
            <persName ref="ppl:aw1" n="per27">Lady Anne Wentworth</persName> <w norm="and">&amp;</w> <persName ref="ppl:aw2" n="per28">Arbella</persName><supplied reason="mod">,</supplied><lb/>
           learning those qualities with them<lb/>
-           <rs ref="ppl:cw1" n="per29" type="person">my <w type="l">Father</w></rs> pleased to order me, as<supplied reason="mod">:</supplied> <lb/>
-           <w type="l">The</w> <w type="u">french</w> language<pc norm=",">.</pc> writing<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w><lb/>
-           speaking the same<pc norm=";">.</pc> Singing<pc norm=",">.</pc> <w type="l">Dancing</w><supplied reason="mod">,</supplied> <lb/>
-           <w type="l">Playing</w> on the <w type="l">Lute</w>, <w norm="and">&amp;</w> <w norm="theorbo">Thearbo</w><pc norm=",">.</pc><anchor corresp="#ednote-f20230308130658" resp="atb" type="oed_context"/><lb/>
+           <rs ref="ppl:cw1" n="per29" type="person">my <w norm="father" type="l">Father</w></rs> pleased to order me, as<supplied reason="mod">:</supplied> <lb/>
+           <w norm="the" type="l">The</w> <w norm="French" type="u">french</w> language<pc norm=",">.</pc> writing<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w><lb/>
+           speaking the same<pc norm=";">.</pc> Singing<pc norm=",">.</pc> <w norm="dancing" type="l">Dancing</w><supplied reason="mod">,</supplied> <lb/>
+           <w norm="playing" type="l">Playing</w> on the <w norm="lute" type="l">Lute</w>, <w norm="and">&amp;</w> <w norm="theorbo">Thearbo</w><pc norm=",">.</pc><anchor corresp="#ednote-f20230308130658" resp="atb" type="oed_context"/><lb/>
          
             <pb xml:id="page-019" n="19"/>
 
@@ -919,25 +924,25 @@
             </fw>
          </fw>
            <lb/>
-           <w type="u">learning</w> also all the other <w norm="accomplishments" type="break">accomp<lb break="no"/>
+           <w norm="Learning" type="u">learning</w> also all the other <w norm="accomplishments" type="break">accomp<lb break="no"/>
           -lighmets</w> of working <w norm="silks">silkes</w> <w norm="and">&amp;</w> <lb/>
            <w norm="sweetmeats">sweetemeats</w><supplied reason="mod">,</supplied>  <w norm="and">&amp;</w> by <rs ref="ppl:aow1" n="per30" type="person">my <w norm="dear">deare</w> mothers</rs><lb/>
            <w norm="virtuous">vertuous</w> provision<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="care">caire</w><supplied reason="mod">,</supplied> she brought<lb/>
           me up in all those <w norm="suitable">sutable</w> to that <lb/>
-           quality<anchor corresp="#ednote-f20230308130712" resp="atb" type="oed"/> <add place="above">as</add> <rs ref="ppl:cw1" n="per31" type="person">my <w type="l">Fathers</w></rs> child. But<supplied reason="mod">,</supplied> above<lb/>
+           quality<anchor corresp="#ednote-f20230308130712" resp="atb" type="oed"/> <add place="above">as</add> <rs ref="ppl:cw1" n="per31" type="person">my <w norm="fathers" type="l">Fathers</w></rs> child. But<supplied reason="mod">,</supplied> above<lb/>
            all these things<pc norm=",">.</pc> I accounted it my <lb/>
            <w norm="chief">cheife</w> <w norm="happiness">happinesse</w> in those <w norm="pious">Pieous</w><pc norm=",">.</pc> holy<lb/>
-           <w norm="and">&amp;</w> <w norm="religious">religeous</w> <surplus reason="superfluous">,</surplus> instructions, <w type="l">Examples</w>,<lb/>
-           admonitions, <w type="l">Teachings</w>, <w norm="reproofs">reproufes</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w><lb/>
-           <w type="l">Godly</w> <w norm="education">eduiation</w>, tending to the <w norm="eternal">Eternall</w><lb/>
-           <w norm="happiness">happinesse</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> <w type="l">Salvation</w> of my <w norm="poor">poore</w> soul<supplied reason="mod">,</supplied> <lb/>
+           <w norm="and">&amp;</w> <w norm="religious">religeous</w> <surplus reason="superfluous">,</surplus> instructions, <w norm="examples" type="l">Examples</w>,<lb/>
+           admonitions, <w norm="teachings" type="l">Teachings</w>, <w norm="reproofs">reproufes</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w><lb/>
+           <w norm="godly" type="l">Godly</w> <w norm="education">eduiation</w>, tending to the <w norm="eternal">Eternall</w><lb/>
+           <w norm="happiness">happinesse</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> <w norm="salvation" type="l">Salvation</w> of my <w norm="poor">poore</w> soul<supplied reason="mod">,</supplied> <lb/>
            which I <w norm="received">Receavid</w> from<surplus reason="superfluous">.</surplus> both my <choice><abbr>Hon.<am rend="superscript">rd</am></abbr><expan>honoured</expan></choice><lb/>
-           <rs ref="ppl:cw1" n="per32" type="person">father</rs> <w norm="and">&amp;</w> <rs ref="ppl:aow1" n="per33" type="person">mother</rs><pc norm=",">.</pc><anchor corresp="#ednote-f20230308130719" resp="atb" type="context"/> with <w norm="their">theire</w> <w type="l">Chaste</w> <w norm="and">&amp;</w><lb/>
-           sober <w type="l">Conversation</w> in all things of<lb/>
+           <rs ref="ppl:cw1" n="per32" type="person">father</rs> <w norm="and">&amp;</w> <rs ref="ppl:aow1" n="per33" type="person">mother</rs><pc norm=",">.</pc><anchor corresp="#ednote-f20230308130719" resp="atb" type="context"/> with <w norm="their">theire</w> <w norm="chaste" type="l">Chaste</w> <w norm="and">&amp;</w><lb/>
+           sober <w norm="conversation" type="l">Conversation</w> in all things of<lb/>
            this world.<anchor n="ev7" type="event"/> For all which things<pc norm=",">.</pc>. <w norm="and">&amp;</w> <w norm="infinitely">infinitly</w><lb/>
-           more <w norm="opportunities">opportunitys</w> of <w type="l">Good</w> to my wellbeing<lb/>
+           more <w norm="opportunities">opportunitys</w> of <w norm="good" type="l">Good</w> to my wellbeing<lb/>
            <w norm="than">then</w> I can <w norm="express">expresse</w><pc norm=",">.</pc>I most humbly <w norm="and">&amp;</w><lb/>
-           heartily acknowledge my <quote type="paraphrase" source="#BCP_Other_Proceedings-456"><w norm="bounden">boundent</w><lb/>
+           heartily acknowledge my <quote xml:id="q-009" type="paraphrase" source="#BCP_Other_Proceedings-456"><w norm="bounden">boundent</w><lb/>
              duty of <lb/>
          
             <pb xml:id="page-020" n="20"/>
@@ -953,14 +958,14 @@
             </fw>
          </fw>
            <lb/>
-             <surplus reason="repetition">of</surplus><!-- Q endnote ednote-f20230308130735 not needed as it's tagged? --> <w norm="thanks">thankes</w> <w norm="and">&amp;</w> <w type="l">Praise</w> to the great<lb/>
-             God of heaven <w norm="and">&amp;</w> <w type="l">Earth</w> </quote><surplus reason="superfluous">.</surplus> in the first<lb/>
-           place<supplied reason="mod">,</supplied> from whence comes <quote type="partial" source="#_James_1:17">every<lb/>
-             good <w norm="and">&amp;</w> perfect gift,</quote> <quote type="partial" source="#_Hebrews_12:2">the <w type="l">Author</w> <w norm="and">&amp;</w><lb/>
-               finisher of our faith</quote>. <w type="u">and</w> next<supplied reason="mod">,</supplied> <lb/>
+             <surplus reason="repetition">of</surplus><!-- Q endnote ednote-f20230308130735 not needed as it's tagged? --> <w norm="thanks">thankes</w> <w norm="and">&amp;</w> <w norm="praise" type="l">Praise</w> to the great<lb/>
+             God of heaven <w norm="and">&amp;</w> <w norm="earth" type="l">Earth</w> </quote><surplus reason="superfluous">.</surplus> in the first<lb/>
+           place<supplied reason="mod">,</supplied> from whence comes <quote xml:id="q-010" type="partial" source="#_James_1:17">every<lb/>
+             good <w norm="and">&amp;</w> perfect gift,</quote> <quote xml:id="q-011" type="partial" source="#_Hebrews_12:2">the <w norm="author" type="l">Author</w> <w norm="and">&amp;</w><lb/>
+               finisher of our faith</quote>. <w norm="And" type="u">and</w> next<supplied reason="mod">,</supplied> <lb/>
            I humbly acknowledge<surplus reason="superfluous">,</surplus> my faith-<lb break="no"/>
            -ful thanks <w norm="and">&amp;</w> gratitude to <rs ref="ppl:cw1 ppl:aow1" n="per34" type="person">my<lb/>
-             <w norm="dear">deare</w> <w norm="and">&amp;</w> <choice><abbr>Hon.<am rend="superscript">red</am></abbr><expan>honoured</expan></choice> <w type="l">Parents</w></rs> for their<lb/>
+             <w norm="dear">deare</w> <w norm="and">&amp;</w> <choice><abbr>Hon.<am rend="superscript">red</am></abbr><expan>honoured</expan></choice> <w norm="parents" type="l">Parents</w></rs> for their<lb/>
            <w norm="exceeding">exceading</w> great love <w norm="and">&amp;</w> <w norm="painful">painesfull</w><anchor corresp="#ednote-f20230308130740" resp="atb" type="oed"/><lb/>
            <w norm="care">caire</w>. <add xml:id="ex-add-above-01" place="above"><w norm="and">&amp;</w></add> affection for the performance<lb/>
            of <w norm="their">theire</w> part towards me<pc norm=":">.</pc> desiring<lb/>
@@ -971,7 +976,7 @@
           my <w norm="cordial">cordiall</w> duty to them; in all<lb/>
           godly honesty <w norm="and">&amp;</w> righteous, in <w norm="obeying">obeing</w><lb/>
            <rs ref="ppl:cw1 ppl:aow1" n="per35" type="person">my parents</rs> in the Lord, to the end<surplus reason="superfluous">.</surplus> of<lb/>
-           <w norm="their">theire</w> <w type="l">Lives</w><supplied reason="mod">.</supplied> Amen.</p>
+           <w norm="their">theire</w> <w norm="lives" type="l">Lives</w><supplied reason="mod">.</supplied> Amen.</p>
        </div> 
        
        
@@ -1005,13 +1010,13 @@
             <fw xml:id="mnote-0002" type="header" place="left margin"><date when-custom="1638">38</date>.</fw>. 
            About the time I was 12 years old<pc norm=",">.</pc> I<lb/>
           was reading of the great <w norm="wisdom">wisdome</w> of<lb/>
-           our Saviour <quote type="allusion" source="#_Luke_2:41-52">in the <w norm="Gospel">Gospell</w> <supplied reason="mod">,</supplied>where he<lb/>
-             was disputing with the <w type="l">Doctors</w> with so much<lb/>
-             power that he put them to silence.</quote> <w type="u">upon</w><lb/>
+           our Saviour <quote xml:id="q-012" type="allusion" source="#_Luke_2:41-52">in the <w norm="Gospel">Gospell</w> <supplied reason="mod">,</supplied>where he<lb/>
+             was disputing with the <w norm="doctors" type="l">Doctors</w> with so much<lb/>
+             power that he put them to silence.</quote> <w norm="Upon" type="u">upon</w><lb/>
            which place, in the reading thereof<supplied reason="mod">,</supplied> <w norm="being">beeing</w><lb/>
            <date when-custom="1638-02-13">that day</date> 12 y. old<pc norm=",">.</pc>I fell into a <w norm="deep">deepe</w><lb/>
            thought of the <w norm="majesty">majestie</w> of Jesus X<supplied reason="mod">,</supplied><lb/>
-           who was able to confound the <w type="l">Doctors</w><lb/>
+           who was able to confound the <w norm="doctors" type="l">Doctors</w><lb/>
           at that Age. And then I <w norm="considered">considred</w><lb/>
           my <w norm="childishness">childishnesse</w> <w norm="and">&amp;</w> folly that could not<lb/>
            <w norm="scarce">scarse</w> understand <w norm="mean">meane</w> <w norm="and">&amp;</w> low things<supplied reason="mod">,</supplied><lb/>
@@ -1043,23 +1048,23 @@
            <date when-custom="1639-06">Having come</date> over into <placeName ref="place:Engl_094" n="place12">England</placeName><anchor corresp="#ednote-f20230308130800" resp="atb" type="context"/><lb/>
            with <rs ref="ppl:aow1" n="per36" type="person">my d. mother</rs> to <placeName ref="place:StVi_051" n="place-supp3">the bath</placeName> for the stone<supplied reason="mod">,</supplied><anchor corresp="#ednote-f20230308130812" resp="atb" type="context"/><anchor n="ev10" type="event"/><lb/>
            <milestone n="ev11" unit="event"/>in our <w norm="return">returne</w> back to <placeName ref="place:Irel_096" n="place13">Ireland</placeName><supplied reason="mod">,</supplied> <date when-custom="1639-08-22">August<lb/>
-             22<hi rend="superscript">th</hi> 39</date><pc norm=",">.</pc> I<supplied reason="mod">,</supplied> with the rest of the <w type="l">Ship</w> <w norm="and">&amp;</w><lb/>
+             22<hi rend="superscript">th</hi> 39</date><pc norm=",">.</pc> I<supplied reason="mod">,</supplied> with the rest of the <w norm="ship" type="l">Ship</w> <w norm="and">&amp;</w><lb/>
            the passengers<supplied reason="mod">,</supplied> was <w norm="delivered">delivired</w> from that<lb/>
            great <w norm="and">&amp;</w> <w norm="terrible">terable</w> <choice><sic>Sorme</sic><corr>storm</corr></choice>
                <!-- [endnote] Sic for 'Storme'.-->
              in <geogName ref="place:Nest_122" n="geog1"><w norm="Neston">nesston</w><lb/>
                water</geogName><supplied reason="mod">,</supplied><!-- NOTE [place] I think new geogname "Neston Water" rather than placename (Neston: Nest_040) --> where there was <w norm="five">5</w> ships cast<lb/>
-           away before we <w norm="took">tooke</w> ship. <w type="u">but</w><supplied reason="mod">,</supplied> the<lb/>
+           away before we <w norm="took">tooke</w> ship. <w norm="But" type="u">but</w><supplied reason="mod">,</supplied> the<lb/>
            same great God that <w type="archaism">maketh</w> the <choice><sic>stomes</sic><corr>storms</corr></choice>
                <!-- [endnote] [sic] stormes? -->
             
             <lb/>
           to <w norm="cease">seace</w> brought us <w norm="safely">safly</w> out of that<lb/>
-           <w norm="storm">storme</w>. <w norm="and">&amp;</w> <w norm="carried">caried</w> us well to the <w type="l">Land</w><supplied reason="mod">,</supplied><lb/>
+           <w norm="storm">storme</w>. <w norm="and">&amp;</w> <w norm="carried">caried</w> us well to the <w norm="land" type="l">Land</w><supplied reason="mod">,</supplied><lb/>
           though in great fright <w norm="and">&amp;</w> much<lb/>
-           <w norm="distress">distresse</w>. <quote type="phrase" source="#_Psalm_146:2">I praise the Lord </quote> <!-- ST The phrase here is the same in KJV and GB but not BCP --> <surplus reason="superfluous">.</surplus> who brought<lb/>
-           my <w norm="soul">soule</w> <quote type="phrase" source="#_Psalm_69:14">out of the <w norm="deep">deepe</w> waters </quote> <!-- ST The phrase here is the same in KJV and GB but not BCP --> <w norm="and">&amp;</w><lb/>
-           <w norm="fathomless">fathomlesse</w> <w norm="gulf">gulfe</w> of waters. <quote type="phrase" source="#_Psalm_145:21"><w type="u">praise</w><lb/>
+           <w norm="distress">distresse</w>. <quote xml:id="q-013" type="phrase" source="#_Psalm_146:2">I praise the Lord </quote> <!-- ST The phrase here is the same in KJV and GB but not BCP --> <surplus reason="superfluous">.</surplus> who brought<lb/>
+           my <w norm="soul">soule</w> <quote xml:id="q-014" type="phrase" source="#_Psalm_69:14">out of the <w norm="deep">deepe</w> waters </quote> <!-- ST The phrase here is the same in KJV and GB but not BCP --> <w norm="and">&amp;</w><lb/>
+           <w norm="fathomless">fathomlesse</w> <w norm="gulf">gulfe</w> of waters. <quote xml:id="q-015" type="phrase" source="#_Psalm_145:21"><w norm="Praise" type="u">praise</w><lb/>
           his holy name for ever <w norm="and">&amp;</w> for ever Amen </quote> <!-- ST This quotation is the same in all three. [NB "for ever" not mod here.] --></p>
          <anchor n="ev11" type="event"/>
         
@@ -1070,8 +1075,8 @@
            out of the ship at that time<supplied reason="mod">,</supplied> when a<lb/>
           cable had like to have <w norm="pulled">puld</w> me into<lb/>
           the sea but for <rs type="person">a ship man</rs> that saved<lb/>
-           me as I was <w norm="half">halfe</w> over.<anchor n="ev12" type="event"/> <quote type="direct" source="#_Psalm_103:2"> <w norm="Bless">blesse</w> the Lord<supplied reason="mod">,</supplied><lb/>
-             <w type="u">o</w> my <w norm="soul">soule</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> forget not the </quote> <w norm="deliverance">deliveranc</w><anchor corresp="#ednote-f20230308151202" resp="atb" type="context"/><lb/>
+           me as I was <w norm="half">halfe</w> over.<anchor n="ev12" type="event"/> <quote xml:id="q-016" type="direct" source="#_Psalm_103:2"> <w norm="Bless">blesse</w> the Lord<supplied reason="mod">,</supplied><lb/>
+             <w norm="O" type="u">o</w> my <w norm="soul">soule</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> forget not the </quote> <w norm="deliverance">deliveranc</w><anchor corresp="#ednote-f20230308151202" resp="atb" type="context"/><lb/>
             Amen. </p>
         
         </div> 
@@ -1644,7 +1649,7 @@
               salvation but live the remainder of the<lb/>
            life he gives me to his <choice><abbr>hon.<am rend="superscript">or</am></abbr><expan>honoured</expan></choice> and Glory<lb/>
               &amp; at the last may praise him eternally in the<lb/>
-           heavens. <quote type="direct" source="#KJV_Psalms_103:2"><w norm="bless">blesse</w> the Lord My <w norm="soul">soule</w> &amp; forget<lb/>
+           heavens. <quote xml:id="q-017" type="direct" source="#KJV_Psalms_103:2"><w norm="bless">blesse</w> the Lord My <w norm="soul">soule</w> &amp; forget<lb/>
              not all his <w norm="benefits">benefitts</w> </quote> <!-- ST Reference supplied by editors--> Amen. Amen. 
                   
          </p>
@@ -1823,7 +1828,7 @@
           Her desire was to <persName ref="ppl:jk1" n="per99">Mr <w norm="Kearton">Kirton</w></persName> he would<lb/>
           preach her <w norm="funeral">funerall</w> sermon, Text to be<lb/>
            out of the <ref type="biblical" source="#KJV_Revelation_14:13">14<hi rend="superscript">th</hi> of Revel<ex>ation</ex> 13 <w norm="verse">verce</w>.</ref><lb/>
-          <quote type="partial" source="#KJV_Revelation_14:13">Blessed are the Dead that die in the lord. &amp; so<lb/>
+          <quote xml:id="q-018" type="partial" source="#KJV_Revelation_14:13">Blessed are the Dead that die in the lord. &amp; so<lb/>
            to the end:</quote> <!-- ST OK, so, here AT provides the reference but only part of the text --></p>
          <p xml:id="p-0055">This blessed <w norm="soul">soule</w> had the gift from God<lb/>
           as to <w norm="continue">contineue</w> till the last breath her<lb/>
@@ -1846,7 +1851,7 @@
           -sire to be <w norm="dissolved">desolved</w> &amp; so be with Christ<lb/>
 
           And all the <date when-custom="1659-12-09">friday night before she died</date><lb/>
-           <quote type="paraphrase" source="#KJV_Revelation_22:20">Come Lord Jesus, come <w norm="quickly">quickely</w>.</quote><!-- Q biblical ?? what does this mean --><lb/>
+           <quote xml:id="q-019" type="paraphrase" source="#KJV_Revelation_22:20">Come Lord Jesus, come <w norm="quickly">quickely</w>.</quote><!-- Q biblical ?? what does this mean --><lb/>
           she <w norm="making">makeing</w> <persName ref="ppl:dcl1" n="per100">Dafeny</persName> to pray with her<lb/>
           the prayer which <persName ref="ppl:tbd-smith" n="per101" type="author">Dr Smith</persName> made in his<lb/>
            <ref type="bibliog"><w norm="book">booke</w> for a Person at the point to dye</ref><!-- Q [authors] ST: Green – best sellers, Samuel Smith and Henry Smith. Samuel Smith's David Repentance (30+ editions between 1614-1722), exposition of Psalm 51. has two prayers at the end for morning and evening family prayer. While not among the best sellers, [a different?] Henry Smith had published Three Prayers … the third for a sicke man (1591). --><lb/>
@@ -2273,7 +2278,7 @@
           -ning <w norm="pierced">pearced</w> into the <w norm="secret">secrett</w> of my heart<lb/>
           &amp; <w norm="soul">soule</w> <w norm="bringing">bringng</w> <w norm="relief">releife</w> &amp; some hopes of <lb/>
            comfort<surplus reason="superfluous">.</surplus> by his <w norm="sweet">sweete</w> &amp; <w norm="effectual">effectuall</w> call<lb/>
-           <quote source="#KJV_Matthew_11:28">come unto me all yea that labour &amp; are<lb/>
+           <quote xml:id="q-020" source="#KJV_Matthew_11:28">come unto me all yea that labour &amp; are<lb/>
           heavy Laden; &amp; I will give you rest </quote></p> <!-- ST Another interesting one - AT provides the correct citation a couple of lines above, but only cites first verse -->
          
             <pb xml:id="page-049" n="49"/>
@@ -2304,7 +2309,7 @@
           that is Eternally in God as his very <lb/>
           <w norm="being">beeing</w>, and at this very time Christ<lb/>
           Jesus the righteous came into my <lb/>
-           thoughts with <quote type="partial" source="#KJV_Malachi_4:2">healing under his wings</quote><lb/> 
+           thoughts with <quote xml:id="q-021" type="partial" source="#KJV_Malachi_4:2">healing under his wings</quote><lb/> 
           <w norm="making">makeing</w> it <w norm="appear">a peare</w> that satan was a<lb/>
           <w norm="liar">lier</w>; he <w norm="calls">calles</w>, he invites; he <w norm="persuades" type="break">perswad<lb break="no"/>
           -es</w> me to <w norm="come">coame</w><!-- [endnote] sic --> unto him: he it<lb/>
@@ -2377,7 +2382,7 @@
           -ation. so now art thou <w norm="pleased">pleasd</w><lb/>
           to vanquish my grand <w norm="Enemy">Enimy</w> by<lb/>
           the Power of thy word to me.<lb/>
-           <quote type="paraphrase" source="#_Mark_9:24">I <w norm="believe">beleive</w>, (Lord <w norm="help">helpe</w> my <w norm="unbelief">unbeleife</w>)</quote><lb/> <!-- Q ST? have I used the right 'type' here -->
+           <quote xml:id="q-022" type="paraphrase" source="#_Mark_9:24">I <w norm="believe">beleive</w>, (Lord <w norm="help">helpe</w> my <w norm="unbelief">unbeleife</w>)</quote><lb/> <!-- Q ST? have I used the right 'type' here -->
           that thou art as <w norm="merciful">mercifull</w> to me<lb/>
            as others who falls by <w norm="sin">sine</w>, <subst>
            <add place="above">And</add>
@@ -2774,7 +2779,7 @@
            <!-- NOTE moved fw -->
            the <w norm="days">daies</w> of thy life but set this <lb/>
            up as a <w norm="Pillar">Piller</w> of praise to his <lb/>
-           <w norm="majesty">majestie</w> <w norm="forever">for ever</w>. <quote source="#BCP_Psalter_Psalm103:2">Praise the Lord<lb/>
+           <w norm="majesty">majestie</w> <w norm="forever">for ever</w>. <quote xml:id="q-023" source="#BCP_Psalter_Psalm103:2">Praise the Lord<lb/>
            o my <w norm="soul">soule</w> &amp; for get not all his<lb/>
            <w norm="benefits">benifitts</w>, </quote> <!-- ST this is the first example of a repeated citation BUT different version --> which hath not turned a-<lb break="no"/>
            way his face from thy <w norm="prayer">praier</w>, butt<lb/>
@@ -3093,7 +3098,7 @@
           in heaven, with <w norm="Angels">Angells</w> &amp; Arch<lb/>
           Angels .&amp; all the Host of Heaven<lb/>
           I <w norm="here">heere</w> prostrate my <w norm="Soul">Soule</w> before the<lb/>
-           <quote type="phrase" source="#_Hebrews_4:16">Throne of Grace</quote><surplus reason="superfluous">.</surplus>that hath <w norm="showed">shewed</w> me his<lb/>
+           <quote xml:id="q-024" type="phrase" source="#_Hebrews_4:16">Throne of Grace</quote><surplus reason="superfluous">.</surplus>that hath <w norm="showed">shewed</w> me his<lb/>
           <w norm="poor">poore</w> <w norm="weak">weake</w> handmaid <del xml:id="ex-del-strike-01" rend="strikethrough">shush</del> such <lb/>
           hopes, such <w norm="mercies">mercys</w>, &amp; <w norm="opportunities">oportunitys</w><lb/>
           or making my <w norm="calling">caling</w> &amp; <w norm="election">ellection</w> sure<lb/>
@@ -3232,7 +3237,7 @@
           by I thought my case very sad, as also<lb/>
           I was very unwilling to disclose any of<lb/>
           these <w norm="secrets">secretts</w> <w norm="concerning">concering</w> our Estate to others<lb/>
-           <quote type="partial" source="#KJV_Psalms_142:2"> I <w norm="poured">powred</w> out my complaints &amp; cause </quote><lb/><!-- ST rights 'type'? Supplied -->
+           <quote xml:id="q-025" type="partial" source="#KJV_Psalms_142:2"> I <w norm="poured">powred</w> out my complaints &amp; cause </quote><lb/><!-- ST rights 'type'? Supplied -->
           before the great God of Heaven in whose<lb/>
           power it was alone to give us <w norm="help">helpe</w><lb/>
           &amp; assistance, both as to the <w norm="enabling">inabling</w> us to<lb/>
@@ -3257,7 +3262,7 @@
            </fw>
           <lb/>
           I humbly cast my self at the<lb/>
-           <quote type="phrase" source="#_Hebrews_4:16">Throne of Grace,</quote> <quote source="#GB_Proverbs_3:6" type="partial">who had ever <w norm="been">bin</w><lb/>
+           <quote xml:id="q-026" type="phrase" source="#_Hebrews_4:16">Throne of Grace,</quote> <quote xml:id="q-027" source="#GB_Proverbs_3:6" type="partial">who had ever <w norm="been">bin</w><lb/>
              my guide &amp; director in all my <w norm="ways">waies</w> </quote><lb/>
           &amp; in every grand action of my Life<lb/>
            when I made my earnest addresses<surplus reason="superfluous">.</surplus><lb/>
@@ -3301,7 +3306,7 @@
          <p xml:id="p-0088">which was <w norm="done">don</w> to my great content<lb/>
           &amp; <w norm="satisfaction">sattisfaction</w> that I might more Joy-<lb break="no"/>
           -fully leave this world, <w norm="than">then</w> to have<lb/>
-          <w norm="gone">gon</w> out unworthily to the <quote source="#_Psalms_127:3" type="phrase">fruit of my<lb/>
+          <w norm="gone">gon</w> out unworthily to the <quote xml:id="q-028" source="#_Psalms_127:3" type="phrase">fruit of my<lb/>
             <w norm="own">owne</w> <w norm="womb">wombe</w></quote><surplus reason="superfluous">.</surplus> who had given away all<lb/>
            my Portion from them &amp; theirs<surplus reason="superfluous">.</surplus> never<lb/>
           to have <w norm="been">beine</w> better for <measure type="currency" unit="£">2500<am rend="superscript">l</am></measure> of my<lb/>
@@ -3431,7 +3436,7 @@
           nesse</w> was such. but <w norm="after">affter</w> she had<lb/>
           given me some of it I found the good<lb/>
           effect of it thorough the tender mercy<lb/>
-           of my Redeemer<surplus reason="superfluous">.</surplus> <quote type="paraphrase" source="#KJV_Matthew_8:16"> who healed all that<lb/>
+           of my Redeemer<surplus reason="superfluous">.</surplus> <quote xml:id="q-029" type="paraphrase" source="#KJV_Matthew_8:16"> who healed all that<lb/>
              came to him.</quote> by it he helped me<surplus reason="superfluous">.</surplus> some<lb/>
           what so that the flux was a little <w norm="stayed">staied</w><lb/>
            by degrees<surplus reason="superfluous">.</surplus> till <persName ref="ppl:rw1" n="per194">Dr Wittie</persName> was come.<lb/>
@@ -3536,7 +3541,7 @@
           to day. Let this stand as a <w norm="Pillar">Piller</w> of<lb/>
           gratitude which I <w norm="erect">errect</w> for all the deli<lb break="no"/>
           -verances I have had &amp; my Children<lb/>
-           both in <w norm="soul">soule</w> &amp; body. <quote source="#KJV_Isaiah_38:19">the living the <w norm="living">liveng</w><lb/>
+           both in <w norm="soul">soule</w> &amp; body. <quote xml:id="q-030" source="#KJV_Isaiah_38:19">the living the <w norm="living">liveng</w><lb/>
              he shall praise thee </quote> in heaven &amp; Earth.  <!-- ST NB. reference supplied -->by</p>
        </div>  
        
@@ -3843,7 +3848,7 @@
           sparing of either of our lives as to outward<lb/>
          <w norm="appearance">apearance</w><pc norm=",">.</pc> but only in the great &amp; mirac<lb break="no"/>
           -ulous, mercy of the <w norm="fountain">fountaine</w> of <w norm="Goodness">Goodnesse</w><lb/><anchor n="ev64" type="event"/>
-         The Almighty God of heaven<pc norm=",">.</pc> <quote source="#KJV_Psalms_90:3">who <w type="archaism">turneth</w><lb/>
+         The Almighty God of heaven<pc norm=",">.</pc> <quote xml:id="q-031" source="#KJV_Psalms_90:3">who <w type="archaism">turneth</w><lb/>
            man to destruction<pc norm=",">.</pc> &amp;  saith <w norm="return">returne</w> <w norm="again">againe</w><lb/>
          from the grave the children of men.</quote> <lb/> <!-- ST Ref supplied-->
           nor had I any comfort, or friend that could<lb/>
@@ -3929,10 +3934,10 @@
           and <w norm="infinitely">infinitly</w> full of <w>compassions</w> towards<lb/>
           thy <w norm="frail">fraile</w> <w norm="creatures">creaturs</w>. we sin &amp; thou chasti-<lb break="no"/>
           -seth us into obedience. if thy mercy will<lb/>
-           not move, <quote type="paraphrase" source="#KJV_Proverbs_22:15"> thy rod must correct. </quote> O <w norm="Let">Lett</w><lb/>
+           not move, <quote xml:id="q-032" type="paraphrase" source="#KJV_Proverbs_22:15"> thy rod must correct. </quote> O <w norm="Let">Lett</w><lb/>
           us not forget, or slight this <w norm="deliverance">delivrence</w><lb/>
           to us both. but more especially let it<lb/>
-           never slip out of my mind but <quote type="paraphrase" source="#KJV_Proverbs_7:3"> write this<lb/>
+           never slip out of my mind but <quote xml:id="q-033" type="paraphrase" source="#KJV_Proverbs_7:3"> write this<lb/>
              upon the table of my heart<surplus reason="superfluous">.</surplus> </quote> that the Lord has<lb/>
             <del rend="strikethrough">added</del> added this new Life of <rs type="person">my husbands</rs><lb/>
           at my humble request, &amp; given us both<lb/>
@@ -4261,7 +4266,7 @@
           he was pleased to free me &amp; give strength<lb/>
           to the <w norm="weak">weake</w> handmaid of the Lord for which I<lb/>
           shall ever adore &amp; <w norm="magnify">magnifie</w> the Almighty<lb/>
-    Father of <w norm="mercies">mercys</w> <quote type="paraphrase" source="#KJV_Psalms_9:13"> which raised me up again<lb/>
+    Father of <w norm="mercies">mercys</w> <quote xml:id="q-034" type="paraphrase" source="#KJV_Psalms_9:13"> which raised me up again<lb/>
     from the Gates of Death. </quote> <!-- ST type? Ref supplied -->  Blessed be his<lb/>
           name <w norm="forever">for Ever</w> And <w norm="forever">for ever</w>. Amen.</p>
   </div>    
@@ -4930,7 +4935,7 @@
           &amp; from bed in a <w norm="chair">chaire</w>.<anchor n="ev85" type="event"/> but ever<lb/>
           blessed &amp; magnified by the great &amp;<lb/>
           Glorious name of the Lord most high<lb/>
-           which <w type="archaism">bringeth</w> me <w norm="down">downe</w> to the <quote type="paraphrase" source="#KJV_Psalms_9:13">gates of<lb/>
+           which <w type="archaism">bringeth</w> me <w norm="down">downe</w> to the <quote xml:id="q-035" type="paraphrase" source="#KJV_Psalms_9:13">gates of<lb/>
              Death &amp; <w type="archaism">raiseth</w> me up </quote>  <!-- ST another repeated reference--> <w norm="again">againe</w> times<lb/>
            without number.   &amp; might most Justly<lb/>
           taken me out of this life <add place="above">but</add> letting<lb/>
@@ -5280,12 +5285,12 @@
            that thou <w type="archaism">canst</w>. &amp; doest me good by this<lb/>
           heavy &amp; sad affliction as well as all others<lb/>
           &amp; teach me o Lord by this thy Rod &amp;<lb/>
-           <quote source="#_Job5:21" type="paraphrase">scourge of wicked <w norm="Tongues">Toungs</w></quote> who <w type="archaism">seeketh</w><lb/>
+           <quote xml:id="q-036" source="#_Job5:21" type="paraphrase">scourge of wicked <w norm="Tongues">Toungs</w></quote> who <w type="archaism">seeketh</w><lb/>
           occasion to slay me &amp; <w norm="root">roote</w> out the rem-<lb break="no"/>
           -embrance from the Earth. &amp; though they<lb/>
           curse yet <w norm="bless">blesse</w> thou, &amp; behold the Anguish<lb/>
           of my <w norm="soul">soule</w> for out of the <w norm="deep">deepe</w> have I<lb/>
-          called, <quote source="#_Matthew_8:25" type="paraphrase">Lord save me I perish</quote>  but still<lb/>
+          called, <quote xml:id="q-037" source="#_Matthew_8:25" type="paraphrase">Lord save me I perish</quote>  but still<lb/>
           put my trust in thee. o strengthen <w norm="establish">stablish</w><lb/>
           &amp; settle my <g ref="#heart">♥</g> in thy faith that neither life<lb/>
            nor death shall <w norm="separate">seperate</w> me from the Love<lb/>
@@ -5334,7 +5339,7 @@
           <w norm="walk">walke</w> worthy of these inestimable <w norm="mercies">mercys</w><lb/>
           &amp; <w norm="glorify">glorifie</w> thee in the midst of all my <w norm="trials">trialls</w><lb/>
            and sufferings that <w type="archaism">makest</w> me way to Escape<lb/>
-           now <quote type="direct" source="#BCP_Psalms_103:2">Praise the Lord o my <w norm="soul">soule</w>, &amp; <w norm="forget">forgett</w> not<lb/>
+           now <quote xml:id="q-038" type="direct" source="#BCP_Psalms_103:2">Praise the Lord o my <w norm="soul">soule</w>, &amp; <w norm="forget">forgett</w> not<lb/>
              all his <w norm="benefits">benifitts</w>.</quote> <!-- ST ref supplied--> <seg rend="underline">Amen. Amen</seg>
         <!-- Q should underline be rule? -->
          </p>
@@ -5596,18 +5601,18 @@
           to expect <w norm="Happiness">Hapinesse</w> in <w norm="no">noe</w> <w norm="Condition">Condittion</w><lb/>
           state nor place under heaven. &amp; to <lb/>
           <w norm="rejoice">rejoyce</w> in Tribulation where my faith<lb/>
-           is <w type="archaism">unshaked</w> &amp; <w norm="tottering">ttotering</w>. <quote source="#_Matthew_18:8" type="paraphrase"> better were it<lb/>
+           is <w type="archaism">unshaked</w> &amp; <w norm="tottering">ttotering</w>. <quote xml:id="q-039" source="#_Matthew_18:8" type="paraphrase"> better were it<lb/>
           for me to enter never so maimed into the<lb/>
           Joys of my Lord then to Enter into Hell <lb/>
           in pleasures &amp; this worlds <w norm="wealth">welth</w> &amp; <w norm="satisfaction" type="break">satt-<lb break="no"/>
              -isfaction</w>. </quote> <!--ST ref supplied--> Therefore behold the Hand-<lb break="no"/>
           -maid of the Lord, be it unto me according<lb/>
           to thy word, give me my Crosses <w norm="here">heere</w>, that<lb/>
-           I may <w norm="enjoy">injoy</w> thee, <add place="above">in</add> thy <w norm="kingdom">kingdome</w>. <quote source="#KJV_Matthew_16:24" type="paraphrase">for who<lb/>
+           I may <w norm="enjoy">injoy</w> thee, <add place="above">in</add> thy <w norm="kingdom">kingdome</w>. <quote xml:id="q-040" source="#KJV_Matthew_16:24" type="paraphrase">for who<lb/>
           so doth not deny him <w norm="self">selfe</w> <w norm="here">heere</w>, &amp; take up<lb/>
              his <w norm="cross">X</w><!-- NOTE X=cross on this occasion, ie, *not* Christ --> &amp; follow him is not worthy of him.</quote> <!-- ST NB. this citation can be found in all there Synoptic Gospels. Those from Matthew and Mark are from KJV only; whereas the one from Luke is the same in both KJV and GB--><lb/>
           &amp; what is a moment of time to an<lb/>
-           Eternity, to <quote source="#_Psalms_16:11" type="paraphrase"> Everlasting pleasures at the Rig<lb break="no"/>
+           Eternity, to <quote xml:id="q-041" source="#_Psalms_16:11" type="paraphrase"> Everlasting pleasures at the Rig<lb break="no"/>
            -ht hand of God.  </quote>
          </p>
 </div> 
@@ -5630,7 +5635,7 @@
             </fw>
          </fw>
 
-         <p xml:id="p-0158"><quote source="#_Psalms_23:4" type="paraphrase"><w norm="Whilst">Whilest</w> I am in this <w norm="veil">vaile</w> of <w norm="tears">teares</w><lb/>
+         <p xml:id="p-0158"><quote xml:id="q-042" source="#_Psalms_23:4" type="paraphrase"><w norm="Whilst">Whilest</w> I am in this <w norm="veil">vaile</w> of <w norm="tears">teares</w><lb/>
            &amp; shadow of death</quote><pc norm=",">.</pc> I must not expect<lb/>
           <w norm="no">noe</w> more comforts <w norm="than">then</w> will preserve me<lb/>
           from sinking. nor will I repine at the great<lb/>
@@ -5651,7 +5656,7 @@
            departure home &amp; having <w norm="been">bin</w> so <w norm="weak">weake</w> that<lb/>
           I kept my bed <w norm="above">a bove</w> a <w norm="week">weeke</w>. so <w norm="beginning">beginig</w> <lb/>
           to <w norm="rejoice">rejoyce</w> at my <w norm="deliverance">delivrence</w> from the late <w norm="illness" type="break">ill<lb break="no"/>
-           nesse</w> both of the <quote source="#GB_Sirach_51:2" type="paraphrase"> Plague of Slanderous<lb/>
+           nesse</w> both of the <quote xml:id="q-043" source="#GB_Sirach_51:2" type="paraphrase"> Plague of Slanderous<lb/>
              <w norm="tongues">tounges</w> </quote>  &amp; the <w>faintings</w> abated something<lb/>
           But the first day that I did Arise out of my<lb/>
           bed. I had that <w norm="news">newes</w> of <rs ref="ppl:wt1" n="per317" type="person">my <w norm="dear">deare</w><lb/>
@@ -5776,7 +5781,7 @@
           that is <w norm="gone">gon</w> out against me. now am I<lb/>
            left <w norm="destitute">destituted</w> of head<pc norm=",">.</pc> guide, <w norm="help">helpe</w><lb/>
           or <w norm="support">suport</w> in this world, tossed with all<lb/>
-           the <w norm="sorrows">sorwes</w> that a <quote source="#KJV_1Timothy_5:5" type="phrase"> <w norm="poor">poore</w> desolate <w norm="widow">widdow</w> </quote><!-- ST Ref supplied--><lb/>
+           the <w norm="sorrows">sorwes</w> that a <quote xml:id="q-044" source="#KJV_1Timothy_5:5" type="phrase"> <w norm="poor">poore</w> desolate <w norm="widow">widdow</w> </quote><!-- ST Ref supplied--><lb/>
 
          
             <pb xml:id="page-141" n="141"/>
@@ -5836,18 +5841,18 @@
          <lb/> 
           hell &amp; the Grave. <w norm="do">doe</w> not despise<lb/>
            thy <w norm="weak">weake</w> <w norm="Handmaid">Handmaide</w><surplus reason="superfluous">.</surplus> for thou <w type="archaism">didst</w><lb/>
-           make me. I am thine <quote source="#KJV_Psalms_119:144" type="partial">oh give me<lb/>
+           make me. I am thine <quote xml:id="q-045" source="#KJV_Psalms_119:144" type="partial">oh give me<lb/>
              understanding &amp; I shall live. </quote>  take<lb/>
-          me not a way out of the <quote source="#KJV_Psalms_52:5" type="phrase">Land of the<lb/>
-            living</quote><surplus reason="superfluous">.</surplus> but give me to <quote source="#_1Chronicles_28:9" type="partial">serve the Lord<lb/>
+          me not a way out of the <quote xml:id="q-046" source="#KJV_Psalms_52:5" type="phrase">Land of the<lb/>
+            living</quote><surplus reason="superfluous">.</surplus> but give me to <quote xml:id="q-047" source="#_1Chronicles_28:9" type="partial">serve the Lord<lb/>
              with a perfect heart &amp; a willing mind.</quote><lb/> 
           <w norm="hear">heere</w> the Rod &amp; who hath sent it. is<lb/>
-           <quote source="#_Amos_3:6" type="partial"> there any <w norm="Evil">Evill</w> in a City &amp; the Lord has<lb/>
-             not <w norm="done">don</w> it. </quote> <quote source="#KJV_Hebrews_9:27" type="partial">Is there not an <w norm="appointed">apointed</w> <lb/>
+           <quote xml:id="q-048" source="#_Amos_3:6" type="partial"> there any <w norm="Evil">Evill</w> in a City &amp; the Lord has<lb/>
+             not <w norm="done">don</w> it. </quote> <quote xml:id="q-049" source="#KJV_Hebrews_9:27" type="partial">Is there not an <w norm="appointed">apointed</w> <lb/>
                time for man once to die.</quote> oh that I may<lb/>
-           <quote source="#_1Corinthians_15:31" type="phrase">die daily</quote> &amp; be with God in <w norm="soul">soule</w> &amp; <w norm="spirit">spirt</w><lb/>
+           <quote xml:id="q-050" source="#_1Corinthians_15:31" type="phrase">die daily</quote> &amp; be with God in <w norm="soul">soule</w> &amp; <w norm="spirit">spirt</w><lb/>
           loving him with all my <w norm="soul">soule</w> &amp; a perfect<lb/>
-           <g ref="#heart">♥</g>. <quote source="#_Psalms_46:10" type="paraphrase">I must be still &amp; know that it <seg rend="differentInk">is God</seg> </quote>
+           <g ref="#heart">♥</g>. <quote xml:id="q-051" source="#_Psalms_46:10" type="paraphrase">I must be still &amp; know that it <seg rend="differentInk">is God</seg> </quote>
             <lb/>
            that <w type="archaism">Ruleth</w> in <seg rend="differentInk">H</seg>. &amp; Earth. the Lord is<lb/>
            his name. &amp; his mercy <add xml:id="ex-add-above-ink-01" place="above" rend="differentInk">is</add> unto us. for he<lb/>
@@ -5876,7 +5881,7 @@
           prayers of him for me &amp; mine which I have<lb/>
           <w norm="enjoyed">injoyed</w> for many <w norm="years">yeares</w>, what can I <lb/>
           say, or what can I <w norm="do">doe</w>, each remembra<add place="above">nce</add> <lb/>
-           brings in a  fresh flood of <w norm="tears">teares</w>.<quote source="#_Psalms_6:6" type="partial"> I water<lb/>
+           brings in a  fresh flood of <w norm="tears">teares</w>.<quote xml:id="q-052" source="#_Psalms_6:6" type="partial"> I water<lb/>
              my Couch.</quote>  &amp; <w norm="widowed">widdowed</w> desolate bed<surplus reason="superfluous">.</surplus> for<lb/>
           my <w norm="self">selfe</w> &amp; Children. <sic>my</sic> <w norm="think">thinke</w> I <w norm="hear">heare</w><lb/>
           him say <w norm="weep">weepe</w> not for me but <w norm="weep">weepe</w> for<lb/>
@@ -5970,7 +5975,7 @@
           may be a <w norm="continual">continuall</w> <w norm="preparedness">preparednesse</w> &amp;<lb/>
           know that this affliction is to this very end<lb/>
           &amp; that as we did in this life suffer so may<lb/>
-           we <w norm="Reign">Reigne</w> together with him who is <quote source="#_Hebrews_12:2" type="partial"> the<lb/>
+           we <w norm="Reign">Reigne</w> together with him who is <quote xml:id="q-053" source="#_Hebrews_12:2" type="partial"> the<lb/>
              Author &amp; finisher of our faith.</quote> </p>
          
             <pb xml:id="page-146" n="146"/>
@@ -5997,7 +6002,7 @@
           the Great God of Heaven with Joy<lb/>
           &amp; not with <w norm="grief">greife</w>. &amp; in the end of my<lb/>
           <w norm="days">daies</w> <w norm="receive">receave</w> the end of my hope even<lb/>
-           the Salvation of my <w norm="Soul">Soule</w>.  <quote source="#_Revelation_21:4" type="paraphrase"> where there is<lb/>
+           the Salvation of my <w norm="Soul">Soule</w>.  <quote xml:id="q-054" source="#_Revelation_21:4" type="paraphrase"> where there is<lb/>
              <w norm="no">noe</w> sighing<pc norm=",">.</pc> <w norm="no">noe</w> weeping<pc norm=",">.</pc> for all tears<lb/>
              shall be wiped from our Eyes.</quote> then <del rend="strikethrough">sh</del><lb/> 
            shall be love <w norm="without">with out</w> hatred. Joy <w type="query">witho<supplied reason="omitted">ut</supplied></w><!-- Q maybe supplied is more appropriate than norm/abbr here. need to do consistency checks later! [endnote] Means without but incomplete – only the 'o'. --><lb/>
@@ -6032,7 +6037,7 @@
           not <w norm="arm">arme</w> themselves with those weapons that shall<lb/>
           <w norm="enable">inable</w> them to fight the fight against sin<lb/>
           the <w norm="devil">devill</w> &amp; the worldly <w norm="mind">minde</w>. shall we Love<lb/>
-           <w norm="dross">drosse</w> above Gold. <quote source="#KJV_2Corinthians_5:2-4" type="paraphrase"> for if our Earthly Tab<lb break="no"/>
+           <w norm="dross">drosse</w> above Gold. <quote xml:id="q-055" source="#KJV_2Corinthians_5:2-4" type="paraphrase"> for if our Earthly Tab<lb break="no"/>
           ernacle were <w norm="done">don</w> away. we have a building<lb/>
           not made with hands <w norm="whose">whoes</w> maker &amp;<lb/>
           builder is God. how should I <w norm="groan">groane</w> after<lb/>
@@ -6054,7 +6059,7 @@
           To <w norm="Glorify">Glorifie</w> thy name. &amp; adore thee in my<lb/>
           <w norm="Soul">Soule</w> &amp; <w norm="spirit">spiritt</w>: <w norm="let">lett</w> me not serve thee with<lb/>
           a slavish service but <add place="above">with a</add> true <w norm="filial">filliall</w> obe-<lb break="no"/>
-           -dience  <quote source="#KJV_Psalms_19:13" type="paraphrase"> thou that <w type="archaism">hast</w> kept me from great<lb/>
+           -dience  <quote xml:id="q-056" source="#KJV_Psalms_19:13" type="paraphrase"> thou that <w type="archaism">hast</w> kept me from great<lb/>
           &amp; <w norm="presumptuous">presuntious</w> <w norm="sins">sinnes</w> <w norm="deliver">delivr</w> me from every<lb/>
              sin be it never so s<supplied reason="smudge">mall</supplied> </quote> <!-- ST Ref supplied--> 
             <lb/>
@@ -6071,16 +6076,16 @@
             <fw rend="underline"><date>1668</date>.</fw>
          </fw>
          <lb/> 
-           <quote source="#KJV_Romans_8:35,37-39" type="allusion">That may <w norm="endanger">indanger</w> a <w norm="separation">seperation</w> bet<lb break="no"/>
+           <quote xml:id="q-057" source="#KJV_Romans_8:35,37-39" type="allusion">That may <w norm="endanger">indanger</w> a <w norm="separation">seperation</w> bet<lb break="no"/>
            -twixt me &amp; my God.</quote> <!-- ST Ref supplied-->  O Lord take me<lb/>
           to thy <w norm="own">owne</w> keeping &amp; <w norm="tuition">tuittion</w>. <w norm="bless">blesse</w><lb/>
-           thou thy ><w norm="handiwork">handy worke</w> who thou <w type="archaism">hast</w><lb/>
+           thou thy &gt;<w norm="handiwork">handy worke</w> who thou <w type="archaism">hast</w><lb/>
           bestowed so much <w norm="pains">paines</w> about &amp; on<lb/>
            whom so many <w norm="mercies">mercys</w> <w type="archaism">hast</w> <w norm="been">bin</w> bestowd<supplied>.</supplied><lb/>
-           <w norm="here">heere</w> I am <quote source="#_1Samuel_3:10" type="partial"> <w norm="speak">speake</w> Lord thy servant<lb/>
-             <w type="archaism">heareth</w>. </quote> <!-- ST Ref supplied--> <quote source="#GB_Luke_22:42" type="paraphrase">Lord what <w norm="wilt">willt</w> thou have me<lb/>
+           <w norm="here">heere</w> I am <quote xml:id="q-058" source="#_1Samuel_3:10" type="partial"> <w norm="speak">speake</w> Lord thy servant<lb/>
+             <w type="archaism">heareth</w>. </quote> <!-- ST Ref supplied--> <quote xml:id="q-059" source="#GB_Luke_22:42" type="paraphrase">Lord what <w norm="wilt">willt</w> thou have me<lb/>
           to <w norm="do">doe</w> I <w norm="resign">resigne</w> my will to thy Glorious<lb/>
-               pleasure either in life or death </quote> <!-- ST Ref supplied--> <quote source="#KJV_Romans_8:2" type="allusion"> make <lb/>
+               pleasure either in life or death </quote> <!-- ST Ref supplied--> <quote xml:id="q-060" source="#KJV_Romans_8:2" type="allusion"> make <lb/>
                  me be freed from this <w norm="body">bodie</w> of death </quote> <!-- ST Ref supplied-->that<lb/>
           I may serve thee with perfect freedom of<lb/>
           mind will &amp; affections &amp; may be holy<lb/>
@@ -6095,7 +6100,7 @@
           that I may be an Example of thy <w norm="transcendent" type="break">transend-<lb break="no"/>
            -ant</w> <w norm="mercies">mercys</w> to all Posterity<surplus reason="superfluous">.</surplus> that my Childr-<lb break="no"/>
           en may be great <w norm="instruments">instrumenst</w> of thy praise<lb/>
-           &amp; my <w norm="self">selfe</w> <quote source="#_Acts_9:15" type="paraphrase"> a Chosen <w norm="vessel">vesell</w> to set forth<lb/>
+           &amp; my <w norm="self">selfe</w> <quote xml:id="q-061" source="#_Acts_9:15" type="paraphrase"> a Chosen <w norm="vessel">vesell</w> to set forth<lb/>
            thy Glory to this Generation.</quote></p>
          
             <pb xml:id="page-149" n="149"/>
@@ -6114,9 +6119,9 @@
          <p xml:id="p-0163">Although my Afflictions be great &amp; <!-- NOTE moved fw pageNum | -->
             <lb/>
            heavy<pc norm=",">.</pc> sad &amp; <w norm="burdensome">burthensome</w> to this <w norm="weak">weake</w><lb/>
-           <w norm="body">bodie</w> yet <quote source="#_Psalms_18:1-2" type="paraphrase"> in thee is my strength. &amp; my hope<lb/>
+           <w norm="body">bodie</w> yet <quote xml:id="q-062" source="#_Psalms_18:1-2" type="paraphrase"> in thee is my strength. &amp; my hope<lb/>
           my Joy &amp; my <w norm="fortress">fortresse</w>. </quote>Lord be to they <choice><sic>servat</sic><corr>servant</corr></choice><lb/>
-           as thou <w type="archaism">wast</w> unto David<pc norm=",">.</pc> <quote source="#_1Chronicles_28:9" type="partial">who served thee with<lb/>
+           as thou <w type="archaism">wast</w> unto David<pc norm=",">.</pc> <quote xml:id="q-063" source="#_1Chronicles_28:9" type="partial">who served thee with<lb/>
           a perfect <g ref="#heart">♥</g> &amp; ready <w norm="mind">minde</w>. </quote>Thou art the<lb/>
           giver thy <w norm="gift">guift</w> is thy <w norm="self">selfe</w>. o let thy<lb/>
           spirit dwell in me &amp; mine richly. &amp; let<lb/>
@@ -6132,9 +6137,9 @@
           <w norm="virtues">vertues</w> <w norm="necessary">neccesseary</w> to lead &amp; conduct my<lb/>
            life<surplus reason="superfluous">.</surplus> to thy <w norm="own">owne</w> Glory. &amp; for thy name<lb/>
           Sake to give thee the honour of my Creation<lb/>
-           that <quote source="#_Matthew_6:10 #_Luke_11:2" type="paraphrase"> I may <w norm="do">doe</w> Thy will on earth as <w norm="'tis" type="query">tis</w><!-- Q [word] is 'tis part of the original, if so I think keep (as per for ever in bcp)? --> <w norm="done">don</w><lb/>
+           that <quote xml:id="q-064" source="#_Matthew_6:10 #_Luke_11:2" type="paraphrase"> I may <w norm="do">doe</w> Thy will on earth as <w norm="'tis" type="query">tis</w><!-- Q [word] is 'tis part of the original, if so I think keep (as per for ever in bcp)? --> <w norm="done">don</w><lb/>
           in Heaven.</quote> And I humbly <w norm="beg">begge</w> o Lord<lb/>
-           that <quote source="#KJV_Psalms_63:11" type="paraphrase"> the mouths of all my unjust adversaries<lb/>
+           that <quote xml:id="q-065" source="#KJV_Psalms_63:11" type="paraphrase"> the mouths of all my unjust adversaries<lb/>
           may be <w norm="stopped">stoped</w>. </quote> make them ashamed of<lb/>
           there <w norm="sins">sinns</w>. &amp; give them true repentance<lb/>
           &amp; pardon if it be thy will for them that<lb/>
@@ -6158,7 +6163,7 @@
            <w norm="petitions">pettitions</w> I crave for the only <w norm="merits">merritts</w><lb/>
            &amp; blood <w norm="shedding">sheding</w> of my dearest Savior<lb/>
            Jesus the Righteous who <w norm="intercedeth">interseadeth</w><lb/>
-           for us at the <quote type="phrase" source="#_Hebrews_4:16">Throne of thy Grace </quote> even<lb/>
+           for us at the <quote xml:id="q-066" type="phrase" source="#_Hebrews_4:16">Throne of thy Grace </quote> even<lb/>
            for me &amp; all those that love his <w norm="appearing">appeering</w><lb/>
            To whom with the Glorious Father &amp; holy<lb/>
            <w norm="spirit">spiritt</w>. Ever blessed &amp; <w norm="Infinite">Infinitt</w> <w norm="blessed">blesed</w><lb/>
@@ -6199,7 +6204,7 @@
           -fortably for the want of the <w norm="sense">sence</w> of<lb/>
           Gods favour. &amp; in great <w norm="fears">feares</w> &amp; horrors<lb/>
           but now the Lord was pleased to make <w norm="himself" type="break">him<lb break="no"/>
-          -selfe</w> <w norm="known">knowne</w> to him to be a <quote type="allusion" source="#_Colossians_1:20"> <w norm="reconciled">reconsiled</w><lb/>
+          -selfe</w> <w norm="known">knowne</w> to him to be a <quote xml:id="q-067" type="allusion" source="#_Colossians_1:20"> <w norm="reconciled">reconsiled</w><lb/>
           father in Christ. &amp; that he was at Peace<lb/>
           with him </quote> <!-- ST See also 2nd Article of Religion-->&amp; did <w norm="feel">feele</w> a great <w norm="deal">deale</w> of<lb/>
           Joy &amp; comfort inwardly in his <w norm="soul">soule</w><lb/>
@@ -6336,7 +6341,7 @@
           any thing in this life. yet must I<lb/>
           submit for the Lords sake with patience &amp;<lb/>
          <w norm="submission">submiteon</w> &amp; resignation<surplus reason="superfluous">.</surplus> in hopes of a<lb/>
-         <w norm="Joyful">Joyfull</w> <quote type="allusion" source="#_John_6:44"> <w norm="resurrection">resurection</w> at the last day </quote> then<lb/>
+         <w norm="Joyful">Joyfull</w> <quote xml:id="q-068" type="allusion" source="#_John_6:44"> <w norm="resurrection">resurection</w> at the last day </quote> then<lb/>
           to be united in praising God <w norm="forever">for ever</w>.</p>
          
             <pb xml:id="page-155" n="155"/>
@@ -6361,7 +6366,7 @@
           who Preached his <w norm="Funeral">Funerall</w> sermon.<lb/>
           <w norm="Whose">Whoes</w> Text was in <ref type="biblical" source="#KJV_Ecclesiastes_12:1"><w norm="Ecclesiastes">Eclesiastese</w>: 12<hi rend="superscript">th</hi>
             <lb/>
-            the 1<hi rend="superscript">st</hi> <w norm="verse">verce</w>.<!-- Q std ref with "verse" --></ref> <quote source="#KJV_Ecclesiastes_12:1">Remember now thy <lb/>
+            the 1<hi rend="superscript">st</hi> <w norm="verse">verce</w>.<!-- Q std ref with "verse" --></ref> <quote xml:id="q-069" source="#KJV_Ecclesiastes_12:1">Remember now thy <lb/>
           Creator in the <w norm="days">daies</w> of thy youth, while<lb/>
           the <w norm="Evil">Evill</w> <w norm="days">daies</w> come not, nor the <w norm="years">yers</w><lb/>
           draw nigh; when thou shalt say,<lb/>
@@ -6425,7 +6430,7 @@
          </fw> 
    <lb/>
          <l>Let them be <w norm="cleared">cleard</w>, and now begin<lb/>
-           to see<pc norm=",">.</pc>></l>
+           to see<pc norm=",">.</pc>&gt;</l>
          <l>Our life is but a step<surplus reason="superfluous">.</surplus> in dusty way.</l>
          <l>Then let us hold, the <w norm="bliss">blisse</w> of <w norm="peaceful">peacefull</w><lb/>
            <w norm="minds">mindes</w><pc norm=",">.</pc></l>
@@ -6710,10 +6715,10 @@
           <w norm="frail">fraile</w> despised <w norm="handmaid">hanmaid</w> of thine, have<lb/>
           mercy upon thy <w norm="poor">poore</w> Servant, whom thou<lb/>
            <w type="archaism">hast</w> made, &amp; preserved by thy power<lb/>
-           &amp; might hitherto, <w norm="lo">loe</w> <quote source="#BCP_Psalter_Psalm_88:7">thine indignation<lb/>
+           &amp; might hitherto, <w norm="lo">loe</w> <quote xml:id="q-070" source="#BCP_Psalter_Psalm_88:7">thine indignation<lb/>
              <w type="archaism">Lieth</w> hard upon me, &amp; thou <w type="archaism">hast</w> vexed<lb/>
-             me with all thy <w norm="storms">stormes</w> </quote>; <quote type="partial" source="#BCP_Psalter_Psalm_38:2">thy hand <w type="archaism">presseth</w><lb/>
-          me sore </quote>; <quote source="#KJV_Psalm_88:3">My <w norm="soul">soule</w> is full of trouble by<lb/>
+             me with all thy <w norm="storms">stormes</w> </quote>; <quote xml:id="q-071" type="partial" source="#BCP_Psalter_Psalm_38:2">thy hand <w type="archaism">presseth</w><lb/>
+          me sore </quote>; <quote xml:id="q-072" source="#KJV_Psalm_88:3">My <w norm="soul">soule</w> is full of trouble by<lb/>
             reason of my <w norm="Sins">Sinnes</w>, &amp; my life <w type="archaism">draweth</w><lb/>
            nigh<lb/>
          
@@ -6734,9 +6739,9 @@
           more <w norm="ardour">ardur</w> &amp; <w norm="Zeal">Zeale</w>, O restore me to thy <lb/>
           favour <w norm="again">againe</w>, &amp; now I am brought<lb/>
           into a <w norm="forlorn">forlorne</w> &amp; <w norm="Widowed">Widdowed</w> <w norm="condition">condittion</w><lb/>
-        <quote source="#KJV_2Kings_2:9" type="partial"> give me o Lord a <w norm="double">dubble</w> proportion of<lb/>
+        <quote xml:id="q-073" source="#KJV_2Kings_2:9" type="partial"> give me o Lord a <w norm="double">dubble</w> proportion of<lb/>
            thy <w norm="Spirit">Spiritt</w> to be my Illumination, </quote>   &amp; a<lb/>
-          guide in this my <w norm="Saddest">Sadest</w> <w norm="Pilgrimage">Pilgramge</w>. <quote source="#BCP_Psalter_PSalm_119:105">thy<lb/>
+          guide in this my <w norm="Saddest">Sadest</w> <w norm="Pilgrimage">Pilgramge</w>. <quote xml:id="q-074" source="#BCP_Psalter_PSalm_119:105">thy<lb/>
           word a <w norm="lantern">lanthorne</w> to my <w norm="paths">pathes</w> &amp; a<lb/>
             light unto my <w norm="ways">waies</w> </quote>that I tread not<lb/>
           the steps of death, let me not <w norm="go">goe</w> down<lb/>
@@ -6763,7 +6768,7 @@
           given, due unto thy. <add place="above">name</add> And o Lord give<lb/>
           me power &amp; strength to <w norm="imitate">immitate</w> his<lb/>
           virtues <w norm="being">beeing</w> called to thy Service in<lb/>
-          our youths, give me grace <quote source="#_Luke_9:23" type="partial">to take up thy<lb/>
+          our youths, give me grace <quote xml:id="q-075" source="#_Luke_9:23" type="partial">to take up thy<lb/>
             <w norm="Cross">Crosse</w> <w norm="daily">dalie</w> &amp; follow thee,</quote> being <w norm="meek">meeke</w><lb/>
           &amp; <w norm="lowly">lowlie</w> in <w norm="Spirit">Spiritt</w>; submissive with a true<lb/>
           &amp; <w norm="catholic">catholike</w> resignation to All thy wise<lb/>
@@ -6775,7 +6780,7 @@
           thing which may <w norm="adorn">addorne</w> my <w norm="Soul">Soule</w> in thy<lb/>
           sight <add place="above">&amp;</add> <w norm="making">makeing</w> it lovely in sight of my<lb/>
           <w norm="Redeemer">Reedemer</w>, who Purchased it with his blood<lb/>
-           write upon the <quote source="#_Proverbs_7:3" type="phrase"> Tables of my heart </quote> <quote source="#KJV_Zechariah_14:20" type="phrase"> <w norm="Holiness">Holinesse</w><lb/>
+           write upon the <quote xml:id="q-076" source="#_Proverbs_7:3" type="phrase"> Tables of my heart </quote> <quote xml:id="q-077" source="#KJV_Zechariah_14:20" type="phrase"> <w norm="Holiness">Holinesse</w><lb/>
           unto the Lord,</quote> give me grace to <w norm="continue">contineue</w> a<lb/>
           pure <w norm="mind">minde</w> in a pure <w norm="body">bodie</w> cleansed by<lb/>
 
@@ -6801,7 +6806,7 @@
           <w norm="Bridegroom">Bridegroome</w> of my <w norm="Soul">Soule</w>. And in the <w norm="interim">intrim</w><lb/>
           let me <w norm="show">shew</w> forth the <w norm="loving">loveing</w> <w norm="kindness">kindnesse</w> of<lb/>
           the Lord amongst the <w norm="Redeemed">Reedemed</w> ones in the<lb/>
-           land of the living: <quote source="#KJV_Isaiah_38:19" type="partial"> for the <w norm="living">liveing</w>, the <w norm="living">liveing</w><lb/>
+           land of the living: <quote xml:id="q-078" source="#KJV_Isaiah_38:19" type="partial"> for the <w norm="living">liveing</w>, the <w norm="living">liveing</w><lb/>
           he shall praise thee </quote>&amp; <w norm="confess">confesse</w> thy<lb/> 
           <w norm="Holiness">Holinesse</w>, &amp; the <w norm="mercies">mercys</w> of thy holy Name<lb/>
           O hide not thy face from me any more <surplus reason="superfluous">.</surplus><lb/>
@@ -6834,14 +6839,14 @@
           my words &amp; Actions. blessing me &amp; mine<lb/>
           with <w norm="happy">happie</w> opportunities of <w norm="doing">doeing</w> thee<lb/>
           that service that we are capable of in this Life.<lb/>
-           <quote source="#KJV_Colossians_4:5 #KJV_Ephesians_5:16" type="allusion">That I may <w norm="redeem">redeeme</w> the time </quote> past. &amp; by<lb/>
-           <quote source="#KJV_1Timothy_6:18" type="phrase">thy Grace may grow Rich in good works,</quote><lb/>
-          <quote source="#_1Corinthians_15:58" type="partial"><w norm="always">allwayes</w> abounding in the <w norm="work">worke</w> of the<lb/>
+           <quote xml:id="q-079" source="#KJV_Colossians_4:5 #KJV_Ephesians_5:16" type="allusion">That I may <w norm="redeem">redeeme</w> the time </quote> past. &amp; by<lb/>
+           <quote xml:id="q-080" source="#KJV_1Timothy_6:18" type="phrase">thy Grace may grow Rich in good works,</quote><lb/>
+          <quote xml:id="q-081" source="#_1Corinthians_15:58" type="partial"><w norm="always">allwayes</w> abounding in the <w norm="work">worke</w> of the<lb/>
             Lord,</quote> that when thou shalt demand my<lb/>
           <w norm="Soul">Soule</w> to be <w norm="rendered">rendred</w> up into thy hands<lb/>
           My <w norm="soul">soule</w> may not be abhorred of thee.<lb/>
           Nor suffer thy terrors, but may feel an<lb/>
-          <w norm="Eternity">Etternity</w> of blessings in the <quote source="#_Luke_14:14" type="phrase">Resurrection of<lb/>
+          <w norm="Eternity">Etternity</w> of blessings in the <quote xml:id="q-082" source="#_Luke_14:14" type="phrase">Resurrection of<lb/>
             the Just</quote>; and this I most humbly beg<lb/>
           with the Sanctification of thy most holy Spirit<lb/>
            &amp;<lb/>
