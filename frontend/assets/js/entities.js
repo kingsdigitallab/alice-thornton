@@ -77,9 +77,17 @@ function setUpTextViewer() {
           query: this.selection.query,
           filters: filters,
         });
+
+        //console.log(this.itemsjs.aggregations())
       },
       fetchRecords() {
         const configuration = {
+          sortings: {
+            name_asc: {
+              field: "sortkey",
+              order: "asc",
+            },
+          },
           aggregations: {
             type: {
               title: "Type",
@@ -87,6 +95,7 @@ function setUpTextViewer() {
               conjunction: false,
             },
           },
+          searchableFields: ["title"],
         };
         this.records = [];
         fetch(entitiesSource)

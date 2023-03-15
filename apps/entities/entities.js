@@ -3,8 +3,10 @@
 const SaxonJS = require("saxon-js");
 const fs = require("fs");
 
-const sources = ["../../tmp/people.xml"];
-const target = "../../frontend/_site/assets/js/entities.json";
+const sources = ["../../tmp/people.xml", "../../tmp/places.xml"];
+// const target = "../../frontend/_site/assets/js/entities.json";
+const target = "../../frontend/assets/js/entities.json";
+const jsonSheetPath = "xslt/tei-to-json.sef.json";
 
 class Entities {
   constructor() {
@@ -22,16 +24,14 @@ class Entities {
   }
 
   loadTei(source) {
-    let jsonSheetPath = "tei-to-json.sef.json";
     // let docString = this.readFile(source)
     let entitiesJson = this.xslt(source, jsonSheetPath);
-    console.log(entitiesJson);
+    // console.log(entitiesJson);
     let entities = JSON.parse(entitiesJson);
-    console.log(entities);
+    // console.log(entities);
 
-    for (let e in entities) {
-      console.log(e);
-      this.entities.push(e);
+    for (let i in entities) {
+      this.entities.push(entities[i]);
     }
   }
 
@@ -60,6 +60,7 @@ class Entities {
   }
 
   writeJson(path, data) {
+    // console.log(data)
     fs.writeFileSync(path, JSON.stringify(data, null, 2), "utf8");
     console.log(`WRITE ${path}`);
   }

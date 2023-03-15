@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Entities
 ---
 
 {% raw %}
@@ -40,11 +40,14 @@ title: Index
     </form>
 
     <div class="search-results column">
-      <h2>Search results</h2>
+      <h2>Search results ({{ results.pagination.total }})</h2>
       <ul>
         <li v-for="item in items" :class="`entity-${item.type}`">
+          <template v-if="item.type=='person'">👤</template>
+          <template v-if="item.type=='place'">🏳</template>
+          <template v-if="item.type=='event'">🗓</template>
+          <span class="is-hidden">{{ item['id'] }}</span>
           {{ item.title }}
-          [{{ item.type }}]
         </li>
       </ul>
     </div>
