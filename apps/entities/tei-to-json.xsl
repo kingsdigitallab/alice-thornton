@@ -41,7 +41,9 @@
             "title": "<xsl:value-of select='tei:placeName[@type="label"]/text()'/><xsl:value-of select='tei:geogName[@type="label"]/text()'/>",
             "type": "place",
             "subtype": "<xsl:value-of select='@type'/>",
-            "sortkey": "<xsl:value-of select='tei:placeName[@type="label"]/text()'/><xsl:value-of select='tei:geogName[@type="label"]/text()'/>"
+            "sortkey": "<xsl:value-of select='tei:placeName[@type="label"]/text()'/><xsl:value-of select='tei:geogName[@type="label"]/text()'/>",
+            "region": "<xsl:value-of select='tei:location/tei:region/text()'/>",
+            "settlement": "<xsl:value-of select='tei:location/tei:settlement/text()'/>"
         }
         <xsl:if test="position()!=last()">,</xsl:if>
     </xsl:template>

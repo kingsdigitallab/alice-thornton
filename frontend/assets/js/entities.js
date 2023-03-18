@@ -9,8 +9,9 @@ function setUpTextViewer() {
           query: "",
           type: "",
           perPage: 10,
+          page: 1,
         },
-        facets: {
+        _facets: {
           type: {
             name: "Type",
             options: {
@@ -38,20 +39,45 @@ function setUpTextViewer() {
       this.fetchRecords();
     },
     computed: {
+      facets() {
+        return this.results.data.aggregations;
+      },
       items() {
         return this.results.data.items;
       },
     },
     watch: {
-      facets: {
-        // eslint-disable-next-line
-        handler(newValue, oldValue) {
-          this.search();
-        },
-        deep: true,
-      },
+      // "results.data.aggregations": {
+      //   // eslint-disable-next-line
+      //   handler(newValue, oldValue) {
+      //     if (newValue != oldValue) {
+      //       this.search();
+      //     }
+      //   },
+      //   deep: true,
+      // },
     },
     methods: {
+      onClickNextPage() {
+        this.selection.page++;
+        this.search();
+      },
+      onClickPrevPage() {
+        this.selection.page--;
+        this.search();
+      },
+      getBuckets(facet) {
+        return facet.buckets.sort((a, b) => {
+          if (a.doc_count < b.doc_count) return 1;
+          if (a.doc_count > b.doc_count) return -1;
+          return 0;
+        });
+      },
+      onClickOption() {
+        window.Vue.nextTick(() => {
+          this.search();
+        });
+      },
       onSubmitInputs() {
         this.search();
       },
@@ -59,20 +85,19 @@ function setUpTextViewer() {
         let filters = {};
         for (let facetKey of Object.keys(this.facets)) {
           let facet = this.facets[facetKey];
-          for (let optionKey of Object.keys(facet.options)) {
-            let option = facet.options[optionKey];
+          for (let option of facet.buckets) {
             if (option.selected) {
               if (!filters[facetKey]) {
                 filters[facetKey] = [];
               }
-              filters[facetKey].push(optionKey);
+              filters[facetKey].push(option.key);
             }
           }
         }
-        console.log(filters);
 
         this.results = this.itemsjs.search({
           per_page: this.perPage,
+          page: this.selection.page,
           sort: "name_asc",
           query: this.selection.query,
           filters: filters,
@@ -92,6 +117,11 @@ function setUpTextViewer() {
             type: {
               title: "Type",
               size: 10,
+              conjunction: false,
+            },
+            region: {
+              title: "Region",
+              size: 100,
               conjunction: false,
             },
           },

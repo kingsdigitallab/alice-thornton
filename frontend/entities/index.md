@@ -22,14 +22,14 @@ title: Entities
 
         <template v-for="(facet, facetKey) in facets">
           <p class="panel-heading">
-            {{ facet['name'] }}
+            {{ facet.title }}
           </p>
           <div class="panel-block">
             <ul>
-              <li v-for="(option, optionKey) in facet.options">
+              <li v-for="option in getBuckets(facet)">
                 <label class="checkbox">
-                  <input type="checkbox" v-model="option.selected">
-                  {{ option['name'] }}
+                  <input type="checkbox" v-on:change="onClickOption" v-model="option.selected">
+                  {{ option.key }} ({{ option.doc_count }})
                 </label>
               </li>
             </ul>
@@ -41,6 +41,11 @@ title: Entities
 
     <div class="search-results column">
       <h2>Search results ({{ results.pagination.total }})</h2>
+      <div>
+        <a v-on:click.prevent="onClickPrevPage" href="#">Prev</a>
+        {{ selection.page }} / {{ results.pagination.total }}
+        <a v-on:click.prevent="onClickNextPage" href="#">Next</a>
+      </div>
       <ul>
         <li v-for="item in items" :class="`entity-${item.type}`">
           <template v-if="item.type=='person'">👤</template>
