@@ -5,7 +5,9 @@ status: live
 authors:
 - cbeattie
 tags:
-- manuscripts, childbirth, law
+- manuscripts
+- childbirth
+- law
 ---
 For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on [Twitter](https://twitter.com/thornton_books) or on [Facebook](https://www.facebook.com/thornton.books).
 
