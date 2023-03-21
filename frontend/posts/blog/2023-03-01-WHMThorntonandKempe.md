@@ -5,13 +5,15 @@ status: live
 authors:
 - cbeattie
 tags:
-- manuscripts, childbirth, law
+- manuscripts
+- childbirth
+- law
 ---
-CN: childbirth and pain
-
 For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on [Twitter](https://twitter.com/thornton_books) or on [Facebook](https://www.facebook.com/thornton.books).
 
 First up is project PI, [Cordelia Beattie](https://thornton.kdl.kcl.ac.uk/people/cbeattie/): 
+
+CN: childbirth and pain
 
 My first encounter with Alice Thornton’s writings was in 2000. I had been asked to teach a comparative history course on ‘Women and the Family’ at York St John University, focussing on the medieval period, the seventeenth century and 1890-1918. At the time I was finishing my PhD on medieval single women and so the first part was quite straightforward. The second part was a new challenge.
 
