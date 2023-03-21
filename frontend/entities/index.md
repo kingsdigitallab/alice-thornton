@@ -15,7 +15,7 @@ title: Entities
           <div class="control has-icons-left">
             <input class="input" type="text" v-model="selection.query">
             <span class="icon is-left">
-              <i class="fas fa-search" aria-hidden="true"></i>
+              <i class="fas fa-search" aria-hidden="true">🔍</i>
             </span>
           </div>
         </div>
@@ -25,7 +25,7 @@ title: Entities
             {{ facet.title }}
           </p>
           <div class="panel-block">
-            <ul>
+            <ul class="undecorated-list">
               <li v-for="option in getBuckets(facet)">
                 <label class="checkbox">
                   <input type="checkbox" v-on:change="onClickOption" v-model="option.selected">
@@ -40,13 +40,31 @@ title: Entities
     </form>
 
     <div class="search-results column">
-      <h2>Search results ({{ results.pagination.total }})</h2>
-      <div>
-        <a v-on:click.prevent="onClickPrevPage" href="#">Prev</a>
-        {{ selection.page }} / {{ results.pagination.total }}
-        <a v-on:click.prevent="onClickNextPage" href="#">Next</a>
-      </div>
-      <ul>
+      <h2>Results ({{ results.pagination.total }})</h2>
+
+      <nav class="pagination" aria-label="pagination">
+        <ul class="pagination-list">
+          <li>
+            <a href="#" 
+              v-on:click.prevent="onClickPrevPage" 
+              class="pagination-link" 
+              aria-label="Previous page" 
+            >Previous</a>
+          </li>
+          <li>
+            Page {{ selection.page }} of {{ lastPageNumber }}
+          </li>
+          <li>
+            <a href="#" 
+              v-on:click.prevent="onClickNextPage" 
+              class="pagination-link" 
+              aria-label="Next page" 
+            >Next</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="undecorated-list">
         <li v-for="item in items" :class="`entity-${item.type}`">
           <template v-if="item.type=='person'">👤</template>
           <template v-if="item.type=='place'">🏳</template>

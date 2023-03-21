@@ -45,6 +45,13 @@ function setUpTextViewer() {
       items() {
         return this.results.data.items;
       },
+      lastPageNumber() {
+        return (
+          Math.trunc(
+            this.results.pagination.total / this.results.pagination.per_page
+          ) + 1
+        );
+      },
     },
     watch: {
       // "results.data.aggregations": {
@@ -75,10 +82,12 @@ function setUpTextViewer() {
       },
       onClickOption() {
         window.Vue.nextTick(() => {
+          this.selection.page = 1;
           this.search();
         });
       },
       onSubmitInputs() {
+        this.selection.page = 1;
         this.search();
       },
       search() {
