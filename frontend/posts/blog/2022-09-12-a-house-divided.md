@@ -7,6 +7,7 @@ authors:
 tags:
   - monarchy
   - yorkshire
+  - wars of the three kingdoms
 ---
 
 The last time a King Charles was proclaimed in London was in 1660.[^1] When Charles III acceded to the throne last week, there was some initial [speculation](https://inews.co.uk/news/king-charles-iii-name-why-monarchs-change-explained-1319520) about whether he might choose to [use one of his other names](https://www.hellomagazine.com/royalty/20220909150655/why-king-charles-iii-could-have-chosen-king-george-details/), given the reputations of Charles I and Charles II.

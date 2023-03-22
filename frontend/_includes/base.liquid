@@ -8,7 +8,6 @@ isContentHTML: false
     <meta charset="utf-8">
     <!-- Built with 11ty - {{ "now" | date: "%Y-%m-%d %H:%M" }} -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta name="author" content="King's Digital Lab, King's College London">
     {% if description %}<meta name="description" content="{{ description | escape_once }}">{% endif %}
     {% comment %}Twitter cards{% endcomment %}
@@ -37,7 +36,9 @@ isContentHTML: false
     <link rel="stylesheet" href="{{ '/assets/css/text-viewer.css' | url }}?ts={{ "now" | date: "%s" }}">
     <script src="{{ '/assets/js/navbar-toggle.js' | url }}?ts={{ "now" | date: "%s" }}"></script>
     <script src="{{ '/assets/js/main.js' | url }}?ts={{ "now" | date: "%s" }}" defer></script>
-  </head>
+    <!-- Background image credits:
+    Image by rawpixel.com on Freepik: https://www.freepik.com/free-photo/vintage-textured-watercolor-paper-background_15599882.htm
+    --></head>
   <body class="{{ body_class }}">
     {% include "header.liquid" %}
     <section class="section">
