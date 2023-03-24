@@ -729,13 +729,3 @@ ul.social_media_block {
   }
 }
 
-// GN: placeholders for customasing the rendering of the editions
-// and the views: view-semidi OR view-modern
-#text-viewer .panel .content {
-  &.view-modern {
-    // GN: dummy example of TEI customisation for modernised view
-    .tei-type-pageNum:before {
-      content: "page ";
-    }
-  }
-}
