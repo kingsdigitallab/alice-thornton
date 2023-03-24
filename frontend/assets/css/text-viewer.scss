@@ -67,4 +67,42 @@
     margin-top: 1em;
     border-bottom: 1px solid black;
   }
+
+  .tei-figure-wrapper {
+    font-size: 1.5rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  figure {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border: 5px solid grey;
+    padding: 2rem;
+    margin: 2rem;
+    // display: block;
+
+    background: white;
+
+    max-height: 90vh;
+    max-width: 90vw;
+    height: 90vh;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    img {
+      display: inline-block;
+      max-width: 90%;
+      max-height: 80%;
+      height: auto;
+    }
+
+    figcaption {
+      font-size: 1.5rem;
+    }
+  }
 }

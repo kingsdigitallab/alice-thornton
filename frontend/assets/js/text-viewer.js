@@ -251,6 +251,25 @@ function setUpTextViewer() {
         // console.log(doc)
         doc = doc.replace(/<\/br>/g, "");
         panel.responses.document = doc;
+        this.$nextTick(() => {
+          const btnFigures = window.document.querySelectorAll(".btn-figure");
+
+          btnFigures.forEach((btn) => {
+            if (btn.classList.contains("managed")) return;
+            console.log(btn);
+            const figure = btn.parentNode.querySelector("figure");
+            for (let element of [btn, figure]) {
+              element.addEventListener(
+                "click",
+                () => {
+                  figure.classList.toggle("hidden");
+                },
+                false
+              );
+            }
+            btn.classList.add("managed");
+          });
+        });
       },
       selectDefaultOption(panel, key) {
         if (key.startsWith("_")) return;
