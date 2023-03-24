@@ -53,10 +53,10 @@ room, 'some days before'. On the day:
 
 ![A black and white engraving of the bust of a white man with shoulder-length curly black hair]({{"/assets/img/posts/Effigies_of_John_Rushworth_wmc_YaleCBA.jpg" | url}} "Robert White, The Effigies of John Rushworth Esq. B1977.14.15099, Yale Center for British Art. Public domain, via Wikimedia Commons"){.media-left}
 
->'There were about 12 of them, he \[William Wandesford\] saw several
+>There were about 12 of them, he \[William Wandesford\] saw several
 disguised faces, particularly the Lord Baltimore and Mr William Lilly,
 and others suspected by him to be papists, which strange mixture did
-much amaze him.'[^6]
+much amaze him.[^6]
 
 John Rushworth, author of the _Historical Collections_ (1659), had
 strong ties to the parliamentarian cause.[^7] After the
