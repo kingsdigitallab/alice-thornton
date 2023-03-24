@@ -256,7 +256,6 @@ function setUpTextViewer() {
 
           btnFigures.forEach((btn) => {
             if (btn.classList.contains("managed")) return;
-            console.log(btn);
             const figure = btn.parentNode.querySelector("figure");
             for (let element of [btn, figure]) {
               element.addEventListener(

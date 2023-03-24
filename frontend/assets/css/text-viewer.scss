@@ -10,13 +10,17 @@
 #text-viewer .panel .content {
   &.view-modern {
     // GN: dummy example of TEI customisation for modernised view
-    .tei-type-pageNum:before {
-      content: "page ";
-    }
+    // .tei-type-pageNum:before {
+    //   content: "page ";
+    // }
 
     br {
       display: none;
     }
+  }
+
+  .tei-type-pageNum {
+    display: block;
   }
 
   &.view-semidip {
@@ -26,9 +30,7 @@
     }
   }
 
-  // shoul be converted into h1
-  .tei-head {
-    font-size: 1.5em;
+  h1, h2, h3 {
     color: inherit;
   }
 
@@ -74,6 +76,37 @@
 
   .hidden {
     display: none;
+  }
+
+  h1 {
+    font-size: 2em;
+    // TODO: center in panel, not just text?
+    text-align: center;
+  }
+  h2, .tei-fw.tei-type-head {
+    font-size: 1.6em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+
+    &:before {
+      background: none;
+      display: hidden;
+    }
+  }
+  h3, .tei-fw.tei-type-header {
+    font-size: 1.4em;
+    display: block;
+    text-align: center;
+  }
+
+  .tei-docAuthor {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .tei-type-monogram {
+    font-family: cursive;
   }
 
   figure {
