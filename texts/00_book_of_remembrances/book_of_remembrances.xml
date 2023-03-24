@@ -66,7 +66,7 @@
                  <!-- teiHeader msDesc <handDesc> (description of hands) contains a description of all the different hands used in a manuscript or other object. -->
                  <handNote xml:id="awt" scribeRef="ppl:awt1">
                    <!-- Q [tei] check this is correct use of scribeRef???
-                   not sure about this if awt is the assumed default and only #unknown (maybe #uncertain) is likely to be specified as a @hand??? 
+                   not sure about this if awt1 is the assumed default and only #unknown (maybe #uncertain) is likely to be specified as a @hand??? 
                    and (check with ST) possibly any #unknown should be omitted anyway... -->
                    Alice Thornton's hand.
                  </handNote>
@@ -118,7 +118,7 @@
          #JulianMar date = 1 Jan-24 Mar and year starts 25 March ("Lady Day" dating)
          #JulianSic (rare) only used where date = 1 Jan-24 Mar and we don't know which of the two possible years it is
          ***UPDATE: added for Book 3***
-         Book 3 contains a number of dates written in the form 1668/9 (=1669). 
+         Book 3 contains a number of dates written in the form 1668/9 (modern=1669). 
          #JulianSlash is used to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
          
          ** #JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
