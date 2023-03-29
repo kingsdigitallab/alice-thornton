@@ -1749,7 +1749,12 @@ point to <category> elements or to feature structure components.
                 </fw>
               
              <!-- [endnote] [bib] Note because a different kind of biblical citation. NB. Issue of standardisation of biblical citations, and editorial practice/annotation. -->
-               
+             <!-- Q PROBLEM this quote is not completely tagged because spans two paras. 
+                 options... 
+              -move quote tag outside paragraphs completely, but then how to exclude the text in <fw> tag?
+              -break tagging up into two fragments, maybe use next and prev attributes or something like that? 
+              -use milestone/anchor style tagging, but that feels like overkill unless there are more
+             -->
                     <quote type="direct" source="#KJV_Isaiah_57:12">The righteous <w type="archaism">perisheth</w> &amp; no man <w type="archaism" norm="layth">laieth</w> it to<lb/>
                     heart; &amp; the <w norm="merciful">mercifull</w> men are taken away, none<lb/>
                     considering that the righteous is taken away from the<lb/>
