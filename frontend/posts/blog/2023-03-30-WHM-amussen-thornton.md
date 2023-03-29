@@ -5,11 +5,8 @@ status: draft
 authors:
   - samussen
 tags: 
-  - lifewriting
-  - editions
-  - law
   - childbirth
-
+  - law
 ---
 
 For Women’s History Month 2023, we have been posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on [Twitter](https://twitter.com/thornton_books) or on [Facebook](https://www.facebook.com/thornton.books).
@@ -30,6 +27,6 @@ So, how has my thinking about Alice Thornton changed? Well, first, at the time I
 
 ![The title page of Jackson's 1875 *Autobiography of Mrs Alice Thornton, of East Newton, co. York*]({{"/assets/img/posts/Jackson_Thornton_1875.jpg" | url}} "Charles Jackson, frontispiece to The Autobiography of Mrs Alice Thornton of East Newton, co. York. Public domain, via archive.org"){.media-left}
 
-More importantly, the edition of Thornton I read was offered as her “autobiography”, as if it were a coherent structured narrative. It was not, and it obscured the rhetorical goals that drove Thornton in each of her books.  Back then I thought about each topic as a separate problem; I did not fully grasp the ways different aspects of ones life affect each other. Thinking now about how she feared childbirth, I can see how her difficult relationship with her husband shaped her anxieties: would he support the children? I see her less as feeble, and more as hobbled by the combination of legal rules and her husband’s lies and improvident behaviour.  Her legal struggles were as much systematic as individual; insofar as they were individual, they were shaped by her husband’s actions, not her competence. Were I to write that same paper today, it would be much more clearly shaped by the structures in which Thornton and other women lived.
+More importantly, the edition of Thornton I read was offered as her “autobiography”, as if it were a coherent structured narrative. It was not, and it obscured the rhetorical goals that drove Thornton in each of her books.  Back then I thought about each topic as a separate problem; I did not fully grasp the ways different aspects of one's life affect each other. Thinking now about how she feared childbirth, I can see how her difficult relationship with her husband shaped her anxieties: would he support the children? I see her less as feeble, and more as hobbled by the combination of legal rules and her husband’s lies and improvident behaviour.  Her legal struggles were as much systematic as individual; insofar as they were individual, they were shaped by her husband’s actions, not her competence. Were I to write that same paper today, it would be much more clearly shaped by the structures in which Thornton and other women lived.
 
 All of this is to say that as we learn more, we rethink what we first thought we knew. The forthcoming digital edition of Thornton’s books, attentive to their place in her life, has given me the opportunity to think about how context shapes experience. But there is something else. As I have got older, I think in new ways about time, and about the importance or relevance of what I experienced in the past. Thornton’s books allow us to see one woman considering her life at different times. And, as historians know, time matters.        
