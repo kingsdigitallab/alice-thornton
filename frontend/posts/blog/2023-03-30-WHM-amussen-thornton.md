@@ -14,7 +14,7 @@ tags:
 
 For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on [Twitter](https://twitter.com/thornton_books) or on [Facebook](https://www.facebook.com/thornton.books).
 
-Fourth in the series is [Professor Susan Amussen](https://www.ucmerced.edu/content/susan-d-amussen), a social and cultural historian of early modern Britain, who first encountered Thornton in 1977.
+Fourth in the series is [Professor Susan Amussen](https://www.ucmerced.edu/content/susan-d-amussen), a social and cultural historian of early modern Britain based at University of California Merced, who first encountered Thornton in 1977.
 
 ---
 
