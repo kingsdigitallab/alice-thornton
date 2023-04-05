@@ -134,7 +134,7 @@ function setUpTextViewer() {
               conjunction: false,
             },
           },
-          searchableFields: ["title"],
+          searchableFields: ["title", "id"],
         };
         this.records = [];
         fetch(entitiesSource)
@@ -155,6 +155,11 @@ function setUpTextViewer() {
       },
       async setSelectionFromAddressBar() {
         let searchParams = new URLSearchParams(window.location.search);
+        let q = searchParams.get("q");
+        if (q) {
+          q = q.replace(/^(ppl|place):/, "");
+          this.selection.query = q;
+        }
         console.log(searchParams);
       },
       getContentClasses(panel) {
