@@ -37,10 +37,6 @@
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   },
-  "lint-staged": {
-    "*.js": "npm run format",
-    "*.yaml": "npm run prettier:fix"
-  },
   "workspaces": [
     "frontend",
     "osnap",

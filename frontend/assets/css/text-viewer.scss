@@ -5,17 +5,72 @@
 // & review from designers before being added back
 // into main.scss.
 
+// GN: placeholders for customasing the rendering of the editions
+// and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
+
+  margin-left: 5em;
+  position: relative;
+
   &.view-modern {
     // GN: dummy example of TEI customisation for modernised view
-    .tei-type-pageNum:before {
-      content: "page ";
+    // .tei-type-pageNum:before {
+    //   content: "page ";
+    // }
+
+    // br {
+    //   display: none;
+    // }
+    .orig {
+      display: none;
     }
 
-    br {
+    .tei-abbr {
+      display: none;
+    }
+
+    .tei-sic {
+      display: none;
+    }
+
+    .tei-surplus {
       display: none;
     }
   }
+
+  .tei-surplus {
+    // TODO: find better style
+    background-color: #fcc;
+    padding: 0.2em;
+  }
+
+  &.view-semidip {
+    .norm {
+      display: none;
+    }
+
+    .tei-expan {
+      display: none;
+    }
+
+    .tei-corr {
+      display: none;
+    }
+  }
+
+  .tei-space[data-tei-unit=page]:before {
+    content: "[Blank page]"
+  }
+
+  .tei-type-pageNum {
+    display: block;
+  }
+
+  // p {
+  //   margin-left: 3em;
+  // }
+
+
 
   &.view-semidip {
     .tei-ex {
@@ -24,9 +79,7 @@
     }
   }
 
-  // shoul be converted into h1
-  .tei-head {
-    font-size: 1.5em;
+  h1, h2, h3 {
     color: inherit;
   }
 
@@ -48,14 +101,51 @@
 
   span {
     // to allow interlinear span within it
-    position: relative;
-    line-height: 2em;
+    // position: relative;
+    line-height: 2.5em;
   }
 
-  *[data-tei-place="above"] {
-    // 1.4.-1.hand
-    position: absolute;
-    top: -1em;
+  &.view-semidip {
+    // TODO: bug in http://localhost:8080/books/viewer/?&p0.lo=p.5 (to)
+    *[data-tei-place="above"] {
+      // 1.4.-1.hand
+      position: absolute;
+      margin-top: -1.2em;
+      // padding-right: 4em;
+      display: inline-block;
+      margin-left: -0.3em;
+
+      &:before {
+        content: "\032C";
+        position: absolute;
+        // top: 0.2em;    
+        margin-left: 0.3em;
+        font-size: 150%;
+      }
+    }
+
+    *[data-tei-place~="margin"] {
+      display: inline-block;
+      position: absolute;
+      left: -5em;
+      width: 5em;
+    }
+  }
+
+  *[data-tei-rend="strikethrough"] {
+    text-decoration: line-through;
+  }
+
+  .tei-quote.tei-type-direct,.tei-quote.tei-type-partial {
+    &:before, &:after {
+      content: '"';
+    }
+  }
+
+  &.view-modern {
+    .tei-del {
+      display: none;
+    }
   }
 
   span[data-tei="space"][data-tei-unit="line"] {
@@ -64,5 +154,74 @@
     display: block;
     margin-top: 1em;
     border-bottom: 1px solid black;
+  }
+
+  .tei-figure-wrapper {
+    font-size: 1.5rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2em;
+    // TODO: center in panel, not just text?
+    text-align: center;
+  }
+  h2, .tei-fw.tei-type-head {
+    font-size: 1.6em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+
+    &:before {
+      background: none;
+      display: hidden;
+    }
+  }
+  h3, .tei-fw.tei-type-header {
+    font-size: 1.4em;
+    display: block;
+    text-align: center;
+  }
+
+  .tei-docAuthor {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .tei-type-monogram {
+    font-family: cursive;
+  }
+
+  figure {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border: 5px solid grey;
+    padding: 2rem;
+    margin: 2rem;
+    // display: block;
+
+    background: white;
+
+    max-height: 90vh;
+    max-width: 90vw;
+    height: 90vh;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    img {
+      display: inline-block;
+      max-width: 90%;
+      max-height: 80%;
+      height: auto;
+    }
+
+    figcaption {
+      font-size: 1.5rem;
+    }
   }
 }

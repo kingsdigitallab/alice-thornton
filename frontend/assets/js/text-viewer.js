@@ -44,9 +44,9 @@ function setUpTextViewer() {
           {
             selectors: {
               source: {
+                // "http://localhost:3000": "AT DTS (local:3000)",
                 "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts/dts.json":
                   "AT SDTS (github)",
-                "http://localhost:3000": "AT DTS (local:3000)",
                 // format=X is ignored, will always return TEI
                 "https://dev.chartes.psl.eu/api/nautilus/dts": "PSL Chartes",
                 // CORS prevents call to Endpoint
@@ -251,6 +251,24 @@ function setUpTextViewer() {
         // console.log(doc)
         doc = doc.replace(/<\/br>/g, "");
         panel.responses.document = doc;
+        this.$nextTick(() => {
+          const btnFigures = window.document.querySelectorAll(".btn-figure");
+
+          btnFigures.forEach((btn) => {
+            if (btn.classList.contains("managed")) return;
+            const figure = btn.parentNode.querySelector("figure");
+            for (let element of [btn, figure]) {
+              element.addEventListener(
+                "click",
+                () => {
+                  figure.classList.toggle("hidden");
+                },
+                false
+              );
+            }
+            btn.classList.add("managed");
+          });
+        });
       },
       selectDefaultOption(panel, key) {
         if (key.startsWith("_")) return;
