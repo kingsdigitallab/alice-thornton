@@ -5,7 +5,7 @@ status: live
 authors:
   - strill
 tags:
-  - lifewriting 
+  - lifewriting
 ---
 
 Suzanne Trill (Co-I) is pleased to announce that her latest edition of Anne, Lady Halkett's autobiographical writing is now in print.

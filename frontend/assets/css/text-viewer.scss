@@ -8,7 +8,6 @@
 // GN: placeholders for customasing the rendering of the editions
 // and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
-
   margin-left: 5em;
   position: relative;
 
@@ -58,8 +57,8 @@
     }
   }
 
-  .tei-space[data-tei-unit=page]:before {
-    content: "[Blank page]"
+  .tei-space[data-tei-unit="page"]:before {
+    content: "[Blank page]";
   }
 
   .tei-type-pageNum {
@@ -70,8 +69,6 @@
   //   margin-left: 3em;
   // }
 
-
-
   &.view-semidip {
     .tei-ex {
       // 1.5.5.February
@@ -79,7 +76,9 @@
     }
   }
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     color: inherit;
   }
 
@@ -118,7 +117,7 @@
       &:before {
         content: "\032C";
         position: absolute;
-        // top: 0.2em;    
+        // top: 0.2em;
         margin-left: 0.3em;
         font-size: 150%;
       }
@@ -136,8 +135,10 @@
     text-decoration: line-through;
   }
 
-  .tei-quote.tei-type-direct,.tei-quote.tei-type-partial {
-    &:before, &:after {
+  .tei-quote.tei-type-direct,
+  .tei-quote.tei-type-partial {
+    &:before,
+    &:after {
       content: '"';
     }
   }
@@ -169,7 +170,8 @@
     // TODO: center in panel, not just text?
     text-align: center;
   }
-  h2, .tei-fw.tei-type-head {
+  h2,
+  .tei-fw.tei-type-head {
     font-size: 1.6em;
     font-weight: 600;
     display: block;
@@ -180,7 +182,8 @@
       display: hidden;
     }
   }
-  h3, .tei-fw.tei-type-header {
+  h3,
+  .tei-fw.tei-type-header {
     font-size: 1.4em;
     display: block;
     text-align: center;

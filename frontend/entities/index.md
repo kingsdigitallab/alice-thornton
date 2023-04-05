@@ -45,20 +45,20 @@ title: Entities
       <nav class="pagination" aria-label="pagination">
         <ul class="pagination-list">
           <li>
-            <a href="#" 
-              v-on:click.prevent="onClickPrevPage" 
-              class="pagination-link" 
-              aria-label="Previous page" 
+            <a href="#"
+              v-on:click.prevent="onClickPrevPage"
+              class="pagination-link"
+              aria-label="Previous page"
             >Previous</a>
           </li>
           <li>
             Page {{ selection.page }} of {{ lastPageNumber }}
           </li>
           <li>
-            <a href="#" 
-              v-on:click.prevent="onClickNextPage" 
-              class="pagination-link" 
-              aria-label="Next page" 
+            <a href="#"
+              v-on:click.prevent="onClickNextPage"
+              class="pagination-link"
+              aria-label="Next page"
             >Next</a>
           </li>
         </ul>
