@@ -312,7 +312,7 @@
             <persName ref="ppl:jh1" n="per1" type="author">Bishop Halls</persName> Observations in his<lb/>
              <ref type="bibliog"><w norm="Book">booke</w> of Meditations<lb/>
              And <w norm="vows">vowes</w></ref>.
-            <!-- TODO [authors] 
+            <!-- Q [authors] 
                 (anselment fn1) 
                 Joseph Hall (wdQ4499080)
                 _Holy observations..._ (but probably not the right edition - ST ident the right one, check.)
@@ -531,6 +531,7 @@
     
         <fw type="pageNum">8</fw> <lb/>
             <fw type="header" rend="post(rule)" corresp="#div-009">A preservation in the <w norm="Measles">Meassells</w>.</fw><lb/>
+            
             <!-- Q [tei] may need discussion? 
                 This header is almost certainly meant to be the title for the section div009 even though it's not inside that div - have linked it to the div using @corresp.
               [endnote] NB. Despite the title at the top of the page, the details of the 'preservation' only begins part way down the page, which is where the 'main body' of the text proper begins.
@@ -547,10 +548,7 @@
              &amp; <w>thankesgiveings</w> to the Blessed <w norm="Trinity">Trinitie</w> forever.</p>
         
         <p xml:id="p-0015" rend="place(centre)">Amen. Amen.</p>                
-        <!-- Q [review] team discussion.
-            cf. semidip. ?
-            esp. "Amen Amen" - it clearly belongs to this section but visually is right in the middle of the insertion, which is written around it. To make things even worse, this is <front> but the insertion is <body>... 
-            and "1629" was in the middle of the word 'deliverance' next paragraph
+        <!-- Q CHECK display this probably needs a final review in the text viewer (and cf. semidip)
         -->
     </div>
     
@@ -572,7 +570,7 @@
          <milestone n="ev3" unit="event"/>
             <p xml:id="p-0017">
       <fw xml:id="mnote-0001" place="left margin">      
-          <metamark xml:id="mm-002" corresp="#mm-001"><g corresp="#div-008" ref="#fancydagger">[+]</g></metamark> <!-- Q [tei] this will need checking 
+          <metamark xml:id="mm-002" corresp="#mm-001"><g corresp="#div-008" ref="#fancydagger">[+]</g></metamark> <!-- Q [symbols] this will need checking 
         a sort of dagger (?) symbol, but with curly extras. (haven't been able to find an exact match in unicode)
         it appears to be a 'signe de renvoi' with matching symbol at the point referred to in the supplementary material (p.286awt).
         also as it's in the margin next to the *next* div, <g> is linked to div 008 using @corresp. 
@@ -617,7 +615,7 @@
                  youth. middle. &amp; old Age, (if he shall <w norm="spare">spaire</w> me<lb/>
                  so long) to his service &amp; praise, yea even to my lives<lb/>
                 end. &amp; that for my Saviours sake alone. <quote type="biblical" source="#_Revelations_1:8">the Alpha &amp; <lb/>
-                 Omega. </quote> Amen. I was about <w norm="five">5</w> <w norm="years">yeares</w> old. then:<!-- Q transcribed : is actually 3 dots, see c. p.133 for another Q example. are there others? look for : at end of lines...? --></p>
+                 Omega. </quote> Amen. I was about <w norm="five">5</w> <w norm="years">yeares</w> old. then:<!-- Q [symbols] transcribed : is actually 3 dots, see c. p.133 for another Q example. are there others? look for : at end of lines...? --></p>
             
          </div>
         <div xml:id="div-010">
@@ -746,7 +744,7 @@ point to <category> elements or to feature structure components.
                  the <w norm="care">caire</w> of our Servants it was prevented. this was <w norm="done">don</w> <lb/>
                  at night when <rs ref="ppl:cw1" n="per19" type="person">my father</rs> &amp; <rs ref="ppl:aow1" n="per20" type="person">mother</rs> was <w norm="at">att</w> Court.<lb/>
                  but wee were preserved that time of fright at <rs ref="place:StMa_082" n="place-supp1" type="place"><persName ref="ppl:xl1" n="per21">my Lady<lb/>
-                 Levestones</persName> house</rs><!-- Q [place] - identifiable? - JE --> <w norm="being">beeing</w> <w norm="carried">caried</w> by <persName ref="ppl:st1" n="per22">Sara our <w norm="maid">maide</w></persName>.<lb/>
+                 Levestones</persName> house</rs><!-- Q [place] check if JE has tracked this one down! - identifiable? - JE --> <w norm="being">beeing</w> <w norm="carried">caried</w> by <persName ref="ppl:st1" n="per22">Sara our <w norm="maid">maide</w></persName>.<lb/>
                  This fire seemed to me as if the <quote type="phrase" source="_#1Peter_2:9">day of judgement</quote> was<lb/>
                  come <w norm="causing">causeing</w> much <w norm="fear">feare</w> &amp; trembling. yet we were<lb/>
                  all delivered from perishing though <rs ref="ppl:cw1" n="per23" type="person">my father</rs> had<lb/>
@@ -901,7 +899,7 @@ point to <category> elements or to feature structure components.
                      Sister Danbies</persName> <rs ref="ppl:td4 ppl:cd4" n="per45" type="person"><w norm="two">2</w> <w norm="Eldest">Elldest</w> sons</rs><!-- NOTE people = christopher and thomas -->. for <w norm="their">theire</w> better<lb/>
                  education, When we came to <placeName ref="place:Nest_040" n="place18">Nesston</placeName>. at the Sea<lb/>
                  side we <w norm="stayed">staied</w> for a <w norm="wind">winde</w> a <w norm="week">weeke</w>; And in that time<lb/>
-                 there was a great <w norm="Storm">Storme</w> on <rs ref="place:tbd-sea" n="geog1" type="geog">the Sea</rs><!-- Q [place] Irish Sea? --> in <w norm="so">soe</w> much as<lb/>
+                 there was a great <w norm="Storm">Storme</w> on <rs ref="place:tbd-sea" n="geog1" type="geog">the Sea</rs><!-- Q [place] hmm. Irish Sea? --> in <w norm="so">soe</w> much as<lb/>
                  there was <w norm="five">5</w> Ships cast away upon the Shore before<lb/>
                  our Eyes. so nigh were some of them, that, the maine<lb/>
                  mast, did <w norm="almost">allmost</w> touch the window of that house,<lb/>
@@ -1084,8 +1082,8 @@ point to <category> elements or to feature structure components.
            <!-- NOTE [style] vertical text writing direction top to bottom - @style looks right in boilerplate. have placed marginal note outside head, though it's partly inside on page - but it's not part of the title. -->
             <note xml:id="mnote-0002" place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right" resp="#awt1">
                 <milestone n="ev15" unit="event"/>
-            <!-- Q in semidip 'Lord', 'with', no abbrev markings at all. check this? -->
-                <p xml:id="p-0041"><persName ref="ppl:tw1" n="per56">My <choice><abbr>L.<am rend="superscript">d</am></abbr><expan>Lord</expan></choice> Straford</persName> <w norm="took">tooke</w> Ship for <placeName ref="place:Engl_094" n="place422">England</placeName> w:<am rend="superscript">th</am> <persName ref="ppl:ww3" n="per57">my Lord Raby</persName> his son<lb/>
+            <!-- Q CHECK in semidip 'Lord', 'with', no abbrev markings at all. check this? -->
+                <p xml:id="p-0041"><persName ref="ppl:tw1" n="per56">My <choice><abbr>L.<am rend="superscript">d</am></abbr><expan>Lord</expan></choice> Straford</persName> <w norm="took">tooke</w> Ship for <placeName ref="place:Engl_094" n="place422">England</placeName> <w type="query">w:<am rend="superscript">th</am></w> <persName ref="ppl:ww3" n="per57">my Lord Raby</persName> his son<lb/>
                 on <date when-custom="1640-04-03">good friday the <w norm="year">yeare</w>. 1640</date>. <w type="v">gaue</w> <rs type="person">my father</rs> the Sword then.</p>
                 <anchor n="ev15" type="event"/>
             </note>
@@ -1154,7 +1152,7 @@ point to <category> elements or to feature structure components.
                  English, pretended oppression. to be made subject<lb/>
                  to the <w norm="Laws">Lawes</w> of <placeName ref="place:Engl_094" n="place-supp6">England</placeName>. &amp; the other of that nation could<lb/>
                  not be subject to our Church Government, &amp; <w norm="orders" type="break">orde<lb break="no"/>
-                 ers</w>, but affected a loose <w norm="libertinism">libertaineissme</w><!-- Q TEI Query - The 'a' here has been overwritten/obscured, but remains partially visible. Double strike through needed here? --> to their<lb/>
+                 ers</w>, but affected a loose <w norm="libertinism">libertaineissme</w><!-- Q [del] TEI Query - The 'a' here has been overwritten/obscured, but remains partially visible. Double strike through needed here? --> to their<lb/>
                  <w norm="own">owne</w> pernicious <w norm="ways">waies</w>, <w norm="joined">joyned</w> with the Irish in<lb/>
                  <w norm="their">theire</w> complaints against <rs ref="ppl:tw1" n="per66" type="person">this wise &amp; noble<lb/>
                  Person</rs>; whom indeed they were not worthy of<lb/>
@@ -1443,7 +1441,7 @@ point to <category> elements or to feature structure components.
                  the same <w norm="upon">uppon</w> those <w norm="Excellent">Excelent</w> foundations on<lb/>
                  which it was built. <milestone unit="marker" rend="delim(tbd-//)"/></p>
             <p xml:id="p-0069">
-               <!-- Q [event] superEvent? CW death -->
+               <!-- [event] CW death -->
                <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
                 <!-- Also, there's a double line above 'Acct' -->
         <note xml:id="mnote-0003" resp="#awt1" place="left margin" rend="pre(rule_double)">
@@ -1689,7 +1687,7 @@ point to <category> elements or to feature structure components.
                  on the <date when-custom="1640-12-10">10<hi rend="superscript">th</hi> day of Decemb<ex>er</ex> 1640</date></p>
             <p xml:id="p-0090"><persName ref="ppl:jb4" n="per114">The Bishop of Derrey</persName> <w norm="Preached">Preach't</w> his <w norm="funeral">funerall</w> Sermon.<lb/>
                 <add place="above" hand="#unknown">Text Matt. xx. 8.</add>
-                <!-- Q [endnote] [insertion] Insertion is a different ink and a different hand - NOT Thornton's. -->
+                <!-- Q CHECK with CB/ST [endnote] [insertion] Insertion is a different ink and a different hand - NOT Thornton's. -->
                  And I am sure amongst the multitude of People<lb/>
                  there was not many <w norm="dry">drie</w> Eyes: Such was the love<lb/>
                  that God had given to <rs ref="ppl:cw1" n="per115" type="person">this worthy Person</rs>. that the Irish<lb/>
@@ -1749,11 +1747,12 @@ point to <category> elements or to feature structure components.
                 </fw>
               
              <!-- [endnote] [bib] Note because a different kind of biblical citation. NB. Issue of standardisation of biblical citations, and editorial practice/annotation. -->
-             <!-- Q PROBLEM this quote is not completely tagged because spans two paras. 
-                 options... 
+             <!-- Q PROBLEM this quote is not completely tagged because it spans two paras. 
+                 options... ?
               -move quote tag outside paragraphs completely, but then how to exclude the text in <fw> tag?
-              -break tagging up into two fragments, maybe use next and prev attributes or something like that? 
-              -use milestone/anchor style tagging, but that feels like overkill unless there are more
+              - break tagging up into two fragments, maybe use next and prev attributes or something like that? 
+              - use milestone/anchor style tagging, but that feels like overkill unless there are more
+              - tag whole of two paras and work out how to exclude the margin text
              -->
                     <quote type="direct" source="#KJV_Isaiah_57:12">The righteous <w type="archaism">perisheth</w> &amp; no man <w type="archaism" norm="layth">laieth</w> it to<lb/>
                     heart; &amp; the <w norm="merciful">mercifull</w> men are taken away, none<lb/>
@@ -1762,7 +1761,7 @@ point to <category> elements or to feature structure components.
                 
         </p>
             <p xml:id="p-0094"> He shall enter into peace: they shall rest in <w norm="their">theire</w> <lb/>
-                 beds, each one <w type="add" norm="walking">walk<add place="above">e</add>ing</w> in his <w norm="uprightness">uprightnesse</w>.<!-- Q xml problem bibl quote in previous paragraph actually ends here. --></p>
+                 beds, each one <w type="add" norm="walking">walk<add place="above">e</add>ing</w> in his <w norm="uprightness">uprightnesse</w>.<!-- Q PROBLEM bibl quote in previous paragraph actually ends here. --></p>
             <milestone unit="marker" rend="delim(rule)"/><!-- NOTE I think not structural though it is full width. 
                 [endnote] This is only a faint line. marks the end of the biblical citation-->
             
@@ -1911,7 +1910,7 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0108">As it was with the <w norm="stubborn">stuborne</w> <w norm="Jews">Jewes</w>. so it is our <w norm="own">owne</w><lb/>
                  case, God <w norm="knows">knowes</w>, in these <w norm="Kingdoms">Kingdomes</w>. our <w norm="sins">sinns</w><lb/>
                  were ripe for to be cut <w norm="down">downe</w> by the <quote type="allusion" source="_#Revelation_14:14">sickle of Gods<lb/>
-                     Judgements</quote> <add place="above">by our <w norm="Enemies">Ennimies</w>.</add> &amp; for them, to fall on <rs n="place-supp13" type="place">this <w norm="Kingdom">Kingdome</w></rs><!-- Q [[place] is this Ireland? - JE . not sure. if so Irel_096 -->.<lb/>
+                     Judgements</quote> <add place="above">by our <w norm="Enemies">Ennimies</w>.</add> &amp; for them, to fall on <rs n="place-supp13" type="place">this <w norm="Kingdom">Kingdome</w></rs><!-- Q [place] is this Ireland? - JE . not sure. if so Irel_096 -->.<lb/>
                  <w norm="Whose">Whoes</w> bloody <add place="above"><w norm="desires">desiress</w></add> had <w norm="so">soe</w> <w norm="far">farre</w> besotted <w norm="their">there</w> hearts that<lb/>
                  were <w norm="upon">uppon</w> a speedy <w norm="execution">excution</w> of <w norm="their">theire</w> <w norm="designs">designes</w>.<lb/>
                  All whose <w norm="secret">secrett</w> intentions God saw. (&amp; that <rs ref="ppl:cw1" n="per123" type="person">my<lb/>
@@ -1973,7 +1972,7 @@ point to <category> elements or to feature structure components.
                  <w norm="general">generall</w> <w>destructions</w> either by the Irish, or English<lb/>
                  Rebellions. <milestone n="ev26" unit="event"/>In <placeName ref="place:Irel_096" n="place-supp15">Ireland</placeName> were we <w norm="miraculously">miraculosly</w><lb/>
                  Preserved in <placeName ref="place:Dubl_088" n="place49">Dublin</placeName>, <date when-custom="1641-10/1641-11" precision="medium">for <w norm="several">severall</w> weeks <w norm="after">affter</w></date> the<lb/>
-                Rebellion was broken out in <rs ref="place:Irel_096" n="place-supp16" type="place">the <w norm="country">countrey</w></rs><!-- Q place. does she mean Ireland or teh countryside outside Dublin? -->.<lb/>
+                Rebellion was broken out in <rs ref="place:Irel_096" n="place-supp16" type="place">the <w norm="country">countrey</w></rs><!-- Q [place] does she mean the country Ireland or teh countryside outside Dublin? -->.<lb/>
                  And though in much frights by <w norm="Alarms">Alarums</w> from<lb/>
                  the <w norm="Enemies">Enimies</w>, yet were we delivered from those<lb/>
                  <w norm="evils">evills</w>, till by a safe passage into <placeName ref="place:Engl_094" n="place50">England</placeName> with<lb/>
@@ -2736,7 +2735,7 @@ point to <category> elements or to feature structure components.
                 till <date when-custom="1641-10-23">about the october <w norm="after">affter</w>, when on the 23<hi rend="superscript">d</hi> day in the<lb/>
                  <w norm="year">yeare</w> 1641</date> that horrid Rebellion &amp; massacre of the <lb/>
                 <w norm="poor">poore</w> English Protestants began to <w norm="break">breake</w> out in <rs ref="place:Irel_096" n="place-supp18" type="place">the<lb/>
-                 <w norm="country">countery</w></rs><!-- Q place again this is countryside I think rather than Ireland teh country as a whole -->. which was by the all seeing Providence of God<lb/>
+                 <w norm="country">countery</w></rs><!-- Q [place] again this is countryside I think rather than Ireland teh country as a whole -->. which was by the all seeing Providence of God<lb/>
                  prevented in the <placeName ref="place:Dubl_088" n="place-supp19">Citie of Dublin</placeName> where we <w norm="were">weare</w>.<lb/>
             
 
@@ -2788,7 +2787,7 @@ point to <category> elements or to feature structure components.
                 <fw type="pageNum">64</fw> <lb/>
             
             <date when-custom="1641-10-24">Sunday morning</date>. <persName ref="ppl:hm1" n="per157">Mackmaughan</persName> willing to save<lb/>
-                <rs ref="ppl:oc2" n="per159" type="person">a kinsman of his <w norm="own">owne</w> name</rs><!-- Q [people] identifiable? --> that lived then as a serva<add place="above">nt</add><lb/>
+                <rs ref="ppl:oc2" n="per159" type="person">a kinsman of his <w norm="own">owne</w> name</rs> that lived then as a serva<add place="above">nt</add><lb/>
                  with <persName ref="ppl:jc2" n="per158">Sir John Clottworthy</persName> an English man, <w norm="writ">writt</w> his<lb/>
                  <w norm="cousin">cosen</w> a letter to <placeName ref="place:Dubl_088" n="place64">Dublin</placeName> to <w norm="meet">meete</w> him in great haste<lb/>
                  about a <w norm="business">bussinese</w> of great <w norm="concernment">consernment</w>.</p>
@@ -3323,7 +3322,8 @@ point to <category> elements or to feature structure components.
 <!-- transcription: Page 76 -->
 
             
-       <!-- TODO [page numbering] odd numbers on *left-hand* pages start here, to 141  -->
+       <!-- NOTE [page numbering] odd numbers on *left-hand* pages start here, to 141  -->
+            
                 <fw type="pageNum">77</fw>
                 
                     <!-- [endnote] [page numbering] Original checked - and this is a misfoliation on Thornton's part; i.e., there is NO page 76 here. -->
@@ -3363,7 +3363,7 @@ point to <category> elements or to feature structure components.
 
 <!-- transcription: Page 77 -->
 
-          <!-- TODO [page numbering] even numbers on *right-hand* pages start here, to 142 -->  
+          <!-- NOTE [page numbering] even numbers on *right-hand* pages start here, to 142 -->  
                 <fw type="pageNum">78</fw> <lb/>
             
             Is the first time I had the <w norm="happiness">happinesse</w> to <w norm="do">doe</w>, in <rs ref="place:Ches_012" n="place-supp39" type="place">this <w norm="City">Cittie</w></rs><lb/>
@@ -3553,7 +3553,7 @@ point to <category> elements or to feature structure components.
             <!-- NOTE [style] vertical text writing direction top to bottom. -->
           <p xml:id="p-0209" style="writing-mode: vertical-rl; text-orientation: sideways-right"><w norm="Surfeit">Sirfett</w> Lobster <lb/>
            at <placeName ref="place:Rich_043" n="place108">Richmond</placeName> ----
-               <!-- Q [teams] [decoration] short (about 4 chars) horizontal line here, purpose unclear. similar lines in bk 3 marginalia; maybe just filler? --></p>
+               <!-- Q [decoration] short (about 4 chars) horizontal line here, purpose unclear. similar lines in bk 3 marginalia; maybe just filler? --></p>
            <!-- NOTE [dates] this date seems to relate to the lobster (p.83) and not related to the text here. de-@when at least for now. -->
         <p xml:id="p-0210">
           <date>
@@ -3579,7 +3579,7 @@ point to <category> elements or to feature structure components.
          safety with <persName ref="ppl:kwd1" n="per249">my sweete Sister Danby</persName> <w norm="at">att</w> <placeName ref="place:Snap_047" n="place110">Snape</placeName>. <anchor n="ev43" type="event"/>
 
             where <milestone n="ev44" unit="event"/>she<lb/>
-            <!-- Q [review]? CORRECTION ? there's a line under text in margin 11.43? - but [formatting] need to review -->
+            <!-- Q CHECK semidip [review]? CORRECTION ? there's a line under text in margin 11.43? - but [formatting] need to review -->
             <note xml:id="mnote-0020" place="left margin" resp="#awt1" rend="post(rule)">
                 to <placeName ref="place:Snap_047" n="place-supp43">snape</placeName><lb/>
                 from <lb/>
@@ -3744,10 +3744,10 @@ point to <category> elements or to feature structure components.
                 <head place="centre" rend="pre(rule) post(rule)">           
                     A deliverance from a <w norm="Surfeit">Surfett</w> of Lobster.<lb/>
                     <w norm="at">att</w> <placeName ref="place:Rich_043" n="place131">Richmond</placeName> <date type="illness" when-custom="1643-09-15">1643</date>.</head>
-                <!-- Q [dates] chronology gets mixed up again - this bit is 1644 after Marston Moor. isn't it? "after the scots had helped to overthrow the king at york" -->
+                <!-- NOTE [dates] chronology gets mixed up again - this bit is 1644 after Marston Moor. isn't it? "after the scots had helped to overthrow the king at york" -->
                 <!-- NOTE [event] new, about GW -->
                 <milestone n="ev52" unit="event"/>
-                <p xml:id="p-0215"><date when-custom="1644-07-02"><w norm="after">Affer</w> this</date><!-- Q [dates] s/b notBefore really but script issues so it can wait --> when the <w norm="scots">scotts</w> had helped to overthrow <rs ref="ppl:cs1" n="per276" type="person">the Kings</rs><lb/>
+                <p xml:id="p-0215"><date when-custom="1644-07-02"><w norm="after">Affer</w> this</date><!-- Q [dates] s/b notBefore really --> when the <w norm="scots">scotts</w> had helped to overthrow <rs ref="ppl:cs1" n="per276" type="person">the Kings</rs><lb/>
                  Army at <placeName ref="place:York_060" n="place132">Yorke</placeName>, for which <w norm="design">designe</w> they were called in to <placeName ref="place:Engl_094" n="place133">England</placeName><lb/>
                  &amp;, to destroy the <w norm="Regal">Regall</w> Power, of <rs type="person">his <w norm="Majesty">Majestie</w></rs>. waiting upon<lb/>
                  the Parliaments Motions, to <w norm="fulfil">fullfill</w> the intent of the Scottish<lb/>
@@ -3773,7 +3773,7 @@ point to <category> elements or to feature structure components.
                           15.</date>
                     </note>
                 About the <w norm="year">yeare</w> 1643. We went to see my <persName ref="ppl:awn1" n="per278">Aunt Norton</persName><lb/>
-                at <placeName ref="place:Rich_043" n="place135">Richmond</placeName><!-- Q [places] perhaps should tag this as St Nicholas rather than Richmond? -->, &amp; to live a while with her till <placeName ref="place:Hips_022" n="place136">Hipswell</placeName> was<lb/>
+                at <placeName ref="place:Rich_043" n="place135">Richmond</placeName><!-- Q [places] perhaps should tag this as St Nicholas rather than Richmond? but CB had a question about that?? (c.end March 2023 on teams... somewhere) -->, &amp; to live a while with her till <placeName ref="place:Hips_022" n="place136">Hipswell</placeName> was<lb/>
                 
                 fitted, &amp; there <w norm="it">itt</w> Pleased God to preserve me from death<lb/>
                 which I was nigh, <add place="above">unto</add> by Eating a little <w norm="piece">peice</w> of Lobster that day<lb/>
@@ -3821,15 +3821,15 @@ point to <category> elements or to feature structure components.
             </div>
             <div xml:id="div-031" rend="pre(rule)">
             <!-- NOTE [div] new div: no title or index entry, but there is a divider line and it does mark a change in narrative -->
-            <!-- Q [tagging] [layout] "In the yeare... 29" in fact starts *above* the ruled line, immediately after Amen on the same line with just a | divider. But it must refer/belong to the text that follows, so I've marked it up for meaning rather than appearance again. Another tricky one. -->
+            <!-- NOTE [tagging] [layout] "In the yeare... 29" in fact starts *above* the ruled line, immediately after Amen on the same line with just a | divider. But it must refer/belong to the text that follows, so I've marked it up for meaning rather than appearance again. Another tricky one. -->
            <milestone n="ev54" unit="event"/>
                 <!-- NOTE event to hipswell
                 again confusing that she implies this is shortly after the lobster incident in Richmond, but it can't be... -->
             <p xml:id="p-0218">In the <w norm="year">yeare</w> <date when-custom="1644-11-29">1644 <choice><abbr>no.<am rend="superscript">ber</am></abbr><expan>November</expan></choice> 29</date>.<lb/>
                 
                  After I was <w norm="recruited">recruted</w> in strength <rs ref="ppl:aow1" n="per281" type="person">my mother</rs> went to<lb/>
-                Live at <placeName ref="place:Hips_022" n="place137">Hipswell</placeName> her <w norm="Jointure">Joyntyre</w> <add place="above">with <persName ref="ppl:gw1" n="per282">my B. George</persName> my <w norm="self">selfe</w><!-- Q [people] wondering whether to tagging awt self-refs like this. Tagging if she uses her name, but not so sure about "myself". there was a discussion about this, check notes. --> &amp; <persName ref="ppl:gl1" n="per283">George Lightfoot</persName> &amp; <persName ref="ppl:dcl1" n="per284">Dafeny Cassell</persName>. &amp; my D. G. W. his man.</add>  
-                <!-- Q [dates] any way to date this bit? not sure if the mention of '18 or 20 months' is usable. -->
+                Live at <placeName ref="place:Hips_022" n="place137">Hipswell</placeName> her <w norm="Jointure">Joyntyre</w> <add place="above">with <persName ref="ppl:gw1" n="per282">my B. George</persName> my <w norm="self">selfe</w> &amp; <persName ref="ppl:gl1" n="per283">George Lightfoot</persName> &amp; <persName ref="ppl:dcl1" n="per284">Dafeny Cassell</persName>. &amp; my D. G. W. his man.</add>  
+                <!-- Q [dates] any way to date this bit? not sure if the mention of '18 or 20 months' is usable. (or reliable) -->
                 And there she was troubled<lb/>
                 with the <w norm="Scots">Scotts</w> one while &amp; the Parliament forces <w norm="another">annother</w> while<lb/>
                 
@@ -3850,7 +3850,7 @@ point to <category> elements or to feature structure components.
                  her Estate. &amp; at that time she borrowed <w norm="monies">monnyes</w> to<lb/> 
                 <w norm="maintain">maintaine</w> all her <w norm="four">4</w> children <add place="above">my <choice><abbr type="abbr">brot.</abbr><expan>brother</expan></choice> <persName ref="ppl:cw2" n="per287">Christo</persName>. &amp; <persName ref="ppl:jw1" n="per288">John</persName> were at <placeName ref="place:Beda_001" n="place138">Beedale scoole</placeName> from <date when-custom="1643-11-16">nov. the 16, 1643</date>. many years</add> 
                 which she paid afterwards<lb/>
-                <!-- Q [margin] afaics this is the only mention in the text that might match #mnote-0021  -->
+                <!-- NOTE [margin] afaics this is the only mention in the text that might match #mnote-0021  -->
                  Albeit we had a <w norm="particular">perticuler</w> maintenance to have <w norm="been">bin</w><lb/>
                  p<ex>ai</ex>d out of <placeName ref="place:Kirk_030" n="place139">Kirklington</placeName>, &amp; for the <w norm="heir's">heires</w> part out of <placeName ref="place:Huds_026" n="place140">Hud-<lb break="no"/>
                  -swell</placeName>.<anchor n="ev54" type="event"/> <w norm="Yet">Yett</w> even in these times most sad and <w norm="lamentable">lamentabl</w><lb/>
@@ -3895,7 +3895,7 @@ point to <category> elements or to feature structure components.
                  -esse</w> of the soldiers, &amp; <w norm="scots">scotts</w>, quartered then amongst<lb/>
                  them, which <w norm="vexing">vexseing</w>, &amp; troubling her much with frights,<lb/>
                  caused her to fall into <w norm="Travail">Travill</w>. sooner <w norm="than">then</w> she expected<lb/>
-                nor could she <w norm="get">gett</w> <rs n="per295" type="person">her old midwife</rs><!-- Q [people] not identifiable? -->. <w norm="being">beeing</w> then in <placeName ref="place:Rich_043" n="place-supp51">Rich<lb break="no"/>
+                nor could she <w norm="get">gett</w> <rs n="per295" type="person">her old midwife</rs><!-- NOTE [people] probably not identifiable. keep rs tagging for these cases anyway? -->. <w norm="being">beeing</w> then in <placeName ref="place:Rich_043" n="place-supp51">Rich<lb break="no"/>
                  -mond</placeName> which was then <w norm="shut">shutt</w> up, for the Plague was exceed-<lb break="no"/>
                  ing great there. <w norm="so">soe</w> that all the inhabitants that could <w norm="get">gett</w><lb/>
                  out fled <w norm="saving">saveing</w>, those had the <w norm="sickness">sicknesse</w> in <w norm="their">theire</w> hou<lb break="no"/>
@@ -4074,7 +4074,7 @@ point to <category> elements or to feature structure components.
                  dieing on the <choice>
                      <sic><date when-custom="1645-09-30">30<hi rend="superscript">th</hi> of Sept. 1645</date></sic>
                      <corr><date when-custom="1645-09-10">10<hi rend="superscript">th</hi> of Sept. 1645</date></corr>
-                 </choice>.<!-- Q [dates] correction. *check* the correction - isn't there an update to that? (oddly 30 Sept fits better with *this* narrative?) --> And was buried that <lb/>
+                 </choice>.<!-- Q CHECK [dates] correction. *check* the correction - isn't there an update to that? (oddly 30 Sept fits better with *this* narrative?) --> And was buried that <lb/>
                  night <w norm="at">att</w> <persName ref="ppl:td3" n="per321">Sir Thomas Danbys</persName> <w norm="own">owne</w> <w norm="Town">Towne</w> in <placeName ref="place:Mash_037" n="place146">Massam<lb/>
                  Church</placeName> in the night by reason of the Parliament. Sol<ex>diers</ex> &amp; Scots<lb/>
                  who would not let a Sermon be Preached. Butt there was<lb/>
@@ -4156,7 +4156,7 @@ point to <category> elements or to feature structure components.
         
         <div xml:id="div-035" rend="pre(rule)">
            <milestone n="ev59" unit="event"/> 
-            <p xml:id="p-0240"><persName ref="ppl:en1" n="per335">My Cozen Edmund Norton</persName>, Eldest son to my <persName ref="ppl:mn1" n="per336">Uncle Norto<ex>n</ex></persName><!-- Q [review] contraction --><lb/>
+            <p xml:id="p-0240"><persName ref="ppl:en1" n="per335">My Cozen Edmund Norton</persName>, Eldest son to my <persName ref="ppl:mn1" n="per336">Uncle Norto<ex>n</ex></persName><!-- Q CHECK img [review] contraction --><lb/>
                  was married to <persName ref="ppl:td2" n="per337">Mr Dudlys</persName> Daughter &amp; <w norm="heir">heire</w> of <placeName ref="place:Chop_013" n="place-supp52">Chopwell</placeName><lb/>
                  in <add place="above">the</add> <w norm="Bishopric">Bishoprick</w> of <add place="above">Durham</add> <persName ref="ppl:jdn1" n="per338">Mrs Jane Dudly</persName> an <w norm="excellent">excelent</w> fine<lb/>
                  &amp; good gentlewoman. <date type="marriage" when-custom="1647-02-10" datingMethod="#JulianSic">Feb. 10<hi rend="superscript">th</hi> 1647</date><!-- NOTE [dates] OS/NS unverifiable (marriage of edmund norton - Anselment couldn't find a record in registers) -->. <w norm="at">att</w> <placeName ref="place:Chop_013" n="place153">Chopwell</placeName>.<milestone unit="marker" rend="delim(tbd-//)"/></p>
@@ -4183,12 +4183,12 @@ point to <category> elements or to feature structure components.
      <div xml:id="div-037">
             
                 <fw type="pageNum">94</fw>
-         <!-- TODO [page numbering] page number in inner margin (right-hand page, even number) -->
+         <!-- NOTE [page numbering] page number in inner margin (right-hand page, even number) -->
                         
             <head rend="post(rule)"> 
                 <w norm="Upon">Uppon</w> the beheading of <persName ref="ppl:cs1" n="per341">King <w norm="Charles">Charels</w> <!-- [endnote] SiC - i.e., Charles.-->
              the Martyr</persName> <date datingMethod="#JulianMar" type="death" when-custom="1648-01-30">Jan 30<hi rend="superscript">th</hi><lb/>1648</date>
-                <!-- Q [tagging] [layout] 1648 is actually inserted on line above. hmm. there's the WWP method? -->
+                <!-- Q [layout] 1648 is actually inserted on line above. UGH. hmm. there's the WWP method? -->
                 <!-- NOTE [dates] definitely OS! -->
             </head>
         <milestone n="ev61" unit="event"/>    
@@ -4209,7 +4209,7 @@ point to <category> elements or to feature structure components.
                  Subject. Ruling them in peace &amp; <w norm="happiness">happinesse</w> many years.<lb/>
                  he laid <w norm="down">doune</w> his life. <w norm="being">beei<ex>n</ex>g</w> sacrificed by the <w norm="iniquities">iniquitties</w><lb/>
                  of his subjects; Their <w norm="sins">sinns</w> pulled <w norm="down">downe</w> his <w norm="Ruin">Ruine</w> on<lb/>
-                 him &amp; our selves. <w norm="let">lett</w> <ref type="bibliog">his admirable <w norm="book">booke</w></ref><!-- Q [authors] sounds like Eikon Basilike --> <w norm="speak">speake</w> his<lb/>
+                 him &amp; our selves. <w norm="let">lett</w> <ref type="bibliog">his admirable <w norm="book">booke</w></ref><!-- Q [authors] this sounds like Eikon Basilike --> <w norm="speak">speake</w> his<lb/>
                  <w norm="Eternal">Etternall</w> Glory &amp; praise, the best of Kings (as <w norm="mere">meere</w> man)<lb/>
                  that ever this Earth had. never defiling him <w norm="self">selfe</w> with sin<lb/>
                  or blood. of a tender <w norm="compassionate">compasionate</w> <w norm="sweet">sweete</w> disposition.<lb/>
@@ -4324,7 +4324,7 @@ point to <category> elements or to feature structure components.
         <div xml:id="div-038" rend="pre(rule)">
            <milestone n="ev62" unit="event"/> 
             <p xml:id="p-0248">
-                <persName ref="ppl:jn1" n="per343">My Cosen Julian Horton</persName><!-- Q [review] - should this not be Norton? - JE --> died at <placeName ref="place:Rich_044" n="place158">Richmond greene</placeName><lb/>
+                <persName ref="ppl:jn1" n="per343">My Cosen Julian Horton</persName><!-- Q [sic] name - should this not be Norton? - JE --> died at <placeName ref="place:Rich_044" n="place158">Richmond greene</placeName><lb/>
                 at <rs ref="ppl:mn1" n="per344" type="person">her fathers</rs><!-- NOTE [people] uncle norton --> the <date type="death" when-custom="1649-04-09">9 of <w norm="April">Aprill</w>. 1649</date>. <milestone unit="marker" rend="delim(tbd-://:)"/>
             </p>
             <anchor n="ev62" type="event"/>
@@ -4360,7 +4360,7 @@ point to <category> elements or to feature structure components.
 
             
                 <fw type="pageNum" place="left inner">98</fw>
-           <!-- TODO [page numbering] page number in inner margin (right-hand page, even number. and of course i mean *left* inner margin not right.) -->
+           <!-- NOTE [page numbering] page number in inner margin (right-hand page, even number. and of course i mean *left* inner margin not right.) -->
             
             <p xml:id="p-0251"> <w norm="Being">Beeing</w> <w norm="sequestered">sequesterd</w> through a false oath of his <w type="add" norm="adversaries">adversa<add place="above">rys</add></w><lb/>
                  suggestion, &amp; his Estate, with all the other <w norm="appointed">apoynted</w> <add place="above">for</add> <w norm="widow">widdow</w><lb/>
@@ -4375,7 +4375,7 @@ point to <category> elements or to feature structure components.
                  of God upon them <w norm="who">whoe</w> <w norm="separated">seperated</w> from the <w norm="known">knowne</w> <w norm="Laws">Lawes</w> &amp;<lb/>
                  commands of God Almighty, and the <w norm="Laws">Lawes</w> of the Land wherein<lb/>
                  <w norm="were">weare</w> <w norm="happily">happiely</w> placed. our peace &amp; <w norm="Safety">Safetie</w>.</p>
-            <p xml:id="p-0252">According to that of the <w type="query">wiseman</w><!-- Q leave as one word or two? OED has one word spellings for this period -->. <quote type="paraphrase" source="#_Proverbs_24:21-22">My son <w norm="fear">feare</w> thou God &amp;<lb/>
+            <p xml:id="p-0252">According to that of the <w type="query">wiseman</w><!-- Q CHECK mod queries - leave as one word or two? OED has one word spellings for this period -->. <quote type="paraphrase" source="#_Proverbs_24:21-22">My son <w norm="fear">feare</w> thou God &amp;<lb/>
                  the king &amp; <w norm="meddle">medle</w> not with them that are given to change for<lb/>
                 who <w norm="knows">knowes</w> the <w norm="ruin">ruine</w> of them both</quote>. <milestone unit="marker" rend="delim(diagonal)"/> Yet not withstand<lb break="no"/>
                  -ing this <w norm="threatening">threatning</w>; <w norm="Evil">Evill</w> was <w norm="so">soe</w> Established by a law<lb/>
@@ -4666,7 +4666,7 @@ point to <category> elements or to feature structure components.
                  an (Irish man &amp; an <w norm="excellent">excelent</w> runner) to <w norm="meet">meete</w> him at<lb/>
                  <placeName ref="place:Rich_043" n="place177">Richmond</placeName>. at 11 <w norm="o'clock">a clock</w> where he was to <w norm="meet">mette</w> <persName ref="ppl:ww1" n="per403">my uncle will</persName><lb/>
                 <w norm="so">soe</w> <rs ref="ppl:gw1" n="per404" type="person">my brother</rs> went towards <rs ref="place:Swal_123" n="geog6" type="geog">the River</rs>; And as he rid by<lb/><!-- Q this should be separate from geogName - JE -->
-                 our <w norm="Chapel">Chapell</w> where there was a wedding that day. he asked the<lb/>
+                 our <rs type="place"><w norm="Chapel">Chapell</w></rs><!-- Q [place] Hipswell chapel, get the ID --> where there was a wedding that day. he asked the<lb/>
                  People, whether <geogName ref="place:Swal_123" n="geog7">the <w norm="Swale">Swaile</w></geogName> might be <w norm="ridden">riden</w>. they said that <lb/>
                  there had <w norm="been">bin</w> a flood. but it was fallen for some had <w norm="crossed">crost</w><lb/>
                  the water that morning. <w norm="so">soe</w> he biding the People joy in <w norm="their">theire</w><lb/>
@@ -4773,7 +4773,7 @@ point to <category> elements or to feature structure components.
             <date when-custom="1651-03-31">March <seg rend="underline">the 31, 1651</seg></date>. was his <w norm="black">blacke</w> <w norm="monday">munday</w>. the strange<lb/>
                  <w norm="pain">paine</w> which <w norm="seized">seised</w> on my <w norm="neck">necke</w> portended this <w norm="Sad">Sadd</w> <w norm="loss">losse</w>.<lb/><!-- NOTE [editorial] point of interest - the year after, 29 March 1652, is actual Black Monday - the eclipse - so she's linking the two retrospectively - JE -->
                  Great, &amp; <w norm="infinite">infinitt</w>, was the search by thousands, of People<lb/>
-                 from that time till <date>wednesday foll<ex>owing</ex></date><!-- Q [dates] weekday? wtf Alice. leaving @when tagging. funeral date to be checked. weekday dates may need to be reviewed more generally later. -->, his <w norm="body">bodie</w> not <w norm="being">beeing</w> found<lb/>
+                 from that time till <date when-custom="1651-04-02">wednesday foll<ex>owing</ex></date><!-- Q CHECK this date [dates] if Mon = 31st Wed must be 2nd. BUT below she says he was buried on 1 April. so one of the dates must be wrong... weekdays? wtf Alice. leaving @when tagging. funeral date to be checked. weekday dates may need to be reviewed more generally later. -->, his <w norm="body">bodie</w> not <w norm="being">beeing</w> found<lb/>
                  till on that day, &amp; about the time when he was lost.</p>
             <p xml:id="p-0275">And then one of those men which was a <w norm="witness">wittnesse</w> against<lb/>
                  him, was the first, which discovered his <w norm="body">bodie</w>, it <w norm="being">beeing</w> fallen<lb/>
@@ -4806,7 +4806,7 @@ point to <category> elements or to feature structure components.
                  Family, <w norm="whose">whoes</w> death, cannot be spoken of <w norm="without">with out</w> <w norm="tears">teares</w>.<lb/>
                  I have taken on me, to <w norm="enlarge">inlarge</w> more fully. As to the <w type="add" norm="circumstances">sircumsta<add place="above">nces</add></w><lb/>
                  of the latter part of his life; &amp; death, as <w norm="also">allso</w> of my <choice><abbr>honred</abbr><expan>honoured</expan></choice>.
-                    <!-- Q abbreviation [endnote] SiC - i.e., not marked as an abbreviation.-->
+                    <!-- [endnote] SiC - i.e., not marked as an abbreviation.-->
                 
                 <lb/>
             
@@ -4833,7 +4833,7 @@ point to <category> elements or to feature structure components.
                  afflictions <w norm="wherein">wheerein</w> I had a <w norm="deep">deepe</w> <w norm="share">shaire</w>, &amp; to leave<lb/>
                  them for the right information to <add place="above">my</add> Posterity of <w norm="their">theire</w><lb/>
                  finishing this life, according to my knowledge.<lb/>
-                 he was buried upon <date when-custom="1651-04-01">the first day of <w norm="April">Aprill</w> 1651</date><!-- Q [dates] above she says they were searching for his body until Weds = 2nd. -->.</p>
+                 he was buried upon <date when-custom="1651-04-01">the first day of <w norm="April">Aprill</w> 1651</date><!-- Q [dates] BUT above she says they were searching for his body until Weds = 2nd. -->.</p>
             <p xml:id="p-0279"><persName ref="ppl:cw3" n="per415">Sir Christofer Viwill</persName> who had a great love for <rs ref="ppl:gw1" n="per416" type="person">my <w norm="Dear">Deare</w><lb/>
                  brother</rs>, made an <w norm="Excellent">Excelent</w> paper of verses up<add place="above">on</add> him in<lb/>
                  <w norm="bewailing">bewaling</w> his <w norm="loss">losse</w> which I will insert <w norm="here">heere</w> <w norm="after">affter</w>.</p>
@@ -4953,7 +4953,7 @@ point to <category> elements or to feature structure components.
                  come, when <quote type="direct" source="#_Judges_21:25">there was <w norm="no">noe</w> king in <w norm="Israel">Israell</w>, every one did what<lb/>
                  was right in his <w norm="own">owne</w> Eyes</quote>. but he was brought to his grave<lb/>
                  in Peace; And now o Lord most high. &amp; yet most <w type="break" norm="merciful">merci-<lb break="no"/>
-                 -full</w> Father. <w norm="Let">Lett</w> me not Sin against thee by adding <w type="query">reping</w><!-- Q endnote in semidip but doesn't make much sense ???? --><lb/>
+                 -full</w> Father. <w norm="Let">Lett</w> me not Sin against thee by adding <w type="query">reping</w><!-- Q CHECK with CB/ST. there's an endnote in semidip but doesn't make much sense ???? --><lb/>
                  murmuring thoughts. for it is the Lord, <w norm="let">lett</w> him <w norm="do">doe</w> what<lb/>
                  <w type="archaism">seemeth</w> him best. I lay my mouth in the dust &amp; say. I am<lb/>
                  not worthy to <w norm="speak">speake</w> unto thee, nor have my <w norm="own">owne</w> life given<lb/>
@@ -5018,7 +5018,6 @@ point to <category> elements or to feature structure components.
                  Nations, in true <w norm="filial">filliall</w> <w norm="fear">feare</w>. may <w norm="again">againe</w> <w norm="enjoy">injoy</w> thy<lb/>
                  Presence with us. <w norm="being">beeing</w> a People saved by the Lords mira-<lb break="no"/>
                  -culous favour &amp; mercy. <quote type="allusion" source="#_Psalms_66:2"><w norm="Giving">Giveing</w> thee the <w norm="honour">honor</w>
-                    <!-- Q check what VARD does with "honor"? [endnote] SiC -no abbreviation.-->
                  &amp; praise<lb/>
                  of all thy dealings with us</quote>.</p>
 
@@ -5414,7 +5413,7 @@ point to <category> elements or to feature structure components.
                  into <rs ref="ppl:aow1" n="per460" type="person">my Mother</rs>, was the least in <w norm="value">valew</w> which had <w norm="been">bin</w> <w norm="offered">offred</w><lb/>
                  yet did <rs ref="ppl:aow1" n="per461" type="person">my Mother</rs> hope, to <w norm="find">finde</w> a <w norm="handsome">hansome</w> <w norm="competency">compotency</w><lb/>
                  <w norm="without">with out</w> much charge as was represented to her, only<lb/>
-                 the want of a house which he must <w norm="build">builde</w>, <rs ref="ppl:tbd-brother" n="per462" type="person">his brother</rs> &amp; <rs ref="ppl:tbd-sister" n="per463" type="person">sister</rs><!-- Q [people] WT's siblings - identifiable? --><lb/>
+                 the want of a house which he must <w norm="build">builde</w>, <rs ref="ppl:tbd-brother" n="per462" type="person">his brother</rs> &amp; <rs ref="ppl:tbd-sister" n="per463" type="person">sister</rs><!-- Q [people] WT's siblings - identifiable? he has several. --><lb/>
                 <w norm="being">beeing</w> provided for by <rs ref="ppl:edg1" n="per464" type="person">his mother</rs> that would <w norm="clear">cleare</w> his<lb/>
                  Estate. which was given in to be <measure unit="£" type="currency">600<am rend="superscript">l</am></measure> per an<ex>num</ex>.</p>
             <p xml:id="p-0312">
@@ -5503,8 +5502,7 @@ point to <category> elements or to feature structure components.
                  of it to be <w norm="legal">legall</w> for security <w norm="without">with out</w> it. but <persName ref="ppl:wt1" n="per483">Mr <w norm="Thornton">Thort<ex>on</ex></w></persName><lb/>
                  did faithfully <w norm="engaged">ingaged</w> to <w norm="do">doe</w> the same <w norm="legally">leagally</w> &amp;<lb/>
                  <w norm="pass">passe</w> the fine <w norm="after">affter</w> his death. </p>
-            <p xml:id="p-0322">but in the <w norm="interim">intrime</w> 
-                    <!-- Q sic in Rem but wonder if it might be norm [endnote] I.e., interim.-->
+            <p xml:id="p-0322">but in the <w norm="interim">intrime</w>
                  I was left in an <w norm="uncertainty">incertainty</w> for the<lb/>
                  security of a <w norm="Jointure">Joynture</w> in case of his death before me, &amp;<lb/>
                  when my Portion was disposed of by him, could have<lb/>
@@ -5695,7 +5693,7 @@ point to <category> elements or to feature structure components.
                 <fw type="pageNum">128</fw>
             
             <p xml:id="p-0332">In his <w norm="return">returne</w> home from <placeName ref="place:East_019" n="place219">Newton</placeName> his <w norm="own">owne</w> Estate, I was<lb/>
-                carried over <placeName ref="place:Hamb_020" n="place220">Hambleton</placeName><!-- Q [places] possibly should be geogName --> towards <rs ref="place:Osgo_120" n="place-supp57" type="place"><persName ref="ppl:wa1" n="per516">Sir <choice><abbr>will.<am rend="superscript">m</am></abbr><expan>William</expan></choice> Akoughs</persName> house</rs><lb/>
+                carried over <placeName ref="place:Hamb_020" n="place220">Hambleton</placeName><!-- Q [places] maybe this should be geogName --> towards <rs ref="place:Osgo_120" n="place-supp57" type="place"><persName ref="ppl:wa1" n="per516">Sir <choice><abbr>will.<am rend="superscript">m</am></abbr><expan>William</expan></choice> Akoughs</persName> house</rs><lb/>
                  where I passed <w norm="down">downe</w> on <w norm="foot">foote</w> a very high hill, betwixt<lb/>
                  <geogName ref="place:Hood_121" n="geog16">hud hill</geogName> &amp; <geogName ref="place:Whit_127" n="geog17">whitsonclife</geogName>, which is <w norm="above">a bove</w> a mile <w norm="steep">steepe</w> <w norm="down">downe</w><lb/>
                  &amp; indeed so bad, that I could not <w norm="scarce">scarse</w> tread the narrow steps<lb/>
@@ -6158,7 +6156,7 @@ point to <category> elements or to feature structure components.
                  mothers which troubled me much;<anchor n="ev87" type="event"/> but I must be willing<lb/>
                  to <w norm="submit">submitt</w> to all Gods pleasure in every thing.</p>
            <milestone n="ev88" unit="event"/><!-- NOTE event awt child3 pregnancy -->
-            <p xml:id="p-0361">At <!-- Q highlighted for checking. NB. Anselement has 'After' needs double-checking against MS -->some time my strength returned <w norm="again">againe</w> And through<lb/>
+            <p xml:id="p-0361">At <!-- Q CHECK semidip highlighted for checking. NB. Anselement has 'After' needs double-checking against MS -->some time my strength returned <w norm="again">againe</w> And through<lb/>
             
 
             <pb xml:id="page-137" n="137"/>
@@ -6176,9 +6174,9 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0362">
                 <date when-custom="1655-02">About a <w norm="week">weeke</w> before my full time</date> I <w norm="continued">contineued</w> in much<lb/>
                  <w norm="pain">paine</w> through the <w norm="heaviness">heavinesse</w> of <rs ref="ppl:et1" n="per550" type="person">my <w norm="Child">Childe</w></rs>; <w norm="having">haveing</w> <rs n="per551" type="person">the mid-<lb break="no"/>
-                -wife</rs><!-- Q [people] not identifiable? --> in constant expectation each <w norm="hour">houer</w>. <w norm="at">att</w> which time<lb/>
+                -wife</rs><!-- NOTE [people] probably not identifiable --> in constant expectation each <w norm="hour">houer</w>. <w norm="at">att</w> which time<lb/>
                 <rs ref="ppl:aow1" n="per552" type="person">my <w norm="dear">deare</w> mother</rs> laid <w norm="sick">sicke</w> in <rs ref="place:Hips_022" n="place-supp58" type="place">the house</rs> of a sad cough. &amp;<lb/>
-                <w norm="young">yong</w> <persName ref="ppl:xt4" n="per553">Mr Troutbeck</persName><!-- Q [review] still q about mr/mrs? --> came to give her directions through<lb/>
+                <w norm="young">yong</w> <persName ref="ppl:xt4" n="per553">Mr Troutbeck</persName><!-- NOTE mr/mrs --> came to give her directions through<lb/>
                  some <w norm="friends">freinds</w> advice. &amp; by the blessing of God she was recov<lb break="no"/>
                  -ered though not to be with me in my <w norm="travail">travell</w>. <date when-custom="1655-02-13">all <w norm="tuesday">teusday</w></date><lb/>
                  &amp; that night with the morning on wednesday I was in great <w type="break" norm="extremity">ex-<lb break="no"/>
@@ -6244,7 +6242,7 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0367">But this second <w norm="weakness">weaknesse</w> of my <w norm="own">owne</w> did <w norm="so">soe</w> dis-<lb break="no"/>
                  -courage <rs ref="ppl:aow1" n="per566" type="person">my <w norm="dear">deare</w> mother</rs>, that she would not <w norm="let">lett</w> me<lb/>
                  give <w norm="suck">sucke</w>, although I <w norm="extremely">extreamely</w> desired it, &amp; <date><w norm="at">att</w><lb/>
-                 the months end</date><!-- Q [dates] but which month Alice? --> I was forced to <w norm="dry">drie</w> my breasts which grew<lb/>
+                 the months end</date><!-- Q [dates] but which month Alice ffs? --> I was forced to <w norm="dry">drie</w> my breasts which grew<lb/>
                  full &amp; had <w norm="endangered">indangered</w> to bring me ill <w norm="again">againe</w>.</p>
            <anchor n="ev93" type="event"/>
            <milestone n="ev94" unit="event"/><!-- NOTE event child2 wetnursing -->
@@ -6336,7 +6334,7 @@ point to <category> elements or to feature structure components.
                  <quote type="paraphrase" source="#_Psalms_103:9"><w norm="always">alwaies</w> be chiding <w norm="forever">for ever</w></quote>, <quote type="paraphrase" source="#_Psalms_103:10">nor dealt with us <w norm="after">affter</w> our<lb/>
                  sins; nor <w type="archaism">rewardeth</w> me according to my wickedness</quote><lb/>
                 Lord
-                <!-- Q still being checked? endnote It *may* be 'Lord' overwritten with 'hath' which would make more sense? In no way certain on this though. Anselment marks as deleted text. -->
+                <!-- Q CHECK semidip. still being checked? endnote It *may* be 'Lord' overwritten with 'hath' which would make more sense? In no way certain on this though. Anselment marks as deleted text. -->
                  has delivered me in my <w norm="distress">distresse</w>. Lord grant that <lb/>
                  my gratitude may be as great as my needs of mercy<lb/>
                  are. letting thy <w norm="merciful">mercifull</w> <w norm="loving">loveing</w> <w norm="kindness">kindnesse</w> endure for<lb/>
@@ -6356,7 +6354,7 @@ point to <category> elements or to feature structure components.
 <!-- transcription: Page 141 -->
 
             
-    <!-- TODO [page numbering] page number in inner margin (right-hand page, even number) -->
+    <!-- NOTE [page numbering] page number in inner margin (right-hand page, even number) -->
                 <fw type="pageNum">142</fw>
             
             <p xml:id="p-0373">But pardon our Sins <w norm="heal">heale</w> our infirmities, <w norm="cleanse">clence</w> our <w type="add" norm="pollutions">Poluti<add place="above">ons</add></w><lb/>
@@ -6416,7 +6414,7 @@ point to <category> elements or to feature structure components.
 
 <!-- transcription: Page 142 -->
 
-   <!-- TODO [page numbering] return to even numbering on left-hand pages -->
+   <!-- NOTE [page numbering] return to even numbering on left-hand pages -->
                 <fw type="pageNum">144</fw>
                 
                     <!-- [endnote] [page numbering] Another misfoliation means that we jumpt from p. 142 to p. 144, without a 143 inbetween, but no blank page in tehe MS. -->
@@ -6475,7 +6473,7 @@ point to <category> elements or to feature structure components.
 <!-- transcription: Page 143 -->
 
             
-       <!-- TODO [page numbering] return to odd numbering on right-hand pages -->
+       <!-- NOTE [page numbering] return to odd numbering on right-hand pages -->
                 <fw type="pageNum">145</fw>
                 
             
@@ -6564,7 +6562,7 @@ point to <category> elements or to feature structure components.
 
             
                 <fw type="pageNum">147</fw>
-      <!-- TODO [page numbering] number in inner margin (odd number, r-h page) -->
+      <!-- NOTE [page numbering] number in inner margin (odd number, r-h page) -->
             
              <w norm="Body">Bodie</w>; <w norm="humbly">humblie</w> <w norm="begging">beggeing</w>. &amp; beseech thy <w norm="majesty">majestie</w> that<lb/>
                  if my <w norm="dissolution">desolution</w> be <w norm="at">att</w> hand; thou <w type="archaism">wouldest</w> be fully<lb/>
@@ -6705,10 +6703,10 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0387">It pleased God to take from me, <persName ref="ppl:et1" n="per602">my deare childe betty</persName><lb/>
                  which had <w norm="been">bin</w> long in the <w norm="rickets">riketts</w> &amp; consumption gotten at<lb/>
                 first by an Ague &amp; much gone in the <w norm="Rickets">Ricketts</w> which I <w type="query">concsed</w>
-                <!-- Q being checked - concede? Anselement has this as 'concea[ve]d' 'conceed', I think
+                <!-- Q CHECK semidip. being checked - concede? Anselement has this as 'concea[ve]d' 'conceed', I think
  -->
                 <lb/>
-                was caused by ill <w norm="milk">milke</w> at <rs n="per603" type="group"><w norm="two">2</w> nurses</rs><!-- Q [people] probably not identifiable? -->, And did notwithstand-<lb break="no"/>
+                was caused by ill <w norm="milk">milke</w> at <rs n="per603" type="group"><w norm="two">2</w> nurses</rs><!-- NOTE [people] probably not identifiable. -->, And did notwithstand-<lb break="no"/>
                  -ing all the <w norm="means">meanes</w> I used &amp; had her with <persName ref="ppl:atc1" n="per604">Naly</persName> at <placeName ref="place:StMu_049" n="place239">St Mun<lb/>
                  gnos well</placeName>. for it she grew weaker &amp; <w norm="at">att</w> the last in a most<lb/>
                  desperate Cough that destroyed her lunges, she died.<lb/>
@@ -6825,7 +6823,7 @@ point to <category> elements or to feature structure components.
                  to <w norm="go">goe</w> to my full time, my Labour <w norm="beginning">begining</w> <w norm="three">3</w> <w norm="days">daies</w>.<lb/>
                  but upon the <date when-custom="1657-12-09">Wednesday the ninth of December</date> I fell into<lb/>
                  exceeding sharpe <w norm="travail">travill</w> in great <w norm="extremity">extreamity</w> so that <rs n="per616" type="person">the<lb/>
-                     midwife</rs><!-- Q [people] not identifiable? --> did <w norm="believe">beleive</w> I should be delivered <w norm="soon">soone</w>.<lb/>
+                     midwife</rs><!-- NOTE [people] probably not identifiable --> did <w norm="believe">beleive</w> I should be delivered <w norm="soon">soone</w>.<lb/>
                  but <w norm="lo">loe</w> it fell out contrary. for <rs ref="ppl:xt2" n="per617" type="person">the <w norm="child">childe</w></rs> <w norm="stayed">staied</w> in the<lb/>
                  birth &amp; came <w norm="cross">crosse</w> with his <w norm="feet">feete</w> first. &amp; in this conditi<lb break="no"/>
                  -on <w norm="continued">contineued</w> till thursday morning <w norm="between">betweene</w> <w norm="two">2</w> &amp; <w norm="three">3</w><lb/>
@@ -6842,7 +6840,7 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0391">I was delivered of <rs ref="ppl:xt2" n="per618" type="person">my first <w norm="son">sonne</w> &amp; fifth <w norm="child">childe</w></rs> on the <date type="death" when-custom="1657-12-10">10<hi rend="superscript">th </hi><lb/>
                  of December 1657</date><anchor n="ev107" type="event"/> <milestone n="ev108" unit="event"/><!-- NOTE event *overlap* child5 burial -->he was buried in <placeName ref="place:Catt_010" n="place244">Catericke Church</placeName> the <lb/>
                  same day by <persName ref="ppl:ms1" n="per619">Mr Siddall</persName>. <rs ref="ppl:xt2" n="per620" type="person">this <w norm="sweet">sweete</w>, goodly son</rs> was turned<lb/>
-                wrong by the fall I <w norm="got">gott</w> in <date when-custom="1657-09">Sept before</date>, nor had <rs n="per621" type="person">the midwife</rs><!-- Q [people] not identifiable? --><lb/>
+                wrong by the fall I <w norm="got">gott</w> in <date when-custom="1657-09">Sept before</date>, nor had <rs n="per621" type="person">the midwife</rs><!-- NOTE [people] probably not identifiable. can't even really be sure if it's the same midwife for each child. Idk if we could have a kind of group entity for anonymous midwives... --><lb/>
                  skill to <w norm="turn">turne</w> him right, which was the cause of the <w norm="loss">losse</w> of his Life<lb/>
                  And the hazard of my <w norm="own">owne</w>.<anchor n="ev108" type="event"/> </p>
             <milestone n="ev109" unit="event"/><!-- NOTE event awt post birth -->
@@ -6869,7 +6867,7 @@ point to <category> elements or to feature structure components.
                  failings of my duties is required both as to God &amp; man,<anchor n="ev109" type="event"/></p>
             <p xml:id="p-0394">And though I am not given over to any <w norm="sinful">sinnfull</w> <choice><sic>in ormus</sic><corr>enormous</corr></choice>
                 <lb/>
-                 crimes which <choice><abbr>1000<am rend="superscript">ds</am></abbr><expan>thousands</expan></choice><!-- Q still being checked --> are subject, to yet am I not pure in the sight<lb/>
+                 crimes which <choice><abbr>1000<am rend="superscript">ds</am></abbr><expan>thousands</expan></choice><!-- Q CHECK semidip --> are subject, to yet am I not pure in the sight<lb/>
                  of God. for there is <w norm="no">noe</w> man that <w type="archaism">liveth</w> &amp; <w type="archaism">sinneth</w> not. what<lb/>
                  cause therefore have I to cry out. Oh the <w norm="height">hight</w>, the depth, the<lb/>
                  breadth, the length, of the Love of God which had great compassion<lb/>
@@ -6951,7 +6949,7 @@ point to <category> elements or to feature structure components.
 
 <!-- transcription: Page 153 -->
 
-   <!-- TODO [page numbering] number in inner margin (odd number, r-h page) -->
+   <!-- NOTE [page numbering] number in inner margin (odd number, r-h page) -->
                 <fw type="pageNum">155</fw>
             
         <div xml:id="div-066">
@@ -7071,7 +7069,7 @@ point to <category> elements or to feature structure components.
         <div xml:id="div-068">
             <head rend="post(rule)"> 
                 <date when-custom="1659">1659</date>.
-            <!-- Q [tagging] tagging year as head, but usually have tagged year headings as fw. no other title text. -->
+            <!-- NOTE [tagging] tagging year as head, but Idk. usually have tagged year headings as fw. but no other title text.  -->
             </head>
             <milestone n="ev114" unit="event"/><!-- NOTE event politics -->
             <p xml:id="p-0403">About this time wee <w norm="were">weare</w> all in a great <w norm="confusion">confussion</w> in<lb/>
@@ -7290,7 +7288,7 @@ point to <category> elements or to feature structure components.
                  government of his Family, &amp; by her <w norm="care">caire</w> was a <w norm="means">meanes</w><lb/>
                  to give opportunity of increasing his Patrimony. as<lb/>
                  <rs ref="ppl:cw1" n="per663" type="person">my <w norm="dear">deare</w> father</rs> is pleased to leave upon Record in <ref type="bibliog">his<lb/>
-                     <w norm="own">owne</w> <w norm="book">booke</w></ref><!-- Q [authors] this is the book of instruction again? --> for her <w norm="Eternal">Etternall</w> <w norm="honour">hon.<am rend="superscript">our</am></w>
+                     <w norm="own">owne</w> <w norm="book">booke</w></ref><!-- Q [authors] this is the CW book of instruction again? --> for her <w norm="Eternal">Etternall</w> <w norm="honour">hon.<am rend="superscript">our</am></w>
                 <!-- NOTE [insertion]? maybe should just be superscript rather than add? 
                 [endnote] In original - hon:<hi rend="superscript">our</hi>', so not actual contraction - YES, so making consistent with revised tagging.
                 -->
@@ -7369,7 +7367,7 @@ point to <category> elements or to feature structure components.
                  &amp; offspring of such a holy &amp; sanctified a Couple; whom<lb/>
                  God Almighty had filled with such a measure of his <w norm="Spirit">Spiritt</w><lb/>
                  <w norm="making">makeing</w> them great ornaments of Religion.</p>
-            <milestone n="ev118" unit="event"/><!-- Q event mother's widowhood -->
+            <milestone n="ev118" unit="event"/><!-- Q event mother's widowhood - is this an event? -->
             <p xml:id="p-0427">After <rs ref="ppl:cw1" n="per681" type="person">my <w norm="dear">deare</w> fathers</rs> decease she lived his <w norm="Widow">Widdow</w><lb/>
                  till her death; which was the space of 19 <w norm="years">yeares</w> &amp; <w norm="seven">7</w> <w norm="days">daies</w>;<lb/>
                  dieing in <date when-custom="1659-12">that same month of Decem<ex>ber</ex></date> &amp; in old Age.<lb/>
@@ -7417,7 +7415,7 @@ point to <category> elements or to feature structure components.
                  st whom she lived; yea even in those sad times of<lb/>
                  <w norm="losing">lossing</w> all, many <choice><abbr>100<am rend="superscript">ds</am></abbr><expan>hundreds</expan></choice> were <w norm="Relieved">Releived</w>, &amp; <w norm="supplied">suplied</w> at<lb/>
                  her <w norm="door">doore</w>.</p>
-            <p xml:id="p-0430">For her exceeding kindnesses <w norm="done">don</w>, for the <w norm="help">helpe</w> of <rs ref="ppl:tbd" n="per685" type="person">the <w norm="Heir">Heire</w></rs><!-- Q [people] not sure this is ref to a specific individual? --><lb/>
+            <p xml:id="p-0430">For her exceeding kindnesses <w norm="done">don</w>, for the <w norm="help">helpe</w> of <rs ref="ppl:cw2" n="per685" type="person">the <w norm="Heir">Heire</w></rs><!-- Q [people] tagged as christopher for now. not sure this is ref to a specific individual? --><lb/>
                  <w norm="younger">yonger</w>, Children, &amp; debtors of <rs ref="ppl:cw1" n="per686" type="person">my Fathers</rs>. <w norm="let">lett</w> her<lb/>
                  <w norm="own">owne</w> narration, delivered from her in <w norm="writing">writting</w> before<lb/>
                  <w norm="witnesses">wittnesses</w> declare. what, &amp; how she expended upon<lb/>
@@ -7459,7 +7457,7 @@ point to <category> elements or to feature structure components.
                  nurses, men servants &amp;, <w norm="maids">maides</w> &amp; our <w norm="friends">freinds</w> entertain<lb break="no"/>
                  -ments, all things <w norm="done">don</w> of her <w norm="own">owne</w> cost &amp; charges all her<lb/>
                  <w norm="days">daies</w> while she lived. which could not be of less <w norm="value">valew</w> to<lb/>
-                 us <w type="query">deearley</w><!-- Q still undecided in semidip.
+                 us <w type="query">deearley</w><!-- Q CHECK semidip.
                      [endnote] Jo - yearley? Anselement has 'cleerely'. See comparator below (n107). It is not 'yearley', it is cl- or d-. Which of the two, though... -->
                  <w norm="than">then</w> <measure unit="£" type="currency">1600<am rend="superscript">l</am></measure>
             </p>
@@ -7659,7 +7657,7 @@ point to <category> elements or to feature structure components.
                  they would not pray for her <w norm="continuance">contineuance</w> in this life<lb/>
                  for she was weary of it &amp; desired to <w norm="obtain">obteine</w> a better<lb/>
                  &amp; to be fitted for it; And that these should be the heads<lb/>
-                 on which they should <w norm="Petition">Pettition</w> God for her <seg rend="background(cyan)"><abbr type="abbr">Videlz.</abbr></seg><!-- Q to be checked -->
+                 on which they should <w norm="Petition">Pettition</w> God for her <seg rend="background(cyan)"><abbr type="abbr">Videlz.</abbr></seg><!-- Q CHECK semidip. to be checked -->
             </p>
             <p xml:id="p-0451">That the Lord would be pleased to grant her true<lb/>
             
@@ -7713,10 +7711,10 @@ point to <category> elements or to feature structure components.
 
 <!-- transcription: Page 169 -->
 
-                <!-- TODO [page numbering] number in inner margin (odd number, r-h page) -->           
+                <!-- NOTE [page numbering] number in inner margin (odd number, r-h page) -->           
                 <fw type="pageNum">171</fw> <lb/>
             
-            <persName ref="ppl:xs12" n="per708" type="author">Smith</persName><!-- Q [authors] ST notes on this --> made in his <ref type="bibliog"><w norm="Book">Booke</w> for a Person at the point to <add place="above">die</add></ref><lb/>
+            <persName ref="ppl:xs12" n="per708" type="author">Smith</persName><!-- Q [authors] there are ST notes on this --> made in his <ref type="bibliog"><w norm="Book">Booke</w> for a Person at the point to <add place="above">die</add></ref><lb/>
                  &amp; <w norm="took">tooke</w> great notice of each <w norm="Petition">Pettition</w> <w norm="praying">praing</w> with<lb/>
                  <w norm="Zeal">Zeale</w> &amp; ardency.</p>
             <p xml:id="p-0456">It was very observable in all her <w norm="sickness">sickenesse</w>, as in-<lb break="no"/>
@@ -8093,7 +8091,8 @@ point to <category> elements or to feature structure components.
                  <w norm="Corporal">Corporall</w> <w norm="food">foode</w>; <w norm="so">soe</w> my <w norm="Soul">Soule</w> may (from the hunger<lb break="no"/>
                  -starving of <w norm="sin">sinne</w>), bee strengthened by thy blessed<lb/>
                  <w norm="body">bodie</w>, &amp; washed by thy precious blood from all her<lb/>
-                 <w norm="sins">sinnes</w>. Amen. <milestone unit="marker" rend="delim(tbd-fleur)"/>
+                 <w norm="sins">sinnes</w>. Amen. 
+                <milestone unit="marker" rend="delim(tbd-fleur)"/>
                     <!-- [endnote] [decoration] Flourish after 'Amen'. -->
                 
                 <!-- Q [decoration] have made this milestone, but maybe <g> tag? it looks a bit like some forms of "fleuron" ('stylized flowers or leaves')? -->
@@ -8129,7 +8128,7 @@ point to <category> elements or to feature structure components.
             My delivery of <persName ref="ppl:wt2" n="per744">my Son William</persName>, my <w norm="sixth">6<hi rend="superscript">th</hi></w> <w norm="child">childe</w>; &amp; of his<lb/>
               death. <date type="birth" when-custom="1660-04-17"><w norm="April">Aprill</w> the 17<hi rend="superscript">th</hi> 1660</date> <w norm="at">att</w> <placeName ref="place:StNi_050" n="place274">St Nickolas</placeName> my <persName ref="ppl:awn1" n="per745">Aunt<lb/>
              Nortons</persName> house. <w norm="after">affter</w> <rs ref="ppl:aow1" n="per746" type="person"><w norm="dear">deare</w> mothers</rs> death. 
-            <!-- Q [teams] [layout] may need final review v transcription. "Wharton's grave at Easby" is below the post(rule). but clearly part of the heading text - seems to have simply run out of space.  --> 
+            <!-- Q [add] [layout] "Wharton's grave at Easby" is below the post(rule). but looks like part of the heading text - should it be tagged with <add>?  --> 
               
              <add place="inline">he died<lb/>
                  <date type="death" when-custom="1660-04-28"><w norm="April">Aprill</w> 28</date> <w norm="buried">burid</w> <date>1659</date><!-- NOTE [dates] definitely written 1659 but that's just wrong here. kept tag, but not @when --> at <placeName ref="place:Easb_017" n="place275">Easby</placeName> <date when-custom="1660-04-29">29</date>. <w norm="near">neare</w> my <persName ref="ppl:pcw1" n="per747">Lady<lb/>
@@ -8449,7 +8448,7 @@ point to <category> elements or to feature structure components.
                  Power &amp; Dominion, both in heaven &amp; Earth. of men, &amp;<lb/>
                  <w norm="Angels">Angells</w>, To the ever blessed <w norm="Trinity">Trenity</w>. for these his <w norm="infinite">infinit</w><lb/>
                  &amp; <w norm="inexpressible">inexpressable</w> mercy to me &amp; this <w norm="Kingdoms">Kingdomes</w> for ever<lb/>
-                 and for Ever. Amen. Amen. <g ref="#hearts">♥ ♥ ♥ ♥ ♥ ♥ ♥</g><!-- Q multi hearts not just one - think this is the only time this happens. check options. -->
+                 and for Ever. Amen. Amen. <g ref="#hearts7">♥ ♥ ♥ ♥ ♥ ♥ ♥</g><!-- Q multi hearts not just one - think this is the only time this happens. check options. -->
             </p>
      </div>
      <div xml:id="div-080">       
@@ -8540,7 +8539,8 @@ point to <category> elements or to feature structure components.
          <anchor n="ev137b" type="event"/>
          <milestone n="ev138" unit="event"/>
          <p xml:id="p-0517">In this time while I lived there, about <date when-custom="1661-02-09" datingMethod="#JulianMar">Shrove Sunday 61</date><!-- NOTE [dates] OS 
-             very slight uncertainty still?
+             mention of pregnancy must make it 1662.
+             though NB:
              Shrove Sunday can be (allegedly) either "Septuagesima Sunday" (3rd Sunday before Ash Wednesday") *or* Quinquagesima, Sun before Ash Wed.
                 Ians English Calendar (ecclestiastical yr starting 1 Jan)
                 1661 - Ash Wed= 27 Feb Quinq... = 24 Feb Septuagesima = *10 Feb*.
@@ -8548,8 +8548,7 @@ point to <category> elements or to feature structure components.
                 
                 they were at Oswoldkirk from June 1660
                 the next set of dates is the move to E.Newton June 1662.
-                so in chronology could be 1661 or 1662
-                but mention of pregnancy seems to make it 1662.
+                so in chronology could be either 61 or 62.
             --><lb/>
                  I was in the Church when it was a frost &amp; snow, sitting in the minis<lb/>
                  Pews. I <w norm="felt">fellt</w> my <w norm="self">selfe</w> exceeding Cold. &amp; by <w norm="fits">fitts</w> <w norm="continued">contineud</w> till the<lb/>
@@ -8745,7 +8744,7 @@ point to <category> elements or to feature structure components.
                  Power to find out a way for mans Redemption: and of thy <lb/>
                  free grace thou o my <w norm="dear">deare</w> Saviour suffered the wrath of thy <lb/>
                  Father on the <w norm="Cross">Crosse</w> to purchase our salvation. So now art thou<lb/>
-                 pleased to vanquish <rs type="person">my grand <w norm="Enemy">Enimy</w></rs><!-- Q [people] specific person? somewhere else i think she calls Satan the grand enemy --> by the power of thy <lb/>
+                 pleased to vanquish my grand <w norm="Enemy">Enimy</w><!-- NOTE [people] I think this is ref to Satan, not to a person. somewhere else i think she calls Satan the grand enemy --> by the power of thy <lb/>
                  word to me. I <w norm="believe">beleive</w>, (Lord help my <w norm="unbelief">unbeleife</w>) that thou <lb/>
                  art as <w norm="merciful">mercifull</w> to me as others, &amp; <w norm="wilt">willt</w> not exclude me except<lb/>
                  I exclude my <w norm="self">selfe</w>, &amp; as thou <w type="archaism">hast</w> pleased to give me plenty of<lb/>
@@ -8800,7 +8799,7 @@ point to <category> elements or to feature structure components.
         <div xml:id="div-082" rend="pre(rule)">
           <!-- NOTE [div] new div: no section title but has index entry + divider line  --> 
             
-            <p xml:id="p-0531"><w norm="After">Affter</w> this inestimable &amp; <w norm="wonderful">wonderfull</w> mercy, in my grac--<lb break="no"/><!-- Q [review] ? "-\-" here and beginning of next line, and a few lines down -->
+            <p xml:id="p-0531"><w norm="After">Affter</w> this inestimable &amp; <w norm="wonderful">wonderfull</w> mercy, in my grac--<lb break="no"/><!-- Q CHECK semidip [review] ? "-\-" here and beginning of next line, and a few lines down -->
                  --ious Gods <w norm="giving">giveing</w> me <w norm="satisfaction">sattisfaction</w> in my doubts &amp; in putt<lb break="no"/>
                  ing to flight that old serpent the <w norm="Devil">Devill</w>, from <w norm="doing">doeing</w> more <w type="break" norm="harm">har<lb break="no"/>
                  --me</w> to my <w norm="soul">soule</w> then <w norm="scaring">scaireing</w> me into the firmer &amp; deeper<lb/>
@@ -9185,7 +9184,7 @@ point to <category> elements or to feature structure components.
         <div xml:id="div-086">
             <head rend="post(rule)">
                 <persName ref="ppl:rc2" n="per822">Mr Colvills</persName> Settlement of <persName ref="ppl:wt1" n="per823">Mr Thorntons</persName> Estate: <del xml:id="ex-del-double-07" rend="doublestrikethrough">166X</del><lb/>
-                <!-- Q still being checked "166X" in title. looks like 1661 to me? -->
+                <!-- Q CHECK semidip "166X" in title. looks like 1661 to me? -->
                  <date type="legal" when-custom="1662">1662</date>.</head>
             <milestone n="ev147" unit="event"/>
             <p xml:id="p-0551"><w norm="After">Affter</w> I had received this great mercy from God; &amp;<lb/>
@@ -9218,7 +9217,7 @@ point to <category> elements or to feature structure components.
                  not only breed scruples; but were directly contrary to the s<ex>ai</ex>d<lb/>
                  Articles <w norm="leaving">leaveing</w> Power for him to <w norm="disinherit">dissinherit</w> my Child<ex>ren</ex><lb/>
                  This was neither <w norm="known">knowne</w> <add place="above">to</add> nor mistrusted by <rs ref="ppl:aow1" type="person">my <w norm="dear">dere</w> mot.</rs><lb/>
-                 nor <del rend="strikethrough">to</del> my <w norm="self">selfe</w>; but in my late <w norm="sickness">sickenesse</w>; when <rs type="person">a <w norm="friend">freind</w></rs><!-- Q [people] is this friend identifiable elsewhere? --> did<lb/>
+                 nor <del rend="strikethrough">to</del> my <w norm="self">selfe</w>; but in my late <w norm="sickness">sickenesse</w>; when <rs type="person">a <w norm="friend">freind</w></rs><!-- Q [people] is this friend identifiable in another book? I have feeling it might be --> did<lb/>
                  <w norm="look">looke</w> on the s<ex>ai</ex>d writings found them <w norm="so">soe</w>: &amp; made it <w norm="appear">appeare</w><lb/>
                  to <persName ref="ppl:wt1" n="per827">Mr Thornton</persName>: which indeed he was then willing to correct<lb/>
                  but it was <w norm="deferred">defferred</w> till this time.</p>
@@ -9636,7 +9635,7 @@ point to <category> elements or to feature structure components.
                  strength were not in the Almighty.</p>
             <anchor n="ev153" type="event"/>
                 <milestone n="ev154" unit="event"/><!-- NOTE event awt sacrament -->
-            <p xml:id="p-0580">However I <w norm="trebled">tribled</w> <!-- Q norm? [endnote] I.e., trebled.-->
+            <p xml:id="p-0580">However I <w norm="trebled">tribled</w> <!-- [endnote] I.e., trebled.-->
                  my diligence &amp; <w norm="care">caire</w> in preparation<lb/>
                  <w norm="having">haveing</w> with comfort <w norm="received">reciaved</w> the blessed Sacrament as<lb/>
                  a pledge of my Redemption; which we had the opportunity<lb/>
@@ -9667,7 +9666,7 @@ point to <category> elements or to feature structure components.
                 <rs ref="ppl:atc1 ppl:ktp1 ppl:rt2" n="per875" type="person">my <w norm="three">3</w> young <w norm="Children">Chidren</w></rs>; casting in my mind what <w norm="friend">freind</w> of<lb/>
                  my <w norm="own">owne</w> to desire to in trust with <w norm="their">theire</w> Education if he did <w norm="so">soe</w><lb/>
                  For my Son: The hope of my house: I <w norm="humbly">humblie</w> committed him<lb/>
-                 into the <w type="query">Propection</w><!-- Q protection? --> of Almighty God. as <w norm="also">allso</w> his two sisters<lb/>
+                 into the <w type="query">Propection</w><!-- Q is this in mod queries? protection? --> of Almighty God. as <w norm="also">allso</w> his two sisters<lb/>
                 And for his Education, into the <w norm="care">caire</w> of my <w norm="dear">deare</w> &amp; <choice><abbr>hon<am rend="superscript">red</am></abbr><expan>honoured</expan></choice> Uncle<lb/>
                  My <persName ref="ppl:jf1" n="per876">Lord frechvile</persName>: <persName ref="ppl:atc1" n="per877">my Daughter Alice</persName> to: my <w norm="dear">deare</w> <persName ref="ppl:awn1" n="per878">Aunt<lb/>
                  Norton</persName>: and <persName ref="ppl:ktp1" n="per879">my Daughter Katherine</persName>: to <persName ref="ppl:kdb1" n="per880">my deare neece<lb/>
@@ -9807,7 +9806,7 @@ point to <category> elements or to feature structure components.
              I expected him each <w norm="hour">houer</w> to have <w norm="received">receaved</w> him home with<lb/>
              health &amp; comfort. Did <w norm="so">soe</w> <w norm="surprise">surprize</w> my <w norm="spirits">spiritts</w>. that I was<lb/>
              brought into a violent passion of <w norm="grief">greife</w> &amp; sorrow: with <w norm="fits">fitts</w><lb/>
-             of <w>sounding</w><!-- Q norm or leave as is? [endnote] [gloss] OED: swooning, fainting (v 4 &amp; 7).-->,
+             of <w norm="swooning">sounding</w><!-- [endnote] [gloss] OED: swooning, fainting (v 4 &amp; 7).-->,
                 
              which I never knew before.</p>
             <p xml:id="p-0593">And prevailed <w norm="so">soe</w> exceedingly, that I <w norm="immediately">immeadiatly</w> went sick<lb/>
@@ -9848,7 +9847,7 @@ point to <category> elements or to feature structure components.
 
 <!-- transcription: Page 211 -->
 
-        <!-- TODO [page numbering] number in inner margin (odd number, r-h page) -->            
+        <!-- NOTE [page numbering] number in inner margin (odd number, r-h page) -->            
                 <fw type="pageNum">213</fw>
         
         <div xml:id="div-093" type="prayer">
@@ -9909,8 +9908,8 @@ point to <category> elements or to feature structure components.
                  <persName ref="ppl:jt1" n="per915">Joyce Thornton</persName> with a great <w norm="sickness">sickenesse</w> falling <w norm="exceeding">exceding</w> ill on<lb/>
                  <date when-custom="1665-01-20" datingMethod="#JulianMar">sunday the 20<hi rend="superscript">th</hi> of Jan. 1665</date><!-- NOTE [dates] 20 Jan 1666 = Saturday. so this is OS --> <w norm="beginning">begining</w> as we thought with a<lb/>
                  Cold which <w norm="struck">strucke</w> in many Red <w norm="spots">spotts</w> all over her <w norm="body">bodie</w> &amp; face<lb/>
-                 <w norm="after">affter</w> which she <w>mourned</w>
-                    <!-- Q norm [endnote] OED. V1, 5c. 'To make a low inarticulate sound indicative of grief, pain, hunger, etc.; to moan.'-->
+                 <w norm="after">affter</w> which she <w type="query">mourned</w>
+                    <!-- Q norm this to moan or leave it as archaism? [endnote] OED. V1, 5c. 'To make a low inarticulate sound indicative of grief, pain, hunger, etc.; to moan.'-->
                  &amp; cried exceedingly <w norm="being">beeing</w> tormented<lb/>
                  with her <w norm="sickness">sickenesse</w>, we used all <w norm="means">meanes</w> that could be <w norm="done">don</w> to <w norm="so">soe</w><lb/>
                  young a <w norm="child">childe</w> by the advice of <persName>Dr <w norm="Wittie">wittie</w></persName>. <w norm="yet">yett</w> <w norm="no">noe</w> thing did<lb/>
@@ -9940,7 +9939,7 @@ point to <category> elements or to feature structure components.
                  <w norm="measures">measurs</w> of <w norm="spiritual">sprittuall</w> <w norm="mercies">mercys</w> &amp; incomes of his grace <w norm="so">soe</w> many<lb/>
                  that my <g ref="#heart">♥</g> &amp; tongue cannot <w norm="express">expresse</w> them <w norm="without">with out</w> that which I had<lb/>
                  <w norm="been">bin</w> miserable. therefore to the glory of his Name I ascribe the<lb/>
-                <w norm="honour">hon.<am rend="superscript">rod</am></w><!-- Q transcription - looks like "honor" not "honrod" to me --> of my Creation out of nothing, <w norm="making">makeing</w> me Capable of<lb/>
+                <w norm="honour">hon.<am rend="superscript">rod</am></w><!-- Q CHECK semidip - looks like "honor" not "honrod" to me --> of my Creation out of nothing, <w norm="making">makeing</w> me Capable of<lb/>
                  salvation beyond the Essence of <w norm="Angels">Angells</w>. those glorious spirits<lb/>
                  The inestimable mercy of <w norm="giving">giveing</w> Redemption to the world.<lb/>
             
@@ -10076,7 +10075,7 @@ point to <category> elements or to feature structure components.
                  of this world did <w norm="fail">faile</w>: then thou o Lord <w type="archaism">didst</w> putt thy <lb/>
                  words into my <g ref="#heart">♥</g> &amp; directed me, that I should come unto<lb/>
                  thee by faith as the woman in the <w norm="Gospel">Gospell</w> did whom thou <w norm="cured">curd</w>
-                    <!-- Q norm [endnote] I.e., cured.-->
+                    <!-- [endnote] I.e., cured.-->
                 
                 <lb/>
                  Matt. 9: 21 v. Accordingly I came unto thy throne of Grace<lb/>
@@ -10325,10 +10324,10 @@ point to <category> elements or to feature structure components.
                  in the detaining of his Annuity. he <w norm="being">beeing</w> of a <w norm="sweet">sweete</w><lb/>
                  noble nature, it wrought the more to his Prejudice.</p>
             <p xml:id="p-0630">But I <w norm="do">doe</w> believe that what things of this nature, to any<lb/>
-                 of the Prejudice, of our family, did not proceed from <rs type="person">the<lb/>
-                 <w norm="Heir's">Heires</w></rs><!-- Q identifiable people ? inclined to think not. --> <w norm="own">owne</w> inclination. <w norm="being">beeing</w> naturally of a good<lb/>
+                 of the Prejudice, of our family, did not proceed from <rs ref="ppl:cw2" type="person">the<lb/>
+                 <w norm="Heir's">Heires</w></rs><!-- NOTE given context I think this is christopher --> <w norm="own">owne</w> inclination. <w norm="being">beeing</w> naturally of a good<lb/>
                  &amp; <w norm="sweet">sweete</w> <w norm="disposition">dispossittion</w>, but from the <w norm="Counsel">Councell</w> of such by<lb/>
-                 <rs type="person"><w norm="whom">whome</w></rs><!-- Q Lowther? --> he had <w norm="been">bin</w> acted since his Marriage. who had<lb/>
+                 <rs type="person"><w norm="whom">whome</w></rs><!-- Q this must be Lowther? get ID. --> he had <w norm="been">bin</w> acted since his Marriage. who had<lb/>
                  advised <persName ref="ppl:gw1" n="per962">my bro. George</persName> to destroy the <w norm="Entails">Intailes</w> &amp; <w norm="Settlements">Settlments</w><lb/>
                  of <rs ref="ppl:cw1" n="per963" type="person">his father</rs> by which he might be free to settle his Estate<lb/>
                  <w norm="wholly">wholely</w> upon his Daughter to the <w norm="Ruin">Ruine</w> of all his Family<lb/>
@@ -10428,7 +10427,7 @@ point to <category> elements or to feature structure components.
                  as <w norm="handsome">hansome</w> a solemnity as could be in that time. <persName ref="ppl:tc1" n="per976">Mr Comber</persName><lb/>
                  preached a <w norm="Funeral">Funerall</w> Sermon. Text. <abbr type="abbr">Eclle.</abbr><lb/>
                  there <w norm="being">beeing</w> abundance of People on that <w norm="occasion">occassion</w> he<lb/>
-                was buried the <date when-custom="1666-12-03">3<hi rend="superscript">d</hi> Decemb<ex>er</ex></date> <persName ref="ppl:xt5" n="per977">Mr Tirrill</persName> &amp; <rs type="person" n="per977a" ref="ppl:xt6">his wife</rs><!-- NOTE [people] overlooked initially, now added to db --> &amp; <rs type="person">servant</rs><!-- Q [people] servant probably not identifiable? --><lb/>
+                was buried the <date when-custom="1666-12-03">3<hi rend="superscript">d</hi> Decemb<ex>er</ex></date> <persName ref="ppl:xt5" n="per977">Mr Tirrill</persName> &amp; <rs type="person" n="per977a" ref="ppl:xt6">his wife</rs><!-- NOTE [people] overlooked initially, now added to db --> &amp; <rs type="person">servant</rs><!-- NOTE [people] servant probably not identifiable --><lb/>
                  all expressing very great sorrow &amp; lamentation for him<lb/>
                  <w norm="who">whoe</w> had lived <w norm="so">soe</w> innocently; &amp; carried him <w norm="self">selfe</w><lb/>
                  <w norm="so">soe</w> <w norm="handsomely">hansomely</w> &amp; well that had gained <w norm="their">there</w> affections &amp;<lb/>
@@ -10452,7 +10451,7 @@ point to <category> elements or to feature structure components.
 
 <!-- transcription: Page 223 -->
 
-     <!-- TODO [page numbering] number in inner margin (odd number, r-h page) -->            
+     <!-- NOTE [page numbering] number in inner margin (odd number, r-h page) -->            
                 <fw type="pageNum">225</fw>
             
             <p xml:id="p-0637">I hope he now <w norm="enjoys">injoys</w> those <w norm="happiness">hapinesse</w> this world is not <w norm="capable">capab</w><lb/>
@@ -10561,7 +10560,7 @@ point to <category> elements or to feature structure components.
 
 <!-- transcription: Page 225 -->
 
-        <!-- TODO [page numbering] number in inner margin (odd number, r-h page) -->              
+        <!-- NOTE [page numbering] number in inner margin (odd number, r-h page) -->              
                 <fw type="pageNum">227</fw>
             
         <div xml:id="div-105" rend="post(rule)">
@@ -10712,7 +10711,7 @@ point to <category> elements or to feature structure components.
                  about <persName ref="ppl:jo1" n="per1011">Ogles</persName> sword that <persName ref="ppl:td4" n="per1012">Tom</persName> had <w norm="redeemed">redeemd</w> from <w norm="Pawn">Pawne</w> &amp; unluc-<lb break="no"/>
                  -kily had on that day. which <persName ref="ppl:xb4" n="per1013">Berridge</persName> upbraiding him, for picked<lb/>
                  a <w norm="quarrel">quarrell</w>. but, it is too probable that they had a <w norm="spleen">spleene</w> again<supplied reason="omitted">st</supplied>
-                    <!-- Q sic or supplied here? [word] I.e., again[st]?-->
+                    <!-- NOTE not totally sure about sic or supplied here [word] I.e., again[st]?-->
                 <lb/>
                  his life because <w norm="none">non</w> assisted. but <w norm="witnesses">wittnesses</w> of this bloody<lb/>
                  <w norm="Tragedy">Tragedie</w>. The murder<add place="above">er</add> fled. they were <w norm="caught">catchd</w>. but by the too<lb/>
@@ -10808,9 +10807,9 @@ point to <category> elements or to feature structure components.
                  since I was <w norm="born">borne</w>. and put my trust in thee alone. O<lb/>
                  Most <w norm="highest">hight</w>. <w norm="let">lett</w> me still have thee for my God <add place="above">in</add>  
                  the <metamark>^</metamark>
-                <!-- Q [tagging] [metamark]? i think metamark is right here, but need to check it out
-                    [endnote] [insertion] Carat in wrong place syntactically
-                --> <w norm="sweet">sweete</w><lb/>
+                <!-- Q [insertion] maybe metamark here, but need to check it out, maybe just avoid if you still don't understand what metamark is for...  -->  
+                    <!-- [endnote] Carat in wrong place syntactically            -->
+                <w norm="sweet">sweete</w><lb/>
                  influences of thy Power &amp; mercy by which the <w norm="sons">sonnes</w> of men<lb/>
                  are upheld &amp; delivered. that we might <w norm="magnify">magnifie</w> thy<lb/>
                  glory &amp; praise for ever. Thou <w type="archaism">hast</w> given me a goodly<lb/>
@@ -10944,7 +10943,7 @@ point to <category> elements or to feature structure components.
                  which <w type="archaism">bringeth</w> me <w norm="down">downe</w> to the gates of death. &amp; has raised<lb/>
                  me beyond all hope or expectation. times <w norm="without">with out</w> number<lb/>
                  even now; O Lord <w type="archaism">hast</w> thou had <w norm="pity">pittie</w> on my <w norm="soul">soule</w> and<lb/>
-                <w norm="let">lett</w> me out live <rs ref="ppl:xt1 ppl:xt2 ppl:et1 ppl:wt2 ppl:jt1 ppl:ct1" n="per1037" type="person"><w norm="six">6</w> of my Children</rs><!-- Q [people] perhaps a bit excessive lol? -->. but graciously taken<lb/>
+                <w norm="let">lett</w> me out live <rs ref="ppl:xt1 ppl:xt2 ppl:et1 ppl:wt2 ppl:jt1 ppl:ct1" n="per1037" type="person"><w norm="six">6</w> of my Children</rs><!-- Q [people] is six people in one tag perhaps a bit excessive lol? -->. but graciously taken<lb/>
                  them from this <w norm="sinful">sinfull</w> life. Lord <w norm="bless">blese</w> to thy <w norm="poor">poore</w> handmaid<lb/>
                  all these heavy afflictions. that are incident to <add place="above">this</add> weary <lb/>
                  Pilgrimage. &amp; <w norm="let">lett</w> me not depend on dust &amp; Ashes for<lb/>
@@ -11099,15 +11098,15 @@ point to <category> elements or to feature structure components.
                  of <w norm="thankfulness">thankefullnesse</w> to the Lord which gave me hopes of him.<lb/>
                  &amp; that if he could have <w norm="been">bin</w> prevented of cold he would <w norm="remain">remaine</w><lb/>
                  well.<anchor n="ev205" type="event"/> <milestone unit="marker" rend="delim(tbd-//)"/> 
-                <!-- Q [tagging] [layout] there is no line break here in the MS, but i've inserted one to reflect narrative break. -->
+                <!-- NOTE [layout] there is no line break here in the MS, but i've inserted new p to reflect narrative break. -->
             </p>
             </div>
         
         <div xml:id="div-115">
             <head place="right" rend="post(rule)">
                 |On <persName ref="ppl:acd1" n="per1064">Mrs Anne Danbys</persName> <w norm="going">goeing</w> to <w norm="Howley">Hooly</w>. <date when-custom="1667-04-20"><choice><abbr type="abbr">Ap.</abbr><expan>April</expan></choice> 20 67</date>.
-                    <!--  Q [decoration] | left this for now - there are a few cases of this sort of thing which may need attention. maybe border(left/right) ?
-                        [endnote] NB. This 'title'is in a box - maybe a later addition? Cirss-cross usually indicates the end of a section and any space on the rest of the line is left blank. -->
+                    <!--  Q [decoration] and CHECK semidip. | left this for now - there are a few cases of this sort of thing which may need attention. maybe border(left/right) ? -->
+                    <!-- [endnote] NB. This 'title'is in a box - maybe a later addition? Cirss-cross usually indicates the end of a section and any space on the rest of the line is left blank. -->
                 
             </head>
            <milestone n="ev206" unit="event"/>
@@ -11119,7 +11118,7 @@ point to <category> elements or to feature structure components.
                  -mer disgust towards me in her <w norm="being">beeing</w> cast out as she<lb/>
                  said for my sake. these, with other <w norm="secret">secrett</w> unjust reasons<lb/>
                 of her <w norm="own">owne</w>. b<del xml:id="ex-del-double-13" rend="doublestrikethrough">e</del>y <rs ref="ppl:tbd-enemies" n="per1070" type="person">these <w norm="two">2</w> persons</rs> <add place="above">was a</add> <w norm="mutual">mutuall</w> compliance<lb/>
-                 in <w norm="their">there</w> <w norm="designs">designes</w> &amp; <persName ref="ppl:acd1" n="per1071">Mrs Danbys</persName> <w norm="undermining">underming</w> <!-- Q sic for undermining--> me in <w norm="secret">secrett</w><lb/>
+                 in <w norm="their">there</w> <w norm="designs">designes</w> &amp; <persName ref="ppl:acd1" n="per1071">Mrs Danbys</persName> <w norm="undermining">underming</w> <!-- NOTE sic for undermining--> me in <w norm="secret">secrett</w><lb/>
                  brought <persName ref="ppl:mb2" n="per1072">Mrs Batte</persName> <date when-custom="1668-07-18">late at night</date> to my house at <placeName ref="place:East_019" n="place-supp89">newton</placeName><lb/>
                  under pretence of providing butter for<persName ref="ppl:acd1" n="per1073"> Mrs Danby</persName> at the<lb/>
                 service <w norm="at">att</w> <placeName ref="place:Howl_025">hooly</placeName> to <w norm="wait">waite</w> on <persName ref="ppl:aws1" n="per1074">that mad Countesse of Sussex</persName><lb/>
@@ -11257,7 +11256,7 @@ point to <category> elements or to feature structure components.
                  brother Denton</persName>, who she had much deluded with <w norm="fair">faire</w> <w norm="show">shew</w><lb/>
                  did not <w norm="wait">waite</w> upon her to <placeName ref="place:Howl_025" n="place366">Hooly</placeName>. And was only conduc-<lb break="no"/>
                  -ted by <rs ref="ppl:tbd-servant" n="per1109" type="person">my <w norm="chief">cheife</w> servant</rs>. &amp; <w norm="three">3</w> of the <w norm="Earl's">Earles</w> men, with <persName ref="ppl:mb2" n="per1110">Mrs<lb/>
-                 Batt</persName> &amp; <rs ref="ppl:tbd-servant" n="per1111" type="person">her <w norm="maid">maide</w></rs><!-- Q is this maid BT? -->.</p>
+                 Batt</persName> &amp; <rs ref="ppl:tbd-servant" n="per1111" type="person">her <w norm="maid">maide</w></rs><!-- Q [people] is this maid BT? -->.</p>
 
             <p xml:id="p-0674">This was only a pretence, though Pride enough: for when<lb/>
                  I sent men &amp; <w norm="horses">horrses</w>, to <w norm="bring">bringe</w> her home above 60 miles<lb/>
@@ -11298,7 +11297,7 @@ point to <category> elements or to feature structure components.
                  Make me <w norm="keep">keepe</w> her. for she knew not that she was with me when<lb/>
                  she <w norm="discharged">dischargd</w> her house. but that her <w norm="own">owne</w> <w norm="insufferable">unsufferable</w> <w norm="pride">prid</w><lb/>
                  which would never be humbled, &amp; her Railing <w norm="black">blacke</w> mouthed<lb/>
-                 wench that came to <placeName>farnly</placeName><!-- Q place think this needs adding to the masterlist; where is it? --> and abused her there, these all<lb/>
+                 wench that came to <placeName>farnly</placeName><!-- Q [place] NEW! but needs adding to the masterlist; where is it? --> and abused her there, these all<lb/>
                  did cause her to cast her out. and much to this purpose.</p>
             <p xml:id="p-0676">And that she was <w norm="going">goeing</w> to <w norm="look">looke</w> into her Estate <w norm="being">beeing</w> the first<lb/>
                 time <w norm="after">affter</w> <rs ref="ppl:tbd-spouse" n="per1118" type="person">her husbands</rs> death<!-- Q [people] tom d? -->. &amp; as she found she could <w norm="do">doe</w> for<lb/>
@@ -11341,7 +11340,7 @@ point to <category> elements or to feature structure components.
                  <w norm="publicly">publickely</w> against me &amp; <persName ref="ppl:atc1" n="per1126">my Childe. Alice Thornton</persName>.</p>
             <p xml:id="p-0681"><w norm="Let">Lett</w> this practice of hers be examined whether she carried<lb/>
                  her <w norm="self">selfe</w> to me, either as a Christian; a <w norm="friend">freind</w>; or a well wishe<supplied reason="omitted">r</supplied><lb/>
-                 who <w norm="publicly">bublickly</w> <!-- Q b/p she does this elsewhere, treated as norm in Rem - but check'? [word] SiC - i.e., publicly.-->
+                 who <w norm="publicly">bublickly</w> <!-- Q [mod] consistency? b/p she does this elsewhere, treated as norm in Rem - but check'? [word] SiC - i.e., publicly.-->
                  made me <w norm="believe">beleive</w>, nay recommended this<lb/>
                  match to me as in her <w norm="own">owne</w> Judgment &amp; <w norm="choice">choyse</w> <add place="above">we</add> <w norm="would">woulde</w><lb/>
                  be exceeding <w norm="happy">happie</w> in <add place="above">it</add> for she did find <persName ref="ppl:tc1" n="per1127">Mr Comber</persName> to be a<lb/>
@@ -11434,7 +11433,7 @@ point to <category> elements or to feature structure components.
                  any thither. that I might have <w norm="reconciled">reconsiled</w> her &amp; <rs ref="ppl:tbd-sister" n="per1146" type="person">her sister</rs>.<lb/>
                  but she could not be prevailed with upon <w norm="no">noe</w> <w norm="terms">tearmes</w>, nor<lb/>
                  <w norm="so">soe</w> much as to write to her in a <w norm="civil">civill</w> way. But said <lb/>
-                 <w norm="several">severall</w> times she had as <w norm="lief">leve</w><!-- Q this needs gloss for meaning... --> see the <w norm="Devil">Deivill</w> as her.</p>
+                 <w norm="several">severall</w> times she had as <w norm="lief">leve</w><!-- NOTE this needs gloss for meaning... --> see the <w norm="Devil">Deivill</w> as her.</p>
             <p xml:id="p-0686"><w norm="So">Soe</w> that I went only with <persName ref="ppl:jd2" n="per1147">my brother Denton</persName>. thither and<lb/>
                 had <w norm="a most">amost</w> <w norm="tedious">teadious</w> &amp; ill <w norm="journey">jorney</w> <w norm="being">beeing</w> <del xml:id="ex-del-double-14" rend="doublestrikethrough">soe</del> <w norm="sick">sicke</w> as well<lb/>
                  when I came there, as <w norm="back">backe</w> <w norm="again">againe</w>. as I had like to have<lb/>
@@ -11639,7 +11638,7 @@ point to <category> elements or to feature structure components.
                  tion amongst the servants of the house, how to <w norm="screw">scrue</w> out<lb/>
                  any <w norm="circumstantial">sircumstanciall</w> passages, <w norm="were">weare</w> they never <w norm="so">soe</w> <lb/>
                  <w norm="harmless">harmlesse</w> &amp; innocent <add place="above">in themselves</add> that the instruments of the <w norm="Devil">Devill</w> <w norm="wickedly" type="break">wicked<lb break="no"/>
-      <add place="left margin">-ly</add></w><!-- Q in semidip this has been changed to normal add place above and highlighted in green ? --> perverted <add place="above">not</add> to <w norm="their">theire</w> <w norm="own">owne</w> advantage. &amp; <w norm="corrupt">corupt</w> hearts<lb/>
+      <add place="left margin">-ly</add></w><!-- Q CHECK in semidip this has been changed to normal add place above and highlighted in green ? --> perverted <add place="above">not</add> to <w norm="their">theire</w> <w norm="own">owne</w> advantage. &amp; <w norm="corrupt">corupt</w> hearts<lb/>
                  charged with <w norm="malice">mallice</w> &amp; <w norm="hypocrisy">hipocrisie</w>; <w norm="who">whoe</w> being <w norm="Evil">Evill</w> <lb/>
                  themselves; &amp; reproved by me for <w norm="their">theire</w> <w norm="immodest">imodest</w> <w type="break" norm="carriage">cari-<lb break="no"/>
                  age</w>; had set <w norm="their">theire</w> inventions on <w norm="work">worke</w>, how to abuse<lb/>
@@ -11727,7 +11726,7 @@ point to <category> elements or to feature structure components.
                  carriage for many <w norm="years">yeares</w> together. &amp; <w norm="those">thos</w> many things which<lb/>
                  I was charged with (as crimes) he <w norm="himself">himselfe</w> had <w norm="been">bin</w> made known<lb/>
                  to, in every respect; &amp; justified such actions against<lb/>
-                <rs ref="ppl:tbd-enemies" n="per1169" type="person">my accusers</rs><!-- Q [people] identifiable? -->: he <w norm="being">beeing</w> <w norm="extremely">extreamly</w> <w norm="grieved">greived</w> for my suffer<lb break="no"/>
+                <rs ref="ppl:tbd-enemies" n="per1169" type="person">my accusers</rs><!-- Q [people] not sure this is a specific person(s) -->: he <w norm="being">beeing</w> <w norm="extremely">extreamly</w> <w norm="grieved">greived</w> for my suffer<lb break="no"/>
                  ings. &amp; a <w norm="faithful">faithfull</w> <w norm="friend">freind</w> in my <w norm="adversity">adversittie</w>.</p>
             <p xml:id="p-0696"><w norm="Having">Haveing</w> <w norm="been">bin</w> <w norm="privy">privie</w> to all transactions of our private <w type="break" norm="concerns">con-<lb break="no"/>
                  -serns</w> &amp; writings; which was not <w norm="fit">fitt</w> to publish to strangers<lb/>
@@ -11867,7 +11866,7 @@ point to <category> elements or to feature structure components.
                  miseries <w norm="done">don</w> by my <w norm="own">owne</w> <w norm="bosom">bosome</w> <w norm="friend">freind</w>, is more treacherous<lb/>
                  &amp; <w norm="ungrateful">ingratefull</w> <w norm="than">then</w> I can <w norm="express">expresse</w>. &amp; had almost broke<lb/>
                  my heart to be thus dealt with by her that knew my <w norm="Innocency">Inocency</w><lb/>
-                 which <w norm="shows">shewes</w> she had a <w norm="mind">minde</w> to revenge some <w type="query">Peake</w><!-- Q pique? --> against<lb/>
+                 which <w norm="shows">shewes</w> she had a <w norm="mind">minde</w> to revenge some <w norm="pique" type="query">Peake</w><!-- Q pique? in mod queries --> against<lb/>
                  us to <w norm="hear">heare</w> <rs ref="ppl:tbd-spouse" n="per1197" type="person">her husbands</rs> family thus abused &amp; <w norm="sat">satt</w> as<lb/>
                  a Judge to <w norm="condemn">condemne</w> but not rightly to determine.</p>
             <anchor type="event" n="ev208"/>
@@ -12039,7 +12038,7 @@ point to <category> elements or to feature structure components.
                  As <w norm="also">allso</w> the dishonour <w norm="done">don</w> to God, in the abusing <del rend="strikethrough">his</del> of his minister<lb/>
                 <w norm="Whose">Whoes</w> Person she has <w norm="so">soe</w> justified &amp; admired; ever <del rend="strikethrough">s<gap reason="deleted" quantity="2" unit="char"/></del><lb/>
                  since she knew him: And <w norm="recommended">recomended</w> him but lately before<lb/>
-                 for <rs ref="ppl:tbd-relative" n="per1223" type="person">her <w norm="Cousin">Cosen</w></rs><!-- Q a cousin of acd I think? named before? --> as a most <w norm="virtuous">vertuous</w> Person.</p>
+                 for <rs ref="ppl:tbd-relative" n="per1223" type="person">her <w norm="Cousin">Cosen</w></rs><!-- Q [people] a cousin of acd I think? named before? --> as a most <w norm="virtuous">vertuous</w> Person.</p>
             <p xml:id="p-0710">And full well she knew my <w norm="care">caire</w> for the <w norm="disposal">disposall</w> of <rs ref="ppl:atc1" n="per1224" type="person">my <w norm="Child">Childe</w></rs><lb/>
                  to such when I did <w norm="often">offten</w> tell her that I would <w norm="marry">marrie</w> my<lb/>
                  Children to <w norm="their">theire</w> graves before I would <w norm="do">doe</w> it to any man
@@ -12534,9 +12533,7 @@ point to <category> elements or to feature structure components.
             <w norm="Poor">Poore</w> &amp; miserable Life which <w norm="yet">yett</w> I <w norm="despised">despisd</w> in comparison<lb/>
                  of him; <w norm="so">soe</w> with much impatience. great <w norm="fears">feares</w>, &amp; some hope<lb/>
                  I waited till night, when <!-- Q word "brought" actually inserted here. --> word was <add place="above">brought</add>
-        <!-- Q [tagging] 
-                [endnote] [insertion] NB. There are two carats to mark the insertion of brought. The word itself is above the former, although syntactically it makes more sense for it to be placed at the latter. ST - I think we should insert it as makes most sense syntactically but note this alteration in our metadata.
-                -->
+        <!-- [endnote] [insertion] NB. There are two carats to mark the insertion of brought. The word itself is above the former, although syntactically it makes more sense for it to be placed at the latter. -->
                  me from <persName ref="ppl:rw1" n="per1267">Dr wittie</persName><lb/>
                  That I should be of good <w norm="cheer">cheare</w> &amp; not cast away my Life<lb/>
                  for I should have <rs ref="ppl:wt1" n="per1268" type="person">my <w norm="dear">deare</w> husband</rs> home as well, as ever<lb/>
@@ -12596,7 +12593,7 @@ point to <category> elements or to feature structure components.
                  with the waves of sorrows &amp; <w norm="billows">billowes</w> of <w norm="sadness">sadnesse</w> &amp; discont<lb break="no"/>
                  ent that usually attends the <w norm="distressed">disttressed</w> Estate of a discon-<lb break="no"/>
                  -solate <w norm="widow">widdow</w>.</p>
-            <p xml:id="p-0742">Oh the Lord has broken in upon me like a <w norm="mighty">mightiey</w> <!-- Q sic for mighty -->water<lb/>
+            <p xml:id="p-0742">Oh the Lord has broken in upon me like a <w norm="mighty">mightiey</w> water<lb/>
                  And <w norm="poured">powred</w> upon me his indignation. great are my <w type="break" norm="calamities">Cal-<lb break="no"/>
                  Amities</w> &amp; <w norm="temporal">temporall</w> troubles. my Cup is full. with most<lb/>
                  sad complaints may I <w norm="bewail">bewaile</w>. <w norm="being">beeing</w> <w norm="bereft">bereaft</w> of A most<lb/>
@@ -12769,7 +12766,8 @@ point to <category> elements or to feature structure components.
 
 <!-- transcription: Page 270 -->
 
-<!-- TODO [page numbering] odd numbers on left hand page again from here to 299 -->            
+<!-- NOTE [page numbering] odd numbers on left hand page again from here to 299 -->  
+                
                 <fw type="pageNum"> 271 </fw> <lb/>
             
             <w norm="Eternal">Etternall</w> in The Heavens, <w norm="whose">whoes</w> <w norm="Builder">Buillder</w> &amp; maker, is <lb/>
@@ -12824,7 +12822,7 @@ point to <category> elements or to feature structure components.
 
 <!-- transcription: Page 271 -->
 
-     <!-- TODO [page numbering] even numbering on right hand pages again from here to 298 -->
+     <!-- NOTE [page numbering] even numbering on right hand pages again from here to 298 -->
                 <fw type="pageNum">272</fw>
             
             <p xml:id="p-0755">I <w norm="humbly">humblie</w> beseech thy <w norm="Majesty">Majestie</w> as thou <w type="archaism">hast</w> given me this<lb/>
@@ -12881,7 +12879,7 @@ point to <category> elements or to feature structure components.
                  with all make away <add place="above">for me</add> to Escape.</p>
             <p xml:id="p-0757">Lord be to thy servant as thou <w type="archaism">wast</w> unto David. who served<lb/>
                  thee with a ready mind. Thou art. the <w norm="giver">guiver</w>.
-                    <!-- Q norm or sic? guift is def a norm. but guive more unusual. [endnote] SiC - for giver.-->
+                    <!-- [endnote] SiC - for giver.-->
                  The <w norm="gift">guift</w> is<lb/>
                  thy <w norm="self">selfe</w>. O <w norm="let">lett</w> thy <choice><sic>Siritt</sic><corr>spirit</corr></choice> dwell in me &amp; mine Richly. <w norm="let">lett</w><lb/>
                  my latter <w norm="days">daies</w> be still a <w norm="separate">seperate</w> <w norm="condition">condittion</w> from <w norm="Evil">Evill</w>.<lb/>
@@ -13265,7 +13263,7 @@ point to <category> elements or to feature structure components.
                 </p>
             
             <p><w norm="Anagram">Annagrame</w>.</p>
-            <!-- Q what exactly is supposed to be the anagram here...? -->
+            
            </div>
         <div xml:id="div-127" type="poetry" rend="pre(rule)">
                
@@ -13475,7 +13473,7 @@ point to <category> elements or to feature structure components.
             <l>My Life a death, but in his love.</l>
             <l>My death a life for him to prove.</l>
             <l>My <w norm="care">caire</w> to <w norm="keep">keepe</w> a <w norm="Conscience">Consience</w> <w norm="clean">cleane</w>.</l>
-            <l>My will from <w norm="vain">vaine</w> thoughts to <w norm="wane">waine</w>. <!-- Q norm? [endnote] SiC - i.e., wean.-->
+            <l>My will from <w norm="vain">vaine</w> thoughts to <w norm="wean">waine</w>. <!-- [endnote] SiC - i.e., wean.-->
                 
             </l>
             <l>My <w norm="pain">paine</w>, and pleasure, <w norm="travail">travell</w>, ease.</l>
@@ -13551,7 +13549,7 @@ point to <category> elements or to feature structure components.
          treat it as a single <note>. and put both insertions inside the next div, not the first one.
         EXCEPT I think the word "At" between "placed" and "in" should actually prefix "Kirklington 1629". -->
       <note xml:id="inote-001" place="inline" resp="#awt1">
-         this must be placed In the first Place Page <w norm="eighth">8<hi rend="superscript">th</hi></w> before the<!-- Q is this surplus or something missing? looks odd --><lb/>
+         this must be placed In the first Place Page <w norm="eighth">8<hi rend="superscript">th</hi></w> before the<!-- Q CHECK img is this surplus or something missing? looks odd --><lb/>
          The <w norm="measels">mesels</w> in <date when-custom="1629">1629</date>     
         </note> 
         <head rend="pre(rule) post(rule)">
@@ -13625,7 +13623,7 @@ point to <category> elements or to feature structure components.
                  <w norm="sets">setts</w> on <w norm="work">worke</w> all his engines against us by more<lb/>
                  <w norm="designs">designes</w> <w norm="than">then</w> we can see or be capable to understand<lb/>
                  <w norm="Therefore">There fore</w> am I <w norm="forever">for ever</w> bound to <w norm="bless">blesse</w> the <w norm="Eternal">Etternall</w><lb/>
-                 name of God who hath sent his <w norm="guardian">gaurdian</w> <!-- Q norm rather than sic [endnote] SiC - for guardian.-->
+                 name of God who hath sent his <w norm="guardian">gaurdian</w> <!-- [endnote] SiC - for guardian.-->
                 
                 <lb/>
                  <w norm="Angel">Angell</w> to watch over me and mine for my good &amp;<lb/>
@@ -13715,7 +13713,7 @@ point to <category> elements or to feature structure components.
                 <fw type="pageNum">289</fw> <lb/>
             
             <persName ref="ppl:jb3" n="per1312">Joseph Browning</persName> <w norm="being">beeing</w> the coach man a <w norm="very">vey</w>
-                    <!-- Q sic or norm? [endnote] SiC - for very.-->
+                    <!-- [endnote] SiC - for very.-->
                 
                 <lb/>
                  <w norm="careful">cairefull</w> man <w norm="yet">yett</w> could not <choice><sic>avoy</sic><corr>avoid</corr></choice> that way being<lb/>
@@ -13833,7 +13831,7 @@ point to <category> elements or to feature structure components.
                  in a childish sport or play. or what ever it was thou O<lb/>
                  Lord my God which did deliver me both now &amp; <w norm="at">att</w> all<lb/>
                  times of my life therefore will I give all thanks &amp;<lb/>
-                 praise for ever with my <w norm="Soul">Soule</w> and body &amp; <w norm="spirit">speritt</w> for <w norm="ever">evr</w><!-- Q sic for 'ever'. --><lb/>
+                 praise for ever with my <w norm="Soul">Soule</w> and body &amp; <w norm="spirit">speritt</w> for <w norm="ever">evr</w><!-- sic for 'ever'. --><lb/>
                  <w norm="Although">Alltho</w> I was not willing to swing at this time yet<lb/>
                  did thou <w norm="deliver">delvr</w> me Lord make me <w norm="thankful">thankfull</w> for ever<lb/>
                  &amp; that I may never <w norm="forget">forgett</w> this mercy to glorify thy<lb/>
@@ -13949,7 +13947,7 @@ point to <category> elements or to feature structure components.
                  went into <placeName ref="place:Irel_096" n="place402">Ireland</placeName> to get a true copy of it &amp; not having<lb/>
                  <w norm="money">mony</w> to discharge it The sad will was laid by in a Chest<lb/>
                 by the Clarke who had writ it out &amp; <choice><sic>thes</sic><corr>thus</corr></choice> was <choice><sic>sececd</sic><corr>secured</corr></choice>
-                    <!-- Q check? [endnote] I.e., secured?-->
+                    <!-- [endnote] I.e., secured?-->
                  for <w norm="several">severall</w><lb/>
                 <w norm="year">yeare</w> of the <w type="query">s<gap reason="deleted" quantity="2" unit="char"/>arre</w><!-- Q gap to be checked --> <w norm="after">afftr</w> <persName ref="ppl:gw1" n="per1336">my brother George</persName> died &amp; <w norm="none">non</w> knew<lb/>
                  what became of it.<anchor type="event" n="ev222a"/></p>
@@ -13967,7 +13965,7 @@ point to <category> elements or to feature structure components.
                  said will was <w norm="discovered">discovd</w> &amp; <w norm="produced">producd</w> in the <w norm="year">yeare</w> <date when-custom="1653">1653</date> which did<lb/>
                  put an end of all the Troubles: This is fully related in <ref type="atb" source="#book2:div-012 #book2:div-017">my <w norm="second">2<hi rend="superscript">d</hi></w> <w norm="Book">Booke</w></ref> 
        <!-- [endnote] Ref. to 'second booke'.
-       Q there are two sections about her father's will in book 2: i think she might mean div-017 but not sure, so listed both. -->
+       NOTE there are two sections about her father's will in book 2: i think she might mean div-017 but not sure, so listed both. -->
                 
             </p>
             <anchor n="ev222c" type="event"/>
@@ -13986,7 +13984,7 @@ point to <category> elements or to feature structure components.
                  from the fury of the <w norm="wars">warres</w> in the time of the <w norm="scots">scotts</w> being<lb/>
                  over the <w norm="Poor">Poore</w> Country in <w norm="their">there</w> <w norm="madness">madnes</w> against<lb/>
                  us when I was <w norm="at">att</w> <placeName ref="place:Hips_022" n="place403">Hipswell</placeName> with <rs ref="ppl:aow1" n="per1339" type="person">my <w norm="dear">deare</w> <w norm="mother">mothr</w></rs><lb/>
-                 in <date when-custom="1643/1644">1643, 1644</date> &amp;<!-- Q what does & mean here? etc? decorative squiggle? -->
+                 in <date when-custom="1643/1644">1643, 1644</date> <w norm="etc">&amp;</w>
             <!-- [endnote] [decoration] Line not straight. -->
             </head>
           <milestone n="ev223" unit="event"/><!-- NOTE event marston moor -->  
@@ -14004,16 +14002,16 @@ point to <category> elements or to feature structure components.
                  <w type="v">ouer</w> &amp; insulted over this <w norm="Poor">Poore</w> Country, &amp; English.</p>
             <p xml:id="p-0805"> <rs ref="ppl:aow1" n="per1345" type="person">my <w norm="dear">deare</w> <w norm="mother">mothr</w></rs> was much <w norm="grieved">greivd</w> to be <choice><sic>abued</sic><corr>abused</corr></choice>
                 <lb/>
-                 by them in <w norm="quartering">quarting</w><!-- Q sic quartering? --> them at her <w norm="own">owne</w> house. <w norm="yet">yett</w> could not<lb/>
+                 by them in <w norm="quartering">quarting</w><!-- sic quartering? --> them at her <w norm="own">owne</w> house. <w norm="yet">yett</w> could not<lb/>
                  <w norm="Possibly">Posibly</w> excuse her <w norm="self">selfe</w> Totally from their men &amp; horses.<lb/>
-                 <w norm="though">Tho</w> she paid <w norm="double">duble</w> Pay &amp; was at 01-6<!-- Q tag measure? --> a p<ex>ar</ex>t
-                    <!-- i'm not convinced by this... [endnote] Cf Anselment n235 - abrreviation for a part/a piece?-->
+                 <w norm="though">Tho</w> she paid <w norm="double">duble</w> Pay &amp; was at 01-6<!-- Q tag as measure? --> a p<ex>ar</ex>t
+                    <!-- [endnote] Cf Anselment n235 - abrreviation for a part/a piece?-->
                  where<lb/>
                 <w norm="others">othrs</w> at <gap xml:id="ex-gap-char-03" reason="deleted" quantity="2" unit="char"/> 09.<!-- Q another measure? --> only in a month.</p>
             <p xml:id="p-0806"> She kept of <rs type="person">the <w norm="quartering">quarting</w> <w norm="Captain">Captane</w></rs> &amp; commanders<lb/>
                  &amp; would <w norm="never">nevr</w> <w norm="yield">yeald</w> to have them.<anchor n="ev225" type="event"/> 
                 <milestone n="ev226" unit="event"/><!-- NOTE event awt innes --><w norm="At">Att</w> length there<lb/>
-                 came one <persName ref="ppl:xi1" n="per1346">Capt. Inness</persName>. which was <w norm="over">ovr</w> <!-- Q maybe sic? [endnote] I.e., over [commander]-->
+                 came one <persName ref="ppl:xi1" n="per1346">Capt. Inness</persName>. which was <w norm="over">ovr</w> <!-- [endnote] I.e., over [commander]-->
                  that <w norm="troop">troope</w> we had<lb/>
                 <rs ref="place:Catt_008" n="place-supp95" type="place">in <w norm="Town">Towne</w></rs><!-- NOTE [places] see also "the Toune" place407. they're at Hipswell, but I think she means Catterick. -->. &amp; he <w norm="coming">comming</w> on a surprise into the house<lb/>
                  I could not hide my <w norm="self">selfe</w> from them as I used to <w norm="do">doe</w>.<lb/>
@@ -14041,7 +14039,7 @@ point to <category> elements or to feature structure components.
                  &amp; <persName ref="ppl:ra1" n="per1351">Lord of Adare</persName> <w norm="should">shuld</w> come to <w norm="speak">speake</w> for him. She said it<lb/>
                  was all in <w norm="vain">veine</w> He must not presume to <w norm="look">looke</w> that way<lb/>
                  for I was not to be <w norm="obtained">obtnd</w>. And she was sure he might<lb/>
-                 not have any <choice><sic>incoragnt</sic><corr>encouragement</corr></choice> for I was resold <!-- Q sic for 'resolved'-->not to mary.<lb/>
+                 not have any <choice><sic>incoragnt</sic><corr>encouragement</corr></choice> for I was <w type="query">resold</w> <!-- Q sic for 'resolved'-->not to mary.<lb/>
                  &amp; put him of the best she could. but <w norm="writ">writt</w> me <w norm="private">privite</w><lb/>
                  word that <persName ref="ppl:ra1" n="per1352">my Lord of Adare</persName> &amp; he would come to <w norm="speak">speake</w><lb/>
                  to me, &amp; <rs ref="ppl:aow1" n="per1353" type="person">my mother</rs> about it, &amp; willed me to <w norm="get">gett</w> out of<lb/>
@@ -14058,7 +14056,7 @@ point to <category> elements or to feature structure components.
             <p xml:id="p-0809">we was all <w norm="joyful">joyfull</w> to escape <w norm="so">soe</w>. for <rs ref="ppl:aow1" n="per1355" type="person">my d. M</rs><lb/>
                  was <w norm="forced">forcd</w> to give them the <w norm="best">bst</w> treat she could &amp; said.<lb/>
                  indeed she did not know where I was. &amp; sent out<lb/>
-                <w type="query">fewe</w><!-- Q word still queries about this one in semidip --> a little to <w norm="seek">seeke</w> me but I was safe from them</p>
+                <w type="query">fewe</w><!-- Q CHECK word still queries about this one in semidip --> a little to <w norm="seek">seeke</w> me but I was safe from them</p>
             <p xml:id="p-0810"><w norm="After">Affter</w> which time <rs ref="ppl:xi1" n="per1356" type="person">this <w norm="villain">villaine</w> <w norm="Captain">Captaine</w></rs> did study<lb/>
                  to be revenged of <rs ref="ppl:aow1" n="per1357" type="person">my d. M.</rs> &amp; <w norm="threatened">threatnd</w> cruelly what<lb/>
                  he would <w norm="do">doe</w> to her, <choice><sic>becees</sic><corr>because</corr></choice> she hid me <w norm="though">Tho</w> that was not<lb/>
@@ -14115,13 +14113,13 @@ point to <category> elements or to feature structure components.
             
                 <fw type="pageNum">297</fw>
             
-            <p xml:id="p-0814">There was <rs n="per1365" type="person">one of his men</rs><!-- Q [people] not identifiable? --> that I had cured of his<lb/>
+            <p xml:id="p-0814">There was <rs n="per1365" type="person">one of his men</rs><!-- NOTE [people] probably not identifiable --> that I had cured of his<lb/>
                  hand <w norm="being">beeing</w> <w norm="cut">cutt</w> of it &amp; lame. <w norm="so">soe</w> that <w norm="fellow">fillow</w> did<lb/>
                  me a <w norm="signal">signall</w> <w norm="return">returne</w> of gratitude for it. Thus<lb/>
                  It was some times a refreshment to me <w norm="after">affter</w> I<lb/>
                  had <w norm="sit">sitt</w> up <w norm="much">mauch</w> with <rs ref="ppl:aow1" n="per1366" type="person">my <w norm="dear">deare</w> <w norm="weak">weake</w> <w norm="mother">mothr</w></rs> in<lb/>
                  her <w norm="illness">illnes</w>, or writing, of letters for her. That she did<lb/>
-                 bid me <w norm="walk">walke</w> out to <w norm="Cows">Cowes</w><!-- TODO [editorial] will need note about cows here! --> with <rs n="per1367" type="person">her <w norm="maid">maide</w></rs> to rest<lb/>
+                 bid me <w norm="walk">walke</w> out to <w norm="Cows">Cowes</w><!-- NOTE [editorial] will need note about cows here! --> with <rs n="per1367" type="person">her <w norm="maid">maide</w></rs> to rest<lb/>
                  my <w norm="self">selfe</w> <w norm="so">soe</w> I used this some times. Butt <rs n="per1368" type="person">this <w norm="Captain's">Captne</w><lb/>
                  man</rs> who I <w norm="cured">curd</w> came to me one day. <w norm="Saying">Saing</w> <w norm="dear">dere</w><lb/>
                  Mrs I pray do not <w norm="think">thinke</w> much if I desire you for<lb/>
@@ -14179,7 +14177,7 @@ point to <category> elements or to feature structure components.
                  <placeName ref="place:Midd_038" n="place-supp96">midlam</placeName> <w norm="called">calld</w> 
                      <choice><sic>swaile</sic><corr>Ure</corr></choice>
                  </geogName><!-- NOTE [places] general consensus is that she's referring to the R. Ure here, not the Swale! --> which had some stoops <w norm="set">sett</w> up for<lb/>
-                 guides &amp; if one had raised the <w norm="causey">Caucy</w><!-- Q check word? OED gives 'causey' (causeway) --> they had <w norm="been">bn</w> <w type="break" norm="irrecoverably">erre-<lb break="no"/>
+                 guides &amp; if one had raised the <w norm="causey">Caucy</w><!-- Q CHECK norm here? - to causey or causeway? OED does give 'causey' as spelling --> they had <w norm="been">bn</w> <w type="break" norm="irrecoverably">erre-<lb break="no"/>
                  -covrably</w> lost. at that time I was very hearty &amp; strong<lb/>
                  &amp; did venture to ride the same or <w norm="else">ellse</w> might have <w norm="gone">gon</w><lb/>
                  <w norm="back">backe</w> &amp; <w norm="rather">rathr</w> <w norm="than">then</w> she should be <w norm="disappointed">disapoynted</w> did venture<lb/>
@@ -14199,7 +14197,7 @@ point to <category> elements or to feature structure components.
                  the short <w norm="Reins">Reines</w> of the breech &amp; gave her the head with all the<lb/>
                  <w norm="help">helpe</w> I could &amp; clasped my hands about her maine did<lb/>
                  freely <w norm="commit">comit</w> myself to my God. to do what he <w norm="pleased">pleeced</w> with me<lb/>
-                 And she did by mercy <w norm="bear">beare</w> up her head &amp; <w norm="swimmed">swimd</w><!-- Q treat as archaism? --> out<lb/>
+                 And she did by mercy <w norm="bear">beare</w> up her head &amp; <w norm="swimmed">swimd</w><!-- Q treat as archaism? hang on got swimmed earlier as well hasn't she --> out<lb/>
                  <w type="v">aboue</w> <w norm="half">halfe</w> a q<ex>uarte</ex>r of a mile <w norm="across">crose</w> that <w norm="dreadful">dreadfull</w> <w norm="River">Rier</w> &amp; by<lb/>
                  gods great <w norm="mercies">mercys</w> brought me <w norm="over">ovr</w> that <w norm="River">Rier</w> in Safety.<anchor n="ev228" type="event"/> which <w norm="deliver">delever</w><lb/>
                  was <w norm="so">soe</w> great &amp; dread full that I can <w norm="never">nevr</w> <w norm="forget">forgett</w> to <w norm="praise">prace</w> the god<lb/>
@@ -14251,7 +14249,7 @@ point to <category> elements or to feature structure components.
                  &amp; I fell <w norm="down">don</w><lb/>
                  on my knees &amp; took breath from me. but <choice><sic>bled</sic><corr>blessed</corr></choice> be the Lord I<lb/>
                  was <w norm="delivered">delivrd</w> from death. at that time <w norm="also">allso</w> to Praise his<lb/>
-                holy name. For. Ever. <date when-custom="1643-07">1647</date>.<!-- Q [review] 1647 - ? the 7 should be 3 (have 'corrected' @when already for data purposes, transcription to do later) --></p>
+                holy name. For. Ever. <date when-custom="1643-07">1647</date>.<!-- Q [dates] 1647 - ? the 7 should be 3 (have 'corrected' @when already for data purposes, transcription to do later) --></p>
             <p xml:id="p-0820">And was <w norm="delivered">deleerd</w> from that <w norm="siege">seige</w> <w norm="also">allso</w> by miracles<lb/>
                  of mercy &amp; brought us Safe into our <w norm="own">owne</w> Country <placeName ref="place:York_079" n="place-supp100">York<lb/>
                  shere</placeName>.</p>
@@ -14286,12 +14284,13 @@ point to <category> elements or to feature structure components.
         <!-- NOTES [index] 
                 (see bookrem index)
                 
-               (TODO?) link page refs to text divs - done where there is a div; only 1 without i think.
+               (Q?) link page refs to text divs - done where there is a div; only 1 without i think.
                
                Q? what about place for label other than where there are braces? is it really needed, since they're all right align?
                should I check about filler lines between text and page refs?
                
                recorded alice's page discrepancies ("correct" (alice) number @n in ref - "correct" as in what she's written on the page, and ignoring that her pagination goes awry as well. lol.)
+               
                done curlybraces
             -->
 
@@ -14758,7 +14757,7 @@ point to <category> elements or to feature structure components.
             the 17<hi rend="superscript">th</hi> of September: 1668</seg> 
                 <label place="right bottom"><ref type="page">275</ref></label>
             </item>
-                <!-- Q [index] no div. using paragraph id. -->
+                <!-- NOTE [index] no div. using paragraph id. -->
                 <item corresp="#p-0765">Of his <w norm="burial">buriall</w> <label><ref type="page">275</ref></label></item>
             <item corresp="#div-120">lamentations upon my sad <w norm="loss">losse</w> <label><ref n="268" type="page">269</ref></label>
             </item>
@@ -14860,7 +14859,7 @@ point to <category> elements or to feature structure components.
                  standing Person; had <w norm="been">bin</w> highly incensed<lb/>
                  <w norm="at">att</w> some lies which was <w norm="told">tould</w> of his brother to<lb/>
                  him, &amp; by this <w norm="means">meanes</w> caused a very great<lb/>
-                 anger against each other; which proceeded <w norm="too">to</w> <w norm="high">hy</w><!-- Q "too high"? --><lb/>
+                 anger against each other; which proceeded <w norm="too">to</w> <w norm="high">hy</w><lb/>
                  &amp; caused them to have such <w norm="animosity">animossity</w> as that <lb/>
                  they neither could be <w norm="satisfied">sattisfied</w> to <w norm="receive">receave</w> the<lb/>
                  holy Sacrament: <milestone unit="marker" rend="delim(diagonal)"/></p>
@@ -14886,19 +14885,19 @@ point to <category> elements or to feature structure components.
            <fw type="pageNum">301</fw>
             
           <fw place="top left margin">
-              <persName type="monogram" ref="ppl:awt1">ATW</persName> [$]<lb/>
-              [$] 
-              <!-- Q [$] (not currently in semidip) = slashed S, similar to $, possibly unicode U+A7A8. 
+              <persName type="monogram" ref="ppl:awt1">ATW</persName> <!--[$]--><lb/>
+              <!--[$]--> 
+              <!-- Q [symbol] [$] (not currently in semidip CHECK WITH ST) = slashed S, similar to $, possibly unicode U+A7A8. 
                   though closer to https://commons.wikimedia.org/wiki/File:Latin_letter_S_with_diagonal_stroke.svg
               than it is to the std unicode $. -->
               
                 <!-- [endnote] Monogram? Scribble? Slashed S - cf Wroth?-->
-                
-                <!-- Q is <fw> appropriate for monogram? -->
+             
             </fw>
             
             
-            <!-- Q [layout] [review] another place where there are words set into a horizontal ruled line, but this is clearly significant.
+            <!-- Q [layout] [review] [ugh]
+                another place where there are words set into a horizontal ruled line, but this is clearly significant.
             [symbol] also there's another 5dot symbol after the word Anagram which isn't transcribed. not to mention colons before and after Acrosticke.
             
             -->
@@ -14929,7 +14928,7 @@ point to <category> elements or to feature structure components.
             <l><w xml:space="preserve">R enowne</w> <w norm="so">soe</w> rightly, placed as to thy Fame</l>
             <l><w xml:space="preserve">D eath</w> well may <w norm="add">adde</w>, but can't <w norm="impair">impaire</w> <add place="above">the</add> Same</l>
          </lg>
-            <l>Excuse my failings, since <w norm="'tis">tis'</w><!-- Q retain 'tis ? --> <w norm="real">reall</w> love. </l>
+            <l>Excuse my failings, since <w norm="'tis">tis'</w> <w norm="real">reall</w> love. </l>
             <l>Moved my <w norm="weak">weake</w> pen so weighty a <w norm="task">taske</w> to prove.</l>
             
           </div>
@@ -14945,7 +14944,7 @@ point to <category> elements or to feature structure components.
         <div xml:id="div-152" type="poetry">
               
             <l>I must <w norm="no">noe</w> more; nor truth could say no <w norm="less">lesse</w></l>
-            <l><w norm="Virtue">Vertue</w>. &amp; grace, did still thy <w norm="breast">brest</w> <w norm="possess">posess</w>.<!-- Q tagging "thy brest posess" could be <retrace>... --></l>
+            <l><w norm="Virtue">Vertue</w>. &amp; grace, did still thy <w norm="breast">brest</w> <w norm="possess">posess</w>.<!-- NOTE tagging "thy brest posess" could conceivably be <retrace>... --></l>
             <l>Each muse <w norm="so">soe</w> <w norm="plied">plyed</w> her Ore, in thee deer Soul</l>
             <l>Ambitious, which should most in thee, <w norm="Control">Controll</w>.</l>
             <l>Thy Faith, thy hope, thy <w norm="Great">Greatt</w> Charity</l>
