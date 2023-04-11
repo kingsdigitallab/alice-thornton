@@ -440,7 +440,7 @@
              <placeName ref="place:Kirk_030" n="place1">Kirklington</placeName> in the <placeName ref="place:York_079" n="place2">County of Yorke</placeName><lb/>
              <date type="birth" when-custom="1626-02-13">the thirteenth day of Feb<ex>ruary</ex> <w norm="being">beeing</w> on a <lb/>
              <w norm="monday">munday</w>, <w norm="about">a bout</w> two <w norm="o'clock">of the clock</w> in the<lb/>
-             <w norm="afternoon">afternoone</w> in the <w norm="year">yeare</w> 1626</date><!-- NOTE [dates] NS -->. <w norm="Baptised">Baptized</w> the<lb/>
+             <w norm="afternoon">afternoone</w> in the <w norm="year">yeare</w> 1626</date><!-- NOTE [dates] NS -->. <w norm="Baptised">Baptized</w> the<lb/> <!-- event baptism? -->
              next day. The <w norm="witnesses">wittnesses</w> were <persName ref="ppl:rl1" n="per4">Mr<lb/>
              Lassells</persName> Minister of <placeName ref="place:Kirk_030" n="place3">Kirklington</placeName>.<lb/>
              <persName ref="ppl:awn1" n="per5">Mrs Anne Norton</persName>. &amp; <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.
@@ -556,7 +556,7 @@
     
     <body>
         <div xml:id="div-008" type="insertion">
-           <milestone n="ev2" unit="event"/>
+           <milestone n="ev2" unit="event"/><!-- event = v.brief [x-ref] -->
             <note place="inline" resp="#awt1">
               <p xml:id="p-0016">Remember to putt the Relation of my <w norm="deliverance">delivrance</w> from Death<lb/>
                 by a fall cutting <!-- NOTE [layout] "Amen Amen" is located here on original page --> my forehead at <w norm="three">3</w> <w norm="years">yers</w> old
@@ -660,7 +660,7 @@
                  upon the reading of the <w norm="daily">dailie</w> <w norm="Psalms">Psalmes</w> for the months<lb/>
                 happening that day to be <ref source="#GB_Psalms_147:4"><abbr>Psal. 147: v. 4<hi rend="superscript">th</hi></abbr><!-- "Psal. 147: v. 4" -> Chicago ("numerals only; chapter and verse are separated by a colon with no space following it." eg "Acts 27:1"  --></ref>
             </p>
-                <anchor n="ev5" type="event"/>
+                
         <!-- 
             NOTE [bib] biblical example <quote>/<ref> tags using @source attribute for bible citation.
             the example will need checking against final decision.
@@ -726,7 +726,7 @@ point to <category> elements or to feature structure components.
                  <w norm="giving">giveing</w> understanding &amp; Reason to know there is<lb/>
                  A God that <w type="archaism">Ruleth</w> in Heaven &amp; Earth &amp; <w norm="doth">doeth</w> what<lb/>
                  ever he will, and to reward them that Serves him truly<lb/>
-                 with Joy in Heaven that should never end. Amen.</p>
+                with Joy in Heaven that should never end.<anchor n="ev5" type="event"/> Amen.</p>
             
        </div>
         
@@ -7870,7 +7870,7 @@ point to <category> elements or to feature structure components.
                  shall give me. &amp; not only to me but for all those that love<lb/>
                  the Lord Jesus. &amp; his appearing.</p>
             <anchor type="event" n="ev119c"/>
-            <milestone unit="event" n="ev119d"/><!-- event leave takings -->
+            <milestone n="ev120X" unit="event"/><!-- event leave takings -->
             <p xml:id="p-0466"><date when-custom="1659-12-08">
                 About thursday night</date> she sent for her Children to<lb/>
                  take her last <w norm="farewell">faire well</w> in this life, when <persName ref="ppl:wt1" n="per715">Mr Thornton</persName><lb/>
@@ -7926,14 +7926,13 @@ point to <category> elements or to feature structure components.
                  the <w norm="determinate">detirminate</w> pleasure of God to take her from my head<lb/>
                  that I might patiently <w norm="submit">submitt</w>, when he should free that <w norm="sweet">swet</w><lb/>
                  <w norm="Soul">Soule</w> from all those <w norm="burdens">burthens</w> of pressures &amp; <w norm="extremities">extreamitys</w></p>
-            <anchor n="ev119d" type="event"/>
+            
             <pb xml:id="page-174" n="174"/>
 
 <!-- transcription: Page 174 -->
 
             
                 <fw type="pageNum">176</fw>
-           <milestone n="ev120" unit="event"/><!-- NOTE event mother's deathbed --> 
             <p xml:id="p-0471">It pleased God she <w norm="continued">contineued</w> <date when-custom="1659-12-10">till <w norm="Saturday">Satterday</w></date>; About<lb/>
                  <w norm="noon">noone</w> she spoke to my <persName ref="ppl:mn1" n="per720">uncle Norton</persName>, &amp; <w norm="recommending">recomending</w><lb/>
                  My <w norm="self">selfe</w> &amp; all her Children to his <w norm="care">caire</w> with much<lb/>
@@ -7946,6 +7945,7 @@ point to <category> elements or to feature structure components.
                  <w norm="friendship">freindship</w> betwixt them, she was then come to see her <w norm="make">mak</w><lb/>
                  her last end; &amp; <w norm="Scene">Sceane</w> of her life <w norm="whom">whome</w> she had known<lb/>
                  <w norm="near">neare</w> 40 <w norm="years">yeares</w>. &amp; <w norm="so">soe</w> <w norm="took">tooke</w> her <w norm="solemn">solomne</w> <w norm="farewell">fairewell</w>. of her<lb/><anchor n="ev120" type="event"/>
+           
                 <milestone n="ev121" unit="event"/>
                 <!-- NOTE event mother's will -->
                  I <w norm="forgot">forgott</w> to declare that <date when-custom="1659-12-07">about wednesday before</date>. she called<lb/>
