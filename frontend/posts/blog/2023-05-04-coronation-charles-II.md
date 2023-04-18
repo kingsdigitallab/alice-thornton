@@ -1,5 +1,5 @@
 ---
-title: Alice Thornton on the Coronation of Charles II: the view from Yorkshire
+title: "Alice Thornton on the Coronation of Charles II: the view from Yorkshire"
 feature: /assets/img/posts/st_chads_stained_glass_thumbnail.jpg
 status: draft
 authors:
