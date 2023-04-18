@@ -24,7 +24,7 @@ Thornton tells us about a big show in Richmond held on 29 May 1660 to celebrate 
 
 they had a show at Richmond of all kinds of sports and country expressions of joy and amongst the rest they shot off muskets and had soldiers of the townsmen of Richmond appeared in armour.[^2]  
 
- ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]( {{ "/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. © Suzanne Trill, June 2022."){.media-left}
+ ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]({{ "/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. © Suzanne Trill, June 2022."){.media-left}
 
 Thornton was then staying at her Aunt Norton’s house, St. Nicholas, in Richmond. All the servants were keen to go:  
 
