@@ -39,17 +39,17 @@ Nally had three or four ‘fits of convulsions’ while sheltering in a local sh
 
 
 
-[^1]: E.g. Alice Thornton, Book 1: The First Book of My Life, British Library MS Add 88897/1, 182 (180 in our pagination): ‘A thanksgiveing for the restoration of King Charles the second. of his Coronation May. 29th 1660’; Alice Thornton, Book 2: The First Book of My Widowed Condition, DCL, GB-0033-CCOM 7 (hereafter Book 2), 180, 183 (182, 185 in our pagination). 
+[^1]: E.g. Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 182 (180 in our pagination): ‘A thanksgiveing for the restoration of King Charles the second. of his Coronation May. 29th 1660’; Alice Thornton, *Book 2: The First Book of My Widowed Condition*, DCL, GB-0033-CCOM 7 (hereafter *Book 2*), 180, 183 (182, 185 in our pagination). 
 
-[^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘They had a shew att Richmond of all kinds of sports & country exprssions of Joy & amongst the rest they shott of musketts & had Soldiers & the Towns men of Richmond appeared in Armour’. Book 2, 183 (185 in our edition). 
+[^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘They had a shew att Richmond of all kinds of sports & country exprssions of Joy & amongst the rest they shott of musketts & had Soldiers & the Towns men of Richmond appeared in Armour’. *Book 2*, 183 (185 in our edition). 
 
-[^3]: ‘The maides at St nickolas did beg leave to goe and see the shew, & would not be pleased till I lett my deare naly goe with them. but I refused & thought it would fright her & doe her hurt But they gott Mr Thornton persuaded & my Aunt to lett her goe, & they would take great cair of her’. Book 2, 183 (185 in our edition). 
+[^3]: ‘The maides at St nickolas did beg leave to goe and see the shew, & would not be pleased till I lett my deare naly goe with them. but I refused & thought it would fright her & doe her hurt But they gott Mr Thornton persuaded & my Aunt to lett her goe, & they would take great cair of her’. *Book 2*, 183 (185 in our edition). 
 
-[^4]: ‘delivrance from Death’: Book 2, 183 (185 in our edition). 
+[^4]: ‘delivrance from Death’: *Book 2*, 183 (185 in our edition). 
 
-[^5]: ‘Butt before 2 hours, they returned with my Childe home in a very sad & Changed Condittion for alas she nevr having had seene any such things as Soldirs or guns, or drums or noyses & shoutings she was soe extreamly scaired att these things and when The musketts went of soe fast did soe affright her and terrify my poore Child that she was ready to fly out of Jane flours armes her maide’. Book 2, 183-4 (185-6 in our edition). 
+[^5]: ‘Butt before 2 hours, they returned with my Childe home in a very sad & Changed Condittion for alas she nevr having had seene any such things as Soldirs or guns, or drums or noyses & shoutings she was soe extreamly scaired att these things and when The musketts went of soe fast did soe affright her and terrify my poore Child that she was ready to fly out of Jane flours armes her maide’. *Book 2*, 183-4 (185-6 in our edition). 
 
-[^6]: ‘oyle of ambr & Pieony’: Book 2, 184 (186 in our edition). 
+[^6]: ‘oyle of ambr & Pieony’: *Book 2*, 184 (186 in our edition). 
 
  
 
