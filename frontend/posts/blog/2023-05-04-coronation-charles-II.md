@@ -15,7 +15,6 @@ Charles II’s coronation was held at [Westminster Abbey](https://www.westminste
 
 Alice Thornton also wrote about the coronation in two of her books, but she dated it as 29 May 1660, which was actually the date of [the Restoration](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/), when Charles II entered London.[^1] For Thornton, then living in Richmond, North Yorkshire, this was the more memorable occasion and the 1661 event does not appear in her books. 
 
- 
 ![A stained glass panel showing royalist soldiers with drums and pipes]( {{ "/assets/img/posts/st_chads_stained_glass.jpg" | url }} "The Civil War Window, St Chad's, Farndon. CC-BY-SA-4.0"){.media-left}
 
 Thornton tells us about a big show in Richmond held on 29 May 1660 to celebrate the new king: 
