@@ -39,7 +39,7 @@ In Yorkshire, the date of the Restoration – 29 May – continued to be celebra
 
 
 
-[^1]: E.g. Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 182 (180 in our pagination): ‘A thanksgiveing for the restoration of King Charles the second. of his Coronation May. 29th 1660’; Alice Thornton, *Book 2: The First Book of My Widowed Condition*, DCL, GB-0033-CCOM 7 (hereafter *Book 2*), 180, 183 (182, 185 in our pagination). 
+[^1]: E.g. Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 182 (180 in our pagination): ‘A thanksgiveing for the restoration of King Charles the second. of his Coronation May. 29th 1660’; Alice Thornton, *Book 2: The First Book of My Widowed Condition*, Durham Cathedral Library, GB-0033-CCOM 7 (hereafter *Book 2*), 180, 183 (182, 185 in our pagination). 
 
 [^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘They had a shew att Richmond of all kinds of sports & country exprssions of Joy & amongst the rest they shott of musketts & had Soldiers & the Towns men of Richmond appeared in Armour’. *Book 2*, 183 (185 in our edition). 
 
