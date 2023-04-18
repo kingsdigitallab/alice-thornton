@@ -20,25 +20,21 @@ Alice Thornton also wrote about the coronation in two of her books, but she date
 
 Thornton tells us about a big show in Richmond held on 29 May 1660 to celebrate the new king: 
 
- 
+>...they had a show at Richmond of all kinds of sports and country expressions of joy and amongst the rest they shot off muskets and had soldiers of the townsmen of Richmond appeared in armour.[^2]  
 
-they had a show at Richmond of all kinds of sports and country expressions of joy and amongst the rest they shot off muskets and had soldiers of the townsmen of Richmond appeared in armour.[^2]  
-
- ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]({{ "/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. © Suzanne Trill, June 2022."){.media-left}
+ ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]({{"/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. Suzanne Trill, June 2022."){.media-left}
 
 Thornton was then staying at her Aunt Norton’s house, St. Nicholas, in Richmond. All the servants were keen to go:  
 
- 
-The maids at St. Nicholas did beg leave to go and see the show and would not be pleased until I let my dear Nally go with them. But I refused and thought it would fright her and do her hurt. But they got Mr. Thornton persuaded, and my aunt, to let her go and they would take great care of her.[^3] 
+>The maids at St. Nicholas did beg leave to go and see the show and would not be pleased until I let my dear Nally go with them. But I refused and thought it would fright her and do her hurt. But they got Mr. Thornton persuaded, and my aunt, to let her go and they would take great care of her.[^3] 
  
 The day was particularly memorable to Thornton as she was proven correct and her oldest daughter, Nally, was taken ill at this show - or had a ‘deliverance from death’,[^4] as Thornton put it: 
 
-But before two hours, they returned with my child home in a very sad and changed condition; for, alas, she never having had seen any such things as soldiers, or guns, or drums, or noises and shoutings, she was so extremely scared at these things and when the muskets went off so fast did so affright her and terrify my poor child that she was ready to fly out of Jane Flowers’ arms, her maid.[^5] 
+>But before two hours, they returned with my child home in a very sad and changed condition; for, alas, she never having had seen any such things as soldiers, or guns, or drums, or noises and shoutings, she was so extremely scared at these things and when the muskets went off so fast did so affright her and terrify my poor child that she was ready to fly out of Jane Flowers’ arms, her maid.[^5] 
 
 Nally had three or four ‘fits of convulsions’ while sheltering in a local shop before being brought home. Thornton treated her with various medicines such as ‘oil of amber and peony,’ and Nally made a full recovery.[^6] 
 
-[Pepys also recorded](https://www.pepysdiary.com/diary/1660/05/29/)celebratory gunfire on 29 May 1660 for the king’s birthday, as well as on the later date of the coronation. In Yorkshire, the date of the Restoration – 29 May – continued to be celebrated as [Oak Apple Day](https://www.thenorthernecho.co.uk/news/6950621.national-celebration-died-living-memory/) until the 1940s, a reference to the oak tree the king was said to have hidden in to escape Cromwell’s army in 1651. This weekend there are a variety of [events being held across the UK](https://coronation.gov.uk/events/) to celebrate the coronation of Charles III. 
-
+[Pepys also recorded](https://www.pepysdiary.com/diary/1660/05/29/) celebratory gunfire on 29 May 1660 for the king’s birthday, as well as on the later date of the coronation. In Yorkshire, the date of the Restoration – 29 May – continued to be celebrated as [Oak Apple Day](https://www.thenorthernecho.co.uk/news/6950621.national-celebration-died-living-memory/) until the 1940s, a reference to the oak tree the king was said to have hidden in to escape Cromwell’s army in 1651. This weekend there are a variety of [events being held across the UK](https://coronation.gov.uk/events/) to celebrate the coronation of Charles III. 
 
 
 [^1] E.g. Alice Thornton, Book 1: The First Book of My Life, British Library MS Add 88897/1, 182 (180 in our pagination): ‘A thanksgiveing for the restoration of King Charles the second. of his Coronation May. 29th 1660’; Alice Thornton, Book 2: The First Book of My Widowed Condition, DCL, GB-0033-CCOM 7 (hereafter Book 2), 180, 183 (182, 185 in our pagination). 
