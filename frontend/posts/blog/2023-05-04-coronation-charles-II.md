@@ -11,7 +11,7 @@ tags:
 
 ---
 
-Charles II’s coronation was held at [Westminster Abbey](https://www.westminster-abbey.org/abbey-commemorations/royals/charles-ii) on 23 April 1661. The diarist Samuel Pepys was present and [wrote about it](https://www.pepysdiary.com/diary/1661/04/23/ ).  
+Charles II’s coronation was held at [Westminster Abbey](https://www.westminster-abbey.org/abbey-commemorations/royals/charles-ii) on 23 April 1661. The diarist Samuel Pepys was present and [wrote about it](https://www.pepysdiary.com/diary/1661/04/23/).  
 
 Alice Thornton also wrote about the coronation in two of her books, but she dated it as 29 May 1660, which was actually the date of [the Restoration](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/), when Charles II entered London.[^1] For Thornton, then living in Richmond, North Yorkshire, this was the more memorable occasion and the 1661 event does not appear in her books. 
 
@@ -37,7 +37,7 @@ But before two hours, they returned with my child home in a very sad and changed
 
 Nally had three or four ‘fits of convulsions’ while sheltering in a local shop before being brought home. Thornton treated her with various medicines such as ‘oil of amber and peony,’ and Nally made a full recovery.[^6] 
 
-[Pepys also recorded](https://www.pepysdiary.com/diary/1660/05/29/)celebratory gunfire on 29 May 1660 for the king’s birthday, as well as on the later date of the coronation. In Yorkshire, the date of the Restoration – 29 May – continued to be celebrated as [Oak Apple Day](https://www.thenorthernecho.co.uk/news/6950621.national-celebration-died-living-memory/) until the 1940s, a reference to the oak tree the king was said to have hidden in to escape Cromwell’s army in 1651. This weekend there are a variety of [events being held across the UK](https://coronation.gov.uk/events/) to celebrate the coronation of Charles III. 
+[Pepys also recorded](https://www.pepysdiary.com/diary/1660/05/29/) celebratory gunfire on 29 May 1660 for the king’s birthday, as well as on the later date of the coronation. In Yorkshire, the date of the Restoration – 29 May – continued to be celebrated as [Oak Apple Day](https://www.thenorthernecho.co.uk/news/6950621.national-celebration-died-living-memory/) until the 1940s, a reference to the oak tree the king was said to have hidden in to escape Cromwell’s army in 1651. This weekend there are a variety of [events being held across the UK](https://coronation.gov.uk/events/) to celebrate the coronation of Charles III. 
 
 
 
