@@ -153,7 +153,7 @@
          
          TODO/Q [teams] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
          
-         [tags] for some indication of what it's about
+         [other tags] for some indication of what it's about
          [endnote] moved from Word endnotes into xml comment
       
      notes on names linkage (at end of Sept '22)
@@ -165,13 +165,6 @@
       - completion of people.xml standoff to include relationships - to be done once bios have been completed
       
       
-      
-      TODO
-      
-      need to check tagging of blank pages for consistency
-      - here I seem to have done <space> per page and in other books pretty sure I've grouped them.
-      haven't even done them consistently within this book ffs.
-      but wait. some blank pages are numbered and some are not.
       
           -->
          
@@ -3490,6 +3483,8 @@
          <p xml:id="p-0212" rend="first-line-indent">which with Intrest &amp; Public Charges out run<lb/>
             a great part. which should have paid his <rs ref="ppl:tbd-children" n="per499" type="group">2 Dau<lb break="no"/>
             ghters</rs> Portions &amp; maintenance.</p>
+          <anchor n="ev58" type="event"/>
+          <milestone unit="event" n="ev58a"/>
          <p xml:id="p-0213" rend="first-line-indent">
             Whereas on the contrary. if <persName ref="ppl:wt1" n="per500">Mr Thornton</persName> had<lb/>
             only stucke to my mothers Intrest of 300<am rend="superscript">l</am> per An<ex>num</ex><lb/>
@@ -3524,10 +3519,11 @@
             however, she would have made over her<lb/>
             dues there to <persName ref="ppl:wt1" n="per508">Mr Thornton</persName> by which he might<lb/>
             have entred on the Estate in her right.</p>
+          <anchor n="ev58a" type="event"/>
          <p xml:id="p-0217" rend="first-line-indent">
             And soe have had an intire Intrest before<lb/>
             Debts however might have bin sharers with them</p>
-          <anchor n="ev58" type="event"/>
+          
           <milestone n="ev59" unit="event"/>
          <p xml:id="p-0218" rend="first-line-indent">
             Allso there was a right due to <persName ref="ppl:jw1" n="per509">my poore <lb/>
@@ -9854,7 +9850,6 @@ As more att Large may apeare in <ref type="atb" source="#book1:tbd">my first Boo
             strength till this time through many difficultys<lb/>
             sicknes, dangers &amp; ill accidents &amp; to make me<lb/>
             draw neare to the time of my delivery.</p>
-         <milestone n="ev177" unit="event"/>
          <p xml:id="p-0739" rend="first-line-indent">Haveing prepared my selfe in the best manner<lb/>
             I could in the Recaving the most Holy Sacram<add place="above">t</add><lb/>
             &amp;. other preperations for soe solomne a Change<lb/>
@@ -9871,6 +9866,7 @@ As more att Large may apeare in <ref type="atb" source="#book1:tbd">my first Boo
             for according to the True intent of all Partis<lb/>
             agreed uppon before that Consent of marriage<lb/>
             was had: either from my selfe or <rs ref="ppl:tbd-mother" n="per1186" type="person">deare Mother</rs></p>
+         <milestone n="ev177" unit="event"/>
          <p xml:id="p-0741" rend="first-line-indent">
             And to that Purpose 
             <add place="above">The</add> Articles which was drawne<lb/>
@@ -10041,13 +10037,14 @@ As more att Large may apeare in <ref type="atb" source="#book1:tbd">my first Boo
           alternative?  as in book 3, could mark up with milestone/anchor type=letter
           
           problem! I want to put the letter inside a sub div; but can't use div. 
-          I *think* <floatingText> is appropriate unless there's something else I've overlooked.
-          is there anywhere else in the books that this could be useful?
+          I *think* <floatingText> is appropriate unless there's something else I've overlooked. but a bit... OTT?
           
     https://tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSFLT
        > The floatingText element is a member of the model.divPart class, and can thus appear within any division level element in the same way as a paragraph. For example, texts such as the Decameron or the Arabian Nights might be regarded as containing many floating texts embedded within another single text, the framing narrative, rather than as groups of discrete texts in which the fragments of framing narrative are regarded as front or back matter.
        <quote> is also possible? but then it seems <head> is not allowed.
        can also use <quote> inside for the text of the letter.
+       
+       or could just tag it as a letter-event as a container. which would be a lot simpler.
        --> 
           
        <floatingText xml:id="div-047" type="letter"> 
@@ -10062,7 +10059,8 @@ As more att Large may apeare in <ref type="atb" source="#book1:tbd">my first Boo
          </head>
           
          <!-- Q [authors]? it's not literary but it is written by someone else. -->
-         <p xml:id="p-0754">Deare <rs ref="ppl:tbd-cousin" n="per1228" type="person">Cosine</rs>./</p><!-- Q [names] Does this need an <rs> tag? - JE -->
+            
+         <p xml:id="p-0754">Deare <rs ref="ppl:awt1" n="per1228" type="person">Cosine</rs>./</p>
          <p xml:id="p-0755">I haue seriously perused all the writings you sent me<lb/>
             and I perceive that the intent of the Articles made up<lb/>
             pon marriage, (Albeit, it be not therein soe fully Ex<lb/>
@@ -10083,8 +10081,7 @@ As more att Large may apeare in <ref type="atb" source="#book1:tbd">my first Boo
 
 <!-- Page 243 -->
 
-         
-            <fw rend="italic" type="pageNum">241 </fw>
+         <fw rend="italic" type="pageNum">241 </fw>
          
          <p xml:id="p-0756">As for your Paper draught and new Intended Settlement<lb/>
             I like it better then the first Deed: But yett the Provisos<lb/>
@@ -10155,6 +10152,9 @@ As more att Large may apeare in <ref type="atb" source="#book1:tbd">my first Boo
             I would <add place="above">not</add> have don for the world but the fine I pasd<lb/>
             made Me feare some worse thing affter I saw the<lb/>
             Paper Booke.</p>
+          <anchor n="ev181" type="event"/>
+          
+          <milestone n="ev182" unit="event"/>
          <p xml:id="p-0761" rend="first-line-indent">
             But by the good Providence of my gracious<lb/>
             God uppon me I had soe much notion of the<lb/>
@@ -10206,9 +10206,6 @@ As more att Large may apeare in <ref type="atb" source="#book1:tbd">my first Boo
             &amp; <placeName ref="place:Lays_032" n="place272">Laistrop</placeName> without Power of Cutting it of from them<lb/>
             or defalcation. which was not soe don by eithr of the<lb/>
             other Deeds as was intended by Articles of mariadg</p>
-          <anchor n="ev181" type="event"/>
-          
-          <milestone n="ev182" unit="event"/>
          <p xml:id="p-0765" rend="first-line-indent">
             But now it was a matter of great trouble to <lb/>
             me That by Reason of these unhappy and infortunate<lb/>
