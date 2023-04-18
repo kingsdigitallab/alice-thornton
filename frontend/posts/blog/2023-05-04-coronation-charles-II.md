@@ -21,7 +21,7 @@ Alice Thornton also wrote about the coronation in two of her books, but she date
  
  >...they had a show at Richmond of all kinds of sports and country expressions of joy and amongst the rest they shot off muskets and had soldiers of the townsmen of Richmond appeared in armour.[^2]  
 
-Thornton was then staying at her Aunt Norton’s house, St. Nicholas, in Richmond. All the servants were keen to go:  
+Thornton was then staying at her Aunt Norton’s house, St. Nicholas, in Richmond. All the servants were keen to go to the show:  
 
 >The maids at St. Nicholas did beg leave to go and see the show and would not be pleased until I let my dear Nally go with them. But I refused and thought it would fright her and do her hurt. But they got Mr. Thornton persuaded, and my aunt, to let her go and they would take great care of her.[^3] 
 
