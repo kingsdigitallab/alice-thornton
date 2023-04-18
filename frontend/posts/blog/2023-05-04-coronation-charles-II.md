@@ -11,7 +11,7 @@ tags:
 
 ---
 
-Charles II’s coronation was held at [Westminster Abbey](https://www.westminster-abbey.org/abbey-commemorations/royals/charles-ii) on 23 April 1661. The diarist Samuel Pepys was present and [wrote about it](https://www.pepysdiary.com/diary/1661/04/23/ ).  
+Charles II’s coronation was held at [Westminster Abbey](https://www.westminster-abbey.org/abbey-commemorations/royals/charles-ii) on 23 April 1661. The diarist Samuel Pepys was present and [wrote about it](https://www.pepysdiary.com/diary/1661/04/23/).  
 
 Alice Thornton also wrote about the coronation in two of her books, but she dated it as 29 May 1660, which was actually the date of [the Restoration](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/), when Charles II entered London.[^1] For Thornton, then living in Richmond, North Yorkshire, this was the more memorable occasion and the 1661 event does not appear in her books. 
 
@@ -24,7 +24,7 @@ Thornton tells us about a big show in Richmond held on 29 May 1660 to celebrate 
 
 they had a show at Richmond of all kinds of sports and country expressions of joy and amongst the rest they shot off muskets and had soldiers of the townsmen of Richmond appeared in armour.[^2]  
 
- ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]( {{ "/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. © Suzanne Trill, June 2022."){.media-left}
+ ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]({{ "/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. © Suzanne Trill, June 2022."){.media-left}
 
 Thornton was then staying at her Aunt Norton’s house, St. Nicholas, in Richmond. All the servants were keen to go:  
 
