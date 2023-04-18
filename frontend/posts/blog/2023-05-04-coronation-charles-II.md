@@ -15,18 +15,18 @@ Charles II’s coronation was held at [Westminster Abbey](https://www.westminste
 
 Alice Thornton also wrote about the coronation in two of her books, but she dated it as 29 May 1660, which was actually the date of [the Restoration](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/), when Charles II entered London.[^1] For Thornton, then living in Richmond, North Yorkshire, this was the more memorable occasion and the 1661 event does not appear in her books. 
 
-![A stained glass panel showing royalist soldiers with drums and pipes]( {{ "/assets/img/posts/st_chads_stained_glass.jpg" | url }} "The Civil War Window, St Chad's, Farndon. CC-BY-SA-4.0"){.media-left}
-
-Thornton tells us about a big show in Richmond held on 29 May 1660 to celebrate the new king: 
+ ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]({{"/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. Suzanne Trill, June 2022."){.media-right}
+ 
+ Thornton tells us about a big show in Richmond held on 29 May 1660 to celebrate the new king: 
 
 >...they had a show at Richmond of all kinds of sports and country expressions of joy and amongst the rest they shot off muskets and had soldiers of the townsmen of Richmond appeared in armour.[^2]  
-
- ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]({{"/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. Suzanne Trill, June 2022."){.media-left}
 
 Thornton was then staying at her Aunt Norton’s house, St. Nicholas, in Richmond. All the servants were keen to go:  
 
 >The maids at St. Nicholas did beg leave to go and see the show and would not be pleased until I let my dear Nally go with them. But I refused and thought it would fright her and do her hurt. But they got Mr. Thornton persuaded, and my aunt, to let her go and they would take great care of her.[^3] 
  
+![A stained glass panel showing royalist soldiers with drums and pipes]( {{ "/assets/img/posts/st_chads_stained_glass.jpg" | url }} "The Civil War Window, St Chad's, Farndon. CC-BY-SA-4.0"){.media-left}
+
 The day was particularly memorable to Thornton as she was proven correct and her oldest daughter, Nally, was taken ill at this show - or had a ‘deliverance from death’,[^4] as Thornton put it: 
 
 >But before two hours, they returned with my child home in a very sad and changed condition; for, alas, she never having had seen any such things as soldiers, or guns, or drums, or noises and shoutings, she was so extremely scared at these things and when the muskets went off so fast did so affright her and terrify my poor child that she was ready to fly out of Jane Flowers’ arms, her maid.[^5] 
