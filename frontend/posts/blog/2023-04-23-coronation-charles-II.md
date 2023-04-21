@@ -35,7 +35,7 @@ Nally had three or four ‘fits of convulsions’ while sheltering in a local sh
 
 In Yorkshire, the date of the Restoration – 29 May – continued to be celebrated as [Oak Apple Day](https://www.thenorthernecho.co.uk/news/6950621.national-celebration-died-living-memory/) until the 1940s, a reference to the oak tree the king was said to have hidden in to escape Cromwell’s army in 1651.  
 
-[Pepys also recorded](https://www.pepysdiary.com/diary/1660/05/29/) celebratory gunfire on 29 May 1660 for the king’s birthday, as well as on the later date of the coronation. There are a variety of [events being held across the UK](https://coronation.gov.uk/events/ ) to celebrate the coronation of Charles III. Will you be attending any?
+[Pepys also recorded](https://www.pepysdiary.com/diary/1660/05/29/) celebratory gunfire in London on 29 May 1660 for the king’s birthday, as well as on the later date of the coronation. There are a variety of [events being held across the UK](https://coronation.gov.uk/events/ ) to celebrate the coronation of Charles III. Will you be attending any?
 
 
 
