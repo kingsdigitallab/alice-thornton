@@ -1,7 +1,7 @@
 ---
 title: "Alice Thornton on the Coronation of Charles II: The North Remembers (sort of)"
 feature: /assets/img/posts/st_chads_stained_glass_thumbnail.jpg
-status: draft
+status: live
 authors:
   - cbeattie
 tags:
