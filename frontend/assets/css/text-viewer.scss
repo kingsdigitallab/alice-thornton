@@ -17,9 +17,9 @@
     //   content: "page ";
     // }
 
-    // br {
-    //   display: none;
-    // }
+    br {
+      display: none;
+    }
     .orig {
       display: none;
     }
@@ -37,7 +37,7 @@
     }
   }
 
-  .tei-surplus {
+  .tei-surplus:not(.not-a-word) {
     // TODO: find better style
     background-color: #fcc;
     padding: 0.2em;
