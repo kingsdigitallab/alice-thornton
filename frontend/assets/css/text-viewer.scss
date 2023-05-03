@@ -5,6 +5,8 @@
 // & review from designers before being added back
 // into main.scss.
 
+@import "color-theme";
+
 // GN: placeholders for customasing the rendering of the editions
 // and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
@@ -209,12 +211,12 @@
     top: 0;
     left: 0;
     z-index: 100;
-    border: 5px solid grey;
+    border: 3px solid grey;
     padding: 2rem;
     margin: 2rem;
     // display: block;
 
-    background: white;
+    background: $white;
 
     max-height: 90vh;
     max-width: 90vw;

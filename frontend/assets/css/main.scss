@@ -13,36 +13,7 @@
 // Duotone images color: #8e7860
 
 @import "fonts.scss";
-
-// Project variables
-
-$white: #fbfbfb;
-$primary: #462200;
-// $secondary: #c45300;
-// GF 18/05/2022: changed to a slightly darker orange to meet accessiblity
-// requirements for colour contrast
-$secondary: #b34200;
-
-$accent: #df8833;
-$dark: #0a0a0a;
-$light: #cdcac7;
-
-$link: #0b4d99;
-
-// Panel customisation (see Text Viewer)
-// Bulma's docs: https://bulma.io/documentation/components/panel/
-
-$panel-heading-background-color: $white;
-$panel-heading-size: 1em;
-// $panel-item-border: 1px solid $primary;
-$panel-radius: 0;
-$panel-shadow: 0;
-
-// Box customisation (see citations)
-// Bulma's docs: https://bulma.io/documentation/elements/box/
-
-$box-radius: 0;
-$box-shadow: 0;
+@import "color-theme";
 
 @import "../node_modules/bulma/bulma.sass";
 
@@ -749,3 +720,4 @@ ul.undecorated-list {
 .panel.is-info .panel-heading {
   background-color: $secondary;  
 }
+
