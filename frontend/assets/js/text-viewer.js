@@ -44,7 +44,7 @@ function setUpTextViewer() {
           {
             selectors: {
               source: {
-                "http://localhost:3000": "AT DTS (local:3000)",
+                // "http://localhost:3000": "AT DTS (local:3000)",
                 "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts/dts.json":
                   "AT SDTS (github)",
                 // format=X is ignored, will always return TEI

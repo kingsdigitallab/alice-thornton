@@ -137,11 +137,13 @@
     text-decoration: line-through;
   }
 
-  .tei-quote.tei-type-direct,
-  .tei-quote.tei-type-partial {
-    &:before,
-    &:after {
-      content: '"';
+  &.view-modern {
+    .tei-quote.tei-type-direct,
+    .tei-quote.tei-type-partial.nomore {
+      &:before,
+      &:after {
+        content: '"';
+      }
     }
   }
 
