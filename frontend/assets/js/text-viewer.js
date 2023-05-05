@@ -43,7 +43,8 @@ function setUpTextViewer() {
         panels: [
           {
             selectors: {
-              source: {
+              source: window.metadata.text_viewer.source,
+              source_old: {
                 // "http://localhost:3000": "AT DTS (local:3000)",
                 "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts/dts.json":
                   "AT SDTS (github)",
@@ -200,7 +201,9 @@ function setUpTextViewer() {
           panel.responses.collection.member.map((member) => {
             // EDH uses type instead of @type
             if (member["@type"] == "Resource" || member["type"] == "Resource") {
-              panel.selectors.document[member["@id"]] = member.title;
+              if (this.isDocumentVisible(member["@id"])) {
+                panel.selectors.document[member["@id"]] = member.title;
+              }
             }
           });
           addSubCollections();
@@ -219,7 +222,9 @@ function setUpTextViewer() {
               panel.responses.navigation["hydra:member"];
             members.map((member) => {
               let ref = member["dts:ref"] || member["ref"];
-              panel.selectors.locus[ref] = ref;
+              if (this.isLocusVisible(panel.selections.document, ref)) {
+                panel.selectors.locus[ref] = ref;
+              }
             });
           }
         }
@@ -229,6 +234,26 @@ function setUpTextViewer() {
 
         this.selectDefaultOption(panel, nextKey);
         this.onChangeSelector(panel, nextKey);
+      },
+      isDocumentVisible(documentId) {
+        let ret = true;
+        let rules = window.metadata.text_viewer.visible_documents[documentId];
+        if (typeof rules !== "undefined") {
+          ret = rules.length;
+        }
+        return ret;
+      },
+      isLocusVisible(documentId, locus) {
+        let ret = true;
+        let rules = window.metadata.text_viewer.visible_documents[documentId];
+        if (typeof rules !== "undefined") {
+          let locusNumber = locus.match(/\d+/);
+          if (locusNumber) {
+            locusNumber = parseInt(locusNumber[0]);
+            ret = locusNumber >= rules[0] && locusNumber <= rules[1];
+          }
+        }
+        return ret;
       },
       async setLocus(panel, locus) {
         panel.selections.locus = locus;
