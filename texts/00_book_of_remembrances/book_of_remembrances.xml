@@ -100,7 +100,7 @@
            <p>Year starts 1 January.</p>
          </calendar>
          <calendar xml:id="JulianMar">
-           <p>Year starts 25 March.</p>
+           <p>Year starts 25 March ("Lady Day" dating).</p>
          </calendar>
          <calendar xml:id="JulianSic">
            <p>Year start date cannot be ascertained.</p>
@@ -151,18 +151,25 @@
          img in xml comments (if present) = image numbers for project reference only.
          
      xml comment keywords:
+     
          NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action.
          TODO: needs work, I probably know what's needed
          Q: needs work, some uncertainty about how to proceed
          
          [teams] or [review] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
          
-         [] comment/note tags give some indication of what it's about
+         [keyword] comment/note tags give some indication of what it's about
          
          [endnote] moved from Word endnotes into comment for reference
          
          
      TO DO/REVIEW:
+     
+        <pc> for hyphens* at line breaks (<lb break=no>) only
+          hopefully no attributes needed...
+          occasionally Alice uses = instead of -
+          can be at end of line or beginning of line or both
+          ?not used where the word has been tagged with <w norm="..."> as the hyphen will already have been removed from the normalised form.? need to check this with GN.
         
         seg @rend=underline (all books)
           final check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph? tags.
@@ -667,7 +674,7 @@
         <subst xml:id="ex-subst_double_gap-01">
             <del rend="doublestrikethrough"><gap unit="char" quantity="4" reason="deleted"/></del>
             <add place="above">not</add>
-        </subst>, end with this life but spring<lb/>
+        </subst><surplus reason="superfluous">,</surplus> end with this life but spring<lb/>
              up to an <w norm="eternity" type="l">Eternity</w> of <w norm="hallelujahs">Haleiuias</w> of<lb/>
              praise to all <w norm="eternity" type="l">Eternity</w><supplied reason="mod">.</supplied> Amen.
          </p>
@@ -1378,8 +1385,8 @@
       <milestone n="ev31" unit="event"/>
            I began my <w norm="great">greate</w> <w norm="sickness">Sickenesse</w> <w norm="after">affter</w><lb/>
           I came from <placeName ref="place:Burn_005" n="place37"><w norm="Burne">Barne</w> <w norm="Park">Parke</w></placeName> the first time<supplied reason="mod">,</supplied><lb/>
-          about the <date when-custom="1652-08-06">6<hi rend="superscript">th</hi> of August 1652</date> <anchor type="event" n="ev31"/><milestone unit="event" n="ev31a"/><supplied reason="mod">(</supplied> &amp; miscar-<lb break="no"/>
-          -ried of <rs ref="ppl:xt1" n="per68" type="person">my first <w norm="child">Childe</w></rs><supplied reason="mod">,</supplied> <w norm="being">beeing</w> a<lb/>
+          about the <date when-custom="1652-08-06">6<hi rend="superscript">th</hi> of August 1652</date> <anchor type="event" n="ev31"/><milestone unit="event" n="ev31a"/><supplied reason="mod">(</supplied> &amp; miscar<pc>-</pc><lb break="no"/>
+          <pc>-</pc>ried of <rs ref="ppl:xt1" n="per68" type="person">my first <w norm="child">Childe</w></rs><supplied reason="mod">,</supplied> <w norm="being">beeing</w> a<lb/>
           daughter<supplied reason="mod">,</supplied> the <date when-custom="1652-08-27">27<hi rend="superscript">th</hi> of the same August 1652</date><supplied reason="mod">,</supplied><lb/>
           being <w norm="Friday" type="u">friday</w><pc norm=",">.</pc><anchor n="ev31a" type="event"/> &amp; <milestone n="ev32" unit="event"/>she was buried at<lb/>
           <placeName ref="place:Easb_018" n="place38">Easby <w norm="church" type="l">Church</w></placeName><supplied reason="mod">,</supplied> <w norm="near">neare</w> <placeName ref="place:Rich_043" n="place39"><choice><abbr>Rich.</abbr><expan>Richmond</expan></choice></placeName> <date when-custom="1652-08-28">the next morn<lb break="no"/>
@@ -1807,8 +1814,8 @@
           <w norm="to" type="l">To</w> grant her faith in him, with the <lb/>
           sanctification of his <w norm="Holy" type="u">holy</w> <w norm="Spirit">Spiritt</w><supplied reason="mod">;</supplied><lb/>
           <w norm="and">And</w><supplied reason="mod">,</supplied> at last<supplied reason="mod">,</supplied> to <w norm="glorify">Glorifie</w> her in hea<lb break="no"/>
-          -ven<pc norm=",">.</pc> which petitions<supplied reason="mod">,</supplied> said she<supplied reason="mod">,</supplied> <supplied reason="mod">"</supplied>whosoe<lb break="no"/>
-           -ver shall make for me<pc norm=",">.</pc> the Lord <w norm="hear">heare</w><lb/>
+          <pc>-</pc>ven<pc norm=",">.</pc> which petitions<supplied reason="mod">,</supplied> said she<supplied reason="mod">,</supplied> <supplied reason="mod">"</supplied>whosoe<lb break="no"/>
+           <pc>-</pc>ver shall make for me<pc norm=",">.</pc> the Lord <w norm="hear">heare</w><lb/>
           and grant the same<supplied reason="mod">"</supplied>.
 
          </p>
@@ -2210,7 +2217,7 @@
           not belong to God because he <w norm="followed">follwd</w><lb/>
           me with such great <w norm="crosses" type="l">Crosses</w><supplied reason="mod">,</supplied> <w norm="afflictions">Afflictions</w><lb/>
           &amp; troubles, which seemed to be <w norm="curses">Curses</w>,<lb/>
-          rather <w norm="than">then</w><surplus resp="superfluous">,</surplus> such <w norm="trials">trialls</w> as he used<lb/>
+          rather <w norm="than">then</w><surplus reason="superfluous">,</surplus> such <w norm="trials">trialls</w> as he used<lb/>
           to lay upon those that were his children<supplied reason="mod">;</supplied><lb/>
            &amp; that<surplus reason="superfluous">.</surplus> I had neglected all those off<lb break="no"/>
           -er &amp; <w norm="tenders">tendirs</w> of <w norm="mercies">mercys</w> which he had<lb/>
