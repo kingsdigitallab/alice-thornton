@@ -1,7 +1,7 @@
 ---
 title: Project Postdoctoral Researcher Jo Edge to present at the Castle Studies Trust Conference
 feature: /assets/img/posts/Middleham-horses-mediawiki-CJW.jpg
-status: draft
+status: live
 authors:
   - jedge
 tags:
