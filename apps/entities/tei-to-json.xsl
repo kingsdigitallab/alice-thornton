@@ -28,9 +28,9 @@
     <xsl:template match="tei:person">
         {
             "id": "<xsl:value-of select='@xml:id'/>",
-            "title": "<xsl:value-of select='tei:persName[@type="label"]/text()'/>",
+            "title": "<xsl:value-of select='normalize-space(tei:persName[@type="label"]/text())'/>",
             "type": "person",
-            "sortkey": "<xsl:value-of select='tei:persName/tei:surname[1]/text()'/> <xsl:value-of select='tei:persName/tei:forename/text()'/>"
+            "sortkey": "<xsl:value-of select='normalize-space(tei:persName/tei:surname[1]/text())'/> <xsl:value-of select='normalize-space(tei:persName/tei:forename/text())'/>"
         }
         <xsl:if test="position()!=last()">,</xsl:if>
     </xsl:template>

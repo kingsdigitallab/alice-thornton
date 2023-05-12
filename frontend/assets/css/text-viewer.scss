@@ -7,11 +7,29 @@
 
 @import "color-theme";
 
+
+@mixin overlaid-box {
+  border: 3px solid grey;
+  box-shadow: #888 5px 5px 15px 0px;
+  z-index: 10;
+}
+
+#text-viewer .panel-chunk {
+  border-top: 1px solid lightgrey;
+  background-color: white;
+}
+
 // GN: placeholders for customasing the rendering of the editions
 // and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
   margin-left: 5em;
   position: relative;
+
+  opacity: 30%;
+
+  &.loaded {
+    opacity: 100%;
+  }
 
   &.view-modern {
     br {
@@ -208,7 +226,6 @@
     top: 0;
     left: 0;
     z-index: 100;
-    border: 3px solid grey;
     padding: 2rem;
     margin: 2rem;
     // display: block;
@@ -219,7 +236,7 @@
     max-width: 90vw;
     height: 90vh;
 
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    @include overlaid-box;
 
     img {
       display: inline-block;
@@ -232,4 +249,31 @@
       font-size: 1.5rem;
     }
   }
+
+  // notes
+  .tei-anchor {
+    position: relative;
+
+    &:before {
+      content: "\01F5C8";
+      font-size: 1.5em;
+      padding: 0.2em;
+    }
+
+    .tei-note {
+      display: none;
+      position: absolute;
+      background: white;
+      padding: 0.5em;
+      width: 25em;
+      bottom: 1em;
+
+      @include overlaid-box;
+    }
+
+    &.expanded .tei-note {
+      display: inline-block;
+    }
+  }
+  
 }
