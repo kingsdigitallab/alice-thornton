@@ -1,11 +1,12 @@
 "use strict";
 
+const gfetch = require("node-fetch");
 const SaxonJS = require("saxon-js");
 const fs = require("fs");
-const gfetch = require("node-fetch");
 
 // const sourceBase = '../../tmp/'
-const sourceBase = 'https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/entities/'
+const sourceBase =
+  "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/entities/";
 const sources = ["people.xml", "places.xml"];
 const target = "../../frontend/assets/js/entities.json";
 const jsonSheetPath = "xslt/tei-to-json.sef.json";
@@ -42,14 +43,14 @@ class Entities {
   }
 
   async xslt(docPath, jsonSheetPath) {
-    let docString = null
-    if (docPath.startsWith('http')) {
+    let docString = null;
+    if (docPath.startsWith("http")) {
       let res = await gfetch(docPath);
       if (res && res.status == 200) {
         docString = await res.text();
       }
     } else {
-      docString = this.readFile(docPath)
+      docString = this.readFile(docPath);
     }
 
     let output = SaxonJS.transform(
