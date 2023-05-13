@@ -49,6 +49,11 @@ $render-add-with-arrow: false;
     br {
       display: none;
     }
+    br[data-tei-break='no'] + .tei-pc.not-a-word,
+    .divide-word {
+      display: none;
+    }
+
     .orig {
       display: none;
     }
@@ -201,6 +206,10 @@ $render-add-with-arrow: false;
 
   .hidden {
     display: none;
+  }
+
+  ins {
+    text-decoration: none;
   }
 
   h1 {

@@ -276,11 +276,22 @@ function setUpTextViewer() {
         }
       },
       postProcessDocument(panel) {
+        // CLEAN-UP HTML
+
         // convert entities to hyperlinks
         let doc = panel.responses.document;
         // console.log(doc)
         doc = doc.replace(/<\/br>/g, "");
+        // remove spaces around a line break in the middle of a word
+        doc = doc.replace(/\s*(<br[^>]+data-tei-break="no"[^>]*>)\s*/g, "$1");
+        // remove spaces around a line break in the middle of a word
+        doc = doc.replace(
+          /<span class="tei-pc not-a-word" data-tei="pc">-<\/span>(<br[^>]+data-tei-break="no"[^>]*>)/g,
+          '<span class="tei-pc not-a-word divide-word" data-tei="pc">-</span>$1'
+        );
         panel.responses.document = doc;
+
+        // EVENTS
 
         this.$nextTick(() => {
           // TODO: attach events only to current panel
