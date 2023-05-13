@@ -7,11 +7,26 @@
 
 @import "color-theme";
 
-@mixin overlaid-box {
+// -------------------------------------------------
+// SETTINGS
+
+// if true tei <add> (.tei-add or place="above") is shown as interlinear text with arrow where author inserted it
+// if false it will be shown as superscript
+$render-add-with-arrow: false;
+
+// -------------------------------------------------
+// MIXINS
+
+@mixin popout {
   border: 3px solid grey;
   box-shadow: #888 5px 5px 15px 0px;
   z-index: 10;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: normal;
 }
+
+// -------------------------------------------------
 
 #text-viewer .panel-chunk {
   border-top: 1px solid lightgrey;
@@ -119,21 +134,28 @@
   }
 
   &.view-semidip {
-    // TODO: bug in http://localhost:8080/books/viewer/?&p0.lo=p.5 (to)
-    *[data-tei-place="above"] {
-      // 1.4.-1.hand
-      position: absolute;
-      margin-top: -1.2em;
-      // padding-right: 4em;
-      display: inline-block;
-      margin-left: -0.3em;
-
-      &:before {
-        content: "\032C";
+    // http://localhost:8080/books/viewer/?&p0.lo=p.5
+    @if ($render-add-with-arrow) {
+      // for tei add: appear as superlinear text above down arrow pointing to insertion point
+      *[data-tei-place="above"] {
+        // 1.4.-1.hand
         position: absolute;
-        // top: 0.2em;
-        margin-left: 0.3em;
-        font-size: 150%;
+        margin-top: -1.2em;
+        // padding-right: 4em;
+        display: inline-block;
+        margin-left: -0.3em;
+
+        &:before {
+          content: "\032C";
+          position: absolute;
+          // top: 0.2em;
+          margin-left: 0.3em;
+          font-size: 150%;
+        }
+      }
+    } @else {
+      *[data-tei-place="above"] {
+        vertical-align: super;
       }
     }
 
@@ -235,7 +257,7 @@
     max-width: 90vw;
     height: 90vh;
 
-    @include overlaid-box;
+    @include popout;
 
     img {
       display: inline-block;
@@ -267,7 +289,7 @@
       width: 25em;
       bottom: 1em;
 
-      @include overlaid-box;
+      @include popout;
     }
 
     &.expanded .tei-note {
