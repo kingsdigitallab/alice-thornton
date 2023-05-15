@@ -337,6 +337,7 @@ function setUpTextViewer() {
         return Object.keys(panel.selectors[key])[0];
       },
       async fetchDTS(panel, service, id, ref, format) {
+        panel.error = "";
         let ret = null;
 
         panel.loaded = false;

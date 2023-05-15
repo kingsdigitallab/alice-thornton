@@ -17,7 +17,7 @@ $render-add-with-arrow: false;
 // -------------------------------------------------
 // MIXINS
 
-@mixin popout {
+@mixin popover {
   border: 3px solid grey;
   box-shadow: #888 5px 5px 15px 0px;
   z-index: 10;
@@ -49,7 +49,7 @@ $render-add-with-arrow: false;
     br {
       display: none;
     }
-    br[data-tei-break='no'] + .tei-pc.not-a-word,
+    br[data-tei-break="no"] + .tei-pc.not-a-word,
     .divide-word {
       display: none;
     }
@@ -266,7 +266,7 @@ $render-add-with-arrow: false;
     max-width: 90vw;
     height: 90vh;
 
-    @include popout;
+    @include popover;
 
     img {
       display: inline-block;
@@ -298,11 +298,39 @@ $render-add-with-arrow: false;
       width: 25em;
       bottom: 1em;
 
-      @include popout;
+      @include popover;
     }
 
     &.expanded .tei-note {
       display: inline-block;
     }
   }
+
+  .has-info-box {
+    position: relative;
+  }
+
+  // quote
+  .info-box {
+    @include popover;
+    
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+    display: block;
+    width: auto;
+    background-color: white;
+
+    .banner {
+      padding: 0.5em;
+      display: block;
+      background-color: $primary;
+      color: white;
+    }
+
+    .body {
+      padding: 0.5em;
+    }
+  }
+
 }

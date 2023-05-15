@@ -1,6 +1,6 @@
 module.exports = function () {
   // lcl|dev|stg|liv
-  let environment = process.env.MY_ENVIRONMENT || "lcl";
+  let environment = process.env.SITE_ENV || "lcl";
   let ret = {
     // TODO: harmonise the key notations, currently mixing camelCase & _
     comment:

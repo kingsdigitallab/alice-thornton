@@ -6,9 +6,14 @@
 # the user who owns the git repo
 GITUSER="gnoel"
 
+# environment
+SITE_ENV=${SITE_ENV:-'liv'}
+
 # cd where this script is
 cd $(dirname "$0")/..
 PROJECT_DIR=$(pwd)
+
+echo "AUTOPULL $PROJECT_DIR as $GITUSER, env = $SITE_ENV"
 
 echo "$(date --iso-8601=seconds) GH fetch"
 
@@ -29,7 +34,7 @@ if [[ $h1 != $h2 ]]; then
     echo "failed: git merge"
     exit 1
   fi
-  su - $GITUSER -c "cd $PROJECT_DIR && npm run rebuild"
+  su - $GITUSER -c "cd $PROJECT_DIR && npm run rebuild:$SITE_ENV"
   if [[ $? -ne 0 ]]; then
     echo "failed: npm run rebuild"
     exit 2
