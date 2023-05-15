@@ -5,6 +5,7 @@
 
 # the user who owns the git repo
 GITUSER="gnoel"
+# GITUSER="jeff"
 
 # environment
 SITE_ENV=${SITE_ENV:-'liv'}
@@ -35,7 +36,7 @@ if [[ $h1 != $h2 ]]; then
     echo "failed: git merge"
     exit 1
   fi
-  su - $GITUSER -c "SITE_ENV=$SITE_ENV; cd $PROJECT_DIR && npm run rebuild"
+  su - $GITUSER -c "export SITE_ENV=$SITE_ENV; cd $PROJECT_DIR && npm run rebuild"
   if [[ $? -ne 0 ]]; then
     echo "failed: npm run rebuild"
     exit 2
