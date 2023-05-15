@@ -23,6 +23,7 @@ if [[ $? -ne 0 ]]; then
   exit
 fi
 
+
 h1=$(su $GITUSER -c 'git rev-parse HEAD')
 h2=$(su $GITUSER -c 'git rev-parse @{u}')
 
