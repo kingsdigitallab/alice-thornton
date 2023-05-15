@@ -34,7 +34,7 @@ if [[ $h1 != $h2 ]]; then
     echo "failed: git merge"
     exit 1
   fi
-  su - $GITUSER -c "cd $PROJECT_DIR && npm run rebuild:$SITE_ENV"
+  su - $GITUSER -c "SITE_ENV=$SITE_ENV; cd $PROJECT_DIR && npm run rebuild"
   if [[ $? -ne 0 ]]; then
     echo "failed: npm run rebuild"
     exit 2
