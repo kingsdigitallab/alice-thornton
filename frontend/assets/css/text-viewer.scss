@@ -308,27 +308,45 @@ $render-add-with-arrow: false;
 
   .has-info-box {
     position: relative;
+    border-bottom: 4px dotted lightblue;
+
+    &:hover {
+      border-bottom-style: solid;
+      .info-box {
+        display: inline-block;
+      }
+    }
+
   }
 
   // quote
   .info-box {
+
+    display: none;
+
     @include popover;
 
     position: absolute;
-    top: 1.5em;
-    left: 0;
-    display: block;
-    width: auto;
+    margin-top: 2.5em;
+    width: max-content;
+    max-width: 20em;
     background-color: white;
+    right: 50%;
+    transform: translateX(50%);
+
+    span {
+      line-height: 1.5em;
+    }
 
     .banner {
-      padding: 0.5em;
       display: block;
+      padding: 0.5em;
       background-color: $primary;
       color: white;
     }
 
     .body {
+      display: inline-block;
       padding: 0.5em;
     }
   }
