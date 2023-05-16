@@ -281,28 +281,36 @@ $render-add-with-arrow: false;
   }
 
   // notes
-  .tei-anchor {
-    position: relative;
+  // .tei-anchor {
+  //   position: relative;
 
+  //   &:before {
+  //     content: "\01F5C8";
+  //     font-size: 1.5em;
+  //     padding: 0.2em;
+  //   }
+
+  //   .tei-note {
+  //     // display: none;
+  //     position: absolute;
+  //     background: white;
+  //     padding: 0.5em;
+  //     width: 25em;
+  //     bottom: 1em;
+
+  //     @include popover;
+  //   }
+
+  //   &.expanded .tei-note {
+  //     display: inline-block;
+  //   }
+  // }
+
+  .tei-anchor {
     &:before {
       content: "\01F5C8";
       font-size: 1.5em;
       padding: 0.2em;
-    }
-
-    .tei-note {
-      display: none;
-      position: absolute;
-      background: white;
-      padding: 0.5em;
-      width: 25em;
-      bottom: 1em;
-
-      @include popover;
-    }
-
-    &.expanded .tei-note {
-      display: inline-block;
     }
   }
 
@@ -316,7 +324,6 @@ $render-add-with-arrow: false;
         display: inline-block;
       }
     }
-
   }
 
   // quote
@@ -327,12 +334,14 @@ $render-add-with-arrow: false;
     @include popover;
 
     position: absolute;
-    margin-top: 2.5em;
+    right: 50%;
+    transform: translateX(50%);
+    top: 120%;
     width: max-content;
     max-width: 20em;
     background-color: white;
-    right: 50%;
-    transform: translateX(50%);
+    // to counter cursive set by monogram on R.1
+    font-family: initial;
 
     span {
       line-height: 1.5em;

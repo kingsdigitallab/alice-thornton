@@ -295,18 +295,18 @@ function setUpTextViewer() {
 
         this.$nextTick(() => {
           // TODO: attach events only to current panel
-          const anchors = window.document.querySelectorAll(".tei-anchor");
-          anchors.forEach((anchors) => {
-            if (anchors.classList.contains("managed")) return;
-            anchors.addEventListener(
-              "click",
-              () => {
-                anchors.classList.toggle("expanded");
-              },
-              false
-            );
-            anchors.classList.add("managed");
-          });
+          // const anchors = window.document.querySelectorAll(".tei-anchor");
+          // anchors.forEach((anchors) => {
+          //   if (anchors.classList.contains("managed")) return;
+          //   anchors.addEventListener(
+          //     "click",
+          //     () => {
+          //       anchors.classList.toggle("expanded");
+          //     },
+          //     false
+          //   );
+          //   anchors.classList.add("managed");
+          // });
 
           // TODO: attach events only to current panel
           const btnFigures = window.document.querySelectorAll(".btn-figure");
