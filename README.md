@@ -59,4 +59,3 @@ Analogy:
 - X is for the new edition of a book
 - Y is for adding a new chapter to a draft
 - Z is for spelling corrections
-
