@@ -1,5 +1,5 @@
 ---
-title: Project Postdoctoral Researcher Sharon Howard to present at the UK-Ireland Digital Humanities Association Annual Event
+title: Project Postdoctoral Researcher Sharon Howard to present at a UK-Ireland Digital Humanities Association Event
 feature: /assets/img/posts/2023-Annual-Event-Landscape.png
 status: draft
 authors:
