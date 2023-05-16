@@ -1,5 +1,5 @@
 ---
-title: Paper on Thornton at Life-Cycles Seminar, 24 January 2023
+title: Project Postdoctoral Researcher Sharon Howard to present at the UK-Ireland Digital Humanities Association Event, 29-30 June 2023
 feature: /assets/img/posts/2023-Annual-Event-Landscape.png
 status: draft
 authors:
