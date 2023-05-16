@@ -1,5 +1,5 @@
 ---
-title: Project Researcher to present at the UK-Ireland Digital Humanities Association Annual Event
+title: Project Researcher Dr Sharon Howard to present at the UK-Ireland Digital Humanities Association Annual Event
 feature: /assets/img/posts/2023-Annual-Event-Landscape.png
 status: draft
 authors:
