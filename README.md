@@ -25,7 +25,18 @@ The web site is developed using a Static Site Generator called [11ty](https://ww
 - Snapshots of the `dts` branch will be manually tagged with incremental version numbers (e.g. e0.1.0)
 - The version numbers will be used to control what is released to the staging and live sites
 
-### Version numbering
+## Developing the DTS server
+
+To edit the code of the DTS server locally while testing it with the AT Text Viewer on the AT edition:
+
+1. git clone [kdl-dts-server](https://github.com/kingsdigitallab/kdl-dts-server) in a new folder outside the project
+2. Start the server: `npm run start:at` (will run on localhost:3000)
+
+## Server build for each type (dev|stg|liv) of site:
+
+`export SITE_ENV='dev'; npm run rebuild`
+
+## Version numbering of the edition
 
 Suggested format of the version based on the [Semantic Versioning standard](https://semver.org/):
 
@@ -49,10 +60,3 @@ Analogy:
 - Y is for adding a new chapter to a draft
 - Z is for spelling corrections
 
-## Developing the DTS server
-
-To edit the code of the DTS server locally while testing it with the AT Text Viewer on the AT edition:
-
-1. git clone [kdl-dts-server](https://github.com/kingsdigitallab/kdl-dts-server) in a new folder outside the project
-2. Start the server: `npm run start tests/settings-at.json` (will run on localhost:3000)
-3. Point the Text Viewer to localhost:3000 (via UI and text-viewer.js in this project)

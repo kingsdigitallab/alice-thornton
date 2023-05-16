@@ -9,21 +9,23 @@ isContentHTML: true
   <nav v-for="(panel, panelIdx) in panels" class="panel column buttons">
     <p class="panel-heading">
       <panel-control :panel-idx="panelIdx" control-key="document" hide-label="1"></panel-control>
-      <button class="button" @click="incrementLocus(panel, -1)">
-        <span class="icon is-small">
-          <!-- Font Awesome angle-left -->
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
-        </span>
-        <span>Prev</span>
-      </button>
-      <panel-control :panel-idx="panelIdx" control-key="locus" hide-label="1"></panel-control>
-      <button class="button" @click="incrementLocus(panel, 1)">
-        <span>Next</span>
-        <span class="icon is-small">
-          <!-- Font Awesome angle-right -->
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
-        </span>
-      </button>
+      <span class="unbreakable-control-group">
+        <button class="button" @click="incrementLocus(panel, -1)">
+          <span class="icon is-small">
+            <!-- Font Awesome angle-left -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+          </span>
+          <span>Prev</span>
+        </button>
+        <panel-control :panel-idx="panelIdx" control-key="locus" hide-label="1"></panel-control>
+        <button class="button" @click="incrementLocus(panel, 1)">
+          <span>Next</span>
+          <span class="icon is-small">
+            <!-- Font Awesome angle-right -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+          </span>
+        </button>
+      </span>
       <span class="button-bar">
         <a v-if="canClonePanel()" class="button" href="#" @click.stop.prevent="clonePanel(panelIdx)">
           <span class="icon is-small">

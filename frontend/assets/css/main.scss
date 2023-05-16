@@ -629,6 +629,11 @@ ul.social_media_block {
 .text-viewer {
   padding-bottom: 6rem;
 
+  .unbreakable-control-group {
+    display:inline-block;
+    margin-right: 0.5em;
+  }
+
   .panel-controls {
     // GN: temporarily hidden
     display: none;
@@ -645,6 +650,7 @@ ul.social_media_block {
 
   .panel-selector {
     display: inline-block;
+    margin-bottom: 0.5em;
   }
 
   // GN TODO: ugly! we should be using Bulma's .buttons & .is-right instead.
