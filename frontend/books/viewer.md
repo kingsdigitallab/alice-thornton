@@ -3,21 +3,35 @@ title: Digital Edition
 isContentHTML: true
 ---
 
-{% comment %}
+{% if metadata.environment == 'lcl' %}
 {% raw %}
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
 
 <div id="openseadragon1" style="width: 800px; height: 600px;"></div>
 <script type="text/javascript">
     var viewer = OpenSeadragon({
         id: "openseadragon1",
-        prefixUrl: "/openseadragon/images/",
-        tileSources: "/assets/img/books/viewer/p.1.jpg"
+        prefixUrl: "/assets/node_modules/openseadragon/build/openseadragon/images/",
+        // tileSources: {
+        //   type: 'image',
+        //   url: "/assets/img/books/viewer/i1p.1.jpg"
+        // },
+        tileSources: [{
+            //required	
+            type:       "zoomifytileservice",
+            width:      5391,
+            height:     3612,
+            tilesUrl:   "/assets/img/books/viewer/zoomify/GB-0033-CCOM_38-i/",
+            //optional
+            tileSize: 256,
+            fileFormat: 'jpg'	
+        }]        
     });
 </script>
 
 {% endraw %}
-{% endcomment %}
+{% endif %}
 
 {% raw %}
 
