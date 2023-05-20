@@ -48,7 +48,8 @@ module.exports = function () {
 
   if (environment == "lcl") {
     ret["text_viewer"]["source"] = {
-      "http://localhost:3000": "AT DTS (local:3000)",
+      // "http://localhost:3000": "AT DTS (local:3000)",
+      "http://192.168.0.48:3000": "AT DTS (local:3000)",
     };
   }
 

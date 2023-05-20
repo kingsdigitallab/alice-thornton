@@ -3,6 +3,22 @@ title: Digital Edition
 isContentHTML: true
 ---
 
+{% comment %}
+{% raw %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
+
+<div id="openseadragon1" style="width: 800px; height: 600px;"></div>
+<script type="text/javascript">
+    var viewer = OpenSeadragon({
+        id: "openseadragon1",
+        prefixUrl: "/openseadragon/images/",
+        tileSources: "/assets/img/books/viewer/p.1.jpg"
+    });
+</script>
+
+{% endraw %}
+{% endcomment %}
+
 {% raw %}
 
 <div id="text-viewer" class="text-viewer columns">

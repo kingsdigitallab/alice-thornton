@@ -280,43 +280,32 @@ $render-add-with-arrow: false;
     }
   }
 
-  // notes
-  // .tei-anchor {
-  //   position: relative;
-
-  //   &:before {
-  //     content: "\01F5C8";
-  //     font-size: 1.5em;
-  //     padding: 0.2em;
-  //   }
-
-  //   .tei-note {
-  //     // display: none;
-  //     position: absolute;
-  //     background: white;
-  //     padding: 0.5em;
-  //     width: 25em;
-  //     bottom: 1em;
-
-  //     @include popover;
-  //   }
-
-  //   &.expanded .tei-note {
-  //     display: inline-block;
-  //   }
-  // }
-
   .tei-anchor {
-    &:before {
-      content: "\01F5C8";
-      font-size: 1.5em;
-      padding: 0.2em;
+    // &:before {
+    //   content: "\01F5C8";
+    //   font-size: 1.5em;
+    //   padding: 0.2em;
+    // }
+
+    .note-symbol {
+      padding-left: 0.2em;
+      color: $primary;
+      // font-weight: bold;
+    }
+
+    &.tei-type-event {
+      // TODO: unhide once even entities are made available
+      display: none;
     }
   }
 
   .has-info-box {
     position: relative;
     border-bottom: 4px dotted lightblue;
+
+    &.tei-anchor {
+      border-bottom: none;
+    }
 
     &:hover {
       border-bottom-style: solid;
@@ -340,7 +329,7 @@ $render-add-with-arrow: false;
     max-width: 20em;
     background-color: white;
     // to counter cursive set by monogram on R.1
-    font-family: initial;
+    // font-family: initial;
 
     span {
       line-height: 1.5em;
@@ -354,8 +343,10 @@ $render-add-with-arrow: false;
     }
 
     .body {
-      display: inline-block;
+      display: block;
       padding: 0.5em;
+      // to prevent long uris from overflowing the popover
+      overflow-wrap: break-word;
     }
   }
 }
