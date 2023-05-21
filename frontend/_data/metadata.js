@@ -54,6 +54,11 @@ module.exports = function () {
   }
 
   if (["stg", "liv"].includes(environment)) {
+    ret["text_viewer"]["source"] = {};
+    ret["text_viewer"]["source"][
+      `https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts-${environment}/dts.json`
+    ] = "Static DTS";
+
     ret["text_viewer"]["visible_documents"] = {
       book_of_remembrances: [1, 20],
       book_one: [],
