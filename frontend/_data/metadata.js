@@ -52,13 +52,20 @@ module.exports = function () {
       "http://192.168.0.48:3000": "AT DTS (local:3000)",
     };
   }
+  if (environment == "stg") {
+    ret["text_viewer"]["source"] = {
+      "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/e2023.05.21/dts.json":
+        "AT DTS (stg)",
+    };
+  }
+  if (environment == "liv") {
+    ret["text_viewer"]["source"] = {
+      "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/e2023.05.21/dts.json":
+        "AT DTS (liv)",
+    };
+  }
 
   if (["stg", "liv"].includes(environment)) {
-    ret["text_viewer"]["source"] = {};
-    ret["text_viewer"]["source"][
-      `https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts-${environment}/dts.json`
-    ] = "Static DTS";
-
     ret["text_viewer"]["visible_documents"] = {
       book_of_remembrances: [1, 20],
       book_one: [],
