@@ -28,6 +28,23 @@ $render-add-with-arrow: false;
 
 // -------------------------------------------------
 
+@media screen and (min-width: 800px) {
+  .modal-card {
+    width: 800px;
+  }
+}
+
+.modal-card-title {
+  flex-shrink: unset;
+}
+
+.modal-card-foot {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+// -------------------------------------------------
+
 #text-viewer .panel-chunk {
   border-top: 1px solid lightgrey;
   background-color: white;

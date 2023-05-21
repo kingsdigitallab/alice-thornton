@@ -32,6 +32,10 @@ function setUpTextViewer() {
         settings: {
           hiddenControls: [], //["source", "collection"],
         },
+        image: {
+          title: "",
+          description: "",
+        },
         controls: {
           source: "Source",
           collection: "Collection",
@@ -314,11 +318,12 @@ function setUpTextViewer() {
           btnFigures.forEach((btn) => {
             if (btn.classList.contains("managed")) return;
             const figure = btn.parentNode.querySelector("figure");
-            for (let element of [btn, figure]) {
+            for (let element of [btn]) {
               element.addEventListener(
                 "click",
                 () => {
-                  figure.classList.toggle("hidden");
+                  // figure.classList.toggle("hidden");
+                  this.onClickImageIcon(figure);
                 },
                 false
               );
@@ -411,6 +416,52 @@ function setUpTextViewer() {
           panel.loaded ? "loaded" : ""
         }`;
         return ret;
+      },
+      onClickImageIcon(figure) {
+        let figcaption = figure.querySelector("figcaption");
+        let img = figure.querySelector("img");
+        let description = "";
+        for (let child of figure.querySelectorAll("p")) {
+          description += child.outerHTML;
+        }
+        let zoomifyUrl = img.getAttribute("data-src").replace(/\.[^.]+$/, "");
+        zoomifyUrl = `/assets/img/books/viewer/zoomify/${zoomifyUrl}/`;
+        this.openImageModal(
+          zoomifyUrl,
+          img.getAttribute("data-width"),
+          img.getAttribute("data-height"),
+          figcaption.textContent,
+          description
+        );
+      },
+      onClickCloseImageModal() {
+        this.image.title = "";
+      },
+      openImageModal(zoomifyUrl, width, height, title, description) {
+        this.image.title = title;
+        this.image.description = description;
+        let tileSources = [
+          {
+            //required
+            type: "zoomifytileservice",
+            width: Number(width),
+            height: Number(height),
+            tilesUrl: zoomifyUrl, // "/assets/img/books/viewer/zoomify/GB-0033-CCOM_38-i/",
+            //optional
+            tileSize: 256,
+            fileFormat: "jpg",
+          },
+        ];
+        if (!this.imageViewer) {
+          this.imageViewer = window.OpenSeadragon({
+            id: "image-viewer",
+            prefixUrl:
+              "/assets/node_modules/openseadragon/build/openseadragon/images/",
+            tileSources: tileSources,
+          });
+        } else {
+          this.imageViewer.open(tileSources);
+        }
       },
     },
   });

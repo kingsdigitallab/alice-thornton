@@ -3,39 +3,26 @@ title: Digital Edition
 isContentHTML: true
 ---
 
-{% if metadata.environment == 'lcl' %}
-{% raw %}
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
-
-<div id="openseadragon1" style="width: 800px; height: 600px;"></div>
-<script type="text/javascript">
-    var viewer = OpenSeadragon({
-        id: "openseadragon1",
-        prefixUrl: "/assets/node_modules/openseadragon/build/openseadragon/images/",
-        // tileSources: {
-        //   type: 'image',
-        //   url: "/assets/img/books/viewer/i1p.1.jpg"
-        // },
-        tileSources: [{
-            //required	
-            type:       "zoomifytileservice",
-            width:      5391,
-            height:     3612,
-            tilesUrl:   "/assets/img/books/viewer/zoomify/GB-0033-CCOM_38-i/",
-            //optional
-            tileSize: 256,
-            fileFormat: 'jpg'	
-        }]        
-    });
-</script>
-
-{% endraw %}
-{% endif %}
-
 {% raw %}
 
 <div id="text-viewer" class="text-viewer columns">
+
+  <div id="image-modal" :class="{'modal': true, 'is-active': !!image.title}">
+    <div class="modal-background" @click="onClickCloseImageModal"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">{{ image.title }}</p>
+        <button class="delete" aria-label="close" @click="onClickCloseImageModal"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="image-viewer" style="width: 100%; height: 50vh">
+        </div>
+      </section>
+      <footer class="modal-card-foot" v-html="image.description">
+      </footer>
+    </div>
+  </div>
+
   <nav v-for="(panel, panelIdx) in panels" class="panel column buttons">
     <p class="panel-heading">
       <panel-control :panel-idx="panelIdx" control-key="document" hide-label="1"></panel-control>
@@ -93,3 +80,5 @@ isContentHTML: true
 <script src="/assets/node_modules/vue/dist/vue.global.js"></script>
 <script src="/assets/node_modules/kdl-dts-client/index.js?ts={{ "now" | date: "%s" }}"></script>
 <script src="/assets/js/text-viewer.js?ts={{ "now" | date: "%s" }}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
