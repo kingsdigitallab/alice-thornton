@@ -19,11 +19,10 @@ The web site is developed using a Static Site Generator called [11ty](https://ww
 ## Edition
 
 - [The TEI editions of the books](https://github.com/kingsdigitallab/alice-thornton/tree/edition) are kept in the `edition` branch
-- [The HTML chunks](https://github.com/kingsdigitallab/alice-thornton/tree/dts) are generated from the TEI editions every day at 1pm & 6pm and saved into the `dts` branch
+- [The HTML chunks](https://github.com/kingsdigitallab/alice-thornton/tree/dts) are generated from the TEI editions every day at 1pm & 6pm and saved into the `dts` branch (Use [github action](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/publish-tei.yml) or `npm run tei2html` to run it manually.)
 - The [Text Viewer](https://thornton-stg.kdl.kcl.ac.uk/books/viewer/) reads HTML chunks from the `dts` branch
 - The [development site](https://thornton-dev.kdl.kcl.ac.uk/books/viewer/) shows the latest HTML chunks
-- Snapshots of the `dts` branch will be manually tagged with incremental version numbers (e.g. e0.1.0)
-- The version numbers will be used to control what is released to the staging and live sites
+- Snapshots of the `dts` branch will be manually tagged with following format: 'eYYYY-MM-DD', example 'e2023-05-23'
 
 ## Developing the DTS server
 
@@ -36,26 +35,4 @@ To edit the code of the DTS server locally while testing it with the AT Text Vie
 
 `export SITE_ENV='dev'; npm run rebuild`
 
-## Version numbering of the edition
 
-Suggested format of the version based on the [Semantic Versioning standard](https://semver.org/):
-
-`eX.Y.Z`
-
-Where:
-
-- "e": is just a prefix standing for "edition" (as opposed to the software)
-- X, Y & Z are numbers
-- X: incremented only for major releases or when breaking changes are introduced (e.g. radical change to the structure of the TEI documents, or ID schemes)
-- Y: incremented each time text or markup is added or improved
-- Z: for minor patches/corrections
-- Note that each time a number is incremented, the ones on its right are reset to 0
-- Also note that number can go above 9 (e.g. e1.12.2)
-
-The initial version is e0.1.0. First release of the edition to the public site will be 1.0.0. The release of a new book or chapter to the public would increase the middle number. Correction of mistakes increase the last number.
-
-Analogy:
-
-- X is for the new edition of a book
-- Y is for adding a new chapter to a draft
-- Z is for spelling corrections
