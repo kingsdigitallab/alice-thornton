@@ -624,7 +624,7 @@
            
         <!-- NOTE [structure] Change in appearance here might suggest that this was intended as the beginning of body text. But in fact this section is still preface; the same passage in B1 is titled Preface and more obviously part of the front matter. So it's included in <front. -->
          
-         <!-- NOTE [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure it adds any useful info to do it every time.  -->
+         <!-- Q revise this? since the edition is very per-page. [dates] years in headers have been tagged as dates, but have only added @when attribute to the *first* instance of a header year, since these can be repeated several times and I'm not sure it adds any useful info to do it every time.  -->
            
          <fw>
             <fw type="pageNum">9</fw>
@@ -690,7 +690,8 @@
        <div xml:id="div-009" rend="post(rule_short_right)">
          <fw>
            <fw xml:id="mnote-0001" place="left margin">
-             <g ref="#u8284">⁜</g><anchor corresp="#ednote-0013" type="text" resp="ednote"/><!-- NOTE [unicode] dotted cross symbol -->
+             <g ref="#u8284">⁜</g><anchor corresp="#ednote-0013" type="text" resp="ednote"/>
+             <!-- NOTE [unicode] dotted cross symbol -->
              <!-- Q [tei] metamark? this is rather like the signe de renvoi at the same place in book 1... but it's missing the matching symbol at the end (div 097), and the added text here. link it to div 097 anyway? honestly, alice.  -->
            </fw> 
             <fw type="head" rend="underline">
@@ -781,7 +782,7 @@
           <w norm="raised" type="l">Raised</w> me <w norm="soon">soone</w> to <rs ref="ppl:cw1 ppl:aow1" type="group">my <w norm="parents" type="l">Parents</w></rs> again<supplied reason="mod">.</supplied><lb/>
           <quote xml:id="q-003" type="paraphrase" source="#BCP_Psalter_Psalm103:22 #BCP_Psalter_Psalm100:3"><w norm="Oh">O</w><supplied reason="mod">,</supplied> <w norm="let">lett</w> me <w norm="speak">speake</w> good of the name of<lb/>
             the Lord</quote> <w norm="and">&amp;</w> <quote xml:id="q-004" type="paraphrase" source="#_Psalms_34:3"><w norm="magnify">magnifie</w> his <w norm="goodness">goodnesse</w> for<lb/>
-              <w norm="myself">my selfe</w> <w norm="and">&amp;</w> <rs ref="ppl:cw2" n="per18" type="person">my <w norm="brother" type="l">Brother</w></rs></quote>. <!-- ST another (unusual?) form of citation, KJV slightly different from GB and BCP, but AT combines both versions?--></p>
+              <w norm="myself">my selfe</w> <w norm="and">&amp;</w> <rs ref="ppl:cw2" n="per18" type="person">my <w norm="brother" type="l">Brother</w></rs></quote>. <!-- NOTE [bibl] ST another (unusual?) form of citation, KJV slightly different from GB and BCP, but AT combines both versions?--></p>
          </div>
             <pb xml:id="page-015" n="15"/>
 
@@ -806,7 +807,7 @@
           <w norm="and">&amp;</w> all therein<surplus reason="superfluous">.</surplus> contained<supplied reason="mod">,</supplied> upon the<lb/>
           <w norm="reading" type="l">Reading</w> of my daily <w norm="psalms">Psalmes</w> for the<lb/>
           months<supplied reason="mod">,</supplied><anchor corresp="#ednote-0018" type="context" resp="ednote"/> which <w norm="happened">hapened</w> that day to be <ref type="biblical" source="#GB_Psalms_147:4"> <w norm="Psalm">Psal</w><lb/>
-            147 <w norm="verse">verce</w> the 4<hi rend="superscript">th</hi><supplied reason="mod">:</supplied> <!-- TBD [bibl] ref using "verse" in full. this was not quite decided, will need to go back to ST later --></ref><lb/>
+            147 <w norm="verse">verce</w> the 4<hi rend="superscript">th</hi><supplied reason="mod">:</supplied> <!-- Q [bibl] ref using "verse" in full. was this decided? --></ref><lb/>
          
        <!-- NOTE removed p p-0013-->
           <quote xml:id="q-005" type="direct" source="#GB_Psalms_147:4">He <w type="archaism">counteth</w> the <w norm="stars">Starres</w> <w norm="and">&amp;</w> <w norm="calleth">caleth</w><lb/>
@@ -1025,8 +1026,8 @@
         <div xml:id="div-015">       
          <p xml:id="p-0018">
            <milestone n="ev9" unit="event"/>
-            <fw xml:id="mnote-0002" type="header" place="left margin"><date when-custom="1638">38</date><surplus reason="superfluous">.</surplus></fw><!-- NOTE had 2 full stops here I think because it originally read :. deleted the second one.  --> 
-           About the time I was <w norm="twelve">12</w> <!-- TBD will need to check decision on numbers for ages. --> years old<pc norm=",">.</pc> I<lb/>
+            <fw xml:id="mnote-0002" type="header" place="left margin"><date when-custom="1638">38</date><surplus reason="superfluous">.</surplus></fw><!-- NOTE had 2 full stops here - it originally read :. deleted the second one.  --> 
+           About the time I was <w norm="twelve">12</w> <!-- TBD ? check decision on numbers for ages. --> years old<pc norm=",">.</pc> I<lb/>
           was reading of the great <w norm="wisdom">wisdome</w> of<lb/>
            our <w norm="saviour">Saviour</w> <quote xml:id="q-012" type="allusion" source="#_Luke_2:41-52">in the <w norm="Gospel">Gospell</w><supplied reason="mod">,</supplied> where he<lb/>
              was disputing with the <w norm="doctors" type="l">Doctors</w> with so much<lb/>
@@ -1071,7 +1072,7 @@
            great <w norm="and">&amp;</w> <w norm="terrible">terable</w> <choice><sic>Sorme</sic><corr>storm</corr></choice>
                <!-- [endnote] Sic for 'Storme'. ednote 0030 -->
              in <geogName ref="place:Nest_122" n="geog1"><w norm="Neston">nesston</w><lb/>
-               water</geogName><supplied reason="mod">,</supplied><!-- NOTE [place] I think new geogname "Neston Water" rather than placename (Neston: Nest_040) --> where there was <w norm="five">5</w> ships cast<lb/>
+               water</geogName><supplied reason="mod">,</supplied><!-- NOTE [place] new geogname "Neston Water" rather than placename (Neston: Nest_040) --> where there was <w norm="five">5</w> ships cast<lb/>
            away before we <w norm="took">tooke</w> ship. <w norm="But" type="u">but</w> the<lb/>
            same great God that <w type="archaism">maketh</w> the <choice><sic>stomes</sic><corr>storms</corr></choice>
                <!-- [endnote] [sic] stormes? ednote 0031 -->
@@ -1080,10 +1081,10 @@
           to <w norm="cease">seace</w> brought us <w norm="safely">safly</w> out of that<lb/>
            <w norm="storm">storme</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> <w norm="carried">caried</w> us well to the <w norm="land" type="l">Land</w><supplied reason="mod">,</supplied><lb/>
           though in great fright <w norm="and">&amp;</w> much<lb/>
-           <w norm="distress">distresse</w>.<anchor n="ev11" type="event"/> <quote xml:id="q-013" type="paraphrase" source="#_Psalms_146:2">I praise the Lord</quote><!-- ST The phrase here is the same in KJV and GB but not BCP --><surplus reason="superfluous">.</surplus> who brought<lb/>
-           my <w norm="soul">soule</w> <quote xml:id="q-014" type="phrase" source="#_Psalms_69:14">out of the <w norm="deep">deepe</w> waters</quote><!-- ST The phrase here is the same in KJV and GB but not BCP --> <w norm="and">&amp;</w><lb/>
+           <w norm="distress">distresse</w>.<anchor n="ev11" type="event"/> <quote xml:id="q-013" type="paraphrase" source="#_Psalms_146:2">I praise the Lord</quote><!-- NOTE [bibl] ST The phrase here is the same in KJV and GB but not BCP --><surplus reason="superfluous">.</surplus> who brought<lb/>
+           my <w norm="soul">soule</w> <quote xml:id="q-014" type="phrase" source="#_Psalms_69:14">out of the <w norm="deep">deepe</w> waters</quote><!-- NOTE [bibl] ST The phrase here is the same in KJV and GB but not BCP --> <w norm="and">&amp;</w><lb/>
            <w norm="fathomless">fathomlesse</w> <w norm="gulf">gulfe</w> of waters. <quote xml:id="q-015" type="paraphrase" source="#_Psalms_145:21"><w norm="Praise" type="u">praise</w><lb/>
-             his holy name for ever <w norm="and">&amp;</w> for ever</quote><supplied reason="mod">.</supplied> Amen<supplied reason="mod">.</supplied> <!-- ST This quotation is the same in all three. [NB "for ever" not mod here.] --></p>
+             his holy name for ever <w norm="and">&amp;</w> for ever</quote><supplied reason="mod">.</supplied> Amen<supplied reason="mod">.</supplied> <!-- NOTE [bibl] ST This quotation is the same in all three. [NB "for ever" not mod here.] --></p>
          
         
         <!-- NOTE [marker] added to p rather than milestone because there is a slight break here but hmm. -->
@@ -1094,7 +1095,7 @@
           cable had like to have <w norm="pulled">puld</w> me into<lb/>
           the sea but for <rs type="person">a ship man</rs> that saved<lb/>
            me as I was <w norm="half">halfe</w> over.<anchor n="ev12" type="event"/> <quote xml:id="q-016" type="direct" source="#_Psalms_103:2"><w norm="Bless">blesse</w> the Lord<supplied reason="mod">,</supplied><lb/>
-             <w norm="O" type="u">o</w> my <w norm="soul">soule</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> forget not</quote> the <w norm="deliverance">deliveranc</w><supplied reason="mod">.</supplied><!-- Q is "deliverance" really intended to be outside the quote tag here? ST - Yes, and shoulod also exclude 'the' - AT changes 'forget not all his benefits' -->
+             <w norm="O" type="u">o</w> my <w norm="soul">soule</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> forget not</quote> the <w norm="deliverance">deliveranc</w><supplied reason="mod">.</supplied><!-- NOTE is "deliverance" really intended to be outside the quote tag here? ST - Yes, and shoulod also exclude 'the' - AT changes 'forget not all his benefits' -->
            <!-- NOTE <anchor corresp="#ednote-0032" resp="ednote" type="context"/>--><lb/>
             Amen. </p>
         
@@ -5200,7 +5201,7 @@
           <w norm="blazed">blased</w> abroad by <persName ref="ppl:mb1" n="per287"><w norm="Mary" type="u">mary</w> Breaks</persName> &amp; lies<lb/>
           against my <w norm="innocent" type="l">Innocent</w> <w norm="soul">Soule</w><supplied reason="mod">.</supplied> <rs ref="ppl:acd1" n="per288" type="person"><add place="above"><w norm="This" type="u">this</w></add> woman</rs><supplied reason="mod">,</supplied><lb/>
           full of <w norm="deep">deepe</w> <w norm="dissembling">dissemblnig</w> &amp; <w norm="hypocrisy">hipocricey</w><surplus reason="superfluous">-</surplus><lb/>
-          <surplus reason="superfluous">-</surplus><supplied reason="mod">, </supplied>who could <add place="above">not</add> <w norm="prevail">prevaile</w> with her <w norm="design">designe</w> <w norm="upon" type="break">up<lb break="no"/>
+          <surplus reason="superfluous">-</surplus><supplied reason="mod">,</supplied> who could <add place="above">not</add> <w norm="prevail">prevaile</w> with her <w norm="design">designe</w> <w norm="upon" type="break">up<lb break="no"/>
            -pon</w> the <w norm="person" type="l">Person</w> of <persName ref="ppl:tc1" n="per289">Mr C<ex>ombe</ex>r</persName> to have <w norm="drawn">drawne</w><lb/>
           him for marriage<pc norm=";">.</pc> &amp; failing of that end<supplied reason="mod">,</supplied><lb/>
            <del xml:id="ex-del-double-08" rend="doublestrikethrough">did</del> <w norm="perverted">pervanted</w> her <w norm="plausible">plaucible</w> carriage into<lb/>
