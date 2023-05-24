@@ -54,13 +54,13 @@ module.exports = function () {
   }
   if (environment == "stg") {
     ret["text_viewer"]["source"] = {
-      "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/e2023.05.21/dts.json":
+      "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts-stg/dts.json":
         "AT DTS (stg)",
     };
   }
   if (environment == "liv") {
     ret["text_viewer"]["source"] = {
-      "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/e2023.05.21/dts.json":
+      "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts-liv/dts.json":
         "AT DTS (liv)",
     };
   }
