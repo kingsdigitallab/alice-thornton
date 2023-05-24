@@ -23,7 +23,10 @@ $render-add-with-arrow: false;
   z-index: 10;
   font-size: 1rem;
   text-align: left;
-  font-weight: normal;
+  // TODO: CHANGE Noto to another, more reliable font.
+  // BUG in Noto Sans, font-weight: 400/normal will render in italics!
+  // font-weight: normal;
+  font-weight: 450;
 }
 
 // -------------------------------------------------
