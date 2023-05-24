@@ -158,6 +158,10 @@ $render-add-with-arrow: false;
     line-height: 2.5em;
   }
 
+  span[data-tei-rend~="italic"] {
+    font-style: italic;
+  }
+
   &.view-semidip {
     // http://localhost:8080/books/viewer/?&p0.lo=p.5
     @if ($render-add-with-arrow) {
