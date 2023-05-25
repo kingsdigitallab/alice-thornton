@@ -12,7 +12,9 @@ In collaboration with our magnificent partners at Kings Digital Lab, we are deli
 
 As it is only an initial release of a small sample of one book, some of the functionality that we aim to include in the final version is not yet fully operable. 
 
-However, as the images below demonstrate, in this version you can view the texts in either modernised or semi-diplomatic format:![An image of the digital edition as it looks on the website.]({{"/assets/img/posts/partial_release_1.jpg" | url}} "A page of modernised text from the digital edition."){.media-left}
+However, as the images below demonstrate, in this version you can view the texts in either modernised or semi-diplomatic format:
+
+![An image of the digital edition as it looks on the website.]({{"/assets/img/posts/partial_release_1.jpg" | url}} "A page of modernised text from the digital edition."){.media-left}
 
 
 ![An image of the digital edition as it looks on the website.]({{"/assets/img/posts/partial_release_2.jpg" | url}} "A page of semidiplomatic text from the digital edition."){.media-right}
