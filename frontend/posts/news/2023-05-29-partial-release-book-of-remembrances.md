@@ -14,13 +14,13 @@ As it is only an initial release of a small sample of one book, some of the func
 
 However, as the images below demonstrate, in this version you can view the texts in either modernised or semi-diplomatic format:
 
-![An image of the digital edition as it looks on the website]({{"assets/img/posts/partial_release_1.jpg" | url}} "A page of modernised text from the digital edition.")
+![An image of the digital edition as it looks on the website]({{"assets/img/posts/partial_release_1.jpg" | url}} "A page of modernised text from the digital edition."){.media-left}
 
-![An image of the digital edition as it looks on the website ]({{"assets/img/posts/partial_release_2.jpg" | url}} "A page of semidiplomatic text from the digital edition")
+![An image of the digital edition as it looks on the website ]({{"assets/img/posts/partial_release_2.jpg" | url}} "A page of semidiplomatic text from the digital edition."){.media-right}
 
 Or, by clicking on the button marked ‘clone’ – you can compare versions side by side:
 
-![An image of the digital edition as it looks on the website, with semidiplomatic and modernist text side by side]({{"assets/img/posts/partial_release_3.jpg" | url}} "Semidiplomatic and modernised texts side by side on the website")
+![An image of the digital edition as it looks on the website, with semidiplomatic and modernist text side by side]({{"assets/img/posts/partial_release_3.jpg" | url}} "Semidiplomatic and modernised texts side by side on the website."){.media-centre}
 
 For more information on current functionality - including tagging, annotations, images and editorial principles — please see our latest blog: *Book of Remembrances: Further Information about the Partial Release*.
 
