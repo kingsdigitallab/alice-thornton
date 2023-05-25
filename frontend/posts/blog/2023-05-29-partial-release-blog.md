@@ -48,7 +48,7 @@ There are currently two different types of annotation: contextual, as illustrate
 
 ## Images 
 
-Although permissions costs prohibit the reproduction of individual images of every page of the manuscripts, we plan to include five images from each volume to provide a sense of their materiality. This sample includes two images (with the kind permission of the Chapter of Durham Cathedral), and their presence is indicated by a camera icon at the top left of the viewing page. 
+Although we are not in a position to reproduce individual images of every page of the manuscripts, we plan to include five images from each volume to provide a sense of their materiality. This sample includes two images (with the kind permission of the Chapter of Durham Cathedral), and their presence is indicated by a camera icon at the top left of the viewing page. 
 
 ## Editorial Principles
 
