@@ -1,5 +1,14 @@
 ---
 title: Digital Edition
+authors:
+  - cbeattie
+  - strill
+  - jedge
+  - showard
+  - pcaton
+  - gferraro
+  - tong
+  - gnoel
 isContentHTML: true
 ---
 
@@ -11,7 +20,7 @@ isContentHTML: true
     <div class="modal-background" @click="onClickCloseImageModal"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">{{ image.title }}</p>
+        <p class="modal-card-title" v-html="image.title"></p>
         <button class="delete" aria-label="close" @click="onClickCloseImageModal"></button>
       </header>
       <section class="modal-card-body">
