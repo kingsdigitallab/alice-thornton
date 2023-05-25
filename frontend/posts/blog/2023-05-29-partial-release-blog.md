@@ -58,7 +58,7 @@ The modernised version is intended to make Thornton’s writing as accessible as
 
 With the exception of regularising u/v, i/j and the long s, the semi-diplomatic version retains Thornton’s own spelling, punctuation, and layout as far as possible. This includes indicating on the page where a word or phrase has been inserted (by placing it in superscript) or has been deleted by crossing out. It also means that there are several occasions where part of a word, at the beginning or end of a line, may contain an unexpected hyphen.
 
-Thornton is writing pre-standardised English, so, her original spelling can seem somewhat erratic to a modern reader. However, please rest assured that these are not transcription errors; instead, we have retained her practice as it is of interest to those who study historical linguistics.
+Thornton is writing pre-standardised English, so her original spelling can seem somewhat erratic to a modern reader. However, please rest assured that these are not transcription errors; instead, we have retained her practice as it is of interest to those who study historical linguistics.
 
 As it is possible to compare the modernised text with the semi-diplomatic version, for now, we have not drawn attention to the changes we have made in the modernised version. However, in due course, we will publish our editorial principles for both versions of the text in full.
 
@@ -70,6 +70,6 @@ In addition, there are two main areas that need further development: the search 
 
 So, for now, you are unable to search the full text. Although there are brief notes on people and places, and biblical references are currently supplied, the further information that is contained in the linked data is not yet available.
 
-So, this is very much a work-in-progress; however, we very much hope you like what you see, and we look forward to your feedback. Please email us on alicethorntonsbooks@gmail.com with your thoughts!
+So, this is very much a work-in-progress; however, we very much hope you like what you see, and we look forward to your feedback. Please email us on alicethorntonsbooks@gmail.com with your thoughts.
 
 
