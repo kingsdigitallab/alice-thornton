@@ -27,5 +27,5 @@ Or, by clicking on the button marked ‘clone’ – you can compare versions si
 
 For more information on current functionality - including tagging, annotations, images and editorial principles - please see our blog: ['Book of Remembrances: Further Information about the Partial Release'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-05-29-partial-release-blog/).
 
-We very much hope you like what you see, and we look forward to your feedback. Email alicethorntonsbooks@gmail.com with your comments!
+We very much hope you like what you see, and we look forward to your feedback. Email alicethorntonsbooks@gmail.com with your comments.
 
