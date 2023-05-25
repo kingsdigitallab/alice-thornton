@@ -22,7 +22,7 @@ However, as the images below demonstrate, in this version you can view the texts
 
 Or, by clicking on the button marked ‘clone’ – you can compare versions side by side:
 
-![An image of the digital edition as it looks on the website, with semidiplomatic and modernist text side by side.]({{"/assets/img/posts/partial_release_3.jpg" | url}} "Semidiplomatic and modernised texts side by side on the website."){.media-center}
+![An image of the digital edition as it looks on the website, with semidiplomatic and modernist text side by side.]({{"/assets/img/posts/partial_release_3.jpg" | url}} "Semidiplomatic and modernised texts side by side on the website.")
 
 For more information on current functionality - including tagging, annotations, images and editorial principles — please see our latest blog: *Book of Remembrances: Further Information about the Partial Release*.
 
