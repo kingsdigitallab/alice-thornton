@@ -7,5 +7,5 @@ affiliation: King's College London
 department: King's Digital Lab
 order: 14
 teams:
-  - sdt
+  - none
 ---
