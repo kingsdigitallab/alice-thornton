@@ -69,7 +69,7 @@ module.exports = function () {
 
   if (["stg", "liv"].includes(environment)) {
     ret["text_viewer"]["visible_documents"] = {
-      book_of_remembrances: [1, 20],
+      book_of_remembrances: [1, 22],
       book_one: [],
       book_two: [],
       book_three: [],
