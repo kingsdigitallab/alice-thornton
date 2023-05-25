@@ -14,10 +14,10 @@ As it is only an initial release of a small sample of one book, some of the func
 
 However, as the images below demonstrate, in this version you can view the texts in either modernised or semi-diplomatic format:
 
-![An image of the digital edition as it looks on the website.]({{"/assets/img/posts/partial_release_1.jpg" | url}} "A page of modernised text from the digital edition.")
+![An image of the digital edition as it looks on the website.]({{"/assets/img/posts/partial_release_1.jpg" | url}} "A page of semi-diplomatic text from the digital edition.")
 
 
-![An image of the digital edition as it looks on the website.]({{"/assets/img/posts/partial_release_2.jpg" | url}} "A page of semidiplomatic text from the digital edition.")
+![An image of the digital edition as it looks on the website.]({{"/assets/img/posts/partial_release_2.jpg" | url}} "A page of modernised text from the digital edition.")
 
 
 Or, by clicking on the button marked ‘clone’ – you can compare versions side by side:
