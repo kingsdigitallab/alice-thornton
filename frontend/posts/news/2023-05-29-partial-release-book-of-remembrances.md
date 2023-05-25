@@ -9,7 +9,7 @@ tags:
   - TEI
 ---
 
-In collaboration with our magnificent partners at [King's Digital Lab](https://thornton.kdl.kcl.ac.uk/about/), we are delighted to announce that we have transformed the first twenty-two pages of our text-encoded files of Alice Thornton’s *Book of Remembrances* into a sample version of our digital edition. 
+In collaboration with our magnificent partners at [King's Digital Lab](https://thornton.kdl.kcl.ac.uk/about/), we are delighted to announce that we have transformed the first twenty-two pages of our text-encoded files of Alice Thornton’s *Book of Remembrances* into a [sample version](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=l1) of our digital edition. 
 
 As it is only an initial release of a small sample of one book, some of the functionality that we aim to include in the final version is not yet fully operable. 
 

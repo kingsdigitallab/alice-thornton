@@ -12,7 +12,7 @@ tags:
 
 Our ultimate aim with this project is to produce an interactive and fully searchable edition of all four of Alice Thornton’s Books that will be available to read in both modernised and semi-diplomatic versions, either separately or side-by side.
 
-As one of the steps toward meeting that goal — in collaboration with our partners at [King’s Digital Lab](https://thornton.kdl.kcl.ac.uk/about/) — we have transformed the first twenty-two pages of our text-encoded files of Alice Thornton’s Book of Remembrances into a sample version for you to explore. 
+As one of the steps toward meeting that goal — in collaboration with our partners at [King’s Digital Lab](https://thornton.kdl.kcl.ac.uk/about/) — we have transformed the first twenty-two pages of our text-encoded files of Alice Thornton’s Book of Remembrances into a [sample version](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=l1) for you to explore. 
 
 As illustrated in our news item, this version demonstrates how we plan to display the texts and offers the opportunity to view the sample pages in either modernised or semi-diplomatic format, or—by clicking on the button marked ‘clone’—to compare versions side by side.
 
