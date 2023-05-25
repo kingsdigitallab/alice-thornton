@@ -430,7 +430,7 @@ function setUpTextViewer() {
           zoomifyUrl,
           img.getAttribute("data-width"),
           img.getAttribute("data-height"),
-          figcaption.textContent,
+          figcaption.innerHTML,
           description
         );
       },
