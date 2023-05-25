@@ -1,5 +1,14 @@
 ---
 title: Digital Edition
+authors:
+  - cbeattie
+  - strill
+  - jedge
+  - showard
+  - pcaton
+  - gferraro
+  - tong
+  - gnoel
 isContentHTML: true
 ---
 
