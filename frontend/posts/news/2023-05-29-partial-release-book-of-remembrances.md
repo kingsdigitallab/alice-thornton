@@ -1,11 +1,12 @@
 ---
-title: "Digital Edition: Partial Release – the First Twenty-Two Pages of a Book of Remembrances"
+title: "Digital Edition: Partial Release – the First 22 Pages of a Book of Remembrances"
 feature: /assets/img/posts/partial_release_news.jpg
 status: draft
 authors:
   - strill
 tags:
-  - edition
+  - digital edition
+  - TEI
 ---
 
 In collaboration with our magnificent partners at [Kings Digital Lab](https://thornton.kdl.kcl.ac.uk/about/), we are delighted to announce that we have transformed the first twenty-two pages of our text-encoded files of Alice Thornton’s *Book of Remembrances* into a sample version of our digital edition. 
@@ -24,7 +25,7 @@ Or, by clicking on the button marked ‘clone’ – you can compare versions si
 
 ![An image of the digital edition as it looks on the website, with semidiplomatic and modernist text side by side.]({{"/assets/img/posts/partial_release_3.jpg" | url}} "Semidiplomatic and modernised texts side by side on the website.")
 
-For more information on current functionality - including tagging, annotations, images and editorial principles — please see our blog: "Book of Remembrances: Further Information about the Partial Release".
+For more information on current functionality - including tagging, annotations, images and editorial principles - please see our blog: "Book of Remembrances: Further Information about the Partial Release".
 
 We very much hope you like what you see, and we look forward to your feedback.
 
