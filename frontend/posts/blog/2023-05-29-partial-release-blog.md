@@ -60,7 +60,7 @@ With the exception of regularising u/v, i/j and the long s, the semi-diplomatic 
 
 Thornton is writing pre-standardised English, so her original spelling can seem somewhat erratic to a modern reader. However, we have retained her practice in this version as it is of interest to those who study historical linguistics.
 
-As it is possible to compare the modernised text with the semi-diplomatic version, for now, we have not drawn attention to the changes we have made in the modernised version. However, in due course, we will publish our editorial principles for both versions of the text in full.
+As both the modernised and the semi-diplomatic versions of the sample pages are now available, for now, we have not drawn attention to all the changes we have made in the modernised version. However, in due course, we will publish our editorial principles for both versions of the text in full.
 
 ## Under Development
 
