@@ -7,6 +7,7 @@ authors:
   - showard
   - pcaton
   - gferraro
+  - pshah
   - tong
   - gnoel
 isContentHTML: true
