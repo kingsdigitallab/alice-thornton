@@ -31,14 +31,11 @@
     "prettier": "^2.6.2",
     "prettier-plugin-sort-imports": "^1.7.0",
     "simple-git-hooks": "^2.8.0",
-    "vscode-langservers-extracted": "^4.2.1"
+    "vscode-langservers-extracted": "^4.2.1",
+    "watch": "^1.0.2"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
-  },
-  "lint-staged": {
-    "*.js": "npm run format",
-    "*.yaml": "npm run prettier:fix"
   },
   "workspaces": [
     "frontend",
