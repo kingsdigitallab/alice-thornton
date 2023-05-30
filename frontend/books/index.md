@@ -38,7 +38,7 @@ The text of all four manuscript volumes will be available to read in both fully 
 
 Although we are not digitising the manuscripts, we will provide some sample images from each of the volumes to offer a sense of how the original materials looked.
 
-You can now access our [initial release](https://thornton.kdl.kcl.ac.uk/books/viewer/), which demonstrates how the semi-diplomatic and modernised versions of one book can be read separately or side-by-side. It is not yet fully searchable.
+You can now access our [initial release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of 22 pages from one book, in both semi-diplomatic and modernised versions. Side-by-side view and a search facility will be later features.
 
 Please email us - alicethorntonsbooks@gmail.com - with your thoughts.
 
