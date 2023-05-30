@@ -1,7 +1,7 @@
 ---
 title: "Book of Remembrances: Further Information about the Partial Release"
 feature: /assets/img/posts/Book_Rem_dedication.jpg
-status: draft
+status: live
 authors:
   - strill
 tags:

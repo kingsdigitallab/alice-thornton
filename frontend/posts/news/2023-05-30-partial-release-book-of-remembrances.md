@@ -1,7 +1,7 @@
 ---
 title: "Digital Edition: Partial Release (the First 22 Pages of 'A Book of Remembrances')"
 feature: /assets/img/posts/partial_release_news.jpg
-status: draft
+status: live
 authors:
   - strill
 tags:
