@@ -1,5 +1,5 @@
 ---
-title: "Project PI Cordelia Beattie for BL Untold Lives, ‘Bringing up a chicken to peck out their eye’: A niece’s betrayal"
+title: Project PI Cordelia Beattie's blog post for BL Untold Lives
 feature: /assets/img/posts/old_woman_with_a_hen.jpg
 status: draft
 authors:
