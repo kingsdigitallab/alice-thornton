@@ -5,17 +5,129 @@
 // & review from designers before being added back
 // into main.scss.
 
-#text-viewer .panel .content {
-  &.view-modern {
-    // GN: dummy example of TEI customisation for modernised view
-    .tei-type-pageNum:before {
-      content: "page ";
-    }
+@import "color-theme";
 
+// -------------------------------------------------
+// SETTINGS
+
+// if true tei <add> (.tei-add or place="above") is shown as interlinear text with arrow where author inserted it
+// if false it will be shown as superscript
+$render-add-with-arrow: false;
+
+// -------------------------------------------------
+// MIXINS
+
+@mixin popover {
+  border: 3px solid grey;
+  box-shadow: #888 5px 5px 15px 0px;
+  z-index: 10;
+  font-size: 1rem;
+  text-align: left;
+  // TODO: CHANGE Noto to another, more reliable font.
+  // BUG in Noto Sans, font-weight: 400/normal will render in italics!
+  // font-weight: normal;
+  font-weight: 450;
+}
+
+// -------------------------------------------------
+
+@media screen and (min-width: 800px) {
+  .modal-card {
+    width: 800px;
+  }
+}
+
+.modal-card-title {
+  flex-shrink: unset;
+}
+
+.modal-card-foot {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+// -------------------------------------------------
+
+#text-viewer .panel-chunk {
+  border-top: 1px solid lightgrey;
+  background-color: white;
+}
+
+#text-viewer {
+  span[data-tei-rend~="italic"] {
+    font-style: italic;
+  }
+}
+
+// GN: placeholders for customasing the rendering of the editions
+// and the views: view-semidi OR view-modern
+#text-viewer .panel .content {
+  margin-left: 5em;
+  position: relative;
+
+  opacity: 30%;
+
+  &.loaded {
+    opacity: 100%;
+  }
+
+  &.view-modern {
     br {
       display: none;
     }
+    br[data-tei-break="no"] + .tei-pc.not-a-word,
+    .divide-word {
+      display: none;
+    }
+
+    .orig {
+      display: none;
+    }
+
+    .tei-abbr {
+      display: none;
+    }
+
+    .tei-sic {
+      display: none;
+    }
+
+    .tei-surplus {
+      display: none;
+    }
   }
+
+  .tei-surplus:not(.not-a-word) {
+    // TODO: find better style
+    background-color: #fdd;
+    padding: 0.2em;
+  }
+
+  &.view-semidip {
+    .norm {
+      display: none;
+    }
+
+    .tei-expan {
+      display: none;
+    }
+
+    .tei-corr {
+      display: none;
+    }
+  }
+
+  .tei-space[data-tei-unit="page"]:before {
+    content: "[Blank page]";
+  }
+
+  .tei-type-pageNum {
+    display: block;
+  }
+
+  // p {
+  //   margin-left: 3em;
+  // }
 
   &.view-semidip {
     .tei-ex {
@@ -24,9 +136,9 @@
     }
   }
 
-  // shoul be converted into h1
-  .tei-head {
-    font-size: 1.5em;
+  h1,
+  h2,
+  h3 {
     color: inherit;
   }
 
@@ -48,14 +160,66 @@
 
   span {
     // to allow interlinear span within it
-    position: relative;
-    line-height: 2em;
+    // position: relative;
+    line-height: 2.5em;
   }
 
-  *[data-tei-place="above"] {
-    // 1.4.-1.hand
-    position: absolute;
-    top: -1em;
+  span[data-tei-rend~="italic"] {
+    font-style: italic;
+  }
+
+  &.view-semidip {
+    // http://localhost:8080/books/viewer/?&p0.lo=p.5
+    @if ($render-add-with-arrow) {
+      // for tei add: appear as superlinear text above down arrow pointing to insertion point
+      *[data-tei-place="above"] {
+        // 1.4.-1.hand
+        position: absolute;
+        margin-top: -1.2em;
+        // padding-right: 4em;
+        display: inline-block;
+        margin-left: -0.3em;
+
+        &:before {
+          content: "\032C";
+          position: absolute;
+          // top: 0.2em;
+          margin-left: 0.3em;
+          font-size: 150%;
+        }
+      }
+    } @else {
+      *[data-tei-place="above"] {
+        vertical-align: super;
+      }
+    }
+
+    *[data-tei-place~="margin"] {
+      display: inline-block;
+      position: absolute;
+      left: -5em;
+      width: 5em;
+    }
+  }
+
+  *[data-tei-rend="strikethrough"] {
+    text-decoration: line-through;
+  }
+
+  &.view-modern {
+    .tei-quote.tei-type-direct,
+    .tei-quote.tei-type-partial.nomore {
+      &:before,
+      &:after {
+        content: '"';
+      }
+    }
+  }
+
+  &.view-modern {
+    .tei-del {
+      display: none;
+    }
   }
 
   span[data-tei="space"][data-tei-unit="line"] {
@@ -64,5 +228,159 @@
     display: block;
     margin-top: 1em;
     border-bottom: 1px solid black;
+  }
+
+  .tei-figure-wrapper {
+    font-size: 1.5rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  ins {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 2em;
+    // TODO: center in panel, not just text?
+    text-align: center;
+  }
+  h2,
+  .tei-fw.tei-type-head {
+    font-size: 1.6em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+
+    &:before {
+      background: none;
+      display: hidden;
+    }
+  }
+  h3,
+  .tei-fw.tei-type-header {
+    font-size: 1.4em;
+    display: block;
+    text-align: center;
+  }
+
+  .tei-docAuthor {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .tei-type-monogram {
+    font-family: cursive;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline dotted green;
+    text-decoration-thickness: 2px;
+  }
+
+  figure {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 2rem;
+    margin: 2rem;
+    // display: block;
+
+    background: $white;
+
+    max-height: 90vh;
+    max-width: 90vw;
+    height: 90vh;
+
+    @include popover;
+
+    img {
+      display: inline-block;
+      max-width: 90%;
+      max-height: 80%;
+      height: auto;
+    }
+
+    figcaption {
+      font-size: 1.5rem;
+    }
+  }
+
+  .tei-anchor {
+    // &:before {
+    //   content: "\01F5C8";
+    //   font-size: 1.5em;
+    //   padding: 0.2em;
+    // }
+
+    .note-symbol {
+      padding-left: 0.2em;
+      color: $primary;
+      // font-weight: bold;
+    }
+
+    &.tei-type-event {
+      // TODO: unhide once even entities are made available
+      display: none;
+    }
+  }
+
+  .has-info-box {
+    position: relative;
+    border-bottom: 4px dotted lightblue;
+
+    &.tei-anchor {
+      border-bottom: none;
+    }
+
+    &:hover {
+      border-bottom-style: solid;
+      .info-box {
+        display: inline-block;
+      }
+    }
+  }
+
+  // quote
+  .info-box {
+    display: none;
+
+    @include popover;
+
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 120%;
+    width: max-content;
+    max-width: 20em;
+    background-color: white;
+    // to counter cursive set by monogram on R.1
+    // font-family: initial;
+
+    span {
+      line-height: 1.5em;
+    }
+
+    .banner {
+      display: block;
+      padding: 0.5em;
+      background-color: $primary;
+      color: white;
+    }
+
+    .body {
+      display: block;
+      padding: 0.5em;
+      // to prevent long uris from overflowing the popover
+      overflow-wrap: break-word;
+
+      .tei-p {
+        display: block;
+      }
+    }
   }
 }

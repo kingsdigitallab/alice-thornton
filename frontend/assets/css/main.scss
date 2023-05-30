@@ -13,36 +13,7 @@
 // Duotone images color: #8e7860
 
 @import "fonts.scss";
-
-// Project variables
-
-$white: #fbfbfb;
-$primary: #462200;
-// $secondary: #c45300;
-// GF 18/05/2022: changed to a slightly darker orange to meet accessiblity
-// requirements for colour contrast
-$secondary: #b34200;
-
-$accent: #df8833;
-$dark: #0a0a0a;
-$light: #cdcac7;
-
-$link: #0b4d99;
-
-// Panel customisation (see Text Viewer)
-// Bulma's docs: https://bulma.io/documentation/components/panel/
-
-$panel-heading-background-color: $white;
-$panel-heading-size: 1em;
-// $panel-item-border: 1px solid $primary;
-$panel-radius: 0;
-$panel-shadow: 0;
-
-// Box customisation (see citations)
-// Bulma's docs: https://bulma.io/documentation/elements/box/
-
-$box-radius: 0;
-$box-shadow: 0;
+@import "color-theme";
 
 @import "../node_modules/bulma/bulma.sass";
 
@@ -106,28 +77,30 @@ a.tag {
 
 // Shared layout
 
-body { // Exclude the text viewer
-  background: url('/assets/img/last-bg.jpg');
-  
+body {
+  // Exclude the text viewer
+  background: url("/assets/img/last-bg.jpg");
+
   @media screen and (min-width: 1140px) {
-    background: url('/assets/img/last-bg.jpg');
+    background: url("/assets/img/last-bg.jpg");
     background-position: 0 60px;
     background-repeat: repeat-y;
     background-size: 100%;
   }
-  
+
   font-family: "Noto", sans-serif;
   font-size: 18px;
   font-weight: 450;
   line-height: 1.75;
 }
 
-body:not(.slug-viewer) { // Exclude the text viewer
-  background: url('/assets/img/last-bg.jpg');
-  
+body:not(.slug-viewer) {
+  // Exclude the text viewer
+  background: url("/assets/img/last-bg.jpg");
+
   @media screen and (min-width: 1140px) {
     background: url("/assets/img/script-outlined.svg"),
-                url('/assets/img/last-bg.jpg');
+      url("/assets/img/last-bg.jpg");
     background-position: -120px 120px, 0 60px;
     background-repeat: no-repeat, repeat-y;
     background-size: 220px, 100%;
@@ -202,7 +175,7 @@ h3 {
       background-size: 1.5rem;
       content: "";
       display: inline-block;
-      margin-right: .25rem;
+      margin-right: 0.25rem;
       height: 1.5rem;
       width: 1.5rem;
     }
@@ -311,8 +284,7 @@ a.button-hp {
   }
 }
 
-footer,
-.footer {
+body > footer.footer {
   background: url("/assets/img/at-decoration-pattern-1.jpg") left -5px repeat-x lighten($light, 30%);
   background-size: 60px;
 }
@@ -656,6 +628,11 @@ ul.social_media_block {
 .text-viewer {
   padding-bottom: 6rem;
 
+  .unbreakable-control-group {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
   .panel-controls {
     // GN: temporarily hidden
     display: none;
@@ -672,6 +649,7 @@ ul.social_media_block {
 
   .panel-selector {
     display: inline-block;
+    margin-bottom: 0.5em;
   }
 
   // GN TODO: ugly! we should be using Bulma's .buttons & .is-right instead.
@@ -729,13 +707,21 @@ ul.social_media_block {
   }
 }
 
-// GN: placeholders for customasing the rendering of the editions
-// and the views: view-semidi OR view-modern
-#text-viewer .panel .content {
-  &.view-modern {
-    // GN: dummy example of TEI customisation for modernised view
-    .tei-type-pageNum:before {
-      content: "page ";
-    }
-  }
+ul.undecorated-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+// pagination
+
+.pagination-link.is-current {
+  background-color: $secondary;
+  border-color: $secondary;
+}
+
+// Search page
+
+.panel.is-info .panel-heading {
+  background-color: $secondary;
 }
