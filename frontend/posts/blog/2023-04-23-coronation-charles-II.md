@@ -6,7 +6,7 @@ authors:
   - cbeattie
 tags:
   - monarchy
-  - Yorkshire
+  - yorkshire
   - illness
 ---
 
