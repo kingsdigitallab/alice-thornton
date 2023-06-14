@@ -5,10 +5,10 @@ status: draft
 authors:
   - jedge
 tags:
-  - childbirth
-  - yorkshire
-  - wars of the three kingdoms
-  - manuscripts
+  - rumours
+  - marriage
+  - family
+  - letters
 ---
 
 Last month, Cordelia Beattie wrote a [blog post](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html) for the British Library's *Untold Lives* series, about Alice Thornton's account of her betrayal by her niece, Anne Danby. As Thornton's account goes, she had housed and fed Danby and her maid Barbara Todd after they had been thrown out of their accommodation by Danby's sister-in-law in 1667, only to be repaid with Danby, Todd and some of Thornton's maids spreading rumours about Thornton's relationship with her daughter Nally's suitor, Thomas Comber, which came to light in summer 1668. Comber was also living at the Thornton's house at East Newton, while he was curate of Stonegrave minster, the Thorntons' parish church. 
@@ -49,7 +49,7 @@ Why was Anne Danby writing to Parson Farrer? We do not know much about him, but 
 Was Anne Danby the dutiful niece she made herself out to be? Or, as her aunt claimed, had Danby been at the centre of the rumours about Thornton, Comber and Nally? 
 
 
-[^1]: The text quoted above is modernised from the letter of Anne Danby to Parson Farrer. Anne Danby to Parson Farrer, 10 December (1668), MIC 2281, North Yorkshire County Record Office, unnumbered page 1.
+[^1]: The text quoted above is modernised from Anne Danby to Parson Farrer, 10 December (1668), MIC 2281, North Yorkshire County Record Office, unnumbered page 1.
 
 [^2]: Danby to Farrer, unnumbered page 2.
 
