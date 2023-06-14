@@ -36,7 +36,8 @@ The other problem, Danby implies, was Comber's character. While Thornton sang hi
 > She representing him to be so good and holy and chaste and one of so excellent and rare parts, that she could never have the like husband again for her daughter, I had no great reason to oppose her, until I had the contrary attested to me, which me, a true friend, I did signify to her that she might not be deceived in so grand a concern, he being no such man as she believed, or would make me believe he was. But ever since, he hath sat on my skirts by the alienating her affections, for had it not been for him I might still say I have not I had a dear friend of my Aunt Thornton.[^5]
 
 The implication here is that Comber was not chaste, and after she had relayed this to her aunt, Comber had 'sat on her skirts' -  that is, punished her severely[^6] - for revealing this about him. On the day Thornton found out about the rumours and fell ill, Danby recounts:
-Ttowards the evening came in Hector Comber and gave me such a ranting lecture that I never had the like since I drew breath. He told me I and my maid had invented a company of lies on purpose to kill my aunt, and all the other stories that went about the country concerning him were all of my inventing too. 
+
+> Towards the evening came in Hector Comber and gave me such a ranting lecture that I never had the like since I drew breath. He told me I and my maid had invented a company of lies on purpose to kill my aunt, and all the other stories that went about the country concerning him were all of my inventing too.[^7]
 
 Quite why Danby refers to Comber as 'Hector' here is a mystery - perhaps a reference to his hectoring tone? In any case, Danby portrays a situation where she and her maid were blamed for all the rumours that circulated about Comber, both regarding his character and his supposed affair with his prospective mother-in-law, and that these had been spread beyond the household.
 
@@ -44,11 +45,11 @@ Even after Danby had been ejected from her aunt's house and was living in lodgin
 
 ![Still life with anchovies, shellfish, and various jugs on a table]({{"/assets/img/posts/Sebastian_Stoskopff_Fruhstuck_mit_Anchovisplatte.jpg" | url}} "Sebastian Stoskopff, 'Fruhstuck mit Anchovisplatte' (Breakfast with a plate of anchovies), c. 1657. Public domain, via Wikimedia Commons"){.media-right}
 
-> Though she had prosecuted me this violently, that I might give her some small testimony of my unextinguished affection, I sent her first a pot of anchovies, next a barrel of pickled oysters. After, I sent a messenger on purpose to inquire of her health with butter, a hundred raw oysters (which I knew she well loved) and two letters, the one relating to my vindication of which particular she so unjustly taxed me with all, and the other to condole with, and give her what consolation I could, concerning her late loss. But I was glad to reward my messenger myself and had my letters returned back, with this message, that she thanked me, but desired I would not put myself to the trouble of sending any more to her.[^7] 
+> Though she had prosecuted me this violently, that I might give her some small testimony of my unextinguished affection, I sent her first a pot of anchovies, next a barrel of pickled oysters. After, I sent a messenger on purpose to inquire of her health with butter, a hundred raw oysters (which I knew she well loved) and two letters, the one relating to my vindication of which particular she so unjustly taxed me with all, and the other to condole with, and give her what consolation I could, concerning her late loss. But I was glad to reward my messenger myself and had my letters returned back, with this message, that she thanked me, but desired I would not put myself to the trouble of sending any more to her.[^8] 
 
 Even after such treatment by her aunt, Danby portrays herself as still doing her best to make amends as a dutiful, loyal niece, always hoping for reconciliation.
 
-Why was Anne Danby writing to Parson Farrer? We do not know much about him, but he was possibly the same George Farrer who was baptised at Coxwold on 28 October 1610, the son of Nathaniel Farrer of Close House.[^8] A George Farrer was ordained minister of Thornton Watlass in 1635, to whom Sir Thomas Danby - Anne's father-in-law - was patron.[^9] Thornton mentions Mr Farrer at Malton in the late 1660s, and Farrer may have been a chaplain at the Malton household of the Eure family.[^10] Given his age, and the information from Danby's letter that Katherine was a relation of George, he was likely Katherine's father or perhaps uncle. Given that Danby had been implicated in suggesting a match between Katherine Farrer and Comber, this might explain why Danby wrote George Farrer this letter to give her side of the story.
+Why was Anne Danby writing to Parson Farrer? We do not know much about him, but he was possibly the same George Farrer who was baptised at Coxwold on 28 October 1610, the son of Nathaniel Farrer of Close House.[^9] A George Farrer was ordained minister of Thornton Watlass in 1635, to whom Sir Thomas Danby - Anne's father-in-law - was patron.[^10] Thornton mentions Mr Farrer at Malton in the late 1660s, and Farrer may have been a chaplain at the Malton household of the Eure family.[^11] Given his age, and the information from Danby's letter that Katherine was a relation of George, he was likely Katherine's father or perhaps uncle. Given that Danby had been implicated in suggesting a match between Katherine Farrer and Comber, this might explain why Danby wrote George Farrer this letter to give her side of the story.
 
 Was Anne Danby the dutiful niece she made herself out to be? Or, as her aunt claimed, had Danby been at the centre of the rumours about Thornton, Comber and Nally? 
 
@@ -67,10 +68,12 @@ Was Anne Danby the dutiful niece she made herself out to be? Or, as her aunt cla
 
 [^7]: Danby to Farrer, unnumbered page 3.
 
-[^8]: *The Parish Registers of Coxwold*, ed. R. L. H. Lloyd (Leeds: Yorkshire Parish Register Society, 1955), vol. I, 47.
+[^8]: Danby to Farrer, unnumbered page 6.
 
-[^9]: Thomas Dunham Whitaker, *A History of Richmondshire* (London: Longman, Hurst, Rees, Orme And Brown, 1823), vol. II, 77.
+[^9]: *The Parish Registers of Coxwold*, ed. R. L. H. Lloyd (Leeds: Yorkshire Parish Register Society, 1955), vol. I, 47.
 
-[^10]: *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*2, ed. Charles Jackson (Durham: Surtees Society, 1875), 276. Anne Danby's sister-in-law Margaret Danby was born Margaret Eure and was married to Thomas Danby, son of the Sir Thomas who was Farrer's patron.
+[^10]: Thomas Dunham Whitaker, *A History of Richmondshire* (London: Longman, Hurst, Rees, Orme And Brown, 1823), vol. II, 77.
+
+[^11]: *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*2, ed. Charles Jackson (Durham: Surtees Society, 1875), 276. Anne Danby's sister-in-law Margaret Danby was born Margaret Eure and was married to Thomas Danby, son of the Sir Thomas who was Farrer's patron.
 
 
