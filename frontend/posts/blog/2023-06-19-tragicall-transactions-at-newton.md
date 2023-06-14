@@ -57,7 +57,7 @@ Was Anne Danby the dutiful niece she made herself out to be? Or, as her aunt cla
 
 [^4]: Danby to Farrer, unnumbered page 2.
 
-[^5]: In various phrases, denoting close approach or adherence to some person or thing; in earlier use esp. to sit on (upon or in) one's skirts, to press hard upon one, to deal heavily with, to punish severely'. "skirt, n.". OED Online. March 2023. Oxford University Press. [https://www.oed.com/view/Entry/181021?rskey=6DA9uF&result=1](https://www.oed.com/view/Entry/181021?rskey=6DA9uF&result=1) (accessed June 13, 2023).
+[^5]: In various phrases, denoting close approach or adherence to some person or thing; in earlier use esp. to sit on (upon or in) one's skirts, to press hard upon one, to deal heavily with, to punish severely'. "skirt, n.". [OED Online](https://www.oed.com/view/Entry/181021?rskey=6DA9uF&result=1). March 2023. Oxford University Press, accessed June 13, 2023.
 
 [^6]: Danby to Farrer, unnumbered pqge 3.
 
