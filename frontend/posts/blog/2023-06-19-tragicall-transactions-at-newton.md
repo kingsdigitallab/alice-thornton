@@ -1,6 +1,6 @@
 ---
 title: "Tragicall transactions at Newton: Thornton's niece responds"
-feature: /assets/img/posts/eavesdropper_with_a_scolding_woman
+feature: /assets/img/posts/eavesdropper_with_a_scolding_woman.jpg
 status: draft
 authors:
   - jedge
