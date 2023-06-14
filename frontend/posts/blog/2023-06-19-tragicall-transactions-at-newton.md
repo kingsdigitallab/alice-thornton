@@ -38,9 +38,9 @@ Quite why Danby refers to Comber as 'Hector' here is a mystery - perhaps a refer
 
 Even after Danby had been ejected from her aunt's house and was living in lodgings at York, she attempted to reconcile with her aunt, sending her gifts, but was snubbed:
 
-> Though she had prosecuted me this violently, that I might give her some small testimony of my unextinguished affection, I sent her first a pot of anchovies, next a barrel of pickled oysters. After, I sent a messenger on purpose to inquire of her health with butter, a hundred raw oysters (which I knew she well loved) and two letters, the one relating to my vindication of which particular she so unjustly taxed me with all, and the other to condole with, and give her what consolation I could, concerning her late loss. But I was glad to reward my messenger myself and had my letters returned back, with this message, that she thanked me, but desired I would not put myself to the trouble of sending any more to her.[^6] 
-
 ![Still life with anchovies, shellfish, and various jugs on a table]({{"/assets/img/posts/Sebastian_Stoskopff_Fruhstuck_mit_Anchovisplatte.jpg" | url}} "Sebastian Stoskopff, 'Fruhstuck mit Anchovisplatte' (Breakfast with a plate of anchovies), c. 1657. Public domain, via Wikimedia Commons"){.media-right}
+
+> Though she had prosecuted me this violently, that I might give her some small testimony of my unextinguished affection, I sent her first a pot of anchovies, next a barrel of pickled oysters. After, I sent a messenger on purpose to inquire of her health with butter, a hundred raw oysters (which I knew she well loved) and two letters, the one relating to my vindication of which particular she so unjustly taxed me with all, and the other to condole with, and give her what consolation I could, concerning her late loss. But I was glad to reward my messenger myself and had my letters returned back, with this message, that she thanked me, but desired I would not put myself to the trouble of sending any more to her.[^6] 
 
 Even after such treatment by her aunt, Danby portrays herself as still doing her best to make amends as a dutiful, loyal niece, always hoping for reconciliation.
 
