@@ -63,7 +63,7 @@ Was Anne Danby the dutiful niece she made herself out to be? Or, as her aunt cla
 
 [^7]: *The Parish Registers of Coxwold*, ed. R. L. H. Lloyd (Leeds: Yorkshire Parish Register Society, 1955), vol. I, 47.
 
-[^8]: Thomas Dunham Whitaker, *A History of Richmondshire* (London: Longman, Hurst, Rees, Orme And Brown, 1823), vol. 2, 77.
+[^8]: Thomas Dunham Whitaker, *A History of Richmondshire* (London: Longman, Hurst, Rees, Orme And Brown, 1823), vol. II, 77.
 
 [^9]: *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*2, ed. Charles Jackson (Durham: Surtees Society, 1875), 276.
 
