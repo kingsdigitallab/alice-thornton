@@ -21,7 +21,7 @@ A letter from Danby to Parson Farrer, surviving only on microfilm at the North Y
 
 The letter opens with a flattering plea to the recipient:
 
-> I perceive by Dr Samways that you haue heard of our late tragical transactions at Newton, which I am confident you cannot but bewail, being so good a Christian in the first place that such ill reports should pass concerning my aunt.[^2]>
+> I perceive by Dr Samways that you have heard of our late tragical transactions at Newton, which I am confident you cannot but bewail, being so good a Christian in the first place that such ill reports should pass concerning my aunt.[^2]>
 
 Throughout the letter Danby presents herself as the devoted niece, concerned only for her aunt's wellbeing, even when her aunt had grown cold towards her. She tried to make amends at every opportunity, to be rebuffed by Thornton. According to Danby, it was hers and Thornton's maids who were the source of the rumours about Thornton and Comber's relationship. Danby herself had merely stepped in when she found out they were being spread and told them to stop. This, she claimed, had led to her implication in the spreading of rumours.
 
