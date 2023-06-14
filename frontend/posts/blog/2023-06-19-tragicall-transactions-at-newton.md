@@ -74,6 +74,6 @@ Was Anne Danby the dutiful niece she made herself out to be? Or, as her aunt cla
 
 [^10]: Thomas Dunham Whitaker, *A History of Richmondshire* (London: Longman, Hurst, Rees, Orme And Brown, 1823), vol. II, 77.
 
-[^11]: *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*2, ed. Charles Jackson (Durham: Surtees Society, 1875), 276. Anne Danby's sister-in-law Margaret Danby was born Margaret Eure and was married to Thomas Danby, son of the Sir Thomas who was Farrer's patron.
+[^11]: *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*, ed. Charles Jackson (Durham: Surtees Society, 1875), 276. Anne Danby's sister-in-law Margaret Danby was born Margaret Eure and was married to Thomas Danby, son of the Sir Thomas who was Farrer's patron.
 
 
