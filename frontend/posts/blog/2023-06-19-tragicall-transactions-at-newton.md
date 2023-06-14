@@ -13,7 +13,7 @@ tags:
 
 Last month, Cordelia Beattie wrote a [blog post](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html) for the British Library's *Untold Lives* series, about Alice Thornton's account of her betrayal by her niece, Anne Danby. As Thornton's account goes, she had housed and fed Danby and her maid Barbara Todd after they had been thrown out of their accommodation by Danby's sister-in-law in 1667, only to be repaid with Danby, Todd and some of Thornton's maids spreading rumours about Thornton's relationship with her daughter Nally's suitor, Thomas Comber, which came to light in summer 1668. Comber was also living at the Thornton's house at East Newton, while he was curate of Stonegrave minster, the Thorntons' parish church. 
 
-![Portrait of Thomas Comber hanging on a wall]({{"/assets/img/posts/thomas-comber.heic" | url}} "Thomas Comber on the wall at Stonegrave Minster: Cordelia Beattie"){.media-left}
+![Portrait of Thomas Comber hanging on a wall]({{"/assets/img/posts/thomas-comber.jpg" | url}} "Thomas Comber on the wall at Stonegrave Minster: Cordelia Beattie"){.media-left}
 
 The rumours were twofold; that Thornton and Comber were conducting an extramarital affair and that her designs for a match with Nally were purely so she could continue this affair; and that Thornton had given her incapacitated husband William's money to Comber. Thornton's story went that not only had Danby conspired with Thornton's aunt, Anne Norton, and Anne's daughter, Mary Yorke, to have the match broken off, but that she had also conspired to have Comber married to other eligible local women. One was her friend, Mrs Batte. The other was Katherine Farrer.
 
