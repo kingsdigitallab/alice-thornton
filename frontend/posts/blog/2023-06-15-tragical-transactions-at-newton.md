@@ -16,7 +16,7 @@ Last month, Cordelia Beattie wrote a [blog post](https://blogs.bl.uk/untoldlives
 
 The rumours circulating in the summer of 1668 were twofold; first, that Thornton and Comber were conducting an extramarital affair, so her designs for a match with Nally were really because she wanted that affair to continue; and, second, that Thornton had given her husband's money to Comber while he was incapacitated. According to Thornton, not only had Danby conspired with her aunt, Anne Norton, and Norton's daughter, Mary Yorke, to have the match broken off, but that she had also conspired to have Comber married to two other eligible local women: one being her friend, Mrs Batte;[^1] the other, Katherine Farrer.
 
-However, a rather different version of events is recorded in a letter from Danby to Parson Farrer, which survives on microfilm at the North Yorkshire County Record Office. The letter is dated 10 December, without giving a year, but it is safe to presume that it is 1668, just three weeks after Nally and Comber were married on 17 November, since the opening address of her letter states, 'I heard yesterday the supposed blessed wedding at Newton is consummated'.[^2]
+However, a rather different version of events is recorded in a letter from Danby to Parson Farrer, which survives on microfilm at the North Yorkshire County Record Office. The letter is dated 10 December, without giving a year, but it is most likely 1668, just three weeks after Nally and Comber were married on 17 November, since the opening address of her letter states, 'I heard yesterday the supposed blessed wedding at Newton is consummated'.[^2]
 
 The letter opens with a flattering plea to the recipient:
 
