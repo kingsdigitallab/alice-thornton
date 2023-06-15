@@ -18,6 +18,9 @@ Based on the handwritten notebooks of Alice Thornton (1626-1707) - including two
 
 Contains themes of bereavement and infant loss.
 
-'human and very funny', 'thoroughly enjoyable',  'Cannon’s performance is vivid and engaging'
- [(The Scotsman)](https://www.scotsman.com/arts-and-culture/theatre-and-stage/theatre-review-the-remarkable-deliverances-of-alice-thornton-scottish-storytelling-centre-edinburgh-1401897)
+A review of an earlier version from [(The Scotsman)](https://www.scotsman.com/arts-and-culture/theatre-and-stage/theatre-review-the-remarkable-deliverances-of-alice-thornton-scottish-storytelling-centre-edinburgh-1401897)
+
+> human and very funny ... thoroughly enjoyable ... Cannon’s performance is vivid and engaging.
+
+
 
