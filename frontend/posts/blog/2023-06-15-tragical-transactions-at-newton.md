@@ -72,10 +72,10 @@ These two versions of events allow for rather different interpretations of Anne 
 
 [^9]: Danby to Farrer, unnumbered page 6.
 
-[^10]: A George Farrer who was baptised at Coxwold on 28 October 1610, the son of Nathaniel Farrer of Close House. *The Parish Registers of Coxwold*, ed. R. L. H. Lloyd (Leeds: Yorkshire Parish Register Society, 1955), vol. I, 47.
+[^10]: A George Farrer was baptised at Coxwold on 28 October 1610, the son of Nathaniel Farrer of Close House. *The Parish Registers of Coxwold*, ed. R. L. H. Lloyd (Leeds: Yorkshire Parish Register Society, 1955), vol. I, 47.
 
 [^11]: Thomas Dunham Whitaker, *A History of Richmondshire* (London: Longman, Hurst, Rees, Orme And Brown, 1823), vol. II, 77.
 
-[^12]: *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*, ed. Charles Jackson (Durham: Surtees Society, 1875), 276. Anne Danby's sister-in-law Margaret Danby was born Margaret Eure and was married to Thomas Danby, son of the Sir Thomas who was Farrer's patron.
+[^12]: *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*, ed. Charles Jackson (Durham: Surtees Society, 1875), 276. Anne Danby's sister-in-law Margaret Danby was born Margaret Eure and married Thomas Danby, son of the Sir Thomas who was Farrer's patron.
 
 
