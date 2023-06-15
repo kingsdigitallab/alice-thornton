@@ -3,7 +3,7 @@ title: "Tickets for 'Remarkable Deliverances' at Durham, October 2023 now on sal
 feature: /assets/image/posts/remarkable-deliverances-play-2.jpg 
 status: draft
 authors:
-  - jedge
+  - cbeattie
 tags:
   - events
 ---
