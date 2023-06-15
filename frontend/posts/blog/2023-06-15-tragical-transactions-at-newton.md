@@ -30,7 +30,7 @@ Danby argued that one reason Thornton became cold towards her was that she plann
 
 > She had a design to have married or contracted her daughter and Mr Comber privately without my uncle's knowledge, which my conscience would not permit me to condescend to, believing it to be very unjust; therefore I clearly dissuaded her against it and told her, amongst other things, she was her father's child as well as hers and there ought to be a joint consent if she desired a blessing from God upon the future part of their lives.[^4]
 
-In the summer of 1668 Nally was only fourteen years old. While ideas about marriage and consent had been in flux during the political and religious upheaval of the mid-17th century, under the Barebones Parliament of 1653, girls under the age of sixteen were required to have their parents' consent to be married.[^5] Danby's concern that Thornton may have made the decision to marry Nally to Comber without her husband's consent therefore has precendent.
+In the summer of 1668 Nally was only fourteen years old. While ideas about marriage and consent had been in flux during the political and religious upheaval of the mid-17th century, under the Barebones Parliament of 1653, girls under the age of sixteen were required to have their parents' consent to be married.[^5] Danby's concern that Thornton may have made the decision to marry Nally to Comber without her husband's consent therefore has precedent.
 
 Furthermore, Danby implies there was another problem: Comber's character. While Thornton sang his praises, Danby had heard otherwise:
 
