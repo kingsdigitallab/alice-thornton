@@ -15,7 +15,7 @@ Tickets for one-woman play 'The Remarkable Deliverances of Alice Thornton' at Du
 
 > Yorkshire, 1668. Mrs Alice Thornton - widow, mother, and daughter of the late Lord Deputy of Ireland - finds herself the subject of a most dreadful scandal. Tonight, she begs your presence at a defence of her life, including twenty miraculous deliverances from death. 
 
-Based on the handwritten notebooks of Alice Thornton (1626-1707) - including two recently rediscovered manuscripts - this one-woman theatre/storytelling performance reflects on one woman's life and experiences across the span of the seventeenth century, against the turbulent backdrop of civil war, plague, the Great Fire of London...and the treacherous world of North Yorkshire society.
+Based on the handwritten notebooks of Alice Thornton (1626-1707) - including [two recently rediscovered manuscripts](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) - this one-woman theatre/storytelling performance reflects on one woman's life and experiences across the span of the seventeenth century, against the turbulent backdrop of civil war, plague, the Great Fire of London...and the treacherous world of North Yorkshire society.
 
 Contains themes of bereavement and infant loss.
 
