@@ -16,7 +16,5 @@ Tickets for one-woman play 'The Remarkable Deliverances of Alice Thornton' at Du
 
 Contains themes of bereavement and infant loss.
 
->human and very funny ... thoroughly enjoyable ... Cannon’s performance is vivid and engaging
-
- [The Scotsman](https://www.scotsman.com/arts-and-culture/theatre-and-stage/theatre-review-the-remarkable-deliverances-of-alice-thornton-scottish-storytelling-centre-edinburgh-1401897)
+'...human and very funny ... thoroughly enjoyable ... Cannon’s performance is vivid and engaging', [The Scotsman](https://www.scotsman.com/arts-and-culture/theatre-and-stage/theatre-review-the-remarkable-deliverances-of-alice-thornton-scottish-storytelling-centre-edinburgh-1401897)
 
