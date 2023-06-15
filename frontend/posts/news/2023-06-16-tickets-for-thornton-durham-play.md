@@ -6,6 +6,7 @@ authors:
   - cbeattie
 tags:
   - events
+  - deliverances
 ---
 
 Tickets for one-woman play 'The Remarkable Deliverances of Alice Thornton' at Durham Cathedral on October 19 and 20th 2023, 7.30pm are now [on sale](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173644589). Written and performed by [Debbie Cannon](https://debbiecannon.org) (Green Knight, winner of the Female Actor Award at Buxton Fringe 2018), directed by Flavia D'Avila of [Fronteiras Theatre Lab](https://fronteirastheatrelab.com), and developed as part of the Alice Thornton's Books Project. Both performances will be followed by a Q&A. A synopsis is below. If you're close to Durham, don't miss this!
