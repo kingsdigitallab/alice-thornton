@@ -1,5 +1,5 @@
 ---
-title: "Tickets for'The Remarkable Deliverances of Alice Thornton' at Durham, October 2023 now on sale"
+title: "Tickets for 'Remarkable Deliverances' at Durham, October 2023 now on sale"
 feature: /assets/image/posts/remarkable-deliverances-play-2.jpg 
 status: draft
 authors:
