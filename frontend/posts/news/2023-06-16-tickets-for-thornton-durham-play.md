@@ -9,7 +9,7 @@ tags:
   - deliverances
 ---
 
-Tickets for one-woman play 'The Remarkable Deliverances of Alice Thornton' at Durham Cathedral on October 19 and 20th 2023, 7.30pm are now [on sale](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173644589). Written and performed by [Debbie Cannon](https://debbiecannon.org) (Green Knight, winner of the Female Actor Award at Buxton Fringe 2018), directed by Flavia D'Avila of [Fronteiras Theatre Lab](https://fronteirastheatrelab.com), and developed as part of the Alice Thornton's Books Project. Both performances will be followed by a Q&A. A synopsis is below. If you're close to Durham, don't miss this!
+Tickets for one-woman play 'The Remarkable Deliverances of Alice Thornton' at Durham Cathedral on October 19 and 20th 2023, 7.30pm are now [on sale](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173644589). Written and performed by [Debbie Cannon](https://debbiecannon.org) (Green Knight, winner of the Female Actor Award at Buxton Fringe 2018), directed by Flavia D'Avila of [Fronteiras Theatre Lab](https://fronteirastheatrelab.com), and developed as part of the Alice Thornton's Books Project. Both performances will be followed by a Q&A session. A synopsis is below. If you're close to Durham, don't miss this!
 
 ![A woman in a white gown and nightcap with long brown hair kneels on the floor on stage as if praying]({{"/assets/img/posts/remarkable-deliverances-play.jpg" | url}} "Debbie Cannon in 'The Remarkable Deliverances of Alice Thornton. Jane Hobson")
 
@@ -19,7 +19,7 @@ Based on the handwritten notebooks of Alice Thornton (1626-1707) - including two
 
 Contains themes of bereavement and infant loss.
 
-A review of an earlier version from [(The Scotsman)](https://www.scotsman.com/arts-and-culture/theatre-and-stage/theatre-review-the-remarkable-deliverances-of-alice-thornton-scottish-storytelling-centre-edinburgh-1401897)
+A review of an earlier version from [The Scotsman:](https://www.scotsman.com/arts-and-culture/theatre-and-stage/theatre-review-the-remarkable-deliverances-of-alice-thornton-scottish-storytelling-centre-edinburgh-1401897)
 
 > human and very funny ... thoroughly enjoyable ... Cannon’s performance is vivid and engaging.
 
