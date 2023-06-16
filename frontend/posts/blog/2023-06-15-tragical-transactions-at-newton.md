@@ -54,9 +54,9 @@ So, why was Anne Danby writing to Parson Farrer? We do not know much about him.[
 
 These two versions of events allow for rather different interpretations of Anne Danby's character: was she the dutiful niece she made herself out to be or had she, as her aunt claimed, been at the centre of the rumours about Thornton, Comber and Nally? 
 
-[^1]: Mrs Martha Batte was the daughter of John and Martha Batte, baptised at Birstall, Yorkshire on 29 September 1636. She and her family emigrated to a plantation in Charles County, Virginia in 1649, where she met Anne Danby and was still living in 1665. By 1667 she was back in Yorkshire in the service of the Countess of Sussex at Howley Hall. 
+[^1]: Mrs Batte was Martha, the daughter of John and Martha Batte, baptised at Birstall, Yorkshire on 29 September 1636. She and her family emigrated to Virginia in 1649, where she met Anne Danby and was still living in 1665. By 1667 she was back in Yorkshire in the service of the Countess of Sussex at Howley Hall. 
 
-[^2]: The text quoted above is modernised from Anne Danby to Parson Farrer, 10 December (1668), MIC 2281, North Yorkshire County Record Office, unnumbered page 1.
+[^2]: The text quoted above is modernised from Anne Danby to Parson Farrer, 10 December (1668), Cunliffe Lister Muniments (MIC 2281), North Yorkshire County Record Office, unnumbered page 1.
 
 [^3]: Danby to Farrer, unnumbered page 1.
 
