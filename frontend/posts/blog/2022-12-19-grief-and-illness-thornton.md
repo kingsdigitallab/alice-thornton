@@ -19,13 +19,13 @@ In February 1655, Alice Thornton was in bed recovering from giving birth to her 
 
 Her maid Jane Flower and the midwife Jane Rimer were acting to save Nally. The fits stopped and started. The physical and mental effect that this sudden grief had on Thornton was profound:
 
->'I, lying the next chamber to her, … did hear her when she came out of them [i.e., her fits] to give great shrieks and suddenly that it frightened me extremely. And all the time of this poor child's illness, I, myself, was at death's door by the extreme excess of those - upon the fright and terror came upon me - so great floods that I was spent and my breath lost, my strength departed from me and I could not speak for faintings and dispirited so that my dear mother and aunt and friends did not expect my life but were overcome with sorrow for me. Nor durst they tell me in what condition my dear Nally was in her fits, lest grief for her, added to my own extremity with loss of blood, might have extinguished my miserable life.'[^1]
+> I, lying the next chamber to her, … did hear her when she came out of them [i.e., her fits] to give great shrieks and suddenly that it frightened me extremely. And all the time of this poor child's illness, I, myself, was at death's door by the extreme excess of those - upon the fright and terror came upon me - so great floods that I was spent and my breath lost, my strength departed from me and I could not speak for faintings and dispirited so that my dear mother and aunt and friends did not expect my life but were overcome with sorrow for me. Nor durst they tell me in what condition my dear Nally was in her fits, lest grief for her, added to my own extremity with loss of blood, might have extinguished my miserable life.[^1]
 
 Thornton experienced a flood (uterine bleeding), and the maids then moved Nally to a room further away, where her mother could not hear her cries and screams which were clearly putting her in mortal danger.
 
 As well as the flood, the shock of the incident had made Thornton's milk dry up and she wasn't able to breastfeed her newborn daughter for two weeks. But the story didn't end there. Just as Thornton was able to breastfeed Betty again, Nally fell into convulsions once more. A maid ran to her, saying that Nally was dead or nearly dead. Once again the physical effect on Thornton was intense:
 
->'Which did so suddenly affright me, being weak as before, and this flood came down upon me as before, and they had much to do to get me carried safe into my bed again.'[^2]
+> Which did so suddenly affright me, being weak as before, and this flood came down upon me as before, and they had much to do to get me carried safe into my bed again.[^2]
 
 Luckily, Nally once again recovered, according to Thornton, thanks to God.
 
@@ -39,7 +39,7 @@ The passion which causes the process Thornton describes is sudden grief. Thornto
 
 Thornton's husband William was not a financially prudent man, which led to some difficult situations for his wife. The big betrayal came two years before his death, in 1666, when Thornton discovered that William had cut her two surviving daughters Nally and Katherine out of their inheritance of the family property of Leysthorpe in order to pay off debts. This was a result of Thornton's nephew by marriage, Henry Best, whom she had trusted to look over her legal papers, convincing her that one settlement needed amending. In fact, he introduced a loophole which meant William could cut off her heirs without her consent, which he did. The effect on Thornton was once again profound:
 
->'the very grief I apprehended was so great at that time, on the discovery to me, that it did force me to that miscarriage which I had and long continued sickness by the excess of floods, which lasted a long time on me and mentioned in my first book.'[^3]
+> the very grief I apprehended was so great at that time, on the discovery to me, that it did force me to that miscarriage which I had and long continued sickness by the excess of floods, which lasted a long time on me and mentioned in my first book.[^3]
 
 Both Henry and William had betrayed her so profoundly that it caused her to suffer a miscarriage and months of excessive uterine bleeding. To Thornton's mind, this was caused by sudden grief provoking an excess of humours which forced her body to expel the foetus. She remained unwell until the following February.
 

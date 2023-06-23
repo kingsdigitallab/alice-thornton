@@ -161,7 +161,6 @@ more on her marriage, children and the death of her husband. One of
 the project's objectives is to deduce _why_ Alice decided to expand her
 story of her life in the way that she did.
 
-
 [^1]: ['What is Text Encoding?'](https://wwp.northeastern.edu/research/publications/guide/html/encoding.html), in [Women Writers Project Guide to Scholarly Text Encoding](https://wwp.northeastern.edu/research/publications/guide/index.html) (2007).
 [^2]: The official [TEI P5 guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html) are a key reference. Andrew Dunning, [Transcribing medieval manuscripts with TEI](https://andrewdunning.ca/transcribing-medieval-manuscripts-tei) (2019), is a useful guide to many specific elements of manuscript encoding.
 [^3]: Lou Burnard, ['Names and dates'](https://books.openedition.org/oep/689#tocto1n4), in [What is the Text Encoding Initiative?](https://books.openedition.org/oep/426) (2014).

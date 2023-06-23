@@ -3,7 +3,8 @@ const utils = require("./_includes/js/utils.js");
 const inspect = require("util").inspect;
 const path = require("node:path");
 const debug = require("debug")("Eleventy:KDL");
-const metadata = require("./_data/metadata.json");
+// TODO: import shouldn't need the ()
+const metadata = require("./_data/metadata.js")();
 const stripHtml = require("string-strip-html");
 
 module.exports = function (config) {

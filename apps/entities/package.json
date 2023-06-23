@@ -1,0 +1,21 @@
+{
+  "name": "entities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entities.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "xslt": "npx xslt3 -xsl:tei-to-json.xsl -export:xslt/tei-to-json.sef.json -t -nogo",
+    "build": "npm run xslt && node entities.js",
+    "watch": "watch --ignoreDirectoryPattern='/xslt/' 'npm run build' ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.8",
+    "saxon-js": "^2.5.0"
+  }
+}

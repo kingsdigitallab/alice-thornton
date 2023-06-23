@@ -7,6 +7,7 @@ authors:
 tags:
   - monarchy
   - yorkshire
+  - wars of the three kingdoms
 ---
 
 The last time a King Charles was proclaimed in London was in 1660.[^1] When Charles III acceded to the throne last week, there was some initial [speculation](https://inews.co.uk/news/king-charles-iii-name-why-monarchs-change-explained-1319520) about whether he might choose to [use one of his other names](https://www.hellomagazine.com/royalty/20220909150655/why-king-charles-iii-could-have-chosen-king-george-details/), given the reputations of Charles I and Charles II.
@@ -19,7 +20,7 @@ In spring 1660, a pregnant Alice Thornton and her family had a heated discussion
 
 ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]( {{ "/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. c. Suzanne Trill, June 2022."){.media-left}
 
-> ‘my dear Aunt Norton told Mr Thornton and myself, that if I had a son, he would bring his name with him into the world and should be called Charles. But my husband answered again that it should not. After which, being in private with him, I desired to know what was the reason he would not have him called Charles if I had a son. He presently answered, if I would have him so called, he should never heir [inherit] a foot of his estate.’[^2]
+> my dear Aunt Norton told Mr Thornton and myself, that if I had a son, he would bring his name with him into the world and should be called Charles. But my husband answered again that it should not. After which, being in private with him, I desired to know what was the reason he would not have him called Charles if I had a son. He presently answered, if I would have him so called, he should never heir [inherit] a foot of his estate.[^2]
 
 Alice relates this incident in two of her books. In _Book 2: The First Book of My Widowed Condition_, she notes ‘But Mr Thornton would not consent to that, to have him called Charles, for reasons best known to himself’.[^3]
 
@@ -29,7 +30,7 @@ Alice relates this incident in two of her books. In _Book 2: The First Book of M
 
 In both accounts of Aunt Norton suggesting the name Charles, Alice makes the explicit connection with the Restoration of the monarchy. From reading Alice’s books, one might be forgiven for thinking that Charles II had already been proclaimed king when the conversation took place:
 
-> ‘It happened that at that time, the happy restoration of King Charles the 2nd and of his coming into England and restored the Church and State to its rights again. There was a great and general rejoicing at that good change in the kingdom, from tyranny, oppression and anarchy.’[^4]
+> It happened that at that time, the happy restoration of King Charles the 2nd and of his coming into England and restored the Church and State to its rights again. There was a great and general rejoicing at that good change in the kingdom, from tyranny, oppression and anarchy.[^4]
 
 However, Alice gave birth to a son, named William after his father, on 17 April 1660. It was not until [early May](https://thehistoryofparliament.wordpress.com/2020/05/01/towards-the-restoration-of-the-monarchy-1-8-may-1660/) that Parliament proclaimed Charles as king. At the time baby names were being discussed at Aunt Norton’s house, the restoration of the monarchy was not yet a done deal. In that context, naming your child Charles would have been a very public statement about where your allegiances lay.
 
@@ -41,13 +42,13 @@ Alice and Aunt Norton were from a royalist family, the Wandesfords, and their en
 
 Even after King Charles II had been proclaimed, not everyone accepted the restoration of the monarchy. Tim Harris’s book, _Restoration: Charles II and his Kingdoms, 1660-1685_, opens with the celebrations on 29 May 1660 when Charles II made a triumphant entry into London to reclaim the throne of the three kingdoms. However, Harris also noted that, ‘Although rejoicing at the return of the monarchy was widespread, it was not universal’.[^7] Some were prosecuted in court for seditious speech for their outbursts. Margaret Dixon of Newcastle, for example, was accused of having said on 13 May 1660:
 
-> ‘Is there not some English man more fit to make a King than a Scot? There is none that loves him but drunk whores and whoremongers. I hope he will never come into England, for that he will set on fire the three kingdoms as his father before him has done. God's curse light on him. I hope to see his bones hanged at a horse tail, and the dogs run through his puddings [entrails].’[^8]
+> Is there not some English man more fit to make a King than a Scot? There is none that loves him but drunk whores and whoremongers. I hope he will never come into England, for that he will set on fire the three kingdoms as his father before him has done. God's curse light on him. I hope to see his bones hanged at a horse tail, and the dogs run through his puddings [entrails].[^8]
 
 While William Thornton was guarded – according to Alice - as to his reasons why he would not brook any heir of his being named Charles, it seems likely that his stance revealed continuing antipathy towards the monarchy.
 
 ---
 
-[^1]: Parliament voted to restore the Stuart monarchy on 1 May 1660; Charles II was then proclaimed as king in London on 8 May. He then had a triumphant royal entry into the city on 29 May 1660 and his coronation was on 23 April 1661. See Tim Harris, _Restoration: Charles II and his Kingdoms, 1660-1685_ (London, 2005), 1, 69.
+[^1]: Parliament voted to restore the Stuart monarchy on 1 May 1660; Charles II was then proclaimed as king in London on 8 May. He had a triumphant royal entry into the city on 29 May 1660 and his coronation was on 23 April 1661. See Tim Harris, _Restoration: Charles II and his Kingdoms, 1660-1685_ (London, 2005), 1, 69.
 [^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. ‘my deare Aunt norton tould Mr Thornton, & my selfe, That if I had a Son he would bring his name with him, into the world, & should be called Charles. but my Husb-band answred againe that it should not, affter which being in Privat with him, I desired to know what was the reason, he would not have him called Charles, if I had a Son: he presently answred if I would have him, soe called, he should never heire a foote of his Estate’: Alice Thornton, _Book 3: The Second Book of My Widowed Condition_, British Library MS Add 88897/2 (hereafter _Book 3_), 44.
 [^3]: ‘Butt Mr Thornton would not consent to that. To have him Called Charles for Reasons best know^n^ to him selfe’: Alice Thornton, _Book 2: The First Book of My Widowed Condition_, Durham Cathedral Library, GB-0033-CCOM 7 (hereafter _Book 2_), 207-8 in our edition but mispaginated in the manuscript as 205-6.
 [^4]: ‘att that time, the happy restoration of King, Charles the 2d & of his comming into England; & Restored the Church; & State to its Rights againe. there was a great and generall, rejoycing; at that good Change; in the Kingdom; from Tyrrany, oppresion, & Annarchiy’: _Book 3_, 44. See also _Book 2_, 207 but mispaginated as 205 in the manuscript.
