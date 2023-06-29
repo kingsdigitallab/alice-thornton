@@ -22,7 +22,7 @@ This website will provide resources aimed at better understanding the life and
 work of Alice Thornton and, in due course, will host a fully searchable digital
 edition of all four of her autobiographical texts.
 
-You can now access our [initial release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of 22 pages from one book, in both semi-diplomatic and modernised versions. 
+You can now access our [initial release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of 22 pages from one book, in both semi-diplomatic and modernised versions.
 
 <a class="button-hp" href="#who">
   <p class="button is-primary read-more-hp">
