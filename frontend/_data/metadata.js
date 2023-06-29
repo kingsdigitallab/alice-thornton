@@ -1,5 +1,7 @@
 module.exports = function () {
-  // lcl|dev|stg|liv
+  // lcl|dev|stg|pre|liv
+  // stg: stg code and and dev data (used any other time)
+  // pre: uses stg code and data    (used before a new live release)
   let environment = process.env.SITE_ENV || "lcl";
   let ret = {
     // TODO: harmonise the key notations, currently mixing camelCase & _
@@ -54,7 +56,7 @@ module.exports = function () {
       "http://192.168.0.48:3000": "AT DTS (local:3000)",
     };
   }
-  if (environment == "stg") {
+  if (environment == "pre") {
     ret["text_viewer"]["source"] = {
       "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts-stg/dts.json":
         "AT DTS (stg)",
@@ -67,7 +69,7 @@ module.exports = function () {
     };
   }
 
-  if (["stg", "liv"].includes(environment)) {
+  if (["pre", "liv"].includes(environment)) {
     ret["text_viewer"]["visible_documents"] = {
       book_of_remembrances: [1, 22],
       book_one: [],
