@@ -36,8 +36,8 @@ emphasis. TEI has nothing like a &lt;margin&gt; tag or any tag that is
 because
 
 > marginalia (even print marginalia, much more manuscript marginalia)
-> can express many different relationships with the main text
-> - substitution, addition, commentary, summary, expansion, bibliographic
+> can express many different relationships with the main text - substitution, 
+> addition, commentary, summary, expansion, bibliographic
 > reference, labelling, heading, gloss, etc. - each of which might be
 > captured with a different tag.[^4]
 
@@ -64,6 +64,8 @@ project's decisions are thought through and well documented.)
 ## Marginal signs
 
 ![alt text....]({{ "/assets/img/posts/book1-forgotten.jpg" | url }} "Composite image showing a pair of omission signs at Book 1 p.286 and (inset) p.8"){.media-left}
+
+![alt text....]({{ "/assets/img/posts/BookRem-10-dotted-cross.jpg" | url }} "Book Rem p.12 showing an omission sign"){.media-left}
 
 Book 1 and Book Rem contain the most distinctive and intriguing
 non-textual markers in Thornton's books. Both books include additional
