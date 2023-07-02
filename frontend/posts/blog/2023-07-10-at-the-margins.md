@@ -67,19 +67,18 @@ project's decisions are thought through and well documented.)
 
 ![Image of a manuscript page showing a dotted cross that marks the location of omitted text.]({{ "/assets/img/posts/BookRem-10-dotted-cross.jpg" | url }} "Dotted cross signals an omission, *Book Rem*, p.12"){.media-left}
 
-Book 1 and Book Rem contain the most distinctive and intriguing
-non-textual markers in Thornton's books. Both books include additional
+The books contain a wealth of intriguing graphical symbols; Thornton's frequently-used [hearts](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/) have been discussed on this blog. A rarer set of symbols can be found in *Book 1* and *Book Rem*. Both books include additional
 material at the end which Thornton had "forgotten" to enter in the
 main narrative, beginning in each case with an account of her falling
 and cutting her head at the age of three.[^7] In *Book 1*, Thornton
 signals where she intends this story to be inserted in the main text (at
-p.8) by using a pair of decorative dagger (or obelus) symbols in the margin. I've called them "signes-de-renvoi" or "omission signs", though
+p.8) by using a pair of decorative [dagger](https://en.wikipedia.org/wiki/Dagger_(mark)) (or obelus) symbols in the margin. I've called them "signes-de-renvoi" or "omission signs";
 that may not be strictly accurate because the text being connected is
-not itself in the margin, but they *are* being used as
+not itself in the margin, but they are certainly being used as
 "bi-directional linking devices, requiring the reader to leave and
 return to the main text".[^8] In *Book Rem*, she uses instead a [dotted
 cross](http://www.medievalcodes.ca/2014/08/asterisks-in-middle-ages.html), an early form of the asterisk. This time she places it only on the page she
-points to, not on both pages (see [p.12 of the edition preview](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=p.12)). (Physically it isn't actually in the margin either, but - like much of this tiny book -
+points to, not on both pages (see [p.12 of the edition preview](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=p.12)). (Physically it isn't actually in the margin, but - like much of this tiny book -
 there isn't really space for a margin and it has been placed
 close to the edge of the page.[^9])
 
@@ -122,7 +121,7 @@ audience, not simply for private consumption. Her uses of chapters and
 titles, page numbering and headings, indexes (really more like [tables
 of
 contents](https://drc.usask.ca/projects/archbook/tableofcontents.php)),
-and other features, could all be similarly eccentric,[^11] but they are
+and other features, could all be similarly eccentric, but they are
 a key element of what makes Alice Thornton's Books *books*.
 
 
@@ -150,7 +149,7 @@ a key element of what makes Alice Thornton's Books *books*.
     Computing, and Experience* (Cambridge University Press, 2021),
     65--66, http://www.cambridge.org/core/elements/publishing-scholarly-editions/D5A9FCEA4DECF1DE798B938BA48B2ED3.
 
-[^7]: Book 1: 286ff; Book Rem: 186ff
+[^7]: Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1 (hereafter *Book 1*), pp.286ff; Alice Thornton, *Book of Remembrances* (hereafter *Book Rem*), Durham Cathedral Library (DCL), GB-0033-CCOM 38 pp. 186ff.
 
 [^8]: 'ArchBook: Architectures of the Book --
     &lt;em&gt;Signes-de-Renvoi&lt;/em&gt;', 3 March 2022, https://web.archive.org/web/20220303113341/http://drc.usask.ca/projects/archbook/signes_de_renvoi.php.
@@ -164,7 +163,3 @@ a key element of what makes Alice Thornton's Books *books*.
     Peter Beal, *In Praise of Scribes: Manuscripts and Their Makers in
     Seventeenth-Century England* (Oxford, 1998); Mark Bland, *A Guide to
     Early Printed Books and Manuscripts* (John Wiley & Sons, 2013).
-
-[^11]: There is, for example, a solitary example of a
-    [catchword](https://en.wikipedia.org/wiki/Catchword) in the four
-    books (*Book 2*, 17).
