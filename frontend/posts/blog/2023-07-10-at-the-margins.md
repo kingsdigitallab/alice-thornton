@@ -63,9 +63,9 @@ project's decisions are thought through and well documented.)
 
 ## Marginal signs
 
-![alt text....]({{ "/assets/img/posts/book1-forgotten.jpg" | url }} "Composite image showing a pair of omission signs at Book 1 p.286 and (inset) p.8"){.media-left}
+![Composite image of two manuscript pages showing matching omission signs in the margins.]({{ "/assets/img/posts/book1-forgotten.jpg" | url }} "Pair of omission signs, *Book 1*, p.286 and (inset) p.8"){.media-left}
 
-![alt text....]({{ "/assets/img/posts/BookRem-10-dotted-cross.jpg" | url }} "Book Rem p.12 showing an omission sign"){.media-left}
+![Image of a manuscript page showing a dotted cross that marks the location of omitted text.]({{ "/assets/img/posts/BookRem-10-dotted-cross.jpg" | url }} "Dotted cross signals an omission, *Book Rem*, p.12"){.media-left}
 
 Book 1 and Book Rem contain the most distinctive and intriguing
 non-textual markers in Thornton's books. Both books include additional
@@ -73,24 +73,19 @@ material at the end which Thornton had "forgotten" to enter in the
 main narrative, beginning in each case with an account of her falling
 and cutting her head at the age of three.[^7] In *Book 1*, Thornton
 signals where she intends this story to be inserted in the main text (at
-p.8) by using a pair of matching marginal symbols that look like a
-decorative dagger. I've been calling them "signes-de-renvoi", though
-that may not be strictly accurate (because the text being connected is
-not itself in the margin), but she *does* use the graphical symbols as
+p.8) by using a pair of decorative dagger (or obelus) symbols in the margin. I've called them "signes-de-renvoi" or "omission signs", though
+that may not be strictly accurate because the text being connected is
+not itself in the margin, but they *are* being used as
 "bi-directional linking devices, requiring the reader to leave and
-return to the main text".[^8] In *Book Rem*, she uses a more
-recognisable symbol (a [dotted
-cross](http://www.medievalcodes.ca/2014/08/asterisks-in-middle-ages.html),
-an early form of asterisk), *but* she only uses it on the page she
-points to (see image,
-[p.12](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=p.12)), not
-on both pages. (Physically it isn't actually in the margin either, but
-there isn't any real marginal space on that page and it has been placed
-as close to the edge of the page as possible.[^9])
+return to the main text".[^8] In *Book Rem*, she uses instead a [dotted
+cross](http://www.medievalcodes.ca/2014/08/asterisks-in-middle-ages.html), an early form of the asterisk. This time she places it only on the page she
+points to, not on both pages (see [p.12 of the edition preview](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=p.12)). (Physically it isn't actually in the margin either, but - like much of this tiny book -
+there isn't really space for a margin and it has been placed
+close to the edge of the page.[^9])
 
 ## Textual directions
 
-![alt text....]({{ "/assets/img/posts/book1_80-left-margin-crop.jpg" | url }} "Part of the marginal annotations at Book 1 p.80"){.media-right}
+![Marginal annotations on a manuscript page.]({{ "/assets/img/posts/book1_80-left-margin-crop.jpg" | url }} "Part of the marginal annotations at Book 1 p.80"){.media-right}
 
 There is a good deal of marginalia summarising the main text in the
 margins of the books, but far from evenly distributed: it appears only
