@@ -63,9 +63,9 @@ project's decisions are thought through and well documented.)
 
 ## Marginal signs
 
-![Composite image of two manuscript pages showing matching omission signs in the margins.]({{ "/assets/img/posts/book1-forgotten.jpg" | url }} "Pair of omission signs, *Book 1*, p.286 and (inset) p.8"){.media-left}
+![Composite image of two manuscript pages showing matching omission signs in the margins.]({{ "/assets/img/posts/book1-forgotten.jpg" | url }} "Pair of omission signs, *Book 1*, p.286 and (inset) p.8"){.media-right}
 
-![Image of a manuscript page showing a dotted cross that marks the location of omitted text.]({{ "/assets/img/posts/BookRem-10-dotted-cross.jpg" | url }} "Dotted cross signals an omission, *Book Rem*, p.12"){.media-left}
+![Image of a manuscript page showing a dotted cross that marks the location of omitted text.]({{ "/assets/img/posts/BookRem-10-dotted-cross.jpg" | url }} "Dotted cross signals an omission, *Book Rem*, p.12"){.media-right}
 
 The books contain a wealth of intriguing graphical symbols; Thornton's frequently-used [hearts](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/) have been discussed on this blog. A rarer set of symbols can be found in *Book 1* and *Book Rem*. Both books include additional
 material at the end which Thornton had "forgotten" to enter in the
@@ -84,7 +84,7 @@ close to the edge of the page.[^9])
 
 ## Textual directions
 
-![Marginal annotations on a manuscript page.]({{ "/assets/img/posts/book1_80-left-margin-crop.jpg" | url }} "Part of the marginal annotations at Book 1 p.80"){.media-right}
+![Marginal annotations on a manuscript page.]({{ "/assets/img/posts/book1_80-left-margin-crop.jpg" | url }} "Part of the marginal annotations at Book 1 p.80"){.media-left}
 
 There is a good deal of marginalia summarising the main text in the
 margins of the books, but far from evenly distributed: it appears only
