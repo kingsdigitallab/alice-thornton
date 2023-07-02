@@ -32,6 +32,10 @@ function setUpTextViewer() {
         settings: {
           hiddenControls: [], //["source", "collection"],
         },
+        image: {
+          title: "",
+          description: "",
+        },
         controls: {
           source: "Source",
           collection: "Collection",
@@ -43,10 +47,11 @@ function setUpTextViewer() {
         panels: [
           {
             selectors: {
-              source: {
+              source: window.metadata.text_viewer.source,
+              source_old: {
+                // "http://localhost:3000": "AT DTS (local:3000)",
                 "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts/dts.json":
                   "AT SDTS (github)",
-                "http://localhost:3000": "AT DTS (local:3000)",
                 // format=X is ignored, will always return TEI
                 "https://dev.chartes.psl.eu/api/nautilus/dts": "PSL Chartes",
                 // CORS prevents call to Endpoint
@@ -100,6 +105,8 @@ function setUpTextViewer() {
               navigation: "",
               document: "",
             },
+            error: "",
+            loaded: false,
           },
         ],
       };
@@ -115,6 +122,9 @@ function setUpTextViewer() {
       this.setSelectionFromAddressBar();
     },
     methods: {
+      canClonePanel() {
+        return window.metadata.text_viewer.can_clone_panel;
+      },
       clonePanel(panelIdx) {
         this.panels.push(JSON.parse(JSON.stringify(this.panels[panelIdx])));
         this.setAddressBarFromSelection();
@@ -130,12 +140,12 @@ function setUpTextViewer() {
           this.settings.hiddenControls.includes(controlKey)
         );
       },
-      onChangeSelector(panel, key) {
+      async onChangeSelector(panel, key) {
         if (key.startsWith("_")) return;
         this.setAddressBarFromSelection();
 
         let value = panel.selections[key];
-        this.fetchOptions(panel, key, value);
+        await this.fetchOptions(panel, key, value);
       },
       async fetchOptions(panel, key, value) {
         function addCollection(collection, parentId) {
@@ -200,7 +210,9 @@ function setUpTextViewer() {
           panel.responses.collection.member.map((member) => {
             // EDH uses type instead of @type
             if (member["@type"] == "Resource" || member["type"] == "Resource") {
-              panel.selectors.document[member["@id"]] = member.title;
+              if (this.isDocumentVisible(member["@id"])) {
+                panel.selectors.document[member["@id"]] = member.title;
+              }
             }
           });
           addSubCollections();
@@ -219,7 +231,9 @@ function setUpTextViewer() {
               panel.responses.navigation["hydra:member"];
             members.map((member) => {
               let ref = member["dts:ref"] || member["ref"];
-              panel.selectors.locus[ref] = ref;
+              if (this.isLocusVisible(panel.selections.document, ref)) {
+                panel.selectors.locus[ref] = ref;
+              }
             });
           }
         }
@@ -228,11 +242,31 @@ function setUpTextViewer() {
         }
 
         this.selectDefaultOption(panel, nextKey);
-        this.onChangeSelector(panel, nextKey);
+        await this.onChangeSelector(panel, nextKey);
+      },
+      isDocumentVisible(documentId) {
+        let ret = true;
+        let rules = window.metadata.text_viewer.visible_documents[documentId];
+        if (typeof rules !== "undefined") {
+          ret = rules.length;
+        }
+        return ret;
+      },
+      isLocusVisible(documentId, locus) {
+        let ret = true;
+        let rules = window.metadata.text_viewer.visible_documents[documentId];
+        if (typeof rules !== "undefined") {
+          let locusNumber = locus.match(/\d+/);
+          if (locusNumber) {
+            locusNumber = parseInt(locusNumber[0]);
+            ret = locusNumber >= rules[0] && locusNumber <= rules[1];
+          }
+        }
+        return ret;
       },
       async setLocus(panel, locus) {
         panel.selections.locus = locus;
-        panel.responses.document = `Loading {locus}...`;
+        // panel.responses.document = `Loading ${locus}...`;
         if (panel.selections.document && locus) {
           panel.responses.document = await this.fetchDTS(
             panel,
@@ -246,11 +280,57 @@ function setUpTextViewer() {
         }
       },
       postProcessDocument(panel) {
+        // CLEAN-UP HTML
+
         // convert entities to hyperlinks
         let doc = panel.responses.document;
         // console.log(doc)
         doc = doc.replace(/<\/br>/g, "");
+        // remove spaces around a line break in the middle of a word
+        doc = doc.replace(/\s*(<br[^>]+data-tei-break="no"[^>]*>)\s*/g, "$1");
+        // remove spaces around a line break in the middle of a word
+        doc = doc.replace(
+          /<span class="tei-pc not-a-word" data-tei="pc">-<\/span>(<br[^>]+data-tei-break="no"[^>]*>)/g,
+          '<span class="tei-pc not-a-word divide-word" data-tei="pc">-</span>$1'
+        );
         panel.responses.document = doc;
+
+        // EVENTS
+
+        this.$nextTick(() => {
+          // TODO: attach events only to current panel
+          // const anchors = window.document.querySelectorAll(".tei-anchor");
+          // anchors.forEach((anchors) => {
+          //   if (anchors.classList.contains("managed")) return;
+          //   anchors.addEventListener(
+          //     "click",
+          //     () => {
+          //       anchors.classList.toggle("expanded");
+          //     },
+          //     false
+          //   );
+          //   anchors.classList.add("managed");
+          // });
+
+          // TODO: attach events only to current panel
+          const btnFigures = window.document.querySelectorAll(".btn-figure");
+
+          btnFigures.forEach((btn) => {
+            if (btn.classList.contains("managed")) return;
+            const figure = btn.parentNode.querySelector("figure");
+            for (let element of [btn]) {
+              element.addEventListener(
+                "click",
+                () => {
+                  // figure.classList.toggle("hidden");
+                  this.onClickImageIcon(figure);
+                },
+                false
+              );
+            }
+            btn.classList.add("managed");
+          });
+        });
       },
       selectDefaultOption(panel, key) {
         if (key.startsWith("_")) return;
@@ -262,15 +342,25 @@ function setUpTextViewer() {
         return Object.keys(panel.selectors[key])[0];
       },
       async fetchDTS(panel, service, id, ref, format) {
-        return window.dtsutils.fetchDTS(panel, service, id, ref, format);
-        // if (!format && service == "documents") {
-        //   // ? or content-type?
-        //   // TODO: fallback to TEI?
-        //   format = "html";
-        // }
-        // let url = this.getDTSUrl(panel, service, id, ref, format);
-        // let ret = await this.fetch(url, format);
-        // return ret;
+        panel.error = "";
+        let ret = null;
+
+        panel.loaded = false;
+        try {
+          ret = await window.dtsutils.fetchDTS(panel, service, id, ref, format);
+          panel.loaded = true;
+        } catch (err) {
+          console.log(err);
+          this.setError(
+            panel,
+            `Text download failed. (${service}, ${id}, ${ref})`
+          );
+        }
+
+        return ret;
+      },
+      setError(panel, message) {
+        panel.error = message;
       },
       incrementLocus(panel, steps) {
         let locus = panel.selections.locus;
@@ -280,35 +370,6 @@ function setUpTextViewer() {
           this.setLocus(panel, locus);
         }
       },
-      // getDTSUrl(panel, service, id, ref, format) {
-      //   let ret = panel.selections.source;
-      //   if (service) {
-      //     ret = new URL(ret).origin;
-      //     ret = `${ret}${panel.responses.entryPoint[service]}?`;
-      //     if (id) {
-      //       ret += `&id=${id}`;
-      //     }
-      //     if (ref) {
-      //       ret += `&ref=${ref}`;
-      //     }
-      //     if (format) {
-      //       ret += `&format=${format}`;
-      //     }
-      //   }
-      //   return ret;
-      // },
-      // async fetch(url, format) {
-      //   let ret = null;
-      //   let res = await fetch(url);
-      //   if (res && res.status == 200) {
-      //     if (!format) {
-      //       ret = await res.json();
-      //     } else {
-      //       ret = await res.text();
-      //     }
-      //   }
-      //   return ret;
-      // },
       setAddressBarFromSelection() {
         // ?p1.so=&p1.co=&p2.so=...
         // let searchParams = new URLSearchParams(window.location.search)
@@ -344,14 +405,63 @@ function setUpTextViewer() {
             if (k.startsWith("_")) continue;
             let v = searchParams.get(`p${panelIdx}.${k.substring(0, 2)}`);
             if (!v) v = this.getDefaultOption(panel, k);
-            console.log(panelIdx, k, v);
+            // console.log(panelIdx, k, v);
             panel.selections[k] = v;
           }
           await this.onChangeSelector(panel, "source");
         }
       },
       getContentClasses(panel) {
-        return `view-${panel.selections.view}`;
+        let ret = `view-${panel.selections.view} ${
+          panel.loaded ? "loaded" : ""
+        }`;
+        return ret;
+      },
+      onClickImageIcon(figure) {
+        let figcaption = figure.querySelector("figcaption");
+        let img = figure.querySelector("img");
+        let description = "";
+        for (let child of figure.querySelectorAll("p")) {
+          description += child.outerHTML;
+        }
+        let zoomifyUrl = img.getAttribute("data-src").replace(/\.[^.]+$/, "");
+        zoomifyUrl = `/assets/img/books/viewer/zoomify/${zoomifyUrl}/`;
+        this.openImageModal(
+          zoomifyUrl,
+          img.getAttribute("data-width"),
+          img.getAttribute("data-height"),
+          figcaption.innerHTML,
+          description
+        );
+      },
+      onClickCloseImageModal() {
+        this.image.title = "";
+      },
+      openImageModal(zoomifyUrl, width, height, title, description) {
+        this.image.title = title;
+        this.image.description = description;
+        let tileSources = [
+          {
+            //required
+            type: "zoomifytileservice",
+            width: Number(width),
+            height: Number(height),
+            tilesUrl: zoomifyUrl, // "/assets/img/books/viewer/zoomify/GB-0033-CCOM_38-i/",
+            //optional
+            tileSize: 256,
+            fileFormat: "jpg",
+          },
+        ];
+        if (!this.imageViewer) {
+          this.imageViewer = window.OpenSeadragon({
+            id: "image-viewer",
+            prefixUrl:
+              "/assets/node_modules/openseadragon/build/openseadragon/images/",
+            tileSources: tileSources,
+          });
+        } else {
+          this.imageViewer.open(tileSources);
+        }
       },
     },
   });

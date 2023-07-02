@@ -1,19 +1,18 @@
 ---
-title: "Women’s History Month, 3: Remembrances of encounters with Alice Thornton" 
+title: "Women’s History Month, 3: Remembrances of encounters with Alice Thornton"
 feature: /assets/img/posts/womens_history_month.jpg
 status: live
 authors:
-- egraham
+  - egraham
 tags:
-- manuscripts
-- editing
-- illness
+  - manuscripts
+  - editing
+  - illness
 ---
 
 For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on [Twitter](https://twitter.com/thornton_books) or on [Facebook](https://www.facebook.com/thornton.books).
 
-
-This guest post is by Professor Elspeth Graham, a member of the *Alice Thornton's Books* project board. She works in the field of late sixteenth and seventeenth century literature and cultural studies and has published on seventeenth-century women’s writing. 
+This guest post is by Professor Elspeth Graham, a member of the _Alice Thornton's Books_ project board. She works in the field of late sixteenth and seventeenth century literature and cultural studies and has published on seventeenth-century women’s writing.
 
 CN: pain; cancer; death
 
@@ -21,21 +20,18 @@ It's extraordinary how, every now and then over the space of forty
 years, Alice Thornton has cropped up in my life. Her appearances have
 always been quite unexpected -- and always serendipitous.
 
-
 ![Photo of front cover of Her
 Own Life: Autobiographical Writings by Seventeenth-Century English
 Women]({{"/assets/img/posts/her_own_life_cover.jpg"|url}}){.media-right}
 
-
-
 I can't remember exactly when I first came across her, but I'd read the
-1875 Surtees edition of her *Autobiography* and used extracts of it in
+1875 Surtees edition of her _Autobiography_ and used extracts of it in
 my teaching on an interdisciplinary early-modern Literature and History
 course in the early 1980s. Really, though, it was in the mid-1980s that
 I first began to work on her writings more seriously. Hilary Hinds,
-Elaine Hobby, Helen Wilcox and I were preparing what was to become *Her
+Elaine Hobby, Helen Wilcox and I were preparing what was to become _Her
 Own Life: Autobiographical Writings by Seventeenth-Century English
-Women*.[^1] One of my tasks was to edit Alice Thornton's writings.
+Women_.[^1] One of my tasks was to edit Alice Thornton's writings.
 
 This was difficult: I didn't have a copy text. I knew that there had
 been several manuscript versions of her autobiography that had been in
@@ -49,7 +45,7 @@ Thornton's daughter's family who had owned the manuscripts, I wrote
 dozens of letters to all Combers listed in Yorkshire telephone
 directories. Nothing emerged. Not even a glimmer of a trail appeared.
 All that I discovered was that Yale University Library did have a 1930s
-microfilm of Thornton's *Book of Remembrances*.
+microfilm of Thornton's _Book of Remembrances_.
 
 I wrote and asked Yale for a copy. Sorry, they said, it was too fragile
 to risk copying it. So, one night, in desperation, I telephoned them.
@@ -61,7 +57,7 @@ scholarship in Manchester and had lived on my street. What are the
 chances that a phone call to a random librarian at Yale should produce
 such a connection? And on the strength of this amazing coincidence, the
 librarian made me a copy of the precious microfilm. That was what I used
-as the copy text for *Her Own Life*.
+as the copy text for _Her Own Life_.
 
 Ten years went by. In 1995 my mum was dying from ovarian cancer at home
 in the English Midlands. I had been shocked when I arrived one hot
@@ -85,15 +81,12 @@ contraption on your head'; memories of her young life in India;
 ruminations about how she wouldn't mind having another baby. She
 chattered on and on.
 
-
-
 ![image of 17thC woman on deathbed]({{"/assets/img/posts/metsu_woman_in_agony_wmc.jpg" | url}} "Gabriël Metsu, Woman in Agony (the Death of Sophonisba) (1660). <br>Museum of Fine Art Boston. Public domain."){.media-right}
-
 
 Quite soon, though, she slipped into a full and silent coma. Then
 suddenly one day, as I was moistening her mouth with a sponge lollipop,
 Alice Thornton popped up in my mind. I remembered details from her
-graphic description of *her* mother's death:
+graphic description of _her_ mother's death:
 
 > She had also an exceeding sore throat and mouth... The tongue and mouth at
 > first was black, then turned white... and in the end grew with a white
@@ -124,10 +117,10 @@ they died. And Kate was right. That continuity of experience, that link
 with generations of women over centuries, is profoundly affecting and
 enabling, I've found.
 
-And the relationships with *living* women that have come about through
+And the relationships with _living_ women that have come about through
 shared knowledge of the writings of Alice Thornton and other
 seventeenth-century women are equally a cause for celebration. The four
-of us who worked on *Her Own Life* are still cherished friends. And it
+of us who worked on _Her Own Life_ are still cherished friends. And it
 was [Suzanne Trill](https://thornton.kdl.kcl.ac.uk/people/strill/) --
 another friend met through mutual concerns with early-modern women's
 writing -- who told me about the extraordinary serendipities surrounding
@@ -137,10 +130,10 @@ and the setting up of the Alice Thornton's Books project. Alice's life,
 it seems, has lived on in the lives of others in extraordinarily
 unexpected -- and rather wonderful -- ways.
 
-[^1]: Elspeth Graham et al., eds., *Her Own Life: Autobiographical
-    Writings by Seventeenth-Century Englishwomen* (London: Routledge,
+[^1]:
+    Elspeth Graham et al., eds., _Her Own Life: Autobiographical
+    Writings by Seventeenth-Century Englishwomen_ (London: Routledge,
     1989), https://doi.org/10.4324/9780203358962.
 
-[^2]: The text quoted above is from the project's work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. "She had also an exiding sore throat & mouth... The Toung & mouth at first was blacke. then turnd white... and in the end grew with a white skinn all over". Alice Thornton, *Book of Remembrances*, Durham Cathedral Library, GB-0033-CCOM 38, 32.
-
-[^3]: "lift up both hands & eies to heaven 3 times". *Book of Remembrances*, 37.
+[^2]: The text quoted above is from the project's work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. "She had also an exiding sore throat & mouth... The Toung & mouth at first was blacke. then turnd white... and in the end grew with a white skinn all over". Alice Thornton, _Book of Remembrances_, Durham Cathedral Library, GB-0033-CCOM 38, 32.
+[^3]: "lift up both hands & eies to heaven 3 times". _Book of Remembrances_, 37.
