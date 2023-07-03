@@ -22,8 +22,8 @@ with the margins of their books".[^2]
 
 However, these projects are largely interested in marginal annotations
 as readers' engagements with *other people's* writing. Thornton's
-marginalia, in the main, are author's signposts to the reader, more
-like the printed marginal additions commonly used in early modern books
+marginalia, in the main, are author's signposts to the reader,
+like the use of the margins in early modern printed books
 to provide commentary, explanation, summaries or references (much of
 which would later make its way to the foot of the page[^3]).
 
@@ -55,10 +55,9 @@ However, this pragmatic flexibility brings its own problems, as noted by
 Laura Estill: it's difficult even within one project to search for all
 its marginal elements if they are marked up differently, and even more
 so to compare marginalia from different projects for any kind of
-quantitative text analysis.[^5] (One significant marginalia project
-eschewed TEI because of its downsides and limitations.[^6] I don't
-think we'll go that far, but it is particularly important that the
-project's decisions are thought through and well documented.)
+quantitative text analysis.[^5] One significant marginalia project
+eschewed TEI because of its downsides and limitations.[^6] We won't go that far, but it is particularly important that the
+project's decisions are thought through and well documented.
 
 
 ## Marginal signs
@@ -67,7 +66,7 @@ project's decisions are thought through and well documented.)
 
 ![Image of a manuscript page showing a dotted cross that marks the location of omitted text.]({{ "/assets/img/posts/BookRem-10-dotted-cross.jpg" | url }} "Dotted cross signals an omission, *Book Rem*, p.12"){.media-right}
 
-The books contain a wealth of intriguing graphical symbols; Thornton's frequently-used [hearts](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/) have been discussed on this blog. A rarer set of symbols can be found in *Book 1* and *Book Rem*. Both books include additional
+The books contain a wealth of intriguing graphical symbols; Thornton's frequently-used [hearts](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/) have been discussed on this blog. A rarer set of symbols can be found in both *Book 1* and *Book Rem*. Both books include additional
 material at the end which Thornton had "forgotten" to enter in the
 main narrative, beginning in each case with an account of her falling
 and cutting her head at the age of three.[^7] In *Book 1*, Thornton
@@ -86,10 +85,10 @@ close to the edge of the page.[^9])
 
 ![Marginal annotations on a manuscript page.]({{ "/assets/img/posts/book1_80-left-margin-crop.jpg" | url }} "Part of the marginal annotations at Book 1 p.80"){.media-left}
 
-There is a good deal of marginalia summarising the main text in the
-margins of the books, but far from evenly distributed: it appears only
-in *Book 1* and *Book 3*. It's most extensive in the first 64 pages of
-*Book 3*, which has a large space set aside throughout. But even there
+There are plenty of marginal summaries of the main text in the
+the books, but they're far from evenly distributed: they appear only
+in *Book 1* and *Book 3*. The material is most extensive in the first 64 pages of
+*Book 3*, which has a large space set aside throughout, but even there
 the marginal annotation stops very abruptly.
 
 In *Book 1*, most of it is on one heavily annotated page (p.80), where
@@ -103,14 +102,14 @@ rather disordered, jumping from events around [Marston
 Moor](http://bcw-project.org/military/english-civil-war/northern-england/battle-of-marston-moor)
 and its aftermath in 1644, back to an episode of food poisoning in
 September 1643, and then forward again to arrival at Hipswell. The
-marginal notes on p.80 summarise the actual chronology of events between
-September and November 1643. Perhaps they were an attempt to provide a
+marginal notes on p.80 summarise the actual chronological order of events between
+September and November 1643, restoring the displaced "surfeit of lobster" to its proper place in events. So perhaps this was an attempt to provide a
 guide to the poor confused reader.
 
 ## Thornton as scribe
 
 In seventeenth-century England manuscript and print publication
-co-existed.[^10] The marginal markers in Alice Thornton's Books connect
+co-existed.[^10] The marginal symbols in Alice Thornton's Books connect
 her particularly to the world of scribal publication; she seems to have
 understood scribal practices, even if she applied them in idiosyncratic
 and inconsistent ways (she was, after all, not a professional scribe and
