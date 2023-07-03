@@ -133,8 +133,7 @@ a key element of what makes Alice Thornton's Books *books*.
     [Melville](https://melvillesmarginalia.org/);
     [Blake](https://blog.blakearchive.org/?s=marginalia).
 
-[^3]: Anthony Grafton, *The Footnote: A Curious History* (Harvard
-    University Press, 1999).
+[^3]: Kwakkel, *Books Before Print*, chap. 4; Anthony Grafton, *The Footnote: A Curious History* (Harvard University Press, 1999).
 
 [^4]: Paul Schaffner, 'Re: Marginalia', *TEI-L Archives*, 28 January
     2014,
@@ -146,12 +145,11 @@ a key element of what makes Alice Thornton's Books *books*.
 
 [^6]: Christopher Ohge, *Publishing Scholarly Editions: Archives,
     Computing, and Experience* (Cambridge University Press, 2021),
-    65--66, http://www.cambridge.org/core/elements/publishing-scholarly-editions/D5A9FCEA4DECF1DE798B938BA48B2ED3.
+    65-66, http://www.cambridge.org/core/elements/publishing-scholarly-editions/D5A9FCEA4DECF1DE798B938BA48B2ED3.
 
 [^7]: Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1 (hereafter *Book 1*), pp.286ff; Alice Thornton, *Book of Remembrances* (hereafter *Book Rem*), Durham Cathedral Library (DCL), GB-0033-CCOM 38 pp. 186ff.
 
-[^8]: 'ArchBook: Architectures of the Book --
-    &lt;em&gt;Signes-de-Renvoi&lt;/em&gt;', 3 March 2022, https://web.archive.org/web/20220303113341/http://drc.usask.ca/projects/archbook/signes_de_renvoi.php.
+[^8]: Benjamin Neudorf and Yin Liu, "Signes-de-Renvoi", *ArchBook: Architectures of the Book*, 3 March 2022, https://drc.usask.ca/projects/archbook/signes_de_renvoi.php.
 
 [^9]: Kwakkel, *Books Before Print*, 47, notes how space for margins had
     to be planned before writing the manuscript book could even begin.
