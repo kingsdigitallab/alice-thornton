@@ -149,7 +149,7 @@ a key element of what makes Alice Thornton's Books *books*.
 
 [^7]: Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1 (hereafter *Book 1*), pp.286ff; Alice Thornton, *Book of Remembrances* (hereafter *Book Rem*), Durham Cathedral Library (DCL), GB-0033-CCOM 38 pp. 186ff.
 
-[^8]: Benjamin Neudorf and Yin Liu, "Signes-de-Renvoi", *ArchBook: Architectures of the Book*, 3 March 2022, https://drc.usask.ca/projects/archbook/signes_de_renvoi.php.
+[^8]: Benjamin Neudorf and Yin Liu, "Signes-de-Renvoi", *ArchBook: Architectures of the Book*, 2016, https://drc.usask.ca/projects/archbook/signes_de_renvoi.php.
 
 [^9]: Kwakkel, *Books Before Print*, 47, notes how space for margins had
     to be planned before writing the manuscript book could even begin.
