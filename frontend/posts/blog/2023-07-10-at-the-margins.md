@@ -91,8 +91,8 @@ in *Book 1* and *Book 3*. The material is most extensive in the first 64 pages o
 *Book 3*, which has a large space set aside throughout, but even there
 the marginal annotation stops very abruptly.
 
-In *Book 1*, most of it is on one heavily annotated page (p.80), where
-she refers to five distinct events in the text. Not all of them relate
+In *Book 1*, much of it is on one heavily annotated page (p.80), where
+she refers to five distinct events in the text. Oddly, however, not all of them relate
 to text on that page. So why are they there? Between pages 78 and 85,
 Thornton gives an account of her family's Civil War journey, leaving
 Chester in late August 1643 and eventually settling at [Hipswell
@@ -103,7 +103,7 @@ Moor](http://bcw-project.org/military/english-civil-war/northern-england/battle-
 and its aftermath in 1644, back to an episode of food poisoning in
 September 1643, and then forward again to arrival at Hipswell. The
 marginal notes on p.80 summarise the actual chronological order of events between
-September and November 1643, restoring the displaced "surfeit of lobster" to its proper place in events. So perhaps this was an attempt to provide a
+September and November 1643, restoring the displaced "surfeit of lobster" to its proper place. So perhaps this was an attempt to provide a
 guide to the poor confused reader.
 
 ## Thornton as scribe
