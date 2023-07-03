@@ -110,7 +110,7 @@ guide to the poor confused reader.
 
 In seventeenth-century England manuscript and print publication
 co-existed.[^11] The marginal symbols in Alice Thornton's Books connect
-her particularly to the world of scribal publication; she seems to have
+her in particular to the world of scribal publication; she seems to have
 understood scribal practices, even if she applied them in idiosyncratic
 and inconsistent ways (she was, after all, not a professional scribe and
 she didn't have an editor). Moreover, these marginal features, along
