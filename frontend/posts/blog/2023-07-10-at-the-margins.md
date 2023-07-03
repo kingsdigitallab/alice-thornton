@@ -78,7 +78,7 @@ not itself in the margin, but they are certainly being used as
 return to the main text".[^8] In *Book Rem*, she uses instead a [dotted
 cross](http://www.medievalcodes.ca/2014/08/asterisks-in-middle-ages.html), an early form of the asterisk. This time she places it only on the page she
 points to, not on both pages (see [p.12 of the edition preview](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=p.12)). (Physically it isn't actually in the margin, but - like much of this tiny book -
-there isn't really space for a margin and it has been placed
+there isn't really space for a margin and it *has* been placed
 close to the edge of the page.[^9])
 
 ## Textual directions
@@ -89,7 +89,7 @@ There are plenty of marginal summaries of the main text in the
 the books, but they're far from evenly distributed: they appear only
 in *Book 1* and *Book 3*. The material is most extensive in the first 64 pages of
 *Book 3*, which has a large space set aside throughout, but even there
-the marginal annotation stops very abruptly.
+the marginal annotation stops very abruptly.[^10]
 
 In *Book 1*, much of it is on one heavily annotated page (p.80), where
 she refers to five distinct events in the text. Oddly, however, not all of them relate
@@ -109,7 +109,7 @@ guide to the poor confused reader.
 ## Thornton as scribe
 
 In seventeenth-century England manuscript and print publication
-co-existed.[^10] The marginal symbols in Alice Thornton's Books connect
+co-existed.[^11] The marginal symbols in Alice Thornton's Books connect
 her particularly to the world of scribal publication; she seems to have
 understood scribal practices, even if she applied them in idiosyncratic
 and inconsistent ways (she was, after all, not a professional scribe and
@@ -129,7 +129,7 @@ a key element of what makes Alice Thornton's Books *books*.
     2018), 56, https://doi.org/10.1017/9781942401636.
 
 [^2]: Several projects have focused on the marginalia of particular
-    authors, eg [Whitman](https://whitmanarchive.org/manuscripts/marginalia/introduction.html);
+    authors as readers, eg [Whitman](https://whitmanarchive.org/manuscripts/marginalia/introduction.html);
     [Melville](https://melvillesmarginalia.org/);
     [Blake](https://blog.blakearchive.org/?s=marginalia).
 
@@ -147,14 +147,16 @@ a key element of what makes Alice Thornton's Books *books*.
     Computing, and Experience* (Cambridge University Press, 2021),
     65-66, http://www.cambridge.org/core/elements/publishing-scholarly-editions/D5A9FCEA4DECF1DE798B938BA48B2ED3.
 
-[^7]: Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1 (hereafter *Book 1*), pp.286ff; Alice Thornton, *Book of Remembrances* (hereafter *Book Rem*), Durham Cathedral Library (DCL), GB-0033-CCOM 38 pp. 186ff.
+[^7]: Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1 (hereafter *Book 1*), pp.286ff; Alice Thornton, *Book of Remembrances*, Durham Cathedral Library (DCL), GB-0033-CCOM 38 (hereafter *Book Rem*), pp. 186ff.
 
-[^8]: Benjamin Neudorf and Yin Liu, "Signes-de-Renvoi", *ArchBook: Architectures of the Book*, 2016, https://drc.usask.ca/projects/archbook/signes_de_renvoi.php.
+[^8]: Benjamin Neudorf and Yin Liu, "Signes-de-Renvoi", *ArchBook: Architectures of the Book* (2016), https://drc.usask.ca/projects/archbook/signes_de_renvoi.php.
 
 [^9]: Kwakkel, *Books Before Print*, 47, notes how space for margins had
     to be planned before writing the manuscript book could even begin.
+    
+[^10]: Alice Thornton, *Book 3: The Second Book of My Widowed Condition*, British Library MS Add 88897/2.
 
-[^10]: See, for example, Harold Love, *Scribal Publication in
+[^11]: See, for example, Harold Love, *Scribal Publication in
     Seventeenth-Century England* (Oxford: Oxford University Press,
     1993);
     Peter Beal, *In Praise of Scribes: Manuscripts and Their Makers in
