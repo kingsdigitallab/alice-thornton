@@ -1,6 +1,7 @@
 ---
 pageImageWebPath: "/assets/img/logos/alice-thornton-logo-img.jpeg"
 isContentHTML: false
+isPageFluid: false
 ---
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -47,7 +48,7 @@ isContentHTML: false
   <body class="{{ body_class }}">
     {% include "header.liquid" %}
     <section class="section">
-      <div class="container">
+      <div class="container {% if isPageFluid %}is-fluid{% endif %}">
         <h1 class="title">
           {{ title }}
         </h1>

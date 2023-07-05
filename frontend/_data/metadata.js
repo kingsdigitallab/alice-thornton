@@ -37,6 +37,7 @@ module.exports = function () {
       },
       visible_documents: {},
       can_clone_panel: true,
+      max_panels: 4,
     },
     environment: environment,
     // which of the above metadata to pass to front-end javascript
@@ -76,7 +77,7 @@ module.exports = function () {
       book_two: [],
       book_three: [],
     };
-    ret["text_viewer"]["can_clone_panel"] = false;
+    // ret["text_viewer"]["can_clone_panel"] = false;
   }
 
   ret["front_end"] = {};

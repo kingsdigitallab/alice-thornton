@@ -121,10 +121,15 @@ function setUpTextViewer() {
       // http://localhost:8080/books/viewer/?&p0.lo=p.1&p1.do=https://thornton.kdl.kcl.ac.uk/dts/ids/thornton-books/book_one/&p1.lo=p.2&p1.vi=modern
       this.setSelectionFromAddressBar();
     },
-    methods: {
+    computed: {
       canClonePanel() {
-        return window.metadata.text_viewer.can_clone_panel;
+        return (
+          window.metadata.text_viewer.can_clone_panel &&
+          this.panels.length < window.metadata.text_viewer.max_panels
+        );
       },
+    },
+    methods: {
       clonePanel(panelIdx) {
         this.panels.push(JSON.parse(JSON.stringify(this.panels[panelIdx])));
         this.setAddressBarFromSelection();
