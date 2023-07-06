@@ -24,8 +24,8 @@ However, these projects are largely interested in marginal annotations
 as readers' engagements with *other people's* writing. Thornton's
 marginalia, in the main, are author's signposts to the reader,
 like the use of the margins in early modern printed books
-to provide commentary, explanation, summaries or references (much of
-which would later make its way to the foot of the page[^3]).
+to provide commentary, explanation, summaries or references, much of
+which would later make its way to the foot of the page.[^3]
 
 ## TEI and marginalia
 
@@ -64,9 +64,9 @@ project's decisions are thought through and well documented.
 
 ![Composite image of two manuscript pages showing matching omission signs in the margins.]({{ "/assets/img/posts/book1-forgotten.jpg" | url }} "Pair of omission signs, *Book 1*, p.286 and (inset) p.8"){.media-right}
 
-![Image of a manuscript page showing a dotted cross that marks the location of omitted text.]({{ "/assets/img/posts/BookRem-10-dotted-cross.jpg" | url }} "Dotted cross signals an omission, *Book Rem*, p.12"){.media-right}
+![Image of a manuscript page showing a dotted cross that marks the location of omitted text.]({{ "/assets/img/posts/BookRem-10-dotted-cross.jpg" | url }} "Dotted cross signals an omission, *Book of Remembrances*, p.12"){.media-right}
 
-The books contain a wealth of intriguing graphical symbols; Thornton's frequently-used [hearts](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/) have been discussed on this blog. A rarer set of symbols can be found in both *Book 1* and *Book Rem*. Both books include additional
+The books contain a wealth of intriguing graphical symbols; Thornton's frequently-used [hearts](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/) have been discussed on this blog. A rarer set of symbols can be found in both *Book 1* and *Book of Remembrances*. Both books include additional
 material at the end which Thornton had "forgotten" to enter in the
 main narrative, beginning in each case with an account of her falling
 and cutting her head at the age of three.[^7] In *Book 1*, Thornton
@@ -75,11 +75,11 @@ p.8) by using a pair of decorative [dagger](https://en.wikipedia.org/wiki/Dagger
 that may not be strictly accurate because the text being connected is
 not itself in the margin, but they are certainly being used as
 "bi-directional linking devices, requiring the reader to leave and
-return to the main text".[^8] In *Book Rem*, she uses instead a [dotted
+return to the main text".[^8] In *Book of Remembrances*, she uses instead a [dotted
 cross](http://www.medievalcodes.ca/2014/08/asterisks-in-middle-ages.html), an early form of the asterisk. This time she places it only on the page she
-points to, not on both pages (see [p.12 of the edition preview](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=p.12)). (Physically it isn't actually in the margin, but - like much of this tiny book -
+points to, not on both pages (see [p.12 of the edition preview](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=p.12)). Physically it isn't actually in the margin, but - like much of this tiny book -
 there isn't really space for a margin and it *has* been placed
-close to the edge of the page.[^9])
+close to the edge of the page.[^9]
 
 ## Textual directions
 
@@ -114,7 +114,7 @@ her in particular to the world of scribal publication; she seems to have
 understood scribal practices, even if she applied them in idiosyncratic
 and inconsistent ways (she was, after all, not a professional scribe and
 she didn't have an editor). Moreover, these marginal features, along
-with other aids to the reader that are equally part of the apparatus of
+with her other aids to the reader that are equally part of the apparatus of
 printed books, indicate that she was consciously writing for an
 audience, not simply for private consumption. Her uses of chapters and
 titles, page numbering and headings, indexes (really more like [tables
