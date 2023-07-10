@@ -132,6 +132,7 @@ function setUpTextViewer() {
     methods: {
       clonePanel(panelIdx) {
         this.panels.push(JSON.parse(JSON.stringify(this.panels[panelIdx])));
+        this.addEventsToTexts();
         this.setAddressBarFromSelection();
       },
       closePanel(panelIdx) {
@@ -301,7 +302,10 @@ function setUpTextViewer() {
         panel.responses.document = doc;
 
         // EVENTS
-
+        this.addEventsToTexts();
+      },
+      addEventsToTexts() {
+        // add the javascript events to all loaded texts
         this.$nextTick(() => {
           // TODO: attach events only to current panel
           // const anchors = window.document.querySelectorAll(".tei-anchor");
