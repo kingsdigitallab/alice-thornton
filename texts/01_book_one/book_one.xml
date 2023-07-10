@@ -279,9 +279,14 @@
                     <desc>xslt added place IDs to place/geog names. </desc>
                 </change>
                 <change>
-                    <date>2023-0301</date>
+                    <date>2023-03-01</date>
                     <name>Sharon Howard</name>
                     <desc>VARDed file using w/norm tagging.</desc>
+                </change>
+                <change>
+                    <date>2023-07-10</date>
+                    <name>Jo Edge</name>
+                    <desc>Modernisation tagging first 22 pages.</desc>
                 </change>
             </listChange>
         </revisionDesc>
@@ -925,32 +930,32 @@ point to <category> elements or to feature structure components.
             
                 <fw type="pageNum">16</fw> <lb/>
             
-            Wee had undoubtedly perished, <w norm="being">beeing</w> drove by<lb/>
-                the force of Tempest <w norm="back">backe</w> in to <rs ref="place:IrisS_130" n="geog2" type="geog">the <w norm="cross">crosse</w> Seas</rs>. &amp; <lb/>
-                 <w norm="ten">10</w> <w norm="hours">houers</w> were at Anchor, beaten on the <w norm="Sands">Sandes</w> <lb/>
-                 before that fisher man could come <w norm="near">neare</w> to <w norm="help">helpe</w> us.<lb/>
-                 at the last, about <w norm="eight">8</w> <w norm="o'clock">a clocke</w> at night, we got Safe<lb/>
-                <add xml:id="ex-add-margin-above-01" place="left margin above">To harbour</add>
+            <w norm="we">Wee</w> had undoubtedly perished, <w norm="being">beeing</w> drove by<lb/>
+                the force of <w norm="tempest" type="l">Tempest</w> <w norm="back">backe</w> in to <rs ref="place:IrisS_130" n="geog2" type="geog">the <w norm="cross">crosse</w> <w norm="seas" type="l">Seas</w></rs><surplus reason="superfluous">.</surplus> <supplied reason="mod">(</supplied>&amp; <lb/>
+                 <w norm="ten">10</w> <w norm="hours">houers</w> were at <w norm="anchor" type="l">Anchor</w>, beaten on the <w norm="sands">Sandes</w><supplied reason="mod">,</supplied> <lb/>
+                 before that fisher man could come <w norm="near">neare</w> to <w norm="help">helpe</w> us<supplied reason="mod">)</supplied>.<lb/>
+                 <w norm="At" type="u">at</w> the last, about <w norm="eight">8</w> <w norm="o'clock">a clocke</w> at night, we got <w norm="safe" type="l">Safe</w><lb/>
+                <add xml:id="ex-add-margin-above-01" place="left margin above"><w norm="to" type="l">To</w> harbour</add>
                  <!-- [endnote] [insertion] This insertion is partially placed in the left-hand margin. -->
-                 through the <w norm="infinite">infinitt</w> <w norm="mercies">mercys</w> of our great, &amp; <w norm="Powerful">Powerfull</w><lb/>
-                 Lord God, we landed safely at the shore of <placeName ref="place:Sker_115" n="place-supp4">the Skirries</placeName>.<lb/><!-- NOTE [place] This is Skerries, Dublin, not Skerries off Anglesey - JE -->
-                 where <persName ref="ppl:xh1" n="per47">the same Hubert</persName> with all his <w norm="family">familie</w>, &amp; <w norm="friends">freinds</w><lb/>
-                 <w norm="met">mett</w> us with great Joy, entertaining <rs ref="ppl:aow1" n="per48" type="person">my mother</rs> &amp;<lb/>
-                 All hers, with <w norm="abundant">abundante</w> affection, &amp; <w norm="kindness">kindenesse</w>.<lb/>
-                 Which he did <w norm="upon">uppon</w> the account of obligation, to <w norm="show">shew</w><lb/>
-                 his gratitude for an <w norm="Eminent">Emminent</w> <w norm="piece">peice</w> of Justice<lb/>
-                 <w norm="done">don</w> him from <rs ref="ppl:cw1" n="per49" type="person">my father</rs>. <w norm="who">whoe</w> had decided a<lb/>
-                 grand <w norm="controversy">controversie</w> in Law suites, which was depending<lb/>
-                 20 <w norm="years">yeares</w>, almost to his utter <w norm="Ruin">Ruine</w>. his adversary<lb/>
-                 being so potent. that he could not <w norm="get">gett</w> his cause hea<add place="above">rd</add><lb/>
-                 till that time; when through the <w norm="uprightness">uprightnesse</w> of the <lb/>
-                 Judge, &amp; <w norm="honesty">honnesty</w> of the man his cause rightly de<pc>-</pc><lb break="no"/>
-                 termined. &amp; he preserved.</p>
-            <p xml:id="p-0036">This providence was the more remarkable. that God<lb/>
-                 <w norm="so">soe</w> ordered our ship to this shore, where <rs ref="ppl:aow1" type="person">my Moth<ex>er</ex></rs><lb/>
-                 found <add xml:id="ex-add-above-02" place="above">all</add> manner of <w norm="relief">releife</w> for us all which we wanted<lb/>
-                And on <date when-custom="1639-08-23">the next day</date>, Came <rs ref="ppl:cw1" n="per50" type="person">My father</rs> from <placeName ref="place:Dubl_088" n="place21">Dublin</placeName><lb/>
-                 in the company of ma<add xml:id="ex-add-above-03" place="above">n</add>y noble <w norm="friends">freinds</w> in <w norm="Coaches">Coatches</w>.<lb/>
+                through the <w norm="infinite">infinitt</w> <w norm="mercies">mercys</w> of our great<surplus reason="superfluous">,</surplus> &amp; <w norm="powerful">Powerfull</w><lb/>
+                 Lord God<pc norm=".">,</pc> <w norm="We" type="u">we</w> landed safely at the shore of <placeName ref="place:Sker_115" n="place-supp4">the <w norm="Skerries">Skirries</w></placeName><surplus reason="superfluous">.</surplus><lb/><!-- NOTE [place] This is Skerries, Dublin, not Skerries off Anglesey - JE -->
+                 where <persName ref="ppl:xh1" n="per47">the same Hubert</persName><supplied reason="mod">,</supplied> with all his <w norm="family">familie</w><surplus reason="superfluous">,</surplus> &amp; <w norm="friends">freinds</w><supplied reason="mod">,</supplied><lb/>
+                 <w norm="met">mett</w> us with great <w norm="joy" type="l">Joy</w>, entertaining <rs ref="ppl:aow1" n="per48" type="person">my mother</rs> &amp;<lb/>
+                 <w norm="all" type="l">All</w> hers<surplus reason="superfluous">,</surplus> with <w norm="abundant">abundante</w> affection<surplus reason="superfluous">,</surplus> &amp; <w norm="kindness">kindenesse</w>.<lb/>
+                 Which he did <w norm="upon">uppon</w> the account of obligation<surplus reason="superfluous">,</surplus> to <w norm="show">shew</w><lb/>
+                 his gratitude for an <w norm="eminent">Emminent</w> <w norm="piece">peice</w> of <w norm="justice" type="l">Justice</w><lb/>
+                 <w norm="done">don</w> him from <rs ref="ppl:cw1" n="per49" type="person">my father</rs><pc norm=",">.</pc> <w norm="who">whoe</w> had decided a<lb/>
+                 grand <w norm="controversy">controversie</w> in <w norm="lawsuits">Law suites</w>, which was depending<lb/>
+                 <w norm="twenty">20</w> <w norm="years">yeares</w><surplus reason="superfluous">,</surplus> almost to his utter <w norm="ruin">Ruine</w>. <w norm="His" type="u">his</w> adversary<lb/>
+                 being so potent<surplus reason="superfluous">.</surplus> that he could not <w norm="get">gett</w> his cause hea<add place="above">rd</add><lb/>
+                 <w norm="until">till</w> that time<pc norm=",">;</pc> when <supplied reason="mod">—</supplied> through the <w norm="uprightness">uprightnesse</w> of the <lb/>
+                <w norm="judge" type="l">Judge</w><surplus reason="superfluous">,</surplus> &amp; <w norm="honesty">honnesty</w> of the man <supplied reason="mod">—</supplied> his cause rightly de<pc>-</pc><lb break="no"/>
+                 termined<pc norm=",">.</pc> &amp; he preserved.</p>
+            <p xml:id="p-0036">This providence was the more remarkable<surplus reason="superfluous">.</surplus> that God<lb/>
+                 <w norm="so">soe</w> ordered our ship to this shore<surplus reason="superfluous">,</surplus> where <rs ref="ppl:aow1" type="person">my <w norm="mother" type="l">Moth<ex>er</ex></w></rs><lb/>
+                 found <add xml:id="ex-add-above-02" place="above">all</add> manner of <w norm="relief">releife</w> for us all<supplied reason="mod">,</supplied> which we wanted<supplied reason="mod">.</supplied><lb/>
+                And on <date when-custom="1639-08-23">the next day</date>, <w norm="came" type="l">Came</w> <rs ref="ppl:cw1" n="per50" type="person"><w norm="my" type="l">My</w> father</rs> from <placeName ref="place:Dubl_088" n="place21">Dublin</placeName><lb/>
+                 in the company of ma<add xml:id="ex-add-above-03" place="above">n</add>y noble <w norm="friends">freinds</w> in <w norm="coaches">Coatches</w><surplus reason="superfluous">.</surplus><lb/>
             
 
             <pb xml:id="page-017" n="17"/>
@@ -960,40 +965,40 @@ point to <category> elements or to feature structure components.
             
                 <fw type="pageNum">17</fw> <lb/>
             
-             To <w norm="carry">carrie</w> us home to <placeName ref="place:Dubl_088" n="place22">Dublin</placeName> where <rs ref="ppl:aow1" n="per51" type="person">my <w norm="dear">deare</w> Mother</rs><lb/>
-                 was <w norm="received">receaved</w> with all Joy &amp; <w norm="gladness">gladnesse</w>.<anchor n="ev12" type="event"/> <w norm="living">liveing</w> in <lb/>
-                much peace &amp; <w norm="happiness">happinesse</w> till the death of <rs ref="ppl:cw1" n="per52" type="person">my <choice><abbr>Hon.<am rend="superscript">red</am></abbr><expan>honoured</expan></choice><lb/>
-                     Father</rs>. 
-                <milestone n="ev13" unit="event"/>When about <date when-custom="1641-12">a <w norm="year">yeare</w> <w norm="after">affter</w> his death</date>. she <lb/>
+             <w norm="to" type="l">To</w> <w norm="carry">carrie</w> us home to <placeName ref="place:Dubl_088" n="place22">Dublin</placeName> where <rs ref="ppl:aow1" n="per51" type="person">my <w norm="dear">deare</w> <w norm="mother" type="l">Mother</w></rs><lb/>
+                 was <w norm="received">receaved</w> with all <w norm="joy" type="l">Joy</w> &amp; <w norm="gladness">gladnesse</w><pc norm=",">.</pc><anchor n="ev12" type="event"/> <w norm="living">liveing</w> in <lb/>
+                much peace &amp; <w norm="happiness">happinesse</w> <w norm="until">till</w> the death of <rs ref="ppl:cw1" n="per52" type="person">my <choice><abbr>Hon.<am rend="superscript">red</am></abbr><expan>honoured</expan></choice><lb/>
+                     <w norm="father" type="l">Father</w></rs>. 
+                <milestone n="ev13" unit="event"/>When<supplied reason="mod">,</supplied> about <date when-custom="1641-12">a <w norm="year">yeare</w> <w norm="after">affter</w> his death</date><pc norm=",">.</pc> she <lb/>
                  was forced to <w norm="fly">flie</w> into <placeName ref="place:Engl_094" n="place23">England</placeName>, <w norm="upon">uppon</w> the Rebellion<lb/>
-                 which brake out in <placeName ref="place:Irel_096" n="place24">Ireland</placeName>.<anchor n="ev13" type="event"/></p>
+                 which <w norm="broke">brake</w> out in <placeName ref="place:Irel_096" n="place24">Ireland</placeName>.<anchor n="ev13" type="event"/></p>
             
             <!-- NOTE [div]? new event, but I think not new div -->
             <p xml:id="p-0037">
                 <milestone n="ev14" unit="event"/>
                 But I must not <w norm="forget">forgett</w> a second preservation of<lb/>
-                 my <w norm="own">owne</w> <w norm="Self">Selfe</w> from <w norm="drowning">drowneing</w>. out of that Ship, at<lb/>
+                 my <w norm="own">owne</w> <w norm="self">Selfe</w> from <w norm="drowning">drowneing</w><surplus reason="superfluous">.</surplus> out of that <w norm="ship">Ship</w><surplus reason="superfluous">,</surplus> at<lb/>
                  that time, when a cable from the <w norm="boat">bote</w> that came to <lb/>
-                 <w norm="carry">carrie</w> us to land, &amp; <w norm="being">beeing</w> tied to our Ship. by it's<lb/>
-                 force, had like to have <w norm="pulled">pulld</w> me out of the Ship in<lb/>
-                 to the Sea. Which it had <w norm="done">don</w>, but that by Gods providen<add place="above">ce</add><lb/>
-                <rs n="per53" type="person">a Shipman</rs><!-- NOTE [people] unidentifiable afaics, but keep rs tag for now. --> <w norm="coming">comming</w> at that <w norm="minute">minuite</w> from under the <lb/>
-                 <w norm="Deck">Decke</w> pulled me <w norm="back">backe</w>, &amp; saved me from falling<lb/>
-                into <rs ref="place:Iris_130" n="geog3" type="geog">that <w norm="Tempestuous">Tempestious</w> Sea</rs>, when I was <w norm="half">halfe</w> over<lb/>
-                 <w norm="board">borde</w>.<anchor n="ev14" type="event"/> This great &amp; <w type="add" norm="wonderful">wonder<add place="above">full</add></w> mercy, &amp; my Single<lb/>
-                 deliverance must not be forgotten but had in a <lb/>
-                 <w type="add" norm="perpetual">perp<add place="above">e</add>tuall</w> remembrance of me forever &amp; therefore<lb/>
+                 <w norm="carry">carrie</w> us to land<surplus reason="superfluous">,</surplus> &amp; <w norm="being">beeing</w> tied to our <w norm="ship" type="l">Ship</w><pc norm=",">.</pc> by <w norm="its">it's</w><lb/>
+                 force<surplus reason="superfluous">,</surplus> had like to have <w norm="pulled">pulld</w> me out of the <w norm="ship" type="l">Ship</w> in<lb/><!-- Need  to make this one word and idk how to - JE -->
+                 to the <w norm="sea" type="l">Sea</w>. Which it had <w norm="done">don</w><surplus reason="superfluous">,</surplus> but that by God<supplied reason="mod">'</supplied>s providen<add place="above">ce</add><supplied reason="mod">,</supplied><lb/>
+                <rs n="per53" type="person">a <w norm="shipman" type="l">Shipman</w></rs><!-- NOTE [people] unidentifiable afaics, but keep rs tag for now. --> <supplied reason="mod">—</supplied> <w norm="coming">comming</w> at that <w norm="minute">minuite</w> from under the <lb/>
+                <w norm="deck">Decke</w> <supplied reason="mod">—</supplied> pulled me <w norm="back">backe</w><surplus reason="superfluous">,</surplus> &amp; saved me from falling<lb/>
+                into <rs ref="place:Iris_130" n="geog3" type="geog">that <w norm="tempestuous">Tempestious</w> <w norm="sea" type="l">Sea</w></rs><surplus reason="superfluous">,</surplus> when I was <w norm="half">halfe</w> over<lb/><!-- make into 1 -->
+                 <w norm="board">borde</w>.<anchor n="ev14" type="event"/> This great &amp; <w type="add" norm="wonderful">wonder<add place="above">full</add></w> mercy, &amp; my <w norm="single" type="l">Single</w><lb/>
+                 deliverance<supplied reason="mod">,</supplied> must not be forgotten but had in a <lb/>
+                 <w type="add" norm="perpetual">perp<add place="above">e</add>tuall</w> remembrance of me forever<supplied reason="mod">.</supplied> &amp; therefore<supplied reason="mod">,</supplied><lb/>
                  will I <w norm="humbly">humblie</w> <w norm="set">sett</w> forth the <w norm="mercies">mercys</w> of the Lord to me.</p>
             </div>
         
         <div xml:id="div-017" type="prayer">
             <head place="centre">
-                A <w norm="thanksgiving">thankesgiveing</w> for our deliverances.<lb/>
+                A <w norm="Thanksgiving">thankesgiveing</w> for our <w norm="Deliverances" type="u">deliverances</w><surplus reason="superfluous">.</surplus><lb/>
                  
                 <!-- NOTE [decoration] another unusual title - full width rule underneath first line of title. team decision: ignore these. deleted. -->
-                 <w norm="after">affter</w> our dangerous passage by Sea:<lb/>
-                <date when-custom="1639-08-23">August the 23<hi rend="superscript">d</hi> 1639</date>. into <placeName ref="place:Irel_096" n="place25">Ireland</placeName>.<lb/>
-                 <ref type="biblical"><w norm="Psalm">Psallme</w> 107. 1<hi rend="superscript">st</hi> v.</ref> <!-- NOTE Her the 'v' is not a roman 5 but an abbreviation for verse -->
+                 <w norm="after">affter</w> our <w norm="Dangerous" type="u">dangerous</w> <w norm="Passage" type="u">passage</w> by Sea<pc norm=",">:</pc><lb/>
+                <date when-custom="1639-08-23">August the 23<hi rend="superscript"><supplied reason="mod">r</supplied>d</hi> 1639</date><pc norm=",">.</pc> into <placeName ref="place:Irel_096" n="place25">Ireland</placeName>.<lb/>
+                 <ref type="biblical"><w norm="Psalm">Psallme</w> 107. <choice><abbr>1<hi rend="superscript">st</hi> v.</abbr><expan>first verse</expan></choice></ref> <!-- NOTE Her the 'v' is not a roman 5 but an abbreviation for verse -->
             </head>
 
                 <pb xml:id="page-018" n="18"/>
@@ -1003,30 +1008,30 @@ point to <category> elements or to feature structure components.
                 
                 <fw type="pageNum">18</fw>
                 
-            <p xml:id="p-0038"><quote type="direct" source="#_Psalm_107:1 #BCP_Other_Psalm-755 #BCP_Psalter_Psalm107">O give thanks unto the Lord, for <w norm="he">hee</w> is gracious: &amp;<lb/>
+            <p xml:id="p-0038"><quote type="direct" source="#_Psalm_107:1 #BCP_Other_Psalm-755 #BCP_Psalter_Psalm107">O give thanks unto the Lord, for <w norm="he">hee</w> is gracious<surplus reason="superluous">:</surplus> &amp;<lb/>
                  his <w norm="mercies">mercys</w> <w type="archaism">endureth</w> <w norm="forever">for ever</w></quote>. <quote type="direct" source="#_Psalm_107:2 #BCP_Other_Psalm-755 #BCP_Psalter_Psalm107">Let them give than<lb break="no"/>
                  <pc>-</pc>ks whom the Lord hath redeemed, &amp; delivered from<lb/>
-                 the <w norm="Storms">Stormes</w>, &amp; mighty tempests</quote>. he has <w norm="delivered">delivred</w><lb/>
+                 the <w norm="storms">Stormes</w><surplus reason="superfluous">,</surplus> &amp; mighty tempests</quote>. <w norm="He" type="u">he</w> has <w norm="delivered">delivred</w><lb/>
                  us from this <w norm="distress">distresse</w>, <quote type="paraphrase" source="#_Psalms_69:15">when the <w norm="deep">deepe</w> had opened<lb/>
-                 her mouth to swallow us up</quote>. <quote type="phrase" source="#_Josiah_4:24">then was the hand<lb/>
-                 of the Lord mighty to deliver</quote>, &amp; preserve us from<lb/>
-                 drowning, <quote type="paraphrase" source="#_Psalm_108:7">Oh that we would therefore praise the Lord<lb/>
-                 for his <w norm="goodness">goodnesse</w>, &amp; <w norm="speak">speake</w> good of his name, &amp;<lb/>
-                 <w norm="declare">declaire</w> the wonders that he hath <w norm="done">don</w> to us Children.</quote><lb/>
+                 her mouth to swallow us up</quote><pc norm=":">.</pc> <quote type="phrase" source="#_Josiah_4:24">then was the hand<lb/>
+                 of the Lord mighty to deliver</quote><surplus reason="superfluous">,</surplus> &amp; preserve us from<lb/>
+                 drowning<pc norm=".">,</pc> <quote type="paraphrase" source="#_Psalm_108:7">Oh<supplied reason="mod">,</supplied> that we would therefore praise the Lord<lb/>
+                 for his <w norm="goodness">goodnesse</w>, &amp; <w norm="speak">speake</w> good of his name<surplus reason="superfluous">,</surplus> &amp;<lb/>
+                 <w norm="declare">declaire</w> the wonders that he hath <w norm="done">don</w> to us <w norm="children" type="l">Children</w>.</quote><lb/>
                  <quote type="paraphrase" source="#_Psalms_107:13">We called on him in our <w norm="distress">disstresse</w>, &amp; he heard from<lb/>
-                 Heaven his habitation</quote>, <quote type="direct" source="#_Psalms_107:14">for he brought us out of<lb/>
-                 the shadow of death. &amp; brake our bands of <w norm="fears">feares</w> a<lb break="no"/>
-                 sunder</quote>. <quote type="direct" source="#_Psalms_107:18">Our <w norm="soul">soule</w> abhorred all manner of <w norm="meat">meate</w>,<lb/>
-                 &amp; we <w norm="were">weare</w> even hard at deaths <w norm="door">dore</w></quote>, <quote type="partial" source="#_Psalms_107:23">they that <w norm="go">goe</w><lb/>
-                 <w norm="down">downe</w> to the Sea in Ships</quote>, <quote type="direct" source="#_Psalms_107:24">these men see the works of<lb/>
-                 of the Lord &amp; his wonders in the <w norm="deep">deepe</w></quote>, <quote type="partial" source="#_Psalms_107:25">for at his<lb/>
-                 word the Stormy <w norm="wind">winde</w> <w type="archaism" norm="ariseth">arriseth</w>. which <w type="archaism">lifteth</w> the wave</quote><lb/>
-                 <quote type="paraphrase" source="#_Psalms_107:26">I was carried up to Heaven, &amp; <w norm="down">downe</w> <w norm="again">againe</w> to the<lb/>
-                 <w norm="deep">deepe</w>, my <w norm="Soul">Soule</w> melted within me, for <w norm="very">verie</w> trouble</quote><lb/>
-                 <quote type="paraphrase" source="#_Psalms_107:28"><w norm="so">soe</w> when I cried unto the Lord in my <w norm="distress">distresse</w> he deliv<lb break="no"/>
-                 <pc>-</pc>ered us out of our trouble</quote>. <quote type="paraphrase" source="#_Psalms_107:29">he made the Stormy wind<lb/>
-                 to cease. so that the waves thereof were still</quote>. Then <w norm="were">weare</w><lb/>
-                 our hearts glad <w norm="within">with in</w> us. because he brought us safe<lb/>
+                 <w norm="heaven" type="l">Heaven</w><supplied reason="mod">,</supplied> his habitation</quote><pc norm=":">,</pc> <quote type="direct" source="#_Psalms_107:14">for he brought us out of<lb/>
+                 the shadow of death<surplus reason="superfluous">.</surplus> &amp; brake our bands of <w norm="fears">feares</w> a<lb break="no"/>
+                 sunder</quote>. <quote type="direct" source="#_Psalms_107:18">Our <w norm="soul">soule</w> abhorred all manner of <w norm="meat">meate</w><surplus reason="superfluous">,</surplus><lb/>
+                 &amp; we <w norm="were">weare</w> even hard at death<supplied reason="mod">'</supplied>s <w norm="door">dore</w></quote><pc norm=".">,</pc> <quote type="partial" source="#_Psalms_107:23"><w norm="They" type="u">they</w> that <w norm="go">goe</w><lb/>
+                 <w norm="down">downe</w> to the <w norm="sea" type="l">Sea</w> in <w norm="ships" type="l">Ships</w></quote>, <quote type="direct" source="#_Psalms_107:24">these men see the works of<lb/>
+                 <surplus reason="superfluous">of</surplus> the Lord &amp; his wonders in the <w norm="deep">deepe</w></quote><pc norm=":">,</pc> <quote type="partial" source="#_Psalms_107:25">for at his<lb/>
+                 word the <w norm="stormy" type="l">Stormy</w> <w norm="wind">winde</w> <w type="archaism" norm="ariseth">arriseth</w><surplus reason="superfluous">.</surplus> which <w type="archaism">lifteth</w> the wave</quote><supplied reason="mod">.</supplied><lb/>
+                 <quote type="paraphrase" source="#_Psalms_107:26">I was carried up to <w norm="heaven" type="l">Heaven</w><surplus reason="superfluous">,</surplus> &amp; <w norm="down">downe</w> <w norm="again">againe</w> to the<lb/>
+                 <w norm="deep">deepe</w><pc norm=":">,</pc> my <w norm="soul">Soule</w> melted within me<surplus reason="superfluous">,</surplus> for <w norm="very">verie</w> trouble</quote><supplied reason="mod">.</supplied><lb/>
+                 <quote type="paraphrase" source="#_Psalms_107:28"><w norm="So">soe</w><supplied reason="mod">,</supplied> when I cried unto the Lord in my <w norm="distress">distresse</w><supplied reason="mod">,</supplied> he deliv<lb break="no"/>
+                 <pc>-</pc>ered us out of our trouble</quote>. <quote type="paraphrase" source="#_Psalms_107:29"><w norm="He" type="u">he</w> made the <w norm="stormy" type="l">Stormy</w> wind<lb/>
+                 to cease<pc norm=",">.</pc> so that the waves thereof were still</quote>. Then <w norm="were">weare</w><lb/>
+                 our hearts glad <w norm="within">with in</w> us<surplus reason="superfluous">.</surplus> because he brought us safe<lb/>
             
 
             <pb xml:id="page-019" n="19"/>
@@ -1036,31 +1041,27 @@ point to <category> elements or to feature structure components.
             
                 <fw type="pageNum">19</fw> <lb/>
             
-            <quote type="paraphrase" source="#BCP_Psalter_Psalm107:30">To a resting place, &amp; to a haven where we would<lb/>
-                 <w norm="fain">faine</w> be</quote>, &amp; likewise sent us an unexpected <w norm="relief">releife</w><lb/>
+            <quote type="paraphrase" source="#BCP_Psalter_Psalm107:30"><w norm="to" type="l">To</w> a resting place, &amp; to a haven where we would<lb/>
+                 <w norm="fain">faine</w> be</quote><pc norm=".">,</pc> &amp; likewise sent us an unexpected <w norm="relief">releife</w><lb/>
                  amongst strangers, making them <w norm="helpful">helpefull</w> in that<lb/>
-                 danger. <w norm="Also">Allso</w> the Lord his name be glorified for<lb/>
-                 his gracious favour to me in preserving <add place="above">me</add> from drow<pc>-</pc><lb break="no"/>
-                <pc>-</pc>ning, when the cable had <w norm="pulled">pulld</w> me <w norm="almost">allmost</w> into <rs ref="place:Iris_130" n="geog4" type="geog">the Sea</rs>,<lb/>
-                 then did, his mercy bring me <w norm="help">helpe</w> when I might<lb/>
-                 have perished alone. O <w norm="dear">deare</w> God <quote type="phrase" source= "#_Proverbs_3:3">write this de<pc>-</pc><lb break="no"/>
-                 <pc>-</pc>liverance with the other <w norm="upon">uppon</w> the Table of my heart</quote>, that <lb/>
-                 I may never <w norm="forget">forgett</w> what thou Lord <w type="archaism">hast</w> <w norm="done">don</w> for my <w norm="Soul">Soule</w><lb/>
-                 And oh, that, I &amp; all that was in the Ship might <quote type="partial" source="#GB_Psalms_136:26">praise the <lb/>
-                 God of Heaven</quote>, for his great &amp; unsearchable goodness<lb/>
-      <add xml:id="ex-add-margin-02" place="left margin">,</add> &amp; <w norm="declare">declaire</w> the wonders that he has <w norm="done">don</w> for us in <w type="add" norm="particular">perticule<add place="above">r</add></w><lb/>
-                 I and they may exalt <quote type="phrase" source="#_Psalms_68:4">him that <w type="archaism">rideth</w> on the Heavens</quote><lb/>
-      <add place="left margin">,</add> <quote type="paraphrase" source="#_Psalms_107:32">&amp; praise his <w norm="Excellent">Excelent</w> <w norm="greatness">greatnesse</w> in the <w type="add" norm="congregation">congregate-<add place="above">on</add></w><lb/>
-                 of the people, &amp; <w norm="magnify">magnifie</w> him in the <w norm="seat">seate</w> of the Elders</quote><lb/>
-                 Which made the <w norm="storms">stormes</w> to cease: &amp; for the glory of his<lb/>
-                 <w norm="majesty">majestie</w>, the <quote type="phrase" source="#_Psalms_46:7">God of Jacob</quote>, preserved <rs ref="ppl:aow1" n="per54" type="person">my <w norm="dear">deare</w> Moth</rs><lb/>
-                 from perishing in the <w norm="gulf">gulfe</w>, with <rs type="group">her Children</rs>, &amp; <rs type="group">Grand<lb/>
-                 Children</rs>, and <w norm="spared">spaired</w> us from this <w norm="destruction">distruction</w>.</p>
+                 danger. <w norm="Also">Allso</w><supplied reason="mod">,</supplied> the Lord his name be glorified for<lb/>
+                 his gracious favour to me in preserving <add place="above">me</add> from drow<pc>-</pc><lb break="no"/><pc>-</pc>ning, when the cable had <w norm="pulled">pulld</w> me <w norm="almost">allmost</w> into <rs ref="place:Iris_130" n="geog4" type="geog">the <w norm="sea" type="l">Sea</w></rs><pc norm=":">,</pc><lb/>
+                 then did<surplus reason="superfluous">,</surplus> his mercy bring me <w norm="help">helpe</w><supplied reason="mod">,</supplied> when I might<lb/>
+                 have perished alone. O <w norm="dear">deare</w> God<supplied reason="mod">,</supplied> <quote type="phrase" source= "#_Proverbs_3:3">write this de<pc>-</pc><lb break="no"/><pc>-</pc>liverance with the other <w norm="upon">uppon</w> the <w norm="table" type="l">Table</w> of my heart</quote><surplus reason="superfluous">,</surplus> that <lb/>
+                 I may never <w norm="forget">forgett</w> what thou<supplied reason="mod">,</supplied> Lord<supplied reason="mod">,</supplied> <w type="archaism">hast</w> <w norm="done">don</w> for my <w norm="soul">Soule</w><supplied reason="mod">.</supplied><lb/>
+                 And oh, that<surplus reason="superfluous">,</surplus> I &amp; all that was in the <w norm="ship" type="l">Ship</w> might <quote type="partial" source="#GB_Psalms_136:26">praise the <lb/>
+                 God of <w norm="heaven" type="l">Heaven</w></quote><surplus reason="superfluous">,</surplus> for his great &amp; unsearchable goodness<lb/><add xml:id="ex-add-margin-02" place="left margin">,</add> &amp; <w norm="declare">declaire</w> the wonders that he has <w norm="done">don</w> for us in <w type="add" norm="particular">perticule<add place="above">r</add></w><supplied reason="mod">. </supplied><lb/>
+                 I<supplied reason="mod">,</supplied> and they<supplied reason="mod">,</supplied> may exalt <quote type="phrase" source="#_Psalms_68:4">him that <w type="archaism">rideth</w> on the <w norm="heavens" type="l">Heavens</w></quote><supplied reason="mod">,</supplied><lb/>
+      <add place="left margin">,</add> <quote type="paraphrase" source="#_Psalms_107:32">&amp; praise his <w norm="excellent">Excelent</w> <w norm="greatness">greatnesse</w> in the <w type="add" norm="congregation">congregate-<add place="above">on</add></w><lb/>
+                 of the people<surplus reason="superfluous">,</surplus> &amp; <w norm="magnify">magnifie</w> him in the <w norm="seat">seate</w> of the <w norm="elders" type="l">Elders</w></quote><lb/>
+                 <w norm="which" type="l">Which</w> made the <w norm="storms">stormes</w> to cease<pc norm=",">:</pc> &amp; for the glory of his<lb/>
+                 <w norm="majesty">majestie</w>, the <quote type="phrase" source="#_Psalms_46:7">God of Jacob</quote>, preserved <rs ref="ppl:aow1" n="per54" type="person">my <w norm="dear">deare</w> <w norm="mother">Moth</w></rs><lb/>
+                 from perishing in the <w norm="gulf">gulfe</w><surplus reason="superfluous">,</surplus> with <rs type="group">her <w norm="children" type="l">Children</w></rs><surplus reason="superfluous">,</surplus> &amp; <rs type="group"><w norm="grandchildren">Grand<lb/>
+                 Children</w></rs><surplus reason="superfluous">,</surplus> and <w norm="spared">spaired</w> us from this <w norm="destruction">distruction</w>.</p>
             <p xml:id="p-0039"><quote type="phrase" source="#_Psalms_7:17">The Lord most high</quote>, grant us thy grace, that we might<lb/>
-                 live to thy Glory, &amp; <w norm="magnify">magnifie</w> thy name to all gene<pc>-</pc><lb break="no"/>
-                 <pc>-</pc>rations. he bringing us with Joy to <rs ref="ppl:cw1" n="per55" type="person">my <w norm="dear">deare</w> father</rs><lb/>
+                 live to thy <w norm="glory" type="l">Glory</w>, &amp; <w norm="magnify">magnifie</w> thy name to all gene<pc>-</pc><lb break="no"/><pc>-</pc>rations. he bringing us with <w norm="joy" type="l">Joy</w> to <rs ref="ppl:cw1" n="per55" type="person">my <w norm="dear">deare</w> father</rs><lb/>
                  from the bottom of the waves where millions had perished<lb/>
-                in <gap reason="deleted" quantity="4" unit="char"/> those depths. Lord I beseech thee <w norm="let">lett</w> me,<lb/>
+                in <gap reason="deleted" quantity="4" unit="char"/> those depths. Lord<supplied reason="mod">,</supplied> I beseech thee<supplied reason="mod">,</supplied> <w norm="let">lett</w> me<surplus reason="superfluous">,</surplus><lb/>
             
 
             <pb xml:id="page-020" n="20"/>
@@ -1070,15 +1071,15 @@ point to <category> elements or to feature structure components.
 
                 <fw type="pageNum">20</fw> <lb/>
             
-            Be wise &amp; ponder these things, &amp; <w norm="several">severall</w> <add place="above">other</add><lb/>
-                 Providences in these miraculous <w norm="Deliverances">Delivernces</w>,<lb/>
-                 to my <w norm="self">selfe</w>, &amp; relations. that the Righteous may know<lb/>
-      <add place="left margin">,</add> &amp; consider the <w norm="goodness">goodnesse</w> of the Lord, &amp; his loving<lb/>
-                 <w norm="kindness">kindnesse</w>, &amp; <quote type="paraphrase" source="#_Philippians_4:4"><w norm="rejoice">rejoyce</w> in him for ever</quote>.</p>
-            <p xml:id="p-0040">Therefore to the Lord most great, &amp; gracious, be all<lb/>
-                 Glory, <w norm="thanksgiving">thankesgiveing</w>, <w norm="dominion">dominnion</w>, &amp; praise, in<lb/>
-                 heaven &amp; Earth, the Sea &amp; all places of the world<lb/>
-                 for ever more. Amen. &amp; Amen.</p>
+            <w norm="be" type="l">Be</w> wise &amp; ponder these things, &amp; <w norm="several">severall</w> <add place="above">other</add><lb/>
+                 <w norm="providences" type="l">Providences</w> in these miraculous <w norm="deliverances">Delivernces</w><surplus reason="superfluous">,</surplus><lb/>
+                 to <w norm="myself">my selfe</w><surplus reason="superfluous">,</surplus> &amp; relations<pc norm=",">.</pc> that the <w norm="righteous" type="l">Righteous</w> may know<lb/>
+      <add place="left margin"><surplus reason="superfluous">,</surplus></add> &amp; consider the <w norm="goodness">goodnesse</w> of the Lord<surplus reason="superfluous">,</surplus> &amp; his loving<lb/>
+                 <w norm="kindness">kindnesse</w>, &amp; <quote type="paraphrase" source="#_Philippians_4:4"><w norm="rejoice">rejoyce</w> in him <w norm="forever">for ever</w></quote>.</p>
+            <p xml:id="p-0040">Therefore<supplied reason="mod">,</supplied> to the Lord most great<surplus reason="superfluous">,</surplus> &amp; gracious, be all<lb/>
+                 <w norm="glory" type="l">Glory</w>, <w norm="thanksgiving">thankesgiveing</w>, <w norm="dominion">dominnion</w><surplus reason="superfluous">,</surplus> &amp; praise<surplus reason="superfluous">,</surplus> in<lb/>
+                 heaven &amp; <w norm="earth" type="l">Earth</w>, the <w norm="sea" type="l">Sea</w> &amp; all places of the world<lb/>
+                 for ever more. Amen<surplus reason="superfluous">.</surplus> &amp; Amen.</p>
          </div>
         
         <div xml:id="div-018">
@@ -1087,30 +1088,30 @@ point to <category> elements or to feature structure components.
             <note xml:id="mnote-0002" place="left margin" style="writing-mode: vertical-rl; text-orientation: sideways-right" resp="#awt1">
                 <milestone n="ev15" unit="event"/>
             <!-- Q CHECK in semidip 'Lord', 'with', no abbrev markings at all. check this? -->
-                <p xml:id="p-0041"><persName ref="ppl:tw1" n="per56">My <choice><abbr>L.<am rend="superscript">d</am></abbr><expan>Lord</expan></choice> Straford</persName> <w norm="took">tooke</w> Ship for <placeName ref="place:Engl_094" n="place422">England</placeName> <w type="query">w:<am rend="superscript">th</am></w> <persName ref="ppl:ww3" n="per57">my Lord Raby</persName> his son<lb/>
-                    on <date when-custom="1640-04-03">good friday the <w norm="year">yeare</w>. 1640</date>. <w type="v">gaue</w> <rs ref="ppl:cw1" type="person">my father</rs> the Sword then.</p>
+                <p xml:id="p-0041"><persName ref="ppl:tw1" n="per56">My <choice><abbr>L.<am rend="superscript">d</am></abbr><expan>Lord</expan></choice> <w norm="Strafford">Straford</w></persName> <w norm="took">tooke</w> <w norm="ship" type="l">Ship</w> for <placeName ref="place:Engl_094" n="place422">England</placeName> <w norm="with"><w type="query">w:<am rend="superscript">th</am></w></w> <persName ref="ppl:ww3" n="per57">my Lord Raby</persName><supplied reason="mod">,</supplied> his son<supplied reason="mod">,</supplied><lb/>
+                    on <date when-custom="1640-04-03"><w norm="Good" type="u">good</w> <w norm="Friday" type="u">friday</w><supplied reason="mod">,</supplied> the <w norm="year">yeare</w><surplus reason="superfluous">.</surplus> 1640</date>. <w norm="Gave"><w type="v">gaue</w></w> <rs ref="ppl:cw1" type="person">my father</rs> the Sword then.</p>
                 <anchor n="ev15" type="event"/>
             </note>
             <head rend="pre(rule) post(rule)">
             
-                 Observations <w norm="upon">uppon</w> <w norm="several">severall</w> accidents <lb/>
-                 happening in <placeName ref="place:Irel_096" n="place26">Ireland</placeName> <w norm="upon">uppon</w> <persName ref="ppl:tw1" n="per58">the Earle of<lb/>
-                 Strafford</persName>, &amp;c. in the <w norm="years">yeares</w>. <date type="political" when-custom="1640/1641">1640, 41</date>. And <lb/>
-                 on his <w norm="fatal">fatall</w> murder: <date type="death" when-custom="1641-05-12">may: 12 1641</date>.
+                 Observations <w norm="upon">uppon</w> <w norm="Several">severall</w> <w norm="Accidents" type="u">accidents</w> <lb/>
+                 happening in <placeName ref="place:Irel_096" n="place26">Ireland</placeName> <w norm="upon">uppon</w> <persName ref="ppl:tw1" n="per58">the <w norm="Earl">Earle</w> of<lb/>
+                 Strafford</persName>, <w norm="etcetera">&amp;c</w><surplus reason="superfluous">.</surplus> in the <w norm="Years">yeares</w><surplus reason="superfluous">.</surplus> <date type="political" when-custom="1640/1641">1640<surplus reason="superfluous">,</surplus> <supplied reason="mod">-</supplied>41</date><pc norm=",">.</pc> <w norm="and" type="l">And</w> <lb/>
+                 on his <w norm="Fatal">fatall</w> <w norm="Murder" type="u">murder</w><surplus reason="superfluous">:</surplus> <supplied reason="mod">(</supplied><date type="death" when-custom="1641-05-12"><w norm="May" type="u">may</w><surplus reason="superfluous">:</surplus> 12<supplied reason="mod">,</supplied> 1641</date><supplied reason="mod">)</supplied>.
             </head>
-            <p xml:id="p-0042">After <rs ref="ppl:aow1" n="per59" type="person">my mothers</rs> <w norm="return">returne</w> from <placeName ref="place:StVi_051" n="place-supp5">the Bathes</placeName>, &amp;,<lb/>
-                 <placeName ref="place:Bris_004" n="place27">Bristoll</placeName>, where she found much good as to the<lb/>
+            <p xml:id="p-0042">After <rs ref="ppl:aow1" n="per59" type="person">my mother<supplied reason="mod">'</supplied>s</rs> <w norm="return">returne</w> from <placeName ref="place:StVi_051" n="place-supp5">the <w norm="baths">Bathes</w></placeName><surplus reason="superfluous">,</surplus> &amp;<surplus reason="superfluous">,</surplus><lb/>
+                 <placeName ref="place:Bris_004" n="place27"><w norm="Bristol">Bristoll</w></placeName>, where she found much good as to the<lb/>
                  cure of the stone.</p>
             <milestone n="ev16" unit="event"/>
             <p xml:id="p-0043">
-                <persName ref="ppl:tw1" n="per60">The Earle of Strafford</persName> was sent for by <rs ref="ppl:cs1" n="per61" type="person">the King</rs> in<lb/>
-                 to <placeName ref="place:Engl_094" n="place28">England</placeName>. <w norm="upon">uppon</w> the complaints of some factious<lb/>
-                 <w norm="Spirits">Spirritts</w>, weary of a <w norm="lawful">lawfull</w>, &amp; Peaceable govern<pc>-</pc><add place="above"><pc>-</pc>ment</add><lb/>
+                <persName ref="ppl:tw1" n="per60">The <w norm="Earl">Earle</w> of Strafford</persName> was sent for by <rs ref="ppl:cs1" n="per61" type="person">the <w norm="king" type="l">King</w></rs> in<lb/>
+                 to <placeName ref="place:Engl_094" n="place28">England</placeName><pc norm=",">.</pc> <w norm="upon">uppon</w> the complaints of some factious<lb/>
+                 <w norm="spirits">Spirritts</w>, weary of a <w norm="lawful">lawfull</w>, &amp; <w norm="peaceable" type="l">Peaceable</w> govern<pc>-</pc><add place="above"><pc>-</pc>ment</add><lb/>
                  both in <placeName ref="place:Engl_094" n="place29">England</placeName>, <placeName ref="place:Scot_095" n="place30">Scotland</placeName> &amp; <placeName ref="place:Irel_096" n="place31">Ireland</placeName>, <w norm="whose">whoes</w><lb/>
-                 <w norm="Spirits">Spiritts</w>, &amp; ambitions could not <w norm="endure">indure</w> a subjection<lb/>
-                 to <rs ref="ppl:cs1" n="per62" type="person"><w norm="their">theire</w> most <w norm="Pious">Pieous</w> &amp; good King</rs>, nor his Lieuten<add place="above">ant</add><lb/>
+                 <w norm="spirits">Spiritts</w><surplus reason="superfluous">,</surplus> &amp; ambitions could not <w norm="endure">indure</w> a subjection<lb/>
+                 to <rs ref="ppl:cs1" n="per62" type="person"><w norm="their">theire</w> most <w norm="pious">Pieous</w> &amp; good <w norm="king" type="l">King</w></rs>, nor his <w norm="lieutenant" type="l">Lieuten<add place="above">ant</add></w><lb/>
                  which ruled them in <placeName ref="place:Irel_096" n="place32">Ireland</placeName> with a wise &amp; <w norm="prudential">prudentiall</w><lb/>
-                 government, to the preservation of His Majesties <w norm="Crown">Crowne</w>.<lb/>
+                 government<surplus reason="superfluous">,</surplus> to the preservation of His <w norm="Majesty's">Majesties</w> <w norm="crown">Crowne</w>.<lb/>
             
 
             <pb xml:id="page-021" n="21"/>
@@ -1119,30 +1120,30 @@ point to <category> elements or to feature structure components.
 
             <fw type="pageNum">21</fw> <lb/>
             
-            And dignities. The Settlement of the Church, &amp; State<lb/>
-                 <w norm="upon">uppon</w> the right foundations of truth, &amp; peace. Which <lb/>
-                 these People had <w norm="no">noe</w> such intentions, as was too<lb/>
+            <w norm="and" type="l">And</w> dignities<pc norm=",">.</pc> <supplied reason="mod">and</supplied> <w norm="the" type="l">The</w> <w norm="settlement" type="l">Settlement </w>of the <w norm="church" type="l">Church</w><surplus reason="superfluous">,</surplus> &amp; <w norm="state" type="l">State</w><lb/>
+                 <w norm="upon">uppon</w> the right foundations of truth<surplus reason="superfluous">,</surplus> &amp; peace. Which <lb/>
+                 these <w norm="people" type="l">People</w> had <w norm="no">noe</w> such intentions, as was too<lb/>
                  apparent, in the following Rebellions both in <placeName ref="place:Engl_094" n="place33">England</placeName><lb/>
-                 &amp; <placeName ref="place:Irel_096" n="place34">Ireland</placeName>. The Irish <w norm="being">beeing</w> heard to say. That <w norm="their">theire</w><lb/>
-                 <w norm="Religion">Religeion</w> would not prosper as long as <persName ref="ppl:tw1" n="per63">Straffords</persName><lb/>
-                 head stood on his <w norm="shoulders">shouldiers</w>. which saying strongly<lb/>
+                 &amp; <placeName ref="place:Irel_096" n="place34">Ireland</placeName>. The Irish <w norm="being">beeing</w> heard to say<surplus reason="superfluous">.</surplus> <w norm="that" type="l">That</w> <w norm="their">theire</w><lb/>
+                 <w norm="religion">Religeion</w> would not prosper as long as <persName ref="ppl:tw1" n="per63">Strafford<supplied reason="mod">'</supplied>s</persName><lb/>
+                 head stood on his <w norm="shoulders">shouldiers</w><pc norm=",">.</pc> which saying strongly<lb/>
                 proved that this noble <w norm="Earl">Earle</w> was <w norm="no">noe</w> <w type="del" norm="patron">Patt<del xml:id="ex-del-double-02" rend="doublestrikethrough">e</del>ron</w> of the <lb/>
-                 Romish Church, <w norm="although">allthough</w> falsely accused so, by<lb/>
-                 his Seditious Enemies; &amp; his <w norm="own">owne</w> <w norm="innocency">inncocency</w> was<lb/>
-                 cleared <w norm="upon">uppon</w> the Scaffold in his <w norm="speech">speeche</w> made then<lb/>
+                 Romish <w norm="church" type="l">Church</w>, <w norm="although">allthough</w> falsely accused so<surplus reason="superfluous">,</surplus> by<lb/>
+                 his <w norm="seditious" type="l">Seditious</w> <w norm="enemies" type="l">Enemies</w><pc norm=".">;</pc> &amp; his <w norm="own">owne</w> <w norm="innocency">inncocency</w> was<lb/>
+                 cleared <w norm="upon">uppon</w> the <w norm="scaffold" type="l">Scaffold</w> in his <w norm="speech">speeche</w> made then<supplied reason="mod">.</supplied><lb/>
                  But all the discontented <add place="above">parties</add> too well agreed in this one<lb/>
-                 point, to strike the <w norm="root">roote</w>, of the foundations; <rs ref="ppl:cs1" n="per64" type="person">the King</rs><lb/>
-                 being aimed at to succeed <add place="above">in</add> this <w norm="tragedy">tradegie</w>, As God<lb/>
-                 <w norm="knows">knowes</w> to sadly followed;</p>
-            <p xml:id="p-0044"><persName ref="ppl:tw1" n="per65">The Earle of Strafforde</persName> <w type="add" norm="having">have<add place="above">ing</add></w> <w norm="far">farre</w> different <w type="add" norm="designs">desig<add place="above">nes</add></w><lb/>
-                 then those Secret plotters of Rapine, &amp; <w norm="Ruin">Ruine</w>.<lb/>
-                 could not longer <add place="above">be</add> endured, because he stood in the<lb/>
-                 way to hinder, &amp; prevent by his wise <w norm="Counsel">Councell</w>. <w norm="So">Soe</w> <lb/>
-      <add place="left margin">that</add> till he was removed, they could not <w norm="prevail">prevaille</w> either<lb/>
-                 in <placeName ref="place:Irel_096" n="place35">Ireland</placeName>, or <placeName ref="place:Engl_094" n="place36">England</placeName> to <w norm="compass">compasse</w> <w norm="their">theire</w> ends.<lb/>
-                 Nor could there be found, a better expedient for <w norm="their">theire</w> <lb/>
-                 purpose then to make <add place="above">a</add> <w norm="cloak">cloake</w> of Religion, that under<lb/>
-                 such a <w norm="Popular">Populer</w>, specious, pretence, <w norm="Their">Theire</w> horrible<lb/>
+                 point<pc norm=":">,</pc> to strike the <w norm="root">roote</w><surplus reason="superfluous">,</surplus> of the foundations<pc norm=",">;</pc> <rs ref="ppl:cs1" n="per64" type="person">the King</rs><lb/>
+                 being aimed at to succeed <add place="above">in</add> this <w norm="tragedy">tradegie</w><surplus reason="superfluous">,</surplus> <w norm="as" type="l">As</w> God<lb/>
+                 <w norm="knows">knowes</w> <w norm="too">to</w> sadly followed<pc norm=".">;</pc></p>
+            <p xml:id="p-0044"><persName ref="ppl:tw1" n="per65">The <w norm="Earl">Earle</w> of <w norm="Strafford">Strafforde</w></persName> <supplied reason="mod">—</supplied> <w type="add" norm="having">have<add place="above">ing</add></w> <w norm="far">farre</w> different <w type="add" norm="designs">desig<add place="above">nes</add></w><lb/>
+                <w norm="than">then</w> those <w norm="secret" type="l">Secret</w> plotters of <w norm="rapine" type="l">Rapine</w><surplus reason="superfluous">,</surplus> &amp; <w norm="ruin">Ruine</w><surplus reason="superfluous">.</surplus> <supplied reason="mod">—</supplied><lb/>
+                 could <w norm="no">not</w> longer <add place="above">be</add> endured<surplus reason="superfluous">,</surplus> because he stood in the<lb/>
+                 way to hinder<surplus reason="superfluous">,</surplus> &amp; prevent by his wise <w norm="counsel">Councell</w>. <w norm="So">Soe</w><supplied reason="mod">,</supplied> <lb/>
+      <add place="left margin">that</add> <w norm="until">till</w> he was removed, they could not <w norm="prevail">prevaille</w> either<lb/>
+                 in <placeName ref="place:Irel_096" n="place35">Ireland</placeName><surplus reason="superfluous">,</surplus> or <placeName ref="place:Engl_094" n="place36">England</placeName> to <w norm="compass">compasse</w> <w norm="their">theire</w> ends<pc norm=";">.</pc><lb/>
+                 <w norm="nor" type="l">Nor</w> could there be found<surplus reason="superfluous">,</surplus> a better expedient for <w norm="their">theire</w> <lb/>
+                 purpose <w norm="than">then</w> to make <add place="above">a</add> <w norm="cloak">cloake</w> of <w norm="religion" type="l">Religion</w><surplus reason="superfluous">,</surplus> that under<lb/>
+                 such a <w norm="popular">Populer</w>, specious<surplus reason="superfluous">,</surplus> pretence<surplus reason="superfluous">,</surplus> <w norm="their">Theire</w> horrible<lb/>
                  practices might not be found out.</p>
 
             <pb xml:id="page-022" n="22"/>
