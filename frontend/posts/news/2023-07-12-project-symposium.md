@@ -1,5 +1,5 @@
 ---
-title: "Project symposium to discuss edited volume on Thornton"
+title: "Symposium to discuss edited volume on Thornton"
 feature: /assets/img/posts/thornton_book_rem_page_69.jpg
 status: draft
 authors:
