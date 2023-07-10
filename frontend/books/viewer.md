@@ -11,6 +11,7 @@ authors:
   - tong
   - gnoel
 isContentHTML: true
+isPageFluid: true
 ---
 
 {% raw %}
@@ -54,7 +55,7 @@ isContentHTML: true
         </button>
       </span>
       <span class="button-bar">
-        <a v-if="canClonePanel()" class="button" href="#" @click.stop.prevent="clonePanel(panelIdx)">
+        <a v-if="canClonePanel" class="button is-hidden-mobile" href="#" @click.stop.prevent="clonePanel(panelIdx)">
           <span class="icon is-small">
             <!-- Font Awesome clone -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H224c-53 0-96-43-96-96V160H64c-35.3 0-64 28.7-64 64V448zm224-96H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64z"/></svg>
