@@ -11,11 +11,11 @@ tags:
 ---
 
 
-"The great blank space provided by the margins"[^1] was filled with
+"The great blank space provided by the margins" was filled with
 many kinds of text and image in early modern manuscripts and printed
 books, and a number of recent and current digital projects reflect the
-rise of scholarly interest in this material. Of particular interest to
-ATB is the [Marginalia and the Early Modern Woman
+rise of scholarly interest in this material.[^1] Of particular interest to
+the Alice Thornton's Books Project is the [Marginalia and the Early Modern Woman
 Writer](https://cems.anu.edu.au/marginalia-and-the-early-modern-woman-writer-1530-1660/)
 project which is investigating "how early modern women readers engaged
 with the margins of their books".[^2]
