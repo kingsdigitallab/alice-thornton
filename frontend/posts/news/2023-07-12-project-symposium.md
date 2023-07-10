@@ -13,4 +13,5 @@ tags:
 
 The Thornton's Books project team and experts from institutions all over the world meet for two days on 12 and 13 July in Edinburgh to discuss pre-circulated papers for a forthcoming companion to Alice Thornton. 
 
+
 Titled *Alice Thornton's Life-Writings: Reassessing a Seventeenth-Century Woman's Manuscript Books*, it will be published by Amsterdam University Press in 2024.
