@@ -1,7 +1,7 @@
 ---
 title: "At the Margins of Alice Thornton's Books"
 feature: /assets/img/posts/book1-286-detail.jpg
-status: draft
+status: live
 authors:
   - showard
 tags:
