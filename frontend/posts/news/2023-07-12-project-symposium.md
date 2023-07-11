@@ -15,4 +15,4 @@ As promised in our application for AHRC funding, the Alice Thornton’s Books te
 
 The image, from the *Book of Remembrances*, describes a rather different gathering in which Thornton records her delight as she and her family can celebrate the Lord’s Supper at their new home in East Newton (August 1662).
 
-*Book of Remembrances*, 69. Photo by Derek Beattie.
+
