@@ -1,5 +1,5 @@
 ---
-title: "Project Symposium: Toward a Reassessment of Alice Thorton's *Books*"
+title: "Project Symposium: Toward a Reassessment of Alice Thornton's *Books*"
 feature: /assets/img/posts/thornton_book_rem_page_69.jpg
 status: draft
 authors:
