@@ -1,9 +1,9 @@
 ---
-title: "Symposium to discuss edited volume on Thornton"
+title: "Project Symposium: Toward a Reassessment of Alice Thorton's *Books*"
 feature: /assets/img/posts/thornton_book_rem_page_69.jpg
 status: draft
 authors:
-  - jedge
+  - strill
 tags:
   - events
   - publications
@@ -11,6 +11,8 @@ tags:
 
 ![A page of Thornton's Book of Remembrances which discusses her taking communion at her house East Newton]({{"/assets/img/posts/thornton_book_rem_page_69.jpg" | url}} "Book of Remembrances, page 69. Photo by Derek Beattie"){.media-right}
 
-The Thornton's Books project team and experts from institutions all over the world meet for two days on 12 and 13 July in Edinburgh to discuss pre-circulated papers for a forthcoming companion to Alice Thornton. Titled *Alice Thornton's Life-Writings: Reassessing a Seventeenth-Century Woman's Manuscript Books*, it will be published by Amsterdam University Press in 2024.
+As promised in our bid for AHRC funding, the Alice Thornton’s Books team have organised a symposium that will take place over the next two days, 12 and 13 July 2023. For this gathering, we have invited a group of international scholars with specific expertise in different fields and disciplines. Last summer, we gave our participants access to our draft semi-diplomatic transcriptions of all four of the Thornton manuscripts so that we could all produce papers for pre-circulation. After the symposium, these papers will be revised for publication in an edited volume, provisionally entitled *Alice Thornton’s Life-Writings: Reassessing a Seventeenth-Century Woman’s Manuscript Books*, which will be published in open access format by Amsterdam University Press in 2025.
 
-The image opposite from the *Book of Remembrances* describes a rather difference gathering - at Thornton's East Newton house for the Lord's Supper (or Communion) in August 1662.
+The image opposite, from the Book of Remembrances, describes a rather different gathering in which Thornton records her delight as she and her family can celebrate the Lord’s Supper at their new home in East Newton (August 1662).
+
+Book of Remembrances, 69. Photo by Derek Beattie.
