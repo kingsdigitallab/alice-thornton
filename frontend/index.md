@@ -26,6 +26,7 @@ You can now access our [initial release](https://thornton.kdl.kcl.ac.uk/books/vi
 
 {% comment %}
 <a class="button-hp" href="#who">
+
   <p class="button is-primary read-more-hp">
     Who was Alice Thornton?
   </p>
