@@ -69,7 +69,6 @@ nav.textviewer-nav{
     margin:0;
     li{
       list-style-type:none;
-      cursor:pointer;
       &:hover{
         opacity:1;
       }
@@ -110,20 +109,17 @@ nav.textviewer-nav{
   }//ul
 }//nav
 
-//* 2. PANEL *//
-.panel-wrapper{
+//* 2. MAIN *//
+main{
   //overflow: hidden;
   margin-top:3em;
       height:50vh;
  
   /* MAIN PAGE */
-.page-wrap {
+.panel-wrapper {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-border-right:1px solid black;
-  border-left:1px solid black;
-  border-bottom:1px solid black;
     -webkit-transition: all .3s ease-in;
        -moz-transition: all .3s ease-in;
          -o-transition: all .3s ease-in;
@@ -173,14 +169,28 @@ background:black;
             display:inline-block;
               opacity:1;
             select{
-              color:white;
-              font-size: 1rem; 
-              cursor: pointer;
-              border:none;
-              background:none;
+              font-size: 1rem;
+              border: none;
+              color: white;
+              background-color: transparent;
+                 -webkit-appearance: none;
+                 -moz-appearance:    none;
+                 appearance:        none;
+              //max-width: 100%;
+padding: 0 1.5em 0 0.5em;
             }
             &:after{
               border-top: 5px solid $white;
+              content: " ";
+              position: absolute;
+              top: 50%;
+              margin-top: -2px;
+              right: 8px;
+              width: 0;
+              height: 0;
+              border-left: 5px solid transparent;
+              border-right: 5px solid transparent;
+              border-top: 5px solid #fff;
             }
             &:hover{
             border-top:1px solid $primary;
@@ -203,22 +213,23 @@ background:black;
 }//nav
         .text-viewer{
    // border:1px solid red;
-     height:calc(90vh - 3em);
+     height:calc(100vh - 7em);
           overflow:scroll;
            min-height:30em;      
         
   }//.text-viewer
   }//.panel
   
-}//.page-wrapper
+}//.panel-wrapper
 /* 2.1 PUSH MENU & DRAWER */
 aside#drawer {
     position: fixed;
     top: 2.9em;
-    right: -20%;
-    width: 20%;
+    right: -30%;
+    width: 30%;
     height: 100%;
-    padding: 0;
+    padding: 0 0 0 0.5em;
+    border-left:0.5em solid black;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -228,11 +239,6 @@ aside#drawer {
          -o-transition: all .3s ease-in;
             transition: all .3s ease-in;
   //overflow:scroll;
-  legend{
-    li{
-      
-    }//li
-  }//legend
 }//aside#drawer 
 #drawer-switch{
   display:none;
@@ -240,8 +246,8 @@ aside#drawer {
       right: 0;
   }//&:checked ~ #drawer
   
-  &:checked ~ .page-wrap{
-     margin-right: 20%;
+  &:checked ~ .panel-wrapper{
+     margin-right: 30%;
   #drawer-toggle {/* MENU TOGGLE ICON - close */
       &:before{
     content: "✕";
@@ -254,14 +260,14 @@ aside#drawer {
        width: 2em;
     height: 2em;
     position:fixed;
-    right:0.5em;
-      top:1em;
+    right:0.2em;
+      top:1.5em;
     cursor: pointer;
     border: none;
     }//&:after
    
   }//#drawer-toggle
-}//&:checked ~ .page-wrap 
+}//&:checked ~ .panel-wrapper
 }//#drawer-switch
 
 
@@ -318,7 +324,7 @@ aside#drawer {
   width: 5em;
   //height: 3em;
     label {
-  background: #eee; 
+  background: white; 
   padding: 10px; 
   border: 1px solid #ccc; 
   margin-left: -1px; 
@@ -328,17 +334,21 @@ aside#drawer {
       width: 5em;
   display: inline-block;
       text-align:center;
+      cursor:pointer;
       span{
         display:block;
-        font-size:2em;
-      }    
+        font-size:2.7em;
+      } //span   
+      &:hover{
+}//&:hover
 }//label
     [type=radio] {
   display: none;   
       &:checked ~ label {
-  background: white;
+  background: black;
   border-bottom: 1px solid #2825ca;
   z-index: 2;
+  color:white
 }//&:checked ~ label 
       &:checked ~ label ~ .content {
   z-index: 1;
@@ -361,7 +371,7 @@ aside#drawer {
 }//.tabs
 
 
-}//.panel-wrapper
+}//main
 
 
 //TOOLTIP//
@@ -378,6 +388,7 @@ aside#drawer {
         .tooltip {
             position: relative;
             display: inline-block;
+             cursor:pointer;
 			.tooltiptext {
             visibility: hidden;
             max-width: 20em;
