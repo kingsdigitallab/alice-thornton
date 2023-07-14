@@ -1,9 +1,8 @@
 tasks:
   - name: "Set up and run frontend"
-    init: |
-      npm install
-      cd frontend/assets && npm install
-      cd ../..
+    env:
+      SITE_ENV: 'dev'
+    init: npm run rebuild
     command: npm run serve
 
 ports:
