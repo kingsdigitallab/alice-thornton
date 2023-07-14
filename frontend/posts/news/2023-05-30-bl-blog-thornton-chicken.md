@@ -1,16 +1,14 @@
 ---
-title: Project PI Cordelia Beattie's blog post for BL Untold Lives
+title: Project PI Cordelia Beattie writes a blog post for the British Library
 feature: /assets/img/posts/old_woman_with_a_hen.jpg
-status: draft
+status: live
 authors:
-  - jedge
+  - cbeattie
 tags:
-  - family
   - manuscripts
 ---
 
- Project PI, Cordelia Beattie, has written a post for the British Library's blog series 'Untold Lives', about Alice Thornton, her pet chicken, an unfortunate eye injury and a metaphor for her niece's betrayal.
+ Project PI, Cordelia Beattie, has written [a post](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html) for the British Library's blog series, 'Untold Lives', about the two Alice Thornton manuscripts in their collection, when they were written, and our current thinking about what prompted the composition of *Book 3: The Second Book of My Widowed Condition*. 
 
-This curious story is found in *The Second Booke of My Widdowed Condition* (our *Book 3*), which is one of the two Thornton manuscripts housed at the British Library, the other being *The First Booke of My Life* (our *Book 1*).
+ Spoiler: it also discusses her pet chicken, an unfortunate eye injury and her niece's betrayal (and includes three lovely images from Thornton's books).
 
-Read more [here](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html).

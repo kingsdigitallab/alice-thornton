@@ -11,8 +11,6 @@ Over the course of the next two years, this project will produce an interactive 
 
 The text of all four manuscript volumes will be available to read in both fully modernised and semi-diplomatic versions, either separately or side-by-side. As we are using the widely recognised Text Encoding Initiative (TEI) markup schema, the edition will be fully searchable (for example, users will be able to trace people and events across all four volumes).
 
-Although we are not digitising the manuscripts, we will provide some sample images from each of the volumes to offer a sense of how the original materials looked.
-
 <div class="gallery-by-4">
   <div class="book-image">
 
@@ -35,6 +33,12 @@ Although we are not digitising the manuscripts, we will provide some sample imag
 
   </div>
 </div>
+
+Although we are not digitising the manuscripts, we will provide some sample images from each of the volumes to offer a sense of how the original materials looked.
+
+You can now access our [initial release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of 22 pages from one book, in both semi-diplomatic and modernised versions. Side-by-side view and a search facility will be later features.
+
+Please email us - alicethorntonsbooks@gmail.com - with your thoughts.
 
 ## Background
 

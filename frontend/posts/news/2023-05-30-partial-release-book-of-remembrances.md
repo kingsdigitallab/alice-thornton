@@ -1,7 +1,7 @@
 ---
 title: "Digital Edition: Partial Release (the First 22 Pages of 'A Book of Remembrances')"
 feature: /assets/img/posts/partial_release_news.jpg
-status: draft
+status: live
 authors:
   - strill
 tags:
@@ -20,7 +20,7 @@ However, as the images below demonstrate, in this version you can view the texts
 
 ![An image of the digital edition as it looks on the website.]({{"/assets/img/posts/partial_release_1.jpg" | url}} "A page of semi-diplomatic text from the digital edition.")
 
-For more information on current functionality - including tagging, annotations, images and editorial principles - please see our blog: ['Book of Remembrances: Further Information about the Partial Release'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-05-29-partial-release-blog/).
+For more information on current functionality - including tagging, annotations, images and editorial principles - please see our blog: ['Book of Remembrances: Further Information about the Partial Release'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-05-30-partial-release-blog/).
 
 We very much hope you like what you see, and we look forward to your feedback. Email alicethorntonsbooks@gmail.com with your comments.
 

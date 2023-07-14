@@ -14,8 +14,9 @@ function getTweets() {
   client.get(
     "statuses/user_timeline",
     {
-      screen_name: process.env.TWITTER_SCREEN_NAME,
-      tweet_mode: "extended",
+      // screen_name: process.env.TWITTER_SCREEN_NAME,
+      screen_name: "",
+      // tweet_mode: "extended",
       include_ext_alt_text: true,
     },
     function (error, tweets) {
