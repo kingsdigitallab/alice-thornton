@@ -22,13 +22,13 @@ When her mother died in 1659, and her younger brother, Christopher, inherited Hi
 
 For Thornton, this was not just a move of forty miles within North Yorkshire, but a ‘removal from my own country, friends and relations’.[1] Thornton relates, though, that she managed to bring offcuts of the fashionable plane trees planted at Hipswell so that she could set them 'in rows and walks in the front of my house’, providing a link between her old home and the new.[2]  
  
-![The view across a green field with sheep of a country house of grey stone with red tiles on the roof.]({{ "/assets/img/posts/East_Newton_Hall.jpg" | url }} "East Newton Hall. Photo by Huw Foster."){.media-left}
+![The view across a green field with sheep of a country house of grey stone with red tiles on the roof.]({{ "/assets/img/posts/East_Newton_Hall.JPG" | url }} "East Newton Hall. Photo by Huw Foster."){.media-left}
 
 In 1660 they initially stayed in Oswaldkirk but in 1662 the house that William Thornton had promised to build in their marriage settlement was ready for them to move into: East Newton Hall. Thornton’s discussions of this property – ‘we had builded it anew from the ground', which was '6 years' work’ – give us a firmer date for the building that that noted in Pevsner.[3] 
 
 East Newton Hall is where Thornton lived until her death. However, in 1692 she passed ownership of the property to her son-in-law, Thomas Comber, in return for an annual pension. He died before her, in 1699, so the property was then owned by Thornton’s oldest daughter, Alice Thornton Comber, usually referred to as Nally in the books. 
 
-![The view of the back end of a stone minster, in a graveyard, in summer.]({{ "/assets/img/posts/Stonegrave.jpg" | url }} "Stonegrave Minster. Photo by Cordelia Beattie."){.media-right}
+![The view of the back end of a stone minster, in a graveyard, in summer.]({{ "/assets/img/posts/Stonegrave.JPG" | url }} "Stonegrave Minster. Photo by Cordelia Beattie."){.media-right}
 
  Thornton, like her husband and her son-in-law, was buried at the nearby church of Stonegrave. Memorial plaques to the two men can be found on the wall and floor there. In her will, made in 1705, Thornton wanted to leave money to repair and cover the north alley in the church, where the Thornton family were all buried. She noted that she had not been able to do this during her life, presumably because of her family’s debts, and so she requested that her oldest daughter, Nally, might take this on:  
 
