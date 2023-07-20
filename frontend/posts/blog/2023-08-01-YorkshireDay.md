@@ -24,7 +24,7 @@ While living at Hipswell as a teenaged girl, Alice had a couple of narrow escape
 
  
 
-When her mother died in 1659, and her younger brother, Christopher, inherited Hipswell Hall, Thornton was forced to move her family out. She initially only went as far as her nearby Aunt Norton’s house - St Nicholas, Richmond - as she was heavily pregnant [restoration blog link]. Once she had recovered, Alice and her husband moved to the part of north Yorkshire from where William Thornton hailed: Ryedale. 
+When her mother died in 1659, and her younger brother, Christopher, inherited Hipswell Hall, Thornton was forced to move her family out. She initially only went as far as nearby Aunt Norton’s house - St Nicholas, Richmond - as she was heavily pregnant [restoration blog link]. Once she had recovered, Alice and her husband moved to the part of north Yorkshire from where William Thornton hailed: Ryedale. 
 
 For Thornton, this was not just a move of forty miles within North Yorkshire, but a ‘removal from my own country, friends and relations’.[1] Thornton relates, though, that she managed to bring offcuts of the fashionable plane trees planted at Hipswell so that she could ‘set [them] in rows and walks in the front of my house’, providing a link between her old home and the new.[2]  
 
