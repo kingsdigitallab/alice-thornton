@@ -38,10 +38,10 @@ East Newton Hall is where Thornton lived until her death. However, in 1692 she p
 
  The books also mentioned other local landmarks such as [Middleham Castle](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/), the river Swale and [Whitestone Cliff](http://www.north-york-moors.com/whitestone-cliff.html), on the edge of the Hambleton Hills. Have a look at our work-in-progress map [sh link] to see the Yorkshire places named in Thornton’s books. Have you visited any of these sites linked with Alice Thornton? 
 
-[^1]:
+[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘removall from my owne Countrey, freinds, & Relations’. Alice Thornton, *Book 3: The Second Book of My Widowed Condition* (hereafter *Book 3*), British Library MS Add 88897/2, 43.
 
-[^2]:
+[^2]: *Book 3*, 130: ‘in the Rowes & walkes in the front of my House’.
 
-[^3]:
+[^3]: Alice Thornton, *Book 2: The First Book of My Widowed Condition*, DCL, GB-0033-CCOM 7, 77 (‘we had Builded it, a new from the Ground’); Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 193 (‘6 yeares worke’); Jane Grenville and Nikolaus Pevsner, *Yorkshire: The North Riding*. New Haven: Yale University Press, 2023, 261.
 
-[^4]:
+[^4]: Charles Jackson. Ed. *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*. Durham: Surtees Society, 1875, 337 (modernised).
