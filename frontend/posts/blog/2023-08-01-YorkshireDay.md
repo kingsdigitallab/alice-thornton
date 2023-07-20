@@ -12,7 +12,9 @@ Alice Wandesford Thornton was born in Kirklington, Hambleton in 1626 and died at
 
 ![The grand front of a stately stone home.]({{ "/assets/img/posts/Hipswell_Hall.jpg" | url }} "Hipswell Hall. Photo by Suzanne Trill."){.media-left}
 
-From 1644 to 1659 Alice Thornton lived at her mother’s jointure property, Hipswell Hall. Still extant above the porch door is the inscription ‘GW 1596’, a reference to the alterations made to the fifteenth-century property by George Wandesford (1573-1612), Alice’s grandfather, in 1596. While living at Hipswell as a teenaged girl, Alice had a couple of narrow escapes from Scottish soldiers who were quartered on her mother’s estate, one of whom was apparently very keen on marrying her. Thornton also relates how in 1645 the nearby town of Richmond was hit by a plague outbreak and a midwife was not allowed to leave to attend her sister, Katherine Danby, to prevent further spread. Then, in 1651, she married William Thornton and he moved in with Alice and her mother, while his own family property at East Newton was being rebuilt. 
+From 1644 to 1659 Alice Thornton lived at her mother’s jointure property, Hipswell Hall. Still extant above the porch door is the inscription ‘GW 1596’, a reference to the alterations made to the fifteenth-century property by George Wandesford (1573-1612), Alice’s grandfather, in 1596. 
+
+While living at Hipswell as a teenaged girl, Alice had a couple of narrow escapes from Scottish soldiers who were quartered on her mother’s estate, one of whom was apparently very keen on marrying her. Thornton also relates how in 1645 the nearby town of Richmond was hit by a plague outbreak and a midwife was not allowed to leave to attend her sister, Katherine Danby, to prevent further spread. Then, in 1651, she married William Thornton and he moved in with Alice and her mother, while his own family property at East Newton was being rebuilt. 
  
 ![The view of an old stone house across a pretty meadow in summer.]({{ "/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. Photo by Suzanne Trill."){.media-right}
 
@@ -22,7 +24,9 @@ For Thornton, this was not just a move of forty miles within North Yorkshire, bu
  
 ![The view across a green field with sheep of a country house of grey stone with red tiles on the roof.]({{ "/assets/img/posts/East_Newton_Hall.JPG" | url }} "East Newton Hall. Photo by Huw Foster."){.media-left}
 
-In 1660 they initially stayed in Oswaldkirk but in 1662 the house that William Thornton had promised to build in their marriage settlement was ready for them to move into: East Newton Hall. Thornton’s discussions of this property – ‘we had builded it anew from the ground', which was '6 years' work’ – give us a firmer date for the building that that noted in Pevsner.[^3] East Newton Hall is where Thornton lived until her death. However, in 1692 she passed ownership of the property to her son-in-law, Thomas Comber, in return for an annual pension. He died before her, in 1699, so the property was then owned by Thornton’s oldest daughter, Alice Thornton Comber, usually referred to as Nally in the books. 
+In 1660 they initially stayed in Oswaldkirk but in 1662 the house that William Thornton had promised to build in their marriage settlement was ready for them to move into: East Newton Hall. Thornton’s discussions of this property – ‘we had builded it anew from the ground', which was '6 years' work’ – give us a firmer date for the building than that noted in Pevsner (c.1620-30).[^3] 
+
+East Newton Hall is where Thornton lived until her death. However, in 1692 she passed ownership of the property to her son-in-law, Thomas Comber, in return for an annual pension. He died before her, in 1699, so the property was then owned by Thornton’s oldest daughter, Alice Thornton Comber, usually referred to as Nally in the books. 
 
 ![The view of the back end of a stone church, in a graveyard, in summer.]({{ "/assets/img/posts/Stonegrave.JPG" | url }} "Stonegrave Minster. Photo by Cordelia Beattie."){.media-right}
 
