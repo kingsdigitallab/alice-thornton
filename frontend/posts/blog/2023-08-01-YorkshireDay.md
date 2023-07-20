@@ -32,7 +32,8 @@ In 1660 they initially stayed in Oswaldkirk but in 1662 the house that William T
 
 ![An old map of the North Riding of Yorkshire in black and white.]({{ "/assets/img/posts/1664_map_North_Riding.jpg" | url }} "Map of the North Riding of Yorkshire, made in 1664."){.media-centre}
 
- The books also mentioned other local landmarks such as [Middleham Castle](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/), the river Swale and [Whitestone Cliff](http://www.north-york-moors.com/whitestone-cliff.html), on the edge of the Hambleton Hills. Have a look at our work-in-progress map [sh link] to see the Yorkshire places named in Thornton’s books. Have you visited any of these sites linked with Alice Thornton? 
+ Thornton's *Books* also mention other local landmarks such as [Middleham Castle](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/), the river Swale and [Whitestone Cliff](http://www.north-york-moors.com/whitestone-cliff.html), on the edge of the Hambleton Hills. Have a look at our [work-in-progress map]() to see the Yorkshire places named in Thornton’s *Books*. Have you visited any of these sites linked with Alice Thornton? 
+
 
 [^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘removall from my owne Countrey, freinds, & Relations’. Alice Thornton, *Book 3: The Second Book of My Widowed Condition* (hereafter *Book 3*), British Library MS Add 88897/2, 43.
 
