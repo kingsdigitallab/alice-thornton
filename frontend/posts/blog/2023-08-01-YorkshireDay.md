@@ -34,9 +34,9 @@ East Newton Hall is where Thornton lived until her death. However, in 1692 she p
 
 > Whereas it has been my desire to have repaired and covered the alley in the parish church of Stonegrave belonging to my dear husband’s family with sufficient leading and repairing the glass windows now stopped up, and could not be able as I designed, therefore I desire and leave it ... with my daughter Comber to do the same, if God enable her to do it, but if she do it not, I desire and charge my grandson Thomas Comber that he will perform and do the same, for the honour of God and the satisfaction of his duty to the ancient family of his grandfather Thornton.[^4] 
 
-![An old map of the North Riding of Yorkshire in black and white.]({{ "/assets/img/posts/1664_map_North_Riding.jpg" | url }} "Map of the North Riding of Yorkshire, made in 1664."){.media-centre}
-
  Thornton's *Books* also mention other local landmarks such as [Middleham Castle](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/), the river Swale and [Whitestone Cliff](http://www.north-york-moors.com/whitestone-cliff.html), on the edge of the Hambleton Hills. Have a look at our [work-in-progress map]() to see the Yorkshire places named in Thornton’s *Books*. Have you visited any of these sites linked with Alice Thornton? 
+
+![An old map of the North Riding of Yorkshire in black and white.]({{ "/assets/img/posts/1664_map_North_Riding.jpg" | url }} "Map of the North Riding of Yorkshire, made in 1664."){.media-centre}
 
 
 [^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘removall from my owne Countrey, freinds, & Relations’. Alice Thornton, *Book 3: The Second Book of My Widowed Condition* (hereafter *Book 3*), British Library MS Add 88897/2, 43.
