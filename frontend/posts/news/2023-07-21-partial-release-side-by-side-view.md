@@ -1,6 +1,6 @@
 ---
 title: "Digital Edition: Partial Release (side-by-side view)"
-feature: /assets/img/posts/partial_release_side_by_side_dedication.jpg
+feature: /assets/img/posts/partial_release_side_by_side.jpg
 status: live
 authors:
   - cbeattie
