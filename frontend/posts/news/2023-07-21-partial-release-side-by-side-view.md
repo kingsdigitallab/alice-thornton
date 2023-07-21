@@ -1,5 +1,5 @@
 ---
-title: "Digital Edition: 2nd Partial Release – side-by-side view"
+title: "Digital Edition: Partial Release (side-by-side view)"
 feature: /assets/img/posts/partial_release_side_by_side_dedication.jpg
 status: live
 authors:
