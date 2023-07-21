@@ -17,4 +17,4 @@ Pressing the 'clone' button at the top right (two squares) brings up the other p
 
 For more information on current functionality (including tagging, annotations and editorial principles) please see our earlier post, [‘Further Information about the Partial Release'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-05-30-partial-release-blog/).
 
-We very much hope you like what you see and again we look forward to your feedback. Please email alicethorntonsbooks at gmail dot com with any comments. 
+We very much hope you like what you see and again we look forward to your feedback. Please email us at alicethorntonsbooks@gmail.com  with any comments. 
