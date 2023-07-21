@@ -1,7 +1,7 @@
 ---
 title: "Digital Edition: 2nd Partial Release – side-by-side view"
 feature: /assets/img/posts/partial_release_side_by_side_dedication.jpg
-status: draft
+status: live
 authors:
   - cbeattie
 tags:
@@ -15,6 +15,6 @@ In collaboration with our partners at King’s Digital Lab, we are delighted to 
 
 Pressing the 'clone' button at the top right (two squares) brings up the other page and you can use the drop down list (top left) to toggle between the modernised and semi-diplomatic views so you can choose which one you would like on the left and which one on the right of the screen.
 
-For more information on current functionality (including tagging, annotations and editorial principles) please see our post, [‘Further Information about the Partial Release'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-05-30-partial-release-blog/).
+For more information on current functionality (including tagging, annotations and editorial principles) please see our earlier post, [‘Further Information about the Partial Release'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-05-30-partial-release-blog/).
 
 We very much hope you like what you see and again we look forward to your feedback. Please email alicethorntonsbooks at gmail dot com with any comments. 
