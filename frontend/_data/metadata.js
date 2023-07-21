@@ -54,7 +54,7 @@ module.exports = function () {
       // "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts-stg/dts.json":
       //   "AT DTS (stg)",
       // "http://localhost:3000": "AT DTS (local:3000)",
-      "http://192.168.0.48:3000": "AT DTS (local:3000)",
+      "http://localhost:3000": "AT DTS (local:3000)",
     };
   }
   if (environment == "pre") {
