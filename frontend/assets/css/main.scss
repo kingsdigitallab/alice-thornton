@@ -127,6 +127,11 @@ a {
 
 // End nuclear
 
+// .text-viewer .field.is-grouped.is-grouped-right {
+//   display: block;
+//   float: right;
+// }
+
 .content {
   box-sizing: content-box;
 
@@ -628,11 +633,6 @@ ul.social_media_block {
 .text-viewer {
   padding-bottom: 6rem;
 
-  .unbreakable-control-group {
-    display: inline-block;
-    margin-right: 0.5em;
-  }
-
   .panel-controls {
     // GN: temporarily hidden
     display: none;
@@ -642,23 +642,8 @@ ul.social_media_block {
   }
 
   .panel-heading {
-    .select {
-      margin-left: 0;
-    }
-  }
-
-  .panel-selector {
-    display: inline-block;
-    margin-bottom: 0.5em;
-  }
-
-  // GN TODO: ugly! we should be using Bulma's .buttons & .is-right instead.
-  // But it places the buttons on a line below the panel heading.
-  .button-bar {
-    float: right;
-    padding-bottom: 0.5em;
-    .button {
-      margin-left: 0.5em;
+    .select- {
+      margin-bottom: 0.7em;
     }
   }
 
@@ -677,9 +662,9 @@ ul.social_media_block {
     margin-bottom: 0 !important;
   }
 
-  .select {
-    margin: 0 0.5rem;
-  }
+  // .select {
+  //   margin: 0 0.5rem;
+  // }
 }
 
 // Box citation

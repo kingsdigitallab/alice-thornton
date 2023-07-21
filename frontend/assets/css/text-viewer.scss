@@ -57,6 +57,40 @@ $render-add-with-arrow: false;
   span[data-tei-rend~="italic"] {
     font-style: italic;
   }
+
+  // .panel-heading {
+  //   display: inline-block;
+  // }
+
+  .btn-icons {
+    margin-bottom: 0;
+
+    .icon {
+      margin: 0;
+      width: 1rem;
+      height: 1rem;
+    }
+
+    .btn-label {
+      display: none;
+    }
+  }
+
+  // Following rules in this block to make the close+clone button float top right.
+  // Apart from that issue all the rest would work well with Bulma's flex.
+  .panel-heading {
+    display: block; // cancel flex mode
+
+    .control,
+    .field {
+      display: inline-block;
+    }
+
+    .pull-right {
+      // margin-left: auto; // for flex mode
+      float: right;
+    }
+  }
 }
 
 // GN: placeholders for customasing the rendering of the editions

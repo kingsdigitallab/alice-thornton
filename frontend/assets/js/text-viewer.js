@@ -3,14 +3,14 @@ const { createApp } = window.Vue;
 function setUpTextViewer() {
   let PanelControl = {
     template: `
-    <span class="panel-selector" v-if="!isHidden">
+    <p class="control" v-if="!isHidden">
       <template v-if="!hideLabel">{{label}}:</template>
-      <div class="select is-normal">
+      <span class="select is-normal">
         <select @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
           <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
         </select>
-      </div>
-    </span>
+      </span>
+    </p>
     `,
     props: ["panelIdx", "controlKey", "hideLabel"],
     computed: {
@@ -121,12 +121,18 @@ function setUpTextViewer() {
       // http://localhost:8080/books/viewer/?&p0.lo=p.1&p1.do=https://thornton.kdl.kcl.ac.uk/dts/ids/thornton-books/book_one/&p1.lo=p.2&p1.vi=modern
       this.setSelectionFromAddressBar();
     },
-    methods: {
+    computed: {
       canClonePanel() {
-        return window.metadata.text_viewer.can_clone_panel;
+        return (
+          window.metadata.text_viewer.can_clone_panel &&
+          this.panels.length < window.metadata.text_viewer.max_panels
+        );
       },
+    },
+    methods: {
       clonePanel(panelIdx) {
         this.panels.push(JSON.parse(JSON.stringify(this.panels[panelIdx])));
+        this.addEventsToTexts();
         this.setAddressBarFromSelection();
       },
       closePanel(panelIdx) {
@@ -296,7 +302,10 @@ function setUpTextViewer() {
         panel.responses.document = doc;
 
         // EVENTS
-
+        this.addEventsToTexts();
+      },
+      addEventsToTexts() {
+        // add the javascript events to all loaded texts
         this.$nextTick(() => {
           // TODO: attach events only to current panel
           // const anchors = window.document.querySelectorAll(".tei-anchor");

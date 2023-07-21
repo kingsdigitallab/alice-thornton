@@ -11,8 +11,6 @@ Over the course of the next two years, this project will produce an interactive 
 
 The text of all four manuscript volumes will be available to read in both fully modernised and semi-diplomatic versions, either separately or side-by-side. As we are using the widely recognised Text Encoding Initiative (TEI) markup schema, the edition will be fully searchable (for example, users will be able to trace people and events across all four volumes).
 
-
-
 <div class="gallery-by-4">
   <div class="book-image">
 

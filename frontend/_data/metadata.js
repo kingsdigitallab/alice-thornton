@@ -1,5 +1,7 @@
 module.exports = function () {
-  // lcl|dev|stg|liv
+  // lcl|dev|stg|pre|liv
+  // stg: stg code and and dev data (used any other time)
+  // pre: uses stg code and data    (used before a new live release)
   let environment = process.env.SITE_ENV || "lcl";
   let ret = {
     // TODO: harmonise the key notations, currently mixing camelCase & _
@@ -35,6 +37,7 @@ module.exports = function () {
       },
       visible_documents: {},
       can_clone_panel: true,
+      max_panels: 4,
     },
     environment: environment,
     // which of the above metadata to pass to front-end javascript
@@ -54,7 +57,7 @@ module.exports = function () {
       "http://192.168.0.48:3000": "AT DTS (local:3000)",
     };
   }
-  if (environment == "stg") {
+  if (environment == "pre") {
     ret["text_viewer"]["source"] = {
       "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts-stg/dts.json":
         "AT DTS (stg)",
@@ -67,14 +70,14 @@ module.exports = function () {
     };
   }
 
-  if (["stg", "liv"].includes(environment)) {
+  if (["pre", "liv"].includes(environment)) {
     ret["text_viewer"]["visible_documents"] = {
       book_of_remembrances: [1, 22],
       book_one: [],
       book_two: [],
       book_three: [],
     };
-    ret["text_viewer"]["can_clone_panel"] = false;
+    // ret["text_viewer"]["can_clone_panel"] = false;
   }
 
   ret["front_end"] = {};
