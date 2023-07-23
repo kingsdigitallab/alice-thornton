@@ -24,7 +24,7 @@ For Thornton, this was not just a move of forty miles within North Yorkshire, bu
  
 ![The view across a green field with sheep of a country house of grey stone with red tiles on the roof.]({{ "/assets/img/posts/East_Newton_Hall.JPG" | url }} "East Newton Hall. Photo by Huw Foster."){.media-left}
 
-In 1660 they initially stayed in Oswaldkirk but in 1662 the house that William Thornton had promised to build in their marriage settlement was ready for them to move into: East Newton Hall. Thornton’s discussions of this property – ‘we had builded it anew from the ground', which was '6 years' work’ – give us a firmer date for the building than that noted in Pevsner (c.1620-30).[^3] 
+In 1660 they initially stayed in Oswaldkirk but in 1662 the house that William Thornton had promised to build in their marriage settlement was ready for them to move into: East Newton Hall. Thornton’s discussions of this property – ‘we had builded it anew from the ground', which was '6 years' work’ – give us a firmer date for the building than that noted by Pevsner (c.1620-30).[^3] 
 
 East Newton Hall is where Thornton lived until her death. However, in 1692 she passed ownership of the property to her son-in-law, Thomas Comber, in return for an annual pension. He died before her, in 1699, so the property was then owned by Thornton’s oldest daughter, Alice Thornton Comber, usually referred to as Nally in the books. 
 
