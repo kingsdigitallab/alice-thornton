@@ -1,7 +1,7 @@
 ---
 title: "Alice Thornton Week at Durham Cathedral, 18-21 October 2023: tickets now on sale"
 feature: /assets/img/posts/remarkable-deliverances-play.jpg
-status: draft
+status: live
 authors:
   - jedge
 tags:
