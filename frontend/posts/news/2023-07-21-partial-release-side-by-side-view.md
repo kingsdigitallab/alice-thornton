@@ -13,7 +13,7 @@ In collaboration with our partners at King’s Digital Lab, we are delighted to 
 
 ![A side-by-side view of the title page of Thornton's Book of Remembrances, in modernised and semidiplomatic]( {{ "/assets/img/posts/partial_release_side_by_side.jpg" | url }} "Book of Remembrances, 1, side-by-side view.")
 
-Pressing the 'clone' button at the top right (two squares) brings up the other panel and you can use the drop down list (top left) to toggle between the modernised and semi-diplomatic views so you can choose which one you would like on the left and which one on the right of the screen.
+Pressing the 'clone' button at the top right (two squares) brings up the other panel and you can use the drop down list (top left) to toggle between the modernised and semi-diplomatic views so you can choose which one you would like on the left and which one on the right of the screen. Unfortunately, this function is not available on mobile phones.
 
 For more information on current functionality (including tagging, annotations and editorial principles) please see our earlier post, [‘Further Information about the Partial Release'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-05-30-partial-release-blog/).
 
