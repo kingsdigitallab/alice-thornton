@@ -11,7 +11,7 @@ tags:
 
 Tickets for our events at 'Alice Thornton Week' at Prior's Hall, Durham Cathedral are now on sale. Please buy early to avoid disappointment!
 
-On 18 October at 7.30pm, project PI Cordelia Beattie will give a talk on 'Alice Thornton (1626-1707) and her Rediscovered Manuscripts':
+## On 18 October at 7.30pm, project PI Cordelia Beattie will give a talk on 'Alice Thornton (1626-1707) and her Rediscovered Manuscripts':
 
 ![A lady with shoulder length brown hair looks at an old book on a book stand in the library]( {{ "/assets/img/posts/cordelia_book_durham.jpg" | url }} "Cordelia Beattie with one of Thornton's Books, Durham Cathedral Library."){.media-left}
 
@@ -19,7 +19,7 @@ On 18 October at 7.30pm, project PI Cordelia Beattie will give a talk on 'Alice 
 
 Tickets for Cordelia's talk can be bought [here](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173646749).
 
-On 19 and 20 October at 7.30pm there will be performances of one-woman play *The Remarkable Deliverances of Alice Thornton*:
+## On 19 and 20 October at 7.30pm there will be performances of one-woman play *The Remarkable Deliverances of Alice Thornton*:
 
 ![A woman in a white nightgown sitting on a chair, performing a play]( {{ "/assets/img/posts/remarkable-deliverances-play-2.jpg" | url }} "Debbie Cannon performing 'The Remarkable Deliverances of Alice Thornton'. Photo by Jane Hobson"){.media-right}
 
@@ -29,7 +29,7 @@ Written and performed by Debbie Cannon (Green Knight, winner of the Female Actor
 
 Tickets for the play can be bought [here](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173644589).
 
-Finally, on Saturday 21 October at 7.30, Project Co-I Suzanne Trill will give a talk on 'Alice Thornton’s Books: God’s Seventeenth-Century Handmaid':
+## Finally, on Saturday 21 October at 7.30, Project Co-I Suzanne Trill will give a talk on 'Alice Thornton’s Books: God’s Seventeenth-Century Handmaid':
 
 ![The title page of an old handwritten book]( {{ "/assets/img/posts/Book_Rem_dedication.jpg" | url }} "Book of Remembrances, dedication page. Photo by Derek Beattie"){.media-left}
 
