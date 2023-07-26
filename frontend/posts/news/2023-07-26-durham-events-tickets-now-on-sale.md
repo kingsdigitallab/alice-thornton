@@ -35,7 +35,7 @@ Tickets for the play can be bought [here](https://durhamcathedral.ticketsolve.co
 
 > An opportunity to visit Durham Cathedral’s beautiful seventeenth-century Refectory Library – not usually open to visitors – to view some of the collection linked to Dean Thomas Comber (1645-99), who helped set up this library, and his mother-in-law, Alice Thornton (1626-1707), who wrote four books recording her life during the British Civil Wars, much of it spent in North Yorkshire. Amongst the items on display will be two of Alice Thornton’s small, handwritten books which have only recently been located.
 
-Tickets for the Treasures session can be bought [here](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173646759/events/428606039?_gl=1*f6qyze*_ga*NzMzMjAxOTUyLjE2OTAzMDI4Mjk.*_ga_GWSJKBCMBZ*MTY5MDM2ODc2OS4yLjEuMTY5MDM2ODc4OS4wLjAuMA..)
+Tickets for the Library Treasures session can be bought [here](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173646759/events/428606039?_gl=1*f6qyze*_ga*NzMzMjAxOTUyLjE2OTAzMDI4Mjk.*_ga_GWSJKBCMBZ*MTY5MDM2ODc2OS4yLjEuMTY5MDM2ODc4OS4wLjAuMA..).
 
 ## Saturday 21st October, 7.30pm, Prior's Hall. Public lecture by Suzanne Trill: 'Alice Thornton’s Books: God’s Seventeenth-Century Handmaid'
 
