@@ -1,7 +1,7 @@
 ---
 title: "Celebrating a Yorkshire woman on Yorkshire Day: Alice Thornton (1626-1707)"
 feature: /assets/img/posts/Hipswell_Hall.jpg
-status: draft
+status: live
 authors:
   - cbeattie
 tags:
