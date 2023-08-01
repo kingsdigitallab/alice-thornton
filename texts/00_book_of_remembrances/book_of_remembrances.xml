@@ -142,6 +142,15 @@
             </application>
          </appInfo>
         
+        <charDecl>
+          <glyph xml:id="heart">
+            <desc>Thornton frequently uses the heart symbol instead of the word 'heart' in her books. See <ref target="https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/">https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/</ref></desc>
+          </glyph>
+          <glyph xml:id="u8284">
+            <desc>Unicode dotted cross U+8284 *tbc*</desc>
+          </glyph>
+        </charDecl>
+        
      <!-- ENCODING NOTES: 
          
          @xml:id and @n in <pb> tags and page \d+ in xml comments = Transcriber page numbers - these should be treated as the definitive numbers for the edition. 
@@ -165,16 +174,10 @@
          
      TO DO/REVIEW:
      
-        <pc> for hyphens* at line breaks (<lb break=no>) only
-          hopefully no attributes needed...
-          occasionally Alice uses = instead of -
-          can be at end of line or beginning of line or both
-          ?not used where the word has been tagged with <w norm="..."> as the hyphen will already have been removed from the normalised form.? need to check this with GN.
-        
         seg @rend=underline (all books)
           final check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph? tags.
              tei: emph = "marks words or phrases which are stressed or emphasized for linguistic or rhetorical effect." example = You took the car and did <emph>what</emph>?!! (and I think all the further examples are the same type of thing) 
-             - not sure I've seen any clear examples of Alice using underline for exactly this type of emphasis. 
+             - v few clear examples of Alice using underline for exactly this type of emphasis. 
              - but she does underline things to (afaict) draw attention to them, so does that also count as emph?
              - Cf. most underline in BkRem used on headings and seems most appropriate to treat as decoration. Queried ones are at end of sections and the Q is whether they should be treated as section markers. 
         
@@ -206,8 +209,8 @@
       - most people and place names are now tagged in all four books 
       - nearly all tagged <persName> are linked to people masterlist db 
       TODO
-      - at least half of people and some places tagged with <rs> (type=person/group/place/geog) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
-      - completion of people.xml standoff to include relationships and sources - to be done once bios have been completed
+      - some tagged with <rs> (type=person/group/place/geog) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
+      - completion of people.xml standoff to include relationships - to be done once bios have been completed
 
      -->      
        
@@ -703,6 +706,7 @@
          <fw>
            <fw xml:id="mnote-0001" place="left margin">
              <g ref="#u8284">⁜</g><anchor corresp="#ednote-0013" type="text" resp="ednote"/>
+             <!-- Q try retaining endnote and use glyph to document general desription, but will need to review the relationship between the two features. may not work. -->
              <!-- NOTE [unicode] dotted cross symbol -->
              <!-- Q [tei] metamark? this is rather like the signe de renvoi at the same place in book 1... but it's missing the matching symbol at the end (div 097), and the added text here. link it to div 097 anyway? honestly, alice.  -->
            </fw> 
@@ -4354,10 +4358,10 @@
           <w norm="appeared">apeared</w> <w norm="and">&amp;</w> broke out in a great <w norm="abundance">abundanc</w><lb/>
           all over, <w norm="and">&amp;</w> in her <w norm="unguidableness">ungedablenesse</w><anchor/><!-- Q note tbc word ungettableness? --> <w norm="struck">stroke</w><lb/>
           in <w norm="again">againe</w><pc norm=";">,</pc> so that<supplied reason="mod">,</supplied> to save her life<supplied reason="mod">,</supplied> <persName ref="ppl:tp1" n="per233">my <w norm="brother" type="l">Brother</w><lb/>
-          Portington</persName> gave her much <w norm="cordials">cordialls</w>, <w norm="and">&amp;</w> thus<lb/>
+          Portington</persName> gave her much <term><w norm="cordials">cordialls</w></term>, <w norm="and">&amp;</w> thus<lb/>
           it pleased God she was in hopes of life<lb/>
           but was <add place="above">in</add> very great danger to lose her eye<lb/>
-          sight. <w norm="She">she</w> was all over in a <w norm="scurf">scurfe</w> in the<lb/>
+          sight. <w norm="She">she</w> was all over in a <term><w norm="scurf">scurfe</w></term> in the<lb/>
           face<supplied reason="mod">,</supplied> which ran into one another<pc norm=",">.</pc> but I bless<lb/>
           God she was past danger of death <w norm="and">&amp;</w> they<lb/>
            began to <w norm="dry">drie</w><pc norm=",">.</pc> although she was very sore<lb/>
@@ -4385,7 +4389,7 @@
           his <w norm="infinite">infinit</w> mercy directing to good <w norm="help">helpe</w> <w norm="and">&amp;</w><lb/>
           <w norm="means">meanes</w> <w norm="and">&amp;</w> prospering the same<supplied reason="mod">,</supplied> she was lately<lb/>
           <w norm="healed">heald</w> <w norm="and">&amp;</w> recovered <w norm="again">againe</w> <supplied reason="mod">(</supplied><persName ref="ppl:ha1" n="per234">Hanna Ableson</persName><lb/>
-          <w norm="and">&amp;</w> <persName ref="ppl:mc1" n="per235"><w norm="Mary" type="u">mary</w> Cotes</persName> was<!-- Q were? --> her keepers<supplied reason="mod">)</supplied><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> about<lb/>
+          <w norm="and">&amp;</w> <persName ref="ppl:mc1" n="per235"><w norm="Mary" type="u">mary</w> Cotes</persName> was<!-- Q were? --> her <term>keepers</term><!-- Q gloss specific context. not likely to be used otherwise though? --><supplied reason="mod">)</supplied><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> about<lb/>
            <date when-custom="1666-11"><w norm="November" type="u">november</w></date> was able to <w norm="go">goe</w> abroad<anchor/> in the house<pc norm=",">.</pc><lb/>
           but lost her <w norm="fair">faire</w> head of <w norm="hair">haire</w> that was on her<lb/>
           head.<anchor n="ev69" type="event"/> I praise my God that he was <w norm="entreated">intreated</w> by<lb/>
@@ -4397,13 +4401,13 @@
          <milestone n="ev70" unit="event"/>
          <p xml:id="p-0131">It pleased God to <w norm="visit">vissit</w> my <w norm="dear">deare</w> <w norm="brother" type="l">Brother</w><supplied reason="mod">,</supplied><lb/>
           <persName ref="ppl:jw1" n="per236">John Wandesford</persName><supplied reason="mod">,</supplied> at <placeName ref="place:Lond_080" n="place80">London</placeName> <choice><abbr>w<am rend="superscript">th</am></abbr><expan>with</expan></choice><!-- NOTE transcription "10" but clearly s/b w so reported and changed here. --> his last <lb/>
-           <w norm="sickness">sicknesse</w> <w norm="being">beeing</w> an <w norm="ague">Ague</w><pc norm=",">.</pc> <w norm="adjoined">a joyned</w> with <w norm="fits">fitts</w><lb/>
-          of the stone<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> some <w norm="extremities">extreamitys</w> of sickness<supplied reason="mod">,</supplied><lb/>
+           <w norm="sickness">sicknesse</w> <w norm="being">beeing</w> an <term><w norm="ague">Ague</w></term><pc norm=",">.</pc> <w norm="adjoined">a joyned</w> with <w norm="fits">fitts</w><lb/>
+          of <term>the stone</term><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> some <w norm="extremities">extreamitys</w> of sickness<supplied reason="mod">,</supplied><lb/>
           which about the <date when-custom="1666-12-02">2<hi rend="superscript"><supplied reason="mod">n</supplied>d</hi> day of December</date> deprived<lb/>
           him of his life<pc norm=".">,</pc> <w norm="For" type="u">for</w> <w norm="several">severall</w> <w norm="years">yeares</w> before<supplied reason="mod">,</supplied><lb/>
           he had laid under the most sad <w norm="and">&amp;</w> afflicting<lb/>
           hand of God by reason of the want of the <lb/>
-          use of his understanding <w norm="several">severall</w> times<supplied reason="mod">;</supplied><lb/>
+          use of his <term>understanding</term> <w norm="several">severall</w> times<supplied reason="mod">;</supplied><lb/>
           yet having <w norm="abundance">a bundance</w> of <w norm="intervals">intervalls</w><pc norm=",">.</pc> in which<lb/>
           time he was very <w norm="religiously">Religously</w> <w norm="disposed">desposed</w> <w norm="and">&amp;</w><lb/>
           constant in <w norm="duties">dutyes</w><supplied reason="mod">,</supplied> with a <choice><sic>consiencue</sic><corr>conscience</corr></choice>
@@ -4438,7 +4442,7 @@
           commended his <w norm="soul">soule</w> to his Creator<pc norm=".">;</pc> <w norm="and">&amp;</w><lb/>
           <w norm="after">affter</w> commending his dearest love to<lb/>
           me <w norm="and">&amp;</w> <persName ref="ppl:wt1" n="per237">Mr Thornton</persName>, he drew shorter each<lb/>
-           <w norm="minute">minet</w> <w norm="and">&amp;</w> so sweetly fell <w norm="asleep">a sleepe</w> in the Lord<supplied reason="mod">.</supplied><lb/>
+           <w norm="minute">minet</w> <w norm="and">&amp;</w> so <term>sweetly</term> fell <w norm="asleep">a sleepe</w> in the Lord<supplied reason="mod">.</supplied><lb/>
         <anchor n="ev70a" type="event"/>
         <milestone unit="event" n="ev70b"/>
           <w norm="He" type="u">he</w> was buried in the <w norm="parish" type="l">Parish</w> <w norm="church" type="l">Church</w> where<lb/>
@@ -4464,7 +4468,7 @@
          <milestone n="ev72" unit="event"/>
          <p xml:id="p-0134">The <date when-custom="1667-01-05">5<hi rend="superscript">th</hi> of <w norm="January">Janeuary</w> 1667</date><supplied reason="mod">:</supplied><!-- NOTE [dates] NS --> my <w norm="dear">deare</w><lb/>
           <persName ref="ppl:rt2" n="per240">Robin Thornton</persName> began his <w norm="sickness">sicknesse</w> of the<lb/>
-            <w norm="smallpox">Smale Pox</w><supplied reason="mod">,</supplied> <w norm="being">beeing</w> very ill <w norm="and">&amp;</w> <w norm="weak">weake</w> for <del rend="strikethrough">a</del><lb/> 
+            <term><w norm="smallpox">Smale Pox</w></term><supplied reason="mod">,</supplied> <w norm="being">beeing</w> very ill <w norm="and">&amp;</w> <w norm="weak">weake</w> for <del rend="strikethrough">a</del><lb/> 
             <w norm="two">2</w> <w norm="days">daies</w><supplied reason="mod">;</supplied> <w norm="and">&amp;</w> the <date when-custom="1667-01-07/1667-01-09">7, 8, 9 <w norm="days">daies</w></date> he was in<lb/>
           great danger of death<supplied reason="mod">,</supplied> they not coming<lb/>
           well out till <date when-custom="1667-01-10">the <w norm="10th">tenth</w> day</date><surplus reason="superfluous">.</surplus> <supplied reason="mod">(</supplied>on which day he<lb/>
@@ -4506,9 +4510,9 @@
              <add place="above">well</add>
             <del rend="strikethrough">uell</del>
            </subst><supplied reason="mod">,</supplied> growing <w norm="daily">daly</w> strong<supplied reason="mod">,</supplied><lb/>
-           <w norm="and">&amp;</w> was not disfigured at all with the <w norm="smallpox" type="break">Smal<lb break="no"/>
-           Pox</w>. <w norm="Only" type="u">only</w> he never since recovered his<lb/>
-           <w norm="sweet">sweete</w> <w norm="and">&amp;</w> <w norm="beautiful">beautifull</w> favour <w norm="and">&amp;</w> pure<lb/>
+           <w norm="and">&amp;</w> was not disfigured at all with the <term><w norm="smallpox" type="break">Smal<lb break="no"/>
+           Pox</w></term>. <w norm="Only" type="u">only</w> he never since recovered his<lb/>
+           <term><w norm="sweet">sweete</w></term> <w norm="and">&amp;</w> <w norm="beautiful">beautifull</w> <term>favour</term> <w norm="and">&amp;</w> pure<lb/>
            <w norm="colour">couler</w> in his cheeks<pc norm=",">.</pc> but his face drew<lb/>
            longer <w norm="than">then</w> before. <w norm="Nor" type="u">nor</w> did his <w norm="hair">haire</w><lb/>
            come off at all<supplied reason="mod">,</supplied> <w norm="having">haveing</w> but few in<lb/>
@@ -4537,7 +4541,7 @@
           <persName ref="ppl:atc1" n="per244"><w norm="Nally">naly</w></persName> <supplied reason="mod">(</supplied>which first began on <date when-custom="1667-01-18">January 18</date><supplied reason="mod">)</supplied><lb/>
           in <w norm="another">annother</w> dangerous <w norm="fit">fitt</w> in her sleep<supplied reason="mod">,</supplied><lb/>
           which <w norm="wakened">wakned</w> me in much fright<supplied reason="mod">.</supplied> <w norm="And">&amp;</w> she<lb/>
-          was almost choked with <w norm="phlegm">flegme</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> made<lb/>
+          was almost choked with <term><w norm="phlegm">flegme</w></term><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> made<lb/>
           her <w norm="exceeding">exceding</w> <w norm="sick">sicke</w> <w norm="before">befor</w> she could cast<supplied reason="mod">,</supplied><lb/>
           <w norm="being">beeing</w> <w norm="black">blacke</w> in the face with <w norm="extremity">extreamity</w><lb/>
           but<supplied reason="mod">,</supplied> <w norm="blessed">blesed</w> be the lord<supplied reason="mod">,</supplied> <w norm="after">affter</w> a vomit or<lb/>
@@ -4554,7 +4558,7 @@
            <w norm="physic">Phisick</w> to <w norm="prevent">prevant</w> the <w norm="smallpox">smale Pox</w><anchor/> <w norm="and">&amp;</w> she<lb/>
           fell to be ill<surplus reason="superfluous">.</surplus> in <w norm="pain">paine</w> of the head <w norm="and">&amp;</w> back<supplied reason="mod">;</supplied><lb/>
           <date when-custom="1667-01-26">26<hi rend="superscript">th</hi></date><supplied reason="mod">,</supplied> she was very sick <w norm="and">&amp;</w> <w norm="continued">contineued</w> the<lb/>
-           <date when-custom="1667-01-27/1667-01-28">27<supplied reason="mod">th</supplied> <w norm="and">&amp;</w> 28<supplied reason="mod">th</supplied></date> <w norm="until">till</w> the <w norm="smallpox">smale Poxe</w> came out<supplied reason="mod">,</supplied><lb/>
+           <date when-custom="1667-01-27/1667-01-28">27<supplied reason="mod">th</supplied> <w norm="and">&amp;</w> 28<supplied reason="mod">th</supplied></date> <w norm="until">till</w> the <term><w norm="smallpox">smale Poxe</w></term> came out<supplied reason="mod">,</supplied><lb/>
           <w norm="being">beeing</w> these <w norm="two">2</w> <w norm="days">daies</w> in a cold <w norm="sweat">Sweate</w> <w norm="and">&amp;</w> in<lb/>
           danger of death. <date when-custom="1667-01-29"><w norm="The" type="u">the</w> 29<hi rend="superscript">th</hi></date><supplied reason="mod">,</supplied> my <w norm="poor">poore</w> <persName ref="ppl:atc1" n="per246"><w norm="Nally">Naly</w></persName><supplied reason="mod">,</supplied> <lb/>
           <w norm="having">haveing</w> laid very patiently all the time<lb/>
@@ -4579,12 +4583,12 @@
           hopes<supplied reason="mod">,</supplied> the <w norm="pox" type="l">Pox</w> <w norm="coming">comming</w> well out, <w norm="and">&amp;</w> she in<lb/>
           a warmer temper was not so <w norm="sick">sicke</w><pc norm=",">.</pc> so that<lb/>
           by mercy we hoped for her recovery.<lb/>
-          The <date when-custom="1667-01-31">31<hi rend="superscript"><choice><sic>th</sic><corr>st</corr></choice></hi></date><supplied reason="mod">,</supplied> she fell blind <w norm="and">&amp;</w> had <w norm="intermitting">intermiting</w><lb/>
+          The <date when-custom="1667-01-31">31<hi rend="superscript"><choice><sic>th</sic><corr>st</corr></choice></hi></date><supplied reason="mod">,</supplied> she fell blind <w norm="and">&amp;</w> had <term><w norm="intermitting">intermiting</w></term><lb/>
           <w norm="until">till</w> the <date when-custom="1667-02-05">5<hi rend="superscript">th</hi> of <w norm="February">feb<ex>ruary</ex></w></date><supplied reason="mod">,</supplied> <w norm="being">beeing</w> exceeding dange<pc>-</pc><lb break="no"/>
           rous in her throat <w norm="and">&amp;</w> could not swallow<lb/>
           well <w norm="until">till</w> the <date when-custom="1667-02-06">6<hi rend="superscript">th</hi> of <w norm="February">feb<ex>ruary</ex></w></date><supplied reason="mod">.</supplied> <w norm="and">&amp;</w> <w norm="being">beeing</w> very <w norm="sore">sorre</w><lb/>
           <w norm="and">&amp;</w> much pained by the <w norm="pox" type="l">Pox</w> therein <w norm="and">&amp;</w> her<lb/>
-          <w norm="strait">streat</w> throat<pc norm=",">.</pc> getting very little <w norm="sleep">sleepe</w><lb/>
+          <term><w norm="strait">streat</w></term> throat<pc norm=",">.</pc> getting very little <w norm="sleep">sleepe</w><lb/>
           <w norm="until">till</w> the <date when-custom="1667-02-03">3<hi rend="superscript"><supplied reason="mod">r</supplied>d</hi> of <w norm="February">feb<ex>ruary</ex></w></date> when she began to <w norm="sleep">sleepe</w><supplied reason="mod">;</supplied><lb/>
           <date when-custom="1667-02-04">the 4<hi rend="superscript">th</hi></date><supplied reason="mod">,</supplied>
           her eyes began to unclose<pc norm=";">.</pc> <date when-custom="1667-02-05">the 5<hi rend="superscript">th</hi></date><supplied reason="mod">,</supplied> she<lb/>
@@ -4622,7 +4626,7 @@
          <p xml:id="p-0139"> 
         <milestone n="ev75" unit="event"/>
            <persName ref="ppl:jd3" n="per248"><persName ref="ppl:jd2" n="per249">My brother Denton<supplied reason="mod">'</supplied>s</persName> <w norm="son" type="l">Son</w><supplied reason="mod">,</supplied> John</persName><supplied reason="mod">,</supplied> was<lb/>
-           fallen into great <w norm="extremity">extreamity</w> <w norm="beginning">biginning</w><lb/>
+           fallen into great <term><w norm="extremity">extreamity</w></term> <w norm="beginning">biginning</w><lb/>
            on <date when-custom="1667-01-25"><choice><abbr>Jan</abbr><expan>January</expan></choice> the 25<hi rend="superscript">th</hi></date> upon taking of <w norm="physic">Phisick</w><lb/>
            which did not <w norm="work">worke</w> kindly<supplied reason="mod">,</supplied> <w norm="and">&amp;</w> so <w norm="continued">contined</w><lb/>
           the <date when-custom="1667-01-27/1667-01-29">27, 28, 29<hi rend="superscript">th</hi></date><supplied reason="mod">,</supplied> <w norm="being">beeing</w> deprived of his<lb/>
@@ -4631,7 +4635,7 @@
           <w norm="fever">feaver</w> <w norm="and">&amp;</w> great danger of death<pc norm=".">,</pc> <w norm="But">but</w><supplied reason="mod">,</supplied><lb/>
            about <w norm="four">4</w> <w norm="o'clock">a clock</w> in the morning<supplied reason="mod">,</supplied> he bega<ex>n</ex><lb/>
            to be <w norm="sensible" type="add">se<add place="above">n</add>cable</w> <w norm="and">&amp;</w> his use of <w norm="understanding" type="break">understan<lb break="no"/>
-          -ing</w> returned<surplus reason="superfluous">,</surplus> when the <w norm="smallpox">Smale Pox</w> did<lb/>
+          -ing</w> returned<surplus reason="superfluous">,</surplus> when the <term><w norm="smallpox">Smale Pox</w></term> did<lb/>
           <w norm="appear">apeare</w>. <w norm="But" type="u">but</w> he had very few of them<lb/>
           <w norm="and">&amp;</w> recovered very fast<pc norm=",">.</pc> <w norm="blessed">blesed</w> be God.
         <anchor n="ev75" type="event"/>
@@ -4641,8 +4645,8 @@
          <!-- NOTE not in index -->
          <p xml:id="p-0140">
         <milestone n="ev76" unit="event"/>
-           The <date when-custom="1667-04-08">8<hi rend="superscript">th</hi> of <w norm="April">Aprill</w></date><supplied reason="mod">,</supplied> <persName ref="ppl:atc1" n="per250"><w norm="Nally">naly</w></persName> had a <w norm="pearl">Pearle</w><lb/>
-           on her <w norm="eye" type="l">Eye</w> <w norm="after">affter</w> the <w norm="smallpox">Smale Pox</w> which did<lb/>
+           The <date when-custom="1667-04-08">8<hi rend="superscript">th</hi> of <w norm="April">Aprill</w></date><supplied reason="mod">,</supplied> <persName ref="ppl:atc1" n="per250"><w norm="Nally">naly</w></persName> had a <term><w norm="pearl">Pearle</w></term><lb/>
+           on her <w norm="eye" type="l">Eye</w> <w norm="after">affter</w> the <term><w norm="smallpox">Smale Pox</w></term> which did<lb/>
           <w norm="endanger">indanger</w> her <w norm="loss">Lose</w> of the <w norm="sight" type="l">Sight</w> of that<lb/>
           <w norm="eye">Eye</w><surplus reason="superfluous">.</surplus> but<supplied reason="mod">,</supplied> by waters<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="medicines">meadicenes</w>, it<lb/>
           was <w norm="worn">worne</w> <w norm="off">of</w> <w norm="and">&amp;</w> she recovered it well<lb/>
@@ -4727,7 +4731,7 @@
           nephew<supplied reason="mod">,</supplied> Thomas Danby</persName><supplied reason="mod">,</supplied> <w norm="eldest" type="l">Eldest</w> son to <rs ref="ppl:kwd1" n="per255" type="person">my<lb/>
           <w norm="sister" type="l">Sister</w></rs><supplied reason="mod">,</supplied> <w norm="committed">comitted</w> with the barbarous <w norm="circumstances" type="break">sir-<lb break="no"/>
           cumstances</w> that could be done by one<lb/>
-           <persName ref="ppl:xb4" n="per256"><w norm="Berridge">Beridge</w></persName> <supplied reason="mod">—</supplied> a stranger to him<surplus reason="superfluous">.</surplus> but <w norm="comrades">camrads</w><lb/>
+           <persName ref="ppl:xb4" n="per256"><w norm="Berridge">Beridge</w></persName> <supplied reason="mod">—</supplied> a stranger to him<surplus reason="superfluous">.</surplus> but <term><w norm="comrades">camrads</w></term><!-- Q problem norm/annotation clash again... --><lb/>
           to<surplus reason="superfluous">,</surplus> <persName ref="ppl:jo1" n="per257">Ogle</persName><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <persName ref="ppl:tj1" n="per258">Jenny</persName><supplied reason="mod">,</supplied> which was then with him<lb/><!-- NOTE [transcription] I changed Jermy to Jenny here, since the name of the other man accused was Jenney. May need altering in other editions - JE -->
            <w norm="and">&amp;</w> did not assist<surplus reason="superfluous">.</surplus> <supplied reason="mod">—</supplied> <w norm="and">&amp;</w> the pretence about<lb/>
           <persName>Ogle<supplied reason="mod">'</supplied>s</persName> sword<surplus reason="superfluous">.</surplus> but <w norm="doubtless">doubtlese</w> it was <w norm="proved">provd</w> <lb/>
@@ -4757,7 +4761,7 @@
           <w norm="break">breake</w><anchor/> in <date when-custom="1666-09"><choice><abbr>Seper.</abbr><expan>September</expan></choice> <supplied reason="mod">16</supplied>66</date> <w norm="and">&amp;</w> <w norm="until">till</w> about the <date when-custom="1667-05-10">10<hi rend="superscript">th</hi>
             <lb/>
           of <w norm="May">may</w> 1667</date><supplied reason="mod">,</supplied> when I did <w norm="perceive">perceave</w> <w norm="myself">my <lb/>
-          selfe</w> with <w norm="quick">quicke</w> <w norm="child">Childe</w><supplied reason="mod">,</supplied> I had <w norm="no">noe</w> health.<lb/>
+          selfe</w> <term>with <w norm="quick">quicke</w> <w norm="child">Childe</w></term><supplied reason="mod">,</supplied> I had <w norm="no">noe</w> health.<lb/>
           <w norm="But" type="u">but</w> afterwards, for all the time I was<lb/>
           with <w norm="child">childe</w> <w norm="until">till</w> <w norm="near">neare</w> my time of delivery<supplied reason="mod">,</supplied><lb/>
           I was as strong <w norm="and">&amp;</w> well as ever of any<lb/>
@@ -4769,12 +4773,13 @@
            <w norm="and">&amp;</w> health<supplied reason="mod">,</supplied> <milestone unit="event" n="ev80a"/>restoring<surplus reason="superfluous">.</surplus> great comfort to me<lb/>
           <w norm="and">&amp;</w> <rs ref="ppl:wt1" n="per260" type="person">my <w norm="dear">deare</w> <w norm="and">&amp;</w> loving husband</rs>, who all<lb/>
           this <w norm="summer">sumer</w> <w norm="and">&amp;</w> spring was so well as he had<lb/>
-           never <w norm="been">bin</w> since the first ill <w norm="fit">fitt</w> of <w norm="palsy">Palsie</w><lb/>
+           never <w norm="been">bin</w> since the first ill <w norm="fit">fitt</w> of <term><w norm="palsy">Palsie</w></term><lb/>
           at <placeName ref="place:Stea_052" n="place87">Steersby</placeName>.<anchor/> <w norm="But" type="u">but</w> we were in a constant <w norm="course">corse</w><lb/>
           of <w norm="physic">Phisick</w> with him by <persName ref="ppl:rw1" n="per261">Dr <w norm="Wittie's">witties</w></persName> order<pc norm=",">.</pc> <w norm="and">&amp;</w><lb/>
           <date when-custom="1667-09" precision="medium">towards <w norm="September">sept<ex>ember</ex></w></date> he <choice><sic>folloed</sic><corr>followed</corr></choice> it but<supplied reason="mod">,</supplied> when I<lb/>
-          grew so <w norm="big">bigge</w> <w norm="and">&amp;</w> <w norm="near">neare</w> my time about <date precision="medium" when-custom="1667-09-29"><w norm="Michaelmas">Mick<lb/>
-           le-mas</w></date>.<!-- Q "le-mas" is right-aligned so perhaps something needs to be done here. is it an <add ? not really? last line but it's not really because of lack of space either. where is the other place i have a Q about that? --><lb/>
+          grew so <w norm="big">bigge</w> <w norm="and">&amp;</w> <w norm="near">neare</w> my time about <date precision="medium" when-custom="1667-09-29"><term><w norm="Michaelmas">Mick<lb/>
+           le-mas</w></term></date>.
+           <!-- Q "le-mas" is right-aligned so perhaps something needs to be done here. is it an <add ? not really? last line but it's not really because of lack of space either. where is the other place i have a Q about that? --><lb/>
          
             <pb xml:id="page-116" n="116"/>
 
@@ -4788,7 +4793,7 @@
            <fw type="header" rend="underline"><date>1667</date>.</fw>
            </fw>
            <lb/>
-         <w norm="He" type="u">he</w> intermitted in my <w norm="illness">illnesse</w> <w norm="and">&amp;</w> so <w norm="returned" type="add">ret-<add place="above">urnd</add></w> <lb/>
+         <w norm="He" type="u">he</w> <term>intermitted</term> in my <w norm="illness">illnesse</w> <w norm="and">&amp;</w> so <w norm="returned" type="add">ret-<add place="above">urnd</add></w> <lb/>
          to his <w norm="relapsed">relapssed</w> <w norm="condition">condittion</w><supplied reason="mod">,</supplied> <w norm="having" type="add">have<add place="above">ing</add></w> <persName ref="ppl:rw1" n="per262">Dr <w norm="Wittie" type="u">wittie</w></persName><lb/>
            <del xml:id="ex-del-double-04" rend="doublestrikethrough">wittie</del> sent for <w norm="several">severall</w> times for him. <w norm="And">&amp;</w> so<supplied reason="mod">,</supplied><lb/>
           through <w norm="means">meanes</w> by God<supplied reason="mod">'</supplied>s blessing<supplied reason="mod">,</supplied> he was<lb/>
@@ -4802,11 +4807,11 @@
          <milestone n="ev81" unit="event"/>
          <p xml:id="p-0146">I fell into <w norm="pangs">panges</w> of <w norm="labour" type="l">Labour</w> about the<lb/>
           <date when-custom="1667-11-04">4<hi rend="superscript">th</hi> of <w norm="November" type="u">november</w></date><supplied reason="mod">,</supplied> <w norm="being">beeing</w> very ill<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> so <w norm="continued" type="break">con-<lb break="no"/>
-          tineued</w> by <w norm="fits">fitts</w> all that <w norm="week">weeke</w>. <w norm="Then" type="u">then</w><supplied reason="mod">,</supplied> on <lb/>
+          tineued</w> by <term><w norm="fits">fitts</w></term> all that <w norm="week">weeke</w>. <w norm="Then" type="u">then</w><supplied reason="mod">,</supplied> on <lb/>
            <choice>
              <sic><date when-custom="1668-11-11"><w norm="Monday">munday</w> the 11 of november 1668</date></sic>
              <corr><date when-custom="1667-11-11">Monday the 11th of November 1667</date></corr></choice><pc norm=",">.</pc> I fell<lb/>
-          into <w norm="travail">travill</w><surplus reason="superfluous">,</surplus> and<supplied reason="mod">,</supplied> about the <w norm="hours">houers</w> of <w norm="ten">10</w><lb/>
+          into <term><w norm="travail">travill</w></term><surplus reason="superfluous">,</surplus> and<supplied reason="mod">,</supplied> about the <w norm="hours">houers</w> of <w norm="ten">10</w><lb/>
           <w norm="and">&amp;</w> <w norm="eleven">11</w> <w norm="o'clock">a clocke</w> at night<supplied reason="mod">,</supplied> I was <w norm="delivered">delivrd</w><supplied reason="mod">.</supplied><lb/>
           <w norm="But" type="u">but</w> I was never in all my <w norm="life" type="l">Life</w> nearer<lb/>
            death <supplied reason="mod">—</supplied> by forcing <rs ref="ppl:ct1" n="per263" type="person">the <w norm="child" type="l">Child</w></rs> so violently<lb/>
@@ -4814,9 +4819,9 @@
           did <w norm="fear">feare</w> I should <w norm="be">bin</w> <w norm="divided">devided</w> from the<lb/>
           <w norm="waist">waste</w> <w norm="downwards">downewards</w> <w norm="and">&amp;</w> the <w norm="rest" type="l">Rest</w> of all my <lb/>
           <w norm="body">bodie</w><pc norm=",">.</pc> which caused <w norm="inexpressible">inexpressable</w> torment<lb/>
-          <w norm="and">&amp;</w> a dislocation of the <w norm="reins">Reines</w> of the back<lb/>
+          <w norm="and">&amp;</w> a dislocation of the <term><w norm="reins">Reines</w> of the back</term><lb/>
           for a long time<pc norm=",">.</pc> <w norm="and">&amp;</w> excessive <w norm="pain">paine</w> in the<lb/>
-          <w norm="spleen">spleene</w> <w norm="and">&amp;</w> mother <w norm="arising">arrising</w> both together<lb/>
+          <w norm="spleen">spleene</w> <w norm="and">&amp;</w> <term>mother</term> <w norm="arising">arrising</w> both together<lb/>
           upon me in my <w norm="child">Childe</w> bed.<anchor/>
          </p>
          <anchor n="ev81" type="event"/>
@@ -4845,7 +4850,7 @@
           I called on him in my <w norm="distress">distresse</w> <w norm="and">&amp;</w> he de<pc>-</pc><lb break="no"/>
           livered me out of all my <w norm="fear">feare</w>. <w norm="The" type="u">the</w><lb/>
           guide of my <w norm="youth">Youth</w> <w norm="and">&amp;</w> my preserver <w norm="forever">for evr</w><supplied reason="mod">,</supplied><lb/>
-          he gave me <rs ref="ppl:ct1" n="per265" type="person">a goodly, strong <w norm="and">&amp;</w> <w norm="sweet">sweete</w><lb/>
+          he gave me <rs ref="ppl:ct1" n="per265" type="person">a goodly, strong <w norm="and">&amp;</w> <term><w norm="sweet">sweete</w></term><lb/>
           <w norm="son">Sonne</w></rs><supplied reason="mod">,</supplied> turning my <w norm="pains">paines</w> <w norm="into">in to</w> hopes of<lb/>
           <w norm="joy">Joy</w><pc norm=",">.</pc> <w norm="and">&amp;</w> gave me the blessing of <w norm="breasts">brests</w><anchor/><!-- Q note/term --> <w norm="and">&amp;</w> <lb/>
           of the <w norm="womb">wombe</w><pc norm=":">,</pc><anchor/><!-- Q note/term? tbc  --> <w norm="oh">o</w><supplied reason="mod">,</supplied> praise the Lord <w norm="forever">for Ever</w>.</p>
@@ -4898,7 +4903,7 @@
           recovered something <w norm="better">beter</w> <w norm="and">&amp;</w> got my <lb/>
           <w norm="milk">milke</w><pc norm=":">,</pc><anchor/> the <w norm="child">childe</w> <w norm="thriving">thriveing</w> mightily<lb/>
            well <w norm="and">&amp;</w> grew strong<pc norm=",">.</pc> <w norm="being">beeing</w> a most<lb/>
-          <w norm="sweet">sweete</w><supplied reason="mod">,</supplied> lovely <w norm="child">Childe</w>.<anchor type="event" n="ev84"/> <w norm="But">but</w><supplied reason="mod">,</supplied> <w norm="lest">least</w> my<lb/>
+          <term><w norm="sweet">sweete</w></term><supplied reason="mod">,</supplied> <term>lovely</term> <w norm="child">Childe</w>.<anchor type="event" n="ev84"/> <w norm="But">but</w><supplied reason="mod">,</supplied> <w norm="lest">least</w> my<lb/>
           <g ref="#heart">♥</g> should be <w norm="set">sett</w> too much in the satisf<pc>-</pc><lb break="no"/>
           action on any creature on <w norm="earth">Earth</w><supplied reason="mod">,</supplied> <milestone unit="event" n="ev84a"/>it<lb/>
           seemed good to the most <w norm="infinitely">infinitly</w> wise<lb/>
@@ -4907,7 +4912,7 @@
           see a change in him<pc norm=",">.</pc> <w norm="and">&amp;</w> therefore<supplied reason="mod">,</supplied> with a<lb/>
           full resignation to <w norm="His" type="u">his</w> providence<supplied reason="mod">,</supplied> I<lb/>
           <w norm="endeavoured">endevoured</w> to submit to part willingly<lb/>
-           with <rs ref="ppl:ct1" type="person">my <w norm="sweet">sweete</w> <w norm="child">Childe</w></rs> to my<surplus reason="superfluous">.</surplus><lb/>
+           with <rs ref="ppl:ct1" type="person">my <term><w norm="sweet">sweete</w></term> <w norm="child">Childe</w></rs> to my<surplus reason="superfluous">.</surplus><lb/>
 
          
             <pb xml:id="page-119" n="119"/>
@@ -4931,10 +4936,10 @@
           might be my will<supplied reason="mod">,</supplied> in life <w norm="and">&amp;</w> death.<lb/>
           <w norm="When" type="u">when</w> he was about <w norm="fourteen">14</w> <w norm="days">daies</w> old<supplied reason="mod">,</supplied> <rs ref="ppl:ct1" n="per272" type="person">my<lb/>
           pretty <w norm="child">Childe</w></rs> <w norm="broke">broake</w> out in little red<lb/>
-           <w norm="spots">spotts</w><supplied reason="mod">,</supplied> like <w norm="smallpox">smale Pox</w><supplied reason="mod">,</supplied> which was the red<lb/>
-          gum<supplied reason="mod">.</supplied> <w norm="And">&amp;</w> upon <w norm="cold" type="l">Cold</w> gotten through an<lb/>
+           <w norm="spots">spotts</w><supplied reason="mod">,</supplied> like <term><w norm="smallpox">smale Pox</w></term><supplied reason="mod">,</supplied> which was the <term>red<lb/>
+          gum</term><supplied reason="mod">.</supplied> <w norm="And">&amp;</w> upon <w norm="cold" type="l">Cold</w> gotten through an<lb/>
           accident<supplied reason="mod">,</supplied> they <w norm="struck">stroke</w> inwardly<pc norm=",">.</pc> <w norm="and">&amp;</w> <add place="above">he</add> fell<lb/>
-          into a great <w norm="looseness">loosenesse</w>, notwithstanding<lb/>
+          into a great <term><w norm="looseness">loosenesse</w></term>, notwithstanding<lb/>
           all the <w norm="means">meanes</w> I could use<pc norm=".">,</pc> <w norm="And">&amp;</w> it <w norm="continued">contined</w><lb/>
            on him for <w norm="four">4</w> <w norm="days">daies</w><pc norm=",">.</pc> when he was very<lb/>
            patient <w norm="and">&amp;</w> <choice><sic>quitt</sic><corr>quiet</corr></choice>. <w norm="And">&amp;</w><supplied reason="mod">,</supplied> <w norm="being">beeing</w> <add place="above">a</add>  very strong<lb/>
@@ -4975,7 +4980,7 @@
           <w norm="weakness">weaknesse</w><surplus reason="superfluous">,</surplus> by the swelling of my milk<lb/>
           in the left breast which <persName ref="ppl:kdb1" n="per275"><w norm="Kitt" type="u">kitt</w></persName> last <w norm="sucked">suckt</w>.<lb/>
           <w norm="And">&amp;</w> did so <w norm="nip">nipe</w> the head<anchor/> that I was in <w norm="fear">feare</w><lb/>
-          of a <w norm="gangrene">gangreen</w><surplus reason="superfluous">,</surplus> <del rend="strikethrough">bu</del>and the <w norm="extreme">extreame</w><lb/>
+          of a <term><w norm="gangrene">gangreen</w></term><surplus reason="superfluous">,</surplus> <del rend="strikethrough">bu</del>and the <w norm="extreme">extreame</w><lb/>
           <w norm="pain">paine</w><surplus reason="superfluous">,</surplus> cast me into a <w norm="fever">feavor</w><surplus reason="superfluous">.</surplus> which<supplied reason="mod">,</supplied> to<pc>-</pc><lb break="no"/>
           gether with other <w norm="griefs">greifes</w><pc norm=",">.</pc> <w norm="and">&amp;</w> colds <w norm="and">&amp;</w><lb/>
           <w norm="extreme">extreame</w> violent <w norm="pain">paine</w> of the <w norm="teeth" type="l">Teeth</w><lb/>
@@ -5037,10 +5042,10 @@
           fort</w> in consideration <del rend="strikethrough">of</del> <w norm="and">&amp;</w> <w norm="fear">feare</w> of him<lb/>
           <w norm="and">&amp;</w> his <w norm="sufferings">sufreings</w> <w norm="and">&amp;</w> <w norm="lest">least</w> I should be de<pc>-</pc><lb break="no"/>
           prived of my <w norm="joy" type="l">Joy</w> <w norm="and">&amp;</w> delight in this life<supplied reason="mod">.</supplied><lb/>
-          <w norm="Though" type="u">though</w> I <w norm="bless">blesse</w> God he had <w norm="intermissions">intermittions</w><lb/>
+          <w norm="Though" type="u">though</w> I <w norm="bless">blesse</w> God he had <term><w norm="intermissions">intermittions</w></term><lb/>
            which <w norm="supported">suported</w> him<surplus reason="superfluous">:</surplus> <w norm="after">affter</w> every use of <choice><sic>Phisip</sic><corr>physic</corr></choice> <lb/>
           <w norm="and">&amp;</w> other things<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w><supplied reason="mod">,</supplied> according to the <w norm="earliness">earlinesse</w><lb/>
-          of the time in <w norm="beginning">begining</w> them<supplied reason="mod">,</supplied> the <w norm="fits">fitts</w> was longer <lb/>
+          of the time in <w norm="beginning">begining</w> them<supplied reason="mod">,</supplied> the <term><w norm="fits">fitts</w></term> was longer <lb/>
           or shorter in <w norm="continuance">contineuance</w>.
          <anchor n="ev86" type="event"/>
          </p>
@@ -5089,8 +5094,8 @@
           first<pc norm=",">.</pc> which <rs ref="ppl:ha1" n="per282" type="person">my <w norm="maid">maide</w></rs> did utterly deny<lb/>
           <w norm="and">&amp;</w> cleared her <w norm="self">selfe</w> <w norm="and">&amp;</w> me upon her<lb/>
           oath<pc norm=".">,</pc><anchor/> <w norm="But" type="u">but</w> <rs ref="ppl:bt1" n="per283" type="person">the other woman</rs><supplied reason="mod">,</supplied> having a <lb/>
-         <w norm="spleen">spleene</w> against her<pc norm=",">.</pc> did <w norm="carry">carrie</w> so <w norm="unhandsomely" type="break">un<lb break="no"/>
-          -hansomly</w> <w norm="and">&amp;</w> unchristianly towards me<lb/>
+         <term><w norm="spleen">spleene</w></term> against her<pc norm=",">.</pc> did <w norm="carry">carrie</w> so <term><w norm="unhandsomely" type="break">un<lb break="no"/>
+          -hansomly</w></term> <w norm="and">&amp;</w> unchristianly towards me<lb/>
          in her <del xml:id="ex-del-double-07" rend="doublestrikethrough">bit</del><surplus reason="deleted">ter</surplus> <w norm="aggravation">agravation</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> in false<lb/>
           accusing the <choice><abbr>Hon.<am rend="superscript">or</am></abbr><expan>honour</expan></choice> of some of the <w norm="persons" type="l">Persons</w><lb/>
          
@@ -5158,7 +5163,7 @@
           he <w norm="himself">him selfe</w> has <w norm="trodden">troden</w> out the path of<lb/>
           <w norm="life" type="l">Life</w> in. <w norm="Has" type="u">has</w> he not <w norm="preserved">preservd</w> thee from the <lb/>
           <w norm="evils">Evills</w> of <w norm="sin">sine</w><pc norm=",">.</pc> <w norm="And">&amp;</w> all those <w norm="enormous">inormous</w><lb/>
-          <w norm="crimes" type="l">Crimes</w> the <w norm="vile">vild</w> world now lies wallowing<lb/>
+          <w norm="crimes" type="l">Crimes</w> the <term><w norm="vile">vild</w></term> world now lies wallowing<lb/>
           in<pc norm="?">.</pc> <w norm="and">&amp;</w> <w norm="wilt">willt</w> thou not <w norm="show">shew</w> thy <w norm="gratitude">grattitud</w><lb/>
           to thy <w norm="redeemer">Reedemer</w> that gives thee share<lb/>
           in <w norm="sufferings">suffrings</w> <w norm="and">&amp;</w> not with the <w norm="partakers">pertakers</w> of<lb/>
@@ -5170,7 +5175,7 @@
           was very much desirous to advance<lb/>
           his <w norm="glory" type="l">Glory</w><pc norm=".">,</pc> <w norm="Although">all though</w> Satan would<lb/>
           blemish those that he has <w norm="no">noe</w> part in, yet<lb/>
-          thy hope is in God<supplied reason="mod">,</supplied> who has <w norm="redeemed">reedeemd</w> thee<lb/>
+          thy hope is in God<supplied reason="mod">,</supplied> who has <term><w norm="redeemed">reedeemd</w></term> thee<lb/>
           from all sin <w norm="and">&amp;</w> <w norm="wickedness">wickednese</w>, <w norm="and">&amp;</w> <w norm="given">givn</w> thee a<lb/>
           stay <w norm="and">&amp;</w> <w norm="support">suport</w> in all thy <w norm="anguish" type="l">Anguish</w> of<lb/>
           <w norm="spirit">spiritt</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> preservation from the <w norm="designs">designes</w><lb/>
@@ -5206,14 +5211,14 @@
             <lb/>
            to be wronged <supplied reason="mod">—</supplied> <surplus reason="superfluous">(</surplus>my good name<surplus reason="superfluous">)</surplus><surplus reason="superfluous">.</surplus><anchor/> <supplied reason="mod">—</supplied> by the <lb/>
           <w norm="coming">comming</w> of <rs ref="ppl:awn1" n="per286" type="person">my <w norm="dear">deare</w> <w norm="aunt" type="l">Aunt</w></rs> over to<lb/>
-          <placeName ref="place:East_019" n="place93"><w norm="Newton" type="u">newton</w></placeName><pc norm=",">.</pc> who had heard the <w norm="vile">vilde</w> reports<lb/>
-          <w norm="blazed">blased</w> abroad by <persName ref="ppl:mb1" n="per287"><w norm="Mary" type="u">mary</w> Breaks</persName> <w norm="and">&amp;</w> lies<lb/>
+          <placeName ref="place:East_019" n="place93"><w norm="Newton" type="u">newton</w></placeName><pc norm=",">.</pc> who had heard the <term><w norm="vile">vilde</w></term> reports<lb/>
+          <term><w norm="blazed">blased</w></term> abroad by <persName ref="ppl:mb1" n="per287"><w norm="Mary" type="u">mary</w> Breaks</persName> <w norm="and">&amp;</w> lies<lb/>
           against my <w norm="innocent" type="l">Innocent</w> <w norm="soul">Soule</w><supplied reason="mod">.</supplied> <rs ref="ppl:acd1" n="per288" type="person"><add place="above"><w norm="This" type="u">this</w></add> woman</rs><supplied reason="mod">,</supplied><lb/>
           full of <w norm="deep">deepe</w> <w norm="dissembling">dissemblnig</w> <w norm="and">&amp;</w> <w norm="hypocrisy">hipocricey</w><surplus reason="superfluous">-</surplus><lb/>
           <surplus reason="superfluous">-</surplus><supplied reason="mod">,</supplied> who could <add place="above">not</add> <w norm="prevail">prevaile</w> with her <w norm="design">designe</w> <w norm="upon" type="break">up<lb break="no"/>
            -pon</w> the <w norm="person" type="l">Person</w> of <persName ref="ppl:tc1" n="per289">Mr C<ex>ombe</ex>r</persName> to have <w norm="drawn">drawne</w><lb/>
           him for marriage<pc norm=";">.</pc> <w norm="and">&amp;</w> failing of that end<supplied reason="mod">,</supplied><lb/>
-           <del xml:id="ex-del-double-08" rend="doublestrikethrough">did</del> <w norm="perverted">pervanted</w> her <w norm="plausible">plaucible</w> carriage into<lb/>
+           <del xml:id="ex-del-double-08" rend="doublestrikethrough">did</del> <w norm="perverted">pervanted</w> her <term><w norm="plausible">plaucible</w></term> carriage into<lb/>
            an inveterate malice <w norm="and">&amp;</w> hatred<surplus reason="superfluous">.</surplus> both again<add place="above">st</add> <lb/>
           him <w norm="and">&amp;</w> <w norm="myself">my selfe</w>, which <w norm="having">haveing</w> <w norm="discovered">discovred</w> that<lb/>
            it was <persName ref="ppl:tc1" n="per290">Mr Comber<supplied reason="mod">'</supplied>s</persName> desires to <w norm="obtain">obteine</w> my<surplus reason="superfluous">.</surplus><lb/>
@@ -5371,7 +5376,7 @@
            <lb/>
          <w norm="and">&amp;</w> dearest <w norm="and">&amp;</w> chaste affections betwixt<lb/>
           us<supplied reason="mod">,</supplied> making us both <w norm="abhor">abhorre</w> the very mention<lb/>
-          <w norm="at">att</w> all such <w norm="vile">vilde</w> abominations as this<lb/>
+          <w norm="at">att</w> all such <term><w norm="vile">vilde</w></term> abominations as this<lb/>
           world was too full of in all places<supplied reason="mod">,</supplied> but<lb/>
           where by <w norm="grace" type="l">Grace</w> of our good <w norm="God" type="u">god</w><supplied reason="mod">,</supplied> whom we<lb/>
           serve night <w norm="and">&amp;</w> day<supplied reason="mod">,</supplied> has lived in a holy <w norm="and">&amp;</w><lb/>
@@ -5379,7 +5384,7 @@
         <del rend="strikethrough">this</del> above this<lb/>
           <w norm="sixteen">16</w> <w norm="years">yeares</w><pc norm=",">.</pc> <w norm="having">haveing</w> this to comfort our<lb/>
            <g ref="#heart">♥</g><hi rend="superscript">s</hi><supplied reason="mod">:</supplied> that we are undefiled servants<pc norm=",">.</pc> <w norm="endeavouring">indeuring</w> <lb/>
-          to <choice><sic>fallow</sic><corr>follow</corr></choice> Christ in the <w norm="regeneration" type="l">Regeneration</w> that<lb/>
+          to <choice><sic>fallow</sic><corr>follow</corr></choice> Christ in the <term><w norm="regeneration" type="l">Regeneration</w></term> that<lb/>
           we might <w norm="reign">Reigne</w> with him in <w norm="glory" type="l">Glory</w>.<lb/>
           Oh<supplied reason="mod">,</supplied> that my <w norm="soul">soule</w> may forever be thankful<lb/>
           to the most high God that had regard to his<lb/>
@@ -5419,7 +5424,7 @@
         in his preservation <w norm="and">&amp;</w> <w norm="deliverance">delivrance</w> upon that<lb/>
         day. <w norm="For" type="u">for</w> his sister<supplied reason="mod">,</supplied> <persName ref="ppl:ktp1" n="per304">Kate</persName><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> <w norm="cousin">cosen</w><supplied reason="mod">,</supplied> <persName ref="ppl:wd1" n="per305"><w norm="Willy">willy</w><lb/>
           Denton</persName><supplied reason="mod">,</supplied> <del xml:id="ex-del-double-09" rend="doublestrikethrough">was</del> and <w norm="himself">himselfe</w> was playing<lb/>
-           in the <w norm="hay laith" type="l">Hay Laith</w> at <placeName ref="place:East_019" n="place94"><w norm="Newton-upon-the-Mow">newton upon the mowe</w></placeName> <lb/>
+           in the <w norm="hay">Hay</w> <term><w norm="laith" type="l">Laith</w></term> at <placeName ref="place:East_019" n="place94"><w norm="Newton">newton</w></placeName> upon the <term><w norm="mow">mowe</w></term> <lb/>
           and<supplied reason="mod">,</supplied> standing in the window about <w norm="four">4</w> <w norm="yards">yerds</w><lb/>
            high from the <w norm="earth">Earth</w><pc norm=",">.</pc> he fell out of it into<lb/>
           the <w norm="lane">laine</w><pc norm=",">.</pc> <w norm="and">&amp;</w> was very <w norm="near">neare</w> with his head<lb/>
@@ -5465,7 +5470,7 @@
           <w norm="and">&amp;</w> his desire to be informed of all things<lb/>
           <w norm="concerning" type="add">consern<add place="above">in</add>g</w> God, <w norm="and">&amp;</w> <w norm="several">serverall</w> notions of the<lb/>
           <w norm="fear">feare</w> of the Lord upon hearing his <w norm="judgments">Judgments</w><lb/>
-          with many Christian <w norm="and">&amp;</w> <w norm="epithetical">pitheticall</w> expres<lb break="no"/>
+          with many Christian <w norm="and">&amp;</w> <term><w norm="pathetical">pitheticall</w></term> expres<lb break="no"/>
           sions in the <w norm="ways">waies</w> of <w norm="piety">Pietie</w><pc norm=".">,</pc> <w norm="All" type="u">all</w> which are<lb/>
           motives of great <w norm="comfort" type="l">Comfort</w> to me his <w norm="poor">poore</w><lb/>
           mother<supplied reason="mod">,</supplied> who has taken notice of the great<lb/>
@@ -5528,30 +5533,30 @@
          <p xml:id="p-0156">
         <milestone n="ev92" unit="event"/>
           It pleased God that I remained very ill<lb/>
-          <w norm="and">&amp;</w> <w norm="weak">weake</w> <w norm="after">affter</w> the second <w norm="alarm">Alarum</w> I had<lb/>
+          <w norm="and">&amp;</w> <w norm="weak">weake</w> <w norm="after">affter</w> the second <term><w norm="alarm">Alarum</w></term> I had<lb/>
           given me of <w norm="unnatural">unnaturall</w>, <w norm="unkind">unkinde</w> <w norm="and">&amp;</w><lb/>
           <w norm="unjust">injust</w> dealing with me out of the <choice><sic>Sarlett</sic><corr>scarlet</corr></choice><lb/>
           <w norm="chamber" type="l">Chamber</w> <add place="above">which was</add> to <rs ref="ppl:awn1" n="per310" type="person">my <w norm="aunt's">Aunts</w></rs> great <w norm="grief">greife</w> <w norm="and">&amp;</w><lb/>
           trouble to <w norm="hear">heare</w>. <w norm="And">&amp;</w> by which malicious <w norm="repetition" type="break">repit<lb break="no"/>
            -ttion</w> to her<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> renewing the wounds a fresh<lb/>
-           of calumnies<pc norm=",">.</pc> I fell into a very <w norm="grievous">greivous</w><lb/>
-           extremity of <w norm="grief">greife</w> <w norm="again">againe</w><surplus reason="superfluous">.</surplus> upon <date when-custom="1668-09-05">the 5<hi rend="superscript">th</hi>
+           of <term>calumnies</term><pc norm=",">.</pc> I fell into a very <w norm="grievous">greivous</w><lb/>
+           <term>extremity</term> of <w norm="grief">greife</w> <w norm="again">againe</w><surplus reason="superfluous">.</surplus> upon <date when-custom="1668-09-05">the 5<hi rend="superscript">th</hi>
             <lb/>
              of <w norm="September" type="u">september</w></date><pc norm=",">.</pc> which so affected my <w norm="soul">soule</w> that did<lb/>
-          raise both the <w norm="spleen">Spleene</w> <w norm="and">&amp;</w> mother in my<lb/>
+          raise both the <w norm="spleen">Spleene</w> <w norm="and">&amp;</w> <term>mother</term> in my<lb/>
           sides both together with much <w norm="pain">paine</w> <w norm="and">&amp;</w> trouble<supplied reason="mod">.</supplied><lb/>
            <w norm="and">&amp;</w> had I not <w norm="been">bin</w> held on my <w norm="sides" type="l">Sides</w> by my <w norm="dear">dere</w><lb/>
           <w norm="cousin">Cozen</w> <persName ref="ppl:cn1" n="per311">Christopher Norton</persName> <w norm="and">&amp;</w> comforted by <rs ref="ppl:awn1" n="per312" type="person">my<lb/>
             <w norm="aunt's">Aunts</w></rs> wise <w norm="and">&amp;</w> discreet<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> affectionate kindness,<lb/>
           I had undoubtedly perished with that heavy<lb/>
           load of <g ref="#heart">♥</g> <w norm="grief">greife</w> <w norm="and">&amp;</w> <w norm="sorrow">Sorrow</w><anchor type="event" n="ev92"/><surplus reason="superfluous">,</surplus> that such <w norm="treacherous" type="break">treatche<lb break="no"/>
-          -rous</w> practices of <w norm="subtlety">Subtiltie</w> <w norm="and">&amp;</w> dissembling<lb/>
+          -rous</w> practices of <term><w norm="subtlety">Subtiltie</w></term> <w norm="and">&amp;</w> <term>dissembling</term><lb/>
           should be the <w norm="ruin">Ruine</w> of my <w norm="life" type="l">Life</w> <w norm="and">&amp;</w> that <w norm="honour">honnor</w> <lb/>
           which was unspotted in my life <w norm="and">&amp;</w> conversation<supplied reason="mod">.</supplied><lb/>
           <w norm="But" type="u">but</w> blessed be my <w norm="gracious">Gracious</w> God <w norm="and">&amp;</w> <w norm="Father" type="u">father</w> of all<lb/>
           mercies<surplus reason="superfluous">.</surplus> which laid <w norm="no">noe</w> more upon me <w norm="than">then</w> he did<lb/>
           give me strength to <w norm="bear">beare</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w><supplied reason="mod">,</supplied> though I was<lb/>
-          smitten by <w norm="false">fallse</w> tongues <w norm="joining">Joyning</w> with my<lb/>
+          <term>smitten</term> by <w norm="false">fallse</w> tongues <w norm="joining">Joyning</w> with my<lb/>
  
          
             <pb xml:id="page-134" n="134"/>
@@ -5579,14 +5584,14 @@
           <w norm="ruin">Ruine</w> would by insinuations flatter him<supplied reason="mod">,</supplied><lb/>
           as he said <w norm="himself">himselfe</w><supplied reason="mod">,</supplied> <w norm="discovered">discovred</w> <w norm="their">there</w> <w norm="malice">malis</w><lb/>
           <w norm="and">&amp;</w> it set his <g ref="#heart">♥</g> against such. <w norm="And">&amp;</w> did <w norm="further">farther</w><lb/>
-          both lament my <w norm="condition">condittion</w><supplied reason="mod">,</supplied> condole the same<lb/>
-          <w norm="and">&amp;</w> <w norm="took">tooke</w> my part against all <rs ref="ppl:acd1 ppl:bt1" n="per314" type="person">those <w norm="vile">vild</w><lb/>
+          both lament my <w norm="condition">condittion</w><supplied reason="mod">,</supplied> <term>condole</term> the same<lb/>
+          <w norm="and">&amp;</w> <w norm="took">tooke</w> my part against all <rs ref="ppl:acd1 ppl:bt1" n="per314" type="person">those <term><w norm="vile">vild</w></term><lb/>
           detractors</rs><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> did order <w norm="their">theire</w> turning out<lb/>
           of the house<supplied reason="mod">,</supplied> both by letter <w norm="and">&amp;</w> <w norm="threatenings">threatnnigs</w>.<lb/>
          <anchor n="ev92a" type="event"/>
           O my <w norm="soul">soule</w><supplied reason="mod">,</supplied> forget not this great <w norm="and">&amp;</w> eminent<lb/>
           mercy be forgotten by thee but had in <lb/>
-          remembrance before him <w norm="forever">for ever</w><surplus reason="superfluous">,</surplus> which uni<pc>=</pc><lb break="no"/><!-- Q SHARON - view needs sorting in modernised -->
+          remembrance before him <w norm="forever">for ever</w><surplus reason="superfluous">,</surplus> which uni<pc>=</pc><lb break="no"/><!-- Q CHECK CONVENTIONS problem is = but should that have been std to - anyway? SHARON - view needs sorting in modernised -->
           <pc>=</pc>ted our <w norm="faithful">faithfull</w> hearts to each other in<lb/>
           <w norm="cordial">Cordiall</w>, <w norm="loyal">loyall</w> <w norm="and">&amp;</w> <w norm="conjugal">conJugall</w> love <w norm="and">&amp;</w><lb/>
           amity all our <w norm="days">daies</w> since we were knit in the<lb/>
@@ -5611,7 +5616,7 @@
           comfort to <w norm="support">suport</w> my fainting<supplied reason="mod">,</supplied> <w norm="weak">weake</w><lb/>
            <w norm="body">bodie</w><surplus reason="superfluous">.</surplus> I had <w norm="given">givn</w> me through mercy the<lb/>
           <w norm="cordial">cordiall</w> <w norm="and">&amp;</w> <w norm="entire">intire</w> affection <w norm="and">&amp;</w> assistance of<lb/>
-          my dearest <persName ref="ppl:awn1" n="per315"><w norm="aunt" type="l">Aunt</w> <w norm="Norton" type="u">norton</w></persName><supplied reason="mod">,</supplied> <w norm="whose">whoes</w> <w norm="candour">candor</w><lb/>
+          my dearest <persName ref="ppl:awn1" n="per315"><w norm="aunt" type="l">Aunt</w> <w norm="Norton" type="u">norton</w></persName><supplied reason="mod">,</supplied> <w norm="whose">whoes</w> <term><w norm="candour">candor</w></term><lb/>
           <w norm="and">&amp;</w> <w norm="goodness">goodnesse</w> did extend its <w norm="arms">armes</w> to <w norm="pity">pittie</w><lb/>
           my <w norm="distress">disstresse</w> <w norm="and">&amp;</w> to whom I had imparted<lb/>
           my sorrows <w norm="and">&amp;</w> <w norm="distress">distresse</w>. <w norm="And">&amp;</w> she so ordered<lb/>
@@ -5706,7 +5711,7 @@
           power<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> shall tend <add place="above">most</add> to his <w norm="own">owne</w> <w norm="glory" type="l">Glory</w>.</p>
          <milestone n="ev93" unit="event"/>         
          <p xml:id="p-0159"><w norm="No">noe</w> sooner was my strength in part<lb/>
-          <w norm="recruited">recruted</w> <w norm="again">againe</w> <w norm="after">affter</w> <rs ref="ppl:awn1" n="per316" type="person">my <w norm="dear">deare</w> <w norm="aunt's">Aunts</w></rs><lb/>
+          <term><w norm="recruited">recruted</w></term> <w norm="again">againe</w> <w norm="after">affter</w> <rs ref="ppl:awn1" n="per316" type="person">my <w norm="dear">deare</w> <w norm="aunt's">Aunts</w></rs><lb/>
            departure home <w norm="and">&amp;</w> having <w norm="been">bin</w> so <w norm="weak">weake</w> that<lb/>
           I kept my bed <w norm="above">a bove</w> a <w norm="week">weeke</w><pc norm=",">.</pc> so <w norm="beginning">beginig</w> <lb/>
           to <w norm="rejoice">rejoyce</w> at my <w norm="deliverance">delivrence</w> from the late <w norm="illness" type="break">ill<lb break="no"/>
@@ -5752,7 +5757,7 @@
           without <w norm="loss">losse</w> of my <w norm="poor">poore</w> <w norm="and">&amp;</w> miserable life<supplied reason="mod">,</supplied><lb/>
           I would have <w norm="gone">gon</w> to have <w norm="seen">seene</w> him <w norm="myself">myselfe</w><supplied reason="mod">,</supplied><lb/>
           but my <w norm="friends">freinds</w> would not suffer me to make<lb/>
-          an adventure thereof. <w norm="But" type="u">but</w> I <w norm="stayed">stayd</w> <w norm="until">till</w><lb/>
+          an <term>adventure</term> thereof. <w norm="But" type="u">but</w> I <w norm="stayed">stayd</w> <w norm="until">till</w><lb/>
 
          
             <pb xml:id="page-139" n="139"/>
@@ -5818,14 +5823,14 @@
           <w norm="afternoon">after noone</w><pc norm=":">.</pc> at which time I <w norm="received">receavd</w> the<lb/>
           <w norm="news">newes</w> of the most <w norm="terrible" type="l">Terrible</w> <w norm="loss">losse</w> that ever<lb/>
           woman <w norm="lost">losst</w> in <w norm="being">beeing</w> deprived of my<lb/>
-           <w norm="sweet">Sweete</w> <w norm="and">&amp;</w> most <subst xml:id="ex-double_gap-04">
+           <term><w norm="sweet">Sweete</w></term> <w norm="and">&amp;</w> most <subst xml:id="ex-double_gap-04">
               <del rend="doublestrikethrough"><gap unit="word" quantity="1" reason="deleted"/></del>
               <add place="above">exceeding</add>
           </subst>
            <rs ref="ppl:wt1" n="per326" type="person"><w norm="dear">deare</w> <w norm="husband">Husbad</w></rs><lb/>
           that any creature could have.<anchor n="ev93c" type="event"/> 
            <!-- NOTE Book 1 new div at this point, but no break here at all, not even a new line/p. Bk1 text slightly different "Such was the violency of prevailing passion" -->Such was<lb/>
-          my <w norm="extremity">extreamity</w> of <w norm="passion" type="l">Passion</w> <w norm="and">&amp;</w> trouble<lb/>
+          my <term><w norm="extremity">extreamity</w></term> of <w norm="passion" type="l">Passion</w> <w norm="and">&amp;</w> trouble<lb/>
           upon this change that I was <w norm="almost">allmost</w> <lb/>
           changed into nothing <w norm="and">&amp;</w> was ready<lb/>
           to <w norm="go">goe</w> into the grave with him whom God<lb/>
@@ -5874,12 +5879,12 @@
            <w norm="body">bodie</w><pc norm=",">.</pc> afflicted in <w norm="spirit">spirtt</w><pc norm=",">.</pc> low in my<lb/>
            <w norm="estate" type="l">Estate</w><pc norm=",">.</pc> losses of my dearest <w norm="friends">freinds</w><lb/>
           <w norm="and">&amp;</w> <w norm="relations" type="l">Relations</w><supplied reason="mod">,</supplied> <add place="above"><w norm="and">&amp;</w></add> <w norm="children" type="l">Children</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> other comforts<lb/>
-           as <w norm="dear">deare</w><pc norm=",">.</pc> <w norm="and">&amp;</w> now<supplied reason="mod">,</supplied> to <w norm="consummate">consumate</w> my suff<lb break="no"/>
+           as <w norm="dear">deare</w><pc norm=",">.</pc> <w norm="and">&amp;</w> now<supplied reason="mod">,</supplied> to <term><w norm="consummate">consumate</w></term> my suff<lb break="no"/>
           <pc>-</pc>erings<supplied reason="mod">,</supplied> <rs ref="ppl:wt1" n="per327" type="person">my <w norm="husband" type="l">Husband</w></rs> <w norm="withdrawn">withdrawen</w>. Oh<supplied reason="mod">,</supplied><lb/>
           that my <w norm="sorrows">sorrowes</w> were weighed<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> that the<lb/>
           Lord would <w norm="pity">pittie</w> my <w norm="distress">distresse</w>. I am<lb/>
            still thy <w norm="creature" type="l">Creature</w><surplus reason="superfluous">.</surplus> by <w norm="creation" type="l">Creation</w><pc norm=",">.</pc> <w norm="redemption" type="l">Redemp<add place="above">tion</add></w><supplied reason="mod">,</supplied> <lb/>
-           <w norm="sanctification" type="l">Sanctification</w><pc norm=",">.</pc> preservation<surplus reason="superfluous">.</surplus> from death<supplied reason="mod">,</supplied><lb/>
+           <term><w norm="sanctification" type="l">Sanctification</w></term><pc norm=",">.</pc> preservation<surplus reason="superfluous">.</surplus> from death<supplied reason="mod">,</supplied><lb/>
 
          
             <pb xml:id="page-142" n="142"/>
@@ -5953,8 +5958,8 @@
           <w norm="Is" type="u">is</w> there <w norm="no">noe</w> hope in the later <w norm="end" type="l">End</w><pc norm="?">.</pc></q><supplied reason="mod">"</supplied> <w norm="What" type="u">what</w><lb/>
           if<supplied reason="mod">,</supplied> though my <g ref="#heart">♥</g><supplied reason="mod">,</supplied> thou are deprived<lb/>
            of his presence <w norm="and">&amp;</w> company<pc norm=",">.</pc> <w type="archaism">dost</w> thou<lb/>
-          not <w norm="believe">beleive</w> that he now <w norm="enjoys">injoyes</w> the <w norm="incomprehensible" type="break">Incomp-<lb break="no"/>
-          rehensable</w> <w norm="joys">Joyes</w> of the <w norm="great" type="l">Great</w> God of<lb/>
+          not <w norm="believe">beleive</w> that he now <w norm="enjoys">injoyes</w> the <term><w norm="incomprehensible" type="break">Incomp-<lb break="no"/>
+          rehensable</w></term> <w norm="joys">Joyes</w> of the <w norm="great" type="l">Great</w> God of<lb/>
           <w norm="heaven" type="l">Heaven</w><pc norm="?">.</pc> <w norm="Dost" type="archaism">doest</w> thou not <w norm="think">thinke</w> that<lb/>
           <quote type="paraphrase" source="#_Revelation_21:4">all his <w norm="tears">Teares</w> is wiped from his eyes</quote><supplied reason="mod">,</supplied><lb/>
 
@@ -5988,7 +5993,7 @@
           that <quote type="paraphrase" source="#_Job_19:26">with my <w norm="eyes" type="l">Eyes</w> shall I see God</quote> <w norm="and">&amp;</w><lb/>
           behold him <quote type="phrase" source="#_1Corinthians_13:12"><w norm="face-to-face">face to face</w></quote><surplus reason="superfluous">.</surplus> which this clay<supplied reason="mod">,</supplied><lb/>
            this <w norm="body">bodie</w> of dust<surplus reason="superfluous">.</surplus> cannot<surplus reason="superfluous">.</surplus> <w norm="until">till</w> my<lb/>
-          <w norm="vile">vilde</w> <w norm="body">bodie</w> be changed <w norm="and">&amp;</w> this <w norm="mortal">mortall</w><lb/>
+          <term><w norm="vile">vilde</w></term> <w norm="body">bodie</w> be changed <w norm="and">&amp;</w> this <w norm="mortal">mortall</w><lb/>
           shall put on <w norm="immortality">Immortality</w>. Oh<supplied reason="mod">,</supplied> that the<lb/>
           Lord would now <w norm="show">shew</w> <w norm="himself">him selfe</w> to his<lb/>
           <w norm="weak">weake</w> servant<pc norm=",">.</pc> <w norm="and">&amp;</w> give me faith to<lb/>
@@ -6108,13 +6113,13 @@
            <w norm="that" type="l">That</w> as thou <w type="archaism">hast</w> given me a <w norm="being">beeing</w> on<lb/>
           this thy <w norm="earth" type="l">Earth</w><supplied reason="mod">,</supplied> <w norm="continued">contineued</w> me thus long<lb/>
           in a multitude of <w norm="innumerable">inumerable</w> dangers<lb/>
-           <supplied reason="mod">(</supplied><w norm="spiritual">Spirittuall</w> <w norm="and">&amp;</w> <w norm="temporal">temporall</w><pc norm=")">.</pc> from my <w norm="infancy" type="l">Infancy</w><supplied reason="mod">,</supplied><lb/>
+           <supplied reason="mod">(</supplied><w norm="spiritual">Spirittuall</w> <w norm="and">&amp;</w> <term><w norm="temporal">temporall</w></term><pc norm=")">.</pc> from my <w norm="infancy" type="l">Infancy</w><supplied reason="mod">,</supplied><lb/>
            youth<pc norm=",">.</pc> <w norm="middle" type="l">Middle</w><supplied reason="mod">-</supplied><choice><sic>Ale</sic><corr>age</corr></choice><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> towards old <w norm="age">Adge</w><supplied reason="mod">,</supplied><lb/>
           make me to understand thy word <w norm="and">&amp;</w> know<lb/>
            thy <w norm="majesty">majestie</w><pc norm=",">.</pc> thy <w norm="essence" type="l">Essence</w><pc norm=",">.</pc> thy <w norm="attributes" type="l">Attributes</w><lb/>
           <w norm="to" type="l">To</w> <w norm="glorify">Glorifie</w> thy name<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> adore thee in my<lb/>
           <w norm="soul">Soule</w> <w norm="and">&amp;</w> <w norm="spirit">spiritt</w><pc norm=".">:</pc> <w norm="Let">lett</w> me not serve thee with<lb/>
-          a slavish service<supplied reason="mod">,</supplied> but <add place="above">with a</add> true <w norm="filial">filliall</w> obe<pc>-</pc><lb break="no"/>
+          a slavish service<supplied reason="mod">,</supplied> but <add place="above">with a</add> true <term><w norm="filial">filliall</w></term> obe<pc>-</pc><lb break="no"/>
            dience<supplied reason="mod">.</supplied> <quote xml:id="q-056" source="#KJV_Psalms_19:13" type="paraphrase"><w norm="Thou" type="u">thou</w> that <w type="archaism">hast</w> kept me from great<lb/>
           <w norm="and">&amp;</w> <w norm="presumptuous">presuntious</w> <w norm="sins">sinnes</w><supplied reason="mod">,</supplied> <w norm="deliver">delivr</w> me from every<lb/>
              sin <supplied reason="mod">(</supplied>be it never so s<supplied reason="smudge">mall</supplied><supplied reason="mod">)</supplied></quote> <!-- ST Ref supplied--> 
@@ -6297,7 +6302,7 @@
           <milestone unit="event" n="ev94c"/>
           Then towards night <rs ref="ppl:wt1" n="per334" type="person">my dearest</rs> fell<lb/>
           to be worse <w norm="and">&amp;</w> more heavy <w norm="and">&amp;</w> <w norm="drowsy">drousie</w><supplied reason="mod">,</supplied><lb/>
-          according to the <w norm="distemper">disttemper</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> they sent<lb/>
+          according to the <term><w norm="distemper">disttemper</w></term><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> they sent<lb/>
           by <rs n="per335" type="person">my servant</rs> to me for <rs ref="ppl:rw1" type="person">the Dr</rs> which<lb/>
           was dispatch for <w norm="immediately">imeadatly</w>. <w norm="And">&amp;</w> came<lb/>
           to him on <date when-custom="1668-09-16"><w norm="Wednesday" type="u">wednesday</w></date><supplied reason="mod">,</supplied> after dinner from<lb/>
@@ -6312,11 +6317,11 @@
           <pc>-</pc>oned to him<pc norm=".">:</pc><anchor type="event" n="ev94c"/> <milestone unit="event" n="ev94d"/>After which he had his<lb/>
           <w norm="hair">Haire</w> <w norm="cut">cutt</w> off by <rs ref="ppl:rw1" type="person">the Dr<supplied reason="mod">'s</supplied></rs> order <supplied reason="mod">(</supplied>being the<lb/>
           latest <w norm="remedy">remidy</w><pc norm=")">.</pc> with his <w norm="own">owne</w> free <w norm="consent" type="l">Consent</w><supplied reason="mod">.</supplied><lb/>
-          <w norm="But" type="u">but</w> <w norm="no">noe</w> <w norm="remedies">remidies</w><surplus reason="superfluous">.</surplus> or <w norm="medicine">medicen</w><surplus reason="superfluous">.</surplus> nor <w norm="art" type="l">Art</w><lb/>
+          <w norm="But" type="u">but</w> <w norm="no">noe</w> <w norm="remedies">remidies</w><surplus reason="superfluous">.</surplus> or <w norm="medicine">medicen</w><surplus reason="superfluous">.</surplus> nor <term><w norm="art" type="l">Art</w></term><lb/>
           could <w norm="prevail">prevall</w><pc norm=",">:</pc> it being the <w norm="determination">detirmination</w><lb/>
           of our God to take him to <w norm="himself">him selfe</w><pc norm=",">.</pc><anchor n="ev94d" type="event"/> <milestone n="ev95" unit="event"/>but<lb/>
           yet to <w norm="mix">mixe</w> this bitter <w norm="cup" type="l">Cup</w><supplied reason="mod">,</supplied> <w norm="death" type="l">Death</w><supplied reason="mod">,</supplied><lb/>
-          with the <w norm="allay">alay</w> of such a <w norm="quiet">quiett</w> frame<lb/>
+          with the <w norm="allay">alay</w> of such a <w norm="quiet">quiett</w> <term>frame</term><lb/>
           <w norm="and">&amp;</w> temper free from torment or <w norm="signs">signes</w><lb/>
 
          
@@ -6335,12 +6340,12 @@
           </fw>
           <lb/>   
           of much <w norm="pains">paines</w><pc norm=",">.</pc> <w norm="lying">laing</w> as if he  <!-- NOTE moved fw - box around   |__ --> <lb/>
-          were in a <w norm="sweet">sweete</w> <w norm="sleep">sleepe</w><supplied reason="mod">,</supplied> which by degrees<lb/>
+          were in a <term><w norm="sweet">sweete</w></term> <w norm="sleep">sleepe</w><supplied reason="mod">,</supplied> which by degrees<lb/>
           growing colder at his <w norm="feet">feete</w> <w norm="and">&amp;</w> so <w norm="dying">dieng</w><lb/>
           upwards<supplied reason="mod">,</supplied> drawing his breath shorter<lb/>
           all the <date type="death" when-custom="1668-09-17">Thursday</date> morning<supplied reason="mod">.</supplied> <w norm="and">&amp;</w> towards<lb/>
-          11 <w norm="o'clock">a clock</w> in the <w norm="forenoon">forenoone</w><supplied reason="mod">,</supplied> he <w norm="fetched">fetcht</w><lb/>
-          one little sigh <w norm="and">&amp;</w> <w norm="sweetly">sweetely</w> resigned up<lb/>
+          11 <w norm="o'clock">a clock</w> in the <term><w norm="forenoon">forenoone</w></term><supplied reason="mod">,</supplied> he <w norm="fetched">fetcht</w><lb/>
+          one little sigh <w norm="and">&amp;</w> <term><w norm="sweetly">sweetely</w></term> resigned up<lb/>
           his <w norm="spirit">Spiritt</w> in to the hand of his <w norm="dear">deare</w><lb/>
           <w norm="redeemer" type="l">Redeemer</w><supplied reason="mod">,</supplied> Jesus Christ.</p>
          <p xml:id="p-0165">He departed this life on Thursday the<lb/>
@@ -6416,7 +6421,7 @@
          <fw type="header" rend="underline"><date>1668</date>.</fw>
        </fw>
        <p xml:id="p-0168"><rs ref="ppl:wt1" type="person">My dearest heart</rs> was <w norm="interred">Interrd</w><lb/>
-          in the <w norm="alley" type="l">Alley</w> of his <w norm="own">owne</w> at his <w norm="own">owne</w><lb/>
+          in the <term><w norm="alley" type="l">Alley</w></term> of his <w norm="own">owne</w> at his <w norm="own">owne</w><lb/>
           <w norm="parish">Parich</w> <w norm="church" type="l">Church</w> in <placeName ref="place:Ston_053" n="place101"><w norm="Stonegrave">Stongrave</w></placeName><supplied reason="mod">,</supplied> <w norm="near">neare</w><lb/>
             <rs ref="ppl:edg1" n="per346" type="person">his <w norm="own">owne</w> <w norm="mother" type="l">Mother</w></rs> <w norm="and">&amp;</w> two <w norm="sweet">sweete</w><lb/>
           children<supplied reason="mod">,</supplied> <persName ref="ppl:jt1" n="per347">Joyce</persName> <w norm="and">&amp;</w> <persName ref="ppl:ct1" n="per348">Christopher</persName>.<lb/>
@@ -6550,7 +6555,7 @@
          <l>Farewell, the <w type="add">hon.<add place="above">red</add></w> <w norm="rags">ragges</w><pc norm=",">.</pc> the <w norm="Crystal">Cristall</w> bubbles</l>
          <l>Fame's but a hollow <w norm="Echo">Eccho</w>, Gold <w norm="poor">poore</w> clay,</l>
          <l><w type="add">Hon.<add place="above">or</add></w> the darling, but of one short day.</l>
-         <l><w norm="Beauty's">Beauties</w> <w norm="chief">chiefe</w> <w norm="Idol">Idoll</w>, but a <w norm="damask">dammask</w> skin</l>
+         <l><w norm="Beauty's">Beauties</w> <w norm="chief">chiefe</w> <w norm="Idol">Idoll</w>, but a <term><w norm="damask">dammask</w></term> skin</l>
          <l>State but a Golden Prison to live in.</l>
          <l>To vex free minds, <w norm="embroidered">imbroydred</w> <w norm="trains">traines</w></l>
          <l>And goodly Pageants, proudly Swelling <add place="above"><w norm="veins">vains</w></add>
@@ -6585,14 +6590,14 @@
          <l>would the world then adopt me for her <w norm="heir">heire</w>. </l>
          <l>Would beauties <w norm="queen">queene</w> <w norm="entitle">intitle</w> me the <w norm="fair">faire</w>.</l>
          <l><w norm="Fames">Fames</w> <w norm="speak">speake</w> me <w type="add">ho.<add place="above">nrs</add></w> <w norm="minion">minnion</w> <w norm="and">&amp;</w> could I</l>
-         <l>With <w norm="Indian Angels" type="query">Indian-Angells</w>, <w norm="and">&amp;</w> a speaking Eye<surplus reason="superfluous">.</surplus></l>
+         <l>With <w norm="Indian Angels">Indian-Angells</w>, <w norm="and">&amp;</w> a speaking Eye<surplus reason="superfluous">.</surplus></l>
          <l>Com<ex>m</ex>and bare heads; <w norm="bowed">bow'd</w> knees strike <w norm="Justice">Justis</w> <add place="below">dumb</add></l>
          <!-- NOTE "dumb" is only just above the word "Tongue" on the next line; has a line underneath it, but I think the intention is a boxing effect (as more obviously in "more" above) rather than underlining the word dumb. 
            [review] Yes, it is an insertion to maintain end-line rhyme of 'dumb' and 'tongue'-->
          <l>As well as blind <w norm="and">&amp;</w> lame, <w norm="and">&amp;</w> give a Tongue
          </l>
          <l>To stones by Epitaphs; be <w norm="called">calld</w> great master</l>
-         <l>In the last lines of every Poetaster:</l>
+         <l>In the last lines of every <term>Poetaster</term>:</l>
          <l>Could I be more <w norm="than">then</w> any man that lives</l>
          <l>Great, wise, rich <w norm="fair">faire</w><pc norm=",">.</pc> all in Superlatives</l>
          <l>Yet I these favours would more free <w norm="resign">resigne</w></l>
@@ -6612,7 +6617,7 @@
          <fw type="pageNum" rend="underline" place="right">159</fw>
      <lb/>
          <l>A prayer <w norm="book">booke</w> shall be my looking <w norm="glass">glasse</w></l>
-         <l>Wherein I will <w norm="adorn">adorne</w> <w norm="sweet">sweete</w> <w norm="virtues">vertues</w> face</l>
+         <l>Wherein I will <w norm="adorn">adorne</w> <term><w norm="sweet">sweete</w></term> <w norm="virtues">vertues</w> face</l>
          <!-- Q CHECK tbd. tricky stuff in following lines! still highlighted in semidip atm. words in <seg are below line and right-aligned but *not* add  -->
          <l><w norm="Hear">Heare</w> dwells <w norm="no">noe</w> <w norm="heartless">heartlesse</w> loves <w norm="no">noe</w> pale <w norm="faced">fact</w> <lb/><seg rend="place(right)"><w norm="fears">feares</w></seg></l>
          <l><w norm="No">Noe</w> short <w norm="Joys">Joyes</w> <w norm="purchased">purchast</w> with <w norm="Eternal">Eternall</w> tears.</l>
@@ -6672,7 +6677,7 @@
          <l>As mercy beyond measure <w norm="proved">prov'ed</w>;</l>
          <l>Then should I neither <w norm="Giant">Gyant</w> <w norm="fear">feare</w>,</l>
          <l>Nor Lyon that my <w norm="Soul">Soule</w> would <w norm="tear">teare</w>;</l>
-         <l>Nor as the <w norm="Philistines">Philistims</w>, nor such friends:</l>
+         <l>Nor as the <term><w norm="Philistines">Philistims</w></term>, nor such friends:</l>
          <l>As never, were true Christians friends:</l>
          <l><w norm="No">Noe</w> passions should my <w norm="Spirit">Spiritt</w> <w norm="vex">vexe</w><pc norm=",">.</pc></l>
          <l>Nor sorrow so my <w norm="mind">minde</w> perplex.</l>
@@ -6838,7 +6843,7 @@
           our youths<pc norm=";">,</pc> give me grace <quote xml:id="q-075" source="#_Luke_9:23" type="partial">to take up thy<lb/>
             <w norm="cross">Crosse</w> <w norm="daily">dalie</w> <w norm="and">&amp;</w> follow thee<surplus reason="superfluous">,</surplus></quote> <supplied reason="mod">(</supplied>being <w norm="meek">meeke</w><lb/>
           <w norm="and">&amp;</w> <w norm="lowly">lowlie</w> in <w norm="spirit">Spiritt</w><pc norm=",">;</pc> submissive with a true<lb/>
-          <w norm="and">&amp;</w> <w norm="catholic">catholike</w> resignation to <w norm="all" type="l">All</w> thy wise<lb/>
+          <w norm="and">&amp;</w> <term><w norm="catholic">catholike</w></term> resignation to <w norm="all" type="l">All</w> thy wise<lb/>
           dispensations <w norm="seem">seeme</w> they to <w norm="cross">crosse</w> my<lb/>
           perverse will never so much<supplied reason="mod">)</supplied><pc norm=";">,</pc> give me<lb/>
           patience throughout, in all the course of<lb/>
@@ -6877,7 +6882,7 @@
           he shall praise thee<supplied reason="mod">,</supplied></quote> <w norm="and">&amp;</w> <w norm="confess">confesse</w> thy<lb/> 
           <w norm="holiness">Holinesse</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> the <w norm="mercies">mercys</w> of thy holy <w norm="name" type="l">Name</w><supplied reason="mod">.</supplied><lb/>
           O<supplied reason="mod">,</supplied> hide not thy face from me <w norm="anymore">any more</w><pc norm=",">.</pc><lb/>
-          but give me sufficient <w norm="sustentation" type="l">Sustentation</w><lb/>
+          but give me sufficient <term><w norm="sustentation" type="l">Sustentation</w></term><lb/>
           <w norm="and">&amp;</w> <w norm="support" type="l">Support</w> to <w norm="enable">inable</w> me with fortitude<lb/>
           <w norm="and">&amp;</w> patience to <w norm="endure">indure</w> thy fatherly<lb/>
           chastisements<pc norm=",">.</pc> that thou <w norm="mayest" type="query">maist</w><!-- Q [word] i missed this one! prob archaism, "mayst"? --> have the<lb/>
@@ -6915,7 +6920,7 @@
           <w norm="nor" type="l">Nor</w> suffer thy terrors, but may feel an<lb/>
           <w norm="eternity">Etternity</w> of blessings in the <quote xml:id="q-082" source="#_Luke_14:14" type="phrase"><w norm="resurrection">Resurrection</w> of<lb/>
             the <w norm="just" type="l">Just</w></quote><pc norm=".">;</pc> <w norm="And" type="u">and</w> this I most humbly beg<lb/>
-          with the <quote type="allusion" source="#_2Thessalonians_2:13"><w norm="sanctification" type="l">Sanctification</w> of thy most <w norm="Holy" type="u">holy</w> Spirit</quote><supplied reason="mod">,</supplied><lb/>
+          with the <quote type="allusion" source="#_2Thessalonians_2:13"><term><w norm="sanctification" type="l">Sanctification</w></term> of thy most <w norm="Holy" type="u">holy</w> Spirit</quote><supplied reason="mod">,</supplied><lb/>
            <w norm="and">&amp;</w><lb/><!-- Q CHECK does this & appear in original -->
 
          
@@ -6936,8 +6941,8 @@
           <w norm="Even" type="u">even</w> for the Lord, Christ Jesus<supplied reason="mod">,</supplied> his<lb/>
           sake, the righteous<pc norm=":">.</pc> to whom with the<lb/>
            <w norm="Holy" type="u">holy</w> <w norm="Spirit">Spiritt</w><pc norm=",">.</pc> the <w norm="eternal">Etternal</w> <w norm="and">&amp;</w> <w norm="glorious" type="l">Glorious</w><lb/>
-          Father, <w norm="incomprehensible">Incomprehensable</w> <w norm="and">&amp;</w> ever<lb/>
-           <w norm="blessed" type="l">Blessed</w> Trinity<surplus reason="superfluous">.</surplus> <w norm="be" type="l">Be</w> ascribed all <choice><abbr>Hon.<am rend="superscript">or</am></abbr><expan>honour</expan></choice><supplied reason="mod">,</supplied><lb/>
+          Father, <term><w norm="incomprehensible">Incomprehensable</w></term> <w norm="and">&amp;</w> ever<lb/>
+           <w norm="blessed" type="l">Blessed</w> <term>Trinity</term><surplus reason="superfluous">.</surplus> <w norm="be" type="l">Be</w> ascribed all <choice><abbr>Hon.<am rend="superscript">or</am></abbr><expan>honour</expan></choice><supplied reason="mod">,</supplied><lb/>
            <w norm="glory" type="l">Glory</w><pc norm=",">.</pc> <w norm="power">Power</w>, might<pc norm=",">;</pc> <w norm="majesty">majestie</w><supplied reason="mod">,</supplied> <w norm="thanksgiving">thank<lb break="no"/>
           -sgive</w>, <w norm="praise" type="l">Praise</w>, <w norm="adoration">addoration</w> <w norm="and">&amp;</w> <w norm="dominion">domminion</w> <lb/>
           by all things in <w norm="heaven" type="l">Heaven</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="earth" type="l">Earth</w><pc norm=",">.</pc><lb/>
@@ -7727,7 +7732,7 @@
           <w norm="war">warre</w>. <w norm="When" type="u">when</w> followed <w norm="an" type="l">An</w> <w norm="infinite">infinit</w> <w norm="number">numbr</w><lb/>
           of <w norm="people" type="l">People</w><supplied reason="mod">,</supplied> like common <w norm="people">People</w> <w norm="and">&amp;</w> <choice><sic>meanre</sic><corr>meaner</corr></choice>
            <!-- [endnote] I.e., meaner?--> sort<lb/>
-          with <w norm="raw" type="l">Raw</w> <w norm="boned">bond</w> faces like <w norm="Scots">Scotts</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> Irish<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w><lb/>
+          with <term><w norm="raw" type="l">Raw</w> <w norm="boned">bond</w></term> faces like <w norm="Scots">Scotts</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> Irish<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w><lb/>
           English<supplied reason="mod">,</supplied> all in a great confusion <w norm="and">&amp;</w> hurry<supplied reason="mod">,</supplied><lb/>
           as if <w norm="running">runnig</w> with <w norm="arms">Armes</w> <w norm="and">&amp;</w> a posture of<lb/>
           <w norm="fighting">fiting</w> <w norm="and">&amp;</w> other instruments of <w norm="war">warre</w>. These<lb/>
@@ -7782,7 +7787,7 @@
           sight<pc norm=",">.</pc> he would not <w norm="show">shew</w> to her his <w norm="trouble">troubl</w><supplied reason="mod">,</supplied><lb/>
           but said <w norm="dreams">dreames</w> was not to be <w norm="believed">belived</w><lb/>
           but bid her <del rend="strikethrough">w</del> <w norm="refer">referre</w> all to the <w norm="divine">devine</w><lb/>
-          <w norm="providence" type="l">Providence</w>. <w norm="Yet">yett</w> he was <w norm="observed">observd</w> to be <lb/>
+          <term><w norm="providence" type="l">Providence</w></term>. <w norm="Yet">yett</w> he was <w norm="observed">observd</w> to be <lb/>
           very sad. And <w norm="after">affter</w> <w norm="and">&amp;</w> before this said<lb/>
           <w norm="that" type="l">That</w> there was a <w norm="dreadful">dreadfull</w> cloud <w norm="hung">hang</w><lb/>
 
@@ -7825,7 +7830,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
         <milestone n="ev100" unit="event"/>   
           I had a very significant <w norm="dream">dreame</w> in <date when-custom="1645"><supplied reason="mod">16</supplied>45</date><lb/>
           <w norm="immediately">imeadiatly</w> before my <choice><abbr>d.</abbr><expan>dear</expan></choice> <persName ref="ppl:kwd1" n="per367">sister Danby</persName> died<supplied reason="mod">.</supplied><lb/>
-          I did see her laid on the <w norm="childbed">child bed</w><supplied reason="mod">,</supplied> all in white<lb/>
+          I did see her laid on the <term><w norm="childbed">child bed</w></term><supplied reason="mod">,</supplied> all in white<lb/>
           <w norm="and">&amp;</w> as if she <w norm="were">weare</w> <w norm="asleep">a sleepe</w><pc norm=":">.</pc> <w norm="coming">comeing</w> to her<supplied reason="mod">,</supplied><lb/>
           looked <w norm="within">with in</w> the curtains<supplied reason="mod">,</supplied> but she <w norm="appeared">apeard</w> to me<lb/>
            to be dead at which I cried out<supplied reason="mod">,</supplied><lb/>
@@ -7845,7 +7850,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
            <w norm="Within">with in</w> a little space<pc norm=",">.</pc> she fell into <w norm="labour">Labor</w><lb/>
           of <persName ref="ppl:fd1" n="per368"><w norm="Frank">Franke</w></persName><supplied reason="mod">,</supplied> her <w norm="ninteenth">19<hi rend="superscript">th</hi></w> <w norm="child" type="l">Child</w><pc norm=",">.</pc> and sent for <rs ref="ppl:aow1" n="per369" type="person">my<lb/>
           mother</rs> <w norm="and">&amp;</w> <w norm="myself">my selfe</w> to <placeName ref="place:Hips_022" n="place104">Hipswell</placeName>. I<supplied reason="mod">,</supplied> <w norm="going">goeing</w> to<lb/>
-           her<pc norm=",">.</pc> did find her laid in a <w norm="cough">Cough</w> like to<lb/>
+           her<pc norm=",">.</pc> did find her laid in a <term><w norm="couch">Cough</w></term> like to<lb/>
           my <w norm="dream">dreame</w> which did amaze me. <w norm="Yet" type="u">yet</w><supplied reason="mod">,</supplied> she<lb/>
           <w norm="lived">livd</w> to <w norm="bring">brng</w> forth that son in <w norm="infinite">infinit</w> <w norm="extremity" type="break">ex-<lb break="no"/>
           treamty</w> <w norm="and">&amp;</w> quite <w norm="different">diffrent</w> <w norm="from">frm</w> all the <w norm="other">othr</w><lb/>
@@ -7859,11 +7864,11 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
            <w norm="told">tould</w> <rs ref="ppl:awn1" type="person">my <w norm="aunt" type="l">Aunt</w></rs><supplied reason="mod">,</supplied> <supplied reason="mod">"</supplied><q>I have had the strangest drea<add place="above">m</add> <lb/>
           that <w norm="ever">evr</w> I had. I <w norm="dreamt">dreamd</w> that <w norm="a" type="l">A</w> man came in<lb/>
            to the <w norm="room">Roome</w><surplus reason="superfluous">.</surplus> with all <w norm="things" type="l">Things</w> for <w>mournings</w><lb/>
-           <w norm="and">&amp;</w> laid them on the ground. <unclear>Sir B [M/W?]</unclear><!-- Q CHECK [unclear] add reason? but what should M/W be? still highlighted in semidip... --> <w norm="habits">habitts</w><lb/>
-           as <choice><sic>sleeces</sic><corr>sleeves</corr></choice><!-- Q CHECK SEMIDIP [endnote] I.e., sleeves? still highlighted in semidip --> <w norm="etcetera">&amp;</w>.</q><supplied reason="mod">"</supplied> I said<supplied reason="mod">,</supplied> she asked what that meant<supplied reason="mod">.</supplied><lb/>
-           <!-- Q mod. etcetera. &amp; was tagged with abbr/expan rather than w - technically more correct and there aren't many of them. hmm. prefer w for now for simplicity but review once all done. -->
+           <w norm="and">&amp;</w> laid them on the ground. <w norm="And">&amp;</w> B. W. <w norm="habits">habitts</w><lb/>
+           <w norm="and">&amp;</w> <w norm="sleeves">sleevs</w> <w norm="etcetera">&amp;</w>.</q><supplied reason="mod">"</supplied> I said<supplied reason="mod">,</supplied> she asked what that meant<supplied reason="mod">.</supplied><lb/>
+           <!-- Q mod. etcetera. &amp; was tagged with abbr/expan rather than w - technically more correct and there aren't many of them. review once all done. -->
            The man that brought the <w>mournings</w><surplus reason="superfluous">.</surplus> said <w norm="that" type="l">That</w><supplied reason="mod">,</supplied><lb/>
-          when such things <w norm="appeared">apeard</w> in a <w norm="childwife's">Child wifs</w><lb/>
+          when such things <w norm="appeared">apeard</w> in a <term><w norm="child">Child</w> <w norm="wife's"> wifs</w></term><lb/>
           <w norm="chamber" type="l">Chamber</w><pc norm=",">.</pc> <w norm="it" type="l">It</w> was a <w norm="sign">signe</w> that that woman that<lb/>
           laid since should <w norm="die">dye</w>. Then <rs ref="ppl:kwd1" n="per371" type="person">my <w norm="sister">sistr</w></rs> said<supplied reason="mod">,</supplied><lb/>
 
@@ -7904,7 +7909,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
           George</persName> came into the <w norm="chamber">Chambr</w> <w norm="and">&amp;</w> asked me what made<lb/>
           me <w norm="weep">weepe</w> <w norm="so">soe</w> sore. I <w norm="answered">answrd</w> it was for him. <supplied reason="mod">"</supplied><w norm="Why">why</w><supplied reason="mod">,"</supplied> <choice><sic>sad</sic><corr>said</corr></choice><lb/>
           he<supplied reason="mod">,</supplied> <supplied reason="mod">"</supplied><q><w norm="Sister" type="u">sister</w> <w norm="dost">doest</w> thou <w norm="weep">wepe</w> for me<pc norm="?">.</pc></q><supplied reason="mod">"</supplied> I said <w norm="because">becaise</w> he<lb/>
-          was <w norm="so">soe</w> <w norm="venturous">ventrous</w> to <w norm="go">goe</w> <w norm="over">ovr</w> that dangerous <geogName ref="place:Swal_123" n="geog4"><w norm="river">Rivr</w><lb/>
+          was <w norm="so">soe</w> <term><w norm="venturous">ventrous</w></term> to <w norm="go">goe</w> <w norm="over">ovr</w> that dangerous <geogName ref="place:Swal_123" n="geog4"><w norm="river">Rivr</w><lb/>
           <damage agent="tear"><supplied reason="damage">S</supplied></damage>wale</geogName> <w norm="and">&amp;</w> that I <w norm="feared">feard</w> he might be lost in it. And<lb/>
           begged of him<supplied reason="mod">,</supplied> for God<supplied reason="mod">'</supplied>s sake<supplied reason="mod">,</supplied> that he would <add place="above">not</add> presume to<lb/>
           <w norm="go">goe</w> <w norm="so">soe</w> when it was high for I <w norm="feared">feard</w> him much that<lb/>
@@ -7923,7 +7928,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
            he would not venture <w norm="again">againe</w><pc norm=",">.</pc> but have a care<lb/>
           of <w norm="himself">him self</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> gave me his hand he would not <w norm="go">goe</w><lb/>
            <w norm="over">our</w><!-- [endnote] I.e., o're, or over. --> it <w norm="again">a gaine</w> when it was high<pc norm=",">.</pc> which pleased me<lb/>
-          to <w norm="hear">heare</w> this <w norm="resolution">Resolution</w><pc norm=".">:</pc>
+          to <w norm="hear">heare</w> this <term><w norm="resolution">Resolution</w></term><pc norm=".">:</pc>
       <w norm="Nor" type="u">nor</w> did he <w norm="ever">evr</w><supplied reason="mod">,</supplied> <w norm="until">till</w> that<lb/>
           day of his death <w norm="gone">gon</w> that way <w norm="after">affter</w><pc norm=",">:</pc> <w norm="and" type="l">And</w> then<lb/>
            was <w norm="compelled">compelld</w> to it by <w norm="reason" type="l">Reason</w> of shortness of time<supplied reason="mod">.</supplied><lb/>
@@ -7961,7 +7966,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
           <w norm="that" type="l">That</w> she protested she did <w norm="never">nevr</w> <w norm="hear">heare</w> the like<supplied reason="mod">.</supplied><lb/>
           <w norm="At" type="u">at</w> which she admired<supplied reason="mod">,</supplied> <w norm="and">&amp;</w> said<pc norm=",">.</pc> <supplied reason="mod">"</supplied><q>Sir<supplied reason="mod">,</supplied> I ever <w norm="took">tooke</w> you<lb/>
            to be a fine gentleman<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> well<supplied reason="mod">-</supplied>bred<pc norm=",">.</pc> but I did<lb/>
-           not <w norm="think">thinke</w> you had <w norm="been">bin</w> <w norm="so">soe</w> good a <w norm="scholar">scoler</w> <w norm="and">&amp;</w> a <w norm="divine">devin</w></q><supplied reason="mod">."</supplied> <lb/>
+           not <w norm="think">thinke</w> you had <w norm="been">bin</w> <w norm="so">soe</w> good a <w norm="scholar">scoler</w> <w norm="and">&amp;</w> a <term><w norm="divine">devin</w></term></q><supplied reason="mod">."</supplied> <lb/>
           At which <rs ref="ppl:gw1" n="per385" type="person">my <choice><abbr>D:</abbr><expan>dear</expan></choice> <w norm="brother">brothr</w></rs> <w norm="answered">answred</w> with a deep sigh<supplied reason="mod">,</supplied> <w norm="and">&amp;</w><lb/>
           said<supplied reason="mod">,</supplied> <supplied reason="mod">"</supplied><q>Ah<supplied reason="mod">,</supplied> <persName ref="ppl:dbd1" n="per386">Mrs Darcy</persName><supplied reason="mod">,</supplied> I have had the best <w norm="advantage">advantag</w><add place="above">e</add> <lb/>
            of a <w norm="religious" type="l">Religious</w> education <w norm="and">&amp;</w> <w norm="piety" type="l">Piety</w> by <rs ref="ppl:aow1 ppl:cw1" type="group">my <w norm="dear">deare</w><lb/>
@@ -8011,7 +8016,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
           thought it to be cold<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> he had <w norm="pity">pitty</w> on me<supplied reason="mod">,</supplied> Lord<lb/>
           <w norm="God" type="u">god</w><supplied reason="mod">,</supplied> <w norm="help">helpe</w> me<supplied reason="mod">,</supplied> <w norm="dear">deare</w> heart. And said he was<lb/>
            in great <w type="archaism">hast</w> to write to London to <persName ref="ppl:rd1" n="per388">Mr <choice><abbr>R.</abbr><expan>Richard</expan></choice> <w norm="Darley">Darly</w></persName><lb/>
-          to <w norm="thank">thanke</w> him for <w norm="clearing">clearng</w> his sequestration<lb/>
+          to <w norm="thank">thanke</w> him for <w norm="clearing">clearng</w> his <term>sequestration</term><lb/>
           <w norm="and">&amp;</w> the <w norm="post" type="l">Post</w> would be <w norm="gone">gon</w>. <w norm="Asked" type="u">asked</w> <w norm="if" type="l">If</w> <rs ref="ppl:aow1" n="per389" type="person">my <w norm="mother">mothr</w></rs> would<lb/>
           write. <w norm="She" type="u">she</w> said that I was <w norm="so">soe</w> <w norm="gravely">grevely</w> ill she could<lb/>
           not leave me but <w norm="do">doe</w> it <w norm="afterwards">affterwards</w>. <w norm="So">Soe</w><supplied reason="mod">,</supplied> he did<lb/>
@@ -8034,7 +8039,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
          <p xml:id="p-0184">A <w norm="grateful">gratefull</w> <w norm="remembrance" type="l">Remembrance</w> of<lb/>
            what God <w norm="did">ded</w> for me in <w norm="deliverance">delivrance</w> fr<supplied reason="missing">om</supplied><lb/>
           a <w norm="miscarriage">misscarriage</w> by a fright <w norm="and">&amp;</w> <w norm="sorrow">sorow</w><lb/>
-          for <persName ref="ppl:rn1" n="per390">Nettleton<supplied reason="mod">'</supplied>s</persName> <w norm="bailiffs">Balys</w> <w norm="distraining">disstraing</w> all<lb/>
+          for <persName ref="ppl:rn1" n="per390">Nettleton<supplied reason="mod">'</supplied>s</persName> <w norm="bailiffs">Balys</w> <term><w norm="distraining">disstraing</w></term> all<lb/>
           I had<supplied reason="mod">,</supplied> which was <w norm="delivered">deleevred</w> by a <w norm="deed">deede</w><lb/>
            in <date when-custom="1661-06">June 1661</date>.
            <anchor n="ev102" type="event"/>
@@ -8055,7 +8060,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
           <w norm="death" type="l">Death</w> of <w norm="£360">360 pound</w> a <w norm="year">yeare</w><pc norm=",">.</pc> but he<lb/>
           did not demand it for her. <w norm="But" type="u">but</w> he<lb/>
            did <w norm="engage">ingage</w> for <surplus reason="repetition">for</surplus> <rs ref="ppl:cw1" n="per397" type="person">my <w norm="father's">Fathrs</w></rs> <w norm="debts" type="l">Debts</w><lb/>
-          by the <choice><sic>mitigation</sic><corr>instigation</corr></choice> of some who did it<lb/>
+          by the <term>mitigation</term> of some who did it<lb/>
           to <w norm="clear">clere</w> <w norm="themselves">thmselves</w>. And by that means<lb/>
           did involve his <w norm="own">owne</w> <w norm="estate" type="l">Estate</w> to secure<lb/>
           them which did prove <w norm="fatal">fatall</w> to ours.</p>
@@ -8068,7 +8073,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
       
       <milestone unit="event" n="ev103a"/>
          <p xml:id="p-0186">And <w norm="though">tho</w> <persName ref="ppl:jl1" n="per398"><choice><abbr>S<am rend="superscript">r</am></abbr><expan>Sir</expan></choice> John Lowther</persName> did<lb/>
-          offer <rs ref="ppl:aow1" n="per399" type="person">my <w norm="dear">dere</w> <w norm="mother">mothr</w></rs><supplied reason="mod">,</supplied> in my hearing<supplied reason="mod">,</supplied> to<lb/>
+          offer <rs ref="ppl:aow1" n="per399" type="person">my <w norm="dear">dere</w> <term type="query"><w norm="mother">mothr</w></term><!-- Q NOT TERM --></rs><supplied reason="mod">,</supplied> in my hearing<supplied reason="mod">,</supplied> to<lb/>
           give her<supplied reason="mod">,</supplied> for <persName ref="ppl:cw2" n="per400">my <w norm="brother">brothr</w> <choice><abbr>Ch</abbr><expan>Christopher</expan></choice></persName><pc norm=",">.</pc> <measure type="currency" unit="£">1500<am rend="superscript italic">l</am></measure><lb/> 
           for her <w norm="interest">Intrest</w> in <placeName ref="place:Irel_096" n="place109">Ireland</placeName>. <w norm="But">Butt</w> my<lb/>
           <persName ref="ppl:rd1" n="per401">uncle <choice><abbr>Rich.</abbr><expan>Richard</expan></choice> Darley</persName> would not <w norm="let">lett</w> <w norm="her">hr</w><lb/>
@@ -8158,13 +8163,13 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
            me not to be frighted for they was civill<supplied reason="mod">.</supplied><lb/>
           I said<supplied reason="mod">,</supplied> <supplied reason="mod">"</supplied><q><persName ref="ppl:cw2" n="per421">Sir <choice><abbr>wand</abbr><expan>Wandesford</expan></choice></persName> should pay it.</q><supplied reason="mod">"</supplied> But they<lb/>
           would not <w norm="go">goe</w> <w norm="without">with out</w> the money<supplied reason="mod">;</supplied> so <w norm="it">itt</w> was<lb/>
-           much <w norm="grief">greif</w> to me<supplied reason="mod">,</supplied> <w norm="though">tho</w> I had <w norm="been">bin</w> lost if<lb/>
+           much <term><w norm="grief">greif</w></term> to me<supplied reason="mod">,</supplied> <w norm="though">tho</w> I had <w norm="been">bin</w> lost if<lb/>
           I had not had the <w norm="dream">Dreame</w> <w norm="beforehand">before hand</w>.<lb/>
           I <w norm="bless">blese</w> the Lord<supplied reason="mod">,</supplied> my God<supplied reason="mod">,</supplied> for my <w norm="delivery">delivry</w><lb/>
            from death <w norm="and">&amp;</w> <w norm="miscarriage">miscariage</w> of <rs ref="ppl:rt2" type="person">my <w norm="dear">dere</w><lb/>
-            <w norm="child">Childe</w></rs>. But I<supplied reason="mod">,</supplied> by <w norm="providence" type="l">Providence</w><pc norm=",">.</pc> had<lb/>
+            <w norm="child">Childe</w></rs>. But I<supplied reason="mod">,</supplied> by <term><w norm="providence" type="l">Providence</w></term><pc norm=",">.</pc> had<lb/>
            <choice><abbr>revd</abbr><expan>received</expan></choice> 
-             <measure type="currency" unit="£">100<am rend="superscript italic">l</am></measure> of my <w norm="portion" type="l">Portion</w> that <w norm="week">weeke</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> had<lb/>
+             <measure type="currency" unit="£">100<am rend="superscript italic">l</am></measure> of my <term><w norm="portion" type="l">Portion</w></term> that <w norm="week">weeke</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> had<lb/>
 
          
             <pb xml:id="page-199" n="199"/>
@@ -8199,7 +8204,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
            <date when-custom="1644/1651"/>
           The great <w norm="deliverance" type="l">Deliverance</w> I had from<lb/>
          <w norm="a" type="l">A</w> <w norm="rape" type="l">Rape</w> by <persName ref="ppl:xi1" n="per423"><w norm="Captain">Captaine</w> Innis</persName><supplied reason="mod">,</supplied> a <w norm="Scot">Scott</w><supplied reason="mod">,</supplied><lb/>
-          who did <w norm="swear">sweare</w> to <w norm="ravish" type="l">Ravish</w> me from<lb/>
+          who did <w norm="swear">sweare</w> to <term><w norm="ravish" type="l">Ravish</w></term> me from<lb/>
           <rs ref="ppl:aow1" n="per424" type="person">my <w norm="dear">dere</w> mother<supplied reason="mod">'</supplied>s</rs> ground when I had<lb/>
           <w norm="gone">gon</w> to <w norm="cows">Cowes</w> with her <w norm="maids">maides</w><supplied reason="mod">.</supplied> But that<lb/>
            <rs n="per425" type="person">his <w norm="own">owne</w> servant</rs><supplied reason="mod">,</supplied><!-- NOTE [people] - probably not identifiable --> that I cured of a<lb/>
