@@ -9,7 +9,7 @@ tags:
 
 ---
 
-Tickets for our events at 'Alice Thornton Week' at  Durham Cathedral are now on sale. Please buy early to avoid disappointment!
+Tickets for our 'Alice Thornton Week' events at  Durham Cathedral are now on sale. Please buy early to avoid disappointment!
 
 ## Wednesday 18th October, 7.30pm, Prior's Hall. Public lecture by Cordelia Beattie: 'Alice Thornton (1626-1707) and her Rediscovered Manuscripts'
 
