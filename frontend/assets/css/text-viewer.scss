@@ -57,6 +57,9 @@ $render-add-with-arrow: false;
   span[data-tei-rend~="italic"] {
     font-style: italic;
   }
+  span[data-tei-rend~="superscript"] {
+    vertical-align: super;
+  }
 
   // .panel-heading {
   //   display: inline-block;
@@ -129,6 +132,16 @@ $render-add-with-arrow: false;
     .tei-surplus {
       display: none;
     }
+
+    .tei-measure.tei-type-currency {
+      &:before {
+        content: '£'
+      }
+
+      .tei-am {
+        display: none
+      }
+    }
   }
 
   .tei-surplus:not(.not-a-word) {
@@ -148,6 +161,20 @@ $render-add-with-arrow: false;
 
     .tei-corr {
       display: none;
+    }
+
+    .tei-supplied[data-tei-reason="mod"] {
+      display: none;
+    }
+
+    .tei-supplied[data-tei-reason="unclear"],
+    .tei-supplied[data-tei-reason="omitted"] {
+      &:before {
+        content: '[';
+      }
+      &:after {
+        content: ']';
+      }
     }
   }
 
