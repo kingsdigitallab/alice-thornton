@@ -50,7 +50,6 @@ $render-add-with-arrow: false;
 
 #text-viewer .panel-chunk {
   border-top: 1px solid lightgrey;
-  background-color: white;
 }
 
 #text-viewer {
@@ -267,6 +266,20 @@ $render-add-with-arrow: false;
     }
   }
 
+  &.view-modern {
+    .tei-fw[data-tei-place~="margin"] {
+      display: none;
+    }
+  }
+
+  .tei-fw {
+    display: block;
+
+    &[data-tei-place="right"] {
+      text-align: right;
+    }
+  }
+
   *[data-tei-rend="strikethrough"] {
     text-decoration: line-through;
   }
@@ -302,6 +315,35 @@ $render-add-with-arrow: false;
   .hidden {
     display: none;
   }
+
+  // LIST -----------------
+
+  .tei-list {
+    display: block;
+
+    .tei-item {
+      display: flex;
+
+      .tei-label {
+        margin-left: auto;
+        padding-left: 2em;
+      }
+
+      &[rend="brace({)"] {
+      }
+    }
+  }
+
+  &.view-semidip {
+    .tei-list .tei-item {
+
+      .tei-label {
+        align-self: center;
+      }
+    }
+  }
+
+  // ----------------------
 
   ins {
     text-decoration: none;
