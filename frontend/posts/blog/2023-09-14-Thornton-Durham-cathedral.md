@@ -21,7 +21,7 @@ As we gear up for [four days/nights of events](https://thornton.kdl.kcl.ac.uk/po
 
 5.	Alice Thornton’s *Book of Remembrances* is also now in the Cathedral library collection. In 2019, Patrick Comber gave his collection of Comber family papers to the Cathedral, including the small book which [Beattie had identified as Thornton’s *Book of Remembrances* in 2018](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/).
 
-Still need to book tickets for [our events](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/)? Don’t delay as events have strict limits on numbers, especially if you would like to view the manuscripts. 
+Still need to book tickets for [our events at Durham Cathedral](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/)? Don’t delay as events have strict limits on numbers, especially if you would like to view the manuscripts. 
 
 Further Reading:
 Thomas Comber, ‘The History of My Life’, in [*The Autobiographies and Letters of Thomas Comber*](https://archive.org/details/thomascomber156/), Vol.1, ed. C. E. Whiting, Surtees Society, 156 (Durham: Andrews & Co. 1946), 1-35.
