@@ -37,7 +37,7 @@ https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^5]: Alice Thornton, “Letter to Dean Comber, Apr. 24; addendum, May 3.” DCL, GB-0033-CCOM 57/7. 
 
-[^6]: nycro ref.
+[^6]: Alice Thornton, “Letter to Abstrupus Danby, 25 February 1705/6.” North Yorkshire County Record Office, ZS - Swinton and Middleham Estate Records, MIC 1274/6726. 
 
 [^7]: mcall 1904, 93.
 
