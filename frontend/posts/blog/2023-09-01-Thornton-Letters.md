@@ -28,7 +28,7 @@ If anyone comes across any Alice Thornton letters, do please let us know!
 
 [^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘These letters, Papers and transaction of this affaire Are in Bundles & preserved to make out these Procedings and in vindication of our Just & Lawdable Actions.’ Alice Thornton, *Book 3: The Second Book of My Widowed Condition*, British Library MS Add 88897/2, 183.
 
-[^2]: For the five published see C. E. Whiting. Ed. *The Autobiographies and Letters of Thomas Comber*, Vol. 2. Durham: Surtees Society, 19XX, 15, 51, 228, 270, 272. 
+[^2]: For the five published see C. E. Whiting. Ed. [*The Autobiographies and Letters of Thomas Comber*](https://archive.org/details/thomascomber157), Vol. 2. Durham: Surtees Society, 1947, 15, 51, 228, 270, 272. 
 
 [^3]: durham ref
 
