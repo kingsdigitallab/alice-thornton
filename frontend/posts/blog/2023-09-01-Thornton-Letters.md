@@ -11,7 +11,7 @@ The 1st September is [World Letter Writing Day](https://worldletterwritingday.co
 
 In *Book 3: The Second Book of My Widowed Condition*, Thornton frequently lists letters she had received, as evidence of her account – which [contradicted that given by her niece Anne Danby](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/) - of the match between her daughter Nally and Thomas Comber: ‘these letters, papers and transactions of this affair are in bundles and preserved to make out these proceedings and in vindication of our just and laudable actions’.[1]. We have not been able to trace any of these to date, although we have located four holograph letters written to her (and a further five have been published).[2]
 
-Durham Cathedral Library now have six letters written by Thornton (and four written to her), from the two bequests received of [Dean Comber papers](https://reed.dur.ac.uk/xtf/view?docId=ark/32150_s2hm50tr76x.xml) in 1969 and 2019. The six Thornton letters span the period 1668–99, sent to her son Robert, her husband William, her son-in-law Thomas Comber, and his mother Mary. The four written to her span from 1639-92, with the earliest one from her father Christopher Wandesford, two from Thomas Comber and one from his mother. The letter from her father is labelled ‘My honoured dear father’s 3rd letter to me into England at the Bath’.[3] We know from Thornton’s books, that Alice and her mother had travelled from Dublin to Bristol in 1639 to take the waters to help with her mother’s kidney stone.[4] Her father twice addresses her by the nickname ‘Buss’. 
+Durham Cathedral Library now have six letters written by Thornton (and four written to her), from the two bequests received of [Dean Comber papers](https://reed.dur.ac.uk/xtf/view?docId=ark/32150_s2hm50tr76x.xml) in 1969 and 2019. The six Thornton letters span the period 1668–99, sent to her son Robert, her husband William, her son-in-law Thomas Comber, and his mother Mary. The four written to her span from 1639-92, with the earliest one from her father Christopher Wandesford, two from Thomas Comber and one from his mother. The letter from her father is labelled ‘My honoured dear father’s 3rd letter to me into England at the Bath’.[3] We know from Thornton’s books, that Alice and her mother had travelled from Dublin to Bristol in 1639 to take the waters to help with her mother’s kidney stone.[4] Her father twice addressed her by the nickname ‘Buss’. 
 
 The latest letter in Durham Cathedral’s collection was written by Thornton to Thomas Comber on 24 April 1699 with an addendum of 3 May 1699; Comber died later that year on 26 November. According to this letter, Comber had sent her a ‘kind letter of advice with a copy of one in answer to Sir Abstrupus Danby’s scurrilous letter to me… I have writ out that copy your kindness writ … and made some additions’.[5] Thornton goes on to note that she is expecting a letter from Comber with a draft reply to a letter sent to her by her daughter Kate. It is unclear how long Comber had been helping Thornton draft her letters. This letter is one of the manuscripts that will be [on display in the Refectory Library on 19 and 21 October 2023](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173646759/events/428606039?_gl=1).
 
@@ -28,7 +28,7 @@ If anyone comes across any Alice Thornton letters, do please let us know!
 
 [^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘These letters, Papers and transaction of this affaire Are in Bundles & preserved to make out these Procedings and in vindication of our Just & Lawdable Actions.’ Alice Thornton, *Book 3: The Second Book of My Widowed Condition*, British Library MS Add 88897/2, 183.
 
-[^2]: For the 5 published see [tc XXX].
+[^2]: For the five published see C. E. Whiting. Ed. *The Autobiographies and Letters of Thomas Comber*, Vol. 2. Durham: Surtees Society, 19XX, 15, 51, 228, 270, 272. 
 
 [^3]: durham ref
 
@@ -45,4 +45,4 @@ https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^9]: refs.
 
-[^10]: Jackson 1875, 289, 291–296; 305–6, 308–11; 306–7. 
+[^10]: Charles Jackson. Ed. *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*. Durham: Surtees Society, 1875, 289, 291–296; 305–6, 308–11; 306–7. 
