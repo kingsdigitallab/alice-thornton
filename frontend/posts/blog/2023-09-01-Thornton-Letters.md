@@ -39,7 +39,7 @@ https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^6]: Alice Thornton, “Letter to Abstrupus Danby, 25 February 1705/6.” North Yorkshire County Record Office, ZS - Swinton and Middleham Estate Records, MIC 1274/6726. 
 
-[^7]: mcall 1904, 93.
+[^7]: Bertram Hardy McCall, [*Story of the Family of Wandesforde of Kirklington and Castlecomer*](https://archive.org/details/storyoffamilyofw00mcca). London: 1904, 93.
 
 [^8]: Alice Thornton, “Letters to her brother, Christopher Wandesford, 1677.” Ormonde Papers MS 2368, Volume 68, 171, Ormonde Papers MS 2369, Volume 69, 167, National Library of Ireland, Dublin. We are grateful to Ann-Maria Walsh for these references.
 
