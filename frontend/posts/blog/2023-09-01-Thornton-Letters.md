@@ -26,13 +26,14 @@ Besides the two Thornton letters edited by McCall, there are a number of others 
 If anyone comes across any Alice Thornton letters, do please let us know!
 
 
-[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘These letters, Papers and transaction of this affaire Are in Bundles & preserved to make out these Procedings and in vindication of our Just & Lawdable Actions.’ Alice Thornton, *Book 3: The Second Book of My Widowed Condition* (hereafter *Book 3*), British Library MS Add 88897/2, 183.
+[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘These letters, Papers and transaction of this affaire Are in Bundles & preserved to make out these Procedings and in vindication of our Just & Lawdable Actions.’ Alice Thornton, *Book 3: The Second Book of My Widowed Condition*, British Library MS Add 88897/2, 183.
 
 [^2]: For the 5 published see [tc XXX].
 
 [^3]: durham ref
 
-[^4]: bk refs
+[^4]: Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 15. Alice Thornton, *Book of Remembrances*, 22; see Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noel, Tiffany Ong, Priyal Shah. 'Digital Edition'. Alice Thornton's Books. Accessed 13 August 2023. 
+https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^5]: durham ref
 
