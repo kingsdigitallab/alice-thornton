@@ -30,7 +30,7 @@ If anyone comes across any Alice Thornton letters, do please let us know!
 
 [^2]: For the five published see C. E. Whiting. Ed. [*The Autobiographies and Letters of Thomas Comber*](https://archive.org/details/thomascomber157), Vol. 2. Durham: Surtees Society, 1947, 15, 51, 228, 270, 272. 
 
-[^3]: Christopher Wandesford, “Letter to Alice Thornton', 1639.” Durham Cathedral Libray (DCL), GB-33-CCOM 11/2. 
+[^3]: Christopher Wandesford, “Letter to Alice Thornton, 1639.” Durham Cathedral Libray (DCL), GB-33-CCOM 11/2. 
 
 [^4]: Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 15. Alice Thornton, *Book of Remembrances*, 22; see Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noel, Tiffany Ong, Priyal Shah. 'Digital Edition'. Alice Thornton's Books. Accessed 13 August 2023. 
 https://thornton.kdl.kcl.ac.uk/books/viewer/
@@ -41,7 +41,7 @@ https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^7]: mcall 1904, 93.
 
-[^8]: ref?; thank ann maria.
+[^8]: Alice Thornton, “Letters to her brother, Christopher Wandesford, 1677.” Ormonde Papers MS 2368, Volume 68, 171, Ormonde Papers MS 2369, Volume 69, 167, National Library of Ireland, Dublin. We are grateful to Ann-Maria Walsh for these references.
 
 [^9]: refs.
 
