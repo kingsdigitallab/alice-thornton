@@ -24,3 +24,22 @@ Of the other three Thornton letters we have located, two are to her cousin, Thom
 Besides the two Thornton letters edited by McCall, there are a number of others in the appendix to Jackson’s edition of her books. Of these, the originals of six letters to her husband, two to her son Robert, one to her mother-in-law Elizabeth Gates, and one to a Reverend Tillotson are currently unlocated.[9]
 
 If anyone comes across any further Alice Thornton letters, do please let us know!
+
+
+[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘These letters, Papers and transaction of this affaire Are in Bundles & preserved to make out these Procedings and in vindication of our Just & Lawdable Actions.’ Alice Thornton, *Book 3: The Second Book of My Widowed Condition* (hereafter *Book 3*), British Library MS Add 88897/2, 183.
+
+[^2]: For the 5 published see [tc XXX].
+
+[^3]: durham ref
+
+[^4]: bk refs
+
+[^5]: durham ref
+
+[^6]: nycro ref.
+
+[^7]: mcall 1904, 93.
+
+[^8]: ref?; thank ann maria.
+
+[^9]: Jackson 1875, 289, 291–296; 305–6, 308–11; 306–7. 
