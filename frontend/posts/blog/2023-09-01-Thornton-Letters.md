@@ -21,7 +21,7 @@ When Hardy Bertram McCall compiled his *Story of the Family of Wandesford of Kir
 
 Of the other three Thornton letters we have located, two are to her cousin, Thomas Osborne, Lord Danby; one in Cumbria Archives Centre dated 1673 and one in the British Library dated 1689.[9] The only one not to a relative – sent to Lady Henriette Maria Yarburgh in 1700 - is in the Borthwick Institute for Archives, York. It was located by Emma Marshall who has written about why Thornton might have sent a Lady she had never met [a medical recipe](https://recipes.hypotheses.org/17928). 
 
-Besides the two Thornton letters edited by McCall, there are a number of others in the appendix to Jackson’s edition of her books. Of these, the originals of six letters to her husband, two to her son Robert, one to her mother-in-law Elizabeth Gates, and one to a Reverend Tillotson are currently unlocated.[9]
+Besides the two Thornton letters edited by McCall, there are a number of others in the appendix to Jackson’s edition of her books. Of these, the originals of six letters to her husband, two to her son Robert, one to her mother-in-law Elizabeth Gates, and one to a Reverend Tillotson are currently unlocated.[10]
 
 If anyone comes across any Alice Thornton letters, do please let us know!
 
@@ -43,6 +43,6 @@ https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^8]: Alice Thornton, “Letters to her brother, Christopher Wandesford, 1677.” Ormonde Papers MS 2368, Volume 68, 171, Ormonde Papers MS 2369, Volume 69, 167, National Library of Ireland, Dublin. We are grateful to Ann-Maria Walsh for these references.
 
-[^9]: refs.
+[^9]: Alice Thornton, “Letter to Lord Treasurer [Lord Danby], Aug. 20 1673”. Cumbria Archives Centre, Carlisle, DLONS/L/1/1/23/54. Alice Thornton, “Letter to her cousin, Thomas Osborne, Lord Danby, Lord President of the Council, Jul. 28 1689”. British Library, Egerton MS 3337, f. 196. 
 
 [^10]: Charles Jackson. Ed. *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*. Durham: Surtees Society, 1875, 289, 291–296; 305–6, 308–11; 306–7. 
