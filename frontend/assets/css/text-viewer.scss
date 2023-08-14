@@ -13,6 +13,7 @@
 // if true tei <add> (.tei-add or place="above") is shown as interlinear text with arrow where author inserted it
 // if false it will be shown as superscript
 $render-add-with-arrow: false;
+$edition-line-height: 2.5em;
 
 // -------------------------------------------------
 // MIXINS
@@ -225,7 +226,7 @@ $render-add-with-arrow: false;
   span {
     // to allow interlinear span within it
     // position: relative;
-    line-height: 2.5em;
+    line-height: $edition-line-height;
   }
 
   span[data-tei-rend~="italic"] {
@@ -322,24 +323,43 @@ $render-add-with-arrow: false;
     display: block;
 
     .tei-item {
-      display: flex;
-
-      .tei-label {
-        margin-left: auto;
-        padding-left: 2em;
+      // doesn't work in FF
+      &:not(:has(.tei-list)) {
+        text-indent: -1em;
+        padding-left: 1em;
+      }
+      &:has(.tei-list) {
+        border: 1px solid black;
       }
 
-      &[rend="brace({)"] {
+      display: block;
+      // enough space for the label
+      padding-right: 3em;
+      .tei-item {
+        padding-right: 0;
+      }
+      position: relative;
+
+      .tei-label {
+        right: 0;
+        position: absolute;
+        top: 0;
       }
     }
   }
 
   &.view-semidip {
-    .tei-list .tei-item {
-
-      .tei-label {
-        align-self: center;
-      }
+    // .tei-list[data-tei-rend="braced(})"] + .tei-label {
+    span[data-tei-rend="braced(})"] + .tei-label {
+      // 2.5em is the line height
+      // we align the label with the middle item in the list
+      top: calc(50% - ($edition-line-height / 2));
+    }
+    .tei-seg[data-tei-rend="braced(})"] {
+      display: inline-block;
+      background: url(../img/icons/closing-curly-brace.svg) no-repeat right center;
+      background-size: 1.5em 100%;
+      padding-right: 1.5em;
     }
   }
 
