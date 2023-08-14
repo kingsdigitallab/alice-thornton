@@ -350,7 +350,8 @@ $edition-line-height: 2.5em;
 
   &.view-semidip {
     // .tei-list[data-tei-rend="braced(})"] + .tei-label {
-    span[data-tei-rend="braced(})"] + .tei-label {
+    span[data-tei-rend="braced(})"] + .tei-label,
+    .has-braced-seg > .tei-label {
       // 2.5em is the line height
       // we align the label with the middle item in the list
       top: calc(50% - ($edition-line-height / 2));
