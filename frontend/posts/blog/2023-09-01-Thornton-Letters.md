@@ -49,4 +49,4 @@ https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^9]: Alice Thornton, “Letter to Lord Treasurer [Lord Danby], Aug. 20 1673”. Cumbria Archives Centre, Carlisle, DLONS/L/1/1/23/54. Alice Thornton, “Letter to her cousin, Thomas Osborne, Lord Danby, Lord President of the Council, Jul. 28 1689”. British Library, Egerton MS 3337, f. 196. 
 
-[^10]: Charles Jackson. Ed. *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*. Durham: Surtees Society, 1875, 289, 291–296; 305–6, 308–11; 306–7. 
+[^10]: Charles Jackson. Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, 289, 291–296; 305–6, 308–11; 306–7. 
