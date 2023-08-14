@@ -1,11 +1,13 @@
 ---
-title: "Alice Thornton's Letters"
+title: "Finding Alice Thornton's Letters"
 feature: 
 status: draft
 authors:
   - cbeattie
 tags:
   - letters
+  - family
+
 ---
 The 1st September is [World Letter Writing Day](https://worldletterwritingday.com/). While Alice Thornton (1626-1707) is best known for writing four books about her life, we know that she frequently communicated by letter and we have been able to trace twenty-six of her holograph letters, with the latest written only a year before her death; a further twelve Thornton letters were edited in 1875 and 1904 but their current whereabouts is unknown. 
 
