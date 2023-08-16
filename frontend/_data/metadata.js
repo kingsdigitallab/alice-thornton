@@ -52,8 +52,7 @@ module.exports = function () {
   if (environment == "lcl") {
     ret["text_viewer"]["source"] = {
       // "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts-stg/dts.json":
-      //   "AT DTS (stg)",
-      // "http://localhost:3000": "AT DTS (local:3000)",
+      // "AT DTS (stg)",
       "http://localhost:3000": "AT DTS (local:3000)",
     };
   }

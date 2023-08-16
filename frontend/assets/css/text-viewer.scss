@@ -108,6 +108,40 @@ $edition-line-height: 2.5em;
     opacity: 100%;
   }
 
+  // Spaces, gaps & damages
+
+  // .tei-space[data-tei-unit="page"]:before {
+  //   content: "[Blank page]";
+  // }
+
+  &.view-modern, &.view-semidip {
+    // always retain line breaks for missing lines
+    br.missing-line {
+      display: inline;
+    }
+  }
+
+  span[data-tei-unit="char"] .missing-content-message {
+    display: none;
+  }
+
+  .missing-content-message, .missing-chars {
+    color: #777;
+    font-style: italic;
+    &:before {
+      content: '[';
+    }    
+    &:after {
+      content: ']';
+    }    
+  }
+
+  span[data-tei-unit="line"] .missing-content-message {
+    margin-left: 0.3em;
+  }
+
+  // -----
+
   &.view-modern {
     br {
       display: none;
@@ -180,10 +214,6 @@ $edition-line-height: 2.5em;
         content: ']';
       }
     }
-  }
-
-  .tei-space[data-tei-unit="page"]:before {
-    content: "[Blank page]";
   }
 
   .tei-type-pageNum {
@@ -301,18 +331,6 @@ $edition-line-height: 2.5em;
     }
   }
 
-  span[data-tei="space"][data-tei-unit="line"] {
-    // 1.5.last.horizontal-line
-    // TODO: use hr instead
-    display: block;
-    margin-top: 1em;
-    border-bottom: 1px solid black;
-  }
-
-  .tei-figure-wrapper {
-    font-size: 1.5rem;
-  }
-
   .hidden {
     display: none;
   }
@@ -407,6 +425,10 @@ $edition-line-height: 2.5em;
     color: inherit;
     text-decoration: underline dotted green;
     text-decoration-thickness: 2px;
+  }
+
+  .tei-figure-wrapper {
+    font-size: 1.5rem;
   }
 
   figure {
