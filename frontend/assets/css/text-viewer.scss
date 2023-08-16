@@ -114,7 +114,8 @@ $edition-line-height: 2.5em;
   //   content: "[Blank page]";
   // }
 
-  &.view-modern, &.view-semidip {
+  &.view-modern,
+  &.view-semidip {
     // always retain line breaks for missing lines
     br.missing-line {
       display: inline;
@@ -125,15 +126,16 @@ $edition-line-height: 2.5em;
     display: none;
   }
 
-  .missing-content-message, .missing-chars {
+  .missing-content-message,
+  .missing-chars {
     color: #777;
     font-style: italic;
     &:before {
-      content: '[';
-    }    
+      content: "[";
+    }
     &:after {
-      content: ']';
-    }    
+      content: "]";
+    }
   }
 
   span[data-tei-unit="line"] .missing-content-message {
@@ -169,11 +171,11 @@ $edition-line-height: 2.5em;
 
     .tei-measure.tei-type-currency {
       &:before {
-        content: '£'
+        content: "£";
       }
 
       .tei-am {
-        display: none
+        display: none;
       }
     }
   }
@@ -208,10 +210,10 @@ $edition-line-height: 2.5em;
     .tei-supplied[data-tei-reason="unclear"],
     .tei-supplied[data-tei-reason="omitted"] {
       &:before {
-        content: '[';
+        content: "[";
       }
       &:after {
-        content: ']';
+        content: "]";
       }
     }
   }
@@ -376,7 +378,8 @@ $edition-line-height: 2.5em;
     }
     .tei-seg[data-tei-rend="braced(})"] {
       display: inline-block;
-      background: url(../img/icons/closing-curly-brace.svg) no-repeat right center;
+      background: url(../img/icons/closing-curly-brace.svg) no-repeat right
+        center;
       background-size: 1.5em 100%;
       padding-right: 1.5em;
     }
