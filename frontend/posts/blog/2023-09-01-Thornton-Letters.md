@@ -35,19 +35,19 @@ If anyone comes across any Alice Thornton letters, do please let us know!
 
 [^2]: For the five published see C. E. Whiting. Ed. [*The Autobiographies and Letters of Thomas Comber*](https://archive.org/details/thomascomber157), Vol. 2. Durham: Surtees Society, 1947, 15, 51, 228, 270, 272. 
 
-[^3]: Christopher Wandesford, “Letter to Alice Thornton, 1639.” Durham Cathedral Libray (DCL), GB-33-CCOM 11/2. 
+[^3]: Christopher Wandesford, 'Letter to Alice Thornton, 1639'. Durham Cathedral Libray (DCL), GB-33-CCOM 11/2. 
 
 [^4]: Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 15. Alice Thornton, *Book of Remembrances*, 22; see Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noel, Tiffany Ong, Priyal Shah. 'Digital Edition'. Alice Thornton's Books. Accessed 13 August 2023. 
 https://thornton.kdl.kcl.ac.uk/books/viewer/
 
-[^5]: Alice Thornton, “Letter to Dean Comber, Apr. 24; addendum, May 3.” DCL, GB-0033-CCOM 57/7. 
+[^5]: Alice Thornton, 'Letter to Dean Comber, Apr. 24; addendum, May 3'. DCL, GB-0033-CCOM 57/7. 
 
-[^6]: Alice Thornton, “Letter to Abstrupus Danby, 25 February 1705/6.” North Yorkshire County Record Office, ZS - Swinton and Middleham Estate Records, MIC 1274/6726. 
+[^6]: Alice Thornton, 'Letter to Abstrupus Danby, 25 February 1705/6'. North Yorkshire County Record Office, ZS - Swinton and Middleham Estate Records, MIC 1274/6726. 
 
 [^7]: Bertram Hardy McCall, [*Story of the Family of Wandesforde of Kirklington and Castlecomer*](https://archive.org/details/storyoffamilyofw00mcca). London: 1904, 93.
 
-[^8]: Alice Thornton, “Letters to her brother, Christopher Wandesford, 1677.” Ormonde Papers MS 2368, Volume 68, 171, Ormonde Papers MS 2369, Volume 69, 167, National Library of Ireland, Dublin. We are grateful to Ann-Maria Walsh for these two references.
+[^8]: Alice Thornton, 'Letters to her brother, Christopher Wandesford, 1677'. Ormonde Papers MS 2368, Volume 68, 171, Ormonde Papers MS 2369, Volume 69, 167, National Library of Ireland, Dublin. We are grateful to Ann-Maria Walsh for these two references.
 
-[^9]: Alice Thornton, “Letter to Lord Treasurer [Lord Danby], Aug. 20 1673”. Cumbria Archives Centre, Carlisle, DLONS/L/1/1/23/54. Alice Thornton, “Letter to her cousin, Thomas Osborne, Lord Danby, Lord President of the Council, Jul. 28 1689”. British Library, Egerton MS 3337, f. 196. 
+[^9]: Alice Thornton, 'Letter to Lord Treasurer [Lord Danby], Aug. 20 1673'. Cumbria Archives Centre, Carlisle, DLONS/L/1/1/23/54. Alice Thornton, 'Letter to her cousin, Thomas Osborne, Lord Danby, Lord President of the Council, Jul. 28 1689'. British Library, Egerton MS 3337, f. 196. 
 
 [^10]: Charles Jackson. Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, 289, 291–296; 305–6, 308–11; 306–7. 
