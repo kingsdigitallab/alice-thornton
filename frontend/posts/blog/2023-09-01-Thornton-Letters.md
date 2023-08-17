@@ -20,9 +20,9 @@ Durham Cathedral Library now have six letters written by Thornton (and four writ
 
 ![The bottom half of the letter from Alice Thornton to Thomas Comber, including her signature]({{"/assets/img/posts/Thornton_to_Comber_1699_recto.jpg" | url}} "Alice Thornton to Dean Comber, Durham Cathedral Library. Cordelia Beattie"){.media-right}
 
-##
+The latest letter in Durham Cathedral’s collection was written by Thornton to Thomas Comber on 24 April 1699 with an addendum of 3 May 1699; Comber died later that year on 26 November. According to this letter, Comber had sent her a ‘kind letter of advice with a copy of one in answer to Sir Abstrupus Danby’s scurrilous letter to me… I have writ out that copy your kindness writ … and made some additions’.[^5] Thornton goes on to note that she is expecting a letter from Comber with a draft reply she could use to answer her daughter Kate. 
 
-The latest letter in Durham Cathedral’s collection was written by Thornton to Thomas Comber on 24 April 1699 with an addendum of 3 May 1699; Comber died later that year on 26 November. According to this letter, Comber had sent her a ‘kind letter of advice with a copy of one in answer to Sir Abstrupus Danby’s scurrilous letter to me… I have writ out that copy your kindness writ … and made some additions’.[^5] Thornton goes on to note that she is expecting a letter from Comber with a draft reply she could use to answer her daughter Kate. It is unclear how long Comber had been helping Thornton draft her letters. This letter from 1699 is one of the manuscripts that will be on [display in the Refectory Library on 19 and 21 October 2023](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173646759/events/428606039?_gl=1).
+It is unclear how long Comber had been helping Thornton draft her letters. This letter from 1699 is one of the manuscripts that will be on [display in the Refectory Library on 19 and 21 October 2023](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173646759/events/428606039?_gl=1).
 
 ![A desk in an old library with multiple reading stands]({{"/assets/img/posts/old_refectory_library_durham.jpg" | url}} "The Old Refectory Library, Durham Cathedral")
 
