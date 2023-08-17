@@ -20,9 +20,7 @@ Durham Cathedral Library now have six letters written by Thornton (and four writ
 
 The latest letter in Durham Cathedral’s collection was written by Thornton to Thomas Comber on 24 April 1699 with an addendum of 3 May 1699; Comber died later that year on 26 November. According to this letter, Comber had sent her a ‘kind letter of advice with a copy of one in answer to Sir Abstrupus Danby’s scurrilous letter to me… I have writ out that copy your kindness writ … and made some additions’.[^5] Thornton goes on to note that she is expecting a letter from Comber with a draft reply she could use to answer her daughter Kate. It is unclear how long Comber had been helping Thornton draft her letters. This letter from 1699 is one of the manuscripts that will be on [display in the Refectory Library on 19 and 21 October 2023](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173646759/events/428606039?_gl=1).
 
-
 ![The bottom half of the letter from Alice Thornton to Thomas Comber, including her signature]({{"/assets/img/posts/Thornton_to_Comber_1699_recto.jpg" | url}} "Alice Thornton to Dean Comber, Durham Cathedral Library. Cordelia Beattie"){.media-right}
-
 
 The largest collection of Thornton letters is at North Yorkshire County Record Office (NYCRO). They have fifteen: four sent to her nephew Thomas Danby in the period c.1654–1659 and eleven sent to her great-nephew Abstrupus Danby, of the ‘scurrilous letter’, in the period 1683–1706. In the final letter, dated 25 February 1706, Thornton seems on better terms with her great-nephew and she informed him that she had, ‘in answer to your desire’, written to the Governor of Virginia to aid Danby and his family keep the land in Virginia that his late grandfather, and Thornton’s brother-in-law, had bought.[^6] 
 
@@ -32,7 +30,7 @@ In 1964 the National Library of Ireland (NLI) [purchased the pre-twentieth centu
 
 Of the other three Thornton letters we have located, two are to her cousin, Thomas Osborne, Lord Danby; one in Cumbria Archives Centre dated 1673 and one in the British Library dated 1689.[^9] The only one not to a relative – sent to Lady Henrietta Maria Yarburgh in 1700 - is in the Borthwick Institute for Archives, York. It was found by Emma Marshall who has written about why Thornton might have sent a Lady she had never met [a medical recipe](https://recipes.hypotheses.org/17928), although unfortunately the recipe is no longer with the letter.[^10]
 
-![The back half of Alice Thornton's letter to Lady Yarburgh, showing her signature, and some details of the now-lost recipe as a postscript]({{"/assets/img/posts/Thornton_to_Yarburgh.jpegg" | url}} "Alice Thornton to Lady Yarburgh, 1700, Borthwick Institute for Archives, York. Jo Edge."){.media-left}
+![The back half of Alice Thornton's letter to Lady Yarburgh, showing her signature, and some details of the now-lost recipe as a postscript]({{"/assets/img/posts/Thornton_to_Yarburgh.jpeg" | url}} "Alice Thornton to Lady Yarburgh, 1700, Borthwick Institute for Archives, York. Jo Edge."){.media-left}
 
 Besides the two Thornton letters edited by McCall, there are a number of others in the appendix to Jackson’s edition of her books. Of these, the originals of six letters to her husband, two to her son Robert, one to her mother-in-law Elizabeth Gates, and one to a Reverend Tillotson are currently unlocated.[^11]
 
