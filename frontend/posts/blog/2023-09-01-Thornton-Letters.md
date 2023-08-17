@@ -1,6 +1,6 @@
 ---
 title: "Finding Alice Thornton's Letters"
-feature: 
+feature: /assets/img/posts/Borch_A_Young_Lady_Writing_at_her_Desk.jpg
 status: draft
 authors:
   - cbeattie
@@ -16,6 +16,8 @@ In *Book 3: The Second Book of My Widowed Condition*, Thornton frequently lists 
 
 Durham Cathedral Library now have six letters written by Thornton (and four written to her), from the two bequests received of [Dean Comber papers](https://reed.dur.ac.uk/xtf/view?docId=ark/32150_s2hm50tr76x.xml) in 1969 and 2019. The six Thornton letters span the period 1668–99 and were sent to her son Robert, her husband William, her son-in-law Thomas Comber, and his mother Mary. The four written to her span from 1639-92, with the earliest one from her father Christopher Wandesford, two from Thomas Comber and one from his mother. The letter from her father is labelled by Thornton, ‘My honoured dear father’s 3rd letter to me into England at the Bath’.[^3] We know from Thornton’s books, that Alice and her mother had travelled from Dublin to Bristol in 1639 to take the waters to help with her mother’s kidney stone.[^4] In the letter, her father twice addressed her by the nickname ‘Buss’. 
 
+![The bottom half of the letter from Christopher Wandesford to his daughter Alice, dated 21 June 1639, including his signature]({{"/assets/img/posts/Wandesford_to_Alice_June_1639.jpg" | url}} "Christopher Wandesford to Alice Thornton, 1639, Durham Cathedral Library. Cordelia Beattie"){.media-left}
+
 The latest letter in Durham Cathedral’s collection was written by Thornton to Thomas Comber on 24 April 1699 with an addendum of 3 May 1699; Comber died later that year on 26 November. According to this letter, Comber had sent her a ‘kind letter of advice with a copy of one in answer to Sir Abstrupus Danby’s scurrilous letter to me… I have writ out that copy your kindness writ … and made some additions’.[^5] Thornton goes on to note that she is expecting a letter from Comber with a draft reply she could use to answer her daughter Kate. It is unclear how long Comber had been helping Thornton draft her letters. This letter from 1699 is one of the manuscripts that will be on [display in the Refectory Library on 19 and 21 October 2023](https://durhamcathedral.ticketsolve.com/ticketbooth/shows/1173646759/events/428606039?_gl=1).
 
 The largest collection of Thornton letters is at North Yorkshire County Record Office (NYCRO). They have fifteen: four sent to her nephew Thomas Danby in the period c.1654–1659 and eleven sent to her great-nephew Abstrupus Danby, of the ‘scurrilous letter’, in the period 1683–1706. In the final letter, dated 25 February 1706, Thornton seems on better terms with her great-nephew and she informed him that she had, ‘in answer to your desire’, written to the Governor of Virginia to aid Danby and his family keep the land in Virginia that his late grandfather, and Thornton’s brother-in-law, had bought.[^6] 
@@ -24,9 +26,11 @@ When Hardy Bertram McCall compiled his *Story of the Family of Wandesford of Kir
 
 In 1964 the National Library of Ireland (NLI) [purchased the pre-twentieth century Castlecomer papers](https://www.nli.ie/sites/default/files/2022-12/prior-wandesforde.pdf). Then, in 2000, the English material was [lent indefinitely to the NYCRO](https://archivesunlocked.northyorks.gov.uk/CalmView/Record.aspx?src=CalmView.Catalog&id=ZKW&pos=16). However, the Thornton letters to the Danby men came from the [Swinton and Middleham Estate Records](https://archivesunlocked.northyorks.gov.uk/CalmView/Record.aspx?src=CalmView.Catalog&id=ZS&pos=1) (Swinton Park being a Danby family seat from 1695), not those lent from the NLI. This suggests that some Thornton letters have gone astray in the twentieth century. The NLI does have at least two letters from Thornton to her brother Christopher (from 1677), but these are part of the Ormonde Papers.[^8]
 
-Of the other three Thornton letters we have located, two are to her cousin, Thomas Osborne, Lord Danby; one in Cumbria Archives Centre dated 1673 and one in the British Library dated 1689.[^9] The only one not to a relative – sent to Lady Henriette Maria Yarburgh in 1700 - is in the Borthwick Institute for Archives, York. It was found by Emma Marshall who has written about why Thornton might have sent a Lady she had never met [a medical recipe](https://recipes.hypotheses.org/17928), although unfortunately the recipe is no longer with the letter. 
+Of the other three Thornton letters we have located, two are to her cousin, Thomas Osborne, Lord Danby; one in Cumbria Archives Centre dated 1673 and one in the British Library dated 1689.[^9] The only one not to a relative – sent to Lady Henrietta Maria Yarburgh in 1700 - is in the Borthwick Institute for Archives, York. It was found by Emma Marshall who has written about why Thornton might have sent a Lady she had never met [a medical recipe](https://recipes.hypotheses.org/17928), although unfortunately the recipe is no longer with the letter.[^10]
 
-Besides the two Thornton letters edited by McCall, there are a number of others in the appendix to Jackson’s edition of her books. Of these, the originals of six letters to her husband, two to her son Robert, one to her mother-in-law Elizabeth Gates, and one to a Reverend Tillotson are currently unlocated.[^10]
+![The back half of Alice Thornton's letter to Lady Yarburgh, showing her signature, and some details of the now-lost recipe as a postscript]({{"/assets/img/posts/Thornton_to_Yarburgh.jpegg" | url}} "Alice Thornton to Lady Yarburgh, 1700, Borthwick Institute for Archives, York. Jo Edge."){.media-right}
+
+Besides the two Thornton letters edited by McCall, there are a number of others in the appendix to Jackson’s edition of her books. Of these, the originals of six letters to her husband, two to her son Robert, one to her mother-in-law Elizabeth Gates, and one to a Reverend Tillotson are currently unlocated.[^11]
 
 If anyone comes across any Alice Thornton letters, do please let us know!
 
@@ -50,4 +54,6 @@ https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^9]: Alice Thornton, 'Letter to Lord Treasurer [Lord Danby], Aug. 20 1673'. Cumbria Archives Centre, Carlisle, DLONS/L/1/1/23/54. Alice Thornton, 'Letter to her cousin, Thomas Osborne, Lord Danby, Lord President of the Council, Jul. 28 1689'. British Library, Egerton MS 3337, f. 196. 
 
-[^10]: Charles Jackson. Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, 289, 291–296; 305–6, 308–11; 306–7. 
+[^10]: Alice Thornton, 'Letter to Lady Yarburgh, Sep. 4 1700'. Borthwick Institute for Archives, University of York, YM/CP/1, 2/5, 15.
+
+[^11]: Charles Jackson. Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, 289, 291–296; 305–6, 308–11; 306–7. 
