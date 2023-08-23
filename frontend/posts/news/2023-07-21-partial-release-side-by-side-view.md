@@ -11,7 +11,7 @@ tags:
 
 In collaboration with our partners at King’s Digital Lab, we are delighted to announce that the first 22 pages of our text-encoded files of Alice Thornton’s Book of Remembrances (modernised and semi-diplomatic versions) can now be viewed  [side-by-side](https://thornton.kdl.kcl.ac.uk/books/viewer/) so they can be compared.
 
-![A side-by-side view of the title page of Thornton's Book of Remembrances, in modernised and semidiplomatic]( {{ "/assets/img/posts/partial_release_side_by_side.jpg" | url }} "Book of Remembrances, 1, side-by-side view.")
+![A side-by-side view of the title page of Thornton's Book of Remembrances, in modernised and semidiplomatic]( {{"/assets/img/posts/partial_release_side_by_side.jpg" | url }} "Book of Remembrances, 1, side-by-side view.")
 
 Pressing the 'clone' button at the top right (two squares) brings up the other panel and you can use the drop down list (top left) to toggle between the modernised and semi-diplomatic views so you can choose which one you would like on the left and which one on the right of the screen. Unfortunately, this function is not available on mobile phones.
 
