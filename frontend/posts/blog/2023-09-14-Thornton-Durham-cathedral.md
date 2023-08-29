@@ -1,5 +1,5 @@
 ---
-title: "What connects Alice Thornton to Durham Cathedral?"
+title: What connects Alice Thornton to Durham Cathedral?
 feature: 
 status: draft
 authors:
