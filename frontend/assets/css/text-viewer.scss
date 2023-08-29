@@ -14,6 +14,7 @@
 // if false it will be shown as superscript
 $render-add-with-arrow: false;
 $edition-line-height: 2.5em;
+$render-sic: false;
 
 // -------------------------------------------------
 // MIXINS
@@ -199,8 +200,10 @@ $edition-line-height: 2.5em;
       display: none;
     }
 
-    .tei-sic {
-      text-decoration: underline wavy orange;
+    @if ($render-sic) {
+      .tei-sic {
+        text-decoration: underline wavy orange;
+      }
     }
 
     .tei-supplied[data-tei-reason="mod"] {
