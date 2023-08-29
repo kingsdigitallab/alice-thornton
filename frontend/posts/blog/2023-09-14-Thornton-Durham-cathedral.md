@@ -1,5 +1,5 @@
 ---
-title: What connects Alice Thornton to Durham Cathedral?
+title: "What connects Alice Thornton to Durham Cathedral?"
 feature: 
 status: draft
 authors:
@@ -10,7 +10,7 @@ tags:
   
 ---
 
-As we gear up for [four days/nights of events](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/) at Durham Cathedral, our project partner, here are 5 links between Alice Thornton and Durham Cathedral:
+As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/) at Durham Cathedral, our project partner, here are 5 links between Alice Thornton and Durham Cathedral:
 
 1.	Her daughter, also called Alice, married Thomas Comber who became Dean of Durham Cathedral in 1692. 
 
