@@ -102,8 +102,11 @@ $render-sic: false;
 // and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
   margin-left: 5em;
+  // enough room for the absolute positioned page number
+  // at the bottom of the page
+  padding-bottom: 4em;
   position: relative;
-
+  
   opacity: 30%;
 
   &.loaded {
@@ -309,6 +312,13 @@ $render-sic: false;
     }
   }
 
+  .tei-fw.tei-type-pageNum {
+    position: absolute;
+    bottom: 0;
+  }
+
+  // selector might be too broad, 
+  // <fw> is used for various things
   .tei-fw {
     display: block;
 
