@@ -38,7 +38,7 @@ Although we are not digitising the manuscripts, we will provide some sample imag
 
 You can now access our [partial release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of 22 pages from one book, in both semi-diplomatic and modernised versions. A search facility will be a later feature.
 
-Please email us - alicethorntonsbooks@gmail.com - with your thoughts.
+Please email us - alicethorntonsbooks at gmail dot com - with your thoughts.
 
 ## Background
 
