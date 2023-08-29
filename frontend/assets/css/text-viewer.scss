@@ -14,11 +14,13 @@
 // if false it will be shown as superscript
 $render-add-with-arrow: false;
 $edition-line-height: 2.5em;
+$render-sic: false;
 
 // -------------------------------------------------
 // MIXINS
 
 @mixin popover {
+  font-family: "Noto", sans-serif;
   border: 3px solid grey;
   box-shadow: #888 5px 5px 15px 0px;
   z-index: 10;
@@ -100,8 +102,11 @@ $edition-line-height: 2.5em;
 // and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
   margin-left: 5em;
+  // enough room for the absolute positioned page number
+  // at the bottom of the page
+  padding-bottom: 4em;
   position: relative;
-
+  
   opacity: 30%;
 
   &.loaded {
@@ -199,8 +204,10 @@ $edition-line-height: 2.5em;
       display: none;
     }
 
-    .tei-sic {
-      text-decoration: underline wavy orange;
+    @if ($render-sic) {
+      .tei-sic {
+        text-decoration: underline wavy orange;
+      }
     }
 
     .tei-supplied[data-tei-reason="mod"] {
@@ -305,6 +312,13 @@ $edition-line-height: 2.5em;
     }
   }
 
+  .tei-fw.tei-type-pageNum {
+    position: absolute;
+    bottom: 0;
+  }
+
+  // selector might be too broad, 
+  // <fw> is used for various things
   .tei-fw {
     display: block;
 
@@ -401,8 +415,8 @@ $edition-line-height: 2.5em;
     text-align: center;
 
     &:before {
-      background: none;
-      display: hidden;
+      // removes the decoration applied to the h2 on the rest of the site
+      display: none;
     }
   }
   h3,
