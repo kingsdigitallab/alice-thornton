@@ -401,8 +401,8 @@ $edition-line-height: 2.5em;
     text-align: center;
 
     &:before {
-      background: none;
-      display: hidden;
+      // removes the decoration applied to the h2 on the rest of the site
+      display: none;
     }
   }
   h3,
