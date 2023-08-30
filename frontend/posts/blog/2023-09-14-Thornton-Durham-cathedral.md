@@ -33,8 +33,7 @@ As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.u
 
 Still need to book tickets for [our 18-21 October events at Durham Cathedral](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/)? Don’t delay as events have strict limits on numbers, especially if you would like to view the manuscripts. 
 
-
-Further Reading:
+## Further Reading
 
 Thomas Comber, ‘The History of My Life’, in [*The Autobiographies and Letters of Thomas Comber*](https://archive.org/details/thomascomber156/), Vol. 1, ed. C. E. Whiting, Surtees Society, 156 (Durham: Andrews & Co. 1946), 1-35.
 
