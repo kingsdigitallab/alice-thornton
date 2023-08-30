@@ -15,7 +15,7 @@ As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.u
 
 ## 1.	Her daughter, also called Alice, married Thomas Comber who became Dean of Durham Cathedral in 1692. 
 
-![Photo of Durham Cathedral western tower and cloisters with blue sky]({{"/assets/img/posts/Cathedral_towers_geograph_JohnIllingworth_228813.jpg" | url}} "Durham Cathedral western tower and cloisters: <br>John Illingworth, CC-BY-SA"){.media-left}
+![Photo of Durham Cathedral western tower and cloisters with blue sky]({{"/assets/img/posts/Cathedral_towers_geograph_JohnIllingworth_228813.jpg" | url}} "Durham Cathedral western tower and cloisters: John Illingworth, CC-BY-SA"){.media-left}
 
 ## 2.	Alice Thornton’s son-in-law, Comber, spent £400 on the Deanery at Durham Cathedral, making it suitable accommodation for his wife and children; this would be [about £48,000 in today's currency](https://www.nationalarchives.gov.uk/currency/). When her son, Robert, got sick in 1692, he stayed at the Deanery. 
 
