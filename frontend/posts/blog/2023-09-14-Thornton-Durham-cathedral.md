@@ -19,7 +19,7 @@ Her daughter, also called Alice, married Thomas Comber who became Dean of Durham
 
 <p>&nbsp;</p>
 
-![Photo of Durham Cathedral western tower and cloisters with blue sky]({{"/assets/img/posts/Cathedral_towers_geograph_JohnIllingworth_228813.jpg" | url}} "Durham Cathedral western tower and cloisters: John Illingworth, CC-BY-SA"){.media-left}
+![Photo of Durham Deanery in the sunshine]({{"/assets/img/posts/The_Deanery_Durham.jpg" | url}} "Durham Cathedral Deanery. Public domain, via Wikimedia Commons."){.media-left}
 
 ## 2.	
 
@@ -48,6 +48,8 @@ Alice Thornton’s *Book 2: The First Book of My Widowed Condition* is in the Du
 ## 5.	
 
 Alice Thornton’s *Book of Remembrances* is also now in the Durham Cathedral library collection. In 2019, Patrick Comber gave his collection of Comber family papers to the Cathedral, including the small book which Beattie had identified as Thornton’s *Book of Remembrances* [in 2018](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/).
+
+<p>&nbsp;</p>
 
 Still need to book tickets for [our 18-21 October events at Durham Cathedral](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/)? Don’t delay as events have strict limits on numbers, especially if you would like to view the manuscripts. 
 
