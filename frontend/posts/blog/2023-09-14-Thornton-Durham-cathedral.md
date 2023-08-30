@@ -25,6 +25,8 @@ Her daughter, also called Alice, married Thomas Comber who became Dean of Durham
 
 Alice Thornton’s son-in-law, Comber, spent £400 on the Deanery at Durham Cathedral, making it suitable accommodation for his wife and children; this would be [about £48,000 in today's currency](https://www.nationalarchives.gov.uk/currency/). When her son, Robert, got sick in 1692, he stayed at the Deanery. 
 
+<p>&nbsp;</p>
+
 ![A marble memorial plaque on a cathedral wall]({{"/assets/img/posts/Durham_memorial_to_Robert_Thornton.JPG" | url}} "Memorial to Robert Thornton at Durham Cathedral. Cordelia Beattie."){.media-right}
 
 ## 3.	
