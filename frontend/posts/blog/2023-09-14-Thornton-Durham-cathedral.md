@@ -21,7 +21,7 @@ As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.u
 
 3.	Robert Thornton, Alice’s only adult son and heir to the Thornton estate, died aged 29 on 5 June 1692 and is buried in the Chapel of the 9 Altars, Durham Cathedral. His sister, Alice Comber, commissioned a marble memorial tablet. 
 
-![A marble memorial plaque on a cathedral wall]({{"/assets/img/posts/Durham_memorial_to_Robert_Thornton.jpg" | url}} "Memorial to Robert Thornton at Durham Cathedral. Cordelia Beattie.")
+![A marble memorial plaque on a cathedral wall]({{"/assets/img/posts/Durham_memorial_to_Robert_Thornton.JPG" | url}} "Memorial to Robert Thornton at Durham Cathedral. Cordelia Beattie.")
 
 4.	Alice Thornton’s *Book 2: The First Book of My Widowed Condition* is in the Durham Cathedral library collection. In 1969 A.G. Hickson gave some family papers to the Cathedral library, initially catalogued as Dean Comber’s papers with a reference to a journal of his wife, Alice. [In 2019 Cordelia Beattie identified this](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) as Thornton’s *Book 2*.
 
