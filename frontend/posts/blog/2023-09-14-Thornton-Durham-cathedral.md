@@ -17,6 +17,8 @@ As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.u
 
 Her daughter, also called Alice, married Thomas Comber who became Dean of Durham Cathedral in 1692. 
 
+<p>&nbsp;</p>
+
 ![Photo of Durham Cathedral western tower and cloisters with blue sky]({{"/assets/img/posts/Cathedral_towers_geograph_JohnIllingworth_228813.jpg" | url}} "Durham Cathedral western tower and cloisters: John Illingworth, CC-BY-SA"){.media-left}
 
 ## 2.	
@@ -29,11 +31,15 @@ Alice Thornton’s son-in-law, Comber, spent £400 on the Deanery at Durham Cath
 
 Robert Thornton, Alice’s only adult son and heir to the Thornton estate, died aged 29 on 5 June 1692 and is buried in the Chapel of the 9 Altars, Durham Cathedral. His sister, Alice Comber, commissioned a marble memorial tablet. 
 
+<p>&nbsp;</p>
+
 ![A woman with shoulder length brown hair looks at an old book on a book stand in the library]({{"/assets/img/posts/cordelia_book_durham.jpg" | url }} "Cordelia Beattie with one of Thornton's Books, Durham Cathedral Library."){.media-left}
 
 ## 4.	
 
 Alice Thornton’s *Book 2: The First Book of My Widowed Condition* is in the Durham Cathedral library collection. In 1969 A.G. Hickson gave some family papers to the Cathedral library, initially catalogued as Dean Comber’s papers with a reference to a journal of his wife, Alice. [In 2019 Cordelia Beattie identified this](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) as Thornton’s *Book 2*.
+
+<p>&nbsp;</p>
 
 ![Photo of small book with damaged front cover]({{"/assets/img/posts/book-remembrances-outside-first-sighting.jpg" | url}} "Book of Remembrances: Derek Beattie"){.media-right}
 
