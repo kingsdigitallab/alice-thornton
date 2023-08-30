@@ -1,6 +1,6 @@
 ---
 title: "What connects Alice Thornton to Durham Cathedral?"
-feature: 
+feature: /assets/img/posts/old_refectory_library_durham.jpg
 status: draft
 authors:
   - cbeattie
