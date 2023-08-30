@@ -13,7 +13,7 @@ As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.u
 
 1:	her daughter, also called Alice, married Thomas Comber who became Dean of Durham Cathedral in 1692. 
 
-2:	Alice Thornton’s son-in-law, Comber, spent £400 on the Deanery at Durham Cathedral, making it suitable accommodation for his wife and children; this would be [about £48,000 in today's currency](https://www.nationalarchives.gov.uk/currency/). When her son, Robert, got sick in 1692, he stayed at the Deanery. 
+2:	Alice Thornton’s son-in-law, Comber, spent £400 on the Deanery at Durham Cathedral, making it suitable accommodation for his wife and children; this would be about £48,000 in [today's currency](https://www.nationalarchives.gov.uk/currency/). When her son, Robert, got sick in 1692, he stayed at the Deanery. 
 
 3:	Robert Thornton, Alice’s only adult son and heir to the Thornton estate, died aged 29 on 5 June 1692 and is buried in the Chapel of the 9 Altars, Durham Cathedral. His sister, Alice Comber, commissioned a marble memorial tablet. 
 
@@ -26,7 +26,7 @@ Still need to book tickets for [our 18-21 October events at Durham Cathedral](ht
 
 Further Reading:
 
-Thomas Comber, ‘The History of My Life’, in [*The Autobiographies and Letters of Thomas Comber*](https://archive.org/details/thomascomber156/), Vol. 1, ed. C. E. Whiting, Surtees Society, 156 (Durham: Andrews & Co. 1946), 1-35.
+Thomas Comber, ‘The History of My Life’, in ['The Autobiographies and Letters of Thomas Comber'](https://archive.org/details/thomascomber156/), Vol. 1, ed. C. E. Whiting, Surtees Society, 156 (Durham: Andrews & Co. 1946), 1-35.
 
 Cordelia Beattie, ‘The Discovery of Two Missing Alice Thornton Manuscripts’, *Notes and Queries* 66, no. 4 (2019): 547–53.
 
