@@ -9,13 +9,13 @@ tags:
   - manuscripts
   
 ---
-As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/) at Durham Cathedral, our project partner, here are 5 links between Alice Thornton and Durham Cathedral:
+As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/) at Durham Cathedral, our project partner, here are five links between Alice Thornton and Durham Cathedral to wet your interest:
 
 ![Portrait of Thomas Comber hanging on a wall]({{"/assets/img/posts/thomas_comber.jpg" | url}} "Thomas Comber on the wall at Stonegrave Minster. Cordelia Beattie"){.media-right}
 
 ## 1.	
 
-Her daughter, also called Alice, married Thomas Comber who became Dean of Durham Cathedral in 1692. 
+Alice Thornton's oldest daughter, also called Alice, married Thomas Comber who became Dean of Durham Cathedral in 1692. He remained Dean until his death in 1699.
 
 <p>&nbsp;</p>
 
@@ -23,7 +23,7 @@ Her daughter, also called Alice, married Thomas Comber who became Dean of Durham
 
 ## 2.	
 
-Alice Thornton’s son-in-law, Comber, spent £400 on the Deanery at Durham Cathedral, making it suitable accommodation for his wife and children; this would be [about £48,000 in today's currency](https://www.nationalarchives.gov.uk/currency/). When her son, Robert, got sick in 1692, he stayed at the Deanery. 
+Alice Thornton’s son-in-law, Comber, spent £400 on the Deanery at Durham Cathedral, making it suitable accommodation for his wife and children; this would be [about £48,000 in today's currency](https://www.nationalarchives.gov.uk/currency/). When Thornton's son, Robert, got sick in 1692, he stayed at the Deanery. 
 
 <p>&nbsp;</p>
 
@@ -35,7 +35,7 @@ Robert Thornton, Alice’s only adult son and heir to the Thornton estate, died 
 
 <p>&nbsp;</p>
 
-![A woman with shoulder length brown hair looks at an old book on a book stand in the library]({{"/assets/img/posts/cordelia_book_durham.jpg" | url }} "Cordelia Beattie with one of Thornton's Books, Durham Cathedral Library."){.media-left}
+![A woman with shoulder length brown hair looks at an old book on a book cushion in a library]({{"/assets/img/posts/cordelia_book_durham.jpg" | url }} "Cordelia Beattie with Thornton's *Book 2*, Durham Cathedral Library."){.media-left}
 
 ## 4.	
 
