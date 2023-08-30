@@ -15,7 +15,7 @@ As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.u
 
 ![Portrait of Thomas Comber hanging on a wall]({{"/assets/img/posts/thomas_comber.jpg" | url}} "Thomas Comber on the wall at Stonegrave Minster. Cordelia Beattie")
 
-2.	Alice Thornton’s son-in-law, Comber, spent £400 on the Deanery at Durham Cathedral, making it suitable accommodation for his wife and children; this would be about £48,000 in [today's currency](https://www.nationalarchives.gov.uk/currency/). When her son, Robert, got sick in 1692, he stayed at the Deanery. 
+2.	Alice Thornton’s son-in-law, Comber, spent £400 on the Deanery at Durham Cathedral, making it suitable accommodation for his wife and children; this would be [about £48,000 in today's currency](https://www.nationalarchives.gov.uk/currency/). When her son, Robert, got sick in 1692, he stayed at the Deanery. 
 
 ![Photo of Durham Cathedral western tower and cloisters with blue sky]({{"/assets/img/posts/Cathedral_towers_geograph_JohnIllingworth_228813.jpg" | url}} "Durham Cathedral western tower and cloisters: <br>John Illingworth, CC-BY-SA")
 
