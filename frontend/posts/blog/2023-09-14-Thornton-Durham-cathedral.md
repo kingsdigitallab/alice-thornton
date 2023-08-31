@@ -19,7 +19,7 @@ Alice Thornton's oldest daughter, also called Alice, married Thomas Comber who b
 
 <p>&nbsp;</p>
 
-![Portrait of Thomas Comber hanging on a wall]({{"/assets/img/posts/thomas_comber.jpg" | url}} "Thomas Comber on the wall at Stonegrave Minster: Cordelia Beattie"){.media-right}
+![Portrait of Thomas Comber hanging on a wall]({{"/assets/img/posts/thomas_comber.jpg" | url}} "Thomas Comber on the wall at Stonegrave Minster: Cordelia Beattie"){.media-left}
 
 ## 2.	
 
