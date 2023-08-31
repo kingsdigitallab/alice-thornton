@@ -11,7 +11,7 @@ tags:
 ---
 As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/) at Durham Cathedral, our project partner, here are five links between Alice Thornton and Durham Cathedral to wet your interest:
 
-![Portrait of Thomas Comber hanging on a wall]({{"/assets/img/posts/thomas_comber.jpg" | url}} "Thomas Comber on the wall at Stonegrave Minster: Cordelia Beattie"){.media-right}
+![Photo of Durham Cathedral western tower and cloisters with blue sky]({{"/assets/img/posts/Cathedral_towers_geograph_JohnIllingworth_228813.jpg" | url}} "Durham Cathedral western tower and cloisters: John Illingworth, CC-BY-SA"){.media-right}
 
 ## 1.	
 
@@ -19,7 +19,7 @@ Alice Thornton's oldest daughter, also called Alice, married Thomas Comber who b
 
 <p>&nbsp;</p>
 
-![Photo of Durham Deanery in the sunshine]({{"/assets/img/posts/The_Deanery_Durham.jpg" | url}} "Durham Cathedral Deanery: Public domain, via Wikimedia Commons."){.media-left}
+![Portrait of Thomas Comber hanging on a wall]({{"/assets/img/posts/thomas_comber.jpg" | url}} "Thomas Comber on the wall at Stonegrave Minster: Cordelia Beattie"){.media-right}
 
 ## 2.	
 
