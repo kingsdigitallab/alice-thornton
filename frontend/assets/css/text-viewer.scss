@@ -102,9 +102,8 @@ $render-sic: false;
 // and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
   margin-left: 5em;
-  // enough room for the absolute positioned page number
-  // at the bottom of the page
-  padding-bottom: 4em;
+  // at least two clear lines gap between bottom of text and page number
+  padding-bottom: calc($edition-line-height * 3);
   position: relative;
   
   opacity: 30%;
@@ -496,6 +495,10 @@ $render-sic: false;
   .has-info-box {
     position: relative;
     border-bottom: 4px dotted lightblue;
+
+    &.tei-term {
+      border-bottom-color: lightsalmon;
+    }
 
     &.tei-anchor {
       border-bottom: none;
