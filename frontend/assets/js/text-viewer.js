@@ -321,6 +321,27 @@ function setUpTextViewer() {
           //   anchors.classList.add("managed");
           // });
 
+          // We set a hover class on hover.
+          // fixes the bug where hover on nested info-box
+          // would trigger :hover selector on both boxes
+          // and they would overlap.
+          const withInfoBox = window.document.querySelectorAll(".has-info-box");
+
+          withInfoBox.forEach((element) => {
+            if (element.classList.contains("managed")) return;
+            element.addEventListener("mouseenter", (e) => {
+              // set hover-parent class on .has-info-box ancestors
+              element.classList.add("hovered");
+              e.stopPropagation();
+            });
+            element.addEventListener("mouseleave", (e) => {
+              // unset hover-parent class on .has-info-box ancestors
+              element.classList.remove("hovered");
+              e.stopPropagation();
+            });
+            element.classList.add("managed");
+          });
+
           // TODO: attach events only to current panel
           const btnFigures = window.document.querySelectorAll(".btn-figure");
 
