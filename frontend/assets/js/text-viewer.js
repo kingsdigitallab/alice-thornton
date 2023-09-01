@@ -1,5 +1,7 @@
 const { createApp } = window.Vue;
 
+const CHILD_HOVERED_CLASS = "child-hovered";
+
 function setUpTextViewer() {
   let PanelControl = {
     template: `
@@ -329,16 +331,19 @@ function setUpTextViewer() {
 
           withInfoBox.forEach((element) => {
             if (element.classList.contains("managed")) return;
-            element.addEventListener("mouseenter", (e) => {
-              // set hover-parent class on .has-info-box ancestors
-              element.classList.add("hovered");
-              e.stopPropagation();
-            });
-            element.addEventListener("mouseleave", (e) => {
-              // unset hover-parent class on .has-info-box ancestors
-              element.classList.remove("hovered");
-              e.stopPropagation();
-            });
+            let closestInfoBoxContainer =
+              element.parentElement.closest(".has-info-box");
+
+            if (closestInfoBoxContainer) {
+              element.addEventListener("mouseenter", () => {
+                // set child-hovered class on .has-info-box ancestors
+                closestInfoBoxContainer.classList.add(CHILD_HOVERED_CLASS);
+              });
+              element.addEventListener("mouseleave", () => {
+                // unset hover-parent class on .has-info-box ancestors
+                closestInfoBoxContainer.classList.remove(CHILD_HOVERED_CLASS);
+              });
+            }
             element.classList.add("managed");
           });
 
