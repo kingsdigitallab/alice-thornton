@@ -1,7 +1,7 @@
 ---
 title: "Finding Alice Thornton's Letters"
 feature: /assets/img/posts/Borch_A_Young_Lady_Writing_at_her_Desk.jpg
-status: draft
+status: live
 authors:
   - cbeattie
 tags:
