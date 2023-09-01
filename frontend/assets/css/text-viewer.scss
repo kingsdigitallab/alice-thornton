@@ -494,7 +494,7 @@ $render-sic: false;
 
   .has-info-box {
     position: relative;
-    border-bottom: 4px dotted lightblue;
+    border-bottom: 4px dotted lightskyblue;
 
     &.tei-term {
       border-bottom-color: lightsalmon;
@@ -502,6 +502,11 @@ $render-sic: false;
 
     &.tei-anchor {
       border-bottom: none;
+    }
+
+    &.tei-quote {
+      padding-bottom: 4px;
+      border-bottom-color: lightgreen;
     }
 
     &:hover {
