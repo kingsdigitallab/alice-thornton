@@ -18,7 +18,7 @@ Thornton tells us about a big show in Richmond held on 29 May 1660 to celebrate 
 
 ![An old house of grey stone sits in the background of a verdant lawn, with trees and long grass.]({{"/assets/img/posts/st_nicholas.jpg" | url }} "St Nicholas, Richmond. Suzanne Trill, June 2022."){.media-right}
 
-> ...they had a show at Richmond of all kinds of sports and country expressions of joy and amongst the rest they shot off muskets and had soldiers of the townsmen of Richmond appeared in armour.[^2]
+> they had a show at Richmond of all kinds of sports and country expressions of joy and amongst the rest they shot off muskets and had soldiers of the townsmen of Richmond appeared in armour.[^2]
 
 Thornton was then staying at her Aunt Norton’s house, St. Nicholas, in Richmond. All the servants were keen to go to the show:
 
@@ -34,7 +34,8 @@ Nally had three or four ‘fits of convulsions’ while sheltering in a local sh
 
 In Yorkshire, the date of the Restoration – 29 May – continued to be celebrated as [Oak Apple Day](https://www.thenorthernecho.co.uk/news/6950621.national-celebration-died-living-memory/) until the 1940s, a reference to the oak tree the king was said to have hidden in to escape Cromwell’s army in 1651.
 
-[Pepys also recorded](https://www.pepysdiary.com/diary/1660/05/29/) celebratory gunfire on 29 May 1660 for the king’s birthday, as well as on the later date of the coronation. There are a variety of [events being held across the UK](https://coronation.gov.uk/events/) to celebrate the coronation of Charles III. Will you be attending any?
+[Pepys also recorded](https://www.pepysdiary.com/diary/1660/05/29/) celebratory gunfire on 29 May 1660 for the king’s birthday, as well as on the later date of the coronation. 
+
 
 [^1]: E.g. Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 182 (180 in our pagination): ‘A thanksgiveing for the restoration of King Charles the second. of his Coronation May. 29th 1660’; Alice Thornton, *Book 2: The First Book of My Widowed Condition*, Durham Cathedral Library, GB-0033-CCOM 7 (hereafter _Book 2_), 180, 183 (182, 185 in our pagination).
 [^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘They had a shew att Richmond of all kinds of sports & country exprssions of Joy & amongst the rest they shott of musketts & had Soldiers & the Towns men of Richmond appeared in Armour’. _Book 2_, 183 (185 in our edition).
