@@ -13,7 +13,7 @@ tags:
 
 We are delighted to announce the digital release of a further 81 pages of the *Book of Remembrances*. With almost half of this book now available to browse, we’d love to hear your comments on the manuscript and the digital edition. It’s there for you to discover, and we’d also like to know which of Alice Thornton’s recollections speak to you.
 
-Eleanor Thom is a writer of fiction who works in the Thornton’s Books team as the Engagement and Impact Officer. She has picked five passages from the newly released pages. These are incidents recorded by Thornton, or words that struck a chord and made Eleanor curious to find out more. 
+Eleanor Thom is a writer of fiction who works in the Thornton’s Books team as the Engagement and Impact Officer. She has picked five passages from the newly released pages. These are incidents recorded by Thornton, or words that struck a chord and made Eleanor curious to find out more.
 
 There are so many ways to read the autobiographical writing of Alice Thornton. Some of her words resonate over many centuries, when I can relate to her as a writer, or a woman, or a mother. Other passages made me curious and some made me laugh. What I also encounter in Thornton's writing are clues, ways into the past that are ripe for further research. As any historical writer will attest, it’s hard to resist the allure of a rabbit hole, the potential for a peek into Thornton’s world. The events I've picked out all set me off on a path to finding out more.
 
