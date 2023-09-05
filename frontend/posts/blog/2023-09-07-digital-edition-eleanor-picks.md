@@ -2,7 +2,7 @@
 title: 'Digital Edition: Where will our next release take you?'
 feature: 
 authors:
-  - ethom
+  - jedge
 status: draft
 tags:
   - manuscripts
@@ -36,9 +36,7 @@ Sometimes a physical document is scarred by an event, and a story is told in mor
 
 Thornton imagined blood on William’s penknife as he threatened to take his own life, and she was afraid for herself and for her unborn seventh child. It is a shocking account.
 
-  ![Print, Trade Card, c 1750](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Print%2C_trade-card_%28BM_Heal%2C92.12%29.jpg/698px-Print%2C_trade-card_%28BM_Heal%2C92.12%29.jpg?20200509001957)
-
-  ![An 18th century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{/assets/img/posts/Print,_trade_card_Green.jpg | url}} "Trade card of Richard Green, pen cutter. Public domain, via Wikimedia Commons.")
+![An 18th century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{/assets/img/posts/Print,_trade_card_Green.jpg | url}} "Trade card of Richard Green, pen cutter. Public domain, via Wikimedia Commons.")
 
 ## A Mark on the Heart
 
@@ -53,7 +51,7 @@ Many passages in Thornton’s writing deal with the body, [illness and death](ht
 
 >these stitches continued about fourteen days, with the cough hindering her from almost any sleep. When, upon the use of bags with fried oats, butter and chamomile chopped laid to her sides, the stitches removed, and the cough abated as to the extremity thereof (p. 33).
 
-![Bag, 1600-1650, V&A Collection](https://framemark.vam.ac.uk/collections/2012FE6638/full/1400,/0/default.jpg)
+![A photo of an old over-the-shoulder woven bag, with a flower and vetegable design]({{/assets/img/posts/17th_century_bag.jpg | url}} "Bag (1600-1650). Victoria and Albert Museum.")
 
 
 ## Floods, Stitches and the Breeding of the Teeth
@@ -62,9 +60,7 @@ Some turns of phrase Thornton used to describe the body and its pains are unusua
 
 >Blessed be the most gracious mercy of my God for ever that hath raised this child up from death very often, even from a young child being often in sounds upon the breeding of her teeth: this fit was June 13th, 1665, at Newton. When she was ill, she was even ravished with the glorious sight (p. 103).
 
-
-![Bag, 1600-1650, V&A Collection](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Metsu%2C_Gabriel_-_Sick_Child%2C_the.jpg/731px-Metsu%2C_Gabriel_-_Sick_Child%2C_the.jpg?20101029090403)
-
+![A mother holds a sick-looking child on her lap]({{/assets/img/posts/the-sick-child.jpg | url}} "The Sick Child (1660-65), Gabriel Metsu. Public Domain, via Wikimedia Commons.")
 
 ***
 
