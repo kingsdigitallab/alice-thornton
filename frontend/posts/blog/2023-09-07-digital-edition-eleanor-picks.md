@@ -9,7 +9,6 @@ tags:
   - digital edition
 ---
 
-=========
 
 We are delighted to announce the digital release of a further 81 pages of the *Book of Remembrances*. With almost half of this book now available to browse, we’d love to hear your comments on the manuscript and the digital edition. It’s there for you to discover, and we’d also like to know which of Alice Thornton’s recollections speak to you.
 
@@ -22,7 +21,6 @@ There are so many ways to read the autobiographical writing of Alice Thornton. S
 
 
 ## A Blaze on St Martin's Lane
---------
 
 Alice was just six years old when servants rescued her from a fire:
 
@@ -40,7 +38,7 @@ Thornton imagined blood on William’s penknife as he threatened to take his own
 
   ![Print, Trade Card, c 1750](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Print%2C_trade-card_%28BM_Heal%2C92.12%29.jpg/698px-Print%2C_trade-card_%28BM_Heal%2C92.12%29.jpg?20200509001957)
 
-  
+  ![An 18th century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{/assets/img/posts/Print,_trade_card_Green.jpg | url}} "Trade card of Richard Green, pen cutter. Public domain, via Wikimedia Commons.")
 
 ## A Mark on the Heart
 
