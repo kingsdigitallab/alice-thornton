@@ -25,7 +25,7 @@ Alice was just six years old when servants rescued her from a fire:
 
 >There was a great fire in the next house to my father’s, in St Martin’s Lane in London, which burned a part of our house and had like to have burned our house but was prevented through the care of our servants. This was done at night when my father and mother was at court. But we were preserved in my Lady Leveson’s house, being carried by Sarah thither. This fire did seem to me as if the day of judgment was come, and caused great fear and trembling[^1]
 
-Thornton shared both the emotion and the facts of the event. Knowing that she was living in St Martin’s Lane in London, I wanted to find out what this location was like in 1632 . [I found a list of her neighbours](https://www.british-history.ac.uk/survey-london/vol20/pt3/pp115-122), who included Dutch painter Daniel Mytens and his second wife, the painter Susanna Droeshut. There is a portrait of this couple by Anthony Van Dyck dated 1630, just two years before the fire Thornton remembers. Perhaps to a young Alice they were familiar faces. 
+Thornton shared both the emotion and the facts of the event. Knowing that she was living in St Martin’s Lane in London, I wanted to find out what this location was like in 1632. [I found a list of her neighbours](https://www.british-history.ac.uk/survey-london/vol20/pt3/pp115-122), who included Dutch painter Daniel Mytens and his second wife, the painter Susanna Droeshut. There is a portrait of this couple by Anthony Van Dyck dated 1630, just two years before the fire Thornton remembers. Perhaps to a young Alice they were familiar faces. 
 
 ![A white 17th century couple sit for a portrait. The woman is holding her pregnant belly]({{assets/img/posts/Anthony_van_Dyck_-_Portrait_of_Daniel_Mytens_and_his_wife,_1630_P11768.jpg | url}} "Daniel Mytens and his Wife (1630), by Anthony van Dyck. Public domain, via Wikimedia Commons"){.media-left}
 
@@ -35,7 +35,7 @@ Sometimes a physical document is scarred by an event, and a story is told in mor
 
 Thornton imagined blood on William’s penknife as he threatened to take his own life, and she was afraid for herself and for her unborn seventh child. It is a shocking account.
 
-![An 18th century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{/assets/img/posts/Print,_trade_card_Green.jpg | url}} "Trade card of Richard Green, pen cutter. Public domain, via Wikimedia Commons."){.media-right}
+![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{/assets/img/posts/Print,_trade_card_Green.jpg | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons."){.media-right}
 
 ## A Mark on the Heart
 
@@ -61,7 +61,7 @@ Some turns of phrase Thornton used to describe the body and its pains are unusua
 
 ***
 
-The Alice Thornton’s Books project invites everyone to delve into the 17th century words of Yorkshire’s Alice Thornton. You can read [link] the newly released pages of Alice Thornton’s *Book of Remembrances* now in modernised and semi-diplomatic versions. 
+The Alice Thornton’s Books project invites everyone to delve into the 17th century words of Yorkshire’s Alice Thornton. You can read *link* the newly released pages of Alice Thornton’s *Book of Remembrances* now in modernised and semi-diplomatic versions. 
 
 We would love to hear about what you discover! Please get in touch via our socials. 
 
