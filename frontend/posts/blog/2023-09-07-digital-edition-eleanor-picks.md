@@ -61,7 +61,7 @@ Some turns of phrase Thornton used to describe the body and its pains are unusua
 
 ***
 
-The Alice Thornton’s Books project invites everyone to delve into the 17th century words of Yorkshire’s Alice Thornton. You can read *link* the newly released pages of Alice Thornton’s *Book of Remembrances* now in modernised and semi-diplomatic versions. 
+The Alice Thornton’s Books project invites everyone to delve into the seventeenth-century words of Yorkshire’s Alice Thornton. You can read [the newly released pages of Alice Thornton’s *Book of Remembrances*](https://thornton.kdl.kcl.ac.uk/books/viewer/) now, in modernised and semi-diplomatic versions. 
 
 We would love to hear about what you discover! Please get in touch via our socials. 
 
