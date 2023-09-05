@@ -25,7 +25,7 @@ Alice was just six years old when servants rescued her from a fire:
 
 Thornton shared both the emotion and the facts of the event. Knowing that she was living in St Martin’s Lane in London, I wanted to find out what this location was like in 1632. [I found a list of her neighbours](https://www.british-history.ac.uk/survey-london/vol20/pt3/pp115-122), who included Dutch painter Daniel Mytens and his second wife, the painter Susanna Droeshut. There is a portrait of this couple by Anthony Van Dyck dated 1630, just two years before the fire Thornton remembers. Perhaps to a young Alice they were familiar faces. 
 
-![A white 17th century couple sit for a portrait. The woman is holding her pregnant belly]({{/assets/img/posts/Anthony_van_Dyck_Portrait_of_Daniel_Mytens_and_his_wife.jpg | url}} "Daniel Mytens and his Wife (1630), by Anthony van Dyck. Public domain, via Wikimedia Commons"){.media-left}
+![A white 17th century couple sit for a portrait, the woman is holding her pregnant belly]({{/assets/img/posts/Anthony_van_Dyck_Portrait_of_Daniel_Mytens_and_his_wife.jpg | url}} "Daniel Mytens and his Wife (1630), by Anthony van Dyck. Public domain, via Wikimedia Commons"){.media-left}
 
 ## Penknives and Excision
 
