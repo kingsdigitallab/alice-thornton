@@ -2,7 +2,7 @@
 title: "Digital Edition: Where will our new release take you?"
 feature: 
 authors:
-  - ethom
+  - jedge
 status: draft
 tags:
   - manuscripts
