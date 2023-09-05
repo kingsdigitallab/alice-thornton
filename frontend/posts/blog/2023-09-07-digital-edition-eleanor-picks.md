@@ -35,7 +35,7 @@ Sometimes a physical document is scarred by an event, and a story is told in mor
 
 Thornton imagined blood on William’s penknife as he threatened to take his own life, and she was afraid for herself and for her unborn seventh child. It is a shocking account.
 
-![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{/assets/img/posts/Print,_trade_card_Green.jpg | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons."){.media-right}
+![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{/assets/img/posts/Print_trade_card_Green.jpg | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons."){.media-right}
 
 ## A Mark on the Heart
 
@@ -57,7 +57,7 @@ Some turns of phrase Thornton used to describe the body and its pains are unusua
 
 >Blessed be the most gracious mercy of my God for ever that hath raised this child up from death very often, even from a young child being often in sounds upon the breeding of her teeth: this fit was June 13th, 1665, at Newton. When she was ill, she was even ravished with the glorious sight[^4]
 
-![A mother holds a sick-looking child on her lap]({{/assets/img/posts/the-sick-child.jpg | url}} "The Sick Child (1660-65), Gabriel Metsu. Public Domain, via Wikimedia Commons."){.media-right}
+![A mother holds a sick-looking child on her lap]({{/assets/img/posts/the_sick_child.jpg | url}} "The Sick Child (1660-65), Gabriel Metsu. Public Domain, via Wikimedia Commons."){.media-right}
 
 ***
 
