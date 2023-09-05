@@ -1,5 +1,5 @@
 ---
-title: "Digital Edition: Where will our next release take you?"
+title: "Digital Edition: Where will our new release take you?"
 feature: 
 authors:
   - jedge
