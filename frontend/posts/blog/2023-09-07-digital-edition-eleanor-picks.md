@@ -7,6 +7,7 @@ status: draft
 tags:
   - manuscripts
   - digital edition
+  
 ---
 
 
@@ -17,7 +18,6 @@ Eleanor Thom is a writer of fiction who works in the Thornton’s Books team as 
 ***
 
 There are so many ways to read the autobiographical writing of Alice Thornton. Some of her words resonate over many centuries, when I can relate to her as a writer, or a woman, or a mother. Other passages made me curious and some made me laugh. What I also encounter in Thornton's writing are clues, ways into the past that are ripe for further research. As any historical writer will attest, it’s hard to resist the allure of a rabbit hole, the potential for a peek into Thornton’s world. The events I've picked out all set me off on a path to finding out more.
-
 
 ## A Blaze on St Martin's Lane
 
