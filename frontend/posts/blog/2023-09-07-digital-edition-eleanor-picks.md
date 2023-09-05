@@ -1,6 +1,6 @@
 ---
 title: "Digital Edition: Where will our new release take you?"
-feature: 
+feature: /assets/img/posts/the_sick_child.jpg
 authors:
   - jedge
 status: draft
