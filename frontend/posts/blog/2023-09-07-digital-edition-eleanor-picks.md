@@ -1,5 +1,14 @@
+---
+title: 'Digital Edition: Where will our next release take you?'
+feature: 
+authors:
+  - ethom
+status: draft
+tags:
+  - manuscripts
+  - digital edition
+---
 
-Digital Edition: Where will our next release take you?
 =========
 
 We are delighted to announce the digital release of a further 81 pages of the *Book of Remembrances*. With almost half of this book now available to browse, we’d love to hear your comments on the manuscript and the digital edition. It’s there for you to discover, and we’d also like to know which of Alice Thornton’s recollections speak to you.
@@ -29,6 +38,7 @@ Thornton shared both the emotion and the facts of the event. Knowing that she wa
 Sometimes a physical document is scarred by an event, and a story is told in more than words. Alice Thornton purchased six cows in 1662, and a heated argument ensued between her and her husband William (p. 55). A section of a page is missing here, cut away. This uncharacteristic deletion has a violence about it, and it could have stayed a mystery were it not for Thornton referring back to the incident, saying  that it was the devil which tempted him [William] against himself and me to destroy us all (p. 58).
 
 Thornton imagined blood on William’s penknife as he threatened to take his own life, and she was afraid for herself and for her unborn seventh child. It is a shocking account.
+
   ![Print, Trade Card, c 1750](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Print%2C_trade-card_%28BM_Heal%2C92.12%29.jpg/698px-Print%2C_trade-card_%28BM_Heal%2C92.12%29.jpg?20200509001957)
 
   
