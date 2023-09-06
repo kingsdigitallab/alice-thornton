@@ -29,9 +29,9 @@ Thornton shared both the emotion and the facts of the event. Knowing that she wa
 
 ## Penknives and Excision
 
-![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{"/assets/img/posts/Print_trade_card_Green.jpg" | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons.")
-
 Sometimes a physical document is scarred by an event, and a story is told in more than words. Alice Thornton purchased six cows in 1662, and a heated argument ensued between her and her husband William (p. 55). A section of a page is missing here, cut away. This uncharacteristic deletion has a violence about it, and it could have stayed a mystery were it not for Thornton referring back to the incident, saying  that it was the devil which tempted him (William) against them both (p. 58).
+
+![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{"/assets/img/posts/Print_trade_card_Green.jpg" | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons.")
 
 Thornton imagined blood on William’s penknife as he threatened to take his own life, and she was afraid for herself and for her unborn seventh child. It is a shocking account.
 
@@ -45,10 +45,9 @@ Thornton was pregnant with Robert when the incident above took place. He survive
 
 Many passages in Thornton’s writing deal with the body, [illness and death](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/). In the *Book of Remembrances*, the passing away of extended family members including [an uncle who ate too much cold melon](https://www.historyworkshop.org.uk/food/forbidden-fruit/), are placed in a list along with the beheading of King Charles I. They occurred around about the same time, and are given equal weight. Thornton dedicated much longer passages to other bereavements, such as the death of her mother. Describing her mother’s final illness, Thornton mentioned using a common calmative still familiar today:
 
-![A photo of an old over-the-shoulder woven bag, with a flower and vetegable design]({{"/assets/img/posts/17th_century_bag.jpg" | url}} "Bag (1600-1650). Victoria and Albert Museum.")
-
 >these stitches continued about fourteen days, with the cough hindering her from almost any sleep. When, upon the use of bags with fried oats, butter and chamomile chopped laid to her sides, the stitches removed, and the cough abated as to the extremity thereof (p. 33).
 
+![A photo of an old over-the-shoulder woven bag, with a flower and vetegable design]({{"/assets/img/posts/17th_century_bag.jpg" | url}} "Bag (1600-1650). Victoria and Albert Museum.")
 ## Floods, Stitches and the Breeding of the Teeth
 
 Some turns of phrase Thornton used to describe the body and its pains are unusual to our ears, and for me this is part of what makes her work so enjoyable. Her language can be very evocative. Thornton described the poor health of her daughter Nally after she started vomiting in bed. The focus is not just on this night of sickness, caused by eating bad fish, but Nally’s worrying health back to her earliest infancy. It’s a relatable amplification of Thornton’s alarm at having a child take suddenly ill. The term ‘breeding of the teeth’ makes teething sound like it was a particularly torturous process for poor Nally. 
