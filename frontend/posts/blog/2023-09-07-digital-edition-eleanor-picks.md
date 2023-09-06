@@ -13,6 +13,8 @@ We are delighted to announce the digital release of a further 81 pages of the *B
 
 Eleanor Thom is a writer of fiction who works in the Thornton’s Books team as the Engagement and Impact Officer. She has picked five passages from the newly released pages. These are incidents recorded by Thornton, or words that struck a chord and made Eleanor curious to find out more.
 
+***
+
 There are so many ways to read the autobiographical writing of Alice Thornton. Some of her words resonate over many centuries, when I can relate to her as a writer, or a woman, or a mother. Other passages made me curious and some made me laugh. What I also encounter in Thornton's writing are clues, ways into the past that are ripe for further research. As any historical writer will attest, it’s hard to resist the allure of a rabbit hole, the potential for a peek into Thornton’s world. The events I've picked out all set me off on a path to finding out more.
 
 ## A Blaze on St Martin's Lane
@@ -27,9 +29,9 @@ Thornton shared both the emotion and the facts of the event. Knowing that she wa
 
 ## Penknives and Excision
 
-Sometimes a physical document is scarred by an event, and a story is told in more than words. Alice Thornton purchased six cows in 1662, and a heated argument ensued between her and her husband William (p. 55). A section of a page is missing here, cut away. This uncharacteristic deletion has a violence about it, and it could have stayed a mystery were it not for Thornton referring back to the incident, saying  that it was the devil which tempted him (William) against them both (p. 58).
-
 ![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{"/assets/img/posts/Print_trade_card_Green.jpg" | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons."){.media-right}
+
+Sometimes a physical document is scarred by an event, and a story is told in more than words. Alice Thornton purchased six cows in 1662, and a heated argument ensued between her and her husband William (p. 55). A section of a page is missing here, cut away. This uncharacteristic deletion has a violence about it, and it could have stayed a mystery were it not for Thornton referring back to the incident, saying  that it was the devil which tempted him (William) against them both (p. 58).
 
 Thornton imagined blood on William’s penknife as he threatened to take his own life, and she was afraid for herself and for her unborn seventh child. It is a shocking account.
 
