@@ -23,7 +23,7 @@ Alice was just six years old when servants rescued her from a fire:
 
 >There was a great fire in the next house to my father’s, in St Martin’s Lane in London, which burned a part of our house and had like to have burned our house but was prevented through the care of our servants. This was done at night when my father and mother was at court. But we were preserved in my Lady Leveson’s house, being carried by Sarah thither. This fire did seem to me as if the day of judgment was come, and caused great fear and trembling [(p. 17)](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=p.17&p0.vi=modern).
 
-![A white 17th century couple sit for a portrait, the woman is holding her pregnant belly]({{"/assets/img/posts/Anthony_van_Dyck_Portrait_of_Daniel_Mytens_and_his_wife.jpg" | url}} "Daniel Mytens and his Wife (1630), by Anthony van Dyck. Public domain, via Wikimedia Commons"){media.left}
+![A white 17th century couple sit for a portrait, the woman is holding her pregnant belly]({{"/assets/img/posts/Anthony_van_Dyck_Portrait_of_Daniel_Mytens_and_his_wife.jpg" | url}} "Daniel Mytens and his Wife (1630), by Anthony van Dyck. Public domain, via Wikimedia Commons"){.media-left}
 
 Thornton shared both the emotion and the facts of the event. Knowing that she was living in St Martin’s Lane in London, I wanted to find out what this location was like in 1632. [I found a list of her neighbours](https://www.british-history.ac.uk/survey-london/vol20/pt3/pp115-122), who included Dutch painter Daniel Mytens and his second wife, the painter Susanna Droeshut. There is a portrait of this couple by Anthony Van Dyck dated 1630, just two years before the fire Thornton remembers. Perhaps to a young Alice they were familiar faces. 
 
@@ -53,7 +53,7 @@ Many passages in Thornton’s writing deal with the body, [illness and death](ht
 
 Some turns of phrase Thornton used to describe the body and its pains are unusual to our ears, and for me this is part of what makes her work so enjoyable. Her language can be very evocative. Thornton described the poor health of her daughter Nally after she started vomiting in bed. The focus is not just on this night of sickness, caused by eating bad fish, but Nally’s worrying health back to her earliest infancy. It’s a relatable amplification of Thornton’s alarm at having a child take suddenly ill. The term ‘breeding of the teeth’ makes teething sound like it was a particularly torturous process for poor Nally. 
 
-![A mother holds a sick-looking child on her lap]({{"/assets/img/posts/the_sick_child.jpg" | url}} "The Sick Child (1660-65), Gabriel Metsu. Public Domain, via Wikimedia Commons."){media.right}
+![A mother holds a sick-looking child on her lap]({{"/assets/img/posts/the_sick_child.jpg" | url}} "The Sick Child (1660-65), Gabriel Metsu. Public Domain, via Wikimedia Commons."){.media-right}
 
 
 >Blessed be the most gracious mercy of my God for ever that hath raised this child up from death very often, even from a young child being often in sounds upon the breeding of her teeth: this fit was June 13th, 1665, at Newton. When she was ill, she was even ravished with the glorious sight (p. 103)
