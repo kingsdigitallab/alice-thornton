@@ -25,7 +25,7 @@ Alice was just six years old when servants rescued her from a fire:
 
 Thornton shared both the emotion and the facts of the event. Knowing that she was living in St Martin’s Lane in London, I wanted to find out what this location was like in 1632. [I found a list of her neighbours](https://www.british-history.ac.uk/survey-london/vol20/pt3/pp115-122), who included Dutch painter Daniel Mytens and his second wife, the painter Susanna Droeshut. There is a portrait of this couple by Anthony Van Dyck dated 1630, just two years before the fire Thornton remembers. Perhaps to a young Alice they were familiar faces. 
 
-![A white 17th century couple sit for a portrait, the woman is holding her pregnant belly]({{/assets/img/posts/Anthony_van_Dyck_Portrait_of_Daniel_Mytens_and_his_wife.jpg | url}} "Daniel Mytens and his Wife (1630), by Anthony van Dyck. Public domain, via Wikimedia Commons"){.media-left}
+![A white 17th century couple sit for a portrait, the woman is holding her pregnant belly]({{"/assets/img/posts/Anthony_van_Dyck_Portrait_of_Daniel_Mytens_and_his_wife.jpg" | url}} "Daniel Mytens and his Wife (1630), by Anthony van Dyck. Public domain, via Wikimedia Commons"){.media-left}
 
 ## Penknives and Excision
 
@@ -33,7 +33,7 @@ Sometimes a physical document is scarred by an event, and a story is told in mor
 
 Thornton imagined blood on William’s penknife as he threatened to take his own life, and she was afraid for herself and for her unborn seventh child. It is a shocking account.
 
-![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{/assets/img/posts/Print_trade_card_Green.jpg | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons."){.media-right}
+![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{"/assets/img/posts/Print_trade_card_Green.jpg" | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons."){.media-right}
 
 ## A Mark on the Heart
 
@@ -47,7 +47,7 @@ Many passages in Thornton’s writing deal with the body, [illness and death](ht
 
 >these stitches continued about fourteen days, with the cough hindering her from almost any sleep. When, upon the use of bags with fried oats, butter and chamomile chopped laid to her sides, the stitches removed, and the cough abated as to the extremity thereof.[^3] 
 
-![A photo of an old over-the-shoulder woven bag, with a flower and vetegable design]({{/assets/img/posts/17th_century_bag.jpg | url}} "Bag (1600-1650). Victoria and Albert Museum."){.media-left}
+![A photo of an old over-the-shoulder woven bag, with a flower and vetegable design]({{"/assets/img/posts/17th_century_bag.jpg" | url}} "Bag (1600-1650). Victoria and Albert Museum."){.media-left}
 
 ## Floods, Stitches and the Breeding of the Teeth
 
@@ -55,7 +55,7 @@ Some turns of phrase Thornton used to describe the body and its pains are unusua
 
 >Blessed be the most gracious mercy of my God for ever that hath raised this child up from death very often, even from a young child being often in sounds upon the breeding of her teeth: this fit was June 13th, 1665, at Newton. When she was ill, she was even ravished with the glorious sight.[^4]
 
-![A mother holds a sick-looking child on her lap]({{/assets/img/posts/the_sick_child.jpg | url}} "The Sick Child (1660-65), Gabriel Metsu. Public Domain, via Wikimedia Commons."){.media-right}
+![A mother holds a sick-looking child on her lap]({{"/assets/img/posts/the_sick_child.jpg" | url}} "The Sick Child (1660-65), Gabriel Metsu. Public Domain, via Wikimedia Commons."){.media-right}
 
 ***
 
