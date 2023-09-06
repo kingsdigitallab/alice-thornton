@@ -7,9 +7,7 @@ status: draft
 tags:
   - manuscripts
   - digital edition
-
 ---
-
 
 We are delighted to announce the digital release of a further 81 pages of the *Book of Remembrances*. With almost half of this book now available to browse, we’d love to hear your comments on the text and the digital edition. It’s there for you to discover, and we’d also like to know which of Alice Thornton’s recollections speak to you.
 
