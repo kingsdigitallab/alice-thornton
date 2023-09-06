@@ -19,7 +19,7 @@ There are so many ways to read the autobiographical writing of Alice Thornton. S
 
 Alice was just six years old when servants rescued her from a fire:
 
->There was a great fire in the next house to my father’s, in St Martin’s Lane in London, which burned a part of our house and had like to have burned our house but was prevented through the care of our servants. This was done at night when my father and mother was at court. But we were preserved in my Lady Leveson’s house, being carried by Sarah thither. This fire did seem to me as if the day of judgment was come, and caused great fear and trembling (p. 17).
+>There was a great fire in the next house to my father’s, in St Martin’s Lane in London, which burned a part of our house and had like to have burned our house but was prevented through the care of our servants. This was done at night when my father and mother was at court. But we were preserved in my Lady Leveson’s house, being carried by Sarah thither. This fire did seem to me as if the day of judgment was come, and caused great fear and trembling [(p. 17)](https://thornton.kdl.kcl.ac.uk/books/viewer/?&p0.lo=p.17&p0.vi=modern).
 
 ![A white 17th century couple sit for a portrait, the woman is holding her pregnant belly]({{"/assets/img/posts/Anthony_van_Dyck_Portrait_of_Daniel_Mytens_and_his_wife.jpg" | url}} "Daniel Mytens and his Wife (1630), by Anthony van Dyck. Public domain, via Wikimedia Commons"){.media-left}
 
