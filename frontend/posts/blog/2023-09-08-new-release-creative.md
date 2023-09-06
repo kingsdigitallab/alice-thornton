@@ -1,8 +1,8 @@
 ---
-title: "Digital Edition: Where will our new release take you?"
-feature: /assets/img/posts/the_sick_child.jpg
+title: "Where will our new release take you?"
+feature: 
 authors:
-  - 
+  - cbeattie
 status: draft
 tags:
   - manuscripts
@@ -33,7 +33,7 @@ Sometimes a physical document is scarred by an event, and a story is told in mor
 
 Thornton imagined blood on William’s penknife as he threatened to take his own life, and she was afraid for herself and for her unborn seventh child. It is a shocking account.
 
-![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{/assets/img/posts/Print_trade_card_Green.jpg | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons."){.media-right}
+
 
 ## A Mark on the Heart
 
@@ -63,7 +63,7 @@ The Alice Thornton’s Books project invites everyone to delve into the seventee
 
 We would love to hear about what you discover! Please get in touch via our socials. 
 
-<p>&nbsp;</p>
+
 
 [^1]: _Book Rem_, 17.
 
