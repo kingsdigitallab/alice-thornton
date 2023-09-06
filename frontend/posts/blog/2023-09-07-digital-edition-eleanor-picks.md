@@ -1,5 +1,5 @@
 ---
-title: "Digital Edition: Where will our next release take you?"
+title: "Digital Edition: Where will our new release take you?"
 feature: /assets/img/posts/the_sick_child.jpg
 authors:
   - jedge
@@ -7,11 +7,12 @@ status: draft
 tags:
   - manuscripts
   - digital edition
+  - illness
 ---
 
-We are delighted to announce the digital release of a further 81 pages of the *Book of Remembrances*. With almost half of this book now available to browse, we’d love to hear your comments on the text and the digital edition. It’s there for you to discover, and we’d also like to know which of Alice Thornton’s recollections speak to you.
+We are delighted to announce the [digital release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of a further 81 pages of the *Book of Remembrances*. With almost half of this book now available to browse, we’d love to hear your comments on the text and the digital edition. It’s there for you to discover, and we’d also like to know which of Alice Thornton’s recollections speak to you.
 
-Eleanor Thom is a writer of fiction who works in the Thornton’s Books team as the Engagement and Impact Officer. She has picked five passages from the newly released pages. These are incidents recorded by Thornton, or words that struck a chord and made Eleanor curious to find out more.
+[Eleanor Thom](https://eleanorthom.com) is a writer of fiction who works in the Thornton’s Books team as our Engagement and Impact Officer. She has picked five passages from the newly released pages. These are incidents recorded by Thornton, or words that struck a chord and made Eleanor curious to find out more.
 
 ***
 
@@ -29,6 +30,8 @@ Thornton shared both the emotion and the facts of the event. Knowing that she wa
 
 ## Penknives and Excision
 
+CN: suicidal ideation
+
 Sometimes a physical document is scarred by an event, and a story is told in more than words. Alice Thornton purchased six cows in 1662, and a heated argument ensued between her and her husband William (p. 55). A section of a page is missing here, cut away. This uncharacteristic deletion has a violence about it, and it could have stayed a mystery were it not for Thornton referring back to the incident, saying  that it was the devil which tempted him (William) against them both (p. 58).
 
 ![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{"/assets/img/posts/Print_trade_card_Green.jpg" | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons.")
@@ -37,13 +40,13 @@ Thornton imagined blood on William’s penknife as he threatened to take his own
 
 ## A Mark on the Heart
 
-Thornton was pregnant with Robert when the incident above took place. He survived into adulthood, but Thornton remembered that for a long time he carried a mark on his chest. She took this as a reminder of God’s mercy, saving them from harm at the hands of William when he was not well. Robert’s heart-shaped mark eventually faded into a ‘T’ shape, and according to Thornton it later vanished altogether. The stages the mark went through are described in intricate detail in Thornton's account, written years later. This is my own imagination at play, but I felt these passages spoke to something inside Thornton that was much more permanent.
+Thornton was pregnant with Robert when the incident above took place. He survived into adulthood, but Thornton remembered that for a long time he carried a mark on his chest. She took this as a reminder of God’s mercy, saving them from harm at the hands of William when he was not well. Robert’s heart-shaped mark eventually faded into a ‘T’ shape, and according to Thornton it later vanished altogether. The stages the mark went through are described in intricate detail in Thornton's account, written some years later. This is my own imagination at play, but I felt these passages spoke to something inside Thornton that was much more permanent.
 
 >He did, I believe, set a mark upon my son Robert’s heart for a note of his deliverance at that time. For, when the child was born, he had a very strange mark, just upon his heart, of sprinkles of blood, pure and perfectly distinct round spots, like as if it had been sprinkled upon his skin and the white perfectly appearing betwixt them and in the midst thereof, as if it had been cut with a knife, a longish cut (p. 61).
 
 ## Chamomile Cure
 
-Many passages in Thornton’s writing deal with the body, [illness and death](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/). In the *Book of Remembrances*, the passing away of extended family members including [an uncle who ate too much cold melon](https://www.historyworkshop.org.uk/food/forbidden-fruit/), are placed in a list along with the beheading of King Charles I. They occurred around about the same time, and are given equal weight. Thornton dedicated much longer passages to other bereavements, such as the death of her mother. Describing her mother’s final illness, Thornton mentioned using a common calmative still familiar today:
+Many passages in Thornton’s writing deal with [the body, illness](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-12-19-grief-and-illness-thornton/) and [death](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/). In the *Book of Remembrances*, the passing away of extended family members including [an uncle who ate too much cold melon](https://www.historyworkshop.org.uk/food/forbidden-fruit/), are placed in a list along with the beheading of King Charles I. They occurred around about the same time, and are given equal weight. Thornton dedicated much longer passages to other bereavements, such as the death of her mother. Describing her mother’s final illness, Thornton mentioned using a common calmative still familiar today:
 
 >these stitches continued about fourteen days, with the cough hindering her from almost any sleep. When, upon the use of bags with fried oats, butter and chamomile chopped laid to her sides, the stitches removed, and the cough abated as to the extremity thereof (p. 33).
 
@@ -60,6 +63,6 @@ Some turns of phrase Thornton used to describe the body and its pains are unusua
 
 ***
 
-The Alice Thornton’s Books project invites everyone to delve into the seventeenth-century words of Yorkshire’s Alice Thornton. You can read [the newly released pages of Alice Thornton’s *Book of Remembrances*](https://thornton.kdl.kcl.ac.uk/books/viewer/) now, in modernised and semi-diplomatic versions. 
+The Alice Thornton’s Books project invites everyone to delve into the seventeenth-century words of Alice Thornton. You can read [the newly released pages](https://thornton.kdl.kcl.ac.uk/books/viewer/) of Alice Thornton’s *Book of Remembrances* now, in modernised and semi-diplomatic versions. 
 
 We would love to hear about what you discover! Please get in touch via our socials. 
