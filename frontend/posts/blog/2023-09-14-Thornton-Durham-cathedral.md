@@ -7,6 +7,7 @@ authors:
 tags:
   - events
   - manuscripts
+  - family
   
 ---
 As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/) at Durham Cathedral, our project partner, here are five links between Alice Thornton and Durham Cathedral to wet your interest:
