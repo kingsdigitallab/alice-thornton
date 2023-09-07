@@ -3,7 +3,7 @@ title: "Digital Edition: Where will our new release take you?"
 feature: /assets/img/posts/penknife_cropped.jpg
 authors:
   - jedge
-status: live
+status: draft
 tags:
   - manuscripts
   - digital edition
