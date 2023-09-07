@@ -10,7 +10,7 @@ tags:
   - illness
 ---
 
-We are delighted to announce the [digital release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of a further 81 pages of the *Book of Remembrances*. With almost half of this book now available to browse, we’d love to hear your comments on the text and the digital edition. It’s there for you to discover, and we’d also like to know which of Alice Thornton’s recollections speak to you.
+We are delighted to announce the [digital release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of a further 81 pages of the *Book of Remembrances*. With half of this book now available to browse, we’d love to hear your comments on the text and the digital edition. It’s there for you to discover, and we’d also like to know which of Alice Thornton’s recollections speak to you.
 
 [Eleanor Thom](https://eleanorthom.com) is a writer of fiction who works in the Thornton’s Books team as our Engagement and Impact Officer. She has picked five passages from the newly released pages. These are incidents recorded by Thornton, or words that struck a chord and made Eleanor curious to find out more.
 
