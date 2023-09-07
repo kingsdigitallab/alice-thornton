@@ -297,7 +297,7 @@ $render-sic: false;
       }
     }
 
-    *[data-tei-place~="margin"] {
+    *[data-tei-place~="margin"]:not(.tei-type-head) {
       display: inline-block;
       position: absolute;
       left: -5em;
