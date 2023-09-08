@@ -10,7 +10,7 @@ tags:
   - family
   
 ---
-As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/) at Durham Cathedral, our project partner, here are five links between Alice Thornton and Durham Cathedral to wet your interest:
+As we gear up for [four days and nights of events](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-26-durham-events-tickets-now-on-sale/) at Durham Cathedral, our project partner, here are five links between Alice Thornton and Durham Cathedral to whet your interest:
 
 ![Photo of Durham Cathedral western tower and cloisters with blue sky]({{"/assets/img/posts/Cathedral_towers_geograph_JohnIllingworth_228813.jpg" | url}} "Durham Cathedral western tower and cloisters: John Illingworth, CC-BY-SA"){.media-right}
 
