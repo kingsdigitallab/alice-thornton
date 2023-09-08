@@ -297,7 +297,7 @@ $render-sic: false;
       }
     }
 
-    *[data-tei-place~="margin"]:not(.tei-type-head) {
+    *[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header) {
       display: inline-block;
       position: absolute;
       left: -5em;
@@ -306,7 +306,7 @@ $render-sic: false;
   }
 
   &.view-modern {
-    .tei-fw[data-tei-place~="margin"] {
+    .tei-fw[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header) {
       display: none;
     }
   }
