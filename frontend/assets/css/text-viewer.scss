@@ -56,6 +56,10 @@ $render-sic: false;
 }
 
 #text-viewer {
+  .tei-p {
+    margin-bottom: $edition-line-height;
+  }
+
   span[data-tei-rend~="italic"] {
     font-style: italic;
   }
