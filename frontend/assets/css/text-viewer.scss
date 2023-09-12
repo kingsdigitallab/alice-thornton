@@ -229,10 +229,6 @@ $render-sic: false;
     }
   }
 
-  .tei-type-pageNum {
-    display: block;
-  }
-
   // p {
   //   margin-left: 3em;
   // }
@@ -319,6 +315,14 @@ $render-sic: false;
   .tei-fw.tei-type-pageNum {
     position: absolute;
     bottom: 0;
+
+    &+.tei-lb {
+      display: none;
+    }
+  }
+
+  .tei-type-pageNum {
+    display: block;
   }
 
   // selector might be too broad,
@@ -399,6 +403,7 @@ $render-sic: false;
         center;
       background-size: 1.5em 100%;
       padding-right: 1.5em;
+      width: 95%;
     }
   }
 
