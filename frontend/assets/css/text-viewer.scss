@@ -104,7 +104,8 @@ $render-sic: false;
 #text-viewer .panel .content {
   margin-left: 5em;
   // at least two clear lines gap between bottom of text and page number
-  padding-bottom: calc($edition-line-height * 3);
+  padding-top: $edition-line-height;
+  padding-bottom: calc($edition-line-height * 2);
   position: relative;
 
   opacity: 30%;
