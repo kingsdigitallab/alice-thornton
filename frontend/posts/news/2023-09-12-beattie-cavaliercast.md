@@ -1,7 +1,7 @@
 ---
 title: Project PI interviewed on CavalierCast about Alice Thornton 
 feature: /assets/img/posts/book_rem_inner_cropped.jpg
-status: draft
+status: live
 authors:
   - cbeattie
 tags:
