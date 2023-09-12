@@ -5,7 +5,9 @@ status: draft
 authors:
   - cbeattie
 tags:
-  - blogs
+  - podcasts
+  - manuscripts
+  - wars of the three kingdoms
 ---
 
 Cordelia Beattie (PI) was interviewed by [Mark Turnbull](http://www.1642author.com) for his podcast, [CavalierCast](https://historypodblast.com/a-z-history-podcasts/cavaliercast/), which looks at anything and everything to do with the Wars of the Three Kingdoms. [Have a listen](https://historypodblast.com/episode-28-alice-thorntons-manuscripts/) to find out:
