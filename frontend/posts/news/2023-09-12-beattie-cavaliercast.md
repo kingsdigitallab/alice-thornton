@@ -15,7 +15,7 @@ Cordelia Beattie (PI) was interviewed by [Mark Turnbull](http://www.1642author.c
 
 Have a listen to find out:
 
-▪️ about the life of one woman during these turbulent times, from her experience of the Irish Rebellion, the civil wars, the Interregnum and the Restoration
+▪️ about the life of one woman during these turbulent times, from her experience of the Irish Rebellion, the Wars of the Three Kingdoms, the Interregnum and the Restoration
 
 ▪️ why Alice Thornton wrote about her life so many time over
 
