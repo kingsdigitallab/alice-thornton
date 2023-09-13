@@ -341,6 +341,11 @@ $render-sic: false;
     text-decoration: line-through;
   }
 
+  *[data-tei-rend="doublestrikethrough"] {
+    text-decoration: line-through;
+    text-decoration-style: double;
+  }
+
   &.view-modern {
     .tei-quote.tei-type-direct,
     .tei-quote.tei-type-partial.nomore {
