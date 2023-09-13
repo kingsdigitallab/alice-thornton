@@ -1,9 +1,9 @@
 ---
 firstName: Eleanor
 lastName: Thom
+jobTitle: Engagement and Impact Officer
 affiliation: University of Edinburgh
 department: History
-order: 16
 teams:
   - research
 ---
