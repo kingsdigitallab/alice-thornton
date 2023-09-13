@@ -6,6 +6,7 @@ authors:
   - cbeattie
 tags:
   - manuscripts
+  - blogs
 ---
 
  Project PI, Cordelia Beattie, has written [a post](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html) for the British Library's blog series, 'Untold Lives', about the two Alice Thornton manuscripts in their collection, when they were written, and our current thinking about what prompted the composition of *Book 3: The Second Book of My Widowed Condition*. 
