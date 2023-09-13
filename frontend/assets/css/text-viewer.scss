@@ -56,8 +56,9 @@ $render-sic: false;
 }
 
 #text-viewer {
-  .tei-p {
+  .tei-p, .tei-type-stanza {
     margin-bottom: $edition-line-height;
+    display: block;
   }
 
   span[data-tei-rend~="italic"] {
