@@ -130,7 +130,7 @@
          
          <calendar> will need proper description later
          
-         Sometimes we know from other sources that Alice has got a date wrong. Where identified, these are encoded using <choice><sic><corr>
+         Sometimes we know from other sources that Alice has got a date wrong. Where identified, noted in comments.
          
         -->
      </profileDesc>
@@ -179,16 +179,9 @@
           final check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph? tags.
              tei: emph = "marks words or phrases which are stressed or emphasized for linguistic or rhetorical effect." example = You took the car and did <emph>what</emph>?!! (and I think all the further examples are the same type of thing) 
              - v few clear examples of Alice using underline for exactly this type of emphasis. 
-             - but she does underline things to (afaict) draw attention to them, so does that also count as emph?
+             - but she does sometimes seem to underline things to draw attention to them, so does that also count as emph?
              - Cf. most underline in BkRem used on headings and seems most appropriate to treat as decoration. Queried ones are at end of sections and the Q is whether they should be treated as section markers. 
         
-
-        [reminder to self: already checked numbering in BkRem is consistent even=left, odd=right. not always the case in the other books!]
-
-      
-        remaining endnotes (<note> @place=end)
-          type=word mostly spelling suggestions - where interpretation is straightforward, tag <w norm=""> or <sic>. but keep uncertain ones for later review.
-          type=context may become editorial annotations - leave them for now
    
        events tagging - milestone/anchor pairs 
               -  at present milestone/anchor pairs are linked using @n, prefix "ev". 
@@ -206,12 +199,6 @@
           i've started teiHeader/msDesc with examples of tags that are likely to be useful, but we might not use all of them in the end.
         
      
-      notes on names/places linkage (at end of Sept '22)
-      - most people and place names are now tagged in all four books 
-      - nearly all tagged <persName> are linked to people masterlist db 
-      TODO
-      - some tagged with <rs> (type=person/group/place/geog) have not yet been linked to the db; I'll review these but some will not be identifiable and they're generally lower priority
-      - completion of people.xml standoff to include relationships - to be done once bios have been completed
 
      -->      
        
