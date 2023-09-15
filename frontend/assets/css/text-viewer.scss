@@ -13,11 +13,14 @@
 // if true tei <add> (.tei-add or place="above") is shown as interlinear text with arrow where author inserted it
 // if false it will be shown as superscript
 $render-add-with-arrow: false;
+$edition-line-height: 2.5em;
+$render-sic: false;
 
 // -------------------------------------------------
 // MIXINS
 
 @mixin popover {
+  font-family: "Noto", sans-serif;
   border: 3px solid grey;
   box-shadow: #888 5px 5px 15px 0px;
   z-index: 10;
@@ -50,10 +53,14 @@ $render-add-with-arrow: false;
 
 #text-viewer .panel-chunk {
   border-top: 1px solid lightgrey;
-  background-color: white;
 }
 
 #text-viewer {
+  .tei-p, .tei-type-stanza {
+    margin-bottom: $edition-line-height;
+    display: block;
+  }
+
   span[data-tei-rend~="italic"] {
     font-style: italic;
   }
@@ -97,6 +104,9 @@ $render-add-with-arrow: false;
 // and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
   margin-left: 5em;
+  // at least two clear lines gap between bottom of text and page number
+  padding-top: $edition-line-height;
+  padding-bottom: calc($edition-line-height * 2);
   position: relative;
 
   opacity: 30%;
@@ -104,6 +114,42 @@ $render-add-with-arrow: false;
   &.loaded {
     opacity: 100%;
   }
+
+  // Spaces, gaps & damages
+
+  // .tei-space[data-tei-unit="page"]:before {
+  //   content: "[Blank page]";
+  // }
+
+  &.view-modern,
+  &.view-semidip {
+    // always retain line breaks for missing lines
+    br.missing-line {
+      display: inline;
+    }
+  }
+
+  span[data-tei-unit="char"] .missing-content-message {
+    display: none;
+  }
+
+  .missing-content-message,
+  .missing-chars {
+    color: #777;
+    font-style: italic;
+    &:before {
+      content: "[";
+    }
+    &:after {
+      content: "]";
+    }
+  }
+
+  span[data-tei-unit="line"] .missing-content-message {
+    margin-left: 0.3em;
+  }
+
+  // -----
 
   &.view-modern {
     br {
@@ -129,6 +175,16 @@ $render-add-with-arrow: false;
     .tei-surplus {
       display: none;
     }
+
+    .tei-measure.tei-type-currency {
+      &:before {
+        content: "£";
+      }
+
+      .tei-am {
+        display: none;
+      }
+    }
   }
 
   .tei-surplus:not(.not-a-word) {
@@ -138,6 +194,10 @@ $render-add-with-arrow: false;
   }
 
   &.view-semidip {
+    span[data-tei-rend~="superscript"] {
+      vertical-align: super;
+    }
+  
     .norm {
       display: none;
     }
@@ -149,14 +209,26 @@ $render-add-with-arrow: false;
     .tei-corr {
       display: none;
     }
-  }
 
-  .tei-space[data-tei-unit="page"]:before {
-    content: "[Blank page]";
-  }
+    @if ($render-sic) {
+      .tei-sic {
+        text-decoration: underline wavy orange;
+      }
+    }
 
-  .tei-type-pageNum {
-    display: block;
+    .tei-supplied[data-tei-reason="mod"] {
+      display: none;
+    }
+
+    .tei-supplied[data-tei-reason="unclear"],
+    .tei-supplied[data-tei-reason="omitted"] {
+      &:before {
+        content: "[";
+      }
+      &:after {
+        content: "]";
+      }
+    }
   }
 
   // p {
@@ -195,7 +267,7 @@ $render-add-with-arrow: false;
   span {
     // to allow interlinear span within it
     // position: relative;
-    line-height: 2.5em;
+    line-height: $edition-line-height;
   }
 
   span[data-tei-rend~="italic"] {
@@ -228,7 +300,7 @@ $render-add-with-arrow: false;
       }
     }
 
-    *[data-tei-place~="margin"] {
+    *[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header) {
       display: inline-block;
       position: absolute;
       left: -5em;
@@ -236,16 +308,52 @@ $render-add-with-arrow: false;
     }
   }
 
+  &.view-modern {
+    .tei-fw[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header) {
+      display: none;
+    }
+  }
+
+  .tei-fw.tei-type-pageNum {
+    position: absolute;
+    bottom: 0;
+
+    &+.tei-lb {
+      display: none;
+    }
+  }
+
+  .tei-type-pageNum {
+    display: block;
+  }
+
+  // selector might be too broad,
+  // <fw> is used for various things
+  .tei-fw {
+    display: block;
+
+    &[data-tei-place="right"] {
+      text-align: right;
+    }
+  }
+
   *[data-tei-rend="strikethrough"] {
     text-decoration: line-through;
+  }
+
+  *[data-tei-rend="doublestrikethrough"] {
+    text-decoration: line-through;
+    text-decoration-style: double;
   }
 
   &.view-modern {
     .tei-quote.tei-type-direct,
     .tei-quote.tei-type-partial.nomore {
-      &:before,
+      &:before {
+        content: "‘";
+      }
       &:after {
-        content: '"';
+        content: "’";
       }
     }
   }
@@ -256,21 +364,57 @@ $render-add-with-arrow: false;
     }
   }
 
-  span[data-tei="space"][data-tei-unit="line"] {
-    // 1.5.last.horizontal-line
-    // TODO: use hr instead
-    display: block;
-    margin-top: 1em;
-    border-bottom: 1px solid black;
-  }
-
-  .tei-figure-wrapper {
-    font-size: 1.5rem;
-  }
-
   .hidden {
     display: none;
   }
+
+  // LIST -----------------
+
+  .tei-list {
+    display: block;
+
+    .tei-item {
+      // doesn't work in FF
+      &:not(:has(.tei-list)) {
+        text-indent: -1em;
+        padding-left: 1em;
+      }
+
+      display: block;
+      // enough space for the label
+      padding-right: 3em;
+      .tei-item {
+        padding-right: 0;
+      }
+      position: relative;
+
+      .tei-label {
+        right: 0;
+        position: absolute;
+        top: 0;
+      }
+    }
+  }
+
+  &.view-semidip {
+    // .tei-list[data-tei-rend="braced(})"] + .tei-label {
+    span[data-tei-rend="braced(})"] + .tei-label,
+    .has-braced-seg > .tei-label {
+      // 2.5em is the line height
+      // we align the label with the middle item in the list
+      top: calc(50% - ($edition-line-height / 2));
+    }
+    .tei-seg[data-tei-rend="braced(})"] {
+      display: inline-block;
+      background: url(../img/icons/closing-curly-brace.svg) no-repeat right
+        center;
+      background-size: 1.5em 100%;
+      padding-right: 1.5em;
+      width: 95%;
+    }
+  }
+
+  // ----------------------
 
   ins {
     text-decoration: none;
@@ -289,8 +433,8 @@ $render-add-with-arrow: false;
     text-align: center;
 
     &:before {
-      background: none;
-      display: hidden;
+      // removes the decoration applied to the h2 on the rest of the site
+      display: none;
     }
   }
   h3,
@@ -313,6 +457,10 @@ $render-add-with-arrow: false;
     color: inherit;
     text-decoration: underline dotted green;
     text-decoration-thickness: 2px;
+  }
+
+  .tei-figure-wrapper {
+    font-size: 1.5rem;
   }
 
   figure {
@@ -365,16 +513,38 @@ $render-add-with-arrow: false;
 
   .has-info-box {
     position: relative;
-    border-bottom: 4px dotted lightblue;
+    border-bottom: 4px dotted lightskyblue;
+
+    &.tei-term {
+      border-bottom-color: lightsalmon;
+    }
+
+    &.tei-g {
+      border-bottom: 2px dotted lightgray;
+    }
 
     &.tei-anchor {
       border-bottom: none;
     }
 
+    &.tei-quote {
+      padding-bottom: 4px;
+      border-bottom-color: lightgreen;
+    }
+
     &:hover {
       border-bottom-style: solid;
-      .info-box {
+      > .info-box {
         display: inline-block;
+      }
+      &.child-hovered {
+        // special case for nested info boxes.
+        // we don't want the parent one to popover
+        // when the user hovers the child one.
+        // This class is dynamically set by text-viewer.js.
+        > .info-box {
+          display: none;
+        }
       }
     }
   }
@@ -392,12 +562,18 @@ $render-add-with-arrow: false;
     width: max-content;
     max-width: 20em;
     background-color: white;
+    font-style: normal;
+  
     // to counter cursive set by monogram on R.1
     // font-family: initial;
 
     span {
       line-height: 1.5em;
     }
+
+    .tei-p {
+      margin-bottom: inherit;
+    }  
 
     .banner {
       display: block;
