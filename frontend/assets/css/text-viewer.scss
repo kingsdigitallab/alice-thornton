@@ -56,7 +56,8 @@ $render-sic: false;
 }
 
 #text-viewer {
-  .tei-p, .tei-type-stanza {
+  .tei-p,
+  .tei-type-stanza {
     margin-bottom: $edition-line-height;
     display: block;
   }
@@ -197,7 +198,7 @@ $render-sic: false;
     span[data-tei-rend~="superscript"] {
       vertical-align: super;
     }
-  
+
     .norm {
       display: none;
     }
@@ -318,7 +319,7 @@ $render-sic: false;
     position: absolute;
     bottom: 0;
 
-    &+.tei-lb {
+    & + .tei-lb {
       display: none;
     }
   }
@@ -563,7 +564,7 @@ $render-sic: false;
     max-width: 20em;
     background-color: white;
     font-style: normal;
-  
+
     // to counter cursive set by monogram on R.1
     // font-family: initial;
 
@@ -573,7 +574,7 @@ $render-sic: false;
 
     .tei-p {
       margin-bottom: inherit;
-    }  
+    }
 
     .banner {
       display: block;
