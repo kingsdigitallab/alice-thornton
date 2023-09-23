@@ -14,8 +14,8 @@ In 2021, during lockdown, the writer and actor [Debbie Cannon](https://debbiecan
 
 ![A woman in a white gown and nightcap with long brown hair kneels on the floor on stage as if praying]({{"/assets/img/posts/remarkable-deliverances-play.jpg" | url}} "Debbie Cannon in 'The Remarkable Deliverances of Alice Thornton. Jane Hobson")
 
-There is also a guest appearance by Project PI, Cordelia Beattie, towards the end, talking about the [two recently rediscovered manuscripts](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/).
+There is also a guest appearance by Project PI, Cordelia Beattie, at the end of the podcast, talking about the [two recently rediscovered manuscripts](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) and the collaboration with Debbie Cannon.
 
-For more recent podcasts by the project team, check out Episode 28 with [CavalierCast](https://historypodblast.com/a-z-history-podcasts/cavaliercast/) and Episode 173 with [English Heritage](https://soundcloud.com/englishheritage/episode-173-civil-war-and-childbirth-alice-thornton-and-middleham-castle).
+For more recent podcasts by the project team on Alice Thornton, check out Episode 28 with [CavalierCast](https://historypodblast.com/a-z-history-podcasts/cavaliercast/) and Episode 173 with [English Heritage](https://soundcloud.com/englishheritage/episode-173-civil-war-and-childbirth-alice-thornton-and-middleham-castle).
 
 
