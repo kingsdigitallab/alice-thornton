@@ -16,6 +16,6 @@ In January 2021, during lockdown, the writer and actor [Debbie Cannon](https://d
 
 There is also a guest appearance by Project PI, Cordelia Beattie, at the end of the podcast, talking about the [two rediscovered manuscripts](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/) and the collaboration with Debbie Cannon.
 
-For more podcasts by the project team on Alice Thornton, check out Episode 28 with [CavalierCast](https://historypodblast.com/a-z-history-podcasts/cavaliercast/) (September 2023) and Episode 173 with [English Heritage](https://soundcloud.com/englishheritage/episode-173-civil-war-and-childbirth-alice-thornton-and-middleham-castle) (July 2022).
+For more podcasts by the project team on Alice Thornton, check out Episode 28 with [CavalierCast](https://www.buzzsprout.com/1194917/13556873-episode-28-alice-thornton-s-manuscripts) (September 2023) and Episode 173 with [English Heritage](https://soundcloud.com/englishheritage/episode-173-civil-war-and-childbirth-alice-thornton-and-middleham-castle) (July 2022).
 
 
