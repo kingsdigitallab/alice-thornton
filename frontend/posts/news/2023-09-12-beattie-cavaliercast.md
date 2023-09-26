@@ -10,7 +10,7 @@ tags:
   - wars of the three kingdoms
 ---
 
-Cordelia Beattie (PI) was interviewed by [Mark Turnbull](http://www.1642author.com) for his podcast, [CavalierCast](https://historypodblast.com/a-z-history-podcasts/cavaliercast/), which looks at anything and everything to do with the Wars of the Three Kingdoms. [Have a listen](https://historypodblast.com/episode-28-alice-thorntons-manuscripts/) to find out:
+Cordelia Beattie (PI) was interviewed by [Mark Turnbull](http://www.1642author.com) for his podcast, [CavalierCast](https://historypodblast.com/a-z-history-podcasts/cavaliercast/), which looks at anything and everything to do with the Wars of the Three Kingdoms. [Have a listen](https://www.buzzsprout.com/1194917/13556873-episode-28-alice-thornton-s-manuscripts) to find out:
 
 
 Have a listen to find out:
