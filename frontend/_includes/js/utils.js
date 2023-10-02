@@ -30,7 +30,7 @@ function lookup(anarray, path_to_property, accepted_values, exclude = false) {
     let values = [item];
     if (path_to_property.length) {
       values = path_to_property.reduce((o, i) => o[i], item);
-      if (typeof values !== "undefined") {
+      if (values !== null) {
         if (values.constructor !== Array) {
           values = [values];
         }
