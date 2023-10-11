@@ -1,14 +1,20 @@
 ---
-title: "Project symposium to discuss edited volume on Thornton"
+title: "Project Symposium: Toward a Reassessment of Alice Thornton's 'Books'"
 feature: /assets/img/posts/thornton_book_rem_page_69.jpg
-status: draft
+status: live
 authors:
-  - jedge
+  - strill
 tags:
   - events
   - publications
 ---
 
-![A page of Thornton's Book of Remembrances which discusses her taking mass at her house East Newton]({{"/assets/img/posts/thornton_book_rem_page_69.jpg" | url}} "Book of Remembrances, page 69, discussing a gathering at Thornton's East Newton house to participate in Mass. Photo by Derek Beattie")
+As promised in our application for AHRC funding, the Alice Thornton’s Books team have organised a symposium that will take place over the next two days, 12 and 13 July 2023, in Edinburgh. 
 
-The Thornton's Books project team and experts from institutions all over the world meet for two days on 12 and 13 July in Edinburgh to discuss pre-circulated papers for a forthcoming companion to Alice Thornton. Titled *Alice Thornton's Life-Writings: Reassessing a Seventeenth-Century Woman's Manuscript Books*, it will be published by Amsterdam University Press in 2024.
+![A page of Thornton's Book of Remembrances which discusses her taking communion at her house East Newton]({{"/assets/img/posts/thornton_book_rem_page_69.jpg" | url}} "*Book of Remembrances*, 69. Photo by Derek Beattie"){.media-right}
+
+For this gathering, we have invited a group of international scholars with specific expertise in different fields and disciplines. Last summer, we gave our participants access to our draft semi-diplomatic transcriptions of all four of the Thornton manuscripts so that we could all produce papers for pre-circulation. 
+
+After the symposium, these papers will be revised for publication in an edited volume, entitled *Alice Thornton’s Life-Writings: Reassessing a Seventeenth-Century Woman’s Manuscript Books*, which will be published in open access format by [Amsterdam University Press](https://www.aup.nl/en/series/gendering-the-late-medieval-and-early-modern-world) in 2025.
+
+The image, from the *Book of Remembrances*, describes a rather different gathering in which Thornton records her delight as she and her family can celebrate the Lord’s Supper at their new home in East Newton (August 1662).

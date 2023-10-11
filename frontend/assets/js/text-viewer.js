@@ -1,5 +1,7 @@
 const { createApp } = window.Vue;
 
+const CHILD_HOVERED_CLASS = "child-hovered";
+
 function setUpTextViewer() {
   let PanelControl = {
     template: `
@@ -320,6 +322,30 @@ function setUpTextViewer() {
           //   );
           //   anchors.classList.add("managed");
           // });
+
+          // We set a hover class on hover.
+          // fixes the bug where hover on nested info-box
+          // would trigger :hover selector on both boxes
+          // and they would overlap.
+          const withInfoBox = window.document.querySelectorAll(".has-info-box");
+
+          withInfoBox.forEach((element) => {
+            if (element.classList.contains("managed")) return;
+            let closestInfoBoxContainer =
+              element.parentElement.closest(".has-info-box");
+
+            if (closestInfoBoxContainer) {
+              element.addEventListener("mouseenter", () => {
+                // set child-hovered class on .has-info-box ancestors
+                closestInfoBoxContainer.classList.add(CHILD_HOVERED_CLASS);
+              });
+              element.addEventListener("mouseleave", () => {
+                // unset hover-parent class on .has-info-box ancestors
+                closestInfoBoxContainer.classList.remove(CHILD_HOVERED_CLASS);
+              });
+            }
+            element.classList.add("managed");
+          });
 
           // TODO: attach events only to current panel
           const btnFigures = window.document.querySelectorAll(".btn-figure");

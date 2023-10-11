@@ -3,7 +3,7 @@ name: Publish TEI
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 13,18 * * *"
+    - cron: "0 9,13,18 * * *"
 
 jobs:
   publish-tei:
@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [17.x]
+        node-version: [19.x]
 
     steps:
       - uses: actions/checkout@v3

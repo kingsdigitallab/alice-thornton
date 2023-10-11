@@ -52,9 +52,8 @@ module.exports = function () {
   if (environment == "lcl") {
     ret["text_viewer"]["source"] = {
       // "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/dts-stg/dts.json":
-      //   "AT DTS (stg)",
-      // "http://localhost:3000": "AT DTS (local:3000)",
-      "http://192.168.0.48:3000": "AT DTS (local:3000)",
+      // "AT DTS (stg)",
+      "http://localhost:3000": "AT DTS (local:3000)",
     };
   }
   if (environment == "pre") {
@@ -72,7 +71,7 @@ module.exports = function () {
 
   if (["pre", "liv"].includes(environment)) {
     ret["text_viewer"]["visible_documents"] = {
-      book_of_remembrances: [1, 22],
+      book_of_remembrances: [1, 103],
       book_one: [],
       book_two: [],
       book_three: [],
