@@ -717,3 +717,70 @@ ul.undecorated-list {
 .panel.is-info .panel-heading {
   background-color: $secondary;
 }
+
+// book page
+
+.book-preview {
+
+  .book-preview-header {
+    gap: 2rem;
+
+    .book-preview-thumb {
+    
+      .book-thumb {
+        width: 15rem;
+        height: auto;
+      }  
+    }
+
+    .book-preview-metadata {
+      gap: 1em;
+
+      a.button {
+        width: 8em;
+        background-color: $primary;
+        color: white;
+        border-radius: 8px;
+        height: auto;
+      }
+
+      .book-preview-fields {
+        // gap: 2rem;
+        // padding-top: 1em;
+        // padding-bottom: 1em;
+        margin-top: auto;
+
+        border-top: 2px solid #ddd;
+        border-bottom: 2px solid #ddd;
+        padding-top: 1em;
+        padding-bottom: 1em;
+      
+        &>div:not(:last-child) {
+          border-right: 2px solid #ddd;
+        }
+        &> div {
+          text-align: center;
+          padding: 1em;
+          // display: flex;
+          // flex-direction: column;
+          // align-items: center;
+        }
+        .field-name {
+          // text-transform: uppercase;
+          font-variant: small-caps;
+          color: grey;
+        }
+        .field-value {
+          // text-transform: uppercase;
+          font-weight: bold;
+        }
+        .field-location {
+          font-style: italic;
+        }
+      }
+    }
+  
+  }
+
+}
+

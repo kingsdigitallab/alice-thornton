@@ -3,6 +3,7 @@ pageImageWebPath: "/assets/img/logos/alice-thornton-logo-img.jpeg"
 isContentHTML: false
 isPageFluid: false
 hideFooter: false
+hideTitle: false
 ---
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -51,9 +52,11 @@ hideFooter: false
     {% include "header.liquid" %}
     <section class="section">
       <div class="container {% if isPageFluid %}is-fluid{% endif %}">
-        <h1 class="title">
-          {{ title }}
-        </h1>
+        {% if hideTitle == false %}
+          <h1 class="title">
+            {{ title }}
+          </h1>
+        {% endif %}
         <div class="{% if isContentHTML == false %}content{% endif %} {{ tags }}">
           {{ content }}
         </div>

@@ -1,0 +1,50 @@
+---
+layout: base.liquid
+tags: books
+itemtype:
+  - https://schema.org/ArchiveComponent 
+  - https://schema.org/Book
+creator: Alice Thornton
+hideTitle: true
+eleventyComputed:
+  name: "{{ title }}"
+  description: "{{ content }}"
+---
+
+<!-- https://www.w3resource.com/schema.org/introduction.php -->
+
+<!-- TODO: multiple itemtype is valid microformat but perhaps not supported by Google. -->
+<div class="book-preview" itemscope itemtype="{% for item in itemtype %}{{item}} {% endfor %}">
+
+  <div class="book-preview-header is-flex is-flex-wrap-wrap block">
+    <!-- TODO: add spans with @itemprop -->
+    <div class="book-preview-thumb">
+      <img itemprop="image" src="{{ image }}" class="book-thumb">
+    </div>
+    <div class="book-preview-metadata is-flex is-flex-direction-column">
+      <h1 class="title is-3">{{ name }}</h1>
+      <span>
+        <a href="../viewer/?p0.do={{ page.fileSlug }}" class="button">Read</a>
+      </span>
+      <div class="book-preview-fields is-flex is-flex-wrap-wrap">
+        <div>
+          <div class="field-name">Written</div>
+          <div class="field-value">{{ dateCreated }}</div>
+        </div>
+        <div>
+          <div class="field-name">Length</div>
+          <div class="field-value">{{ numberOfPages }}</div>
+          <div class="field-unit">pages</div>
+        </div>
+        <div class="field-location">
+          <a href="{{archivedAt}}">{{ holdingArchive }},<br> {{ itemLocation }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="book-preview-description block content">
+    {{ content }}
+  </div>
+
+</div>

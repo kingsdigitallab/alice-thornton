@@ -12,26 +12,20 @@ Over the course of the next two years, this project will produce an interactive 
 The text of all four manuscript volumes will be available to read in both fully modernised and semi-diplomatic versions, either separately or side-by-side. As we are using the widely recognised Text Encoding Initiative (TEI) markup schema, the edition will be fully searchable (for example, users will be able to trace people and events across all four volumes).
 
 <div class="gallery-by-4">
-  <div class="book-image">
-
-![](/assets/img/books/BookRemembrancesFrontCover.jpg "Durham Cathedral Library, <br>GB-0033-CCOM 38")
-
-  </div>
-  <div class="book-image">
-
-![](/assets/img/books/Book1FrontCover.jpg "British Library, <br>Add. MS 88897/1")
-
-  </div>
-  <div class="book-image">
-
-![](/assets/img/books/Book2FrontCover.jpg "Durham Cathedral Library, <br>GB-0033-CCOM 7")
-
-  </div>
-  <div class="book-image">
-
-![](/assets/img/books/Book3FrontCover.jpg "British Library, <br>Add. MS 88897/2")
-
-  </div>
+  {%- assign books = collections.books | sort:"data.bookOrder" -%}
+  {%- for book in books -%}
+    <div class="book-image">
+      <figure>
+        <a href="{{ book.url | url }}">
+          <img src="{{ book.data.image }}">
+        </a>
+        <figcaption>
+          {{ book.data.holdingArchive }},<br>
+          {{ book.data.itemLocation }}
+        </figcaption>
+      </figure>
+    </div>
+  {%- endfor -%}
 </div>
 
 Although we are not digitising the manuscripts, we will provide some sample images from each of the volumes to offer a sense of how the original materials looked.
