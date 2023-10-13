@@ -24,7 +24,11 @@ eleventyComputed:
     <div class="book-preview-metadata is-flex is-flex-direction-column">
       <h1 class="title is-3">{{ name }}</h1>
       <span>
-        <a href="../viewer/?p0.do={{ page.fileSlug }}" class="button">Read</a>
+        <a href="../viewer/?p0.do={{ page.fileSlug }}" class="button btn-read">Read</a>
+        <a href="{{ contentUrl }}" class="button btn-tei">
+          <span class="icon is-small"><i class="fa fa-code"></i></span>
+          <span>Download TEI</span>
+        </a>
       </span>
       <div class="book-preview-fields is-flex is-flex-wrap-wrap">
         <div>

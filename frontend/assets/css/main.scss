@@ -737,11 +737,21 @@ ul.undecorated-list {
       gap: 1em;
 
       a.button {
-        width: 8em;
-        background-color: $primary;
-        color: white;
-        border-radius: 8px;
         height: auto;
+        margin-right: 1em;
+        width: 8em;
+
+        &.btn-read {
+          background-color: $primary;
+          color: white;
+          border-radius: 8px;
+        }
+
+        &.btn-tei {
+          .icon {
+            margin-right: 1em;
+          }
+        }
       }
 
       .book-preview-fields {
