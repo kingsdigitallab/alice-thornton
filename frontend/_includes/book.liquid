@@ -40,8 +40,11 @@ eleventyComputed:
           <div class="field-value">{{ numberOfPages }}</div>
           <div class="field-unit">pages</div>
         </div>
-        <div class="field-location">
-          <a href="{{archivedAt}}">{{ holdingArchive }},<br> {{ itemLocation }}</a>
+        <div>
+          <div class="field-name">Archive</div>
+          <div class="field-value">
+            <a href="{{archivedAt}}">{{ holdingArchive }},<br> {{ itemLocation }}</a>
+          </div>
         </div>
       </div>
     </div>
