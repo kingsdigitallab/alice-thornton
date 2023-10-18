@@ -801,10 +801,18 @@ ul.undecorated-list {
       
         &>div:not(:last-child) {
           border-right: 2px solid #ddd;
+          @include mobile {
+            border-right: none;
+          }      
         }
         &> div {
-          text-align: center;
           padding: 1em;
+          text-align: center;
+
+          @include mobile {
+            text-align: left;
+          }
+      
           // display: flex;
           // flex-direction: column;
           // align-items: center;
