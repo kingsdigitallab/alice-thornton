@@ -11,20 +11,25 @@ Over the course of the next two years, this project will produce an interactive 
 
 The text of all four manuscript volumes will be available to read in both fully modernised and semi-diplomatic versions, either separately or side-by-side. As we are using the widely recognised Text Encoding Initiative (TEI) markup schema, the edition will be fully searchable (for example, users will be able to trace people and events across all four volumes).
 
-<div class="gallery-by-4">
+<div class="bookshelf">
   {%- assign books = collections.books | sort:"data.bookOrder" -%}
   {%- for book in books -%}
-    <div class="book-image">
-      <figure>
-        <a href="{{ book.url | url }}">
-          <img src="{{ book.data.image }}">
-        </a>
+    <figure class="book columns">
+      <a href="{{ book.url | url }}" class="column is-half">
+        <img src="{{ book.data.image }}">
+      </a>
+      <div class="column is-half is-flex is-flex-direction-column">
+        <h3 class="book-title">{{ book.data.title }}</h3>
         <figcaption>
           {{ book.data.holdingArchive }},<br>
           {{ book.data.itemLocation }}
         </figcaption>
-      </figure>
-    </div>
+        <div class="book-buttons">
+          <a href="{{ book.url | url }}" class="button">Preview</a>
+          <a href="viewer/?p0.do={{ book.fileSlug }}" class="button is-primary">Read</a>
+        </div>
+      </div>
+    </figure>
   {%- endfor -%}
 </div>
 

@@ -524,6 +524,29 @@ figcaption {
   max-width: 1280px;
 }
 
+.bookshelf {
+  display: flex;
+  flex-wrap: wrap;
+
+  .book.columns {
+    width: 25em;
+    margin: 0;
+
+    .book-buttons {
+      margin-top: auto;
+      margin-bottom: 2em;
+  
+      .button {
+        margin-right: 1em;
+      }
+    }
+
+    .book-title {
+      margin-bottom: auto;
+    }
+  }
+}
+
 .navbar {
   background-color: $primary;
   color: $light;
