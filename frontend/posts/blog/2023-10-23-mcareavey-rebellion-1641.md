@@ -24,9 +24,9 @@ So wrote Alice Thornton in a [letter](https://thornton.kdl.kcl.ac.uk/posts/blog/
 
 The rebellion began when a group of disaffected Irish Catholic lords conspired to seize some key strategic strongholds in Ireland. They failed to achieve the primary goal of taking Dublin Castle, however, and the revolt was initially confined to Ulster where Sir Phelim O'Neill had captured Charlemont fort in County Armagh. The rebellion gradually spread across the country during the winter months as Protestant settlers were robbed and ejected from their lands. During this time, thousands of refugees fled to the relative safety of Dublin or left the country altogether.
 
-Alice was a young girl at the time of the rebellion; by the time she wrote her letter to her brother, she was a woman of middle age. As she utilized their shared trauma in Ireland as a theme for devotional practice, Thornton adopted a three-pronged approach that provides a template for the representation of Irish rebellion experiences in her *Books*: 
-
 ![A black and white etching of a man with a bowl haircut and goatee, dressed in the clothing of the nobility, with 'Sr Phillom O Neale Cheife Traitor of all Ireland' written at the top]({{"/assets/img/posts/sir-phelim-oneill.png" | url }} "Sir Phelim O'Neill. Public domain, via Wikimedia Commons")
+
+Alice was a young girl at the time of the rebellion; by the time she wrote her letter to her brother, she was a woman of middle age. As she utilized their shared trauma in Ireland as a theme for devotional practice, Thornton adopted a three-pronged approach that provides a template for the representation of Irish rebellion experiences in her *Books*: 
 
 1. She focuses on the failure of the rebels’ plot to seize Dublin Castle rather than their success in seizing key strongholds in Ulster.
 2. She emphasizes thankfulness for her deliverance from rebel violence rather than dwelling on the violence endured by the British Protestant community. 
