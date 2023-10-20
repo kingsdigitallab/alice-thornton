@@ -12,7 +12,7 @@ tags:
 
 ##
 
-This month's guest blog is by Naomi McAreavey, Associate Professor in Renaissance Literature at University College Dublin. Naomi McAreavey is editor of [*The Letters of the First Duchess of Ormonde* (2022)](https://press.uchicago.edu/ucp/books/book/distributed/L/bo99702299.html) and, with Julie A. Eckerle, of [*Women’s Life Writing and Early Modern Ireland* (2019)](https://www.nebraskapress.unl.edu/nebraska/9780803299979/). She is writing on Alice Thornton and Ireland for our forthcoming [collection of essays](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-12-project-symposium/) for Amsterdam University Press. 
+This guest blog to mark the anniversary of the Irish Rebellion is by Naomi McAreavey, Associate Professor in Renaissance Literature at University College Dublin. Naomi McAreavey is editor of [*The Letters of the First Duchess of Ormonde* (2022)](https://press.uchicago.edu/ucp/books/book/distributed/L/bo99702299.html) and, with Julie A. Eckerle, of [*Women’s Life Writing and Early Modern Ireland* (2019)](https://www.nebraskapress.unl.edu/nebraska/9780803299979/). She is writing on Alice Thornton and Ireland for our forthcoming [collection of essays](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-12-project-symposium/) for Amsterdam University Press. 
 
 CN: contains graphic description and artistic representation of scenes of massacre.
 
