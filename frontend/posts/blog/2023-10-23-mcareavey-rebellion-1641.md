@@ -1,5 +1,5 @@
 ---
-title: "Alice Thornton and the 1641 Rebellion"
+title: "Alice Thornton and the Irish Rebellion of 1641"
 feature: /assets/img/posts/portadown-massacre.png
 authors:
   - nmcareavey
