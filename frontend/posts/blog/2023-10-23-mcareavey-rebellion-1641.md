@@ -1,6 +1,6 @@
 ---
 title: "Alice Thornton and the 1641 Rebellion"
-feature: 
+feature: /assets/img/posts/portadown-massacre.png
 authors:
   - nmcareavey
 status: draft
@@ -31,8 +31,6 @@ Thornton’s providential framework was rooted in the belief that God’s guidin
 The 23 October thanksgiving recalled the rebellion as a massacre of English and Scottish settlers by the Irish rebels. The divine service acknowledged how God ‘didst suffer those men of blood to make their swords fat with the slaughter of so many thousand Innocents’.[^4] This was the version of events established by Sir John Temple’s influential and often-reprinted Irish Rebellion.[^5] Temple’s version also seems to have shaped the way Thornton represented the rebellion. When in Book 1 she remembered ‘...the many thousands that perished to be murdered, stripped, slain, burned, drowned’, she seemed to be drawing from Temple rather than her own witness.[^6]
 
 ![A black and white engraving showing men with pikes threatening a group of people on a bridge. Across the top is written 'Drivinge Men Women & children by hundreds upon Bridges & casting them into Rivers, who drowned not were killed with poles & shot with muskets'.]({{"/assets/img/posts/portadown-massacre.png" | url }} "Engraving of the Portadown Massacre (1641) by Wenceslaus Hollar, first published in James Cranford's *Teares of Ireland* (London, 1642). Public domain, via Wikimedia Commons"){.media-left}
-
-<p>&nbsp;</p>
 
 Thornton was a fifteen-year-old girl living in Dublin with her recently widowed mother when the rebellion broke out. When news reached them, they sought refuge in Dublin Castle before returning to their own house to prepare to depart Ireland for good. When Thornton recalled this frightening time, she provided a catalogue of sufferings including ‘...frights, fastings and pains (about sacking the goods, and wanting sleep, times of eating, or refreshment)’.[^7] She recalled how these privations had such an impact on her ‘young bodie’ that she succumbed to ‘...a desperate flux, called the Irish disease’ that was nearly fatal.[^8]     
 
