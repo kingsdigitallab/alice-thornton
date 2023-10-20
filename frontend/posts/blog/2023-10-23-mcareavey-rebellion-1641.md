@@ -55,11 +55,11 @@ Placing Thornton’s writing in the context of other Irish rebellion texts offer
 
 [^5]: Sir John Temple, *An History of the Irish Rebellion* (London, 1646).
 
-[^6]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: 'the many 1000ds that perished. to be murdered, stript, slaine, burned, drowned’. Alice Thornton, *Book 1: The First Book of My Life*, 68. Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noel, Tiffany Ong, Priyal Shah. 'Digital Edition'. *Alice Thornton's Books*. 
+[^6]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: 'The many 1000ds that perished. to be murdered, stript, slaine, burned, drowned’. Alice Thornton, *Book 1: The First Book of My Life*, 68. Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noel, Tiffany Ong, Priyal Shah. 'Digital Edition'. *Alice Thornton's Books*. 
 
-[^7]: 'frights, fastings & paines about sacking the goods, & wanting sleepe, times of eating, or refreshment'. Thornton, *Book 1*, 66.
+[^7]: 'Frights, fastings & paines about sacking the goods, & wanting sleepe, times of eating, or refreshment'. Thornton, *Book 1*, 66.
 
-[^8]: 'a desperate flux. called the Irish disseas’. Thornton, *Book 1*, 66.
+[^8]: 'A desperate flux. called the Irish disseas’. Thornton, *Book 1*, 66.
 
 [^9]: Temple, *Irish Rebellion*, 106.
 
