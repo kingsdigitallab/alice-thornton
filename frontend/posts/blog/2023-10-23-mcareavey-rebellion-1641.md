@@ -10,6 +10,10 @@ tags:
   - letters
 ---
 
+This month's guest blog is by Naomi McAreavey, Associate Professor in Renaissance Literature at University College Dublin. Naomi is editor of *The Letters of the First Duchess of Ormonde* (2022) and, with Julie A. Eckerle, of *Women’s Life Writing and Early Modern Ireland*(2019). 
+
+ ##
+
 > The time of the rebellion's discovery is near ... for which, sir, both you and I have cause to return our most humble gratitude to almighty God who did deliver us from the dreadful murders prepared for us when we were in Ireland by those horrid rebels. The Lord sanctify our hearts to be instruments to his glory.[^1]
 
 So wrote Alice Thornton in a [letter](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/) to her brother in October 1677, evoking their shared memory of being in Ireland when rebellion broke out on 23 October 1641. 
