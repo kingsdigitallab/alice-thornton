@@ -28,9 +28,9 @@ Alice was a young girl at the time of the rebellion; by the time she wrote her l
 
 ![A black and white etching of a man with a bowl haircut and goatee, dressed in the clothing of the nobility, with 'Sr Phillom O Neale Cheife Traitor of all Ireland' written at the top]({{"/assets/img/posts/sir-phelim-oneill.png" | url }} "Sir Phelim O'Neill. Public domain, via Wikimedia Commons"){.media-left}
 
+![The frontispage of an old printed book.]({{"/assets/img/posts/temple-irish-rebellion.jpg" | url }} "The title page to *The Irish Rebellion*, authored in 1641 by Sir John Temple. Public domain, via Wikimedia Commons"){.media-right}
 1. She focuses on the failure of the rebels’ plot to seize Dublin Castle rather than their success in seizing key strongholds in Ulster. 
 2. She emphasizes thankfulness for her deliverance from rebel violence rather than dwelling on the violence endured by the British Protestant community. 
-![The frontispage of an old printed book.]({{"/assets/img/posts/temple-irish-rebellion.jpg" | url }} "The title page to *The Irish Rebellion*, authored in 1641 by Sir John Temple. Public domain, via Wikimedia Commons"){.media-right}
 3. She interprets personal and communal experiences of the rebellion through the lens of divine providence. 
 
 Thornton’s providential framework was rooted in the belief that God’s guiding hand is always at work in the world. And she was far from unique in understanding her suffering and deliverance in October 1641 as part of a divine plan. October 23 had been observed as an annual day of thanksgiving in Ireland since 1661; the Church of Ireland version of the [Book of Common Prayer (1666)](http://justus.anglican.org/resources/bcp/Ireland/Oct23.htm) included prayers to be said at the service.[^2] The emphasis on divine deliverance in these prayers through ‘thy most wise and ever watchful Providence’ aligns with how Thornton made sense of the rebellion in providential terms.[^3]
