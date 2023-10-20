@@ -71,14 +71,14 @@ function setUpTextViewer() {
         if (this.selection.page > this.lastPageNumber) {
           this.selection.page = this.lastPageNumber;
         }
-        this.search();
+        this.search(true);
       },
       onClickPrevPage() {
         this.selection.page--;
         if (this.selection.page < 1) {
           this.selection.page = 1;
         }
-        this.search();
+        this.search(true);
       },
       getBuckets(facet) {
         return facet.buckets.sort((a, b) => {
@@ -89,15 +89,17 @@ function setUpTextViewer() {
       },
       onClickOption() {
         window.Vue.nextTick(() => {
-          this.selection.page = 1;
           this.search();
         });
       },
       onSubmitInputs() {
-        this.selection.page = 1;
         this.search();
       },
-      search() {
+      search(keepPage = false) {
+        if (!keepPage) {
+          this.selection.page = 1;
+        }
+
         let filters = {};
         for (let facetKey of Object.keys(this.facets)) {
           let facet = this.facets[facetKey];

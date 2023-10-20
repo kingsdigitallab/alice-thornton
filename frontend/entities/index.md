@@ -15,7 +15,7 @@ title: Entity Search
         <div class="panel-block">
           <div class="field">
             <div class="control has-icons-left">
-              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder="Find people or places" @search="search" @keyup="search">
+              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder="Find people or places" @search="search()" @keyup="search()">
               <span class="icon is-left">
                 <i class="fas fa-search" aria-hidden="true"></i>
               </span>
