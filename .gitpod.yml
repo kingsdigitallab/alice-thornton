@@ -1,7 +1,7 @@
 tasks:
   - name: "Set up and run frontend"
     env:
-      SITE_ENV: 'dev'
+      SITE_ENV: "dev"
     init: npm run rebuild
     command: npm run serve
 

@@ -181,7 +181,7 @@ h3 {
   }
 
   h2 {
-    &::before {
+    &:not(.undecorated)::before {
       background: url("/assets/img/symbol.svg") left top no-repeat;
       background-size: 1.5rem;
       content: "";
@@ -535,7 +535,7 @@ figcaption {
     .book-buttons {
       margin-top: auto;
       margin-bottom: 2em;
-  
+
       .button {
         margin-right: 1em;
       }
@@ -749,22 +749,20 @@ ul.undecorated-list {
 // Search page
 
 .panel.is-info .panel-heading {
-  background-color: $secondary;
+  background-color: $primary;
 }
 
 // book page
 
 .book-preview {
-
   .book-preview-header {
     gap: 2rem;
 
     .book-preview-thumb {
-    
       .book-thumb {
         width: 15rem;
         height: auto;
-      }  
+      }
     }
 
     .book-preview-metadata {
@@ -798,21 +796,21 @@ ul.undecorated-list {
         border-bottom: 2px solid #ddd;
         padding-top: 1em;
         padding-bottom: 1em;
-      
-        &>div:not(:last-child) {
+
+        & > div:not(:last-child) {
           border-right: 2px solid #ddd;
           @include mobile {
             border-right: none;
-          }      
+          }
         }
-        &> div {
+        & > div {
           padding: 1em;
           text-align: center;
 
           @include mobile {
             text-align: left;
           }
-      
+
           // display: flex;
           // flex-direction: column;
           // align-items: center;
@@ -831,8 +829,5 @@ ul.undecorated-list {
         }
       }
     }
-  
   }
-
 }
-

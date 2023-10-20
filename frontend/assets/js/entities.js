@@ -8,7 +8,7 @@ function setUpTextViewer() {
         selection: {
           query: "",
           type: "",
-          perPage: 10,
+          perPage: 20,
           page: 1,
         },
         _facets: {
@@ -112,7 +112,7 @@ function setUpTextViewer() {
         }
 
         this.results = this.itemsjs.search({
-          per_page: this.perPage,
+          per_page: this.selection.perPage,
           page: this.selection.page,
           sort: "name_asc",
           query: this.selection.query,
@@ -131,7 +131,7 @@ function setUpTextViewer() {
           },
           aggregations: {
             type: {
-              title: "Type",
+              title: "Entity type",
               size: 10,
               conjunction: false,
             },
