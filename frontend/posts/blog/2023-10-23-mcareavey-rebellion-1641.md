@@ -16,7 +16,7 @@ This month's guest blog is by Naomi McAreavey, Associate Professor in Renaissanc
 
 CN: contains graphic description and artistic representation of scenes of massacre.
 
- ##
+##
 
 > The time of the rebellion's discovery is near ... for which, sir, both you and I have cause to return our most humble gratitude to almighty God who did deliver us from the dreadful murders prepared for us when we were in Ireland by those horrid rebels. The Lord sanctify our hearts to be instruments to his glory.[^1]
 
