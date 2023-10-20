@@ -48,7 +48,8 @@ function setUpTextViewer() {
       lastPageNumber() {
         return (
           Math.trunc(
-            this.results.pagination.total / this.results.pagination.per_page
+            (this.results.pagination.total - 1) /
+              this.results.pagination.per_page
           ) + 1
         );
       },
@@ -67,10 +68,16 @@ function setUpTextViewer() {
     methods: {
       onClickNextPage() {
         this.selection.page++;
+        if (this.selection.page > this.lastPageNumber) {
+          this.selection.page = this.lastPageNumber;
+        }
         this.search();
       },
       onClickPrevPage() {
         this.selection.page--;
+        if (this.selection.page < 1) {
+          this.selection.page = 1;
+        }
         this.search();
       },
       getBuckets(facet) {

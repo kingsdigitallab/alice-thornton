@@ -15,11 +15,10 @@ title: Entities
           <div class="control has-icons-left">
             <input class="input" type="text" v-model="selection.query">
             <span class="icon is-left">
-              <i class="fas fa-search" aria-hidden="true">🔍</i>
+              <i class="fas fa-search" aria-hidden="true"></i>
             </span>
           </div>
         </div>
-
         <template v-for="(facet, facetKey) in facets">
           <p class="panel-heading">
             {{ facet.title }}
@@ -35,13 +34,10 @@ title: Entities
             </ul>
           </div>
         </template>
-
       </nav>
     </form>
-
     <div class="search-results column">
       <h2>Results ({{ results.pagination.total }})</h2>
-
       <nav class="pagination" aria-label="pagination">
         <ul class="pagination-list">
           <li>
@@ -63,12 +59,11 @@ title: Entities
           </li>
         </ul>
       </nav>
-
       <ul class="undecorated-list">
         <li v-for="item in items" :class="`entity-${item.type}`">
-          <template v-if="item.type=='person'">👤</template>
-          <template v-if="item.type=='place'">🏳</template>
-          <template v-if="item.type=='event'">🗓</template>
+          <template v-if="item.type=='person'"><i class="fas fa-user" aria-hidden="true"></i></template>
+          <template v-if="item.type=='place'"><i class="fas fa-map-pin" aria-hidden="true"></i></template>
+          <template v-if="item.type=='event'"><i class="fas fa-calendar" aria-hidden="true"></i></template>
           <span class="is-hidden">{{ item['id'] }}</span>
           {{ item.title }}
         </li>
