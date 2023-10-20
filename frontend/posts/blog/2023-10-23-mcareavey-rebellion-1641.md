@@ -12,7 +12,7 @@ tags:
 
 ##
 
-This month's guest blog is by Naomi McAreavey, Associate Professor in Renaissance Literature at University College Dublin. Naomi is editor of *The Letters of the First Duchess of Ormonde* (2022) and, with Julie A. Eckerle, of *Women’s Life Writing and Early Modern Ireland* (2019). 
+This month's guest blog is by Naomi McAreavey, Associate Professor in Renaissance Literature at University College Dublin. Naomi McAreavey [add surname] is editor of The Letters of the First Duchess of Ormonde (2022) and, with Julie A. Eckerle, of Women’s Life Writing and Early Modern Ireland [add space] (2019). She is writing on Alice Thornton and Ireland for our forthcoming [collection of essays](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-12-project-symposium/) for Amsterdam University Press. 
 
  ##
 
