@@ -4,9 +4,9 @@ const gfetch = require("node-fetch");
 const SaxonJS = require("saxon-js");
 const fs = require("fs");
 
-// const sourceBase = '../../tmp/'
-const sourceBase =
-  "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/entities/";
+const sourceBase = './edition/entities/'
+// const sourceBase =
+//   "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/entities/";
 const sources = ["people.xml", "places.xml"];
 const target = "../../frontend/assets/js/entities.json";
 const jsonSheetPath = "xslt/tei-to-json.sef.json";

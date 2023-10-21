@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "xslt": "npx xslt3 -xsl:tei-to-json.xsl -export:xslt/tei-to-json.sef.json -t -nogo",
     "build": "npm run xslt && node entities.js",
-    "watch": "watch --ignoreDirectoryPattern='/xslt/' 'npm run build' ."
+    "watch": "watch --ignoreDirectoryPattern='/xslt/' 'npm run build' .",
+    "fetch": "git clone -b edition --single-branch https://github.com/kingsdigitallab/alice-thornton.git edition; cd edition && git pull"
   },
   "author": "",
   "license": "ISC",

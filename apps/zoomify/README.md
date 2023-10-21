@@ -1,4 +1,4 @@
-This app allows the display of high resolution images in the text viewer.
+This app allows the display of high resolution images in the Text Viewer.
 
 # Usage
 

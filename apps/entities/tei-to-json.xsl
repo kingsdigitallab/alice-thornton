@@ -6,6 +6,17 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:dts="https://w3id.org/dts/api#">
 
+<!-- 
+Format of entity references in the texts:
+
+ppl:PERSONID
+place:PLACEID
+
+Example:
+
+<placeName ref="place:Kirk_131" n="place2">Kirklington</placeName>
+ -->
+
     <xsl:template match="comment()">
     </xsl:template>
 
