@@ -67,11 +67,19 @@ title: Entity Search
       </nav>
       <ul class="undecorated-list">
         <li v-for="item in items" :class="`entity-${item.type}`">
-          <template v-if="item.type=='person'"><i class="fas fa-user" aria-hidden="true"></i></template>
-          <template v-if="item.type=='place'"><i class="fas fa-map-pin" aria-hidden="true"></i></template>
-          <template v-if="item.type=='event'"><i class="fas fa-calendar" aria-hidden="true"></i></template>
-          <span class="is-hidden">{{ item['id'] }}</span>
-          {{ item.title }}
+          <div>
+            <template v-if="item.type=='person'"><i class="fas fa-user" aria-hidden="true"></i></template>
+            <template v-if="item.type=='place'"><i class="fas fa-map-pin" aria-hidden="true"></i></template>
+            <template v-if="item.type=='event'"><i class="fas fa-calendar" aria-hidden="true"></i></template>
+            <span class="is-hidden">{{ item['id'] }}</span>
+            {{ item.title }}
+          </div>
+          <div v-for="(pages, bookId) in item.books">{{ bookId }}: 
+            <template v-for="(page, index) in pages">
+              <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${page}&hi=${item['id']}`">{{ page }}</a>
+              <template v-if="index < (pages.length - 1)">, </template>
+            </template>
+          </div>
         </li>
       </ul>
     </div>

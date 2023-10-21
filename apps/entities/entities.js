@@ -29,7 +29,7 @@ class Entities {
   async loadTei(source) {
     // let docString = this.readFile(source)
     let entitiesJson = await this.xslt(source, jsonSheetPath);
-    // console.log(entitiesJson);
+    // console.log(entitiesJson.substring(0, 300));
     let entities = JSON.parse(entitiesJson);
     // console.log(entities);
 
@@ -74,8 +74,9 @@ class Entities {
 
   writeJson(path, data) {
     // console.log(data)
-    fs.writeFileSync(path, JSON.stringify(data, null, 2), "utf8");
-    console.log(`WRITE ${path}`);
+    let dataStr = JSON.stringify(data, null, 2)
+    fs.writeFileSync(path, dataStr, "utf8");
+    console.log(`WRITE ${path} (${(dataStr.length / 1024 / 1024).toFixed(2)} MB)`);
   }
 }
 
