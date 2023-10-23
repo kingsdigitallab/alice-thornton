@@ -1,5 +1,8 @@
 ---
-title: Entity Search
+title: Search
+eleventyNavigation:
+  key: Search
+  order: 3
 ---
 
 {% raw %}

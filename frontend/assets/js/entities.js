@@ -145,7 +145,7 @@ function setUpTextViewer() {
           },
           aggregations: {
             type: {
-              title: "By entity type",
+              title: "By result type",
               size: 10,
               conjunction: false,
             },
