@@ -13,7 +13,7 @@ eleventyNavigation:
       <h2 class="undecorated">Filters</h2>
       <nav class="panel is-info">
         <p class="panel-heading">
-          By name
+          Text search
         </p>
         <div class="panel-block">
           <div class="field">
@@ -25,7 +25,7 @@ eleventyNavigation:
             </div>
           </div>
         </div>
-        <template v-for="(facet, facetKey) in facets">
+        <template v-for="(facet, facetKey) in filteredFacets">
           <p class="panel-heading">
             {{ facet.title }}
           </p>

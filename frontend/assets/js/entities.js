@@ -39,8 +39,57 @@ function setUpTextViewer() {
       this.fetchRecords();
     },
     computed: {
+      searchConfiguration() {
+        return {
+          sortings: {
+            name_asc: {
+              field: "sortkey",
+              order: "asc",
+            },
+          },
+          aggregations: {
+            books: {
+              title: "By book",
+              size: 5,
+              conjunction: false,
+            },
+            type: {
+              title: "By result type",
+              size: 10,
+              conjunction: false,
+            },
+            region: {
+              title: "By region",
+              size: 100,
+              conjunction: false,
+              forType: "place",
+            },
+          },
+          searchableFields: ["title", "id"],
+        };
+      },
       facets() {
         return this.results.data.aggregations;
+      },
+      selectedTypes() {
+        // return an array of selected result types. E.g. ['person']
+        return (this.facets?.type?.buckets || [])
+          .filter((b) => b.selected)
+          .map((b) => b.key);
+      },
+      filteredFacets() {
+        // only returns facets relevant to the selected result type (itself a facet)
+        // see .forType in this.searchConfiguration
+        let selectedType = this.selectedTypes;
+        selectedType = selectedType.length == 1 ? selectedType[0] : null;
+        return Object.fromEntries(
+          Object.entries(this.facets).filter(([facetKey, facet]) => {
+            let forType =
+              this.searchConfiguration.aggregations[facetKey || facet.name]
+                .forType;
+            return forType ? forType === selectedType : true;
+          })
+        );
       },
       items() {
         return this.results.data.items;
@@ -113,8 +162,8 @@ function setUpTextViewer() {
         }
 
         let filters = {};
-        for (let facetKey of Object.keys(this.facets)) {
-          let facet = this.facets[facetKey];
+        for (let facetKey of Object.keys(this.filteredFacets)) {
+          let facet = this.filteredFacets[facetKey];
           for (let option of facet.buckets) {
             if (option.selected) {
               if (!filters[facetKey]) {
@@ -136,38 +185,15 @@ function setUpTextViewer() {
         //console.log(this.itemsjs.aggregations())
       },
       fetchRecords() {
-        const configuration = {
-          sortings: {
-            name_asc: {
-              field: "sortkey",
-              order: "asc",
-            },
-          },
-          aggregations: {
-            type: {
-              title: "By result type",
-              size: 10,
-              conjunction: false,
-            },
-            books: {
-              title: "By book",
-              size: 5,
-              conjunction: false,
-            },
-            region: {
-              title: "By region",
-              size: 100,
-              conjunction: false,
-            },
-          },
-          searchableFields: ["title", "id"],
-        };
         this.records = [];
         fetch(entitiesSource)
           .then((res) => res.json())
           .then((data) => {
             this.records = data;
-            this.itemsjs = window.itemsjs(this.records, configuration);
+            this.itemsjs = window.itemsjs(
+              this.records,
+              this.searchConfiguration
+            );
             this.search();
           });
       },
