@@ -44,7 +44,7 @@ Example:
             "id": "<xsl:value-of select='@xml:id'/>",
             "title": "<xsl:value-of select='normalize-space(tei:persName[@type="label"]/text())'/>",
             "type": "person",
-            "sortkey": "<xsl:value-of select='normalize-space(tei:persName/tei:surname[1]/text())'/> <xsl:value-of select='normalize-space(tei:persName/tei:forename/text())'/>",
+            "sortkey": "<xsl:value-of select='normalize-space(tei:persName/tei:surname[1]/text())'/> <xsl:value-of select='normalize-space(tei:persName/tei:forename/text())'/> <xsl:value-of select='normalize-space(tei:birth/@when-custom)'/>",
             "pages": {<xsl:call-template name='insertBooksPages'><xsl:with-param name="entity" select="."/><xsl:with-param name="entityPrefix" select="'ppl:'"/></xsl:call-template>}
         }
         <xsl:if test="position()!=last()">,</xsl:if>
