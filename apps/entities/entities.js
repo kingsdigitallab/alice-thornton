@@ -4,7 +4,7 @@ const gfetch = require("node-fetch");
 const SaxonJS = require("saxon-js");
 const fs = require("fs");
 
-const sourceBase = './edition/entities/'
+const sourceBase = "./edition/entities/";
 // const sourceBase =
 //   "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/entities/";
 const sources = ["people.xml", "places.xml"];
@@ -23,7 +23,7 @@ class Entities {
       await this.loadTei(sourceBase + source);
     }
 
-    this.postProcessEntities()
+    this.postProcessEntities();
 
     this.writeJson(target, this.entities);
   }
@@ -32,11 +32,15 @@ class Entities {
     // processing which is much simpler in JS than XSLT
     for (let entity of this.entities) {
       // remove duplicate pages in entity.pages
-      entity.pages = Object.fromEntries(Object.entries(entity.pages).map(([k,v]) => ([k,[...new Set(v)]])));
+      entity.pages = Object.fromEntries(
+        Object.entries(entity.pages).map(([k, v]) => [k, [...new Set(v)]])
+      );
       // remove books from entity.pages which have no pages
-      entity.pages = Object.fromEntries(Object.entries(entity.pages).filter(([k,v]) => v.length));
+      entity.pages = Object.fromEntries(
+        Object.entries(entity.pages).filter(([k, v]) => v.length)
+      );
       // entity.books = list of books they appear in
-      entity.books = Object.keys(entity.pages)
+      entity.books = Object.keys(entity.pages);
     }
   }
 
@@ -88,9 +92,11 @@ class Entities {
 
   writeJson(path, data) {
     // console.log(data)
-    let dataStr = JSON.stringify(data, null, 2)
+    let dataStr = JSON.stringify(data, null, 2);
     fs.writeFileSync(path, dataStr, "utf8");
-    console.log(`WRITE ${path} (${(dataStr.length / 1024 / 1024).toFixed(2)} MB)`);
+    console.log(
+      `WRITE ${path} (${(dataStr.length / 1024 / 1024).toFixed(2)} MB)`
+    );
   }
 }
 
