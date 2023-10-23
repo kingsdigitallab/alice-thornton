@@ -41,7 +41,7 @@ Example:
 
     <xsl:template match="tei:person">
         {
-            "id": "<xsl:value-of select='@xml:id'/>",
+            "id": "ppl:<xsl:value-of select='@xml:id'/>",
             "title": "<xsl:value-of select='normalize-space(tei:persName[@type="label"]/text())'/>",
             "type": "person",
             "sortkey": "<xsl:value-of select='normalize-space(tei:persName/tei:surname[1]/text())'/> <xsl:value-of select='normalize-space(tei:persName/tei:forename/text())'/> <xsl:value-of select='normalize-space(tei:birth/@when-custom)'/>",
@@ -52,12 +52,12 @@ Example:
 
     <xsl:template match="tei:place">
         {
-            "id": "<xsl:value-of select='@xml:id'/>",
+            "id": "place:<xsl:value-of select='@xml:id'/>",
             "title": "<xsl:value-of select='tei:placeName[@type="label"]/text()'/><xsl:value-of select='tei:geogName[@type="label"]/text()'/>",
             "type": "place",
             "subtype": "<xsl:value-of select='@type'/>",
             "sortkey": "<xsl:value-of select='tei:placeName[@type="label"]/text()'/><xsl:value-of select='tei:geogName[@type="label"]/text()'/>",
-            "region": "<xsl:value-of select='tei:location/tei:region/text()'/>",
+            "region": "<xsl:value-of select='(tei:location/tei:region/text(),"Europe")[1]'/>",
             "settlement": "<xsl:value-of select='tei:location/tei:settlement/text()'/>",
             "pages": {<xsl:call-template name='insertBooksPages'><xsl:with-param name="entity" select="."/><xsl:with-param name="entityPrefix" select="'place:'"/></xsl:call-template>}
         }

@@ -752,9 +752,16 @@ ul.undecorated-list {
 
 // Search page
 
-.panel.is-info .panel-heading {
-  color: $light;
-  background-color: $primary;
+.panel.is-info {
+  .panel-heading {
+    color: $light;
+    background-color: $primary;
+    margin-bottom: 0.5em;
+  }
+
+  .panel-block {
+    margin-bottom: 1em;
+  }
 }
 
 .search-results {
