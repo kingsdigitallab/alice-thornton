@@ -5,6 +5,9 @@ function setUpTextViewer() {
   let app = createApp({
     data() {
       return {
+        meta: {
+          dateCreated: "2023-10-23T21:42:39.127Z",
+        },
         selection: {
           query: "",
           type: "",
@@ -39,6 +42,9 @@ function setUpTextViewer() {
       this.fetchRecords();
     },
     computed: {
+      indexTimeStamp() {
+        return new Date(this.meta.dateCreated).toUTCString();
+      },
       searchConfiguration() {
         return {
           sortings: {
@@ -189,7 +195,8 @@ function setUpTextViewer() {
         fetch(entitiesSource)
           .then((res) => res.json())
           .then((data) => {
-            this.records = data;
+            this.meta = data.meta;
+            this.records = data.data;
             this.itemsjs = window.itemsjs(
               this.records,
               this.searchConfiguration

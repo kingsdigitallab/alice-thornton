@@ -97,6 +97,13 @@ class Entities {
   }
 
   writeJson(path, data) {
+    // envelope: add metadata; format inspired by JSON:API
+    data = {
+      meta: {
+        'dateCreated': new Date().toISOString()
+      },
+      data: data
+    }
     // console.log(data)
     let dataStr = JSON.stringify(data, null, 2);
     fs.writeFileSync(path, dataStr, "utf8");

@@ -97,6 +97,8 @@ eleventyNavigation:
     </div>
 
   </div>
+
+  <p class="dev-info">Indexed on {{ this.indexTimeStamp }}</p>
 </div>
 {% endraw %}
 
