@@ -3,7 +3,7 @@ title: "Alice Thornton and the Irish Rebellion of 1641"
 feature: /assets/img/posts/portadown-massacre.png
 authors:
   - nmcareavey
-status: draft
+status: live
 tags:
   - manuscripts
   - ireland
