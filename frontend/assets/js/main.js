@@ -43,3 +43,18 @@ function setupCitationButton() {
 }
 
 setupCitationButton();
+
+function isLocusVisible(documentId, locus) {
+  let ret = true;
+  let rules = window.metadata.text_viewer.visible_documents[documentId];
+  if (typeof rules !== "undefined") {
+    let locusNumber = `${locus}`.match(/\d+/);
+    if (locusNumber) {
+      locusNumber = parseInt(locusNumber[0]);
+      ret = locusNumber >= rules[0] && locusNumber <= rules[1];
+    }
+  }
+  return ret;
+}
+
+window.isLocusVisible = isLocusVisible;

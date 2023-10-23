@@ -8,7 +8,7 @@ function setUpTextViewer() {
         selection: {
           query: "",
           type: "",
-          perPage: 20,
+          perPage: 10,
           page: 1,
         },
         _facets: {
@@ -66,6 +66,18 @@ function setUpTextViewer() {
       // },
     },
     methods: {
+      isLocusVisible(bookId, page) {
+        return window.isLocusVisible(bookId, page);
+      },
+      getBookLabelFromId(bookId) {
+        let labelFromId = {
+          book_of_remembrances: "Book Rem",
+          book_one: "Book 1",
+          book_two: "Book 2",
+          book_three: "Book 3",
+        };
+        return labelFromId[bookId] || bookId;
+      },
       onClickNextPage() {
         this.selection.page++;
         if (this.selection.page > this.lastPageNumber) {
@@ -133,12 +145,17 @@ function setUpTextViewer() {
           },
           aggregations: {
             type: {
-              title: "Entity type",
+              title: "By entity type",
               size: 10,
               conjunction: false,
             },
+            books: {
+              title: "By book",
+              size: 5,
+              conjunction: false,
+            },
             region: {
-              title: "Region",
+              title: "By region",
               size: 100,
               conjunction: false,
             },

@@ -10,7 +10,7 @@ title: Entity Search
       <h2 class="undecorated">Filters</h2>
       <nav class="panel is-info">
         <p class="panel-heading">
-          By keywords
+          By name
         </p>
         <div class="panel-block">
           <div class="field">
@@ -34,7 +34,7 @@ title: Entity Search
                   <template v-if="option.key=='person'"><i class="fas fa-user" aria-hidden="true"></i></template>
                   <template v-if="option.key=='place'"><i class="fas fa-map-pin" aria-hidden="true"></i></template>
                   <template v-if="option.key=='event'"><i class="fas fa-calendar" aria-hidden="true"></i></template>
-                  {{ option.key }} ({{ option.doc_count }})
+                  {{ getBookLabelFromId(option.key) }} ({{ option.doc_count }})
                 </label>
               </li>
             </ul>
@@ -66,18 +66,27 @@ title: Entity Search
         </ul>
       </nav>
       <ul class="undecorated-list">
-        <li v-for="item in items" :class="`entity-${item.type}`">
-          <div>
+        <li v-for="item in items" :class="`entity-${item.type} search-result`">
+          <div class="result-head">
             <template v-if="item.type=='person'"><i class="fas fa-user" aria-hidden="true"></i></template>
             <template v-if="item.type=='place'"><i class="fas fa-map-pin" aria-hidden="true"></i></template>
             <template v-if="item.type=='event'"><i class="fas fa-calendar" aria-hidden="true"></i></template>
             <span class="is-hidden">{{ item['id'] }}</span>
             {{ item.title }}
           </div>
-          <div v-for="(pages, bookId) in item.books">{{ bookId }}: 
-            <template v-for="(page, index) in pages">
-              <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${page}&hi=${item['id']}`">{{ page }}</a>
-              <template v-if="index < (pages.length - 1)">, </template>
+          <div v-for="(pages, bookId) in item.pages" class="result-book">
+            <template v-if="pages.length">
+              {{ getBookLabelFromId(bookId) }}: 
+              p<template v-if="pages.length > 1">p</template>.
+              <template v-for="(page, index) in pages">
+                <template v-if="isLocusVisible(bookId, page)">
+                  <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${page}&hi=${item['id']}`">{{ page }}</a>
+                </template>
+                <template v-else>
+                  {{ page }}
+                </template>
+                <template v-if="index < (pages.length - 1)">, </template>
+              </template>
             </template>
           </div>
         </li>

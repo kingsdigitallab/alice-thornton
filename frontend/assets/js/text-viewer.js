@@ -261,6 +261,7 @@ function setUpTextViewer() {
         return ret;
       },
       isLocusVisible(documentId, locus) {
+        // TODO: return window.isLocusVisible(bookId, page)
         let ret = true;
         let rules = window.metadata.text_viewer.visible_documents[documentId];
         if (typeof rules !== "undefined") {

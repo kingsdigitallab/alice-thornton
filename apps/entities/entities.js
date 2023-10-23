@@ -23,13 +23,27 @@ class Entities {
       await this.loadTei(sourceBase + source);
     }
 
+    this.postProcessEntities()
+
     this.writeJson(target, this.entities);
+  }
+
+  postProcessEntities() {
+    // processing which is much simpler in JS than XSLT
+    for (let entity of this.entities) {
+      // remove duplicate pages in entity.pages
+      entity.pages = Object.fromEntries(Object.entries(entity.pages).map(([k,v]) => ([k,[...new Set(v)]])));
+      // remove books from entity.pages which have no pages
+      entity.pages = Object.fromEntries(Object.entries(entity.pages).filter(([k,v]) => v.length));
+      // entity.books = list of books they appear in
+      entity.books = Object.keys(entity.pages)
+    }
   }
 
   async loadTei(source) {
     // let docString = this.readFile(source)
     let entitiesJson = await this.xslt(source, jsonSheetPath);
-    // console.log(entitiesJson.substring(0, 300));
+    // console.log(entitiesJson.substring(0, 1000));
     let entities = JSON.parse(entitiesJson);
     // console.log(entities);
 
