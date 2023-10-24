@@ -753,7 +753,6 @@ ul.undecorated-list {
 // Search page
 
 #search {
-
   .type-icon {
     width: 0.8em;
     margin-right: 0.4em;
@@ -774,6 +773,7 @@ ul.undecorated-list {
   .search-results {
     .result-head {
       font-weight: bold;
+      cursor: pointer;
     }
     .result-books {
       margin-left: 3em;
@@ -781,6 +781,11 @@ ul.undecorated-list {
     .result-description {
       margin-left: 2em;
     }
+  }
+
+  .pagination .buttons {
+    margin-left:auto;
+    order: 2;
   }
 }
 

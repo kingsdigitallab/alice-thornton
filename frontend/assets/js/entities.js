@@ -8,7 +8,20 @@ function setUpTextViewer() {
         meta: {
           dateCreated: "2023-10-23T21:42:39.127Z",
         },
+        views: {
+          expanded: {
+            title: "Expanded",
+            description: "Expand results",
+            icon: "fa-expand-arrows-alt",
+          },
+          collapsed: {
+            title: "Collapsed",
+            description: "Collapse results",
+            icon: "fa-compress-alt",
+          },
+        },
         selection: {
+          view: "expanded",
           query: "",
           type: "",
           perPage: 10,
@@ -121,6 +134,12 @@ function setUpTextViewer() {
       // },
     },
     methods: {
+      onChangeView(viewKey) {
+        this.selection.view = viewKey;
+      },
+      isResultExpanded(item) {
+        return this.selection.view == "expanded" ? item.id : false;
+      },
       getClassFromType(type) {
         const typesClass = {
           person: "fa-user",

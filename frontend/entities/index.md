@@ -65,34 +65,41 @@ eleventyNavigation:
             >Next</a>
           </li>
         </ul>
+        <div class="buttons has-addons">
+          <button :title="view.description" @click="onChangeView(viewKey)" v-for="(view, viewKey) in views" :class="{'button': true, 'is-primary is-selected': selection.view == viewKey}">
+            <i :class="`fas ${view.icon}`"></i>
+          </button>
+        </div>
       </nav>
       <ul class="undecorated-list">
         <li v-for="item in items" :class="`entity-${item.type} search-result`">
-          <div class="result-head">
-            <i :class="`type-icon fas ${getClassFromType(item.type)}`" v-if="getClassFromType(item.type)" aria-hidden="true"></i>
-            <span class="is-hidden">{{ item['id'] }}</span>
-            {{ item.title }}
-          </div>
-          <div v-if="item.type=='person'" class="result-description">
-            {{ item.bio }}
-          </div>
-          <ul class="result-books">
-            <li v-for="(pages, bookId) in item.pages" class="result-book">
-              <template v-if="pages.length">
-                {{ getBookLabelFromId(bookId) }}: 
-                p<template v-if="pages.length > 1">p</template>.
-                <template v-for="(page, index) in pages">
-                  <template v-if="isLocusVisible(bookId, page)">
-                    <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${page}&hi=${item['id']}`">{{ page }}</a>
+          <details :open="isResultExpanded(item)">
+            <summary class="result-head">
+              <i :class="`type-icon fas ${getClassFromType(item.type)}`" v-if="getClassFromType(item.type)" aria-hidden="true"></i>
+              <span class="is-hidden">{{ item['id'] }}</span>
+              {{ item.title }}
+            </summary>
+            <div v-if="item.type=='person'" class="result-description">
+              {{ item.bio }}
+            </div>
+            <ul class="result-books">
+              <li v-for="(pages, bookId) in item.pages" class="result-book">
+                <template v-if="pages.length">
+                  {{ getBookLabelFromId(bookId) }}: 
+                  p<template v-if="pages.length > 1">p</template>.
+                  <template v-for="(page, index) in pages">
+                    <template v-if="isLocusVisible(bookId, page)">
+                      <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${page}&hi=${item['id']}`">{{ page }}</a>
+                    </template>
+                    <template v-else>
+                      {{ page }}
+                    </template>
+                    <template v-if="index < (pages.length - 1)">, </template>
                   </template>
-                  <template v-else>
-                    {{ page }}
-                  </template>
-                  <template v-if="index < (pages.length - 1)">, </template>
                 </template>
-              </template>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </details>
         </li>
       </ul>
     </div>
