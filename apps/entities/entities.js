@@ -42,10 +42,16 @@ class Entities {
       // entity.books = list of books they appear in
       entity.books = Object.keys(entity.pages);
       // missing key for people with no first/surname
-      if (!entity?.sortkey && entity.type == 'person') {
+      if (!entity?.sortkey && entity.type == "person") {
         // 'John Thornton (1633-1669)' => "ThorntonJohn"
-        entity.sortkey = entity.title.replace(/\([^)]+\)/g, '').split(/\s+/).reverse().join('')
-        console.log(`WARNING: fixed missing sorkey for ${entity.type}:${entity.id} = ${entity.sortkey}`)
+        entity.sortkey = entity.title
+          .replace(/\([^)]+\)/g, "")
+          .split(/\s+/)
+          .reverse()
+          .join("");
+        console.log(
+          `WARNING: fixed missing sorkey for ${entity.type}:${entity.id} = ${entity.sortkey}`
+        );
       }
     }
   }
@@ -100,10 +106,10 @@ class Entities {
     // envelope: add metadata; format inspired by JSON:API
     data = {
       meta: {
-        'dateCreated': new Date().toISOString()
+        dateCreated: new Date().toISOString(),
       },
-      data: data
-    }
+      data: data,
+    };
     // console.log(data)
     let dataStr = JSON.stringify(data, null, 2);
     fs.writeFileSync(path, dataStr, "utf8");

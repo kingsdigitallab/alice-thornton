@@ -752,27 +752,42 @@ ul.undecorated-list {
 
 // Search page
 
-.panel.is-info {
-  .panel-heading {
-    color: $light;
-    background-color: $primary;
-    margin-bottom: 0.5em;
+#search {
+
+  .type-icon {
+    width: 0.8em;
+    margin-right: 0.4em;
   }
 
-  .panel-block {
-    margin-bottom: 1em;
-  }
-}
+  .panel.is-info {
+    .panel-heading {
+      color: $light;
+      background-color: $primary;
+      margin-bottom: 0.5em;
+    }
 
-.search-results {
-  .result-book {
-    margin-left: 2em;
+    .panel-block {
+      margin-bottom: 1em;
+    }
+  }
+
+  .search-results {
+    .result-head {
+      font-weight: bold;
+    }
+    .result-books {
+      margin-left: 3em;
+    }
+    .result-description {
+      margin-left: 2em;
+    }
   }
 }
 
 .dev-info {
   font-style: italic;
-  color: lightgray;
+  color: gray;
+  font-size: 0.8em;
 }
 
 // book page

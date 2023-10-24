@@ -34,9 +34,7 @@ eleventyNavigation:
               <li v-for="option in getBuckets(facet)">
                 <label class="checkbox">
                   <input type="checkbox" v-on:change="onClickOption" v-model="option.selected">
-                  <template v-if="option.key=='person'"><i class="fas fa-user" aria-hidden="true"></i></template>
-                  <template v-if="option.key=='place'"><i class="fas fa-map-pin" aria-hidden="true"></i></template>
-                  <template v-if="option.key=='event'"><i class="fas fa-calendar" aria-hidden="true"></i></template>
+                  <i :class="`type-icon fas ${getClassFromType(option.key)}`" v-if="getClassFromType(option.key)" aria-hidden="true"></i>
                   {{ getBookLabelFromId(option.key) }} ({{ option.doc_count }})
                 </label>
               </li>
@@ -71,27 +69,30 @@ eleventyNavigation:
       <ul class="undecorated-list">
         <li v-for="item in items" :class="`entity-${item.type} search-result`">
           <div class="result-head">
-            <template v-if="item.type=='person'"><i class="fas fa-user" aria-hidden="true"></i></template>
-            <template v-if="item.type=='place'"><i class="fas fa-map-pin" aria-hidden="true"></i></template>
-            <template v-if="item.type=='event'"><i class="fas fa-calendar" aria-hidden="true"></i></template>
+            <i :class="`type-icon fas ${getClassFromType(item.type)}`" v-if="getClassFromType(item.type)" aria-hidden="true"></i>
             <span class="is-hidden">{{ item['id'] }}</span>
             {{ item.title }}
           </div>
-          <div v-for="(pages, bookId) in item.pages" class="result-book">
-            <template v-if="pages.length">
-              {{ getBookLabelFromId(bookId) }}: 
-              p<template v-if="pages.length > 1">p</template>.
-              <template v-for="(page, index) in pages">
-                <template v-if="isLocusVisible(bookId, page)">
-                  <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${page}&hi=${item['id']}`">{{ page }}</a>
-                </template>
-                <template v-else>
-                  {{ page }}
-                </template>
-                <template v-if="index < (pages.length - 1)">, </template>
-              </template>
-            </template>
+          <div v-if="item.type=='person'" class="result-description">
+            {{ item.bio }}
           </div>
+          <ul class="result-books">
+            <li v-for="(pages, bookId) in item.pages" class="result-book">
+              <template v-if="pages.length">
+                {{ getBookLabelFromId(bookId) }}: 
+                p<template v-if="pages.length > 1">p</template>.
+                <template v-for="(page, index) in pages">
+                  <template v-if="isLocusVisible(bookId, page)">
+                    <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${page}&hi=${item['id']}`">{{ page }}</a>
+                  </template>
+                  <template v-else>
+                    {{ page }}
+                  </template>
+                  <template v-if="index < (pages.length - 1)">, </template>
+                </template>
+              </template>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>

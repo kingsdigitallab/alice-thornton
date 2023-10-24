@@ -121,6 +121,14 @@ function setUpTextViewer() {
       // },
     },
     methods: {
+      getClassFromType(type) {
+        const typesClass = {
+          person: "fa-user",
+          place: "fa-map-pin",
+          event: "fa-calendar",
+        };
+        return typesClass[type];
+      },
       isLocusVisible(bookId, page) {
         return window.isLocusVisible(bookId, page);
       },
