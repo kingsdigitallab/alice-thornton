@@ -9,7 +9,7 @@ tags:
   - lectures
 ---
 
-Cordelia Beattie (PI) will give a lecture, *Alice Thornton (1626-1707) and her Rediscovered Manuscripts*, to the Open History Society at 19:30 on Friday November 17th 2023.
+Cordelia Beattie (PI) will give a lecture, *Alice Thornton (1626-1707) and her Rediscovered Manuscripts*, at the Open History Society at 19:30 on Friday November 17th 2023.
 
 Please come along to find out:
 
