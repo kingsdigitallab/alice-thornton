@@ -46,6 +46,10 @@ function setUpTextViewer() {
           view: "View",
           _chunks: "Chunks",
         },
+        selection: {
+          // which entity to highlight in the text
+          highlightedText: "",
+        },
         panels: [
           {
             selectors: {
@@ -121,7 +125,10 @@ function setUpTextViewer() {
       //   // this.onChangeSelector(panel, 'document')
       // }
       // http://localhost:8080/books/viewer/?&p0.lo=p.1&p1.do=https://thornton.kdl.kcl.ac.uk/dts/ids/thornton-books/book_one/&p1.lo=p.2&p1.vi=modern
-      this.setSelectionFromAddressBar();
+      this.setSelectionFromAddressBar("landing");
+      window.addEventListener("popstate", () => {
+        this.setSelectionFromAddressBar("back");
+      });
     },
     computed: {
       canClonePanel() {
@@ -424,12 +431,32 @@ function setUpTextViewer() {
             }
           }
         }
+
+        if (this.selection.highlightedText) {
+          searchParams += `&hi=${this.selection.highlightedText}`;
+        }
+
         let newRelativePathQuery =
-          window.location.pathname + "?" + searchParams;
-        history.pushState(null, "", newRelativePathQuery);
+          window.location.pathname + "?" + searchParams.replace(/^&/, "");
+        // console.log(`SetAddr ${newRelativePathQuery}`)
+        if (location.pathname + location.search != newRelativePathQuery) {
+          // this.setPageTitle()
+          // console.log(`PUSH ${newRelativePathQuery}  !=  ${location.pathname+location.search}`)
+          if (!this.navigationCause) {
+            history.pushState(null, "", newRelativePathQuery);
+          }
+          if (this.navigationCause == "landing") {
+            history.replaceState(null, "", newRelativePathQuery);
+          }
+          // document.title = newRelativePathQuery
+          this.setPageTitle();
+        }
       },
-      async setSelectionFromAddressBar() {
+      async setSelectionFromAddressBar(navigationCause = "landing") {
+        this.navigationCause = navigationCause;
+
         let searchParams = new URLSearchParams(window.location.search);
+        // console.log('SetSel [')
 
         for (let panelIdx = 0; panelIdx < 10; panelIdx++) {
           if (this.panels.length <= panelIdx) {
@@ -446,6 +473,38 @@ function setUpTextViewer() {
           }
           await this.onChangeSelector(panel, "source");
         }
+
+        this.selection.highlightedText = searchParams.get("hi");
+        //  console.log(`] SetSel ${this.selection.highlightedText}`)
+
+        this.navigationCause = null;
+      },
+      setPageTitle() {
+        let title = "";
+        for (let panelIdx = 0; panelIdx < this.panels.length; panelIdx++) {
+          let panel = this.panels[panelIdx];
+          if (title) title += " vs ";
+          title += [
+            panel.selections.document,
+            panel.selections.locus,
+            panel.selections.view,
+          ]
+            .map(this.getAbbreviation)
+            .join(" ");
+        }
+        document.title = title + " | " + window.metadata.siteTitle;
+      },
+      getAbbreviation(str) {
+        let abbreviations = {
+          book_of_remembrances: "Book Rem",
+          book_one: "Book One",
+          book_two: "Book Two",
+          book_three: "Book Three",
+          semidip: "(SD)",
+          modern: "(M)",
+        };
+        str = abbreviations[str] || str;
+        return str;
       },
       getContentClasses(panel) {
         let ret = `view-${panel.selections.view} ${

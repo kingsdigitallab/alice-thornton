@@ -42,7 +42,7 @@ module.exports = function () {
     environment: environment,
     // which of the above metadata to pass to front-end javascript
     // as window.metadata.X
-    front_end_vars: ["text_viewer", "environment"],
+    front_end_vars: ["text_viewer", "environment", "siteTitle"],
   };
 
   if (environment != "liv") {
