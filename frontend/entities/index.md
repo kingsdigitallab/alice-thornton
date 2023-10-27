@@ -43,7 +43,7 @@ eleventyNavigation:
         </template>
       </nav>
     </form>
-    <div class="search-results column">
+    <div :class="{'search-results': true, 'column': true, 'updating': this.updating, 'updated': !this.updating }">
       <h2 class="undecorated">Results ({{ results.pagination.total }})</h2>
       <nav class="pagination" aria-label="pagination">
         <ul class="pagination-list">

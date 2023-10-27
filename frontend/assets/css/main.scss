@@ -771,6 +771,19 @@ ul.undecorated-list {
   }
 
   .search-results {
+    &.updating {
+      opacity: 0.2;
+    }
+
+    &.updated {
+      animation: fadeIn 0.5s;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0.2; }
+      100% { opacity: 1; }
+    }    
+
     .result-head {
       font-weight: bold;
       cursor: pointer;

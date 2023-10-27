@@ -37,6 +37,7 @@ function setUpTextViewer() {
             },
           },
         },
+        updating: false,
         results: {
           data: {
             items: [],
@@ -190,6 +191,8 @@ function setUpTextViewer() {
         this.search();
       },
       search(keepPage = false) {
+        this.updating = true;
+
         if (!keepPage) {
           this.selection.page = 1;
         }
@@ -213,6 +216,10 @@ function setUpTextViewer() {
           sort: "name_asc",
           query: this.selection.query,
           filters: filters,
+        });
+
+        window.Vue.nextTick(() => {
+          this.updating = false;
         });
 
         //console.log(this.itemsjs.aggregations())

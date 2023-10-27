@@ -330,6 +330,12 @@ function setUpTextViewer() {
           //   );
           //   anchors.classList.add("managed");
           // });
+          const highlightedElements = window.document.querySelectorAll(
+            `span[data-tei-ref="${this.selection.highlightedText}"]`
+          );
+          highlightedElements.forEach((element) => {
+            element.classList.add("highlighted");
+          });
 
           // We set a hover class on hover.
           // fixes the bug where hover on nested info-box
@@ -434,6 +440,7 @@ function setUpTextViewer() {
 
         if (this.selection.highlightedText) {
           searchParams += `&hi=${this.selection.highlightedText}`;
+          console.log(searchParams);
         }
 
         let newRelativePathQuery =
@@ -446,6 +453,7 @@ function setUpTextViewer() {
             history.pushState(null, "", newRelativePathQuery);
           }
           if (this.navigationCause == "landing") {
+            console.log(`REPLACE state: ${newRelativePathQuery}`);
             history.replaceState(null, "", newRelativePathQuery);
           }
           // document.title = newRelativePathQuery
@@ -457,6 +465,8 @@ function setUpTextViewer() {
 
         let searchParams = new URLSearchParams(window.location.search);
         // console.log('SetSel [')
+
+        this.selection.highlightedText = searchParams.get("hi");
 
         for (let panelIdx = 0; panelIdx < 10; panelIdx++) {
           if (this.panels.length <= panelIdx) {
@@ -473,9 +483,6 @@ function setUpTextViewer() {
           }
           await this.onChangeSelector(panel, "source");
         }
-
-        this.selection.highlightedText = searchParams.get("hi");
-        //  console.log(`] SetSel ${this.selection.highlightedText}`)
 
         this.navigationCause = null;
       },
