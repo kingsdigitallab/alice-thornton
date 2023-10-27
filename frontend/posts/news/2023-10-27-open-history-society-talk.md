@@ -1,15 +1,14 @@
 ---
-title: "Alice Thornton Lecture at Edinburgh's Open History Society"
+title: "Project PI to give a talk on Thornton to Edinburgh's Open History Society"
 feature: /assets/img/posts/Nicolaes_Maes_De_Luistervink.jpg 
 status: draft
 authors:
   - ethom
 tags:
   - events
-  - lectures
 ---
 
-Cordelia Beattie (PI) will give a lecture, *Alice Thornton (1626-1707) and her Rediscovered Manuscripts*, at the Open History Society at 19:30 on Friday November 17th 2023.
+Cordelia Beattie (PI) will give a talk, *Alice Thornton (1626-1707) and her Rediscovered Manuscripts*, at the Open History Society at 19:30 on Friday November 17th 2023.
 
 Please come along to find out:
 
