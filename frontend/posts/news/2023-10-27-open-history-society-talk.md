@@ -8,7 +8,7 @@ tags:
   - events
 ---
 
-Cordelia Beattie (PI) will give a talk, *Alice Thornton (1626-1707) and her Rediscovered Manuscripts*, at the Open History Society at 19:30 on Friday November 17th 2023 at the Royal Scots Club, 29-31 Abercromby Place, Edinburgh.
+Cordelia Beattie (PI) will give a talk, *Alice Thornton (1626-1707) and her Rediscovered Manuscripts*, to the Open History Society at 19:30 on Friday November 17th 2023 at the Royal Scots Club, 29-31 Abercromby Place, Edinburgh.
 
 Please come along to find out:
 
