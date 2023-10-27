@@ -10,7 +10,7 @@ tags:
 ---
 We are hosting Alice Thornton’s Café on 18 November in Edinburgh as part of [Being Human](https://www.beinghumanfestival.org/), the UK’s national festival of the humanities.
 
-This is a completely free event for the whole community to enjoy. Come to Edinburgh's Starbank Park on November 18th and find out about Alice Thornton, a 17th-century Yorkshire woman who survived fire, plague, rebellion and family life, and wrote about it all!
+This is a completely free event for the whole community to enjoy. Come to Edinburgh's Starbank Park (EH5 3BX) on November 18th and find out about Alice Thornton, a 17th-century Yorkshire woman who survived fire, plague, rebellion and family life, and wrote about it all!
 
 * Free tea, coffee, cake and a talk with Cordelia Beattie (PI) and Jo Edge (PDRA), from the Thornton’s Books team.  
 11 am and 1:30 pm [(please reserve here)](https://www.beinghumanfestival.org/events/alice-thorntons-cafe) 
