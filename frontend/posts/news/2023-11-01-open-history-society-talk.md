@@ -18,7 +18,6 @@ Please come along to find out:
 
 * What motivated Alice Thornton to write, and what her accounts tell us about 17th-century gentry life.
 
-
 The talk is free to members of the Open History Society but others can pay to attend. For more information please see the [Open History Society’s 
 programme of talks 2023-24](https://openhistorysociety.org/2012-13-programme-of-talks/) 
 
