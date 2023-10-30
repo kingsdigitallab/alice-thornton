@@ -1,7 +1,7 @@
 ---
 title: "Project Team to Host a Being Human Cafe"
 feature: /assets/img/posts/Wild_Chamomile.jpg 
-status: draft
+status: live
 authors:
   - ethom
 tags:
