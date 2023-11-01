@@ -1,7 +1,7 @@
 ---
 title: "Project PI to give a talk on Thornton to Edinburgh's Open History Society"
 feature: /assets/img/posts/Nicolaes_Maes_De_luistervink.jpg 
-status: draft
+status: live
 authors:
   - ethom
 tags:
