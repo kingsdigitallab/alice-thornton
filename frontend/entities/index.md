@@ -92,7 +92,7 @@ eleventyNavigation:
               <span class="is-hidden">{{ item['id'] }}</span>
               {{ item.title }}
             </summary>
-            <div v-if="item.type=='person2'" class="result-description">
+            <div v-if="item.type=='person' && item.isPublic" class="result-description">
               {{ item.bio }}
             </div>
             <ul class="result-books">
