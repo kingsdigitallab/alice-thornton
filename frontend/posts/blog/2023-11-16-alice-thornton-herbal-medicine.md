@@ -59,7 +59,7 @@ About a month before Nally's ill-fated expedition to the pageant at Richmond, Th
 
 Gascoigne's powder was, at this time, a fairly new and fashionable compound of various ingredients, which had variable formulae, but often included saffron, obtained from crocuses, which grew abundantly in England. Of saffron, Culpeper said:
 
-> it is an excellent thing in epidemical diseases, as pestilences, small pox, and measles. It is a notable expulsive medicine, and a notable remedy for the yellow jaundice.
+> it is an excellent thing in epidemical diseases, as pestilences, small pox, and measles. It is a notable expulsive medicine, and a notable remedy for the yellow jaundice.[^7]
 
 
 Alice Thornton, then, was a woman with access to medical knowledge about herbs. She read, passed on and collected recipes and knowledge, and administered care to her family when they were ill. She knew what herbal and plant remedies to use for particular ailments - and her knowledge of the properties of herbs and plants aligned with that of contemporary authorities on such matters. 
@@ -78,3 +78,5 @@ Alice Thornton, then, was a woman with access to medical knowledge about herbs. 
 [^5]: Modernised from Culpeper, *English Physitian*, 192-3.
 
 [^6]: 'for on the friday senitt  affter: he began to be very Angery & froward. Affter his dressing in the morning: soe that I perceaved him not to be well; uppon which I gave him Gascoyne Pouder And haveing had 3 houers sleepe his face when he awaked was full of Red round  spotts like the Smale Pox beeing of the compasse of an halpeny; & all whealed white over', *Book 1*, 178-9.
+
+[^7]: Modernised from Culpeper, *English Physitian*, 212.
