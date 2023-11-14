@@ -24,7 +24,7 @@ During the course of her four books Thornton regularly refers to the medical iss
 
 The medicinal properties of certain herbs and plants has a history as long as time. The earliest attestations are from Sumeria, from around 3000BC, written on clay tablets. By the seventeenth century, herbals were still going strong. And the 17th century had something the Sumerians and medieval Europeans didn't have to circulate this information – print. And, this was a time of rapidly expanding literacy. Thornton was a highly educated woman of noble birth, firmly in the ranks of the upper gentry once she married. Thornton discusses a range of herbal and plant-based remedies in her books, and here I'm going to talk you through a few of these ingredients and tell you what her near-contemporary commentator Nicholas Culpeper (1616-54) said about them in his [*English Physitian*](https://quod.lib.umich.edu/e/eebo/A35365.0001.001?view=toc) of 1652.
 
-## Camomile for stiches
+## Camomile for stitches
 
 > It pleased God to vissitt my Deare & hon.red mother The Lady Wandesford, with her last Sickenesse. uppon friday the 17th of november 1659 beginning then with an exceeding great Cough; which tormented her Bodie with stitches, in her breast, & troubled her with short breathing; These stitches contineued about 14. daies together hindering her from almost any sleepe or rest, in so much that it was wonderfull how she could subsist. But uppon the use of bagges with fried oats, butter & camomiell chopt layed to her sides,  the stitches removed, & the cough abated, as to the extreamity thereof. (Book 1, pp. 165-6).
 
