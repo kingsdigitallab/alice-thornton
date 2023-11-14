@@ -34,7 +34,7 @@ eleventyNavigation:
               <li v-for="option in getBuckets(facet)">
                 <label class="checkbox">
                   <input type="checkbox" v-on:change="onClickOption" v-model="option.selected">
-                  <i :class="`type-icon fas ${getClassFromType(option.key)}`" v-if="getClassFromType(option.key)" aria-hidden="true"></i>
+                  <span v-if="getClassFromType(option.key)" class="icon"><i :class="`type-icon fas ${getClassFromType(option.key)}`" v-if="getClassFromType(option.key)" aria-hidden="true"></i></span>
                   {{ getBookLabelFromId(option.key) }} ({{ option.doc_count }})
                 </label>
               </li>
@@ -52,9 +52,12 @@ eleventyNavigation:
               v-on:click.prevent="onClickPrevPage"
               class="pagination-link"
               aria-label="Previous page"
-            >Previous</a>
+            ><span class="icon">
+                <i class="fas fa-caret-left" aria-hidden="true"></i>
+              </span>
+            Previous</a>
           </li>
-          <li>
+          <li class="pagination-state">
             Page {{ selection.page }} of {{ lastPageNumber }}
           </li>
           <li>
@@ -62,12 +65,22 @@ eleventyNavigation:
               v-on:click.prevent="onClickNextPage"
               class="pagination-link"
               aria-label="Next page"
-            >Next</a>
+            >Next
+              <span class="icon">
+                <i class="fas fa-caret-right" aria-hidden="true"></i>
+              </span>
+            </a>
           </li>
         </ul>
-        <div class="buttons has-addons">
+        <!-- <div class="buttons has-addons">
           <button :title="view.description" @click="onChangeView(viewKey)" v-for="(view, viewKey) in views" :class="{'button': true, 'is-primary is-selected': selection.view == viewKey}">
             <i :class="`fas ${view.icon}`"></i>
+          </button>
+        </div> -->
+        <div class="buttons has-addons">
+          <button :title="selectedView.title" @click="onChangeView()" class="button">
+            <span class="icon is-medium"><i :class="`fas ${selectedView.icon}`"></i></span>
+            <span>{{selectedView.action}}</span>
           </button>
         </div>
       </nav>
@@ -75,7 +88,7 @@ eleventyNavigation:
         <li v-for="item in items" :class="`entity-${item.type} search-result`">
           <details :open="isResultExpanded(item)">
             <summary class="result-head">
-              <i :class="`type-icon fas ${getClassFromType(item.type)}`" v-if="getClassFromType(item.type)" aria-hidden="true"></i>
+              <span class="icon"><i :class="`type-icon fas ${getClassFromType(item.type)}`" v-if="getClassFromType(item.type)" aria-hidden="true"></i></span>
               <span class="is-hidden">{{ item['id'] }}</span>
               {{ item.title }}
             </summary>

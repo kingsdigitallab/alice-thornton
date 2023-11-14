@@ -1,7 +1,7 @@
 const { createApp } = window.Vue;
 const entitiesSource = "/assets/js/entities.json";
 
-function setUpTextViewer() {
+function setUpSearch() {
   let app = createApp({
     data() {
       return {
@@ -9,19 +9,19 @@ function setUpTextViewer() {
           dateCreated: "2023-10-23T21:42:39.127Z",
         },
         views: {
-          expanded: {
-            title: "Expanded",
-            description: "Expand results",
-            icon: "fa-expand-arrows-alt",
-          },
           collapsed: {
-            title: "Collapsed",
-            description: "Collapse results",
-            icon: "fa-compress-alt",
+            title: "Expand results",
+            action: "Expand/Collapse",
+            icon: "fa-caret-right",
+          },
+          expanded: {
+            title: "Collapse results",
+            action: "Expand/Collapse",
+            icon: "fa-caret-down",
           },
         },
         selection: {
-          view: "expanded",
+          view: "collapsed",
           query: "",
           type: "",
           perPage: 10,
@@ -56,6 +56,9 @@ function setUpTextViewer() {
       this.fetchRecords();
     },
     computed: {
+      selectedView() {
+        return this.views[this.selection.view];
+      },
       indexTimeStamp() {
         return new Date(this.meta.dateCreated).toUTCString();
       },
@@ -100,14 +103,15 @@ function setUpTextViewer() {
       filteredFacets() {
         // only returns facets relevant to the selected result type (itself a facet)
         // see .forType in this.searchConfiguration
-        let selectedType = this.selectedTypes;
-        selectedType = selectedType.length == 1 ? selectedType[0] : null;
+        let selectedTypes = this.selectedTypes;
         return Object.fromEntries(
           Object.entries(this.facets).filter(([facetKey, facet]) => {
             let forType =
               this.searchConfiguration.aggregations[facetKey || facet.name]
                 .forType;
-            return forType ? forType === selectedType : true;
+            return forType
+              ? selectedTypes.length == 0 || selectedTypes.includes(forType)
+              : true;
           })
         );
       },
@@ -136,6 +140,15 @@ function setUpTextViewer() {
     },
     methods: {
       onChangeView(viewKey) {
+        if (viewKey) {
+          this.selection.view = viewKey;
+        } else {
+          // just rotate through the views
+          let keys = Object.keys(this.views);
+          let index = keys.indexOf(this.selection.view) + 1;
+          if (index >= keys.length) index = 0;
+          viewKey = keys[index];
+        }
         this.selection.view = viewKey;
       },
       isResultExpanded(item) {
@@ -144,7 +157,7 @@ function setUpTextViewer() {
       getClassFromType(type) {
         const typesClass = {
           person: "fa-user",
-          place: "fa-map-pin",
+          place: "fa-map-marker-alt",
           event: "fa-calendar",
         };
         return typesClass[type];
@@ -263,4 +276,4 @@ function setUpTextViewer() {
   app.mount("#search");
 }
 
-setUpTextViewer();
+setUpSearch();

@@ -328,6 +328,10 @@ body > footer.footer {
 /* Icons */
 
 // within a button
+.icon {
+  color: hsl(0deg, 0%, 29%);
+  // color: red;
+}
 .button {
   .icon {
     &.is-small {
@@ -745,9 +749,18 @@ ul.undecorated-list {
 
 // pagination
 
-.pagination-link.is-current {
-  background-color: $secondary;
-  border-color: $secondary;
+.pagination-link {
+  background-color: #fbfbfb;
+  text-decoration: none;
+  &.is-current {
+    background-color: $secondary;
+    border-color: $secondary;
+  }
+}
+
+.pagination-state {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 // Search page
@@ -760,8 +773,8 @@ ul.undecorated-list {
 
   .panel.is-info {
     .panel-heading {
-      color: $light;
-      background-color: $primary;
+      color: #fff;
+      background-color: #701711;
       margin-bottom: 0.5em;
     }
 
