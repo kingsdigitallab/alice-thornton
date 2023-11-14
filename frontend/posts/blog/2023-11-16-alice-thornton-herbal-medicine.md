@@ -31,11 +31,11 @@ In 1659, Thornton's mother, Lady Alice Wandesford, lay on her deathbed at her ho
 
 ![An old book illustration of a chamomile plant]({{"/assets/img/posts/camomile.jpg" | url}} "Chamomile, from Ebeneezer Sibley's 1789 edition of Culpeper's 'English Physician'. Public domain, via Wikimedia Commons."){.media-right}
 
-> It pleased God to visit my dear and honoured mother, the Lady Wandesford, with her last sickness upon Friday the 17th of November 1659, beginning then with an exceeding great cough which tormented her body with stitches in her breast, and troubled her with short breathing. These stitches continued about 14 days together hindering her from almost any sleep or rest insomuch that it was wonderful how she could subsist. But, upon the use of bags with fried oats, butter and chamomile chopped laid to her sides the stitches removed & the cough abated as to the extremity thereof.[^2] 
+>It pleased God to visit my dear and honoured mother, the Lady Wandesford, with her last sickness upon Friday the 17th of November 1659, beginning then with an exceeding great cough which tormented her body with stitches in her breast, and troubled her with short breathing. These stitches continued about 14 days together hindering her from almost any sleep or rest insomuch that it was wonderful how she could subsist. But, upon the use of bags with fried oats, butter and chamomile chopped laid to her sides the stitches removed & the cough abated as to the extremity thereof.[^2] 
 
 What did Thornton's near-contemporary, Nicholas Culpeper, have to say about chamomile?
 
-> This is so well known everywhere that it is but lost time and labour to describe it. The virtues whereof are as follows: a decoction made of chamomile and drunk takes away all pains and stitches in the sides...the bathing with a decoction of chamomile takes away weariness, eases pains to whatever part of the body they are applied.[^3]
+>This is so well known everywhere that it is but lost time and labour to describe it. The virtues whereof are as follows: a decoction made of chamomile and drunk takes away all pains and stitches in the sides...the bathing with a decoction of chamomile takes away weariness, eases pains to whatever part of the body they are applied.[^3]
 
 ## Peony for fits
 
@@ -43,11 +43,11 @@ In May 1660, when the family were living in Richmond with Thornton's aunt and un
 
 ![An old book illustration of a peony flower]({{"/assets/img/posts/peony.jpg" | url}} "Peony, from Ebeneezer Sibley's 1789 edition of Culpeper's 'English Physician'. Public domain, via Wikimedia Commons."){.media-right}
 
-> And being almost out of her poor wits did shriek and cry soe extremely, she could not be pacified for all they could do. But in extremity fell into most dreadfull fits of convulsions there while she was at Richmond in Mr Smithson's shop. Having had 3 or 4 of them so sadly and so dreadfully that they had much to do to save her alive or bring her to herself again, but started extremely much and then falling down again. At last, they doing all could do to her, did bring my dear child half dead to me, which was a sad and dismal affliction to my weak heart, and she continued very ill all that night. But I gave her all medicines for it and oil of amber and peony and other things, which by the Lord's great and infinite mercy to me did at length preserve and restore her from them.[^4]
+>And being almost out of her poor wits did shriek and cry soe extremely, she could not be pacified for all they could do. But in extremity fell into most dreadfull fits of convulsions there while she was at Richmond in Mr Smithson's shop. Having had 3 or 4 of them so sadly and so dreadfully that they had much to do to save her alive or bring her to herself again, but started extremely much and then falling down again. At last, they doing all could do to her, did bring my dear child half dead to me, which was a sad and dismal affliction to my weak heart, and she continued very ill all that night. But I gave her all medicines for it and oil of amber and peony and other things, which by the Lord's great and infinite mercy to me did at length preserve and restore her from them.[^4]
 
 This is what Culpeper had to say about peony, a flowering plant:
 
-> The root of the male peony, freshly gathered, has been found by experience to cure the falling-sickness, but the surest way is (besides hanging it about the neck, by which children have been cured) to take the root of the male peony washed clean and stamped somewhat small, and lay it to infuse in sack for twenty four hours, at the least, after strain it, and take first and last, morning and evening a good draught for sundry days.[^5] 
+>The root of the male peony, freshly gathered, has been found by experience to cure the falling-sickness, but the surest way is (besides hanging it about the neck, by which children have been cured) to take the root of the male peony washed clean and stamped somewhat small, and lay it to infuse in sack for twenty four hours, at the least, after strain it, and take first and last, morning and evening a good draught for sundry days.[^5] 
 
 ## Saffron for small pox
 
@@ -59,7 +59,7 @@ About a month before Nally's ill-fated expedition to the pageant at Richmond, Th
 
 Gascoigne's powder was, at this time, a fairly new and fashionable compound of various ingredients, which had variable formulae, but often included saffron, obtained from crocuses, which grew abundantly in England. Of saffron, Culpeper said:
 
-> it is an excellent thing in epidemical diseases, as pestilences, small pox, and measles. It is a notable expulsive medicine, and a notable remedy for the yellow jaundice.[^7]
+>It is an excellent thing in epidemical diseases, as pestilences, small pox, and measles. It is a notable expulsive medicine, and a notable remedy for the yellow jaundice.[^7]
 
 
 Alice Thornton, then, was a woman with access to medical knowledge about herbs. She read, passed on and collected recipes and knowledge, and administered care to her family when they were ill. She knew what herbal and plant remedies to use for particular ailments - and her knowledge of the properties of herbs and plants aligned with that of contemporary authorities on such matters. 
