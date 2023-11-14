@@ -29,7 +29,7 @@ The medicinal properties of certain herbs and plants has a history as long as ti
 
 In 1659, Thornton's mother, Lady Alice Wandesford, lay on her deathbed at her home, Hipswell Hall, where Thornton and her family were living at the time. Falling sick on 17 November, Lady Wandesford eventually died on 10 December, and Thornton recounts her drawn-out death in great detail in *Book 1* (see [this blog](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/) by Elspeth Graham for more). Here, Thorton relates the method with which her mother's pain was alleviated: 
 
-![An old book illustration of a chamomile plant]({{"/assets/img/posts/camomile.jpg" | url}} "Chamomile, from Ebeneezer Sibley's 1789 edition of *Culpeper's English Physician*. Public domain, via Wikimedia Commons."){.media-right}
+![An old book illustration of a chamomile plant]({{"/assets/img/posts/camomile.jpg" | url}} "Chamomile, from Ebeneezer Sibley's 1789 edition of Culpeper's 'English Physician'. Public domain, via Wikimedia Commons."){.media-right}
 
 > It pleased God to visit my dear and honoured mother, the Lady Wandesford, with her last sickness upon Friday the 17th of November 1659, beginning then with an exceeding great cough which tormented her body with stitches in her breast, and troubled her with short breathing. These stitches continued about 14 days together hindering her from almost any sleep or rest insomuch that it was wonderful how she could subsist. But, upon the use of bags with fried oats, butter and chamomile chopped laid to her sides the stitches removed & the cough abated as to the extremity thereof.[^2] 
 
@@ -41,7 +41,7 @@ What did Thornton's near-contemporary, Nicholas Culpeper, have to say about cham
 
 In May 1660, when the family were living in Richmond with Thornton's aunt and uncle, Anne and Maulger Norton, some maids persuaded William Thornton to allow their young daughter, Nally, then aged 6, to go to a pageant to celebrate the restoration of Charles II (see Cordelia Beattie's [blog post](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-04-23-coronation-charles-II/) for more). However, the noise from muskets caused Nally to become very frightened and she fell into a bout of fits. Thornton herself administered medicine to Nally at home, and luckily she eventually recovered:
 
-![An old book illustration of a peony flower]({{"/assets/img/posts/peony.jpg" | url}} "Peony, from Ebeneezer Sibley's 1789 edition of *Culpeper's English Physician*. Public domain, via Wikimedia Commons."){.media-right}
+![An old book illustration of a peony flower]({{"/assets/img/posts/peony.jpg" | url}} "Peony, from Ebeneezer Sibley's 1789 edition of Culpeper's 'English Physician'. Public domain, via Wikimedia Commons."){.media-right}
 
 > And being almost out of her poor wits did shriek and cry soe extremely, she could not be pacified for all they could do. But in extremity fell into most dreadfull fits of convulsions there while she was at Richmond in Mr Smithson's shop. Having had 3 or 4 of them so sadly and so dreadfully that they had much to do to save her alive or bring her to herself again, but started extremely much and then falling down again. At last, they doing all could do to her, did bring my dear child half dead to me, which was a sad and dismal affliction to my weak heart, and she continued very ill all that night. But I gave her all medicines for it and oil of amber and peony and other things, which by the Lord's great and infinite mercy to me did at length preserve and restore her from them.[^4]
 
@@ -51,7 +51,7 @@ This is what Culpeper had to say about peony, a flowering plant:
 
 ## Saffron for small pox
 
-![An old book illustration of a saffron plant]({{"/assets/img/posts/saffron.jpg" | url}} "Saffron, from Ebeneezer Sibley's 1789 edition of *Culpeper's English Physician*. Public domain, via Wikimedia Commons."){.media-right}
+![An old book illustration of a saffron plant]({{"/assets/img/posts/saffron.jpg" | url}} "Saffron, from Ebeneezer Sibley's 1789 edition of Culpeper's 'English Physician'. Public domain, via Wikimedia Commons."){.media-right}
 
 About a month before Nally's ill-fated expedition to the pageant at Richmond, Thornton had given birth to her sixth child, William. But less than two weeks after he was born, William became very ill, and would sadly die on 28th April. Here, she describes administering home remedies to her baby, who was suffering with something akin to small pox:
 
