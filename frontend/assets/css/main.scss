@@ -917,5 +917,19 @@ ul.pagination-list {
   right: 1.5em;
   z-index: 100;
   box-shadow: 0.5em 0.5em 1em #444;
-  opacity: 0.9;
+  opacity: 1;
+  text-decoration: none;
+  height: 4em;
+  background-color: #993800;
+  color: #fff;
+  .icon {
+    color: #fff;
+  }
+  &:hover .icon {
+    color: #111;
+  }
+}
+
+.button.is-rounded {
+  border-radius: 40px 40px 0 40px;
 }
