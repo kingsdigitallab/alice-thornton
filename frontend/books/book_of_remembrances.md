@@ -10,4 +10,3 @@ archivedAt: https://reed.dur.ac.uk/xtf/view?docId=ark/32150_s2hm50tr76x.xml;quer
 image: /assets/img/books/BookRemembrancesFrontCover.jpg
 contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/texts/00_book_of_remembrances/book_of_remembrances.xml
 ---
-
