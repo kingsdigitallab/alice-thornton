@@ -6,12 +6,11 @@ authors:
 status: draft
 tags:
   - medicine
-  - events
   - manuscripts
   
 ---
 
-This Saturday 18 November the *Thornton's Books* team are hosting ['Alice Thornton's Cafe'](https://thornton.kdl.kcl.ac.uk/posts/news/2023-10-30-being-human-cafe/) at Starbank Park, Edinburgh as part of the Being Human festival. Here, project postdoc Jo Edge talks about some of the herbal remedies used by Alice Thornton and recorded in her autobiographies.
+This Saturday 18 November the *Thornton's Books* team are hosting ['Alice Thornton's Cafe'](https://thornton.kdl.kcl.ac.uk/posts/news/2023-10-30-being-human-cafe/) at Starbank Park, Edinburgh as part of the Being Human festival 2023. Here, project postdoc Jo Edge talks about some of the herbal remedies used by Alice Thornton and recorded in her autobiographies.
 
 ##
 
