@@ -12,14 +12,13 @@ tags:
 
 This Saturday 18 November the *Thornton's Books* team are hosting ['Alice Thornton's Cafe'](https://thornton.kdl.kcl.ac.uk/posts/news/2023-10-30-being-human-cafe/) at Starbank Park, Edinburgh as part of the Being Human festival 2023. Here, project postdoc Jo Edge talks about some of the herbal remedies used by Alice Thornton and recorded in her books.
 
-##
-
-![An woman with her head covered sitting in a parlour facing away from the painter, reading a book]({{"/assets/img/posts/Pieter_Janssens_Elinga_Reading_Woman.jpg" | url}} "Pieter Janssens Elinga, 'Reading Woman' (17th century). Public domain, via Wikimedia Commons.")
+## Women and domestic medicine
 
 > I give unto my dear daughter Comber all my physic books and recipes, together with my stock of salves and ointments, desiring her to give unto her sister Katherine Danby what she may have occasion to use for herself or her children.[^1]
 
 This extract from Alice Thornton's will, made in 1705 before her death in 1707, tells us that Thornton owned multiple medical books, recipes and remedies, which she passed down to her eldest daughter, Alice (Nally) Comber, for the use of herself, her sister Katherine Danby, and Danby's children. That Thornton was a medical practitioner is not out of the ordinary. Educated, literate women in the seventeenth century, who were in charge of the domestic sphere, had a good deal of basic medical knowledge, and access to remedies. That Thornton left these resources, presumably accumulated over many years, to her female descendants illustrates the gendered nature of medical roles. Aside from midwives, licensed professional medical practitioners - surgeons, apothecaries, and physicians - were male. But domestic medicine - the home treatment of wounds and cuts, aches and pains, and the day-to-day management of chronic conditions - was almost exclusively the domain of women.
 
+![An woman with her head covered sitting in a parlour facing away from the painter, reading a book]({{"/assets/img/posts/Pieter_Janssens_Elinga_Reading_Woman.jpg" | url}} "Pieter Janssens Elinga, 'Reading Woman' (17th century). Public domain, via Wikimedia Commons.")
 
 During the course of her four books, Thornton regularly refers to the medical issues suffered by herself, her family and her friends. The Thorntons were members of the landed gentry and could and did pay for the services of medical professionals when needed. Thornton's brother-in-law, Timothy Portington, was an apothecary in Malton, and they also used the services of the York physician [Robert Wittie](https://history.rcplondon.ac.uk/inspiring-physicians/robert-wittie). But by far the most promiment medical practitioner in Thornton's books is Thornton herself, and her descriptions of administering medicine show that she was highly read, with access to knowledge and remedies - including herbs and plants - as confirmed by her will.
 
