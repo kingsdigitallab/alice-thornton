@@ -35,7 +35,7 @@ eleventyNavigation:
                 <label class="checkbox">
                   <input type="checkbox" v-on:change="onClickOption" v-model="option.selected">
                   <span v-if="getClassFromType(option.key)" class="icon"><i :class="`type-icon fas ${getClassFromType(option.key)}`" v-if="getClassFromType(option.key)" aria-hidden="true"></i></span>
-                  {{ getBookLabelFromId(option.key) }} ({{ option.doc_count }})
+                  {{ getLabelFromOptionKey(option.key) }} ({{ option.doc_count }})
                 </label>
               </li>
             </ul>
@@ -98,7 +98,7 @@ eleventyNavigation:
             <ul class="result-books">
               <li v-for="(pages, bookId) in item.pages" class="result-book">
                 <template v-if="pages.length">
-                  {{ getBookLabelFromId(bookId) }}: 
+                  {{ getLabelFromOptionKey(bookId) }}: 
                   p<template v-if="pages.length > 1">p</template>.
                   <template v-for="(page, index) in pages">
                     <template v-if="isLocusVisible(bookId, page)">

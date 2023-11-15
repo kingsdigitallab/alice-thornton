@@ -165,14 +165,18 @@ function setUpSearch() {
       isLocusVisible(bookId, page) {
         return window.isLocusVisible(bookId, page);
       },
-      getBookLabelFromId(bookId) {
-        let labelFromId = {
+      getLabelFromOptionKey(optionKey) {
+        let labelFromKey = {
           book_of_remembrances: "Book Rem",
           book_one: "Book 1",
           book_two: "Book 2",
           book_three: "Book 3",
+
+          person: "Person",
+          place: "Place, region",
+          event: "Event",
         };
-        return labelFromId[bookId] || bookId;
+        return labelFromKey[optionKey] || optionKey;
       },
       onClickNextPage() {
         this.selection.page++;
