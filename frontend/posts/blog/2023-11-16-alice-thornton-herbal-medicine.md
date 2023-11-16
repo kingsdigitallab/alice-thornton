@@ -3,7 +3,7 @@ title: "'But I gave her all medicines': herbal remedies in Alice Thornton's Book
 feature: /assets/img/posts/peony.jpg
 authors:
   - jedge
-status: draft
+status: live
 tags:
   - medicine
   - manuscripts
