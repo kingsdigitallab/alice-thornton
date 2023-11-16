@@ -48,7 +48,7 @@ Thornton was pregnant with Robert when the incident above took place. He survive
 
 Many passages in Thornton’s writing deal with [the body, illness](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-12-19-grief-and-illness-thornton/) and [death](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/). In the *Book of Remembrances*, the passing away of extended family members including [an uncle who ate too much cold melon](https://www.historyworkshop.org.uk/food/forbidden-fruit/), are placed in a list along with the beheading of King Charles I. They occurred around about the same time, and are given equal weight. Thornton dedicated much longer passages to other bereavements, such as the death of her mother. Describing her mother’s final illness, Thornton mentioned using a common calmative still familiar today:
 
->these stitches continued about fourteen days, with the cough hindering her from almost any sleep. When, upon the use of bags with fried oats, butter and chamomile chopped laid to her sides, the stitches removed, and the cough abated as to the extremity thereof (p. 33).
+>these stitches continued about 14 days, with the cough hindering her from almost any sleep. When, upon the use of bags with fried oats, butter and chamomile chopped laid to her sides, the stitches removed, and the cough abated as to the extremity thereof (p. 33).
 
 ![A photo of an old over-the-shoulder woven bag, with a flower and vetegable design]({{"/assets/img/posts/17th_century_bag.jpg" | url}} "Bag (1600-1650). Victoria and Albert Museum.")
 
