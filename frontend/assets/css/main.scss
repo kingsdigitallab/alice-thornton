@@ -19,6 +19,7 @@
 
 .is-primary {
   background: $primary;
+  text-decoration: none;
 }
 
 .is-secondary {
@@ -333,6 +334,7 @@ body > footer.footer {
   // color: red;
 }
 .button {
+  text-decoration: none;
   .icon {
     &.is-small {
       height: 0.75rem;
@@ -916,9 +918,10 @@ ul.pagination-list {
   bottom: 1.5em;
   right: 1.5em;
   z-index: 100;
-  box-shadow: 0.5em 0.5em 1em #444;
+  box-shadow: 0.2em 0.2em 0.7em #999999;
   opacity: 1;
   text-decoration: none;
+  border:none;
   @include mobile {
     height: 3em;
     &.button.is-rounded {
@@ -929,15 +932,16 @@ ul.pagination-list {
     height: 3em;
   }
   @include tablet {
-    height: 4em;
+    height: 3em;
   }
   background-color: #993800;
   color: #fff;
   .icon {
     color: #fff;
   }
-  &:hover .icon {
-    color: #111;
+  &:hover, &:focus {
+    background-color: darken(#993800,5%);
+    color:white;
   }
 }
 
