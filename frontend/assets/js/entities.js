@@ -94,6 +94,7 @@ function setUpSearch() {
           // and stuck it at the end of 'search'.
           // We also replace : with _. : is used by itemjs for field:value query syntax.
           searchableFields: ["search"],
+          removeStopWordFilter: true,
         };
       },
       facets() {
@@ -262,12 +263,12 @@ function setUpSearch() {
           });
       },
       processRecords() {
-        for (let record of this.records) {
-          // record.titleSearch = record.title.replace(/\b(c|mr|mrs|sir|born|lady)\b/ig, '').replace(/\W+/g, ' ')
-          if (record.search != record.title) {
-            console.log(`${record.title} => ${record.search}`);
-          }
-        }
+        // for (let record of this.records) {
+        //   // record.titleSearch = record.title.replace(/\b(c|mr|mrs|sir|born|lady)\b/ig, '').replace(/\W+/g, ' ')
+        //   if (record.search != record.title) {
+        //     // console.log(`${record.title} => ${record.search}`);
+        //   }
+        // }
       },
       setAddressBarFromSelection() {
         // ?p1.so=&p1.co=&p2.so=...
@@ -284,7 +285,7 @@ function setUpSearch() {
           q = q.replace(/^(ppl|place):/, "");
           this.selection.query = q;
         }
-        console.log(searchParams);
+        // console.log(searchParams);
       },
       getContentClasses(panel) {
         return `view-${panel.selections.view}`;
