@@ -771,6 +771,10 @@ ul.pagination-list {
 
 // Search page
 
+.control .input {
+  border-color: $primary-light;
+}
+
 #search {
   .type-icon {
     width: 0.8em;
@@ -780,7 +784,7 @@ ul.pagination-list {
   .panel.is-info {
     .panel-heading {
       color: #fff;
-      background-color: #701711;
+      background-color: $primary-light;
       margin-bottom: 0.5em;
     }
 
@@ -948,3 +952,5 @@ ul.pagination-list {
 .button.is-rounded {
   border-radius: 40px 40px 0 40px;
 }
+
+//

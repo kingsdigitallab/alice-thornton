@@ -41,23 +41,25 @@ Example:
 
     <xsl:template match="tei:person">
         {
-            "id": "ppl:<xsl:value-of select='@xml:id'/>",
-            "title": "<xsl:value-of select='normalize-space(tei:persName[@type="label"]/text())'/>",
             "type": "person",
-            "sortkey": "<xsl:value-of select='normalize-space(tei:persName/tei:surname[1]/text())'/> <xsl:value-of select='normalize-space(tei:persName/tei:forename/text())'/> <xsl:value-of select='normalize-space(tei:birth/@when-custom)'/>",
-            "pages": {<xsl:call-template name='insertBooksPages'><xsl:with-param name="entity" select="."/><xsl:with-param name="entityPrefix" select="'ppl:'"/></xsl:call-template>},
-            "bio": "<xsl:value-of select="normalize-space(tei:noteGrp/tei:note[@type='bio']/text())"/>"
+            "id": "ppl:<xsl:value-of select='@xml:id'/>",
+            <xsl:if test="tei:persName/tei:surname[1]">"sortkey": "<xsl:value-of select='normalize-space(tei:persName/tei:surname[1]/text())'/>-<xsl:value-of select='normalize-space(tei:persName/tei:forename/text())'/>-<xsl:value-of select="normalize-space(replace(tei:birth/@when-custom, '\D', ''))"/>",
+            "search": "<xsl:value-of select='normalize-space(tei:persName/tei:surname[1]/text())'/>&#160;<xsl:value-of select='normalize-space(tei:persName/tei:forename/text())'/>&#160;_ppl_<xsl:value-of select='@xml:id'/>",</xsl:if>
+            "title": "<xsl:value-of select='normalize-space(tei:persName[@type="label"]/text())'/>",
+            "bio": "<xsl:value-of select="normalize-space(tei:noteGrp/tei:note[@type='bio']/text())"/>",
+            "pages": {<xsl:call-template name='insertBooksPages'><xsl:with-param name="entity" select="."/><xsl:with-param name="entityPrefix" select="'ppl:'"/></xsl:call-template>}
         }
         <xsl:if test="position()!=last()">,</xsl:if>
     </xsl:template>
 
     <xsl:template match="tei:place">
         {
-            "id": "place:<xsl:value-of select='@xml:id'/>",
-            "title": "<xsl:value-of select='tei:placeName[@type="label"]/text()'/><xsl:value-of select='tei:geogName[@type="label"]/text()'/>",
             "type": "place",
+            "id": "place:<xsl:value-of select='@xml:id'/>",
+            "sortkey": "<xsl:value-of select='(tei:location/tei:country/text(),"(NOCOUNTRY)")[1]'/>-<xsl:value-of select='(tei:location/tei:region/text(),"(NOREGION)")[1]'/>-<xsl:value-of select='(tei:location/tei:settlement/text(), "(NOSETTLEMENT)")[1]'/>-<xsl:value-of select='(tei:location/tei:placeName/text(), "(NOPLACENAME)")[1]'/>-<xsl:value-of select='(tei:location/tei:settlement/text(), tei:location/tei:geogName/text(), tei:placeName[@type="label"]/text(), tei:geogName[@type="label"]/text())[1]'/>",
+            "search": "<xsl:value-of select='tei:*[@type="label"]/text()'/>&#160;_place_<xsl:value-of select='@xml:id'/>",
+            "title": "<xsl:value-of select='tei:*[@type="label"]/text()'/>",
             "subtype": "<xsl:value-of select='@type'/>",
-            "sortkey": "<xsl:value-of select='tei:placeName[@type="label"]/text()'/><xsl:value-of select='tei:geogName[@type="label"]/text()'/>",
             "region": "<xsl:value-of select='(tei:location/tei:region/text(),"Europe")[1]'/>",
             "settlement": "<xsl:value-of select='tei:location/tei:settlement/text()'/>",
             "pages": {<xsl:call-template name='insertBooksPages'><xsl:with-param name="entity" select="."/><xsl:with-param name="entityPrefix" select="'place:'"/></xsl:call-template>}

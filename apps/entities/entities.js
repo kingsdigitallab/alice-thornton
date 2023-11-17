@@ -43,17 +43,27 @@ class Entities {
       entity.books = Object.keys(entity.pages);
       // missing key for people with no first/surname
       if (!entity?.sortkey && entity.type == "person") {
-        // 'John Thornton (1633-1669)' => "ThorntonJohn"
+        // 'John Thornton (1633-1669)' => "Thornton-John"
         entity.sortkey = entity.title
           .replace(/\([^)]+\)/g, "")
+          .trim()
           .split(/\s+/)
           .reverse()
-          .join("");
+          .join("-")
         console.log(
           `WARNING: fixed missing sorkey for ${entity.type}:${entity.id} = ${entity.sortkey}`
         );
       }
+      if (!entity?.search) {
+        entity.search = entity.title
+      }
+      // remove text between []
+      entity.search = entity.search.replace(/\[.*?\]/g, '')
     }
+
+    // sort by sortKey, optional, only for debugging purpose as itemjs will sort anyway
+    this.entities = this.entities.sort((a,b) => a.sortkey.localeCompare(b.sortkey))
+
   }
 
   async loadTei(source) {
