@@ -925,7 +925,7 @@ ul.pagination-list {
   box-shadow: 0.2em 0.2em 0.7em #999999;
   opacity: 1;
   text-decoration: none;
-  border:none;
+  border: none;
   @include mobile {
     height: 3em;
     &.button.is-rounded {
@@ -943,9 +943,10 @@ ul.pagination-list {
   .icon {
     color: #fff;
   }
-  &:hover, &:focus {
-    background-color: darken(#993800,5%);
-    color:white;
+  &:hover,
+  &:focus {
+    background-color: darken(#993800, 5%);
+    color: white;
   }
 }
 
