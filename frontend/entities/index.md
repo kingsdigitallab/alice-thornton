@@ -102,7 +102,7 @@ eleventyNavigation:
                   p<template v-if="pages.length > 1">p</template>.
                   <template v-for="(page, index) in pages">
                     <template v-if="isLocusVisible(bookId, page)">
-                      <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${page}&hi=${item['id']}`">{{ page }}</a>
+                      <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${page}&p0.vi=modern&hi=${item['id']}`">{{ page }}</a>
                     </template>
                     <template v-else>
                       {{ page }}
