@@ -145,6 +145,10 @@ function setUpSearch() {
       // },
     },
     methods: {
+      isBioVisible(item) {
+        // hidden if the bio is surrounded by square brackets.
+        return !item.bio.match(/^\s*\[.*\]\s*$/);
+      },
       onChangeView(viewKey) {
         if (viewKey) {
           this.selection.view = viewKey;
