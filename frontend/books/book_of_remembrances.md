@@ -24,6 +24,8 @@ Anselment notes that this volume cannot ‘be dated with any certainty’.[^2] A
 
 ## Contents (coming soon)
 
-Notes
-[^1] [FILM MISC 326](https://hdl.handle.net/10079/bibid/615720).
-[^2] Raymond A. Anselment, ‘Seventeenth-Century Manuscript Sources of Alice Thornton’s Life’, _SEL_ 45, no. 1 (2005): 137, 154n10. 
+
+## Notes
+
+[^1]: [FILM MISC 326](https://hdl.handle.net/10079/bibid/615720).
+[^2]: Raymond A. Anselment, ‘Seventeenth-Century Manuscript Sources of Alice Thornton’s Life’, _SEL_ 45, no. 1 (2005): 137, 154n10. 
