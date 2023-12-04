@@ -1,6 +1,6 @@
 ---
 title: "Alice Thornton’s Books: Search for People and Places"
-feature: /assets/img/posts/partial_release_news.jpg
+feature: /assets/img/posts/blog_search_function_preview.png
 authors:
   - strill
 status: draft
