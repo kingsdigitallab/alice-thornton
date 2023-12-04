@@ -25,7 +25,7 @@ However, if you then click on either the ‘Expand/Collapse’ button or the lin
 
 This entry provides a sample of the kind of information that will eventually be made available for all the people in our list: that is, a brief biography and a list of all the pages on which this person is mentioned across all four of Thornton’s Books.
 
-Currently, the biographical information is only complete for those people mentioned in in the first twenty-two pages of the Book of Remembrances: that is Mr Baxter, Mrs Best, Katherine Dudley Leveson, Roger Lasselles, Sarah Tomlinson, William Thornton, Alice Osborne Wandesford, Anne Wandesford Norton, Alice Wandesford Thornton, Christopher Wandesford (1592–1640), Christopher Wandesford (1628–1687), Lady Anne Wentworth, Lady Arabella Wentworth, Thomas Wentworth, earl of Strafford.
+Currently, the biographical information is only complete for those people mentioned in in the first twenty-two pages of the *Book of Remembrances*: that is Mr Baxter, Mrs Best, Katherine Dudley Leveson, Roger Lasselles, Sarah Tomlinson, William Thornton, Alice Osborne Wandesford, Anne Wandesford Norton, Alice Wandesford Thornton, Christopher Wandesford (1592–1640), Christopher Wandesford (1628–1687), Lady Anne Wentworth, Lady Arabella Wentworth, Thomas Wentworth, earl of Strafford.
 
 The links to references to them are only live for the pages included in our partial release (i.e., up to page 103; so, for example, clicking on ‘Book Rem: p. [23](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.23&p0.vi=modern&hi=ppl:aow1)’ in the list above will take you to that page).
 
@@ -50,5 +50,5 @@ As an example of the kind of information we intend to provide for all four books
 ![The Book of Remembrances page from the Thornton's Books site, showing all four books, one of which has an 'About' button]({{"/assets/img/posts/2023_12_03_BookRem_About.jpeg" | url}} "Book of Remembrances page, Alice Thornton's Books, with descriptive information")
 
 So, this version is only a taster of what is to come, and we would welcome your feedback on what is here as we create the rest of the materials.
- 
+
 Please let us know what you think of this facility by clicking the feedback button on the bottom right-hand side of the page.
