@@ -10,7 +10,7 @@ tags:
   
 ---
 
-![A picture of a webpage from the Thornton's Books site, showing a list of people with the surname Wandesford]({{"/assets/img/posts/2023_12_03_SearchFunction_WandesfordList.jpeg" | url}} "Search page, Alice Thornton's Books, showing results for Wandesford")
+![A picture of a webpage from the Thornton's Books site, showing a list of people with the surname Wandesford]({{"/assets/img/posts/2023_12_03_SearchFunction_WandesfordList.jpeg" | url}} )
 
 We now have a [search](https://thornton.kdl.kcl.ac.uk/entities/) function for people and places which means you can now see who appears, and how often, across all four books and find out what places Thornton was associated with over the course of her life.
 
