@@ -43,7 +43,7 @@ Below, you can see a sample of the results if you limit your search area to the 
 
 Also, if you look at the [Books](https://thornton.kdl.kcl.ac.uk/books/) page, we have updated the information provided about the material history of the four books, via an ‘About’ button. 
 
-![A picture of the Books page the Thornton's Books site, showing all four books with 'About' buttons]({{"/assets/img/posts/2023_12_03_PlacesYorkshire.jpeg" | url}} "Books page, Alice Thornton's Books, showing the Books page with 'About' function")
+![A picture of the Books page the Thornton's Books site, showing all four books with 'About' buttons]({{"/assets/img/posts/2023_12_03_Books.jpeg" | url}} "Books page, Alice Thornton's Books, showing the Books page with 'About' function")
 
 As an example of the kind of information we intend to provide for all four books, you will find most detail provided for the Book of Remembrances (description, provenance, dating).
 
