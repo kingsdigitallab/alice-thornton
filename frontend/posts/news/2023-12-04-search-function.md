@@ -7,6 +7,7 @@ authors:
 tags:
   - digital edition
   - TEI
+  - manuscripts
 
 ---
 
