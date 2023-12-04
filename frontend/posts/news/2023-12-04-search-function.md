@@ -1,5 +1,5 @@
 ---
-title: "Digital Edition Update: Search for People and Places"
+title: "Digital Edition Update: Search and Books Tabs"
 feature: /assets/img/posts/2023_12_03_BookRem_About.jpeg
 status: live
 authors:
@@ -10,7 +10,7 @@ tags:
 
 ---
 
-![A picture of a webpage from the Thornton's Books site, showing a list of people and places]({{"/assets/img/posts/2023_12_03_SearchFunction_LandingPage.jpeg" | url}} "Search page, Alice Thornton's Books")
+![A picture of a webpage from the Thornton's Books site, showing a list of people and places]({{"/assets/img/posts/2023_12_03_SearchFunction_LandingPage.jpeg" | url}} )
 
 We now have a [search](https://thornton.kdl.kcl.ac.uk/entities/) function for people and places! Links that go to our partial release are live, others show up but are currently disabled; however, you can now see who appears and how often across all four books. [^1]
 
