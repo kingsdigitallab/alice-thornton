@@ -25,4 +25,4 @@ We hope this whets your appetite for more and we will update you here and via so
 In the meantime, please let us know what you think of this facility by clicking the feedback button on the bottom right-hand side of the page.
 
 
-[^1]: See [Alice Thornton’s Books: Search for People and Places] for further details.
+[^1]: See [Alice Thornton’s Books: Search for People and Places](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-12-04-search-function-blog) for further details.
