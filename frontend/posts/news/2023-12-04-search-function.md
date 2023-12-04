@@ -1,7 +1,7 @@
 ---
 title: "Digital Edition Update: Search for People and Places"
 feature: /assets/img/posts/2023_12_03_BookRem_About.jpeg
-status: draft
+status: live
 authors:
   - strill
 tags:

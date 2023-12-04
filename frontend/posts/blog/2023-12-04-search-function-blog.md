@@ -3,7 +3,7 @@ title: "Alice Thornton’s Books: Search for People and Places"
 feature: /assets/img/posts/blog_search_function_preview.png
 authors:
   - strill
-status: draft
+status: live
 tags:
   - digital edition
   - TEI
