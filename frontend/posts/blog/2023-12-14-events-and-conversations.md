@@ -1,5 +1,5 @@
 ---
-title: "Thornton's Books Events and Conversations"
+title: "Community Conversations and Events"
 feature: /assets/img/posts/refectory_library_group.jpg
 authors:
   - ethom
