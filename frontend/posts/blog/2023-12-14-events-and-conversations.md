@@ -3,7 +3,7 @@ title: "Community Conversations and Events"
 feature: /assets/img/posts/refectory_library_group.jpg
 authors:
   - ethom
-status: draft
+status: live
 tags:
   - talks
   - events
