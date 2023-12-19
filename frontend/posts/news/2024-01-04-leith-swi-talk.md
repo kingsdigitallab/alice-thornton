@@ -1,6 +1,6 @@
 ---
 title: "Alice Thornton Talk for Leith SWI"
-feature: /assets/img/posts/birth_room_gossips.jpeg
+feature: /assets/img/posts/bilhah_cropped.jpeg
 status: draft
 authors:
   - ethom
