@@ -5,7 +5,6 @@ authors:
   - ethom
 status: live
 tags:
-  - talks
   - events
 
   
