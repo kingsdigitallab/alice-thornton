@@ -28,7 +28,7 @@ As well as the flood, the shock of the incident had made Thornton's milk dry up 
 
 Luckily, Nally once again recovered, according to Thornton, thanks to God.
 
-![A 17th century painting of an older woman in a black cap with a sick toddler on her lap in a domestic setting.]({{"/assets/img/posts/the-sick-child.jpg" | url}} "Gabriel Metsu, 'The Sick Child', (c. 1660). Public domain, via Wikimedia Commons"){.media-left}
+![A 17th century painting of an older woman in a black cap with a sick toddler on her lap in a domestic setting.]({{"/assets/img/posts/the_sick_child.jpg" | url}} "Gabriel Metsu, 'The Sick Child', (c. 1660). Public domain, via Wikimedia Commons"){.media-left}
 
 Thornton here describes a process which might seem melodramatic to the modern reader. She experiences a sudden shock of grief, which leads to a huge flux in her humours (uterine bleeding and the drying up of her milk). She is close to death, according not only to herself but to others around her. But God steps in to 'deliver' her from this terrible fate. This is a process that Thornton describes throughout all four of her autobiographical books, always caused by a sudden shock. I want to try and place this process in the context of both Thornton's writings and late-seventeenth-century understandings of medicine and the body.
 
