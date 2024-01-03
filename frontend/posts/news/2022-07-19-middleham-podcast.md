@@ -4,7 +4,6 @@ feature: /assets/img/posts/Middleham-horses-mediawiki-CJW.jpg
 authors:
   - cbeattie
 tags:
-  - media
   - podcasts
   - yorkshire
 ---
