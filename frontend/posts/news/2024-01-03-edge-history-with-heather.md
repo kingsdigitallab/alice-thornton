@@ -6,11 +6,11 @@ authors:
   - jedge
 tags:
   - podcasts
-  - media
   - yorkshire
+  - childbirth
 
 
 ---
-Just before Christmas, project postdoc Jo Edge appeared on the History with H podcast to talk to Heather Rowe about Alice Thornton and her connection to Middleham Castle, which was released on New Years' Eve.
+Just before Christmas, project postdoc Jo Edge was interviewed for the History with H podcast by Heather Rowe. She talked about Alice Wandesford Thornton and the connection we found to Middleham Castle. The episode was released on New Year's Eve.
 
 Have a listen [here](https://podcasters.spotify.com/pod/show/heatherrowe3/episodes/S1-E8---Lets-talk-about----Middleham-Castle-e2der15?fbclid=IwAR2yfeeWlqIWceD0WYSczQh1_XHBDKkaqQvyGQJU9f1yd_nv-yb1XQJh5ok).
