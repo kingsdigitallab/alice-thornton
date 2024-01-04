@@ -24,7 +24,7 @@
          <sourceDesc>
            <msDesc>
              <!-- teiHeader msDesc (manuscript description) contains a description of a single identifiable manuscript or other text-bearing object such as early printed books.
-             note: info for the moment taken from DCL online catalogue. their description of the book as a "diary"!!!
+             note: info for the moment taken from DCL online catalogue.
              -->
              <msIdentifier>
                <repository>Durham Cathedral Library</repository>
@@ -65,14 +65,10 @@
                <handDesc>
                  <!-- teiHeader msDesc <handDesc> (description of hands) contains a description of all the different hands used in a manuscript or other object. -->
                  <handNote xml:id="awt" scribeRef="ppl:awt1">
-                   <!-- Q [tei] check this is correct use of scribeRef???
+                   <!-- Q *this is probably not needed at all since we're removing anything not in AWT's hand*
                    not sure about this if awt1 is the assumed default and only #unknown (maybe #uncertain) is likely to be specified as a @hand??? 
                    and (check with ST) possibly any #unknown should be omitted anyway... -->
                    Alice Thornton's hand.
-                 </handNote>
-                 <handNote xml:id="unknown">
-                   not Alice's hand.
-                   <!-- NOTE might need enumeration if you do use it... -->
                  </handNote>
                </handDesc>
                
@@ -112,7 +108,7 @@
        
        <!-- NOTES ON DATES:
          
-         NB: our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year a date between 1 Jan and 24 March is supposed to be in.
+         NB: our main problem is that Thornton does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year a date between 1 Jan and 24 March is supposed to be in.
          
          following MoEML, three @datingMethod:
          #JulianJan year starts 1 January
@@ -166,9 +162,9 @@
          TODO: needs work, I probably know what's needed
          Q: needs work, some uncertainty about how to proceed
          
-         [teams] or [review] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
-         
          [keyword] comment/note tags give some indication of what it's about
+         
+         [teams] or [review] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
          
          [endnote] moved from Word endnotes into comment for reference
          
@@ -179,7 +175,7 @@
           final check through remaining <seg>underline in all four books to make sure none of them should be rend(rule) and if any should be converted to emph? tags.
              tei: emph = "marks words or phrases which are stressed or emphasized for linguistic or rhetorical effect." example = You took the car and did <emph>what</emph>?!! (and I think all the further examples are the same type of thing) 
              - v few clear examples of Alice using underline for exactly this type of emphasis. 
-             - but she does sometimes seem to underline things to draw attention to them, so does that also count as emph?
+             - but she does sometimes seem to underline things to highlight them, so does that also count as emph?
              - Cf. most underline in BkRem used on headings and seems most appropriate to treat as decoration. Queried ones are at end of sections and the Q is whether they should be treated as section markers. 
         
    
@@ -421,14 +417,14 @@
            of <w norm="Myself" type="u">my selfe</w>, <rs ref="ppl:wt1" type="person">Husband</rs><!-- NOTE because in title husband should be capitalised as should Children that follows --> <w norm="and">&amp;</w> Children<supplied reason="mod">,</supplied><lb/>
            with <w norm="their">theire</w> <w norm="Births" type="u">births</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="Other" type="u">other</w> <w norm="Remarks" type="u">remarks</w><lb/>
            as <w norm="Concerning">conserning</w> <w norm="Myself" type="u">my selfe</w> <w norm="and">&amp;</w> Family<!-- NOTE here too capitalisation OK because title --><supplied reason="mod">,</supplied><lb/>
-           <w norm="Beginning">begining</w> from the <w norm="Year">yeare</w><surplus reason="superfluous">.</surplus> <date datingMethod="#JulianMar" when-custom="1625">1625</date>.<anchor n="1" corresp="#p001n01" type="context" resp="ednote"/><!-- #ednote-0001 -->
+           <w norm="Beginning">begining</w> from the <w norm="Year">yeare</w><surplus reason="superfluous">.</surplus> <date datingMethod="#JulianMar" when-custom="1625">1625</date>.<anchor n="1" corresp="#p001n01" type="context" resp="ednote"/>
            <!-- NOTE [dates] definitely OS! [add] 5 was written over something, maybe 6, no longer recorded in semidip. -->
          </titlePart>
          </docTitle>
          <docAuthor>  
          <persName ref="ppl:awt1" n="per1" type="monogram">
            ATW <!-- NOTE there is also one in book 1 near the end. and beginning of book ?3 -->
-         </persName><anchor n="2" corresp="#p001n02" type="context" resp="ednote"/><!-- #ednote-0002 -->
+         </persName><anchor n="2" corresp="#p001n02" type="context" resp="ednote"/>
               
          </docAuthor>
          </titlePage>
@@ -464,9 +460,9 @@
          the <date datingMethod="#JulianMar" when-custom="1625-02-13">thirteenth day of <w norm="February">feb<ex>ruary</ex></w><supplied reason="mod">,</supplied><lb/>
           <w norm="being">beeing</w> <w norm="Monday">munday</w>, <w norm="about">a bout</w> two of<lb/>
            the clock in the <w norm="afternoon">after noone</w><surplus reason="superfluous">,</surplus> in<lb/>
-            the <w norm="year">yeare</w><surplus reason="superfluous">.</surplus> 1625</date><supplied reason="mod">.</supplied><anchor n="3" corresp="#p003n01" type="context" resp="ednote"/><!-- #ednote-0001 NOTE repeated note --> Baptised<lb/> <!-- [event] baptism? -->
-         <date when-custom="1626-02-14">the next day</date>.<anchor n="4" corresp="#p003n02" type="context" resp="ednote"/><!-- #ednote-0004 --></p>
-       <p xml:id="p-0002"><term ref="gloss:p003t01" xml:id="p003t01"><w norm="Witnesses">Wittnesses</w></term><pc norm=":">,</pc><!-- NOTE #ednote-0005 --> <persName ref="ppl:rl1" n="per4">Mr <w norm="Lascelles">Lassells</w></persName><supplied reason="mod">,</supplied> minister<lb/>
+            the <w norm="year">yeare</w><surplus reason="superfluous">.</surplus> 1625</date><supplied reason="mod">.</supplied><anchor n="3" corresp="#p003n01" type="context" resp="ednote"/> Baptised<lb/> <!-- [event] baptism? -->
+         <date when-custom="1626-02-14">the next day</date>.<anchor n="4" corresp="#p003n02" type="context" resp="ednote"/></p>
+       <p xml:id="p-0002"><term ref="gloss:p003t01" xml:id="p003t01"><w norm="Witnesses">Wittnesses</w></term><pc norm=":">,</pc> <persName ref="ppl:rl1" n="per4">Mr <w norm="Lascelles">Lassells</w></persName><supplied reason="mod">,</supplied> minister<lb/>
           of <placeName ref="place:Kirk_031" n="place3">Kirklington</placeName><pc norm=",">.</pc> <persName ref="ppl:awn1" n="per5">Mrs Anne <lb/>
             Norton</persName> and <persName ref="ppl:xb1" n="per6">Mrs Best</persName>.<anchor n="ev1" type="event"/> <milestone unit="marker" rend="delim(diagonal)"/><!-- NOTE this particular 'diagonal' is not like a / but more like a near horizontal short line, up to 1/4 width of page (slightly cropped in our image so hard to judge exact length) --></p>
          </div>
@@ -493,7 +489,7 @@
            
          <fw type="pageNum" place="right">3</fw>
            <l>Lord<supplied reason="mod">,</supplied> guide my heart,<lb/>
-           and give my <w norm="soul">Soule</w> directions<pc norm=",">:</pc><anchor n="5" corresp="#p005n01" type="context" resp="ednote"/><!-- #ednote-0006 --></l>
+           and give my <w norm="soul">Soule</w> directions<pc norm=",">:</pc><anchor n="5" corresp="#p005n01" type="context" resp="ednote"/></l>
            <l>Subdue my passions<supplied reason="mod">,</supplied><lb/>
            <w norm="curb">Curbe</w> my <w norm="stout">Stoute</w> affections<pc norm=",">:</pc></l>
          <l>Nip thou the bud,<lb/>
@@ -532,9 +528,9 @@
            <seg rend="underline">Dedication<surplus reason="superfluous">.</surplus></seg>
          </head>
       <l><w norm="I'll">Ile</w> dedicate my <w norm="soul">Soule</w> unto my God<supplied reason="mod">:</supplied> </l>
-      <l>My <w norm="childhood">Childehood</w>, <term ref="gloss:p007t01" xml:id="p007t01"><w norm="nonage">non-Age</w></term>,<!-- NOTE #ednote-0007 --> youth<surplus reason="superfluous">,</surplus> is by his <w norm="rod" type="l">Rod</w><surplus reason="superfluous">.</surplus></l>
+      <l>My <w norm="childhood">Childehood</w>, <term ref="gloss:p007t01" xml:id="p007t01"><w norm="nonage">non-Age</w></term>, youth<surplus reason="superfluous">,</surplus> is by his <w norm="rod" type="l">Rod</w><surplus reason="superfluous">.</surplus></l>
       <l>To be directed<pc norm=";">,</pc> his <w norm="staff">Staffe</w> to uphold<surplus reason="superfluous">.</surplus></l>
-      <l>My <w norm="age" type="l">Age</w><surplus reason="superfluous">,</surplus> and riper years <supplied reason="mod">'</supplied>til it has <w norm="told">tould</w><surplus reason="superfluous">.</surplus><anchor n="6" corresp="#p007n01" type="context" resp="ednote"/><!-- #ednote-0008 --></l>
+      <l>My <w norm="age" type="l">Age</w><surplus reason="superfluous">,</surplus> and riper years <supplied reason="mod">'</supplied>til it has <w norm="told">tould</w><surplus reason="superfluous">.</surplus><anchor n="6" corresp="#p007n01" type="context" resp="ednote"/></l>
       <l>The gracious <w norm="goodness">goodnesse</w> of our blessed God. </l>
       <l>What he has <w norm="done">don</w> for me <w norm="and">&amp;</w> by his word<pc norm=":">.</pc></l>
       <l>Raised my drooping <w norm="spirits">Spiritts</w> <w norm="often">offten</w> times<pc norm=",">.</pc></l>
@@ -545,7 +541,7 @@
       <l>This <w norm="heavenly" type="l">Heavenly</w> <w norm="pilgrimage">Pilgramage</w> <w norm="divine">devine</w>.</l>
       <l>Rise up<supplied reason="mod">,</supplied> my heart<supplied reason="mod">,</supplied> to <w norm="heaven" type="l">Heaven</w> above</l>
       <l>And let thy Lord now <term ref="gloss:p007t02"><w norm="prove" type="l">Prove</w></term> thy love.</l>
-      <l>Spring up <term ref="gloss:p007t03" xml:id="p007t03"><w norm="amain">amaine</w></term><!-- NOTE #ednote-0009 --> and let his holy <w norm="spirit">Spiritt</w></l>
+      <l>Spring up <term ref="gloss:p007t03" xml:id="p007t03"><w norm="amain">amaine</w></term> and let his holy <w norm="spirit">Spiritt</w></l>
       <l><w norm="Give" type="u">give</w> thee a <w norm="crown">Crowne</w> of <w norm="glory" type="l">Glory</w> to <w norm="inherit">Inheritt</w>.</l>
       <l>Then fly <w norm="apace">a pace</w>, stay not behind<pc norm=";">.</pc></l>
          <l>For to be drove by every wind</l>
@@ -565,7 +561,7 @@
          <head>
            Prayer<surplus reason="superfluous">.</surplus>
          </head>
-        <l>Then guide my heart, Lord<supplied reason="mod">,</supplied> give my <add place="above"><w norm="soul">Soule</w></add> direction<supplied reason="mod">,</supplied><anchor n="7" corresp="#p008n01" type="context" resp="ednote"/><!-- #ednote-0010 -->
+        <l>Then guide my heart, Lord<supplied reason="mod">,</supplied> give my <add place="above"><w norm="soul">Soule</w></add> direction<supplied reason="mod">,</supplied><anchor n="7" corresp="#p008n01" type="context" resp="ednote"/>
          </l>
         <l>Subdue my passions, <w norm="curb">Curbe</w> my stout affections<supplied reason="mod">,</supplied></l>
         <l>Nip thou the bud, before the <w norm="bloom">bloome</w> begins<supplied reason="mod">:</supplied></l>
@@ -598,7 +594,7 @@
            <w norm="companion">Compannion</w> without vanity; <w norm="a" type="l">A</w> friend<lb/>
            not <w norm="changed" type="l">Changed</w> with <w norm="honour">honnor</w>; <w norm="a" type="l">A</w> <w norm="sick">Sicke</w> man<lb/>
            <w norm="cheerful">Cheerefull</w><pc norm=";">:</pc> <w norm="and" type="l">And</w> a departing <w norm="soul">Soule</w> with<lb/>
-           <w norm="comfort" type="l">Comfort</w> and <w norm="assurance" type="l">Assurance</w>.<anchor n="8" corresp="#p009n01" type="context" resp="ednote"/><!-- #ednote-0011 --></p>
+           <w norm="comfort" type="l">Comfort</w> and <w norm="assurance" type="l">Assurance</w>.<anchor n="8" corresp="#p009n01" type="context" resp="ednote"/></p>
          </div>
      
             <pb xml:id="page-010" n="10"/>
@@ -615,7 +611,7 @@
          </head>
         <p xml:id="p-0006">Lord<supplied reason="mod">,</supplied> lead me through the<lb/>
           Red Sea of this <w norm="world" type="l">World</w><surplus reason="superfluous">,</surplus><lb/>
-          <w norm="into" type="l">Into</w> the <quote xml:id="q-001" source="#_Hebrews_11:9" type="phrase"><w norm="land" type="l">Land</w> of <w norm="promise">Promisse</w><pc norm=".">,</pc></quote><anchor n="9" corresp="#p010n01" type="context" resp="ednote"/><!-- #ednote-0012 --><lb/>
+          <w norm="into" type="l">Into</w> the <quote xml:id="q-001" source="#_Hebrews_11:9" type="phrase"><w norm="land" type="l">Land</w> of <w norm="promise">Promisse</w><pc norm=".">,</pc></quote><anchor n="9" corresp="#p010n01" type="context" resp="ednote"/><lb/>
           Forget my <w norm="many">manie</w> iniquities,<lb/>
           <w norm="pardon" type="l">Pardon</w> my <w norm="sins">Sinnes</w><supplied reason="mod">,</supplied> which <w norm="stands">standeth</w><lb/>
           <w norm="as" type="l">As</w> a cloud between thy most<lb/>
@@ -704,7 +700,7 @@
        <div xml:id="div-009" rend="post(rule_short_right)">
          <fw>
            <fw xml:id="mnote-0001" place="left margin">
-             <g ref="#u8284">⁜</g><anchor n="10" corresp="#p012n01" type="text" resp="ednote"/><!-- #ednote-0013 -->
+             <g ref="#u8284">⁜</g><anchor n="10" corresp="#p012n01" type="text" resp="ednote"/>
              <!-- Q [notes] try retaining endnote and use g/glyph to document general desription, but will need to review the relationship between the two features. may not work. it is only 1 instance. -->
              <!-- NOTE [unicode] dotted cross symbol -->
              <!-- Q [tei] metamark? this is rather like the signe de renvoi at the same place in book 1... but it's missing the matching symbol at the end (div 097), and the added text here. link it to div 097 anyway? honestly, alice.  -->
@@ -727,8 +723,8 @@
           bring me into a very great <w norm="weakness">weaknesse</w><lb/>
           <w norm="and">&amp;</w> <w norm="sickness">sickenesse</w> upon the accident of a <term ref="gloss:p012t01" xml:id="p012t01"><w norm="surfeit">surfit</w></term><lb/>
           on some ill <w norm="digested">dejested</w> <w norm="meat">meate</w>, causing an<lb/>
-           <w norm="extreme">extreame</w> vomiting,<!-- NOTE #ednote-0014 --> whose violence drove<lb/>
-           me into a <w norm="fever">feavor</w> <w norm="and">&amp;</w> the <term ref="gloss:p012t02" xml:id="p012t02"><w norm="measles">measells</w></term><supplied reason="mod">,</supplied><!-- NOTE #ednote-0015 --> which<lb/>
+           <w norm="extreme">extreame</w> vomiting, whose violence drove<lb/>
+           me into a <w norm="fever">feavor</w> <w norm="and">&amp;</w> the <term ref="gloss:p012t02" xml:id="p012t02"><w norm="measles">measells</w></term><supplied reason="mod">,</supplied> which<lb/>
           brought me so low that <rs ref="ppl:awn1" n="per10" type="person">my <w norm="aunt">Aunt</w></rs> <w norm="and">&amp;</w> <persName ref="ppl:st1" n="per11"><w norm="Sarah">Sara</w><lb/>
             Tomlinson</persName><supplied reason="mod">,</supplied> our <w norm="maid">maide</w><supplied reason="mod">,</supplied> <w norm="almost">allmost</w> despaired<lb/>
            of my <w norm="life" type="l">Life</w>.
@@ -758,7 +754,7 @@
              our Lord Jesus Christ</quote><supplied reason="mod">,</supplied> <w norm="being">beeing</w> a <w norm="comfort">comfot</w><lb/>
            to <rs ref="ppl:cw1 ppl:aow1" n="per12" type="person">my <w norm="dear">deare</w> <w norm="parents" type="l">Parents</w></rs> <w norm="and">&amp;</w> relations<supplied reason="mod">.</supplied> <lb/>
            <w norm="And">&amp;</w> that I may dedicate my <w norm="childhood" type="l">Childhood</w><pc norm=",">.</pc><lb/>
-           youth<pc norm=",">.</pc> middle <w norm="age" type="l">Age</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> old <w norm="age">Adge</w><pc norm=",">.</pc><anchor n="11" corresp="#p013n01" type="context" resp="ednote"/><!-- Q [notes] reptition. almost but not quite repeats a previous note. #ednote-0016--> if<lb/>
+           youth<pc norm=",">.</pc> middle <w norm="age" type="l">Age</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> old <w norm="age">Adge</w><pc norm=",">.</pc><anchor n="11" corresp="#p013n01" type="context" resp="ednote"/> if<lb/>
            God shall <w norm="spare">spaire</w> me so long<supplied reason="mod">,</supplied> to his<lb/>
            <w norm="glory" type="l">Glory</w> <w norm="and">&amp;</w> praise even to my <w norm="life's">lives</w> end<supplied reason="mod">,</supplied> <lb/>
            <w norm="amen" type="l">Amen</w>. <w norm="And">&amp;</w> that for my <w norm="saviour's">Saviours</w> <w norm="sake" type="l">Sake</w><lb/>
@@ -783,7 +779,7 @@
           <date when-custom="1631"><w norm="Being">Beeing</w> removed</date> from <placeName ref="place:Rich_043" n="place5">Richmond</placeName><lb/>
           to <placeName ref="place:Lond_080" n="place6">London</placeName><supplied reason="mod">,</supplied> by <rs ref="ppl:cw1" n="per13" type="person">my <w norm="father's" type="l">Fathers</w></rs> <w norm="and">&amp;</w> <rs ref="ppl:aow1" n="per14" type="person"><w norm="mother's">mothers</w></rs><lb/>
           order to be with them<pc norm=",">.</pc> I fell into the<lb/>
-          <w norm="smallpox">Small Pox</w><supplied reason="mod">,</supplied><anchor resp="ednote" corresp="#p014n01"/><!-- NOTE #ednote-0017 --> <w norm="having">haveing</w> taken them of<lb/>
+          <w norm="smallpox">Small Pox</w><supplied reason="mod">,</supplied><anchor resp="ednote" corresp="#p014n01"/> <w norm="having">haveing</w> taken them of<lb/>
           my brother<supplied reason="mod">,</supplied> <persName ref="ppl:cw2" n="per15">Christopher</persName>. <w norm="We" type="u">we</w> were both<lb/>
           sent into <placeName ref="place:Kent_077" n="place7">Kent</placeName> with <persName ref="ppl:st1" n="per16">Sarah</persName><supplied reason="mod">,</supplied> to one<lb/>
           <persName ref="ppl:xb2" n="per17">Mr <w norm="Baxter's">Baxters</w></persName> house<supplied reason="mod">,</supplied> <w norm="where">wher</w> we were being<lb/>
@@ -821,7 +817,7 @@
           the <w norm="creation" type="l">Creation</w> of the <w norm="heavens" type="l">Heavens</w><pc norm=",">.</pc> the <w norm="earth" type="l">Earth</w><lb/>
           <w norm="and">&amp;</w> all therein<surplus reason="superfluous">.</surplus> contained<supplied reason="mod">,</supplied> upon the<lb/>
           <w norm="reading" type="l">Reading</w> of my daily <w norm="psalms">Psalmes</w> for the<lb/>
-          months<supplied reason="mod">,</supplied><anchor n="12" corresp="#p015n01" type="context" resp="ednote"/><!-- #ednote-0018 --> which <w norm="happened">hapened</w> that day to be <ref type="biblical" source="#GB_Psalms_147:4"> <w norm="Psalm">Psal</w><lb/>
+          months<supplied reason="mod">,</supplied><anchor n="12" corresp="#p015n01" type="context" resp="ednote"/> which <w norm="happened">hapened</w> that day to be <ref type="biblical" source="#GB_Psalms_147:4"> <w norm="Psalm">Psal</w><lb/>
             147 <w norm="verse">verce</w> the 4<hi rend="superscript">th</hi><supplied reason="mod">:</supplied> <!-- Q [bibl] ref using "verse" in full. was this decided? --></ref><lb/>
          
        <!-- NOTE removed p p-0013-->
@@ -852,8 +848,8 @@
           <w norm="in" type="l">In</w> my heart <w norm="and">&amp;</w> thoughts<supplied reason="mod">,</supplied> <w norm="and">&amp;</w><lb/>
           knew I was but a <quote xml:id="q-006" type="allusion" source="#_1Corinthians_13:11"><w norm="child" type="l">Child</w> in <w norm="age" type="l">Age</w><lb/>
              <w norm="and">&amp;</w> understanding</quote><pc norm=",">.</pc> <quote xml:id="q-007" type="allusion" source="#_Romans_7:7-25"><!-- TODO need to put this BCP_Other back in to source when I've fixed formatting. #BCP_Other_collect_266 -->not able to <w norm="do">doe</w><lb/>
-               any good thing<pc norm=",">.</pc></quote><anchor n="13" corresp="#p016n01" resp="ednote" type="context"/><!-- #ednote-0019 --> which caused a <w norm="deep">deepe</w><lb/>
-          <w norm="and">&amp;</w> great apprehension<!-- NOTE <anchor corresp="#ednote-0020" resp="ednote"/>--> <w norm="and">&amp;</w> <w norm="fear">feare</w>,<lb/>
+               any good thing<pc norm=",">.</pc></quote><anchor n="13" corresp="#p016n01" resp="ednote" type="context"/> which caused a <w norm="deep">deepe</w><lb/>
+          <w norm="and">&amp;</w> great apprehension <w norm="and">&amp;</w> <w norm="fear">feare</w>,<lb/>
           with awe of his <w norm="glorious" type="l">Glorious</w> <w norm="majesty">majestie</w><supplied reason="mod">,</supplied><lb/>
           <w norm="lest">least</w> I should offend him at any<lb/>
            time by sin<surplus reason="superfluous">.</surplus> against him or <rs type="person" ref="ppl:cw1 ppl:aow1">my <lb/>
@@ -964,12 +960,12 @@
            <w norm="sweetmeats">sweetemeats</w><supplied reason="mod">,</supplied>  <w norm="and">&amp;</w> by <rs ref="ppl:aow1" n="per30" type="person">my <w norm="dear">deare</w> <w norm="mother's">mothers</w></rs><lb/>
            <w norm="virtuous">vertuous</w> provision<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="care">caire</w><supplied reason="mod">,</supplied> she brought<lb/>
           me up in all those <w norm="suitable">sutable</w> to that <lb/>
-           <term ref="gloss:p019t01" xml:id="p019t01">quality</term><!-- NOTE #ednote-0023 --> <add place="above">as</add> <rs ref="ppl:cw1" n="per31" type="person">my <w norm="father's" type="l">Fathers</w></rs> child.<anchor n="ev7" type="event"/> But<supplied reason="mod">,</supplied> above<lb/>
+           <term ref="gloss:p019t01" xml:id="p019t01">quality</term> <add place="above">as</add> <rs ref="ppl:cw1" n="per31" type="person">my <w norm="father's" type="l">Fathers</w></rs> child.<anchor n="ev7" type="event"/> But<supplied reason="mod">,</supplied> above<lb/>
            all these things<pc norm=",">.</pc> I accounted it my <lb/>
            <w norm="chief">cheife</w> <w norm="happiness">happinesse</w> in those <w norm="pious">Pieous</w><pc norm=",">.</pc> holy<lb/>
            <w norm="and">&amp;</w> <w norm="religious">religeous</w><surplus reason="superfluous">,</surplus> instructions, <w norm="examples" type="l">Examples</w>,<lb/>
            admonitions, <w norm="teachings" type="l">Teachings</w>, <w norm="reproofs">reproufes</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w><lb/>
-           <w norm="godly" type="l">Godly</w> <w norm="education">eduiation</w>, <!-- NOTE deleted #ednote-0024 --> tending to the <w norm="eternal">Eternall</w><lb/>
+           <w norm="godly" type="l">Godly</w> <w norm="education">eduiation</w>, tending to the <w norm="eternal">Eternall</w><lb/>
            <w norm="happiness">happinesse</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> <w norm="salvation" type="l">Salvation</w> of my <w norm="poor">poore</w> soul<supplied reason="mod">,</supplied> <lb/>
            which I <w norm="received">Receavid</w> from<surplus reason="superfluous">.</surplus> both my <choice><abbr>Hon.<am rend="superscript">rd</am></abbr><expan>honoured</expan></choice><lb/>
            <rs ref="ppl:cw1" n="per32" type="person">father</rs> <w norm="and">&amp;</w> <rs ref="ppl:aow1" n="per33" type="person">mother</rs><pc norm=",">.</pc> with <w norm="their">theire</w> <w norm="chaste" type="l">Chaste</w> <w norm="and">&amp;</w><lb/>
@@ -1002,7 +998,7 @@
            <pc>-</pc>ful thanks <w norm="and">&amp;</w> gratitude to <rs ref="ppl:cw1 ppl:aow1" n="per34" type="person">my<lb/>
              <w norm="dear">deare</w> <w norm="and">&amp;</w> <choice><abbr>Hon.<am rend="superscript">red</am></abbr><expan>honoured</expan></choice> <w norm="parents" type="l">Parents</w></rs> for their<lb/>
            <w norm="exceeding">exceading</w> great love<supplied reason="mod">,</supplied> <w norm="and">&amp;</w> <term ref="gloss:p020t01" xml:id="p020t01"><w norm="painful">painesfull</w><lb/>
-           <w norm="care">caire</w></term><surplus reason="superfluous">.</surplus><!-- NOTE #ednote-0026 --> <add xml:id="ex-add-above-01" place="above"><w norm="and">&amp;</w></add> affection for the performance<lb/>
+           <w norm="care">caire</w></term><surplus reason="superfluous">.</surplus> <add xml:id="ex-add-above-01" place="above"><w norm="and">&amp;</w></add> affection for the performance<lb/>
            of <w norm="their">theire</w> part towards me<pc norm=":">.</pc> desiring<lb/>
           of God to give me grace to live in<lb/>
           holy obedience to all <w norm="their">there</w> goodness<lb/>
@@ -1047,7 +1043,7 @@
           was reading of the great <w norm="wisdom">wisdome</w> of<lb/>
            our <w norm="saviour">Saviour</w> in the <w norm="Gospel">Gospell</w><supplied reason="mod">,</supplied> where he<lb/>
              was disputing with the <w norm="doctors" type="l">Doctors</w> with so much<lb/>
-             power that he put them to silence.<!--<anchor n="14" corresp="#p021n01" resp="ednote" type="context"/>--><!-- #ednote-0027 NOTE NEW anchor. plus quote tag removed. --> <w norm="Upon" type="u">upon</w><lb/>
+             power that he put them to silence. <w norm="Upon" type="u">upon</w><lb/>
            which place<surplus reason="superfluous">,</surplus> in the reading thereof<supplied reason="mod">,</supplied> <w norm="being">beeing</w><lb/>
            <date when-custom="1638-02-13">that day</date> 12 <choice><abbr>y.</abbr><expan>years</expan></choice> old<pc norm=",">.</pc> I fell into a <w norm="deep">deepe</w><lb/>
            thought of the <w norm="majesty">majestie</w> of Jesus <choice><abbr>X</abbr><expan>Christ</expan></choice><supplied reason="mod">,</supplied><lb/>
@@ -1080,7 +1076,7 @@
          <p xml:id="p-0019">
            <milestone n="ev10" unit="event"/>
            <!-- NOTE [dates] date supplied from external evidence [CB] -->
-           <date when-custom="1639-06">Having come</date> over into <placeName ref="place:Engl_094" n="place12">England</placeName><!-- NOTE deleted #ednote-0029--><lb/>
+           <date when-custom="1639-06">Having come</date> over into <placeName ref="place:Engl_094" n="place12">England</placeName><lb/>
            with <rs ref="ppl:aow1" n="per36" type="person">my <choice><abbr>d.</abbr><expan>dear</expan></choice> mother</rs> to <rs ref="place:Bath_128" type="place">the bath</rs><anchor resp="ednote" corresp="#p022n01"/> for <term ref="gloss:p022t01" xml:id="p022t01">the stone</term><supplied reason="mod">,</supplied><anchor n="ev10" type="event"/><lb/>
            <milestone n="ev11" unit="event"/>in our <w norm="return">returne</w> back to <placeName ref="place:Irel_096" n="place13">Ireland</placeName><supplied reason="mod">,</supplied> <date when-custom="1639-08-22">August<lb/>
              22<hi rend="superscript"><choice><sic>th</sic><corr>nd</corr></choice></hi> 39</date><pc norm=",">.</pc> I<supplied reason="mod">,</supplied> with the rest of the <w norm="ship" type="l">Ship</w> <w norm="and">&amp;</w><lb/>
@@ -1395,8 +1391,6 @@
             <pb xml:id="page-027" n="27"/>
 
 <!-- transcription: page 27-->
-
-<!-- NOTE [people] had to correct ppl: ref here: make sure you do some integrity checks when you've finished tagging -->
        
 
        <!-- NOTE year 1652 -->
@@ -1410,7 +1404,7 @@
            I began my <w norm="great">greate</w> <w norm="sickness">Sickenesse</w> <w norm="after">affter</w><lb/>
           I came from <placeName ref="place:Burn_005" n="place37"><w norm="Burn">Barne</w> <w norm="Park">Parke</w></placeName> the first time<supplied reason="mod">,</supplied><lb/>
           about the <date when-custom="1652-08-06">6<hi rend="superscript">th</hi> of August 1652</date> <anchor type="event" n="ev31"/><milestone unit="event" n="ev31a"/> <supplied reason="mod">(</supplied><w norm="and">&amp;</w> miscar<pc>-</pc><lb break="no"/>
-          <pc>-</pc>ried<anchor n="22" corresp="#p027n01" resp="ednote"/><!-- Q [notes] ie note - possible term? --> of <rs ref="ppl:xt1" n="per68" type="person">my first <w norm="child">Childe</w></rs><supplied reason="mod">,</supplied> <w norm="being">beeing</w> a<lb/>
+          <pc>-</pc>ried<anchor n="22" corresp="#p027n01" resp="ednote"/> of <rs ref="ppl:xt1" n="per68" type="person">my first <w norm="child">Childe</w></rs><supplied reason="mod">,</supplied> <w norm="being">beeing</w> a<lb/>
           daughter<supplied reason="mod">,</supplied> the <date when-custom="1652-08-27">27<hi rend="superscript">th</hi> of the same August 1652</date><supplied reason="mod">,</supplied><lb/>
           being <w norm="Friday" type="u">friday</w><pc norm=",">.</pc><anchor n="ev31a" type="event"/> <w norm="and">&amp;</w> <milestone n="ev32" unit="event"/>she was buried at<lb/>
           <placeName ref="place:Easb_018" n="place38">Easby <w norm="church" type="l">Church</w></placeName><supplied reason="mod">,</supplied> <w norm="near">neare</w> <placeName ref="place:Rich_043" n="place39"><choice><abbr>Rich.</abbr><expan>Richmond</expan></choice></placeName> <date when-custom="1652-08-28">the next morn<lb break="no"/>
@@ -1500,7 +1494,7 @@
           Here there is a hole from the correction on p.25.-->
          <lb/>
          the <date when-custom="1655-05-11">11<hi rend="superscript">th</hi> of <w norm="May" type="u">may</w> 1655</date>.
-      <anchor n="ev36" type="event"/> <!-- NOTE [add] changes no longer recorded. in review, we found that it does read 11 -->
+      <anchor n="ev36" type="event"/>
           </p>
        </div>
        <div xml:id="div-037" rend="pre(rule_short_left) post(rule_short_left)">
@@ -1548,7 +1542,7 @@
           <date when-custom="1656-06-12">12<hi rend="superscript">th</hi> of June<surplus reason="superfluous">,</surplus> 1656</date><pc norm=",">.</pc> being <w norm="Thursday" type="u">thursday</w><supplied reason="mod">,</supplied><lb/>
           about <w norm="half">halfe</w> an <w norm="hour">houer</w> <w norm="after">affter</w> 4 <lb/>
           <w norm="o'clock">a clocke</w> in the <w norm="afternoon">affter noone</w><surplus reason="superfluous">,</surplus> <anchor type="event" n="ev39"/><milestone unit="event" n="ev39a"/>and was<lb/>
-           <w norm="baptised">babtized</w> the <date when-custom="1656-06-14">14<hi rend="superscript">th</hi> of June<!-- NOTE this was mis-modernised because typo in transcription 1th instead of 14th. corrected here and left a comment in semidip 2/8/23. --></date><surplus reason="superfluous">.</surplus> by <persName ref="ppl:ms1" n="per85">Mr<lb/>
+           <w norm="baptised">babtized</w> the <date when-custom="1656-06-14">14<hi rend="superscript">th</hi> of June<!-- NOTE typo in transcription 1th instead of 14th. corrected here and left a comment in semidip 2/8/23. --></date><surplus reason="superfluous">.</surplus> by <persName ref="ppl:ms1" n="per85">Mr<lb/>
           <w norm="Syddall">Siddall</w></persName>. <w norm="Witnesses">wittnesses</w><pc norm=":">,</pc> <rs ref="ppl:aow1" n="per86" type="person">my mother</rs>,<lb/>
            <persName ref="ppl:kdb1" n="per87">my <w norm="niece">Neece</w> <add place="above"><choice><abbr>K</abbr><expan>Katherine</expan></choice></add> Danby</persName>, <w norm="and">&amp;</w> <persName ref="ppl:wt1" n="per88">Mr Thornton</persName><supplied reason="mod">.</supplied>
            <!-- Q / transcribed after Thornton -->
