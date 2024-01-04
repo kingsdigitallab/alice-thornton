@@ -1,7 +1,7 @@
 ---
 title: "Talk for Leith SWI"
 feature: /assets/img/posts/bilhah_cropped.jpg
-status: draft
+status: live
 authors:
   - ethom
 tags:
