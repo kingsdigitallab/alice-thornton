@@ -30,7 +30,7 @@ The day was particularly memorable to Thornton as she was proven correct and her
 
 > But before two hours, they returned with my child home in a very sad and changed condition; for, alas, she never having had seen any such things as soldiers, or guns, or drums, or noises and shoutings, she was so extremely scared at these things and when the muskets went off so fast did so affright her and terrify my poor child that she was ready to fly out of Jane Flowers’ arms, her maid.[^5]
 
-Nally had three or four ‘fits of convulsions’ while sheltering in a local shop before being brought home. Thornton treated her with various medicines such as ‘oil of amber and peony,’ and Nally made a full recovery.[^6]
+Nally had three or four ‘fits of convulsions’ while sheltering in a local shop before being brought home. Thornton treated her with various medicines such as ‘oil of amber and [peony](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-11-16-alice-thornton-herbal-medicine/),’ and Nally made a full recovery.[^6]
 
 In Yorkshire, the date of the Restoration – 29 May – continued to be celebrated as [Oak Apple Day](https://www.thenorthernecho.co.uk/news/6950621.national-celebration-died-living-memory/) until the 1940s, a reference to the oak tree the king was said to have hidden in to escape Cromwell’s army in 1651.
 
