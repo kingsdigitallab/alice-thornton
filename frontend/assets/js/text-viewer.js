@@ -3,18 +3,24 @@ const { createApp } = window.Vue;
 const CHILD_HOVERED_CLASS = "child-hovered";
 
 function setUpTextViewer() {
+  let template = `
+  <p class="control" v-if="!isHidden">
+    <template v-if="!hideLabel">{{label}}:</template>
+    <span class="select is-normal">
+      <select @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
+        <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
+      </select>
+    </span>
+  </p>
+  `;
+  let templateDOM = window.document.getElementById("vue-panel-selector");
+  if (templateDOM) {
+    template = templateDOM.innerHTML;
+  }
+
   let PanelControl = {
-    template: `
-    <p class="control" v-if="!isHidden">
-      <template v-if="!hideLabel">{{label}}:</template>
-      <span class="select is-normal">
-        <select @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
-          <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
-        </select>
-      </span>
-    </p>
-    `,
-    props: ["panelIdx", "controlKey", "hideLabel"],
+    template: template,
+    props: ["panelIdx", "controlKey", "hideLabel", "tooltip"],
     computed: {
       panel() {
         return this.$parent.panels[this.panelIdx];
