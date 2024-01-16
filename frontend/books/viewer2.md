@@ -190,7 +190,7 @@ hideFooter: true
   </div>
 </aside>
 <div class="panel-wrapper">
-  <div class="panel">
+  <div class="panel" v-for="(panel, panelIdx) in panels">
     <nav class="panel-nav">
       <ul>
         <li class="tooltip">⚀
@@ -200,9 +200,20 @@ hideFooter: true
           <span class="tooltiptext bottom">Download Page/Book/TEI code</span>
         </li>
         <li>
-          <div class="select-dropdown tooltip">
+          <template id="vue-panel-selector">
+            <div class="select-dropdown tooltip">
+              <span class="tooltiptext bottom">{{tooltip}}</span>
+              <!-- removed id="image_switcher" -->
+              <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
+                <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
+              </select>
+            </div>
+          </template>
+          <panel-control :panel-idx="panelIdx" control-key="document" tooltip="Select book"></panel-control>
+          <panel-control :panel-idx="panelIdx" control-key="view" tooltip="Select version"></panel-control>
+          <panel-control :panel-idx="panelIdx" control-key="locus" tooltip="Select page"></panel-control>
+          <!-- <div class="select-dropdown tooltip">
             <span class="tooltiptext bottom">Select book</span>
-            <!-- removed id="image_switcher" -->
             <select aria-label="image switcher">
               <option
                 value="1236"
@@ -218,7 +229,6 @@ hideFooter: true
           </div>
           <div class="select-dropdown tooltip">
             <span class="tooltiptext bottom">Select version</span>
-            <!-- removed id="image_switcher" -->
             <select aria-label="image switcher">
               <option
                 value="1236"
@@ -232,7 +242,6 @@ hideFooter: true
             <span class="tooltiptext bottom">Previous page</span>⇽ </a>
           <div class="select-dropdown tooltip">
             <span class="tooltiptext bottom">Select page</span>
-            <!-- removed id="image_switcher" -->
             <select aria-label="image switcher">
               <option value="" selected="">Page 4</option>
               <option value="">Page 5</option>
@@ -244,7 +253,7 @@ hideFooter: true
           </div>
           <a class="next tooltip" href="/">
             <span class="tooltiptext bottom">Next page</span>
-            ⇾</a>
+            ⇾</a> -->
         </li>
         <li class="tooltip">+
           <span class="tooltiptext bottom">Add to compare another page or book</span>
@@ -256,21 +265,10 @@ hideFooter: true
         <!--    <li><label for="drawer-switch" id="drawer-toggle">Page information</label></li>-->
       </ul>
     </nav>
-    <div
-      id="text-viewer"
-      class="text-viewer columns"
-      data-v-app="">
-      <nav class="panel column buttons">
-        <div class="panel-block panel-chunk">
-          <!--v-if-->
-          <div :class="'content '+getContentClasses(panel)" v-html="panel.responses.document">
-          </div>
-        </div>
+    <div class="panel-chunk">
+      <div :class="'content '+getContentClasses(panel)" v-html="panel.responses.document">
       </div>
     </div>
   </div>
+</div>
 {% endraw %}
-<script src="/assets/node_modules/vue/dist/vue.global.js"></script>
-<script src="/assets/node_modules/kdl-dts-client/index.js?ts={{ "now" | date: "%s" }}"></script>
-<script src="/assets/js/text-viewer.js?ts={{ "now" | date: "%s" }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>

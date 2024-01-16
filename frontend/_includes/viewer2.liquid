@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>
+    <!-- TODO: share code base.liquid; don't copy it here (GN) -->
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ '/assets/css/textviewer2.css' | url }}?ts={{ "now" | date: "%s" }}">
+    <link
+      rel="icon"
+      href="{{ '/assets/img/logos/alice-thornton-logo-img.jpeg' | url }}"
+      type="image/x-icon">
+    <title>{{ pageShortTitle }} | {{ metadata.siteTitle }}</title>
     <script>
       window.metadata = {{ metadata.front_end|json }};
     </script>
-</head>
+  </head>
   <body>
     <nav class="textviewer-nav">
       <ul>
@@ -28,8 +34,14 @@
         </li>
       </ul>
     </nav>
-    <main>
+    <main id="text-viewer">
       {{ content }}
     </main>
+
+    <script src="/assets/node_modules/vue/dist/vue.global.js"></script>
+    <script src="/assets/node_modules/kdl-dts-client/index.js?ts={{ "now" | date: "%s" }}"></script>
+    <script src="/assets/js/text-viewer.js?ts={{ "now" | date: "%s" }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
+    
   </body>
 </html>
