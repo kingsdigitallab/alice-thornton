@@ -213,7 +213,12 @@ hideFooter: true
           </template>
           <panel-control :panel-idx="panelIdx" control-key="document" tooltip="Select book"></panel-control>
           <panel-control :panel-idx="panelIdx" control-key="view" tooltip="Select version"></panel-control>
+          <a class="prev tooltip" href="#" @click.stop.prevent="incrementLocus(panel, -1)">
+            <span class="tooltiptext bottom">Previous page</span>⇽ </a>
           <panel-control :panel-idx="panelIdx" control-key="locus" tooltip="Select page"></panel-control>
+          <a class="next tooltip" href="#" @click.stop.prevent="incrementLocus(panel, 1)">
+            <span class="tooltiptext bottom">Next page</span>
+          ⇾</a>
           <!-- <div class="select-dropdown tooltip">
             <span class="tooltiptext bottom">Select book</span>
             <select aria-label="image switcher">
