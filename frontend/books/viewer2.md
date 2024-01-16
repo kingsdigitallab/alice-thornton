@@ -15,8 +15,10 @@ isContentHTML: true
 isPageFluid: true
 hideFooter: true
 ---
+
 {% raw %}
 <input id="drawer-switch" type="checkbox" />
+
 <aside id="drawer" role="complementary">
   <h3>Research information for Book 1 SD p4</h3>
   <div class="tabs">
