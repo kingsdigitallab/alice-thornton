@@ -257,8 +257,13 @@ hideFooter: true
             <span class="tooltiptext bottom">Next page</span>
             ⇾</a> -->
         </li>
-        <li class="tooltip">+
+        <li class="tooltip" v-if="canClonePanel">
+          <a @click.stop.prevent="clonePanel(panelIdx)">+</a>
           <span class="tooltiptext bottom">Add to compare another page or book</span>
+        </li>
+        <li class="tooltip" v-if="panels.length > 1">
+          <a @click.stop.prevent="closePanel(panelIdx)">-</a>
+          <span class="tooltiptext bottom">Close this panel</span>
         </li>
         <li class="tooltip">
           <span class="tooltiptext bottom">Page information</span>
