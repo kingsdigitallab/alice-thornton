@@ -1,0 +1,16 @@
+---
+title: "Hybrid event online and in person at London's Institute of Historical Research"
+feature: /assets/img/posts/IHR-talk.png
+status: draft
+authors:
+  - ethom
+tags:
+  - events
+
+---
+On January 25th, 5:30 pm at London's [Institute of Historical Research](https://www.history.ac.uk/about-us/find-us), Cordelia Beattie (Principal Investigator) and Prof. Suzanne Trill (Co-Investigator) will lead a seminar 'Alice Thornton's books: remembrance and revision in a seventeenth-century woman's life-writing'. 
+
+This free event will also be live-streamed. 
+
+Find out more and register [here](https://www.history.ac.uk/events/alice-thorntons-books-remembrance-and-revision-a-seventeenth-century-womans-life-writing) to attend in-person or virtually over Zoom. 
+
