@@ -16,15 +16,9 @@
           {% if pagination.previousPageHref == null %}aria-disabled="true"{% endif %}
         >Previous</a>
       </li>
-      {%- for pageEntry in pagination.pages %}
-        <li>
-          <a href="{{ pagination.hrefs[ forloop.index0 ] }}" 
-            class="pagination-link {% if page.url == pagination.hrefs[ forloop.index0 ] %}is-current{% endif %}" 
-            aria-label="page {{ forloop.index }}" 
-            {% if page.url == pagination.hrefs[ forloop.index0 ] %}aria-current="page"{% endif %}
-          >{{ forloop.index }}</a>
-        </li>
-      {%- endfor %}
+      <li>
+        Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}
+      </li>
       <li>
         <a href="{{ pagination.nextPageHref }}" 
           class="pagination-link {% if pagination.nextPageHref == null %}is-disabled{% endif %}" 
