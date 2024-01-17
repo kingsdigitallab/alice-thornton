@@ -753,6 +753,12 @@ ul.undecorated-list {
 
 ul.pagination-list {
   margin-left: 0;
+
+  @include tablet {
+    li {
+      margin-right: 1em;
+    }
+  }
 }
 
 .pagination-link {
