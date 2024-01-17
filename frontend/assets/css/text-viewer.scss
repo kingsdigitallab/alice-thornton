@@ -306,6 +306,7 @@ $render-sic: false;
       position: absolute;
       left: -5em;
       width: 5em;
+      text-indent: initial;
     }
   }
 
@@ -569,6 +570,9 @@ $render-sic: false;
     max-width: 20em;
     background-color: white;
     font-style: normal;
+
+    // see CU 86bx3j25n, B3.189
+    text-indent: initial;
 
     // to counter cursive set by monogram on R.1
     // font-family: initial;
