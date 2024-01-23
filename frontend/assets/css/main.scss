@@ -15,50 +15,10 @@
 
 //Colours
 $black: #1C1000;
-$brown: #321800;
+$brown: #2B1500;
 $burgundy: #560C17;
 $sand:#7A4827;
 $white:#F2F2F2;
-
-/*** MIXINS ***/
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
-}
-
-@mixin rotate($degrees) {
-  -webkit-transform: rotate($degrees);
-     -moz-transform: rotate($degrees);
-      -ms-transform: rotate($degrees);
-       -o-transform: rotate($degrees);
-          transform: rotate($degrees);
-}
-
-@mixin transform($transforms) {
-	   -moz-transform: $transforms;
-	     -o-transform: $transforms;
-	    -ms-transform: $transforms;
-	-webkit-transform: $transforms;
-          transform: $transforms;
-}
-
-@mixin animation($animation...) {
-       -o-animation: $animation;
-     -moz-animation: $animation;
-  -webkit-animation: $animation;
-          animation: $animation;
-}
-
-@mixin transition($args...) {
-  -webkit-transition: $args;
-  -moz-transition: $args;
-  -ms-transition: $args;
-  -o-transition: $args;
-  transition: $args;
-}
-// END MIXINS
 
 //Fonts
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
@@ -133,26 +93,15 @@ a.tag {
 
 body {
   // Exclude the text viewer
-  //background: url("/assets/img/last-bg.jpg");
-  //background-position: fixed;
-  &:before{
-    //background: url("/assets/img/last-bg.jpg") center/cover;
-    content: '';
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    opacity: 0.7;
-  }
+  background: url("/assets/img/last-bg.jpg");
+  background-position: fixed;
 
-  /*@media screen and (min-width: 1140px) {
+  @media screen and (min-width: 1140px) {
     background: url("/assets/img/last-bg.jpg");
     background-position: 0 60px;
     background-repeat: repeat-y;
     background-size: 100%;
-  }*/
+  }
 
   font-family: "Noto", sans-serif;
   font-size: 18px;
@@ -162,26 +111,15 @@ body {
 
 body:not(.slug-viewer) {
   // Exclude the text viewer
- // background: url("/assets/img/last-bg.jpg");
- &:before{
-  background: url("/assets/img/last-bg.jpg") center/cover;
-  content: '';
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-  opacity: 0.7;
-  filter:grayscale(100%);
-}
-  /*@media screen and (min-width: 1140px) {
+  background: url("/assets/img/last-bg.jpg");
+
+  @media screen and (min-width: 1140px) {
     background: url("/assets/img/script-outlined.svg"),
       url("/assets/img/last-bg.jpg");
     background-position: -120px 120px, 0 60px;
     background-repeat: no-repeat, repeat-y;
     background-size: 220px, 100%;
-  }*/
+  }
 }
 
 a {
@@ -236,8 +174,6 @@ p {
 h1,
 h1.title {
   font-size: 2.25em;
-  //color:$white;
-  //text-shadow: $burgundy 2px 2px 3px, $burgundy -1px -1px 2px,
 }
 
 h2 {
@@ -309,8 +245,9 @@ h6 {
 }
 
 .top-nav {
-  background: url("/assets/img/at-decoration-pattern-1.jpg") left 85% repeat-x;
-  background-size: 17px;
+  background: url("/assets/img/at-decoration-pattern-1.jpg") bottom left
+    repeat-x;
+  background-size: 60px;
   padding-bottom: 1rem;
 }
 
@@ -570,20 +507,15 @@ figcaption {
 }
 
 .logo {
-  font-size:24px;
   img {
-  background: $burgundy;
-    border: 0.01em solid lightgray;
+    background: $black;
+    border: 3px double $white;
     border-radius: 50%;
     display: block;
-  height: 70px;
-  max-height: 70px;
+  height: 65px;
+  max-height: 65px;
   margin-right: 8px;
-  width: 70px;
-  box-shadow: gray 1px 1px 3px;
-  //opacity: 0.4;
-  transform: scale(1.2);
-margin-top: 35px;
+  width: 65px;
   }
 }
 
@@ -642,7 +574,6 @@ margin-top: 35px;
 .navbar {
   background-color: $brown;
   color: $light;
-  height: 65px;
 
   .navbar-burger {
     color: $light;
@@ -652,22 +583,18 @@ margin-top: 35px;
     }
   }
 
-
-
   a.navbar-item {
-    background-color: transparent;
-    padding: 0 1rem 0;
+    background-color: $brown;
+    padding: 1.5rem 1rem 1.25rem;
     text-decoration: none;
     font-family: 'EB Garamond', serif;
     color: $white;
-    opacity:0.8;
-    font-size:20px;
-    @include transition(all 200ms ease-in); 
+    font-size:24px;
     &.is-active {
       // border-bottom: 4px solid $white;
       color: $white;
       background: url("/assets/img/fleur.svg") center 78% no-repeat;
-      background-size: 20px;
+      background-size: 25px;
     }
  
 
@@ -680,43 +607,14 @@ margin-top: 35px;
     }
 
     &:hover {
-        opacity:1;
-        @include transform(scale(1.1));
-      }
+        opacity:0.6;
+        color:lighten($sand, 70%);
     }
 
     &:focus {
       border: 1px solid $accent;
     }
   }
-
-    .navbar-brand{
-      a.navbar-item {
-        opacity:1;
-        h1{
-          margin-left:12px;
-          font-size:30px;
-          color:$white;
-          margin-top: 13px;
-          font-family: "EB Garamond", serif;
-        }
-        span{
-          margin-left:20px;
-          font-size:16px;
-          position: absolute;
- font-style: italic;
-top: 70px;
-left: 85px;
-width: 600px;
-color:$burgundy;
-
-        }
-    &:hover {
-      opacity:0.7;
-      @include transform(scale(1));
-  }
-  }
-
 
   .navbar-menu {
     background-color: $brown;
