@@ -101,11 +101,22 @@ body:not(.slug-viewer) {
   //background: url("/assets/img/last-bg.jpg");
 
   @media screen and (min-width: 1140px) {
-    background: url("/assets/img/script-outlined.svg"),
-      url("/assets/img/last-bg.jpg");
+    background: url("/assets/img/script-outlined.svg") /* ,
+    url("/assets/img/last-bg.jpg")*/;
     background-position: -120px 120px, 0 60px;
     background-repeat: no-repeat, repeat-y;
     background-size: 200px, 100%;
+    &:before{
+      background: url("/assets/img/last-bg.jpg") center/cover;
+      content: '';
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+      opacity: 0.6;
+    }
   }
 
 }
