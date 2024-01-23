@@ -434,7 +434,19 @@ main {
 @media screen and (max-width: 1200px){
   main .panel-wrapper > .panel {
     max-width:100vw;
-  }
+    nav.panel-nav div{
+      .icon{
+        span{
+          
+        }
+      }
+
+    }//nav.panel-nav div
+  }//main .panel-wrapper > .panel 
+
+
+
+
 }
 
 
@@ -442,10 +454,7 @@ main {
 
 
 
-////////////////////////// TEXT RENDERING ///////////
-/// 
-/// 
-/// // GN: temporary stylesheet to experiment with rendering of sample
+// GN: temporary stylesheet to experiment with rendering of sample
 // TEI elements the text viewer.
 //
 // Some of this will need feedback from partners
@@ -500,7 +509,6 @@ $render-sic: false;
 
 #text-viewer .panel-chunk {
   border-top: 1px solid lightgrey;
-  overflow: scroll;
 }
 
 #text-viewer {
@@ -969,7 +977,7 @@ $render-sic: false;
 
   .has-info-box {
     position: relative;
-    border-bottom: 2px dotted gray;
+    border-bottom: 4px dotted lightskyblue;
 
     &.tei-term {
       border-bottom-color: lightsalmon;
@@ -990,7 +998,6 @@ $render-sic: false;
 
     &:hover {
       border-bottom-style: solid;
-      background:lighten(lightgray,10%);
       > .info-box {
         display: inline-block;
       }
@@ -1020,7 +1027,7 @@ $render-sic: false;
     max-width: 20em;
     background-color: white;
     font-style: normal;
-    border:1px solid #462200;
+
     // see CU 86bx3j25n, B3.189
     text-indent: initial;
 
@@ -1054,4 +1061,3 @@ $render-sic: false;
     }
   }
 }
-
