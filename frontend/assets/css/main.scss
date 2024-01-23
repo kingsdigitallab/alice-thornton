@@ -80,32 +80,34 @@ a.tag {
 
 body {
   // Exclude the text viewer
-  background: url("/assets/img/last-bg.jpg");
+  //background: url("/assets/img/last-bg.jpg");
 
-  @media screen and (min-width: 1140px) {
+ /* @media screen and (min-width: 1140px) {
     background: url("/assets/img/last-bg.jpg");
     background-position: 0 60px;
     background-repeat: repeat-y;
     background-size: 100%;
-  }
+  }*/
 
   font-family: "Noto", sans-serif;
   font-size: 18px;
   font-weight: 450;
   line-height: 1.75;
+  
 }
 
 body:not(.slug-viewer) {
   // Exclude the text viewer
-  background: url("/assets/img/last-bg.jpg");
+  //background: url("/assets/img/last-bg.jpg");
 
   @media screen and (min-width: 1140px) {
     background: url("/assets/img/script-outlined.svg"),
       url("/assets/img/last-bg.jpg");
     background-position: -120px 120px, 0 60px;
     background-repeat: no-repeat, repeat-y;
-    background-size: 220px, 100%;
+    background-size: 200px, 100%;
   }
+
 }
 
 a {
@@ -231,9 +233,8 @@ h6 {
 }
 
 .top-nav {
-  background: url("/assets/img/at-decoration-pattern-1.jpg") bottom left
-    repeat-x;
-  background-size: 60px;
+  background: url("/assets/img/at-decoration-pattern-1.jpg") left 92% repeat-x;
+  background-size: 35px;
   padding-bottom: 1rem;
 }
 
@@ -571,7 +572,7 @@ figcaption {
 
   a.navbar-item {
     background-color: $primary;
-    padding: 1.5rem 1rem 1.25rem;
+    padding: 0.9rem 1rem 0.75rem;
     text-decoration: none;
 
     color: $light;
@@ -579,8 +580,8 @@ figcaption {
     &.is-active {
       // border-bottom: 4px solid $white;
       color: $white;
-      background: url("/assets/img/fleur.svg") center 90% no-repeat;
-      background-size: 50px;
+      background: url("/assets/img/fleur.svg") center 80% no-repeat;
+      background-size: 30px;
     }
 
     @include touch {
@@ -753,12 +754,6 @@ ul.undecorated-list {
 
 ul.pagination-list {
   margin-left: 0;
-
-  @include tablet {
-    li {
-      margin-right: 1em;
-    }
-  }
 }
 
 .pagination-link {
@@ -961,6 +956,5 @@ ul.pagination-list {
 }
 
 //
-cite {
-  word-wrap: break-word;
-}
+
+
