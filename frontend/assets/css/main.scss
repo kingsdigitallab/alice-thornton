@@ -63,6 +63,8 @@ $white:#F2F2F2;
 //Fonts
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
+
+
 @import "fonts.scss";
 @import "color-theme";
 
@@ -113,6 +115,7 @@ a.tag {
     color: lighten($dark, 30%);
     content: "“";
     display: block;
+    font-family: "Lora", serif;
     font-size: 7rem;
     line-height: 1;
     margin: -1rem 0 -4.5rem 0;
@@ -120,6 +123,7 @@ a.tag {
 
   p {
     color: lighten($dark, 30%);
+    font-family: "Lora", serif;
     font-size: 1.25rem;
     margin-left: 3.5rem;
   }
@@ -131,7 +135,6 @@ body {
   // Exclude the text viewer
   //background: url("/assets/img/last-bg.jpg");
   //background-position: fixed;
-  font-family: 'EB Garamond', serif;
   &:before{
     //background: url("/assets/img/last-bg.jpg") center/cover;
     content: '';
@@ -231,25 +234,10 @@ p {
 // Headings
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $secondary;
-  font-family: 'EB Garamond', serif;
-  font-weight: 500;
-}
-
-
-h1{
-  font-size: 36px;
+h1.title {
+  font-size: 2.25em;
   //color:$white;
-  text-shadow: #999 2px 2px 3px;
-  border-bottom: 3px double;
-  font-family: 'EB Garamond', serif;
-  line-height: 1.1;
-  
+  //text-shadow: $burgundy 2px 2px 3px, $burgundy -1px -1px 2px,
 }
 
 h2 {
@@ -261,6 +249,15 @@ h3 {
 }
 
 .content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $secondary;
+    font-family: "Lora", serif;
+  }
 
   h2 {
     &:not(.undecorated)::before {
@@ -286,6 +283,7 @@ h4,
 h5,
 h6 {
   color: $secondary;
+  font-family: "Lora", serif;
 
   &.small-heading {
     font-size: 1.5em;
@@ -306,6 +304,9 @@ h6 {
   width: 20vw;
 }
 
+.title {
+  color: $secondary;
+}
 
 .top-nav {
   background: url("/assets/img/at-decoration-pattern-1.jpg") left 85% repeat-x;
@@ -373,9 +374,9 @@ a.button-hp {
 }
 
 body > footer.footer {
-  background: url("/assets/img/at-decoration-pattern-1.jpg") left -2px repeat-x lighten($light, 30%);
-  background-size: 20px;
-  background-color:$sand;
+  background: url("/assets/img/at-decoration-pattern-1.jpg") left -5px repeat-x lighten($light, 30%);
+  background-size: 60px;
+
   .logo-x {
     img {
       background-color: black;
@@ -698,14 +699,13 @@ margin-top: 35px;
           color:$white;
           margin-top: 13px;
           font-family: "EB Garamond", serif;
-          border:none;
         }
         span{
-          margin-left:18px;
+          margin-left:20px;
           font-size:16px;
           position: absolute;
  font-style: italic;
-top: 75px;
+top: 70px;
 left: 85px;
 width: 600px;
 color:$burgundy;
