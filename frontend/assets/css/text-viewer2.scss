@@ -109,7 +109,7 @@ main {
     > .panel {
       border: 1px solid black;
       width: 100%;
-      max-width: 50vw;
+      max-width: 60vw;
       height: 90vh;
       overflow:scroll;
       // bottom: calc(50vh + 3.8em);
@@ -445,7 +445,10 @@ main {
   } //&:hover
 } //.tooltip
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
+  main .panel-wrapper > .panel {
+    max-width:100vw;
+  }
 }
 
 
