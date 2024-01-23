@@ -12,19 +12,6 @@
 
 // Duotone images color: #8e7860
 
-
-//Colours
-$black: #1C1000;
-$brown: #2B1500;
-$burgundy: #560C17;
-$sand:#7A4827;
-$white:#F2F2F2;
-
-//Fonts
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
-
-
-
 @import "fonts.scss";
 @import "color-theme";
 
@@ -94,7 +81,6 @@ a.tag {
 body {
   // Exclude the text viewer
   background: url("/assets/img/last-bg.jpg");
-  background-position: fixed;
 
   @media screen and (min-width: 1140px) {
     background: url("/assets/img/last-bg.jpg");
@@ -508,14 +494,14 @@ figcaption {
 
 .logo {
   img {
-    background: $black;
-    border: 3px double $white;
+    background: $white;
+    border: 1px solid $light;
     border-radius: 50%;
     display: block;
-  height: 65px;
-  max-height: 65px;
-  margin-right: 8px;
-  width: 65px;
+    height: 50px;
+    max-height: 50px;
+    margin-right: 8px;
+    width: 50px;
   }
 }
 
@@ -572,31 +558,30 @@ figcaption {
 }
 
 .navbar {
-  background-color: $brown;
+  background-color: $primary;
   color: $light;
 
   .navbar-burger {
     color: $light;
     &:hover {
-      background-color: $black;
+      background-color: $light;
       color: $primary;
     }
   }
 
   a.navbar-item {
-    background-color: $brown;
+    background-color: $primary;
     padding: 1.5rem 1rem 1.25rem;
     text-decoration: none;
-    font-family: 'EB Garamond', serif;
-    color: $white;
-    font-size:24px;
+
+    color: $light;
+
     &.is-active {
       // border-bottom: 4px solid $white;
       color: $white;
-      background: url("/assets/img/fleur.svg") center 78% no-repeat;
-      background-size: 25px;
+      background: url("/assets/img/fleur.svg") center 90% no-repeat;
+      background-size: 50px;
     }
- 
 
     @include touch {
       &.is-active {
@@ -607,8 +592,8 @@ figcaption {
     }
 
     &:hover {
-        opacity:0.6;
-        color:lighten($sand, 70%);
+      background-color: $white;
+      color: $primary;
     }
 
     &:focus {
@@ -617,10 +602,10 @@ figcaption {
   }
 
   .navbar-menu {
-    background-color: $brown;
+    background-color: $primary;
 
     .is-active {
-      color: red;
+      color: $primary;
     }
   }
 }
