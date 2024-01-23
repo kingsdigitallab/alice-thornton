@@ -260,32 +260,16 @@ main {
   #drawer-toggle {
     display: inline-block;
     position: relative;
-    padding: 0.5em;
-    cursor: pointer;
-    color: black;
-    font-size: 0.7em;
-    width: 1em;
     text-align: center;
-    border-radius: 50%;
-    height: 1em;
-    background: white;
-    border: 1px solid black;
+    cursor: pointer;
+    width:100%;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    &:hover {
-      background: white;
-      color: black;
-      opacity: 1;
-    }
     &:focus {
       outline: none;
     } //&:focus
-    &:before {
-      position: relative;
-      content: "ℹ";
-    } //&:before
   } //#drawer-toggle
 
   //* END 1. PUSH MENU & DRAWER */

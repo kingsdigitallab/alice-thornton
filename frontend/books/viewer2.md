@@ -194,7 +194,7 @@ hideFooter: true
 <div class="panel-wrapper">
   <div class="panel" v-for="(panel, panelIdx) in panels">
     <nav class="panel-nav">
-        <div class="icon">⚀
+        <div class="icon">☷
           <br>
           <span>About</span>
         </div>
@@ -219,48 +219,6 @@ hideFooter: true
           <panel-control :panel-idx="panelIdx" control-key="locus" tooltip="Select page"></panel-control>
           <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)">
             Next ❯</a>
-          <!-- <div class="select-dropdown tooltip">
-            <span class="tooltiptext bottom">Select book</span>
-            <select aria-label="image switcher">
-              <option
-                value="1236"
-                data-url="/catalogue/mss-1/article-001/01-recto/"
-                selected="">Book 1</option>
-              <option value="1237" data-url="/catalogue/mss-1/article-001/01-verso/">Book 2
-              </option>
-              <option value="1238" data-url="/catalogue/mss-1/article-001/02-recto/">Book 3
-              </option>
-              <option value="1239" data-url="/catalogue/mss-1/article-001/02-verso/">Book 4
-              </option>
-            </select>
-          </div>
-          <div class="select-dropdown tooltip">
-            <span class="tooltiptext bottom">Select version</span>
-            <select aria-label="image switcher">
-              <option
-                value="1236"
-                data-url="/catalogue/mss-1/article-001/01-recto/"
-                selected="">Semi-Diplomatic
-              </option>
-              <option value="1237" data-url="/catalogue/mss-1/article-001/01-verso/">Modernised</option>
-            </select>
-          </div>
-          <a class="prev tooltip" href="/">
-            <span class="tooltiptext bottom">Previous page</span>⇽ </a>
-          <div class="select-dropdown tooltip">
-            <span class="tooltiptext bottom">Select page</span>
-            <select aria-label="image switcher">
-              <option value="" selected="">Page 4</option>
-              <option value="">Page 5</option>
-              <option value="">Page 6</option>
-              <option value="">Page 7</option>
-              <option value="">Page 8</option>
-              <option value="">Page 9</option>
-            </select>
-          </div>
-          <a class="next tooltip" href="/">
-            <span class="tooltiptext bottom">Next page</span>
-            ⇾</a> -->
         </div>
         <div class="icon" v-if="canClonePanel">
           <a @click.stop.prevent="clonePanel(panelIdx)">+</a><br>
@@ -270,11 +228,12 @@ hideFooter: true
           <a @click.stop.prevent="closePanel(panelIdx)">-</a>
         </div>
         <div class="icon">
-          <label for="drawer-switch" id="drawer-toggle"></label>
+          <label for="drawer-switch" id="drawer-toggle">
+          &#9432
           <br>
-          <span>info</span>
+          <span>Info </span>
+          </label>
         </div>
-        <!--    <li><label for="drawer-switch" id="drawer-toggle">Page information</label></li>-->
     </nav>
     <div class="panel-chunk">
       <div :class="'content '+getContentClasses(panel)" v-html="panel.responses.document">
