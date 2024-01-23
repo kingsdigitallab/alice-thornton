@@ -194,14 +194,15 @@ hideFooter: true
 <div class="panel-wrapper">
   <div class="panel" v-for="(panel, panelIdx) in panels">
     <nav class="panel-nav">
-      <ul>
-        <li class="tooltip">⚀
-          <span class="tooltiptext bottom">Book Summary/Preview</span>
-        </li>
-        <li class="tooltip">⤒
-          <span class="tooltiptext bottom">Download Page/Book/TEI code</span>
-        </li>
-        <li>
+        <div class="icon">⚀
+          <br>
+          <span>About</span>
+        </div>
+        <div class="icon">⤒
+          <br>
+          <span>Download</span>
+        </div>
+        <div>
           <template id="vue-panel-selector">
             <div class="select-dropdown tooltip">
               <span class="tooltiptext bottom">{{tooltip}}</span>
@@ -212,13 +213,12 @@ hideFooter: true
             </div>
           </template>
           <panel-control :panel-idx="panelIdx" control-key="document" tooltip="Select book"></panel-control>
-          <panel-control :panel-idx="panelIdx" control-key="view" tooltip="Select version"></panel-control>
-          <a class="prev tooltip" href="#" @click.stop.prevent="incrementLocus(panel, -1)">
-            <span class="tooltiptext bottom">Previous page</span>⇽ </a>
+          <panel-control :panel-idx="panelIdx" control-key="view" tooltip="Select version"></panel-control><br>
+          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)">
+            ❮ Prev</a>
           <panel-control :panel-idx="panelIdx" control-key="locus" tooltip="Select page"></panel-control>
-          <a class="next tooltip" href="#" @click.stop.prevent="incrementLocus(panel, 1)">
-            <span class="tooltiptext bottom">Next page</span>
-          ⇾</a>
+          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)">
+            Next ❯</a>
           <!-- <div class="select-dropdown tooltip">
             <span class="tooltiptext bottom">Select book</span>
             <select aria-label="image switcher">
@@ -261,21 +261,20 @@ hideFooter: true
           <a class="next tooltip" href="/">
             <span class="tooltiptext bottom">Next page</span>
             ⇾</a> -->
-        </li>
-        <li class="tooltip" v-if="canClonePanel">
-          <a @click.stop.prevent="clonePanel(panelIdx)">+</a>
-          <span class="tooltiptext bottom">Add to compare another page or book</span>
-        </li>
-        <li class="tooltip" v-if="panels.length > 1">
+        </div>
+        <div class="icon" v-if="canClonePanel">
+          <a @click.stop.prevent="clonePanel(panelIdx)">+</a><br>
+          <span>Clone</span>
+        </div>
+        <div class="icon" v-if="panels.length > 1">
           <a @click.stop.prevent="closePanel(panelIdx)">-</a>
-          <span class="tooltiptext bottom">Close this panel</span>
-        </li>
-        <li class="tooltip">
-          <span class="tooltiptext bottom">Page information</span>
+        </div>
+        <div class="icon">
           <label for="drawer-switch" id="drawer-toggle"></label>
-        </li>
+          <br>
+          <span>info</span>
+        </div>
         <!--    <li><label for="drawer-switch" id="drawer-toggle">Page information</label></li>-->
-      </ul>
     </nav>
     <div class="panel-chunk">
       <div :class="'content '+getContentClasses(panel)" v-html="panel.responses.document">
@@ -284,3 +283,4 @@ hideFooter: true
   </div>
 </div>
 {% endraw %}
+

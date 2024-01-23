@@ -1,32 +1,7 @@
 @charset "UTF-8";
 
 //Import Fonts
-@font-face {
-  font-family: "Lora";
-  src: url("/assets/fonts/Lora/Lora-VariableFont_wght.ttf")
-    format("woff2-variations");
-  font-weight: 125 950;
-  font-stretch: 75% 125%;
-}
-@font-face {
-  font-family: "Lora";
-  src: url("/assets/fonts/Lora/Lora-Italic-VariableFont_wght.ttf")
-    format("woff2-variations");
-  font-style: oblique 0deg 20deg;
-}
-@font-face {
-  font-family: "Noto";
-  src: url("/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont.ttf")
-    format("woff2-variations");
-  font-weight: 125 950;
-  font-stretch: 75% 125%;
-}
-@font-face {
-  font-family: "Noto";
-  src: url("/assets/fonts/Noto_Sans_Display/NotoSansDisplay-Italic-VariableFont.ttf")
-    format("woff2-variations");
-  font-style: oblique 0deg 20deg;
-}
+@import "fonts.scss";
 
 /* 2. Mixins  */
 
@@ -34,7 +9,6 @@
   @each $pre in -webkit-, -moz-, -o- {
     #{$prop}: $pre + calc(#{$val});
   }
-
   #{$prop}: calc(#{$val});
 }
 
@@ -52,6 +26,10 @@ $primary: #bab294;
 $secondary: #a1562c;
 $grey: #777;
 //* GENERAL *//
+body{
+  font-family: "Noto", sans-serif;
+  font-weight: 450;
+}
 
 //* 1. NAVIGATION *//
 nav.textviewer-nav {
@@ -89,12 +67,12 @@ nav.textviewer-nav {
       } //&:nth-child(3,4)
       h1 {
         margin: 0;
-        font-size: 0.9em;
-        font-weight: normal;
+        font-size: 18px;
         text-align: center;
         line-height: 0.6;
         display: flex;
         align-items: center;
+        font-weight: 450;
         img {
           padding-right: 0.5em;
         } //img
@@ -132,7 +110,10 @@ main {
       border: 1px solid black;
       width: 100%;
       max-width: 50vw;
+      height: 90vh;
+      overflow:scroll;
       // bottom: calc(50vh + 3.8em);
+      
       nav.panel-nav {
         width: 100%;
         padding: 0;
@@ -140,80 +121,81 @@ main {
         background: black;
         color: white;
         position: sticky;
-        top: 2.7em;
-        ul {
-          display: flex;
-          align-items: stretch; /* Default */
-          justify-content: space-between;
-          font-size: 1.5em;
-          margin: 0;
-          margin-left: -40px;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+          text-align: center;
+          margin:0 2%;
+          cursor: pointer;
+          &.icon{
+            width:60px;
+          &:hover{
+            background:#333;
+          }
+          span{
+            font-size: 11px;
+          }
+          }//.icon
+          a.pagination{
+            text-decoration: none;
+            color: #111;
+            background:#d8d8d8;
+            padding:4px 4px;
+            text-transform: uppercase;
+            min-width:50px;
+            font-size:12px;
+            margin: 4px;
+            position: relative;
+            display:inline-block;
+            &:hover{
+              background:white;
+            }
 
-          li {
-            margin-left: 0;
-            padding: 0.2em 0.5em;
-            list-style-type: none;
-            &:nth-child(4) {
-              margin-left: auto;
-            } //&:nth-child(2)
-            &:nth-child(2) {
-              margin-right: auto;
-            } //&:nth-child(2)
-            &:nth-child(1),
-            &:nth-child(2),
-            &:nth-child(4),
-            &:nth-child(5),
-            &:nth-child(6) {
-              //opacity:0.6;
-            } //&:nth-child(3,4)
-            .select-dropdown {
-              border-top: 1px solid white;
-              border-bottom: 1px solid white;
-              display: inline-block;
-              opacity: 1;
+          } //a.pagination
+          .select-dropdown {
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            display: inline-block;
+            opacity: 1;
+            margin:4px 4px;
+            select {
+              font-size: 14px;
+              border: none;
+              color: white;
+              background-color: transparent;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              appearance: none;
+              //max-width: 100%;
+              padding: 0 1.5em 0 0.5em;
+            }
+            &:after {
+              border-top: 5px solid $white;
+              content: " ";
+              position: absolute;
+              top: 50%;
+              margin-top: -2px;
+              right: 8px;
+              width: 0;
+              height: 0;
+              border-left: 5px solid transparent;
+              border-right: 5px solid transparent;
+              border-top: 5px solid #fff;
+            }
+            &:hover {
+              border-top: 1px solid $primary;
+              border-bottom: 1px solid $primary;
               select {
-                font-size: 1rem;
-                border: none;
-                color: white;
-                background-color: transparent;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                appearance: none;
-                //max-width: 100%;
-                padding: 0 1.5em 0 0.5em;
-              }
+                color: brown;
+              } //select
               &:after {
-                border-top: 5px solid $white;
-                content: " ";
-                position: absolute;
-                top: 50%;
-                margin-top: -2px;
-                right: 8px;
-                width: 0;
-                height: 0;
-                border-left: 5px solid transparent;
-                border-right: 5px solid transparent;
-                border-top: 5px solid #fff;
-              }
-              &:hover {
-                border-top: 1px solid $primary;
-                border-bottom: 1px solid $primary;
-                select {
-                  color: brown;
-                } //select
-                &:after {
-                  border-top: 5px solid $primary;
-                } //&:after
-              } //&:hover
-            } //.select-dropdown
-            a.prev,
-            a.next {
-              text-decoration: none;
-              color: gray;
-              font-size: 0.8em;
-            } //
-          } //li
-        } //ul
+                border-top: 5px solid $primary;
+              } //&:after
+            } //&:hover
+          } //.select-dropdown
+        }//div
       } //nav
       .text-viewer {
         // border:1px solid red;
@@ -284,11 +266,6 @@ main {
     text-align: center;
     border-radius: 50%;
     height: 1em;
-    /*cursor: pointer;
-    border: none;
-    -webkit-border-radius: 50px;
-       -moz-border-radius: 50px;
-            border-radius: 50px;*/
     background: white;
     border: 1px solid black;
     -webkit-transition: all 0.5s ease;
@@ -467,3 +444,624 @@ main {
     } //.tooltiptext
   } //&:hover
 } //.tooltip
+
+@media screen and (max-width: 768px){
+}
+
+
+
+
+
+
+////////////////////////// TEXT RENDERING ///////////
+/// 
+/// 
+/// // GN: temporary stylesheet to experiment with rendering of sample
+// TEI elements the text viewer.
+//
+// Some of this will need feedback from partners
+// & review from designers before being added back
+// into main.scss.
+
+@import "color-theme";
+
+// -------------------------------------------------
+// SETTINGS
+
+// if true tei <add> (.tei-add or place="above") is shown as interlinear text with arrow where author inserted it
+// if false it will be shown as superscript
+$render-add-with-arrow: false;
+$edition-line-height: 2.5em;
+$render-sic: false;
+
+// -------------------------------------------------
+// MIXINS
+
+@mixin popover {
+  font-family: "Noto", sans-serif;
+  border: 3px solid grey;
+  box-shadow: #888 5px 5px 15px 0px;
+  z-index: 10;
+  font-size: 1rem;
+  text-align: left;
+  // TODO: CHANGE Noto to another, more reliable font.
+  // BUG in Noto Sans, font-weight: 400/normal will render in italics!
+  // font-weight: normal;
+  font-weight: 450;
+}
+
+// -------------------------------------------------
+
+@media screen and (min-width: 800px) {
+  .modal-card {
+    width: 800px;
+  }
+}
+
+.modal-card-title {
+  flex-shrink: unset;
+}
+
+.modal-card-foot {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+// -------------------------------------------------
+
+#text-viewer .panel-chunk {
+  border-top: 1px solid lightgrey;
+}
+
+#text-viewer {
+  .tei-p,
+  .tei-type-stanza {
+    margin-bottom: $edition-line-height;
+    display: block;
+  }
+
+  span[data-tei-rend~="italic"] {
+    font-style: italic;
+  }
+
+  // .panel-heading {
+  //   display: inline-block;
+  // }
+
+  .btn-icons {
+    margin-bottom: 0;
+
+    .icon {
+      margin: 0;
+      width: 1rem;
+      height: 1rem;
+    }
+
+    .btn-label {
+      display: none;
+    }
+  }
+
+  // Following rules in this block to make the close+clone button float top right.
+  // Apart from that issue all the rest would work well with Bulma's flex.
+  .panel-heading {
+    display: block; // cancel flex mode
+
+    .control,
+    .field {
+      display: inline-block;
+    }
+
+    .pull-right {
+      // margin-left: auto; // for flex mode
+      float: right;
+    }
+  }
+}
+
+// GN: placeholders for customasing the rendering of the editions
+// and the views: view-semidi OR view-modern
+#text-viewer .panel .content {
+  margin-left: 5em;
+  // at least two clear lines gap between bottom of text and page number
+  padding-top: $edition-line-height;
+  padding-bottom: calc($edition-line-height * 2);
+  position: relative;
+
+  opacity: 30%;
+
+  &.loaded {
+    opacity: 100%;
+  }
+
+  // Spaces, gaps & damages
+
+  // .tei-space[data-tei-unit="page"]:before {
+  //   content: "[Blank page]";
+  // }
+
+  &.view-modern,
+  &.view-semidip {
+    // always retain line breaks for missing lines
+    br.missing-line {
+      display: inline;
+    }
+  }
+
+  span[data-tei-unit="char"] .missing-content-message {
+    display: none;
+  }
+
+  .missing-content-message,
+  .missing-chars {
+    color: #777;
+    font-style: italic;
+    &:before {
+      content: "[";
+    }
+    &:after {
+      content: "]";
+    }
+  }
+
+  span[data-tei-unit="line"] .missing-content-message {
+    margin-left: 0.3em;
+  }
+
+  // -----
+
+  &.view-modern {
+    br {
+      display: none;
+    }
+    br[data-tei-break="no"] + .tei-pc.not-a-word,
+    .divide-word {
+      display: none;
+    }
+
+    .orig {
+      display: none;
+    }
+
+    .tei-abbr {
+      display: none;
+    }
+
+    .tei-sic {
+      display: none;
+    }
+
+    .tei-surplus {
+      display: none;
+    }
+
+    .tei-measure.tei-type-currency {
+      &:before {
+        content: "£";
+      }
+
+      .tei-am {
+        display: none;
+      }
+    }
+  }
+
+  .tei-surplus:not(.not-a-word) {
+    // TODO: find better style
+    background-color: #fdd;
+    padding: 0.2em;
+  }
+
+  &.view-semidip {
+    span[data-tei-rend~="superscript"] {
+      vertical-align: super;
+    }
+
+    .norm {
+      display: none;
+    }
+
+    .tei-expan {
+      display: none;
+    }
+
+    .tei-corr {
+      display: none;
+    }
+
+    @if ($render-sic) {
+      .tei-sic {
+        text-decoration: underline wavy orange;
+      }
+    }
+
+    .tei-supplied[data-tei-reason="mod"] {
+      display: none;
+    }
+
+    .tei-supplied[data-tei-reason="unclear"],
+    .tei-supplied[data-tei-reason="omitted"] {
+      &:before {
+        content: "[";
+      }
+      &:after {
+        content: "]";
+      }
+    }
+  }
+
+  // p {
+  //   margin-left: 3em;
+  // }
+
+  &.view-semidip {
+    .tei-ex {
+      // 1.5.5.February
+      display: none;
+    }
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: inherit;
+  }
+
+  span[data-tei-place="centre"] {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .tei-l {
+    // so each verse is on its own line
+    display: block;
+  }
+
+  .tei-seg[data-tei-rend*="centre"] {
+    // 1.4.last
+    text-align: center;
+    display: block;
+  }
+
+  span {
+    // to allow interlinear span within it
+    // position: relative;
+    line-height: $edition-line-height;
+  }
+
+  span[data-tei-rend~="italic"] {
+    font-style: italic;
+  }
+
+  &.view-semidip {
+    // http://localhost:8080/books/viewer/?&p0.lo=p.5
+    @if ($render-add-with-arrow) {
+      // for tei add: appear as superlinear text above down arrow pointing to insertion point
+      *[data-tei-place="above"] {
+        // 1.4.-1.hand
+        position: absolute;
+        margin-top: -1.2em;
+        // padding-right: 4em;
+        display: inline-block;
+        margin-left: -0.3em;
+
+        &:before {
+          content: "\032C";
+          position: absolute;
+          // top: 0.2em;
+          margin-left: 0.3em;
+          font-size: 150%;
+        }
+      }
+    } @else {
+      *[data-tei-place="above"] {
+        vertical-align: super;
+      }
+    }
+
+    *[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header) {
+      display: inline-block;
+      position: absolute;
+      left: -5em;
+      width: 5em;
+      text-indent: initial;
+    }
+  }
+
+  &.view-modern {
+    .tei-fw[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header) {
+      display: none;
+    }
+  }
+
+  .tei-fw.tei-type-pageNum {
+    position: absolute;
+    bottom: 0;
+
+    & + .tei-lb {
+      display: none;
+    }
+  }
+
+  .tei-type-pageNum {
+    display: block;
+  }
+
+  // selector might be too broad,
+  // <fw> is used for various things
+  .tei-fw {
+    display: block;
+
+    &[data-tei-place="right"] {
+      text-align: right;
+    }
+  }
+
+  *[data-tei-rend="strikethrough"] {
+    text-decoration: line-through;
+  }
+
+  *[data-tei-rend="doublestrikethrough"] {
+    text-decoration: line-through;
+    text-decoration-style: double;
+  }
+
+  &.view-modern {
+    .tei-quote.tei-type-direct,
+    .tei-quote.tei-type-partial.nomore {
+      &:before {
+        content: "‘";
+      }
+      &:after {
+        content: "’";
+      }
+    }
+  }
+
+  &.view-modern {
+    .tei-del {
+      display: none;
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  // LIST -----------------
+
+  .tei-list {
+    display: block;
+
+    .tei-item {
+      // doesn't work in FF
+      &:not(:has(.tei-list)) {
+        text-indent: -1em;
+        padding-left: 1em;
+      }
+
+      display: block;
+      // enough space for the label
+      padding-right: 3em;
+      .tei-item {
+        padding-right: 0;
+      }
+      position: relative;
+
+      .tei-label {
+        right: 0;
+        position: absolute;
+        top: 0;
+      }
+    }
+  }
+
+  &.view-semidip {
+    // .tei-list[data-tei-rend="braced(})"] + .tei-label {
+    span[data-tei-rend="braced(})"] + .tei-label,
+    .has-braced-seg > .tei-label {
+      // 2.5em is the line height
+      // we align the label with the middle item in the list
+      top: calc(50% - ($edition-line-height / 2));
+    }
+    .tei-seg[data-tei-rend="braced(})"] {
+      display: inline-block;
+      background: url(../img/icons/closing-curly-brace.svg) no-repeat right
+        center;
+      background-size: 1.5em 100%;
+      padding-right: 1.5em;
+      width: 95%;
+    }
+  }
+
+  // ----------------------
+
+  .highlighted {
+    background: yellow;
+    font-weight: bold;
+  }
+
+  ins {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 2em;
+    // TODO: center in panel, not just text?
+    text-align: center;
+    word-break: break-word;
+  }
+  h2,
+  .tei-fw.tei-type-head {
+    font-size: 1.6em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+
+    &:before {
+      // removes the decoration applied to the h2 on the rest of the site
+      display: none;
+    }
+  }
+  h3,
+  .tei-fw.tei-type-header {
+    font-size: 1.4em;
+    display: block;
+    text-align: center;
+  }
+
+  .tei-docAuthor {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .tei-type-monogram {
+    font-family: cursive;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline dotted green;
+    text-decoration-thickness: 2px;
+  }
+
+  .tei-figure-wrapper {
+    font-size: 1.5rem;
+  }
+
+  figure {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 2rem;
+    margin: 2rem;
+    // display: block;
+
+    background: $white;
+
+    max-height: 90vh;
+    max-width: 90vw;
+    height: 90vh;
+
+    @include popover;
+
+    img {
+      display: inline-block;
+      max-width: 90%;
+      max-height: 80%;
+      height: auto;
+    }
+
+    figcaption {
+      font-size: 1.5rem;
+    }
+  }
+
+  .tei-anchor {
+    // &:before {
+    //   content: "\01F5C8";
+    //   font-size: 1.5em;
+    //   padding: 0.2em;
+    // }
+
+    .note-symbol {
+      padding-left: 0.2em;
+      color: $primary;
+      // font-weight: bold;
+    }
+
+    &.tei-type-event {
+      // TODO: unhide once even entities are made available
+      display: none;
+    }
+  }
+
+  .has-info-box {
+    position: relative;
+    border-bottom: 2px dotted gray;
+
+    &.tei-term {
+      border-bottom-color: lightsalmon;
+    }
+
+    &.tei-g {
+      border-bottom: 2px dotted lightgray;
+    }
+
+    &.tei-anchor {
+      border-bottom: none;
+    }
+
+    &.tei-quote {
+      padding-bottom: 4px;
+      border-bottom-color: lightgreen;
+    }
+
+    &:hover {
+      border-bottom-style: solid;
+      background:lighten(lightgray,10%);
+      > .info-box {
+        display: inline-block;
+      }
+      &.child-hovered {
+        // special case for nested info boxes.
+        // we don't want the parent one to popover
+        // when the user hovers the child one.
+        // This class is dynamically set by text-viewer.js.
+        > .info-box {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // quote
+  .info-box {
+    display: none;
+
+    @include popover;
+
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 120%;
+    width: max-content;
+    max-width: 20em;
+    background-color: white;
+    font-style: normal;
+    border:1px solid #462200;
+    // see CU 86bx3j25n, B3.189
+    text-indent: initial;
+
+    // to counter cursive set by monogram on R.1
+    // font-family: initial;
+
+    span {
+      line-height: 1.5em;
+    }
+
+    .tei-p {
+      margin-bottom: inherit;
+    }
+
+    .banner {
+      display: block;
+      padding: 0.5em;
+      background-color: $primary;
+      color: white;
+    }
+
+    .body {
+      display: block;
+      padding: 0.5em;
+      // to prevent long uris from overflowing the popover
+      overflow-wrap: break-word;
+
+      .tei-p {
+        display: block;
+      }
+    }
+  }
+}
+
