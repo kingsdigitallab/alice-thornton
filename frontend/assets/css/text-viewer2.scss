@@ -112,6 +112,8 @@ main {
       max-width: 60vw;
       height: 90vh;
       overflow:scroll;
+      display: flex;
+      flex-direction: column;
       // bottom: calc(50vh + 3.8em);
       
       nav.panel-nav {
@@ -514,6 +516,7 @@ $render-sic: false;
 
 #text-viewer .panel-chunk {
   border-top: 1px solid lightgrey;
+  overflow: scroll;
 }
 
 #text-viewer {
