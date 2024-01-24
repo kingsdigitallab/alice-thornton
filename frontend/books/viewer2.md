@@ -221,11 +221,15 @@ hideFooter: true
             Next ❯</a>
         </div>
         <div class="icon" v-if="canClonePanel">
-          <a @click.stop.prevent="clonePanel(panelIdx)">+</a><br>
+          <a @click.stop.prevent="clonePanel(panelIdx)">+<br>
           <span>Clone</span>
+          </a>
         </div>
         <div class="icon" v-if="panels.length > 1">
-          <a @click.stop.prevent="closePanel(panelIdx)">-</a>
+          <a @click.stop.prevent="closePanel(panelIdx)">-
+          <br>
+          <span>Close</span>
+          </a>
         </div>
         <div class="icon">
           <label for="drawer-switch" id="drawer-toggle">
