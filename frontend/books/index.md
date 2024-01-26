@@ -25,8 +25,9 @@ The text of all four manuscript volumes will be available to read in both fully 
           {{ book.data.itemLocation }}
         </figcaption>
         <div class="book-buttons">
-          <a href="{{ book.url | url }}" class="button">About</a>
-          {% if book.data.isReadable %}<a href="viewer/?p0.do={{ book.fileSlug }}" class="button is-primary">Read</a>{% endif %}
+        {% if book.data.isReadable %}<a href="viewer/?p0.do={{ book.fileSlug }}" class="button is-primary">Read</a>{% endif %}<br>
+          <a href="{{ book.url | url }}" class="button is-secondary">About</a>
+          
         </div>
       </div>
     </figure>

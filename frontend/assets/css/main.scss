@@ -26,18 +26,15 @@
   background: $secondary;
 }
 
-.is-accent {
-  background: $accent;
-  color: $black;
-}
+
 
 /* Global styles */
 
 a {
-  color: $link;
+  color: $secondary-dark;
 
   &:focus {
-    border: 1px solid $accent;
+    border: 1px solid $secondary;
   }
 
   // GN: see AC-117, without this the border around the focused <a> (inline)
@@ -59,7 +56,7 @@ a.tag {
   padding: 1.25rem 0.75rem;
 
   &::before {
-    color: lighten($dark, 30%);
+    color: $secondary-dark;
     content: "“";
     display: block;
     font-family: "Lora", serif;
@@ -69,7 +66,7 @@ a.tag {
   }
 
   p {
-    color: lighten($dark, 30%);
+    color: $secondary-dark;
     font-family: "Lora", serif;
     font-size: 1.25rem;
     margin-left: 3.5rem;
@@ -125,7 +122,7 @@ a {
   text-decoration: underline;
 
   &:hover {
-    background-color: lighten($accent, 25%);
+    background-color: $secondary-dark;
   }
 }
 
@@ -171,59 +168,41 @@ p {
 // Headings
 
 h1,
-h1.title {
-  font-size: 2.25em;
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: $secondary-dark;
+  font-family: "Lora", serif;
 }
 
-h2 {
+h1.title {
+  font-size: 2.25em;
+  color:$secondary-dark;
+}
+
+.content h2 {
   font-size: 1.5em;
+  color:$secondary;
+  &:not(.undecorated)::before {
+    background: url("/assets/img/symbol.svg") left top no-repeat;
+    background-size: 1.5rem;
+    content: "";
+    display: inline-block;
+    margin-right: 0.25rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  &.index-page-titles {
+    padding-left: 0;
+  }
 }
 
 h3 {
   font-size: 1.25em;
 }
 
-.content {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $secondary;
-    font-family: "Lora", serif;
-  }
-
-  h2 {
-    &:not(.undecorated)::before {
-      background: url("/assets/img/symbol.svg") left top no-repeat;
-      background-size: 1.5rem;
-      content: "";
-      display: inline-block;
-      margin-right: 0.25rem;
-      height: 1.5rem;
-      width: 1.5rem;
-    }
-
-    &.index-page-titles {
-      padding-left: 0;
-    }
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $secondary;
-  font-family: "Lora", serif;
-
-  &.small-heading {
-    font-size: 1.5em;
-  }
-}
 
 .index-page-titles {
   padding: 0.25em;
@@ -239,10 +218,6 @@ h6 {
   width: 20vw;
 }
 
-.title {
-  color: $secondary;
-}
-
 .top-nav {
   background: url("/assets/img/at-decoration-pattern-1.jpg") left 96% repeat-x;
   background-size: 50px;
@@ -254,30 +229,6 @@ h6 {
 
 // Homepage
 
-a.button-hp {
-  display: block;
-  margin-bottom: 1em;
-  text-decoration: none;
-
-  &:hover {
-    background-color: transparent;
-
-    .read-more-hp {
-      background-color: $accent;
-    }
-
-    svg {
-      fill: $accent;
-    }
-  }
-
-  svg {
-    display: block;
-    fill: $primary;
-    margin: 0.25em auto 0;
-    width: 12px;
-  }
-}
 
 .read-more-hp {
   display: block;
@@ -287,7 +238,7 @@ a.button-hp {
   text-decoration: none;
 
   &:hover {
-    background: $accent;
+    background: $secondary-dark;
   }
 }
 
@@ -312,7 +263,7 @@ a.button-hp {
 }
 
 body > footer.footer {
-  background: url("/assets/img/at-decoration-pattern-1.jpg") left -5px repeat-x lighten($light, 30%);
+  background: url("/assets/img/at-decoration-pattern-1.jpg") left -5px repeat-x lighten($gray, 30%);
   background-size: 60px;
 
   .logo-x {
@@ -348,25 +299,8 @@ body > footer.footer {
   color: hsl(0deg, 0%, 29%);
   // color: red;
 }
-.button {
-  text-decoration: none;
-  .icon {
-    &.is-small {
-      height: 0.75rem;
-      width: 0.75rem;
-    }
-  }
 
-  &.is-danger {
-    svg {
-      fill: $white;
-    }
 
-    &:hover {
-      background: $secondary;
-    }
-  }
-}
 
 /* Images */
 
@@ -510,7 +444,7 @@ figcaption {
 .logo {
   img {
     background: $white;
-    border: 1px solid $light;
+    border: 1px solid $gray;
     border-radius: 50%;
     display: block;
     height: 50px;
@@ -562,7 +496,8 @@ figcaption {
       margin-bottom: 2em;
 
       .button {
-        margin-right: 1em;
+        margin: 0.2em 1em 0.2em 0;
+        width:100%;
       }
     }
 
@@ -574,12 +509,12 @@ figcaption {
 
 .navbar {
   background-color: $primary;
-  color: $light;
+  color: $gray;
 
   .navbar-burger {
-    color: $light;
+    color: $gray;
     &:hover {
-      background-color: $light;
+      background-color: $gray;
       color: $primary;
     }
   }
@@ -589,7 +524,7 @@ figcaption {
     padding: 0.9rem 1rem 0.75rem;
     text-decoration: none;
 
-    color: $light;
+    color: $gray;
 
     &.is-active {
       // border-bottom: 4px solid $white;
@@ -612,7 +547,7 @@ figcaption {
     }
 
     &:focus {
-      border: 1px solid $accent;
+      border: 1px solid $secondary;
     }
   }
 
@@ -638,7 +573,7 @@ figcaption {
 
 div.content {
   img {
-    border: 3px solid $light;
+    border: 3px solid $gray;
   }
 }
 
@@ -673,7 +608,7 @@ ul.social_media_block {
 
 .tweet {
   background: $white;
-  border: 1px solid lighten($light, 10%);
+  border: 1px solid $gray-dark;
   border-radius: 0.5em;
   font-size: 0.875em;
   line-height: 1.5;
@@ -681,7 +616,7 @@ ul.social_media_block {
 
   .icon {
     svg {
-      fill: $accent;
+      fill: $secondary;
     }
   }
 }
@@ -701,7 +636,7 @@ ul.social_media_block {
   .panel-controls {
     // GN: temporarily hidden
     display: none;
-    border-bottom: 1px solid lighten($dark, 70%);
+    border-bottom: 1px solid $secondary-dark;
     background-color: rgba(lighten($primary, 10%), 0.1);
     line-height: 2.4;
   }
@@ -719,7 +654,7 @@ ul.social_media_block {
 
   .panel {
     &.column {
-      border: 1px solid lighten($dark, 70%);
+      border: 1px solid $secondary-dark;
       padding: 0;
       background: white;
     }
@@ -787,7 +722,7 @@ ul.pagination-list {
 // Search page
 
 .control .input {
-  border-color: $primary-light;
+  border-color: $secondary;
 }
 
 #search {
@@ -799,7 +734,7 @@ ul.pagination-list {
   .panel.is-info {
     .panel-heading {
       color: #fff;
-      background-color: $primary-light;
+      background-color: $secondary;
       margin-bottom: 0.5em;
     }
 
@@ -867,15 +802,6 @@ ul.pagination-list {
       gap: 1em;
 
       a.button {
-        // height: auto;
-        // margin-right: 1em;
-        // width: 8em;
-
-        // &.btn-read {
-        //   background-color: $primary;
-        //   color: white;
-        //   border-radius: 8px;
-        // }
 
         &.btn-tei {
           .icon {
@@ -971,4 +897,67 @@ ul.pagination-list {
 
 //
 
+.button {
+  text-decoration: none;
+  border:0;
+  .icon {
+    &.is-small {
+      height: 0.75rem;
+      width: 0.75rem;
+    }
+  }
+
+  &.is-danger {
+    svg {
+      fill: $white;
+    }
+
+    &:hover {
+      background: $secondary;
+    }
+  }
+}
+
+
+// Buttons
+.button.is-primary{
+  background: $primary;
+  color:$white;
+  &:hover{
+    background: $primary-dark;
+  }
+}
+
+.button.is-secondary{
+  background: $gray;
+  &:hover{
+    background: $gray-dark;
+  }
+}
+
+
+a.button-hp {
+  display: block;
+  margin-bottom: 1em;
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent;
+
+    .read-more-hp {
+      background-color: $secondary;
+    }
+
+    svg {
+      fill: $secondary;
+    }
+  }
+
+  svg {
+    display: block;
+    fill: $primary;
+    margin: 0.25em auto 0;
+    width: 12px;
+  }
+}
 
