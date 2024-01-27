@@ -490,7 +490,9 @@ figcaption {
   .book.columns {
     width: 25em;
     margin: 0;
-
+    h3{
+      color: $secondary-dark;
+    }
     .book-buttons {
       margin-top: auto;
       margin-bottom: 2em;
@@ -499,10 +501,6 @@ figcaption {
         margin: 0.2em 1em 0.2em 0;
         width:100%;
       }
-    }
-
-    .book-title {
-      margin-bottom: auto;
     }
   }
 }
@@ -924,14 +922,18 @@ ul.pagination-list {
   background: $primary;
   color:$white;
   &:hover{
-    background: $primary-dark;
+    background: #6C4826;
   }
 }
 
 .button.is-secondary{
-  background: $gray;
+  background: $white;
+  border: 2px solid $primary-light;
+  color:$primary-dark;
+
   &:hover{
-    background: $gray-dark;
+    border: 1px solid $primary-light;
+    color:$primary-light;
   }
 }
 

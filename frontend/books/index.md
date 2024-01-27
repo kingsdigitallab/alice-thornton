@@ -19,7 +19,7 @@ The text of all four manuscript volumes will be available to read in both fully 
         <img src="{{ book.data.image }}">
       </a>
       <div class="column is-half is-flex is-flex-direction-column">
-        <h3 class="book-title">{{ book.data.title }}</h3>
+        <h3>{{ book.data.title }}</h3>
         <figcaption>
           {{ book.data.holdingArchive }},<br>
           {{ book.data.itemLocation }}
