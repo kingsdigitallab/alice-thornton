@@ -856,7 +856,7 @@ ul.pagination-list {
 
 // fedback
 
-.btn-feedback {
+.feedback {
   position: fixed;
   bottom: 1.5em;
   right: 1.5em;
@@ -877,15 +877,8 @@ ul.pagination-list {
   @include tablet {
     height: 3em;
   }
-  background-color: #993800;
-  color: #fff;
   .icon {
     color: #fff;
-  }
-  &:hover,
-  &:focus {
-    background-color: darken(#993800, 5%);
-    color: white;
   }
 }
 
@@ -897,6 +890,8 @@ ul.pagination-list {
 
 .button {
   text-decoration: none;
+  box-shadow: 1px 2px 3px $gray-dark;
+  border-radius: 8px;
   border:0;
   .icon {
     &.is-small {
@@ -904,7 +899,6 @@ ul.pagination-list {
       width: 0.75rem;
     }
   }
-
   &.is-danger {
     svg {
       fill: $white;
