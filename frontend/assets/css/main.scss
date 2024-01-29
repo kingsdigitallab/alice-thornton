@@ -519,6 +519,7 @@ figcaption {
 
   .navbar-burger {
     color: $gray;
+    margin-top: 0.8rem;
     &:hover {
       background-color: $gray;
       color: $primary;
@@ -541,7 +542,7 @@ figcaption {
 
     @include touch {
       &.is-active {
-        background-color: $secondary;
+        background-color: $primary-dark;
         border-bottom: none;
         background-image: none;
       }
