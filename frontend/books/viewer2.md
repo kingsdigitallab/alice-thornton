@@ -194,29 +194,21 @@ hideFooter: true
 <div class="panel-wrapper">
   <div class="panel" v-for="(panel, panelIdx) in panels">
     <nav class="panel-nav">
-        <div class="icon">☷
-          <br>
-          <span>About</span>
-        </div>
-        <div class="icon">⤒
-          <br>
-          <span>Download</span>
-        </div>
         <div>
           <template id="vue-panel-selector">
             <div class="select-dropdown tooltip">
-              <span class="tooltiptext bottom">{{tooltip}}</span>
+              <span class="bottom">{{tooltip}}</span>
               <!-- removed id="image_switcher" -->
               <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
                 <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
               </select>
             </div>
           </template>
-          <panel-control :panel-idx="panelIdx" control-key="document" tooltip="Select book"></panel-control>
-          <panel-control :panel-idx="panelIdx" control-key="view" tooltip="Select version"></panel-control><br>
+          <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
+          <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
           <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)">
             ❮ Prev</a>
-          <panel-control :panel-idx="panelIdx" control-key="locus" tooltip="Select page"></panel-control>
+          <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
           <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)">
             Next ❯</a>
         </div>
@@ -231,6 +223,20 @@ hideFooter: true
           <span>Close</span>
           </a>
         </div>
+    </nav>
+    <div class="panel-chunk">
+      <div :class="'content '+getContentClasses(panel)" v-html="panel.responses.document">
+      </div>
+    </div>
+     <nav class="panel-nav bottom">
+        <div class="icon">☷
+          <br>
+          <span>About</span>
+        </div>
+        <div class="icon">⤒
+          <br>
+          <span>Download</span>
+        </div>
         <div class="icon">
           <label for="drawer-switch" id="drawer-toggle">
           &#9432
@@ -239,10 +245,6 @@ hideFooter: true
           </label>
         </div>
     </nav>
-    <div class="panel-chunk">
-      <div :class="'content '+getContentClasses(panel)" v-html="panel.responses.document">
-      </div>
-    </div>
   </div>
 </div>
 {% endraw %}

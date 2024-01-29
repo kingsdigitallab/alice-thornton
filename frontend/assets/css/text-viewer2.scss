@@ -19,12 +19,10 @@
   transform: translate3d($x, $y, $z);
 }
 
-/* Color */
-$black: #222;
-$white: #fff;
-$primary: #bab294;
-$secondary: #a1562c;
-$grey: #777;
+@import "fonts.scss";
+@import "color-theme";
+
+
 //* GENERAL *//
 body{
   font-family: "Noto", sans-serif;
@@ -101,7 +99,7 @@ main {
     justify-content: center;
 
     > .panel {
-      border: 1px solid black;
+      border: 1px solid $primary;
       width: 100%;
       max-width: 60vw;
       height: 90vh;
@@ -113,14 +111,17 @@ main {
       nav.panel-nav {
         width: 100%;
         padding: 0;
-        border-bottom: 1px solid black;
-        background: black;
-        color: white;
+        background: $gray;
+        color: $primary-dark;
         position: sticky;
         top: 0;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        &.bottom{
+          bottom:0;
+          height:50px;
+        }
         div{
           text-align: center;
           margin:0 2%;
@@ -131,7 +132,7 @@ main {
               display:block;
             }
           &:hover{
-            background:#333;
+            background:$gray-dark;
           }
           span{
             font-size: 11px;
@@ -139,8 +140,8 @@ main {
           }//.icon
           a.pagination{
             text-decoration: none;
-            color: #111;
-            background:#d8d8d8;
+            color: $white;
+            background:$primary;
             padding:4px 4px;
             text-transform: uppercase;
             min-width:50px;
@@ -149,20 +150,19 @@ main {
             position: relative;
             display:inline-block;
             &:hover{
-              background:white;
+              background:$primary-light;
             }
 
           } //a.pagination
           .select-dropdown {
-            border-top: 1px solid white;
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid $primary-dark;
             display: inline-block;
             opacity: 1;
             margin:4px 4px;
             select {
               font-size: 14px;
               border: none;
-              color: white;
+              color: $primary-dark;
               background-color: transparent;
               -webkit-appearance: none;
               -moz-appearance: none;
@@ -171,7 +171,7 @@ main {
               padding: 0 1.5em 0 0.5em;
             }
             &:after {
-              border-top: 5px solid $white;
+              border-top: 5px solid $primary-dark;
               content: " ";
               position: absolute;
               top: 50%;
@@ -181,10 +181,9 @@ main {
               height: 0;
               border-left: 5px solid transparent;
               border-right: 5px solid transparent;
-              border-top: 5px solid #fff;
+              border-top: 5px solid $primary-dark;
             }
             &:hover {
-              border-top: 1px solid $primary;
               border-bottom: 1px solid $primary;
               select {
                 color: brown;
