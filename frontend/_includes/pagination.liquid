@@ -16,7 +16,7 @@
           {% if pagination.previousPageHref == null %}aria-disabled="true"{% endif %}
         >❮ Previous</a>
       </li>
-      <li>
+      <li class="pagination-state">
         Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}
       </li>
       <li>
