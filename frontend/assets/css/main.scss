@@ -180,6 +180,7 @@ h6{
 h1.title {
   font-size: 2.25em;
   color:$secondary-dark;
+  border-bottom: 3px double;
 }
 
 .content h2 {
@@ -703,7 +704,6 @@ ul.undecorated-list {
 nav.pagination{
   background: $gray;
   padding:6px 8px 8px 8px;
-  border-top: 3px solid $secondary;
   ul.pagination-list {
     margin:0;
     .button{
@@ -745,7 +745,6 @@ nav.pagination{
     .panel-heading {
       background-color: $gray;
       color:$primary-dark;
-      border-top: 3px solid $secondary;
       margin-bottom: 0.5em;
     }
 
@@ -906,6 +905,7 @@ nav.pagination{
   box-shadow: 1px 2px 3px $gray-dark;
   border-radius: 8px;
   border:0;
+  padding:0 16px;
   .icon {
     &.is-small {
       height: 0.75rem;

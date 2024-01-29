@@ -52,7 +52,9 @@ eleventyNavigation:
               v-on:click.prevent="onClickPrevPage"
               class="pagination-link button is-primary"
               aria-label="Previous page"
-            ><span class="icon">
+            >
+            <!--TO: Unable to remove icon span without breaking page -->
+            <span class="icon">
                 <i class="fas fa-caret-left" aria-hidden="true"></i>
               </span>
             ❮ Previous</a>
@@ -66,6 +68,7 @@ eleventyNavigation:
               class="pagination-link button is-primary"
               aria-label="Next page"
             >Next ❯
+            <!--TO: Unable to remove icon span without breaking page -->
               <span class="icon">
                 <i class="fas fa-caret-right" aria-hidden="true"></i>
               </span>
