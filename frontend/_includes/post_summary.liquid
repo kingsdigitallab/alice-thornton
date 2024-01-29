@@ -10,7 +10,7 @@
     <a href="{{ post.url | url }}"><img src="{{ post.data.feature | url }}" alt="{{ post.data.title | escape_once }}"></a>
     <div>
       <p>{{ post.templateContent | excerpt }}</p>
-      <a href="{{ post.url | url }}" class="button is-primary" id="read-more-{{post.data.slug}}" aria-label="Read more about '{{post.data.title | escape_once }}'">Read more</a>
+      <a href="{{ post.url | url }}" class="button is-secondary" id="read-more-{{post.data.slug}}" aria-label="Read more about '{{post.data.title | escape_once }}'">Read more</a>
     </div>
   </div>
 </div>

@@ -1,37 +1,37 @@
 {% if pagination.pages.length > 1 %}
-  <nav class="pagination is-small" aria-label="pagination">
+  <nav class="pagination" aria-label="pagination">
     {% comment %}TODO: h2 here? referenced by aria-labelledby in nav?{% endcomment %}
     <ul class="pagination-list">
       <li>
         <a href="{{ pagination.href.first }}" 
-          class="pagination-link {% if page.url == pagination.href.first %}is-disabled{% endif %}" 
+          class="pagination-link button is-primary {% if page.url == pagination.href.first %}is-disabled{% endif %}" 
           aria-label="First page" 
           {% if page.url == pagination.href.first %}aria-disabled="true"{% endif %}
-        >First</a>
+        >« First</a>
       </li>
       <li>
         <a href="{{ pagination.previousPageHref }}" 
-          class="pagination-link {% if pagination.previousPageHref == null %}is-disabled{% endif %}" 
+          class="pagination-link button is-primary {% if pagination.previousPageHref == null %}is-disabled{% endif %}" 
           aria-label="Previous page" 
           {% if pagination.previousPageHref == null %}aria-disabled="true"{% endif %}
-        >Previous</a>
+        >❮ Previous</a>
       </li>
       <li>
         Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}
       </li>
       <li>
         <a href="{{ pagination.nextPageHref }}" 
-          class="pagination-link {% if pagination.nextPageHref == null %}is-disabled{% endif %}" 
-          aria-label="Next page" 
+          class="pagination-link button is-primary {% if pagination.nextPageHref == null %}is-disabled{% endif %}" 
+          aria-label="Next page ❯ " 
           {% if pagination.nextPageHref == null %}aria-disabled="true"{% endif %}
-        >Next</a>
+        >Next ❯ </a>
       </li>
       <li>
         <a href="{{ pagination.href.last }}" 
-          class="pagination-link {% if page.url == pagination.href.last %}is-disabled{% endif %}" 
+          class="pagination-link button is-primary {% if page.url == pagination.href.last %}is-disabled{% endif %}" 
           aria-label="Last page" 
           {% if page.url == pagination.href.last %}aria-disabled="true"{% endif %}
-        >Last</a>
+        >Last » </a>
       </li>
     </ul>
   </nav>

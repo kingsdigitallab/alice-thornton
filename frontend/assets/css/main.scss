@@ -670,7 +670,7 @@ ul.social_media_block {
 // Box citation
 
 .box-citation {
-  border: 1px solid rgba(lighten($primary, 20%), 0.2);
+  border: 1px solid $primary;
 
   p {
     font-weight: 700;
@@ -701,14 +701,16 @@ ul.undecorated-list {
 // pagination
 
 
+
 nav.pagination{
   background: $gray;
-  padding:6px 8px 8px 8px;
+  padding:6px 8px;
   ul.pagination-list {
     margin:0;
-    .button{
-      //border-radius: 0;
-    }
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
   }
   .button{
     padding:0 8px;
@@ -754,6 +756,9 @@ nav.pagination{
   }
 
   .search-results {
+    nav.pagination ul.pagination-list {
+      justify-content: flex-start;
+    }
     &.updating {
       opacity: 0.2;
     }
