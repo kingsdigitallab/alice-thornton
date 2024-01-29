@@ -50,12 +50,12 @@ eleventyNavigation:
           <li>
             <a href="#"
               v-on:click.prevent="onClickPrevPage"
-              class="pagination-link"
+              class="pagination-link button is-primary"
               aria-label="Previous page"
             ><span class="icon">
                 <i class="fas fa-caret-left" aria-hidden="true"></i>
               </span>
-            Previous</a>
+            ❮ Previous</a>
           </li>
           <li class="pagination-state">
             Page {{ selection.page }} of {{ lastPageNumber }}
@@ -63,9 +63,9 @@ eleventyNavigation:
           <li>
             <a href="#"
               v-on:click.prevent="onClickNextPage"
-              class="pagination-link"
+              class="pagination-link button is-primary"
               aria-label="Next page"
-            >Next
+            >Next ❯
               <span class="icon">
                 <i class="fas fa-caret-right" aria-hidden="true"></i>
               </span>
@@ -78,7 +78,7 @@ eleventyNavigation:
           </button>
         </div> -->
         <div class="buttons has-addons">
-          <button :title="selectedView.title" @click="onChangeView()" class="button">
+          <button :title="selectedView.title" @click="onChangeView()" class="button is-secondary">
             <span class="icon is-medium"><i :class="`fas ${selectedView.icon}`"></i></span>
             <span>{{selectedView.action}}</span>
           </button>

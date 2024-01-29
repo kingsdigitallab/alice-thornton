@@ -699,8 +699,20 @@ ul.undecorated-list {
 
 // pagination
 
-ul.pagination-list {
-  margin-left: 0;
+
+nav.pagination{
+  background: $gray;
+  padding:6px 8px 8px 8px;
+  border-top: 3px solid $secondary;
+  ul.pagination-list {
+    margin:0;
+    .button{
+      //border-radius: 0;
+    }
+  }
+  .button{
+    padding:0 8px;
+  }
 }
 
 .pagination-link {
@@ -731,8 +743,9 @@ ul.pagination-list {
 
   .panel.is-info {
     .panel-heading {
-      color: #fff;
-      background-color: $secondary;
+      background-color: $gray;
+      color:$primary-dark;
+      border-top: 3px solid $secondary;
       margin-bottom: 0.5em;
     }
 
@@ -916,18 +929,19 @@ ul.pagination-list {
   background: $primary;
   color:$white;
   &:hover{
-    background: #6C4826;
+    background: $secondary-dark;
   }
 }
 
 .button.is-secondary{
   background: $white;
-  border: 2px solid $primary-light;
-  color:$primary-dark;
+  border: 1px solid $primary;
+  color:$primary;
 
   &:hover{
-    border: 1px solid $primary-light;
-    color:$primary-light;
+    border: 1px solid $secondary-dark;
+    color:$secondary-dark;
+    opacity: 0.9;
   }
 }
 
