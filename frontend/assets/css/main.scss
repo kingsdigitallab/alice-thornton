@@ -208,8 +208,12 @@ h3 {
 .index-page-titles {
   padding: 0.25em;
   a {
-    color: $black;
+    color: $secondary;
     text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+      background:none;
+    }
   }
 }
 
@@ -565,8 +569,17 @@ figcaption {
   font-size: 0.875em;
   font-style: italic;
 
-  .tag {
+  .tag.category-link {
+    background:$white;
+    color: $white;
+    border-radius: 0;
+    background:$primary;
+  }
+  .tag.is-info.is-light{
     margin-right: 0.5em;
+    background:$gray;
+    border-radius:0;
+    color:$primary-dark;
   }
 }
 
