@@ -21,7 +21,7 @@ Alice was born on 13 February 1626. The parish registers of St Michael, Kirkling
 
 ## Receiving a Letter from Dublin, 1639 
 
-In c.1634 Alice moved to Dublin as her father, Christopher Wandesford, had taken up a government role in Ireland. In 1639 she spent a few months in England while her mother tried out various water cures in Bristol and Bath. During this time, Alice’s father sent her a number of letters. The third of these is kept by Durham Cathedral Library. The letter from her father is labelled by Thornton, ‘My honoured dear father’s 3rd letter to me into England at the Bath’. In the letter, her father twice addressed her by the nickname ‘Buss’.
+In c.1634 Alice moved to Dublin as her father, Christopher Wandesford, had taken up a government role in Ireland. In 1639 she spent a few months in England while her mother tried out various water cures in Bristol and Bath. During this time, Alice’s father sent her a number of letters. The [third](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/#fn3) of these is kept by Durham Cathedral Library. The letter from her father is labelled by Thornton, ‘My honoured dear father’s 3rd letter to me into England at the Bath’. In the letter, her father twice addressed her by the nickname ‘Buss’.
 
 
 ## Copying her Father’s Will, 1647
@@ -71,12 +71,13 @@ Her children and grandchildren were left rings ‘to wear in remembrance of me�
 This post was inspired by the [West Yorkshire Archive Service Blog post on Anne Lister in 2022](https://wyascatablogue.wordpress.com/2022/09/22/anne-lister-commemorating-the-182nd-anniversary-of-her-death/).
 
 
-[^1]: Bk 2 ref.
-[^2]: put original phrasing here.
-[^3]: Bk 1 p.127. 
-[^4]: Bk 3,p.189.
+[^1]: Alice Thornton, _Book 2: The First Book of My Widowed Condition_ (hereafter _Book 2_), Durham Cathedral Library, GB-0033-CCOM 7, XXX.
+[^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'This last
+Deed of Laistrop was dated Sept. 19th 1667.' *Book 2*, page 293. 
+[^3]: Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 127. 
+[^4]: Alice Thornton, _Book 3: The Second Book of My Widowed Condition_ (hereafter *Book 3*), British Library MS Add 88897/2, 189.
 [^5]: Andrew M. Coleby, "Comber, Thomas (1645–1699), dean of Durham and liturgist." *Oxford Dictionary of National Biography*. 23 Sep. 2004; Accessed 30 Jan. 2024. 
-[^6]: Bk 3, p.152.
-[^7]: Bk 3, p.31.
+[^6]: *Book 3*, 152.
+[^7]: *Book 3*, 31.
 [^8]: Jo to add ref.
 [^9]: York Diocesan Archive, Alice Thornton of East Newton, May 1707, Rydall Exchequer Court, Borthwick Institute for Archives, University of York; *Probate Register of the court of the Archbishop of York for the years 1707-1708*, Vol. 64, 45. 
