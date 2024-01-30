@@ -10,7 +10,7 @@ tags:
   - family
 
 ---
-The 1st September is [World Letter Writing Day](https://worldletterwritingday.com/). While Alice Thornton (1626-1707) is best known for writing four books about her life, we know that she frequently communicated by letter and we have been able to trace twenty-six of her holograph letters, with the latest written only a year before her death; a further twelve Thornton letters were edited in 1875 and 1904 but their current whereabouts is unknown. 
+The 1st September is [World Letter Writing Day](https://worldletterwritingday.com/). While Alice Thornton (1626-1707) is best known for writing four books about her life, we know that she frequently communicated by letter and we have been able to trace twenty-five of her holograph letters (and one copy), with the latest written only a year before her death; a further twelve Thornton letters were edited in 1875 and 1904 but their current whereabouts is unknown. 
 
 In *Book 3: The Second Book of My Widowed Condition*, Thornton frequently lists letters she had received, for example, as evidence of her account – which [contradicted that given by her niece Anne Danby](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/) - of the match between her daughter Nally and Thomas Comber: ‘these letters, papers and transactions of this affair are in bundles and preserved to make out these proceedings and in vindication of our just and laudable actions’.[^1] We have not been able to trace any of these to date, although we have located four holograph letters written to her (and a further five have been published).[^2]
 
@@ -28,7 +28,7 @@ When Hardy Bertram McCall compiled his *Story of the Family of Wandesford of Kir
 
 In 1964 the National Library of Ireland (NLI) [purchased the pre-twentieth century Castlecomer papers](https://www.nli.ie/sites/default/files/2022-12/prior-wandesforde.pdf). Then, in 2000, the English material was [lent indefinitely to the NYCRO](https://archivesunlocked.northyorks.gov.uk/CalmView/Record.aspx?src=CalmView.Catalog&id=ZKW&pos=16). However, the Thornton letters to the Danby men came from the [Swinton and Middleham Estate Records](https://archivesunlocked.northyorks.gov.uk/CalmView/Record.aspx?src=CalmView.Catalog&id=ZS&pos=1) (Swinton Park being a Danby family seat from 1695), not those lent from the NLI. This suggests that some Thornton letters have gone astray in the twentieth century. The NLI does have at least two letters from Thornton to her brother Christopher (from 1677), but these are part of the Ormonde Papers.[^8]
 
-Of the other three Thornton letters we have located, two are to her cousin, Thomas Osborne, Lord Danby; one in Cumbria Archives Centre dated 1673 and one in the British Library dated 1689.[^9] The only one not to a relative – sent to Lady Henrietta Maria Yarburgh in 1700 - is in the Borthwick Institute for Archives, York. It was found by Emma Marshall who has written about why Thornton might have sent a Lady she had never met [a medical recipe](https://recipes.hypotheses.org/17928), although unfortunately the recipe is no longer with the letter.[^10]
+Of the other three Thornton letters we have located, two are to her cousin, Thomas Osborne, Lord Danby; one copy is in Cumbria Archives Centre, dated 1673, and one is in the British Library dated 1689.[^9] The only one not to a relative – sent to Lady Henrietta Maria Yarburgh in 1700 - is in the Borthwick Institute for Archives, York. It was found by Emma Marshall who has written about why Thornton might have sent a Lady she had never met [a medical recipe](https://recipes.hypotheses.org/17928), although unfortunately the recipe is no longer with the letter.[^10]
 
 ![The back half of Alice Thornton's letter to Lady Yarburgh, showing her signature, and some details of the now-lost recipe as a postscript]({{"/assets/img/posts/Thornton_to_Yarburgh.jpeg" | url}} "Alice Thornton to Lady Yarburgh, 1700, Borthwick Institute for Archives, York. Jo Edge.")
 
@@ -54,7 +54,7 @@ https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^8]: Alice Thornton, 'Letters to her brother, Christopher Wandesford, 1677'. Ormonde Papers MS 2368, Volume 68, 171, Ormonde Papers MS 2369, Volume 69, 167, National Library of Ireland, Dublin. We are grateful to Ann-Maria Walsh for these two references.
 
-[^9]: Alice Thornton, 'Letter to Lord Treasurer [Lord Danby], Aug. 20 1673'. Cumbria Archives Centre, Carlisle, DLONS/L/1/1/23/54. Alice Thornton, 'Letter to her cousin, Thomas Osborne, Lord Danby, Lord President of the Council, Jul. 28 1689'. British Library, Egerton MS 3337, f. 196. 
+[^9]: Alice Thornton, 'Letter to Lord Treasurer [Lord Danby], Aug. 20 1673'. Cumbria Archives Centre, Carlisle, DLONS/L/1/1/23/54 (not in her hand). Alice Thornton, 'Letter to her cousin, Thomas Osborne, Lord Danby, Lord President of the Council, Jul. 28 1689'. British Library, Egerton MS 3337, f. 196. 
 
 [^10]: Alice Thornton, 'Letter to Lady Yarburgh, Sep. 4 1700'. Borthwick Institute for Archives, University of York, YM/CP/1, 2/5, 15.
 
