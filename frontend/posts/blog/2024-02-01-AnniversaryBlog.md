@@ -68,7 +68,7 @@ This document opens with a reference to her being ‘weak in body’. The will i
 Her children and grandchildren were left rings ‘to wear in remembrance of me’. Her oldest daughter, Alice Comber, was to get her wedding ring and wedding bodice, some Wandesford heirlooms, as well as ‘three books of my own meditations and transactions of my life’, and all other papers and books written in her own hand, including her [‘physic books and recipes’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-11-16-alice-thornton-herbal-medicine/). The books of her life clearly became family heirlooms too and stayed in [Comber family hands for centuries](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-06-23-two-missing-thornton-manuscripts/). 
 
 
-This post was inspired by the [West Yorkshire Archive Service Blog post on Anne Lister in 2022](https://wyascatablogue.wordpress.com/2022/09/22/anne-lister-commemorating-the-182nd-anniversary-of-her-death/). We hope you have enjoyed this run through Alice Thornton's life and its documentary traces. 
+This post was inspired by the West Yorkshire Archive Service Blog post on [Anne Lister in 2022](https://wyascatablogue.wordpress.com/2022/09/22/anne-lister-commemorating-the-182nd-anniversary-of-her-death/). We hope you have enjoyed this run through Alice Thornton's life and its documentary traces. 
 
 
 [^1]: Modernised from JO TO ADD REF: ‘Alice the daughter of Christopfer Wandesford of Kirklinton’.
