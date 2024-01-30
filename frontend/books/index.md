@@ -19,14 +19,15 @@ The text of all four manuscript volumes will be available to read in both fully 
         <img src="{{ book.data.image }}">
       </a>
       <div class="column is-half is-flex is-flex-direction-column">
-        <h3 class="book-title">{{ book.data.title }}</h3>
+        <h3>{{ book.data.title }}</h3>
         <figcaption>
           {{ book.data.holdingArchive }},<br>
           {{ book.data.itemLocation }}
         </figcaption>
         <div class="book-buttons">
-          <a href="{{ book.url | url }}" class="button">About</a>
-          {% if book.data.isReadable %}<a href="viewer/?p0.do={{ book.fileSlug }}" class="button is-primary">Read</a>{% endif %}
+        {% if book.data.isReadable %}<a href="viewer/?p0.do={{ book.fileSlug }}" class="button is-primary">Read</a>{% endif %}<br>
+          <a href="{{ book.url | url }}" class="button is-secondary">About</a>
+          
         </div>
       </div>
     </figure>

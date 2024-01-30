@@ -26,18 +26,15 @@
   background: $secondary;
 }
 
-.is-accent {
-  background: $accent;
-  color: $black;
-}
+
 
 /* Global styles */
 
 a {
-  color: $link;
+  color: $secondary-dark;
 
   &:focus {
-    border: 1px solid $accent;
+    border: 1px solid $secondary;
   }
 
   // GN: see AC-117, without this the border around the focused <a> (inline)
@@ -59,7 +56,7 @@ a.tag {
   padding: 1.25rem 0.75rem;
 
   &::before {
-    color: lighten($dark, 30%);
+    color: $secondary-dark;
     content: "“";
     display: block;
     font-family: "Lora", serif;
@@ -69,7 +66,7 @@ a.tag {
   }
 
   p {
-    color: lighten($dark, 30%);
+    color: $secondary-dark;
     font-family: "Lora", serif;
     font-size: 1.25rem;
     margin-left: 3.5rem;
@@ -125,7 +122,7 @@ a {
   text-decoration: underline;
 
   &:hover {
-    background-color: lighten($accent, 25%);
+    opacity:0.8;
   }
 }
 
@@ -171,65 +168,52 @@ p {
 // Headings
 
 h1,
-h1.title {
-  font-size: 2.25em;
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: $secondary-dark;
+  font-family: "Lora", serif;
 }
 
-h2 {
+h1.title {
+  font-size: 2.25em;
+  color:$secondary-dark;
+  border-bottom: 3px double;
+}
+
+.content h2 {
   font-size: 1.5em;
+  color:$secondary;
+  &:not(.undecorated)::before {
+    background: url("/assets/img/symbol.svg") left top no-repeat;
+    background-size: 1.5rem;
+    content: "";
+    display: inline-block;
+    margin-right: 0.25rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  &.index-page-titles {
+    padding-left: 0;
+  }
 }
 
 h3 {
   font-size: 1.25em;
 }
 
-.content {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $secondary;
-    font-family: "Lora", serif;
-  }
-
-  h2 {
-    &:not(.undecorated)::before {
-      background: url("/assets/img/symbol.svg") left top no-repeat;
-      background-size: 1.5rem;
-      content: "";
-      display: inline-block;
-      margin-right: 0.25rem;
-      height: 1.5rem;
-      width: 1.5rem;
-    }
-
-    &.index-page-titles {
-      padding-left: 0;
-    }
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $secondary;
-  font-family: "Lora", serif;
-
-  &.small-heading {
-    font-size: 1.5em;
-  }
-}
 
 .index-page-titles {
   padding: 0.25em;
   a {
-    color: $black;
+    color: $secondary;
     text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+      background:none;
+    }
   }
 }
 
@@ -239,42 +223,17 @@ h6 {
   width: 20vw;
 }
 
-.title {
-  color: $secondary;
-}
-
 .top-nav {
-  background: url("/assets/img/at-decoration-pattern-1.jpg") left 97% repeat-x;
-  background-size: 53px;
+  background: url("/assets/img/at-decoration-pattern-1.jpg") left 92% repeat-x;
+  background-size: 35px;
   padding-bottom: 1rem;
+  position:sticky;
+  top:0;
+  z-index:1;
 }
 
 // Homepage
 
-a.button-hp {
-  display: block;
-  margin-bottom: 1em;
-  text-decoration: none;
-
-  &:hover {
-    background-color: transparent;
-
-    .read-more-hp {
-      background-color: $accent;
-    }
-
-    svg {
-      fill: $accent;
-    }
-  }
-
-  svg {
-    display: block;
-    fill: $primary;
-    margin: 0.25em auto 0;
-    width: 12px;
-  }
-}
 
 .read-more-hp {
   display: block;
@@ -284,7 +243,7 @@ a.button-hp {
   text-decoration: none;
 
   &:hover {
-    background: $accent;
+    background: $secondary-dark;
   }
 }
 
@@ -309,9 +268,18 @@ a.button-hp {
 }
 
 body > footer.footer {
-  background: url("/assets/img/at-decoration-pattern-1.jpg") left -5px repeat-x lighten($light, 30%);
-  background-size: 60px;
-
+  background: url("/assets/img/at-decoration-pattern-1.jpg") left -5px repeat-x lighten($gray, 30%);
+  background-size: 50px;
+  padding:0.8em 0 0 0;
+  .has-text-centered{
+    h2{
+      border-top: 8px solid $primary;
+      padding-top:16px;
+      font-weight: 600;
+      color: $secondary;
+      font-size:24px;
+    }
+  }
   .logo-x {
     img {
       background-color: black;
@@ -322,6 +290,14 @@ body > footer.footer {
     vertical-align: middle;
     margin-left: 8px;
   }
+
+ p{
+  line-height: 2;
+  a{
+    text-decoration: none;
+
+  }
+ } 
 }
 
 // Alignment
@@ -345,25 +321,8 @@ body > footer.footer {
   color: hsl(0deg, 0%, 29%);
   // color: red;
 }
-.button {
-  text-decoration: none;
-  .icon {
-    &.is-small {
-      height: 0.75rem;
-      width: 0.75rem;
-    }
-  }
 
-  &.is-danger {
-    svg {
-      fill: $white;
-    }
 
-    &:hover {
-      background: $secondary;
-    }
-  }
-}
 
 /* Images */
 
@@ -507,7 +466,7 @@ figcaption {
 .logo {
   img {
     background: $white;
-    border: 1px solid $light;
+    border: 1px solid $gray;
     border-radius: 50%;
     display: block;
     height: 50px;
@@ -520,16 +479,23 @@ figcaption {
 .logos,
 .logos,
 [class^="gallery-"] .logos {
-  padding: 50px;
-
+  padding: 0 20px;
+  border-bottom:1px solid $primary;
+  margin: 0 auto 24px auto;
+  max-width: 1280px;
+  align-items: center;
+a{
   img {
     background: transparent;
-    max-width: 90%;
-
+    max-width: 100%;
     @include mobile {
       margin: 1em auto;
       max-width: 300px;
     }
+  }
+}
+a:nth-child(2) img, a:nth-child(4) img {
+    width:50%;
   }
 
   @include mobile {
@@ -537,10 +503,6 @@ figcaption {
   }
 }
 
-.logos {
-  margin: 0 auto;
-  max-width: 1280px;
-}
 
 .bookshelf {
   display: flex;
@@ -553,30 +515,33 @@ figcaption {
   .book.columns {
     width: 25em;
     margin: 0;
-
+    .column{
+      padding: 0.75em 0.75em 0.75em 0; 
+    }
+    h3{
+      color: $secondary-dark;
+    }
     .book-buttons {
       margin-top: auto;
       margin-bottom: 2em;
 
       .button {
-        margin-right: 1em;
+        margin: 0.2em 1em 0.2em 0;
+        width:100%;
       }
-    }
-
-    .book-title {
-      margin-bottom: auto;
     }
   }
 }
 
 .navbar {
   background-color: $primary;
-  color: $light;
+  color: $gray;
 
   .navbar-burger {
-    color: $light;
+    color: $gray;
+    margin-top: 0.8rem;
     &:hover {
-      background-color: $light;
+      background-color: $gray;
       color: $primary;
     }
   }
@@ -586,7 +551,7 @@ figcaption {
     padding: 0.9rem 1rem 0.75rem;
     text-decoration: none;
 
-    color: $light;
+    color: $gray;
 
     &.is-active {
       // border-bottom: 4px solid $white;
@@ -597,7 +562,7 @@ figcaption {
 
     @include touch {
       &.is-active {
-        background-color: $secondary;
+        background-color: $primary-dark;
         border-bottom: none;
         background-image: none;
       }
@@ -609,7 +574,7 @@ figcaption {
     }
 
     &:focus {
-      border: 1px solid $accent;
+      border: 1px solid $secondary;
     }
   }
 
@@ -628,14 +593,23 @@ figcaption {
   font-size: 0.875em;
   font-style: italic;
 
-  .tag {
+  .tag.category-link {
+    background:$white;
+    color: $white;
+    border-radius: 0;
+    background:$primary;
+  }
+  .tag.is-info.is-light{
     margin-right: 0.5em;
+    background:$gray;
+    border-radius:0;
+    color:$primary-dark;
   }
 }
 
 div.content {
   img {
-    border: 3px solid $light;
+    border: 1px solid $primary;
   }
 }
 
@@ -670,7 +644,7 @@ ul.social_media_block {
 
 .tweet {
   background: $white;
-  border: 1px solid lighten($light, 10%);
+  border: 1px solid $gray-dark;
   border-radius: 0.5em;
   font-size: 0.875em;
   line-height: 1.5;
@@ -678,7 +652,7 @@ ul.social_media_block {
 
   .icon {
     svg {
-      fill: $accent;
+      fill: $secondary;
     }
   }
 }
@@ -698,7 +672,7 @@ ul.social_media_block {
   .panel-controls {
     // GN: temporarily hidden
     display: none;
-    border-bottom: 1px solid lighten($dark, 70%);
+    border-bottom: 1px solid $secondary-dark;
     background-color: rgba(lighten($primary, 10%), 0.1);
     line-height: 2.4;
   }
@@ -716,7 +690,7 @@ ul.social_media_block {
 
   .panel {
     &.column {
-      border: 1px solid lighten($dark, 70%);
+      border: 1px solid $secondary-dark;
       padding: 0;
       background: white;
     }
@@ -733,7 +707,7 @@ ul.social_media_block {
 // Box citation
 
 .box-citation {
-  border: 1px solid rgba(lighten($primary, 20%), 0.2);
+  border: 1px solid $primary;
 
   p {
     font-weight: 700;
@@ -763,8 +737,22 @@ ul.undecorated-list {
 
 // pagination
 
-ul.pagination-list {
-  margin-left: 0;
+
+
+nav.pagination{
+  background: $gray;
+  padding:6px 8px;
+  ul.pagination-list {
+    margin:0;
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+  }
+  .button{
+    padding:0 8px;
+    border-radius: 0;
+  }
 }
 
 .pagination-link {
@@ -784,7 +772,7 @@ ul.pagination-list {
 // Search page
 
 .control .input {
-  border-color: $primary-light;
+  border-color: $secondary;
 }
 
 #search {
@@ -795,8 +783,8 @@ ul.pagination-list {
 
   .panel.is-info {
     .panel-heading {
-      color: #fff;
-      background-color: $primary-light;
+      background-color: $gray;
+      color:$primary-dark;
       margin-bottom: 0.5em;
     }
 
@@ -806,6 +794,9 @@ ul.pagination-list {
   }
 
   .search-results {
+    nav.pagination ul.pagination-list {
+      justify-content: flex-start;
+    }
     &.updating {
       opacity: 0.2;
     }
@@ -864,15 +855,6 @@ ul.pagination-list {
       gap: 1em;
 
       a.button {
-        // height: auto;
-        // margin-right: 1em;
-        // width: 8em;
-
-        // &.btn-read {
-        //   background-color: $primary;
-        //   color: white;
-        //   border-radius: 8px;
-        // }
 
         &.btn-tei {
           .icon {
@@ -929,7 +911,7 @@ ul.pagination-list {
 
 // fedback
 
-.btn-feedback {
+.feedback {
   position: fixed;
   bottom: 1.5em;
   right: 1.5em;
@@ -950,15 +932,8 @@ ul.pagination-list {
   @include tablet {
     height: 3em;
   }
-  background-color: #993800;
-  color: #fff;
   .icon {
     color: #fff;
-  }
-  &:hover,
-  &:focus {
-    background-color: darken(#993800, 5%);
-    color: white;
   }
 }
 
@@ -968,4 +943,74 @@ ul.pagination-list {
 
 //
 
+.button {
+  text-decoration: none;
+  box-shadow: 1px 2px 3px $gray-dark;
+  border-radius: 8px;
+  border:0;
+  padding:0 16px;
+  .icon {
+    &.is-small {
+      height: 0.75rem;
+      width: 0.75rem;
+    }
+  }
+  &.is-danger {
+    svg {
+      fill: $white;
+    }
+
+    &:hover {
+      background: $secondary;
+    }
+  }
+}
+
+
+// Buttons
+.button.is-primary{
+  background: $primary;
+  color:$white;
+  &:hover{
+    background: $secondary-dark;
+  }
+}
+
+.button.is-secondary{
+  background: $white;
+  border: 1px solid $primary;
+  color:$primary;
+
+  &:hover{
+    border: 1px solid $secondary-dark;
+    color:$secondary-dark;
+    opacity: 0.9;
+  }
+}
+
+
+a.button-hp {
+  display: block;
+  margin-bottom: 1em;
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent;
+
+    .read-more-hp {
+      background-color: $secondary;
+    }
+
+    svg {
+      fill: $secondary;
+    }
+  }
+
+  svg {
+    display: block;
+    fill: $primary;
+    margin: 0.25em auto 0;
+    width: 12px;
+  }
+}
 
