@@ -269,8 +269,17 @@ h3 {
 
 body > footer.footer {
   background: url("/assets/img/at-decoration-pattern-1.jpg") left -5px repeat-x lighten($gray, 30%);
-  background-size: 60px;
-
+  background-size: 50px;
+  padding:0.8em 0 0 0;
+  .has-text-centered{
+    h2{
+      border-top: 8px solid $primary;
+      padding-top:16px;
+      font-weight: 600;
+      color: $secondary;
+      font-size:24px;
+    }
+  }
   .logo-x {
     img {
       background-color: black;
@@ -281,6 +290,14 @@ body > footer.footer {
     vertical-align: middle;
     margin-left: 8px;
   }
+
+ p{
+  line-height: 2;
+  a{
+    text-decoration: none;
+
+  }
+ } 
 }
 
 // Alignment
@@ -462,16 +479,23 @@ figcaption {
 .logos,
 .logos,
 [class^="gallery-"] .logos {
-  padding: 50px;
-
+  padding: 0 20px;
+  border-bottom:1px solid $primary;
+  margin: 0 auto 24px auto;
+  max-width: 1280px;
+  align-items: center;
+a{
   img {
     background: transparent;
-    max-width: 90%;
-
+    max-width: 100%;
     @include mobile {
       margin: 1em auto;
       max-width: 300px;
     }
+  }
+}
+a:nth-child(2) img, a:nth-child(4) img {
+    width:50%;
   }
 
   @include mobile {
@@ -479,10 +503,6 @@ figcaption {
   }
 }
 
-.logos {
-  margin: 0 auto;
-  max-width: 1280px;
-}
 
 .bookshelf {
   display: flex;
