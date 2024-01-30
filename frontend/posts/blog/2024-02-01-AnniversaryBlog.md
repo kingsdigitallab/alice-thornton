@@ -17,7 +17,7 @@ We will start with the earliest document we have found related to Alice Wandesfo
 
 ## Born in 1626
 
-Alice was born on 13 February 1626. The parish registers of St Michael, Kirklington record her baptism – ‘Alice the daughter of Christopher Wandesford of Kirklington’ - as 19 February, six days later.[^1] 
+Alice was born on 13 February 1626. The parish registers of St Michael, Kirklington, held at North Yorkshire County Record Office, record her baptism – ‘Alice the daughter of Christopher Wandesford of Kirklington’ - as 19 February, six days later.[^1] 
 
 ## Receiving a Letter from Dublin, 1639 
 
@@ -33,7 +33,7 @@ Thornton recounts in *Book 2: The First Book of My Widowed Condition* that her o
 
 ## Giving Evidence to Chancery, 1656
 
-The will was still not on file, though, and Alice and family were still arguing about the will’s contents throughout the 1650s. In 1656 Alice, alongside her husband, William Thornton, and her mother, Lady Alice Wandesford, gave evidence to Chancery about the contents of the will in a case brought by one Robert Nettleton against William Wandesford, who was Wandesford’s executor, about non-payment of a debt. Thornton, aged 30, stated that she was ‘aged twenty-nine or thereabouts’.
+The will was still not on file, though, and Alice and family were still arguing about the will’s contents throughout the 1650s. In 1656 Alice, alongside her husband, William Thornton, and her mother, Lady Alice Wandesford, gave evidence to Chancery about the contents of the will in a case brought by one Robert Nettleton against William Wandesford, who was Wandesford’s executor, about non-payment of a debt. Thornton, aged 30, stated that she was ‘aged twenty-nine or thereabouts’ in the surviving deposition at the National Archives, Kew.
 
 
 ## Securing a Deed of Settlement for her Children, 1667 
@@ -49,7 +49,7 @@ Thornton was widowed in 1668. A couple of letters that she wrote to her brother,
 
 ## Writing to her Cousin, Lord Danby, in 1689 
 
-A decade on, in July 1689 we find Alice Thornton writing to her cousin, Lord Danby, who was then President of the royal Council, under William and Mary. She was thanking him for helping her only son, Robert, find a position on a naval ship which was heading to Spain: ‘He assured me he found all persons in the ship very devout at prayers and sermon’. In 1688 Robert was being pursued for his debts which might explain why Alice was happy for Lord Danby’s help ‘putting him … so far away’.
+A decade on, in July 1689 we find Alice Thornton writing to her cousin, Lord Danby, who was then President of the royal Council, under William and Mary. She was thanking him for helping her only son, Robert, find a position on a naval ship which was heading to Spain: ‘He assured me he found all persons in the ship very devout at prayers and sermon’. In 1688 Robert was being pursued for his debts which might explain why Alice was happy for Lord Danby’s help ‘putting him … so far away’. This letter is held by the British Library.
 
 According to *Book Three: The Second Book of My Widowed Consition*, she also wrote to Lord Danby, who now had the title of Marquess of Carmarthen, in September 1689. This time she was seeking his help advancing her son-in-law, Thomas Comber, in the church.[^5] Comber worked on this connection too, making Danby a godfather to one of his children, and his patronage was partly responsible for Comber being made Dean of York in 1691.[^6]
 
