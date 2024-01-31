@@ -37,7 +37,7 @@ Thornton recounts in *Book 2: The First Book of My Widowed Condition* that her o
 
 ## Giving Evidence to Chancery, 1656
 
-![The top of a roll of a parchment document, laid flat with weights]({{"/assets/img/posts/Nettleton_vs_Wandesford_1656.jpg" | url}} "Nettleton vs Wandesford, 1656. C 22/811/15. The National Archives"){.media-left}
+![The top of a roll of a parchment document, laid flat with weights]({{"/assets/img/posts/Nettleton_vs_Wandesford_1656.jpg" | url}} "Nettleton vs Wandesford, 1656. C 22/811/15, The National Archives"){.media-left}
 
 The will was still not on file, though, and Alice and family were still arguing about the will’s contents throughout the 1650s. In 1656 Alice, alongside her husband, William Thornton, and her mother, Lady Alice Wandesford, gave evidence to Chancery about the contents of the will in a case brought by one Robert Nettleton against William Wandesford, who was Wandesford’s executor, about non-payment of a debt. Thornton, aged 30, stated that she was ‘aged twenty-nine or thereabouts’ in the surviving deposition at the National Archives, Kew.[^3]
 
