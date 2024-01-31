@@ -10,7 +10,7 @@ This website is run by [King's Digital Lab, King's College London (KDL)](https:/
 - navigate most of the website using just a keyboard
 - listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
 
-We’ve also made the website text as simple as possible to understand..
+We’ve also made the website text as simple as possible to understand.
 
 [AbilityNet](https://mcmw.abilitynet.org.uk/) has advice on making your device easier to use if you have a disability.
 
@@ -18,7 +18,8 @@ We’ve also made the website text as simple as possible to understand..
 
 We know some part of this website are not fully accessible:
 
-- Dynamic content is handled with [VueJS](https://vuejs.org/) and we are aware that the rendered HTML includes custom tags that don't pass the [W3 Validator](https://validator.w3.org/). This may interfere with assistive technologies. We are still in the process of assessing the site and plan to ensure all important content, if not all, is accessible.
+- Dynamic content is handled with [VueJS](https://vuejs.org/) and we are aware that the rendered HTML includes custom tags that don't pass the [W3 Validator](https://validator.w3.org/). This may interfere with assistive technologies. We are still in the process of assessing the site and plan to ensure all important content, if not all, is accessible;
+- The editorial formatting on some static pages, blog and news articles is sometime inconsistent. We are aware of missing headings on blog posts and missing alternative description of images in various places;
 - 
 
 ## Reporting accessibility problems with this website
