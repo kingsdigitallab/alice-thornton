@@ -17,9 +17,9 @@ We will start with the earliest document we have found related to Alice Wandesfo
 
 ## Baptised in 1626
 
-Alice was born on 13 February 1626. The parish registers of St Michael, Kirklington, held at North Yorkshire County Record Office, record her baptism – ‘Alice the daughter of Christopher Wandesford of Kirklington’ - as 19 February, six days later.[^1] 
-
 ![An image of a page from a 17th century parish register]({{"/assets/img/posts/Alice_Wandesford_Baptism.jpg" | url}} "Kirklington baptism, marriage and burial register, 1568-1680. PR/KRT 1/1, North Yorkshire Couuty Record Office"){.media-right}
+
+Alice was born on 13 February 1626. The parish registers of St Michael, Kirklington, held at North Yorkshire County Record Office, record her baptism – ‘Alice the daughter of Christopher Wandesford of Kirklington’ - as 19 February, six days later.[^1] 
 
 ## Receiving a Letter from Dublin, 1639 
 
@@ -40,7 +40,7 @@ Thornton recounts in *Book 2: The First Book of My Widowed Condition* that her o
 
 The will was still not on file, though, and Alice and family were still arguing about the will’s contents throughout the 1650s. In 1656 Alice, alongside her husband, William Thornton, and her mother, Lady Alice Wandesford, gave evidence to Chancery about the contents of the will in a case brought by one Robert Nettleton against William Wandesford, who was Wandesford’s executor, about non-payment of a debt. Thornton, aged 30, stated that she was ‘aged twenty-nine or thereabouts’ in the surviving deposition at the National Archives, Kew.[^3]
 
-![A full page of a 17th century will]({{"/assets/img/posts/CW_will_1647.jpg" | url}} "Probate copies of will of Lord Deputy Christopher Wandesforde, no. 196, Apr. 1647, Ms 35,458 (1), National Library of Ireland"){.media-right}
+
 
 
 ## Securing a Deed of Settlement for her Children, 1667 
