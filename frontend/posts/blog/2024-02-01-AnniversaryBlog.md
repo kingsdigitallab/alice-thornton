@@ -37,7 +37,7 @@ Thornton recounts in *Book 2: The First Book of My Widowed Condition* that her o
 
 ## Giving Evidence to Chancery, 1656
 
-![The top of a roll of a parchment document, laid flat with weights]({{"/assets/img/posts/Nettleton_vs_Wandesford_1656.jpg" | url}} "Alice Thornton's deposition in the Chancery dispute, Nettleton vs Wandesford, 1656. C 22/811/15, The National Archives")
+![The top of a roll of a parchment document, laid flat with weights]({{"/assets/img/posts/Nettleton_vs_Wandesford_1656.jpg" | url}} "Alice Thornton's deposition in a Chancery dispute, Nettleton vs Wandesford, 1656. C 22/811/15, The National Archives")
 
 The will was still not on file, though, and Alice and family were still arguing about the will’s contents throughout the 1650s. In 1656 Alice, alongside her husband, William Thornton, and her mother, Lady Alice Wandesford, gave evidence to Chancery about the contents of the will in a case brought by one Robert Nettleton against William Wandesford, who was Wandesford’s executor, about non-payment of a debt. Thornton, aged 30, stated that she was ‘aged twenty-nine or thereabouts’ in the surviving deposition at the National Archives, Kew.[^3]
 
@@ -57,7 +57,7 @@ Thornton was widowed in 1668. A couple of letters that she wrote to her brother,
 
 ## Writing to her Cousin, Lord Danby, 1689 
 
-![The full page of the overleaf of a letter, with Alice Thornton's signature]({{"/assets/img/posts/AT_to_Lord_Danby_1689.jpg" | url}} "Alice Thornton to Lord Danby, 25 July 1689. Egerton MS 3337, f. 196, British Library")
+![The full page of the overleaf of a letter, with Alice Thornton's signature]({{"/assets/img/posts/AT_to_Lord_Danby_1689.jpg" | url}} "Alice Thornton to Lord Danby, 25 July 1689. Egerton MS 3337, f. 196v, British Library")
 
 A decade on, in July 1689 we find Alice Thornton writing to her cousin, Lord Danby, who was then President of the royal Council, under William and Mary. She was thanking him for helping her only son, Robert, find a position on a naval ship which was heading to Spain: ‘He assured me he found all persons in the ship very devout at prayers and sermon’. In 1688 Robert was being pursued for his debts which might explain why Alice was happy for Lord Danby’s help ‘putting him … so far away’. This letter is held by the British Library.
 
