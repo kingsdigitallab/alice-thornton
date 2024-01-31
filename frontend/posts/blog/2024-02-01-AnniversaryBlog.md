@@ -29,7 +29,7 @@ In c.1634 Alice moved to Dublin as her father, Christopher Wandesford, had taken
 
 ## Copying her Father’s Will, 1647
 
-![A full page of a 17th century will]({{"/assets/img/posts/CW_will_1647.jpg" | url}} "Probate copies of will of Lord Deputy Christopher Wandesforde, no. 196, Apr. 1647, Ms 35,458 (1), National Library of Ireland"){.media-right}
+![A full page of a 17th century will]({{"/assets/img/posts/CW_will_1647.jpg" | url}} "Probate copies of will of Lord Deputy Christopher Wandesforde, no. 196, Apr. 1647, Ms 35,458 (1), National Library of Ireland"){.media-right}<br>
 
 Alice’s father died on 3 December 1640. He had made a last will and testament on 2 October 1640 which provided for his family, but the will was lost in the upheaval following the [Irish Rebellion of 1641](https://thornton-stg.kdl.kcl.ac.uk/posts/blog/2023-10-23-mcareavey-rebellion-1641/). This caused the family many problems. In this will, Christopher Wandesford left his daughter £1,500 from his Kirklington estate in Yorkshire, to be paid at age 21 (or on marriage), plus yearly maintenance until that point, and £1,000 from his Irish estate to be paid a year after any marriage. 
 
@@ -51,7 +51,7 @@ This deed of 1667 has survived and is now at Durham Cathedral Library, gifted in
 
 ## Writing to her Brother, 1677 
 
-![The full page of an old letter]({{"/assets/img/posts/AT_to_CW_1677.jpg" | url}} "Alice Thornton to Christopher Wandesford, 9 October 1677. MS 2368, National Library of Ireland"){.media-left}
+![The full page of an old letter]({{"/assets/img/posts/AT_to_CW_1677.jpg" | url}} "Alice Thornton to Christopher Wandesford, 9 October 1677. MS 2368, National Library of Ireland"){.media-left}<br>
 
 Thornton was widowed in 1668. A couple of letters that she wrote to her brother, Christopher Wandesford, have survived at the National Library of Ireland as part of [the Ormonde papers](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/#fnref8). In one, dated 9 October 1677, she tells Christopher that she had written to Lady Ayscough to help negotiate a marriage between one of his daughters and the Ayscoughs’ son. In this letter Thornton refers to her poor health as the reason for not making the trip to Osgodby Hall, Thirkleby to visit Lady Ayscough in person: ‘I find not myself able to walk down the hills’. In Lady Ayscough’s reply, copied onto the letter, she references ‘the high hills betwixt us’ and Thornton’s ‘weaknesses, which I am glad to learn is moved’. These hills, the Hambleton Hills, are referenced in *Book 1: The First Book of My Life* as causing Thornton difficulties in early 1653 when she was pregnant for the first time.[^5] <br>
 
@@ -65,7 +65,7 @@ According to *Book Three: The Second Book of My Widowed Consition*, she also wro
 
 ## Writing Her Second Widowed Book, c.1692-6 
 
-![An open book, with handwriting down the first third of the verso, and a blank ruled page on the recto]({{"/assets/img/posts/Book_3.jpg" | url}} "Alice Thornton, Book 3. Add MS 88897/2, p. 217, British Library"){.media-left}
+![An open book, with handwriting down the first third of the verso, and a blank ruled page on the recto]({{"/assets/img/posts/Book_3.jpg" | url}} "Alice Thornton, Book 3. Add MS 88897/2, p. 217, British Library"){.media-left}<br>
 
 We believe that Thornton’s *Book 3* was [written in the 1690s](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html). Besides the reference to the letter sent to Lord Danby in 1689, Thornton also refers to ‘my dear son Thornton’s decease without issue’.[^8] Robert Thornton, her only son that lived to adulthood, died in June 1692, aged 29. There is also a marginal comment that was added in 1696, noting it had been 52 years since the Battle of Marston Moor (1644).[^9] In 1696, Thornton would have been seventy years old.<br>
 
