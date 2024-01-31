@@ -17,19 +17,19 @@ We will start with the earliest document we have found related to Alice Wandesfo
 
 ## Baptised in 1626
 
-![An image of a page from a 17th century parish register]({{"/assets/img/posts/Alice_Wandesford_Baptism.jpg" | url}} "Kirklington baptism, marriage and burial register, 1568-1680. PR/KRT 1/1, North Yorkshire County Record Office")
+![An image of a page from a 17th century parish register]({{"/assets/img/posts/Alice_Wandesford_Baptism.jpg" | url}} "A note of Alice Wandesford's baptism in the Kirklington baptism, marriage and burial register, 1568-1680. PR/KRT 1/1, NYCRO")
 
-Alice was born on 13 February 1626. The parish registers of St Michael, Kirklington, held at North Yorkshire County Record Office, record her baptism – ‘Alice the daughter of Christopher Wandesford of Kirklington’ - as 19 February, six days later.[^1] 
+Alice was born on 13 February 1626. The parish registers of St Michael, Kirklington, held at North Yorkshire County Record Office (NYCRO), record her baptism – ‘Alice the daughter of Christopher Wandesford of Kirklington’ - as 19 February, six days later.[^1] 
 
 ## Receiving a Letter from Dublin, 1639 
 
-![The endorsed side of an old letter]({{"/assets/img/posts/CW_to_AW_1639.jpg" | url}} "Christopher Wandesford to Alice Wandesford, 21 June 1639. DCL CCOM 11/2, Durham Cathedral Library")
+![The endorsed side of an old letter]({{"/assets/img/posts/CW_to_AW_1639.jpg" | url}} "The reverse of Christopher Wandesford's letter to Alice, 21 June 1639, showing his address and her label. DCL CCOM 11/2, used with the kind permission of the Chapter of Durham Cathedral.")
 
 In c.1634 Alice moved to Dublin as her father, Christopher Wandesford, had taken up a government role in Ireland. In 1639 she spent a few months in England while her mother tried out various water cures in Bristol and Bath. During this time, Alice’s father sent her a number of letters. The [third](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/#fnref3) of these is kept by Durham Cathedral Library. The letter from her father is labelled by Thornton, ‘My honoured dear father’s 3rd letter to me into England at the Bath’. In the letter, her father twice addressed her by the nickname ‘Buss’.<br>
 
 ## Copying her Father’s Will, 1647
 
-![A full page of a 17th century will]({{"/assets/img/posts/CW_will_1647.jpg" | url}} "Probate copies of will of Lord Deputy Christopher Wandesforde, no. 196, Apr. 1647, Ms 35,458 (1), NLI. Courtesy of the National Library of Ireland")
+![A full page of a 17th century will]({{"/assets/img/posts/CW_will_1647.jpg" | url}} "Copy of the will of Lord Deputy Christopher Wandesford, no. 196, Apr. 1647, Ms 35,458 (1), NLI. Courtesy of the National Library of Ireland")
 
 Alice’s father died on 3 December 1640. He had made a last will and testament on 2 October 1640 which provided for his family, but the will was lost in the upheaval following the [Irish Rebellion of 1641](https://thornton-stg.kdl.kcl.ac.uk/posts/blog/2023-10-23-mcareavey-rebellion-1641/). This caused the family many problems. In this will, Christopher Wandesford left his daughter £1,500 from his Kirklington estate in Yorkshire, to be paid at age 21 (or on marriage), plus yearly maintenance until that point, and £1,000 from his Irish estate to be paid a year after any marriage. 
 
@@ -37,13 +37,13 @@ Thornton recounts in *Book 2: The First Book of My Widowed Condition* that her o
 
 ## Giving Evidence to Chancery, 1656
 
-![The top of a roll of a parchment document, laid flat with weights]({{"/assets/img/posts/Nettleton_vs_Wandesford_1656.jpg" | url}} "Nettleton vs Wandesford, 1656. C 22/811/15, The National Archives")
+![The top of a roll of a parchment document, laid flat with weights]({{"/assets/img/posts/Nettleton_vs_Wandesford_1656.jpg" | url}} "Alice Thornton's deposition in the Chancery dispute, Nettleton vs Wandesford, 1656. C 22/811/15, The National Archives")
 
 The will was still not on file, though, and Alice and family were still arguing about the will’s contents throughout the 1650s. In 1656 Alice, alongside her husband, William Thornton, and her mother, Lady Alice Wandesford, gave evidence to Chancery about the contents of the will in a case brought by one Robert Nettleton against William Wandesford, who was Wandesford’s executor, about non-payment of a debt. Thornton, aged 30, stated that she was ‘aged twenty-nine or thereabouts’ in the surviving deposition at the National Archives, Kew.[^3]
 
 ## Securing a Deed of Settlement for her Children, 1667 
 
-![A large parchment document laid flat]({{"/assets/img/posts/Settlement_19_Sept_1667.jpg" | url}} "Deed of Settlement, 19 Sept. 1667. GB-0033-CCOM 84, Durham Cathedral Library")
+![A large parchment document laid flat]({{"/assets/img/posts/Settlement_19_Sept_1667.jpg" | url}} "Deed of Settlement, 19 Sept. 1667. DCL, CCOM 84, used with the kind permission of the Chapter of Durham Cathedral")
 
 In the 1660s Alice Thornton’s attention turned towards making sure her children would be provided for in the event of her or her husband’s death. A settlement had been agreed when they married in 1651 but Alice had agreed to the sale of some of the land intended for her younger children c.1656 to cover some of William’s debts. In the 1660s when she was still trying to give William a male heir, she found out that the marriage settlement allowed him to disinherit her children in favour of any from a subsequent marriage. *Book 2* is very detailed on her attempts to get this amended from 1660-7. Indeed, the book ends with the words ‘This last Deed of Leysthorpe was dated September 19th 1667.’[^4]
 
@@ -53,7 +53,7 @@ This deed of 1667 has survived and is now at Durham Cathedral Library, gifted in
 
 ![The full page of an old letter]({{"/assets/img/posts/AT_to_CW_1677.jpg" | url}} "Alice Thornton to Christopher Wandesford, 9 October 1677. MS 2368, NLI. Courtesy of the National Library of Ireland")
 
-Thornton was widowed in 1668. A couple of letters that she wrote to her brother, Christopher Wandesford, have survived at the National Library of Ireland as part of [the Ormonde papers](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/#fnref8). In one, dated 9 October 1677, she tells Christopher that she had written to Lady Ayscough to help negotiate a marriage between one of his daughters and the Ayscoughs’ son. In this letter Thornton refers to her poor health as the reason for not making the trip to Osgodby Hall, Thirkleby to visit Lady Ayscough in person: ‘I find not myself able to walk down the hills’. In Lady Ayscough’s reply, copied onto the letter, she references ‘the high hills betwixt us’ and Thornton’s ‘weaknesses, which I am glad to learn is moved’. These hills, the Hambleton Hills, are referenced in *Book 1: The First Book of My Life* as causing Thornton difficulties in early 1653 when she was pregnant for the first time.[^5] 
+Thornton was widowed in 1668. A couple of letters that she wrote to her brother, Christopher Wandesford, have survived at the National Library of Ireland as part of [the Ormonde papers](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/#fnref8). In one, dated 9 October 1677, she tells Christopher that she had written to Lady Ayscough to help negotiate a marriage between one of his daughters and the Ayscoughs’ son. In this letter Thornton refers to her poor health as the reason for not making the trip to Osgodby Hall, Thirkleby to visit Lady Ayscough in person: ‘I find not myself able to walk down the hills’. In Lady Ayscough’s reply, copied onto the letter, she references ‘the high hills betwixt us’ and Thornton’s ‘weaknesses, which I am glad to learn is moved’. These hills, the Hambleton Hills, are referenced in *Book 1: The First Book of My Life* as causing Thornton difficulties in early 1652 when she was pregnant for the first time.[^5] 
 
 ## Writing to her Cousin, Lord Danby, 1689 
 
@@ -65,13 +65,13 @@ According to *Book Three: The Second Book of My Widowed Consition*, she also wro
 
 ## Writing Her Second Widowed Book, c.1692-6 
 
-![An open book, with handwriting down the first third of the verso, and a blank ruled page on the recto]({{"/assets/img/posts/Book_3_Marston_Moor.jpg" | url}} "Alice Thornton, Book 3. Add MS 88897/2, p. 31, British Library")
+![An open book, with handwriting down the first third of the verso, and a blank ruled page on the recto]({{"/assets/img/posts/Book_3_Marston_Moor.jpg" | url}} "The marginal comment from 1696 in BL, Add MS 88897/2, 31")
 
 We believe that Thornton’s *Book 3* was [written in the 1690s](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html). Besides the reference to the letter sent to Lord Danby in 1689, Thornton also refers to ‘my dear son Thornton’s decease without issue’.[^8] Robert Thornton, her only son that lived to adulthood, died in June 1692, aged 29. There is also a marginal comment that was added in 1696, noting it had been 52 years since the Battle of Marston Moor (1644).[^9] In 1696, Thornton would have been seventy years old.<br>
 
 ## Making Her Last Will and Testament, 1705 
 
-![A will written on a single piece of parchment]({{"/assets/img/posts/Alice_Thornton_Will.jpg" | url}} "York Diocesan Archive, Alice Thornton of East Newton, May 1707, Rydall Exchequer Court, Borthwick Institute for Archives, University of York")
+![A will written on a single piece of parchment]({{"/assets/img/posts/Alice_Thornton_Will.jpg" | url}} "Thornton's will, York Diocesan Archive, Alice Thornton of East Newton, May 1707, Rydall Exchequer Court, Borthwick Institute for Archives, University of York")
 
  Thornton died in January 1707 and was buried on 1 February at Stonegrave in Ryedale, as recorded in the parish register where she is referred to as ‘Madam Thornton’.[^10] There is a letter from Thornton to her great-nephew, Abstrupus Nephew, [dated 25 February 1706](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/#fnref6), which is the latest piece of writing in her hand that we have found. But, for a very full text from her final years, we will turn to her last will and testament, made 10 April 1705 and proved 15 April 1707, with both an original and registered copy surviving at the Borthwick Institute for Archives, York.[^11]<br>
 
