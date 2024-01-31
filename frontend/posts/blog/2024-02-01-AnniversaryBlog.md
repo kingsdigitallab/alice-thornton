@@ -83,7 +83,7 @@ Her children and grandchildren were left rings ‘to wear in remembrance of me�
 This post was inspired by the West Yorkshire Archive Service Blog post on [Anne Lister in 2022](https://wyascatablogue.wordpress.com/2022/09/22/anne-lister-commemorating-the-182nd-anniversary-of-her-death/). We hope you have enjoyed this run through Alice Thornton's life and its documentary traces. 
 
 
-[^1]: Modernised from JO TO ADD REF: ‘Alice the daughter of Christopfer Wandesford of Kirklinton’.
+[^1]: Modernised from 'Kirklington baptism, marriage and burial register, 1568-1680', PR/KRT 1/1, North Yorkshire County Record Office. ‘Alice the daughter of Christopfer Wandesford of Kirklinton’.
 [^2]: Alice Thornton, _Book 2: The First Book of My Widowed Condition_ (hereafter _Book 2_), Durham Cathedral Library, GB-0033-CCOM 7, 36-53.
 [^3]: In *Book 2*, she dates this to 3 November 1658, so ether it was a long-running case or she was mistaken. *Book 2*, 37, 61. 
 [^4]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'This last Deed of Laistrop was dated Sept. 19th 1667.' *Book 2*, page 293. 
@@ -92,5 +92,5 @@ This post was inspired by the West Yorkshire Archive Service Blog post on [Anne 
 [^7]: Andrew M. Coleby, "Comber, Thomas (1645–1699), dean of Durham and liturgist." *Oxford Dictionary of National Biography*. 23 Sep. 2004; Accessed 30 Jan. 2024. 
 [^8]: *Book 3*, 152.
 [^9]: *Book 3*, 31.
-[^10]: JO TO ADD REF.
+[^10]: 'Stonegrave baptism, marriage and burial register, 1584-1750', PR/STV 1/1, North Yorkshire County Record Office.
 [^11]: York Diocesan Archive, Alice Thornton of East Newton, May 1707, Rydall Exchequer Court, Borthwick Institute for Archives, University of York; *Probate Register of the court of the Archbishop of York for the years 1707-1708*, Vol. 64, 45. 
