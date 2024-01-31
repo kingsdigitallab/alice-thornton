@@ -1,6 +1,6 @@
 ---
 title: "Alice Wandesford Thornton (1626-1707): Anniversary Special"
-feature: 
+feature: /assets/img/posts/Alice_Thornton_Burial.png
 status: draft
 authors:
   - cbeattie
@@ -83,7 +83,7 @@ Her children and grandchildren were left rings ‘to wear in remembrance of me�
 This post was inspired by the West Yorkshire Archive Service Blog post on [Anne Lister in 2022](https://wyascatablogue.wordpress.com/2022/09/22/anne-lister-commemorating-the-182nd-anniversary-of-her-death/). We hope you have enjoyed this run through Alice Thornton's life and its documentary traces. 
 
 
-[^1]: Modernised from 'Kirklington baptism, marriage and burial register, 1568-1680', PR/KRT 1/1, North Yorkshire County Record Office. ‘Alice the daughter of Christopfer Wandesford of Kirklinton’.
+[^1]: Modernised from 'Kirklington baptism, marriage and burial register, 1568-1680', PR/KRT 1/1, North Yorkshire County Record Office. ‘Alice the daughter of Christofer Wandesford of Kirklinton Esqr’.
 [^2]: Alice Thornton, _Book 2: The First Book of My Widowed Condition_ (hereafter _Book 2_), Durham Cathedral Library, GB-0033-CCOM 7, 36-53.
 [^3]: In *Book 2*, she dates this to 3 November 1658, so ether it was a long-running case or she was mistaken. *Book 2*, 37, 61. 
 [^4]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'This last Deed of Laistrop was dated Sept. 19th 1667.' *Book 2*, page 293. 
