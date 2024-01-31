@@ -6,7 +6,7 @@ This statement applies to the Alice Thornton's Books site (https://thornton.kdl.
 
 This website is run by [King's Digital Lab, King's College London (KDL)](https://kdl.kcl.ac.uk) in collaboration with the [University of Edinburgh](https://www.ed.ac.uk/). We want as many people as possible to be able to use this website. For example, that means you should be able to:
 
-- zoom in up to 300% without the text spilling off the screen
+- zoom in up to 200% without the text spilling off the screen
 - navigate most of the website using just a keyboard
 - listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
 
