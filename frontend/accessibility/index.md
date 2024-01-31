@@ -10,7 +10,7 @@ This website is run by [King's Digital Lab, King's College London (KDL)](https:/
 - navigate most of the website using just a keyboard
 - listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
 
-We’ve also made the website text as simple as possible to understand.
+We’ve also made the website text as simple as possible to understand..
 
 [AbilityNet](https://mcmw.abilitynet.org.uk/) has advice on making your device easier to use if you have a disability.
 
