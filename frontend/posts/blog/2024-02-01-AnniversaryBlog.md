@@ -17,7 +17,7 @@ We will start with the earliest document we have found related to Alice Wandesfo
 
 ## Baptised in 1626
 
-![An image of a page from a 17th century parish register]({{"/assets/img/posts/Alice_Wandesford_Baptism.jpg" | url}} "Kirklington baptism, marriage and burial register, 1568-1680. PR/KRT 1/1, North Yorkshire Couuty Record Office")
+![An image of a page from a 17th century parish register]({{"/assets/img/posts/Alice_Wandesford_Baptism.jpg" | url}} "Kirklington baptism, marriage and burial register, 1568-1680. PR/KRT 1/1, North Yorkshire County Record Office")
 
 Alice was born on 13 February 1626. The parish registers of St Michael, Kirklington, held at North Yorkshire County Record Office, record her baptism – ‘Alice the daughter of Christopher Wandesford of Kirklington’ - as 19 February, six days later.[^1] 
 
