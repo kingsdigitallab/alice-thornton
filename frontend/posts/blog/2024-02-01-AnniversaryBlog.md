@@ -23,7 +23,7 @@ Alice was born on 13 February 1626. The parish registers of St Michael, Kirkling
 
 ## Receiving a Letter from Dublin, 1639 
 
-![The endorsed side of an old letter]({{"/assets/img/posts/CW_to_AW_1639.jpg" | url}} "The reverse of Christopher Wandesford's letter to Alice, 21 June 1639, showing his address and her label. DCL CCOM 11/2, used with the kind permission of the Chapter of Durham Cathedral.")
+![The endorsed side of an old letter]({{"/assets/img/posts/CW_to_AW_1639.jpg" | url}} "The reverse of Christopher Wandesford's letter to Alice, 21 June 1639, showing his superscription and her endorsement. DCL CCOM 11/2, used with the kind permission of the Chapter of Durham Cathedral.")
 
 In c.1634 Alice moved to Dublin as her father, Christopher Wandesford, had taken up a government role in Ireland. In 1639 she spent a few months in England while her mother tried out various water cures in Bristol and Bath. During this time, Alice’s father sent her a number of letters. The [third](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/#fnref3) of these is kept by Durham Cathedral Library. The letter from her father is labelled by Thornton, ‘My honoured dear father’s 3rd letter to me into England at the Bath’. In the letter, her father twice addressed her by the nickname ‘Buss’.<br>
 
