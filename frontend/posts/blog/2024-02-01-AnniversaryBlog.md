@@ -1,7 +1,7 @@
 ---
 title: "Alice Wandesford Thornton (1626-1707): Anniversary Special"
 feature: /assets/img/posts/Alice_Thornton_Burial.png
-status: draft
+status: live
 authors:
   - cbeattie
 tags:
