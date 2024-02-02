@@ -3,7 +3,7 @@
 [![Build Site](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/build.yml/badge.svg)](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/build.yml)
 [![TEI Validation](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/validate-tei.yml/badge.svg?branch=edition)](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/validate-tei.yml)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/kingsdigitallab/alice-thornton/tree/design)
+Open in Gitpod: [design branch](https://gitpod.io/#https://github.com/kingsdigitallab/alice-thornton/tree/design) | [develop branch](https://gitpod.io/#https://github.com/kingsdigitallab/alice-thornton/tree/develop)
 
 The web site is developed using a Static Site Generator called [11ty](https://www.11ty.dev/).
 
