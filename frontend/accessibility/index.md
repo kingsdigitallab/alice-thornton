@@ -22,6 +22,9 @@ We know some part of this website are not fully accessible:
 - The editorial formatting on some static pages, blog and news articles is sometime inconsistent. We are aware of missing headings on blog posts and missing alternative description of images in various places;
 - The book, version and page selectors on the text viewer may cause issues with assistive technologies due to missing labels;
 - The mentions of blank or deleted pages, lines or words in the Text Viewer may be difficult to read due to the lack of contrasting color with the background;
+- In the Text Viewer, some elements such as tooltips, clone buttons and the image view mode are not fully accessible through keyboard navigation alone, and may not work consistently across all browsers;
+- On the search page, the long list of filters may cause issues with keyboard only users, due to some limitation of the design and layout, it is not possible to bypass the filters to view the search results. Users may find similar issues when they enlarge the page to 200% zoom;
+- In the Text Viewer, the clone button is hidden in 200% zooming to avoid overcrowding the screen with too many panes. It may not be working consistently across all browsers;
 
 ## Reporting accessibility problems with this website
 
