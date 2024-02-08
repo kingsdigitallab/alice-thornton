@@ -11,8 +11,6 @@ tags:
 
 ---
 
-![The promo image for the 1991 film 'Thelma & Louise' showing a close up of actresses Susan Sarandon and Geena Davis smiling]({{"/assets/img/posts/Thelma_and_Louise.jpg" | url}} "Thelma and Louise, by Gordon Fynes, Flickr. https://www.flickr.com/photos/fynes/333524940. CC BY-ND 4.0 DEED"){.media-left}
-
 March is Women's History Month, and to mark it we’re bringing you a series of blog posts on various aspects of Alice Thornton’s books relating to women and gender. The first, by project postdoc Jo Edge, is on the remarkable friendship between Alice Thornton, and her servant-companion Daphne Lightfoot.
 
 <p>&nbsp;</p>
