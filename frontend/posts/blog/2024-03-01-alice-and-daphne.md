@@ -27,6 +27,8 @@ For a seventeenth-century female servant, we know a remarkable amount about Daph
 
 Thornton discusses the deathbed scenes of her nearest and dearest family in great depth in her books, and it is notable that Daphne plays an important role in two of these. The first is the death of Katherine Danby, Thornton’s older sister, in September 1645 at the age of 29. Katherine had given birth to her sixteenth child on 27 August and suffered an agonising death over the next two weeks from postpartum complications, dying on 10 September.  Thornton tells us that Daphne was with Katherine the entire time she lay on her deathbed, and was with her at her time of death, providing spiritual comfort:
 
+<p>&nbsp;</p>
+
 > But Daphne was always with her, who she had a great love for and as she grew weaker, after a month's time of her delivery, holding her head on her breast, said to her in a faint weak voice: “I am going to God, my God, now”. Then said Daphne, “Nay, madam, I hope God will please to spare your life to live amongst your sweet children and bring them up”. “How can that be”, answered my sister, “for I find my heart and vitals all decayed and gone. No: I desire to be dissolved and to be with Christ, which is best of all. I have made my peace with God”. And immediately she said, with as strong a voice as she could, “Lord Jesus, receive my spirit”. Then, giving a little breathing sigh, delivered up her soul into the hands of her saviour, sweetly falling asleep in the Lord.[^4]
 
 <p>&nbsp;</p>
