@@ -31,8 +31,6 @@ Thornton discusses the deathbed scenes of her nearest and dearest family in grea
 
 > But Daphne was always with her, who she had a great love for and as she grew weaker, after a month's time of her delivery, holding her head on her breast, said to her in a faint weak voice: “I am going to God, my God, now”. Then said Daphne, “Nay, madam, I hope God will please to spare your life to live amongst your sweet children and bring them up”. “How can that be”, answered my sister, “for I find my heart and vitals all decayed and gone. No: I desire to be dissolved and to be with Christ, which is best of all. I have made my peace with God”. And immediately she said, with as strong a voice as she could, “Lord Jesus, receive my spirit”. Then, giving a little breathing sigh, delivered up her soul into the hands of her saviour, sweetly falling asleep in the Lord.[^4]
 
-<p>&nbsp;</p>
-
 14 years later, in December 1659, Thornton’s mother, Lady Wandesford, was on her deathbed. By now a married woman with at least one young child, Daphne nevertheless came to attend to her mistress’s spiritual needs at this crucial time:
 
 > And, all that Friday night before she departed, having this sweet saying in her mouth, 'Come Lord Jesus, come quickly', she making Daphne to pray with her that prayer of Dr Smith made in his book for a person at the point to die, and took great notice of each petition praying with zeal and ardency.[^5]
