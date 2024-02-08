@@ -19,8 +19,6 @@ March is Women's History Month, and to mark it we’re bringing you a series of 
 
 For a seventeenth-century female servant, we know a remarkable amount about Daphne, mainly because of what Alice Thornton says about her in all four of her books. Born Daphne Cassell, we do not know her birth date, she entered the service of Alice Thornton’s mother, Lady Alice Wandesford, by 1645 at the latest. Sometime before 1654, she married George Lightfoot, also a servant in the Wandesford household. They would go on to have at least one child, a daughter called Mary. Daphne was a literate woman – not only did she witness Lady Wandesford’s will by signing her name in 1658,[^1] but she and Alice wrote and received letters to and from one another in the late 1660s.[^2] It is not clear where Daphne and George lived after marriage, but it seems they ended up in the Gilling area, some six miles north of Hipswell Hall, as Daphne was buried at St Agatha’s, Gilling West, on 20 September 1689.[^3] 
 
-<p>&nbsp;</p>
-
 ## Deathbed attendance
 
 ![A brunette woman lying under bedclothes stares upwards. Her face has a greenish hue]({{"/assets/img/posts/Young_woman_on_her_deathbed.jpg" | url}} "Anonymous Flemish master, c. 1621. Young Woman on her Deathbed. Public domain, via Wikimedia Commons"){.media-left}
