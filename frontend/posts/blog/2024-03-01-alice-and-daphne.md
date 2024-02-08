@@ -15,11 +15,15 @@ tags:
 
 March is Women's History Month, and to mark it we’re bringing you a series of blog posts on various aspects of Alice Thornton’s books relating to women and gender. The first, by project postdoc Jo Edge, is on the remarkable friendship between Alice Thornton, and her servant-companion Daphne Lightfoot.
 
+<p>&nbsp;</p>
+
 ## Who was Daphne?
 
 ![Two young women sitting up in bed, fully dressed, each holding an infant. The different coloured eyes of the ladies and children show that they are not identical twins. The babies are swaddled in red christening robes]({{"/assets/img/posts/The_Cholmondeley_Ladies.jpg" | url}} "British School, 17th century. The Cholmondeley Ladies. Public domain, via Wikimedia Commons"){.media-right}
 
 For a seventeenth-century female servant, we know a remarkable amount about Daphne, mainly because of what Alice Thornton says about her in all four of her books. Born Daphne Cassell, we do not know her birth date, she entered the service of Alice Thornton’s mother, Lady Alice Wandesford, by 1645 at the latest. Sometime before 1654, she married George Lightfoot, also a servant in the Wandesford household. They would go on to have at least one child, a daughter called Mary. Daphne was a literate woman – not only did she witness Lady Wandesford’s will by signing her name in 1658,[^1] but she and Alice wrote and received letters to and from one another in the late 1660s.[^2] It is not clear where Daphne and George lived after marriage, but it seems they ended up in the Gilling area, some six miles north of Hipswell Hall, as Daphne was buried at St Agatha’s, Gilling West, on 20 September 1689.[^3] 
+
+<p>&nbsp;</p>
 
 ## Deathbed attendance
 
@@ -35,11 +39,15 @@ Thornton discusses the deathbed scenes of her nearest and dearest family in grea
 
 Daphne filled the role of loyal servant and companion with her vigilance and attention to the spiritual needs of Lady Wandesford and Katherine Danby on their deathbeds. 
 
+<p>&nbsp;</p>
+
 ## Breastfeeding
 
 ![A woman with her breasts exposed holds an small baby, about to suckle it]({{"/assets/img/posts/Bol_Woman_suckling_an_infant.jpg" | url}} "Ferdinand Bol, 1636-80.  Woman suckling an infant. Public domain, via Wikimedia Commons"){.media-right}
 
 It was not only death where Daphne acted as a loyal companion and helper. In 1655, Alice had given birth to her third child, Elizabeth (nicknamed Betty). Her eldest daughter, Alice (nicknamed Nally), was about 18 months old and became suddenly ill, the shock of which made Thornton’s milk dry up.[^6]  Thornton states, ‘And Daphne Lightfoot gave my Betty suck until she proved with child’.[^7] Thornton saw it as her Christian duty to breastfeed her own children but, when unable to do so, needed someone she trusted, whose character was good (and therefore whose milk was safe) to nourish her child while as was unable to do so.[^8]
+
+<p>&nbsp;</p>
 
 ## Good memory
 
@@ -51,11 +59,15 @@ When Alice's husband, William, died in 1668, Daphne labelled the goods that had 
 
 Daphne's sharp memory, diligent labelling, honest testimony and loyalty to Alice and her natal family helped save many of the goods from being sold to pay off her husband’s debts. 
 
+<p>&nbsp;</p>
+
 ## After the scandal
 
 ![An older woman sits on a black and white tiled patio outside a house. A younger maid stands next to her holding a pail]({{"/assets/img/posts/Hooch_Woman_and_Maid_with_pail.jpg" | url}} "Pieter de Hooch, c. 1660. Woman and a Maid With a Pail. Public domain, via Wikimedia Commons"){.media-right}
 
 When Alice Thornton's niece, Anne Danby, defamed Alice regarding her daughter Nally's marriage to Thomas Comber, Daphne did all she could to support her friend and mistress. She wrote letters to detractors to dispel rumours and stayed with Alice in order to comfort her. Thornton recorded some of Daphne's letters defending her. She wrote to Thornton’s ex-servant Mary Breakes to try and get to the truth of who had spread rumours, saying ‘that Mrs Danby and her maid Barbery had laid many ill things to my charge, and said it was she that had told them of me that my mistress had robbed her husband and given all his money to Mr Comber with such like untruths'.[^11] 
+
+<p>&nbsp;</p>
 
 ## Loyal servant and friend
 
