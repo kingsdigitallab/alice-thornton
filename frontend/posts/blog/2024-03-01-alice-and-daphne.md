@@ -13,12 +13,6 @@ tags:
 
 March is Women's History Month, and to mark it we’re bringing you a series of blog posts on various aspects of Alice Thornton’s books relating to women and gender. The first, by project postdoc Jo Edge, is on the remarkable friendship between Alice Thornton, and her servant-companion Daphne Lightfoot.
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
 ## Who was Daphne?
 
 ![Two young women sitting up in bed, fully dressed, each holding an infant. The different coloured eyes of the ladies and children show that they are not identical twins. The babies are swaddled in red christening robes]({{"/assets/img/posts/The_Cholmondeley_Ladies.jpg" | url}} "British School, 17th century. The Cholmondeley Ladies. Public domain, via Wikimedia Commons"){.media-right}
