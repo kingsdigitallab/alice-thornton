@@ -47,11 +47,9 @@ It was not only death where Daphne acted as a loyal companion and helper. In 165
 
 ## Good memory
 
-![A well-dressed and perhaps pregnant young woman stands next to a table which holds a variety of metal jugs and plates]({{"/assets/img/posts/The_Housekeeper.jpg" | url}} "Anonymous (Southern Netherlands), c. 1650. The Housekeeper. Public domain, via Wikimedia Commons"){.media-left}
-
 When Alice's husband, William, died in 1668, Daphne labelled the goods that had belonged to Lady Wandesford. This was necessary as William was in a lot of debt when he died and Lady Wandesford, worrying that this might come to pass, had put her goods in a trust for her daughter so that they could not be claimed as William’s.[^9] Daphne testified to the appraisers:
 
-<p>&nbsp;</p>
+![A well-dressed and perhaps pregnant young woman stands next to a table which holds a variety of metal jugs and plates]({{"/assets/img/posts/The_Housekeeper.jpg" | url}} "Anonymous (Southern Netherlands), c. 1650. The Housekeeper. Public domain, via Wikimedia Commons"){.media-left}
 
 > These goods they are all my Lady's. All of them was set down in an inventory before her death by her order and she seeing them done before her own self and was appraised all after her death... and Mr Thornton had not a bed or any household goods in this house or anywhere else before he married, but what he had from my Lady. And she gave them to my mistress to use. But not to pay debts but out of kindness to assist them in their house.[^10] 
 
