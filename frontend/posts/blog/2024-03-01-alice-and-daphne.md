@@ -60,8 +60,6 @@ Daphne's sharp memory, diligent labelling, honest testimony and loyalty to Alice
 When Alice Thornton's niece, Anne Danby, defamed Alice regarding her daughter Nally's marriage to Thomas Comber, Daphne did all she could to support her friend and mistress. She wrote letters to detractors to dispel rumours and stayed with Alice in order to comfort her. Thornton recorded some of Daphne's letters defending her. She wrote to Thornton’s ex-servant Mary Breakes to try and get to the truth of who had spread rumours, saying ‘that Mrs Danby and her maid Barbery had laid many ill things to my charge, and said it was she that had told them of me that my mistress had robbed her husband and given all his money to Mr Comber with such like untruths'.[^11] 
 
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 
 ## Loyal servant and friend
 
