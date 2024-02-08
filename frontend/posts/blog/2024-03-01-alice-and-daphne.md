@@ -75,7 +75,7 @@ Thornton mentions many friends and servants throughout her books. But it is Daph
 
 [^2]: Thornton discusses Daphne writing letters to herself and others in Book 3, pages 65, 85, 138, 142, 155, 197, 198, 201, 203, 206, 207, 208. On the various meanings of ‘literacy’ in early modern England see Mark Hailwood, ‘Rethinking Literacy in Rural England, 1550–1700’, *Past & Present* 260, no. 1 (August 2023): 38–70.
 
-[^3]: 'Thomas Comber to Mrs Thornton, York, May 2 1682', *The Autobiographies and letters of Thomas Comber sometime precentor of York and dean of Durham*, ed. C. E. Whiting (Durham: Surtees Society, 1942) vol. 2, 53.  
+[^3]: 'Thomas Comber to Mrs Thornton, York, May 2 1682', *The Autobiographies and letters of Thomas Comber sometime precentor of York and dean of Durham*, ed. C. E. Whiting, 2 vols. (Durham: Surtees Society, 1942) vol. 2, 53.  
 
 [^4]: 'Gilling West Parish Registers: Baptisms, Marriages and Burials, 1639-1782', PR/GIL 1/1, NYCRO.
 
