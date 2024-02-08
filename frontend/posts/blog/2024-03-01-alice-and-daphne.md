@@ -53,8 +53,6 @@ When Alice's husband, William, died in 1668, Daphne labelled the goods that had 
 
 Daphne's sharp memory, diligent labelling, honest testimony and loyalty to Alice and her natal family helped save many of the goods from being sold to pay off her husband’s debts. 
 
-<p>&nbsp;</p>
-
 ## After the scandal
 
 ![An older woman sits on a black and white tiled patio outside a house. A younger maid stands next to her holding a pail]({{"/assets/img/posts/Hooch_Woman_and_Maid_with_pail.jpg" | url}} "Pieter de Hooch, c. 1660. Woman and a Maid With a Pail. Public domain, via Wikimedia Commons"){.media-right}
