@@ -37,16 +37,12 @@ Thornton discusses the deathbed scenes of her nearest and dearest family in grea
 
 Daphne filled the role of loyal servant and companion with her vigilance and attention to the spiritual needs of Lady Wandesford and Katherine Danby on their deathbeds. 
 
-<p>&nbsp;</p>
-
 ## Breastfeeding
 
 ![A woman with her breasts exposed holds an small baby, about to suckle it]({{"/assets/img/posts/Bol_Woman_suckling_an_infant.jpg" | url}} "Ferdinand Bol, 1636-80.  Woman suckling an infant. Public domain, via Wikimedia Commons"){.media-right}
 
 It was not only death where Daphne acted as a loyal companion and helper. In 1655, Alice had given birth to her third child, Elizabeth (nicknamed Betty). Her eldest daughter, Alice (nicknamed Nally), was about 18 months old and became suddenly ill, the shock of which made Thornton’s milk dry up.[^6]  Thornton states, ‘And Daphne Lightfoot gave my Betty suck until she proved with child’.[^7] Thornton saw it as her Christian duty to breastfeed her own children but, when unable to do so, needed someone she trusted, whose character was good (and therefore whose milk was safe) to nourish her child while as was unable to do so.[^8]
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 
 ## Good memory
