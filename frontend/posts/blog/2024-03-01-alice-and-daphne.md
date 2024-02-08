@@ -65,7 +65,7 @@ When Alice Thornton's niece, Anne Danby, defamed Alice regarding her daughter Na
 
 ![An embroidery of two woman with a landscape and castle in the background]({{"/assets/img/posts/Two_ladies_in_a_landscape_with_a_castle.jpg" | url}} "British school, mid 17th century. Two ladies in a landscape with castle. ⁠Public domain, via Wikimedia Commons"){.media-left}
 
-Thornton mentions many friends and servants throughout her books. But it is Daphne above all who is held up as the ideal of the good companion and loyal servant: present at births and deaths, helping with domestic duties, and comforting during hard times – even after she had married and moved into a house of her own.[^12] This is contrasted to the bad servants and friends in Thornton’s books – such as her niece, Anne Danby, and maids Barbara Todd and Mary Breaks who spread vicious rumours about her while living under her roof. 
+Thornton mentions many friends and servants throughout her books. But it is Daphne above all who is held up as the ideal of the good companion and loyal servant: present at births and deaths, helping with domestic duties, and comforting during hard times – even after she had married and moved into a house of her own.[^12] This is contrasted to the bad servants and friends in Thornton’s books – such as her niece, Anne Danby, and maids Barbara Todd and Mary Breakes who spread vicious rumours about her while living under her roof. 
 
 ---
 
