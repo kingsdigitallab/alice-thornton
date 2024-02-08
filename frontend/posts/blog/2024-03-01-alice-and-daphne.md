@@ -28,13 +28,14 @@ March is Women's History Month, and to mark it we’re bringing you a series of 
 For a seventeenth-century female servant, we know a remarkable amount about Daphne, mainly because of what Alice Thornton says about her in all four of her books. Born Daphne Cassell, we do not know her birth date, she entered the service of Alice Thornton’s mother, Lady Alice Wandesford, by 1645 at the latest. Sometime before 1654, she married George Lightfoot, also a servant in the Wandesford household. They would go on to have at least one child, a daughter called Mary. Daphne was a literate woman – not only did she witness Lady Wandesford’s will by signing her name in 1658,[^1] but she and Alice wrote and received letters to and from one another in the late 1660s.[^2] It is not clear where Daphne and George lived after marriage, but it seems they ended up in the Gilling area, some six miles north of Hipswell Hall, as Daphne was buried at St Agatha’s, Gilling West, on 20 September 1689.[^3] 
 
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 
 ## Deathbed attendance
 
 ![A brunette woman lying under bedclothes stares upwards. Her face has a greenish hue]({{"/assets/img/posts/Young_woman_on_her_deathbed.jpg" | url}} "Anonymous Flemish master, c. 1621. Young Woman on her Deathbed. Public domain, via Wikimedia Commons"){.media-left}
 
 Thornton discusses the deathbed scenes of her nearest and dearest family in great depth in her books, and it is notable that Daphne plays an important role in two of these. The first is the death of Katherine Danby, Thornton’s older sister, in September 1645 at the age of 29. Katherine had given birth to her sixteenth child on 27 August and suffered an agonising death over the next two weeks from postpartum complications, dying on 10 September.  Thornton tells us that Daphne was with Katherine the entire time she lay on her deathbed, and was with her at her time of death, providing spiritual comfort:
+
+<p>&nbsp;</p>
 
 > But Daphne was always with her, who she had a great love for and as she grew weaker, after a month's time of her delivery, holding her head on her breast, said to her in a faint weak voice: “I am going to God, my God, now”. Then said Daphne, “Nay, madam, I hope God will please to spare your life to live amongst your sweet children and bring them up”. “How can that be”, answered my sister, “for I find my heart and vitals all decayed and gone. No: I desire to be dissolved and to be with Christ, which is best of all. I have made my peace with God”. And immediately she said, with as strong a voice as she could, “Lord Jesus, receive my spirit”. Then, giving a little breathing sigh, delivered up her soul into the hands of her saviour, sweetly falling asleep in the Lord.[^4]
 
