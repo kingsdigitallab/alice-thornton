@@ -71,7 +71,7 @@ Thornton mentions many friends and servants throughout her books. But it is Daph
 
 ---
 
-[^1]: ‘The Will of Dame Alice Wandesford, Widow of Lord Deputy Wandesford — 10th January 1658. Proved at London 19th July 1660'’, Hardy Bertram McCall, *Story of the Family of Wandesforde of Kirklington & Castlecomer …* (London: Simpkin, Marshall, Hamilton & co., 1904), 357-8. 
+[^1]: ‘The Will of Dame Alice Wandesford, Widow of Lord Deputy Wandesford — 10th January 1658. Proved at London 19th July 1660'’, Hardy Bertram McCall, *Story of the Family of Wandesforde of Kirklington & Castlecomer ....* (London: Simpkin, Marshall, Hamilton & co., 1904), 357-8. 
 
 [^2]: Thornton discusses Daphne writing letters to herself and others in Book 3, pages 65, 85, 138, 142, 155, 197, 198, 201, 203, 206, 207, 208. On the various meanings of ‘literacy’ in early modern England see Mark Hailwood, ‘Rethinking Literacy in Rural England, 1550–1700’, *Past & Present* 260, no. 1 (August 2023): 38–70.
 
