@@ -81,7 +81,7 @@ Thornton mentions many friends and servants throughout her books. But it is Daph
 
 [^4]: 'Gilling West Parish Registers: Baptisms, Marriages and Burials, 1639-1782', PR/GIL 1/1, NYCRO.
 
-[^5]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. Alice Thornton, *My First Booke of My Life* (hereafter *Book 1*), page 89.
+[^5]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. Alice Thornton, *My First Booke of My Life* (hereafter *Book 1*), page 89.
 
 [^6]: *Book 1*, pages 168-169.
 
