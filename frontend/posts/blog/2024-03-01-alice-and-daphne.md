@@ -51,7 +51,7 @@ When Alice's husband, William, died in 1668, Daphne labelled the goods that had 
 
 ![A well-dressed and perhaps pregnant young woman stands next to a table which holds a variety of metal jugs and plates]({{"/assets/img/posts/The_Housekeeper.jpg" | url}} "Anonymous (Southern Netherlands), c. 1650. The Housekeeper. Public domain, via Wikimedia Commons"){.media-left}
 
-> These goods they are all my Lady's. All of them was set down in an inventory before her death by her order and she seeing them done before her own self and was appraised all after her death... and Mr Thornton had not a bed or any household goods in this house or anywhere else before he married, but what he had from my Lady. And she gave them to my mistress to use. But not to pay debts but out of kindness to assist them in their house.[^11] 
+> These goods, they are all my Lady's. All of them was set down in an inventory before her death by her order. And she, seeing them done before her own sel,f and was appraised all after her death... and Mr Thornton had not a bed or any household goods in this house or anywhere else before he married, but what he had from my Lady. And she gave them to my mistress to use. But not to pay debts but out of kindness to assist them in their house.[^11] 
 
 <p>&nbsp;</p>
 
@@ -81,20 +81,20 @@ Thornton mentions many friends and servants throughout her books. But it is Daph
 
 [^4]: 'Gilling West Parish Registers: Baptisms, Marriages and Burials, 1639-1782', PR/GIL 1/1, NYCRO.
 
-[^5]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. Alice Thornton, *My First Booke of My Life* (hereafter *Book 1*), page 89.
+[^5]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'But Dafeny was alwaies with her. who she had a great love for, and as she grew weaker affter a months time of her delivery, holding her head on her breast, said to her in a faint weake voyce. I am goeing to God, my God now. Then said Dafeny nay Maddam I hope God will please to spaire your life, to live amonggst your sweete Children, & bring them up. how can that be answred my sister, for I find my ♥ & vittalls all decaid & gon (noe:) I desire to be desolved, & to be with Christ, which is best of all. I have made my peace with God. And immeadiately she said, with as strong a voyce as she could. Lord Jesus receive my Spirritt, then giveing a little breathing sigh deliverred up her soule in to the hands of her Saviour. sweetely falling asleepe in the Lord'. Alice Thornton, *My First Booke of My Life* (hereafter *Book 1*), page 89.
 
-[^6]: *Book 1*, pages 168-169.
+[^6]: 'And all that friday night before she departed haveing this sweete saing in her mouth Come Lord Jesus, come quickly. she makeing Dafeny to pray with her, that praier of Dr Smith made in his Booke for a Person at the point to die & tooke great notice of each Pettition praing with Zeale & ardency'.  *Book 1*, pages 168-169.
 
 [^7]: For more on Thornton’s illness following Nally’s illness see Joanne Edge, ‘Taking it to Heart: Grief and Illness in Alice Thornton's Books’, Alice Thornton’s Books, https://thornton.kdl.kcl.ac.uk/posts/blog/2022-12-19-grief-and-illness-thornton/, 19 December 2022.
 
-[^8]: *Book 1*, page 138.
+[^8]: 'And Dafeny Lightfoote gave my betty sucke. till she proved with childe'. *Book 1*, page 138.
 
 [^9]: A wet nurse's character needed to be good, otherwise it was thought the milk would pass on bad traits or illnesses to the baby she was breastfeeding. See Alexandra Shepard, 'The Pleasures and Pains of Breastfeeding in England c.1600–c.1800', in Michael J. Braddick and Joanne Innes (eds.), *Suffering and Happiness in England 1550-1850: Narratives and Representations: A collection to honour Paul Slack* (Oxford: Oxford University Press, 2017): 236.
 
 [^10]: On trusts for married women see Amy Louise Erickson, *Women and Property in Early Modern England* (London: Routledge, 1995), 103.
 
-[^11]: Alice Thornton, *The Second Book of My Widowed Condition* (hereafter *Book 3*), page 126.
+[^11]: 'these goods they are all my Ladies and all of them was sett downe in an Inventory before her death by her order & she seeing them don before her owne selfe and was Prized all after her Death...And Mr thornton had not a Bed or any houshold goods in this house or any where ellse before he married. But what he had from my Lady And she gave them to my Mrs to use. but not pay Debts but out of kindness to assist them in there house'. Alice Thornton, *The Second Book of My Widowed Condition* (hereafter *Book 3*), page 126.
 
-[^12]: *Book 3*, page 86.
+[^12]: 'That Mrs Danby had, & her maide Barbery Laid many ill things to to my charge & said it was she that had tould them of me that my Mrs had Robed her husband & given all his mony to Mr Comber with such like untruths'. *Book 3*, page 85.
 
 [^13]: On friendship and loyalty between women and their female servants in the early modern period see Amanda E. Herbert, *Female Alliances: Gender, Identity, and Friendship in Early Modern Britain* (New Haven: Yale University Press, 2014), 35-8.
