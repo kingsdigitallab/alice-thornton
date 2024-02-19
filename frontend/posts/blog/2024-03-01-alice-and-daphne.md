@@ -1,5 +1,5 @@
 ---
-title: "Alice and Daphne: a seventeenth-century Thelma and Louise?"
+title: "Women's History Month, 1: Alice Thornton and Daphne Lightfoot"
 feature: assets/img/posts/The_Cholmondeley_Ladies.jpg
 authors:
   - jedge
@@ -8,6 +8,7 @@ tags:
   - family
   - manuscripts
   - letters
+  - illness
 
 ---
 
