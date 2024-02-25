@@ -1,6 +1,6 @@
 ---
-title: "Women's History Month, 1: Alice Thornton and Daphne Lightfoot"
-feature: assets/img/posts/The_Cholmondeley_Ladies.jpg
+title: "Women's History Month 2024, 1: Alice Thornton and Daphne Lightfoot"
+feature: /assets/img/posts/womens_history_month.jpg
 authors:
   - jedge
 status: draft
