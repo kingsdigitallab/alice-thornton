@@ -1,5 +1,5 @@
 ---
-title: "Women’s History Month, 2: Re-reading Alice Thornton's pains and perils"
+title: "Women’s History Month 2023, 2: Re-reading Alice Thornton's pains and perils"
 feature: /assets/img/posts/womens_history_month.jpg
 status: live
 authors:
