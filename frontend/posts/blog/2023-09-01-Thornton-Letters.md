@@ -22,7 +22,7 @@ The latest letter in Durham Cathedral’s collection was written by Thornton to 
 
 ![A desk in an old library with multiple reading stands]({{"/assets/img/posts/old_refectory_library_durham.jpg" | url}} "The Old Refectory Library, Durham Cathedral")
 
-The largest collection of Thornton letters is at North Yorkshire County Record Office (NYCRO). They have fifteen: four sent to her nephew Thomas Danby in the period c.1654–1659 and eleven sent to her great-nephew Abstrupus Danby, of the ‘scurrilous letter’, in the period 1683–1706. In the final letter, dated 25 February 1706, Thornton seems on better terms with her great-nephew and she informed him that she had, ‘in answer to your desire’, written to the Governor of Virginia to aid Danby and his family keep the land in Virginia that his late grandfather, and Thornton’s brother-in-law, had bought.[^6] 
+The largest collection of Thornton letters is at North Yorkshire County Record Office (NYCRO). They have fifteen: four sent to her nephew Thomas Danby in the period c.1654–1659 and eleven sent to her great-nephew Abstrupus Danby, of the ‘scurrilous letter’, in the period 1683–1706. In one of the final letters, dated 25 February 1705, Thornton seems on better terms with her great-nephew and she informed him that she had, ‘in answer to your desire’, written to the Governor of Virginia to aid Danby and his family keep the land in Virginia that his late grandfather, and Thornton’s brother-in-law, had bought.[^6] 
 
 When Hardy Bertram McCall compiled his *Story of the Family of Wandesford of Kirklington and Castlecomer* in 1904, he wrote that there were ‘some twenty’ of Thornton’s letters extant and he edited two, one to her brother, Christopher Wandesford, and one to his wife, Eleanor.[^7] McCall had access to all the family papers at Castlecomer House, Kilkenny. This included the Yorkshire evidence for the Wandesford family dating back to the thirteenth century; Thornton was born Alice Wandesford at Kirklington on 13 February 1626. 
 
@@ -48,7 +48,7 @@ https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^5]: Alice Thornton, 'Letter to Dean Comber, Apr. 24; addendum, May 3'. DCL, GB-0033-CCOM 57/7. 
 
-[^6]: Alice Thornton, 'Letter to Abstrupus Danby, 25 February 1705/6'. North Yorkshire County Record Office, ZS - Swinton and Middleham Estate Records, MIC 1274/6726. 
+[^6]: Alice Thornton, 'Letter to Abstrupus Danby, 25 February 1705'. North Yorkshire County Record Office, ZS - Swinton and Middleham Estate Records, MIC 1274/6726. 
 
 [^7]: Hardy Bertram McCall, [*Story of the Family of Wandesforde of Kirklington & Castlecomer: Compiled from Original Sources, with a Calendar of Historical Manuscripts*](https://archive.org/details/storyoffamilyofw00mcca). London: Simpkin, Marshall, Hamilton & co., 1904, 93.
 
