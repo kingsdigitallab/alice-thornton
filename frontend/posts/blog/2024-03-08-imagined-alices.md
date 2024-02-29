@@ -5,8 +5,12 @@ authors:
   - ethom
 status: draft
 tags:
+  - art
   - portraits
+  - creative writing
   - widowhood
+  
+
   
 
 ---
