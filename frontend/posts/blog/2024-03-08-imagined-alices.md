@@ -34,10 +34,10 @@ Unfortunately, since the 1875 reference to that portrait was made, its whereabou
 
 While we hope the paintings may one day be recovered, in the meantime, we have sometimes shared this image of the closest relative of Alice who we do have an portrait of: her father, Christopher Wandesford (1592-1640). This is a 19th-century copy of a 17th-century portrait, but we are now in touch with a line of Wandesford descendants who have two original portraits of Alice’s father. For the first time, we can share these new images of Christopher Wandesford with the permission of the owners, the Prior-Wandesforde family.
 
+Suggestions that Alice Thornton may have had red hair have arisen because her father’s portraits do hint at a redheaded gene, although this could just be a firelit glow. One branch of descendants said they had no relatives with red hair, and another said they did have a ginger gene. Genes can do exactly this, stowaway down one branch of your family tree and disappear from another entirely. But either way, there’s no proof. We have nothing to suggest Alice Thornton inherited her father’s hair colour.
+
 ![A 17th-century portrait of Christopher Wandesford]({{"/assets/img/posts/cwandesford1.jpg" | url}} "A 17th-century portrait of Christopher Wandesford"){.media-right}
 ![The second 17th-century portrait of Christopher Wandesford]({{"/assets/img/posts/cwandesford2.jpg" | url}} "The second 17th-century portrait of Christopher Wandesford"){.media-left}
-
-Suggestions that Alice Thornton may have had red hair have arisen because her father’s portraits do hint at a redheaded gene, although this could just be a firelit glow. One branch of descendants said they had no relatives with red hair, and another said they did have a ginger gene. Genes can do exactly this, stowaway down one branch of your family tree and disappear from another entirely. But either way, there’s no proof. We have nothing to suggest Alice Thornton inherited her father’s hair colour.
 
 
 
