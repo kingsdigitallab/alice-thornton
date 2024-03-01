@@ -3,7 +3,7 @@ title: "Women's History Month 2024, 1: Alice Thornton and Daphne Lightfoot"
 feature: /assets/img/posts/womens_history_month.jpg
 authors:
   - jedge
-status: draft
+status: live
 tags:
   - family
   - manuscripts
