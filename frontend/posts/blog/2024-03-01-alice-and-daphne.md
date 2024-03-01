@@ -12,7 +12,7 @@ tags:
 
 ---
 
-March is Women's History Month, and to mark it - like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-01-WHMThorntonandKempe/) - we’re bringing you a series of blog posts on Alice Thornton and various women that feature in her writings. The first, by project postdoc [Jo Edge](https://thornton.kdl.kcl.ac.uk/people/jedge/), is on the remarkable friendship between Alice Thornton and her servant-companion, Daphne Lightfoot.
+March is Women's History Month and to mark it - like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-01-WHMThorntonandKempe/) - we’re bringing you a series of blog posts, this time on Alice Thornton and various women that feature in her writings. The first, by project postdoc [Jo Edge](https://thornton.kdl.kcl.ac.uk/people/jedge/), is on the remarkable friendship between Alice Thornton and her servant-companion, Daphne Lightfoot.
 
 ## Who was Daphne?
 
