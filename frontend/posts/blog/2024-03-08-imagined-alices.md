@@ -15,7 +15,7 @@ tags:
 
 ---
 
-March is Women's History Month, and like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-08-whm-alice-thornton-pain-peril/), to mark it we’re bringing you a weekly series of blog posts. In this second post in our series, our Engagement and Impact Officer [Eleanor Thom](https://www.ed.ac.uk/profile/dr-eleanor-thom), writes about the missing portraits of Alice Thornton and how we imagine her.
+March is Women's History Month, and like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-08-whm-alice-thornton-pain-peril/), to mark it we’re bringing you a weekly series of blog posts. In this second post in our series, our Engagement and Impact Officer [Eleanor Thom](https://www.ed.ac.uk/profile/dr-eleanor-thom) writes about the missing portraits of Alice Thornton and how we imagine her.
 
 ## What did Alice Thornton look like?
 
