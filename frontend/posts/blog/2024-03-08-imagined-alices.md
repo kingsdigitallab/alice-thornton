@@ -71,7 +71,7 @@ Alice Thornton’s facelessness, on the face of it, is a pity. It’s impossible
 
 ![Debbie Cannon as Alice Thornton]({{"/assets/img/posts/remarkable-deliverances-play-2.jpg" | url}} "Debbie Cannon as Alice Thornton"){.media-right}
 
-Thornton’s image remaining a mystery means that each member of the Thornton’s Books team has their own imagined version of her and, whenever we meet, she is somehow a presence. This has been helpful at times, because our imagined Alice Thorntons sometimes suggest alternative readings of her text. For example, working closely with the Thornton’s Books team, writer and performer, Debbie Cannon’s theatrical Alice Thornton – who you could encounter live on stage in several upcoming performances in 2024 - is the version which really captured and underlined the humour in Thornton’s original words.
+Thornton’s image remaining a mystery means that each member of the Thornton’s Books team has their own imagined version of her and, whenever we meet, she is somehow a presence. This has been helpful at times, because our imagined Alice Thorntons sometimes suggest alternative readings of her text. For example, working closely with the Thornton’s Books team, writer and performer, [Debbie Cannon’s]((https://debbiecannon.org)) theatrical Alice Thornton – who you could encounter live on stage in several upcoming performances in 2024 - is the version which really captured and underlined the humour in Thornton’s original words.
 
 Project Principal Investigator, Cordelia Beattie admits that finding a portrait of Alice Thornton, eventually, would be ‘the icing on the cake’, and we remain hopeful that one day one may turn up. 
 
