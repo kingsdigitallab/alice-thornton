@@ -58,4 +58,4 @@ https://thornton.kdl.kcl.ac.uk/books/viewer/
 
 [^10]: Alice Thornton, 'Letter to Lady Yarburgh, Sep. 4 1700'. Borthwick Institute for Archives, University of York, YM/CP/1, 2/5, 15.
 
-[^11]: Charles Jackson. Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, 289, 291–296; 305–6, 308–11; 306–7. 
+[^11]: Charles Jackson. Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, 289, 291–296, 305–6, 308–11, 306–7. 
