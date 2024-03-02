@@ -82,7 +82,11 @@ With luck, an Alice Thornton portrait might turn up too, and perhaps a little cl
 
 ---
 
-[^1]: Charles Jackson. Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, XXX. 
+[^1]: Charles Jackson. Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, 335.
+
 [^2]: Jackson, *Autobiography*, xiv.
+
 [^3]: Allison Levy, 'Framing Widows, Mourning, Gender and Portraiture', in *Widowhood and Visual Culture in Early Modern Europe*, ed. XXX (PLACE: Routledge, 2003), 223.
-[^4]: bk refs.
+
+[^4]: Alice Thornton, _Book of Remembrances_, Durham Cathedral Library (DCL), GB-0033-CCOM 38, 1; Alice Thornton, _Book 1: The First Book of My Life_, British Library MS Add 88897/1, 301; Alice Thornton, _Book 3: The Second Book of My Widowed Condition_, British Library MS Add 88897/2, 1.
+
