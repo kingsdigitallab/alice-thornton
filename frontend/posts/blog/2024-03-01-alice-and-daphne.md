@@ -91,7 +91,7 @@ Thornton mentions many friends and servants throughout her books. But it is Daph
 
 [^7]: 'And Dafeny Lightfoote gave my betty sucke. till she proved with childe'. *Book 1*, 138.
 
-[^8]: See Alexandra Shepard, 'The Pleasures and Pains of Breastfeeding in England c.1600–c.1800', in Michael J. Braddick and Joanne Innes (eds.), *Suffering and Happiness in England 1550-1850: Narratives and Representations: A collection to honour Paul Slack* (Oxford: Oxford University Press, 2017): 236.
+[^8]: See Alexandra Shepard, 'The Pleasures and Pains of Breastfeeding in England c.1600–c.1800', in Michael J. Braddick and Joanne Innes (eds.), *Suffering and Happiness in England 1550-1850: Narratives and Representations: A collection to honour Paul Slack* (Oxford: Oxford University Press, 2017), 236.
 
 [^9]: On trusts for married women see Amy Louise Erickson, *Women and Property in Early Modern England* (London: Routledge, 1995), 103.
 
