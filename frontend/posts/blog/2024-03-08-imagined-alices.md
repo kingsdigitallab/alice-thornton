@@ -14,13 +14,13 @@ tags:
 
 ---
 
-March is Women's History Month and, like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-08-whm-alice-thornton-pain-peril/), to mark it we’re bringing you a series of blog posts. In this second post, our Engagement and Impact Officer [Eleanor Thom](https://www.ed.ac.uk/profile/dr-eleanor-thom) writes about the missing portraits of Alice Thornton and how we imagine her.
+March is Women's History Month and, like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-08-whm-alice-thornton-pain-peril/), to mark it we’re bringing you a series of blog posts. In this second post, our Engagement and Impact Officer [Eleanor Thom](https://eleanorthom.com/) writes about the missing portraits of Alice Thornton and how we imagine her.
 
 ## What did Alice Thornton look like?
 
-![Dummy board, woman with mirror, British, ca. 1630–1650]({{"/assets/img/posts/woman_with_mirror.jpg" | url}} "Dummy board, woman with mirror, British, ca. 1630–1650"){.media-right}
+![[Dummy board](https://www.nationaltrust.org.uk/discover/history/art-collections/exploring-the-history-of-dummy-boards), woman with mirror, British, ca. 1630–1650]({{"/assets/img/posts/woman_with_mirror.jpg" | url}} "Dummy board, woman with mirror, British, ca. 1630–1650"){.media-right}
 
-Since beginning work on a digital edition of the once missing books of Alice Thornton (1626-1707), one of the most common questions our team of researchers hears is this: What did Alice Thornton look like? The answer is, we would love to know, and maybe one day we will. Out there somewhere there is at least one missing portrait of Alice Thornton. In her will, she left ‘my dear husband’s picture and my own’ to her grandchildren.[^1] Were these separate portraits or a joint one of the couple? 
+Since work began on a digital edition of the once missing books of Alice Thornton (1626-1707), one of the most common questions our team of researchers has heard is this: What did Alice Thornton look like? The answer is, we would love to know, and maybe one day we will. Out there somewhere there is at least one missing portrait of Alice Thornton. In her will, she left ‘my dear husband’s picture and my own’ to her grandchildren.[^1] Were these separate portraits or a joint one of the couple? 
 
 We know that a painting of Alice Thornton was in the possession of the Comber family in 1875. It was described, according to Jackson , as “not a striking one. It represents a middle-aged lady, clad in widow's weeds, which she probably wore to the end of her days”.[^2]
 
@@ -29,14 +29,11 @@ Unfortunately, since the 1875 reference to that portrait was made, its whereabou
 
 ## New Portraits of Thornton's father
 
-![A 19th-century copy of a portrait of Christopher Wandesford (1592-1640)]({{"/assets/img/home/Christopher-Wandesforde-npg2407-ccbync.jpg" | url}} "A 19th-century copy of a portrait of Christopher Wandesford (1592-1640) National Portrait Gallery (NPG 2407) CC BY-NC-ND"){.media-left}
+![An original 17th-century portrait of Christopher Wandesford by Vandyke]({{"/assets/img/posts/cwandesford1.jpg" | url}} "A 17th-century portrait of Christopher Wandesford by Vandyke"){.media-left}
 
-While we hope the paintings may one day be recovered, in the meantime, we have sometimes shared this image of the closest relative of Alice who we do have an portrait of: her father, Christopher Wandesford (1592-1640). This is a 19th-century copy of a 17th-century portrait, but we are now in touch with a line of Wandesford descendants who have two original portraits of Alice’s father. For the first time, we can share these new images of Christopher Wandesford with the permission of the owners, the Prior-Wandesforde family.
+While we hope the paintings may one day be recovered, in the meantime, we have sometimes shared an image of the closest relative of Alice who we do have an portrait of: her father, Christopher Wandesford (1592-1640). Previously, we had only seen the 19th-century copy of this 17th-century portrait, and a black and white plate of the original, but we are now in touch with the line of descendants who own the original. We have their kind permission to share it. The Prior-Wandesforde family also own a second original portrait of Christopher Wandesford.
 
-Suggestions that Alice Thornton may have had red hair have arisen because her father’s portraits do hint at a redheaded gene, although this could just be a firelit glow. One branch of descendants said they had no relatives with red hair, and another said they did have a ginger gene. Genes can do exactly this, stowaway down one branch of your family tree and disappear from another entirely. But either way, there’s no proof. We have nothing to suggest Alice Thornton inherited her father’s hair colour.
-
-![A 17th-century portrait of Christopher Wandesford]({{"/assets/img/posts/cwandesford1.jpg" | url}} "A 17th-century portrait of Christopher Wandesford"){.media-right}
-![The second 17th-century portrait of Christopher Wandesford]({{"/assets/img/posts/cwandesford2.jpg" | url}} "The second 17th-century portrait of Christopher Wandesford"){.media-left}
+Suggestions that Alice Thornton may have had red hair have arisen because her father’s portraits hint at a redheaded gene. We have this description of his portrait: ‘a fair, oval-faced man, with a sanguine complexion and auburn hair’ [^3] Could Alice have had red hair? One branch of Thornton's descendants said they had no relatives with red hair, and another said they did have a ginger gene. Genes can stowaway down one branch of your family tree and disappear from another entirely, but either way, we have nothing to prove Alice Thornton inherited her father’s hair colour.
 
 
 
@@ -51,7 +48,8 @@ For Doireann Ní Ghríofa, as for the Alice Thornton’s Books team, there was n
 
 
 ## Thornton in the archives
-![A 17th-century English portrait of an anonymous woman in widow's weeds]({{"/assets/img/posts/widow.jpg" | url}} "A 17th-century English portrait of an anonymous woman in widow's weeds. Public domain, via Wikimedia Commons"){.media-right}
+
+![A 17th-century English portrait of an anonymous woman in widow's weeds]({{"/assets/img/posts/Book_Rem_dedication.jpg" | url}} "Alice Thornton's 'Book of Remembrances'"){.media-left}
 
 The Thornton Books team is, by comparison, lucky beyond belief. We have held the books Thornton held. One of them [(The Book of Remembrances)](https://thornton.kdl.kcl.ac.uk/books/book_of_remembrances/) is perhaps even bound together by Thornton's own hand. Inside these books, we can read the story of Thornton's life in her own words. As well as this, in archives around the UK and Ireland we have found letters and legal documents, and out in the world there are buildings still standing that Alice Thornton inhabited. 
 
@@ -60,14 +58,16 @@ Even without seeing a portrait of Thornton, which could be anywhere, in an archi
 It’s not known who commissioned the painting of Alice Thornton in widow’s weeds. It would be easy to assume she commissioned the work herself, but most portraits of widows from this time, where commissions and contracts can be traced, were paid for by male patrons. In her chapter, 'Framing Widows', Allison Levy reveals that occasionally wives in England were painted as widows even before the deaths of their husbands, and that in some cases their husbands actually outlived them. 
 
 Levy explains:
->If male portraiture memorializes the sitter, representing ‘the dead to the living many centuries later,’ as Alberti suggests, then widow portraiture not only memorializes the husband, but it also provides him with a perpetual mourner. In other words, not only is the husband remembered, but he is also remembered in what was considered to be an ideal manner – by a virtuous and chaste widow.[^3] 
+>If male portraiture memorializes the sitter, representing ‘the dead to the living many centuries later,’ as Alberti suggests, then widow portraiture not only memorializes the husband, but it also provides him with a perpetual mourner. In other words, not only is the husband remembered, but he is also remembered in what was considered to be an ideal manner – by a virtuous and chaste widow.[^4] 
+
+![A 17th-century English portrait of an anonymous woman in widow's weeds]({{"/assets/img/posts/widow.jpg" | url}} "A 17th-century English portrait of an anonymous woman in widow's weeds. Public domain, via Wikimedia Commons"){.media-right}
 
 So perhaps Alice Thornton wished to be remembered as a virtuous woman in widow’s weeds, but we can’t say for certain that the style of her portrait was directed entirely by her, or that the intention behind it wasn’t her husband’s eternal remembrance rather than her own. We know that Thornton was writing and rewriting her books in the years following her husband’s death, when she feared her reputation was damaged by rumours spread by her niece and others. She tells us, in her own words, that her books are part of her defence. Was this portrait part of that defence too?
 
 
 ## Imagining Alice
 
-Alice Thornton’s facelessness, on the face of it, is a pity. It’s impossible to completely disable the imagination when you read her words. She is expressive and honest on the page, and this is a quality that lends itself to feeling you have come to know her, as you would a fictional character. But she is not fictional, and a representation of her would helpfully signal that. She was a real person with a real family. Moreover, the figurehead of the Thornton Books project shouldn’t forever be the portrait of her father, so although we include it on the homepage of our website, elsewhere we use Alice Thornton’s monogram which she added to three of her books.[^4]
+Alice Thornton’s facelessness, on the face of it, is a pity. It’s impossible to completely disable the imagination when you read her words. She is expressive and honest on the page, and this is a quality that lends itself to feeling you have come to know her, as you would a fictional character. But she is not fictional, and a representation of her would helpfully signal that. She was a real person with a real family. Moreover, the figurehead of the Thornton Books project shouldn’t forever be the portrait of her father, so although we include it on the homepage of our website, elsewhere we use Alice Thornton’s monogram which she added to three of her books.[^5]
 
 ![Debbie Cannon as Alice Thornton]({{"/assets/img/posts/remarkable-deliverances-play-2.jpg" | url}} "Debbie Cannon as Alice Thornton"){.media-right}
 
@@ -84,9 +84,11 @@ With luck, an Alice Thornton portrait might turn up too, and perhaps a little cl
 
 [^1]: Charles Jackson. Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, 335.
 
-[^2]: Jackson, *Autobiography*, xiv.
+[^2]: Charles Jackson, Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, xiv.
 
-[^3]: Allison Levy, 'Framing Widows, Mourning, Gender and Portraiture', in *Widowhood and Visual Culture in Early Modern Europe*, ed. XXX (PLACE: Routledge, 2003), 223.
+[^3]: Charles Jackson, Ed. [*The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*](https://archive.org/details/autobiographyofm00thorrich). Durham: Surtees Society, 1875, vi.
 
-[^4]: Alice Thornton, _Book of Remembrances_, Durham Cathedral Library (DCL), GB-0033-CCOM 38, 1; Alice Thornton, _Book 1: The First Book of My Life_, British Library MS Add 88897/1, 301; Alice Thornton, _Book 3: The Second Book of My Widowed Condition_, British Library MS Add 88897/2, 1.
+[^4]Allison Levy, Ed. *'Framing Widows, Mourning, Gender and Portraiture'* in *Widowhood and Visual Culture in Early Modern Europe* (*Women and Gender in the Early Modern World*), (Aldershot: Ashgate, Routledge, 2003), 223.
+
+[^5]: Alice Thornton, _Book of Remembrances_, Durham Cathedral Library (DCL), GB-0033-CCOM 38, 1; Alice Thornton, _Book 1: The First Book of My Life_, British Library MS Add 88897/1, 301; Alice Thornton, _Book 3: The Second Book of My Widowed Condition_, British Library MS Add 88897/2, 1.
 
