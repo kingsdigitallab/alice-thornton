@@ -18,7 +18,7 @@ March is Women's History Month and, like [last year](https://thornton.kdl.kcl.ac
 
 ## What did Alice Thornton look like?
 
-![[Dummy board](https://www.nationaltrust.org.uk/discover/history/art-collections/exploring-the-history-of-dummy-boards), woman with mirror, British, ca. 1630–1650]({{"/assets/img/posts/woman_with_mirror.jpg" | url}} "Dummy board, woman with mirror, British, ca. 1630–1650"){.media-right}
+![Dummy Board, woman with mirror, British, ca. 1630–1650]({{"/assets/img/posts/woman_with_mirror.jpg" | url}} "[Dummy board](https://www.nationaltrust.org.uk/discover/history/art-collections/exploring-the-history-of-dummy-boards), woman with mirror, British, ca. 1630–1650"){.media-right}
 
 Since work began on a digital edition of the once missing books of Alice Thornton (1626-1707), one of the most common questions our team of researchers has been asked is: What did Alice Thornton look like? The answer is, we would love to know, and maybe one day we will. Out there somewhere there is at least one missing portrait of Alice Thornton. In her will, she left ‘my dear husband’s picture and my own’ to her grandchildren.[^1] Were these separate portraits or a joint one of the couple? 
 
