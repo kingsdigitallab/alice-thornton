@@ -93,7 +93,7 @@ With luck, an Alice Thornton portrait might turn up too, and perhaps a little cl
 
 [^4]: Doireann Ní Ghríofa, *A Ghost in the Throat* (Dublin: Tramp Press, 2000).
 
-[^5]Allison Levy, 'Framing Widows, Mourning, Gender and Portraiture' in *Widowhood and Visual Culture in Early Modern Europe*, ed. Allison Levy (Aldershot: Ashgate, Routledge, 2003), 223.
+[^5]: Allison Levy, 'Framing Widows, Mourning, Gender and Portraiture' in *Widowhood and Visual Culture in Early Modern Europe*, ed. Allison Levy (Aldershot: Ashgate, Routledge, 2003), 223.
 
 [^6]: Alice Thornton, _Book of Remembrances_, Durham Cathedral Library (DCL), GB-0033-CCOM 38, 1; Alice Thornton, _Book 1: The First Book of My Life_, British Library MS Add 88897/1, 301; Alice Thornton, _Book 3: The Second Book of My Widowed Condition_, British Library MS Add 88897/2, 1.
 
