@@ -64,6 +64,8 @@ Levy explains:
 
 So perhaps Alice Thornton wished to be remembered as a virtuous woman in widow’s weeds, but we can’t say for certain that the style of her portrait was directed entirely by her, or that the intention behind it wasn’t her husband’s eternal remembrance rather than her own. We know that Thornton was writing and rewriting her books in the years following her husband’s death, when she feared her reputation was damaged by rumours spread by her niece and others. She tells us, in her own words, that her books are part of her defence. Was this portrait part of that defence too?
 
+<p>&nbsp;</p>
+
 
 ## Imagining Alice
 
