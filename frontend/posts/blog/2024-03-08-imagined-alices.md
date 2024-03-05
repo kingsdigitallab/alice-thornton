@@ -58,7 +58,8 @@ Even without seeing a portrait of Thornton, which could be anywhere, in an archi
 It’s not known who commissioned the painting of Alice Thornton in widow’s weeds. It would be easy to assume she commissioned the work herself, but most portraits of widows from this time, where commissions and contracts can be traced, were paid for by male patrons. In her chapter, 'Framing Widows', Allison Levy reveals that occasionally wives in England were painted as widows even before the deaths of their husbands, and that in some cases their husbands actually outlived them. 
 
 Levy explains:
->If male portraiture memorializes the sitter, representing ‘the dead to the living many centuries later,’ as Alberti suggests, then widow portraiture not only memorializes the husband, but it also provides him with a perpetual mourner. In other words, not only is the husband remembered, but he is also remembered in what was considered to be an ideal manner – by a virtuous and chaste widow.[^5] 
+>If male portraiture memorializes the sitter, representing ‘the dead to the living many centuries later,’ as Alberti suggests, then widow portraiture not only memorializes the husband, but it also provides him with a perpetual mourner. In other words, not only is the husband remembered, but he is also remembered in what was considered to be an ideal manner – by a virtuous and chaste widow.
+[^5] 
 
 ![A 17th-century English portrait of an anonymous woman in widow's weeds]({{"/assets/img/posts/widow.jpg" | url}} "A 17th-century English portrait of an anonymous woman in widow's weeds. Public domain, via Wikimedia Commons"){.media-right}
 
