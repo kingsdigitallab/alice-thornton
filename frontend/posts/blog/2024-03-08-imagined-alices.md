@@ -20,7 +20,7 @@ March is Women's History Month and, like [last year](https://thornton.kdl.kcl.ac
 
 ![Dummy Board, woman with mirror, British, ca. 1630–1650]({{"/assets/img/posts/woman_with_mirror.jpg" | url}} "[Dummy board](https://www.nationaltrust.org.uk/discover/history/art-collections/exploring-the-history-of-dummy-boards), woman with mirror, British, ca. 1630–1650"){.media-right}
 
-Since work began on a digital edition of the once missing books of Alice Thornton (1626-1707), one of the most common questions our team of researchers has been asked is: What did Alice Thornton look like? The answer is, we would love to know, and maybe one day we will. Out there somewhere there is at least one missing portrait of Alice Thornton. In her will, she left ‘my dear husband’s picture and my own’ to her grandchildren.[^1] Were these separate portraits or a joint one of the couple? 
+Since work began on a digital edition of the once missing books of Alice Thornton (1626-1707), one of the most common questions our team of researchers has been asked is: What did Alice Thornton look like? The answer is, we would love to know, and maybe one day we will. Out there somewhere there is at least one missing portrait of Alice Thornton. In her will, she left ‘my dear husband’s picture and my own’[^1] to her grandchildren. Were these separate portraits or a joint one of the couple? 
 
 We know that a painting of Alice Thornton was in the possession of the Comber family in 1875. It was described, according to Jackson , as 'not a striking one. It represents a middle-aged lady, clad in widow's weeds, which she probably wore to the end of her days'.[^2]
 
@@ -47,11 +47,11 @@ For Doireann Ní Ghríofa, as for the Alice Thornton’s Books team, there was n
 
 
 
-## Thornton in the archives
+## Thornton in the Archives
 
 ![A 17th-century English portrait of an anonymous woman in widow's weeds]({{"/assets/img/posts/Book_Rem_dedication.jpg" | url}} "Alice Thornton's 'Book of Remembrances'"){.media-left}
 
-The Thornton Books team is, by comparison, lucky beyond belief. We have held the books Thornton held. One of them [(The Book of Remembrances)](https://thornton.kdl.kcl.ac.uk/books/book_of_remembrances/) is perhaps even bound together by Thornton's own hand. Inside these books, we can read the story of Thornton's life in her own words. As well as this, in archives around the UK and Ireland we have found letters and legal documents, and out in the world there are buildings still standing that Alice Thornton inhabited. 
+The Thornton Books team is, by comparison, lucky beyond belief. We have held the books Thornton held. One of them [(The Book of Remembrances)](https://thornton.kdl.kcl.ac.uk/books/book_of_remembrances/) is perhaps even bound together by Thornton's own hand. Inside these books, we can read the story of Thornton's life in her own words. As well as this, in [archives around the UK and Ireland](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-02-01-AnniversaryBlog/) we have found letters and legal documents, and out in the world there are buildings still standing that Alice Thornton inhabited. 
 
 Even without seeing a portrait of Thornton, which could be anywhere, in an archive, in a private collection, in a junk shop, a gallery, or in someone’s attic, we can draw some conclusions from the fact that paintings of her existed at all. In the seventeenth century, money and influence decided whose face would be recorded along with their name and their story. Men were often the subjects, but there is nevertheless a significant body of early modern artwork visually representing widowhood.
 
