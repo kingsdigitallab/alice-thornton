@@ -3,7 +3,7 @@ title: "Women's History Month 2024, 2: Alice Thornton and Our Imagined Alice Tho
 feature: /assets/img/posts/womens_history_month.jpg
 authors:
   - ethom
-status: draft
+status: live
 tags:
   - portraits
   - creative writing
