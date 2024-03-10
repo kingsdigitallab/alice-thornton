@@ -453,7 +453,8 @@ function setUpTextViewer() {
         let lokeys = Object.keys(panel.selectors.locus);
         locus = lokeys[lokeys.indexOf(locus) + steps];
         if (locus) {
-          this.setLocus(panel, locus);
+          this.fetchOptions(panel, "locus", locus);
+          // this.setLocus(panel, locus);
         }
       },
       setAddressBarFromSelection() {
