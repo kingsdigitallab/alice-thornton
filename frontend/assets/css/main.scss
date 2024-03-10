@@ -1014,3 +1014,19 @@ a.button-hp {
   }
 }
 
+///
+
+.printable-viewer {
+
+}
+
+// ---------------------------------
+//  PRINTer friendly styles
+// ---------------------------------
+
+@media print {
+  .dont-print {
+      display: none !important;
+  }
+}
+

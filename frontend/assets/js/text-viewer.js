@@ -49,6 +49,7 @@ function setUpTextViewer() {
           collection: "Collection",
           document: "Document",
           locus: "Locus",
+          extent: "Extent",
           view: "View",
           _chunks: "Chunks",
         },
@@ -101,6 +102,9 @@ function setUpTextViewer() {
                 l1: "Locus 1",
                 l2: "Locus 2",
               },
+              extent: {
+                1: 1,
+              },
             },
             selections: {
               source: "",
@@ -108,6 +112,7 @@ function setUpTextViewer() {
               document:
                 "https://thornton.kdl.kcl.ac.uk/dts/thornton-books/book_one/",
               locus: "",
+              extent: 1,
               view: "",
             },
             responses: {
@@ -139,9 +144,13 @@ function setUpTextViewer() {
     computed: {
       canClonePanel() {
         return (
+          !this.isPrint &&
           window.metadata.text_viewer.can_clone_panel &&
           this.panels.length < window.metadata.text_viewer.max_panels
         );
+      },
+      isPrint() {
+        return window.TEXT_VIEWER_PRINT_MODE || false;
       },
     },
     methods: {
@@ -389,6 +398,7 @@ function setUpTextViewer() {
       },
       selectDefaultOption(panel, key) {
         if (key.startsWith("_")) return;
+        if (key == "extent") return; // extent is numeric, not a list
         if (!panel.selectors[key][panel.selections[key]]) {
           panel.selections[key] = this.getDefaultOption(panel, key);
         }
@@ -485,6 +495,9 @@ function setUpTextViewer() {
             let v = searchParams.get(`p${panelIdx}.${k.substring(0, 2)}`);
             if (!v) v = this.getDefaultOption(panel, k);
             // console.log(panelIdx, k, v);
+            if (k == "extent") {
+              v = parseInt(v);
+            }
             panel.selections[k] = v;
           }
           await this.onChangeSelector(panel, "source");
