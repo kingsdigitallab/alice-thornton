@@ -1003,18 +1003,15 @@ a.button-hp {
 
 /// Printer-friendly display of the text
 
-#text-viewer.printable-viewer .panel .content {
-  .dts-fragment {
-    position: relative;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
-    border-bottom: 2px solid lightgray;
-  }
-  .tei-fw.tei-type-pageNum2 {
-    margin-top: 2rem;
-    position: static;
-    display: block; // check if this works on index pages
-    border-bottom: 1px solid grey;
+#text-viewer.printable-viewer .panel {
+  border: none;
+  .content {
+    .dts-fragment {
+      position: relative;
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      border-bottom: 2px solid lightgray;
+    }
   }
 }
 

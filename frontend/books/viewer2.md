@@ -248,4 +248,3 @@ hideFooter: true
   </div>
 </div>
 {% endraw %}
-
