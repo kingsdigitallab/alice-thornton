@@ -22,35 +22,34 @@
 @import "fonts.scss";
 @import "color-theme";
 
-
 //* GENERAL *//
-body{
+body {
   font-family: "Noto", sans-serif;
   font-weight: 450;
-  margin:0;
+  margin: 0;
 }
 
 //* 1. HEADER & NAVIGATION *//
-header{
+header {
   background-color: #462200;
   position: fixed;
   width: calc(100% - 10px);
   top: 0;
   padding: 5px;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  color:white;
-  font-size:12px;
-  .title{
-    display:flex;
+  color: white;
+  font-size: 12px;
+  .title {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size:16px;
+    font-size: 16px;
     img {
       padding-right: 0.5em;
     } //img
-    h1{
+    h1 {
       margin: 0;
       font-size: 18px;
       font-weight: 450;
@@ -60,23 +59,22 @@ header{
         padding-top: 0.2em;
         padding-left: 0.5em;
       } //span
-    }//h1
-
-  }//.title
-  div{
+    } //h1
+  } //.title
+  div {
     margin-right: 16px;
-  &:nth-child(2){
-   margin-left: auto;
-  }
-
-  a{
-    color:white;
-    text-decoration: none;
-    &:hover{
-      opacity: 0.7;
+    &:nth-child(2) {
+      margin-left: auto;
     }
-  }//a
-  }//div
+
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        opacity: 0.7;
+      }
+    } //a
+  } //div
 } //nav
 
 //* 2. MAIN *//
@@ -103,11 +101,11 @@ main {
       width: 100%;
       max-width: 60vw;
       height: 90vh;
-      overflow:scroll;
+      overflow: scroll;
       display: flex;
       flex-direction: column;
       // bottom: calc(50vh + 3.8em);
-      
+
       nav.panel-nav {
         width: 100%;
         padding: 0;
@@ -118,47 +116,46 @@ main {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        &.bottom{
-          bottom:0;
-          height:50px;
+        &.bottom {
+          bottom: 0;
+          height: 50px;
         }
-        div{
+        div {
           text-align: center;
-          margin:0 2%;
+          margin: 0 2%;
           cursor: pointer;
-          &.icon{
-            width:60px;
-            a{
-              display:block;
+          &.icon {
+            width: 60px;
+            a {
+              display: block;
             }
-          &:hover{
-            background:$gray-dark;
-          }
-          span{
-            font-size: 11px;
-          }
-          }//.icon
-          a.pagination{
+            &:hover {
+              background: $gray-dark;
+            }
+            span {
+              font-size: 11px;
+            }
+          } //.icon
+          a.pagination {
             text-decoration: none;
             color: $white;
-            background:$primary;
-            padding:4px 4px;
+            background: $primary;
+            padding: 4px 4px;
             text-transform: uppercase;
-            min-width:50px;
-            font-size:12px;
+            min-width: 50px;
+            font-size: 12px;
             margin: 4px;
             position: relative;
-            display:inline-block;
-            &:hover{
-              background:$primary-light;
+            display: inline-block;
+            &:hover {
+              background: $primary-light;
             }
-
           } //a.pagination
           .select-dropdown {
             border-bottom: 1px solid $primary-dark;
             display: inline-block;
             opacity: 1;
-            margin:4px 4px;
+            margin: 4px 4px;
             select {
               font-size: 14px;
               border: none;
@@ -193,7 +190,7 @@ main {
               } //&:after
             } //&:hover
           } //.select-dropdown
-        }//div
+        } //div
       } //nav
       .text-viewer {
         // border:1px solid red;
@@ -258,7 +255,7 @@ main {
     position: relative;
     text-align: center;
     cursor: pointer;
-    width:100%;
+    width: 100%;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -428,28 +425,17 @@ main {
   } //&:hover
 } //.tooltip
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
   main .panel-wrapper > .panel {
-    max-width:100vw;
-    nav.panel-nav div{
-      .icon{
-        span{
-          
+    max-width: 100vw;
+    nav.panel-nav div {
+      .icon {
+        span {
         }
       }
-
-    }//nav.panel-nav div
-  }//main .panel-wrapper > .panel 
-
-
-
-
+    } //nav.panel-nav div
+  } //main .panel-wrapper > .panel
 }
-
-
-
-
-
 
 // GN: temporary stylesheet to experiment with rendering of sample
 // TEI elements the text viewer.
@@ -507,7 +493,7 @@ $render-sic: false;
 #text-viewer .panel-chunk {
   border-top: 1px solid lightgrey;
   overflow: scroll;
-  height:90vh;
+  height: 90vh;
 }
 
 #text-viewer {
