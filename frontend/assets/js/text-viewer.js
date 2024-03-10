@@ -270,6 +270,9 @@ function setUpTextViewer() {
         if (key == "locus") {
           await this.setLocus(panel, value);
         }
+        if (key == "extent") {
+          await this.setExtent(panel, value);
+        }
 
         this.selectDefaultOption(panel, nextKey);
         await this.onChangeSelector(panel, nextKey);
@@ -297,15 +300,30 @@ function setUpTextViewer() {
       },
       async setLocus(panel, locus) {
         panel.selections.locus = locus;
+        // this.loadDocument(panel)
+      },
+      async setExtent(panel, extent) {
+        panel.selections.extent = extent;
+        this.loadDocument(panel);
+      },
+      async loadDocument(panel) {
         // panel.responses.document = `Loading ${locus}...`;
+        let locus = panel.selections.locus;
         if (panel.selections.document && locus) {
-          panel.responses.document = await this.fetchDTS(
-            panel,
-            "documents",
-            panel.selections.document,
-            locus,
-            "html"
-          );
+          let document = "";
+          let lokeys = Object.keys(panel.selectors.locus);
+          for (let i = 0; i < panel.selections.extent; i++) {
+            let locusIndexToFetch = lokeys[lokeys.indexOf(locus) + i];
+            if (!locusIndexToFetch) break;
+            document += await this.fetchDTS(
+              panel,
+              "documents",
+              panel.selections.document,
+              panel.selectors.locus[locusIndexToFetch],
+              "html"
+            );
+          }
+          panel.responses.document = document;
           this.postProcessDocument(panel);
           this.setAddressBarFromSelection();
         }
