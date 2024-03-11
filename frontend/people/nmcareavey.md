@@ -1,7 +1,7 @@
 ---
 firstName: Naomi
 lastName: McAreavey
-affiliation: University of Edinburgh
+affiliation: University College Dublin
 mainEntityOfPage: https://people.ucd.ie/naomi.mcareavey
 teams:
   - guest
