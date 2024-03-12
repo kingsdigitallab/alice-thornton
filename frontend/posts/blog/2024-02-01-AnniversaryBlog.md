@@ -39,7 +39,7 @@ Thornton recounts in *Book 2: The First Book of My Widowed Condition* that her o
 
 ![The top of a roll of a parchment document, laid flat with weights]({{"/assets/img/posts/Nettleton_vs_Wandesford_1656.jpg" | url}} "Alice Thornton's deposition in a Chancery dispute, Nettleton vs Wandesford, 1656. TNA, C 22/811/15")
 
-The will was still not on file, though, and Alice and family were still arguing about the will’s contents throughout the 1650s. In 1656 Alice, alongside her husband, William Thornton, and her mother, Lady Alice Wandesford, gave evidence to Chancery about the contents of the will in a case brought by one Robert Nettleton against William Wandesford, who was Wandesford’s executor, about non-payment of a debt. Thornton, aged 30, stated that she was ‘aged twenty-nine or thereabouts’ in the surviving deposition at the National Archives, Kew.[^3]
+The will was still not on file, though, and Alice and family were still arguing about the will’s contents throughout the 1650s. In 1656 Alice, alongside her husband, William Thornton, and her mother, Alice Wandesford, gave evidence to Chancery about the contents of the will in a case brought by one Robert Nettleton against William Wandesford, who was Wandesford’s executor, about non-payment of a debt. Thornton, aged 30, stated that she was ‘aged twenty-nine or thereabouts’ in the surviving deposition at the National Archives, Kew.[^3]
 
 ## Securing a Deed of Settlement for her Children, 1667 
 
@@ -73,7 +73,7 @@ We believe that Thornton’s *Book 3* was [written in the 1690s](https://blogs.b
 
 ![A will written on a single piece of parchment]({{"/assets/img/posts/Alice_Thornton_Will.jpg" | url}} "Thornton's will: York Diocesan Archive, Alice Thornton of East Newton, May 1707, Rydall Exchequer Court, Borthwick Institute for Archives, University of York")
 
- Thornton died in January 1707 and was buried on 1 February at Stonegrave in Ryedale, as recorded in the parish register where she is referred to as ‘Madam Thornton’.[^10] There is a letter from Thornton to her great-nephew, Abstrupus Nephew, [dated 25 February 1706](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/#fnref6), which is the latest piece of writing in her hand that we have found. But, for a very full text from her final years, we will turn to her last will and testament, made 10 April 1705 and proved 15 April 1707, with both an original and registered copy surviving at the Borthwick Institute for Archives, York.[^11]<br>
+ Thornton died in January 1707 and was buried on 1 February at Stonegrave in Ryedale, as recorded in the parish register where she is referred to as ‘Madam Thornton’.[^10] There is a letter from Thornton to her great-nephew, Abstrupus Nephew, dated 26 March 1705, which is the latest piece of writing in her hand that we have found.[^11] But, for a very full text from her final years, we will turn to her last will and testament, made 10 April 1705 and proved 15 April 1707, with both an original and registered copy surviving at the Borthwick Institute for Archives, York.[^12]<br>
 
 This document opens with a reference to her being ‘weak in body’. The will initially concerns all the items she had previously given to her parish church, Stonegrave, and what she intended to give on her decease. It then notes that Thornton had already, in 1684, put most of her goods in trust for her daughters, Alice and Katherine, who were both married, as her mother had done for her. These goods were then to be passed to her four granddaughters. The will also notes, as Thornton did many times in her books, that she had provided for her nephew, Christopher Danby, and his family for twenty years at a cost of £300. She therefore instructed her executors to pursue that money from her great-nephew, Abstrupus Danby, then resident at [Swinton Park](https://www.swintonestate.com/estate/history/). 
 
@@ -93,4 +93,5 @@ This post was inspired by the West Yorkshire Archive Service Blog post on [Anne 
 [^8]: *Book 3*, 152.
 [^9]: *Book 3*, 31.
 [^10]: 'Stonegrave baptism, marriage and burial register, 1584-1750', PR/STV 1/1, North Yorkshire County Record Office.
-[^11]: York Diocesan Archive, Alice Thornton of East Newton, May 1707, Rydall Exchequer Court, Borthwick Institute for Archives, University of York; *Probate Register of the court of the Archbishop of York for the years 1707-1708*, Vol. 64, 45. 
+[^11]: Alice Thornton, 'Letter to Abstrupus Danby, 26 March 1705'. North Yorkshire County Record Office, ZS - Swinton and Middleham Estate Records, MIC 1274/6729.
+[^12]: York Diocesan Archive, Alice Thornton of East Newton, May 1707, Rydall Exchequer Court, Borthwick Institute for Archives, University of York; *Probate Register of the court of the Archbishop of York for the years 1707-1708*, Vol. 64, 45. 
