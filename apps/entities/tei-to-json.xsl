@@ -7,7 +7,7 @@
   xmlns:dts="https://w3id.org/dts/api#">
 
 <!-- <xsl:variable name="book_of_remembrances" select="document('edition/texts/00_book_of_remembrances/book_of_remembrances.xml')" /> -->
-<xsl:key name="names_book_of_remembrances" match="//tei:*[@ref]" use="@ref" />
+<xsl:key name="element_from_ref" match="//tei:*[@ref]" use="tokenize(normalize-space(@ref), ' ')" />
 
 <!-- 
 Format of entity references in the texts:
@@ -92,7 +92,7 @@ Example:
         <xsl:param name="entityPrefix"/>
         <xsl:param name="entity"/>
         "<xsl:value-of select="$bookName"/>": [
-            <xsl:for-each select="key('names_book_of_remembrances', concat($entityPrefix, $entity/@xml:id), $document)">
+            <xsl:for-each select="key('element_from_ref', concat($entityPrefix, $entity/@xml:id), $document)">
                 <xsl:value-of select="number(preceding::tei:pb[1]/@n)"/>
                 <xsl:if test="position() != last()">,</xsl:if>
             </xsl:for-each>
