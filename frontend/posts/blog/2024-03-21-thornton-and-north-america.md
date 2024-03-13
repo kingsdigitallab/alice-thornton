@@ -5,6 +5,8 @@ authors:
   - pphillippy
 status: draft
 tags:
+  - Virginia
+  - race
   - letters
 ---
 
