@@ -50,5 +50,5 @@ The creation of both Alice’s and Anne’s characters has been a wonderfully re
 
 
 
-[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'had not a groate Portion'; 'soe Proud & high as to require'; 'to furnish her with silke stockings. sattin & cloth a silver mantles...was more presumption then any could imagine'. Alice Thornton, *My First Booke of My Life* (hereafter *Book 1*), page 236.
+[^1]: The text quoted above is from the project's work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'had not a groate Portion'; 'soe Proud & high as to require'; 'to furnish her with silke stockings. sattin & cloth a silver mantles... was more presumption then any could imagine'. Alice Thornton, *My First Booke of My Life*, page 236.
 
