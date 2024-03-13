@@ -95,7 +95,7 @@ Thornton mentions many friends and servants throughout her books. But it is Daph
 
 [^9]: On trusts for married women see Amy Louise Erickson, *Women and Property in Early Modern England* (London: Routledge, 1995), 103.
 
-[^10]: 'these goods they are all my Ladies and all of them was sett downe in an Inventory before her death by her order & she seeing them don before her owne selfe and was Prized all after her Death...And Mr thornton had not a Bed or any houshold goods in this house or any where ellse before he married. But what he had from my Lady And she gave them to my Mrs to use. but not pay Debts but out of kindness to assist them in there house'. Thornton, *Book 3*, 126.
+[^10]: 'these goods they are all my Ladies and all of them was sett downe in an Inventory before her death by her order & she seeing them don before her owne selfe and was Prized all after her Death... And Mr thornton had not a Bed or any houshold goods in this house or any where ellse before he married. But what he had from my Lady And she gave them to my Mrs to use. but not pay Debts but out of kindness to assist them in there house'. Thornton, *Book 3*, 126.
 
 [^11]: 'That Mrs Danby had, & her maide Barbery Laid many ill things to to my charge & said it was she that had tould them of me that my Mrs had Robed her husband & given all his mony to Mr Comber with such like untruths'. Thornton, *Book 3*, 85.
 
