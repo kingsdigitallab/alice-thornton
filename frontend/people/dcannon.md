@@ -1,7 +1,7 @@
 ---
 firstName: Debbie
 lastName: Cannon
-affiliation: The University of Edinburgh
+affiliation: 
 mainEntityOfPage: https://debbiecannon.org/
 teams:
   - guest
