@@ -36,13 +36,14 @@ As the dispute escalated, Thornton suffered from slanders put forth by Danby and
 
 > Even so was I and my poor child accused and condemned before her, in her chamber, by her said servant in a most notorious manner. And all my chaste life and conversation most wickedly traduced, so that she railed on me and scolded at me and my poor innocent child, before our faces, with the most vile expressions…Such was the fury of Barbary’s malice against us that, with a brazen face she impudently cried out against me.
 
-Anne Danby’s maidwas Barbara Todd. Thornton’s reference to her as Barbary resonates with the period’s usages of this name, particularly as ascribed to servants and social inferiors. Danby, too, refers to her as ‘Barbery’,  and Thornton’s sister Katherine Danby had a servant called Barbary Wren.  
+Anne Danby’s maid was Barbara Todd. Thornton’s reference to her as Barbary resonates with the period’s usages of this name, particularly as ascribed to servants and social inferiors. Danby, too, refers to her as ‘Barbery’,  and Thornton’s sister Katherine Danby had a servant called Barbary Wren.  
 
 If this rendering of Barbara as Barbary typically referred to women in service, increasingly its racial associations concocted a name that blended class and race. Both Barbara and Barbary are derived from barbarus, meaning ‘foreigner’ or ‘stranger’. As the Black population of early modern England increased—comprised of enslaved Africans and Indigenous people of the Americas—the name Barbary was commonly assigned to or adopted by women of colour. 
 
 The ‘treacherous and lascivious blackamoor maid’, became a stereotype on the seventeenth-century stage. Desdemona’s recollection of her mother’s maid Barbary complicates the racial economy of Othello, suggesting an affinity between herself and this Black servant.. When not in service, these women were often litigants, particularly in prostitution cases, which display,  ‘the marking of blackness as a prohibited social pathology in its deployment in the sexual commodification of black women’. Barbary, as Thornton portrays her, shared her mistress’s problematised sexuality, ‘brazen face’ and impudence. 
 
 The availability of Barbary as a derogatory label reveals how the colonial project complicates even as it creates entangled differences of gender, class and race. It put into Thornton’s hands the terms with which to demonize the maid Barbary as a racialized other. These women, like the Black servants in New Albion, are essentially ‘alien’. 
+
 The quotidian concerns of Thornton’s Books, much like those of other manuscript writings by early modern Englishwomen, may seem parochial, even trivial. But, by casting a global worldview on Thornton’s writings, we can begin to trace the worldwide effects of colonialism across the British Atlantic and the ripples they sent through everyday life.
 
 
