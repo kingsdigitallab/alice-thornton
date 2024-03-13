@@ -28,7 +28,7 @@ Anne was taken in by Alice in 1667, after Anne’s marriage to Alice’s nephew 
 
 ![A photograph of a white actress in a white gown sits on a chair staring menacingly at a stocking puppet on her own hand]({{"/assets/img/posts/Remarkable_Deliverances_Sock.jpg" | url}} "Debbie Cannon portraying Alice Thornton, with a snakish stocking puppet representing Anne Danby"){.media-left}
 
-By the following year, the relationship between the two women had broken down: Alice accused Anne of instigating false gossip about an affair and financial wrongdoing between Alice and her future son-in-law. Anne was ejected from the house, but the thought of her continued to fuel Alice’s anxiety, motivating her to defend her innocence in writing for family and friends to read.
+By the following year, the relationship between the two women had broken down: Alice accused Anne of instigating false gossip about an affair and financial wrongdoing between Alice and her future son-in-law. Anne was ejected from the house, but the thought of her continued to fuel Alice’s anxiety, motivating her to defend her innocence in writing for family and friends to read. <p>&nbsp;</p>
 
 ## Writing Anne into the narrative
 
