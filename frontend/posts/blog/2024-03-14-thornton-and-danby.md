@@ -10,7 +10,7 @@ tags:
 
 ---
 
-March is Women's History Month and, like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/), to mark it we’re bringing you a series of blog posts. In this third post, actor and playwright [Debbie Cannon](https://debbiecannon.org/) writes about Alice Thornton’s relationship (on stage) with her niece-by-marriage, Anne Danby.
+March is Women's History Month and, like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/), to mark it we’re bringing you a series of blog posts, this time on Alice Thornton and various women that feature in her writings. In this third post, actor and playwright [Debbie Cannon](https://debbiecannon.org/) writes about Alice Thornton’s relationship (on stage) with her niece-by-marriage, Anne Danby.
 
 ![A photograph of a white actress in a white gown sitting on a chair. There is an empty chair next to her with clothes draped on it. She is addressing the audience]({{"/assets/img/posts/Remarkable_Deliverances_Chair.jpg" | url}} "Debbie Cannon portraying Alice Thornton. Jane Hobson Photography")
 
