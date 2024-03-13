@@ -57,7 +57,7 @@ The availability of 'Barbary' as a derogatory label reveals how the colonial pro
 The quotidian concerns of Thornton’s Books, much like those of other manuscript writings by early modern Englishwomen, may seem parochial, even trivial. But, by casting a global worldview on Thornton’s writings, we can begin to trace the worldwide effects of colonialism across the British Atlantic and the ripples they sent through everyday life.
 
 
-[^1]: Anne Danby, ‘An accompt of all the transactions of any note that remains with in the Compasse of my memory since my marriage with Mr Christopher Danby’, 1683, ZS – Swinton and Middleham Estate Records (MIC 2281), North Yorkshire County Record Office, Northallerton. 
+[^1]: Anne Danby, ‘An accompt of all the transactions of any note that remains with in the Compasse of my memory since my marriage with Mr Christopher Danby’, 1683, ZS – Swinton and Middleham Estate Records (MIC 2281), North Yorkshire County Record Office (NYCRO), Northallerton. 
 
 [^2]: 'Philip Mallory to Thomas Danby, July 10th 1653', Danby family letters & papers c. 1620–1687, [MIC 2087/1762], ZS – Swinton and Middleham Estate Records, NYCRO, Northallerton; and 'Mallory to Danby, February 14, (1653/4)'. 
 
