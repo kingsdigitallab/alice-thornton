@@ -37,7 +37,7 @@ While it was important to keep Anne’s character as close as possible to what w
 
 ![A full length photograph of a white actress in a white gown standing with a book in her hand, reading from it to the audience]({{"/assets/img/posts/Remarkable_Deliverances_Book.jpg" | url}} "Debbie Cannon portraying Alice Thornton. Jane Hobson Photography"){.media-right}
 
-The idea of Anne as a spreader of false words, contradicting the ‘truth’ spoken by Alice as the primary (if not always reliable) storyteller of the play was also enticing – in the play Alice describes Anne as ‘mistress of the corrupted sentence’. Anne could, in addition, function as a rebellious voice in Alice’s head which she could never allow herself, as a good wife and mother, to articulate. In the play, Anne vocalises Alice’s frustration with her husband -
+The idea of Anne as a spreader of false words, contradicting the ‘truth’ spoken by Alice as the primary (if not always reliable) storyteller of the play was also enticing – in the play Alice describes Anne as ‘mistress of the corrupted sentence’. Anne could, in addition, function as a rebellious voice in Alice’s head which she could never allow herself, as a good wife and mother, to articulate. In the play, Anne vocalises Alice’s frustration with her husband:
 
 > I know, in our loving days, when you trusted me to keep your secrets, you did not always speak with such love of your William. You complained he was a Parliament man, wrongheaded in religion, a gambler...And you were right, Aunt Thornton – he could not keep safe your family’s money, your children, or you. It was left to you to keep our house together, was it not? Perhaps it is better he is gone.
 
