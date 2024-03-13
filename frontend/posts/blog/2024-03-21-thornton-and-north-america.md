@@ -10,13 +10,17 @@ tags:
 
 March is Women's History Month and to mark it - like last year [we will change link] - we’re bringing you a series of blog posts, this time on Alice Thornton and various women that feature in her writings. In this instalment, Professor Patricia Phillippy, (Coventry University), explores Thornton’s relationships with North American sojourners, Martha Batt and Anne Danby, and with Danby’s maid, Barbara Todd. 
 
+![A portrait of two finely dressed women facing each other, one is Black and one is white]({{"/assets/img/posts/Allegorical_Painting_of_Two_Ladies.jpg" | url}} "Anonymous (British School), *Allegorical Painting of Two Ladies*, c. 1650. Public domain, via Wikimedia Commons.")
+
 ## American settlers and sojourners 
 
 In 1652, in Virginia, Anne Culpeper married Thornton’s nephew Christopher Danby. Anne’s later account describes the events leading up to this union: 
 
 > Sir Thomas Danby in the late troublesome times, sent over into Virginia (under the conduct of one Captain Batt) his second and third sons Mr Christopher and Mr John Danby, with purpose to come over and settle there himself; in order to which he differed, and entrusted with this prementioned Captain Batt, some considerable sum of money laid out in servants and goods out of which he bought a plantation; which cost £150 in goods the first penny in England. About which time my dear and worthy father Mr John Culpeper having been a deep sufferer for his loyalty to his late Majesty (Charles the first) was forced to fly with his family into Virginia, where he died, after whose death it was my unhappy fate (as it has since proved) to marry this second son of Sir Thomas Danby (Mr Christopher). 
 
-Anne’s unhappy fate began immediately after marriage. Her first child, born in 1653, died immediately. Moreover, although Sir Thomas Danby, Thornton’s brother-in-law, had acquired the Virginia plantation of Buckrow for his son, he did not provide adequate ‘household stuff and servants’ for the couple.   By 1655, both Danby sons and their wives had been recalled to England by their father..
+Anne’s unhappy fate began immediately after marriage. Her first child, born in 1653, died immediately. Moreover, although Sir Thomas Danby, Thornton’s brother-in-law, had acquired the Virginia plantation of Buckrow for his son, he did not provide adequate ‘household stuff and servants’ for the couple. By 1655, both Danby sons and their wives had been recalled to England by their father.
+
+![An old black and white map of showing Virginia]({{"/asset/img/posts/A_mapp_of_Virginia.jpg" | url}} "Farrer, John. *A mapp of Virginia discouered to ye hills...*, 1651. Stokes Addenda, Maps, P.1651-Maps-9, New York Public Library")
 
 Sir Thomas Danby’s interest in settling in North America was piqued by a lease of 10,000 acres granted to him by Sir Edmund Plowden, ‘Lord Earl Palatinate, Governor and Captain-General of the Province of New Albion in North America’.  Plowden’s venture to settle New Albion in land ‘inhabited by a barbarous and wild people’,  was ill-fated. His initial voyage in 1642, ‘for want of a pilot’, landed in the Virginia colony rather than north of the Delaware River as planned.   He never established his colony and returned to Ireland in 1649, to promote this notional territory from afar.
 
