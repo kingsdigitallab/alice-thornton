@@ -11,7 +11,7 @@ tags:
   
 ---
 
-On Saturday 18th November the *Thornton's Books* team are hosting ['Alice Thornton's Cafe'](https://thornton.kdl.kcl.ac.uk/posts/news/2023-10-30-being-human-cafe/) at Starbank Park, Edinburgh as part of the Being Human festival 2023. As a taster, project postdoc Jo Edge outlines about some of the herbal remedies used by Alice Thornton and recorded in her books.
+On Saturday 18th November the *Thornton's Books* team are hosting ['Alice Thornton's Cafe'](https://thornton.kdl.kcl.ac.uk/posts/news/2023-10-30-being-human-cafe/) at Starbank Park, Edinburgh as part of the Being Human festival 2023. As a taster, project postdoc Jo Edge outlines some of the herbal remedies used by Alice Thornton and recorded in her books.
 
 CN: discusses child illness and death.
 
@@ -29,7 +29,7 @@ The medicinal properties of certain herbs and plants has a history as long as ti
 
 ## Chamomile for stitches
 
-In 1659, Thornton's mother, Lady Alice Wandesford, lay on her deathbed at her home, Hipswell Hall, where Thornton and her family were also living. Falling sick on 17 November, Lady Wandesford eventually died on 10 December, and Thornton recounts her [drawn-out death in great detail](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/) in *Book 1*. Thornton also relates the story of her mother's death bed in her [*Book of Remembrances*](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-15-digital-edition-eleanor-picks/). In *Book 1*, as well as in the *Book of Remembrances*, Thornton relates the method with which her mother's pain was alleviated: 
+In 1659, Thornton's mother, Alice Wandesford, lay on her deathbed at her home, Hipswell Hall, where Thornton and her family were also living. Falling sick on 17 November, Alice Wandesford eventually died on 10 December, and Thornton recounts her [drawn-out death in great detail](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/) in *Book 1*. Thornton also relates the story of her mother's death bed in her [*Book of Remembrances*](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-15-digital-edition-eleanor-picks/). In *Book 1*, as well as in the *Book of Remembrances*, Thornton relates the method with which her mother's pain was alleviated: 
 
 ![An old book illustration of a chamomile plant]({{"/assets/img/posts/camomile.jpg" | url}} "Chamomile, from Ebeneezer Sibley's 1789 edition of Culpeper's 'English Physician'. Public domain, via Wikimedia Commons."){.media-right}
 
