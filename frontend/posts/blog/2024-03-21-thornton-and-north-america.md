@@ -22,7 +22,7 @@ Sir Thomas Danby’s interest in settling in North America was piqued by a lease
 
 The afterlife of New Albion and the English colonial project subtly permeated  Thornton’s life. Among those named in Plowden’s will in 1659 were members of the North Yorkshire coterie surrounding Thornton. The will provided that Danby and ‘Captain Batt his heir’ each should ‘transplant’ 100 settlers to New Albion annually. In 1650, Sir Thomas Danby and Captain John Batt were granted a pass ‘for themselves and seven score men, women, and children to go to New Albion’.  Batt’s wife and unmarried daughter, Martha (who accompanied Batt to New Albion) were in Thornton’s circle. 
 
-The transmigrations of the Batt and Danby families identify transatlantic ‘sojourners’ as opposed to settlers.They place Thornton in a circle of women whose Atlantic sojourns, knowledge, attitudes and experiences involved Thornton herself in global networks of exchange, placing her in a far greater world than the confines of women’s domestic experience and life writings are generally afforded. 
+The transmigrations of the Batt and Danby families identify transatlantic ‘sojourners’ as opposed to settlers. They place Thornton in a circle of women whose Atlantic sojourns, knowledge, attitudes and experiences involved Thornton herself in global networks of exchange, placing her in a far greater world than the confines of women’s domestic experience and life writings are generally afforded. 
 
 ## A maid called Barbary 
 
