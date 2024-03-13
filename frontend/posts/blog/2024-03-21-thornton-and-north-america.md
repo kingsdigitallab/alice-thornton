@@ -10,7 +10,7 @@ tags:
 
 March is Women's History Month and to mark it - like last year [we will change link] - we’re bringing you a series of blog posts, this time on Alice Thornton and various women that feature in her writings. In this instalment, Professor Patricia Phillippy, (Coventry University), explores Thornton’s relationships with North American sojourners, Martha Batt and Anne Danby, and with Danby’s maid, Barbara Todd. 
 
-## American settlers and sojourners 
+## American sojourners
 
 In 1652, in Virginia, Anne Culpeper married Thornton’s nephew Christopher Danby. Anne’s later account describes the events leading up to this union: 
 
@@ -26,7 +26,7 @@ The afterlife of New Albion and the English colonial project subtly permeated  T
 
 The transmigrations of the Batt and Danby families identify transatlantic ‘sojourners’ as opposed to settlers. They place Thornton in a circle of women whose Atlantic sojourns, knowledge, attitudes and experiences involved Thornton herself in global networks of exchange, placing her in a far greater world than the confines of women’s domestic experience and life writings are generally afforded. 
 
-## A maid called Barbary 
+## Anne Danby and Martha Batt
 
 These attitudes are on display in an episode in Thornton’s Books involving Anne Danby and Martha Batt: the dispute centred on a rivalry to arrange a match in marriage to Thomas Comber before Comber’s marriage to Thornton’s daughter, Nally, in 1668. Danby ‘prosecuted with eager design for to draw him (Comber]) in for a husband for Mrs Batt’, i.e., Martha. Rumours began to circulate concerning an extramarital affair between Thornton and Comber. 
 
@@ -38,15 +38,15 @@ The passage reveals the persistence of transatlantic alliances and disputes, amo
 
 As the dispute escalated, Thornton suffered from slanders put forth by Danby and her household. Her account includes a fascinating detail:  
 
-> Even so was I and my poor child accused and condemned before her, in her chamber, by her said servant in a most notorious manner. And all my chaste life and conversation most wickedly traduced, so that she railed on me and scolded at me and my poor innocent child, before our faces, with the most vile expressions…Such was the fury of Barbary’s malice against us that, with a brazen face she impudently cried out against me.
+> Even so was I and my poor child accused and condemned before her, in her chamber, by her said servant in a most notorious manner. And all my chaste life and conversation most wickedly traduced, so that she railed on me and scolded at me and my poor innocent child, before our faces, with the most vile expressions...Such was the fury of Barbary’s malice against us that, with a brazen face she impudently cried out against me.
+
+## A maid called Barbary
 
 Anne Danby’s maid was Barbara Todd. Thornton’s reference to her as Barbary resonates with the period’s usages of this name, particularly as ascribed to servants and social inferiors. Danby, too, refers to her as ‘Barbary’,  and Thornton’s sister Katherine Danby had a servant called Barbary Wren.  
 
 ![A portrait of two finely dressed women facing each other, one is Black and one is white]({{"/assets/img/posts/Allegorical_Painting_of_Two_Ladies.jpg" | url}} "Anonymous (British School), *Allegorical Painting of Two Ladies*, c. 1650. Public domain, via Wikimedia Commons."){.media-left}
 
 If this rendering of Barbara as Barbary typically referred to women in service, increasingly its racial associations concocted a name that blended class and race. Both Barbara and Barbary are derived from barbarus, meaning ‘foreigner’ or ‘stranger’. As the Black population of early modern England increased—comprised of enslaved Africans and Indigenous people of the Americas—the name Barbary was commonly assigned to or adopted by women of colour. 
-
-## Treacherous and Lascivious
 
 ![A double page of a printed book - Othello, the Moor of Venice]({{"/assets/img/posts/Othello_First_Folio.jpg" | url}} "William Shakespeare, First Folio Title Page of *Othello*, 1623. Public domain, via Wikimedia Commons."){.media-right}
 
