@@ -12,7 +12,7 @@ tags:
 
 March is Women's History Month and to mark it - like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-30-WHM-amussen-thornton/) - we’re bringing you a series of blog posts, this time on Alice Thornton and various women that feature in her writings. In this instalment, [Professor Patricia Phillippy](https://pureportal.coventry.ac.uk/en/persons/patricia-phillippy) - who is writing an essay on climate and colonisation for [our Thornton book](https://thornton.kdl.kcl.ac.uk/posts/news/2023-07-12-project-symposium/) - explores Thornton’s relationships with North American sojourners, Martha Batt and [Anne Danby](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-14-thornton-and-danby/), and with Danby’s maid, Barbara Todd. 
 
-## American sojourners
+## American Sojourners
 
 In 1652, in Virginia, one Anne Culpeper married Thornton’s nephew, Christopher Danby. Anne’s later account describes the events leading up to this union: 
 
