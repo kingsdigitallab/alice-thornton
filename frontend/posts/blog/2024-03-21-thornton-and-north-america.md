@@ -44,6 +44,8 @@ Anne Danby’s maid was Barbara Todd. Thornton’s reference to her as Barbary r
 
 If this rendering of Barbara as Barbary typically referred to women in service, increasingly its racial associations concocted a name that blended class and race. Both Barbara and Barbary are derived from barbarus, meaning ‘foreigner’ or ‘stranger’. As the Black population of early modern England increased—comprised of enslaved Africans and Indigenous people of the Americas—the name Barbary was commonly assigned to or adopted by women of colour. 
 
+## Treacherous and Lascivious
+
 The ‘treacherous and lascivious blackamoor maid’, became a stereotype on the seventeenth-century stage. Desdemona’s recollection of her mother’s maid Barbary complicates the racial economy of Othello, suggesting an affinity between herself and this Black servant.. When not in service, these women were often litigants, particularly in prostitution cases, which display,  ‘the marking of blackness as a prohibited social pathology in its deployment in the sexual commodification of black women’. Barbary, as Thornton portrays her, shared her mistress’s problematised sexuality, ‘brazen face’ and impudence. 
 
 The availability of Barbary as a derogatory label reveals how the colonial project complicates even as it creates entangled differences of gender, class and race. It put into Thornton’s hands the terms with which to demonize the maid Barbary as a racialized other. These women, like the Black servants in New Albion, are essentially ‘alien’. 
