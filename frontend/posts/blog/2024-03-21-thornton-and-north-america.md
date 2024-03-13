@@ -65,7 +65,7 @@ The quotidian concerns of Thornton’s Books, much like those of other manuscrip
 
 [^4]: ‘A true copy of the Grant of King Charles I to Sir Edmund Plowden Lord Palatine of Albion in America’, in Walter F. C. Chicheley Plowden, *Records of the Chicheley Plowdens* (London: Heath, Cranton & Ouseley, Ltd., 1914), 81. Plowden’s first petition is TNA CO 1/6, ‘The humble petition’. 
 
-[^5]: So Plowden informed John Winthrop in June, 1648, stopping into Boston on his return voyage to Ireland: see John Winthrop, *Winthrop’s Journal: ‘History of America,’ 1630-1649*, edited by James Kendall Hosmer, 2 vols. (New York: Charles Scribner & Sons, 1908), vol. 2, 343. 
+[^5]: See John Winthrop, *Winthrop’s Journal: ‘History of America,’ 1630-1649*, edited by James Kendall Hosmer, 2 vols. (New York: Charles Scribner & Sons, 1908), vol. 2, 343. 
 
 [^6]: ‘The Will of Sir Edmund Plowden’; *Calendar of State Papers Colonial, America and West Indies, Volume 1, 1574-1660* edited by W. Noel Sainsbury (London: HMSO, 1860), 340. 
 
@@ -73,13 +73,13 @@ The quotidian concerns of Thornton’s Books, much like those of other manuscrip
 
 [^8]: ‘That she had seene a letter in Virginia that came to Mrs Danby from Sir Tho. out of England…that was extreamly sharpe. where he tould her that she had inveagled his son to marry her with out his consent & theire marriage was not Lawfull… & was soe incensed that he would never see her in all his Life but shunned her at all times, sending for his son into England with out her’. Thornton, *Book 1*, 236.
 
-[^9]: ‘Even so was I and my poore child accused and condemned before her in her chamber by [Mistress Danby’s] servant in a most notorious manner, and all my chaste life and conversation most wickedly traduced, soe that she railed on me and scoulded at me and my poore innocent child, before our faces, with the most vile expressions could be imagined...Such was the fury of Barbary's mallice against us that with a brasen face she impudently cryed out against me, and said that ‘I was naught, and my parents was naught, and all that I came on was naught’. Alice Thornton, *Book 3: The Second Book of My Widowed Condition*, BL MS Add 88897/2, 192.
+[^9]: ‘Even so was I and my poore child accused and condemned before her in her chamber by [Mistress Danby’s] servant in a most notorious manner, and all my chaste life and conversation most wickedly traduced, soe that she railed on me and scoulded at me and my poore innocent child, before our faces, with the most vile expressions could be imagined... Such was the fury of Barbary's mallice against us that with a brasen face she impudently cryed out against me, and said that ‘I was naught, and my parents was naught, and all that I came on was naught’. Alice Thornton, *Book 3: The Second Book of My Widowed Condition*, BL MS Add 88897/2, 192.
 
 [^10]: Alice Thornton, *Book 2: The First Book of My Widowed Condition*, DCL MS GB-0033-CCOM 7, 16.
 
 [^11]: 'Anne Danby to Parson Farrer, 10 December (1668/69)', Cunliffe Lister Muniments [MIC 2281], North Yorkshire County Record Office, Northallerton, unnumbered page 2.
 
-[^12]: As evidence by a letter from Barbery to Katherine. 'Barbary Wren to Katherine Danby, 9th November 1637', Danby family letters & papers c. 1620–1687 [MIC 2087/1512], ZS – Swinton and Middleham Estate Records, North Yorkshire County Record Office, Northallerton.
+[^12]: See 'Barbary Wren to Katherine Danby, 9th November 1637', Danby family letters & papers c. 1620–1687 [MIC 2087/1512], ZS – Swinton and Middleham Estate Records, North Yorkshire County Record Office, Northallerton.
 
 [^13]: Iman Sheeha, ‘(A) Maid Called Barbary: Othello, Moorish Maidservants and the Black Presence in Early Modern England’, *Shakespeare Survey* 75 (2022): 99, https://doi.org/10.1017/9781009245845.007.
 
