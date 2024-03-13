@@ -16,11 +16,12 @@ In 1652, in Virginia, Anne Culpeper married Thornton’s nephew Christopher Danb
 
 > Sir Thomas Danby in the late troublesome times, sent over into Virginia (under the conduct of one Captain Batt) his second and third sons Mr Christopher and Mr John Danby, with purpose to come over and settle there himself; in order to which he differed, and entrusted with this prementioned Captain Batt, some considerable sum of money laid out in servants and goods out of which he bought a plantation; which cost £150 in goods the first penny in England. About which time my dear and worthy father Mr John Culpeper having been a deep sufferer for his loyalty to his late Majesty (Charles the first) was forced to fly with his family into Virginia, where he died, after whose death it was my unhappy fate (as it has since proved) to marry this second son of Sir Thomas Danby (Mr Christopher). 
 
-![An old black and white map of Virginia]({{"/assets/img/posts/A_mapp_of_Virginia.jpg" | url}} "Farrer, John. *A mapp of Virginia discouered to ye hills...*, 1651. Stokes Addenda, Maps, P.1651-Maps-9, New York Public Library"){.media-right}
 
 Anne’s unhappy fate began immediately after marriage. Her first child, born in 1653, died immediately. Moreover, although Sir Thomas Danby, Thornton’s brother-in-law, had acquired the Virginia plantation of Buckrow for his son, he did not provide adequate ‘household stuff and servants’ for the couple. By 1655, both Danby sons and their wives had been recalled to England by their father.
 
 Sir Thomas Danby’s interest in settling in North America was piqued by a lease of 10,000 acres granted to him by Sir Edmund Plowden, ‘Lord Earl Palatinate, Governor and Captain-General of the Province of New Albion in North America’.  Plowden’s venture to settle New Albion in land ‘inhabited by a barbarous and wild people’,  was ill-fated. His initial voyage in 1642, ‘for want of a pilot’, landed in the Virginia colony rather than north of the Delaware River as planned.   He never established his colony and returned to Ireland in 1649, to promote this notional territory from afar.
+
+![An old black and white map of Virginia]({{"/assets/img/posts/A_mapp_of_Virginia.jpg" | url}} "Farrer, John. *A mapp of Virginia discouered to ye hills...*, 1651. Stokes Addenda, Maps, P.1651-Maps-9, New York Public Library")
 
 The afterlife of New Albion and the English colonial project subtly permeated  Thornton’s life. Among those named in Plowden’s will in 1659 were members of the North Yorkshire coterie surrounding Thornton. The will provided that Danby and ‘Captain Batt his heir’ each should ‘transplant’ 100 settlers to New Albion annually. In 1650, Sir Thomas Danby and Captain John Batt were granted a pass ‘for themselves and seven score men, women, and children to go to New Albion’.  Batt’s wife and unmarried daughter, Martha (who accompanied Batt to New Albion) were in Thornton’s circle. 
 
@@ -28,7 +29,7 @@ The transmigrations of the Batt and Danby families identify transatlantic ‘soj
 
 ## Anne Danby and Martha Batt
 
-These attitudes are on display in an episode in Thornton’s Books involving Anne Danby and Martha Batt: the dispute centred on a rivalry to arrange a match in marriage to Thomas Comber before Comber’s marriage to Thornton’s daughter, Nally, in 1668. Danby ‘prosecuted with eager design for to draw him (Comber]) in for a husband for Mrs Batt’, i.e., Martha. Rumours began to circulate concerning an extramarital affair between Thornton and Comber. 
+These attitudes are on display in an episode in Thornton’s Books involving Anne Danby and Martha Batt: the dispute centred on a rivalry to arrange a match in marriage to Thomas Comber before Comber’s marriage to Thornton’s daughter, Nally, in 1668. Danby ‘prosecuted with eager design for to draw him (Comber) in for a husband for Mrs Batt’, i.e., Martha. Rumours began to circulate concerning an extramarital affair between Thornton and Comber. 
 
 During this period, Martha Batt tells Thornton:
 
@@ -44,13 +45,11 @@ As the dispute escalated, Thornton suffered from slanders put forth by Danby and
 
 Anne Danby’s maid was Barbara Todd. Thornton’s reference to her as Barbary resonates with the period’s usages of this name, particularly as ascribed to servants and social inferiors. Danby, too, refers to her as ‘Barbary’,  and Thornton’s sister Katherine Danby had a servant called Barbary Wren.  
 
-![A portrait of two finely dressed women facing each other, one is Black and one is white]({{"/assets/img/posts/Allegorical_Painting_of_Two_Ladies.jpg" | url}} "Anonymous (British School), *Allegorical Painting of Two Ladies*, c. 1650. Public domain, via Wikimedia Commons."){.media-left}
-
 If this rendering of Barbara as Barbary typically referred to women in service, increasingly its racial associations concocted a name that blended class and race. Both Barbara and Barbary are derived from barbarus, meaning ‘foreigner’ or ‘stranger’. As the Black population of early modern England increased—comprised of enslaved Africans and Indigenous people of the Americas—the name Barbary was commonly assigned to or adopted by women of colour. 
 
-The ‘treacherous and lascivious blackamoor maid’ became a stereotype on the seventeenth-century stage. Desdemona’s recollection of her mother’s maid Barbary complicates the racial economy of Othello, suggesting an affinity between herself and this Black servant. When not in service, these women were often litigants, particularly in prostitution cases, which display ‘the marking of blackness as a prohibited social pathology in its deployment in the sexual commodification of black women’. Barbary, as Thornton portrays her, shared her mistress’s problematised sexuality, ‘brazen face’ and impudence.
+![A portrait of two finely dressed women facing each other, one is Black and one is white]({{"/assets/img/posts/Allegorical_Painting_of_Two_Ladies.jpg" | url}} "Anonymous (British School), *Allegorical Painting of Two Ladies*, c. 1650. Public domain, via Wikimedia Commons.")
 
-![A double page of a printed book - Othello, the Moor of Venice]({{"/assets/img/posts/Othello_First_Folio.jpg" | url}} "William Shakespeare, First Folio Title Page of *Othello*, 1623. Public domain, via Wikimedia Commons."){.media-right}
+The ‘treacherous and lascivious blackamoor maid’ became a stereotype on the seventeenth-century stage. Desdemona’s recollection of her mother’s maid Barbary complicates the racial economy of Othello, suggesting an affinity between herself and this Black servant. When not in service, these women were often litigants, particularly in prostitution cases, which display ‘the marking of blackness as a prohibited social pathology in its deployment in the sexual commodification of black women’. Barbary, as Thornton portrays her, shared her mistress’s problematised sexuality, ‘brazen face’ and impudence.
 
 The availability of Barbary as a derogatory label reveals how the colonial project complicates even as it creates entangled differences of gender, class and race. It put into Thornton’s hands the terms with which to demonize the maid Barbary as a racialized other. These women, like the Black servants in New Albion, are essentially ‘alien’. 
 
