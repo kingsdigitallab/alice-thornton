@@ -1,5 +1,5 @@
 ---
-title: "Women's History Month 2024, 4: Alice Thornton and the North American connection"
+title: "Women's History Month 2024, 4: Alice Thornton and the North American Connection"
 feature: /assets/img/posts/womens_history_month.jpg
 authors:
   - pphillippy
@@ -33,7 +33,7 @@ These attitudes are on display in an episode recounted in Thornton’s books inv
 
 During this period, Martha Batt tells Thornton:
 
-> That she had seen a letter in Virginia that came to Mrs Danby from Sir Thomas out of England…that was extremely sharp, where he told her that she had inveigled his son to marry her without his consent and their marriage was not lawful…and was so incensed that he would never see her in all his life but shunned her at all times, sending for his son into England without her.
+> That she had seen a letter in Virginia that came to Mrs Danby from Sir Thomas out of England … that was extremely sharp, where he told her that she had inveigled his son to marry her without his consent and their marriage was not lawful … and was so incensed that he would never see her in all his life but shunned her at all times, sending for his son into England without her.
 
 The passage reveals the persistence of transatlantic alliances and disputes, among a group of female sojourners, and varying degrees of dependency and autonomy both in America and England. The claim attributed to Thomas Danby that Anne ‘inveigled’ his son, memorialised by Martha Batt, is repeated by Thornton to affirm Anne Danby’s ‘so secret and subtle’ abuses against her.
 
