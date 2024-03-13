@@ -48,7 +48,7 @@ If this rendering of Barbara as Barbary typically referred to women in service, 
 
 ## Treacherous and Lascivious
 
-![A portrait of an African woman holding a clock]({{"/assets/img/posts/Portrait_of_an_African_Slave_Woman.jpg" | url}} "Annibale Caracci, Portrait of an African Slave Woman, c. 1580s. Public domain, via Wikimedia Commons."){.media-left}
+![A double page of a printed book - Othello, the Moor of Venice]({{"/assets/img/posts/Othello_First_Folio.jpg" | url}} "William Shakespeare, First Folio Title Page of *Othello* (Isaac Jaggard and Edward Blount, 1623). Public domain, via Wikimedia Commons."){.media-left}
 
 The ‘treacherous and lascivious blackamoor maid’ became a stereotype on the seventeenth-century stage. Desdemona’s recollection of her mother’s maid Barbary complicates the racial economy of Othello, suggesting an affinity between herself and this Black servant. When not in service, these women were often litigants, particularly in prostitution cases, which display ‘the marking of blackness as a prohibited social pathology in its deployment in the sexual commodification of black women’. Barbary, as Thornton portrays her, shared her mistress’s problematised sexuality, ‘brazen face’ and impudence.
 
