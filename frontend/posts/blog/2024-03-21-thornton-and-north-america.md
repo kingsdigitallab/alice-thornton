@@ -59,7 +59,7 @@ The quotidian concerns of Thornton’s Books, much like those of other manuscrip
 
 [^1]: Anne Danby, ‘An accompt of all the transactions of any note that remains with in the Compasse of my memory since my marriage with Mr Christopher Danby’, 1683, ZS – Swinton and Middleham Estate Records (MIC 2281), North Yorkshire County Record Office, Northallerton. 
 
-[^2]: 'Philip Mallory to Thomas Danby, July 10th 1653', Danby family letters & papers c. 1620–1687, [MIC 2087/1762], ZS – Swinton and Middleham Estate Records, North Yorkshire County Record Office, Northallerton; and 'Mallory to Danby, February 14, (1653/4)'. 
+[^2]: 'Philip Mallory to Thomas Danby, July 10th 1653', Danby family letters & papers c. 1620–1687, [MIC 2087/1762], ZS – Swinton and Middleham Estate Records, NYCRO, Northallerton; and 'Mallory to Danby, February 14, (1653/4)'. 
 
 [^3]: ‘The Will of Sir Edmund Plowden, July 27, 1659', PROB 11/294/364, The National Archives, Kew.
 
@@ -77,9 +77,9 @@ The quotidian concerns of Thornton’s Books, much like those of other manuscrip
 
 [^10]: Alice Thornton, *Book 2: The First Book of My Widowed Condition*, DCL MS GB-0033-CCOM 7, 16.
 
-[^11]: 'Anne Danby to Parson Farrer, 10 December (1668/69)', Cunliffe Lister Muniments [MIC 2281], North Yorkshire County Record Office, Northallerton, unnumbered page 2.
+[^11]: 'Anne Danby to Parson Farrer, 10 December (1668/69)', Cunliffe Lister Muniments [MIC 2281], NYCRO, Northallerton, unnumbered page 2.
 
-[^12]: See 'Barbary Wren to Katherine Danby, 9th November 1637', Danby family letters & papers c. 1620–1687 [MIC 2087/1512], ZS – Swinton and Middleham Estate Records, North Yorkshire County Record Office, Northallerton.
+[^12]: See 'Barbary Wren to Katherine Danby, 9th November 1637', Danby family letters & papers c. 1620–1687 [MIC 2087/1512], ZS – Swinton and Middleham Estate Records, NYCRO, Northallerton.
 
 [^13]: Iman Sheeha, ‘(A) Maid Called Barbary: Othello, Moorish Maidservants and the Black Presence in Early Modern England’, *Shakespeare Survey* 75 (2022): 99, https://doi.org/10.1017/9781009245845.007.
 
