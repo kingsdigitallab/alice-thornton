@@ -20,7 +20,7 @@ In 1652, in Virginia, Anne Culpeper married Thornton’s nephew Christopher Danb
 
 Anne’s unhappy fate began immediately after marriage. Her first child, born in 1653, died immediately. Moreover, although Sir Thomas Danby, Thornton’s brother-in-law, had acquired the Virginia plantation of Buckrow for his son, he did not provide adequate ‘household stuff and servants’ for the couple. By 1655, both Danby sons and their wives had been recalled to England by their father.
 
-![An old black and white map of showing Virginia]({{"/assets/img/posts/A_mapp_of_Virginia.jpg" | url}} "Farrer, John. *A mapp of Virginia discouered to ye hills...*, 1651. Stokes Addenda, Maps, P.1651-Maps-9, New York Public Library"){.media-right}
+![An old black and white map of Virginia]({{"/assets/img/posts/A_mapp_of_Virginia.jpg" | url}} "Farrer, John. *A mapp of Virginia discouered to ye hills...*, 1651. Stokes Addenda, Maps, P.1651-Maps-9, New York Public Library"){.media-right}
 
 Sir Thomas Danby’s interest in settling in North America was piqued by a lease of 10,000 acres granted to him by Sir Edmund Plowden, ‘Lord Earl Palatinate, Governor and Captain-General of the Province of New Albion in North America’.  Plowden’s venture to settle New Albion in land ‘inhabited by a barbarous and wild people’,  was ill-fated. His initial voyage in 1642, ‘for want of a pilot’, landed in the Virginia colony rather than north of the Delaware River as planned.   He never established his colony and returned to Ireland in 1649, to promote this notional territory from afar.
 
