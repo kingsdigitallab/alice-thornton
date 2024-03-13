@@ -20,7 +20,7 @@ In 1652, in Virginia, Anne Culpeper married Thornton’s nephew Christopher Danb
 
 Anne’s unhappy fate began immediately after marriage. Her first child, born in 1653, died immediately. Moreover, although Sir Thomas Danby, Thornton’s brother-in-law, had acquired the Virginia plantation of Buckrow for his son, he did not provide adequate ‘household stuff and servants’ for the couple. By 1655, both Danby sons and their wives had been recalled to England by their father.
 
-![An old black and white map of showing Virginia]({{"/asset/img/posts/A_mapp_of_Virginia.jpg" | url}} "Farrer, John. *A mapp of Virginia discouered to ye hills...*, 1651. Stokes Addenda, Maps, P.1651-Maps-9, New York Public Library")
+![An old black and white map of showing Virginia]({{"/assets/img/posts/A_mapp_of_Virginia.jpg" | url}} "Farrer, John. *A mapp of Virginia discouered to ye hills...*, 1651. Stokes Addenda, Maps, P.1651-Maps-9, New York Public Library")
 
 Sir Thomas Danby’s interest in settling in North America was piqued by a lease of 10,000 acres granted to him by Sir Edmund Plowden, ‘Lord Earl Palatinate, Governor and Captain-General of the Province of New Albion in North America’.  Plowden’s venture to settle New Albion in land ‘inhabited by a barbarous and wild people’,  was ill-fated. His initial voyage in 1642, ‘for want of a pilot’, landed in the Virginia colony rather than north of the Delaware River as planned.   He never established his colony and returned to Ireland in 1649, to promote this notional territory from afar.
 
@@ -32,7 +32,9 @@ The transmigrations of the Batt and Danby families identify transatlantic ‘soj
 
 These attitudes are on display in an episode in Thornton’s Books involving Anne Danby and Martha Batt: the dispute centred on a rivalry to arrange a match in marriage to Thomas Comber before Comber’s marriage to Thornton’s daughter, Nally, in 1668. Danby ‘prosecuted with eager design for to draw him (Comber]) in for a husband for Mrs Batt’, i.e., Martha. Rumours began to circulate concerning an extramarital affair between Thornton and Comber. 
 
-During this period, Martha Batt tells Thornton ‘that she had seen a letter in Virginia that came to Mrs Danby from Sir Thomas out of England…that was extremely sharp, where he told her that she had inveigled his son to marry her without his consent and their marriage was not lawful…and was so incensed that he would never see her in all his life but shunned her at all times, sending for his son into England without her’.  
+During this period, Martha Batt tells Thornton:
+
+>That she had seen a letter in Virginia that came to Mrs Danby from Sir Thomas out of England…that was extremely sharp, where he told her that she had inveigled his son to marry her without his consent and their marriage was not lawful…and was so incensed that he would never see her in all his life but shunned her at all times, sending for his son into England without her.
 
 The passage reveals the persistence of transatlantic alliances and disputes, among a group of female sojourners, and varying degrees of dependency and autonomy both in America and England. The claim attributed to Thomas Danby that Anne ‘inveigled’ his son, memorialised by Martha Batt, is repeated by Thornton to affirm Anne’s ‘so secret and subtle’ abuses against her.
 
@@ -44,9 +46,11 @@ Anne Danby’s maid was Barbara Todd. Thornton’s reference to her as Barbary r
 
 If this rendering of Barbara as Barbary typically referred to women in service, increasingly its racial associations concocted a name that blended class and race. Both Barbara and Barbary are derived from barbarus, meaning ‘foreigner’ or ‘stranger’. As the Black population of early modern England increased—comprised of enslaved Africans and Indigenous people of the Americas—the name Barbary was commonly assigned to or adopted by women of colour. 
 
+![A portrait of an African woman holding a clock]({{"/assets/img/posts/Portrait_of_an_African_Slave_Woman.jpg" | url}} "Annibale Caracci, Portrait of an African Slave Woman, c. 1580s. Public domain, via Wikimedia Commons.")
+
 ## Treacherous and Lascivious
 
-The ‘treacherous and lascivious blackamoor maid’, became a stereotype on the seventeenth-century stage. Desdemona’s recollection of her mother’s maid Barbary complicates the racial economy of Othello, suggesting an affinity between herself and this Black servant.. When not in service, these women were often litigants, particularly in prostitution cases, which display,  ‘the marking of blackness as a prohibited social pathology in its deployment in the sexual commodification of black women’. Barbary, as Thornton portrays her, shared her mistress’s problematised sexuality, ‘brazen face’ and impudence. 
+The ‘treacherous and lascivious blackamoor maid’, became a stereotype on the seventeenth-century stage. Desdemona’s recollection of her mother’s maid Barbary complicates the racial economy of Othello, suggesting an affinity between herself and this Black servant.. When not in service, these women were often litigants, particularly in prostitution cases, which display,  ‘the marking of blackness as a prohibited social pathology in its deployment in the sexual commodification of black women’. Barbary, as Thornton portrays her, shared her mistress’s problematised sexuality, ‘brazen face’ and impudence.
 
 The availability of Barbary as a derogatory label reveals how the colonial project complicates even as it creates entangled differences of gender, class and race. It put into Thornton’s hands the terms with which to demonize the maid Barbary as a racialized other. These women, like the Black servants in New Albion, are essentially ‘alien’. 
 
