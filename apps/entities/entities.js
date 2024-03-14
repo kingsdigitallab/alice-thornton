@@ -7,8 +7,8 @@ const fs = require("fs");
 const sourceBase = "./edition/entities/";
 // const sourceBase =
 //   "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/entities/";
-// const sources = ["people.xml", "places.xml", "events.xml"];
-const sources = ["events.xml"];
+const sources = ["people.xml", "places.xml", "events.xml"];
+// const sources = ["events.xml"];
 const target = "../../frontend/assets/js/entities.json";
 const jsonSheetPath = "xslt/tei-to-json.sef.json";
 
