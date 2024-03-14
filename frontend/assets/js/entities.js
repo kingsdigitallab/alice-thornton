@@ -81,6 +81,12 @@ function setUpSearch() {
               size: 10,
               conjunction: false,
             },
+            cat: {
+              title: "By event type",
+              size: 100,
+              conjunction: false,
+              forType: "event",
+            },
             region: {
               title: "By region",
               size: 100,

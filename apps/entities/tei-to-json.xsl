@@ -4,11 +4,22 @@
   xmlns:html="http://www.w3.org/1999/xhtml" 
   xmlns:tei="http://www.tei-c.org/ns/1.0" 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:dts="https://w3id.org/dts/api#">
+  xmlns:dts="https://w3id.org/dts/api#"
+  xmlns:lookup="lookup"
+>
 
 <!-- <xsl:variable name="book_of_remembrances" select="document('edition/texts/00_book_of_remembrances/book_of_remembrances.xml')" /> -->
 <xsl:key name="element_from_ref" match="//tei:*[@ref]" use="tokenize(normalize-space(@ref), ' ')" />
+<!-- <p xml:id="p-0021"><milestone spanTo="#ev13-end" xml:id="ev13-start" n="ev13" unit="event"/> -->
+<xsl:key name="element_from_eventid" match="//tei:milestone" use="tokenize(normalize-space(@n), ' ')" />
 
+<!-- 'book_of_remembrances,book_one,book_two,book_three' -->
+<lookup:documents>
+    <lookup:doc key="bookrem" filename="book_of_remembrances" order="0" />
+    <lookup:doc key="book1" filename="book_one" order="1" />
+    <lookup:doc key="book2" filename="book_two" order="2" />
+    <lookup:doc key="book3" filename="book_three" order="3" />
+</lookup:documents>
 <!-- 
 Format of entity references in the texts:
 
@@ -26,6 +37,7 @@ Example:
     <xsl:template match="/">
         <xsl:apply-templates select="//tei:listPerson"/>
         <xsl:apply-templates select="//tei:listPlace"/>
+        <xsl:apply-templates select="//tei:listEvent[@type='events']"/>
     </xsl:template>
 
     <xsl:template match="tei:listPerson">
@@ -36,6 +48,11 @@ Example:
     <xsl:template match="tei:listPlace">
         [
             <xsl:apply-templates select="tei:place"/>
+        ]
+    </xsl:template>
+    <xsl:template match="tei:listEvent">
+        [
+            <xsl:apply-templates select="tei:event"/>
         ]
     </xsl:template>
 
@@ -65,6 +82,59 @@ Example:
             "pages": {<xsl:call-template name='insertBooksPages'><xsl:with-param name="entity" select="."/><xsl:with-param name="entityPrefix" select="'place:'"/></xsl:call-template>}
         }
         <xsl:if test="position()!=last()">,</xsl:if>
+    </xsl:template>
+
+    <!--
+        # events.xml
+
+        <event xml:id="cw1_1640_death_illness" type="sub" when-custom="1640-11-29">
+          <desc>Christopher Wandesford became ill after going to church</desc>
+          <label>illness</label>
+          <linkGrp type="sub">
+            <ptr target="bookrem:ev13" type="book" subtype="bookrem"/>
+            <ptr target="book1:ev18" type="book" subtype="book1"/>
+            <ptr target="#cw1_1640_death" type="group"/>
+          </linkGrp>
+        </event>
+
+        # book_of_remembrances.xml:1135
+        <p xml:id="p-0021"><milestone spanTo="#ev13-end" xml:id="ev13-start" n="ev13" unit="event"/>
+    -->
+    <xsl:template match="tei:event">
+        <xsl:variable name="desc" select="normalize-space(replace(tei:desc/text(), '&quot;', '&#92;&#92;&quot;'))" /> 
+        {
+            "type": "event",
+            "id": "<xsl:value-of select='@xml:id'/>",
+            "sortkey": "<xsl:value-of select='$desc'/>",
+            "search": "<xsl:value-of select='$desc'/>&#160;_event_<xsl:value-of select='@xml:id'/>",
+            "title": "<xsl:value-of select='$desc'/>",
+            "cat": "<xsl:value-of select='normalize-space(tei:label/text())'/>",
+            "pages": {<xsl:call-template name='insertBooksPagesForEvent'><xsl:with-param name="entity" select="."/></xsl:call-template>}
+        }
+        <xsl:if test="position()!=last()">,</xsl:if>
+    </xsl:template>
+
+    <xsl:template name="insertBooksPagesForEvent">
+        <xsl:param name="entity"/>
+        <!-- <linkGrp type="sgl">
+            <ptr target="book1:ev206a" type="book" subtype="book1"/>
+            <ptr target="book3:ev94 book3:ev96 book3:ev169 book3:ev212" type="book" subtype="book3"/>
+        </linkGrp> -->
+        <xsl:for-each select="$entity/tei:linkGrp/tei:ptr[@type='book']">
+            <xsl:variable name="ptr" select="." />
+            <xsl:variable name="document" select="document('')//lookup:documents/lookup:doc[@key=$ptr/@subtype]" />
+            <xsl:variable name="documentPath" select="concat('edition/texts/0', $document/@order, '_', $document/@filename, '/', $document/@filename, '.xml')" />
+            <!-- <ptr target="book3:ev94 book3:ev96 book3:ev169 book3:ev212" type="book" subtype="book3"/> -->
+            "<xsl:value-of select="$document/@filename"/>": [
+            <xsl:for-each select="tokenize(./@target)">
+                <xsl:for-each select="key('element_from_eventid', tokenize(., ':')[2], document($documentPath))">
+                    <xsl:value-of select="number(preceding::tei:pb[1]/@n)"/>
+                </xsl:for-each>
+                <xsl:if test="position() != last()">,</xsl:if>
+            </xsl:for-each>
+            ]
+            <xsl:if test="position() != last()">,</xsl:if>
+        </xsl:for-each>
     </xsl:template>
 
     <xsl:template name="insertBooksPages">
