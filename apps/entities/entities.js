@@ -79,7 +79,9 @@ class Entities {
     if (entitiesJson) {
       entities = JSON.parse(entitiesJson);
     } else {
-      console.log(`WARNING: entities file (${source}) transformed into an empty string.`)
+      console.log(
+        `WARNING: entities file (${source}) transformed into an empty string.`
+      );
     }
 
     for (let i in entities) {
