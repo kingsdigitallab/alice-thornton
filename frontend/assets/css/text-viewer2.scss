@@ -99,7 +99,7 @@ main {
     justify-content: center;
 
     > .panel {
-      border: 1px solid $primary;
+      border: 1px solid $gray-dark;
       width: 100%;
       max-width: 60vw;
       height: 90vh;
@@ -111,8 +111,8 @@ main {
       nav.panel-nav {
         width: 100%;
         padding: 0;
-        background: $gray;
         color: $primary-dark;
+        border-bottom: 1px solid $gray-dark;
         position: sticky;
         top: 0;
         display: flex;
@@ -121,18 +121,23 @@ main {
         &.bottom{
           bottom:0;
           height:50px;
+          border-top: 1px solid $gray-dark;
+          border-bottom: none;
         }
         div{
           text-align: center;
-          margin:0 2%;
+          margin:0;
           cursor: pointer;
           &.icon{
             width:60px;
+            height:50px;
+            border-left:1px solid $gray-dark;
+            border-right:1px solid $gray-dark;
             a{
               display:block;
             }
           &:hover{
-            background:$gray-dark;
+            background:lighten($gray, 6%);
           }
           span{
             font-size: 11px;
@@ -140,27 +145,34 @@ main {
           }//.icon
           a.pagination{
             text-decoration: none;
-            color: $white;
-            background:$primary;
-            padding:4px 4px;
+            color:$white;
+            padding: 19px 12px 14px 12px;
             text-transform: uppercase;
             min-width:50px;
             font-size:12px;
-            margin: 4px;
             position: relative;
-            display:inline-block;
+            border-radius: 8px 0 0 8px;
+            margin-left:20px;
+            background:$primary;
+            cursor: pointer;
+            &:last-child{
+              border-radius: 0 8px 8px 0;
+              margin-left:0;
+            }
             &:hover{
-              background:$primary-light;
+              background:$secondary-dark;
+              cursor: pointer;
             }
 
           } //a.pagination
           .select-dropdown {
-            border-bottom: 1px solid $primary-dark;
             display: inline-block;
             opacity: 1;
-            margin:4px 4px;
+            padding:12px 8px;
+            margin:0;
+            border-right:1px solid $gray-dark;
             select {
-              font-size: 14px;
+              font-size: 20px;
               border: none;
               color: $primary-dark;
               background-color: transparent;
@@ -184,9 +196,9 @@ main {
               border-top: 5px solid $primary-dark;
             }
             &:hover {
-              border-bottom: 1px solid $primary;
+              background:lighten($gray, 6%);
               select {
-                color: brown;
+                color: $primary;
               } //select
               &:after {
                 border-top: 5px solid $primary;
