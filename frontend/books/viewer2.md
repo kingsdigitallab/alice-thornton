@@ -206,11 +206,9 @@ hideFooter: true
           </template>
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
-          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)">
-            ❮ Prev</a>
+          <div>
           <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
-          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)">
-            Next ❯</a>
+          </div>
         </div>
         <div class="icon" v-if="canClonePanel">
           <a @click.stop.prevent="clonePanel(panelIdx)">+<br>
@@ -229,6 +227,10 @@ hideFooter: true
       </div>
     </div>
      <nav class="panel-nav bottom">
+          <div>
+          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)">
+            ❮ Prev Page</a>
+          </div>
         <div class="icon">☷
           <br>
           <span>About</span>
@@ -243,6 +245,10 @@ hideFooter: true
           <br>
           <span>Info </span>
           </label>
+        </div>
+        <div>
+        <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)">
+            Next Page ❯</a>
         </div>
     </nav>
   </div>

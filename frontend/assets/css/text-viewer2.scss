@@ -112,7 +112,6 @@ main {
         width: 100%;
         padding: 0;
         color: $primary-dark;
-        border-bottom: 1px solid $gray-dark;
         position: sticky;
         top: 0;
         display: flex;
@@ -128,6 +127,7 @@ main {
           text-align: center;
           margin:0;
           cursor: pointer;
+          display:inline-block;
           &.icon{
             width:60px;
             height:50px;
@@ -146,19 +146,14 @@ main {
           a.pagination{
             text-decoration: none;
             color:$white;
-            padding: 19px 12px 14px 12px;
+            padding: 18px 12px 18px 12px;
             text-transform: uppercase;
             min-width:50px;
+            height:50px;
             font-size:12px;
             position: relative;
-            border-radius: 8px 0 0 8px;
-            margin-left:20px;
             background:$primary;
             cursor: pointer;
-            &:last-child{
-              border-radius: 0 8px 8px 0;
-              margin-left:0;
-            }
             &:hover{
               background:$secondary-dark;
               cursor: pointer;
@@ -168,7 +163,7 @@ main {
           .select-dropdown {
             display: inline-block;
             opacity: 1;
-            padding:12px 8px;
+            padding:13px 8px;
             margin:0;
             border-right:1px solid $gray-dark;
             select {
@@ -500,6 +495,12 @@ $render-sic: false;
 // -------------------------------------------------
 
 @media screen and (min-width: 800px) {
+
+
+
+
+
+  
   .modal-card {
     width: 800px;
   }
