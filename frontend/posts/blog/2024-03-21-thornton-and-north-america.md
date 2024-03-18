@@ -30,7 +30,7 @@ The transmigrations of the Batt and Danby families identify transatlantic ‘soj
 
 ## Anne Danby and Martha Batt
 
-These attitudes are on display in an episode recounted in Thornton’s books involving Anne Danby and Martha Batt: the dispute centred on a rivalry to arrange a match in marriage to Thomas Comber before Comber’s marriage to Thornton’s daughter, Nally, in 1668. Danby ‘prosecuted with eager design for to draw him in for a husband for Mrs Batt’,[^7] i.e., Martha. [Rumours began to circulate concerning an extramarital affair between Thornton and Comber](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/).
+These attitudes are on display in an episode recounted in Thornton’s books involving Anne Danby and Martha Batt: the dispute centred on a rivalry to arrange a match in marriage to Thomas Comber before Comber’s marriage to Thornton’s daughter, Nally, in 1668. Danby ‘prosecuted with eager design for to draw him in for a husband for Mrs Batt’,[^7] i.e., Martha. [Rumours began to circulate](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/) concerning an extramarital affair between Thornton and Comber.
 
 During this period, Martha Batt tells Thornton:
 
