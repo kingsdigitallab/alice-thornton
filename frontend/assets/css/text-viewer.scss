@@ -425,6 +425,15 @@ $render-sic: false;
 
   // ----------------------
 
+  hr {
+    // GN: redefining this to override Bulma (e.g. 1.14)
+    border: 1px solid grey;
+    height: 0px;
+    background-color: grey;
+  }
+
+  // ----------------------
+
   .highlighted {
     background: yellow;
     font-weight: bold;
