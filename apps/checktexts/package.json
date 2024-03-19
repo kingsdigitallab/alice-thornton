@@ -1,0 +1,18 @@
+{
+  "name": "checktexts",
+  "version": "0.1.0",
+  "description": "Reports potential issues in the edition TEIs.",
+  "main": "checktexts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch": "git clone -b edition --single-branch https://github.com/kingsdigitallab/alice-thornton.git edition; cd edition && git pull",
+    "check": "node checktexts.js"
+  },
+  "author": "Geoffroy Noel",
+  "license": "ISC",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.10",
+    "node-fetch": "^2.6.8",
+    "xpath": "^0.0.34"
+  }
+}
