@@ -5,7 +5,7 @@ image: /assets/img/people/cbeattie.jpg
 jobTitle: Principal Investigator
 affiliation: University of Edinburgh
 department: History
-mainEntityOfPage: https://www.ed.ac.uk/history-classics-archaeology/history/about/staff-profiles/cordelia-beattie
+mainEntityOfPage: https://www.ed.ac.uk/profile/cordelia-beattie
 order: 1
 teams:
   - research
