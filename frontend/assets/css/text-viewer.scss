@@ -413,7 +413,8 @@ $render-sic: false;
       // we align the label with the middle item in the list
       top: calc(50% - ($edition-line-height / 2));
     }
-    .tei-seg[data-tei-rend="braced(})"] {
+    .tei-seg[data-tei-rend="braced(})"], 
+    .tei-list[data-tei-rend="braced(})"] {
       display: inline-block;
       background: url(../img/icons/closing-curly-brace.svg) no-repeat right
         center;
