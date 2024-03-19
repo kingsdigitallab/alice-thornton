@@ -57,15 +57,15 @@ The availability of 'Barbary' as a derogatory label reveals how the colonial pro
 The quotidian concerns of Thornton’s Books, much like those of other manuscript writings by early modern Englishwomen, may seem parochial, even trivial. But, by casting a global worldview on Thornton’s writings, we can begin to trace the worldwide effects of colonialism across the British Atlantic and the ripples they sent through everyday life.
 
 
-[^1]: Anne Danby, ‘An accompt of all the transactions of any note that remains with in the Compasse of my memory since my marriage with Mr Christopher Danby’, 1683, ZS – Swinton and Middleham Estate Records (MIC 2281), North Yorkshire County Record Office (NYCRO), Northallerton. 
+[^1]: Anne Danby, ‘An accompt of all the transactions of any note that remains with in the Compasse of my memory since my marriage with Mr Christopher Danby’, 1683, ZS – Swinton and Middleham Estate Records (MIC 2281), North Yorkshire County Record Office (NYCRO), Northallerton. I am grateful to the Alice Thornton's Books project for sharing their transcription with me.
 
-[^2]: 'Philip Mallory to Thomas Danby, July 10th 1653', Danby family letters & papers c. 1620–1687, [MIC 2087/1762], ZS – Swinton and Middleham Estate Records, NYCRO, Northallerton; and 'Mallory to Danby, February 14, (1653/4)'. 
+[^2]: 'Philip Mallory to Thomas Danby, July 10th 1653', Danby family letters & papers c. 1620–1687, ZS (MIC 2087/1762), NYCRO; and 'Mallory to Danby, February 14, (1653/4)'. 
 
 [^3]: ‘The Will of Sir Edmund Plowden, July 27, 1659', PROB 11/294/364, The National Archives, Kew.
 
 [^4]: ‘A true copy of the Grant of King Charles I to Sir Edmund Plowden Lord Palatine of Albion in America’, in Walter F. C. Chicheley Plowden, *Records of the Chicheley Plowdens* (London: Heath, Cranton & Ouseley, Ltd., 1914), 81. Plowden’s first petition is TNA CO 1/6, ‘The humble petition’. 
 
-[^5]: See John Winthrop, *Winthrop’s Journal: ‘History of America,’ 1630-1649*, edited by James Kendall Hosmer, 2 vols. (New York: Charles Scribner & Sons, 1908), vol. 2, 343. 
+[^5]: See John Winthrop, *Winthrop’s Journal: ‘History of America,’ 1630-1649*, ed. James Kendall Hosmer, 2 vols (New York: Charles Scribner & Sons, 1908), vol. 2, 343. 
 
 [^6]: ‘The Will of Sir Edmund Plowden’; *Calendar of State Papers Colonial, America and West Indies, Volume 1, 1574-1660* edited by W. Noel Sainsbury (London: HMSO, 1860), 340. 
 
@@ -77,11 +77,11 @@ The quotidian concerns of Thornton’s Books, much like those of other manuscrip
 
 [^10]: Alice Thornton, *Book 2: The First Book of My Widowed Condition*, DCL MS GB-0033-CCOM 7, 16.
 
-[^11]: 'Anne Danby to Parson Farrer, 10 December (1668/69)', Cunliffe Lister Muniments [MIC 2281], NYCRO, Northallerton, unnumbered page 2.
+[^11]: 'Anne Danby to Parson Farrer, 10 December (1668/69)', Cunliffe Lister Muniments [MIC 2281], NYCRO, unnumbered page 2.
 
-[^12]: See 'Barbary Wren to Katherine Danby, 9th November 1637', Danby family letters & papers c. 1620–1687 [MIC 2087/1512], ZS – Swinton and Middleham Estate Records, NYCRO, Northallerton.
+[^12]: See 'Barbary Wren to Katherine Danby, 9th November 1637', ZS (MIC 2087/1512), NYCRO.
 
-[^13]: Iman Sheeha, ‘(A) Maid Called Barbary: Othello, Moorish Maidservants and the Black Presence in Early Modern England’, *Shakespeare Survey* 75 (2022): 99, https://doi.org/10.1017/9781009245845.007.
+[^13]: Iman Sheeha, ‘"(A) Maid Called Barbary": Othello, Moorish Maidservants and the Black Presence in Early Modern England’, *Shakespeare Survey* 75 (2022): 99, https://doi.org/10.1017/9781009245845.007.
 
 [^14]: Imtiaz Habib, *Black Lives in the English Archives, 1500-1677: Imprints of the Invisible* (London: Routledge, 2008), 107–108. 
 
