@@ -323,6 +323,10 @@ $render-sic: false;
     }
   }
 
+  span.tei-note[data-tei-resp="#awt1"][data-tei-place~="margin"][data-tei="note"] {
+    display: none;
+  }
+
   .tei-fw.tei-type-pageNum {
     position: absolute;
     bottom: 0;
