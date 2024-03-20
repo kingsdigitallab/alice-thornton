@@ -5,7 +5,9 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0" 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:dts="https://w3id.org/dts/api#"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:lookup="lookup"
+  xmlns:internals="internals"
 >
 
 <!-- <xsl:variable name="book_of_remembrances" select="document('edition/texts/00_book_of_remembrances/book_of_remembrances.xml')" /> -->
@@ -102,17 +104,27 @@ Example:
     -->
     <xsl:template match="tei:event">
         <xsl:variable name="desc" select="normalize-space(replace(tei:desc/text(), '&quot;', '&#92;&#92;&quot;'))" /> 
+        <xsl:variable name="category" select='internals:capitaliseFirstLetter(normalize-space(tei:label/text()))'/>
+        <xsl:variable name="title" select='concat($category, ": ", $desc)'/>
         {
             "type": "event",
             "id": "<xsl:value-of select='@xml:id'/>",
-            "sortkey": "<xsl:value-of select='$desc'/>",
-            "search": "<xsl:value-of select='$desc'/>&#160;_event_<xsl:value-of select='@xml:id'/>",
-            "title": "<xsl:value-of select='$desc'/>",
-            "cat": "<xsl:value-of select='normalize-space(tei:label/text())'/>",
+            "sortkey": "<xsl:value-of select='$title'/>",
+            "search": "<xsl:value-of select='$category'/>&#160;<xsl:value-of select='$desc'/>&#160;_event_<xsl:value-of select='@xml:id'/>",
+            "title": "<xsl:value-of select='$title' />",
+            "cat": "<xsl:value-of select='$category'/>",
             "pages": {<xsl:call-template name='insertBooksPagesForEvent'><xsl:with-param name="entity" select="."/></xsl:call-template>}
         }
         <xsl:if test="position()!=last()">,</xsl:if>
     </xsl:template>
+
+    <xsl:function name="internals:capitaliseFirstLetter" as="xs:string">
+        <xsl:param name="input" as="xs:string"/>
+        <xsl:sequence select="concat(
+            upper-case(substring($input,1,1)),
+            substring($input, 2),
+            ' '[not(last())])" />
+    </xsl:function>
 
     <xsl:template name="insertBooksPagesForEvent">
         <xsl:param name="entity"/>
