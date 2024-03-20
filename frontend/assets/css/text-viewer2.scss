@@ -22,68 +22,15 @@
 @import "fonts.scss";
 @import "color-theme";
 
-
-//* GENERAL *//
-body{
-  font-family: "Noto", sans-serif;
-  font-weight: 450;
-  margin:0;
+header{
+  display:none; 
 }
 
-//* 1. HEADER & NAVIGATION *//
-/*header{
-  background-color: #462200;
-  position: fixed;
-  width: calc(100% - 10px);
-  top: 0;
-  padding: 5px;
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  color:white;
-  font-size:12px;
-  .title{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size:16px;
-    img {
-      padding-right: 0.5em;
-    } //img
-    h1{
-      margin: 0;
-      font-size: 18px;
-      font-weight: 450;
-      span {
-        font-size: 12px;
-        font-style: italic;
-        padding-top: 0.2em;
-        padding-left: 0.5em;
-      } //span
-    }//h1
-
-  }//.title
-  div{
-    margin-right: 16px;
-  &:nth-child(2){
-   margin-left: auto;
-  }
-
-  a{
-    color:white;
-    text-decoration: none;
-    &:hover{
-      opacity: 0.7;
-    }
-  }//a
-  }//div
-} //nav*/
 
 //* 2. MAIN *//
-main {
+main#text-viewer {
   //overflow: hidden;
-  margin-top: 3em;
-  height: 50vh;
+
 
   /* MAIN PAGE */
   .panel-wrapper {
@@ -106,6 +53,7 @@ main {
       overflow:scroll;
       display: flex;
       flex-direction: column;
+      background:white;
       // bottom: calc(50vh + 3.8em);
       
       nav.panel-nav {
@@ -132,7 +80,7 @@ main {
             width:60px;
             height:50px;
             border-left:1px solid $gray-dark;
-            border-right:1px solid $gray-dark;
+            margin-left: auto;
             a{
               display:block;
             }
