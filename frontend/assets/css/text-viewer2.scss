@@ -31,7 +31,7 @@ body{
 }
 
 //* 1. HEADER & NAVIGATION *//
-header{
+/*header{
   background-color: #462200;
   position: fixed;
   width: calc(100% - 10px);
@@ -77,7 +77,7 @@ header{
     }
   }//a
   }//div
-} //nav
+} //nav*/
 
 //* 2. MAIN *//
 main {
@@ -145,18 +145,17 @@ main {
           }//.icon
           a.pagination{
             text-decoration: none;
-            color:$white;
-            padding: 18px 12px 18px 12px;
+            padding: 15px 20px 15px 20px;
             text-transform: uppercase;
-            min-width:50px;
-            height:50px;
             font-size:12px;
             position: relative;
-            background:$primary;
+            border:1px solid $gray-dark;
             cursor: pointer;
+            border-radius: 50%;
+            color:$primary-dark;
+            margin-right:8px;
             &:hover{
-              background:$secondary-dark;
-              cursor: pointer;
+              background:lighten($gray,5%);
             }
 
           } //a.pagination
@@ -165,7 +164,6 @@ main {
             opacity: 1;
             padding:13px 8px;
             margin:0;
-            border-right:1px solid $gray-dark;
             select {
               font-size: 20px;
               border: none;
@@ -1500,3 +1498,4 @@ $render-sic: false;
     }
   }
 }
+

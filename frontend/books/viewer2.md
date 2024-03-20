@@ -277,10 +277,15 @@ hideFooter: true
           </template>
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
-          <div>
-          <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
-          </div>
         </div>
+        <div class="icon">
+          <label for="drawer-switch" id="drawer-toggle">
+          &#9432
+          <br>
+          <span>Info </span>
+          </label>
+        </div>
+        <div>
         <div class="icon" v-if="canClonePanel">
           <a @click.stop.prevent="clonePanel(panelIdx)">+<br>
           <span>Clone</span>
@@ -298,28 +303,12 @@ hideFooter: true
       </div>
     </div>
      <nav class="panel-nav bottom">
-          <div>
-          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)">
-            ❮ Prev Page</a>
+               <div>
+          <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
           </div>
-        <div class="icon">☷
-          <br>
-          <span>About</span>
-        </div>
-        <div class="icon">⤒
-          <br>
-          <span>Download</span>
-        </div>
-        <div class="icon">
-          <label for="drawer-switch" id="drawer-toggle">
-          &#9432
-          <br>
-          <span>Info </span>
-          </label>
-        </div>
-        <div>
-        <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)">
-            Next Page ❯</a>
+          <div>
+          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)">❮</a>
+        <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)">❯</a>
         </div>
     </nav>
   </div>
