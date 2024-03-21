@@ -129,12 +129,12 @@ a {
 // GF 26/01/2023: tired of fighting with Bulms's defaults
 // Going nuclear on max-width for container
 
-.container {
+/*.container {
   @media screen and (min-width: 1120px) {
     max-width: 1120px !important;
     padding: 0 6rem !important;
   }
-}
+}*/
 
 // GN: fix text spilling over text viewer because bulma padding is too large
 div.container.is-fluid {
@@ -513,7 +513,7 @@ a:nth-child(2) img, a:nth-child(4) img {
   }
 
   .book.columns {
-    width: 25em;
+    width: 50%;
     margin: 0;
     .column{
       padding: 0.75em 0.75em 0.75em 0; 
@@ -521,9 +521,15 @@ a:nth-child(2) img, a:nth-child(4) img {
     h3{
       color: $secondary-dark;
     }
+    img{
+      object-fit: cover;
+      height: 17em;
+      width: 14em;
+    }
     .book-buttons {
       margin-top: auto;
       margin-bottom: 2em;
+      width:9em;
 
       .button {
         margin: 0.2em 1em 0.2em 0;
@@ -531,6 +537,18 @@ a:nth-child(2) img, a:nth-child(4) img {
       }
     }
   }
+}
+@media (max-width: 600px) {
+  .bookshelf {
+  .book.columns {
+    width: 100%;
+    img{
+      width:100%;
+      height:auto;
+    }
+  }
+}
+
 }
 
 .navbar {
@@ -740,7 +758,8 @@ ul.undecorated-list {
 
 
 nav.pagination{
-  background: $gray;
+  border-top:1px solid $primary;
+  border-bottom:1px solid $primary;
   padding:6px 8px;
   ul.pagination-list {
     margin:0;
@@ -783,9 +802,11 @@ justify-content: center;
 
   .panel.is-info {
     .panel-heading {
-      background-color: $gray;
+      background-color: transparent;
       color:$primary-dark;
       margin-bottom: 0.5em;
+      border-bottom: 1px solid $primary;
+      padding: 0.5em 0.1em;
     }
 
     .panel-block {
@@ -794,9 +815,13 @@ justify-content: center;
   }
 
   .search-results {
-    nav.pagination ul.pagination-list {
+    nav.pagination{
+ 
+      
+      ul.pagination-list {
       justify-content: flex-start;
     }
+  }
     &.updating {
       opacity: 0.2;
     }
