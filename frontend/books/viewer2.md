@@ -29,33 +29,104 @@ hideFooter: true
         name="tab-group-1"
         checked>
       <label for="tab-1">
-        <span>☷</span>Textual Information</label>
+        <span><img src="https://static.thenounproject.com/png/1225909-200.png"></span>Key</label>
       <div class="content">
-        <ul>
-          <li>
-            <span>note icon</span><br>Editorial Notes</li>
-          <li>
-            <span>dotted underline
-            </span><br>Entity</li>
-          <li>
-            <span>gylphs</span><br>visual elements/drawings by the author
-          </li>
-          <li>
-            <span>Number (top left)</span><br>Page number in the author's original book
-          </li>
-          <li>
-            <span>image icon</span><br>the scanned image of page in the author's original book
-          </li>
-          <li>
-            <span>strikethrough</span><br>Text deleted by author
-          </li>
-          <li>
-            <span>superscript</span><br>Addition information added by the author
-          </li>
-          <li>
-            <span>larger bold font</span><br>Page title
-          </li>
-        </ul>
+            <h1>Key</h1>
+<div class="textblock">  
+  <h2>Text block</h2>
+<ul>
+  <li>Page title heading<br>
+    <span>largest size, centred, bold font</span>
+  </li>
+  <li>Other headings and some dates<br>
+    <span>medium size, centred, bold font</span>
+  </li>
+  <li>(Running) headers like dates <br>
+    <span>medium size, centred, font</span>
+  </li>
+  <li>Blank page or lines<br>
+    <span>grey brackets with information within</span>
+  </li>
+  <li>
+    Page number in the author's original book<br><span>Number bottom left of display</span>
+  </li>
+  <li>
+    Items are bracketed together<br><span>Curly bracket on the right of text</span>
+  </li>  
+    <li>
+    Marginal comment<br><span>Displayed in left margin </span>
+  </li>  
+  </ul>
+  
+  <div class="transcription">  
+  <h2>Transcription</h2>
+<ul>
+  
+  <li>Addition information added by the author<br>
+    <span>text placed higher on a note icon</span>
+  </li>
+  <li>Thornton frequently uses the heart symbol instead of the word 'heart' in her books.<br>
+    <span>Heart icon - a glyph or non-standard character</span>
+  </li>
+  <li>Physical Damage on page<br>
+    <span>grey brackets with information of damage within (e.g. cut, tear, deletion)</span>
+  </li> 
+  <li>Text deleted by author<br>
+    <span>strikethrough</span>
+  </li>
+ 
+  <li>Author's superscript for some letters <br>
+    <span>superscript - small font size, text placed higher</span>
+  </li>
+  
+  
+  <!--
+  
+  <li>visual elements/drawings by the author<br><span>gylphs</span>
+  </li>
+  </li>-->
+
+
+  
+  </ul>
+        </div>  
+      <div class="features">  
+  <h2>Discursive and Contextual Features </h2>
+<ul>
+  
+ <li>a person's name/monogram<br><span>cursive font (replicating handwriting)</span></li>
+
+  <li>Entity (● Person) <br><span>dashed underline with circle at the </span></li>
+  
+  <li>Entity (⏷ Place) <br><span>dashed underline </span></li>
+  
+    <li>Entity (■ Event) <br><span>dashed underline </span></li>
+  
+    <li>Biblical reference <br><span>cross icon </span></li>
+  
+  </ul>
+        </div>  
+  
+  
+    <div class="editorial">  
+  <h2>Editorial Interventions</h2>
+<ul>
+  
+ <li>Editorial Notes<br><span>note icon on side margin</span></li>
+<li>Glossary<br><span>double underline</span></li>
+  
+  <li>material interpreted as superfluous<br><span>dashed box around the material</span> </li>
+    <li>page number missing from original book<br><span>Square brackets around number</span> </li>
+  </ul>
+        </div>  
+  
+      <div class="images">  
+  <h2>Images</h2>
+<ul>
+    <li>scanned image of page in the author's original book<br><span>image icon</span>
+  </li>
+  </ul>
+        </div>  
       </div>
     </div>
     <div class="tab">
@@ -206,12 +277,15 @@ hideFooter: true
           </template>
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
-          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)">
-            ❮ Prev</a>
-          <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
-          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)">
-            Next ❯</a>
         </div>
+        <div class="icon">
+          <label for="drawer-switch" id="drawer-toggle">
+          &#9432
+          <br>
+          <span>Info </span>
+          </label>
+        </div>
+        <div>
         <div class="icon" v-if="canClonePanel">
           <a @click.stop.prevent="clonePanel(panelIdx)">+<br>
           <span>Clone</span>
@@ -229,20 +303,12 @@ hideFooter: true
       </div>
     </div>
      <nav class="panel-nav bottom">
-        <div class="icon">☷
-          <br>
-          <span>About</span>
-        </div>
-        <div class="icon">⤒
-          <br>
-          <span>Download</span>
-        </div>
-        <div class="icon">
-          <label for="drawer-switch" id="drawer-toggle">
-          &#9432
-          <br>
-          <span>Info </span>
-          </label>
+               <div>
+          <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
+          </div>
+          <div>
+          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)">❮</a>
+        <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)">❯</a>
         </div>
     </nav>
   </div>
