@@ -8,6 +8,7 @@ This app allows the display of high resolution images in the Text Viewer.
 # Input
 
 - copy private high resolution tif images in the in folder (but do NOT share them or add them to github repo)
+- if jpg, use `mogrify -format tif *.jpg` to convert to tif
 
 # Output
 
