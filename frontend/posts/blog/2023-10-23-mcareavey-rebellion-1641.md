@@ -6,7 +6,7 @@ authors:
 status: live
 tags:
   - manuscripts
-  - ireland
+  - Ireland
   - letters
 ---
 
