@@ -4,7 +4,14 @@ authors:
   - 
 status: draft
 tags:
-  - 
+  - castles
+  - letters
+  - lifewriting
+  - family
+  - law
+  - providence
+  - faith
+
 ---
 For many years I have worked with the diaries, memoirs, letters, and historical writing of the Lady Anne Clifford.  She, especially in her later years, was an almost larger than life woman with her five castles and nearly unchallenged social and political power in a huge part of the north of England.  It is gratifying to explore just how much power she had in the area during her 25 years in the north, and I especially enjoyed finding the letter where one of the leading gentlemen of Westmorland, Philip Musgrave, wrote to a secretary of Charles I, complaining about Anne’s choice of wardens for her Pendragon castle.  He ends the letter by asking that the secretary keep his letter secret because of ‘the dependence that many gentlemen in these counties have on her ladyship’.   
 
