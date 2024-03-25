@@ -13,6 +13,9 @@ tags:
   - faith
 
 ---
+March is Women's History Month and to mark it - like last year - we’ve been bringing you a series of blog posts, this time on Alice Thornton and various other women she can be linked with. In this final instalment, Professor Jessica Malay - who is on our project board - compares Thornton with Anne Clifford, who she has worked extensively on.
+
+
 For many years I have worked with the diaries, memoirs, letters, and historical writing of the Lady Anne Clifford.  She, especially in her later years, was an almost larger than life woman with her five castles and nearly unchallenged social and political power in a huge part of the north of England.  It is gratifying to explore just how much power she had in the area during her 25 years in the north, and I especially enjoyed finding the letter where one of the leading gentlemen of Westmorland, Philip Musgrave, wrote to a secretary of Charles I, complaining about Anne’s choice of wardens for her Pendragon castle.  He ends the letter by asking that the secretary keep his letter secret because of ‘the dependence that many gentlemen in these counties have on her ladyship’.   
 
 Later another writer, Dr Thomas Smith, a townsman of Appleby, echoed Musgrave’s words when deciding not to challenge the Lady Anne over her choice of MP. He told his correspondent that ‘they of Appleby, having so absolute a dependence upon her (as indeed they have) it would be vain to strive against that stream’.1  It is gratifying to see a woman holding this kind of authority in the seventeenth century.  Yet I think my favorite part of Anne Clifford’s life story is not this period of her triumph, but her decades of vulnerability.  She was an extraordinary woman in her later years, but through most of her life she experienced the kinds of struggles, pain, humiliation, and despair that was the common lot for women across society during that time (and even today).   
