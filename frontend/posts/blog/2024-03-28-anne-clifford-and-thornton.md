@@ -1,3 +1,4 @@
+---
 title: "Women's History Month 2024, 5: Journeying with Anne Clifford and Alice Thornton
 feature: /assets/img/posts/womens_history_month.jpg
 authors:
@@ -11,7 +12,6 @@ tags:
   - law
   - providence
   - faith
-
 ---
 March is Women's History Month and to mark it - like last year - we’ve been bringing you a series of blog posts, this time on Alice Thornton and various other women she can be linked with. In this final instalment, Professor Jessica Malay - who is on our project board - compares Thornton with Anne Clifford, who she has worked extensively on.
 
