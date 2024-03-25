@@ -28,7 +28,7 @@ Later another writer, Dr Thomas Smith, a townsman of Appleby, echoed Musgrave’
 
 ## Shared Struggles
 
-![Tomb effigy of Margaret Clifford, Lady Anne's mother, in St Lawrence's Church, Appleby.]({{"/assets/img/posts/magdalena.jpg" | url}} "Tomb effigy of Margaret Clifford, Lady Anne's mother, in St Lawrence's Church, Appleby."){.media-right}
+![Tomb effigy of Margaret Clifford, Lady Anne's mother, in St Lawrence's Church, Appleby.]({{"/assets/img/posts/clifford_tomb.jpg" | url}} "Tomb effigy of Margaret Clifford, Lady Anne's mother, in St Lawrence's Church, Appleby."){.media-right}
 
 Alice Thornton’s writings helped me to consider again Anne Clifford’s life during those times of struggle because Alice shared many of the same difficulties. Both Anne and Alice were very dependent upon their mothers for their emotional, social, and financial well-being.  The death of these mothers was devastating to both women and had a tremendous effect on them. Alice remembered sitting by her mother’s deathbed where she ‘took the saddest leave of my dear parent as ever child could to part with so great a comfort’ and ‘began a dangerous sickness at Oswaldkirk, after my dear mother's death’.[^2]  Anne Clifford described the ‘heavy news of my mother’s death’ as the ‘greatest and most lamentable cross that could befall me’.[^3] 
 
