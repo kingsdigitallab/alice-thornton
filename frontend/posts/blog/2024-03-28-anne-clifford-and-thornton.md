@@ -14,7 +14,7 @@ tags:
   - faith
 ---
 
-March is Women's History Month and to mark it - like last year - we’ve been bringing you a series of blog posts, this time on Alice Thornton and various other women she can be linked with. In this final instalment, Professor Jessica Malay - who is on our project board - compares Thornton with Anne Clifford, who she has worked extensively on.
+March is Women's History Month and to mark it - like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-01-WHMThorntonandKempe/) - we’ve been bringing you a series of blog posts, this time on Alice Thornton and various other women she can be linked with. In this final instalment, Professor Jessica Malay - who is on our project board - compares Thornton with Anne Clifford, who she has worked extensively on.
 
 ## Authority and Power
 
@@ -30,9 +30,7 @@ Later another writer, Dr Thomas Smith, a townsman of Appleby, echoed Musgrave’
 
 ![Tomb effigy of Margaret Clifford, Lady Anne's mother, in St Lawrence's Church, Appleby.]({{"/assets/img/posts/clifford_tomb.jpg" | url}} "Tomb effigy of Margaret Clifford, Lady Anne's mother, in St Lawrence's Church, Appleby."){.media-right}
 
-Alice Thornton’s writings helped me to consider again Anne Clifford’s life during those times of struggle because Alice shared many of the same difficulties. Both Anne and Alice were very dependent upon their mothers for their emotional, social, and financial well-being.  The death of these mothers was devastating to both women and had a tremendous effect on them. Alice remembered sitting by her mother’s deathbed where she ‘took the saddest leave of my dear parent as ever child could to part with so great a comfort’ and ‘began a dangerous sickness at Oswaldkirk, after my dear mother's death’.[^3]  Anne Clifford described the ‘heavy news of my mother’s death’ as the ‘greatest and most lamentable cross that could befall me’.[^4] 
-
-<p>&nbsp;</p>
+Alice Thornton’s writings helped me to consider again Anne Clifford’s life during those times of struggle because Alice shared many of the same difficulties. Both Anne and Alice were very dependent upon their mothers for their emotional, social, and financial well-being.  The death of these mothers was devastating to both women and had a tremendous effect on them. Alice remembered sitting by [her mother’s deathbed](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/) where she ‘took the saddest leave of my dear parent as ever child could to part with so great a comfort’ and ‘began a dangerous sickness at Oswaldkirk, after my dear mother's death’.[^3]  Anne Clifford described the ‘heavy news of my mother’s death’ as the ‘greatest and most lamentable cross that could befall me’.[^4] 
 
 Another experience Alice and Anne shared was their legal battles.  Both ‘went to law’ many times over property and other rights, as did many women in the time, from rag-sellers to countesses.[^5] This willingness to make private injustices, often between family members, public is sometimes framed as combativeness, acquisitiveness, or even betrayal. Old prejudices against women actively protecting themselves and their children have a long life.  In the stark reality of the time securing the financial resources to live respectable lives was crucial to Anne and Alice and their children’s very survival.  
 
