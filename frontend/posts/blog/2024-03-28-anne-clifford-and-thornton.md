@@ -59,7 +59,7 @@ Anne Clifford did not leave any religious meditations, but her annotations of bi
 Despite the social distance between a countess and a gentlewoman, Alice and Anne shared many experiences common to women in their own time, and often still in ours. I continue to enjoy journeying with them through the writing they have left us. 
 
 [^1]: 'Sir Phil. Musgrave to Williamson, 10 August 1663', SP 29/448 f.146, The National Archives, London. 
-[^2]: ‘Beyond the Palace: The Transmission of Political Power in the Clifford Circle’, in *Family Politics in Early Modern Literature*, ed. Hannah Crawforth and Sarah Lewis (London: Palgrave Macmillan, 2017), 165. 
+[^2]: Jessica Malay, ‘Beyond the Palace: The Transmission of Political Power in the Clifford Circle’, in *Family Politics in Early Modern Literature*, ed. Hannah Crawforth and Sarah Lewis (London: Palgrave Macmillan, 2017), 165. 
 [^3]: Alice Thornton, *Book of Remembrances*, 36, 43. https://thornton.kdl.kcl.ac.uk/books/viewer/ 
 [^4]: Anne Clifford, *Anne Clifford’s Autobiographical Writing*, ed. Jessica Malay (Manchester: Manchester University Press, 2018), 36.
 [^5]: The ‘rag-seller’ Lucy Browne was involved in a lawsuit to recover her sailor husband’s lost wages and to be freed from his debts. Daniel Patterson, ‘The Story of Lucy Browne: Women’s Agency, “Voices” and the Evidence of Chancery Depositions’, [*Women’s History Today*](https://womenshistorynetwork.org/wp-content/uploads/2021/12/wht_winter21_03_02.pdf) 3, no. 1 (2021): 30-9. 
