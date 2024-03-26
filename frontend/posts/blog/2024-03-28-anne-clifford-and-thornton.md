@@ -16,7 +16,7 @@ tags:
 
 March is Women's History Month and to mark it - like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-01-WHMThorntonandKempe/) - we’ve been bringing you a series of blog posts, this time on Alice Thornton and her links to various other women. In this final instalment, Jessica Malay, Emeritus Professor of Renaissance Literature at the University of Huddersfield and a member of the Alice Thornton's Books project board, compares Thornton with Anne Clifford, whose writings she has edited and of whom she is presently writing a biography. 
 
-![Portrait of Anne Clifford and her family.]({{"/assets/img/posts/clifford_family.jpg" | url}} "Portrait of Anne Clifford and her family, commissioned in 1646 by Anne Clifford, and attributed to Jan van Belcamp (1610-1653).")
+![Portrait of Clifford and her family.]({{"/assets/img/posts/clifford_family.jpg" | url}} "Portrait of Clifford and her family, commissioned by her in 1646, attributed to Jan van Belcamp (1610-53).")
 
 ## Authority and Power
 
