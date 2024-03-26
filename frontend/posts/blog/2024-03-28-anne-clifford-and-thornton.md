@@ -2,7 +2,7 @@
 title: "Women's History Month 2024, 5: Journeying with Anne Clifford and Alice Thornton"
 feature: /assets/img/posts/womens_history_month.jpg
 authors:
-  - 
+  - jmalay
 status: draft
 tags:
   - castles
