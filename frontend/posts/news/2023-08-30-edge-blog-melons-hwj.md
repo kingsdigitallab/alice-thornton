@@ -1,5 +1,5 @@
 ---
-title: Project postdoc Jo Edge blogs on melons for History Workshop Journal
+title: Project postdoc Jo Edge writes on melons for History Workshop Digital Magazine
 feature: /assets/img/posts/Tamm_Still_Life_Musk_Melon.jpg
 status: live 
 authors:
