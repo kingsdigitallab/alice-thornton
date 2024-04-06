@@ -11,5 +11,5 @@ Run the tests on them:
 `node run check`
 
 Checks:
-* missing images
 
+- missing images

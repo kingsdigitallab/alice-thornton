@@ -86,8 +86,6 @@ hideFooter: true
   </li>
   </li>-->
 
-
-  
   </ul>
         </div>  
       <div class="features">  
