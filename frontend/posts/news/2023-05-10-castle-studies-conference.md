@@ -6,6 +6,7 @@ authors:
   - jedge
 tags:
   - conferences
+  - castles
 ---
 
 On Saturday 10 June 2023, project postdoctoral fellow Dr Jo Edge will present on 'Childbirth in the castle: Alice Thornton's trip to Middleham, 1644', at the annual Castle Studies Trust Conference at the University of Winchester, UK. Jo will be expanding on the work outlined in [this blogpost](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/).
