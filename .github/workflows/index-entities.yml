@@ -28,7 +28,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install dependencies
-        working-directory: ./app
         run: npm ci
 
       - name: Fetch edition branch
