@@ -4346,7 +4346,7 @@
 </div>
        <div xml:id="div-064" rend="pre(rule_short_left)">
          <milestone spanTo="#ev69-end" xml:id="ev69-start" n="ev69" unit="event"/>
-         <p xml:id="p-0129"><w norm="Upon">Upon</w> the <date when-custom="1666-09-29">29<hi rend="superscript">th</hi> day of <choice><abbr>Sept.<add place="above">ber</add><expan>September</expan></abbr></choice></date> began<lb/>
+         <p xml:id="p-0129"><w norm="Upon">Upon</w> the <date when-custom="1666-09-29">29<hi rend="superscript">th</hi> day of <choice><abbr>Sept.<add place="above">ber</add></abbr><expan>September</expan></choice></date> began<lb/>
            my <w norm="daughter" type="l">Daughter</w><supplied reason="mod">,</supplied> <persName ref="ppl:ktp1" n="per232">Kate Thornton</persName><supplied reason="mod">,</supplied> with<lb/>
           a violent <w norm="and">&amp;</w> <w norm="extreme">extreame</w> <w norm="pain">paine</w> in the<lb/>
           back <w norm="and">&amp;</w> head with such <term ref="gloss:p106t01" xml:id="p106t01"><w norm="shrieks">scriks</w></term> <w norm="and">&amp;</w> torment<lb/>
@@ -4711,7 +4711,7 @@
           my gracious God <w norm="and">&amp;</w> heavenly <w norm="Father" type="u">father</w><supplied reason="mod">,</supplied><lb/>
           who <quote type="allusion" source="#KJV_Jas_2:13 #KJV_Job_37:23">in <w norm="judgement">Judgement</w> remembers mercy</quote><lb/>
            <w norm="and">&amp;</w>  cuts <add place="above">not</add> <metamark>^</metamark> 
-           <!-- Q [tei] metamark the right choice here? (see similar instances in book1) -->
+           <!-- Q carat problem. metamark probably not the right choice here. (see similar instances in book1) -->
               <!-- Q [endnote] Carat here but no insertion – could 'not' be placed in either position?         -->
            <w norm="off">of</w> the <w norm="lives">lifes</w> of <rs type="group">my <w norm="poor">poore</w> <w norm="children">Child-<lb break="no"/>
           -ren</w></rs> <w norm="suddenly">sudainly</w><pc norm=".">,</pc> <w norm="Oh">oh</w><supplied reason="mod">,</supplied> praise the Lord <w norm="forever">for<lb/>
@@ -5079,7 +5079,8 @@
              <add place="above">be</add>
              <del rend="doublestrikethrough"><gap unit="char" quantity="2" reason="deleted"/></del>
            </subst>fore
-           </w> my<lb/>
+           </w><!-- Q this is rendering with a gap; best way to fix it? can't put "fore" inside the <subst> --> 
+         my<lb/>
           face <del rend="strikethrough">of</del> my <w norm="servant" type="l">Servant</w> <persName ref="ppl:ha1" n="per280"><w norm="Hannah">Hanna</w><lb/>
           Ableson</persName><supplied reason="mod">,</supplied> for telling <supplied reason="mod">(</supplied><surplus reason="superfluous">her</surplus>from one <persName ref="ppl:mb1" n="per281">Mary<lb/>
             <w norm="Breaks">Breakes</w></persName><supplied reason="mod">)</supplied> of <w norm="several">severall</w> <w norm="stories">storyes</w> <surplus reason="superfluous">(</surplus>which were<lb/>
@@ -5781,7 +5782,7 @@
           with me<supplied reason="mod">,</supplied> if it did stand good with the will <w norm="and">&amp;</w><lb/>
           pleasure of our God<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> got some <w norm="little">litte</w> slumbers<supplied reason="mod">,</supplied><lb/>
           though with <w norm="fears">feares</w> <w norm="and">&amp;</w> <w>tremblings</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> sad <w norm="and">&amp;</w> <w norm="dismal" type="break">dis-<lb break="no"/>
-          mall</w> <w norm="dreams">dreames</w>. <w norm="When" type="u">when</w><supplied reason="mod">,</supplied> in the morning<supplied reason="mod">,</supplied> my <persName ref="ppl:jd2" n="per325">bro<pc><surplus reason="superfluous">.</surplus></pc><lb break="no"/><!-- check pc tag works. Q SHARON needs sorting in modernised view -->
+          mall</w> <w norm="dreams">dreames</w>. <w norm="When" type="u">when</w><supplied reason="mod">,</supplied> in the morning<supplied reason="mod">,</supplied> my <persName ref="ppl:jd2" n="per325">bro<pc><surplus reason="superfluous">.</surplus></pc><lb break="no"/><!-- check pc tag works. looks ok to me... Q SHARON needs sorting in modernised view -->
           <pc>-</pc>ther Denton</persName> came home<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> very discreetly<lb/>
           prepared me<supplied reason="mod">,</supplied> with good advice <w norm="and">&amp;</w> <w norm="counsel">councell</w><supplied reason="mod">,</supplied> to<lb/>
           <w norm="entertain">entertaine</w> the Lord<supplied reason="mod">'</supplied>s determinate will in all<lb/>
@@ -6798,7 +6799,7 @@
 
          <fw type="pageNum">164</fw>
            <lb/>
-           <quote source="#KJV_Psa_88:3">unto the <w norm="grave" type="l">Grave</w></quote>; my body in <w norm="distress">disstress</w><supplied reason="mod">;</supplied><lb/>
+           <quote xml:id="q-072.1" source="#KJV_Psa_88:3">unto the <w norm="grave" type="l">Grave</w></quote>; my body in <w norm="distress">disstress</w><supplied reason="mod">;</supplied><lb/>
           my <w norm="soul">soule</w> under <w norm="sadder">sader</w> calamities<lb/>
           by the <w norm="withdrawing">with drawing</w> of thy <w norm="presence">Pressence</w><pc norm=".">,</pc> <quote type="partial" source="#Psa_79 #Psa_69:17 #Psa_102:2 #Psa_143:7"><w norm="Hide" type="u">hide</w><lb/>
           not thou thy <w norm="heavenly">Heavenly</w> face from me<supplied reason="mod">,</supplied></quote><lb/>
@@ -8206,8 +8207,8 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
           <w norm="gone">gon</w> to <w norm="cows">Cowes</w><anchor n="167" corresp="#p199n01" resp="ednote"/> with her <w norm="maids">maides</w><supplied reason="mod">.</supplied> But that<lb/>
            <rs n="per425" type="person">his <w norm="own">owne</w> servant</rs><supplied reason="mod">,</supplied><!-- NOTE [people] - probably not identifiable --> that I cured of a<lb/>
           wound<supplied reason="mod">,</supplied> did <w norm="discover">discovr</w> it to me <w norm="and">&amp;</w> I was<lb/>
-          saved.<anchor xml:id="ev106-end" n="ev106" type="event"/> <w norm="Blessed">blesed</w> be my God for ever<lb/> <!--Here, 'forevermore' should be one word -->
-           more<supplied reason="mod">.</supplied> Amen<supplied reason="mod">.</supplied></p>
+          saved.<anchor xml:id="ev106-end" n="ev106" type="event"/> <w norm="Blessed">blesed</w> be my God <w norm="forevermore">for ever<lb break="no"/>
+           more</w><supplied reason="mod">.</supplied> Amen<supplied reason="mod">.</supplied></p>
       </div>
          
             <pb xml:id="page-200" n="200"/>
