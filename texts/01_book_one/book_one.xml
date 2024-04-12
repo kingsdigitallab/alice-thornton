@@ -42,7 +42,6 @@
                            in fact we don't need this as we're only including material in AT's hand.
                            -->
                            <handNote xml:id="awt" scribeRef="ppl:awt1">
-                               <!-- Q [tei] check this is correct use of scribeRef?? -->
                                Alice Thornton's hand.
                            </handNote>
                            <handNote xml:id="unknown">
@@ -137,9 +136,7 @@
          
        events tagging:
            milestone/anchor pairs
-            - not yet implemented @spanTo or linking event mentions 
-                - probably won't do that until after all 4 books are marked up 
-            - at present milestone/anchor pairs are linked using @n, prefix "ev".
+            - prefix "ev".
             
             **milestone/anchor pairs are not always siblings, not always in the same paragraph**
             but they *are* always in the same <div> 
