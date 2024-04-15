@@ -25,7 +25,7 @@ Anselment notes that this volume cannot ‘be dated with any certainty’.[^1] A
 
 ## Contents 
 
-[The Age of Alice Wandesford](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.3&p0.vi=modern)<br>
+[The Age of Alice Wandesford](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.3&p0.vi=modern)<br/>
 [The Dedication](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.7&p0.vi=modern) 
 [Observables](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.9&p0.vi=modern) 
 [Prayer](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.10&p0.vi=modern) 
