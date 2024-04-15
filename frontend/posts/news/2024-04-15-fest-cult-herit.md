@@ -1,7 +1,7 @@
 ---
 title: "Project Team at CAHSS's Festival of Cultural Heritage Research 2024"
 feature: /assets/img/posts/Book_Rem_dedication.jpg
-status: draft
+status: live
 authors:
   - ethom
 tags:
