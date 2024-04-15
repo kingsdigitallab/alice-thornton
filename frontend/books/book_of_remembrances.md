@@ -115,7 +115,21 @@ Prayers for Him
 My Second Relapse by Grief when My Aunt Norton was at Newton about the Malice of My Enemies, Unjustly 
 My Prayers and Meditations for Deliverance from these 
 A Description of Mr Thornton's Falling Ill at Malton and in how Weak a Condition I was when He Left Me
-
+My Hopes of His Recovery from Dr Wittie's Encouragement 
+Of the Continuance of My Dear Husband's Weakness notwithstanding All Helps 
+The Death of My Dear and Honoured Husband 
+My Exceeding Sorrow and Weak Estate of Body and Spirit upon His Death 
+My Sad and Bitter Complaints, Meditations 
+Prayers and Petitions upon this Most Sad Dispensation 
+A Discourse of Mr Thornton's Comfortable Expressions to Mr Sinclair before His Last Illness
+A Description of Mr Thornton's Last Sickness and Several Passages in the Same 
+Of His Burial 
+'Upon the Fears of Death', in Verse, A.T. 
+'An Inducement to Love Heaven', in Verse, A.T. 
+'A Farewell to the Pleasures of the World', in Verse 
+'My Soul's Wish for God' 
+A Widow's Prayer and Petitions to God
+Remember to Insert Some Remarks Forgotten in this First Book
 
 ## Notes
 
