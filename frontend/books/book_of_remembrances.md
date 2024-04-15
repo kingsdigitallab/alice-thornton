@@ -86,7 +86,7 @@ With My Own Desperate, Weak Condition upon Grief for Him <br/>
 Prayers and Confessions, with a Return of Thanks after Our Recoveries <br/>
 Meditations upon My Joyce Her Sickness <br/>
 Joyce Thornton Her Death <br/>
-A Deliverance of My Daughter Alice Thornton from a Surfeit of Eating Turbot <br/>
+[A Deliverance of My Daughter Alice Thornton from a Surfeit of Eating Turbot](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.103&p0.vi=modern) <br/>
 A Great Deliverance from a Miscarriage <br/>
 The Great Fire in London <br/>
 Kate Thornton Fell Ill of the Smallpox <br/>
