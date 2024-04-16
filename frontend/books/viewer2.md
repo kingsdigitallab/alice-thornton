@@ -267,7 +267,7 @@ hideFooter: true
     <nav class="panel-nav">
         <div>
           <template id="vue-panel-selector">
-            <div class="select-dropdown tooltip">
+            <div class="select-dropdown">
               <span class="bottom">{{tooltip}}</span>
               <!-- removed id="image_switcher" -->
               <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">

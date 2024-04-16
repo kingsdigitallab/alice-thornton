@@ -3,6 +3,9 @@
 //Import Fonts
 @import "fonts.scss";
 
+//Import Colours
+@import "color-theme";
+
 /* 2. Mixins  */
 
 @mixin calc($prop, $val) {
@@ -19,11 +22,10 @@
   transform: translate3d($x, $y, $z);
 }
 
-@import "fonts.scss";
-@import "color-theme";
+
 
 header{
-  display:none; 
+ 
 }
 
 
@@ -42,7 +44,6 @@ main#text-viewer {
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
     display: flex;
-    align-items: center;
     justify-content: center;
 
     > .panel {
@@ -67,28 +68,41 @@ main#text-viewer {
         justify-content: space-between;
         &.bottom{
           bottom:0;
-          height:50px;
+          height:60px;
           border-top: 1px solid $gray-dark;
           border-bottom: none;
+          .pagination{
+            display: inline;
+          }
+          div:nth-child(2){
+              height: 31px;            
+          }
         }
         div{
           text-align: center;
           margin:0;
           cursor: pointer;
           display:inline-block;
+   
           &.icon{
             width:60px;
             height:50px;
             border-left:1px solid $gray-dark;
             margin-left: auto;
+            line-height:1;
             a{
               display:block;
+              text-decoration: none;
             }
           &:hover{
             background:lighten($gray, 6%);
+            span{
+              color:$secondary;
+            }
           }
           span{
             font-size: 11px;
+            color:$primary;
           }
           }//.icon
           a.pagination{
@@ -101,17 +115,19 @@ main#text-viewer {
             cursor: pointer;
             border-radius: 50%;
             color:$primary-dark;
-            margin-right:8px;
+            margin:8px;
             &:hover{
               background:lighten($gray,5%);
+              color:$secondary;
             }
 
           } //a.pagination
           .select-dropdown {
             display: inline-block;
             opacity: 1;
-            padding:13px 8px;
+            padding:0 8px;
             margin:0;
+            position:relative;
             select {
               font-size: 20px;
               border: none;
@@ -122,7 +138,9 @@ main#text-viewer {
               appearance: none;
               //max-width: 100%;
               padding: 0 1.5em 0 0.5em;
-            }
+              height:50px;
+              cursor: pointer;
+            } 
             &:after {
               border-top: 5px solid $primary-dark;
               content: " ";
@@ -139,7 +157,7 @@ main#text-viewer {
             &:hover {
               background:lighten($gray, 6%);
               select {
-                color: $primary;
+                color:$secondary;
               } //select
               &:after {
                 border-top: 5px solid $primary;
@@ -254,9 +272,6 @@ main#text-viewer {
             width: 30px;
           }
         } //span
-        &:hover {
-          opacity: 0.7;
-        } //&:hover
       } //label
       [type="radio"] {
         display: none;
@@ -718,95 +733,6 @@ main#text-viewer {
   -webkit-transform: $transforms;
   transform: $transforms;
 }
-
-/* --- Tooltip || Begin --- */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  .tooltiptext {
-    visibility: hidden;
-    max-width: 20em;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    font-size: 0.7em;
-    padding: 0.5em;
-    position: absolute;
-    z-index: 1;
-    word-wrap: break-word;
-    line-height: 1;
-    z-index: 9;
-    &:after {
-      // * Tooltip Arrow
-      border-width: 5px;
-      border-style: solid;
-      content: "";
-      position: absolute;
-    } //&:after
-    &.top {
-      bottom: 150%;
-      left: 50%;
-      transform: translate(-50%, 0px);
-      &:after {
-        border-color: black transparent transparent transparent; /* top */
-
-        top: 100%;
-        left: 50%;
-        margin-left: -5px;
-      } //&:after
-    } //.top
-
-    &.left {
-      right: 150%;
-
-      top: 50%;
-      transform: translate(0px, -50%);
-      &:after {
-        border-color: transparent transparent transparent black; /* left */
-
-        top: 50%;
-        left: 100%;
-        margin-top: -5px;
-      } //&:after
-    } //.left
-
-    &.right {
-      left: 150%;
-
-      top: 50%;
-      transform: translate(0px, -50%);
-      &:after {
-        border-color: transparent black transparent transparent; /* right */
-
-        top: 50%;
-        right: 100%;
-        margin-top: -5px;
-      } //&:after
-    } //.right
-
-    &.bottom {
-      top: 150%;
-
-      left: 50%;
-      transform: translate(-50%, 0px);
-      &:after {
-        border-color: transparent transparent black transparent; /* bottom */
-
-        bottom: 100%;
-        left: 50%;
-        margin-left: -5px;
-      } //&:after
-    } //.bottom
-  } //.tooltiptext
-  &:hover {
-    .tooltiptext {
-      visibility: visible;
-      opacity: 1;
-      cursor: pointer;
-    } //.tooltiptext
-  } //&:hover
-} //.tooltip
 
 @media screen and (max-width: 1200px){
   main .panel-wrapper > .panel {
