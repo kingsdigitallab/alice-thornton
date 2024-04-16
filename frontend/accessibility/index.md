@@ -61,6 +61,6 @@ We used this approach to decide on a sample of pages to test:
 - The <a href="/posts/blog/2023-09-15-digital-edition-eleanor-picks/">Blog</a> page
 - The <a href="/entities/">Search</a> page
 - The <a href="/credits/">Credits &amp; Acknowledgements</a> page
-- The <a href="/viewer/">Text Viewer</a> page
+- The <a href="/viewer/?p0.vi=modern">Text Viewer</a> page
 
 This page is based on the [sample template](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website) provided by gov.uk.
