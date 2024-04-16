@@ -11,6 +11,14 @@
 }
 ---
 
+<nav class="post-meta">
+  Filter by:
+  <a hre="/posts/blog" class="category-link tag is-accent">Blogs</a>
+  <a hre="/posts/news" class="category-link tag is-accent">News</a> 
+  <a hre="/posts/tags" class="tag is-info is-light">Tags</a>
+</nav>
+<br>
+
 {% for post in pagination.items %}
   {% include "post_summary.liquid" %}
 {% endfor %}
