@@ -129,12 +129,12 @@ a {
 // GF 26/01/2023: tired of fighting with Bulms's defaults
 // Going nuclear on max-width for container
 
-/*.container {
+.container {
   @media screen and (min-width: 1120px) {
-    max-width: 1120px !important;
+    max-width: 1280px !important;
     padding: 0 6rem !important;
   }
-}*/
+}
 
 // GN: fix text spilling over text viewer because bulma padding is too large
 div.container.is-fluid {
@@ -224,12 +224,12 @@ h3 {
 }
 
 .top-nav {
-  background: url("/assets/img/at-decoration-pattern-1.jpg") left 96% repeat-x;
-  background-size: 50px;
+  background: url("/assets/img/at-decoration-pattern-1.jpg") left 93% repeat-x;
+  background-size: 38px;
   padding-bottom: 1rem;
-  position:sticky;
-  top:0;
-  z-index:1;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 // Homepage
@@ -269,8 +269,8 @@ h3 {
 
 body > footer.footer {
   background: url("/assets/img/at-decoration-pattern-1.jpg") left -5px repeat-x lighten($gray, 30%);
-  background-size: 50px;
-  padding:0.8em 0 0 0;
+  background-size: 40px;
+  padding:0.4em 0 0 0;
   .has-text-centered{
     h2{
       border-top: 8px solid $primary;
@@ -464,6 +464,7 @@ figcaption {
 }
 
 .logo {
+  font-size:1.2em;
   img {
     background: $white;
     border: 1px solid $gray;
