@@ -137,10 +137,12 @@ Example:
             <xsl:variable name="document" select="document('')//lookup:documents/lookup:doc[@key=$ptr/@subtype]" />
             <xsl:variable name="documentPath" select="concat('edition/texts/0', $document/@order, '_', $document/@filename, '/', $document/@filename, '.xml')" />
             <!-- <ptr target="book3:ev94 book3:ev96 book3:ev169 book3:ev212" type="book" subtype="book3"/> -->
+            <!-- <anchor xml:id="ev1-end" n="ev1" type="event"/> -->
             "<xsl:value-of select="$document/@filename"/>": [
             <xsl:for-each select="tokenize(./@target)">
-                <xsl:for-each select="key('element_from_eventid', tokenize(., ':')[2], document($documentPath))">
-                    <xsl:value-of select="number(preceding::tei:pb[1]/@n)"/>
+                <xsl:variable name="eventNumber" select="tokenize(., ':')[2]" />
+                <xsl:for-each select="key('element_from_eventid', $eventNumber, document($documentPath))">
+                    "<xsl:value-of select="number(preceding::tei:pb[1]/@n)"/>-<xsl:value-of select="number(document($documentPath)//tei:anchor[@n=$eventNumber]/preceding::tei:pb[1]/@n)" />"
                 </xsl:for-each>
                 <xsl:if test="position() != last()">,</xsl:if>
             </xsl:for-each>

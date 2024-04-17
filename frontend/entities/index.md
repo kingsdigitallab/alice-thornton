@@ -104,11 +104,14 @@ eleventyNavigation:
                   {{ getLabelFromOptionKey(bookId) }}: 
                   p<template v-if="pages.length > 1">p</template>.
                   <template v-for="(page, index) in pages">
-                    <template v-if="isLocusVisible(bookId, page)">
-                      <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${page}&p0.vi=modern&hi=${item['id']}`">{{ page }}</a>
-                    </template>
-                    <template v-else>
-                      {{ page }}
+                    <template v-for="(pagePart, partIndex) in getPageParts(page)">
+                      <template v-if="partIndex > 0">&mdash;</template>
+                      <template v-if="isLocusVisible(bookId, pagePart)">
+                        <a :href="`/books/viewer/?p0.do=${bookId}&p0.lo=p.${pagePart}&p0.vi=modern&hi=${item['id']}`">{{ pagePart }}</a>
+                      </template>
+                      <template v-else>
+                        {{ pagePart }}
+                      </template>
                     </template>
                     <template v-if="index < (pages.length - 1)">, </template>
                   </template>
