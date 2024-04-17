@@ -273,7 +273,7 @@ hideFooter: true
               <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
                 <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
               </select>
-              <!--<span class="icon"><i class="fas fa-caret-down"></i></span>-->
+              <span class="icon"><i class="fas fa-caret-down"></i></span>
             </div>
           </template>
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
