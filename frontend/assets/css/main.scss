@@ -126,7 +126,6 @@ a {
     img{
       opacity:1;
       box-shadow: 1px 2px 4px darken($gray-dark, 30%);
-      border:3px solid $primary-dark;
     }
   }
 }
@@ -530,6 +529,11 @@ a:nth-child(2) img, a:nth-child(4) img {
         object-fit: cover;
         height: 17em;
         width: 14em;
+      }
+      &:hover{
+        img{
+        border:3px solid $primary-dark;
+        }
       }
     }
     .book-buttons {
