@@ -120,9 +120,14 @@ body:not(.slug-viewer) {
 
 a {
   text-decoration: underline;
-
   &:hover {
     opacity:0.8;
+    text-decoration-style: double;
+    img{
+      opacity:1;
+      box-shadow: 1px 2px 4px darken($gray-dark, 30%);
+      border:3px solid $primary-dark;
+    }
   }
 }
 
@@ -282,7 +287,6 @@ body > footer.footer {
   }
   .logo-x {
     img {
-      background-color: black;
       padding: 2px;
     }
   }
@@ -487,7 +491,6 @@ figcaption {
   align-items: center;
 a{
   img {
-    background: transparent;
     max-width: 100%;
     @include mobile {
       margin: 1em auto;
@@ -522,10 +525,12 @@ a:nth-child(2) img, a:nth-child(4) img {
     h3{
       color: $secondary-dark;
     }
-    img{
-      object-fit: cover;
-      height: 17em;
-      width: 14em;
+    a{
+      img{
+        object-fit: cover;
+        height: 17em;
+        width: 14em;
+      }
     }
     .book-buttons {
       margin-top: auto;
@@ -611,7 +616,11 @@ a:nth-child(2) img, a:nth-child(4) img {
 .post-meta {
   font-size: 0.875em;
   font-style: italic;
-
+  a:hover{
+    text-decoration: none;
+    opacity: 1;
+    box-shadow: 1px 2px 4px darken($gray-dark, 20%);
+  }
   .tag.category-link {
     background:$white;
     color: $white;
@@ -998,20 +1007,20 @@ justify-content: center;
   background: $primary;
   color:$white;
   &:hover{
-    background: $secondary-dark;
+    background: $primary-dark;
+    opacity: 1;
+    box-shadow: 1px 2px 4px darken($gray-dark, 30%);
   }
 }
 
 .button.is-secondary{
   background: $white;
-  border: 1px solid $primary;
-  color:$primary;
+  border: 1px solid $secondary-dark;
+  color:$secondary-dark;
 
   &:hover{
-    border: 1px solid $secondary-dark;
-    color:$secondary-dark;
-    opacity: 0.9;
-    box-shadow: 1px 2px 5px $gray-dark;
+    opacity: 0.8;
+    box-shadow: 1px 2px 4px darken($gray-dark, 20%);
   }
 }
 

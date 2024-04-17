@@ -88,16 +88,18 @@ main#text-viewer {
             line-height:1;
             display: inline-block;
             min-width: 0;
+            background:$primary;
             a{
               display:block;
               text-decoration: none;
+              color: white;
             }
           span{
             font-size: 11px;
-            color:$primary;
+            color:white;
           }
           &:hover{
-            background:lighten($gray, 6%);
+            background:$primary-dark;
             span{
               color:$secondary;
             }
