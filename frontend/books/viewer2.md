@@ -129,6 +129,7 @@ hideFooter: true
         </div>  
       </div>
     </div>
+    </div>
     <div class="tab">
       <input
         type="radio"
