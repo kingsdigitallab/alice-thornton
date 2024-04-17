@@ -307,6 +307,12 @@ function setUpSearch() {
       getContentClasses(panel) {
         return `view-${panel.selections.view}`;
       },
+      getPageParts(page) {
+        // '123-130' => [123, 130]
+        // '123' => [123]
+        let ret = [...new Set(page.split("-"))];
+        return ret;
+      },
     },
   });
   app.mount("#search");
