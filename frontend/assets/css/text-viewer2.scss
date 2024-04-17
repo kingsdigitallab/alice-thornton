@@ -22,6 +22,22 @@
   transform: translate3d($x, $y, $z);
 }
 
+@mixin transform($transforms) {
+  -moz-transform: $transforms;
+    -o-transform: $transforms;
+   -ms-transform: $transforms;
+-webkit-transform: $transforms;
+       transform: $transforms;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
 //* 2. MAIN *//
 main#text-viewer {
   //overflow: hidden;
@@ -32,10 +48,7 @@ main#text-viewer {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+    @include transition(all 300ms ease-in); 
     display: flex;
     justify-content: center;
 
@@ -97,11 +110,12 @@ main#text-viewer {
           span{
             font-size: 11px;
             color:white;
+            @include transition(all 300ms ease-in); 
           }
           &:hover{
             background:$primary-dark;
             span{
-              color:$secondary;
+            @include transform(scale(1.5));
             }
           }
           }//.icon
@@ -121,9 +135,15 @@ main#text-viewer {
             border-radius: 50%;
             color:$primary-dark;
             margin:8px;
+            span i{
+              @include transition(all 300ms ease-in); 
+            }
             &:hover{
               background:lighten($gray,5%);
               color:$secondary;
+              span i{
+                @include transform(scale(1.5));
+              }
             }
 
           } //a.pagination
@@ -149,35 +169,23 @@ main#text-viewer {
             } 
             span{
               width: 30px;
-    height: 60px;
-    position: absolute;
-    display: inline-block;
-    top: 12px;
-    right: 4px;
-    pointer-events: none;
-            }
-            /**&:after {
-              border-top: 5px solid $primary-dark;
-              content: " ";
+              height: 60px;
               position: absolute;
-              top: 50%;
-              margin-top: -2px;
-              right: 8px;
-              width: 0;
-              height: 0;
-              border-left: 5px solid transparent;
-              border-right: 5px solid transparent;
-              border-top: 5px solid $primary-dark;
-              pointer-events:none;
-            }**/
+              display: inline-block;
+              top: 12px;
+              right: 4px;
+              pointer-events: none;
+              @include transition(all 300ms ease-in); 
+            }
             &:hover {
               background:lighten($gray, 6%);
               select {
                 color:$secondary;
               } //select
-              &:after {
-                border-top: 5px solid $primary;
-              } //&:after
+              span {
+                @include transform(scale(1.5));
+                top: 18px;
+              } //span
             } //&:hover
           } //.select-dropdown
         }//div
@@ -202,11 +210,7 @@ main#text-viewer {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+    @include transition(all 300ms ease-in); 
     //overflow:scroll;
   } //aside#drawer
   #drawer-switch {
@@ -246,10 +250,7 @@ main#text-viewer {
     text-align: center;
     cursor: pointer;
     width:100%;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    @include transition(all 300ms ease-in); 
     width:60px;
     &:focus {
       outline: none;
