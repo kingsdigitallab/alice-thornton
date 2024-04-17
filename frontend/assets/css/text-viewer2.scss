@@ -102,20 +102,23 @@ main#text-viewer {
             display: inline-block;
             min-width: 0;
             background:$primary;
-            a{
+            h2{
               display:block;
-              text-decoration: none;
               color: white;
+              font-size: 11px;
+              font-weight: bold;
+              text-transform: uppercase;
             }
-          span{
-            font-size: 11px;
+          i{
+            font-size: 13px;
             color:white;
             @include transition(all 300ms ease-in); 
+            padding: 8px 0;
           }
           &:hover{
             background:$primary-dark;
-            span{
-            @include transform(scale(1.5));
+            i{
+            @include transform(scale(1.4));
             }
           }
           }//.icon
@@ -126,7 +129,7 @@ main#text-viewer {
           }
           a.pagination{
             text-decoration: none;
-            padding: 15px 12px 15px 12px;
+            padding: 15px 18px 15px 18px;
             text-transform: uppercase;
             font-size:12px;
             position: relative;
@@ -135,13 +138,12 @@ main#text-viewer {
             border-radius: 50%;
             color:$primary-dark;
             margin:8px;
-            span i{
+            i{
               @include transition(all 300ms ease-in); 
             }
             &:hover{
               background:lighten($gray,5%);
-              color:$secondary;
-              span i{
+              i{
                 @include transform(scale(1.5));
               }
             }
@@ -167,12 +169,12 @@ main#text-viewer {
               cursor: pointer;
               display: inline-block;
             } 
-            span{
+            i{
               width: 30px;
               height: 60px;
               position: absolute;
               display: inline-block;
-              top: 12px;
+              top: 18px;
               right: 4px;
               pointer-events: none;
               @include transition(all 300ms ease-in); 
@@ -182,9 +184,9 @@ main#text-viewer {
               select {
                 color:$secondary;
               } //select
-              span {
-                @include transform(scale(1.5));
-                top: 18px;
+              i {
+                @include transform(scale(1.4));
+                top: 23px;
               } //span
             } //&:hover
           } //.select-dropdown
@@ -267,12 +269,9 @@ main#text-viewer {
     display:block;
     margin: 0;
     width: 500px;
+    white-space: initial;
     .tab {
-      //float: left;
-      // clear: both;
       width: 50px;
-      //height: 3em;
-      background:green;
       *{
         box-sizing: content-box;
       }
@@ -285,19 +284,29 @@ main#text-viewer {
         position: relative;
         left: 1px;
         width: 5em;
-        display: inline-block;
+        display: block;
         text-align: center;
         cursor: pointer;
+        height:50px;
+        i{
+          font-size:16px;
+          padding-top:8px;
+          color: $primary-dark;
+          @include transition(all 300ms ease-in); 
+        }//i
+        h2{
+          line-height: 1;
+          position: absolute;
+          bottom:8px;
+          width:50px;
+          text-align: center;
+        }
         &:hover{
           background:lighten($gray,5%);
-        }
-        span {
-          display: block;
-          font-size: 2.7em;
-          img{
-            width: 30px;
+          i{
+            @include transform(scale(1.5));
           }
-        } //span
+        }
       } //label
       [type="radio"] {
         display: none;
@@ -306,9 +315,9 @@ main#text-viewer {
           border-bottom: 1px solid #2825ca;
           z-index: 2;
           color: white;
-          span img{
-            filter: invert(100%);
-          }
+          i{
+            color: white;
+          }//i
           &:hover{
             background: $primary-dark;
           }

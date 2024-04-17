@@ -29,9 +29,9 @@ hideFooter: true
         name="tab-group-1"
         checked>
       <label for="tab-1">
-        <span><img src="https://static.thenounproject.com/png/1225909-200.png"></span>Key</label>
+        <i class="fas fa-list"></i><h2>Legend</h2></label>
       <div class="content">
-            <h2>Key</h2>
+            <h2>Legend</h2>
 <div class="textblock">  
   <h3>Text block</h3>
 <ul>
@@ -136,7 +136,7 @@ hideFooter: true
         id="tab-2"
         name="tab-group-1">
       <label for="tab-2">
-        <span>✎</span>Editorial Notes
+        <i class="fas fa-pen-fancy"></i><h2>Editorial Notes</h2>
       </label>
       <div class="content">
         <ul>
@@ -197,7 +197,7 @@ hideFooter: true
         id="tab-3"
         name="tab-group-1">
       <label for="tab-3">
-        <span>♛</span>Entities
+        <i class="fas fa-shapes"></i><h2>Entities</h2>
       </label>
       <div class="content">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
@@ -232,7 +232,7 @@ hideFooter: true
         id="tab-4"
         name="tab-group-1">
       <label for="tab-4">
-        <span>✥</span>Biblical Refererences
+        <i class="fas fa-cross"></i><h2>Biblical Refererences</h2>
       </label>
       <div class="content">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
@@ -274,7 +274,7 @@ hideFooter: true
               <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
                 <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
               </select>
-              <span class="icon"><i class="fas fa-caret-down"></i></span>
+              <i class="fas fa-caret-down"></i>
             </div>
           </template>
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
@@ -283,21 +283,19 @@ hideFooter: true
         <div class="icons">
           <div class="icon">
             <label for="drawer-switch" id="drawer-toggle">
-            <span class="icon"><i class="fas fa-info-circle"></i></span>
-            <br>
-            <span>Info </span>
+            <i class="fas fa-info-circle"></i>
+            <h2>Info</h2>
             </label>
           </div>
           <div class="clone">
           <div class="icon" v-if="canClonePanel">
-            <a @click.stop.prevent="clonePanel(panelIdx)"><span class="icon"><i class="far fa-clone"></i></span><br>
-            <span>Clone</span>
+            <a @click.stop.prevent="clonePanel(panelIdx)"><i class="far fa-clone"></i>
+            <h2>Clone</h2>
             </a>
           </div>
           <div class="icon" v-if="panels.length > 1">
-            <a @click.stop.prevent="closePanel(panelIdx)"><span class="icon"><i class="fas fa-times"></i></span>
-            <br>
-            <span>Close</span>
+            <a @click.stop.prevent="closePanel(panelIdx)"><i class="fas fa-times"></i>
+            <h2>Close</h2>
             </a>
           </div>
           </div>
@@ -311,8 +309,8 @@ hideFooter: true
           <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
           </div>
           <div>
-          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)"><span class="icon"><i class="fas fa-arrow-left"></i></span></a>
-        <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)"><span class="icon"><i class="fas fa-arrow-right"></i></span></a>
+          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)"><i class="fas fa-arrow-left"></i></a>
+        <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)"><i class="fas fa-arrow-right"></i></a>
         </div>
     </nav>
   </div>
