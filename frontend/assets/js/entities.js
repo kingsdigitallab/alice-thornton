@@ -310,7 +310,7 @@ function setUpSearch() {
       getPageParts(page) {
         // '123-130' => [123, 130]
         // '123' => [123]
-        let ret = [...new Set(page.split("-"))];
+        let ret = [...new Set(`${page}`.split("-"))];
         return ret;
       },
     },
