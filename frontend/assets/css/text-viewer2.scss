@@ -22,13 +22,6 @@
   transform: translate3d($x, $y, $z);
 }
 
-
-
-header{
- 
-}
-
-
 //* 2. MAIN *//
 main#text-viewer {
   //overflow: hidden;
@@ -77,34 +70,44 @@ main#text-viewer {
           div:nth-child(2){
               height: 31px;            
           }
-        }
+        }//.bottom
         div{
           text-align: center;
           margin:0;
           cursor: pointer;
-          display:inline-block;
-   
+          &.icons{
+            display:flex;
+            min-width: 0;
+          }
           &.icon{
             width:60px;
             height:50px;
             border-left:1px solid $gray-dark;
+            box-shadow: 0 1px $gray-dark, 0px -1px $gray-dark;
             margin-left: auto;
             line-height:1;
+            display: inline-block;
+            min-width: 0;
             a{
               display:block;
               text-decoration: none;
             }
+          span{
+            font-size: 11px;
+            color:$primary;
+          }
           &:hover{
             background:lighten($gray, 6%);
             span{
               color:$secondary;
             }
           }
-          span{
-            font-size: 11px;
-            color:$primary;
-          }
           }//.icon
+          &.clone{
+            display: flex;
+            box-shadow: 0 1px $gray-dark, 0px -1px $gray-dark;
+            min-width: 0;
+          }
           a.pagination{
             text-decoration: none;
             padding: 15px 20px 15px 20px;
@@ -234,6 +237,7 @@ main#text-viewer {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    width:60px;
     &:focus {
       outline: none;
     } //&:focus

@@ -268,7 +268,7 @@ hideFooter: true
         <div>
           <template id="vue-panel-selector">
             <div class="select-dropdown">
-              <span class="bottom">{{tooltip}}</span>
+              {{tooltip}}
               <!-- removed id="image_switcher" -->
               <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
                 <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
@@ -278,25 +278,27 @@ hideFooter: true
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
         </div>
-        <div class="icon">
-          <label for="drawer-switch" id="drawer-toggle">
-          &#9432
-          <br>
-          <span>Info </span>
-          </label>
-        </div>
-        <div>
-        <div class="icon" v-if="canClonePanel">
-          <a @click.stop.prevent="clonePanel(panelIdx)">+<br>
-          <span>Clone</span>
-          </a>
-        </div>
-        <div class="icon" v-if="panels.length > 1">
-          <a @click.stop.prevent="closePanel(panelIdx)">-
-          <br>
-          <span>Close</span>
-          </a>
-        </div>
+        <div class="icons">
+          <div class="icon">
+            <label for="drawer-switch" id="drawer-toggle">
+            &#9432
+            <br>
+            <span>Info </span>
+            </label>
+          </div>
+          <div class="clone">
+          <div class="icon" v-if="canClonePanel">
+            <a @click.stop.prevent="clonePanel(panelIdx)">+<br>
+            <span>Clone</span>
+            </a>
+          </div>
+          <div class="icon" v-if="panels.length > 1">
+            <a @click.stop.prevent="closePanel(panelIdx)">-
+            <br>
+            <span>Close</span>
+            </a>
+          </div>
+          </div>
     </nav>
     <div class="panel-chunk">
       <div :class="'content '+getContentClasses(panel)" v-html="panel.responses.document">
