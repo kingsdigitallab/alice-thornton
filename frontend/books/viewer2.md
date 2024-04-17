@@ -273,6 +273,7 @@ hideFooter: true
               <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
                 <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
               </select>
+              <!--<span class="icon"><i class="fas fa-caret-down"></i></span>-->
             </div>
           </template>
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
@@ -281,19 +282,19 @@ hideFooter: true
         <div class="icons">
           <div class="icon">
             <label for="drawer-switch" id="drawer-toggle">
-            &#9432
+            <span class="icon"><i class="fas fa-info-circle"></i></span>
             <br>
             <span>Info </span>
             </label>
           </div>
           <div class="clone">
           <div class="icon" v-if="canClonePanel">
-            <a @click.stop.prevent="clonePanel(panelIdx)">+<br>
+            <a @click.stop.prevent="clonePanel(panelIdx)"><span class="icon"><i class="far fa-clone"></i></span><br>
             <span>Clone</span>
             </a>
           </div>
           <div class="icon" v-if="panels.length > 1">
-            <a @click.stop.prevent="closePanel(panelIdx)">-
+            <a @click.stop.prevent="closePanel(panelIdx)"><span class="icon"><i class="fas fa-times"></i></span>
             <br>
             <span>Close</span>
             </a>
@@ -309,8 +310,8 @@ hideFooter: true
           <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
           </div>
           <div>
-          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)">❮</a>
-        <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)">❯</a>
+          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)"><span class="icon"><i class="fas fa-arrow-left"></i></span></a>
+        <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)"><span class="icon"><i class="fas fa-arrow-right"></i></span></a>
         </div>
     </nav>
   </div>
