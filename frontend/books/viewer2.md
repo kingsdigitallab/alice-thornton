@@ -31,9 +31,9 @@ hideFooter: true
       <label for="tab-1">
         <span><img src="https://static.thenounproject.com/png/1225909-200.png"></span>Key</label>
       <div class="content">
-            <h1>Key</h1>
+            <h2>Key</h2>
 <div class="textblock">  
-  <h2>Text block</h2>
+  <h3>Text block</h3>
 <ul>
   <li>Page title heading<br>
     <span>largest size, centred, bold font</span>
@@ -59,7 +59,7 @@ hideFooter: true
   </ul>
   
   <div class="transcription">  
-  <h2>Transcription</h2>
+  <h3>Transcription</h3>
 <ul>
   
   <li>Addition information added by the author<br>
@@ -91,7 +91,7 @@ hideFooter: true
   </ul>
         </div>  
       <div class="features">  
-  <h2>Discursive and Contextual Features </h2>
+  <h3>Discursive and Contextual Features </h3>
 <ul>
   
  <li>a person's name/monogram<br><span>cursive font (replicating handwriting)</span></li>
@@ -109,7 +109,7 @@ hideFooter: true
   
   
     <div class="editorial">  
-  <h2>Editorial Interventions</h2>
+  <h3>Editorial Interventions</h3>
 <ul>
   
  <li>Editorial Notes<br><span>note icon on side margin</span></li>
@@ -121,7 +121,7 @@ hideFooter: true
         </div>  
   
       <div class="images">  
-  <h2>Images</h2>
+  <h3>Images</h3>
 <ul>
     <li>scanned image of page in the author's original book<br><span>image icon</span>
   </li>
@@ -318,4 +318,3 @@ hideFooter: true
   </div>
 </div>
 {% endraw %}
-
