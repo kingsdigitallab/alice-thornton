@@ -17,6 +17,14 @@
 
 @import "../node_modules/bulma/bulma.sass";
 
+/*  Mixins  */
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
 .is-primary {
   background: $primary;
   text-decoration: none;
@@ -25,8 +33,6 @@
 .is-secondary {
   background: $secondary;
 }
-
-
 
 /* Global styles */
 
@@ -466,6 +472,7 @@ figcaption {
   }
 }
 
+
 .logo {
   font-size:1.2em;
   img {
@@ -480,14 +487,18 @@ figcaption {
   }
 }
 
-.logos,
-.logos,
-[class^="gallery-"] .logos {
+.logos{
   padding: 0 20px;
   border-bottom:1px solid $primary;
   margin: 0 auto 24px auto;
   max-width: 1280px;
   align-items: center;
+  @include tablet {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  @include mobile {
+    grid-template-columns: 1fr 1fr;
+  }
 a{
   img {
     max-width: 100%;
@@ -496,9 +507,18 @@ a{
       max-width: 300px;
     }
   }
+  &:hover{
+    img{
+      box-shadow: none;
+      @include transition(none); 
+    }
+  }
 }
 a:nth-child(2) img, a:nth-child(4) img {
     width:50%;
+  }
+a:nth-child(2) img {
+    padding:5px;
   }
 
   @include mobile {
