@@ -19,10 +19,18 @@
   </head>
   <body>
     {% include "header.liquid" %}
-    <main id="text-viewer">
+    <section>
+      <div class="container is-fluid">
+        
+          <h1 class="title">
+            Digital Edition
+          </h1>
+        
+    <section id="text-viewer">
       {{ content }}
-    </main>
-
+    </section>
+    </div>
+    </section>
     <script src="/assets/node_modules/vue/dist/vue.global.js"></script>
     <script src="/assets/node_modules/kdl-dts-client/index.js?ts={{ "now" | date: "%s" }}"></script>
     <script src="/assets/js/text-viewer.js?ts={{ "now" | date: "%s" }}"></script>
