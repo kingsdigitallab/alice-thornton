@@ -16,7 +16,7 @@ The text of all four manuscript volumes will be available to read in both fully 
   {%- for book in books -%}
     <figure class="book columns">
       <a href="{{ book.url | url }}" class="column is-half">
-        <img src="{{ book.data.image }}">
+        <img src="{{ book.data.image }}" alt="Photograph of the original front of book, very used scuffed faded covers, showcasing charm and elegance">
       </a>
       <div class="column is-half is-flex is-flex-direction-column">
         <h3>{{ book.data.title }}</h3>
