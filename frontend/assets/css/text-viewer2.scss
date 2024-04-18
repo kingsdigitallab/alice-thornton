@@ -128,7 +128,7 @@ main#text-viewer {
             box-shadow: 0 1px $gray-dark, 0px -1px $gray-dark;
             min-width: 0;
           }
-          a.pagination{
+          button.pagination{
             text-decoration: none;
             padding: 15px 18px 15px 18px;
             text-transform: uppercase;
@@ -139,6 +139,7 @@ main#text-viewer {
             border-radius: 50%;
             color:$primary-dark;
             margin:8px;
+            background: white;
             i{
               @include transition(all 300ms ease-in); 
             }

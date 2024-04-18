@@ -316,8 +316,8 @@ hideFooter: true
           <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
           </div>
           <div>
-          <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)"><i class="fas fa-arrow-left"></i></a>
-        <a class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)"><i class="fas fa-arrow-right"></i></a>
+          <button class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)" aria-label ="previous page"><i class="fas fa-arrow-left"></i></button>
+        <button class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)" aria-label ="next page"><i class="fas fa-arrow-right"></i></button>
         </div>
     </nav>
   </div>
