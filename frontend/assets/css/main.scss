@@ -739,26 +739,30 @@ ul.social_media_block {
 // Box citation
 
 .box-citation {
-  border: 1px dotted $primary;
-
-  p {
+  border: 3px double $primary-light;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 8px 16px;
+  margin-top:60px;
+  h3 {
     font-weight: 700;
+    font-size:16px;
+    width:100%;
+    flex-basis: 100%;    
   }
-
   // GN: partners requested not to have italics in the citation
   cite {
     font-style: normal;
+    font-size:14px;
+    flex: 1;
+    margin-right:20px;
   }
 
-  // copy icon
-  // TODO: might want to move this in the HTML once there is a copy button
-  // background: url(/assets/img/icons/font-awesome/copy.svg) top right no-repeat;
-  // background-origin: content-box;
-  // background-size: 20px;
-
-  button {
-    float: right;
+  button{
+    font-size:14px;
   }
+
 }
 
 ul.undecorated-list {
