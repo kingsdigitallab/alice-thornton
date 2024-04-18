@@ -17,6 +17,8 @@ hideFooter: true
 ---
 
 {% raw %}
+<!-- TO: Commenting out information drawer for now as still needs more work 
+
 <input id="drawer-switch" type="checkbox" />
 
 <aside id="drawer" role="complementary">
@@ -80,14 +82,10 @@ hideFooter: true
   </li>
   
   
-  <!--
-  
   <li>visual elements/drawings by the author<br><span>gylphs</span>
   </li>
-  </li>-->
+  </li>
 
-
-  
   </ul>
         </div>  
       <div class="features">  
@@ -263,6 +261,7 @@ hideFooter: true
     </div>
   </div>
 </aside>
+-->
 <div class="panel-wrapper">
   <div class="panel" v-for="(panel, panelIdx) in panels">
     <nav class="panel-nav">
@@ -281,10 +280,18 @@ hideFooter: true
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
         </div>
         <div class="icons">
+        <!-- TO: Commenting out information drawer for now as still needs more work 
           <div class="icon">
             <label for="drawer-switch" id="drawer-toggle">
             <i class="fas fa-info-circle"></i>
             <h2>Info</h2>
+            </label>
+          </div>
+          -->
+        <div class="icon">
+            <label for="drawer-switch" id="drawer-toggle">
+            <i class="fas fa-print"></i>
+            <h2>Print</h2>
             </label>
           </div>
           <div class="clone">
