@@ -58,11 +58,13 @@ main#text-viewer {
       max-width: 60vw;
       height: 90vh;
       overflow:scroll;
-      display: flex;
       flex-direction: column;
       background:white;
       // bottom: calc(50vh + 3.8em);
-      
+      display: flex;
+      justify-content: space-between;
+      flex-basis: 100%;
+      overflow: hidden;
       nav.panel-nav {
         width: 100%;
         padding: 0;
@@ -72,6 +74,7 @@ main#text-viewer {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border-bottom: 1px solid $gray-dark;
         &.bottom{
           bottom:0;
           height:60px;
@@ -79,9 +82,6 @@ main#text-viewer {
           border-bottom: none;
           .pagination{
             display: inline;
-          }
-          div:nth-child(2){
-              height: 31px;            
           }
         }//.bottom
         div{
@@ -866,9 +866,9 @@ $render-sic: false;
 // -------------------------------------------------
 
 #text-viewer .panel-chunk {
-  border-top: 1px solid lightgrey;
   overflow: scroll;
-  height:90vh;
+  height:calc(90vh - 120px);
+  margin-top: 23px;
 }
 
 #text-viewer {
