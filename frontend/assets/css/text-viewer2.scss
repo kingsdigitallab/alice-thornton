@@ -207,7 +207,7 @@ section#text-viewer {
   /* 2.1 PUSH MENU & DRAWER */
   aside#drawer {
     position: fixed;
-    top: 2.9em;
+    top: 87px;
     right: -30%;
     width: 500px;
     height: 100%;
@@ -217,9 +217,16 @@ section#text-viewer {
     box-sizing: border-box;
     @include transition(all 300ms ease-in); 
     //overflow:scroll;
+    h1{
+      background:white;
+      padding:4px 60px 8px 12px;
+      font-size:24px;
+      font-weight: bold;
+      line-height:1.2;
+    }
   } //aside#drawer
   #drawer-switch {
-    display: none;
+
     &:checked ~ #drawer {
       right: 0;
     } //&:checked ~ #drawer
@@ -232,18 +239,28 @@ section#text-viewer {
           content: "✕";
         }*/ //&:before
         &:after {
-          content: "➳";
-          font-size: 2em;
-          line-height: 1.8;
+          content: "✕ ";
+          color:white;
+          font-size: 22px;
+          line-height: 2.2;
           text-align: center;
-          width: 2em;
-          height: 2em;
+          width: 50px;
+          height: 50px;
           position: fixed;
-          right: 0.2em;
-          top: 1.5em;
+          right: 0;
+          top: 87px;
           cursor: pointer;
           border: none;
+          background:$primary;
+          @include transition(all 300ms ease-in);
         } //&:after
+        &:hover{
+          &:after {
+            background:$primary-dark;
+            font-size: 28px;
+            line-height: 1.8;
+          }
+        }
       } //#drawer-toggle
     } //&:checked ~ .panel-wrapper
   } //#drawer-switch

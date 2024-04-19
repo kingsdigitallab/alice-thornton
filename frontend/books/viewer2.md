@@ -22,7 +22,7 @@ hideFooter: true
 <input id="drawer-switch" type="checkbox" />
 
 <aside id="drawer" role="complementary">
-  <h3>Research information for Book 1 SD p4</h3>
+  <h1>Information for Book 1 Semi-Diplomatic Page 200</h1>
   <div class="tabs">
   <label>BOOK</label>
     <div class="tab">
