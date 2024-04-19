@@ -175,7 +175,7 @@ hideFooter: true
       <input
         type="radio"
         id="tab-5"
-        name="tab-group-2">
+        name="tab-group-1">
       <label for="tab-5">
         <i class="fas fa-pen-fancy"></i><h2>Editorial Notes</h2>
       </label>
