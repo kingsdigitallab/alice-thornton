@@ -208,7 +208,7 @@ section#text-viewer {
   aside#drawer {
     position: fixed;
     top: 87px;
-    right: -30%;
+    right: -100%;
     width: 500px;
     height: 100%;
     padding: 0 0 0 0.5em;
@@ -277,7 +277,6 @@ section#text-viewer {
     position: relative;
     text-align: center;
     cursor: pointer;
-    width:100%;
     @include transition(all 300ms ease-in); 
     width:60px;
     &:focus {
@@ -292,7 +291,7 @@ section#text-viewer {
           width: 50px;
           height: 50px;
           position: fixed;
-          right: 0;
+          right: -100%;
           top: 87px;
           cursor: pointer;
           border: none;
