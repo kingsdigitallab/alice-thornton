@@ -212,7 +212,6 @@ section#text-viewer {
     width: 500px;
     height: 100%;
     padding: 0 0 0 0.5em;
-    border-left: 0.5em solid $primary;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -274,15 +273,25 @@ section#text-viewer {
     margin: 0;
     width: 500px;
     white-space: initial;
+    >label{
+      background:$primary;
+      text-align: center;
+      color:white;
+      display: block;
+      width:71px;
+      font-size:12px;
+      border-left: 3px solid $primary;
+    }
     .tab {
       width: 50px;
       *{
         box-sizing: content-box;
       }
       label {
-        background: white;
+        background: lighten($gray,5%);
         padding: 10px;
-        border: 1px solid #ccc;
+        border-bottom: 1px solid $gray;
+        border-left: 2px solid $primary;
         margin-left: -1px;
         font-size: 10px;
         position: relative;
@@ -292,10 +301,11 @@ section#text-viewer {
         text-align: center;
         cursor: pointer;
         height:50px;
+        @include transition(all 300ms ease-in); 
         i{
           font-size:16px;
           padding-top:8px;
-          color: $primary-dark;
+          color: $primary;
           @include transition(all 300ms ease-in); 
         }//i
         h2{
@@ -304,9 +314,11 @@ section#text-viewer {
           bottom:8px;
           width:50px;
           text-align: center;
+          color:$primary;
         }
         &:hover{
-          background:lighten($gray,5%);
+          background:lighten($gray,10%);
+          border-left: 5px solid $primary;
           i{
             @include transform(scale(1.5));
           }
@@ -315,15 +327,13 @@ section#text-viewer {
       [type="radio"] {
         display: none;
         &:checked ~ label {
-          background: $primary;
-          border-bottom: 1px solid #2825ca;
-          z-index: 2;
-          color: white;
-          i{
-            color: white;
-          }//i
+          background: white;
+          border-left: 5px solid $primary;
+          i,h2{
+            color:$primary-dark;
+          }//i,h2
           &:hover{
-            background: $primary-dark;
+            background:lighten($gray,10%);
           }
         } //&:checked ~ label
         &:checked ~ label ~ .content {
@@ -338,11 +348,13 @@ section#text-viewer {
           right: 0;
           bottom: 0;
           padding: 20px;
-          border: 1px solid #ccc;
+          border: 1px solid $gray;
           overflow: scroll;
           h2{
             font-size:22px;
             text-decoration: underline;
+            text-decoration-style: double;
+            color:$primary;
             &:before{
               display:none;
             }

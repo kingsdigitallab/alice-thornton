@@ -17,13 +17,14 @@ hideFooter: true
 ---
 
 {% raw %}
-<!-- TO: Commenting out information drawer for now as still needs more work 
+<!-- TO: Commenting out information drawer for now as still needs more work -->
 
 <input id="drawer-switch" type="checkbox" />
 
 <aside id="drawer" role="complementary">
   <h3>Research information for Book 1 SD p4</h3>
   <div class="tabs">
+  <label>BOOK</label>
     <div class="tab">
       <input
         type="radio"
@@ -32,8 +33,8 @@ hideFooter: true
         checked>
       <label for="tab-1">
         <i class="fas fa-list"></i><h2>Legend</h2></label>
-      <div class="content">
-            <h2>Legend</h2>
+      <div class="content"> 
+      <h2>Legend</h2>
 <div class="textblock">  
   <h3>Text block</h3>
 <ul>
@@ -128,15 +129,58 @@ hideFooter: true
       </div>
     </div>
     </div>
-    <div class="tab">
+
+ <div class="tab">
       <input
         type="radio"
         id="tab-2"
         name="tab-group-1">
       <label for="tab-2">
+        <i class="fas fa-print"></i><h2>Print</h2>
+      </label>
+      <div class="content">
+      <h2>Print</h2>
+        <p>TO DO: Content - Instructions to how to print page(s) or book</p>
+      </div>
+    </div>
+     <div class="tab">
+      <input
+        type="radio"
+        id="tab-3"
+        name="tab-group-1">
+      <label for="tab-3">
+        <i class="fas fa-search"></i><h2>Search</h2>
+      </label>
+      <div class="content">
+      <h2>Search</h2>
+        <p>TO DO: Content - Instructions to how to search or just link?</p>
+      </div>
+    </div>
+     <div class="tab">
+      <input
+        type="radio"
+        id="tab-4"
+        name="tab-group-1">
+      <label for="tab-4">
+        <i class="fas fa-quote-left"></i><h2>Citation</h2>
+      </label>
+      <div class="content">
+      <h2>Citation</h2>
+        <p>TO DO: Content - Instructions to how to cite and functionality</p>
+      </div>
+    </div>
+    <br>
+    <label>PAGE</label>
+    <div class="tab">
+      <input
+        type="radio"
+        id="tab-5"
+        name="tab-group-2">
+      <label for="tab-5">
         <i class="fas fa-pen-fancy"></i><h2>Editorial Notes</h2>
       </label>
       <div class="content">
+      <h2>Editorial Notes</h2>
         <ul>
           <li>
             <span class="body">
@@ -192,12 +236,13 @@ hideFooter: true
     <div class="tab">
       <input
         type="radio"
-        id="tab-3"
+        id="tab-6"
         name="tab-group-1">
-      <label for="tab-3">
+      <label for="tab-6">
         <i class="fas fa-shapes"></i><h2>Entities</h2>
       </label>
       <div class="content">
+      <h2>Entities</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
           justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
                                           id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
@@ -227,12 +272,13 @@ hideFooter: true
     <div class="tab">
       <input
         type="radio"
-        id="tab-4"
+        id="tab-7"
         name="tab-group-1">
-      <label for="tab-4">
+      <label for="tab-7">
         <i class="fas fa-cross"></i><h2>Biblical Refererences</h2>
       </label>
       <div class="content">
+      <h2>Biblical Refererences</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
           justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
                                           id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
@@ -261,7 +307,7 @@ hideFooter: true
     </div>
   </div>
 </aside>
--->
+<!---->
 <div class="panel-wrapper">
   <div class="panel" v-for="(panel, panelIdx) in panels">
     <nav class="panel-nav">
@@ -280,19 +326,17 @@ hideFooter: true
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
         </div>
         <div class="icons">
-        <!-- TO: Commenting out information drawer for now as still needs more work 
+        <!-- TO: Commenting out information drawer for now as still needs more work -->
           <div class="icon">
             <label for="drawer-switch" id="drawer-toggle">
             <i class="fas fa-info-circle"></i>
             <h2>Info</h2>
             </label>
           </div>
-          -->
+          <!---->
         <div class="icon">
-            <label for="drawer-switch" id="drawer-toggle">
             <i class="fas fa-print"></i>
             <h2>Print</h2>
-            </label>
           </div>
           <div class="clone">
           <div class="icon" v-if="canClonePanel">
