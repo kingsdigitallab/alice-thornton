@@ -34,31 +34,31 @@ Anselment notes that this volume cannot ‘be dated with any certainty’.[^1] A
 [Her Having the Smallpox in Kent](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.14&p0.vi=modern)<br/> 
 [Meditations on Psalm 147, 4th](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.15&p0.vi=modern)<br/> 
 [Deliverance from Fire in London, 1632](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.17&p0.vi=modern)<br/> 
-Her Passage into Ireland, 1632 <br/>
-Deliverance from Fire in Dublin<br/>
-A Second Meditation, about Twelve Years Old<br/>
-Deliverance in a Storm at Sea, 1639 <br/>
-The Death of the Lord Deputy Wandesford <br/>
-The Deliverance from the Irish Rebellion <br/>
-Her Having the Smallpox at Chester <br/>
-A Deliverance from a Sickness at Richmond<br/> 
-The Lady Danby Died, 1645 <br/>
-Mr Edmund Norton Died, 1648<br/>
-King Charles the Blessed, 1648<br/>
-Sir Edward Osborne Died<br/>
-George Wandesford, Esquire, Died 1651<br/> 
-Mrs Mary Norton Married, 1651<br/>
-Sir Christopher Wandesford Married, 1651<br/>
-Alice Thornton Married, 1651<br/>
-She Began Her First Sickness <br/>
-Alice Thornton, the Daughter, Birth, 1653<br/>
-Elizabeth Thornton's Birth, 1654<br/>
-Mrs Elizabeth Gates Died, 1655<br/>
-Mr Geoffrey Gates Died, 1655<br/>
-Mr Richard Thornton Died, 1656<br/>
-Katherine Thornton Birth, 1656<br/>
-Elizabeth Thornton Died, 1656<br/>
-My Deliverance from a Fall, 1657 <br/>
+[Her Passage into Ireland, 1632](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.18&p0.vi=modern) <br/>
+[Deliverance from Fire in Dublin](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.21&p0.vi=modern) <br/>
+[A Second Meditation, about Twelve Years Old](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.21&p0.vi=modern)<br/>
+[Deliverance in a Storm at Sea, 1639](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.22&p0.vi=modern) <br/>
+[The Death of the Lord Deputy Wandesford](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.23&p0.vi=modern) <br/>
+[The Deliverance from the Irish Rebellion](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.23&p0.vi=modern) <br/>
+[Her Having the Smallpox at Chester](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.24&p0.vi=modern) <br/>
+[A Deliverance from a Sickness at Richmond](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.24&p0.vi=modern)<br/> 
+[The Lady Danby Died, 1645](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.24&p0.vi=modern) <br/>
+[Mr Edmund Norton Died, 1648](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.25&p0.vi=modern) <br/>
+[King Charles the Blessed, 1648](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.25&p0.vi=modern) <br/>
+[Sir Edward Osborne Died](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.25&p0.vi=modern) <br/>
+[George Wandesford, Esquire, Died 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/> 
+[Mrs Mary Norton Married, 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
+[Sir Christopher Wandesford Married, 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
+[Alice Thornton Married, 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
+[She Began Her First Sickness](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.27&p0.vi=modern) <br/>
+[Alice Thornton, the Daughter, Birth, 1653](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.27&p0.vi=modern) <br/>
+[Elizabeth Thornton's Birth, 1654](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.27&p0.vi=modern) <br/>
+[Mrs Elizabeth Gates Died, 1655](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.28&p0.vi=modern) <br/>
+[Mr Geoffrey Gates Died, 1655](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.28&p0.vi=modern) <br/>
+[Mr Richard Thornton Died, 1656](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.29&p0.vi=modern) <br/>
+[Katherine Thornton Birth, 1656](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.29&p0.vi=modern)<br/>
+[Elizabeth Thornton Died, 1656](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.29&p0.vi=modern) <br/>
+[My Deliverance from a Fall, 1657](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.30&p0.vi=modern) <br/>
 The Birth of My First Son, 1657 <br/>
 The Death of the Lady Wandesford, 1659<br/> 
 William Thornton's Birth, 1660 <br/>
