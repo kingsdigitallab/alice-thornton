@@ -70,15 +70,15 @@ The Recovery of My Health<br/>
 Mr Thornton's Preservation and Mine <br/>
 Considerations thereupon <br/>
 Deliverance from Grief on Nettleton's Bailiffs Coming <br/>
-A Deep Apprehension of My Change, Being with Child of My Seventh <br/>
-The Satisfaction of My Soul after the Receiving the Holy Sacrament First at Newton by Dr Samways <br/>
+[A Deep Apprehension of My Change, Being with Child of My Seventh](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.69&p0.vi=modern) <br/>
+[The Satisfaction of My Soul after the Receiving the Holy Sacrament First at Newton by Dr Samways](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.71&p0.vi=modern) <br/>
 A Satisfaction by the Settlement of Mr Covill for Leysthorpe <br/>
-My Son Robert Thornton's Birth, September 19, 1662 <br/>
-A Most Dangerous Flux on Me after His Birth <br/>
-Prayers and Meditations thereon <br/>
-My Son Robert's Baptism <br/>
-A Prayer and Thanksgiving for this Blessing <br/>
-A Thanksgiving for Mr Thornton's Deliverance from a Flood of Waters in His Return from London <br/>
+[My Son Robert Thornton's Birth, September 19, 1662](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.81&p0.vi=modern) <br/>
+[A Most Dangerous Flux on Me after His Birth](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.82&p0.vi=modern) <br/>
+[Prayers and Meditations thereon](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
+[My Son Robert's Baptism](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving for this Blessing](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
+[A Thanksgiving for Mr Thornton's Deliverance from a Flood of Waters in His Return from London](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
 The Birth of Joyce Thornton and Her Baptism <br/>
 A Prayer and Thanksgiving for this Deliverance <br/>
 Mr Thornton's Dangerous Sickness at Stearsby and His Preservation from Death <br/>
