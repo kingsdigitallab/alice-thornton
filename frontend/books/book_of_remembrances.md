@@ -124,8 +124,8 @@ Prayers and Petitions upon this Most Sad Dispensation <br/>
 A Discourse of Mr Thornton's Comfortable Expressions to Mr Sinclair before His Last Illness <br/>
 A Description of Mr Thornton's Last Sickness and Several Passages in the Same <br/>
 Of His Burial <br/>
-'Upon the Fears of Death', in Verse, A.T. <br/>
-'An Inducement to Love Heaven', in Verse, A.T. <br/>
+'Upon the Fears of Death', in Verse <br/>
+'An Inducement to Love Heaven', in Verse <br/>
 'A Farewell to the Pleasures of the World', in Verse <br/>
 'My Soul's Wish for God' <br/>
 A Widow's Prayer and Petitions to God <br/>
