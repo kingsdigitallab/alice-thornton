@@ -60,10 +60,10 @@ Anselment notes that this volume cannot ‘be dated with any certainty’.[^1] A
 [Elizabeth Thornton Died, 1656](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.29&p0.vi=modern) <br/>
 [My Deliverance from a Fall, 1657](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.30&p0.vi=modern) <br/>
 [The Birth of My First Son, 1657](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.31&p0.vi=modern) <br/>
-The Death of the Lady Wandesford, 1659<br/> 
+[The Death of the Lady Wandesford, 1659](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.33&p0.vi=modern) <br/> 
 [William Thornton's Birth, 1660](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.41&p0.vi=modern) <br/>
 [His Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.42&p0.vi=modern) <br/>
-Meditations <br/>
+[Meditations](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.44&p0.vi=modern) <br/>
 [My Dangerous Sickness, 1661, when I was Preserved from the Temptation of Satan to Despair](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.45&p0.vi=modern) <br/>
 [My Prayers and Meditations thereupon on St Matthew 11: 27, 28, et cetera](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.48&p0.vi=modern) <br/> 
 The Recovery of My Health<br/> 
