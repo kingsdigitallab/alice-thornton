@@ -81,10 +81,10 @@ A Satisfaction by the Settlement of Mr Covill for Leysthorpe <br/>
 [A Thanksgiving for Mr Thornton's Deliverance from a Flood of Waters in His Return from London](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
 The Birth of Joyce Thornton and Her Baptism <br/>
 A Prayer and Thanksgiving for this Deliverance <br/>
-Mr Thornton's Dangerous Sickness at Stearsby and His Preservation from Death <br/>
-With My Own Desperate, Weak Condition upon Grief for Him <br/>
-Prayers and Confessions, with a Return of Thanks after Our Recoveries <br/>
-Meditations upon My Joyce Her Sickness <br/>
+[Mr Thornton's Dangerous Sickness at Stearsby and His Preservation from Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.93&p0.vi=modern) <br/>
+[With My Own Desperate, Weak Condition upon Grief for Him](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.94&p0.vi=modern) <br/>
+[Prayers and Confessions, with a Return of Thanks after Our Recoveries](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.95&p0.vi=modern) <br/>
+[Meditations upon My Joyce Her Sickness](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.99&p0.vi=modern) <br/>
 Joyce Thornton Her Death <br/>
 [A Deliverance of My Daughter Alice Thornton from a Surfeit of Eating Turbot](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.103&p0.vi=modern) <br/>
 A Great Deliverance from a Miscarriage <br/>
