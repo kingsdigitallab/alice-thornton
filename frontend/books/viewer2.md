@@ -17,6 +17,7 @@ hideFooter: true
 ---
 
 {% raw %}
+
 <!-- TO: Commenting out information drawer for now as still needs more work -->
 
 <input id="drawer-switch" type="checkbox" />
@@ -86,8 +87,6 @@ hideFooter: true
   <li>visual elements/drawings by the author<br><span>gylphs</span>
   </li>
 
-
-  
   </ul>
         </div>  
       <div class="features">  

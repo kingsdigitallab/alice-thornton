@@ -126,10 +126,10 @@ body:not(.slug-viewer) {
 a {
   text-decoration: underline;
   &:hover {
-    opacity:0.8;
+    opacity: 0.8;
     text-decoration-style: double;
-    img{
-      opacity:1;
+    img {
+      opacity: 1;
       box-shadow: 1px 2px 4px darken($gray-dark, 30%);
     }
   }
@@ -139,12 +139,12 @@ a {
 // Going nuclear on max-width for container
 
 .container {
-.container {
-  @media screen and (min-width: 1120px) {
-    max-width: 1280px !important;
-    padding: 0 6rem !important;
+  .container {
+    @media screen and (min-width: 1120px) {
+      max-width: 1280px !important;
+      padding: 0 6rem !important;
+    }
   }
-}
 }
 
 // GN: fix text spilling over text viewer because bulma padding is too large
@@ -282,9 +282,9 @@ h3 {
 body > footer.footer {
   background: url("/assets/img/at-decoration-pattern-1.jpg") left -5px repeat-x lighten($gray, 30%);
   background-size: 40px;
-  padding:0.4em 0 0 0;
-  .has-text-centered{
-    h2{
+  padding: 0.4em 0 0 0;
+  .has-text-centered {
+    h2 {
       border-top: 8px solid $primary;
       padding-top: 16px;
       font-weight: 600;
@@ -471,9 +471,8 @@ figcaption {
   }
 }
 
-
 .logo {
-  font-size:1.2em;
+  font-size: 1.2em;
   img {
     background: $white;
     border: 1px solid $gray;
@@ -486,38 +485,39 @@ figcaption {
   }
 }
 
-.logos{
+.logos {
   padding: 0 20px;
   border-bottom: 1px solid $primary;
   margin: 0 auto 24px auto;
   max-width: 1280px;
   align-items: center;
   @include tablet {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   @include mobile {
     grid-template-columns: 1fr 1fr;
   }
-a{
-  img {
-    max-width: 100%;
-    @include mobile {
-      margin: 1em auto;
-      max-width: 300px;
+  a {
+    img {
+      max-width: 100%;
+      @include mobile {
+        margin: 1em auto;
+        max-width: 300px;
+      }
+    }
+    &:hover {
+      img {
+        box-shadow: none;
+        @include transition(none);
+      }
     }
   }
-  &:hover{
-    img{
-      box-shadow: none;
-      @include transition(none); 
-    }
+  a:nth-child(2) img,
+  a:nth-child(4) img {
+    width: 50%;
   }
-}
-a:nth-child(2) img, a:nth-child(4) img {
-    width:50%;
-  }
-a:nth-child(2) img {
-    padding:5px;
+  a:nth-child(2) img {
+    padding: 5px;
   }
 
   @include mobile {
@@ -542,15 +542,15 @@ a:nth-child(2) img {
     h3 {
       color: $secondary-dark;
     }
-    a{
-      img{
+    a {
+      img {
         object-fit: cover;
         height: 17em;
         width: 14em;
       }
-      &:hover{
-        img{
-        border:3px solid $primary-dark;
+      &:hover {
+        img {
+          border: 3px solid $primary-dark;
         }
       }
     }
@@ -625,7 +625,7 @@ a:nth-child(2) img {
 .post-meta {
   font-size: 0.875em;
   font-style: italic;
-  a:hover{
+  a:hover {
     text-decoration: none;
     opacity: 1;
     box-shadow: 1px 2px 4px darken($gray-dark, 20%);
@@ -755,25 +755,24 @@ ul.social_media_block {
   flex-flow: row wrap;
   justify-content: space-between;
   padding: 8px 16px;
-  margin-top:60px;
+  margin-top: 60px;
   h3 {
     font-weight: 700;
-    font-size:16px;
-    width:100%;
-    flex-basis: 100%;    
+    font-size: 16px;
+    width: 100%;
+    flex-basis: 100%;
   }
   // GN: partners requested not to have italics in the citation
   cite {
     font-style: normal;
-    font-size:14px;
+    font-size: 14px;
     flex: 1;
-    margin-right:20px;
+    margin-right: 20px;
   }
 
-  button{
-    font-size:14px;
+  button {
+    font-size: 14px;
   }
-
 }
 
 ul.undecorated-list {
@@ -1013,8 +1012,8 @@ nav.pagination {
 // Buttons
 .button.is-primary {
   background: $primary;
-  color:$white;
-  &:hover{
+  color: $white;
+  &:hover {
     background: $primary-dark;
     opacity: 1;
     box-shadow: 1px 2px 4px darken($gray-dark, 30%);
@@ -1024,9 +1023,9 @@ nav.pagination {
 .button.is-secondary {
   background: $white;
   border: 1px solid $secondary-dark;
-  color:$secondary-dark;
+  color: $secondary-dark;
 
-  &:hover{
+  &:hover {
     opacity: 0.8;
     box-shadow: 1px 2px 4px darken($gray-dark, 20%);
   }
