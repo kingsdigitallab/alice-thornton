@@ -326,7 +326,7 @@ section#text-viewer {
       border-left: 3px solid $primary;
     }
     .tab {
-      width: 50px;
+      width: 60px;
       *{
         box-sizing: content-box;
       }
@@ -339,7 +339,7 @@ section#text-viewer {
         font-size: 10px;
         position: relative;
         left: 1px;
-        width: 60px;
+        width: 61px;
         display: block;
         text-align: center;
         cursor: pointer;
@@ -355,7 +355,7 @@ section#text-viewer {
           line-height: 1;
           position: absolute;
           bottom:8px;
-          width:60px;
+          width:61px;
           text-align: center;
           color:$primary;
         }
@@ -428,7 +428,7 @@ section#text-viewer {
                   &:before{
                 content:"a";
                  position: absolute;
-                left:0.3em;
+                left:20px;
                 font-size:1.7em;
                 line-height:0.7;
                 font-weight:bold;
@@ -438,7 +438,7 @@ section#text-viewer {
               &:before{
                 content:"a";
                  position: absolute;
-                left:0.3em;
+                left:20px;
                 font-size:1.3em;
                 line-height:0.7;
                 font-weight:bold;
@@ -449,7 +449,7 @@ section#text-viewer {
               &:before{
                 content:"a";
                  position: absolute;
-                left:0.3em;
+                left:20px;
                 font-size:1.3em;
                 line-height:0.7;
                 font-weight:normal;
@@ -461,7 +461,7 @@ section#text-viewer {
               &:before{
                 content:"[ ]";
                  position: absolute;
-                left:0.3em;
+                left:20px;
                 line-height:0.7;
                 font-weight:normal;
                 color:gray;
@@ -472,7 +472,7 @@ section#text-viewer {
                           &:before{
                 content:"37";
                  position: absolute;
-                left:0.5em;
+                left:20px;
                 font-weight:normal;
               }//before
                 }//&:nth-child(5)
@@ -481,7 +481,7 @@ section#text-viewer {
                           &:before{
                             content:"}";
                  position: absolute;
-                left:0.3em;
+                left:20px;
                 font-weight:bold;
                 font-size:1.5em;            
               }//before
@@ -491,7 +491,7 @@ section#text-viewer {
                           &:before{
                             content:"";
                  position: absolute;
-            left: 10px;
+            left: 25px;
             margin-top:21px;
             margin-left:2px;
             width: 7px;
@@ -507,7 +507,7 @@ section#text-viewer {
                   content:"";
             position: absolute;
             margin-top:-15px;
-            left:10px;
+            left:25px;
             width: 10px;
             height: 20px;
             border-radius: 0 0 1px 1px ;
@@ -553,7 +553,7 @@ section#text-viewer {
               padding:0.1em;
                vertical-align: baseline;
         margin-top: -0.3em;   
-          left:0.5em;
+          left:20px;
           font-weight:normal;
           font-size:1em;
         }//before
@@ -563,7 +563,7 @@ section#text-viewer {
         &:before{
           content:"♥";
            position: absolute;
-          left:0.3em;
+          left:20px;
           font-size:1em;
           line-height:0.7;
           font-weight:bold;
@@ -574,7 +574,7 @@ section#text-viewer {
         &:before{
           content:"[cut]";
            position: absolute;
-          left:0.3em;
+          left:20px;
           font-size:1em;
           line-height:0.7;
           font-weight:normal;
@@ -587,7 +587,7 @@ section#text-viewer {
           content:"the";
            position: absolute;
            text-decoration: line-through;           
-          left:0.5em;
+          left:20px;
            color:black;           
         }//before
           }//&:nth-child(4)
@@ -598,7 +598,7 @@ section#text-viewer {
            position: absolute;
                vertical-align: baseline;
         margin-top: -0.3em;   
-          left:0.5em;
+          left:20px;
           font-weight:normal;
           font-size:1em;
         }//before
@@ -608,7 +608,7 @@ section#text-viewer {
         &:before{
           content:"[ ]";
            position: absolute;
-          left:0.3em;
+          left:20px;
           font-size:1;
           line-height:0.7;
           font-weight:normal;
@@ -620,7 +620,7 @@ section#text-viewer {
                     &:before{
           content:"1";
            position: absolute;
-          left:0.5em;
+          left:20px;
           font-weight:normal;
         }//before
           }//&:nth-child(5)
@@ -629,7 +629,7 @@ section#text-viewer {
                     &:before{
                       content:"}";
            position: absolute;
-          left:0.3em;
+          left:20px;
           font-weight:bold;
           font-size:1.5em;            
         }//before
@@ -656,7 +656,7 @@ section#text-viewer {
                     &:before{
            content:"ℳ";
            position: absolute;
-          left:0.3em;
+          left:20px;
           font-size:1.3em;
           line-height:1;   
         }//before
@@ -668,7 +668,7 @@ section#text-viewer {
           width:0.7em;
           height:0.7em;
            position: absolute;
-          left:0.5em;
+          left:30px;
       
         }//before
              &:after{
@@ -676,7 +676,7 @@ section#text-viewer {
           width:0.7em;
           height:0.7em;
            position: absolute;
-          left:0.5em;
+          left:30px;
            background:// ** Eyes 
                    radial-gradient( //left eye
               90% 80% ellipse at 45% 25%, //size%(width, height) ellipse at position%(left,top)
@@ -691,14 +691,14 @@ section#text-viewer {
           width:0.7em;
           height:0.7em;
            position: absolute;
-          left:0.5em;
+          left:30px
         }//before
              &:after{
          content:"";
           width:0.7em;
           height:0.9em;
            position: absolute;
-          left:0.5em;
+          left:30px;
            background:// ** Triangle 
      conic-gradient(
             gray 0 25deg, transparent 25deg 335deg, gray 335deg 360deg)
