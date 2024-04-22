@@ -49,6 +49,7 @@ function setUpTextViewer() {
           collection: "Collection",
           document: "Document",
           locus: "Locus",
+          extent: "Extent",
           view: "View",
           _chunks: "Chunks",
         },
@@ -101,6 +102,9 @@ function setUpTextViewer() {
                 l1: "Locus 1",
                 l2: "Locus 2",
               },
+              extent: {
+                1: 1,
+              },
             },
             selections: {
               source: "",
@@ -108,6 +112,7 @@ function setUpTextViewer() {
               document:
                 "https://thornton.kdl.kcl.ac.uk/dts/thornton-books/book_one/",
               locus: "",
+              extent: 1,
               view: "",
             },
             responses: {
@@ -139,9 +144,13 @@ function setUpTextViewer() {
     computed: {
       canClonePanel() {
         return (
+          !this.isPrint &&
           window.metadata.text_viewer.can_clone_panel &&
           this.panels.length < window.metadata.text_viewer.max_panels
         );
+      },
+      isPrint() {
+        return window.TEXT_VIEWER_PRINT_MODE || false;
       },
     },
     methods: {
@@ -261,6 +270,9 @@ function setUpTextViewer() {
         if (key == "locus") {
           await this.setLocus(panel, value);
         }
+        if (key == "extent") {
+          await this.setExtent(panel, value);
+        }
 
         this.selectDefaultOption(panel, nextKey);
         await this.onChangeSelector(panel, nextKey);
@@ -288,15 +300,33 @@ function setUpTextViewer() {
       },
       async setLocus(panel, locus) {
         panel.selections.locus = locus;
+        // this.loadDocument(panel)
+      },
+      async setExtent(panel, extent) {
+        panel.selections.extent = extent;
+        this.loadDocument(panel);
+      },
+      getPrintURL(panelIdx) {
+        return `../print/?${this.getQueryStringFromPanelIdx(panelIdx)}`;
+      },
+      async loadDocument(panel) {
         // panel.responses.document = `Loading ${locus}...`;
+        let locus = panel.selections.locus;
         if (panel.selections.document && locus) {
-          panel.responses.document = await this.fetchDTS(
-            panel,
-            "documents",
-            panel.selections.document,
-            locus,
-            "html"
-          );
+          let document = "";
+          let lokeys = Object.keys(panel.selectors.locus);
+          for (let i = 0; i < panel.selections.extent; i++) {
+            let locusIndexToFetch = lokeys[lokeys.indexOf(locus) + i];
+            if (!locusIndexToFetch) break;
+            document += await this.fetchDTS(
+              panel,
+              "documents",
+              panel.selections.document,
+              panel.selectors.locus[locusIndexToFetch],
+              "html"
+            );
+          }
+          panel.responses.document = document;
           this.postProcessDocument(panel);
           this.setAddressBarFromSelection();
         }
@@ -389,6 +419,7 @@ function setUpTextViewer() {
       },
       selectDefaultOption(panel, key) {
         if (key.startsWith("_")) return;
+        if (key == "extent") return; // extent is numeric, not a list
         if (!panel.selectors[key][panel.selections[key]]) {
           panel.selections[key] = this.getDefaultOption(panel, key);
         }
@@ -422,7 +453,8 @@ function setUpTextViewer() {
         let lokeys = Object.keys(panel.selectors.locus);
         locus = lokeys[lokeys.indexOf(locus) + steps];
         if (locus) {
-          this.setLocus(panel, locus);
+          this.fetchOptions(panel, "locus", locus);
+          // this.setLocus(panel, locus);
         }
       },
       setAddressBarFromSelection() {
@@ -430,18 +462,7 @@ function setUpTextViewer() {
         // let searchParams = new URLSearchParams(window.location.search)
         let searchParams = "";
         for (let panelIdx = 0; panelIdx < this.panels.length; panelIdx++) {
-          let panel = this.panels[panelIdx];
-          for (let k of Object.keys(this.controls)) {
-            if (k.startsWith("_")) continue;
-            if (
-              k == "locus" ||
-              panel.selections[k] != this.getDefaultOption(panel, k)
-            ) {
-              searchParams += `&p${panelIdx}.${k.substring(0, 2)}=${
-                panel.selections[k]
-              }`;
-            }
-          }
+          searchParams += this.getQueryStringFromPanelIdx(panelIdx);
         }
 
         if (this.selection.highlightedText) {
@@ -466,6 +487,20 @@ function setUpTextViewer() {
           this.setPageTitle();
         }
       },
+      getQueryStringFromPanelIdx(panelIdx) {
+        let ret = "";
+        let panel = this.panels[panelIdx];
+        for (let k of Object.keys(this.controls)) {
+          if (k.startsWith("_")) continue;
+          if (
+            k == "locus" ||
+            panel.selections[k] != this.getDefaultOption(panel, k)
+          ) {
+            ret += `&p${panelIdx}.${k.substring(0, 2)}=${panel.selections[k]}`;
+          }
+        }
+        return ret;
+      },
       async setSelectionFromAddressBar(navigationCause = "landing") {
         this.navigationCause = navigationCause;
 
@@ -485,6 +520,9 @@ function setUpTextViewer() {
             let v = searchParams.get(`p${panelIdx}.${k.substring(0, 2)}`);
             if (!v) v = this.getDefaultOption(panel, k);
             // console.log(panelIdx, k, v);
+            if (k == "extent") {
+              v = parseInt(v);
+            }
             panel.selections[k] = v;
           }
           await this.onChangeSelector(panel, "source");

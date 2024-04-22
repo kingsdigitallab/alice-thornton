@@ -38,6 +38,12 @@ isPageFluid: true
     <div class="panel-heading field is-grouped is-grouped-multiline">
       <div class="field is-grouped pull-right btn-icons">
         <p class="control">
+          <a class="button is-hidden-mobile" :href="getPrintURL(panelIdx)" title="Print">
+            <svg class="icon is-small"><use href="/assets/img/icons.svg#print" /></svg>
+            <span class="btn-label">Print</span>
+          </a>
+        </p>
+        <p class="control">
           <a v-if="canClonePanel" class="button is-hidden-mobile" href="#" @click.stop.prevent="clonePanel(panelIdx)" title="Clone">
             <svg class="icon is-small"><use href="/assets/img/icons.svg#clone" /></svg>
             <span class="btn-label">Clone</span>

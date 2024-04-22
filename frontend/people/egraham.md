@@ -1,7 +1,7 @@
 ---
 firstName: Elspeth
 lastName: Graham
-affiliation: University of Edinburgh
+affiliation: Liverpool St John Moores University
 mainEntityOfPage: https://www.ljmu.ac.uk/-/media/files/ljmu/research/centres-and-institutes/rilch/rilch-website-graham.pdf
 teams:
   - guest

@@ -6,6 +6,7 @@ authors:
 tags:
   - podcasts
   - yorkshire
+  - castles
 ---
 
 Cordelia Beattie (PI) and Jo Edge (PDRA) will be discussing Alice Thornton’s story, including her connection to the English Heritage site of Middleham Castle in North Yorkshire in episode 173 of the weekly podcast.

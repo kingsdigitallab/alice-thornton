@@ -1,5 +1,5 @@
 ---
-title: "Women’s History Month, 3: Remembrances of encounters with Alice Thornton"
+title: "Women’s History Month 2023, 3: Remembrances of encounters with Alice Thornton"
 feature: /assets/img/posts/womens_history_month.jpg
 status: live
 authors:

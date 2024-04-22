@@ -85,7 +85,7 @@ body {
   // Exclude the text viewer
   //background: url("/assets/img/last-bg.jpg");
 
- /* @media screen and (min-width: 1140px) {
+  /* @media screen and (min-width: 1140px) {
     background: url("/assets/img/last-bg.jpg");
     background-position: 0 60px;
     background-repeat: repeat-y;
@@ -96,7 +96,6 @@ body {
   font-size: 18px;
   font-weight: 450;
   line-height: 1.75;
-  
 }
 
 body:not(.slug-viewer) {
@@ -104,14 +103,15 @@ body:not(.slug-viewer) {
   //background: url("/assets/img/last-bg.jpg");
 
   @media screen and (min-width: 1140px) {
-    background: url("/assets/img/script-outlined.svg") /* ,
+    background: url("/assets/img/script-outlined.svg")
+      /* ,
     url("/assets/img/last-bg.jpg")*/;
     background-position: -120px 120px, 0 60px;
     background-repeat: no-repeat, repeat-y;
     background-size: 200px, 100%;
-    &:before{
+    &:before {
       background: url("/assets/img/last-bg.jpg") center/cover;
-      content: '';
+      content: "";
       position: fixed;
       left: 0;
       right: 0;
@@ -121,7 +121,6 @@ body:not(.slug-viewer) {
       opacity: 0.6;
     }
   }
-
 }
 
 a {
@@ -140,10 +139,12 @@ a {
 // Going nuclear on max-width for container
 
 .container {
+.container {
   @media screen and (min-width: 1120px) {
     max-width: 1280px !important;
     padding: 0 6rem !important;
   }
+}
 }
 
 // GN: fix text spilling over text viewer because bulma padding is too large
@@ -182,20 +183,20 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   color: $secondary-dark;
   font-family: "Lora", serif;
 }
 
 h1.title {
   font-size: 2.25em;
-  color:$secondary-dark;
+  color: $secondary-dark;
   border-bottom: 3px double;
 }
 
 .content h2 {
   font-size: 1.5em;
-  color:$secondary;
+  color: $secondary;
   &:not(.undecorated)::before {
     background: url("/assets/img/symbol.svg") left top no-repeat;
     background-size: 1.5rem;
@@ -214,15 +215,14 @@ h3 {
   font-size: 1.25em;
 }
 
-
 .index-page-titles {
   padding: 0.25em;
   a {
     color: $secondary;
     text-decoration: none;
-    &:hover{
+    &:hover {
       text-decoration: underline;
-      background:none;
+      background: none;
     }
   }
 }
@@ -240,10 +240,12 @@ h3 {
   position: sticky;
   top: 0;
   z-index: 1;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 // Homepage
-
 
 .read-more-hp {
   display: block;
@@ -284,10 +286,10 @@ body > footer.footer {
   .has-text-centered{
     h2{
       border-top: 8px solid $primary;
-      padding-top:16px;
+      padding-top: 16px;
       font-weight: 600;
       color: $secondary;
-      font-size:24px;
+      font-size: 24px;
     }
   }
   .logo-x {
@@ -300,13 +302,12 @@ body > footer.footer {
     margin-left: 8px;
   }
 
- p{
-  line-height: 2;
-  a{
-    text-decoration: none;
-
+  p {
+    line-height: 2;
+    a {
+      text-decoration: none;
+    }
   }
- } 
 }
 
 // Alignment
@@ -330,8 +331,6 @@ body > footer.footer {
   color: hsl(0deg, 0%, 29%);
   // color: red;
 }
-
-
 
 /* Images */
 
@@ -489,7 +488,7 @@ figcaption {
 
 .logos{
   padding: 0 20px;
-  border-bottom:1px solid $primary;
+  border-bottom: 1px solid $primary;
   margin: 0 auto 24px auto;
   max-width: 1280px;
   align-items: center;
@@ -526,7 +525,6 @@ a:nth-child(2) img {
   }
 }
 
-
 .bookshelf {
   display: flex;
   flex-wrap: wrap;
@@ -536,12 +534,12 @@ a:nth-child(2) img {
   }
 
   .book.columns {
-    width: 50%;
+    width: 25em;
     margin: 0;
-    .column{
-      padding: 0.75em 0.75em 0.75em 0; 
+    .column {
+      padding: 0.75em 0.75em 0.75em 0;
     }
-    h3{
+    h3 {
       color: $secondary-dark;
     }
     a{
@@ -559,26 +557,13 @@ a:nth-child(2) img {
     .book-buttons {
       margin-top: auto;
       margin-bottom: 2em;
-      width:9em;
 
       .button {
         margin: 0.2em 1em 0.2em 0;
-        width:100%;
+        width: 100%;
       }
     }
   }
-}
-@media (max-width: 600px) {
-  .bookshelf {
-  .book.columns {
-    width: 100%;
-    img{
-      width:100%;
-      height:auto;
-    }
-  }
-}
-
 }
 
 .navbar {
@@ -646,16 +631,22 @@ a:nth-child(2) img {
     box-shadow: 1px 2px 4px darken($gray-dark, 20%);
   }
   .tag.category-link {
-    background:$white;
+    background: $white;
     color: $white;
     border-radius: 0;
-    background:$primary;
+    background: $primary;
   }
-  .tag.is-info.is-light{
+  .tag.is-info.is-light {
     margin-right: 0.5em;
-    background:$gray;
-    border-radius:0;
-    color:$primary-dark;
+    background: $gray;
+    border-radius: 0;
+    color: $primary-dark;
+  }
+}
+
+nav.post-meta {
+  a {
+    margin-right: 1em;
   }
 }
 
@@ -793,21 +784,18 @@ ul.undecorated-list {
 
 // pagination
 
-
-
-nav.pagination{
-  border-top:1px solid $primary;
-  border-bottom:1px solid $primary;
-  padding:6px 8px;
+nav.pagination {
+  background: $gray;
+  padding: 6px 8px;
   ul.pagination-list {
-    margin:0;
+    margin: 0;
     display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
-  .button{
-    padding:0 8px;
+  .button {
+    padding: 0 8px;
     border-radius: 0;
   }
 }
@@ -840,11 +828,9 @@ justify-content: center;
 
   .panel.is-info {
     .panel-heading {
-      background-color: transparent;
-      color:$primary-dark;
+      background-color: $gray;
+      color: $primary-dark;
       margin-bottom: 0.5em;
-      border-bottom: 1px solid $primary;
-      padding: 0.5em 0.1em;
     }
 
     .panel-block {
@@ -853,13 +839,9 @@ justify-content: center;
   }
 
   .search-results {
-    nav.pagination{
- 
-      
-      ul.pagination-list {
+    nav.pagination ul.pagination-list {
       justify-content: flex-start;
     }
-  }
     &.updating {
       opacity: 0.2;
     }
@@ -918,7 +900,6 @@ justify-content: center;
       gap: 1em;
 
       a.button {
-
         &.btn-tei {
           .icon {
             margin-right: 1em;
@@ -1010,8 +991,8 @@ justify-content: center;
   text-decoration: none;
   box-shadow: 1px 2px 3px $gray;
   border-radius: 8px;
-  border:0;
-  padding:0 16px;
+  border: 0;
+  padding: 0 16px;
   .icon {
     &.is-small {
       height: 0.75rem;
@@ -1029,9 +1010,8 @@ justify-content: center;
   }
 }
 
-
 // Buttons
-.button.is-primary{
+.button.is-primary {
   background: $primary;
   color:$white;
   &:hover{
@@ -1041,7 +1021,7 @@ justify-content: center;
   }
 }
 
-.button.is-secondary{
+.button.is-secondary {
   background: $white;
   border: 1px solid $secondary-dark;
   color:$secondary-dark;
@@ -1051,7 +1031,6 @@ justify-content: center;
     box-shadow: 1px 2px 4px darken($gray-dark, 20%);
   }
 }
-
 
 a.button-hp {
   display: block;
@@ -1078,3 +1057,26 @@ a.button-hp {
   }
 }
 
+/// Printer-friendly display of the text
+
+#text-viewer.printable-viewer .panel {
+  border: none;
+  .content {
+    .dts-fragment {
+      position: relative;
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      border-bottom: 2px solid lightgray;
+    }
+  }
+}
+
+// ---------------------------------
+//  PRINTer friendly styles
+// ---------------------------------
+
+@media print {
+  .dont-print {
+    display: none !important;
+  }
+}

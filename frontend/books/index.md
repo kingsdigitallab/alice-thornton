@@ -25,7 +25,7 @@ The text of all four manuscript volumes will be available to read in both fully 
           {{ book.data.itemLocation }}
         </figcaption>
         <div class="book-buttons">
-        {% if book.data.isReadable %}<a href="viewer/?p0.do={{ book.fileSlug }}" class="button is-primary">Read</a>{% endif %}<br>
+        {% if book.data.isReadable %}<a href="viewer/?p0.do={{ book.fileSlug }}&p0.vi=modern" class="button is-primary">Read</a>{% endif %}<br>
           <a href="{{ book.url | url }}" class="button is-secondary">About</a>
           
         </div>
@@ -36,7 +36,7 @@ The text of all four manuscript volumes will be available to read in both fully 
 
 Although we are not digitising the manuscripts, we will provide some sample images from each of the volumes to offer a sense of how the original materials looked.
 
-You can now access our [partial release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of 103 pages from one book, in both semi-diplomatic and modernised versions. See also our first release of the [search function](https://thornton.kdl.kcl.ac.uk/entities/).
+You can now access our [partial release](/books/viewer/?p0.vi=modern) of 103 pages from one book, in both semi-diplomatic and modernised versions. See also our first release of the [search function](/entities/).
 
 We would appreciate all feedback so please click on the button at the bottom right or email us - alicethorntonsbooks at gmail dot com - to let us know your thoughts.
 

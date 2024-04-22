@@ -22,7 +22,7 @@ This website will provide resources aimed at better understanding the life and
 work of Alice Thornton and, in due course, will host a fully searchable digital
 edition of all four of her autobiographical texts.
 
-You can now access our [partial release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of 103 pages from one book, in both semi-diplomatic and modernised versions, and our first release of the [search function](https://thornton.kdl.kcl.ac.uk/entities/).
+You can now access our [partial release](/books/viewer/?p0.vi=modern) of 103 pages from one book, in both semi-diplomatic and modernised versions, and our first release of the [search function](/entities/).
 
 {% comment %}
 <a class="button-hp" href="#who">
@@ -48,7 +48,7 @@ Born in Kirklington, Yorkshire on 13 February 1626, Alice spent her childhood ye
 
 ![Oval shaped head and shoulders portrait of a man in early 17th-century clothing. He wears a neatly trimmed moustache and pointed beard.]({{ "/assets/img/home/Christopher-Wandesforde-npg2407-ccbync.jpg" | url }} "Portrait of Christopher Wandesford, <br>National Portrait Gallery (NPG 2407) CC BY-NC-ND"){.media-right}
 
-In 1633, the family relocated to Ireland, as her father's friend and mentor, Thomas Wentworth (first Lord Strafford), had been made Lord Deputy of Ireland and there was a role for Christopher Wandesford in Dublin. Here, Alice spent time with Ladies Anne and Arabella Wentworth and learnt French, singing, dancing, silk-work and other ‘suitable’ accomplishments. Their playtime together included a swinging game that caused another near-death experience. In early 1640, her father took over as Lord Deputy of Ireland before his sudden death later that year at just 48 years of age.
+In 1633, the family relocated to Ireland, as her father's friend and mentor, Thomas Wentworth (first Lord Strafford), had been made Lord Deputy of Ireland and there was a role for Christopher Wandesford in Dublin. Here, Alice spent time with Wentworth's daughters, Anne and Arabella, and learnt French, singing, dancing, silk-work and other ‘suitable’ accomplishments. Their playtime together included a swinging game that caused another near-death experience. In early 1640, her father took over as Lord Deputy of Ireland before his sudden death later that year at just 48 years of age.
 
 After her father’s death, and prompted by the turmoil of the Irish Rebellion, the family moved back to the north of England. However, the following year they were caught up in the events of the civil war. Alice's family were for the king and their estates at Kirklington were confiscated. Parliamentarian and Scottish soldiers were billeted on her mother’s lands in Hipswell, Richmondshire.
 

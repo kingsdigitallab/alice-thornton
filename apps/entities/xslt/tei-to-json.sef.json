@@ -7,14 +7,1037 @@
   "targetVersion": "2",
   "name": "TOP-LEVEL",
   "relocatable": "false",
-  "buildDateTime": "2023-11-29T17:59:10.894Z",
-  "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+  "buildDateTime": "2024-04-17T00:11:55.422+01:00",
+  "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
   "C": [
     {
       "N": "co",
+      "binds": "",
       "id": "0",
       "uniform": "true",
-      "binds": "1",
+      "C": [
+        {
+          "N": "template",
+          "flags": "os",
+          "module": "tei-to-json.xsl",
+          "slots": "200",
+          "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
+          "name": "Q{}insertBooksPagesForEvent",
+          "line": "129",
+          "expand-text": "false",
+          "sType": "* ",
+          "C": [
+            {
+              "N": "sequence",
+              "role": "body",
+              "sType": "* ",
+              "C": [
+                {
+                  "N": "param",
+                  "name": "Q{}entity",
+                  "slot": "0",
+                  "sType": "* ",
+                  "as": "* ",
+                  "flags": "",
+                  "line": "130",
+                  "C": [
+                    {
+                      "N": "str",
+                      "sType": "1AS ",
+                      "val": "",
+                      "role": "select"
+                    },
+                    {
+                      "N": "supplied",
+                      "role": "conversion",
+                      "slot": "0",
+                      "sType": "* "
+                    }
+                  ]
+                },
+                {
+                  "N": "forEach",
+                  "sType": "* ",
+                  "line": "135",
+                  "C": [
+                    {
+                      "N": "docOrder",
+                      "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}ptr",
+                      "role": "select",
+                      "line": "135",
+                      "C": [
+                        {
+                          "N": "docOrder",
+                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}ptr",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                          "C": [
+                            {
+                              "N": "slash",
+                              "op": "/",
+                              "C": [
+                                {
+                                  "N": "slash",
+                                  "op": "/",
+                                  "C": [
+                                    {
+                                      "N": "treat",
+                                      "as": "N",
+                                      "diag": "1|0|XPTY0019|slash",
+                                      "C": [
+                                        {
+                                          "N": "varRef",
+                                          "name": "Q{}entity",
+                                          "slot": "0"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "N": "axis",
+                                      "name": "child",
+                                      "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}linkGrp"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "filter",
+                                  "C": [
+                                    {
+                                      "N": "axis",
+                                      "name": "child",
+                                      "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}ptr"
+                                    },
+                                    {
+                                      "N": "gc",
+                                      "op": "=",
+                                      "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
+                                      "card": "1:1",
+                                      "C": [
+                                        { "N": "attVal", "name": "Q{}type" },
+                                        { "N": "str", "val": "book" }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "N": "let",
+                      "var": "Q{}ptr",
+                      "slot": "1",
+                      "sType": "* ",
+                      "line": "136",
+                      "C": [
+                        {
+                          "N": "dot",
+                          "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}ptr",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                          "role": "select",
+                          "line": "136"
+                        },
+                        {
+                          "N": "let",
+                          "var": "Q{}document",
+                          "slot": "2",
+                          "sType": "* ",
+                          "line": "137",
+                          "C": [
+                            {
+                              "N": "docOrder",
+                              "sType": "*NE nQ{lookup}doc",
+                              "role": "select",
+                              "line": "137",
+                              "C": [
+                                {
+                                  "N": "docOrder",
+                                  "sType": "*NE nQ{lookup}doc",
+                                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                  "C": [
+                                    {
+                                      "N": "slash",
+                                      "op": "/",
+                                      "C": [
+                                        {
+                                          "N": "slash",
+                                          "op": "/",
+                                          "C": [
+                                            {
+                                              "N": "fn",
+                                              "name": "document",
+                                              "C": [{ "N": "str", "val": "" }]
+                                            },
+                                            {
+                                              "N": "axis",
+                                              "name": "descendant",
+                                              "nodeTest": "*NE nQ{lookup}documents"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "N": "filter",
+                                          "C": [
+                                            {
+                                              "N": "axis",
+                                              "name": "child",
+                                              "nodeTest": "*NE nQ{lookup}doc"
+                                            },
+                                            {
+                                              "N": "gc",
+                                              "op": "=",
+                                              "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
+                                              "card": "1:1",
+                                              "C": [
+                                                {
+                                                  "N": "attVal",
+                                                  "name": "Q{}key"
+                                                },
+                                                {
+                                                  "N": "data",
+                                                  "diag": "1|1||gc",
+                                                  "C": [
+                                                    {
+                                                      "N": "docOrder",
+                                                      "C": [
+                                                        {
+                                                          "N": "slash",
+                                                          "op": "/",
+                                                          "C": [
+                                                            {
+                                                              "N": "treat",
+                                                              "as": "N",
+                                                              "diag": "1|0|XPTY0019|slash",
+                                                              "C": [
+                                                                {
+                                                                  "N": "varRef",
+                                                                  "name": "Q{}ptr",
+                                                                  "slot": "1"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "N": "axis",
+                                                              "name": "attribute",
+                                                              "nodeTest": "*NA nQ{}subtype"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "N": "let",
+                              "var": "Q{}documentPath",
+                              "slot": "3",
+                              "sType": "* ",
+                              "line": "138",
+                              "C": [
+                                {
+                                  "N": "fn",
+                                  "name": "concat",
+                                  "sType": "1AS",
+                                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                  "role": "select",
+                                  "line": "138",
+                                  "C": [
+                                    { "N": "str", "val": "edition/texts/0" },
+                                    {
+                                      "N": "check",
+                                      "card": "?",
+                                      "diag": "0|1||concat",
+                                      "C": [
+                                        {
+                                          "N": "data",
+                                          "diag": "0|1||concat",
+                                          "C": [
+                                            {
+                                              "N": "docOrder",
+                                              "C": [
+                                                {
+                                                  "N": "slash",
+                                                  "op": "/",
+                                                  "C": [
+                                                    {
+                                                      "N": "treat",
+                                                      "as": "N",
+                                                      "diag": "1|0|XPTY0019|slash",
+                                                      "C": [
+                                                        {
+                                                          "N": "varRef",
+                                                          "name": "Q{}document",
+                                                          "slot": "2"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "N": "axis",
+                                                      "name": "attribute",
+                                                      "nodeTest": "*NA nQ{}order"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    { "N": "str", "val": "_" },
+                                    {
+                                      "N": "check",
+                                      "card": "?",
+                                      "diag": "0|3||concat",
+                                      "C": [
+                                        {
+                                          "N": "data",
+                                          "diag": "0|3||concat",
+                                          "C": [
+                                            {
+                                              "N": "docOrder",
+                                              "C": [
+                                                {
+                                                  "N": "slash",
+                                                  "op": "/",
+                                                  "C": [
+                                                    {
+                                                      "N": "treat",
+                                                      "as": "N",
+                                                      "diag": "1|0|XPTY0019|slash",
+                                                      "C": [
+                                                        {
+                                                          "N": "varRef",
+                                                          "name": "Q{}document",
+                                                          "slot": "2"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "N": "axis",
+                                                      "name": "attribute",
+                                                      "nodeTest": "*NA nQ{}filename"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    { "N": "str", "val": "/" },
+                                    {
+                                      "N": "check",
+                                      "card": "?",
+                                      "diag": "0|5||concat",
+                                      "C": [
+                                        {
+                                          "N": "data",
+                                          "diag": "0|5||concat",
+                                          "C": [
+                                            {
+                                              "N": "docOrder",
+                                              "C": [
+                                                {
+                                                  "N": "slash",
+                                                  "op": "/",
+                                                  "C": [
+                                                    {
+                                                      "N": "treat",
+                                                      "as": "N",
+                                                      "diag": "1|0|XPTY0019|slash",
+                                                      "C": [
+                                                        {
+                                                          "N": "varRef",
+                                                          "name": "Q{}document",
+                                                          "slot": "2"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "N": "axis",
+                                                      "name": "attribute",
+                                                      "nodeTest": "*NA nQ{}filename"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    { "N": "str", "val": ".xml" }
+                                  ]
+                                },
+                                {
+                                  "N": "sequence",
+                                  "sType": "* ",
+                                  "C": [
+                                    {
+                                      "N": "valueOf",
+                                      "sType": "1NT ",
+                                      "C": [
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": "\n            \n            \n            \""
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "N": "valueOf",
+                                      "flags": "l",
+                                      "sType": "1NT ",
+                                      "line": "141",
+                                      "C": [
+                                        {
+                                          "N": "fn",
+                                          "name": "string-join",
+                                          "role": "select",
+                                          "C": [
+                                            {
+                                              "N": "forEach",
+                                              "sType": "*AS ",
+                                              "C": [
+                                                {
+                                                  "N": "data",
+                                                  "sType": "*A ",
+                                                  "C": [
+                                                    {
+                                                      "N": "mergeAdj",
+                                                      "C": [
+                                                        {
+                                                          "N": "docOrder",
+                                                          "sType": "*NA nQ{}filename",
+                                                          "role": "select",
+                                                          "line": "141",
+                                                          "C": [
+                                                            {
+                                                              "N": "docOrder",
+                                                              "sType": "*NA nQ{}filename",
+                                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                              "C": [
+                                                                {
+                                                                  "N": "slash",
+                                                                  "op": "/",
+                                                                  "C": [
+                                                                    {
+                                                                      "N": "treat",
+                                                                      "as": "N",
+                                                                      "diag": "1|0|XPTY0019|slash",
+                                                                      "C": [
+                                                                        {
+                                                                          "N": "varRef",
+                                                                          "name": "Q{}document",
+                                                                          "slot": "2"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "N": "axis",
+                                                                      "name": "attribute",
+                                                                      "nodeTest": "*NA nQ{}filename"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "N": "fn",
+                                                  "name": "string",
+                                                  "sType": "1AS ",
+                                                  "C": [{ "N": "dot" }]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "N": "str",
+                                              "sType": "1AS ",
+                                              "val": " "
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "N": "valueOf",
+                                      "sType": "1NT ",
+                                      "C": [
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": "\": [\n            "
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "N": "forEach",
+                                      "sType": "* ",
+                                      "line": "142",
+                                      "C": [
+                                        {
+                                          "N": "fn",
+                                          "name": "tokenize",
+                                          "sType": "*AS",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                          "role": "select",
+                                          "line": "142",
+                                          "C": [
+                                            {
+                                              "N": "cvUntyped",
+                                              "to": "AS",
+                                              "diag": "0|0||tokenize",
+                                              "C": [
+                                                {
+                                                  "N": "check",
+                                                  "card": "?",
+                                                  "diag": "0|0||tokenize",
+                                                  "C": [
+                                                    {
+                                                      "N": "data",
+                                                      "diag": "0|0||tokenize",
+                                                      "C": [
+                                                        {
+                                                          "N": "slash",
+                                                          "op": "/",
+                                                          "C": [
+                                                            { "N": "dot" },
+                                                            {
+                                                              "N": "axis",
+                                                              "name": "attribute",
+                                                              "nodeTest": "*NA nQ{}target"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "N": "let",
+                                          "var": "Q{}eventNumber",
+                                          "slot": "4",
+                                          "sType": "* ",
+                                          "line": "143",
+                                          "C": [
+                                            {
+                                              "N": "subscript",
+                                              "flags": "p",
+                                              "sType": "?AS",
+                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                              "role": "select",
+                                              "line": "143",
+                                              "C": [
+                                                {
+                                                  "N": "fn",
+                                                  "name": "tokenize",
+                                                  "C": [
+                                                    { "N": "dot" },
+                                                    { "N": "str", "val": ":" }
+                                                  ]
+                                                },
+                                                { "N": "int", "val": "2" }
+                                              ]
+                                            },
+                                            {
+                                              "N": "sequence",
+                                              "sType": "* ",
+                                              "C": [
+                                                {
+                                                  "N": "forEach",
+                                                  "sType": "*NT ",
+                                                  "line": "144",
+                                                  "C": [
+                                                    {
+                                                      "N": "docOrder",
+                                                      "sType": "*N",
+                                                      "role": "select",
+                                                      "line": "144",
+                                                      "C": [
+                                                        {
+                                                          "N": "fn",
+                                                          "name": "key",
+                                                          "sType": "*N",
+                                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                          "C": [
+                                                            {
+                                                              "N": "str",
+                                                              "val": "element_from_eventid"
+                                                            },
+                                                            {
+                                                              "N": "data",
+                                                              "diag": "0|1||key",
+                                                              "C": [
+                                                                {
+                                                                  "N": "varRef",
+                                                                  "name": "Q{}eventNumber",
+                                                                  "slot": "4"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "N": "check",
+                                                              "card": "1",
+                                                              "diag": "0|2||key",
+                                                              "C": [
+                                                                {
+                                                                  "N": "fn",
+                                                                  "name": "document",
+                                                                  "C": [
+                                                                    {
+                                                                      "N": "varRef",
+                                                                      "name": "Q{}documentPath",
+                                                                      "slot": "3"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "N": "sequence",
+                                                      "sType": "*NT ",
+                                                      "C": [
+                                                        {
+                                                          "N": "valueOf",
+                                                          "sType": "1NT ",
+                                                          "C": [
+                                                            {
+                                                              "N": "str",
+                                                              "sType": "1AS ",
+                                                              "val": "\n                    \""
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "N": "valueOf",
+                                                          "flags": "l",
+                                                          "sType": "1NT ",
+                                                          "line": "145",
+                                                          "C": [
+                                                            {
+                                                              "N": "fn",
+                                                              "name": "string-join",
+                                                              "role": "select",
+                                                              "C": [
+                                                                {
+                                                                  "N": "forEach",
+                                                                  "sType": "*AS ",
+                                                                  "C": [
+                                                                    {
+                                                                      "N": "data",
+                                                                      "sType": "*A ",
+                                                                      "C": [
+                                                                        {
+                                                                          "N": "mergeAdj",
+                                                                          "C": [
+                                                                            {
+                                                                              "N": "fn",
+                                                                              "sType": "1AO",
+                                                                              "name": "number",
+                                                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                                              "role": "select",
+                                                                              "line": "145",
+                                                                              "C": [
+                                                                                {
+                                                                                  "N": "check",
+                                                                                  "card": "?",
+                                                                                  "diag": "0|0||number",
+                                                                                  "C": [
+                                                                                    {
+                                                                                      "N": "data",
+                                                                                      "diag": "0|0||number",
+                                                                                      "C": [
+                                                                                        {
+                                                                                          "N": "slash",
+                                                                                          "op": "/",
+                                                                                          "C": [
+                                                                                            {
+                                                                                              "N": "fn",
+                                                                                              "name": "reverse",
+                                                                                              "C": [
+                                                                                                {
+                                                                                                  "N": "first",
+                                                                                                  "C": [
+                                                                                                    {
+                                                                                                      "N": "axis",
+                                                                                                      "name": "preceding",
+                                                                                                      "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}pb"
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "N": "axis",
+                                                                                              "name": "attribute",
+                                                                                              "nodeTest": "*NA nQ{}n"
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "N": "fn",
+                                                                      "name": "string",
+                                                                      "sType": "1AS ",
+                                                                      "C": [
+                                                                        {
+                                                                          "N": "dot"
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "N": "str",
+                                                                  "sType": "1AS ",
+                                                                  "val": " "
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "N": "valueOf",
+                                                          "sType": "1NT ",
+                                                          "C": [
+                                                            {
+                                                              "N": "str",
+                                                              "sType": "1AS ",
+                                                              "val": "-"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "N": "valueOf",
+                                                          "flags": "l",
+                                                          "sType": "1NT ",
+                                                          "line": "145",
+                                                          "C": [
+                                                            {
+                                                              "N": "fn",
+                                                              "name": "string-join",
+                                                              "role": "select",
+                                                              "C": [
+                                                                {
+                                                                  "N": "forEach",
+                                                                  "sType": "*AS ",
+                                                                  "C": [
+                                                                    {
+                                                                      "N": "data",
+                                                                      "sType": "*A ",
+                                                                      "C": [
+                                                                        {
+                                                                          "N": "mergeAdj",
+                                                                          "C": [
+                                                                            {
+                                                                              "N": "fn",
+                                                                              "sType": "1AO",
+                                                                              "name": "number",
+                                                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                                              "role": "select",
+                                                                              "line": "145",
+                                                                              "C": [
+                                                                                {
+                                                                                  "N": "check",
+                                                                                  "card": "?",
+                                                                                  "diag": "0|0||number",
+                                                                                  "C": [
+                                                                                    {
+                                                                                      "N": "data",
+                                                                                      "diag": "0|0||number",
+                                                                                      "C": [
+                                                                                        {
+                                                                                          "N": "docOrder",
+                                                                                          "C": [
+                                                                                            {
+                                                                                              "N": "slash",
+                                                                                              "op": "/",
+                                                                                              "C": [
+                                                                                                {
+                                                                                                  "N": "slash",
+                                                                                                  "op": "/",
+                                                                                                  "C": [
+                                                                                                    {
+                                                                                                      "N": "slash",
+                                                                                                      "op": "/",
+                                                                                                      "C": [
+                                                                                                        {
+                                                                                                          "N": "slash",
+                                                                                                          "op": "/",
+                                                                                                          "C": [
+                                                                                                            {
+                                                                                                              "N": "fn",
+                                                                                                              "name": "document",
+                                                                                                              "C": [
+                                                                                                                {
+                                                                                                                  "N": "varRef",
+                                                                                                                  "name": "Q{}documentPath",
+                                                                                                                  "slot": "3"
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "N": "axis",
+                                                                                                              "name": "descendant-or-self",
+                                                                                                              "nodeTest": "*N"
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "N": "filter",
+                                                                                                          "C": [
+                                                                                                            {
+                                                                                                              "N": "axis",
+                                                                                                              "name": "child",
+                                                                                                              "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}anchor"
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "N": "gc",
+                                                                                                              "op": "=",
+                                                                                                              "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
+                                                                                                              "card": "1:1",
+                                                                                                              "C": [
+                                                                                                                {
+                                                                                                                  "N": "attVal",
+                                                                                                                  "name": "Q{}n"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "N": "data",
+                                                                                                                  "diag": "1|1||gc",
+                                                                                                                  "C": [
+                                                                                                                    {
+                                                                                                                      "N": "varRef",
+                                                                                                                      "name": "Q{}eventNumber",
+                                                                                                                      "slot": "4"
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "N": "fn",
+                                                                                                      "name": "reverse",
+                                                                                                      "C": [
+                                                                                                        {
+                                                                                                          "N": "first",
+                                                                                                          "C": [
+                                                                                                            {
+                                                                                                              "N": "axis",
+                                                                                                              "name": "preceding",
+                                                                                                              "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}pb"
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "N": "axis",
+                                                                                                  "name": "attribute",
+                                                                                                  "nodeTest": "*NA nQ{}n"
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "N": "fn",
+                                                                      "name": "string",
+                                                                      "sType": "1AS ",
+                                                                      "C": [
+                                                                        {
+                                                                          "N": "dot"
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "N": "str",
+                                                                  "sType": "1AS ",
+                                                                  "val": " "
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "N": "valueOf",
+                                                          "sType": "1NT ",
+                                                          "C": [
+                                                            {
+                                                              "N": "str",
+                                                              "sType": "1AS ",
+                                                              "val": "\"\n                "
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "N": "choose",
+                                                  "sType": "? ",
+                                                  "line": "147",
+                                                  "C": [
+                                                    {
+                                                      "N": "vc",
+                                                      "op": "ne",
+                                                      "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
+                                                      "sType": "1AB",
+                                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                      "line": "147",
+                                                      "C": [
+                                                        {
+                                                          "N": "fn",
+                                                          "name": "position"
+                                                        },
+                                                        {
+                                                          "N": "fn",
+                                                          "name": "last"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "N": "valueOf",
+                                                      "sType": "1NT ",
+                                                      "C": [
+                                                        {
+                                                          "N": "str",
+                                                          "sType": "1AS ",
+                                                          "val": ","
+                                                        }
+                                                      ]
+                                                    },
+                                                    { "N": "true" },
+                                                    {
+                                                      "N": "empty",
+                                                      "sType": "0 "
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "N": "valueOf",
+                                      "sType": "1NT ",
+                                      "C": [
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": "\n            ]\n            "
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "N": "choose",
+                                      "sType": "? ",
+                                      "line": "150",
+                                      "C": [
+                                        {
+                                          "N": "vc",
+                                          "op": "ne",
+                                          "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
+                                          "sType": "1AB",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                          "line": "150",
+                                          "C": [
+                                            { "N": "fn", "name": "position" },
+                                            { "N": "fn", "name": "last" }
+                                          ]
+                                        },
+                                        {
+                                          "N": "valueOf",
+                                          "sType": "1NT ",
+                                          "C": [
+                                            {
+                                              "N": "str",
+                                              "sType": "1AS ",
+                                              "val": ","
+                                            }
+                                          ]
+                                        },
+                                        { "N": "true" },
+                                        { "N": "empty", "sType": "0 " }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "N": "co",
+      "id": "1",
+      "uniform": "true",
+      "binds": "2",
       "C": [
         {
           "N": "template",
@@ -23,7 +1046,7 @@
           "slots": "200",
           "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
           "name": "Q{}insertBooksPages",
-          "line": "70",
+          "line": "154",
           "expand-text": "false",
           "sType": "* ",
           "C": [
@@ -39,7 +1062,7 @@
                   "sType": "* ",
                   "as": "* ",
                   "flags": "",
-                  "line": "71",
+                  "line": "155",
                   "C": [
                     {
                       "N": "str",
@@ -62,7 +1085,7 @@
                   "sType": "* ",
                   "as": "* ",
                   "flags": "",
-                  "line": "72",
+                  "line": "156",
                   "C": [
                     {
                       "N": "str",
@@ -81,15 +1104,15 @@
                 {
                   "N": "forEach",
                   "sType": "* ",
-                  "line": "73",
+                  "line": "157",
                   "C": [
                     {
                       "N": "fn",
                       "name": "tokenize",
                       "sType": "*AS",
-                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                       "role": "select",
-                      "line": "73",
+                      "line": "157",
                       "C": [
                         {
                           "N": "str",
@@ -103,15 +1126,15 @@
                       "var": "Q{}documentPath",
                       "slot": "2",
                       "sType": "* ",
-                      "line": "75",
+                      "line": "159",
                       "C": [
                         {
                           "N": "fn",
                           "name": "concat",
                           "sType": "1AS",
-                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                           "role": "select",
-                          "line": "75",
+                          "line": "159",
                           "C": [
                             { "N": "str", "val": "edition/texts/0" },
                             {
@@ -139,7 +1162,7 @@
                               "bSlot": "0",
                               "sType": "* ",
                               "name": "Q{}insertBookPages",
-                              "line": "77",
+                              "line": "161",
                               "C": [
                                 {
                                   "N": "withParam",
@@ -152,9 +1175,9 @@
                                       "name": "Q{}entityPrefix",
                                       "slot": "0",
                                       "sType": "*",
-                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                       "role": "select",
-                                      "line": "78"
+                                      "line": "162"
                                     }
                                   ]
                                 },
@@ -168,13 +1191,13 @@
                                       "N": "docOrder",
                                       "sType": "*N",
                                       "role": "select",
-                                      "line": "79",
+                                      "line": "163",
                                       "C": [
                                         {
                                           "N": "fn",
                                           "name": "document",
                                           "sType": "*N",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "C": [
                                             {
                                               "N": "varRef",
@@ -196,9 +1219,9 @@
                                     {
                                       "N": "dot",
                                       "sType": "1AS",
-                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                       "role": "select",
-                                      "line": "80"
+                                      "line": "164"
                                     }
                                   ]
                                 },
@@ -213,9 +1236,9 @@
                                       "name": "Q{}entity",
                                       "slot": "1",
                                       "sType": "*",
-                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                       "role": "select",
-                                      "line": "81"
+                                      "line": "165"
                                     }
                                   ]
                                 }
@@ -224,15 +1247,15 @@
                             {
                               "N": "choose",
                               "sType": "? ",
-                              "line": "83",
+                              "line": "167",
                               "C": [
                                 {
                                   "N": "vc",
                                   "op": "ne",
                                   "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
                                   "sType": "1AB",
-                                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
-                                  "line": "83",
+                                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                  "line": "167",
                                   "C": [
                                     { "N": "fn", "name": "position" },
                                     { "N": "fn", "name": "last" }
@@ -264,7 +1287,7 @@
     {
       "N": "co",
       "binds": "",
-      "id": "1",
+      "id": "2",
       "uniform": "true",
       "C": [
         {
@@ -274,7 +1297,7 @@
           "slots": "200",
           "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
           "name": "Q{}insertBookPages",
-          "line": "89",
+          "line": "173",
           "expand-text": "false",
           "sType": "* ",
           "C": [
@@ -290,7 +1313,7 @@
                   "sType": "* ",
                   "as": "* ",
                   "flags": "",
-                  "line": "90",
+                  "line": "174",
                   "C": [
                     {
                       "N": "str",
@@ -313,7 +1336,7 @@
                   "sType": "* ",
                   "as": "* ",
                   "flags": "",
-                  "line": "91",
+                  "line": "175",
                   "C": [
                     {
                       "N": "str",
@@ -336,7 +1359,7 @@
                   "sType": "* ",
                   "as": "* ",
                   "flags": "",
-                  "line": "92",
+                  "line": "176",
                   "C": [
                     {
                       "N": "str",
@@ -359,7 +1382,7 @@
                   "sType": "* ",
                   "as": "* ",
                   "flags": "",
-                  "line": "93",
+                  "line": "177",
                   "C": [
                     {
                       "N": "str",
@@ -384,7 +1407,7 @@
                   "N": "valueOf",
                   "flags": "l",
                   "sType": "1NT ",
-                  "line": "94",
+                  "line": "178",
                   "C": [
                     {
                       "N": "fn",
@@ -407,9 +1430,9 @@
                                       "sType": "*",
                                       "name": "Q{}bookName",
                                       "slot": "1",
-                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                       "role": "select",
-                                      "line": "94"
+                                      "line": "178"
                                     }
                                   ]
                                 }
@@ -442,21 +1465,21 @@
                 {
                   "N": "forEach",
                   "sType": "* ",
-                  "line": "95",
+                  "line": "179",
                   "C": [
                     {
                       "N": "docOrder",
                       "sType": "*N",
                       "role": "select",
-                      "line": "95",
+                      "line": "179",
                       "C": [
                         {
                           "N": "fn",
                           "name": "key",
                           "sType": "*N",
-                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                           "C": [
-                            { "N": "str", "val": "names_book_of_remembrances" },
+                            { "N": "str", "val": "element_from_ref" },
                             {
                               "N": "fn",
                               "name": "concat",
@@ -553,7 +1576,7 @@
                           "N": "valueOf",
                           "flags": "l",
                           "sType": "1NT ",
-                          "line": "96",
+                          "line": "180",
                           "C": [
                             {
                               "N": "fn",
@@ -575,9 +1598,9 @@
                                               "N": "fn",
                                               "sType": "1AO",
                                               "name": "number",
-                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                               "role": "select",
-                                              "line": "96",
+                                              "line": "180",
                                               "C": [
                                                 {
                                                   "N": "check",
@@ -641,15 +1664,15 @@
                         {
                           "N": "choose",
                           "sType": "? ",
-                          "line": "97",
+                          "line": "181",
                           "C": [
                             {
                               "N": "vc",
                               "op": "ne",
                               "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
                               "sType": "1AB",
-                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
-                              "line": "97",
+                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                              "line": "181",
                               "C": [
                                 { "N": "fn", "name": "position" },
                                 { "N": "fn", "name": "last" }
@@ -683,8 +1706,174 @@
     },
     {
       "N": "co",
-      "id": "2",
-      "binds": "0 2",
+      "binds": "",
+      "id": "3",
+      "vis": "PRIVATE",
+      "ex:uniform": "true",
+      "C": [
+        {
+          "N": "function",
+          "name": "Q{internals}capitaliseFirstLetter",
+          "as": "1AS ",
+          "slots": "201",
+          "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
+          "module": "tei-to-json.xsl",
+          "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
+          "flags": "muu",
+          "sig": "1F r[1AS ] a[1AS ] ",
+          "sType": "1F r[1AS ] a[1AS ] ",
+          "line": "121",
+          "C": [
+            {
+              "N": "arg",
+              "slot": "0",
+              "name": "Q{}input",
+              "as": "AS ",
+              "sType": "AS "
+            },
+            {
+              "N": "fn",
+              "name": "concat",
+              "sType": "1AS",
+              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+              "role": "body",
+              "line": "126",
+              "C": [
+                {
+                  "N": "fn",
+                  "name": "upper-case",
+                  "C": [
+                    {
+                      "N": "fn",
+                      "name": "substring",
+                      "C": [
+                        {
+                          "N": "treat",
+                          "as": "AS",
+                          "diag": "0|0||substring",
+                          "C": [
+                            {
+                              "N": "check",
+                              "card": "?",
+                              "diag": "0|0||substring",
+                              "C": [
+                                {
+                                  "N": "cvUntyped",
+                                  "to": "AS",
+                                  "diag": "0|0||substring",
+                                  "C": [
+                                    {
+                                      "N": "check",
+                                      "card": "?",
+                                      "diag": "0|0||substring",
+                                      "C": [
+                                        {
+                                          "N": "data",
+                                          "diag": "0|0||substring",
+                                          "C": [
+                                            {
+                                              "N": "varRef",
+                                              "name": "Q{}input",
+                                              "slot": "0"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "N": "convert",
+                          "to": "AO",
+                          "flags": "",
+                          "C": [{ "N": "int", "val": "1" }]
+                        },
+                        {
+                          "N": "convert",
+                          "to": "AO",
+                          "flags": "",
+                          "C": [{ "N": "int", "val": "1" }]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "N": "fn",
+                  "name": "substring",
+                  "C": [
+                    {
+                      "N": "treat",
+                      "as": "AS",
+                      "diag": "0|0||substring",
+                      "C": [
+                        {
+                          "N": "check",
+                          "card": "?",
+                          "diag": "0|0||substring",
+                          "C": [
+                            {
+                              "N": "cvUntyped",
+                              "to": "AS",
+                              "diag": "0|0||substring",
+                              "C": [
+                                {
+                                  "N": "check",
+                                  "card": "?",
+                                  "diag": "0|0||substring",
+                                  "C": [
+                                    {
+                                      "N": "data",
+                                      "diag": "0|0||substring",
+                                      "C": [
+                                        {
+                                          "N": "varRef",
+                                          "name": "Q{}input",
+                                          "slot": "0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "N": "convert",
+                      "to": "AO",
+                      "flags": "",
+                      "C": [{ "N": "int", "val": "2" }]
+                    }
+                  ]
+                },
+                {
+                  "N": "filter",
+                  "C": [
+                    { "N": "str", "val": " " },
+                    {
+                      "N": "fn",
+                      "name": "not",
+                      "C": [{ "N": "fn", "name": "last" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "N": "co",
+      "id": "4",
+      "binds": "3 0 1 4",
       "C": [
         {
           "N": "mode",
@@ -697,13 +1886,743 @@
               "N": "templateRule",
               "rank": "0",
               "prec": "0",
-              "seq": "5",
-              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+              "seq": "7",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
               "minImp": "0",
               "flags": "s",
               "slots": "200",
               "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
-              "line": "55",
+              "line": "105",
+              "module": "tei-to-json.xsl",
+              "expand-text": "false",
+              "match": "tei:event",
+              "prio": "0",
+              "matches": "NE nQ{http://www.tei-c.org/ns/1.0}event",
+              "C": [
+                {
+                  "N": "p.nodeTest",
+                  "role": "match",
+                  "test": "NE nQ{http://www.tei-c.org/ns/1.0}event",
+                  "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}event",
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals "
+                },
+                {
+                  "N": "let",
+                  "var": "Q{}desc",
+                  "slot": "0",
+                  "sType": "* ",
+                  "line": "106",
+                  "role": "action",
+                  "C": [
+                    {
+                      "N": "fn",
+                      "name": "normalize-space",
+                      "sType": "1AS",
+                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                      "role": "select",
+                      "line": "106",
+                      "C": [
+                        {
+                          "N": "fn",
+                          "name": "replace",
+                          "C": [
+                            {
+                              "N": "cvUntyped",
+                              "to": "AS",
+                              "diag": "0|0||replace",
+                              "C": [
+                                {
+                                  "N": "check",
+                                  "card": "?",
+                                  "diag": "0|0||replace",
+                                  "C": [
+                                    {
+                                      "N": "data",
+                                      "diag": "0|0||replace",
+                                      "C": [
+                                        {
+                                          "N": "slash",
+                                          "op": "/",
+                                          "C": [
+                                            {
+                                              "N": "axis",
+                                              "name": "child",
+                                              "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}desc"
+                                            },
+                                            {
+                                              "N": "axis",
+                                              "name": "child",
+                                              "nodeTest": "*NT"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            { "N": "str", "val": "\"" },
+                            { "N": "str", "val": "\\\\\"" }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "N": "let",
+                      "var": "Q{}category",
+                      "slot": "1",
+                      "sType": "* ",
+                      "line": "107",
+                      "C": [
+                        {
+                          "N": "ufCall",
+                          "name": "Q{internals}capitaliseFirstLetter",
+                          "coId": "3",
+                          "sType": "1AS",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                          "role": "select",
+                          "line": "107",
+                          "bSlot": "0",
+                          "C": [
+                            {
+                              "N": "fn",
+                              "name": "normalize-space",
+                              "C": [
+                                {
+                                  "N": "cvUntyped",
+                                  "to": "AS",
+                                  "diag": "0|0||normalize-space",
+                                  "C": [
+                                    {
+                                      "N": "check",
+                                      "card": "?",
+                                      "diag": "0|0||normalize-space",
+                                      "C": [
+                                        {
+                                          "N": "data",
+                                          "diag": "0|0||normalize-space",
+                                          "C": [
+                                            {
+                                              "N": "slash",
+                                              "op": "/",
+                                              "C": [
+                                                {
+                                                  "N": "axis",
+                                                  "name": "child",
+                                                  "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}label"
+                                                },
+                                                {
+                                                  "N": "axis",
+                                                  "name": "child",
+                                                  "nodeTest": "*NT"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "N": "let",
+                          "var": "Q{}title",
+                          "slot": "2",
+                          "sType": "* ",
+                          "line": "108",
+                          "C": [
+                            {
+                              "N": "fn",
+                              "name": "concat",
+                              "sType": "1AS",
+                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                              "role": "select",
+                              "line": "108",
+                              "C": [
+                                {
+                                  "N": "check",
+                                  "card": "?",
+                                  "diag": "0|0||concat",
+                                  "C": [
+                                    {
+                                      "N": "data",
+                                      "diag": "0|0||concat",
+                                      "C": [
+                                        {
+                                          "N": "varRef",
+                                          "name": "Q{}category",
+                                          "slot": "1"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                { "N": "str", "val": ": " },
+                                {
+                                  "N": "check",
+                                  "card": "?",
+                                  "diag": "0|2||concat",
+                                  "C": [
+                                    {
+                                      "N": "data",
+                                      "diag": "0|2||concat",
+                                      "C": [
+                                        {
+                                          "N": "varRef",
+                                          "name": "Q{}desc",
+                                          "slot": "0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "N": "sequence",
+                              "sType": "* ",
+                              "C": [
+                                {
+                                  "N": "valueOf",
+                                  "sType": "1NT ",
+                                  "C": [
+                                    {
+                                      "N": "str",
+                                      "sType": "1AS ",
+                                      "val": "\n        {\n            \"type\": \"event\",\n            \"id\": \""
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "flags": "l",
+                                  "sType": "1NT ",
+                                  "line": "111",
+                                  "C": [
+                                    {
+                                      "N": "fn",
+                                      "name": "string-join",
+                                      "role": "select",
+                                      "C": [
+                                        {
+                                          "N": "forEach",
+                                          "sType": "*AS ",
+                                          "C": [
+                                            {
+                                              "N": "data",
+                                              "sType": "*A ",
+                                              "C": [
+                                                {
+                                                  "N": "mergeAdj",
+                                                  "C": [
+                                                    {
+                                                      "N": "axis",
+                                                      "sType": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
+                                                      "name": "attribute",
+                                                      "nodeTest": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
+                                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                      "role": "select",
+                                                      "line": "111"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "N": "fn",
+                                              "name": "string",
+                                              "sType": "1AS ",
+                                              "C": [{ "N": "dot" }]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": " "
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "sType": "1NT ",
+                                  "C": [
+                                    {
+                                      "N": "str",
+                                      "sType": "1AS ",
+                                      "val": "\",\n            \"sortkey\": \""
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "flags": "l",
+                                  "sType": "1NT ",
+                                  "line": "112",
+                                  "C": [
+                                    {
+                                      "N": "fn",
+                                      "name": "string-join",
+                                      "role": "select",
+                                      "C": [
+                                        {
+                                          "N": "forEach",
+                                          "sType": "*AS ",
+                                          "C": [
+                                            {
+                                              "N": "data",
+                                              "sType": "*A ",
+                                              "C": [
+                                                {
+                                                  "N": "mergeAdj",
+                                                  "C": [
+                                                    {
+                                                      "N": "varRef",
+                                                      "sType": "*",
+                                                      "name": "Q{}title",
+                                                      "slot": "2",
+                                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                      "role": "select",
+                                                      "line": "112"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "N": "fn",
+                                              "name": "string",
+                                              "sType": "1AS ",
+                                              "C": [{ "N": "dot" }]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": " "
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "sType": "1NT ",
+                                  "C": [
+                                    {
+                                      "N": "str",
+                                      "sType": "1AS ",
+                                      "val": "\",\n            \"search\": \""
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "flags": "l",
+                                  "sType": "1NT ",
+                                  "line": "113",
+                                  "C": [
+                                    {
+                                      "N": "fn",
+                                      "name": "string-join",
+                                      "role": "select",
+                                      "C": [
+                                        {
+                                          "N": "forEach",
+                                          "sType": "*AS ",
+                                          "C": [
+                                            {
+                                              "N": "data",
+                                              "sType": "*A ",
+                                              "C": [
+                                                {
+                                                  "N": "mergeAdj",
+                                                  "C": [
+                                                    {
+                                                      "N": "varRef",
+                                                      "sType": "*",
+                                                      "name": "Q{}category",
+                                                      "slot": "1",
+                                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                      "role": "select",
+                                                      "line": "113"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "N": "fn",
+                                              "name": "string",
+                                              "sType": "1AS ",
+                                              "C": [{ "N": "dot" }]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": " "
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "sType": "1NT ",
+                                  "C": [
+                                    { "N": "str", "sType": "1AS ", "val": " " }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "flags": "l",
+                                  "sType": "1NT ",
+                                  "line": "113",
+                                  "C": [
+                                    {
+                                      "N": "fn",
+                                      "name": "string-join",
+                                      "role": "select",
+                                      "C": [
+                                        {
+                                          "N": "forEach",
+                                          "sType": "*AS ",
+                                          "C": [
+                                            {
+                                              "N": "data",
+                                              "sType": "*A ",
+                                              "C": [
+                                                {
+                                                  "N": "mergeAdj",
+                                                  "C": [
+                                                    {
+                                                      "N": "varRef",
+                                                      "sType": "*",
+                                                      "name": "Q{}desc",
+                                                      "slot": "0",
+                                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                      "role": "select",
+                                                      "line": "113"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "N": "fn",
+                                              "name": "string",
+                                              "sType": "1AS ",
+                                              "C": [{ "N": "dot" }]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": " "
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "sType": "1NT ",
+                                  "C": [
+                                    {
+                                      "N": "str",
+                                      "sType": "1AS ",
+                                      "val": " _event_"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "flags": "l",
+                                  "sType": "1NT ",
+                                  "line": "113",
+                                  "C": [
+                                    {
+                                      "N": "fn",
+                                      "name": "string-join",
+                                      "role": "select",
+                                      "C": [
+                                        {
+                                          "N": "forEach",
+                                          "sType": "*AS ",
+                                          "C": [
+                                            {
+                                              "N": "data",
+                                              "sType": "*A ",
+                                              "C": [
+                                                {
+                                                  "N": "mergeAdj",
+                                                  "C": [
+                                                    {
+                                                      "N": "axis",
+                                                      "sType": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
+                                                      "name": "attribute",
+                                                      "nodeTest": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
+                                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                      "role": "select",
+                                                      "line": "113"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "N": "fn",
+                                              "name": "string",
+                                              "sType": "1AS ",
+                                              "C": [{ "N": "dot" }]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": " "
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "sType": "1NT ",
+                                  "C": [
+                                    {
+                                      "N": "str",
+                                      "sType": "1AS ",
+                                      "val": "\",\n            \"title\": \""
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "flags": "l",
+                                  "sType": "1NT ",
+                                  "line": "114",
+                                  "C": [
+                                    {
+                                      "N": "fn",
+                                      "name": "string-join",
+                                      "role": "select",
+                                      "C": [
+                                        {
+                                          "N": "forEach",
+                                          "sType": "*AS ",
+                                          "C": [
+                                            {
+                                              "N": "data",
+                                              "sType": "*A ",
+                                              "C": [
+                                                {
+                                                  "N": "mergeAdj",
+                                                  "C": [
+                                                    {
+                                                      "N": "varRef",
+                                                      "sType": "*",
+                                                      "name": "Q{}title",
+                                                      "slot": "2",
+                                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                      "role": "select",
+                                                      "line": "114"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "N": "fn",
+                                              "name": "string",
+                                              "sType": "1AS ",
+                                              "C": [{ "N": "dot" }]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": " "
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "sType": "1NT ",
+                                  "C": [
+                                    {
+                                      "N": "str",
+                                      "sType": "1AS ",
+                                      "val": "\",\n            \"cat\": \""
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "flags": "l",
+                                  "sType": "1NT ",
+                                  "line": "115",
+                                  "C": [
+                                    {
+                                      "N": "fn",
+                                      "name": "string-join",
+                                      "role": "select",
+                                      "C": [
+                                        {
+                                          "N": "forEach",
+                                          "sType": "*AS ",
+                                          "C": [
+                                            {
+                                              "N": "data",
+                                              "sType": "*A ",
+                                              "C": [
+                                                {
+                                                  "N": "mergeAdj",
+                                                  "C": [
+                                                    {
+                                                      "N": "varRef",
+                                                      "sType": "*",
+                                                      "name": "Q{}category",
+                                                      "slot": "1",
+                                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                                      "role": "select",
+                                                      "line": "115"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "N": "fn",
+                                              "name": "string",
+                                              "sType": "1AS ",
+                                              "C": [{ "N": "dot" }]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": " "
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "sType": "1NT ",
+                                  "C": [
+                                    {
+                                      "N": "str",
+                                      "sType": "1AS ",
+                                      "val": "\",\n            \"pages\": {"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "callT",
+                                  "bSlot": "1",
+                                  "sType": "* ",
+                                  "name": "Q{}insertBooksPagesForEvent",
+                                  "line": "116",
+                                  "C": [
+                                    {
+                                      "N": "withParam",
+                                      "name": "Q{}entity",
+                                      "slot": "0",
+                                      "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}event",
+                                      "C": [
+                                        {
+                                          "N": "dot",
+                                          "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}event",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                          "role": "select",
+                                          "line": "13"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "valueOf",
+                                  "sType": "1NT ",
+                                  "C": [
+                                    {
+                                      "N": "str",
+                                      "sType": "1AS ",
+                                      "val": "}\n        }\n        "
+                                    }
+                                  ]
+                                },
+                                {
+                                  "N": "choose",
+                                  "sType": "? ",
+                                  "line": "118",
+                                  "C": [
+                                    {
+                                      "N": "vc",
+                                      "op": "ne",
+                                      "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
+                                      "sType": "1AB",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                      "line": "118",
+                                      "C": [
+                                        { "N": "fn", "name": "position" },
+                                        { "N": "fn", "name": "last" }
+                                      ]
+                                    },
+                                    {
+                                      "N": "valueOf",
+                                      "sType": "1NT ",
+                                      "C": [
+                                        {
+                                          "N": "str",
+                                          "sType": "1AS ",
+                                          "val": ","
+                                        }
+                                      ]
+                                    },
+                                    { "N": "true" },
+                                    { "N": "empty", "sType": "0 " }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "N": "templateRule",
+              "rank": "1",
+              "prec": "0",
+              "seq": "6",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
+              "minImp": "0",
+              "flags": "s",
+              "slots": "200",
+              "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
+              "line": "74",
               "module": "tei-to-json.xsl",
               "expand-text": "false",
               "match": "tei:place",
@@ -715,7 +2634,7 @@
                   "role": "match",
                   "test": "NE nQ{http://www.tei-c.org/ns/1.0}place",
                   "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}place",
-                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals "
                 },
                 {
                   "N": "sequence",
@@ -737,7 +2656,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "58",
+                      "line": "77",
                       "C": [
                         {
                           "N": "fn",
@@ -760,9 +2679,9 @@
                                           "sType": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
                                           "name": "attribute",
                                           "nodeTest": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "role": "select",
-                                          "line": "58"
+                                          "line": "77"
                                         }
                                       ]
                                     }
@@ -796,7 +2715,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "59",
+                      "line": "78",
                       "C": [
                         {
                           "N": "fn",
@@ -817,9 +2736,9 @@
                                         {
                                           "N": "first",
                                           "sType": "?",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "role": "select",
-                                          "line": "59",
+                                          "line": "78",
                                           "C": [
                                             {
                                               "N": "sequence",
@@ -890,7 +2809,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "59",
+                      "line": "78",
                       "C": [
                         {
                           "N": "fn",
@@ -911,9 +2830,9 @@
                                         {
                                           "N": "first",
                                           "sType": "?",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "role": "select",
-                                          "line": "59",
+                                          "line": "78",
                                           "C": [
                                             {
                                               "N": "sequence",
@@ -984,7 +2903,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "59",
+                      "line": "78",
                       "C": [
                         {
                           "N": "fn",
@@ -1005,9 +2924,9 @@
                                         {
                                           "N": "first",
                                           "sType": "?",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "role": "select",
-                                          "line": "59",
+                                          "line": "78",
                                           "C": [
                                             {
                                               "N": "sequence",
@@ -1078,7 +2997,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "59",
+                      "line": "78",
                       "C": [
                         {
                           "N": "fn",
@@ -1099,9 +3018,9 @@
                                         {
                                           "N": "first",
                                           "sType": "?",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "role": "select",
-                                          "line": "59",
+                                          "line": "78",
                                           "C": [
                                             {
                                               "N": "sequence",
@@ -1172,7 +3091,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "59",
+                      "line": "78",
                       "C": [
                         {
                           "N": "fn",
@@ -1193,9 +3112,9 @@
                                         {
                                           "N": "first",
                                           "sType": "?NT",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "role": "select",
-                                          "line": "59",
+                                          "line": "78",
                                           "C": [
                                             {
                                               "N": "sequence",
@@ -1374,7 +3293,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "60",
+                      "line": "79",
                       "C": [
                         {
                           "N": "fn",
@@ -1396,13 +3315,13 @@
                                           "N": "docOrder",
                                           "sType": "*NT",
                                           "role": "select",
-                                          "line": "60",
+                                          "line": "79",
                                           "C": [
                                             {
                                               "N": "slash",
                                               "op": "/",
                                               "sType": "*NT",
-                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                               "C": [
                                                 {
                                                   "N": "filter",
@@ -1465,7 +3384,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "60",
+                      "line": "79",
                       "C": [
                         {
                           "N": "fn",
@@ -1488,9 +3407,9 @@
                                           "sType": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
                                           "name": "attribute",
                                           "nodeTest": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "role": "select",
-                                          "line": "60"
+                                          "line": "79"
                                         }
                                       ]
                                     }
@@ -1524,7 +3443,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "61",
+                      "line": "80",
                       "C": [
                         {
                           "N": "fn",
@@ -1546,13 +3465,13 @@
                                           "N": "docOrder",
                                           "sType": "*NT",
                                           "role": "select",
-                                          "line": "61",
+                                          "line": "80",
                                           "C": [
                                             {
                                               "N": "slash",
                                               "op": "/",
                                               "sType": "*NT",
-                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                               "C": [
                                                 {
                                                   "N": "filter",
@@ -1621,7 +3540,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "62",
+                      "line": "81",
                       "C": [
                         {
                           "N": "fn",
@@ -1644,9 +3563,9 @@
                                           "sType": "*NA nQ{}type",
                                           "name": "attribute",
                                           "nodeTest": "*NA nQ{}type",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "role": "select",
-                                          "line": "62"
+                                          "line": "81"
                                         }
                                       ]
                                     }
@@ -1680,7 +3599,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "63",
+                      "line": "82",
                       "C": [
                         {
                           "N": "fn",
@@ -1701,9 +3620,9 @@
                                         {
                                           "N": "first",
                                           "sType": "?",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "role": "select",
-                                          "line": "63",
+                                          "line": "82",
                                           "C": [
                                             {
                                               "N": "sequence",
@@ -1777,7 +3696,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "64",
+                      "line": "83",
                       "C": [
                         {
                           "N": "fn",
@@ -1799,12 +3718,12 @@
                                           "N": "docOrder",
                                           "sType": "*NT",
                                           "role": "select",
-                                          "line": "64",
+                                          "line": "83",
                                           "C": [
                                             {
                                               "N": "docOrder",
                                               "sType": "*NT",
-                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                               "C": [
                                                 {
                                                   "N": "slash",
@@ -1867,10 +3786,10 @@
                     },
                     {
                       "N": "callT",
-                      "bSlot": "0",
+                      "bSlot": "2",
                       "sType": "* ",
                       "name": "Q{}insertBooksPages",
-                      "line": "65",
+                      "line": "84",
                       "C": [
                         {
                           "N": "withParam",
@@ -1881,7 +3800,7 @@
                             {
                               "N": "dot",
                               "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}place",
-                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                               "role": "select",
                               "line": "15"
                             }
@@ -1897,7 +3816,7 @@
                               "N": "str",
                               "val": "place:",
                               "sType": "1AS",
-                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                               "role": "select",
                               "line": "16"
                             }
@@ -1919,15 +3838,15 @@
                     {
                       "N": "choose",
                       "sType": "? ",
-                      "line": "67",
+                      "line": "86",
                       "C": [
                         {
                           "N": "vc",
                           "op": "ne",
                           "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
                           "sType": "1AB",
-                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
-                          "line": "67",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                          "line": "86",
                           "C": [
                             { "N": "fn", "name": "position" },
                             { "N": "fn", "name": "last" }
@@ -1948,15 +3867,15 @@
             },
             {
               "N": "templateRule",
-              "rank": "1",
+              "rank": "2",
               "prec": "0",
-              "seq": "4",
-              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+              "seq": "5",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
               "minImp": "0",
               "flags": "s",
               "slots": "200",
               "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
-              "line": "42",
+              "line": "61",
               "module": "tei-to-json.xsl",
               "expand-text": "false",
               "match": "tei:person",
@@ -1968,7 +3887,7 @@
                   "role": "match",
                   "test": "NE nQ{http://www.tei-c.org/ns/1.0}person",
                   "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}person",
-                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals "
                 },
                 {
                   "N": "sequence",
@@ -1990,7 +3909,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "45",
+                      "line": "64",
                       "C": [
                         {
                           "N": "fn",
@@ -2013,9 +3932,9 @@
                                           "sType": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
                                           "name": "attribute",
                                           "nodeTest": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
-                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                           "role": "select",
-                                          "line": "45"
+                                          "line": "64"
                                         }
                                       ]
                                     }
@@ -2048,18 +3967,18 @@
                     {
                       "N": "choose",
                       "sType": "* ",
-                      "line": "46",
+                      "line": "65",
                       "C": [
                         {
                           "N": "docOrder",
                           "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}surname",
-                          "line": "46",
+                          "line": "65",
                           "C": [
                             {
                               "N": "slash",
                               "op": "/",
                               "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}surname",
-                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                               "C": [
                                 {
                                   "N": "axis",
@@ -2109,7 +4028,7 @@
                                       "N": "fn",
                                       "name": "normalize-space",
                                       "sType": "1AS",
-                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                       "role": "select",
                                       "line": "4",
                                       "C": [
@@ -2196,7 +4115,7 @@
                                       "N": "fn",
                                       "name": "normalize-space",
                                       "sType": "1AS",
-                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                       "role": "select",
                                       "line": "5",
                                       "C": [
@@ -2278,7 +4197,7 @@
                                       "N": "fn",
                                       "name": "normalize-space",
                                       "sType": "1AS",
-                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                       "role": "select",
                                       "line": "6",
                                       "C": [
@@ -2348,7 +4267,7 @@
                               "N": "valueOf",
                               "flags": "l",
                               "sType": "1NT ",
-                              "line": "47",
+                              "line": "66",
                               "C": [
                                 {
                                   "N": "fn",
@@ -2359,9 +4278,9 @@
                                       "N": "fn",
                                       "name": "normalize-space",
                                       "sType": "1AS",
-                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                       "role": "select",
-                                      "line": "47",
+                                      "line": "66",
                                       "C": [
                                         {
                                           "N": "cvUntyped",
@@ -2436,7 +4355,7 @@
                               "N": "valueOf",
                               "flags": "l",
                               "sType": "1NT ",
-                              "line": "47",
+                              "line": "66",
                               "C": [
                                 {
                                   "N": "fn",
@@ -2447,9 +4366,102 @@
                                       "N": "fn",
                                       "name": "normalize-space",
                                       "sType": "1AS",
-                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                       "role": "select",
-                                      "line": "47",
+                                      "line": "66",
+                                      "C": [
+                                        {
+                                          "N": "cvUntyped",
+                                          "to": "AS",
+                                          "diag": "0|0||normalize-space",
+                                          "C": [
+                                            {
+                                              "N": "check",
+                                              "card": "?",
+                                              "diag": "0|0||normalize-space",
+                                              "C": [
+                                                {
+                                                  "N": "data",
+                                                  "diag": "0|0||normalize-space",
+                                                  "C": [
+                                                    {
+                                                      "N": "docOrder",
+                                                      "C": [
+                                                        {
+                                                          "N": "slash",
+                                                          "op": "/",
+                                                          "C": [
+                                                            {
+                                                              "N": "slash",
+                                                              "op": "/",
+                                                              "C": [
+                                                                {
+                                                                  "N": "axis",
+                                                                  "name": "child",
+                                                                  "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}persName"
+                                                                },
+                                                                {
+                                                                  "N": "subscript",
+                                                                  "flags": "p",
+                                                                  "C": [
+                                                                    {
+                                                                      "N": "axis",
+                                                                      "name": "child",
+                                                                      "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}surname"
+                                                                    },
+                                                                    {
+                                                                      "N": "int",
+                                                                      "val": "2"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "N": "axis",
+                                                              "name": "child",
+                                                              "nodeTest": "*NT"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    { "N": "str", "sType": "1AS ", "val": " " }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "N": "valueOf",
+                              "sType": "1NT ",
+                              "C": [{ "N": "str", "sType": "1AS ", "val": " " }]
+                            },
+                            {
+                              "N": "valueOf",
+                              "flags": "l",
+                              "sType": "1NT ",
+                              "line": "66",
+                              "C": [
+                                {
+                                  "N": "fn",
+                                  "name": "string-join",
+                                  "role": "select",
+                                  "C": [
+                                    {
+                                      "N": "fn",
+                                      "name": "normalize-space",
+                                      "sType": "1AS",
+                                      "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                                      "role": "select",
+                                      "line": "66",
                                       "C": [
                                         {
                                           "N": "cvUntyped",
@@ -2521,7 +4533,7 @@
                               "N": "valueOf",
                               "flags": "l",
                               "sType": "1NT ",
-                              "line": "47",
+                              "line": "66",
                               "C": [
                                 {
                                   "N": "fn",
@@ -2544,9 +4556,9 @@
                                                   "sType": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
                                                   "name": "attribute",
                                                   "nodeTest": "*NA nQ{http://www.w3.org/XML/1998/namespace}id",
-                                                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                                                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                                                   "role": "select",
-                                                  "line": "47"
+                                                  "line": "66"
                                                 }
                                               ]
                                             }
@@ -2593,7 +4605,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "48",
+                      "line": "67",
                       "C": [
                         {
                           "N": "fn",
@@ -2604,9 +4616,9 @@
                               "N": "fn",
                               "name": "normalize-space",
                               "sType": "1AS",
-                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                               "role": "select",
-                              "line": "48",
+                              "line": "67",
                               "C": [
                                 {
                                   "N": "cvUntyped",
@@ -2687,7 +4699,7 @@
                       "N": "valueOf",
                       "flags": "l",
                       "sType": "1NT ",
-                      "line": "49",
+                      "line": "68",
                       "C": [
                         {
                           "N": "fn",
@@ -2698,9 +4710,9 @@
                               "N": "fn",
                               "name": "normalize-space",
                               "sType": "1AS",
-                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                               "role": "select",
-                              "line": "49",
+                              "line": "68",
                               "C": [
                                 {
                                   "N": "cvUntyped",
@@ -2795,10 +4807,10 @@
                     },
                     {
                       "N": "callT",
-                      "bSlot": "0",
+                      "bSlot": "2",
                       "sType": "* ",
                       "name": "Q{}insertBooksPages",
-                      "line": "50",
+                      "line": "69",
                       "C": [
                         {
                           "N": "withParam",
@@ -2809,9 +4821,9 @@
                             {
                               "N": "dot",
                               "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}person",
-                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                               "role": "select",
-                              "line": "13"
+                              "line": "14"
                             }
                           ]
                         },
@@ -2825,9 +4837,9 @@
                               "N": "str",
                               "val": "ppl:",
                               "sType": "1AS",
-                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                               "role": "select",
-                              "line": "14"
+                              "line": "15"
                             }
                           ]
                         }
@@ -2847,15 +4859,15 @@
                     {
                       "N": "choose",
                       "sType": "? ",
-                      "line": "52",
+                      "line": "71",
                       "C": [
                         {
                           "N": "vc",
                           "op": "ne",
                           "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
                           "sType": "1AB",
-                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
-                          "line": "52",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                          "line": "71",
                           "C": [
                             { "N": "fn", "name": "position" },
                             { "N": "fn", "name": "last" }
@@ -2876,100 +4888,27 @@
             },
             {
               "N": "templateRule",
-              "rank": "2",
-              "prec": "0",
-              "seq": "3",
-              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
-              "minImp": "0",
-              "flags": "s",
-              "slots": "200",
-              "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
-              "line": "36",
-              "module": "tei-to-json.xsl",
-              "expand-text": "false",
-              "match": "tei:listPlace",
-              "prio": "0",
-              "matches": "NE nQ{http://www.tei-c.org/ns/1.0}listPlace",
-              "C": [
-                {
-                  "N": "p.nodeTest",
-                  "role": "match",
-                  "test": "NE nQ{http://www.tei-c.org/ns/1.0}listPlace",
-                  "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}listPlace",
-                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
-                },
-                {
-                  "N": "sequence",
-                  "role": "action",
-                  "sType": "* ",
-                  "C": [
-                    {
-                      "N": "valueOf",
-                      "sType": "1NT ",
-                      "C": [
-                        {
-                          "N": "str",
-                          "sType": "1AS ",
-                          "val": "\n        [\n            "
-                        }
-                      ]
-                    },
-                    {
-                      "N": "applyT",
-                      "sType": "* ",
-                      "line": "38",
-                      "mode": "#unnamed",
-                      "bSlot": "1",
-                      "C": [
-                        {
-                          "N": "axis",
-                          "name": "child",
-                          "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}place",
-                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}place",
-                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
-                          "role": "select",
-                          "line": "38"
-                        }
-                      ]
-                    },
-                    {
-                      "N": "valueOf",
-                      "sType": "1NT ",
-                      "C": [
-                        {
-                          "N": "str",
-                          "sType": "1AS ",
-                          "val": "\n        ]\n    "
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "N": "templateRule",
               "rank": "3",
               "prec": "0",
-              "seq": "2",
-              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+              "seq": "4",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
               "minImp": "0",
               "flags": "s",
               "slots": "200",
               "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
-              "line": "31",
+              "line": "55",
               "module": "tei-to-json.xsl",
               "expand-text": "false",
-              "match": "tei:listPerson",
+              "match": "tei:listEvent",
               "prio": "0",
-              "matches": "NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+              "matches": "NE nQ{http://www.tei-c.org/ns/1.0}listEvent",
               "C": [
                 {
                   "N": "p.nodeTest",
                   "role": "match",
-                  "test": "NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
-                  "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
-                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
+                  "test": "NE nQ{http://www.tei-c.org/ns/1.0}listEvent",
+                  "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}listEvent",
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals "
                 },
                 {
                   "N": "sequence",
@@ -2990,18 +4929,18 @@
                     {
                       "N": "applyT",
                       "sType": "* ",
-                      "line": "33",
+                      "line": "57",
                       "mode": "#unnamed",
-                      "bSlot": "1",
+                      "bSlot": "3",
                       "C": [
                         {
                           "N": "axis",
                           "name": "child",
-                          "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}person",
-                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}person",
-                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+                          "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}event",
+                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}event",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                           "role": "select",
-                          "line": "33"
+                          "line": "57"
                         }
                       ]
                     },
@@ -3024,13 +4963,159 @@
               "N": "templateRule",
               "rank": "4",
               "prec": "0",
-              "seq": "1",
-              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+              "seq": "3",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
               "minImp": "0",
               "flags": "s",
               "slots": "200",
               "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
-              "line": "26",
+              "line": "50",
+              "module": "tei-to-json.xsl",
+              "expand-text": "false",
+              "match": "tei:listPlace",
+              "prio": "0",
+              "matches": "NE nQ{http://www.tei-c.org/ns/1.0}listPlace",
+              "C": [
+                {
+                  "N": "p.nodeTest",
+                  "role": "match",
+                  "test": "NE nQ{http://www.tei-c.org/ns/1.0}listPlace",
+                  "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}listPlace",
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals "
+                },
+                {
+                  "N": "sequence",
+                  "role": "action",
+                  "sType": "* ",
+                  "C": [
+                    {
+                      "N": "valueOf",
+                      "sType": "1NT ",
+                      "C": [
+                        {
+                          "N": "str",
+                          "sType": "1AS ",
+                          "val": "\n        [\n            "
+                        }
+                      ]
+                    },
+                    {
+                      "N": "applyT",
+                      "sType": "* ",
+                      "line": "52",
+                      "mode": "#unnamed",
+                      "bSlot": "3",
+                      "C": [
+                        {
+                          "N": "axis",
+                          "name": "child",
+                          "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}place",
+                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}place",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                          "role": "select",
+                          "line": "52"
+                        }
+                      ]
+                    },
+                    {
+                      "N": "valueOf",
+                      "sType": "1NT ",
+                      "C": [
+                        {
+                          "N": "str",
+                          "sType": "1AS ",
+                          "val": "\n        ]\n    "
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "N": "templateRule",
+              "rank": "5",
+              "prec": "0",
+              "seq": "2",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
+              "minImp": "0",
+              "flags": "s",
+              "slots": "200",
+              "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
+              "line": "45",
+              "module": "tei-to-json.xsl",
+              "expand-text": "false",
+              "match": "tei:listPerson",
+              "prio": "0",
+              "matches": "NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+              "C": [
+                {
+                  "N": "p.nodeTest",
+                  "role": "match",
+                  "test": "NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+                  "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals "
+                },
+                {
+                  "N": "sequence",
+                  "role": "action",
+                  "sType": "* ",
+                  "C": [
+                    {
+                      "N": "valueOf",
+                      "sType": "1NT ",
+                      "C": [
+                        {
+                          "N": "str",
+                          "sType": "1AS ",
+                          "val": "\n        [\n            "
+                        }
+                      ]
+                    },
+                    {
+                      "N": "applyT",
+                      "sType": "* ",
+                      "line": "47",
+                      "mode": "#unnamed",
+                      "bSlot": "3",
+                      "C": [
+                        {
+                          "N": "axis",
+                          "name": "child",
+                          "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}person",
+                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}person",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                          "role": "select",
+                          "line": "47"
+                        }
+                      ]
+                    },
+                    {
+                      "N": "valueOf",
+                      "sType": "1NT ",
+                      "C": [
+                        {
+                          "N": "str",
+                          "sType": "1AS ",
+                          "val": "\n        ]\n    "
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "N": "templateRule",
+              "rank": "6",
+              "prec": "0",
+              "seq": "1",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
+              "minImp": "0",
+              "flags": "s",
+              "slots": "200",
+              "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
+              "line": "39",
               "module": "tei-to-json.xsl",
               "expand-text": "false",
               "match": "/",
@@ -3042,68 +5127,62 @@
                   "role": "match",
                   "test": "ND",
                   "sType": "1ND",
-                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals "
                 },
                 {
-                  "N": "sequence",
-                  "role": "action",
+                  "N": "applyT",
                   "sType": "* ",
+                  "line": "42",
+                  "mode": "#unnamed",
+                  "role": "action",
+                  "bSlot": "3",
                   "C": [
                     {
-                      "N": "applyT",
-                      "sType": "* ",
-                      "line": "27",
-                      "mode": "#unnamed",
-                      "bSlot": "1",
+                      "N": "docOrder",
+                      "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}listEvent",
+                      "role": "select",
+                      "line": "42",
                       "C": [
                         {
                           "N": "docOrder",
-                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
-                          "role": "select",
-                          "line": "27",
+                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}listEvent",
+                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
                           "C": [
                             {
                               "N": "slash",
                               "op": "/",
-                              "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}listPerson",
-                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
                               "C": [
-                                { "N": "root" },
                                 {
-                                  "N": "axis",
-                                  "name": "descendant",
-                                  "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}listPerson"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "N": "applyT",
-                      "sType": "* ",
-                      "line": "28",
-                      "mode": "#unnamed",
-                      "bSlot": "1",
-                      "C": [
-                        {
-                          "N": "docOrder",
-                          "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}listPlace",
-                          "role": "select",
-                          "line": "28",
-                          "C": [
-                            {
-                              "N": "slash",
-                              "op": "/",
-                              "sType": "*NE nQ{http://www.tei-c.org/ns/1.0}listPlace",
-                              "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
-                              "C": [
-                                { "N": "root" },
+                                  "N": "slash",
+                                  "op": "/",
+                                  "C": [
+                                    { "N": "root" },
+                                    {
+                                      "N": "axis",
+                                      "name": "descendant-or-self",
+                                      "nodeTest": "*N"
+                                    }
+                                  ]
+                                },
                                 {
-                                  "N": "axis",
-                                  "name": "descendant",
-                                  "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}listPlace"
+                                  "N": "filter",
+                                  "C": [
+                                    {
+                                      "N": "axis",
+                                      "name": "child",
+                                      "nodeTest": "*NE nQ{http://www.tei-c.org/ns/1.0}listEvent"
+                                    },
+                                    {
+                                      "N": "gc",
+                                      "op": "=",
+                                      "comp": "GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint",
+                                      "card": "1:1",
+                                      "C": [
+                                        { "N": "attVal", "name": "Q{}type" },
+                                        { "N": "str", "val": "events" }
+                                      ]
+                                    }
+                                  ]
                                 }
                               ]
                             }
@@ -3117,15 +5196,15 @@
             },
             {
               "N": "templateRule",
-              "rank": "5",
+              "rank": "7",
               "prec": "0",
               "seq": "0",
-              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+              "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
               "minImp": "0",
               "flags": "s",
               "slots": "200",
               "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
-              "line": "23",
+              "line": "36",
               "module": "tei-to-json.xsl",
               "expand-text": "false",
               "match": "comment()",
@@ -3137,7 +5216,7 @@
                   "role": "match",
                   "test": "NC",
                   "sType": "1NC",
-                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals "
                 },
                 { "N": "empty", "sType": "0 ", "role": "action" }
               ]
@@ -3149,20 +5228,20 @@
     { "N": "overridden" },
     {
       "N": "key",
-      "name": "Q{}names_book_of_remembrances",
-      "binds": "0 2",
+      "name": "Q{}element_from_ref",
+      "binds": "3 0 1 4",
       "flags": "u",
       "module": "tei-to-json.xsl",
-      "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api#",
+      "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
       "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
-      "line": "10",
+      "line": "14",
       "C": [
         {
           "N": "p.withUpper",
           "role": "match",
           "axis": "parent",
           "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}*",
-          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# ",
+          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
           "C": [
             {
               "N": "p.withPredicate",
@@ -3192,31 +5271,98 @@
               "N": "data",
               "C": [
                 {
-                  "N": "docOrder",
-                  "sType": "*NA nQ{}ref",
-                  "line": "10",
+                  "N": "fn",
+                  "name": "tokenize",
+                  "sType": "*AS",
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                  "line": "14",
                   "C": [
                     {
-                      "N": "slash",
-                      "role": "select",
-                      "simple": "1",
-                      "sType": "*NA nQ{}ref",
+                      "N": "fn",
+                      "name": "normalize-space",
                       "C": [
                         {
-                          "N": "treat",
-                          "as": "N",
-                          "diag": "13|0|XTTE0510|",
-                          "C": [{ "N": "dot" }]
-                        },
-                        {
-                          "N": "axis",
-                          "name": "attribute",
-                          "nodeTest": "*NA nQ{}ref",
-                          "sType": "*NA nQ{}ref",
-                          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# "
+                          "N": "cvUntyped",
+                          "to": "AS",
+                          "diag": "0|0||normalize-space",
+                          "C": [
+                            {
+                              "N": "check",
+                              "card": "?",
+                              "diag": "0|0||normalize-space",
+                              "C": [{ "N": "attVal", "name": "Q{}ref" }]
+                            }
+                          ]
                         }
                       ]
-                    }
+                    },
+                    { "N": "str", "val": " " }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "N": "key",
+      "name": "Q{}element_from_eventid",
+      "binds": "3 0 1 4",
+      "flags": "u",
+      "module": "tei-to-json.xsl",
+      "ns": "xml=~ =http://www.tei-c.org/ns/1.0 html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals",
+      "baseUri": "file:///home/jeff/src/prj/alice-thornton/apps/entities/tei-to-json.xsl",
+      "line": "16",
+      "C": [
+        {
+          "N": "p.withUpper",
+          "role": "match",
+          "axis": "ancestor",
+          "sType": "1NE nQ{http://www.tei-c.org/ns/1.0}milestone",
+          "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+          "C": [
+            {
+              "N": "p.nodeTest",
+              "test": "NE nQ{http://www.tei-c.org/ns/1.0}milestone"
+            },
+            { "N": "p.nodeTest", "test": "ND" }
+          ]
+        },
+        {
+          "N": "data",
+          "role": "use",
+          "C": [
+            {
+              "N": "data",
+              "C": [
+                {
+                  "N": "fn",
+                  "name": "tokenize",
+                  "sType": "*AS",
+                  "ns": "= xml=~ fn=~ html=http://www.w3.org/1999/xhtml tei=http://www.tei-c.org/ns/1.0 xsl=~ dts=https://w3id.org/dts/api# xs=~ lookup=lookup internals=internals ",
+                  "line": "16",
+                  "C": [
+                    {
+                      "N": "fn",
+                      "name": "normalize-space",
+                      "C": [
+                        {
+                          "N": "cvUntyped",
+                          "to": "AS",
+                          "diag": "0|0||normalize-space",
+                          "C": [
+                            {
+                              "N": "check",
+                              "card": "?",
+                              "diag": "0|0||normalize-space",
+                              "C": [{ "N": "attVal", "name": "Q{}n" }]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    { "N": "str", "val": " " }
                   ]
                 }
               ]
@@ -3237,5 +5383,5 @@
     },
     { "N": "decimalFormat" }
   ],
-  "Σ": "a6bb125b"
+  "Σ": "351b6f2f"
 }

@@ -85,8 +85,9 @@ hideFooter: true
   
   <li>visual elements/drawings by the author<br><span>gylphs</span>
   </li>
-  </li>
 
+
+  
   </ul>
         </div>  
       <div class="features">  

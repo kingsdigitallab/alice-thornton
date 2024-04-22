@@ -40,9 +40,15 @@ module.exports = function () {
       max_panels: 4,
     },
     environment: environment,
+    hideEventsFromSearchPage: false,
     // which of the above metadata to pass to front-end javascript
     // as window.metadata.X
-    front_end_vars: ["text_viewer", "environment", "siteTitle"],
+    front_end_vars: [
+      "text_viewer",
+      "environment",
+      "siteTitle",
+      "hideEventsFromSearchPage",
+    ],
   };
 
   if (environment != "liv") {
@@ -76,6 +82,7 @@ module.exports = function () {
       book_two: [],
       book_three: [],
     };
+    ret["hideEventsFromSearchPage"] = true;
     // ret["text_viewer"]["can_clone_panel"] = false;
   }
 

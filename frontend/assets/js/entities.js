@@ -63,7 +63,7 @@ function setUpSearch() {
         return new Date(this.meta.dateCreated).toUTCString();
       },
       searchConfiguration() {
-        return {
+        let ret = {
           sortings: {
             name_asc: {
               field: "sortkey",
@@ -81,6 +81,12 @@ function setUpSearch() {
               size: 10,
               conjunction: false,
             },
+            cat: {
+              title: "By event type",
+              size: 100,
+              conjunction: false,
+              forType: "event",
+            },
             region: {
               title: "By region",
               size: 100,
@@ -96,6 +102,10 @@ function setUpSearch() {
           searchableFields: ["search"],
           removeStopWordFilter: true,
         };
+        if (window.metadata.hideEventsFromSearchPage) {
+          delete ret["aggregations"]["cat"];
+        }
+        return ret;
       },
       facets() {
         return this.results.data.aggregations;
@@ -273,6 +283,9 @@ function setUpSearch() {
         //     // console.log(`${record.title} => ${record.search}`);
         //   }
         // }
+        if (window.metadata.hideEventsFromSearchPage) {
+          this.records = this.records.filter((r) => r.type != "event");
+        }
       },
       setAddressBarFromSelection() {
         // ?p1.so=&p1.co=&p2.so=...
@@ -293,6 +306,12 @@ function setUpSearch() {
       },
       getContentClasses(panel) {
         return `view-${panel.selections.view}`;
+      },
+      getPageParts(page) {
+        // '123-130' => [123, 130]
+        // '123' => [123]
+        let ret = [...new Set(page.split("-"))];
+        return ret;
       },
     },
   });

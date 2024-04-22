@@ -7,7 +7,8 @@ const fs = require("fs");
 const sourceBase = "./edition/entities/";
 // const sourceBase =
 //   "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/entities/";
-const sources = ["people.xml", "places.xml"];
+const sources = ["people.xml", "places.xml", "events.xml"];
+// const sources = ["events.xml"];
 const target = "../../frontend/assets/js/entities.json";
 const jsonSheetPath = "xslt/tei-to-json.sef.json";
 
@@ -71,8 +72,17 @@ class Entities {
     // let docString = this.readFile(source)
     let entitiesJson = await this.xslt(source, jsonSheetPath);
     // console.log(entitiesJson.substring(0, 1000));
-    let entities = JSON.parse(entitiesJson);
-    // console.log(entities);
+    // fs.writeFileSync('tmp.json', entitiesJson, "utf8");
+
+    let entities = [];
+
+    if (entitiesJson) {
+      entities = JSON.parse(entitiesJson);
+    } else {
+      console.log(
+        `WARNING: entities file (${source}) transformed into an empty string.`
+      );
+    }
 
     for (let i in entities) {
       this.entities.push(entities[i]);

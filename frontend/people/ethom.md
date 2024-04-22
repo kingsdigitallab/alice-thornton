@@ -6,7 +6,7 @@ jobTitle: Engagement and Impact Officer
 affiliation: University of Edinburgh
 department: History
 mainEntityOfPage: https://www.ed.ac.uk/profile/dr-eleanor-thom
-teams:
+teams: none
   
 ---
 

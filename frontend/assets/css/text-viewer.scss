@@ -94,6 +94,13 @@ $render-sic: false;
       display: inline-block;
     }
 
+    input[type="number"] {
+      width: 5rem;
+    }
+    label {
+      vertical-align: bottom;
+    }
+
     .pull-right {
       // margin-left: auto; // for flex mode
       float: right;
@@ -316,6 +323,10 @@ $render-sic: false;
     }
   }
 
+  span.tei-note[data-tei-resp="#awt1"][data-tei-place~="margin"][data-tei="note"] {
+    display: none;
+  }
+
   .tei-fw.tei-type-pageNum {
     position: absolute;
     bottom: 0;
@@ -406,7 +417,8 @@ $render-sic: false;
       // we align the label with the middle item in the list
       top: calc(50% - ($edition-line-height / 2));
     }
-    .tei-seg[data-tei-rend="braced(})"] {
+    .tei-seg[data-tei-rend="braced(})"],
+    .tei-list[data-tei-rend="braced(})"] {
       display: inline-block;
       background: url(../img/icons/closing-curly-brace.svg) no-repeat right
         center;
@@ -414,6 +426,15 @@ $render-sic: false;
       padding-right: 1.5em;
       width: 95%;
     }
+  }
+
+  // ----------------------
+
+  hr {
+    // GN: redefining this to override Bulma (e.g. 1.14)
+    border: 1px solid grey;
+    height: 0px;
+    background-color: grey;
   }
 
   // ----------------------
