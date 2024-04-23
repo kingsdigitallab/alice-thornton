@@ -823,7 +823,7 @@ nav.pagination {
 // Search page
 
 .control .input {
-  border-color: $secondary;
+  border-color: $gray-dark;
 }
 
 #search {
@@ -834,9 +834,11 @@ nav.pagination {
 
   .panel.is-info {
     .panel-heading {
-      background-color: $gray;
-      color: $primary-dark;
+      background-color: transparent;
+      color: $primary;
       margin-bottom: 0.5em;
+      border-bottom:1px solid $primary;
+      padding: 4px;
     }
 
     .panel-block {
@@ -845,9 +847,13 @@ nav.pagination {
   }
 
   .search-results {
-    nav.pagination ul.pagination-list {
+    nav.pagination {
+      background:transparent;
+      border-bottom:1px solid $primary;
+      ul.pagination-list {
       justify-content: flex-start;
     }
+  }
     &.updating {
       opacity: 0.2;
     }
