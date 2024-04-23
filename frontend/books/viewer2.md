@@ -18,6 +18,22 @@ hideFooter: true
 
 {% raw %}
 
+<div id="image-modal" :class="{'modal': true, 'is-active': !!image.title}">
+  <div class="modal-background" @click="onClickCloseImageModal"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title" v-html="image.title"></p>
+      <button class="delete" aria-label="close" @click="onClickCloseImageModal"></button>
+    </header>
+    <section class="modal-card-body">
+      <div id="image-viewer" style="width: 100%; height: 50vh">
+      </div>
+    </section>
+    <footer class="modal-card-foot" v-html="image.description">
+    </footer>
+  </div>
+</div>
+
 <!-- TO: Commenting out information drawer for now as still needs more work -->
 
 <input id="drawer-switch" type="checkbox" />
