@@ -209,7 +209,7 @@ section#text-viewer {
   aside#drawer {
     position: fixed;
     top: 87px;
-    right: -100%;
+    right: -250%;
     width: 500px;
     height: 100%;
     padding: 0 0 0 0.5em;
@@ -218,6 +218,7 @@ section#text-viewer {
     box-sizing: border-box;
     @include transition(all 300ms ease-in);
     z-index: 1;
+    opacity:0;
     //overflow:scroll;
     h1 {
       background: white;
@@ -239,6 +240,7 @@ section#text-viewer {
   #drawer-switch {
     &:checked ~ #drawer {
       right: 0;
+      opacity:1;
     } //&:checked ~ #drawer
 
     &:checked ~ .panel-wrapper {
