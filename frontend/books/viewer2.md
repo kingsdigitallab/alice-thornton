@@ -1,6 +1,6 @@
 ---
 layout: viewer2.liquid
-title: Digital Edition
+title: Edition
 authors:
   - cbeattie
   - strill
@@ -338,7 +338,7 @@ hideFooter: true
             <i class="fas fa-print"></i>
             <h2>Print</h2>
           </div>
-          <div class="clone">
+          <div class="clone is-hidden-mobile">
           <div class="icon" v-if="canClonePanel">
             <a @click.stop.prevent="clonePanel(panelIdx)"><i class="far fa-clone"></i>
             <h2>Clone</h2>

@@ -954,6 +954,13 @@ nav.pagination {
 
 // fedback
 
+.body-text-viewer .feedback {
+  // GN: lift the feedback button on the new viewer 
+  // so it doesn't overlap the nvigation bar 
+  // at the bottom of a panel.
+  bottom: 3.5em;
+}
+
 .feedback {
   position: fixed;
   bottom: 1.5em;

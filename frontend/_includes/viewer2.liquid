@@ -17,13 +17,13 @@
       window.metadata = {{ metadata.front_end|json }};
     </script>
   </head>
-  <body>
+  <body class="body-text-viewer">
     {% include "header.liquid" %}
     <section>
       <div class="container is-fluid">
         
           <h1 class="title">
-            Digital Edition
+            {{ title }}
           </h1>
         
     <section id="text-viewer">
@@ -36,6 +36,7 @@
     <script src="/assets/js/text-viewer.js?ts={{ "now" | date: "%s" }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
     
+    {% include "feedback_button.liquid" %}
   </body>
 </html>
 
