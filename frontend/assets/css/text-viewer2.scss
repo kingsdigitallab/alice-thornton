@@ -37,7 +37,10 @@
   -o-transition: $args;
   transition: $args;
 }
-.container.is-fluid{max-width: 1344px;
+div.container.is-fluid{
+  max-width: 1344px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 //* 2. MAIN *//
 section#text-viewer {
@@ -991,7 +994,7 @@ $render-sic: false;
   padding-top: $edition-line-height;
   padding-bottom: calc($edition-line-height * 2);
   position: relative;
-  padding: 0 5em 0 0;
+  padding: 0 3% 0 0;
   opacity: 30%;
 
   &.loaded {
