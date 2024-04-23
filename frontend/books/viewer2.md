@@ -18,7 +18,6 @@ hideFooter: true
 
 {% raw %}
 
-<!-- TO: Commenting out information drawer for now as still needs more work -->
 
 <input id="drawer-switch" type="checkbox" />
 
@@ -129,13 +128,25 @@ hideFooter: true
       </div>
     </div>
     </div>
-
- <div class="tab">
+<div class="tab">
       <input
         type="radio"
         id="tab-2"
         name="tab-group-1">
       <label for="tab-2">
+        <i class="fas fa-quote-left"></i><h2>Citation</h2>
+      </label>
+      <div class="content">
+      <h2>Citation</h2>
+        <p>TO DO: Content - Instructions to how to cite and functionality</p>
+      </div>
+    </div>
+ <div class="tab">
+      <input
+        type="radio"
+        id="tab-3"
+        name="tab-group-1">
+      <label for="tab-3">
         <i class="fas fa-print"></i><h2>Print</h2>
       </label>
       <div class="content">
@@ -146,27 +157,14 @@ hideFooter: true
      <div class="tab">
       <input
         type="radio"
-        id="tab-3"
+        id="tab-4"
         name="tab-group-1">
-      <label for="tab-3">
+      <label for="tab-4">
         <i class="fas fa-search"></i><h2>Search</h2>
       </label>
       <div class="content">
       <h2>Search</h2>
         <p>TO DO: Content - Instructions to how to search or just link?</p>
-      </div>
-    </div>
-     <div class="tab">
-      <input
-        type="radio"
-        id="tab-4"
-        name="tab-group-1">
-      <label for="tab-4">
-        <i class="fas fa-quote-left"></i><h2>Citation</h2>
-      </label>
-      <div class="content">
-      <h2>Citation</h2>
-        <p>TO DO: Content - Instructions to how to cite and functionality</p>
       </div>
     </div>
     <br>
@@ -307,7 +305,6 @@ hideFooter: true
     </div>
   </div>
 </aside>
-<!---->
 <div class="panel-wrapper">
   <div class="panel" v-for="(panel, panelIdx) in panels">
     <nav class="panel-nav">
@@ -326,17 +323,11 @@ hideFooter: true
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
         </div>
         <div class="icons">
-        <!-- TO: Commenting out information drawer for now as still needs more work -->
           <div class="icon">
             <label for="drawer-switch" id="drawer-toggle">
             <i class="fas fa-info-circle"></i>
             <h2>Info</h2>
             </label>
-          </div>
-          <!---->
-        <div class="icon">
-            <i class="fas fa-print"></i>
-            <h2>Print</h2>
           </div>
           <div class="clone">
           <div class="icon" v-if="canClonePanel">
