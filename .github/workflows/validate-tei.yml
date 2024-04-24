@@ -9,31 +9,31 @@ jobs:
   xml-linters:
     runs-on: ubuntu-20.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Download schema
-        run: wget http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
-      - name: Lint book_of_remembrances.xml
-        uses: ChristophWurst/xmllint-action@master
-        with:
-          xml-file: ./texts/book_of_remembrances/book_of_remembrances.xml
-          xml-schema-file: ./tei_all.rng
-          xml-schema-type: relaxng
-      - name: Lint book_one.xml
-        uses: ChristophWurst/xmllint-action@master
-        with:
-          xml-file: ./texts/book_one/book_one.xml
-          xml-schema-file: ./tei_all.rng
-          xml-schema-type: relaxng
-      - name: Lint book_two.xml
-        uses: ChristophWurst/xmllint-action@master
-        with:
-          xml-file: ./texts/book_two/book_two.xml
-          xml-schema-file: ./tei_all.rng
-          xml-schema-type: relaxng
-      - name: Lint book_three.xml
-        uses: ChristophWurst/xmllint-action@master
-        with:
-          xml-file: ./texts/book_two/book_three.xml
-          xml-schema-file: ./tei_all.rng
-          xml-schema-type: relaxng
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Download schema
+      run: wget http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
+    - name: Lint book_one.xml
+      uses: ChristophWurst/xmllint-action@master
+      with:
+        xml-file: ./texts/01_book_one/book_one.xml
+        xml-schema-file: ./tei_all.rng
+        xml-schema-type: relaxng
+    - name: Lint book_two.xml
+      uses: ChristophWurst/xmllint-action@master
+      with:
+        xml-file: ./texts/02_book_two/book_two.xml
+        xml-schema-file: ./tei_all.rng
+        xml-schema-type: relaxng
+    - name: Lint book_three.xml
+      uses: ChristophWurst/xmllint-action@master
+      with:
+        xml-file: ./texts/03_book_three/book_three.xml
+        xml-schema-file: ./tei_all.rng
+        xml-schema-type: relaxng
+    - name: Lint book_of_remembrances.xml
+      uses: ChristophWurst/xmllint-action@master
+      with:
+        xml-file: ./texts/00_book_of_remembrances/book_of_remembrances.xml
+        xml-schema-file: ./tei_all.rng
+        xml-schema-type: relaxng
