@@ -166,7 +166,10 @@ hideFooter: true
       </label>
       <div class="content">
       <h2>Print</h2>
-        <p>TO DO: Content - Instructions to how to print page(s) or book</p>
+        <p>
+          Use the following link for a print-friendly preview of one of more pages from this book.
+        </p>
+        <a :href="getPrintURL()" class="button is-primary">Preview</a>
       </div>
     </div>
      <div class="tab">
@@ -345,10 +348,10 @@ hideFooter: true
             </label>
           </div>
           <!---->
-        <div class="icon">
+        <!-- <div class="icon">
             <i class="fas fa-print"></i>
             <h2>Print</h2>
-          </div>
+          </div> -->
           <div class="clone">
           <div class="icon is-hidden-mobile" v-if="canClonePanel">
             <a @click.stop.prevent="clonePanel(panelIdx)"><i class="far fa-clone"></i>

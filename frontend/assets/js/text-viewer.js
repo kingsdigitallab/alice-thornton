@@ -328,7 +328,10 @@ function setUpTextViewer() {
         panel.selections.extent = extent;
         this.loadDocument(panel);
       },
-      getPrintURL(panelIdx) {
+      getPrintURL(panelIdx = null) {
+        if (panelIdx == null) {
+          panelIdx = this.selection.selectedPanelIndex;
+        }
         return `../print/?${this.getQueryStringFromPanelIdx(panelIdx)}`;
       },
       async loadDocument(panel) {
@@ -518,7 +521,7 @@ function setUpTextViewer() {
             k == "locus" ||
             panel.selections[k] != this.getDefaultOption(panel, k)
           ) {
-            ret += `&p${panelIdx}.${k.substring(0, 2)}=${panel.selections[k]}`;
+            ret += `&p0.${k.substring(0, 2)}=${panel.selections[k]}`;
           }
         }
         return ret;
