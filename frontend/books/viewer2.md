@@ -353,15 +353,13 @@ hideFooter: true
             <h2>Print</h2>
           </div> -->
           <div class="clone">
-          <div class="icon is-hidden-mobile" v-if="canClonePanel">
-            <a @click.stop.prevent="clonePanel(panelIdx)"><i class="far fa-clone"></i>
+          <div class="icon is-hidden-mobile" v-if="canClonePanel" @click.stop.prevent="clonePanel(panelIdx)">
+            <i class="far fa-clone"></i>
             <h2>Clone</h2>
-            </a>
           </div>
-          <div class="icon" v-if="panels.length > 1">
-            <a @click.stop.prevent="closePanel(panelIdx)"><i class="fas fa-times"></i>
+          <div class="icon" v-if="panels.length > 1" @click.stop.prevent="closePanel(panelIdx)">
+            <i class="fas fa-times"></i>
             <h2>Close</h2>
-            </a>
           </div>
           </div>
     </nav>
