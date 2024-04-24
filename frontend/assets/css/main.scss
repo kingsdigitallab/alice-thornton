@@ -301,18 +301,16 @@ body > footer.footer {
   a img.social-logo {
     vertical-align: middle;
     margin-left: 8px;
-      &:hover{
-        box-shadow:none;
+    &:hover {
+      box-shadow: none;
     }
   }
 
-  a:hover{
+  a:hover {
     img.social-logo {
-      box-shadow:none;
-  } 
+      box-shadow: none;
+    }
   }
-
-
 
   p {
     line-height: 2;
@@ -511,7 +509,7 @@ figcaption {
   }
   a {
     img {
-      width:200px;
+      width: 200px;
     }
     &:hover {
       img {
@@ -837,7 +835,7 @@ nav.pagination {
       background-color: transparent;
       color: $primary;
       margin-bottom: 0.5em;
-      border-bottom:1px solid $primary;
+      border-bottom: 1px solid $primary;
       padding: 4px;
     }
 
@@ -848,12 +846,12 @@ nav.pagination {
 
   .search-results {
     nav.pagination {
-      background:transparent;
-      border-bottom:1px solid $primary;
+      background: transparent;
+      border-bottom: 1px solid $primary;
       ul.pagination-list {
-      justify-content: flex-start;
+        justify-content: flex-start;
+      }
     }
-  }
     &.updating {
       opacity: 0.2;
     }
