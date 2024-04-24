@@ -25,3 +25,33 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 
 ## Contents 
+
+Bishop Hall's Observations <br/>
+A Prayer, the Dedication <br/>
+The Birth of Alice Wandesford, February 13th, 1626 <br/>
+Proverbs, and Preface <br/>
+A Preservation in the Measles, 1630 <br/>
+My having the Smallpox in Kent, 1631 <br/>
+Meditations on Psalm 147: 4 (year 1631) <br/>
+A Preservation from a Fire in London (year 1632) <br/>
+My First Passage into Ireland, 1632 <br/>
+Meditations on St Mathew, at 12 years old, 1638 <br/>
+A Deliverance from Shipwreck, 1639 <br/>
+A Thanksgiving thereupon <br/>
+Observations upon Accidents in Ireland, 1640 <br/>
+A Relation of the Lord Deputy Wandesford's Death <br/>
+Meditations, and Prayer thereupon, December 3rd, 1640 <br/>
+A Prayer made by my Father for the Communion <br/>
+My Mother's Preservation and my own from the Rebellion in Ireland, October 23 1641 <br/>
+A Thanksgiving for the Same <br/>
+Upon our coming to Weschester from Ireland <br/>
+Upon my having the Smallpox the Second Time at Chester <br/>
+A Thanksgiving upon my Recovery <br/>
+Of my Mothers removal to Snape and Kirklington <br/>
+My Preservation from Death in a Sickness <br/>
+The Death of my Sister Danby, September 30th, 1645 <br/>
+The Death of Sir Edward Osborne , my Dear Uncle <br/>
+The Death of my Cousin Edward Norton, 1648 <br/>
+Upon the Beheading of King Charles the Martyr <br/>
+Upon the death of my Dear Brother George Wandesford <br/>
+A Prayer and Lamentation on that Sad Blow, 1651 <br/>
