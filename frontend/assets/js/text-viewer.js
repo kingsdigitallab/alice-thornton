@@ -56,6 +56,7 @@ function setUpTextViewer() {
         selection: {
           // which entity to highlight in the text
           highlightedText: "",
+          selectedPanelIndex: 0,
         },
         panels: [
           {
@@ -152,6 +153,21 @@ function setUpTextViewer() {
       isPrint() {
         return window.TEXT_VIEWER_PRINT_MODE || false;
       },
+      selectedPanel() {
+        return this.panels[this.selection.selectedPanelIndex];
+      },
+      drawerTitle() {
+        let ret = "";
+        let panel = this.selectedPanel;
+        if (panel) {
+          let pageNumber = panel.selections.locus.replace(/\D+/g, "");
+          ret = `${panel.selectors.document[panel.selections.document]}, ${
+            panel.selectors.view[panel.selections.view]
+          }, page ${pageNumber}`;
+          // selectedPanel.selections.document
+        }
+        return ret;
+      },
     },
     methods: {
       clonePanel(panelIdx) {
@@ -162,7 +178,13 @@ function setUpTextViewer() {
       closePanel(panelIdx) {
         // Do not use delete, this will confuse Vue
         this.panels = this.panels.filter((p, idx) => idx != panelIdx);
+        if (this.selection.selectedPanelIndex == panelIdx) {
+          this.selection.selectedPanelIndex = 0;
+        }
         this.setAddressBarFromSelection();
+      },
+      onClickInfo(panelIdx) {
+        this.selection.selectedPanelIndex = panelIdx;
       },
       isControlHidden(controlKey) {
         return (

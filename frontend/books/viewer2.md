@@ -39,7 +39,7 @@ hideFooter: true
 <input id="drawer-switch" type="checkbox" />
 
 <aside id="drawer" role="complementary">
-  <h1><span>Information for:</span>Book 1 Semi-Diplomatic Page 200</h1>
+  <h1><span>Information for:</span>{{ drawerTitle }}</h1>
   <div class="tabs">
   <label>BOOK</label>
     <div class="tab">
@@ -343,7 +343,7 @@ hideFooter: true
         </div>
         <div class="icons">
         <!-- TO: Commenting out information drawer for now as still needs more work -->
-          <div class="icon">
+          <div class="icon" @click="onClickInfo(panelIdx)">
             <label for="drawer-switch" id="drawer-toggle">
             <i class="fas fa-info-circle"></i>
             <h2>Info</h2>
