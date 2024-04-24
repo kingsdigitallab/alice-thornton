@@ -1,5 +1,5 @@
 ---
-title: "Alice Thornton's Books and the Citizen Writers Group"
+title: "Alice Thornton's Books as a Resource for Others"
 feature: /assets/img/posts/citizen-postcards.jpg
 authors:
   - ethom
@@ -8,6 +8,13 @@ tags:
   - deliverances
   - lifewriting
   - events
+  - creative writing
+  - nature
+  - wars of the three kingdoms
+  - childbirth
+  - illness
+  - family
+  - travel
 ---
 
 
