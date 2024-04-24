@@ -13,6 +13,12 @@ jobs:
         uses: actions/checkout@v3
       - name: Download schema
         run: wget http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
+      - name: Lint book_of_remembrances.xml
+        uses: ChristophWurst/xmllint-action@master
+        with:
+          xml-file: ./texts/book_of_remembrances/book_of_remembrances.xml
+          xml-schema-file: ./tei_all.rng
+          xml-schema-type: relaxng
       - name: Lint book_one.xml
         uses: ChristophWurst/xmllint-action@master
         with:
@@ -25,9 +31,9 @@ jobs:
           xml-file: ./texts/book_two/book_two.xml
           xml-schema-file: ./tei_all.rng
           xml-schema-type: relaxng
-      - name: Lint book_of_remembrances.xml
+      - name: Lint book_three.xml
         uses: ChristophWurst/xmllint-action@master
         with:
-          xml-file: ./texts/book_of_remembrances/book_of_remembrances.xml
+          xml-file: ./texts/book_two/book_three.xml
           xml-schema-file: ./tei_all.rng
           xml-schema-type: relaxng
