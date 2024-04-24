@@ -286,7 +286,7 @@ body > footer.footer {
   .has-text-centered {
     h2 {
       border-top: 8px solid $primary;
-      padding-top: 16px;
+      padding-top: 4px;
       font-weight: 600;
       color: $secondary;
       font-size: 24px;
@@ -295,12 +295,24 @@ body > footer.footer {
   .logo-x {
     img {
       padding: 2px;
+      background: black;
     }
   }
-  .social-logo {
+  a img.social-logo {
     vertical-align: middle;
     margin-left: 8px;
+      &:hover{
+        box-shadow:none;
+    }
   }
+
+  a:hover{
+    img.social-logo {
+      box-shadow:none;
+  } 
+  }
+
+
 
   p {
     line-height: 2;
@@ -488,7 +500,7 @@ figcaption {
 .logos {
   padding: 0 20px;
   border-bottom: 1px solid $primary;
-  margin: 0 auto 24px auto;
+  margin: 0 auto 8px auto;
   max-width: 1280px;
   align-items: center;
   @include tablet {
@@ -499,11 +511,7 @@ figcaption {
   }
   a {
     img {
-      max-width: 100%;
-      @include mobile {
-        margin: 1em auto;
-        max-width: 300px;
-      }
+      width:200px;
     }
     &:hover {
       img {
@@ -514,10 +522,7 @@ figcaption {
   }
   a:nth-child(2) img,
   a:nth-child(4) img {
-    width: 50%;
-  }
-  a:nth-child(2) img {
-    padding: 5px;
+    width: 120px;
   }
 
   @include mobile {
@@ -534,23 +539,25 @@ figcaption {
   }
 
   .book.columns {
-    width: 25em;
+    width: 50%;
     margin: 0;
+    @include mobile {
+      width: 100%;
+    }
     .column {
-      padding: 0.75em 0.75em 0.75em 0;
+      padding: 1% 5% 1% 0;
     }
     h3 {
       color: $secondary-dark;
     }
     a {
       img {
-        object-fit: cover;
-        height: 17em;
-        width: 14em;
+        height: auto;
+        width: 18em;
       }
       &:hover {
         img {
-          border: 3px solid $primary-dark;
+          border: 1px solid $primary-dark;
         }
       }
     }
@@ -816,7 +823,7 @@ nav.pagination {
 // Search page
 
 .control .input {
-  border-color: $secondary;
+  border-color: $gray-dark;
 }
 
 #search {
@@ -827,9 +834,11 @@ nav.pagination {
 
   .panel.is-info {
     .panel-heading {
-      background-color: $gray;
-      color: $primary-dark;
+      background-color: transparent;
+      color: $primary;
       margin-bottom: 0.5em;
+      border-bottom:1px solid $primary;
+      padding: 4px;
     }
 
     .panel-block {
@@ -838,9 +847,13 @@ nav.pagination {
   }
 
   .search-results {
-    nav.pagination ul.pagination-list {
+    nav.pagination {
+      background:transparent;
+      border-bottom:1px solid $primary;
+      ul.pagination-list {
       justify-content: flex-start;
     }
+  }
     &.updating {
       opacity: 0.2;
     }

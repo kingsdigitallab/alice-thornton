@@ -37,7 +37,11 @@
   -o-transition: $args;
   transition: $args;
 }
-
+div.container.is-fluid{
+  max-width: 1344px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
 //* 2. MAIN *//
 section#text-viewer {
   //overflow: hidden;
@@ -53,11 +57,10 @@ section#text-viewer {
     @include transition(all 300ms ease-in);
     display: flex;
     justify-content: center;
-
     > .panel {
       border: 1px solid $gray-dark;
       width: 100%;
-      height: 83vh;
+      height: calc(100vh - 170px);
       overflow: scroll;
       flex-direction: column;
       background: white;
@@ -209,7 +212,7 @@ section#text-viewer {
   aside#drawer {
     position: fixed;
     top: 87px;
-    right: -100%;
+    right: -250%;
     width: 500px;
     height: 100%;
     padding: 0 0 0 0.5em;
@@ -218,6 +221,7 @@ section#text-viewer {
     box-sizing: border-box;
     @include transition(all 300ms ease-in);
     z-index: 1;
+    opacity:0;
     //overflow:scroll;
     h1 {
       background: white;
@@ -239,10 +243,11 @@ section#text-viewer {
   #drawer-switch {
     &:checked ~ #drawer {
       right: 0;
+      opacity:1;
     } //&:checked ~ #drawer
 
     &:checked ~ .panel-wrapper {
-      margin-right: 30%;
+      margin-right: 500px;
       #drawer-toggle {
         /* MENU TOGGLE ICON - close */
         /*&:before {
@@ -932,7 +937,6 @@ $render-sic: false;
 #text-viewer .panel-chunk {
   overflow: scroll;
   height: calc(90vh - 120px);
-  margin-top: 23px;
 }
 
 #text-viewer {
@@ -940,6 +944,7 @@ $render-sic: false;
   .tei-type-stanza {
     margin-bottom: $edition-line-height;
     display: block;
+    max-width: 800px;
   }
 
   span[data-tei-rend~="italic"] {
@@ -989,7 +994,7 @@ $render-sic: false;
   padding-top: $edition-line-height;
   padding-bottom: calc($edition-line-height * 2);
   position: relative;
-
+  padding: 0 3% 0 0;
   opacity: 30%;
 
   &.loaded {
@@ -1254,6 +1259,7 @@ $render-sic: false;
 
   .tei-list {
     display: block;
+    max-width: 80%;
 
     .tei-item {
       // doesn't work in FF
