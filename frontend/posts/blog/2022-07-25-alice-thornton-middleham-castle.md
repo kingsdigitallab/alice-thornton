@@ -11,6 +11,7 @@ tags:
   - manuscripts
   - castles
   - travel
+  - animals
 ---
 
 What is Alice Thornton’s connection to Middleham Castle? While Alice grew up in relative privilege, living in nice halls such as Kirklington and Hipswell with her family, she certainly didn’t live anywhere as grand as a castle. But an incident recorded at the end of her _Book 1: The First Book of My Life_ shows how she fits into the history of [Middleham Castle](https://www.english-heritage.org.uk/visit/places/middleham-castle/), now looked after by English Heritage. This is how Alice introduces the story:
