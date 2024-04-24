@@ -42,7 +42,7 @@ Reading the Citizen Writers’ stories, it was striking just how many parallels 
 
 Some writers shared terrifyingly dark, near-death encounters, experiences that depict ordinary people caught up in terrorism and violent conflicts. Stories by Evelyn Karlsberg and John Young recall the 1980 bombing of a platform in Bologna station, and Janet Lewis remembers an escape via rooftops from a bomb in a Belfast department store. Thornton lived through an era marked by violence and political upheaval too. In just one example here, she recalls a near-miss with a cannon shot during an attempted siege in Chester in 1643: 
 
-> “I had, in this time of the siege, a grand deliverance standing in a turret in my mother’s house. Having, been at prayer, in the first morning we were beset in the town and not hearing of it before, as I looked out at a window towards St Mary’s church, a cannon bullet flew so night the place where I stood that the window suddenly shut with such a force the whole turret shook. And it pleased God, I escaped without more harm, save that the waft took my breath from me for the present and caused a great fear and trembling, not knowing from whence it came.”[^3] (Book 1). 
+> “I had, in this time of the siege, a grand deliverance standing in a turret in my mother’s house. Having, been at prayer, in the first morning we were beset in the town and not hearing of it before, as I looked out at a window towards St Mary’s church, a cannon bullet flew so night the place where I stood that the window suddenly shut with such a force the whole turret shook. And it pleased God, I escaped without more harm, save that the waft took my breath from me for the present and caused a great fear and trembling, not knowing from whence it came.”[^3]  
 
 ## Illness and Accidents
 
@@ -52,7 +52,7 @@ Childbirth and illness are other common experiences, as well as cures provided b
 
 There are also, thankfully, lighter moments and a good bit of humour in many of the modern stories, and modern readers will find some of Thornton’s stories, whether she intended it or not, quite amusing as well. Take, for example, Patricia Clifford’s modern account of a childhood prank, being jumped on by her siblings under a huge mattress. It’s a nice companion piece to Alice Thornton’s tale of a game that took place in her house, the young Thornton girls jumping on top of each other, and her daughter, Nally, ending up winded.
 
-> “**Upon my Dear Daughter's Preservation from a Wound in her Belly, 1661.** My two children was playing at Oswaldkirk in the parlour window, and Kate, being very full of sport and play, did climb into the window and, leaping down, fell upon her sister, Alice, and thrust her upon the corner of the same (with a great force and strength she had) and her sister cried out with pain & soreness, which had grievously hurt the inner rind of her belly so sore until I was afraid she had broken it.”[^5] (Book 2)
+> “**Upon my Dear Daughter's Preservation from a Wound in her Belly, 1661.** My two children was playing at Oswaldkirk in the parlour window, and Kate, being very full of sport and play, did climb into the window and, leaping down, fell upon her sister, Alice, and thrust her upon the corner of the same (with a great force and strength she had) and her sister cried out with pain & soreness, which had grievously hurt the inner rind of her belly so sore until I was afraid she had broken it.”[^5] 
 
 ## Deliverances from Death at the Edinburgh International Book Festival
 
