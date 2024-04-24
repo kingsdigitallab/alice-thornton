@@ -8,6 +8,9 @@ tags:
   - manuscripts
   - digital edition
   - illness
+  - creative writing
+  - emotions
+  - animals
 ---
 
 We are delighted to announce the [digital release](https://thornton.kdl.kcl.ac.uk/books/viewer/) of a further 81 pages of the *Book of Remembrances*. With half of this book now available to browse, we’d love to hear your comments on the text and the digital edition. It’s there for you to discover, and we’d also like to know which of Alice Thornton’s recollections speak to you.
@@ -32,7 +35,7 @@ Thornton shared both the emotion and the facts of the event. Knowing that she wa
 
 CN: suicidal ideation
 
-Sometimes a physical document is scarred by an event, and a story is told in more than words. Alice Thornton purchased six cows in 1662, and a heated argument ensued between her and her husband William (p. 55). A section of a page is missing here, cut away. This uncharacteristic deletion has a violence about it, and it could have stayed a mystery were it not for Thornton referring back to the incident, saying  that it was the devil which tempted him (William) against them both (p. 58).
+Sometimes a physical document is scarred by an event, and a story is told in more than words. Alice Thornton purchased six steers (young oxen) in 1662, and a heated argument ensued between her and her husband William (p. 55). A section of a page is missing here, cut away. This uncharacteristic deletion has a violence about it, and it could have stayed a mystery were it not for Thornton referring back to the incident, saying  that it was the devil which tempted him (William) against them both (p. 58).
 
 ![Eighteenth-century trade card of Richard Green, Pencutter, with an image of a hand holding a pen-knife]({{"/assets/img/posts/Print_trade_card_Green.jpg" | url}} "Trade card of Richard Green, pen cutter (c. 1750). Public domain, via Wikimedia Commons.")
 
