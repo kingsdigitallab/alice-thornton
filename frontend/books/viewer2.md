@@ -184,7 +184,7 @@ hideFooter: true
       </label>
       <div class="content">
       <h2>Search</h2>
-        <p>TO DO: Content - Instructions to how to search or just link?</p>
+        <p><a href="/entities/" class="button is-secondary">Find people and place names in the books.</a></p>
       </div>
     </div>
     <br>
