@@ -168,6 +168,23 @@ function setUpTextViewer() {
         }
         return ret;
       },
+      selectedPanelCitation() {
+        let panel = this.selectedPanel;
+        let ret = "";
+        if (panel) {
+          let pageNumber = panel.selections.locus.replace(/\D+/g, "");
+          let format = { year: "numeric", month: "long", day: "numeric" };
+          let today = new Date().toLocaleDateString("en-GB", format);
+          ret = `Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard. '${
+            panel.selectors.document[panel.selections.document]
+          }, ${
+            panel.selectors.view[panel.selections.view]
+          } edition, p. ${pageNumber}'. Alice Thornton's Books. Accessed ${today}. https://thornton.kdl.kcl.ac.uk/books/viewer2/?${this.getQueryStringFromPanelIdx(
+            this.selection.selectedPanelIndex
+          )}`;
+        }
+        return ret;
+      },
     },
     methods: {
       clonePanel(panelIdx) {
@@ -185,6 +202,10 @@ function setUpTextViewer() {
       },
       onClickInfo(panelIdx) {
         this.selection.selectedPanelIndex = panelIdx;
+      },
+      onClickCopyCitation() {
+        let citation = this.selectedPanelCitation;
+        navigator.clipboard.writeText(citation);
       },
       isControlHidden(controlKey) {
         return (

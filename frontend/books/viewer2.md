@@ -153,7 +153,9 @@ hideFooter: true
       </label>
       <div class="content">
       <h2>Citation</h2>
-        <p>TO DO: Content - Instructions to how to cite and functionality</p>
+        <p>How to cite this page of the digital edition?</p>
+        <p>{{ selectedPanelCitation }}</p>
+        <button class="button is-secondary" @click="onClickCopyCitation()">Copy</button>
       </div>
     </div>
  <div class="tab">
@@ -169,7 +171,7 @@ hideFooter: true
         <p>
           Use the following link for a print-friendly preview of one of more pages from this book.
         </p>
-        <a :href="getPrintURL()" class="button is-primary">Preview</a>
+        <a :href="getPrintURL()" class="button is-secondary">Preview</a>
       </div>
     </div>
      <div class="tab">
