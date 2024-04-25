@@ -37,7 +37,7 @@ isPageFluid: true
   <nav v-for="(panel, panelIdx) in panels" class="panel column">
     <div class="panel-heading field is-grouped is-grouped-multiline">
       <div class="field is-grouped pull-right btn-icons">
-        <p class="control">
+        <p class="control" v-if="!hidePrintLink">
           <a class="button is-hidden-mobile" :href="getPrintURL(panelIdx)" title="Print">
             <svg class="icon is-small"><use href="/assets/img/icons.svg#print" /></svg>
             <span class="btn-label">Print</span>
