@@ -17,7 +17,7 @@ hideFooter: true
 body_class: body-text-viewer
 hideCitation: true
 isCustomContent: true
-customCSS: '/assets/css/text-viewer2.css'
+customCSS: "/assets/css/text-viewer2.css"
 customBodyClasses: "body-text-viewer"
 ---
 
@@ -109,27 +109,29 @@ customBodyClasses: "body-text-viewer"
     </li>
 
     </ul>
-          </div>  
-        <div class="features">  
+          </div>
+        <div class="features">
     <h3>Discursive and Contextual Features </h3>
+
   <ul>
     
   <li>a person's name/monogram<br><span>cursive font (replicating handwriting)</span></li>
 
     <li>Entity (● Person) <br><span>dashed underline with circle at the </span></li>
-    
+
     <li>Entity (⏷ Place) <br><span>dashed underline </span></li>
-    
+
       <li>Entity (■ Event) <br><span>dashed underline </span></li>
-    
+
       <li>Biblical reference <br><span>cross icon </span></li>
-    
+
     </ul>
-          </div>  
-    
-    
-      <div class="editorial">  
+          </div>
+
+
+      <div class="editorial">
     <h3>Editorial Interventions</h3>
+
   <ul>
     
   <li>Editorial Notes<br><span>note icon on side margin</span></li>
