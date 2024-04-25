@@ -102,7 +102,7 @@ eleventyNavigation:
               <li v-for="(pages, bookId) in item.pages" class="result-book">
                 <template v-if="pages.length">
                   {{ getLabelFromOptionKey(bookId) }}: 
-                  p<template v-if="pages.length > 1">p</template>.
+                  p<template v-if="!isSinglePage(pages)">p</template>.
                   <template v-for="(page, index) in pages">
                     <template v-for="(pagePart, partIndex) in getPageParts(page)">
                       <template v-if="partIndex > 0">&mdash;</template>
