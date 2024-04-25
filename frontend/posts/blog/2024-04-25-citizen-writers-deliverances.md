@@ -3,7 +3,7 @@ title: "Alice Thornton's Books as a Resource for Others"
 feature: /assets/img/posts/citizen-postcards.jpg
 authors:
   - ethom
-status: draft
+status: live
 tags:
   - deliverances
   - lifewriting
