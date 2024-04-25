@@ -183,7 +183,8 @@ function setUpTextViewer() {
           }, ${
             panel.selectors.view[panel.selections.view]
           } edition, p. ${pageNumber}'. Alice Thornton's Books. Accessed ${today}. https://thornton.kdl.kcl.ac.uk/books/viewer2/?${this.getQueryStringFromPanelIdx(
-            this.selection.selectedPanelIndex
+            this.selection.selectedPanelIndex,
+            true
           )}`;
         }
         return ret;
@@ -356,7 +357,7 @@ function setUpTextViewer() {
         if (panelIdx == null) {
           panelIdx = this.selection.selectedPanelIndex;
         }
-        return `../print/?${this.getQueryStringFromPanelIdx(panelIdx)}`;
+        return `../print/?${this.getQueryStringFromPanelIdx(panelIdx, true)}`;
       },
       async loadDocument(panel) {
         // panel.responses.document = `Loading ${locus}...`;
@@ -536,16 +537,19 @@ function setUpTextViewer() {
           this.setPageTitle();
         }
       },
-      getQueryStringFromPanelIdx(panelIdx) {
+      getQueryStringFromPanelIdx(panelIdx, ignoreOtherPanels = false) {
         let ret = "";
         let panel = this.panels[panelIdx];
+        if (ignoreOtherPanels) {
+          panelIdx = 0;
+        }
         for (let k of Object.keys(this.controls)) {
           if (k.startsWith("_")) continue;
           if (
             k == "locus" ||
             panel.selections[k] != this.getDefaultOption(panel, k)
           ) {
-            ret += `&p0.${k.substring(0, 2)}=${panel.selections[k]}`;
+            ret += `&p${panelIdx}.${k.substring(0, 2)}=${panel.selections[k]}`;
           }
         }
         return ret;
