@@ -399,6 +399,37 @@ function setUpTextViewer() {
 
         // EVENTS
         this.addEventsToTexts();
+
+        this.$nextTick(() => {
+          this.correctPopovers();
+        });
+      },
+      correctPopovers() {
+        let popovers = document.querySelectorAll(".info-box");
+        let margin = 15;
+        for (let popover of popovers) {
+          popover.style.display = "inline-block";
+          let container = popover.closest(".panel-chunk");
+          let inRect = popover.getBoundingClientRect();
+          let outRect = container.getBoundingClientRect();
+          // left border
+          let diff = outRect.left - inRect.left;
+          if (diff > 0) {
+            // console.log(popover, diff)
+            popover.style.right = `calc(50% - ${diff + margin}px)`;
+            inRect = popover.getBoundingClientRect();
+          }
+          // right border
+          diff = inRect.right - outRect.right;
+          if (diff > 0) {
+            // console.log(popover, diff)
+            popover.style.maxWidth = `calc(20em - ${diff + margin}px)`;
+            popover.style.transform = `translateX(calc(50% - ${
+              (diff + margin) / 2
+            }px))`;
+          }
+          popover.style.display = "";
+        }
       },
       addEventsToTexts() {
         // add the javascript events to all loaded texts
