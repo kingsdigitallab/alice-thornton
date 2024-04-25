@@ -38,6 +38,7 @@ module.exports = function () {
       visible_documents: {},
       can_clone_panel: true,
       max_panels: 4,
+      hide_print_link: false,
     },
     environment: environment,
     hideEventsFromSearchPage: false,
@@ -83,6 +84,7 @@ module.exports = function () {
       book_three: [],
     };
     ret["hideEventsFromSearchPage"] = true;
+    ret["text_viewer"]["hide_print_link"] = true;
     // ret["text_viewer"]["can_clone_panel"] = false;
   }
 

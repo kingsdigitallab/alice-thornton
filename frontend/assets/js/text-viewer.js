@@ -152,6 +152,9 @@ function setUpTextViewer() {
       isPrint() {
         return window.TEXT_VIEWER_PRINT_MODE || false;
       },
+      hidePrintLink() {
+        return window.metadata.text_viewer.hide_print_link;
+      },
     },
     methods: {
       clonePanel(panelIdx) {
