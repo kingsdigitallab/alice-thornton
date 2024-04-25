@@ -63,4 +63,4 @@ In both Thornton’s deliverances and the modern deliverances by the Citizen Wri
 [^2]: Anne Danby, ‘An accompt of all the transactions of any note that remains with in the Compasse of my memory since my marriage with Mr Christopher Danby’, 1683, ZS – Swinton and Middleham Estate Records (MIC 2281), North Yorkshire County Record Office (NYCRO), Northallerton, unpaginated.
 [^3]: Alice Thornton, *Book 1: The First Book of My Life*, BL MS Add 88897/1 (hereafter *Book 1*), 70-1.
 [^4]: Alice Thornton, _Book of Remembrances_, Durham Cathedral Library (DCL), GB-0033-CCOM 38, 130; *Book 1*, 262.
-[^5]: Alice Thornton, *Book 2: The First Book of My Widowed Condition*, DCL MS GB-0033-CCOM 7, 209.
+[^5]: Alice Thornton, *Book 2: The First Book of My Widowed Condition*, DCL MS GB-0033-CCOM 7, 211.
