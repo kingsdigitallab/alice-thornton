@@ -4,6 +4,9 @@ isContentHTML: false
 isPageFluid: false
 hideFooter: false
 hideTitle: false
+hideCitation: false
+isCustomContent: false
+customBodyClasses: ""
 ---
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -37,7 +40,9 @@ hideTitle: false
     <link rel="stylesheet" href="{{ '/assets/node_modules/@fortawesome/fontawesome-free/css/all.css' | url }}">
     {% comment %} generated from assets/css/main.scss {% endcomment %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}?ts={{ "now" | date: "%s" }}">
-    <link rel="stylesheet" href="{{ '/assets/css/text-viewer.css' | url }}?ts={{ "now" | date: "%s" }}">
+    {% if customCSS %}
+      <link rel="stylesheet" href="{{ customCSS | url }}?ts={{ "now" | date: "%s" }}">
+    {% endif %}
 
     <script>
       window.metadata = {{ metadata.front_end|json }};
@@ -49,7 +54,7 @@ hideTitle: false
     Image by rawpixel.com on Freepik: https://www.freepik.com/free-photo/vintage-textured-watercolor-paper-background_15599882.htm
     -->
   </head>
-  <body class="{{ body_class }}">
+  <body class="{{ body_class }} {{ customBodyClasses }}">
     {% include "header.liquid" %}
     <section class="section">
       <div class="container {% if isPageFluid %}is-fluid{% endif %}">
@@ -58,10 +63,16 @@ hideTitle: false
             {{ title }}
           </h1>
         {% endif %}
-        <div class="{% if isContentHTML == false %}content{% endif %} {{ tags }}">
+        {% if isCustomContent %}
           {{ content }}
-        </div>
-        {% include "page_citation.liquid" %}
+        {% else %}
+          <div class="{% if isContentHTML == false %}content{% endif %} {{ tags }}">
+            {{ content }}
+          </div>
+        {% endif %}
+        {% if hideCitation == false %}
+          {% include "page_citation.liquid" %}
+        {% endif %}
       </div>
     </section>
     {% if hideFooter == false %}

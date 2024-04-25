@@ -37,6 +37,14 @@
   -o-transition: $args;
   transition: $args;
 }
+/* GN: disable .section's default padding in Bulma.
+But keep .section class in HTML, 
+so text-viewer shares the same base template 
+as all other pages on the site.
+*/
+.section {
+  padding: 0
+}
 div.container.is-fluid {
   max-width: 1344px;
   padding-left: 2%;
