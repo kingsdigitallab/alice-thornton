@@ -944,7 +944,6 @@ $render-sic: false;
   .tei-type-stanza {
     margin-bottom: $edition-line-height;
     display: block;
-    max-width: 800px;
   }
 
   span[data-tei-rend~="italic"] {
@@ -999,6 +998,7 @@ $render-sic: false;
 
   &.loaded {
     opacity: 100%;
+    max-width: 800px;
   }
 
   // Spaces, gaps & damages
