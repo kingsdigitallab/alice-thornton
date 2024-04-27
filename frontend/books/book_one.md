@@ -41,17 +41,17 @@ A Thanksgiving thereupon <br/>
 Observations upon Accidents in Ireland, 1640 <br/>
 A Relation of the Lord Deputy Wandesford's Death <br/>
 Meditations, and Prayer thereupon, December 3rd, 1640 <br/>
-A Prayer made by my Father for the Communion <br/>
-My Mother's Preservation and my own from the Rebellion in Ireland, October 23 1641 <br/>
+A Prayer made by My Father for the Communion <br/>
+My Mother's Preservation and My own from the Rebellion in Ireland, October 23 1641 <br/>
 A Thanksgiving for the Same <br/>
-Upon our coming to Weschester from Ireland <br/>
-Upon my having the Smallpox the Second Time at Chester <br/>
-A Thanksgiving upon my Recovery <br/>
-Of my Mothers removal to Snape and Kirklington <br/>
+Upon Our coming to Weschester from Ireland <br/>
+Upon My having the Smallpox the Second Time at Chester <br/>
+A Thanksgiving upon My Recovery <br/>
+Of My Mothers removal to Snape and Kirklington <br/>
 My Preservation from Death in a Sickness <br/>
-The Death of my Sister Danby, September 30th, 1645 <br/>
-The Death of Sir Edward Osborne , my Dear Uncle <br/>
-The Death of my Cousin Edward Norton, 1648 <br/>
+The Death of My Sister Danby, September 30th, 1645 <br/>
+The Death of Sir Edward Osborne, My Dear Uncle <br/>
+The Death of My Cousin Edward Norton, 1648 <br/>
 Upon the Beheading of King Charles the Martyr <br/>
-Upon the death of my Dear Brother George Wandesford <br/>
+Upon the death of My Dear Brother George Wandesford <br/>
 A Prayer and Lamentation on that Sad Blow, 1651 <br/>
