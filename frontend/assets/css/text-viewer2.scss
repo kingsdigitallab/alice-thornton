@@ -999,6 +999,8 @@ $render-sic: false;
   &.loaded {
     opacity: 100%;
     max-width: 800px;
+    min-height: calc(100% - 40px);
+    position:relative;
   }
 
   // Spaces, gaps & damages
@@ -1212,6 +1214,7 @@ $render-sic: false;
 
   .tei-type-pageNum {
     display: block;
+    height: 5px;
   }
 
   // selector might be too broad,
