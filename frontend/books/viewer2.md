@@ -163,8 +163,10 @@ customBodyClasses: "body-text-viewer"
         <div class="content">
         <h2>Citation</h2>
           <p>How to cite this page of the digital edition?</p>
+          <div class="citation">
           <p>{{ selectedPanelCitation }}</p>
-          <button class="button is-secondary" @click="onClickCopyCitation()">Copy</button>
+          <button class="button is-secondary" @click="onClickCopyCitation()"><i class="far fa-copy"></i> &nbsp; Copy</button>
+          </div>
         </div>
       </div>
   <div class="tab">
