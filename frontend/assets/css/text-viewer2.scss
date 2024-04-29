@@ -1510,4 +1510,12 @@ $render-sic: false;
   nav.panel-nav div.icon{
     max-width:60px;
   }
+
+  section#text-viewer aside#drawer {
+    width:90vw;
+  }
+
+  section#text-viewer #drawer-switch:checked ~ .panel-wrapper #drawer-toggle::after{
+    right: calc(90vw - 8px);
+  }
 }
