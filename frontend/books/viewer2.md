@@ -182,7 +182,7 @@ customBodyClasses: "body-text-viewer"
           <p>
             Use the following link for a print-friendly preview of one of more pages from this book.
           </p>
-          <a :href="getPrintURL()" class="button is-secondary">Preview</a>
+          <button class="button is-secondary" href="getPrintURL()"><i class="far fa-file-alt"></i>&nbsp; Preview</button>
         </div>
       </div>
       <div class="tab">
