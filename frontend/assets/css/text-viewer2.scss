@@ -1511,11 +1511,13 @@ $render-sic: false;
     max-width:60px;
   }
 
-  section#text-viewer aside#drawer {
+  section{
+    padding: 8px 0!important;
+    #text-viewer aside#drawer {
     width:90vw;
   }
-
-  section#text-viewer #drawer-switch:checked ~ .panel-wrapper #drawer-toggle::after{
-    right: calc(90vw - 8px);
+  #text-viewer #drawer-switch:checked ~ .panel-wrapper #drawer-toggle::after{
+    right: calc(90vw - 9px);
   }
+}//section
 }
