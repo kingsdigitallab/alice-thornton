@@ -2,10 +2,10 @@
 
 //Import Fonts
 @import "fonts.scss";
+
 //Import Colours
 @import "color-theme";
-//Import Bulma
-@import "../node_modules/bulma/bulma.sass";
+
 
 /* 2. Mixins  */
 
@@ -37,14 +37,6 @@
   -ms-transition: $args;
   -o-transition: $args;
   transition: $args;
-}
-/* GN: disable .section's default padding in Bulma.
-But keep .section class in HTML, 
-so text-viewer shares the same base template 
-as all other pages on the site.
-*/
-.section {
-  padding: 0;
 }
 div.container.is-fluid {
   max-width: 1344px;
@@ -104,9 +96,6 @@ section#text-viewer {
           &.icons {
             display: flex;
             min-width: 120px;
-            @include mobile {
-              min-width: 60px;
-            }
           }
           &.icon {
             width: 60px;
@@ -235,9 +224,6 @@ section#text-viewer {
     z-index: 1;
     opacity: 0;
     //overflow:scroll;
-    @include mobile{
-      width: 90vw;
-    }
     h1 {
       background: white;
       padding: 8px 60px 8px 16px;
@@ -283,9 +269,6 @@ section#text-viewer {
           border: none;
           background: $primary;
           @include transition(all 300ms ease-in);
-          @include mobile{
-            right: calc(90vw - 8px);
-          }
         } //&:after
         &:hover {
           &:after {
@@ -1520,5 +1503,11 @@ $render-sic: false;
         display: block;
       }
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav.panel-nav div.icon{
+    max-width:60px;
   }
 }
