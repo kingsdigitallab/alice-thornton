@@ -2,9 +2,10 @@
 
 //Import Fonts
 @import "fonts.scss";
-
 //Import Colours
 @import "color-theme";
+//Import Bulma
+@import "../node_modules/bulma/bulma.sass";
 
 /* 2. Mixins  */
 
@@ -103,6 +104,9 @@ section#text-viewer {
           &.icons {
             display: flex;
             min-width: 120px;
+            @include mobile {
+              min-width: 60px;
+            }
           }
           &.icon {
             width: 60px;
