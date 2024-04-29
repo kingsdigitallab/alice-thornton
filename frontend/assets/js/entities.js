@@ -313,6 +313,10 @@ function setUpSearch() {
         let ret = [...new Set(`${page}`.split("-"))];
         return ret;
       },
+      isSinglePage(pages) {
+        let ret = pages.length == 1 && this.getPageParts(pages[0]).length == 1;
+        return ret;
+      },
     },
   });
   app.mount("#search");
