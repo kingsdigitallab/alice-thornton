@@ -195,7 +195,10 @@ customBodyClasses: "body-text-viewer"
         </label>
         <div class="content">
         <h2>Search</h2>
-          <p><a href="/entities/" class="button is-secondary">Find people and place names in the books.</a></p>
+          <p>Find and filter people and place names in the books.</p>
+          <button class="button is-secondary" href="/entities/">
+          <i class="fas fa-filter"></i> &nbsp; Search and Filter
+          </button>
         </div>
       </div>
       <br>
