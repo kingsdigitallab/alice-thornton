@@ -14,7 +14,6 @@ authors:
 isContentHTML: true
 isPageFluid: true
 hideFooter: true
-bodyClass: body-text-viewer
 hideCitation: true
 isCustomContent: true
 customCSS: "/assets/css/text-viewer2.css"
