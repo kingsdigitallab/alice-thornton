@@ -324,11 +324,11 @@ customBodyClasses: "body-text-viewer"
           -->
           <template id="vue-panel-selector">
             <div class="select-dropdown">
-              {{tooltip}}
+              tooltip
               <!-- removed id="image_switcher" -->
-              <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)"
-                v-model="panel.selections[controlKey]">
-                <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
+              <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, 'document')"
+                v-model="panel.selections['document']">
+                <option v-for="(title, id) in panel.selectors['document']" :value="id" v-html="title"></option>
               </select>
               <i class="fas fa-caret-down"></i>
             </div>
