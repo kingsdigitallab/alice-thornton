@@ -47,6 +47,7 @@ customBodyClasses: "body-text-viewer"
     <h1><span>Information for:</span>{{ drawerTitle }}</h1>
     <div class="tabs">
     <label>BOOK</label>
+     <!--TO: Commenting out for first release --
       <div class="tab">
         <input
           type="radio"
@@ -82,11 +83,9 @@ customBodyClasses: "body-text-viewer"
       Marginal comment<br><span>Displayed in left margin </span>
     </li>  
     </ul>
-    
     <div class="transcription">  
     <h3>Transcription</h3>
   <ul>
-    
     <li>Addition information added by the author<br>
       <span>text placed higher on a note icon</span>
     </li>
@@ -99,49 +98,32 @@ customBodyClasses: "body-text-viewer"
     <li>Text deleted by author<br>
       <span>strikethrough</span>
     </li>
-  
     <li>Author's superscript for some letters <br>
       <span>superscript - small font size, text placed higher</span>
     </li>
-    
-    
     <li>visual elements/drawings by the author<br><span>gylphs</span>
     </li>
-
     </ul>
           </div>
         <div class="features">
     <h3>Discursive and Contextual Features </h3>
-
   <ul>
-    
   <li>a person's name/monogram<br><span>cursive font (replicating handwriting)</span></li>
-
     <li>Entity (● Person) <br><span>dashed underline with circle at the </span></li>
-
     <li>Entity (⏷ Place) <br><span>dashed underline </span></li>
-
       <li>Entity (■ Event) <br><span>dashed underline </span></li>
-
       <li>Biblical reference <br><span>cross icon </span></li>
-
     </ul>
           </div>
-
-
       <div class="editorial">
     <h3>Editorial Interventions</h3>
-
   <ul>
-    
   <li>Editorial Notes<br><span>note icon on side margin</span></li>
   <li>Glossary<br><span>double underline</span></li>
-    
     <li>material interpreted as superfluous<br><span>dashed box around the material</span> </li>
       <li>page number missing from original book<br><span>Square brackets around number</span> </li>
     </ul>
           </div>  
-    
         <div class="images">  
     <h3>Images</h3>
   <ul>
@@ -152,6 +134,7 @@ customBodyClasses: "body-text-viewer"
         </div>
       </div>
       </div>
+      -->
   <div class="tab">
         <input
           type="radio"
@@ -202,6 +185,7 @@ customBodyClasses: "body-text-viewer"
         </div>
       </div>
       <br>
+      <!--TO: Commenting out for first release --
       <label>PAGE</label>
       <div class="tab">
         <input
@@ -336,7 +320,7 @@ customBodyClasses: "body-text-viewer"
                                             dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
                                             ornare ante.</p>
         </div>
-      </div>
+      </div>-->
     </div>
   </aside>
   <div class="panel-wrapper">
