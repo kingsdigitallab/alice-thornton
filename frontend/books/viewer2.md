@@ -1,16 +1,15 @@
 ---
-layout: base.liquid
 title: Edition
 authors:
-  - cbeattie
-  - strill
-  - jedge
-  - showard
-  - pcaton
-  - gferraro
-  - pshah
-  - tong
-  - gnoel
+- cbeattie
+- strill
+- jedge
+- showard
+- pcaton
+- gferraro
+- pshah
+- tong
+- gnoel
 isContentHTML: true
 isPageFluid: true
 hideFooter: true
@@ -45,8 +44,8 @@ customBodyClasses: "body-text-viewer"
   <aside id="drawer" role="complementary">
     <h1><span>Information for:</span>{{ drawerTitle }}</h1>
     <div class="tabs">
-    <label>BOOK</label>
-     <!--TO: Commenting out for first release --
+      <label>BOOK</label>
+      <!--TO: Commenting out for first release --
       <div class="tab">
         <input
           type="radio"
@@ -134,33 +133,30 @@ customBodyClasses: "body-text-viewer"
       </div>
       </div>
       -->
-  <div class="tab">
-        <input
-          type="radio"
-          id="tab-2"
-          name="tab-group-1">
+      <div class="tab">
+        <input type="radio" id="tab-2" name="tab-group-1">
         <label for="tab-2">
-          <i class="fas fa-quote-left"></i><h2>Citation</h2>
+          <i class="fas fa-quote-left"></i>
+          <h2>Citation</h2>
         </label>
         <div class="content">
-        <h2>Citation</h2>
+          <h2>Citation</h2>
           <p>How to cite this page of the digital edition?</p>
           <div class="citation">
-          <p>{{ selectedPanelCitation }}</p>
-          <button class="button is-secondary" @click="onClickCopyCitation()"><i class="far fa-copy"></i> &nbsp; Copy</button>
+            <p>{{ selectedPanelCitation }}</p>
+            <button class="button is-secondary" @click="onClickCopyCitation()"><i class="far fa-copy"></i> &nbsp;
+              Copy</button>
           </div>
         </div>
       </div>
-  <div class="tab">
-        <input
-          type="radio"
-          id="tab-3"
-          name="tab-group-1">
+      <div class="tab">
+        <input type="radio" id="tab-3" name="tab-group-1">
         <label for="tab-3">
-          <i class="fas fa-print"></i><h2>Print</h2>
+          <i class="fas fa-print"></i>
+          <h2>Print</h2>
         </label>
         <div class="content">
-        <h2>Print</h2>
+          <h2>Print</h2>
           <p>
             Use the following link for a print-friendly preview of one of more pages from this book.
           </p>
@@ -168,18 +164,16 @@ customBodyClasses: "body-text-viewer"
         </div>
       </div>
       <div class="tab">
-        <input
-          type="radio"
-          id="tab-4"
-          name="tab-group-1">
+        <input type="radio" id="tab-4" name="tab-group-1">
         <label for="tab-4">
-          <i class="fas fa-search"></i><h2>Search</h2>
+          <i class="fas fa-search"></i>
+          <h2>Search</h2>
         </label>
         <div class="content">
-        <h2>Search</h2>
+          <h2>Search</h2>
           <p>Find and filter people and place names in the books.</p>
           <a href="/entities/" class="button is-secondary">
-          <i class="fas fa-filter"></i> &nbsp; Search and Filter</a>
+            <i class="fas fa-filter"></i> &nbsp; Search and Filter</a>
         </div>
       </div>
       <br>
@@ -324,33 +318,37 @@ customBodyClasses: "body-text-viewer"
   <div class="panel-wrapper">
     <div class="panel" v-for="(panel, panelIdx) in panels">
       <nav class="panel-nav">
-          <div>
-            <template id="vue-panel-selector">
-              <div class="select-dropdown">
-                {{tooltip}}
-                <!-- removed id="image_switcher" -->
-                <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)" v-model="panel.selections[controlKey]">
-                  <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
-                </select>
-                <i class="fas fa-caret-down"></i>
-              </div>
-            </template>
-            <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
-            <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
-          </div>
-          <div class="icons">
-            <div class="icon" @click="onClickInfo(panelIdx)">
-              <label for="drawer-switch" id="drawer-toggle">
+        <div>
+          <!-- GN: what is this for? 
+            it's invisible but when removed the dropdowns on the right display differently
+          -->
+          <template id="vue-panel-selector">
+            <div class="select-dropdown">
+              {{tooltip}}
+              <!-- removed id="image_switcher" -->
+              <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)"
+                v-model="panel.selections[controlKey]">
+                <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
+              </select>
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </template>
+          <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
+          <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
+        </div>
+        <div class="icons">
+          <div class="icon" @click="onClickInfo(panelIdx)">
+            <label for="drawer-switch" id="drawer-toggle">
               <i class="fas fa-info-circle"></i>
               <h2>Info</h2>
-              </label>
-            </div>
-            <!---->
+            </label>
+          </div>
+          <!---->
           <!-- <div class="icon">
               <i class="fas fa-print"></i>
               <h2>Print</h2>
             </div> -->
-            <div class="clone">
+          <div class="clone">
             <div class="icon is-hidden-mobile" v-if="canClonePanel" @click.stop.prevent="clonePanel(panelIdx)">
               <i class="far fa-clone"></i>
               <h2>Clone</h2>
@@ -359,20 +357,23 @@ customBodyClasses: "body-text-viewer"
               <i class="fas fa-times"></i>
               <h2>Close</h2>
             </div>
-            </div>
+          </div>
+        </div>
       </nav>
       <div class="panel-chunk">
         <div :class="'content '+getContentClasses(panel)" v-html="panel.responses.document">
         </div>
       </div>
       <nav class="panel-nav bottom">
-                <div>
-            <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
-            </div>
-            <div>
-            <button class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)" aria-label ="previous page"><i class="fas fa-arrow-left"></i></button>
-          <button class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)" aria-label ="next page"><i class="fas fa-arrow-right"></i></button>
-          </div>
+        <div>
+          <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
+        </div>
+        <div>
+          <button class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)"
+            aria-label="previous page"><i class="fas fa-arrow-left"></i></button>
+          <button class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, 1)" aria-label="next page"><i
+              class="fas fa-arrow-right"></i></button>
+        </div>
       </nav>
     </div>
   </div>
@@ -380,7 +381,7 @@ customBodyClasses: "body-text-viewer"
 {% endraw %}
 
 <script src="/assets/node_modules/vue/dist/vue.global.js"></script>
-<script src="/assets/node_modules/kdl-dts-client/index.js?ts={{ "now" | date: "%s" }}"></script>
-<script src="/assets/js/text-viewer.js?ts={{ "now" | date: "%s" }}"></script>
+<script src="/assets/node_modules/kdl-dts-client/index.js?ts={{ " now" | date: "%s" }}"></script>
+<script src="/assets/js/text-viewer.js?ts={{ " now" | date: "%s" }}"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>

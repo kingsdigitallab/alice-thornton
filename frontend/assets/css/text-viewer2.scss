@@ -1534,3 +1534,27 @@ $render-sic: false;
     }
   } //section
 }
+
+// GN: adjustments for the print-friendly viewer
+.viewer-print #text-viewer {
+  .panel-wrapper {
+    .panel-nav {
+      input[type="number"] {
+        width: 5rem;
+      }
+      label {
+        vertical-align: bottom;
+      }
+    }
+    .panel {
+      height: auto;
+      .panel-chunk {
+        height: auto;
+        overflow: visible;
+        .content {
+          display: block;
+        }
+      }
+    }
+  }
+}
