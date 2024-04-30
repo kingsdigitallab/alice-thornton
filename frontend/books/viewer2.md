@@ -165,7 +165,7 @@ customBodyClasses: "body-text-viewer"
           <p>
             Use the following link for a print-friendly preview of one of more pages from this book.
           </p>
-          <button class="button is-secondary" href="getPrintURL()"><i class="far fa-file-alt"></i>&nbsp; Preview</button>
+          <a href="getPrintURL()" class="button is-secondary"><i class="far fa-file-alt"></i>&nbsp; Preview</a>
         </div>
       </div>
       <div class="tab">
@@ -179,9 +179,8 @@ customBodyClasses: "body-text-viewer"
         <div class="content">
         <h2>Search</h2>
           <p>Find and filter people and place names in the books.</p>
-          <button class="button is-secondary" href="/entities/">
-          <i class="fas fa-filter"></i> &nbsp; Search and Filter
-          </button>
+          <a href="/entities/" class="button is-secondary">
+          <i class="fas fa-filter"></i> &nbsp; Search and Filter</a>
         </div>
       </div>
       <br>
