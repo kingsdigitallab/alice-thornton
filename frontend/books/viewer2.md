@@ -21,6 +21,18 @@ customBodyClasses: "body-text-viewer"
 
 {% raw %}
 
+<template id="vue-panel-selector">
+  <div class="select-dropdown">
+    {{ tooltip }}
+    <!-- removed id="image_switcher" -->
+    <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)"
+      v-model="panel.selections[controlKey]">
+      <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
+    </select>
+    <i class="fas fa-caret-down"></i>
+  </div>
+</template>
+
 <section id="text-viewer">
 
   <div id="image-modal" :class="{'modal': true, 'is-active': !!image.title}">
@@ -319,20 +331,6 @@ customBodyClasses: "body-text-viewer"
     <div class="panel" v-for="(panel, panelIdx) in panels">
       <nav class="panel-nav">
         <div>
-          <!-- GN: what is this for? 
-            it's invisible but when removed the dropdowns on the right display differently
-          -->
-          <template id="vue-panel-selector">
-            <div class="select-dropdown">
-              tooltip
-              <!-- removed id="image_switcher" -->
-              <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, 'document')"
-                v-model="panel.selections['document']">
-                <option v-for="(title, id) in panel.selectors['document']" :value="id" v-html="title"></option>
-              </select>
-              <i class="fas fa-caret-down"></i>
-            </div>
-          </template>
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
         </div>
