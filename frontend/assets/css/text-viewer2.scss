@@ -39,12 +39,17 @@
   transition: $args;
 }
 div.container.is-fluid {
-  max-width: 1344px;
-  padding-left: 2%;
-  padding-right: 2%;
+  max-width: 1152px!important;
 }
 //* 2. MAIN *//
-section#text-viewer {
+section{
+  padding: 0!important;
+  h1.title{
+    margin-bottom: 1rem!important;
+    font-size: 1.25em;
+    border-bottom:none;
+  }
+#text-viewer {
   //overflow: hidden;
   input#drawer-switch {
     display: none;
@@ -60,7 +65,7 @@ section#text-viewer {
     justify-content: center;
     > .panel {
       border: 1px solid $gray-dark;
-      max-width: 960px;
+      max-width: 1152px;
       height: calc(100vh - 170px);
       overflow: scroll;
       flex-direction: column;
@@ -869,7 +874,8 @@ section#text-viewer {
       } //ul
     } //.editorial
   } //.tabs
-} //section
+} 
+}//section
 
 //TOOLTIP//
 
