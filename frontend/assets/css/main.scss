@@ -965,7 +965,7 @@ nav.pagination {
 
 // fedback
 
-.body-text-viewer .feedback {
+.body-text-viewer:not(.viewer-print) .feedback {
   // GN: lift the feedback button on the new viewer
   // so it doesn't overlap the nvigation bar
   // at the bottom of a panel.

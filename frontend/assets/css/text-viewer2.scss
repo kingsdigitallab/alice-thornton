@@ -1536,25 +1536,30 @@ $render-sic: false;
 }
 
 // GN: adjustments for the print-friendly viewer
-.viewer-print #text-viewer {
-  .panel-wrapper {
-    .panel-nav {
-      input[type="number"] {
-        width: 5rem;
+.viewer-print {
+  #text-viewer {
+    .panel-wrapper {
+      .panel-nav {
+        input[type="number"] {
+          width: 5rem;
+        }
+        label {
+          vertical-align: bottom;
+        }
       }
-      label {
-        vertical-align: bottom;
-      }
-    }
-    .panel {
-      height: auto;
-      .panel-chunk {
+      .panel {
         height: auto;
-        overflow: visible;
-        .content {
-          display: block;
+        .panel-chunk {
+          height: auto;
+          overflow: visible;
+          .content {
+            display: block;
+          }
         }
       }
     }
+  }
+  .box-citation {
+    margin-bottom: 3em;
   }
 }
