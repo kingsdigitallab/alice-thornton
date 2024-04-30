@@ -38,9 +38,7 @@
   -o-transition: $args;
   transition: $args;
 }
-div.container.is-fluid {
-  max-width: 1152px!important;
-}
+
 //* 2. MAIN *//
 section{
   padding: 0!important;
@@ -65,7 +63,7 @@ section{
     justify-content: center;
     > .panel {
       border: 1px solid $gray-dark;
-      max-width: 1152px;
+      max-width: 960px;
       height: calc(100vh - 130px);
       overflow: scroll;
       flex-direction: column;
@@ -1529,7 +1527,6 @@ $render-sic: false;
   }
 
   section{
-    padding: 8px 0!important;
     #text-viewer aside#drawer {
     width:90vw;
   }

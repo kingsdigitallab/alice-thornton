@@ -57,12 +57,14 @@ customBodyClasses: ""
   <body class="{{ body_class }} {{ customBodyClasses }}">
     {% include "header.liquid" %}
     <section class="section">
-      <div class="container {% if isPageFluid %}{% endif %}">
-        {% if hideTitle == false %}
-          <h1 class="title">
-            {{ title }}
-          </h1>
-        {% endif %}
+    <div class="container">
+      {% if hideTitle == false %}
+        <h1 class="title">
+          {{ title }}
+        </h1>
+      {% endif %}
+      </div>  
+      <div class="container {% if isPageFluid %}is-fluid{% endif %}">
         {% if isCustomContent %}
           {{ content }}
         {% else %}
