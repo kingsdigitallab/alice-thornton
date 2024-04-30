@@ -83,6 +83,7 @@ section{
         align-items: center;
         justify-content: space-between;
         border-bottom: 1px solid $gray-dark;
+        flex-wrap: wrap;
         &.bottom {
           bottom: 0;
           height: 60px;
@@ -98,19 +99,17 @@ section{
           cursor: pointer;
           &.icons {
             display: flex;
-            min-width: 120px;
+            margin-left:auto;
           }
           &.icon {
-            width: 60px;
+            min-width: 60px;
             height: 50px;
             border-left: 1px solid $gray-dark;
             box-shadow: 0 1px $gray-dark, 0px -1px $gray-dark;
             margin-left: auto;
             line-height: 1;
             display: inline-block;
-            min-width: 0;
             background: white;
-            flex-basis: 100%;
             h2 {
               display: block;
               color: $primary;
@@ -138,8 +137,6 @@ section{
           &.clone {
             display: flex;
             box-shadow: 0 1px $gray-dark, 0px -1px $gray-dark;
-            flex-flow: row wrap;
-            max-width: 60px;
             z-index: 1;
           }
           button.pagination {
@@ -208,7 +205,6 @@ section{
         } //div
       } //nav
       .text-viewer {
-        // border:1px solid red;
         height: calc(100vh - 7em);
         overflow: scroll;
         min-height: 30em;
