@@ -109,26 +109,29 @@ section{
             line-height: 1;
             display: inline-block;
             min-width: 0;
-            background: $primary;
+            background: white;
             flex-basis: 100%;
             h2 {
               display: block;
-              color: white;
+              color: $primary;
               font-size: 10px;
-              font-weight: bold;
+              font-weight: normal;
               text-transform: uppercase;
               font-family: sans-serif;
             }
             i {
               font-size: 13px;
-              color: white;
+              color: $primary;
               @include transition(all 300ms ease-in);
               padding: 12px 0 8px 0;
             }
             &:hover {
-              background: $primary-dark;
+              background: lighten($gray, 5%);
               i {
-                @include transform(scale(1.4));
+                @include transform(scale(1.6));
+              }
+              h2{
+                font-weight: bold;
               }
             }
           } //.icon
