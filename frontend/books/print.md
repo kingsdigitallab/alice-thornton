@@ -17,6 +17,7 @@ customBodyClasses: "body-text-viewer viewer-print"
 ---
 
 {% raw %}
+
   <section id="text-viewer">
     <!-- <div id="text-viewer" class="text-viewer columns printable-viewer"> -->
     <div class="panel-wrapper">

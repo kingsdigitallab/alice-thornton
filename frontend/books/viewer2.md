@@ -1,15 +1,15 @@
 ---
 title: Edition
 authors:
-- cbeattie
-- strill
-- jedge
-- showard
-- pcaton
-- gferraro
-- pshah
-- tong
-- gnoel
+  - cbeattie
+  - strill
+  - jedge
+  - showard
+  - pcaton
+  - gferraro
+  - pshah
+  - tong
+  - gnoel
 isContentHTML: true
 isPageFluid: true
 hideFooter: true
