@@ -202,10 +202,16 @@ function setUpTextViewer() {
         if (this.selection.selectedPanelIndex == panelIdx) {
           this.selection.selectedPanelIndex = 0;
         }
+        this.$nextTick(() => {
+          this.correctPopovers();
+        });
         this.setAddressBarFromSelection();
       },
       onClickInfo(panelIdx) {
         this.selection.selectedPanelIndex = panelIdx;
+        this.$nextTick(() => {
+          this.correctPopovers();
+        });
       },
       onClickCopyCitation() {
         let citation = this.selectedPanelCitation;
@@ -399,37 +405,41 @@ function setUpTextViewer() {
 
         // EVENTS
         this.addEventsToTexts();
-
-        this.$nextTick(() => {
-          this.correctPopovers();
-        });
       },
       correctPopovers() {
         let popovers = document.querySelectorAll(".info-box");
-        let margin = 15;
         for (let popover of popovers) {
-          popover.style.display = "inline-block";
-          let container = popover.closest(".panel-chunk");
-          let inRect = popover.getBoundingClientRect();
-          let outRect = container.getBoundingClientRect();
-          // left border
-          let diff = outRect.left - inRect.left;
-          if (diff > 0) {
-            // console.log(popover, diff)
-            popover.style.right = `calc(50% - ${diff + margin}px)`;
-            inRect = popover.getBoundingClientRect();
-          }
-          // right border
-          diff = inRect.right - outRect.right;
-          if (diff > 0) {
-            // console.log(popover, diff)
-            popover.style.maxWidth = `calc(20em - ${diff + margin}px)`;
-            popover.style.transform = `translateX(calc(50% - ${
-              (diff + margin) / 2
-            }px))`;
-          }
-          popover.style.display = "";
+          this.correctPopover(popover);
         }
+      },
+      correctPopover(popover) {
+        /* correct the absolute positioning of a popover span element
+        so it fits within its panel.
+        This is done by adjusting the left position & the width.
+        */
+        let margin = 10;
+        popover.style.cssText = "";
+        popover.style.display = "inline-block";
+        let container = popover.closest(".panel-chunk");
+        // let container = popover.closest("body");
+        let inRect = popover.getBoundingClientRect();
+        let outRect = container.getBoundingClientRect();
+        // left border
+        let diff = outRect.left + margin - inRect.left;
+        if (diff > 0) {
+          // console.log(popover, diff)
+          popover.style.right = `calc(50% - ${diff}px)`;
+          inRect = popover.getBoundingClientRect();
+        }
+        // right border
+        diff = inRect.right - outRect.right + margin;
+        if (diff > 0) {
+          // console.log(popover, diff)
+          popover.style.maxWidth = `calc(20em - ${diff}px)`;
+          popover.style.transform = `translateX(calc(50% - ${diff / 1}px))`;
+          // popover.setAttribute('data-diff-right', diff)
+        }
+        popover.style.display = "";
       },
       addEventsToTexts() {
         // add the javascript events to all loaded texts
@@ -455,27 +465,28 @@ function setUpTextViewer() {
           });
 
           // We set a hover class on hover.
-          // fixes the bug where hover on nested info-box
+          // fixes the bug where hover on nested info-box containers
           // would trigger :hover selector on both boxes
           // and they would overlap.
-          const withInfoBox = window.document.querySelectorAll(".has-info-box");
+          const infoBoxContainers =
+            window.document.querySelectorAll(".has-info-box");
 
-          withInfoBox.forEach((element) => {
-            if (element.classList.contains("managed")) return;
+          infoBoxContainers.forEach((infoBoxContainer) => {
+            if (infoBoxContainer.classList.contains("managed")) return;
             let closestInfoBoxContainer =
-              element.parentElement.closest(".has-info-box");
+              infoBoxContainer.parentElement.closest(".has-info-box");
 
             if (closestInfoBoxContainer) {
-              element.addEventListener("mouseenter", () => {
+              infoBoxContainer.addEventListener("mouseenter", () => {
                 // set child-hovered class on .has-info-box ancestors
                 closestInfoBoxContainer.classList.add(CHILD_HOVERED_CLASS);
               });
-              element.addEventListener("mouseleave", () => {
+              infoBoxContainer.addEventListener("mouseleave", () => {
                 // unset hover-parent class on .has-info-box ancestors
                 closestInfoBoxContainer.classList.remove(CHILD_HOVERED_CLASS);
               });
             }
-            element.classList.add("managed");
+            infoBoxContainer.classList.add("managed");
           });
 
           // TODO: attach events only to current panel
@@ -496,6 +507,8 @@ function setUpTextViewer() {
             }
             btn.classList.add("managed");
           });
+
+          this.correctPopovers();
         });
       },
       selectDefaultOption(panel, key) {
@@ -697,7 +710,7 @@ function setUpTextViewer() {
   });
   app.component("panel-control", PanelControl);
   // app.component('c1', c1)
-  app.mount("#text-viewer");
+  window.viewer = app.mount("#text-viewer");
 }
 
 setUpTextViewer();
