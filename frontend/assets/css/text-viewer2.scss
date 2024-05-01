@@ -1016,10 +1016,7 @@ $render-sic: false;
   opacity: 30%;
   min-height: calc(100% - 80px);
   position:relative;
-  justify-content: center;
   display: flex;
-  justify-content: center;
-
   &.loaded {
     opacity: 100%;
 
@@ -1040,6 +1037,7 @@ $render-sic: false;
   }
 
   &.view-semidip{
+    justify-content: center;
   }
   &.view-modern{
     max-width: 800px;
