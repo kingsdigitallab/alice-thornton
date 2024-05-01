@@ -203,14 +203,14 @@ function setUpTextViewer() {
           this.selection.selectedPanelIndex = 0;
         }
         this.$nextTick(() => {
-          this.correctPopovers();
+          // this.correctPopovers();
         });
         this.setAddressBarFromSelection();
       },
       onClickInfo(panelIdx) {
         this.selection.selectedPanelIndex = panelIdx;
         this.$nextTick(() => {
-          this.correctPopovers();
+          // this.correctPopovers();
         });
       },
       onClickCopyCitation() {
@@ -407,10 +407,12 @@ function setUpTextViewer() {
         this.addEventsToTexts();
       },
       correctPopovers() {
-        let popovers = document.querySelectorAll(".info-box");
-        for (let popover of popovers) {
-          this.correctPopover(popover);
-        }
+        this.$nextTick(() => {
+          let popovers = document.querySelectorAll(".info-box");
+          for (let popover of popovers) {
+            this.correctPopover(popover);
+          }
+        });
       },
       correctPopover(popover) {
         /* correct the absolute positioning of a popover span element
@@ -487,6 +489,18 @@ function setUpTextViewer() {
               });
             }
             infoBoxContainer.classList.add("managed");
+
+            // correct the position of the info-box on hover
+
+            infoBoxContainer.addEventListener("mouseenter", () => {
+              // set child-hovered class on .has-info-box ancestors
+              for (let popOver of infoBoxContainer.querySelectorAll(
+                ".info-box"
+              )) {
+                // console.log(popOver)
+                this.correctPopover(popOver);
+              }
+            });
           });
 
           // TODO: attach events only to current panel
@@ -508,7 +522,7 @@ function setUpTextViewer() {
             btn.classList.add("managed");
           });
 
-          this.correctPopovers();
+          // this.correctPopovers();
         });
       },
       selectDefaultOption(panel, key) {
