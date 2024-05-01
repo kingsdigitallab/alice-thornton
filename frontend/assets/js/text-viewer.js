@@ -414,6 +414,16 @@ function setUpTextViewer() {
           }
         });
       },
+      correctPopover2(popover) {
+        popover.style.cssText = "";
+        popover.style.position = "fixed";
+        let popoverContainer = popover.closest(".has-info-box");
+        let rect = popoverContainer.getBoundingClientRect();
+        popover.style.top = `calc(${rect.top}px + 2em)`;
+        popover.style.left = `calc(${rect.left}px)`;
+        popover.style["z-index"] = "1000";
+        console.log(popover);
+      },
       correctPopover(popover) {
         /* correct the absolute positioning of a popover span element
         so it fits within its panel.
