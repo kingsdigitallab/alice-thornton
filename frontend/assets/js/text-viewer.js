@@ -473,17 +473,17 @@ function setUpTextViewer() {
 
           infoBoxContainers.forEach((infoBoxContainer) => {
             if (infoBoxContainer.classList.contains("managed")) return;
-            let closestInfoBoxContainer =
+            let parentInfoBoxContainer =
               infoBoxContainer.parentElement.closest(".has-info-box");
 
-            if (closestInfoBoxContainer) {
+            if (parentInfoBoxContainer) {
               infoBoxContainer.addEventListener("mouseenter", () => {
                 // set child-hovered class on .has-info-box ancestors
-                closestInfoBoxContainer.classList.add(CHILD_HOVERED_CLASS);
+                parentInfoBoxContainer.classList.add(CHILD_HOVERED_CLASS);
               });
               infoBoxContainer.addEventListener("mouseleave", () => {
                 // unset hover-parent class on .has-info-box ancestors
-                closestInfoBoxContainer.classList.remove(CHILD_HOVERED_CLASS);
+                parentInfoBoxContainer.classList.remove(CHILD_HOVERED_CLASS);
               });
             }
             infoBoxContainer.classList.add("managed");
