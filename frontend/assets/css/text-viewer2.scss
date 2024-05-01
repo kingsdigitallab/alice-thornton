@@ -1014,7 +1014,7 @@ $render-sic: false;
   padding: 0 3% 40px 0;
   opacity: 30%;
   min-height: calc(100% - 80px);
-  position:relative;
+  position: relative;
   display: flex;
   &.loaded {
     opacity: 100%;
@@ -1034,7 +1034,8 @@ $render-sic: false;
     }
   }
 
-  &.view-semidip{
+  &.view-semidip {
+    justify-content: center;
   }
   &.view-modern {
     max-width: 800px;
@@ -1227,15 +1228,12 @@ $render-sic: false;
   }
 
   .tei-fw.tei-type-pageNum {
-
-
     & + .tei-lb {
       display: none;
     }
   }
 
   .tei-type-pageNum {
-
   }
 
   // selector might be too broad,
@@ -1349,7 +1347,7 @@ $render-sic: false;
     font-weight: 600;
     display: block;
     text-align: center;
-    margin-top:0;
+    margin-top: 0;
 
     &:before {
       // removes the decoration applied to the h2 on the rest of the site
