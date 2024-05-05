@@ -103,3 +103,19 @@ A Relation of My Dear Husband's Dangerous Fits at Stearsby (of the Palsy), Novem
 A Prayer and Thanksgiving after His Recovery, November 28, 1665, With My Own Preservation from Death by the Grief on His Sickness <br/>
 On My Sweet Joyce, Her Death, January 26, 1665 <br/>
 On My Daughter, Alice, Her Deliverance <br/>
+Of My Dangerous Sickness, August 16, 1666 <br/>
+Meditations and Prayers thereupon <br/>
+Considerations upon the Disposal of My Daughter, Alice Thornton, in Marriage, 1666 <br/>
+The Great Fire in London, September 2nd, 1666 <br/>
+The Death of My Dear Brother, John Wandesford, December 2nd, 1666. Meditations thereon <br/>
+My Son Robert Thornton's Preservation in the Smallpox, January 5th, 1667 <br/>
+My daughter Katherine Thornton's Preservation in the Smallpox, September 29, 1666 <br/>
+My Daughter, Alice, Her Deliverance in the Smallpox, January 25th, 1667 <br/>
+My Nephew John Denton's Smallpox <br/>
+My Daughter Alice, had a Pearl in Her Eye <br/>
+My Daughter, Kate, Preserved from Choking <br/>
+Her Preservation from Death by a Fall <br/>
+The Murder of My Dear Nephew, Thomas Danby, August the First, 1667 <br/>
+The Birth of My Ninth Child (November 11, 1667) and of His Death, December 1st, 1667 <br/>
+My Trouble upon Several Accidents (Anne Danby) <br/>
+Considerations upon Mr Thornton's Several Relapses and of the Signing the Children's Settlements for Portions, et cetera <br/>
