@@ -73,3 +73,21 @@ The Death of My Husband's Brother, Richard Thornton <br/>
 A Prayer of My Dear Mother's before My Delivery of My Fourth Child, Katherine Thornton <br/>
 My Deliverance <br/>
 A Thanksgiving of My Mother's <br/>
+The Death of My Third Child, Elizabeth Thornton <br/>
+A Prayer upon Her Death <br/>
+Meditations after My Great Fall of My Fifth Child <br/>
+Upon My Deliverance of My First Son <br/>
+A Prayer and Thanksgiving for the Same <br/>
+My Cure of Bleeding, August 1659 <br/>
+A Thanksgiving thereon <br/>
+Considerations on the Public Troubles <br/>
+A Prayer for the Church and Restoration of King Charles, the Second, November 1659 <br/>
+A Relation concerning My Dear and Honoured Mother, the Lady Wandesford, and of Her Death December 10th, 1659 <br/>
+Three Prayers Concerning the Holy Communion by My Dear Mother <br/>
+My Deliverance of My Sixth Child (My Son, William) and of His Death, with Prayer and Meditation <br/>
+Verses upon the Uncertainty of Earthly Comfort <br/>
+A Thanksgiving for the Restoration of the King <br/>
+A Prayer, with Thanksgiving for Our Preservation from Destruction in This Church and State <br/>
+A Discourse upon Mr Thornton's Removal from St Nicholas to Oswaldkirk <br/>
+Upon My Great Sickness there, and of My Preservation from Spiritual Desertion, with Prayers and Meditations <br/>
+A Thanksgiving after My Recovery <br/>
