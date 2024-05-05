@@ -112,7 +112,7 @@ My Son Robert Thornton's Preservation in the Smallpox, January 5th, 1667 <br/>
 My daughter Katherine Thornton's Preservation in the Smallpox, September 29, 1666 <br/>
 My Daughter, Alice, Her Deliverance in the Smallpox, January 25th, 1667 <br/>
 My Nephew John Denton's Smallpox <br/>
-My Daughter Alice, had a Pearl in Her Eye <br/>
+My Daughter, Alice, had a Pearl in Her Eye <br/>
 My Daughter, Kate, Preserved from Choking <br/>
 Her Preservation from Death by a Fall <br/>
 The Murder of My Dear Nephew, Thomas Danby, August the First, 1667 <br/>
@@ -131,3 +131,21 @@ Of His Burial <br/>
 Lamentations upon My Sad Loss <br/>
 Prayers and Meditations upon This Heavy Dispensation, with Others upon Me <br/>
 The Widow's Prayer for Herself and Children <br/>
+Our Saviour's Command <br/>
+Anagram upon Mr Thornton's Motto, and My Own <br/>
+Verses upon Christ and the Church <br/>
+Against the Fears of Death <br/>
+A Farewell to the World <br/>
+My Faithful Soul's Wish for God's Love <br/>
+Verses upon Rash Censures <br/>
+Upon My Great Deliverance at Three Years Old <br/>
+On My Deliverance from Drowning in Ireland <br/>
+A Great Deliverance from Death by Two Falls, Ireland <br/>
+A Great fire in Dublin Castle, before My Lord Deputy <br/>
+The Preservation of My Dear Father's Will <br/>
+Deliverances at Hessom Battle and in the Wars <br/>
+From Drowning in Middleham River and Swale <br/>
+Upon the Reconciling My Brothers, George and Christopher <br/>
+Anagram on George Wandesford <br/>
+Verses upon the Fatal Loss of Dear Brother George Wandesford <br/>
+Upon the Reconciling My Two Brothers George Wandesford and Christopher Wandesford before His Death <br/>
