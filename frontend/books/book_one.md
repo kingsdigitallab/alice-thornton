@@ -119,3 +119,15 @@ The Murder of My Dear Nephew, Thomas Danby, August the First, 1667 <br/>
 The Birth of My Ninth Child (November 11, 1667) and of His Death, December 1st, 1667 <br/>
 My Trouble upon Several Accidents (Anne Danby) <br/>
 Considerations upon Mr Thornton's Several Relapses and of the Signing the Children's Settlements for Portions, et cetera <br/>
+Upon Mr Thornton's going to Spa <br/>
+A Relation of Mrs Anne Danby's going to Howley and Several Other Passages Concerning Her, April 20, 1667 <br/>
+A Relation of My Sad Condition, and the Sickness that befell Me, upon the Lies and Slanders Raised on Me, July 20th, 1668 <br/>
+Lamentations and Prayers upon My Grievous Abuses and Wrongs, 1668 <br/>
+My Son, Robert, Preserved, July 25, 1668 <br/>
+A Relation of My Dear and Honoured Husband's Last Sickness at Malton, September 12th, 1668 <br/>
+A Description of Several Passages very Remarkable about His Comforts and Assurance before His Decease <br/>
+A Relation of My Dear Husband's Death, the 17th of September, 1668 <br/>
+Of His Burial <br/>
+Lamentations upon My Sad Loss <br/>
+Prayers and Meditations upon This Heavy Dispensation, with Others upon Me <br/>
+The Widow's Prayer for Herself and Children <br/>
