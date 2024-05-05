@@ -55,3 +55,21 @@ The Death of My Cousin Edward Norton, 1648 <br/>
 Upon the Beheading of King Charles the Martyr <br/>
 Upon the Death of My Dear Brother George Wandesford <br/>
 A Prayer and Lamentation on that Sad Blow, 1651 <br/>
+An Elegy upon His Death by Sir Christopher Wyvill <br/>
+Observation of God's Goodness in My Dear Mother's Preservation and Her Child in the Time of the Wars and Distractions <br/>
+The Marriage of My Cousin, Mary Norton <br/>
+The Marriage of My Brother, Christopher Wandesford <br/>
+The Marriage of Alice Wandesford, December 15, 1651. A Prayer on That Occasion and upon My Sickness <br/>
+Several Remarkable Passages Since 1651 <br/>
+Meditations upon the Deliverance of My First Child and that Grand Sickness following <br/>
+A Prayer and Thanksgiving <br/>
+On the Birth of Alice Thornton, My Second Child, Born January 3rd 1653 <br/>
+A Prayer and Thanksgiving for That Mercy <br/>
+On the Birth of My Third Child, Elizabeth Thornton <br/>
+A Prayer and Thanksgiving for It <br/>
+The Death of My Husband's Mother <br/>
+The Death of My Husband's Father-in-Law <br/>
+The Death of My Husband's Brother, Richard Thornton <br/>
+A Prayer of My Dear Mother's before My Delivery of My Fourth Child, Katherine Thornton <br/>
+My Deliverance <br/>
+A Thanksgiving of My Mother's <br/>
