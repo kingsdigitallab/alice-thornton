@@ -91,3 +91,15 @@ A Prayer, with Thanksgiving for Our Preservation from Destruction in This Church
 A Discourse upon Mr Thornton's Removal from St Nicholas to Oswaldkirk <br/>
 Upon My Great Sickness there, and of My Preservation from Spiritual Desertion, with Prayers and Meditations <br/>
 A Thanksgiving after My Recovery <br/>
+Upon Our Removal to Newton, June 10th, in the year 1662 <br/>
+Meditations on the Receiving the First Sacrament Delivered in the New House at East Newton by Dr Samways, August 1662 <br/>
+A Return of Thanks for That Inestimable Spiritual Mercy <br/>
+Mr Covill's Settlement of Mr Thornton's Estate for My Children, 1662 <br/>
+Upon My Deliverance of My Son, Robert, My Seventh Child, September 19th, 1662 <br/>
+A Prayer and Thanksgiving for the Same <br/>
+Mr Thornton's Preservation from Drowning, 1664 <br/>
+Upon the Birth of My Eighth Child, Joyce Thornton, September 23, 1665 <br/>
+A Relation of My Dear Husband's Dangerous Fits at Stearsby (of the Palsy), November 16, 1665 <br/>
+A Prayer and Thanksgiving after His Recovery, November 28, 1665, With My Own Preservation from Death by the Grief on His Sickness <br/>
+On My Sweet Joyce, Her Death, January 26, 1665 <br/>
+On My Daughter, Alice, Her Deliverance <br/>
