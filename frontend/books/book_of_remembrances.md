@@ -63,29 +63,29 @@ Anselment notes that this volume cannot ‘be dated with any certainty’.[^1] A
 [The Death of the Lady Wandesford, 1659](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.33&p0.vi=modern) <br/> 
 [William Thornton's Birth, 1660](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.41&p0.vi=modern) <br/>
 [His Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.42&p0.vi=modern) <br/>
-Meditations <br/>
+[Meditations](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.44&p0.vi=modern) <br/>
 [My Dangerous Sickness, 1661, when I was Preserved from the Temptation of Satan to Despair](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.45&p0.vi=modern) <br/>
 [My Prayers and Meditations thereupon on St Matthew 11: 27, 28, et cetera](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.48&p0.vi=modern) <br/> 
-The Recovery of My Health<br/> 
-Mr Thornton's Preservation and Mine <br/>
-Considerations thereupon <br/>
-Deliverance from Grief on Nettleton's Bailiffs Coming <br/>
+[The Recovery of My Health](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.54&p0.vi=modern) <br/> 
+[Mr Thornton's Preservation and Mine](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.55&p0.vi=modern) <br/>
+[Considerations thereupon](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.60&p0.vi=modern) <br/>
+[Deliverance from Grief on Nettleton's Bailiffs Coming](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.63&p0.vi=modern) <br/>
 [A Deep Apprehension of My Change, Being with Child of My Seventh](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.69&p0.vi=modern) <br/>
 [The Satisfaction of My Soul after the Receiving the Holy Sacrament First at Newton by Dr Samways](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.71&p0.vi=modern) <br/>
-A Satisfaction by the Settlement of Mr Covill for Leysthorpe <br/>
+[A Satisfaction by the Settlement of Mr Covill for Leysthorpe](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.74&p0.vi=modern) <br/>
 [My Son Robert Thornton's Birth, September 19, 1662](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.81&p0.vi=modern) <br/>
 [A Most Dangerous Flux on Me after His Birth](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.82&p0.vi=modern) <br/>
 [Prayers and Meditations thereon](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
 [My Son Robert's Baptism](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
 [A Prayer and Thanksgiving for this Blessing](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
 [A Thanksgiving for Mr Thornton's Deliverance from a Flood of Waters in His Return from London](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
-The Birth of Joyce Thornton and Her Baptism <br/>
-A Prayer and Thanksgiving for this Deliverance <br/>
+[The Birth of Joyce Thornton and Her Baptism](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.90&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving for this Deliverance](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.91&p0.vi=modern) <br/>
 [Mr Thornton's Dangerous Sickness at Stearsby and His Preservation from Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.93&p0.vi=modern) <br/>
 [With My Own Desperate, Weak Condition upon Grief for Him](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.94&p0.vi=modern) <br/>
 [Prayers and Confessions, with a Return of Thanks after Our Recoveries](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.95&p0.vi=modern) <br/>
 [Meditations upon My Joyce Her Sickness](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.99&p0.vi=modern) <br/>
-Joyce Thornton Her Death <br/>
+[Joyce Thornton Her Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.101&p0.vi=modern) <br/>
 [A Deliverance of My Daughter Alice Thornton from a Surfeit of Eating Turbot](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.103&p0.vi=modern) <br/>
 A Great Deliverance from a Miscarriage <br/>
 The Great Fire in London <br/>
