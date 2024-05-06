@@ -24,3 +24,9 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 ## Contents 
 
+A Prayer of the Widow to the God of Mercy and Love for His Holy Spirit to support and direct Herself and Family <br/>
+Jeremiah (Chapter 10th, verses 23rd, 24th) <br/>
+An Account of Memorable Affairs and Accidents on Myself and Family and Children, with Deliverances and Meditations thereon since My Widowed Condition, since September 17th 1668 <br/>
+A Relation of Memorable Actions and Afflictions befallen to Me in the First Year of My Widowed Condition since September 17, 1668 <br/>
+My Widow's Prayer and Petitions to Heaven <br/>
+
