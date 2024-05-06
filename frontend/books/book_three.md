@@ -29,4 +29,9 @@ Jeremiah (Chapter 10th, verses 23rd, 24th) <br/>
 An Account of Memorable Affairs and Accidents on Myself and Family and Children, with Deliverances and Meditations thereon since My Widowed Condition, since September 17th 1668 <br/>
 A Relation of Memorable Actions and Afflictions befallen to Me in the First Year of My Widowed Condition since September 17, 1668 <br/>
 My Widow's Prayer and Petitions to Heaven <br/>
+The Remarkable Passages of My Life with My Three Children and of the Afflictions, Trials, Providences, Mercies and Deliverances Received from God since the Death of My Dear Husband. The First Year of my Widowhood Condition since September 17th, 1668 <br/>
+The First Great and Excellent Goodness of Our Gracious God to Myself in My Preservation in Life from the Death of My Dear Husband's Loss and the Cursed Slanders of My Enemies and those Piercing Griefs which Followed My Desolate Condition <br/>
+
+
+
 
