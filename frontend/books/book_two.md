@@ -56,6 +56,13 @@ A Deliverance from Fire at Oswaldkirk, 1661 <br/>
 Upon a Great Fright I had at Oswaldkirk, Being Big with Child Concerning a Bond, 1662 <br/>
 Upon Our Coming to live at Newton after the New House was builded by Mr Thornton and Myself (It being on June the 10th, 1662) <br/>
 My Dream, Nettleton <br/>
-
+On the First Coming to Newton, of the Country's Kind Respects to Me (June, July 1662)  <br/>
+Upon Mr Thornton's Settlement of His Estate by Mr Covill before My Delivery of My Son, Robert Thornton, August 1662  <br/>
+My Cousin Covill's Letter to me upon the Sending for Advice upon My Jointure Deed and Mr Legard's Paper Book, which ought to have Rectified those Faults, August 22, 1662  <br/>
+A Relation of the Passages happened before My Yielding to cut off the Settlement of Burn Park, Being Made before Marriage for the Provision of My Younger Children (May 6th, 1658)  <br/>
+A Prayer on the Making of Mr Covill's Deed, August 1662  <br/>
+An Account of Mortgages Charged upon Leysthorpe or some Part of that Land before Mr Covill's Settlement, which I did not know of until long after (about the year, 1668)  <br/>
+Upon My Deliverance of My Son, Robert Thornton, My Third Son and Seventh Child, Being the First Child Born at the New House, at East Newton, Whose Birth was on Friday the 19th of September, 1662  <br/>
+Of My Desperate Sickness and Dangerous Condition I was visited withal, Beginning on Me August 16, 1666, and cleared of the Flux of Blood  <br/>
 
 
