@@ -44,6 +44,12 @@ Meditations on the Birth of My Fourth Child, Katherine Thornton, born at Hipswel
 The Death of My Third Child, My Dear Betty, who died the 5th of September 1656 <br/>
 Upon My Desperate Fall I had at Hipswell, being with Child of My Fifth Child, September 14th, 1657 <br/>
 Meditations on My Deliverance of My First Son and after My Restoration from My Great Fall of Him. He being My Fifth Child, born at Hipswell, the 10th Day of December 1657 <br/>
+Upon the Cure of Bleeding of the Haemorrhoids I received at Scarborough August 1659 <br/>
+Meditations upon My Delivery of My Sixth Child, William Thornton, and of His Death, April 12th, 1660, at St Nicholas, My Aunt Norton's House (being My First Child after My Dear Mother's Decease, December 9th, 1659) <br/>
+April 17, 1660. The Birth of William Thornton <br/>
+Upon My Husband's and Family's Removal from St Nicholas to Oswaldkirk near Newton, June 1660, and My First Coming from My Own Friends and Country <br/>
+Upon My Dear Kate's Deliverance from being Choked with a Pin at St Nicholas, May 17, 1660 <br/>
+Upon My Husband's and Family's Removal from St Nicholas to Oswaldkirk near Newton. These Accidents happened to Me and Mine following June 10th, 1660 <br/>
 
 
 
