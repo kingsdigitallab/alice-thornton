@@ -50,7 +50,12 @@ April 17, 1660. The Birth of William Thornton <br/>
 Upon My Husband's and Family's Removal from St Nicholas to Oswaldkirk near Newton, June 1660, and My First Coming from My Own Friends and Country <br/>
 Upon My Dear Kate's Deliverance from being Choked with a Pin at St Nicholas, May 17, 1660 <br/>
 Upon My Husband's and Family's Removal from St Nicholas to Oswaldkirk near Newton. These Accidents happened to Me and Mine following June 10th, 1660 <br/>
-
+Upon My Dear Daughter's Preservation from a Wound in Her Belly, 1661 <br/>
+Upon a Lie made and Slander Raised on Myself and My Servant, Jane Flower, by Nan Robinson at Oswaldkirk this Year, 1661 <br/>
+A Deliverance from Fire at Oswaldkirk, 1661 <br/>
+Upon a Great Fright I had at Oswaldkirk, Being Big with Child Concerning a Bond, 1662 <br/>
+Upon Our Coming to live at Newton after the New House was builded by Mr Thornton and Myself (It being on June the 10th, 1662) <br/>
+My Dream, Nettleton <br/>
 
 
 
