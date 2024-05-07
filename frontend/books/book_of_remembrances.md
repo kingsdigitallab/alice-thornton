@@ -95,7 +95,7 @@ The Death of Mr William Norton <br/>
 The Falling Ill of Robin Thornton into the Smallpox <br/>
 A Meditation thereon <br/>
 My Daughter, Alice, Her Falling into the Smallpox <br/>
-With a Preservation from Choking in her Sleep <br/>
+With a Preservation from Choking in Her Sleep <br/>
 John Denton Fell Ill of the Smallpox <br/>
 My Daughter Kate was Preserved from Choking with a Pin
 and from a Desperate Fall <br/>
