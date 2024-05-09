@@ -25,7 +25,7 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 ## Contents 
 
 Job 10:20 <br/>
-St Matt. 6:33 <br/>
+St Matthew 6:33 <br/>
 Meditations in My Widowed Condition <br/>
 A Prayer for Myself for Support and Comfort <br/>
 An Introduction to this Book of the Remarkable Providences and Passages of My Life since My Widowed Condition, since September the 17th, 1668 <br/>
@@ -48,21 +48,23 @@ Upon the Cure of Bleeding of the Haemorrhoids I received at Scarborough August 1
 Meditations upon My Delivery of My Sixth Child, William Thornton, and of His Death, April 12th, 1660, at St Nicholas, My Aunt Norton's House (being My First Child after My Dear Mother's Decease, December 9th, 1659) <br/>
 April 17, 1660. The Birth of William Thornton <br/>
 Upon My Husband's and Family's Removal from St Nicholas to Oswaldkirk near Newton, June 1660, and My First Coming from My Own Friends and Country <br/>
+Upon My Dear Nally's Deliverance from Death by Convulsions, May 29, 1660 at St Nicholas <br/>
 Upon My Dear Kate's Deliverance from being Choked with a Pin at St Nicholas, May 17, 1660 <br/>
 Upon My Husband's and Family's Removal from St Nicholas to Oswaldkirk near Newton. These Accidents happened to Me and Mine following June 10th, 1660 <br/>
+Upon My Great and Dangerous Sickness at Oswaldkirk, February 13, 1661, Being on my Birthday <br/>
 Upon My Dear Daughter's Preservation from a Wound in Her Belly, 1661 <br/>
 Upon a Lie made and Slander Raised on Myself and My Servant, Jane Flower, by Nan Robinson at Oswaldkirk this Year, 1661 <br/>
 A Deliverance from Fire at Oswaldkirk, 1661 <br/>
 Upon a Great Fright I had at Oswaldkirk, Being Big with Child Concerning a Bond, 1662 <br/>
-Upon Our Coming to live at Newton after the New House was builded by Mr Thornton and Myself (It being on June the 10th, 1662) <br/>
+Upon Our Coming to live at Newton after the New House was Builded by Mr Thornton and Myself (It being on June the 10th, 1662) <br/>
 My Dream, Nettleton <br/>
 On the First Coming to Newton, of the Country's Kind Respects to Me (June, July 1662)  <br/>
 Upon Mr Thornton's Settlement of His Estate by Mr Covill before My Delivery of My Son, Robert Thornton, August 1662  <br/>
-My Cousin Covill's Letter to me upon the Sending for Advice upon My Jointure Deed and Mr Legard's Paper Book, which ought to have Rectified those Faults, August 22, 1662  <br/>
+My Cousin Covill's Letter to Me upon the Sending for Advice upon My Jointure Deed and Mr Legard's Paper Book, which ought to have Rectified those Faults, August 22, 1662  <br/>
 A Relation of the Passages happened before My Yielding to cut off the Settlement of Burn Park, Being Made before Marriage for the Provision of My Younger Children (May 6th, 1658)  <br/>
 A Prayer on the Making of Mr Covill's Deed, August 1662  <br/>
 An Account of Mortgages Charged upon Leysthorpe or some Part of that Land before Mr Covill's Settlement, which I did not know of until long after (about the year, 1668)  <br/>
-Upon My Deliverance of My Son, Robert Thornton, My Third Son and Seventh Child, Being the First Child Born at the New House, at East Newton, Whose Birth was on Friday the 19th of September, 1662  <br/>
+Upon My Deliverance of My Son, Robert Thornton, My Third Son and Seventh Child, Being the First Child Born at the New House at East Newton, Whose Birth was on Friday the 19th of September, 1662  <br/>
 Of My Desperate Sickness and Dangerous Condition I was visited withal, Beginning on Me August 16, 1666, and cleared of the Flux of Blood  <br/>
 
 
