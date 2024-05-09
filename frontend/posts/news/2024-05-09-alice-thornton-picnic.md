@@ -1,7 +1,7 @@
 ---
 title: "Project Team to Host Alice Thornton Picnic"
 feature: /assets/img/posts/thornton_picnic_square.jpg 
-status: draft
+status: live
 authors:
   - ethom
 tags:
