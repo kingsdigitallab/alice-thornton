@@ -414,17 +414,48 @@ function setUpTextViewer() {
           }
         });
       },
-      correctPopover2(popover) {
+      correctPopover(popover, event) {
+        // fix the popover above all other elements
+        // under the cursor
+        let prect = popover.getBoundingClientRect();
         popover.style.cssText = "";
         popover.style.position = "fixed";
+        popover.style["margin-top"] = "1em";
         let popoverContainer = popover.closest(".has-info-box");
         let rect = popoverContainer.getBoundingClientRect();
-        popover.style.top = `calc(${rect.top}px + 2em)`;
-        popover.style.left = `calc(${rect.left}px)`;
+        let mousex = 0;
+        let mousey = 0;
+        if (event) {
+          mousex = event.clientX;
+          mousey = event.clientY;
+        } else {
+          mousex = rect.left + rect.width / 2;
+          mousey = rect.top;
+        }
+        //
+        let beyondRightEdge = mousex + prect.width - window.innerWidth;
+        if (beyondRightEdge > 0) {
+          // clip to right edge if it goes beyond
+          mousex -= beyondRightEdge;
+        }
+        if (mousex < 0) {
+          // narrows if crosses left edge
+          mousex = 0;
+          popover.style.width = `${window.innerWidth}px`;
+        }
+        let beyondBottomEdge = mousey + prect.height - window.innerHeight;
+        if (beyondBottomEdge > 0) {
+          mousey -= prect.height;
+          popover.style["margin-top"] = "-1em";
+        }
+        popover.style.top = `calc(${mousey}px)`;
+        popover.style.left = `calc(${mousex}px)`;
+        popover.style.transform = "none";
         popover.style["z-index"] = "1000";
-        console.log(popover);
+        // console.log(popover);
       },
-      correctPopover(popover) {
+      correctPopover0(popover) {
+        // abandonned: b/c not enough space within narrow panel
         /* correct the absolute positioning of a popover span element
         so it fits within its panel.
         This is done by adjusting the left position & the width.
@@ -502,13 +533,13 @@ function setUpTextViewer() {
 
             // correct the position of the info-box on hover
 
-            infoBoxContainer.addEventListener("mouseenter", () => {
+            infoBoxContainer.addEventListener("mouseenter", (event) => {
               // set child-hovered class on .has-info-box ancestors
               for (let popOver of infoBoxContainer.querySelectorAll(
                 ".info-box"
               )) {
                 // console.log(popOver)
-                this.correctPopover(popOver);
+                this.correctPopover(popOver, event);
               }
             });
           });
@@ -532,7 +563,7 @@ function setUpTextViewer() {
             btn.classList.add("managed");
           });
 
-          // this.correctPopovers();
+          this.correctPopovers();
         });
       },
       selectDefaultOption(panel, key) {
@@ -598,7 +629,7 @@ function setUpTextViewer() {
             history.pushState(null, "", newRelativePathQuery);
           }
           if (this.navigationCause == "landing") {
-            console.log(`REPLACE state: ${newRelativePathQuery}`);
+            // console.log(`REPLACE state: ${newRelativePathQuery}`);
             history.replaceState(null, "", newRelativePathQuery);
           }
           // document.title = newRelativePathQuery
