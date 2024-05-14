@@ -11,20 +11,13 @@ archivedAt: https://searcharchives.bl.uk/primo-explore/fulldisplay?docid=IAMS032
 contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/texts/01_book_one/book_one.xml
 ---
 
-
 ## Description (COMING SOON)
-
-
 
 ## Provenance
 
-
-
 ## Dating
 
-
-
-## Contents 
+## Contents
 
 Bishop Hall's Observations <br/>
 A Prayer, the Dedication <br/>

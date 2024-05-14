@@ -23,17 +23,17 @@ Owned by Thomas Comber, of Newton-le-Willows (1875); Rev. Mr Edward F. Comber, W
 
 Anselment notes that this volume cannot ‘be dated with any certainty’.[^1] Although the volume opens by recording Thornton’s date of birth (page 3) and the first entry is dated 1631 (page 11), the length and detail of the entries increase from 1659 and there is a reference to being called on to give testimony by Lord Danby in the backmatter, which occurred c.1673. Other annotations suggest that Thornton revised her entries. On this basis, we conjecture that the majority of this volume was composed between 1659-68.
 
-## Contents 
+## Contents
 
 [The Age of Alice Wandesford](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.3&p0.vi=modern)<br/>
-[The Dedication](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.7&p0.vi=modern)<br/> 
-[Observables](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.9&p0.vi=modern)<br/> 
-[Prayer](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.10&p0.vi=modern)<br/> 
-[Preface](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.11&p0.vi=modern)<br/> 
+[The Dedication](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.7&p0.vi=modern)<br/>
+[Observables](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.9&p0.vi=modern)<br/>
+[Prayer](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.10&p0.vi=modern)<br/>
+[Preface](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.11&p0.vi=modern)<br/>
 [Her Weakness in the Measles](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.12&p0.vi=modern)<br/>
-[Her Having the Smallpox in Kent](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.14&p0.vi=modern)<br/> 
-[Meditations on Psalm 147, 4th](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.15&p0.vi=modern)<br/> 
-[Deliverance from Fire in London, 1632](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.17&p0.vi=modern)<br/> 
+[Her Having the Smallpox in Kent](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.14&p0.vi=modern)<br/>
+[Meditations on Psalm 147, 4th](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.15&p0.vi=modern)<br/>
+[Deliverance from Fire in London, 1632](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.17&p0.vi=modern)<br/>
 [Her Passage into Ireland, 1632](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.18&p0.vi=modern) <br/>
 [Deliverance from Fire in Dublin](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.21&p0.vi=modern) <br/>
 [A Second Meditation, about Twelve Years Old](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.21&p0.vi=modern)<br/>
@@ -41,12 +41,12 @@ Anselment notes that this volume cannot ‘be dated with any certainty’.[^1] A
 [The Death of the Lord Deputy Wandesford](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.23&p0.vi=modern) <br/>
 [The Deliverance from the Irish Rebellion](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.23&p0.vi=modern) <br/>
 [Her Having the Smallpox at Chester](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.24&p0.vi=modern) <br/>
-[A Deliverance from a Sickness at Richmond](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.24&p0.vi=modern)<br/> 
+[A Deliverance from a Sickness at Richmond](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.24&p0.vi=modern)<br/>
 [The Lady Danby Died, 1645](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.24&p0.vi=modern) <br/>
 [Mr Edmund Norton Died, 1648](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.25&p0.vi=modern) <br/>
 [King Charles the Blessed, 1648](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.25&p0.vi=modern) <br/>
 [Sir Edward Osborne Died](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.25&p0.vi=modern) <br/>
-[George Wandesford, Esquire, Died 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/> 
+[George Wandesford, Esquire, Died 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
 [Mrs Mary Norton Married, 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
 [Sir Christopher Wandesford Married, 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
 [Alice Thornton Married, 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
@@ -60,13 +60,13 @@ Anselment notes that this volume cannot ‘be dated with any certainty’.[^1] A
 [Elizabeth Thornton Died, 1656](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.29&p0.vi=modern) <br/>
 [My Deliverance from a Fall, 1657](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.30&p0.vi=modern) <br/>
 [The Birth of My First Son, 1657](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.31&p0.vi=modern) <br/>
-[The Death of the Lady Wandesford, 1659](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.33&p0.vi=modern) <br/> 
+[The Death of the Lady Wandesford, 1659](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.33&p0.vi=modern) <br/>
 [William Thornton's Birth, 1660](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.41&p0.vi=modern) <br/>
 [His Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.42&p0.vi=modern) <br/>
 Meditations <br/>
 [My Dangerous Sickness, 1661, when I was Preserved from the Temptation of Satan to Despair](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.45&p0.vi=modern) <br/>
-[My Prayers and Meditations thereupon on St Matthew 11: 27, 28, et cetera](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.48&p0.vi=modern) <br/> 
-The Recovery of My Health<br/> 
+[My Prayers and Meditations thereupon on St Matthew 11: 27, 28, et cetera](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.48&p0.vi=modern) <br/>
+The Recovery of My Health<br/>
 Mr Thornton's Preservation and Mine <br/>
 Considerations thereupon <br/>
 Deliverance from Grief on Nettleton's Bailiffs Coming <br/>
