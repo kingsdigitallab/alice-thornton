@@ -17,6 +17,9 @@ hideCitation: true
 isCustomContent: true
 customCSS: "/assets/css/text-viewer2.css"
 customBodyClasses: "body-text-viewer"
+eleventyNavigation:
+  key: Edition
+  order: 3
 ---
 
 {% raw %}

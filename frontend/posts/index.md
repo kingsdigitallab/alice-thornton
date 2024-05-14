@@ -5,7 +5,7 @@ layout: posts.liquid
 override:tags: []
 eleventyNavigation:
   key: Blog & News
-  order: 5
+  order: 6
 title: Blog & News
 filteringTag: posts
 ---

@@ -363,7 +363,10 @@ function setUpTextViewer() {
         if (panelIdx == null) {
           panelIdx = this.selection.selectedPanelIndex;
         }
-        return `../print/?${this.getQueryStringFromPanelIdx(panelIdx, true)}`;
+        return `/edition/print/?${this.getQueryStringFromPanelIdx(
+          panelIdx,
+          true
+        )}`;
       },
       async loadDocument(panel) {
         // panel.responses.document = `Loading ${locus}...`;

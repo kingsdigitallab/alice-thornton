@@ -2,7 +2,7 @@
 title: Search
 eleventyNavigation:
   key: Search
-  order: 3
+  order: 4
 ---
 
 {% raw %}
