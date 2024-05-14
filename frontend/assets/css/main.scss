@@ -147,6 +147,7 @@ a {
   }
 }
 
+
 // GN: fix text spilling over text viewer because bulma padding is too large
 div.container.is-fluid {
   padding-left: 0;
@@ -343,6 +344,7 @@ body > footer.footer {
   // color: red;
 }
 
+
 /* Images */
 
 .content .icon {
@@ -359,6 +361,13 @@ body > footer.footer {
   &.media-center {
     float: unset;
     max-width: 30%;
+    img {
+      width: 100%;
+      box-shadow: -15px -15px #462200;
+      &.media-right{
+        margin:0;
+      }
+    }
   }
 
   &.media-left {
@@ -371,10 +380,6 @@ body > footer.footer {
     clear: right;
     float: right;
     margin: 0.5em 0 0.5em 1em;
-
-    figcaption {
-      margin-left: 1em;
-    }
   }
 
   &.media-center {
@@ -409,40 +414,43 @@ body > footer.footer {
   }
 }
 
-.media-left,
-.media-right {
-  @include tablet {
-    + *,
-    + * + * {
-      box-sizing: border-box;
-      display: inline-block;
-      margin-top: 0.625rem;
-      width: 65%;
-    }
-
-    + blockquote,
-    + * + blockquote {
-      box-sizing: border-box;
-      max-width: 62%;
-    }
-
-    + * + * + * {
-      clear: both;
-    }
-  }
-}
-
 figcaption {
   box-sizing: border-box;
   font-size: 0.875em;
   line-height: 1.5;
-  margin: 0 0 1em;
+  margin: 0;
   width: 100% !important;
 
   @include mobile {
     max-width: 100%;
   }
 }
+.media-left,
+.media-right {
+  + blockquote,
+  + * + blockquote {
+    box-sizing: border-box;
+    max-width: 67%;
+    display: inline-block;
+    margin-top: 0.625rem;
+    @include mobile {
+      max-width: 100%;
+    }
+  }
+}
+
++ *,
+    + * + * {
+      box-sizing: border-box;
+      display: inline-block;
+      margin-top: 0.625rem;
+      width: 65%;
+      clear: both;
+    }
+
+
+/* Images End*/
+
 
 // Gallery
 
@@ -653,12 +661,6 @@ figcaption {
 nav.post-meta {
   a {
     margin-right: 1em;
-  }
-}
-
-div.content {
-  img {
-    border: 1px solid $primary;
   }
 }
 
@@ -1098,3 +1100,6 @@ a.button-hp {
     display: none !important;
   }
 }
+
+
+
