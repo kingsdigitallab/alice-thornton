@@ -1,5 +1,4 @@
 ---
-title: Edition
 authors:
   - cbeattie
   - strill
