@@ -353,6 +353,7 @@ body > footer.footer {
 
 .content figure {
   box-sizing: border-box;
+  margin: 2em 0;
 
   &.media-left,
   &.media-right,
@@ -361,7 +362,6 @@ body > footer.footer {
     max-width: 30%;
     img {
       width: 100%;
-      box-shadow: -15px -15px #462200;
       &.media-right {
         margin: 0;
       }
@@ -382,7 +382,7 @@ body > footer.footer {
 
   &.media-center {
     display: block;
-    margin: 1em auto;
+    margin: 1em 0;
   }
 
   &.media-full {
