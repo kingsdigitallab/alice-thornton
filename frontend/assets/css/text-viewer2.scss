@@ -416,9 +416,16 @@ section {
           ul {
             display: block;
           }
+
+          a{
+            display:inline;
+            border:none;
+            padding:0;
+          }
           a.button.is-secondary {
             padding: 0 16px;
             display: inline-flex;
+            border: 1px solid $secondary;
           }
           .citation {
             border: 3px double $primary;
