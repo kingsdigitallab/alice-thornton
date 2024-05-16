@@ -165,6 +165,7 @@ eleventyNavigation:
           <p>Other contributors include the Solution Development Team on our <a href="/about/">About Page</a>.</p>
         </div>
       </div>
+      <!--
       <div class="tab">
         <input type="radio" id="tab-3" name="tab-group-1">
         <label for="tab-3">
@@ -178,7 +179,7 @@ eleventyNavigation:
           </p>
           <a :href="getPrintURL()" class="button is-secondary"><i class="far fa-file-alt"></i>&nbsp; Preview</a>
         </div>
-      </div>
+      </div>-->
       <div class="tab">
         <input type="radio" id="tab-4" name="tab-group-1">
         <label for="tab-4">
