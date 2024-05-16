@@ -187,7 +187,7 @@ eleventyNavigation:
         </label>
         <div class="content">
           <h2>Search</h2>
-          <p>Find and filter people and place names in the books.</p>
+          <p>Find people and places mentioned across the four Books.</p>
           <a href="/entities/" class="button is-secondary">
             <i class="fas fa-filter"></i> &nbsp; Search and Filter</a>
         </div>
