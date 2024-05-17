@@ -91,11 +91,32 @@ section {
             .pagination {
               display: inline;
             }
+            label{
+              position: absolute;
+              top: 0px;
+              z-index: 9;
+              font-size: 10px;
+              padding-left: 18px;
+              text-transform: uppercase;
+              color: gray;
+            }
+            .select-dropdown{
+              padding: 7px 8px 5px 8px;
+              i{
+                top: 24px;
+              }
+              &:hover{
+                i{
+                  top: 31px;
+                }
+              }
+            }
           } //.bottom
           div {
             text-align: center;
             margin: 0;
             cursor: pointer;
+
             &.icons {
               display: flex;
               margin-left: auto;

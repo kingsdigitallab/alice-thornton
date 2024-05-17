@@ -369,7 +369,7 @@ eleventyNavigation:
       </div>
       <nav class="panel-nav bottom">
         <div>
-          <panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
+          <label>Edition page:</label><panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
         </div>
         <div>
           <button class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)"
