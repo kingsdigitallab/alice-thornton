@@ -157,7 +157,7 @@ eleventyNavigation:
           <h2>Citation</h2>
           <p>Cite the Research team that worked on this page of the digital edition</p>
           <div class="citation">
-            <p>{{ selectedPanelCitation }}</p>
+            <p v-html="selectedPanelCitation"></p>
             <button class="button is-secondary" @click="onClickCopyCitation()"><i class="far fa-copy"></i> &nbsp;
               Copy</button>
           </div>

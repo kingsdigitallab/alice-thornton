@@ -175,17 +175,19 @@ function setUpTextViewer() {
         let panel = this.selectedPanel;
         let ret = "";
         if (panel) {
-          let pageNumber = panel.selections.locus.replace(/\D+/g, "");
           let format = { year: "numeric", month: "long", day: "numeric" };
           let today = new Date().toLocaleDateString("en-GB", format);
-          ret = `Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard. '${
-            panel.selectors.document[panel.selections.document]
-          }, ${
-            panel.selectors.view[panel.selections.view]
-          } edition, p. ${pageNumber}'. Alice Thornton's Books. Accessed ${today}. https://thornton.kdl.kcl.ac.uk/books/viewer2/?${this.getQueryStringFromPanelIdx(
+          let editors =
+            "Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noël, Tiffany Ong, Priyal Shah";
+          let book = panel.selectors.document[panel.selections.document];
+          let version = panel.selectors.view[panel.selections.view];
+          let pageNumber = panel.selections.locus.replace(/\D+/g, "");
+          let url = `https://thornton.kdl.kcl.ac.uk/edition/?${this.getQueryStringFromPanelIdx(
             this.selection.selectedPanelIndex,
             true
           )}`;
+          // ret = `${editors}. '${book}, ${version} edition, p. ${pageNumber}'. Alice Thornton's Books. Accessed ${today}. ${url}`;
+          ret = `Alice Thornton, <em>${book}</em>, ${version} edition by ${editors}, ${pageNumber}. 2024. <br> ${url} (accessed ${today})`;
         }
         return ret;
       },
@@ -215,7 +217,7 @@ function setUpTextViewer() {
       },
       onClickCopyCitation() {
         let citation = this.selectedPanelCitation;
-        navigator.clipboard.writeText(citation);
+        navigator.clipboard.writeText(citation.replace(/<[^>]+>/g, ""));
       },
       isControlHidden(controlKey) {
         return (
