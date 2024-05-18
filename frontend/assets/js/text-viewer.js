@@ -317,7 +317,7 @@ function setUpTextViewer() {
             members.map((member) => {
               let ref = member["dts:ref"] || member["ref"];
               if (this.isLocusVisible(panel.selections.document, ref)) {
-                panel.selectors.locus[ref] = ref;
+                panel.selectors.locus[ref] = ref.replace(/\D+/g, "");
               }
             });
           }
@@ -383,7 +383,8 @@ function setUpTextViewer() {
               panel,
               "documents",
               panel.selections.document,
-              panel.selectors.locus[locusIndexToFetch],
+              //panel.selectors.locus[locusIndexToFetch],
+              locusIndexToFetch,
               "html"
             );
           }
