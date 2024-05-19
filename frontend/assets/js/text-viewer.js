@@ -391,6 +391,20 @@ function setUpTextViewer() {
           panel.responses.document = document;
           this.postProcessDocument(panel);
           this.setAddressBarFromSelection();
+
+          // scroll to top of that panel
+          if (!this.isPrint) {
+            for (let panelIdx = 0; panelIdx < this.panels.length; panelIdx++) {
+              if (this.panels[panelIdx] == panel) {
+                let panelDOM = window.document.querySelectorAll(
+                  `.panel-wrapper .panel-chunk`
+                )[panelIdx];
+                if (panelDOM) {
+                  panelDOM.scrollTop = 0;
+                }
+              }
+            }
+          }
         }
       },
       postProcessDocument(panel) {

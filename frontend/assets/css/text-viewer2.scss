@@ -1255,6 +1255,15 @@ $render-sic: false;
     }
   }
 
+  &.view-modern {
+    div.tei-type-merged-modern-paras {
+      margin-bottom: $edition-line-height;      
+      p {
+        display: inline;
+      }
+    }
+  }
+
   .tei-fw.tei-type-pageNum {
     & + .tei-lb {
       display: none;
