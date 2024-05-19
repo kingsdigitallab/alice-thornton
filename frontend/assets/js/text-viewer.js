@@ -437,42 +437,44 @@ function setUpTextViewer() {
       correctPopover(popover, event) {
         // fix the popover above all other elements
         // under the cursor
-        let prect = popover.getBoundingClientRect();
-        popover.style.cssText = "";
-        popover.style.position = "fixed";
-        popover.style["margin-top"] = "1em";
         let popoverContainer = popover.closest(".has-info-box");
-        let rect = popoverContainer.getBoundingClientRect();
-        let mousex = 0;
-        let mousey = 0;
-        if (event) {
-          mousex = event.clientX;
-          mousey = event.clientY;
-        } else {
-          mousex = rect.left + rect.width / 2;
-          mousey = rect.top;
+        if (popoverContainer) {
+          let prect = popover.getBoundingClientRect();
+          popover.style.cssText = "";
+          popover.style.position = "fixed";
+          popover.style["margin-top"] = "1em";
+          let rect = popoverContainer.getBoundingClientRect();
+          let mousex = 0;
+          let mousey = 0;
+          if (event) {
+            mousex = event.clientX;
+            mousey = event.clientY;
+          } else {
+            mousex = rect.left + rect.width / 2;
+            mousey = rect.top;
+          }
+          //
+          let beyondRightEdge = mousex + prect.width - window.innerWidth;
+          if (beyondRightEdge > 0) {
+            // clip to right edge if it goes beyond
+            mousex -= beyondRightEdge;
+          }
+          if (mousex < 0) {
+            // narrows if crosses left edge
+            mousex = 0;
+            popover.style.width = `${window.innerWidth}px`;
+          }
+          let beyondBottomEdge = mousey + prect.height - window.innerHeight;
+          if (beyondBottomEdge > 0) {
+            mousey -= prect.height;
+            popover.style["margin-top"] = "-1em";
+          }
+          popover.style.top = `calc(${mousey}px)`;
+          popover.style.left = `calc(${mousex}px)`;
+          popover.style.transform = "none";
+          popover.style["z-index"] = "1000";
+          // console.log(popover);
         }
-        //
-        let beyondRightEdge = mousex + prect.width - window.innerWidth;
-        if (beyondRightEdge > 0) {
-          // clip to right edge if it goes beyond
-          mousex -= beyondRightEdge;
-        }
-        if (mousex < 0) {
-          // narrows if crosses left edge
-          mousex = 0;
-          popover.style.width = `${window.innerWidth}px`;
-        }
-        let beyondBottomEdge = mousey + prect.height - window.innerHeight;
-        if (beyondBottomEdge > 0) {
-          mousey -= prect.height;
-          popover.style["margin-top"] = "-1em";
-        }
-        popover.style.top = `calc(${mousey}px)`;
-        popover.style.left = `calc(${mousex}px)`;
-        popover.style.transform = "none";
-        popover.style["z-index"] = "1000";
-        // console.log(popover);
       },
       correctPopover0(popover) {
         // abandonned: b/c not enough space within narrow panel
