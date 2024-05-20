@@ -5,14 +5,7 @@ Chicago style
 Q: no date for blog post?
 {% endcomment %}
 <div class="box box-citation">
-  <p>Citing this web page:
-    <button class="button is-primary dont-print">
-      <span class="icon is-small">
-        <img src="{{ '/assets/img/icons/font-awesome/copy.svg' | url }}" alt="Copy citation to cliboard">
-      </span>
-      <span class="button-text">Copy</span>
-    </button>
-  </p>
+  <h3>Citing this web page:</h3>
   <cite>
     {% include 'people_names.liquid', people: authors %}.
     '{{ titleCitation | default:title }}'.
@@ -21,4 +14,8 @@ Q: no date for blog post?
     <br>
     {{ metadata.live_domain }}{{ page.url }}
   </cite>
+  <button class="button is-secondary dont-print">
+    <i class="far fa-copy"></i> &nbsp;
+    <span class="button-text">Copy</span>
+  </button>
 </div>

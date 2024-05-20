@@ -14,8 +14,14 @@ eleventyComputed:
 
 {% assign posts = collections.postsLive | lookup:".data.tags",postsTag.name %}
 
+<nav class="post-meta">
+  Filter by:
+  <a href="/posts/blog/" class="category-link tag is-accent">Blogs</a>
+  <a href="/posts/news/" class="category-link tag is-accent">News</a> 
+  <a href="/posts/tags/" class="tag is-info is-light">Tags</a>
+</nav>
+<br>
+
 {% for post in posts %}
   {% include "post_summary.liquid" %}
 {% endfor %}
-
-<p><a href="..">List of all tags</a></p>

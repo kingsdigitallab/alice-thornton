@@ -17,6 +17,14 @@
 
 @import "../node_modules/bulma/bulma.sass";
 
+/*  Mixins  */
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
 .is-primary {
   background: $primary;
   text-decoration: none;
@@ -117,9 +125,13 @@ body:not(.slug-viewer) {
 
 a {
   text-decoration: underline;
-
   &:hover {
     opacity: 0.8;
+    text-decoration-style: double;
+    img {
+      opacity: 1;
+      box-shadow: 1px 2px 4px darken($gray-dark, 30%);
+    }
   }
 }
 
@@ -127,9 +139,11 @@ a {
 // Going nuclear on max-width for container
 
 .container {
-  @media screen and (min-width: 1120px) {
-    max-width: 1120px !important;
-    padding: 0 6rem !important;
+  .container {
+    @media screen and (min-width: 1120px) {
+      max-width: 1280px !important;
+      padding: 0 6rem !important;
+    }
   }
 }
 
@@ -178,6 +192,7 @@ h1.title {
   font-size: 2.25em;
   color: $secondary-dark;
   border-bottom: 3px double;
+  margin-bottom: 1.5rem;
 }
 
 .content h2 {
@@ -220,12 +235,15 @@ h3 {
 }
 
 .top-nav {
-  background: url("/assets/img/at-decoration-pattern-1.jpg") left 92% repeat-x;
-  background-size: 35px;
+  background: url("/assets/img/at-decoration-pattern-1.jpg") left 93% repeat-x;
+  background-size: 38px;
   padding-bottom: 1rem;
   position: sticky;
   top: 0;
   z-index: 1;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 // Homepage
@@ -247,7 +265,7 @@ h3 {
 .index-page-w-images,
 .person-bio {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 30% calc(70% - 4em);
   grid-gap: 2em;
   margin-bottom: 1em;
 
@@ -264,12 +282,12 @@ h3 {
 
 body > footer.footer {
   background: url("/assets/img/at-decoration-pattern-1.jpg") left -5px repeat-x lighten($gray, 30%);
-  background-size: 50px;
-  padding: 0.8em 0 0 0;
+  background-size: 40px;
+  padding: 0.4em 0 0 0;
   .has-text-centered {
     h2 {
       border-top: 8px solid $primary;
-      padding-top: 16px;
+      padding-top: 4px;
       font-weight: 600;
       color: $secondary;
       font-size: 24px;
@@ -277,13 +295,22 @@ body > footer.footer {
   }
   .logo-x {
     img {
-      background-color: black;
       padding: 2px;
+      background: black;
     }
   }
-  .social-logo {
+  a img.social-logo {
     vertical-align: middle;
     margin-left: 8px;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  a:hover {
+    img.social-logo {
+      box-shadow: none;
+    }
   }
 
   p {
@@ -326,12 +353,19 @@ body > footer.footer {
 
 .content figure {
   box-sizing: border-box;
+  margin: 2em 0;
 
   &.media-left,
   &.media-right,
   &.media-center {
     float: unset;
     max-width: 30%;
+    img {
+      width: 100%;
+      &.media-right {
+        margin: 0;
+      }
+    }
   }
 
   &.media-left {
@@ -344,15 +378,11 @@ body > footer.footer {
     clear: right;
     float: right;
     margin: 0.5em 0 0.5em 1em;
-
-    figcaption {
-      margin-left: 1em;
-    }
   }
 
   &.media-center {
     display: block;
-    margin: 1em auto;
+    margin: 1em 0;
   }
 
   &.media-full {
@@ -382,40 +412,32 @@ body > footer.footer {
   }
 }
 
-.media-left,
-.media-right {
-  @include tablet {
-    + *,
-    + * + * {
-      box-sizing: border-box;
-      display: inline-block;
-      margin-top: 0.625rem;
-      width: 65%;
-    }
-
-    + blockquote,
-    + * + blockquote {
-      box-sizing: border-box;
-      max-width: 62%;
-    }
-
-    + * + * + * {
-      clear: both;
-    }
-  }
-}
-
 figcaption {
   box-sizing: border-box;
   font-size: 0.875em;
   line-height: 1.5;
-  margin: 0 0 1em;
+  margin: 0;
   width: 100% !important;
 
   @include mobile {
     max-width: 100%;
   }
 }
+.media-left,
+.media-right {
+  + blockquote,
+  + * + blockquote {
+    box-sizing: border-box;
+    max-width: 67%;
+    display: inline-block;
+    margin-top: 0.625rem;
+    @include mobile {
+      max-width: 100%;
+    }
+  }
+}
+
+/* Images End*/
 
 // Gallery
 
@@ -456,6 +478,7 @@ figcaption {
 }
 
 .logo {
+  font-size: 1.2em;
   img {
     background: $white;
     border: 1px solid $gray;
@@ -468,27 +491,32 @@ figcaption {
   }
 }
 
-.logos,
-.logos,
-[class^="gallery-"] .logos {
+.logos {
   padding: 0 20px;
   border-bottom: 1px solid $primary;
-  margin: 0 auto 24px auto;
+  margin: 0 auto 8px auto;
   max-width: 1280px;
   align-items: center;
+  @include tablet {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  @include mobile {
+    grid-template-columns: 1fr 1fr;
+  }
   a {
     img {
-      background: transparent;
-      max-width: 100%;
-      @include mobile {
-        margin: 1em auto;
-        max-width: 300px;
+      width: 200px;
+    }
+    &:hover {
+      img {
+        box-shadow: none;
+        @include transition(none);
       }
     }
   }
   a:nth-child(2) img,
   a:nth-child(4) img {
-    width: 50%;
+    width: 120px;
   }
 
   @include mobile {
@@ -505,13 +533,27 @@ figcaption {
   }
 
   .book.columns {
-    width: 25em;
+    width: 50%;
     margin: 0;
+    @include mobile {
+      width: 100%;
+    }
     .column {
-      padding: 0.75em 0.75em 0.75em 0;
+      padding: 1% 5% 1% 0;
     }
     h3 {
       color: $secondary-dark;
+    }
+    a {
+      img {
+        height: auto;
+        width: 18em;
+      }
+      &:hover {
+        img {
+          border: 1px solid $primary-dark;
+        }
+      }
     }
     .book-buttons {
       margin-top: auto;
@@ -584,7 +626,11 @@ figcaption {
 .post-meta {
   font-size: 0.875em;
   font-style: italic;
-
+  a:hover {
+    text-decoration: none;
+    opacity: 1;
+    box-shadow: 1px 2px 4px darken($gray-dark, 20%);
+  }
   .tag.category-link {
     background: $white;
     color: $white;
@@ -602,12 +648,6 @@ figcaption {
 nav.post-meta {
   a {
     margin-right: 1em;
-  }
-}
-
-div.content {
-  img {
-    border: 1px solid $primary;
   }
 }
 
@@ -705,25 +745,28 @@ ul.social_media_block {
 // Box citation
 
 .box-citation {
-  border: 1px solid $primary;
-
-  p {
+  border: 3px double $primary-light;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 8px 16px;
+  margin-top: 60px;
+  h3 {
     font-weight: 700;
+    font-size: 16px;
+    width: 100%;
+    flex-basis: 100%;
   }
-
   // GN: partners requested not to have italics in the citation
   cite {
     font-style: normal;
+    font-size: 14px;
+    flex: 1;
+    margin-right: 20px;
   }
 
-  // copy icon
-  // TODO: might want to move this in the HTML once there is a copy button
-  // background: url(/assets/img/icons/font-awesome/copy.svg) top right no-repeat;
-  // background-origin: content-box;
-  // background-size: 20px;
-
   button {
-    float: right;
+    font-size: 14px;
   }
 }
 
@@ -768,7 +811,7 @@ nav.pagination {
 // Search page
 
 .control .input {
-  border-color: $secondary;
+  border-color: $gray-dark;
 }
 
 #search {
@@ -779,9 +822,11 @@ nav.pagination {
 
   .panel.is-info {
     .panel-heading {
-      background-color: $gray;
-      color: $primary-dark;
+      background-color: transparent;
+      color: $primary;
       margin-bottom: 0.5em;
+      border-bottom: 1px solid $primary;
+      padding: 4px;
     }
 
     .panel-block {
@@ -790,8 +835,12 @@ nav.pagination {
   }
 
   .search-results {
-    nav.pagination ul.pagination-list {
-      justify-content: flex-start;
+    nav.pagination {
+      background: transparent;
+      border-bottom: 1px solid $primary;
+      ul.pagination-list {
+        justify-content: flex-start;
+      }
     }
     &.updating {
       opacity: 0.2;
@@ -906,6 +955,13 @@ nav.pagination {
 
 // fedback
 
+.body-text-viewer:not(.viewer-print) .feedback {
+  // GN: lift the feedback button on the new viewer
+  // so it doesn't overlap the nvigation bar
+  // at the bottom of a panel.
+  bottom: 6em;
+}
+
 .feedback {
   position: fixed;
   bottom: 1.5em;
@@ -940,7 +996,7 @@ nav.pagination {
 
 .button {
   text-decoration: none;
-  box-shadow: 1px 2px 3px $gray-dark;
+  box-shadow: 1px 2px 3px $gray;
   border-radius: 8px;
   border: 0;
   padding: 0 16px;
@@ -966,19 +1022,20 @@ nav.pagination {
   background: $primary;
   color: $white;
   &:hover {
-    background: $secondary-dark;
+    background: $primary-dark;
+    opacity: 1;
+    box-shadow: 1px 2px 4px darken($gray-dark, 30%);
   }
 }
 
 .button.is-secondary {
   background: $white;
-  border: 1px solid $primary;
-  color: $primary;
+  border: 1px solid $secondary-dark;
+  color: $secondary-dark;
 
   &:hover {
-    border: 1px solid $secondary-dark;
-    color: $secondary-dark;
-    opacity: 0.9;
+    opacity: 0.8;
+    box-shadow: 1px 2px 4px darken($gray-dark, 20%);
   }
 }
 

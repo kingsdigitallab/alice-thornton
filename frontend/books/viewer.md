@@ -12,6 +12,8 @@ authors:
   - gnoel
 isContentHTML: true
 isPageFluid: true
+customCSS: "/assets/css/text-viewer.css"
+redirect: "/edition/"
 ---
 
 {% raw %}

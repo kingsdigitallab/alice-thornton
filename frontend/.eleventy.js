@@ -54,7 +54,11 @@ module.exports = function (config) {
       }
     });
     ret = Object.values(ret).sort((a, b) =>
-      a.name < b.name ? -1 : a.name == b.name ? 0 : 1
+      a.name.toLowerCase() < b.name.toLowerCase()
+        ? -1
+        : a.name.toLowerCase() == b.name.toLowerCase()
+        ? 0
+        : 1
     );
     return ret;
   });

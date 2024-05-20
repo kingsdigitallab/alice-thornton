@@ -50,6 +50,6 @@ if [[ $h1 != $h2 ]]; then
 fi
 
 # update tweets
-su - $GITUSER -c "cd $PROJECT_DIR && npm run tweets -w frontend"
+# su - $GITUSER -c "cd $PROJECT_DIR && npm run tweets -w frontend"
 
 echo "done"

@@ -1,11 +1,23 @@
 <!DOCTYPE html>
+<!-- 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+
+GN: NO LONGER USED.
+THE NEW VIEWER NOW USES THE BASE TEMPLATE.
+SEE base.liquid.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+
+ -->
 <html lang="en-GB">
   <head>
     <!-- TODO: share code base.liquid; don't copy it here (GN) -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}?ts={{ "now" | date: "%s" }}"> -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}?ts={{ "now" | date: "%s" }}">
     <link rel="stylesheet" href="{{ '/assets/css/text-viewer2.css' | url }}?ts={{ "now" | date: "%s" }}">
+    <link rel="stylesheet" href="{{ '/assets/node_modules/@fortawesome/fontawesome-free/css/all.css' | url }}">
     <!--<link rel="stylesheet" href="{{ '/assets/css/text-viewer.css' | url }}?ts={{ "now" | date: "%s" }}">-->
     <link
       rel="icon"
@@ -16,17 +28,26 @@
       window.metadata = {{ metadata.front_end|json }};
     </script>
   </head>
-  <body>
+  <body class="body-text-viewer">
     {% include "header.liquid" %}
-    <main id="text-viewer">
+    <section>
+      <div class="container">
+        
+          <h1 class="title">
+            {{ title }}
+          </h1>
+        
+    <section id="text-viewer">
       {{ content }}
-    </main>
-
+    </section>
+    </div>
+    </section>
     <script src="/assets/node_modules/vue/dist/vue.global.js"></script>
     <script src="/assets/node_modules/kdl-dts-client/index.js?ts={{ "now" | date: "%s" }}"></script>
     <script src="/assets/js/text-viewer.js?ts={{ "now" | date: "%s" }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
     
+    {% include "feedback_button.liquid" %}
   </body>
 </html>
 

@@ -56,6 +56,7 @@ function setUpTextViewer() {
         selection: {
           // which entity to highlight in the text
           highlightedText: "",
+          selectedPanelIndex: 0,
         },
         panels: [
           {
@@ -155,6 +156,41 @@ function setUpTextViewer() {
       hidePrintLink() {
         return window.metadata.text_viewer.hide_print_link;
       },
+      selectedPanel() {
+        return this.panels[this.selection.selectedPanelIndex];
+      },
+      drawerTitle() {
+        let ret = "";
+        let panel = this.selectedPanel;
+        if (panel) {
+          let pageNumber = panel.selections.locus.replace(/\D+/g, "");
+          ret = `${panel.selectors.document[panel.selections.document]}, ${
+            panel.selectors.view[panel.selections.view]
+          }, page ${pageNumber}`;
+          // selectedPanel.selections.document
+        }
+        return ret;
+      },
+      selectedPanelCitation() {
+        let panel = this.selectedPanel;
+        let ret = "";
+        if (panel) {
+          let format = { year: "numeric", month: "long", day: "numeric" };
+          let today = new Date().toLocaleDateString("en-GB", format);
+          let editors =
+            "Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noël, Tiffany Ong, Priyal Shah";
+          let book = panel.selectors.document[panel.selections.document];
+          let version = panel.selectors.view[panel.selections.view];
+          let pageNumber = panel.selections.locus.replace(/\D+/g, "");
+          let url = `https://thornton.kdl.kcl.ac.uk/edition/?${this.getQueryStringFromPanelIdx(
+            this.selection.selectedPanelIndex,
+            true
+          )}`;
+          // ret = `${editors}. '${book}, ${version} edition, p. ${pageNumber}'. Alice Thornton's Books. Accessed ${today}. ${url}`;
+          ret = `Alice Thornton, <em>${book}</em>, ${version} edition by ${editors}, ${pageNumber}. 2024. <br> ${url} (accessed ${today})`;
+        }
+        return ret;
+      },
     },
     methods: {
       clonePanel(panelIdx) {
@@ -165,7 +201,23 @@ function setUpTextViewer() {
       closePanel(panelIdx) {
         // Do not use delete, this will confuse Vue
         this.panels = this.panels.filter((p, idx) => idx != panelIdx);
+        if (this.selection.selectedPanelIndex == panelIdx) {
+          this.selection.selectedPanelIndex = 0;
+        }
+        this.$nextTick(() => {
+          // this.correctPopovers();
+        });
         this.setAddressBarFromSelection();
+      },
+      onClickInfo(panelIdx) {
+        this.selection.selectedPanelIndex = panelIdx;
+        this.$nextTick(() => {
+          // this.correctPopovers();
+        });
+      },
+      onClickCopyCitation() {
+        let citation = this.selectedPanelCitation;
+        navigator.clipboard.writeText(citation.replace(/<[^>]+>/g, ""));
       },
       isControlHidden(controlKey) {
         return (
@@ -265,7 +317,7 @@ function setUpTextViewer() {
             members.map((member) => {
               let ref = member["dts:ref"] || member["ref"];
               if (this.isLocusVisible(panel.selections.document, ref)) {
-                panel.selectors.locus[ref] = ref;
+                panel.selectors.locus[ref] = ref.replace(/\D+/g, "");
               }
             });
           }
@@ -309,8 +361,14 @@ function setUpTextViewer() {
         panel.selections.extent = extent;
         this.loadDocument(panel);
       },
-      getPrintURL(panelIdx) {
-        return `../print/?${this.getQueryStringFromPanelIdx(panelIdx)}`;
+      getPrintURL(panelIdx = null) {
+        if (panelIdx == null) {
+          panelIdx = this.selection.selectedPanelIndex;
+        }
+        return `/edition/print/?${this.getQueryStringFromPanelIdx(
+          panelIdx,
+          true
+        )}`;
       },
       async loadDocument(panel) {
         // panel.responses.document = `Loading ${locus}...`;
@@ -325,13 +383,28 @@ function setUpTextViewer() {
               panel,
               "documents",
               panel.selections.document,
-              panel.selectors.locus[locusIndexToFetch],
+              //panel.selectors.locus[locusIndexToFetch],
+              locusIndexToFetch,
               "html"
             );
           }
           panel.responses.document = document;
           this.postProcessDocument(panel);
           this.setAddressBarFromSelection();
+
+          // scroll to top of that panel
+          if (!this.isPrint) {
+            for (let panelIdx = 0; panelIdx < this.panels.length; panelIdx++) {
+              if (this.panels[panelIdx] == panel) {
+                let panelDOM = window.document.querySelectorAll(
+                  `.panel-wrapper .panel-chunk`
+                )[panelIdx];
+                if (panelDOM) {
+                  panelDOM.scrollTop = 0;
+                }
+              }
+            }
+          }
         }
       },
       postProcessDocument(panel) {
@@ -352,6 +425,86 @@ function setUpTextViewer() {
 
         // EVENTS
         this.addEventsToTexts();
+      },
+      correctPopovers() {
+        this.$nextTick(() => {
+          let popovers = document.querySelectorAll(".info-box");
+          for (let popover of popovers) {
+            this.correctPopover(popover);
+          }
+        });
+      },
+      correctPopover(popover, event) {
+        // fix the popover above all other elements
+        // under the cursor
+        let popoverContainer = popover.closest(".has-info-box");
+        if (popoverContainer) {
+          let prect = popover.getBoundingClientRect();
+          popover.style.cssText = "";
+          popover.style.position = "fixed";
+          popover.style["margin-top"] = "1em";
+          let rect = popoverContainer.getBoundingClientRect();
+          let mousex = 0;
+          let mousey = 0;
+          if (event) {
+            mousex = event.clientX;
+            mousey = event.clientY;
+          } else {
+            mousex = rect.left + rect.width / 2;
+            mousey = rect.top;
+          }
+          //
+          let beyondRightEdge = mousex + prect.width - window.innerWidth;
+          if (beyondRightEdge > 0) {
+            // clip to right edge if it goes beyond
+            mousex -= beyondRightEdge;
+          }
+          if (mousex < 0) {
+            // narrows if crosses left edge
+            mousex = 0;
+            popover.style.width = `${window.innerWidth}px`;
+          }
+          let beyondBottomEdge = mousey + prect.height - window.innerHeight;
+          if (beyondBottomEdge > 0) {
+            mousey -= prect.height;
+            popover.style["margin-top"] = "-1em";
+          }
+          popover.style.top = `calc(${mousey}px)`;
+          popover.style.left = `calc(${mousex}px)`;
+          popover.style.transform = "none";
+          popover.style["z-index"] = "1000";
+          // console.log(popover);
+        }
+      },
+      correctPopover0(popover) {
+        // abandonned: b/c not enough space within narrow panel
+        /* correct the absolute positioning of a popover span element
+        so it fits within its panel.
+        This is done by adjusting the left position & the width.
+        */
+        let margin = 10;
+        popover.style.cssText = "";
+        popover.style.display = "inline-block";
+        let container = popover.closest(".panel-chunk");
+        // let container = popover.closest("body");
+        let inRect = popover.getBoundingClientRect();
+        let outRect = container.getBoundingClientRect();
+        // left border
+        let diff = outRect.left + margin - inRect.left;
+        if (diff > 0) {
+          // console.log(popover, diff)
+          popover.style.right = `calc(50% - ${diff}px)`;
+          inRect = popover.getBoundingClientRect();
+        }
+        // right border
+        diff = inRect.right - outRect.right + margin;
+        if (diff > 0) {
+          // console.log(popover, diff)
+          popover.style.maxWidth = `calc(20em - ${diff}px)`;
+          popover.style.transform = `translateX(calc(50% - ${diff / 1}px))`;
+          // popover.setAttribute('data-diff-right', diff)
+        }
+        popover.style.display = "";
       },
       addEventsToTexts() {
         // add the javascript events to all loaded texts
@@ -377,27 +530,40 @@ function setUpTextViewer() {
           });
 
           // We set a hover class on hover.
-          // fixes the bug where hover on nested info-box
+          // fixes the bug where hover on nested info-box containers
           // would trigger :hover selector on both boxes
           // and they would overlap.
-          const withInfoBox = window.document.querySelectorAll(".has-info-box");
+          const infoBoxContainers =
+            window.document.querySelectorAll(".has-info-box");
 
-          withInfoBox.forEach((element) => {
-            if (element.classList.contains("managed")) return;
-            let closestInfoBoxContainer =
-              element.parentElement.closest(".has-info-box");
+          infoBoxContainers.forEach((infoBoxContainer) => {
+            if (infoBoxContainer.classList.contains("managed")) return;
+            let parentInfoBoxContainer =
+              infoBoxContainer.parentElement.closest(".has-info-box");
 
-            if (closestInfoBoxContainer) {
-              element.addEventListener("mouseenter", () => {
+            if (parentInfoBoxContainer) {
+              infoBoxContainer.addEventListener("mouseenter", () => {
                 // set child-hovered class on .has-info-box ancestors
-                closestInfoBoxContainer.classList.add(CHILD_HOVERED_CLASS);
+                parentInfoBoxContainer.classList.add(CHILD_HOVERED_CLASS);
               });
-              element.addEventListener("mouseleave", () => {
+              infoBoxContainer.addEventListener("mouseleave", () => {
                 // unset hover-parent class on .has-info-box ancestors
-                closestInfoBoxContainer.classList.remove(CHILD_HOVERED_CLASS);
+                parentInfoBoxContainer.classList.remove(CHILD_HOVERED_CLASS);
               });
             }
-            element.classList.add("managed");
+            infoBoxContainer.classList.add("managed");
+
+            // correct the position of the info-box on hover
+
+            infoBoxContainer.addEventListener("mouseenter", (event) => {
+              // set child-hovered class on .has-info-box ancestors
+              for (let popOver of infoBoxContainer.querySelectorAll(
+                ".info-box"
+              )) {
+                // console.log(popOver)
+                this.correctPopover(popOver, event);
+              }
+            });
           });
 
           // TODO: attach events only to current panel
@@ -418,6 +584,8 @@ function setUpTextViewer() {
             }
             btn.classList.add("managed");
           });
+
+          this.correctPopovers();
         });
       },
       selectDefaultOption(panel, key) {
@@ -483,16 +651,19 @@ function setUpTextViewer() {
             history.pushState(null, "", newRelativePathQuery);
           }
           if (this.navigationCause == "landing") {
-            console.log(`REPLACE state: ${newRelativePathQuery}`);
+            // console.log(`REPLACE state: ${newRelativePathQuery}`);
             history.replaceState(null, "", newRelativePathQuery);
           }
           // document.title = newRelativePathQuery
           this.setPageTitle();
         }
       },
-      getQueryStringFromPanelIdx(panelIdx) {
+      getQueryStringFromPanelIdx(panelIdx, ignoreOtherPanels = false) {
         let ret = "";
         let panel = this.panels[panelIdx];
+        if (ignoreOtherPanels) {
+          panelIdx = 0;
+        }
         for (let k of Object.keys(this.controls)) {
           if (k.startsWith("_")) continue;
           if (
@@ -616,7 +787,7 @@ function setUpTextViewer() {
   });
   app.component("panel-control", PanelControl);
   // app.component('c1', c1)
-  app.mount("#text-viewer");
+  window.viewer = app.mount("#text-viewer");
 }
 
 setUpTextViewer();

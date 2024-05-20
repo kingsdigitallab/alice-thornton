@@ -8,7 +8,7 @@ module.exports = {
   context: (data) => data,
   date: (data) => data.page.date,
   slug: (data) => data.page.fileSlug,
-  body_class: (data) => {
+  bodyClass: (data) => {
     let ret = "";
     if (data.tags) {
       for (let tag of data.tags) {
