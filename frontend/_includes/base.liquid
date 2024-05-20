@@ -7,6 +7,7 @@ hideTitle: false
 hideCitation: false
 isCustomContent: false
 customBodyClasses: ""
+redirect: null
 ---
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -15,6 +16,11 @@ customBodyClasses: ""
     <!-- Built with 11ty - {{ "now" | date: "%Y-%m-%d %H:%M" }} -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="King's Digital Lab, King's College London">
+    {% if redirect %}
+    <script>
+      window.location = "{{redirect}}?" + (location.search);
+    </script>
+    {% endif %}
     {% if description %}<meta name="description" content="{{ description | escape_once }}">{% endif %}
     {% comment %}Twitter cards{% endcomment %}
     {% comment %} 
