@@ -17,4 +17,19 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 ## Dating
 
-## Contents
+## Contents 
+
+A Prayer of the Widow to the God of Mercy and Love for His Holy Spirit to support and direct Herself and Family <br/>
+Jeremiah (Chapter 10th, verses 23rd, 24th) <br/>
+An Account of Memorable Affairs and Accidents on Myself and Family and Children, with Deliverances and Meditations thereon since My Widowed Condition, since September 17th 1668 <br/>
+A Relation of Memorable Actions and Afflictions befallen to Me in the First Year of My Widowed Condition since September 17, 1668 <br/>
+My Widow's Prayer and Petitions to Heaven <br/>
+The Remarkable Passages of My Life with My Three Children and of the Afflictions, Trials, Providences, Mercies and Deliverances Received from God since the Death of My Dear Husband. The First Year of My Widowhood Condition since September 17th, 1668 <br/>
+The First Great and Excellent Goodness of Our Gracious God to Myself in My Preservation in Life from the Death of My Dear Husband's Loss and the Cursed Slanders of My Enemies and those Piercing Griefs which Followed My Desolate Condition <br/>
+A Collection of Letters, Papers and Verses of His Request and Court to My Daughter Alice, before and at York, and since She Returned Home from Learning Qualities with Her Sister, Kate, in the Year 1666 <br/>
+A Collection of My Friends' Letters upon the Death of My Dear and Honoured Husband in Comforting Me for His Loss and My Great Afflictions <br/>
+November 17th, 1668. Letters Received from Many Friends in Order to Comforting Me in My Sad Sorrows and Afflictions and Vindication of the Marriage Showing the Causes and Prudence of this Disposal of My Daughter Alice to Mr Comber since the Marriage. Together with Copies of My Own to Many of My Friends to Satisfy Those of Them at a Distance of the Honest and Prudent Acting in this Concern by My Friends <br/>
+These Following Letters and Account of My Actions and Friends' Letters upon My Slanders and Sorrows still Followed against Me and Spread Lies by Mrs Danby's Tongue and Continued Malice after the Publication of My Daughter's Marriage, which was Done with a Great Solemnity and Regard. May the 17th, 1669 <br/>
+
+
+
