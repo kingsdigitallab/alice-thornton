@@ -155,14 +155,14 @@ eleventyNavigation:
         </label>
         <div class="content">
           <h2>Citation</h2>
-          <p>Cite the Research team that worked on this page of the digital edition</p>
+          <!-- <p>Cite the Research team that worked on this page of the digital edition</p> -->
           <div class="citation">
             <p v-html="selectedPanelCitation"></p>
             <button class="button is-secondary" @click="onClickCopyCitation()"><i class="far fa-copy"></i> &nbsp;
               Copy</button>
           </div>
-          <br>
-          <p>Other contributors include the Solution Development Team on our <a href="/about/">About Page</a>.</p>
+          <!-- <br> -->
+          <!-- <p>Other contributors include the Solution Development Team on our <a href="/about/">About Page</a>.</p> -->
         </div>
       </div>
       <div class="tab" v-if="!hidePrintLink">
