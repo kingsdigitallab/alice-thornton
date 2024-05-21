@@ -18,7 +18,9 @@ redirect: null
     <meta name="author" content="King's Digital Lab, King's College London">
     {% if redirect %}
     <script>
-      window.location = "{{redirect}}?" + (location.search);
+      let newLocation = "{{redirect}}" + (location.search);
+      // console.log(newLocation);
+      window.location = newLocation;
     </script>
     {% endif %}
     {% if description %}<meta name="description" content="{{ description | escape_once }}">{% endif %}
