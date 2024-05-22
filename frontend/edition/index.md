@@ -18,6 +18,7 @@ customCSS: "/assets/css/text-viewer2.css"
 customBodyClasses: "body-text-viewer"
 eleventyNavigation:
   key: Edition
+  url: /edition/?p0.vi=modern
   order: 3
 ---
 
