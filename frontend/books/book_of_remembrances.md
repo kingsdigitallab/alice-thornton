@@ -65,8 +65,8 @@ Anselment notes that this volume cannot ‘be dated with any certainty’.[^1] A
 [His Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.42&p0.vi=modern) <br/>
 [Meditations](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.44&p0.vi=modern) <br/>
 [My Dangerous Sickness, 1661, when I was Preserved from the Temptation of Satan to Despair](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.45&p0.vi=modern) <br/>
-[My Prayers and Meditations thereupon on St Matthew 11: 27, 28, et cetera](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.48&p0.vi=modern) <br/> 
-[The Recovery of My Health](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.54&p0.vi=modern) <br/> 
+[My Prayers and Meditations thereupon on St Matthew 11: 27, 28, et cetera](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.48&p0.vi=modern) <br/>
+[The Recovery of My Health](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.54&p0.vi=modern) <br/>
 [Mr Thornton's Preservation and Mine](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.55&p0.vi=modern) <br/>
 [Considerations thereupon](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.60&p0.vi=modern) <br/>
 [Deliverance from Grief on Nettleton's Bailiffs Coming](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.63&p0.vi=modern) <br/>
