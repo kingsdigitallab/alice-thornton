@@ -4,23 +4,23 @@ title: Book Three
 bookOrder: 4
 holdingArchive: British Library
 itemLocation: Add. MS 88897/2
-numberOfPages: 216
+numberOfPages: 217
 dateCreated: c.1692-96
 image: /assets/img/books/Book3FrontCover.jpg
 archivedAt: https://searcharchives.bl.uk/primo-explore/fulldisplay?docid=IAMS032-000000125&context=L&vid=IAMS_VU2&search_scope=LSCOP_BL&tab=local&lang=en_US
 contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/texts/03_book_three/book_three.xml
 ---
-## Description (COMING SOON)
+## Description (Coming soon)
 
 
 
-## Provenance
+## Provenance (Coming soon)
 
 
 
 ## Dating
 
-
+The book covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1692-6. In the text Thornton refers to the fact that her only son to live to adulthood had died, an event which happened in 1692 (page 152). There is also a marginal comment on page 31, noting that it had been 52 years since the Battle of Marston Moor (1644), which gives a date of 1696.
 
 ## Contents 
 
