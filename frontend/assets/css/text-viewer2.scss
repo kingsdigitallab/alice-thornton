@@ -982,7 +982,8 @@ $render-sic: false;
 #text-viewer .panel-chunk {
   overflow: scroll;
   height: calc(90vh - 120px);
-  margin: 40px 20px 0 20px;
+  margin: 40px 0 0 0;
+  display:flex;
 }
 
 #text-viewer {
@@ -1034,16 +1035,18 @@ $render-sic: false;
 // GN: placeholders for customasing the rendering of the editions
 // and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
-  margin-left: 5em;
+  margin-left: 60px;
   // at least two clear lines gap between bottom of text and page number
   padding-top: $edition-line-height;
   padding-bottom: calc($edition-line-height * 2);
   position: relative;
-  padding: 0 3% 40px 0;
+  padding: 0 0 40px 0;
   opacity: 30%;
   min-height: calc(100% - 80px);
   position: relative;
   display: flex;
+  overflow: scroll;
+  width:100%;
   &.loaded {
     opacity: 100%;
   }
@@ -1066,7 +1069,7 @@ $render-sic: false;
     justify-content: center;
   }
   &.view-modern {
-    max-width: 800px;
+    padding-right:60px;
   }
 
   span[data-tei-unit="char"] .missing-content-message {
