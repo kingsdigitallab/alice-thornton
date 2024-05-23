@@ -855,10 +855,15 @@ point to <category> elements or to feature structure components.
 
         <div xml:id="div-014">
             <fw type="pageNum"> 14 </fw><lb/>
-            <fw type="header"> <date when-custom="1636/1638"><choice><abbr>36</abbr><expan>1636</expan></choice>, <choice><abbr>37</abbr><expan>1637</expan></choice>, <choice><abbr>38</abbr><expan>1638</expan></choice><surplus reason="superfluous">.</surplus></date></fw><lb/>
-        <!-- NOTE header is not a section title -->
+            <head rend="post(rule)"> 
+            <!--Q to review how this looks. might need p tags.
+                <fw type="header">--> 
+                <date when-custom="1636/1638"><choice><abbr>36</abbr><expan>1636</expan></choice>, <choice><abbr>37</abbr><expan>1637</expan></choice>, <choice><abbr>38</abbr><expan>1638</expan></choice><surplus reason="superfluous">.</surplus></date>
+                <!--</fw>-->
+                <lb/>
         
-            <head rend="post(rule)"> A <w norm="Deliverance" type="u">deliverance</w> from a <w norm="Fire" type="u">fire</w> <w norm="and">&amp;</w> <w norm="Other" type="u">other</w> <w norm="Remarkables" type="u">remarkables</w><surplus reason="superfluous">.</surplus></head>
+                A <w norm="Deliverance" type="u">deliverance</w> from a <w norm="Fire" type="u">fire</w> <w norm="and">&amp;</w> <w norm="Other" type="u">other</w> <w norm="Remarkables" type="u">remarkables</w><surplus reason="superfluous">.</surplus>
+            </head>
             <!-- NOTE [dates] undated both here and BoR, apart from page headings, so use those. -->
             <p xml:id="p-0031">
                 <milestone spanTo="#ev9-end" xml:id="ev9-start" n="ev9" unit="event"/>
