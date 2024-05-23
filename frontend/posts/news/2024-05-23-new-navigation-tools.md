@@ -1,7 +1,7 @@
 ---
 title: "New Navigation Tools: Direct Access to Edition, Changes to Viewer and List of Contents."
 feature: /assets/img/posts/new_viewer.jpg 
-status: draft
+status: live
 authors:
   - strill
 tags:
