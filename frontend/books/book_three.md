@@ -13,15 +13,11 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 ## Description (Coming soon)
 
-
-
 ## Provenance (Coming soon)
-
-
 
 ## Dating
 
-*Book 3* covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1692-6. In the text Thornton refers to the fact that her only son to live to adulthood had died, an event which happened on 5 June 1692 (page 152). There is also a marginal comment on page 31, noting that it had been 52 years since the Battle of Marston Moor (1644), which gives a date of 1696.
+_Book 3_ covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1692-6. In the text Thornton refers to the fact that her only son to live to adulthood had died, an event which happened on 5 June 1692 (page 152). There is also a marginal comment on page 31, noting that it had been 52 years since the Battle of Marston Moor (1644), which gives a date of 1696.
 
 ## Contents
 
