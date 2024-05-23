@@ -1,5 +1,5 @@
 ---
-title: "New Navigation Tools: Direct Access to Edition, Changes to Viewer and List of Contents."
+title: "New Navigation Tools: Direct Access to Edition, Changes to Viewer and List of Contents"
 feature: /assets/img/posts/new_viewer.jpeg 
 status: live
 authors:
