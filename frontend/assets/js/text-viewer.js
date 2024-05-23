@@ -2,11 +2,25 @@ const { createApp } = window.Vue;
 
 const CHILD_HOVERED_CLASS = "child-hovered";
 // This should ideally come from the frontmatter of the book pages
-const BOOK_DATES = {
-  book_of_remembrances: "c.1659-73",
-  book_one: "c.1668-86",
-  book_two: "c.1669-81",
-  book_three: "c.1692-96",
+const BOOK_EDITORS =
+  "Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noël, Tiffany Ong and Priyal Shah";
+const BOOKS_META = {
+  book_of_remembrances: {
+    title: "Book of Remembrances",
+    date: "c.1659-73",
+  },
+  book_one: {
+    title: "Book 1: The First Book of My Life",
+    date: "c.1668-87",
+  },
+  book_two: {
+    title: "Book 2: The First Book of My Widowed Condition",
+    date: "c.1685-95",
+  },
+  book_three: {
+    title: "Book 3: The Second Book of My Widowed Condition",
+    date: "c.1692-6",
+  },
 };
 
 function setUpTextViewer() {
@@ -184,19 +198,20 @@ function setUpTextViewer() {
         if (panel) {
           let format = { year: "numeric", month: "long", day: "numeric" };
           let today = new Date().toLocaleDateString("en-GB", format);
-          let editors =
-            "Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noël, Tiffany Ong and Priyal Shah";
+          let editors = BOOK_EDITORS;
           let book = panel.selectors.document[panel.selections.document];
-          let bookDate = BOOK_DATES[panel.selections.document];
-          let version = panel.selectors.view[panel.selections.view];
-          let pageNumber = panel.selections.locus.replace(/\D+/g, "");
-          let url = `https://thornton.kdl.kcl.ac.uk/edition/?${this.getQueryStringFromPanelIdx(
-            this.selection.selectedPanelIndex,
-            true
-          )}`;
-          // ret = `${editors}. '${book}, ${version} edition, p. ${pageNumber}'. Alice Thornton's Books. Accessed ${today}. ${url}`;
-          // ret = `Alice Thornton, <em>${book}</em>, ${version} edition by ${editors}, ${pageNumber}. 2024. <br> ${url} (accessed ${today})`;
-          ret = `Alice Thornton, <em>${book}</em>. ${bookDate}. ${version} edition by ${editors}, 2024, ${pageNumber}.<br> ${url} (accessed ${today}). `;
+          if (book) {
+            let bookMeta = BOOKS_META[panel.selections.document];
+            let version = panel.selectors.view[panel.selections.view];
+            let pageNumber = panel.selections.locus.replace(/\D+/g, "");
+            let url = `https://thornton.kdl.kcl.ac.uk/edition/?${this.getQueryStringFromPanelIdx(
+              this.selection.selectedPanelIndex,
+              true
+            )}`;
+            // ret = `${editors}. '${book}, ${version} edition, p. ${pageNumber}'. Alice Thornton's Books. Accessed ${today}. ${url}`;
+            // ret = `Alice Thornton, <em>${book}</em>, ${version} edition by ${editors}, ${pageNumber}. 2024. <br> ${url} (accessed ${today})`;
+            ret = `Alice Thornton, <em>${bookMeta.title}</em>. ${bookMeta.date}. ${version} edition by ${editors}, 2024, ${pageNumber}.<br> ${url} (accessed ${today}). `;
+          }
         }
         return ret;
       },
