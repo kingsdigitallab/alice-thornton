@@ -22,7 +22,7 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 ## Dating
 
-Evidence from Book 3 suggests that she had enough of her ‘book of my life’ to circulate in late 1668 (page 196); Thornton also notes that she was writing in this book, about her widowhood, in March 1669 (page 179). If the ‘scandal’ was a key prompt for the writing of this book, then a dating of c.1668-9 works for the majority of the volume. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 (page 292).
+Evidence from *Book 3* suggests that she had enough of her ‘book of my life’ to circulate in late 1668 (page 196); Thornton also notes that she was writing in that book, about her widowhood, in March 1669 (page 179). If the ‘scandal’ was a key prompt for the writing of *Book 1*, then a dating of c.1668-9 works for the majority of the volume. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 (page 292).
 
 ## Contents 
 
