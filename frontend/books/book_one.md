@@ -4,20 +4,28 @@ title: Book One
 bookOrder: 2
 holdingArchive: British Library
 itemLocation: Add. MS 88897/1
-numberOfPages: 303
-dateCreated: c.1668-86
+numberOfPages: 309
+dateCreated: c.1668-87
 image: /assets/img/books/Book1FrontCover.jpg
 archivedAt: https://searcharchives.bl.uk/primo-explore/fulldisplay?docid=IAMS032-000000125&context=L&vid=IAMS_VU2&search_scope=LSCOP_BL&tab=local&lang=en_US
 contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/texts/01_book_one/book_one.xml
 ---
 
-## Description (COMING SOON)
 
-## Provenance
+## Description (COMING SOON)
+## Description (Coming soon)
+
+
+
+## Provenance (Coming soon)
+
+
 
 ## Dating
 
-## Contents
+Evidence from *Book 3* suggests that she had enough of her ‘book of my life’ to circulate in late 1668 (page 196); Thornton also notes that she was writing in that book, about her widowhood, in March 1669 (page 179). If the ‘scandal’ was a key prompt for the writing of *Book 1*, then a dating of c.1668-9 works for the majority of the volume. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 (page 292).
+
+## Contents 
 
 Bishop Hall's Observations <br/>
 A Prayer, the Dedication <br/>

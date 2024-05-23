@@ -5,17 +5,22 @@ bookOrder: 3
 holdingArchive: Durham Cathedral Library
 itemLocation: GB-0033-CCOM 7
 numberOfPages: 293
-dateCreated: c.1669-81
+dateCreated: c.1685-95
 image: /assets/img/books/Book2FrontCover.jpg
 archivedAt: https://reed.dur.ac.uk/xtf/view?docId=ark/32150_s2hm50tr76x.xml;query=2022#comber-3
 contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/texts/02_book_two/book_two.xml
 ---
+## Description (Coming soon)
 
-## Description (COMING SOON)
 
-## Provenance
+
+## Provenance (Coming soon)
+
+
 
 ## Dating
+
+*Book 2* covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1685-95. There is a reference to her brother Christopher’s grandchildren (he had two by c.1685) on page 105, which gives our earliest date. Thornton also notes that most of the people who spread rumours about her in 1668 were now dead which was most likely the case by 1695 (page 292). It is referenced in *Book 3* (pages 82, 99, 132), which indicates it was written first and therefore finished by c.1695. 
 
 ## Contents
 
