@@ -12,7 +12,6 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 ---
 
 
-## Description (COMING SOON)
 ## Description (Coming soon)
 
 
