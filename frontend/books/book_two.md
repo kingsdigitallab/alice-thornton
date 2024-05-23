@@ -20,7 +20,7 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 ## Dating
 
-The book covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1685-95. There is a reference to her brother Christopher’s grandchildren (he had two by c.1685) on page 105, which gives the earliest possible date for composition. Thornton also notes that most of the people who spread rumours about her in 1668 were now dead which was more likely the case by 1695 (page 292). It is referenced in Book 3 (pages 82, 99, 132), which indicates it was written first and therefore finished by c.1695. 
+*Book 2* covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1685-95. There is a reference to her brother Christopher’s grandchildren (he had two by c.1685) on page 105, which gives our earliest date. Thornton also notes that most of the people who spread rumours about her in 1668 were now dead which was most likely the case by 1695 (page 292). It is referenced in *Book 3* (pages 82, 99, 132), which indicates it was written first and therefore finished by c.1695. 
 
 ## Contents 
 
