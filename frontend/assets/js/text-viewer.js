@@ -275,7 +275,8 @@ function setUpTextViewer() {
           // we have to copy front-part, insert new collections, then
           // copy rest...
           // 1. copy existing list
-          let copy = { ...panel.selectors.collection };
+          // let copy = { ...panel.selectors.collection };
+          let copy = Object.assign({}, panel.selectors.collection);
           panel.selectors.collection = {};
           let parentId = panel.responses.collection["@id"];
           for (let cid of Object.keys(copy)) {
