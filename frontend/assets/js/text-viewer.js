@@ -200,8 +200,8 @@ function setUpTextViewer() {
           let today = new Date().toLocaleDateString("en-GB", format);
           let editors = BOOK_EDITORS;
           let book = panel.selectors.document[panel.selections.document];
-          if (book) {
-            let bookMeta = BOOKS_META[panel.selections.document];
+          let bookMeta = BOOKS_META[panel.selections.document];
+          if (book && bookMeta) {
             let version = panel.selectors.view[panel.selections.view];
             let pageNumber = panel.selections.locus.replace(/\D+/g, "");
             let url = `https://thornton.kdl.kcl.ac.uk/edition/?${this.getQueryStringFromPanelIdx(
@@ -426,6 +426,7 @@ function setUpTextViewer() {
                 )[panelIdx];
                 if (panelDOM) {
                   panelDOM.scrollTop = 0;
+                  // window.p = panelDOM
                 }
               }
             }
