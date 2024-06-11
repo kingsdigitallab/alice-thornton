@@ -63,7 +63,9 @@ Example:
             "type": "person",
             "id": "ppl:<xsl:value-of select='@xml:id'/>",
             <xsl:if test="tei:persName/tei:surname[1]">"sortkey": "<xsl:value-of select='normalize-space(tei:persName/tei:surname[1]/text())'/>-<xsl:value-of select='normalize-space(tei:persName/tei:forename/text())'/>-<xsl:value-of select="normalize-space(replace(tei:birth/@when-custom, '\D', ''))"/>",
-            "search": "<xsl:value-of select='normalize-space(tei:persName/tei:surname[1]/text())'/>&#160;<xsl:value-of select='normalize-space(tei:persName/tei:surname[2]/text())'/>&#160;<xsl:value-of select='normalize-space(tei:persName/tei:forename/text())'/>&#160;_ppl_<xsl:value-of select='@xml:id'/>",</xsl:if>
+            <!-- 11/06/2024: added label bc the title (Lady) should be searchable. Labal is partially rundundant with fore+surenames. -->
+            <!-- Regexp is to remove bracketed content from title which may contain words or abbreviations (c.1630-1702) -->
+            "search": "<xsl:value-of select='normalize-space(tei:persName/tei:surname[1]/text())'/>&#160;<xsl:value-of select='normalize-space(tei:persName/tei:surname[2]/text())'/>&#160;<xsl:value-of select='normalize-space(tei:persName/tei:forename/text())'/>&#160;<xsl:value-of select='replace(normalize-space(tei:persName[@type="label"]/text()), "\(.*", "")'/>&#160;_ppl_<xsl:value-of select='@xml:id'/>",</xsl:if>
             "title": "<xsl:value-of select='normalize-space(tei:persName[@type="label"]/text())'/>",
             "bio": "<xsl:value-of select="normalize-space(tei:noteGrp/tei:note[@type='bio']/text())"/>",
             "pages": {<xsl:call-template name='insertBooksPages'><xsl:with-param name="entity" select="."/><xsl:with-param name="entityPrefix" select="'ppl:'"/></xsl:call-template>}
