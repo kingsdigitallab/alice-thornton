@@ -34,7 +34,7 @@ The text of all four manuscript volumes will be available to read in both fully 
   {%- endfor -%}
 </div>
 
-Although we are not digitising the manuscripts, we will provide some sample images from each of the volumes to offer a sense of how the original materials looked.
+Although we are not digitising the manuscripts, we will provide some sample images from each of the volumes to offer a sense of how the original materials look.
 
 You can now access our [partial release](/books/viewer/?p0.vi=modern) of 103 pages from one book, in both semi-diplomatic and modernised versions. See also our first release of the [search function](/entities/).
 
