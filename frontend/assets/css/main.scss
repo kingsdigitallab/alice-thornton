@@ -567,6 +567,26 @@ figcaption {
   }
 }
 
+.book-preview {
+  .bookshelf {
+    .book.columns {
+      width: 32%;
+      @include mobile {
+        width: 100%;
+
+        a img {
+          // GN: keep thumbs small on mobile
+          max-height: 15em;
+          width: auto;
+        }
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+    }
+  }
+}
+
 .navbar {
   background-color: $primary;
   color: $gray;
