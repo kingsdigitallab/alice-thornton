@@ -1094,6 +1094,13 @@ $render-sic: false;
 
   // -----
 
+  a:focus {
+    // without this a focused link in the popover gets a blank line before & after
+    border: none;
+  }
+
+  // -----
+
   &.view-modern {
     br {
       display: none;
