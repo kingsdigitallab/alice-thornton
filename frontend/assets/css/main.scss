@@ -537,6 +537,9 @@ figcaption {
     margin: 0;
     @include mobile {
       width: 100%;
+      .is-half img{
+        width: 100%;
+      }
     }
     .column {
       padding: 1% 5% 1% 0;
@@ -582,6 +585,25 @@ figcaption {
       }
       h3 {
         font-size: 1.1em;
+      }
+    }
+  }
+}
+.books{
+  .bookshelf { 
+    .book.columns{
+      @include tablet {
+        width: 50%;
+      }
+      @include mobile {
+        width: 100%;
+      }
+      .is-half{
+        img{
+          width: 100%;
+          height:auto;
+          max-height: none;
+        }
       }
     }
   }
