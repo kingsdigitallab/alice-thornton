@@ -452,14 +452,14 @@ function setUpTextViewer() {
         // EVENTS
         this.addEventsToTexts();
       },
-      correctPopovers() {
-        this.$nextTick(() => {
-          let popovers = document.querySelectorAll(".info-box");
-          for (let popover of popovers) {
-            this.correctPopover(popover);
-          }
-        });
-      },
+      // correctPopovers() {
+      //   this.$nextTick(() => {
+      //     let popovers = document.querySelectorAll(".info-box");
+      //     for (let popover of popovers) {
+      //       this.correctPopover(popover);
+      //     }
+      //   });
+      // },
       correctPopover(popover, event) {
         // fix the popover above all other elements
         // under the cursor
@@ -468,38 +468,61 @@ function setUpTextViewer() {
           let prect = popover.getBoundingClientRect();
           popover.style.cssText = "";
           popover.style.position = "fixed";
-          popover.style["margin-top"] = "1em";
-          let rect = popoverContainer.getBoundingClientRect();
+          popover.style["margin-top"] = "0em";
+
           let mousex = 0;
           let mousey = 0;
-          if (event) {
-            mousex = event.clientX;
-            mousey = event.clientY;
-          } else {
-            mousex = rect.left + rect.width / 2;
-            mousey = rect.top;
+          let rect = popoverContainer.getBoundingClientRect();
+          let rects = popoverContainer.getClientRects();
+          if (rects) {
+            rect = rects[0];
+            if (event) {
+              // find the rectangle the mouse is hovering.
+              // b/c it can be a multiline span.
+              for (let arect of rects) {
+                if (
+                  event.clientY >= arect.top &&
+                  event.clientY <= arect.bottom
+                ) {
+                  rect = arect;
+                }
+              }
+            }
           }
-          //
+          // Default popover top-left corner =
+          // 20px left of the mouse pointer
+          // bottom of the hovered line of text
+          if (rect) {
+            if (event) {
+              mousex = event.clientX - 20;
+            } else {
+              mousex = rect.left + rect.width / 2;
+            }
+            mousey = rect.bottom;
+          }
+          if (mousex < 0) mousex = 0;
+
+          // Does popover cross left edge of window?
           let beyondRightEdge = mousex + prect.width - window.innerWidth;
           if (beyondRightEdge > 0) {
             // clip to right edge if it goes beyond
             mousex -= beyondRightEdge;
+            if (mousex < 0) {
+              // narrows if crosses left edge
+              mousex = 0;
+              popover.style.width = `${window.innerWidth}px`;
+            }
           }
-          if (mousex < 0) {
-            // narrows if crosses left edge
-            mousex = 0;
-            popover.style.width = `${window.innerWidth}px`;
-          }
+          // Does popover cross bottom edge of window?
           let beyondBottomEdge = mousey + prect.height - window.innerHeight;
           if (beyondBottomEdge > 0) {
-            mousey -= prect.height;
-            popover.style["margin-top"] = "-1em";
+            // show it above the hovered line of text
+            mousey = rect.top - prect.height;
           }
           popover.style.top = `calc(${mousey}px)`;
           popover.style.left = `calc(${mousex}px)`;
           popover.style.transform = "none";
           popover.style["z-index"] = "1000";
-          // console.log(popover);
         }
       },
       correctPopover0(popover) {
@@ -611,7 +634,7 @@ function setUpTextViewer() {
             btn.classList.add("managed");
           });
 
-          this.correctPopovers();
+          // this.correctPopovers();
         });
       },
       selectDefaultOption(panel, key) {
