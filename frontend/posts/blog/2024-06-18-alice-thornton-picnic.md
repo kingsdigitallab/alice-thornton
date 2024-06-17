@@ -29,7 +29,7 @@ Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain grou
 
 ## Health and Herbal Remedies in the 17th Century
 
-There were two opportunities to meet and hear from Cordelia Beattie Jo Edge. Cordelia introduced the Alice Thornton’s Books Project and Jo gave a short talk on Thornton and food and herbal remedies. Audiences asked questions, including about the forthcoming digital edition. 
+There were two opportunities to meet and hear from Cordelia Beattie Jo Edge. Cordelia introduced the Alice Thornton’s Books Project and Jo gave a short talk on Thornton and [dangerous food](https://www.historyworkshop.org.uk/food/forbidden-fruit/) and [herbal remedies](https://thornton.kdl.kcl.ac.uk/posts/tags/medicine/). Audiences asked questions, including about the forthcoming digital edition. 
 
 
 ## 'Poisons and Poultices' - A Guided Walk
