@@ -17,11 +17,11 @@ tags:
 
 ## Exploring History and Nature
 
-On a sunny Saturday in early June, [Starbank Park](https://friendsofstarbankpark.org/) hosted the Alice Thornton Books team once again for an afternoon of history, nature, and creativity. Visitors to the park were able to delve into the 17th Century through guided botanical walks, craft activities, talks by Cordelia and Jo, and a lively conversation between Cordelia and historical novelist, [Kate Foster](https://twitter.com/KateFosterMedia).
+On a sunny Saturday in early June, [Starbank Park](https://friendsofstarbankpark.org/) hosted the Alice Thornton Books team once again for an afternoon of history, nature, and creativity. Visitors to the park were able to delve into the seventeenth century through guided botanical walks, craft activities, talks by Project Postdoctoral Researcher, Jo Edge, and a lively conversation between our Project Principal Investigator, Cordelia Beattie, and historical novelist, [Kate Foster](https://twitter.com/KateFosterMedia).
 
-Kate Foster is the Edinburgh-based author of *The Maiden* [^1] and *The King’s Witches* [^2]. Her novels are set in the 17th and 16th centuries, and her stories examine history from the perspectives of female characters. We were grateful to the Scottish Book Trust’s Live Literature Programme for support in inviting Kate to join us.
+Kate Foster is the Edinburgh-based author of *The Maiden* and *The King’s Witches*. Her novels are set in the 17th and 16th centuries respectively, and her stories examine history from the perspectives of female characters. We were grateful to the Scottish Book Trust’s Live Literature Programme for support in inviting Kate to join us.
 
-Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain us and groups of enthusiastic park visitors with her incredible knowledge. She shared lots of insights into the poultices and poisons that may have been grown or gathered and used by 17th-century women like Alice Thornton, and by the compelling characters in Kate’s books. 
+Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain groups of enthusiastic park visitors with her incredible knowledge. She shared lots of insights into the poultices and poisons that may have been grown or gathered and used by 17th-century women like Alice Thornton, and by the compelling characters in Kate’s books. 
 
 !['The Maiden' by Kate Foster]( {{ "/assets/img/posts/maiden.jpg" | url }} "'The Maiden' by Kate Foster"){.media-right}
 
