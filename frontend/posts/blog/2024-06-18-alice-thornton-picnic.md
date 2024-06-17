@@ -79,7 +79,7 @@ While mulling ideas for their own piece of writing, park visitors made calming l
 
 Starbank Park, in full bloom and looking wonderful in the sun, proved to be the perfect backdrop for our Alice Thornton community event. Visitors left with handcrafted mementos, new books, and an appetite to find out more about Thornton. 
 
-We hope visitors we met in the park will stay in touch with the project and attend future events in Edinburgh, including an Autumn reboot of ‘The Remarkable Deliverances of Alice Thornton’. Last time the play was in Edinburgh, audiences asked us for more of Alice’s arch-rival, her niece-by-marriage, Anne. Playwright and performer Debbie Cannon heard you, so get ready to meet Anne Danby. You’ve been warned!
+We hope visitors we met in the park will stay in touch with the project and attend future events in Edinburgh, including an Autumn reboot of ‘The Remarkable Deliverances of Alice Thornton’. Last time the play was in Edinburgh, audiences asked us for more of Alice’s arch-rival, her niece-by-marriage, Anne. Playwright and performer [Debbie Cannon](https://debbiecannon.org/) heard you, so get ready to meet Anne Danby. You’ve been warned!
 
 
 [^1]: Kate Foster, *The Maiden* (Pan Macmillan, 2023) 
