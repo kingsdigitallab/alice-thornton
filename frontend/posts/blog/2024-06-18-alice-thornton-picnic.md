@@ -21,7 +21,7 @@ On a sunny Saturday in early June, [Starbank Park](https://friendsofstarbankpark
 
 Kate Foster is the Edinburgh-based author of *The Maiden* and *The King’s Witches*. Her novels are set in the 17th and 16th centuries respectively, and her stories examine history from the perspectives of female characters. We were grateful to the Scottish Book Trust’s Live Literature Programme for support in inviting Kate to join us.
 
-Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain groups of enthusiastic park visitors with her incredible knowledge. She shared lots of insights into the poultices and poisons that may have been grown or gathered and used by 17th-century women like Alice Thornton, and by the compelling characters in Kate’s books. 
+Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain groups of enthusiastic park visitors with her incredible knowledge. She shared lots of insights into the poultices and poisons that may have been grown or gathered and used by seventeenth-century women like Alice Thornton, and by the compelling characters in Kate’s books. 
 
 !['The Maiden' by Kate Foster]( {{ "/assets/img/posts/maiden.jpg" | url }} "'The Maiden' by Kate Foster"){.media-right}
 
@@ -29,7 +29,7 @@ Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain grou
 
 ## Health and Herbal Remedies in the 17th Century
 
-There were two opportunities to meet and hear from our Project Prinicpal Investigator, Cordelia Beattie and Postdoctoral Researcher, Jo Edge. They introduced the Alice Thornton’s Books Project and gave a short talk on Thornton’s use of herbal remedies and the medicines she used to treat herself and her family members. Audiences asked questions, and were given an overview of the forthcoming digital edition and how to use it. 
+There were two opportunities to meet and hear from Cordelia Beattie Jo Edge. Cordelia introduced the Alice Thornton’s Books Project and Jo gave a short talk on Thornton and food and herbal remedies. Audiences asked questions, including about the forthcoming digital edition. 
 
 
 ## 'Poisons and Poultices' - A Guided Walk
