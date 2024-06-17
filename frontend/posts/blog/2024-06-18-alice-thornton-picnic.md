@@ -73,7 +73,6 @@ Examples of modern-day ‘deliverances from death’, based on Alice Thornton’
 
 While mulling ideas for their own piece of writing, park visitors made calming lavender bags tied with colourful ribbon. 
 
-![Lavender Bags]( {{ "/assets/img/posts/lavenderbag.jpg" | url }} "Lavender bags"){.media-left}
 
 
 ## Thanks to Starbank Park and Park Visitors
