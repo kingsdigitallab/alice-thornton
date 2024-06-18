@@ -36,12 +36,14 @@ There were two opportunities to meet and hear from Cordelia Beattie and Jo Edge.
 
 “Weeds are what we need,” Dr Heather McHaffie confided as she arrived in the park. Some plants now regarded as an annoyance, such as sticky willys, were once prized remedies, she explained. At the sight of the park’s many volunteers very busily tidying the beds, she looked a little worried, so she headed off hoping to save some weeds before they were spotted. These would be part of Heather’s two guided walks. 
 
+![Heather McHaffie and 'sticky']( {{"/assets/img/posts/heather_sticky.JPG" | url }} "Heather McHaffie and 'sticky'"){.media-right}
+
 As talks from Cordelia and Jo ended at 14:30 and 16:30, the audience was invited to join Heather for a stroll. At every corner, she pointed out varieties of plants, flowers and trees which were common ingredients in remedies in the past. We learned of the many ways botanicals were prepared and used to treat minor ailments such as stomach complaints and fevers, and how many remain important in modern medicine, including plants which are poisonous but helpful in cancer treatment, such as yew.
 
 
 ## Kate Foster in Conversation With Cordelia Beattie
 
-![Kate Foster, Eleanor Thom and Cordelia Beattie.]( {{ "/assets/img/posts/starbank_conversation.jpg" | url }} "Kate Foster, Eleanor Thom and Cordelia Beattie"){.media-right}
+![Kate Foster, Eleanor Thom and Cordelia Beattie.]( {{"/assets/img/posts/starbank_conversation.jpg" | url }} "Kate Foster, Eleanor Thom and Cordelia Beattie"){.media-right}
 
 Mid-afternoon, Cordelia was joined by novelist, Kate Foster for a conversation and Q&A chaired by author and Engagement and Impact Officer for the Alice Thornton’s Books project, [Eleanor Thom](www.eleanorthom.com). 
 
@@ -59,7 +61,7 @@ Before a short Q&A, both Kate and Cordelia talked about what’s next. Cordelia 
 
 A book stall run by Argonaut Books from Leith Walk was also in the park with us, and Kate Foster joined them to sign copies of her books. 
 
-!['The King's Witches' by Kate Foster]( {{ "/assets/img/posts/kingswitches.jpg" | url }} "'The King's Witches' by Kate Foster"){.media-left}
+!['The King's Witches' by Kate Foster]( {{"/assets/img/posts/kingswitches.jpg" | url }} "'The King's Witches' by Kate Foster"){.media-left}
 
   
 
@@ -71,7 +73,7 @@ Examples of modern-day ‘deliverances from death’, based on Alice Thornton’
 
 While mulling ideas for their own piece of writing, park visitors made calming lavender bags tied with colourful ribbon. 
 
-
+![A bag of lavender]( {{"/assets/img/posts/lavenderbag.JPG" | url }} "'A bag of lavender"){.media-left}
 
 ## Thanks to Starbank Park and Park Visitors
 
