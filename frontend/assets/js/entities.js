@@ -266,6 +266,7 @@ function setUpSearch() {
           per_page: this.selection.perPage,
           page: this.selection.page,
           sort: "name_asc",
+          filters: filters,
         };
 
         let entityId = this.selection.hi;
