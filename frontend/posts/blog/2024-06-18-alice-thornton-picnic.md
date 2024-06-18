@@ -14,6 +14,7 @@ tags:
   
 ---
 
+<p>&nbsp;</p>
 
 On a sunny Saturday in early June, [Starbank Park](https://friendsofstarbankpark.org/) hosted the Alice Thornton Books team once again for an afternoon of history, nature, and creativity. Visitors to the park were able to delve into the seventeenth century through guided botanical walks, craft activities, talks by Project Postdoctoral Researcher, Jo Edge, and a lively conversation between our Project Principal Investigator, Cordelia Beattie, and historical novelist, [Kate Foster](https://www.panmacmillan.com/authors/kate-foster/43803).
 
