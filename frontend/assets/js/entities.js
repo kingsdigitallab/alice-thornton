@@ -262,21 +262,22 @@ function setUpSearch() {
           }
         }
 
-        let query = `${this.selection.hi}`; // we copy the string value
-        if (query) {
-          // ppl:cw1 -> _ppl_cw1
-          query = "_" + query.replace(":", "_");
-        } else {
-          query = this.selection.query;
-        }
-
-        this.results = this.itemsjs.search({
+        let searchParameters = {
           per_page: this.selection.perPage,
           page: this.selection.page,
           sort: "name_asc",
-          query: query,
-          filters: filters,
-        });
+        };
+
+        let entityId = this.selection.hi;
+        if (entityId) {
+          searchParameters.filter = (e) => {
+            return e.id == entityId;
+          };
+        } else {
+          searchParameters.query = this.selection.query;
+        }
+
+        this.results = this.itemsjs.search(searchParameters);
 
         window.Vue.nextTick(() => {
           this.updating = false;
