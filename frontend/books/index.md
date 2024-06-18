@@ -13,24 +13,25 @@ The text of all four manuscript volumes will be available to read in both fully 
 
 <div class="bookshelf">
   {%- assign books = collections.books | sort:"data.bookOrder" -%}
-  {%- for book in books -%}
-    <figure class="book columns">
-      <a href="{{ book.url | url }}" class="column is-half">
-        <img src="{{ book.data.image }}" alt="Photograph of the original front of book, very used scuffed faded covers, showcasing charm and elegance">
-      </a>
-      <div class="column is-half is-flex is-flex-direction-column">
-        <h3>{{ book.data.title }}</h3>
-        <figcaption>
-          {{ book.data.holdingArchive }},<br>
-          {{ book.data.itemLocation }}
-        </figcaption>
-        <div class="book-buttons">
-        {% if book.data.isReadable %}<a href="viewer/?p0.do={{ book.fileSlug }}&p0.vi=modern" class="button is-primary">Read the edition</a>{% endif %}<br>
-          <a href="{{ book.url | url }}" class="button is-secondary">Book information</a>
-          
+  {%- for abook in books -%}
+    {% if abook.url != page.url %}
+      <figure class="book columns">
+        <a href="{{ abook.url | url }}" class="column is-half">
+          <img src="{{ abook.data.image }}" alt="Photograph of the original front of book, very used scuffed faded covers, showcasing charm and elegance">
+        </a>
+        <div class="column is-half is-flex is-flex-direction-column">
+          <h3>{{ abook.data.title }}</h3>
+          <figcaption>
+            {{ abook.data.holdingArchive }},<br>
+            {{ abook.data.itemLocation }}
+          </figcaption>
+          <div class="book-buttons">
+          {% if abook.data.isReadable %}<a href="viewer/?p0.do={{ abook.fileSlug }}&p0.vi=modern" class="button is-primary">Read the edition</a>{% endif %}<br>
+            <a href="{{ abook.url | url }}" class="button is-secondary">Book information</a>
+          </div>
         </div>
-      </div>
-    </figure>
+      </figure>
+    {% endif %}
   {%- endfor -%}
 </div>
 

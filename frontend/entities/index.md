@@ -11,7 +11,8 @@ eleventyNavigation:
   <div class="columns">
     <form @submit.prevent="onSubmitInputs" class="search-inputs column is-3">
       <h2 class="undecorated">Filters</h2>
-      <nav class="panel is-info">
+      <p><a @click="clearSelection()" class="button is-secondary is-small">Show all results</a></p>
+      <nav class="panel is-info" v-if="!selection.hi">
         <p class="panel-heading">
           Text search
         </p>

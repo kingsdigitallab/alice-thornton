@@ -23,7 +23,8 @@ function setUpSearch() {
         selection: {
           view: "collapsed",
           query: "",
-          type: "",
+          hi: "", // the entity id passed by the viewer
+          type: "", // ??? unused?
           perPage: 10,
           page: 1,
         },
@@ -227,6 +228,20 @@ function setUpSearch() {
       onSubmitInputs() {
         this.search();
       },
+      clearSelection() {
+        this.selection.hi = "";
+        this.selection.query = "";
+        this.selection.type = "";
+
+        for (let facetKey of Object.keys(this.filteredFacets)) {
+          let facet = this.filteredFacets[facetKey];
+          for (let option of facet.buckets) {
+            option.selected = false;
+          }
+        }
+
+        this.search();
+      },
       search(keepPage = false) {
         this.updating = true;
 
@@ -247,13 +262,22 @@ function setUpSearch() {
           }
         }
 
-        this.results = this.itemsjs.search({
+        let searchParameters = {
           per_page: this.selection.perPage,
           page: this.selection.page,
           sort: "name_asc",
-          query: this.selection.query,
-          filters: filters,
-        });
+        };
+
+        let entityId = this.selection.hi;
+        if (entityId) {
+          searchParameters.filter = (e) => {
+            return e.id == entityId;
+          };
+        } else {
+          searchParameters.query = this.selection.query;
+        }
+
+        this.results = this.itemsjs.search(searchParameters);
 
         window.Vue.nextTick(() => {
           this.updating = false;
@@ -297,10 +321,17 @@ function setUpSearch() {
       },
       async setSelectionFromAddressBar() {
         let searchParams = new URLSearchParams(window.location.search);
-        let q = searchParams.get("q");
-        if (q) {
-          q = q.replace(/^(ppl|place):/, "");
-          this.selection.query = q;
+        // let q = searchParams.get("q");
+        // if (q) {
+        //   q = q.replace(/^(ppl|place):/, "");
+        //   this.selection.query = q;
+        // }
+        //
+        let hi = searchParams.get("hi");
+        if (hi) {
+          // hi = hi.replace(/^(ppl|place):/, "");
+          this.selection.hi = hi;
+          this.selection.view = "expanded";
         }
         // console.log(searchParams);
       },
