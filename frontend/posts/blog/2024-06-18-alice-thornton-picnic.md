@@ -24,6 +24,8 @@ Kate Foster is the Edinburgh-based author of *The Maiden* (2023) and *The King�
 
 Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain groups of enthusiastic park visitors with her incredible knowledge. She shared lots of insights into the poultices and poisons that may have been grown or gathered and used by seventeenth-century women like Alice Thornton, and by the compelling characters in Kate’s books. 
 
+<p>&nbsp;</p>
+
 ## Health and Herbal Remedies in the 17th Century
 
 There were two opportunities to meet and hear from Cordelia Beattie and Jo Edge. Cordelia introduced Alice Thornton, her books and the project and Jo gave a short talk on Thornton and [dangerous food](https://www.historyworkshop.org.uk/food/forbidden-fruit/) and [herbal remedies](https://thornton.kdl.kcl.ac.uk/posts/tags/medicine/). Audiences got to ask questions, including about the forthcoming digital edition. 
@@ -35,6 +37,8 @@ There were two opportunities to meet and hear from Cordelia Beattie and Jo Edge.
 “Weeds are what we need,” Dr Heather McHaffie confided as she arrived in the park. Some plants now regarded as an annoyance, such as sticky willys, were once prized remedies, she explained. At the sight of the park’s many volunteers very busily tidying the beds, she looked a little worried, so she headed off hoping to save some weeds before they were spotted. These would be part of Heather’s two guided walks. 
 
 As talks from Cordelia and Jo ended at 14:30 and 16:30, the audience was invited to join Heather for a stroll. At every corner, she pointed out varieties of plants, flowers and trees which were common ingredients in remedies in the past. We learned of the many ways botanicals were prepared and used to treat minor ailments such as stomach complaints and fevers, and how many remain important in modern medicine, including plants which are poisonous but helpful in cancer treatment, such as yew.
+
+<p>&nbsp;</p>
 
 ## Kate Foster in Conversation With Cordelia Beattie
 
@@ -67,6 +71,8 @@ As well as reading new books, children and adults had a chance to try writing wi
 Examples of modern-day ‘deliverances from death’, based on Alice Thornton’s *Books*, written by the local Citizen writing group and illustrated by students at Edinburgh College of Art, were also [on display](https://ontheroad.edbookfest.co.uk/blog/citizen-writers-x-edinburgh-college-of-art-deliverances-from-death/). 
 
 While mulling ideas for their own piece of writing, park visitors made calming lavender bags tied with colourful ribbon. 
+
+<p>&nbsp;</p>
 
 ## Thanks to Starbank Park and Park Visitors
 
