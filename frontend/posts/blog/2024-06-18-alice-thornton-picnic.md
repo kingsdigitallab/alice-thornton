@@ -1,6 +1,6 @@
 ---
 title: "Alice Thornton's Picnic at Starbank Park"
-feature: /assets/img/posts/walk-heather.jpg
+feature: /assets/img/posts/walk-heather.JPG
 authors:
   - ethom
 status: live
