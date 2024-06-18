@@ -73,11 +73,6 @@ Examples of modern-day ‘deliverances from death’, based on Alice Thornton’
 
 While mulling ideas for their own piece of writing, park visitors made calming lavender bags tied with colourful ribbon. 
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
 ## Thanks to Starbank Park and Park Visitors
 
 Starbank Park, in full bloom and looking wonderful in the sun, proved to be the perfect backdrop for our Alice Thornton community event. Visitors left with handcrafted mementos, new books, and an appetite to find out more about Thornton. 
