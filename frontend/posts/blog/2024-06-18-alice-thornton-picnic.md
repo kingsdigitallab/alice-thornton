@@ -61,7 +61,7 @@ Before a short Q&A, both Kate and Cordelia talked about what’s next. Cordelia 
 
 A book stall run by Argonaut Books from Leith Walk was also in the park with us, and Kate Foster joined them to sign copies of her books. 
 
-!['The King's Witches' by Kate Foster]( {{"/assets/img/posts/kingswitches.jpg" | url }} "'The King's Witches' by Kate Foster"){.media-left}
+!['The King's Witches' by Kate Foster]( {{"/assets/img/posts/kingswitches.jpg" | url }} "'The King's Witches' by Kate Foster"){.media-right}
 
   
 
@@ -73,7 +73,7 @@ Examples of modern-day ‘deliverances from death’, based on Alice Thornton’
 
 While mulling ideas for their own piece of writing, park visitors made calming lavender bags tied with colourful ribbon. 
 
-![A bag of lavender]( {{"/assets/img/posts/lavenderbag.JPG" | url }} "'A bag of lavender"){.media-left}
+![A bag of lavender]( {{"/assets/img/posts/lavenderbag.JPG" | url }} "'A bag of lavender"){.media-right}
 
 ## Thanks to Starbank Park and Park Visitors
 
