@@ -25,6 +25,8 @@ Kate Foster is the Edinburgh-based author of *The Maiden* (2023) and *The King�
 Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain groups of enthusiastic park visitors with her incredible knowledge. She shared lots of insights into the poultices and poisons that may have been grown or gathered and used by seventeenth-century women like Alice Thornton, and by the compelling characters in Kate’s books. 
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+
 
 ## Health and Herbal Remedies in the 17th Century
 
@@ -39,6 +41,8 @@ There were two opportunities to meet and hear from Cordelia Beattie and Jo Edge.
 As talks from Cordelia and Jo ended at 14:30 and 16:30, the audience was invited to join Heather for a stroll. At every corner, she pointed out varieties of plants, flowers and trees which were common ingredients in remedies in the past. We learned of the many ways botanicals were prepared and used to treat minor ailments such as stomach complaints and fevers, and how many remain important in modern medicine, including plants which are poisonous but helpful in cancer treatment, such as yew.
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+
 
 ## Kate Foster in Conversation With Cordelia Beattie
 
@@ -73,6 +77,8 @@ Examples of modern-day ‘deliverances from death’, based on Alice Thornton’
 While mulling ideas for their own piece of writing, park visitors made calming lavender bags tied with colourful ribbon. 
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+
 
 ## Thanks to Starbank Park and Park Visitors
 
