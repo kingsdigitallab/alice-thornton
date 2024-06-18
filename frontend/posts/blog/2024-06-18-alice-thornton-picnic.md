@@ -78,7 +78,7 @@ While mulling ideas for their own piece of writing, park visitors made calming l
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-
+<p>&nbsp;</p>
 
 ## Thanks to Starbank Park and Park Visitors
 
