@@ -24,6 +24,8 @@ Kate Foster is the Edinburgh-based author of *The Maiden* (2023) and *The Kingâ€
 
 Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain groups of enthusiastic park visitors with her incredible knowledge. She shared lots of insights into the poultices and poisons that may have been grown or gathered and used by seventeenth-century women like Alice Thornton, and by the compelling characters in Kateâ€™s books. 
 
+<p>&nbsp;</p>
+
 ## Health and Herbal Remedies in the 17th Century
 
 There were two opportunities to meet and hear from Cordelia Beattie and Jo Edge. Cordelia introduced Alice Thornton, her books and the project and Jo gave a short talk on Thornton and [dangerous food](https://www.historyworkshop.org.uk/food/forbidden-fruit/) and [herbal remedies](https://thornton.kdl.kcl.ac.uk/posts/tags/medicine/). Audiences got to ask questions, including about the forthcoming digital edition. 
