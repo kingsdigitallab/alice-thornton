@@ -21,9 +21,10 @@ On a sunny Saturday in early June, [Starbank Park](https://friendsofstarbankpark
 
 Kate Foster is the Edinburgh-based author of *The Maiden* (2023) and *The King’s Witches* (2024). Her novels are set in the seventeenth and sixteenth centuries respectively, and her stories examine history from the perspectives of female characters. We were grateful to the Scottish Book Trust’s Live Literature Programme for support in inviting Kate to join us.
 
+!['The Maiden' by Kate Foster]( {{"/assets/img/posts/maiden.jpg" | url }} "'The Maiden' by Kate Foster"){.media-left}
+
 Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain groups of enthusiastic park visitors with her incredible knowledge. She shared lots of insights into the poultices and poisons that may have been grown or gathered and used by seventeenth-century women like Alice Thornton, and by the compelling characters in Kate’s books. 
 
-!['The Maiden' by Kate Foster]( {{"/assets/img/posts/maiden.jpg" | url }} "'The Maiden' by Kate Foster"){.media-right}
 
 
 
@@ -43,7 +44,7 @@ As talks from Cordelia and Jo ended at 14:30 and 16:30, the audience was invited
 
 ## Kate Foster in Conversation With Cordelia Beattie
 
-![Kate Foster, Eleanor Thom and Cordelia Beattie.]( {{"/assets/img/posts/starbank_conversation.jpg" | url }} "Kate Foster, Eleanor Thom and Cordelia Beattie"){.media-right}
+![Kate Foster, Eleanor Thom and Cordelia Beattie.]( {{"/assets/img/posts/starbank_conversation.jpg" | url }} "Kate Foster, Eleanor Thom and Cordelia Beattie"){.media-left}
 
 Mid-afternoon, Cordelia was joined by novelist, Kate Foster for a conversation and Q&A chaired by author and Engagement and Impact Officer for the Alice Thornton’s Books project, [Eleanor Thom](www.eleanorthom.com). 
 
@@ -73,7 +74,7 @@ Examples of modern-day ‘deliverances from death’, based on Alice Thornton’
 
 While mulling ideas for their own piece of writing, park visitors made calming lavender bags tied with colourful ribbon. 
 
-![A bag of lavender]( {{"/assets/img/posts/lavenderbag.JPG" | url }} "'A bag of lavender"){.media-right}
+![A bag of lavender]( {{"/assets/img/posts/lavenderbag.JPG" | url }} "'A bag of lavender"){.media-leftt}
 
 ## Thanks to Starbank Park and Park Visitors
 
