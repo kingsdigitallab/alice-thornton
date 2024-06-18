@@ -23,7 +23,7 @@ Kate Foster is the Edinburgh-based author of *The Maiden* (2023) and *The Kingâ€
 
 Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain groups of enthusiastic park visitors with her incredible knowledge. She shared lots of insights into the poultices and poisons that may have been grown or gathered and used by seventeenth-century women like Alice Thornton, and by the compelling characters in Kateâ€™s books. 
 
-!['The Maiden' by Kate Foster]( {{ "/assets/img/posts/maiden.jpg" | url }} "'The Maiden' by Kate Foster"){.media-right}
+!['The Maiden' by Kate Foster]( {{"/assets/img/posts/maiden.jpg" | url }} "'The Maiden' by Kate Foster"){.media-right}
 
 
 
