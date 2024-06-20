@@ -1,14 +1,16 @@
 ---
-title: "Remarkable Deliverances at the Buxton Fringe Festival"
-feature: /assets/img/posts/deliverances.jpg 
-status: live
+title: "Cordelia Beattie to speak at Gawthorpe Hall"
+feature: /assets/img/posts/gawthorpe.jpg 
+status: draft
 authors:
   - ethom
 tags:
   - events
-  - deliverances
+
+
 
 ---
-More opportunities are coming up this summer for audiences in to catch a performance of *The Remarkable Deliverances of Alice Thornton* - this time in Derbyshire. [Debbie Cannon](https://debbiecannon.org/)'s acclaimed one-women show is set for a run at the [Buxton Fringe](https://www.buxtonfringe.org.uk/) in July. 
+Project Principal Investigator Cordelia Beattie will give a talk on Women's Lives in Seventeenth-century England at Lancashire's [Gawthorpe Hall](https://www.nationaltrust.org.uk/visit/liverpool-lancashire/gawthorpe-hall?awc=3795_1718879965_91793164e8a0c2ff9637d0b83e7b0a67&campid=Affiliates_Central_Mem_AWIN_Standard&aff=271445) on September 12th 2024 at 13:00. This is part of their exhibition 'An Account of Life: Gawthorpe in the 1600s'. Cordelia's talk will be based on Alice Thornton's accounts of her own life. 
 
-Tickets are already on sale [here](https://www.wegottickets.com/event/618704) for performances at The Green Man Gallery from July 7th to July 11th inclusive. Times vary, see link for details. 
+[Booking](https://www.nationaltrust.org.uk/visit/liverpool-lancashire/gawthorpe-hall/events/602e153e-fe9f-46ea-8a0b-3a422ef38901) is essential. 
+
