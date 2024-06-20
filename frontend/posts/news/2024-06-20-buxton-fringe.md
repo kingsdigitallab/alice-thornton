@@ -1,7 +1,7 @@
 ---
 title: "Remarkable Deliverances at the Buxton Fringe Festival"
 feature: /assets/img/posts/deliverances.jpeg 
-status: draft
+status: live
 authors:
   - ethom
 tags:
