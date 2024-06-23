@@ -661,8 +661,8 @@
             
         <div xml:id="div-011">
             <head rend="post(rule)" place="right">
-                <seg rend="underline">London<supplied reason="mod">,</supplied></seg>
-                <seg rend="underline place(centre)"><date type="religion" when-custom="1631">1631</date>.</seg>
+                <hi rend="underline">London<supplied reason="mod">,</supplied></hi>
+                <hi rend="underline place(centre)"><date type="religion" when-custom="1631">1631</date>.</hi>
                 <!-- NOTE [decoration] bearing in mind we might not display the alignment anyway... have added it to rend because @place isn't allowed in seg. London is left-aligned. -->
                 <lb/>
                 The <w norm="First" type="u">first</w> <w norm="Dawning">dawning</w> of God<supplied reason="mod">'</supplied>s Spirit in <w norm="My" type="u">my</w> <w norm="Heart" type="u">heart</w><surplus reason="superfluous">.</surplus><!-- NOTE [tagging] [layout] this is actually right aligned -->
@@ -906,12 +906,14 @@ point to <category> elements or to feature structure components.
             
         <div xml:id="div-016">
             <head rend="post(rule)">
+                
                 <seg rend="underline"><date>1639</date>.</seg><lb/>
                 
-            A <w norm="Deliverance" type="u">deliverance</w> from <w norm="Shipwreck">Ship-Rack</w> in <w norm="a" type="l">A</w> Passage into<lb/>
+            <seg>
+                A <w norm="Deliverance" type="u">deliverance</w> from <w norm="Shipwreck">Ship-Rack</w> in <w norm="a" type="l">A</w> Passage into<lb/>
               <!-- NOTE [decoration] unusual full width (rule) *under* first line of heading. team decision to ignore these, so deleted.  -->
                 <placeName ref="place:Irel_096" n="place13">Ireland</placeName> with <rs ref="ppl:aow1" n="per40" type="person"><w norm="My" type="u">my</w> Mother</rs>, <rs n="per41" type="person"><w norm="Brother" type="u">brother</w></rs><!-- NOTE [people] is it possible to ident which brother? --><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="Two">2</w> <w norm="Nephews">Nephewes</w><pc norm=",">.</pc><lb/>
-                <persName ref="ppl:td4" n="per42">Thomas</persName> <w norm="and">&amp;</w> <persName ref="ppl:cd4" n="per43">Christopher Danby</persName><pc norm=",">.</pc> in the <w norm="Year">yeare</w> <date type="accident" when-custom="1639">1639</date><surplus reason="superfluous">.</surplus>
+                <persName ref="ppl:td4" n="per42">Thomas</persName> <w norm="and">&amp;</w> <persName ref="ppl:cd4" n="per43">Christopher Danby</persName><pc norm=",">.</pc> in the <w norm="Year">yeare</w> <date type="accident" when-custom="1639">1639</date><surplus reason="superfluous">.</surplus></seg>
             </head>
             <milestone spanTo="#ev11-end" xml:id="ev11-start" n="ev11" unit="event"/><!-- NOTE [event] from ireland to bristol -->
             <p xml:id="p-0035">Having come over into <placeName ref="place:Engl_094" n="place14">England</placeName>, when my <w norm="mother" type="l">Mother</w><lb/>
@@ -3864,12 +3866,15 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             </div>
             <div xml:id="div-031" rend="pre(rule)">
             <!-- NOTE [div] new div: no title or index entry, but there is a divider line and it does mark a change in narrative -->
-            <!-- NOTE [tagging] [layout] "In the yeare... 29" in fact starts *above* the ruled line, immediately after Amen on the same line with just a | divider. But it must refer/belong to the text that follows, so I've marked it up for meaning rather than appearance again. Another tricky one. -->
+            <!-- NOTE [tagging] [layout] "In the yeare... 29" in fact starts *above* the ruled line, immediately after Amen on the same line with just a | divider. But it must refer/belong to the text that follows, so I've marked it up for meaning rather than appearance again. Another tricky one. *convert to head* -->
            <milestone spanTo="#ev54-end" xml:id="ev54-start" n="ev54" unit="event"/>
                 <!-- NOTE [event] to hipswell
                 again confusing that she implies this is shortly after the lobster incident in Richmond, but it can't be... -->
-            <p xml:id="p-0218">In the <w norm="year">yeare</w> <date when-custom="1644-11-29">1644<supplied reason="mod">,</supplied> <choice><abbr>no.<am rend="superscript">ber</am></abbr><expan>November</expan></choice> 29</date>.<lb/>
-                
+                <head>
+                    <!-- NOTE moved into head from first line of p-0218. -->
+                    In the <w norm="year">yeare</w> <date when-custom="1644-11-29">1644<supplied reason="mod">,</supplied> <choice><abbr>no.<am rend="superscript">ber</am></abbr><expan>November</expan></choice> 29</date>.
+                </head>
+            <p xml:id="p-0218">
                  After I was <w norm="recruited">recruted</w> in strength<supplied reason="mod">,</supplied> <rs ref="ppl:aow1" n="per281" type="person">my mother</rs> went to<lb/>
                 <w norm="live" type="l">Live</w> at <placeName ref="place:Hips_022" n="place137">Hipswell</placeName><supplied reason="mod">,</supplied> her <term n="166" xml:id="b1p084t04" ref="gloss:b1p084t04"><w norm="jointure">Joyntyre</w></term><supplied reason="mod"/> <add place="above">with <persName ref="ppl:gw1" n="per282">my <choice><abbr>B.</abbr><expan>brother</expan></choice><supplied reason="mod">,</supplied> George</persName><supplied reason="mod">,</supplied> <w norm="myself">my selfe</w> <w norm="and">&amp;</w> <persName ref="ppl:gl1" n="per283">George Lightfoot</persName> <w norm="and">&amp;</w> <persName ref="ppl:dcl1" n="per284"><w norm="Daphne">Dafeny</w> Cassell</persName><pc norm=",">.</pc> <w norm="and">&amp;</w> my <choice><abbr>D. G. W.</abbr><expan>dear George Wandesford</expan></choice><supplied reason="mod">,</supplied> <rs type="person">his man</rs>.</add>  
                 <!-- Q [dates] any way to date this bit? not sure if the mention of '18 or 20 months' is usable. (or reliable) --><!-- Q person - is this 'Dear George Wandesford his man'? - i.e. brother George's servant - JE --><!-- will need tagging as George's servant - JE -->
@@ -3890,7 +3895,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  in <w norm="monies">monnys</w> to the <w norm="soldiers" type="l">Soldiers</w>, besides the <w norm="quartering">quarting</w> of a <w norm="troop">troope</w><lb/>
                 of <w norm="Scots">Scotts</w> on free quarter<surplus reason="superfluous">,</surplus> which was <w norm="treble">trible</w> the <w norm="value">valeue</w> of<lb/>
                 her <w norm="estate" type="l">Estate</w>.<anchor n="85" corresp="#p085n01" resp="ednote"/> <w norm="And">&amp;</w> at that time<supplied reason="mod">,</supplied> she borrowed <w norm="monies">monnyes</w> to<lb/> 
-                <w norm="maintain">maintaine</w> all her <w norm="four">4</w> children <supplied reason="mod">(</supplied><add place="above">my <choice><abbr>brot.</abbr><expan>brother<supplied reason="omitted">s</supplied></expan></choice><supplied reason="mod">,</supplied> <persName ref="ppl:cw2" n="per287"><choice><abbr>Christo</abbr><expan>Christopher</expan></choice></persName><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> <persName ref="ppl:jw1" n="per288">John</persName><supplied reason="mod">,</supplied> were at <placeName ref="place:Beda_001" n="place138"><w norm="Bedale">Beedale</w> <w norm="school">scoole</w></placeName> from <date when-custom="1643-11-16"><choice><abbr>nov.</abbr><expan>November</expan></choice> the <w norm="16th">16,</w> 1643</date><surplus reason="superfluous">.</surplus> many years<supplied reason="mod">,</supplied></add> 
+                <w norm="maintain">maintaine</w> all her <w norm="four">4</w> children <supplied reason="mod">(</supplied><add place="above">my <choice><abbr>brot.</abbr><expan>brother<supplied reason="omitted">s</supplied></expan></choice><supplied reason="mod">,</supplied> <persName ref="ppl:cw2" n="per287"><choice><abbr>Christo</abbr><expan>Christopher</expan></choice></persName><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> <persName ref="ppl:jw1" n="per288">John</persName><supplied reason="mod">,</supplied> were at <placeName ref="place:Beda_001" n="place138"><w norm="Bedale">Beedale</w> <w norm="school">scoole</w></placeName> from <date when-custom="1643-11-16"><choice><abbr>nov.</abbr><expan>November</expan></choice> the <w norm="16th">16,</w> 1643</date><surplus reason="superfluous">.</surplus> many years<supplied reason="mod">,</supplied></add> <lb/>
                 which she paid afterwards<supplied reason="mod">)</supplied><anchor n="86" corresp="#p085n02" resp="ednote"/><lb/>
                 <!-- NOTE [margin] afaics this is the only mention in the text that might match #mnote-0021  -->
                  <w norm="albeit" type="l">Albeit</w> we had a <w norm="particular">perticuler</w> maintenance to have <w norm="been">bin</w><lb/>
