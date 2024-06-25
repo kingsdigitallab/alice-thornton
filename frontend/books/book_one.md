@@ -19,7 +19,7 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’ to circulate in late 1668 (page 196); Thornton also notes that she was writing in that book, about her widowhood, in March 1669 (page 179). If the ‘scandal’ was a key prompt for the writing of _Book 1_, then a dating of c.1668-9 works for the majority of the volume. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 (page 292).
 
-## Contents
+## Contents (using Thornton's Index)
 
 [Bishop Hall's Observations](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.1&p0.vi=modern) <br/>
 [A Prayer](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.2&p0.vi=modern) <br/>
@@ -41,8 +41,7 @@ Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’
 [A Prayer made by My Father for the Communion](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.54&p0.vi=modern) <br/>
 [My Mother's Preservation and My Own from the Rebellion in Ireland, October 23 1641](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.62&p0.vi=modern) <br/>
 [A Thanksgiving for the Same](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.67&p0.vi=modern) <br/>
-[Upon Our Coming to Weschester from Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.69&p0.vi=modern) <br/>
-Upon My having the Smallpox the Second Time at Chester <br/>
+[Upon Our Coming to Weschester from Ireland; Upon My Having the Smallpox the Second Time at Chester](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.69&p0.vi=modern) <br/>
 [A Thanksgiving upon My Recovery](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.75&p0.vi=modern) <br/>
 [Of My Mother's Removal to Snape and Kirklington](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.77&p0.vi=modern) <br/>
 [My Preservation from Death in a Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.83&p0.vi=modern) <br/>
