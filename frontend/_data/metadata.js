@@ -81,9 +81,9 @@ module.exports = function () {
   if (["pre", "liv"].includes(environment)) {
     ret["text_viewer"]["visible_documents"] = {
       book_of_remembrances: [1, 103],
-      book_one: [],
-      book_two: [],
-      book_three: [],
+      book_one: [1, 96],
+      book_two: [1, 101],
+      book_three: [1, 103],
     };
     ret["hideEventsFromSearchPage"] = true;
     ret["text_viewer"]["hide_print_link"] = true;
