@@ -22,9 +22,11 @@ Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’
 ## Contents
 
 [Bishop Hall's Observations](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.1&p0.vi=modern) <br/>
-A Prayer, the Dedication <br/>
+[A Prayer](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.2&p0.vi=modern) <br/>
+[The Dedication](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.3&p0.vi=modern) <br/>
 [The Birth of Alice Wandesford, February 13th, 1626](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.5&p0.vi=modern) <br/>
-Proverbs, and Preface <br/>
+[Proverbs](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.6&p0.vi=modern) <br/>
+[Preface](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.7&p0.vi=modern) <br/>
 [A Preservation in the Measles, 1630](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.8&p0.vi=modern) <br/>
 [My having the Smallpox in Kent, 1631](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.9&p0.vi=modern) <br/>
 [Meditations on Psalm 147: 4 (year 1631)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.10&p0.vi=modern) <br/>
