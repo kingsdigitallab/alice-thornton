@@ -31,17 +31,17 @@ Proverbs, and Preface <br/>
 [A Preservation from a Fire in London (year 1632)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.11&p0.vi=modern) <br/>
 [My First Passage into Ireland, 1632](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.12&p0.vi=modern) <br/>
 [Meditations on St Mathew, at 12 years old, 1638](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.14&p0.vi=modern) <br/>
-A Deliverance from Shipwreck, 1639 <br/>
-A Thanksgiving thereupon <br/>
-Observations upon Accidents in Ireland, 1640 <br/>
-A Relation of the Lord Deputy Wandesford's Death <br/>
-Meditations, and Prayer thereupon, December 3rd, 1640 <br/>
-A Prayer made by My Father for the Communion <br/>
-My Mother's Preservation and My Own from the Rebellion in Ireland, October 23 1641 <br/>
-A Thanksgiving for the Same <br/>
-Upon Our coming to Weschester from Ireland <br/>
+[A Deliverance from Shipwreck, 1639](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.15&p0.vi=modern) <br/>
+[A Thanksgiving thereupon](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.17&p0.vi=modern) <br/>
+[Observations upon Accidents in Ireland, 1640](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.20&p0.vi=modern) <br/>
+[A Relation of the Lord Deputy Wandesford's Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.27&p0.vi=modern) <br/>
+[Meditations, and Prayer thereupon, December 3rd, 1640](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.38&p0.vi=modern) <br/>
+[A Prayer made by My Father for the Communion](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.54&p0.vi=modern) <br/>
+[My Mother's Preservation and My Own from the Rebellion in Ireland, October 23 1641](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.62&p0.vi=modern) <br/>
+[A Thanksgiving for the Same](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.67&p0.vi=modern) <br/>
+[Upon Our Coming to Weschester from Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.69&p0.vi=modern) <br/>
 Upon My having the Smallpox the Second Time at Chester <br/>
-A Thanksgiving upon My Recovery <br/>
+[A Thanksgiving upon My Recovery](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.75&p0.vi=modern) <br/>
 Of My Mother's Removal to Snape and Kirklington <br/>
 My Preservation from Death in a Sickness <br/>
 The Death of My Sister Danby, September 30th, 1645 <br/>
