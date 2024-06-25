@@ -21,7 +21,7 @@ Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’
 
 ## Contents
 
-Bishop Hall's Observations <br/>
+[Bishop Hall's Observations](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.1&p0.vi=modern) <br/>
 A Prayer, the Dedication <br/>
 The Birth of Alice Wandesford, February 13th, 1626 <br/>
 Proverbs, and Preface <br/>
@@ -48,7 +48,7 @@ The Death of My Sister Danby, September 30th, 1645 <br/>
 The Death of Sir Edward Osborne, My Dear Uncle <br/>
 The Death of My Cousin Edward Norton, 1648 <br/>
 Upon the Beheading of King Charles the Martyr <br/>
-Upon the Death of My Dear Brother George Wandesford <br/>
+[Upon the Death of My Dear Brother George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.96&p0.vi=modern) <br/>
 A Prayer and Lamentation on that Sad Blow, 1651 <br/>
 An Elegy upon His Death by Sir Christopher Wyvill <br/>
 Observation of God's Goodness in My Dear Mother's Preservation and Her Child in the Time of the Wars and Distractions <br/>
