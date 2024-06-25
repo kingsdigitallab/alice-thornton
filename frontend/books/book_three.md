@@ -21,10 +21,10 @@ _Book 3_ covers material no later than the first year of her widowhood (1668-9) 
 
 ## Contents
 
-A Prayer of the Widow to the God of Mercy and Love for His Holy Spirit to support and direct Herself and Family <br/>
-Jeremiah (Chapter 10th, verses 23rd, 24th) <br/>
-An Account of Memorable Affairs and Accidents on Myself and Family and Children, with Deliverances and Meditations thereon since My Widowed Condition, since September 17th 1668 <br/>
-A Relation of Memorable Actions and Afflictions befallen to Me in the First Year of My Widowed Condition since September 17, 1668 <br/>
+[A Prayer of the Widow to the God of Mercy and Love for His Holy Spirit to Support and Direct Herself and Family](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.2&p0.vi=modern) <br/>
+[Jeremiah (Chapter 10th, Verses 23rd, 24th)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.6&p0.vi=modern) <br/>
+[An Account of Memorable Affairs and Accidents on Myself and Family and Children, with Deliverances and Meditations thereon since My Widowed Condition, since September 17th 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.20&p0.vi=modern) <br/>
+[A Relation of Memorable Actions and Afflictions Befallen to Me in the First Year of My Widowed Condition since September 17, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.22&p0.vi=modern) <br/>
 My Widow's Prayer and Petitions to Heaven <br/>
 The Remarkable Passages of My Life with My Three Children and of the Afflictions, Trials, Providences, Mercies and Deliverances Received from God since the Death of My Dear Husband. The First Year of My Widowhood Condition since September 17th, 1668 <br/>
 The First Great and Excellent Goodness of Our Gracious God to Myself in My Preservation in Life from the Death of My Dear Husband's Loss and the Cursed Slanders of My Enemies and those Piercing Griefs which Followed My Desolate Condition <br/>
