@@ -19,7 +19,7 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 _Book 2_ covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1685-95. There is a reference to her brother Christopher’s grandchildren (he had two by c.1685) on page 105, which gives our earliest date. Thornton also notes that most of the people who spread rumours about her in 1668 were now dead which was most likely the case by 1695 (page 292). It is referenced in _Book 3_ (pages 82, 99, 132), which indicates it was written first and therefore finished by c.1695.
 
-## Contents
+## Contents (using Thornton's titles)
 
 [Job 10:20](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.1&p0.vi=modern) <br/>
 [St Matthew 6:33](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.3&p0.vi=modern) <br/>
