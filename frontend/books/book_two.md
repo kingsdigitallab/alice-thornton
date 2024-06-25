@@ -27,7 +27,7 @@ _Book 2_ covers material no later than the first year of her widowhood (1668-9) 
 [A Prayer for Myself for Support and Comfort](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.7&p0.vi=modern) <br/>
 [An Introduction to this Book of the Remarkable Providences and Passages of My Life since My Widowed Condition, since September the 17th, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.13&p0.vi=modern) <br/>
 [An Account of Deliverances from Death and Mercies Received since My Dear Husband's Death Begot Myself and Three Dear Children, September 17th, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.23&p0.vi=modern) <br/>
-Upon the Several Accidents Happened after Mr Thornton's Death and of the Administration (and Before) <br/>
+[Upon the Several Accidents Happened after Mr Thornton's Death and of the Administration (and Before)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.27&p0.vi=modern) <br/>
 [A Discourse upon the Preservation and Discovery of My Dear and Honoured Father's Last Will and Testament in the Rebellion of Ireland from the Year 1640 until the Year 1658](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.36&p0.vi=modern) <br/>
 [Of the Providence to Me in Finding the Copy of My Honoured Father's 'Book of Advice' to His Son, George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.44&p0.vi=modern) <br/>
 [Of the Manner How My Honoured Father's Last Will and Testament was Found After the Loss of It for Many Years](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.68&p0.vi=modern) <br/>
