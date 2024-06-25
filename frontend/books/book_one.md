@@ -42,12 +42,12 @@ Proverbs, and Preface <br/>
 [Upon Our Coming to Weschester from Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.69&p0.vi=modern) <br/>
 Upon My having the Smallpox the Second Time at Chester <br/>
 [A Thanksgiving upon My Recovery](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.75&p0.vi=modern) <br/>
-Of My Mother's Removal to Snape and Kirklington <br/>
-My Preservation from Death in a Sickness <br/>
-The Death of My Sister Danby, September 30th, 1645 <br/>
-The Death of Sir Edward Osborne, My Dear Uncle <br/>
-The Death of My Cousin Edward Norton, 1648 <br/>
-Upon the Beheading of King Charles the Martyr <br/>
+[Of My Mother's Removal to Snape and Kirklington](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.77&p0.vi=modern) <br/>
+[My Preservation from Death in a Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.83&p0.vi=modern) <br/>
+[The Death of My Sister Danby, September 30th, 1645](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.85&p0.vi=modern) <br/>
+[The Death of Sir Edward Osborne, My Dear Uncle](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.91&p0.vi=modern) <br/>
+[The Death of My Cousin Edward Norton, 1648](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.92&p0.vi=modern) <br/>
+[Upon the Beheading of King Charles the Martyr](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.93&p0.vi=modern) <br/>
 [Upon the Death of My Dear Brother George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.96&p0.vi=modern) <br/>
 A Prayer and Lamentation on that Sad Blow, 1651 <br/>
 An Elegy upon His Death by Sir Christopher Wyvill <br/>
