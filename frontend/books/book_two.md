@@ -21,7 +21,7 @@ _Book 2_ covers material no later than the first year of her widowhood (1668-9) 
 
 ## Contents
 
-Job 10:20 <br/>
+[Job 10:20](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.1&p0.vi=modern) <br/>
 St Matthew 6:33 <br/>
 Meditations in My Widowed Condition <br/>
 A Prayer for Myself for Support and Comfort <br/>
@@ -31,7 +31,7 @@ Upon the Several Accidents Happened after Mr Thornton's Death and of the Adminis
 A Discourse upon the Preservation and Discovery of My Dear and Honoured Father's Last Will and Testament in the Rebellion of Ireland from the Year 1640 until the Year 1658 <br/>
 Of the Providence to Me in finding the Copy of My Honoured Father's Book of Advice to His Son, George Wandesford <br/>
 Of the Manner how My Honoured Father's Last Will and Testament was Found After the Loss of it for Many Years <br/>
-Prayers and Meditations and Thanksgivings upon the Miraculous Preservation of My Dear and Honoured Father's Book of Advice to His Son, George; as also, upon the Deliverance of His Last Will and Testament from Destruction and of its being Produced again in Mercy, by which Means the Family was Preserved from Ruin in the Year 1656 <br/>
+[Prayers and Meditations and Thanksgivings upon the Miraculous Preservation of My Dear and Honoured Father's Book of Advice to His Son, George; as also, upon the Deliverance of His Last Will and Testament from Destruction and of its being Produced again in Mercy, by which Means the Family was Preserved from Ruin in the Year 1656](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.85&p0.vi=modern) <br/>
 Prayers, Meditations and Thanksgivings to God for his Infinite Mercies and Deliverances showed to Me, since I was Born until I came into my Widow Estate, September 17th in the Year 1668, with an Account of His Blessings <br/>
 Prayers and Meditations and Thanksgivings upon the Change of My Condition from a Virgin Estate, since I came in to a Married Estate of Life, which was Full of Trouble, Sorrow and Changes in both My Body and Fortune, Since December 15th, 1651 <br/>
 Upon My Great Deliverances and Mercies received of My First Child and the Sicknesses which followed (Nine Months, Beginning August 6, 1652 lasted until May 12th, 1653) <br/>
