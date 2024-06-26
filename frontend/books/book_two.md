@@ -13,7 +13,9 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 ## Description (Coming soon)
 
-## Provenance (Coming soon)
+## Provenance 
+
+Owned by Thornton’s great, great grandson, Thomas Comber of Creech St Michael, Somerset (1800); Rev. Henry George Wandesford Comber, MA, Rector of Oswaldkirk (1875). Given to DCL by A.G. Hickson (1969) and identified by Cordelia Beattie (2019). 
 
 ## Dating
 
