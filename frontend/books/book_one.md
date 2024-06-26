@@ -19,36 +19,37 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’ to circulate in late 1668 (page 196); Thornton also notes that she was writing in that book, about her widowhood, in March 1669 (page 179). If the ‘scandal’ was a key prompt for the writing of _Book 1_, then a dating of c.1668-9 works for the majority of the volume. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 (page 292).
 
-## Contents
+## Contents (using Thornton's Index)
 
-Bishop Hall's Observations <br/>
-A Prayer, the Dedication <br/>
-The Birth of Alice Wandesford, February 13th, 1626 <br/>
-Proverbs, and Preface <br/>
-A Preservation in the Measles, 1630 <br/>
-My having the Smallpox in Kent, 1631 <br/>
-Meditations on Psalm 147: 4 (year 1631) <br/>
-A Preservation from a Fire in London (year 1632) <br/>
-My First Passage into Ireland, 1632 <br/>
-Meditations on St Mathew, at 12 years old, 1638 <br/>
-A Deliverance from Shipwreck, 1639 <br/>
-A Thanksgiving thereupon <br/>
-Observations upon Accidents in Ireland, 1640 <br/>
-A Relation of the Lord Deputy Wandesford's Death <br/>
-Meditations, and Prayer thereupon, December 3rd, 1640 <br/>
-A Prayer made by My Father for the Communion <br/>
-My Mother's Preservation and My Own from the Rebellion in Ireland, October 23 1641 <br/>
-A Thanksgiving for the Same <br/>
-Upon Our coming to Weschester from Ireland <br/>
-Upon My having the Smallpox the Second Time at Chester <br/>
-A Thanksgiving upon My Recovery <br/>
-Of My Mother's Removal to Snape and Kirklington <br/>
-My Preservation from Death in a Sickness <br/>
-The Death of My Sister Danby, September 30th, 1645 <br/>
-The Death of Sir Edward Osborne, My Dear Uncle <br/>
-The Death of My Cousin Edward Norton, 1648 <br/>
-Upon the Beheading of King Charles the Martyr <br/>
-Upon the Death of My Dear Brother George Wandesford <br/>
+[Bishop Hall's Observations](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.1&p0.vi=modern) <br/>
+[A Prayer](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.2&p0.vi=modern) <br/>
+[The Dedication](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.3&p0.vi=modern) <br/>
+[The Birth of Alice Wandesford, February 13th, 1626](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.5&p0.vi=modern) <br/>
+[Proverbs](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.6&p0.vi=modern) <br/>
+[Preface](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.7&p0.vi=modern) <br/>
+[A Preservation in the Measles, 1630](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.8&p0.vi=modern) <br/>
+[My having the Smallpox in Kent, 1631](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.9&p0.vi=modern) <br/>
+[Meditations on Psalm 147: 4 (year 1631)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.10&p0.vi=modern) <br/>
+[A Preservation from a Fire in London (year 1632)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.11&p0.vi=modern) <br/>
+[My First Passage into Ireland, 1632](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.12&p0.vi=modern) <br/>
+[Meditations on St Mathew, at 12 years old, 1638](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.14&p0.vi=modern) <br/>
+[A Deliverance from Shipwreck, 1639](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.15&p0.vi=modern) <br/>
+[A Thanksgiving thereupon](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.17&p0.vi=modern) <br/>
+[Observations upon Accidents in Ireland, 1640](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.20&p0.vi=modern) <br/>
+[A Relation of the Lord Deputy Wandesford's Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.27&p0.vi=modern) <br/>
+[Meditations, and Prayer thereupon, December 3rd, 1640](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.38&p0.vi=modern) <br/>
+[A Prayer made by My Father for the Communion](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.54&p0.vi=modern) <br/>
+[My Mother's Preservation and My Own from the Rebellion in Ireland, October 23 1641](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.62&p0.vi=modern) <br/>
+[A Thanksgiving for the Same](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.67&p0.vi=modern) <br/>
+[Upon Our Coming to Weschester from Ireland; Upon My Having the Smallpox the Second Time at Chester](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.69&p0.vi=modern) <br/>
+[A Thanksgiving upon My Recovery](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.75&p0.vi=modern) <br/>
+[Of My Mother's Removal to Snape and Kirklington](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.77&p0.vi=modern) <br/>
+[My Preservation from Death in a Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.83&p0.vi=modern) <br/>
+[The Death of My Sister Danby, September 30th, 1645](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.85&p0.vi=modern) <br/>
+[The Death of Sir Edward Osborne, My Dear Uncle](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.91&p0.vi=modern) <br/>
+[The Death of My Cousin Edward Norton, 1648](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.92&p0.vi=modern) <br/>
+[Upon the Beheading of King Charles the Martyr](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.93&p0.vi=modern) <br/>
+[Upon the Death of My Dear Brother George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.96&p0.vi=modern) <br/>
 A Prayer and Lamentation on that Sad Blow, 1651 <br/>
 An Elegy upon His Death by Sir Christopher Wyvill <br/>
 Observation of God's Goodness in My Dear Mother's Preservation and Her Child in the Time of the Wars and Distractions <br/>

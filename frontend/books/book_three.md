@@ -19,12 +19,12 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 _Book 3_ covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1692-6. In the text Thornton refers to the fact that her only son to live to adulthood had died, an event which happened on 5 June 1692 (page 152). There is also a marginal comment on page 31, noting that it had been 52 years since the Battle of Marston Moor (1644), which gives a date of 1696.
 
-## Contents
+## Contents (using Thornton's titles)
 
-A Prayer of the Widow to the God of Mercy and Love for His Holy Spirit to support and direct Herself and Family <br/>
-Jeremiah (Chapter 10th, verses 23rd, 24th) <br/>
-An Account of Memorable Affairs and Accidents on Myself and Family and Children, with Deliverances and Meditations thereon since My Widowed Condition, since September 17th 1668 <br/>
-A Relation of Memorable Actions and Afflictions befallen to Me in the First Year of My Widowed Condition since September 17, 1668 <br/>
+[A Prayer of the Widow to the God of Mercy and Love for His Holy Spirit to Support and Direct Herself and Family](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.2&p0.vi=modern) <br/>
+[Jeremiah (Chapter 10th, Verses 23rd, 24th)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.6&p0.vi=modern) <br/>
+[An Account of Memorable Affairs and Accidents on Myself and Family and Children, with Deliverances and Meditations thereon since My Widowed Condition, since September 17th 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.20&p0.vi=modern) <br/>
+[A Relation of Memorable Actions and Afflictions Befallen to Me in the First Year of My Widowed Condition since September 17, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.22&p0.vi=modern) <br/>
 My Widow's Prayer and Petitions to Heaven <br/>
 The Remarkable Passages of My Life with My Three Children and of the Afflictions, Trials, Providences, Mercies and Deliverances Received from God since the Death of My Dear Husband. The First Year of My Widowhood Condition since September 17th, 1668 <br/>
 The First Great and Excellent Goodness of Our Gracious God to Myself in My Preservation in Life from the Death of My Dear Husband's Loss and the Cursed Slanders of My Enemies and those Piercing Griefs which Followed My Desolate Condition <br/>

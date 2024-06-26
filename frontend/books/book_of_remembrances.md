@@ -23,7 +23,7 @@ Owned by Thomas Comber, of Newton-le-Willows (1875); Rev. Mr Edward F. Comber, W
 
 Anselment notes that this volume cannot ‘be dated with any certainty’.[^1] Although the *Book* opens by recording Thornton’s date of birth ([page 3](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.3&p0.vi=modern)) and the first entry is dated 1631 ([page 11](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.11&p0.vi=modern)), the length and detail of the entries increase from 1659 and there is a reference to being called on to give testimony by Lord Danby in the backmatter, which occurred c.1673. Other annotations suggest that Thornton revised her entries. On this basis, we conjecture that the majority of this *Book* was composed between 1659-68.
 
-## Contents
+## Contents (using Thornton's Index)
 
 [The Age of Alice Wandesford](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.3&p0.vi=modern)<br/>
 [The Dedication](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.7&p0.vi=modern)<br/>

@@ -7,7 +7,7 @@ eleventyNavigation:
 
 ## Digital Edition
 
-Over the course of the next year, this project will produce an interactive and fully searchable digital edition of Alice Thornton’s autobiographical ‘Books’ which will be freely accessible here.
+Over the course of the next year, this project will publish an interactive and fully searchable digital edition of Alice Thornton’s autobiographical ‘Books’ which will be freely accessible here.
 
 The text of all four manuscript volumes will be available to read in both fully modernised and semi-diplomatic versions, either separately or side-by-side. As we are using the widely recognised Text Encoding Initiative (TEI) markup schema, the edition will be fully searchable (for example, users will be able to trace people and events across all four volumes).
 
@@ -37,7 +37,7 @@ The text of all four manuscript volumes will be available to read in both fully 
 
 Although we are not digitising the manuscripts, we will provide some sample images from each of the volumes to offer a sense of how the original materials look.
 
-You can now access our [partial release](/books/viewer/?p0.vi=modern) of 103 pages from one book, in both semi-diplomatic and modernised versions. See also our first release of the [search function](/entities/).
+You can now access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions. See also our first release of the [search function](/entities/).
 
 We would appreciate all feedback so please click on the button at the bottom right or email us - alicethorntonsbooks at gmail dot com - to let us know your thoughts.
 
