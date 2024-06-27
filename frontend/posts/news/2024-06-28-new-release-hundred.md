@@ -12,7 +12,7 @@ tags:
 ---
 
 
-As we head into the final six months of the project, we are marking this milestone by sharing the first one hundred pages of all four of Alice Thornton’s *Books* so you can begin to explore her life and writing in greater detail. 
+As we head into the final six months of the project, we are marking this milestone by sharing the first one hundred pages of all four of Alice Thornton’s books so you can begin to explore her life and writing in greater detail. 
 
 ![Side by side view of opening pages]( {{"/assets/img/posts/firstpages.jpg" | url }} "The first pages of all four books side by side.")
 
