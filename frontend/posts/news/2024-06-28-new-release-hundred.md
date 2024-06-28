@@ -1,7 +1,7 @@
 ---
 title: "New Release: First 100 Pages of All Four Books Now Available"
 feature: /assets/img/posts/firstpages.jpg 
-status: draft
+status: live
 authors:
   - strill
 tags:
