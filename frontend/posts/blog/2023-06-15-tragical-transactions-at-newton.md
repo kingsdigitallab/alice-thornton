@@ -10,13 +10,16 @@ tags:
   - letters
 ---
 
+Edited on 30 June 2024 to reflect the fact that [North Yorkshire County Record Office](https://nycroblog.com/) have now located the original copy of the letter, that Joanne Edge had first read on microfilm.
+
+
 Last month, Cordelia Beattie wrote a [blog post](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html) for the British Library's *Untold Lives* series about Thornton's account of her betrayal by her niece, Anne Danby. In Thornton's version of events, she had housed and fed Danby and her maid, Barbara Todd, after they had been thrown out of their accommodation by Danby's sister-in-law, Margaret, in 1667. Yet, instead of being offered their thanks, Thornton claims that Danby, Todd and some of her own maids repaid her by spreading rumours about her relationship with her daughter Nally's suitor, Thomas Comber, who was also living at the Thornton's house at East Newton, while he was curate of Stonegrave minster (their parish church). 
 
 ![Portrait of Thomas Comber hanging on a wall]({{"/assets/img/posts/thomas_comber.jpg" | url}} "Thomas Comber on the wall at Stonegrave Minster. Cordelia Beattie"){.media-left}
 
 The rumours circulating in the summer of 1668 were twofold; first, that Thornton and Comber were conducting an extramarital affair, so her designs for a match with Nally were really because she wanted that affair to continue; and, second, that Thornton had given her husband's money to Comber while he was incapacitated. According to Thornton, not only had Danby conspired with her aunt, Anne Norton, and Norton's daughter, Mary Yorke, to have the match broken off, but that she had also conspired to have Comber married to two other eligible local women: one being her friend, [Mrs Batte](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-21-thornton-and-north-america/);[^1] the other, Katherine Farrer.
 
-However, a rather different version of events is recorded in a letter from Danby to Parson Farrer, which survives on microfilm at the North Yorkshire County Record Office. The letter is dated 10 December, without giving a year, but it is most likely 1668, just three weeks after Nally and Comber were married on 17 November, since the opening address of her letter states, 'I heard yesterday the supposed blessed wedding at Newton is consummated'.[^2]
+However, a rather different version of events is recorded in a letter from Danby to Parson Farrer, which survives at the North Yorkshire County Record Office. The letter is dated 10 December, without giving a year, but it is most likely 1668, just three weeks after Nally and Comber were married on 17 November, since the opening address of her letter states, 'I heard yesterday the supposed blessed wedding at Newton is consummated'.[^2]
 
 The letter opens with a flattering plea to the recipient:
 
@@ -56,7 +59,7 @@ These two versions of events allow for rather different interpretations of Anne 
 
 [^1]: Mrs Batte was Martha, the daughter of John and Martha Batte, baptised at Birstall, Yorkshire on 29 September 1636. She and her family emigrated to Virginia in 1649, where she met Anne Danby and was still living in 1665. By 1667 she was back in Yorkshire in the service of the Countess of Sussex at Howley Hall. 
 
-[^2]: The text quoted above is modernised from Anne Danby to Parson Farrer, 10 December (1668), Cunliffe Lister Muniments (MIC 2281), North Yorkshire County Record Office, unnumbered page 1.
+[^2]: The text quoted above is modernised from Anne Danby to Parson Farrer, 10 December (1668), Cunliffe Lister Muniments (MIC 2281), North Yorkshire County Record Office, unnumbered page 1. 
 
 [^3]: Danby to Farrer, unnumbered page 1.
 
