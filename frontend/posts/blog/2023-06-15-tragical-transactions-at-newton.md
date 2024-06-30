@@ -10,9 +10,6 @@ tags:
   - letters
 ---
 
-Edited on 30 June 2024 to reflect the fact that [North Yorkshire County Record Office](https://nycroblog.com/) have now located the original copy of the letter, that Joanne Edge had first read on microfilm.
-
-
 Last month, Cordelia Beattie wrote a [blog post](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html) for the British Library's *Untold Lives* series about Thornton's account of her betrayal by her niece, Anne Danby. In Thornton's version of events, she had housed and fed Danby and her maid, Barbara Todd, after they had been thrown out of their accommodation by Danby's sister-in-law, Margaret, in 1667. Yet, instead of being offered their thanks, Thornton claims that Danby, Todd and some of her own maids repaid her by spreading rumours about her relationship with her daughter Nally's suitor, Thomas Comber, who was also living at the Thornton's house at East Newton, while he was curate of Stonegrave minster (their parish church). 
 
 ![Portrait of Thomas Comber hanging on a wall]({{"/assets/img/posts/thomas_comber.jpg" | url}} "Thomas Comber on the wall at Stonegrave Minster. Cordelia Beattie"){.media-left}
@@ -56,6 +53,10 @@ Even after such treatment by her aunt, Danby portrays herself as still doing her
 So, why was Anne Danby writing to Parson Farrer? We do not know much about him.[^10] A George Farrer was ordained minister of Thornton Watlass in 1635, and his patron was Sir Thomas Danby, Anne's father-in-law.[^11] Thornton mentions Mr Farrer at Malton in the late 1660s, who may have been a chaplain at the Malton household of the Eure family.[^12] Given his age, and the information in Danby's letter that he was a relation of Katherine Farrer (Comber's other potential partner), he was likely either Katherine's father or perhaps uncle. As Danby had been implicated in suggesting the match between Katherine Farrer and Comber, this might explain why she wrote this letter giving her side of the story.
 
 These two versions of events allow for rather different interpretations of Anne Danby's character: was she the dutiful niece she made herself out to be or had she, as her aunt claimed, been at the centre of the rumours about Thornton, Comber and Nally? 
+
+
+Post edited on 30 June 2024 to reflect the fact that [North Yorkshire County Record Office](https://nycroblog.com/) have now located the original copy of the letter, that Joanne Edge had first read on microfilm.
+
 
 [^1]: Mrs Batte was Martha, the daughter of John and Martha Batte, baptised at Birstall, Yorkshire on 29 September 1636. She and her family emigrated to Virginia in 1649, where she met Anne Danby and was still living in 1665. By 1667 she was back in Yorkshire in the service of the Countess of Sussex at Howley Hall. 
 
