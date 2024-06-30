@@ -54,6 +54,7 @@ So, why was Anne Danby writing to Parson Farrer? We do not know much about him.[
 
 These two versions of events allow for rather different interpretations of Anne Danby's character: was she the dutiful niece she made herself out to be or had she, as her aunt claimed, been at the centre of the rumours about Thornton, Comber and Nally? 
 
+<p>&nbsp;</p>
 
 Post edited on 30 June 2024 to reflect the fact that [North Yorkshire County Record Office](https://nycroblog.com/) have now located the original copy of the letter, that Joanne Edge had first read on microfilm.
 
