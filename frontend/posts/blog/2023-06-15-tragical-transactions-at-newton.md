@@ -56,7 +56,7 @@ These two versions of events allow for rather different interpretations of Anne 
 
 <p>&nbsp;</p>
 
-Post edited on 30 June 2024 to reflect the fact that [North Yorkshire County Record Office](https://nycroblog.com/) have now located the original copy of the letter, that Joanne Edge had first read on microfilm.
+Post edited on 30 June 2024 to reflect the fact that [North Yorkshire County Record Office](https://archivesunlocked.northyorks.gov.uk/CalmView/default.aspx) have now located the original copy of the letter, that Joanne Edge had first read on microfilm.
 
 
 [^1]: Mrs Batte was Martha, the daughter of John and Martha Batte, baptised at Birstall, Yorkshire on 29 September 1636. She and her family emigrated to Virginia in 1649, where she met Anne Danby and was still living in 1665. By 1667 she was back in Yorkshire in the service of the Countess of Sussex at Howley Hall. 
