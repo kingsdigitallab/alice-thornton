@@ -62,6 +62,6 @@ Alice and William were married for seventeen years and during that time she gave
 
 Alice then spent her widowed years dealing with the ramifications of this while trying to raise her three children. The oldest, Nally, was married to the local minister, Thomas Comber, not long after William’s death. Alice herself had already been the subject of gossip about her close relationship to Thomas and this sudden marriage - when Nally was just fourteen - caused further scandal. Katherine married in 1682 and Robert was intended for a career in the church but he died in 1692.
 
-Alice Thornton continued to live at East Newton Hall in Ryedale until her own death in 1707 but in the final years the property was owned by her son-in-law, Thomas Comber, who provided her with an annual pension on which to live.
+Alice Thornton continued to live at East Newton Hall in Ryedale until her own death in 1707 but, after her son's death, the property was owned by her son-in-law, Thomas Comber, who provided her with an annual pension on which to live, then his widow, her oldest daughter.
 
 In her will, Alice Thornton made bequests to improve her local church, Stonegrave Minster, which her estate could not afford; so, perhaps her most important gift was that of her own writings, which stayed in Comber family hands for hundreds of years before their eventual acquisition by the British Library and Durham Cathedral.
