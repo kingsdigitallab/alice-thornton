@@ -5,9 +5,9 @@ status: live
 authors:
   - strill
 tags:
- - digital edition
-  - TEI
-  - manuscripts
+- digital edition
+- TEI
+- manuscripts
 
 ---
 
