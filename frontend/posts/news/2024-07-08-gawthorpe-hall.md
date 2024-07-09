@@ -1,7 +1,7 @@
 ---
 title: "Project PI to speak at Gawthorpe Hall"
 feature: /assets/img/posts/gawthorpe.jpg 
-status: draft
+status: live
 authors:
   - ethom
 tags:
