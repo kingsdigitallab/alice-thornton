@@ -1,6 +1,6 @@
 ---
 title: "Project PI collaborates on Thornton blog with North Yorkshire Archives"
-feature: /assets/image/posts/Alice_Wandesford_Baptism.jpg
+feature: /assets/img/posts/alice-thornton-signature.jpg
 status: live
 authors:
   - jedge
