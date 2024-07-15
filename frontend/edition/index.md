@@ -101,28 +101,21 @@ eleventyNavigation:
     <li class="blank">Blank page or lines<br>
       <span>grey brackets (details supplied within)</span>
     </li>
-    <li>Page title heading<br>
-      <span>largest size, centred, bold font</span>
-      <ul>
-      <li>Other headings and some dates<br>
+    <li class="largebold">Page title heading<br>
+      <span>largest size, centred, bold font</span> </li>
+      <li class="mediumbold">Other headings and some dates<br>
       <span>medium size, centred, bold font</span>
       </li>
-      <li>(Running) headers like dates <br>
+      <li class="running">(Running) headers like dates <br>
         <span>medium size, centred, font</span>
       </li>
-      </ul>
+    <li class="pnumber">
+      Page number in the author's original book<br><span>Number in italics, top left of display</span>
     </li>
-
-    <li>
-      Page number in the author's original book<br><span>Number bottom left of display</span>
-    </li>
-    <li>
-      Items are bracketed together<br><span>Curly bracket on the right of text</span>
-    </li>  
-      <li>
-      Marginal comment<br><span>Displayed in left margin </span>
-    </li>  
+    <li class="cut">Physical damage on page<br><span>grey brackets (details supplied within)</span>
+    </li>   
     </ul>
+    
         <div class="features">
     <h3>Discursive and Contextual Features </h3>
   <ul>
@@ -138,8 +131,15 @@ eleventyNavigation:
       <span>text placed higher on a note icon</span>
     </li>
     <li>visual elements/drawings by the author<br><span>gylphs</span>
-    </li>
+          <li>
+      Marginal comment<br><span>Displayed in left margin </span>
+    </li> 
     </ul>
+   
+
+
+
+
           </div>
       <div class="editorial">
     <h3>Editorial Interventions</h3>
@@ -158,7 +158,6 @@ eleventyNavigation:
     </ul>
           </div>  
         </div>
-      </div>
       </div>
       <div class="tab">
         <input type="radio" id="tab-2" name="tab-group-1">

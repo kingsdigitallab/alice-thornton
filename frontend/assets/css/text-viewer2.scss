@@ -531,31 +531,43 @@ section {
                     color: gray;
                   } //before
                 } 
+                &.largebold {
+                  //Page title heading
+                  &:before {
+                    font-size: 32px;
+                    font-weight: bold;
+                  } //before
+                } 
+                &.mediumbold{
+                  //Other headers
+                  &:before {
+                    font-size: 24px;
+                    font-weight: bold;
+                  } //before
+                } 
+                &.running {
+                  //Running headers
+                  &:before {
+                    font-size: 24px;
+                  } //before
+                } //
 
-                /**&.cut {
+                &.pnumber {
+                  // Author's page numbers
+                  &:before {
+                    content: "37";
+                    font-size:16px;
+                    font-style: italic;
+                    font-weight:300;
+                  } //before
+                } 
+                &.cut {
                   //Physical damage
                   &:before {
                     content: "[cut]";
-                    position: absolute;
-                    left: 20px;
-                    font-size: 1em;
-                    line-height: 0.7;
-                    font-weight: normal;
                     color: gray;
                   } //before
-                } //&:nth-child(3)
-    
-
-    
-                &:nth-child(22) {
-                  // Author's page numbers
-                  &:before {
-                    content: "1";
-                    position: absolute;
-                    left: 20px;
-                    font-weight: normal;
-                  } //before
-                } //&:nth-child(5)**/  
+                } 
               } //li
             } //ul
 
@@ -578,62 +590,14 @@ section {
 
 
 
-                &:nth-child(1) {
-                  //Page title heading
-                  &:before {
-                    content: "a";
-                    position: absolute;
-                    left: 20px;
-                    font-size: 1.7em;
-                    line-height: 0.7;
-                    font-weight: bold;
-                  } //before
-                } //&:nth-child(1)
-                &:nth-child(2) {
-                  //Other headers
-                  &:before {
-                    content: "a";
-                    position: absolute;
-                    left: 20px;
-                    font-size: 1.3em;
-                    line-height: 0.7;
-                    font-weight: bold;
-                  } //before
-                } //&:nth-child(2)
 
-                &:nth-child(3) {
-                  //Running headers
-                  &:before {
-                    content: "a";
-                    position: absolute;
-                    left: 20px;
-                    font-size: 1.3em;
-                    line-height: 0.7;
-                    font-weight: normal;
-                  } //before
-                } //&:nth-child(3)
 
-                &:nth-child(4) {
-                  //Blank page or lines
-                  &:before {
-                    content: "[ ]";
-                    position: absolute;
-                    left: 20px;
-                    line-height: 0.7;
-                    font-weight: normal;
-                    color: gray;
-                  } //before
-                } //&:nth-child(4)
 
-                &:nth-child(5) {
-                  // Author's page numbers
-                  &:before {
-                    content: "37";
-                    position: absolute;
-                    left: 20px;
-                    font-weight: normal;
-                  } //before
-                } //&:nth-child(5)
+
+
+
+
+
 
                 &:nth-child(6) {
                   // Curly bracket
