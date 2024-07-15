@@ -81,9 +81,9 @@ eleventyNavigation:
           name="tab-group-1"
           checked>
         <label for="tab-1">
-          <i class="fas fa-list"></i><h2>Legend</h2></label>
+          <i class="fas fa-key"></i><h2>Key</h2></label>
         <div class="content"> 
-        <h2>Legend</h2>
+        <h2>Key</h2>
     <h3>Transcription</h3>
   <ul>
     <li class="monogram">Alice Thornton’s monogram<br><span>cursive font (replicating handwriting)</span></li>
