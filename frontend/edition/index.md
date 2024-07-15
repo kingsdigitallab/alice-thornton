@@ -84,21 +84,35 @@ eleventyNavigation:
           <i class="fas fa-list"></i><h2>Legend</h2></label>
         <div class="content"> 
         <h2>Legend</h2>
-  <div class="textblock">  
-    <h3>Text block</h3>
+    <h3>Transcription</h3>
   <ul>
+    <li class="monogram">Alice Thornton’s monogram<br><span>cursive font (replicating handwriting)</span></li>
+    <li class="additions">Authorial additions<br><span>text in italics</span></li>
+    <li class="superscript">Authorial insertions/contractions <br><span>superscript - text placed higher</span></li>
+    <li class="dashed">Authorial repetition <br><span>dashed box around the material</span></li>
+    <li class="bracket">Items bracketed together <br><span>Curly bracket on the right of text</span></li>
+    <li class="strikethrough">Text deleted by author <br><span>strikethrough – words or characters are crossed through with a line</span></li>
+    <li class="heart">Use of heart symbol instead of the word 'heart'<br>
+      <span>Heart icon - a glyph or non-standard character</span>
+    </li>
+    </ul>
+ <h3>Text block</h3>
+  <ul>
+    <li class="blank">Blank page or lines<br>
+      <span>grey brackets (details supplied within)</span>
+    </li>
     <li>Page title heading<br>
       <span>largest size, centred, bold font</span>
-    </li>
-    <li>Other headings and some dates<br>
+      <ul>
+      <li>Other headings and some dates<br>
       <span>medium size, centred, bold font</span>
+      </li>
+      <li>(Running) headers like dates <br>
+        <span>medium size, centred, font</span>
+      </li>
+      </ul>
     </li>
-    <li>(Running) headers like dates <br>
-      <span>medium size, centred, font</span>
-    </li>
-    <li>Blank page or lines<br>
-      <span>grey brackets with information within</span>
-    </li>
+
     <li>
       Page number in the author's original book<br><span>Number bottom left of display</span>
     </li>
@@ -109,28 +123,6 @@ eleventyNavigation:
       Marginal comment<br><span>Displayed in left margin </span>
     </li>  
     </ul>
-    <div class="transcription">  
-    <h3>Transcription</h3>
-  <ul>
-    <li>Addition information added by the author<br>
-      <span>text placed higher on a note icon</span>
-    </li>
-    <li>Thornton frequently uses the heart symbol instead of the word 'heart' in her books.<br>
-      <span>Heart icon - a glyph or non-standard character</span>
-    </li>
-    <li>Physical Damage on page<br>
-      <span>grey brackets with information of damage within (e.g. cut, tear, deletion)</span>
-    </li> 
-    <li>Text deleted by author<br>
-      <span>strikethrough</span>
-    </li>
-    <li>Author's superscript for some letters <br>
-      <span>superscript - small font size, text placed higher</span>
-    </li>
-    <li>visual elements/drawings by the author<br><span>gylphs</span>
-    </li>
-    </ul>
-          </div>
         <div class="features">
     <h3>Discursive and Contextual Features </h3>
   <ul>
@@ -139,6 +131,14 @@ eleventyNavigation:
     <li>Entity (⏷ Place) <br><span>dashed underline </span></li>
       <li>Entity (■ Event) <br><span>dashed underline </span></li>
       <li>Biblical reference <br><span>cross icon </span></li>
+          <li class="cut">Physical Damage on page<br>
+      <span>grey brackets with information of damage within (e.g. cut, tear, deletion)</span>
+    </li> 
+    <li class="addition">Addition information added by the author<br>
+      <span>text placed higher on a note icon</span>
+    </li>
+    <li>visual elements/drawings by the author<br><span>gylphs</span>
+    </li>
     </ul>
           </div>
       <div class="editorial">
@@ -176,7 +176,6 @@ eleventyNavigation:
           </div>
           <!-- <br> -->
           <!-- <p>Other contributors include the Solution Development Team on our <a href="/about/">About Page</a>.</p> -->
-        </div>
       </div>
       <div class="tab" v-if="!hidePrintLink">
         <input type="radio" id="tab-3" name="tab-group-1">
