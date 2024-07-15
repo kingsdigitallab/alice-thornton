@@ -568,6 +568,111 @@ section {
                     color: gray;
                   } //before
                 } 
+                &.enotes {
+                  // Editorial Notes
+                  &:before {
+                    content: "❏";
+                    color: gray;
+                  } //before
+                } //&:nth-child(1)
+                &.glossary {
+                  &:before {
+                    content: "";
+                    border-bottom: 3px double chocolate;
+                    width: 0.7em;
+                    height: 0.7em;
+                  } //before
+                } //
+                &.person {
+                  //Entity Person
+                  &:before {
+                    content: "";
+                    border-bottom: 1px dashed gray;
+                    width: 0.9em;
+                    height: 0.7em;
+                  } //before
+                  &:after {
+                    content: "";
+                    width: 0.7em;
+                    height: 0.7em;
+                    position: absolute;
+                    left: 20px;
+                    background:// ** Eyes
+                      radial-gradient(
+                      //left eye
+                      90% 80% ellipse at 45% 25%,
+                      //size%(width, height) ellipse at position%(left,top)
+                      royalblue 30%,
+                      //color size
+                      transparent 0
+                    ); //color size
+                  } //after
+                } //&:nth-child(2)
+                &.place {
+                  //Entity Place
+                  &:before {
+                    content: "";
+                    border-bottom: 1px dashed gray;
+                    width: 0.9em;
+                    height: 0.7em;
+                  } //before
+                  &:after {
+                    content: "";
+                    width: 0.7em;
+                    height: 0.9em;
+                    position: absolute;
+                    left: 20px;
+                    background:// ** Triangle
+                      conic-gradient(
+                        royalblue 0 25deg,
+                        transparent 25deg 335deg,
+                        royalblue 335deg 360deg
+                      )
+                      50% 100%/100% 100% no-repeat; //position%(left,top) size%(width, height)
+                  } //after
+                } //&:nth-child(3)
+                &.event {
+                  //Entity Event
+                  &:before {
+                    content: "";
+                    border-bottom: 1px dashed gray;
+                    width: 0.9em;
+                    height: 0.7em;
+                  } //before
+                  &:after {
+                    content: "";
+                    width: 0.35em;
+                    height: 0.35em;
+                    position: absolute;
+                    left: 22px;
+                    background: royalblue;
+                  } //after
+                } 
+              &.biblical {
+                  //Biblical reference
+                  &:before {
+                    content: "";
+                    border-bottom: 1px dashed gray;
+                    width: 0.9em;
+                    height: 0.7em;
+                  } //before
+                  &:after {
+                    content: "✝";
+                    width: 0.7em;
+                    height: 0.7em;
+                    position: absolute;
+                    left: 22px;
+                    margin-top: -7px;
+                    color: gray;
+                    font-size: 13px;
+                  } //after
+                } //&:nth-child(5)
+
+
+
+
+
+
               } //li
             } //ul
 
@@ -587,18 +692,6 @@ section {
                   font-weight: normal;
                   font-size: 0.9em;
                 }
-
-
-
-
-
-
-
-
-
-
-
-
                 &:nth-child(6) {
                   // Curly bracket
                   &:before {
@@ -676,98 +769,8 @@ section {
                 line-height: 1;
               } //before
             } //&:nth-child(1)
-            &:nth-child(2) {
-              //Entity Person
-              &:before {
-                content: "";
-                border-bottom: 1px dashed gray;
-                width: 0.7em;
-                height: 0.7em;
-                position: absolute;
-                left: 30px;
-              } //before
-              &:after {
-                content: "";
-                width: 0.7em;
-                height: 0.7em;
-                position: absolute;
-                left: 30px;
-                background:// ** Eyes
-                  radial-gradient(
-                  //left eye
-                  90% 80% ellipse at 45% 25%,
-                  //size%(width, height) ellipse at position%(left,top)
-                  gray 30%,
-                  //color size
-                  transparent 0
-                ); //color size
-              } //after
-            } //&:nth-child(2)
-            &:nth-child(3) {
-              //Entity Place
-              &:before {
-                content: "";
-                border-bottom: 1px dashed gray;
-                width: 0.7em;
-                height: 0.7em;
-                position: absolute;
-                left: 30px;
-              } //before
-              &:after {
-                content: "";
-                width: 0.7em;
-                height: 0.9em;
-                position: absolute;
-                left: 30px;
-                background:// ** Triangle
-                  conic-gradient(
-                    gray 0 25deg,
-                    transparent 25deg 335deg,
-                    gray 335deg 360deg
-                  )
-                  50% 100%/100% 100% no-repeat; //position%(left,top) size%(width, height)
-              } //after
-            } //&:nth-child(3)
-            &:nth-child(4) {
-              //Entity Event
-              &:before {
-                content: "";
-                border-bottom: 1px dashed gray;
-                width: 0.9em;
-                height: 0.7em;
-                position: absolute;
-                left: 10px;
-              } //before
-              &:after {
-                content: "";
-                width: 0.35em;
-                height: 0.35em;
-                position: absolute;
-                left: 10px;
-                background: gray;
-              } //after
-            } //&:nth-child(4)
-            &:nth-child(5) {
-              //Biblical reference
-              &:before {
-                content: "";
-                border-bottom: 1px dashed gray;
-                width: 0.9em;
-                height: 0.7em;
-                position: absolute;
-                left: 10px;
-              } //before
-              &:after {
-                content: "✝";
-                width: 0.7em;
-                height: 0.7em;
-                position: absolute;
-                left: 10px;
-                margin-top: -7px;
-                color: gray;
-                font-size: 13px;
-              } //after
-            } //&:nth-child(5)
+          
+
           } //li
         } //ul
       } //.features

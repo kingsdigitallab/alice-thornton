@@ -115,15 +115,19 @@ eleventyNavigation:
     <li class="cut">Physical damage on page<br><span>grey brackets (details supplied within)</span>
     </li>   
     </ul>
-    
+    <h3>Contextual Materials</h3>
+    <ul>
+    <li class="enotes">Editorial Notes<br><span>note icon (number in square brackets) intext</span></li>
+    <li class="glossary">Glossary<br><span>dashed underline (orange) </span></li>
+    <li class="person">Entity (● Person) <br><span>dashed underline with circle at the </span></li>
+    <li class="place">Entity (⏷ Place) <br><span>dashed underline </span></li>
+    <li class="event">Entity (■ Event) <br><span>dashed underline </span></li>
+    <li class="biblical">Biblical reference <br><span>cross icon </span></li>
+    </ul>
         <div class="features">
     <h3>Discursive and Contextual Features </h3>
   <ul>
   <li>a person's name/monogram<br><span>cursive font (replicating handwriting)</span></li>
-    <li>Entity (● Person) <br><span>dashed underline with circle at the </span></li>
-    <li>Entity (⏷ Place) <br><span>dashed underline </span></li>
-      <li>Entity (■ Event) <br><span>dashed underline </span></li>
-      <li>Biblical reference <br><span>cross icon </span></li>
           <li class="cut">Physical Damage on page<br>
       <span>grey brackets with information of damage within (e.g. cut, tear, deletion)</span>
     </li> 
@@ -136,15 +140,11 @@ eleventyNavigation:
     </li> 
     </ul>
    
-
-
-
-
           </div>
       <div class="editorial">
     <h3>Editorial Interventions</h3>
   <ul>
-  <li>Editorial Notes<br><span>note icon on side margin</span></li>
+  
   <li>Glossary<br><span>double underline</span></li>
     <li>material interpreted as superfluous<br><span>dashed box around the material</span> </li>
       <li>page number missing from original book<br><span>Square brackets around number</span> </li>
