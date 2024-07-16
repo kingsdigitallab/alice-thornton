@@ -103,12 +103,12 @@ eleventyNavigation:
     </ul>
     <h3>Contextual Materials</h3>
     <ul>
-    <li class="enotes">Editorial Notes<br><span>note icon (number in square brackets) intext</span></li>
-    <li class="glossary">Glossary<br><span>dashed underline (orange) </span></li>
-    <li class="person">Entity (● Person) <br><span>dashed underline (blue) with circle at the start </span></li>
-    <li class="place">Entity (⏷ Place) <br><span>dashed underline (blue)with triangle at the start </span></li>
-    <li class="event">Entity (■ Event) <br><span>dashed underline (blue)with square at the start </span></li>
-    <li class="biblical">Biblical reference <br><span>cross icon </span></li>
+    <li class="enotes">Editorial Notes<br><span>number in note icon intext</span></li>
+    <li class="glossary">Glossary<br><span>double underline </span></li>
+    <li class="person">Entity (● Person) <br><span>dashed underline (circle icon) </span></li>
+    <li class="place">Entity (⏷ Place) <br><span>dashed underline (triangle icon) </span></li>
+    <li class="event">Entity (■ Event) <br><span>dashed underline (square icon) </span></li>
+    <li class="biblical">Biblical reference <br><span>gray black underline (cross icon) </span></li>
     </ul> 
     <h3>Images</h3>
   <ul>

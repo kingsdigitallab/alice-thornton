@@ -590,14 +590,18 @@ section {
                 &.enotes {
                   // Editorial Notes
                   &:before {
-                    content: "❏";
-                    color: gray;
+                    content: "1";
+                    border: 1px solid lightgray;
+                    box-shadow: 1px 1px 1px gray;
+                    padding: 2px 3px;
+                    font-size: 12px;
                   } //before
                 } //&:nth-child(1)
                 &.glossary {
                   &:before {
                     content: "";
-                    border-bottom: 3px double chocolate;
+                    //border-bottom: 3px double chocolate;
+                    border-bottom: 3px double gray;
                     width: 0.7em;
                     height: 0.7em;
                   } //before
@@ -621,7 +625,7 @@ section {
                       //left eye
                       90% 80% ellipse at 45% 25%,
                       //size%(width, height) ellipse at position%(left,top)
-                      royalblue 30%,
+                      gray 30%,
                       //color size
                       transparent 0
                     ); //color size
@@ -643,9 +647,9 @@ section {
                     left: 20px;
                     background:// ** Triangle
                       conic-gradient(
-                        royalblue 0 25deg,
+                        gray 0 25deg,
                         transparent 25deg 335deg,
-                        royalblue 335deg 360deg
+                        gray 335deg 360deg
                       )
                       50% 100%/100% 100% no-repeat; //position%(left,top) size%(width, height)
                   } //after
@@ -664,7 +668,7 @@ section {
                     height: 0.35em;
                     position: absolute;
                     left: 23px;
-                    background: royalblue;
+                    background: gray;
                   } //after
                 } 
               &.biblical {
@@ -682,7 +686,7 @@ section {
                     position: absolute;
                     left: 23px;
                     margin-top: -7px;
-                    color: gray;
+                    color: black;
                     font-size: 13px;
                   } //after
                 } 
