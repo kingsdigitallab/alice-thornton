@@ -1067,6 +1067,10 @@ $render-sic: false;
     } @else {
       *[data-tei-place="above"] {
         vertical-align: super;
+
+
+
+        
       }
     }
 
@@ -1301,10 +1305,45 @@ $render-sic: false;
 
   .has-info-box {
     position: relative;
-    border-bottom: 3px dotted #457b9d;
-
-    &.tei-term {
-      border-bottom-color: #e07a5f
+    border-bottom: 1px dashed gray;
+    &.tei-placeName{
+      &:before{
+        content: "";
+        width: 0.7em;
+        height: 0.9em;
+        position: absolute;
+        left: 0;
+        bottom: -19px;
+        background: conic-gradient(gray 0 25deg, transparent 25deg 335deg, gray 335deg 360deg) 50% 100%/100% 100% no-repeat;
+      }
+    }
+    &.tei-type-person{
+      &:before{
+      content: "";
+      width: 0.7em;
+      height: 0.7em;
+      position: absolute;
+      left: 0;
+      bottom: -16px;
+      background: radial-gradient(90% 80% ellipse at 45% 25%, gray 30%, transparent 0);
+      }
+    }
+    &.tei-quote { //biblical ref
+      padding-bottom: 4px;
+      border-bottom: 1px solid gray;
+      &:before{
+        content: "✝";
+        width: 0.7em;
+        height: 0.7em;
+        position: absolute;
+        left: 0;
+        top: 14px;
+        color: black;
+        font-size: 13px;
+      }
+    }
+    &.tei-term { //glossary
+      border-bottom: 3px double gray;
     }
 
     &.tei-g {
@@ -1315,10 +1354,7 @@ $render-sic: false;
       border-bottom: none;
     }
 
-    &.tei-quote {
-      padding-bottom: 4px;
-      border-bottom-color: #6a994e;
-    }
+
 
     &:hover {
       border-bottom-style: solid;
