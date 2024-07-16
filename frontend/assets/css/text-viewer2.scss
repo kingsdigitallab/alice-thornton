@@ -1067,10 +1067,20 @@ $render-sic: false;
     } @else {
       *[data-tei-place="above"] {
         vertical-align: super;
+        position:relative;
+      &:before{
+        content: "∧";
+        width: 0.7em;
+        height: 0.7em;
+        position: absolute;
+        left: -1px;
+        top: 4px;
+        color: black;
+        font-size: 14px;
+      }
 
 
 
-        
       }
     }
 
