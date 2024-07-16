@@ -30,6 +30,14 @@ eleventyNavigation:
           <p class="panel-heading">
             {{ facet.title }}
           </p>
+          <div class="panel-block facet-any-or-all" v-if="facetKey == 'books'">
+            <p>
+              Match
+              <label><input type="radio" name="filterByAnyOrAllBooks" value="any" v-model="selection.filterByAnyOrAllBooks">Any</label>
+              &nbsp;
+              <label><input type="radio" name="filterByAnyOrAllBooks" value="all" v-model="selection.filterByAnyOrAllBooks">All</label>
+            </p>
+          </div>
           <div class="panel-block">
             <ul class="undecorated-list">
               <li v-for="option in getBuckets(facet)">

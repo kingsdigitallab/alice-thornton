@@ -27,6 +27,7 @@ function setUpSearch() {
           type: "", // ??? unused?
           perPage: 10,
           page: 1,
+          filterByAnyOrAllBooks: "any",
         },
         _facets: {
           type: {
@@ -75,11 +76,13 @@ function setUpSearch() {
             books: {
               title: "By book",
               size: 5,
-              conjunction: false,
+              sort: "key",
+              conjunction: this.selection.filterByAnyOrAllBooks == "all",
             },
             type: {
               title: "By result type",
               size: 10,
+              sort: "key",
               conjunction: false,
             },
             cat: {
@@ -154,6 +157,12 @@ function setUpSearch() {
       //   },
       //   deep: true,
       // },
+      "selection.filterByAnyOrAllBooks": {
+        // eslint-disable-next-line
+        handler(newValue, oldValue) {
+          this.configureSearch();
+        },
+      },
     },
     methods: {
       isBioVisible(item) {
@@ -294,12 +303,12 @@ function setUpSearch() {
             this.meta = data.meta;
             this.records = data.data;
             this.processRecords();
-            this.itemsjs = window.itemsjs(
-              this.records,
-              this.searchConfiguration
-            );
-            this.search();
+            this.configureSearch();
           });
+      },
+      configureSearch() {
+        this.itemsjs = window.itemsjs(this.records, this.searchConfiguration);
+        this.search();
       },
       processRecords() {
         // for (let record of this.records) {
