@@ -60,20 +60,6 @@ eleventyNavigation:
     <h1><span>Information for:</span>{{ drawerTitle }}</h1>
     <div class="tabs">
       <label>BOOK</label>
-           <div class="tab">
-        <input type="radio" id="tab-0" name="tab-group-1">
-        <label for="tab-0">
-          <i class="fas fa-pen-fancy"></i>
-          <h2>Editorial Principles</h2>
-        </label>
-        <div class="content">
-          <h2>Editorial Principles</h2>
-          <h3>Semi-diplomatic</h3>
-          <p>The semi-diplomatic version of the text retains some original textual features, including original lineation, paragraphing, punctuation, spelling and capitalisation. It also includes evidence of authorial corrections, such as insertions and deletions. However, to make this version more accessible we have silently modernised Thornton’s use of u/v, i/j and long S, and expanded her contractions of words such as ‘the’, ‘which’, and ‘that’ (from ye, wch and yt). </p>
-          <h3>Modernised</h3>
-          <p>This version modernises according to the conventions of UK English, supplemented by Chicago Manual of Style (CMS) referencing recommendations. To retain a sense of Thornton’s distinctive voice, we have retained archaic forms and provided glosses. Sometimes this means that Thornton’s syntax deviates from modern expectations, especially regarding single/plural subject/verb agreement. Occasionally, further intervention is required to clarify sense; in these cases, supplied materials are identified by square brackets. </p>
-        </div>
-      </div>
       <div class="tab">
         <input
           type="radio"
@@ -131,23 +117,6 @@ eleventyNavigation:
     </ul>
         </div>
       </div>
-      <div class="tab">
-        <input type="radio" id="tab-2" name="tab-group-1">
-        <label for="tab-2">
-          <i class="fas fa-quote-left"></i>
-          <h2>Citation</h2>
-        </label>
-        <div class="content">
-          <h2>Citation</h2>
-          <!-- <p>Cite the Research team that worked on this page of the digital edition</p> -->
-          <div class="citation">
-            <p v-html="selectedPanelCitation"></p>
-            <button class="button is-secondary" @click="onClickCopyCitation()"><i class="far fa-copy"></i> &nbsp;
-              Copy</button>
-          </div>
-          <!-- <br> -->
-          <!-- <p>Other contributors include the Solution Development Team on our <a href="/about/">About Page</a>.</p> -->
-      </div>
       <div class="tab" v-if="!hidePrintLink">
         <input type="radio" id="tab-3" name="tab-group-1">
         <label for="tab-3">
@@ -175,10 +144,41 @@ eleventyNavigation:
             <i class="fas fa-filter"></i> &nbsp; Search and Filter</a>
         </div>
       </div>
-      <br>
-      <!--TO: Commenting out for first release --
-      <label>PAGE</label>
       <div class="tab">
+        <input type="radio" id="tab-0" name="tab-group-1">
+        <label for="tab-0">
+          <i class="fas fa-pen-fancy"></i>
+          <h2>Editorial Principles</h2>
+        </label>
+        <div class="content">
+          <h2>Editorial Principles</h2>
+          <h3>Semi-diplomatic</h3>
+          <p>The semi-diplomatic version of the text retains some original textual features, including original lineation, paragraphing, punctuation, spelling and capitalisation. It also includes evidence of authorial corrections, such as insertions and deletions. However, to make this version more accessible we have silently modernised Thornton’s use of u/v, i/j and long S, and expanded her contractions of words such as ‘the’, ‘which’, and ‘that’ (from ye, wch and yt). </p>
+          <h3>Modernised</h3>
+          <p>This version modernises according to the conventions of UK English, supplemented by Chicago Manual of Style (CMS) referencing recommendations. To retain a sense of Thornton’s distinctive voice, we have retained archaic forms and provided glosses. Sometimes this means that Thornton’s syntax deviates from modern expectations, especially regarding single/plural subject/verb agreement. Occasionally, further intervention is required to clarify sense; in these cases, supplied materials are identified by square brackets. </p>
+        </div>
+      </div>
+      <br>
+      <label>PAGE</label>
+            <div class="tab">
+        <input type="radio" id="tab-2" name="tab-group-1">
+        <label for="tab-2">
+          <i class="fas fa-quote-left"></i>
+          <h2>Citation</h2>
+        </label>
+        <div class="content">
+          <h2>Citation</h2>
+          <!-- <p>Cite the Research team that worked on this page of the digital edition</p> -->
+          <div class="citation">
+            <p v-html="selectedPanelCitation"></p>
+            <button class="button is-secondary" @click="onClickCopyCitation()"><i class="far fa-copy"></i> &nbsp;
+              Copy</button>
+          </div>
+          <!-- <br> -->
+          <!-- <p>Other contributors include the Solution Development Team on our <a href="/about/">About Page</a>.</p> -->
+      </div>
+      </div>
+      <!--<div class="tab">
         <input
           type="radio"
           id="tab-5"
@@ -310,6 +310,19 @@ eleventyNavigation:
                                             Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
                                             dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
                                             ornare ante.</p>
+        </div>
+      </div>        <div class="tab">
+        <input type="radio" id="tab-0" name="tab-group-1">
+        <label for="tab-0">
+          <i class="fas fa-pen-fancy"></i>
+          <h2>Editorial Principles</h2>
+        </label>
+        <div class="content">
+          <h2>Editorial Principles</h2>
+          <h3>Semi-diplomatic</h3>
+          <p>The semi-diplomatic version of the text retains some original textual features, including original lineation, paragraphing, punctuation, spelling and capitalisation. It also includes evidence of authorial corrections, such as insertions and deletions. However, to make this version more accessible we have silently modernised Thornton’s use of u/v, i/j and long S, and expanded her contractions of words such as ‘the’, ‘which’, and ‘that’ (from ye, wch and yt). </p>
+          <h3>Modernised</h3>
+          <p>This version modernises according to the conventions of UK English, supplemented by Chicago Manual of Style (CMS) referencing recommendations. To retain a sense of Thornton’s distinctive voice, we have retained archaic forms and provided glosses. Sometimes this means that Thornton’s syntax deviates from modern expectations, especially regarding single/plural subject/verb agreement. Occasionally, further intervention is required to clarify sense; in these cases, supplied materials are identified by square brackets. </p>
         </div>
       </div>-->
     </div>
