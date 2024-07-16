@@ -83,6 +83,23 @@ section {
           justify-content: space-between;
           border-bottom: 1px solid $gray-dark;
           flex-wrap: wrap;
+          label {
+            position: absolute;
+            top: 0px;
+            z-index: 9;
+            font-size: 10px;
+            padding-left: 18px;
+            text-transform: uppercase;
+            color: $primary-dark;
+            i {
+              @include transition(all 300ms ease-in-out);
+            }
+            &:hover {
+              i {
+                @include transform(scale(1.6));
+              }
+            }
+          }
           &.bottom {
             bottom: 0;
             height: 60px;
@@ -90,15 +107,6 @@ section {
             border-bottom: none;
             .pagination {
               display: inline;
-            }
-            label {
-              position: absolute;
-              top: 0px;
-              z-index: 9;
-              font-size: 10px;
-              padding-left: 18px;
-              text-transform: uppercase;
-              color: $primary-dark;
             }
             .select-dropdown {
               padding: 7px 8px 5px 8px;
@@ -123,7 +131,7 @@ section {
             }
             &.icon {
               min-width: 60px;
-              height: 50px;
+              height: 55px;
               border-left: 1px solid $gray-dark;
               box-shadow: 0 1px $gray-dark, 0px -1px $gray-dark;
               margin-left: auto;
@@ -184,9 +192,9 @@ section {
             .select-dropdown {
               display: inline-block;
               opacity: 1;
-              padding: 0 8px;
               margin: 0;
               position: relative;
+              padding: 5px 8px 0 8px;
               select {
                 font-size: 20px;
                 border: none;
@@ -200,6 +208,7 @@ section {
                 height: 50px;
                 cursor: pointer;
                 display: inline-block;
+                
               }
               i {
                 width: 30px;
@@ -311,6 +320,7 @@ section {
       cursor: pointer;
       @include transition(all 300ms ease-in);
       width: 60px;
+      padding-left: 0;
       &:focus {
         outline: none;
       } //&:focus
