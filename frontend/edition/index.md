@@ -74,7 +74,7 @@ eleventyNavigation:
   <ul>
     <li class="monogram">Alice Thornton’s monogram<br><span>cursive font (replicating handwriting)</span></li>
     <li class="additions">Authorial additions<br><span>text in italics</span></li>
-    <li class="superscript">Authorial insertions/contractions <br><span>superscript - text placed higher</span></li>
+    <li class="above">Authorial insertions/contractions <br><span>superscript - text placed higher</span></li>
     <li class="dashed">Authorial repetition <br><span>dashed box around the material</span></li>
     <li class="bracket">Items bracketed together <br><span>Curly bracket on the right of text</span></li>
     <li class="strikethrough">Text deleted by author <br><span>strikethrough – words or characters are crossed through with a line</span></li>
