@@ -88,11 +88,11 @@ eleventyNavigation:
       <span>grey brackets (details supplied within)</span>
     </li>
     <li class="largebold">Page title heading<br>
-      <span>largest size, centred, bold font</span> </li>
+      <span>largest size, centred, bold font. grey and black thick underline</span></li>
       <li class="mediumbold">Other headings and some dates<br>
-      <span>medium size, centred, bold font</span>
+      <span>medium size, centred, bold font. grey and black medium underline</span>
       </li>
-      <li class="running">(Running) headers like dates <br>
+      <li class="running">(Running) headers like dates. grey medium underline <br>
         <span>medium size, centred, font</span>
       </li>
     <li class="pnumber">

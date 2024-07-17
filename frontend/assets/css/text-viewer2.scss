@@ -551,22 +551,25 @@ section {
                 &.largebold {
                   //Page title heading
                   &:before {
-                    font-size: 32px;
+                    font-size: 26px;
                     font-weight: bold;
-                    line-height: 0.6;
+                    line-height: 1;
+                    border-bottom: 8px ridge;
                   } //before
                 } 
                 &.mediumbold{
                   //Other headers
                   &:before {
-                    font-size: 24px;
+                    font-size: 22px;
                     font-weight: bold;
+                    border-bottom:4px ridge;
                   } //before
                 } 
                 &.running {
                   //Running headers
                   &:before {
-                    font-size: 24px;
+                    font-size: 22px;
+                    border-bottom: 2px solid;
                   } //before
                 } //
 
@@ -1220,10 +1223,12 @@ $render-sic: false;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 26px;
     // TODO: center in panel, not just text?
     text-align: center;
     word-break: break-word;
+    border-bottom: 8px ridge;
+    padding:8px;
   }
   h2,
   .tei-fw.tei-type-head {
@@ -1232,7 +1237,7 @@ $render-sic: false;
     display: block;
     text-align: center;
     margin-top: 0;
-    border-bottom: 3px solid;
+    border-bottom: 4px ridge;
 
     &:before {
       // removes the decoration applied to the h2 on the rest of the site
@@ -1241,9 +1246,10 @@ $render-sic: false;
   }
   h3,
   .tei-fw.tei-type-header {
-    font-size: 1.4em;
+    font-size: 22px;
     display: block;
     text-align: center;
+    border-bottom: 2px solid;
   }
 
   .tei-docAuthor {
