@@ -698,13 +698,16 @@ section {
                 &.image {
                   //original page image
                   &:before {
-                    margin-top: 0.15em;
-                    background-image: url("https://static.thenounproject.com/png/1192618-200.png");
-                    background-size: 0.9em 0.9em;
-                    width: 0.9em;
-                    height: 0.9em;
-                    content:"";
-                    left:-50px;
+                    content: "\f03e";
+                    font-family: "Font Awesome 5 Free";
+                    font-style: normal;
+                    font-variant-caps: normal;
+                    font-variant-ligatures: normal;
+                    font-weight: 900;
+                    left: -50px;
+                    text-rendering: auto;
+                    line-height:1.2;
+                    -webkit-font-smoothing: antialiased;
                   } //before
                 } //&:nth-child(5)
 
