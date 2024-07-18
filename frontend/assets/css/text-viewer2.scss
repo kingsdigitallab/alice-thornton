@@ -64,7 +64,7 @@ section {
         border: 1px solid $gray-dark;
         max-width: 960px;
         height: calc(100vh - 130px);
-        overflow: scroll;
+        // overflow: scroll;
         flex-direction: column;
         background: white;
         // bottom: calc(50vh + 3.8em);
@@ -239,7 +239,7 @@ section {
         } //nav
         .text-viewer {
           height: calc(100vh - 7em);
-          overflow: scroll;
+          overflow: auto;
           min-height: 30em;
         } //.text-viewer
       } //.panel
@@ -805,7 +805,7 @@ $render-sic: false;
 // -------------------------------------------------
 
 #text-viewer .panel-chunk {
-  overflow: scroll;
+  overflow: auto;  // GN: changed to auto to avoid ugly disabled scrollbar in chrome
   height: calc(90vh - 120px);
   margin: 40px 0 0 0;
   display: flex;
@@ -870,7 +870,7 @@ $render-sic: false;
   min-height: calc(100% - 80px);
   position: relative;
   display: flex;
-  overflow: scroll;
+  overflow: auto; // GN: changed to auto to avoid ugly disabled scrollbar in chrome
   width: 100%;
   &.loaded {
     opacity: 100%;
