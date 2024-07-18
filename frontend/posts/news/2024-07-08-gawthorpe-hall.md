@@ -15,4 +15,4 @@ Project Principal Investigator Cordelia Beattie will give a talk on 'Women's Liv
 The exhibition will be based around the 17th-century Shuttleworth account books, which give a glimpse into what the family bought, ate, where they travelled to and more. Richard Shuttleworth is mentioned in Thornton's *Book 1*. The exhibition will also include new information about the Lancashire witches and rarely seen objects of the period, including the Bourne Casket an embroidered workbox from the 1660s.
 
 [Booking](https://www.nationaltrust.org.uk/visit/liverpool-lancashire/gawthorpe-hall/events/602e153e-fe9f-46ea-8a0b-3a422ef38901) for the talk is essential and the price includes entry to Gawthorpe Hall and the exhibition.  
-
+ 
