@@ -78,12 +78,14 @@ function setUpSearch() {
               size: 5,
               sort: "key",
               conjunction: this.selection.filterByAnyOrAllBooks == "all",
+              chosen_filters_on_top: false,
             },
             type: {
               title: "By result type",
               size: 10,
               sort: "key",
               conjunction: false,
+              chosen_filters_on_top: false,
             },
             cat: {
               title: "By event type",
@@ -223,11 +225,7 @@ function setUpSearch() {
         this.search(true);
       },
       getBuckets(facet) {
-        return facet.buckets.sort((a, b) => {
-          if (a.doc_count < b.doc_count) return 1;
-          if (a.doc_count > b.doc_count) return -1;
-          return 0;
-        });
+        return facet.buckets;
       },
       onClickOption() {
         window.Vue.nextTick(() => {
