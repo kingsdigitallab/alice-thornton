@@ -22,6 +22,14 @@ eleventyNavigation:
   order: 3
 ---
 
+{% if metadata.hideEventsFromViewer %}
+  <style>
+    .dts-fragment .event {
+      display: none;
+    }
+  </style>
+{% endif %}
+
 {% raw %}
 
 <template id="vue-panel-selector">
