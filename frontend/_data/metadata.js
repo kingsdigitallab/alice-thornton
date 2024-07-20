@@ -41,7 +41,8 @@ module.exports = function () {
       hide_print_link: false,
     },
     environment: environment,
-    hideEventsFromSearchPage: false,
+    hideEventsFromSearchPage: ["pre", "liv"].includes(environment),
+    hideEventsFromViewer: !["lcl", "dev"].includes(environment),
     // which of the above metadata to pass to front-end javascript
     // as window.metadata.X
     front_end_vars: [
@@ -85,7 +86,7 @@ module.exports = function () {
       book_two: [1, 101],
       book_three: [1, 103],
     };
-    ret["hideEventsFromSearchPage"] = true;
+    // ret["hideEventsFromSearchPage"] = true;
     ret["text_viewer"]["hide_print_link"] = true;
     // ret["text_viewer"]["can_clone_panel"] = false;
   }
