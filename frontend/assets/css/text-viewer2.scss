@@ -1324,7 +1324,7 @@ $render-sic: false;
   .has-info-box {
     position: relative;
     border-bottom: 1px dashed gray;
-    &.tei-placeName{
+    &.is-place, &.tei-placeName{
       &:before{
         content: "";
         width: 0.7em;
@@ -1335,7 +1335,7 @@ $render-sic: false;
         background: conic-gradient(gray 0 25deg, transparent 25deg 335deg, gray 335deg 360deg) 50% 100%/100% 100% no-repeat;
       }
     }
-    &.tei-type-person{
+    &.is-person, &.tei-type-person{
       &:before{
       content: "";
       width: 0.7em;
@@ -1346,7 +1346,7 @@ $render-sic: false;
       background: radial-gradient(90% 80% ellipse at 45% 25%, gray 30%, transparent 0);
       }
     }
-    &.tei-quote { //biblical ref
+    &.is-quote, &.tei-quote { //biblical ref
       padding-bottom: 4px;
       border-bottom: 1px solid gray;
       &:before{
@@ -1360,15 +1360,15 @@ $render-sic: false;
         font-size: 13px;
       }
     }
-    &.tei-term { //glossary
+    &.is-term, &.tei-term { //glossary
       border-bottom: 3px double gray;
     }
 
-    &.tei-g {
+    &.is-glyph, &.tei-g {
       border-bottom: 2px dotted lightgray;
     }
 
-    &.tei-anchor {
+    &.is-note, &.tei-anchor {
       border-bottom: none;
     }
 

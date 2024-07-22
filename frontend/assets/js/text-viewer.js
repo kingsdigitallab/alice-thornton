@@ -575,7 +575,13 @@ function setUpTextViewer() {
             `span[data-tei-ref="${this.selection.highlightedText}"]`
           );
           highlightedElements.forEach((element) => {
+            // any element with that ID
             element.classList.add("highlighted");
+            // for references to events or mutiple entities, we need to target the reference
+            const aref = element.closest(".has-info-box");
+            if (aref) {
+              aref.classList.add("highlighted");
+            }
           });
 
           // We set a hover class on hover.
