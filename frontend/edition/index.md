@@ -23,11 +23,13 @@ eleventyNavigation:
 ---
 
 {% if metadata.hideEventsFromViewer %}
+
   <style>
     .dts-fragment .is-event, .dts-fragment .event {
       display: none;
     }
   </style>
+
 {% endif %}
 
 {% raw %}

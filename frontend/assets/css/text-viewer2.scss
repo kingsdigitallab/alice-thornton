@@ -91,10 +91,10 @@ section {
             padding-left: 18px;
             text-transform: uppercase;
             color: $primary-dark;
-            font-size:9px;
+            font-size: 9px;
             i {
               @include transition(all 300ms ease-in-out);
-              font-size:11px;
+              font-size: 11px;
               cursor: pointer;
               padding-top: 5px;
             }
@@ -212,7 +212,6 @@ section {
                 height: 50px;
                 cursor: pointer;
                 display: inline-block;
-                
               }
               i {
                 width: 30px;
@@ -472,261 +471,256 @@ section {
               margin: 8px 0 0 auto;
             }
           }
-            ul { 
-              padding-left: 2em;
-              margin: 1em 0;
-              list-style-type: none;
-              li {
-                line-height: 1.3;
-                margin-bottom: 0.7em;
-                font-weight: bold;
-                font-weight: 500;
-                font-size: 18px;
-                margin-left: 20px;
-                span {
+          ul {
+            padding-left: 2em;
+            margin: 1em 0;
+            list-style-type: none;
+            li {
+              line-height: 1.3;
+              margin-bottom: 0.7em;
+              font-weight: bold;
+              font-weight: 500;
+              font-size: 18px;
+              margin-left: 20px;
+              span {
+                font-style: italic;
+                font-size: 0.9em;
+                font-weight: 300;
+              }
+              &:before {
+                position: absolute;
+                left: 20px;
+                content: "a";
+                font-size: 20px;
+                line-height: 1;
+              }
+              &.monogram {
+                //transcription
+                &:before {
+                  content: "ℳ";
+                  line-height: 1;
+                } //before
+              }
+              &.additions {
+                //transcription
+                &:before {
+                  line-height: 0.9;
                   font-style: italic;
-                  font-size: 0.9em;
-                  font-weight: 300;
+                } //before
+              }
+              &.above {
+                //transcription
+                &:before {
+                  content: "ch";
+                  vertical-align: baseline;
+                  line-height: 0.6;
+                } //before
+              } //
+              &.dashed {
+                //transcription
+                &:before {
+                  line-height: 0.7;
+                  border: 1px dashed gray;
+                  padding: 1px 5px 3px 5px;
                 }
-                &:before{
+              }
+              &.bracket {
+                //transcription
+                &:before {
+                  content: "}";
+                  font-size: 30px;
+                  line-height: 0.7;
+                } //before
+              }
+              &.strikethrough {
+                //transcription
+                &:before {
+                  content: "the";
+                  position: absolute;
+                  text-decoration: line-through;
+                  line-height: 1.1;
+                } //before
+              } //
+              &.heart {
+                //transcription
+                &:before {
+                  content: "♥";
+                  line-height: 1.1;
+                } //before
+              }
+
+              &.blank {
+                //Blank page or lines
+                &:before {
+                  content: "[cut]";
+                  color: gray;
+                } //before
+              }
+              &.largebold {
+                //Page title heading
+                &:before {
+                  font-size: 26px;
+                  font-weight: bold;
+                  line-height: 1;
+                  border-bottom: 8px ridge;
+                } //before
+              }
+              &.mediumbold {
+                //Other headers
+                &:before {
+                  font-size: 22px;
+                  font-weight: bold;
+                  border-bottom: 4px ridge;
+                } //before
+              }
+              &.running {
+                //Running headers
+                &:before {
+                  font-size: 22px;
+                  border-bottom: 2px solid;
+                } //before
+              } //
+
+              &.pnumber {
+                // Author's page numbers
+                &:before {
+                  content: "37";
+                  font-size: 16px;
+                  font-style: italic;
+                  font-weight: 300;
+                  line-height: 1.6;
+                } //before
+              }
+              &.cut {
+                //Physical damage
+                &:before {
+                  content: "[cut]";
+                  color: gray;
+                } //before
+              }
+              &.enotes {
+                // Editorial Notes
+                &:before {
+                  content: "1";
+                  border: 1px solid lightgray;
+                  box-shadow: 1px 1px 1px gray;
+                  padding: 2px 3px;
+                  font-size: 12px;
+                } //before
+              } //&:nth-child(1)
+              &.glossary {
+                &:before {
+                  content: "";
+                  //border-bottom: 3px double chocolate;
+                  border-bottom: 3px double gray;
+                  width: 0.7em;
+                  height: 0.7em;
+                } //before
+              } //
+              &.person {
+                //Entity Person
+                &:before {
+                  content: "";
+                  border-bottom: 1px dashed gray;
+                  width: 0.9em;
+                  height: 0.7em;
+                } //before
+                &:after {
+                  content: "";
+                  width: 0.7em;
+                  height: 0.7em;
                   position: absolute;
                   left: 20px;
-                  content: "a";
-                  font-size: 20px;
-                  line-height: 1;
-                }
-                &.monogram{ //transcription
-                  &:before {
-                    content: "ℳ";
-                    line-height: 1;
-                  } //before
-                }
-                &.additions{//transcription
-                  &:before {
-                    line-height: 0.9;
-                    font-style: italic;
-                  } //before
-                }
-                &.above { //transcription
-                  &:before {
-                    content: "ch";
-                    vertical-align: baseline;
-                    line-height: 0.6;
-                  } //before
-                } //   
-                &.dashed{ //transcription
-                  &:before {
-                    line-height: 0.7;
-                    border: 1px dashed gray;
-                    padding: 1px 5px 3px 5px;
-                  }
-                }        
-                &.bracket{ //transcription
-                  &:before {
-                    content: "}";
-                    font-size:30px;
-                    line-height: 0.7;
-                  } //before
-                }
-                &.strikethrough { //transcription
-                  &:before {
-                    content: "the";
-                    position: absolute;
-                    text-decoration: line-through;
-                    line-height: 1.1;
-                  } //before
-                } //
-                &.heart { //transcription
-                  &:before {
-                    content: "♥";
-                    line-height: 1.1;
-                  } //before
-                } 
-    
-                &.blank {
-                  //Blank page or lines
-                  &:before {
-                    content: "[cut]";
-                    color: gray;
-                  } //before
-                } 
-                &.largebold {
-                  //Page title heading
-                  &:before {
-                    font-size: 26px;
-                    font-weight: bold;
-                    line-height: 1;
-                    border-bottom: 8px ridge;
-                  } //before
-                } 
-                &.mediumbold{
-                  //Other headers
-                  &:before {
-                    font-size: 22px;
-                    font-weight: bold;
-                    border-bottom:4px ridge;
-                  } //before
-                } 
-                &.running {
-                  //Running headers
-                  &:before {
-                    font-size: 22px;
-                    border-bottom: 2px solid;
-                  } //before
-                } //
-
-                &.pnumber {
-                  // Author's page numbers
-                  &:before {
-                    content: "37";
-                    font-size:16px;
-                    font-style: italic;
-                    font-weight:300;
-                    line-height: 1.6;
-                  } //before
-                } 
-                &.cut {
-                  //Physical damage
-                  &:before {
-                    content: "[cut]";
-                    color: gray;
-                  } //before
-                } 
-                &.enotes {
-                  // Editorial Notes
-                  &:before {
-                    content: "1";
-                    border: 1px solid lightgray;
-                    box-shadow: 1px 1px 1px gray;
-                    padding: 2px 3px;
-                    font-size: 12px;
-                  } //before
-                } //&:nth-child(1)
-                &.glossary {
-                  &:before {
-                    content: "";
-                    //border-bottom: 3px double chocolate;
-                    border-bottom: 3px double gray;
-                    width: 0.7em;
-                    height: 0.7em;
-                  } //before
-                } //
-                &.person {
-                  //Entity Person
-                  &:before {
-                    content: "";
-                    border-bottom: 1px dashed gray;
-                    width: 0.9em;
-                    height: 0.7em;
-                  } //before
-                  &:after {
-                    content: "";
-                    width: 0.7em;
-                    height: 0.7em;
-                    position: absolute;
-                    left: 20px;
-                    background:// ** Eyes
-                      radial-gradient(
-                      //left eye
-                      90% 80% ellipse at 45% 25%,
-                      //size%(width, height) ellipse at position%(left,top)
-                      gray 30%,
-                      //color size
-                      transparent 0
-                    ); //color size
-                  } //after
-                } //&:nth-child(2)
-                &.place {
-                  //Entity Place
-                  &:before {
-                    content: "";
-                    border-bottom: 1px dashed gray;
-                    width: 0.9em;
-                    height: 0.7em;
-                  } //before
-                  &:after {
-                    content: "";
-                    width: 0.7em;
-                    height: 0.9em;
-                    position: absolute;
-                    left: 20px;
-                    background:// ** Triangle
-                      conic-gradient(
-                        gray 0 25deg,
-                        transparent 25deg 335deg,
-                        gray 335deg 360deg
-                      )
-                      50% 100%/100% 100% no-repeat; //position%(left,top) size%(width, height)
-                  } //after
-                } //&:nth-child(3)
-                &.event {
-                  //Entity Event
-                  &:before {
-                    content: "";
-                    border-bottom: 1px dashed gray;
-                    width: 0.9em;
-                    height: 0.7em;
-                  } //before
-                  &:after {
-                    content: "";
-                    width: 0.35em;
-                    height: 0.35em;
-                    position: absolute;
-                    left: 23px;
-                    background: gray;
-                  } //after
-                } 
+                  background:// ** Eyes
+                    radial-gradient(
+                    //left eye
+                    90% 80% ellipse at 45% 25%,
+                    //size%(width, height) ellipse at position%(left,top)
+                    gray 30%,
+                    //color size
+                    transparent 0
+                  ); //color size
+                } //after
+              } //&:nth-child(2)
+              &.place {
+                //Entity Place
+                &:before {
+                  content: "";
+                  border-bottom: 1px dashed gray;
+                  width: 0.9em;
+                  height: 0.7em;
+                } //before
+                &:after {
+                  content: "";
+                  width: 0.7em;
+                  height: 0.9em;
+                  position: absolute;
+                  left: 20px;
+                  background:// ** Triangle
+                    conic-gradient(
+                      gray 0 25deg,
+                      transparent 25deg 335deg,
+                      gray 335deg 360deg
+                    )
+                    50% 100%/100% 100% no-repeat; //position%(left,top) size%(width, height)
+                } //after
+              } //&:nth-child(3)
+              &.event {
+                //Entity Event
+                &:before {
+                  content: "";
+                  border-bottom: 1px dashed gray;
+                  width: 0.9em;
+                  height: 0.7em;
+                } //before
+                &:after {
+                  content: "";
+                  width: 0.35em;
+                  height: 0.35em;
+                  position: absolute;
+                  left: 23px;
+                  background: gray;
+                } //after
+              }
               &.biblical {
-                  //Biblical reference
-                  &:before {
-                    content: "";
-                    border-bottom: 1px solid gray;
-                    width: 0.9em;
-                    height: 0.7em;
-                  } //before
-                  &:after {
-                    content: "✝";
-                    width: 0.7em;
-                    height: 0.7em;
-                    position: absolute;
-                    left: 23px;
-                    margin-top: -7px;
-                    color: black;
-                    font-size: 13px;
-                  } //after
-                } 
-                &.image {
-                  //original page image
-                  &:before {
-                    margin-top: 0.15em;
-                    background-image: url("https://static.thenounproject.com/png/1192618-200.png");
-                    background-size: 0.9em 0.9em;
-                    width: 0.9em;
-                    height: 0.9em;
-                    content:"";
-                    left:-50px;
-                  } //before
-                } //&:nth-child(5)
-
-
-
-
-
-
-              } //li
-            } //ul
-
-
+                //Biblical reference
+                &:before {
+                  content: "";
+                  border-bottom: 1px solid gray;
+                  width: 0.9em;
+                  height: 0.7em;
+                } //before
+                &:after {
+                  content: "✝";
+                  width: 0.7em;
+                  height: 0.7em;
+                  position: absolute;
+                  left: 23px;
+                  margin-top: -7px;
+                  color: black;
+                  font-size: 13px;
+                } //after
+              }
+              &.image {
+                //original page image
+                &:before {
+                  margin-top: 0.15em;
+                  background-image: url("https://static.thenounproject.com/png/1192618-200.png");
+                  background-size: 0.9em 0.9em;
+                  width: 0.9em;
+                  height: 0.9em;
+                  content: "";
+                  left: -50px;
+                } //before
+              } //&:nth-child(5)
+            } //li
+          } //ul
         } //.content
       } //tab
 
       h1 {
         font-size: 1.5em;
       }
-
-
-
- 
     } //.tabs
   }
 } //section
@@ -805,7 +799,7 @@ $render-sic: false;
 // -------------------------------------------------
 
 #text-viewer .panel-chunk {
-  overflow: auto;  // GN: changed to auto to avoid ugly disabled scrollbar in chrome
+  overflow: auto; // GN: changed to auto to avoid ugly disabled scrollbar in chrome
   height: calc(90vh - 120px);
   margin: 40px 0 0 0;
   display: flex;
@@ -1072,20 +1066,17 @@ $render-sic: false;
     } @else {
       *[data-tei-place="above"] {
         vertical-align: super;
-        position:relative;
-      &:before{
-        content: "∧";
-        width: 0.7em;
-        height: 0.7em;
-        position: absolute;
-        left: -1px;
-        top: 4px;
-        color: black;
-        font-size: 14px;
-      }
-
-
-
+        position: relative;
+        &:before {
+          content: "∧";
+          width: 0.7em;
+          height: 0.7em;
+          position: absolute;
+          left: -1px;
+          top: 4px;
+          color: black;
+          font-size: 14px;
+        }
       }
     }
 
@@ -1230,7 +1221,7 @@ $render-sic: false;
     text-align: center;
     word-break: break-word;
     border-bottom: 8px ridge;
-    padding:8px;
+    padding: 8px;
   }
   h2,
   .tei-fw.tei-type-head {
@@ -1324,32 +1315,45 @@ $render-sic: false;
   .has-info-box {
     position: relative;
     border-bottom: 1px dashed gray;
-    &.is-place, &.tei-placeName{
-      &:before{
+    &.is-place,
+    &.tei-placeName {
+      &:before {
         content: "";
         width: 0.7em;
         height: 0.9em;
         position: absolute;
         left: 0;
         bottom: -19px;
-        background: conic-gradient(gray 0 25deg, transparent 25deg 335deg, gray 335deg 360deg) 50% 100%/100% 100% no-repeat;
+        background: conic-gradient(
+            gray 0 25deg,
+            transparent 25deg 335deg,
+            gray 335deg 360deg
+          )
+          50% 100%/100% 100% no-repeat;
       }
     }
-    &.is-person, &.tei-type-person{
-      &:before{
-      content: "";
-      width: 0.7em;
-      height: 0.7em;
-      position: absolute;
-      left: 0;
-      bottom: -16px;
-      background: radial-gradient(90% 80% ellipse at 45% 25%, gray 30%, transparent 0);
+    &.is-person,
+    &.tei-type-person {
+      &:before {
+        content: "";
+        width: 0.7em;
+        height: 0.7em;
+        position: absolute;
+        left: 0;
+        bottom: -16px;
+        background: radial-gradient(
+          90% 80% ellipse at 45% 25%,
+          gray 30%,
+          transparent 0
+        );
       }
     }
-    &.is-quote, &.tei-quote { //biblical ref
+    &.is-quote,
+    &.tei-quote {
+      //biblical ref
       padding-bottom: 4px;
       border-bottom: 1px solid gray;
-      &:before{
+      &:before {
         content: "✝";
         width: 0.7em;
         height: 0.7em;
@@ -1360,19 +1364,21 @@ $render-sic: false;
         font-size: 13px;
       }
     }
-    &.is-term, &.tei-term { //glossary
+    &.is-term,
+    &.tei-term {
+      //glossary
       border-bottom: 3px double gray;
     }
 
-    &.is-glyph, &.tei-g {
+    &.is-glyph,
+    &.tei-g {
       border-bottom: 2px dotted lightgray;
     }
 
-    &.is-note, &.tei-anchor {
+    &.is-note,
+    &.tei-anchor {
       border-bottom: none;
     }
-
-
 
     &:hover {
       border-bottom-style: solid;
