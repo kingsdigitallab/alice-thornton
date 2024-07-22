@@ -1392,12 +1392,25 @@ $render-sic: false;
       &::before{
         content: "";
         width: 50px;
-        height:3px;
+        height:2px;
         padding-bottom: 1.05vw;
         position: absolute;
         left: 0;
-        bottom:-14px;
-        background: linear-gradient(to right, #555, white 100%) no-repeat;
+        bottom:-13px;
+        background: linear-gradient(to right, gray, white 100%) no-repeat;
+      }
+    }
+
+    &.event-end{//event end
+      &::before{
+        content: "";
+        width: 50px;
+        height:2px;
+        padding-bottom: 1.05vw;
+        position: absolute;
+        left: 0;
+        bottom:-13px;
+        background: linear-gradient(to right, white, gray 100%) no-repeat;
       }
     }
 
@@ -1417,6 +1430,7 @@ $render-sic: false;
       }
     }
   }
+
 
   // quote
   .info-box {
