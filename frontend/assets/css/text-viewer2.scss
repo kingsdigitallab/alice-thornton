@@ -1327,7 +1327,7 @@ $render-sic: false;
   .has-info-box {
     position: relative;
     border-bottom: 1px dashed gray;
-    &.tei-placeName{
+    &.tei-placeName, &.tei-type-place{
       &:before{
         content: "";
         width: 0.7em;
@@ -1338,7 +1338,7 @@ $render-sic: false;
         background: conic-gradient(gray 0 25deg, transparent 25deg 335deg, gray 335deg 360deg) 50% 100%/100% 100% no-repeat;
       }
     }
-    &.tei-type-person{
+    &.tei-type-person, &.tei-persName{
       &:before{
       content: "";
       width: 0.7em;
@@ -1375,7 +1375,18 @@ $render-sic: false;
       border-bottom: none;
     }
 
-
+    &.event-start{//event start
+      &::before{
+        content: "";
+        width: 50px;
+        height:3px;
+        padding-bottom: 1.05vw;
+        position: absolute;
+        left: 0;
+        bottom:-14px;
+        background: linear-gradient(to right, #555, white 100%) no-repeat;
+      }
+    }
 
     &:hover {
       border-bottom-style: solid;
