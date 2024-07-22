@@ -683,38 +683,46 @@ section {
                 } //after
               }
               &.biblical {
-                //Biblical reference
-                &:before {
-                  content: "";
-                  border-bottom: 1px solid gray;
-                  width: 0.9em;
-                  height: 0.7em;
-                } //before
-                &:after {
-                  content: "✝";
-                  width: 0.7em;
-                  height: 0.7em;
-                  position: absolute;
-                  left: 23px;
-                  margin-top: -7px;
-                  color: black;
-                  font-size: 13px;
-                } //after
-              }
-              &.image {
-                //original page image
-                &:before {
-                  margin-top: 0.15em;
-                  background-image: url("https://static.thenounproject.com/png/1192618-200.png");
-                  background-size: 0.9em 0.9em;
-                  width: 0.9em;
-                  height: 0.9em;
-                  content: "";
-                  left: -50px;
-                } //before
-              } //&:nth-child(5)
-            } //li
-          } //ul
+                  //Biblical reference
+                  &:before {
+                    content: "";
+                    border-bottom: 1px solid gray;
+                    width: 0.9em;
+                    height: 0.7em;
+                  } //before
+                  &:after {
+                    content: "✝";
+                    width: 0.7em;
+                    height: 0.7em;
+                    position: absolute;
+                    left: 23px;
+                    margin-top: -7px;
+                    color: black;
+                    font-size: 13px;
+                  } //after
+                } 
+                &.image {
+                  //original page image
+                  &:before {
+                    margin-top: 0.15em;
+                    background-image: url("https://static.thenounproject.com/png/1192618-200.png");
+                    background-size: 0.9em 0.9em;
+                    width: 0.9em;
+                    height: 0.9em;
+                    content:"";
+                    left:-50px;
+                  } //before
+                } //&:nth-child(5)
+
+
+
+
+
+
+              } //li
+            } //ul
+
+
         } //.content
       } //tab
 
@@ -1378,6 +1386,19 @@ $render-sic: false;
     &.is-note,
     &.tei-anchor {
       border-bottom: none;
+    }
+
+    &.event-start{//event start
+      &::before{
+        content: "";
+        width: 50px;
+        height:3px;
+        padding-bottom: 1.05vw;
+        position: absolute;
+        left: 0;
+        bottom:-14px;
+        background: linear-gradient(to right, #555, white 100%) no-repeat;
+      }
     }
 
     &:hover {
