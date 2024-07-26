@@ -24,7 +24,7 @@ eleventyNavigation:
 
 {% if metadata.hideEventsFromViewer %}
   <style>
-    .dts-fragment .event {
+    .dts-fragment .is-event, .dts-fragment .event {
       display: none;
     }
   </style>
