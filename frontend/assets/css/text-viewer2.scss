@@ -652,17 +652,11 @@ section {
                 } //before
                 &:after {
                   content: "";
-                  width: 0.7em;
-                  height: 0.9em;
+                  width: 0.35em;
+                  height: 0.35em;
                   position: absolute;
-                  left: 20px;
-                  background:// ** Triangle
-                    conic-gradient(
-                      gray 0 25deg,
-                      transparent 25deg 335deg,
-                      gray 335deg 360deg
-                    )
-                    50% 100%/100% 100% no-repeat; //position%(left,top) size%(width, height)
+                  left: 22px;
+                  background:gray;
                 } //after
               } //&:nth-child(3)
               &.event {
@@ -674,12 +668,12 @@ section {
                   height: 0.7em;
                 } //before
                 &:after {
-                  content: "";
-                  width: 0.35em;
+                  content: "⧔ ⧕";
+                  width: 20px;
                   height: 0.35em;
                   position: absolute;
-                  left: 23px;
-                  background: gray;
+                  left: 20px;
+                  font-size: 12px;
                 } //after
               }
               &.biblical {
@@ -1327,17 +1321,12 @@ $render-sic: false;
     &.tei-placeName {
       &:before {
         content: "";
-        width: 0.7em;
-        height: 0.9em;
+        width: 0.35em;
+        height: 0.35em;
         position: absolute;
-        left: -3px;
+        left: 1px;
         top:-4px;
-        background: conic-gradient(
-            gray 0 25deg,
-            transparent 25deg 335deg,
-            gray 335deg 360deg
-          )
-          50% 100%/100% 100% no-repeat;
+        background: gray
       }
     }
     &.is-person,
