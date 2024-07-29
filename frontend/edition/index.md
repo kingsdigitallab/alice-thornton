@@ -115,9 +115,9 @@ eleventyNavigation:
     <ul>
     <li class="enotes">Editorial Notes<br><span>number in note icon intext</span></li>
     <li class="glossary">Glossary<br><span>double underline </span></li>
-    <li class="person">Entity (● Person) <br><span>dashed underline (circle icon) </span></li>
-    <li class="place">Entity (⏷ Place) <br><span>dashed underline (triangle icon) </span></li>
-    <li class="event">Entity (■ Event) <br><span>dashed underline (square icon) </span></li>
+    <li class="person">Entity (Person) <br><span>dashed underline (circle icon) </span></li>
+    <li class="place">Entity (Place) <br><span>dashed underline (square icon) </span></li>
+    <li class="event">Entity (Event) <br><span>dashed underline (time icon) </span></li>
     <li class="biblical">Biblical reference <br><span>gray black underline (cross icon) </span></li>
     </ul> 
     <h3>Images</h3>
