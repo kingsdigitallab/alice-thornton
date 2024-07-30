@@ -1306,6 +1306,12 @@ $render-sic: false;
       padding-left: 0.2em;
       color: $primary;
       // font-weight: bold;
+      &:before {
+        content: '[';
+      }
+      &:after {
+        content: ']';
+      }
     }
 
     &.tei-type-event {
