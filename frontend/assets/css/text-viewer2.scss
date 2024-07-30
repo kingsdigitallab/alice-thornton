@@ -656,7 +656,7 @@ section {
                   height: 0.35em;
                   position: absolute;
                   left: 22px;
-                  background:gray;
+                  background: gray;
                 } //after
               } //&:nth-child(3)
               &.event {
@@ -677,46 +677,38 @@ section {
                 } //after
               }
               &.biblical {
-                  //Biblical reference
-                  &:before {
-                    content: "";
-                    border-bottom: 1px solid gray;
-                    width: 0.9em;
-                    height: 0.7em;
-                  } //before
-                  &:after {
-                    content: "✝";
-                    width: 0.7em;
-                    height: 0.7em;
-                    position: absolute;
-                    left: 23px;
-                    margin-top: -7px;
-                    color: black;
-                    font-size: 13px;
-                  } //after
-                } 
-                &.image {
-                  //original page image
-                  &:before {
-                    margin-top: 0.15em;
-                    background-image: url("https://static.thenounproject.com/png/1192618-200.png");
-                    background-size: 0.9em 0.9em;
-                    width: 0.9em;
-                    height: 0.9em;
-                    content:"";
-                    left:-50px;
-                  } //before
-                } //&:nth-child(5)
-
-
-
-
-
-
-              } //li
-            } //ul
-
-
+                //Biblical reference
+                &:before {
+                  content: "";
+                  border-bottom: 1px solid gray;
+                  width: 0.9em;
+                  height: 0.7em;
+                } //before
+                &:after {
+                  content: "✝";
+                  width: 0.7em;
+                  height: 0.7em;
+                  position: absolute;
+                  left: 23px;
+                  margin-top: -7px;
+                  color: black;
+                  font-size: 13px;
+                } //after
+              }
+              &.image {
+                //original page image
+                &:before {
+                  margin-top: 0.15em;
+                  background-image: url("https://static.thenounproject.com/png/1192618-200.png");
+                  background-size: 0.9em 0.9em;
+                  width: 0.9em;
+                  height: 0.9em;
+                  content: "";
+                  left: -50px;
+                } //before
+              } //&:nth-child(5)
+            } //li
+          } //ul
         } //.content
       } //tab
 
@@ -1307,10 +1299,10 @@ $render-sic: false;
       color: $primary;
       // font-weight: bold;
       &:before {
-        content: '[';
+        content: "[";
       }
       &:after {
-        content: ']';
+        content: "]";
       }
     }
 
@@ -1331,8 +1323,8 @@ $render-sic: false;
         height: 0.35em;
         position: absolute;
         left: 1px;
-        top:-4px;
-        background: gray
+        top: -4px;
+        background: gray;
       }
     }
     &.is-person,
@@ -1343,7 +1335,7 @@ $render-sic: false;
         height: 0.7em;
         position: absolute;
         left: -2px;
-        top:-4px;
+        top: -4px;
         background: radial-gradient(
           90% 80% ellipse at 45% 25%,
           gray 30%,
@@ -1383,44 +1375,45 @@ $render-sic: false;
       border-bottom: none;
     }
 
-    &.event-start{//event start
-      &::before{
+    &.event-start {
+      //event start
+      &::before {
         content: "";
         width: 50px;
-        height:10px;
+        height: 10px;
         position: absolute;
         left: 0;
-        bottom:-13px;
+        bottom: -13px;
         background: linear-gradient(to right, gray, white 100%) no-repeat;
         @include transition(all 300ms ease-in);
       }
-      &:hover{
-        &::before{
-          background: linear-gradient(to right, #CC7722, white 100%) no-repeat;
-          width: 120px;  
+      &:hover {
+        &::before {
+          background: linear-gradient(to right, #cc7722, white 100%) no-repeat;
+          width: 120px;
         }
       }
     }
 
-    &.event-end{//event end
-      &::before{
+    &.event-end {
+      //event end
+      &::before {
         content: "";
         width: 50px;
-        height:10px;
+        height: 10px;
         position: absolute;
         right: 0;
-        bottom:-13px;
+        bottom: -13px;
         background: linear-gradient(to right, white, gray 100%) no-repeat;
         @include transition(all 300ms ease-in);
       }
-      &:hover{
-        &::before{
-          background: linear-gradient(to right, white, #CC7722 100%) no-repeat;
-          width: 120px;  
+      &:hover {
+        &::before {
+          background: linear-gradient(to right, white, #cc7722 100%) no-repeat;
+          width: 120px;
         }
       }
     }
-
 
     &:hover {
       border-bottom-style: solid;
@@ -1438,7 +1431,6 @@ $render-sic: false;
       }
     }
   }
-
 
   // quote
   .info-box {
@@ -1482,7 +1474,7 @@ $render-sic: false;
       // to prevent long uris from overflowing the popover
       overflow-wrap: break-word;
       // keep this for case where content too long for screen
-      overflow-y: auto; 
+      overflow-y: auto;
 
       .tei-p {
         display: block;
