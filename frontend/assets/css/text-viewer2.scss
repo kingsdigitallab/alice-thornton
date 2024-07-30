@@ -1425,7 +1425,7 @@ $render-sic: false;
     &:hover {
       border-bottom-style: solid;
       > .info-box {
-        display: inline-block;
+        display: block;
       }
       &.child-hovered {
         // special case for nested info boxes.
@@ -1481,6 +1481,8 @@ $render-sic: false;
       padding: 0.5em;
       // to prevent long uris from overflowing the popover
       overflow-wrap: break-word;
+      // keep this for case where content too long for screen
+      overflow-y: auto; 
 
       .tei-p {
         display: block;
