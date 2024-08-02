@@ -1326,6 +1326,11 @@ $render-sic: false;
         top: -4px;
         background: gray;
       }
+      &:hover{
+        &:before {
+          background:black;
+        }
+      }
     }
     &.is-person,
     &.tei-type-person {
@@ -1342,6 +1347,14 @@ $render-sic: false;
           transparent 0
         );
       }
+      &:hover{
+        &:before {
+          background: radial-gradient(
+            90% 80% ellipse at 45% 25%,
+            black 30%,
+            transparent 0);
+        }
+      }
     }
     &.is-quote,
     &.tei-quote {
@@ -1355,8 +1368,13 @@ $render-sic: false;
         position: absolute;
         left: 0;
         top: -22px;
-        color: black;
+        color: gray;
         font-size: 13px;
+      }
+      &:hover{
+        &:before {
+          color:black;
+        }
       }
     }
     &.is-term,
@@ -1414,7 +1432,12 @@ $render-sic: false;
         }
       }
     }*/
-
+    &.is-event{
+      color:gray;
+      &:hover{
+        color:black;
+      }
+    }
 
     &:hover {
       border-bottom-style: solid;
