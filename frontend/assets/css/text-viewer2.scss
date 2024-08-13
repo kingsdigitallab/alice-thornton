@@ -620,90 +620,60 @@ section {
               &.person {
                 //Entity Person
                 &:before {
-                  content: "";
+                  content: "●";
+                  padding-bottom:7px;
+                  font-size:14px;
+                  color:gray;
                   border-bottom: 1px dashed gray;
-                  width: 0.9em;
-                  height: 0.7em;
+                  width: 20px;
+                  height: 8px;
                 } //before
-                &:after {
-                  content: "";
-                  width: 0.7em;
-                  height: 0.7em;
-                  position: absolute;
-                  left: 20px;
-                  background:// ** Eyes
-                    radial-gradient(
-                    //left eye
-                    90% 80% ellipse at 45% 25%,
-                    //size%(width, height) ellipse at position%(left,top)
-                    gray 30%,
-                    //color size
-                    transparent 0
-                  ); //color size
-                } //after
               } //&:nth-child(2)
               &.place {
                 //Entity Place
                 &:before {
-                  content: "";
+                  content: "◼";
+                  padding-bottom:7px;
+                  font-size:11px;
+                  color:gray;
                   border-bottom: 1px dashed gray;
-                  width: 0.9em;
-                  height: 0.7em;
+                  width: 20px;
+                  height: 8px;
                 } //before
-                &:after {
-                  content: "";
-                  width: 0.35em;
-                  height: 0.35em;
-                  position: absolute;
-                  left: 22px;
-                  background: gray;
-                } //after
               } //&:nth-child(3)
               &.event {
                 //Entity Event
                 &:before {
-                  content: "";
-                  border-bottom: 1px dashed gray;
-                  width: 0.9em;
-                  height: 0.7em;
-                } //before
-                &:after {
                   content: "⧔ ⧕";
+                  padding-bottom:5px;
+                  font-size:12px;
+                  color:gray;
+                  border-bottom: 1px dashed gray;
                   width: 20px;
-                  height: 0.35em;
-                  position: absolute;
-                  left: 20px;
-                  font-size: 12px;
-                } //after
+                  height: 8px;
+                } //before
               }
               &.biblical {
                 //Biblical reference
                 &:before {
-                  content: "";
-                  border-bottom: 1px solid gray;
-                  width: 0.9em;
-                  height: 0.7em;
+                  content: "♰";
+                  padding-bottom:10px;
+                  font-size:14px;
+                  color:gray;
+                  border-bottom: 1px dashed gray;
+                  width: 20px;
+                  height: 8px;
                 } //before
-                &:after {
-                  content: "✝";
-                  width: 0.7em;
-                  height: 0.7em;
-                  position: absolute;
-                  left: 23px;
-                  margin-top: -7px;
-                  color: black;
-                  font-size: 13px;
-                } //after
               }
               &.image {
                 //original page image
                 &:before {
                   margin-top: 0.15em;
-                  background-image: url("https://static.thenounproject.com/png/1192618-200.png");
-                  background-size: 0.9em 0.9em;
                   width: 0.9em;
                   height: 0.9em;
-                  content: "";
+                  font-family: "Font Awesome 5 Free";
+                  font-weight: 900;
+                  content: "\f03e";
                   left: -50px;
                 } //before
               } //&:nth-child(5)
