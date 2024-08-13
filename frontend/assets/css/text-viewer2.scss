@@ -1268,11 +1268,15 @@ $render-sic: false;
       padding-left: 0.2em;
       color: $primary;
       // font-weight: bold;
-      &:before {
-        content: "[";
-      }
-      &:after {
-        content: "]";
+      border: 1px solid lightgray;
+      box-shadow: 1px 1px 1px gray;
+      padding: 0 2px;
+      margin:0 2px 2px 2px;
+      font-size: 10px;
+      &:hover{
+        border: 1px solid gray;
+        box-shadow: 1px 1px 1px black;
+        color:black;
       }
     }
 
