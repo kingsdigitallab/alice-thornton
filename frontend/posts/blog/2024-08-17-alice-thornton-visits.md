@@ -20,6 +20,8 @@ tags:
  
 Festival time is in full swing here in Edinburgh, and this time of year is also when many of us, including the Alice Thornton’s Books team, host relatives and friends or take time off to travel. In the ‘Books of her Life’ written by Yorkshire’s Alice Thornton in the 17th Century, there are numerous occasions when she recalls visits to or from family members and friends, and as we begin to return home from our travels, this seems a good time to consider how much, or how little, staying with your cousins or taking a trip to the spa has changed since Thornton was writing her memoirs. 
 
+![A 17th-century impression of a coach travelling.]( {{ "/assets/img/posts/coach.jpg" | url }} "A 17th-century impression of a coach journey."){.media-right}
+
 Thornton recalled and wrote about many journeys she made in her lifetime with her mother and father, and later with her husband, and she also tells us about trips that other people made, some travelling as far afield as France and Virginia, and some visiting her at home in Yorkshire.
 
 Thanks to the work of the Alice Thornton’s Books team, Thornton’s four books of her life are being made available for free. The books, handed down by generations of Thornton’s descendants over several centuries, offer a rare opportunity to journey into the past, and whatever your area of interest, they are well worth a visit.
@@ -37,6 +39,8 @@ This was the case in August 1644, when Thornton travelled to Middleham Castle on
 
 Thornton and the horse survived this incident, but the sister she was on her way to help was less fortunate. Thornton stayed with Katherine at Middleham Castle as her suffering grew worse, but was sent home by her mother before Katherine died of postpartum complications the following month. 
 
+![A portrait by Anthonie Palamedesz, 1672.]( {{ "/assets/img/posts/eglon_van_der_neer.jpg" | url }} "A portrait by Anthonie Palamedesz,1672."){.media-left}
+
 A visitation that Thornton sounds truly grateful to have had was one by her aunt, Anne Norton, who arrived to be by Thornton’s side in 1668. Thornton, then 42, found herself facing a scandal as rumours circulated about her relationship with Thomas Comber, the Minister engaged to her young daughter. 
 
 “My dear aunt was so concerned to hear I had been so belied that she immediately came to Newton and found me in a manner half dead with grief, upon this alarm that Mrs Danby and her maid raised up against me. I was extremely overjoyed to see her and blessed God for that providence which brought her thither.” 
@@ -50,6 +54,8 @@ Assisting a relative during difficult times was important enough to prompt treac
 <p>&nbsp;</p>
 
 ## Travelling for Treatment
+
+![A page from a book about 'Scarbrough spaw' by Dr Wittie.]( {{ "/assets/img/posts/spa.jpg" | url }} "Dr Wittie, the Thornton family doctor, had written a book on the benefits of 'Scarbrough spaw'."){.media-right}
 
 Thornton wrote of many occasions when she and her relatives travelled for health reasons. Her husband William Thornton was ‘upon serious consideration of his distemper, then inclining to melancholic…advised for the spa’ (Book 1 p 234). William travelled to Scarborough on the recommendation of the family’s doctor, Dr Robert Wittie. 
 
@@ -68,11 +74,11 @@ When Alice Thornton was thirteen and her family were living in Ireland, she brie
  
 <p>&nbsp;</p>
 
-## Social Visits
+## Social visits
 
-The countryside may be where we go to escape on our holidays, but in Thornton’s writing, the landscape and the weather were often obstacles preventing social visiting. When travel was necessary, the outdoors was something to be endured and crossed in fear of your life. 
+The countryside may be where we go to escape on our holidays, but in Thornton’s writing, the landscape and the weather were often presented as obstacles to social visiting. When travel was necessary, the outdoors was something to be endured and crossed in fear of your life. 
 
-In October 1677, Alice Thornton wrote to her brother Christopher Wandesford to let him know that Yorkshire’s Hambleton Hills were preventing her from making a social visit to Osgodby Hall in Thirkleby. The same hills were referenced in her Book 1 as having caused her difficulties during her first pregnancy in 1652. Source: The Ormonde papers, MS2368 Vol 68, 171, National Library of Ireland, Dublin.
+In October 1677, Alice Thornton wrote to her brother Christopher Wandesford to let him know that Yorkshire’s Hambleton Hills were preventing her from making a social visit to Osgodby Hall in Thirkleby. The same hills were referenced in her Book 1, having caused her difficulties during her first pregnancy in 1652. Source: The Ormonde papers, MS2368 Vol 68, 171, National Library of Ireland, Dublin.
 
 ![Thornton's letter to her brother, Christopher Wandesford]( {{"/assets/img/posts/AT_to_CW_1677.jpg" | url }} "Thornton's letter to her brother, Christopher Wandesford"){.media-right}
 
@@ -86,12 +92,18 @@ On her way home, though, she once again came to danger.
 “at that place of the great rocks and cliffs, which is called Whitestone Cliff which I knew not, but was a mile to the bottom, where I could not tread one step even down but on my toes (being held up by my maid, Susan Gosling) which so strained my body, being near my time, that I went down in pain and did sweat exceedingly.” 
 (Book 2 p. 139)
 
-When social visits were planned in advance, there were often important matters to attend to, such as a marriage or legal matters, and Thornton’s writing, and letters sent to her suggest that a good meal could be laid out for guests. Here, in a letter from May 1699, Thornton’s son-in-law Thomas Comber sent a list of what he expected to find on his arrival at her home, East Newton Hall.
+![Alexander Adriaenssen, Still life with a ham and chicken on silver plates, glasses of wine and beer, a bread roll, a peeled lemon and an earthenware jug on a table draped with a grey cloth (1624-1661)..]( {{ "/assets/img/posts/feast.jpg" | url }} "Alexander Adriaenssen, Still life with a ham and chicken on silver plates, glasses of wine and beer, a bread roll, a peeled lemon and an earthenware jug on a table draped with a grey cloth (1624-1661).'."){.media-left}
+
+When social visits were planned in advance, they often took place because there were important matters to attend to, such as a marriage arrangement or legal matters. Thornton’s writing, and letters sent to her, suggest that a good meal could be laid out for guests when they did come calling. Here, in a letter from May 1699, Thornton’s son-in-law Thomas Comber sent a list of what he expected to find on his arrival at her home, East Newton Hall.
 
 “bread must be baked, and meat bespoke against that time, I have ale, and I hope small beer is brewed, if not I must borrow a hogshead of you to pay again.”
 Source: The Autobiographies and Letters of Thomas Comber, ed. C.E. Whiting, vol, 1, Surtees Society, 156 (1946), p.272.
 
-So, some guests could be as demanding as they are today, but with travel being difficult and dangerous, perhaps all welcomed a good meal at the end of it. In March 1699, just a few months before Thomas Comber would send Thornton the letter about the meal he wanted on arrival, she had written to him at the Deanery of Durham Cathedral. She thanked him for letting his wife (Thornton’s daughter, Nally) come for a visit to East Newton, but she advised Comber against making the same journey. Her concern was the wintry weather, so she said, although you might wonder if she just didn’t have the beers in. 
+Some guests could be as demanding as they are today, but with travel being difficult and dangerous, perhaps all welcomed a good meal at the end of it. In March 1699, just a few months before Thomas Comber would send Thornton the letter about the meal he wanted on arrival, she had written to him at the Deanery of Durham Cathedral. She thanked him for letting his wife (Thornton’s daughter, Nally) come for a visit to East Newton, but she advised Comber against making the same journey. Her concern was the wintry weather, so she said, but you might wonder if she just didn’t have the beers in. 
 
-There is a lot to discover about Alice Thornton in the four books she wrote about her life. You can already read the first 100 pages of all her books, now available for free on our project website, and don’t forget to come back soon when the four books will be available in full.   
+<p>&nbsp;</p>
+
+## Journeying into Thornton's World
+
+There is a lot to discover about Alice Thornton in the four books she wrote about her life. You can already read the first 100 pages of all her books, now available for free on our project website, and the four books will soon be available in full.   
 
