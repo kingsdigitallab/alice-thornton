@@ -358,10 +358,10 @@ eleventyNavigation:
               <i class="fas fa-print"></i>
               <h2>Print</h2>
             </div> -->
-          <div class="clone">
+          <div class="cl">
             <div class="icon is-hidden-mobile" v-if="canClonePanel" @click.stop.prevent="clonePanel(panelIdx)">
               <i class="far fa-clone"></i>
-              <h2>Clone</h2>
+              <h2>Add</h2>
             </div>
             <div class="icon" v-if="panels.length > 1" @click.stop.prevent="closePanel(panelIdx)">
               <i class="fas fa-times"></i>
