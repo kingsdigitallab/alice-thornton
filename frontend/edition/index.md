@@ -102,8 +102,8 @@ eleventyNavigation:
       <li class="mediumbold">Other headings and some dates<br>
       <span>medium size, centred, bold font. grey and black medium underline</span>
       </li>
-      <li class="running">(Running) headers like dates. grey medium underline <br>
-        <span>medium size, centred, font</span>
+      <li class="running">(Running) headers like dates<br>
+        <span>medium size, centred font</span>
       </li>
     <li class="pnumber">
       Page number in the author's original book<br><span>Number in italics, top left of display</span>
