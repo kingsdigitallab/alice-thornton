@@ -76,11 +76,11 @@ When Alice Thornton was thirteen and her family were living in Ireland, she brie
 
 ## Social visits
 
+![Thornton's letter to her brother, Christopher Wandesford]( {{"/assets/img/posts/AT_to_CW_1677.jpg" | url }} "Thornton's letter to her brother, Christopher Wandesford"){.media-right}
+
 The countryside may be where we go to escape on our holidays, but in Thornton’s writing, the landscape and the weather were often presented as obstacles to social visiting. When travel was necessary, the outdoors was something to be endured and crossed in fear of your life. 
 
 In October 1677, Alice Thornton wrote to her brother Christopher Wandesford to let him know that Yorkshire’s Hambleton Hills were preventing her from making a social visit to Osgodby Hall in Thirkleby. The same hills were referenced in her Book 1, having caused her difficulties during her first pregnancy in 1652. Source: The Ormonde papers, MS2368 Vol 68, 171, National Library of Ireland, Dublin.
-
-![Thornton's letter to her brother, Christopher Wandesford]( {{"/assets/img/posts/AT_to_CW_1677.jpg" | url }} "Thornton's letter to her brother, Christopher Wandesford"){.media-right}
 
 It was during this first pregnancy that Alice Thornton made what must have been quite a social tour, visiting her husband’s relations at Crathorne, Buttercrambe, York, Hull and Beverley, and she was keen to make a good impression: 
 
