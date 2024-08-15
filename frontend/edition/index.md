@@ -341,9 +341,9 @@ eleventyNavigation:
     <div class="panel" v-for="(panel, panelIdx) in panels">
       <nav class="panel-nav">
         <div>
-          <label>Volume: <i class="far fa-question-circle"></i></label>
+          <label>Volume:</label>
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
-          <label>Version: <i class="far fa-question-circle"></i></label>
+          <label>Version:</label>
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
         </div>
         <div class="icons">
@@ -376,7 +376,7 @@ eleventyNavigation:
       </div>
       <nav class="panel-nav bottom">
         <div>
-          <label>Edition page: <i class="far fa-question-circle"></i></label><panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
+          <label>Edition page:</label><panel-control :panel-idx="panelIdx" control-key="locus"></panel-control>
         </div>
         <div>
           <button class="pagination" href="#" @click.stop.prevent="incrementLocus(panel, -1)"
