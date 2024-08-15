@@ -1,85 +1,97 @@
 ---
-title: "Alice Thornton's Picnic at Starbank Park"
-feature: /assets/img/posts/walk-heather.JPG
+title: "‘Paying a Visit’ in Alice Thornton's Books"
+feature: /assets/img/posts/coach.jpg
 authors:
   - ethom
-status: live
+status: draft
 tags:
-  - deliverances
+
   - lifewriting
-  - events
-  - creative writing
   - nature
   - medicine
+  - family
+  - travel
   
 ---
 
 <p>&nbsp;</p>
 
-On a sunny Saturday in early June, [Starbank Park](https://friendsofstarbankpark.org/) hosted the Alice Thornton Books team once again for an afternoon of history, nature, and creativity. Visitors to the park were able to delve into the seventeenth century through guided botanical walks, craft activities, talks by Project Postdoctoral Researcher, Jo Edge, and a lively conversation between our Project Principal Investigator, Cordelia Beattie, and historical novelist, [Kate Foster](https://www.panmacmillan.com/authors/kate-foster/43803).
-
-!['The Maiden' by Kate Foster]( {{"/assets/img/posts/maiden.jpg" | url }} "'The Maiden' by Kate Foster"){.media-left}
-
-Kate Foster is the Edinburgh-based author of *The Maiden* (2023) and *The King’s Witches* (2024). Her novels are set in the seventeenth and sixteenth centuries respectively, and her stories examine history from the perspectives of female characters. We were grateful to the Scottish Book Trust’s Live Literature Programme for support in inviting Kate to join us.
-
-Botanist, Dr Heather McHaffie very kindly volunteered her time to entertain groups of enthusiastic park visitors with her incredible knowledge. She shared lots of insights into the poultices and poisons that may have been grown or gathered and used by seventeenth-century women like Alice Thornton, and by the compelling characters in Kate’s books. 
-
-<p>&nbsp;</p>
-
-## Health and Herbal Remedies in the 17th Century
-
-There were two opportunities to meet and hear from Cordelia Beattie and Jo Edge. Cordelia introduced Alice Thornton, her books and the project and Jo gave a short talk on Thornton and [dangerous food](https://www.historyworkshop.org.uk/food/forbidden-fruit/) and [herbal remedies](https://thornton.kdl.kcl.ac.uk/posts/tags/medicine/). Audiences got to ask questions, including about the forthcoming digital edition. 
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-## 'Poisons and Poultices' - A Guided Walk
-
-![Heather McHaffie and 'sticky']( {{"/assets/img/posts/heather_sticky.JPG" | url }} "Heather McHaffie and 'sticky'"){.media-right}
-
-“Weeds are what we need,” Dr Heather McHaffie confided as she arrived in the park. Some plants now regarded as an annoyance, such as sticky willys, were once prized remedies, she explained. At the sight of the park’s many volunteers very busily tidying the beds, she looked a little worried, so she headed off hoping to save some weeds before they were spotted. These would be part of Heather’s two guided walks. 
-
-As talks from Cordelia and Jo ended at 14:30 and 16:30, the audience was invited to join Heather for a stroll. At every corner, she pointed out varieties of plants, flowers and trees which were common ingredients in remedies in the past. We learned of the many ways botanicals were prepared and used to treat minor ailments such as stomach complaints and fevers, and how many remain important in modern medicine, including plants which are poisonous but helpful in cancer treatment, such as yew.
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-
-## Kate Foster in Conversation With Cordelia Beattie
-
-![Kate Foster, Eleanor Thom and Cordelia Beattie.]( {{"/assets/img/posts/starbank_conversation.jpg" | url }} "Kate Foster, Eleanor Thom and Cordelia Beattie"){.media-left}
-
-Mid-afternoon, Cordelia was joined by novelist, Kate Foster for a conversation and Q&A chaired by author and Engagement and Impact Officer for the Alice Thornton’s Books project, [Eleanor Thom](www.eleanorthom.com). 
-
-The protagonist in Cordelia’s work is of course, Alice Thornton, a seventeenth-century woman who wrote about her own life.  Kate, on the other hand, is known for her Edinburgh-based novels that bring erly modern women’s experiences to life through fiction. However, many of Kate’s characters are based on real women, traces of whom can be found in the archives and in legends of the local area.
-
-The dialogue between Cordelia and Kate explored the intersection between historical fact and imagination, and the different ways in which we can better tell women’s stories, particularly when their lives are not recorded, or not recorded in the same way as men’s lives. 
-
-Cordelia shared insights from Alice Thornton’s books, explaining Thornton’s struggles and her triumphs, and how modern audiences have reacted to these.
-
-!['The King's Witches' by Kate Foster]( {{"/assets/img/posts/kingswitches.jpg" | url }} "'The King's Witches' by Kate Foster"){.media-right}
-
-Kate talked about how she draws inspiration for fiction from historical women whose lives, while known of in some cases, are not necessarily recorded in the way they themselves would have chosen. She spoke of the delicate balance in weaving a narrative that resonates with contemporary readers whilst respecting the real women behind the stories. 
-
-The conversation really highlighted the importance of bringing women's voices from the past into the present, and there were some interesting parallel themes, particularly in terms of the financial struggles faced by Alice Thornton and by Christian Nimmo, Kate Foster’s main character in *The Maiden*. 
-
-Before a short Q&A, both Kate and Cordelia talked about what’s next. Cordelia introduced the Digital Edition of all of Alice Thornton’s books, which is about to have a new release online very soon. Kate told us she is working on her next book, and while we’ll leave it to her to reveal the details, the Alice Thornton’s Books team’s ears pricked up as we heard that Kate’s next heroine experienced the greatest deliverance from death of all time. Deliverance from death is, as our followers will know, a favourite theme of ours. 
-
-A book stall run by Argonaut Books from Leith Walk was also in the park with us, and Kate Foster joined them to sign copies of her books. 
-
-## Craft and Creative Writing
-
-As well as reading new books, children and adults had a chance to try writing with dip ink on small pages of a similar size to those Alice Thornton had in her books. Writing prompts inspired by Alice Thornton included recipes for herbal remedies and where they had been learned, inventing a new herbal remedy, or recounting a personal ‘deliverance from death’.
-
-Examples of modern-day ‘deliverances from death’, based on Alice Thornton’s *Books*, written by the local Citizen writing group and illustrated by students at Edinburgh College of Art, were also [on display](https://ontheroad.edbookfest.co.uk/blog/citizen-writers-x-edinburgh-college-of-art-deliverances-from-death/). 
-
-While mulling ideas for their own piece of writing, park visitors made calming lavender bags tied with colourful ribbon. 
-
-## Thanks to Starbank Park and Park Visitors
-
-Starbank Park, in full bloom and looking wonderful in the sun, proved to be the perfect backdrop for our Alice Thornton community event. Visitors left with handcrafted mementos, new books, and an appetite to find out more about Thornton. 
-
-We hope that visitors we met in the park will stay in touch with the project and attend future events in Edinburgh, including an Autumn reboot of ‘The Remarkable Deliverances of Alice Thornton’. Last time the play was in Edinburgh, audiences asked us for more of Alice’s arch-rival, her niece-by-marriage, Anne. Playwright and performer [Debbie Cannon](https://debbiecannon.org/) heard you, so get ready to meet Anne Danby. You’ve been warned!
-
 
  
+Festival time is in full swing here in Edinburgh, and this time of year is also when many of us, including the Alice Thornton’s Books team, host relatives and friends or take time off to travel. In the ‘Books of her Life’ written by Yorkshire’s Alice Thornton in the 17th Century, there are numerous occasions when she recalls visits to or from family members and friends, and as we begin to return home from our travels, this seems a good time to consider how much, or how little, staying with your cousins or taking a trip to the spa has changed since Thornton was writing her memoirs. 
+
+Thornton recalled and wrote about many journeys she made in her lifetime with her mother and father, and later with her husband, and she also tells us about trips that other people made, some travelling as far afield as France and Virginia, and some visiting her at home in Yorkshire.
+
+Thanks to the work of the Alice Thornton’s Books team, Thornton’s four books of her life are being made available for free. The books, handed down by generations of Thornton’s descendants over several centuries, offer a rare opportunity to journey into the past, and whatever your area of interest, they are well worth a visit.
+ 
+<p>&nbsp;</p>
+
+## Visiting Relatives in the 17th Century
+
+The majority of visits in Thornton’s books were, perhaps unsurprisingly, familial, but many trips to stay with relatives weren’t only socially motivated. Often, practical matters prompted the arduous and sometimes dangerous journeys that could be necessary to reach family and friends, and long sojourns were often the result. 
+
+This was the case in August 1644, when Thornton travelled to Middleham Castle on horseback to reach her sister, Katherine Danby. Katherine was pregnant for the sixteenth time, and she was in childbirth with her youngest son, Francis. The journey, Thornton recalled, was perilous. She nearly drowned in the River Swale, the same river that would later take the life of her brother, George Wandesford as he tried to cross it on his way to Richmond on Easter Monday in 1651.
+
+“it happened the river proved deeper than we expected it. And I kept up my horse as well as I could from standly and so bore up a long time but, when we were gone so far that I could not turn back, the river proved past riding and the bottom could not be come to by the poor mare (which was an excellent mare of my poor brother George Wandesford’s). So, I saw myself in such apparent danger and begged of God to assist me and the poor beast I rid on, and to be merciful to me and deliver me out of that death for Jesus Christ his sake, and the poor mare drew up her fore feet and I perceived she did swim.” 
+(Bk 1 p.297)
+
+Thornton and the horse survived this incident, but the sister she was on her way to help was less fortunate. Thornton stayed with Katherine at Middleham Castle as her suffering grew worse, but was sent home by her mother before Katherine died of postpartum complications the following month. 
+
+A visitation that Thornton sounds truly grateful to have had was one by her aunt, Anne Norton, who arrived to be by Thornton’s side in 1668. Thornton, then 42, found herself facing a scandal as rumours circulated about her relationship with Thomas Comber, the Minister engaged to her young daughter. 
+
+“My dear aunt was so concerned to hear I had been so belied that she immediately came to Newton and found me in a manner half dead with grief, upon this alarm that Mrs Danby and her maid raised up against me. I was extremely overjoyed to see her and blessed God for that providence which brought her thither.” 
+(Book 3 p. 87)
+
+Assisting a relative during difficult times was important enough to prompt treacherous journeys by horse, carriage, and ship, but sometimes it was the visitor who was the one in need, and according to Thornton’s account, doors were opened wide to her and her family many times. During the first English Civil War, Thornton and her mother took sanctuary with Thornton’s sister, Katherine. 
+
+“For it being in the heat of the wars, [my mother] could not live at Hipswell, her jointure, which was molested sometimes with the parilament’s and then the king’s forces among them… So that for a whole year, we lived with great comfort and safety with my sweet sister Danby at Snape.” 
+(Book 1 p 80)
+ 
+<p>&nbsp;</p>
+
+## Travelling for Treatment
+
+Thornton wrote of many occasions when she and her relatives travelled for health reasons. Her husband William Thornton was ‘upon serious consideration of his distemper, then inclining to melancholic…advised for the spa’ (Book 1 p 234). William travelled to Scarborough on the recommendation of the family’s doctor, Dr Robert Wittie. 
+
+Alice Thornton was herself treated in Scarborough for haemorrhoids in 1659:
+
+“This was pitched upon: that I should go to Scarborough spas for the cure of that sad distemper. And, accordingly, I went with my husband and stayed about a month there until I recovered some strength. 
+
+In which time, by the infinite and wonderful mercies of the Lord and his blessing upon drinking of the waters, I recovered my strength by degrees after the curing of me of that infirmity of bleeding.” 
+(Book 2 p 166)
+
+When Alice Thornton was thirteen and her family were living in Ireland, she briefly returned to England with her mother, who was treated for a kidney or bladder stone. They visited Bath and at St Vincent’s Well in Bristol, and her mother was cured before visiting relatives and later returning to Ireland on a ship which, according to Thornton, was nearly lost at sea. She writes of their relief on being reunited with her father:
+
+“And, on the next day, came my father from Dublin in the company of many noble friends in coaches to carry us home to Dublin where my dear mother was received with all joy and gladness.”
+
+(Book 1. P17)
+ 
+<p>&nbsp;</p>
+
+## Social Visits
+
+The countryside may be where we go to escape on our holidays, but in Thornton’s writing, the landscape and the weather were often obstacles preventing social visiting. When travel was necessary, the outdoors was something to be endured and crossed in fear of your life. 
+
+In October 1677, Alice Thornton wrote to her brother Christopher Wandesford to let him know that Yorkshire’s Hambleton Hills were preventing her from making a social visit to Osgodby Hall in Thirkleby. The same hills were referenced in her Book 1 as having caused her difficulties during her first pregnancy in 1652. Source: The Ormonde papers, MS2368 Vol 68, 171, National Library of Ireland, Dublin.
+
+![Thornton's letter to her brother, Christopher Wandesford]( {{"/assets/img/posts/AT_to_CW_1677.jpg" | url }} "Thornton's letter to her brother, Christopher Wandesford"){.media-right}
+
+It was during this first pregnancy that Alice Thornton made what must have been quite a social tour, visiting her husband’s relations at Crathorne, Buttercrambe, York, Hull and Beverley, and she was keen to make a good impression: 
+
+“I bless God who gave me favour in their eyes of my husband’s friends.” 
+(Book 2 p. 138)
+
+On her way home, though, she once again came to danger. 
+
+“at that place of the great rocks and cliffs, which is called Whitestone Cliff which I knew not, but was a mile to the bottom, where I could not tread one step even down but on my toes (being held up by my maid, Susan Gosling) which so strained my body, being near my time, that I went down in pain and did sweat exceedingly.” 
+(Book 2 p. 139)
+
+When social visits were planned in advance, there were often important matters to attend to, such as a marriage or legal matters, and Thornton’s writing, and letters sent to her suggest that a good meal could be laid out for guests. Here, in a letter from May 1699, Thornton’s son-in-law Thomas Comber sent a list of what he expected to find on his arrival at her home, East Newton Hall.
+
+“bread must be baked, and meat bespoke against that time, I have ale, and I hope small beer is brewed, if not I must borrow a hogshead of you to pay again.”
+Source: The Autobiographies and Letters of Thomas Comber, ed. C.E. Whiting, vol, 1, Surtees Society, 156 (1946), p.272.
+
+So, some guests could be as demanding as they are today, but with travel being difficult and dangerous, perhaps all welcomed a good meal at the end of it. In March 1699, just a few months before Thomas Comber would send Thornton the letter about the meal he wanted on arrival, she had written to him at the Deanery of Durham Cathedral. She thanked him for letting his wife (Thornton’s daughter, Nally) come for a visit to East Newton, but she advised Comber against making the same journey. Her concern was the wintry weather, so she said, although you might wonder if she just didn’t have the beers in. 
+
+There is a lot to discover about Alice Thornton in the four books she wrote about her life. You can already read the first 100 pages of all her books, now available for free on our project website, and don’t forget to come back soon when the four books will be available in full.   
+
