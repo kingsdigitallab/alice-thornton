@@ -564,7 +564,7 @@ section {
                   font-size: 26px;
                   font-weight: bold;
                   line-height: 1;
-                  border-bottom: 8px ridge;
+                  border-bottom: 8px solid #f1f1f1;
                 } //before
               }
               &.mediumbold {
@@ -572,7 +572,7 @@ section {
                 &:before {
                   font-size: 22px;
                   font-weight: bold;
-                  border-bottom: 4px ridge;
+                  border-bottom: 4px solid #f1f1f1;
                 } //before
               }
               &.running {
@@ -1186,8 +1186,9 @@ $render-sic: false;
     // TODO: center in panel, not just text?
     text-align: center;
     word-break: break-word;
-    border-bottom: 8px ridge;
+    border-bottom: 8px solid #f1f1f1;
     padding: 8px;
+    font-family: "Noto", sans-serif;
   }
   h2,
   .tei-fw.tei-type-head {
@@ -1196,8 +1197,9 @@ $render-sic: false;
     display: block;
     text-align: center;
     margin-top: 0;
-    border-bottom: 4px ridge;
+    border-bottom: 4px solid #f1f1f1;
     line-height:2.5;
+    font-family: "Noto", sans-serif;
 
     &:before {
       // removes the decoration applied to the h2 on the rest of the site
@@ -1209,6 +1211,7 @@ $render-sic: false;
     font-size: 22px;
     display: block;
     text-align: center;
+    font-family: "Noto", sans-serif;
   }
 
   .tei-docAuthor {
