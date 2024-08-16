@@ -121,7 +121,7 @@ eleventyNavigation:
     <li class="glossary">Gloss<br><span>double underline </span></li>
     <li class="person">Entity (Person) <br><span>dashed underline (circle icon) </span></li>
     <li class="place">Entity (Place) <br><span>dashed underline (square icon) </span></li>
-    <li class="event">Entity (Event) <br><span>dashed underline (time icon) </span></li>
+    <li class="event">Entity (Event) <br><span>dashed underline (start and end time icon) </span></li>
     <li class="biblical">Biblical reference <br><span>gray black underline (cross icon) </span></li>
     </ul> 
     <h3>Images</h3>
