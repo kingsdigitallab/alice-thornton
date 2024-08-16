@@ -591,7 +591,14 @@ section {
                   font-size: 22px;
                 } //before
               } //
-
+              &.rule {
+                &:before {
+                  content: "";
+                  border-bottom: 2px solid gray;
+                  width: 1.5em;
+                  height: 0.7em;
+                } //before
+              } //
               &.pnumber {
                 // Author's page numbers
                 &:before {
