@@ -118,7 +118,7 @@ eleventyNavigation:
     <h3>Contextual Materials</h3>
     <ul>
     <li class="enotes">Editorial Notes<br><span>number in note icon intext</span></li>
-    <li class="glossary">Glossary<br><span>double underline </span></li>
+    <li class="glossary">Gloss<br><span>double underline </span></li>
     <li class="person">Entity (Person) <br><span>dashed underline (circle icon) </span></li>
     <li class="place">Entity (Place) <br><span>dashed underline (square icon) </span></li>
     <li class="event">Entity (Event) <br><span>dashed underline (time icon) </span></li>
