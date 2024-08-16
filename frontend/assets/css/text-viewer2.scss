@@ -1206,6 +1206,12 @@ $render-sic: false;
     border-bottom: 8px solid #f1f1f1;
     padding: 8px;
     font-family: "Noto", sans-serif;
+    .has-info-box.is-person:after, #text-viewer .panel .content .has-info-box.tei-type-person:after, .tei-type-monogram .has-info-box.is-person:after{
+      right: 0;
+      top: -18px;
+      font-size: 18px;
+      }
+      
   }
   h2,
   .tei-fw.tei-type-head {
@@ -1222,6 +1228,10 @@ $render-sic: false;
       // removes the decoration applied to the h2 on the rest of the site
       display: none;
     }
+    .has-info-box.is-person:after, #text-viewer .panel .content .has-info-box.tei-type-person:after {
+      right: 0;
+      top: -18px;
+      }
   }
   h3,
   .tei-fw.tei-type-header {
