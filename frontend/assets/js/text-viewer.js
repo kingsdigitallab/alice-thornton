@@ -7,19 +7,27 @@ const BOOK_EDITORS =
 const BOOKS_META = {
   book_of_remembrances: {
     title: "Book of Remembrances",
+    titleShort: "Book of Remembrances",
     date: "c.1659-73",
+    previewPath: "book_of_remembrances",
   },
   book_one: {
     title: "Book 1: The First Book of My Life",
+    titleShort: "Book 1",
     date: "c.1668-87",
+    previewPath: "book_one",
   },
   book_two: {
     title: "Book 2: The First Book of My Widowed Condition",
+    titleShort: "Book 2",
     date: "c.1685-95",
+    previewPath: "book_two",
   },
   book_three: {
     title: "Book 3: The Second Book of My Widowed Condition",
+    titleShort: "Book 3",
     date: "c.1692-6",
+    previewPath: "book_three",
   },
 };
 
@@ -192,9 +200,9 @@ function setUpTextViewer() {
         }
         return ret;
       },
-      selectedPanelCitation() {
+      selectedPanelCitationDict() {
+        let ret = {};
         let panel = this.selectedPanel;
-        let ret = "";
         if (panel) {
           let format = { year: "numeric", month: "long", day: "numeric" };
           let today = new Date().toLocaleDateString("en-GB", format);
@@ -210,10 +218,24 @@ function setUpTextViewer() {
             )}`;
             // ret = `${editors}. '${book}, ${version} edition, p. ${pageNumber}'. Alice Thornton's Books. Accessed ${today}. ${url}`;
             // ret = `Alice Thornton, <em>${book}</em>, ${version} edition by ${editors}, ${pageNumber}. 2024. <br> ${url} (accessed ${today})`;
-            ret = `Alice Thornton, <em>${bookMeta.title}</em>. ${bookMeta.date}. ${version} edition by ${editors}, 2024, ${pageNumber}.<br> ${url} (accessed ${today}). `;
+            ret = {
+              title: bookMeta.title,
+              titleShort: bookMeta.titleShort,
+              date: bookMeta.date,
+              version: version,
+              editors: editors,
+              pageNumber: pageNumber,
+              url: url,
+              today: today,
+              previewPath: bookMeta.previewPath,
+            };
           }
         }
         return ret;
+      },
+      selectedPanelCitationString() {
+        let citation = this.selectedPanelCitationDict;
+        return `Alice Thornton, <em>${citation.title}</em>. ${citation.date}. ${citation.version} edition by ${citation.editors}, 2024, ${citation.pageNumber}.<br> ${citation.url} (accessed ${citation.today}). `;
       },
     },
     methods: {
@@ -240,7 +262,7 @@ function setUpTextViewer() {
         });
       },
       onClickCopyCitation() {
-        let citation = this.selectedPanelCitation;
+        let citation = this.selectedPanelCitationString;
         navigator.clipboard.writeText(citation.replace(/<[^>]+>/g, ""));
       },
       isControlHidden(controlKey) {

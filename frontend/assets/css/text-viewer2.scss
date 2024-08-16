@@ -273,6 +273,15 @@ section {
           color: black;
           font-family: sans-serif;
         }
+        // GN - 18/08/2024 - https://app.clickup.com/t/86bzqt60c
+        dt, dd {
+          display: inline-block;
+        }
+        dt {
+          text-transform: uppercase;
+          width: 80px;
+          font-size: 13px;
+        }
       } //h1
     } //aside#drawer
     #drawer-switch {
@@ -1291,6 +1300,11 @@ $render-sic: false;
   .has-info-box {
     position: relative;
     border-bottom: 1px dashed gray;
+
+    &:has(.has-info-box):after {
+      top: -21px !important;
+    }
+
     &.is-place,
     &.tei-placeName {
       &:after {
@@ -1434,6 +1448,7 @@ $render-sic: false;
 
   // quote
   .info-box {
+
     display: none;
 
     @include popover;

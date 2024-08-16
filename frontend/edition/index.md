@@ -67,7 +67,21 @@ eleventyNavigation:
   <input id="drawer-switch" type="checkbox" />
 
   <aside id="drawer" role="complementary">
-    <h1><span>Information for:</span>{{ drawerTitle }}</h1>
+    <!-- <h1><span>Information for:</span>{{ drawerTitle }}</h1> -->
+    <h1>
+      <dl>
+        <dt>Volume:</dt>
+        <dd>{{ selectedPanelCitationDict.titleShort }}&nbsp;
+          <a :title="`About ${ selectedPanelCitationDict.titleShort }`" :href="`/books/${selectedPanelCitationDict.previewPath}/`"><i class="fas fa-list-alt"></i></a>
+        </dd>
+        <br>
+        <dt>Version:</dt>
+        <dd>{{ selectedPanelCitationDict.version }}</dd>
+        <br>
+        <dt>Page:</dt>
+        <dd><!-- page -->{{ selectedPanelCitationDict.pageNumber }}</dd>
+      </dl>
+    </h1>
     <div class="tabs">
       <label>BOOK</label>
       <div class="tab">
@@ -170,7 +184,7 @@ eleventyNavigation:
       </div>
       <br>
       <label>PAGE</label>
-            <div class="tab">
+      <div class="tab">
         <input type="radio" id="tab-2" name="tab-group-1">
         <label for="tab-2">
           <i class="fas fa-quote-left"></i>
@@ -180,161 +194,12 @@ eleventyNavigation:
           <h2>Citation</h2>
           <!-- <p>Cite the Research team that worked on this page of the digital edition</p> -->
           <div class="citation">
-            <p v-html="selectedPanelCitation"></p>
+            <p v-html="selectedPanelCitationString"></p>
             <button class="button is-secondary" @click="onClickCopyCitation()"><i class="far fa-copy"></i> &nbsp;
               Copy</button>
           </div>
-          <!-- <br> -->
-          <!-- <p>Other contributors include the Solution Development Team on our <a href="/about/">About Page</a>.</p> -->
-      </div>
-      </div>
-      <!--<div class="tab">
-        <input
-          type="radio"
-          id="tab-5"
-          name="tab-group-1">
-        <label for="tab-5">
-          <i class="fas fa-pen-fancy"></i><h2>Editorial Notes</h2>
-        </label>
-        <div class="content">
-        <h2>Editorial Notes</h2>
-          <ul>
-            <li>
-              <span class="body">
-                <span class="tei-p" data-tei="p">
-                  A cross in the left hand margin: appears to be an "omission sign" or
-                  "signe de renvoi". See Benjamin Neudorf and Yin Liu, 'Signes-de-Renvoi',
-                  <span
-                    class="tei-hi"
-                    data-tei="hi"
-                    data-tei-rend="italic">Architectures of the Book</span>, December 21, 2016,
-                  <span
-                    class="tei-ref"
-                    data-tei="ref"
-                    data-tei-target="https://drc.usask.ca/projects/archbook/signes_de_renvoi.php">https://drc.usask.ca/projects/archbook/signes_de_renvoi.php</span>.
-                  It perhaps relates to material at the back of this book as the first entry there (page 186) relates to
-                                                                    an incident in 1629.
-                </span>
-              </span>
-            </li>
-            <li>
-              <span class="body">
-                <span class="tei-p" data-tei="p">
-                  Surfeit: 'Excessive consumption of food or drink; overindulgence in
-                  eating or drinking; gluttony’,
-                  <span
-                    class="tei-hi"
-                    data-tei="hi"
-                    data-tei-rend="italic">OED</span>.
-                </span>
-              </span>
-            </li>
-            <li>
-              <span class="body">
-                <span class="tei-p" data-tei="p">
-                  On seventeenth-century measles see Alan Dyer, ‘Epidemics of Measles in
-                  a Seventeenth Century English Town’,
-                  <span
-                    class="tei-hi"
-                    data-tei="hi"
-                    data-tei-rend="italic">Local
-                    Population Studies</span>
-                  34 (1985): 35–45. In early use, ‘measles’ could denote various diseases
-                  causing a red rash:
-                  <span
-                    class="tei-hi"
-                    data-tei="hi"
-                    data-tei-rend="italic">OED</span>.</span>
-              </span>
-            </li>
-          </ul>
         </div>
       </div>
-      <div class="tab">
-        <input
-          type="radio"
-          id="tab-6"
-          name="tab-group-1">
-        <label for="tab-6">
-          <i class="fas fa-shapes"></i><h2>Entities</h2>
-        </label>
-        <div class="content">
-        <h2>Entities</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-        </div>
-      </div>
-      <div class="tab">
-        <input
-          type="radio"
-          id="tab-7"
-          name="tab-group-1">
-        <label for="tab-7">
-          <i class="fas fa-cross"></i><h2>Biblical Refererences</h2>
-        </label>
-        <div class="content">
-        <h2>Biblical Refererences</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-        </div>
-      </div>        <div class="tab">
-        <input type="radio" id="tab-0" name="tab-group-1">
-        <label for="tab-0">
-          <i class="fas fa-pen-fancy"></i>
-          <h2>Editorial Principles</h2>
-        </label>
-        <div class="content">
-          <h2>Editorial Principles</h2>
-          <h3>Semi-diplomatic</h3>
-          <p>The semi-diplomatic version of the text retains some original textual features, including original lineation, paragraphing, punctuation, spelling and capitalisation. It also includes evidence of authorial corrections, such as insertions and deletions. However, to make this version more accessible we have silently modernised Thornton’s use of u/v, i/j and long S, and expanded her contractions of words such as ‘the’, ‘which’, and ‘that’ (from ye, wch and yt). </p>
-          <h3>Modernised</h3>
-          <p>This version modernises according to the conventions of UK English, supplemented by Chicago Manual of Style (CMS) referencing recommendations. To retain a sense of Thornton’s distinctive voice, we have retained archaic forms and provided glosses. Sometimes this means that Thornton’s syntax deviates from modern expectations, especially regarding single/plural subject/verb agreement. Occasionally, further intervention is required to clarify sense; in these cases, supplied materials are identified by square brackets. </p>
-        </div>
-      </div>-->
     </div>
   </aside>
   <div class="panel-wrapper">
