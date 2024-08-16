@@ -58,7 +58,8 @@ Assisting a relative during difficult times was important enough to prompt treac
 
 ## Travelling for Treatment
 
-![A page from a book about 'Scarbrough spaw' by Dr Wittie.]( {{ "/assets/img/posts/spa.jpg" | url }} "Dr Wittie, the Thornton family doctor, had written a book on the benefits of 'Scarbrough spaw'."){.media-right}
+![title page: Scarbrough Spaw, or, A description of the nature and vertues of the spaw at Scarbrough in Yorkshire. Also a treatise of the nature and use of water in general, and the several sorts thereof, as sea, rain, snow, pond, lake, spring, and river water, with the original causes and qualities... By Robert Wittie, Dr. in Physick.]({{"/assets/img/posts/thornton_books_2022-Jun-08_scarborough-spaw.jpg" | url}} "Dr Wittie, the Thornton family doctor, had written a book on the benefits of 'Scarbrough spaw'."){.media-right}
+
 
 Thornton wrote of many occasions when she and her relatives travelled for health reasons. Her husband, William Thornton, was ‘upon serious consideration of his distemper, then inclining to melancholic ... advised for the spa’ (Book 1, 234). William travelled to Scarborough on the recommendation of the family’s doctor, Dr Robert Wittie. 
 
