@@ -553,6 +553,16 @@ section {
                   line-height: 1.1;
                 } //before
               } //
+              &.doublestrikethrough {
+                //transcription
+                &:before {
+                  content: "the";
+                  position: absolute;
+                  text-decoration: line-through;
+                  line-height: 1.1;
+                  text-decoration-style: double
+                } //before
+              } //
               &.heart {
                 //transcription
                 &:before {
@@ -574,7 +584,7 @@ section {
                   font-size: 26px;
                   font-weight: bold;
                   line-height: 1;
-                  border-bottom: 8px ridge;
+                  border-bottom: 8px solid #f1f1f1;
                 } //before
               }
               &.mediumbold {
@@ -582,7 +592,7 @@ section {
                 &:before {
                   font-size: 22px;
                   font-weight: bold;
-                  border-bottom: 4px ridge;
+                  border-bottom: 4px solid #f1f1f1;
                 } //before
               }
               &.running {
@@ -591,7 +601,14 @@ section {
                   font-size: 22px;
                 } //before
               } //
-
+              &.rule {
+                &:before {
+                  content: "";
+                  border-bottom: 2px solid gray;
+                  width: 1.5em;
+                  height: 0.7em;
+                } //before
+              } //
               &.pnumber {
                 // Author's page numbers
                 &:before {
@@ -655,12 +672,12 @@ section {
               &.event {
                 //Entity Event
                 &:before {
-                  content: "⧔ ⧕";
-                  padding-bottom: 5px;
-                  font-size: 12px;
-                  color: gray;
+                  content: "⊢ ⊣";
+                  padding-bottom:5px;
+                  font-size:12px;
+                  color:gray;
                   border-bottom: 1px dashed gray;
-                  width: 20px;
+                  width: 22px;
                   height: 8px;
                 } //before
               }
@@ -776,7 +793,7 @@ $render-sic: false;
 #text-viewer .panel-chunk {
   overflow: auto; // GN: changed to auto to avoid ugly disabled scrollbar in chrome
   height: calc(90vh - 120px);
-  margin: 40px 0 0 0;
+  margin: 0;
   display: flex;
 }
 
@@ -873,7 +890,6 @@ $render-sic: false;
   .missing-content-message,
   .missing-chars {
     color: #777;
-    font-style: italic;
     &:before {
       content: "[";
     }
@@ -1196,8 +1212,15 @@ $render-sic: false;
     // TODO: center in panel, not just text?
     text-align: center;
     word-break: break-word;
-    border-bottom: 8px ridge;
+    border-bottom: 8px solid #f1f1f1;
     padding: 8px;
+    font-family: "Noto", sans-serif;
+    .has-info-box.is-person:after, #text-viewer .panel .content .has-info-box.tei-type-person:after, .tei-type-monogram .has-info-box.is-person:after{
+      right: 0;
+      top: -18px;
+      font-size: 18px;
+      }
+      
   }
   h2,
   .tei-fw.tei-type-head {
@@ -1206,19 +1229,25 @@ $render-sic: false;
     display: block;
     text-align: center;
     margin-top: 0;
-    border-bottom: 4px ridge;
-    line-height: 2.5;
+    border-bottom: 4px solid #f1f1f1;
+    line-height:2.5;
+    font-family: "Noto", sans-serif;
 
     &:before {
       // removes the decoration applied to the h2 on the rest of the site
       display: none;
     }
+    .has-info-box.is-person:after, #text-viewer .panel .content .has-info-box.tei-type-person:after {
+      right: 0;
+      top: -18px;
+      }
   }
   h3,
   .tei-fw.tei-type-header {
     font-size: 22px;
     display: block;
     text-align: center;
+    font-family: "Noto", sans-serif;
   }
 
   .tei-docAuthor {
@@ -1279,13 +1308,14 @@ $render-sic: false;
     .note-symbol {
       padding-left: 0.2em;
       color: $primary;
-      // font-weight: bold;
       border: 1px solid lightgray;
       box-shadow: 1px 1px 1px gray;
       padding: 0 2px;
       margin: 0 2px 2px 2px;
       font-size: 10px;
-      &:hover {
+      top: -5px;
+      position: relative;
+      &:hover{
         border: 1px solid gray;
         box-shadow: 1px 1px 1px black;
         color: black;
@@ -1312,9 +1342,9 @@ $render-sic: false;
         content: "◼";
         position: relative;
         right: 5px;
-        top: -13px;
-        color: gray;
-        font-size: 10px;
+        top: -15px;
+        color:gray;
+        font-size:10px;
         margin-right: -0.8em;
         width: 0.7em;
         height: 0.7em;
@@ -1334,9 +1364,9 @@ $render-sic: false;
         height: 0.7em;
         position: relative;
         right: 5px;
-        top: -13px;
-        color: gray;
-        font-size: 13px;
+        top: -15px;
+        color:gray;
+        font-size:13px;
         margin-right: -0.6em;
       }
       &:hover {
@@ -1357,7 +1387,7 @@ $render-sic: false;
         height: 0.7em;
         position: relative;
         right: 6px;
-        top: -13px;
+        top: -15px;
         color: gray;
         font-size: 13px;
         margin-right: -0.6em;

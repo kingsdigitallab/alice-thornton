@@ -102,6 +102,7 @@ eleventyNavigation:
     <li class="dashed">Authorial repetition <br><span>dashed box around the material</span></li>
     <li class="bracket">Items bracketed together <br><span>Curly bracket on the right of text</span></li>
     <li class="strikethrough">Text deleted by author <br><span>strikethrough – words or characters are crossed through with a line</span></li>
+    <li class="doublestrikethrough">[Content to be added] <br><span>strikethrough – words or characters are crossed through with a line</span></li>
     <li class="heart">Use of heart symbol instead of the word 'heart'<br>
       <span>Heart icon - a glyph or non-standard character</span>
     </li>
@@ -112,12 +113,15 @@ eleventyNavigation:
       <span>grey brackets (details supplied within)</span>
     </li>
     <li class="largebold">Page title heading<br>
-      <span>largest size, centred, bold font. grey and black thick underline</span></li>
+      <span>largest size, centred, bold font. light grey thick underline</span></li>
       <li class="mediumbold">Other headings and some dates<br>
-      <span>medium size, centred, bold font. grey and black medium underline</span>
+      <span>medium size, centred, bold font. light grey medium underline</span>
       </li>
       <li class="running">(Running) headers like dates<br>
         <span>medium size, centred font</span>
+      </li>
+      <li class="rule">Ruled lines in the author's original book<br>
+        <span>standard single grey ruled line, across full width of the page</span>
       </li>
     <li class="pnumber">
       Page number in the author's original book<br><span>Number in italics, top left of display</span>
@@ -128,10 +132,10 @@ eleventyNavigation:
     <h3>Contextual Materials</h3>
     <ul>
     <li class="enotes">Editorial Notes<br><span>number in note icon intext</span></li>
-    <li class="glossary">Glossary<br><span>double underline </span></li>
+    <li class="glossary">Gloss<br><span>double underline </span></li>
     <li class="person">Entity (Person) <br><span>dashed underline (circle icon) </span></li>
     <li class="place">Entity (Place) <br><span>dashed underline (square icon) </span></li>
-    <li class="event">Entity (Event) <br><span>dashed underline (time icon) </span></li>
+    <li class="event">Entity (Event) <br><span>dashed underline (start and end time icon) </span></li>
     <li class="biblical">Biblical reference <br><span>gray black underline (cross icon) </span></li>
     </ul> 
     <h3>Images</h3>
