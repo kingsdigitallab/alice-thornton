@@ -274,7 +274,8 @@ section {
           font-family: sans-serif;
         }
         // GN - 18/08/2024 - https://app.clickup.com/t/86bzqt60c
-        dt, dd {
+        dt,
+        dd {
           display: inline-block;
         }
         dt {
@@ -532,7 +533,7 @@ section {
                   line-height: 0.7;
                   border: 1px dashed gray;
                   padding: 1px 5px 3px 5px;
-                  background:#f1f1f1;
+                  background: #f1f1f1;
                 }
               }
               &.bracket {
@@ -631,9 +632,9 @@ section {
                 //Entity Person
                 &:before {
                   content: "●";
-                  padding-bottom:7px;
-                  font-size:14px;
-                  color:gray;
+                  padding-bottom: 7px;
+                  font-size: 14px;
+                  color: gray;
                   border-bottom: 1px dashed gray;
                   width: 20px;
                   height: 8px;
@@ -643,9 +644,9 @@ section {
                 //Entity Place
                 &:before {
                   content: "◼";
-                  padding-bottom:7px;
-                  font-size:11px;
-                  color:gray;
+                  padding-bottom: 7px;
+                  font-size: 11px;
+                  color: gray;
                   border-bottom: 1px dashed gray;
                   width: 20px;
                   height: 8px;
@@ -655,9 +656,9 @@ section {
                 //Entity Event
                 &:before {
                   content: "⧔ ⧕";
-                  padding-bottom:5px;
-                  font-size:12px;
-                  color:gray;
+                  padding-bottom: 5px;
+                  font-size: 12px;
+                  color: gray;
                   border-bottom: 1px dashed gray;
                   width: 20px;
                   height: 8px;
@@ -667,9 +668,9 @@ section {
                 //Biblical reference
                 &:before {
                   content: "♰";
-                  padding-bottom:10px;
-                  font-size:14px;
-                  color:gray;
+                  padding-bottom: 10px;
+                  font-size: 14px;
+                  color: gray;
                   border-bottom: 1px dashed gray;
                   width: 20px;
                   height: 8px;
@@ -1206,7 +1207,7 @@ $render-sic: false;
     text-align: center;
     margin-top: 0;
     border-bottom: 4px ridge;
-    line-height:2.5;
+    line-height: 2.5;
 
     &:before {
       // removes the decoration applied to the h2 on the rest of the site
@@ -1282,12 +1283,12 @@ $render-sic: false;
       border: 1px solid lightgray;
       box-shadow: 1px 1px 1px gray;
       padding: 0 2px;
-      margin:0 2px 2px 2px;
+      margin: 0 2px 2px 2px;
       font-size: 10px;
-      &:hover{
+      &:hover {
         border: 1px solid gray;
         box-shadow: 1px 1px 1px black;
-        color:black;
+        color: black;
       }
     }
 
@@ -1312,16 +1313,16 @@ $render-sic: false;
         position: relative;
         right: 5px;
         top: -13px;
-        color:gray;
-        font-size:10px;
+        color: gray;
+        font-size: 10px;
         margin-right: -0.8em;
         width: 0.7em;
         height: 0.7em;
       }
-      &:hover{
+      &:hover {
         border-bottom: 2px solid gray;
         &:after {
-          color:black;
+          color: black;
         }
       }
     }
@@ -1334,14 +1335,14 @@ $render-sic: false;
         position: relative;
         right: 5px;
         top: -13px;
-        color:gray;
-        font-size:13px;
+        color: gray;
+        font-size: 13px;
         margin-right: -0.6em;
       }
-      &:hover{
+      &:hover {
         border-bottom: 2px solid gray;
         &:after {
-          color:black;
+          color: black;
         }
       }
     }
@@ -1361,10 +1362,10 @@ $render-sic: false;
         font-size: 13px;
         margin-right: -0.6em;
       }
-      &:hover{
+      &:hover {
         border-bottom: 2px solid gray;
         &:after {
-          color:black;
+          color: black;
         }
       }
     }
@@ -1382,7 +1383,7 @@ $render-sic: false;
     &.is-note {
       border-bottom: none;
     }
- /*
+    /*
     &.event-start {
       //event start
      &::before {
@@ -1422,10 +1423,10 @@ $render-sic: false;
         }
       }
     }*/
-    &.is-event{
-      color:gray;
-      &:hover{
-        color:black;
+    &.is-event {
+      color: gray;
+      &:hover {
+        color: black;
       }
     }
 
@@ -1448,7 +1449,6 @@ $render-sic: false;
 
   // quote
   .info-box {
-
     display: none;
 
     @include popover;
