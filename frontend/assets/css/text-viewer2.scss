@@ -543,6 +543,16 @@ section {
                   line-height: 1.1;
                 } //before
               } //
+              &.doublestrikethrough {
+                //transcription
+                &:before {
+                  content: "the";
+                  position: absolute;
+                  text-decoration: line-through;
+                  line-height: 1.1;
+                  text-decoration-style: double
+                } //before
+              } //
               &.heart {
                 //transcription
                 &:before {

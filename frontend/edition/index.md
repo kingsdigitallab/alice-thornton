@@ -88,6 +88,7 @@ eleventyNavigation:
     <li class="dashed">Authorial repetition <br><span>dashed box around the material</span></li>
     <li class="bracket">Items bracketed together <br><span>Curly bracket on the right of text</span></li>
     <li class="strikethrough">Text deleted by author <br><span>strikethrough – words or characters are crossed through with a line</span></li>
+    <li class="doublestrikethrough">[Content to be added] <br><span>strikethrough – words or characters are crossed through with a line</span></li>
     <li class="heart">Use of heart symbol instead of the word 'heart'<br>
       <span>Heart icon - a glyph or non-standard character</span>
     </li>
