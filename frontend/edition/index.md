@@ -94,6 +94,7 @@ eleventyNavigation:
           <i class="fas fa-key"></i><h2>Key</h2></label>
         <div class="content"> 
         <h2>Key</h2>
+        <p><sup>*</sup>Only in semi-diplomatic versions</p>
     <h3>Transcription</h3>
   <ul>
     <li class="monogram">Monogram<br><span>cursive font (replicating handwriting)</span></li>
@@ -101,12 +102,12 @@ eleventyNavigation:
     <li class="above">Authorial insertions/contractions <br><span>superscript - text placed higher</span></li>
     <li class="dashed">Authorial repetition <br><span>dashed box around the material</span></li>
     <li class="bracket">Items bracketed together <br><span>Curly bracket on the right of text</span></li>
-    <li class="strikethrough">Text deleted by author that remains legible<br><span>strikethrough – words or characters are crossed through with a single line</span></li>
-    <li class="doublestrikethrough">Text deleted by author that is no longer legible<br><span>strikethrough – words or characters are crossed through with a double line</span></li>
+    <li class="strikethrough">Text deleted by author that remains legible<sup>*</sup><br><span>strikethrough – words or characters are crossed through with a single line</span></li>
+    <li class="doublestrikethrough">Text deleted by author that is no longer legible<sup>*</sup><br><span>strikethrough – words or characters are crossed through with a double line</span></li>
     <li class="heart">Used by Thornton in place of the word 'heart'<br>
       <span>Heart icon - a glyph or non-standard character</span>
     </li>
-    <li class="livre">An abbreviation of 'livre' meaning pound<br>
+    <li class="livre">An abbreviation of 'livre' meaning pound<sup>*</sup><br>
       <span>forward slash placed slightly higher</span>
     </li>
     </ul>
