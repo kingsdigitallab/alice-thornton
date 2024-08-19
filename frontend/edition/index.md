@@ -106,6 +106,9 @@ eleventyNavigation:
     <li class="heart">Used by Thornton in place of the word 'heart'<br>
       <span>Heart icon - a glyph or non-standard character</span>
     </li>
+    <li class="livre">An abbreviation of 'livre' meaning pound<br>
+      <span>forward slash placed slightly higher</span>
+    </li>
     </ul>
  <h3>Text block</h3>
   <ul>

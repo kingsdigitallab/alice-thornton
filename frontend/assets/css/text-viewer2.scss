@@ -570,7 +570,14 @@ section {
                   line-height: 1.1;
                 } //before
               }
-
+              &.livre {
+                //transcription
+                &:before {
+                  content: "/";
+                  line-height: 0.7;
+                  
+                } //before
+              }
               &.blank {
                 //Blank page or lines
                 &:before {
