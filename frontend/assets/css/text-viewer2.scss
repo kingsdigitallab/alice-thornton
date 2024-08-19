@@ -584,7 +584,6 @@ section {
                   font-size: 26px;
                   font-weight: bold;
                   line-height: 1;
-                  border-bottom: 8px solid #f1f1f1;
                 } //before
               }
               &.mediumbold {
@@ -592,19 +591,19 @@ section {
                 &:before {
                   font-size: 22px;
                   font-weight: bold;
-                  border-bottom: 4px solid #f1f1f1;
+                  border-bottom: 4px solid $primary;
                 } //before
               }
               &.running {
                 //Running headers
                 &:before {
-                  font-size: 22px;
+                  font-size: 22px; font-style: italic;
                 } //before
               } //
               &.rule {
                 &:before {
                   content: "";
-                  border-bottom: 2px solid gray;
+                  border-bottom: 2px solid $primary;
                   width: 1.5em;
                   height: 0.7em;
                 } //before
@@ -1212,7 +1211,6 @@ $render-sic: false;
     // TODO: center in panel, not just text?
     text-align: center;
     word-break: break-word;
-    border-bottom: 8px solid #f1f1f1;
     padding: 8px;
     font-family: "Noto", sans-serif;
     .has-info-box.is-person:after, #text-viewer .panel .content .has-info-box.tei-type-person:after, .tei-type-monogram .has-info-box.is-person:after{
@@ -1229,7 +1227,7 @@ $render-sic: false;
     display: block;
     text-align: center;
     margin-top: 0;
-    border-bottom: 4px solid #f1f1f1;
+    border-bottom: 4px solid $primary;
     line-height:2.5;
     font-family: "Noto", sans-serif;
 
@@ -1248,6 +1246,7 @@ $render-sic: false;
     display: block;
     text-align: center;
     font-family: "Noto", sans-serif;
+    font-style: italic;
   }
 
   .tei-docAuthor {
