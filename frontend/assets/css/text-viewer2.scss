@@ -1131,15 +1131,21 @@ $render-sic: false;
     text-decoration: line-through;
   }
 
-  &.view-modern {
-    .tei-quote.tei-type-direct,
-    .tei-quote.tei-type-partial.nomore {
-      &:before {
-        content: "‘";
-      }
-      &:after {
-        content: "’";
-      }
+  // &.view-modern {
+  //   .tei-quote.tei-type-direct,
+  //   .tei-quote.tei-type-partial.nomore {
+  //     &:before {
+  //       content: "‘";
+  //     }
+  //     &:after {
+  //       content: "’";
+  //     }
+  //   }
+  // }
+
+  &.view-semidip {
+    .modern-only {
+      display: none;
     }
   }
 

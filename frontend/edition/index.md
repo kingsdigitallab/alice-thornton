@@ -28,6 +28,9 @@ eleventyNavigation:
     .dts-fragment .is-event, .dts-fragment .event {
       display: none;
     }
+    .modern-only {
+      display: none;
+    }
   </style>
 
 {% endif %}
