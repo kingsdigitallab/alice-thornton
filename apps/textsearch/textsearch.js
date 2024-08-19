@@ -1,10 +1,10 @@
 "use strict";
 
 // const gfetch = require("node-fetch");
+const { execSync } = require("child_process");
 const SaxonJS = require("saxon-js");
+const pathp = require("path");
 const fs = require("fs");
-const pathp = require('path');
-const {execSync} = require('child_process')
 
 const sourceBase = "./clone/dts/documents/";
 // const sourceBase =
@@ -13,7 +13,7 @@ const sources = ["people.xml", "places.xml", "events.xml"];
 // const sources = ["events.xml"];
 const target = "../../frontend/assets/js/entities.json";
 // const jsonSheetPath = "html-to-html.sef.json";
-const XSLTPath = "html-to-html.xslt"
+const XSLTPath = "html-to-html.xslt";
 
 class TextSearch {
   constructor() {
@@ -23,15 +23,15 @@ class TextSearch {
   async transformHTMLs() {
     var paths = fs.readdirSync(sourceBase);
     while (paths.length) {
-      let path = paths.pop()
-      let pathAbs = pathp.join(sourceBase, path)
+      let path = paths.pop();
+      let pathAbs = pathp.join(sourceBase, path);
       if (fs.lstatSync(pathAbs).isDirectory()) {
         for (let p of fs.readdirSync(pathAbs)) {
-          paths.push(pathp.join(path, p))
+          paths.push(pathp.join(path, p));
         }
       } else {
-        if (path.endsWith('.html')) {
-          await this.transformHTML(pathAbs)
+        if (path.endsWith(".html")) {
+          await this.transformHTML(pathAbs);
           break;
         }
       }
@@ -39,7 +39,7 @@ class TextSearch {
   }
 
   async transformHTML(path) {
-    console.log(path)
+    console.log(path);
     let entitiesJson = await this.xslt(path, XSLTPath);
   }
 
@@ -122,7 +122,7 @@ class TextSearch {
   xslt(docPath, XSLTPath) {
     let docString = null;
 
-    let jsonSheetPath = this.writeTransformJson(XSLTPath)
+    let jsonSheetPath = this.writeTransformJson(XSLTPath);
 
     docString = this.readFile(docPath);
 
@@ -147,24 +147,28 @@ class TextSearch {
 
   writeTransformJson(transformXsltPath) {
     if (!fs.existsSync(transformXsltPath)) {
-      throw new Error(`Transform file not found: ${transformXsltPath}`)
+      throw new Error(`Transform file not found: ${transformXsltPath}`);
     }
-    let ret = transformXsltPath.replace('.xsl', '.sef.json')
-    if (this.getFileModifiedTime(ret) < this.getFileModifiedTime(transformXsltPath)) {
-      execSync(`npx xslt3 -xsl:${transformXsltPath} -export:${ret} -t -ns:##html5 -nogo`)
+    let ret = transformXsltPath.replace(".xsl", ".sef.json");
+    if (
+      this.getFileModifiedTime(ret) <
+      this.getFileModifiedTime(transformXsltPath)
+    ) {
+      execSync(
+        `npx xslt3 -xsl:${transformXsltPath} -export:${ret} -t -ns:##html5 -nogo`
+      );
     }
-    return ret
+    return ret;
   }
 
   getFileModifiedTime(path) {
-    let ret = 0
+    let ret = 0;
     if (fs.existsSync(path)) {
-      ret = fs.statSync(path).mtime.getTime()
+      ret = fs.statSync(path).mtime.getTime();
     }
-    return ret
+    return ret;
   }
-  
-  
+
   writeJson(path, data) {
     // envelope: add metadata; format inspired by JSON:API
     data = {
