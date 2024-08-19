@@ -113,12 +113,12 @@ eleventyNavigation:
       <span>grey brackets (details supplied within)</span>
     </li>
     <li class="largebold">Page title heading<br>
-      <span>largest size, centred, bold font. light grey thick underline</span></li>
+      <span>largest size, centred, bold font</span></li>
       <li class="mediumbold">Other headings and some dates<br>
-      <span>medium size, centred, bold font. light grey medium underline</span>
+      <span>medium size, centred, bold font. thick medium underline</span>
       </li>
       <li class="running">(Running) headers like dates<br>
-        <span>medium size, centred font</span>
+        <span>medium size, centred, italic font</span>
       </li>
       <li class="rule">Ruled lines in the author's original book<br>
         <span>standard single grey ruled line, across full width of the page</span>
