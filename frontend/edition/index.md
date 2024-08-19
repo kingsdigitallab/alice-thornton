@@ -96,14 +96,14 @@ eleventyNavigation:
         <h2>Key</h2>
     <h3>Transcription</h3>
   <ul>
-    <li class="monogram">Alice Thornton’s monogram<br><span>cursive font (replicating handwriting)</span></li>
-    <li class="additions">Authorial additions<br><span>text in italics</span></li>
+    <li class="monogram">Monogram<br><span>cursive font (replicating handwriting)</span></li>
+    <li class="additions">Authorial comments<br><span>text in italics</span></li>
     <li class="above">Authorial insertions/contractions <br><span>superscript - text placed higher</span></li>
     <li class="dashed">Authorial repetition <br><span>dashed box around the material</span></li>
     <li class="bracket">Items bracketed together <br><span>Curly bracket on the right of text</span></li>
     <li class="strikethrough">Text deleted by author that remains legible<br><span>strikethrough – words or characters are crossed through with a single line</span></li>
     <li class="doublestrikethrough">Text deleted by author that is no longer legible<br><span>strikethrough – words or characters are crossed through with a double line</span></li>
-    <li class="heart">Use of heart symbol instead of the word 'heart'<br>
+    <li class="heart">Used by Thornton in place of the word 'heart'<br>
       <span>Heart icon - a glyph or non-standard character</span>
     </li>
     </ul>
@@ -120,8 +120,8 @@ eleventyNavigation:
       <li class="running">(Running) headers like dates<br>
         <span>medium size, centred, italic font</span>
       </li>
-      <li class="rule">Ruled lines in the author's original book<br>
-        <span>standard single grey ruled line, across full width of the page</span>
+      <li class="rule">Author’s lines that divide up text<br>
+        <span>single brown line across full width of the page</span>
       </li>
     <li class="pnumber">
       Page number in the author's original book<br><span>Number in italics, top left of display</span>
