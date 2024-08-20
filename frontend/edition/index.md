@@ -111,7 +111,7 @@ eleventyNavigation:
       <span>Heart icon - a glyph or non-standard character</span>
     </li>
     <li class="livre">An abbreviation of 'livre' meaning pound<sup>*</sup><br>
-      <span>forward slash placed slightly higher</span>
+      <span>a raised letter l in italics</span>
     </li>
     </ul>
  <h3>Text block</h3>
