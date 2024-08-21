@@ -7,19 +7,27 @@ const BOOK_EDITORS =
 const BOOKS_META = {
   book_of_remembrances: {
     title: "Book of Remembrances",
+    titleShort: "Book of Remembrances",
     date: "c.1659-73",
+    previewPath: "book_of_remembrances",
   },
   book_one: {
     title: "Book 1: The First Book of My Life",
+    titleShort: "Book 1",
     date: "c.1668-87",
+    previewPath: "book_one",
   },
   book_two: {
     title: "Book 2: The First Book of My Widowed Condition",
+    titleShort: "Book 2",
     date: "c.1685-95",
+    previewPath: "book_two",
   },
   book_three: {
     title: "Book 3: The Second Book of My Widowed Condition",
+    titleShort: "Book 3",
     date: "c.1692-6",
+    previewPath: "book_three",
   },
 };
 
@@ -192,9 +200,9 @@ function setUpTextViewer() {
         }
         return ret;
       },
-      selectedPanelCitation() {
+      selectedPanelCitationDict() {
+        let ret = {};
         let panel = this.selectedPanel;
-        let ret = "";
         if (panel) {
           let format = { year: "numeric", month: "long", day: "numeric" };
           let today = new Date().toLocaleDateString("en-GB", format);
@@ -210,10 +218,24 @@ function setUpTextViewer() {
             )}`;
             // ret = `${editors}. '${book}, ${version} edition, p. ${pageNumber}'. Alice Thornton's Books. Accessed ${today}. ${url}`;
             // ret = `Alice Thornton, <em>${book}</em>, ${version} edition by ${editors}, ${pageNumber}. 2024. <br> ${url} (accessed ${today})`;
-            ret = `Alice Thornton, <em>${bookMeta.title}</em>. ${bookMeta.date}. ${version} edition by ${editors}, 2024, ${pageNumber}.<br> ${url} (accessed ${today}). `;
+            ret = {
+              title: bookMeta.title,
+              titleShort: bookMeta.titleShort,
+              date: bookMeta.date,
+              version: version,
+              editors: editors,
+              pageNumber: pageNumber,
+              url: url,
+              today: today,
+              previewPath: bookMeta.previewPath,
+            };
           }
         }
         return ret;
+      },
+      selectedPanelCitationString() {
+        let citation = this.selectedPanelCitationDict;
+        return `Alice Thornton, <em>${citation.title}</em>. ${citation.date}. ${citation.version} edition by ${citation.editors}, 2024, ${citation.pageNumber}.<br> ${citation.url} (accessed ${citation.today}). `;
       },
     },
     methods: {
@@ -240,7 +262,7 @@ function setUpTextViewer() {
         });
       },
       onClickCopyCitation() {
-        let citation = this.selectedPanelCitation;
+        let citation = this.selectedPanelCitationString;
         navigator.clipboard.writeText(citation.replace(/<[^>]+>/g, ""));
       },
       isControlHidden(controlKey) {
@@ -461,30 +483,35 @@ function setUpTextViewer() {
       //   });
       // },
       correctPopover(popover, event) {
-        // fix the popover above all other elements
-        // under the cursor
-        let popoverContainer = popover.closest(".has-info-box");
-        if (popoverContainer) {
-          let prect = popover.getBoundingClientRect();
+        // fix the popover position, width & height.
+        // so it doesn't goes off screen.
+
+        let hoveredSpan = popover.closest(".has-info-box");
+        if (hoveredSpan) {
+          let popoverRect = popover.getBoundingClientRect();
+
           popover.style.cssText = "";
           popover.style.position = "fixed";
           popover.style["margin-top"] = "0em";
 
-          let mousex = 0;
-          let mousey = 0;
-          let rect = popoverContainer.getBoundingClientRect();
-          let rects = popoverContainer.getClientRects();
-          if (rects) {
-            rect = rects[0];
+          let popoverLeftNew = 0;
+          let popoverTopNew = 0;
+
+          // the box bounding all text within the span
+          let spanRect = hoveredSpan.getBoundingClientRect();
+          // the boxes for each line of text within the span
+          let spanRects = hoveredSpan.getClientRects();
+          if (spanRects) {
+            spanRect = spanRects[0];
             if (event) {
               // find the rectangle the mouse is hovering.
               // b/c it can be a multiline span.
-              for (let arect of rects) {
+              for (let arect of spanRects) {
                 if (
                   event.clientY >= arect.top &&
                   event.clientY <= arect.bottom
                 ) {
-                  rect = arect;
+                  spanRect = arect;
                 }
               }
             }
@@ -492,68 +519,75 @@ function setUpTextViewer() {
           // Default popover top-left corner =
           // 20px left of the mouse pointer
           // bottom of the hovered line of text
-          if (rect) {
+          if (spanRect) {
             if (event) {
-              mousex = event.clientX - 20;
+              popoverLeftNew = event.clientX - 20;
             } else {
-              mousex = rect.left + rect.width / 2;
+              popoverLeftNew = spanRect.left + spanRect.width / 2;
             }
-            mousey = rect.bottom;
+            popoverTopNew = spanRect.bottom;
           }
-          if (mousex < 0) mousex = 0;
+          if (popoverLeftNew < 0) popoverLeftNew = 0;
 
           // Does popover cross left edge of window?
-          let beyondRightEdge = mousex + prect.width - window.innerWidth;
+          let beyondRightEdge =
+            popoverLeftNew + popoverRect.width - window.innerWidth;
           if (beyondRightEdge > 0) {
             // clip to right edge if it goes beyond
-            mousex -= beyondRightEdge;
-            if (mousex < 0) {
-              // narrows if crosses left edge
-              mousex = 0;
+            popoverLeftNew -= beyondRightEdge;
+            if (popoverLeftNew < 0) {
+              // narrows if also crosses left edge
+              popoverLeftNew = 0;
               popover.style.width = `${window.innerWidth}px`;
             }
           }
           // Does popover cross bottom edge of window?
-          let beyondBottomEdge = mousey + prect.height - window.innerHeight;
+          let beyondBottomEdge =
+            popoverTopNew + popoverRect.height - window.innerHeight;
           if (beyondBottomEdge > 0) {
-            // show it above the hovered line of text
-            mousey = rect.top - prect.height;
+            // move it above the hovered line of text
+            let popoverTopCandidate = spanRect.top - popoverRect.height;
+
+            let popoverBody = popover.querySelector(".body");
+            // `height: H` in css excludes margin, padding & border.
+            // we get it with computedStyle()
+            // clientRect includes padding & border.
+            let s = window.getComputedStyle(popoverBody);
+            let popoverBodyHeightDiff =
+              popoverRect.height -
+              (popoverBody.clientHeight -
+                parseFloat(s.paddingTop) -
+                parseFloat(s.paddingBottom) -
+                parseFloat(s.borderTop) -
+                parseFloat(s.borderBottom));
+
+            if (
+              popoverTopCandidate > 0 ||
+              beyondBottomEdge > -popoverTopCandidate
+            ) {
+              // but only if we have more space above than below
+              popoverTopNew = popoverTopCandidate;
+              if (popoverTopNew < 0) {
+                // popover too tall for space below and above!
+                // takes the whole space above.
+                popoverTopNew = 0;
+                popoverBody.style["height"] = `${
+                  spanRect.top - popoverBodyHeightDiff
+                }px`;
+              }
+            } else {
+              // popover too tall for space below and above!
+              // takes the whole space below.
+              popoverBody.style["height"] = `${
+                window.innerHeight - popoverTopNew - popoverBodyHeightDiff
+              }px`;
+            }
           }
-          popover.style.top = `calc(${mousey}px)`;
-          popover.style.left = `calc(${mousex}px)`;
+          popover.style.top = `${popoverTopNew}px`;
+          popover.style.left = `${popoverLeftNew}px`;
           popover.style.transform = "none";
           popover.style["z-index"] = "1000";
         }
-      },
-      correctPopover0(popover) {
-        // abandonned: b/c not enough space within narrow panel
-        /* correct the absolute positioning of a popover span element
-        so it fits within its panel.
-        This is done by adjusting the left position & the width.
-        */
-        let margin = 10;
-        popover.style.cssText = "";
-        popover.style.display = "inline-block";
-        let container = popover.closest(".panel-chunk");
-        // let container = popover.closest("body");
-        let inRect = popover.getBoundingClientRect();
-        let outRect = container.getBoundingClientRect();
-        // left border
-        let diff = outRect.left + margin - inRect.left;
-        if (diff > 0) {
-          // console.log(popover, diff)
-          popover.style.right = `calc(50% - ${diff}px)`;
-          inRect = popover.getBoundingClientRect();
-        }
-        // right border
-        diff = inRect.right - outRect.right + margin;
-        if (diff > 0) {
-          // console.log(popover, diff)
-          popover.style.maxWidth = `calc(20em - ${diff}px)`;
-          popover.style.transform = `translateX(calc(50% - ${diff / 1}px))`;
-          // popover.setAttribute('data-diff-right', diff)
-        }
-        popover.style.display = "";
       },
       addEventsToTexts() {
         // add the javascript events to all loaded texts
@@ -575,13 +609,20 @@ function setUpTextViewer() {
             `span[data-tei-ref="${this.selection.highlightedText}"]`
           );
           highlightedElements.forEach((element) => {
+            // any element with that ID
             element.classList.add("highlighted");
+            // for references to events or mutiple entities, we need to target the reference
+            const aref = element.closest(".has-info-box");
+            if (aref) {
+              aref.classList.add("highlighted");
+            }
           });
 
           // We set a hover class on hover.
           // fixes the bug where hover on nested info-box containers
           // would trigger :hover selector on both boxes
           // and they would overlap.
+          // Nesting on R.52, sweet.
           const infoBoxContainers =
             window.document.querySelectorAll(".has-info-box");
 
@@ -606,11 +647,23 @@ function setUpTextViewer() {
 
             infoBoxContainer.addEventListener("mouseenter", (event) => {
               // set child-hovered class on .has-info-box ancestors
-              for (let popOver of infoBoxContainer.querySelectorAll(
+              for (let popover of infoBoxContainer.querySelectorAll(
                 ".info-box"
               )) {
                 // console.log(popOver)
-                this.correctPopover(popOver, event);
+                this.correctPopover(popover, event);
+              }
+            });
+            infoBoxContainer.addEventListener("mouseleave", () => {
+              // set child-hovered class on .has-info-box ancestors
+              for (let popover of infoBoxContainer.querySelectorAll(
+                ".info-box"
+              )) {
+                popover.style.cssText = "";
+                let popoverBody = popover.querySelector(".body");
+                if (popoverBody) {
+                  popoverBody.style.cssText = "";
+                }
               }
             });
           });

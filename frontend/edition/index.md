@@ -23,11 +23,13 @@ eleventyNavigation:
 ---
 
 {% if metadata.hideEventsFromViewer %}
+
   <style>
     .dts-fragment .is-event, .dts-fragment .event {
       display: none;
     }
   </style>
+
 {% endif %}
 
 {% raw %}
@@ -65,10 +67,23 @@ eleventyNavigation:
   <input id="drawer-switch" type="checkbox" />
 
   <aside id="drawer" role="complementary">
-    <h1><span>Information for:</span>{{ drawerTitle }}</h1>
+    <!-- <h1><span>Information for:</span>{{ drawerTitle }}</h1> -->
+    <h1>
+      <dl>
+        <dt>Volume:</dt>
+        <dd>{{ selectedPanelCitationDict.titleShort }}&nbsp;
+          <a :title="`About ${ selectedPanelCitationDict.titleShort }`" :href="`/books/${selectedPanelCitationDict.previewPath}/`"><i class="fas fa-list-alt"></i></a>
+        </dd>
+        <br>
+        <dt>Version:</dt>
+        <dd>{{ selectedPanelCitationDict.version }}</dd>
+        <br>
+        <dt>Page:</dt>
+        <dd><!-- page -->{{ selectedPanelCitationDict.pageNumber }}</dd>
+      </dl>
+    </h1>
     <div class="tabs">
       <label>BOOK</label>
-      <!--TO: Commenting out for first release --
       <div class="tab">
         <input
           type="radio"
@@ -76,102 +91,62 @@ eleventyNavigation:
           name="tab-group-1"
           checked>
         <label for="tab-1">
-          <i class="fas fa-list"></i><h2>Legend</h2></label>
+          <i class="fas fa-key"></i><h2>Key</h2></label>
         <div class="content"> 
-        <h2>Legend</h2>
-  <div class="textblock">  
-    <h3>Text block</h3>
-  <ul>
-    <li>Page title heading<br>
-      <span>largest size, centred, bold font</span>
-    </li>
-    <li>Other headings and some dates<br>
-      <span>medium size, centred, bold font</span>
-    </li>
-    <li>(Running) headers like dates <br>
-      <span>medium size, centred, font</span>
-    </li>
-    <li>Blank page or lines<br>
-      <span>grey brackets with information within</span>
-    </li>
-    <li>
-      Page number in the author's original book<br><span>Number bottom left of display</span>
-    </li>
-    <li>
-      Items are bracketed together<br><span>Curly bracket on the right of text</span>
-    </li>  
-      <li>
-      Marginal comment<br><span>Displayed in left margin </span>
-    </li>  
-    </ul>
-    <div class="transcription">  
+        <h2>Key</h2>
+        <p><sup>*</sup>Only in semi-diplomatic versions</p>
     <h3>Transcription</h3>
   <ul>
-    <li>Addition information added by the author<br>
-      <span>text placed higher on a note icon</span>
-    </li>
-    <li>Thornton frequently uses the heart symbol instead of the word 'heart' in her books.<br>
+    <li class="monogram">Monogram<br><span>cursive font (replicating handwriting)</span></li>
+    <li class="additions">Authorial comments<br><span>text in italics</span></li>
+    <li class="above">Authorial insertions/contractions <br><span>superscript - text placed higher</span></li>
+    <li class="dashed">Authorial repetition <br><span>dashed box around the material</span></li>
+    <li class="bracket">Items bracketed together <br><span>Curly bracket on the right of text</span></li>
+    <li class="strikethrough">Text deleted by author that remains legible<sup>*</sup><br><span>strikethrough – words or characters are crossed through with a single line</span></li>
+    <li class="doublestrikethrough">Text deleted by author that is no longer legible<sup>*</sup><br><span>strikethrough – words or characters are crossed through with a double line</span></li>
+    <li class="heart">Used by Thornton in place of the word 'heart'<br>
       <span>Heart icon - a glyph or non-standard character</span>
     </li>
-    <li>Physical Damage on page<br>
-      <span>grey brackets with information of damage within (e.g. cut, tear, deletion)</span>
-    </li> 
-    <li>Text deleted by author<br>
-      <span>strikethrough</span>
-    </li>
-    <li>Author's superscript for some letters <br>
-      <span>superscript - small font size, text placed higher</span>
-    </li>
-    <li>visual elements/drawings by the author<br><span>gylphs</span>
+    <li class="livre">An abbreviation of 'livre' meaning pound<sup>*</sup><br>
+      <span>a raised letter l in italics</span>
     </li>
     </ul>
-          </div>
-        <div class="features">
-    <h3>Discursive and Contextual Features </h3>
+ <h3>Text block</h3>
   <ul>
-  <li>a person's name/monogram<br><span>cursive font (replicating handwriting)</span></li>
-    <li>Entity (● Person) <br><span>dashed underline with circle at the </span></li>
-    <li>Entity (⏷ Place) <br><span>dashed underline </span></li>
-      <li>Entity (■ Event) <br><span>dashed underline </span></li>
-      <li>Biblical reference <br><span>cross icon </span></li>
+    <li class="blank">Blank page or lines<br>
+      <span>grey brackets (details supplied within)</span>
+    </li>
+    <li class="largebold">Page title heading<br>
+      <span>largest size, centred, bold font</span></li>
+      <li class="mediumbold">Other headings and some dates<br>
+      <span>medium size, centred, bold font. thick medium underline</span>
+      </li>
+      <li class="running">(Running) headers like dates<br>
+        <span>medium size, centred, italic font</span>
+      </li>
+      <li class="rule">Author’s lines that divide up text<br>
+        <span>single brown line across full width of the page</span>
+      </li>
+    <li class="pnumber">
+      Page number in the author's original book<br><span>Number in italics, top left of display</span>
+    </li>
+    <li class="cut">Physical damage on page<br><span>grey brackets (details supplied within)</span>
+    </li>   
     </ul>
-          </div>
-      <div class="editorial">
-    <h3>Editorial Interventions</h3>
-  <ul>
-  <li>Editorial Notes<br><span>note icon on side margin</span></li>
-  <li>Glossary<br><span>double underline</span></li>
-    <li>material interpreted as superfluous<br><span>dashed box around the material</span> </li>
-      <li>page number missing from original book<br><span>Square brackets around number</span> </li>
-    </ul>
-          </div>  
-        <div class="images">  
+    <h3>Contextual Materials</h3>
+    <ul>
+    <li class="enotes">Editorial Note<br><span>number in note icon intext</span></li>
+    <li class="glossary">Gloss<br><span>double underline </span></li>
+    <li class="person">Entity (Person) <br><span>dashed underline (circle icon) </span></li>
+    <li class="place">Entity (Place) <br><span>dashed underline (square icon) </span></li>
+    <li class="event">Entity (Event) <br><span>dashed underline (start and end time icon) </span></li>
+    <li class="biblical">Biblical reference <br><span>gray black underline (cross icon) </span></li>
+    </ul> 
     <h3>Images</h3>
   <ul>
-      <li>scanned image of page in the author's original book<br><span>image icon</span>
+      <li class="image">scanned image of page in the author's original book<br><span>image icon</span>
     </li>
     </ul>
-          </div>  
-        </div>
-      </div>
-      </div>
-      -->
-      <div class="tab">
-        <input type="radio" id="tab-2" name="tab-group-1">
-        <label for="tab-2">
-          <i class="fas fa-quote-left"></i>
-          <h2>Citation</h2>
-        </label>
-        <div class="content">
-          <h2>Citation</h2>
-          <!-- <p>Cite the Research team that worked on this page of the digital edition</p> -->
-          <div class="citation">
-            <p v-html="selectedPanelCitation"></p>
-            <button class="button is-secondary" @click="onClickCopyCitation()"><i class="far fa-copy"></i> &nbsp;
-              Copy</button>
-          </div>
-          <!-- <br> -->
-          <!-- <p>Other contributors include the Solution Development Team on our <a href="/about/">About Page</a>.</p> -->
         </div>
       </div>
       <div class="tab" v-if="!hidePrintLink">
@@ -201,150 +176,47 @@ eleventyNavigation:
             <i class="fas fa-filter"></i> &nbsp; Search and Filter</a>
         </div>
       </div>
+      <div class="tab">
+        <input type="radio" id="tab-0" name="tab-group-1">
+        <label for="tab-0">
+          <i class="fas fa-pen-fancy"></i>
+          <h2>Editorial Principles</h2>
+        </label>
+        <div class="content">
+          <h2>Editorial Principles</h2>
+          <h3>Semi-diplomatic</h3>
+          <p>The semi-diplomatic version of the text retains some original textual features, including original lineation, paragraphing, punctuation, spelling and capitalisation. It also includes evidence of authorial corrections, such as insertions and deletions. However, to make this version more accessible we have silently modernised Thornton’s use of u/v, i/j and long S, and expanded her contractions of words such as ‘the’, ‘which’, and ‘that’ (from ye, wch and yt). </p>
+          <h3>Modernised</h3>
+          <p>This version modernises according to the conventions of UK English, supplemented by Chicago Manual of Style (CMS) referencing recommendations. To retain a sense of Thornton’s distinctive voice, we have retained archaic forms and provided glosses. Sometimes this means that Thornton’s syntax deviates from modern expectations, especially regarding single/plural subject/verb agreement. Occasionally, further intervention is required to clarify sense; in these cases, supplied materials are identified by square brackets. </p>
+        </div>
+      </div>
       <br>
-      <!--TO: Commenting out for first release --
       <label>PAGE</label>
       <div class="tab">
-        <input
-          type="radio"
-          id="tab-5"
-          name="tab-group-1">
-        <label for="tab-5">
-          <i class="fas fa-pen-fancy"></i><h2>Editorial Notes</h2>
+        <input type="radio" id="tab-2" name="tab-group-1">
+        <label for="tab-2">
+          <i class="fas fa-quote-left"></i>
+          <h2>Citation</h2>
         </label>
         <div class="content">
-        <h2>Editorial Notes</h2>
-          <ul>
-            <li>
-              <span class="body">
-                <span class="tei-p" data-tei="p">
-                  A cross in the left hand margin: appears to be an "omission sign" or
-                  "signe de renvoi". See Benjamin Neudorf and Yin Liu, 'Signes-de-Renvoi',
-                  <span
-                    class="tei-hi"
-                    data-tei="hi"
-                    data-tei-rend="italic">Architectures of the Book</span>, December 21, 2016,
-                  <span
-                    class="tei-ref"
-                    data-tei="ref"
-                    data-tei-target="https://drc.usask.ca/projects/archbook/signes_de_renvoi.php">https://drc.usask.ca/projects/archbook/signes_de_renvoi.php</span>.
-                  It perhaps relates to material at the back of this book as the first entry there (page 186) relates to
-                                                                    an incident in 1629.
-                </span>
-              </span>
-            </li>
-            <li>
-              <span class="body">
-                <span class="tei-p" data-tei="p">
-                  Surfeit: 'Excessive consumption of food or drink; overindulgence in
-                  eating or drinking; gluttony’,
-                  <span
-                    class="tei-hi"
-                    data-tei="hi"
-                    data-tei-rend="italic">OED</span>.
-                </span>
-              </span>
-            </li>
-            <li>
-              <span class="body">
-                <span class="tei-p" data-tei="p">
-                  On seventeenth-century measles see Alan Dyer, ‘Epidemics of Measles in
-                  a Seventeenth Century English Town’,
-                  <span
-                    class="tei-hi"
-                    data-tei="hi"
-                    data-tei-rend="italic">Local
-                    Population Studies</span>
-                  34 (1985): 35–45. In early use, ‘measles’ could denote various diseases
-                  causing a red rash:
-                  <span
-                    class="tei-hi"
-                    data-tei="hi"
-                    data-tei-rend="italic">OED</span>.</span>
-              </span>
-            </li>
-          </ul>
+          <h2>Citation</h2>
+          <!-- <p>Cite the Research team that worked on this page of the digital edition</p> -->
+          <div class="citation">
+            <p v-html="selectedPanelCitationString"></p>
+            <button class="button is-secondary" @click="onClickCopyCitation()"><i class="far fa-copy"></i> &nbsp;
+              Copy</button>
+          </div>
         </div>
       </div>
-      <div class="tab">
-        <input
-          type="radio"
-          id="tab-6"
-          name="tab-group-1">
-        <label for="tab-6">
-          <i class="fas fa-shapes"></i><h2>Entities</h2>
-        </label>
-        <div class="content">
-        <h2>Entities</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-        </div>
-      </div>
-      <div class="tab">
-        <input
-          type="radio"
-          id="tab-7"
-          name="tab-group-1">
-        <label for="tab-7">
-          <i class="fas fa-cross"></i><h2>Biblical Refererences</h2>
-        </label>
-        <div class="content">
-        <h2>Biblical Refererences</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec consectetur nisi, non scelerisque
-            justo. Aenean sed ultrices sem. Pellentesque non efficitur quam. Praesent nec odio egestas, aliquet nulla
-                                            id, dapibus magna. Integer eu eros enim. Donec quis sapien vel metus ullamcorper dictum sit amet et mauris.
-                                            Cras quam urna, tincidunt et ullamcorper tempus, condimentum eu nunc. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Vestibulum felis ex, tempor ac fringilla vitae, euismod
-                                            ornare ante.</p>
-        </div>
-      </div>-->
     </div>
   </aside>
   <div class="panel-wrapper">
     <div class="panel" v-for="(panel, panelIdx) in panels">
       <nav class="panel-nav">
         <div>
+          <label>Volume:</label>
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
+          <label>Version:</label>
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
         </div>
         <div class="icons">
@@ -359,10 +231,10 @@ eleventyNavigation:
               <i class="fas fa-print"></i>
               <h2>Print</h2>
             </div> -->
-          <div class="clone">
+          <div class="cl">
             <div class="icon is-hidden-mobile" v-if="canClonePanel" @click.stop.prevent="clonePanel(panelIdx)">
               <i class="far fa-clone"></i>
-              <h2>Clone</h2>
+              <h2>Add</h2>
             </div>
             <div class="icon" v-if="panels.length > 1" @click.stop.prevent="closePanel(panelIdx)">
               <i class="fas fa-times"></i>

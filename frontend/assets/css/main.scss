@@ -56,6 +56,10 @@ a.tag {
   text-decoration: none;
 }
 
+hr {
+  background-color: $primary;
+}
+
 .content blockquote {
   margin-left: auto;
   margin-right: auto;
@@ -873,6 +877,14 @@ nav.pagination {
 
     .panel-block {
       margin-bottom: 1em;
+      &.facet-any-or-all p {
+        label {
+          margin-left: 20px;
+          input {
+            width: 20px;
+          }
+        }
+      }
     }
   }
 

@@ -41,8 +41,10 @@ module.exports = function () {
       hide_print_link: false,
     },
     environment: environment,
-    hideEventsFromSearchPage: ["pre", "liv"].includes(environment),
-    hideEventsFromViewer: !["lcl", "dev"].includes(environment),
+    // hideEventsFromSearchPage: ["pre", "liv"].includes(environment),
+    // hideEventsFromViewer: !["lcl", "dev"].includes(environment),
+    hideEventsFromSearchPage: false,
+    hideEventsFromViewer: false,
     // which of the above metadata to pass to front-end javascript
     // as window.metadata.X
     front_end_vars: [

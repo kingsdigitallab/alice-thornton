@@ -1,5 +1,11 @@
 const { createApp } = window.Vue;
 const entitiesSource = "/assets/js/entities.json";
+const BOOK_KEYS = [
+  "book_of_remembrances",
+  "book_one",
+  "book_two",
+  "book_three",
+];
 
 function setUpSearch() {
   let app = createApp({
@@ -27,6 +33,7 @@ function setUpSearch() {
           type: "", // ??? unused?
           perPage: 10,
           page: 1,
+          filterByAnyOrAllBooks: "any",
         },
         _facets: {
           type: {
@@ -75,12 +82,16 @@ function setUpSearch() {
             books: {
               title: "By book",
               size: 5,
-              conjunction: false,
+              sort: "key",
+              conjunction: this.selection.filterByAnyOrAllBooks == "all",
+              chosen_filters_on_top: false,
             },
             type: {
               title: "By result type",
               size: 10,
+              sort: "key",
               conjunction: false,
+              chosen_filters_on_top: false,
             },
             cat: {
               title: "By event type",
@@ -154,6 +165,12 @@ function setUpSearch() {
       //   },
       //   deep: true,
       // },
+      "selection.filterByAnyOrAllBooks": {
+        // eslint-disable-next-line
+        handler(newValue, oldValue) {
+          this.configureSearch();
+        },
+      },
     },
     methods: {
       isBioVisible(item) {
@@ -214,11 +231,17 @@ function setUpSearch() {
         this.search(true);
       },
       getBuckets(facet) {
-        return facet.buckets.sort((a, b) => {
-          if (a.doc_count < b.doc_count) return 1;
-          if (a.doc_count > b.doc_count) return -1;
-          return 0;
-        });
+        let ret = facet.buckets;
+        if (facet.name == "books") {
+          // make sure we list book rem, then 1, 2 and 3.
+          ret.map((option) => {
+            option.sortKey = BOOK_KEYS.indexOf(option.key);
+          });
+          ret = ret.sort((o1, o2) =>
+            o1.sortKey > o2.sortKey ? 1 : o1.sortKey < o2.sortKey ? -1 : 0
+          );
+        }
+        return ret;
       },
       onClickOption() {
         window.Vue.nextTick(() => {
@@ -294,12 +317,12 @@ function setUpSearch() {
             this.meta = data.meta;
             this.records = data.data;
             this.processRecords();
-            this.itemsjs = window.itemsjs(
-              this.records,
-              this.searchConfiguration
-            );
-            this.search();
+            this.configureSearch();
           });
+      },
+      configureSearch() {
+        this.itemsjs = window.itemsjs(this.records, this.searchConfiguration);
+        this.search();
       },
       processRecords() {
         // for (let record of this.records) {
