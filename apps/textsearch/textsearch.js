@@ -40,7 +40,17 @@ class TextSearch {
 
   async transformHTML(path) {
     console.log(path);
-    let entitiesJson = await this.xslt(path, XSLTPath);
+    let htmlString = await this.xslt(path, XSLTPath);
+
+    if (1) {
+      htmlString = htmlString.replace('data-title=""', 'data-title="Book 2, page 2"')
+      htmlString = htmlString.replace('data-viewer-url=""', 'data-viewer-url="/edition/?p0.lo=p.2&p0.vi=modern&p0.do=book_one"')
+    }
+
+
+    let targetPath = path.replace('clone/dts/documents', 'to-be-indexed')
+    fs.mkdirSync(pathp.dirname(targetPath), { recursive: true })
+    fs.writeFileSync(targetPath, htmlString, 'utf8')
   }
 
   async writeJsonFromTei() {
@@ -124,13 +134,20 @@ class TextSearch {
 
     let jsonSheetPath = this.writeTransformJson(XSLTPath);
 
+    // convert html to xhtml so saxonjs is happy
     docString = this.readFile(docPath);
+    const { DOMParser, XMLSerializer } = require('xmldom');
+    const parser = new DOMParser();
+    let node = parser.parseFromString(docString, 'text/html');
+    const serializer = new XMLSerializer();
+    docString = serializer.serializeToString(node);
 
     let output = SaxonJS.transform(
       {
         stylesheetFileName: jsonSheetPath,
         sourceText: docString,
         // sourceFileName: docPath,
+        // sourceNode: node,
         destination: "serialized",
       },
       "sync"
@@ -141,6 +158,8 @@ class TextSearch {
     // TODO: find another way to remove first line
     let firstLine = '<?xml version="1.0" encoding="UTF-8"?>';
     ret = ret.replace(firstLine, "");
+
+    console.log(ret)
 
     return ret;
   }
