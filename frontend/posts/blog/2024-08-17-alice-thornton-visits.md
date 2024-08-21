@@ -74,7 +74,7 @@ When Alice was thirteen and her family were living in Ireland, she briefly retur
 
 ## Social visits
 
-![Thornton's letter to her brother, Christopher Wandesford]( {{"/assets/img/posts/AT_to_CW_1677.jpg" | url }} "Thornton's letter to her brother, Christopher Wandesford"){.media-right}
+![The full page of an old letter]({{"/assets/img/posts/AT_to_CW_1677.jpg" | url}} "Alice Thornton to Christopher Wandesford, 9 October 1677. NLI, MS 2368. Courtesy of the National Library of Ireland"){.media-right}
 
 The countryside may be where we go to escape on our holidays but, in Thornton’s writing, the landscape and the weather were often presented as obstacles to social visiting. When travel was necessary, the outdoors was something to be endured and crossed in fear of your life. 
 
@@ -102,11 +102,11 @@ Some guests could be as demanding as they are today, but with travel being diffi
 
 There is a lot to discover about Alice Thornton in the four books she wrote about her life. You can already [read the first 100 pages of all her books](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.1&p0.vi=modern), and the four books will soon be available in full.   
 
-[^1]: Bk 1, 297
-[^2]: Book 3, 87
-[^3]: Book 1, 80
-[^4]: Book 2, 166
-[^5]: Book 1, 17
-[^6]: Book 2, 138
-[^7]: Book 2, 139
-[^8]: The Autobiographies and Letters of Thomas Comber, ed. C.E. Whiting, vol. 1, Surtees Society, 156 (1946), 272
+[^1]: *Book 1*, 297.
+[^2]: [*Book 3*, 87.](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.87&p0.vi=modern)
+[^3]: [*Book 1*, 80.](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.80&p0.vi=modern)
+[^4]: *Book 2*, 166.
+[^5]: [*Book 1*, 17.](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.17&p0.vi=modern)
+[^6]: *Book 2*, 138.
+[^7]: *Book 2*, 139.
+[^8]: *The Autobiographies and Letters of Thomas Comber*, ed. C.E. Whiting, vol. 1, Surtees Society, 156 (1946), 272.
