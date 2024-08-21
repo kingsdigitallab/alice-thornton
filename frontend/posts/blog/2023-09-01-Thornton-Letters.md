@@ -12,7 +12,7 @@ tags:
   - Virginia
 
 ---
-The 1st September is [World Letter Writing Day](https://worldletterwritingday.com/). While Alice Thornton (1626-1707) is best known for writing four books about her life, we know that she frequently communicated by letter and we have been able to trace twenty-five of her holograph letters (and one copy), with the latest written only a year before her death; a further twelve Thornton letters were edited in 1875 and 1904 but their current whereabouts is unknown. 
+The 1st September is [World Letter Writing Day](https://worldletterwritingday.com/). While Alice Thornton (1626-1707) is best known for writing four books about her life, we know that she frequently communicated by letter and we have been able to trace twenty-five of her holograph letters (and one copy), with the latest written only a year or two before her death; a further twelve Thornton letters were edited in 1875 and 1904 but their current whereabouts is unknown. 
 
 In *Book 3: The Second Book of My Widowed Condition*, Thornton frequently lists letters she had received, for example, as evidence of her account – which [contradicted that given by her niece Anne Danby](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/) - of the match between her daughter Nally and Thomas Comber: ‘these letters, papers and transactions of this affair are in bundles and preserved to make out these proceedings and in vindication of our just and laudable actions’.[^1] We have not been able to trace any of these to date, although we have located four holograph letters written to her (and a further five have been published).[^2]
 
