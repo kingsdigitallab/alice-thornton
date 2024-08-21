@@ -560,7 +560,7 @@ section {
                   position: absolute;
                   text-decoration: line-through;
                   line-height: 1.1;
-                  text-decoration-style: double
+                  text-decoration-style: double;
                 } //before
               } //
               &.heart {
@@ -575,7 +575,6 @@ section {
                 &:before {
                   content: "/";
                   line-height: 0.7;
-                  
                 } //before
               }
               &.blank {
@@ -604,7 +603,8 @@ section {
               &.running {
                 //Running headers
                 &:before {
-                  font-size: 22px; font-style: italic;
+                  font-size: 22px;
+                  font-style: italic;
                 } //before
               } //
               &.rule {
@@ -679,9 +679,9 @@ section {
                 //Entity Event
                 &:before {
                   content: "⊢ ⊣";
-                  padding-bottom:5px;
-                  font-size:12px;
-                  color:gray;
+                  padding-bottom: 5px;
+                  font-size: 12px;
+                  color: gray;
                   border-bottom: 1px dashed gray;
                   width: 22px;
                   height: 8px;
@@ -1227,12 +1227,13 @@ $render-sic: false;
     word-break: break-word;
     padding: 8px;
     font-family: "Noto", sans-serif;
-    .has-info-box.is-person:after, #text-viewer .panel .content .has-info-box.tei-type-person:after, .tei-type-monogram .has-info-box.is-person:after{
+    .has-info-box.is-person:after,
+    #text-viewer .panel .content .has-info-box.tei-type-person:after,
+    .tei-type-monogram .has-info-box.is-person:after {
       right: 0;
       top: -18px;
       font-size: 18px;
-      }
-      
+    }
   }
   h2,
   .tei-fw.tei-type-head {
@@ -1242,17 +1243,18 @@ $render-sic: false;
     text-align: center;
     margin-top: 0;
     border-bottom: 4px solid $primary;
-    line-height:2.5;
+    line-height: 2.5;
     font-family: "Noto", sans-serif;
 
     &:before {
       // removes the decoration applied to the h2 on the rest of the site
       display: none;
     }
-    .has-info-box.is-person:after, #text-viewer .panel .content .has-info-box.tei-type-person:after {
+    .has-info-box.is-person:after,
+    #text-viewer .panel .content .has-info-box.tei-type-person:after {
       right: 0;
       top: -18px;
-      }
+    }
   }
   h3,
   .tei-fw.tei-type-header {
@@ -1328,7 +1330,7 @@ $render-sic: false;
       font-size: 10px;
       top: -5px;
       position: relative;
-      &:hover{
+      &:hover {
         border: 1px solid gray;
         box-shadow: 1px 1px 1px black;
         color: black;
@@ -1356,8 +1358,8 @@ $render-sic: false;
         position: relative;
         right: 5px;
         top: -15px;
-        color:gray;
-        font-size:10px;
+        color: gray;
+        font-size: 10px;
         margin-right: -0.8em;
         width: 0.7em;
         height: 0.7em;
@@ -1378,8 +1380,8 @@ $render-sic: false;
         position: relative;
         right: 5px;
         top: -15px;
-        color:gray;
-        font-size:13px;
+        color: gray;
+        font-size: 13px;
         margin-right: -0.6em;
       }
       &:hover {
