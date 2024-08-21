@@ -1,5 +1,11 @@
 const { createApp } = window.Vue;
 const entitiesSource = "/assets/js/entities.json";
+const BOOK_KEYS = [
+  "book_of_remembrances",
+  "book_one",
+  "book_two",
+  "book_three",
+];
 
 function setUpSearch() {
   let app = createApp({
@@ -225,7 +231,17 @@ function setUpSearch() {
         this.search(true);
       },
       getBuckets(facet) {
-        return facet.buckets;
+        let ret = facet.buckets;
+        if (facet.name == "books") {
+          // make sure we list book rem, then 1, 2 and 3.
+          ret.map((option) => {
+            option.sortKey = BOOK_KEYS.indexOf(option.key);
+          });
+          ret = ret.sort((o1, o2) =>
+            o1.sortKey > o2.sortKey ? 1 : o1.sortKey < o2.sortKey ? -1 : 0
+          );
+        }
+        return ret;
       },
       onClickOption() {
         window.Vue.nextTick(() => {
