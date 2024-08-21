@@ -51,7 +51,8 @@ A visitation that Thornton sounds truly grateful to have had was one by her aunt
 
 Assisting a relative during difficult times was important enough to prompt treacherous journeys by horse, carriage and ship, but sometimes it was the visitor who was the one in need. According to Thornton’s accounts, doors were opened wide to her and her family many times. During the first English Civil War, Thornton and her mother took sanctuary with Thornton’s sister, Katherine. 
 
-> For it being in the heat of the wars, [my mother] could not live at Hipswell, her jointure, which was molested sometimes with the parliament’s and then the king’s forces among them… So that for a whole year, we lived with great comfort and safety with my sweet sister Danby at Snape.[^3]
+<p>&nbsp;</p>
+>For it being in the heat of the wars, [my mother] could not live at Hipswell, her jointure, which was molested sometimes with the parliament’s and then the king’s forces among them… So that for a whole year, we lived with great comfort and safety with my sweet sister Danby at Snape.[^3]
  
 <p>&nbsp;</p>
 
@@ -80,9 +81,7 @@ The countryside may be where we go to escape on our holidays but, in Thornton’
 
 In October 1677, Alice Thornton wrote to her brother, Sir Christopher Wandesford, to let him know that Yorkshire’s Hambleton Hills were preventing her from making a social visit to Osgoodby Hall in Thirkleby. The same hills were referenced in *Book 1*, having caused her difficulties during her first pregnancy in 1652. Source: The Ormonde papers, MS2368 Vol 68, 171, National Library of Ireland, Dublin.
 
-It was during this first pregnancy that Alice Thornton made what must have been quite a social tour, visiting her husband’s relations at Crathorne, Buttercrambe, York, Hull and Beverley, and she was keen to make a good impression: 
-
-> I bless God who gave me favour in their eyes of my husband’s friends.[^6]
+It was during this first pregnancy that Alice Thornton made what must have been quite a social tour, visiting her husband’s relations at Crathorne, Buttercrambe, York, Hull and Beverley, and she was keen to make a good impression: 'I bless God who gave me favour in their eyes of my husband’s friends.'[^6]
 
 On her way home, though, she once again came to danger. 
 
