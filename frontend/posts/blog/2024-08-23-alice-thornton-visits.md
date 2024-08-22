@@ -111,7 +111,7 @@ There is a lot to discover about Alice Thornton in the four books she wrote abou
 [^5]: *Book 1*, 234.
 [^6]: *Book 2*, 166.
 [^7]: [*Book 1*, 17.](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.17&p0.vi=modern)
-[^8]: *The Ormonde papers* MS2368 Vol 68, 171, National Library of Ireland, Dublin.
+[^8]: Letter from Alice Thornton to her brother, Christopher Wandesford, 9 October 1677. National Library of Ireland, Dublin, Ormond Papers MS 2368 (Volume 68, 171). 
 [^9]: *Book 2*, 138.
 [^10]: *Book 2*, 139.
 [^11]: *The Autobiographies and Letters of Thomas Comber*, ed. C.E. Whiting, vol. 1, Surtees Society, 156 (1946), 272.
