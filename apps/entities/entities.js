@@ -69,14 +69,12 @@ class Entities {
   }
 
   async loadTei(source) {
-    // let docString = this.readFile(source)
     let entitiesJson = await this.xslt(source, jsonSheetPath);
-    // console.log(entitiesJson.substring(0, 1000));
-    // fs.writeFileSync('tmp.json', entitiesJson, "utf8");
 
     let entities = [];
 
     if (entitiesJson) {
+      // console.log(entitiesJson)
       entities = JSON.parse(entitiesJson);
     } else {
       console.log(

@@ -10,10 +10,11 @@
   xmlns:internals="internals"
 >
 
-<!-- <xsl:variable name="book_of_remembrances" select="document('edition/texts/00_book_of_remembrances/book_of_remembrances.xml')" /> -->
-<xsl:key name="element_from_ref" match="//tei:*[@ref]" use="tokenize(normalize-space(@ref), ' ')" />
+<!-- <xsl:key name="element_from_ref" match="//tei:*[@ref]" use="tokenize(normalize-space(@ref), ' ')" /> -->
+<xsl:key name="element_from_ref" match="/tei:TEI/tei:text//tei:*[@ref]" use="tokenize(normalize-space(@ref), ' ')" />
 <!-- <p xml:id="p-0021"><milestone spanTo="#ev13-end" xml:id="ev13-start" n="ev13" unit="event"/> -->
-<xsl:key name="element_from_eventid" match="//tei:milestone" use="tokenize(normalize-space(@n), ' ')" />
+<!-- <xsl:key name="element_from_eventid" match="//tei:milestone" use="tokenize(normalize-space(@n), ' ')" /> -->
+<xsl:key name="element_from_eventid" match="/tei:TEI/tei:text//tei:milestone" use="tokenize(normalize-space(@n), ' ')" />
 
 <!-- 'book_of_remembrances,book_one,book_two,book_three' -->
 <lookup:documents>
