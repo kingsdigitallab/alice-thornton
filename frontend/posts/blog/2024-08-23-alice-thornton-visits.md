@@ -40,7 +40,7 @@ This was the case in August 1644, when young Alice travelled to Middleham Castle
 > it happened the river proved deeper than we expected it. And I kept up my horse as well as I could from standly and so bore up a long time but, when we were gone so far that I could not turn back, the river proved past riding and the bottom could not be come to by the poor mare (which was an excellent mare of my poor brother George Wandesford’s). So, I saw myself in such apparent danger and begged of God to assist me and the poor beast I rid on, and to be merciful to me and deliver me out of that death for Jesus Christ his sake, and the poor mare drew up her fore feet and I perceived she did swim.[^1]
 
 
-Alice and the horse survived this incident, and the following year, when Alice's sister Katherine had her sixteenth child, this time in Thorpe, Alice was present again. Sadly on this occasion, Katherine died of postpartum complications, but not until the following month. Alice stayed with Katherine as her suffering grew worse, but was sent home by their mother before Katherine died.
+Alice and the horse survived this incident and, the following year, when Alice's sister Katherine had her sixteenth child, this time in Thorpe, Alice was present again. Sadly on this occasion, Katherine died of postpartum complications, but not until the following month. Alice stayed with Katherine as her suffering grew worse, but was sent home by their mother before Katherine died.
 
 ![A portrait by Anthonie Palamedesz, 1672.]( {{ "/assets/img/posts/eglon_van_der_neer.jpg" | url }} "A portrait by Anthonie Palamedesz,1672."){.media-left}
 
@@ -48,14 +48,14 @@ Many of the women in Thornton's circle visited and supported each other in times
 
 > My dear aunt was so concerned to hear I had been so belied that she immediately came to Newton and found me in a manner half dead with grief, upon this alarm that Mrs Danby and her maid raised up against me. I was extremely overjoyed to see her and blessed God for that providence which brought her thither.[^2]
 
-Aunt Norton is not the only woman to visit Alice Thornton at this time. Her mother's former maid, Daphne Lightfoot, also comes to help her. "At my dear aunt's going away, she sent my good friend, Daphne, to be with me and comfort me" [^3]
+Aunt Norton is not the only woman to visit Alice Thornton at this time. The family's [former servant, Daphne Lightfoot](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-01-alice-and-daphne/), also comes to help her: "At my dear aunt's going away, she sent my good friend, Daphne, to be with me and comfort me".[^3]
 
 
 Assisting a relative or a friend during difficult times was important enough to prompt treacherous journeys by horse, carriage and ship, but sometimes it was the visitor who was the one in need. According to Thornton’s accounts, doors were opened wide to her and her family many times. During the first English Civil War, Thornton and her mother took sanctuary with Thornton’s sister, Katherine. 
 
 <p>&nbsp;</p>
 
-> For it being in the heat of the wars, [my mother] could not live at Hipswell, her jointure, which was molested sometimes with the parliament’s and then the king’s forces among them… So that for a whole year, we lived with great comfort and safety with my sweet sister Danby at Snape [^4]
+> For it being in the heat of the wars, [my mother] could not live at Hipswell, her jointure, which was molested sometimes with the parliament’s and then the king’s forces among them… So that for a whole year, we lived with great comfort and safety with my sweet sister Danby at Snape. [^4]
  
 <p>&nbsp;</p>
 
