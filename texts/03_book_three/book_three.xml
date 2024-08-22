@@ -68,22 +68,21 @@
        </calendarDesc>
        <!-- NOTES ON DATES:
 
-            NB: our main problem is that Alice does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year (of the two possible) a date between 1 Jan and 24 March is supposed to be in.
-
-         following MoEML, three @datingMethod/@calendar
-         #JulianJan year starts 1 January
+         Thornton does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally it's not possible to ascertain which year is intended.
+         
+         following the usage in MoEML (https://mapoflondon.uvic.ca/), three @datingMethod/@calendar
+         
+         #JulianJan year starts 1 January 
          #JulianMar date=1 Jan-24 Mar and year starts 25 March
-         #JulianSic (rare) only used where date =1 Jan-24 Mar and we don't know which of the two possible years it is
-         ***UPDATE: added for Book 3***
-         Book 3 contains a number of dates written in the form 1668/9 (=1669).
+         #JulianSic (rare) only used where date =1 Jan-24 Mar and we don't know which year it is
+         in addition, Book 3 contains a number of dates written in the form 1668/9 (=1669). 
          #JulianSlash to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
-
-         ** JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
-         ** Julian calendar is treated as the default calendar, so not explicitly encoded (atm)**
+         
+         ** #JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
+         ** Julian calendar is treated as the default calendar, so not explicitly encoded (atm)** 
          ** use @-custom attributes with -iso style formatting
+         
          NB year-only dates are assumed #JulianJan unless clear reason to do otherwise
-
-         <calendar> will need proper description later
 
        -->
      </profileDesc>

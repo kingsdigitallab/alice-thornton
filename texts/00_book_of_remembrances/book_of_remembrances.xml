@@ -104,25 +104,21 @@
        
        <!-- NOTES ON DATES:
          
-         NB: our main problem is that Thornton does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally we can't work out which year a date between 1 Jan and 24 March is supposed to be in.
+         Thornton does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally it's not possible to ascertain which year is intended.
          
-         following MoEML, three @datingMethod:
-         #JulianJan year starts 1 January
-         #JulianMar date = 1 Jan-24 Mar and year starts 25 March ("Lady Day" dating)
-         #JulianSic (rare) only used where date = 1 Jan-24 Mar and we don't know which of the two possible years it is
-         ***UPDATE: added for Book 3***
-         Book 3 contains a number of dates written in the form 1668/9 (modern=1669). 
-         #JulianSlash is used to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
+         following the usage in MoEML (https://mapoflondon.uvic.ca/), @datingMethod/@calendar
+         
+         #JulianJan year starts 1 January 
+         #JulianMar date=1 Jan-24 Mar and year starts 25 March
+         #JulianSic (rare) only used where date =1 Jan-24 Mar and we don't know which year it is
+         in addition, Book 3 contains a number of dates written in the form 1668/9 (=1669). 
+         #JulianSlash to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
          
          ** #JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
          ** Julian calendar is treated as the default calendar, so not explicitly encoded (atm)** 
-         ** using @-custom attributes with -iso style formatting
+         ** use @-custom attributes with -iso style formatting
          
-         ** year-only dates are assumed #JulianJan unless clear reason (eg from nearby dates) to do otherwise
-         
-         <calendar> will need proper description later
-         
-         Sometimes we know from other sources that Alice has got a date wrong. Where identified, noted in comments.
+         NB year-only dates are assumed #JulianJan unless clear reason to do otherwise
          
         -->
      </profileDesc>
@@ -148,8 +144,7 @@
          
          @xml:id and @n in <pb> tags and page \d+ in xml comments = Transcriber page numbers - these should be treated as the definitive numbers for the edition. 
          
-         <fw>type=pageNum are Alice's written numbers
-         
+         <fw>type=pageNum are Thornton's written numbers
          img in xml comments (if present) = image numbers for project reference only.
          
      xml comment keywords:
@@ -182,7 +177,7 @@
      -->      
        
        <!-- 
-        Linkage for standoff files
+        Linkage for standoff files ?
         
         sample prefixDef below (borrowed from dbw project) 
         prefixes: 
