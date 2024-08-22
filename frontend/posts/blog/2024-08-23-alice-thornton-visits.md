@@ -40,17 +40,15 @@ This was the case in August 1644, when young Alice travelled to Middleham Castle
 > it happened the river proved deeper than we expected it. And I kept up my horse as well as I could from standly and so bore up a long time but, when we were gone so far that I could not turn back, the river proved past riding and the bottom could not be come to by the poor mare (which was an excellent mare of my poor brother George Wandesford’s). So, I saw myself in such apparent danger and begged of God to assist me and the poor beast I rid on, and to be merciful to me and deliver me out of that death for Jesus Christ his sake, and the poor mare drew up her fore feet and I perceived she did swim.[^1]
 
 
-Thornton and the horse survived this incident, and the following year, when Thornton's sister Katherine had her sixteenth child, this time in Thorpe, Alice was present again. Sadly on this occasion, Katherine died of postpartum complications, but not until the following month. Thornton stayed with Katherine as her suffering grew worse, but was sent home by her mother before Katherine died.
+Alice and the horse survived this incident, and the following year, when Alice's sister Katherine had her sixteenth child, this time in Thorpe, Alice was present again. Sadly on this occasion, Katherine died of postpartum complications, but not until the following month. Alice stayed with Katherine as her suffering grew worse, but was sent home by their mother before Katherine died.
 
 ![A portrait by Anthonie Palamedesz, 1672.]( {{ "/assets/img/posts/eglon_van_der_neer.jpg" | url }} "A portrait by Anthonie Palamedesz,1672."){.media-left}
 
-Many of the women in Thornton's circle visit and support each other in times of need. A visitation that Thornton sounds truly grateful to have had was one by her aunt, Anne Norton, who arrived to be by Thornton’s side in 1668. Thornton, then 42, found herself [facing a scandal](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/) as rumours circulated about her relationship with Thomas Comber, the young vicar engaged to her young daughter. 
+Many of the women in Thornton's circle visited and supported each other in times of need. A visitation that Thornton sounds truly grateful to have had was one by her aunt, Anne Norton, who arrived to be by her side in 1668. Thornton, then 42, found herself [facing a scandal](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/) as rumours circulated about her relationship with Thomas Comber, the young vicar engaged to her daughter. 
 
 > My dear aunt was so concerned to hear I had been so belied that she immediately came to Newton and found me in a manner half dead with grief, upon this alarm that Mrs Danby and her maid raised up against me. I was extremely overjoyed to see her and blessed God for that providence which brought her thither.[^2]
 
-Aunt Norton is not the only woman to visit Alice Thornton at this time. Her mother's former maid, Daphne Lightfoot, also comes to help her. 
-
-> At my dear aunt's going away, she sent my good friend, Daphne, to be with me and comfort me [^3]
+Aunt Norton is not the only woman to visit Alice Thornton at this time. Her mother's former maid, Daphne Lightfoot, also comes to help her. "At my dear aunt's going away, she sent my good friend, Daphne, to be with me and comfort me" [^3]
 
 
 Assisting a relative or a friend during difficult times was important enough to prompt treacherous journeys by horse, carriage and ship, but sometimes it was the visitor who was the one in need. According to Thornton’s accounts, doors were opened wide to her and her family many times. During the first English Civil War, Thornton and her mother took sanctuary with Thornton’s sister, Katherine. 
@@ -84,7 +82,7 @@ When Alice was thirteen and her family were living in Ireland, she briefly retur
 
 The countryside may be where we go to escape on our holidays but, in Thornton’s writing, the landscape and the weather were often presented as obstacles to social visiting. When travel was necessary, the outdoors was something to be endured and crossed in fear of your life. 
 
-In October 1677, Alice Thornton wrote to her brother, Sir Christopher Wandesford, to let him know that Yorkshire’s Hambleton Hills were preventing her from making a social visit to Osgoodby Hall in Thirkleby. The same hills were referenced in *Book 1*, having caused her difficulties during her first pregnancy in 1652.[^8] 
+In October 1677, Alice Thornton wrote to her brother, Sir Christopher Wandesford, to let him know that Yorkshire’s Hambleton Hills were preventing her from making a social visit to Osgoodby Hall in Thirkleby.[^8] The same hills were referenced in *Book 1*, having caused her difficulties during her first pregnancy in 1652. 
 
 It was during this first pregnancy that Alice Thornton made what must have been quite a social tour, visiting her husband’s relations at Crathorne, Buttercrambe, York, Hull and Beverley, and she was keen to make a good impression: 'I bless God who gave me favour in their eyes of my husband’s friends.'[^9]
 
