@@ -6,6 +6,7 @@ const SaxonJS = require("saxon-js");
 const pathp = require("path");
 const fs = require("fs");
 
+const SITE_ENV = process.env.SITE_ENV || 'lcl'
 const sourceBase = "./clone/dts/documents/";
 // const sourceBase =
 //   "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/entities/";
@@ -26,6 +27,7 @@ const LABEL_FROM_KEY = {
   'semidip': 'Semi-diplomatic',
 }
 const TO_BE_INDEXED_PATH = 'to-be-indexed'
+const LIMIT = 2
 
 class TextSearch {
   constructor() {
@@ -37,7 +39,7 @@ class TextSearch {
 
     fs.rmSync(TO_BE_INDEXED_PATH, { recursive: true })
 
-    let limit = 2;
+    let limit = SITE_ENV == 'lcl' ? LIMIT : 0;
     let processed = 0;
 
     while (paths.length) {
