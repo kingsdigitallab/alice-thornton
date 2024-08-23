@@ -19,7 +19,14 @@
     <html>
       <head>
       </head>
-      <body data-pagefind-body="" data-pagefind-meta="url[data-viewer-url],title[data-title]" data-title="" data-viewer-url="">
+      <body data-pagefind-body="" 
+        data-pagefind-meta="url[data-url],title[data-title]" 
+        data-title="#title#" 
+        data-url="#url#" 
+        data-pagefind-filter="book[data-book],version[data-version]"
+        data-book="#book#" 
+        data-version="#version#" 
+        >
         <xsl:call-template name="copy-element" />
       </body>
     </html>

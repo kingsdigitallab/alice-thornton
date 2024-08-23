@@ -13,7 +13,19 @@ const sources = ["people.xml", "places.xml", "events.xml"];
 // const sources = ["events.xml"];
 const target = "../../frontend/assets/js/entities.json";
 // const jsonSheetPath = "html-to-html.sef.json";
-const XSLTPath = "html-to-html.xslt";
+const XSLTPath = {
+  'modern': "html-to-html-modern.xslt",
+  // 'semidip': "html-to-html-semidip.xslt"
+};
+const LABEL_FROM_KEY = {
+  'book_of_remembrances': 'Book of Remembrances',
+  'book_one': 'Book 1',
+  'book_two': 'Book 2',
+  'book_three': 'Book 3',
+  'modern': 'Modernised',
+  'semidip': 'Semi-diplomatic',
+}
+const TO_BE_INDEXED_PATH = 'to-be-indexed'
 
 class TextSearch {
   constructor() {
@@ -22,6 +34,12 @@ class TextSearch {
 
   async transformHTMLs() {
     var paths = fs.readdirSync(sourceBase);
+
+    fs.rmSync(TO_BE_INDEXED_PATH, { recursive: true })
+
+    let limit = 2;
+    let processed = 0;
+
     while (paths.length) {
       let path = paths.pop();
       let pathAbs = pathp.join(sourceBase, path);
@@ -32,7 +50,8 @@ class TextSearch {
       } else {
         if (path.endsWith(".html")) {
           await this.transformHTML(pathAbs);
-          break;
+          processed++;
+          if (limit && processed >= limit) break;
         }
       }
     }
@@ -40,17 +59,43 @@ class TextSearch {
 
   async transformHTML(path) {
     console.log(path);
-    let htmlString = await this.xslt(path, XSLTPath);
+    for (let version of Object.keys(XSLTPath)) {
+      this.transformHTMLVersion(path, version)
+    }
+  }
 
-    if (1) {
-      htmlString = htmlString.replace('data-title=""', 'data-title="Book 2, page 2"')
-      htmlString = htmlString.replace('data-viewer-url=""', 'data-viewer-url="/edition/?p0.lo=p.2&p0.vi=modern&p0.do=book_one"')
+  async transformHTMLVersion(path, version='modern') {
+    let htmlString = await this.xslt(path, XSLTPath[version]);
+
+    let metadata = this.getMetadataFromPath(path, version);
+
+    for (let k of Object.keys(metadata)) {
+      htmlString = htmlString.replace(`#${k}#`, metadata[k])
     }
 
-
-    let targetPath = path.replace('clone/dts/documents', 'to-be-indexed')
+    let targetPath = path.replace('clone/dts/documents', TO_BE_INDEXED_PATH)
+    targetPath = targetPath.replace('.html', '-' + version + '.html')
     fs.mkdirSync(pathp.dirname(targetPath), { recursive: true })
     fs.writeFileSync(targetPath, htmlString, 'utf8')
+  }
+
+  getMetadataFromPath(path, version='modern') {
+    // clone/dts/documents/book_two/p.99.html
+    let ret = null;
+
+    const regex = /\/dts\/documents\/(?<bookKey>\w+)\/p\.(?<page>\d+)\.html$/;
+    const match = regex.exec(path);
+    if (match) {
+      ret = {
+        book: LABEL_FROM_KEY[match.groups.bookKey],
+        page: match.groups.page,
+        version: LABEL_FROM_KEY[version],
+        url: `/edition/?p0.do=${match.groups.bookKey}&p0.lo=p.${match.groups.page}&p0.vi=${version}`,
+        title: `${LABEL_FROM_KEY[match.groups.bookKey]}, page ${match.groups.page}`,
+      }
+    }
+
+    return ret
   }
 
   async writeJsonFromTei() {
@@ -159,7 +204,7 @@ class TextSearch {
     let firstLine = '<?xml version="1.0" encoding="UTF-8"?>';
     ret = ret.replace(firstLine, "");
 
-    console.log(ret)
+    console.log(ret.substring(0, 300))
 
     return ret;
   }
