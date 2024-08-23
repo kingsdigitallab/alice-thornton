@@ -25,7 +25,7 @@ Festival time is in full swing here in Edinburgh and this time of year is also w
 
 ![A 17th-century impression of a coach travelling.]( {{ "/assets/img/posts/coach.jpg" | url }} "A 17th-century impression of a coach journey."){.media-right}
 
-Thornton recalled and wrote about many journeys she made in her lifetime with her mother and father, and later with her husband, and she also tells us about trips that other people made, some travelling as far afield as France and Virginia, and some visiting her at home in Yorkshire.
+Thornton recalled and wrote about many journeys she made in her lifetime with her mother and father, and later with her husband, and she also tells us about trips that other people made, some travelling as far afield as France and [Virginia](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-21-thornton-and-north-america/), and some visiting her at home in Yorkshire.
 
 Thanks to the work of the Alice Thornton’s Books team, Thornton’s four books of her life are being made available to read online for free. The books, handed down by generations of Thornton’s descendants over the centuries, offer an opportunity to journey into the past and, whatever your area of interest, they are well worth a visit.
  
