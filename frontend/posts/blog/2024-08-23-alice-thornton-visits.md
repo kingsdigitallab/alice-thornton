@@ -3,7 +3,7 @@ title: "‘Paying a Visit’ in Alice Thornton's Books"
 feature: /assets/img/posts/coach.jpg
 authors:
   - ethom
-status: draft
+status: live
 tags:
   - travel
   - family
