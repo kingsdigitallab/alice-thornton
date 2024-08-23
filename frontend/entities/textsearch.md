@@ -8,7 +8,14 @@ title: Text Search
 <div id="search"></div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: false });
+        new PagefindUI({ 
+            element: "#search", 
+            showSubResults: false,
+            pageSize: 15,
+            showImages: false,
+            autofocus: true,
+            sort: { "book-page": "asc" }
+        });
     });
 </script>
 {% endraw %}

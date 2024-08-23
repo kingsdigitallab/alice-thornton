@@ -27,7 +27,7 @@ const LABEL_FROM_KEY = {
   'semidip': 'Semi-diplomatic',
 }
 const TO_BE_INDEXED_PATH = 'to-be-indexed'
-const LIMIT = 2
+const LIMIT = 100
 
 class TextSearch {
   constructor() {
@@ -82,94 +82,30 @@ class TextSearch {
   }
 
   getMetadataFromPath(path, version='modern') {
-    // clone/dts/documents/book_two/p.99.html
     let ret = null;
 
+    // clone/dts/documents/book_one/p.12.html
     const regex = /\/dts\/documents\/(?<bookKey>\w+)\/p\.(?<page>\d+)\.html$/;
     const match = regex.exec(path);
+
     if (match) {
+      // 12
+      const pageNumber = match.groups.page
+      // 0012
+      const pageNumberPadded = pageNumber.padStart(4, "0");
       ret = {
         book: LABEL_FROM_KEY[match.groups.bookKey],
-        page: match.groups.page,
+        page: pageNumber,
         version: LABEL_FROM_KEY[version],
-        url: `/edition/?p0.do=${match.groups.bookKey}&p0.lo=p.${match.groups.page}&p0.vi=${version}`,
-        title: `${LABEL_FROM_KEY[match.groups.bookKey]}, page ${match.groups.page}`,
+        url: `/edition/?p0.do=${match.groups.bookKey}&p0.lo=p.${pageNumber}&p0.vi=${version}`,
+        // Book 1, page 12
+        title: `${LABEL_FROM_KEY[match.groups.bookKey]}, page ${pageNumber}`,
+        // 1-0012 for Book 1, page 12
+        bookPage: `${Object.keys(LABEL_FROM_KEY).indexOf(match.groups.bookKey)}-${pageNumberPadded}`,
       }
     }
 
     return ret
-  }
-
-  async writeJsonFromTei() {
-    this.entities = [];
-
-    for (let source of sources) {
-      await this.loadTei(sourceBase + source);
-    }
-
-    this.postProcessEntities();
-
-    this.writeJson(target, this.entities);
-  }
-
-  postProcessEntities() {
-    // processing which is much simpler in JS than XSLT
-    for (let entity of this.entities) {
-      // remove duplicate pages in entity.pages
-      entity.pages = Object.fromEntries(
-        Object.entries(entity.pages).map(([k, v]) => [k, [...new Set(v)]])
-      );
-      // remove books from entity.pages which have no pages
-      entity.pages = Object.fromEntries(
-        Object.entries(entity.pages).filter(([k, v]) => v.length)
-      );
-      // entity.books = list of books they appear in
-      entity.books = Object.keys(entity.pages);
-      // missing key for people with no first/surname
-      if (!entity?.sortkey && entity.type == "person") {
-        // 'John Thornton (1633-1669)' => "Thornton-John"
-        entity.sortkey = entity.title
-          .replace(/\([^)]+\)/g, "")
-          .trim()
-          .split(/\s+/)
-          .reverse()
-          .join("-");
-        console.log(
-          `WARNING: fixed missing sorkey for ${entity.type}:${entity.id} = ${entity.sortkey}`
-        );
-      }
-      if (!entity?.search) {
-        entity.search = entity.title;
-      }
-      // remove text between []
-      entity.search = entity.search.replace(/\[.*?\]/g, "");
-    }
-
-    // sort by sortKey, optional, only for debugging purpose as itemjs will sort anyway
-    this.entities = this.entities.sort((a, b) =>
-      a.sortkey.localeCompare(b.sortkey)
-    );
-  }
-
-  async loadTei(source) {
-    // let docString = this.readFile(source)
-    let entitiesJson = await this.xslt(source, jsonSheetPath);
-    // console.log(entitiesJson.substring(0, 1000));
-    // fs.writeFileSync('tmp.json', entitiesJson, "utf8");
-
-    let entities = [];
-
-    if (entitiesJson) {
-      entities = JSON.parse(entitiesJson);
-    } else {
-      console.log(
-        `WARNING: entities file (${source}) transformed into an empty string.`
-      );
-    }
-
-    for (let i in entities) {
-      this.entities.push(entities[i]);
-    }
   }
 
   readFile(source) {
@@ -206,7 +142,7 @@ class TextSearch {
     let firstLine = '<?xml version="1.0" encoding="UTF-8"?>';
     ret = ret.replace(firstLine, "");
 
-    console.log(ret.substring(0, 300))
+    // console.log(ret.substring(0, 300))
 
     return ret;
   }
@@ -235,21 +171,6 @@ class TextSearch {
     return ret;
   }
 
-  writeJson(path, data) {
-    // envelope: add metadata; format inspired by JSON:API
-    data = {
-      meta: {
-        dateCreated: new Date().toISOString(),
-      },
-      data: data,
-    };
-    // console.log(data)
-    let dataStr = JSON.stringify(data, null, 2);
-    fs.writeFileSync(path, dataStr, "utf8");
-    console.log(
-      `WRITE ${path} (${(dataStr.length / 1024 / 1024).toFixed(2)} MB)`
-    );
-  }
 }
 
 new TextSearch().transformHTMLs();

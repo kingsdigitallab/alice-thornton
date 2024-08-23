@@ -21,11 +21,13 @@
       </head>
       <body data-pagefind-body="" 
         data-pagefind-meta="url[data-url],title[data-title]" 
+        data-pagefind-filter="book[data-book],version[data-version]"
+        data-pagefind-sort="book-page[data-book-page]"
         data-title="#title#" 
         data-url="#url#" 
-        data-pagefind-filter="book[data-book],version[data-version]"
         data-book="#book#" 
-        data-version="#version#" 
+        data-version="#version#"
+        data-book-page="#bookPage#"
         >
         <xsl:call-template name="copy-element" />
       </body>
