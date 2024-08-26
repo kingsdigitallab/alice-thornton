@@ -1,5 +1,5 @@
 ---
-title: "Project PI collaborates on Thornton blog with North Yorkshire County Record Office"
+title: "The Remarkable Deliverances of Alice Thornton at Biggar Little Festival"
 feature: /assets/img/posts/annedanby.jpg
 status: draft
 authors:
