@@ -1,5 +1,5 @@
 ---
-title: "The Remarkable Deliverances of Alice Thornton at Biggar Little Festival"
+title: "Alice Thornton Play is off to the Biggar Little Festival 2024"
 feature: /assets/img/posts/annedanby.jpg
 status: draft
 authors:
@@ -11,9 +11,8 @@ tags:
 
 
 ---
-On October 19th, audiences at the Biggar Little Festival in Biggar will be able to catch [Debbie Cannon](https://debbiecannon.org/) in a performance of her acclaimed one-woman play based on the books of Alice Thornton. Tickets for 'The Remarkable Deliverances of Alice Thornton' are already on sale. 
 
-Online booking and further details are available [here](https://biggarce.yapsody.com/event/index/820961/the-remarkable-deliverances-of-alice-thornton).
+On October 19th 2024, audiences at the Biggar Little Festival in Biggar, South Lanarkshire, will be able to catch [Debbie Cannon](https://debbiecannon.org/) in a performance of her acclaimed one-woman play based on the life and writings of Alice Thornton. Tickets for 'The Remarkable Deliverances of Alice Thornton' are [now on sale](https://biggarce.yapsody.com/event/index/820961/the-remarkable-deliverances-of-alice-thornton).
 
 
 
