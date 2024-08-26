@@ -6,7 +6,7 @@ authors:
 status: draft
 tags:
   - TEI
- 
+  - data visualisation
 
 ---
 
@@ -24,9 +24,9 @@ A few months ago, I was fortunate to be granted advanced access to the digitised
 
 One of the goals of the text analysis taught in the course is to explore how often and in what context certain names of people and places appear across Alice Thornton’s four books, which have been [meticulously marked up](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-08-25-encoding-alice-thorntons-books/) and disambiguated by the project team. This analysis is crucial in understanding the prominence of individuals in her life and their influence on her narrative. A particularly interesting finding was the frequent mentions of Dr Wittie, her private physician, in *Book of Remembrances* and *Book One*. While the project team was already aware of Dr Wittie’s significance in some of Thornton's writing, the text analysis enables a deeper exploration into the contexts in which she mentioned him (see Figure 1).
 
-![Figure 1.]( {{ "/assets/img/posts/bea_picture_one.jpg" | url }}""){.media-left}
+![Figure 1.]( {{ "/assets/img/posts/bea_picture_one.jpg" | url }}"")
 
-![Second figure 1.]( {{ "/assets/img/posts/bea_picture_oneb.jpg" | url }} "Figure 1 illustrates the frequency of mentions of Dr Wittie and other people in Thornton’s books, as well as the context he and his practices were mentioned in."){.media-left}
+![Second figure 1.]( {{ "/assets/img/posts/bea_picture_oneb.jpg" | url }} "Figure 1 illustrates the frequency of mentions of Dr Wittie and other people in Thornton’s books, as well as the context he and his practices were mentioned in.")
 
 When examining these references, it became evident that Dr Wittie was more than just a recurring character in Thornton's life. The analysis revealed that he promoted the prescription of drinking mineral water and was an advocate of bloodletting, a common medical practice at the time. By exploring the concordances of his name, the context his name was used in, we can trace how often and in what situations Thornton discussed his practices and their implications for her health and well-being.
 
@@ -39,7 +39,7 @@ Beyond individual mentions, the text analysis also allows us to examine relation
 
 For instance, by examining the frequency and context in which certain names appeared together, we identified key figures in her life who were often linked in her storytelling. This included family members, close friends, and significant acquaintances, providing insight into the social dynamics at play in her writing. Such visualisations not only help to better understand Thornton’s personal life but also offer a broader view of the societal norms and connections of the seventeenth century.
 
-![Figure 2.]( {{ "/assets/img/posts/bea_picture_two.jpg" | url }} "Figure 2 presents an excerpt of the network relationship map showcasing the interconnections between Dr Wittie and other figures mentioned in Thornton's *Book of Remembrances*."){.media-right}
+![Figure 2.]( {{ "/assets/img/posts/bea_picture_two.jpg" | url }} "Figure 2 presents an excerpt of the network relationship map showcasing the interconnections between Dr Wittie and other figures mentioned in Thornton's *Book of Remembrances*.")
 
 This network analysis, combined with context analysis, also revealed important insights not just in the presence of names but also in their absence. For example, Thornton mentions her mother frequently in all her writing, yet by name only six times.  This suggests that she may have had a close bond to her mother as their relationship was understood without the need for explicit naming. 
  
@@ -49,7 +49,7 @@ This network analysis, combined with context analysis, also revealed important i
 
 One particularly intriguing discovery in this analysis was Alice Thornton's use of the heart emoji. While emojis are widely considered to be a modern form of expression, Thornton’s use of a heart symbol stands as an early recorded instance in history. This analysis not only identified the occurrences of the heart emoji in context but also explored the emotional and thematic significance it carried in her writing. By analysing these instances, students can observe how Thornton used the symbol to convey affection, emotion and sentimentality.
 
-![Figure 3.]( {{ "/assets/img/posts/bea_picture_three.jpg" | url }} "Figure 3 shows the concordance analysis of the heart emoji used in Thornton’s works."){.media-left}
+![Figure 3.]( {{ "/assets/img/posts/bea_picture_three.jpg" | url }} "Figure 3 shows the concordance analysis of the heart emoji used in Thornton’s works.")
 
 
 <p>&nbsp;</p>
