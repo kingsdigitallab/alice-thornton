@@ -5,15 +5,9 @@ authors:
   - balex
 status: draft
 tags:
-  - travel
-  - family
-  - castles
-  - childbirth
-  - animals
-  - illness
-  - letters
-  - wars of the three kingdoms
-  - nature
+  - TEI
+  - Manuscripts
+  - Marginalia
 
 ---
 
