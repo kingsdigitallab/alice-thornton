@@ -47,7 +47,7 @@ Once we were into rehearsal, I had long discussions with director [Flavia D’Av
 
 ## Future Work with Anne
 
-The creation of both Alice’s and Anne’s characters has been a wonderfully rewarding collaboration between the academic team at the Alice Thornton’s Books project, and the creative team writing, directing, dramaturging and performing the play – as well as with audiences who have responded to the performances and fed back to us. All of us are excited with the possibilities that lie ahead – the finding of further writing by Anne will allow us to refine her character and voice, and it would be fascinating to write about Anne’s time in the Americas, and her relationship with the Danbys, who are curious characters in themselves. Watch this space!
+The creation of both Alice’s and Anne’s characters has been a wonderfully rewarding collaboration between the academic team at the Alice Thornton’s Books project, and the creative team writing, directing, dramaturging and performing the play – as well as with audiences who have responded to the performances and fed back to us. All of us are excited with the possibilities that lie ahead – the finding of further writing by Anne will allow us to refine her character and voice, and it would be fascinating to write about [Anne’s time in the Americas](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-21-thornton-and-north-america/), and her relationship with the Danbys, who are curious characters in themselves. Watch this space!
 
 
 
