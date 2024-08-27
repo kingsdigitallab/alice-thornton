@@ -24,7 +24,7 @@ A few months ago, I was fortunate to be granted advanced access to the digitised
 
 One of the goals of the text analysis taught in the course is to explore how often and in what context certain names of people and places appear across Alice Thornton’s four books, which have been [meticulously marked up](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-08-25-encoding-alice-thorntons-books/) and disambiguated by the project team. This analysis is crucial in understanding the prominence of individuals in her life and their influence on her narrative. A particularly interesting finding was the frequent mentions of Dr Wittie, her private physician, in *Book of Remembrances* and *Book One*. While the project team was already aware of Dr Wittie’s significance in some of Thornton's writing, the text analysis enables a deeper exploration into the contexts in which she mentioned him (see Figure 1).
 
-![A word cloud showing the frequency of mentions of Dr Wittie in Thornton's books]( {{ "/assets/img/posts/bea_picture_one.jpg" | url }} "Word cloud, showing the frequency of mentions of Dr Wittie in Thornton's books along with other people)
+![A word cloud showing the frequency of mentions of Dr Wittie in Thornton's books]( {{ "/assets/img/posts/bea_picture_one.jpg" | url }} "Word cloud, showing the frequency of mentions of Dr Wittie in Thornton's books along with other people")
 
 ![Contexts in which Wittie and his practices are mentioned in Thornton's books]( {{ "/assets/img/posts/bea_picture_oneb.jpg" | url }} "The context in which Wittie and his practices are mentioned in Thornton's books")
 
