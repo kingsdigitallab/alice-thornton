@@ -1,7 +1,7 @@
 ---
 title: "Alice Thornton Play is off to the Biggar Little Festival 2024"
 feature: /assets/img/posts/annedanby.jpg
-status: draft
+status: live
 authors:
   - ethom
 tags:
