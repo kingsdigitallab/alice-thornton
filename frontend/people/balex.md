@@ -1,6 +1,6 @@
 ---
 firstName: Beatrice 
-lastName: Alexander
+lastName: Alex
 affiliation: University of Edinburgh
 mainEntityOfPage: 
 teams:
