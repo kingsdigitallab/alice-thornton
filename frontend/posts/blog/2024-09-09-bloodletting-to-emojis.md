@@ -50,7 +50,7 @@ This network analysis, combined with context analysis, also revealed important i
 
 ## The Cultural Significance of the Heart Emoji
 
-One particularly intriguing discovery in this analysis was Alice Thornton's use of the heart emoji. While emojis are widely considered to be a modern form of expression, Thornton’s use of a heart symbol stands as an early recorded instance. This analysis not only identified the occurrences of the heart emoji in context but also explored the emotional and thematic significance it carried in her writing (see Figure 3). By analysing these instances, students can observe how Thornton used the symbol to convey affection, emotion and sentimentality.
+One particularly intriguing discovery in this analysis was Alice [Thornton's use of the heart emoji](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/). While emojis are widely considered to be a modern form of expression, Thornton’s use of a heart symbol stands as an early recorded instance. This analysis not only identified the occurrences of the heart emoji in context but also explored the emotional and thematic significance it carried in her writing (see Figure 3). By analysing these instances, students can observe how Thornton used the symbol to convey affection, emotion and sentimentality.
 
 ![Figure 3.]( {{ "/assets/img/posts/bea_hearts.jpg" | url }} "Figure 3 shows an excerpt of the concordance analysis of the heart emoji using in Thornton’s works.")
 
