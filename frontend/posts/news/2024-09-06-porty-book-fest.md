@@ -12,7 +12,7 @@ Cordelia Beattie (Principal Investigator), Suzanne Trill (Co-Investigator) and E
 
  Trill and Beattie will introduce the project and then show the audience how they can use the digital edition to explore the world of Alice Thornton and the topics she wrote about in the 17th Century. Thom will then look at some work by local writers who have already been inspired by what they found in Thornton's books, and you'll have a chance to compose your own mini-memoir.
 
-Tickets to events are free, but must be reserved, and can be collected in person at [Portobello Library](https://www.edinburgh.gov.uk/directory-record/1229195/portobello-library) from Monday September 10th (max 4 per person). More details and a link to the full programme are available on the website of [Portobello Book Festival](https://portobellobookfestival.com/).
+Tickets to events are free, but must be reserved, and can be collected in person at [Portobello Library](https://www.edinburgh.gov.uk/directory-record/1229195/portobello-library) from Monday September 9th (max 4 per person). More details and a link to the full programme are available on the website of [Portobello Book Festival](https://portobellobookfestival.com/).
 
 
 
