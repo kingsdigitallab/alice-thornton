@@ -1088,6 +1088,7 @@ $render-sic: false;
     }
   }
 
+  // 2.284, 1.8 
   &.view-modern {
     .tei-fw[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header) {
       display: none;
@@ -1103,6 +1104,7 @@ $render-sic: false;
     }
   }
 
+  // 2.36,81
   .tei-fw.tei-type-pageNum {
     & + .tei-lb {
       display: none;
@@ -1151,6 +1153,7 @@ $render-sic: false;
   }
 
   &.view-modern {
+    // 2.3
     .tei-del {
       display: none;
     }
