@@ -49,7 +49,8 @@ if [[ $h1 != $h2 ]]; then
   # fi
 fi
 
-su - $GITUSER -c "export SITE_ENV=$SITE_ENV; cd $PROJECT_DIR/apps/textsearch/ && npm run index"
+# TODO: make it conditional. Wasteful to run indexing regularly without any change in index.
+su - $GITUSER -c "export SITE_ENV=$SITE_ENV; cd $PROJECT_DIR/apps/textsearch/ && npm ci && npm run index"
 
 # update tweets
 # su - $GITUSER -c "cd $PROJECT_DIR && npm run tweets -w frontend"
