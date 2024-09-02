@@ -21,7 +21,7 @@ March is Women's History Month and to mark it - like [last year](https://thornto
 For a seventeenth-century female servant, we know a remarkable amount about Daphne, mainly because of what Alice Thornton writes about her in all four of her books. Born Daphne Cassell, we do not know her birth date. She entered the service of Alice Thornton’s mother, Alice Wandesford, by 1645 at the latest. Sometime before 1654, she married George Lightfoot, also a servant in the Wandesford household. They would go on to have at least one child, a daughter called Mary. Daphne was a literate woman – not only did she witness Alice Wandesford’s will by signing her name in 1658,[^1] but she and Alice wrote and received letters to and from one another in the late 1660s.[^2] 
 <p>&nbsp;</p>
 
-After Alice Wandesford's death it seems probable that Daphne and George entered the Thornton's service, as there is evidence of them working at East Newton after 1668, and George was perhaps the same George mentioned in a letter from Thomas Comber to Thornton in 1682.[^3] It is not clear where Daphne and George lived after marriage, but it seems they ended up in the Gilling area, some six miles north of Hipswell Hall, as Daphne was buried at St Agatha’s, Gilling West, on 20 September 1689.[^4] 
+After Alice Wandesford's death it seems probable that Daphne and George entered the Thorntons' service, as there is evidence of them working at East Newton after 1668, and George was perhaps the same George mentioned in a letter from Thomas Comber to Thornton in 1682.[^3] It is not clear where Daphne and George lived after marriage, but it seems they ended up in the Gilling area, some six miles north of Hipswell Hall, as Daphne was buried at St Agatha’s, Gilling West, on 20 September 1689.[^4] 
 
 <p>&nbsp;</p>
 
@@ -55,17 +55,17 @@ When Thornton's husband, William, died in 1668, Daphne labelled the goods that h
 
 ![A well-dressed and perhaps pregnant young woman stands next to a table which holds a variety of metal jugs and plates]({{"/assets/img/posts/The_Housekeeper.jpg" | url}} "Anonymous (Southern Netherlands), c. 1650. The Housekeeper. Public domain, via Wikimedia Commons"){.media-left}
 
-> These goods, they are all my Lady's. All of them was set down in an inventory before her death by her order. And she, seeing them done before her own sel,f and was appraised all after her death... and Mr Thornton had not a bed or any household goods in this house or anywhere else before he married, but what he had from my Lady. And she gave them to my mistress to use. But not to pay debts but out of kindness to assist them in their house.[^10] 
+> These goods, they are all my Lady's. All of them was set down in an inventory before her death by her order. And she, seeing them done before her own self, and was appraised all after her death... and Mr Thornton had not a bed or any household goods in this house or anywhere else before he married, but what he had from my Lady. And she gave them to my mistress to use. But not to pay debts but out of kindness to assist them in their house.[^10] 
 
 <p>&nbsp;</p>
 
-Daphne's sharp memory, diligent labelling, honest testimony and loyalty to Alice and her natal family helped save many of the goods from being sold to pay off her husband’s debts. 
+Daphne's sharp memory, diligent labelling, honest testimony and loyalty to Alice and her natal family helped save many of the goods from being sold to pay off William Thornton’s debts. 
 
 ## After the scandal
 
 ![An older woman sits on a black and white tiled patio outside a house. A younger maid stands next to her holding a pail]({{"/assets/img/posts/Hooch_Woman_and_Maid_with_pail.jpg" | url}} "Pieter de Hooch, c. 1660. Woman and a Maid With a Pail. Public domain, via Wikimedia Commons"){.media-right}
 
-When Alice Thornton's niece, Anne Danby, defamed Alice regarding her daughter Nally's marriage to Thomas Comber, Daphne did all she could to support her friend and mistress. She wrote letters to detractors to dispel rumours and stayed with Alice in order to comfort her. Thornton recorded some of Daphne's letters defending her. She wrote to Thornton’s ex-servant Mary Breakes to try and get to the truth of who had spread rumours, saying ‘that Mrs Danby and her maid Barbery had laid many ill things to my charge, and said it was she that had told them of me that my mistress had robbed her husband and given all his money to Mr Comber with such like untruths'.[^11] 
+When Alice Thornton's niece, Anne Danby, defamed Alice regarding her daughter Nally's marriage to Thomas Comber, Daphne did all she could to support her friend and mistress. She wrote letters to detractors to dispel rumours and stayed with Alice in order to comfort her. Thornton recorded some of Daphne's letters defending her. Daphne wrote to Thornton’s ex-servant Mary Breakes to try and get to the truth of who had spread rumours, saying ‘that Mrs Danby and her maid Barbery had laid many ill things to my charge, and said it was she that had told them of me that my mistress had robbed her husband and given all his money to Mr Comber with such like untruths'.[^11] 
 
 <p>&nbsp;</p>
 
