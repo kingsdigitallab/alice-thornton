@@ -34,12 +34,43 @@
     </html>
   </xsl:template>
 
+  <!-- <span class="tei-note tei-type-term info-box" data-tei="note" data-tei-type="term"> -->
+  <xsl:template match="span[contains(@class, 'info-box') and not (contains(@class, 'has-info-box'))]">
+  </xsl:template>
+
+  <xsl:template match="span[@data-tei-resp='ednote']">
+  </xsl:template>
+
+  <xsl:template match="*[contains(@class, 'hidden')]">
+  </xsl:template>
+
+  <xsl:template match="span[@data-tei-type='event-mark']">
+  </xsl:template>
+
+  <!-- VERSION-SPECIFIC -->
+
   <!-- <span class="tei-w" data-tei="w" data-tei-norm="sins"><span class="norm">sins</span><span class="orig">sinns</span></span> -->
   <xsl:template match="span[@class='orig']">
   </xsl:template>
 
-  <!-- <span class="tei-note tei-type-term info-box" data-tei="note" data-tei-type="term"> -->
-  <xsl:template match="span[@data-tei='note']">
+  <!-- <span class="tei-abbr" data-tei="abbr">hon.< -->
+  <xsl:template match="span[@data-tei='abbr']">
+  </xsl:template>
+
+  <xsl:template match="span[@data-tei='surplus']">
+  </xsl:template>
+
+  <xsl:template match="span[@data-tei='sic']">
+  </xsl:template>
+
+  <!-- <span class="tei-measure tei-type-currency not-a-word" data-tei="measure" data-tei-type="currency" data-tei-unit="£">6<span class="tei-am" data-tei="am" data-tei-rend="superscript italic">l</span></span> -->
+  <xsl:template match="span[@data-tei='am']">
+  </xsl:template>
+
+  <xsl:template match="del[@data-tei='del']">
+  </xsl:template>
+
+  <xsl:template match="span[@data-tei='fw' and contains(@data-tei-place, 'margin') and not(contains(@class, 'tei-type-head'))]">
   </xsl:template>
 
 </xsl:stylesheet>

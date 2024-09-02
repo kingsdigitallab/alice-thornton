@@ -8,12 +8,7 @@ const fs = require("fs");
 
 const SITE_ENV = process.env.SITE_ENV || 'lcl'
 const sourceBase = "./clone/dts/documents/";
-// const sourceBase =
-//   "https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/entities/";
-const sources = ["people.xml", "places.xml", "events.xml"];
-// const sources = ["events.xml"];
 const target = "../../frontend/assets/js/entities.json";
-// const jsonSheetPath = "html-to-html.sef.json";
 const XSLTPath = {
   'modern': "html-to-html-modern.xslt",
   // 'semidip': "html-to-html-semidip.xslt"
@@ -27,7 +22,7 @@ const LABEL_FROM_KEY = {
   'semidip': 'Semi-diplomatic',
 }
 const TO_BE_INDEXED_PATH = 'to-be-indexed'
-const LIMIT = 100
+const LIMIT = 0
 
 class TextSearch {
   constructor() {
@@ -37,7 +32,9 @@ class TextSearch {
   async transformHTMLs() {
     var paths = fs.readdirSync(sourceBase);
 
-    fs.rmSync(TO_BE_INDEXED_PATH, { recursive: true })
+    if (fs.existsSync(TO_BE_INDEXED_PATH)) {
+      fs.rmSync(TO_BE_INDEXED_PATH, { recursive: true })
+    }
 
     let limit = SITE_ENV == 'lcl' ? LIMIT : 0;
     let processed = 0;
@@ -69,11 +66,22 @@ class TextSearch {
   async transformHTMLVersion(path, version='modern') {
     let htmlString = await this.xslt(path, XSLTPath[version]);
 
+    // variables substitution
     let metadata = this.getMetadataFromPath(path, version);
-
     for (let k of Object.keys(metadata)) {
       htmlString = htmlString.replace(`#${k}#`, metadata[k])
     }
+
+    // con-<br...>form => conform
+    // Join parts of a word separated by a line break
+    htmlString = htmlString.replace(/<\/br>/g, "");
+    // remove spaces around a line break in the middle of a word
+    htmlString = htmlString.replace(/\s*(<br[^>]+data-tei-break="no"[^>]*>)\s*/g, "$1");
+    // remove the hyphen 
+    htmlString = htmlString.replace(
+      /<span class="tei-pc not-a-word" data-tei="pc">-<\/span>(<br[^>]+data-tei-break="no"[^>]*>)/g,
+      ''
+    );
 
     let targetPath = path.replace('clone/dts/documents', TO_BE_INDEXED_PATH)
     targetPath = targetPath.replace('.html', '-' + version + '.html')
