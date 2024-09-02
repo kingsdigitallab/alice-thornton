@@ -12,7 +12,7 @@ Cordelia Beattie (Principal Investigator) will attend the first History of Yorks
 
 The conference will take place on Saturday 19th October in Harrogate. 
 
-More details and a link to the full programme is available [here](https://www.yas.org.uk/Meetings/History-of-Yorkshire-Conference?fbclid=IwY2xjawE-nKdleHRuA2FlbQIxMAABHYEoeOrQpR1s0zYn2PeORs6jmXKA7E4wqg_D6AlUmA3KOu2BmuEZ_QvmoA_aem_IJogwbvhMunl-BxtdO24xA).
+More details and a link to the full programme are available via the [Yorkshire Archaeological and Historical Society](https://www.yas.org.uk/Meetings/History-of-Yorkshire-Conference?fbclid=IwY2xjawE-nKdleHRuA2FlbQIxMAABHYEoeOrQpR1s0zYn2PeORs6jmXKA7E4wqg_D6AlUmA3KOu2BmuEZ_QvmoA_aem_IJogwbvhMunl-BxtdO24xA).
 
 
 
