@@ -1,11 +1,12 @@
 ---
-title: "Project Talk at History of Yorkshire Conference"
+title: "Project PI to speak at History of Yorkshire Conference"
 feature: /assets/img/posts/yorks_conference.jpg
 status: live
 authors:
   - ethom
 tags:
   - events
+  - Yorkshire
 
 ---
 Cordelia Beattie (Principal Investigator) will attend the first History of Yorkshire Conference, run by Yorkshire Archaeological and Historical Society, to give a talk entitled 'Yorkshire Gentlewoman Alice Thornton (1626-1707) and her Rediscovered Manuscripts'.
