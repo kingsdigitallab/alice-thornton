@@ -1,14 +1,14 @@
 ---
 title: "Project Talk at History of Yorkshire Conference"
 feature: /assets/img/posts/yorks_conference.jpg
-status: draft
+status: live
 authors:
   - ethom
 tags:
   - events
 
 ---
-Cordelia Beattie (Principal Investigator) will attend the first History of Yorkshire Conference, run by Yorkshire Archaeological and Historical Society, to give a talk 'Yorkshire Gentlewoman Alice Thornton (1626-1707) and her Rediscovered Manuscripts'.
+Cordelia Beattie (Principal Investigator) will attend the first History of Yorkshire Conference, run by Yorkshire Archaeological and Historical Society, to give a talk entitled 'Yorkshire Gentlewoman Alice Thornton (1626-1707) and her Rediscovered Manuscripts'.
 
 The conference will take place on Saturday 19th October in Harrogate. 
 
