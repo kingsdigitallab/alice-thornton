@@ -3,7 +3,7 @@ title: "From Bloodletting to Emojis: Exploring Alice Thornton's World Through Co
 feature: /assets/img/posts/bea_picture_one.jpg
 authors:
   - balex
-status: draft
+status: live
 tags:
   - TEI
   - data visualisation
