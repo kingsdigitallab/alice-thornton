@@ -12,7 +12,7 @@ tags:
 
 ---
 
-The Remarkable Deliverances of Alice Thornton, [Debbie Cannon](https://debbiecannon.org/)'s acclaimed one-woman play based on Thornton's life and books, will return to the Scottish Storytelling Centre this autumn, after the play's sell-out debut there in 2022. Since its first run, the play has been further developed, incorporating brand new insights into Thornton's life that have been uncovered by the Alice Thornton's Books team. 
+'The Remarkable Deliverances of Alice Thornton', [Debbie Cannon](https://debbiecannon.org/)'s acclaimed one-woman play based on Thornton's life and books, will return to the Scottish Storytelling Centre this autumn, after the play's sell-out debut there in 2019. Since its first run, the play has been further developed, incorporating brand new insights into Thornton's life - and the people around her - that have been uncovered by the Alice Thornton's Books team. 
 
 ‘human and very funny... thoroughly enjoyable... Cannon’s performance is vivid and engaging’ (The Scotsman)
 
