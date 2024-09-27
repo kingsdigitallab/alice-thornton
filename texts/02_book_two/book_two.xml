@@ -10077,33 +10077,17 @@ which words I did utterly deny<supplied reason="mod">;</supplied> for I never<lb
           <p xml:id="p-0753" rend="first-line-indent">Therefore<supplied reason="mod">,</supplied> I judge it necessary to <w norm="insert">incert</w> the<lb/>
              <w norm="original">orriginall</w> letter of <persName ref="ppl:rc2" n="per1225">my <w norm="cousin">Cozen</w> <w norm="Covill">Covell</w></persName> about it<supplied reason="mod">.</supplied></p>
           
-       <!-- Q [structure] 
-          alternative?  as in book 3, could mark up with milestone/anchor type=letter
-          
-          problem! I want to put the letter inside a sub div; but can't use div. 
-          I *think* <floatingText> is appropriate unless there's something else I've overlooked. but a bit... OTT?
-          
-    https://tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSFLT
-       > The floatingText element is a member of the model.divPart class, and can thus appear within any division level element in the same way as a paragraph. For example, texts such as the Decameron or the Arabian Nights might be regarded as containing many floating texts embedded within another single text, the framing narrative, rather than as groups of discrete texts in which the fragments of framing narrative are regarded as front or back matter.
-       <quote> is also possible? but then it seems <head> is not allowed.
-       can also use <quote> inside for the text of the letter.
-       
-       or could just tag it as a letter-ev as a container. which would be a lot simpler.
-       --> 
-          
-       <floatingText xml:id="div-047" type="letter"> 
-         <body rend="post(rule_short_right)">
-         <!-- NOTE [align] the body post 'rule' is a short line -->
-         <head rend="pre(rule) post(rule)"> 
+      
+       <milestone unit="letter" n="b2lev1"/>
+         
+         <fw type="header" rend="pre(rule) post(rule)"> 
          
             <persName ref="ppl:rc2" n="per1226">My <w norm="Cousin">Cosen</w> <w norm="Covill's">Coulvills</w></persName> <surplus reason="superfluous">his</surplus> <w norm="Letter" type="u">letter</w> to <w norm="Me" type="u">me</w> <w norm="upon">uppon</w><lb/>
             the <w norm="Sending" type="u">sending</w> for <w norm="Advice" type="u">advice</w> <w norm="upon">uppon</w> <w norm="My" type="u">my</w> <w norm="Jointure">Joynture</w> <w norm="Deed">Ded</w><lb/>
             <w norm="and">&amp;</w> <persName ref="ppl:rl2" n="per1227">Mr <w norm="Legard's">Ledgards</w></persName> Paper <w norm="Book">Booke</w><supplied reason="mod">,</supplied> which ought to have<lb/>
             Rectified those <w norm="Faults" type="u">faults</w><pc norm=",">:</pc> <date when-custom="1662-08-22" type="letter"><choice><abbr>Aug.</abbr><expan>August </expan></choice>22<supplied reason="mod">,</supplied> 1662</date><surplus reason="superfluous">.</surplus>
-         </head>
-          
-         <!-- Q [authors]? it's not literary but it is written by someone else. -->
-            
+         </fw>
+                      
          <p xml:id="p-0754"><w norm="Dear">Deare</w> <rs ref="ppl:awt1" n="per1228" type="person"><w norm="cousin">Cosine</w></rs><pc norm=",">./</pc></p>
             <p xml:id="p-0755">I <w norm="have">haue</w> seriously perused all the writings you sent me<supplied reason="mod">,</supplied><lb/>
             and I perceive that the intent of the <w norm="articles" type="l">Articles</w> made <w type="break" norm="upon">up<lb break="no"/>
@@ -10160,8 +10144,11 @@ which words I did utterly deny<supplied reason="mod">;</supplied> for I never<lb
             <w norm="reason" type="l">Reason</w> the case with <persName ref="ppl:wt1" n="per1233">my <w norm="cousin">Cosen</w> Thornton</persName> about the <w norm="paper" type="l">Paper</w> <w norm="book" type="l">Book</w><anchor n="348" corresp="#p243n01" resp="ednote"/><lb/>
             and your doubts<supplied reason="mod">,</supplied> <w norm="and">&amp;</w> hope to give <w norm="satisfaction">sattisfaction</w> to you both.<!-- NOTE [decoration] "you both" was text underline, but i think is a short rule marking the end of the quoted letter. added to @rend. -->
          </p>
-         </body>
-       </floatingText> 
+        <anchor n="b2lev1" type="letter"/>
+        
+          <!-- NOTE [marker] there is a short horizontal line, right aligned, after the letter -->
+         
+        
           
           
         <p xml:id="p-0758" rend="first-line-indent">
