@@ -861,6 +861,25 @@ nav.pagination {
 }
 
 #search {
+ 
+  // GN: tab styling.
+  .tabs {
+    ul {
+      margin-left: 0;
+    }
+
+    a {
+      border: 1px solid $secondary-dark;
+      color: $secondary-dark;
+      min-width: 8em;
+    }
+    
+    .is-active a {
+      background-color: $primary;
+      color: white;
+    }
+  }
+
   .type-icon {
     width: 0.8em;
     margin-right: 0.4em;
