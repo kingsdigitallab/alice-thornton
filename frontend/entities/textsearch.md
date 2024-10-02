@@ -13,6 +13,9 @@ eleventyNavigation:
 {% endraw %}
     {% include "search_tabs.liquid" %}
 {% raw %}
+    <p>
+        Start typing to find relevant passages within the modernised edition.
+    </p>
     <div id="text-search">
     </div>
 </div>
@@ -24,7 +27,8 @@ eleventyNavigation:
             pageSize: 15,
             showImages: false,
             autofocus: true,
-            sort: { "book-page": "asc" }
+            sort: { "book-page": "asc" },
+            openFilters: ['Book']
         });
         const params = new URLSearchParams(window.location.search);
         const userQuery = params.get('q');
