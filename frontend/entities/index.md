@@ -1,8 +1,5 @@
 ---
 title: Search
-eleventyNavigation:
-  key: Search
-  order: 4
 searchTab: index
 ---
 

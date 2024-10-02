@@ -1,6 +1,9 @@
 ---
 title: Search
 searchTab: text
+eleventyNavigation:
+  key: Search
+  order: 4
 ---
 
 {% raw %}
