@@ -18,12 +18,12 @@ searchTab: index
       <p><a @click="clearSelection()" class="button is-secondary is-small">Show all results</a></p>
       <nav class="panel is-info" v-if="!selection.hi">
         <p class="panel-heading">
-          Text search
+          By name
         </p>
         <div class="panel-block">
           <div class="field">
             <div class="control has-icons-left">
-              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder="Find people, places or events" @search="search()" @keyup="search()">
+              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder="Person, place or event" @search="search()" @keyup="search()">
               <span class="icon is-left">
                 <i class="fas fa-search" aria-hidden="true"></i>
               </span>
