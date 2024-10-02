@@ -15,7 +15,7 @@ searchTab: text
 </div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ 
+        let pageFind = new PagefindUI({ 
             element: "#text-search", 
             showSubResults: false,
             pageSize: 15,
@@ -23,6 +23,11 @@ searchTab: text
             autofocus: true,
             sort: { "book-page": "asc" }
         });
+        const params = new URLSearchParams(window.location.search);
+        const userQuery = params.get('q');
+        if (userQuery) {
+            pageFind.triggerSearch(userQuery)
+        }
     });
 </script>
 {% endraw %}
