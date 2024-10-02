@@ -3,11 +3,15 @@ title: Search
 eleventyNavigation:
   key: Search
   order: 4
+searchTab: index
 ---
+
+<div id="search">
+
+  {% include "search_tabs.liquid" %}
 
 {% raw %}
 
-<div id="search">
   <div class="columns">
     <form @submit.prevent="onSubmitInputs" class="search-inputs column is-3">
       <h2 class="undecorated">Filters</h2>
@@ -19,7 +23,7 @@ eleventyNavigation:
         <div class="panel-block">
           <div class="field">
             <div class="control has-icons-left">
-              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder="Find people or places" @search="search()" @keyup="search()">
+              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder="Find people, places or events" @search="search()" @keyup="search()">
               <span class="icon is-left">
                 <i class="fas fa-search" aria-hidden="true"></i>
               </span>

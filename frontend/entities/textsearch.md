@@ -1,15 +1,22 @@
 ---
-title: Text Search
+title: Search
+searchTab: text
 ---
 
 {% raw %}
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js"></script>
-<div id="search"></div>
+<div id="search">
+{% endraw %}
+    {% include "search_tabs.liquid" %}
+{% raw %}
+    <div id="text-search">
+    </div>
+</div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
         new PagefindUI({ 
-            element: "#search", 
+            element: "#text-search", 
             showSubResults: false,
             pageSize: 15,
             showImages: false,
