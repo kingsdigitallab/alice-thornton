@@ -12,7 +12,7 @@ searchTab: index
   <div class="columns">
     <form @submit.prevent="onSubmitInputs" class="search-inputs column is-3">
       <h2 class="undecorated">Filters</h2>
-      <p><a @click="clearSelection()" class="button is-secondary is-small">Show all results</a></p>
+      <p><a @click="clearSelection()" class="button is-secondary is-small">Clear filters to show all results</a></p>
       <nav class="panel is-info" v-if="!selection.hi">
         <p class="panel-heading">
           By name
