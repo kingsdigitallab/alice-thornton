@@ -869,14 +869,21 @@ nav.pagination {
     }
 
     a {
-      border: 1px solid $secondary-dark;
       color: $secondary-dark;
       min-width: 8em;
+      color: $primary-light;
+      text-decoration: none;
+      text-transform: uppercase;
+      border:none;
+      &:hover{
+        font-weight: bold;
+      }
     }
     
     .is-active a {
-      background-color: $primary;
-      color: white;
+      border-bottom: 5px solid $primary;
+      color: $primary;
+      font-weight: bold;
     }
   }
 
