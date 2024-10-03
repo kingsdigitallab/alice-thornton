@@ -15,7 +15,7 @@ searchTab: index
       <p><a @click="clearSelection()" class="button is-secondary is-small">Clear filters to show all results</a></p>
       <nav class="panel is-info" v-if="!selection.hi">
         <p class="panel-heading">
-          By name
+          Text search
         </p>
         <div class="panel-block">
           <div class="field">
