@@ -26,7 +26,7 @@ What our audiences think:
 
 'The Remarkable Deliverances of Alice Thornton' is at the Scottish Storytelling Centre on November 7th 2024, 7:30 pm - 8:30 pm. Tickets are [available now](https://scottishstorytellingcentre.online.red61.co.uk/event/913:5775/913:25136/).
 
-![A photograph of a white actress in a white gown sitting on a chair. There is an empty chair next to her with clothes draped on it. She is addressing the audience]({{"/assets/img/posts/Remarkable_Deliverances_Chair.jpg" | url}} "Debbie Cannon as Alice Thornton. Jane Hobson Photography")
+![A photograph of a white actress in a white gown sitting on a chair. There is an empty chair next to her with clothes draped on it. She is addressing the audience]({{"/assets/img/posts/Remarkable_Deliverances_Chair.jpg" | url}} "Debbie Cannon portraying Alice Thornton. Jane Hobson Photography")
 
 
 
