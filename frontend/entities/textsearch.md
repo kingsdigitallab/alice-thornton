@@ -13,7 +13,7 @@ eleventyNavigation:
 {% endraw %}
     {% include "search_tabs.liquid" %}
 {% raw %}
-    <p>
+    <p class="tab-intro">
         Start typing to find relevant passages within the modernised edition.
     </p>
     <div id="text-search">
