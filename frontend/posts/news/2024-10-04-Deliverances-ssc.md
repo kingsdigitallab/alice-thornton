@@ -1,7 +1,7 @@
 ---
 title: "Remarkable Deliverances Returns to Edinburgh in November"
 feature: /assets/img/posts/annedanby.jpg
-status: draft
+status: live
 authors:
   - ethom
 tags:
