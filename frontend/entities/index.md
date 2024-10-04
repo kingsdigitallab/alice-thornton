@@ -5,9 +5,10 @@ searchTab: index
 
 <div id="search">
 
-  {% include "search_tabs.liquid" %}
+{% include "search_tabs.liquid" %}
 
 {% raw %}
+
   <p class="tab-intro">
   All {{ indexSize }} index entries are shown as initial default. Use the filters to narrow down the entries. Click the Expand/Collapse button to show/hide details of all entries; use black arrow to show/hide details of individual entry.
   </p>
