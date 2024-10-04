@@ -1,25 +1,30 @@
 ---
 title: Search
-eleventyNavigation:
-  key: Search
-  order: 4
+searchTab: index
 ---
+
+<div id="search">
+
+{% include "search_tabs.liquid" %}
 
 {% raw %}
 
-<div id="search">
+  <p class="tab-intro">
+  All {{ indexSize }} index entries are shown as initial default. Use the filters to narrow down the entries. Click the Expand/Collapse button to show/hide details of all entries; use black arrow to show/hide details of individual entry.
+  </p>
+
   <div class="columns">
     <form @submit.prevent="onSubmitInputs" class="search-inputs column is-3">
       <h2 class="undecorated">Filters</h2>
-      <p><a @click="clearSelection()" class="button is-secondary is-small">Show all results</a></p>
+      <p><a @click="clearSelection()" class="button is-secondary is-small">Clear filters to show all entries</a></p>
       <nav class="panel is-info" v-if="!selection.hi">
         <p class="panel-heading">
-          Text search
+          Keyword search
         </p>
         <div class="panel-block">
           <div class="field">
             <div class="control has-icons-left">
-              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder="Find people or places" @search="search()" @keyup="search()">
+              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder="Person, place or event" @search="search()" @keyup="search()">
               <span class="icon is-left">
                 <i class="fas fa-search" aria-hidden="true"></i>
               </span>
@@ -53,7 +58,7 @@ eleventyNavigation:
       </nav>
     </form>
     <div :class="{'search-results': true, 'column': true, 'updating': this.updating, 'updated': !this.updating }">
-      <h2 class="undecorated">Results ({{ results.pagination.total }})</h2>
+      <h2 class="undecorated">Entries ({{ results.pagination.total }})</h2>
       <nav class="pagination" aria-label="pagination">
         <ul class="pagination-list">
           <li>

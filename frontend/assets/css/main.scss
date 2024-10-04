@@ -861,6 +861,31 @@ nav.pagination {
 }
 
 #search {
+  // GN: tab styling.
+  .tabs {
+    ul {
+      margin-left: 0;
+    }
+
+    a {
+      color: $secondary-dark;
+      min-width: 8em;
+      color: $primary-light;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: none;
+      &:hover {
+        font-weight: bold;
+      }
+    }
+
+    .is-active a {
+      border-bottom: 5px solid $primary;
+      color: $primary;
+      font-weight: bold;
+    }
+  }
+
   .type-icon {
     width: 0.8em;
     margin-right: 0.4em;

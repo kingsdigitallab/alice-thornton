@@ -57,6 +57,7 @@ function setUpSearch() {
             total: 1,
           },
         },
+        indexSize: 0,
       };
     },
     mounted() {
@@ -318,6 +319,7 @@ function setUpSearch() {
             this.records = data.data;
             this.processRecords();
             this.configureSearch();
+            this.indexSize = this.records.length;
           });
       },
       configureSearch() {

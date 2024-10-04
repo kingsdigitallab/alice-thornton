@@ -1,0 +1,10 @@
+<p class="search-intro">
+The Text search finds words and phrases in the Books and shows the results as snippets with the word/phrase highlighted. 
+The Index search finds entities such as people, places and events.
+</p>
+<div class="tabs">
+  <ul>
+    <li {% if searchTab == 'text' %}class="is-active"{% endif %}><a href="/entities/textsearch/">Text</a></li>
+    <li {% if searchTab == 'index' %}class="is-active"{% endif %}><a href="/entities/">Index</a></li>
+  </ul>
+</div>

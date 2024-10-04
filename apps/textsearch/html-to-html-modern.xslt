@@ -20,8 +20,10 @@
       <head>
       </head>
       <body data-pagefind-body="" 
-        data-pagefind-meta="url[data-url],title[data-title],version[data-version]" 
-        data-pagefind-filter="book[data-book],version[data-version]"
+        data-pagefind-meta="url[data-url],title[data-title]" 
+        data-pagefind-meta-version="url[data-url],title[data-title],version[data-version]" 
+        data-pagefind-filter="book[data-book]"
+        data-pagefind-filter-version="book[data-book],version[data-version]"
         data-pagefind-sort="book-page[data-book-page]"
         data-title="#title#" 
         data-url="#url#" 
