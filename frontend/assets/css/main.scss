@@ -854,7 +854,12 @@ nav.pagination {
   margin-right: 1em;
 }
 
-// Search page
+// Index page
+
+.highlighted {
+  background: yellow;
+  font-weight: bold;
+}
 
 .control .input {
   border-color: $gray-dark;
@@ -1032,7 +1037,7 @@ nav.pagination {
   }
 }
 
-// fedback
+// feedback
 
 .body-text-viewer:not(.viewer-print) .feedback {
   // GN: lift the feedback button on the new viewer

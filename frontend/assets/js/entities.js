@@ -81,27 +81,27 @@ function setUpSearch() {
           },
           aggregations: {
             books: {
-              title: "By book",
+              title: "Books",
               size: 5,
               sort: "key",
               conjunction: this.selection.filterByAnyOrAllBooks == "all",
               chosen_filters_on_top: false,
             },
             type: {
-              title: "By result type",
+              title: "Entry types",
               size: 10,
               sort: "key",
               conjunction: false,
               chosen_filters_on_top: false,
             },
             cat: {
-              title: "By event type",
+              title: "Event types",
               size: 100,
               conjunction: false,
               forType: "event",
             },
             region: {
-              title: "By region",
+              title: "Regions",
               size: 100,
               conjunction: false,
               forType: "place",
@@ -126,6 +126,11 @@ function setUpSearch() {
       selectedTypes() {
         // return an array of selected result types. E.g. ['person']
         return (this.facets?.type?.buckets || [])
+          .filter((b) => b.selected)
+          .map((b) => b.key);
+      },
+      selectedBookIds() {
+        return (this.facets?.books?.buckets || [])
           .filter((b) => b.selected)
           .map((b) => b.key);
       },
