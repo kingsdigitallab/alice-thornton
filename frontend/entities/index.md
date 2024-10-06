@@ -115,7 +115,7 @@ searchTab: index
             <ul class="result-books">
               <li v-for="(pages, bookId) in item.pages" class="result-book">
                 <template v-if="pages.length">
-                  {{ getLabelFromOptionKey(bookId) }}: 
+                  <span :class="{highlighted: selectedBookIds.includes(bookId)}">{{ getLabelFromOptionKey(bookId) }}</span>: 
                   p<template v-if="!isSinglePage(pages)">p</template>.
                   <template v-for="(page, index) in pages">
                     <template v-for="(pagePart, partIndex) in getPageParts(page)">
