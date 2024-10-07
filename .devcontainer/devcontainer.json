@@ -1,0 +1,20 @@
+{
+  "name": "alice-thornton-node",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm run rebuild",
+  "postStartCommand": "npm run serve",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "Catppuccin.catppuccin-vsc",
+        "DavidAnson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "ecmel.vscode-html-css",
+        "esbenp.prettier-vscode",
+        "eseom.nunjucks-template",
+        "sissel.shopify-liquid"
+      ]
+    }
+  }
+}
