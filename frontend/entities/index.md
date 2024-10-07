@@ -10,7 +10,7 @@ searchTab: index
 {% raw %}
 
   <p class="tab-intro">
-  All {{ indexSize }} index entries are shown as initial default. Use the filters to narrow down the entries. Click the Expand/Collapse button to show/hide details of all entries; use black arrow to show/hide details of individual entry.
+  All index entries are shown as initial default. Use the filters to narrow down the entries. Click the Expand/Collapse button to show/hide details of all entries; use black arrow to show/hide details of individual entry.
   </p>
 
   <div class="columns">
