@@ -5,6 +5,7 @@ const { execSync } = require("child_process");
 const SaxonJS = require("saxon-js");
 const pathp = require("path");
 const fs = require("fs");
+const METADATA = require("../../frontend/_data/metadata")();
 
 const SITE_ENV = process.env.SITE_ENV || 'lcl'
 const sourceBase = "./clone/dts/documents/";
@@ -23,6 +24,7 @@ const LABEL_FROM_KEY = {
 }
 const TO_BE_INDEXED_PATH = 'to-be-indexed'
 const LIMIT = 0
+const PATTERN_BOOK_PAGE = /\/([^/]+)\/p\.(\d+)\.html/
 
 class TextSearch {
   constructor() {
@@ -57,10 +59,28 @@ class TextSearch {
   }
 
   async transformHTML(path) {
+    if (!this.isPagePublic(path)) return;
     console.log(path);
     for (let version of Object.keys(XSLTPath)) {
-      this.transformHTMLVersion(path, version)
+      await this.transformHTMLVersion(path, version)
     }
+  }
+
+  isPagePublic(path) {
+    // Example:
+    // path = clone/dts/documents/book_one/p.110.html
+    // METADATA.text_viewer.visible_documents.book_one = [1, 96]
+    // => false
+    let ret = true
+    // ['/book_one/p.110.html', 'book_one', '110']
+    let parts = PATTERN_BOOK_PAGE.exec(path)
+    // [1, 96]
+    let pageRange = METADATA.text_viewer.visible_documents[parts[1]]
+    if (typeof pageRange !== "undefined") {
+      let pageNumber = parseInt(parts[2])
+      ret = pageNumber >= pageRange[0] && pageNumber <= pageRange[1]
+    }
+    return ret
   }
 
   async transformHTMLVersion(path, version='modern') {
