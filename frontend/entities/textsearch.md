@@ -15,7 +15,7 @@ eleventyNavigation:
     {% include "search_tabs.liquid" %}
 {% raw %}
     <p class="tab-intro">
-        Start typing to find relevant passages within the modernised edition.
+        Start typing to find relevant passages within the modernised edition. For exact matches put the word/phrase in double quotation marks. Results can be filtered by Book.
     </p>
     <div id="text-search">
     </div>
