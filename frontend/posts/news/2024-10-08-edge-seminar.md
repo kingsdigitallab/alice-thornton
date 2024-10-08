@@ -1,7 +1,7 @@
 ---
 title: Paper on Thornton at University of Aberdeen's CEMS Research Seminar
 feature: /assets/img/posts/the_sick_girl.jpg
-status: draft
+status: live
 authors:
   - ethom
 tags:
