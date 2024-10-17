@@ -1434,10 +1434,10 @@ point to <category> elements or to feature structure components.
                <!-- NOTE [margin] note (different ink/writter in later? looks blotchy) -->
                 <!-- NOTE Also, there's a double line above 'Acct' -->
         <note xml:id="mnote-0003" resp="#awt1" place="left margin" rend="pre(rule_double)">
-            <emph rend="italic"><choice><abbr>Acc<am rend="superscript">.t</am></abbr><expan>Account</expan></choice> of<lb/>
+            <hi rend="italic"><choice><abbr>Acc<am rend="superscript">.t</am></abbr><expan>Account</expan></choice> of<lb/>
              <rs ref="ppl:cw1" type="person">the Lord<lb/>
              <w norm="Deputy's">Deputy</w></rs><lb/>
-             Death</emph>
+             Death</hi>
         </note> 
             <milestone spanTo="#ev18-end" xml:id="ev18-start" n="ev18" unit="event" type="illness"/><!-- NOTE [event] cw fell ill. -->
              It pleased <add place="above">God</add> to <w norm="visit">vissite</w> <rs ref="ppl:cw1" n="per88" type="person">my <w norm="dear">deare</w> father</rs><surplus reason="superfluous">,</surplus> with a<lb/>
@@ -13784,9 +13784,10 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
         EXCEPT I think the word "At" between "placed" and "in" should actually prefix "Kirklington 1629". 
           review May 2024. why note tag?
           change to add, but then problems with positioning; can't go before <head>; but it can if you wrap add in fw.  :-)
+          add italic to fw and see what happens. otherwise it'll need a hi/seg as well.
           -->
-        <fw>
-          <add xml:id="inote-001" place="inline" resp="#awt1" rend="italic">
+        <fw rend="italic">
+          <add xml:id="inote-001" place="inline" resp="#awt1">
           <w norm="This" type="u">this</w> must be placed <w norm="in" type="l">In</w> the first <w norm="place">Place</w><supplied reason="mod">,</supplied> <w norm="page" type="l">Page</w> <w norm="eight">8<hi rend="superscript">th</hi></w><supplied reason="mod">,</supplied> before the<lb/>
          <surplus reason="repetition">The</surplus> <w norm="measles">mesels</w> in <date when-custom="1629">1629</date>     
         </add> 
