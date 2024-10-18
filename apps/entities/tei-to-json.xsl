@@ -116,6 +116,7 @@ Example:
             "search": "<xsl:value-of select='$category'/>&#160;<xsl:value-of select='$desc'/>",
             "title": "<xsl:value-of select='$title' />",
             "cat": "<xsl:value-of select='$category'/>",
+            "date": "<xsl:value-of select='@when-custom'/>",
             "pages": {<xsl:call-template name='insertBooksPagesForEvent'><xsl:with-param name="entity" select="."/></xsl:call-template>}
         }
         <xsl:if test="position()!=last()">,</xsl:if>
