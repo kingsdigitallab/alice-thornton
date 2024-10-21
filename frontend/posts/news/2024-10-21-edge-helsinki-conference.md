@@ -1,7 +1,7 @@
 ---
 title: Paper on Thornton at 'Writing the Self in Pain' conference, Helsinki
 feature: /assets/img/posts/old-woman-sleeping.jpg
-status: draft
+status: live
 authors:
   - jedge
 tags:
