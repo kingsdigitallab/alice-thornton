@@ -6,7 +6,7 @@ authors:
   - ethom
 tags:
   - events
-  - Yorkshire
+  - yorkshire
 
 ---
 Project Principal Investigator Cordelia Beattie will attend the first History of Yorkshire Conference, run by Yorkshire Archaeological and Historical Society, to give a talk entitled 'Yorkshire Gentlewoman Alice Thornton (1626-1707) and her Rediscovered Manuscripts'.
