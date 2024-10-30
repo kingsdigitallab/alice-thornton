@@ -12,7 +12,7 @@ const sourceBase = "./clone/dts/documents/";
 const target = "../../frontend/assets/js/entities.json";
 const XSLTPath = {
   'modern': "html-to-html-modern.xslt",
-  // 'semidip': "html-to-html-semidip.xslt"
+  'semidip': "html-to-html-semidip.xslt"
 };
 const LABEL_FROM_KEY = {
   'book_of_remembrances': 'Book of Remembrances',

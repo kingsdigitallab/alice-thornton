@@ -15,7 +15,9 @@ eleventyNavigation:
     {% include "search_tabs.liquid" %}
 {% raw %}
     <p class="tab-intro">
-        Start typing to find relevant passages within the modernised edition. For exact matches put the word/phrase in double quotation marks. Results can be filtered by Book.
+        Start typing to find relevant passages within the modernised edition. 
+        For exact matches put the word/phrase in double quotation marks. 
+        Results can be filtered by Book.
     </p>
     <div id="text-search">
     </div>
@@ -29,10 +31,11 @@ eleventyNavigation:
             showImages: false,
             autofocus: true,
             sort: { "book-page": "asc" },
-            openFilters: ['Book']
+            openFilters: ['Book', "Version"]
         });
         const params = new URLSearchParams(window.location.search);
         const userQuery = params.get('q');
+        pageFind.triggerFilters({ "version": [ "Modernised" ] });
         if (userQuery) {
             pageFind.triggerSearch(userQuery)
         }
