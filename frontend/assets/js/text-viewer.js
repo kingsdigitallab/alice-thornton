@@ -740,7 +740,7 @@ function setUpTextViewer() {
 
         if (this.selection.highlightedText) {
           searchParams += `&hi=${this.selection.highlightedText}`;
-          console.log(searchParams);
+          // console.log(searchParams);
         }
 
         let newRelativePathQuery =

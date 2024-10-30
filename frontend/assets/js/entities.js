@@ -310,6 +310,7 @@ function setUpSearch() {
         this.results = this.itemsjs.search(searchParameters);
 
         window.Vue.nextTick(() => {
+          this.setAddressBarFromSelection();
           this.updating = false;
         });
 
@@ -343,28 +344,52 @@ function setUpSearch() {
         }
       },
       setAddressBarFromSelection() {
-        // ?p1.so=&p1.co=&p2.so=...
-        // let searchParams = new URLSearchParams(window.location.search)
-        let searchParams = "";
-        let newRelativePathQuery =
-          window.location.pathname + "?" + searchParams;
-        history.pushState(null, "", newRelativePathQuery);
+        let params = {
+          q: this.selection.query,
+          hi: this.selection.hi,
+        };
+        for (const k of Object.keys(params)) {
+          if (!params[k]) {
+            delete params[k];
+          }
+        }
+        let newPath = "?" + new URLSearchParams(params).toString();
+        history.replaceState(null, "", newPath);
+        this.setPageTitle();
       },
       async setSelectionFromAddressBar() {
         let searchParams = new URLSearchParams(window.location.search);
-        // let q = searchParams.get("q");
-        // if (q) {
-        //   q = q.replace(/^(ppl|place):/, "");
-        //   this.selection.query = q;
-        // }
-        //
-        let hi = searchParams.get("hi");
-        if (hi) {
+
+        let paramToField = {
+          q: "query",
+          hi: "hi",
+        };
+
+        for (let [param, field] of Object.entries(paramToField)) {
+          let val = searchParams.get(param);
+          if (val) {
+            this.selection[field] = val;
+          }
+        }
+
+        if (this.selection.hi) {
           // hi = hi.replace(/^(ppl|place):/, "");
-          this.selection.hi = hi;
           this.selection.view = "expanded";
         }
-        // console.log(searchParams);
+      },
+      setPageTitle() {
+        let title = "Index";
+        let query = this.selection.query;
+        if (query) {
+          title += ` "${query}"`;
+        }
+        if (this.selection.hi) {
+          let item = this.items[0];
+          if (item) {
+            title = ` ${item.title} (Index)`;
+          }
+        }
+        document.title = title + " | " + window.metadata.siteTitle;
       },
       getContentClasses(panel) {
         return `view-${panel.selections.view}`;

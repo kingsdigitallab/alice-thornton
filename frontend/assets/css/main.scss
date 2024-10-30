@@ -946,6 +946,14 @@ nav.pagination {
     .result-head {
       font-weight: bold;
       cursor: pointer;
+      // cursor: ns-resize;
+      a {
+        cursor: pointer;
+      }
+
+      &:hover::marker {
+        color: $secondary;
+      }
     }
     .result-books {
       margin-left: 3em;
