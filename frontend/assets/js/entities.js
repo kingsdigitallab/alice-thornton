@@ -206,6 +206,17 @@ function setUpSearch() {
         };
         return typesClass[type];
       },
+      getGroupsFromItem(item) {
+        let ret = [];
+        if (item?.group) {
+          ret = [this.eventGroups[item.group]];
+        }
+        return ret;
+      },
+      // onClickGroup(group) {
+      //   this.clearSelection(true)
+      //   this.selection.hi = group.id
+      // },
       isLocusVisible(bookId, page) {
         return window.isLocusVisible(bookId, page);
       },
@@ -257,7 +268,8 @@ function setUpSearch() {
       onSubmitInputs() {
         this.search();
       },
-      clearSelection() {
+      clearSelection(dontSearch = false) {
+        this.selection.group = null;
         this.selection.hi = "";
         this.selection.query = "";
         this.selection.type = "";
@@ -269,7 +281,9 @@ function setUpSearch() {
           }
         }
 
-        this.search();
+        if (!dontSearch) {
+          this.search();
+        }
       },
       search(keepPage = false) {
         this.updating = true;
@@ -301,7 +315,7 @@ function setUpSearch() {
         let entityId = this.selection.hi;
         if (entityId) {
           searchParameters.filter = (e) => {
-            return e.id == entityId;
+            return e.id == entityId || e?.group == entityId;
           };
         } else {
           searchParameters.query = this.selection.query;
@@ -342,6 +356,12 @@ function setUpSearch() {
         if (window.metadata.hideEventsFromSearchPage) {
           this.records = this.records.filter((r) => r.type != "event");
         }
+        // move out all the event_group
+        this.eventGroups = {};
+        this.records
+          .filter((r) => r.type == "event_group")
+          .forEach((e) => (this.eventGroups[e.id] = e));
+        this.records = this.records.filter((r) => r.type != "event_group");
       },
       setAddressBarFromSelection() {
         let params = {
