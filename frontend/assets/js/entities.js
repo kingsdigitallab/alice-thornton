@@ -79,6 +79,10 @@ function setUpSearch() {
               field: "sortkey",
               order: "asc",
             },
+            year_asc: {
+              field: "year",
+              order: "asc",
+            },
           },
           aggregations: {
             books: {
@@ -313,7 +317,7 @@ function setUpSearch() {
         let searchParameters = {
           per_page: this.selection.perPage,
           page: this.selection.page,
-          sort: "name_asc",
+          sort: this.selectedGroups.length ? "year_asc" : "name_asc",
           filters: filters,
         };
 
@@ -365,8 +369,20 @@ function setUpSearch() {
         this.eventGroups = {};
         this.records
           .filter((r) => r.type == "event_group")
-          .forEach((e) => (this.eventGroups[e.id] = e));
+          .forEach((e) => {
+            this.eventGroups[e.id] = e;
+          });
         this.records = this.records.filter((r) => r.type != "event_group");
+        // add sortable date to events
+        this.records
+          .filter((r) => r.type == "event")
+          .forEach((e) => {
+            // let years = e.date.match(/\b\d{4}(-\d\d)?(-\d\d)?\b/)
+            let year = e.date.replace(/^\D+/, "");
+            if (year) {
+              e.year = year;
+            }
+          });
       },
       setAddressBarFromSelection() {
         let params = {
