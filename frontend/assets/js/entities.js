@@ -58,6 +58,7 @@ function setUpSearch() {
           },
         },
         indexSize: 0,
+        eventGroups: {},
       };
     },
     mounted() {
@@ -133,6 +134,10 @@ function setUpSearch() {
         return (this.facets?.books?.buckets || [])
           .filter((b) => b.selected)
           .map((b) => b.key);
+      },
+      selectedGroups() {
+        let ret = this.eventGroups[this.selection.hi];
+        return ret ? [ret] : [];
       },
       filteredFacets() {
         // only returns facets relevant to the selected result type (itself a facet)
@@ -404,7 +409,8 @@ function setUpSearch() {
           title += ` "${query}"`;
         }
         if (this.selection.hi) {
-          let item = this.items[0];
+          let groups = this.selectedGroups;
+          let item = groups.length ? groups[0] : this.items[0];
           if (item) {
             title = ` ${item.title} (Index)`;
           }
