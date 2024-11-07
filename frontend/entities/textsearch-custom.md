@@ -6,7 +6,8 @@ searchTab: text
 {% include "search_tabs.liquid" %}
 
 {% raw %}
-<div id="textsearch">
+
+<div id="search">
   <p class="tab-intro">
       Start typing to find relevant passages within the modernised edition. For exact matches put the word/phrase in double quotation marks. Results can be filtered by Book.
   </p>

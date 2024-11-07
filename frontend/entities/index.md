@@ -109,7 +109,7 @@ searchTab: index
               <span class="icon"><i :class="`type-icon fas ${getClassFromType(item.type)}`" v-if="getClassFromType(item.type)" aria-hidden="true"></i></span>
               <span class="is-hidden">{{ item['id'] }}</span>
               {{ item.title }}
-              <a :href="`?hi=${item['id']}`" title="permalink to this entry"><i class="fas fa-link"></i></a>
+              <a :href="`?hi=${item['id']}`" class="side-link" title="permalink to this entry"><i class="fas fa-link"></i></a>
             </summary>
             <div v-if="selectedGroups.length == 0" v-for="group in getGroupsFromItem(item)" class="result-description">
               <a :href="`?hi=${group.id}`">Group: {{ group.title }}</a>

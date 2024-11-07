@@ -136,7 +136,7 @@ function setUpSearch() {
       },
     },
   });
-  app.mount("#textsearch");
+  app.mount("#search");
 }
 
 setUpSearch();
