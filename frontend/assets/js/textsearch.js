@@ -73,7 +73,17 @@ function setUpSearch() {
     },
     watch: {},
     methods: {
-      async search() {
+      initSearch() {
+        this.pagefind = pagefind;
+        this.pagefind.init();
+      },
+      async search(keepPage = false) {
+        this.updating = true;
+
+        if (!keepPage) {
+          this.selection.page = 1;
+        }
+
         // todo: don't call again if same as last time
         this.response = await this.pagefind.search(this.selection.query);
         // load data for items on the current pagination page
@@ -84,10 +94,25 @@ function setUpSearch() {
             .slice(start, start + this.selection.perPage)
             .map((r) => r.data())
         );
+
+        window.Vue.nextTick(() => {
+          // this.setAddressBarFromSelection();
+          this.updating = false;
+        });
       },
-      initSearch() {
-        this.pagefind = pagefind;
-        this.pagefind.init();
+      onClickNextPage() {
+        this.selection.page++;
+        if (this.selection.page > this.lastPageNumber) {
+          this.selection.page = this.lastPageNumber;
+        }
+        this.search(true);
+      },
+      onClickPrevPage() {
+        this.selection.page--;
+        if (this.selection.page < 1) {
+          this.selection.page = 1;
+        }
+        this.search(true);
       },
     },
   });

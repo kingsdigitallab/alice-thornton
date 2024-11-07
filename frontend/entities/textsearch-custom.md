@@ -56,7 +56,7 @@ searchTab: text
         <ul class="undecorated-list">
           <li v-for="item in items">
             <div class="result-head">
-              {{ item.meta.title }}
+              <a :href="item.meta.url">{{ item.meta.title }}</a>
             </div>
             <div v-html="item.excerpt">
             </div>
