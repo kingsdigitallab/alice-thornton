@@ -85,7 +85,8 @@ function setUpSearch() {
         }
 
         // todo: don't call again if same as last time
-        this.response = await this.pagefind.search(this.selection.query);
+        let query = this.selection.query.trim() || null;
+        this.response = await this.pagefind.search(query);
         // load data for items on the current pagination page
         let start = this.selection.perPage * (this.selection.page - 1);
         //
@@ -100,19 +101,38 @@ function setUpSearch() {
           this.updating = false;
         });
       },
-      onClickNextPage() {
+      async onClickNextPage() {
         this.selection.page++;
         if (this.selection.page > this.lastPageNumber) {
           this.selection.page = this.lastPageNumber;
         }
-        this.search(true);
+        await this.search(true);
       },
-      onClickPrevPage() {
+      async onClickPrevPage() {
         this.selection.page--;
         if (this.selection.page < 1) {
           this.selection.page = 1;
         }
-        this.search(true);
+        await this.search(true);
+      },
+      async onSubmitInputs() {
+        await this.search();
+      },
+      async clearSelection(dontSearch = false) {
+        this.selection.hi = "";
+        this.selection.query = "";
+        this.selection.type = "";
+
+        // for (let facetKey of Object.keys(this.filteredFacets)) {
+        //   let facet = this.filteredFacets[facetKey];
+        //   for (let option of facet.buckets) {
+        //     option.selected = false;
+        //   }
+        // }
+
+        if (!dontSearch) {
+          await this.search();
+        }
       },
     },
   });
