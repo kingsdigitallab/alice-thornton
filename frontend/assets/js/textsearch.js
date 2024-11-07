@@ -26,7 +26,7 @@ function setUpSearch() {
           query: "alice",
           hi: "", // the entity id passed by the viewer
           type: "", // ??? unused?
-          perPage: 10,
+          perPage: 5,
           page: 1,
           filterByAnyOrAllBooks: "any",
         },
@@ -42,17 +42,13 @@ function setUpSearch() {
         },
         updating: false,
         response: {},
-        // results: {
-        //   data: {
-        //     items: [],
-        //     aggregations: {},
-        //   },
-        //   pagination: {
-        //     page: 1,
-        //     per_page: 10,
-        //     total: 1,
-        //   },
-        // },
+        results: {
+          data: {
+            items: [],
+            aggregations: {},
+          },
+        },
+        items: [],
       };
     },
     async mounted() {
@@ -62,14 +58,32 @@ function setUpSearch() {
       await this.search();
     },
     computed: {
-      items() {
+      // items() {
+      //   // only returns the items on the current page of the pagination
+      //   return this?.response?.results ? this.response.results.slice(start, start + this.selection.perPage) : [];
+      // },
+      allItems() {
         return this?.response?.results || [];
+      },
+      lastPageNumber() {
+        return (
+          Math.trunc((this.allItems.length - 1) / this.selection.perPage) + 1
+        );
       },
     },
     watch: {},
     methods: {
       async search() {
+        // todo: don't call again if same as last time
         this.response = await this.pagefind.search(this.selection.query);
+        // load data for items on the current pagination page
+        let start = this.selection.perPage * (this.selection.page - 1);
+        //
+        this.items = await Promise.all(
+          this.allItems
+            .slice(start, start + this.selection.perPage)
+            .map((r) => r.data())
+        );
       },
       initSearch() {
         this.pagefind = pagefind;
