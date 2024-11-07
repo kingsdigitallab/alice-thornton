@@ -14,7 +14,7 @@
     "rebuild": "npm run rebuild:full",
     "rebuild:full": "npm run clean && npm run assets:download && npm run build",
     "rebuild:full.tweets": "npm run assets:download && npm run build && npm run tweets",
-    "serve": "npx @11ty/eleventy --serve",
+    "serve": "npx @11ty/eleventy --serve --incremental",
     "serve:debug": "DEBUG=Eleventy* npm run serve",
     "serve:debug:kdl": "DEBUG=Eleventy:KDL npm run serve",
     "tweets": "node _includes/js/tweets.js"

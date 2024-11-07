@@ -23,6 +23,10 @@ eleventyNavigation:
     </div>
 </div>
 <script>
+    function processResult() {
+        // result.meta.image = someCustomFunction(result.meta.image);
+        return result;
+    }
     window.addEventListener('DOMContentLoaded', (event) => {
         let pageFind = new PagefindUI({ 
             element: "#text-search", 
@@ -32,12 +36,33 @@ eleventyNavigation:
             autofocus: true,
             sort: { "book-page": "asc" },
             openFilters: ['Book', "Version"]
+            // processResult: processResult
         });
         const params = new URLSearchParams(window.location.search);
         const userQuery = params.get('q');
+        window.pf = pageFind
         pageFind.triggerFilters({ "version": [ "Modernised" ] });
         if (userQuery) {
-            pageFind.triggerSearch(userQuery)
+            let res = pageFind.triggerSearch(userQuery)
+            console.log(res)
+        }
+        //
+        if (0) {
+            window.pageFindCustomiser = setInterval(() => {
+                console.log("Hello World!");
+                let filterValues = document.querySelectorAll('.pagefind-ui__filter-value')
+                if (!filterValues.length) return;
+                clearInterval(window.pageFindCustomiser);
+                filterValues.forEach(e => {
+                    console.log('test')
+                    e.addEventListener('click', ev => {
+                        // 
+                        //console.log(e.parentElement.)
+                        console.log(e.parentElement)
+                        pageFind.triggerFilters({ });
+                    })
+                })
+            }, 100);
         }
     });
 </script>
