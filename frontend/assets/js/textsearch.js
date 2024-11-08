@@ -29,6 +29,17 @@ function setUpSearch() {
           perPage: 5,
           page: 1,
           filterByAnyOrAllBooks: "any",
+          // Holds the list of selected options under each facet.
+          // Facets not defined below won't be shown
+          // The format is compatible with PageFind filter argument.
+          facets: {
+            book: {
+              any: [],
+            },
+            version: {
+              any: ["Modernised"],
+            },
+          },
         },
         _facets: {
           type: {
@@ -42,26 +53,20 @@ function setUpSearch() {
         },
         updating: false,
         response: {},
-        results: {
-          data: {
-            items: [],
-            aggregations: {},
-          },
-        },
+        // the items on the current pagination page
         items: [],
+        // the facets, options and counts returned by each search
+        // this may contain more facets than selection.facets
+        facets: {},
       };
     },
     async mounted() {
-      this.initSearch();
+      await this.initSearch();
       // this.setSelectionFromAddressBar();
       // this.fetchRecords();
       await this.search();
     },
     computed: {
-      // items() {
-      //   // only returns the items on the current page of the pagination
-      //   return this?.response?.results ? this.response.results.slice(start, start + this.selection.perPage) : [];
-      // },
       allItems() {
         return this?.response?.results || [];
       },
@@ -70,12 +75,24 @@ function setUpSearch() {
           Math.trunc((this.allItems.length - 1) / this.selection.perPage) + 1
         );
       },
+      visibleFacets() {
+        // returns the visible facets from last search
+        return Object.fromEntries(
+          Object.entries(this.facets).filter(
+            // eslint-disable-next-line no-unused-vars
+            ([key, _]) => key in this.selection.facets
+          )
+        );
+      },
     },
     watch: {},
     methods: {
-      initSearch() {
+      async initSearch() {
         this.pagefind = pagefind;
         this.pagefind.init();
+        // this.facets = await pagefind.filters();
+        // this call is needed for PageFind.search() to return all the filters in each result
+        await pagefind.filters();
       },
       async search(keepPage = false) {
         this.updating = true;
@@ -84,10 +101,12 @@ function setUpSearch() {
           this.selection.page = 1;
         }
 
-        // todo: don't call again if same as last time
+        // null is needed by PageFind to show all results
         let query = this.selection.query.trim() || null;
+        // note that pagefind won't request same query twice in a row
         this.response = await this.pagefind.search(query, {
           sort: { "book-page": "asc" },
+          filters: this.selection.facets,
         });
         // load data for items on the current pagination page
         let start = this.selection.perPage * (this.selection.page - 1);
@@ -97,6 +116,9 @@ function setUpSearch() {
             .slice(start, start + this.selection.perPage)
             .map((r) => r.data())
         );
+
+        // this.facets = await pagefind.filters();
+        this.facets = this.response.filters;
 
         window.Vue.nextTick(() => {
           // this.setAddressBarFromSelection();
@@ -119,6 +141,23 @@ function setUpSearch() {
       },
       async onSubmitInputs() {
         await this.search();
+      },
+      onClickOption(facetKey, optionKey) {
+        let selections = this.getFacetSelections(facetKey);
+        let idx = selections.indexOf(optionKey);
+        if (idx == -1) {
+          selections.push(optionKey);
+        } else {
+          selections.splice(idx, 1);
+        }
+        console.log(JSON.stringify(this.selection.facets));
+        this.search();
+      },
+      isOptionSelected(facetKey, optionKey) {
+        return this.getFacetSelections(facetKey).includes(optionKey);
+      },
+      getFacetSelections(facetKey) {
+        return this.selection.facets[facetKey]?.any || [];
       },
       async clearSelection(dontSearch = false) {
         this.selection.hi = "";
