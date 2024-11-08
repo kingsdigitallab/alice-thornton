@@ -186,7 +186,7 @@ function setUpSearch() {
         return this.selection.facets[facetKey]?.any || [];
       },
       async resetSelection(dontSearch = false) {
-        this.selection.query = "alice";
+        this.selection.query = "";
         this.selection.facets = JSON.parse(JSON.stringify(FACETS_INITIAL));
 
         if (!dontSearch) {
