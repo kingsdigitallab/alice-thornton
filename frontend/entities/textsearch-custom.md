@@ -67,7 +67,10 @@ searchTab: text
       <ul class="undecorated-list">
         <li v-for="item in items">
           <div class="result-head">
-            <a :href="item.meta.url">{{ item.meta.title }}</a>
+            <a :href="item.meta.url">
+              {{ item.meta.title }} 
+              <span class="tag is-light">({{ item.meta.version }})</span>
+            </a>
           </div>
           <div class="result-description" v-html="item.excerpt">
           </div>
