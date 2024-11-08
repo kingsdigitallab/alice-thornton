@@ -86,7 +86,9 @@ function setUpSearch() {
 
         // todo: don't call again if same as last time
         let query = this.selection.query.trim() || null;
-        this.response = await this.pagefind.search(query);
+        this.response = await this.pagefind.search(query, {
+          sort: { "book-page": "asc" },
+        });
         // load data for items on the current pagination page
         let start = this.selection.perPage * (this.selection.page - 1);
         //

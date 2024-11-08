@@ -69,7 +69,7 @@ searchTab: text
           <div class="result-head">
             <a :href="item.meta.url">{{ item.meta.title }}</a>
           </div>
-          <div v-html="item.excerpt">
+          <div class="result-description" v-html="item.excerpt">
           </div>
         </li>
       </ul>
