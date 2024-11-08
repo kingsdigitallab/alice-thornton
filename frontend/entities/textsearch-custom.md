@@ -14,7 +14,7 @@ searchTab: text
   <div class="columns">
     <form @submit.prevent="onSubmitInputs" class="search-inputs column is-3">
       <h2 class="undecorated">Filters</h2>
-      <p><a @click="clearSelection()" class="button is-secondary is-small">Clear filters to show all pages</a></p>
+      <p><a @click="resetSelection()" class="button is-secondary is-small">Reset filters to show all pages</a></p>
       <nav class="panel is-info" v-if="!selection.hi">
         <p class="panel-heading">
           Keyword search
@@ -31,7 +31,7 @@ searchTab: text
         </div>
         <template v-for="(facet, facetKey) in visibleFacets">
           <p class="panel-heading">
-            {{ facetKey }}
+            {{ getFacetTitleFromKey(facetKey) }}
           </p>
           <div class="panel-block">
             <ul class="undecorated-list">
