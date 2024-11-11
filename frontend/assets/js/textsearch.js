@@ -15,9 +15,7 @@ function setUpSearch() {
     data() {
       return {
         selection: {
-          // view: "collapsed",
           query: "",
-          // hi: "", // the entity id passed by the viewer
           // type: "", // ??? unused?
           perPage: 10,
           page: 1,
@@ -38,9 +36,8 @@ function setUpSearch() {
     },
     async mounted() {
       await this.resetSelection(true);
+      this.setSelectionFromAddressBar();
       await this.initSearch();
-      // this.setSelectionFromAddressBar();
-      // this.fetchRecords();
       await this.search();
     },
     computed: {
@@ -96,6 +93,7 @@ function setUpSearch() {
           // this.setAddressBarFromSelection();
           this.updating = false;
         });
+        this.setAddressBarFromSelection();
       },
       async _search(filters = {}) {
         // null is needed by PageFind to show all results
@@ -177,7 +175,7 @@ function setUpSearch() {
         } else {
           selections.splice(idx, 1);
         }
-        console.log(JSON.stringify(this.selection.facets));
+        // console.log(JSON.stringify(this.selection.facets));
         this.search();
       },
       isOptionSelected(facetKey, optionKey) {
@@ -203,6 +201,42 @@ function setUpSearch() {
           }
         }
         return ret;
+      },
+      setAddressBarFromSelection() {
+        let params = {
+          q: this.selection.query,
+        };
+        for (let [facetKey, facet] of Object.entries(this.selection.facets)) {
+          params["f." + facetKey] = (facet?.any || []).join("|");
+        }
+        for (const k of Object.keys(params)) {
+          if (!params[k]) delete params[k];
+        }
+        let newPath = "?" + new URLSearchParams(params).toString();
+        history.replaceState(null, "", newPath);
+        this.setPageTitle();
+      },
+      setSelectionFromAddressBar() {
+        let searchParams = new URLSearchParams(window.location.search);
+        for (const [key, value] of searchParams.entries()) {
+          if (key == "q") {
+            this.selection.query = value;
+          }
+          if (key.startsWith("f.")) {
+            let facet = this.selection.facets[key.substring(2)];
+            if (facet) {
+              this.selection.facets[key.substring(2)].any = value.split("|");
+            }
+          }
+        }
+      },
+      setPageTitle() {
+        let title = "Search";
+        let query = this.selection.query;
+        if (query) {
+          title += ` '${query}'`;
+        }
+        document.title = title + " | " + window.metadata.siteTitle;
       },
     },
   });

@@ -23,7 +23,7 @@ eleventyNavigation:
         <div class="panel-block">
           <div class="field">
             <div class="control has-icons-left">
-              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder="Person, place or event" @search="search()" @keyup="search()">
+              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder='search the edition' @search="search()" @keyup="search()">
               <span class="icon is-left">
                 <i class="fas fa-search" aria-hidden="true"></i>
               </span>
@@ -48,7 +48,7 @@ eleventyNavigation:
         </template>
       </nav>
     </form>
-    <div class="column search-results">
+    <div :class="{'search-results': true, 'column': true, 'updating': this.updating, 'updated': !this.updating }">
       <template v-if="allItems.length">
         <h2 class="undecorated">Results: {{ allItems.length }} {{ pluralise(allItems.length, 'edition page') }}</h2>
         <nav class="pagination" aria-label="pagination">

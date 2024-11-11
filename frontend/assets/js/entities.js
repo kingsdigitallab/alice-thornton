@@ -422,7 +422,7 @@ function setUpSearch() {
         let title = "Index";
         let query = this.selection.query;
         if (query) {
-          title += ` "${query}"`;
+          title += ` '${query}'`;
         }
         if (this.selection.hi) {
           let groups = this.selectedGroups;
