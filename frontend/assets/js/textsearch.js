@@ -82,6 +82,7 @@ function setUpSearch() {
         this.response = await this._search(this.selection.facets);
         // load data for items on the current pagination page
         let start = this.selection.perPage * (this.selection.page - 1);
+
         this.items = await Promise.all(
           this.allItems
             .slice(start, start + this.selection.perPage)
