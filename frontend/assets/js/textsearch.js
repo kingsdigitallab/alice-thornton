@@ -99,7 +99,7 @@ function setUpSearch() {
         // null is needed by PageFind to show all results
         let query = this.selection.query.trim() || null;
         return await await this.pagefind.search(query, {
-          sort: { "book-page": "asc" },
+          sort: { "book-page-version": "asc" },
           filters: filters,
         });
       },

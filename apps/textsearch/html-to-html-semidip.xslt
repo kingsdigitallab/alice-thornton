@@ -24,12 +24,12 @@
         data-pagefind-meta="url[data-url],title[data-title],version[data-version]" 
         data-pagefind-filter-old="book[data-book]"
         data-pagefind-filter="book[data-book],version[data-version]"
-        data-pagefind-sort="book-page[data-book-page]"
+        data-pagefind-sort="book-page-version[data-book-page-version]"
         data-title="#title#" 
         data-url="#url#" 
         data-book="#book#" 
         data-version="#version#"
-        data-book-page="#bookPage#"
+        data-book-page-version="#bookPageVersion#"
         >
         <xsl:call-template name="copy-element" />
       </body>
