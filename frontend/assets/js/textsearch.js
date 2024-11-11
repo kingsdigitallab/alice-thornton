@@ -194,6 +194,16 @@ function setUpSearch() {
           await this.search();
         }
       },
+      pluralise(count, singular, plural = null) {
+        let ret = singular;
+        if (count != 1) {
+          ret = plural;
+          if (ret === null) {
+            ret = singular + "s";
+          }
+        }
+        return ret;
+      },
     },
   });
   app.mount("#search");
