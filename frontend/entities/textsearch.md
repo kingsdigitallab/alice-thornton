@@ -23,14 +23,14 @@ eleventyNavigation:
         <div class="panel-block">
           <div class="field">
             <div class="control has-icons-left">
-              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder='search the edition' @search="search()" @keyup="search()">
+              <input class="input" type="search" v-model="selection.query" autoComplete="off" placeholder='search the edition' @search="search()" @keyup="onKeyUp()">
               <span class="icon is-left">
                 <i class="fas fa-search" aria-hidden="true"></i>
               </span>
             </div>
           </div>
         </div>
-        <template v-for="(facet, facetKey) in visibleFacets">
+        <template v-for="(facet, facetKey) in publicFacets">
           <p class="panel-heading">
             {{ getFacetTitleFromKey(facetKey) }}
           </p>
@@ -49,8 +49,8 @@ eleventyNavigation:
       </nav>
     </form>
     <div :class="{'search-results': true, 'column': true, 'updating': this.updating, 'updated': !this.updating }">
-      <template v-if="allItems.length">
-        <h2 class="undecorated">Results: {{ allItems.length }} {{ pluralise(allItems.length, 'edition page') }}</h2>
+      <template v-if="resultsCount">
+        <h2 class="undecorated">Results: {{ resultsCount }} {{ pluralise(resultsCount, 'edition page') }}</h2>
         <nav class="pagination" aria-label="pagination">
           <ul class="pagination-list">
             <li>
@@ -83,15 +83,26 @@ eleventyNavigation:
           </ul>
         </nav>
         <ul class="undecorated-list">
-          <li v-for="item in items">
-            <div class="result-head">
-              <a :href="item.meta.url">
-                {{ item.meta.title }} 
-                <span class="tag is-light">({{ item.meta.version }})</span>
-              </a>
-            </div>
-            <div class="result-description" v-html="item.excerpt">
-            </div>
+          <li v-for="(item, indexOnCurrentPage) in resultsOnCurrentPage" :class="{'result-item': 1, 'loaded': item?.extra, 'not-loaded': !(item?.extra)}" :data-item-index="indexOnCurrentPage">
+            <template v-if="item.extra">
+              <div class="result-head">
+                <a :href="item.extra.meta.url">
+                  {{ item.extra.meta.title }} 
+                  <span class="tag is-light">({{ item.extra.meta.version }})</span>
+                </a>
+              </div>
+              <div class="result-description" v-html="item.extra.excerpt">
+              </div>
+            </template>
+            <template v-else>
+              <div class="result-head">
+                <a href="#">
+                  Book 1, page 1
+                  <span class="tag is-light">(Modernised)</span>
+                </a>
+              </div>
+              <div class="result-description">1 Bishop Hall's 'Observations' in His Book of Meditations and Vows These things be comely and pleasant to see, and worthy of honour from the beholders: a young saint; an</div>
+            </template>
           </li>
         </ul>
       </template>

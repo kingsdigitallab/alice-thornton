@@ -25,10 +25,12 @@ function setUpSearch() {
           // The format is compatible with PageFind filter argument.
           facets: {},
         },
+        // true if a search is ongoing
         updating: false,
+        // response object from a PageFind.search()
         response: {},
         // the items on the current pagination page
-        items: [],
+        resultsOnCurrentPage: [],
         // the facets, options and counts returned by each search
         // this may contain more facets than selection.facets
         facets: {},
@@ -41,15 +43,20 @@ function setUpSearch() {
       await this.search();
     },
     computed: {
-      allItems() {
+      results() {
         return this?.response?.results || [];
       },
-      lastPageNumber() {
-        return (
-          Math.trunc((this.allItems.length - 1) / this.selection.perPage) + 1
-        );
+      resultsCount() {
+        return this.results.length;
       },
-      visibleFacets() {
+      // resultsOnCurrentPage() {
+      //   let start = this.selection.perPage * (this.selection.page - 1)
+      //   return this.results.slice(start, start + this.selection.perPage)
+      // },
+      lastPageNumber() {
+        return Math.trunc((this.resultsCount - 1) / this.selection.perPage) + 1;
+      },
+      publicFacets() {
         // returns the visible facets from last search
         return Object.fromEntries(
           Object.entries(this.facets).filter(
@@ -68,40 +75,36 @@ function setUpSearch() {
         // this call is needed for PageFind.search() to return all the filters in each result
         await pagefind.filters();
       },
-      async search(keepPage = false) {
+      async search(keepPage = false, debounce = false) {
         this.updating = true;
 
-        if (!keepPage) {
-          this.selection.page = 1;
-        }
-
         // note that pagefind won't request same query twice in a row
-        this.response = await this._search(this.selection.facets);
-        // load data for items on the current pagination page
-        let start = this.selection.perPage * (this.selection.page - 1);
+        this.response = await this._search(this.selection.facets, debounce);
+        if (this.response) {
+          this.setPageIndex(0, keepPage);
 
-        this.items = await Promise.all(
-          this.allItems
-            .slice(start, start + this.selection.perPage)
-            .map((r) => r.data())
-        );
+          await this.updateFacetsCounts();
+          this.sortFacets();
 
-        await this.updateFacetsCounts();
-        this.sortFacets();
-
-        window.Vue.nextTick(() => {
-          // this.setAddressBarFromSelection();
-          this.updating = false;
-        });
-        this.setAddressBarFromSelection();
+          window.Vue.nextTick(() => {
+            this.updating = false;
+          });
+          this.setAddressBarFromSelection();
+        }
       },
-      async _search(filters = {}) {
+      async _search(filters = {}, debounce = false) {
         // null is needed by PageFind to show all results
         let query = this.selection.query.trim() || null;
-        return await await this.pagefind.search(query, {
-          sort: { "book-page-version": "asc" },
-          filters: filters,
-        });
+        // debounced will return null if another debounced has been sent
+        // But... will this work is we do await?
+        return await this.pagefind[debounce ? "debouncedSearch" : "search"](
+          query,
+          {
+            sort: { "book-page-version": "asc" },
+            filters: filters,
+          },
+          200
+        );
       },
       sortFacets() {
         // ensure that Book of Remembrances appears first
@@ -150,22 +153,61 @@ function setUpSearch() {
       getFacetTitleFromKey(facetKey) {
         return facetKey.charAt(0).toUpperCase() + facetKey.slice(1);
       },
-      async onClickNextPage() {
-        this.selection.page++;
-        if (this.selection.page > this.lastPageNumber) {
-          this.selection.page = this.lastPageNumber;
-        }
-        await this.search(true);
-      },
       async onClickPrevPage() {
-        this.selection.page--;
-        if (this.selection.page < 1) {
-          this.selection.page = 1;
-        }
-        await this.search(true);
+        this.setPageIndex(-1, true);
+      },
+      async onClickNextPage() {
+        this.setPageIndex(1, true);
+      },
+      async onKeyUp() {
+        await this.search(false, true);
       },
       async onSubmitInputs() {
         await this.search();
+      },
+      setPageIndex(pageIndex = 1, relative = false) {
+        // keep the index within bounds
+        this.selection.page = relative
+          ? this.selection.page + pageIndex
+          : pageIndex;
+        if (this.selection.page > this.lastPageNumber) {
+          this.selection.page = this.lastPageNumber;
+        }
+        if (this.selection.page < 1) {
+          this.selection.page = 1;
+        }
+        // copy the relevant items from the full search results
+        let start = this.selection.perPage * (this.selection.page - 1);
+        this.resultsOnCurrentPage = [];
+        this.results
+          .slice(start, start + this.selection.perPage)
+          .forEach((result) => {
+            let copy = { ...result };
+            this.resultsOnCurrentPage.push(copy);
+          });
+        // trigger title & snippet loading
+        this.loadVisibleItemsAfterRender();
+      },
+      loadVisibleItemsAfterRender() {
+        window.Vue.nextTick(() => {
+          this.loadVisibleItems();
+        });
+      },
+      loadVisibleItems() {
+        // Load the result items listed screen.
+        // TODO: only what's on screen, not everything on the web page.
+        // So we need to narrow the selection and trigegr this function on page scroll/resize.
+        document
+          .querySelectorAll(".result-item.not-loaded")
+          .forEach((element) => {
+            let indexOnCurrentPage = parseInt(
+              element.getAttribute("data-item-index")
+            );
+            let item = this.resultsOnCurrentPage[indexOnCurrentPage];
+            item.data().then((data) => {
+              item.extra = data;
+            });
+          });
       },
       onClickOption(facetKey, optionKey) {
         let selections = this.getFacetSelections(facetKey);
