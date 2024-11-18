@@ -55,9 +55,11 @@ And speaking of fine weather, if you're on social media, you can now find Alice 
 
 ## Beyond the Weather: More Insights Through the Search Function
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GJzYFF1HgKM?si=h0qeH4l-sMJOt5L5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=lojt25wdczw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The new keyword search will help users find references to a wide range of topics. You might be interested in finding out about Thornton’s descriptions of childbirth, her accounts of travel, or her reflections on the political upheavals of her time. Now anyone can quickly locate specific themes. As additional pages of Thornton’s books are released, this tool will only grow more useful. 
 
-The search function is easy to use, but if you need help, our two-minute video tutorial will show you everything you need to know to start searching. We'd love your feedback on the first hundred pages of all four books are already online.
+The search function is easy to use, but if you need help, our two-minute video tutorial will show you everything you need to know to start searching. To follow the video instructions more easily, we recommend enlarging it to full screen. 
+
+We'd love your feedback on the first hundred pages of all four books are already online.
 
