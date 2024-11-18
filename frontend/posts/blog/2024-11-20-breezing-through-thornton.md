@@ -25,8 +25,6 @@ Recently, on social media, [Rebecca Rideal](https://rebeccarideal.co.uk) comment
 
 It's not always possible to pinpoint exact dates for weather events in Thornton’s books because she wrote about her life when she was older, looking back. We also know that sometimes she misremembered dates. Through cross-referencing with other documents (such as birth records), the Thornton’s Books team has worked out exactly when some events must have happened, but others remain uncertain. Weather is mentioned quite frequently, and a database of historical forecasts, like the one suggested by Rebecca Rideal, could help to date more precisely some of Thornton’s recollections. 
 
-## Finding Weather References 
-
 ![A snowy landscape with trees, figures and a dog on a track, cottages beyond, painted by Jacques D'Arthois, 1613-1668.]( {{ "/assets/img/posts/winter.jpg" | url }} "Winter landscape by Jacques D'arthois, 1613-1668."){.media-centre}
 
 
