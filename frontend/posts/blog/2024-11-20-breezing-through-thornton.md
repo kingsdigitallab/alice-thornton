@@ -30,9 +30,11 @@ It's not always possible to pinpoint exact dates for weather events in Thornton�
 
 ## Finding Weather References 
 
-![Winter landscape with figures and a dog on a track, cottages beyond, by Jacques D'Arthois, 1613-1668.]( {{ "/assets/img/posts/winter.jpg" | url }} "."){.media-right}
+![A snowy landscape with trees, figures and a dog on a track, cottages beyond, painted by Jacques D'Arthois, 1613-1668.]( {{ "/assets/img/posts/winter.jpg" | url }} "Winter landscape by Jacques D'arthois, 1613-1668."){.media-right}
 
 At the moment, one hundred pages of each book is online, but when the complete digital edition goes live, there will be four references to ‘frost’ or ‘frosty’ weather, and five references to ‘snow’ or ‘snowy’ weather. In the picture below, you can see a preview of a page that mentions snow and frost. This is page 178 of Book 1, and here the text also carries an editorial note with more information about the Little Ice Age. 
+
+<p>&nbsp;</p>
 
 ![An editorial note on the Little Ice Age in book 1 of the digital edition.]( {{ "/assets/img/posts/iceage1.jpg" | url }} "An editorial note on the Little Ice Age in Book 1 of the digital edition."){.media-right}
 
@@ -53,9 +55,11 @@ And speaking of fine weather, if you're on social media, you can now find Alice 
 
 ## Beyond the Weather: More Insights Through the Search Function
 
-![How to use the text search.]( {{ "/assets/img/posts/searchvideo.mp4" | url }} "How to use the text search."){.media-right}
+SHOW VIDEO HERE
 
 The new text search will help users find references to a wide range of topics. You might be interested in finding out about Thornton’s descriptions of childbirth, her accounts of travel, or her reflections on the political upheavals of her time. Now anyone can quickly locate specific themes. As additional pages of Thornton’s books are released, this tool will only grow more useful. 
 
-The search function is easy to use, but if you need help, our two-minute video tutorial will show you everything you need to know to start searching. We'd love your feedback on the first hundred pages of all four books are already online.
+The search function is easy to use, but if you need help, our two-minute video tutorial will show you everything you need to know to start searching. To follow the video instructions more easily, we recommend enlarging it to full screen. A subtitled version is available [here](https://www.youtube.com/watch?v=lojt25wdczw). 
+
+We'd love your feedback on the first hundred pages of all four books are already online.
 
