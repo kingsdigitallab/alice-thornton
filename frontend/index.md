@@ -40,7 +40,7 @@ You can now access our [partial release](/books/viewer/?p0.vi=modern), in both s
 
 ## <a id="who"></a>Who Was Alice Thornton?
 
-![A church and leafy churchyard in sunshine]({{ "/assets/img/home/kirklington-church-st.jpg" | url }} "St Michael the Archangel's, Kirklington, where Alice was baptised <br> &copy; Suzanne Trill"){.media-left}
+![A church and leafy churchyard in sunshine]({{ "/assets/img/home/kirklington-church-st.jpg" | url }} "St Michael the Archangel's, Kirklington, where Alice was baptised. &copy; Suzanne Trill"){.media-left}
 
 Most of what we know about Alice Thornton (1626-1707) is drawn from the autobiographical accounts which she left to her eldest daughter in her will. She relates a veritable ‘riches to rags’ story, punctuated by many of what she presents as near-death experiences.
 
