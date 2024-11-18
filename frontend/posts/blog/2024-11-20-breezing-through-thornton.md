@@ -25,22 +25,20 @@ Recently, on social media, [Rebecca Rideal](https://rebeccarideal.co.uk) comment
 
 It's not always possible to pinpoint exact dates for weather events in Thornton’s books because she wrote about her life when she was older, looking back. We also know that sometimes she misremembered dates. Through cross-referencing with other documents (such as birth records), the Thornton’s Books team has worked out exactly when some events must have happened, but others remain uncertain. Weather is mentioned quite frequently, and a database of historical forecasts, like the one suggested by Rebecca Rideal, could help to date more precisely some of Thornton’s recollections. 
 
-<p>&nbsp;</p>
+## Finding Weather References 
+
+![A snowy landscape with trees, figures and a dog on a track, cottages beyond, painted by Jacques D'Arthois, 1613-1668.]( {{ "/assets/img/posts/winter.jpg" | url }} "Winter landscape by Jacques D'arthois, 1613-1668."){.media-centre}
 
 
 ## Finding Weather References 
 
-![A snowy landscape with trees, figures and a dog on a track, cottages beyond, painted by Jacques D'Arthois, 1613-1668.]( {{ "/assets/img/posts/winter.jpg" | url }} "Winter landscape by Jacques D'arthois, 1613-1668."){.media-right}
-
 At the moment, one hundred pages of each book is online, but when the complete digital edition goes live, there will be four references to ‘frost’ or ‘frosty’ weather, and five references to ‘snow’ or ‘snowy’ weather. In the picture below, you can see a preview of a page that mentions snow and frost. This is page 178 of Book 1, and here the text also carries an editorial note with more information about the Little Ice Age. 
 
-<p>&nbsp;</p>
-
-![An editorial note on the Little Ice Age in book 1 of the digital edition.]( {{ "/assets/img/posts/iceage1.jpg" | url }} "An editorial note on the Little Ice Age in Book 1 of the digital edition."){.media-right}
+![An editorial note on the Little Ice Age in book 1 of the digital edition.]( {{ "/assets/img/posts/iceage1.jpg" | url }} "An editorial note on the Little Ice Age in Book 1 of the digital edition."){.media-centre}
 
 The search function shows us how many pages a keyword is used on, and whether it is used more often in one book than another. Looking at each of the pages, you can also find examples of Thornton using references to the weather in different ways, or for different purposes. For example, Thornton wrote the word ‘storm’ 24 times in her books, and ‘stormy’ is used once, but not all these usages relate to the weather. In most cases, storms refer to her emotions or to the troubles she had endured in her life. Thornton says this kind of ‘storm’ was sent by God for her to endure, and Satan was involved too, sending her ‘storms of temptations.’ 
 
-Metaphorical storms aside, Thornton found herself on ships crossing stormy seas several times in her life, and these experiences must have left a mark on her. One such example is recalled [here](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.22&p0.vi=modern), in The *Book of Remembrances* (page 22). This is an event that the Thornton’s Books team has not been able to date exactly, but a place name is mentioned, and we know the year was 1639. If a historical weather database existed, this is the kind of entry we could hope to more accurately chronicle. A ship’s log could be a very helpful source to help date this event. 
+Metaphorical storms aside, Thornton found herself on ships crossing stormy seas several times in her life, and these experiences must have left a mark on her. One such example is recalled in the [*Book of Remembrances* (page 22)](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.22&p0.vi=modern). This is an event that the Thornton’s Books team has not been able to date exactly, but a place name is mentioned, and we know the year was 1639. If a historical weather database existed, this is the kind of entry we could hope to more accurately chronicle. A ship’s log could be a very helpful source to help date this event. 
 
 
 <p>&nbsp;</p>
@@ -59,7 +57,7 @@ SHOW VIDEO HERE
 
 The new text search will help users find references to a wide range of topics. You might be interested in finding out about Thornton’s descriptions of childbirth, her accounts of travel, or her reflections on the political upheavals of her time. Now anyone can quickly locate specific themes. As additional pages of Thornton’s books are released, this tool will only grow more useful. 
 
-The search function is easy to use, but if you need help, our two-minute video tutorial will show you everything you need to know to start searching. To follow the video instructions more easily, we recommend enlarging it to full screen. A subtitled version is available [here](https://www.youtube.com/watch?v=lojt25wdczw). 
+The search function is easy to use, but if you need help, our two-minute video tutorial will show you everything you need to know to start searching. To follow the video instructions more easily, we recommend enlarging it to full screen. A subtitled version is [also available](https://www.youtube.com/watch?v=lojt25wdczw). 
 
-We'd love your feedback on the first hundred pages of all four books are already online.
+We'd love your feedback on the first hundred pages of all four books which are already online.
 
