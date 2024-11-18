@@ -1,5 +1,5 @@
 ---
-title: "Breezing through Alice Thornton's Books with a New Keyword Search Function"
+title: "Breezing through Alice Thornton's Books with a New Keyword Search"
 feature: /assets/img/posts/sails.jpg
 authors:
   - ethom
@@ -30,9 +30,11 @@ It's not always possible to pinpoint exact dates for weather events in Thornton�
 
 ## Finding Weather References 
 
-![Winter landscape with figures and a dog on a track, cottages beyond, by Jacques D'Arthois, 1613-1668.]( {{ "/assets/img/posts/winter.jpg" | url }} "."){.media-right}
+![A snowy landscape with trees, figures and a dog on a track, cottages beyond, painted by Jacques D'Arthois, 1613-1668.]( {{ "/assets/img/posts/winter.jpg" | url }} "Winter landscape by Jacques D'arthois, 1613-1668."){.media-right}
 
 At the moment, one hundred pages of each book is online, but when the complete digital edition goes live, there will be four references to ‘frost’ or ‘frosty’ weather, and five references to ‘snow’ or ‘snowy’ weather. In the picture below, you can see a preview of a page that mentions snow and frost. This is page 178 of Book 1, and here the text also carries an editorial note with more information about the Little Ice Age. 
+
+<p>&nbsp;</p>
 
 ![An editorial note on the Little Ice Age in book 1 of the digital edition.]( {{ "/assets/img/posts/iceage1.jpg" | url }} "An editorial note on the Little Ice Age in Book 1 of the digital edition."){.media-right}
 
@@ -53,7 +55,7 @@ And speaking of fine weather, if you're on social media, you can now find Alice 
 
 ## Beyond the Weather: More Insights Through the Search Function
 
-![How to use the keyword search.]( {{ "/assets/img/posts/searchvideo.mp4" | url }} "How to use the keyword search."){.media-right}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GJzYFF1HgKM?si=h0qeH4l-sMJOt5L5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The new keyword search will help users find references to a wide range of topics. You might be interested in finding out about Thornton’s descriptions of childbirth, her accounts of travel, or her reflections on the political upheavals of her time. Now anyone can quickly locate specific themes. As additional pages of Thornton’s books are released, this tool will only grow more useful. 
 
