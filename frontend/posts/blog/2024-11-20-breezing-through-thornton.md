@@ -43,7 +43,7 @@ Metaphorical storms aside, Thornton found herself on ships crossing stormy seas 
 
 ## Fine Weather
 
-Although Thornton lived during a period of cooler average temperatures, she also described warmer days, and outdoor activities she was involved in when we can assume the weather was fine. She wrote about outdoor play as a child, mainly in the context of recording her childhood accidents, including a fall from a swing. She also wrote about the extreme heat in the summer after her marriage, when she was pregnant with her first child. 
+Although Thornton lived during a period of cooler average temperatures, she also described warmer days, and outdoor activities she was involved in when we can assume the weather was fine. She wrote about outdoor play as a child, mainly in the context of recording her childhood accidents, including a fall from a swing. She also wrote about the extreme heat in the summer after her marriage, when she was pregnant with her first child, and there was [an eclipse of the sun](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652/). 
 
 And speaking of fine weather, if you're on social media, you can now find Alice Thornton's Books [on Bluesky](https://bsky.app/profile/thorntonsbooks.bsky.social) too!
 
