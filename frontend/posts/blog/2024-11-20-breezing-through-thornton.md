@@ -43,7 +43,7 @@ Metaphorical storms aside, Thornton found herself on ships crossing stormy seas 
 
 ## Fine Weather
 
-Although Thornton lived during a period of cooler average temperatures, she also described warmer days, and outdoor activities she was involved in when we can assume the weather was fine. She wrote about outdoor play as a child, mainly in the context of recording her childhood accidents, including a fall from a swing. She also wrote about the extreme heat in the summer after her marriage, when she was pregnant with her first child, and there was [an eclipse of the sun](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652/). 
+Although Thornton lived during a period of cooler average temperatures, she also described warmer days. For example, she also wrote about the extreme heat in the summer after her marriage, when she was pregnant with her first child, and there was [an eclipse of the sun](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652/). 
 
 And speaking of fine weather, if you're on social media, you can now find Alice Thornton's Books [on Bluesky](https://bsky.app/profile/thorntonsbooks.bsky.social) too!
 
@@ -51,7 +51,7 @@ And speaking of fine weather, if you're on social media, you can now find Alice 
 
 ## Beyond the Weather: More Insights Through the Search Function
 
-The new text search will help users find references to a wide range of topics. You might be interested in finding out about Thornton’s descriptions of childbirth, her accounts of travel, or her reflections on the political upheavals of her time. Now anyone can quickly locate specific themes. As additional pages of Thornton’s books are released, this tool will only grow more useful. 
+The new text search together with the entity search for events will help users find references to a wide range of topics. You might be interested in finding out about Thornton’s descriptions of childbirth, her accounts of travel, or her reflections on the political upheavals of her time. Now anyone can quickly locate specific themes. As additional pages of Thornton’s books are released, this tool will only grow more useful. 
 
 The search function is easy to use, but if you need help, our two-minute video tutorial will show you everything you need to know to start searching. To follow the video instructions more easily, we recommend enlarging it to full screen. A subtitled version is [available](https://www.youtube.com/watch?v=lojt25wdczw). 
 
