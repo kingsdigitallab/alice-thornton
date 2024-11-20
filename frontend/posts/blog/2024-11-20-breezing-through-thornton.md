@@ -5,8 +5,9 @@ authors:
   - ethom
 status: draft
 tags:
-  - TEI
+  - video tutorial
   - digital edition
+  - weather
 
 ---
 
