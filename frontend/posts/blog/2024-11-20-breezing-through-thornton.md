@@ -33,7 +33,7 @@ It's not always possible to pinpoint exact dates for weather events in Thornton�
 
 At the moment, one hundred pages of each book is online, but when the complete digital edition goes live, a search for ‘frost’ will yield four hits, and ‘snow’ yields five, although one is not weather-related. In the picture below, you can see a preview of a page that mentions both snow and frost. This is page 178 of Book 1, and here the text also carries an editorial note with more information about the Little Ice Age. 
 
-![An editorial note on the Little Ice Age in Book 1 of the digital edition.]( {{ "/assets/img/posts/Book 1 weather.jpg" | url }} "An editorial note on the Little Ice Age in Book 1 of the digital edition."){.media-centre}
+![An editorial note on the Little Ice Age in Book 1 of the digital edition.]( {{ "/assets/img/posts/Book_1_weather.jpg" | url }} "An editorial note on the Little Ice Age in Book 1 of the digital edition."){.media-centre}
 
 The search function shows us how many pages a keyword is used on, and whether it is used more often in one Book than another. Looking at each of the pages, you can also find examples of Thornton using references to the weather in different ways, or for different purposes. For example, Thornton wrote the word ‘storm’ at least 24 times in her books, and ‘stormy’ is used on one page, but not all these usages relate to the weather. In most cases, storms refer to her emotions or to the troubles she had endured in her life. Thornton says this kind of ‘storm’ was sent by God for her to endure, and Satan was involved too, sending her ‘storms of temptations.’ 
 
