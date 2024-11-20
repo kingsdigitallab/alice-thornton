@@ -3,7 +3,7 @@ title: "Breezing through Alice Thornton's Books with our Text Search Function"
 feature: /assets/img/posts/sails.jpg
 authors:
   - ethom
-status: draft
+status: live
 tags:
   - video tutorial
   - digital edition
