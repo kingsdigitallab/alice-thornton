@@ -53,7 +53,7 @@ And speaking of fine weather, if you're on social media, you can now find Alice 
 
 The new text search together with the entity search for events will help users find references to a wide range of topics. You might be interested in finding out about Thornton’s descriptions of childbirth, her accounts of travel, or her reflections on the political upheavals of her time. Now anyone can quickly locate specific themes. As additional pages of Thornton’s books are released, this tool will only grow more useful. 
 
-The search function is easy to use, but if you need help, our two-minute video tutorial will show you everything you need to know to start searching. To follow the video instructions more easily, we recommend enlarging it to full screen. A subtitled version is [available](https://www.youtube.com/watch?v=lojt25wdczw). 
+The search function is easy to use, but if you need help, our two-minute video tutorial below will show you everything you need to know to start searching. To follow the video instructions more easily, we recommend enlarging it to full screen. A subtitled version is [available](https://www.youtube.com/watch?v=lojt25wdczw). 
 
 We'd love your feedback on the first hundred pages of all four books which are already online.
 
