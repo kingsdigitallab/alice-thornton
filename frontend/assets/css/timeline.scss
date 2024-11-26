@@ -12,8 +12,8 @@ $transparent: transparent;
   width: 1px;
 }
 #data {
-  margin: 10vw 0 0 10%;
-  width: 80%;
+  margin: 10vw 0 0 20%;
+  width: 60%;
   table {
     display: inline-block;
     width: 100%;
@@ -21,13 +21,13 @@ $transparent: transparent;
     position: relative;
     justify-content: center;
     vertical-align: bottom;
-    margin: 5vw 0 4vw 0;
+    margin: 2vw 0 4vw 0;
     border-bottom: 0.5vw solid $taupe;
     &:after {
       //curve for every even row
       position: absolute;
       content: "";
-      height: calc(100% + 9vw);
+      height: calc(100% + 6vw);
       aspect-ratio: 1/1;
       padding: 0;
       right: 0;
@@ -76,11 +76,11 @@ $transparent: transparent;
           }
 
           &.event {
-            background-image: linear-gradient(
+            /*background-image: linear-gradient(
               0deg,
               rgba(128, 31, 0, 0.5) 0,
               rgba(255, 255, 255, 0.1)
-            );
+            );*/
             width: calc(var(--event-value) / 1);
             padding-bottom: calc(var(--event-value) / 1);
             display: inline-block;
@@ -89,14 +89,15 @@ $transparent: transparent;
             border-radius: 50%;
             opacity:0.7;
             z-index: 1;
+            aspect-ratio: 1/4;
             &:after {
               background-image: linear-gradient(
                 0deg,
                 rgba(128, 31, 0, 0.5) 0,
                 rgba(255, 255, 255, 0.1)
               );
-              width: 200%;
-              padding-bottom: 200%;
+              width: 500%;
+              padding-bottom: 500%;
               bottom: 0;
               vertical-align: bottom;
               border-radius: 50%;
@@ -138,7 +139,7 @@ $transparent: transparent;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
             &:hover{
-              opacity:0.7;
+              opacity:0.5;
             }
             &.present {
               background: black;
@@ -157,3 +158,6 @@ $transparent: transparent;
     } //tbody
   } //table
 } //#data
+
+
+
