@@ -44,6 +44,20 @@ $transparent: transparent;
       left: 0;
       transform: translate(-50%, 0) rotate(135deg);
     }
+    // Ensure that even rows have reversed order visually only
+&:nth-of-type(even) {
+  tbody {
+    display: flex;
+    tr {
+      align-self: flex-end; 
+      @for $i from 1 through 10 {
+        &:nth-child(#{$i}) {
+          order: #{11 - $i};
+        }
+      }
+    }
+  }
+}//&:nth-of-type(even) 
     tbody {
       display: block;
       tr {
@@ -67,10 +81,13 @@ $transparent: transparent;
           transform: translateX(
             -50%
           ); /* amount across the X-axis to the left */
+          &:hover{
+            opacity:1;
+          }
           & span {
             position: absolute;
             font-size: 12px;
-            opacity: 1; // Visually hidden
+            opacity: 0; // Visually hidden
             left: 50%;
             visibility: visible; // Ensure it's accessible to screen readers
           }
@@ -108,11 +125,14 @@ $transparent: transparent;
             }
             &:hover{
               opacity:1;
+              &.present span{
+              opacity:1;
+              }
             }
             & span {
               position: absolute;
               font-size: 12px;
-              opacity: 1; // Visually hidden
+              opacity: 0; // Visually hidden
               left: 50%;
               transform: translate(-50%, -120%);
               visibility: visible; // Ensure it's accessible to screen readers
@@ -122,10 +142,14 @@ $transparent: transparent;
             position: absolute;
             margin-bottom: 0;
             width: 100%;
-            transform: translateX(0);
-            bottom: -3vw;
+            transform: translateX(-25%);
+            bottom: -2vw;
             left: 0;
             text-align: center;
+            span{
+            opacity:1;
+            font-size:1vw;
+            }
           } //.year
           &.important {
             width: 1vw;
@@ -138,26 +162,31 @@ $transparent: transparent;
             left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
-            &:hover{
-              opacity:0.5;
-            }
             &.present {
               background: black;
+              opacity:0.6;
             } //&.present
             & span {
               position: absolute;
               font-size: 12px;
-              opacity: 1; // Visually hidden
+              opacity: 0; // Visually hidden
               left: 50%;
-              transform: translate(-50%, 0) rotate(-45deg);
+              transform: translate(-170%, 10%) rotate(-45deg);
               visibility: visible; // Ensure it's accessible to screen readers
             } //& span
+            &:hover{
+              opacity:1;
+              &.present span{
+                opacity:1;
+              }
+            }
           } //&.important
         } //td
       } //tr
     } //tbody
   } //table
 } //#data
+
 
 
 
