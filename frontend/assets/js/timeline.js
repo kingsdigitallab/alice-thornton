@@ -29,6 +29,13 @@ const jsonData = [
   { year: "1623", event: 4, important: 0 },
 ];
 
+// Map the keys in the data to the desired table headers
+const tableHeaderMapping = {
+  year: "Year",
+  event: "Number of Events",
+  important: "Number of Important Historical Events",
+};
+
 // Function to create a table for each decade of events
 function createTableForEachDecade(data) {
   // Group data by decade
@@ -68,7 +75,7 @@ function createTable(data, decade, maxEventCount) {
     .data(headers)
     .enter()
     .append("th")
-    .text((d) => d);
+    .text((d) => tableHeaderMapping[d] || d);
 
   // Add table rows
   const rows = table.append("tbody");
