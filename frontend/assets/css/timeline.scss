@@ -1,11 +1,6 @@
-//Colours
+// Colors
 $taupe: #a59f90;
 $transparent: transparent;
-
-#data {
-  margin: 10vw 0 0 10%;
-  width: 80%;
-}
 
 // Hide visually but not semantically for screen readers
 .visually-hidden:not(:focus) {
@@ -16,137 +11,149 @@ $transparent: transparent;
   white-space: nowrap;
   width: 1px;
 }
-
-table {
-  display: inline-block;
-  width: 100%;
-  height: auto;
-  position: relative;
-  justify-content: center;
-  vertical-align: bottom;
-  margin: 0 0 4vw 0;
-  border-bottom: 0.5vw solid $taupe;
-  &:after {
-    //curve for every even row
-    position: absolute;
-    content: "";
-    /* height:100%;
-    aspect-ratio: 0.8/1;*/
-    height: calc(100% + 3vw);
-    aspect-ratio: 1/1;
-    padding: 0.5vw 0;
-    right: 0;
-    bottom: -0.5vw;
-    border: 0.5vw solid $taupe;
-    border-left: 0.5vw solid $transparent;
-    border-top: 0.5vw solid $transparent;
-    transform: translate(50%, 0) rotate(-45deg);
-    border-radius: 50%;
-  }
-  &:nth-child(2n + 1):after {
-    // curve for every odd row
-    right: initial;
-    left: 0;
-    transform: translate(-50%, 0) rotate(135deg);
-  }
-  tr {
-    width: 10%;
+#data {
+  margin: 10vw 0 0 10%;
+  width: 80%;
+  table {
     display: inline-block;
+    width: 100%;
+    height: auto;
     position: relative;
+    justify-content: center;
     vertical-align: bottom;
-  } //tr
-} //table
-
-td {
-  position: relative;
-  display: inline-block;
-  vertical-align: bottom;
-  left: 50%; /* Calculates 50% of the element's width, and moves it by that */
-  transform: translateX(-50%); /* amount across the X-axis to the left */
-  &.event {
-    background-image: linear-gradient(
-      0deg,
-      rgba(128, 31, 0, 0.5) 0,
-      rgba(255, 255, 255, 0.1)
-    );
-    width: calc(var(--event-value) / 1);
-    padding-bottom: calc(var(--event-value) / 1);
-    display: inline-block;
-    margin-bottom: 0;
-    vertical-align: bottom;
-    border-radius: 50%;
-  }
-}
-
-.event {
-  &:hover {
-    &:before {
-      background-image: linear-gradient(
-        0deg,
-        rgba(128, 31, 0, 1) 0,
-        rgba(255, 255, 255, 0)
-      );
+    margin: 5vw 0 4vw 0;
+    border-bottom: 0.5vw solid $taupe;
+    &:after {
+      //curve for every even row
+      position: absolute;
+      content: "";
+      height: calc(100% + 9vw);
+      aspect-ratio: 1/1;
+      padding: 0;
+      right: 0;
+      bottom: -0.5vw;
+      border: 0.5vw solid $taupe;
+      border-left: 0.5vw solid $transparent;
+      border-top: 0.5vw solid $transparent;
+      transform: translate(50%, 0) rotate(-45deg);
+      border-radius: 50%;
     }
-    span {
-      opacity: 1; // Make visible on hover
+    &:nth-child(2n + 1):after {
+      // curve for every odd row
+      right: initial;
+      left: 0;
+      transform: translate(-50%, 0) rotate(135deg);
     }
-  } // &:hover
+    tbody {
+      display: block;
+      tr {
+        width: calc(10% - 1%);
+        display: inline-block;
+        position: relative;
+        vertical-align: bottom;
+        margin: 0 1% 0 0;
+        td {
+          position: relative;
+          display: inline-block;
+          vertical-align: bottom;
+          padding: 0;
+          width: 100%;
+          position: relative;
+          border-width: none;
+          border: 0;
+          display: inline-block;
+          height: auto;
+          left: 50%; /* Calculates 50% of the element's width, and moves it by that */
+          transform: translateX(
+            -50%
+          ); /* amount across the X-axis to the left */
+          & span {
+            position: absolute;
+            font-size: 12px;
+            opacity: 1; // Visually hidden
+            left: 50%;
+            visibility: visible; // Ensure it's accessible to screen readers
+          }
 
-  span {
-    position: absolute;
-    font-size: 12px;
-    opacity: 0; // Visually hidden
-    left: 50%;
-    transform: translate(-50%, -120%);
-    visibility: visible; // Ensure it's accessible to screen readers
-  } //span
-} //event
-
-.important span {
-  position: absolute;
-  font-size: 12px;
-  opacity: 0; // Visually hidden
-  left: 50%;
-  transform: translate(-50%, -120%);
-  visibility: visible; // Ensure it's accessible to screen readers
-}
-
-.important.present {
-  width: 1vw;
-  height: 1vw;
-  background: black;
-  display: inline-block;
-  margin-bottom: 0;
-  vertical-align: bottom;
-  position: absolute;
-  bottom: -1.9vw;
-  left: 50%;
-  /* Calculates 50% of the element's width, and moves it by that */
-  transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
-}
-
-.year {
-  vertical-align: bottom;
-  display: inline-block;
-  margin-bottom: 0;
-  vertical-align: bottom;
-  width: 100%;
-  position: absolute;
-  bottom: -3.5vw;
-  font-size: 1vw;
-  transform: translateX(-15%);
-}
-
-// Ensure that even rows have reversed order visually only
-table:nth-of-type(even) {
-  tbody {
-    display: flex;
-    tr {
-      @for $i from 1 through 10 {
-        &:nth-child(#{$i}) {
-          order: #{11 - $i};
-        }
-      }
-    }
-  }
-}
+          &.event {
+            background-image: linear-gradient(
+              0deg,
+              rgba(128, 31, 0, 0.5) 0,
+              rgba(255, 255, 255, 0.1)
+            );
+            width: calc(var(--event-value) / 1);
+            padding-bottom: calc(var(--event-value) / 1);
+            display: inline-block;
+            margin-bottom: 0;
+            vertical-align: bottom;
+            border-radius: 50%;
+            opacity:0.7;
+            z-index: 1;
+            &:after {
+              background-image: linear-gradient(
+                0deg,
+                rgba(128, 31, 0, 0.5) 0,
+                rgba(255, 255, 255, 0.1)
+              );
+              width: 200%;
+              padding-bottom: 200%;
+              bottom: 0;
+              vertical-align: bottom;
+              border-radius: 50%;
+              position: absolute;
+              content: "";
+              left: 50%;
+              transform: translate(-50%, 0);
+            }
+            &:hover{
+              opacity:1;
+            }
+            & span {
+              position: absolute;
+              font-size: 12px;
+              opacity: 1; // Visually hidden
+              left: 50%;
+              transform: translate(-50%, -120%);
+              visibility: visible; // Ensure it's accessible to screen readers
+            }
+          } //&.event
+          &.year {
+            position: absolute;
+            margin-bottom: 0;
+            width: 100%;
+            transform: translateX(0);
+            bottom: -3vw;
+            left: 0;
+            text-align: center;
+          } //.year
+          &.important {
+            width: 1vw;
+            height: 1vw;
+            display: inline-block;
+            margin-bottom: 0;
+            vertical-align: bottom;
+            position: absolute;
+            bottom: -1.9vw;
+            left: 50%;
+            /* Calculates 50% of the element's width, and moves it by that */
+            transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
+            &:hover{
+              opacity:0.7;
+            }
+            &.present {
+              background: black;
+            } //&.present
+            & span {
+              position: absolute;
+              font-size: 12px;
+              opacity: 1; // Visually hidden
+              left: 50%;
+              transform: translate(-50%, 0) rotate(-45deg);
+              visibility: visible; // Ensure it's accessible to screen readers
+            } //& span
+          } //&.important
+        } //td
+      } //tr
+    } //tbody
+  } //table
+} //#data
