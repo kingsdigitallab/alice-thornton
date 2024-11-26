@@ -1,33 +1,7 @@
 /* global d3 */
 
-// JSON data
-const jsonData = [
-  { year: "1600", event: 0, important: 0 },
-  { year: "1601", event: 0, important: 0 },
-  { year: "1602", event: 1, important: 1 },
-  { year: "1603", event: 0, important: 0 },
-  { year: "1604", event: 3, important: 0 },
-  { year: "1605", event: 0, important: 0 },
-  { year: "1606", event: 0, important: 0 },
-  { year: "1607", event: 1, important: 2 },
-  { year: "1608", event: 2, important: 0 },
-  { year: "1609", event: 4, important: 0 },
-  { year: "1610", event: 5, important: 3 },
-  { year: "1611", event: 3, important: 0 },
-  { year: "1612", event: 4, important: 0 },
-  { year: "1613", event: 12, important: 0 },
-  { year: "1614", event: 13, important: 1 },
-  { year: "1615", event: 4, important: 1 },
-  { year: "1616", event: 3, important: 0 },
-  { year: "1617", event: 1, important: 0 },
-  { year: "1618", event: 2, important: 0 },
-  { year: "1619", event: 4, important: 0 },
-  { year: "1620", event: 19, important: 1 },
-  { year: "1621", event: 3, important: 0 },
-  { year: "1622", event: 1, important: 0 },
-  { year: "1623", event: 12, important: 0 },
-  { year: "1623", event: 4, important: 0 },
-];
+// JSON containing the event data
+const eventsSource = "/assets/js/event-counts-by-year.json";
 
 // Map the keys in the data to the desired table headers
 const tableHeaderMapping = {
@@ -99,17 +73,13 @@ function createTable(data, decade, maxEventCount) {
     .text((d) => d.value);
 }
 
-// Wrap the code in a window load event
+// Load the data JSON and then create the tables
 window.onload = function () {
-  // Call the function with your JSON data
-  createTableForEachDecade(jsonData);
+  d3.json(eventsSource)
+    .then((jsonData) => {
+      createTableForEachDecade(jsonData);
+    })
+    .catch((error) => {
+      console.error("Error loading JSON data:", error);
+    });
 };
-
-// Alternative for when we are drawing from json
-// window.onload = function () {
-//   d3.json("path/to/data.json").then(jsonData => {
-//     createTable(jsonData);
-//   }).catch(error => {
-//     console.error("Error loading JSON data:", error);
-//   });
-// };
