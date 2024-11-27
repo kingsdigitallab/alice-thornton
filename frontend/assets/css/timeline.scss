@@ -22,16 +22,15 @@ $transparent: transparent;
     justify-content: center;
     vertical-align: bottom;
     margin: 2vw 0 4vw 0;
-    border-bottom: 0.5vw solid $taupe;
     &:after {
       //curve for every even row
       position: absolute;
       content: "";
-      height: calc(100% + 6vw);
+      height: calc(100% + 5.5vw);
       aspect-ratio: 1/1;
       padding: 0;
       right: 0;
-      bottom: -0.5vw;
+      bottom:0;
       border: 0.5vw solid $taupe;
       border-left: 0.5vw solid $transparent;
       border-top: 0.5vw solid $transparent;
@@ -61,11 +60,12 @@ $transparent: transparent;
     tbody {
       display: block;
       tr {
-        width: calc(10% - 1%);
+        width: 10%;
         display: inline-block;
         position: relative;
         vertical-align: bottom;
-        margin: 0 1% 0 0;
+        margin: 0  0 0;
+        border-bottom: 0.5vw solid $taupe;
         td {
           position: relative;
           display: inline-block;
@@ -81,6 +81,7 @@ $transparent: transparent;
           transform: translateX(
             -50%
           ); /* amount across the X-axis to the left */
+          z-index: 1;
           &:hover{
             opacity:1;
           }
@@ -105,7 +106,6 @@ $transparent: transparent;
             vertical-align: bottom;
             border-radius: 50%;
             opacity:0.7;
-            z-index: 1;
             aspect-ratio: 1/4;
             &:after {
               background-image: linear-gradient(
