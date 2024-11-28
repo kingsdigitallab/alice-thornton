@@ -7,6 +7,26 @@ customCSS: "/assets/css/timeline.css"
 
 Here is a timeline of events in Alice Thornton's life.
 
+<div id="legend">
+<h3>Legend</h3>
+<div class="events">
+<h4>Events</h4>
+<ul>
+<li>Important</li>
+<li>Grouped types</li>
+</ul>
+</div>
+
+<div class="volumes">
+<h4>Volumes</h4>
+<ul>
+<li>Book of Remembrances</li>
+<li>Book 1</li>
+<li>Book 2</li>
+<li>Book 3</li>
+</ul>
+</div>
+</div>
 
 <div id="data"></div>
 
