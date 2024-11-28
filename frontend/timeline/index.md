@@ -1,6 +1,6 @@
 ---
 title: Timeline of Alice Thornton's Life
-isPageFluid: true
+isPageFluid: false
 hideCitation: true
 customCSS: "/assets/css/timeline.css"
 ---
