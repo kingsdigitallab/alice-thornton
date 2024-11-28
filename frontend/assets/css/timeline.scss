@@ -84,13 +84,40 @@ html{
       border-top: 0.5vw solid $transparent;
       transform: translate(50%, 0) rotate(-45deg);
       border-radius: 50%;
-
     }
     &:nth-child(2n + 1):after {
       // curve for every odd row
       right: initial;
       left: 0;
       transform: translate(-50%, 0) rotate(135deg);
+    }
+    &:first-of-type{ //first table
+      &:after{ //hide first curve
+        display:none;
+      }
+      tr:not(:nth-child(1n+7)){ //hide first 6 elements
+        opacity:0;
+      }
+      &:before{
+        right:30%;
+      }
+    }
+    &:before{ //arrow direction
+      position: absolute;
+      content: "";
+      border:0.1vw solid #777;
+      width:1vw;
+      height:1vw;
+      bottom:-0.25vw;
+      z-index: 1;
+      transform: translate(50%,10%) rotate(45deg); 
+      border-left: 0.1vw solid $transparent;
+      border-bottom: 0.1vw solid $transparent;
+    }
+    &:nth-child(2n):before {
+      // arrow direction for every odd row
+      right:0;
+      transform: translate(50%,15%) rotate(-135deg); 
     }
     // Ensure that even rows have reversed order visually only
 &:nth-of-type(even) {
