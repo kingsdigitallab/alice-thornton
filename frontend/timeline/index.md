@@ -5,7 +5,13 @@ hideCitation: true
 customCSS: "/assets/css/timeline.css"
 ---
 
-Here is a timeline of events in Alice Thornton's life.
+Below is a visual representation of Alice Thornton’s life, depicted by the curved brown line that starts with her birth and concludes with her death. The timeline starts from left to right, following the curve downward and round to snake in the opposite direction and turn again with each curve. Arrows are included at each curve to guide the direction of reading.
+
+Circles on the timeline represent the number of events Alice Thornton wrote about in each year of her life. Larger circles indicate years with more events, while smaller circles reflect fewer recorded events. The size of each circle is scaled in proportion to the number of events in that year.
+
+Black diamonds highlight key political events or notable years in Alice Thornton’s life, marking moments of significant change or historical importance.
+
+Hovering over each year reveals more details about the events recorded for that year, including contextual information where available. Clicking on a year expands additional information, offering a deeper dive into the events and their significance.
 
 <div id="legend">
 <h3>Legend</h3>
