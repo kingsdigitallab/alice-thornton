@@ -70,7 +70,7 @@ html{
     vertical-align: bottom;
     margin: 2vw 0 4vw 0;
     border-collapse:collapse;
-    &:after{
+    &:after{       //curve for every even row
       border-radius: 0 100% 100% 0;
       position: absolute;
       content: "";
@@ -82,10 +82,9 @@ html{
       border: 0.5vw solid $taupe;
       transform: translate(50%, 0);
       border-left:0;
-
+      z-index:-1;
     }
-    &:nth-child(2n + 1):after {
-      // curve for every odd row
+    &:nth-child(2n + 1):after {    // curve for every odd row
       right: initial;
       left: 0;
       transform: translate(-50%, 0) rotate(180deg);
@@ -142,24 +141,17 @@ html{
         margin: 0  0 0;
         border-bottom: 0.5vw solid $taupe;
         &:hover{
+          border-bottom: 0.5vw solid darken($taupe,30%);
           td{
             opacity:1;
             &:after{
               opacity:1;
             }
-            span{
+            &.present {
               opacity:1;
-            }
-            &.present span{
+              & span{
               opacity:1;
-            }
-            &.important {
-              &.present {
-                opacity:1;
-                & span{
-                opacity:1;
-                }
-                }
+              }
             }
             &.year span{
               font-weight: bold;
