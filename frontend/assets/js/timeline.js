@@ -18,18 +18,23 @@ function createTableForEachDecade(data) {
     (row) => Math.floor(row.year / 10) * 10
   );
 
-  // Get the maximum number of events in any year
-  const maxEventCount = d3.max(data, (d) => d.event);
+  // Non-linear scale to make smaller bubbles a bit larger relatively
+  const maxEventCount = d3.max(data, (d) => d.event); // Maximum number of events in any year
+  const scale = d3
+    .scalePow()
+    .exponent(0.8)
+    .domain([0, maxEventCount])
+    .range([0, 100]);
 
   // Iterate over each decade group
   groupedByDecade.forEach((decadeData, decade) => {
     console.log(`Creating table for decade: ${decade}s`);
-    createTable(decadeData, decade, maxEventCount);
+    createTable(decadeData, decade, scale);
   });
 }
 
 // Function to create a table that forms the basis of the data visualisation
-function createTable(data, decade, maxEventCount) {
+function createTable(data, decade, scale) {
   // Select the data container and add the table
   const container = d3.select("#data");
   const table = container.append("table");
@@ -66,7 +71,7 @@ function createTable(data, decade, maxEventCount) {
     .attr("class", (d) => (d.value > 0 ? `${d.header} present` : d.header))
     // Set CSS variable for 'event' cells only
     .style("--event-value", (d) =>
-      d.header === "event" ? `${(d.value / maxEventCount) * 100}%` : null
+      d.header === "event" ? `${scale(d.value)}%` : null
     )
     // Wrap the cell content in a <span> for display purposes
     .append("span")
