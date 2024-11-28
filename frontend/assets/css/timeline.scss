@@ -70,26 +70,25 @@ html{
     vertical-align: bottom;
     margin: 2vw 0 4vw 0;
     border-collapse:collapse;
-    &:after {
-      //curve for every even row
+    &:after{
+      border-radius: 0 100% 100% 0;
       position: absolute;
       content: "";
-      height: calc(100% + 5.5vw);
+      height: calc(100% + 5.51vw);
       aspect-ratio: 1/1;
       padding: 0;
       right: 0;
       bottom:0;
-     border: 0.5vw solid $taupe;
-      border-left: 0.5vw solid $transparent;
-      border-top: 0.5vw solid $transparent;
-      transform: translate(50%, 0) rotate(-45deg);
-      border-radius: 50%;
+      border: 0.5vw solid $taupe;
+      transform: translate(50%, 0);
+      border-left:0;
+
     }
     &:nth-child(2n + 1):after {
       // curve for every odd row
       right: initial;
       left: 0;
-      transform: translate(-50%, 0) rotate(135deg);
+      transform: translate(-50%, 0) rotate(180deg);
     }
     &:first-of-type{ //first table
       &:after{ //hide first curve
