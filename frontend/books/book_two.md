@@ -25,6 +25,7 @@ _Book 2_ covers material no later than the first year of her widowhood (1668-9) 
 
 [Job 10:20](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.1&p0.vi=modern) <br/>
 [St Matthew 6:33](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.3&p0.vi=modern) <br/>
+[St Augustine](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.3&p0.vi=modern) 
 [Meditations in My Widowed Condition](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.5&p0.vi=modern) <br/>
 [A Prayer for Myself for Support and Comfort](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.7&p0.vi=modern) <br/>
 [An Introduction to this Book of the Remarkable Providences and Passages of My Life since My Widowed Condition, since September the 17th, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.13&p0.vi=modern) <br/>
