@@ -65,4 +65,5 @@ A Relation of the Passages happened before My Yielding to cut off the Settlement
 A Prayer on the Making of Mr Covill's Deed, August 1662 <br/>
 An Account of Mortgages Charged upon Leysthorpe or some Part of that Land before Mr Covill's Settlement, which I did not know of until long after (about the year, 1668) <br/>
 Upon My Deliverance of My Son, Robert Thornton, My Third Son and Seventh Child, Being the First Child Born at the New House at East Newton, Whose Birth was on Friday the 19th of September, 1662 <br/>
+A Relation of the Cutting of the Entail and Deed of Settlement of Mr Covill of Leysthorpe, without my Consent or Knowledge, done by a Little Deed, which gave Possession and Seizure, et cetera, of the Land of Leysthorpe to Mr Francis Darley by Mr William Thornton, by Virtue of which New Settlements was made and other uses Contrary to Articles of Marriage. This Deed dated September the 9th, 1665. <br/>
 Of My Desperate Sickness and Dangerous Condition I was visited withal, Beginning on Me August 16, 1666, and cleared of the Flux of Blood <br/>
