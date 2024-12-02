@@ -40,7 +40,7 @@ On finding out these rumours had been spread by people within her own household,
 
 >This being the last great trial to my faith and patience — together with my late dreadful sickness and flood upon the great grief upon me following my slanders.[^6] 
 
-![A woman sits next to a fireplace with her head resting against a pillow which is propped up on the wall.]({{"/assets/img/posts/Vrel_An_interior_with_a_sick_woman_by_a_fireplace.jpg" | url}} "Jacob Vrel, An interior with a sick woman by a fireplace (1654–56). Public domain, via Wikimedia Commons.")
+![A woman sits next to a fireplace with her head resting against a pillow which is propped up on the wall.]({{"/assets/img/posts/Vrel_An_interior_with_a_sick_woman_by_a_fireplace.jpg" | url}} "Jacob Vrel, An Interior with a Sick Woman by a Fireplace (1654–56). Public domain, via Wikimedia Commons.")
 
 So, in the *Book of Remembrances*, Thornton says she was ill for 14 days, and that her aunt came to visit, which helped her recover. We learn nothing about the illness itself. *Book 1* says a bit more, mentioning pains in the mother (the womb) and spleen among ‘other sicknesses’. One or both of these books was probably intended for circulation among her peers in the fairly immediate aftermath of the scandal, it is likely that accounts of this were written closer to the time of the incident described than much later, especially since Thornton mentions in *Book 3* that she was writing about her widowhood in *Book 1* in February 1669, and the material about the slander comes before the material about her widhowhood in that Book.[^7]
 
