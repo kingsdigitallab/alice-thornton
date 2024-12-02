@@ -18,7 +18,7 @@ In what follows, I look at how Thornton’s accounts of one instance of emotiona
 
 I will focus on an example of shock-illness-near death-deliverance cycle, which was the result of discovering rumours spread by her maids and her niece, Anne Danby, [about her relationship with her daughter Nally’s suitor, Thomas Comber](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/), in July 1668. Both Danby and Comber were living with the Thorntons at East Newton Hall: Comber, as he was curate at Holy Trinity, Stonegrave, the Thorntons’ local church, and Danby (with her maid) because they had nowhere else to go in the wake of being left destitute by her newly-widowed sister-in-law, Margaret Danby.
 
-![A maid hides behind a door, listening to a conversation taking place between a man and an unknown person in the next room.]({{"/assets/img/posts/eavesdropper_with_a_scolding_woman.jpg" | url}} "Nicolaes Maes, Eavesdropper with a Scolding Woman (1665). Public domain, via Wikimedia Commons.s")
+![A maid hides behind a door, listening to a conversation taking place between a man and an unknown person in the next room.]({{"/assets/img/posts/eavesdropper_with_a_scolding_woman.jpg" | url}} "Nicolaes Maes, Eavesdropper with a Scolding Woman (1665). Public domain, via Wikimedia Commons.")
 
 On finding out these rumours had been spread by people within her own household, Thornton immediately became very ill, an episode she discusses in all four of her Books. Here is how she describes the incident in the *Book of Remembrances*:
 
