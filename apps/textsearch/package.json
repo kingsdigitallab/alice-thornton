@@ -4,7 +4,7 @@
   "main": "textsearch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "extract": "rm -rf clone && git clone https://github.com/kingsdigitallab/alice-thornton.git -b dts --single-branch clone",
+    "extract": "bash extract.sh",
     "transform": "node textsearch.js",
     "load": "npx pagefind --site to-be-indexed --output-path ../../frontend/_site/pagefind",
     "index": "npm run extract && npm run transform && npm run load",

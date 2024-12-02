@@ -946,6 +946,16 @@ nav.pagination {
     .result-head {
       font-weight: bold;
       cursor: pointer;
+      // cursor: ns-resize;
+      a.side-link {
+        margin-left: 1em;
+        color: grey;
+        cursor: pointer;
+      }
+
+      &:hover::marker {
+        color: $secondary;
+      }
     }
     .result-books {
       margin-left: 3em;
@@ -958,6 +968,16 @@ nav.pagination {
   .pagination .buttons {
     margin-left: auto;
     order: 2;
+  }
+
+  // full text --------
+
+  .pagefind-modular-filter-pills {
+    display: block;
+  }
+
+  .result-item.not-loaded {
+    filter: blur(2px);
   }
 }
 

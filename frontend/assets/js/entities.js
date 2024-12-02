@@ -58,6 +58,7 @@ function setUpSearch() {
           },
         },
         indexSize: 0,
+        eventGroups: {},
       };
     },
     mounted() {
@@ -76,6 +77,10 @@ function setUpSearch() {
           sortings: {
             name_asc: {
               field: "sortkey",
+              order: "asc",
+            },
+            year_asc: {
+              field: "year",
               order: "asc",
             },
           },
@@ -133,6 +138,10 @@ function setUpSearch() {
         return (this.facets?.books?.buckets || [])
           .filter((b) => b.selected)
           .map((b) => b.key);
+      },
+      selectedGroups() {
+        let ret = this.eventGroups[this.selection.hi];
+        return ret ? [ret] : [];
       },
       filteredFacets() {
         // only returns facets relevant to the selected result type (itself a facet)
@@ -206,6 +215,17 @@ function setUpSearch() {
         };
         return typesClass[type];
       },
+      getGroupsFromItem(item) {
+        let ret = [];
+        if (item?.group) {
+          ret = [this.eventGroups[item.group]];
+        }
+        return ret;
+      },
+      // onClickGroup(group) {
+      //   this.clearSelection(true)
+      //   this.selection.hi = group.id
+      // },
       isLocusVisible(bookId, page) {
         return window.isLocusVisible(bookId, page);
       },
@@ -257,7 +277,8 @@ function setUpSearch() {
       onSubmitInputs() {
         this.search();
       },
-      clearSelection() {
+      clearSelection(dontSearch = false) {
+        this.selection.group = null;
         this.selection.hi = "";
         this.selection.query = "";
         this.selection.type = "";
@@ -269,7 +290,9 @@ function setUpSearch() {
           }
         }
 
-        this.search();
+        if (!dontSearch) {
+          this.search();
+        }
       },
       search(keepPage = false) {
         this.updating = true;
@@ -294,14 +317,14 @@ function setUpSearch() {
         let searchParameters = {
           per_page: this.selection.perPage,
           page: this.selection.page,
-          sort: "name_asc",
+          sort: this.selectedGroups.length ? "year_asc" : "name_asc",
           filters: filters,
         };
 
         let entityId = this.selection.hi;
         if (entityId) {
           searchParameters.filter = (e) => {
-            return e.id == entityId;
+            return e.id == entityId || e?.group == entityId;
           };
         } else {
           searchParameters.query = this.selection.query;
@@ -310,6 +333,7 @@ function setUpSearch() {
         this.results = this.itemsjs.search(searchParameters);
 
         window.Vue.nextTick(() => {
+          this.setAddressBarFromSelection();
           this.updating = false;
         });
 
@@ -341,30 +365,73 @@ function setUpSearch() {
         if (window.metadata.hideEventsFromSearchPage) {
           this.records = this.records.filter((r) => r.type != "event");
         }
+        // move out all the event_group
+        this.eventGroups = {};
+        this.records
+          .filter((r) => r.type == "event_group")
+          .forEach((e) => {
+            this.eventGroups[e.id] = e;
+          });
+        this.records = this.records.filter((r) => r.type != "event_group");
+        // add sortable date to events
+        this.records
+          .filter((r) => r.type == "event")
+          .forEach((e) => {
+            // let years = e.date.match(/\b\d{4}(-\d\d)?(-\d\d)?\b/)
+            let year = e.date.replace(/^\D+/, "");
+            if (year) {
+              e.year = year;
+            }
+          });
       },
       setAddressBarFromSelection() {
-        // ?p1.so=&p1.co=&p2.so=...
-        // let searchParams = new URLSearchParams(window.location.search)
-        let searchParams = "";
-        let newRelativePathQuery =
-          window.location.pathname + "?" + searchParams;
-        history.pushState(null, "", newRelativePathQuery);
+        let params = {
+          q: this.selection.query,
+          hi: this.selection.hi,
+        };
+        for (const k of Object.keys(params)) {
+          if (!params[k]) {
+            delete params[k];
+          }
+        }
+        let newPath = "?" + new URLSearchParams(params).toString();
+        history.replaceState(null, "", newPath);
+        this.setPageTitle();
       },
       async setSelectionFromAddressBar() {
         let searchParams = new URLSearchParams(window.location.search);
-        // let q = searchParams.get("q");
-        // if (q) {
-        //   q = q.replace(/^(ppl|place):/, "");
-        //   this.selection.query = q;
-        // }
-        //
-        let hi = searchParams.get("hi");
-        if (hi) {
+
+        let paramToField = {
+          q: "query",
+          hi: "hi",
+        };
+
+        for (let [param, field] of Object.entries(paramToField)) {
+          let val = searchParams.get(param);
+          if (val) {
+            this.selection[field] = val;
+          }
+        }
+
+        if (this.selection.hi) {
           // hi = hi.replace(/^(ppl|place):/, "");
-          this.selection.hi = hi;
           this.selection.view = "expanded";
         }
-        // console.log(searchParams);
+      },
+      setPageTitle() {
+        let title = "Index";
+        let query = this.selection.query;
+        if (query) {
+          title += ` '${query}'`;
+        }
+        if (this.selection.hi) {
+          let groups = this.selectedGroups;
+          let item = groups.length ? groups[0] : this.items[0];
+          if (item) {
+            title = ` ${item.title} (Index)`;
+          }
+        }
+        document.title = title + " | " + window.metadata.siteTitle;
       },
       getContentClasses(panel) {
         return `view-${panel.selections.view}`;

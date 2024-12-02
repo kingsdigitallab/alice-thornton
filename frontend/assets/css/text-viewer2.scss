@@ -943,8 +943,8 @@ $render-sic: false;
     }
 
     .tei-measure.tei-type-currency {
-      &:before {
-        content: "£";
+      &[data-tei-quantity] {
+        display: none;
       }
 
       .tei-am {
