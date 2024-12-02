@@ -60,13 +60,23 @@ In any case, Thornton’s memory of this awful episode in her life did not dimin
 ---
 
 [^1]: *Book Rem*, 125.
+
 [^2]: *Book 1*, 255.
-[^3]: *Book 2*, 25
+
+[^3]: *Book 2*, 25.
+
 [^4]: *Book 3*, 65.
+
 [^5]: *Book 3*, 87.
+
 [^6]: *Book 3*, 96.
+
 [^7]: *Book 3*, 171.
+
 [^8]: E.g., *Book 2*, 155; *Book 3*, 82.
+
 [^9]: *Book 3*, 87, 184. 
+
 [^10]: *Book 2*, 292.
+
 [^11]: E.g., *Book Rem*, 82; *Book 1*, 203.
