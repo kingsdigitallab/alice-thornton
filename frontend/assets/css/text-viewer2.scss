@@ -1023,6 +1023,11 @@ $render-sic: false;
   .tei-l {
     // so each verse is on its own line
     display: block;
+
+    .line-number {
+      float: right;
+      padding-left: 2em;
+    }
   }
 
   .tei-seg[data-tei-rend*="centre"] {
