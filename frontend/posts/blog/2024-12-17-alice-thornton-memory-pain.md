@@ -32,7 +32,7 @@ On finding out these rumours had been spread by people within her own household,
 
 >My faintings and weaknesses was so great and returned so strongly upon me — all that night and for two days after — that dear friends and children did not expect but when I should have departed (having lost so much blood in the flood that broke upon me, by excess of grief, at the first knowing of my slanderous accusation by Mrs Anne Danby and her maid, Barbara Todd).[^3]
 
-*Book 3*’s retelling is much more fragmented, in keeping with the book’s repetitive, non-chronological character. Here are some excerpts describing this incident:
+*Book 3*’s retelling is much more fragmented, in keeping with the book’s repetitive, non-chronological character. Here are two excerpts describing this incident:
 
 >Now after these sad troubles of mine — which I suffered I knew not from whom nor for what but made the scorn of many and yet the Lord gave me favour and pity of my dear friends — I was wounded in my soul, and with great sorrows and violent griefs did fall into great extremity of weakness, and none thought I should have lived. And while they were yet in the house, I had no peace or ease, or sleep or comfort until my gracious God did hear my sorrows and sufferings and gave me comfort of my husband and children and friends (who mourned and wept with me and gave me what redress they could, begging of God for mercy to relieve me in this great extremity).[^4]
 
