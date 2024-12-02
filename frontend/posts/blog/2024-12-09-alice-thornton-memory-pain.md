@@ -8,7 +8,8 @@ tags:
   - medicine
   - emotions
   - manuscripts
-  events
+  - events
+
 ---
 
 Alice Thornton describes many medical encounters and illnesses in her four Books, and some episodes are recounted and retold in later volumes. In December 2022 I wrote [a blogpost](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-12-19-grief-and-illness-thornton/) on Thornton and traumatic illness, demonstrating the ways in which she conceived of and wrote about the effect that sudden emotional trauma had on her physical state. One question that has interested me since is how Thornton writes about the same instances of emotional pain across her four books. In October 2024 I had the chance to present on this topic at the University of Helsinki, as part of a conference organised by the [Experiencing Agony](https://blogs.helsinki.fi/experiencingagony/) team. 
