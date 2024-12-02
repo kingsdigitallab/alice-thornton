@@ -9,7 +9,7 @@ eleventyNavigation:
 
 Over the course of the project (2021-25), this project will publish an interactive and fully searchable digital edition of Alice Thornton’s autobiographical Books which will be freely accessible here.
 
-The text of all four manuscripts will be available to read in both fully modernised and semi-diplomatic versions, either separately or side-by-side. As we are using the widely recognised Text Encoding Initiative (TEI) markup schema, the edition will be fully searchable (for example, users will be able to trace people, places and events across all four volumes).
+The text of all four manuscripts will be available to read in both fully modernised and semi-diplomatic versions, either separately or side-by-side. As we are using the widely recognised Text Encoding Initiative (TEI) markup schema, the edition will be fully searchable (for example, users will be able to trace people, places and events across all four Books).
 
 <div class="bookshelf">
   {%- assign books = collections.books | sort:"data.bookOrder" -%}
@@ -37,7 +37,7 @@ The text of all four manuscripts will be available to read in both fully moderni
 
 Although we are not digitising the manuscripts, we will provide some sample images from each of them to offer a sense of how the original materials look.
 
-You can now access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions. See also our initial release of the [search function](/entities/).
+You can now access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions. See also our second release of the [search function](/entities/).
 
 We would appreciate all feedback so please click on the button at the bottom right or email us - alicethorntonsbooks at gmail dot com - to let us know your thoughts.
 
