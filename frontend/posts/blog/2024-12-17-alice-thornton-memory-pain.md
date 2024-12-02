@@ -56,7 +56,6 @@ Did Thornton add more detail in the later accounts in *Book 2* and *Book 3* beca
 
 In any case, Thornton’s memory of this awful episode in her life did not diminish as she got older: either the passage of time had given her the mental space and distance from the traumatic event to write more freely about the incident and recall its awful details; or it gave her the freedom to embellish the account with information that could only be countered by an increasingly small number of people. Furthermore, there is no evidence that *Book 2* and *Book 3* were intended to be circulated beyond close family, unlike the *Book of Rememembrances* and *Book 1*, so Thornton perhaps did not expect many to read what she had written.
 
-
 ---
 
 [^1]: *Book Rem*, 125.
