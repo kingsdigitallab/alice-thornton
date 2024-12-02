@@ -25,6 +25,7 @@ _Book 2_ covers material no later than the first year of her widowhood (1668-9) 
 
 [Job 10:20](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.1&p0.vi=modern) <br/>
 [St Matthew 6:33](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.3&p0.vi=modern) <br/>
+[St Augustine](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.3&p0.vi=modern) <br/>
 [Meditations in My Widowed Condition](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.5&p0.vi=modern) <br/>
 [A Prayer for Myself for Support and Comfort](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.7&p0.vi=modern) <br/>
 [An Introduction to this Book of the Remarkable Providences and Passages of My Life since My Widowed Condition, since September the 17th, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.13&p0.vi=modern) <br/>
@@ -64,4 +65,5 @@ A Relation of the Passages happened before My Yielding to cut off the Settlement
 A Prayer on the Making of Mr Covill's Deed, August 1662 <br/>
 An Account of Mortgages Charged upon Leysthorpe or some Part of that Land before Mr Covill's Settlement, which I did not know of until long after (about the year, 1668) <br/>
 Upon My Deliverance of My Son, Robert Thornton, My Third Son and Seventh Child, Being the First Child Born at the New House at East Newton, Whose Birth was on Friday the 19th of September, 1662 <br/>
+A Relation of the Cutting of the Entail and Deed of Settlement of Mr Covill of Leysthorpe, without my Consent or Knowledge, done by a Little Deed, which gave Possession and Seizure, et cetera, of the Land of Leysthorpe to Mr Francis Darley by Mr William Thornton, by Virtue of which New Settlements was made and other uses Contrary to Articles of Marriage. This Deed dated September the 9th, 1665. <br/>
 Of My Desperate Sickness and Dangerous Condition I was visited withal, Beginning on Me August 16, 1666, and cleared of the Flux of Blood <br/>

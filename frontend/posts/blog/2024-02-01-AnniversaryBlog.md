@@ -85,8 +85,8 @@ This post was inspired by the West Yorkshire Archive Service Blog post on [Anne 
 
 [^1]: Modernised from 'Kirklington baptism, marriage and burial register, 1568-1680', PR/KRT 1/1, North Yorkshire County Record Office. ‘Alice the daughter of Christofer Wandesford of Kirklinton Esqr’.
 [^2]: Alice Thornton, _Book 2: The First Book of My Widowed Condition_ (hereafter _Book 2_), Durham Cathedral Library, GB-0033-CCOM 7, 36-53.
-[^3]: In *Book 2*, she dates this to 3 November 1658, so ether it was a long-running case or she was mistaken. *Book 2*, 37, 61. 
-[^4]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'This last Deed of Laistrop was dated Sept. 19th 1667.' *Book 2*, page 293. 
+[^3]: In *Book 2*, she dates this to 3 November 1658, so either it was a long-running case or she was mistaken. *Book 2*, 37, 61. 
+[^4]: The text quoted above is from our work-in-progress edition of Alice Thornton's *Books*. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'This last Deed of Laistrop was dated Sept. 19th 1667.' *Book 2*, 293. 
 [^5]: Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 127. 
 [^6]: Alice Thornton, _Book 3: The Second Book of My Widowed Condition_ (hereafter *Book 3*), British Library MS Add 88897/2, 189.
 [^7]: Andrew M. Coleby, "Comber, Thomas (1645–1699), dean of Durham and liturgist." *Oxford Dictionary of National Biography*. 23 Sep. 2004; Accessed 30 Jan. 2024. 
