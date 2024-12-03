@@ -1,3 +1,4 @@
+/* eslint-disable no-constant-condition */
 const { createApp } = window.Vue;
 
 const CHILD_HOVERED_CLASS = "child-hovered";
@@ -152,6 +153,13 @@ function setUpTextViewer() {
               navigation: "",
               document: "",
             },
+            notes: [
+              {
+                index: 1,
+                target: "123",
+                body: "456",
+              },
+            ],
             error: "",
             loaded: false,
           },
@@ -440,6 +448,7 @@ function setUpTextViewer() {
           this.setAddressBarFromSelection();
 
           // scroll to top of that panel
+          // TODO: fix (e.g. ?p0.lo=p.10 | 11)
           if (!this.isPrint) {
             for (let panelIdx = 0; panelIdx < this.panels.length; panelIdx++) {
               if (this.panels[panelIdx] == panel) {
@@ -473,15 +482,52 @@ function setUpTextViewer() {
 
         // EVENTS
         this.addEventsToTexts();
+
+        this.extractNotes(panel, doc);
       },
-      // correctPopovers() {
-      //   this.$nextTick(() => {
-      //     let popovers = document.querySelectorAll(".info-box");
-      //     for (let popover of popovers) {
-      //       this.correctPopover(popover);
-      //     }
-      //   });
-      // },
+      extractNotes(panel, docStr) {
+        /*
+        <span class="tei-anchor has-info-box is-note" data-tei="anchor" data-tei-n="1" data-tei-corresp="#p001n01" data-tei-resp="ednote">
+          <sup class="note-symbol">1</sup>
+        */
+        panel.notes = [];
+        const parser = new DOMParser();
+        const dom = parser.parseFromString(docStr, "text/html");
+        for (let infoBox of this._xpath(
+          dom,
+          '//span[@data-tei-resp="ednote"]'
+        )) {
+          let noteSymbol = this._xpath(
+            infoBox,
+            './/sup[@class="note-symbol"]',
+            dom
+          )[0];
+          console.log(noteSymbol);
+          let note = {
+            index: noteSymbol.textContent,
+            body: this._xpath(infoBox, './/span[@class="body"]', dom)[0]
+              .outerHTML,
+          };
+          panel.notes.push(note);
+        }
+      },
+      _xpath(dom, xpath, parentDom) {
+        parentDom = parentDom || dom;
+        let ret = [];
+        let res = parentDom.evaluate(
+          xpath,
+          dom,
+          null,
+          XPathResult.ORDERED_NODE_ITERATOR_TYPE,
+          null
+        );
+        while (1) {
+          let el = res.iterateNext();
+          if (!el) break;
+          ret.push(el);
+        }
+        return ret;
+      },
       correctPopover(popover, event) {
         // fix the popover position, width & height.
         // so it doesn't goes off screen.
