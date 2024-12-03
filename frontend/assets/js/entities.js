@@ -203,6 +203,7 @@ function setUpSearch() {
           viewKey = keys[index];
         }
         this.selection.view = viewKey;
+        this.setAddressBarFromSelection();
       },
       isResultExpanded(item) {
         return this.selection.view == "expanded" ? item.id : false;
@@ -388,6 +389,7 @@ function setUpSearch() {
         let params = {
           q: this.selection.query,
           hi: this.selection.hi,
+          v: this.selection.view != "collapsed" ? this.selection.view : "",
         };
         for (const k of Object.keys(params)) {
           if (!params[k]) {
@@ -404,6 +406,7 @@ function setUpSearch() {
         let paramToField = {
           q: "query",
           hi: "hi",
+          v: "view",
         };
 
         for (let [param, field] of Object.entries(paramToField)) {
