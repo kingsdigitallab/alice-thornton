@@ -36,7 +36,6 @@ Hovering over each year reveals more details about the events recorded for that 
 
 <div id="data"></div>
 
-
 <!-- For testing
  <div class="data">
 <div class="table">
