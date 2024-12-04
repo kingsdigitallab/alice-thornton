@@ -1616,14 +1616,26 @@ div.text-rendered {
       color: black;
     }
   }
-
-  span.entity-title .tei-p {
-    display: inline;
-  }
 }
 
-div.text-rendered {
-  br {
-    display: none;
+#drawer {
+  .note-symbol {
+    margin-left: -30px; 
+    top: 30px;
   }
+
+  .text-rendered {
+    br {
+      display: none;
+    }
+  }
+
+  .entity-title {
+    margin-left: -30px; 
+
+    .tei-p {
+      display: inline;
+    }
+  }
+
 }

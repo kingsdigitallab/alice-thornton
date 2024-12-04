@@ -195,7 +195,7 @@ eleventyNavigation:
       <div class="tab tab-notes">
         <input type="radio" id="tab-notes" name="tab-group-1">
         <label for="tab-notes">
-          <i class="fas fa-quote-left"></i>
+          <i class="far fa-sticky-note"></i>
           <h2>Notes</h2>
         </label>
         <div class="content">
@@ -212,7 +212,7 @@ eleventyNavigation:
       <div class="tab tab-entities">
         <input type="radio" id="tab-entities" name="tab-group-1" checked>
         <label for="tab-entities">
-          <i class="fas fa-quote-left"></i>
+          <i class="fas fa-list"></i>
           <h2>Entities</h2>
         </label>
         <div class="content">
