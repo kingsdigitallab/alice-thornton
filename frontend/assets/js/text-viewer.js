@@ -532,13 +532,14 @@ function setUpTextViewer() {
             </span>
           </span>
         */
-        panel.entities = [];
+        let entities = {};
         const parser = new DOMParser();
         const dom = parser.parseFromString(docStr, "text/html");
-        for (let infoBox of this._xpath(
+        let infoBoxes = this._xpath(
           dom,
           '//span[contains(@class, "is-person")]'
-        )) {
+        );
+        for (let infoBox of infoBoxes) {
           let entity = {
             title: this._xpath(infoBox, './/span[@class="body"]', dom)[0]
               .outerHTML,
@@ -552,10 +553,17 @@ function setUpTextViewer() {
               dom
             )[0]
           );
-          entity.target = infoBox.innerHTML;
-          panel.entities.push(entity);
+          entity.targets = [infoBox.innerHTML];
+          let key = entity.title;
+          if (entities[key]) {
+            entities[key].targets.push(entity.targets[0]);
+          } else {
+            entities[key] = entity;
+          }
           console.log(entity);
         }
+        // dict => list
+        panel.entities = Object.values(entities);
       },
       _xpath(dom, xpath, parentDom) {
         parentDom = parentDom || dom;
@@ -976,6 +984,14 @@ function setUpTextViewer() {
         } else {
           this.imageViewer.open(tileSources);
         }
+      },
+      getClassFromType(type) {
+        const typesClass = {
+          person: "fa-user",
+          place: "fa-map-marker-alt",
+          event: "fa-calendar",
+        };
+        return typesClass[type.toLowerCase().trim()];
       },
     },
   });

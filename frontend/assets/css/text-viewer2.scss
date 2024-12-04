@@ -1597,19 +1597,27 @@ div.text-rendered {
   }
 }
 
-.note-symbol {
-  padding-left: 0.2em;
-  color: $primary;
-  border: 1px solid lightgray;
-  box-shadow: 1px 1px 1px gray;
-  padding: 0 2px;
-  margin: 0 2px 2px 2px;
-  font-size: 10px;
-  top: -5px;
-  position: relative;
-  &:hover {
-    border: 1px solid gray;
-    box-shadow: 1px 1px 1px black;
-    color: black;
+/* Drawer */
+
+#text-viewer {
+  .note-symbol {
+    padding-left: 0.2em;
+    color: $primary;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 1px gray;
+    padding: 0 2px;
+    margin: 0 2px 2px 2px;
+    font-size: 10px;
+    top: -5px;
+    position: relative;
+    &:hover {
+      border: 1px solid gray;
+      box-shadow: 1px 1px 1px black;
+      color: black;
+    }
+  }
+
+  span.entity-title .tei-p {
+    display: inline
   }
 }

@@ -217,11 +217,17 @@ eleventyNavigation:
         </label>
         <div class="content">
           <h2>Entities</h2>
-          <ul>
+          <ul class="decorated">
             <li v-for="entity in selectedPanel.entities">
-              <div v-html="entity.title"></div>
-              <div v-html="entity.type"></div>
-              <div class="text-rendered view-modern" v-html="entity.target"></div>
+              <span class="entity-title">
+                <span v-if="getClassFromType(entity.type)" class="icon">
+                  <i :class="`type-icon fas ${getClassFromType(entity.type)}`" aria-hidden="true"></i>
+                </span>
+                <span v-html="entity.title"></span>
+              </span>
+              <span class="entity-targets">
+                <div class="text-rendered view-modern" v-for="target in entity.targets" v-html="target"></div>
+              <span>
             </li>
           </ul>
         </div>
