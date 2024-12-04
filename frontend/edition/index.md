@@ -226,7 +226,7 @@ eleventyNavigation:
                 <span v-html="entity.title"></span>
               </span>
               <span class="entity-targets">
-                <div class="text-rendered view-modern" v-for="target in entity.targets" v-html="target"></div>
+                <div :class="`text-rendered view-${selectedPanel.selections.view}`" v-for="target in entity.targets" v-html="target"></div>
               <span>
             </li>
           </ul>
