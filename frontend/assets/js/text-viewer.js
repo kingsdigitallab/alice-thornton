@@ -537,7 +537,7 @@ function setUpTextViewer() {
         const dom = parser.parseFromString(docStr, "text/html");
         let infoBoxes = this._xpath(
           dom,
-          '//span[contains(@class, "is-person")]'
+          '//span[contains(@class, "is-person") or contains(@class, "is-place")]'
         );
         for (let infoBox of infoBoxes) {
           let entity = {
@@ -560,7 +560,6 @@ function setUpTextViewer() {
           } else {
             entities[key] = entity;
           }
-          console.log(entity);
         }
         // dict => list
         panel.entities = Object.values(entities);
