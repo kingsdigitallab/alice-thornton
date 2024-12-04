@@ -578,6 +578,10 @@ function setUpTextViewer() {
         }
         // dict => list
         panel.entities = Object.values(entities);
+        // sort by sortkey
+        panel.entities.sort((a, b) => {
+          return a.id < b.id ? -1 : a.id > b.id ? 1 : 0;
+        });
       },
       _xpath(dom, xpath, parentDom) {
         parentDom = parentDom || dom;
