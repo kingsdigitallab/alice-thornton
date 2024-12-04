@@ -203,7 +203,6 @@ eleventyNavigation:
           <ul>
             <li v-for="note in selectedPanel.notes">
               <sup class="note-symbol">{{note.index}}</sup>
-              <br>
               <div v-html="note.body"></div>
             </li>
           </ul>
@@ -219,15 +218,18 @@ eleventyNavigation:
           <h2>Entities</h2>
           <ul class="decorated">
             <li v-for="entity in selectedPanel.entities">
-              <span class="entity-title">
+              <div class="entity-title">
                 <span v-if="getClassFromType(entity.type)" class="icon">
                   <i :class="`type-icon fas ${getClassFromType(entity.type)}`" aria-hidden="true"></i>
                 </span>
                 <span v-html="entity.title"></span>
-              </span>
-              <span class="entity-targets">
-                <div :class="`text-rendered view-${selectedPanel.selections.view}`" v-for="target in entity.targets" v-html="target"></div>
-              <span>
+              </div>
+              <div class="entity-targets">
+                <template v-for="(target, targetIdx) in entity.targets">
+                  "<span :class="`text-rendered view-${selectedPanel.selections.view}`"    v-html="target"></span>"<template v-if="targetIdx != entity.targets.length - 1">, </template>
+                </template>
+              </div>
+              <div v-if="entity?.index?.bio" class="entity-description">{{ entity.index.bio }}</div>
             </li>
           </ul>
         </div>

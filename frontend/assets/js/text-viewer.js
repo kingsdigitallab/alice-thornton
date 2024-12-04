@@ -1,5 +1,7 @@
 /* eslint-disable no-constant-condition */
 const { createApp } = window.Vue;
+// 2024-12-04
+const TODAY = new Date().toISOString().slice(0, 10);
 
 const CHILD_HOVERED_CLASS = "child-hovered";
 // This should ideally come from the frontmatter of the book pages
@@ -173,7 +175,7 @@ function setUpTextViewer() {
         ],
       };
     },
-    mounted() {
+    async mounted() {
       // for (let panel of this.panels) {
       //   let key = "source";
       //   this.selectDefaultOption(panel, key);
@@ -181,6 +183,7 @@ function setUpTextViewer() {
       //   // this.onChangeSelector(panel, 'document')
       // }
       // http://localhost:8080/books/viewer/?&p0.lo=p.1&p1.do=https://thornton.kdl.kcl.ac.uk/dts/ids/thornton-books/book_one/&p1.lo=p.2&p1.vi=modern
+      await this.loadEntities();
       this.setSelectionFromAddressBar("landing");
       window.addEventListener("popstate", () => {
         this.setSelectionFromAddressBar("back");
@@ -254,6 +257,14 @@ function setUpTextViewer() {
       },
     },
     methods: {
+      async loadEntities() {
+        // load entities index file as a dictionary. Key is the id.
+        let res = await fetch(`../assets/js/entities.json?ts=${TODAY}`);
+        res = await res.json();
+        this.entities = Object.fromEntries(
+          res.data.map((obj) => [obj.id, obj])
+        );
+      },
       clonePanel(panelIdx) {
         this.panels.push(JSON.parse(JSON.stringify(this.panels[panelIdx])));
         this.addEventsToTexts();
@@ -541,11 +552,14 @@ function setUpTextViewer() {
         );
         for (let infoBox of infoBoxes) {
           let entity = {
+            // ppl:wt2
+            id: infoBox.attributes["data-tei-ref"].value,
             title: this._xpath(infoBox, './/span[@class="body"]', dom)[0]
               .outerHTML,
             type: this._xpath(infoBox, './/span[@class="banner"]', dom)[0]
               .textContent,
           };
+          entity.index = this.entities[entity.id];
           infoBox.removeChild(
             this._xpath(
               infoBox,
@@ -553,8 +567,9 @@ function setUpTextViewer() {
               dom
             )[0]
           );
-          entity.targets = [infoBox.innerHTML];
-          let key = entity.title;
+          entity.targets = [infoBox.innerHTML.trim()];
+          console.log(`[${infoBox.innerHTML.trim()}]`);
+          let key = entity.id;
           if (entities[key]) {
             entities[key].targets.push(entity.targets[0]);
           } else {
