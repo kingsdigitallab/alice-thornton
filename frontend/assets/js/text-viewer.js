@@ -160,6 +160,13 @@ function setUpTextViewer() {
                 body: "456",
               },
             ],
+            entities: [
+              {
+                target: "123",
+                title: "456",
+                type: "person",
+              },
+            ],
             error: "",
             loaded: false,
           },
@@ -484,6 +491,7 @@ function setUpTextViewer() {
         this.addEventsToTexts();
 
         this.extractNotes(panel, doc);
+        this.extractEntities(panel, doc);
       },
       extractNotes(panel, docStr) {
         /*
@@ -502,13 +510,51 @@ function setUpTextViewer() {
             './/sup[@class="note-symbol"]',
             dom
           )[0];
-          console.log(noteSymbol);
           let note = {
             index: noteSymbol.textContent,
             body: this._xpath(infoBox, './/span[@class="body"]', dom)[0]
               .outerHTML,
           };
           panel.notes.push(note);
+        }
+      },
+      extractEntities(panel, docStr) {
+        /*
+          <span class="tei-rs tei-type-person has-info-box is-person managed" data-tei="rs" data-tei-ref="ppl:wt2" data-tei-n="per121" data-tei-type="person">
+            my <span class="tei-w not-a-word" data-tei="w" data-tei-norm="sixth"><span class="norm">sixth</span><span class="orig">6<span class="tei-hi" data-tei="hi" data-tei-rend="superscript">th</span></span></span><br class="tei-lb" data-tei="lb"> 
+            <span class="tei-w tei-type-l" data-tei="w" data-tei-norm="child" data-tei-type="l"><span class="norm">child</span><span class="orig">Child</span></span>
+            <span class="tei-note tei-type-person info-box" data-tei="note" data-tei-type="person" style="">
+              <span class="banner">Person </span><span class="body" style="">
+                <a href="/entities/?hi=ppl:wt2">
+                  <span class="tei-p" data-tei="p" data-tei-ref="ppl:wt2">William Thornton (1660-1660)</span>
+                </a>
+              </span>
+            </span>
+          </span>
+        */
+        panel.entities = [];
+        const parser = new DOMParser();
+        const dom = parser.parseFromString(docStr, "text/html");
+        for (let infoBox of this._xpath(
+          dom,
+          '//span[contains(@class, "is-person")]'
+        )) {
+          let entity = {
+            title: this._xpath(infoBox, './/span[@class="body"]', dom)[0]
+              .outerHTML,
+            type: this._xpath(infoBox, './/span[@class="banner"]', dom)[0]
+              .textContent,
+          };
+          infoBox.removeChild(
+            this._xpath(
+              infoBox,
+              './/span[contains(@class, "info-box")]',
+              dom
+            )[0]
+          );
+          entity.target = infoBox.innerHTML;
+          panel.entities.push(entity);
+          console.log(entity);
         }
       },
       _xpath(dom, xpath, parentDom) {

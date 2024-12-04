@@ -193,7 +193,7 @@ eleventyNavigation:
       <br>
       <label>PAGE</label>
       <div class="tab tab-notes">
-        <input type="radio" id="tab-notes" name="tab-group-1" checked>
+        <input type="radio" id="tab-notes" name="tab-group-1">
         <label for="tab-notes">
           <i class="fas fa-quote-left"></i>
           <h2>Notes</h2>
@@ -210,13 +210,20 @@ eleventyNavigation:
         </div>
       </div>
       <div class="tab tab-entities">
-        <input type="radio" id="tab-entities" name="tab-group-1">
+        <input type="radio" id="tab-entities" name="tab-group-1" checked>
         <label for="tab-entities">
           <i class="fas fa-quote-left"></i>
           <h2>Entities</h2>
         </label>
         <div class="content">
           <h2>Entities</h2>
+          <ul>
+            <li v-for="entity in selectedPanel.entities">
+              <div v-html="entity.title"></div>
+              <div v-html="entity.type"></div>
+              <div class="text-rendered view-modern" v-html="entity.target"></div>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="tab tab-citation">
