@@ -64,7 +64,7 @@ eleventyNavigation:
     </div>
   </div>
 
-  <input id="drawer-switch" type="checkbox" checked />
+  <input id="drawer-switch" type="checkbox" :checked="selection.highlightedText" />
 
   <aside id="drawer" role="complementary">
     <!-- <h1><span>Information for:</span>{{ drawerTitle }}</h1> -->
@@ -85,7 +85,7 @@ eleventyNavigation:
     <div class="tabs">
       <label>BOOK</label>
       <div class="tab tab-key">
-        <input type="radio" id="tab-1" name="tab-group-1" data-checked>
+        <input type="radio" id="tab-1" name="tab-group-1" :checked="!selection.highlightedText">
         <label for="tab-1">
           <i class="fas fa-key"></i><h2>Key</h2>
         </label>
@@ -109,7 +109,7 @@ eleventyNavigation:
               </li>
             </ul>
             <h3>Text block</h3>
-            <ul>
+            <ul class="key-list">
               <li class="blank">Blank page or lines<br>
                 <span>grey brackets (details supplied within)</span>
               </li>
@@ -133,7 +133,7 @@ eleventyNavigation:
               </li>   
             </ul>
             <h3>Contextual Materials</h3>
-            <ul>
+            <ul class="key-list">
               <li class="enotes">Editorial Note<br><span>number in note icon intext</span></li>
               <li class="glossary">Gloss<br><span>double underline </span></li>
               <li class="person">Entity (Person) <br><span>dashed underline (circle icon) </span></li>
@@ -142,7 +142,7 @@ eleventyNavigation:
               <li class="biblical">Biblical reference <br><span>gray black underline (cross icon) </span></li>
             </ul> 
             <h3>Images</h3>
-            <ul>
+            <ul class="key-list">
               <li class="image">scanned image of page in the author's original book
                 <br><span>image icon</span>
               </li>
@@ -209,7 +209,7 @@ eleventyNavigation:
         </div>
       </div>
       <div class="tab tab-entities">
-        <input type="radio" id="tab-entities" name="tab-group-1" checked>
+        <input type="radio" id="tab-entities" name="tab-group-1" :checked="selection.highlightedText">
         <label for="tab-entities">
           <i class="fas fa-list"></i>
           <h2>Entities</h2>
