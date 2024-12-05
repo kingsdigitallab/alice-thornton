@@ -42,9 +42,9 @@ You can now access our [partial release](/books/viewer/?p0.vi=modern), in both s
 
 ![A church and leafy churchyard in sunshine]({{ "/assets/img/home/kirklington-church-st.jpg" | url }} "St Michael the Archangel's, Kirklington, where Alice was baptised. &copy; Suzanne Trill"){.media-left}
 
-Most of what we know about Alice Thornton (1626-1707) is drawn from the autobiographical accounts which she left to her eldest daughter in her will. She relates a veritable ‘riches to rags’ story, punctuated by many of what she presents as near-death experiences.
+Most of what we know about Alice Thornton (1626–1707) is drawn from the autobiographical accounts which she left to her eldest daughter in her will. She relates a veritable ‘riches to rags’ story, punctuated by many of what she presents as near-death experiences. 
 
-Born in Kirklington, Yorkshire on 13 February 1626, Alice spent her childhood years in relative comfort in Yorkshire, London and Dublin. She was the fifth child and youngest daughter of Christopher Wandesford (1592-1640) and his wife Alice Osborne (1593-1659). She later wrote that she had her first deliverance from death at age three at Kirklington Hall when she was following her nurse, Sarah, and tripped on a hearth stone and cut her head open.
+Born in Kirklington, Yorkshire on 13 February 1626, Alice spent her childhood years in relative comfort in Yorkshire, London and Dublin. She was the fifth child and youngest daughter of Christopher Wandesford (1592–1640) and his wife Alice Osborne (1593-1659). She later wrote that she had her first deliverance from death at age three at Kirklington Hall when she was following her nurse, Sarah, and tripped on a hearth stone and cut her head open.
 
 ![Oval shaped head and shoulders portrait of a man in early 17th-century clothing. He wears a neatly trimmed moustache and pointed beard.]({{ "/assets/img/home/Christopher-Wandesforde-npg2407-ccbync.jpg" | url }} "Portrait of Christopher Wandesford, <br>National Portrait Gallery (NPG 2407) CC BY-NC-ND"){.media-right}
 
@@ -52,7 +52,7 @@ In 1633, the family relocated to Ireland, as her father's friend and mentor, Tho
 
 After her father’s death, and prompted by the turmoil of the Irish Rebellion, the family moved back to the north of England. However, the following year they were caught up in the events of the civil war. Alice's family were for the king and their estates at Kirklington were confiscated. Parliamentarian and Scottish soldiers were billeted on her mother’s lands in Hipswell, Richmondshire.
 
-When her oldest brother, George, drowned in the river Swale in 1651 – which Alice claimed to have foretold in a dream six months earlier – she reluctantly agreed to marry in order to help secure her own financial future. Her family had settled on William Thornton (1624-1668), a member of the lesser gentry in Ryedale, whose parliamentarian family connections had helped the Wandesfords recover their lands.
+When her oldest brother, George, drowned in the river Swale in 1651 – which Alice claimed to have foretold in a dream six months earlier – she reluctantly agreed to marry in order to help secure her own financial future. Her family had settled on William Thornton (1624–68), a member of the lesser gentry in Ryedale, whose parliamentarian family connections had helped the Wandesfords recover their lands.
 
 ![A 15th-century stone manor house]({{ "/assets/img/home/Hipswell-Hall-st.jpg" | url }} "Hipswell Hall, where Alice lived with her mother <br> &copy; Suzanne Trill"){.media-left}
 
