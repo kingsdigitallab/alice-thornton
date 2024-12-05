@@ -568,7 +568,7 @@ function setUpTextViewer() {
             )[0]
           );
           entity.targets = [infoBox.innerHTML.trim()];
-          console.log(`[${infoBox.innerHTML.trim()}]`);
+          // console.log(`[${infoBox.innerHTML.trim()}]`);
           let key = entity.id;
           if (entities[key]) {
             entities[key].targets.push(entity.targets[0]);
@@ -839,6 +839,19 @@ function setUpTextViewer() {
       setError(panel, message) {
         panel.error = message;
       },
+      async jumpTo(panel, bookId, locus) {
+        // let locus = panel.selections.locus;
+        // let lokeys = Object.keys(panel.selectors.locus);
+        // locus = lokeys[lokeys.indexOf(locus) + steps];
+        let loadDoc = panel.selections.document != bookId;
+        panel.selections.document = bookId;
+        panel.selections.locus = locus;
+        if (loadDoc) {
+          await this.fetchOptions(panel, "document", bookId);
+        } else {
+          await this.fetchOptions(panel, "locus", locus);
+        }
+      },
       incrementLocus(panel, steps) {
         let locus = panel.selections.locus;
         let lokeys = Object.keys(panel.selectors.locus);
@@ -1010,6 +1023,31 @@ function setUpTextViewer() {
           event: "fa-calendar",
         };
         return typesClass[type.toLowerCase().trim()];
+      },
+      // Copied from entities.js
+      // TODO: remove code duplication
+      getLabelFromOptionKey(optionKey) {
+        let labelFromKey = {
+          book_of_remembrances: "Book Rem",
+          book_one: "Book 1",
+          book_two: "Book 2",
+          book_three: "Book 3",
+
+          person: "Person",
+          place: "Place, region",
+          event: "Event",
+        };
+        return labelFromKey[optionKey] || optionKey;
+      },
+      getPageParts(page) {
+        // '123-130' => [123, 130]
+        // '123' => [123]
+        let ret = [...new Set(`${page}`.split("-"))];
+        return ret;
+      },
+      isSinglePage(pages) {
+        let ret = pages.length == 1 && this.getPageParts(pages[0]).length == 1;
+        return ret;
       },
     },
   });

@@ -229,7 +229,27 @@ eleventyNavigation:
                   "<span :class="`text-rendered view-${selectedPanel.selections.view}`"    v-html="target"></span>"<template v-if="targetIdx != entity.targets.length - 1">, </template>
                 </template>
               </div>
-              <div v-if="entity?.index?.bio" class="entity-description">{{ entity.index.bio }}</div>
+              <div v-if="entity?.index?.bio" class="entity-description">{{ entity.index.bio }}</div>              
+              <ul class="result-books" v-if="selection.highlightedText == entity.id">
+                <li v-for="(pages, bookId) in entity.index.pages" class="result-book">
+                  <template v-if="pages.length">
+                    <span>{{ getLabelFromOptionKey(bookId) }}</span>: 
+                    p<template v-if="!isSinglePage(pages)">p</template>.
+                    <template v-for="(page, index) in pages">
+                      <template v-for="(pagePart, partIndex) in getPageParts(page)">
+                        <template v-if="partIndex > 0">&mdash;</template>
+                        <template v-if="isLocusVisible(bookId, pagePart)">
+                          <a :class="{highlighted: selectedPanel.selections.document == bookId && `p.${pagePart}` == selectedPanel.selections.locus}" @click.stop.prevent="jumpTo(selectedPanel, bookId, `p.${pagePart}`)">{{ pagePart }}</a>
+                        </template>
+                        <template v-else>
+                          {{ pagePart }}
+                        </template>
+                      </template>
+                      <template v-if="index < (pages.length - 1)">, </template>
+                    </template>
+                  </template>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
