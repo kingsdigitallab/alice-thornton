@@ -840,9 +840,6 @@ function setUpTextViewer() {
         panel.error = message;
       },
       async jumpTo(panel, bookId, locus) {
-        // let locus = panel.selections.locus;
-        // let lokeys = Object.keys(panel.selectors.locus);
-        // locus = lokeys[lokeys.indexOf(locus) + steps];
         let loadDoc = panel.selections.document != bookId;
         panel.selections.document = bookId;
         panel.selections.locus = locus;
