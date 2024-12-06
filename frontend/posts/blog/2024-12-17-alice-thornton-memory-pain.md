@@ -60,7 +60,7 @@ In any case, Thornton’s memory of this awful episode in her life did not dimin
 
 [^3]: *Book 2*, 17.
 
-[^4]: *Book 3*, 87-88.
+[^4]: *Book 3*, 87—88.
 
 [^5]: E.g., *Book 2*, 155; *Book 3*, 82.
 
