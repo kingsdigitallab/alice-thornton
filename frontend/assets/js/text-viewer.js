@@ -584,7 +584,11 @@ function setUpTextViewer() {
         panel.entities = Object.values(entities);
         // sort by sortkey
         panel.entities.sort((a, b) => {
-          return a.id < b.id ? -1 : a.id > b.id ? 1 : 0;
+          return a.index.sortkey < b.index.sortkey
+            ? -1
+            : a.index.sortkey > b.index.sortkey
+            ? 1
+            : 0;
         });
       },
       _xpath(dom, xpath, parentDom) {
