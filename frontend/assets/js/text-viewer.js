@@ -475,7 +475,7 @@ function setUpTextViewer() {
             for (let panelIdx = 0; panelIdx < this.panels.length; panelIdx++) {
               if (this.panels[panelIdx] == panel) {
                 let panelDOM = window.document.querySelectorAll(
-                  `.panel-wrapper .panel-chunk`
+                  `.panel-wrapper .panel-chunk .content`
                 )[panelIdx];
                 if (panelDOM) {
                   panelDOM.scrollTop = 0;
@@ -857,18 +857,17 @@ function setUpTextViewer() {
         } else {
           await this.fetchOptions(panel, "locus", locus);
         }
-        this.$nextTick(() => {
+        // TODO: 200 is not always long enough,
+        // leading to a scroll to the wrong place
+        setTimeout(() => {
           this.scrollToEntityReferences();
-        });
+        }, 200);
       },
       scrollToEntityReferences() {
         let container = document.querySelector(".tab-entities .content");
-        let references = document.getElementById("entity-references");
-        console.log(container);
-        console.log(references);
+        let references = container.querySelector("#entity-references");
         if (container && references) {
-          console.log("h1");
-          container.scrollIntoView(references);
+          references.scrollIntoView();
         }
       },
       incrementLocus(panel, steps) {
