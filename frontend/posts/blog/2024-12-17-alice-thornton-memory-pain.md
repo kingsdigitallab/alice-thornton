@@ -35,9 +35,7 @@ On finding out these rumours had been spread by people within her own household,
 *Book 3*’s retelling is much more detailed:
 
 >My dear aunt was so concerned to hear I had been so belied that she immediately came to Newton and found me in a manner half dead with grief, upon this alarm that Mrs Danby and her maid raised up against me. I was extremely overjoyed to see her and blessed God for that providence which brought her thither though, at first, they had possessed her with some fears — though never of my giving cause of scandal — that I had been unfortunate in lighting upon some treachery from those of a contrary judgement.
-
 Indeed, her apprehension had some ground for it — being placed amongst so many contrary opinions, who was glad of any pretence to make me not so desirable — for those two factions (of popish and presbyterian) had been some occasion to choose a match for my daughter to secure my children from that education. This, joined with others' self-interests, which was contrary to mine, all made up a cabal with those of my enemies to take fire and spread my misfortune that was raised against me.
-
 ...The excellent comfort, ease and refreshment I received from and by my dear aunt's counsels and prayers and good advice in my trouble, I have great cause to remember with highest gratitude to my heavenly Father who sent me such relief, I may say, from heaven; having a friend nearer than a brother which did succour me in this deep distress and when she brought Dr Samways with her to pray for me, having stayed with me until she saw Mrs Danby sent away to York.[^4]
 
 ![A woman sits next to a fireplace with her head resting against a pillow which is propped up on the wall.]({{"/assets/img/posts/Vrel_An_interior_with_a_sick_woman_by_a_fireplace.jpg" | url}} "Jacob Vrel, An Interior with a Sick Woman by a Fireplace (1654–56). Public domain, via Wikimedia Commons.")
