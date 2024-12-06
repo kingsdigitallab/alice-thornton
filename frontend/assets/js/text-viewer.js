@@ -555,29 +555,30 @@ function setUpTextViewer() {
           '//span[contains(@class, "is-person") or contains(@class, "is-place")]'
         );
         for (let infoBox of infoBoxes) {
-          let entity = {
-            // ppl:wt2
-            id: infoBox.attributes["data-tei-ref"].value,
-            title: this._xpath(infoBox, './/span[@class="body"]', dom)[0]
-              .outerHTML,
-            type: this._xpath(infoBox, './/span[@class="banner"]', dom)[0]
-              .textContent,
-          };
-          entity.index = this.entities[entity.id];
-          infoBox.removeChild(
-            this._xpath(
-              infoBox,
-              './/span[contains(@class, "info-box")]',
-              dom
-            )[0]
-          );
-          entity.targets = [infoBox.innerHTML.trim()];
-          // console.log(`[${infoBox.innerHTML.trim()}]`);
-          let key = entity.id;
-          if (entities[key]) {
-            entities[key].targets.push(entity.targets[0]);
-          } else {
-            entities[key] = entity;
+          let ids = infoBox.attributes["data-tei-ref"];
+          if (!ids) continue;
+          for (let aid of ids.value.trim().split(/\\s+/)) {
+            let indexEntry = this.entities[aid];
+            if (!indexEntry) continue;
+            infoBox.removeChild(
+              this._xpath(
+                infoBox,
+                './/span[contains(@class, "info-box")]',
+                dom
+              )[0]
+            );
+
+            let entity = {
+              targets: [infoBox.innerHTML.trim()],
+              index: indexEntry,
+            };
+
+            // console.log(`[${infoBox.innerHTML.trim()}]`);
+            if (entities[aid]) {
+              entities[aid].targets.push(entity.targets[0]);
+            } else {
+              entities[aid] = entity;
+            }
           }
         }
         // dict => list
@@ -855,6 +856,19 @@ function setUpTextViewer() {
           await this.fetchOptions(panel, "document", bookId);
         } else {
           await this.fetchOptions(panel, "locus", locus);
+        }
+        this.$nextTick(() => {
+          this.scrollToEntityReferences();
+        });
+      },
+      scrollToEntityReferences() {
+        let container = document.querySelector(".tab-entities .content");
+        let references = document.getElementById("entity-references");
+        console.log(container);
+        console.log(references);
+        if (container && references) {
+          console.log("h1");
+          container.scrollIntoView(references);
         }
       },
       incrementLocus(panel, steps) {

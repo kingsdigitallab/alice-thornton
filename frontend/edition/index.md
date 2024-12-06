@@ -222,18 +222,18 @@ eleventyNavigation:
           <ul class="decorated" v-if="selectedPanel.entities.length">
             <li v-for="entity in selectedPanel.entities">
               <div class="entity-title">
-                <span v-if="getClassFromType(entity.type)" class="icon">
-                  <i :class="`type-icon fas ${getClassFromType(entity.type)}`" aria-hidden="true"></i>
+                <span v-if="getClassFromType(entity.index.type)" class="icon">
+                  <i :class="`type-icon fas ${getClassFromType(entity.index.type)}`" aria-hidden="true"></i>
                 </span>
-                <span v-html="entity.title"></span>
+                <a :href="`/entities/?hi=${entity.index.id}`">{{ entity.index.title }}</a>
               </div>
               <div class="entity-targets">
                 <template v-for="(target, targetIdx) in entity.targets">
                   "<span :class="`text-rendered view-${selectedPanel.selections.view}`"    v-html="target"></span>"<template v-if="targetIdx != entity.targets.length - 1">, </template>
                 </template>
               </div>
-              <div v-if="entity?.index?.bio" class="entity-description">{{ entity.index.bio }}</div>              
-              <ul class="result-books" v-if="selection.highlightedText == entity.id">
+              <div v-if="entity?.index?.bio" class="entity-description">{{ entity.index.bio }}</div>
+              <ul id="entity-references" class="result-books" v-if="selection.highlightedText == entity.index.id">
                 <li v-for="(pages, bookId) in entity.index.pages" class="result-book">
                   <template v-if="pages.length">
                     <span>{{ getLabelFromOptionKey(bookId) }}</span>: 
