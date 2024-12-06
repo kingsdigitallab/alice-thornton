@@ -200,12 +200,15 @@ eleventyNavigation:
         </label>
         <div class="content">
           <h2>Notes</h2>
-          <ul>
+          <ul v-if="selectedPanel.notes.length">
             <li v-for="note in selectedPanel.notes">
               <sup class="note-symbol">{{note.index}}</sup>
               <div v-html="note.body"></div>
             </li>
           </ul>
+          <p v-else>
+            There are no editorial notes on this page.
+          </p>
         </div>
       </div>
       <div class="tab tab-entities">
@@ -216,7 +219,7 @@ eleventyNavigation:
         </label>
         <div class="content">
           <h2>Entities</h2>
-          <ul class="decorated">
+          <ul class="decorated" v-if="selectedPanel.entities.length">
             <li v-for="entity in selectedPanel.entities">
               <div class="entity-title">
                 <span v-if="getClassFromType(entity.type)" class="icon">
@@ -252,6 +255,9 @@ eleventyNavigation:
               </ul>
             </li>
           </ul>
+          <p v-else>
+            There are no people or places referenced on this page.
+          </p>
         </div>
       </div>
       <div class="tab tab-citation">

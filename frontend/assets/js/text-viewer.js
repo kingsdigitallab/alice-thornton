@@ -156,18 +156,22 @@ function setUpTextViewer() {
               document: "",
             },
             notes: [
+              /*
               {
                 index: 1,
                 target: "123",
                 body: "456",
               },
+              */
             ],
             entities: [
+              /*
               {
                 target: "123",
                 title: "456",
                 type: "person",
               },
+              */
             ],
             error: "",
             loaded: false,
