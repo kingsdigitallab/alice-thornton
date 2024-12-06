@@ -30,7 +30,7 @@ On finding out these rumours had been spread by people within her own household,
 
 *Book 2* gives this account:
 
->I had likewise the great comfort of several dear friends which came to see me and stayed some time until the extremity of my passion of grief was mitigated (by which I was almost killed).1 These, I thank God, was so fortunate as to return much satisfied of the goodness of God, who would not suffer me to lie too long under the scourge of the tongues of malicious persons but, even in the midst of this misery, gave me some relief (lest that by the multitude of sorrows my life should be swallowed up)[^3]
+>I had likewise the great comfort of several dear friends which came to see me and stayed some time until the extremity of my passion of grief was mitigated (by which I was almost killed). These, I thank God, was so fortunate as to return much satisfied of the goodness of God, who would not suffer me to lie too long under the scourge of the tongues of malicious persons but, even in the midst of this misery, gave me some relief (lest that by the multitude of sorrows my life should be swallowed up)[^3]
 
 *Book 3*’s retelling is much more detailed:
 
