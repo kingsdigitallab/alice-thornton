@@ -3,7 +3,6 @@
 const fs = require("fs");
 
 const sourceEntities = require("../../frontend/assets/js/entities.json");
-const sourceBookPeriods = require("./data/book-writing-periods.json");
 const sourcePoliticalEvents = require("./data/political-events.json");
 
 const target = "../../frontend/assets/js/events.json";
@@ -73,9 +72,6 @@ class Events {
 
   //   8. List of political events from `political-events.json`
   listPoliticalEventsEachYear() {}
-
-  //   6. List of books written in each year
-  listBooksWrittenEachYear() {}
 
   // Write the compiled events data to the target file
   writeJson() {
