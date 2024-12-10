@@ -24,7 +24,7 @@ On finding out these rumours had been spread by people within her own household,
 
 >And lo, when I was yet scarcely recovered of my weakness from this grief and had kept my bed 14 days, it pleased God in his infinite and abundant mercy and goodness to begin to restore that most valued jewel by me and which was endeavoured to be wronged — my good name — by the coming of my dear aunt over to Newton, who had heard the vile reports blazed abroad by Mary Breakes and lies against my innocent soul.[^2]
 
-*Book 1*’s account is more detailed:
+*Book 1*’s account gives more detail about the symptoms of the illness:
 
 >after an immeasurable portion of sorrow and grief (having kept my bed fourteen days, weak and feeble through the exceeding pains of the mother and spleen and other sicknesses thereon) yet at length he raised me up again, giving me a great comfort in my dear aunt Norton's company, who, hearing of my sad misfortune and weakness, came to put a stop to my troubles.[^3] 
 
