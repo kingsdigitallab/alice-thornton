@@ -6,7 +6,7 @@ const sourceEntities = require("../../frontend/assets/js/entities.json");
 const sourcePoliticalEvents = require("./data/political-events.json");
 const sourceLifetimeEvents = require("./data/lifetime-events.json");
 
-const target = "../../frontend/assets/js/events.json";
+const target = "../../frontend/assets/js/events-new.json";
 
 class Events {
   // Default startYear is beginning of decade of AR's birth
@@ -70,7 +70,7 @@ class Events {
   }
 
   // Write the compiled events data to the target file
-  writeJson() {
+  writeJson(encoding = "utf8") {
     const data = {
       meta: {
         // Add metadata to distinguish files generated at different times
@@ -78,11 +78,16 @@ class Events {
       },
       data: this.data,
     };
-    let eventsStr = JSON.stringify(data, null, 2);
-    fs.writeFileSync(target, eventsStr, "utf8");
-    console.log(
-      `WRITE ${target} (${(eventsStr.length / 1024 / 1024).toFixed(2)} MB)`
-    );
+    const eventsStr = JSON.stringify(data, null, 2);
+
+    try {
+      fs.writeFileSync(target, eventsStr, encoding);
+      console.log(
+        `WRITE ${target} (${(eventsStr.length / 1024 / 1024).toFixed(2)} MB)`
+      );
+    } catch (error) {
+      console.error(`Failed to write file ${target}:`, error.message);
+    }
   }
 }
 
@@ -90,11 +95,23 @@ module.exports = Events;
 
 if (require.main === module) {
   const events = new Events();
-  events.countEventsPerYear(sourceEntities, 'event', 'entityEventCount');
-  events.countEventsPerYear(sourcePoliticalEvents, 'political-event', 'politicalEventCount');
-  events.addEventsPerYear(sourceEntities, 'event', 'entityEvents');
-  events.addEventsPerYear(sourcePoliticalEvents, 'political-event', 'politicalEvents');
-  events.addEventsPerYear(sourceLifetimeEvents, 'lifetime-event', 'lifetimeEvents');
-  console.log(events.data);
-  //   events.writeJson();
+  events.countEventsPerYear(sourceEntities, "event", "entityEventCount");
+  events.countEventsPerYear(
+    sourcePoliticalEvents,
+    "political-event",
+    "politicalEventCount"
+  );
+  events.addEventsPerYear(sourceEntities, "event", "entityEvents");
+  events.addEventsPerYear(
+    sourcePoliticalEvents,
+    "political-event",
+    "politicalEvents"
+  );
+  events.addEventsPerYear(
+    sourceLifetimeEvents,
+    "lifetime-event",
+    "lifetimeEvents"
+  );
+//   console.log(events.data);
+  events.writeJson();
 }
