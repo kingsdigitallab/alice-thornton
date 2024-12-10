@@ -48,7 +48,7 @@ The telling and retelling of this incident throws up some interesting questions 
 
 In terms of the long account in *Book 3*, it seems that by the 1690s, nearly 30 years after the event and with Thornton well into her 60s, the passage of time had given her the mental space and distance from the awful event to write more freely and more at length about it. Perhaps *Book 3* was also written long enough after the death of her beloved aunt Norton, who had died in 1683, to serve as a memorial of sorts to her.
 
- ![An extract from an old parish register, including the entry '23. Mrs Norton']({{"/assets/img/posts/Anne_Norton_Parish_Register.jpg" | url}} "Parish register entry showing Anne Norton's burial on 23 December 1683. 'Richmond draft parish register, 1680–91', PR/RM 1/4/8. North Yorkshire County Record Office, Northallerton.")
+![An extract from an old parish register, including the entry '23. Mrs Norton']({{"/assets/img/posts/Anne_Norton_Parish_Register.jpg" | url}} "Parish register entry showing Anne Norton's burial on 23 December 1683. 'Richmond draft parish register, 1680–91', PR/RM 1/4/8. North Yorkshire County Record Office, Northallerton.")
 ---
 
 [^1]: E.g., *Book 2*, 155; *Book 3*, 82.
