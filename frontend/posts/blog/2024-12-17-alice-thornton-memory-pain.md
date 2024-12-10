@@ -46,7 +46,7 @@ So, in the *Book of Remembrances*, Thornton says she was ill for 14 days, and th
 
 The telling and retelling of this incident throws up some interesting questions about the accounts written in the 1680s and 1690s, in *Book 2* and *Book 3*. It is possible that *Book 2*'s omission of Anne Norton's role is about the book's focus and intended purpose: it is preoccupied with her daughters and their inheritance, rather than the events of summer 1668, so this is perhaps simply explained by that.
 
-In terms of the long account in *Book 3*, it seems that by the 1690s, nearly 30 years after the event and with Thornton well into her 60s, the passage of time had given her the mental space and distance from the awful event to write more freely and more at length about it. Perhaps *Book 3* was also written long enough after the death of her beloved aunt Norton, who had died in 1683, to serve as a memorial of sorts to her.
+In terms of the long account in *Book 3*, it seems that by the 1690s, nearly 30 years after the event and with Thornton well into her 60s, the passage of time had given her the mental space and distance from the awful event to write more freely and more at length about it. Perhaps *Book 3* was also written long enough after the death of her beloved aunt Norton, who had died in 1683, to also serve as a memorial to her.
 
 ![An extract from an old parish register, including the entry '23. Mrs Norton']({{"/assets/img/posts/Anne_Norton_Parish_Register.jpg" | url}} "Parish register entry showing Anne Norton's burial on 23 December 1683. 'Richmond draft parish register, 1680–91', PR/RM 1/4/8. North Yorkshire County Record Office, Northallerton.")
 ---
