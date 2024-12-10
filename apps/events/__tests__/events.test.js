@@ -1,6 +1,6 @@
-const testEntities = require("./__mocks__/entities-mock.json");
 const testPoliticalEvents = require("./__mocks__/political-events-mock.json");
 const testLifetimeEvents = require("./__mocks__/lifetime-events-mock.json");
+const testEntities = require("./__mocks__/entities-mock.json");
 const expectedData = require("./events.expected.js");
 const Events = require("../events.js");
 
@@ -49,7 +49,7 @@ describe("Find the earliest year in an EDTF date", () => {
 
 test("Add number of entity events per year", () => {
   const events = new Events(startYear, endYear);
-  events.countEntityEvents(testEntities);
+  events.countEventsPerYear(testEntities, "event", "entityEventCount");
   expect(events.data).toEqual([
     { year: 1650, entityEventCount: 3 },
     { year: 1651, entityEventCount: 2 },
@@ -59,7 +59,11 @@ test("Add number of entity events per year", () => {
 
 test("Add number of political events per year", () => {
   const events = new Events(startYear, endYear);
-  events.countPoliticalEvents(testPoliticalEvents);
+  events.countEventsPerYear(
+    testPoliticalEvents,
+    "political-event",
+    "politicalEventCount"
+  );
   expect(events.data).toEqual([
     { year: 1650, politicalEventCount: 1 },
     { year: 1651, politicalEventCount: 2 },
@@ -69,18 +73,26 @@ test("Add number of political events per year", () => {
 
 test("Add list of entity events per year", () => {
   const events = new Events(startYear, endYear);
-  events.listEntityEventsEachYear(testEntities);
+  events.addEventsPerYear(testEntities, "event", "entityEvents");
   expect(events.data).toEqual(expectedData.expectedEntityEventsList);
 });
 
 test("Add list of political events per year", () => {
   const events = new Events(startYear, endYear);
-  events.listPoliticalEventsEachYear(testPoliticalEvents);
+  events.addEventsPerYear(
+    testPoliticalEvents,
+    "political-event",
+    "politicalEvents"
+  );
   expect(events.data).toEqual(expectedData.expectedPoliticalEventsList);
 });
 
 test("Add list of lifetime events per year", () => {
   const events = new Events(startYear, endYear);
-  events.listLifetimeEventsEachYear(testLifetimeEvents);
+  events.addEventsPerYear(
+    testLifetimeEvents,
+    "lifetime-event",
+    "lifetimeEvents"
+  );
   expect(events.data).toEqual(expectedData.expectedLifetimeEventsList);
 });

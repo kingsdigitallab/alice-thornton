@@ -36,89 +36,38 @@ class Events {
     return match ? parseInt(match[0], 10) : null;
   }
 
-  // Add number of entity events per year
-  countEntityEvents(entities) {
+  // Count number of events per year of specified type
+  countEventsPerYear(eventsData, eventType, propertyName) {
     this.data.forEach((yearEntry) => {
       const year = yearEntry.year;
-      yearEntry.entityEventCount = entities.data.filter(
-        (entity) =>
-          entity.type === "event" && this.findEarliestYear(entity.date) === year
+
+      yearEntry[propertyName] = eventsData.data.filter(
+        (event) =>
+          event.type === eventType && this.findEarliestYear(event.date) === year
       ).length;
     });
   }
 
-  // Add number of political events per year
-  countPoliticalEvents(politicalEvents) {
+  // Add list of events per year of specified type from json file
+  addEventsPerYear(eventsData, eventType, propertyName) {
+    // Initialize the specified property as an empty list for each year
     this.data.forEach((yearEntry) => {
-      const year = yearEntry.year;
-      yearEntry.politicalEventCount = politicalEvents.data.filter(
-        (event) => this.findEarliestYear(event.date) === year
-      ).length;
-    });
-  }
-
-  // Add list of entity events per year from `entities.json`
-  listEntityEventsEachYear(entities) {
-    // Initialise an empty list for each year
-    this.data.forEach((yearEntry) => {
-      if (!yearEntry.entityEvents) {
-        yearEntry.entityEvents = [];
-      }
-    });
-
-    // Iterate through entities to assign them to the correct year
-    entities.data.forEach((entity) => {
-      if (entity.type === "event") {
-        const year = this.findEarliestYear(entity.date);
-        const yearEntry = this.data.find((entry) => entry.year === year);
-        if (yearEntry) {
-          yearEntry.entityEvents.push(entity);
-        }
-      }
-    });
-  }
-
-  // Add list of political events per year from `political-events.json`
-  listPoliticalEventsEachYear(politicalEvents) {
-    // Initialise an empty list for each year
-    this.data.forEach((yearEntry) => {
-      if (!yearEntry.politicalEvents) {
-        yearEntry.politicalEvents = [];
+      if (!yearEntry[propertyName]) {
+        yearEntry[propertyName] = [];
       }
     });
 
     // Iterate through events to assign them to the correct year
-    politicalEvents.data.forEach((event) => {
-      if (event.type === "political-event") {
+    eventsData.data.forEach((event) => {
+      if (event.type === eventType) {
         const year = this.findEarliestYear(event.date);
         const yearEntry = this.data.find((entry) => entry.year === year);
         if (yearEntry) {
-          yearEntry.politicalEvents.push(event);
+          yearEntry[propertyName].push(event);
         }
       }
     });
   }
-
-    // Add list of political events per year from `lifetime-events.json`
-    listLifetimeEventsEachYear(lifetimeEvents) {
-        // Initialise an empty list for each year
-        this.data.forEach((yearEntry) => {
-          if (!yearEntry.lifetimeEvents) {
-            yearEntry.lifetimeEvents = [];
-          }
-        });
-    
-        // Iterate through events to assign them to the correct year
-        lifetimeEvents.data.forEach((event) => {
-          if (event.type === "lifetime-event") {
-            const year = this.findEarliestYear(event.date);
-            const yearEntry = this.data.find((entry) => entry.year === year);
-            if (yearEntry) {
-              yearEntry.lifetimeEvents.push(event);
-            }
-          }
-        });
-      }
 
   // Write the compiled events data to the target file
   writeJson() {
@@ -141,11 +90,11 @@ module.exports = Events;
 
 if (require.main === module) {
   const events = new Events();
-  events.countEntityEvents(sourceEntities);
-  events.listEntityEventsEachYear(sourceEntities);
-  events.countPoliticalEvents(sourcePoliticalEvents);
-  events.listPoliticalEventsEachYear(sourcePoliticalEvents);
-//   events.listLifetimeEventsEachYear(sourceLifetimeEvents);
+  events.countEventsPerYear(sourceEntities, 'event', 'entityEventCount');
+  events.countEventsPerYear(sourcePoliticalEvents, 'political-event', 'politicalEventCount');
+  events.addEventsPerYear(sourceEntities, 'event', 'entityEvents');
+  events.addEventsPerYear(sourcePoliticalEvents, 'political-event', 'politicalEvents');
+  events.addEventsPerYear(sourceLifetimeEvents, 'lifetime-event', 'lifetimeEvents');
   console.log(events.data);
   //   events.writeJson();
 }
