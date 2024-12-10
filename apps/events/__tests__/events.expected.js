@@ -72,4 +72,39 @@ const expectedEntityEventsList = [
   { year: 1652, entityEvents: [] },
 ];
 
-module.exports = { expectedEntityEventsList };
+const expectedPoliticalEventsList = [
+  {
+    year: 1650,
+    politicalEvents: [
+      {
+        type: "political-event",
+        id: "11",
+        title: "War of the Words",
+        description: "",
+        date: "1650",
+      },
+    ],
+  },
+  {
+    year: 1651,
+    politicalEvents: [
+      {
+        type: "political-event",
+        id: "12",
+        title: "Restoration of the Chaise Longue",
+        description: "",
+        date: "1651",
+      },
+      {
+        type: "political-event",
+        id: "13",
+        title: "Battle of Hastings",
+        description: "",
+        date: "1651",
+      },
+    ],
+  },
+  { year: 1652, politicalEvents: [] },
+];
+
+module.exports = { expectedEntityEventsList, expectedPoliticalEventsList };
