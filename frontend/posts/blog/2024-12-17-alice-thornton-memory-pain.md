@@ -42,7 +42,7 @@ So, in the *Book of Remembrances*, Thornton says she was ill for 14 days, and th
 
 *Book 2*'s account is interesting for what it doesn't include: any mention of Aunt Norton in helping her recovery, just the more general 'dear friends'. Whether this omission was purposeful or not is impossible to answer, but it is certainly noteworthy.
 
-*Book 3*'s account is by far the longest. It adds details not mentioned earlier – not least that her aunt found her 'half dead with grief' – this dramatic flourish was not included in earlier accounts. It furthermore gives a much fuller description of her aunt Norton's role in aiding her recovery, telling us that she gave counsel, brought spiritual comfort to her and stayed with her until Anne Danby had left. 
+*Book 3*'s account is by far the longest. It adds details not mentioned earlier – not least that her aunt found her 'half dead with grief' – this dramatic flourish was not included in earlier accounts. It furthermore gives a much fuller description of her aunt Norton's role in aiding her recovery, telling us that she gave counsel, brought spiritual comfort in the form of Dr Samways, and stayed with her until Anne Danby had left. 
 
 The telling and retelling of this incident throws up some interesting questions about the accounts written in the 1680s and 1690s, in *Book 2* and *Book 3*. It is possible that *Book 2*'s omission of Anne Norton's role is about the book's focus and intended purpose: it is preoccupied with her daughters and their inheritance, rather than the events of summer 1668, so this is perhaps simply explained by that.
 
