@@ -107,4 +107,43 @@ const expectedPoliticalEventsList = [
   { year: 1652, politicalEvents: [] },
 ];
 
-module.exports = { expectedEntityEventsList, expectedPoliticalEventsList };
+const expectedLifetimeEventsList = [
+  {
+    year: 1650,
+    lifetimeEvents: [
+      {
+        type: "lifetime-event",
+        id: "21",
+        title: "Birth of a new era",
+        description: "",
+        date: "1650",
+      },
+    ],
+  },
+  {
+    year: 1651,
+    lifetimeEvents: [
+      {
+        type: "lifetime-event",
+        id: "22",
+        title: "Marriage of convenience",
+        description: "",
+        date: "1651",
+      },
+      {
+        type: "lifetime-event",
+        id: "23",
+        title: "Death of a salesman",
+        description: "",
+        date: "1651",
+      },
+    ],
+  },
+  { year: 1652, lifetimeEvents: [] },
+];
+
+module.exports = {
+  expectedEntityEventsList,
+  expectedPoliticalEventsList,
+  expectedLifetimeEventsList,
+};

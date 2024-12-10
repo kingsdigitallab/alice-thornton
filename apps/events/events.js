@@ -4,6 +4,7 @@ const fs = require("fs");
 
 const sourceEntities = require("../../frontend/assets/js/entities.json");
 const sourcePoliticalEvents = require("./data/political-events.json");
+const sourceLifetimeEvents = require("./data/lifetime-events.json");
 
 const target = "../../frontend/assets/js/events.json";
 
@@ -98,6 +99,27 @@ class Events {
     });
   }
 
+    // Add list of political events per year from `lifetime-events.json`
+    listLifetimeEventsEachYear(lifetimeEvents) {
+        // Initialise an empty list for each year
+        this.data.forEach((yearEntry) => {
+          if (!yearEntry.lifetimeEvents) {
+            yearEntry.lifetimeEvents = [];
+          }
+        });
+    
+        // Iterate through events to assign them to the correct year
+        lifetimeEvents.data.forEach((event) => {
+          if (event.type === "lifetime-event") {
+            const year = this.findEarliestYear(event.date);
+            const yearEntry = this.data.find((entry) => entry.year === year);
+            if (yearEntry) {
+              yearEntry.lifetimeEvents.push(event);
+            }
+          }
+        });
+      }
+
   // Write the compiled events data to the target file
   writeJson() {
     const data = {
@@ -123,6 +145,7 @@ if (require.main === module) {
   events.listEntityEventsEachYear(sourceEntities);
   events.countPoliticalEvents(sourcePoliticalEvents);
   events.listPoliticalEventsEachYear(sourcePoliticalEvents);
+//   events.listLifetimeEventsEachYear(sourceLifetimeEvents);
   console.log(events.data);
   //   events.writeJson();
 }

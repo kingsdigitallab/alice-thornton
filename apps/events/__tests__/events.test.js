@@ -1,5 +1,6 @@
 const testEntities = require("./__mocks__/entities-mock.json");
 const testPoliticalEvents = require("./__mocks__/political-events-mock.json");
+const testLifetimeEvents = require("./__mocks__/lifetime-events-mock.json");
 const expectedData = require("./events.expected.js");
 const Events = require("../events.js");
 
@@ -76,4 +77,10 @@ test("Add list of political events per year", () => {
   const events = new Events(startYear, endYear);
   events.listPoliticalEventsEachYear(testPoliticalEvents);
   expect(events.data).toEqual(expectedData.expectedPoliticalEventsList);
+});
+
+test("Add list of lifetime events per year", () => {
+  const events = new Events(startYear, endYear);
+  events.listLifetimeEventsEachYear(testLifetimeEvents);
+  expect(events.data).toEqual(expectedData.expectedLifetimeEventsList);
 });
