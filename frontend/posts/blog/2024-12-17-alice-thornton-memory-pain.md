@@ -20,7 +20,7 @@ This event is a useful example to think about the writing and rewriting of emoti
 
 ![A maid hides behind a door, listening to a conversation taking place between a man and an unknown person in the next room.]({{"/assets/img/posts/eavesdropper_with_a_scolding_woman.jpg" | url}} "Nicolaes Maes, Eavesdropper with a Scolding Woman (1665). Public domain, via Wikimedia Commons.")
 
-On finding out these rumours had been spread by people within her own household, Thornton immediately became very ill, an episode she discusses in all four of her Books. Here is how she describes the incident in the *Book of Remembrances*:
+On finding out these rumours had been spread by people within her own household, Thornton immediately became very ill. Here is how she describes the incident in the *Book of Remembrances*:
 
 >And lo, when I was yet scarcely recovered of my weakness from this grief and had kept my bed 14 days, it pleased God in his infinite and abundant mercy and goodness to begin to restore that most valued jewel by me and which was endeavoured to be wronged — my good name — by the coming of my dear aunt over to Newton, who had heard the vile reports blazed abroad by Mary Breakes and lies against my innocent soul.[^2]
 
