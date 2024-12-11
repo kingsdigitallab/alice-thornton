@@ -42,11 +42,12 @@ Is it possible that the passage of time by the 1690s had given Thornton the ment
 
 ---
 
-[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. *Book 1*, 255.
+[^1]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes. 'affter an unmeasurable Portion of sorow & greife haveing kept my bed 14 daies, weak & feeble through the exceeding paines of the mother & spleene & other sicknesses thereon: yet at length he raised me up againe, giveing me a great Comfort in my deare Aunt Nortons company. whoe hearing of my sad misfortune & weaknesse came to put a stop to my troubles'. *Book 1*, 255.
 
-[^2]: *Book 1*, 256.
+[^2]: 'Such was my deare Aunts caire & charitable affection towards me. seeing me in such a deplorable a condittion of weaknesse & greife for these infinit wrongs & slanders; that she see I did not take any comfort in my life. & that I could not sleepe but still the frights & terrour seised upon me, as if those 2 persons which soe abused me were standing ready to teare my Eyes & as I fancied in my dreams would have killd me; soe grand an apprehension, I had of those words & actions I have related'. *Book 1*, 256.
 
-[^3]: *Book 3*, 87—88.
+[^3]: 'My deare Aunt was soe consernd to heare I had bin soe belied that she immeadiatly came to newton & found me in a manner halfe dead with greife...When my deare Aunt understood all those bitter Pills I had prepared for me she very much commiserated my condition and did use her uttmost indeavour to find out the injurious Practices against me...she plaid a true christians Part to me in clearing my wronged Innocency both to my Lady wivill. Mr Darcy. Dr Samwayes and my Lady yorke...& when she brought Dr Sammoies with her to pray for me haveing staid with me till she saw Mrs Danby sent away to york which I did, & borrid Mrs Gramses Coach to carry her with a maid to waite on her. I allso tooke my last leave of her and gave her other 3l1 to releive her with all added to the 5l I sent before to her
+which made up the somme of 8l which she had then...My deare Aunt did not only give me this Comfort but affter she went home, did me all the good offices immaginabl as to sett all my freinds aright in there judgement of all my actions & cleared my innocency by relating those Passages she observed & heard the matters carrid at Newton'. *Book 3*, 87—88.
 
 [^4]: Anne Danby to Parson Farrer, 10 December (1668/69) [MIC 2281], ZS - Cunliffe-Lister Muniments, North Yorkshire County Record Office, Northallerton.
 
