@@ -1,5 +1,6 @@
 ---
 title: Bibliography
+
 ---
 
 ## Manuscript sources 
