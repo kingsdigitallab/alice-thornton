@@ -2,6 +2,7 @@
 title: Bibliography
 
 ---
+<p>&nbsp;</p>
 
 ## Manuscript sources 
 
