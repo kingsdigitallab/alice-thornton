@@ -370,15 +370,15 @@ Earle, Rebecca. ‘Food’. In *A Cultural History of Medicine* edited by Roger 
 
 Eckerle, Julie A. ‘Elite English Girlhood in Early Modern Ireland: The Examples of Mary Boyle and Alice Wandesford’. In *The Youth of Early Modern Women*, edited by Elizabeth S. Cohen and Margaret Reeves, 160–77. Amsterdam: Amsterdam University Press, 2018.  
 
-Edge, Joanne. 'Alice Thornton, Memory and Middleham Castle', *Alice Thornton’s Books*, 25 July 2022, https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/.    
+Edge, Joanne. 'Alice Thornton, Memory and Middleham Castle', *Alice Thornton’s Books*, 25 July 2022. https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/.    
 
--- Forbidden Fruit?'. *History Workshop Journal* (blog), 30 August 2023. https://www.historyworkshop.org.uk/food/forbidden-fruit/.   
-
--- ‘“But I gave her all medicines”: Herbal Remedies in Alice Thornton's Books’. *Alice Thornton’s Books*, 16 November 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-11-16-alice-thornton-herbal-medicine/. 
+-- 'Black Monday: The Solar Eclipse of 1652'. *Alice Thornton’s Books*, 25 October 2022. https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652. 
 
 -- ‘“Tragical Transactions at Newton”: Thornton's Niece Responds’. *Alice Thornton’s Books*, 15 June 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/.  
 
--- 'Black Monday: The Solar Eclipse of 1652'. *Alice Thornton’s Books*. https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652. 
+-- Forbidden Fruit?'. *History Workshop Journal*, 30 August 2023. https://www.historyworkshop.org.uk/food/forbidden-fruit/.   
+
+-- ‘“But I gave her all medicines”: Herbal Remedies in Alice Thornton's Books’. *Alice Thornton’s Books*, 16 November 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-11-16-alice-thornton-herbal-medicine/.
 
 Erickson, Amy Louise. 'Common Law versus Common Practice: The Use of Marriage Settlements in Early Modern England'. *Economic History Review* 43, no. 1 (1990): 21–39.  
 
