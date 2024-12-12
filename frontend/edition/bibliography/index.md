@@ -264,9 +264,9 @@ Beattie, Cordelia. ‘The Life Cycle: The Ages of Medieval Women’. In *A Cultu
 
 --  'A House Divided: How Did the Thorntons Feel about the Restoration of Charles II?'. *Alice Thornton’s Books*, 12 September 2022. https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided. 
 
---  ‘“Bringing up a chicken to peck out their eye”: A niece’s betrayal’, *British Library: Untold Lives*, 30 May 2023. https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html.  
+-- 'Alice Thornton on the Coronation of Charles II: The North Remembers (sort of)'. *Alice Thornton's Books*, 23 April 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-04-23-coronation-charles-II/. 
 
--- 'Alice Thornton on the Coronation of Charles II: The North Remembers (sort of)'. *Alice Thornton's Books*, 23 April 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-04-23-coronation-charles-II/.   
+--  ‘“Bringing up a chicken to peck out their eye”: A niece’s betrayal’, *British Library: Untold Lives*, 30 May 2023. https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html.  
 
 -- ‘Finding Alice Thornton's Letters’, *Alice Thornton’s Books*, 1 September 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/.  
 
