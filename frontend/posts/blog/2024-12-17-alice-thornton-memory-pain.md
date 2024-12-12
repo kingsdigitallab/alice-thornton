@@ -17,7 +17,7 @@ In what follows, I look at how Thornton’s account of one particular instance o
 
 ![A maid hides behind a door, listening to a conversation taking place between a man and an unknown person in the next room.]({{"/assets/img/posts/eavesdropper_with_a_scolding_woman.jpg" | url}} "Nicolaes Maes, Eavesdropper with a Scolding Woman (1665). Public domain, via Wikimedia Commons.")
 
-While this [event](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-11-28-tei-events-thornton-books/) is recounted across all four Books, here I will focus on two different versions – from Book 1 (written c.1668–69); and in Book 3 (written c. 1692–96) to explore how Thornton's retelling of this illness changed with time.
+While this [event](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-11-28-tei-events-thornton-books/) is recounted across all four Books, here I will focus on two different versions – from *Book 1* (written c.1668–69); and in *Book 3* (written c. 1692–96) to explore how Thornton's retelling of this illness changed with time.
 
 In the earlier version in *Book 1*, the narration is contained within two paragraphs, that appear on consecutive pages, and runs to a total of 193 words: 
 
