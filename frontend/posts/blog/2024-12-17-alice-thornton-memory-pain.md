@@ -19,7 +19,7 @@ In what follows, I look at how Thornton’s account of one particular instance o
 
 While this [event](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-11-28-tei-events-thornton-books/) is recounted across all four Books, here I will focus on two different versions – from *Book 1* (written c.1668–69); and in *Book 3* (written c. 1692–96) to explore how Thornton's retelling of this illness changed with time.
 
-In the earlier version in *Book 1*, the narration is contained within two paragraphs, that appear on consecutive pages, and runs to a total of 193 words: 
+In the earlier version in *Book 1*, the narration is contained within two paragraphs, that appear on consecutive pages, and runs to just under 200 words: 
 
 >And now I am to take notice of the grand mercies of my God that would not let me perish through the evil imagination of those that rose up against me, but after an immeasurable portion of sorrow and grief (having kept my bed fourteen days, weak and feeble through the exceeding pains of the mother and spleen and other sicknesses thereon) yet at length he (God) raised me up again, giving me a great comfort in my dear aunt Norton's company, who, hearing of my sad misfortune and weakness, came to put a stop to my troubles.[^1] 
 
