@@ -260,11 +260,11 @@ Barker, Sheila. 'Poussin, Plague, and Early Modern Medicine'. *Art Bulletin* 86,
 
 Barrow, J. S., J. D. Herson, A. H. Lawes, P. J. Riden and M. V. J. Seaborne. 'Economic infrastructure and institutions: Water transport'. In *A History of the County of Chester: Volume 5 Part 2, the City of Chester: Culture, Buildings, Institutions*, edited by A. T. Thacker and C. P. Lewis, 83–91. London: Victoria County History, 2005.  
 
-Beattie, Cordelia. ‘“Bringing up a chicken to peck out their eye”: A niece’s betrayal’, *British Library: Untold lives* (blog), 30 May 2023, https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html.  
+Beattie, Cordelia. ‘“Bringing up a chicken to peck out their eye”: A niece’s betrayal’, *British Library: Untold Lives*, 30 May 2023. https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html.  
 
--- ‘The Life Cycle: The Ages of Medieval Women’. In *A Cultural History of Women*, edited by Linda Kalof, vol. 2, The Middle Ages, edited by Kim M. Phillips, 15–38. London: Bloomsbury, 2013.  
+-- ‘The Life Cycle: The Ages of Medieval Women’. In *A Cultural History of Women*, edited by Linda Kalof, vol. 2, *The Middle Ages*, edited by Kim M. Phillips, 15–38. London: Bloomsbury, 2013.  
 
--- 'Alice Thornton on the Coronation of Charles II: The North Remembers (sort of)'. *Alice Thornton's Books* (blog). https://thornton.kdl.kcl.ac.uk/posts/blog/2023-04-23-coronation-charles-II/.   
+-- 'Alice Thornton on the Coronation of Charles II: The North Remembers (sort of)'. *Alice Thornton's Books*, 23 April 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-04-23-coronation-charles-II/.   
 
 -- ‘Finding Alice Thornton's Letters’, *Alice Thornton’s Books*, 1 September 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/.  
 
