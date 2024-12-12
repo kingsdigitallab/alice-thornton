@@ -39,7 +39,8 @@ Although we are not digitising the manuscripts, we will provide some sample imag
 
 You can now access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions. See also our second release of the [search function](/entities/).
 
-We would appreciate all feedback so please click on the button at the bottom right or email us - alicethorntonsbooks at gmail dot com - to let us know your thoughts.
+Feedback is especially welcome as we work towards our final release in February 2025; see the icon on the bottom right.
+
 
 ## Background
 
