@@ -6,7 +6,7 @@ const sourceEntities = require("../../frontend/assets/js/entities.json");
 const sourcePoliticalEvents = require("./data/political-events.json");
 const sourceLifetimeEvents = require("./data/lifetime-events.json");
 
-const target = "../../frontend/assets/js/events-new.json";
+const target = "../../frontend/assets/js/events.json";
 
 class Events {
   // Default startYear is beginning of decade of AR's birth

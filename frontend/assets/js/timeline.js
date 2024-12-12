@@ -1,25 +1,29 @@
 /* global d3 */
 
 // JSON containing the event data
-const eventsSource = "/assets/js/event-counts-by-year.json";
+const eventsSource = "/assets/js/events.json";
 
 // Map the keys in the data to the desired table headers
 const tableHeaderMapping = {
   year: "Year",
-  event: "Number of Events",
-  important: "Number of Important Historical Events",
+  entityEventCount: "Number of Book Events",
+  politicalEventCount: "Number of Historical and Political Events",
+  entityEvents: "Events Recorded in Alice Thornton's Books",
+  politicalEvents: "Coinciding Historical and Political Events",
+  lifetimeEvents: "Important Events During Alice Thornton's Lifetime",
 };
 
 // Function to create a table for each decade of events
 function createTableForEachDecade(data) {
+  const yearObjects = data.data;
   // Group data by decade
   const groupedByDecade = d3.group(
-    data,
+    yearObjects,
     (row) => Math.floor(row.year / 10) * 10
   );
 
   // Non-linear scale to make smaller bubbles a bit larger relatively
-  const maxEventCount = d3.max(data, (d) => d.event); // Maximum number of events in any year
+  const maxEventCount = d3.max(yearObjects, (d) => d.entityEventCount); // Maximum number of events in any year
   const scale = d3
     .scalePow()
     .exponent(0.8)
@@ -71,7 +75,7 @@ function createTable(data, decade, scale) {
     .attr("class", (d) => (d.value > 0 ? `${d.header} present` : d.header))
     // Set CSS variable for 'event' cells only
     .style("--event-value", (d) =>
-      d.header === "event" ? `${scale(d.value)}%` : null
+      d.header === "entityEventCount" ? `${scale(d.value)}%` : null
     )
     // Wrap the cell content in a <span> for display purposes
     .append("span")

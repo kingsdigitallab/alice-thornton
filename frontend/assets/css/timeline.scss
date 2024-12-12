@@ -252,7 +252,7 @@ html {
             visibility: visible; // Ensure it's accessible to screen readers
           }
 
-          &.event {
+          &.entityEventCount {
             width: calc(var(--event-value) / 1);
             padding-bottom: calc(var(--event-value) / 1);
             display: inline-block;
@@ -281,7 +281,7 @@ html {
             & span {
               transform: translate(-50%, -120%);
             }
-          } //&.event
+          } //&.entityEventCount
           &.year {
             position: absolute;
             margin-bottom: 0;
@@ -294,7 +294,7 @@ html {
               opacity: 1;
             }
           } //.year
-          &.important {
+          &.politicalEventCount {
             width: 1vw;
             height: 1vw;
             display: inline-block;
@@ -312,7 +312,7 @@ html {
             & span {
               transform: translate(-250%, 30%) rotate(-45deg);
             } //& span
-          } //&.important
+          } //&.politicalEventCount
         } //td
       } //tr
     } //tbody
@@ -403,7 +403,7 @@ html {
           visibility: visible; // Ensure it's accessible to screen readers
         }
 
-        &.event {
+        &.entityEventCount {
           /*background-image: linear-gradient(
               0deg,
               rgba(128, 31, 0, 0.5) 0,
@@ -461,7 +461,7 @@ html {
             font-size: 1vw;
           }
         } //.year
-        &.important {
+        &.politicalEventCount {
           width: 1vw;
           height: 1vw;
           display: inline-block;
