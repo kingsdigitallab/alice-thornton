@@ -456,7 +456,7 @@ Houlbrooke, Ralph A. *The English Family 1450–1700*. London: Longman, 1984.
 
 Howard, Sharon. 'Imagining the Pain and Peril of Seventeenth-Century Childbirth: Travail and Deliverance in the Making of an Early Modern World'. *Social History of Medicine* 16, no. 3 (2003): 367–82.  
 
--- 'At the Margins of Alice Thornton's Books'. *Alice Thornton's Books*, https://thornton.kdl.kcl.ac.uk/posts/blog/2023-07-10-at-the-margins/. 
+-- 'At the Margins of Alice Thornton's Books'. *Alice Thornton's Books*, 10 July 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-07-10-at-the-margins/. 
 
 Huggins, Mike. *Horse Racing and British Society in the Long Eighteenth Century*. Woodbridge: Boydell, 2018. 
 
@@ -516,7 +516,7 @@ Mansell, Charmian. ‘The Variety of Women's Experiences as Servants in England 
 
 Marsh, Christopher. '“Common Prayer” in England 1560–1640: The View from the Pew'. *Past & Present* 171 (2001): 66–94. 
 
-Marshall, Emma. '"The Best That Ever I Had": Gifting a Medical Recipe in Early Modern Yorkshire'. *Hypotheses*. *The Recipes Project*, 13 May 2021, https://recipes.hypotheses.org/17928.  
+Marshall, Emma. '"The Best That Ever I Had": Gifting a Medical Recipe in Early Modern Yorkshire'. *Hypotheses*. *The Recipes Project*, 13 May 2021. https://recipes.hypotheses.org/17928.  
 
 Marshall, Peter. *Reformation England 1480-1642*, 2nd edition. London: Bloomsbury, 2012. 
 
@@ -578,7 +578,7 @@ Prior, Mary. ‘Wives and Wills 1558–1700’. In *English Rural Society 1500�
 
 Purkiss, Diane. *The Witch in History: Early Modern and Twentieth-Century Representations*. London: Routledge, 1996.  
 
-Ralley, Robert and Lauren Kassell. 'Pigeon Slippers'. *Hypotheses*. *The Recipes Project*. https://recipes.hypotheses.org/15085.  
+Ralley, Robert and Lauren Kassell. 'Pigeon Slippers'. *Hypotheses*. *The Recipes Project*, 23 May 2019. https://recipes.hypotheses.org/15085.  
 
 Read, Sara. *Menstruation and the Female Body in Early Modern England*. London: Palgrave Macmillan, 2013.  
 
