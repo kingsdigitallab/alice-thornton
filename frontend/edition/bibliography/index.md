@@ -2,10 +2,6 @@
 title: Bibliography
 ---
 
-## Heading
-
-...
-
 ## Manuscript sources 
 
 **Beverley, East Riding Record Office**
@@ -95,7 +91,7 @@ Anne Danby, ‘An Accompt’. [MIC 2281]. ZS − The Swinton Archive.
 
 ‘Alice Thornton to Lady Yarbrough at Her House at Snaith, April 1700’.  
 
- 
+<p>&nbsp;</p>
 
 ## Published primary sources 
 
@@ -224,6 +220,7 @@ Willis, Thomas. *The London Practice of Physick* […]. London: Thomas Basset an
 
 Wittie, Robert. *Scarbrough Spaw* […]. London: Charles Tyus, 1660 
 
+<p>&nbsp;</p>
  
 ## Secondary sources 
 
@@ -385,7 +382,7 @@ Edge, Joanne. 'Alice Thornton, Memory and Middleham Castle', *Alice Thornton’s
 
 Erickson, Amy Louise. 'Common Law versus Common Practice: The Use of Marriage Settlements in Early Modern England'. *Economic History Review* 43, no. 1 (1990): 21–39.  
 
--- *Women and Property in Early Modern England. London: Routledge, 1995.
+-- *Women and Property in Early Modern England*. London: Routledge, 1995.
 
 Estevez, Escardiel Gonzalez. 'Indigenous angels: hybridity and troubled identities in the Iberian network'. *Renaissance Studies* 34, no. 4 (2020): 688–89.  
 
