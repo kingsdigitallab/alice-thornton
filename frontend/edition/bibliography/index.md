@@ -89,7 +89,7 @@ Anne Danby, ‘An Accompt’. [MIC 2281]. ZS − The Swinton Archive.
  
 **York, Borthwick Institute for Archives**
 
-‘Alice Thornton to Lady Yarbrough at Her House at Snaith, April 1700’.  
+‘Alice Thornton to Lady Yarbrough at Her House at Snaith, April 1700’, YM/CP/1, 2/5, 15.  
 
 <p>&nbsp;</p>
 
@@ -161,8 +161,6 @@ Hammond, Samuel. *Gods Judgements upon Drunkards, Swearers, and Sabbath-breakers
 Jones, Henry. *A Remonstrance of Divers Remarkeable Passages Concerning the Church and Kingdome of Ireland*. London: Godfrey Emerson and William Bladon, 1642. 
 
 *Journal of the House of Lords*, vol. 8, 1645–1647. London: His Majesty's Stationary Office, 1767–1830. 
- 
-Holme, Randle. *The Academy of Armory, or a Storehouse of Armory & Blazon*, vol. 3. Chester: s.n., 1688. cited in Raymond A. Anselment, *My First Booke of My Life: Alice Thornton*. 
 
 Hobbes, Thomas. *The Questions Concerning Liberty, Necessity, and Chance* […]. London, Andrew Crook, 1656.  
 
