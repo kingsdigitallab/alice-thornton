@@ -13,6 +13,45 @@ const tableHeaderMapping = {
   lifetimeEvents: "Important Events During Alice Thornton's Lifetime",
 };
 
+// Helper function to output HTML from data array
+// Complex event data is returned in list format for display intended as a modal
+// Primitive (single) values are returned as-is wrapped in a <span> for display
+function renderCellContent(cellData, container) {
+  // Handle complex event data (array values)
+  if (Array.isArray(cellData)) {
+    const className = container.attr("class");
+
+    // Wrap everything in the cell in a <div>
+    const cellContainer = container
+      .attr("aria-expanded", "false")
+      .append("div")
+      .attr("class", "modal-content visually-hidden");
+
+    // Only add heading and list if there are items
+    if (cellData.length > 0) {
+      // Add heading based on column heading
+      cellContainer.append("h3").text(() => {
+        return tableHeaderMapping[className] || "";
+      });
+
+      // Add a list to hold all the event items
+      const listContainer = cellContainer
+        .append("ul")
+        .attr("class", () => `items-${className}`);
+
+      cellData.forEach((item) => {
+        listContainer
+          .append("li")
+          .attr("class", `item-${item.type}`)
+          .text(item.title);
+      });
+    }
+  } else {
+    // Handle simple data (primitive values)
+    container.append("span").text(cellData != null ? cellData : "N/A");
+  }
+}
+
 // Function to create a table for each decade of events
 function createTableForEachDecade(data) {
   const yearObjects = data.data;
@@ -62,7 +101,12 @@ function createTable(data, decade, scale) {
 
   // Add table rows
   const rows = table.append("tbody");
-  rows.selectAll("tr").data(data).enter().append("tr");
+  rows
+    .selectAll("tr")
+    .data(data)
+    .enter()
+    .append("tr")
+    .attr("class", (d) => `details-${d.year}`);
 
   // Add table data (cells) to rows
   rows
@@ -77,9 +121,8 @@ function createTable(data, decade, scale) {
     .style("--event-value", (d) =>
       d.header === "entityEventCount" ? `${scale(d.value)}%` : null
     )
-    // Wrap the cell content in a <span> for display purposes
-    .append("span")
-    .text((d) => d.value);
+    // Render cell content HTML
+    .each((d, i, nodes) => renderCellContent(d.value, d3.select(nodes[i])));
 }
 
 // Load the data JSON and then create the tables
