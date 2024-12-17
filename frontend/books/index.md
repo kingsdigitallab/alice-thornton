@@ -48,7 +48,7 @@ When Alice Thornton died in 1707, she bequeathed ‘three Books of my own Medita
 
 In the introduction to his nineteenth-century edition, Charles C. Jackson refers to all four manuscripts; after this, however, the location of the manuscript books was unclear for many years.
 
-In 1982 and 1994, two manuscripts re-emerged and were sold to a private buyer, Paula Peyraud. These manuscript books were resold in 2009 and are now held at the [British Library](http://searcharchives.bl.uk/IAMS_VU2:LSCOP_BL:IAMS032-000000125) (BL).
+In 1982 and 1994, two manuscripts re-emerged and were sold to a private buyer, Paula Peyraud. These manuscript books were resold in 2009 and are now held at the British Library (BL).
 
 In 2018 and 2019, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both manuscript books form part of the [Comber Collection](https://n2t.durham.ac.uk/ark:/32150/s2hm50tr76x.xml) at DCL.
 
