@@ -11,7 +11,7 @@ tags:
 
 ![Photo of small book with damaged front cover]({{"/assets/img/posts/book-remembrances-outside-first-sighting.jpg" | url}} "Book of Remembrances: Derek Beattie"){.media-left}
 
-I got my partner to put the children to bed while I did a quick look up of Thornton’s manuscripts, starting with the valuable resource that is the [Catalogue of English Literary Manuscripts 1450–1700 (CELM)](https://celm-ms.org.uk/authors/thorntonalice.html) . This suggested that a few of Thornton’s manuscripts were currently untraced, with the only ones accounted for being the two acquired by the [British Library in 2009](http://searcharchives.bl.uk/IAMS_VU2:LSCOP_BL:IAMS032-000000125).
+I got my partner to put the children to bed while I did a quick look up of Thornton’s manuscripts, starting with the valuable resource that is the [Catalogue of English Literary Manuscripts 1450–1700 (CELM)](https://celm-ms.org.uk/authors/thorntonalice.html) . This suggested that a few of Thornton’s manuscripts were currently untraced, with the only ones accounted for being the two acquired by the British Library in 2009.
 
 I asked my dad for a few more details: how many pages does the book have? What size is it? From the replies, I suspected that it was the book described by Jackson as ‘a small memorandum book three and a half by two and a half inches in size, and consisting of about 196 pages, which has the appearance of having been Mrs. Thornton's original “Booke of Remembrances”’.[^1] My dad’s friend said I was welcome to come and look at it, which I did as soon as there was a break in the teaching semester.
 
