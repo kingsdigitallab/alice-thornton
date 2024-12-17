@@ -3,7 +3,7 @@ title: "Alice Thornton and the Rewriting of Emotional Pain"
 feature: /assets/img/posts/Cornelis_Bisschop_Old_Woman_Sleeping.jpg
 authors:
   - jedge
-status: draft
+status: live
 tags:
   - medicine
   - emotions
