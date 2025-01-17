@@ -3,7 +3,7 @@
 const fs = require("fs");
 
 const sourceEntities = require("../../frontend/assets/js/entities.json");
-const sourcePoliticalEvents = require("./data/political-events.json");
+const sourceHistoricalEvents = require("./data/historical-events.json");
 const sourceLifetimeEvents = require("./data/lifetime-events.json");
 
 const target = "../../frontend/assets/js/events.json";
@@ -97,15 +97,15 @@ if (require.main === module) {
   const events = new Events();
   events.countEventsPerYear(sourceEntities, "event", "entityEventCount");
   events.countEventsPerYear(
-    sourcePoliticalEvents,
-    "political-event",
-    "politicalEventCount"
+    sourceHistoricalEvents,
+    "historical-event",
+    "historicalEventCount"
   );
   events.addEventsPerYear(sourceEntities, "event", "entityEvents");
   events.addEventsPerYear(
-    sourcePoliticalEvents,
-    "political-event",
-    "politicalEvents"
+    sourceHistoricalEvents,
+    "historical-event",
+    "historicalEvents"
   );
   events.addEventsPerYear(
     sourceLifetimeEvents,

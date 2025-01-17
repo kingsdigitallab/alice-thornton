@@ -1,4 +1,4 @@
-const testPoliticalEvents = require("./__mocks__/political-events-mock.json");
+const testHistoricalEvents = require("./__mocks__/historical-events-mock.json");
 const testLifetimeEvents = require("./__mocks__/lifetime-events-mock.json");
 const testEntities = require("./__mocks__/entities-mock.json");
 const expectedData = require("./events.expected.js");
@@ -57,17 +57,17 @@ test("Add number of entity events per year", () => {
   ]);
 });
 
-test("Add number of political events per year", () => {
+test("Add number of historical events per year", () => {
   const events = new Events(startYear, endYear);
   events.countEventsPerYear(
-    testPoliticalEvents,
-    "political-event",
-    "politicalEventCount"
+    testHistoricalEvents,
+    "historical-event",
+    "historicalEventCount"
   );
   expect(events.data).toEqual([
-    { year: 1650, politicalEventCount: 1 },
-    { year: 1651, politicalEventCount: 2 },
-    { year: 1652, politicalEventCount: 0 },
+    { year: 1650, historicalEventCount: 1 },
+    { year: 1651, historicalEventCount: 2 },
+    { year: 1652, historicalEventCount: 0 },
   ]);
 });
 
@@ -77,14 +77,14 @@ test("Add list of entity events per year", () => {
   expect(events.data).toEqual(expectedData.expectedEntityEventsList);
 });
 
-test("Add list of political events per year", () => {
+test("Add list of historical events per year", () => {
   const events = new Events(startYear, endYear);
   events.addEventsPerYear(
-    testPoliticalEvents,
-    "political-event",
-    "politicalEvents"
+    testHistoricalEvents,
+    "historical-event",
+    "historicalEvents"
   );
-  expect(events.data).toEqual(expectedData.expectedPoliticalEventsList);
+  expect(events.data).toEqual(expectedData.expectedHistoricalEventsList);
 });
 
 test("Add list of lifetime events per year", () => {

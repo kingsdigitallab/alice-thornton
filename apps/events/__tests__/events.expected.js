@@ -72,12 +72,12 @@ const expectedEntityEventsList = [
   { year: 1652, entityEvents: [] },
 ];
 
-const expectedPoliticalEventsList = [
+const expectedHistoricalEventsList = [
   {
     year: 1650,
-    politicalEvents: [
+    historicalEvents: [
       {
-        type: "political-event",
+        type: "historical-event",
         id: "11",
         title: "War of the Words",
         description: "",
@@ -87,16 +87,16 @@ const expectedPoliticalEventsList = [
   },
   {
     year: 1651,
-    politicalEvents: [
+    historicalEvents: [
       {
-        type: "political-event",
+        type: "historical-event",
         id: "12",
         title: "Restoration of the Chaise Longue",
         description: "",
         date: "1651",
       },
       {
-        type: "political-event",
+        type: "historical-event",
         id: "13",
         title: "Battle of Hastings",
         description: "",
@@ -104,7 +104,7 @@ const expectedPoliticalEventsList = [
       },
     ],
   },
-  { year: 1652, politicalEvents: [] },
+  { year: 1652, historicalEvents: [] },
 ];
 
 const expectedLifetimeEventsList = [
@@ -144,6 +144,6 @@ const expectedLifetimeEventsList = [
 
 module.exports = {
   expectedEntityEventsList,
-  expectedPoliticalEventsList,
+  expectedHistoricalEventsList,
   expectedLifetimeEventsList,
 };
