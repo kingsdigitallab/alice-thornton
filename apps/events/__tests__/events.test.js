@@ -71,6 +71,21 @@ test("Add number of historical events per year", () => {
   ]);
 });
 
+test("Add number of birth events per year", () => {
+  const events = new Events(startYear, endYear);
+  events.countEventsPerYear(
+    testLifetimeEvents,
+    "lifetime-event",
+    "birthEventCount",
+    "birth"
+  );
+  expect(events.data).toEqual([
+    { year: 1650, birthEventCount: 1 },
+    { year: 1651, birthEventCount: 0 },
+    { year: 1652, birthEventCount: 0 },
+  ]);
+});
+
 test("Add list of entity events per year", () => {
   const events = new Events(startYear, endYear);
   events.addEventsPerYear(testEntities, "event", "entityEvents");

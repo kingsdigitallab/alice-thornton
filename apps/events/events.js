@@ -36,15 +36,26 @@ class Events {
     return match ? parseInt(match[0], 10) : null;
   }
 
-  // Count number of events per year of specified type
-  countEventsPerYear(eventsData, eventType, propertyName) {
+  // Count number of events per year of specified type, with optional subtype
+  // Optional subtype is the starting substring of the "title" field
+  // Subtype is case insensitive
+  countEventsPerYear(
+    eventsData,
+    eventType,
+    propertyName,
+    titleStartSubstring = null
+  ) {
     this.data.forEach((yearEntry) => {
       const year = yearEntry.year;
 
-      yearEntry[propertyName] = eventsData.data.filter(
-        (event) =>
-          event.type === eventType && this.findEarliestYear(event.date) === year
-      ).length;
+      yearEntry[propertyName] = eventsData.data.filter((event) => {
+        const matchesType = event.type === eventType;
+        const matchesYear = this.findEarliestYear(event.date) === year;
+        const matchesSubstring = titleStartSubstring
+          ? event.title && event.title.toLowerCase().startsWith(titleStartSubstring.toLowerCase())
+          : true;
+        return matchesType && matchesYear && matchesSubstring;
+      }).length;
     });
   }
 
@@ -101,6 +112,24 @@ if (require.main === module) {
     "historical-event",
     "historicalEventCount"
   );
+  events.countEventsPerYear(
+    sourceLifetimeEvents,
+    "lifetime-event",
+    "birthEventCount",
+    "birth"
+  );
+  events.countEventsPerYear(
+    sourceLifetimeEvents,
+    "lifetime-event",
+    "deathEventCount",
+    "death"
+  );
+  events.countEventsPerYear(
+    sourceLifetimeEvents,
+    "lifetime-event",
+    "marriageEventCount",
+    "marriage"
+  );
   events.addEventsPerYear(sourceEntities, "event", "entityEvents");
   events.addEventsPerYear(
     sourceHistoricalEvents,
@@ -112,6 +141,6 @@ if (require.main === module) {
     "lifetime-event",
     "lifetimeEvents"
   );
-//   console.log(events.data);
+  //   console.log(events.data);
   events.writeJson();
 }
