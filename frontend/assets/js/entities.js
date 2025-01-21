@@ -379,6 +379,7 @@ function setUpSearch() {
           .filter((r) => r.type == "event")
           .forEach((e) => {
             // let years = e.date.match(/\b\d{4}(-\d\d)?(-\d\d)?\b/)
+            // e.g. 1659-11-17/1659-12-10
             let year = e.date.replace(/^\D+/, "");
             if (year) {
               e.year = year;

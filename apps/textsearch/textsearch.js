@@ -9,7 +9,6 @@ const METADATA = require("../../frontend/_data/metadata")();
 
 const SITE_ENV = process.env.SITE_ENV || 'lcl'
 const sourceBase = "./clone/dts/documents/";
-const target = "../../frontend/assets/js/entities.json";
 const XSLTPath = {
   'modern': "html-to-html-modern.xslt",
   'semidip': "html-to-html-semidip.xslt"
