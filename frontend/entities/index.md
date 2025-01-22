@@ -1,6 +1,9 @@
 ---
 title: Index
 searchTab: index
+eleventyNavigation:
+  key: Search
+  order: 4
 ---
 
 <div id="search">
