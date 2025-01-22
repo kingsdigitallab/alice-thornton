@@ -60,6 +60,11 @@ class Entities {
       }
       // remove text between []
       entity.search = entity.search.replace(/\[.*?\]/g, "");
+
+      // Check for empty 'date' value in entities of type 'event'
+      if (entity.type === "event" && !entity.date) {
+        console.log(`WARNING: Entity of type 'event' with id ${entity.id} has an empty 'date' value.`);
+      }
     }
 
     // sort by sortKey, optional, only for debugging purpose as itemjs will sort anyway
