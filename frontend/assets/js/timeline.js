@@ -6,50 +6,58 @@ const eventsSource = "/assets/js/events.json";
 // Map the keys in the data to the desired table headers
 const tableHeaderMapping = {
   year: "Year",
-  entityEventCount: "Number of Book Events",
-  politicalEventCount: "Number of Historical and Political Events",
+  entityEventCount: "Number of Events Recorded in Alice Thornton's Books",
+  historicalEventCount: "Number of Historical Events",
+  birthEventCount: "Number of Births",
+  deathEventCount: "Number of Deaths",
+  marriageEventCount: "Number of Marriages",
   entityEvents: "Events Recorded in Alice Thornton's Books",
-  politicalEvents: "Coinciding Historical and Political Events",
+  historicalEvents: "Historical Events",
   lifetimeEvents: "Important Events During Alice Thornton's Lifetime",
 };
 
-// Helper function to output HTML from data array
-// Complex event data is returned in list format for display intended as a modal
-// Primitive (single) values are returned as-is wrapped in a <span> for display
-function renderCellContent(cellData, container) {
-  // Handle complex event data (array values)
-  if (Array.isArray(cellData)) {
-    const className = container.attr("class");
+// Helper function to create the hidden row containing event details for the modal
+function renderHiddenRow(row, tbody, columnSpan) {
+  // Filter array fields from the row
+  const arrayColumns = Object.keys(row).filter(
+    (key) => Array.isArray(row[key]) && row[key].length > 0
+  );
 
-    // Wrap everything in the cell in a <div>
-    const cellContainer = container
-      .attr("aria-expanded", "false")
-      .append("div")
-      .attr("class", "modal-content visually-hidden");
+  // Skip if no array data exists
+  if (arrayColumns.length === 0) return;
+  console.log(arrayColumns);
 
-    // Only add heading and list if there are items
-    if (cellData.length > 0) {
-      // Add heading based on column heading
-      cellContainer.append("h3").text(() => {
-        return tableHeaderMapping[className] || "";
-      });
+  // Append a new hidden row immediately after the main row
+  const hiddenRow = tbody
+    .append("tr")
+    .attr("class", `hiddenRow details-hidden-${row.year}`);
 
-      // Add a list to hold all the event items
-      const listContainer = cellContainer
-        .append("ul")
-        .attr("class", () => `items-${className}`);
+  const hiddenCell = hiddenRow.append("td").attr("colspan", columnSpan); // Span all columns
 
-      cellData.forEach((item) => {
-        listContainer
-          .append("li")
-          .attr("class", `item-${item.type}`)
-          .text(item.title);
-      });
+  arrayColumns.forEach((key) => {
+    const events = row[key];
+    if (events.length > 0) {
+      // Add a container div for each array column
+      const container = hiddenCell
+        .append("div")
+        .attr("class", `container-${key}`);
+
+      // Add a heading for the column
+      container.append("h3").text(tableHeaderMapping[key] || key);
+
+      // Add a list for the array items
+      const list = container.append("ul").attr("class", `items-${key}`);
+
+      // Add list items
+      list
+        .selectAll("li")
+        .data(events)
+        .enter()
+        .append("li")
+        .attr("class", (d) => `item-${d.type}`)
+        .text((d) => d.title);
     }
-  } else {
-    // Handle simple data (primitive values)
-    container.append("span").text(cellData != null ? cellData : "N/A");
-  }
+  });
 }
 
 // Function to create a table for each decade of events
@@ -89,7 +97,11 @@ function createTable(data, decade, scale) {
     .attr("class", "visually-hidden");
 
   // Add table headers
-  const headers = Object.keys(data[0]);
+  // Only include headers for year and event counts (i.e. primitive value columns: single numbers)
+  // Event details for the modal will be put into a hidden row later
+  const headers = Object.keys(data[0]).filter(
+    (key) => !Array.isArray(data[0][key])
+  );
   const headerRow = table.append("thead").append("tr");
   headerRow
     .attr("class", "visually-hidden")
@@ -99,30 +111,39 @@ function createTable(data, decade, scale) {
     .append("th")
     .text((d) => tableHeaderMapping[d] || d);
 
-  // Add table rows
-  const rows = table.append("tbody");
-  rows
-    .selectAll("tr")
-    .data(data)
-    .enter()
-    .append("tr")
-    .attr("class", (d) => `details-${d.year}`);
+  // Add table body
+  const tbody = table.append("tbody");
 
-  // Add table data (cells) to rows
-  rows
-    .selectAll("tr")
-    .selectAll("td")
-    .data((row) => headers.map((header) => ({ header, value: row[header] }))) // Map header and value
-    .enter()
-    .append("td")
-    // Add a class that matches the header and add 'present' if there are events present
-    .attr("class", (d) => (d.value > 0 ? `${d.header} present` : d.header))
-    // Set CSS variable for 'event' cells only
-    .style("--event-value", (d) =>
-      d.header === "entityEventCount" ? `${scale(d.value)}%` : null
-    )
-    // Render cell content HTML
-    .each((d, i, nodes) => renderCellContent(d.value, d3.select(nodes[i])));
+  // Create rows for each data entry
+  data.forEach((row) => {
+    // Create the main row for year and event counts
+    const mainRow = tbody
+      .append("tr")
+      .attr("class", `details-${row.year} mainRow`);
+
+    mainRow
+      .selectAll("td")
+      .data(() =>
+        headers.map((header) => ({
+          header,
+          value: row[header],
+        }))
+      )
+      .enter()
+      .append("td")
+      // Add a class that matches the header and add 'present' if there are events present
+      .attr("class", (d) => (d.value > 0 ? `${d.header} present` : d.header))
+      // Set CSS variable for entity (book) event cells only
+      .style("--event-value", (d) =>
+        d.header === "entityEventCount" ? `${scale(d.value)}%` : null
+      )
+      // Render the year and event count values
+      .append("span")
+      .text((d) => (d.value != null ? d.value : "N/A"));
+
+    // Create the hidden row for array data
+    renderHiddenRow(row, tbody, headers.length);
+  });
 }
 
 // Load the data JSON and then create the tables
