@@ -1,0 +1,9 @@
+---
+title: Editorial guidelines
+---
+
+## Heading
+
+...
+
+

@@ -39,7 +39,7 @@ It also opened the path that this project seeks to continue.
 
 In his typically unassuming manner, when we invited Ray to be on our Project Board he voiced his concern that he was “unfamiliar with TEI” in a personal email before allowing that “if there might be some place on the Steering Group, [he] would be pleased to be part of it”. We were, of course, delighted that he was willing to share his unparalleled expertise with us.
 
-On a personal note, spending time with Ray was an absolute pleasure: shy by nature, he was an incredibly kind and generous man. I will treasure the memories of our trips to the Beinecke for years to come and I owe him a debt of deep gratitude for his support of my own research on Anne, Lady Halkett (including the belated discovery that he was the external reader for my forthcoming edition of her _True Account_ and _Meditations_ in the Other Voice series).
+On a personal note, spending time with Ray was an absolute pleasure: shy by nature, he was an incredibly kind and generous man. I will treasure the memories of our trips to the Beinecke for years to come and I owe him a debt of deep gratitude for his support of my own research on Anne, Lady Halkett (including the belated discovery that he was the external reader for [my forthcoming edition](https://thornton.kdl.kcl.ac.uk/posts/news/2023-01-12-News-Halkett-OV-publication/) of her _True Account_ and _Meditations_ in the Other Voice series).
 
 ![Photo of the front cover of Mary Rich's Occasional Meditations]({{"/assets/img/posts/Rich_Resized.jpg"|url}}){.media-right}
 
