@@ -127,7 +127,17 @@ Example:
             "title": "<xsl:value-of select='$title' />",
             "cat": "<xsl:value-of select='$category'/>",
             "group": "<xsl:value-of select='substring(tei:linkGrp/tei:ptr[@type="group"]/@target, 2)'/>",
-            "date": "<xsl:value-of select='@when-custom'/>",
+            "date": <xsl:choose>
+                <xsl:when test="@from-custom and @to-custom">
+                    "<xsl:value-of select='@from-custom'/>/<xsl:value-of select='@to-custom'/>"
+                </xsl:when>
+                <xsl:when test="@notBefore-custom and @notAfter-custom">
+                    "<xsl:value-of select='@notBefore-custom'/>/<xsl:value-of select='@notAfter-custom'/>"
+                </xsl:when>
+                <xsl:otherwise>
+                    "<xsl:value-of select='@when-custom'/>"
+                </xsl:otherwise>
+            </xsl:choose>,
             "pages": {<xsl:call-template name='insertBooksPagesForEvent'><xsl:with-param name="entity" select="."/></xsl:call-template>}
         }
         <xsl:if test="position()!=last()">,</xsl:if>
