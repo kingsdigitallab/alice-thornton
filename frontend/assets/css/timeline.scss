@@ -5,32 +5,32 @@ $transparent: transparent;
 // Mixins
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
 }
 
 @mixin rotate($degrees) {
   -webkit-transform: rotate($degrees);
-     -moz-transform: rotate($degrees);
-      -ms-transform: rotate($degrees);
-       -o-transform: rotate($degrees);
-          transform: rotate($degrees);
+  -moz-transform: rotate($degrees);
+  -ms-transform: rotate($degrees);
+  -o-transform: rotate($degrees);
+  transform: rotate($degrees);
 }
 
 @mixin transform($transforms) {
-	   -moz-transform: $transforms;
-	     -o-transform: $transforms;
-	    -ms-transform: $transforms;
-	-webkit-transform: $transforms;
-          transform: $transforms;
+  -moz-transform: $transforms;
+  -o-transform: $transforms;
+  -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+  transform: $transforms;
 }
 
 @mixin animation($animation...) {
-       -o-animation: $animation;
-     -moz-animation: $animation;
+  -o-animation: $animation;
+  -moz-animation: $animation;
   -webkit-animation: $animation;
-          animation: $animation;
+  animation: $animation;
 }
 
 @mixin transition($args...) {
@@ -50,67 +50,73 @@ $transparent: transparent;
   white-space: nowrap;
   width: 1px;
 }
-html{
-  -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; 
+html {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
 }
-*, *:before, *:after {-moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+*,
+*:before,
+*:after {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
 
-#legend{
-  font-size:16px;
-  display:flex;
+#legend {
+  font-size: 16px;
+  display: flex;
   flex-wrap: wrap;
-  padding:16px;
-  width:60%;
-  margin:10vw auto 5vw auto;
-  h3{
-    width:100%;
-    border-bottom:0.1vw solid $taupe;
-    margin-bottom:3vw;
+  padding: 16px;
+  width: 60%;
+  margin: 10vw auto 5vw auto;
+  h3 {
+    width: 100%;
+    border-bottom: 0.1vw solid $taupe;
+    margin-bottom: 3vw;
   }
-  ul{
-    margin:0 10vw 5vw 20px;
+  ul {
+    margin: 0 10vw 5vw 20px;
   }
-  .events{
-    ul li{
-      list-style-type:none;
-      &:nth-child(1){
-        &:before{
-            width: 10px;
-            height: 10px;
-            content:"";
-            background:black;
-                          background-image: linear-gradient(
-                0deg,
-                rgba(128, 31, 0, 0.9) 0,
-                rgba(255, 255, 255, 0.1)
-              );
-            position: absolute;
-            margin-left:-20px;
-            margin-top:10px;
-            transform:rotate(45deg);
-        }//&:before
+  .events {
+    ul li {
+      list-style-type: none;
+      &:nth-child(1) {
+        &:before {
+          width: 10px;
+          height: 10px;
+          content: "";
+          background: black;
+          background-image: linear-gradient(
+            0deg,
+            rgba(128, 31, 0, 0.9) 0,
+            rgba(255, 255, 255, 0.1)
+          );
+          position: absolute;
+          margin-left: -20px;
+          margin-top: 10px;
+          transform: rotate(45deg);
+        } //&:before
       }
-      &:nth-child(2){
-        &:before{
+      &:nth-child(2) {
+        &:before {
           width: 20px;
           height: 20px;
-          content:"";
+          content: "";
           background-image: linear-gradient(
             0deg,
             rgba(128, 31, 0, 0.5) 0,
             rgba(255, 255, 255, 0.1)
           );
           position: absolute;
-          margin-left:-25px;
-          margin-top:3px;
-          border-radius:50%;
-      }//&:before
+          margin-left: -25px;
+          margin-top: 3px;
+          border-radius: 50%;
+        } //&:before
       }
     }
   }
-
-}//#legend
-
+} //#legend
 
 #data {
   margin: 0 0 10vw 20%;
@@ -123,8 +129,9 @@ html{
     justify-content: center;
     vertical-align: bottom;
     margin: 2vw 0 4vw 0;
-    border-collapse:collapse;
-    &:after{       //curve for every even row
+    border-collapse: collapse;
+    &:after {
+      //curve for every even row
       border-radius: 0 100% 100% 0;
       position: absolute;
       content: "";
@@ -132,59 +139,64 @@ html{
       aspect-ratio: 1/1;
       padding: 0;
       right: 0;
-      bottom:0;
+      bottom: 0;
       border: 0.5vw solid $taupe;
       transform: translate(50%, 0);
-      border-left:0;
-      z-index:-1;
+      border-left: 0;
+      z-index: -1;
     }
-    &:nth-child(2n + 1):after {    // curve for every odd row
+    &:nth-child(2n + 1):after {
+      // curve for every odd row
       right: initial;
       left: 0;
       transform: translate(-50%, 0) rotate(180deg);
     }
-    &:first-of-type{ //first table
-      &:after{ //hide first curve
-        display:none;
+    &:first-of-type {
+      //first table
+      &:after {
+        //hide first curve
+        display: none;
       }
-      tr:not(:nth-child(1n+7)){ //hide first 6 elements
-        opacity:0;
+      tr:not(:nth-child(1n + 7)) {
+        //hide first 6 elements
+        opacity: 0;
       }
-      &:before{
-        right:30%;
+      &:before {
+        right: 30%;
       }
     }
-    &:before{ //arrow direction
+    &:before {
+      //arrow direction
       position: absolute;
       content: "";
-      border:0.1vw solid #777;
-      width:1vw;
-      height:1vw;
-      bottom:-0.25vw;
+      border: 0.1vw solid #777;
+      width: 1vw;
+      height: 1vw;
+      bottom: -0.25vw;
       z-index: 1;
-      transform: translate(50%,10%) rotate(45deg); 
+      transform: translate(50%, 10%) rotate(45deg);
       border-left: 0.1vw solid $transparent;
       border-bottom: 0.1vw solid $transparent;
     }
     &:nth-child(2n):before {
       // arrow direction for every odd row
-      right:0;
-      transform: translate(50%,15%) rotate(-135deg); 
+      right: 0;
+      transform: translate(50%, 15%) rotate(-135deg);
     }
     // Ensure that even rows have reversed order visually only
-&:nth-of-type(even) {
-  tbody {
-    display: flex;
-    tr {
-      align-self: flex-end; 
-      @for $i from 1 through 10 {
-        &:nth-child(#{$i}) {
-          order: #{11 - $i};
+    &:nth-of-type(even) {
+      tbody {
+        display: flex;
+        tr {
+          align-self: flex-end;
+          @for $i from 1 through 10 {
+            &:nth-child(#{$i}) {
+              order: #{11 - $i};
+            }
+          }
         }
       }
-    }
-  }
-}//&:nth-of-type(even) 
+    } //&:nth-of-type(even)
     tbody {
       display: block;
       tr {
@@ -192,26 +204,26 @@ html{
         display: inline-block;
         position: relative;
         vertical-align: bottom;
-        margin: 0  0 0;
+        margin: 0 0 0;
         border-bottom: 0.5vw solid $taupe;
-        &:hover{
-          border-bottom: 0.5vw solid darken($taupe,30%);
-          td{
-            opacity:1;
-            &:after{
-              opacity:1;
+        &:hover {
+          border-bottom: 0.5vw solid darken($taupe, 30%);
+          td {
+            opacity: 1;
+            &:after {
+              opacity: 1;
             }
             &.present {
-              opacity:1;
-              & span{
-              opacity:1;
+              opacity: 1;
+              & span {
+                opacity: 1;
               }
             }
-            &.year span{
+            &.year span {
               font-weight: bold;
             }
-          }//td
-        }//&:hover
+          } //td
+        } //&:hover
         td {
           position: relative;
           display: inline-block;
@@ -227,9 +239,9 @@ html{
           transform: translateX(
             -50%
           ); /* amount across the X-axis to the left */
-          opacity:0.6;
+          opacity: 0.6;
           z-index: 1;
-          &:after{
+          &:after {
             opacity: 0.6;
           }
           & span {
@@ -247,7 +259,7 @@ html{
             margin-bottom: 0;
             vertical-align: bottom;
             border-radius: 50%;
-            opacity:0.7;
+            opacity: 0.7;
             aspect-ratio: 1/4;
             &:after {
               background-image: linear-gradient(
@@ -278,8 +290,8 @@ html{
             bottom: -2vw;
             left: 0;
             text-align: center;
-            span{
-            opacity:1;
+            span {
+              opacity: 1;
             }
           } //.year
           &.important {
@@ -295,7 +307,7 @@ html{
             transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
             &.present {
               background: black;
-              opacity:0.6;
+              opacity: 0.6;
             } //&.present
             & span {
               transform: translate(-250%, 30%) rotate(-45deg);
@@ -306,9 +318,6 @@ html{
     } //tbody
   } //table
 } //#data
-
-
-
 
 .data {
   margin: 10vw 0 0 20%;
@@ -322,8 +331,8 @@ html{
     justify-content: center;
     vertical-align: bottom;
     margin: 2vw 0 4vw 0;
-    background:red;
-    border-collapse:collapse;
+    background: red;
+    border-collapse: collapse;
 
     &:after {
       //curve for every even row
@@ -333,13 +342,13 @@ html{
       aspect-ratio: 1/1;
       padding: 0;
       right: 0;
-      bottom:0;
-     border: 0.5vw solid $taupe;
+      bottom: 0;
+      border: 0.5vw solid $taupe;
       border-left: 0.5vw solid $transparent;
       border-top: 0.5vw solid $transparent;
       /*transform: translate(50%, 0) rotate(-45deg);*/
       /*border-radius: 50%;*/
-      background:rgba(0,0,0,0.5);
+      background: rgba(0, 0, 0, 0.5);
     }
     &:nth-child(2n + 1):after {
       // curve for every odd row
@@ -348,147 +357,141 @@ html{
       transform: translate(-50%, 0) rotate(135deg);
     }
     // Ensure that even rows have reversed order visually only
-&:nth-of-type(even) {
-  tbody {
-    display: flex;
-    tr {
-      align-self: flex-end; 
-      @for $i from 1 through 10 {
-        &:nth-child(#{$i}) {
-          order: #{11 - $i};
+    &:nth-of-type(even) {
+      tbody {
+        display: flex;
+        tr {
+          align-self: flex-end;
+          @for $i from 1 through 10 {
+            &:nth-child(#{$i}) {
+              order: #{11 - $i};
+            }
+          }
         }
       }
-    }
-  }
-}//&:nth-of-type(even) 
-      .row {
-        width: 100%;
-        display: inline-block;
+    } //&:nth-of-type(even)
+    .row {
+      width: 100%;
+      display: inline-block;
+      position: relative;
+      vertical-align: bottom;
+      margin: 0 0 0;
+      border-bottom: 0.5vw solid $taupe;
+      display: flex;
+      td {
         position: relative;
+        display: inline-block;
         vertical-align: bottom;
-        margin: 0  0 0;
-        border-bottom: 0.5vw solid $taupe;
-        display: flex;
-        td {
-          position: relative;
+        padding: 0;
+        width: 100%;
+        position: relative;
+        border-width: none;
+        border: 0;
+        display: inline-block;
+        height: auto;
+        left: 50%; /* Calculates 50% of the element's width, and moves it by that */
+        transform: translateX(-50%); /* amount across the X-axis to the left */
+        z-index: 1;
+        &:hover {
+          opacity: 1;
+        }
+        & span {
+          position: absolute;
+          font-size: 12px;
+          opacity: 0; // Visually hidden
+          left: 50%;
+          visibility: visible; // Ensure it's accessible to screen readers
+        }
+
+        &.event {
+          /*background-image: linear-gradient(
+              0deg,
+              rgba(128, 31, 0, 0.5) 0,
+              rgba(255, 255, 255, 0.1)
+            );*/
+          width: calc(var(--event-value) / 1);
+          padding-bottom: calc(var(--event-value) / 1);
           display: inline-block;
+          margin-bottom: 0;
           vertical-align: bottom;
-          padding: 0;
-          width: 100%;
-          position: relative;
-          border-width: none;
-          border: 0;
-          display: inline-block;
-          height: auto;
-          left: 50%; /* Calculates 50% of the element's width, and moves it by that */
-          transform: translateX(
-            -50%
-          ); /* amount across the X-axis to the left */
-          z-index: 1;
-          &:hover{
-            opacity:1;
+          border-radius: 50%;
+          opacity: 0.7;
+          aspect-ratio: 1/1;
+          &:after {
+            background-image: linear-gradient(
+              0deg,
+              rgba(128, 31, 0, 0.5) 0,
+              rgba(255, 255, 255, 0.1)
+            );
+            width: 500%;
+            padding-bottom: 500%;
+            bottom: 0;
+            vertical-align: bottom;
+            border-radius: 50%;
+            position: absolute;
+            content: "";
+            left: 50%;
+            transform: translate(-50%, 0);
+          }
+          &:hover {
+            opacity: 1;
+            &.present span {
+              opacity: 1;
+            }
           }
           & span {
             position: absolute;
             font-size: 12px;
             opacity: 0; // Visually hidden
             left: 50%;
+            transform: translate(-50%, -120%);
             visibility: visible; // Ensure it's accessible to screen readers
           }
-
-          &.event {
-            /*background-image: linear-gradient(
-              0deg,
-              rgba(128, 31, 0, 0.5) 0,
-              rgba(255, 255, 255, 0.1)
-            );*/
-            width: calc(var(--event-value) / 1);
-            padding-bottom: calc(var(--event-value) / 1);
-            display: inline-block;
-            margin-bottom: 0;
-            vertical-align: bottom;
-            border-radius: 50%;
-            opacity:0.7;
-            aspect-ratio: 1/1;
-            &:after {
-              background-image: linear-gradient(
-                0deg,
-                rgba(128, 31, 0, 0.5) 0,
-                rgba(255, 255, 255, 0.1)
-              );
-              width: 500%;
-              padding-bottom: 500%;
-              bottom: 0;
-              vertical-align: bottom;
-              border-radius: 50%;
-              position: absolute;
-              content: "";
-              left: 50%;
-              transform: translate(-50%, 0);
-            }
-            &:hover{
-              opacity:1;
-              &.present span{
-              opacity:1;
-              }
-            }
-            & span {
-              position: absolute;
-              font-size: 12px;
-              opacity: 0; // Visually hidden
-              left: 50%;
-              transform: translate(-50%, -120%);
-              visibility: visible; // Ensure it's accessible to screen readers
-            }
-          } //&.event
-          &.year {
+        } //&.event
+        &.year {
+          position: absolute;
+          margin-bottom: 0;
+          width: 100%;
+          transform: translateX(-25%);
+          bottom: -2vw;
+          left: 0;
+          text-align: center;
+          span {
+            opacity: 1;
+            font-size: 1vw;
+          }
+        } //.year
+        &.important {
+          width: 1vw;
+          height: 1vw;
+          display: inline-block;
+          margin-bottom: 0;
+          vertical-align: bottom;
+          position: absolute;
+          bottom: -1.9vw;
+          left: 50%;
+          /* Calculates 50% of the element's width, and moves it by that */
+          transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
+          &.present {
+            background: black;
+            opacity: 0.6;
+          } //&.present
+          & span {
             position: absolute;
-            margin-bottom: 0;
-            width: 100%;
-            transform: translateX(-25%);
-            bottom: -2vw;
-            left: 0;
-            text-align: center;
-            span{
-            opacity:1;
-            font-size:1vw;
-            }
-          } //.year
-          &.important {
-            width: 1vw;
-            height: 1vw;
-            display: inline-block;
-            margin-bottom: 0;
-            vertical-align: bottom;
-            position: absolute;
-            bottom: -1.9vw;
+            font-size: 12px;
+            opacity: 0; // Visually hidden
             left: 50%;
-            /* Calculates 50% of the element's width, and moves it by that */
-            transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
-            &.present {
-              background: black;
-              opacity:0.6;
-            } //&.present
-            & span {
-              position: absolute;
-              font-size: 12px;
-              opacity: 0; // Visually hidden
-              left: 50%;
-              transform: translate(-170%, 10%) rotate(-45deg);
-              visibility: visible; // Ensure it's accessible to screen readers
-            } //& span
-            &:hover{
-              opacity:1;
-              &.present span{
-                opacity:1;
-              }
+            transform: translate(-170%, 10%) rotate(-45deg);
+            visibility: visible; // Ensure it's accessible to screen readers
+          } //& span
+          &:hover {
+            opacity: 1;
+            &.present span {
+              opacity: 1;
             }
-          } //&.important
-        } //td
-      } //tr
+          }
+        } //&.important
+      } //td
+    } //tr
   } //table
 } //#data
-
-
-
-

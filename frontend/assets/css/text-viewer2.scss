@@ -482,7 +482,7 @@ section {
               margin: 8px 0 0 auto;
             }
           }
-          ul {
+          ul.key-list {
             padding-left: 2em;
             margin: 1em 0;
             list-style-type: none;
@@ -868,20 +868,6 @@ $render-sic: false;
     opacity: 100%;
   }
 
-  // Spaces, gaps & damages
-
-  // .tei-space[data-tei-unit="page"]:before {
-  //   content: "[Blank page]";
-  // }
-
-  &.view-modern,
-  &.view-semidip {
-    // always retain line breaks for missing lines
-    br.missing-line {
-      display: inline;
-    }
-  }
-
   &.view-semidip {
     justify-content: center;
   }
@@ -906,6 +892,22 @@ $render-sic: false;
 
   span[data-tei-unit="line"] .missing-content-message {
     margin-left: 0.3em;
+  }
+}
+#text-viewer .panel .content,
+#drawer .text-rendered {
+  // Spaces, gaps & damages
+
+  // .tei-space[data-tei-unit="page"]:before {
+  //   content: "[Blank page]";
+  // }
+
+  &.view-modern,
+  &.view-semidip {
+    // always retain line breaks for missing lines
+    br.missing-line {
+      display: inline;
+    }
   }
 
   // -----
@@ -1328,22 +1330,22 @@ $render-sic: false;
     //   padding: 0.2em;
     // }
 
-    .note-symbol {
-      padding-left: 0.2em;
-      color: $primary;
-      border: 1px solid lightgray;
-      box-shadow: 1px 1px 1px gray;
-      padding: 0 2px;
-      margin: 0 2px 2px 2px;
-      font-size: 10px;
-      top: -5px;
-      position: relative;
-      &:hover {
-        border: 1px solid gray;
-        box-shadow: 1px 1px 1px black;
-        color: black;
-      }
-    }
+    // .note-symbol {
+    //   padding-left: 0.2em;
+    //   color: $primary;
+    //   border: 1px solid lightgray;
+    //   box-shadow: 1px 1px 1px gray;
+    //   padding: 0 2px;
+    //   margin: 0 2px 2px 2px;
+    //   font-size: 10px;
+    //   top: -5px;
+    //   position: relative;
+    //   &:hover {
+    //     border: 1px solid gray;
+    //     box-shadow: 1px 1px 1px black;
+    //     color: black;
+    //   }
+    // }
 
     &.tei-type-event {
       // TODO: unhide once even entities are made available
@@ -1592,5 +1594,47 @@ $render-sic: false;
   }
   .box-citation {
     margin-bottom: 3em;
+  }
+}
+
+/* Drawer */
+
+#text-viewer {
+  .note-symbol {
+    padding-left: 0.2em;
+    color: $primary;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 1px gray;
+    padding: 0 2px;
+    margin: 0 2px 2px 2px;
+    font-size: 10px;
+    top: -5px;
+    position: relative;
+    &:hover {
+      border: 1px solid gray;
+      box-shadow: 1px 1px 1px black;
+      color: black;
+    }
+  }
+}
+
+#drawer {
+  .note-symbol {
+    margin-left: -30px;
+    top: 30px;
+  }
+
+  .text-rendered {
+    br {
+      display: none;
+    }
+  }
+
+  .entity-title {
+    margin-left: -30px;
+
+    .tei-p {
+      display: inline;
+    }
   }
 }

@@ -1,5 +1,4 @@
 const { createApp } = window.Vue;
-// const entitiesSource = "/assets/js/entities.json";
 const pagefind = await import("/pagefind/pagefind.js");
 const FACETS_INITIAL = {
   book: {

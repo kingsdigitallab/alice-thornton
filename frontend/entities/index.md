@@ -110,10 +110,10 @@ searchTab: index
               <span class="is-hidden">{{ item['id'] }}</span>
               {{ item.title }}
               <a :href="`?hi=${item['id']}`" class="side-link" title="permalink to this entry"><i class="fas fa-link"></i></a>
+              <div v-if="selectedGroups.length == 0" v-for="group in getGroupsFromItem(item)" class="event-group">
+                <a :href="`?hi=${group.id}`">Group: {{ group.title }}</a>
+              </div>
             </summary>
-            <div v-if="selectedGroups.length == 0" v-for="group in getGroupsFromItem(item)" class="result-description">
-              <a :href="`?hi=${group.id}`">Group: {{ group.title }}</a>
-            </div>
             <div v-if="item.type=='person' && isBioVisible(item)" class="result-description">
               {{ item.bio }}
             </div>

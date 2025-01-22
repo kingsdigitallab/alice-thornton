@@ -127,10 +127,25 @@ Example:
             "title": "<xsl:value-of select='$title' />",
             "cat": "<xsl:value-of select='$category'/>",
             "group": "<xsl:value-of select='substring(tei:linkGrp/tei:ptr[@type="group"]/@target, 2)'/>",
-            "date": "<xsl:value-of select='@when-custom'/>",
+            "date": <xsl:call-template name='getEventDate'><xsl:with-param name="entity" select="."/></xsl:call-template>,
             "pages": {<xsl:call-template name='insertBooksPagesForEvent'><xsl:with-param name="entity" select="."/></xsl:call-template>}
         }
         <xsl:if test="position()!=last()">,</xsl:if>
+    </xsl:template>
+
+    <xsl:template name="getEventDate">
+        <xsl:param name="entity"/>
+        <xsl:choose>
+            <xsl:when test="$entity/@from-custom and $entity/@to-custom">
+                "<xsl:value-of select='$entity/@from-custom'/>/<xsl:value-of select='$entity/@to-custom'/>"
+            </xsl:when>
+            <xsl:when test="$entity/@notBefore-custom and $entity/@notAfter-custom">
+                "<xsl:value-of select='$entity/@notBefore-custom'/>/<xsl:value-of select='$entity/@notAfter-custom'/>"
+            </xsl:when>
+            <xsl:otherwise>
+                "<xsl:value-of select='$entity/@when-custom'/>"
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <xsl:function name="internals:capitaliseFirstLetter" as="xs:string">
