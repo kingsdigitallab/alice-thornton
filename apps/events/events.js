@@ -52,7 +52,10 @@ class Events {
         const matchesType = event.type === eventType;
         const matchesYear = this.findEarliestYear(event.date) === year;
         const matchesSubstring = titleStartSubstring
-          ? event.title && event.title.toLowerCase().startsWith(titleStartSubstring.toLowerCase())
+          ? event.title &&
+            event.title
+              .toLowerCase()
+              .startsWith(titleStartSubstring.toLowerCase())
           : true;
         return matchesType && matchesYear && matchesSubstring;
       }).length;

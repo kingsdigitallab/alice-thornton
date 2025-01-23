@@ -16,6 +16,20 @@ const tableHeaderMapping = {
   lifetimeEvents: "Important Events During Alice Thornton's Lifetime",
 };
 
+// Helper function to add CSS class names to cells based on lifetime events in the data
+function addLifetimeCss(row, columnKey, subtype) {
+  if (!row.lifetimeEvents || !row[columnKey] || row[columnKey] <= 0) return "";
+
+  const matchingEvents = row.lifetimeEvents.filter(
+    (event) => event.subtype === subtype
+  );
+
+  return matchingEvents
+    .map((event) => event.cssClass || "") // Remove empty classes
+    .filter((cssClass) => cssClass !== "") // Join multiple classes (if any) with spaces
+    .join(" ");
+}
+
 // Helper function to create the hidden row containing event details for the modal
 function renderHiddenRow(row, tbody, columnSpan) {
   // Filter array fields from the row
@@ -25,12 +39,23 @@ function renderHiddenRow(row, tbody, columnSpan) {
 
   // Skip if no array data exists
   if (arrayColumns.length === 0) return;
-  console.log(arrayColumns);
+  // console.log(arrayColumns);
+
+  // Add a toggle button to the corresponding main row's year cell
+  // Button is for screen readers only; visual users click on the row
+  const mainRowYearCell = d3.select(`.details-${row.year} .year`);
+  mainRowYearCell
+    .append("button")
+    .attr("class", "toggle-button visually-hidden")
+    .attr("data-target", `hidden-${row.year}`)
+    .text("Toggle details");
 
   // Append a new hidden row immediately after the main row
   const hiddenRow = tbody
     .append("tr")
-    .attr("class", `hiddenRow details-hidden-${row.year}`);
+    .attr("id", `hidden-${row.year}`) // Unique id as target for mainRow data-target
+    .attr("class", `hiddenRow details-hidden-${row.year}`)
+    .attr("hidden", true);
 
   const hiddenCell = hiddenRow.append("td").attr("colspan", columnSpan); // Span all columns
 
@@ -58,6 +83,16 @@ function renderHiddenRow(row, tbody, columnSpan) {
         .text((d) => d.title);
     }
   });
+
+  // Add a close button at the bottom of the hidden row
+  // For both screen readers and visual users
+  hiddenCell
+    .append("div")
+    .attr("class", "hidden-row-footer")
+    .append("button")
+    .attr("class", "hidden-close")
+    .attr("data-target", `hidden-${row.year}`)
+    .text("Close");
 }
 
 // Function to create a table for each decade of events
@@ -119,7 +154,10 @@ function createTable(data, decade, scale) {
     // Create the main row for year and event counts
     const mainRow = tbody
       .append("tr")
-      .attr("class", `details-${row.year} mainRow`);
+      .attr("class", `details-${row.year} mainRow`)
+      .attr("data-target", `hidden-${row.year}`)
+      .attr("aria-expanded", "false")
+      .attr("aria-description", "Toggle details");
 
     mainRow
       .selectAll("td")
@@ -131,15 +169,46 @@ function createTable(data, decade, scale) {
       )
       .enter()
       .append("td")
-      // Add a class that matches the header and add 'present' if there are events present
-      .attr("class", (d) => (d.value > 0 ? `${d.header} present` : d.header))
+      .attr("class", (d) => {
+        // Add a class that matches the header
+        let baseClass = d.header;
+
+        // Add 'present' only if the value is greater than 0 and the field is not 'year'
+        if (d.value > 0 && d.header !== "year") {
+          baseClass += " present";
+        }
+
+        // Define a mapping of headers to event subtypes
+        const lifetimeEventMapping = {
+          birthEventCount: "birth",
+          deathEventCount: "death",
+          marriageEventCount: "marriage",
+        };
+
+        // Add CSS classes for any lifetime event subtype in the mapping
+        if (lifetimeEventMapping[d.header]) {
+          baseClass += ` ${addLifetimeCss(
+            row,
+            d.header,
+            lifetimeEventMapping[d.header]
+          )}`;
+        }
+
+        return baseClass;
+      })
       // Set CSS variable for entity (book) event cells only
       .style("--event-value", (d) =>
         d.header === "entityEventCount" ? `${scale(d.value)}%` : null
       )
       // Render the year and event count values
-      .append("span")
-      .text((d) => (d.value != null ? d.value : "N/A"));
+      // .append("span")
+      // .text((d) => (d.value != null ? d.value : "N/A"));
+      .each((d, i, nodes) => {
+        const cell = d3.select(nodes[i]);
+
+        // Add the year value as a span
+        cell.append("span").text(d.value != null ? d.value : "N/A");
+      });
 
     // Create the hidden row for array data
     renderHiddenRow(row, tbody, headers.length);
