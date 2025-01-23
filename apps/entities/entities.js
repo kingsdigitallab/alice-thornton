@@ -63,7 +63,9 @@ class Entities {
 
       // Check for empty 'date' value in entities of type 'event'
       if (entity.type === "event" && !entity.date) {
-        console.log(`WARNING: Entity of type 'event' with id ${entity.id} has an empty 'date' value.`);
+        console.log(
+          `WARNING: Entity of type 'event' with id ${entity.id} has an empty 'date' value.`
+        );
       }
     }
 
