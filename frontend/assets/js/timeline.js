@@ -200,9 +200,6 @@ function createTable(data, decade, scale) {
       .style("--event-value", (d) =>
         d.header === "entityEventCount" ? `${scale(d.value)}%` : null
       )
-      // Render the year and event count values
-      // .append("span")
-      // .text((d) => (d.value != null ? d.value : "N/A"));
       .each((d, i, nodes) => {
         const cell = d3.select(nodes[i]);
 
@@ -215,11 +212,75 @@ function createTable(data, decade, scale) {
   });
 }
 
+// Helper function to initialise toggle row interactions
+function initializeRowInteractions() {
+  // Handle row clicks for visual users
+  d3.selectAll(".mainRow").on("click", function () {
+    const targetId = d3.select(this).attr("data-target");
+    const hiddenRow = d3.select(`#${targetId}`);
+
+    if (!hiddenRow.node()) return; // Skip if no hidden row exists for this main row
+
+    const isExpanded = d3.select(this).attr("aria-expanded") === "true";
+
+    // Close all other open rows so that the row can be used as a modal
+    d3.selectAll(".hiddenRow:not([hidden])").each(function () {
+      d3.select(this).attr("hidden", true);
+      const parentRow = d3.select(`.mainRow[data-target="${this.id}"]`);
+      if (parentRow.node()) {
+        parentRow.attr("aria-expanded", "false");
+      }
+    });
+
+    // Toggle the current hidden row
+    d3.select(this).attr("aria-expanded", !isExpanded);
+    hiddenRow.attr("hidden", isExpanded);
+  });
+
+  // Handle "Toggle Details" button clicks for screen reader users
+  d3.selectAll(".toggle-button").on("click", function (event) {
+    event.stopPropagation(); // Prevent row click behavior interfering
+
+    const targetId = d3.select(this).attr("data-target");
+    const hiddenRow = d3.select(`#${targetId}`);
+
+    if (!hiddenRow.node()) return;
+
+    const isExpanded = !hiddenRow.attr("hidden");
+
+    // Only toggle the current hidden row without affecting others
+    const parentRow = d3.select(`.mainRow[data-target="${targetId}"]`);
+    if (parentRow.node()) {
+      parentRow.attr("aria-expanded", !isExpanded);
+    }
+
+    hiddenRow.attr("hidden", isExpanded);
+  });
+
+  // Handle "Close" button clicks for all users
+  d3.selectAll(".hidden-close").on("click", function () {
+    const targetId = d3.select(this).attr("data-target");
+    const hiddenRow = d3.select(`#${targetId}`);
+
+    if (!hiddenRow.node()) return;
+
+    // Close the specific hidden row
+    hiddenRow.attr("hidden", true);
+
+    // Update the aria-expanded attribute on the parent row
+    const parentRow = d3.select(`.mainRow[data-target="${targetId}"]`);
+    if (parentRow.node()) {
+      parentRow.attr("aria-expanded", "false");
+    }
+  });
+}
+
 // Load the data JSON and then create the tables
 window.onload = function () {
   d3.json(eventsSource)
     .then((jsonData) => {
-      createTableForEachDecade(jsonData);
+      createTableForEachDecade(jsonData); // Create the data tables
+      initializeRowInteractions(); // Initialise row interactions after table creation
     })
     .catch((error) => {
       console.error("Error loading JSON data:", error);
