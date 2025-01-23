@@ -3,6 +3,8 @@ const { createApp } = window.Vue;
 // 2024-12-04
 const TODAY = new Date().toISOString().slice(0, 10);
 
+const ENTITIES_URL =
+  (window.TEXT_VIEWER_PRINT_MODE ? "../" : "") + "../assets/js/entities.json";
 const CHILD_HOVERED_CLASS = "child-hovered";
 // This should ideally come from the frontmatter of the book pages
 const BOOK_EDITORS =
@@ -263,7 +265,7 @@ function setUpTextViewer() {
     methods: {
       async loadEntities() {
         // load entities index file as a dictionary. Key is the id.
-        let res = await fetch(`../assets/js/entities.json?ts=${TODAY}`);
+        let res = await fetch(`${ENTITIES_URL}?ts=${TODAY}`);
         res = await res.json();
         this.entities = Object.fromEntries(
           res.data.map((obj) => [obj.id, obj])

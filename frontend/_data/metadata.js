@@ -89,7 +89,9 @@ module.exports = function () {
       book_three: [1, 103],
     };
     // ret["hideEventsFromSearchPage"] = true;
-    ret["text_viewer"]["hide_print_link"] = true;
+
+    // ret["text_viewer"]["hide_print_link"] = true;
+
     // ret["text_viewer"]["can_clone_panel"] = false;
   }
 
