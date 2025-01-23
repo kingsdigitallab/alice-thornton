@@ -67,20 +67,42 @@ function renderHiddenRow(row, tbody, columnSpan) {
         .append("div")
         .attr("class", `container-${key}`);
 
-      // Add a heading for the column
+      // Heading for column
       container.append("h3").text(tableHeaderMapping[key] || key);
 
-      // Add a list for the array items
+      // List for the array items
       const list = container.append("ul").attr("class", `items-${key}`);
 
-      // Add list items
+      // List items, with specific handling for historical events
       list
         .selectAll("li")
         .data(events)
         .enter()
         .append("li")
         .attr("class", (d) => `item-${d.type}`)
-        .text((d) => d.title);
+        .each(function (d) {
+          const listItem = d3.select(this);
+
+          // Title as header only for historical events
+          if (key === "historicalEvents") {
+            listItem.append("h4").text(d.title);
+          } else {
+            listItem.append("span").text(d.title);
+          }
+
+          // Image with alt text
+          if (d.image) {
+            listItem
+              .append("img")
+              .attr("src", d.image)
+              .attr("alt", d.imageAlt || "Event image");
+          }
+
+          // Description
+          if (d.description) {
+            listItem.append("p").text(d.description);
+          }
+        });
     }
   });
 
