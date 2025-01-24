@@ -215,10 +215,10 @@ eleventyNavigation:
         <input type="radio" id="tab-entities" name="tab-group-1" :checked="selection.highlightedText">
         <label for="tab-entities">
           <i class="fas fa-list"></i>
-          <h2>Entities</h2>
+          <h2>Entries</h2>
         </label>
         <div class="content">
-          <h2>Entities</h2>
+          <h2>Entries</h2>
           <ul class="decorated" v-if="selectedPanel.entities.length">
             <li v-for="entity in selectedPanel.entities">
               <div class="entity-title">
