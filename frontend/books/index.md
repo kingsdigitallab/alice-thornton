@@ -2,7 +2,7 @@
 title: The Four Books By Alice Thornton
 eleventyNavigation:
   key: Books
-  order: 2
+  order: 1
 ---
 
 ## Digital Edition
@@ -27,7 +27,7 @@ The text of all four manuscripts will be available to read in both fully moderni
           </figcaption>
           <div class="book-buttons">
           {% if abook.data.isReadable %}<a href="viewer/?p0.do={{ abook.fileSlug }}&p0.vi=modern" class="button is-primary">Read the edition</a>{% endif %}<br>
-            <a href="{{ abook.url | url }}" class="button is-secondary">Book information</a>
+            <a href="{{ abook.url | url }}" class="button is-secondary">Book details</a>
           </div>
         </div>
       </figure>

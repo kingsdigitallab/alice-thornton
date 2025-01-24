@@ -21,7 +21,6 @@
 
     <div id="navbar-top" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item is-hoverable {% if '/' == page.url %}is-active{% endif %}" href="/">Home</a>
         {% for entry in navPages %}
           {% if forloop.index > 1 %}
             {% if entry.children.length > 0 %}

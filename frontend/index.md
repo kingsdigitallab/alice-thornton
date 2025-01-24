@@ -3,9 +3,6 @@ title: Alice Thornton's Books
 titleCitation: "Alice Thornton’s Books: Remembrances of a Woman’s Life in the Seventeenth Century"
 permalink: /
 description: "This AHRC-funded research project will create an online digital edition of all four of Alice Wandesford Thornton's autobiographical manuscripts."
-eleventyNavigation:
-  key: Home
-  order: 1
 ---
 
 ## Remembrances of a Woman's Life in the Seventeenth Century

@@ -1,5 +1,7 @@
 # Entities indexer
 
+Note: Change in terminology, there are places where it has not been changed. Entities (previous) = Entries (current). 
+
 This app generates the index file used by the front-end entities (people, places) search page.
 
 Install dependencies:
