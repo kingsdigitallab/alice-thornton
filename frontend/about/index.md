@@ -2,7 +2,7 @@
 title: About the project
 eleventyNavigation:
   key: About
-  order: 5
+  order: 4
 ---
 
 ## About Our Research Project

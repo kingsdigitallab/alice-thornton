@@ -1,5 +1,8 @@
 ---
 title: Timeline of Alice Thornton's Life
+eleventyNavigation:
+  key: Timeline
+  order: 7
 isPageFluid: false
 hideCitation: true
 customCSS: "/assets/css/timeline.css"

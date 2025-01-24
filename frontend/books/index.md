@@ -2,7 +2,7 @@
 title: The Four Books By Alice Thornton
 eleventyNavigation:
   key: Books
-  order: 2
+  order: 1
 ---
 
 ## Digital Edition
