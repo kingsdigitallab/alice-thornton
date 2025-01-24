@@ -27,7 +27,7 @@ Hovering over each year reveals more details about the events recorded for that 
 </div>
 
 <div class="volumes">
-<h4>Volumes</h4>
+<h4>Books</h4>
 <ul>
 <li>Book of Remembrances</li>
 <li>Book 1</li>

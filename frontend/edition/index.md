@@ -70,7 +70,7 @@ eleventyNavigation:
     <!-- <h1><span>Information for:</span>{{ drawerTitle }}</h1> -->
     <h1>
       <dl>
-        <dt>Volume:</dt>
+        <dt>Book:</dt>
         <dd>{{ selectedPanelCitationDict.titleShort }}&nbsp;
           <a :title="`About ${ selectedPanelCitationDict.titleShort }`" :href="`/books/${selectedPanelCitationDict.previewPath}/`"><i class="fas fa-list-alt"></i></a>
         </dd>
@@ -282,7 +282,7 @@ eleventyNavigation:
     <div class="panel" v-for="(panel, panelIdx) in panels">
       <nav class="panel-nav">
         <div>
-          <label>Volume:</label>
+          <label>Book:</label>
           <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
           <label>Version:</label>
           <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
