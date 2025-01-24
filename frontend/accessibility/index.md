@@ -20,7 +20,6 @@ We know some part of this website are not fully accessible:
 
 - Dynamic content is handled with [VueJS](https://vuejs.org/) and we are aware that the rendered HTML includes custom tags that don't pass the [W3 Validator](https://validator.w3.org/). This may interfere with assistive technologies. We are still in the process of assessing the site and plan to ensure all important content, if not all, is accessible;
 - The editorial formatting on some static pages, blog and news articles is sometime inconsistent. We are aware of missing headings on blog posts and missing alternative description of images in various places. We hope to address these issues before final release early in 2025.
-- On the individual book information pages some labels may be difficult to read due to the lack of contrasting color with the background;
 - The book, version and page selectors on the text viewer may cause issues with assistive technologies due to missing labels;
 - The mentions of blank or deleted pages, lines or words in the Text Viewer may be difficult to read due to the lack of contrasting color with the background;
 - In the Text Viewer some elements are not fully accessible through keyboard navigation alone, and may not work consistently across all browsers, namely:
