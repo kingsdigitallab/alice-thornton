@@ -19,7 +19,7 @@ This note is nestled within a list of Thornton’s relatives who are all identif
 
 ‘Upon the Beheading of King Charles the Martyr, January 30th, 1648’, opens with a clear statement of Thornton’s perception of this event:
 
->Our blessed King Charles I, whose memory shall live to eternity, was cruelly murdered by the hands of blasphemous rebels, his own subjects, at Whitehall, London’.[^4] 
+>Our blessed King Charles I, whose memory shall live to eternity, was cruelly murdered by the hands of blasphemous rebels, his own subjects, at Whitehall, London.[^4] 
 
 Opening with a collective, possessive pronoun, Thornton assumes her readers share her perspective and proceeds to proclaim, ‘let all true Christians mourn for the fall of this stately cedar’; following the ‘bitter lamentations of Jeremiah’, such ‘true Christians’ should bewail the demise of this ‘holy, pious prince’ who is aligned with Old Testament exemplary rulers: Josiah, Solomon and Hezekiah.
 
@@ -29,7 +29,7 @@ Echoing the phraseology used in both the ‘A Proclamation, for Observation of t
 
 Thornton squarely places the blame for the king’s murder on ‘the iniquities of his subjects’ whose ‘sins pulled down his ruin on him and ourselves’. It is here that she alludes to the *Eikon Basilike*:
 
->Let his admirable book speak his eternal glory and praise, the best of kings (as mere man) that ever this earth had: never defiling himself with sin or blood; of a tender, compassionate, sweet disposition; incomparably chaste and free from the least tincture of vice or profaneness. [^6]
+>Let his admirable book speak his eternal glory and praise, the best of kings (as mere man) that ever this earth had: never defiling himself with sin or blood; of a tender, compassionate, sweet disposition; incomparably chaste and free from the least tincture of vice or profaneness.[^6]
 
 Purporting to represent ‘the Portraiture of His Sacred Majesty in His Solitudes and Sufferings,’ *Eikon Basilike* made its first appearance on the day of the king’s execution and went through thirty-five editions in England in 1649 alone.[^7] Opening with ‘Upon His Majesty’s calling this last Parliament’ and closing with ‘Upon the Army’s Surprisal of the King at Holmeby,’ *Eikon Basilike* outlines the major events of Charles I’s life from 1640 to 1647.  Each entry is presented as the king’s first-person account of the titular event and is followed by a prayer in which he pours out his heart to God and begs for his assistance. Thornton’s reflection on the king’s execution is itself a prayer, which, like those in ‘the King’s Book’ is saturated with biblical allusions.
 
@@ -60,4 +60,4 @@ The fact that women owned, read and imitated ‘the King’s book’ is a powerf
 
 [^6] Thornton, *Book 1*, 93.
 
-[^7]: Robert Wilcher, ‘*Eikon Basilike*: The Printing, Composition, Strategy, and Impact of ‘The King’s Book", in *The Oxford Handbook of Literature and the English Revolution*, edited by Laura Lunger Knoppers, 289–308. (Oxford: Oxford University Press, 2012). 
+[^7]: Robert Wilcher, ‘*Eikon Basilike*: The Printing, Composition, Strategy, and Impact of "The King’s Book"’, in *The Oxford Handbook of Literature and the English Revolution*, edited by Laura Lunger Knoppers, 289–308. (Oxford: Oxford University Press, 2012). 
