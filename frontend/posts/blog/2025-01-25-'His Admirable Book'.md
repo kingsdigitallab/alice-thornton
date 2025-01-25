@@ -58,6 +58,6 @@ The fact that women owned, read and imitated ‘the King’s book’ is a powerf
 
 [^5]: ‘A Proclamation, for Observation of the Thirtieth Day of January as a Day of Fast and Humiliation’ (London: John Bill, 1660); ‘A Form of Common Prayer, to be used yearly upon the 30. day of January,’ in Brian Cummings, ed., *The Book of Common Prayer: The Texts of the 1549, 1559, and 1662* (Oxford: Oxford University Press, 2011), 655-61; Thornton, *Book 1*, 94.
 
-[^6] Thornton, *Book 1*, 93.
+[^6]: Thornton, *Book 1*, 93.
 
 [^7]: Robert Wilcher, ‘*Eikon Basilike*: The Printing, Composition, Strategy, and Impact of "The King’s Book"’, in *The Oxford Handbook of Literature and the English Revolution*, edited by Laura Lunger Knoppers, 289–308. (Oxford: Oxford University Press, 2012). 
