@@ -60,4 +60,4 @@ The fact that women owned, read and imitated ‘the King’s book’ is a powerf
 
 [^6] Thornton, *Book 1*, 93.
 
-[^7]: Robert Wilcher, ‘“*Eikon Basilike*: The Printing, Composition, Strategy, and Impact of ‘The King’s Book.’” In *The Oxford Handbook of Literature and the English Revolution*, edited by Laura Lunger Knoppers, 289–308. Oxford: Oxford University Press, 2012. 
+[^7]: Robert Wilcher, ‘*Eikon Basilike*: The Printing, Composition, Strategy, and Impact of ‘The King’s Book", in *The Oxford Handbook of Literature and the English Revolution*, edited by Laura Lunger Knoppers, 289–308. (Oxford: Oxford University Press, 2012). 
