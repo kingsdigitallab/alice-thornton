@@ -1,5 +1,5 @@
 ---
-title: "'His Admirable Book': Alice Thornton, *Eikon Basilike* and Seventeenth-Century Women's Books"
+title: "'His Admirable Book': Alice Thornton, Eikon Basilike and Seventeenth-Century Women's Books"
 feature: /assets/img/posts/Eikon_Basilike_Frontispiece.jpg"
 status: draft
 authors:
@@ -11,7 +11,7 @@ tags:
 
 Previously, as we approached the anniversary of the execution of Charles I (30 January 1649), Cordelia Beattie explored Thornton’s [‘Curious Account’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-01-27-last-days-charlesI) of the king’s final days; this year, I will take a closer look at how Thornton records Charles I’s execution. While there are only two explicit references to this event in her four Books, the differences between them raise questions about how they were composed. Furthermore, as her reference to ‘his admirable book’ is clearly an allusion to *Eikon Basilike*, Thornton’s name can be added to the increasing number of women known to have engaged with ‘The King’s Book’ in the seventeenth century.[^1]
 
-![Photo of *Book of Remembrances*, 25.]({{"/assets/img/posts/BookRem_25.jpg"|url}} "Alice Thornton, Book of Remembrances, 25. © Derek Beattie"){.media-left}
+![Photo of *Book of Remembrances*, 25.]({{"/assets/img/posts/BookRem_25.jpg"|url}} "Alice Thornton, Book of Remembrances, 25. © Derek Beattie"){.media-right}
 
 In the *Book of Remembrances*, Thornton simply recorded it as a single sentence: ‘King Charles I beheaded at Whitehall, London, the 30th of January 1648’.[^2] This note is nestled within a list of Thornton’s relatives who are all identified by familial relationship and Christian name, followed by ‘died at’. No cause of death is provided for her cousins Julian and John Norton, although their brother, Edmund Norton, fell victim to pleurisy, and her uncle, Sir Edward Osborne, memorably died of ‘a surfeit of [eating melons](https://www.historyworkshop.org.uk/food/forbidden-fruit/), being too cold for him’. The combination of the personal and the political here is striking as ‘King Charles I’ is both differentiated from and included within Thornton’s familial network. That framework is also used in *Book 1*; however, here Thornton provides further details for all those concerned, with the entry on the king being the most extended.[^3]  
 
@@ -27,7 +27,7 @@ Thornton squarely places the blame for the king’s murder on ‘the iniquities 
 
 >Let his admirable book speak his eternal glory and praise, the best of kings (as mere man) that ever this earth had: never defiling himself with sin or blood; of a tender, compassionate, sweet disposition; incomparably chaste and free from the least tincture of vice or profaneness.[^6]
 
-![Photo of *Eikon Basilike*_title page, 1649.]({{"/assets/img/posts/Eikon_Basilike_1649.jpg"|url}} "Title page of the 1662 Prayer Book, printed by John Baskerville. ©Public domain,via Wikimedia Commons"){.media-right}
+![Photo of *Eikon Basilike*_title page, 1649.]({{"/assets/img/posts/Eikon_Basilike_1649.jpg"|url}} "Title page of *Eikon Basilike*. © Public domain, via Wikimedia Commons"){.media-left}
 
 Purporting to represent ‘the Portraiture of His Sacred Majesty in His Solitudes and Sufferings,’ *Eikon Basilike* made its first appearance on the day of the king’s execution and went through thirty-five editions in England in 1649 alone.[^7] Opening with ‘Upon His Majesty’s calling this last Parliament’ and closing with ‘Meditations upon Death,’ *Eikon Basilike* outlines the major events of Charles I’s life from 1640.  Each entry is presented as the king’s first-person account of the titular event and is followed by a prayer in which he pours out his heart to God and begs for his assistance. Thornton’s reflection on the king’s execution is itself a prayer, which, like those in ‘the King’s Book’ is saturated with biblical allusions.
 
@@ -43,12 +43,11 @@ The fact that women owned, read and imitated ‘the King’s book’ is a powerf
 <br>
 <br>
 <br>
-<br>
-[^1]: For a modernised edition, see Jim Daems and Holly Faith Nelson, eds. *Eikon Basilike with Selections from Eikonoklastes by John Milton* (Ontario: Broadview, 2006). [Rosalind Smith](https://emmersoncollection.cems.anu.edu.au/2022/05/ownership-gift-and-witness-early-modern-womens-marginalia-in-the-eikon-basilike/) notes that of the 15 copies in the Emmerson Collection, five include marginalia by women; four of those at the Bodleian Library ‘have clear evidence of ownership by women’ as does one in the Turnbull library in New Zealand; [Michael Durrant](https://earlymodernfemalebookownership.wordpress.com/2023/12/22/eikon-basilike-the-pourtraicture-of-his-sacred-majestie-in-his-solitudes-and-sufferings-1648-9/#_ftnref4) describes similar evidence in two copies deposited at the Senate House Library, and [Joseph Black](https://earlymodernfemalebookownership.wordpress.com/2022/07/28/charles-i-eikon-basilike-1649-2/) points out that ‘all six copies currently listed in the Private Libraries in Renaissance England project database (plre.folger.edu) are associated with women’.  (all accessed 25 January 2025).
+[^1]: For a modernised edition, see Jim Daems and Holly Faith Nelson, eds. *Eikon Basilike with Selections from Eikonoklastes by John Milton* (Ontario: Broadview, 2006). [Rosalind Smith](https://emmersoncollection.cems.anu.edu.au/2022/05/ownership-gift-and-witness-early-modern-womens-marginalia-in-the-eikon-basilike/) notes that of the 15 copies in the Emmerson Collection, five include marginalia by women; four of those at the Bodleian Library ‘have clear evidence of ownership by women’ as does one in the Turnbull library in New Zealand; [Michael Durrant](https://earlymodernfemalebookownership.wordpress.com/2023/12/22/eikon-basilike-the-pourtraicture-of-his-sacred-majestie-in-his-solitudes-and-sufferings-1648-9/#_ftnref4) describes similar evidence in two copies deposited at the Senate House Library, and [Joseph Black](https://earlymodernfemalebookownership.wordpress.com/2022/07/28/charles-i-eikon-basilike-1649-2/) points out that ‘all six copies currently listed in the Private Libraries in Renaissance England project database (plre.folger.edu) are associated with women’ (all accessed 25 January 2025).
 
-[^2]: Alice Thornton, *Book of Remembrances* (c.1659-73). Modernised edition by Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noël, Tiffany Ong and Priyal Shah (2024), [25](https://thornton.kdl.kcl.ac.uk/edition/?&p0.lo=p.25&p0.vi=modern]) (accessed 25 January 2025). 
+[^2]: Alice Thornton, *Book of Remembrances* (c.1659-73). Modernised edition by Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noël, Tiffany Ong and Priyal Shah (2024), 25 (accessed 25 January 2025). 
 
-[^3]: Alice Thornton, *Book 1: The First Book of My Life* (c.1668-87). Modernised edition by Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noël, Tiffany Ong and Priyal Shah (2024), [93](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.93&p0.vi=modern)-96. (accessed 25 January 2025).
+[^3]: Alice Thornton, *Book 1: The First Book of My Life* (c.1668-87). Modernised edition by Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noël, Tiffany Ong and Priyal Shah (2024), 93-96 (accessed 25 January 2025).
 
 [^4]: Thornton, *Book 1*, 93. 
 
@@ -56,7 +55,7 @@ The fact that women owned, read and imitated ‘the King’s book’ is a powerf
 
 [^6]: Thornton, *Book 1*, 93.
 
-[^7]: Robert Wilcher, ‘*Eikon Basilike*: The Printing, Composition, Strategy, and Impact of “The King’s Book”’, in *The Oxford Handbook of Literature and the English Revolution*, edited by Laura Lunger Knoppers, 289–308. (Oxford: Oxford University Press, 2012). ---
+[^7]: Robert Wilcher, ‘*Eikon Basilike*: The Printing, Composition, Strategy, and Impact of “The King’s Book”’, in *The Oxford Handbook of Literature and the English Revolution*, edited by Laura Lunger Knoppers, 289–308 (Oxford: Oxford University Press, 2012).
 
 
 
