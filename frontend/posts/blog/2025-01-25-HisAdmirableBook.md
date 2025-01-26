@@ -29,6 +29,7 @@ Thornton squarely places the blame for the king’s murder on ‘the iniquities 
 
 ![Photo of *Eikon Basilike*_title page, 1649.]({{"/assets/img/posts/Eikon_Basilike_1649.jpg"|url}} "Title page of *Eikon Basilike*. © Public domain, via Wikimedia Commons"){.media-left}
 
+
 Purporting to represent ‘the Portraiture of His Sacred Majesty in His Solitudes and Sufferings,’ *Eikon Basilike* made its first appearance on the day of the king’s execution and went through thirty-five editions in England in 1649 alone.[^7] Opening with ‘Upon His Majesty’s calling this last Parliament’ and closing with ‘Meditations upon Death,’ *Eikon Basilike* outlines the major events of Charles I’s life from 1640.  Each entry is presented as the king’s first-person account of the titular event and is followed by a prayer in which he pours out his heart to God and begs for his assistance. Thornton’s reflection on the king’s execution is itself a prayer, which, like those in ‘the King’s Book’ is saturated with biblical allusions.
 
 However, while the title of Thornton’s reflection records the historically accurate date of the event, the time at which this entry was written is less certain. Although the *Eikon Basilike* was published contemporaneously, the ‘Proclamation’ and ‘A Form of Prayer’ appeared in 1660 and 1662 respectively. Furthermore, the likely composition of the *Book of Remembrances* (c. 1659-73) and *Book 1* (c. 1668-87) [considerably postdate the event itself](https://thornton.kdl.kcl.ac.uk/books/).
@@ -37,9 +38,11 @@ Like other early modern life-writers, Alice Thornton’s Books reveal various si
 
 While there is material evidence that many seventeenth century women owned copies of *Eikon Basilike*, the organisation of Thornton’s Books, especially *Book 1*, suggest that she emulates its structure.  Like *Eikon Basilike*, *Book 1* is composed of an account of a particular event followed by a prayer, thanksgiving or meditation and it also includes extensive discussion of the trial and execution of the Earl of Strafford, which has both personal and political reverberations for both the king and Thornton. After all, not only did Thornton socialise with the Earl’s daughters, but it was his return to England that saw her father become Lord Deputy of Ireland.  
 
+
+![Image showing details for 'Margaret White and the Alcoran']({{"/assets/img/posts/Radio4_Alcoran.jpg"|url}} "Screenshot of BBC advertisement"){.media-right}
+
 The fact that women owned, read and imitated ‘the King’s book’ is a powerful reminder of their engagement with the major political events of their time. However, as a forthcoming drama on Radio 4 reminds us, 1649 was not only significant for the king’s execution. It was also the year that the Qu’ran was first published in English – an act that was instigated by the wife of a Fleet Street printer, [Margaret White](https://www.bbc.co.uk/programmes/m0027k0z).
 
-![Image showing details for 'Margaret White and the Alcoran']({{"/assets/img/posts/Radio4_Alcoran.jpg"|url}} "Screenshot of BBC advertisement")
 <br>
 <br>
 <br>
