@@ -27,7 +27,7 @@ Thornton squarely places the blame for the king’s murder on ‘the iniquities 
 
 >Let his admirable book speak his eternal glory and praise, the best of kings (as mere man) that ever this earth had: never defiling himself with sin or blood; of a tender, compassionate, sweet disposition; incomparably chaste and free from the least tincture of vice or profaneness.[^6]
 
-![Photo of *Eikon Basilike*_title page, 1649.]({{"/assets/img/posts/Eikon_Basilike_1649.jpg"|url}}"Title page of the 1662 Prayer Book, printed by John Baskerville.©Public domain,via Wikimedia Commons."){.media-right}
+![Photo of *Eikon Basilike*_title page, 1649.]({{"/assets/img/posts/Eikon_Basilike_1649.jpg"|url}} "Title page of the 1662 Prayer Book, printed by John Baskerville. ©Public domain,via Wikimedia Commons"){.media-right}
 
 Purporting to represent ‘the Portraiture of His Sacred Majesty in His Solitudes and Sufferings,’ *Eikon Basilike* made its first appearance on the day of the king’s execution and went through thirty-five editions in England in 1649 alone.[^7] Opening with ‘Upon His Majesty’s calling this last Parliament’ and closing with ‘Meditations upon Death,’ *Eikon Basilike* outlines the major events of Charles I’s life from 1640.  Each entry is presented as the king’s first-person account of the titular event and is followed by a prayer in which he pours out his heart to God and begs for his assistance. Thornton’s reflection on the king’s execution is itself a prayer, which, like those in ‘the King’s Book’ is saturated with biblical allusions.
 
@@ -39,7 +39,7 @@ While there is material evidence that many seventeenth century women owned copie
 
 The fact that women owned, read and imitated ‘the King’s book’ is a powerful reminder of their engagement with the major political events of their time. However, as a forthcoming drama on Radio 4 reminds us, 1649 was not only significant for the king’s execution. It was also the year that the Qu’ran was first published in English – an act that was instigated by the wife of a Fleet Street printer, [Margaret White](https://www.bbc.co.uk/programmes/m0027k0z).
 
-![Image showing details for 'Margaret White and the Alcoran']({{"/assets/img/posts/Radio4_Alcoran.jpg"|url}})
+![Image showing details for 'Margaret White and the Alcoran']({{"/assets/img/posts/Radio4_Alcoran.jpg"|url}} "Screenshot of BBC advertisement"){.media-left}
 <br>
 <br>
 <br>
