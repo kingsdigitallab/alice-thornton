@@ -42,7 +42,8 @@ While there is material evidence that many seventeenth century women owned copie
 ![Image showing details for 'Margaret White and the Alcoran']({{"/assets/img/posts/Radio4_Alcoran.jpg"|url}} "Screenshot of BBC advertisement"){.media-right}
 
 The fact that women owned, read and imitated ‘the King’s book’ is a powerful reminder of their engagement with the major political events of their time. However, as a forthcoming drama on Radio 4 reminds us, 1649 was not only significant for the king’s execution. It was also the year that the Qu’ran was first published in English – an act that was instigated by the wife of a Fleet Street printer, [Margaret White](https://www.bbc.co.uk/programmes/m0027k0z).
-
+<br>
+<br>
 <br>
 <br>
 <br>
