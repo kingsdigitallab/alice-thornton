@@ -256,7 +256,7 @@ function initializeRowInteractions() {
 
     // Toggle the current hidden row
     d3.select(this).attr("aria-expanded", !isExpanded);
-    hiddenRow.attr("hidden", isExpanded);
+    hiddenRow.property("hidden", isExpanded);
   });
 
   // Handle "Toggle Details" button clicks for screen reader users
@@ -268,7 +268,7 @@ function initializeRowInteractions() {
 
     if (!hiddenRow.node()) return;
 
-    const isExpanded = !hiddenRow.attr("hidden");
+    const isExpanded = !hiddenRow.property("hidden");
 
     // Only toggle the current hidden row without affecting others
     const parentRow = d3.select(`.mainRow[data-target="${targetId}"]`);
@@ -276,7 +276,7 @@ function initializeRowInteractions() {
       parentRow.attr("aria-expanded", !isExpanded);
     }
 
-    hiddenRow.attr("hidden", isExpanded);
+    hiddenRow.property("hidden", isExpanded);
   });
 
   // Handle "Close" button clicks for all users
@@ -287,7 +287,7 @@ function initializeRowInteractions() {
     if (!hiddenRow.node()) return;
 
     // Close the specific hidden row
-    hiddenRow.attr("hidden", true);
+    hiddenRow.property("hidden", true);
 
     // Update the aria-expanded attribute on the parent row
     const parentRow = d3.select(`.mainRow[data-target="${targetId}"]`);
