@@ -1,6 +1,6 @@
 ---
 title: "'His Admirable Book': Alice Thornton, Eikon Basilike and Seventeenth-Century Women's Books"
-feature: /assets/img/posts/Eikon_Basilike_Frontispiece.jpg
+feature: /assets/img/posts/Eikon_Basilike_1649.jpg
 status: live
 authors:
 - strill
