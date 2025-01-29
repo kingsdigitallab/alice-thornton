@@ -1004,14 +1004,16 @@ $render-sic: false;
   //   margin-left: 3em;
   // }
 
-  &.view-semidip {
-    .tei-ex {
-      // 1.5.5.February
-      display: none;
-    }
-  }
+  // GN: 2025Q1: commented out as new ex rule override this.
+  // CUrly bracces instead in semi-dip.
+  // &.view-semidip {
+  //   .tei-ex {
+  //     // 1.5.5.February
+  //     display: none;
+  //   }
+  // }
 
-  h1,
+  h1, 
   h2,
   h3 {
     color: inherit;
@@ -1100,6 +1102,10 @@ $render-sic: false;
     .tei-fw[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header) {
       display: none;
     }
+
+    span[data-tei-rend~="italic-mod-only"] {
+      font-style: italic;
+    }  
   }
 
   &.view-modern {
@@ -1160,6 +1166,9 @@ $render-sic: false;
   }
 
   &.view-modern {
+    .semidip-only {
+      display: none;
+    }
     // 2.3
     .tei-del {
       display: none;
