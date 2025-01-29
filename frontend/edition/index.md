@@ -17,7 +17,7 @@ isCustomContent: true
 customCSS: "/assets/css/text-viewer2.css"
 customBodyClasses: "body-text-viewer"
 eleventyNavigation:
-  key: Digital Edition
+  key: Edition
   url: /edition/?p0.vi=modern
   order: 2
 ---
