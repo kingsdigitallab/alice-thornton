@@ -17,7 +17,7 @@ In the *Book of Remembrances*, Thornton simply recorded it as a single sentence:
 
 ‘Upon the Beheading of King Charles the Martyr, January 30th, 1648’, opens with a clear statement of Thornton’s perception of this event:
 
->Our blessed King Charles I, whose memory shall live to eternity, was cruelly murdered by the hands of blasphemous rebels, his own subjects, at Whitehall, London.[^4] 
+>Our blessed King Charles I, whose memory shall live to eternity, was cruelly murdered by the hands of blasphemous rebels – his own subjects – at Whitehall, London.[^4] 
 
 Opening with a collective, possessive pronoun, Thornton assumes her readers share her perspective and proceeds to proclaim, ‘let all true Christians mourn for the fall of this stately cedar’; following the ‘bitter lamentations of Jeremiah’, such ‘true Christians’ should bewail the demise of this ‘holy, pious prince’ who is aligned with Old Testament exemplary rulers: Josiah, Solomon and Hezekiah.
 
