@@ -11,18 +11,18 @@ eleventyNavigation:
 ## Remembrances of a Woman's Life in the Seventeenth Century
 
 'Alice Thornton's Books' is a collaborative research project
-which will enhance understanding of the lives and works of early modern women.
+which aims to enhance understanding of the lives and works of early modern women.
 
 While by no means the only seventeenth-century woman to write her own life story,
 Thornton is unusual in having written four different versions of her autobiography.
 Collectively, her Books offer an extraordinarily rich insight into gentry life
 in seventeenth-century Yorkshire, at a time of civil war and plague.
 
-This website will provide resources aimed at better understanding the life and
-work of Alice Thornton and, in due course, will host a fully searchable digital
+This website provides resources aimed at better understanding the life and
+work of Alice Thornton and hosts a fully searchable digital
 edition of all four of her autobiographical Books.
 
-You can now access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions, and our second release of the [search function](/entities/). Feedback is very welcome as we work towards our final release in February 2025; see the icon on the bottom right.
+You can currently access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions, and our second release of the [search function](/entities/). Feedback is very welcome as we work towards our final release in late February 2025; see the icon on the bottom right.
 
 {% comment %}
 <a class="button-hp" href="#who">
