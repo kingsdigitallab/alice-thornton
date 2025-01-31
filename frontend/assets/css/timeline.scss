@@ -263,6 +263,33 @@ html {
           }//button.hidden-close
           td{
             width:100%;
+            h3{
+              font-size:30px;
+            }
+            .container-historicalEvents{
+              h3{
+              &:before{
+                content:'';
+                background:black;
+                width: 1vw;
+                height: 1vw;
+                display: inline-block;
+                position: relative;
+                transform: translateX(-50%) rotate(45deg);
+                margin: 0 0.2em 0.2em 0;
+              }
+              }//h3
+            }// .container-historicalEvents
+            ul{
+              li{
+                margin-left: -40px;
+                list-style-type: none;
+                h4{
+                  text-decoration: underline;
+                  margin-top:40px;
+                }//h4
+              }//li
+            }//ul
             img{
               width:100%;
               .portrait{
