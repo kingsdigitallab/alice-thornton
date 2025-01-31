@@ -198,12 +198,10 @@ html {
       }
     } //&:nth-of-type(even)
     tbody {
-      display: block;
       position: relative;
       display: flex;
       tr {
         width: 10%;
-        /*display: inline-block;*/
         float:left;
         position: relative;
         vertical-align: bottom;
@@ -212,6 +210,7 @@ html {
         align-self: flex-end;
         &:hover {
           border-bottom: 0.5vw solid darken($taupe, 30%);
+          cursor: pointer;
           td {
             opacity: 1;
             &:after {
@@ -228,6 +227,39 @@ html {
             }
           } //td
         } //&:hover
+        &.hiddenRow{
+          background:white;
+          width: 90vw;
+          position: fixed;
+          left: 0;
+          height: 100vh;
+          top: 0;
+          z-index: 1;
+          overflow: scroll;
+          opacity: 1;
+          z-index: 9;
+          padding:5vw;
+          button.hidden-close{
+            position:fixed;
+            top: 0;
+            right:0;
+            cursor: pointer;
+            background-color: white;
+            border:none;
+            &:after{
+              content: '✕';
+              right: 0;
+              color: right;
+              font-size: 1.5rem;
+              top: -0.3rem;
+              padding: 3px 10px;
+              border-radius: 50%;
+            }
+            &:hover{
+              opacity:0.7;
+            }
+          }//button.hidden-close
+        }//&.hiddenRow
         td {
           position: relative;
           display: inline-block;
