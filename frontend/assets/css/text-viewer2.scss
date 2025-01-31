@@ -1421,7 +1421,13 @@ $render-sic: false;
     &.tei-quote {
       //biblical ref
       padding-bottom: 4px;
-      border-bottom: 1px dashed gray;
+      
+      // underline only for type=direct/para
+      border-bottom: none;
+      &.tei-type-direct, &.tei-type-paraphrase {
+        border-bottom: 1px dashed gray;
+      }
+
       &:after {
         content: "♰";
         width: 0.7em;
