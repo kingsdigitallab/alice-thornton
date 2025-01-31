@@ -271,15 +271,29 @@ html {
               &:before{
                 content:'';
                 background:black;
-                width: 1vw;
-                height: 1vw;
+                width: 10px;
+                height: 10px;
                 display: inline-block;
                 position: relative;
                 transform: translateX(-50%) rotate(45deg);
-                margin: 0 0.2em 0.2em 0;
+                margin: 0 5px 5px 0;
               }
               }//h3
             }// .container-historicalEvents
+            .container-entityEvents{
+              h3{
+              &:before{
+                content: "";
+                background-image: linear-gradient(0deg, rgba(128, 31, 0, 0.5) 0, rgba(255, 255, 255, 0.1));
+                position: relative;
+                border-radius: 50%;
+                display:inline-block;
+                width:20px;
+                height:20px;
+                margin: 0 5px 1px -10px;
+              }//::before
+            }//h3
+              }//.container-entityEvents
             ul{
               li{
                 margin-left: -40px;
