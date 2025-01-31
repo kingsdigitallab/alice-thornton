@@ -202,9 +202,8 @@ html {
       display: flex;
       tr {
         width: 10%;
-        float:left;
         position: relative;
-        vertical-align: bottom;
+        //vertical-align: bottom;
         margin: 0 0 0;
         border-bottom: 0.5vw solid $taupe;
         align-self: flex-end;
@@ -262,20 +261,14 @@ html {
         }//&.hiddenRow
         td {
           position: relative;
-          display: inline-block;
-          vertical-align: bottom;
+          float:left;
           padding: 0;
-          width: 100%;
-          position: relative;
-          border-width: none;
           border: 0;
-          display: inline-block;
           height: auto;
           left: 50%; /* Calculates 50% of the element's width, and moves it by that */
           transform: translateX(
             -50%
           ); /* amount across the X-axis to the left */
-          opacity: 0.6;
           z-index: 1;
           &:after {
             opacity: 0.6;
@@ -291,9 +284,7 @@ html {
           &.entityEventCount {
             width: calc(var(--event-value) / 1);
             padding-bottom: calc(var(--event-value) / 1);
-            display: inline-block;
             margin-bottom: 0;
-            vertical-align: bottom;
             border-radius: 50%;
             opacity: 0.7;
             aspect-ratio: 1/4;
@@ -397,7 +388,6 @@ html {
       tbody {
         display: flex;
         tr {
-          align-self: flex-end;
           @for $i from 1 through 10 {
             &:nth-child(#{$i}) {
               order: #{11 - $i};
@@ -531,3 +521,4 @@ html {
     } //tr
   } //table
 } //#data
+
