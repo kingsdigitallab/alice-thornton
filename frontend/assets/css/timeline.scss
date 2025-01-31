@@ -396,12 +396,71 @@ html {
               transform: translate(-250%, 30%) rotate(-45deg);
             } //& span
           } //&.historicalEventCount
+          &.birthEventCount {
+            width: 0.5vw;
+            height:0.5vw;
+            display: inline-block;
+            margin-bottom: 0;
+            vertical-align: bottom;
+            position: absolute;
+            bottom: -1.9vw;
+            left: 50%;
+            /* Calculates 50% of the element's width, and moves it by that */
+            transform: translateX(-50%); /* amount across the X-axis to the left */
+            &.present {
+              background: blue;
+              opacity: 0.6;
+              border-radius:50%;
+              z-index: 9;
+            } //&.present
+            & span {
+              transform: translate(-250%, 30%);
+            } //& span
+          } //&.birthEventCount
+          &.deathEventCount {
+            width: 1vw;
+            height: 1vw;
+            display: inline-block;
+            margin-bottom: 0;
+            vertical-align: bottom;
+            position: absolute;
+            bottom: -1.9vw;
+            left: 50%;
+            /* Calculates 50% of the element's width, and moves it by that */
+            transform: translateX(-50%); /* amount across the X-axis to the left */
+            &.present {
+              background: white;
+              border:1px solid black;
+              opacity: 0.6;
+            } //&.present
+            & span {
+              transform: translate(-250%, 30%);
+            } //& span
+          } //&.deathEventCount
+          &.marriageEventCount {
+            width: 1vw;
+            height: 1vw;
+            display: inline-block;
+            margin-bottom: 0;
+            vertical-align: bottom;
+            position: absolute;
+            bottom: -1.9vw;
+            left: 50%;
+            /* Calculates 50% of the element's width, and moves it by that */
+            transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
+            &.present {
+              background: darkred;
+              opacity: 0.6;
+            } //&.present
+            & span {
+              transform: translate(-250%, 30%);
+            } //& span
+          } //&.marriageEventCount
         } //td
       } //tr
     } //tbody
   } //table
 } //#data
-
 .data {
   margin: 10vw 0 0 20%;
   width: 60%;
