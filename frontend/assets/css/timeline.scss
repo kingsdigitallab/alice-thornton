@@ -199,13 +199,17 @@ html {
     } //&:nth-of-type(even)
     tbody {
       display: block;
+      position: relative;
+      display: flex;
       tr {
         width: 10%;
-        display: inline-block;
+        /*display: inline-block;*/
+        float:left;
         position: relative;
         vertical-align: bottom;
         margin: 0 0 0;
         border-bottom: 0.5vw solid $taupe;
+        align-self: flex-end;
         &:hover {
           border-bottom: 0.5vw solid darken($taupe, 30%);
           td {
