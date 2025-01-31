@@ -16,12 +16,13 @@ customCSS: "/assets/css/text-viewer2.css"
 customBodyClasses: "body-text-viewer viewer-print"
 ---
 
-A continuous section of a book in a single column display 
+A continuous section of a book in a single column display
 for easier reading on screen or better printing layout.
 Note that this view is an unfinished prototype.
 It contains interaction and formatting bugs.
 
 {% raw %}
+
 <section id="text-viewer">
   <!-- <div id="text-viewer" class="text-viewer columns printable-viewer"> -->
   <div class="panel-wrapper">

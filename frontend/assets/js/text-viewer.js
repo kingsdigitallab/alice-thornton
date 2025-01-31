@@ -539,7 +539,6 @@ function setUpTextViewer() {
           let index = noteSymbol.textContent;
           if (found[index]) continue;
           found[index] = true;
-          console.log(noteSymbol);
           let note = {
             index: index,
             body: this._xpath(infoBox, './/span[@class="body"]', dom)[0]

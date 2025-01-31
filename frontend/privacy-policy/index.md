@@ -4,7 +4,6 @@ excerpt: Learn more about the Alice Thornton's Books privacy policy
 tags: privacy, policy
 ---
 
-
 # {title}
 
 This privacy policy was last updated on _January 23, 2025_.
