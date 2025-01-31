@@ -518,17 +518,30 @@ function setUpTextViewer() {
         panel.notes = [];
         const parser = new DOMParser();
         const dom = parser.parseFromString(docStr, "text/html");
-        for (let infoBox of this._xpath(
+
+        this._extractNotes(
+          panel,
           dom,
-          '//span[@data-tei-resp="ednote"]'
-        )) {
-          let noteSymbol = this._xpath(
-            infoBox,
-            './/sup[@class="note-symbol"]',
-            dom
-          )[0];
+          '//span[@data-tei-resp="ednote"]',
+          './/sup[@class="note-symbol"]/text()'
+        );
+        this._extractNotes(
+          panel,
+          dom,
+          '//span[contains(@class, "is-glyph")]',
+          "./text()"
+        );
+      },
+      _extractNotes(panel, dom, xpathParent, xpathLabel) {
+        let found = {};
+        for (let infoBox of this._xpath(dom, xpathParent)) {
+          let noteSymbol = this._xpath(infoBox, xpathLabel, dom)[0];
+          let index = noteSymbol.textContent;
+          if (found[index]) continue;
+          found[index] = true;
+          console.log(noteSymbol);
           let note = {
-            index: noteSymbol.textContent,
+            index: index,
             body: this._xpath(infoBox, './/span[@class="body"]', dom)[0]
               .outerHTML,
           };
