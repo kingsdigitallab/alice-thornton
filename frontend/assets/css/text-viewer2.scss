@@ -852,12 +852,11 @@ $render-sic: false;
 // GN: placeholders for customasing the rendering of the editions
 // and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
-  margin-left: 60px;
   // at least two clear lines gap between bottom of text and page number
   padding-top: $edition-line-height;
   padding-bottom: calc($edition-line-height * 2);
   position: relative;
-  padding: 0 0 40px 0;
+  padding: 0 0 40px 40px;
   opacity: 30%;
   min-height: calc(100% - 80px);
   position: relative;
