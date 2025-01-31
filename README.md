@@ -12,8 +12,8 @@ The web site is developed using a Static Site Generator called [11ty](https://ww
 
 ## Site deployment
 
-- [The live site](//thornton.kdl.kcl.ac.uk) is generated from the `main` branch every 10 minutes. Researchers can edit the markdown content of the site directly on this branch.
-- [The staging site](//thornton-stg.kdl.kcl.ac.uk) is generated from the `release` branch every 10 minutes.
+- [The live/public site](//thornton.kdl.kcl.ac.uk) is generated from the `main` branch every 30 minutes. Researchers can edit the markdown content of the site directly on this branch.
+- [The staging site](//thornton-stg.kdl.kcl.ac.uk) is generated from the `release` branch every 30 minutes.
   This branch and site are used by the KDL team to test and demonstrate new features and fixes before publishing them to `main` branch.
 - [The development site](//thornton-dev.kdl.kcl.ac.uk) is generated from the `develop` branch every 30 minutes.
   This branch and site are used by the KDL team to experiment with new, unstable features.
@@ -22,9 +22,8 @@ The web site is developed using a Static Site Generator called [11ty](https://ww
 
 - [The TEI editions of the books](https://github.com/kingsdigitallab/alice-thornton/tree/edition) are kept in the `edition` branch
 - [The HTML chunks](https://github.com/kingsdigitallab/alice-thornton/tree/dts) are generated from the TEI editions every day at 1pm & 6pm and saved into the `dts` branch (Use [github action](https://github.com/kingsdigitallab/alice-thornton/actions/workflows/publish-tei.yml) or `npm run tei2html` to run it manually.)
-- The [Text Viewer](https://thornton-stg.kdl.kcl.ac.uk/books/viewer/) reads HTML chunks from the `dts` branch
-- The [development site](https://thornton-dev.kdl.kcl.ac.uk/books/viewer/) shows the latest HTML chunks
-- Snapshots of the `dts` branch will be manually tagged with following format: 'eYYYY-MM-DD', example 'e2023-05-23'
+- The staging (and development) [Text Viewer](https://thornton-stg.kdl.kcl.ac.uk/books/viewer/) reads HTML chunks from the `dts` branch
+- The live [Text Viewer](https://thornton.kdl.kcl.ac.uk/books/viewer/) reads HTML chunks from the `dts-liv` branch. Which is a snapshot done manually from the `dts` branch before a live/public release.
 
 ## Developing the DTS server
 
@@ -36,5 +35,3 @@ To edit the code of the DTS server locally while testing it with the AT Text Vie
 ## Server build for each type (dev|stg|liv) of site:
 
 `export SITE_ENV='dev'; npm run rebuild`
-
-..
