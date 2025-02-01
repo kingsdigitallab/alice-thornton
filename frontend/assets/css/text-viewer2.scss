@@ -954,7 +954,7 @@ $render-sic: false;
     }
   }
 
-  .tei-surplus:not(.not-a-word) {
+  .tei-surplus[data-tei-reason="repetition"]:not(.not-a-word) {
     // TODO: find better style
     background-color: #f1f1f1;
     padding: 0.2em;
