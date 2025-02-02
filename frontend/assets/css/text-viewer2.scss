@@ -1018,6 +1018,13 @@ $render-sic: false;
     color: inherit;
   }
 
+  hr.rule {
+    // line MUST partially fill the width of the container
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   span[data-tei-place="centre"] {
     text-align: center;
     display: inline-block;
