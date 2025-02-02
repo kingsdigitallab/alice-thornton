@@ -1196,6 +1196,21 @@ $render-sic: false;
     display: block;
     max-width: 80%;
 
+    // gn: enough space for small label on left
+    padding-left: 1.5em;
+
+    &.tei-type-index {
+      // no label on the left, so we reclamin that space
+      padding-left: 0;
+      .tei-item {
+        .tei-label {
+          // gn: only right-ligned if .tei-list.type-index
+          left: unset;
+          right: 0;
+        }
+      }  
+    }
+
     .tei-item {
       // doesn't work in FF
       &:not(:has(.tei-list)) {
@@ -1212,13 +1227,16 @@ $render-sic: false;
       position: relative;
 
       .tei-label {
-        right: 0;
+        // only right-ligned if .tei-list.type-index
+        // right: 0;
+        left: -0.5em;
         position: absolute;
         top: 0;
       }
-      span.not-a-word{
-        top: -2.5em;
-      }
+      // GN: commented out as it disrupts right-aligned labels (e.g. 3.132)
+      // span.not-a-word{
+      //   top: -2.5em;
+      // }
     }
   }
 
