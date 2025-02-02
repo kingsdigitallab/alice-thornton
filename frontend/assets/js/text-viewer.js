@@ -54,14 +54,14 @@ function setUpTextViewer() {
 
   let PanelControl = {
     template: template,
-    props: ["panelIdx", "controlKey", "hideLabel", "tooltip"],
+    props: ["panelIdx", "controlKey", "hideLabel", "tooltip", "label"],
     computed: {
       panel() {
         return this.$parent.panels[this.panelIdx];
       },
-      label() {
-        return this.$parent.controls[this.controlKey];
-      },
+      // label() {
+      //   // return this.$parent.controls[this.controlKey];
+      // },
       isHidden() {
         return this.$parent.isControlHidden(this.controlKey);
       },

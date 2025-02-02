@@ -37,6 +37,7 @@ eleventyNavigation:
 <template id="vue-panel-selector">
   <div class="select-dropdown">
     {{ tooltip }}
+    <label>{{label}}</label>
     <!-- removed id="image_switcher" -->
     <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)"
       v-model="panel.selections[controlKey]">
@@ -282,10 +283,10 @@ eleventyNavigation:
     <div class="panel" v-for="(panel, panelIdx) in panels">
       <nav class="panel-nav">
         <div>
-          <label>Book:</label>
-          <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
-          <label>Version:</label>
-          <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
+          <!-- <label>Book:</label> -->
+          <panel-control :panel-idx="panelIdx" control-key="document" label="Book:"></panel-control>
+          <!-- <label>Version:</label> -->
+          <panel-control :panel-idx="panelIdx" control-key="view" label="Version:"></panel-control>
         </div>
         <div class="icons">
           <div class="icon" @click="onClickInfo(panelIdx)">
