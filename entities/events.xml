@@ -15,7 +15,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="2025-01-31"/>
+        <date when="2025-02-02"/>
       </creation>
     </profileDesc>
     <encodingDesc>
@@ -232,6 +232,7 @@
           <label>family</label>
           <linkGrp type="sgl">
             <ptr target="book1:ev37 book1:ev39" type="book" subtype="book1"/>
+            <ptr target="book2:evn2" type="book" subtype="book2"/>
           </linkGrp>
         </event>
         <event xml:id="tw1_1640_politics" type="sgl" n="27" from-custom="1640-04" to-custom="1641-05-12">
@@ -390,6 +391,7 @@
           <desc>John Wandesford caught smallpox</desc>
           <label>illness</label>
           <linkGrp type="sub">
+            <ptr target="bookrem:evn1" type="book" subtype="bookrem"/>
             <ptr target="book1:ev34" type="book" subtype="book1"/>
             <ptr target="#chester_1642_smallpox" type="group"/>
           </linkGrp>
@@ -418,6 +420,7 @@
           <desc>Thornton recovered from smallpox and took Communion</desc>
           <label>religion</label>
           <linkGrp type="sub">
+            <ptr target="book1:evn1" type="book" subtype="book1"/>
             <ptr target="book2:ev88" type="book" subtype="book2"/>
             <ptr target="#chester_1642_smallpox" type="group"/>
           </linkGrp>
@@ -514,6 +517,7 @@
           <label>war/politics</label>
           <linkGrp type="sub">
             <ptr target="book1:ev51 book1:ev223" type="book" subtype="book1"/>
+            <ptr target="book3:evn2 book3:evn3" type="book" subtype="book3"/>
             <ptr target="#war_1644_marston" type="group"/>
           </linkGrp>
         </event>
@@ -522,6 +526,7 @@
           <label>death</label>
           <linkGrp type="sub">
             <ptr target="book1:ev49" type="book" subtype="book1"/>
+            <ptr target="book2:evn3" type="book" subtype="book2"/>
             <ptr target="book3:ev23" type="book" subtype="book3"/>
             <ptr target="#war_1644_marston" type="group"/>
           </linkGrp>
@@ -810,6 +815,7 @@
           <label>dream/prophecy</label>
           <linkGrp type="sgl">
             <ptr target="bookrem:ev101" type="book" subtype="bookrem"/>
+            <ptr target="book1:evn7" type="book" subtype="book1"/>
           </linkGrp>
         </event>
         <event xml:id="jl1_1651_will_plot" type="sub" n="107" when-custom="1651?">
@@ -824,6 +830,8 @@
           <desc>George Wandesford's sequestration was lifted with help from Richard Darley</desc>
           <label>legal/financial</label>
           <linkGrp type="sub">
+            <ptr target="bookrem:evn7" type="book" subtype="bookrem"/>
+            <ptr target="book1:evn2" type="book" subtype="book1"/>
             <ptr target="book2:ev46" type="book" subtype="book2"/>
             <ptr target="book3:ev38" type="book" subtype="book3"/>
             <ptr target="#gw1_1645_sequestration" type="group"/>
@@ -888,12 +896,14 @@
           <linkGrp type="sgl">
             <ptr target="book1:ev72c" type="book" subtype="book1"/>
             <ptr target="book2:ev59" type="book" subtype="book2"/>
+            <ptr target="book3:evn15" type="book" subtype="book3"/>
           </linkGrp>
         </event>
         <event xml:id="jw1_1651_medical" type="sgl" n="117" when-custom="1651%">
           <desc>John Wandesford suffered from 'melancholy'</desc>
           <label>education</label>
           <linkGrp type="sgl">
+            <ptr target="bookrem:evn4" type="book" subtype="bookrem"/>
             <ptr target="book1:ev175a book1:ev178" type="book" subtype="book1"/>
           </linkGrp>
         </event>
@@ -1016,7 +1026,7 @@
             <ptr target="bookrem:ev53a bookrem:ev103" type="book" subtype="bookrem"/>
             <ptr target="book1:ev142a" type="book" subtype="book1"/>
             <ptr target="book2:ev8 book2:ev12 book2:ev58 book2:ev184" type="book" subtype="book2"/>
-            <ptr target="book3:ev128 book3:ev214" type="book" subtype="book3"/>
+            <ptr target="book3:ev128 book3:ev214 book3:evn4" type="book" subtype="book3"/>
             <ptr target="#wt1_1652_irish" type="group"/>
           </linkGrp>
         </event>
@@ -1035,7 +1045,7 @@
           <label>family</label>
           <linkGrp type="sgl">
             <ptr target="book1:ev206a" type="book" subtype="book1"/>
-            <ptr target="book3:ev94 book3:ev96 book3:ev169 book3:ev212" type="book" subtype="book3"/>
+            <ptr target="book3:ev94 book3:ev96 book3:ev169 book3:ev212 book3:evn10" type="book" subtype="book3"/>
           </linkGrp>
         </event>
         <event xml:id="awt1_child01_pregnancy" type="sub" n="137" when-custom="1652-02~">
@@ -1060,7 +1070,7 @@
           <label>illness</label>
           <linkGrp type="sub">
             <ptr target="book1:ev79" type="book" subtype="book1"/>
-            <ptr target="book2:ev103" type="book" subtype="book2"/>
+            <ptr target="book2:ev103 book2:evn6" type="book" subtype="book2"/>
             <ptr target="#awt1_child01" type="group"/>
           </linkGrp>
         </event>
@@ -1090,6 +1100,7 @@
           <linkGrp type="sub">
             <ptr target="bookrem:ev32" type="book" subtype="bookrem"/>
             <ptr target="book1:ev82" type="book" subtype="book1"/>
+            <ptr target="book2:evn8" type="book" subtype="book2"/>
             <ptr target="#awt1_child01" type="group"/>
           </linkGrp>
         </event>
@@ -1099,7 +1110,7 @@
           <linkGrp type="sub">
             <ptr target="bookrem:ev33" type="book" subtype="bookrem"/>
             <ptr target="book1:ev83" type="book" subtype="book1"/>
-            <ptr target="book2:ev108" type="book" subtype="book2"/>
+            <ptr target="book2:ev108 book2:evn7" type="book" subtype="book2"/>
             <ptr target="#awt1_child01" type="group"/>
           </linkGrp>
         </event>
@@ -1108,7 +1119,7 @@
           <label>legal/financial</label>
           <linkGrp type="sub">
             <ptr target="book1:ev175b book1:ev222b" type="book" subtype="book1"/>
-            <ptr target="book2:ev12a book2:ev40 book2:ev41 book2:ev43 book2:ev50" type="book" subtype="book2"/>
+            <ptr target="book2:ev12a book2:ev40 book2:ev41 book2:ev43 book2:ev50 book2:evn4" type="book" subtype="book2"/>
             <ptr target="#cw1_1641_will" type="group"/>
           </linkGrp>
         </event>
@@ -1153,7 +1164,7 @@
           <desc>Baptism of second child, Alice (Nally) Thornton</desc>
           <label>birth/baptism</label>
           <linkGrp type="sub">
-            <ptr target="bookrem:ev34a" type="book" subtype="bookrem"/>
+            <ptr target="bookrem:ev34a bookrem:evn2" type="book" subtype="bookrem"/>
             <ptr target="book1:ev86" type="book" subtype="book1"/>
             <ptr target="book2:ev112" type="book" subtype="book2"/>
             <ptr target="#awt1_child02" type="group"/>
@@ -1369,6 +1380,7 @@
           <desc>Thornton became pregnant with fifth child</desc>
           <label>pregnancy</label>
           <linkGrp type="sub">
+            <ptr target="book1:evn3" type="book" subtype="book1"/>
             <ptr target="book2:ev130" type="book" subtype="book2"/>
             <ptr target="#awt1_child05" type="group"/>
           </linkGrp>
@@ -1378,7 +1390,7 @@
           <label>accident/danger</label>
           <linkGrp type="sub">
             <ptr target="bookrem:ev41 bookrem:ev42b" type="book" subtype="bookrem"/>
-            <ptr target="book1:ev106" type="book" subtype="book1"/>
+            <ptr target="book1:ev106 book1:evn4" type="book" subtype="book1"/>
             <ptr target="book2:ev69 book2:ev130a" type="book" subtype="book2"/>
             <ptr target="#awt1_child05" type="group"/>
           </linkGrp>
@@ -1450,8 +1462,8 @@
           <desc>Alice Wandesford put property in trusts for Thornton</desc>
           <label>legal/financial</label>
           <linkGrp type="sgl">
-            <ptr target="book2:ev141" type="book" subtype="book2"/>
-            <ptr target="book3:ev127 book3:ev129 book3:ev131" type="book" subtype="book3"/>
+            <ptr target="book2:ev141 book2:evn5" type="book" subtype="book2"/>
+            <ptr target="book3:ev127 book3:ev129 book3:ev131 book3:evn14" type="book" subtype="book3"/>
           </linkGrp>
         </event>
         <event xml:id="aow1_1659_illness" type="sgl" n="189" when-custom="1659-08">
@@ -1639,7 +1651,7 @@
           <linkGrp type="sgl">
             <ptr target="bookrem:ev48" type="book" subtype="bookrem"/>
             <ptr target="book1:ev132" type="book" subtype="book1"/>
-            <ptr target="book2:ev150" type="book" subtype="book2"/>
+            <ptr target="book2:ev150 book2:evn9" type="book" subtype="book2"/>
           </linkGrp>
         </event>
         <event xml:id="awt1_1660_settlement_rl2" type="sub" n="212" when-custom="1660-04?">
@@ -1734,9 +1746,9 @@
           <label>illness</label>
           <linkGrp type="sub">
             <ptr target="bookrem:ev49" type="book" subtype="bookrem"/>
-            <ptr target="book1:ev138" type="book" subtype="book1"/>
+            <ptr target="book1:ev138 book1:ev139" type="book" subtype="book1"/>
             <ptr target="book2:ev70 book2:ev158 book2:ev159 book2:ev189" type="book" subtype="book2"/>
-            <ptr target="book3:ev15 book3:ev45 book3:ev55 book3:ev156" type="book" subtype="book3"/>
+            <ptr target="book3:ev15 book3:ev45 book3:ev55 book3:ev56 book3:ev156" type="book" subtype="book3"/>
             <ptr target="#awt1_child07" type="group"/>
           </linkGrp>
         </event>
@@ -1746,7 +1758,7 @@
           <linkGrp type="sub">
             <ptr target="bookrem:ev55" type="book" subtype="bookrem"/>
             <ptr target="book1:ev147a" type="book" subtype="book1"/>
-            <ptr target="book2:ev161 book2:ev178 book2:ev192" type="book" subtype="book2"/>
+            <ptr target="book2:ev161 book2:ev178 book2:ev192 book2:evn11" type="book" subtype="book2"/>
             <ptr target="book3:ev50 book3:ev62 book3:ev64" type="book" subtype="book3"/>
             <ptr target="#awt1_1668_settlement" type="group"/>
           </linkGrp>
@@ -1773,7 +1785,7 @@
           <linkGrp type="sub">
             <ptr target="bookrem:ev52 bookrem:ev104" type="book" subtype="bookrem"/>
             <ptr target="book1:ev141" type="book" subtype="book1"/>
-            <ptr target="book2:ev54 book2:ev171 book2:ev176" type="book" subtype="book2"/>
+            <ptr target="book2:ev54 book2:ev171 book2:ev176 book2:evn10" type="book" subtype="book2"/>
             <ptr target="book3:ev43 book3:ev59" type="book" subtype="book3"/>
             <ptr target="#awt1_child07" type="group"/>
           </linkGrp>
@@ -1814,7 +1826,7 @@
             <ptr target="bookrem:ev55a" type="book" subtype="bookrem"/>
             <ptr target="book1:ev147b" type="book" subtype="book1"/>
             <ptr target="book2:ev180 book2:ev186" type="book" subtype="book2"/>
-            <ptr target="book3:ev65" type="book" subtype="book3"/>
+            <ptr target="book3:ev65 book3:evn5" type="book" subtype="book3"/>
             <ptr target="#awt1_1668_settlement" type="group"/>
           </linkGrp>
         </event>
@@ -1854,6 +1866,7 @@
           <label>wonder</label>
           <linkGrp type="sub">
             <ptr target="bookrem:ev51a" type="book" subtype="bookrem"/>
+            <ptr target="book1:evn5" type="book" subtype="book1"/>
             <ptr target="book2:ev190" type="book" subtype="book2"/>
             <ptr target="#awt1_child07" type="group"/>
           </linkGrp>
@@ -1880,6 +1893,7 @@
           <desc>Henry Best tried to unpick Alice Wandesford’s trust for Thornton and her children</desc>
           <label>legal/financial</label>
           <linkGrp type="sgl">
+            <ptr target="book2:evn12" type="book" subtype="book2"/>
             <ptr target="book3:ev63" type="book" subtype="book3"/>
           </linkGrp>
         </event>
@@ -1932,7 +1946,7 @@
           <desc>'Book of Advice' found</desc>
           <label>family</label>
           <linkGrp type="sub">
-            <ptr target="book2:ev25" type="book" subtype="book2"/>
+            <ptr target="book2:ev25 book2:evn1" type="book" subtype="book2"/>
             <ptr target="#cw1_book_1642" type="group"/>
           </linkGrp>
         </event>
@@ -1964,7 +1978,7 @@
           <label>family</label>
           <linkGrp type="sgl">
             <ptr target="book2:ev210" type="book" subtype="book2"/>
-            <ptr target="book3:ev86 book3:ev87 book3:ev88 book3:ev214a" type="book" subtype="book3"/>
+            <ptr target="book3:ev86 book3:ev214a" type="book" subtype="book3"/>
           </linkGrp>
         </event>
         <event xml:id="atc1_1665_illness" type="sgl" n="252" when-custom="1665-06-13">
@@ -1988,8 +2002,8 @@
           <label>legal/financial</label>
           <linkGrp type="sub">
             <ptr target="book1:ev170" type="book" subtype="book1"/>
-            <ptr target="book2:ev187 book2:ev201 book2:ev203" type="book" subtype="book2"/>
-            <ptr target="book3:ev66" type="book" subtype="book3"/>
+            <ptr target="book2:ev187 book2:ev201 book2:ev203 book2:evn13" type="book" subtype="book2"/>
+            <ptr target="book3:ev66 book3:evn6 book3:evn7 book3:evn19" type="book" subtype="book3"/>
             <ptr target="#awt1_1668_settlement" type="group"/>
           </linkGrp>
         </event>
@@ -1998,7 +2012,7 @@
           <label>childbirth</label>
           <linkGrp type="sub">
             <ptr target="bookrem:ev61a bookrem:ev62" type="book" subtype="bookrem"/>
-            <ptr target="book1:ev157 book1:ev159" type="book" subtype="book1"/>
+            <ptr target="book1:ev157 book1:ev159 book1:evn6" type="book" subtype="book1"/>
             <ptr target="book2:ev197" type="book" subtype="book2"/>
             <ptr target="#awt1_child08" type="group"/>
           </linkGrp>
@@ -2007,7 +2021,7 @@
           <desc>Thornton haemorrhaged after birth of eighth child, Joyce, but then was able to breastfeed</desc>
           <label>breastfeeding</label>
           <linkGrp type="sub">
-            <ptr target="bookrem:ev61b" type="book" subtype="bookrem"/>
+            <ptr target="bookrem:ev61b bookrem:evn3" type="book" subtype="bookrem"/>
             <ptr target="book1:ev158 book1:ev161" type="book" subtype="book1"/>
             <ptr target="#awt1_child08" type="group"/>
           </linkGrp>
@@ -2085,7 +2099,7 @@
           <label>religion</label>
           <linkGrp type="sgl">
             <ptr target="book2:ev207" type="book" subtype="book2"/>
-            <ptr target="book3:ev89 book3:ev91 book3:ev182 book3:ev187" type="book" subtype="book3"/>
+            <ptr target="book3:ev89 book3:ev91 book3:ev182 book3:ev187 book3:evn18" type="book" subtype="book3"/>
           </linkGrp>
         </event>
         <event xml:id="awt1_1666_illness" type="sgl" n="267" when-custom="1666-08">
@@ -2112,6 +2126,7 @@
           <desc>Thomas Comber asked the Thorntons about marriage to Nally and negotiations began</desc>
           <label>marriage</label>
           <linkGrp type="sub">
+            <ptr target="bookrem:evn6" type="book" subtype="bookrem"/>
             <ptr target="book1:ev172" type="book" subtype="book1"/>
             <ptr target="book2:ev206" type="book" subtype="book2"/>
             <ptr target="book3:ev12 book3:ev71 book3:ev93 book3:ev152" type="book" subtype="book3"/>
@@ -2132,6 +2147,7 @@
           <linkGrp type="sgl">
             <ptr target="bookrem:ev69" type="book" subtype="bookrem"/>
             <ptr target="book1:ev174" type="book" subtype="book1"/>
+            <ptr target="book3:evn1" type="book" subtype="book3"/>
           </linkGrp>
         </event>
         <event xml:id="rt2_1666_religion" type="sgl" n="273" when-custom="1666-09-29">
@@ -2171,6 +2187,7 @@
           <desc>Anne Danby encouraged the match between Nally Thornton and Thomas Comber</desc>
           <label>slander</label>
           <linkGrp type="sub">
+            <ptr target="book1:evn8" type="book" subtype="book1"/>
             <ptr target="book3:ev90 book3:ev181 book3:ev215" type="book" subtype="book3"/>
             <ptr target="#atc1_1668_marriage" type="group"/>
           </linkGrp>
@@ -2253,6 +2270,7 @@
           <label>family</label>
           <linkGrp type="sgl">
             <ptr target="book1:ev201a book1:ev206d book1:ev207a" type="book" subtype="book1"/>
+            <ptr target="book3:evn9" type="book" subtype="book3"/>
           </linkGrp>
         </event>
         <event xml:id="acd1_1667_howley_return" type="sgl" n="289" when-custom="1667-05">
@@ -2304,12 +2322,11 @@
             <ptr target="book3:ev104" type="book" subtype="book3"/>
           </linkGrp>
         </event>
-        <event xml:id="mb1_1667_trunk" type="sub" n="295" when-custom="1667?">
+        <event xml:id="mb1_1667_trunk" type="sgl" n="295" when-custom="1667?">
           <desc>Mary Breakes opened Thornton's trunk in Thomas Comber's chamber</desc>
           <label>slander</label>
-          <linkGrp type="sub">
+          <linkGrp type="sgl">
             <ptr target="book3:ev107 book3:ev192" type="book" subtype="book3"/>
-            <ptr target="#awt1_1668_slander" type="group"/>
           </linkGrp>
         </event>
         <event xml:id="awt1_child09_birth" type="sub" n="296" when-custom="1667-11-11">
@@ -2411,25 +2428,27 @@
           <linkGrp type="sub">
             <ptr target="bookrem:ev87" type="book" subtype="bookrem"/>
             <ptr target="book1:ev208 book1:ev208b" type="book" subtype="book1"/>
-            <ptr target="book3:ev9 book3:ev193 book3:ev217" type="book" subtype="book3"/>
+            <ptr target="book3:ev9 book3:ev193 book3:ev217 book3:evn16 book3:evn17" type="book" subtype="book3"/>
             <ptr target="#awt1_1668_slander" type="group"/>
           </linkGrp>
         </event>
-        <event xml:id="awt1_1668_slander_wt1_defend" type="sub" n="309" when-custom="1668-07-20">
-          <desc>William Thornton did not believe the slander and defended his wife</desc>
-          <label>slander</label>
-          <linkGrp type="sub">
-            <ptr target="bookrem:ev92a" type="book" subtype="bookrem"/>
-            <ptr target="book3:ev98 book3:ev108" type="book" subtype="book3"/>
-            <ptr target="#awt1_1668_slander" type="group"/>
-          </linkGrp>
-        </event>
-        <event xml:id="awt1_1668_slander_wt1" type="sub" n="310" when-custom="1668-07-20">
+        <event xml:id="awt1_1668_slander_wt1" type="sub" n="309" when-custom="1668-07-20">
           <desc>William Thornton confronted Anne Danby and Barbara Todd and turned Todd out of the house</desc>
           <label>slander</label>
           <linkGrp type="sub">
             <ptr target="book1:ev208a" type="book" subtype="book1"/>
-            <ptr target="book3:ev73 book3:ev193a book3:ev218" type="book" subtype="book3"/>
+            <ptr target="book3:ev73 book3:ev108 book3:ev193a book3:ev218" type="book" subtype="book3"/>
+            <ptr target="#awt1_1668_slander" type="group"/>
+          </linkGrp>
+        </event>
+        <event xml:id="awt1_1668_slander_breakes" type="sub" n="310" when-custom="1668-07-20">
+          <desc>Barbara Todd blamed Mary Breakes for the slander</desc>
+          <label>slander</label>
+          <linkGrp type="sub">
+            <ptr target="bookrem:ev90 bookrem:evn5" type="book" subtype="bookrem"/>
+            <ptr target="book1:evn9" type="book" subtype="book1"/>
+            <ptr target="book2:ev1a" type="book" subtype="book2"/>
+            <ptr target="book3:ev75 book3:ev100" type="book" subtype="book3"/>
             <ptr target="#awt1_1668_slander" type="group"/>
           </linkGrp>
         </event>
@@ -2443,33 +2462,32 @@
             <ptr target="#awt1_1668_slander" type="group"/>
           </linkGrp>
         </event>
-        <event xml:id="awt1_1668_slander_breakes" type="sub" n="312" when-custom="1668-07-20">
-          <desc>Barbara Todd blamed Mary Breakes for the slander</desc>
+        <event xml:id="awt1_1668_slander_wt1_defend" type="sub" n="312" from-custom="1668-07-20" to-custom="1668-09-11">
+          <desc>William Thornton did not believe the slander and defended his wife</desc>
           <label>slander</label>
           <linkGrp type="sub">
-            <ptr target="bookrem:ev90" type="book" subtype="bookrem"/>
-            <ptr target="book2:ev1a" type="book" subtype="book2"/>
-            <ptr target="book3:ev75 book3:ev100" type="book" subtype="book3"/>
+            <ptr target="bookrem:ev92a" type="book" subtype="bookrem"/>
+            <ptr target="book3:ev98" type="book" subtype="book3"/>
             <ptr target="#awt1_1668_slander" type="group"/>
           </linkGrp>
         </event>
-        <event xml:id="awt1_1668_slander_grief" type="sub" n="313" from-custom="1668-07-20" to-custom="1668-08">
+        <event xml:id="rt2_1668_accident" type="sgl" n="313" when-custom="1668-07-25">
+          <desc>Robert Thornton fell when playing in a barn</desc>
+          <label>accident/danger</label>
+          <linkGrp type="sgl">
+            <ptr target="bookrem:ev91" type="book" subtype="bookrem"/>
+            <ptr target="book1:ev209" type="book" subtype="book1"/>
+          </linkGrp>
+        </event>
+        <event xml:id="awt1_1668_slander_grief" type="sub" n="314" from-custom="1668-07-20" to-custom="1668-08">
           <desc>Thornton was made ill by the slander causing Anne Norton to visit</desc>
           <label>illness</label>
           <linkGrp type="sub">
             <ptr target="bookrem:ev88" type="book" subtype="bookrem"/>
             <ptr target="book1:ev208e book1:ev208f" type="book" subtype="book1"/>
             <ptr target="book2:ev1b" type="book" subtype="book2"/>
-            <ptr target="book3:ev102" type="book" subtype="book3"/>
+            <ptr target="book3:ev102 book3:evn8" type="book" subtype="book3"/>
             <ptr target="#awt1_1668_slander" type="group"/>
-          </linkGrp>
-        </event>
-        <event xml:id="rt2_1668_accident" type="sgl" n="314" when-custom="1668-07-25">
-          <desc>Robert Thornton fell when playing in a barn</desc>
-          <label>accident/danger</label>
-          <linkGrp type="sgl">
-            <ptr target="bookrem:ev91" type="book" subtype="bookrem"/>
-            <ptr target="book1:ev209" type="book" subtype="book1"/>
           </linkGrp>
         </event>
         <event xml:id="awt1_1668_slander_relapse" type="sub" n="315" when-custom="1668-09-05">
@@ -2494,7 +2512,7 @@
           <label>slander</label>
           <linkGrp type="sub">
             <ptr target="book1:ev208h" type="book" subtype="book1"/>
-            <ptr target="book3:ev193b book3:ev196 book3:ev218a" type="book" subtype="book3"/>
+            <ptr target="book3:ev193b book3:ev196 book3:ev218a book3:evn11" type="book" subtype="book3"/>
             <ptr target="#awt1_1668_slander" type="group"/>
           </linkGrp>
         </event>
@@ -2524,6 +2542,7 @@
           <linkGrp type="sub">
             <ptr target="bookrem:ev94a bookrem:ev94c" type="book" subtype="bookrem"/>
             <ptr target="book1:ev211a book1:ev212a" type="book" subtype="book1"/>
+            <ptr target="book3:evn12 book3:evn13" type="book" subtype="book3"/>
             <ptr target="#wt1_1668_death" type="group"/>
           </linkGrp>
         </event>
@@ -2537,11 +2556,13 @@
             <ptr target="#wt1_1668_death" type="group"/>
           </linkGrp>
         </event>
-        <event xml:id="wt1_1668_news_awt1" type="sub" n="323" when-custom="1668-09-14">
+        <event xml:id="wt1_1668_news_awt1" type="sub" n="323" from-custom="1668-09-14" to-custom="1668-09-17">
           <desc>Thornton received news of William's illness and death</desc>
           <label>death</label>
           <linkGrp type="sub">
             <ptr target="book1:ev210a" type="book" subtype="book1"/>
+            <ptr target="book2:ev4" type="book" subtype="book2"/>
+            <ptr target="book3:ev10" type="book" subtype="book3"/>
             <ptr target="#wt1_1668_death" type="group"/>
           </linkGrp>
         </event>
@@ -2551,7 +2572,7 @@
           <linkGrp type="sub">
             <ptr target="bookrem:ev95" type="book" subtype="bookrem"/>
             <ptr target="book1:ev213" type="book" subtype="book1"/>
-            <ptr target="book2:ev3" type="book" subtype="book2"/>
+            <ptr target="book2:ev3 book2:evn14" type="book" subtype="book2"/>
             <ptr target="book3:ev113 book3:ev199" type="book" subtype="book3"/>
             <ptr target="#wt1_1668_death" type="group"/>
           </linkGrp>
@@ -2560,8 +2581,8 @@
           <desc>Thornton became ill with grief after William's death</desc>
           <label>illness</label>
           <linkGrp type="sub">
-            <ptr target="book2:ev2 book2:ev4 book2:ev6" type="book" subtype="book2"/>
-            <ptr target="book3:ev10 book3:ev116" type="book" subtype="book3"/>
+            <ptr target="book2:ev2 book2:ev6" type="book" subtype="book2"/>
+            <ptr target="book3:ev116" type="book" subtype="book3"/>
             <ptr target="#wt1_1668_death" type="group"/>
           </linkGrp>
         </event>
@@ -2677,22 +2698,29 @@
             <ptr target="book3:ev175" type="book" subtype="book3"/>
           </linkGrp>
         </event>
-        <event xml:id="awt1_1668_slander_friends" type="sub" n="341" when-custom="1669-04">
-          <desc>Friends and relatives circulated papers and letters in Thornton's defence</desc>
-          <label>slander</label>
+        <event xml:id="acd1_1669_further_rumours" type="sub" n="341" when-custom="1669-04">
+          <desc>Anne Danby and Barbara Todd continued to spread rumours about Thornton</desc>
           <linkGrp type="sub">
-            <ptr target="book3:ev179 book3:ev180" type="book" subtype="book3"/>
+            <ptr target="book3:ev179" type="book" subtype="book3"/>
             <ptr target="#awt1_1668_slander" type="group"/>
           </linkGrp>
         </event>
-        <event xml:id="awt1_1669_sacrament" type="sgl" n="342" when-custom="1669-04-11">
+        <event xml:id="awt1_1668_slander_friends" type="sub" n="342" when-custom="1669-04">
+          <desc>Friends and relatives circulated papers and letters in Thornton's defence</desc>
+          <label>slander</label>
+          <linkGrp type="sub">
+            <ptr target="book3:ev180" type="book" subtype="book3"/>
+            <ptr target="#awt1_1668_slander" type="group"/>
+          </linkGrp>
+        </event>
+        <event xml:id="awt1_1669_sacrament" type="sgl" n="343" when-custom="1669-04-11">
           <desc>Thornton received Holy Communion for the first time since William's death</desc>
           <label>religion</label>
           <linkGrp type="sgl">
             <ptr target="book3:ev222" type="book" subtype="book3"/>
           </linkGrp>
         </event>
-        <event xml:id="atc1_1669_marriage_public" type="sub" n="343" when-custom="1669-05-17">
+        <event xml:id="atc1_1669_marriage_public" type="sub" n="344" when-custom="1669-05-17">
           <desc>Public celebration of marriage of Nally Thornton and Thomas Comber</desc>
           <label>marriage</label>
           <linkGrp type="sub">
@@ -2700,14 +2728,14 @@
             <ptr target="#atc1_1668_marriage" type="group"/>
           </linkGrp>
         </event>
-        <event xml:id="awt1___cw2_release" type="sgl" n="344" when-custom="1669~">
+        <event xml:id="awt1___cw2_release" type="sgl" n="345" when-custom="1669~">
           <desc>Thornton was eventually persuaded by Christopher Wandesford to give up all  her rights as given in their parents' wills</desc>
           <label>legal/financial</label>
           <linkGrp type="sgl">
             <ptr target="book3:ev164 book3:ev166 book3:ev176" type="book" subtype="book3"/>
           </linkGrp>
         </event>
-        <event xml:id="awt1_1668_slander_todd_repentance" type="sub" n="345" notBefore-custom="1670%" notAfter-custom="1690%">
+        <event xml:id="awt1_1668_slander_todd_repentance" type="sub" n="346" notBefore-custom="1670%" notAfter-custom="1690%">
           <desc>Barbara Todd repented on her deathbed</desc>
           <label>death</label>
           <linkGrp type="sub">
@@ -2715,21 +2743,21 @@
             <ptr target="#awt1_1668_slander" type="group"/>
           </linkGrp>
         </event>
-        <event xml:id="awt1___release_deed_gift" type="sgl" n="346" when-custom="1684-06-11">
+        <event xml:id="awt1___release_deed_gift" type="sgl" n="347" when-custom="1684-06-11">
           <desc>Thornton had a deed of gift drawn up for her children</desc>
           <label>legal/financial</label>
           <linkGrp type="sgl">
             <ptr target="book3:ev167" type="book" subtype="book3"/>
           </linkGrp>
         </event>
-        <event xml:id="cw2_1687_death" type="sgl" n="347" when-custom="1687-02-23">
+        <event xml:id="cw2_1687_death" type="sgl" n="348" when-custom="1687-02-23">
           <desc>Death of brother, Christopher Wandesford</desc>
           <label>death</label>
           <linkGrp type="sgl">
             <ptr target="book1:ev221" type="book" subtype="book1"/>
           </linkGrp>
         </event>
-        <event xml:id="ad2___broken_promise_awt1" type="sgl" n="348" when-custom="1688-10">
+        <event xml:id="ad2___broken_promise_awt1" type="sgl" n="349" when-custom="1688-10">
           <desc>Abstrupus Danby did not fully repay Thornton's costs for his family</desc>
           <label>legal/financial</label>
           <linkGrp type="sgl">
