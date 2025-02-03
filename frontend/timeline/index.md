@@ -40,6 +40,7 @@ Hovering over each year reveals more details about the events recorded for that 
 <li>AM: Alice's mother</li>
 <li>AH: Alice's husband</li>
 <li>1: Alice's 1st child</li>
+<li>9: Alice's 9th child</li>
 </ul>
 </div>
 
