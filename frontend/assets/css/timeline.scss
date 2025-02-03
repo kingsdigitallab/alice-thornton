@@ -214,14 +214,15 @@ html {
         opacity: 0;
       }
       &:before {
-        right: 30%;
+        right: 39%;
+        left: inherit;
       }
     }
     &:before {
       //arrow direction
       position: absolute;
       content: "";
-      border: 0.1vw solid #777;
+      border: 0.1vw solid darken($gray-dark,20%);
       width: 1vw;
       height: 1vw;
       bottom: -0.25vw;
@@ -229,10 +230,12 @@ html {
       transform: translate(50%, 10%) rotate(45deg);
       border-left: 0.1vw solid $transparent;
       border-bottom: 0.1vw solid $transparent;
+      left:-2vw;
     }
     &:nth-child(2n):before {
       // arrow direction for every odd row
-      right: 0;
+      right: -1.5vw;
+      left: inherit;
       transform: translate(50%, 15%) rotate(-135deg);
     }
     // Ensure that even rows have reversed order visually only
@@ -260,7 +263,7 @@ html {
         border-bottom: 3vw solid $taupe;
         align-self: flex-end;
         &:hover {
-          border-bottom: 3vw solid darken($taupe, 30%);
+          border-bottom: 3vw solid darken($taupe, 20%);
           cursor: pointer;
           td {
             opacity: 1;
