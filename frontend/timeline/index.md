@@ -32,6 +32,16 @@ Hovering over each year reveals more details about the events recorded for that 
 </ul>
 </div>
 
+<div class="initials">
+<h4>Initials</h4>
+<ul>
+<li>A: Alice</li>
+<li>AF: Alice's father</li>
+<li>AM: Alice's mother</li>
+<li>AH: Alice's husband</li>
+<li>1: Alice's 1st child</li>
+</ul>
+</div>
 
 <div class="volumes">
 <h4>Volumes</h4>

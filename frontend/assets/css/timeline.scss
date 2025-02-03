@@ -119,8 +119,49 @@ html {
     }
   }//.events
   .life-events {
-   
-    }//.life-events
+  ul li{
+    list-style-type: none;
+    &:nth-child(1) {
+      &:before {
+        width: 10px;
+        height: 10px;
+        content: "";
+        background: $white;
+        border-radius: 50%;
+        z-index: 9;
+        border: 0.05vw solid $gold;
+        border-bottom: 0.2vw solid $gold;
+        position: absolute;
+        margin-left: -20px;
+        margin-top: 10px;
+      } //&:before
+    }
+    &:nth-child(2) {
+      &:before {
+        width: 18px;
+        height: 12px;
+        content: "";
+        background: black;
+        position: absolute;
+        margin-left: -23px;
+        margin-top: 10px;
+      } //&:before
+    }
+    &:nth-child(3) {
+      &:before {
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        content: "";
+        background: transparent;
+        border-radius: 50%;
+        border: 0.27vw double $secondary-dark;
+        margin-left: -23px;
+        margin-top: 6px;
+      } //&:before
+    }
+  }//ul li
+  }//.life-events
   
 } //#legend
 
