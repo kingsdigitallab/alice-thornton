@@ -1105,7 +1105,6 @@ $render-sic: false;
       width: 5em;
       text-indent: initial;
     }
-
   }
 
   // 2.284, 1.8
@@ -1208,7 +1207,7 @@ $render-sic: false;
           left: unset;
           right: 0;
         }
-      }  
+      }
     }
 
     .tei-item {
@@ -1446,10 +1445,11 @@ $render-sic: false;
     &.tei-quote {
       //biblical ref
       padding-bottom: 4px;
-      
+
       // underline only for type=direct/para
       border-bottom: none;
-      &.tei-type-direct, &.tei-type-paraphrase {
+      &.tei-type-direct,
+      &.tei-type-paraphrase {
         border-bottom: 1px dashed gray;
       }
 
