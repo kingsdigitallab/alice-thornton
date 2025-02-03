@@ -23,6 +23,16 @@ Hovering over each year reveals more details about the events recorded for that 
 </ul>
 </div>
 
+<div class="life-events">
+<h4>Life Events</h4>
+<ul>
+<li>Births</li>
+<li>Deaths</li>
+<li>Marriages</li>
+</ul>
+</div>
+
+
 <div class="volumes">
 <h4>Volumes</h4>
 <ul>

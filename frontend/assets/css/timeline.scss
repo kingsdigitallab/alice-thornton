@@ -70,7 +70,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   padding: 16px;
-  width: 60%;
+  width: 100%;
   margin: 10vw auto 5vw auto;
   h3 {
     width: 100%;
@@ -115,9 +115,13 @@ html {
           margin-top: 3px;
           border-radius: 50%;
         } //&:before
-      }
+      }//&:nth-child(2)
     }
-  }
+  }//.events
+  .life-events {
+   
+    }//.life-events
+  
 } //#legend
 
 #data {
