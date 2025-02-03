@@ -1,6 +1,7 @@
 // Colors
 @import "color-theme";
-$taupe: #a59f90;
+$taupe: lighten(#a59f90, 15%);
+$gold: darkgoldenrod;
 $transparent: transparent;
 
 // Mixins
@@ -136,12 +137,12 @@ html {
       border-radius: 0 100% 100% 0;
       position: absolute;
       content: "";
-      height: calc(100% + 5.51vw);
+      height: calc(100% + 3vw);
       aspect-ratio: 1/1;
       padding: 0;
       right: 0;
       bottom: 0;
-      border: 0.5vw solid $taupe;
+      border: 3vw solid $taupe;
       transform: translate(50%, 0);
       border-left: 0;
       z-index: -1;
@@ -206,10 +207,10 @@ html {
         position: relative;
         //vertical-align: bottom;
         margin: 0 0 0;
-        border-bottom: 0.5vw solid $taupe;
+        border-bottom: 3vw solid $taupe;
         align-self: flex-end;
         &:hover {
-          border-bottom: 0.5vw solid darken($taupe, 30%);
+          border-bottom: 3vw solid darken($taupe, 30%);
           cursor: pointer;
           td {
             opacity: 1;
@@ -370,7 +371,7 @@ html {
             margin-bottom: 0;
             width: 100%;
             transform: translateX(-25%);
-            bottom: -2vw;
+            bottom: -4vw;
             left: 0;
             text-align: center;
             span {
@@ -384,77 +385,100 @@ html {
             margin-bottom: 0;
             vertical-align: bottom;
             position: absolute;
-            bottom: -1.9vw;
+            bottom: -4.2vw;
             left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
             &.present {
-              background: black;
-              opacity: 0.6;
+              background: $primary-light;
             } //&.present
             & span {
               transform: translate(-250%, 30%) rotate(-45deg);
             } //& span
           } //&.historicalEventCount
           &.birthEventCount {
-            width: 0.5vw;
-            height:0.5vw;
+            width: 1vw;
+            height:1vw;
             display: inline-block;
             margin-bottom: 0;
             vertical-align: bottom;
             position: absolute;
-            bottom: -1.9vw;
+            bottom: -1.6vw;
             left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(-50%); /* amount across the X-axis to the left */
             &.present {
-              background: blue;
-              opacity: 0.6;
+              background: #fbfbfb;
               border-radius:50%;
               z-index: 9;
+              border-bottom: 0.2vw solid darkgoldenrod;
+              &:before{
+                width: 1vw;
+                height: 1vw;
+                content: "B";
+                position: absolute;
+                font-size: 0.9vw;
+                text-align: center;
+                bottom: 0.3vw;
+                color:black;
+              }
             } //&.present
-            & span {
-              transform: translate(-250%, 30%);
-            } //& span
           } //&.birthEventCount
           &.deathEventCount {
-            width: 1vw;
-            height: 1vw;
+            width: 2vw;
+            height: 1.2vw;
             display: inline-block;
             margin-bottom: 0;
             vertical-align: bottom;
             position: absolute;
-            bottom: -1.9vw;
+            bottom: -2.7vw;
             left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(-50%); /* amount across the X-axis to the left */
             &.present {
-              background: white;
-              border:1px solid black;
-              opacity: 0.6;
+              background: black;
+              &:before{
+                width: 2vw;
+                height: 1.2vw;
+                content: "5";
+                position: absolute;
+                font-size: 0.9vw;
+                text-align: center;
+                bottom: 0.2vw;
+                color:white;
+              }
             } //&.present
             & span {
               transform: translate(-250%, 30%);
             } //& span
           } //&.deathEventCount
           &.marriageEventCount {
-            width: 1vw;
-            height: 1vw;
+            width: 1.1vw;
+            height:1.1vw;
             display: inline-block;
             margin-bottom: 0;
             vertical-align: bottom;
             position: absolute;
-            bottom: -1.9vw;
+            bottom: -1.6vw;
             left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
-            transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
+            transform: translateX(-50%); /* amount across the X-axis to the left */
             &.present {
-              background: darkred;
-              opacity: 0.6;
+              background: transparent;
+              border-radius:50%;
+              z-index: 9;
+              border:0.2vw solid $secondary-dark;;
+              &:before{
+                width: 1.1vw;
+                height: 1.1vw;
+                content: "M";
+                position: absolute;
+                font-size: 0.9vw;
+                text-align: center;
+                bottom: 0.3vw;
+                color:black;
+              }
             } //&.present
-            & span {
-              transform: translate(-250%, 30%);
-            } //& span
           } //&.marriageEventCount
         } //td
       } //tr
@@ -485,9 +509,9 @@ html {
       padding: 0;
       right: 0;
       bottom: 0;
-      border: 0.5vw solid $taupe;
-      border-left: 0.5vw solid $transparent;
-      border-top: 0.5vw solid $transparent;
+      border: 3vw solid $taupe;
+      border-left: 3vw solid $transparent;
+      border-top: 3vw solid $transparent;
       /*transform: translate(50%, 0) rotate(-45deg);*/
       /*border-radius: 50%;*/
       background: rgba(0, 0, 0, 0.5);
@@ -517,7 +541,7 @@ html {
       position: relative;
       vertical-align: bottom;
       margin: 0 0 0;
-      border-bottom: 0.5vw solid $taupe;
+      border-bottom: 3vw solid $taupe;
       display: flex;
       td {
         position: relative;
@@ -594,7 +618,7 @@ html {
           margin-bottom: 0;
           width: 100%;
           transform: translateX(-25%);
-          bottom: -2vw;
+          bottom: -4vw;
           left: 0;
           text-align: center;
           span {
