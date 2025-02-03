@@ -5,5 +5,3 @@ title: Editorial guidelines
 ## Heading
 
 ...
-
-

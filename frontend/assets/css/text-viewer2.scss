@@ -954,7 +954,7 @@ $render-sic: false;
     }
   }
 
-  .tei-surplus:not(.not-a-word) {
+  .tei-surplus[data-tei-reason="repetition"]:not(.not-a-word) {
     // TODO: find better style
     background-color: #f1f1f1;
     padding: 0.2em;
@@ -1016,6 +1016,13 @@ $render-sic: false;
   h2,
   h3 {
     color: inherit;
+  }
+
+  hr.rule {
+    // line MUST partially fill the width of the container
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   span[data-tei-place="centre"] {
@@ -1098,7 +1105,6 @@ $render-sic: false;
       width: 5em;
       text-indent: initial;
     }
-
   }
 
   // 2.284, 1.8
@@ -1189,6 +1195,21 @@ $render-sic: false;
     display: block;
     max-width: 80%;
 
+    // gn: enough space for small label on left
+    padding-left: 1.5em;
+
+    &.tei-type-index {
+      // no label on the left, so we reclamin that space
+      padding-left: 0;
+      .tei-item {
+        .tei-label {
+          // gn: only right-ligned if .tei-list.type-index
+          left: unset;
+          right: 0;
+        }
+      }
+    }
+
     .tei-item {
       // doesn't work in FF
       &:not(:has(.tei-list)) {
@@ -1205,13 +1226,16 @@ $render-sic: false;
       position: relative;
 
       .tei-label {
-        right: 0;
+        // only right-ligned if .tei-list.type-index
+        // right: 0;
+        left: -0.5em;
         position: absolute;
         top: 0;
       }
-      span.not-a-word{
-        top: -2.5em;
-      }
+      // GN: commented out as it disrupts right-aligned labels (e.g. 3.132)
+      // span.not-a-word{
+      //   top: -2.5em;
+      // }
     }
   }
 
@@ -1421,7 +1445,14 @@ $render-sic: false;
     &.tei-quote {
       //biblical ref
       padding-bottom: 4px;
-      border-bottom: 1px dashed gray;
+
+      // underline only for type=direct/para
+      border-bottom: none;
+      &.tei-type-direct,
+      &.tei-type-paraphrase {
+        border-bottom: 1px dashed gray;
+      }
+
       &:after {
         content: "♰";
         width: 0.7em;

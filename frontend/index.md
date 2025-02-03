@@ -39,7 +39,7 @@ You can now access our [partial release](/books/viewer/?p0.vi=modern), in both s
 
 ![A church and leafy churchyard in sunshine]({{ "/assets/img/home/kirklington-church-st.jpg" | url }} "St Michael the Archangel's, Kirklington, where Alice was baptised. &copy; Suzanne Trill"){.media-left}
 
-Most of what we know about Alice Thornton (1626–1707) is drawn from the autobiographical books which she left to her eldest daughter in her will. She relates a veritable ‘riches to rags’ story, punctuated by many of what she presents as near-death experiences. 
+Most of what we know about Alice Thornton (1626–1707) is drawn from the autobiographical books which she left to her eldest daughter in her will. She relates a veritable ‘riches to rags’ story, punctuated by many of what she presents as near-death experiences.
 
 Born in Kirklington, Yorkshire on 13 February 1626, Alice spent her childhood years in relative comfort in Yorkshire, London and Dublin. She was the fifth child and youngest daughter of Christopher Wandesford (1592–1640) and his wife Alice Osborne (1593-1659). She later wrote that she had her first deliverance from death at age three at Kirklington Hall when she was following her nurse, Sarah, and tripped on a hearth stone and cut her head open.
 
