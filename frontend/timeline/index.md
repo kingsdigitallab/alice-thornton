@@ -13,6 +13,9 @@ Black diamonds highlight key political events or notable years in Alice Thornton
 
 Hovering over each year reveals more details about the events recorded for that year, including contextual information where available. Clicking on a year expands additional information, offering a deeper dive into the events and their significance.
 
+<hr>
+<em>Note: All elements below scale in response to the viewport so best viewed on a larger screen. </em>
+
 <div id="legend">
 <h3>Legend</h3>
 <div class="events">
