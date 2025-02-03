@@ -411,6 +411,7 @@ html {
               background: #fbfbfb;
               border-radius:50%;
               z-index: 9;
+              border: 0.05vw solid darkgoldenrod;
               border-bottom: 0.2vw solid darkgoldenrod;
               &:before{
                 width: 1vw;
@@ -421,8 +422,11 @@ html {
                 text-align: center;
                 bottom: 0.3vw;
                 color:black;
-              }
+              }//&:before
             } //&.present
+            & span{
+              display:none;
+            }//span
           } //&.birthEventCount
           &.deathEventCount {
             width: 2vw;
@@ -440,7 +444,7 @@ html {
               &:before{
                 width: 2vw;
                 height: 1.2vw;
-                content: "5";
+                content: "D";
                 position: absolute;
                 font-size: 0.9vw;
                 text-align: center;
@@ -448,18 +452,18 @@ html {
                 color:white;
               }
             } //&.present
-            & span {
-              transform: translate(-250%, 30%);
-            } //& span
+            & span{
+              display:none;
+            }//span
           } //&.deathEventCount
           &.marriageEventCount {
-            width: 1.1vw;
-            height:1.1vw;
+            width: 1vw;
+            height:1vw;
             display: inline-block;
             margin-bottom: 0;
             vertical-align: bottom;
             position: absolute;
-            bottom: -1.6vw;
+            bottom: -1.7vw;
             left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(-50%); /* amount across the X-axis to the left */
@@ -467,19 +471,63 @@ html {
               background: transparent;
               border-radius:50%;
               z-index: 9;
-              border:0.2vw solid $secondary-dark;;
+              border:0.27vw double $secondary-dark;
               &:before{
-                width: 1.1vw;
-                height: 1.1vw;
+                width: 1vw;
+                height: 1vw;
                 content: "M";
                 position: absolute;
                 font-size: 0.9vw;
                 text-align: center;
                 bottom: 0.3vw;
                 color:black;
-              }
+              }//&::before
             } //&.present
+            & span{
+              display:none;
+            }//span
           } //&.marriageEventCount
+          &.birthEventCount, &.deathEventCount, &.marriageEventCount{
+            &.child-1:before{
+            content: "1";
+          }//.child-1:before
+          &.child-2:before{
+            content: "2";
+          }//.child-1:before
+          &.child-3:before{
+            content: "3";
+          }//.child-4:before
+          &.child-4:before{
+            content: "4";
+          }//.child-4:before
+          &.child-5:before{
+            content: "5";
+          }//.child-5:before
+          &.child-6:before{
+            content: "6";
+          }//.child-6:before
+          &.child-7:before{
+            content: "7";
+          }//.child-7:before
+          &.child-8:before{
+            content: "8";
+          }//.child-8:before
+          &.child-9:before{
+            content: "9";
+          }//.child-9:before
+          &.alice:before{
+            content: "A";
+          }//.alice:before
+          &.alice-mother:before{
+            content: "AM";
+          }//.alice-mother:before
+          &.alice-father:before{
+            content: "AF";
+          }//.alice-father:before
+          &.alice-husband:before{
+            content: "AH";
+          }//.alice-husband:before
+        }//&.birthEventCount, &.deathEventCount, &.marriageEventCount
         } //td
       } //tr
     } //tbody
