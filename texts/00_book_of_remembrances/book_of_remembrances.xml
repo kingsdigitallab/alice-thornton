@@ -7,18 +7,16 @@
          </titleStmt>
          <editionStmt>
             <edition>
-              <!-- Q TODO check "final" publication date... -->
-               <date>2025-02-28</date>
+               <date>2025-02-24</date>
             </edition>
            <editor>Cordelia Beattie</editor>
            <editor>Suzanne Trill</editor>
            <editor>Joanne Edge</editor>
            <editor>Sharon Howard</editor>
          </editionStmt>
-            <!-- Q TODO publicationStmt? (all 4 books) -->
          <publicationStmt>
            <publisher>King's Digital Lab</publisher>
-           <date>2025</date>
+           <date>2025-02-24</date>
          </publicationStmt>
 
          <sourceDesc>
@@ -616,9 +614,8 @@
          <fw>
            <fw xml:id="mnote-0001" place="left margin">
              <!-- NOTE close resemblance to unicode dotted cross symbol -->
+             <!-- NOTE this is not strictly a signe-de-renvoi because its matching marker later (div097) is missing.  -->
              <g ref="#u8284">⁜</g>
-             <!-- Q [notes] try retaining endnote and use g/glyph to document general desription, but will need to review the relationship between the two features. may not work. it is only 1 instance. -->
-             <!-- Q [tei] metamark? this is rather like the signe de renvoi at the same place in book 1... but it's missing the matching symbol at the end (div 097), and the added text here. link it to div 097 anyway? honestly, alice.  -->
            </fw> <anchor n="10" corresp="#p012n01" resp="ednote"/>
             <fw type="head" rend="underline">
               <date when-custom="1631">1631</date>
@@ -867,7 +864,7 @@
 
          <fw>
             <fw type="pageNum">17</fw>
-            <fw type="head" rend="underline"> <!-- NOTE not possible to tag with <head> -->
+            <fw type="head" rend="underline"> <!-- NOTE use of fw type=head as not possible to tag with <head> -->
               <date when-custom="1632/1634">1632, <choice><abbr>33</abbr><expan>1633</expan></choice>, <choice><abbr>34</abbr><expan>1634</expan></choice></date>
             </fw>
          </fw>
@@ -1160,8 +1157,8 @@
             <lb/>
              1645</date><supplied reason="mod">,</supplied><anchor n="23" corresp="#p024n02" resp="ednote"/>
           <!-- 
-            NOTE Bk 1 says sept 30th 1645 but Anselment found she was buried on 11th sept 1645: edn n274.
-             Originally 1644 but the final number has been over-written as 5. -->
+            NOTE Sept 30th 1645 in book1; but she was buried on 11th sept 1645.
+             Originally wrote 1644 but the final number has been over-written as 5. -->
            <add xml:id="ex-add-inline-02" place="inline" rend="size(smaller)">of her <w norm="16th">16</w> <w norm="child">childe</w><surplus reason="superfluous">.</surplus> <w norm="being">beeing</w> a son named<lb/> 
                 <persName ref="ppl:fd1" n="per47">Francis</persName><supplied reason="mod">,</supplied> which I <w norm="baptised">baptized</w><supplied reason="mod">.</supplied></add><anchor n="24" corresp="#p024n03" resp="ednote"/> 
          <anchor xml:id="ev20-end" n="ev20" type="event"/></p>
@@ -1188,7 +1185,7 @@
            <persName ref="ppl:en1" n="per48">My <w norm="cousin">Cozen</w><supplied reason="mod">,</supplied> Edmund Norton</persName><supplied reason="mod">,</supplied> <w norm="married">maried</w><lb/>
            <persName ref="ppl:td2" n="per49">Mr <w norm="Dudley's">Dudlys</w></persName> <w norm="daughter" type="l">Daughter</w> <w norm="and">&amp;</w> <w norm="heir">heire</w> of<surplus reason="superfluous">.</surplus><lb/>
            <placeName ref="place:Chop_013" n="place118">Chopwell</placeName><pc norm=",">.</pc> <persName ref="ppl:jdn1" n="per50">Jane <w norm="Dudley">Dudly</w></persName><pc norm=",">.</pc> the <date when-custom="1647-02-10" datingMethod="#JulianSic">10<hi rend="superscript">th</hi> of<lb/>
-             February<surplus reason="superfluous">.</surplus> 1647</date><!-- NOTE date of marriage OS/NS seems unverifiable --><pc norm=",">.</pc> at <placeName ref="place:Chop_013" n="place26">Chopwell</placeName>.<milestone unit="marker" rend="delim(diagonal)"/>
+             February<surplus reason="superfluous">.</surplus> 1647</date><!-- NOTE date of marriage uncertain; OS/NS seems unverifiable --><pc norm=",">.</pc> at <placeName ref="place:Chop_013" n="place26">Chopwell</placeName>.<milestone unit="marker" rend="delim(diagonal)"/>
          <anchor xml:id="ev21-end" n="ev21" type="event"/>
          </p>
        </div>
@@ -1208,7 +1205,7 @@
         <milestone spanTo="#ev23-end" xml:id="ev23-start" n="ev23" unit="event"/>
            <persName ref="ppl:cs1" n="per52"><w norm="King Charles I">King Charles the first</w></persName> beheaded at<lb/>
         <placeName ref="place:Whit_084" n="place28"><w norm="Whitehall">White hall</w>, London</placeName><supplied reason="mod">,</supplied> the <date datingMethod="#JulianMar" when-custom="1648-01-30">30<hi rend="superscript">th</hi> of <w norm="January">Janeuary</w><surplus reason="superfluous">,</surplus><lb/>
-        1648</date>.<anchor n="25" corresp="#p025n01" resp="ednote"/><!-- NOTE [dates] this one is definitely OS... -->
+        1648</date>.<anchor n="25" corresp="#p025n01" resp="ednote"/><!-- NOTE [dates] well, this one is definitely OS. -->
          <anchor xml:id="ev23-end" n="ev23" type="event"/>
            <milestone unit="marker" rend="delim(diagonal)"/>
          </p>
@@ -1321,7 +1318,6 @@
           being <w norm="Friday" type="u">friday</w><pc norm=",">.</pc><anchor xml:id="ev31a-end" n="ev31a" type="event"/> <w norm="and">&amp;</w> <milestone spanTo="#ev32-end" xml:id="ev32-start" n="ev32" unit="event"/>she was buried at<lb/>
           <placeName ref="place:Easb_018" n="place38">Easby <w norm="church" type="l">Church</w></placeName><supplied reason="mod">,</supplied> <w norm="near">neare</w> <placeName ref="place:Rich_043" n="place39"><choice><abbr>Rich.</abbr><expan>Richmond</expan></choice></placeName> <date when-custom="1652-08-28">the next morn<lb break="no"/>
          ing<supplied reason="mod">)</supplied>:</date><anchor xml:id="ev32-end" n="ev32" type="event"/> <milestone spanTo="#ev33-end" xml:id="ev33-start" n="ev33" unit="event"/><seg rend="differentInk">the <w norm="effects">efects</w> of which <w norm="sickness">sicknesse</w> lasted by<lb/>
-           <!-- NOTE reinstated line of text 230907 -->
            an <term n="24" xml:id="bremp027t01" ref="gloss:bremp027t01"><w norm="ague">Ague</w></term><pc norm=",">.</pc> <w norm="fever">feaver</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <term n="25" xml:id="bremp027t02" ref="gloss:bremp027t02"><w norm="jaundice">Jaundies</w></term> <choice><abbr>3 q<am rend="superscript">rters</am></abbr><expan>three-quarters</expan></choice> of a <lb/>
            
            <w norm="year">yeare</w><surplus reason="superfluous">:</surplus> at <placeName ref="place:Hips_022" n="place40"><w norm="Hipswell" type="u">hipswell</w></placeName>.</seg>
@@ -1337,7 +1333,7 @@
            <persName ref="ppl:atc1" n="per69">Alice Thornton</persName><supplied reason="mod">,</supplied> my <w norm="second" type="l">Second</w> <w norm="child">Childe</w><supplied reason="mod">,</supplied><lb/>
           was <w norm="born">borne</w> at <placeName ref="place:Hips_022" n="place41">Hipswell</placeName><supplied reason="mod">,</supplied> the <date datingMethod="#JulianMar" when-custom="1653-01-03">3<hi rend="superscript"><supplied reason="mod">r</supplied>d</hi> of <w norm="January">Janeuary</w><supplied reason="mod">,</supplied><lb/>
          <fw xml:id="mnote-0004" place="left margin" rend="underline">1653</fw></date>
-           <!-- NOTE damage here not marked up. two words have been deleted by AT. a hole in the page visible on p.26.-->
+           <!-- NOTE damage here not encoded. two words have been deleted by AT and a hole in the page also visible on p.26.-->
           <anchor xml:id="ev34-end" type="event" n="ev34"/>
            <milestone spanTo="#ev34a-end" xml:id="ev34a-start" unit="event" n="ev34a"/>
            and <w norm="baptised">Babtized</w> the <date datingMethod="#JulianMar" when-custom="1653-01-04"><w norm="fourth">4<hi rend="superscript">th</hi></w> of the same</date><supplied reason="mod">,</supplied> <supplied reason="mod"><date>1653</date></supplied>.
@@ -1359,10 +1355,9 @@
          <milestone spanTo="#ev35-end" xml:id="ev35-start" n="ev35" unit="event"/>
            <persName ref="ppl:et1" n="per75">Elizabeth Thornton</persName><supplied reason="mod">,</supplied> my third <w norm="child">Childe</w><supplied reason="mod">,</supplied><lb/>
            was <w norm="born">borne</w> at <placeName ref="place:Hips_022" n="place42">Hipswell</placeName><supplied reason="mod">,</supplied> the <date datingMethod="#JulianMar" when-custom="1654-02-14">14<hi rend="superscript">th</hi> of <w norm="February">februory</w> </date><lb/> <add xml:id="mnote-0005" place="left" rend="underline">1654</add><supplied reason="mod">,</supplied><anchor n="28" corresp="#p027n02" resp="ednote"/>
-         <!-- NOTE inserted year changed to left rather than left margin, now shows in both SD and mod.  -->
          <!-- NOTE [dates] OS Elizabeth's birth=1655 -->
                   
-         <!-- NOTE damage here not marked up --> 
+         <!-- NOTE damage on page here not encoded --> 
            being Wednesday<pc norm=",">.</pc> <w norm="half">halfe</w> <w norm="hour">houer</w><lb/>
            <w norm="after">affter</w> <w norm="eleven">11</w>  
          <w norm="o'clock">a clock</w> in the forenoon, 
@@ -1455,7 +1450,7 @@
            <w norm="baptised">babtized</w> the <date when-custom="1656-06-14">14<hi rend="superscript">th</hi> of June</date><surplus reason="superfluous">.</surplus> by <persName ref="ppl:ms1" n="per85">Mr<lb/>
           <w norm="Syddall">Siddall</w></persName>. <term n="28" xml:id="bremp029t01" ref="gloss:bremp029t01"><w norm="Witnesses">wittnesses</w></term><pc norm=":">,</pc> <rs ref="ppl:aow1" n="per86" type="person">my mother</rs>,<lb/>
            <persName ref="ppl:kdb1" n="per87">my <w norm="niece">Neece</w> <add place="above"><choice><abbr>K</abbr><expan>Katherine</expan></choice></add> Danby</persName>, <w norm="and">&amp;</w> <persName ref="ppl:wt1" n="per88">Mr Thornton</persName><supplied reason="mod">.</supplied>
-           <!-- NOTE / transcribed after Thornton -->
+           <!-- NOTE / after Thornton -->
          <anchor xml:id="ev39a-end" n="ev39a" type="event"/>
          </p>
        </div>
@@ -1784,7 +1779,7 @@
           preach her <w norm="funeral">funerall</w> sermon<pc norm=".">,</pc> Text to be<lb/>
            out of the <ref type="biblical" source="#KJV_Revelation_14:13">14<hi rend="superscript">th</hi> of Revel<ex>ation</ex><supplied reason="mod">,</supplied> 13<supplied reason="mod">th</supplied> <w norm="verse">verce</w><pc norm=":">.</pc></ref><lb/>
           <quote xml:id="q-021" type="partial" source="#KJV_Revelation_14:13"><supplied reason="mod">'</supplied>Blessed are the <w norm="dead" type="l">Dead</w> that die in the <w norm="Lord" type="u">lord</w></quote><supplied reason="mod">'</supplied><pc norm=",">.</pc> <w norm="and">&amp;</w> so<lb/>
-           to the end<pc norm=".">:</pc></p> <!-- NOTE ST here AT provides the reference but only part of the text -->
+           to the end<pc norm=".">:</pc></p>
          <p xml:id="p-0055">This blessed <w norm="soul">soule</w> had the gift from God<lb/>
           as to <w norm="continue">contineue</w><supplied reason="mod">,</supplied> <w norm="until">till</w> the last breath<supplied reason="mod">,</supplied> her<lb/>
           perfect <w norm="memory">memmory</w>, understanding<supplied reason="mod">,</supplied> <w norm="and">&amp;</w><lb/>
@@ -2073,8 +2068,9 @@
    <l n="3">Thy <w norm="sins">Sinnes</w> the author of thy <w norm="self">selfe</w><pc norm="-">.</pc><lb/>
         tormenting<pc norm=":">.</pc></l>
    <l n="4">Thou <w norm="grind'st">grindest</w> for <w norm="sinning" type="l">Sinning</w><pc norm=";">.</pc><lb/>
-     <w norm="scourg'd">Scourdged</w> for not repenting.<anchor n="50" corresp="#p044n01" resp="ednote"/></l></lg>
- <!--<lb/> TEST what happens to space between lgs ?-->
+     <w norm="scourg'd">Scourdged</w> for not repenting.<anchor n="50" corresp="#p044n01" resp="ednote"/></l>
+   </lg>
+
    <lg type="stanza">
    <l n="5">I <w norm="do">doe</w> not <w norm="beg">begge</w> a <w norm="slender" type="l">Slender</w> inch<lb/>
    to while<surplus reason="superfluous">.</surplus></l>
@@ -2097,7 +2093,7 @@
        
        <!-- NOTE year 1662 -->
       <div xml:id="div-047" ana="prayer">
-        <!-- Q NB experimental use of @ana=prayer because there is a lot of prayer in this div but it's not just prayer. [may disappear again!] -->
+        <!-- NOTE experimental use of @ana=prayer because there is a lot of prayer in this div but it's not just prayer. -->
          <fw>
             <fw type="pageNum">43</fw>
             <fw type="head"><date datingMethod="#JulianMar" when-custom="1661">1661</date><surplus reason="superfluous">.</surplus><!-- NOTE [dates] OS. NB all the "1661" headings are actually NS 1662. --></fw>
@@ -2461,7 +2457,7 @@
            <fw type="pageNum">53</fw>
            <!-- NOTE [add] 3  -->
             <fw type="header" rend="underline">
-               <date when-custom="1662"><choice><sic>16622</sic><corr>1662</corr></choice></date><!--<anchor n="61" corresp="#p055n01" resp="ednote"/>-->
+               <date when-custom="1662"><choice><sic>16622</sic><corr>1662</corr></choice></date>
             </fw>
          </fw>
            <lb/>
@@ -4129,7 +4125,7 @@
              <!-- NOTE moved fw -->
           <w norm="Oh">O</w><supplied reason="mod">,</supplied> let me not in the <w norm="interim">intrime</w> be <w norm="unmindful">unmindfull</w> of<lb/>
            his hand by these corrections<surplus reason="superfluous">.</surplus> but may be<lb/>
-        <w norm="delivered">delivred</w> from the <quote xml:id="q-138" type="paraphrase" source="#BCP_Other_thanksgiving-078 #BCP_Other_prayer-746 #BCP_Other_collect-757"><w norm="jaws" type="query">Iawes</w><!-- Q REVIEW semidip. transcription I/J reported --> of <w norm="eternal">Eternall</w> death<supplied reason="mod">.</supplied></quote><lb/>
+        <w norm="delivered">delivred</w> from the <quote xml:id="q-138" type="paraphrase" source="#BCP_Other_thanksgiving-078 #BCP_Other_prayer-746 #BCP_Other_collect-757"><w norm="jaws" type="query">Jawes</w> of <w norm="eternal">Eternall</w> death<supplied reason="mod">.</supplied></quote><lb/>
           Amen.</p>
        </div>
        <div xml:id="div-061" rend="pre(rule_light)">
@@ -4610,7 +4606,7 @@
            was <w norm="ten">10</w> <w norm="years">yeares</w> old<pc norm=",">.</pc><anchor n="135" corresp="#p113n01" resp="ednote"/> she was <w norm="playing">plaing</w> in the<lb/>
           <w norm="corn">Corne</w> <w norm="barn">barne</w> <w norm="at">att</w> <placeName ref="place:East_019" n="place84">Newton</placeName> <w norm="and">&amp;</w> swinging on<lb/>
            a <w norm="rope">Rope</w> that hung <w norm="across">crosse</w><supplied reason="mod">,</supplied> from which she got so<lb/>
-          high <w norm="and">&amp;</w> <w norm="cruel">cruell</w> a fall by <rs type="group">the boys <supplied reason="mod">(</supplied>her <w norm="cousins">cosens</w></rs><supplied reason="mod">)</supplied><!-- NOTE [people] which cousins? probably not possible to ident. they have quite a lot of cousins... --><lb/>
+          high <w norm="and">&amp;</w> <w norm="cruel">cruell</w> a fall by <rs type="group">the boys <supplied reason="mod">(</supplied>her <w norm="cousins">cosens</w></rs><supplied reason="mod">)</supplied><!-- NOTE [people] cousins not identifiable --><lb/>
           flinging her that she fell <w norm="down">downe</w> with a great<lb/>
           force<supplied reason="mod">.</supplied> <w norm="And">&amp;</w> was taken up dead<pc norm=",">.</pc> hanging like<lb/>
           a <w norm="calf">Calfe</w><supplied reason="mod">,</supplied><anchor n="136" corresp="#p113n02" resp="ednote"/> <w norm="being">beeing</w> <del rend="strikethrough">with</del> <w norm="black">blacke</w> in the face <w norm="and">&amp;</w><lb/>
@@ -5746,7 +5742,7 @@
           </subst>
            <rs ref="ppl:wt1" n="per326" type="person"><w norm="dear">deare</w> <w norm="husband">Husbad</w></rs><lb/>
           that any creature could have.<anchor xml:id="ev93-end" n="ev93" type="event"/> <!-- was ev93c -->
-           <!-- NOTE Book 1 new div at this point, but no break here at all, not even a new line/p. Bk1 text slightly different "Such was the violency of prevailing passion" -->Such was<lb/>
+           <!-- NOTE Book 1 new div at this point, but no break here at all -->Such was<lb/>
           my <term n="261" xml:id="bremp140t02" ref="gloss:bremp140t02"><w norm="extremity">extreamity</w></term> of <w norm="passion" type="l">Passion</w> <w norm="and">&amp;</w> trouble<lb/>
           upon this change that I was <w norm="almost">allmost</w> <lb/>
           changed into nothing <w norm="and">&amp;</w> was ready<lb/>
@@ -6566,7 +6562,7 @@
  
     </div>
        
-        <!-- NOTE TWO UNNUMBERED BLANK PAGES (originally 159v, 160r) -->
+        <!-- NOTE TWO UNNUMBERED BLANK PAGES -->
        
        <pb xml:id="page-162" n="162"/>
           <space quantity="1" unit="page"/> 
@@ -6670,8 +6666,8 @@
          <l n="3"> Though <w>t'one</w> <w norm="look">looke</w> <w norm="bare">baire</w>, <w>t'other</w> thin,</l>
          <l n="4"> Judge not<supplied reason="mod">:</supplied> <w norm="their">theire</w> treasure lies within.</l>
          
-         <space unit="line" quantity="7"/>
          <!-- NOTE Rest of page is blank. -->
+         <space unit="line" quantity="7"/>
  </div>        
             <pb xml:id="page-167" n="167"/>
 
@@ -6998,7 +6994,7 @@
         <!-- NOTE [index] [curlybraces] grouping 2 items -->
         <item>
         <list rend="braced(})">  
-          <item corresp="#div-036">Mrs <choice><abbr>Eliz.</abbr><expan>Elizabeth</expan></choice> Gates <w norm="Died" type="u">died</w><pc norm=",">.</pc> <choice><abbr>55</abbr><expan>1655</expan></choice><surplus reason="superfluous">.</surplus></item><!-- Q Number here? ?? -->
+          <item corresp="#div-036">Mrs <choice><abbr>Eliz.</abbr><expan>Elizabeth</expan></choice> Gates <w norm="Died" type="u">died</w><pc norm=",">.</pc> <choice><abbr>55</abbr><expan>1655</expan></choice><surplus reason="superfluous">.</surplus></item>
           <item corresp="#div-037">Mr <w norm="Geoffrey">Geffery</w> Gates <w norm="Died" type="u">died</w><pc norm=",">.</pc> <choice><abbr>55</abbr><expan>1655</expan></choice> </item>
          </list> 
          <label place="right mid"><ref type="page">26<surplus reason="superfluous">.</surplus></ref></label>
@@ -7047,7 +7043,7 @@
         <!-- NOTE no matching div. -->
         <item> 
           <seg rend="braced(})">My <w norm="Prayers" type="u">prayers</w> <w norm="and">&amp;</w> <w norm="Meditations" type="u">meditations</w><lb/>
-            <w norm="thereupon">There upon</w><supplied reason="mod">,</supplied> on St <add place="above"><w norm="Matthew" type="query">Matth.</w></add> 11: <w norm="27-28">27, 28,</w> <choice><abbr>&amp;</abbr><expan>et  cetera</expan></choice><!-- Q bibl ref -->
+            <w norm="thereupon">There upon</w><supplied reason="mod">,</supplied> on St <add place="above"><w norm="Matthew" type="query">Matth.</w></add> 11: <w norm="27-28">27, 28,</w> <choice><abbr>&amp;</abbr><expan>et cetera</expan></choice><!-- Q bibl ref -->
           </seg> 
           <label place="right bottom"><ref n="45" type="page">46<surplus reason="superfluous">.</surplus></ref></label>
          </item>
@@ -7750,7 +7746,7 @@ over these <w norm="churches" type="l">Churches</w> <w norm="and">&amp;</w> <w n
     <milestone spanTo="#ev101-end" xml:id="ev101-start" n="ev101" unit="event"/>   
          I had a sad <w norm="dream">dreame</w> <date when-custom="1650-10"><w norm="half">halfe</w> a <w norm="year">yeare</w> before</date> my<lb/>
           <w norm="brother">Brothr</w><supplied reason="mod">,</supplied> <persName ref="ppl:gw1" n="per374">George Wandesford</persName><supplied reason="mod">,</supplied> was lost. That he was<lb/>
-           <w norm="going">goeing</w> over <w norm="this">thys</w> <w norm="river" type="l">River</w><!-- NOTE [place] I don't think this is referencing a specific river, dropped tagging ref="place:Swal_123" --> and that it did <w norm="rise" type="l">Rise</w> then<lb/>
+           <w norm="going">goeing</w> over <w norm="this">thys</w> <w norm="river" type="l">River</w><!-- NOTE [place] not certain this is referencing a specific river, dropped ref="place:Swal_123" --> and that it did <w norm="rise" type="l">Rise</w> then<lb/>
            when he was in it<pc norm=",">.</pc> which <w norm="so">soe</w> <w norm="overcame">over came</w> him<surplus reason="superfluous">.</surplus> <w norm="that" type="l">That</w> he<lb/>
           could make <w norm="no">noe</w> <w norm="help">helpe</w> for <w norm="himself">him selfe</w><surplus reason="superfluous">.</surplus> <w norm="and" type="l">And</w> <w norm="so">soe</w> was<lb/>
           drowned in it. This <w norm="dream">Dreame</w> did trouble me much<lb/>
