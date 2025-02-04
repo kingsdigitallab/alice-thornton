@@ -6,6 +6,15 @@
 //Import Colours
 @import "color-theme";
 
+
+:root {
+  // maximum width of a label on the left of an item
+  // See "1. letter" Book 3, p. 190, modern
+  --list-item-label-width: 2.75em;
+  // -1em = first line of a list item is indented by 1em
+  --list-item-indent: -1em;
+}
+
 /* 2. Mixins  */
 
 @mixin calc($prop, $val) {
@@ -1196,12 +1205,17 @@ $render-sic: false;
     max-width: 80%;
 
     // gn: enough space for small label on left
-    padding-left: 1.5em;
+    // e.g. Book 3 p. 190
+    padding-left: calc(var(--list-item-label-width) - var(--list-item-indent));
 
+    // list of type=index have labels on the right instead
+    // e.g. Rem p. 177, 178
     &.tei-type-index {
       // no label on the left, so we reclamin that space
       padding-left: 0;
       .tei-item {
+        // enough space for the label
+        padding-right: 3em;
         .tei-label {
           // gn: only right-ligned if .tei-list.type-index
           left: unset;
@@ -1213,22 +1227,19 @@ $render-sic: false;
     .tei-item {
       // doesn't work in FF
       &:not(:has(.tei-list)) {
-        text-indent: -1em;
-        padding-left: 1em;
+        text-indent: var(--list-item-indent);
+        padding-left: calc(-1 * var(--list-item-indent));
       }
 
       display: block;
-      // enough space for the label
-      padding-right: 3em;
       .tei-item {
         padding-right: 0;
       }
       position: relative;
 
       .tei-label {
-        // only right-ligned if .tei-list.type-index
-        // right: 0;
-        left: -0.5em;
+        // Annoyingly, labels in an item is sometimes inside a <p> or outside.
+        left: calc(-1 * var(--list-item-label-width));
         position: absolute;
         top: 0;
       }
