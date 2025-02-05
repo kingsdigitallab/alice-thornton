@@ -1123,16 +1123,13 @@ $render-sic: false;
       }
     }
 
-    *[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header):not(.info-box) {
+    *[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header):not(.info-box):not(.tei-label) {
       display: inline-block;
       position: absolute;
       margin-left:-10vw;
       width: 5em;
       text-indent: initial;
-      border:1px dotted gray;
-      background:rgba(0,0,0,0.1);
     }
-
   }
 
   // 2.284, 1.8
