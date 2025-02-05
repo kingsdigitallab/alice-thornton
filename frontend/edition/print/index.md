@@ -43,14 +43,14 @@ It contains interaction and formatting bugs.
               <i class="fas fa-caret-down"></i>
             </div>
           </template>
-          <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
-          <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
-          <panel-control :panel-idx="panelIdx" control-key="locus" hide-label="1"></panel-control>
-          <div class="control dont-print">
-            <label class="field-label">
-              <input type="number" class="input" v-model="panel.selections.extent" @change="onChangeSelector(panel, 'extent')" min="1" max="300">
-              Pages
+          <panel-control :panel-idx="panelIdx" control-key="document" label="Book:"></panel-control>
+          <panel-control :panel-idx="panelIdx" control-key="view" label="Version:"></panel-control>
+          <panel-control :panel-idx="panelIdx" control-key="locus" hide-label="1" label="Pages:"></panel-control>
+          <div class="select-dropdown control dont-print">
+            <label>
+            Add pages:
             </label>
+              <input type="number" class="input" v-model="panel.selections.extent" @change="onChangeSelector(panel, 'extent')" min="1" max="300">
           </div>
         </div>
       </nav>

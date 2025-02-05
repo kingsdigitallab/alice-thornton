@@ -283,9 +283,7 @@ eleventyNavigation:
     <div class="panel" v-for="(panel, panelIdx) in panels">
       <nav class="panel-nav">
         <div>
-          <!-- <label>Book:</label> -->
           <panel-control :panel-idx="panelIdx" control-key="document" label="Book:"></panel-control>
-          <!-- <label>Version:</label> -->
           <panel-control :panel-idx="panelIdx" control-key="view" label="Version:"></panel-control>
         </div>
         <div class="icons">

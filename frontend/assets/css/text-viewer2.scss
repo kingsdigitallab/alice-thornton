@@ -101,6 +101,8 @@ section {
             text-transform: uppercase;
             color: $primary-dark;
             font-size: 9px;
+            width: 100px;
+            text-align:left;
             i {
               @include transition(all 300ms ease-in-out);
               font-size: 11px;
@@ -110,9 +112,23 @@ section {
             &:hover {
               i {
                 @include transform(scale(1.6));
-              }
-            }
-          }
+              }//i
+            }//&:hover
+          }//label
+          .dont-print{
+            margin-top:-23px;
+            label{
+              margin-top:-10px;
+            }//label
+            input{    
+              border: 0;
+              background: transparent;
+              box-shadow: none;
+              margin-left:1px;
+              margin-top:-5px;
+              color: black;
+            }//input
+          }//.dont-print
           &.bottom {
             bottom: 0;
             height: 60px;
