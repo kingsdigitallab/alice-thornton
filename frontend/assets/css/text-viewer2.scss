@@ -1224,20 +1224,9 @@ $render-sic: false;
     // e.g. Book 3 p. 190
     padding-left: calc(var(--list-item-label-width) - var(--list-item-indent));
 
-    // list of type=index have labels on the right instead
-    // e.g. Rem p. 177, 178
-    &.tei-type-index {
-      // no label on the left, so we reclamin that space
-      padding-left: 0;
-      .tei-item {
-        // enough space for the label
-        padding-right: 3em;
-        .tei-label {
-          // gn: only right-ligned if .tei-list.type-index
-          left: unset;
-          right: 0;
-        }
-      }
+    .tei-list {
+      // reduce this as there's no label on nested list
+      padding-left: 1.5em;
     }
 
     .tei-item {
@@ -1259,11 +1248,30 @@ $render-sic: false;
         position: absolute;
         top: 0;
       }
-      // GN: commented out as it disrupts right-aligned labels (e.g. 3.132)
-      // span.not-a-word{
-      //   top: -2.5em;
-      // }
     }
+
+    // list of type=index have labels on the right instead
+    // e.g. Rem p. 177, 178
+    &.tei-type-index {
+      // no label on the left, so we reclamin that space
+      padding-left: 0;
+      .tei-item {
+        // enough space for the label
+        padding-right: 3em;
+
+        .tei-item {
+          // no right space for nested items
+          padding-right: 0;
+        }
+
+        .tei-label {
+          // gn: only right-ligned if .tei-list.type-index
+          left: unset;
+          right: 0;
+        }
+      }
+    }
+
   }
 
   &.view-semidip {
