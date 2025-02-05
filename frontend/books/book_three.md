@@ -8,7 +8,7 @@ numberOfPages: 217
 dateCreated: c.1692-96
 image: /assets/img/books/Book3FrontCover.jpg
 archivedAt: 
-contentUrl: https://github.com/kingsdigitallab/alice-thornton/blob/edition/texts/03_book_three/book_three.xml
+contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/refs/heads/edition/texts/03_book_three/book_three.xml
 ---
 
 ## Description (Coming soon)

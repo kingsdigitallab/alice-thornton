@@ -8,7 +8,7 @@ numberOfPages: 309
 dateCreated: c.1668-87
 image: /assets/img/books/Book1FrontCover.jpg
 archivedAt: 
-contentUrl: https://github.com/kingsdigitallab/alice-thornton/blob/edition/texts/01_book_one/book_one.xml
+contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/refs/heads/edition/texts/01_book_one/book_one.xml
 ---
 
 ## Description (Coming soon)
