@@ -8,7 +8,7 @@ numberOfPages: 200
 dateCreated: c.1659-73
 archivedAt: https://reed.dur.ac.uk/xtf/view?docId=ark/32150_s2hm50tr76x.xml;query=2022#comber-3
 image: /assets/img/books/BookRemembrancesFrontCover.jpg
-contentUrl: https://github.com/kingsdigitallab/alice-thornton/blob/edition/texts/00_book_of_remembrances/book_of_remembrances.xml
+contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/refs/heads/edition/texts/00_book_of_remembrances/book_of_remembrances.xml
 ---
 
 ## Description

@@ -6,6 +6,15 @@
 //Import Colours
 @import "color-theme";
 
+
+:root {
+  // maximum width of a label on the left of an item
+  // See "1. letter" Book 3, p. 190, modern
+  --list-item-label-width: 2.75em;
+  // -1em = first line of a list item is indented by 1em
+  --list-item-indent: -1em;
+}
+
 /* 2. Mixins  */
 
 @mixin calc($prop, $val) {
@@ -88,10 +97,12 @@ section {
             top: 5px;
             z-index: 9;
             font-size: 10px;
-            padding-left: 18px;
+            padding-left: 11px;
             text-transform: uppercase;
             color: $primary-dark;
             font-size: 9px;
+            width: 100px;
+            text-align:left;
             i {
               @include transition(all 300ms ease-in-out);
               font-size: 11px;
@@ -101,9 +112,23 @@ section {
             &:hover {
               i {
                 @include transform(scale(1.6));
-              }
-            }
-          }
+              }//i
+            }//&:hover
+          }//label
+          .dont-print{
+            margin-top:-23px;
+            label{
+              margin-top:-10px;
+            }//label
+            input{    
+              border: 0;
+              background: transparent;
+              box-shadow: none;
+              margin-left:1px;
+              margin-top:-5px;
+              color: black;
+            }//input
+          }//.dont-print
           &.bottom {
             bottom: 0;
             height: 60px;
@@ -1098,10 +1123,10 @@ $render-sic: false;
       }
     }
 
-    *[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header):not(.info-box) {
+    *[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header):not(.info-box):not(.tei-label) {
       display: inline-block;
       position: absolute;
-      left: -5em;
+      margin-left:-10vw;
       width: 5em;
       text-indent: initial;
     }
@@ -1196,12 +1221,49 @@ $render-sic: false;
     max-width: 80%;
 
     // gn: enough space for small label on left
-    padding-left: 1.5em;
+    // e.g. Book 3 p. 190
+    padding-left: calc(var(--list-item-label-width) - var(--list-item-indent));
 
+    .tei-list {
+      // reduce this as there's no label on nested list
+      padding-left: 1.5em;
+    }
+
+    .tei-item {
+      // doesn't work in FF
+      &:not(:has(.tei-list)) {
+        text-indent: var(--list-item-indent);
+        padding-left: calc(-1 * var(--list-item-indent));
+      }
+
+      display: block;
+      .tei-item {
+        padding-right: 0;
+      }
+      position: relative;
+
+      .tei-label {
+        // Annoyingly, labels in an item is sometimes inside a <p> or outside.
+        left: calc(-1 * var(--list-item-label-width));
+        position: absolute;
+        top: 0;
+      }
+    }
+
+    // list of type=index have labels on the right instead
+    // e.g. Rem p. 177, 178
     &.tei-type-index {
       // no label on the left, so we reclamin that space
       padding-left: 0;
       .tei-item {
+        // enough space for the label
+        padding-right: 3em;
+
+        .tei-item {
+          // no right space for nested items
+          padding-right: 0;
+        }
+
         .tei-label {
           // gn: only right-ligned if .tei-list.type-index
           left: unset;
@@ -1210,33 +1272,6 @@ $render-sic: false;
       }
     }
 
-    .tei-item {
-      // doesn't work in FF
-      &:not(:has(.tei-list)) {
-        text-indent: -1em;
-        padding-left: 1em;
-      }
-
-      display: block;
-      // enough space for the label
-      padding-right: 3em;
-      .tei-item {
-        padding-right: 0;
-      }
-      position: relative;
-
-      .tei-label {
-        // only right-ligned if .tei-list.type-index
-        // right: 0;
-        left: -0.5em;
-        position: absolute;
-        top: 0;
-      }
-      // GN: commented out as it disrupts right-aligned labels (e.g. 3.132)
-      // span.not-a-word{
-      //   top: -2.5em;
-      // }
-    }
   }
 
   &.view-semidip {
@@ -1251,7 +1286,7 @@ $render-sic: false;
     .tei-seg[data-tei-rend="braced(})"],
     .tei-list[data-tei-rend="braced(})"] {
       display: inline-block;
-      background: url(../img/icons/closing-curly-brace.svg) no-repeat right
+      background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/icons/closing-curly-brace.svg) no-repeat right
         center;
       background-size: 1.5em 100%;
       padding-right: 1.5em;

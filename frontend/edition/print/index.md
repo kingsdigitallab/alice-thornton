@@ -23,34 +23,32 @@ It contains interaction and formatting bugs.
 
 {% raw %}
 
+<template id="vue-panel-selector">
+  <div class="select-dropdown">
+    {{ tooltip }}
+    <label>{{label}}</label>
+    <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)"
+      v-model="panel.selections[controlKey]">
+      <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
+    </select>
+    <i class="fas fa-caret-down"></i>
+  </div>
+</template>
+
 <section id="text-viewer">
   <!-- <div id="text-viewer" class="text-viewer columns printable-viewer"> -->
   <div class="panel-wrapper">
     <div class="panel" v-for="(panel, panelIdx) in panels">
       <nav class="panel-nav">
         <div>
-          <!-- GN: what is this for? 
-            it's invisible but when removed the dropdowns on the right display differently
-          -->
-          <template id="vue-panel-selector">
-            <div class="select-dropdown">
-              {{tooltip}}
-              <!-- removed id="image_switcher" -->
-              <select aria-label="image switcher" @change="$parent.onChangeSelector(panel, controlKey)"
-                v-model="panel.selections[controlKey]">
-                <option v-for="(title, id) in panel.selectors[controlKey]" :value="id" v-html="title"></option>
-              </select>
-              <i class="fas fa-caret-down"></i>
-            </div>
-          </template>
-          <panel-control :panel-idx="panelIdx" control-key="document"></panel-control>
-          <panel-control :panel-idx="panelIdx" control-key="view"></panel-control>
-          <panel-control :panel-idx="panelIdx" control-key="locus" hide-label="1"></panel-control>
-          <div class="control dont-print">
-            <label class="field-label">
-              <input type="number" class="input" v-model="panel.selections.extent" @change="onChangeSelector(panel, 'extent')" min="1" max="300">
-              Pages
+          <panel-control :panel-idx="panelIdx" control-key="document" label="Book:"></panel-control>
+          <panel-control :panel-idx="panelIdx" control-key="view" label="Version:"></panel-control>
+          <panel-control :panel-idx="panelIdx" control-key="locus" hide-label="1" label="Page:"></panel-control>
+          <div class="select-dropdown control dont-print">
+            <label>
+            Add pages:
             </label>
+            <input type="number" class="input" v-model="panel.selections.extent" @change="onChangeSelector(panel, 'extent')" min="1" max="300">
           </div>
         </div>
       </nav>
