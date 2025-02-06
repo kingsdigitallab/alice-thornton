@@ -138,7 +138,7 @@ function createTableForEachDecade(data) {
     .scalePow()
     .exponent(0.8)
     .domain([0, maxEventCount])
-    .range([0, 100]);
+    .range([0, 80]);
 
   // Iterate over each decade group
   groupedByDecade.forEach((decadeData, decade) => {
