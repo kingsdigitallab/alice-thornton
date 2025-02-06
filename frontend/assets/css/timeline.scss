@@ -428,18 +428,16 @@ html {
             }
           } //.year
           &.historicalEventCount {
-            width: 1vw;
-            height: 1vw;
+            width: 0.1vw;
+            height: 4vw;
             display: inline-block;
             margin-bottom: 0;
             vertical-align: bottom;
             position: absolute;
-            bottom: -4.2vw;
+            bottom: -2vw;
             left: 50%;
-            /* Calculates 50% of the element's width, and moves it by that */
-            transform: translateX(-50%) rotate(45deg); /* amount across the X-axis to the left */
             &.present {
-              background: $primary-light;
+              background: $primary-dark;
             } //&.present
             & span {
               transform: translate(-250%, 30%) rotate(-45deg);
