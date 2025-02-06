@@ -450,15 +450,22 @@ html {
             margin-bottom: 0;
             vertical-align: bottom;
             position: absolute;
-            bottom: -1.6vw;
+            bottom: -2vw;
             left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(-50%); /* amount across the X-axis to the left */
             &.present {
-              background: #fbfbfb;
+              background: transparent;
               border-radius:50%;
+              border-radius: 50% 50% 0 0;
               z-index: 1;
-              border: 0.2vw dotted darkgoldenrod;
+              border: 0.15vw dotted darkgoldenrod;
+              border: 0;
+              background-image: radial-gradient(circle 2vw at 50% 100%, darkgoldenrod 20%, white 35%); 
+              background-size: 100% 50%;
+              background-repeat: no-repeat;
+              width: 4vw;
+              height: 4vw;
               &:before{
                 width: 1vw;
                 height: 1vw;
@@ -466,7 +473,8 @@ html {
                 position: absolute;
                 font-size: 0.9vw;
                 text-align: center;
-                bottom: 0.3vw;
+                bottom: 3vw;
+                left:1.5vw;
                 color:black;
               }//&:before
             } //&.present
