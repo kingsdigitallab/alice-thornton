@@ -61,14 +61,20 @@ function renderHiddenRow(row, tbody, columnSpan) {
 
   arrayColumns.forEach((key) => {
     const events = row[key];
-    if (events.length > 0) {
+    const eventCount = events.length;
+    if (eventCount > 0) {
       // Add a container div for each array column
       const container = hiddenCell
         .append("div")
         .attr("class", `container-${key}`);
 
-      // Heading for column
-      container.append("h3").text(tableHeaderMapping[key] || key);
+      // If there's only one event, replace "Events" with "Event"
+      let eventLabel = tableHeaderMapping[key] || key;
+      if (eventCount === 1) {
+        eventLabel = eventLabel.replace("Events", "Event");
+      }
+      // Heading for column, including the number of events
+      container.append("h3").text(`${eventCount} ${eventLabel}`);
 
       // List for the array items
       const list = container.append("ul").attr("class", `items-${key}`);
@@ -228,7 +234,7 @@ function createTable(data, decade, scale) {
         // Add the year value as a span
         cell.append("span").text(d.value != null ? d.value : "N/A");
 
-        // Add data-title for birth, death, marriage, and historical counts
+        // Add data-title for birth, death, marriage, and historical event counts
         cell.attr("data-title", (d) => {
           if (
             [
