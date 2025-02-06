@@ -1,6 +1,6 @@
 // Colors
 @import "color-theme";
-$taupe: lighten(#a59f90, 25%);
+$taupe: lighten(#a59f90, 5%);
 $gold: darkgoldenrod;
 $transparent: transparent;
 
@@ -187,12 +187,12 @@ html {
       border-radius: 0 100% 100% 0;
       position: absolute;
       content: "";
-      height: calc(100% + 3vw);
+      height: calc(100% + 5.5vw);
       aspect-ratio: 1/1;
       padding: 0;
       right: 0;
       bottom: 0;
-      border: 3vw solid $taupe;
+      border: 0.5vw solid $taupe;
       transform: translate(50%, 0);
       border-left: 0;
       z-index: -1;
@@ -260,10 +260,10 @@ html {
         position: relative;
         //vertical-align: bottom;
         margin: 0 0 0;
-        border-bottom: 3vw solid $taupe;
+        border-bottom: 0.5vw solid $taupe;
         align-self: flex-end;
         &:hover {
-          border-bottom: 3vw solid darken($taupe, 20%);
+          border-bottom: 0.5vw solid darken($taupe, 20%);
           cursor: pointer;
           td {
             opacity: 1;
@@ -399,20 +399,16 @@ html {
             opacity: 0.7;
             aspect-ratio: 1/4;
             &:after {
-              background-image: linear-gradient(
-                0deg,
-                rgba(128, 31, 0, 0.9) 0,
-                rgba(255, 255, 255, 0.1)
-              );
-              width: 500%;
+              background-image: linear-gradient(180deg, rgba(128, 31, 0, 0.9), rgba(128, 31, 0, 0.05) );
               padding-bottom: 500%;
               bottom: 0;
               vertical-align: bottom;
-              border-radius: 50%;
               position: absolute;
               content: "";
               left: 50%;
               transform: translate(-50%, 0);
+              clip-path: polygon(50% 0,100% 100%,0 100%);
+              width: 7.5vw;
             }
 
             & span {
@@ -450,8 +446,8 @@ html {
             } //& span
           } //&.historicalEventCount
           &.birthEventCount {
-            width: 1vw;
-            height:1vw;
+            width: 3vw;
+            height:3vw;
             display: inline-block;
             margin-bottom: 0;
             vertical-align: bottom;
@@ -464,8 +460,7 @@ html {
               background: #fbfbfb;
               border-radius:50%;
               z-index: 1;
-              border: 0.05vw solid darkgoldenrod;
-              border-bottom: 0.2vw solid darkgoldenrod;
+              border: 0.2vw dotted darkgoldenrod;
               &:before{
                 width: 1vw;
                 height: 1vw;
@@ -611,9 +606,9 @@ html {
       padding: 0;
       right: 0;
       bottom: 0;
-      border: 3vw solid $taupe;
-      border-left: 3vw solid $transparent;
-      border-top: 3vw solid $transparent;
+      border: 0.2vw solid $taupe;
+      border-left: 0.2vw solid $transparent;
+      border-top: 0.2vw solid $transparent;
       /*transform: translate(50%, 0) rotate(-45deg);*/
       /*border-radius: 50%;*/
       background: rgba(0, 0, 0, 0.5);
@@ -762,4 +757,5 @@ html {
     } //tr
   } //table
 } //#data
+
 
