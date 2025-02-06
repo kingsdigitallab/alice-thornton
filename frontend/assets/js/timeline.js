@@ -101,7 +101,11 @@ function renderHiddenRow(row, tbody, columnSpan) {
             listItem
               .append("img")
               .attr("src", d.image)
-              .attr("alt", d.imageAlt || "Event image");
+              .attr("alt", d.imageAlt || "Event image")
+              .attr(
+                "class",
+                d.imageOrientation ? `img-${d.imageOrientation}` : ""
+              );
           }
 
           // Description
