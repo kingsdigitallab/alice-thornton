@@ -227,6 +227,33 @@ function createTable(data, decade, scale) {
 
         // Add the year value as a span
         cell.append("span").text(d.value != null ? d.value : "N/A");
+
+        // Add data-title for birth, death, marriage, and historical counts
+        cell.attr("data-title", (d) => {
+          if (
+            [
+              "birthEventCount",
+              "deathEventCount",
+              "marriageEventCount",
+            ].includes(d.header)
+          ) {
+            // Find the first matching lifetime event
+            const matchingEvent = row.lifetimeEvents?.find(
+              (event) => event.subtype === d.header.replace("EventCount", "")
+            );
+            return matchingEvent ? matchingEvent.title : null;
+          } else if (d.header === "historicalEventCount") {
+            // Get all historical event titles and join them
+            const historicalTitles = row.historicalEvents
+              ?.map((event) => event.title)
+              .filter(Boolean)
+              .join("& ");
+            return historicalTitles && historicalTitles.length > 0
+              ? historicalTitles
+              : null;
+          }
+          return null;
+        });
       });
 
     // Create the hidden row for array data
