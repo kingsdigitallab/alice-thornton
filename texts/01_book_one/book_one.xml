@@ -542,8 +542,8 @@
          <p xml:id="p-0017">
             
       <fw xml:id="mnote-0001" place="left margin">      
-          <metamark xml:id="mm-002" corresp="#mm-001"><g ref="#fancydagger">[+]</g></metamark> 
-          <!--  Q the dagger symbol - anything better than [+] in unicode?  (haven't been able to find an exact match)
+          <metamark xml:id="mm-002" corresp="#mm-001"><g ref="#fancydagger">&#x2021;</g></metamark> 
+          <!--  Q the dagger symbol- try double dagger &#x2021; check what happens.
               NOTE a sort of dagger (?) symbol, but with curly extras.
               it appears to be a 'signe de renvoi' with matching symbol linked to in corresp.
           -->
@@ -1113,7 +1113,7 @@
                  English, pretended oppression<surplus reason="superfluous">.</surplus> to be made subject<lb/>
                 to the <w norm="laws">Lawes</w> of <placeName ref="place:Engl_094" n="place-supp6">England</placeName><pc norm=",">.</pc> <w norm="and">&amp;</w> the other of that nation<anchor n="21" corresp="#p022n01" resp="ednote"/> <supplied reason="mod">(who</supplied> could<lb/>
                  not be subject to our <w norm="church" type="l">Church</w> <w norm="government" type="l">Government</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="orders" type="break">orde<lb break="no"/>
-                 ers</w>, but affected a loose <w norm="libertinism">libertaineissme</w><!-- Q REVIEW [del] TEI Query - The 'a' here has been overwritten/obscured, but remains partially visible. Double strike through needed here? this wouldn't be doublestrikethrough. --> to their<lb/>
+                 ers</w>, but affected a loose <w norm="libertinism">libert<del rend="doublestrikethrough">a</del>ineissme</w> to their<lb/>
                  <w norm="own">owne</w> pernicious <w norm="ways">waies</w><pc norm=")">,</pc> <w norm="joined">joyned</w> with the Irish in<lb/>
                  <w norm="their">theire</w> complaints against <rs ref="ppl:tw1" n="per66" type="person">this wise <w norm="and">&amp;</w> noble<lb/>
                      <w norm="person" type="l">Person</w></rs><surplus reason="superfluous">;</surplus> <supplied reason="mod">—</supplied>whom indeed they were not worthy of<supplied reason="mod">—</supplied><lb/>
@@ -2490,7 +2490,7 @@ stead of <w norm="images" type="l">Images</w> <w norm="and">&amp;</w> <w norm="i
                 our duties by contempt<supplied reason="mod">,</supplied> our <w norm="scorn">scorne</w>, <w norm="too">to</w> much indulgence<lb/>
                  and rigour, by <w norm="lightness">lightnesse</w> <w norm="and">&amp;</w> <w norm="immodesty">immodestie</w>, <w norm="and">&amp;</w> too much<lb/>
                  boasting. <lb/>
-                <!-- Q ? <supplied reason="mod">6<hi rend="superscript">th</hi> Commandment</supplied>--> Neither can <w norm="we">wee</w> excuse <w norm="ourselves">our selves</w><pc norm=",">.</pc> O Lord<supplied reason="mod">,</supplied><lb/>
+                Neither can <w norm="we">wee</w> excuse <w norm="ourselves">our selves</w><pc norm=",">.</pc> O Lord<supplied reason="mod">,</supplied><lb/>
           <anchor n="59" corresp="#p058n01" resp="ednote"/>      
                 
                 <fw xml:id="mnote-0010" place="left margin" rend="post(rule)">
@@ -2527,7 +2527,7 @@ stead of <w norm="images" type="l">Images</w> <w norm="and">&amp;</w> <w norm="i
             
                 <fw type="pageNum">59</fw> <lb/>
             
-              <w norm="sleep">Sleepe</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> all such like necessaries. <!-- Q why is this here sharon <supplied reason="mod">8<hi rend="superscript">th Commandment</hi></supplied>--> And thou <w type="archaism">hast</w><lb/>
+              <w norm="sleep">Sleepe</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> all such like necessaries. And thou <w type="archaism">hast</w><lb/>
         <anchor n="61" corresp="#p059n01" resp="ednote"/>    
               
               <fw xml:id="mnote-0012" place="left margin">
@@ -6126,7 +6126,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                 to <w norm="submit">submitt</w> to all <w norm="God's">Gods</w> pleasure in <w norm="everything">every thing</w>.</p>
            <p xml:id="p-0361">
     <milestone spanTo="#ev88-end" xml:id="ev88-start" n="ev88" unit="event"/>
-           At <!-- Q CHECK semidip highlighted for checking. NB. Anselement has 'After' needs double-checking against MS -->some time<supplied reason="mod">,</supplied> my strength returned <w norm="again">againe</w> <w norm="and" type="l">And</w><supplied reason="mod">,</supplied> through<lb/>
+           <w norm="After">Aftr</w> some time<supplied reason="mod">,</supplied> my strength returned <w norm="again">againe</w> <w norm="and" type="l">And</w><supplied reason="mod">,</supplied> through<lb/>
             
 
             <pb xml:id="page-137" n="137"/>
@@ -6310,9 +6310,8 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  long suffering, full of compassion <w norm="and">&amp;</w> <w norm="mercies">mercys</w> that will not<lb/>
                  <quote xml:id="q-324" type="paraphrase" source="#_Psalms_103:9"><w norm="always">alwaies</w> be chiding <w norm="forever">for ever</w></quote>, <quote xml:id="q-325" type="paraphrase" source="#_Psalms_103:10">nor dealt with us <w norm="after">affter</w> our<lb/>
                  sins<pc norm=",">;</pc> nor <w type="archaism">rewardeth</w> me according to my wickedness</quote><lb/>
-                <w norm="but">Lord</w>
-                <!-- Q CHECK semidip. still being checked? endnote It *may* be 'Lord' overwritten with 'hath' which would make more sense? In no way certain on this though. Anselment marks as deleted text. -->
-                has delivered me in my <w norm="distress">distresse</w>. Lord<supplied reason="mod">,</supplied> grant that <lb/>
+                <!-- NOTE "Lord" is somewhat obscured, possibly written over "hath". -->
+                Lord has delivered me in my <w norm="distress">distresse</w>. Lord<supplied reason="mod">,</supplied> grant that <lb/>
                  my gratitude may be as great as my needs of mercy<lb/>
                 are<pc norm=",">.</pc> letting thy <w norm="merciful">mercifull</w><supplied reason="mod">,</supplied> <w norm="loving">loveing</w> <w norm="kindness">kindnesse</w> endure <w norm="forever">for<lb break="no"/>
                     ever</w> upon all thy servants <w norm="and">&amp;</w> me<supplied reason="mod">,</supplied> thy <w norm="handmaid">handmaide</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w><lb/>
@@ -6682,9 +6681,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
     <milestone spanTo="#ev104-end" xml:id="ev104-start" n="ev104" unit="event"/>
             It pleased God to take from me, <persName ref="ppl:et1" n="per602">my <w norm="dear">deare</w> <w norm="child">childe</w><supplied reason="mod">,</supplied> <w norm="Betty" type="u">betty</w></persName><supplied reason="mod">,</supplied><lb/>
                 which had <w norm="been">bin</w> long in the <w norm="rickets">riketts</w><anchor n="194" corresp="#p147n01" resp="ednote"/> <w norm="and">&amp;</w> <term n="444" xml:id="b1p147t02" ref="gloss:b1p147t02">consumption</term> <supplied reason="mod">(</supplied>gotten at<lb/>
-                first by an <term n="445" xml:id="b1p147t03" ref="gloss:b1p147t03"><w norm="ague" type="l">Ague</w></term><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> much gone in the <w norm="rickets">Ricketts</w><supplied reason="mod">,</supplied> which I <w norm="concede">concsed</w>
-                <!-- Q CHECK semidip. being checked - concede? Anselement has this as 'concea[ve]d' 'conceed', I think
- -->
+                first by an <term n="445" xml:id="b1p147t03" ref="gloss:b1p147t03"><w norm="ague" type="l">Ague</w></term><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> much gone in the <w norm="rickets">Ricketts</w><supplied reason="mod">,</supplied> which I <w norm="conceived">concsed</w>
                 <lb/>
                 was caused by ill <w norm="milk">milke</w><anchor n="195" corresp="#p147n02" resp="ednote"/> at <rs n="per603" type="group"><w norm="two">2</w> nurses</rs><!-- NOTE [people] probably not identifiable. --><pc norm=")">,</pc> <w norm="and">And</w> notwithstand<pc>-</pc><lb break="no"/>
                 <pc>-</pc>ing all the <w norm="means">meanes</w> I used <w norm="and">&amp;</w> had her<supplied reason="mod">,</supplied> with <persName ref="ppl:atc1" n="per604"><w norm="Nally">Naly</w></persName><supplied reason="mod">,</supplied> at <placeName ref="place:StMu_049" n="place239">St <w norm="Mungo's">Mun<lb break="no"/>
@@ -6848,7 +6845,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  failings of my duties is required both as to God <w norm="and">&amp;</w> man<pc norm=".">,</pc></p>
             <p xml:id="p-0394">And though I am not given over to any <w norm="sinful">sinnfull</w><supplied reason="mod">,</supplied> <choice><sic>in ormus</sic><corr>enormous</corr></choice>
                 <lb/>
-                 crimes which <choice><abbr>1000<am rend="superscript">ds</am></abbr><expan>thousands</expan></choice><!-- Q CHECK semidip --> are subject<surplus reason="superfluous">,</surplus> to<supplied reason="mod">,</supplied> yet am I not pure in <quote xml:id="q-389" type="allusion" source="#_Galatians_3:11">the sight<lb/>
+                 crimes which <choice><abbr>1000<am rend="superscript">ds</am></abbr><expan>thousands</expan></choice> are subject<surplus reason="superfluous">,</surplus> to<supplied reason="mod">,</supplied> yet am I not pure in <quote xml:id="q-389" type="allusion" source="#_Galatians_3:11">the sight<lb/>
                  of God</quote><pc norm=":">.</pc> <quote xml:id="q-390" type="paraphrase" source="#_1Kings_8:46 #_2Chronicles_6:36">for there is <w norm="no">noe</w> man that <w type="archaism">liveth</w> <w norm="and">&amp;</w> <w type="archaism">sinneth</w> not</quote>. <w norm="What" type="u">what</w><lb/>
                  cause<supplied reason="mod">,</supplied> therefore<supplied reason="mod">,</supplied> have I to cry out<pc norm=",">.</pc> <supplied reason="mod">'</supplied><w norm="oh" type="l">Oh</w><supplied reason="mod">,</supplied> <quote xml:id="q-391" type="paraphrase" source="#_Romans_8:38-39">the <w norm="height">hight</w>, the depth, the<lb/>
                  breadth, the length<surplus reason="superfluous">,</surplus> of the <w norm="love" type="l">Love</w> of God</quote><supplied reason="mod">',</supplied> which had great compassion<lb/>
@@ -14362,10 +14359,9 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
         <!-- NOTES [index] 
                 (see bookrem index)
                 
-               (Q?) link page refs to text divs - done where there is a div; only 1 without i think.
-               Q? what about place for label other than where there are braces? is it really needed, since they're all right align
+               link page refs to text divs - done where there is a div; only 1 without i think.
                
-               recorded alice's page discrepancies ("correct" (alice) number @n in ref - "correct" as in what she's written on the page, and ignoring that her pagination goes awry as well. lol.)
+               recorded AT's page discrepancies ("correct" AT number @n in ref - ie her number on the page, ignoring that her pagination goes awry as well.)
                
             -->
 
