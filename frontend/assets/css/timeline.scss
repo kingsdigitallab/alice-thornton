@@ -420,7 +420,7 @@ html {
             margin-bottom: 0;
             width: 100%;
             transform: translateX(-25%);
-            bottom: -4vw;
+            bottom: -3vw;
             left: 0;
             text-align: center;
             span {
@@ -429,12 +429,12 @@ html {
           } //.year
           &.historicalEventCount {
             width: 0.1vw;
-            height: 4vw;
+            height: 6vw;
             display: inline-block;
             margin-bottom: 0;
             vertical-align: bottom;
             position: absolute;
-            bottom: -2vw;
+            bottom: -3vw;
             left: 50%;
             &.present {
               background: $primary-dark;
@@ -456,16 +456,14 @@ html {
             transform: translateX(-50%); /* amount across the X-axis to the left */
             &.present {
               background: transparent;
-              border-radius:50%;
-              border-radius: 50% 50% 0 0;
               z-index: 1;
               border: 0.15vw dotted darkgoldenrod;
               border: 0;
-              background-image: radial-gradient(circle 2vw at 50% 100%, darkgoldenrod 20%, white 35%); 
-              background-size: 100% 50%;
+              background-image: linear-gradient(0deg, rgba(184, 134, 11, 0.5) 30%,transparent 100%); 
               background-repeat: no-repeat;
-              width: 4vw;
-              height: 4vw;
+              width: 2vw;
+              height: 2vw;
+              bottom:0;
               &:before{
                 width: 1vw;
                 height: 1vw;
@@ -473,8 +471,8 @@ html {
                 position: absolute;
                 font-size: 0.9vw;
                 text-align: center;
-                bottom: 3vw;
-                left:1.5vw;
+                bottom: 0.6vw;
+                left: 0.5vw;
                 color:black;
               }//&:before
             } //&.present
@@ -489,12 +487,18 @@ html {
             margin-bottom: 0;
             vertical-align: bottom;
             position: absolute;
-            bottom: -2.7vw;
+            bottom: -2.5vw;
             left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(-50%); /* amount across the X-axis to the left */
             &.present {
-              background: black;
+              z-index: 1;
+              /*background:black;*/
+              background:transparent;
+              background-image: linear-gradient(0deg, transparent 1%,black 2%); 
+              background-repeat: no-repeat;
+              width: 2vw;
+              height: 2vw;
               &:before{
                 width: 2vw;
                 height: 1.2vw;
@@ -502,7 +506,7 @@ html {
                 position: absolute;
                 font-size: 0.9vw;
                 text-align: center;
-                bottom: 0.2vw;
+                bottom: 0.6vw;
                 color:white;
                 z-index:0;
               }
@@ -526,18 +530,25 @@ html {
               background: transparent;
               border-radius:50%;
               z-index: 1;
-              border:0.27vw double $secondary-dark;
+              border: 0.3vw double $secondary-dark;
+              /*background-image: radial-gradient(circle 2vw at 50% 100%, white 20%, white 35%); 
+              background-size: 100% 50%;
+              background-repeat: no-repeat;*/
+              width: 1.4vw;
+              height: 1.4vw;
+              bottom: 0;
               &:before{
                 width: 1vw;
                 height: 1vw;
-                content: "M";
+                content: "B";
                 position: absolute;
                 font-size: 0.9vw;
                 text-align: center;
-                bottom: 0.3vw;
+                bottom: 0.5vw;
+                left: 0.2vw;
                 color:black;
-              }//&::before
-            } //&.present
+              }//&:before
+            }//.present
             & span{
               display:none;
             }//span
@@ -721,7 +732,7 @@ html {
           margin-bottom: 0;
           width: 100%;
           transform: translateX(-25%);
-          bottom: -4vw;
+          bottom: -3vw;
           left: 0;
           text-align: center;
           span {
