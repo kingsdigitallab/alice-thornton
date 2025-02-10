@@ -505,10 +505,7 @@
                 <fw type="header" rend="post(rule)" corresp="#div-009">A preservation in the <w norm="Measles">Meassells</w>.</fw>
             </surplus><lb/>
             
-            <!-- Q review use of surplus/supplied for something like this?
-                This header is almost certainly meant to be the title for the section div009 even though it's not inside that div - have linked it to the div using @corresp.
-              [endnote] NB. Despite the title at the top of the page, the details of the 'preservation' only begins part way down the page, which is where the 'main body' of the text proper begins.
-        -->
+
         
     
         <w norm="of" type="l">Of</w> grace<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="religion" type="l">Religion</w> <w norm="instilled">instill'd</w> into me with my <w norm="milk">milke</w>.<lb/>
@@ -545,12 +542,10 @@
          <p xml:id="p-0017">
             
       <fw xml:id="mnote-0001" place="left margin">      
-          <metamark xml:id="mm-002" corresp="#mm-001"><g corresp="#div-008" ref="#fancydagger">[+]</g></metamark> 
-          <!-- Q [symbols] this will need checking 
-        a sort of dagger (?) symbol, but with curly extras. (haven't been able to find an exact match in unicode)
-        it appears to be a 'signe de renvoi' with matching symbol at the point referred to in the supplementary material (p.286awt).
-        also as it's in the margin next to the *next* div, <g> is linked to div 008 using @corresp. 
-        cf metamark @corresp links the two symbols. does that even make sense?
+          <metamark xml:id="mm-002" corresp="#mm-001"><g ref="#fancydagger">[+]</g></metamark> 
+          <!--  Q the dagger symbol - anything better than [+] in unicode?  (haven't been able to find an exact match)
+              NOTE a sort of dagger (?) symbol, but with curly extras.
+              it appears to be a 'signe de renvoi' with matching symbol linked to in corresp.
           -->
       </fw>
       <anchor n="6" corresp="#p008n01" resp="ednote"/>  
@@ -596,7 +591,7 @@
                  so long) to his service <w norm="and">&amp;</w> praise<pc norm=":">,</pc> yea<supplied reason="mod">,</supplied> even to my <w norm="life's">lives</w><lb/>
                 end<pc norm=",">.</pc> <w norm="and">&amp;</w> that for my <w norm="saviour's">Saviours</w> sake alone<pc norm=",">.</pc> <quote xml:id="q-017" type="biblical" source="#_Revelations_1:8">the Alpha <w norm="and">&amp;</w> <lb/>
                  Omega. </quote> Amen. <supplied reason="mod">(</supplied>I was about <w norm="five">5</w> <w norm="years">yeares</w> old<surplus reason="superfluous">.</surplus> then<pc norm=".)">:</pc>
-                <!-- Q [symbols] transcribed : is actually 3 dots, see c. p.133 for another Q example. -->
+                <!-- NOTE transcribed : is actually 3 dots. -->
             </p>
             
          </div>
@@ -857,7 +852,7 @@
     <milestone spanTo="#ev11-end" xml:id="ev11-start" n="ev11" unit="event"/>
             Having come over into <placeName ref="place:Engl_094" n="place14">England</placeName>, when my <w norm="mother" type="l">Mother</w><lb/>
                  came for her cure of the <w norm="disease">dissease</w> of the <term n="31" xml:id="b1p015t01" ref="gloss:b1p015t01"><w norm="stone" type="l">Stone</w></term> to <placeName ref="place:Bath_128" n="place-supp2">the <w type="add" norm="baths">Bat-<add place="above">hes</add></w></placeName><lb/>
-                <w norm="and">&amp;</w> <placeName ref="place:Bris_004" n="place15"><w norm="Bristol">Bristoll</w></placeName> water<!-- Q [place] tagged this as Bristol instead of "Bristoll water"; check? -->, <placeName ref="place:StVi_051" n="place16">St <w norm="Vincent's">Vincents</w> <w norm="Well" type="u">well</w></placeName><surplus reason="superfluous">;</surplus><anchor n="14" corresp="#p015n01" resp="ednote"/> (<w norm="upon">uppon</w> which <w norm="rock">Rock</w><supplied reason="mod">,</supplied><lb/>
+                <w norm="and">&amp;</w> <placeName ref="place:Bris_004" n="place15"><w norm="Bristol">Bristoll</w></placeName> water, <placeName ref="place:StVi_051" n="place16">St <w norm="Vincent's">Vincents</w> <w norm="Well" type="u">well</w></placeName><surplus reason="superfluous">;</surplus><anchor n="14" corresp="#p015n01" resp="ednote"/> (<w norm="upon">uppon</w> which <w norm="rock">Rock</w><supplied reason="mod">,</supplied><lb/>
                  hanging over it, is got your <term n="32" xml:id="b1p015t02" ref="gloss:b1p015t02"><placeName ref="place:Bris_004" n="place-supp3"><w norm="Bristol">Bristow</w></placeName> <w norm="diamonds" type="l">Diamonds</w></term><surplus reason="superfluous">.</surplus>)<supplied reason="mod">,</supplied><anchor xml:id="ev11-end" n="ev11" type="event"/> 
                 
                 <milestone spanTo="#ev12-end" xml:id="ev12-start" n="ev12" unit="event"/>in<lb/>
@@ -1118,7 +1113,7 @@
                  English, pretended oppression<surplus reason="superfluous">.</surplus> to be made subject<lb/>
                 to the <w norm="laws">Lawes</w> of <placeName ref="place:Engl_094" n="place-supp6">England</placeName><pc norm=",">.</pc> <w norm="and">&amp;</w> the other of that nation<anchor n="21" corresp="#p022n01" resp="ednote"/> <supplied reason="mod">(who</supplied> could<lb/>
                  not be subject to our <w norm="church" type="l">Church</w> <w norm="government" type="l">Government</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="orders" type="break">orde<lb break="no"/>
-                 ers</w>, but affected a loose <w norm="libertinism">libertaineissme</w><!-- Q [del] TEI Query - The 'a' here has been overwritten/obscured, but remains partially visible. Double strike through needed here? --> to their<lb/>
+                 ers</w>, but affected a loose <w norm="libertinism">libertaineissme</w><!-- Q REVIEW [del] TEI Query - The 'a' here has been overwritten/obscured, but remains partially visible. Double strike through needed here? this wouldn't be doublestrikethrough. --> to their<lb/>
                  <w norm="own">owne</w> pernicious <w norm="ways">waies</w><pc norm=")">,</pc> <w norm="joined">joyned</w> with the Irish in<lb/>
                  <w norm="their">theire</w> complaints against <rs ref="ppl:tw1" n="per66" type="person">this wise <w norm="and">&amp;</w> noble<lb/>
                      <w norm="person" type="l">Person</w></rs><surplus reason="superfluous">;</surplus> <supplied reason="mod">—</supplied>whom indeed they were not worthy of<supplied reason="mod">—</supplied><lb/>
@@ -1879,7 +1874,7 @@
             <p xml:id="p-0108">As it was with the <w norm="stubborn">stuborne</w> <w norm="Jews">Jewes</w><pc norm=",">.</pc> so it is our <w norm="own">owne</w><lb/>
                  case, God <w norm="knows">knowes</w>, in these <w norm="kingdoms">Kingdomes</w>. <w norm="Our" type="u">our</w> <w norm="sins">sinns</w><lb/>
                  were ripe for to be cut <w norm="down">downe</w> by the <quote xml:id="q-092" type="allusion" source="#_Revelation_14:14">sickle of <w norm="God's">Gods</w><lb/>
-                     <w norm="judgements" type="l">Judgements</w></quote> <add place="above">by our <w norm="enemies">Ennimies</w><pc norm=",">.</pc></add> <w norm="and">&amp;</w> for them<surplus reason="superfluous">,</surplus> to fall on <rs n="place-supp13" type="place">this <w norm="kingdom">Kingdome</w></rs><!-- Q [place] is this Ireland? - JE . not sure. if so Irel_096 --><surplus reason="superfluous">.</surplus><lb/>
+                     <w norm="judgements" type="l">Judgements</w></quote> <add place="above">by our <w norm="enemies">Ennimies</w><pc norm=",">.</pc></add> <w norm="and">&amp;</w> for them<surplus reason="superfluous">,</surplus> to fall on <rs n="place-supp13" type="place">this <w norm="kingdom">Kingdome</w></rs><surplus reason="superfluous">.</surplus><lb/>
                  <w norm="whose">Whoes</w> bloody <add place="above"><w norm="desires">desiress</w></add> had <w norm="so">soe</w> <w norm="far">farre</w> besotted <w norm="their">there</w> hearts that<lb/>
                  were <w norm="upon">uppon</w> a speedy <w norm="execution">excution</w> of <w norm="their">theire</w> <w norm="designs">designes</w>.<lb/>
                 All whose <w norm="secret">secrett</w> intentions God saw<surplus reason="superfluous">.</surplus> <surplus reason="superfluous">(</surplus><w norm="and">&amp;</w><supplied reason="mod">,</supplied> that <rs ref="ppl:cw1" n="per123" type="person">my<lb/>
@@ -1918,7 +1913,7 @@
                  admonishments<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> reproofs for <w norm="their">theire</w> vanities<pc norm=",">.</pc><lb/>
                  <w norm="with" type="l">With</w> his <w norm="zealous" type="l">Zealous</w> <w norm="prayers">praiers</w> <w norm="and">&amp;</w> <w norm="deep">deepe</w> humiliation<surplus reason="superfluous">.</surplus> of his person<lb/>
                  <w norm="and" type="l">And</w> daily intercessions at the <quote xml:id="q-094" type="phrase" source="#_Hebrews_4:16">throne of <w norm="grace" type="l">Grace</w></quote> for <rs n="place-supp14" type="place">these<lb/>
-                     three <w norm="kingdoms">Kingdomes</w></rs><!-- Q [places] if tagged, needs a new row in spreadsheet, but how to label it? 3 kingdoms=Eng+Scot+Ire so not "Britain". UK is modern and only includes part of Ireland...  --><pc norm=",">.</pc></p>
+                     three <w norm="kingdoms">Kingdomes</w></rs><pc norm=",">.</pc></p>
 
             <pb xml:id="page-044" n="44"/>
 
@@ -2089,7 +2084,7 @@
             <p xml:id="p-0128"><quote xml:id="q-109" type="phrase" source="#KJV_Daniel_9:4"><w norm="O">Oh</w> thou<supplied reason="mod">,</supplied> most great <w norm="and">&amp;</w> <w norm="dreadful">Dreadfull</w> Lord God</quote><pc norm=",">.</pc> mighty<lb/>
                  in <w norm="power" type="l">Power</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="wisdom">wisdome</w><pc norm=",">.</pc> which <w type="archaism">seest</w> <w norm="and">&amp;</w> <w type="archaism">knowest</w> all things<lb/>
                 in heaven <w norm="and">&amp;</w> <w norm="earth" type="l">Earth</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> <w type="archaism">canst</w> <w norm="look">looke</w> us into <w norm="destruction">distruction</w><supplied reason="mod">;</supplied><lb/>
-                yet <w norm="a" type="l">A</w> most gracious <w norm="and">&amp;</w> <w norm="tender" type="l">Tender</w> <quote xml:id="q-110" type="allusion" source="#_1John_3:1 #_Psalms_103:13"><w norm="loving">loveing</w> <w norm="Father" type="u">father</w> of<!-- Q ST nested quote tags --></quote></p><lb/>
+                yet <w norm="a" type="l">A</w> most gracious <w norm="and">&amp;</w> <w norm="tender" type="l">Tender</w> <quote xml:id="q-110" type="allusion" source="#_1John_3:1 #_Psalms_103:13"><w norm="loving">loveing</w> <w norm="Father" type="u">father</w> of</quote></p><lb/>
             
 
             <pb xml:id="page-049" n="49"/>
@@ -2316,7 +2311,7 @@
             
                 <fw type="pageNum">55</fw> <lb/>
             
-  <!-- Q bibl/pb this needs to go to the previous page but <p> tag -->          
+            
                 <quote xml:id="q-140" type="partial" source="#_Ecclesiastes_12:13"><w norm="thy" type="l">Thy</w> <w norm="commandments">Commandements</w></quote>.<surplus reason="superfluous">)</surplus><anchor n="51" corresp="#p055n01" resp="ednote"/> Now<surplus reason="superfluous">,</surplus> seeing<supplied reason="mod">,</supplied> O Lord, such<lb/>
                  <w norm="misery">miserie</w> hath accrued unto us<surplus reason="superfluous">,</surplus> by the <w norm="act" type="l">Act</w> of the first<lb/>
                  Adam,<anchor n="52" corresp="#p055n02" resp="ednote"/> <w norm="we">Wee</w> <w norm="humbly">humblie</w> desire that <w norm="we">wee</w> may take <w norm="hold">hould</w> of<lb/>
@@ -2369,7 +2364,6 @@
             <p xml:id="p-0147">
                 <anchor n="53" corresp="#p056n01" resp="ednote"/>
                 
-                <!-- Q these 'com' in margin are no longer marked as contraction in semidips "Com"="Commandment". -->
                 <fw xml:id="mnote-0005" place="left margin" rend="post(rule)">
                         <quote xml:id="q-145" type="allusion" source="#_Exodus_20:2 #_Exodus_20:3"><supplied reason="mod">1<hi rend="superscript">st</hi></supplied><choice><abbr>Com</abbr><expan>Commandment</expan></choice></quote>.
                         <lb/>
@@ -2392,7 +2386,7 @@
                  desperation or presumption.
             </p>
             <p xml:id="p-0148">
-                <!-- Q contraction "Com". contraction line. -->
+                
         <anchor n="54" corresp="#p056n02" resp="ednote"/>        
               <fw xml:id="mnote-0006" place="left margin" rend="post(rule)">
                   <quote xml:id="q-148" type="allusion" source="#_Exodus_20:4-6"><supplied reason="mod">2<hi rend="superscript">nd</hi></supplied><choice><abbr>Com.</abbr><expan>Commandment</expan></choice></quote> <lb/>
@@ -2420,7 +2414,7 @@ stead of <w norm="images" type="l">Images</w> <w norm="and">&amp;</w> <w norm="i
              <w norm="against" type="l">Against</w> us and our generations <w norm="after">affter</w> us <w norm="forever">for ever</w>.</p>
            <p xml:id="p-0149">
                <anchor n="55" corresp="#p057n01" resp="ednote"/>
-               <!-- Q contraction "Com" --> 
+               
                 <fw xml:id="mnote-0007" place="left margin">
                    <quote xml:id="q-149" type="allusion" source="#_Exodus_20:7"> <supplied reason="mod">3<hi rend="superscript">rd</hi></supplied> <choice><abbr>Com</abbr><expan>Commandment</expan></choice></quote>.<lb/>
                      <surplus reason="superfluous">3</surplus> 
@@ -2441,7 +2435,6 @@ stead of <w norm="images" type="l">Images</w> <w norm="and">&amp;</w> <w norm="i
             <p xml:id="p-0150">
                 <anchor n="56" corresp="#p057n02" resp="ednote"/>
                 
-                <!-- Q contraction "Com" -->
                 <fw xml:id="mnote-0008" place="left margin">
                     <quote xml:id="q-150" type="allusion" source="#_Exodus_20:8-11"><supplied reason="mod">4<hi rend="superscript">th</hi></supplied> <choice><abbr>Com</abbr><expan>Commandment</expan></choice></quote>. <lb/>
                       <surplus reason="superfluous">4</surplus> </fw>
@@ -2465,8 +2458,7 @@ stead of <w norm="images" type="l">Images</w> <w norm="and">&amp;</w> <w norm="i
             <p xml:id="p-0151">
                 <anchor n="58" corresp="#p057n04" resp="ednote"/>
                 
-                <!-- Q contraction "Com". contraction line -->
-                    <fw xml:id="mnote-0009" place="left margin"><quote xml:id="q-151" type="allusion" source="#_Exodus_20:12"><supplied reason="mod">5<hi rend="superscript">th</hi></supplied><choice><abbr>Com</abbr><expan>Commandment</expan></choice></quote>. <lb/>
+                <fw xml:id="mnote-0009" place="left margin"><quote xml:id="q-151" type="allusion" source="#_Exodus_20:12"><supplied reason="mod">5<hi rend="superscript">th</hi></supplied><choice><abbr>Com</abbr><expan>Commandment</expan></choice></quote>. <lb/>
                          <surplus reason="superfluous">5</surplus> </fw>
                 But<supplied reason="mod">,</supplied> <w norm="alas">allas</w><supplied reason="mod">,</supplied> <w norm="dear">deare</w> <quote xml:id="q-152" type="phrase" source="#_2Corinthians_1:3-4"><w norm="Father" type="u">father</w> of <w norm="mercies" type="l">Mercies</w></quote>, <w norm="we">wee</w> are not <w norm="only">onlie</w> guilty<lb/>
                 of offending thee<supplied reason="mod">,</supplied> our <w norm="heavenly" type="l">Heavenly</w> <w norm="Father" type="u">father</w>, but have broken<lb/>
@@ -2501,7 +2493,6 @@ stead of <w norm="images" type="l">Images</w> <w norm="and">&amp;</w> <w norm="i
                 <!-- Q ? <supplied reason="mod">6<hi rend="superscript">th</hi> Commandment</supplied>--> Neither can <w norm="we">wee</w> excuse <w norm="ourselves">our selves</w><pc norm=",">.</pc> O Lord<supplied reason="mod">,</supplied><lb/>
           <anchor n="59" corresp="#p058n01" resp="ednote"/>      
                 
-                <!-- Q contraction "Com" -->
                 <fw xml:id="mnote-0010" place="left margin" rend="post(rule)">
                     <surplus reason="superfluous"><abbr>Com</abbr>. <lb/>
                     6<hi rend="superscript">th</hi></surplus>
@@ -2517,7 +2508,6 @@ stead of <w norm="images" type="l">Images</w> <w norm="and">&amp;</w> <w norm="i
             <p xml:id="p-0152">
                 <anchor n="60" corresp="#p058n02" resp="ednote"/>
                 
-                <!-- Q contraction "Com". -->
                     <fw xml:id="mnote-0011" place="left margin"><quote xml:id="q-153" type="allusion" source="#_Exodus_20:14"><supplied reason="mod">7<hi rend="superscript">th</hi></supplied><choice><abbr>Com</abbr><expan>Commandment</expan></choice></quote>.<lb/>
                          <surplus reason="superfluous">7<hi rend="superscript">th</hi></surplus>
                     </fw> 
@@ -2540,7 +2530,6 @@ stead of <w norm="images" type="l">Images</w> <w norm="and">&amp;</w> <w norm="i
               <w norm="sleep">Sleepe</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> all such like necessaries. <!-- Q why is this here sharon <supplied reason="mod">8<hi rend="superscript">th Commandment</hi></supplied>--> And thou <w type="archaism">hast</w><lb/>
         <anchor n="61" corresp="#p059n01" resp="ednote"/>    
               
-                <!-- Q contraction "Com". -->
               <fw xml:id="mnote-0012" place="left margin">
                   <surplus reason="superfluous"><abbr>Com</abbr>. <lb/>
                    8.</surplus></fw>
@@ -2592,7 +2581,7 @@ stead of <w norm="images" type="l">Images</w> <w norm="and">&amp;</w> <w norm="i
             
                 <fw type="pageNum">60</fw> <lb/>
             
-                <!-- Q needs to spread to previous page but <p> tag! -->  <quote xml:id="q-157" type="partial" source="#KJV_Ezekiel_11:19 #KJV_Ezekiel_36:26"><w norm="hearts">Hearts</w> of ours<surplus reason="superfluous">,</surplus> and make them hearts of flesh</quote><surplus reason="superfluous">,</surplus> or<supplied reason="mod">,</supplied><lb/>
+              <quote xml:id="q-157" type="partial" source="#KJV_Ezekiel_11:19 #KJV_Ezekiel_36:26"><w norm="hearts">Hearts</w> of ours<surplus reason="superfluous">,</surplus> and make them hearts of flesh</quote><surplus reason="superfluous">,</surplus> or<supplied reason="mod">,</supplied><lb/>
                 rather<supplied reason="mod">,</supplied> from flesh convert them into <w norm="spirit">Spirritt</w>.</p>
             <p xml:id="p-0156"><quote xml:id="q-158" type="allusion" source="#BCP_Other_confession-454"><w norm="We">Wee</w><supplied reason="mod">,</supplied> therefore<supplied reason="mod">,</supplied> O Lord, <w norm="confess">confesse</w> our <w norm="sins">sinns</w><surplus reason="superfluous">,</surplus> and are <w norm="sorry">Sorrie</w><lb/>
                  for <w norm="these">theise</w> our misdoings</quote>; nay<supplied reason="mod">,</supplied> <w norm="we">wee</w> are <w norm="sorry">Sorie</w><supplied reason="mod">,</supplied> O Lord<supplied reason="mod">,</supplied><lb/>
@@ -2952,7 +2941,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             <p xml:id="p-0180"> But even for thine <w norm="own">owne</w> <w norm="name's">name</w> sake<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <quote xml:id="q-168" type="phrase" source="#KJV_James_5:11">tender mercy</quote><supplied reason="mod">,</supplied><lb/>
                  <quote xml:id="q-169" type="paraphrase" source="#_Jeremiah_45:5"><w norm="who">whoe</w> gave us our lives for a <w norm="prey" type="l">Prey</w><surplus reason="superfluous">,</surplus> in a <w norm="strange">strainge</w> <w norm="place" type="l">Place</w></quote><lb/>
                  and delivered not up our lives <quote xml:id="q-170" type="partial" source="#_Jeremiah_24:10">to the sword, famine<supplied reason="mod">,</supplied><lb/>
-                 <w norm="pestilence" type="l">Pestilence</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="rebellions" type="l">Rebellions</w></quote><!-- Q ST nested quote tags (several!) --><pc norm=",">.</pc> <quote xml:id="q-171" type="paraphrase" source="#BCP_Psalter_Psalm145">I will <w norm="magnify">magnifie</w> the name of<lb/>
+                 <w norm="pestilence" type="l">Pestilence</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="rebellions" type="l">Rebellions</w></quote><pc norm=",">.</pc> <quote xml:id="q-171" type="paraphrase" source="#BCP_Psalter_Psalm145">I will <w norm="magnify">magnifie</w> the name of<lb/>
                  the Lord most high</quote><pc norm=":">;</pc> <quote xml:id="q-172" type="allusion" source="#_Psalms_104:33">while I have my <w norm="being">beeing</w><supplied reason="mod">,</supplied> will I praise<lb/>
                  thy <w norm="holiness">holynesse</w> <w norm="forever">for ever</w></quote><pc norm=",">.</pc> which saved me from perishing<lb/>
                 in the sea<surplus reason="superfluous">.</surplus> and gave us a speedy <w norm="and">&amp;</w> safe passage out<lb/>
@@ -3661,7 +3650,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  Kitt</persName> from thence<pc norm=",">.</pc> where<supplied reason="mod">,</supplied> as he <w norm="happily">happiely</w> <w norm="met">mett</w> him riding<lb/>
                     out of <rs ref="place:York_060" n="place-supp49" type="place">the <w norm="town">towne</w></rs> to see the fight<pc norm=",">.</pc><anchor n="95" corresp="#p082n02" resp="ednote"/> he <w norm="took">tooke</w> him up behind<lb/>
                  him <w norm="and">&amp;</w> brought him safe to <placeName ref="place:Kirk_131" n="place129">Kirklington</placeName><!-- NOTE K hall --><surplus reason="superfluous">,</surplus> that night<supplied reason="mod">,</supplied> <w norm="but">butt</w><lb/>
-                    was pursued by a party of <w norm="horse">horrse</w><surplus reason="superfluous">,</surplus> <supplied reason="mod">(</supplied>of <w norm="Scots">Scotts</w><pc norm=")">.</pc> <w norm="and">&amp;</w><supplied reason="mod">,</supplied> at <w norm="eleven">a 11</w><!-- Q other instances of "a 11" will need checking --> or<lb/>
+                    was pursued by a party of <w norm="horse">horrse</w><surplus reason="superfluous">,</surplus> <supplied reason="mod">(</supplied>of <w norm="Scots">Scotts</w><pc norm=")">.</pc> <w norm="and">&amp;</w><supplied reason="mod">,</supplied> at <w norm="eleven">a 11</w> or<lb/>
                 <w norm="twelve">12</w> <w norm="o'clock">a clocke</w> <w norm="at">att</w> night, we <w norm="received">receaved</w> both <rs ref="ppl:cw2 ppl:gw1" n="per274" type="person">my brothers</rs> home<lb/>
                  safely<surplus reason="superfluous">,</surplus> out of those great dangers of <w norm="being">beeing</w> <w norm="murdered" type="l">Murdered</w>.
            <anchor xml:id="ev51a-end" n="ev51a" type="event"/><lb/>
@@ -3779,8 +3768,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             <p xml:id="p-0218">
            <milestone spanTo="#ev54-end" xml:id="ev54-start" n="ev54" unit="event"/>
                  After I was <term n="197" xml:id="b1p084t04" ref="gloss:b1p084t04"><w norm="recruited">recruted</w></term> in strength<supplied reason="mod">,</supplied> <rs ref="ppl:aow1" n="per281" type="person">my mother</rs> went to<lb/>
-                <w norm="live" type="l">Live</w> at <placeName ref="place:Hips_022" n="place137">Hipswell</placeName><supplied reason="mod">,</supplied> her <term n="198" xml:id="b1p084t05" ref="gloss:b1p084t05"><w norm="jointure">Joyntyre</w></term><supplied reason="mod"/> <add place="above">with <persName ref="ppl:gw1" n="per282">my <choice><abbr>B.</abbr><expan>brother</expan></choice><supplied reason="mod">,</supplied> George</persName><supplied reason="mod">,</supplied> <w norm="myself">my selfe</w> <w norm="and">&amp;</w> <persName ref="ppl:gl1" n="per283">George Lightfoot</persName> <w norm="and">&amp;</w> <persName ref="ppl:dcl1" n="per284"><w norm="Daphne">Dafeny</w> Cassell</persName><pc norm=",">.</pc> <w norm="and">&amp;</w> my <choice><abbr>D. G. W.</abbr><expan>dear George Wandesford</expan></choice><supplied reason="mod">,</supplied> <rs type="person">his man</rs>.</add>  
-                <!-- Q person - is this 'Dear George Wandesford his man'? - i.e. brother George's servant - JE. will need tagging as George's servant - JE -->
+                <w norm="live" type="l">Live</w> at <placeName ref="place:Hips_022" n="place137">Hipswell</placeName><supplied reason="mod">,</supplied> her <term n="198" xml:id="b1p084t05" ref="gloss:b1p084t05"><w norm="jointure">Joyntyre</w></term><supplied reason="mod"/> <add place="above">with <persName ref="ppl:gw1" n="per282">my <choice><abbr>B.</abbr><expan>brother</expan></choice><supplied reason="mod">,</supplied> George</persName><supplied reason="mod">,</supplied> <w norm="myself">my selfe</w> <w norm="and">&amp;</w> <persName ref="ppl:gl1" n="per283">George Lightfoot</persName> <w norm="and">&amp;</w> <persName ref="ppl:dcl1" n="per284"><w norm="Daphne">Dafeny</w> Cassell</persName><pc norm=",">.</pc> <w norm="and">&amp;</w> my <choice><abbr>D. G. W.</abbr><expan>dear George Wandesford</expan></choice><supplied reason="mod">,</supplied> <rs type="person">his man</rs>.</add> 
                 And there she was troubled<lb/>
                 with the <w norm="Scots">Scotts</w> one while <w norm="and">&amp;</w> the <w norm="parliament" type="l">Parliament</w> forces <w norm="another">annother</w> while<lb/>
                 
@@ -4083,7 +4071,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  <term n="225" xml:id="b1p091t04" ref="gloss:b1p091t04"><w norm="managery">Managerie</w></term> of all that <w norm="estate" type="l">Estate</w><pc norm=".">,</pc> <w norm="And">&amp;</w> that was all <w norm="seized">seised</w> on by <persName ref="ppl:ww1" n="per330">my<lb/>
                      <w norm="uncle" type="l">Uncle</w> <choice><abbr>Wand.</abbr><expan>Wandesford</expan></choice></persName> for the <w norm="debts" type="l">Debts</w>, which he was much wronged of too<surplus reason="superfluous">,</surplus><lb/>
                  by one he made a <w norm="lease">Leace</w> of it for <w norm="seven">7</w> <w norm="years">yeares</w><surplus reason="superfluous">,</surplus> <w norm="taking">takeing</w> many<lb/>
-                <w norm="hundred">100<hi rend="superscript">d</hi></w> pounds<!-- Q mod and consistency "many 100d pounds" hmm. not a specific amount so leave as it is now? and is it meant to be "hundred" or "thousand"? i think there are a few other instances of this. check consistency --> more <w norm="than">then</w> his due<surplus reason="superfluous">,</surplus> <supplied reason="mod">(</supplied><w norm="and">&amp;</w> before he <w norm="got">gott</w> it <w norm="again">againe</w><supplied reason="mod">,</supplied><lb/>
+                <w norm="hundred">100<hi rend="superscript">d</hi></w> pounds more <w norm="than">then</w> his due<surplus reason="superfluous">,</surplus> <supplied reason="mod">(</supplied><w norm="and">&amp;</w> before he <w norm="got">gott</w> it <w norm="again">againe</w><supplied reason="mod">,</supplied><lb/>
                 he put him to a <w norm="suit">suite</w><supplied reason="mod">)</supplied>. <w norm="But" type="u">but</w> in this time<supplied reason="mod">,</supplied> <rs type="group">all the <w norm="children" type="l">Children</w></rs> was<lb/>
                  <w norm="maintained" type="l">Maintained</w><surplus reason="superfluous">,</surplus> <rs ref="ppl:aow1" n="per331" type="person">by my <w norm="dear">deare</w> <w norm="mother" type="l">Mother</w></rs><surplus reason="superfluous">,</surplus> from her <term n="226" xml:id="b1p091t05" ref="gloss:b1p091t05"><w norm="jointure">Joynture</w></term>.</p>
             <p xml:id="p-0238"><persName ref="ppl:eo1" n="per332">My <w norm="dear">deare</w> <w norm="uncle" type="l">Uncle</w> Osborne</persName><supplied reason="mod">,</supplied> <w norm="being">beeing</w> <w norm="at">att</w> <placeName ref="place:Kive_029" n="place148"><w norm="Kiveton">Keeveton</w></placeName> with <rs ref="ppl:awo1" n="per333" type="person">his <w norm="lady">ladie</w></rs><surplus reason="superfluous">.</surplus><lb/>
@@ -4155,7 +4143,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             <head rend="post(rule)"> 
                 <w norm="Upon">Uppon</w> the <w norm="Beheading" type="u">beheading</w> of <persName ref="ppl:cs1" n="per341">King <w norm="Charles">Charels</w> 
                     the Martyr</persName><supplied reason="mod">,</supplied> <date datingMethod="#JulianMar" type="death" when-custom="1648-01-30"><choice><abbr>Jan</abbr><expan>January</expan></choice> 30<hi rend="superscript">th</hi><supplied reason="mod">,</supplied><lb/> 1648</date>
-                <!-- Q [layout] 1648 is actually inserted on line above. UGH. hmm. there's the WWP method? -->
+                <!-- NOTE 1648 is actually inserted on line above, but not an <add> -->
                 <!-- NOTE [dates] definitely OS! -->
             </head>
         <p xml:id="p-0242">
@@ -4637,7 +4625,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                 he neither with him<supplied reason="mod">,</supplied> but bid his <w norm="footman">foot man</w><supplied reason="mod">,</supplied> <persName ref="ppl:jb2" n="per402">James <w norm="Brodricke">brodricke</w></persName><supplied reason="mod">,</supplied><lb/>
                  an <surplus reason="superfluous">(</surplus>Irish man <w norm="and">&amp;</w> an <w norm="excellent">excelent</w> runner<pc norm=",">)</pc> to <w norm="meet">meete</w> him at<lb/>
                 <placeName ref="place:Rich_043" n="place177">Richmond</placeName><surplus reason="superfluous">.</surplus> at <w norm="eleven">11</w> <w norm="o'clock">a clock</w> where he was to <w norm="meet">mette</w> <persName ref="ppl:ww1" n="per403">my uncle <choice><abbr>will</abbr><expan>William</expan></choice></persName><supplied reason="mod">.</supplied><lb/>
-                <w norm="So">soe</w><supplied reason="mod">,</supplied> <rs ref="ppl:gw1" n="per404" type="person">my brother</rs> went towards <rs ref="place:Swal_123" n="geog6" type="geog">the <w norm="river" type="l">River</w></rs><pc norm=",">;</pc> <w norm="and" type="l">And</w> as he rid by<lb/><!-- Q this should be separate from geogName - JE -->
+                <w norm="So">soe</w><supplied reason="mod">,</supplied> <rs ref="ppl:gw1" n="per404" type="person">my brother</rs> went towards <rs ref="place:Swal_123" n="geog6" type="geog">the <w norm="river" type="l">River</w></rs><pc norm=",">;</pc> <w norm="and" type="l">And</w> as he rid by<lb/>
                 our <rs type="place" ref="place:Hips_023"><w norm="chapel">Chapell</w></rs><supplied reason="mod">,</supplied> where there was a wedding that day<pc norm=",">.</pc> he asked the<lb/>
                  <w norm="people" type="l">People</w><surplus reason="superfluous">,</surplus> whether <geogName ref="place:Swal_123" n="geog7">the <w norm="Swale">Swaile</w></geogName> might be <w norm="ridden">riden</w>. <w norm="They" type="u">they</w> said that <lb/>
                  there had <w norm="been">bin</w> a flood<pc norm=",">.</pc> but it was fallen for some had <w norm="crossed">crost</w><lb/>
@@ -5676,7 +5664,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                 <fw type="pageNum">128</fw>
             
             <p xml:id="p-0332">In his <w norm="return">returne</w> home from <placeName ref="place:East_019" n="place219">Newton</placeName><supplied reason="mod">,</supplied> his <w norm="own">owne</w> <w norm="estate" type="l">Estate</w>, I was<lb/>
-                carried over <placeName ref="place:Hamb_020" n="place220">Hambleton</placeName><!-- Q [places] maybe this should be geogName --> towards <persName ref="ppl:wa2" n="per516">Sir <choice><abbr>will.<am rend="superscript">m</am></abbr><expan>William</expan></choice> <w norm="Ayscough's">Akoughs</w></persName> <rs ref="place:Osgo_120" n="place-supp57" type="place">house</rs><lb/>
+                carried over <placeName ref="place:Hamb_020" n="place220">Hambleton</placeName> towards <persName ref="ppl:wa2" n="per516">Sir <choice><abbr>will.<am rend="superscript">m</am></abbr><expan>William</expan></choice> <w norm="Ayscough's">Akoughs</w></persName> <rs ref="place:Osgo_120" n="place-supp57" type="place">house</rs><lb/>
                  where I passed <w norm="down">downe</w> on <w norm="foot">foote</w> a very high hill, betwixt<lb/>
                 <geogName ref="place:Hood_121" n="geog16"><w norm="Hood">hud</w> <w norm="Hill" type="u">hill</w></geogName> <w norm="and">&amp;</w> <geogName ref="place:Whit_127" n="geog17"><w norm="Whitestone Cliff">whitsonclife</w></geogName>, which is <w norm="above">a bove</w> a mile <w norm="steep">steepe</w> <w norm="down">downe</w><supplied reason="mod">.</supplied><lb/>
                 <w norm="And">&amp;</w> indeed<supplied reason="mod">,</supplied> so bad<surplus reason="superfluous">,</surplus> that I could not <w norm="scarce">scarse</w> tread the narrow steps<lb/>
@@ -5833,18 +5821,18 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                 strength<supplied reason="mod">,</supplied> <w norm="and">&amp;</w> setting <add place="above">me</add> on my <w norm="feet">feette</w> <w norm="after">affter</w> <w norm="six">6</w> months <w norm="sickness">sicknes</w><lb/>
                  in my bed. <milestone unit="marker" rend="delim(diagonal)"/> <quote xml:id="q-258" type="allusion" source="#KJV_Job_7:11">I called <w norm="upon">uppon</w> my God, in mine anguish<lb/>
                      of <w norm="spirit">spiritt</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="heaviness">heavinesse</w>, I did <w norm="complain">complaine</w></quote>, <w norm="and">&amp;</w> made my<lb/>
-                 <w norm="supplications">suplications</w> unto my God<!-- Q ST nested quote tags --> <pc norm=":">;</pc> the Lord of my <w norm="life" type="l">Life</w> <w norm="and">&amp;</w> <w norm="joy" type="l">Joy</w>.<lb/>
+                 <w norm="supplications">suplications</w> unto my God <pc norm=":">;</pc> the Lord of my <w norm="life" type="l">Life</w> <w norm="and">&amp;</w> <w norm="joy" type="l">Joy</w>.<lb/>
                  <w norm="For" type="u">for</w> my desires was <quote xml:id="q-261" type="phrase" source="#_Deuteronomy_11:22">to cleave unto him</quote><surplus reason="superfluous">,</surplus> <w norm="that" type="l">That</w> I had offended<lb/>
                 <w norm="and">&amp;</w> <quote xml:id="q-262" type="phrase" source="#KJV_Job_9:15 #GB_Job_9:15">made my <w norm="supplications">suplications</w> unto my <w norm="judge" type="l">Judge</w></quote>. O Lord<supplied reason="mod">,</supplied> I<lb/>
                  have offended many <w norm="ways">waies</w>, but thou art he that <w type="archaism">canst</w><lb/>
                 wash <w norm="and">&amp;</w> <w norm="cleanse">cleance</w> my defiled, <w norm="polluted">poluted</w> <w norm="soul">Soule</w><supplied reason="mod">:</supplied> <quote xml:id="q-264" type="phrase" source="#_1Kings_8:46 #_2Chronicles_6:36">for <w norm="who">whoe</w> is<lb/>
-                there that <w type="archaism">liveth</w> <w norm="and">&amp;</w> <w type="archaism">sinnest</w> not</quote><!-- Q ST nested quote tags --><pc norm="?">.</pc> As my desires was alone<lb/>
+                there that <w type="archaism">liveth</w> <w norm="and">&amp;</w> <w type="archaism">sinnest</w> not</quote><pc norm="?">.</pc> As my desires was alone<lb/>
                  to <quote xml:id="q-265" type="phrase" source="#_Deuteronomy_11:22">cleave on thee</quote>, so thou <w type="archaism">didst</w> send this to me, this <w norm="sickness" type="break">sick<lb break="no"/>
                  nesse</w> unto thy servant. And by degrees did remove the<lb/>
                 same in thy due time. <quote xml:id="q-266" type="allusion" source="#_Psalms_18:3-6 #_Psalms_116:1-4">Thou <w type="archaism">heardest</w> my <w norm="prayers">praiers</w><supplied reason="mod">,</supplied> accep<lb break="no"/>
                  ted my <w norm="tears">teares</w> of repentance, my <w norm="sorrows">sorrowes</w><surplus reason="superfluous">;</surplus> when death<lb/>
                     had compassed me about</quote><pc norm=":">.</pc> <quote xml:id="q-267" type="partial" source="#_Psalms_41:4">Lord<supplied reason="mod">,</supplied> <w norm="heal">heale</w> my <w norm="soul">soule</w> for I<lb/>
-                        have sinned</quote>. And now<supplied reason="mod">,</supplied> <quote xml:id="q-268" type="phrase" source="#_Psalms_71:22"><w norm="O" type="u">o</w> thou most holy one of <w norm="Israel">Israell</w><!-- Q [bibl] quote lacking source --></quote><supplied reason="mod">,</supplied><lb/>
+                        have sinned</quote>. And now<supplied reason="mod">,</supplied> <quote xml:id="q-268" type="phrase" source="#_Psalms_71:22"><w norm="O" type="u">o</w> thou most holy one of <w norm="Israel">Israell</w></quote><supplied reason="mod">,</supplied><lb/>
                  blessed be thy glorious name<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> magnified forever<surplus reason="superfluous">.</surplus> that <lb/>
                  thou <w type="archaism">hast</w> put fresh opportunities of praising thee <w norm="and">&amp;</w><lb/>
                  serving <quote xml:id="q-269" type="phrase" source="#_Psalms_116:9">the Lord in the <w norm="land" type="l">Land</w> of the <w norm="living">Liveing</w></quote>. <w norm="Stir">Stirre</w> up my <g ref="#heart">♥</g>
@@ -5922,7 +5910,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  us with thy free <w norm="spirit">spiritt</w><surplus reason="superfluous">,</surplus> that we may make good use of<lb/>
                  all those opportunity thou <w type="archaism">puttest</w> into my hand <quote xml:id="q-289" type="paraphrase" source="#BCP_Other_collect-314">to<lb/>
                  serve thee uprightly even all our <w norm="life" type="l">Life</w> long</quote>, that we may<lb/>
-                 give up our accounts with <w norm="joy" type="l">Joy</w> <w norm="and">&amp;</w> not with <term n="383" xml:id="b1p132t02" ref="gloss:b1p132t02"><w norm="grief">greife</w></term><!-- Q ST nested quote tags -->. All<lb/>
+                 give up our accounts with <w norm="joy" type="l">Joy</w> <w norm="and">&amp;</w> not with <term n="383" xml:id="b1p132t02" ref="gloss:b1p132t02"><w norm="grief">greife</w></term>. All<lb/>
                 which humble requests <w norm="and">&amp;</w> <w norm="petitions">pettitions</w> I crave<supplied reason="mod">,</supplied> with pardon<lb/>
                  for our neglect in duties<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> this <w norm="mean">meane</w> performances that<lb/>
                  I present, <w norm="craving">craveing</w> all things thou in <w norm="wisdom">wisdome</w> <w type="archaism">seest</w><lb/>
@@ -6036,7 +6024,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             
             <p xml:id="p-0352"><w norm="Oh">O</w><pc norm=",">:</pc> <w norm="most" type="l">Most</w> great <w norm="and">&amp;</w> <w norm="dreadful">dreadfull</w> Lord God<pc norm=",">.</pc> <w norm="and" type="l">And</w> yet a <lb/>
                 <w norm="tender" type="l">Tender</w> <w norm="and">&amp;</w> loving <quote xml:id="q-293" type="phrase" source="#_2Corinthians_1:3">Father of <w norm="mercies">Mercys</w> in Christ Jesus<supplied reason="mod">,</supplied><lb/>
-                 thy <w norm="son">sonne</w></quote><!-- Q ST nested quote tags --><pc norm=",">.</pc> how <w type="archaism">hast</w> thou appeared glorious in<lb/>
+                 thy <w norm="son">sonne</w></quote><pc norm=",">.</pc> how <w type="archaism">hast</w> thou appeared glorious in<lb/>
                 thy mercy, <quote xml:id="q-294" type="phrase" source="#_Exodus_15:11"><w norm="fearful">fearfull</w> in thy praises<supplied reason="mod">,</supplied> <w norm="doing">doeing</w> wonders</quote><supplied reason="mod">?</supplied><lb/>
                 <w norm="How">how</w> <w type="archaism">hast</w> thou <w norm="been">bin</w> pleased to have compassion <w type="break" norm="upon">up<lb break="no"/>
                      -pon</w> me<supplied reason="mod">,</supplied> a <w norm="poor">poore</w><supplied reason="mod">,</supplied> <w norm="weak">weake</w> woman<supplied reason="mod">,</supplied> labouring in hazard<lb/>
@@ -6106,7 +6094,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  other <w norm="Christian" type="u">christian</w> graces</quote><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> give me a <w norm="thankful">thankefull</w> <g ref="#heart">♥</g><lb/>
                  all my <w norm="days">daies</w>. Receive my <w norm="child">childe</w> <quote xml:id="q-307" type="paraphrase" source="#BCP_Other_prayer-015 #BCP_Other_baptism-475">into the number<lb/>
                  of thy <w norm="saints" type="l">Saints</w></quote>, as thou <w type="archaism">hast</w> given her the <w norm="opportunity">oppertunity</w><lb/>
-                of holy <w norm="baptism">Baptisme</w><!-- Q ST nested quote tags -->. Make her thine <add place="above">in</add> <w norm="life" type="l">Life</w> and death<supplied reason="mod">,</supplied><lb/>
+                of holy <w norm="baptism">Baptisme</w>. Make her thine <add place="above">in</add> <w norm="life" type="l">Life</w> and death<supplied reason="mod">,</supplied><lb/>
                 from her cradle to her grave<supplied reason="mod">,</supplied> that thou <w type="archaism">mayest</w> <w type="break" norm="receive">re-<lb break="no"/>
                  ceave</w> the glory of thy name by <w norm="me" type="l">Me</w> for <w norm="so">soe</w> great a<lb/>
                  mercy afforded<surplus reason="superfluous">,</surplus> in <w norm="giving">giveing</w> me a <w norm="child">childe</w> <w norm="born">borne</w> <w norm="alive">a live</w><lb/>
@@ -6299,9 +6287,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             
             <fw type="pageNum">141</fw>
                 <!-- NOTE [page numbering] last left page odd number -->
-                
-            
-    <!-- Q bibl First quote here needs to spread back over page break -->        
+           
           <surplus reason="repetition">of</surplus> <w norm="spirit">Spiritt</w></quote><supplied reason="mod">,</supplied> <w norm="adding" type="l">Adding</w> a new blessing to thy servant causi<pc>-</pc><lb break="no"/>
                 <pc>-</pc>ng me to bring forth my <w norm="third">3<hi rend="superscript">d</hi></w> <w norm="child">childe</w><surplus reason="superfluous">.</surplus> of a <w norm="comely">comlie</w> <w norm="body">bodie</w><lb/>
                  <w norm="and">&amp;</w> <w norm="straight">streight</w> <w norm="limbs">limbes</w> <w norm="and">&amp;</w> proportion. <w norm="When" type="u">when</w> my <w norm="soul">soule</w> was<lb/>
@@ -6886,7 +6872,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                 <pc>-</pc>brance throughout all generations</quote>, <quote xml:id="q-398" type="phrase" source="#_Job_19:21">have <w norm="pity">pitty</w> upon me</quote><supplied reason="mod">.</supplied><lb/>
                  <quote xml:id="q-399" type="paraphrase" source="#_Psalms_51:1"><w norm="According" type="u">according</w> to the <w norm="infinite">infinitt</w> treasures of thy <w norm="loving">loveing</w> <w norm="kindness">kindnesse</w></quote><supplied reason="mod"/><lb/>
                  <quote xml:id="q-400" type="paraphrase" source="#_Psalms_102:5"><w norm="hear">heare</w> the <w norm="voice">voyce</w> of our groaning</quote><pc norm=":">,</pc> for <quote xml:id="q-401" type="partial" source="#_Psalms_102:10">thy indignation and thy<lb/>
-                     wrath</quote> <quote xml:id="q-402" type="phrase" source="#_Psalms_88:7"><w type="archaism">lieth</w> hard upon me<!-- Q ST nested quote tags --></quote><pc norm=",">.</pc> <w norm="and">&amp;</w> my sins have put an edge upon<lb/>
+                     wrath</quote> <quote xml:id="q-402" type="phrase" source="#_Psalms_88:7"><w type="archaism">lieth</w> hard upon me</quote><pc norm=",">.</pc> <w norm="and">&amp;</w> my sins have put an edge upon<lb/>
                  thy sword<surplus reason="superfluous">,</surplus> and a <w norm="thorn">thorne</w> into my wounded <w norm="consciences">consiences</w>. O Lord<supplied reason="mod">,</supplied><lb/>
                  I acknowledge thy justice in the afflictions which thou <w type="archaism">hast</w> sent<lb/>
                 in my torments <w norm="and">&amp;</w> the death of my infant<pc norm=",">.</pc> <w norm="and">&amp;</w> thou <w type="archaism">mightest</w> have<lb/>
@@ -7112,7 +7098,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                 in great <w norm="and">&amp;</w> miraculous mercy<surplus reason="superfluous">,</surplus> that<supplied reason="mod">,</supplied> when we had felt the<lb/>
                  <w norm="evils">Evills</w> of our <w norm="sad" type="l">Sad</w> <w norm="divisions">devissions</w>, <w norm="and">&amp;</w> our growing higher tow<lb break="no"/>
                  <pc>-</pc>ards utter destruction in <w norm="their">theire</w> <w norm="continuance">contineuance</w> in them<supplied reason="mod">,</supplied><lb/>
-      <surplus reason="superfluous"><add place="left">,</add></surplus><!-- TEST problem here. try again. --> he thereby taught the <w norm="nation" type="l">Nation</w> <w norm="wisdom">wisdome</w>, <w norm="and">&amp;</w> did incline<lb/>
+      <surplus reason="superfluous"><add place="left">,</add></surplus> he thereby taught the <w norm="nation" type="l">Nation</w> <w norm="wisdom">wisdome</w>, <w norm="and">&amp;</w> did incline<lb/>
                  <w norm="their">theire</w> hearts to <w norm="return">returne</w> to <w norm="their">theire</w> old <w norm="station" type="l">Station</w><surplus reason="superfluous">,</surplus> under<lb/>
                  the <w norm="notion" type="l">Notion</w> of a free <w norm="parliament" type="l">Parliament</w>.</p>
             <p xml:id="p-0406" rend="modernised(append-following-sibling)">As all the world stood <w norm="amazed">amaised</w><supplied reason="mod">,</supplied> <w norm="at">att</w> our <w norm="unheard-of">unheard of</w> <w norm="follies">follis</w><lb/>
@@ -8095,7 +8081,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  these outward <w norm="symbols">Simbolls</w> and pledges of thy love. <lb/>
                  And that<supplied reason="mod">,</supplied> as my <w norm="body">bodie</w> is fed and <w norm="strengthened">strengthned</w> by <lb/>
                  <w norm="corporal">Corporall</w> <w norm="food">foode</w><pc norm=",">;</pc> <w norm="so">soe</w> my <w norm="soul">Soule</w> may (from the hunger<lb break="no"/>
-                -starving <!-- TEST has removal of pc tagging on hyphen worked --> of <w norm="sin">sinne</w>)<surplus reason="superfluous">,</surplus> <w norm="be">bee</w> strengthened by thy blessed<lb/>
+                -starving of <w norm="sin">sinne</w>)<surplus reason="superfluous">,</surplus> <w norm="be">bee</w> strengthened by thy blessed<lb/>
                  <w norm="body">bodie</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> washed by <quote xml:id="q-484" type="phrase" source="#_1Peter_1:19 #BCP_Other_prayer-015">thy precious blood</quote> from all her<lb/>
                  <w norm="sins">sinnes</w>. Amen. 
                 <milestone unit="marker" rend="delim(fleuron)"/>
@@ -8461,9 +8447,9 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
      </div>
      <div xml:id="div-080">       
          <head rend="pre(rule_pattern) post(rule_pattern)" xml:id="ex-head-rule-pattern-pre-post-hearts">
+             <!-- NOTE Ornate borders around title. -->
                 <w norm="Upon">Uppon</w> <rs ref="ppl:wt1" n="per767" type="person"><w norm="My" type="u">my</w> Husband</rs><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w norm="Family's">Families</w> <w norm="Removal">Removall</w> from <placeName ref="place:StNi_050" n="place285">St<lb/>
                  <w norm="Nicholas">Nickolas</w></placeName><surplus reason="superfluous">,</surplus> to <placeName ref="place:Oswa_041" n="place286"><w norm="Oswaldkirk">Oswold Church</w><pc norm=",">.</pc> <w norm="near">neare</w> Newton</placeName><pc norm=",">.</pc> <date when-custom="1660-06-10">June 10<supplied reason="mod">,</supplied> 1660</date><surplus reason="superfluous">.</surplus>
-             <!-- [endnote] [decoration] Ornate borders around next title. -->
 
             </head>
             <p xml:id="p-0510">
@@ -8530,7 +8516,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  <w norm="and" type="l">And</w> great <w norm="assistance" type="l">Assistance</w><surplus reason="superfluous">,</surplus> as toward the building of our house at<lb/>
                  <placeName ref="place:East_019" n="place291">Newton</placeName><surplus reason="superfluous">;</surplus>
                 <anchor xml:id="ev137a-end" n="ev137a" type="event"/>
-                <!-- Q [event] Mr T's melancolic fits/Dr Witty treatment - but not a specific event? -->
+                
                 <milestone spanTo="#ev137b-end" xml:id="ev137b-start" unit="event" n="ev137b"/>
                 <supplied reason="mod">(</supplied><persName ref="ppl:wt1" n="per777">Mr Thornton</persName> not <w norm="giving">giveing</w> <w norm="himself">himselfe</w> to take pleasure<lb/>
                  or trouble in <w norm="anything">any thing</w> of that nature: <w norm="being">beeing</w> much addicted<lb/>
@@ -8651,7 +8637,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  <w norm="feet">feete</w><surplus reason="superfluous">,</surplus> of mercy; yea<supplied reason="mod">,</supplied> before the <w norm="throne" type="l">Throne</w> of the most gracious God<lb/>
                  <quote xml:id="q-517" type="partial" source="#_Acts_17:28">in <w norm="whom">whome</w> I live<supplied reason="mod">,</supplied> <w norm="and">&amp;</w> move, <w norm="and">&amp;</w> have my <w norm="being">beeing</w></quote>, <w norm="saying">saieing</w> with <del rend="strikethrough">Eat</del><lb/>
                  <w norm="Esther">Easter</w><supplied reason="mod">,</supplied>
-                    <!-- NOTE norm rather than sic: I've come across "Easter" for Esther/Hester in other contexts. -->
+                    <!-- NOTE norm rather than sic as I've come across "Easter" for Esther/Hester in other contexts. -->
                     
                 if <quote xml:id="q-518" type="direct" source="#_Esther_4:16">I perish, I perish</quote>. <quote xml:id="q-519" type="allusion" source="#_Genesis_22"><w norm="Here">heere</w> I am, Lord<supplied reason="mod">:</supplied> though thou <lb/>
                  shouldest kill me, yet will I trust in thee<surplus reason="superfluous">,</surplus> for healing, <lb/>
@@ -9683,7 +9669,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                 <rs ref="ppl:atc1 ppl:ktp1 ppl:rt2" n="per875" type="person">my <w norm="three">3</w> young <w norm="children">Chidren</w></rs>; casting in my mind what <w norm="friend">freind</w> of<lb/>
                  my <w norm="own">owne</w> to desire to <w norm="intrust">in trust</w> with <w norm="their">theire</w> <w norm="education" type="l">Education</w><supplied reason="mod">,</supplied> if he did <w norm="so">soe</w><supplied reason="mod">.</supplied><lb/>
                  For <persName ref="ppl:rt2">my <w norm="son" type="l">Son</w></persName><pc norm=",">:</pc> <w norm="the" type="l">The</w> hope of my house<pc norm=",">:</pc> I <w norm="humbly">humblie</w> committed him<lb/>
-                 into the <w norm="protection">Propection</w><!-- Q is this in mod queries? protection? --> of Almighty God<pc norm=",">.</pc> as <w norm="also">allso</w> his two sisters<supplied reason="mod">,</supplied><lb/>
+                 into the <choice><sic>Propection</sic><corr>protection</corr></choice> of Almighty God<pc norm=",">.</pc> as <w norm="also">allso</w> his two sisters<supplied reason="mod">,</supplied><lb/>
                 <w norm="and" type="l">And</w> for his <w norm="education" type="l">Education</w><surplus reason="superfluous">,</surplus> into the <w norm="care">caire</w> of my <w norm="dear">deare</w> <w norm="and">&amp;</w> <choice><abbr>hon<am rend="superscript">red</am></abbr><expan>honoured</expan></choice> <w norm="uncle" type="l">Uncle</w><supplied reason="mod">,</supplied><lb/>
                  <w norm="my" type="l">My</w> <persName ref="ppl:jf1" n="per876">Lord <w norm="Frescheville">frechvile</w></persName><pc norm=";">:</pc> <persName ref="ppl:atc1" n="per877">my <w norm="daughter" type="l">Daughter</w><supplied reason="mod">,</supplied> Alice</persName><supplied reason="mod">,</supplied> to<surplus reason="superfluous">:</surplus> my <w norm="dear">deare</w> <persName ref="ppl:awn1" n="per878"><w norm="aunt" type="l">Aunt</w><lb/>
                  Norton</persName><pc norm=";">:</pc> and <persName ref="ppl:ktp1" n="per879">my <w norm="daughter" type="l">Daughter</w><supplied reason="mod">,</supplied> Katherine</persName><pc norm=",">:</pc> to <persName ref="ppl:kdb1" n="per880">my <w norm="dear">deare</w> <w norm="niece">neece</w><lb/>
@@ -9944,7 +9930,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  much strength did resist the <w norm="sickness">sicknesse</w><surplus reason="superfluous">.</surplus> <w norm="until">till</w> <date datingMethod="#JulianMar" when-custom="1665-01-24">the <w norm="Thursday" type="u">thursday</w> af<lb break="no"/>
                  ter</date><pc norm=",">.</pc> when it was past hopes of recovery. <w norm="And" type="u">and</w> about one<lb/>
               <w norm="and">&amp;</w> <w norm="two">2</w> <w norm="o'clock">a clocke</w> in the <w norm="afternoon">affternoone</w><supplied reason="mod">,</supplied> on <date datingMethod="#JulianMar" type="death" when-custom="1665-01-27">Friday the 27<hi rend="superscript">th</hi><supplied reason="mod">,</supplied> 
-                     <choice><abbr>Jan. 65</abbr><expan>January 1665</expan></choice><pc norm=",">.</pc><!-- TEST is there still space before the comma? -->
+                     <choice><abbr>Jan. 65</abbr><expan>January 1665</expan></choice><pc norm=",">.</pc>
                  </date><!-- NOTE [dates] 27 Jan 1666=Sat. OS calendar. --><lb/>
                  <w norm="the" type="l">The</w> Lord was pleased to free her from all <w norm="pains">paines</w><surplus reason="superfluous">,</surplus> by <w norm="taking">takeing</w><lb/>
                  her to his mercy<pc norm=",">.</pc> when she <term n="725" xml:id="b1p212t02" ref="gloss:b1p212t02"><w norm="sweetly">sweetely</w></term> fell <w norm="asleep">a sleepe</w><surplus reason="superfluous">,</surplus> <w norm="without">with out</w><lb/>
@@ -9967,7 +9953,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  <w norm="measures">measurs</w> of <w norm="spiritual">sprittuall</w> <w norm="mercies">mercys</w> <w norm="and">&amp;</w> <term n="729" xml:id="b1p212t06" ref="gloss:b1p212t06">incomes of his grace</term> <w norm="so">soe</w> many<lb/>
                  that my <g ref="#heart">♥</g> <w norm="and">&amp;</w> tongue cannot <w norm="express">expresse</w> them<supplied reason="mod">,</supplied> <w norm="without">with out</w> that which I had<lb/>
                  <w norm="been">bin</w> miserable. <w norm="Therefore" type="u">therefore</w><supplied reason="mod">,</supplied> to the glory of his <w norm="name" type="l">Name</w><supplied reason="mod">,</supplied> I ascribe the<lb/>
-                <w norm="honour">hon.<am rend="superscript">rod</am></w><!-- Q CHECK semidip - in img looks like "honor" not "honrod" to me --> of <quote xml:id="q-628" type="allusion" source="#_Genesis_2:7">my <w norm="creation" type="l">Creation</w> out of nothing</quote>, <w norm="making">makeing</w> me <w norm="capable" type="l">Capable</w> of<lb/>
+                <w norm="honour">hon.<am rend="superscript">or</am></w> of <quote xml:id="q-628" type="allusion" source="#_Genesis_2:7">my <w norm="creation" type="l">Creation</w> out of nothing</quote>, <w norm="making">makeing</w> me <w norm="capable" type="l">Capable</w> of<lb/>
                  <term n="730" xml:id="b1p212t07" ref="gloss:b1p212t07">salvation</term> beyond the <w norm="essence" type="l">Essence</w> of <w norm="angels">Angells</w><pc norm=",">.</pc> those glorious spirits<supplied reason="mod">,</supplied><lb/>
                  <w norm="the" type="l">The</w> inestimable mercy of <w norm="giving">giveing</w> <w norm="redemption" type="l">Redemption</w> to the world<surplus reason="superfluous">.</surplus><lb/>
             
@@ -10116,7 +10102,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  see me in my <w norm="sorrows">sorrowes</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> spake comfortably to my <w norm="soul">soule</w><pc norm=",">.</pc> <surplus reason="superfluous">v. 22</surplus><lb/>
                  <quote xml:id="q-645" type="direct" source="#_Matthew_9:22">Daughter be of good <w norm="cheer">Cheare</w>; thy faith hath made thee whole</quote> <supplied reason="mod">(verse 22).</supplied></p>
             <p xml:id="p-0609">And <date>from that very day</date><supplied reason="mod">,</supplied> I did recover<pc norm=".">:</pc> O Lord<supplied reason="mod">,</supplied> my <subst><del rend="overwritten">g</del><add place="superimposed">G</add></subst>od<pc norm=",">.</pc> how<lb/>
-                <!-- [endnote] [insertion] Capital G written over a lower case g.-->
+                <!-- NOTE Capital G written over a lower case g.-->
                  can I sufficiently <w norm="set">sett</w> forth the glory of thy name <w norm="and">&amp;</w> praise<supplied reason="mod">,</supplied><lb/>
                  <w norm="who">whoe</w> <w type="archaism">hast</w> compassion upon my <w norm="condition">condittion</w><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <w type="archaism">gavest</w> me this<lb/>
                  <w norm="spiritual">spirituall</w> <term n="747" xml:id="b1p215t04" ref="gloss:b1p215t04"><w norm="balsam">balsome</w></term> to <w norm="heal">heale</w> my <w norm="soul">soule</w> <w norm="and">&amp;</w> <w norm="body">bodie</w>. <w norm="Besides" type="u">besides</w> thee<supplied reason="mod">,</supplied><lb/>
@@ -11026,7 +11012,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             
             to <w norm="himself">himselfe</w> <w norm="again">againe</w> <supplied reason="mod">(</supplied>they being the speediest <w norm="remedy">reamidie</w> at<lb/>
                present<supplied reason="mod">)</supplied>.<anchor n="353" corresp="#p233n01" resp="ednote"/> <w norm="Then" type="u">then</w><supplied reason="mod">,</supplied> <add place="above"><w norm="afterward">affterward</w></add><supplied reason="mod">,</supplied> all other <w norm="remedies">reamidies</w> was applied by <persName ref="ppl:rw1" n="per1041">Dr <w norm="Wittie's">nilly</w></persName>
-                    <!-- [endnote] There's a faint mark indicating the possible beginning of a w and, although the 'll's are uncrossed, I think Anselment is right to correct this to Witty.-->
+                    <!-- NOTE There's a faint mark indicating the possible beginning of a w and, although the 'll's are uncrossed, I think Anselment is right to correct this to Witty.-->
                 
                 <lb/>
                direction<surplus reason="superfluous">.</surplus> <w norm="and" type="l">And</w> he was well <w norm="again">againe</w><surplus reason="superfluous">.</surplus> even to <w norm="peoples'">Peoples</w> <lb/>
@@ -11410,7 +11396,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             <p xml:id="p-0681" rend="modernised(append-following-sibling)">
                 <milestone spanTo="#evn8-end" xml:id="evn8-start" n="evn8" unit="event" corresp="tc1_1666_marriage_acd1"/>
             <w norm="Let">Lett</w> this practice of hers be examined<supplied reason="mod">:</supplied> whether she carried<lb/>
-                 <w norm="herself">her selfe</w> to me, either as a Christian<pc norm=",">;</pc> a <w norm="friend">freind</w><surplus reason="superfluous">;</surplus> or a <w norm="well-wisher">well wishe<supplied reason="omitted">r</supplied></w><!-- Q [consistency] another norm v supplied? --><supplied reason="mod">,</supplied><lb/>
+                 <w norm="herself">her selfe</w> to me, either as a Christian<pc norm=",">;</pc> a <w norm="friend">freind</w><surplus reason="superfluous">;</surplus> or a <w norm="well-wisher">well wishe<supplied reason="omitted">r</supplied></w><supplied reason="mod">,</supplied><lb/>
                  who <w norm="publicly">bublickly</w> <!-- Q [mod] consistency? b/p she does this elsewhere, treated as norm in Rem - but check'? [word] SiC - i.e., publicly.-->
                 made me <w norm="believe">beleive</w><surplus reason="superfluous">,</surplus><supplied reason="mod"> —</supplied> nay<supplied reason="mod">,</supplied> recommended<supplied reason="mod"> —</supplied> this<lb/>
                  match to me as <supplied reason="mod">(</supplied>in her <w norm="own">owne</w> <w norm="judgement" type="l">Judgment</w> <w norm="and">&amp;</w> <w norm="choice">choyse</w><supplied reason="mod">)</supplied> <add place="above">we</add> <w norm="would">woulde</w><lb/>
@@ -11543,7 +11529,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  of all things for it<pc norm=";">.</pc> <w norm="and" type="l">And</w><supplied reason="mod">,</supplied> if she see them endeavour to live<supplied reason="mod">,</supplied><lb/>
                  she would give her <measure unit="£" type="currency">10<am rend="superscript italic">l</am></measure> or <measure unit="£" type="currency">5<am rend="superscript italic">l</am></measure> at a time for <w norm="encouragement">incouragment</w><lb/>
                  when she came to see her. <w norm="But" type="u">but</w> I<supplied reason="mod">,</supplied> <w norm="having">haveing</w> <w norm="no">noe</w> <w norm="commission">committion</w><lb/>
-                 to accept of <measure unit="£" type="currency">60<am rend="superscript italic">l</am></measure> per <w norm="annum" type="l">An<ex>num</ex></w><surplus reason="superfluous">.</surplus><anchor n="379" corresp="#p243n02" resp="ednote"/> from <persName n="per1152">my <w norm="niece">neece</w> Danby</persName><!-- Q [names] but which niece Danby? --> but a charge<lb/>
+                 to accept of <measure unit="£" type="currency">60<am rend="superscript italic">l</am></measure> per <w norm="annum" type="l">An<ex>num</ex></w><surplus reason="superfluous">.</surplus><anchor n="379" corresp="#p243n02" resp="ednote"/> from <persName n="per1152">my <w norm="niece">neece</w> Danby</persName><!-- NOTE can't tell which niece Danby --> but a charge<lb/>
                  to the <w norm="contrary" type="l">Contrary</w><supplied reason="mod">,</supplied> could not promise for her<pc norm=";">.</pc> only <w norm="pressed">presed</w> for<lb/>
                  <measure unit="£" type="currency">80<am rend="superscript italic">l</am></measure><supplied reason="mod">,</supplied> <w norm="leaving">leaveing</w> her to consider of it because <measure unit="£" type="currency">60<am rend="superscript italic">l</am></measure> would not<lb/>
                  pay <w norm="their">theire</w> debts<pc norm=",">.</pc> <w norm="and" type="l">And</w> I would acquaint <persName ref="ppl:acd1" n="per1153">Mrs Danby</persName> with<lb/>
@@ -11825,7 +11811,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  of that place<surplus reason="superfluous">;</surplus> or else to give me warning to provide for one<lb/>
                  in hers<pc norm=",">:</pc> <w norm="having">haveing</w> a desire to be <w norm="at">att</w> liberty<surplus reason="superfluous">;</surplus> <supplied reason="mod">(</supplied>which I was not un<lb break="no"/>
                  willing to in regard of <w norm="myself">my selfe</w><surplus reason="superfluous">:</surplus> but because I kept her with<lb/>
-                 me <w norm="until">till</w> <persName n="per1174">my <w norm="niece" type="l">Nece</w> Danby</persName><!-- Q [names] which niece Danby? --> was resettled in her <w norm="own">owne</w> house, <w norm="and">&amp;</w><lb/>
+                 me <w norm="until">till</w> <persName n="per1174">my <w norm="niece" type="l">Nece</w> Danby</persName><!-- NOTE can't tell which niece Danby --> was resettled in her <w norm="own">owne</w> house, <w norm="and">&amp;</w><lb/>
              then she was to <w norm="go">goe</w> with her<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> to have <w norm="done">don</w> <persName ref="ppl:acd1" n="per1175">Mrs Danby</persName> a<lb/>
                  <w norm="kindness">kindnesse</w> in it<pc norm=").">:</pc> But<supplied reason="mod">,</supplied> on the contrary<pc norm=",">;</pc> it proved an <w type="break" norm="unfortunate">infortu<lb break="no"/>
                  -nate</w> act<surplus reason="superfluous">.</surplus> by reason of <w norm="their">theire</w> disgusts both of <rs ref="ppl:acd1" n="per1176" type="person">the <w norm="mistress">mistresse</w></rs> <w norm="and">&amp;</w><lb/>
@@ -12159,7 +12145,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  <w norm="husband's">husbands</w></rs> <w norm="weakness">weaknesse</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> the troubles of his <w norm="estate" type="l">Estate</w><pc norm=").">.</pc> God knows<supplied reason="mod">,</supplied><lb/>
                  <quote xml:id="q-714" type="allusion" source="#KJV_Job_5:8"> but I leave her to the just<surplus reason="superfluous">,</surplus> <w norm="judge" type="l">Judge</w> <w norm="and">&amp;</w> <w norm="commit">comitt</w> my cause to<lb/>
                      his holy determination</quote> <quote xml:id="q-713" type="paraphrase" source="#_2Corinthians_5:10">before whose <w norm="tribunal">Tribunall</w> we must<lb/>
-                 all <w norm="appear">apeare</w></quote><!-- Q ST nested quote tags -->. And <w norm="whose">whoes</w> dread I <w norm="set">sett</w> before my <w norm="eyes" type="l">Eyes</w> from<lb/>
+                 all <w norm="appear">apeare</w></quote>. And <w norm="whose">whoes</w> dread I <w norm="set">sett</w> before my <w norm="eyes" type="l">Eyes</w> from<lb/>
                  my youth<surplus reason="superfluous">:</surplus> <w norm="and">&amp;</w> whose mercy has never left me, never since<lb/>
                  I was <w norm="born">borne</w>, but he has kept me from the strivings of the<lb/>
                  <w norm="ungodly">ungodlie</w><pc norm=".">:</pc> I may say<supplied reason="mod">,</supplied> as <w norm="Hannah">hana</w> did, <quote xml:id="q-715" type="direct" source="#KJV_1Samuel_2:3"><w norm="talk">Talke</w> no more <w norm="so">soe</w> ex<lb break="no"/>
@@ -12291,7 +12277,6 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             <head rend="pre(rule_pattern) post(rule_pattern)">
             
          <fw xml:id="mnote-0027" rend="underline" place="left margin">P </fw>
-                    <!-- [endnote] [margin] Reason for this marginal annotation? -->
                  
                 <w norm="Upon">Uppon</w> <w norm="My" type="u">my</w> <w norm="Lamentable" type="u">lamentable</w> <w norm="Abuses" type="u">abuses</w> of <w norm="False">fallse</w> <w norm="Slanders" type="u">slanders</w> <w norm="Raised" type="u">raised</w><lb/>
                  against <w norm="Me" type="u">me</w><pc norm=",">.</pc> <date when-custom="1668-07-20">July 20<hi rend="superscript">th</hi><supplied reason="mod">,</supplied> 1668</date><surplus reason="superfluous">.</surplus>
@@ -12710,7 +12695,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  <term n="959" xml:id="b1p267t01" ref="gloss:b1p267t01">understanding</term> to serve thee with a perfect heart <w norm="and">&amp;</w> willing<lb/>
                  <w norm="mind">minde</w></quote><surplus reason="superfluous">.</surplus> <quote xml:id="q-797" type="partial" source="#_Micah_6:9">to <w norm="hear">heare</w> the <w norm="rod" type="l">Rod</w> <w norm="and">&amp;</w> who hath sent <w norm="it">itt</w></quote>. <quote xml:id="q-798" type="direct" source="#_Amos_3:6"><w norm="Is" type="u">is</w> there any <w norm="evil">Evill</w><lb/>
                  in a <w norm="city">Cittie</w> <w norm="and">&amp;</w> the Lord has not <w norm="done">don</w> it</quote><pc norm="?">.</pc> <quote xml:id="q-800" type="allusion" source="#_Ecclesiastes_3:2">Is there not an <w norm="appointed">appointd</w><lb/>
-                 time for man once to die</quote><!-- Q ST nested quote tags --><pc norm="?">.</pc> <quote xml:id="q-801" type="allusion" source="#_1Peter_2:24">Oh<supplied reason="mod">,</supplied> that I may daily die to sin <w norm="and">&amp;</w> live<lb/>
+                 time for man once to die</quote><pc norm="?">.</pc> <quote xml:id="q-801" type="allusion" source="#_1Peter_2:24">Oh<supplied reason="mod">,</supplied> that I may daily die to sin <w norm="and">&amp;</w> live<lb/>
                  in <w norm="righteousness">righteousnesse</w></quote> with God in <w norm="soul">Soule</w> <w norm="and">&amp;</w> <choice><sic>Siritt</sic><corr>spirit</corr></choice><supplied reason="mod">,</supplied> loving him with <lb/>
                 all my <w norm="soul">soule</w>. <quote xml:id="q-802" type="paraphrase" source="#_Psalms_46:10">I must be still<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> know that it is God</quote> that <w type="archaism">ruleth</w> <lb/>
                 in <w norm="heaven" type="l">Heaven</w> <w norm="and">&amp;</w> <w norm="earth" type="l">Earth</w>. <quote xml:id="q-803" type="phrase" source="#_Exodus_15:3 #_Amos_5:8 #_Amos_9:6">The Lord is his <w norm="name" type="l">Name</w></quote><pc norm=",">.</pc> <w norm="and">&amp;</w> his mercy <lb/>
@@ -12742,7 +12727,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  in him</quote><pc norm="?">,</pc> <w norm="And">&amp;</w><supplied reason="mod">,</supplied> by the <w norm="merits">miritts</w> of his redeemer<supplied reason="mod">,</supplied> he now <w norm="enjoys">injoyes</w> the<lb/>
                  <term n="965" xml:id="b1p267t07" ref="gloss:b1p267t07"><w norm="incomprehensible">incomprehensable</w></term> <w norm="joys">Joyes</w> of the great God of <w norm="heaven" type="l">Heaven</w><pc norm=",">.</pc> <quote xml:id="q-812" type="paraphrase" source="#_Revelation_21:4">where all<lb/>
                  <w norm="tears">Teares</w> is wiped off from his eyes<pc norm=",">.</pc> all <w norm="sorrows">sorrowes</w> is departed from<lb/>
-                     him</quote><pc norm=",">.</pc> <quote xml:id="q-811" type="allusion" source="#_Romans_7:24"><w norm="and">&amp;</w> he is delivered from this <w norm="body">Bodie</w> of <w norm="death" type="l">Death</w></quote><!-- Q ST nested quote tags --><pc norm="?">.</pc></p>
+                     him</quote><pc norm=",">.</pc> <quote xml:id="q-811" type="allusion" source="#_Romans_7:24"><w norm="and">&amp;</w> he is delivered from this <w norm="body">Bodie</w> of <w norm="death" type="l">Death</w></quote><pc norm="?">.</pc></p>
             <p xml:id="p-0746"><w norm="O">Oh</w><supplied reason="mod">,</supplied> my <w norm="soul">Soule</w><supplied reason="mod">,</supplied> let his <w norm="happiness">hapinesse</w> <w norm="mitigate">mittigate</w> thy <w norm="sorrows">sorrowes</w> in his loss<supplied reason="mod">:</supplied><lb/>
             
 
@@ -12868,7 +12853,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  <w norm="earth" type="l">Earth</w><pc norm=";">.</pc> <quote xml:id="q-842" type="allusion" source="#_Genesis_2:7">that <w type="archaism">puttest</w> breath in our <w norm="nostrils">Nostrills</w></quote>, <w norm="and">&amp;</w> saith unto<lb/>
                  man, <quote xml:id="q-843" type="allusion" source="#_Job_10:9 #_Ecclesiastes_3:20 #BCP_Other_proceedings-497"><w norm="return">returne</w> <w norm="again">againe</w> into thy dust <w norm="again">againe</w></quote>. <quote xml:id="q-844" type="allusion" source="#_Genesis_18:27">What am I<supplied reason="mod"> —</supplied><lb/>
                 a <w norm="vile">vilde</w> creature<pc norm=",">.</pc> <w norm="sinful">sinfull</w> dust <w norm="and">&amp;</w> <w norm="ashes" type="l">Ashes</w><pc norm=" —">.</pc> that I should take<lb/>
-                 upon me to <w norm="speak">speake</w> unto thee<!-- Q ST nested quote tags --></quote>, which am not worthy to live<lb/>
+                 upon me to <w norm="speak">speake</w> unto thee</quote>, which am not worthy to live<lb/>
                  or have my life given me<surplus reason="superfluous">,</surplus> as at this day<pc norm="?">.</pc> Thou<supplied reason="mod">,</supplied> O Lord<supplied reason="mod">,</supplied><lb/>
                  art <w norm="sufficiently" type="l">Sufficiently</w> <w norm="glorious" type="l">Glorious</w> in <w norm="thyself">thy Selfe</w>, <quote xml:id="q-846" type="allusion" source="#_Exodus_15:11"><w norm="fearful">fearefull</w> in thy <w norm="attributes" type="l">Attri<lb break="no"/>
                  butes</w></quote><surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w><surplus reason="superfluous">,</surplus> <w norm="essence" type="l">Essence</w> without any <w norm="addition">addittion</w> of us <w norm="mortals">mortalls</w>.<lb/>
@@ -12881,14 +12866,14 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                      worthy</w> in <w norm="themselves">their selvs</w>, as of <w norm="polluted">poluted</w> <w norm="and">&amp;</w> defiled lips, not da<pc>-</pc><lb break="no"/>
                 <pc>-</pc>ring to presume <quote xml:id="q-848" type="phrase" source="#KJV_Daniel_9:4">into thy most <w norm="dreadful">Dreadfull</w> <w norm="presence" type="l">Presence</w></quote>; <quote xml:id="q-849" type="paraphrase" source="#BCP_Psalter_Psalm130:4">for<supplied reason="mod">,</supplied> if thou<supplied reason="mod">,</supplied><lb/>
                 O Lord<supplied reason="mod">,</supplied> should <w norm="but">butt</w> <w norm="mark">marke</w> what is <w norm="done">don</w> <w norm="amiss">amisse</w>, <w norm="alas">Allas</w><supplied reason="mod">,</supplied><lb/>
-                    <w norm="O" type="u">o</w> Lord<supplied reason="mod">,</supplied> who is able to abide it<!-- Q ST nested quote tags --></quote><pc norm="?">.</pc> Therefore<supplied reason="mod">,</supplied> <w norm="O" type="u">o</w> grand <w norm="sovereign">Soveraine</w><lb/>
+                    <w norm="O" type="u">o</w> Lord<supplied reason="mod">,</supplied> who is able to abide it</quote><pc norm="?">.</pc> Therefore<supplied reason="mod">,</supplied> <w norm="O" type="u">o</w> grand <w norm="sovereign">Soveraine</w><lb/>
                 of our <w norm="souls">Soules</w><supplied reason="mod">,</supplied> <quote xml:id="q-851" type="paraphrase" source="#_Psalms_143:2 #_Romans_3:20">enter not into <w norm="judgement" type="l">Judgement</w> with thy servant<supplied reason="mod">,</supplied> O<lb/>
                 Lord<supplied reason="mod">,</supplied> for <w norm="no">noe</w> flesh is righteous in thy <w norm="sight" type="l">Sight</w></quote>.</p>
             <p xml:id="p-0754">But thou <w type="archaism">hast</w> <w norm="appointed">apointed</w> thy <w norm="son" type="l">Son</w><supplied reason="mod">,</supplied> <quote xml:id="q-852" type="paraphrase" source="#KJV_1John_2:1-2">Jesus Christ<supplied reason="mod">,</supplied> the <w norm="righteous" type="l">Righteous</w><supplied reason="mod">,</supplied><lb/>
                 to be a <term n="972" xml:id="b1p270t01" ref="gloss:b1p270t01">propitiation</term> for our sins</quote> <quote xml:id="q-853" type="paraphrase" source="#_Matthew_3:17">in whom thou art well pleased</quote><supplied reason="mod">;</supplied><lb/>
                  <w norm="in" type="l">In</w> <add place="above"><w norm="whose">whos</w></add>
                 
-                    <!-- [endnote] [insertion] Insertion in a different ink? As was 'butt'?  -->
+                    <!-- NOTE Insertion possibly in a different ink.  -->
                 most holy <w norm="and">&amp;</w> prevailing name<surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> <w norm="merits">mirritts</w><supplied reason="mod">,</supplied> I <w norm="humbly">humblie</w> <w norm="address">addres</w><lb/>
                 these <w norm="weak">weake</w><surplus reason="superfluous">.</surplus> <w norm="and">&amp;</w> imperfect requests<pc norm=",">.</pc> beseeching thee<supplied reason="mod">,</supplied> in him<supplied reason="mod">,</supplied> to<lb/>
                  accept my <w norm="person" type="l">Person</w> <w norm="and">&amp;</w> <w norm="prayers">praiers</w>, <quote xml:id="q-854" type="allusion" source="#_1Peter_1:19 #BCP_Other_prayer-015"><w norm="purifying">purefieing</w> both<surplus reason="superfluous">,</surplus> by his <w norm="precious" type="l">Precious</w><lb/>
@@ -13161,7 +13146,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  <w norm="lantern">Lanthorne</w> to my paths, <w norm="and">&amp;</w> a light unto my <w norm="ways">waies</w></quote><lb/>
                  that I tread not the <quote xml:id="q-896" type="paraphrase" source="#_Proverbs_5:5"><w norm="step">stept</w> of <w norm="death" type="l">Death</w></quote>. <quote xml:id="q-898" type="paraphrase" source="#_Psalms_88:4-6">Neither let me <w norm="go">goe</w> down<lb/>
                  into the <w norm="dark">darke</w>, nor my life into the place where all things<lb/>
-                     are forgotten</quote><!-- Q ST nested quote tags -->. Though thou <w type="archaism">hast</w> pleased to afflict me <del rend="strikethrough">soe</del><lb/>
+                     are forgotten</quote>. Though thou <w type="archaism">hast</w> pleased to afflict me <del rend="strikethrough">soe</del><lb/>
                  sore in the <w norm="loss">losse</w> of <persName ref="ppl:wt1">my <w norm="dear">deare</w> husband</persName> <w norm="and">&amp;</w> the comforts I <w norm="enjoyed">in<lb break="no"/>
                  joyed</w> in him<supplied reason="mod">;</supplied> yet let me plead thy gracious promise<surplus reason="superfluous">.</surplus><lb/>
                  <w norm="and">&amp;</w> be thou the husband to the <w norm="widow">widdow</w><supplied reason="mod">,</supplied> <w norm="and">&amp;</w> <quote xml:id="q-899" type="phrase" source="#_Psalms_68:5">a <w norm="father" type="l">Father</w> to the<lb/>
@@ -13325,8 +13310,8 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             <p xml:id="p-0780"> <quote xml:id="q-940" type="phrase" source="#_Romans_1:17 #_Galatians_3:11 #_Hebrews_10:38">The <w norm="just" type="l">Just</w> shall live by faith</quote>. <milestone unit="marker" rend="delim(diagonal2)"/></p>
             <p xml:id="p-0781"><persName ref="ppl:wt1" n="per1299">Mr <w norm="Thornton's">Thorntons</w></persName> <term n="997" xml:id="b1p279t01" ref="gloss:b1p279t01">motto</term> <w norm="and">&amp;</w> my <w norm="own">owne</w>.</p>
             <p xml:id="p-0782">
-           <!-- Q [curlybraces] 
-               this is a problem...
+           <!-- Q [curlybraces] REVIEW?
+               this is a problem... I'm not sure it can be fixed.
                [review]? I've slightly changed the order of the text as transcribed 
            -->
         <!-- NOTE the three <seg>s are arranged horizontally across the page.  -->
@@ -13413,7 +13398,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
         <div xml:id="div-129" type="prayer" rend="pre(rule)">
             
             <p xml:id="p-0784"> <quote xml:id="q-943" type="partial" source="#GB_Hosea_13:14">O <w norm="death" type="l">Death</w><supplied reason="mod">,</supplied> I will be thy <w norm="death" type="l">Death</w>. O <w norm="grave" type="l">Grave</w><supplied reason="mod">,</supplied> I will be thy<lb/>
-                <w norm="victory" type="l">Victory</w></quote><!-- Q ST nested quote tags -->. <w norm="Thanks" type="u">thanks</w> be to God<pc norm=",">:</pc> through our Lord Jesus Christ.</p>
+                <w norm="victory" type="l">Victory</w></quote>. <w norm="Thanks" type="u">thanks</w> be to God<pc norm=",">:</pc> through our Lord Jesus Christ.</p>
         </div>
 
             <pb xml:id="page-281" n="281"/>
@@ -13424,7 +13409,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                 <fw type="pageNum">282</fw>
         <div xml:id="div-130" type="poetry" subtype="sonnet">
             <head place="centre" rend="post(rule)">An <w norm="Inducement" type="u">inducement</w> to Love Heaven<anchor n="416" corresp="#p281n01" resp="ednote"/> <milestone unit="marker" rend="delim(diagonal2)"/></head>
-            <!-- TEST lg removed divs, but what about ruled lines? -->
+            <!-- Q layout on page is !!!! has it been reported to KDL? not entirely sure why it's happened. lg removed divs, but what about ruled lines? -->
             <lg type="octave">
             <l n="1">Leave me<supplied reason="mod">,</supplied> <w norm="O" type="u">o</w> love, which <w norm="reachest" type="l">Reachest</w> but to dust<pc norm=",">.</pc></l>
             <l n="2">And thou my <w norm="mind">minde</w> aspire to higher things<supplied reason="mod">.</supplied></l>
@@ -13530,7 +13515,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
         <div xml:id="div-134" type="poetry">
             
             <head place="centre" rend="pre(rule_pattern) post(rule)">
-                <!-- [endnote] [decoration] Patterned border. -->
+                <!-- NOTE Patterned border. -->
                 My <w norm="Faithful">faithfull</w> <w norm="Soul's">Soules</w> <w norm="Wish" type="u">wish</w><surplus reason="superfluous">.</surplus><anchor n="419" corresp="#p283n01" resp="ednote"/>
             </head>
             
@@ -13593,7 +13578,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
       </div>
        <div xml:id="div-135" type="poetry">
            <head place="centre" rend="pre(rule_pattern) post(rule)">
-               <!-- [endnote] [decoration] Patterned border. -->
+               <!-- NOTE Patterned border. -->
             
                <w norm="Upon">Uppon</w> Rash Censorers<anchor n="425" corresp="#p284n01" resp="ednote"/>
            </head>
@@ -13644,8 +13629,8 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
           At <placeName ref="place:Kirk_131" n="place390">Kirklington</placeName> <date when-custom="1629">1629</date><supplied reason="mod">.</supplied> <milestone unit="marker" rend="delim(diagonal)"/>
        </add><lb/>
             <metamark xml:id="mm-001" corresp="#mm-002"><g ref="#fancydagger">[+]</g></metamark><anchor n="426" corresp="#p285n01" resp="ednote"/>
-      <!-- Q [tei] this will need checking
-            matches the marginal symbol on p.8 - looks like it is intended to link them together. look up scribal stuff! -->
+      <!-- Q the dagger symbol - anything better than [+] in unicode? 
+          NOTE the dagger matches the marginal symbol on p.8, linked with corresp. -->
         <w norm="Upon">Uppon</w> <w norm="My" type="u">my</w> <w norm="Deliverance" type="u">deliverance</w> from <w norm="Death" type="u">death</w> by a <w norm="Fall" type="u">fall</w><pc norm=",">.</pc><lb/>
         
         when I was <w norm="Three">3</w> <w norm="Years" type="u">years</w> <w norm="Old" type="u">old</w><surplus reason="superfluous">.</surplus> <milestone unit="marker" rend="delim(diagonal2)"/> <lb/>   
@@ -13865,8 +13850,6 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
             <p xml:id="p-0794"> <w norm="But">Butt </w> <w norm="at">att</w> this time<supplied reason="mod">,</supplied> very unfortunately<supplied reason="mod">,</supplied> some of the<lb/>
                  young <w norm="ladies" type="l">Ladies</w> bid one of the <w norm="pages" type="l">Pages</w> <surplus reason="superfluous">(</surplus><w norm="called">Calld</w> <persName ref="ppl:ddl1" n="per1322"><w norm="Don" type="u">don</w> de Lan</persName><surplus reason="superfluous">.)</surplus><lb/>
                 <supplied reason="mod">(</supplied>a <w norm="French" type="u">french</w> boy<supplied reason="mod">)</supplied> <w norm="that" type="l">That</w> he should swing me<supplied reason="mod">,</supplied> being strong<supplied reason="omitted">er</supplied>
-                    <!-- Q sic or supplied? [endnote] I.e., strong[er]-->
-                
                 <lb/>
                 <w norm="than">then</w> they <w norm="and">&amp;</w> they weary with <w norm="play" type="l">Play</w>. <w norm="But" type="u">Butt</w> <add place="above">I</add> <w norm="cried">cryed</w> out<supplied reason="mod">,</supplied><lb/>
                 desiring them not to bid him<supplied reason="mod">,</supplied> but could <add place="above">not</add> <w norm="get">gett</w> off <w norm="so">soe</w><lb/>
@@ -14015,9 +13998,8 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
              
              it was <w norm="Found" type="u">found</w> out <w norm="and">&amp;</w> <w norm="Our" type="u">our</w> <w norm="Destruction">destruction</w><lb/>
                 thereby Prevented<surplus reason="superfluous">.</surplus>
-                
-         <!-- [endnote] [insertion] This insertion is in a darker ink than the rest of the text and is boxed in. NB. Entry NOT included in Anselment??-->
-        <!-- NOTE date is set in a box lower left corner of the titles, looks like a later insertion -->
+
+        <!-- NOTE date is set in a box lower left corner of the titles, darker ink, boxed, a later insertion? -->
                 <note place="left" resp="#awt1">
                 Date<supplied reason="mod">:</supplied> <date when-custom="1640-10-02"><choice><abbr>Octo</abbr><expan>October</expan></choice> 2<supplied reason="mod">,</supplied><lb/>
                     1640<supplied reason="mod">.</supplied></date> 
@@ -14070,7 +14052,6 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  over the <w norm="Poor">Poore</w> Country in <w norm="Their">there</w> <w norm="Madness">madnes</w> against<lb/>
                 <w norm="Us" type="u">us</w> when I was <w norm="at">att</w> <placeName ref="place:Hips_022" n="place403">Hipswell</placeName> with <w norm="My" type="u">my</w> <rs ref="ppl:aow1" n="per1339" type="person"><w norm="Dear">deare</w> <w norm="Mother">mothr</w></rs><lb/>
                 in <date when-custom="1643/1644">1643, 1644</date><supplied reason="mod">,</supplied> <choice><abbr>&amp;</abbr><expan rend="italic">et cetera</expan></choice>
-            <!-- [endnote] [decoration] Line not straight. -->
             </head>
           <p xml:id="p-0804">
     <milestone spanTo="#ev223-end" xml:id="ev223-start" n="ev223" unit="event"/> 
@@ -14092,7 +14073,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                  <w norm="possibly">Posibly</w> excuse <w norm="herself">her selfe</w> <w norm="totally" type="l">Totally</w> from their men <w norm="and">&amp;</w> horses<pc norm=",">.</pc><lb/>
                 <w norm="though">Tho</w> she paid <w norm="double-pay">duble Pay</w> <supplied reason="mod">(</supplied><w norm="and">&amp;</w> was at <choice><abbr>01-6</abbr><expan>1s. 6d.</expan></choice><!-- NOTE money unusual small amount. abbr/expan seems appropriate. --> a p<ex>ar</ex>t<supplied reason="mod">,</supplied>
                  where<lb/>
-                <w norm="others">othrs</w> at <gap xml:id="ex-gap-char-03" reason="deleted" quantity="2" unit="char"/> <w norm="9s">09.</w><!-- Q should this be written as words. there are so few shillings/pence sums it's not worth doing measure. --> only in a month<supplied reason="mod">)</supplied>.<anchor n="440" corresp="#p293n02" resp="ednote"/></p>
+                <w norm="others">othrs</w> at <gap xml:id="ex-gap-char-03" reason="deleted" quantity="2" unit="char"/> <w norm="9s">09.</w><!-- Q should this be written as words. --> only in a month<supplied reason="mod">)</supplied>.<anchor n="440" corresp="#p293n02" resp="ednote"/></p>
             <p xml:id="p-0806"> She kept <w norm="off">of</w> <rs type="person">the <w norm="quartering">quarting</w> <w norm="captain">Captane</w></rs> <w norm="and">&amp;</w> commanders<lb/>
                  <w norm="and">&amp;</w> would <w norm="never">nevr</w> <w norm="yield">yeald</w> to have them.<anchor xml:id="ev225-end" n="ev225" type="event"/> 
                 <milestone spanTo="#ev226-end" xml:id="ev226-start" n="ev226" unit="event"/><w norm="At">Att</w> length there<lb/>
@@ -14124,7 +14105,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                 <w norm="and">&amp;</w> <persName ref="ppl:ra1" n="per1351">Lord of <w norm="Adair">Adare</w></persName> <w norm="should">shuld</w> come to <w norm="speak">speake</w> for him.<anchor n="441" corresp="#p294n01" resp="ednote"/> She said<supplied reason="mod">,</supplied> it<lb/>
                 was all in <w norm="vain">veine</w><supplied reason="mod">:</supplied> <w norm="he" type="l">He</w> must not presume to <w norm="look">looke</w> that way<lb/>
                 for I was not to be <w norm="obtained">obtnd</w><pc norm=",">.</pc> <w norm="and" type="l">And</w> she was sure he might<lb/>
-                 not have any <choice><sic>incoragnt</sic><corr>encouragement</corr></choice> for I was <w norm="resolved">resold</w> <!-- Q sic for 'resolved'-->not to <w norm="marry">mary</w>.<lb/>
+                 not have any <choice><sic>incoragnt</sic><corr>encouragement</corr></choice> for I was <choice><sic>resold</sic><corr>resolved</corr></choice> not to <w norm="marry">mary</w>.<lb/>
                  <w norm="And">&amp;</w> put him <w norm="off">of</w> the best she could<pc norm=",">.</pc> but <w norm="writ">writt</w> me <w norm="private">privite</w><lb/>
                  word that <persName ref="ppl:ra1" n="per1352">my Lord of <w norm="Adair">Adare</w></persName> <w norm="and">&amp;</w> he would come to <w norm="speak">speake</w><lb/>
                 to me<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> <rs ref="ppl:aow1" n="per1353" type="person">my mother</rs> about it<surplus reason="superfluous">,</surplus> <w norm="and">&amp;</w> willed me to <w norm="get">gett</w> out of<lb/>
@@ -14388,7 +14369,7 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                
             -->
 
-            <!-- testing: this will probably move Page down a line, but should align right. -->
+            <!-- NOTE "Page" is level with "The Index of this booke". -->
             <list type="index">
             <fw type="header" rend="post(rule)">The Index of <w norm="This" type="u">this</w> <w norm="Book">booke</w> 
             </fw>
@@ -14926,11 +14907,15 @@ In the vacancy of a wise <w norm="and">&amp;</w> prudent <w norm="governor">Gove
                 <w norm="Upon">Uppon</w> the <w norm="Reconciling">reconsiling</w> of <w norm="My" type="u">my</w> <w norm="Two" type="u">two</w> Brothers<supplied reason="mod">,</supplied><lb/>
                  <persName ref="ppl:gw1" n="per1392">George</persName> <w norm="and">&amp;</w> <persName ref="ppl:cw2" n="per1393">Christopher Wandesford</persName><pc norm=",">.</pc> <date when-custom="1651-03-29">March 
             <seg>
-                <!-- Q CHECK RENDERING dropped rend=keeptogether. -->
-              <subst><del rend="strikethrough">2</del><add place="above">2</add></subst>9<anchor n="459" corresp="#p306n01" resp="ednote"/>
+                <!-- Q ugh. CHECK RENDERING. that's fine... the transcription/tagging is not. 
+                "Further examination suggests she recorrected herself". yes but not in the <add> that has to be a 1. 
+                so then how to make it read 2 in the modernisation? and be consistent with the note
+                -can do sic/corr inside the add (idk how rendering will work) but that's conceptually wrong too if she wanted to re-correct the 2. 
+                -->
+              <subst><del rend="strikethrough">2</del><add place="above"><choice><sic>1</sic><corr>2</corr></choice></add></subst>9<anchor n="459" corresp="#p306n01" resp="ednote"/>
             </seg>     
                 <!-- NOTE <seg> to make it clear 19 is a single entity, as I can't put the unchanged 9 inside subst. 
-                    Further examination suggests she recorrected herself -->
+                    -->
            <lb/>
                      <supplied reason="mod">(</supplied>on Easter Eve</date><supplied reason="mod">,</supplied> <surplus reason="superfluous">-</surplus> before <persName ref="ppl:gw1" n="per1394"><w norm="My" type="u">my</w> <choice><abbr>bro. G</abbr><expan><w norm="brother" type="l">Brother</w> George</expan></choice></persName> was <w norm="Lost" type="u">lost</w><supplied reason="mod">,</supplied><lb/>
            <!-- NOTE [decoration] year inset into ruled line and centred. *just* below 'on Easter Eve...' line. -->
