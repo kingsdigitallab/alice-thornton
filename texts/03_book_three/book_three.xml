@@ -12571,8 +12571,10 @@ had settled for my use and my <w norm="children" type="l">Children</w><surplus r
             <lb/>
              in his time to be <w norm="delivered">delivred</w> from them my bitter <w norm="enemies" type="tolower">Enymys</w></quote><supplied reason="mod">.</supplied> 
          </p>
-           <!-- Q it can't in this case because it's not the final item in the list. hmm. 
-             This is another example of where the list can be ended.  -->
+         </item>
+           <!-- NOTE list doesn't actually end here but break for para desired.  -->
+</list>
+           
          <p xml:id="p-1015" rend="first-line-indent">
             And<supplied reason="mod">,</supplied> if our <w norm="dear">deare</w> <w norm="saviour" type="l">Saviour</w> is pleased to say in his <w norm="gospel" type="tolower">Gospll</w><lb/>
           <quote xml:id="q-478" type="allusion" source="#_Matthew_10:42">that those which gives but a cup of <w norm="cold" type="l">Cold</w> water in the name of<lb/>
@@ -12585,8 +12587,8 @@ had settled for my use and my <w norm="children" type="l">Children</w><surplus r
                <!-- [sic] Sic for 'given'. -->
              me the grace to suffer with him<surplus reason="superfluous">.</surplus><lb/>
           and for the true <w norm="profession" type="tolower">Proffession</w> of his name and faith.</p>
-         </item>
-
+     
+      <list type="mixed">
          <item>
             <label>11.</label>
            <p>
@@ -12808,10 +12810,11 @@ had settled for my use and my <w norm="children" type="l">Children</w><surplus r
       <label>23.</label>
       <p xml:id="p-1018a">
          <milestone n="lev39" unit="letter"/>
-           <fw xml:id="mnote-0155" place="left margin">
+        <!-- Q TEST hiding date; change fw to note, see if that solves the problem. -->
+           <note xml:id="mnote-0155" place="left margin">
             <date when-custom="1667-05-25">May<lb/>
             25 67</date>.<lb/>
-          </fw>
+          </note>
               <persName ref="ppl:tc1" n="per1837">Mr <w norm="Comber's">Combers</w></persName> first letter<anchor n="561" corresp="#p190n04" resp="ednote"/> to <placeName ref="place:York_060" n="place272"><w norm="York">yorke</w></placeName> to <persName ref="ppl:atc1" n="per1838">my daughter<lb/>
                 <!-- NOTE [margin] actual position of "23" --> Alice</persName><supplied reason="mod">,</supplied> when she went to <w norm="learn" type="tolower">Learne</w> <term n="835" xml:id="b3p190t02" ref="gloss:b3p190t02"><w norm="qualities" type="tolower">Quallityes</w></term> with <persName ref="ppl:ktp1" n="per1839">Kate<supplied reason="mod">,</supplied> her <w norm="sister">sistr</w></persName><supplied reason="mod">,</supplied><lb/>
           and <persName ref="ppl:ha1" n="per1840">my <w norm="maid">made</w> <w norm="Hannah" type="u">hannah</w></persName> to <w norm="wait">waite</w> on them.</p>
@@ -14125,7 +14128,7 @@ I began <w norm="upon">uppon</w> your <w norm="advice">advise</w> <w norm="and">
            uncle <persName ref="ppl:mn1" n="per2090"><w norm="Maulger">major</w> <w norm="Norton" type="u">norton</w></persName> of the marriage of <persName ref="ppl:atc1" n="per2091">my <w norm="daughter" type="l">Daughter</w><supplied reason="mod">,</supplied> Alice</persName><supplied reason="mod">,</supplied> <w norm="and">&amp;</w><lb/>
            of <w norm="all" type="l">All</w> the <w norm="concerns">consernes</w> of that <w norm="affair" type="tolower">Affaire</w><supplied reason="mod">,</supplied> <w norm="so" type="tolower">Soe</w> they were all very well<lb/>
           <w norm="pleased" type="l">Pleased</w> with it and prayed God to <w norm="bless">blesse</w> them <w norm="and">&amp;</w> wished them<lb/>
-           good <w norm="luck" type="tolower">Lucke</w> of <w norm="their">theire</w> marriage. <w norm="But" type="u">but</w> <persName ref="ppl:mn1" n="per2092">Mr <w norm="Norton" type="u">norton</w></persName><!-- Q Uncle or Anthony? --> asked<supplied reason="mod">,</supplied> why<lb/>
+           good <w norm="luck" type="tolower">Lucke</w> of <w norm="their">theire</w> marriage. <w norm="But" type="u">but</w> <persName ref="ppl:mn1" n="per2092">Mr <w norm="Norton" type="u">norton</w></persName> asked<supplied reason="mod">,</supplied> why<lb/>
            did they not <w norm="lie">lye</w> together<pc norm=";">.</pc> on which<supplied reason="mod">,</supplied> <persName ref="ppl:dcl1" n="per2093"><w norm="Daphne">Dafeny</w></persName> said that it was<lb/>
           by <w norm="general">generall</w> consent agreed on<surplus reason="superfluous">.</surplus><anchor n="600" corresp="#p207n02" resp="ednote"/> <w norm="that" type="l">That</w> it was more <w norm="convenient">convnient</w><lb/>
           to <w norm="defer">deferre</w> that <w norm="until">till</w> the <w norm="publication" type="l">Publication</w> of the marriage when<lb/>
@@ -14482,7 +14485,7 @@ I began <w norm="upon">uppon</w> your <w norm="advice">advise</w> <w norm="and">
            And<supplied reason="mod">,</supplied> it seemed<supplied reason="mod">,</supplied> <persName ref="ppl:wt1" n="per2171">Mr Thornton</persName> had <w norm="been">bin</w> <w norm="told">tould</w> by my <persName ref="ppl:mny1" n="per2172">Lady <w norm="Yorke" type="u">york</w></persName><lb/>
           that he
            <add place="left margin"><supplied reason="mod">(</supplied><persName ref="ppl:xt8" n="per2173">Mr <w norm="Tancred">Tankerd</w></persName><supplied reason="mod">)</supplied></add>
-                 <!-- Q [margin] [review] ["Mr Tankard" is in left margin *not* above line - but caret between "that" and "he" indicates word is meant to go here - although "he" then doesn't quite make sense either!] check -->
+                 <!-- Q CHECK [margin] [review] ["Mr Tankard" is in left margin *not* above line - but caret between "that" and "he" indicates word is meant to go here - although "he" then doesn't quite make sense either!] check -->
            would lay a <w norm="guinea">guiney</w> <w norm="that" type="l">That</w><supplied reason="mod">,</supplied> if <persName ref="ppl:wt1" n="per2174">Mr Thornton</persName> were dead<supplied reason="mod">,</supplied><lb/>
           I would be married <w norm="within">with in</w> a month to this <persName ref="ppl:tc1" n="per2175">Mr <w norm="Comber">Combr</w></persName>, which <rs ref="ppl:wt1" n="per2176" type="person">my <w norm="dear">deare</w><lb/>
           husband</rs> did <term n="937" xml:id="b3p212t01" ref="gloss:b3p212t01">take <w norm="so">soe</w> <w norm="heinously">hainously</w></term> <w norm="that" type="l">That</w> he <w norm="told">tould</w> <persName ref="ppl:awn1" n="per2177">Mrs <w norm="Norton" type="u">norton</w></persName> he<lb/>
@@ -14521,7 +14524,7 @@ I began <w norm="upon">uppon</w> your <w norm="advice">advise</w> <w norm="and">
            <w norm="condition">condittion</w><supplied reason="mod">,</supplied> and she did vindicate me from a <w norm="child" type="tolower">Childe</w> <w norm="and">&amp;</w> of my<lb/>
           <w norm="innocency" type="l">Innocency</w> from those <w norm="abuses">abuces</w><pc norm=";">,</pc> for she did resent my <w norm="case" type="l">Case</w> as it<lb/>
            were her <w norm="own">owne</w> as long as she <w norm="lived">livd</w><supplied reason="mod">,</supplied> and thanked God that she had<lb/>
-           sent for <persName ref="ppl:dcl1" n="per2186"><w norm="Daphne">Dafeny</w></persName> to tell her what she heard <w norm="that" type="l">That</w><supplied reason="mod">,</supplied> <persName ref="ppl:xw5">my <supplied reason="omitted">Lady</supplied></persName><!-- [endnote] Missing ‘lady’? -->
+           sent for <persName ref="ppl:dcl1" n="per2186"><w norm="Daphne">Dafeny</w></persName> to tell her what she heard <w norm="that" type="l">That</w><supplied reason="mod">,</supplied> <persName ref="ppl:xw5">my <supplied reason="omitted">Lady</supplied></persName>
            said<supplied reason="mod">,</supplied> she might<lb/>
            <w norm="do">doe</w> me that right and <w norm="show">shew</w> my cause to all her <w norm="friends">freinds</w> at <placeName ref="place:Horn_106" n="place313">Hornby</placeName><supplied reason="mod">,</supplied><lb/>
            and to <persName ref="ppl:xd7" n="per2187">my Lady Dalton</persName> <w norm="and">&amp;</w> all others where I was abused<supplied reason="mod">,</supplied> for it<surplus reason="superfluous">.</surplus><lb/>
