@@ -62,6 +62,11 @@
   <xsl:template match="span[@data-tei='surplus']">
   </xsl:template>
 
+  <xsl:template match="span[@data-tei='measure'][@data-tei-type='currency'][@data-tei-quantity]">
+  </xsl:template>
+  <xsl:template match="span[@data-tei='measure'][@data-tei-type='currency']/span[@data-tei='am']">
+  </xsl:template>
+
   <!-- ="choice"><span class="tei-sic" data-tei="sic">Dept</span><span class="tei-corr" data-tei="corr">debt</span></ -->
   <xsl:template match="span[@data-tei='sic']">
   </xsl:template>
