@@ -16,6 +16,9 @@ Black diamonds highlight key political events or notable years in Alice Thornton
 
 Hovering over each year reveals more details about the events recorded for that year, including contextual information where available. Clicking on a year expands additional information, offering a deeper dive into the events and their significance.
 
+<hr>
+<em>Note: All elements below scale in response to the viewport so best viewed on a larger screen. </em>
+
 <div id="legend">
 <h3>Legend</h3>
 <div class="events">
@@ -23,6 +26,27 @@ Hovering over each year reveals more details about the events recorded for that 
 <ul>
 <li>Important</li>
 <li>Grouped types</li>
+</ul>
+</div>
+
+<div class="life-events">
+<h4>Life Events</h4>
+<ul>
+<li>Births</li>
+<li>Deaths</li>
+<li>Marriages</li>
+</ul>
+</div>
+
+<div class="initials">
+<h4>Initials</h4>
+<ul>
+<li>A: Alice</li>
+<li>AF: Alice's father</li>
+<li>AM: Alice's mother</li>
+<li>AH: Alice's husband</li>
+<li>1: Alice's 1st child</li>
+<li>9: Alice's 9th child</li>
 </ul>
 </div>
 
