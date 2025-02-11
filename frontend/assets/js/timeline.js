@@ -93,7 +93,7 @@ function renderHiddenRow(row, tbody, columnSpan) {
           if (key === "historicalEvents") {
             listItem.append("h4").text(d.title);
           } else {
-            listItem.append("span").text(d.title);
+            listItem.text(d.title);
           }
 
           // Image with alt text
