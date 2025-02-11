@@ -187,12 +187,12 @@ html {
       border-radius: 0 100% 100% 0;
       position: absolute;
       content: "";
-      height: calc(100% + 5.5vw);
+      height: calc(100% + 5.6vw);
       aspect-ratio: 1/1;
       padding: 0;
       right: 0;
       bottom: 0;
-      border: 0.5vw solid $taupe;
+      border: 0.4vw solid $taupe;
       transform: translate(50%, 0);
       border-left: 0;
       z-index: -1;
@@ -260,10 +260,10 @@ html {
         position: relative;
         //vertical-align: bottom;
         margin: 0 0 0;
-        border-bottom: 0.5vw solid $taupe;
+        border-bottom: 0.4vw solid $taupe;
         align-self: flex-end;
         &:hover {
-          border-bottom: 0.5vw solid darken($taupe, 20%);
+          border-bottom: 0.4vw solid darken($taupe, 20%);
           cursor: pointer;
           td {
             opacity: 1;
@@ -400,12 +400,12 @@ html {
             padding-bottom: calc(var(--event-value) / 1);
             margin-bottom: 0;
             border-radius: 50%;
-            opacity: 0.7;
+            opacity:1;
             aspect-ratio: 1/4;
             &:after {
               background-image: linear-gradient(
                 180deg,
-                rgba(128, 31, 0, 0.9),
+                rgba(128, 31, 0, 1),
                 rgba(128, 31, 0, 0.05)
               );
               padding-bottom: 500%;
@@ -501,7 +501,7 @@ html {
             margin-bottom: 0;
             vertical-align: bottom;
             position: absolute;
-            bottom: -2.5vw;
+            bottom: -2.3vw;
             left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(
@@ -546,14 +546,13 @@ html {
             ); /* amount across the X-axis to the left */
             &.present {
               background: transparent;
-              border-radius: 50%;
               z-index: 1;
-              border: 0.3vw double $secondary-dark;
-              /*background-image: radial-gradient(circle 2vw at 50% 100%, white 20%, white 35%); 
-              background-size: 100% 50%;
-              background-repeat: no-repeat;*/
-              width: 1.4vw;
-              height: 1.4vw;
+              border-radius: 50%;
+              background: radial-gradient(circle, rgb(255, 255, 255) 31%, rgba(255, 255, 255, 0.3) 33%, rgba(128, 31, 0, 0.6) 69%);
+                background-repeat: repeat;
+              background-repeat: no-repeat;
+              width: 2vw;
+              height: 2vw;
               bottom: 0;
               &:before {
                 width: 1vw;
@@ -562,8 +561,8 @@ html {
                 position: absolute;
                 font-size: 0.9vw;
                 text-align: center;
-                bottom: 0.5vw;
-                left: 0.2vw;
+                bottom: 0.8vw;
+                left: 0.5vw;
                 color: black;
               } //&:before
             } //.present
@@ -638,7 +637,7 @@ html {
       //curve for every even row
       position: absolute;
       content: "";
-      height: calc(100% + 5.5vw);
+      height: calc(100% + 5.6vw);
       aspect-ratio: 1/1;
       padding: 0;
       right: 0;
