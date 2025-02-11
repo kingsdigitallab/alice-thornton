@@ -564,32 +564,41 @@ function setUpTextViewer() {
         let entities = {};
         const parser = new DOMParser();
         const dom = parser.parseFromString(docStr, "text/html");
-        let infoBoxes = this._xpath(
+        let entityElements = this._xpath(
           dom,
           '//span[contains(@class, "is-person") or contains(@class, "is-place")]'
         );
-        for (let infoBox of infoBoxes) {
-          let ids = infoBox.attributes["data-tei-ref"];
+        for (let entityElement of entityElements) {
+          let ids = entityElement.attributes["data-tei-ref"];
           if (!ids) continue;
           for (let aid of ids.value.trim().split(/\\s+/)) {
             let indexEntry = this.entities[aid];
             if (!indexEntry) continue;
-            infoBox.removeChild(
-              this._xpath(
-                infoBox,
-                './/span[contains(@class, "info-box")]',
-                dom
-              )[0]
-            );
 
+            // remove info boxes
+            let infoBoxes = this._xpath(
+              entityElement,
+              './/span[contains(@class, "info-box") and not(contains(@class, "has-info-box"))]',
+              dom
+            );
+            for (let infoBox of infoBoxes) {
+              infoBox.remove();
+            }
+
+            // add entity to the drawer
             let entity = {
-              targets: [infoBox.innerHTML.trim()],
+              // the text as it appears in the edition.
+              // but we mute the distracting style of the potentially nested info-box.
+              // 1.239, last entry
+              targets: [entityElement.innerHTML.trim().replace("info-box", "")],
               index: indexEntry,
             };
 
-            // console.log(`[${infoBox.innerHTML.trim()}]`);
+            // console.log(`[${entityElement.innerHTML.trim()}]`);
             if (entities[aid]) {
-              entities[aid].targets.push(entity.targets[0]);
+              if (!entities[aid].targets.includes(entity.targets[0])) {
+                entities[aid].targets.push(entity.targets[0]);
+              }
             } else {
               entities[aid] = entity;
             }
