@@ -6,7 +6,6 @@
 //Import Colours
 @import "color-theme";
 
-
 :root {
   // maximum width of a label on the left of an item
   // See "1. letter" Book 3, p. 190, modern
@@ -102,7 +101,7 @@ section {
             color: $primary-dark;
             font-size: 9px;
             width: 100px;
-            text-align:left;
+            text-align: left;
             i {
               @include transition(all 300ms ease-in-out);
               font-size: 11px;
@@ -112,23 +111,23 @@ section {
             &:hover {
               i {
                 @include transform(scale(1.6));
-              }//i
-            }//&:hover
-          }//label
-          .dont-print{
-            margin-top:-23px;
-            label{
-              margin-top:-10px;
-            }//label
-            input{    
+              } //i
+            } //&:hover
+          } //label
+          .dont-print {
+            margin-top: -23px;
+            label {
+              margin-top: -10px;
+            } //label
+            input {
               border: 0;
               background: transparent;
               box-shadow: none;
-              margin-left:1px;
-              margin-top:-5px;
+              margin-left: 1px;
+              margin-top: -5px;
               color: black;
-            }//input
-          }//.dont-print
+            } //input
+          } //.dont-print
           &.bottom {
             bottom: 0;
             height: 60px;
@@ -1127,7 +1126,7 @@ $render-sic: false;
     *[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header):not(.info-box):not(.tei-label) {
       display: inline-block;
       position: absolute;
-      margin-left:-10vw;
+      margin-left: -10vw;
       width: 5em;
       text-indent: initial;
     }
@@ -1272,7 +1271,6 @@ $render-sic: false;
         }
       }
     }
-
   }
 
   &.view-semidip {
@@ -1287,8 +1285,11 @@ $render-sic: false;
     .tei-seg[data-tei-rend="braced(})"],
     .tei-list[data-tei-rend="braced(})"] {
       display: inline-block;
-      background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/icons/closing-curly-brace.svg) no-repeat right
-        center;
+      background: linear-gradient(
+          rgba(255, 255, 255, 0.6),
+          rgba(255, 255, 255, 0.6)
+        ),
+        url(../img/icons/closing-curly-brace.svg) no-repeat right center;
       background-size: 1.5em 100%;
       padding-right: 1.5em;
       width: 95%;
