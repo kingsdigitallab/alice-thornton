@@ -141,7 +141,7 @@ a key element of what makes Alice Thornton's Books *books*.
 
 [^5]: Laura Estill, 'Encoding the Edge: Manuscript Marginalia and the
     TEI', *Digital Literary Studies* 1, no. 1 (5 May 2016),
-    https://doi.org/10.18113/P8dls1159715.
+    https://journals.psu.edu/dls/article/view/59715 .
 
 [^6]: Christopher Ohge, *Publishing Scholarly Editions: Archives,
     Computing, and Experience* (Cambridge University Press, 2021),
