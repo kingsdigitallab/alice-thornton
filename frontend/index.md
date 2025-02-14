@@ -8,18 +8,18 @@ description: "This AHRC-funded research project will create an online digital ed
 ## Remembrances of a Woman's Life in the Seventeenth Century
 
 'Alice Thornton's Books' is a collaborative research project
-which will enhance understanding of the lives and works of early modern women.
+which aims to enhance understanding of the lives and works of early modern women.
 
 While by no means the only seventeenth-century woman to write her own life story,
 Thornton is unusual in having written four different versions of her autobiography.
-Collectively, her books offer an extraordinarily rich insight into gentry life
+Collectively, her Books offer an extraordinarily rich insight into gentry life
 in seventeenth-century Yorkshire, at a time of civil war and plague.
 
-This website will provide resources aimed at better understanding the life and
-work of Alice Thornton and, in due course, will host a fully searchable digital
-edition of all four of her autobiographical books.
+This website provides resources aimed at better understanding the life and
+work of Alice Thornton and hosts a fully searchable digital
+edition of all four of her autobiographical Books.
 
-You can now access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions, and our second release of the [search function](/entities/). Feedback is very welcome as we work towards our final release in February 2025; see the icon on the bottom right.
+You can currently access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions, and our second release of the [search function](/entities/). Feedback is very welcome as we work towards our final release in late February 2025; see the icon on the bottom right.
 
 {% comment %}
 <a class="button-hp" href="#who">
@@ -39,7 +39,7 @@ You can now access our [partial release](/books/viewer/?p0.vi=modern), in both s
 
 ![A church and leafy churchyard in sunshine]({{ "/assets/img/home/kirklington-church-st.jpg" | url }} "St Michael the Archangel's, Kirklington, where Alice was baptised. &copy; Suzanne Trill"){.media-left}
 
-Most of what we know about Alice Thornton (1626–1707) is drawn from the autobiographical books which she left to her eldest daughter in her will. She relates a veritable ‘riches to rags’ story, punctuated by many of what she presents as near-death experiences.
+Most of what we know about Alice Thornton (1626–1707) is drawn from the autobiographical Books which she left to her eldest daughter in her will. She relates a veritable ‘riches to rags’ story, punctuated by many of what she presents as near-death experiences.
 
 Born in Kirklington, Yorkshire on 13 February 1626, Alice spent her childhood years in relative comfort in Yorkshire, London and Dublin. She was the fifth child and youngest daughter of Christopher Wandesford (1592–1640) and his wife Alice Osborne (1593-1659). She later wrote that she had her first deliverance from death at age three at Kirklington Hall when she was following her nurse, Sarah, and tripped on a hearth stone and cut her head open.
 
@@ -53,7 +53,7 @@ When her oldest brother, George, drowned in the river Swale in 1651 – which Al
 
 ![A 15th-century stone manor house]({{ "/assets/img/home/Hipswell-Hall-st.jpg" | url }} "Hipswell Hall, where Alice lived with her mother <br> &copy; Suzanne Trill"){.media-left}
 
-Alice and William were married for seventeen years and during that time she gave birth to nine children. In her books, Alice vividly described the dangers of childbirth and poignantly recorded the deaths of six of her infant children. She charted the development of those who survived - Alice (Nally), Katherine and Robert - and continually thanked God for their miraculous deliverances from illnesses and accidents. Family finances were frequently precarious and William died in 1668 without a will and much in debt.
+Alice and William were married for seventeen years and during that time she gave birth to nine children. In her Books, Alice vividly described the dangers of childbirth and poignantly recorded the deaths of six of her infant children. She charted the development of those who survived - Alice (Nally), Katherine and Robert - and continually thanked God for their miraculous deliverances from illnesses and accidents. Family finances were frequently precarious and William died in 1668 without a will and much in debt.
 
 ![Memorial plaque with coat of arms for William Thornton Esquire]({{ "/assets/img/home/william-thornton-memorial-cb.jpg" | url }} "Memorial for William at Holy Trinity, Stonegrave commissioned by Alice Thornton<br> &copy; Cordelia Beattie"){.media-right}
 
@@ -61,4 +61,4 @@ Alice then spent her widowed years dealing with the ramifications of this while 
 
 Alice Thornton continued to live at East Newton Hall in Ryedale until her own death in 1707 but, after her son's death, the property was owned by her son-in-law, Thomas Comber, who provided her with an annual pension on which to live, then his widow, her oldest daughter.
 
-In her will, Alice Thornton made bequests to improve her local church, Holy Trinity, Stonegrave, which her estate could not afford; so, perhaps her most important gift was that of her own writings, which stayed in Comber family hands for hundreds of years before their eventual acquisition by the British Library and Durham Cathedral.
+In her will, Alice Thornton made bequests to improve her local church, Holy Trinity, Stonegrave, which her estate could not afford; so, perhaps her most important gift was that of her own Books, which stayed in Comber family hands for hundreds of years before their eventual acquisition by the British Library and Durham Cathedral.

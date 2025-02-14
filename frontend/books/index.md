@@ -7,13 +7,9 @@ eleventyNavigation:
 
 ## Digital Edition
 
-Over the course of the project (2021-25), this project will publish an interactive and fully searchable digital edition of Alice Thornton’s autobiographical Books which will be freely accessible here.
+This project (2021-25) has resulted in an an interactive and fully searchable digital edition of Alice Thornton’s autobiographical Books, freely accessible here.
 
-TESTTEST
-
-TEST
-
-The text of all four manuscripts will be available to read in both fully modernised and semi-diplomatic versions, either separately or side-by-side. As we are using the widely recognised Text Encoding Initiative (TEI) markup schema, the edition will be fully searchable (for example, users will be able to trace people, places and events across all four Books).
+The text of all four manuscripts are available to read in both fully modernised and semi-diplomatic versions, either separately or side-by-side. As we are using the widely recognised Text Encoding Initiative (TEI) markup schema, the edition is fully searchable (for example, users can trace people, places and events across all four Books).
 
 <div class="bookshelf">
   {%- assign books = collections.books | sort:"data.bookOrder" -%}
@@ -39,11 +35,11 @@ The text of all four manuscripts will be available to read in both fully moderni
   {%- endfor -%}
 </div>
 
-Although we are not digitising the manuscripts, we will provide some sample images from each of them to offer a sense of how the original materials look.
+Although we have not digitised the manuscripts, we have provided some sample images from each of them to offer a sense of how the original materials look.
 
-You can now access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions. See also our second release of the [search function](/entities/).
+You can currently access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions. See also our second release of the [search function](/entities/).
 
-Feedback is especially welcome as we work towards our final release in February 2025; see the icon on the bottom right.
+Feedback is especially welcome as we work towards our final release in late February 2025; see the icon on the bottom right.
 
 
 ## Background
@@ -56,18 +52,18 @@ In 1982 and 1994, two manuscripts re-emerged and were sold to a private buyer, P
 
 In 2018 and 2019, Cordelia Beattie located the other two manuscripts: one was still in the hands of the Comber family and the other had been in the possession of Durham Cathedral Library (DCL) since 1969 but had been misidentified in the catalogue. Today, both manuscript books form part of the [Comber Collection](https://n2t.durham.ac.uk/ark:/32150/s2hm50tr76x.xml) at DCL.
 
-These are the four Books that we are in the process of preparing for our digital edition.
+These are the four Books that make up our digital edition.
 
-It has become common to refer to Thornton’s Books as the _Book of Remembrances_ (DCL, GB-0033-CCOM 38), _Book 1_ (BL, Add. MS 88897/1), _Book 2_ (DCL, GB-0033-CCOM 7), and _Book 3_ (BL, Add. MS 88897/2). However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential. A key issue this project seeks to address is why and how these Books are interconnected.
+It has become common to refer to Thornton’s Books as the _Book of Remembrances_ (DCL, GB-0033-CCOM 38), _Book 1_ (BL, Add. MS 88897/1), _Book 2_ (DCL, GB-0033-CCOM 7), and _Book 3_ (BL, Add. MS 88897/2). However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential. A key issue this project sought to address, using our editorial and markup practice, is why and how these Books are interconnected.
 
-Our editorial and markup practice aims to make this possible. We prefer the following fuller titles, which use descriptions derived from her writings:
+We prefer the following fuller titles, which use descriptions derived from her writings:
 
 - _Book of Remembrances_
 - _Book 1: The First Book of My Life_
 - _Book 2: The First Book of My Widowed Condition_
 - _Book 3: The Second Book of My Widowed Condition_
 
-However, for ease of reference, we will also use abbreviated titles:
+However, for ease of reference, we also use abbreviated titles:
 
 - _Book Rem_
 - _Book 1_
