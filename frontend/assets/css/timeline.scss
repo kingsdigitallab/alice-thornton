@@ -353,9 +353,8 @@ html {
               } //h3
             } //.container-entityEvents
             ul {
-              margin-bottom:70px;
+              margin-bottom: 70px;
               li {
-
                 h4 {
                   text-decoration: underline;
                   margin-top: 40px;
@@ -364,7 +363,7 @@ html {
             } //ul
             img {
               width: 100%;
-              max-width:1000px;
+              max-width: 1000px;
               .portrait {
                 width: 50%;
                 margin: 0 auto;
@@ -401,7 +400,7 @@ html {
             padding-bottom: calc(var(--event-value) / 1);
             margin-bottom: 0;
             border-radius: 50%;
-            opacity:1;
+            opacity: 1;
             aspect-ratio: 1/4;
             &:after {
               background-image: linear-gradient(
@@ -549,8 +548,13 @@ html {
               background: transparent;
               z-index: 1;
               border-radius: 50%;
-              background: radial-gradient(circle, rgb(255, 255, 255) 31%, rgba(255, 255, 255, 0.3) 33%, rgba(128, 31, 0, 0.6) 69%);
-                background-repeat: repeat;
+              background: radial-gradient(
+                circle,
+                rgb(255, 255, 255) 31%,
+                rgba(255, 255, 255, 0.3) 33%,
+                rgba(128, 31, 0, 0.6) 69%
+              );
+              background-repeat: repeat;
               background-repeat: no-repeat;
               width: 2vw;
               height: 2vw;
