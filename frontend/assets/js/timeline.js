@@ -6,14 +6,14 @@ const eventsSource = "/assets/js/events.json";
 // Map the keys in the data to the desired table headers
 const tableHeaderMapping = {
   year: "Year",
-  entityEventCount: "Number of Events Recorded in Alice Thornton's Books",
+  entityEventCount: "Number of Events in Thornton's Books",
   historicalEventCount: "Number of Historical Events",
   birthEventCount: "Number of Births",
   deathEventCount: "Number of Deaths",
   marriageEventCount: "Number of Marriages",
-  entityEvents: "Events Recorded in Alice Thornton's Books",
+  entityEvents: "Events in Thornton's Books",
   historicalEvents: "Historical Events",
-  lifetimeEvents: "Important Events During Alice Thornton's Lifetime",
+  lifetimeEvents: "Important Events in Thornton's Life",
 };
 
 // Helper function to add CSS class names to cells based on lifetime events in the data
