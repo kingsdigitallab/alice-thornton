@@ -379,10 +379,6 @@ html {
           padding: 0;
           border: 0;
           height: auto;
-          /*left: 50%; /* Calculates 50% of the element's width, and moves it by that */
-          /*transform: translateX(
-            -50%
-          ); /* amount across the X-axis to the left */
           z-index: 1;
           &:after {
             opacity: 0.6;
@@ -391,7 +387,7 @@ html {
             position: absolute;
             font-size: 1vw;
             opacity: 0; // Visually hidden
-            left: 50%;
+            /*left: 50%;*/
             visibility: visible; // Ensure it's accessible to screen readers
           }
 
@@ -443,12 +439,11 @@ html {
             vertical-align: bottom;
             position: absolute;
             bottom: -3vw;
-            left: 50%;
             &.present {
               background: $primary-dark;
             } //&.present
             & span {
-              transform: translate(-250%, 30%) rotate(-45deg);
+              
             } //& span
           } //&.historicalEventCount
           &.birthEventCount {
@@ -459,7 +454,6 @@ html {
             vertical-align: bottom;
             position: absolute;
             bottom: -2vw;
-            left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(
               -50%
@@ -502,7 +496,6 @@ html {
             vertical-align: bottom;
             position: absolute;
             bottom: -2.3vw;
-            left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(
               -50%
@@ -539,7 +532,6 @@ html {
             vertical-align: bottom;
             position: absolute;
             bottom: -1.7vw;
-            left: 50%;
             /* Calculates 50% of the element's width, and moves it by that */
             transform: translateX(
               -50%
@@ -650,8 +642,6 @@ html {
       border: 0.2vw solid $taupe;
       border-left: 0.2vw solid $transparent;
       border-top: 0.2vw solid $transparent;
-      /*transform: translate(50%, 0) rotate(-45deg);*/
-      /*border-radius: 50%;*/
       background: rgba(0, 0, 0, 0.5);
     }
     &:nth-child(2n + 1):after {
