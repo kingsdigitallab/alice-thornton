@@ -294,6 +294,12 @@ function initializeRowInteractions() {
     // Toggle the current hidden row
     d3.select(this).attr("aria-expanded", !isExpanded);
     hiddenRow.property("hidden", isExpanded);
+
+    // Disable scrolling on body when the hidden row is made visible
+    const scrollY = window.scrollY; // Store the scroll position otherwise it gets lost
+    d3.select("body")
+      .classed("no-scroll", !isExpanded)
+      .attr("data-scroll-position", scrollY);
   });
 
   // Handle "Toggle Details" button clicks for screen reader users
@@ -325,6 +331,11 @@ function initializeRowInteractions() {
 
     // Close the specific hidden row
     hiddenRow.property("hidden", true);
+
+    // Re-enable scrolling on body when hidden row is hidden again
+    const savedScrollY = d3.select("body").attr("data-scroll-position");
+    d3.select("body").classed("no-scroll", false);
+    window.scrollTo(0, savedScrollY); // Restore scroll position
 
     // Update the aria-expanded attribute on the parent row
     const parentRow = d3.select(`.mainRow[data-target="${targetId}"]`);

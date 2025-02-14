@@ -65,6 +65,12 @@ html {
   box-sizing: content-box;
 }
 
+// When the modal is open we want to disable scroll on body
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 #legend {
   font-size: 16px;
   display: flex;
@@ -284,13 +290,13 @@ html {
         } //&:hover
         &.hiddenRow {
           background: white;
-          width: 90vw;
+          width: 85vw;
           position: fixed;
-          left: 0;
+          left: 50%;
           height: 100vh;
-          top: 0;
-          z-index: 1;
-          overflow: scroll;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          overflow-y: auto; // Enables vertical scrolling if needed
           opacity: 1;
           z-index: 9;
           padding: 5vw;
@@ -410,7 +416,7 @@ html {
               vertical-align: bottom;
               position: absolute;
               content: "";
-              left:-1vw;
+              left: -1vw;
               clip-path: polygon(50% 0, 100% 100%, 0 100%);
               width: 7.5vw;
             }
@@ -441,10 +447,14 @@ html {
             transform: translateX(90%);
             &.present {
               /*background: $primary-dark;*/
-              background-image: linear-gradient(90deg, transparent 1%, black 4%, transparent 3%);
+              background-image: linear-gradient(
+                90deg,
+                transparent 1%,
+                black 4%,
+                transparent 3%
+              );
             } //&.present
             & span {
-              
             } //& span
           } //&.historicalEventCount
           &.birthEventCount {
@@ -524,9 +534,7 @@ html {
             vertical-align: bottom;
             position: absolute;
             bottom: -1.7vw;
-            transform: translateX(
-              90%
-            ); 
+            transform: translateX(90%);
             &.present {
               background: transparent;
               z-index: 1;
