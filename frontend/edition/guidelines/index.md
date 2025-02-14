@@ -1,5 +1,6 @@
 ---
 title: Editorial guidelines
+toc: true
 ---
 
 ## Heading

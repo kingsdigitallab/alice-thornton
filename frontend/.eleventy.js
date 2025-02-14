@@ -7,10 +7,14 @@ const debug = require("debug")("Eleventy:KDL");
 const metadata = require("./_data/metadata.js")();
 const stripHtml = require("string-strip-html");
 
+// https://plug11ty.com/plugins/table-of-contents/
+const pluginTOC = require("eleventy-plugin-toc");
+
 module.exports = function (config) {
   utils.configureMarkdown(config);
 
   config.addPlugin(eleventyNavigationPlugin);
+  config.addPlugin(pluginTOC);
 
   utils.configureSass(config);
 

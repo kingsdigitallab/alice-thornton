@@ -73,6 +73,11 @@ redirect: null
       {% endif %}
       </div>  
       <div class="container {% if isPageFluid %}is-fluid{% endif %}">
+        {% if toc %}
+          <div class="table-of-contents">
+            {{ content | toc }}
+          </div>
+        {% endif %}
         {% if isCustomContent %}
           {{ content }}
         {% else %}

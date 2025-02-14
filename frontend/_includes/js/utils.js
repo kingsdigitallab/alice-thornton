@@ -3,6 +3,7 @@ const sass = require("sass");
 const debug = require("debug")("Eleventy:KDL");
 const markdownItImageFigures = require("markdown-it-image-figures");
 const markdownItFootnote = require("markdown-it-footnote");
+const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownIt = require("markdown-it");
 
@@ -101,6 +102,7 @@ function configureMarkdown(config) {
   let markdownLib = markdownIt(options)
     .use(markdownItAttrs)
     .use(markdownItFootnote)
+    .use(markdownItAnchor)
     .use(markdownItImageFigures, {
       figcaption: true,
       copyAttrs: "class",
