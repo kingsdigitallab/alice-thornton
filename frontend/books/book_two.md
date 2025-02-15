@@ -11,7 +11,9 @@ archivedAt: https://reed.dur.ac.uk/xtf/view?docId=ark/32150_s2hm50tr76x.xml;quer
 contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/texts/02_book_two/book_two.xml
 ---
 
-## Description (Coming soon)
+## Description 
+
+Full leather-bound manuscript (H155mm x W100 x D30mm) with paper label on the spine.[^1] The leather is quite worn. Thornton’s text extends to 293 pages (around 62,000-words) but a later owner, her great, great grandson Thomas Comber (1765–1835), added some additional content between 1800–27. The Book has no title page and does not contain an index but uses 44 headings to divide up the text. 
 
 ## Provenance 
 
@@ -19,7 +21,7 @@ Owned by Thornton’s great, great grandson, Thomas Comber of Creech St Michael,
 
 ## Dating
 
-_Book 2_ covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1685-95. There is a reference to her brother Christopher’s grandchildren (he had two by c.1685) on page 105, which gives our earliest date. Thornton also notes that most of the people who spread rumours about her in 1668 were now dead which was most likely the case by 1695 (page 292). It is referenced in _Book 3_ (pages 82, 99, 132), which indicates it was written first and therefore finished by c.1695.
+_Book 2_ covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1685-95. There is a reference to her brother Christopher’s grandchildren (he had two by c.1685) on page 105, which gives our earliest date. Thornton also notes that most of the people who spread rumours about her in 1668 were now dead which was perhaps the case by 1691 and most likely the case by 1695 (page 292). It is referenced in _Book 3_ (pages 82, 99, 132), which indicates it was written first and therefore finished by c.1695.
 
 ## Contents (using Thornton's titles)
 
@@ -67,3 +69,7 @@ An Account of Mortgages Charged upon Leysthorpe or some Part of that Land before
 Upon My Deliverance of My Son, Robert Thornton, My Third Son and Seventh Child, Being the First Child Born at the New House at East Newton, Whose Birth was on Friday the 19th of September, 1662 <br/>
 A Relation of the Cutting of the Entail and Deed of Settlement of Mr Covill of Leysthorpe, without my Consent or Knowledge, done by a Little Deed, which gave Possession and Seizure, et cetera, of the Land of Leysthorpe to Mr Francis Darley by Mr William Thornton, by Virtue of which New Settlements was made and other uses Contrary to Articles of Marriage. This Deed dated September the 9th, 1665. <br/>
 Of My Desperate Sickness and Dangerous Condition I was visited withal, Beginning on Me August 16, 1666, and cleared of the Flux of Blood <br/>
+
+## Notes
+
+[^1]: The measurements here are from Liz Branigan’s conservation report, October 2020. 
