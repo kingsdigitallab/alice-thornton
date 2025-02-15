@@ -10,6 +10,7 @@
   // maximum width of a label on the left of an item
   // See "1. letter" Book 3, p. 190, modern
   --list-item-label-width: 2.75em;
+  --list-item-label-width-min: 1em;
   // -1em = first line of a list item is indented by 1em
   --list-item-indent: -1em;
 }
@@ -925,6 +926,10 @@ $render-sic: false;
   // .tei-space[data-tei-unit="page"]:before {
   //   content: "[Blank page]";
   // }
+
+  .tei-body {
+    line-height: 2.5em;
+  }
 
   &.view-modern,
   &.view-semidip {
