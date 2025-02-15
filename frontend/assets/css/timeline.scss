@@ -272,10 +272,9 @@ max-width:1200px;
           left: 0;
           height: 100vh;
           top: 0;
-          z-index: 1;
           overflow: scroll;
           opacity: 1;
-          z-index: 9;
+          z-index: 99;
           padding: 5vw;
 
           button.hidden-close {
@@ -634,14 +633,14 @@ transform: translateX(35%);
 } //#data
 
 #legend-wrapper {
-  z-index: 99;
+  z-index: 1;
   pointer-events: auto;
 
   
   > label {
     display: block;
     @include transition(all 400ms ease-in);
-    z-index: 2;
+    z-index: 1;
     cursor: pointer;
     right: -23px;
     bottom: 0;
