@@ -1055,8 +1055,18 @@ $render-sic: false;
     display: inline-block;
   }
 
+  // POETRY ------
+
   .list-tei-l {
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    // margin for the .line-number
+    padding-right: 2.5em;
+    position: relative;
+  }
+
+  .tei-lg {
+    display: block;
   }
 
   .tei-l {
@@ -1064,10 +1074,13 @@ $render-sic: false;
     display: block;
 
     .line-number {
-      float: right;
-      padding-left: 2em;
+      position: absolute;
+      width: 2em;
+      right: -0.5em;
     }
   }
+
+  // -------------
 
   .tei-seg[data-tei-rend*="centre"] {
     // 1.4.last
