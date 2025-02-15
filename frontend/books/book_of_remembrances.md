@@ -13,7 +13,7 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edi
 
 ## Description
 
-Small autograph manuscript volume (H133mm x W96mm x D13mm) with the title ‘A Book of Remembrances of All the Remarkable Deliverances of Myself, Husband and Children, with their Births and Other Remarks as Concerning Myself and Family, Beginning from the Year 1625’ ([page 1](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.1&p0.vi=modern)). It has a marbled paper cover, which is sewn into larger boards which were originally also covered in marbled paper; the larger boards have endpapers. There are multiple areas of sewing, some of which may have been added at later dates, perhaps including the final and penultimate entries where the pages are smaller than the rest of the manuscript (pages 195-200). The Book also includes a five page ‘index’ (pages 177-85) and extends to 200 pages in total.
+Small autograph manuscript volume (H133mm x W96mm x D13mm) with the title ‘A Book of Remembrances of All the Remarkable Deliverances of Myself, Husband and Children, with their Births and Other Remarks as Concerning Myself and Family, Beginning from the Year 1625’ ([page 1](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.1&p0.vi=modern)). It has a marbled paper cover, which is sewn into larger boards which were originally also covered in marbled paper; the larger boards have endpapers. There are multiple areas of sewing, some of which may have been added at later dates, perhaps including the final and penultimate entries where the pages are smaller than the rest of the manuscript (pages 195-200). The Book also includes a five page ‘index’ (pages 177-85) and extends to 200 pages in total (around 28,000-words).
 
 ## Provenance
 
