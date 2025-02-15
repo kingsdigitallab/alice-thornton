@@ -3,6 +3,8 @@ title: Bibliography
 
 ---
 <p>&nbsp;</p>
+This is a complete list of the works cited in our edition notes.
+<p>&nbsp;</p>
 
 ## Manuscript sources 
 
