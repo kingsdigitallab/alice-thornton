@@ -17,7 +17,7 @@ Small autograph manuscript volume (H133mm x W96mm x D13mm) with the title ‘A B
 
 ## Provenance
 
-Owned by Thomas Comber, of Newton-le-Willows (1875); Rev. Mr Edward F. Comber, Wrenbury, Cheshire (1936); Philip Comber, Ludlow (2018); and given to DCL (2019). A microfilm copy is held by [Yale University Library](https://hdl.handle.net/10079/bibid/615720).
+Owned by Thomas Comber, of Newton-le-Willows (1875); Rev. Mr Edward F. Comber, Wrenbury, Cheshire (1936); Philip Comber, Ludlow (2018); and given to Durham Cathedral Library (2019). A microfilm copy is held by [Yale University Library](https://hdl.handle.net/10079/bibid/615720).
 
 ## Dating
 
