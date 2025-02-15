@@ -309,11 +309,11 @@ max-width:1200px;
               background:white;
               width:100%;
               margin-bottom:3vw;
-              padding:3vw;
+              padding:3vw 3vw 3vw 5vw;
             }
             h3 {
               font-size: 30px;
-              margin-left:20px;
+              margin-left:18px;
             }
             .hidden-row-footer{
               background: $gray;
@@ -325,7 +325,7 @@ max-width:1200px;
                   width: 2px;
                   height: 40px;
                     margin-top:0;
-                    left:0;
+                    left:5px;
                       position: absolute;
                         background:$primary;
                 }
@@ -342,7 +342,7 @@ max-width:1200px;
               vertical-align: bottom;
               position: absolute;
               content: "";
-              left:-13px;
+              left:0;
               clip-path: polygon(50% 0, 100% 100%, 0 100%);
               width: 20px;
           height:30px;
@@ -354,7 +354,6 @@ max-width:1200px;
               margin-bottom: 70px;
               li {
                 h4 {
-                  text-decoration: underline;
                   margin-top: 40px;
                 } //h4
               } //li
