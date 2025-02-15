@@ -121,9 +121,7 @@ Burton, Robert. *The Anatomy of Melancholy* […]. Oxford: Henry Cripps, 1621.
 Charles I. *The Kings Maiesties Declaration to His Subiects, Concerning Lawfull Sports to Be Vsed England and Wales*. London: Robert Barker, 1633. 
 
 Coelson, Lancelot. *The Poor-Mans Physician and Chyrurgion* […]. London: Simon Miller, 1656. 
-
-'Coin: BUC-688073'. Portable Antiquities Scheme. https://finds.org.uk/database/artefacts/record/id/163228.   
-
+  
 Comber, Thomas (ed.). *Book of Instructions, Written by Sir Christr. Wandesforde* […]. Cambridge: J. Archdeacon, 1777. 
 
 -- *Memoirs of the Life and Death of the Right Honourable the Lord Deputy Wandesforde* […], 2nd edn. Cambridge: J. Archdeacon, 1778.  
@@ -541,6 +539,8 @@ Milton, Anthony. ‘Laud, William (1573–1645), Archbishop of Canterbury’. *O
 Morgan, John Emrys. ‘Understanding Flooding in Early Modern England’. *Journal of Historical Geography* 50 (2015): 37–50.  
 
 Morrill, J. S. *The Nature of the English Revolution*. Oxford: Routledge, 2013. 
+
+Moss, J. 'BUC-688073: A Post Medieval Coin'. Portable Antiquities Scheme, 2007. https://finds.org.uk/database/artefacts/record/id/163228.
 
 Myers, Kenneth. ‘A History of Injection Treatments – I the Syringe’. *Phlebology* 34, no. 5 (2019): 294–302.  
 
