@@ -19,25 +19,43 @@ Hovering over each year reveals more details about the events recorded for that 
 <hr>
 <em>Note: All elements below scale in response to the viewport so best viewed on a larger screen. </em>
 
-<div id="legend">
-<h3>Legend</h3>
+ <div id="legend-wrapper">
+    <input type="checkbox" id="legend">
+    <label aria-label="map legend list" class="legend-button" for="legend">
+        <h2>Legend</h2>
+    </label>
+    <div class="content">
+
 <div class="events">
 <h4>Events</h4>
 <ul>
-<li>Important</li>
-<li>Grouped types</li>
+  <li>Alice's Life</li>
+  <li>arrow direction</li>
+  <li>Book Events</li>
+  <li>Historical Events</li>
+
+  
 </ul>
 </div>
-
+      <div class="volumes">
+<h4>Books</h4>
+<ul>
+<li>Book of Rem</li>
+<li>Book 1</li>
+<li>Book 2</li>
+<li>Book 3</li>
+</ul>
+</div>
 <div class="life-events">
 <h4>Life Events</h4>
 <ul>
-<li>Births</li>
+  <li>Births</li>
 <li>Deaths</li>
 <li>Marriages</li>
+<li>Male</li>
+<li>Female</li>
 </ul>
 </div>
-
 <div class="initials">
 <h4>Initials</h4>
 <ul>
@@ -50,16 +68,10 @@ Hovering over each year reveals more details about the events recorded for that 
 </ul>
 </div>
 
-<div class="volumes">
-<h4>Books</h4>
-<ul>
-<li>Book of Remembrances</li>
-<li>Book 1</li>
-<li>Book 2</li>
-<li>Book 3</li>
-</ul>
+
+
 </div>
-</div>
+</div>         
 
 <div id="data"></div>
 

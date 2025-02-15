@@ -624,6 +624,7 @@ transform: translateX(35%);
   z-index: 99;
   pointer-events: auto;
 
+  
   > label {
     display: block;
     @include transition(all 400ms ease-in);
@@ -648,7 +649,7 @@ transform: translateX(35%);
       @include transition(all 400ms ease-in);
 
       ~ .content {
-        right: -310px; /* content on hover */
+        right: -360px; /* content on hover */
       }
 
       &:before {
@@ -662,19 +663,23 @@ transform: translateX(35%);
 
     h2 {
       font-size: 16px;
-      padding: 7px 16px;
       line-height: 0;
       color: white;
       font-weight: normal;
       text-transform: uppercase;
-    }
+        font-family: sans-serif;
+        padding: 18px 0 0 17px;
+        &:before{
+          display:none;
+        }
+      }//h2
 
     //h2
     &:before {
       content: '▾';
       @include transform(rotate(180deg) translate(0, -3px));
       position: absolute;
-      right: 1em;
+      right: 0.7em;
       bottom: 0.4em;
       @include transition(all 400ms ease-in);
     }
@@ -687,14 +692,14 @@ transform: translateX(35%);
     position: fixed;
     top: 0;
     bottom: 0;
-    right: -325px;
+    right: -375px;
     overflow: scroll;
     font-size: 14px;
     line-height: 1.6;
-    width: 320px;
+    width: 370px;
     @include transition(all 400ms ease-in);
     background: white;
-    height: 350px;
+    height: 390px;
     margin: auto;
     border: 1px solid $primary;
     z-index: 9;
@@ -715,7 +720,6 @@ transform: translateX(35%);
         font-size:18px;
       }
       ul{
-        margin:0 0 0 -15px;
       }
     }
   .events {
@@ -879,7 +883,7 @@ transform: translateX(35%);
   }
 
   input#legend[type="checkbox"]:checked ~ label.legend-button {
-    right: 300px;
+    right: 355px;
     background: $primary;
 
     h2 {
