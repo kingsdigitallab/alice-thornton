@@ -11,13 +11,17 @@ archivedAt:
 contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/edition/texts/01_book_one/book_one.xml
 ---
 
-## Description (Coming soon)
+## Description 
 
-## Provenance (Coming soon)
+Small autograph manuscript book (H155mm x W105mm x D24mm) with duodecimo pages and no title page. It is bound in contemporary calf skin with some gilt decoration on the cover.  It extends to 309 pages (although the manuscript is mispaginated and so ends at number 303), with two blank pages at the end, and around 98,000-words. The book is arranged under headings. It also includes a seven page ‘index’ between pages 299-305. 
+
+## Provenance 
+
+Owned by Thornton’s great grandson, Thomas Comber (1789); her great, great grandson, Thomas Comber of Creech St Michael, Somerset (1800); the Rev. Henry George Wandesford Comber, MA, Rector of Oswaldkirk (1875). Sold by Sotheby's, 29 June 1982, lot 17, to Quaritch. Then owned by Paula Peyraud, New York State. Sold by Bloomsbury Auctions, New York, 6 May 2009, lot 464, to the British Library.  
 
 ## Dating
 
-Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’ to circulate in late 1668 (page 196); Thornton also notes that she was writing in that book, about her widowhood, in March 1669 (page 179). If the ‘scandal’ was a key prompt for the writing of _Book 1_, then a dating of c.1668-9 works for the majority of the volume. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 (page 292).
+Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’ to circulate in late 1668 (page 196); Thornton also notes that she was writing in that Book, about her widowhood, in March 1669 (page 179). If the ‘scandal’ was a key prompt for the writing of _Book 1_, then a dating of c.1668-9 works for the majority of the Book. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 (page 292).
 
 ## Contents (using Thornton's Index)
 
