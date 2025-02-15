@@ -266,7 +266,7 @@ max-width:1200px;
           } //td
         } //&:hover
         &.hiddenRow {
-          background: white;
+          background: $gray;
           width: 90vw;
           position: fixed;
           left: 0;
@@ -277,6 +277,7 @@ max-width:1200px;
           opacity: 1;
           z-index: 9;
           padding: 5vw;
+
           button.hidden-close {
             position: fixed;
             top: 0;
@@ -284,15 +285,15 @@ max-width:1200px;
             cursor: pointer;
             background-color: white;
             border: none;
-            padding: 5px 0 7px 10px;
+            padding: 0 0 15px 10px;
+            font-size:16px;
             &:after {
               content: "✕";
               right: 0;
-              color: right;
-              font-size: 1.5rem;
-              top: -0.3rem;
+              top:7px;
+              font-size: 40px;
               padding: 3px 10px;
-              border-radius: 50%;
+              position:relative;
             } //&:after
             &:hover {
               background-color: $primary-dark;
@@ -301,8 +302,20 @@ max-width:1200px;
           } //button.hidden-close
           td {
             width: 100%;
+            text-align:left;
+            max-width:950px;
+            margin:0 auto;
+            div{
+              background:white;
+              width:100%;
+              margin-bottom:3vw;
+              padding:3vw;
+            }
             h3 {
               font-size: 30px;
+            }
+            .hidden-row-footer{
+              background: $gray;
             }
             .container-historicalEvents {
               h3 {
