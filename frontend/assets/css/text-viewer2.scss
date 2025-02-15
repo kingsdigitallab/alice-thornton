@@ -1292,6 +1292,13 @@ $render-sic: false;
   }
 
   &.view-semidip {
+
+    // GN: fix to avoid sentence wrapping around too narrow items
+    // E.g. 3.190, 2.80. See Click up
+    .tei-list:not(.tei-type-index) {
+      max-width: 90%;
+    }
+
     // .tei-list[data-tei-rend="braced(})"] + .tei-label {
     span[data-tei-rend="braced(})"] + .tei-label,
     .has-braced-seg > .tei-label {
