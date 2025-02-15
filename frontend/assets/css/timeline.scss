@@ -16,7 +16,7 @@ $lifeline: $taupe;
 $pink:#A45A52;
 
 // fonts
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100..900&family=Kalnia+Glaze:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
 // Mixins
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -84,7 +84,7 @@ max-width:1200px;
 }
 
 #data {
-  margin: 0 0 10vw 25%;
+  margin: 10vw 0 10vw 25%;
   width: 60%;
   font-family:sans-serif;
   table {
@@ -206,7 +206,7 @@ max-width:1200px;
       transform: translate(50%, 10%) rotate(45deg);
       border-left: 0.1vw solid $transparent;
       border-bottom: 0.1vw solid $transparent;
-      left: 5vw;
+      left: -4.5vw;
     }
     &:nth-child(2n):before {
       // arrow direction for every odd row
