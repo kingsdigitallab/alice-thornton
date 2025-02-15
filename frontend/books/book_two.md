@@ -17,7 +17,7 @@ Full leather-bound manuscript (H155mm x W100 x D30mm) with paper label on the sp
 
 ## Provenance 
 
-Owned by Thornton’s great, great grandson, Thomas Comber of Creech St Michael, Somerset (1800); Rev. Henry George Wandesford Comber, MA, Rector of Oswaldkirk (1875). Given to DCL by A.G. Hickson (1969) and identified by Cordelia Beattie (2019). 
+Owned by Thornton’s great, great grandson, Thomas Comber of Creech St Michael, Somerset (1800); Rev. Henry George Wandesford Comber, MA, Rector of Oswaldkirk (1875). Given to Durham Cathedral Library by A.G. Hickson (1969) and identified by Cordelia Beattie (2019). 
 
 ## Dating
 
