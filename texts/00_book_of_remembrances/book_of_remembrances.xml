@@ -7,7 +7,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2025-02-24</date>
+               <date>2025-02-18</date>
             </edition>
            <editor>Cordelia Beattie</editor>
            <editor>Suzanne Trill</editor>
@@ -16,7 +16,7 @@
          </editionStmt>
          <publicationStmt>
            <publisher>King's Digital Lab</publisher>
-           <date>2025-02-24</date>
+           <date>2025-02-18</date>
          </publicationStmt>
 
          <sourceDesc>
@@ -70,23 +70,25 @@
          </calendar>
        </calendarDesc>
        
-       <!-- NOTES ON DATES:
+       <!-- NOTE ON DATES:
          
-         Thornton does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally it's not possible to ascertain which year is intended.
+         Dates recorded in @__-custom attributes reflect what was written, even if it was incorrect compared to external sources or inconsistent with other mentions in the Books.
          
-         following usage in MoEML (https://mapoflondon.uvic.ca/), @datingMethod/@calendar
+         Thornton did not consistently start the year on 1 Jan or 25 Mar ("Lady Day" dating); occasionally it's not possible to ascertain which year is intended.
          
-         #JulianJan year starts 1 January 
-         #JulianMar date=1 Jan-24 Mar and year starts 25 March
-         #JulianSic (rare) only used where date =1 Jan-24 Mar and we don't know which year it is
+         Following usage in MoEML (https://mapoflondon.uvic.ca/), this is encoded using @datingMethod
+         
+         #JulianJan - year starts 1 January 
+         #JulianMar - date is between 1 Jan and 24 Mar and year starts 25 March
+         #JulianSic - only used where date is 1 Jan-24 Mar and we don't know which year it is
+         NB year-only dates are assumed to be #JulianJan unless there's clear reason in context to do otherwise
+         
          in addition, Book 3 contains a number of dates written in the form 1668/9 (=1669). 
-         #JulianSlash to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
+         #JulianSlash has been used to differentiate from other dates, but the @*-custom attribute is encoded as JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
          
-         ** #JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
-         ** Julian calendar is treated as the default calendar, so not explicitly encoded (atm)** 
+         ** #JulianJan is treated as the default datingMethod so is not explicitly encoded
+         ** Julian calendar is treated as the default @calendar, so is not explicitly encoded 
          ** use @-custom attributes with -iso style formatting
-         
-         NB year-only dates are assumed #JulianJan unless clear reason to do otherwise
          
         -->
      </profileDesc>
@@ -107,31 +109,11 @@
             <unicodeProp value="dotted cross 205C" name="General_Category"/>
           </glyph>
         </charDecl>
-        
-     <!-- ENCODING NOTES: 
-         
-         @xml:id in <pb> tags = Transcriber page numbers - definitive numbers for the edition. 
-         
-         <fw>type=pageNum are Thornton's written numbers
-         
-         image numbers in xml comments (if present) = internal project reference only.
-         
-     xml comment keywords:
-     
-         NOTE: a comment on something, but shouldn't need any further (or only very minor, low-priority) action.
-         TODO: needs work, I probably know what's needed
-         Q: needs work, some uncertainty about how to proceed
-         
-         [keyword] comment/note tags give some indication of what it's about
-         
-         [endnote] moved from Word endnotes into comment for reference
 
-     -->      
-       
-       
       </encodingDesc>
      
       <revisionDesc>
+        <!-- this is a record of significant milestones and bulk edits only -->
          <listChange>
             <change>
                <date>2021-12-02T07:58:43Z</date> 
@@ -6511,6 +6493,7 @@
          <l n="28">With <w norm="Indian angels">Indian-Angells</w><surplus reason="superfluous">,</surplus><anchor n="166" corresp="#p160n01" resp="ednote"/> <w norm="and">&amp;</w> a speaking <w norm="eye" type="l">Eye</w><pc norm=",">.</pc></l>
          <l n="29">Com<ex>m</ex>and bare heads<pc norm=",">;</pc> <w norm="bowed">bow'd</w> knees<supplied reason="mod">,</supplied>  strike <w norm="justice">Justis</w> <add place="below">dumb</add><supplied reason="mod">,</supplied> </l>
          <!-- Q rendering place=below. word is displayed but with no indication that it's an insertion. how many are there?
+           but then again is it really an <add> anyway? if it's just running out of space on the line, it's not the same as going back and adding something you forgot. if it's not an <add> it's a bit flipping late to be wondering what it is.
            "dumb" is only just above the word "Tongue" on the next line; has a line underneath it, but I think the intention is a boxing effect (as more obviously in "more" above) rather than underlining the word dumb. 
            [review] Yes, it is an insertion to maintain end-line rhyme of 'dumb' and 'tongue'-->
          <l n="30">As well as blind <w norm="and">&amp;</w> lame, <w norm="and">&amp;</w> give a <w norm="tongue">Tongue</w>

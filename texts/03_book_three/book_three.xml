@@ -10,7 +10,7 @@
          <editionStmt>
             <edition>
               <!-- TODO update date -->
-               <date>2022-06-30</date>
+               <date>2025-02-18</date>
             </edition>
            <editor>Cordelia Beattie</editor>
            <editor>Suzanne Trill</editor>
@@ -18,7 +18,8 @@
            <editor>Sharon Howard</editor>
          </editionStmt>
          <publicationStmt>
-            <p>unknown</p>
+           <publisher>King's Digital Lab</publisher>
+           <date>2025-02-18</date>
          </publicationStmt>
 
         <sourceDesc>
@@ -30,13 +31,13 @@
               <altIdentifier>
                 <idno>Identified within Catalogue of English Literary Manuscripts 1450–1700 as *ThA 2, where it is noted as the third manuscript used for the edition within Surtees Society no.62.</idno>
               </altIdentifier>
-              <!-- TODO this should be the ms name in the BL catalogue -->
-              <msName>tbd</msName>
+              <!-- NOTE BL catalogue unavailable; description from CELM. -->
+              <msName>Autograph MS, in Alice Thornton's italic hand, covering principally 1668-9 with reminiscences of earlier times and other prayers and meditations</msName>
             </msIdentifier>
             
             <physDesc>
               <objectDesc>
-                <!-- TODO brief description [added from CELM; is it accurate?] -->
+                <!-- NOTE brief description from CELM -->
                 <p>216 quarto pages, in old calf gilt.</p>
               </objectDesc>
 
@@ -64,23 +65,26 @@
            <p>Dates written with two years separated by a slash.</p>
          </calendar>
        </calendarDesc>
-       <!-- NOTES ON DATES:
-
-         Thornton does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally it's not possible to ascertain which year is intended.
+       
+       <!-- NOTE ON DATES:
          
-         following the usage in MoEML (https://mapoflondon.uvic.ca/), three @datingMethod/@calendar
+         Dates recorded in @__-custom attributes reflect what was written, even if it was incorrect compared to external sources or inconsistent with other mentions in the Books.
          
-         #JulianJan year starts 1 January 
-         #JulianMar date=1 Jan-24 Mar and year starts 25 March
-         #JulianSic (rare) only used where date =1 Jan-24 Mar and we don't know which year it is
+         Thornton did not consistently start the year on 1 Jan or 25 Mar ("Lady Day" dating); occasionally it's not possible to ascertain which year is intended.
+         
+         Following usage in MoEML (https://mapoflondon.uvic.ca/), this is encoded using @datingMethod
+         
+         #JulianJan - year starts 1 January 
+         #JulianMar - date is between 1 Jan and 24 Mar and year starts 25 March
+         #JulianSic - only used where date is 1 Jan-24 Mar and we don't know which year it is
+         NB year-only dates are assumed to be #JulianJan unless there's clear reason in context to do otherwise
+         
          in addition, Book 3 contains a number of dates written in the form 1668/9 (=1669). 
-         #JulianSlash to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
+         #JulianSlash has been used to differentiate from other dates, but the @*-custom attribute is encoded as JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
          
-         ** #JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
-         ** Julian calendar is treated as the default calendar, so not explicitly encoded (atm)** 
+         ** #JulianJan is treated as the default datingMethod so is not explicitly encoded
+         ** Julian calendar is treated as the default @calendar, so is not explicitly encoded 
          ** use @-custom attributes with -iso style formatting
-         
-         NB year-only dates are assumed #JulianJan unless clear reason to do otherwise
 
        -->
      </profileDesc>
@@ -100,31 +104,10 @@
          </glyph>
        </charDecl>
 
-
-       <!--
-
-
-         ENCODING NOTES
-
-         <pb> @n and Page \d+ in comments = Transcriber page numbers (latter may be removed once i've finished tagging, but are convenient for quick finding)
-         (fw type=pageNum are Alice's written numbers; not on every page in this book)
-
-     xml comment keywords:
-         NOTE: a comment on something, but shouldn't need any further (or very minor, low-priority) action.
-         TODO: needs work; I probably know what's needed
-         Q: needs work, uncertain about how to proceed
-
-         TODO/Q [teams] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
-
-         [tags] for some indication of what it's about
-         [endnote] moved from Word endnotes into comment
-         <note> @place=end are Word endnotes; some may be retained as editorial notes but many are likely to be internal comemnts for the project only, which will either be deleted or moved into xml comments
-
-
-       -->
       </encodingDesc>
 
       <revisionDesc>
+        <!-- this is a record of significant milestones and bulk edits only -->
          <listChange>
             <change>
               <date>2022-07-12</date>

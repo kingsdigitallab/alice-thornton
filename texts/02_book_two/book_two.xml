@@ -8,8 +8,8 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <!-- TODO update date when we get to final publication -->
-               <date>2022-06-02</date>
+               <!-- TODO update date? -->
+               <date>2025-02-18</date>
             </edition>
             <editor>Cordelia Beattie</editor>
             <editor>Suzanne Trill</editor>
@@ -17,7 +17,8 @@
             <editor>Sharon Howard</editor>
          </editionStmt>
          <publicationStmt>
-            <p>unknown</p>
+            <publisher>King's Digital Lab</publisher>
+            <date>2025-02-18</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -72,23 +73,26 @@
                <p>Dates written with two years separated by a slash.</p>
             </calendar>
          </calendarDesc>
-         <!-- NOTES ON DATES:
          
-         Thornton does not consistently start the year on 1 Jan (NS) or 25 Mar (OS); occasionally it's not possible to ascertain which year is intended.
+         <!-- NOTE ON DATES:
          
-         following the usage in MoEML (https://mapoflondon.uvic.ca/), three @datingMethod/@calendar
+         Dates recorded in @__-custom attributes reflect what was written, even if it was incorrect compared to external sources or inconsistent with other mentions in the Books.
          
-         #JulianJan year starts 1 January 
-         #JulianMar date=1 Jan-24 Mar and year starts 25 March
-         #JulianSic (rare) only used where date =1 Jan-24 Mar and we don't know which year it is
+         Thornton did not consistently start the year on 1 Jan or 25 Mar ("Lady Day" dating); occasionally it's not possible to ascertain which year is intended.
+         
+         Following usage in MoEML (https://mapoflondon.uvic.ca/), this is encoded using @datingMethod
+         
+         #JulianJan - year starts 1 January 
+         #JulianMar - date is between 1 Jan and 24 Mar and year starts 25 March
+         #JulianSic - only used where date is 1 Jan-24 Mar and we don't know which year it is
+         NB year-only dates are assumed to be #JulianJan unless there's clear reason in context to do otherwise
+         
          in addition, Book 3 contains a number of dates written in the form 1668/9 (=1669). 
-         #JulianSlash to differentiate from other dates, but the @*-custom attribute is encoded as per JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
+         #JulianSlash has been used to differentiate from other dates, but the @*-custom attribute is encoded as JulianJan, eg 1 Jan 1668/9 is encoded as 1669-01-01
          
-         ** #JulianJan is treated as default datingMethod so not explicitly encoded (at the moment)**
-         ** Julian calendar is treated as the default calendar, so not explicitly encoded (atm)** 
+         ** #JulianJan is treated as the default datingMethod so is not explicitly encoded
+         ** Julian calendar is treated as the default @calendar, so is not explicitly encoded 
          ** use @-custom attributes with -iso style formatting
-         
-         NB year-only dates are assumed #JulianJan unless clear reason to do otherwise
  
        -->
       </profileDesc>
@@ -110,31 +114,9 @@
          </charDecl>
          
          
-         
-         <!-- ENCODING NOTES
-               
-     Transcription notes:
-         Page \d+ in comments = Transcriber added correct page numbers -> <pb n='x'> 
-         (fw=pageNum are Alice's written numbers which can be incorrect and may not appear on every page)
-         
-         in addition to endnotes this file has a few Word comments which are <note> place=comment.
-         
-     xml comments:
-         NOTE: a comment on something, but shouldn't need any further (or very minor, low-priority) action.
-         TODO: needs work; I probably know what's needed
-         Q: needs work, uncertain about how to proceed
-         
-         TODO/Q [teams] - discussion on MS Teams; transcription updates, contractions, convention changes, etc to be completed later
-         
-         [other tags] for some indication of what it's about
-         [endnote] moved from Word endnotes into xml comment
-      
-      
-      
-          -->
-         
       </encodingDesc>
       <revisionDesc>
+         <!-- this is a record of significant milestones and bulk edits only -->
          <listChange>
             <change>
                <date>2022-06-02</date>
