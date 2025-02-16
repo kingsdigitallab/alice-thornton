@@ -191,7 +191,7 @@ Quarles, Francis. *Divine Poems Containing the History of Jonah, Ester, Job, Sam
 
 -- *Emblemes*. London: Francis Eglesfeild, 1639. 
 
-Ralegh, Sir Walter. [‘A Farewell to the Vanities of the World’](https://www.luminarium.org/renlit/farewell.htm), in *A Book of Elizabethan Lyrics*, edited by Felix E. Schelling. Boston: Ginn and Company, 1895.
+Ralegh, Sir Walter. [‘A Farewell to the Vanities of the World’](https://www.luminarium.org/renlit/farewell.htm), in *A Book of Elizabethan Lyrics*, edited by Felix E. Schelling, 188-90. Boston: Ginn and Company, 1895.
 
 *Saint Augustines Confessions Translated* […], translated by William Watts. London: John Partridge, 1631. 
 
@@ -459,7 +459,7 @@ Houlbrooke, Ralph A. *The English Family 1450–1700*. London: Longman, 1984.
 
 Howard, Sharon. 'Imagining the Pain and Peril of Seventeenth-Century Childbirth: Travail and Deliverance in the Making of an Early Modern World'. *Social History of Medicine* 16, no. 3 (2003): 367–82.  
 
--- 'At the Margins of Alice Thornton's Books'. *Alice Thornton's Books*, 10 July 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-07-10-at-the-margins/. 
+-- ['At the Margins of Alice Thornton's Books'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-07-10-at-the-margins/). *Alice Thornton's Books*, 10 July 2023. 
 
 Huggins, Mike. *Horse Racing and British Society in the Long Eighteenth Century*. Woodbridge: Boydell, 2018. 
 
@@ -519,7 +519,7 @@ Mansell, Charmian. ‘The Variety of Women's Experiences as Servants in England 
 
 Marsh, Christopher. '“Common Prayer” in England 1560–1640: The View from the Pew'. *Past & Present* 171 (2001): 66–94. 
 
-Marshall, Emma. '"The Best That Ever I Had": Gifting a Medical Recipe in Early Modern Yorkshire'. *Hypotheses*. *The Recipes Project*, 13 May 2021. https://recipes.hypotheses.org/17928.  
+Marshall, Emma. ['"The Best That Ever I Had": Gifting a Medical Recipe in Early Modern Yorkshire'](https://recipes.hypotheses.org/17928). *Hypotheses*. *The Recipes Project*, 13 May 2021. 
 
 Marshall, Peter. *Reformation England 1480-1642*, 2nd edition. London: Bloomsbury, 2012. 
 
