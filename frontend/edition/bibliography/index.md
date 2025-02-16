@@ -535,7 +535,7 @@ McCallum, R. I. *Antimony in Medical History*. Edinburgh: Pentland Press, 1999.
 
 McCutcheon, K. L. *Yorkshire Fairs and Markets to the End of the Eighteenth Century*. Leeds: Thoresby Society, 1935. 
 
-Meyers, Carol. ‘Rebekah: Bible’. In *Shalvi/Hyman Encyclopedia of Jewish Women*, 23 June 2021. https://jwa.org/encyclopedia/article/sarahsarai-bible. 
+Meyers, Carol. [‘Rebekah: Bible’](https://jwa.org/encyclopedia/article/sarahsarai-bible). In *Shalvi/Hyman Encyclopedia of Jewish Women*, 23 June 2021.  
 
 Milton, Anthony. ‘Laud, William (1573–1645), Archbishop of Canterbury’. *ODNB*. 
 
@@ -543,7 +543,7 @@ Morgan, John Emrys. ‘Understanding Flooding in Early Modern England’. *Journ
 
 Morrill, J. S. *The Nature of the English Revolution*. Oxford: Routledge, 2013. 
 
-Moss, J. 'BUC-688073: A Post Medieval Coin'. Portable Antiquities Scheme, 2007. https://finds.org.uk/database/artefacts/record/id/163228.
+Moss, J. ['BUC-688073: A Post Medieval Coin'](https://finds.org.uk/database/artefacts/record/id/163228). Portable Antiquities Scheme, 2007. 
 
 Myers, Kenneth. ‘A History of Injection Treatments – I the Syringe’. *Phlebology* 34, no. 5 (2019): 294–302.  
 
@@ -571,7 +571,7 @@ Page, William (ed.). *A History of the County of York: North Riding*, vol. 1. Lo
 
 Pelling, Margaret. *The Common Lot: Sickness, Medical Occupations and the Urban Poor in Early Modern England*. London: Routledge, 1998. 
 
-Phillippy, Patricia. ‘Women's History Month 2024, 4: Alice Thornton and the North American Connection’. *Alice Thornton’s Books*, 21 March 2024. https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-21-thornton-and-north-america/. 
+Phillippy, Patricia. [‘Women's History Month 2024, 4: Alice Thornton and the North American Connection’](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-21-thornton-and-north-america/). *Alice Thornton’s Books*, 21 March 2024. 
 
 Pogson, Fiona. 'Wandesford, Christopher (1592–1640), politician and administrator'. *ODNB*. 
 
@@ -579,11 +579,11 @@ Pollock, Linda. ‘“Teach Her to Live under Obedience”’: The Making of Wom
 
 Prior, Mary. ‘Wives and Wills 1558–1700’. In *English Rural Society 1500–1800: Essays in Honour of Joan Thirsk*, edited by J. Chartres and D. Hey, 201–26. Cambridge: Cambridge University Press, 1990. 
 
-‘Purchasing Power of British Pounds from 1270 to Present'. *MeasuringWorth*. https://www.measuringworth.com/calculators/ppoweruk/.  
+[‘Purchasing Power of British Pounds from 1270 to Present'](https://www.measuringworth.com/calculators/ppoweruk/). *MeasuringWorth*. 2024.   
 
 Purkiss, Diane. *The Witch in History: Early Modern and Twentieth-Century Representations*. London: Routledge, 1996.  
 
-Ralley, Robert and Lauren Kassell. 'Pigeon Slippers'. *Hypotheses*. *The Recipes Project*, 23 May 2019. https://recipes.hypotheses.org/15085.  
+Ralley, Robert and Lauren Kassell. ['Pigeon Slippers'](https://recipes.hypotheses.org/15085). *Hypotheses*. *The Recipes Project*, 23 May 2019.   
 
 Read, Sara. *Menstruation and the Female Body in Early Modern England*. London: Palgrave Macmillan, 2013.  
 
@@ -645,7 +645,7 @@ Stretton, Tim and Krista J. Kesselring. ‘Introduction: Coverture and Continu
 
 Tillott, P. M. *A History of the County of York: The City of York*. London: Victoria County History, 1961. 
 
-'Trees and Shrubs Online'. *International Dendrology Society*. https://www.treesandshrubsonline.org. 
+['Trees and Shrubs Online'](https://www.treesandshrubsonline.org). *International Dendrology Society*.  
 
 Trill, Suzanne, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modem England’. In *The Nature of Religious Language*, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.  
 
@@ -673,7 +673,7 @@ Watt, Jeffrey. 'Introduction'. In *From Sin to Insanity: Suicide in Early Modern
 
 Wear, Andrew. 'Puritan Perceptions of Illness in Seventeenth Century England'. In *Patients and Practitioners: Lay Perceptions of Medicine in Pre-Industrial Society*, edited by Roy Porter, 55–100. Cambridge: Cambridge University Press, 1986. 
 
-*Weatherweb*. https://premium.weatherweb.net. 
+[*Weatherweb*](https://premium.weatherweb.net/).  
 
 Weisser, Olivia. *Ill Composed: Sickness, Gender, and Belief in Early Modern England*. New Haven: Yale University Press, 2016.  
 
@@ -681,12 +681,12 @@ Whiteley, Rebecca. *Birth Figures: Early Modern Prints and the Pregnant Body*. C
 
 Whiting, C. E (ed.). The *Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
 
-'Wills and Administrations'. *National Archives of Ireland*. https://www.nationalarchives.ie/article/wills-and-administrations/. 
+['Wills and Administrations'](https://www.nationalarchives.ie/article/wills-and-administrations/). *National Archives of Ireland*. 
 
 Wilson, Adrian. ‘On the History of Disease-Concepts: The Case of Pleurisy’. *History of Science* 38, no. 3 (2000): 271–319. 
 
 Wrigley, E. A. *English Population History from Family Reconstitution, 1580–1837*. Cambridge: Cambridge University Press, 1997. 
 
-'Yorkshire Historical Dictionary'. *University of York*. https://yorkshiredictionary.york.ac.uk.  
+['Yorkshire Historical Dictionary'](https://yorkshiredictionary.york.ac.uk). *University of York*.  
 
  
