@@ -373,9 +373,9 @@ Earle, Rebecca. ‘Food’. In *A Cultural History of Medicine* edited by Roger 
 
 Eckerle, Julie A. ‘Elite English Girlhood in Early Modern Ireland: The Examples of Mary Boyle and Alice Wandesford’. In *The Youth of Early Modern Women*, edited by Elizabeth S. Cohen and Margaret Reeves, 160–77. Amsterdam: Amsterdam University Press, 2018.  
 
-Edge, Joanne. []'Alice Thornton, Memory and Middleham Castle'](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/), *Alice Thornton’s Books*, 25 July 2022. 
+Edge, Joanne. ['Alice Thornton, Memory and Middleham Castle'](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/), *Alice Thornton’s Books*, 25 July 2022. 
 
--- []'Black Monday: The Solar Eclipse of 1652'](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652). *Alice Thornton’s Books*, 25 October 2022. 
+-- ['Black Monday: The Solar Eclipse of 1652'](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652). *Alice Thornton’s Books*, 25 October 2022. 
 
 -- [‘“Tragical Transactions at Newton”: Thornton's Niece Responds’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/). *Alice Thornton’s Books*, 15 June 2023. 
 
@@ -443,7 +443,7 @@ Hatcher, Jane. *The History of Richmond, North Yorkshire, From Earliest Times to
 
 Heal, Felicity. 'The Idea of Hospitality in Early Modern England'. *Past & Present* 102 (1984): 66–93. 
 
-Healy, Simon. ‘Pepper, Christopher (1566/7–1635), of St. Martin's, Richmond, Yorks.’. *HPO*.  
+Healy, Simon. ‘Pepper, Christopher (1566/7–1635), of St. Martin's, Richmond, Yorks.’ *HPO*.  
 
 Held, Joshua R. ‘Recent Studies in Early Modern Conscience’. *English Literary Renaissance* 53, no. 1 (2023): 131–61.  
 
