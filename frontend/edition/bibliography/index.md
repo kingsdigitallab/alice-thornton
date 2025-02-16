@@ -279,7 +279,7 @@ Bennett, Martyn, Ray Gillespie and R. Scott Spurlock (eds). *Cromwell and Irelan
 
 Blackburn, Robert. 'The Summoning and Meeting of New Parliaments in the United Kingdom’. *Legal Studies* 9, no. 2 (1989): 165–76. 
 
-*Black's Law Dictionary*, 2nd edition. https://thelawdictionary.org. 
+*Black's Law Dictionary*, 2nd edn. https://thelawdictionary.org. 
 
 Bolton, P. A. and Paula Watson. 'Wandesford, John (c.1632–64), of Kirklington, Yorks. and London'. *HPO*.  
 
@@ -287,9 +287,9 @@ Boyne, William and George Charles Williamson. *Trade Tokens Issued in the Sevent
 
 Braddick, Michael. *God's Fury, England's Fire: A New History of the English Civil Wars*. London: Penguin, 2009.  
 
-Brown, A., N. Shiel, J. Uckelman, and S. L. Uckelman. ‘Robert’. *The Dictionary of Medieval Names from European Sources*, edited by S. L. Uckelman. http://dmnes.org/2021/1/name/Robert.    
+Brown, A., N. Shiel, J. Uckelman, and S. L. Uckelman. [‘Robert’](http://dmnes.org/2021/1/name/Robert). *The Dictionary of Medieval Names from European Sources*, edited by S. L. Uckelman. 2021.   
 
-Buchanan, Ashley. 'The Power of Peony'. *The Recipes Project*, 12 May 2022. https://recipes.hypotheses.org/18635.   
+Buchanan, Ashley. ['The Power of Peony'](https://recipes.hypotheses.org/18635). *The Recipes Project*, 12 May 2022.    
 
 Burns, William E. '“The Terriblest Eclipse That Hath Been Seen in Our Days”: Black Monday and the Debate on Astrology during the Interregnum'. In *Rethinking the Scientific Revolution*, ed. Margaret J. Osler, 137–52. Cambridge: Cambridge University Press, 2000. 
 
