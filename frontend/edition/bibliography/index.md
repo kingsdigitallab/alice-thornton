@@ -265,15 +265,15 @@ Barrow, J. S., J. D. Herson, A. H. Lawes, P. J. Riden and M. V. J. Seaborne. 'Ec
 
 Beattie, Cordelia. ‘The Life Cycle: The Ages of Medieval Women’. In *A Cultural History of Women*, edited by Linda Kalof, vol. 2, *The Middle Ages*, edited by Kim M. Phillips, 15–38. London: Bloomsbury, 2013. 
 
---  'A House Divided: How Did the Thorntons Feel about the Restoration of Charles II?'. *Alice Thornton’s Books*, 12 September 2022. https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided. 
+--  ['A House Divided: How Did the Thorntons Feel about the Restoration of Charles II?'](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided). *Alice Thornton’s Books*, 12 September 2022. 
 
--- 'Alice Thornton on the Coronation of Charles II: The North Remembers (sort of)'. *Alice Thornton's Books*, 23 April 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-04-23-coronation-charles-II/. 
+-- ['Alice Thornton on the Coronation of Charles II: The North Remembers (sort of)'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-04-23-coronation-charles-II/). *Alice Thornton's Books*, 23 April 2023. 
 
---  ‘“Bringing up a chicken to peck out their eye”: A niece’s betrayal’, *British Library: Untold Lives*, 30 May 2023. https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html.  
+--  [‘“Bringing up a chicken to peck out their eye”: A niece’s betrayal’](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html), *British Library: Untold Lives*, 30 May 2023. 
 
--- ‘Finding Alice Thornton's Letters’, *Alice Thornton’s Books*, 1 September 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/.  
+-- [‘Finding Alice Thornton's Letters’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/), *Alice Thornton’s Books*, 1 September 2023.   
 
-Beattie, Cordelia and Suzanne Trill. ‘Alice Thornton’s Heart: An Early Modern Emoji’. *Alice Thornton’s Books*, 17 March 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/ 
+Beattie, Cordelia and Suzanne Trill. [‘Alice Thornton’s Heart: An Early Modern Emoji’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/). *Alice Thornton’s Books*, 17 March 2023. 
 
 Bennett, Martyn, Ray Gillespie and R. Scott Spurlock (eds). *Cromwell and Ireland: New Perspectives*. Liverpool: Liverpool University Press, 2021. 
 
