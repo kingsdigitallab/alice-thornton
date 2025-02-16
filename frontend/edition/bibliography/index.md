@@ -31,7 +31,7 @@ This is a complete list of the works cited in our edition notes.
 
 'Settlement of William Thornton, September 19, 1667'. CCOM-84. 
 
- 
+
 **London, The National Archives**
 
 County Committees: Sequestration Accounts and Papers Warw. and Yorks.: 1640 Jan 01–1674 Dec 31. SP 28/215/4−5. 
@@ -53,7 +53,12 @@ State Papers Domestic, Civil War and Interregnum. Sequestration Committee: Books
 ‘Wandesford vs Robinson’, 1662. C 10/68/94.  
 
 ‘William Wandesford vs Christopher Wandesford, 1662’. C 5/41/128.  
- 
+
+
+**London, Parliamentary Archives**
+
+['An Act for the Attainder of Thomas Earl of Strafford for High Treason, 1641'](https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/collections/straffordattainder). HL/PO/PB/1/1640/16&17C1n23.     
+
 
 **Northallerton, North Yorkshire County Record Office**
 
@@ -88,7 +93,7 @@ Anne Danby, ‘An Accompt’. [MIC 2281]. ZS − The Swinton Archive.
  
 **Sheffield City Archives**
 
-'The correspondence of Thomas Wentworth, 1st Earl of Strafford'. WWM/Str P. Sheffield City Archives.
+'The correspondence of Thomas Wentworth, 1st Earl of Strafford'. WWM/Str P. 
 
  
 **York, Borthwick Institute for Archives**
@@ -100,10 +105,8 @@ Anne Danby, ‘An Accompt’. [MIC 2281]. ZS − The Swinton Archive.
 ## Published primary sources 
 
  
-1641 Depositions. Trinity College Dublin. https://1641.tcd.ie/. 
+['1641 Depositions'](https://1641.tcd.ie/). Trinity College Dublin. 
  
-'An Act for the Attainder of Thomas Earl of Strafford for High Treason, 1641'. HL/PO/PB/1/1640/16&17C1n23. Parliamentary Archives, London. https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/collections/straffordattainder.  
-
 Andry, Nicholas. *Orthopaedia: or, the Art of Correcting and Preventing Deformities in Children […]*. London: A. Millar, 1743. 
 
 Anselm, St. *St Anselm’s Book of Meditations and Prayers*, trans. M. R. London: Burns and Oates, 1872. 
