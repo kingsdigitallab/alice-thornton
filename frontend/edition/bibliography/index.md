@@ -191,7 +191,7 @@ Quarles, Francis. *Divine Poems Containing the History of Jonah, Ester, Job, Sam
 
 -- *Emblemes*. London: Francis Eglesfeild, 1639. 
 
-Ralegh, Sir Walter. ‘A Farewell to the Vanities of the World’, https://www.luminarium.org/renlit/farewell.htm.   
+Ralegh, Sir Walter. [‘A Farewell to the Vanities of the World’](https://www.luminarium.org/renlit/farewell.htm), in *A Book of Elizabethan Lyrics*, edited by Felix E. Schelling. Boston: Ginn and Company, 1895.
 
 *Saint Augustines Confessions Translated* […], translated by William Watts. London: John Partridge, 1631. 
 
