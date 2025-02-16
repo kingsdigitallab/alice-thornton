@@ -107,15 +107,15 @@ Anne Danby, ‘An Accompt’. [MIC 2281]. ZS − The Swinton Archive.
  
 ['1641 Depositions'](https://1641.tcd.ie/). Trinity College Dublin. 
  
-Andry, Nicholas. *Orthopaedia: or, the Art of Correcting and Preventing Deformities in Children […]*. London: A. Millar, 1743. 
+Andry, Nicholas. *Orthopaedia: or, the Art of Correcting and Preventing Deformities in Children* […]. London: A. Millar, 1743. 
 
 Anselm, St. *St Anselm’s Book of Meditations and Prayers*, trans. M. R. London: Burns and Oates, 1872. 
 
 Blackmore, Richard. *Discourses on the Gout, a Rheumatism, and the King’s Evil*. London: J. Pemberton, 1726. 
 
-Burn, Richard. *Ecclesiastical Law […]*, vol. 2. London: H. Woodfall and W. Strahan, 1763.  
+Burn, Richard. *Ecclesiastical Law* […], vol. 2. London: H. Woodfall and W. Strahan, 1763.  
 
-Burton, Robert. *The Anatomy of Melancholy […]*. Oxford: Henry Cripps, 1621. 
+Burton, Robert. *The Anatomy of Melancholy* […]. Oxford: Henry Cripps, 1621. 
 
 *Calamy Revised: Being a Revision of Edmund Calamy’s Account of the Ministers and Others Ejected and Silenced, 1660–2*, edited by A. G. Matthews. Oxford: Clarendon Press, 1934. 
 
@@ -123,51 +123,51 @@ Burton, Robert. *The Anatomy of Melancholy […]*. Oxford: Henry Cripps, 1621.
 
 Charles I. *The Kings Maiesties Declaration to His Subiects, Concerning Lawfull Sports to Be Vsed England and Wales*. London: Robert Barker, 1633. 
 
-Coelson, Lancelot. *The Poor-Mans Physician and Chyrurgion […]*. London: Simon Miller, 1656. 
+Coelson, Lancelot. *The Poor-Mans Physician and Chyrurgion* […]. London: Simon Miller, 1656. 
   
-Comber, Thomas (ed.). *Book of Instructions, Written by Sir Christr. Wandesforde […]*. Cambridge: J. Archdeacon, 1777. 
+Comber, Thomas (ed.). *Book of Instructions, Written by Sir Christr. Wandesforde* […]. Cambridge: J. Archdeacon, 1777. 
 
--- *Memoirs of the Life and Death of the Right Honourable the Lord Deputy Wandesforde […]*, 2nd edn. Cambridge: J. Archdeacon, 1778.  
+-- *Memoirs of the Life and Death of the Right Honourable the Lord Deputy Wandesforde* […], 2nd edn. Cambridge: J. Archdeacon, 1778.  
 
 Comber, Thomas. *Brief Discourse Upon the Offices of Baptism and Confirmation*. London: J. Martyn, 1675.  
 
-Culpeper, Nicholas. *The English Physitian […]*. London: Peter Cole, 1652. 
+Culpeper, Nicholas. *The English Physitian* […]. London: Peter Cole, 1652. 
 
 -- *Directory for Midwives*. London: Peter Cole, 1662. 
 
-De Laune, Thomas. *The Present State of London […]*. London: Enoch Prosser and John How, 1681.  
+De Laune, Thomas. *The Present State of London* […]. London: Enoch Prosser and John How, 1681.  
  
-Dod, John and Robert Cleaver. *A Godly Forme of Houshold Government for the Ordering of Priuate Families […]*. London: Thomas Man, 1621. 
+Dod, John and Robert Cleaver. *A Godly Forme of Houshold Government for the Ordering of Priuate Families* […]. London: Thomas Man, 1621. 
 
 Donne, John. ‘Upon the Translations of the Psalms by Sir Philip Sidney, and the Countess of Pembroke, his Sister’. In *Poems of John Donne*, edited by E. K. Chambers. London: Lawrence & Bullen, 1896.  
 
 Dugdale, William. *Dugdale’s Visitation of Yorkshire, with Additions*, edited by J. W. Clay, 3 vols. Exeter: William Pollard, 1899–1917. 
 
-Duncan, A. (trans.). *The Edinburgh New Dispensatory […]*. Edinburgh: Bell and Bradfute, 1810. 
+Duncan, A. (trans.). *The Edinburgh New Dispensatory* […]. Edinburgh: Bell and Bradfute, 1810. 
 
 *Eikon Basilike, with Selections from Eikonoklastes*, edited by Jim Daems and Holly Faith Nelson. Plymouth: Broadview, 2006. 
 
 Evelyn, John. *Acetaria: A Discourse of Sallets (1699)*, edited by J. P. Driver. London: Prospect Books, 1996.  
 
-Field, John and Thomas Wilcox. *An Admonition to the Parliament*. Hemel Hempstead?: s.n., 1572. 
+Field, John and Thomas Wilcox. *An Admonition to the Parliament*. Hemel Hempstead: s.n., 1572. 
 
-Gouge, William. *Of Domesticall Duties […]*. London: William Bladen, 1622. 
+Gouge, William. *Of Domesticall Duties* […]. London: William Bladen, 1622. 
 
 Grymeston, Elizabeth. *Miscelanea. Meditations. Memoratiues*. London: Felix Norton, 1604 
 
-Guidott, Thomas. *A Discourse of Bathe […]*. London: Henry Brome, 1676. 
+Guidott, Thomas. *A Discourse of Bathe* […]. London: Henry Brome, 1676. 
 
-Gyer, Nicholas. *The English Phlebotomy […]*. London: Andrew Mansell, 1592. 
+Gyer, Nicholas. *The English Phlebotomy* […]. London: Andrew Mansell, 1592. 
 
 Hall, Joseph. *Meditations and Vowes, Divine and Morall Serving for Direction in Christian and Civill Practice. Newly Enlarged with Caracters of Vertues and Vices*. London: Fetherstone, 1621.   
 
-Hammond, Samuel. *Gods Judgements upon Drunkards, Swearers, and Sabbath-breakers […]*. London: William London, 1659. 
+Hammond, Samuel. *Gods Judgements upon Drunkards, Swearers, and Sabbath-breakers* […]. London: William London, 1659. 
 
 Jones, Henry. *A Remonstrance of Divers Remarkeable Passages Concerning the Church and Kingdome of Ireland*. London: Godfrey Emerson and William Bladon, 1642. 
 
 *Journal of the House of Lords*, vol. 8, 1645–1647. London: His Majesty's Stationary Office, 1767–1830. 
 
-Hobbes, Thomas. *The Questions Concerning Liberty, Necessity, and Chance […]*. London, Andrew Crook, 1656.  
+Hobbes, Thomas. *The Questions Concerning Liberty, Necessity, and Chance* […]. London, Andrew Crook, 1656.  
 
 Hooker, Richard. *The Works of Mr. Richard Hooker … in Eight Books of Ecclesiastical Polity*. London: Thomas Newcomb for Andrew Crook, 1666. 
 
@@ -175,17 +175,17 @@ James I and VI. *The Kings Maiesties Declaration to His Subiects, Concerning Law
 
 'Mrs. Thornton to Her Husband, 18 October 1664', reproduced in *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*, edited by Charles Jackson, Surtees Society 62. Durham: Andrews & Co., 1875. 
 
-Mulcaster, Richard. *Positions Wherin those Primitive Circumstances be Examined, Which are Necessary for the Training Up of Children […]*. London: Thomas Chare, 1581. 
+Mulcaster, Richard. *Positions Wherin those Primitive Circumstances be Examined, Which are Necessary for the Training Up of Children* […]. London: Thomas Chare, 1581. 
 
-Pechey, John. *The Compleat Midwife's Practice […]*. London: H. Rhodes, 1698. 
+Pechey, John. *The Compleat Midwife's Practice* […]. London: H. Rhodes, 1698. 
 
-Petty, William. *A Treatise of Taxes and Contributions […]*. London: N. Brooke, 1662. 
+Petty, William. *A Treatise of Taxes and Contributions* […]. London: N. Brooke, 1662. 
 
 Pond, Edward. *An Almanack for the year of our Lord God 1652*. Cambridge: the printers to the University, 1652. 
 
 *Probate Inventories of Lincoln Citizens 1661–1714*, edited by J. A. Johnston. Woodbridge: Boydell and Brewer, 1991.  
 
-Prynne, William. *The Petition of Right of the Free-Holders and Free-Men of the Kingdom of England […]*. London: s. n., 1648. 
+Prynne, William. *The Petition of Right of the Free-Holders and Free-Men of the Kingdom of England* […]. London: s. n., 1648. 
 
 Quarles, Francis. *Divine Poems Containing the History of Jonah, Ester, Job, Sampson: Sions Sonets, Elegies*. London: John Marriott, 1633.  
 
@@ -193,9 +193,9 @@ Quarles, Francis. *Divine Poems Containing the History of Jonah, Ester, Job, Sam
 
 Ralegh, Sir Walter. ‘A Farewell to the Vanities of the World’, https://www.luminarium.org/renlit/farewell.htm.   
 
-*Saint Augustines Confessions Translated […]*, translated by William Watts. London: John Partridge, 1631. 
+*Saint Augustines Confessions Translated* […], translated by William Watts. London: John Partridge, 1631. 
 
-Sharp, Jane. *The Midwives Book, or, The Whole Art of Midwifry Discovered […]*. London: Simon Miller, 1671  
+Sharp, Jane. *The Midwives Book, or, The Whole Art of Midwifry Discovered* […]. London: Simon Miller, 1671  
 
 Sidney, Sir Philip. *The Poems of Sir Philip Sidney*, edited by William A. Ringle. Oxford: Clarendon Press, 1962.  
 
@@ -203,7 +203,7 @@ Smith, Henry. *The Sermons of Mr. Henry Smith*. London: Andrew Kembe, John Wrigh
 
 Sylvester, Joshua. *Panthea: Or, Divine Wishes and Meditations*. London: F. Coules, 1630.     
 
-Temple, John. *The Irish Rebellion […]*. London: Samuel Gellibrand, 1646. 
+Temple, John. *The Irish Rebellion* […]. London: Samuel Gellibrand, 1646. 
 
 *The Book of Common Prayer: The Texts of 1549, 1559, and 1662*, edited by Brian Cummings. Oxford: Oxford University Press, 2011. 
 
@@ -211,17 +211,17 @@ Temple, John. *The Irish Rebellion […]*. London: Samuel Gellibrand, 1646.
 
 *The Parish Registers of Kirklington in the County of York, 1568–1812*, edited by Hardy Bertram McCall. Parish Register Series 35. Leeds: Yorkshire Parish Register Society, 1909.   
 
-*The Truest Relation of the Earle of Straffords Speech on the Scaffold on Tower-Hill […]*. London: s.n., 1641. 
+*The Truest Relation of the Earle of Straffords Speech on the Scaffold on Tower-Hill* […]. London: s.n., 1641. 
 
 'The Will of Dame Alice Wandesford, Widow of Lord Deputy Wandesford — 10th January 1658. Proved at London 19th July 1660', in Hardy Bertram McCall, *Story of the Family of Wandesforde of Kirklington & Castlecomer […]*. London: Simpkin, Marshall, Hamilton & co., 1904. 
 
 Walton, Izaak and Charles Cotton. *The Complete Angler*, edited by Richard Le Gallienne. London: John Lane, 1897.  
 
-West, William. *The First Part of Symboleography […]*. London: Thomas Wight and Bonham Norton, 1598. 
+West, William. *The First Part of Symboleography* […]. London: Thomas Wight and Bonham Norton, 1598. 
 
-Willis, Thomas. *The London Practice of Physick […]*. London: Thomas Basset and William Crooke, 1685.  
+Willis, Thomas. *The London Practice of Physick* […]. London: Thomas Basset and William Crooke, 1685.  
 
-Wittie, Robert. *Scarbrough Spaw […]*. London: Charles Tyus, 1660 
+Wittie, Robert. *Scarbrough Spaw* […]. London: Charles Tyus, 1660 
 
 <p>&nbsp;</p>
  
