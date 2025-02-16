@@ -311,7 +311,7 @@ Chiari, Sophie and Samuel Cuisinier-Delorme (eds.). *Spa Culture and Literature 
 
 Churchill, Wendy D. *Female Patients in Early Modern Britain: Gender, Diagnosis, and Treatment*. London: Routledge, 2016. 
 
-'Civil Court Cases: Assize Courts 1656–1971'. *The National Archives*. https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/civil-court-cases-assize-courts-1656-1971/. 
+['Civil Court Cases: Assize Courts 1656–1971'](https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/civil-court-cases-assize-courts-1656-1971/). *The National Archives*. 
 
 Clark, G. N. *The Later Stuarts*. Oxford: Clarendon Press, 1940.  
 
@@ -373,15 +373,15 @@ Earle, Rebecca. ‘Food’. In *A Cultural History of Medicine* edited by Roger 
 
 Eckerle, Julie A. ‘Elite English Girlhood in Early Modern Ireland: The Examples of Mary Boyle and Alice Wandesford’. In *The Youth of Early Modern Women*, edited by Elizabeth S. Cohen and Margaret Reeves, 160–77. Amsterdam: Amsterdam University Press, 2018.  
 
-Edge, Joanne. 'Alice Thornton, Memory and Middleham Castle', *Alice Thornton’s Books*, 25 July 2022. https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/.    
+Edge, Joanne. []'Alice Thornton, Memory and Middleham Castle'](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/), *Alice Thornton’s Books*, 25 July 2022. 
 
--- 'Black Monday: The Solar Eclipse of 1652'. *Alice Thornton’s Books*, 25 October 2022. https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652. 
+-- []'Black Monday: The Solar Eclipse of 1652'](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652). *Alice Thornton’s Books*, 25 October 2022. 
 
--- ‘“Tragical Transactions at Newton”: Thornton's Niece Responds’. *Alice Thornton’s Books*, 15 June 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/.  
+-- [‘“Tragical Transactions at Newton”: Thornton's Niece Responds’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/). *Alice Thornton’s Books*, 15 June 2023. 
 
--- Forbidden Fruit?'. *History Workshop Journal*, 30 August 2023. https://www.historyworkshop.org.uk/food/forbidden-fruit/.   
+-- ['Forbidden Fruit?'](https://www.historyworkshop.org.uk/food/forbidden-fruit/). *History Workshop: Digital Magazine*, 30 August 2023.   
 
--- ‘“But I gave her all medicines”: Herbal Remedies in Alice Thornton's Books’. *Alice Thornton’s Books*, 16 November 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-11-16-alice-thornton-herbal-medicine/.
+-- [‘“But I gave her all medicines”: Herbal Remedies in Alice Thornton's Books’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-11-16-alice-thornton-herbal-medicine/). *Alice Thornton’s Books*, 16 November 2023. 
 
 Erickson, Amy Louise. 'Common Law versus Common Practice: The Use of Marriage Settlements in Early Modern England'. *Economic History Review* 43, no. 1 (1990): 21–39.  
 
