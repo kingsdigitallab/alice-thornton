@@ -8,9 +8,9 @@ hideCitation: true
 customCSS: "/assets/css/timeline.css"
 ---
 
-Below is a visual representation of Alice Thornton’s life, depicted by the curved grey  line that starts with her birth and concludes with her death. The timeline starts from left to right, following the curve downward and round to snake in the opposite direction. Arrows are included at each curve to guide the direction of reading. 
+Below is a visual representation of Alice Thornton’s life, using data  from her Books and other sources.  
 
-"Guidelines" and "Legend" section on the right, that slide out once clicked, give guidance on how to understand and navigate the timeline.
+"Guidelines" and "Legend" section on the right, slide out once clicked, give guidance on how to understand and navigate the timeline.
 
 <hr>
 <em>Note: All elements below scale in response to the viewport so best viewed on a larger screen. </em>
