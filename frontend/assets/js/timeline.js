@@ -264,6 +264,22 @@ function createTable(data, decade, scale) {
           }
           return null;
         });
+
+        // Add data attribute for tooltips for entity (book) and historical event counts
+        cell.attr("data-tooltip-suffix", (d) => {
+          if (
+            (d.header === "entityEventCount" ||
+              d.header === "historicalEventCount") &&
+            d.value > 0
+          ) {
+            const eventType =
+              d.header === "entityEventCount"
+                ? "book event"
+                : "historical event";
+            return d.value === 1 ? eventType : `${eventType}s`; // Singular for 1, plural for 2+
+          }
+          return null; // No attribute for 0 events
+        });
       });
 
     // Create the hidden row for array data
