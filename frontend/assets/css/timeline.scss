@@ -254,6 +254,9 @@ max-width:1200px;
             &:after {
               opacity: 1;
             }
+            &:before {
+              opacity: 1;
+            }
             &.present {
               opacity: 1;
               & span {
@@ -266,7 +269,8 @@ max-width:1200px;
             &.birthEventCount,
             &.deathEventCount,
             &.marriageEventCount,
-            &.historicalEventCount {
+            &.historicalEventCount,
+            &.entityEventCount {
               &:after{
                 opacity:1;
               }
@@ -409,10 +413,10 @@ max-width:1200px;
             width: calc(var(--event-value) / 1);
             padding-bottom: calc(var(--event-value) / 1);
             margin-bottom: 0;
-            opacity: 1;
+            opacity: 0.4;
             aspect-ratio: 1/4;
           
-           &:after {
+           &:before {
               background-image: linear-gradient(
                 180deg,
                 rgba(70, 34, 0, 1),
@@ -427,9 +431,23 @@ max-width:1200px;
               clip-path: polygon(50% 0, 100% 100%, 0 100%);
               width: 7.5vw;
             }
-
             & span {
-              transform: translate(-50%, -120%);
+              text-align:left;
+              opacity:0;
+              background:rgba(255,255,255,0.9);
+              display:block;
+              padding:0 0.5vw;
+
+            }
+            &:after{ 
+              content: attr(data-tooltip-suffix);
+              font-size: 1vw;
+              width: 7vw;
+              position: absolute;
+              opacity: 0;
+              transform: translate(60%, 0);
+              text-align: left;
+              background:rgba(255,255,255,0.9);
             }
           } //&.entityEventCount
           &.year {
@@ -647,10 +665,11 @@ transform: translateX(35%);
               content: attr(data-title);
               background: rgba(255,255,255,0.9);
               box-shadow:0 0.1vw 0.3vw rgba(128, 31, 0,0.4);
-              width: 500%;
-              font-size: min(1.5vw, 16px);
+              width: 15vw;
+              font-size: 1vw;
+              line-height:1;
               position: absolute;
-              top: -200%;
+              top: -70%;
               height: auto;
               opacity:0;
               z-index:2;
@@ -660,7 +679,7 @@ transform: translateX(35%);
           &.marriageEventCount{
             &:after{
               transform: translateX(0%);
-              top: -300%;
+              top: -100%;
             }
           }//&.marriageEventCount
           &.deathEventCount{
@@ -763,9 +782,7 @@ transform: translateX(35%);
     display:flex;
     flex-wrap:wrap;
     background:$primary;
-      ul {
-    
-  }
+
     div{
       background:white;
       width: calc(50% - 1.6vw);
@@ -1099,3 +1116,4 @@ transform: translateX(35%);
 
   //input#filter[type="checkbox"]:checked~label.filter
 }//.guideline-wrapper
+
