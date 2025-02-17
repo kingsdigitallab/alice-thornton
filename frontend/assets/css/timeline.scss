@@ -259,6 +259,18 @@ max-width:1200px;
             bottom: 4vw;
             color:white;
           }
+          &:after{ 
+            content: attr(data-book-tooltip);
+            font-size: 1vw;
+            width: 8vw;
+            position: absolute;
+            opacity: 0;
+            transform: translate(-80%, -120%);
+            text-align: left;
+            background: rgba(255, 255, 255, 0.9);
+            padding:0.3vw;
+            box-shadow:0.1vw 0.1vw 0.1vw $gray;
+          }
         }
         &:hover {
           border-bottom: 0.4vw solid $pink;
@@ -478,17 +490,6 @@ max-width:1200px;
             span {
               opacity: 1;
             }
-            &:after{ 
-              content: attr(data-book-tooltip);
-              font-size: 1vw;
-              width: 8vw;
-              position: absolute;
-              opacity: 0;
-              transform: translate(-80%, -120%);
-              text-align: left;
-              background: rgba(255, 255, 255, 0.9);
-            }
-
           } //.year
 
           &.historicalEventCount {
@@ -642,16 +643,15 @@ transform: translateX(35%);
               text-underline-offset: 0.3vw;
             }
             &.child-1:before {
-              content: "1";
-              text-decoration:underline; //female          
+              content: "1";   
             } //.child-1:before
             &.child-2:before {
               content: "2";
-              text-decoration:underline;
-              text-decoration-style: double; //male 
+              text-decoration:underline; //female       
             } //.child-1:before
             &.child-3:before {
               content: "3";
+              text-decoration:underline; //female       
             } //.child-4:before
             &.child-4:before {
               content: "4";
@@ -662,15 +662,19 @@ transform: translateX(35%);
             } //.child-5:before
             &.child-6:before {
               content: "6";
+              text-decoration-style: double; //male 
             } //.child-6:before
             &.child-7:before {
               content: "7";
+              text-decoration-style: double; //male 
             } //.child-7:before
             &.child-8:before {
               content: "8";
+              text-decoration:underline; //female       
             } //.child-8:before
             &.child-9:before {
               content: "9";
+              text-decoration-style: double; //male 
             } //.child-9:before
             &.alice:before {
               content: "A";
@@ -678,12 +682,15 @@ transform: translateX(35%);
             } //.alice:before
             &.alice-mother:before {
               content: "AM";
+              text-decoration:underline; //female       
             } //.alice-mother:before
             &.alice-father:before {
               content: "AF";
+              text-decoration-style: double; //male 
             } //.alice-father:before
             &.alice-husband:before {
               content: "AH";
+              text-decoration-style: double; //male 
             } //.alice-husband:before
           } //&.birthEventCount, &.deathEventCount, &.marriageEventCount
           &.birthEventCount,
@@ -713,9 +720,10 @@ transform: translateX(35%);
           &.deathEventCount{
             &:after{
               top: 220%;
-              background:rgba(0,0,0,0.8);
+              background:rgba(0,0,0,0.9);
               box-shadow:0 0.1vw 0.3vw rgba(0,0,0,0.4);
               color:white;
+              padding: 0.2vw 0;
             }
           }//&.deathEventCount
         } //td
