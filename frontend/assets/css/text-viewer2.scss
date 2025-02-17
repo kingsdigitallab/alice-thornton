@@ -115,7 +115,7 @@ section {
               } //i
             } //&:hover
           } //label
-          .dont-print {
+          .add-pages {
             margin-top: -23px;
             label {
               margin-top: -10px;
@@ -128,7 +128,7 @@ section {
               margin-top: -5px;
               color: black;
             } //input
-          } //.dont-print
+          } //.add-pages
           &.bottom {
             bottom: 0;
             height: 60px;
@@ -1688,6 +1688,9 @@ $render-sic: false;
         }
         label {
           vertical-align: bottom;
+        }
+        .print-button {
+          margin-top: 0.4em;
         }
       }
       .panel {

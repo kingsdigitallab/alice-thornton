@@ -14,12 +14,17 @@ isContentHTML: true
 isPageFluid: false
 customCSS: "/assets/css/text-viewer2.css"
 customBodyClasses: "body-text-viewer viewer-print"
+hideTitle: true
 ---
+
+<h1 class="title"><a href="..">Digital Edition</a> / Print View</h1>
 
 A continuous section of a book in a single column display
 for easier reading on screen or better printing layout.
 Note that this view is an unfinished prototype.
 It contains interaction and formatting bugs.
+([Back to the web view of the digital edition.](..)).
+<br><br>
 
 {% raw %}
 
@@ -44,12 +49,13 @@ It contains interaction and formatting bugs.
           <panel-control :panel-idx="panelIdx" control-key="document" label="Book:"></panel-control>
           <panel-control :panel-idx="panelIdx" control-key="view" label="Version:"></panel-control>
           <panel-control :panel-idx="panelIdx" control-key="locus" hide-label="1" label="Page:"></panel-control>
-          <div class="select-dropdown control dont-print">
+          <div class="select-dropdown control add-pages dont-print">
             <label>
             Add pages:
             </label>
             <input type="number" class="input" v-model="panel.selections.extent" @change="onChangeSelector(panel, 'extent')" min="1" max="300">
           </div>
+          <button class="button is-secondary dont-print print-button" onclick="window.print();">Print</button>
         </div>
       </nav>
       <div class="panel-chunk">
