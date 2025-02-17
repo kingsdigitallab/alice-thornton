@@ -263,6 +263,14 @@ max-width:1200px;
             &.year span {
               font-weight: bold;
             }
+            &.birthEventCount,
+            &.deathEventCount,
+            &.marriageEventCount {
+              &:after{
+     
+                opacity:1;
+              }
+            }
           } //td
         } //&:hover
         &.hiddenRow {
@@ -539,7 +547,7 @@ transform: translateX(35%);
   background-size: 100% 100%;
             display:flex;
             opacity:0;
-            &:after{
+           /* &:after{ //Clashing with data attribute
               content:'';
       width: 3vw;
   height: 3vw;
@@ -551,8 +559,7 @@ transform: translateX(35%);
   left: 0;
   top: 0;
   opacity: 1;
-    transform:rotate(45deg);
-            }    
+            }    */
             &.present {
               opacity:1;
               &:before {
@@ -576,6 +583,7 @@ transform: translateX(35%);
               display: none;
             } //span
           } //&.marriageEventCount
+
           &.birthEventCount,
           &.deathEventCount,
           &.marriageEventCount {
@@ -627,6 +635,37 @@ transform: translateX(35%);
               content: "AH";
             } //.alice-husband:before
           } //&.birthEventCount, &.deathEventCount, &.marriageEventCount
+          &.birthEventCount,
+          &.marriageEventCount,
+          &.deathEventCount{
+            &:after{
+              content: attr(data-title);
+              background: rgba(255,255,255,0.9);
+              box-shadow:0 0.1vw 0.3vw rgba(128, 31, 0,0.4);
+              width: 500%;
+              font-size: min(1.5vw, 16px);
+              position: absolute;
+              top: -200%;
+              height: auto;
+              opacity:0;
+              z-index:2;
+              color:black;
+            }
+          }
+          &.marriageEventCount{
+            &:after{
+              transform: translateX(0%);
+              top: -300%;
+            }
+          }//&.marriageEventCount
+          &.deathEventCount{
+            &:after{
+              top: 220%;
+              background:rgba(0,0,0,0.8);
+              box-shadow:0 0.1vw 0.3vw rgba(0,0,0,0.4);
+              color:white;
+            }
+          }//&.deathEventCount
         } //td
       } //tr
     } //tbody
@@ -834,11 +873,11 @@ content:'';
           left:5px;
 transform: translateX(35%);
             background-image: radial-gradient(circle at center center,transparent 65.6%,darkred 69.9%,darkred 70.6%,transparent 75.9%),radial-gradient(circle at center center,transparent 65.6%,darkred 69.9%,darkred 70.6%,transparent 75.9%),
-    radial-gradient(transparent, transparent 58%, darkred);
+    radial-gradient(transparent, transparent 58%, darkred) ;
   background-position: 50% -10px,-10px 50%,-10px -10px;
   background-size: 100% 100%;
         } //&:before
-        &:after{
+        /*&:after{ //Clashing with data-attribute
             width: 20px;
 height: 20px;
 opacity: 1;
@@ -851,7 +890,7 @@ transform: translateX(35%);
   background-position: 50% -10px,-10px 50%,-10px -10px;
   background-size: 100% 100%;
           transform:rotate(45deg);
-        }
+        }*/
       }//nth-child(3)
             &:nth-child(4) {//Male
         &:before {
