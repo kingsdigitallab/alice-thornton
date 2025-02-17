@@ -83,11 +83,6 @@ max-width:1200px;
   margin:0 auto;
 }
 
-body.no-scroll {
-  overflow: hidden;
-  height: 100vh;
-}
-
 #data {
   margin: 10vw 0 10vw 25%;
   width: 60%;
@@ -251,6 +246,20 @@ body.no-scroll {
         margin: 0 0 0;
         border-bottom: 0.4vw solid $lifeline;
         align-self: flex-end;
+        [data-book-id]{
+          &:before{ 
+            content: attr(data-book-id);
+            font-size: 1vw;
+            width: 1vw;
+            position: absolute;
+            opacity: 1;
+            text-align: center;
+            background-image: linear-gradient(180deg, rgba(70, 34, 0, 0.6) 1%, rgba(179, 66, 0, 0.1) 100%);
+            height: 5vw;
+            bottom: 4vw;
+            color:white;
+          }
+        }
         &:hover {
           border-bottom: 0.4vw solid $pink;
           cursor: pointer;
@@ -275,7 +284,8 @@ body.no-scroll {
             &.deathEventCount,
             &.marriageEventCount,
             &.historicalEventCount,
-            &.entityEventCount {
+            &.entityEventCount,
+            &.year {
               &:after{
                 opacity:1;
               }
@@ -284,7 +294,7 @@ body.no-scroll {
         } //&:hover
         &.hiddenRow {
           background: $gray;
-          width: 89vw;
+          width: 90vw;
           position: fixed;
           left: 0;
           height: 100vh;
@@ -401,8 +411,6 @@ body.no-scroll {
           align-items: center;
           justify-content: center;
          // display: flex;
-        
-
           &:after {
             opacity: 0.6;
           }
@@ -462,16 +470,27 @@ body.no-scroll {
             bottom: -4vw;
             z-index: 1;
             width: 3vw;
-height: 1.5vw;
-opacity: 1;
-display: inline-flex;
-margin-top: 2vw;
-transform: translateX(35%);
-
+            height: 1.5vw;
+            opacity: 1;
+            display: inline-flex;
+            margin-top: 2vw;
+            transform: translateX(35%);
             span {
               opacity: 1;
             }
+            &:after{ 
+              content: attr(data-book-tooltip);
+              font-size: 1vw;
+              width: 8vw;
+              position: absolute;
+              opacity: 0;
+              transform: translate(-80%, -120%);
+              text-align: left;
+              background: rgba(255, 255, 255, 0.9);
+            }
+
           } //.year
+
           &.historicalEventCount {
             width: 3vw;
             height: 4vw;
@@ -1125,4 +1144,5 @@ transform: translateX(35%);
 
   //input#filter[type="checkbox"]:checked~label.filter
 }//.guideline-wrapper
+
 
