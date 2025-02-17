@@ -478,12 +478,16 @@ transform: translateX(35%);
             &.present {
               background-image: linear-gradient(90deg, $primary-light  1%, $primary-light 5%, transparent 3%);
             } //&.present
+            span{
+              bottom:-10%;
+            }
             &:after{ 
               content: attr(data-tooltip-suffix);
               font-size: 1vw;
               width: 10vw;
               left: 20%;
               position: absolute;
+              bottom:-10%;
               opacity:0;
             }
           } //&.historicalEventCount
