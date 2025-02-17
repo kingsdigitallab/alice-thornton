@@ -83,6 +83,11 @@ max-width:1200px;
   margin:0 auto;
 }
 
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 #data {
   margin: 10vw 0 10vw 25%;
   width: 60%;
@@ -279,7 +284,7 @@ max-width:1200px;
         } //&:hover
         &.hiddenRow {
           background: $gray;
-          width: 90vw;
+          width: 89vw;
           position: fixed;
           left: 0;
           height: 100vh;
