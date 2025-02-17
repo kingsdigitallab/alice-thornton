@@ -238,6 +238,24 @@ function createTable(data, decade, scale) {
         // Add the year value as a span
         cell.append("span").text(d.value != null ? d.value : "N/A");
 
+        // Add data attributes for when the books were written
+        // so that symbols/tooltips can be added using pseudo element selectors
+        if (d.header === "year") {
+          const bookData = {
+            1659: { id: "R", tooltip: "Book Rem: written c.1659-1673" },
+            1668: { id: "1", tooltip: "Book One: written c.1668-1687" },
+            1685: { id: "2", tooltip: "Book Two: written c.1685-1695" },
+            1692: { id: "3", tooltip: "Book Three: written c. 1692-1696" },
+          };
+
+          const year = d.value.toString();
+
+          if (bookData[year]) {
+            cell.attr("data-book-id", bookData[year].id);
+            cell.attr("data-book-tooltip", bookData[year].tooltip);
+          }
+        }
+
         // Add data-title for birth, death, marriage, and historical event counts
         cell.attr("data-title", (d) => {
           if (
