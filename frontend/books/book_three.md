@@ -11,9 +11,13 @@ archivedAt:
 contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/refs/heads/edition/texts/03_book_three/book_three.xml
 ---
 
-## Description (Coming soon)
+## Description 
 
-## Provenance (Coming soon)
+Autograph manuscript volume (210mm x 165mm x 40mm), a quarto notebook with original calf binding and gilt stamped. On the opening page is Thornton’s monogram and the date of her husband’s death but no title is given. The text runs to 217 pages (approximately 85,000-words), with 138 ruled but otherwise blank pages at the back of the book. 
+
+## Provenance 
+
+Owned by Thornton’s grandson, Thomas Comber (c.1721-65); the Rev. Henry George Wandesford Comber, MA, Rector of Oswaldkirk (1875). Sold at Sotheby's, 13 December 1994, lot 44, to Quaritch. Then owned by Paula Peyraud, New York State. Sold at Bloomsbury Auctions, New York, 6 May 2009, lot 464, to the British Library. 
 
 ## Dating
 

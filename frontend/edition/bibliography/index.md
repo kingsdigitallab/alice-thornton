@@ -1,7 +1,8 @@
 ---
 title: Bibliography
 ---
-
+<p>&nbsp;</p>
+This is a complete list of the works cited in our edition notes.
 <p>&nbsp;</p>
 
 ## Manuscript sources
@@ -24,7 +25,8 @@ title: Bibliography
 
 ‘Alice Thornton to Dean Comber, 24 April 1699; addendum 3 May 1699’. CCOM 57/7.
 
-'Settlement of William Thornton, September 19, 1667'. CCOM-84.
+'Settlement of William Thornton, September 19, 1667'. CCOM-84. 
+
 
 **London, The National Archives**
 
@@ -46,7 +48,13 @@ State Papers Domestic, Civil War and Interregnum. Sequestration Committee: Books
 
 ‘Wandesford vs Robinson’, 1662. C 10/68/94.
 
-‘William Wandesford vs Christopher Wandesford, 1662’. C 5/41/128.
+‘William Wandesford vs Christopher Wandesford, 1662’. C 5/41/128.  
+
+
+**London, Parliamentary Archives**
+
+['An Act for the Attainder of Thomas Earl of Strafford for High Treason, 1641'](https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/collections/straffordattainder). HL/PO/PB/1/1640/16&17C1n23.     
+
 
 **Northallerton, North Yorkshire County Record Office**
 
@@ -80,21 +88,21 @@ Anne Danby, ‘An Accompt’. [MIC 2281]. ZS − The Swinton Archive.
 
 **Sheffield City Archives**
 
-'The correspondence of Thomas Wentworth, 1st Earl of Strafford'. WWM/Str P. Sheffield City Archives.
+'The correspondence of Thomas Wentworth, 1st Earl of Strafford'. WWM/Str P. 
 
+ 
 **York, Borthwick Institute for Archives**
 
 ‘Alice Thornton to Lady Yarbrough at Her House at Snaith, April 1700’, YM/CP/1, 2/5, 15.
 
 <p>&nbsp;</p>
 
-## Published primary sources
+## Published primary sources 
 
-1641 Depositions. Trinity College Dublin. https://1641.tcd.ie/.
-
-'An Act for the Attainder of Thomas Earl of Strafford for High Treason, 1641'. HL/PO/PB/1/1640/16&17C1n23. Parliamentary Archives, London. https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/collections/straffordattainder.
-
-Andry, Nicholas. _Orthopaedia: or, the Art of Correcting and Preventing Deformities in Children_ […]. London: A. Millar, 1743.
+ 
+['1641 Depositions'](https://1641.tcd.ie/). Trinity College Dublin. 
+ 
+Andry, Nicholas. *Orthopaedia: or, the Art of Correcting and Preventing Deformities in Children* […]. London: A. Millar, 1743. 
 
 Anselm, St. _St Anselm’s Book of Meditations and Prayers_, trans. M. R. London: Burns and Oates, 1872.
 
@@ -106,15 +114,13 @@ Burton, Robert. _The Anatomy of Melancholy_ […]. Oxford: Henry Cripps, 1621.
 
 _Calamy Revised: Being a Revision of Edmund Calamy’s Account of the Ministers and Others Ejected and Silenced, 1660–2_, edited by A. G. Matthews. Oxford: Clarendon Press, 1934.
 
-_Calendar, Committee For Compounding: Part 2_, ed. Mary Anne Everett Green. London: Her Majesty's Stationery Office, 1890.
+*Calendar, Committee For Compounding: Part 2*, edited by Mary Anne Everett Green. London: Her Majesty's Stationery Office, 1890.
 
 Charles I. _The Kings Maiesties Declaration to His Subiects, Concerning Lawfull Sports to Be Vsed England and Wales_. London: Robert Barker, 1633.
 
-Coelson, Lancelot. _The Poor-Mans Physician and Chyrurgion_ […]. London: Simon Miller, 1656.
-
-'Coin: BUC-688073'. Portable Antiquities Scheme. https://finds.org.uk/database/artefacts/record/id/163228.
-
-Comber, Thomas (ed.). _Book of Instructions, Written by Sir Christr. Wandesforde_ […]. Cambridge: J. Archdeacon, 1777.
+Coelson, Lancelot. *The Poor-Mans Physician and Chyrurgion* […]. London: Simon Miller, 1656. 
+  
+Comber, Thomas (ed.). *Book of Instructions, Written by Sir Christr. Wandesforde* […]. Cambridge: J. Archdeacon, 1777. 
 
 -- _Memoirs of the Life and Death of the Right Honourable the Lord Deputy Wandesforde_ […], 2nd edn. Cambridge: J. Archdeacon, 1778.
 
@@ -138,9 +144,9 @@ _Eikon Basilike, with Selections from Eikonoklastes_, edited by Jim Daems and Ho
 
 Evelyn, John. _Acetaria: A Discourse of Sallets (1699)_, edited by J. P. Driver. London: Prospect Books, 1996.
 
-Field, John and Thomas Wilcox. _An Admonition to the Parliament_. Hemel Hempstead?: s.n., 1572.
+Field, John and Thomas Wilcox. *An Admonition to the Parliament*. Hemel Hempstead: s.n., 1572. 
 
-Gouge, William. _Of Domesticall Duties_ […]. London: William Bladen, 1622).
+Gouge, William. *Of Domesticall Duties* […]. London: William Bladen, 1622. 
 
 Grymeston, Elizabeth. _Miscelanea. Meditations. Memoratiues_. London: Felix Norton, 1604
 
@@ -180,7 +186,7 @@ Quarles, Francis. _Divine Poems Containing the History of Jonah, Ester, Job, Sam
 
 -- _Emblemes_. London: Francis Eglesfeild, 1639.
 
-Ralegh, Sir Walter. ‘A Farewell to the Vanities of the World’, https://www.luminarium.org/renlit/farewell.htm.
+Ralegh, Sir Walter. [‘A Farewell to the Vanities of the World’](https://www.luminarium.org/renlit/farewell.htm), in *A Book of Elizabethan Lyrics*, edited by Felix E. Schelling, 188-90. Boston: Ginn and Company, 1895.
 
 _Saint Augustines Confessions Translated_ […], translated by William Watts. London: John Partridge, 1631.
 
@@ -202,7 +208,7 @@ _The Parish Registers of Kirklington in the County of York, 1568–1812_, edited
 
 _The Truest Relation of the Earle of Straffords Speech on the Scaffold on Tower-Hill_ […]. London: s.n., 1641.
 
-'The Will of Dame Alice Wandesford, Widow of Lord Deputy Wandesford — 10th January 1658. Proved at London 19th July 1660', in Hardy Bertram McCall, _Story of the Family of Wandesforde of Kirklington & Castlecomer_ […]. London: Simpkin, Marshall, Hamilton & co., 1904.
+'The Will of Dame Alice Wandesford, Widow of Lord Deputy Wandesford — 10th January 1658. Proved at London 19th July 1660', in Hardy Bertram McCall, *Story of the Family of Wandesforde of Kirklington & Castlecomer […]*. London: Simpkin, Marshall, Hamilton & co., 1904. 
 
 Walton, Izaak and Charles Cotton. _The Complete Angler_, edited by Richard Le Gallienne. London: John Lane, 1897.
 
@@ -254,21 +260,21 @@ Barrow, J. S., J. D. Herson, A. H. Lawes, P. J. Riden and M. V. J. Seaborne. 'Ec
 
 Beattie, Cordelia. ‘The Life Cycle: The Ages of Medieval Women’. In _A Cultural History of Women_, edited by Linda Kalof, vol. 2, _The Middle Ages_, edited by Kim M. Phillips, 15–38. London: Bloomsbury, 2013.
 
--- 'A House Divided: How Did the Thorntons Feel about the Restoration of Charles II?'. _Alice Thornton’s Books_, 12 September 2022. https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided.
+--  ['A House Divided: How Did the Thorntons Feel about the Restoration of Charles II?'](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided). *Alice Thornton’s Books*, 12 September 2022. 
 
--- 'Alice Thornton on the Coronation of Charles II: The North Remembers (sort of)'. _Alice Thornton's Books_, 23 April 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-04-23-coronation-charles-II/.
+-- ['Alice Thornton on the Coronation of Charles II: The North Remembers (sort of)'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-04-23-coronation-charles-II/). *Alice Thornton's Books*, 23 April 2023. 
 
--- ‘“Bringing up a chicken to peck out their eye”: A niece’s betrayal’, _British Library: Untold Lives_, 30 May 2023. https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html.
+--  [‘“Bringing up a chicken to peck out their eye”: A niece’s betrayal’](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html), *British Library: Untold Lives*, 30 May 2023. 
 
--- ‘Finding Alice Thornton's Letters’, _Alice Thornton’s Books_, 1 September 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/.
+-- [‘Finding Alice Thornton's Letters’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/), *Alice Thornton’s Books*, 1 September 2023.   
 
-Beattie, Cordelia and Suzanne Trill. ‘Alice Thornton’s Heart: An Early Modern Emoji’. _Alice Thornton’s Books_, 17 March 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/
+Beattie, Cordelia and Suzanne Trill. [‘Alice Thornton’s Heart: An Early Modern Emoji’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/). *Alice Thornton’s Books*, 17 March 2023. 
 
 Bennett, Martyn, Ray Gillespie and R. Scott Spurlock (eds). _Cromwell and Ireland: New Perspectives_. Liverpool: Liverpool University Press, 2021.
 
 Blackburn, Robert. 'The Summoning and Meeting of New Parliaments in the United Kingdom’. _Legal Studies_ 9, no. 2 (1989): 165–76.
 
-_Black's Law Dictionary_, 2nd edition. https://thelawdictionary.org.
+*Black's Law Dictionary*, 2nd edn. https://thelawdictionary.org. 
 
 Bolton, P. A. and Paula Watson. 'Wandesford, John (c.1632–64), of Kirklington, Yorks. and London'. _HPO_.
 
@@ -276,9 +282,9 @@ Boyne, William and George Charles Williamson. _Trade Tokens Issued in the Sevent
 
 Braddick, Michael. _God's Fury, England's Fire: A New History of the English Civil Wars_. London: Penguin, 2009.
 
-Brown, A., N. Shiel, J. Uckelman, and S. L. Uckelman. ‘Robert’. _The Dictionary of Medieval Names from European Sources_, edited by S. L. Uckelman. http://dmnes.org/2021/1/name/Robert.
+Brown, A., N. Shiel, J. Uckelman, and S. L. Uckelman. [‘Robert’](http://dmnes.org/2021/1/name/Robert). *The Dictionary of Medieval Names from European Sources*, edited by S. L. Uckelman. 2021.   
 
-Buchanan, Ashley. 'The Power of Peony'. _The Recipes Project_, 12 May 2022. https://recipes.hypotheses.org/18635.
+Buchanan, Ashley. ['The Power of Peony'](https://recipes.hypotheses.org/18635). *The Recipes Project*, 12 May 2022.    
 
 Burns, William E. '“The Terriblest Eclipse That Hath Been Seen in Our Days”: Black Monday and the Debate on Astrology during the Interregnum'. In _Rethinking the Scientific Revolution_, ed. Margaret J. Osler, 137–52. Cambridge: Cambridge University Press, 2000.
 
@@ -300,7 +306,7 @@ Chiari, Sophie and Samuel Cuisinier-Delorme (eds.). _Spa Culture and Literature 
 
 Churchill, Wendy D. _Female Patients in Early Modern Britain: Gender, Diagnosis, and Treatment_. London: Routledge, 2016.
 
-'Civil Court Cases: Assize Courts 1656–1971'. _The National Archives_. https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/civil-court-cases-assize-courts-1656-1971/.
+['Civil Court Cases: Assize Courts 1656–1971'](https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/civil-court-cases-assize-courts-1656-1971/). *The National Archives*. 
 
 Clark, G. N. _The Later Stuarts_. Oxford: Clarendon Press, 1940.
 
@@ -362,15 +368,15 @@ Earle, Rebecca. ‘Food’. In _A Cultural History of Medicine_ edited by Roger 
 
 Eckerle, Julie A. ‘Elite English Girlhood in Early Modern Ireland: The Examples of Mary Boyle and Alice Wandesford’. In _The Youth of Early Modern Women_, edited by Elizabeth S. Cohen and Margaret Reeves, 160–77. Amsterdam: Amsterdam University Press, 2018.
 
-Edge, Joanne. 'Alice Thornton, Memory and Middleham Castle', _Alice Thornton’s Books_, 25 July 2022. https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/.
+Edge, Joanne. ['Alice Thornton, Memory and Middleham Castle'](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/), *Alice Thornton’s Books*, 25 July 2022. 
 
--- 'Black Monday: The Solar Eclipse of 1652'. _Alice Thornton’s Books_, 25 October 2022. https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652.
+-- ['Black Monday: The Solar Eclipse of 1652'](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-10-25-black-monday-solar-eclipse-1652). *Alice Thornton’s Books*, 25 October 2022. 
 
--- ‘“Tragical Transactions at Newton”: Thornton's Niece Responds’. _Alice Thornton’s Books_, 15 June 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/.
+-- [‘“Tragical Transactions at Newton”: Thornton's Niece Responds’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-06-15-tragical-transactions-at-newton/). *Alice Thornton’s Books*, 15 June 2023. 
 
--- Forbidden Fruit?'. _History Workshop Journal_, 30 August 2023. https://www.historyworkshop.org.uk/food/forbidden-fruit/.
+-- ['Forbidden Fruit?'](https://www.historyworkshop.org.uk/food/forbidden-fruit/). *History Workshop: Digital Magazine*, 30 August 2023.   
 
--- ‘“But I gave her all medicines”: Herbal Remedies in Alice Thornton's Books’. _Alice Thornton’s Books_, 16 November 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-11-16-alice-thornton-herbal-medicine/.
+-- [‘“But I gave her all medicines”: Herbal Remedies in Alice Thornton's Books’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-11-16-alice-thornton-herbal-medicine/). *Alice Thornton’s Books*, 16 November 2023. 
 
 Erickson, Amy Louise. 'Common Law versus Common Practice: The Use of Marriage Settlements in Early Modern England'. *Economic History Review* 43, no. 1 (1990): 21–39.
 
@@ -432,7 +438,7 @@ Hatcher, Jane. _The History of Richmond, North Yorkshire, From Earliest Times to
 
 Heal, Felicity. 'The Idea of Hospitality in Early Modern England'. _Past & Present_ 102 (1984): 66–93.
 
-Healy, Simon. ‘Pepper, Christopher (1566/7–1635), of St. Martin's, Richmond, Yorks.’. _HPO_.
+Healy, Simon. ‘Pepper, Christopher (1566/7–1635), of St. Martin's, Richmond, Yorks.’ *HPO*.  
 
 Held, Joshua R. ‘Recent Studies in Early Modern Conscience’. _English Literary Renaissance_ 53, no. 1 (2023): 131–61.
 
@@ -448,7 +454,7 @@ Houlbrooke, Ralph A. _The English Family 1450–1700_. London: Longman, 1984.
 
 Howard, Sharon. 'Imagining the Pain and Peril of Seventeenth-Century Childbirth: Travail and Deliverance in the Making of an Early Modern World'. _Social History of Medicine_ 16, no. 3 (2003): 367–82.
 
--- 'At the Margins of Alice Thornton's Books'. _Alice Thornton's Books_, 10 July 2023. https://thornton.kdl.kcl.ac.uk/posts/blog/2023-07-10-at-the-margins/.
+-- ['At the Margins of Alice Thornton's Books'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-07-10-at-the-margins/). *Alice Thornton's Books*, 10 July 2023. 
 
 Huggins, Mike. _Horse Racing and British Society in the Long Eighteenth Century_. Woodbridge: Boydell, 2018.
 
@@ -508,7 +514,7 @@ Mansell, Charmian. ‘The Variety of Women's Experiences as Servants in England 
 
 Marsh, Christopher. '“Common Prayer” in England 1560–1640: The View from the Pew'. _Past & Present_ 171 (2001): 66–94.
 
-Marshall, Emma. '"The Best That Ever I Had": Gifting a Medical Recipe in Early Modern Yorkshire'. _Hypotheses_. _The Recipes Project_, 13 May 2021. https://recipes.hypotheses.org/17928.
+Marshall, Emma. ['"The Best That Ever I Had": Gifting a Medical Recipe in Early Modern Yorkshire'](https://recipes.hypotheses.org/17928). *Hypotheses*. *The Recipes Project*, 13 May 2021. 
 
 Marshall, Peter. _Reformation England 1480-1642_, 2nd edition. London: Bloomsbury, 2012.
 
@@ -524,13 +530,15 @@ McCallum, R. I. _Antimony in Medical History_. Edinburgh: Pentland Press, 1999.
 
 McCutcheon, K. L. _Yorkshire Fairs and Markets to the End of the Eighteenth Century_. Leeds: Thoresby Society, 1935.
 
-Meyers, Carol. ‘Rebekah: Bible’. In _Shalvi/Hyman Encyclopedia of Jewish Women_, 23 June 2021. https://jwa.org/encyclopedia/article/sarahsarai-bible.
+Meyers, Carol. [‘Rebekah: Bible’](https://jwa.org/encyclopedia/article/sarahsarai-bible). In *Shalvi/Hyman Encyclopedia of Jewish Women*, 23 June 2021.  
 
 Milton, Anthony. ‘Laud, William (1573–1645), Archbishop of Canterbury’. _ODNB_.
 
 Morgan, John Emrys. ‘Understanding Flooding in Early Modern England’. _Journal of Historical Geography_ 50 (2015): 37–50.
 
-Morrill, J. S. _The Nature of the English Revolution_. Oxford: Routledge, 2013.
+Morrill, J. S. *The Nature of the English Revolution*. Oxford: Routledge, 2013. 
+
+Moss, J. ['BUC-688073: A Post Medieval Coin'](https://finds.org.uk/database/artefacts/record/id/163228). Portable Antiquities Scheme, 2007. 
 
 Myers, Kenneth. ‘A History of Injection Treatments – I the Syringe’. _Phlebology_ 34, no. 5 (2019): 294–302.
 
@@ -558,7 +566,7 @@ Page, William (ed.). _A History of the County of York: North Riding_, vol. 1. Lo
 
 Pelling, Margaret. _The Common Lot: Sickness, Medical Occupations and the Urban Poor in Early Modern England_. London: Routledge, 1998.
 
-Phillippy, Patricia. ‘Women's History Month 2024, 4: Alice Thornton and the North American Connection’. _Alice Thornton’s Books_, 21 March 2024. https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-21-thornton-and-north-america/.
+Phillippy, Patricia. [‘Women's History Month 2024, 4: Alice Thornton and the North American Connection’](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-21-thornton-and-north-america/). *Alice Thornton’s Books*, 21 March 2024. 
 
 Pogson, Fiona. 'Wandesford, Christopher (1592–1640), politician and administrator'. _ODNB_.
 
@@ -566,11 +574,11 @@ Pollock, Linda. ‘“Teach Her to Live under Obedience”’: The Making of Wom
 
 Prior, Mary. ‘Wives and Wills 1558–1700’. In _English Rural Society 1500–1800: Essays in Honour of Joan Thirsk_, edited by J. Chartres and D. Hey, 201–26. Cambridge: Cambridge University Press, 1990.
 
-‘Purchasing Power of British Pounds from 1270 to Present'. _MeasuringWorth_. https://www.measuringworth.com/calculators/ppoweruk/.
+[‘Purchasing Power of British Pounds from 1270 to Present'](https://www.measuringworth.com/calculators/ppoweruk/). *MeasuringWorth*. 2024.   
 
 Purkiss, Diane. _The Witch in History: Early Modern and Twentieth-Century Representations_. London: Routledge, 1996.
 
-Ralley, Robert and Lauren Kassell. 'Pigeon Slippers'. _Hypotheses_. _The Recipes Project_, 23 May 2019. https://recipes.hypotheses.org/15085.
+Ralley, Robert and Lauren Kassell. ['Pigeon Slippers'](https://recipes.hypotheses.org/15085). *Hypotheses*. *The Recipes Project*, 23 May 2019.   
 
 Read, Sara. _Menstruation and the Female Body in Early Modern England_. London: Palgrave Macmillan, 2013.
 
@@ -632,7 +640,7 @@ Stretton, Tim and Krista J. Kesselring. ‘Introduction: Coverture and Continu
 
 Tillott, P. M. _A History of the County of York: The City of York_. London: Victoria County History, 1961.
 
-'Trees and Shrubs Online'. _International Dendrology Society_. https://www.treesandshrubsonline.org.
+['Trees and Shrubs Online'](https://www.treesandshrubsonline.org). *International Dendrology Society*.  
 
 Trill, Suzanne, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modem England’. In _The Nature of Religious Language_, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.
 
@@ -660,7 +668,7 @@ Watt, Jeffrey. 'Introduction'. In _From Sin to Insanity: Suicide in Early Modern
 
 Wear, Andrew. 'Puritan Perceptions of Illness in Seventeenth Century England'. In _Patients and Practitioners: Lay Perceptions of Medicine in Pre-Industrial Society_, edited by Roy Porter, 55–100. Cambridge: Cambridge University Press, 1986.
 
-_Weatherweb_. https://premium.weatherweb.net.
+[*Weatherweb*](https://premium.weatherweb.net/).  
 
 Weisser, Olivia. _Ill Composed: Sickness, Gender, and Belief in Early Modern England_. New Haven: Yale University Press, 2016.
 
@@ -668,10 +676,12 @@ Whiteley, Rebecca. _Birth Figures: Early Modern Prints and the Pregnant Body_. C
 
 Whiting, C. E (ed.). The _Autobiographies and Letters of Thomas Comber_, 2 vols. Durham: Andrews and Co., 1946.
 
-'Wills and Administrations'. _National Archives of Ireland_. https://www.nationalarchives.ie/article/wills-and-administrations/.
+['Wills and Administrations'](https://www.nationalarchives.ie/article/wills-and-administrations/). *National Archives of Ireland*. 
 
 Wilson, Adrian. ‘On the History of Disease-Concepts: The Case of Pleurisy’. _History of Science_ 38, no. 3 (2000): 271–319.
 
 Wrigley, E. A. _English Population History from Family Reconstitution, 1580–1837_. Cambridge: Cambridge University Press, 1997.
 
-'Yorkshire Historical Dictionary'. _University of York_. https://yorkshiredictionary.york.ac.uk.
+['Yorkshire Historical Dictionary'](https://yorkshiredictionary.york.ac.uk). *University of York*.  
+
+ 
