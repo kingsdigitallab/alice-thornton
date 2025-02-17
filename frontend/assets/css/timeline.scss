@@ -645,7 +645,7 @@ transform: translateX(35%);
     cursor: pointer;
     right: -23px;
     bottom: 0;
-    top: 20px;
+    top: 300px;
     margin: auto;
     position: fixed;
     @include transform(rotate(-90deg));
@@ -923,6 +923,135 @@ transform: translateX(35%);
   }
 
   //input#filter[type="checkbox"]:checked~label.filter
-}
+}//#legend-wrapper
 
-//#legend-wrapper
+#guideline-wrapper {
+  z-index: 1;
+  pointer-events: auto;
+  > label {
+    display: block;
+    @include transition(all 400ms ease-in);
+    z-index: 1;
+    cursor: pointer;
+    right: -37px;
+    bottom: 0;
+    top: -150px;
+    margin: auto;
+    position: fixed;
+    @include transform(rotate(-90deg));
+    transform-origin: top center;
+    font-size: 1.2em;
+    background: $primary;
+    color: white;
+    width: 150px;
+    height: 2em;
+    z-index: 99;
+    &:hover {
+      background: $primary-dark;
+      right: -28px;
+      @include transition(all 400ms ease-in);
+
+      ~ .content {
+        right: -399px; /* content on hover */
+      }
+
+      &:before {
+        @include transform(rotate(180deg) translate(0, -1px));
+      }
+
+      //&:before
+    }
+
+    //&:hover
+
+    h2 {
+      font-size: 16px;
+      line-height: 0;
+      color: white;
+      font-weight: normal;
+      text-transform: uppercase;
+        font-family: sans-serif;
+        padding: 18px 0 0 17px;
+        &:before{
+          display:none;
+        }
+      }//h2
+
+    //h2
+    &:before {
+      content: '▾';
+      @include transform(rotate(180deg) translate(0, -3px));
+      position: absolute;
+      right: 0.7em;
+      bottom: 0.4em;
+      @include transition(all 400ms ease-in);
+    }
+
+    //&:before
+  }
+
+  //label
+  .content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -415px;
+    overflow: scroll;
+    font-size: 14px;
+    line-height: 1.6;
+    width: 370px;
+    @include transition(all 400ms ease-in);
+    background: white;
+    height: 390px;
+    margin: auto;
+    border: 1px solid $primary;
+    z-index: 9;
+    padding:20px;
+    div{
+      h4{
+        margin:0;
+        font-size:18px;
+      }
+    }
+
+  }//.content
+
+  /* end .content */
+  input#guideline[type="checkbox"] {
+    display: none;
+  }
+
+  input#guideline[type="checkbox"]:checked ~ .content {
+    right: 0px; /* content on click */
+  }
+
+  input#guideline[type="checkbox"]:checked ~ label.guideline-button {
+    right: 355px;
+    background: $primary;
+
+    h2 {
+      color: white;
+    }
+
+    /* cross icon */
+    &:before {
+      content: '▾';
+      @include transform(rotate(0) translate(0, -1px));
+      color: white;
+    }
+
+    //&:before
+    &:hover {
+      background: $primary-dark;
+      &:before {
+        transform: translate(0, 2px);
+      }
+
+      //&:before
+    }
+
+    //&:hover
+  }
+
+  //input#filter[type="checkbox"]:checked~label.filter
+}//.guideline-wrapper

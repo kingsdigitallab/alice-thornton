@@ -73,7 +73,7 @@ Below is a visual representation of Alice Thornton’s life, depicted by the cur
  <div id="guideline-wrapper">
     <input type="checkbox" id="guideline">
     <label aria-label="how to read timeline" class="guideline-button" for="guideline">
-        <h2>Legend</h2>
+        <h2>Guidelines</h2>
     </label>
     <div class="content">
 A visual representation of Alice Thornton’s life, depicted by the curved grey  line that starts with her birth and concludes with her death. The timeline starts from left to right, following the curve downward and round to snake in the opposite direction. Arrows are included at each curve to guide the direction of reading. 
