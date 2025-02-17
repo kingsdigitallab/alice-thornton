@@ -561,19 +561,19 @@ transform: translateX(35%);
             } //span
           } //&.deathEventCount
           &.marriageEventCount {
-            width: 3vw;
-height: 3vw;
-opacity: 1;
-display: flex;
-margin-top: -3vw;
-            bottom:0.7vw;
-transform: translateX(35%);
-            background-image: radial-gradient(circle at center center,transparent 67.6%,$secondary-dark 68.9%,$secondary-dark 70.6%,transparent 73.9%),radial-gradient(circle at center center,transparent 67.6%,$secondary-dark 68.9%,$secondary-dark 70.6%,transparent 73.9%),
-            radial-gradient(transparent, transparent 68%, $secondary-dark);
-  background-position: 50% -1.5vw,-1.5vw 50%,-1.5vw -1.5vw;
-  background-size: 100% 100%;
-            display:flex;
-            opacity:0;
+              width: 3vw;
+              height: 3vw;
+              opacity: 1;
+              display: flex;
+              margin-top: -3vw;
+              /*bottom:0.7vw*/
+              transform: translateX(35%);
+              background-image: radial-gradient(circle at center center,transparent 67.6%,$secondary-dark 68.9%,$secondary-dark 70.6%,transparent 73.9%),radial-gradient(circle at center center,transparent 67.6%,$secondary-dark 68.9%,$secondary-dark 70.6%,transparent 73.9%),
+              radial-gradient(transparent, transparent 68%, $secondary-dark);
+              background-position: 50% -1.5vw,-1.5vw 50%,-1.5vw -1.5vw;
+              background-size: 100% 100%;
+              display:flex;
+              opacity:0;
            /* &:after{ //Clashing with data attribute
               content:'';
       width: 3vw;
