@@ -7,7 +7,7 @@ const debug = require("debug")("Eleventy:KDL");
 const metadata = require("./_data/metadata.js")();
 const stripHtml = require("string-strip-html");
 
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+// const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 // https://plug11ty.com/plugins/table-of-contents/
 const pluginTOC = require("eleventy-plugin-toc");
@@ -116,5 +116,5 @@ module.exports = function (config) {
     (s) => stripHtml.stripHtml(s).result.substring(0, 200) + "..."
   );
 
-  config.addPlugin(UpgradeHelper);
+  // config.addPlugin(UpgradeHelper);
 };
