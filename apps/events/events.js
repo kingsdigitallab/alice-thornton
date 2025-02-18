@@ -9,8 +9,8 @@ const sourceLifetimeEvents = require("./data/lifetime-events.json");
 const target = "../../frontend/assets/js/events.json";
 
 class Events {
-  // Default startYear is beginning of decade of AR's birth
-  // Default endYear is year of AR's death
+  // Default startYear is beginning of decade of AT's birth
+  // Default endYear is year of AT's death
   constructor(startYear = 1620, endYear = 1707) {
     this.data = [];
     this.startYear = startYear;
@@ -144,6 +144,6 @@ if (require.main === module) {
     "lifetime-event",
     "lifetimeEvents"
   );
-  //   console.log(events.data);
+
   events.writeJson();
 }
