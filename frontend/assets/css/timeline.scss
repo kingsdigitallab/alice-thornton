@@ -13,10 +13,10 @@ $taupe: lighten(#a59f90, 5%);
 $gold: darkgoldenrod;
 $transparent: transparent;
 $lifeline: $taupe;
-$pink:#A45A52;
+$pink: #a45a52;
 
 // fonts
-@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap");
 // Mixins
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -84,15 +84,15 @@ body.no-scroll {
   height: 100vh;
 }
 
-section{
-max-width:1200px;
-  margin:0 auto;
+section {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #data {
   margin: 10vw 0 10vw 25%;
   width: 60%;
-  font-family:sans-serif;
+  font-family: sans-serif;
   table {
     display: inline-block;
     width: 100%;
@@ -102,64 +102,64 @@ max-width:1200px;
     vertical-align: bottom;
     margin: 2vw 0 4vw 0;
     border-collapse: collapse;
-    &:nth-child(2){
-      tbody{
-        &:before{
-          content:'10';
-        }//&:before
-      }//tbody
-    }// &:nth-child(2)
-        &:nth-child(3){
-      tbody{
-        &:before{
-          content:'20';
-        }//&:before
-      }//tbody
-    }// &:nth-child(3)
-        &:nth-child(4){
-      tbody{
-        &:before{
-          content:'30';
-        }//&:before
-      }//tbody
-    }// &:nth-child(4)
-        &:nth-child(5){
-      tbody{
-        &:before{
-          content:'40';
-        }//&:before
-      }//tbody
-    }// &:nth-child(5)
-        &:nth-child(6){
-      tbody{
-        &:before{
-          content:'50';
-        }//&:before
-      }//tbody
-    }// &:nth-child(6)
-        &:nth-child(7){
-      tbody{
-        padding-top:2vw;
-        &:before{
-          content:'60';
-        }//&:before
-      }//tbody
-    }// &:nth-child(7)
-        &:nth-child(8){
-      tbody{
-        padding-top:3vw;
-        &:before{
-          content:'70';
-        }//&:before
-      }//tbody
-    }// &:nth-child(8)
-    &:nth-child(9){
-      tbody{
-        &:before{
-          content:'80';
-        }//&:before
-      }//tbody
-    }// &:nth-child(9)
+    &:nth-child(2) {
+      tbody {
+        &:before {
+          content: "10";
+        } //&:before
+      } //tbody
+    } // &:nth-child(2)
+    &:nth-child(3) {
+      tbody {
+        &:before {
+          content: "20";
+        } //&:before
+      } //tbody
+    } // &:nth-child(3)
+    &:nth-child(4) {
+      tbody {
+        &:before {
+          content: "30";
+        } //&:before
+      } //tbody
+    } // &:nth-child(4)
+    &:nth-child(5) {
+      tbody {
+        &:before {
+          content: "40";
+        } //&:before
+      } //tbody
+    } // &:nth-child(5)
+    &:nth-child(6) {
+      tbody {
+        &:before {
+          content: "50";
+        } //&:before
+      } //tbody
+    } // &:nth-child(6)
+    &:nth-child(7) {
+      tbody {
+        padding-top: 2vw;
+        &:before {
+          content: "60";
+        } //&:before
+      } //tbody
+    } // &:nth-child(7)
+    &:nth-child(8) {
+      tbody {
+        padding-top: 3vw;
+        &:before {
+          content: "70";
+        } //&:before
+      } //tbody
+    } // &:nth-child(8)
+    &:nth-child(9) {
+      tbody {
+        &:before {
+          content: "80";
+        } //&:before
+      } //tbody
+    } // &:nth-child(9)
     &:after {
       //curve for every even row
       border-radius: 0 100% 100% 0;
@@ -225,26 +225,27 @@ max-width:1200px;
       tbody {
         display: flex;
         flex-direction: row-reverse;
-        &:before{
-          //left:-20vw;    
+        &:before {
+          //left:-20vw;
         }
       }
     } //&:nth-of-type(even)
     tbody {
       position: relative;
       display: flex;
-            &:before{ //decade numbers
-        content:'';
-        font-size:6vw;
-        color:rgba(0,0,0, 0.2);
-      //text-shadow:0.3vw 0.3vw 0 rgba(0,0,0, 0.15);
-      left: -20vw;   
-      top:100%;
-      position:absolute;
-              font-family: "Kalnia Glaze", serif;
-  filter: grayscale(1);
-              margin-top:-7vw;
-    }
+      &:before {
+        //decade numbers
+        content: "";
+        font-size: 6vw;
+        color: rgba(0, 0, 0, 0.2);
+        //text-shadow:0.3vw 0.3vw 0 rgba(0,0,0, 0.15);
+        left: -20vw;
+        top: 100%;
+        position: absolute;
+        font-family: "Kalnia Glaze", serif;
+        filter: grayscale(1);
+        margin-top: -7vw;
+      }
       tr {
         width: 10%;
         position: relative;
@@ -252,20 +253,24 @@ max-width:1200px;
         margin: 0 0 0;
         border-bottom: 0.4vw solid $lifeline;
         align-self: flex-end;
-        [data-book-id]{
-          &:before{ 
+        [data-book-id] {
+          &:before {
             content: attr(data-book-id);
             font-size: 1vw;
             width: 1vw;
             position: absolute;
             opacity: 1;
             text-align: center;
-            background-image: linear-gradient(180deg, rgba(70, 34, 0, 0.6) 1%, rgba(179, 66, 0, 0.1) 100%);
+            background-image: linear-gradient(
+              180deg,
+              rgba(70, 34, 0, 0.6) 1%,
+              rgba(179, 66, 0, 0.1) 100%
+            );
             height: 5vw;
             bottom: 4vw;
-            color:white;
+            color: white;
           }
-          &:after{ 
+          &:after {
             content: attr(data-book-tooltip);
             font-size: 1vw;
             width: 8vw;
@@ -274,8 +279,8 @@ max-width:1200px;
             transform: translate(-80%, -120%);
             text-align: left;
             background: rgba(255, 255, 255, 0.9);
-            padding:0.3vw;
-            box-shadow:0.1vw 0.1vw 0.1vw $gray;
+            padding: 0.3vw;
+            box-shadow: 0.1vw 0.1vw 0.1vw $gray;
           }
         }
         &:hover {
@@ -304,8 +309,8 @@ max-width:1200px;
             &.historicalEventCount,
             &.entityEventCount,
             &.year {
-              &:after{
-                opacity:1;
+              &:after {
+                opacity: 1;
               }
             }
           } //td
@@ -330,14 +335,14 @@ max-width:1200px;
             background-color: white;
             border: none;
             padding: 0 0 15px 10px;
-            font-size:16px;
+            font-size: 16px;
             &:after {
               content: "✕";
               right: 0;
-              top:7px;
+              top: 7px;
               font-size: 40px;
               padding: 3px 10px;
-              position:relative;
+              position: relative;
             } //&:after
             &:hover {
               background-color: $primary-dark;
@@ -346,20 +351,20 @@ max-width:1200px;
           } //button.hidden-close
           td {
             width: 100%;
-            text-align:left;
-            max-width:950px;
-            margin:0 auto;
-            div{
-              background:white;
-              width:100%;
-              margin-bottom:3vw;
-              padding:3vw 3vw 3vw 5vw;
+            text-align: left;
+            max-width: 950px;
+            margin: 0 auto;
+            div {
+              background: white;
+              width: 100%;
+              margin-bottom: 3vw;
+              padding: 3vw 3vw 3vw 5vw;
             }
             h3 {
               font-size: 30px;
-              margin-left:18px;
+              margin-left: 18px;
             }
-            .hidden-row-footer{
+            .hidden-row-footer {
               background: $gray;
             }
             .container-historicalEvents {
@@ -368,29 +373,29 @@ max-width:1200px;
                   content: "";
                   width: 2px;
                   height: 40px;
-                    margin-top:0;
-                    left:5px;
-                      position: absolute;
-                        background:$primary;
+                  margin-top: 0;
+                  left: 5px;
+                  position: absolute;
+                  background: $primary;
                 }
               } //h3
             } // .container-historicalEvents
             .container-entityEvents {
               h3 {
                 &:before {
-                    background-image: linear-gradient(
-                180deg,
-                rgba(70, 34, 0, 0.7),
-                rgba(128, 31, 0, 0.05)
-              );
-              vertical-align: bottom;
-              position: absolute;
-              content: "";
-              left:0;
-              clip-path: polygon(50% 0, 100% 100%, 0 100%);
-              width: 20px;
-          height:30px;
-          margin-top:3px;
+                  background-image: linear-gradient(
+                    180deg,
+                    rgba(70, 34, 0, 0.7),
+                    rgba(128, 31, 0, 0.05)
+                  );
+                  vertical-align: bottom;
+                  position: absolute;
+                  content: "";
+                  left: 0;
+                  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+                  width: 20px;
+                  height: 30px;
+                  margin-top: 3px;
                 } //::before
               } //h3
             } //.container-entityEvents
@@ -421,14 +426,14 @@ max-width:1200px;
           border: 0;
           height: auto;
           z-index: 1;
-          display:flex;
+          display: flex;
           flex-direction: column;
           //background:lightblue;
-          width:10%;
-          text-align:center;
+          width: 10%;
+          text-align: center;
           align-items: center;
           justify-content: center;
-         // display: flex;
+          // display: flex;
           &:after {
             opacity: 0.6;
           }
@@ -446,8 +451,8 @@ max-width:1200px;
             margin-bottom: 0;
             opacity: 0.4;
             aspect-ratio: 1/4;
-          
-           &:before {
+
+            &:before {
               background-image: linear-gradient(
                 180deg,
                 rgba(70, 34, 0, 1),
@@ -458,19 +463,18 @@ max-width:1200px;
               vertical-align: bottom;
               position: absolute;
               content: "";
-              left:-1vw;
+              left: -1vw;
               clip-path: polygon(50% 0, 100% 100%, 0 100%);
               width: 7.5vw;
             }
             & span {
-              text-align:left;
-              opacity:0;
-              background:rgba(255,255,255,0.9);
-              display:block;
-              padding:0 0.5vw;
-
+              text-align: left;
+              opacity: 0;
+              background: rgba(255, 255, 255, 0.9);
+              display: block;
+              padding: 0 0.5vw;
             }
-            &:after{ 
+            &:after {
               content: attr(data-tooltip-suffix);
               font-size: 1vw;
               width: 7vw;
@@ -478,13 +482,13 @@ max-width:1200px;
               opacity: 0;
               transform: translate(60%, 0);
               text-align: left;
-              background:rgba(255,255,255,0.9);
+              background: rgba(255, 255, 255, 0.9);
             }
           } //&.entityEventCount
           &.year {
             vertical-align: bottom;
             height: 3vw;
-              position: absolute;
+            position: absolute;
             bottom: -4vw;
             z-index: 1;
             width: 3vw;
@@ -507,72 +511,85 @@ max-width:1200px;
             bottom: -2.7vw;
             transform: translateX(83%);
             &.present {
-              background-image: linear-gradient(90deg, $primary-light  1%, $primary-light 5%, transparent 3%);
+              background-image: linear-gradient(
+                90deg,
+                $primary-light 1%,
+                $primary-light 5%,
+                transparent 3%
+              );
             } //&.present
-            span{
-              bottom:-10%;
+            span {
+              bottom: -10%;
             }
-            &:after{ 
+            &:after {
               content: attr(data-tooltip-suffix);
               font-size: 1vw;
               width: 10vw;
               left: 20%;
               position: absolute;
-              bottom:-10%;
-              opacity:0;
+              bottom: -10%;
+              opacity: 0;
             }
           } //&.historicalEventCount
           &.birthEventCount {
-            background-image: linear-gradient(0deg, rgba(128, 31, 0,0.4) 6%, rgba(255,255,255,0) 90% );
-                 background-repeat: no-repeat;
-               border:0.1vw solid $secondary;
-               border-top:0;
-               border-left:0;
-               border-right:0;
-   width: 3.3vw;
-   height: 3.2vw;
-   opacity: 1;
-   display: flex;
-   margin-top: -3vw;
-   transform: translateX(27.5%);
-               opacity:0;
-               border-radius: 50%;
-               &.present {
-                 opacity:1;
-                 &:before {
-                   width: 2vw;
-                   height: 2vw;
-                   content: "B";
-                   position: absolute;
-                   font-size: 1.1vw;
-                   text-align: center;
-                   color: black;
-                   text-align: center;
-                   bottom: 0.2vw;
-                   color: black;
-                   z-index: 0;
-                   left:0.7vw;
-                   background: radial-gradient(circle, rgba(255,255,255,0.7) 11%, rgba(255,255,255, 0) 75%);
-                   line-height:1.9;
-                   /*background:rgba(255,255,255,0.7);*/
-                 } //&:before
-               } //&.present
-               & span {
-                 display: none;
-               } //span
-             } //&.birthEventCount
+            background-image: linear-gradient(
+              0deg,
+              rgba(128, 31, 0, 0.4) 6%,
+              rgba(255, 255, 255, 0) 90%
+            );
+            background-repeat: no-repeat;
+            border: 0.1vw solid $secondary;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            width: 3.3vw;
+            height: 3.2vw;
+            opacity: 1;
+            display: flex;
+            margin-top: -3vw;
+            transform: translateX(27.5%);
+            opacity: 0;
+            border-radius: 50%;
+            &.present {
+              opacity: 1;
+              &:before {
+                width: 2vw;
+                height: 2vw;
+                content: "B";
+                position: absolute;
+                font-size: 1.1vw;
+                text-align: center;
+                color: black;
+                text-align: center;
+                bottom: 0.2vw;
+                color: black;
+                z-index: 0;
+                left: 0.7vw;
+                background: radial-gradient(
+                  circle,
+                  rgba(255, 255, 255, 0.7) 11%,
+                  rgba(255, 255, 255, 0) 75%
+                );
+                line-height: 1.9;
+                /*background:rgba(255,255,255,0.7);*/
+              } //&:before
+            } //&.present
+            & span {
+              display: none;
+            } //span
+          } //&.birthEventCount
           &.deathEventCount {
             width: 3vw;
-height: 1.8vw;
-opacity: 1;
-display: inline-flex;
-margin-top: 0.3vw;
-transform: translateX(35%);
-            background:black;
-            position:absolute;
-            opacity:0;
+            height: 1.8vw;
+            opacity: 1;
+            display: inline-flex;
+            margin-top: 0.3vw;
+            transform: translateX(35%);
+            background: black;
+            position: absolute;
+            opacity: 0;
             &.present {
-              opacity:1;
+              opacity: 1;
               &:before {
                 width: 1.5vw;
                 height: 1.5vw;
@@ -583,7 +600,7 @@ transform: translateX(35%);
                 bottom: 0.25vw;
                 color: white;
                 z-index: 0;
-                left:0.75vw;
+                left: 0.75vw;
                 border-radius: 50%;
               }
             } //&.present
@@ -592,20 +609,33 @@ transform: translateX(35%);
             } //span
           } //&.deathEventCount
           &.marriageEventCount {
-              width: 3vw;
-              height: 3vw;
-              opacity: 1;
-              display: flex;
-              margin-top: -3vw;
-              /*bottom:0.7vw*/
-              transform: translateX(35%);
-              background-image: radial-gradient(circle at center center,transparent 67.6%,$secondary-dark 68.9%,$secondary-dark 70.6%,transparent 73.9%),radial-gradient(circle at center center,transparent 67.6%,$secondary-dark 68.9%,$secondary-dark 70.6%,transparent 73.9%),
+            width: 3vw;
+            height: 3vw;
+            opacity: 1;
+            display: flex;
+            margin-top: -3vw;
+            /*bottom:0.7vw*/
+            transform: translateX(35%);
+            background-image: radial-gradient(
+                circle at center center,
+                transparent 67.6%,
+                $secondary-dark 68.9%,
+                $secondary-dark 70.6%,
+                transparent 73.9%
+              ),
+              radial-gradient(
+                circle at center center,
+                transparent 67.6%,
+                $secondary-dark 68.9%,
+                $secondary-dark 70.6%,
+                transparent 73.9%
+              ),
               radial-gradient(transparent, transparent 68%, $secondary-dark);
-              background-position: 50% -1.5vw,-1.5vw 50%,-1.5vw -1.5vw;
-              background-size: 100% 100%;
-              display:flex;
-              opacity:0;
-           /* &:after{ //Clashing with data attribute
+            background-position: 50% -1.5vw, -1.5vw 50%, -1.5vw -1.5vw;
+            background-size: 100% 100%;
+            display: flex;
+            opacity: 0;
+            /* &:after{ //Clashing with data attribute
               content:'';
       width: 3vw;
   height: 3vw;
@@ -619,22 +649,27 @@ transform: translateX(35%);
   opacity: 1;
             }    */
             &.present {
-              opacity:1;
+              opacity: 1;
               &:before {
                 width: 2.4vw;
                 height: 2.4vw;
                 content: "B";
                 position: absolute;
                 font-size: 0.9vw;
-                line-height:2.2;
+                line-height: 2.2;
                 text-align: center;
                 bottom: 0.3vw;
                 left: 0.3vw;
                 color: white;
-                background:rgba(0,0,0,0.4);
-                background: radial-gradient(circle, rgba(128, 31, 0,1) 21%, rgb(128, 31, 0,0.7) 33%, rgba(255,255,255, 0) 55%);
-                border-radius:50%;
-                z-index:1;
+                background: rgba(0, 0, 0, 0.4);
+                background: radial-gradient(
+                  circle,
+                  rgba(128, 31, 0, 1) 21%,
+                  rgb(128, 31, 0, 0.7) 33%,
+                  rgba(255, 255, 255, 0) 55%
+                );
+                border-radius: 50%;
+                z-index: 1;
               } //&:before
             } //.present
             & span {
@@ -645,93 +680,93 @@ transform: translateX(35%);
           &.birthEventCount,
           &.deathEventCount,
           &.marriageEventCount {
-            &:before{
+            &:before {
               text-underline-offset: 0.3vw;
             }
             &.child-1:before {
-              content: "1";   
+              content: "1";
             } //.child-1:before
             &.child-2:before {
               content: "2";
-              text-decoration:underline; //female       
+              text-decoration: underline; //female
             } //.child-1:before
             &.child-3:before {
               content: "3";
-              text-decoration:underline; //female       
+              text-decoration: underline; //female
             } //.child-4:before
             &.child-4:before {
               content: "4";
-              text-decoration:underline; //female   
+              text-decoration: underline; //female
             } //.child-4:before
             &.child-5:before {
               content: "5";
             } //.child-5:before
             &.child-6:before {
               content: "6";
-              text-decoration-style: double; //male 
+              text-decoration-style: double; //male
             } //.child-6:before
             &.child-7:before {
               content: "7";
-              text-decoration-style: double; //male 
+              text-decoration-style: double; //male
             } //.child-7:before
             &.child-8:before {
               content: "8";
-              text-decoration:underline; //female       
+              text-decoration: underline; //female
             } //.child-8:before
             &.child-9:before {
               content: "9";
-              text-decoration-style: double; //male 
+              text-decoration-style: double; //male
             } //.child-9:before
             &.alice:before {
               content: "A";
-              text-decoration:underline; //female 
+              text-decoration: underline; //female
             } //.alice:before
             &.alice-mother:before {
               content: "AM";
-              text-decoration:underline; //female       
+              text-decoration: underline; //female
             } //.alice-mother:before
             &.alice-father:before {
               content: "AF";
-              text-decoration-style: double; //male 
+              text-decoration-style: double; //male
             } //.alice-father:before
             &.alice-husband:before {
               content: "AH";
-              text-decoration-style: double; //male 
+              text-decoration-style: double; //male
             } //.alice-husband:before
           } //&.birthEventCount, &.deathEventCount, &.marriageEventCount
           &.birthEventCount,
           &.marriageEventCount,
-          &.deathEventCount{
-            &:after{
+          &.deathEventCount {
+            &:after {
               content: attr(data-title);
-              background: rgba(255,255,255,0.9);
-              box-shadow:0 0.1vw 0.3vw rgba(128, 31, 0,0.4);
+              background: rgba(255, 255, 255, 0.9);
+              box-shadow: 0 0.1vw 0.3vw rgba(128, 31, 0, 0.4);
               width: 15vw;
               font-size: 1vw;
-              line-height:1;
+              line-height: 1;
               position: absolute;
               top: -70%;
               height: auto;
-              opacity:0;
-              z-index:2;
-              color:black;
+              opacity: 0;
+              z-index: 2;
+              color: black;
             }
           }
-          &.marriageEventCount{
-            &:after{
+          &.marriageEventCount {
+            &:after {
               transform: translateX(0%);
               top: -100%;
             }
-          }//&.marriageEventCount
-          &.deathEventCount{
-            &:after{
+          } //&.marriageEventCount
+          &.deathEventCount {
+            &:after {
               top: 220%;
-              background:rgba(0,0,0,0.9);
-              box-shadow:0 0.1vw 0.3vw rgba(0,0,0,0.4);
-              color:white;
+              background: rgba(0, 0, 0, 0.9);
+              box-shadow: 0 0.1vw 0.3vw rgba(0, 0, 0, 0.4);
+              color: white;
               padding: 0.2vw 0;
             }
-          }//&.deathEventCount
+          } //&.deathEventCount
         } //td
       } //tr
     } //tbody
@@ -742,7 +777,6 @@ transform: translateX(35%);
   z-index: 1;
   pointer-events: auto;
 
-  
   > label {
     display: block;
     @include transition(all 400ms ease-in);
@@ -785,16 +819,16 @@ transform: translateX(35%);
       color: white;
       font-weight: normal;
       text-transform: uppercase;
-        font-family: sans-serif;
-        padding: 18px 0 0 17px;
-        &:before{
-          display:none;
-        }
-      }//h2
+      font-family: sans-serif;
+      padding: 18px 0 0 17px;
+      &:before {
+        display: none;
+      }
+    } //h2
 
     //h2
     &:before {
-      content: '▾';
+      content: "▾";
       @include transform(rotate(180deg) translate(0, -3px));
       position: absolute;
       right: 0.7em;
@@ -821,127 +855,150 @@ transform: translateX(35%);
     margin: auto;
     border: 1px solid $primary;
     z-index: 9;
-    display:flex;
-    flex-wrap:wrap;
-    background:$primary;
+    display: flex;
+    flex-wrap: wrap;
+    background: $primary;
 
-    div{
-      background:white;
+    div {
+      background: white;
       width: calc(50% - 1.6vw);
       margin: 0.05vw;
-      padding:1vw 0.5vw 0 1vw;
-      font-size:16px;
-      h4{
-        margin:0;
-        font-size:18px;
+      padding: 1vw 0.5vw 0 1vw;
+      font-size: 16px;
+      h4 {
+        margin: 0;
+        font-size: 18px;
       }
-      ul{
+      ul {
       }
     }
-  .events {
-    ul li {
-      list-style-type: none;
-      &:nth-child(1) { // Alice's Lifeline
-        &:before {
-          content:'';
-          width: 20px;
-          height: 6px;
-          left:13px;
-          margin-top:0.7vw;
-          position: absolute;
-          background: $lifeline;   
-        } //&:before
-      }//nth-child(1)
-      &:nth-child(2) {
-        &:before {
-                position: absolute;
-      content: "";
-      border: 1px solid darken($secondary, 2%);
-      width: 8px;
-      height: 8px;
-      transform: translate(50%, 10%) rotate(45deg);
-      border-left: 1px solid $transparent;
-      border-bottom: 1px solid $transparent;
-      left: 10px;
-          margin-top:4px;
-        } //&:before
-      } //&:nth-child(2)
-      &:nth-child(3) { //Book Events
-        &:before {
-          background-image: linear-gradient(
-                180deg,
-                rgba(70, 34, 0, 0.7),
-                rgba(128, 31, 0, 0.05)
-              );
-              vertical-align: bottom;
-              position: absolute;
-              content: "";
-              left:13px;
-              clip-path: polygon(50% 0, 100% 100%, 0 100%);
-              width: 20px;
-          height:15px;
-          margin-top:3px;
-        } //&:before
-      }//nth-child(3)
-      &:nth-child(4) { //Historical
-        &:before {
-          content:'';
-        width: 2px;
-        height: 20px;
-          margin-top:3px;
-          left:22px;
+    .events {
+      ul li {
+        list-style-type: none;
+        &:nth-child(1) {
+          // Alice's Lifeline
+          &:before {
+            content: "";
+            width: 20px;
+            height: 6px;
+            left: 13px;
+            margin-top: 0.7vw;
             position: absolute;
-              background:$primary;
-        } //&:before
-      }//nth-child(4)
-    }//ul li
-  } //.events
-  .life-events {
-    ul li {
-      list-style-type: none;
-      &:nth-child(1) {//Birth
-        &:before {
-          background-image: linear-gradient(0deg, rgba(128, 31, 0,0.35) 6%, rgba(255,255,255,0) 80%);
-              background-repeat: no-repeat;
-            border:1px solid $secondary;
-            border-top:0;
-            border-left:0;
-            border-right:0;
-width: 21px;
-height: 18px;
-content:'';
-          position:absolute;
+            background: $lifeline;
+          } //&:before
+        } //nth-child(1)
+        &:nth-child(2) {
+          &:before {
+            position: absolute;
+            content: "";
+            border: 1px solid darken($secondary, 2%);
+            width: 8px;
+            height: 8px;
+            transform: translate(50%, 10%) rotate(45deg);
+            border-left: 1px solid $transparent;
+            border-bottom: 1px solid $transparent;
+            left: 10px;
+            margin-top: 4px;
+          } //&:before
+        } //&:nth-child(2)
+        &:nth-child(3) {
+          //Book Events
+          &:before {
+            background-image: linear-gradient(
+              180deg,
+              rgba(70, 34, 0, 0.7),
+              rgba(128, 31, 0, 0.05)
+            );
+            vertical-align: bottom;
+            position: absolute;
+            content: "";
+            left: 13px;
+            clip-path: polygon(50% 0, 100% 100%, 0 100%);
+            width: 20px;
+            height: 15px;
+            margin-top: 3px;
+          } //&:before
+        } //nth-child(3)
+        &:nth-child(4) {
+          //Historical
+          &:before {
+            content: "";
+            width: 2px;
+            height: 20px;
+            margin-top: 3px;
+            left: 22px;
+            position: absolute;
+            background: $primary;
+          } //&:before
+        } //nth-child(4)
+      } //ul li
+    } //.events
+    .life-events {
+      ul li {
+        list-style-type: none;
+        &:nth-child(1) {
+          //Birth
+          &:before {
+            background-image: linear-gradient(
+              0deg,
+              rgba(128, 31, 0, 0.35) 6%,
+              rgba(255, 255, 255, 0) 80%
+            );
+            background-repeat: no-repeat;
+            border: 1px solid $secondary;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            width: 21px;
+            height: 18px;
+            content: "";
+            position: absolute;
             border-radius: 0 0 50% 50%;
-          left:13px;
-          margin-top:0;
-        } //&:before
-      }
-      &:nth-child(2) {//Deaths
-        &:before {
-          width: 18px;
-          height: 12px;
-          content: "";
-          background: black;
-          position: absolute;
-          margin-left: -24px;
-          margin-top: 5px;
-        } //&:before
-      }//nth-child(2)
-      &:nth-child(3) {//Marriages
-        &:before {
-     width: 20px;
-height: 20px;
-opacity: 1;
-position:absolute;
-content:'';
-          left:5px;
-transform: translateX(35%);
-            background-image: radial-gradient(circle at center center,transparent 65.6%,darkred 69.9%,darkred 70.6%,transparent 75.9%),radial-gradient(circle at center center,transparent 65.6%,darkred 69.9%,darkred 70.6%,transparent 75.9%),
-    radial-gradient(transparent, transparent 58%, darkred) ;
-  background-position: 50% -10px,-10px 50%,-10px -10px;
-  background-size: 100% 100%;
-        } //&:before
-        /*&:after{ //Clashing with data-attribute
+            left: 13px;
+            margin-top: 0;
+          } //&:before
+        }
+        &:nth-child(2) {
+          //Deaths
+          &:before {
+            width: 18px;
+            height: 12px;
+            content: "";
+            background: black;
+            position: absolute;
+            margin-left: -24px;
+            margin-top: 5px;
+          } //&:before
+        } //nth-child(2)
+        &:nth-child(3) {
+          //Marriages
+          &:before {
+            width: 20px;
+            height: 20px;
+            opacity: 1;
+            position: absolute;
+            content: "";
+            left: 5px;
+            transform: translateX(35%);
+            background-image: radial-gradient(
+                circle at center center,
+                transparent 65.6%,
+                darkred 69.9%,
+                darkred 70.6%,
+                transparent 75.9%
+              ),
+              radial-gradient(
+                circle at center center,
+                transparent 65.6%,
+                darkred 69.9%,
+                darkred 70.6%,
+                transparent 75.9%
+              ),
+              radial-gradient(transparent, transparent 58%, darkred);
+            background-position: 50% -10px, -10px 50%, -10px -10px;
+            background-size: 100% 100%;
+          } //&:before
+          /*&:after{ //Clashing with data-attribute
             width: 20px;
 height: 20px;
 opacity: 1;
@@ -955,38 +1012,40 @@ transform: translateX(35%);
   background-size: 100% 100%;
           transform:rotate(45deg);
         }*/
-      }//nth-child(3)
-            &:nth-child(4) {//Male
-        &:before {
-          width: 10px;
-          height: 1px;
-          content: "";
-          position: absolute;
-          margin-left: -20px;
-          margin-top: 12px;
-          border-bottom:3px double black;
-        } //&:before
-      }//nth-child(4)
-      &:nth-child(5) {//Female
-        &:before {
-          width: 10px;
-          height: 1px;
-          content: "";
-          position: absolute;
-          margin-left: -20px;
-          margin-top: 14px;
-          border-bottom:1px solid black;
-        } //&:before
-      }//nth-child(5)
-    } //ul li
-  } //.life-events
-  .initials {
-    ul li {
-      list-style-type: none;
-      margin-left: -20px;
-    }
-  } //.initials
-  }//.content
+        } //nth-child(3)
+        &:nth-child(4) {
+          //Male
+          &:before {
+            width: 10px;
+            height: 1px;
+            content: "";
+            position: absolute;
+            margin-left: -20px;
+            margin-top: 12px;
+            border-bottom: 3px double black;
+          } //&:before
+        } //nth-child(4)
+        &:nth-child(5) {
+          //Female
+          &:before {
+            width: 10px;
+            height: 1px;
+            content: "";
+            position: absolute;
+            margin-left: -20px;
+            margin-top: 14px;
+            border-bottom: 1px solid black;
+          } //&:before
+        } //nth-child(5)
+      } //ul li
+    } //.life-events
+    .initials {
+      ul li {
+        list-style-type: none;
+        margin-left: -20px;
+      }
+    } //.initials
+  } //.content
 
   /* end .content */
   input#legend[type="checkbox"] {
@@ -1007,7 +1066,7 @@ transform: translateX(35%);
 
     /* cross icon */
     &:before {
-      content: '▾';
+      content: "▾";
       @include transform(rotate(0) translate(0, -1px));
       color: white;
     }
@@ -1026,7 +1085,7 @@ transform: translateX(35%);
   }
 
   //input#filter[type="checkbox"]:checked~label.filter
-}//#legend-wrapper
+} //#legend-wrapper
 
 #guideline-wrapper {
   z-index: 1;
@@ -1073,16 +1132,16 @@ transform: translateX(35%);
       color: white;
       font-weight: normal;
       text-transform: uppercase;
-        font-family: sans-serif;
-        padding: 18px 0 0 17px;
-        &:before{
-          display:none;
-        }
-      }//h2
+      font-family: sans-serif;
+      padding: 18px 0 0 17px;
+      &:before {
+        display: none;
+      }
+    } //h2
 
     //h2
     &:before {
-      content: '▾';
+      content: "▾";
       @include transform(rotate(180deg) translate(0, -3px));
       position: absolute;
       right: 0.7em;
@@ -1109,15 +1168,14 @@ transform: translateX(35%);
     margin: auto;
     border: 1px solid $primary;
     z-index: 9;
-    padding:20px;
-    div{
-      h4{
-        margin:0;
-        font-size:18px;
+    padding: 20px;
+    div {
+      h4 {
+        margin: 0;
+        font-size: 18px;
       }
     }
-
-  }//.content
+  } //.content
 
   /* end .content */
   input#guideline[type="checkbox"] {
@@ -1138,7 +1196,7 @@ transform: translateX(35%);
 
     /* cross icon */
     &:before {
-      content: '▾';
+      content: "▾";
       @include transform(rotate(0) translate(0, -1px));
       color: white;
     }
@@ -1157,6 +1215,4 @@ transform: translateX(35%);
   }
 
   //input#filter[type="checkbox"]:checked~label.filter
-}//.guideline-wrapper
-
-
+} //.guideline-wrapper
