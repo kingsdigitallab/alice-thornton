@@ -78,6 +78,12 @@ html {
   box-sizing: content-box;
 }
 
+// Hide the scroll bar for main content when modal is open
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 section{
 max-width:1200px;
   margin:0 auto;
@@ -306,7 +312,7 @@ max-width:1200px;
         } //&:hover
         &.hiddenRow {
           background: $gray;
-          width: 90vw;
+          width: 89vw; // Ensure scroll bar is visible in modal
           position: fixed;
           left: 0;
           height: 100vh;
