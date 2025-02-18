@@ -8,36 +8,50 @@ hideCitation: true
 customCSS: "/assets/css/timeline.css"
 ---
 
-Below is a visual representation of Alice Thornton’s life, depicted by the curved brown line that starts with her birth and concludes with her death. The timeline starts from left to right, following the curve downward and round to snake in the opposite direction and turn again with each curve. Arrows are included at each curve to guide the direction of reading.
+Below is a visual representation of Alice Thornton’s life, using data  from her Books and other sources.  
 
-Circles on the timeline represent the number of events Alice Thornton wrote about in each year of her life. Larger circles indicate years with more events, while smaller circles reflect fewer recorded events. The size of each circle is scaled in proportion to the number of events in that year.
-
-Black diamonds highlight key political events or notable years in Alice Thornton’s life, marking moments of significant change or historical importance.
-
-Hovering over each year reveals more details about the events recorded for that year, including contextual information where available. Clicking on a year expands additional information, offering a deeper dive into the events and their significance.
+"Guidelines" and "Legend" section on the right, slide out once clicked, give guidance on how to understand and navigate the timeline.
 
 <hr>
 <em>Note: All elements below scale in response to the viewport so best viewed on a larger screen. </em>
 
-<div id="legend">
-<h3>Legend</h3>
+ <div id="legend-wrapper">
+    <input type="checkbox" id="legend">
+    <label aria-label="legend/key" class="legend-button" for="legend">
+        <h2>Legend</h2>
+    </label>
+    <div class="content">
+
 <div class="events">
 <h4>Events</h4>
 <ul>
-<li>Important</li>
-<li>Grouped types</li>
+  <li>Alice's Life</li>
+  <li>arrow direction</li>
+  <li>Book Events</li>
+  <li>Historical Events</li>
+
+  
 </ul>
 </div>
-
+      <div class="volumes">
+<h4>Books</h4>
+<ul>
+<li>Book of Rem</li>
+<li>Book 1</li>
+<li>Book 2</li>
+<li>Book 3</li>
+</ul>
+</div>
 <div class="life-events">
 <h4>Life Events</h4>
 <ul>
-<li>Births</li>
+  <li>Births</li>
 <li>Deaths</li>
 <li>Marriages</li>
+<li>Male</li>
+<li>Female</li>
 </ul>
 </div>
-
 <div class="initials">
 <h4>Initials</h4>
 <ul>
@@ -50,17 +64,25 @@ Hovering over each year reveals more details about the events recorded for that 
 </ul>
 </div>
 
-<div class="volumes">
-<h4>Books</h4>
-<ul>
-<li>Book of Remembrances</li>
-<li>Book 1</li>
-<li>Book 2</li>
-<li>Book 3</li>
-</ul>
-</div>
-</div>
 
+
+</div>
+</div>         
+
+
+ <div id="guideline-wrapper">
+    <input type="checkbox" id="guideline">
+    <label aria-label="how to read timeline" class="guideline-button" for="guideline">
+        <h2>Guidelines</h2>
+    </label>
+    <div class="content">
+A visual representation of Alice Thornton’s life, depicted by the curved grey  line that starts with her birth and concludes with her death. The timeline starts from left to right, following the curve downward and round to snake in the opposite direction. Arrows are included at each curve to guide the direction of reading. 
+
+Triangles on the timeline represent the number of events in each year that Thornton wrote about. Larger triangles indicate years with more recorded events, while smaller circles reflect fewer events. Black diamonds mark events of historical importance or notable years in Thornton’s own life. 
+
+Hovering over each year reveals more details about the events recorded for that year. Clicking on a year expands additional information. 
+    </div>
+</div>
 <div id="data"></div>
 
 <!-- For testing

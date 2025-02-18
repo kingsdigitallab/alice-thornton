@@ -6,14 +6,14 @@ const eventsSource = "/assets/js/events.json";
 // Map the keys in the data to the desired table headers
 const tableHeaderMapping = {
   year: "Year",
-  entityEventCount: "Number of Events Recorded in Alice Thornton's Books",
+  entityEventCount: "Number of Events in Thornton's Books",
   historicalEventCount: "Number of Historical Events",
   birthEventCount: "Number of Births",
   deathEventCount: "Number of Deaths",
   marriageEventCount: "Number of Marriages",
-  entityEvents: "Events Recorded in Alice Thornton's Books",
+  entityEvents: "Events in Thornton's Books",
   historicalEvents: "Historical Events",
-  lifetimeEvents: "Important Events During Alice Thornton's Lifetime",
+  lifetimeEvents: "Important Events in Thornton's Life",
 };
 
 // Helper function to add CSS class names to cells based on lifetime events in the data
@@ -93,7 +93,7 @@ function renderHiddenRow(row, tbody, columnSpan) {
           if (key === "historicalEvents") {
             listItem.append("h4").text(d.title);
           } else {
-            listItem.append("span").text(d.title);
+            listItem.text(d.title);
           }
 
           // Image with alt text
@@ -238,6 +238,24 @@ function createTable(data, decade, scale) {
         // Add the year value as a span
         cell.append("span").text(d.value != null ? d.value : "N/A");
 
+        // Add data attributes for when the books were written
+        // so that symbols/tooltips can be added using pseudo element selectors
+        if (d.header === "year") {
+          const bookData = {
+            1659: { id: "R", tooltip: "Book Rem: written c.1659-1673" },
+            1668: { id: "1", tooltip: "Book One: written c.1668-1687" },
+            1685: { id: "2", tooltip: "Book Two: written c.1685-1695" },
+            1692: { id: "3", tooltip: "Book Three: written c. 1692-1696" },
+          };
+
+          const year = d.value.toString();
+
+          if (bookData[year]) {
+            cell.attr("data-book-id", bookData[year].id);
+            cell.attr("data-book-tooltip", bookData[year].tooltip);
+          }
+        }
+
         // Add data-title for birth, death, marriage, and historical event counts
         cell.attr("data-title", (d) => {
           if (
@@ -263,6 +281,22 @@ function createTable(data, decade, scale) {
               : null;
           }
           return null;
+        });
+
+        // Add data attribute for tooltips for entity (book) and historical event counts
+        cell.attr("data-tooltip-suffix", (d) => {
+          if (
+            (d.header === "entityEventCount" ||
+              d.header === "historicalEventCount") &&
+            d.value > 0
+          ) {
+            const eventType =
+              d.header === "entityEventCount"
+                ? "book event"
+                : "historical event";
+            return d.value === 1 ? eventType : `${eventType}s`; // Singular for 1, plural for 2+
+          }
+          return null; // No attribute for 0 events
         });
       });
 
@@ -294,6 +328,12 @@ function initializeRowInteractions() {
     // Toggle the current hidden row
     d3.select(this).attr("aria-expanded", !isExpanded);
     hiddenRow.property("hidden", isExpanded);
+
+    // Disable scrolling on body when the hidden row is made visible
+    const scrollY = window.scrollY; // Store the scroll position otherwise it gets lost
+    d3.select("body")
+      .classed("no-scroll", !isExpanded)
+      .attr("data-scroll-position", scrollY);
   });
 
   // Handle "Toggle Details" button clicks for screen reader users
@@ -325,6 +365,11 @@ function initializeRowInteractions() {
 
     // Close the specific hidden row
     hiddenRow.property("hidden", true);
+
+    // Re-enable scrolling on body when hidden row is hidden again
+    const savedScrollY = d3.select("body").attr("data-scroll-position");
+    d3.select("body").classed("no-scroll", false);
+    window.scrollTo(0, savedScrollY); // Restore scroll position
 
     // Update the aria-expanded attribute on the parent row
     const parentRow = d3.select(`.mainRow[data-target="${targetId}"]`);
