@@ -8,7 +8,7 @@ hideCitation: true
 customCSS: "/assets/css/timeline.css"
 ---
 
-Below is a visual representation of Alice Thornton’s life, using data  from her Books and other sources.  
+Below is a visual representation of Alice Thornton’s life, using data from her Books and other sources.
 
 "Guidelines" and "Legend" section on the right, slide out once clicked, give guidance on how to understand and navigate the timeline.
 
@@ -30,7 +30,6 @@ Below is a visual representation of Alice Thornton’s life, using data  from he
   <li>Book Events</li>
   <li>Historical Events</li>
 
-  
 </ul>
 </div>
       <div class="volumes">
@@ -64,11 +63,8 @@ Below is a visual representation of Alice Thornton’s life, using data  from he
 </ul>
 </div>
 
-
-
 </div>
-</div>         
-
+</div>
 
  <div id="guideline-wrapper">
     <input type="checkbox" id="guideline">
@@ -76,12 +72,13 @@ Below is a visual representation of Alice Thornton’s life, using data  from he
         <h2>Guidelines</h2>
     </label>
     <div class="content">
-A visual representation of Alice Thornton’s life, depicted by the curved grey  line that starts with her birth and concludes with her death. The timeline starts from left to right, following the curve downward and round to snake in the opposite direction. Arrows are included at each curve to guide the direction of reading. 
+A visual representation of Alice Thornton’s life, depicted by the curved grey  line that starts with her birth and concludes with her death. The timeline starts from left to right, following the curve downward and round to snake in the opposite direction. Arrows are included at each curve to guide the direction of reading.
 
-Triangles on the timeline represent the number of events in each year that Thornton wrote about. Larger triangles indicate years with more recorded events, while smaller circles reflect fewer events. Black diamonds mark events of historical importance or notable years in Thornton’s own life. 
+Triangles on the timeline represent the number of events in each year that Thornton wrote about. Larger triangles indicate years with more recorded events, while smaller circles reflect fewer events. Black diamonds mark events of historical importance or notable years in Thornton’s own life.
 
-Hovering over each year reveals more details about the events recorded for that year. Clicking on a year expands additional information. 
-    </div>
+Hovering over each year reveals more details about the events recorded for that year. Clicking on a year expands additional information.
+</div>
+
 </div>
 <div id="data"></div>
 
@@ -168,5 +165,5 @@ Hovering over each year reveals more details about the events recorded for that 
 </div>
 </div>-->
 
-<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="/assets/node_modules/d3/dist/d3.min.js"></script>
 <script src="/assets/js/timeline.js"></script>
