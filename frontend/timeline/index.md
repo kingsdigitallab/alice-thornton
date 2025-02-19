@@ -23,7 +23,7 @@ Below is a visual representation of Alice Thornton’s life, using data from her
     <div class="content">
 
 <div class="events">
-<h4>Events</h4>
+<h4>Symbols</h4>
 <ul>
   <li>Alice's Life</li>
   <li>arrow direction</li>
