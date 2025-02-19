@@ -196,7 +196,7 @@ section {
       //arrow direction
       position: absolute;
       content: "";
-      border: 0.1vw solid darken($secondary, 2%);
+      border: 0.1vw solid darken($gray-dark, 2%);
       width: 1vw;
       height: 1vw;
       bottom: -0.25vw;
@@ -640,7 +640,7 @@ section {
           &.deathEventCount,
           &.marriageEventCount {
             &:before {
-              text-underline-offset: 0.3vw;
+              text-underline-offset: 0.2vw;
             }
             &.child-1:before {
               content: "1";
@@ -709,6 +709,7 @@ section {
               opacity: 0;
               z-index: 2;
               color: black;
+              padding: 0.3vw 0;
             }
           }
           &.marriageEventCount {
@@ -848,10 +849,11 @@ section {
           } //&:before
         } //nth-child(1)
         &:nth-child(2) {
+          //arrow
           &:before {
             position: absolute;
             content: "";
-            border: 1px solid darken($secondary, 2%);
+            border: 1px solid darken($gray-dark, 2%);
             width: 8px;
             height: 8px;
             transform: translate(50%, 10%) rotate(45deg);
