@@ -29,21 +29,6 @@ Below is a visual representation of Alice Thornton’s life, using data from her
   <li>arrow direction</li>
   <li>Book Events</li>
   <li>Historical Events</li>
-
-</ul>
-</div>
-      <div class="volumes">
-<h4>Books</h4>
-<ul>
-<li>Book of Rem</li>
-<li>Book 1</li>
-<li>Book 2</li>
-<li>Book 3</li>
-</ul>
-</div>
-<div class="life-events">
-<h4>Life Events</h4>
-<ul>
   <li>Births</li>
 <li>Deaths</li>
 <li>Marriages</li>
@@ -51,6 +36,7 @@ Below is a visual representation of Alice Thornton’s life, using data from her
 <li>Female</li>
 </ul>
 </div>
+    
 <div class="initials">
 <h4>Initials</h4>
 <ul>
