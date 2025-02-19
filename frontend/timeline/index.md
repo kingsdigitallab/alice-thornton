@@ -35,7 +35,7 @@ Below is a visual representation of Alice Thornton’s life, using data from her
       <div class="volumes">
 <h4>Books</h4>
 <ul>
-<li>Book of Rem</li>
+<li>Book Rem</li>
 <li>Book 1</li>
 <li>Book 2</li>
 <li>Book 3</li>
