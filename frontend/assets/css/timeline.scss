@@ -928,30 +928,16 @@ section {
         &:nth-child(7) {
           //Marriages
           &:before {
-            width: 20px;
-            height: 20px;
+            width: 25px;
+            height: 25px;
             opacity: 1;
             position: absolute;
             content: "";
-            left: 5px;
+            left: -1px;
             transform: translateX(35%);
-            background-image: radial-gradient(
-                circle at center center,
-                transparent 65.6%,
-                darkred 69.9%,
-                darkred 70.6%,
-                transparent 75.9%
-              ),
-              radial-gradient(
-                circle at center center,
-                transparent 65.6%,
-                darkred 69.9%,
-                darkred 70.6%,
-                transparent 75.9%
-              ),
-              radial-gradient(transparent, transparent 58%, darkred);
-            background-position: 50% -10px, -10px 50%, -10px -10px;
+            background-image: radial-gradient(circle, rgba(255, 255, 255, 0.5) 41%, rgba(128, 31, 0, 0.7) 44%, rgba(128, 31, 0, 0.7) 45%, white 48%, rgba(128, 31, 0, 0.7) 54%, rgba(255, 255, 255, 0) 55%);
             background-size: 100% 100%;
+            margin-top: -3px;
           } //&:before
         } //nth-child(7)
         &:nth-child(8) {
