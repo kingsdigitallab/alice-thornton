@@ -1114,7 +1114,7 @@ transform: translateX(35%);
       @include transition(all 400ms ease-in);
 
       ~ .content {
-        right: -399px; /* content on hover */
+        right: -320px; /* content on hover */
       }
 
       &:before {
@@ -1155,20 +1155,20 @@ transform: translateX(35%);
   //label
   .content {
     position: fixed;
-    top: 0;
+    top: -190px;
     bottom: 0;
-    right: -415px;
+    right: -350px;
     overflow: scroll;
     font-size: 14px;
     line-height: 1.6;
-    width: 370px;
+    width: 300px;
     @include transition(all 400ms ease-in);
     background: white;
-    height: 390px;
+    height: 150px;
     margin: auto;
     border: 1px solid $primary;
     z-index: 9;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     div {
       h4 {
         margin: 0;
@@ -1187,7 +1187,7 @@ transform: translateX(35%);
   }
 
   input#guideline[type="checkbox"]:checked ~ label.guideline-button {
-    right: 355px;
+    right: 310px;
     background: $primary;
 
     h2 {
