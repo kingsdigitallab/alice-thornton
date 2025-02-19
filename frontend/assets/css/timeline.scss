@@ -1,12 +1,4 @@
-// Project Color Theme
-$primary: #462200;
-$primary-dark: #200000;
-$primary-light: #6c4826;
-$secondary: #b34200;
-$secondary-dark: #801f00;
-$white: #fbfbfb;
-$gray: #e2e2e2;
-$gray-dark: #bcbcbc;
+@import "color-theme";
 
 // New Colors
 $taupe: lighten(#a59f90, 5%);
@@ -861,10 +853,13 @@ section {
 
     div {
       background: white;
-      width: calc(50% - 1.6vw);
-      margin: 0.05vw;
-      padding: 1vw 0 0 1vw;
+      width: 134px;
+      margin: 0px;
+      padding: 10px 0 0 10px;
       font-size: 14px;
+      ul{
+        width: 140px;
+      }
       h4 {
         margin: 0;
         font-size: 18px;
