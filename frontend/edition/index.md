@@ -97,11 +97,12 @@ eleventyNavigation:
             <ul class="key-list">
               <li class="monogram">Monogram<br><span>cursive font (replicating handwriting)</span></li>
               <li class="additions">Authorial comments<br><span>text in italics</span></li>
-              <li class="above">Authorial insertions/contractions <br><span>superscript - text placed higher</span></li>
-              <li class="dashed">Authorial repetition <br><span>dashed box around the material</span></li>
-              <li class="bracket">Items bracketed together <br><span>Curly bracket on the right of text</span></li>
+              <li class="above">Authorial insertions/contractions<sup>*</sup><br><span>superscript - text placed higher</span></li>
+              <li class="dashed">Authorial repetition<sup>*</sup><br><span>dashed box around the material</span></li>
+              <li class="bracket">Items bracketed together<sup>*</sup><br><span>Curly bracket on the right of text</span></li>
               <li class="strikethrough">Text deleted by author that remains legible<sup>*</sup><br><span>strikethrough – words or   characters are crossed through with a single line</span></li>
               <li class="doublestrikethrough">Text deleted by author that is no longer legible<sup>*</sup><br><span>strikethrough –   words or characters are crossed through with a double line</span></li>
+              <li class="supplied">Material supplied by the editors<sup>*</sup><br><span>square brackets around the material</span></li>
               <li class="heart">Used by Thornton in place of the word 'heart'<br>
                 <span>Heart icon - a glyph or non-standard character</span>
               </li>
@@ -186,9 +187,9 @@ eleventyNavigation:
         <div class="content">
           <h2>Editorial Principles</h2>
           <h3>Semi-diplomatic</h3>
-          <p>The semi-diplomatic version of the text retains some original textual features, including original lineation, paragraphing, punctuation, spelling and capitalisation. It also includes evidence of authorial corrections, such as insertions and deletions. However, to make this version more accessible we have silently modernised Thornton’s use of u/v, i/j and long S, and expanded her contractions of words such as ‘the’, ‘which’, and ‘that’ (from ye, wch and yt). </p>
+          <p>The semi-diplomatic version of the text retains some original textual features, including original lineation, paragraphing, punctuation, spelling and capitalisation. It also includes evidence of authorial corrections, such as insertions and deletions. However, to make this version more accessible we have silently modernised Thornton’s use of u/v, i/j and long S, and expanded her contractions of words such as ‘the’, ‘which’, and ‘that’ (from ye, wch and yt). Occasionally, Thornton omits a word that impedes sense; in such cases, we have supplied materials in square brackets (see key).</p>
           <h3>Modernised</h3>
-          <p>This version modernises according to the conventions of UK English, supplemented by Chicago Manual of Style (CMS) referencing recommendations. To retain a sense of Thornton’s distinctive voice, we have retained archaic forms and provided glosses. Sometimes this means that Thornton’s syntax deviates from modern expectations, especially regarding single/plural subject/verb agreement. Occasionally, further intervention is required to clarify sense; in these cases, supplied materials are identified by square brackets. </p>
+          <p>This version modernises according to the conventions of UK English, supplemented by Chicago Manual of Style (CMS) referencing recommendations. To retain a sense of Thornton’s distinctive voice, we have retained archaic forms and provided glosses. Sometimes this means that Thornton’s syntax deviates from modern expectations, especially regarding single/plural subject/verb agreement. </p>
         </div>
       </div>
       <br>
