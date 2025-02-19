@@ -411,7 +411,7 @@ Fogarty, Anne. 'Reading Dislocation and Emotion in the Writings of Alice Thornto
 
 Froide, Amy M. *Never Married: Singlewomen in Early Modern England*. Oxford: Oxford University Press, 2005. 
 
-Frymer-Kensky, Tikva. ‘Sarah/Sarai:Bible’. In *Shalvi/Hyman Encyclopedia of Jewish Women*, 31 December 1999. https://jwa.org/encyclopedia/article/sarahsarai-bible.   
+Frymer-Kensky, Tikva. [‘Sarah/Sarai:Bible’](https://jwa.org/encyclopedia/article/sarahsarai-bible). In *Shalvi/Hyman Encyclopedia of Jewish Women*, 31 December 1999.   
 
 Furgol, E. M. *A Regimental History of the Covenanting Armies*. Edinburgh: John Donald, 1990. 
 
@@ -511,7 +511,7 @@ Levy, Nathan. ‘Mesne Process in Personal Actions at Common Law and the Power D
 
 Lindemann, Mary. *Medicine and Society in Early Modern Europe*, 2nd edition. Cambridge: Cambridge University Press, 2010. 
 
-'List of Mayors and Lord Mayors of Hull, 1331–2019'. *Hull History Centre*. https://hullhistorycentre.org.uk/research/research-guides/PDF/Mayors-and-Lord-Mayors-of-Hull-1331-2019.pdf. 
+['List of Mayors and Lord Mayors of Hull, 1331–2019'](https://hullhistorycentre.org.uk/research/research-guides/PDF/Mayors-and-Lord-Mayors-of-Hull-1331-2024.pdf). *Hull History Centre*.
 
 Macadam, Joyce. 'English Weather: The Seventeenth-Century Diary of Ralph Josselin'. *The Journal of Interdisciplinary History* 43, no. 2 (2012): 221–46. 
 
@@ -591,7 +591,7 @@ Rendall, Edward B. M. and Isabella Rosner. ‘Plays, Plague, and Pouches: The Ro
 
 Reynolds, Anna. '“Worthy to Be Reserved”: Bookbindings and the Waste Paper Trade in Early Modern England and Scotland'. In *The Paper Trade in Early Modern Europe: Practices, Materials, Networks*, edited by Daniel Bellingradt and Anna Reynolds, 342–68. Leiden: Brill, 2021. 
 
-Richardson, Catherine. 'Introducing the Early Modern Parlour'. *Middling Culture*. https://middlingculture.com/2022/04/28/introducing-the-virtual-early-modern-parlour/.  
+Richardson, Catherine. ['Introducing the Early Modern Parlour'](https://middlingculture.com/2022/04/28/introducing-the-virtual-early-modern-parlour/). *Middling Culture*. 
 
 Richardson, R. C. 'The Generation Gap: Parental Advice in Early Modern England'. *Clio* 32, no. 1 (2002): 1–26. 
 
