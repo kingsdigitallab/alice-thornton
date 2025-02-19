@@ -235,6 +235,8 @@ Albert, D. M. and R. Diaz-Rohena. ‘A Historical Review of Sympathetic Ophthalm
 
 Allemeyer, Marie Luisa. 'Profane Hazard or Divine Judgement? Coping with Urban Fire in the 17th Century'. *Historical Social Research* 32, no. 3 (121) (2007): 145–68. 
 
+American Meteorological Society, 2020: [Cross sea](https://glossary.ametsoc.org/wiki/Cross_sea). Glossary of Meteorology, 2020.
+
 Anselment, Raymond A. (ed.). ‘Smallpox in Seventeenth-Century English Literature': Reality and the Metamorphosis of Wit’. *Medical History* 33, no. 1 (1989): 72–95.
 
 --  ‘“My First Booke of My Life:” The Apology of a Seventeenth-Century Gentry Woman’. *Prose Studies* 24, no. 2 (2001): 1–14. 
@@ -420,8 +422,6 @@ Gardiner, S. R. *The Constitutional Documents of the Puritan Revolution, 1625–
 Garrioch, David. ‘1666 and London’s Fire History: A Re-evaluation’. *The Historical Journal* 59, no. 2 (2016): 319–38.  
 
 Gentles, I. J. *The English Revolution and the Wars in the Three Kingdoms, 1638–1652*. London: Routledge, 2007. 
-
-*Glossary of Meteorology: American Meteorological Society Glossary of Meteorology*. https://glossary.ametsoc.org/wiki 
 
 Gowland, Angus. ‘Mind/Brain’. In *A Cultural History of Medicine in the Renaissance*, edited by Elaine Leong and Claudia Stein, vol. 3 of *A Cultural History of Medicine*, edited by Roger Cooter, 163–88. London: Bloomsbury, 2021. 
 
