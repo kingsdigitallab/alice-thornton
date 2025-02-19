@@ -608,58 +608,25 @@ section {
             margin-top: -3vw;
             /*bottom:0.7vw*/
             transform: translateX(35%);
-            background-image: radial-gradient(
-                circle at center center,
-                transparent 67.6%,
-                $secondary-dark 68.9%,
-                $secondary-dark 70.6%,
-                transparent 73.9%
-              ),
-              radial-gradient(
-                circle at center center,
-                transparent 67.6%,
-                $secondary-dark 68.9%,
-                $secondary-dark 70.6%,
-                transparent 73.9%
-              ),
-              radial-gradient(transparent, transparent 68%, $secondary-dark);
             background-position: 50% -1.5vw, -1.5vw 50%, -1.5vw -1.5vw;
             background-size: 100% 100%;
             display: flex;
             opacity: 0;
-            /* &:after{ //Clashing with data attribute
-              content:'';
-      width: 3vw;
-  height: 3vw;
-  background-image: radial-gradient(circle at center center,transparent 67.6%,$secondary-dark 68.9%,$secondary-dark 70.6%,transparent 71.9%),radial-gradient(circle at center center,transparent 67.6%,$secondary-dark 68.9%,$secondary-dark 70.6%,transparent 71.9%),
-  radial-gradient(transparent, transparent 68%, $secondary-dark);
-  background-position: 50% -1.5vw,-1.5vw 50%,-1.5vw -1.5vw;
-  background-size: 100% 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 1;
-            }    */
             &.present {
               opacity: 1;
               &:before {
-                width: 2.4vw;
-                height: 2.4vw;
+                width: 4vw;
+                height: 4vw;
                 content: "B";
                 position: absolute;
-                font-size: 0.9vw;
-                line-height: 2.2;
+                font-size: 1vw;
+                line-height: 4.2;
                 text-align: center;
-                bottom: 0.3vw;
-                left: 0.3vw;
-                color: white;
+                bottom: -0.5vw;
+                left: -0.4vw;
+                color: black;
                 background: rgba(0, 0, 0, 0.4);
-                background: radial-gradient(
-                  circle,
-                  rgba(128, 31, 0, 1) 21%,
-                  rgb(128, 31, 0, 0.7) 33%,
-                  rgba(255, 255, 255, 0) 55%
-                );
+                background: radial-gradient(circle, rgba(255,255,255,0.5) 41%, rgba(128, 31, 0, 0.7) 44%, rgba(128, 31, 0, 0.7) 45%, white 48%, rgba(128, 31, 0, 0.7) 54%, rgba(255, 255, 255, 0) 55%);
                 border-radius: 50%;
                 z-index: 1;
               } //&:before
