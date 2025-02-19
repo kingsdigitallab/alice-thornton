@@ -18,7 +18,7 @@ Below is a visual representation of Alice Thornton’s life, using data from her
  <div id="legend-wrapper">
     <input type="checkbox" id="legend">
     <label aria-label="legend/key" class="legend-button" for="legend">
-        <h2>Legend</h2>
+        <h2>Key</h2>
     </label>
     <div class="content">
 
