@@ -784,7 +784,7 @@ section {
     cursor: pointer;
     right: -23px;
     bottom: 0;
-    top: 300px;
+    top: 280px;
     margin: auto;
     position: fixed;
     @include transform(rotate(-90deg));
@@ -797,11 +797,11 @@ section {
     z-index: 99;
     &:hover {
       background: $primary-dark;
-      right: -18px;
+      right: -16px;
       @include transition(all 400ms ease-in);
 
       ~ .content {
-        right: -360px; /* content on hover */
+        right: -340px; /* content on hover */
       }
 
       &:before {
@@ -848,7 +848,7 @@ section {
     overflow: scroll;
     font-size: 14px;
     line-height: 1.6;
-    width: 370px;
+    width: 310px;
     @include transition(all 400ms ease-in);
     background: white;
     height: 390px;
@@ -857,19 +857,17 @@ section {
     z-index: 9;
     display: flex;
     flex-wrap: wrap;
-    background: $primary;
+    padding-right:40px;
 
     div {
       background: white;
       width: calc(50% - 1.6vw);
       margin: 0.05vw;
-      padding: 1vw 0.5vw 0 1vw;
-      font-size: 16px;
+      padding: 1vw 0 0 1vw;
+      font-size: 14px;
       h4 {
         margin: 0;
         font-size: 18px;
-      }
-      ul {
       }
     }
     .events {
@@ -881,8 +879,8 @@ section {
             content: "";
             width: 20px;
             height: 6px;
-            left: 13px;
-            margin-top: 0.7vw;
+            left: 11px;
+            margin-top: 8px;
             position: absolute;
             background: $lifeline;
           } //&:before
@@ -897,7 +895,7 @@ section {
             transform: translate(50%, 10%) rotate(45deg);
             border-left: 1px solid $transparent;
             border-bottom: 1px solid $transparent;
-            left: 10px;
+            left: 8px;
             margin-top: 4px;
           } //&:before
         } //&:nth-child(2)
@@ -912,10 +910,10 @@ section {
             vertical-align: bottom;
             position: absolute;
             content: "";
-            left: 13px;
+            left: 11px;
             clip-path: polygon(50% 0, 100% 100%, 0 100%);
             width: 20px;
-            height: 15px;
+            height: 17px;
             margin-top: 3px;
           } //&:before
         } //nth-child(3)
@@ -923,20 +921,15 @@ section {
           //Historical
           &:before {
             content: "";
-            width: 2px;
-            height: 20px;
+            width: 1px;
+            height: 14px;
             margin-top: 3px;
-            left: 22px;
+            left: 20px;
             position: absolute;
             background: $primary;
           } //&:before
         } //nth-child(4)
-      } //ul li
-    } //.events
-    .life-events {
-      ul li {
-        list-style-type: none;
-        &:nth-child(1) {
+        &:nth-child(5) {
           //Birth
           &:before {
             background-image: linear-gradient(
@@ -949,28 +942,28 @@ section {
             border-top: 0;
             border-left: 0;
             border-right: 0;
-            width: 21px;
-            height: 18px;
+            width: 18px;
+            height: 16px;
             content: "";
             position: absolute;
-            border-radius: 0 0 50% 50%;
-            left: 13px;
+            border-radius: 50%;
+            left: 12px;
             margin-top: 0;
           } //&:before
         }
-        &:nth-child(2) {
+        &:nth-child(6) {
           //Deaths
           &:before {
             width: 18px;
-            height: 12px;
+            height: 10px;
             content: "";
             background: black;
             position: absolute;
-            margin-left: -24px;
+            margin-left: -26px;
             margin-top: 5px;
           } //&:before
-        } //nth-child(2)
-        &:nth-child(3) {
+        } //nth-child(6)
+        &:nth-child(7) {
           //Marriages
           &:before {
             width: 20px;
@@ -998,51 +991,38 @@ section {
             background-position: 50% -10px, -10px 50%, -10px -10px;
             background-size: 100% 100%;
           } //&:before
-          /*&:after{ //Clashing with data-attribute
-            width: 20px;
-height: 20px;
-opacity: 1;
-position:absolute;
-content:'';
-          left:12px;
-transform: translateX(35%);
-            background-image: radial-gradient(circle at center center,transparent 65.6%,darkred 69.9%,darkred 70.6%,transparent 75.9%),radial-gradient(circle at center center,transparent 65.6%,darkred 69.9%,darkred 70.6%,transparent 75.9%),
-    radial-gradient(transparent, transparent 58%, darkred);
-  background-position: 50% -10px,-10px 50%,-10px -10px;
-  background-size: 100% 100%;
-          transform:rotate(45deg);
-        }*/
-        } //nth-child(3)
-        &:nth-child(4) {
+        } //nth-child(7)
+        &:nth-child(8) {
           //Male
           &:before {
             width: 10px;
             height: 1px;
             content: "";
             position: absolute;
-            margin-left: -20px;
+            margin-left: -22px;
             margin-top: 12px;
             border-bottom: 3px double black;
           } //&:before
-        } //nth-child(4)
-        &:nth-child(5) {
+        } //nth-child(8)
+        &:nth-child(9) {
           //Female
           &:before {
             width: 10px;
             height: 1px;
             content: "";
             position: absolute;
-            margin-left: -20px;
+            margin-left: -22px;
             margin-top: 14px;
             border-bottom: 1px solid black;
           } //&:before
-        } //nth-child(5)
+        } //nth-child(9)
       } //ul li
-    } //.life-events
+    } //.events
     .initials {
+      padding-left:2vw;
       ul li {
         list-style-type: none;
-        margin-left: -20px;
+        margin-left: -27px;
       }
     } //.initials
   } //.content
@@ -1057,7 +1037,7 @@ transform: translateX(35%);
   }
 
   input#legend[type="checkbox"]:checked ~ label.legend-button {
-    right: 355px;
+    right: 335px;
     background: $primary;
 
     h2 {
@@ -1114,7 +1094,7 @@ transform: translateX(35%);
       @include transition(all 400ms ease-in);
 
       ~ .content {
-        right: -320px; /* content on hover */
+        right: -350px; /* content on hover */
       }
 
       &:before {
@@ -1155,20 +1135,20 @@ transform: translateX(35%);
   //label
   .content {
     position: fixed;
-    top: -190px;
+    top: -100px;
     bottom: 0;
-    right: -350px;
+    right: -370px;
     overflow: scroll;
     font-size: 14px;
     line-height: 1.6;
     width: 300px;
     @include transition(all 400ms ease-in);
     background: white;
-    height: 150px;
+    height: 450px;
     margin: auto;
     border: 1px solid $primary;
-    z-index: 9;
-    padding: 20px 20px 20px 20px;
+    z-index: 7;
+    padding: 20px 40px 20px 20px;
     div {
       h4 {
         margin: 0;
@@ -1187,7 +1167,7 @@ transform: translateX(35%);
   }
 
   input#guideline[type="checkbox"]:checked ~ label.guideline-button {
-    right: 310px;
+    right: 330px;
     background: $primary;
 
     h2 {
@@ -1216,3 +1196,4 @@ transform: translateX(35%);
 
   //input#filter[type="checkbox"]:checked~label.filter
 } //.guideline-wrapper
+
