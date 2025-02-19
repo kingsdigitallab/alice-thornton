@@ -10,7 +10,7 @@ customCSS: "/assets/css/timeline.css"
 
 Below is a visual representation of Alice Thornton’s life, using data from her Books and other sources.
 
-"Guidelines" and "Legend" section on the right, slide out once clicked, give guidance on how to understand and navigate the timeline.
+"Guidelines" and "Key" section on the right, slide out once clicked, give guidance on how to understand and navigate the timeline.
 
 <hr>
 <em>Note: All elements below scale in response to the viewport so best viewed on a larger screen. </em>
@@ -18,7 +18,7 @@ Below is a visual representation of Alice Thornton’s life, using data from her
  <div id="legend-wrapper">
     <input type="checkbox" id="legend">
     <label aria-label="legend/key" class="legend-button" for="legend">
-        <h2>Legend</h2>
+        <h2>Key</h2>
     </label>
     <div class="content">
 

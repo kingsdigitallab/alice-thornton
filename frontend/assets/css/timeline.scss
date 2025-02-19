@@ -741,9 +741,9 @@ section {
     @include transition(all 400ms ease-in);
     z-index: 1;
     cursor: pointer;
-    right: -23px;
+    right: -3px;
     bottom: 0;
-    top: 280px;
+    top: 160px;
     margin: auto;
     position: fixed;
     @include transform(rotate(-90deg));
@@ -751,12 +751,12 @@ section {
     font-size: 1.2em;
     background: $primary;
     color: white;
-    width: 120px;
+    width: 80px;
     height: 2em;
     z-index: 99;
     &:hover {
       background: $primary-dark;
-      right: -16px;
+      right: 6px;
       @include transition(all 400ms ease-in);
 
       ~ .content {
@@ -779,7 +779,7 @@ section {
       font-weight: normal;
       text-transform: uppercase;
       font-family: sans-serif;
-      padding: 18px 0 0 17px;
+      padding: 18px 0 0 12px;
       &:before {
         display: none;
       }
@@ -801,7 +801,7 @@ section {
   //label
   .content {
     position: fixed;
-    top: 0;
+    top: 150px;
     bottom: 0;
     right: -375px;
     overflow: scroll;
@@ -810,7 +810,7 @@ section {
     width: 310px;
     @include transition(all 400ms ease-in);
     background: white;
-    height: 390px;
+    height: 320px;
     margin: auto;
     border: 1px solid $primary;
     z-index: 9;
@@ -985,7 +985,7 @@ section {
   }
 
   input#legend[type="checkbox"]:checked ~ label.legend-button {
-    right: 335px;
+    right: 355px;
     background: $primary;
 
     h2 {
