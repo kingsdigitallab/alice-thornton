@@ -573,6 +573,8 @@ Pelling, Margaret. *The Common Lot: Sickness, Medical Occupations and the Urban 
 
 Phillippy, Patricia. [‘Women's History Month 2024, 4: Alice Thornton and the North American Connection’](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-21-thornton-and-north-america/). *Alice Thornton’s Books*, 21 March 2024. 
 
+'Platanus occidentalis', [Trees and Shrubs Online](treesandshrubsonline.org/articles/platanus/platanus-occidentalis/). 
+
 Pogson, Fiona. 'Wandesford, Christopher (1592–1640), politician and administrator'. *ODNB*. 
 
 Pollock, Linda. ‘“Teach Her to Live under Obedience”’: The Making of Women in the Upper Ranks of Early Modern England'. *Continuity and Change* 4, no. 2 (1989): 231–58. 
@@ -644,9 +646,7 @@ Stoyle, Mark. *Soldiers and Strangers: An Ethnic History of the English Civil Wa
 Stretton, Tim and Krista J. Kesselring. ‘Introduction: Coverture and Continuity’. In *Married Women and the Law: Coverture in England and the Common Law World*, edited by Tim Stretton and Krista J. Kesselring, 1–23. Montreal: McGill-Queen's University Press, 2013.  
 
 Tillott, P. M. *A History of the County of York: The City of York*. London: Victoria County History, 1961. 
-
-['Trees and Shrubs Online'](https://www.treesandshrubsonline.org). *International Dendrology Society*.  
-
+ 
 Trill, Suzanne, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modem England’. In *The Nature of Religious Language*, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.  
 
 Trubowitz, Rachel. ‘“Nourish-Milke”: Breast-Feeding and the Crisis of Englishness, 1600–1660’. *Journal of English and Germanic Philology* 99, no. 1 (2000): 29–49.  
