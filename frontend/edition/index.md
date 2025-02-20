@@ -235,6 +235,7 @@ eleventyNavigation:
                 </template>
               </div>
               <div v-if="entity?.index?.bio" class="entity-description">{{ entity.index.bio }}</div>
+              <div v-if="entity?.index?.desc" class="entity-description">{{ entity.index.desc }}</div>
               <ul id="entity-references" class="result-books" v-if="selection.highlightedText == entity.index.id">
                 <li v-for="(pages, bookId) in entity.index.pages" class="result-book">
                   <template v-if="pages.length">

@@ -117,8 +117,8 @@ eleventyNavigation:
                 <a :href="`?hi=${group.id}`">Group: {{ group.title }}</a>
               </div>
             </summary>
-            <div v-if="item.type=='person' && isBioVisible(item)" class="result-description">
-              {{ item.bio }}
+            <div v-if="isDescriptionVisible(item)" class="result-description">
+              {{ getItemDescription(item) }}
             </div>
             <ul class="result-books">
               <li v-for="(pages, bookId) in item.pages" class="result-book">

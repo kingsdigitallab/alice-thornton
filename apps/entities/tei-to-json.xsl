@@ -85,6 +85,7 @@ Example:
             "subtype": "<xsl:value-of select='@type'/>",
             "region": "<xsl:value-of select='(tei:location/tei:region/text(),"Europe")[1]'/>",
             "settlement": "<xsl:value-of select='tei:location/tei:settlement/text()'/>",
+            "desc": "<xsl:value-of select="normalize-space(tei:noteGrp/tei:note[@type='desc']/text())"/>",
             "pages": {<xsl:call-template name='insertBooksPages'><xsl:with-param name="entity" select="."/><xsl:with-param name="entityPrefix" select="'place:'"/></xsl:call-template>}
         }
         <xsl:if test="position()!=last()">,</xsl:if>

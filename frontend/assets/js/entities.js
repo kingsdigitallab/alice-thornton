@@ -188,9 +188,12 @@ function setUpSearch() {
       },
     },
     methods: {
-      isBioVisible(item) {
-        // hidden if the bio is surrounded by square brackets.
-        return !item.bio.match(/^\s*\[.*\]\s*$/);
+      isDescriptionVisible(item) {
+        // hidden if the desc/bio is surrounded by square brackets.
+        return !this.getItemDescription(item).match(/^\s*\[.*\]\s*$/);
+      },
+      getItemDescription(item) {
+        return item?.desc || item?.bio || "";
       },
       onChangeView(viewKey) {
         if (viewKey) {
