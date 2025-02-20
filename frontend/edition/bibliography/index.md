@@ -702,6 +702,8 @@ Whiteley, Rebecca. *Birth Figures: Early Modern Prints and the Pregnant Body*. C
 
 Whiting, C. E (ed.). The *Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
 
+['Wills and Administrations'](https://web.archive.org/web/20240816040344/https://www.nationalarchives.ie/article/wills-and-administrations/). *National Archives of Ireland*.
+
 Wilson, Adrian. ‘On the History of Disease-Concepts: The Case of Pleurisy’. *History of Science* 38, no. 3 (2000): 271–319. 
 
 Wrigley, E. A. *English Population History from Family Reconstitution, 1580–1837*. Cambridge: Cambridge University Press, 1997. 
