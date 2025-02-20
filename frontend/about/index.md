@@ -17,6 +17,12 @@ Over the course of this project, we kept in mind three key questions:
 2. Why did Thornton write four different autobiographical Books? How do they relate to each other and what might this reveal about their timing, process of composition and audience?
 3. How does Thornton’s engagement with contemporary legal, medical, political, and religious discourses enhance understanding of early modern women in Britain and Ireland?
 
+## About Our Edition
+ 
+ 
+For more information on our editorial principles and practices, please read our Guidelines (*coming soon*). For a full list of the works cited in our Edition notes please see our [Bibliography](https://thornton.kdl.kcl.ac.uk/edition/bibliography/).
+
+
 ## The Project Team
 
 ‘Alice Thornton’s Books’ brought together historians, literary scholars and digital analysts from the University of Edinburgh and King’s Digital Lab.

@@ -37,10 +37,6 @@ The text of all four manuscripts are available to read in both fully modernised 
 
 Although we have not digitised the manuscripts, we have provided some sample images from each of them to offer a sense of how the original materials look.
 
-You can currently access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions. See also our second release of the [search function](/entities/).
-
-Feedback is especially welcome as we work towards our final release in late February 2025; see the icon on the bottom right.
-
 
 ## Background
 

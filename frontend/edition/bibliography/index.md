@@ -6,6 +6,27 @@ title: Bibliography
 This is a complete list of the works cited in our edition notes.
 <p>&nbsp;</p>
 
+## Abbreviations
+
+BIA: Borthwick Institute for Archives <br/>
+BHO: British History Online <br/>
+BL: British Library <br/>
+DCL: Durham Cathedral Library <br/>
+DIB: Dictionary of Irish Biography <br/>
+ERRO: East Riding Record Office <br/>
+HPO: History of Parliament Online <br/>
+MED: Middle English Dictionary <br/>
+NLI: National Library of Ireland <br/>
+NYCRO: North Yorkshire County Record Office <br/>
+ODNB: Oxford Dictionary of National Biography <br/>
+OEDO: Oxford English Dictionary Online <br/>
+RCP: Royal College of Physicians <br/>
+TNA: The National Archives <br/>
+VCH: Victoria County History <br/>
+WYRO: West Yorkshire Record Office <br/>
+
+<p>&nbsp;</p>
+
 ## Manuscript sources
 
 **Beverley, East Riding Record Office**
@@ -224,7 +245,9 @@ Adair, Richard. _Courtship, Illegitimacy and Marriage in Early Modern England_. 
 
 Albert, D. M. and R. Diaz-Rohena. ‘A Historical Review of Sympathetic Ophthalmia and its Epidemiology’, _Survey of Ophthalmology_ 34, no. 1 (1989): 1–14.
 
-Allemeyer, Marie Luisa. 'Profane Hazard or Divine Judgement? Coping with Urban Fire in the 17th Century'. _Historical Social Research_ 32, no. 3 (121) (2007): 145–68.
+Allemeyer, Marie Luisa. 'Profane Hazard or Divine Judgement? Coping with Urban Fire in the 17th Century'. *Historical Social Research* 32, no. 3 (121) (2007): 145–68. 
+
+American Meteorological Society, 2020: [Cross sea](https://glossary.ametsoc.org/wiki/Cross_sea). Glossary of Meteorology, 2020.
 
 Anselment, Raymond A. (ed.). ‘Smallpox in Seventeenth-Century English Literature': Reality and the Metamorphosis of Wit’. _Medical History_ 33, no. 1 (1989): 72–95.
 
@@ -266,11 +289,11 @@ Beattie, Cordelia. ‘The Life Cycle: The Ages of Medieval Women’. In _A Cultu
 
 Beattie, Cordelia and Suzanne Trill. [‘Alice Thornton’s Heart: An Early Modern Emoji’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/). _Alice Thornton’s Books_, 17 March 2023.
 
-Bennett, Martyn, Ray Gillespie and R. Scott Spurlock (eds). _Cromwell and Ireland: New Perspectives_. Liverpool: Liverpool University Press, 2021.
+Bennett, Martyn, Ray Gillespie and R. Scott Spurlock (eds). *Cromwell and Ireland: New Perspectives*. Liverpool: Liverpool University Press, 2021. 
 
-Blackburn, Robert. 'The Summoning and Meeting of New Parliaments in the United Kingdom’. _Legal Studies_ 9, no. 2 (1989): 165–76.
+Black, Henry Campbell (ed.). [*Black's Law Dictionary*](https://thelawdictionary.org), 2nd edition.  St Paul, MN: West Pub. Co. 1910.  
 
-_Black's Law Dictionary_, 2nd edn. https://thelawdictionary.org.
+Blackburn, Robert. 'The Summoning and Meeting of New Parliaments in the United Kingdom’. *Legal Studies* 9, no. 2 (1989): 165–76. 
 
 Bolton, P. A. and Paula Watson. 'Wandesford, John (c.1632–64), of Kirklington, Yorks. and London'. _HPO_.
 
@@ -282,7 +305,7 @@ Brown, A., N. Shiel, J. Uckelman, and S. L. Uckelman. [‘Robert’](http://dmne
 
 Buchanan, Ashley. ['The Power of Peony'](https://recipes.hypotheses.org/18635). _The Recipes Project_, 12 May 2022.
 
-Burns, William E. '“The Terriblest Eclipse That Hath Been Seen in Our Days”: Black Monday and the Debate on Astrology during the Interregnum'. In _Rethinking the Scientific Revolution_, ed. Margaret J. Osler, 137–52. Cambridge: Cambridge University Press, 2000.
+Burns, William E. '“The Terriblest Eclipse That Hath Been Seen in Our Days”: Black Monday and the Debate on Astrology during the Interregnum'. In *Rethinking the Scientific Revolution*, edited by Margaret J. Osler, 137–52. Cambridge: Cambridge University Press, 2000. 
 
 Butler, Sara M. _Pain, Penance, and Protest: Peine Forte et Dure in Medieval England_. Cambridge: Cambridge University Press, 2022.
 
@@ -402,7 +425,7 @@ Fogarty, Anne. 'Reading Dislocation and Emotion in the Writings of Alice Thornto
 
 Froide, Amy M. _Never Married: Singlewomen in Early Modern England_. Oxford: Oxford University Press, 2005.
 
-Frymer-Kensky, Tikva. ‘Sarah/Sarai:Bible’. In _Shalvi/Hyman Encyclopedia of Jewish Women_, 31 December 1999. https://jwa.org/encyclopedia/article/sarahsarai-bible.
+Frymer-Kensky, Tikva. [‘Sarah/Sarai:Bible’](https://jwa.org/encyclopedia/article/sarahsarai-bible). In *Shalvi/Hyman Encyclopedia of Jewish Women*, 31 December 1999.   
 
 Furgol, E. M. _A Regimental History of the Covenanting Armies_. Edinburgh: John Donald, 1990.
 
@@ -410,9 +433,7 @@ Gardiner, S. R. _The Constitutional Documents of the Puritan Revolution, 1625–
 
 Garrioch, David. ‘1666 and London’s Fire History: A Re-evaluation’. _The Historical Journal_ 59, no. 2 (2016): 319–38.
 
-Gentles, I. J. _The English Revolution and the Wars in the Three Kingdoms, 1638–1652_. London: Routledge, 2007.
-
-_Glossary of Meteorology: American Meteorological Society Glossary of Meteorology_. https://glossary.ametsoc.org/wiki
+Gentles, I. J. *The English Revolution and the Wars in the Three Kingdoms, 1638–1652*. London: Routledge, 2007. 
 
 Gowland, Angus. ‘Mind/Brain’. In _A Cultural History of Medicine in the Renaissance_, edited by Elaine Leong and Claudia Stein, vol. 3 of _A Cultural History of Medicine_, edited by Roger Cooter, 163–88. London: Bloomsbury, 2021.
 
@@ -502,7 +523,7 @@ Levy, Nathan. ‘Mesne Process in Personal Actions at Common Law and the Power D
 
 Lindemann, Mary. _Medicine and Society in Early Modern Europe_, 2nd edition. Cambridge: Cambridge University Press, 2010.
 
-'List of Mayors and Lord Mayors of Hull, 1331–2019'. _Hull History Centre_. https://hullhistorycentre.org.uk/research/research-guides/PDF/Mayors-and-Lord-Mayors-of-Hull-1331-2019.pdf.
+['List of Mayors and Lord Mayors of Hull, 1331–2019'](https://hullhistorycentre.org.uk/research/research-guides/PDF/Mayors-and-Lord-Mayors-of-Hull-1331-2024.pdf). *Hull History Centre*.
 
 Macadam, Joyce. 'English Weather: The Seventeenth-Century Diary of Ralph Josselin'. _The Journal of Interdisciplinary History_ 43, no. 2 (2012): 221–46.
 
@@ -562,7 +583,9 @@ Page, William (ed.). _A History of the County of York: North Riding_, vol. 1. Lo
 
 Pelling, Margaret. _The Common Lot: Sickness, Medical Occupations and the Urban Poor in Early Modern England_. London: Routledge, 1998.
 
-Phillippy, Patricia. [‘Women's History Month 2024, 4: Alice Thornton and the North American Connection’](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-21-thornton-and-north-america/). _Alice Thornton’s Books_, 21 March 2024.
+Phillippy, Patricia. [‘Women's History Month 2024, 4: Alice Thornton and the North American Connection’](https://thornton.kdl.kcl.ac.uk/posts/blog/2024-03-21-thornton-and-north-america/). *Alice Thornton’s Books*, 21 March 2024. 
+
+'Platanus occidentalis', [Trees and Shrubs Online](treesandshrubsonline.org/articles/platanus/platanus-occidentalis/). 
 
 Pogson, Fiona. 'Wandesford, Christopher (1592–1640), politician and administrator'. _ODNB_.
 
@@ -582,7 +605,7 @@ Rendall, Edward B. M. and Isabella Rosner. ‘Plays, Plague, and Pouches: The Ro
 
 Reynolds, Anna. '“Worthy to Be Reserved”: Bookbindings and the Waste Paper Trade in Early Modern England and Scotland'. In _The Paper Trade in Early Modern Europe: Practices, Materials, Networks_, edited by Daniel Bellingradt and Anna Reynolds, 342–68. Leiden: Brill, 2021.
 
-Richardson, Catherine. 'Introducing the Early Modern Parlour'. _Middling Culture_. https://middlingculture.com/2022/04/28/introducing-the-virtual-early-modern-parlour/.
+Richardson, Catherine. ['Introducing the Early Modern Parlour'](https://middlingculture.com/2022/04/28/introducing-the-virtual-early-modern-parlour/). *Middling Culture*. 
 
 Richardson, R. C. 'The Generation Gap: Parental Advice in Early Modern England'. _Clio_ 32, no. 1 (2002): 1–26.
 
@@ -634,11 +657,9 @@ Stoyle, Mark. _Soldiers and Strangers: An Ethnic History of the English Civil Wa
 
 Stretton, Tim and Krista J. Kesselring. ‘Introduction: Coverture and Continuity’. In _Married Women and the Law: Coverture in England and the Common Law World_, edited by Tim Stretton and Krista J. Kesselring, 1–23. Montreal: McGill-Queen's University Press, 2013.
 
-Tillott, P. M. _A History of the County of York: The City of York_. London: Victoria County History, 1961.
-
-['Trees and Shrubs Online'](https://www.treesandshrubsonline.org). _International Dendrology Society_.
-
-Trill, Suzanne, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modem England’. In _The Nature of Religious Language_, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.
+Tillott, P. M. *A History of the County of York: The City of York*. London: Victoria County History, 1961. 
+ 
+Trill, Suzanne, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modem England’. In *The Nature of Religious Language*, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.  
 
 Trubowitz, Rachel. ‘“Nourish-Milke”: Breast-Feeding and the Crisis of Englishness, 1600–1660’. _Journal of English and Germanic Philology_ 99, no. 1 (2000): 29–49.
 
@@ -664,15 +685,13 @@ Watt, Jeffrey. 'Introduction'. In _From Sin to Insanity: Suicide in Early Modern
 
 Wear, Andrew. 'Puritan Perceptions of Illness in Seventeenth Century England'. In _Patients and Practitioners: Lay Perceptions of Medicine in Pre-Industrial Society_, edited by Roy Porter, 55–100. Cambridge: Cambridge University Press, 1986.
 
-[_Weatherweb_](https://premium.weatherweb.net/).
+'Weather in History 1650 to 1699 AD', [Weatherweb](https://premium.weatherweb.net/weather-in-history-1650-to-1699-ad/). 
 
 Weisser, Olivia. _Ill Composed: Sickness, Gender, and Belief in Early Modern England_. New Haven: Yale University Press, 2016.
 
 Whiteley, Rebecca. _Birth Figures: Early Modern Prints and the Pregnant Body_. Chicago: The University of Chicago Press, 2023.
 
-Whiting, C. E (ed.). The _Autobiographies and Letters of Thomas Comber_, 2 vols. Durham: Andrews and Co., 1946.
-
-['Wills and Administrations'](https://www.nationalarchives.ie/article/wills-and-administrations/). _National Archives of Ireland_.
+Whiting, C. E (ed.). The *Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
 
 Wilson, Adrian. ‘On the History of Disease-Concepts: The Case of Pleurisy’. _History of Science_ 38, no. 3 (2000): 271–319.
 

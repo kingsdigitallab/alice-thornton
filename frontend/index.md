@@ -19,7 +19,6 @@ This website provides resources aimed at better understanding the life and
 work of Alice Thornton and hosts a fully searchable digital
 edition of all four of her autobiographical Books.
 
-You can currently access our [partial release](/books/viewer/?p0.vi=modern), in both semi-diplomatic and modernised versions, and our second release of the [search function](/entities/). Feedback is very welcome as we work towards our final release in late February 2025; see the icon on the bottom right.
 
 {% comment %}
 <a class="button-hp" href="#who">
