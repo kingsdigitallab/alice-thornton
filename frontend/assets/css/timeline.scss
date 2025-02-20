@@ -1,12 +1,4 @@
-// Project Color Theme
-$primary: #462200;
-$primary-dark: #200000;
-$primary-light: #6c4826;
-$secondary: #b34200;
-$secondary-dark: #801f00;
-$white: #fbfbfb;
-$gray: #e2e2e2;
-$gray-dark: #bcbcbc;
+@import "color-theme";
 
 // New Colors
 $taupe: lighten(#a59f90, 5%);
@@ -204,7 +196,7 @@ section {
       //arrow direction
       position: absolute;
       content: "";
-      border: 0.1vw solid darken($secondary, 2%);
+      border: 0.1vw solid darken($gray-dark, 2%);
       width: 1vw;
       height: 1vw;
       bottom: -0.25vw;
@@ -616,58 +608,25 @@ section {
             margin-top: -3vw;
             /*bottom:0.7vw*/
             transform: translateX(35%);
-            background-image: radial-gradient(
-                circle at center center,
-                transparent 67.6%,
-                $secondary-dark 68.9%,
-                $secondary-dark 70.6%,
-                transparent 73.9%
-              ),
-              radial-gradient(
-                circle at center center,
-                transparent 67.6%,
-                $secondary-dark 68.9%,
-                $secondary-dark 70.6%,
-                transparent 73.9%
-              ),
-              radial-gradient(transparent, transparent 68%, $secondary-dark);
             background-position: 50% -1.5vw, -1.5vw 50%, -1.5vw -1.5vw;
             background-size: 100% 100%;
             display: flex;
             opacity: 0;
-            /* &:after{ //Clashing with data attribute
-              content:'';
-      width: 3vw;
-  height: 3vw;
-  background-image: radial-gradient(circle at center center,transparent 67.6%,$secondary-dark 68.9%,$secondary-dark 70.6%,transparent 71.9%),radial-gradient(circle at center center,transparent 67.6%,$secondary-dark 68.9%,$secondary-dark 70.6%,transparent 71.9%),
-  radial-gradient(transparent, transparent 68%, $secondary-dark);
-  background-position: 50% -1.5vw,-1.5vw 50%,-1.5vw -1.5vw;
-  background-size: 100% 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 1;
-            }    */
             &.present {
               opacity: 1;
               &:before {
-                width: 2.4vw;
-                height: 2.4vw;
+                width: 4vw;
+                height: 4vw;
                 content: "B";
                 position: absolute;
-                font-size: 0.9vw;
-                line-height: 2.2;
+                font-size: 1vw;
+                line-height: 4.2;
                 text-align: center;
-                bottom: 0.3vw;
-                left: 0.3vw;
-                color: white;
+                bottom: -0.5vw;
+                left: -0.4vw;
+                color: black;
                 background: rgba(0, 0, 0, 0.4);
-                background: radial-gradient(
-                  circle,
-                  rgba(128, 31, 0, 1) 21%,
-                  rgb(128, 31, 0, 0.7) 33%,
-                  rgba(255, 255, 255, 0) 55%
-                );
+                background: radial-gradient(circle, rgba(255,255,255,0.5) 41%, rgba(128, 31, 0, 0.7) 44%, rgba(128, 31, 0, 0.7) 45%, white 48%, rgba(128, 31, 0, 0.7) 54%, rgba(255, 255, 255, 0) 55%);
                 border-radius: 50%;
                 z-index: 1;
               } //&:before
@@ -681,7 +640,7 @@ section {
           &.deathEventCount,
           &.marriageEventCount {
             &:before {
-              text-underline-offset: 0.3vw;
+              text-underline-offset: 0.2vw;
             }
             &.child-1:before {
               content: "1";
@@ -750,6 +709,7 @@ section {
               opacity: 0;
               z-index: 2;
               color: black;
+              padding: 0.3vw 0;
             }
           }
           &.marriageEventCount {
@@ -782,9 +742,9 @@ section {
     @include transition(all 400ms ease-in);
     z-index: 1;
     cursor: pointer;
-    right: -23px;
+    right: -3px;
     bottom: 0;
-    top: 300px;
+    top: 160px;
     margin: auto;
     position: fixed;
     @include transform(rotate(-90deg));
@@ -792,16 +752,16 @@ section {
     font-size: 1.2em;
     background: $primary;
     color: white;
-    width: 120px;
+    width: 80px;
     height: 2em;
     z-index: 99;
     &:hover {
       background: $primary-dark;
-      right: -18px;
+      right: 6px;
       @include transition(all 400ms ease-in);
 
       ~ .content {
-        right: -360px; /* content on hover */
+        right: -340px; /* content on hover */
       }
 
       &:before {
@@ -820,7 +780,7 @@ section {
       font-weight: normal;
       text-transform: uppercase;
       font-family: sans-serif;
-      padding: 18px 0 0 17px;
+      padding: 18px 0 0 12px;
       &:before {
         display: none;
       }
@@ -842,34 +802,35 @@ section {
   //label
   .content {
     position: fixed;
-    top: 0;
+    top: 150px;
     bottom: 0;
     right: -375px;
     overflow: scroll;
     font-size: 14px;
     line-height: 1.6;
-    width: 370px;
+    width: 310px;
     @include transition(all 400ms ease-in);
     background: white;
-    height: 390px;
+    height: 320px;
     margin: auto;
     border: 1px solid $primary;
     z-index: 9;
     display: flex;
     flex-wrap: wrap;
-    background: $primary;
+    padding-right:40px;
 
     div {
       background: white;
-      width: calc(50% - 1.6vw);
-      margin: 0.05vw;
-      padding: 1vw 0.5vw 0 1vw;
-      font-size: 16px;
+      width: 134px;
+      margin: 0px;
+      padding: 16px 0 0 10px;
+      font-size: 14px;
+      ul{
+        width: 140px;
+      }
       h4 {
         margin: 0;
         font-size: 18px;
-      }
-      ul {
       }
     }
     .events {
@@ -881,23 +842,24 @@ section {
             content: "";
             width: 20px;
             height: 6px;
-            left: 13px;
-            margin-top: 0.7vw;
+            left: 11px;
+            margin-top: 8px;
             position: absolute;
             background: $lifeline;
           } //&:before
         } //nth-child(1)
         &:nth-child(2) {
+          //arrow
           &:before {
             position: absolute;
             content: "";
-            border: 1px solid darken($secondary, 2%);
+            border: 1px solid darken($gray-dark, 2%);
             width: 8px;
             height: 8px;
             transform: translate(50%, 10%) rotate(45deg);
             border-left: 1px solid $transparent;
             border-bottom: 1px solid $transparent;
-            left: 10px;
+            left: 8px;
             margin-top: 4px;
           } //&:before
         } //&:nth-child(2)
@@ -912,10 +874,10 @@ section {
             vertical-align: bottom;
             position: absolute;
             content: "";
-            left: 13px;
+            left: 11px;
             clip-path: polygon(50% 0, 100% 100%, 0 100%);
             width: 20px;
-            height: 15px;
+            height: 17px;
             margin-top: 3px;
           } //&:before
         } //nth-child(3)
@@ -923,20 +885,15 @@ section {
           //Historical
           &:before {
             content: "";
-            width: 2px;
-            height: 20px;
+            width: 1px;
+            height: 14px;
             margin-top: 3px;
-            left: 22px;
+            left: 20px;
             position: absolute;
             background: $primary;
           } //&:before
         } //nth-child(4)
-      } //ul li
-    } //.events
-    .life-events {
-      ul li {
-        list-style-type: none;
-        &:nth-child(1) {
+        &:nth-child(5) {
           //Birth
           &:before {
             background-image: linear-gradient(
@@ -949,100 +906,73 @@ section {
             border-top: 0;
             border-left: 0;
             border-right: 0;
-            width: 21px;
-            height: 18px;
+            width: 18px;
+            height: 16px;
             content: "";
             position: absolute;
-            border-radius: 0 0 50% 50%;
-            left: 13px;
+            border-radius: 50%;
+            left: 12px;
             margin-top: 0;
           } //&:before
         }
-        &:nth-child(2) {
+        &:nth-child(6) {
           //Deaths
           &:before {
             width: 18px;
-            height: 12px;
+            height: 10px;
             content: "";
             background: black;
             position: absolute;
-            margin-left: -24px;
+            margin-left: -26px;
             margin-top: 5px;
           } //&:before
-        } //nth-child(2)
-        &:nth-child(3) {
+        } //nth-child(6)
+        &:nth-child(7) {
           //Marriages
           &:before {
-            width: 20px;
-            height: 20px;
+            width: 25px;
+            height: 25px;
             opacity: 1;
             position: absolute;
             content: "";
-            left: 5px;
+            left: -1px;
             transform: translateX(35%);
-            background-image: radial-gradient(
-                circle at center center,
-                transparent 65.6%,
-                darkred 69.9%,
-                darkred 70.6%,
-                transparent 75.9%
-              ),
-              radial-gradient(
-                circle at center center,
-                transparent 65.6%,
-                darkred 69.9%,
-                darkred 70.6%,
-                transparent 75.9%
-              ),
-              radial-gradient(transparent, transparent 58%, darkred);
-            background-position: 50% -10px, -10px 50%, -10px -10px;
+            background-image: radial-gradient(circle, rgba(255, 255, 255, 0.5) 41%, rgba(128, 31, 0, 0.7) 44%, rgba(128, 31, 0, 0.7) 45%, white 48%, rgba(128, 31, 0, 0.7) 54%, rgba(255, 255, 255, 0) 55%);
             background-size: 100% 100%;
+            margin-top: -3px;
           } //&:before
-          /*&:after{ //Clashing with data-attribute
-            width: 20px;
-height: 20px;
-opacity: 1;
-position:absolute;
-content:'';
-          left:12px;
-transform: translateX(35%);
-            background-image: radial-gradient(circle at center center,transparent 65.6%,darkred 69.9%,darkred 70.6%,transparent 75.9%),radial-gradient(circle at center center,transparent 65.6%,darkred 69.9%,darkred 70.6%,transparent 75.9%),
-    radial-gradient(transparent, transparent 58%, darkred);
-  background-position: 50% -10px,-10px 50%,-10px -10px;
-  background-size: 100% 100%;
-          transform:rotate(45deg);
-        }*/
-        } //nth-child(3)
-        &:nth-child(4) {
+        } //nth-child(7)
+        &:nth-child(8) {
           //Male
           &:before {
             width: 10px;
             height: 1px;
             content: "";
             position: absolute;
-            margin-left: -20px;
+            margin-left: -22px;
             margin-top: 12px;
             border-bottom: 3px double black;
           } //&:before
-        } //nth-child(4)
-        &:nth-child(5) {
+        } //nth-child(8)
+        &:nth-child(9) {
           //Female
           &:before {
             width: 10px;
             height: 1px;
             content: "";
             position: absolute;
-            margin-left: -20px;
+            margin-left: -22px;
             margin-top: 14px;
             border-bottom: 1px solid black;
           } //&:before
-        } //nth-child(5)
+        } //nth-child(9)
       } //ul li
-    } //.life-events
+    } //.events
     .initials {
+      padding-left:2vw;
       ul li {
         list-style-type: none;
-        margin-left: -20px;
+        margin-left: -27px;
       }
     } //.initials
   } //.content
@@ -1114,7 +1044,7 @@ transform: translateX(35%);
       @include transition(all 400ms ease-in);
 
       ~ .content {
-        right: -399px; /* content on hover */
+        right: -350px; /* content on hover */
       }
 
       &:before {
@@ -1155,20 +1085,20 @@ transform: translateX(35%);
   //label
   .content {
     position: fixed;
-    top: 0;
+    top: -100px;
     bottom: 0;
-    right: -415px;
+    right: -370px;
     overflow: scroll;
     font-size: 14px;
     line-height: 1.6;
-    width: 370px;
+    width: 300px;
     @include transition(all 400ms ease-in);
     background: white;
-    height: 390px;
+    height: 450px;
     margin: auto;
     border: 1px solid $primary;
-    z-index: 9;
-    padding: 20px;
+    z-index: 7;
+    padding: 20px 40px 20px 20px;
     div {
       h4 {
         margin: 0;
@@ -1187,7 +1117,7 @@ transform: translateX(35%);
   }
 
   input#guideline[type="checkbox"]:checked ~ label.guideline-button {
-    right: 355px;
+    right: 330px;
     background: $primary;
 
     h2 {
@@ -1216,3 +1146,4 @@ transform: translateX(35%);
 
   //input#filter[type="checkbox"]:checked~label.filter
 } //.guideline-wrapper
+

@@ -13,7 +13,7 @@ const tableHeaderMapping = {
   marriageEventCount: "Number of Marriages",
   entityEvents: "Events in Thornton's Books",
   historicalEvents: "Historical Events",
-  lifetimeEvents: "Important Events in Thornton's Life",
+  lifetimeEvents: "Key Events in Thornton's Life",
 };
 
 /*

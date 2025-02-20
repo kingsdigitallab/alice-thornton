@@ -10,7 +10,7 @@ customCSS: "/assets/css/timeline.css"
 
 Below is a visual representation of Alice Thornton’s life, using data from her Books and other sources.
 
-"Guidelines" and "Legend" section on the right, slide out once clicked, give guidance on how to understand and navigate the timeline.
+"Guidelines" and "Key" section on the right, slide out once clicked, give guidance on how to understand and navigate the timeline.
 
 <hr>
 <em>Note: All elements below scale in response to the viewport so best viewed on a larger screen. </em>
@@ -23,7 +23,7 @@ Below is a visual representation of Alice Thornton’s life, using data from her
     <div class="content">
 
 <div class="events">
-<h4>Events</h4>
+<h4>Symbols</h4>
 <ul>
   <li>Alice's Life</li>
   <li>arrow direction</li>
@@ -51,6 +51,7 @@ Below is a visual representation of Alice Thornton’s life, using data from her
 <li>Female</li>
 </ul>
 </div>
+    
 <div class="initials">
 <h4>Initials</h4>
 <ul>
