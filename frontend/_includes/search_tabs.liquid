@@ -1,10 +1,14 @@
 <p class="search-intro">
-The Text search finds words and phrases in the Books and shows the results as snippets with the word/phrase highlighted. 
-The Index search finds entities such as people, places and events.
+The Index search finds entries such as people, places and events.
+The Text search finds words and phrases in the Books and shows the results as snippets with the 
+word/phrase highlighted. 
+<a href="https://media.kcl.ac.uk/embed/secure/iframe/entryId/1_ee8zvab4/uiConfId/50622292/st/0">Watch 
+a short tutorial on the search page</a>; there is also <a href="https://www.youtube.com/watch?v=lojt25wdczw">a 
+version of the tutorial with subtitles</a>.
 </p>
 <div class="tabs">
   <ul>
-    <li {% if searchTab == 'text' %}class="is-active"{% endif %}><a href="/entities/textsearch/">Text</a></li>
     <li {% if searchTab == 'index' %}class="is-active"{% endif %}><a href="/entities/">Index</a></li>
+    <li {% if searchTab == 'text' %}class="is-active"{% endif %}><a href="/entities/textsearch/">Text</a></li>
   </ul>
 </div>

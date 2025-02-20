@@ -25,10 +25,12 @@ eleventyComputed:
       <h1 class="title is-3">{{ name }}</h1>
       <span>
         {% if isReadable %}<a href="../viewer/?p0.do={{ page.fileSlug }}&p0.vi=modern" class="button btn-read is-primary is-medium-">Read the edition</a>{% endif %}
-        <!-- <a href="{{ contentUrl }}" class="button btn-tei">
+        <br>
+        <br>
+        <a href="{{ contentUrl }}" class="button btn-tei">
           <span class="icon is-small"><i class="fa fa-code"></i></span>
-          <span>TEI Edition</span>
-        </a> -->
+          <span>See the encoding in TEI/XML</span>
+        </a>
       </span>
       <div class="book-preview-fields is-flex is-flex-wrap-wrap">
         <div>
@@ -80,7 +82,7 @@ eleventyComputed:
             </figcaption>
             <div class="book-buttons">
             {% if abook.data.isReadable %}<a href="/edition/?p0.do={{ abook.fileSlug }}&p0.vi=modern" class="button is-primary">Read the edition</a>{% endif %}<br>
-              <a href="{{ abook.url | url }}" class="button is-secondary">Book information</a>
+              <a href="{{ abook.url | url }}" class="button is-secondary">Book details</a>
             </div>
           </div>
         </figure>

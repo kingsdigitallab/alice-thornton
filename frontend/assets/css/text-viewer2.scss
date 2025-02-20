@@ -6,6 +6,15 @@
 //Import Colours
 @import "color-theme";
 
+:root {
+  // maximum width of a label on the left of an item
+  // See "1. letter" Book 3, p. 190, modern
+  --list-item-label-width: 2.75em;
+  --list-item-label-width-min: 1em;
+  // -1em = first line of a list item is indented by 1em
+  --list-item-indent: -1em;
+}
+
 /* 2. Mixins  */
 
 @mixin calc($prop, $val) {
@@ -88,10 +97,12 @@ section {
             top: 5px;
             z-index: 9;
             font-size: 10px;
-            padding-left: 18px;
+            padding-left: 11px;
             text-transform: uppercase;
             color: $primary-dark;
             font-size: 9px;
+            width: 100px;
+            text-align: left;
             i {
               @include transition(all 300ms ease-in-out);
               font-size: 11px;
@@ -101,9 +112,23 @@ section {
             &:hover {
               i {
                 @include transform(scale(1.6));
-              }
-            }
-          }
+              } //i
+            } //&:hover
+          } //label
+          .add-pages {
+            margin-top: -23px;
+            label {
+              margin-top: -10px;
+            } //label
+            input {
+              border: 0;
+              background: transparent;
+              box-shadow: none;
+              margin-left: 1px;
+              margin-top: -5px;
+              color: black;
+            } //input
+          } //.add-pages
           &.bottom {
             bottom: 0;
             height: 60px;
@@ -482,7 +507,7 @@ section {
               margin: 8px 0 0 auto;
             }
           }
-          ul {
+          ul.key-list {
             padding-left: 2em;
             margin: 1em 0;
             list-style-type: none;
@@ -563,6 +588,16 @@ section {
                   text-decoration-style: double;
                 } //before
               } //
+              &.supplied {
+                //supplied
+                &:before {
+                  position: absolute;
+                  left: 20px;
+                  content: "[a]";
+                  font-size: 20px;
+                  line-height: 1;
+                } //before
+              }
               &.heart {
                 //transcription
                 &:before {
@@ -852,12 +887,11 @@ $render-sic: false;
 // GN: placeholders for customasing the rendering of the editions
 // and the views: view-semidi OR view-modern
 #text-viewer .panel .content {
-  margin-left: 60px;
   // at least two clear lines gap between bottom of text and page number
   padding-top: $edition-line-height;
   padding-bottom: calc($edition-line-height * 2);
   position: relative;
-  padding: 0 0 40px 0;
+  padding: 0 0 40px 40px;
   opacity: 30%;
   min-height: calc(100% - 80px);
   position: relative;
@@ -868,25 +902,12 @@ $render-sic: false;
     opacity: 100%;
   }
 
-  // Spaces, gaps & damages
-
-  // .tei-space[data-tei-unit="page"]:before {
-  //   content: "[Blank page]";
-  // }
-
-  &.view-modern,
-  &.view-semidip {
-    // always retain line breaks for missing lines
-    br.missing-line {
-      display: inline;
-    }
-  }
-
   &.view-semidip {
     justify-content: center;
   }
   &.view-modern {
     padding-right: 60px;
+    display: block;
   }
 
   span[data-tei-unit="char"] .missing-content-message {
@@ -906,6 +927,26 @@ $render-sic: false;
 
   span[data-tei-unit="line"] .missing-content-message {
     margin-left: 0.3em;
+  }
+}
+#text-viewer .panel .content,
+#drawer .text-rendered {
+  // Spaces, gaps & damages
+
+  // .tei-space[data-tei-unit="page"]:before {
+  //   content: "[Blank page]";
+  // }
+
+  .tei-body {
+    line-height: 2.5em;
+  }
+
+  &.view-modern,
+  &.view-semidip {
+    // always retain line breaks for missing lines
+    br.missing-line {
+      display: inline;
+    }
   }
 
   // -----
@@ -943,8 +984,8 @@ $render-sic: false;
     }
 
     .tei-measure.tei-type-currency {
-      &:before {
-        content: "£";
+      &[data-tei-quantity] {
+        display: none;
       }
 
       .tei-am {
@@ -953,7 +994,7 @@ $render-sic: false;
     }
   }
 
-  .tei-surplus:not(.not-a-word) {
+  .tei-surplus[data-tei-reason="repetition"]:not(.not-a-word) {
     // TODO: find better style
     background-color: #f1f1f1;
     padding: 0.2em;
@@ -1002,12 +1043,14 @@ $render-sic: false;
   //   margin-left: 3em;
   // }
 
-  &.view-semidip {
-    .tei-ex {
-      // 1.5.5.February
-      display: none;
-    }
-  }
+  // GN: 2025Q1: commented out as new ex rule override this.
+  // CUrly bracces instead in semi-dip.
+  // &.view-semidip {
+  //   .tei-ex {
+  //     // 1.5.5.February
+  //     display: none;
+  //   }
+  // }
 
   h1,
   h2,
@@ -1015,15 +1058,44 @@ $render-sic: false;
     color: inherit;
   }
 
+  hr.rule {
+    // line MUST partially fill the width of the container
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   span[data-tei-place="centre"] {
     text-align: center;
     display: inline-block;
   }
 
+  // POETRY ------
+
+  .list-tei-l {
+    display: block;
+    width: fit-content;
+    // margin for the .line-number
+    padding-right: 2.5em;
+    position: relative;
+  }
+
+  .tei-lg {
+    display: block;
+  }
+
   .tei-l {
     // so each verse is on its own line
     display: block;
+
+    .line-number {
+      position: absolute;
+      width: 2em;
+      right: -0.5em;
+    }
   }
+
+  // -------------
 
   .tei-seg[data-tei-rend*="centre"] {
     // 1.4.last
@@ -1079,10 +1151,10 @@ $render-sic: false;
       }
     }
 
-    *[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header):not(.info-box) {
+    *[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header):not(.info-box):not(.tei-label) {
       display: inline-block;
       position: absolute;
-      left: -5em;
+      margin-left: -10vw;
       width: 5em;
       text-indent: initial;
     }
@@ -1092,6 +1164,10 @@ $render-sic: false;
   &.view-modern {
     .tei-fw[data-tei-place~="margin"]:not(.tei-type-head):not(.tei-type-header) {
       display: none;
+    }
+
+    span[data-tei-rend~="italic-mod-only"] {
+      font-style: italic;
     }
   }
 
@@ -1153,6 +1229,9 @@ $render-sic: false;
   }
 
   &.view-modern {
+    .semidip-only {
+      display: none;
+    }
     // 2.3
     .tei-del {
       display: none;
@@ -1169,30 +1248,66 @@ $render-sic: false;
     display: block;
     max-width: 80%;
 
+    // gn: enough space for small label on left
+    // e.g. Book 3 p. 190
+    padding-left: calc(var(--list-item-label-width) - var(--list-item-indent));
+
+    .tei-list {
+      // reduce this as there's no label on nested list
+      padding-left: 1.5em;
+    }
+
     .tei-item {
       // doesn't work in FF
       &:not(:has(.tei-list)) {
-        text-indent: -1em;
-        padding-left: 1em;
+        text-indent: var(--list-item-indent);
+        padding-left: calc(-1 * var(--list-item-indent));
       }
 
       display: block;
-      // enough space for the label
-      padding-right: 3em;
       .tei-item {
         padding-right: 0;
       }
       position: relative;
 
       .tei-label {
-        right: 0;
+        // Annoyingly, labels in an item is sometimes inside a <p> or outside.
+        left: calc(-1 * var(--list-item-label-width));
         position: absolute;
         top: 0;
+      }
+    }
+
+    // list of type=index have labels on the right instead
+    // e.g. Rem p. 177, 178
+    &.tei-type-index {
+      // no label on the left, so we reclamin that space
+      padding-left: 0;
+      .tei-item {
+        // enough space for the label
+        padding-right: 3em;
+
+        .tei-item {
+          // no right space for nested items
+          padding-right: 0;
+        }
+
+        .tei-label {
+          // gn: only right-ligned if .tei-list.type-index
+          left: unset;
+          right: 0;
+        }
       }
     }
   }
 
   &.view-semidip {
+    // GN: fix to avoid sentence wrapping around too narrow items
+    // E.g. 3.190, 2.80. See Click up
+    .tei-list:not(.tei-type-index) {
+      max-width: 90%;
+    }
+
     // .tei-list[data-tei-rend="braced(})"] + .tei-label {
     span[data-tei-rend="braced(})"] + .tei-label,
     .has-braced-seg > .tei-label {
@@ -1204,8 +1319,11 @@ $render-sic: false;
     .tei-seg[data-tei-rend="braced(})"],
     .tei-list[data-tei-rend="braced(})"] {
       display: inline-block;
-      background: url(../img/icons/closing-curly-brace.svg) no-repeat right
-        center;
+      background: linear-gradient(
+          rgba(255, 255, 255, 0.6),
+          rgba(255, 255, 255, 0.6)
+        ),
+        url(../img/icons/closing-curly-brace.svg) no-repeat right center;
       background-size: 1.5em 100%;
       padding-right: 1.5em;
       width: 95%;
@@ -1323,22 +1441,22 @@ $render-sic: false;
     //   padding: 0.2em;
     // }
 
-    .note-symbol {
-      padding-left: 0.2em;
-      color: $primary;
-      border: 1px solid lightgray;
-      box-shadow: 1px 1px 1px gray;
-      padding: 0 2px;
-      margin: 0 2px 2px 2px;
-      font-size: 10px;
-      top: -5px;
-      position: relative;
-      &:hover {
-        border: 1px solid gray;
-        box-shadow: 1px 1px 1px black;
-        color: black;
-      }
-    }
+    // .note-symbol {
+    //   padding-left: 0.2em;
+    //   color: $primary;
+    //   border: 1px solid lightgray;
+    //   box-shadow: 1px 1px 1px gray;
+    //   padding: 0 2px;
+    //   margin: 0 2px 2px 2px;
+    //   font-size: 10px;
+    //   top: -5px;
+    //   position: relative;
+    //   &:hover {
+    //     border: 1px solid gray;
+    //     box-shadow: 1px 1px 1px black;
+    //     color: black;
+    //   }
+    // }
 
     &.tei-type-event {
       // TODO: unhide once even entities are made available
@@ -1398,7 +1516,14 @@ $render-sic: false;
     &.tei-quote {
       //biblical ref
       padding-bottom: 4px;
-      border-bottom: 1px dashed gray;
+
+      // underline only for type=direct/para
+      border-bottom: none;
+      &.tei-type-direct,
+      &.tei-type-paraphrase {
+        border-bottom: 1px dashed gray;
+      }
+
       &:after {
         content: "♰";
         width: 0.7em;
@@ -1565,12 +1690,16 @@ $render-sic: false;
 .viewer-print {
   #text-viewer {
     .panel-wrapper {
+      justify-content: left;
       .panel-nav {
         input[type="number"] {
           width: 5rem;
         }
         label {
           vertical-align: bottom;
+        }
+        .print-button {
+          margin-top: 0.4em;
         }
       }
       .panel {
@@ -1587,5 +1716,47 @@ $render-sic: false;
   }
   .box-citation {
     margin-bottom: 3em;
+  }
+}
+
+/* Drawer */
+
+#text-viewer {
+  .note-symbol {
+    padding-left: 0.2em;
+    color: $primary;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 1px gray;
+    padding: 0 2px;
+    margin: 0 2px 2px 2px;
+    font-size: 10px;
+    top: -5px;
+    position: relative;
+    &:hover {
+      border: 1px solid gray;
+      box-shadow: 1px 1px 1px black;
+      color: black;
+    }
+  }
+}
+
+#drawer {
+  .note-symbol {
+    margin-left: -30px;
+    top: 30px;
+  }
+
+  .text-rendered {
+    br {
+      display: none;
+    }
+  }
+
+  .entity-title {
+    margin-left: -30px;
+
+    .tei-p {
+      display: inline;
+    }
   }
 }

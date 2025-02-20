@@ -9,10 +9,9 @@ const METADATA = require("../../frontend/_data/metadata")();
 
 const SITE_ENV = process.env.SITE_ENV || 'lcl'
 const sourceBase = "./clone/dts/documents/";
-const target = "../../frontend/assets/js/entities.json";
 const XSLTPath = {
   'modern': "html-to-html-modern.xslt",
-  // 'semidip': "html-to-html-semidip.xslt"
+  'semidip': "html-to-html-semidip.xslt"
 };
 const LABEL_FROM_KEY = {
   'book_of_remembrances': 'Book of Remembrances',
@@ -129,7 +128,8 @@ class TextSearch {
         // Book 1, page 12
         title: `${LABEL_FROM_KEY[match.groups.bookKey]}, page ${pageNumber}`,
         // 1-0012 for Book 1, page 12
-        bookPage: `${Object.keys(LABEL_FROM_KEY).indexOf(match.groups.bookKey)}-${pageNumberPadded}`,
+        // bookPage: `${Object.keys(LABEL_FROM_KEY).indexOf(match.groups.bookKey)}-${pageNumberPadded}`,
+        bookPageVersion: `${Object.keys(LABEL_FROM_KEY).indexOf(match.groups.bookKey)}-${pageNumberPadded}-${version[0]}`,
       }
     }
 

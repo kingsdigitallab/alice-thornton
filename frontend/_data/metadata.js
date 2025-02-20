@@ -82,14 +82,15 @@ module.exports = function () {
   }
 
   if (["pre", "liv"].includes(environment)) {
-    ret["text_viewer"]["visible_documents"] = {
-      book_of_remembrances: [1, 103],
-      book_one: [1, 96],
-      book_two: [1, 101],
-      book_three: [1, 103],
-    };
+    // commented out as we now publish EVERYTHING!
+    // ret["text_viewer"]["visible_documents"] = {
+    //   book_of_remembrances: [1, 103],
+    //   book_one: [1, 96],
+    //   book_two: [1, 101],
+    //   book_three: [1, 103],
+    // };
     // ret["hideEventsFromSearchPage"] = true;
-    ret["text_viewer"]["hide_print_link"] = true;
+    // ret["text_viewer"]["hide_print_link"] = true;
     // ret["text_viewer"]["can_clone_panel"] = false;
   }
 

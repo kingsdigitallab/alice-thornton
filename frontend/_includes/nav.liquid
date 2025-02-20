@@ -16,26 +16,23 @@
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
-    </button>
+      </button>
     </div>
 
     <div id="navbar-top" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item is-hoverable {% if '/' == page.url %}is-active{% endif %}" href="/">Home</a>
         {% for entry in navPages %}
-          {% if forloop.index > 1 %}
-            {% if entry.children.length > 0 %}
-              <div class="navbar-item has-dropdown is-hoverable {% if page.url | contains:entry.url %}is-active{% endif %}">
-                <a class="navbar-link" href="{{ entry.url | url}}">{{ entry.title }}</a>
-                <div class="navbar-dropdown">
-                {% for subentry in entry.children %}
-                  <a class="navbar-item {% if page.url | contains: subentry.url %}is-active{% endif %}" href="{{ subentry.url | url}}">{{ subentry.title }}</a>
-                {% endfor %}
-                </div>
+          {% if entry.children.length > 0 %}
+            <div class="navbar-item has-dropdown is-hoverable {% if page.url | contains:entry.url %}is-active{% endif %}">
+              <a class="navbar-link" href="{{ entry.url | url}}">{{ entry.title }}</a>
+              <div class="navbar-dropdown">
+              {% for subentry in entry.children %}
+                <a class="navbar-item {% if page.url | contains: subentry.url %}is-active{% endif %}" href="{{ subentry.url | url}}">{{ subentry.title }}</a>
+              {% endfor %}
               </div>
-            {% else %}
-              <a class="navbar-item {% if page.url | contains: entry.url %}is-active{% endif %}" href="{{ entry.url | url}}">{{ entry.title }}</a>
-            {% endif %}
+            </div>
+          {% else %}
+            <a class="navbar-item {% if page.url | contains: entry.url %}is-active{% endif %}" href="{{ entry.url | url}}">{{ entry.title }}</a>
           {% endif %}
         {% endfor %}
       </div>

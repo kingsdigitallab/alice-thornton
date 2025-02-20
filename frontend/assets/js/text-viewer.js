@@ -1,5 +1,10 @@
+/* eslint-disable no-constant-condition */
 const { createApp } = window.Vue;
+// 2024-12-04
+const TODAY = new Date().toISOString().slice(0, 10);
 
+const ENTITIES_URL =
+  (window.TEXT_VIEWER_PRINT_MODE ? "../" : "") + "../assets/js/entities.json";
 const CHILD_HOVERED_CLASS = "child-hovered";
 // This should ideally come from the frontmatter of the book pages
 const BOOK_EDITORS =
@@ -49,14 +54,14 @@ function setUpTextViewer() {
 
   let PanelControl = {
     template: template,
-    props: ["panelIdx", "controlKey", "hideLabel", "tooltip"],
+    props: ["panelIdx", "controlKey", "hideLabel", "tooltip", "label"],
     computed: {
       panel() {
         return this.$parent.panels[this.panelIdx];
       },
-      label() {
-        return this.$parent.controls[this.controlKey];
-      },
+      // label() {
+      //   // return this.$parent.controls[this.controlKey];
+      // },
       isHidden() {
         return this.$parent.isControlHidden(this.controlKey);
       },
@@ -152,13 +157,31 @@ function setUpTextViewer() {
               navigation: "",
               document: "",
             },
+            notes: [
+              /*
+              {
+                index: 1,
+                target: "123",
+                body: "456",
+              },
+              */
+            ],
+            entities: [
+              /*
+              {
+                target: "123",
+                title: "456",
+                type: "person",
+              },
+              */
+            ],
             error: "",
             loaded: false,
           },
         ],
       };
     },
-    mounted() {
+    async mounted() {
       // for (let panel of this.panels) {
       //   let key = "source";
       //   this.selectDefaultOption(panel, key);
@@ -166,6 +189,7 @@ function setUpTextViewer() {
       //   // this.onChangeSelector(panel, 'document')
       // }
       // http://localhost:8080/books/viewer/?&p0.lo=p.1&p1.do=https://thornton.kdl.kcl.ac.uk/dts/ids/thornton-books/book_one/&p1.lo=p.2&p1.vi=modern
+      await this.loadEntities();
       this.setSelectionFromAddressBar("landing");
       window.addEventListener("popstate", () => {
         this.setSelectionFromAddressBar("back");
@@ -239,6 +263,14 @@ function setUpTextViewer() {
       },
     },
     methods: {
+      async loadEntities() {
+        // load entities index file as a dictionary. Key is the id.
+        let res = await fetch(`${ENTITIES_URL}?ts=${TODAY}`);
+        res = await res.json();
+        this.entities = Object.fromEntries(
+          res.data.map((obj) => [obj.id, obj])
+        );
+      },
       clonePanel(panelIdx) {
         this.panels.push(JSON.parse(JSON.stringify(this.panels[panelIdx])));
         this.addEventsToTexts();
@@ -440,11 +472,12 @@ function setUpTextViewer() {
           this.setAddressBarFromSelection();
 
           // scroll to top of that panel
+          // TODO: fix (e.g. ?p0.lo=p.10 | 11)
           if (!this.isPrint) {
             for (let panelIdx = 0; panelIdx < this.panels.length; panelIdx++) {
               if (this.panels[panelIdx] == panel) {
                 let panelDOM = window.document.querySelectorAll(
-                  `.panel-wrapper .panel-chunk`
+                  `.panel-wrapper .panel-chunk .content`
                 )[panelIdx];
                 if (panelDOM) {
                   panelDOM.scrollTop = 0;
@@ -473,15 +506,132 @@ function setUpTextViewer() {
 
         // EVENTS
         this.addEventsToTexts();
+
+        this.extractNotes(panel, doc);
+        this.extractEntities(panel, doc);
       },
-      // correctPopovers() {
-      //   this.$nextTick(() => {
-      //     let popovers = document.querySelectorAll(".info-box");
-      //     for (let popover of popovers) {
-      //       this.correctPopover(popover);
-      //     }
-      //   });
-      // },
+      extractNotes(panel, docStr) {
+        /*
+        <span class="tei-anchor has-info-box is-note" data-tei="anchor" data-tei-n="1" data-tei-corresp="#p001n01" data-tei-resp="ednote">
+          <sup class="note-symbol">1</sup>
+        */
+        panel.notes = [];
+        const parser = new DOMParser();
+        const dom = parser.parseFromString(docStr, "text/html");
+
+        this._extractNotes(
+          panel,
+          dom,
+          '//span[@data-tei-resp="ednote"]',
+          './/sup[@class="note-symbol"]/text()'
+        );
+        this._extractNotes(
+          panel,
+          dom,
+          '//span[contains(@class, "is-glyph")]',
+          "./text()"
+        );
+      },
+      _extractNotes(panel, dom, xpathParent, xpathLabel) {
+        let found = {};
+        for (let infoBox of this._xpath(dom, xpathParent)) {
+          let noteSymbol = this._xpath(infoBox, xpathLabel, dom)[0];
+          let index = noteSymbol.textContent;
+          if (found[index]) continue;
+          found[index] = true;
+          let note = {
+            index: index,
+            body: this._xpath(infoBox, './/span[@class="body"]', dom)[0]
+              .outerHTML,
+          };
+          panel.notes.push(note);
+        }
+      },
+      extractEntities(panel, docStr) {
+        /*
+          <span class="tei-rs tei-type-person has-info-box is-person managed" data-tei="rs" data-tei-ref="ppl:wt2" data-tei-n="per121" data-tei-type="person">
+            my <span class="tei-w not-a-word" data-tei="w" data-tei-norm="sixth"><span class="norm">sixth</span><span class="orig">6<span class="tei-hi" data-tei="hi" data-tei-rend="superscript">th</span></span></span><br class="tei-lb" data-tei="lb"> 
+            <span class="tei-w tei-type-l" data-tei="w" data-tei-norm="child" data-tei-type="l"><span class="norm">child</span><span class="orig">Child</span></span>
+            <span class="tei-note tei-type-person info-box" data-tei="note" data-tei-type="person" style="">
+              <span class="banner">Person </span><span class="body" style="">
+                <a href="/entities/?hi=ppl:wt2">
+                  <span class="tei-p" data-tei="p" data-tei-ref="ppl:wt2">William Thornton (1660-1660)</span>
+                </a>
+              </span>
+            </span>
+          </span>
+        */
+        let entities = {};
+        const parser = new DOMParser();
+        const dom = parser.parseFromString(docStr, "text/html");
+        let entityElements = this._xpath(
+          dom,
+          '//span[contains(@class, "is-person") or contains(@class, "is-place")]'
+        );
+        for (let entityElement of entityElements) {
+          let ids = entityElement.attributes["data-tei-ref"];
+          if (!ids) continue;
+          for (let aid of ids.value.trim().split(/\\s+/)) {
+            let indexEntry = this.entities[aid];
+            if (!indexEntry) continue;
+
+            // remove info boxes
+            let infoBoxes = this._xpath(
+              entityElement,
+              './/span[contains(@class, "info-box") and not(contains(@class, "has-info-box"))]',
+              dom
+            );
+            for (let infoBox of infoBoxes) {
+              infoBox.remove();
+            }
+
+            // add entity to the drawer
+            let entity = {
+              // the text as it appears in the edition.
+              // but we mute the distracting style of the potentially nested info-box.
+              // 1.239, last entry
+              targets: [entityElement.innerHTML.trim().replace("info-box", "")],
+              index: indexEntry,
+            };
+
+            // console.log(`[${entityElement.innerHTML.trim()}]`);
+            if (entities[aid]) {
+              if (!entities[aid].targets.includes(entity.targets[0])) {
+                entities[aid].targets.push(entity.targets[0]);
+              }
+            } else {
+              entities[aid] = entity;
+            }
+          }
+        }
+        // dict => list
+        panel.entities = Object.values(entities);
+        // sort by sortkey
+        panel.entities.sort((a, b) => {
+          return a.index.sortkey < b.index.sortkey
+            ? -1
+            : a.index.sortkey > b.index.sortkey
+            ? 1
+            : 0;
+        });
+      },
+      _xpath(dom, xpath, parentDom) {
+        parentDom = parentDom || dom;
+        let ret = [];
+        let res = parentDom.evaluate(
+          xpath,
+          dom,
+          null,
+          XPathResult.ORDERED_NODE_ITERATOR_TYPE,
+          null
+        );
+        while (1) {
+          let el = res.iterateNext();
+          if (!el) break;
+          ret.push(el);
+        }
+        return ret;
+      },
       correctPopover(popover, event) {
         // fix the popover position, width & height.
         // so it doesn't goes off screen.
@@ -721,6 +871,28 @@ function setUpTextViewer() {
       setError(panel, message) {
         panel.error = message;
       },
+      async jumpTo(panel, bookId, locus) {
+        let loadDoc = panel.selections.document != bookId;
+        panel.selections.document = bookId;
+        panel.selections.locus = locus;
+        if (loadDoc) {
+          await this.fetchOptions(panel, "document", bookId);
+        } else {
+          await this.fetchOptions(panel, "locus", locus);
+        }
+        // TODO: 200 is not always long enough,
+        // leading to a scroll to the wrong place
+        setTimeout(() => {
+          this.scrollToEntityReferences();
+        }, 200);
+      },
+      scrollToEntityReferences() {
+        let container = document.querySelector(".tab-entities .content");
+        let references = container.querySelector("#entity-references");
+        if (container && references) {
+          references.scrollIntoView();
+        }
+      },
       incrementLocus(panel, steps) {
         let locus = panel.selections.locus;
         let lokeys = Object.keys(panel.selectors.locus);
@@ -740,7 +912,7 @@ function setUpTextViewer() {
 
         if (this.selection.highlightedText) {
           searchParams += `&hi=${this.selection.highlightedText}`;
-          console.log(searchParams);
+          // console.log(searchParams);
         }
 
         let newRelativePathQuery =
@@ -884,6 +1056,39 @@ function setUpTextViewer() {
         } else {
           this.imageViewer.open(tileSources);
         }
+      },
+      getClassFromType(type) {
+        const typesClass = {
+          person: "fa-user",
+          place: "fa-map-marker-alt",
+          event: "fa-calendar",
+        };
+        return typesClass[type.toLowerCase().trim()];
+      },
+      // Copied from entities.js
+      // TODO: remove code duplication
+      getLabelFromOptionKey(optionKey) {
+        let labelFromKey = {
+          book_of_remembrances: "Book Rem",
+          book_one: "Book 1",
+          book_two: "Book 2",
+          book_three: "Book 3",
+
+          person: "Person",
+          place: "Place, region",
+          event: "Event",
+        };
+        return labelFromKey[optionKey] || optionKey;
+      },
+      getPageParts(page) {
+        // '123-130' => [123, 130]
+        // '123' => [123]
+        let ret = [...new Set(`${page}`.split("-"))];
+        return ret;
+      },
+      isSinglePage(pages) {
+        let ret = pages.length == 1 && this.getPageParts(pages[0]).length == 1;
+        return ret;
       },
     },
   });

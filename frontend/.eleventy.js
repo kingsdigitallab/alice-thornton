@@ -7,10 +7,16 @@ const debug = require("debug")("Eleventy:KDL");
 const metadata = require("./_data/metadata.js")();
 const stripHtml = require("string-strip-html");
 
+// const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
+// https://plug11ty.com/plugins/table-of-contents/
+const pluginTOC = require("eleventy-plugin-toc");
+
 module.exports = function (config) {
   utils.configureMarkdown(config);
 
   config.addPlugin(eleventyNavigationPlugin);
+  config.addPlugin(pluginTOC);
 
   utils.configureSass(config);
 
@@ -109,4 +115,6 @@ module.exports = function (config) {
     "excerpt",
     (s) => stripHtml.stripHtml(s).result.substring(0, 200) + "..."
   );
+
+  // config.addPlugin(UpgradeHelper);
 };
