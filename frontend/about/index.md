@@ -30,3 +30,53 @@ For more information on our editorial principles and practices, please read our 
 {% include 'team.liquid', team: 'research' %}
 
 {% include 'team.liquid', team: 'sdt' %}
+
+
+## The Project Advisory Board 
+
+ 
+
+The project has benefited from the collective wisdom of the following individuals who made up our advisory board. The board met in hybrid form on five occasions to review our progress. 
+
+ 
+
+[Prof. Catherine Clarke](https://www.history.ac.uk/people/catherine-clarke), Director of the Centre for the History of People, Place and Community, Institute of Historical Research 
+
+ 
+
+[Dr Alison Cullingford](https://www.durhamcathedral.co.uk/people/alison-cullingford), Head of Libraries and Collections, Durham Cathedral  
+
+ 
+
+[Prof. Elspeth Graham](https://www.ljmu.ac.uk/-/media/files/ljmu/research/centres-and-institutes/rilch/rilch-website-graham.pdf), Professor Emerita, Liverpool John Moores University  
+
+ 
+
+[Andrew Gray](https://libguides.durham.ac.uk/prf.php?account_id=145169), Research Access Archivist, Durham University 
+
+ 
+
+[Prof. Elaine Hobby](https://www.lboro.ac.uk/subjects/english/staff/honorary/elaine-hobby/), Prof. Emerita of 17th-Century Studies, Loughborough University 
+
+ 
+
+[Prof. Lauren Kassell](https://www.eui.eu/people?id=lauren-kassell), Professor of History of Science, the European University Institute 
+
+ 
+
+[Dr Anouk Lang](https://edwebprofiles.ed.ac.uk/profile/anouk-lang), Senior Lecturer in Digital Humanities, University of Edinburgh 
+
+ 
+
+Prof. Jessica Malay, Professor Emerita of English Renaissance Literature, University of Huddersfield 
+
+ 
+
+[Dr William Wyeth](https://www.english-heritage.org.uk/learn/research/our-researchers/), Properties Historian, English Heritage 
+
+ 
+
+ 
+
+Sadly [Prof. Raymond Anselment](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-27-BlogPost_Raymond_AnselmentFV2/), Professor Emeritus of English, University of Connecticut, editor of *My First Booke of My Life: Alice Thornton* (2014), died not long after our first project board, which he had attended online. 
+
