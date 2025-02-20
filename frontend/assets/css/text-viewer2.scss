@@ -588,6 +588,16 @@ section {
                   text-decoration-style: double;
                 } //before
               } //
+              &.supplied {
+                //supplied
+                &:before {
+                  position: absolute;
+                  left: 20px;
+                  content: "[a]";
+                  font-size: 20px;
+                  line-height: 1;
+                } //before
+              }
               &.heart {
                 //transcription
                 &:before {
