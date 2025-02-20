@@ -9,9 +9,9 @@ Although all of *Book 2* had been transcribed from the original
 manuscript by Dr Lisa Liddy before the AHRC project began, as Covid-19
 protocols were still in place in its early stages, the initial
 transcriptions of the other books were predominantly made from digital
-images. Derek Beattie provided the images of the *Book of Remembrances*,
+images. Patrick Comber gave permission for Cordelia Beattie to photograph the *Book of Remembrances*,
 while the British Library supplied images of *Book 1* and *Book 3*.
-Durham University Library also produced images of Book 2 which allowed
+Durham Cathedral Library produced images of *Book 2* which allowed
 us to cross check transcriptions remotely. Team members noted queries
 that required checking in the original manuscripts which were updated
 when it became possible to do so. In order to ensure these provided a
