@@ -133,7 +133,6 @@ if (require.main === module) {
     "marriageEventCount",
     "marriage"
   );
-  events.addEventsPerYear(sourceEntities, "event", "entityEvents");
   events.addEventsPerYear(
     sourceHistoricalEvents,
     "historical-event",
@@ -144,6 +143,6 @@ if (require.main === module) {
     "lifetime-event",
     "lifetimeEvents"
   );
-
+  events.addEventsPerYear(sourceEntities, "event", "entityEvents");
   events.writeJson();
 }
