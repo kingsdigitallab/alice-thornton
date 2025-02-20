@@ -54,12 +54,12 @@ Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’
 [The Death of My Cousin Edward Norton, 1648](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.92&p0.vi=modern) <br/>
 [Upon the Beheading of King Charles the Martyr](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.93&p0.vi=modern) <br/>
 [Upon the Death of My Dear Brother George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.96&p0.vi=modern) <br/>
-A Prayer and Lamentation on that Sad Blow, 1651 <br/>
-An Elegy upon His Death by Sir Christopher Wyvill <br/>
-Observation of God's Goodness in My Dear Mother's Preservation and Her Child in the Time of the Wars and Distractions <br/>
-The Marriage of My Cousin, Mary Norton <br/>
-The Marriage of My Brother, Christopher Wandesford <br/>
-The Marriage of Alice Wandesford, December 15, 1651. A Prayer on That Occasion and upon My Sickness <br/>
+[A Prayer and Lamentation on that Sad Blow, 1651](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.108&p0.vi=modern) <br/>
+[An Elegy upon His Death by Sir Christopher Wyvill](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.114&p0.vi=modern) <br/>
+[Observation of God's Goodness in My Dear Mother's Preservation and Her Child in the Time of the Wars and Distractions](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.115&p0.vi=modern) <br/>
+[The Marriage of My Cousin, Mary Norton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.116&p0.vi=modern) <br/>
+[The Marriage of My Brother, Christopher Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.116&p0.vi=modern) <br/>
+[The Marriage of Alice Wandesford, December 15, 1651. A Prayer on That Occasion and upon My Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.117&p0.vi=modern) <br/>
 Several Remarkable Passages Since 1651 <br/>
 Meditations upon the Deliverance of My First Child and that Grand Sickness following <br/>
 A Prayer and Thanksgiving <br/>
