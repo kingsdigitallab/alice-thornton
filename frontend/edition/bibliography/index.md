@@ -1,5 +1,6 @@
 ---
 title: Bibliography
+toc: true
 ---
 
 <p>&nbsp;</p>
@@ -23,6 +24,8 @@ OEDO: Oxford English Dictionary Online <br/>
 RCP: Royal College of Physicians <br/>
 TNA: The National Archives <br/>
 VCH: Victoria County History <br/>
+WYAS: West Yorkshire Archive Service
+
 
 <p>&nbsp;</p>
 
@@ -34,21 +37,21 @@ VCH: Victoria County History <br/>
 
 ‘Hull St Mary (Lowgate) Parish Records: Register of Baptisms, Births, Marriages and Burials, 1564–1657’. PE185/1.
 
-**Bradford, West Yorkshire Archive Service**
+**Bradford, WYAS**
 
 ‘Bond for the performance of covenants, 14 May 1662’. Tong/3/272.
 
-**Dublin, National Library of Ireland**
+**Dublin, NLI**
 
 'Probate Copies of the Will of Lord Deputy Christopher Wandesforde; Nos. 196 & 196A, 2 Oct 1640; Copies Made Apr 1647 & Dec 1659'. Ms 35,458 (1).
 
-**Durham Cathedral Library**
+**Durham, DCL**
 
 ‘Alice Thornton to Dean Comber, 24 April 1699; addendum 3 May 1699’. CCOM 57/7.
 
 'Settlement of William Thornton, September 19, 1667'. CCOM-84.
 
-**London, The National Archives**
+**London, TNA**
 
 County Committees: Sequestration Accounts and Papers Warw. and Yorks.: 1640 Jan 01–1674 Dec 31. SP 28/215/4−5.
 
@@ -74,7 +77,7 @@ State Papers Domestic, Civil War and Interregnum. Sequestration Committee: Books
 
 ['An Act for the Attainder of Thomas Earl of Strafford for High Treason, 1641'](https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/collections/straffordattainder). HL/PO/PB/1/1640/16&17C1n23.
 
-**Northallerton, North Yorkshire County Record Office**
+**Northallerton, NYCRO**
 
 ‘Alice Thornton to Abstrupus Danby, 8 October 1688’. [MIC 1274/6712]. ZS – Swinton and Middleham Estate Records.
 
@@ -108,7 +111,7 @@ Anne Danby, ‘An Accompt’. [MIC 2281]. ZS − The Swinton Archive.
 
 'The correspondence of Thomas Wentworth, 1st Earl of Strafford'. WWM/Str P.
 
-**York, Borthwick Institute for Archives**
+**York, BIA**
 
 ‘Alice Thornton to Lady Yarbrough at Her House at Snaith, April 1700’, YM/CP/1, 2/5, 15.
 
@@ -138,7 +141,7 @@ Coelson, Lancelot. _The Poor-Mans Physician and Chyrurgion_ […]. London: Simon
 
 Comber, Thomas (ed.). _Book of Instructions, Written by Sir Christr. Wandesforde_ […]. Cambridge: J. Archdeacon, 1777.
 
--- _Memoirs of the Life and Death of the Right Honourable the Lord Deputy Wandesforde_ […], 2nd edn. Cambridge: J. Archdeacon, 1778.
+-- _Memoirs of the Life and Death of the Right Honourable the Lord Deputy Wandesforde_ […], 2nd edition. Cambridge: J. Archdeacon, 1778.
 
 Comber, Thomas. _Brief Discourse Upon the Offices of Baptism and Confirmation_. London: J. Martyn, 1675.
 
@@ -274,7 +277,7 @@ Barclay, Katie. ‘Intimacy, Community and Power: Bedding Rituals in Eighteenth-
 
 Barker, Sheila. 'Poussin, Plague, and Early Modern Medicine'. _Art Bulletin_ 86, no. 4 (2004): 659–89.
 
-Barrow, J. S., J. D. Herson, A. H. Lawes, P. J. Riden and M. V. J. Seaborne. 'Economic infrastructure and institutions: Water transport'. In _A History of the County of Chester: Volume 5 Part 2, the City of Chester: Culture, Buildings, Institutions_, edited by A. T. Thacker and C. P. Lewis, 83–91. London: Victoria County History, 2005.
+Barrow, J. S., J. D. Herson, A. H. Lawes, P. J. Riden and M. V. J. Seaborne. 'Economic infrastructure and institutions: Water transport'. In _A History of the County of Chester: Volume 5 Part 2, the City of Chester: Culture, Buildings, Institutions_, edited by A. T. Thacker and C. P. Lewis, 83–91. London: VCH, 2005.
 
 Beattie, Cordelia. ‘The Life Cycle: The Ages of Medieval Women’. In _A Cultural History of Women_, edited by Linda Kalof, vol. 2, _The Middle Ages_, edited by Kim M. Phillips, 15–38. London: Bloomsbury, 2013.
 
@@ -406,7 +409,7 @@ Evans, Jennifer. ‘“It Bringeth Them into Dangerous Perill”: Management of 
 
 Farrell, Gerard. _The ‘Mere Irish’ and the Colonisation of Ulster, 1570-1641_. London: Palgrave Macmillan, 2017.
 
-Farrer, William and J Brownbill (eds.). _A History of the County of Lancaster_, vol. 4. London: Victoria County History, 1911.
+Farrer, William and J Brownbill (eds.). _A History of the County of Lancaster_, vol. 4. London: VCH, 1911.
 
 Ferris, John P. 'Osborne, Sir Edward, 1st Bt. (1596–1647), of Kiveton, Harthill, Yorks.; Formerly of Stratford Abbey, West Ham, Essex'. _HPO_.
 
