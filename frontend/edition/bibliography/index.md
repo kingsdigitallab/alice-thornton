@@ -300,9 +300,9 @@ Beattie, Cordelia and Suzanne Trill. [‘Alice Thornton’s Heart: An Early Mode
 
 Bennett, Martyn, Ray Gillespie and R. Scott Spurlock (eds). *Cromwell and Ireland: New Perspectives*. Liverpool: Liverpool University Press, 2021. 
 
-Blackburn, Robert. 'The Summoning and Meeting of New Parliaments in the United Kingdom’. *Legal Studies* 9, no. 2 (1989): 165–76. 
+Black, Henry Campbell (ed.). [*Black's Law Dictionary*](https://thelawdictionary.org), 2nd edition.  St Paul, MN: West Pub. Co. 1910.  
 
-*Black's Law Dictionary*, 2nd edn. https://thelawdictionary.org. 
+Blackburn, Robert. 'The Summoning and Meeting of New Parliaments in the United Kingdom’. *Legal Studies* 9, no. 2 (1989): 165–76. 
 
 Bolton, P. A. and Paula Watson. 'Wandesford, John (c.1632–64), of Kirklington, Yorks. and London'. *HPO*.  
 
@@ -314,7 +314,7 @@ Brown, A., N. Shiel, J. Uckelman, and S. L. Uckelman. [‘Robert’](http://dmne
 
 Buchanan, Ashley. ['The Power of Peony'](https://recipes.hypotheses.org/18635). *The Recipes Project*, 12 May 2022.    
 
-Burns, William E. '“The Terriblest Eclipse That Hath Been Seen in Our Days”: Black Monday and the Debate on Astrology during the Interregnum'. In *Rethinking the Scientific Revolution*, ed. Margaret J. Osler, 137–52. Cambridge: Cambridge University Press, 2000. 
+Burns, William E. '“The Terriblest Eclipse That Hath Been Seen in Our Days”: Black Monday and the Debate on Astrology during the Interregnum'. In *Rethinking the Scientific Revolution*, edited by Margaret J. Osler, 137–52. Cambridge: Cambridge University Press, 2000. 
 
 Butler, Sara M. *Pain, Penance, and Protest: Peine Forte et Dure in Medieval England*. Cambridge: Cambridge University Press, 2022.  
 
