@@ -31,7 +31,7 @@ WYAS: West Yorkshire Archive Service
 
 ## Manuscript sources
 
-**Beverley, East Riding Record Office**
+**Beverley, ERRO**
 
 'Copy will of Sir Thomas Danby of Thorpe Pirrough, 11 Nov 1659'. DDCC/134/13.
 
