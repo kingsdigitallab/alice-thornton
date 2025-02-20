@@ -73,7 +73,6 @@ The project has benefited from the collective wisdom of the following individual
 
 [Dr William Wyeth](https://www.english-heritage.org.uk/learn/research/our-researchers/), Properties Historian, English Heritage. 
 
- 
 <p>&nbsp;</p>
 
 The board met in hybrid form on five occasions to review our progress. Sadly [Prof. Raymond Anselment](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-27-BlogPost_Raymond_AnselmentFV2/), Professor Emeritus of English, University of Connecticut, editor of *My First Booke of My Life: Alice Thornton* (2014), died not long after our first meeting. 
