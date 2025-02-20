@@ -43,6 +43,8 @@ jobs:
           commit_message: Automated entities indexing
 
   extract-events:
+    needs: index-entities
+
     runs-on: ubuntu-22.04
 
     defaults:
