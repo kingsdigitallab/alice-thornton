@@ -145,7 +145,7 @@ A Great fire in Dublin Castle, before My Lord Deputy <br/>
 The Preservation of My Dear Father's Will <br/>
 Deliverances at Hessom Battle and in the Wars <br/>
 From Drowning in Middleham River and Swale <br/>
-Upon the Reconciling My Brothers, George and Christopher <br/>
+[Upon the Reconciling My Brothers, George and Christopher](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.306&p0.vi=modern) <br/>
 [Anagram on George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.307&p0.vi=modern) <br/>
 [Verses upon the Fatal Loss of Dear Brother George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.307&p0.vi=modern) <br/>
-[Upon the Reconciling My Two Brothers George Wandesford and Christopher Wandesford before His Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.306&p0.vi=modern) <br/>
+Upon the Reconciling My Two Brothers George Wandesford and Christopher Wandesford before His Death <br/>
