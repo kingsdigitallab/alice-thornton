@@ -36,10 +36,9 @@ For more information on our editorial principles and practices, please read our 
 
  
 
-The project has benefited from the collective wisdom of the following individuals who made up our advisory board. The board met in hybrid form on five occasions to review our progress. 
+The project has benefited from the collective wisdom of the following individuals who made up our advisory board:
 
  
-
 [Prof. Catherine Clarke](https://www.history.ac.uk/people/catherine-clarke), Director of the Centre for the History of People, Place and Community, Institute of Historical Research 
 
  
@@ -72,11 +71,10 @@ The project has benefited from the collective wisdom of the following individual
 
  
 
-[Dr William Wyeth](https://www.english-heritage.org.uk/learn/research/our-researchers/), Properties Historian, English Heritage 
+[Dr William Wyeth](https://www.english-heritage.org.uk/learn/research/our-researchers/), Properties Historian, English Heritage. 
 
  
+<p>&nbsp;</p>
 
- 
-
-Sadly [Prof. Raymond Anselment](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-27-BlogPost_Raymond_AnselmentFV2/), Professor Emeritus of English, University of Connecticut, editor of *My First Booke of My Life: Alice Thornton* (2014), died not long after our first project board, which he had attended online. 
+The board met in hybrid form on five occasions to review our progress. Sadly [Prof. Raymond Anselment](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-27-BlogPost_Raymond_AnselmentFV2/), Professor Emeritus of English, University of Connecticut, editor of *My First Booke of My Life: Alice Thornton* (2014), died not long after our first meeting. 
 
