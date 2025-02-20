@@ -694,7 +694,7 @@ Watt, Jeffrey. 'Introduction'. In *From Sin to Insanity: Suicide in Early Modern
 
 Wear, Andrew. 'Puritan Perceptions of Illness in Seventeenth Century England'. In *Patients and Practitioners: Lay Perceptions of Medicine in Pre-Industrial Society*, edited by Roy Porter, 55–100. Cambridge: Cambridge University Press, 1986. 
 
-[*Weatherweb*](https://premium.weatherweb.net/).  
+'Weather in History 1650 to 1699 AD', [Weatherweb](https://premium.weatherweb.net/weather-in-history-1650-to-1699-ad/). 
 
 Weisser, Olivia. *Ill Composed: Sickness, Gender, and Belief in Early Modern England*. New Haven: Yale University Press, 2016.  
 
