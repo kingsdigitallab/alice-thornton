@@ -3,10 +3,6 @@ title: Bibliography
 toc: true
 ---
 
-<p>&nbsp;</p>
-This is a complete list of the works cited in our edition notes.
-<p>&nbsp;</p>
-
 ## Abbreviations
 
 BIA: Borthwick Institute for Archives <br/>
@@ -27,6 +23,8 @@ VCH: Victoria County History <br/>
 WYAS: West Yorkshire Archive Service
 
 
+<p>&nbsp;</p>
+What follows is a complete list of the works cited in our edition notes.
 <p>&nbsp;</p>
 
 ## Manuscript sources
