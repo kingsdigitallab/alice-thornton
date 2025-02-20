@@ -68,7 +68,7 @@ The project has benefited from the collective wisdom of the following individual
 
  
 
-Prof. Jessica Malay, Professor Emerita of English Renaissance Literature, University of Huddersfield 
+[Prof. Jessica Malay](https://orcid.org/0000-0002-4032-2966), Professor Emerita of English Renaissance Literature, University of Huddersfield 
 
  
 
