@@ -8,22 +8,22 @@ This is a complete list of the works cited in our edition notes.
 
 ## Abbreviations
 
-BIA: Borthwick Institute for Archives
-BHO: British History Online
-BL: British Library
-DCL: Durham Cathedral Library
-DIB: Dictionary of Irish Biography
-ERRO: East Riding Record Office
-HPO: History of Parliament Online
-MED: Middle English Dictionary
-NLI: National Library of Ireland
-NYCRO: North Yorkshire County Record Office
-ODNB: Oxford Dictionary of National Biography
-OEDO: Oxford English Dictionary Online
-RCP: Royal College of Physicians
-TNA: The National Archives
-VCH: Victoria County History
-WYRO: West Yorkshire Record Office
+BIA: Borthwick Institute for Archives <br/>
+BHO: British History Online <br/>
+BL: British Library <br/>
+DCL: Durham Cathedral Library <br/>
+DIB: Dictionary of Irish Biography <br/>
+ERRO: East Riding Record Office <br/>
+HPO: History of Parliament Online <br/>
+MED: Middle English Dictionary <br/>
+NLI: National Library of Ireland <br/>
+NYCRO: North Yorkshire County Record Office <br/>
+ODNB: Oxford Dictionary of National Biography <br/>
+OEDO: Oxford English Dictionary Online <br/>
+RCP: Royal College of Physicians <br/>
+TNA: The National Archives <br/>
+VCH: Victoria County History <br/>
+WYRO: West Yorkshire Record Office <br/>
 
 <p>&nbsp;</p>
 
