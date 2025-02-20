@@ -626,7 +626,15 @@ section {
                 left: -0.4vw;
                 color: black;
                 background: rgba(0, 0, 0, 0.4);
-                background: radial-gradient(circle, rgba(255,255,255,0.5) 41%, rgba(128, 31, 0, 0.7) 44%, rgba(128, 31, 0, 0.7) 45%, white 48%, rgba(128, 31, 0, 0.7) 54%, rgba(255, 255, 255, 0) 55%);
+                background: radial-gradient(
+                  circle,
+                  rgba(255, 255, 255, 0.5) 41%,
+                  rgba(128, 31, 0, 0.7) 44%,
+                  rgba(128, 31, 0, 0.7) 45%,
+                  white 48%,
+                  rgba(128, 31, 0, 0.7) 54%,
+                  rgba(255, 255, 255, 0) 55%
+                );
                 border-radius: 50%;
                 z-index: 1;
               } //&:before
@@ -817,7 +825,7 @@ section {
     z-index: 9;
     display: flex;
     flex-wrap: wrap;
-    padding-right:40px;
+    padding-right: 40px;
 
     div {
       background: white;
@@ -825,7 +833,7 @@ section {
       margin: 0px;
       padding: 16px 0 0 10px;
       font-size: 14px;
-      ul{
+      ul {
         width: 140px;
       }
       h4 {
@@ -937,7 +945,15 @@ section {
             content: "";
             left: -1px;
             transform: translateX(35%);
-            background-image: radial-gradient(circle, rgba(255, 255, 255, 0.5) 41%, rgba(128, 31, 0, 0.7) 44%, rgba(128, 31, 0, 0.7) 45%, white 48%, rgba(128, 31, 0, 0.7) 54%, rgba(255, 255, 255, 0) 55%);
+            background-image: radial-gradient(
+              circle,
+              rgba(255, 255, 255, 0.5) 41%,
+              rgba(128, 31, 0, 0.7) 44%,
+              rgba(128, 31, 0, 0.7) 45%,
+              white 48%,
+              rgba(128, 31, 0, 0.7) 54%,
+              rgba(255, 255, 255, 0) 55%
+            );
             background-size: 100% 100%;
             margin-top: -3px;
           } //&:before
@@ -969,7 +985,7 @@ section {
       } //ul li
     } //.events
     .initials {
-      padding-left:2vw;
+      padding-left: 2vw;
       ul li {
         list-style-type: none;
         margin-left: -27px;
@@ -1146,4 +1162,3 @@ section {
 
   //input#filter[type="checkbox"]:checked~label.filter
 } //.guideline-wrapper
-

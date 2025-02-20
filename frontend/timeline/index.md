@@ -78,6 +78,7 @@ A visual representation of Alice Thornton’s life, depicted by the curved grey 
 Triangles on the timeline represent the number of events in each year that Thornton wrote about. Larger triangles indicate years with more recorded events, while smaller circles reflect fewer events. Black diamonds mark events of historical importance or notable years in Thornton’s own life.
 
 Hovering over each year reveals more details about the events recorded for that year. Clicking on a year expands additional information.
+
 </div>
 
 </div>

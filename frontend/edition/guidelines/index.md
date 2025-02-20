@@ -3,15 +3,14 @@ title: Editorial guidelines
 toc: true
 ---
 
-
 ## Transcription Process
 
-Although all of *Book 2* had been transcribed from the original
+Although all of _Book 2_ had been transcribed from the original
 manuscript by Dr Lisa Liddy before the AHRC project began, as Covid-19
 protocols were still in place in its early stages, the initial
 transcriptions of the other books were predominantly made from digital
-images. Derek Beattie provided the images of the *Book of Remembrances*,
-while the British Library supplied images of *Book 1* and *Book 3*.
+images. Derek Beattie provided the images of the _Book of Remembrances_,
+while the British Library supplied images of _Book 1_ and _Book 3_.
 Durham University Library also produced images of Book 2 which allowed
 us to cross check transcriptions remotely. Team members noted queries
 that required checking in the original manuscripts which were updated
@@ -23,25 +22,25 @@ reference.
 Workflow has ensured that several different project team members have
 been involved in the transcription process.
 
--   first transcription: fully diplomatic
+- first transcription: fully diplomatic
 
-    -   transcribed by two members of the team
+  - transcribed by two members of the team
 
-    -   cross-checked by transcribers
+  - cross-checked by transcribers
 
-    -   checked by another team member
+  - checked by another team member
 
--   second transcription: semi-diplomatic
+- second transcription: semi-diplomatic
 
-    -   transcribed by two members of the team
+  - transcribed by two members of the team
 
-    -   cross-checked by transcribers
+  - cross-checked by transcribers
 
-    -   checked by another team member
+  - checked by another team member
 
-    -   shared with the Project Board and the contributors to the volume
-        of essays commissioned to accompany the Digital Scholarly
-        Edition (DSE).
+  - shared with the Project Board and the contributors to the volume
+    of essays commissioned to accompany the Digital Scholarly
+    Edition (DSE).
 
 ## Editorial Principles
 
@@ -68,7 +67,6 @@ Thornton's orthography we were unable to record that may be of interest
 to historical linguists are her use of 'i' for 'c' and her frequent use
 of 'hn' for 'him'.
 
-
 ### Modernisation
 
 This modernised version of the text follows the conventions of UK
@@ -90,5 +88,3 @@ frequently commence with a conjunction (most often, 'and', 'but' or
 Paragraphs -- link to sibling para?
 
 Full details on editorial markup can be found below.
-
-
