@@ -55,7 +55,7 @@ The project has benefited from the collective wisdom of the following individual
 
  
 
-[Prof. Elaine Hobby](https://www.lboro.ac.uk/subjects/english/staff/honorary/elaine-hobby/), Prof. Emerita of 17th-Century Studies, Loughborough University 
+[Prof. Elaine Hobby](https://www.lboro.ac.uk/subjects/english/staff/honorary/elaine-hobby/), Professor Emerita of 17th-Century Studies, Loughborough University 
 
  
 
