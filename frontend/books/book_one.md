@@ -71,14 +71,14 @@ Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’
 [The Death of My Husband's Father-in-Law](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.141&p0.vi=modern) <br/>
 [The Death of My Husband's Brother, Richard Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.141&p0.vi=modern) <br/>
 [A Prayer of My Dear Mother's before My Delivery of My Fourth Child, Katherine Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.142&p0.vi=modern) <br/>
-My Deliverance <br/>
-A Thanksgiving of My Mother's <br/>
-The Death of My Third Child, Elizabeth Thornton <br/>
-A Prayer upon Her Death <br/>
-Meditations after My Great Fall of My Fifth Child <br/>
-Upon My Deliverance of My First Son <br/>
-A Prayer and Thanksgiving for the Same <br/>
-My Cure of Bleeding, August 1659 <br/>
+[My Deliverance](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.145&p0.vi=modern) <br/>
+[A Thanksgiving of My Mother's](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.145&p0.vi=modern) <br/>
+[The Death of My Third Child, Elizabeth Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.147&p0.vi=modern) <br/>
+[A Prayer upon Her Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.148&p0.vi=modern) <br/>
+[Meditations after My Great Fall of My Fifth Child](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.149&p0.vi=modern) <br/>
+[Upon My Deliverance of My First Son](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.150&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving for the Same](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.151&p0.vi=modern) <br/>
+[My Cure of Bleeding, August 1659](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.153&p0.vi=modern) <br/>
 A Thanksgiving thereon <br/>
 Considerations on the Public Troubles <br/>
 A Prayer for the Church and Restoration of King Charles, the Second, November 1659 <br/>
