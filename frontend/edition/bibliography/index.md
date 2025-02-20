@@ -23,7 +23,6 @@ OEDO: Oxford English Dictionary Online <br/>
 RCP: Royal College of Physicians <br/>
 TNA: The National Archives <br/>
 VCH: Victoria County History <br/>
-WYRO: West Yorkshire Record Office <br/>
 
 <p>&nbsp;</p>
 
