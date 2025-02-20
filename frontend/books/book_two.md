@@ -36,39 +36,39 @@ _Book 2_ covers material no later than the first year of her widowhood (1668-9) 
 [A Discourse upon the Preservation and Discovery of My Dear and Honoured Father's Last Will and Testament in the Rebellion of Ireland from the Year 1640 until the Year 1658](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.36&p0.vi=modern) <br/>
 [Of the Providence to Me in Finding the Copy of My Honoured Father's 'Book of Advice' to His Son, George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.44&p0.vi=modern) <br/>
 [Of the Manner How My Honoured Father's Last Will and Testament was Found After the Loss of It for Many Years](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.68&p0.vi=modern) <br/>
-[Prayers and Meditations and Thanksgivings upon the Miraculous Preservation of My Dear and Honoured Father's Book of Advice to His Son, George; as also, upon the Deliverance of His Last Will and Testament from Destruction and of its being Produced again in Mercy, by which Means the Family was Preserved from Ruin in the Year 1656](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.85&p0.vi=modern) <br/>
-Prayers, Meditations and Thanksgivings to God for his Infinite Mercies and Deliverances showed to Me, since I was Born until I came into my Widow Estate, September 17th in the Year 1668, with an Account of His Blessings <br/>
-Prayers and Meditations and Thanksgivings upon the Change of My Condition from a Virgin Estate, since I came in to a Married Estate of Life, which was Full of Trouble, Sorrow and Changes in both My Body and Fortune, Since December 15th, 1651 <br/>
-Upon My Great Deliverances and Mercies received of My First Child and the Sicknesses which followed (Nine Months, Beginning August 6, 1652 lasted until May 12th, 1653) <br/>
-Upon the Birth of My Second Child and Daughter, Alice Thornton, born at Hipswell on the 3rd Day of January in the Year, 1654 <br/>
-Meditations upon the Birth of My Third Child, Elizabeth Thornton, born the 14 of February 1655 <br/>
-Meditations on the Birth of My Fourth Child, Katherine Thornton, born at Hipswell, June 12th, 1656. Baptised the 14th of June by Mr Syddall. Witness: My Dear Mother, My Niece Best and Mr Thornton <br/>
-The Death of My Third Child, My Dear Betty, who died the 5th of September 1656 <br/>
-Upon My Desperate Fall I had at Hipswell, being with Child of My Fifth Child, September 14th, 1657 <br/>
-Meditations on My Deliverance of My First Son and after My Restoration from My Great Fall of Him. He being My Fifth Child, born at Hipswell, the 10th Day of December 1657 <br/>
-Upon the Cure of Bleeding of the Haemorrhoids I received at Scarborough August 1659 <br/>
-Meditations upon My Delivery of My Sixth Child, William Thornton, and of His Death, April 12th, 1660, at St Nicholas, My Aunt Norton's House (being My First Child after My Dear Mother's Decease, December 9th, 1659) <br/>
-April 17, 1660. The Birth of William Thornton <br/>
-Upon My Husband's and Family's Removal from St Nicholas to Oswaldkirk near Newton, June 1660, and My First Coming from My Own Friends and Country <br/>
-Upon My Dear Nally's Deliverance from Death by Convulsions, May 29, 1660 at St Nicholas <br/>
-Upon My Dear Kate's Deliverance from being Choked with a Pin at St Nicholas, May 17, 1660 <br/>
-Upon My Husband's and Family's Removal from St Nicholas to Oswaldkirk near Newton. These Accidents happened to Me and Mine following June 10th, 1660 <br/>
-Upon My Great and Dangerous Sickness at Oswaldkirk, February 13, 1661, Being on my Birthday <br/>
-Upon My Dear Daughter's Preservation from a Wound in Her Belly, 1661 <br/>
-Upon a Lie made and Slander Raised on Myself and My Servant, Jane Flower, by Nan Robinson at Oswaldkirk this Year, 1661 <br/>
-A Deliverance from Fire at Oswaldkirk, 1661 <br/>
-Upon a Great Fright I had at Oswaldkirk, Being Big with Child Concerning a Bond, 1662 <br/>
-Upon Our Coming to live at Newton after the New House was Builded by Mr Thornton and Myself (It being on June the 10th, 1662) <br/>
-My Dream, Nettleton <br/>
-On the First Coming to Newton, of the Country's Kind Respects to Me (June, July 1662) <br/>
-Upon Mr Thornton's Settlement of His Estate by Mr Covill before My Delivery of My Son, Robert Thornton, August 1662 <br/>
-My Cousin Covill's Letter to Me upon the Sending for Advice upon My Jointure Deed and Mr Legard's Paper Book, which ought to have Rectified those Faults, August 22, 1662 <br/>
-A Relation of the Passages happened before My Yielding to cut off the Settlement of Burn Park, Being Made before Marriage for the Provision of My Younger Children (May 6th, 1658) <br/>
-A Prayer on the Making of Mr Covill's Deed, August 1662 <br/>
-An Account of Mortgages Charged upon Leysthorpe or some Part of that Land before Mr Covill's Settlement, which I did not know of until long after (about the year, 1668) <br/>
-Upon My Deliverance of My Son, Robert Thornton, My Third Son and Seventh Child, Being the First Child Born at the New House at East Newton, Whose Birth was on Friday the 19th of September, 1662 <br/>
-A Relation of the Cutting of the Entail and Deed of Settlement of Mr Covill of Leysthorpe, without my Consent or Knowledge, done by a Little Deed, which gave Possession and Seizure, et cetera, of the Land of Leysthorpe to Mr Francis Darley by Mr William Thornton, by Virtue of which New Settlements was made and other uses Contrary to Articles of Marriage. This Deed dated September the 9th, 1665. <br/>
-Of My Desperate Sickness and Dangerous Condition I was visited withal, Beginning on Me August 16, 1666, and cleared of the Flux of Blood <br/>
+[Prayers and Meditations and Thanksgivings upon the Miraculous Preservation of My Dear and Honoured Father's 'Book of Advice' to His Son, George; as also, upon the Deliverance of His Last Will and Testament from Destruction and of its being Produced again in Mercy, by which Means the Family was Preserved from Ruin in the Year 1656](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.85&p0.vi=modern) <br/>
+[Prayers, Meditations and Thanksgivings to God for his Infinite Mercies and Deliverances showed to Me, since I was Born until I Came into My Widow Estate, September 17th in the Year 1668, with an Account of His Blessings](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.102&p0.vi=modern) <br/>
+[Prayers and Meditations and Thanksgivings upon the Change of My Condition from a Virgin Estate, since I Came into a Married Estate of Life, which was Full of Trouble, Sorrow and Changes in Both My Body and Fortune, since December 15th, 1651](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.131&p0.vi=modern) <br/>
+[Upon My Great Deliverances and Mercies received of My First Child and the Sicknesses which Followed (Nine Months, Beginning August 6, 1652, Lasted until May 12th, 1653)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.135&p0.vi=modern) <br/>
+[Upon the Birth of My Second Child and Daughter, Alice Thornton, Born at Hipswell on the 3rd Day of January in the Year, 1654](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.144&p0.vi=modern) <br/>
+[Meditations upon the Birth of My Third Child, Elizabeth Thornton, Born the 14 of February 1655](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.148&p0.vi=modern) <br/>
+[Meditations on the Birth of My Fourth Child, Katherine Thornton,  June 12th, 1656,Born at Hipswell. Baptised the 14th of June by Mr Syddall. Witness: My Dear Mother, My Niece Best and Mr Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.153&p0.vi=modern)<br/>
+[The Death of My Third Child, My Dear Betty, who Died the 5th of September 1656](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.157&p0.vi=modern) <br/>
+[Upon My Desperate Fall I had at Hipswell, being with Child of My Fifth Child, September 14th, 1657](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.159&p0.vi=modern) <br/>
+[Meditations on My Deliverance of My First Son and after My Restoration from My Great Fall of Him. He Being My Fifth Child, Born at Hipswell, the 10th Day of December 1657](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.161&p0.vi=modern) <br/>
+[Upon the Cure of Bleeding of the Haemorrhoids I Received at Scarborough, August 1659](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.165&p0.vi=modern) <br/>
+[Meditations upon My Delivery of My Sixth Child, William Thornton, and of His Death, April 12th, 1660, at St Nicholas, My Aunt Norton's House (Being My First Child after My Dear Mother's Decease, December 9th, 1659)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.168&p0.vi=modern) <br/>
+[April 17, 1660. The Birth of William Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.177&p0.vi=modern) <br/>
+[Upon My Husband's and Family's Removal from St Nicholas to Oswaldkirk near Newton, June 1660, and My First Coming from My Own Friends and Country](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.183&p0.vi=modern) <br/>
+[Upon My Dear Nally's Deliverance from Death by Convulsions, May 29, 1660 at St Nicholas](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.185&p0.vi=modern) <br/>
+[Upon My Dear Kate's Deliverance from Being Choked with a Pin at St Nicholas, May 17, 1660](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.187&p0.vi=modern) <br/>
+[Upon My Husband's and Family's Removal from St Nicholas to Oswaldkirk near Newton. These Accidents Happened to Me and Mine following June 10th, 1660](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.191&p0.vi=modern) <br/>
+[Upon My Great and Dangerous Sickness at Oswaldkirk, February 13, 1661, Being on My Birthday](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.193&p0.vi=modern) <br/>
+[Upon My Dear Daughter's Preservation from a Wound in Her Belly, 1661](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.211&p0.vi=modern) <br/>
+[Upon a Lie Made and Slander Raised on Myself and My Servant, Jane Flower, by Nan Robinson at Oswaldkirk this Year, 1661](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.212&p0.vi=modern) <br/>
+[A Deliverance from Fire at Oswaldkirk, 1661](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.223&p0.vi=modern) <br/>
+[Upon a Great Fright I had at Oswaldkirk, Being Big with Child Concerning a Bond, 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.224&p0.vi=modern) <br/>
+[Upon Our Coming to Live at Newton after the New House was Builded by Mr Thornton and Myself (it Being on June the 10th, 1662)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.229&p0.vi=modern) <br/>
+[My Dream, Nettleton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.234&p0.vi=modern) <br/>
+[On the First Coming to Newton, of the Country's Kind Respects to Me (June, July 1662)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.237&p0.vi=modern) <br/>
+[Upon Mr Thornton's Settlement of His Estate by Mr Covill before My Delivery of My Son, Robert Thornton, August 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.238&p0.vi=modern&hi=ppl:rc2) <br/>
+[My Cousin Covill's Letter to Me upon the Sending for Advice upon My Jointure Deed and Mr Legard's Paper Book, which Ought to Have Rectified those Faults, August 22, 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.242&p0.vi=modern) <br/>
+[A Relation of the Passages happened before My Yielding to Cut Off the Settlement of Burn Park, Being Made before Marriage for the Provision of My Younger Children (May 6th, 1658)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.242&p0.vi=modern) <br/>
+[A Prayer on the Making of Mr Covill's Deed, August 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.261&p0.vi=modern) <br/>
+[An Account of Mortgages Charged upon Leysthorpe or some Part of that Land before Mr Covill's Settlement, which I did not Know of until Long after (about the year, 1668)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.262&p0.vi=modern) <br/>
+[Upon My Deliverance of My Son, Robert Thornton, My Third Son and Seventh Child, Being the First Child Born at the New House at East Newton, whose Birth was on Friday the 19th of September, 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.265&p0.vi=modern) <br/>
+[A Relation of the Cutting of the Entail and Deed of Settlement of Mr Covill of Leysthorpe, without my Consent or Knowledge, Done by a Little Deed, which Gave Possession and Seizure, *et cetera*, of the Land of Leysthorpe to Mr Francis Darley by Mr William Thornton, by Virtue of which New Settlements was Made and other uses Contrary to Articles of Marriage. This Deed dated September the 9th, 1665](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.274&p0.vi=modern) <br/>
+[Of My Desperate Sickness and Dangerous Condition I was Visited withal, Beginning on Me August 16, 1666, and Cleared of the Flux of Blood](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.278&p0.vi=modern) <br/>
 
 ## Notes
 
