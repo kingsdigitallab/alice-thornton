@@ -60,17 +60,17 @@ Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’
 [The Marriage of My Cousin, Mary Norton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.116&p0.vi=modern) <br/>
 [The Marriage of My Brother, Christopher Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.116&p0.vi=modern) <br/>
 [The Marriage of Alice Wandesford, December 15, 1651. A Prayer on That Occasion and upon My Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.117&p0.vi=modern) <br/>
-Several Remarkable Passages Since 1651 <br/>
-Meditations upon the Deliverance of My First Child and that Grand Sickness following <br/>
-A Prayer and Thanksgiving <br/>
-On the Birth of Alice Thornton, My Second Child, Born January 3rd 1653 <br/>
-A Prayer and Thanksgiving for That Mercy <br/>
-On the Birth of My Third Child, Elizabeth Thornton <br/>
-A Prayer and Thanksgiving for It <br/>
-The Death of My Husband's Mother <br/>
-The Death of My Husband's Father-in-Law <br/>
-The Death of My Husband's Brother, Richard Thornton <br/>
-A Prayer of My Dear Mother's before My Delivery of My Fourth Child, Katherine Thornton <br/>
+[Several Remarkable Passages Since 1651](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.124&p0.vi=modern) <br/>
+[Meditations upon the Deliverance of My First Child and that Grand Sickness following](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.126&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.129&p0.vi=modern) <br/>
+[On the Birth of Alice Thornton, My Second Child, Born January 3rd 1653](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.132&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving for That Mercy](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.134&p0.vi=modern) <br/>
+[On the Birth of My Third Child, Elizabeth Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.136&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving for It](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.139&p0.vi=modern) <br/>
+[The Death of My Husband's Mother](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.141&p0.vi=modern) <br/>
+[The Death of My Husband's Father-in-Law](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.141&p0.vi=modern) <br/>
+[The Death of My Husband's Brother, Richard Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.141&p0.vi=modern) <br/>
+[A Prayer of My Dear Mother's before My Delivery of My Fourth Child, Katherine Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.142&p0.vi=modern) <br/>
 My Deliverance <br/>
 A Thanksgiving of My Mother's <br/>
 The Death of My Third Child, Elizabeth Thornton <br/>
