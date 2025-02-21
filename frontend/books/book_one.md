@@ -54,31 +54,31 @@ Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’
 [The Death of My Cousin Edward Norton, 1648](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.92&p0.vi=modern) <br/>
 [Upon the Beheading of King Charles the Martyr](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.93&p0.vi=modern) <br/>
 [Upon the Death of My Dear Brother George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.96&p0.vi=modern) <br/>
-A Prayer and Lamentation on that Sad Blow, 1651 <br/>
-An Elegy upon His Death by Sir Christopher Wyvill <br/>
-Observation of God's Goodness in My Dear Mother's Preservation and Her Child in the Time of the Wars and Distractions <br/>
-The Marriage of My Cousin, Mary Norton <br/>
-The Marriage of My Brother, Christopher Wandesford <br/>
-The Marriage of Alice Wandesford, December 15, 1651. A Prayer on That Occasion and upon My Sickness <br/>
-Several Remarkable Passages Since 1651 <br/>
-Meditations upon the Deliverance of My First Child and that Grand Sickness following <br/>
-A Prayer and Thanksgiving <br/>
-On the Birth of Alice Thornton, My Second Child, Born January 3rd 1653 <br/>
-A Prayer and Thanksgiving for That Mercy <br/>
-On the Birth of My Third Child, Elizabeth Thornton <br/>
-A Prayer and Thanksgiving for It <br/>
-The Death of My Husband's Mother <br/>
-The Death of My Husband's Father-in-Law <br/>
-The Death of My Husband's Brother, Richard Thornton <br/>
-A Prayer of My Dear Mother's before My Delivery of My Fourth Child, Katherine Thornton <br/>
-My Deliverance <br/>
-A Thanksgiving of My Mother's <br/>
-The Death of My Third Child, Elizabeth Thornton <br/>
-A Prayer upon Her Death <br/>
-Meditations after My Great Fall of My Fifth Child <br/>
-Upon My Deliverance of My First Son <br/>
-A Prayer and Thanksgiving for the Same <br/>
-My Cure of Bleeding, August 1659 <br/>
+[A Prayer and Lamentation on that Sad Blow, 1651](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.108&p0.vi=modern) <br/>
+[An Elegy upon His Death by Sir Christopher Wyvill](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.114&p0.vi=modern) <br/>
+[Observation of God's Goodness in My Dear Mother's Preservation and Her Child in the Time of the Wars and Distractions](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.115&p0.vi=modern) <br/>
+[The Marriage of My Cousin, Mary Norton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.116&p0.vi=modern) <br/>
+[The Marriage of My Brother, Christopher Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.116&p0.vi=modern) <br/>
+[The Marriage of Alice Wandesford, December 15, 1651. A Prayer on That Occasion and upon My Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.117&p0.vi=modern) <br/>
+[Several Remarkable Passages Since 1651](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.124&p0.vi=modern) <br/>
+[Meditations upon the Deliverance of My First Child and that Grand Sickness following](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.126&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.129&p0.vi=modern) <br/>
+[On the Birth of Alice Thornton, My Second Child, Born January 3rd 1653](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.132&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving for That Mercy](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.134&p0.vi=modern) <br/>
+[On the Birth of My Third Child, Elizabeth Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.136&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving for It](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.139&p0.vi=modern) <br/>
+[The Death of My Husband's Mother](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.141&p0.vi=modern) <br/>
+[The Death of My Husband's Father-in-Law](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.141&p0.vi=modern) <br/>
+[The Death of My Husband's Brother, Richard Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.141&p0.vi=modern) <br/>
+[A Prayer of My Dear Mother's before My Delivery of My Fourth Child, Katherine Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.142&p0.vi=modern) <br/>
+[My Deliverance](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.145&p0.vi=modern) <br/>
+[A Thanksgiving of My Mother's](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.145&p0.vi=modern) <br/>
+[The Death of My Third Child, Elizabeth Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.147&p0.vi=modern) <br/>
+[A Prayer upon Her Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.148&p0.vi=modern) <br/>
+[Meditations after My Great Fall of My Fifth Child](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.149&p0.vi=modern) <br/>
+[Upon My Deliverance of My First Son](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.150&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving for the Same](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.151&p0.vi=modern) <br/>
+[My Cure of Bleeding, August 1659](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.153&p0.vi=modern) <br/>
 A Thanksgiving thereon <br/>
 Considerations on the Public Troubles <br/>
 A Prayer for the Church and Restoration of King Charles, the Second, November 1659 <br/>
@@ -145,7 +145,7 @@ A Great fire in Dublin Castle, before My Lord Deputy <br/>
 The Preservation of My Dear Father's Will <br/>
 Deliverances at Hessom Battle and in the Wars <br/>
 From Drowning in Middleham River and Swale <br/>
-Upon the Reconciling My Brothers, George and Christopher <br/>
-Anagram on George Wandesford <br/>
-Verses upon the Fatal Loss of Dear Brother George Wandesford <br/>
+[Upon the Reconciling My Brothers, George and Christopher](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.306&p0.vi=modern) <br/>
+[Anagram on George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.307&p0.vi=modern) <br/>
+[Verses upon the Fatal Loss of Dear Brother George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.307&p0.vi=modern) <br/>
 Upon the Reconciling My Two Brothers George Wandesford and Christopher Wandesford before His Death <br/>

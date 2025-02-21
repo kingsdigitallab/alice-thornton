@@ -83,8 +83,15 @@ As is common in Early Modern English (EME), Thornton's sentences
 frequently commence with a conjunction (most often, 'and', 'but' or
 'which').
 
-#### heading 4 in toc?
 
-Paragraphs -- link to sibling para?
+### Structural Divisions
 
-Full details on editorial markup can be found below.
+The four texts share a [standard basic TEI
+structure](https://tei-c.org/release/doc/tei-p5-doc/en/html/DS.html):
+**\<teiHeader\>** (metadata) and **\<text\>** (the transcription of the
+text), with an additional **\<standOff\>** container for editorial
+notes. Within **\<text\>**, all four of the texts contain a main
+**\<body\>** and some kind of **\<front\>** matter. Two of the books
+also contain **\<back\>** matter.
+
+
