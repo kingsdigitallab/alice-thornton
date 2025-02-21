@@ -85,17 +85,17 @@ Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’
 [A Relation concerning My Dear and Honoured Mother, the Lady Wandesford, and of Her Death December 10th, 1659](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.158&p0.vi=modern) <br/>
 [Three Prayers Concerning the Holy Communion by My Dear Mother](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.176&p0.vi=modern) <br/>
 [My Deliverance of My Sixth Child (My Son, William) and of His Death, with Prayer and Meditation](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.177&p0.vi=modern) <br/>
-Verses upon the Uncertainty of Earthly Comfort <br/>
-A Thanksgiving for the Restoration of the King <br/>
-A Prayer, with Thanksgiving for Our Preservation from Destruction in This Church and State <br/>
-A Discourse upon Mr Thornton's Removal from St Nicholas to Oswaldkirk <br/>
-Upon My Great Sickness there, and of My Preservation from Spiritual Desertion, with Prayers and Meditations <br/>
-A Thanksgiving after My Recovery <br/>
-Upon Our Removal to Newton, June 10th, in the year 1662 <br/>
-Meditations on the Receiving the First Sacrament Delivered in the New House at East Newton by Dr Samways, August 1662 <br/>
+[Verses upon the Uncertainty of Earthly Comfort](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.180&p0.vi=modern) <br/>
+[A Thanksgiving for the Restoration of the King](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.180&p0.vi=modern) <br/>
+[A Prayer, with Thanksgiving for Our Preservation from Destruction in This Church and State](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.181&p0.vi=modern) <br/>
+[A Discourse upon Mr Thornton's Removal from St Nicholas to Oswaldkirk](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.184&p0.vi=modern) <br/>
+[Upon My Great Sickness there, and of My Preservation from Spiritual Desertion, with Prayers and Meditations](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.186&p0.vi=modern) <br/>
+[A Thanksgiving after My Recovery](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.190&p0.vi=modern) <br/>
+[Upon Our Removal to Newton, June 10th, in the year 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.191&p0.vi=modern) <br/>
+[Meditations on the Receiving the First Sacrament Delivered in the New House at East Newton by Dr Samways, August 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.194&p0.vi=modern) <br/>
 A Return of Thanks for That Inestimable Spiritual Mercy <br/>
-Mr Covill's Settlement of Mr Thornton's Estate for My Children, 1662 <br/>
-Upon My Deliverance of My Son, Robert, My Seventh Child, September 19th, 1662 <br/>
+[Mr Covill's Settlement of Mr Thornton's Estate for My Children, 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.198&p0.vi=modern) <br/>
+[Upon My Deliverance of My Son, Robert, My Seventh Child, September 19th, 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.201&p0.vi=modern) <br/>
 A Prayer and Thanksgiving for the Same <br/>
 Mr Thornton's Preservation from Drowning, 1664 <br/>
 Upon the Birth of My Eighth Child, Joyce Thornton, September 23, 1665 <br/>
