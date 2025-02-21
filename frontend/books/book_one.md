@@ -79,12 +79,12 @@ Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’
 [Upon My Deliverance of My First Son](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.150&p0.vi=modern) <br/>
 [A Prayer and Thanksgiving for the Same](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.151&p0.vi=modern) <br/>
 [My Cure of Bleeding, August 1659](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.153&p0.vi=modern) <br/>
-A Thanksgiving thereon <br/>
-Considerations on the Public Troubles <br/>
-A Prayer for the Church and Restoration of King Charles, the Second, November 1659 <br/>
-A Relation concerning My Dear and Honoured Mother, the Lady Wandesford, and of Her Death December 10th, 1659 <br/>
-Three Prayers Concerning the Holy Communion by My Dear Mother <br/>
-My Deliverance of My Sixth Child (My Son, William) and of His Death, with Prayer and Meditation <br/>
+[A Thanksgiving thereon](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.154&p0.vi=modern) <br/>
+[Considerations on the Public Troubles](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.155&p0.vi=modern) <br/>
+[A Prayer for the Church and Restoration of King Charles, the Second, November 1659](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.157&p0.vi=modern) <br/>
+[A Relation concerning My Dear and Honoured Mother, the Lady Wandesford, and of Her Death December 10th, 1659](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.158&p0.vi=modern) <br/>
+[Three Prayers Concerning the Holy Communion by My Dear Mother](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.176&p0.vi=modern) <br/>
+[My Deliverance of My Sixth Child (My Son, William) and of His Death, with Prayer and Meditation](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.177&p0.vi=modern) <br/>
 Verses upon the Uncertainty of Earthly Comfort <br/>
 A Thanksgiving for the Restoration of the King <br/>
 A Prayer, with Thanksgiving for Our Preservation from Destruction in This Church and State <br/>
