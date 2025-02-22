@@ -160,7 +160,7 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 [Meditations on the Receiving the First Sacrament Delivered in the New House at East Newton by Dr Samways, August 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.194&p0.vi=modern) <br/>
 
-A Return of Thanks for That Inestimable Spiritual Mercy <br/>
+[A Return of Thanks for That Inestimable Spiritual Mercy](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.197&p0.vi=modern) <br/>
 
 [Mr Covill's Settlement of Mr Thornton's Estate for My Children, 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.198&p0.vi=modern) <br/>
 
@@ -218,7 +218,7 @@ A Return of Thanks for That Inestimable Spiritual Mercy <br/>
 
 [A Relation of My Sad Condition, and the Sickness that befell Me, upon the Lies and Slanders Raised on Me, July 20th, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.244&p0.vi=modern) <br/>
 
-Lamentations and Prayers upon My Grievous Abuses and Wrongs, 1668 <br/>
+[Lamentations and Prayers upon My Grievous Abuses and Wrongs, 166](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.258&p0.vi=modern) <br/>
 
 [My Son, Robert, Preserved, July 25, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.262&p0.vi=modern) <br/>
 
@@ -226,7 +226,7 @@ Lamentations and Prayers upon My Grievous Abuses and Wrongs, 1668 <br/>
 
 A Description of Several Passages very Remarkable about His Comforts and Assurance before His Decease <br/>
 
-[A Relation of My Dear Husband's Death, the 17th of September, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.273&p0.vi=modern) <br/>
+[A Relation of My Dear Husband's Death, the 17th of September, 1668]() <br/>
 
 [Of His Burial](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.274&p0.vi=modern) <br/>
 
