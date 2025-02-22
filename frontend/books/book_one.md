@@ -96,20 +96,20 @@ Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’
 A Return of Thanks for That Inestimable Spiritual Mercy <br/>
 [Mr Covill's Settlement of Mr Thornton's Estate for My Children, 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.198&p0.vi=modern) <br/>
 [Upon My Deliverance of My Son, Robert, My Seventh Child, September 19th, 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.201&p0.vi=modern) <br/>
-A Prayer and Thanksgiving for the Same <br/>
-Mr Thornton's Preservation from Drowning, 1664 <br/>
-Upon the Birth of My Eighth Child, Joyce Thornton, September 23, 1665 <br/>
-A Relation of My Dear Husband's Dangerous Fits at Stearsby (of the Palsy), November 16, 1665 <br/>
-A Prayer and Thanksgiving after His Recovery, November 28, 1665, With My Own Preservation from Death by the Grief on His Sickness <br/>
-On My Sweet Joyce, Her Death, January 26, 1665 <br/>
-On My Daughter, Alice, Her Deliverance <br/>
-Of My Dangerous Sickness, August 16, 1666 <br/>
-Meditations and Prayers thereupon <br/>
-Considerations upon the Disposal of My Daughter, Alice Thornton, in Marriage, 1666 <br/>
-The Great Fire in London, September 2nd, 1666 <br/>
-The Death of My Dear Brother, John Wandesford, December 2nd, 1666. Meditations thereon <br/>
-My Son Robert Thornton's Preservation in the Smallpox, January 5th, 1667 <br/>
-My daughter Katherine Thornton's Preservation in the Smallpox, September 29, 1666 <br/>
+[A Prayer and Thanksgiving for the Same](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.203&p0.vi=modern) <br/>
+[Mr Thornton's Preservation from Drowning, 1664](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.206&p0.vi=modern) <br/>
+[Upon the Birth of My Eighth Child, Joyce Thornton, September 23, 1665](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.206&p0.vi=modern) <br/>
+[A Relation of My Dear Husband's Dangerous Fits at Stearsby (of the Palsy), November 16, 1665](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.209&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving after His Recovery, November 28, 1665, With My Own Preservation from Death by the Grief on His Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.211&p0.vi=modern) <br/>
+[On My Sweet Joyce, Her Death, January 26, 1665](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.212&p0.vi=modern) <br/>
+[On My Daughter, Alice, Her Deliverance](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.213&p0.vi=modern) <br/>
+[Of My Dangerous Sickness, August 16, 1666](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.214&p0.vi=modern) <br/>
+[Meditations and Prayers thereupon](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.215&p0.vi=modern) <br/>
+[Considerations upon the Disposal of My Daughter, Alice Thornton, in Marriage, 1666](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.216&p0.vi=modern) <br/>
+[The Great Fire in London, September 2nd, 1666](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.218&p0.vi=modern) <br/>
+[The Death of My Dear Brother, John Wandesford, December 2nd, 1666. Meditations thereon](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.219&p0.vi=modern) <br/>
+[My Son Robert Thornton's Preservation in the Smallpox, January 5th, 1667](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.224&p0.vi=modern) <br/>
+[My daughter Katherine Thornton's Preservation in the Smallpox, September 29, 1666](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.218&p0.vi=modern) <br/>
 My Daughter, Alice, Her Deliverance in the Smallpox, January 25th, 1667 <br/>
 My Nephew John Denton's Smallpox <br/>
 My Daughter, Alice, had a Pearl in Her Eye <br/>
