@@ -128,7 +128,6 @@ Of His Burial <br/>
 ['A Farewell to the Pleasures of the World', in Verse](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.159&p0.vi=modern) <br/>
 ['My Soul's Wish for God'](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.164&p0.vi=modern) <br/>
 [A Widow's Prayer and Petitions to God](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.167&p0.vi=modern) <br/>
-[Remember to Insert Some Remarks Forgotten in this First Book](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.186&p0.vi=modern)
 
 ## Notes
 
