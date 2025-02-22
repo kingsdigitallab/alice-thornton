@@ -94,4 +94,9 @@ notes. Within **\<text\>**, all four of the texts contain a main
 **\<body\>** and some kind of **\<front\>** matter. Two of the books
 also contain **\<back\>** matter.
 
+format code?
+
+- `teiHeader`
+- `text`
+- `body`
 
