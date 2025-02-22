@@ -131,13 +131,13 @@ Of His Burial <br/>
 Lamentations upon My Sad Loss <br/>
 [Prayers and Meditations upon This Heavy Dispensation, with Others upon Me](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.270&p0.vi=modern) <br/>
 [The Widow's Prayer for Herself and Children](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.275&p0.vi=modern) <br/>
-Our Saviour's Command <br/>
-Anagram upon Mr Thornton's Motto, and My Own <br/>
+[Our Saviour's Command](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.279&p0.vi=modern) <br/>
+[Anagram upon Mr Thornton's Motto, and My Own](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.279&p0.vi=modern) <br/>
 Verses upon Christ and the Church <br/>
 Against the Fears of Death <br/>
-A Farewell to the World <br/>
+[A Farewell to the World](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.281&p0.vi=modern) <br/>
 [My Faithful Soul's Wish for God's Love](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.283&p0.vi=modern) <br/>
-Verses upon Rash Censures <br/>
+[Verses upon Rash Censures](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.284&p0.vi=modern) <br/>
 [Upon My Great Deliverance at Three Years Old](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.285&p0.vi=modern) <br/>
 [On My Deliverance from Drowning in Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.287&p0.vi=modern) <br/>
 [A Great Deliverance from Death by Two Falls, Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.287&p0.vi=modern) <br/>
