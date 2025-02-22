@@ -21,7 +21,7 @@ Owned by Thornton’s great, great grandson, Thomas Comber of Creech St Michael,
 
 ## Dating
 
-_Book 2_ covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1685-95. There is a reference to her brother Christopher’s grandchildren (he had two by c.1685) on page 105, which gives our earliest date. Thornton also notes that most of the people who spread rumours about her in 1668 were now dead which was perhaps the case by 1691 and most likely the case by 1695 (page 292). It is referenced in _Book 3_ (pages 82, 99, 132), which indicates it was written first and therefore finished by c.1695.
+_Book 2_ covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1685-95. There is a reference to her brother Christopher’s grandchildren (he had two by c.1685) on [page 105](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.105&p0.vi=modern), which gives our earliest date. Thornton also notes that most of the people who spread rumours about her in 1668 were now dead which was perhaps the case by 1691 and most likely the case by 1695 ([page 292](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.292&p0.vi=modern)). It is referenced in _Book 3_ (pages [82](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.82&p0.vi=modern), [99](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.99&p0.vi=modern), [132](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.132&p0.vi=modern)), which indicates it was written first and therefore finished by c.1695.
 
 ## Contents (using Thornton's titles)
 
