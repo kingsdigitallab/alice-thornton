@@ -140,7 +140,7 @@ A Description of Several Passages very Remarkable about His Comforts and Assuran
 [Verses upon Rash Censures](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.284&p0.vi=modern) <br/>
 [Upon My Great Deliverance at Three Years Old](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.285&p0.vi=modern) <br/>
 [On My Deliverance from Drowning in Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.287&p0.vi=modern) <br/>
-[A Great Deliverance from Death by Two Falls, Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.287&p0.vi=modern) <br/>
+[A Great Deliverance from Death by a 2nd Fall, Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.289&p0.vi=modern) <br/>
 [A Great Fire in Dublin Castle, before My Lord Deputy](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.291&p0.vi=modern) <br/>
 [The Preservation of My Dear Father's Will](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.292&p0.vi=modern) <br/>
 [Deliverances at Hessom Battle and in the Wars](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.293&p0.vi=modern) <br/>
