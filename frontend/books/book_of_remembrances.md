@@ -23,7 +23,7 @@ Owned by Thomas Comber, of Newton-le-Willows (1875); Rev. Mr Edward F. Comber, W
 
 Anselment notes that this Book cannot ‘be dated with any certainty’.[^1] Although it opens by recording Thornton’s date of birth ([page 3](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.3&p0.vi=modern)) and the first entry is dated 1631 ([page 11](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.11&p0.vi=modern)), the length and detail of the entries increase from 1659 and there is a reference to being called on to give testimony by Lord Danby in the backmatter, which occurred c.1673. Other annotations suggest that Thornton revised her entries. On this basis, we conjecture that the majority of this Book was composed between 1659-68.
 
-## Contents (using Thornton's Index)
+[## Contents, using Thornton's Index](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.177&p0.vi=modern)
 
 [The Age of Alice Wandesford](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.3&p0.vi=modern)<br/>
 
@@ -105,7 +105,7 @@ Anselment notes that this Book cannot ‘be dated with any certainty’.[^1] Alt
 
 [My Dangerous Sickness, 1661, when I was Preserved from the Temptation of Satan to Despair](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.45&p0.vi=modern) <br/>
 
-[My Prayers and Meditations thereupon on St Matthew 11: 27, 28, et cetera](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.48&p0.vi=modern) <br/>
+[My Prayers and Meditations thereupon on St Matthew 11: 27, 28, *et cetera*](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.48&p0.vi=modern) <br/>
 
 [The Recovery of My Health](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.54&p0.vi=modern) <br/>
 
@@ -115,9 +115,9 @@ Anselment notes that this Book cannot ‘be dated with any certainty’.[^1] Alt
 
 [Deliverance from Grief on Nettleton's Bailiffs Coming](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.63&p0.vi=modern) <br/>
 
-[A Deep Apprehension of My Change, Being with Child of My Seventh](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.69&p0.vi=modern) <br/>
+[A Deep Apprehension of My Change, being with Child of My Seventh](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.69&p0.vi=modern) <br/>
 
-[The Satisfaction of My Soul after the Receiving the Holy Sacrament First at Newton by Dr Samways](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.71&p0.vi=modern) <br/>
+[The Satisfaction of My Soul after the receiving the Holy Sacrament First at Newton by Dr Samways](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.71&p0.vi=modern) <br/>
 
 [A Satisfaction by the Settlement of Mr Covill for Leysthorpe](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.74&p0.vi=modern) <br/>
 
@@ -147,7 +147,7 @@ Anselment notes that this Book cannot ‘be dated with any certainty’.[^1] Alt
 
 [Joyce Thornton Her Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.101&p0.vi=modern) <br/>
 
-[A Deliverance of My Daughter Alice Thornton from a Surfeit of Eating Turbot](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.103&p0.vi=modern) <br/>
+[A Deliverance of My Daughter, Alice Thornton, from a Surfeit of Eating Turbot](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.103&p0.vi=modern) <br/>
 
 [A Great Deliverance from a Miscarriage](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.104&p0.vi=modern) <br/>
 
