@@ -110,12 +110,12 @@ A Return of Thanks for That Inestimable Spiritual Mercy <br/>
 [The Death of My Dear Brother, John Wandesford, December 2nd, 1666. Meditations thereon](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.219&p0.vi=modern) <br/>
 [My Son Robert Thornton's Preservation in the Smallpox, January 5th, 1667](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.224&p0.vi=modern) <br/>
 [My daughter Katherine Thornton's Preservation in the Smallpox, September 29, 1666](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.218&p0.vi=modern) <br/>
-My Daughter, Alice, Her Deliverance in the Smallpox, January 25th, 1667 <br/>
-My Nephew John Denton's Smallpox <br/>
-My Daughter, Alice, had a Pearl in Her Eye <br/>
-My Daughter, Kate, Preserved from Choking <br/>
-Her Preservation from Death by a Fall <br/>
-The Murder of My Dear Nephew, Thomas Danby, August the First, 1667 <br/>
+[My Daughter, Alice, Her Deliverance in the Smallpox, January 25th, 1667](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.225&p0.vi=modern) <br/>
+[My Nephew John Denton's Smallpox](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.226&p0.vi=modern) <br/>
+[My Daughter, Alice, had a Pearl in Her Eye](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.226&p0.vi=modern) <br/>
+[My Daughter, Kate, Preserved from Choking](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.226&p0.vi=modern) <br/>
+[Her Preservation from Death by a Fall](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.226&p0.vi=modern) <br/>
+[The Murder of My Dear Nephew, Thomas Danby, August the First, 1667](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.227&p0.vi=modern) <br/>
 [The Birth of My Ninth Child (November 11, 1667) and of His Death, December 1st, 1667](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.228&p0.vi=modern) <br/>
 My Trouble upon Several Accidents (Anne Danby) <br/>
 Considerations upon Mr Thornton's Several Relapses and of the Signing the Children's Settlements for Portions, et cetera <br/>
