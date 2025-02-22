@@ -35,7 +35,12 @@ The text of all four manuscripts are available to read in both fully modernised 
   {%- endfor -%}
 </div>
 
-Although we have not digitised the manuscripts, we have provided some sample images from each of them to offer a sense of how the original materials look.
+Although we have not digitised the manuscripts, we have provided some sample images from each of them to offer a sense of how the original materials look. 
+
+*Book of Remembrances*: [page 1](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.1&p0.vi=modern), [page 12](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.12&p0.vi=modern), [page 58](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.58&p0.vi=modern), [page 177](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.177&p0.vi=modern), [page 186](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.186&p0.vi=modern).
+*Book 1*: [page 80](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.80&p0.vi=modern), [page 235](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.235&p0.vi=modern), [page 285](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.285&p0.vi=modern), [page 298](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.298&p0.vi=modern), [page 301](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.301&p0.vi=modern).
+*Book 2*: [page 1](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.1&p0.vi=modern), [page 13](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.13&p0.vi=modern), [page 176](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.176&p0.vi=modern), [page 224](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.224&p0.vi=modern), [page 278](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.278&p0.vi=modern).
+*Book 3*: [page 1](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.1&p0.vi=modern), [page 22](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.22&p0.vi=modern), [page 31](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.31&p0.vi=modern), [page 60](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.60&p0.vi=modern), [page 190](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.190&p0.vi=modern.)
 
 
 ## Background
