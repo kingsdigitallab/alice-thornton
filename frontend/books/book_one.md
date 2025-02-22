@@ -124,17 +124,17 @@ My Trouble upon Several Accidents (Anne Danby) <br/>
 [A Relation of My Sad Condition, and the Sickness that befell Me, upon the Lies and Slanders Raised on Me, July 20th, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.244&p0.vi=modern) <br/>
 Lamentations and Prayers upon My Grievous Abuses and Wrongs, 1668 <br/>
 [My Son, Robert, Preserved, July 25, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.262&p0.vi=modern) <br/>
-A Relation of My Dear and Honoured Husband's Last Sickness at Malton, September 12th, 1668 <br/>
+[A Relation of My Dear and Honoured Husband's Last Sickness at Malton, September 12th, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.263&p0.vi=modern) <br/>
 A Description of Several Passages very Remarkable about His Comforts and Assurance before His Decease <br/>
-A Relation of My Dear Husband's Death, the 17th of September, 1668 <br/>
-Of His Burial <br/>
-Lamentations upon My Sad Loss <br/>
-[Prayers and Meditations upon This Heavy Dispensation, with Others upon Me](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.270&p0.vi=modern) <br/>
+[A Relation of My Dear Husband's Death, the 17th of September, 1668]() <br/>
+[Of His Burial](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.274&p0.vi=modern) <br/>
+[Lamentations upon My Sad Loss]() <br/>
+[Prayers and Meditations upon This Heavy Dispensation, with Others upon Me]() <br/>
 [The Widow's Prayer for Herself and Children](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.275&p0.vi=modern) <br/>
 [Our Saviour's Command](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.279&p0.vi=modern) <br/>
 [Anagram upon Mr Thornton's Motto, and My Own](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.279&p0.vi=modern) <br/>
-Verses upon Christ and the Church <br/>
-Against the Fears of Death <br/>
+[Verses upon Christ and the Church]() <br/>
+[Against the Fears of Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.280&p0.vi=modern) <br/>
 [A Farewell to the World](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.281&p0.vi=modern) <br/>
 [My Faithful Soul's Wish for God's Love](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.283&p0.vi=modern) <br/>
 [Verses upon Rash Censures](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.284&p0.vi=modern) <br/>
