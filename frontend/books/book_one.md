@@ -118,34 +118,34 @@ A Return of Thanks for That Inestimable Spiritual Mercy <br/>
 [The Murder of My Dear Nephew, Thomas Danby, August the First, 1667](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.227&p0.vi=modern) <br/>
 [The Birth of My Ninth Child (November 11, 1667) and of His Death, December 1st, 1667](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.228&p0.vi=modern) <br/>
 My Trouble upon Several Accidents (Anne Danby) <br/>
-Considerations upon Mr Thornton's Several Relapses and of the Signing the Children's Settlements for Portions, et cetera <br/>
-Upon Mr Thornton's going to Spa <br/>
+[Considerations upon Mr Thornton's Several Relapses and of the Signing the Children's Settlements for Portions, et cetera](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.232&p0.vi=modern) <br/>
+[Upon Mr Thornton's going to Spa](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.234&p0.vi=modern) <br/>
 [A Relation of Mrs Anne Danby's going to Howley and Several Other Passages Concerning Her, April 20, 1667](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.235&p0.vi=modern) <br/>
-A Relation of My Sad Condition, and the Sickness that befell Me, upon the Lies and Slanders Raised on Me, July 20th, 1668 <br/>
+[A Relation of My Sad Condition, and the Sickness that befell Me, upon the Lies and Slanders Raised on Me, July 20th, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.244&p0.vi=modern) <br/>
 Lamentations and Prayers upon My Grievous Abuses and Wrongs, 1668 <br/>
-My Son, Robert, Preserved, July 25, 1668 <br/>
+[My Son, Robert, Preserved, July 25, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.262&p0.vi=modern) <br/>
 A Relation of My Dear and Honoured Husband's Last Sickness at Malton, September 12th, 1668 <br/>
 A Description of Several Passages very Remarkable about His Comforts and Assurance before His Decease <br/>
 A Relation of My Dear Husband's Death, the 17th of September, 1668 <br/>
 Of His Burial <br/>
 Lamentations upon My Sad Loss <br/>
-Prayers and Meditations upon This Heavy Dispensation, with Others upon Me <br/>
-The Widow's Prayer for Herself and Children <br/>
+[Prayers and Meditations upon This Heavy Dispensation, with Others upon Me](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.270&p0.vi=modern) <br/>
+[The Widow's Prayer for Herself and Children](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.275&p0.vi=modern) <br/>
 Our Saviour's Command <br/>
 Anagram upon Mr Thornton's Motto, and My Own <br/>
 Verses upon Christ and the Church <br/>
 Against the Fears of Death <br/>
 A Farewell to the World <br/>
-My Faithful Soul's Wish for God's Love <br/>
+[My Faithful Soul's Wish for God's Love](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.283&p0.vi=modern) <br/>
 Verses upon Rash Censures <br/>
-Upon My Great Deliverance at Three Years Old <br/>
-On My Deliverance from Drowning in Ireland <br/>
-A Great Deliverance from Death by Two Falls, Ireland <br/>
-A Great fire in Dublin Castle, before My Lord Deputy <br/>
-The Preservation of My Dear Father's Will <br/>
-Deliverances at Hessom Battle and in the Wars <br/>
-From Drowning in Middleham River and Swale <br/>
+[Upon My Great Deliverance at Three Years Old](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.285&p0.vi=modern) <br/>
+[On My Deliverance from Drowning in Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.287&p0.vi=modern) <br/>
+[A Great Deliverance from Death by Two Falls, Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.287&p0.vi=modern) <br/>
+[A Great Fire in Dublin Castle, before My Lord Deputy](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.291&p0.vi=modern) <br/>
+[The Preservation of My Dear Father's Will](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.292&p0.vi=modern) <br/>
+[Deliverances at Hessom Battle and in the Wars](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.293&p0.vi=modern) <br/>
+[From Drowning in Middleham River and Swale](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.297&p0.vi=modern) <br/>
 [Upon the Reconciling My Brothers, George and Christopher](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.306&p0.vi=modern) <br/>
 [Anagram on George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.307&p0.vi=modern) <br/>
 [Verses upon the Fatal Loss of Dear Brother George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.307&p0.vi=modern) <br/>
-Upon the Reconciling My Two Brothers George Wandesford and Christopher Wandesford before His Death <br/>
+[Upon the Reconciling My Two Brothers George Wandesford and Christopher Wandesford before His Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.306&p0.vi=modern) <br/>
