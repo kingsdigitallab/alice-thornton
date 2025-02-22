@@ -21,7 +21,7 @@ Owned by Thornton’s grandson, Thomas Comber (c.1721-65); the Rev. Henry George
 
 ## Dating
 
-_Book 3_ covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1692-6. In the text Thornton refers to the fact that her only son to live to adulthood had died, an event which happened on 5 June 1692 (page 152). There is also a marginal comment on page 31, noting that it had been 52 years since the Battle of Marston Moor (1644), which gives a date of 1696.
+_Book 3_ covers material no later than the first year of her widowhood (1668-9) but internal evidence points to a later dating of c.1692-6. In the text Thornton refers to the fact that her only son to live to adulthood had died, an event which happened on 5 June 1692 ([page 152](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.152&p0.vi=modern)). There is also a marginal comment on [page 31](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.31&p0.vi=modern), noting that it had been 52 years since the Battle of Marston Moor (1644), which gives a date of 1696.
 
 ## Contents (using Thornton's titles)
 
