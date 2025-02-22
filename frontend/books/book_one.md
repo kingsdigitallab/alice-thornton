@@ -23,7 +23,7 @@ Owned by Thornton’s great grandson, Thomas Comber (1789); her great, great gra
 
 Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’ to circulate in late 1668 ([page 196](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.196&p0.vi=modern)); Thornton also notes that she was writing in that Book, about her widowhood, in March 1669 ([page 178](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.178&p0.vi=modern)). If the ‘scandal’ was a key prompt for the writing of _Book 1_, then a dating of c.1668-9 works for the majority of the Book. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 ([page 292](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.292&p0.vi=modern)).
 
-[## Contents (using Thornton's Index)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.299&p0.vi=modern)
+## Contents (using Thornton's Index)
 
 [Bishop Hall's Observations](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.1&p0.vi=modern) <br/>
 
