@@ -23,7 +23,7 @@ Owned by Thornton’s great grandson, Thomas Comber (1789); her great, great gra
 
 Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’ to circulate in late 1668 ([page 196](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.196&p0.vi=modern)); Thornton also notes that she was writing in that Book, about her widowhood, in March 1669 ([page 178](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.178&p0.vi=modern)). If the ‘scandal’ was a key prompt for the writing of _Book 1_, then a dating of c.1668-9 works for the majority of the Book. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 ([page 292](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.292&p0.vi=modern)).
 
-## Contents (using Thornton's Index)
+[## Contents (using Thornton's Index)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.299&p0.vi=modern)
 
 [Bishop Hall's Observations](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.1&p0.vi=modern) <br/>
 
@@ -41,7 +41,7 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 [My having the Smallpox in Kent, 1631](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.9&p0.vi=modern) <br/>
 
-[Meditations on Psalm 147: 4 (year 1631)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.10&p0.vi=modern) <br/>
+[Meditations on Psalm 147:4 (year 1631)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.10&p0.vi=modern) <br/>
 
 [A Preservation from a Fire in London (year 1632)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.11&p0.vi=modern) <br/>
 
@@ -93,7 +93,7 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 [The Marriage of My Brother, Christopher Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.116&p0.vi=modern) <br/>
 
-[The Marriage of Alice Wandesford, December 15, 1651. A Prayer on That Occasion and upon My Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.117&p0.vi=modern) <br/>
+[The Marriage of Alice Wandesford, December 15, 1651. A Prayer on that Occasion and upon My Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.117&p0.vi=modern) <br/>
 
 [Several Remarkable Passages Since 1651](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.124&p0.vi=modern) <br/>
 [Meditations upon the Deliverance of My First Child and that Grand Sickness following](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.126&p0.vi=modern) <br/>
@@ -102,7 +102,7 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 [On the Birth of Alice Thornton, My Second Child, Born January 3rd 1653](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.132&p0.vi=modern) <br/>
 
-[A Prayer and Thanksgiving for That Mercy](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.134&p0.vi=modern) <br/>
+[A Prayer and Thanksgiving for that Mercy](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.134&p0.vi=modern) <br/>
 
 [On the Birth of My Third Child, Elizabeth Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.136&p0.vi=modern) <br/>
 
@@ -136,11 +136,11 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 [Considerations on the Public Troubles](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.155&p0.vi=modern) <br/>
 
-[A Prayer for the Church and Restoration of King Charles, the Second, November 1659](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.157&p0.vi=modern) <br/>
+[A Prayer for the Church and Restoration of King Charles II, November 1659](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.157&p0.vi=modern) <br/>
 
 [A Relation concerning My Dear and Honoured Mother, the Lady Wandesford, and of Her Death December 10th, 1659](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.158&p0.vi=modern) <br/>
 
-[Three Prayers Concerning the Holy Communion by My Dear Mother](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.176&p0.vi=modern) <br/>
+[Three Prayers concerning the Holy Communion by My Dear Mother](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.176&p0.vi=modern) <br/>
 
 [My Deliverance of My Sixth Child (My Son, William) and of His Death, with Prayer and Meditation](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.177&p0.vi=modern) <br/>
 
@@ -148,7 +148,7 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 [A Thanksgiving for the Restoration of the King](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.180&p0.vi=modern) <br/>
 
-[A Prayer, with Thanksgiving for Our Preservation from Destruction in This Church and State](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.181&p0.vi=modern) <br/>
+[A Prayer, with Thanksgiving for Our Preservation from Destruction in this Church and State](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.181&p0.vi=modern) <br/>
 
 [A Discourse upon Mr Thornton's Removal from St Nicholas to Oswaldkirk](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.184&p0.vi=modern) <br/>
 
@@ -158,9 +158,9 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 [Upon Our Removal to Newton, June 10th, in the year 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.191&p0.vi=modern) <br/>
 
-[Meditations on the Receiving the First Sacrament Delivered in the New House at East Newton by Dr Samways, August 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.194&p0.vi=modern) <br/>
+[Meditations on the receiving the First Sacrament Delivered in the New House at East Newton by Dr Samways, August 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.194&p0.vi=modern) <br/>
 
-[A Return of Thanks for That Inestimable Spiritual Mercy](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.197&p0.vi=modern) <br/>
+[A Return of Thanks for that Inestimable Spiritual Mercy](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.197&p0.vi=modern) <br/>
 
 [Mr Covill's Settlement of Mr Thornton's Estate for My Children, 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.198&p0.vi=modern) <br/>
 
@@ -210,11 +210,11 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 [My Trouble upon Several Accidents (Anne Danby)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.231&p0.vi=modern) <br/>
 
-[Considerations upon Mr Thornton's Several Relapses and of the Signing the Children's Settlements for Portions, et cetera](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.232&p0.vi=modern) <br/>
+[Considerations upon Mr Thornton's Several Relapses and of the Signing the Children's Settlements for Portions, *et cetera*](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.232&p0.vi=modern) <br/>
 
 [Upon Mr Thornton's going to Spa](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.234&p0.vi=modern) <br/>
 
-[A Relation of Mrs Anne Danby's going to Howley and Several Other Passages Concerning Her, April 20, 1667](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.235&p0.vi=modern) <br/>
+[A Relation of Mrs Anne Danby's going to Howley and Several Other Passages concerning Her, April 20, 1667](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.235&p0.vi=modern) <br/>
 
 [A Relation of My Sad Condition, and the Sickness that befell Me, upon the Lies and Slanders Raised on Me, July 20th, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.244&p0.vi=modern) <br/>
 
@@ -232,7 +232,7 @@ A Description of Several Passages very Remarkable about His Comforts and Assuran
 
 [Lamentations upon My Sad Loss]() <br/>
 
-[Prayers and Meditations upon This Heavy Dispensation, with Others upon Me](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.270&p0.vi=modern) <br/>
+[Prayers and Meditations upon this Heavy Dispensation, with Others upon Me](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.270&p0.vi=modern) <br/>
 
 [The Widow's Prayer for Herself and Children](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.275&p0.vi=modern) <br/>
 
@@ -240,21 +240,21 @@ A Description of Several Passages very Remarkable about His Comforts and Assuran
 
 [Anagram upon Mr Thornton's Motto, and My Own](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.279&p0.vi=modern) <br/>
 
-[Verses upon Christ and the Church]() <br/>
+['Verses upon Christ and the Church']() <br/>
 
-[Against the Fears of Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.280&p0.vi=modern) <br/>
+['Against the Fears of Death'](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.280&p0.vi=modern) <br/>
 
-[A Farewell to the World](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.281&p0.vi=modern) <br/>
+['A Farewell to the World'](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.281&p0.vi=modern) <br/>
 
-[My Faithful Soul's Wish for God's Love](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.283&p0.vi=modern) <br/>
+['My Faithful Soul's Wish for God's Love'](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.283&p0.vi=modern) <br/>
 
-[Verses upon Rash Censures](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.284&p0.vi=modern) <br/>
+['Verses upon Rash Censures'](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.284&p0.vi=modern) <br/>
 
 [Upon My Great Deliverance at Three Years Old](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.285&p0.vi=modern) <br/>
 
 [On My Deliverance from Drowning in Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.287&p0.vi=modern) <br/>
 
-[A Great Deliverance from Death by a 2nd Fall, Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.289&p0.vi=modern) <br/>
+[A Great Deliverance from Death by a Second Fall, Ireland](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.289&p0.vi=modern) <br/>
 
 [A Great Fire in Dublin Castle, before My Lord Deputy](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.291&p0.vi=modern) <br/>
 
@@ -266,8 +266,8 @@ A Description of Several Passages very Remarkable about His Comforts and Assuran
 
 [Upon the Reconciling My Brothers, George and Christopher](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.306&p0.vi=modern) <br/>
 
-[Anagram on George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.307&p0.vi=modern) <br/>
+['Anagram on George Wandesford'](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.307&p0.vi=modern) <br/>
 
-[Verses upon the Fatal Loss of Dear Brother George Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.307&p0.vi=modern) <br/>
+['Verses upon the Fatal Loss of Dear Brother George Wandesford'](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.307&p0.vi=modern) <br/>
 
 [Upon the Reconciling My Two Brothers George Wandesford and Christopher Wandesford before His Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.306&p0.vi=modern) <br/>
