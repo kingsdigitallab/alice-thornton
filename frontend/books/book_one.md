@@ -13,7 +13,7 @@ contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/ref
 
 ## Description 
 
-Small autograph manuscript book (H155mm x W105mm x D24mm) with duodecimo pages and no title page. It is bound in contemporary calf skin with some gilt decoration on the cover.  It extends to 309 pages (although the manuscript is mispaginated and so ends at number 303), with two blank pages at the end, and around 98,000-words. The book is arranged under headings. It also includes a seven page ‘index’ between pages 299-305. 
+Small autograph manuscript book (H155mm x W105mm x D24mm) with duodecimo pages and no title page. It is bound in contemporary calf skin with some gilt decoration on the cover.  It extends to 309 pages (although the manuscript is mispaginated and so ends at number 303), with two blank pages at the end, and around 98,000-words. The book is arranged under headings. It also includes a seven page ‘index’ between pages [299](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.299&p0.vi=modern)-305. Before the index, there is a section titled ‘A Recollection of Memorable Accidents and Passages Forgotten to be Entered into My Book’ ([page 285](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.285&p0.vi=modern)). Unlike the _Book of Remembrances_ some of these titles are included in the main index ([page 305](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.305&p0.vi=modern)). 
 
 ## Provenance 
 
@@ -21,7 +21,7 @@ Owned by Thornton’s great grandson, Thomas Comber (1789); her great, great gra
 
 ## Dating
 
-Evidence from _Book 3_ suggests that she had enough of her ‘book of my life’ to circulate in late 1668 (page 196); Thornton also notes that she was writing in that Book, about her widowhood, in March 1669 (page 179). If the ‘scandal’ was a key prompt for the writing of _Book 1_, then a dating of c.1668-9 works for the majority of the Book. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 (page 292).
+Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’ to circulate in late 1668 ([page 196](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.196&p0.vi=modern)); Thornton also notes that she was writing in that Book, about her widowhood, in March 1669 ([page 178](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.178&p0.vi=modern)). If the ‘scandal’ was a key prompt for the writing of _Book 1_, then a dating of c.1668-9 works for the majority of the Book. Some of the back matter was clearly added later, though, as Thornton notes the death of her brother, Christopher, in 1687 ([page 292](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.292&p0.vi=modern)).
 
 ## Contents (using Thornton's Index)
 
