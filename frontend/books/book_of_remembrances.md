@@ -165,7 +165,7 @@ Anselment notes that this Book cannot ‘be dated with any certainty’.[^1] Alt
 
 [My Daughter, Alice, Her Falling into the Smallpox](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.110&p0.vi=modern) <br/>
 
-With a Preservation from Choking in Her Sleep <br/>
+[With a Preservation from Choking in Her Sleep](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.110&p0.vi=modern) <br/>
 
 [John Denton Fell Ill of the Smallpox](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.112&p0.vi=modern) <br/>
 
@@ -215,11 +215,11 @@ My Sad and Bitter Complaints, Meditations <br/>
 
 Prayers and Petitions upon this Most Sad Dispensation <br/>
 
-A Discourse of Mr Thornton's Comfortable Expressions to Mr Sinclair before His Last Illness <br/>
+[A Discourse of Mr Thornton's Comfortable Expressions to Mr Sinclair before His Last Illness](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.151&p0.vi=modern) <br/>
 
 A Description of Mr Thornton's Last Sickness and Several Passages in the Same <br/>
 
-Of His Burial <br/>
+[Of His Burial](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.153&p0.vi=modern) <br/>
 
 ['Upon the Fears of Death', in Verse](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.156&p0.vi=modern) <br/>
 
