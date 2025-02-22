@@ -26,107 +26,209 @@ Anselment notes that this Book cannot ‘be dated with any certainty’.[^1] Alt
 ## Contents (using Thornton's Index)
 
 [The Age of Alice Wandesford](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.3&p0.vi=modern)<br/>
+
 [The Dedication](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.7&p0.vi=modern)<br/>
+
 [Observables](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.9&p0.vi=modern)<br/>
+
 [Prayer](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.10&p0.vi=modern)<br/>
+
 [Preface](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.11&p0.vi=modern)<br/>
+
 [Her Weakness in the Measles](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.12&p0.vi=modern)<br/>
+
 [Her Having the Smallpox in Kent](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.14&p0.vi=modern)<br/>
+
 [Meditations on Psalm 147, 4th](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.15&p0.vi=modern)<br/>
+
 [Deliverance from Fire in London, 1632](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.17&p0.vi=modern)<br/>
+
 [Her Passage into Ireland, 1632](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.18&p0.vi=modern) <br/>
+
 [Deliverance from Fire in Dublin](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.21&p0.vi=modern) <br/>
+
 [A Second Meditation, about Twelve Years Old](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.21&p0.vi=modern)<br/>
+
 [Deliverance in a Storm at Sea, 1639](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.22&p0.vi=modern) <br/>
+
 [The Death of the Lord Deputy Wandesford](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.23&p0.vi=modern) <br/>
+
 [The Deliverance from the Irish Rebellion](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.23&p0.vi=modern) <br/>
+
 [Her Having the Smallpox at Chester](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.24&p0.vi=modern) <br/>
+
 [A Deliverance from a Sickness at Richmond](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.24&p0.vi=modern)<br/>
+
 [The Lady Danby Died, 1645](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.24&p0.vi=modern) <br/>
+
 [Mr Edmund Norton Died, 1648](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.25&p0.vi=modern) <br/>
+
 [King Charles the Blessed, 1648](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.25&p0.vi=modern) <br/>
+
 [Sir Edward Osborne Died](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.25&p0.vi=modern) <br/>
+
 [George Wandesford, Esquire, Died 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
+
 [Mrs Mary Norton Married, 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
+
 [Sir Christopher Wandesford Married, 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
+
 [Alice Thornton Married, 1651](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.26&p0.vi=modern) <br/>
+
 [She Began Her First Sickness](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.27&p0.vi=modern) <br/>
+
 [Alice Thornton, the Daughter, Birth, 1653](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.27&p0.vi=modern) <br/>
+
 [Elizabeth Thornton's Birth, 1654](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.27&p0.vi=modern) <br/>
+
 [Mrs Elizabeth Gates Died, 1655](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.28&p0.vi=modern) <br/>
+
 [Mr Geoffrey Gates Died, 1655](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.28&p0.vi=modern) <br/>
+
 [Mr Richard Thornton Died, 1656](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.29&p0.vi=modern) <br/>
+
 [Katherine Thornton Birth, 1656](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.29&p0.vi=modern)<br/>
+
 [Elizabeth Thornton Died, 1656](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.29&p0.vi=modern) <br/>
+
 [My Deliverance from a Fall, 1657](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.30&p0.vi=modern) <br/>
+
 [The Birth of My First Son, 1657](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.31&p0.vi=modern) <br/>
+
 [The Death of the Lady Wandesford, 1659](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.33&p0.vi=modern) <br/>
+
 [William Thornton's Birth, 1660](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.41&p0.vi=modern) <br/>
+
 [His Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.42&p0.vi=modern) <br/>
+
 [Meditations](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.44&p0.vi=modern) <br/>
+
 [My Dangerous Sickness, 1661, when I was Preserved from the Temptation of Satan to Despair](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.45&p0.vi=modern) <br/>
+
 [My Prayers and Meditations thereupon on St Matthew 11: 27, 28, et cetera](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.48&p0.vi=modern) <br/>
+
 [The Recovery of My Health](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.54&p0.vi=modern) <br/>
+
 [Mr Thornton's Preservation and Mine](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.55&p0.vi=modern) <br/>
+
 [Considerations thereupon](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.60&p0.vi=modern) <br/>
+
 [Deliverance from Grief on Nettleton's Bailiffs Coming](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.63&p0.vi=modern) <br/>
+
 [A Deep Apprehension of My Change, Being with Child of My Seventh](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.69&p0.vi=modern) <br/>
+
 [The Satisfaction of My Soul after the Receiving the Holy Sacrament First at Newton by Dr Samways](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.71&p0.vi=modern) <br/>
+
 [A Satisfaction by the Settlement of Mr Covill for Leysthorpe](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.74&p0.vi=modern) <br/>
+
 [My Son Robert Thornton's Birth, September 19, 1662](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.81&p0.vi=modern) <br/>
+
 [A Most Dangerous Flux on Me after His Birth](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.82&p0.vi=modern) <br/>
+
 [Prayers and Meditations thereon](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
+
 [My Son Robert's Baptism](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
+
 [A Prayer and Thanksgiving for this Blessing](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
+
 [A Thanksgiving for Mr Thornton's Deliverance from a Flood of Waters in His Return from London](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.84&p0.vi=modern) <br/>
+
 [The Birth of Joyce Thornton and Her Baptism](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.90&p0.vi=modern) <br/>
+
 [A Prayer and Thanksgiving for this Deliverance](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.91&p0.vi=modern) <br/>
+
 [Mr Thornton's Dangerous Sickness at Stearsby and His Preservation from Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.93&p0.vi=modern) <br/>
+
 [With My Own Desperate, Weak Condition upon Grief for Him](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.94&p0.vi=modern) <br/>
+
 [Prayers and Confessions, with a Return of Thanks after Our Recoveries](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.95&p0.vi=modern) <br/>
+
 [Meditations upon My Joyce Her Sickness](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.99&p0.vi=modern) <br/>
+
 [Joyce Thornton Her Death](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.101&p0.vi=modern) <br/>
+
 [A Deliverance of My Daughter Alice Thornton from a Surfeit of Eating Turbot](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.103&p0.vi=modern) <br/>
+
 [A Great Deliverance from a Miscarriage](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.104&p0.vi=modern) <br/>
+
 [The Great Fire in London](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.106&p0.vi=modern) <br/>
+
 [Kate Thornton Fell Ill of the Smallpox](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.106&p0.vi=modern) <br/>
+
 [The Death of Mr John Wandesford](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.107&p0.vi=modern) <br/>
+
 [The Death of Mr William Norton](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.108&p0.vi=modern) <br/>
+
 [The Falling Ill of Robin Thornton into the Smallpox](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.108&p0.vi=modern) <br/>
+
 [A Meditation thereon](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.109&p0.vi=modern) <br/>
+
 [My Daughter, Alice, Her Falling into the Smallpox](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.110&p0.vi=modern) <br/>
+
 With a Preservation from Choking in Her Sleep <br/>
+
 [John Denton Fell Ill of the Smallpox](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.112&p0.vi=modern) <br/>
+
 [My Daughter Kate was Preserved from Choking with a Pin and from a Desperate Fall](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.113&p0.vi=modern)<br/>
+
 [The Murder of My Nephew, Mr Thomas Danby](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.114&p0.vi=modern) <br/>
+
 [My Great Deliverance of My Ninth Child, 1668](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.115&p0.vi=modern) <br/>
+
 [Meditations thereupon](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.117&p0.vi=modern) <br/>
+
 [And Nally's Illness that Night](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.117&p0.vi=modern) <br/>
+
 [Christopher Thornton Baptised](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.118&p0.vi=modern) <br/>
+
 His Death <br/>
+
 [Meditations thereon](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.120&p0.vi=modern) <br/>
+
 [My Weakness upon the Death of My Child](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.120&p0.vi=modern) <br/>
+
 [Upon Mr Thornton's Illness](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.121&p0.vi=modern) <br/>
+
 [My Sad Condition on the Occasion of a Slander](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.122&p0.vi=modern) <br/>
+
 Observations thereon, with Prayers and Meditations <br/>
+
 [A Deliverance of My Son, Robert Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.130&p0.vi=modern) <br/>
+
 Prayers for Him <br/>
+
 [My Second Relapse by Grief when My Aunt Norton was at Newton about the Malice of My Enemies, Unjustly](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.133&p0.vi=modern) <br/>
+
 My Prayers and Meditations for Deliverance from these <br/>
+
 A Description of Mr Thornton's Falling Ill at Malton and in how Weak a Condition I was when He Left Me <br/>
+
 My Hopes of His Recovery from Dr Wittie's Encouragement <br/>
+
 Of the Continuance of My Dear Husband's Weakness notwithstanding All Helps <br/>
+
 The Death of My Dear and Honoured Husband <br/>
+
 My Exceeding Sorrow and Weak Estate of Body and Spirit upon His Death <br/>
+
 My Sad and Bitter Complaints, Meditations <br/>
+
 Prayers and Petitions upon this Most Sad Dispensation <br/>
+
 A Discourse of Mr Thornton's Comfortable Expressions to Mr Sinclair before His Last Illness <br/>
+
 A Description of Mr Thornton's Last Sickness and Several Passages in the Same <br/>
+
 Of His Burial <br/>
+
 ['Upon the Fears of Death', in Verse](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.156&p0.vi=modern) <br/>
+
 ['An Inducement to Love Heaven', in Verse](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.157&p0.vi=modern) <br/>
+
 ['A Farewell to the Pleasures of the World', in Verse](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.159&p0.vi=modern) <br/>
+
 ['My Soul's Wish for God'](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.164&p0.vi=modern) <br/>
+
 [A Widow's Prayer and Petitions to God](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.167&p0.vi=modern) <br/>
 
 ## Notes
