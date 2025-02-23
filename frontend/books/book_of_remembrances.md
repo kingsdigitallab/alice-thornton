@@ -181,7 +181,7 @@ Anselment notes that this Book cannot ‘be dated with any certainty’.[^1] Alt
 
 [Christopher Thornton Baptised](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.118&p0.vi=modern) <br/>
 
-His Death <br/>
+[His Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.118&p0.vi=modern) <br/>
 
 [Meditations thereon](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.120&p0.vi=modern) <br/>
 
@@ -191,33 +191,33 @@ His Death <br/>
 
 [My Sad Condition on the Occasion of a Slander](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.122&p0.vi=modern) <br/>
 
-Observations thereon, with Prayers and Meditations <br/>
+[Observations thereon, with Prayers and Meditations](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.123&p0.vi=modern) <br/>
 
 [A Deliverance of My Son, Robert Thornton](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.130&p0.vi=modern) <br/>
 
-Prayers for Him <br/>
+[Prayers for Him](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.131&p0.vi=modern) <br/>
 
 [My Second Relapse by Grief when My Aunt Norton was at Newton about the Malice of My Enemies, Unjustly](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.133&p0.vi=modern) <br/>
 
-My Prayers and Meditations for Deliverance from these <br/>
+[My Prayers and Meditations for Deliverance from these](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.135&p0.vi=modern) <br/>
 
-A Description of Mr Thornton's Falling Ill at Malton and in how Weak a Condition I was when He Left Me <br/>
+[A Description of Mr Thornton's Falling Ill at Malton and in how Weak a Condition I was when He Left Me](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.137&p0.vi=modern) <br/>
 
-My Hopes of His Recovery from Dr Wittie's Encouragement <br/>
+[My Hopes of His Recovery from Dr Wittie's Encouragement](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.139&p0.vi=modern) <br/>
 
-Of the Continuance of My Dear Husband's Weakness notwithstanding All Helps <br/>
+[Of the Continuance of My Dear Husband's Weakness notwithstanding All Helps](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.139&p0.vi=modern)<br/>
 
-The Death of My Dear and Honoured Husband <br/>
+[The Death of My Dear and Honoured Husband](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.140&p0.vi=modern) <br/>
 
-My Exceeding Sorrow and Weak Estate of Body and Spirit upon His Death <br/>
+[My Exceeding Sorrow and Weak Estate of Body and Spirit upon His Death](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.140&p0.vi=modern) <br/>
 
-My Sad and Bitter Complaints, Meditations <br/>
+[My Sad and Bitter Complaints, Meditations](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.141&p0.vi=modern) <br/>
 
-Prayers and Petitions upon this Most Sad Dispensation <br/>
+[Prayers and Petitions upon this Most Sad Dispensation](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.145&p0.vi=modern) <br/>
 
 [A Discourse of Mr Thornton's Comfortable Expressions to Mr Sinclair before His Last Illness](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.151&p0.vi=modern) <br/>
 
-A Description of Mr Thornton's Last Sickness and Several Passages in the Same <br/>
+[A Description of Mr Thornton's Last Sickness and Several Passages in the Same](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.152&p0.vi=modern) <br/>
 
 [Of His Burial](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.153&p0.vi=modern) <br/>
 
