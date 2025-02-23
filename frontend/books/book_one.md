@@ -41,13 +41,13 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 [My having the Smallpox in Kent, 1631](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.9&p0.vi=modern) <br/>
 
-[Meditations on Psalm 147:4 (year 1631)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.10&p0.vi=modern) <br/>
+[Meditations on Psalm 147:4 (Year 1631)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.10&p0.vi=modern) <br/>
 
-[A Preservation from a Fire in London (year 1632)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.11&p0.vi=modern) <br/>
+[A Preservation from a Fire in London (Year 1632)](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.11&p0.vi=modern) <br/>
 
 [My First Passage into Ireland, 1632](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.12&p0.vi=modern) <br/>
 
-[Meditations on St Mathew, at 12 years old, 1638](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.14&p0.vi=modern) <br/>
+[Meditations on St Mathew, at 12 Years Old, 1638](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.14&p0.vi=modern) <br/>
 
 [A Deliverance from Shipwreck, 1639](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.15&p0.vi=modern) <br/>
 
@@ -157,7 +157,7 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 [A Thanksgiving after My Recovery](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.190&p0.vi=modern) <br/>
 
-[Upon Our Removal to Newton, June 10th, in the year 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.191&p0.vi=modern) <br/>
+[Upon Our Removal to Newton, June 10th, in the Year 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.191&p0.vi=modern) <br/>
 
 [Meditations on the receiving the First Sacrament Delivered in the New House at East Newton by Dr Samways, August 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.194&p0.vi=modern) <br/>
 
