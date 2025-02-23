@@ -96,6 +96,7 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 [The Marriage of Alice Wandesford, December 15, 1651. A Prayer on that Occasion and upon My Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.117&p0.vi=modern) <br/>
 
 [Several Remarkable Passages Since 1651](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.124&p0.vi=modern) <br/>
+
 [Meditations upon the Deliverance of My First Child and that Grand Sickness following](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.126&p0.vi=modern) <br/>
 
 [A Prayer and Thanksgiving](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.129&p0.vi=modern) <br/>
@@ -226,11 +227,11 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 A Description of Several Passages very Remarkable about His Comforts and Assurance before His Decease <br/>
 
-[A Relation of My Dear Husband's Death, the 17th of September, 1668]() <br/>
+A Relation of My Dear Husband's Death, the 17th of September, 1668 <br/>
 
 [Of His Burial](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.274&p0.vi=modern) <br/>
 
-[Lamentations upon My Sad Loss]() <br/>
+Lamentations upon My Sad Loss <br/>
 
 [Prayers and Meditations upon this Heavy Dispensation, with Others upon Me](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.270&p0.vi=modern) <br/>
 
@@ -240,7 +241,7 @@ A Description of Several Passages very Remarkable about His Comforts and Assuran
 
 [Anagram upon Mr Thornton's Motto, and My Own](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.279&p0.vi=modern) <br/>
 
-['Verses upon Christ and the Church']() <br/>
+'Verses upon Christ and the Church' <br/>
 
 ['Against the Fears of Death'](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.280&p0.vi=modern) <br/>
 
