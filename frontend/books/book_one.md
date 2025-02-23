@@ -96,6 +96,7 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 [The Marriage of Alice Wandesford, December 15, 1651. A Prayer on that Occasion and upon My Sickness](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.117&p0.vi=modern) <br/>
 
 [Several Remarkable Passages Since 1651](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.124&p0.vi=modern) <br/>
+
 [Meditations upon the Deliverance of My First Child and that Grand Sickness following](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.126&p0.vi=modern) <br/>
 
 [A Prayer and Thanksgiving](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.129&p0.vi=modern) <br/>
