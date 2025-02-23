@@ -21,8 +21,8 @@ This version presents some entirely new features:
 
 + print function (also via Edition 'Info' panel) 
 
-The ‘About’ section has also been expanded to include further information ‘About Our Edition’ that provides our ‘Guidelines’ (i.e., the documentation relating to the process and principles by which the DSE was created), a ‘Bibliography’ of materials referenced in the Edition and details of the incredible team that comprised our Project Advisory Board. [List here? Just link to about page] 
+The ‘About’ section has also been expanded to include further information ‘About Our Edition’ that provides our ‘Guidelines’ (i.e., the documentation relating to the process and principles by which the DSE was created), a ‘Bibliography’ of materials referenced in the Edition and details of the incredible team that comprised our [Project Advisory Board](https://thornton.kdl.kcl.ac.uk/about/)
 
-Further, all 323 persons who feature in the Books have a biographical summary, and 46 [chk PB report] places also have narrative summaries. 
+Further, all 323 persons who feature in the Books have a biographical summary, and 44 places also have narrative summaries. 
 
 Further information on these new developments can be accessed via accompanying blogs. 
