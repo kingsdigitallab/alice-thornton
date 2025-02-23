@@ -165,7 +165,7 @@ Field, John and Thomas Wilcox. _An Admonition to the Parliament_. Hemel Hempstea
 
 Gouge, William. _Of Domesticall Duties_ […]. London: William Bladen, 1622.
 
-Grymeston, Elizabeth. _Miscelanea. Meditations. Memoratiues_. London: Felix Norton, 1604
+Grymeston, Elizabeth. _Miscelanea. Meditations. Memoratives_. London: Felix Norton, 1604
 
 Guidott, Thomas. _A Discourse of Bathe_ […]. London: Henry Brome, 1676.
 
@@ -183,7 +183,7 @@ Hobbes, Thomas. _The Questions Concerning Liberty, Necessity, and Chance_ […].
 
 Hooker, Richard. _The Works of Mr. Richard Hooker … in Eight Books of Ecclesiastical Polity_. London: Thomas Newcomb for Andrew Crook, 1666.
 
-James I and VI. _The Kings Maiesties Declaration to His Subiects, Concerning Lawfull Sports to Be Vsed England and Wales_. London: Bonham Norton and John Bill, 1618.
+James I and VI. _The Kings Majesties Declaration to His Subjects, Concerning Lawfull Sports to Be Used England and Wales_. London: Bonham Norton and John Bill, 1618.
 
 'Mrs. Thornton to Her Husband, 18 October 1664', reproduced in _The Autobiography of Mrs. Alice Thornton of East Newton, Co. York_, edited by Charles Jackson, Surtees Society 62. Durham: Andrews & Co., 1875.
 
@@ -321,7 +321,7 @@ Carlton, Charles. 'Changing Jurisdictions in 16th and 17th Century England: The 
 
 Cheney, C. R. and M. Jones, eds. _A Handbook of Dates for Students of British History_, revised edition. Cambridge: Cambridge University Press, 2000.
 
-Chiari, Sophie and Samuel Cuisinier-Delorme (eds.). _Spa Culture and Literature in England, 1500–1800_. London: Palgrave Macmillan, 2021.
+Chiari, Sophie and Samuel Cuisinier-Delorme, eds. _Spa Culture and Literature in England, 1500–1800_. London: Palgrave Macmillan, 2021.
 
 Churchill, Wendy D. _Female Patients in Early Modern Britain: Gender, Diagnosis, and Treatment_. London: Routledge, 2016.
 
@@ -385,7 +385,7 @@ Durston, Christopher. _The Family in the English Revolution_. Oxford: Blackwell,
 
 Dyer, Alan. ‘Epidemics of Measles in a Seventeenth Century English Town’. _Local Population Studies_ 34 (1985): 35–45.
 
-Earle, Rebecca. ‘Food’. In _A Cultural History of Medicine_ edited by Roger Cooter, vol. 3, _The Renaissance_, edited by Claudia Stein and Elaine Leong, 45–62. London: Bloomsbury, 2021.
+Earle, Rebecca. ‘Food’. In _A Cultural History of Medicine in the Renaissance_, edited by Claudia Stein and Elaine Leong. Vol. 3 of _A Cultural History of Medicine_, edited by Roger Cooter, 45–62. London: Bloomsbury, 2021.
 
 Eckerle, Julie A. ‘Elite English Girlhood in Early Modern Ireland: The Examples of Mary Boyle and Alice Wandesford’. In _The Youth of Early Modern Women_, edited by Elizabeth S. Cohen and Margaret Reeves, 160–77. Amsterdam: Amsterdam University Press, 2018.
 
@@ -409,7 +409,7 @@ Evans, Jennifer. ‘“It Bringeth Them into Dangerous Perill”: Management of 
 
 Farrell, Gerard. _The ‘Mere Irish’ and the Colonisation of Ulster, 1570-1641_. London: Palgrave Macmillan, 2017.
 
-Farrer, William and J Brownbill (eds.). _A History of the County of Lancaster_, vol. 4. London: VCH, 1911.
+Farrer, William and J Brownbill, eds. _A History of the County of Lancaster_, vol. 4. London: VCH, 1911.
 
 Ferris, John P. 'Osborne, Sir Edward, 1st Bt. (1596–1647), of Kiveton, Harthill, Yorks.; Formerly of Stratford Abbey, West Ham, Essex'. _HPO_.
 
@@ -437,7 +437,7 @@ Garrioch, David. ‘1666 and London’s Fire History: A Re-evaluation’. _The H
 
 Gentles, I. J. *The English Revolution and the Wars in the Three Kingdoms, 1638–1652*. London: Routledge, 2007. 
 
-Gowland, Angus. ‘Mind/Brain’. In _A Cultural History of Medicine in the Renaissance_, edited by Elaine Leong and Claudia Stein, vol. 3 of _A Cultural History of Medicine_, edited by Roger Cooter, 163–88. London: Bloomsbury, 2021.
+Gowland, Angus. ‘Mind/Brain’. In _A Cultural History of Medicine in the Renaissance_, edited by Elaine Leong and Claudia Stein. Vol. 3 of _A Cultural History of Medicine_, edited by Roger Cooter, 163–88. London: Bloomsbury, 2021.
 
 Gregory, Rabia. _Marrying Jesus in Medieval and Early Modern Northern Europe: Popular Culture and Religious Reform_. London: Routledge, 2016.
 
