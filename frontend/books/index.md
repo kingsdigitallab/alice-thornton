@@ -35,7 +35,7 @@ The text of all four manuscripts are available to read in both fully modernised 
   {%- endfor -%}
 </div>
 
-Although we have not digitised the manuscripts, we have provided some sample images from each of them to offer a sense of how the original materials look. 
+Although we have not digitised the manuscripts, we have provided some sample images from each of them to offer a sense of how the original materials look. Follow the links below and click on the book icon to view images.
 
 *Book of Remembrances*: [1](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.1&p0.vi=modern), [12](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.12&p0.vi=modern), [58](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.58&p0.vi=modern), [177](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.177&p0.vi=modern), [186](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.186&p0.vi=modern).
 
