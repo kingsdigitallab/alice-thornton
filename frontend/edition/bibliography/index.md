@@ -137,7 +137,7 @@ Charles I. _The Kings Maiesties Declaration to His Subiects, Concerning Lawfull 
 
 Coelson, Lancelot. _The Poor-Mans Physician and Chyrurgion_ […]. London: Simon Miller, 1656.
 
-Comber, Thomas (ed.). _Book of Instructions, Written by Sir Christr. Wandesforde_ […]. Cambridge: J. Archdeacon, 1777.
+Comber, Thomas, ed. _Book of Instructions, Written by Sir Christr. Wandesforde_ […]. Cambridge: J. Archdeacon, 1777.
 
 -- _Memoirs of the Life and Death of the Right Honourable the Lord Deputy Wandesforde_ […], 2nd edition. Cambridge: J. Archdeacon, 1778.
 
@@ -155,7 +155,7 @@ Donne, John. ‘Upon the Translations of the Psalms by Sir Philip Sidney, and th
 
 Dugdale, William. _Dugdale’s Visitation of Yorkshire, with Additions_, edited by J. W. Clay, 3 vols. Exeter: William Pollard, 1899–1917.
 
-Duncan, A. (trans.). _The Edinburgh New Dispensatory_ […]. Edinburgh: Bell and Bradfute, 1810.
+Duncan, A., trans. _The Edinburgh New Dispensatory_ […]. Edinburgh: Bell and Bradfute, 1810.
 
 _Eikon Basilike, with Selections from Eikonoklastes_, edited by Jim Daems and Holly Faith Nelson. Plymouth: Broadview, 2006.
 
@@ -249,11 +249,11 @@ Allemeyer, Marie Luisa. 'Profane Hazard or Divine Judgement? Coping with Urban F
 
 American Meteorological Society, 2020: [Cross sea](https://glossary.ametsoc.org/wiki/Cross_sea). Glossary of Meteorology, 2020.
 
-Anselment, Raymond A. (ed.). ‘Smallpox in Seventeenth-Century English Literature': Reality and the Metamorphosis of Wit’. _Medical History_ 33, no. 1 (1989): 72–95.
+Anselment, Raymond A. ‘Smallpox in Seventeenth-Century English Literature': Reality and the Metamorphosis of Wit’. _Medical History_ 33, no. 1 (1989): 72–95.
 
 -- ‘“My First Booke of My Life:” The Apology of a Seventeenth-Century Gentry Woman’. _Prose Studies_ 24, no. 2 (2001): 1–14.
 
--- _My First Booke of My Life: Alice Thornton_. Lincoln: University of Nebraska Press, 2014.
+-- ed. _My First Booke of My Life: Alice Thornton_. Lincoln: University of Nebraska Press, 2014.
 
 _Archaeologia Aeliana, or, Miscellaneous Tracts Relating to Antiquity_. Society of Antiquaries of Newcastle upon Tyne 2. Newcastle upon Tyne: Society of Antiquaries, 1822.
 
@@ -291,7 +291,7 @@ Beattie, Cordelia and Suzanne Trill. [‘Alice Thornton’s Heart: An Early Mode
 
 Bennett, Martyn, Ray Gillespie and R. Scott Spurlock (eds). *Cromwell and Ireland: New Perspectives*. Liverpool: Liverpool University Press, 2021. 
 
-Black, Henry Campbell (ed.). [*Black's Law Dictionary*](https://thelawdictionary.org), 2nd edition.  St Paul, MN: West Pub. Co. 1910.  
+Black, Henry Campbell, ed. [*Black's Law Dictionary*](https://thelawdictionary.org), 2nd edition.  St Paul, MN: West Pub. Co. 1910.  
 
 Blackburn, Robert. 'The Summoning and Meeting of New Parliaments in the United Kingdom’. *Legal Studies* 9, no. 2 (1989): 165–76. 
 
@@ -319,11 +319,13 @@ Carlton, Charles. 'Changing Jurisdictions in 16th and 17th Century England: The 
 
 -- _Going to the Wars: The Experience of the British Civil Wars 1638–1651_. London: Routledge, 1994.
 
-Cheney, C. R. and M. Jones (eds.). _A Handbook of Dates for Students of British History_, revised edition. Cambridge: Cambridge University Press, 2000.
+Cheney, C. R. and M. Jones, eds. _A Handbook of Dates for Students of British History_, revised edition. Cambridge: Cambridge University Press, 2000.
 
 Chiari, Sophie and Samuel Cuisinier-Delorme (eds.). _Spa Culture and Literature in England, 1500–1800_. London: Palgrave Macmillan, 2021.
 
 Churchill, Wendy D. _Female Patients in Early Modern Britain: Gender, Diagnosis, and Treatment_. London: Routledge, 2016.
+
+Chrystal, David and Ben Crystal. _Shakespeare’s Words: A Glossary & Language Companion_. London: Penguin, 2002.
 
 ['Civil Court Cases: Assize Courts 1656–1971'](https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/civil-court-cases-assize-courts-1656-1971/). _The National Archives_.
 
@@ -341,7 +343,7 @@ Coleby, Andrew M. 'Comber, Thomas (1645–1699), Dean of Durham and Liturgist'. 
 
 Collins, Jeffrey R. 'The Church Settlement of Oliver Cromwell'. _History_ 87, no. 285 (2002): 18–40.
 
-Cooper, J. T (ed.). _Dictionary of Christianity_. Abingdon: Routledge, 2013.
+Cooper, J. T., ed. _Dictionary of Christianity_. Abingdon: Routledge, 2013.
 
 Cooper, Nicholas. _Houses of the Gentry, 1480–1680_. New Haven: Yale University Press, 1999.
 
@@ -579,7 +581,7 @@ Ormerod, George. _The History of the County Palatine and City of Chester_ […].
 
 Osborough, W. N. 'The Quest for the Last Testament of Christopher Wandesford, Lord Deputy of Ireland'. In _Reflections on Law and History: Irish Legal History Society Discourses and Other Papers, 2000–2005_, edited by Norma Dawson, 1–17. Dublin: Four Courts Press, 2006.
 
-Page, William (ed.). _A History of the County of York: North Riding_, vol. 1. London: Victoria County History, 1914.
+Page, William, ed. _A History of the County of York: North Riding_, vol. 1. London: Victoria County History, 1914.
 
 Pelling, Margaret. _The Common Lot: Sickness, Medical Occupations and the Urban Poor in Early Modern England_. London: Routledge, 1998.
 
@@ -659,7 +661,7 @@ Stretton, Tim and Krista J. Kesselring. ‘Introduction: Coverture and Continu
 
 Tillott, P. M. *A History of the County of York: The City of York*. London: Victoria County History, 1961. 
  
-Trill, Suzanne, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modem England’. In *The Nature of Religious Language*, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.  
+Trill, Suzanne, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modern England’. In *The Nature of Religious Language*, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.  
 
 Trubowitz, Rachel. ‘“Nourish-Milke”: Breast-Feeding and the Crisis of Englishness, 1600–1660’. _Journal of English and Germanic Philology_ 99, no. 1 (2000): 29–49.
 
@@ -691,7 +693,7 @@ Weisser, Olivia. _Ill Composed: Sickness, Gender, and Belief in Early Modern Eng
 
 Whiteley, Rebecca. _Birth Figures: Early Modern Prints and the Pregnant Body_. Chicago: The University of Chicago Press, 2023.
 
-Whiting, C. E (ed.). The *Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
+Whiting, C. E., ed. The *Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
 
 ['Wills and Administrations'](https://web.archive.org/web/20240816040344/https://www.nationalarchives.ie/article/wills-and-administrations/). *National Archives of Ireland*.
 
