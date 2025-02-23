@@ -227,11 +227,11 @@ Evidence from _Book 3_ suggests that she had enough of her ‘Book of My Life’
 
 A Description of Several Passages very Remarkable about His Comforts and Assurance before His Decease <br/>
 
-[A Relation of My Dear Husband's Death, the 17th of September, 1668]() <br/>
+A Relation of My Dear Husband's Death, the 17th of September, 1668 <br/>
 
 [Of His Burial](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.274&p0.vi=modern) <br/>
 
-[Lamentations upon My Sad Loss]() <br/>
+Lamentations upon My Sad Loss <br/>
 
 [Prayers and Meditations upon this Heavy Dispensation, with Others upon Me](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.270&p0.vi=modern) <br/>
 
@@ -241,7 +241,7 @@ A Description of Several Passages very Remarkable about His Comforts and Assuran
 
 [Anagram upon Mr Thornton's Motto, and My Own](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.279&p0.vi=modern) <br/>
 
-['Verses upon Christ and the Church']() <br/>
+'Verses upon Christ and the Church' <br/>
 
 ['Against the Fears of Death'](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.280&p0.vi=modern) <br/>
 
