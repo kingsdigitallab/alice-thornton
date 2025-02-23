@@ -109,7 +109,7 @@ _Book 2_ covers material no later than the first year of her widowhood (1668-9) 
 
 [Upon My Deliverance of My Son, Robert Thornton, My Third Son and Seventh Child, being the First Child Born at the New House at East Newton, whose Birth was on Friday the 19th of September, 1662](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.265&p0.vi=modern) <br/>
 
-[A Relation of the Cutting Off the Entail and Deed of Settlement of Mr Covill of Leysthorpe, without my Consent or Knowledge, done by a Little Deed, which gave Possession and Seizure, *et cetera*, of the Land of Leysthorpe to Mr Francis Darley by Mr William Thornton, by Virtue of which New Settlements was Made and Other Uses Contrary to Articles of Marriage. This Deed dated September the 9th, 1665](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.274&p0.vi=modern) <br/>
+[A Relation of the Cutting Off the Entail and Deed of Settlement of Mr Covill of Leysthorpe, without my Consent or Knowledge, done by a Little Deed, which gave Possession and Seizure, *et cetera*, of the Land of Leysthorpe to Mr Francis Darley by Mr William Thornton, by Virtue of which New Settlements was Made and Other Uses Contrary to Articles of Marriage. This Deed dated September the 9th, 1665](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.248&p0.vi=modern) <br/>
 
 [Of My Desperate Sickness and Dangerous Condition I was Visited withal, beginning on Me August 16, 1666, and Cleared of the Flux of Blood](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.278&p0.vi=modern) <br/>
 
