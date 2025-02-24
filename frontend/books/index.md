@@ -43,7 +43,7 @@ Although we have not digitised the manuscripts, we have provided some sample ima
 
 *Book 2*: [1](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.1&p0.vi=modern), [13](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.13&p0.vi=modern), [176](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.176&p0.vi=modern), [224](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.224&p0.vi=modern), [278](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_two&p0.lo=p.278&p0.vi=modern).
 
-*Book 3*: [1](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.1&p0.vi=modern), [22](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.22&p0.vi=modern), [31](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.31&p0.vi=modern), [60](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.60&p0.vi=modern), [190](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.190&p0.vi=modern.).
+*Book 3*: [1](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.1&p0.vi=modern), [22](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.22&p0.vi=modern), [31](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.31&p0.vi=modern), [60](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.60&p0.vi=modern), [190](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_three&p0.lo=p.190&p0.vi=modern).
 
 
 ## Background
