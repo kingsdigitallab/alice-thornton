@@ -6,7 +6,6 @@ authors:
 - strill
 tags:
 - digital edition
-- 
 ---
 
 We have reached the end of our AHRC-funded project and are delighted to announce that the full and final version of our Digital Scholarly Edition (DSE) of Alice Thornton’s Books is now available.  
@@ -19,11 +18,10 @@ This version presents some entirely new features:
 
 + a [Timeline](https://thornton.kdl.kcl.ac.uk/timeline/) that provides a visual representation of Alice Thornton’s life and plots the events included in her Books chronologically. 
 
-+ print function (also via Edition 'Info' panel) 
++ a print function (also via Edition 'Info' panel) 
 
-The ‘About’ section has also been expanded to include further information ‘About Our Edition’ that provides our ‘Guidelines’ (i.e., the documentation relating to the process and principles by which the DSE was created), a ‘Bibliography’ of materials referenced in the Edition and details of the incredible team that comprised our [Project Advisory Board](https://thornton.kdl.kcl.ac.uk/about/)
+The ‘About’ section has also been expanded to include further information ‘About Our Edition’ that provides our ‘Editorial Guidelines’ (i.e., the documentation relating to the process and principles by which the DSE was created), a ‘Bibliography’ of materials referenced in the Edition and details of the incredible team that comprised our [Project Advisory Board](https://thornton.kdl.kcl.ac.uk/about/)
 
 Further, all 323 persons who feature in the Books have a biographical summary, and 44 places also have narrative summaries. 
-
 
 
