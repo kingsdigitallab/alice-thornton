@@ -81,7 +81,7 @@ in which vowels are omitted. Such instances have not been marked up
 distinctively but are included among substitutions. Two features of
 Thornton's orthography that may be of interest to historical linguists
 are her use of 'i' for 'c' and her frequent use of 'hn' for 'him'. While
-the former is identified in our TEI XML (see '\<choice\>' below), the
+the former is identified in our TEI XML (see ['\<choice\>'](#substitution) below), the
 latter was silently standardised.
 
 ### Modernisation 
