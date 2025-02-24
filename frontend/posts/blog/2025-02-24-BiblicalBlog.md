@@ -26,7 +26,7 @@ In *Book 1*, Thornton’s account of this episode is much expanded (to almost 16
 
 Among the additional material, however, Thornton tells us that her mother ‘frequently repeated the 71st Psalm, which she said was penned for old age’. While Alice Wandesford was not unique in this perception of Psalm 71, the provision of a specific reference is relatively unusual within Thornton’s *Books*.[^6] 
 
-Although her expression is infused with biblical citations and allusions, there are only [XX] occasions where Thornton provides a specific reference intext. Far more common is the type of practice illustrated in the paragraph prior to the reference to Psalm 71.
+Although her expression is infused with biblical citations and allusions, there are only a few occasions where Thornton provides a specific reference intext. Far more common is the type of practice illustrated in the paragraph prior to the reference to Psalm 71.
 
 ![Image detail of the first paragraph of *Book 1*, 167.]({{"/assets/img/posts/Biblical_Book1.jpg"|url}} "First paragraph of *Book 1*, 167"){.media-left}
 
