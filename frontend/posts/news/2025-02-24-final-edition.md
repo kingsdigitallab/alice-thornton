@@ -25,6 +25,7 @@ The ‘About’ section has also been expanded to include further information �
 
 Further, all 323 persons who feature in the Books have a biographical summary, and 44 places also have narrative summaries. 
 
-Thank you to everyone who has made this possible and thank you to our viewers/readers. 
+
+
 
  
