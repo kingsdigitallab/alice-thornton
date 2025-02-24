@@ -245,7 +245,7 @@ section {
         margin: 0 0 0;
         border-bottom: 0.4vw solid $lifeline;
         align-self: flex-end;
-        [data-book-id] {
+        /*[data-book-id] { //Removing based on partner's request
           &:before {
             content: attr(data-book-id);
             font-size: 1vw;
@@ -274,7 +274,7 @@ section {
             padding: 0.3vw;
             box-shadow: 0.1vw 0.1vw 0.1vw $gray;
           }
-        }
+        }*/
         &:hover {
           border-bottom: 0.4vw solid $pink;
           cursor: pointer;
@@ -720,6 +720,17 @@ section {
               padding: 0.3vw 0;
             }
           }
+          &.birthEventCount{
+            &.child-2:after {
+              top:-150%;
+            } //.child-2:after
+            &.child-4:after {
+              top:-150%;
+            } //.child-4:after
+            &.child-5:after {
+              top:-100%;
+            } //.child-5:after
+          }//&.birthEventCount
           &.marriageEventCount {
             &:after {
               transform: translateX(0%);
