@@ -28,10 +28,10 @@ Among the additional material, however, Thornton tells us that her mother ‘fre
 
 Although her expression is infused with biblical citations and allusions, there are only [XX] occasions where Thornton provides a specific reference intext. Far more common is the type of practice illustrated in the paragraph prior to the reference to Psalm 71.
 
-![Image detail of the first paragraph of *Book 1*, 167.]({{"/assets/img/posts/biblical_book1_167.jpg"|url}} "First paragraph of *Book 1*, p.167"){.media-left}
+![Image detail of the first paragraph of *Book 1*, 167.]({{"/assets/img/posts/biblical_book1_167.jpg"|url}} "First paragraph of *Book 1*, 167"){.media-left}
 
 
-As part of our work on our third research question ('How does Thornton’s engagement with contemporary legal, medical, political, and religious discourses enhance understanding of early modern women in Britain and Ireland?'), I have been identifying biblical references.  In the process, it became clear that Thornton was familiar with several different biblical translations, including the Bishop’s Bible (BB), the Geneva Bible (GB) and the King James Bible (KJV). And, although the Book of Common Prayer (BCP) was officially banned by the Parliamentarians, as a devout adherent to Church of England devotional practice, Thornton’s writing frequently alludes to the 1662 edition of the BCP (published after [the restoration of Charles II](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/). 
+As part of our work on our third research question ('How does Thornton’s engagement with contemporary legal, medical, political, and religious discourses enhance understanding of early modern women in Britain and Ireland?'), I have been identifying biblical references.  In the process, it became clear that Thornton was familiar with several different biblical translations, including the Bishop’s Bible (BB), the Geneva Bible (GB) and the King James Bible (KJV). And, although the Book of Common Prayer (BCP) was officially banned by the Parliamentarians, as a devout adherent to Church of England devotional practice, Thornton’s writing frequently alludes to the 1662 edition of the BCP, published after [the restoration of Charles II](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/). 
 
 It was also evident that Thornton’s references ranged from word-for-word quotation to general allusion, so our Digital Scholarly Edition (DSE) distinguishes these as five different types (using the @type attribute): direct, paraphrase, partial, phrase, allusion.
 
@@ -62,6 +62,7 @@ The other three types are visually represented by a cross icon only. Phrases can
 [^2]: Suzanne Trill, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modern England’. In The Nature of Religious Language, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.
 
 [^3]: Thornton, *Book Rem*, [35](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.35&p0.vi=modern)-[36](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.36&p0.vi=modern).
+
 [^4]: Sharon Howard, 'Alice Thornton's Books and Digital Editing', in forthcoming companion volume.
 
 [^5]: Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern).
