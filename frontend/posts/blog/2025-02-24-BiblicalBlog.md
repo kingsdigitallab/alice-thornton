@@ -58,8 +58,12 @@ The other three types are visually represented by a cross icon only. Phrases can
 
 
 [^1]: See also Elspeth Graham,['Remembrances of Encounters with Alice Thornton'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/)
+
 [^2]: Suzanne Trill, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modern England’. In The Nature of Religious Language, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.
+
 [^3]: Thornton, *Book Rem*, [35](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.35&p0.vi=modern)-[36](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.36&p0.vi=modern).
 [^4]: Sharon Howard, 'Alice Thornton's Books and Digital Editing', in forthcoming companion volume.
+
 [^5]: Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern).
+
 [^6]: Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern), plus ref Ps. 171 & age.
