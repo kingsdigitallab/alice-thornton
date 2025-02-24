@@ -27,5 +27,4 @@ Further, all 323 persons who feature in the Books have a biographical summary, a
 
 Thank you to everyone who has made this possible and thank you to our viewers/readers. 
 
-In some farewell good news, we have recently learned that KDL will be able to maintain the site for the next ten years
  
