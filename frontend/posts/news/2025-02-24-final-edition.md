@@ -6,7 +6,6 @@ authors:
 - strill
 tags:
 - digital edition
-- 
 ---
 
 We have reached the end of our AHRC-funded project and are delighted to announce that the full and final version of our Digital Scholarly Edition (DSE) of Alice Thornton’s Books is now available.  
