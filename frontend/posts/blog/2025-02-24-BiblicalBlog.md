@@ -12,7 +12,8 @@ tags:
 
 My very first encounter with Alice Thornton’s writing was way back in 1988 when Elspeth Graham, Elaine Hobby, Hilary Hinds and Helen Wilcox were working on the anthology that was to become *Her Own Life: Autobiographical Writings by Seventeenth-Century Englishwomen* (*HOL*). Helen was my PhD supervisor, and Elspeth gave a presentation on the trials of editing the *Book of Remembrances* from the Yale microfilm at an informal gathering of early modernists at a colleague’s flat.[^1] Fascinated by the issues it posed, I read the selection that appeared in *HOL*, included it in my PhD (where I looked at women’s use of the psalms in the early modern period) and one of my earliest publications bore a title very similar to that of this blog.[^2]
 
-![Image of the cover of *Her Own Life*.]({{ "/assets/img/posts/her_own_life_cover.jpg" | url }} "Cover Page of *Her Own Life*"){.media-right}
+![Image of the cover of *Her Own Life*.]({{"/assets/img/posts/her_own_life_cover.jpg"|url}} "Cover Page of *Her Own Life*"){.media-right}
+
 
 There, on her deathbed, Thornton observes that her mother:
 
@@ -28,7 +29,8 @@ Among the additional material, however, Thornton tells us that her mother ‘fre
 
 Although her expression is infused with biblical citations and allusions, there are only [XX] occasions where Thornton provides a specific reference intext. Far more common is the type of practice illustrated in the paragraph prior to the reference to Psalm 71.
 
-![Image detail of the first paragraph of *Book 1*, 167.]({{ "/assets/img/posts/biblical_book1_167.jpg" | url }} "First paragraph of *Book 1*, p.167"){.media-left}
+![Image detail of the first paragraph of *Book 1*, 167.]({{"/assets/img/posts/biblical_book1_167.jpg"|url}} "First paragraph of *Book 1*, p.167"){.media-left}
+
 
 As part of our work on our third research question ('How does Thornton’s engagement with contemporary legal, medical, political, and religious discourses enhance understanding of early modern women in Britain and Ireland?'), I have been identifying biblical references.  In the process, it became clear that Thornton was familiar with several different biblical translations, including the Bishop’s Bible (BB), the Geneva Bible (GB) and the King James Bible (KJV). And, although the Book of Common Prayer (BCP) was officially banned by the Parliamentarians, as a devout adherent to Church of England devotional practice, Thornton’s writing frequently alludes to the 1662 edition of the BCP (published after [the restoration of Charles II](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/). 
 
@@ -57,8 +59,8 @@ The other three types are visually represented by a cross icon only. Phrases can
 
 
 [^1] See also Elspeth Graham,['Remembrances of Encounters with Alice Thornton'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/)
-[^2]Speaking to God essay.
-[^3]Thornton, *Book Rem*, [35](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.35&p0.vi=modern)-[36](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.36&p0.vi=modern).
+[^2] Suzanne Trill, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modern England’. In The Nature of Religious Language, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.
+[^3] Thornton, *Book Rem*, [35](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.35&p0.vi=modern)-[36](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.36&p0.vi=modern).
 [^4] Sharon Howard, 'Alice Thornton's Books and Digital Editing', in forthcoming companion volume.
 [^5] Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern).
 [^6] Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern), plus ref Ps. 171 & age.
