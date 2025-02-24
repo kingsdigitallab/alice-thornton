@@ -1,7 +1,7 @@
 ---
 title: "‘Speaking to God in His Phrase and Word’: Alice Thornton’s Biblical Sources"
 feature: /assets/img/posts/Great_Bible.jpg
-status: draft
+status: live
 authors:
 - strill
 tags:
