@@ -1,5 +1,5 @@
 ---
-title: Editorial guidelines
+title: Editorial Guidelines and TEI Documentation
 toc: true
 ---
 
