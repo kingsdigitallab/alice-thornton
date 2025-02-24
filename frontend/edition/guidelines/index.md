@@ -879,17 +879,8 @@ Where the materials match a specific source, this is indicated by the
 following prefixes
 
 -   BB\_
-
-```{=html}
-<!-- -->
-```
 -   GB\_
-
 -   KJV\_
-
-```{=html}
-<!-- -->
-```
 -   BCP\_
 
 Where the phrase is not specific to one translation, it is noted simply
