@@ -1,7 +1,7 @@
 ---
 title: "Full and Final Edition Now Available"
 feature: /assets/img/posts/2025_02_24_CelebrationFinal.jpg
-status: draft
+status: live
 authors:
 - strill
 tags:
