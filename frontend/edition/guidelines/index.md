@@ -1644,7 +1644,7 @@ The transcribed and marked-up texts of the edition are held in a
 (addition) contains letters, words, or phrases inserted in the source
 text by an author, scribe, or a previous annotator or corrector.
 
-**attributes**: @place, @rend, @xml:id
+**attributes**: @place, @rend
 
 - @place values:
   - above
@@ -1749,7 +1749,7 @@ Note: @type was applied to only a few dates early in project
 deleted, or otherwise indicated as superfluous or spurious in the copy
 text by an author, scribe, or a previous annotator or corrector.
 
-**attributes**: @rend, @xml:id
+**attributes**: @rend
 
 - @rend values:
   - doublestrikethrough
@@ -1804,8 +1804,6 @@ the start or end of a section or on a title page.
 [`ex`](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHAB)
 (editorial expansion) contains a sequence of letters added by an editor
 or transcriber when expanding an abbreviation.
-
-**attributes**: @xml:id
 
 ##### \<expan\>
 
@@ -1872,7 +1870,7 @@ transcription, whether for editorial reasons described in the TEI
 header, as part of sampling practice, or because the material is
 illegible, invisible, or inaudible.
 
-**attributes**: @quantity, @reason, @unit, @xml:id
+**attributes**: @quantity, @reason, @unit
 
 - @reason values:
   - damage
@@ -1907,7 +1905,7 @@ forming part of a text, or providing an image of it.
 section, or the heading of a list, glossary, manuscript description,
 etc.
 
-**attributes**: @place, @rend, @xml:id
+**attributes**: @place, @rend
 
 - @place values:
   - centre
@@ -2112,7 +2110,7 @@ surnames, honorifics, added names, etc.
 [`placeName`](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPLAC)
 (place name) contains an absolute or relative place name.
 
-**attributes**: @n, @ref, @xml:id
+**attributes**: @n, @ref
 
 ##### \<quote\>
 
@@ -2120,7 +2118,7 @@ surnames, honorifics, added names, etc.
 (quotation) contains a phrase or passage attributed by the narrator or
 author to some agency external to the text.
 
-**attributes**: @source, @type, @xml:id
+**attributes**: @source, @type
 
 - @type values:
   - allusion
@@ -2199,8 +2197,6 @@ incorrect or inaccurate.
 (substitution) groups one or more deletions (or surplus text) with one
 or more additions when the combination is to be regarded as a single
 intervention in the text.
-
-**attributes**: @xml:id
 
 ##### \<supplied\>
 
