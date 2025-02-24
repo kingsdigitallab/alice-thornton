@@ -14,8 +14,7 @@ My very first encounter with Alice Thornton’s writing was way back in 1988 whe
 
 ![Image of the cover of *Her Own Life*.]({{"/assets/img/posts/her_own_life_cover.jpg"|url}} "Cover Page of *Her Own Life*"){.media-right}
 
-
-There, on her deathbed, Thornton observes that her mother:
+For, on her deathbed, Thornton observes that her mother:
 
 >was an example and pattern of piety, faith and patience in her greatest torment, still with godly instructions, gentle rebukes for sin, a continual praying of psalms suitable for her condition, speaking to God in his own phrase and word, saying that we could not speak to him from ourselves in such acceptable a manner as by that which was dictated by his own most Holy Spirit.[^3] 
 
@@ -50,17 +49,17 @@ The other three types are visually represented by a cross icon only. Phrases can
 + **Phrase: Matthew 16:18:** ‘And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the *gates of hell* shall not prevail against it’. 
 + **Partial: BCP Psalm 42:15:** ‘O put thy trust in God: for I will yet thank him, which is *the help of my countenance, and my God’*.
 + **Allusion: KJV Psalm 43:5:**  ‘Why art thou cast down, O my soul? and why art thou disquieted within me? *hope in God:* for I shall yet praise him, who is the health of my countenance, and my God’.
+<br>
+<br>
+<br>
+<br>
 
 
 
 
-
-
-
-
-[^1] See also Elspeth Graham,['Remembrances of Encounters with Alice Thornton'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/)
-[^2] Suzanne Trill, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modern England’. In The Nature of Religious Language, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.
-[^3] Thornton, *Book Rem*, [35](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.35&p0.vi=modern)-[36](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.36&p0.vi=modern).
-[^4] Sharon Howard, 'Alice Thornton's Books and Digital Editing', in forthcoming companion volume.
-[^5] Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern).
-[^6] Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern), plus ref Ps. 171 & age.
+[^1]: See also Elspeth Graham,['Remembrances of Encounters with Alice Thornton'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/)
+[^2]: Suzanne Trill, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modern England’. In The Nature of Religious Language, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.
+[^3]: Thornton, *Book Rem*, [35](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.35&p0.vi=modern)-[36](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.36&p0.vi=modern).
+[^4]: Sharon Howard, 'Alice Thornton's Books and Digital Editing', in forthcoming companion volume.
+[^5]: Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern).
+[^6]: Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern), plus ref Ps. 171 & age.
