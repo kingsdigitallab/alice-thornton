@@ -50,7 +50,7 @@ The other three types are visually represented by a cross icon only. Phrases can
 + **Partial: BCP Psalm 42:15:** ‘O put thy trust in God: for I will yet thank him, which is *the help of my countenance, and my God’*.
 + **Allusion: KJV Psalm 43:5:**  ‘Why art thou cast down, O my soul? and why art thou disquieted within me? *hope in God:* for I shall yet praise him, who is the health of my countenance, and my God’.
 
-Such work not only helps to make Thornton’s use of scripture visible but offers the opportunity to undertake quantitative analysis of the frequency with which she refers to particular translations and/or specific biblical books or verses. Just looking at the excel spreadsheet Sharon Howard has created from our encoding, it is immediately apparent that - like her mother - the Psalms are a significant source of inspiration for Thornton. For those interested in this kind of analysis, the TEI XML encoding can be downloaded via links in the detailed descriptions of Thornton’s [Four Books](https://thornton.kdl.kcl.ac.uk/books/).
+Such work not only helps to make Thornton’s use of scripture visible but offers the opportunity to undertake quantitative analysis of the frequency with which she refers to particular translations and/or specific biblical books or verses. Just looking at the excel spreadsheet Sharon Howard has created from our encoding, it is immediately apparent that - like her mother - the Psalms are a significant source of inspiration for Thornton. For those interested in this kind of analysis, the TEI XML encoding can be downloaded via links in the detailed descriptions of Thornton’s [four Books](https://thornton.kdl.kcl.ac.uk/books/).
 <br>
 <br>
 <br>
