@@ -120,6 +120,18 @@ section {
           content: "20";
         } //&:before
       } //tbody
+      tr{
+          &:nth-child(3){
+            td.historicalEventCount{
+              background-image: linear-gradient(90deg, #6c4826 1%, #6c4826 3%, transparent 4%, transparent 6%, #6c4826 7%, #6c4826 10%, transparent 11%);
+          }//td
+          }//&:nth-child{3)
+          &:nth-child(9){
+            td.historicalEventCount{
+              background-image: linear-gradient(90deg, #6c4826 1%, #6c4826 3%, transparent 4%, transparent 6%, #6c4826 7%, #6c4826 10%, transparent 11%);
+          }//td
+          }//&:nth-child{9)
+      }//tr
     } // &:nth-child(3)
     &:nth-child(4) {
       tbody {
