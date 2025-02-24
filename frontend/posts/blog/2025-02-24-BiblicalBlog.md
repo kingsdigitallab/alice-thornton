@@ -49,13 +49,12 @@ The other three types are visually represented by a cross icon only. Phrases can
 + **Phrase: Matthew 16:18:** ‘And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the *gates of hell* shall not prevail against it’. 
 + **Partial: BCP Psalm 42:15:** ‘O put thy trust in God: for I will yet thank him, which is *the help of my countenance, and my God’*.
 + **Allusion: KJV Psalm 43:5:**  ‘Why art thou cast down, O my soul? and why art thou disquieted within me? *hope in God:* for I shall yet praise him, who is the health of my countenance, and my God’.
-<br>
-<br>
-<br>
-<br>
 
-
-
+This work helps to make Thornton’s use of scripture visible which, in turn, demonstrates that some sections of her Books are densely saturated with such materials, while other parts include no such references at all. For those interested in analysing Thornton’s use of biblical discourses further, the TEI XML encoding can be downloaded via links in the detailed descriptions of Thornton’s [Four Books](https://thornton.kdl.kcl.ac.uk/books/).
+<br>
+<br>
+<br>
+<br>
 
 [^1]: See also Elspeth Graham,['Remembrances of Encounters with Alice Thornton'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/)
 
