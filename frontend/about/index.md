@@ -1,5 +1,5 @@
 ---
-title: About the project
+title: About the Project
 eleventyNavigation:
   key: About
   order: 4
@@ -20,7 +20,7 @@ Over the course of this project, we kept in mind three key questions:
 ## About Our Edition
  
  
-For more information on our editorial principles and practices, please read our Guidelines (*coming soon*). For a full list of the works cited in our Edition notes please see our [Bibliography](https://thornton.kdl.kcl.ac.uk/edition/bibliography/).
+For more information on our principles and practices, please read our [Editorial Guidelines](https://thornton.kdl.kcl.ac.uk/edition/guidelines/). For a full list of the works cited in our Edition notes please see our [Bibliography](https://thornton.kdl.kcl.ac.uk/edition/bibliography/).
 
 
 ## The Project Team
