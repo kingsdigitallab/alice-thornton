@@ -217,9 +217,6 @@ section {
       tbody {
         display: flex;
         flex-direction: row-reverse;
-        &:before {
-          //left:-20vw;
-        }
       }
     } //&:nth-of-type(even)
     tbody {
@@ -308,23 +305,29 @@ section {
           } //td
         } //&:hover
         &.hiddenRow {
-          background: $gray;
-          width: 89vw; // Ensure scroll bar is visible in modal
+          z-index: 9;
+          width: 60%;
+          height: 70%;
           position: fixed;
-          left: 0;
-          height: 100vh;
           top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background: rgba(255,255,255,0.6);
           overflow: scroll;
-          opacity: 1;
-          z-index: 99;
-          padding: 5vw;
-
+          padding: 100px 25% 20% 15%;
+          td{
+            background-color: $gray;
+            padding:70px 10% 0 10%;
+            width:80%;
+          }
           button.hidden-close {
-            position: fixed;
+            position: absolute;
             top: 0;
             right: 0;
             cursor: pointer;
-            background-color: white;
+            background-color: $primary;
+            color:white;
             border: none;
             padding: 0 0 15px 10px;
             font-size: 16px;
@@ -366,9 +369,11 @@ section {
                   width: 2px;
                   height: 40px;
                   margin-top: 0;
-                  left: 5px;
-                  position: absolute;
+                  left: -20px;
+                  top:29px;
+                  position: relative;
                   background: $primary;
+                  display:block;
                 }
               } //h3
             } // .container-historicalEvents
@@ -381,13 +386,16 @@ section {
                     rgba(128, 31, 0, 0.05)
                   );
                   vertical-align: bottom;
-                  position: absolute;
+                  position: relative;
                   content: "";
                   left: 0;
+                  left: -40px;
+                  top:29px;
                   clip-path: polygon(50% 0, 100% 100%, 0 100%);
-                  width: 20px;
-                  height: 30px;
+                  width: 30px;
+                  height: 40px;
                   margin-top: 3px;
+                  display:block;
                 } //::before
               } //h3
             } //.container-entityEvents
@@ -1173,3 +1181,26 @@ section {
 
   //input#filter[type="checkbox"]:checked~label.filter
 } //.guideline-wrapper
+
+
+@media screen and (max-width: 800px) {
+  #data{ 
+    table{ 
+      tbody{ 
+        tr{
+          &.hiddenRow {
+            z-index: 99;
+            margin-top: 56px;
+            width: 98%;
+            height: 70%;
+            padding: 20% 1%;
+            td{
+              padding:70px 5% 0 5%;
+              width:90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
