@@ -95,6 +95,19 @@ section {
     margin: 2vw 0 4vw 0;
     border-collapse: collapse;
     &:nth-child(2) {
+      thead{
+        &:before {
+          content: "decade";
+          font-size: 1.5vw;
+          color: rgba(0, 0, 0, 0.5);
+          left: -19.5vw;
+          top: 100%;
+          position: absolute;
+          font-family: "Kalnia Glaze", serif;
+          filter: grayscale(1);
+          margin-top: -13vw;
+        } //&:before
+      }
       tbody {
         &:before {
           content: "10";
@@ -227,7 +240,6 @@ section {
         content: "";
         font-size: 6vw;
         color: rgba(0, 0, 0, 0.2);
-        //text-shadow:0.3vw 0.3vw 0 rgba(0,0,0, 0.15);
         left: -20vw;
         top: 100%;
         position: absolute;
