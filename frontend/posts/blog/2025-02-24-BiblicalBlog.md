@@ -1,6 +1,6 @@
 ---
 title: "‘Speaking to God in His Phrase and Word’: Alice Thornton’s Biblical Sources"
-feature: /assets/img/posts/jpg
+feature: /assets/img/posts/Great_Bible.jpg
 status: draft
 authors:
 - strill
@@ -28,7 +28,7 @@ Among the additional material, however, Thornton tells us that her mother ‘fre
 
 Although her expression is infused with biblical citations and allusions, there are only [XX] occasions where Thornton provides a specific reference intext. Far more common is the type of practice illustrated in the paragraph prior to the reference to Psalm 71.
 
-![Image detail of the first paragraph of *Book 1*, 167.]({{"/assets/img/posts/biblical_book1_167.jpg"|url}} "First paragraph of *Book 1*, 167"){.media-left}
+![Image detail of the first paragraph of *Book 1*, 167.]({{"/assets/img/posts/Biblical_Book1_167.jpg"|url}} "First paragraph of *Book 1*, 167"){.media-left}
 
 
 As part of our work on our third research question ('How does Thornton’s engagement with contemporary legal, medical, political, and religious discourses enhance understanding of early modern women in Britain and Ireland?'), I have been identifying biblical references.  In the process, it became clear that Thornton was familiar with several different biblical translations, including the Bishop’s Bible (BB), the Geneva Bible (GB) and the King James Bible (KJV). And, although the Book of Common Prayer (BCP) was officially banned by the Parliamentarians, as a devout adherent to Church of England devotional practice, Thornton’s writing frequently alludes to the 1662 edition of the BCP, published after [the restoration of Charles II](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-09-12-a-house-divided/). 
