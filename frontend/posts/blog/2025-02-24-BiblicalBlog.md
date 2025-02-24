@@ -6,7 +6,7 @@ authors:
 - strill
 tags:
 - digital edition
-- TEI XML
+- TEI 
 - Biblical references
 ---
 
