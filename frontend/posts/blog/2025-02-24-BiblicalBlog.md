@@ -26,7 +26,7 @@ In *Book 1*, Thornton’s account of this episode is much expanded (to almost 16
 
 Among the additional material, however, Thornton tells us that her mother ‘frequently repeated the 71st Psalm, which she said was penned for old age’. While Alice Wandesford was not unique in this perception of Psalm 71, the provision of a specific reference is relatively unusual within Thornton’s *Books*.[^6] 
 
-Although her expression is infused with biblical citations and allusions, there are only a few occasions where Thornton provides a specific reference intext. Far more common is the type of practice illustrated in the paragraph prior to the reference to [Psalm 71]((https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern)).
+Although her expression is infused with biblical citations and allusions, there are only a few occasions where Thornton provides an intext reference. Far more common is the type of practice illustrated in the paragraph prior to the reference to [Psalm 71]((https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern)).
 
 ![Image detail of the first paragraph of *Book 1*, 167.]({{"/assets/img/posts/Biblical_Book1.jpg"|url}} "First paragraph of *Book 1*, 167"){.media-left}
 
@@ -66,4 +66,4 @@ Such work not only helps to make Thornton’s use of scripture visible but offer
 
 [^5]: Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern).
 
-[^6]: Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern). See also Susan E. Gillingham, *Psalms through the Centuries: A Reception History Commentary on Psalms 1-72* (Hoboken, NJ: Wiley Blackwell, 2018).
+[^6]: Thornton, *Book 1*, [167](https://thornton.kdl.kcl.ac.uk/edition/?p0.do=book_one&p0.lo=p.167&p0.vi=modern). See also Susan E. Gillingham, *Psalms through the Centuries: A Reception History Commentary on Psalms 1-72* (Hoboken, NJ: Wiley Blackwell, 2018), 382.
