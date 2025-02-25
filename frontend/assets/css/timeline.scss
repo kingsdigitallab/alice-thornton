@@ -704,21 +704,19 @@ section {
           &.marriageEventCount {
             &:before {
               text-underline-offset: 0.2vw;
+              text-decoration: underline;
             }
             &.child-1:before {
               content: "1";
             } //.child-1:before
             &.child-2:before {
-              content: "2";
-              text-decoration: underline; //female
+              content: "2";//female
             } //.child-1:before
             &.child-3:before {
-              content: "3";
-              text-decoration: underline; //female
+              content: "3"; //female
             } //.child-4:before
             &.child-4:before {
-              content: "4";
-              text-decoration: underline; //female
+              content: "4";//female
             } //.child-4:before
             &.child-5:before {
               content: "5";
@@ -732,20 +730,17 @@ section {
               text-decoration-style: double; //male
             } //.child-7:before
             &.child-8:before {
-              content: "8";
-              text-decoration: underline; //female
+              content: "8";//female
             } //.child-8:before
             &.child-9:before {
               content: "9";
               text-decoration-style: double; //male
             } //.child-9:before
             &.alice:before {
-              content: "T";
-              text-decoration: underline; //female
+              content: "T";//female
             } //.alice:before
             &.alice-mother:before {
-              content: "AW";
-              text-decoration: underline; //female
+              content: "AW"; //female
             } //.alice-mother:before
             &.alice-father:before {
               content: "CW";
