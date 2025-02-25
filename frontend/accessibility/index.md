@@ -18,17 +18,31 @@ We’ve also made the website text as simple as possible to understand.
 
 We know some part of this website are not fully accessible:
 
-- Dynamic content is handled with [VueJS](https://vuejs.org/) and we are aware that the rendered HTML includes custom tags that don't pass the [W3 Validator](https://validator.w3.org/). This may interfere with assistive technologies. We are still in the process of assessing the site and plan to ensure all important content, if not all, is accessible;
-- The editorial formatting on some static pages, blog and news articles is sometime inconsistent. We are aware of missing headings on blog posts and missing alternative description of images in various places. We hope to address these issues before final release early in 2025.
-- The book, version and page selectors on the text viewer may cause issues with assistive technologies due to missing labels;
-- The mentions of blank or deleted pages, lines or words in the Text Viewer may be difficult to read due to the lack of contrasting color with the background;
-- In the Text Viewer some elements are not fully accessible through keyboard navigation alone, and may not work consistently across all browsers, namely:
-  - the information box for underlined entries (such as people, place names, and events) in the text are not accessible; - the keyboard outline for the clone button on each panel appears out of sequential order;
-  - after clicking on image icon to open modal image window it may not be possible to use keyboard navigation to close that window.
-- On the search page, the long list of filters may cause issues with keyboard only users, due to some limitation of the design and layout, it is not possible to bypass the filters to view the search results. Users may find similar issues when they enlarge the page to 200% zoom;
-- In the Text Viewer, the clone button is hidden in 200% zooming to avoid overcrowding the screen with too many panes. It may not be working consistently across all browsers;
+### Various pages
 
-We hope to address the above listed accessibility issues on the Text Viewer before the final release in early 2025.
+- On the Edition and Search pages the content is handled with [VueJS](https://vuejs.org/) and we are aware that the rendered HTML includes custom tags that don't pass the [W3 Validator](https://validator.w3.org/). This may interfere with assistive technologies;
+- The top navigation menu on every page will not show the last items when the browser zoom level exceeds 200%
+
+### Edition page
+
+- The text of the edition use a narrow range of html elements, rather than the most meaningful ones matching their editorial function. The function is mainly conveyed through visual style and can't be parsed and expressed by assistive technologies such as screen readers.
+- The book, version and page selectors may cause issues with assistive technologies due to missing labels;
+- The mentions of blank or deleted pages, lines or words on the Edition may be difficult to read due to the lack of contrasting color with the background. The ⊢ ⊣ symbols demarcating events also lack sufficient contrast.
+- Some elements are not fully accessible through keyboard navigation alone, and may not work consistently across all browsers, namely:
+  - the information box for underlined entries (such as people, place names, and events) in the text are not accessible; 
+  - the keyboard outline for the clone button on each panel appears out of sequential order;
+  - after clicking on image icon to open modal image window it may not be possible to use keyboard navigation to close that window.
+- Although it is possible to access the controls to change the book, the version and the current page using the keyboard, there are unwanted or hidden elements between those controls that greatly complicate the transition between the controls.
+- The clone button is hidden in 200% zooming to avoid overcrowding the screen with too many panes. It may not be working consistently across all browsers;
+
+### Index page
+
+- On the search page, the long list of filters may cause issues for keyboard navigation alone. Due to some limitation of the design and layout, it is not possible to bypass the filters to view the search results. Users may find similar issues when they enlarge the page to 200% zoom;
+
+### Timeline page
+
+- When the page is enlarged beyond 150%, the Guidelines and Key drawer on the right hand side will not show completely on screen. The text on the timeline itself will not resize proportionally with the zoom level and remain smaller than it should be.
+- When using the keyboard to navigate the years, the Enter key will open a modal window with the events on that year. To close the model window, users need to press Enter again. Pressing the tab key on the modal is not recommended as it may move the focus to elements hidden under the modal.
 
 ## Reporting accessibility problems with this website
 
@@ -44,21 +58,24 @@ KDL is looking at fixes and alternatives to the issues listed in the "<a href="#
 
 ## Preparation of this accessibility statement
 
-This statement was prepared on 7 July 2022. It was **last reviewed on 06 November 2024**.
+This statement was initally prepared on 7 July 2022. It was **last reviewed on 25 Februart 2024** by Geoffroy Noël.
 
-This website was last tested on 06 November 2024. The test was carried out by KDL.
+This website was last tested on 25 Februat 2025. The test was carried out by KDL.
 
 We used this approach to decide on a sample of pages to test:
 
 - The <a href="/">Homepage</a>
 - The <a href="/books/">Books listing</a> page
-- The <a href="//books/book_of_remembrances/">Book About/Preview </a> page
+- The <a href="//books/book_of_remembrances/">Book of Rememberances </a> page
 - The <a href="/about/">About</a> page
 - The <a href="/posts/">Blog listing</a> page
 - The <a href="/posts/blog/2023-09-15-digital-edition-eleanor-picks/">Blog</a> page
-- The <a href="/entities/textsearch">Free text search</a> page
-- The <a href="/entities/">Entity index</a> page
+- The <a href="/entities/">Entity Index</a> page
+- The <a href="/entities/textsearch">Text Search</a> page
+- The <a href="/viewer/?p0.vi=modern">Edition</a> page
+- The <a href="/timeline/">Timeline</a> page
 - The <a href="/credits/">Credits &amp; Acknowledgements</a> page
-- The <a href="/viewer/?p0.vi=modern">Text Viewer</a> page
+- The <a href="/edition/bibliography/">Bibliography</a> page
+- The <a href="/edition/guidelines/">Edition Guidelines</a> page
 
 This page is based on the [sample template](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website) provided by gov.uk.

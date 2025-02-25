@@ -259,7 +259,7 @@ function setUpTextViewer() {
       },
       selectedPanelCitationString() {
         let citation = this.selectedPanelCitationDict;
-        return `Alice Thornton, <em>${citation.title}</em>. ${citation.date}. ${citation.version} edition by ${citation.editors}, 2024, ${citation.pageNumber}.<br> ${citation.url} (accessed ${citation.today}). `;
+        return `Alice Thornton, <em>${citation.title}</em>. ${citation.date}. ${citation.version} edition by ${citation.editors}, 2025, ${citation.pageNumber}.<br> ${citation.url} (accessed ${citation.today}). `;
       },
     },
     methods: {
