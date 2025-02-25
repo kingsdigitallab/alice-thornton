@@ -39,12 +39,12 @@ Below is a visual representation revealing the story of Alice Thornton’s life,
 <div class="initials">
 <h4>Initials</h4>
 <ul>
-<li>A: Alice</li>
-<li>AF: Alice's father</li>
-<li>AM: Alice's mother</li>
-<li>AH: Alice's husband</li>
-<li>1: Alice's 1st child</li>
-<li>9: Alice's 9th child</li>
+<li>T: Thornton</li>
+<li>CW: Thornton's father</li>
+<li>AW: Thornton's mother</li>
+<li>WT: Thornton's husband</li>
+<li>1: Thornton's 1st child</li>
+<li>9: Thornton's 9th child</li>
 </ul>
 </div>
 
