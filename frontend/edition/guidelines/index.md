@@ -667,8 +667,7 @@ the markup has been retained in the TEI XML, but they are not linked.
 
 #### Metadata
 
-Short narrative biographies were written for as many individuals as
-possible. In addition, where available, more structured metadata was
+Short narrative biographies were written for all individuals who could be identified. In addition, where available, more structured metadata was
 recorded for spouses, parents, children, birth and death dates, titles
 and married women\'s birth surnames, as well as the main sources used.
 These are not present in the DSE but (along with lists of sources) have
