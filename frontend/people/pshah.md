@@ -5,7 +5,7 @@ image: /assets/img/people/pshah.jpg
 jobTitle: UI/UX Designer
 affiliation: King's College London
 department: King's Digital Lab
-order: 15
+order: 18
 teams:
-  - none
+  - sdt
 ---
