@@ -5,7 +5,7 @@ image: /assets/img/people/showard.jpg
 jobTitle: Postdoctoral Researcher
 affiliation: University of Edinburgh
 department: History
-mainEntityOfPage: https://www.ed.ac.uk/profile/sharon-howard
+mainEntityOfPage: https://sharonhoward.org/
 order: 4
 teams:
   - research

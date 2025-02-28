@@ -14,7 +14,7 @@ tags:
   - faith
 ---
 
-March is Women's History Month and to mark it - like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-01-WHMThorntonandKempe/) - we’ve been bringing you a series of blog posts, this time on Alice Thornton and her links to various other women. In this final instalment, Jessica Malay, Emeritus Professor of Renaissance Literature at the University of Huddersfield and a member of the Alice Thornton's Books project board, compares Thornton with Anne Clifford, whose writings she has edited and of whom she is presently writing a biography. 
+March is Women's History Month and to mark it - like [last year](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-01-WHMThorntonandKempe/) - we’ve been bringing you a series of blog posts, this time on Alice Thornton and her links to various other women. In this final instalment, Jessica Malay, Emerita Professor of Renaissance Literature at the University of Huddersfield and a member of the Alice Thornton's Books project advisory board, compares Thornton with Anne Clifford, whose writings she has edited and of whom she is presently writing a biography. 
 
 ![Portrait of Clifford and her family.]({{"/assets/img/posts/clifford_family.jpg" | url}} "*The Great Picture*, a portrait of Clifford and her natal family, commissioned by her in 1646, attributed to Jan van Belcamp (1610-53).")
 

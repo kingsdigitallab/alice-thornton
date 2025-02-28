@@ -25,7 +25,7 @@ Echoing the phraseology used in both the ‘A Proclamation, for Observation of t
 
 Thornton squarely places the blame for the king’s murder on ‘the iniquities of his subjects’ whose ‘sins pulled down his ruin on him and ourselves’. It is here that she alludes to the *Eikon Basilike*:
 
->Let his admirable book speak his eternal glory and praise, the best of kings (as mere man) that ever this earth had: never defiling himself with sin or blood; of a tender, compassionate, sweet disposition; incomparably chaste and free from the least tincture of vice or profaneness.[^6]
+>Let his admirable Book speak his eternal glory and praise, the best of kings (as mere man) that ever this earth had: never defiling himself with sin or blood; of a tender, compassionate, sweet disposition; incomparably chaste and free from the least tincture of vice or profaneness.[^6]
 
 ![Photo of *Eikon Basilike*_title page, 1649.]({{"/assets/img/posts/Eikon_Basilike_1649.jpg"|url}} "Title page of *Eikon Basilike*. © Public domain, via Wikimedia Commons"){.media-left}
 
