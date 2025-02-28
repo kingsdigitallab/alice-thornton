@@ -137,7 +137,7 @@ Charles I. _The Kings Maiesties Declaration to His Subiects, Concerning Lawfull 
 
 Coelson, Lancelot. _The Poor-Mans Physician and Chyrurgion_ […]. London: Simon Miller, 1656.
 
-Comber, Thomas (ed.). _Book of Instructions, Written by Sir Christr. Wandesforde_ […]. Cambridge: J. Archdeacon, 1777.
+Comber, Thomas, ed. _Book of Instructions, Written by Sir Christr. Wandesforde_ […]. Cambridge: J. Archdeacon, 1777.
 
 -- _Memoirs of the Life and Death of the Right Honourable the Lord Deputy Wandesforde_ […], 2nd edition. Cambridge: J. Archdeacon, 1778.
 
@@ -155,7 +155,7 @@ Donne, John. ‘Upon the Translations of the Psalms by Sir Philip Sidney, and th
 
 Dugdale, William. _Dugdale’s Visitation of Yorkshire, with Additions_, edited by J. W. Clay, 3 vols. Exeter: William Pollard, 1899–1917.
 
-Duncan, A. (trans.). _The Edinburgh New Dispensatory_ […]. Edinburgh: Bell and Bradfute, 1810.
+Duncan, A., trans. _The Edinburgh New Dispensatory_ […]. Edinburgh: Bell and Bradfute, 1810.
 
 _Eikon Basilike, with Selections from Eikonoklastes_, edited by Jim Daems and Holly Faith Nelson. Plymouth: Broadview, 2006.
 
@@ -165,7 +165,7 @@ Field, John and Thomas Wilcox. _An Admonition to the Parliament_. Hemel Hempstea
 
 Gouge, William. _Of Domesticall Duties_ […]. London: William Bladen, 1622.
 
-Grymeston, Elizabeth. _Miscelanea. Meditations. Memoratiues_. London: Felix Norton, 1604
+Grymeston, Elizabeth. _Miscelanea. Meditations. Memoratives_. London: Felix Norton, 1604
 
 Guidott, Thomas. _A Discourse of Bathe_ […]. London: Henry Brome, 1676.
 
@@ -183,7 +183,7 @@ Hobbes, Thomas. _The Questions Concerning Liberty, Necessity, and Chance_ […].
 
 Hooker, Richard. _The Works of Mr. Richard Hooker … in Eight Books of Ecclesiastical Polity_. London: Thomas Newcomb for Andrew Crook, 1666.
 
-James I and VI. _The Kings Maiesties Declaration to His Subiects, Concerning Lawfull Sports to Be Vsed England and Wales_. London: Bonham Norton and John Bill, 1618.
+James I and VI. _The Kings Majesties Declaration to His Subjects, Concerning Lawfull Sports to Be Used England and Wales_. London: Bonham Norton and John Bill, 1618.
 
 'Mrs. Thornton to Her Husband, 18 October 1664', reproduced in _The Autobiography of Mrs. Alice Thornton of East Newton, Co. York_, edited by Charles Jackson, Surtees Society 62. Durham: Andrews & Co., 1875.
 
@@ -249,11 +249,11 @@ Allemeyer, Marie Luisa. 'Profane Hazard or Divine Judgement? Coping with Urban F
 
 American Meteorological Society, 2020: [Cross sea](https://glossary.ametsoc.org/wiki/Cross_sea). Glossary of Meteorology, 2020.
 
-Anselment, Raymond A. (ed.). ‘Smallpox in Seventeenth-Century English Literature': Reality and the Metamorphosis of Wit’. _Medical History_ 33, no. 1 (1989): 72–95.
+Anselment, Raymond A. ‘Smallpox in Seventeenth-Century English Literature': Reality and the Metamorphosis of Wit’. _Medical History_ 33, no. 1 (1989): 72–95.
 
 -- ‘“My First Booke of My Life:” The Apology of a Seventeenth-Century Gentry Woman’. _Prose Studies_ 24, no. 2 (2001): 1–14.
 
--- _My First Booke of My Life: Alice Thornton_. Lincoln: University of Nebraska Press, 2014.
+-- ed. _My First Booke of My Life: Alice Thornton_. Lincoln: University of Nebraska Press, 2014.
 
 _Archaeologia Aeliana, or, Miscellaneous Tracts Relating to Antiquity_. Society of Antiquaries of Newcastle upon Tyne 2. Newcastle upon Tyne: Society of Antiquaries, 1822.
 
@@ -291,7 +291,7 @@ Beattie, Cordelia and Suzanne Trill. [‘Alice Thornton’s Heart: An Early Mode
 
 Bennett, Martyn, Ray Gillespie and R. Scott Spurlock (eds). *Cromwell and Ireland: New Perspectives*. Liverpool: Liverpool University Press, 2021. 
 
-Black, Henry Campbell (ed.). [*Black's Law Dictionary*](https://thelawdictionary.org), 2nd edition.  St Paul, MN: West Pub. Co. 1910.  
+Black, Henry Campbell, ed. [*Black's Law Dictionary*](https://thelawdictionary.org), 2nd edition.  St Paul, MN: West Pub. Co. 1910.  
 
 Blackburn, Robert. 'The Summoning and Meeting of New Parliaments in the United Kingdom’. *Legal Studies* 9, no. 2 (1989): 165–76. 
 
@@ -319,11 +319,13 @@ Carlton, Charles. 'Changing Jurisdictions in 16th and 17th Century England: The 
 
 -- _Going to the Wars: The Experience of the British Civil Wars 1638–1651_. London: Routledge, 1994.
 
-Cheney, C. R. and M. Jones (eds.). _A Handbook of Dates for Students of British History_, revised edition. Cambridge: Cambridge University Press, 2000.
+Cheney, C. R. and M. Jones, eds. _A Handbook of Dates for Students of British History_, revised edition. Cambridge: Cambridge University Press, 2000.
 
-Chiari, Sophie and Samuel Cuisinier-Delorme (eds.). _Spa Culture and Literature in England, 1500–1800_. London: Palgrave Macmillan, 2021.
+Chiari, Sophie and Samuel Cuisinier-Delorme, eds. _Spa Culture and Literature in England, 1500–1800_. London: Palgrave Macmillan, 2021.
 
 Churchill, Wendy D. _Female Patients in Early Modern Britain: Gender, Diagnosis, and Treatment_. London: Routledge, 2016.
+
+Chrystal, David and Ben Crystal. _Shakespeare’s Words: A Glossary & Language Companion_. London: Penguin, 2002.
 
 ['Civil Court Cases: Assize Courts 1656–1971'](https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/civil-court-cases-assize-courts-1656-1971/). _The National Archives_.
 
@@ -341,7 +343,7 @@ Coleby, Andrew M. 'Comber, Thomas (1645–1699), Dean of Durham and Liturgist'. 
 
 Collins, Jeffrey R. 'The Church Settlement of Oliver Cromwell'. _History_ 87, no. 285 (2002): 18–40.
 
-Cooper, J. T (ed.). _Dictionary of Christianity_. Abingdon: Routledge, 2013.
+Cooper, J. T., ed. _Dictionary of Christianity_. Abingdon: Routledge, 2013.
 
 Cooper, Nicholas. _Houses of the Gentry, 1480–1680_. New Haven: Yale University Press, 1999.
 
@@ -383,7 +385,7 @@ Durston, Christopher. _The Family in the English Revolution_. Oxford: Blackwell,
 
 Dyer, Alan. ‘Epidemics of Measles in a Seventeenth Century English Town’. _Local Population Studies_ 34 (1985): 35–45.
 
-Earle, Rebecca. ‘Food’. In _A Cultural History of Medicine_ edited by Roger Cooter, vol. 3, _The Renaissance_, edited by Claudia Stein and Elaine Leong, 45–62. London: Bloomsbury, 2021.
+Earle, Rebecca. ‘Food’. In _A Cultural History of Medicine in the Renaissance_, edited by Claudia Stein and Elaine Leong. Vol. 3 of _A Cultural History of Medicine_, edited by Roger Cooter, 45–62. London: Bloomsbury, 2021.
 
 Eckerle, Julie A. ‘Elite English Girlhood in Early Modern Ireland: The Examples of Mary Boyle and Alice Wandesford’. In _The Youth of Early Modern Women_, edited by Elizabeth S. Cohen and Margaret Reeves, 160–77. Amsterdam: Amsterdam University Press, 2018.
 
@@ -407,7 +409,7 @@ Evans, Jennifer. ‘“It Bringeth Them into Dangerous Perill”: Management of 
 
 Farrell, Gerard. _The ‘Mere Irish’ and the Colonisation of Ulster, 1570-1641_. London: Palgrave Macmillan, 2017.
 
-Farrer, William and J Brownbill (eds.). _A History of the County of Lancaster_, vol. 4. London: VCH, 1911.
+Farrer, William and J Brownbill, eds. _A History of the County of Lancaster_, vol. 4. London: VCH, 1911.
 
 Ferris, John P. 'Osborne, Sir Edward, 1st Bt. (1596–1647), of Kiveton, Harthill, Yorks.; Formerly of Stratford Abbey, West Ham, Essex'. _HPO_.
 
@@ -435,7 +437,7 @@ Garrioch, David. ‘1666 and London’s Fire History: A Re-evaluation’. _The H
 
 Gentles, I. J. *The English Revolution and the Wars in the Three Kingdoms, 1638–1652*. London: Routledge, 2007. 
 
-Gowland, Angus. ‘Mind/Brain’. In _A Cultural History of Medicine in the Renaissance_, edited by Elaine Leong and Claudia Stein, vol. 3 of _A Cultural History of Medicine_, edited by Roger Cooter, 163–88. London: Bloomsbury, 2021.
+Gowland, Angus. ‘Mind/Brain’. In _A Cultural History of Medicine in the Renaissance_, edited by Elaine Leong and Claudia Stein. Vol. 3 of _A Cultural History of Medicine_, edited by Roger Cooter, 163–88. London: Bloomsbury, 2021.
 
 Gregory, Rabia. _Marrying Jesus in Medieval and Early Modern Northern Europe: Popular Culture and Religious Reform_. London: Routledge, 2016.
 
@@ -579,7 +581,7 @@ Ormerod, George. _The History of the County Palatine and City of Chester_ […].
 
 Osborough, W. N. 'The Quest for the Last Testament of Christopher Wandesford, Lord Deputy of Ireland'. In _Reflections on Law and History: Irish Legal History Society Discourses and Other Papers, 2000–2005_, edited by Norma Dawson, 1–17. Dublin: Four Courts Press, 2006.
 
-Page, William (ed.). _A History of the County of York: North Riding_, vol. 1. London: Victoria County History, 1914.
+Page, William, ed. _A History of the County of York: North Riding_, vol. 1. London: Victoria County History, 1914.
 
 Pelling, Margaret. _The Common Lot: Sickness, Medical Occupations and the Urban Poor in Early Modern England_. London: Routledge, 1998.
 
@@ -659,7 +661,7 @@ Stretton, Tim and Krista J. Kesselring. ‘Introduction: Coverture and Continu
 
 Tillott, P. M. *A History of the County of York: The City of York*. London: Victoria County History, 1961. 
  
-Trill, Suzanne, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modem England’. In *The Nature of Religious Language*, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.  
+Trill, Suzanne, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modern England’. In *The Nature of Religious Language*, edited by Stanley Porter, 269–83. Sheffield: Sheffield Academic Press, 1996.  
 
 Trubowitz, Rachel. ‘“Nourish-Milke”: Breast-Feeding and the Crisis of Englishness, 1600–1660’. _Journal of English and Germanic Philology_ 99, no. 1 (2000): 29–49.
 
@@ -685,13 +687,13 @@ Watt, Jeffrey. 'Introduction'. In _From Sin to Insanity: Suicide in Early Modern
 
 Wear, Andrew. 'Puritan Perceptions of Illness in Seventeenth Century England'. In _Patients and Practitioners: Lay Perceptions of Medicine in Pre-Industrial Society_, edited by Roy Porter, 55–100. Cambridge: Cambridge University Press, 1986.
 
-'Weather in History 1650 to 1699 AD', [Weatherweb](https://premium.weatherweb.net/weather-in-history-1650-to-1699-ad/). 
+['Weather in History 1650 to 1699 AD'](https://premium.weatherweb.net/weather-in-history-1650-to-1699-ad/), Weatherweb. 
 
 Weisser, Olivia. _Ill Composed: Sickness, Gender, and Belief in Early Modern England_. New Haven: Yale University Press, 2016.
 
 Whiteley, Rebecca. _Birth Figures: Early Modern Prints and the Pregnant Body_. Chicago: The University of Chicago Press, 2023.
 
-Whiting, C. E (ed.). The *Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
+Whiting, C. E., ed. The *Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
 
 ['Wills and Administrations'](https://web.archive.org/web/20240816040344/https://www.nationalarchives.ie/article/wills-and-administrations/). *National Archives of Ireland*.
 
