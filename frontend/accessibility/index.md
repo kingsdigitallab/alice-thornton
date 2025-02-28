@@ -37,7 +37,7 @@ We know some part of this website are not fully accessible:
 
 ### Index page
 
-- On the search page, the long list of filters may cause issues for keyboard navigation alone. Due to some limitation of the design and layout, it is not possible to bypass the filters to view the search results. Users may find similar issues when they enlarge the page to 200% zoom;
+- the long list of filters may cause issues for keyboard navigation alone. Due to some limitation of the design and layout, it is not possible to bypass the filters to view the search results. Users may find similar issues when they enlarge the page to 200% zoom;
 
 ### Timeline page
 
@@ -54,7 +54,7 @@ This website is partially compliant with the Web Content Accessibility Guideline
 
 ## What we’re doing to improve accessibility
 
-KDL is looking at fixes and alternatives to the issues listed in the "<a href="#how">How accessible this website is</a>" section. We hope to have addressed many of them before the final release in early 2025.
+This wesite is hosted by KDL, but the development ended in February 2025 and accessibility issues will only be minimally looked after during our yearly maintenance schedule. The above list of known issues is most likely final.
 
 ## Preparation of this accessibility statement
 
