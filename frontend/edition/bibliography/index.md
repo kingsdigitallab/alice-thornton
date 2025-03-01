@@ -185,6 +185,8 @@ Hooker, Richard. _The Works of Mr. Richard Hooker … in Eight Books of Ecclesia
 
 James I and VI. _The Kings Majesties Declaration to His Subjects, Concerning Lawfull Sports to Be Used England and Wales_. London: Bonham Norton and John Bill, 1618.
 
+Johnston, J. A. _Probate Inventories of Lincoln Citizens 1661–1714_. Woodbridge: Boydell and Brewer, 1991.
+
 'Mrs. Thornton to Her Husband, 18 October 1664', reproduced in _The Autobiography of Mrs. Alice Thornton of East Newton, Co. York_, edited by Charles Jackson, Surtees Society 62. Durham: Andrews & Co., 1875.
 
 Mulcaster, Richard. _Positions Wherin those Primitive Circumstances be Examined, Which are Necessary for the Training Up of Children_ […]. London: Thomas Chare, 1581.
@@ -492,8 +494,6 @@ Hutton, Ronald. _The Restoration: A Political and Religious History of England a
 -- _The Rise and Fall of Merry England: The Ritual Year 1400–1700_. Oxford: Oxford University Press, 1994.
 
 James, Anne. _Poets, Players, and Preachers: Remembering the Gunpowder Plot in Seventeenth-Century England_. Toronto: University of Toronto Press, 2016.
-
-Johnston, J. A. _Probate Inventories of Lincoln Citizens 1661–1714_. Woodbridge: Boydell and Brewer, 1991.
 
 Jones, N. G. ‘Wills, Trusts and Trusting from the Statute of Uses to Lord’. _Journal of Legal History_ 31, no. 3 (2010): 273–98.
 
