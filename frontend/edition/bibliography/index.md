@@ -187,6 +187,8 @@ James I and VI. _The Kings Majesties Declaration to His Subjects, Concerning Law
 
 Johnston, J. A. _Probate Inventories of Lincoln Citizens 1661–1714_. Woodbridge: Boydell and Brewer, 1991.
 
+Keeble, N. H., ed. _The Cultural Identity of Seventeenth-Century Woman: A Reader_. London: Routledge, 1994.
+
 'Mrs. Thornton to Her Husband, 18 October 1664', reproduced in _The Autobiography of Mrs. Alice Thornton of East Newton, Co. York_, edited by Charles Jackson, Surtees Society 62. Durham: Andrews & Co., 1875.
 
 Mulcaster, Richard. _Positions Wherin those Primitive Circumstances be Examined, Which are Necessary for the Training Up of Children_ […]. London: Thomas Chare, 1581.
@@ -496,8 +498,6 @@ Hutton, Ronald. _The Restoration: A Political and Religious History of England a
 James, Anne. _Poets, Players, and Preachers: Remembering the Gunpowder Plot in Seventeenth-Century England_. Toronto: University of Toronto Press, 2016.
 
 Jones, N. G. ‘Wills, Trusts and Trusting from the Statute of Uses to Lord’. _Journal of Legal History_ 31, no. 3 (2010): 273–98.
-
-Keeble, N. H. _The Cultural Identity of Seventeenth-Century Woman: A Reader_. London: Routledge, 1994.
 
 Keiser, George R. 'Robert Thornton: Gentleman, Reader and Scribe'. In _Robert Thornton and His Books: Essays on the Lincoln and London Thornton Manuscripts_, edited by Susanna Fein and Michael Johnston, 67–108. Woodbridge: Boydell & Brewer, 2014.
 
