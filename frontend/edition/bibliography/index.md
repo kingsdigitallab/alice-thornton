@@ -231,6 +231,8 @@ Walton, Izaak and Charles Cotton. _The Complete Angler_, edited by Richard Le Ga
 
 West, William. _The First Part of Symboleography_ […]. London: Thomas Wight and Bonham Norton, 1598.
 
+Whiting, C. E., ed. *The Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
+
 Willis, Thomas. _The London Practice of Physick_ […]. London: Thomas Basset and William Crooke, 1685.
 
 Wittie, Robert. _Scarbrough Spaw_ […]. London: Charles Tyus, 1660
@@ -692,8 +694,6 @@ Wear, Andrew. 'Puritan Perceptions of Illness in Seventeenth Century England'. I
 Weisser, Olivia. _Ill Composed: Sickness, Gender, and Belief in Early Modern England_. New Haven: Yale University Press, 2016.
 
 Whiteley, Rebecca. _Birth Figures: Early Modern Prints and the Pregnant Body_. Chicago: The University of Chicago Press, 2023.
-
-Whiting, C. E., ed. The *Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
 
 ['Wills and Administrations'](https://web.archive.org/web/20240816040344/https://www.nationalarchives.ie/article/wills-and-administrations/). *National Archives of Ireland*.
 
