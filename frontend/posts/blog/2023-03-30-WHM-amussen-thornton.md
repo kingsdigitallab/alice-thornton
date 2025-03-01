@@ -9,7 +9,7 @@ tags:
   - law
 ---
 
-For Women’s History Month 2023, we have been posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on [Twitter](https://twitter.com/thornton_books) or on [Facebook](https://www.facebook.com/thornton.books).
+For Women’s History Month 2023, we have been posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections on social media.
 
 Fourth in the series is [Professor Susan Amussen](https://ucmerced.d8.theopenscholar.com/samussen/), a social and cultural historian of early modern Britain based at University of California Merced, who first encountered Thornton's writings in 1977.
 
