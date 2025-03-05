@@ -16,7 +16,7 @@ We’ve also made the website text as simple as possible to understand.
 
 ## <a id="how"></a>How accessible this website is
 
-We know some part of this website are not fully accessible:
+We know some parts of this website are not fully accessible:
 
 ### Various pages
 
@@ -46,7 +46,7 @@ We know some part of this website are not fully accessible:
 
 ## Reporting accessibility problems with this website
 
-Please email Jo.Edge@ed.ac.uk with details of the problems.
+Please email alicethorntonsbooks@gmail.com with details of the problems.
 
 ## Compliance status
 
@@ -58,9 +58,9 @@ This wesite is hosted by KDL, but the development ended in February 2025 and acc
 
 ## Preparation of this accessibility statement
 
-This statement was initally prepared on 7 July 2022. It was **last reviewed on 25 Februart 2024** by Geoffroy Noël.
+This statement was initally prepared on 7 July 2022. It was **last reviewed on 25 February 2025** by Geoffroy Noël.
 
-This website was last tested on 25 Februat 2025. The test was carried out by KDL.
+This website was last tested on 25 February 2025. The test was carried out by KDL.
 
 We used this approach to decide on a sample of pages to test:
 
