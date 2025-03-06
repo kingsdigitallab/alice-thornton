@@ -56,7 +56,7 @@ Such work not only helps to make Thornton’s use of scripture visible but offer
 <br>
 <br>
 
-[^1]: See also Elspeth Graham,['Remembrances of Encounters with Alice Thornton'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/)
+[^1]: See also Elspeth Graham,['Women’s History Month 2023, 3: Remembrances of Encounters with Alice Thornton'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-03-14-remembrances-encounters-elspeth-graham/).
 
 [^2]: Suzanne Trill, ‘“Speaking to God in His Phrase and Word”: Women's Use of the Psalms in Early Modern England’. In *The Nature of Religious Language*, edited by Stanley Porter (Sheffield: Sheffield Academic Press, 1996), 269–83. 
 

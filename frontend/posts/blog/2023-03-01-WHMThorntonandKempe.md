@@ -10,7 +10,7 @@ tags:
   - law
 ---
 
-For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on [Twitter](https://twitter.com/thornton_books) or on [Facebook](https://www.facebook.com/thornton.books).
+For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections on social media.
 
 First up is project PI, [Cordelia Beattie](https://thornton.kdl.kcl.ac.uk/people/cbeattie/):
 
@@ -38,7 +38,7 @@ When I found [another missing Thornton manuscript](https://thornton.kdl.kcl.ac.u
 
 In the intervening years, I had worked a lot on premodern women and the law, from their limited ability to [make wills as married women](https://lawandhistoryreview.org/article/married-womens-property-a-medieval-perspective/) to their [submissions to the court of Chancery](https://www.englandsimmigrants.com/page/individual-studies/working-for-a-venetian-merchant-in-fifteenth-century-england). I knew I wanted to work further on Book 2 and I will be talking about ‘this grand concern of my life’, as Thornton called it, at the RSA San Juan on [9 March](https://rsa.confex.com/rsa/2023/meetingapp.cgi/Paper/14198).[^5]
 
-While I do sometimes think of Margery Kempe when reading Alice Thornton’s Books – with her complaints of mistreatment by friends and family and her marmite persona - my reading of these texts has changed a lot since 2000. Rather than look at those passages of childbirth out of context, I appreciate the opportunity to read the books as Thornton intended them to be read. And I am excited that we will get the opportunity to share that experience with you all when we publish the full digital edition [here](https://thornton.kdl.kcl.ac.uk/books/) in summer 2024.
+While I do sometimes think of Margery Kempe when reading Alice Thornton’s Books – with her complaints of mistreatment by friends and family and her marmite persona - my reading of these texts has changed a lot since 2000. Rather than look at those passages of childbirth out of context, I appreciate the opportunity to read the books as Thornton intended them to be read. And I am excited that we will get the opportunity to share that experience with you all when we publish the full digital edition [here](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.1&p0.vi=modern) at the end of the project.
 
 [^1]: Ralph Houlbrooke, _English Family Life, 1576-1716: An Anthology from Diaries_ (Oxford: Basil Blackwell, 1988), 119-24.
 [^2]: Houlbrooke, _English Family Life_, 120.

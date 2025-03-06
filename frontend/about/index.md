@@ -20,7 +20,7 @@ Over the course of this project, we kept in mind three key questions:
 ## About Our Edition
  
  
-For more information on our principles and practices, please read our [Editorial Guidelines](/edition/guidelines/). For a full list of the works cited in our Edition notes please see our [Bibliography](/edition/bibliography/).
+For more information on our principles and practices, please read our Guidelines. For a full list of the works cited in our Edition notes please see our Bibliography.
 
 <p>
    <a href="/edition/guidelines/" class="button is-secondary">Guidelines</a>&nbsp;&nbsp;&nbsp;
