@@ -142,8 +142,8 @@ eleventyNavigation:
               <li class="person">Entity (Person) <br><span>dashed underline (circle icon) </span></li>
               <li class="place">Entity (Place) <br><span>dashed underline (square icon) </span></li>
               <li class="event">Entity (Event) <br><span>dashed underline (start and end time icon) </span></li>
-              <li class="biblical">Biblical reference (direct, paraphrase) <br><span>gray black underline (cross icon) </span></li>
-              <li>Biblical reference (phrase, allusion, partial) <br><span>cross icon only</span></li>
+              <li class="biblical">Biblical reference (direct, paraphrase) <br><span>gray dashed underline (cross icon) </span></li>
+              <li class="biblical2">Biblical reference (phrase, allusion, partial) <br><span>gray solid underline (cross icon)</span></li>
             </ul> 
             <h3>Images</h3>
             <ul class="key-list">
