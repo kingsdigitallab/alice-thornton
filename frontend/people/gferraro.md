@@ -2,10 +2,10 @@
 firstName: Ginestra
 lastName: Ferraro
 image: /assets/img/people/gferraro.jpg
-jobTitle: Senior UI/UX Designer
+jobTitle: Senior Research Software UI/UX Designer
 affiliation: King's College London
 department: King's Digital Lab
-order: 11
+order: 12
 teams:
   - sdt
 ---
