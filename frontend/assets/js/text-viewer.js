@@ -8,7 +8,7 @@ const ENTITIES_URL =
 const CHILD_HOVERED_CLASS = "child-hovered";
 // This should ideally come from the frontmatter of the book pages
 const BOOK_EDITORS =
-  "Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Ginestra Ferraro, Geoffroy Noël, Tiffany Ong and Priyal Shah";
+  "Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard, Paul Caton, Mary Chester-Kadwell, Ginestra Ferraro, Geoffroy Noël, Tiffany Ong and Priyal Shah";
 const BOOKS_META = {
   book_of_remembrances: {
     title: "Book of Remembrances",
