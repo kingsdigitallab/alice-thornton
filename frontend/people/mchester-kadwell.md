@@ -5,7 +5,7 @@ image: /assets/img/people/mchester-kadwell.jpg
 jobTitle: Senior Research Software Engineer
 affiliation: King's College London
 department: King's Digital Lab
-order: 17
+order: 11
 teams:
   - sdt
 ---
