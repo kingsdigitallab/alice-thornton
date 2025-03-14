@@ -29,7 +29,7 @@ For more information on our principles and practices, please read our Guidelines
 
 ## The Project Team
 
-‘Alice Thornton’s Books’ brought together historians, literary scholars and digital analysts from the University of Edinburgh and King’s Digital Lab.
+‘Alice Thornton’s Books’ brought together historians, literary scholars and digital analysts and research software engineers from the University of Edinburgh and [King's Digital Lab](https://kdl.kcl.ac.uk/) (KDL) at King's College, London.
 
 {% include 'team.liquid', team: 'research' %}
 
