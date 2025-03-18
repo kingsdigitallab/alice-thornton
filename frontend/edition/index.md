@@ -102,7 +102,7 @@ eleventyNavigation:
               <li class="dashed">Authorial repetition<sup>*</sup><br><span>dashed box around the material</span></li>
               <li class="bracket">Items bracketed together<sup>*</sup><br><span>Curly bracket on the right of text</span></li>
               <li class="strikethrough">Text deleted by author that remains legible<sup>*</sup><br><span>strikethrough – words or   characters are crossed through with a single line</span></li>
-              <li class="doublestrikethrough">Text deleted by author that is no longer legible<sup>*</sup><br><span>strikethrough –   bracketed two 'x' crossed through with single line</span></li>
+              <li class="doublestrikethrough">Text deleted by author that is no longer legible<sup>*</sup><br><span>an 'x' in square brackets per obscured character or characters</span></li>
               <li class="supplied">Material supplied by the editors<sup>*</sup><br><span>square brackets around the material</span></li>
               <li class="heart">Used by Thornton in place of the word 'heart'<br>
                 <span>Heart icon - a glyph or non-standard character</span>
