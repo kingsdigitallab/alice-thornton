@@ -17,13 +17,13 @@ Small autograph manuscript volume (H133mm x W96mm x D13mm) with the title ‘A B
 
 ## Provenance
 
-Owned by Thomas Comber, of Newton-le-Willows (1875); Rev. Mr Edward F. Comber, Wrenbury, Cheshire (1936); Philip Comber, Ludlow (2018); and given to Durham Cathedral Library (2019). A microfilm copy is held by [Yale University Library](https://hdl.handle.net/10079/bibid/615720).
+Owned by Thomas Comber, of Newton-le-Willows (1875); Rev. Mr Edward F. Comber, Wrenbury, Cheshire (1936); Patrick Comber, Ludlow (2018); and given to Durham Cathedral Library (2019). A microfilm copy is held by [Yale University Library](https://hdl.handle.net/10079/bibid/615720).
 
 ## Dating
 
 Anselment notes that this Book cannot ‘be dated with any certainty’.[^1] Although it opens by recording Thornton’s date of birth ([page 3](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.3&p0.vi=modern)) and the first entry is dated 1631 ([page 11](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.11&p0.vi=modern)), the length and detail of the entries increase from 1659 and there is a reference to being called on to give testimony by Lord Danby in the backmatter, which occurred c.1673. Other annotations suggest that Thornton revised her entries. On this basis, we conjecture that the majority of this Book was composed between 1659-68.
 
-[## Contents, using Thornton's Index](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.177&p0.vi=modern)
+## Contents, using Thornton's [Index](https://thornton.kdl.kcl.ac.uk/edition/?p0.lo=p.177&p0.vi=modern)
 
 [The Age of Alice Wandesford](https://thornton.kdl.kcl.ac.uk/books/viewer/?p0.lo=p.3&p0.vi=modern)<br/>
 

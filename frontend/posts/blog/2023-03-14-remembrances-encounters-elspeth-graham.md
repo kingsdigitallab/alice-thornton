@@ -10,7 +10,7 @@ tags:
   - illness
 ---
 
-For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections, on [Twitter](https://twitter.com/thornton_books) or on [Facebook](https://www.facebook.com/thornton.books).
+For Women’s History Month 2023, we are posting a series of reflections on our first encounters with Alice Thornton and our changing relationship with her books from then to now. Feel free to get involved by sending us your own reflections on social media.
 
 This guest post is by Professor Elspeth Graham, a member of the _Alice Thornton's Books_ project board. She works in the field of late sixteenth and seventeenth century literature and cultural studies and has published on seventeenth-century women’s writing.
 

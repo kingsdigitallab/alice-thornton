@@ -16,7 +16,7 @@ We’ve also made the website text as simple as possible to understand.
 
 ## <a id="how"></a>How accessible this website is
 
-We know some part of this website are not fully accessible:
+We know some parts of this website are not fully accessible:
 
 ### Various pages
 
@@ -37,7 +37,7 @@ We know some part of this website are not fully accessible:
 
 ### Index page
 
-- On the search page, the long list of filters may cause issues for keyboard navigation alone. Due to some limitation of the design and layout, it is not possible to bypass the filters to view the search results. Users may find similar issues when they enlarge the page to 200% zoom;
+- the long list of filters may cause issues for keyboard navigation alone. Due to some limitation of the design and layout, it is not possible to bypass the filters to view the search results. Users may find similar issues when they enlarge the page to 200% zoom;
 
 ### Timeline page
 
@@ -46,7 +46,7 @@ We know some part of this website are not fully accessible:
 
 ## Reporting accessibility problems with this website
 
-Please email Jo.Edge@ed.ac.uk with details of the problems.
+Please email alicethorntonsbooks@gmail.com with details of the problems.
 
 ## Compliance status
 
@@ -54,13 +54,13 @@ This website is partially compliant with the Web Content Accessibility Guideline
 
 ## What we’re doing to improve accessibility
 
-KDL is looking at fixes and alternatives to the issues listed in the "<a href="#how">How accessible this website is</a>" section. We hope to have addressed many of them before the final release in early 2025.
+This wesite is hosted by KDL, but the development ended in February 2025 and accessibility issues will only be minimally looked after during our yearly maintenance schedule. The above list of known issues is most likely final.
 
 ## Preparation of this accessibility statement
 
-This statement was initally prepared on 7 July 2022. It was **last reviewed on 25 Februart 2024** by Geoffroy Noël.
+This statement was initally prepared on 7 July 2022. It was **last reviewed on 25 February 2025** by Geoffroy Noël.
 
-This website was last tested on 25 Februat 2025. The test was carried out by KDL.
+This website was last tested on 25 February 2025. The test was carried out by KDL.
 
 We used this approach to decide on a sample of pages to test:
 

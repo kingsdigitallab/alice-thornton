@@ -58,7 +58,7 @@ In 2018 and 2019, Cordelia Beattie located the other two manuscripts: one was st
 
 These are the four Books that make up our digital edition.
 
-It has become common to refer to Thornton’s Books as the _Book of Remembrances_ (DCL, GB-0033-CCOM 38), _Book 1_ (BL, Add. MS 88897/1), _Book 2_ (DCL, GB-0033-CCOM 7), and _Book 3_ (BL, Add. MS 88897/2). However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential. A key issue this project sought to address, using our editorial and markup practice, is why and how these Books are interconnected.
+It has become common to refer to Thornton’s Books as the _Book of Remembrances_ (DCL, GB-0033-CCOM 38), _Book 1_ (BL, Add. MS 88897/1), _Book 2_ (DCL, GB-0033-CCOM 7), and _Book 3_ (BL, Add. MS 88897/2). However, material evidence suggests that the relationship between Thornton’s Books is not straightforwardly sequential. A key issue this project sought to address, using [our editorial and markup practice](https://thornton.kdl.kcl.ac.uk/edition/guidelines/), is why and how these Books are interconnected.
 
 We prefer the following fuller titles, which use descriptions derived from her writings:
 

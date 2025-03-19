@@ -185,6 +185,10 @@ Hooker, Richard. _The Works of Mr. Richard Hooker … in Eight Books of Ecclesia
 
 James I and VI. _The Kings Majesties Declaration to His Subjects, Concerning Lawfull Sports to Be Used England and Wales_. London: Bonham Norton and John Bill, 1618.
 
+Johnston, J. A. _Probate Inventories of Lincoln Citizens 1661–1714_. Woodbridge: Boydell and Brewer, 1991.
+
+Keeble, N. H., ed. _The Cultural Identity of Seventeenth-Century Woman: A Reader_. London: Routledge, 1994.
+
 'Mrs. Thornton to Her Husband, 18 October 1664', reproduced in _The Autobiography of Mrs. Alice Thornton of East Newton, Co. York_, edited by Charles Jackson, Surtees Society 62. Durham: Andrews & Co., 1875.
 
 Mulcaster, Richard. _Positions Wherin those Primitive Circumstances be Examined, Which are Necessary for the Training Up of Children_ […]. London: Thomas Chare, 1581.
@@ -230,6 +234,8 @@ _The Truest Relation of the Earle of Straffords Speech on the Scaffold on Tower-
 Walton, Izaak and Charles Cotton. _The Complete Angler_, edited by Richard Le Gallienne. London: John Lane, 1897.
 
 West, William. _The First Part of Symboleography_ […]. London: Thomas Wight and Bonham Norton, 1598.
+
+Whiting, C. E., ed. *The Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
 
 Willis, Thomas. _The London Practice of Physick_ […]. London: Thomas Basset and William Crooke, 1685.
 
@@ -491,11 +497,7 @@ Hutton, Ronald. _The Restoration: A Political and Religious History of England a
 
 James, Anne. _Poets, Players, and Preachers: Remembering the Gunpowder Plot in Seventeenth-Century England_. Toronto: University of Toronto Press, 2016.
 
-Johnston, J. A. _Probate Inventories of Lincoln Citizens 1661–1714_. Woodbridge: Boydell and Brewer, 1991.
-
 Jones, N. G. ‘Wills, Trusts and Trusting from the Statute of Uses to Lord’. _Journal of Legal History_ 31, no. 3 (2010): 273–98.
-
-Keeble, N. H. _The Cultural Identity of Seventeenth-Century Woman: A Reader_. London: Routledge, 1994.
 
 Keiser, George R. 'Robert Thornton: Gentleman, Reader and Scribe'. In _Robert Thornton and His Books: Essays on the Lincoln and London Thornton Manuscripts_, edited by Susanna Fein and Michael Johnston, 67–108. Woodbridge: Boydell & Brewer, 2014.
 
@@ -692,8 +694,6 @@ Wear, Andrew. 'Puritan Perceptions of Illness in Seventeenth Century England'. I
 Weisser, Olivia. _Ill Composed: Sickness, Gender, and Belief in Early Modern England_. New Haven: Yale University Press, 2016.
 
 Whiteley, Rebecca. _Birth Figures: Early Modern Prints and the Pregnant Body_. Chicago: The University of Chicago Press, 2023.
-
-Whiting, C. E., ed. The *Autobiographies and Letters of Thomas Comber*, 2 vols. Durham: Andrews and Co., 1946. 
 
 ['Wills and Administrations'](https://web.archive.org/web/20240816040344/https://www.nationalarchives.ie/article/wills-and-administrations/). *National Archives of Ireland*.
 
