@@ -25,7 +25,7 @@ module.exports = function () {
       },
     ],
     people_teams: {
-      sdt: "Solution Development Team",
+      sdt: "KDL Solution Development Team",
       research: "Research Team",
       editorial: "Editorial Team",
     },
