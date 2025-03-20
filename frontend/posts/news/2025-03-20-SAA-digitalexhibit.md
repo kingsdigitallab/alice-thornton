@@ -1,7 +1,7 @@
 ---
 title: "Alice Thornton's Books as a Digital Exhibit at the SAA, Boston"
 feature: /assets/img/posts/firstpages.jpg 
-status: live
+status: draft
 authors:
   - cbeattie
 tags:
