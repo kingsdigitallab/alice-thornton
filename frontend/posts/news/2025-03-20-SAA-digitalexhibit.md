@@ -7,6 +7,7 @@ authors:
 tags:
 - digital edition
 - TEI
+---
 
 On March 21st 2025, the Alice Thornton's Books team will be demonstrating the Digital Edition at the [Shakespeare Association of America](https://shakespeareassociation.org/annual-meetings/2025-schedule/) meeting in Boston.
 
