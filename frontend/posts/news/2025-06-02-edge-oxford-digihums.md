@@ -1,6 +1,6 @@
 ---
 title: "Edge to speak about Thornton project in Oxford"
-feature: 
+feature: /assets/img/posts/from-pen-to-pixel_vf.jpg
 status: draft
 authors:
   - cbeattie
