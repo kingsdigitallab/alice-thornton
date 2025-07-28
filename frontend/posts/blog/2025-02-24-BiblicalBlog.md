@@ -7,7 +7,6 @@ authors:
 tags:
 - digital edition
 - TEI 
-- Biblical references
 ---
 
 My very first encounter with Alice Thornton’s writing was way back in 1988 when Elspeth Graham, Elaine Hobby, Hilary Hinds and Helen Wilcox were working on the anthology that was to become *Her Own Life: Autobiographical Writings by Seventeenth-Century Englishwomen* (*HOL*). Helen was my PhD supervisor, and Elspeth gave a presentation on the trials of editing the *Book of Remembrances* from the Yale microfilm at an informal gathering of early modernists at a colleague’s flat.[^1] Fascinated by the issues it posed, I read the selection that appeared in *HOL*, included it in my PhD (where I looked at women’s use of the psalms in the early modern period) and one of my earliest publications bore a title very similar to that of this blog.[^2]
