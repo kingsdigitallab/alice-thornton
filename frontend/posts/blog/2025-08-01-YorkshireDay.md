@@ -4,7 +4,8 @@ feature: /assets/img/posts/1664_map_North_Riding.jpg
 status: draft 
 authors:
 - cbeattie
-tags: yorkshire
+tags: 
+- yorkshire
 
 An earlier version of this post was published in the Briefing magazine of the XXX in XXXX.
 
