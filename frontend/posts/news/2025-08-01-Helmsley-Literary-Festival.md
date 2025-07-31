@@ -9,7 +9,7 @@ tags:
   - deliverances
 ---
 
-Another opportunity to catch a performance of 'The Remarkable Deliverances of Alice Thornton' in her native North Yorkshire! [Debbie Cannon](https://debbiecannon.org/)'s acclaimed one-women show is part of this year's [Helmsley Literary Festival](https://www.helmsleyarts.co.uk/whats-on/helmsley-literary-festival-2025) in September.  
+Another opportunity to catch a performance of 'The Remarkable Deliverances of Alice Thornton' in Thornton's home territory, North Yorkshire! [Debbie Cannon](https://debbiecannon.org/)'s acclaimed one-women show is part of this year's [Helmsley Literary Festival](https://www.helmsleyarts.co.uk/whats-on/helmsley-literary-festival-2025) in September.  
 
 Tickets are already [on sale](https://www.helmsleyarts.co.uk/whats-on/helmsley-literary-festival-the-remarkable-deliverances-of-alice-thornton-1626-1707) for a performance at Helmsley Arts Centre on Saturday 13 September, 7-8pm.
 
