@@ -1,6 +1,6 @@
 ---
 title: "Thornton Play at Helmsley Literary Festival in September"
-feature: /assets/img/posts/HLF.jpg
+feature: /assets/img/posts/annedanby.jpg
 status: live
 authors:
   - cbeattie
