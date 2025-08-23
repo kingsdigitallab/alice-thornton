@@ -4,6 +4,7 @@ feature: /assets/img/posts/2025_02_24_CelebrationFinal.jpg
 status: draft
 authors:
 - cbeattie
+- strill
 tags:
 - media
 ---
