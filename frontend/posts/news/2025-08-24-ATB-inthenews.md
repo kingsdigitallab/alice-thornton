@@ -1,7 +1,7 @@
 ---
 title: "Alice Thornton's Books is in the News"
 feature: /assets/img/posts/2025_02_24_CelebrationFinal.jpg
-status: draft
+status: live
 authors:
 - cbeattie
 - strill
