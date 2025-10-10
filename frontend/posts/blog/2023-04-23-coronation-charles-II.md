@@ -34,7 +34,7 @@ Nally had three or four ‘fits of convulsions’ while sheltering in a local sh
 
 In Yorkshire, the date of the Restoration – 29 May – continued to be celebrated as [Oak Apple Day](https://www.thenorthernecho.co.uk/news/6950621.national-celebration-died-living-memory/) until the 1940s, a reference to the oak tree the king was said to have hidden in to escape Cromwell’s army in 1651.
 
-[Pepys also recorded](https://www.pepysdiary.com/diary/1660/05/29/) celebratory gunfire in London on 29 May 1660 for the king’s birthday, as well as on the later date of the coronation. 
+[Pepys also recorded](https://www.pepysdiary.com/diary/1660/05/29/) celebratory gunfire on 29 May 1660 for the king’s birthday, as well as on the later date of the coronation. 
 
 [^1]: E.g. Alice Thornton, *Book 1: The First Book of My Life*, British Library MS Add 88897/1, 182 (180 in our pagination): ‘A thanksgiveing for the restoration of King Charles the second. of his Coronation May. 29th 1660’; Alice Thornton, *Book 2: The First Book of My Widowed Condition*, Durham Cathedral Library, GB-0033-CCOM 7 (hereafter _Book 2_), 180, 183 (182, 185 in our pagination).
 [^2]: The text quoted above is from our work-in-progress edition of Alice Thornton's Books. The text is modernised in the body of the blog and the semi-diplomatic transcription is reproduced here in the notes: ‘They had a shew att Richmond of all kinds of sports & country exprssions of Joy & amongst the rest they shott of musketts & had Soldiers & the Towns men of Richmond appeared in Armour’. _Book 2_, 183 (185 in our edition).
