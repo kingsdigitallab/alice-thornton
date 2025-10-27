@@ -1,7 +1,7 @@
 ---
 title: "Alice Thornton's Books Wins Award"
 feature: /assets/img/posts/2025-SSEMWG-Screenshot.jpg
-status: draft
+status: live
 authors:
 - cbeattie
 - strill
