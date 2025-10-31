@@ -15,6 +15,7 @@ This event will be in-person: 5.15pm-6.30pm, November 5, 2025. Lecture Theatre G
 
 Tickets are free and available via the link above or by scanning the QR code in the image.
 
+![Image of the advertisement for Trill's inaugural with QR code.]({{"/assets/img/posts/InauguralQR.jpg"|url}} "Inaugural Details"){.media-left}
 
 **Overview**
 
