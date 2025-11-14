@@ -8,7 +8,7 @@ tags:
 - blogs
 ---
 
-This post was originally published on 30 May 2023 for the British Libray's Untold Lives series.
+This post was originally published on 30 May 2023 for the British Library's Untold Lives series.
 
 
 ‘Bringing up a chicken to peck out their eye’: A niece’s betrayal
