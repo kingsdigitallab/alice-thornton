@@ -1,5 +1,5 @@
 ---
-title: ‘Bringing up a chicken to peck out their eye’: A niece’s betrayal
+title: ‘Bringing up a chicken to peck out their eye’. A niece’s betrayal
 feature: 
 status: draft 
 authors:
