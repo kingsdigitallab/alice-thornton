@@ -28,8 +28,7 @@ This story about her pet chicken, though, soon turns into an account of why she 
 
 >‘There was some who jested with me and said they had heard of an old saying of bringing up a chicken to peck out their eye. But now they saw I had made good that old saying both in this bird and [in] what harm I had suffered from Mrs Danby of whom I had been so careful and preserved her and hers from starving.’
 
-Thornton's account of her niece's betrayal
-‘Upon my sad condition and sickness that befell me by the slanders raised against me, July 20th 1668’: Add MS 88897/1, page 246.
+![Thornton's account of her niece's betrayal.]({{"/assets/img/posts/Bk1Slander.jpg" | url}} "‘Upon my sad condition and sickness that befell me by the slanders raised against me, July 20th 1668’: Add MS 88897/1, page 246.")
 
 It seems likely from internal evidence that Thornton was writing this final book in the 1690s, after the death of her only adult son. This loss might explain why Thornton writes so much about Danby’s earlier betrayal. Thornton’s main heir was now her daughter, also named Alice, who was married to Thomas Comber. Thornton’s close relationship with Comber was one of the topics of Danby’s gossip, as was his marriage to Thornton’s daughter (then only fourteen) in late 1668. Thornton was perhaps keen to set the record straight about this match a quarter of a century later, when the Thornton name was dying out and being succeeded by that of the Combers. 
 
