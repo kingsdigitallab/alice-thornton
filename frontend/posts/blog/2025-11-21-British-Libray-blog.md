@@ -33,7 +33,7 @@ Thornton's account of her niece's betrayal
 
 It seems likely from internal evidence that Thornton was writing this final book in the 1690s, after the death of her only adult son. This loss might explain why Thornton writes so much about Danby’s earlier betrayal. Thornton’s main heir was now her daughter, also named Alice, who was married to Thomas Comber. Thornton’s close relationship with Comber was one of the topics of Danby’s gossip, as was his marriage to Thornton’s daughter (then only fourteen) in late 1668. Thornton was perhaps keen to set the record straight about this match a quarter of a century later, when the Thornton name was dying out and being succeeded by that of the Combers. 
 
-The motives behind Thornton’s writing four versions of her life are being tackled by an AHRC-funded project, ‘Alice Thornton’s Books’, which will also make freely available an online edition of all four manuscripts.
+The motives behind Thornton’s writing four versions of her life are being tackled by an AHRC-funded project, [‘Alice Thornton’s Books’](https://thornton.kdl.kcl.ac.uk/), which will also make freely available an online edition of all four manuscripts.
 
 ![Chicken pecking the ground from a music score.]({{"/assets/img/posts/.BLhen.jpg" | url}} "Detail of a chicken pecking the ground, from a music score, 1650. British Library shelfmark: 59.e.19, between pages 30-31.")
 
