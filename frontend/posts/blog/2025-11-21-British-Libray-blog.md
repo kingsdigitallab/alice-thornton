@@ -20,13 +20,13 @@ Flyleaf of Add MS 88897/2, with Thornton’s monogram (AWT), the date of her hus
 
 Halfway through Thornton’s final autobiographical account, she tells a story about the writing of an earlier book:
 
-‘About March 25, 1669, I was writing of my first book of my life to enter the sad sicknesses and death of my dear husband, together with all those afflictions befell me that year, with the remarks of God’s dealing with myself, husband and children until my widowed condition… There happened [to] me then a very strange and dangerous accident… as I was writing in my said book, I took out this poor chicken, out of my pocket, to feed it with bread and set it on the table besides me. It, picking about the bread innocently, did peep up at my left eye … [and] picked one pick at the white of my left eye … which did so extremely smart and ache that I could not look up or see.’
+>‘About March 25, 1669, I was writing of my first book of my life to enter the sad sicknesses and death of my dear husband, together with all those afflictions befell me that year, with the remarks of God’s dealing with myself, husband and children until my widowed condition… There happened [to] me then a very strange and dangerous accident… as I was writing in my said book, I took out this poor chicken, out of my pocket, to feed it with bread and set it on the table besides me. It, picking about the bread innocently, did peep up at my left eye … [and] picked one pick at the white of my left eye … which did so extremely smart and ache that I could not look up or see.’
 
 ![Thornton's account of the incident with the chick.]({{"/assets/img/posts/Book3Chicken.jpg" | url}} "Thornton recounts the incident with the chick, below the line: Add MS 88897/2, page 177.")
 
 This story about her pet chicken, though, soon turns into an account of why she never forgave her niece, Anne Danby, for spreading rumours about her and her family, a topic that much consumes her in this final book. Danby – like the chick – had been taken in, fed and looked after by Thornton. This connection is explicitly made by Thornton:  
 
-‘There was some who jested with me and said they had heard of an old saying of bringing up a chicken to peck out their eye. But now they saw I had made good that old saying both in this bird and [in] what harm I had suffered from Mrs Danby of whom I had been so careful and preserved her and hers from starving.’
+>‘There was some who jested with me and said they had heard of an old saying of bringing up a chicken to peck out their eye. But now they saw I had made good that old saying both in this bird and [in] what harm I had suffered from Mrs Danby of whom I had been so careful and preserved her and hers from starving.’
 
 Thornton's account of her niece's betrayal
 ‘Upon my sad condition and sickness that befell me by the slanders raised against me, July 20th 1668’: Add MS 88897/1, page 246.
