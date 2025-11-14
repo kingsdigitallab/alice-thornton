@@ -1,6 +1,6 @@
 ---
 title: ‘Bringing up a chicken to peck out their eye’. A niece’s betrayal
-feature: 
+feature: /assets/img/posts/BLHen.jpg
 status: draft 
 authors:
 - cbeattie
