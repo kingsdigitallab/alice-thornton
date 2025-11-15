@@ -47,6 +47,6 @@ Further Reading:
 
 Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard. ['The Four Books By Alice Thornton'](https://thornton.kdl.kcl.ac.uk/books/). Alice Thornton's Books 
 
-Charles Jackson. Ed. The Autobiography of Mrs. Alice Thornton of East Newton, Co. York. Durham: Surtees Society, 1875
+Charles Jackson. Ed. *The Autobiography of Mrs. Alice Thornton of East Newton, Co. York*. Durham: Surtees Society, 1875
 
-Alice Thornton, My First Booke of My Life, ed. Raymond A. Anselment (Lincoln: University of Nebraska Press, 2014)
+Alice Thornton, *My First Booke of My Life*, ed. Raymond A. Anselment (Lincoln: University of Nebraska Press, 2014)
