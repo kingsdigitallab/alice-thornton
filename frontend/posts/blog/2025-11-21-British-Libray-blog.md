@@ -15,7 +15,7 @@ This post was originally published on 30 May 2023 for the British Library's Unto
 
 Alice Thornton (1626–1707), a Yorkshire gentlewoman, made sure that her life didn’t go untold by writing at least four versions of it in the 1660s to 1690s, two of which were acquired by the British Library in 2009. But why was she so keen to record her life and what was the significance of a chick-induced eye injury which she included?
 
-![Flyleaf of Book 3.]({{"/assets/img/posts/Book3Cover.jpg" | url}} "Flyleaf of Add MS 88897/2, with Thornton’s monogram (AWT), the date of her husband’s death and a later inscription by her grandson.")
+![Flyleaf of Book 3.]({{"/assets/img/posts/Bk3Cover.jpg" | url}} "Flyleaf of Add MS 88897/2, with Thornton’s monogram (AWT), the date of her husband’s death and a later inscription by her grandson.")
 
 Halfway through Thornton’s final autobiographical account, she tells a story about the writing of an earlier book:
 
