@@ -33,7 +33,7 @@ It seems likely from internal evidence that Thornton was writing this final book
 
 The motives behind Thornton’s writing four versions of her life are being tackled by an AHRC-funded project, [‘Alice Thornton’s Books’](https://thornton.kdl.kcl.ac.uk/), which will also make freely available an online edition of all four manuscripts.
 
-![Chicken pecking the ground from a music score.]({{"/assets/img/posts/.BLhen.jpg" | url}} "Detail of a chicken pecking the ground, from a music score, 1650. British Library shelfmark: 59.e.19, between pages 30-31.")
+![Chicken pecking the ground from a music score.]({{"/assets/img/posts/BLhen.jpg" | url}} "Detail of a chicken pecking the ground, from a music score, 1650. British Library shelfmark: 59.e.19, between pages 30-31.")
 
 
 We haven’t been able to trace the saying about the chicken and the eye – have you heard it before?
