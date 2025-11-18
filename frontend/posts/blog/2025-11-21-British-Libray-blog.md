@@ -6,6 +6,7 @@ authors:
 - cbeattie
 tags: 
 - blogs
+- manuscripts
 ---
 <p>&nbsp;</p>
 This post was originally published on 30 May 2023 for the British Library's Untold Lives series.
