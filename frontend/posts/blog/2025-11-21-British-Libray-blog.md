@@ -9,7 +9,7 @@ tags:
 - manuscripts
 ---
 <p>&nbsp;</p>
-This post was originally published on 30 May 2023 for the British Library's Untold Lives series.
+This post was originally published on 30 May 2023 for the British Library's [Untold Lives](https://web.archive.org/web/20250318104513/https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html) series.
 
 <p>&nbsp;</p>
 
