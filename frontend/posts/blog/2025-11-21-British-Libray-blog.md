@@ -7,11 +7,10 @@ authors:
 tags: 
 - blogs
 ---
-
+<p>&nbsp;</p>
 This post was originally published on 30 May 2023 for the British Library's Untold Lives series.
 
-
-## ‘Bringing up a chicken to peck out their eye’: A niece’s betrayal
+<p>&nbsp;</p>
 
 Alice Thornton (1626–1707), a Yorkshire gentlewoman, made sure that her life didn’t go untold by writing at least four versions of it in the 1660s to 1690s, two of which were acquired by the British Library in 2009. But why was she so keen to record her life and what was the significance of a chick-induced eye injury which she included?
 
@@ -37,13 +36,15 @@ The motives behind Thornton’s writing four versions of her life are being tack
 
 
 We haven’t been able to trace the saying about the chicken and the eye – have you heard it before?
+<p>&nbsp;</p>
 
 CC-BY Cordelia Beattie
 Professor of Women’s and Gender History, University of Edinburgh
 
 Creative Commons Attribution licence
+<p>&nbsp;</p>
 
-Further Reading:
+## Further Reading:
 
 Cordelia Beattie, Suzanne Trill, Joanne Edge, Sharon Howard. ['The Four Books By Alice Thornton'](https://thornton.kdl.kcl.ac.uk/books/). Alice Thornton's Books 
 
