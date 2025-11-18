@@ -520,7 +520,7 @@ section {
               background: white;
               width: 100%;
               margin-bottom: 3vw;
-              padding: 3vw 3vw 0 5vw;
+              padding: 3vw 3vw 0 3vw;
             }
             h3 {
               font-size: 30px;
@@ -531,76 +531,6 @@ section {
               height:0;
               padding:0;
             }
-            .container-lifetimeEvents {
-              position: relative;
-              h3 {
-                &:before {
-                  background-image: linear-gradient(
-                    0deg,
-                    rgba(128, 31, 0, 0.4) 6%,
-                    rgba(128, 31, 0, 0) 100%
-                  );
-                  position: relative;
-                  content: "";
-                  left: -40px;
-                  top:10px;
-                  border-radius: 50%;
-                  border: 4px double $secondary;
-                  width: 22px;
-                  height: 22px;
-                  display:block;
-                  background-repeat: no-repeat;
-                  z-index: 1;
-                }//&::before
-                &:after {
-                  position: relative;
-                  content: "";
-                  width:30px;
-                  height:18px;
-                  background:black;
-                  left: -40px;
-                  top:-23px;
-                  display:block;
-                }
-              } //h3
-            } // .container-lifetimeEvents 
-            .container-historicalEvents {
-              h3 {
-                &:before {
-                  content: "";
-                  width: 2px;
-                  height: 40px;
-                  margin-top: 0;
-                  left: -20px;
-                  top:29px;
-                  position: relative;
-                  background: $primary;
-                  display:block;
-                }
-              } //h3
-            } // .container-historicalEvents
-            .container-entityEvents {
-              h3 {
-                &:before {
-                  background-image: linear-gradient(
-                    180deg,
-                    rgba(70, 34, 0, 0.7),
-                    rgba(128, 31, 0, 0.05)
-                  );
-                  vertical-align: bottom;
-                  position: relative;
-                  content: "";
-                  left: 0;
-                  left: -40px;
-                  top:29px;
-                  clip-path: polygon(50% 0, 100% 100%, 0 100%);
-                  width: 30px;
-                  height: 40px;
-                  margin-top: 3px;
-                  display:block;
-                } //::before
-              } //h3
-            } //.container-entityEvents
             ul {
               margin-bottom: 70px;
               li {
