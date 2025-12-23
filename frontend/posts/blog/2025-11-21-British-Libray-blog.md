@@ -17,7 +17,7 @@ Alice Thornton (1626–1707), a Yorkshire gentlewoman, made sure that her life d
 
 ![Flyleaf of Book 3.]({{"/assets/img/posts/Bk3Cover.jpg" | url}} "Flyleaf of Add MS 88897/2, with Thornton’s monogram (AWT), the date of her husband’s death and a later inscription by her grandson.")
 
-Halfway through Thornton’s final autobiographical account, she tells a story about the writing of an earlier book:
+Halfway through Thornton’s [final autobiographical account](https://searcharchives.bl.uk/catalog/040-000000147), she tells a story about the writing of [an earlier book](https://searcharchives.bl.uk/catalog/040-000000143):
 
 >‘About March 25, 1669, I was writing of my first book of my life to enter the sad sicknesses and death of my dear husband, together with all those afflictions befell me that year, with the remarks of God’s dealing with myself, husband and children until my widowed condition… There happened [to] me then a very strange and dangerous accident… as I was writing in my said book, I took out this poor chicken, out of my pocket, to feed it with bread and set it on the table besides me. It, picking about the bread innocently, did peep up at my left eye … [and] picked one pick at the white of my left eye … which did so extremely smart and ache that I could not look up or see.’
 
