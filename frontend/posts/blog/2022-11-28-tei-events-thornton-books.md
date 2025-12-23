@@ -26,7 +26,7 @@ In an [earlier post](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-08-25-encodi
 > him. And I seeing a fit of his palsy drawing on was extremely
 > against his going at that time.[^2]
 
-There are striking differences between these two accounts of the same event a few days before William Thornton's death in September 1668. Why? We think that Alice Thornton wrote the first within a few months of his death and the second many years later. In the course of the later book it transpires that he had gone to Malton seeking revenge for slurs against Alice put about by one Charles Tancred, but she didn't know of this until some time later. It seems likely that this distressing piece of information influenced her later memory (which, as we already know, [was not always reliable](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/)).
+There are striking differences between these two accounts of the same event a few days before William Thornton's death in September 1668. Why? We think that Alice Thornton wrote the first within a few months of his death and the second many years later. In the course of the later book it transpires that he had gone to Malton seeking revenge for slurs against Alice put about by one Mr Tancred, but she didn't know of this until some time later. It seems likely that this distressing piece of information influenced her later memory (which, as we already know, [was not always reliable](https://thornton.kdl.kcl.ac.uk/posts/blog/2022-07-25-alice-thornton-middleham-castle/)).
 
 ## Identifying and linking events
 
