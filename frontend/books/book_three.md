@@ -7,7 +7,7 @@ itemLocation: Add. MS 88897/2
 numberOfPages: 217
 dateCreated: c.1692-96
 image: /assets/img/books/Book3FrontCover.jpg
-archivedAt: 
+archivedAt: https://searcharchives.bl.uk/catalog/040-000000147
 contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/refs/heads/edition/texts/03_book_three/book_three.xml
 ---
 
