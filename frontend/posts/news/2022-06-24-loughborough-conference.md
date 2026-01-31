@@ -13,4 +13,4 @@ Cordelia Beattie (PI), Suzanne Trill (Co-I) and Sharon Howard (PDRA) will be spe
 
 We will speak on our progress to date towards a digital edition of the four manuscript books of Alice Thornton. At this point in the project, we are focusing on why Thornton wrote four different autobiographical volumes and how they relate to each other. It is already clear that their contents raise questions about both the composition process and their intended audiences. To begin the process of addressing these questions, we have transcribed all four manuscripts, and begun the process of editing them and tagging them so that users could read them continuously as single volumes, side-by-side in semi-diplomatic transcription and modernised form, and/or compare variant accounts of the same events. Our panel will explore the practical and technical issues involved in the project and invite feedback from potential users of the digital edition.
 
-For the full programme see https://www.aphrabehn.online/conference-programme/
+For the full programme see [here](https://www.aphrabehn.online/how-to-do-things-with-early-modern-words-final-programme/).
