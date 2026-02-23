@@ -1,7 +1,7 @@
 ---
 title: "Beattie to speak about Thornton project in Glasgow"
 feature: /assets/img/posts/penknife_cropped.jpg
-status: draft
+status: live
 authors:
 - cbeattie
 tags:
