@@ -289,7 +289,7 @@ Beattie, Cordelia. ‘The Life Cycle: The Ages of Medieval Women’. In _A Cultu
 
 -- ['Alice Thornton on the Coronation of Charles II: The North Remembers (sort of)'](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-04-23-coronation-charles-II/). _Alice Thornton's Books_, 23 April 2023.
 
--- [‘“Bringing up a chicken to peck out their eye”: A niece’s betrayal’](https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html), _British Library: Untold Lives_, 30 May 2023.
+-- [‘“Bringing up a chicken to peck out their eye”: A niece’s betrayal’](https://web.archive.org/web/20250826090959/https://blogs.bl.uk/untoldlives/2023/05/bringing-up-a-chicken-to-peck-out-their-eye-a-nieces-betrayal.html), _British Library: Untold Lives_, 30 May 2023.
 
 -- [‘Finding Alice Thornton's Letters’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/), _Alice Thornton’s Books_, 1 September 2023.
 
