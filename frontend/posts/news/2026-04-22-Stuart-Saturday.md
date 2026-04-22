@@ -1,5 +1,5 @@
 ---
-title: "Beattie interviewed on Stuart Saturday"
+title: "Beattie interviewed on Stuart Saturday Live"
 feature: /assets/img/posts/StuartSaturday.jpg
 status: live
 authors:
