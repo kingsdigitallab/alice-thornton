@@ -1,7 +1,7 @@
 ---
 title: "Beattie interviewed on Stuart Saturday"
 feature: /assets/img/posts/StuartSaturday.jpg
-status: draft
+status: live
 authors:
 - cbeattie
 tags:
