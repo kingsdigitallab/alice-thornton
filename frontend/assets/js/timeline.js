@@ -221,7 +221,7 @@ function createTableForEachDecade(data) {
   // Scaled value is used in the frontend by the CSS to control the size of visual elements
   const scale = d3
     .scalePow()
-    .exponent(0.8)
+    .exponent(0.5)
     .domain([0, maxEventCount])
     .range([0, 80]);
 

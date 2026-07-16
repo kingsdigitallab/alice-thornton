@@ -7,7 +7,7 @@ itemLocation: Add. MS 88897/1
 numberOfPages: 309
 dateCreated: c.1668-87
 image: /assets/img/books/Book1FrontCover.jpg
-archivedAt: 
+archivedAt: https://searcharchives.bl.uk/catalog/040-000000143
 contentUrl: https://raw.githubusercontent.com/kingsdigitallab/alice-thornton/refs/heads/edition/texts/01_book_one/book_one.xml
 ---
 

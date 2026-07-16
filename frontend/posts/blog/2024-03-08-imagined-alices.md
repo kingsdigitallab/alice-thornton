@@ -29,7 +29,7 @@ Unfortunately, since the 1875 reference to that portrait was made, its whereabou
 
 ## Portraits of Thornton's father
 
-![An original 17th-century portrait of Christopher Wandesford by Vandyke]({{"/assets/img/posts/cwandesford1.jpg" | url}} "A 17th-century portrait of Christopher Wandesford by Vandyke"){.media-left}
+![An original 17th-century portrait of Christopher Wandesford]({{"/assets/img/posts/cwandesford1.jpg" | url}} "A 17th-century portrait of Christopher Wandesford"){.media-left}
 
 While we hope the paintings may one day be recovered, in the meantime, we have sometimes shared an image of the closest relative of Alice who we do have an portrait of: her father, Christopher Wandesford (1592-1640). Previously, we had only seen the 19th-century copy of this 17th-century portrait, but we are now in touch with the line of descendants who own the original. We have their kind permission to share it here. As well as this painting, the Prior-Wandesforde family own a second original portrait of Christopher Wandesford.
 
