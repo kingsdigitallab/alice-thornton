@@ -27,7 +27,7 @@ customCSS: "/assets/css/timeline.css"
 <div class="col1">
   <h4>Events</h4>
 <ul class="events">
-  <li>Alice's Life</li>
+  <li>Thornton's Life</li>
   <li>1 Historical event</li>
   <span>less  ‹–––––––––––––––––› more</span>
   <li>Number of book events</li>
@@ -50,7 +50,7 @@ customCSS: "/assets/css/timeline.css"
 <li><span>CW</span> Thornton's father</li>
 <li><span>AW</span> Thornton's mother</li>
 <li><span>WT</span> Thornton's husband</li>
-  <li><span>1-9</span> Alice's 1st - 9th child</li>
+  <li><span>1-9</span> Thornton's 1st - 9th child</li>
     <li><span>0</span> Female</li>
   <li><span>0</span> Male</li>
 </ul>
