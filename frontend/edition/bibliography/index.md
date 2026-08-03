@@ -681,7 +681,7 @@ Wallis, Patrick and Chris Minns. ‘The Price of Human Capital in a Pre-industri
 
 Walsham, Alexandra. _Providence in Early Modern England_. Oxford: Oxford University Press, 1999.
 
--- ‘Coming of Age in Faith: The Rite of Confirmation after the English Reformation. _Studies in Church History_ 59 (2023): 164–97.
+-- ‘Coming of Age in Faith: The Rite of Confirmation after the English Reformation'. _Studies in Church History_ 59 (2023): 164–97.
 
 Walters, H. B. _Church Bells of England_. London: Henry Frowde, 1912.
 
