@@ -293,7 +293,7 @@ Beattie, Cordelia. ‘The Life Cycle: The Ages of Medieval Women’. In _A Cultu
 
 -- [‘Finding Alice Thornton's Letters’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-09-01-Thornton-Letters/), _Alice Thornton’s Books_, 1 September 2023.
 
-Beattie, Cordelia and Suzanne Trill. [‘Alice Thornton’s Heart: An Early Modern Emoji’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/). _Alice Thornton’s Books_, 17 March 2023.
+Beattie, Cordelia and Suzanne Trill. [‘Alice Thornton’s Heart: An Early Modern Emoji’](https://thornton.kdl.kcl.ac.uk/posts/blog/2023-02-13-AliceThorntonsHeart-Blog/). _Alice Thornton’s Books_, 13 February 2023.
 
 Bennett, Martyn, Ray Gillespie and R. Scott Spurlock (eds). *Cromwell and Ireland: New Perspectives*. Liverpool: Liverpool University Press, 2021. 
 
