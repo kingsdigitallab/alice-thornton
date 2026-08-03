@@ -673,7 +673,7 @@ van Asselt, Willem J. ‘Christ, Predestination, and Covenant in Post-Reformatio
 
 van Dixhoorn, Chad. ‘The Seventeenth Century and the Westminster Assembly’. In _The Oxford Handbook of Presbyterianism_, edited by Gary Scott Smith and P. C. Kemeny, 29–49. Oxford: Oxford University Press, 2019.
 
-Vincent, Susan. _Dressing the Elite: Dressing the Elite Clothes in Early Modern England_. Oxford: Berg, 2003.
+Vincent, Susan. _Dressing the Elite: Clothes in Early Modern England_. Oxford: Berg, 2003.
 
 Walker, Garthine. ‘Expanding the Boundaries of Female Honour in Early Modern England’. _Transactions of the Royal Historical Society_ 6 (1996): 235–45.
 
