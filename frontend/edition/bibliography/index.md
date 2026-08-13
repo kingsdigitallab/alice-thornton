@@ -41,7 +41,7 @@ What follows is a complete list of the works cited in our edition notes.
 
 **Dublin, NLI**
 
-'Probate Copies of the Will of Lord Deputy Christopher Wandesforde; Nos. 196 & 196A, 2 Oct 1640; Copies Made Apr 1647 & Dec 1659'. Ms 35,458 (1).
+'Probate Copies of the Will of Lord Deputy Christopher Wandesforde; Nos. 196 & 196A, 2 Oct 1640; Copies Made Apr 1647 & Dec 1659'. MS 35,458 (1).
 
 **Durham, DCL**
 
