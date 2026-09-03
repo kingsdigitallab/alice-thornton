@@ -1,5 +1,5 @@
 ---
-title: "Beattie to speak on Thornton at Lady Anne Clifford Event"
+title: "Northern Ladies: Beattie to speak at Lady Anne Clifford Event in Skipton"
 feature: /assets/img/posts/CliffordCover.jpeg
 status: draft
 authors:
