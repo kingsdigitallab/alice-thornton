@@ -20,6 +20,8 @@ Alice Thornton was a seventeenth-century gentlewoman who lived through the uphea
 
 This event will feature two short performances by the actors who portray Alice Thornton ([Debbie Cannon](https://debbiecannon.org/the-remarkable-deliverances-of-alice-thornton/)) and Isabella Whitney (Atira Shack). This will be followed by a panel discussion with the organisers and writers about the process of dramatising early modern women for the contemporary stage, and the potential for creative work to take historical and literary research to new audiences, chaired by director [Flavia D'Avila](https://alumni.wp.st-andrews.ac.uk/2025/12/01/a-full-circle-moment-from-student-to-part-of-the-curriculum/). 
 
+<br>
+
 Location: G.03, Doorway 6, Medical School, Teviot.
 Time: 4.30-6pm
 
