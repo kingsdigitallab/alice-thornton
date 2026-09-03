@@ -21,7 +21,7 @@ This event will feature two short performances by the actors who portray Alice T
 Location: G.03, Doorway 6, Medical School, Teviot.
 Time: 4.30-6pm
 
-![A photograph of an open printed book]({{"/assets/img/posts/WhitneyBook.jpg" | url}}"Isabella Whitney, A Sweet Nosgay. 1573. BL, C.39.b.45. Anna-Rose Shack.") 
+![A photograph of an open printed book]({{"/assets/img/posts/WhitneyBook.jpeg" | url}} "Isabella Whitney, A Sweet Nosgay. 1573. BL, C.39.b.45. Anna-Rose Shack.") 
 
 
 
