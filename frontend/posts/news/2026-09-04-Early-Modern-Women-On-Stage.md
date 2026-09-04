@@ -1,7 +1,7 @@
 ---
 title: "Panel Event: Early Modern Women Take to the Stage"
 feature: /assets/img/posts/annedanby.jpg
-status: draft
+status: live
 authors:
   - cbeattie
 tags:
