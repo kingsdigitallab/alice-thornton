@@ -10,7 +10,7 @@ tags:
 
 ---
 
-On Thursday 15 October 2026 we are holding a panel event in Edinburgh, supported by the [Centre for Historical Reconstruction Research](https://www.eca.ed.ac.uk/groups-and-clusters/centre-historical-reconstruction-research-cfhrr) and [DERIVATE](https://www.voncontzen.uni-freiburg.de/derivate/), entitled 'Early Modern Women Take to the Stage: Creative Responses to the Past'. 
+On Thursday 15 October 2026 we are holding two performed readings followed by a panel who will answer questions. This event, entitled 'Early Modern Women Take to the Stage: Creative Responses to the Past', is supported by the [Centre for Historical Reconstruction Research](https://www.eca.ed.ac.uk/groups-and-clusters/centre-historical-reconstruction-research-cfhrr) and [DERIVATE](https://www.voncontzen.uni-freiburg.de/derivate/). 
 
 ![A photograph of an open printed book]({{"/assets/img/posts/WhitneyBook.jpeg" | url}} "Isabella Whitney, A Sweet Nosgay. 1573. BL, C.39.b.45. Anna-Rose Shack."){.media-right} 
 
