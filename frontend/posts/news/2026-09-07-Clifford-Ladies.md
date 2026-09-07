@@ -1,7 +1,7 @@
 ---
 title: "Northern Ladies: Beattie to speak at Lady Anne Clifford Event in Skipton"
 feature: /assets/img/posts/CliffordCover.jpeg
-status: draft
+status: live
 authors:
   - cbeattie
 tags:
