@@ -22,7 +22,7 @@ This event will feature two short performances by the actors who portray Alice T
 
 <br>
 
-Location: G.03, Doorway 6, Medical School, Teviot.
+Location: G.03, Doorway 6, Old Medical School, Teviot Place, Edinburgh EH8 9AG. 
 Time: 4.30-6pm
 
 
